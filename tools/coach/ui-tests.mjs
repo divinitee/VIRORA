@@ -93,5 +93,23 @@ for (const lang of ["en", "uz", "ru"]) {
   ok("ru: \"счёт\" is never offered next to the correct \"счет\", and a headword meaning the same is never an option", nearHits === 0);
   const caseDup = buildWordQuestions(target, [target, W("x1", "Pear", "Nok ", "Груша"), pool[1], pool[2], pool[3], pool[4]], { depth: "remediation", lang: "ru", rnd });
   ok("options are distinct ignoring case and spaces", caseDup.every((q) => new Set(q.options.map((o) => o.toLowerCase().trim())).size === q.options.length));
+  // Review of the bundle on live rows: senses, qualifiers and the other script.
+  const confident = W("cf", "confident", "ishonchli", "уверенный");
+  const senseMix = [confident, W("ce", "certain", "aniq; ishonchli", "уверенный; определённый"), W("tr", "tree", "daraxt (yog'och)", "дерево"), W("wd", "wood", "yog'och", "дерево (материал)"),
+    W("cd", "on CD/DVD/video", "CD/DVD/videoda", "на CD/DVD/видео"), W("cb", "carbon footprint", "karbon izи", "углеродный след"), pool[1], pool[2], pool[3], pool[4]];
+  let secondRight = 0, latinRu = 0, cyrUz = 0, treeDup = 0;
+  for (let i = 0; i < 300; i++) {
+    for (const q of buildWordQuestions(confident, senseMix, { depth: "remediation", lang: "ru", rnd })) {
+      if (q.type === "translation" && q.options.includes("certain")) secondRight++;
+      if (q.type === "multiple_choice" && q.options.some((o) => o !== q.correct && /уверенный/.test(o))) secondRight++;
+      if (q.type === "multiple_choice" && q.options.some((o) => /[A-Za-z]/.test(o))) latinRu++;
+    }
+    for (const q of buildWordQuestions(senseMix[2], senseMix, { depth: "remediation", lang: "ru", rnd })) if (q.type === "multiple_choice" && q.options.filter((o) => /дерево/.test(o)).length > 1) treeDup++;
+    for (const q of buildWordQuestions(confident, senseMix, { depth: "remediation", lang: "uz", rnd })) if (q.type === "multiple_choice" && q.options.some((o) => /[\u0400-\u04FF]/.test(o))) cyrUz++;
+  }
+  ok("a word whose meanings include the target's (\"уверенный; определённый\") is never offered", secondRight === 0, String(secondRight));
+  ok("\"дерево\" and \"дерево (материал)\" never appear together", treeDup === 0, String(treeDup));
+  ok("ru: no distractor with Latin letters (\"на CD/DVD/видео\"); uz: no distractor with Cyrillic letters", latinRu === 0 && cyrUz === 0, `${latinRu}/${cyrUz}`);
+  ok("a target written with Latin letters in Russian is still playable (only distractors are filtered)", buildWordQuestions(senseMix[4], senseMix, { depth: "probe", lang: "ru", rnd })[0]?.correct === "на CD/DVD/видео");
 }
 console.log(`\n${pass} passed, ${fail} failed`);

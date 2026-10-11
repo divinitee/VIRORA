@@ -248,7 +248,7 @@ function Onboarding({ data, t, color, onDone, onBack }) {
     <Shell onBack={onBack}>
       <div className="premium-card rounded-[28px] p-6">
         <div className="flex items-center gap-4 mb-4"><Orb color={color} /><h1 className="text-xl font-bold text-foreground">{t("onboarding_title")}</h1></div>
-        <p className="text-sm text-foreground">{t("hello", { n: data.settings.minutes })}</p>
+        <p className="text-sm text-foreground">{t("hello", { n: minutes })}</p>
         <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mt-6 mb-2">{t("onboarding_goal")}</p>
         <div className="grid gap-2">
           {goals.map((g) => (
@@ -339,7 +339,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
             // Distractors from the planned words' own levels (the first 60 by English were all "a…" words,
             // which gave the answer away on "Which English word?").
             const levels = [...new Set(ids.map((id) => wordCache.get(id)?.cefr).filter(Boolean))];
-            const extra = (await base44.entities.VocabularyWord.filter(levels.length ? { cefr: { $in: levels } } : {}, "id", 200).catch(() => [])) || [];
+            const extra = (await base44.entities.VocabularyWord.filter(levels.length ? { cefr: { $in: levels } } : {}, "id", 200, 0, ["id", "english", "uzbek", "russian"]).catch(() => [])) || [];
             pool.current = [...ids.map((id) => wordCache.get(id)).filter(Boolean), ...extra];
           }
           word = wordCache.get(it.word_id) || null;
