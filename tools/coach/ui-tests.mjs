@@ -105,7 +105,7 @@ for (const lang of ["en", "uz", "ru"]) {
       if (q.type === "multiple_choice" && q.options.some((o) => /[A-Za-z]/.test(o))) latinRu++;
     }
     for (const q of buildWordQuestions(senseMix[2], senseMix, { depth: "remediation", lang: "ru", rnd })) if (q.type === "multiple_choice" && q.options.filter((o) => /дерево/.test(o)).length > 1) treeDup++;
-    for (const q of buildWordQuestions(confident, senseMix, { depth: "remediation", lang: "uz", rnd })) if (q.type === "multiple_choice" && q.options.some((o) => /[\u0400-\u04FF]/.test(o))) cyrUz++;
+    for (const q of buildWordQuestions(confident, senseMix, { depth: "remediation", lang: "uz", rnd })) if (q.type === "multiple_choice" && q.options.some((o) => /[Ѐ-ӿ]/.test(o))) cyrUz++;
   }
   ok("a word whose meanings include the target's (\"уверенный; определённый\") is never offered", secondRight === 0, String(secondRight));
   ok("\"дерево\" and \"дерево (материал)\" never appear together", treeDup === 0, String(treeDup));

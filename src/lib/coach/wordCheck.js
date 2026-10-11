@@ -39,7 +39,7 @@ export function buildWordQuestions(word, pool, { depth, lang, rnd = Math.random 
     return out;
   };
   // A distractor written in the other script (Latin in Russian, Cyrillic in Uzbek) is never offered.
-  const wrongScript = nk === "russian" ? /[A-Za-z]/ : /[\u0400-\u04FF]/;
+  const wrongScript = nk === "russian" ? /[A-Za-z]/ : /[Ѐ-ӿ]/;
   const targetText = new Set([...senses(native(word)), norm(word.english)]);
   const seenId = new Set(), seenText = new Set(targetText);
   const clash = (w) => [...senses(native(w))].some((x) => seenText.has(x)) || seenText.has(norm(w.english));
