@@ -523,6 +523,48 @@ function makeStore() {
     const back = n1.plan.items.find((i) => i.item_key === weakKey);
     ok("loop: next day = fresh Today's Practice, the weak word rises to the plan as Needs work", n1.session.kind === "today" && n1.session.spent_minutes === 0 && !!back && back.short_reason === "Needs work", JSON.stringify(n1.plan.items.map((i) => [i.item_key, i.short_reason])));
   }
+
+  // Post-publish correction (2026-10-11, live tester on "grammar_basics"): "Keep going" is
+  // offered only when the fresh plan it would start has something in it. An empty one
+  // used to spend the day's continuation on a "Nothing urgent" screen.
+  {
+    const { svc, tables } = makeStore();
+    tables.User.push({ id: "ug", email: "g@x", cefr_level: "A2" });
+    const Gm = { email: "g@x", id: "ug" };
+    const LEARNER = { status: "active", plan: "Learner Plan", expires_at: "2026-11-30" };
+    await saveProfile(svc, Gm, LEARNER, { goal_id: "grammar_basics", daily_minutes: 20, onboarded: true }, NOW);
+    const gRows = (key, round, when) => Array.from({ length: 5 }, (_, i) => ({ ledger: "GrammarAttempt", user_email: "g@x", game: "grammar_practice", grammar_topic: key.slice(8), item_id: `gpr.${key.slice(8)}.choose.00${i}`, mode: "recognise", verification: "server_graded", correct: true, round_id: round, round_at: when }));
+    let tick = NOW;
+    const finish = async (view) => {
+      let v = view, guard = 0;
+      while (!v.session.complete && v.plan.items.length && guard++ < 10) {
+        for (const it of v.plan.items) await applyRound(svc, "g@x", { rows: gRows(it.item_key, `g-${tick}-${it.item_key}`, new Date((tick += 60000)).toISOString()), coach: { session_key: v.session.session_key } }, deps);
+        v = await getToday(svc, Gm, LEARNER, {}, deps, (tick += 1000));
+      }
+      return v;
+    };
+    // Day 1: two root topics, then Keep going still has the two they unlock.
+    const d1 = await finish(await getToday(svc, Gm, LEARNER, {}, deps, (tick += 1000)));
+    ok("grammar-only goal, day 1 complete: Keep going offered (the next plan has the unlocked topics)", d1.session.complete && d1.continuation.available === true, JSON.stringify(d1.continuation));
+    const k1 = await startContinuation(svc, Gm, LEARNER, deps, (tick += 1000));
+    ok("...and it starts a non-empty continuation", k1.plan.items.length > 0, JSON.stringify(k1.plan.items.map((i) => i.item_key)));
+    // Empty case: a vocabulary learner whose level has only the two words practised today.
+    tables.User.push({ id: "uh", email: "h@x", cefr_level: "B2" });
+    tables.VocabularyWord.push({ id: "h1", english: "venture", uzbek: "tashabbus", russian: "предприятие", cefr: "B2" }, { id: "h2", english: "verdict", uzbek: "hukm", russian: "вердикт", cefr: "B2" });
+    const H = { email: "h@x", id: "uh" };
+    await saveProfile(svc, H, LEARNER, { goal_id: "vocabulary", daily_minutes: 20, onboarded: true }, NOW);
+    const wRows = (key, round, when) => [{ ledger: "WordAttempt", user_email: "h@x", game: "quiz", mode: "recognise", verification: "server_graded", support: "none", word_id: key.split(":")[1], word: "w", correct: true, round_id: round, round_at: when }];
+    let h = await getToday(svc, H, LEARNER, {}, deps, (tick += 1000));
+    ok("vocabulary learner: Today's Practice plans the level's two words", h.plan.items.length === 2 && h.plan.items.every((i) => i.item_type === "word"), JSON.stringify(h.plan.items.map((i) => i.item_key)));
+    for (const it of h.plan.items) await applyRound(svc, "h@x", { rows: wRows(it.item_key, `h-${it.item_key}`, new Date((tick += 60000)).toISOString()), coach: { session_key: h.session.session_key } }, deps);
+    h = await getToday(svc, H, LEARNER, {}, deps, (tick += 1000));
+    const plansBefore = tables.PlanLog.filter((p) => p.user_email === "h@x").length;
+    ok("complete with nothing left to plan: Keep going NOT offered (0/1 used)", h.session.complete && h.continuation.available === false && h.continuation.used === 0 && h.continuation.allowed === 1, JSON.stringify({ s: h.session, c: h.continuation }));
+    let empty = null; try { await startContinuation(svc, H, LEARNER, deps, (tick += 1000)); } catch (e) { empty = e.code; }
+    ok("startContinuation on an empty plan is refused and writes no snapshot", empty === "nothing_to_continue" && !tables.PlanLog.some((p) => p.user_email === "h@x" && p.kind === "continuation") && tables.PlanLog.filter((p) => p.user_email === "h@x").length === plansBefore, String(empty));
+    const hAgain = await getToday(svc, H, LEARNER, {}, deps, (tick += 1000));
+    ok("...and Done stays Done (no plan minted, the continuation is still unused)", hAgain.session.complete && hAgain.continuation.available === false && hAgain.continuation.used === 0);
+  }
 }
 
 console.log(`\n${pass} passed, ${fail} failed`);
