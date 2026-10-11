@@ -1,6 +1,7 @@
 // Stage 3 pure UI helpers: node --experimental-strip-types tools/coach/ui-tests.mjs
 import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS } from "../../src/lib/coach/wordCheck.js";
-import { coachT, labelKey, reasonKey } from "../../src/lib/coach/coachCopy.js";
+import { coachT, labelKey, reasonKey, goalLabel, minutesWord } from "../../src/lib/coach/coachCopy.js";
+import { GOALS } from "../../base44/shared/coachGraph.js";
 import { DEPTHS } from "../../base44/shared/coachPlan.js";
 import { OUTCOME, summarise, afterRunView } from "../../src/lib/coach/sessionOutcome.js";
 import { LIVE_GRAMMAR_TOPICS } from "../../base44/shared/coachGraph.js";
@@ -67,5 +68,48 @@ for (const lang of ["en", "uz", "ru"]) {
   const ruQs = buildWordQuestions(target, mixedPool, { depth: "remediation", lang: "ru", rnd });
   const cyr = /^[Ѐ-ӿ\s-]+$/;
   ok("ru learner: every meaning option is Russian (distractors without Russian are skipped, no mixed languages)", ruQs.length === 3 && ruQs.filter((q) => q.type === "multiple_choice").every((q) => q.options.every((o) => cyr.test(o))), JSON.stringify(ruQs.map((q) => q.options)));
+}
+// --- Post-publish corrections (2026-10-11) ----------------------------------------
+{
+  const goals = Object.values(GOALS);
+  const cyr = /^[Ѐ-ӿ\s:,.-]+$/;
+  ok("ru: every goal name is Russian", goals.every((g) => cyr.test(goalLabel(coachT("ru", "vira"), g))), goals.map((g) => goalLabel(coachT("ru", "vira"), g)).join(" | "));
+  ok("uz: every goal name is translated (not the English objective)", goals.every((g) => { const s = goalLabel(coachT("uz", "vira"), g); return s && s !== g.objective && s !== `goal_${g.id}`; }));
+  ok("en: goal names are the server's objective text", goals.every((g) => goalLabel(coachT("en", "vira"), g) === g.objective));
+  ok("unknown goal falls back to its objective", goalLabel(coachT("ru", "vira"), { id: "nope", objective: "X" }) === "X");
+  ok("ru minutes agree with the number (accusative)", [1, 2, 4, 5, 11, 12, 14, 20, 21, 22, 25].map((n) => minutesWord("ru", n)).join() === "минуту,минуты,минуты,минут,минут,минут,минут,минут,минуту,минуты,минут");
+  ok("en minutes agree with the number", minutesWord("en", 1) === "minute" && minutesWord("en", 4) === "minutes");
+  ok("Vira greeting reads right for planned minutes", coachT("en", "vira")("hello", { n: 1 }).includes("1 minute and") && coachT("en", "vira")("hello", { n: 4 }).includes("4 minutes") && coachT("ru", "vira")("hello", { n: 4 }).includes("4 минуты") && coachT("ru", "vira")("hello", { n: 20 }).includes("20 минут,") && coachT("uz", "vira")("hello", { n: 4 }).includes("4 daqiqa"));
+  ok("no placeholder left in any greeting", ["en", "uz", "ru"].every((l) => ["vira", "velvet", "vi"].every((p) => !/\{\w+\}/.test(coachT(l, p)("hello", { n: 7 })))));
+  ok("Done copy with Keep going exists in every language", ["en", "uz", "ru"].every((l) => { const s = coachT(l, "vira")("done_sub_more"); return s !== "done_sub_more" && s !== coachT(l, "vira")("done_sub") && !/\bround/i.test(s); }));
+
+  const bill = W("bill", "bill", "hisob", "счет");
+  const near = [bill, W("acc1", "account", "hisob raqam", "счёт"), W("acc2", "account", "akkaunt", "аккаунт"), W("p", "pear", "nok", "груша"), W("q", "bread", "non", "хлеб"), W("r", "water", "suv", "вода"), W("s2", "milk", "sut", "молоко")];
+  let nearHits = 0;
+  for (let i = 0; i < 200; i++) for (const q of buildWordQuestions(bill, near, { depth: "remediation", lang: "ru", rnd })) {
+    if (q.type === "multiple_choice" && q.options.some((o) => o !== q.correct && o.replace(/ё/g, "е") === q.correct.replace(/ё/g, "е"))) nearHits++;
+    if (q.type === "translation" && q.options.includes("account")) nearHits++;
+  }
+  ok("ru: \"счёт\" is never offered next to the correct \"счет\", and a headword meaning the same is never an option", nearHits === 0);
+  const caseDup = buildWordQuestions(target, [target, W("x1", "Pear", "Nok ", "Груша"), pool[1], pool[2], pool[3], pool[4]], { depth: "remediation", lang: "ru", rnd });
+  ok("options are distinct ignoring case and spaces", caseDup.every((q) => new Set(q.options.map((o) => o.toLowerCase().trim())).size === q.options.length));
+  // Review of the bundle on live rows: senses, qualifiers and the other script.
+  const confident = W("cf", "confident", "ishonchli", "уверенный");
+  const senseMix = [confident, W("ce", "certain", "aniq; ishonchli", "уверенный; определённый"), W("tr", "tree", "daraxt (yog'och)", "дерево"), W("wd", "wood", "yog'och", "дерево (материал)"),
+    W("cd", "on CD/DVD/video", "CD/DVD/videoda", "на CD/DVD/видео"), W("cb", "carbon footprint", "karbon izи", "углеродный след"), pool[1], pool[2], pool[3], pool[4]];
+  let secondRight = 0, latinRu = 0, cyrUz = 0, treeDup = 0;
+  for (let i = 0; i < 300; i++) {
+    for (const q of buildWordQuestions(confident, senseMix, { depth: "remediation", lang: "ru", rnd })) {
+      if (q.type === "translation" && q.options.includes("certain")) secondRight++;
+      if (q.type === "multiple_choice" && q.options.some((o) => o !== q.correct && /уверенный/.test(o))) secondRight++;
+      if (q.type === "multiple_choice" && q.options.some((o) => /[A-Za-z]/.test(o))) latinRu++;
+    }
+    for (const q of buildWordQuestions(senseMix[2], senseMix, { depth: "remediation", lang: "ru", rnd })) if (q.type === "multiple_choice" && q.options.filter((o) => /дерево/.test(o)).length > 1) treeDup++;
+    for (const q of buildWordQuestions(confident, senseMix, { depth: "remediation", lang: "uz", rnd })) if (q.type === "multiple_choice" && q.options.some((o) => /[Ѐ-ӿ]/.test(o))) cyrUz++;
+  }
+  ok("a word whose meanings include the target's (\"уверенный; определённый\") is never offered", secondRight === 0, String(secondRight));
+  ok("\"дерево\" and \"дерево (материал)\" never appear together", treeDup === 0, String(treeDup));
+  ok("ru: no distractor with Latin letters (\"на CD/DVD/видео\"); uz: no distractor with Cyrillic letters", latinRu === 0 && cyrUz === 0, `${latinRu}/${cyrUz}`);
+  ok("a target written with Latin letters in Russian is still playable (only distractors are filtered)", buildWordQuestions(senseMix[4], senseMix, { depth: "probe", lang: "ru", rnd })[0]?.correct === "на CD/DVD/видео");
 }
 console.log(`\n${pass} passed, ${fail} failed`);
