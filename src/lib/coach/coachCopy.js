@@ -18,6 +18,7 @@ const SHARED = {
     keep_going_sub: "A fresh plan from what you just did",
     done_title: "Today's Practice is done",
     done_sub: "Everything else in VIRORA is still yours. Come back tomorrow for a new plan.",
+    done_sub_more: "Everything else in VIRORA is still yours. Keep going for a fresh plan now, or come back tomorrow.",
     no_more_today: "That's all the guided practice for today.",
     back_home: "Back to home",
     map_title: "Your map",
@@ -58,6 +59,7 @@ const SHARED = {
     keep_going: "Yana davom etamiz", keep_going_sub: "Hozir qilganingiz asosida yangi reja",
     done_title: "Bugungi mashg'ulot tugadi",
     done_sub: "VIRORA'dagi boshqa hamma narsa ochiq. Ertaga yangi reja bo'ladi.",
+    done_sub_more: "VIRORA'dagi boshqa hamma narsa ochiq. Hozir yangi reja bilan davom eting yoki ertaga qaytib keling.",
     no_more_today: "Bugungi yo'naltirilgan mashg'ulot shu.",
     back_home: "Bosh sahifaga",
     map_title: "Sizning xaritangiz", map_empty: "Mashq qilganingiz sari xarita to'ladi.",
@@ -77,6 +79,7 @@ const SHARED = {
     loading: "Mashg'ulot rejalashtirilmoqda…", error: "Rejani yuklab bo'lmadi.", retry: "Qayta urinish",
     how_planned: "Nega aynan shular?", review_due: "Takrorlash vaqti",
     goal_switch_locked: "Maqsadni almashtirish Learner tarifida",
+    goal_everyday: "Kundalik ingliz tili: hayot uchun so'z va grammatika", goal_vocabulary: "So'z boyligimni oshirish", goal_grammar_basics: "Grammatika asoslarini mustahkamlash",
   },
   ru: {
     today_title: "Практика на сегодня",
@@ -89,6 +92,7 @@ const SHARED = {
     keep_going: "Продолжаем", keep_going_sub: "Новый план по тому, что вы только что сделали",
     done_title: "Практика на сегодня готова",
     done_sub: "Всё остальное в VIRORA по-прежнему ваше. Завтра будет новый план.",
+    done_sub_more: "Всё остальное в VIRORA по-прежнему ваше. Продолжите с новым планом сейчас или возвращайтесь завтра.",
     no_more_today: "На сегодня это вся практика с коучем.",
     back_home: "На главную",
     map_title: "Ваша карта", map_empty: "Карта заполняется по мере практики.",
@@ -108,15 +112,16 @@ const SHARED = {
     loading: "Составляем практику…", error: "Не удалось загрузить план.", retry: "Ещё раз",
     how_planned: "Почему именно это?", review_due: "Пора повторить",
     goal_switch_locked: "Смена цели — в тарифе Learner",
+    goal_everyday: "Английский на каждый день: слова и грамматика для жизни", goal_vocabulary: "Расширить словарный запас", goal_grammar_basics: "Подтянуть основы грамматики",
   },
 };
 
 // Persona lines (voice only). Missing keys fall back to SHARED.
 const PERSONA = {
   vira: {
-    en: { hello: "Hi, I'm Vira. Give me {n} minutes and I'll show you the best things to work on today.", done_title: "Nice work today!", upsell: "Want to keep going? Velvet gives you a second session every day." },
+    en: { hello: "Hi, I'm Vira. Give me {n} {mins} and I'll show you the best things to work on today.", done_title: "Nice work today!", upsell: "Want to keep going? Velvet gives you a second session every day." },
     uz: { hello: "Salom, men Vira. Menga {n} daqiqa bering — bugun nima ustida ishlashni ko'rsataman.", done_title: "Bugun zo'r ishladingiz!", upsell: "Davom etmoqchimisiz? Velvet har kuni ikkinchi mashg'ulot beradi." },
-    ru: { hello: "Привет, я Вира. Дайте мне {n} минут, и я покажу, над чем лучше всего поработать сегодня.", done_title: "Отличная работа сегодня!", upsell: "Хотите продолжить? С Velvet — вторая сессия каждый день." },
+    ru: { hello: "Привет, я Вира. Дайте мне {n} {mins}, и я покажу, над чем лучше всего поработать сегодня.", done_title: "Отличная работа сегодня!", upsell: "Хотите продолжить? С Velvet — вторая сессия каждый день." },
   },
   velvet: {
     en: { hello: "I'm Velvet. I've looked at where you are. Here's your plan for today.", done_title: "That's today's plan done. Nice work." },
@@ -135,14 +140,29 @@ export const COACH_COLORS = { vira: "#B79CF2", velvet: "#8E3B7A", vi: "#D4AF37" 
 
 const fill = (s, vars = {}) => String(s ?? "").replace(/\{(\w+)\}/g, (_, k) => (vars[k] ?? `{${k}}`));
 
+/** "minute(s)" agreeing with n (accusative in ru: 1 минуту, 2 минуты, 5 минут); uz needs no agreement. */
+export function minutesWord(lang, n) {
+  const k = Math.abs(Math.trunc(Number(n) || 0));
+  if (lang === "ru") return k % 10 === 1 && k % 100 !== 11 ? "минуту" : k % 10 >= 2 && k % 10 <= 4 && (k % 100 < 12 || k % 100 > 14) ? "минуты" : "минут";
+  if (lang === "uz") return "daqiqa";
+  return k === 1 ? "minute" : "minutes";
+}
+
 /** coachT(lang, persona)(key, vars): persona line -> shared line -> English. */
 export function coachT(lang = "en", persona = "vira") {
   const L = ["en", "uz", "ru"].includes(lang) ? lang : "en";
   return (key, vars) => {
     const p = PERSONA[persona]?.[L]?.[key] ?? PERSONA[persona]?.en?.[key];
     const s = p ?? SHARED[L][key] ?? SHARED.en[key] ?? key;
-    return fill(s, vars);
+    return fill(s, vars && vars.n !== undefined ? { mins: minutesWord(L, vars.n), ...vars } : vars);
   };
+}
+
+/** Goal name in the learner's language. English (and any goal without a translation) keeps the server's objective text. */
+export function goalLabel(t, g) {
+  const k = `goal_${g?.id}`;
+  const s = t(k);
+  return s === k ? g?.objective : s;
 }
 
 /** Server label ("New" | "Needs work" | "Practising" | "Strong") -> localized. */

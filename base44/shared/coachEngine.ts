@@ -324,6 +324,12 @@ export async function getToday(svc: any, me: any, sub: any, body: any, deps: Dep
     engine: ENGINE_STAMP, minutes, queue: plan.explanation,
   });
   const continuationsUsed = await continuationsToday(svc, me.email, today);
+  const continuationsAllowed = resolved.policy.limits.continuationSessionsPerDay;
+  // ...and only when the fresh plan it would start has something in it: an
+  // empty one would spend the day's continuation on a "Nothing urgent" screen.
+  // Pure (same inputs as startContinuation's plan), no extra reads or writes.
+  const nextHasItems = latestComplete && continuationsUsed < continuationsAllowed
+    && planToday({ ...planCtx, kind: 'continuation' }).explanation.length > 0;
   return {
     coach: { entitlement: resolved.entitlement, coach: resolved.coach, persona: resolved.persona.id, conversionPersona: resolved.conversionPersona?.id || null, policy: resolved.policy.version, capabilities: resolved.policy.capabilities },
     handoff,
@@ -332,7 +338,7 @@ export async function getToday(svc: any, me: any, sub: any, body: any, deps: Dep
     session: { session_key, kind, session_no: sessionNo, plan_id: snap?.id || null, spent_minutes: spent, remaining_minutes: remaining, complete, frozen },
     plan: { minutes, minutes_planned: plan.minutes_planned, fallback: plan.fallback, suggestion: plan.suggestion, items: plan.explanation.map(studentView) },
     done_today: doneToday.size,
-    continuation: { allowed: resolved.policy.limits.continuationSessionsPerDay, used: continuationsUsed, available: latestComplete && continuationsUsed < resolved.policy.limits.continuationSessionsPerDay },
+    continuation: { allowed: continuationsAllowed, used: continuationsUsed, available: nextHasItems },
   };
 }
 // What the student-facing UI gets (internal features/priorities stay server-side; admin `explain` sees them).
@@ -410,6 +416,8 @@ export async function startContinuation(svc: any, me: any, sub: any, deps: Deps,
   const n = used + 1;
   // Create the session's first snapshot, then reuse getToday's read path for it.
   const first = await getTodayPlanOnly(svc, me, resolved, n, deps, now);
+  // Nothing to plan: refuse WITHOUT a snapshot, so the day's continuation is not used up.
+  if (!first.queue.length) throw Object.assign(new Error('nothing_to_continue'), { code: 'nothing_to_continue', status: 409 });
   await snapshot(svc, me.email, first);
   return getToday(svc, me, sub, { session_no: n }, deps, now);
 }

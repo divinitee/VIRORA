@@ -28,12 +28,18 @@ export function buildWordQuestions(word, pool, { depth, lang, rnd = Math.random 
   const native = (w) => String(w?.[nk] || "").trim();
   if (!word?.english || !native(word)) return [];
   const n = WORD_QUESTIONS[depth] || 1;
-  // Distinct distractors only: one per id, and never two options with the same text.
-  const seenId = new Set(), seenText = new Set([native(word), word.english]);
+  // Distinct distractors only: one per id, and never two options with the same
+  // text (compared case-, space- and ё/е-insensitively: "счет" = "счёт").
+  const norm = (s) => String(s || "").toLowerCase().replace(/ё/g, "е").replace(/\s+/g, " ").trim();
+  const targetText = new Set([norm(native(word)), norm(word.english)]);
+  const seenId = new Set(), seenText = new Set(targetText);
+  // A row sharing the target's meaning or headword (bill/account = "счет") is a
+  // second right answer: neither its meaning nor its headword may be an option.
+  for (const w of pool) if (w && w.id !== word.id && (targetText.has(norm(native(w))) || targetText.has(norm(w.english)))) { seenText.add(norm(native(w))); seenText.add(norm(w.english)); }
   const others = pool.filter((w) => {
     if (!w || w.id === word.id || seenId.has(w.id) || !w.english || !native(w)) return false;
-    if (seenText.has(native(w)) || seenText.has(w.english)) return false;
-    seenId.add(w.id); seenText.add(native(w)); seenText.add(w.english);
+    if (seenText.has(norm(native(w))) || seenText.has(norm(w.english))) return false;
+    seenId.add(w.id); seenText.add(norm(native(w))); seenText.add(norm(w.english));
     return true;
   });
   const qs = [];
