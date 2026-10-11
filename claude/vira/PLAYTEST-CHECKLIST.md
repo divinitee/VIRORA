@@ -1,6 +1,6 @@
 # VIRORA Coach Stage 3: real-account play-test
 
-Written 11 Oct 2026 for the version that includes the post-publish corrections (git `6b6daa8`).
+Written 11 Oct 2026 for the version that includes the post-publish corrections (git `ab4fab6`).
 Run it on the live app (https://virora.base44.app) **after** that version is published.
 If you run it on the current live version (checkpoint `6ac9fa34…`, published 10 Oct), the
 differences are listed at the end.

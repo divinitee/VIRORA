@@ -9,7 +9,7 @@
   - the first `PlanLog` / `ItemEvidence` / `LearnerItem` rows are well-formed;
   - only "score" lacks a Russian translation, and it is never planned.
 - **Live users so far:** `xewap57317@18lover.com` (trial, test account, goal grammar_basics) and `javohirmetinov21@gmail.com` (free, vocabulary goal, a real learner since 10 Oct 10:35 UTC).
-- **Fix bundle, not yet published:** git `d7cb56f` + `6b6daa8` on branch `claude/affectionate-fermat-jujmpa`. The GitHub repo has been renamed to `divinitee/VIRORA`.
+- **Fix bundle, not yet published:** git `d7cb56f`, `6b6daa8`, `ab4fab6` on branch `claude/affectionate-fermat-jujmpa`. The GitHub repo has been renamed to `divinitee/VIRORA`.
   - The same 6 files are applied to **Base44 main**, verified byte-identical (all 887 tracked files fingerprint-equal).
   - **No checkpoint yet:** the session's permission check refused `create_checkpoint`. Tee needs to create it in the Base44 editor (or allow it).
   - Until then, a builder Restore/Revert would discard these edits. Git keeps them either way.
@@ -60,4 +60,4 @@
 
 ## Prompt for the next Claude session
 
-Resume VIRORA Coach (VT-40). Read `claude/vira/COACH-NEXT-TASK.md` and `claude/vira/PLAYTEST-CHECKLIST.md` on branch `claude/affectionate-fermat-jujmpa`. [Paste the publish approval for the fix bundle and the decision on word time estimates.] Check that Base44 main still matches git `6b6daa8`, guide me through publish and the play-test, and fix anything it finds. Don't touch LIFE OS.
+Resume VIRORA Coach (VT-40). Read `claude/vira/COACH-NEXT-TASK.md` and `claude/vira/PLAYTEST-CHECKLIST.md` on branch `claude/affectionate-fermat-jujmpa`. [Paste the publish approval for the fix bundle and the decision on word time estimates.] Check that Base44 main still matches git `ab4fab6` (app files), guide me through publish and the play-test, and fix anything it finds. Don't touch LIFE OS.
