@@ -10,7 +10,7 @@ import { useGrammarCopy } from "@/lib/grammarCopy";
 import { loadTopic } from "@/lib/grammarPractice";
 import { submitEvidence } from "@/lib/progress/progressClient";
 import { generateRoundId } from "@/lib/gameScoring";
-import { coachT, labelKey, reasonKey, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
+import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
 import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth } from "@/lib/coach/wordCheck";
 import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
@@ -123,7 +123,8 @@ export default function Coach() {
 
   const items = data.plan.items || [];
   const continuation = data.continuation || {};
-  const upsell = (data.coach.entitlement === "free" || data.coach.entitlement === "trial") && persona === "vira";
+  // Free only: a trial already runs on Velvet's rules (it has the second session), so the offer would be wrong.
+  const upsell = data.coach.entitlement === "free" && persona === "vira";
   const keepGoing = async () => {
     setBusy(true);
     try { const d = await coachApi("startContinuation", {}); setData(d); setLastRun(null); setView("run"); }
@@ -156,7 +157,7 @@ export default function Coach() {
       <div className="premium-card rounded-[28px] p-8 text-center">
         <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
         <h1 className="text-xl font-bold text-foreground">{t("done_title")}</h1>
-        <p className="text-sm text-muted-foreground mt-2">{t("done_sub")}</p>
+        <p className="text-sm text-muted-foreground mt-2">{t(continuation.available ? "done_sub_more" : "done_sub")}</p>
         {afterView === "done_partial" && <p className="text-xs text-amber-300/90 mt-3">{t("partial_note", { n: lastRun?.unavailable || 0 })}</p>}
         {continuation.available ? (
           <button disabled={busy} onClick={keepGoing} className="mt-6 w-full h-12 rounded-2xl font-semibold text-white flex items-center justify-center gap-2" style={{ background: color }}>
@@ -191,7 +192,7 @@ export default function Coach() {
         <Orb color={color} />
         <div>
           <p className="text-xs font-semibold uppercase tracking-wider" style={{ color }}>{COACH_NAMES[persona]}</p>
-          <p className="text-sm text-foreground mt-1">{t("hello", { n: data.plan.minutes })}</p>
+          <p className="text-sm text-foreground mt-1">{t("hello", { n: data.plan.minutes_planned || data.plan.minutes })}</p>
         </div>
       </div>
       <div className="premium-card rounded-[28px] p-5">
@@ -247,12 +248,12 @@ function Onboarding({ data, t, color, onDone, onBack }) {
     <Shell onBack={onBack}>
       <div className="premium-card rounded-[28px] p-6">
         <div className="flex items-center gap-4 mb-4"><Orb color={color} /><h1 className="text-xl font-bold text-foreground">{t("onboarding_title")}</h1></div>
-        <p className="text-sm text-foreground">{t("hello", { n: data.settings.minutes })}</p>
+        <p className="text-sm text-foreground">{t("hello", { n: minutes })}</p>
         <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mt-6 mb-2">{t("onboarding_goal")}</p>
         <div className="grid gap-2">
           {goals.map((g) => (
             <button key={g.id} onClick={() => setGoal(g.id)}
-              className={`text-left px-4 py-3 rounded-2xl border text-sm select-none ${goal === g.id ? "border-white/40 bg-white/10" : "border-white/10 bg-white/[0.03]"}`}>{g.objective}</button>
+              className={`text-left px-4 py-3 rounded-2xl border text-sm select-none ${goal === g.id ? "border-white/40 bg-white/10" : "border-white/10 bg-white/[0.03]"}`}>{goalLabel(t, g)}</button>
           ))}
         </div>
         {data.settings.minutesOptions?.length > 1 && (
@@ -335,7 +336,10 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
           if (!pool.current) {
             const ids = items.filter((x) => x.item_type === "word").map((x) => x.word_id);
             await fetchWords(ids);
-            const extra = (await base44.entities.VocabularyWord.filter({}, "english", 60).catch(() => [])) || [];
+            // Distractors from the planned words' own levels (the first 60 by English were all "a…" words,
+            // which gave the answer away on "Which English word?").
+            const levels = [...new Set(ids.map((id) => wordCache.get(id)?.cefr).filter(Boolean))];
+            const extra = (await base44.entities.VocabularyWord.filter(levels.length ? { cefr: { $in: levels } } : {}, "id", 200, 0, ["id", "english", "uzbek", "russian"]).catch(() => [])) || [];
             pool.current = [...ids.map((id) => wordCache.get(id)).filter(Boolean), ...extra];
           }
           word = wordCache.get(it.word_id) || null;
