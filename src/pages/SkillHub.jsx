@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useMemo } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { base44 } from "@/api/base44Client";
@@ -298,7 +299,7 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
   if (homeworkId && !assignmentMode && !activeGame && homeworkState !== "missing") {
     return (
       <div className="min-h-[60vh] flex items-center justify-center">
-        <div className="w-8 h-8 border-4 border-muted border-t-primary rounded-full animate-spin" />
+        <BrandLoader size={64} />
       </div>
     );
   }
