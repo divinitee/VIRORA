@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useState } from "react";
 import { base44 } from "@/api/base44Client";
 import { Navigate, useNavigate } from "react-router-dom";
@@ -40,7 +41,7 @@ export default function TeacherSkillHub() {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
-        <Loader2 className="w-6 h-6 animate-spin text-primary" />
+        <BrandLoader size={48} />
       </div>
     );
   }
