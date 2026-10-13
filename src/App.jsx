@@ -85,7 +85,6 @@ const AuthenticatedApp = () => {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/landing" element={<Landing />} />
-      <Route path="/__loader-preview" element={<AppLoader />} />
       <Route path="/roadmap" element={<Roadmap />} />
       <Route path="/oauth/consent" element={<OAuthConsent />} />
       <Route element={<ProtectedRoute unauthenticatedElement={<Navigate to="/landing" replace />} />}>
