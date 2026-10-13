@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Loader2, LogOut, AlertTriangle, Sparkles } from "lucide-react";
@@ -126,7 +127,7 @@ export default function GrammarAssessmentRunner({ user, onComplete, onExit }) {
     return (
       <Shell>
         <div className="premium-card rounded-[28px] p-8 text-center">
-          <Loader2 className="w-8 h-8 animate-spin mx-auto mb-4" style={{ color: ACCENT }} />
+          <BrandLoader size={64} className="mx-auto mb-4" />
           <p className="text-sm text-muted-foreground">{c("run_saving")}</p>
         </div>
       </Shell>
@@ -138,7 +139,7 @@ export default function GrammarAssessmentRunner({ user, onComplete, onExit }) {
     return (
       <Shell>
         <div className="premium-card rounded-[28px] p-8 text-center">
-          <Loader2 className="w-8 h-8 animate-spin mx-auto mb-4" style={{ color: ACCENT }} />
+          <BrandLoader size={64} className="mx-auto mb-4" />
           <p className="text-sm text-muted-foreground">{c("run_loading")}</p>
         </div>
       </Shell>
