@@ -57,8 +57,6 @@ import LaunchExperience from '@/components/LaunchExperience';
 const AuthenticatedApp = () => {
   const { user, isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
 
-  if (window.location.pathname === "/__loader-preview") return <AppLoader />;
-
   // Show loading spinner while checking app public settings or auth
   if (isLoadingPublicSettings || isLoadingAuth) {
     return <AppLoader />;
@@ -87,6 +85,7 @@ const AuthenticatedApp = () => {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/landing" element={<Landing />} />
+      <Route path="/__loader-preview" element={<AppLoader />} />
       <Route path="/roadmap" element={<Roadmap />} />
       <Route path="/oauth/consent" element={<OAuthConsent />} />
       <Route element={<ProtectedRoute unauthenticatedElement={<Navigate to="/landing" replace />} />}>
