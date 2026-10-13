@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Loader2, LayoutDashboard, Users, GraduationCap, Network, Wallet, ShieldCheck, LogOut, Home as HomeIcon } from "lucide-react";
@@ -122,7 +123,7 @@ export default function Console() {
   // The real check is on the server; this only avoids showing a useless
   // screen to students who type the URL.
   if (user && user.role !== "admin") return <Shell><Refused error={{ code: "forbidden" }} /></Shell>;
-  if (signedIn === null) return <Shell><Loader2 className="h-6 w-6 animate-spin text-violet-300" /></Shell>;
+  if (signedIn === null) return <Shell><BrandLoader size={48} /></Shell>;
   if (!signedIn) {
     return (
       <>
