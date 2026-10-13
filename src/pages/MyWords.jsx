@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -30,7 +31,7 @@ export default function MyWords() {
   };
 
   if (loading) {
-    return <div className="min-h-screen bg-background flex items-center justify-center"><Loader2 className="w-6 h-6 animate-spin text-muted-foreground" /></div>;
+    return <div className="min-h-screen bg-background flex items-center justify-center"><BrandLoader size={48} /></div>;
   }
 
   return (
