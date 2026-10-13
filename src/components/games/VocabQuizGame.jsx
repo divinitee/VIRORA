@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { base44 } from "@/api/base44Client";
@@ -213,7 +214,7 @@ export default function VocabQuizGame({ words, unitName, onBack, user, onXpEarne
   };
 
   if (questions.length === 0) {
-    return <div className="flex items-center justify-center py-20"><div className="w-8 h-8 border-4 border-muted border-t-primary rounded-full animate-spin" /></div>;
+    return <div className="flex items-center justify-center py-20"><BrandLoader size={64} /></div>;
   }
 
   if (done) {
