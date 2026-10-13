@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { Loader2, ShieldCheck, LogOut, KeyRound, Smartphone, RefreshCw, CheckCircle2, XCircle, AlertTriangle } from "lucide-react";
 import { consoleApi, setConsoleToken, errorText } from "@/lib/consoleApi";
@@ -202,7 +203,7 @@ export default function SecuritySection({ onSessionLost }) {
   useEffect(() => { load(); }, [load]);
 
   if (!info) {
-    return <div className="flex h-64 items-center justify-center">{error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <Loader2 className="h-6 w-6 animate-spin text-violet-300" />}</div>;
+    return <div className="flex h-64 items-center justify-center">{error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <BrandLoader size={48} />}</div>;
   }
 
   return (
