@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect } from "react";
 import { base44 } from "@/api/base44Client";
 import { Link } from "react-router-dom";
@@ -38,7 +39,7 @@ export default function Leaderboard() {
       <div className="max-w-lg mx-auto px-4 py-6">
         {loading ? (
           <div className="flex justify-center py-16">
-            <div className="w-8 h-8 border-4 border-muted border-t-primary rounded-full animate-spin" />
+            <BrandLoader size={64} />
           </div>
         ) : board.length === 0 ? (
           <div className="bg-background border border-border rounded-2xl p-8 text-center">
