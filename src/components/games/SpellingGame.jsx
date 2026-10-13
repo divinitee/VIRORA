@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { ArrowLeft, Star, Flame, Target, Loader2, BookOpen, Trophy, RotateCcw, ArrowRight, Check, X, Volume2, Eraser, HelpCircle } from "lucide-react";
@@ -487,7 +488,7 @@ export default function SpellingGame({ words = [], level, difficulty = "intermed
 
         {phase === "loading" && (
           <div className="premium-card flex-1 flex flex-col items-center justify-center text-center p-8">
-            <Loader2 className="w-8 h-8 animate-spin mb-3" style={{ color: ACCENT }} aria-hidden="true" />
+            <BrandLoader size={64} className="mb-3" />
             <p className="text-sm text-muted-foreground">{c("loading")}</p>
           </div>
         )}
