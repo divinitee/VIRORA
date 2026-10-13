@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useRef, useState } from "react";
 import { Loader2, ShieldCheck, KeyRound, Smartphone, Lock, AlertTriangle, Copy, Check, Download } from "lucide-react";
 import { qrMatrix } from "@/lib/qrArt";
@@ -253,7 +254,7 @@ export default function ConsoleGate({ onSignedIn }) {
   }, []);
 
   if (error) return <Shell><Refused error={error} /></Shell>;
-  if (!status) return <Shell><Loader2 className="h-6 w-6 animate-spin text-violet-300" /></Shell>;
+  if (!status) return <Shell><BrandLoader size={48} /></Shell>;
   return (
     <Shell>
       {status.enrolled
