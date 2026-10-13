@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { base44 } from "@/api/base44Client";
@@ -62,7 +63,7 @@ export default function Developer() {
     }
   };
 
-  if (state.loading) return <div className="min-h-screen flex items-center justify-center"><Loader2 className="w-7 h-7 animate-spin text-primary" /></div>;
+  if (state.loading) return <div className="min-h-screen flex items-center justify-center"><BrandLoader size={56} /></div>;
 
   if (!state.allowed) {
     return (
