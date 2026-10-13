@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect } from "react";
 import { base44 } from "@/api/base44Client";
 import { Trophy } from "lucide-react";
@@ -26,7 +27,7 @@ export default function RoomLeaderboard({ user }) {
       </div>
 
       {loading ? (
-        <div className="flex justify-center py-6"><div className="w-6 h-6 border-3 border-muted border-t-amber-500 rounded-full animate-spin" /></div>
+        <div className="flex justify-center py-6"><BrandLoader size={64} /></div>
       ) : board.length === 0 ? (
         <div className="bg-muted/40 rounded-2xl p-5 text-center">
           <p className="text-sm text-muted-foreground">Hali hech kim o'ynamagan. Birinchi bo'ling! 🎮</p>
