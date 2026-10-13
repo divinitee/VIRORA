@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Star } from "lucide-react";
@@ -44,7 +45,7 @@ export default function Achievements() {
       <div className="relative z-10 max-w-xl mx-auto px-4 py-6 space-y-5 pb-14">
         {!ctx ? (
           <div className="flex justify-center py-24">
-            <div className="w-8 h-8 border-4 border-muted border-t-primary rounded-full animate-spin" />
+            <BrandLoader size={64} />
           </div>
         ) : (
           <>
