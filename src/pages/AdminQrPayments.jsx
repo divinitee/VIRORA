@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { base44 } from "@/api/base44Client";
 import { AlertTriangle, ChevronDown, ChevronUp, Download, Loader2, RefreshCw, Send, Upload } from "lucide-react";
@@ -403,7 +404,7 @@ export default function AdminQrPayments() {
     setBusyId("");
   };
 
-  if (isAdmin === null) return <div className="flex min-h-screen items-center justify-center bg-[#0B0C1E]"><Loader2 className="h-6 w-6 animate-spin text-violet-300" /></div>;
+  if (isAdmin === null) return <div className="flex min-h-screen items-center justify-center bg-[#0B0C1E]"><BrandLoader size={48} /></div>;
   if (isAdmin === false) return <div className="p-8 text-center text-muted-foreground">This page is for admins only.</div>;
 
   const cols = "grid grid-cols-[1.6fr_1fr_1fr_0.9fr_0.8fr_1.5fr] items-center gap-4";
@@ -442,7 +443,7 @@ export default function AdminQrPayments() {
             <div className={`${cols} bg-white/[0.04] px-5 py-3.5 text-[11px] font-extrabold tracking-[0.12em] text-white/55`}>
               <span>STUDENT</span><span>PLAN</span><span>AMOUNT</span><span>CODE</span><span>RECEIPT</span><span>ACTION</span>
             </div>
-            {loading && <div className="flex justify-center border-t border-white/[0.08] py-10"><Loader2 className="h-5 w-5 animate-spin text-violet-300" /></div>}
+            {loading && <div className="flex justify-center border-t border-white/[0.08] py-10"><BrandLoader size={40} /></div>}
             {!loading && rows.length === 0 && (
               <p className="border-t border-white/[0.08] px-5 py-10 text-center text-sm text-white/50">Nothing here yet.</p>
             )}
