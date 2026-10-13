@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useMemo, useState, useCallback } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { base44 } from "@/api/base44Client";
@@ -527,7 +528,7 @@ export default function QrPayment() {
         </Link>
 
         {view === "loading" && (
-          <div className="flex justify-center py-24"><Loader2 className="h-7 w-7 animate-spin" style={{ color: th.accent }} /></div>
+          <div className="flex justify-center py-24"><BrandLoader size={56} /></div>
         )}
 
         {view === "error" && (
