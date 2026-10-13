@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useCallback } from "react";
 import { base44 } from "@/api/base44Client";
 import { Loader2, CheckCircle2, XCircle, AlertTriangle, RefreshCw } from "lucide-react";
@@ -98,7 +99,7 @@ export default function AdminPayments() {
     return <div className="p-8 text-center text-muted-foreground">This page is for admins only.</div>;
   }
   if (isAdmin === null || (loading && !data)) {
-    return <div className="p-8 flex justify-center"><Loader2 className="w-6 h-6 animate-spin" /></div>;
+    return <div className="p-8 flex justify-center"><BrandLoader size={48} /></div>;
   }
 
   const stage = getCurrentStage();
