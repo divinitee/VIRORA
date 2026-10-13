@@ -1,0 +1,104 @@
+.virora-star-loader {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  color: #9A63E0;
+}
+
+.virora-star-loader svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.virora-star-loader__halo,
+.virora-star-loader__outline,
+.virora-star-loader__glow {
+  fill: none;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.virora-star-loader__halo {
+  stroke: #9A63E0;
+  stroke-width: 4;
+  opacity: 0.11;
+  filter: blur(1.3px);
+}
+
+.virora-star-loader__outline {
+  stroke: #9A63E0;
+  stroke-width: 1.55;
+  opacity: 0.58;
+}
+
+.virora-star-loader__glow {
+  stroke: #FBEFD8;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  opacity: 0.08;
+  filter: drop-shadow(0 0 0 rgba(232, 200, 146, 0));
+  animation: virora-star-ascend 2.45s cubic-bezier(.32, .06, .24, 1) infinite;
+  animation-delay: var(--star-delay, 0s);
+}
+
+.virora-star-loader__star--apex .virora-star-loader__halo {
+  stroke: #E8C892;
+  stroke-width: 5.5;
+  opacity: 0.18;
+}
+
+.virora-star-loader__star--apex .virora-star-loader__outline {
+  stroke: #E8C892;
+  stroke-width: 1.9;
+  opacity: 0.76;
+}
+
+.virora-star-loader__star--apex .virora-star-loader__glow {
+  stroke-width: 2.25;
+}
+
+@keyframes virora-star-ascend {
+  0%, 100% {
+    stroke: #9A63E0;
+    stroke-dashoffset: 1;
+    opacity: 0.08;
+    filter: drop-shadow(0 0 0 rgba(154, 99, 224, 0));
+  }
+  24% {
+    stroke: #E8C892;
+    stroke-dashoffset: 0;
+    opacity: 0.92;
+    filter: drop-shadow(0 0 3px rgba(232, 200, 146, 0.75)) drop-shadow(0 0 7px rgba(154, 99, 224, 0.56));
+  }
+  42%, 58% {
+    stroke: #FBEFD8;
+    stroke-dashoffset: 0;
+    opacity: 1;
+    filter: drop-shadow(0 0 4px rgba(251, 239, 216, 0.82)) drop-shadow(0 0 9px rgba(154, 99, 224, 0.62));
+  }
+  82% {
+    stroke: #9A63E0;
+    stroke-dashoffset: 0;
+    opacity: 0.24;
+    filter: drop-shadow(0 0 1px rgba(154, 99, 224, 0.2));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .virora-star-loader__glow {
+    animation: none;
+    stroke: #E8C892;
+    stroke-dashoffset: 0;
+    opacity: 0.82;
+    filter: none;
+  }
+  .virora-star-loader__star--apex .virora-star-loader__glow {
+    stroke: #FBEFD8;
+    opacity: 1;
+  }
+}
