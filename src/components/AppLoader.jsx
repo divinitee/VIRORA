@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BookOpen } from "lucide-react";
 
-const LETTERS = ["V", "o", "c", "a", "b"];
+const LETTERS = ["V", "I", "R", "O", "R", "A"];
 
 export default function AppLoader() {
   return (
