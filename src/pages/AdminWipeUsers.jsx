@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect } from "react";
 import { base44 } from "@/api/base44Client";
 import { AlertTriangle, Loader2, CheckCircle2 } from "lucide-react";
@@ -90,7 +91,7 @@ export default function AdminWipeUsers() {
   if (isAdmin === null || (isAdmin && loadingCounts)) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
-        <Loader2 className="w-6 h-6 animate-spin text-muted-foreground" />
+        <BrandLoader size={48} />
       </div>
     );
   }
