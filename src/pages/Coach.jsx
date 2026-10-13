@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -91,7 +92,7 @@ export default function Coach() {
     </div></Shell>);
   if (!data) return (
     <Shell onBack={() => navigate("/")}><div className="premium-card rounded-[28px] p-10 text-center">
-      <Loader2 className="w-8 h-8 animate-spin mx-auto text-primary" />
+      <BrandLoader size={64} className="mx-auto" />
       <p className="text-sm text-muted-foreground mt-3">{t("loading")}</p>
     </div></Shell>);
 
@@ -372,7 +373,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         <motion.div className="h-full rounded-full" style={{ background: color }} animate={{ width: `${(idx / Math.max(1, items.length)) * 100}%` }} />
       </div>
       {!ready ? (
-        <div className="premium-card rounded-[28px] p-10 text-center"><Loader2 className="w-6 h-6 animate-spin mx-auto" style={{ color }} /></div>
+        <div className="premium-card rounded-[28px] p-10 text-center"><BrandLoader size={48} className="mx-auto" /></div>
       ) : ready.kind === "word" ? (
         <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} color={color} t={t}
           onAnswer={(w, q, given) => pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given) })} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
@@ -396,7 +397,7 @@ function LearnerMap({ t, color }) {
       setNames(Object.fromEntries(ws.map((w) => [w.id, w.english])));
     }).catch(() => setMap({ grammar: [], words: [], counts: {} }));
   }, []);
-  if (!map) return <div className="premium-card rounded-[28px] p-10 text-center"><Loader2 className="w-6 h-6 animate-spin mx-auto" style={{ color }} /></div>;
+  if (!map) return <div className="premium-card rounded-[28px] p-10 text-center"><BrandLoader size={48} className="mx-auto" /></div>;
   const order = ["Needs work", "Practising", "New", "Strong"];
   const all = [...(map.grammar || []), ...(map.words || [])];
   return (
