@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Loader2, Target, CheckCircle2, RotateCcw } from "lucide-react";
@@ -209,7 +210,7 @@ export default function LessonRunner() {
   };
 
   if (loading) {
-    return <div className="min-h-screen bg-background flex items-center justify-center"><Loader2 className="w-6 h-6 animate-spin text-muted-foreground" /></div>;
+    return <div className="min-h-screen bg-background flex items-center justify-center"><BrandLoader size={48} /></div>;
   }
   if (!lesson) {
     return <div className="min-h-screen bg-background flex items-center justify-center px-4"><p className="text-sm text-muted-foreground">Lesson not found.</p></div>;
