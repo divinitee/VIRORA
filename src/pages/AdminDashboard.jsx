@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { resolveUserName } from "@/lib/profileName";
@@ -257,7 +258,7 @@ export default function AdminDashboard() {
   if (isLoadingAuth || !authChecked) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <Loader2 className="w-7 h-7 animate-spin text-primary" />
+        <BrandLoader size={56} />
       </div>
     );
   }
@@ -417,7 +418,7 @@ export default function AdminDashboard() {
 
         {loading ? (
           <div className="flex items-center justify-center py-20">
-            <Loader2 className="w-7 h-7 animate-spin text-primary" />
+            <BrandLoader size={56} />
           </div>
         ) : (
           <div className="bg-card border border-border rounded-2xl shadow-sm overflow-hidden">
