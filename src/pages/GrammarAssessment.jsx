@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Loader2 } from "lucide-react";
@@ -57,7 +58,7 @@ export default function GrammarAssessment() {
     return (
       <div className="premium-mesh min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <Loader2 className="w-8 h-8 animate-spin mx-auto mb-3" style={{ color: "#3E9E92" }} />
+          <BrandLoader size={64} className="mx-auto mb-3" />
           <p className="text-sm text-muted-foreground">{c("run_loading")}</p>
         </div>
       </div>
