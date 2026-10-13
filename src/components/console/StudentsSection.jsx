@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { Loader2, RefreshCw, Search, CreditCard, X, ChevronDown, ChevronRight, AlertTriangle, CheckCircle2 } from "lucide-react";
 import { Sheet, SheetContent, SheetTitle, SheetDescription } from "@/components/ui/sheet";
@@ -240,7 +241,7 @@ function Drawer({ userId, onClose, onChanged, onSessionLost }) {
       <SheetContent side="right" className="w-full overflow-y-auto border-white/10 bg-[#0E0F26] p-0 text-white sm:max-w-xl">
         {!d ? (
           <div className="flex h-64 items-center justify-center">
-            {error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <Loader2 className="h-6 w-6 animate-spin text-violet-300" />}
+            {error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <BrandLoader size={48} />}
           </div>
         ) : (
           <div className="space-y-5 p-5">
@@ -365,7 +366,7 @@ export default function StudentsSection({ onSessionLost }) {
   }, [data, q, kind, group, endingSoon, showStaff]);
 
   if (!data) {
-    return <div className="flex h-64 items-center justify-center">{error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <Loader2 className="h-6 w-6 animate-spin text-violet-300" />}</div>;
+    return <div className="flex h-64 items-center justify-center">{error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <BrandLoader size={48} />}</div>;
   }
 
   return (
