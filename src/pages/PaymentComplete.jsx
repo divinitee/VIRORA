@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -117,7 +118,7 @@ export default function PaymentComplete() {
       >
         {state === "checking" && (
           <>
-            <Loader2 className="w-10 h-10 animate-spin mx-auto text-primary" />
+            <BrandLoader size={80} className="mx-auto" />
             <h1 className="text-2xl font-bold">{t("payment.checking_title")}</h1>
             <p className="text-muted-foreground">{t("payment.checking_sub")}</p>
           </>
