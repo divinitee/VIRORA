@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Loader2, RefreshCw, UserPlus, Hourglass, QrCode, GraduationCap, Users, Wallet, ArrowRight } from "lucide-react";
@@ -45,7 +46,7 @@ export default function OverviewSection({ onSessionLost }) {
   if (!data) {
     return (
       <div className="flex h-64 items-center justify-center">
-        {error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <Loader2 className="h-6 w-6 animate-spin text-violet-300" />}
+        {error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <BrandLoader size={48} />}
       </div>
     );
   }
