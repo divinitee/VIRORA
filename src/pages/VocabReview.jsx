@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useState, useMemo } from "react";
 import { base44 } from "@/api/base44Client";
 import { Link } from "react-router-dom";
@@ -98,7 +99,7 @@ export default function VocabReview() {
 
         {loading ? (
           <div className="flex items-center justify-center py-16 text-muted-foreground gap-2">
-            <Loader2 className="w-5 h-5 animate-spin" /> Loading words...
+            <BrandLoader size={40} /> Loading words...
           </div>
         ) : visible.length === 0 ? (
           <p className="text-center text-sm text-muted-foreground py-16">No words match this filter.</p>
