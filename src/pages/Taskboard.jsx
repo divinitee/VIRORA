@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useParams, useSearchParams, Link } from "react-router-dom";
 import { Loader2, ShieldAlert, Trash2, X } from "lucide-react";
@@ -136,7 +137,7 @@ export default function Taskboard() {
     if (r !== false) setForm(null);
   };
 
-  if (!user) return <Center><Loader2 className="h-6 w-6 animate-spin text-slate-400" /></Center>;
+  if (!user) return <Center><BrandLoader size={48} /></Center>;
   if (!isAdmin) {
     return (
       <Center>
@@ -146,7 +147,7 @@ export default function Taskboard() {
       </Center>
     );
   }
-  if (!loaded) return <Center><Loader2 className="mx-auto h-6 w-6 animate-spin text-slate-400" /><p className="mt-3 text-sm text-slate-400">Loading taskboard…</p></Center>;
+  if (!loaded) return <Center><BrandLoader size={48} className="mx-auto" /><p className="mt-3 text-sm text-slate-400">Loading taskboard…</p></Center>;
   if (loadError && !data.tasks.length) {
     return (
       <Center>
