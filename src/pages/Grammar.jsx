@@ -1,3 +1,4 @@
+import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
@@ -139,7 +140,7 @@ export default function Grammar() {
     return (
       <div className="premium-mesh min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <Loader2 className="w-8 h-8 animate-spin mx-auto mb-3" style={{ color: ACCENT }} />
+          <BrandLoader size={64} className="mx-auto mb-3" />
           <p className="text-sm text-muted-foreground">{c("home_loading")}</p>
         </div>
       </div>
@@ -182,7 +183,7 @@ export default function Grammar() {
           <div className="max-w-[560px] mx-auto mt-5">
             {items === null ? (
               <div className="premium-card rounded-[28px] p-8 text-center">
-                <Loader2 className="w-8 h-8 animate-spin mx-auto" style={{ color: ACCENT }} />
+                <BrandLoader size={64} className="mx-auto" />
               </div>
             ) : (
               <PracticeRunner
