@@ -1,22 +1,30 @@
 import React, { useState } from "react";
 import { ChevronDown, ChevronRight, Paperclip, Plus, Check, Play, RotateCcw, Pencil, ExternalLink } from "lucide-react";
-import { Button, StepStatusIcon, Field, inputCls, ActorBadge } from "./ui";
-import { STEP_STATUSES, STEP_LABEL, EVIDENCE_TYPES, EVIDENCE_LABEL, fmtTime } from "./model";
+import { Button, StepStatusIcon, Field, inputCls, ActorBadge, OwnerBadge } from "./ui";
+import { STEP_STATUSES, STEP_LABEL, EVIDENCE_TYPES, EVIDENCE_LABEL, fmtTime, OWNERS, OWNER_LABEL } from "./model";
 
 export function StepCreateForm({ onSubmit, onCancel, busy }) {
-  const [f, setF] = useState({ title: "", description: "", expected_result: "" });
+  const blank = { title: "", description: "", expected_result: "", owner: "" };
+  const [f, setF] = useState(blank);
   const [err, setErr] = useState("");
   const submit = async (e) => {
     e?.preventDefault?.();
     if (!f.title.trim()) { setErr("Describe the action."); return; }
-    const ok = await onSubmit({ ...f, title: f.title.trim() });
-    if (ok !== false) setF({ title: "", description: "", expected_result: "" });
+    const { owner, ...rest } = f;
+    const ok = await onSubmit({ ...rest, title: f.title.trim(), ...(owner ? { owner } : {}) });
+    if (ok !== false) setF(blank);
   };
   return (
     <form onSubmit={submit} className="rounded-[8px] border border-emerald-500/30 bg-emerald-500/5 p-3">
       <div className="grid gap-3 sm:grid-cols-2">
-        <Field label="Step (action)" className="sm:col-span-2">
+        <Field label="Step (action)">
           <input autoFocus value={f.title} onChange={(e) => setF({ ...f, title: e.target.value })} className={inputCls} placeholder="e.g. Attempt cross-owner read as T2" />
+        </Field>
+        <Field label="Who does it">
+          <select value={f.owner} onChange={(e) => setF({ ...f, owner: e.target.value })} className={inputCls}>
+            <option value="">Same as task owner</option>
+            {OWNERS.map((o) => <option key={o} value={o}>{OWNER_LABEL[o]}</option>)}
+          </select>
         </Field>
         <Field label="Instructions">
           <textarea rows={2} value={f.description} onChange={(e) => setF({ ...f, description: e.target.value })} className={inputCls} placeholder="Exactly what to do" />
@@ -91,7 +99,7 @@ export function EvidenceItem({ ev }) {
   );
 }
 
-export default function StepList({ steps, evidenceByStep, onUpdateStep, onAddEvidence, busy }) {
+export default function StepList({ steps, taskOwner, evidenceByStep, onUpdateStep, onAddEvidence, busy }) {
   const [open, setOpen] = useState({});
   return (
     <div className="divide-y divide-slate-800 overflow-hidden rounded-[8px] border border-slate-800">
@@ -100,6 +108,7 @@ export default function StepList({ steps, evidenceByStep, onUpdateStep, onAddEvi
           key={s.id}
           step={s}
           n={i + 1}
+          taskOwner={taskOwner}
           evidence={evidenceByStep[s.id] || []}
           expanded={!!open[s.id]}
           toggle={() => setOpen((o) => ({ ...o, [s.id]: !o[s.id] }))}
@@ -112,7 +121,7 @@ export default function StepList({ steps, evidenceByStep, onUpdateStep, onAddEvi
   );
 }
 
-function StepRow({ step, n, evidence, expanded, toggle, onUpdateStep, onAddEvidence, busy }) {
+function StepRow({ step, n, taskOwner, evidence, expanded, toggle, onUpdateStep, onAddEvidence, busy }) {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(null);
   const [actual, setActual] = useState(step.actual_result || "");
@@ -135,6 +144,7 @@ function StepRow({ step, n, evidence, expanded, toggle, onUpdateStep, onAddEvide
           </div>
           {!expanded && step.expected_result && <div className="mt-0.5 truncate text-xs text-slate-500">Expect: {step.expected_result}</div>}
         </button>
+        <OwnerBadge owner={step.owner || taskOwner} />
         {evidence.length > 0 && <span className="inline-flex items-center gap-1 text-xs text-blue-300"><Paperclip className="h-3.5 w-3.5" />{evidence.length}</span>}
         <div className="flex shrink-0 items-center gap-1.5">
           {step.status === "todo" && <Button size="sm" variant="ghost" icon={Play} onClick={() => setStatus("in_progress")} disabled={busy}>Start</Button>}
@@ -179,6 +189,13 @@ function StepRow({ step, n, evidence, expanded, toggle, onUpdateStep, onAddEvide
               Status
               <select value={step.status} disabled={busy} onChange={(e) => setStatus(e.target.value)} className="rounded-[6px] border border-slate-700 bg-slate-950 px-2 py-1 text-xs text-slate-200">
                 {STEP_STATUSES.map((s) => <option key={s} value={s}>{STEP_LABEL[s]}</option>)}
+              </select>
+            </label>
+            <label className="flex items-center gap-2">
+              Who
+              <select value={step.owner || ""} disabled={busy} onChange={(e) => onUpdateStep(step.id, { owner: e.target.value || null })} className="rounded-[6px] border border-slate-700 bg-slate-950 px-2 py-1 text-xs text-slate-200">
+                <option value="">Task owner ({OWNER_LABEL[taskOwner || "tee"]})</option>
+                {OWNERS.map((o) => <option key={o} value={o}>{OWNER_LABEL[o]}</option>)}
               </select>
             </label>
             {step.completed_at && <span>· {STEP_LABEL[step.status]} {fmtTime(step.completed_at)} by <ActorBadge actor={step.completed_by} /></span>}
