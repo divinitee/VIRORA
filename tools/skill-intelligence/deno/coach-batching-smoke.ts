@@ -55,7 +55,14 @@ tables.VocabularyWord = Array.from({ length: 150 }, (_, i) => {
   return { id: `v${i + 1}`, english: en, uzbek: `soz ${en}`, russian: `слово ${i + 1}`, cefr: 'A2', def_a2: `a made-up thing number ${i + 1}`, example_en: `We saw the ${en} near the park.` };
 });
 tables.WordSense = [];
-tables.WordAttempt = [];
+// Game history (3 days ago) so the plan mixes depths: words played right -> reviews
+// (practice: meaning, definition, context, spelling), words missed -> weak (remediation:
+// all five types), the rest new (probe). Every question type is then exercised.
+const old = new Date(Date.now() - 3 * 86400000).toISOString();
+tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x'].flatMap((email) => [
+  ...Array.from({ length: 24 }, (_, i) => ({ id: `h-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: i >= 4, round_id: `h-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
+  ...Array.from({ length: 4 }, (_, i) => ({ id: `h2-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: false, round_id: `h2-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
+]);
 tables.GrammarAttempt = [];
 tables.User = ['vip1@x', 'vip2@x', 'vip3@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
 tables.StudentSubscription = [
@@ -115,6 +122,9 @@ function checkPersisted(label: string, email: string, run: any, sent: any[]) {
   const rows = tables.WordAttempt.filter((r) => r.user_email === email && coachRounds.has(r.round_id));
   const words = [...run.perWord.keys()];
   ok(`${label}: the plan really has > 50 word answers (${run.answers})`, run.answers > 50);
+  const types = new Set(sent.flatMap((p) => (p.coach?.session_key === run.sk ? p.items.map((i: any) => i.type) : [])));
+  ok(`${label}: all five question types were answered (${[...types].sort().join(', ')})`, ['multiple_choice', 'translation', 'definition', 'context', 'spelling'].every((t) => types.has(t)));
+  ok(`${label}: the plan mixed new, review and weak words`, ['new', 'review', 'remediate'].every((b) => run.items.some((i: any) => i.item_type === 'word' && i.bucket === b)), run.items.map((i: any) => i.bucket).join());
   ok(`${label}: every round sent had <= ${MAX_ROUND_ITEMS} answers`, sent.every((p) => p.items.length <= MAX_ROUND_ITEMS), sent.map((p) => p.items.length).join());
   ok(`${label}: ALL ${run.answers} answers persisted, none twice`, rows.length === run.answers, `${rows.length}`);
   const roundsPerWord = words.map((key) => new Set(rows.filter((r) => `word:${r.word_id}:0` === key).map((r) => r.round_id)).size);
