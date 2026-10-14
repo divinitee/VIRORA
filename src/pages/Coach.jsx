@@ -14,6 +14,7 @@ import { generateRoundId } from "@/lib/gameScoring";
 import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
 import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard } from "@/lib/coach/wordCheck";
 import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
+import { createAnswerSender } from "@/lib/coach/answerBatches";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
 
@@ -219,6 +220,10 @@ export default function Coach() {
     </Shell>);
 }
 
+// One answer sender per page load: rounds whose save failed are resent (same
+// round_id) by the next flush, even from a later Session (Back, Keep going).
+const answerSender = createAnswerSender((email, payload) => submitEvidence(email, payload));
+
 // Word checks are estimated in quarter minutes (coachPlan WORD_DEPTHS): show "<1 min", never "0.5 min".
 const fmtMin = (t, n) => (Number(n) > 0 && Number(n) < 1 ? t("min_short") : t("min", { n: Math.round(Number(n) || 0) }));
 
@@ -296,13 +301,12 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   // left part-way (Back / navigating away) are real, so they are still sent,
   // but WITHOUT the session_key: ordinary practice evidence, no Coach credit,
   // no FSRS move, no session minutes, and the word stays in today's plan.
-  const flush = useCallback(async () => {
-    const batch = pending.current.splice(0);
-    if (!batch.length || !email) return;
-    const finished = batch.filter((p) => completedWords.current.has(p.key)).map((p) => p.ev);
-    const partial = batch.filter((p) => !completedWords.current.has(p.key)).map((p) => p.ev);
-    if (finished.length) await submitEvidence(email, { game: "quiz", round_id: generateRoundId(), items: finished.slice(0, 50), coach: { session_key: sessionKey } });
-    if (partial.length) await submitEvidence(email, { game: "quiz", round_id: generateRoundId(), items: partial.slice(0, 50) });
+  // Rounds of <= 50 answers, one word never split, failed rounds kept for the
+  // next flush with their round_id (src/lib/coach/answerBatches.js).
+  // Resolves true when nothing is left unsent.
+  const flush = useCallback(() => {
+    if (!email) return Promise.resolve(false);
+    return answerSender.flush({ email, entries: pending.current.splice(0), completed: completedWords.current, sessionKey, newRoundId: generateRoundId });
   }, [email, sessionKey]);
 
   const advance = useCallback(() => setIdx((i) => i + 1), []);
@@ -313,8 +317,8 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   }, [advance]);
 
   // Let the page send queued answers before it leaves (Back), and as a last
-  // resort on unmount (navigating away). flush() empties the queue first, so
-  // the two can never send the same answers twice.
+  // resort on unmount (navigating away). flush() empties the queue first and
+  // flushes run one after another, so the two can never send the same answers twice.
   useEffect(() => {
     if (flushRef) flushRef.current = flush;
     return () => { if (flushRef) flushRef.current = null; flush(); };
@@ -330,7 +334,9 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
       if (!it) {
         if (finishing.current) return;
         finishing.current = true;
-        await flush(); // awaited: the server has every answer before Done is computed
+        // Awaited: the server has every answer before Done is computed. One retry
+        // if a save failed; anything still unsent stays queued for the next flush.
+        if (!(await flush())) { await new Promise((r) => setTimeout(r, 1500)); await flush(); }
         onFinished(summarise(outcomes.current));
         return;
       }
