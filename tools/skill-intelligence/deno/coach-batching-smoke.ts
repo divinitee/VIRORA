@@ -57,10 +57,11 @@ tables.VocabularyWord = Array.from({ length: 150 }, (_, i) => {
 tables.WordSense = [];
 tables.WordAttempt = [];
 tables.GrammarAttempt = [];
-tables.User = [{ id: 'u1', email: 'vip1@x', cefr_level: 'A2' }, { id: 'u2', email: 'vip2@x', cefr_level: 'A2' }];
+tables.User = ['vip1@x', 'vip2@x', 'vip3@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
 tables.StudentSubscription = [
   { id: 's1', phone: 'vip1@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's2', phone: 'vip2@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
+  { id: 's3', phone: 'vip3@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
 ];
 const byId = new Map(tables.VocabularyWord.map((w) => [w.id, w]));
 const grammarAnswers = (topic: string, n: number) => Object.entries(PRACTICE_KEYS[topic] || {})
@@ -70,7 +71,7 @@ let seed = 11; const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483
 let rid = 0; const newRoundId = () => `round-${++rid}`;
 
 /** Play one full Today's Practice the way Coach.jsx's Session does. */
-async function playSession(email: string, submit: (email: string, payload: any) => Promise<any>) {
+async function playSession(email: string, submit: (email: string, payload: any) => Promise<any>, legacy = false) {
   me = { email, role: 'user' };
   await C({ action: 'saveProfile', goal_id: 'everyday', daily_minutes: 25 });
   const today = await C({ action: 'getToday' });
@@ -80,8 +81,11 @@ async function playSession(email: string, submit: (email: string, payload: any) 
   const pending: any[] = [];
   const completed = new Set<string>();
   const perWord = new Map<string, number>();
-  const flush = () => sender.flush({ email, entries: pending.splice(0), completed, sessionKey: sk, newRoundId });
-  let answers = 0, k = 0;
+  // legacy = the pre-fix Coach.jsx flush: one round, cut to 50 answers.
+  const flush = legacy
+    ? async () => { const b = pending.splice(0).map((p) => p.ev); if (b.length) await submit(email, { game: 'quiz', round_id: newRoundId(), items: b.slice(0, 50), coach: { session_key: sk } }); return true; }
+    : () => sender.flush({ email, entries: pending.splice(0), completed, sessionKey: sk, newRoundId });
+  let answers = 0, k = 0, expectedCorrect = 0;
   for (const it of items) {
     if (it.item_type === 'word') {
       const w = byId.get(it.word_id);
@@ -91,6 +95,7 @@ async function playSession(email: string, submit: (email: string, payload: any) 
         const given = wrong ? (q.type === 'spelling' ? 'zzzz' : q.options.find((o: string) => o !== q.correct)) : (q.type === 'spelling' ? ` ${String(q.correct).toUpperCase()} ` : q.correct);
         pending.push({ key: it.item_key, ev: evidenceItem(w, q, given) });
         answers++;
+        if (!wrong) expectedCorrect++;
       }
       perWord.set(it.item_key, qs.length);
       completed.add(it.item_key);
@@ -102,7 +107,7 @@ async function playSession(email: string, submit: (email: string, payload: any) 
   }
   let finalOk = await flush(); // the end of the session
   if (!finalOk) finalOk = await flush(); // Coach.jsx retries once
-  return { sk, items, answers, perWord, finalOk, sender };
+  return { sk, items, answers, perWord, finalOk, sender, expectedCorrect };
 }
 
 function checkPersisted(label: string, email: string, run: any, sent: any[]) {
@@ -116,7 +121,7 @@ function checkPersisted(label: string, email: string, run: any, sent: any[]) {
   ok(`${label}: each word's answers sit in exactly one round_id`, roundsPerWord.every((n) => n === 1), roundsPerWord.join());
   const ev = (tables.ItemEvidence || []).filter((e) => e.user_email === email && e.session_key === run.sk && e.source === 'coach_session');
   ok(`${label}: every planned word has Coach evidence with all its questions`, words.every((key) => ev.filter((e) => e.item_key === key).length === 1 && ev.find((e) => e.item_key === key)?.items === run.perWord.get(key)));
-  ok(`${label}: spelling typed in another case was graded right by the server`, rows.some((r) => r.correct === true));
+  ok(`${label}: server grading matches the intended answers on all 5 types (spelling typed in CAPS with spaces counts as right)`, rows.filter((r) => r.correct === true).length === run.expectedCorrect && rows.every((r) => r.verification === 'server_graded'), `${rows.filter((r) => r.correct === true).length}/${run.expectedCorrect}`);
 }
 
 console.log('\n=== VIP 25-minute session, > 50 word answers, every save succeeds ===');
@@ -151,6 +156,13 @@ me = { email: 'vip2@x', role: 'user' };
 const after2 = await C({ action: 'getToday' });
 ok('server: session COMPLETE after the retries', after2.session.complete === true && after2.plan.items.length === 0, JSON.stringify(after2.session));
 
+console.log('\n=== Before the fix (regression proof): the old one-round flush, cut to 50 ===');
+const sent3: any[] = [];
+const run3 = await playSession('vip3@x', async (email, payload) => { sent3.push(payload); me = { email, role: 'user' }; const r = await P({ action: 'submitEvidence', ...payload }); return r?.ok || r?.duplicate ? r : null; }, true);
+const kept3 = tables.WordAttempt.filter((r) => r.user_email === 'vip3@x' && sent3.some((p) => p.round_id === r.round_id)).length;
+me = { email: 'vip3@x', role: 'user' };
+const after3 = await C({ action: 'getToday' });
+ok(`old flush: answers silently lost (${kept3} of ${run3.answers} kept) and the session never completes (this test catches the bug)`, kept3 < run3.answers && after3.session.complete === false && after3.plan.items.length > 0, JSON.stringify({ kept3, s: after3.session }));
 console.log('\n=== Before the fix (regression proof): one round cut to 50 answers ===');
 me = { email: 'vip1@x', role: 'user' };
 const oldBad = await P({ action: 'submitEvidence', game: 'quiz', round_id: 'too-big', items: Array.from({ length: 51 }, () => ({ word: 'x', word_id: 'v1', type: 'translation', given: 'x' })) });
