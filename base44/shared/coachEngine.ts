@@ -195,16 +195,35 @@ export async function verifyLearner(svc: any, email: string, deps: Deps) {
 // Planning inputs
 const LEVEL_MAP: Record<string, string> = { Starter: 'A1', A1: 'A1', A2: 'A2', B1: 'B1', B2: 'B2', C1: 'C1' };
 
-/** Unseen items with playable content: live grammar topics + corpus words at the learner's level. */
+/**
+ * The learner's word band = the Skill Hub's (src/lib/levels.js bandForLevel with
+ * BANDS_BELOW = 1, BANDS_ABOVE = 0): their CEFR level plus the one below it. Since
+ * 2026-10-14 the Coach draws new words from that WHOLE band of the corpus, like the
+ * Skill Hub games (before: exact level only, first 400 rows by id).
+ */
+export const BAND_GATES = ['A1', 'A2', 'B1', 'B2', 'C1'];
+export function coachBand(level: string) {
+  const i = Math.max(0, BAND_GATES.indexOf(LEVEL_MAP[level] || 'A2'));
+  return BAND_GATES.slice(Math.max(0, i - 1), i + 1);
+}
+export const NEW_WORD_CANDIDATES = 60;
+const BAND_PAGE = 500, BAND_MAX_PAGES = 8;
+
+/** Unseen items with playable content: live grammar topics + corpus words in the learner's band. */
 export async function newCandidatesFor(svc: any, email: string, level: string, known: Set<string>) {
   const out: any[] = LIVE_GRAMMAR_TOPICS.map((t) => ({ item_type: 'grammar', item_key: `grammar:${t}` })).filter((c) => !known.has(c.item_key));
-  const cefr = LEVEL_MAP[level] || 'A2';
-  const words = (await svc.VocabularyWord.filter({ cefr }, 'id', 400)) || [];
-  const fresh = words
+  const knownWordIds = new Set([...known].filter((k) => k.startsWith('word:')).map((k) => k.split(':')[1]));
+  const words: any[] = [];
+  for (let page = 0; page < BAND_MAX_PAGES; page++) {
+    const rows = (await svc.VocabularyWord.filter({ cefr: { $in: coachBand(level) } }, 'id', BAND_PAGE, page * BAND_PAGE, ['id'])) || [];
+    words.push(...rows);
+    if (rows.length < BAND_PAGE) break;
+  }
+  const fresh = [...new Map(words.filter((w: any) => w?.id).map((w: any) => [w.id, w])).values()]
+    .filter((w: any) => !knownWordIds.has(w.id))
     .map((w: any) => ({ item_type: 'word', item_key: `word:${w.id}:0`, word_id: w.id, order: fnv1a(`${email}|${w.id}`) }))
-    .filter((c: any) => !known.has(c.item_key) && ![...known].some((k) => k.startsWith(`word:${c.word_id}:`)))
     .sort((a: any, b: any) => a.order.localeCompare(b.order))
-    .slice(0, 30)
+    .slice(0, NEW_WORD_CANDIDATES)
     .map(({ order, ...c }: any) => c);
   return [...out, ...fresh];
 }
