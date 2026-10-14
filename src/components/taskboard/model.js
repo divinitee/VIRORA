@@ -29,6 +29,34 @@ export const ENERGY_LABEL = { low: "Low", med: "Medium", high: "High" };
 export const PLACES = ["laptop", "home", "phone", "anywhere", "out"];
 export const PLACE_LABEL = { laptop: "Laptop", home: "Home", phone: "Phone", anywhere: "Anywhere", out: "Out" };
 
+// Company sections + who does it (Tee, 2026-10-14 — "run it like a company").
+export const DEPARTMENTS = ["tech", "marketing", "finance", "ops"];
+export const DEPARTMENT_LABEL = { tech: "Tech", marketing: "Marketing", finance: "Finance", ops: "Ops" };
+export const DEPARTMENT_STYLE = {
+  tech: "border-blue-500/40 bg-blue-500/10 text-blue-300",
+  marketing: "border-pink-500/40 bg-pink-500/10 text-pink-300",
+  finance: "border-amber-500/40 bg-amber-500/10 text-amber-300",
+  ops: "border-teal-500/40 bg-teal-500/10 text-teal-300",
+};
+export const OWNERS = ["tee", "claude", "gpt", "base44"];
+export const OWNER_LABEL = { tee: "Tee", claude: "Claude", gpt: "GPT", base44: "Base44" };
+export const ACTING_AS = ["tee", "claude", "gpt"];
+
+// Wall-clock time from start to finish, e.g. "2d 3h" or "45m".
+export function fmtDuration(minutes) {
+  const m = Math.round(Number(minutes) || 0);
+  if (m <= 0) return "—";
+  if (m < 60) return m + "m";
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + "h" + (m % 60 ? " " + (m % 60) + "m" : "");
+  const d = Math.floor(h / 24);
+  return d + "d" + (h % 24 ? " " + (h % 24) + "h" : "");
+}
+export function elapsedMinutes(task) {
+  if (!task?.started_at || !task?.completed_at) return 0;
+  return Math.max(0, (new Date(task.completed_at) - new Date(task.started_at)) / 60000);
+}
+
 export const STEP_STATUSES = ["todo", "in_progress", "done", "failed", "skipped"];
 export const STEP_LABEL = { todo: "To do", in_progress: "In progress", done: "Done", failed: "Failed", skipped: "Skipped" };
 
