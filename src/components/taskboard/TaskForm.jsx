@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Modal, Button, Field, inputCls } from "./ui";
-import { STATUSES, STATUS_LABEL, PRIORITIES, PRIORITY_LABEL, CATEGORIES, WORK_MODES, WORK_MODE_LABEL, ENERGY_LEVELS, ENERGY_LABEL, PLACES, PLACE_LABEL } from "./model";
+import { STATUSES, STATUS_LABEL, PRIORITIES, PRIORITY_LABEL, CATEGORIES, DEPARTMENTS, DEPARTMENT_LABEL, OWNERS, OWNER_LABEL } from "./model";
 
 // Create or edit a task. With `parent`, creates a subtask of that task.
 export default function TaskForm({ task, parent, onSubmit, onClose, busy }) {
@@ -17,11 +17,9 @@ export default function TaskForm({ task, parent, onSubmit, onClose, busy }) {
     depends_on: (task?.depends_on || []).join(", "),
     notes: task?.notes || "",
     launch_blocker: !!task?.launch_blocker,
-    work_mode: task?.work_mode || "hands_on",
-    estimate_minutes: task?.estimate_minutes || 15,
-    ai_minutes: task?.ai_minutes || 0,
-    energy: task?.energy || "med",
-    place: task?.place || "anywhere",
+    department: task?.department || parent?.department || "tech",
+    owner: task?.owner || parent?.owner || "tee",
+    estimate_minutes: task?.estimate_minutes || 30,
   }));
   const [err, setErr] = useState("");
   const set = (k, v) => setF((x) => ({ ...x, [k]: v }));
@@ -36,6 +34,8 @@ export default function TaskForm({ task, parent, onSubmit, onClose, busy }) {
       tags: f.tags.split(",").map((x) => x.trim()).filter(Boolean),
       depends_on: f.depends_on.split(",").map((x) => x.trim()).filter(Boolean),
       due_date: f.due_date || null,
+      // Older screens still read work_mode; keep it in step with the owner.
+      work_mode: f.owner === "tee" ? "hands_on" : "claude",
     });
   };
 
@@ -94,28 +94,20 @@ export default function TaskForm({ task, parent, onSubmit, onClose, busy }) {
           <input value={f.depends_on} onChange={(e) => set("depends_on", e.target.value)} className={inputCls} placeholder="VT-2" />
         </Field>
         <div className="sm:col-span-2 rounded-[10px] border border-blue-500/20 bg-blue-500/[0.04] p-3">
-          <div className="mb-3 text-[11px] font-bold uppercase tracking-[.18em] text-blue-300">Execution</div>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            <Field label="Work mode" hint="Who does the substantive work">
-              <select value={f.work_mode} onChange={(e) => set("work_mode", e.target.value)} className={inputCls}>
-                {WORK_MODES.map((m) => <option key={m} value={m}>{WORK_MODE_LABEL[m]}</option>)}
+          <div className="mb-3 text-[11px] font-bold uppercase tracking-[.18em] text-blue-300">Who &amp; where</div>
+          <div className="grid gap-3 sm:grid-cols-3">
+            <Field label="Section">
+              <select value={f.department} onChange={(e) => set("department", e.target.value)} className={inputCls}>
+                {DEPARTMENTS.map((d) => <option key={d} value={d}>{DEPARTMENT_LABEL[d]}</option>)}
               </select>
             </Field>
-            <Field label="Your minutes" hint="Kickoff + review / hands-on">
-              <input type="number" min="1" max="1440" step="5" value={f.estimate_minutes} onChange={(e) => set("estimate_minutes", e.target.value)} className={inputCls} />
-            </Field>
-            <Field label="AI minutes" hint="Unattended runtime">
-              <input type="number" min="0" max="1440" step="5" value={f.ai_minutes} onChange={(e) => set("ai_minutes", e.target.value)} className={inputCls} />
-            </Field>
-            <Field label="Energy">
-              <select value={f.energy} onChange={(e) => set("energy", e.target.value)} className={inputCls}>
-                {ENERGY_LEVELS.map((e) => <option key={e} value={e}>{ENERGY_LABEL[e]}</option>)}
+            <Field label="Owner" hint="Who does this task">
+              <select value={f.owner} onChange={(e) => set("owner", e.target.value)} className={inputCls}>
+                {OWNERS.map((o) => <option key={o} value={o}>{OWNER_LABEL[o]}</option>)}
               </select>
             </Field>
-            <Field label="Place">
-              <select value={f.place} onChange={(e) => set("place", e.target.value)} className={inputCls}>
-                {PLACES.map((p) => <option key={p} value={p}>{PLACE_LABEL[p]}</option>)}
-              </select>
+            <Field label="Rough time (min)" hint="A guess is fine">
+              <input type="number" min="1" max="10000" step="5" value={f.estimate_minutes} onChange={(e) => set("estimate_minutes", e.target.value)} className={inputCls} />
             </Field>
           </div>
         </div>
