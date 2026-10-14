@@ -1,6 +1,11 @@
 {
   "name": "Task",
   "properties": {
+    "ai_minutes": {
+      "default": 0,
+      "description": "Estimated unattended AI execution minutes. Usually non-zero for Claude tasks.",
+      "type": "integer"
+    },
     "archived": {
       "default": false,
       "type": "boolean"
@@ -16,6 +21,17 @@
       "format": "date-time",
       "type": "string"
     },
+    "department": {
+      "default": "tech",
+      "description": "Company section: Tech (product/dev), Marketing (content, ads, outreach), Finance (money, pricing, payments decisions), Ops (accounts, admin, operations).",
+      "enum": [
+        "tech",
+        "marketing",
+        "finance",
+        "ops"
+      ],
+      "type": "string"
+    },
     "depends_on": {
       "description": "Task codes this task depends on. A task is execution-blocked until all dependencies are complete.",
       "items": {
@@ -29,6 +45,21 @@
     "due_date": {
       "description": "YYYY-MM-DD",
       "type": "string"
+    },
+    "energy": {
+      "default": "med",
+      "description": "Minimum human energy required for the hands-on portion.",
+      "enum": [
+        "low",
+        "med",
+        "high"
+      ],
+      "type": "string"
+    },
+    "estimate_minutes": {
+      "default": 15,
+      "description": "Estimated total human hands-on minutes. For Claude work this means kickoff + review, not unattended runtime.",
+      "type": "integer"
     },
     "focus_rank": {
       "default": 0,
@@ -46,8 +77,31 @@
       "default": 0,
       "type": "integer"
     },
+    "owner": {
+      "default": "tee",
+      "description": "Who is responsible for doing this task.",
+      "enum": [
+        "tee",
+        "claude",
+        "gpt",
+        "base44"
+      ],
+      "type": "string"
+    },
     "parent_id": {
       "description": "Parent Task.id. Empty for root.",
+      "type": "string"
+    },
+    "place": {
+      "default": "anywhere",
+      "description": "Execution context required for the hands-on portion.",
+      "enum": [
+        "laptop",
+        "home",
+        "phone",
+        "anywhere",
+        "out"
+      ],
       "type": "string"
     },
     "priority": {
@@ -102,44 +156,12 @@
     },
     "work_mode": {
       "default": "hands_on",
+      "description": "Who does the substantive work: Tee, Claude, or both.",
       "enum": [
         "hands_on",
         "claude",
         "hybrid"
       ],
-      "description": "Who does the substantive work: Tee, Claude, or both.",
-      "type": "string"
-    },
-    "estimate_minutes": {
-      "default": 15,
-      "description": "Estimated total human hands-on minutes. For Claude work this means kickoff + review, not unattended runtime.",
-      "type": "integer"
-    },
-    "ai_minutes": {
-      "default": 0,
-      "description": "Estimated unattended AI execution minutes. Usually non-zero for Claude tasks.",
-      "type": "integer"
-    },
-    "energy": {
-      "default": "med",
-      "enum": [
-        "low",
-        "med",
-        "high"
-      ],
-      "description": "Minimum human energy required for the hands-on portion.",
-      "type": "string"
-    },
-    "place": {
-      "default": "anywhere",
-      "enum": [
-        "laptop",
-        "home",
-        "phone",
-        "anywhere",
-        "out"
-      ],
-      "description": "Execution context required for the hands-on portion.",
       "type": "string"
     }
   },
@@ -149,6 +171,7 @@
     "status",
     "priority"
   ],
+  "type": "object",
   "rls": {
     "create": {
       "user_condition": {
@@ -170,6 +193,5 @@
         "role": "admin"
       }
     }
-  },
-  "type": "object"
+  }
 }
