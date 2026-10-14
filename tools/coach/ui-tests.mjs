@@ -4,6 +4,7 @@ import { coachT, labelKey, reasonKey, goalLabel, minutesWord } from "../../src/l
 import { GOALS } from "../../base44/shared/coachGraph.js";
 import { DEPTHS } from "../../base44/shared/coachPlan.js";
 import { OUTCOME, summarise, afterRunView } from "../../src/lib/coach/sessionOutcome.js";
+import { packByWord, roundsFor, createAnswerSender, MAX_ROUND_ITEMS } from "../../src/lib/coach/answerBatches.js";
 import { LIVE_GRAMMAR_TOPICS } from "../../base44/shared/coachGraph.js";
 let pass = 0, fail = 0;
 const ok = (n, c) => { c ? pass++ : fail++; console.log(`  ${c ? "PASS" : "FAIL"}  ${n}`); };
@@ -135,6 +136,44 @@ console.log("\n=== Word workout: meaning, recall, definition, context, spelling 
   const card = wordCard(env, "ru");
   ok("weak-word card: word, learner's translation, definition, example", card.english === "environment" && card.native === "окружающая среда" && !!card.definition && !!card.example);
   for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`copy for the new question types (${lang})`, ["q_definition", "q_context", "q_spelling", "check", "answer", "word_card", "got_it", "min_short"].every((k) => t(k) && t(k) !== k)); }
+}
+console.log("\n=== Answer batching: <= 50 per round, one word per round, failed rounds retried (audit finding 1) ===");
+{
+  // 30 words x 4 answers = 120 answers, like a long Velvet/VI session.
+  const entries = [];
+  for (let w = 0; w < 30; w++) for (let q = 0; q < 4; q++) entries.push({ key: `word:w${w}:0`, ev: { word_id: `w${w}`, q } });
+  const chunks = packByWord(entries);
+  ok("every answer is kept (120 in, 120 out)", chunks.flat().length === 120);
+  ok("no round over 50 answers", MAX_ROUND_ITEMS === 50 && chunks.every((c) => c.length <= 50), chunks.map((c) => c.length).join());
+  ok("one word's answers never split across rounds", [...new Set(entries.map((e) => e.key))].every((k) => chunks.filter((c) => c.some((e) => e.key === k)).length === 1));
+  ok("order kept", JSON.stringify(chunks.flat()) === JSON.stringify(entries));
+  ok("a single word above the limit is split rather than dropped", packByWord(Array.from({ length: 60 }, (_, i) => ({ key: "word:big:0", ev: i }))).map((c) => c.length).join() === "50,10");
+  let n = 0;
+  const rounds = roundsFor([...entries, { key: "word:left:0", ev: { word_id: "left" } }], { completed: new Set(entries.map((e) => e.key)), sessionKey: "2026-10-14:today:0", newRoundId: () => `r${++n}` });
+  ok("finished words carry the session_key; a word left part-way goes untagged in its own round", rounds.slice(0, -1).every((r) => r.coach?.session_key === "2026-10-14:today:0") && !rounds[rounds.length - 1].coach && rounds[rounds.length - 1].items.length === 1);
+  ok("each round has its own id and the quiz contract", new Set(rounds.map((r) => r.round_id)).size === rounds.length && rounds.every((r) => r.game === "quiz" && r.items.length <= 50));
+
+  // Sender: a failed round is kept with its round_id and resent by the next flush.
+  const sent = [];
+  let failNext = 1;
+  const sender = createAnswerSender(async (email, payload) => { sent.push(payload.round_id); if (failNext > 0 && sent.length === 2) { failNext--; return null; } return { ok: true }; });
+  let id = 0;
+  const first = await sender.flush({ email: "a@x", entries: entries.slice(), completed: new Set(entries.map((e) => e.key)), sessionKey: "k", newRoundId: () => `s${++id}` });
+  ok("a failed save -> flush reports false and keeps that round", first === false && sender.unsentCount("a@x") === 1);
+  const second = await sender.flush({ email: "a@x", entries: [], completed: new Set(), sessionKey: "k", newRoundId: () => `s${++id}` });
+  ok("the next flush resends the SAME round_id (server dedupes a round that did land)", second === true && sender.unsentCount("a@x") === 0 && sent[sent.length - 1] === sent[1]);
+  ok("a thrown error counts as a failed save (kept, not lost)", await (async () => { const s2 = createAnswerSender(async () => { throw new Error("offline"); }); const r = await s2.flush({ email: "b@x", entries: entries.slice(0, 4), completed: new Set(["word:w0:0"]), sessionKey: "k", newRoundId: () => "t1" }); return r === false && s2.unsentCount("b@x") === 1; })());
+  ok("rounds are only ever resent for the same account", await (async () => { const got = []; const s3 = createAnswerSender(async (email, p) => { got.push(email); return email === "c@x" ? null : { ok: true }; }); await s3.flush({ email: "c@x", entries: entries.slice(0, 4), completed: new Set(["word:w0:0"]), sessionKey: "k", newRoundId: () => "u1" }); await s3.flush({ email: "d@x", entries: [], completed: new Set(), sessionKey: "k", newRoundId: () => "u2" }); return got.join() === "c@x" && s3.unsentCount("c@x") === 1; })());
+  ok("no email -> nothing sent, nothing consumed", (await createAnswerSender(async () => ({ ok: true })).flush({ email: null, entries })) === false);
+  // Concurrent flushes (Back while a grammar step flushes) run one after another, never sending twice.
+  const seen = [];
+  const slow = createAnswerSender(async (email, p) => { await new Promise((r) => setTimeout(r, 5)); seen.push(p.round_id); return { ok: true }; });
+  let m = 0;
+  const [a1, a2] = await Promise.all([
+    slow.flush({ email: "e@x", entries: entries.slice(0, 60), completed: new Set(entries.map((e) => e.key)), sessionKey: "k", newRoundId: () => `v${++m}` }),
+    slow.flush({ email: "e@x", entries: entries.slice(60), completed: new Set(entries.map((e) => e.key)), sessionKey: "k", newRoundId: () => `v${++m}` }),
+  ]);
+  ok("concurrent flushes: every round sent exactly once", a1 && a2 && seen.length === new Set(seen).size && seen.length === m, seen.join());
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 
