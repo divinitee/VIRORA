@@ -4,9 +4,9 @@ import {
   ArrowLeft, ArrowUp, ChevronRight, Plus, Pencil, Archive, RotateCcw, Trash2, Download, ShieldCheck, ShieldOff,
   FolderTree, ListChecks, Paperclip, History, AlertTriangle, Crosshair, ListPlus, X, Clock3, Bot, Ban,
 } from "lucide-react";
-import { Button, StatusBadge, PriorityBadge, Tag, ProgressBar, Panel, ActorBadge } from "./ui";
+import { Button, StatusBadge, PriorityBadge, Tag, ProgressBar, Panel, ActorBadge, OwnerBadge, DeptBadge } from "./ui";
 import StepList, { StepCreateForm, EvidenceForm, EvidenceItem } from "./StepList";
-import { STATUSES, STATUS_LABEL, STATUS_STYLE, fmtDate, fmtTime, isOverdue, taskUrl, inSubtree, dependencyState, workSummary, calibratedEstimate, WORK_MODE_LABEL, ENERGY_LABEL, PLACE_LABEL } from "./model";
+import { STATUSES, STATUS_LABEL, STATUS_STYLE, fmtDate, fmtTime, isOverdue, taskUrl, inSubtree, dependencyState, workSummary, fmtDuration, elapsedMinutes, OWNER_LABEL, DEPARTMENT_LABEL } from "./model";
 
 export default function TaskPage({ task, data, idx, busy, navigate, handlers }) {
   const [addingStep, setAddingStep] = useState(false);
@@ -33,7 +33,7 @@ export default function TaskPage({ task, data, idx, busy, navigate, handlers }) 
   const stepsDone = steps.filter((s) => s.status === "done").length;
   const deps = dependencyState(task, idx.byCode);
   const work = workSummary(task, data.workLogs || []);
-  const calibrated = calibratedEstimate(task, data.workLogs || []);
+  const elapsed = elapsedMinutes(task);
 
   return (
     <div className="min-h-screen bg-[#070b12] text-slate-100">
@@ -73,6 +73,8 @@ export default function TaskPage({ task, data, idx, busy, navigate, handlers }) 
           <div className="min-w-0 flex-1">
             <div className="flex flex-wrap items-center gap-2">
               <span className="font-mono text-sm text-slate-400">{task.task_code}</span>
+              <DeptBadge department={task.department} />
+              <OwnerBadge owner={task.owner} />
               <StatusBadge status={task.status} />
               <PriorityBadge priority={task.priority} />
               {task.launch_blocker && <span className="rounded border border-rose-500/50 bg-rose-500/10 px-2 py-0.5 text-[11px] font-bold uppercase text-rose-300">Launch blocker</span>}
@@ -160,23 +162,22 @@ export default function TaskPage({ task, data, idx, busy, navigate, handlers }) 
               )}
             </Panel>
 
-            {/* Execution */}
+            {/* Who & time */}
             <Panel
-              title="Execution"
+              title="Who & time"
               action={<Button size="sm" icon={Clock3} onClick={() => setLoggingWork(true)} disabled={busy}>Log work</Button>}
             >
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-                <ExecMetric label="Mode" value={WORK_MODE_LABEL[task.work_mode || "hands_on"]} icon={task.work_mode === "claude" ? Bot : Crosshair} />
-                <ExecMetric label="Your estimate" value={`${Number(task.estimate_minutes) || 15}m`} icon={Clock3} />
-                <ExecMetric label="AI runtime" value={`${Number(task.ai_minutes) || 0}m`} icon={Bot} />
-                <ExecMetric label="Calibrated" value={`${calibrated.minutes}m`} icon={Clock3} />
+                <ExecMetric label="Owner" value={OWNER_LABEL[task.owner || "tee"]} icon={task.owner && task.owner !== "tee" ? Bot : Crosshair} />
+                <ExecMetric label="Section" value={DEPARTMENT_LABEL[task.department || "tech"]} icon={FolderTree} />
+                <ExecMetric label="Rough guess" value={`${Number(task.estimate_minutes) || 15}m`} icon={Clock3} />
+                <ExecMetric label={task.completed_at ? "Start → finish" : "Logged so far"} value={task.completed_at ? fmtDuration(elapsed) : fmtDuration(work.total)} icon={Clock3} />
               </div>
-              <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-400">
-                <span>Energy: <b className="text-slate-200">{ENERGY_LABEL[task.energy || "med"]}</b></span>
-                <span>Place: <b className="text-slate-200">{PLACE_LABEL[task.place || "anywhere"]}</b></span>
-                <span>Actual: <b className="text-slate-200">{work.human}m human</b>{work.ai ? <b className="text-slate-200"> · {work.ai}m AI</b> : null}</span>
-                {calibrated.samples > 0 && <span>{calibrated.samples} calibration sample{calibrated.samples === 1 ? "" : "s"}</span>}
-              </div>
+              {work.logs.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-400">
+                  <span>Logged: <b className="text-slate-200">{work.human}m by people</b>{work.ai ? <b className="text-slate-200"> · {work.ai}m by AI</b> : null}</span>
+                </div>
+              )}
               {deps.blocked && (
                 <div className="mt-3 flex items-start gap-2 rounded-[8px] border border-amber-500/30 bg-amber-500/[0.07] px-3 py-2 text-sm text-amber-200">
                   <Ban className="mt-0.5 h-4 w-4 shrink-0" />
@@ -236,7 +237,7 @@ export default function TaskPage({ task, data, idx, busy, navigate, handlers }) 
                 </div>
               )}
               {steps.length ? (
-                <StepList steps={steps} evidenceByStep={idx.evidenceByStep} onUpdateStep={handlers.updateStep} onAddEvidence={handlers.addEvidence} busy={busy} />
+                <StepList steps={steps} taskOwner={task.owner} evidenceByStep={idx.evidenceByStep} onUpdateStep={handlers.updateStep} onAddEvidence={handlers.addEvidence} busy={busy} />
               ) : (
                 !addingStep && <div className="rounded-[8px] border border-dashed border-slate-700 px-4 py-5 text-center text-sm text-slate-400">No steps. Steps are the concrete actions you perform and verify — each has an expected and an actual result, and can carry evidence.</div>
               )}
@@ -267,6 +268,8 @@ export default function TaskPage({ task, data, idx, busy, navigate, handlers }) 
               <dl className="space-y-2 text-sm">
                 <Row label="Status"><StatusBadge status={task.status} /></Row>
                 <Row label="Priority"><PriorityBadge priority={task.priority} /></Row>
+                <Row label="Section"><DeptBadge department={task.department} /></Row>
+                <Row label="Owner"><OwnerBadge owner={task.owner} /></Row>
                 <Row label="Category">{task.category || "—"}</Row>
                 <Row label="Project">{task.project || "—"}</Row>
                 <Row label="Due">{task.due_date ? <span className={isOverdue(task) ? "text-rose-300" : ""}>{fmtDate(task.due_date)}{isOverdue(task) ? " · overdue" : ""}</span> : "—"}</Row>
@@ -425,7 +428,7 @@ function TreeNode({ node, idx, currentId, depth }) {
   );
 }
 
-function ActivityList({ events, currentCode }) {
+export function ActivityList({ events, currentCode }) {
   const [limit, setLimit] = useState(40);
   if (!events.length) return <div className="text-sm text-slate-500">No activity yet.</div>;
   let lastDay = "";
