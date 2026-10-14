@@ -12,7 +12,7 @@ import { loadTopic } from "@/lib/grammarPractice";
 import { submitEvidence } from "@/lib/progress/progressClient";
 import { generateRoundId } from "@/lib/gameScoring";
 import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
-import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth } from "@/lib/coach/wordCheck";
+import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard } from "@/lib/coach/wordCheck";
 import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
@@ -193,20 +193,20 @@ export default function Coach() {
         <Orb color={color} />
         <div>
           <p className="text-xs font-semibold uppercase tracking-wider" style={{ color }}>{COACH_NAMES[persona]}</p>
-          <p className="text-sm text-foreground mt-1">{t("hello", { n: data.plan.minutes_planned || data.plan.minutes })}</p>
+          <p className="text-sm text-foreground mt-1">{t("hello", { n: Math.max(1, Math.round(data.plan.minutes_planned || data.plan.minutes)) })}</p>
         </div>
       </div>
       <div className="premium-card rounded-[28px] p-5">
         <div className="flex items-center justify-between mb-3">
           <h1 className="text-lg font-bold text-foreground">{data.session.kind === "continuation" ? t("keep_going") : t("today_title")}</h1>
-          <span className="text-xs text-muted-foreground flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{t("min", { n: data.plan.minutes_planned })}</span>
+          <span className="text-xs text-muted-foreground flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{fmtMin(t, data.plan.minutes_planned)}</span>
         </div>
         <ul className="divide-y divide-white/5">
           {items.map((it) => (
             <li key={it.item_key} className="py-3 flex items-center justify-between gap-3">
               <div className="min-w-0">
                 <p className="text-sm font-semibold text-foreground truncate">{it.item_type === "grammar" ? humanTopic(it.item_key) : <WordName id={it.word_id} />}</p>
-                <p className="text-[11px] text-muted-foreground">{it.item_type === "grammar" ? t("grammar_check") : t("word_check")} · {t("min", { n: it.est_minutes })}</p>
+                <p className="text-[11px] text-muted-foreground">{it.item_type === "grammar" ? t("grammar_check") : t("word_check")} · {fmtMin(t, it.est_minutes)}</p>
               </div>
               <span className="text-[10px] font-semibold uppercase tracking-wide rounded-full px-2 py-1 bg-white/5 text-foreground/80 shrink-0">{t(reasonKey(it.short_reason))}</span>
             </li>
@@ -218,6 +218,9 @@ export default function Coach() {
       </div>
     </Shell>);
 }
+
+// Word checks are estimated in quarter minutes (coachPlan WORD_DEPTHS): show "<1 min", never "0.5 min".
+const fmtMin = (t, n) => (Number(n) > 0 && Number(n) < 1 ? t("min_short") : t("min", { n: Math.round(Number(n) || 0) }));
 
 // Word names for the plan list (cached per page load).
 const wordCache = new Map();
@@ -349,7 +352,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         if (!alive) return;
         // No usable word/translation/distractors: UNAVAILABLE. Nothing is sent.
         if (!questions.length) { finishItem(it.item_key, OUTCOME.UNAVAILABLE); return; }
-        setReady({ kind: "word", key: it.item_key, word, questions });
+        setReady({ kind: "word", key: it.item_key, word, questions, intro: it.depth === "remediation" ? wordCard(word, lang) : null });
       } else {
         await flush();
         const path = grammarPath(it.item_key);
@@ -375,7 +378,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
       {!ready ? (
         <div className="premium-card rounded-[28px] p-10 text-center"><BrandLoader size={48} className="mx-auto" /></div>
       ) : ready.kind === "word" ? (
-        <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} color={color} t={t}
+        <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} intro={ready.intro} color={color} t={t}
           onAnswer={(w, q, given) => pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given) })} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
       ) : (
         <PracticeRunner key={`g${idx}`} items={ready.grammarItems} stage={ready.stage} topicKey={ready.topicKey} size={ready.size}
