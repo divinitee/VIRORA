@@ -1,27 +1,46 @@
 {
   "name": "TaskStep",
-  "type": "object",
   "properties": {
-    "step_code": {
-      "type": "string",
-      "description": "Human-readable step ID: VT-14.2#5."
-    },
-    "task_id": {
+    "actual_result": {
       "type": "string"
     },
-    "order": {
-      "type": "integer",
-      "default": 0
+    "completed_at": {
+      "format": "date-time",
+      "type": "string"
     },
-    "title": {
+    "completed_by": {
       "type": "string"
     },
     "description": {
-      "type": "string",
-      "description": "Instructions: what exactly to do."
+      "description": "Instructions: what exactly to do.",
+      "type": "string"
+    },
+    "expected_result": {
+      "type": "string"
+    },
+    "last_actor": {
+      "type": "string"
+    },
+    "order": {
+      "default": 0,
+      "type": "integer"
+    },
+    "owner": {
+      "description": "Who does this step. Empty = same as the task owner.",
+      "enum": [
+        "tee",
+        "claude",
+        "gpt",
+        "base44"
+      ],
+      "type": "string"
+    },
+    "started_at": {
+      "format": "date-time",
+      "type": "string"
     },
     "status": {
-      "type": "string",
+      "default": "todo",
       "enum": [
         "todo",
         "in_progress",
@@ -29,26 +48,16 @@
         "failed",
         "skipped"
       ],
-      "default": "todo"
-    },
-    "expected_result": {
       "type": "string"
     },
-    "actual_result": {
+    "step_code": {
+      "description": "Human-readable step ID: VT-14.2#5.",
       "type": "string"
     },
-    "started_at": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "completed_at": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "completed_by": {
+    "task_id": {
       "type": "string"
     },
-    "last_actor": {
+    "title": {
       "type": "string"
     }
   },
@@ -58,6 +67,7 @@
     "title",
     "status"
   ],
+  "type": "object",
   "rls": {
     "read": {
       "user_condition": {
