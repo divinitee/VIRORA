@@ -1,30 +1,43 @@
 import React from "react";
 import "./BrandLoader.css";
 
+const STAR_PATH =
+  "M50 0 C56 34 66 44 100 50 C66 56 56 66 50 100 C44 66 34 56 0 50 C34 44 44 34 50 0 Z";
+
 const STARS = [
-  { x: 18, y: 64, width: 12, height: 17, delay: "0s" },
-  { x: 62, y: 64, width: 12, height: 17, delay: "0s" },
-  { x: 25, y: 47, width: 12, height: 17, delay: "0.16s" },
-  { x: 55, y: 47, width: 12, height: 17, delay: "0.16s" },
-  { x: 32, y: 30, width: 12, height: 17, delay: "0.32s" },
-  { x: 48, y: 30, width: 12, height: 17, delay: "0.32s" },
-  { x: 40, y: 13, width: 18, height: 25, delay: "0.48s", apex: true },
+  { x: 22, y: 0.84, width: 8, height: 10, delay: "0s" },
+  { x: 78, y: 0.84, width: 8, height: 10, delay: "0s" },
+  { x: 31, y: 0.60, width: 8, height: 10, delay: "0.26s" },
+  { x: 69, y: 0.60, width: 8, height: 10, delay: "0.26s" },
+  { x: 40, y: 0.36, width: 8, height: 11, delay: "0.52s" },
+  { x: 60, y: 0.36, width: 8, height: 11, delay: "0.52s" },
+  { x: 50, y: 0.12, width: 20, height: 24, delay: "0.78s", apex: true },
 ];
 
-const STAR_PATH = "M50 0 L61 38 L100 38 L68 61 L80 100 L50 77 L20 100 L32 61 L0 38 L39 38 Z";
+export default function BrandLoader({
+  size = 56,
+  width = size,
+  height = size,
+  label = "Loading",
+  className = "",
+}) {
+  const viewBoxHeight = (100 * height) / width;
 
-export default function BrandLoader({ size = 56, label = "Loading", className = "" }) {
   return (
     <div
       className={`virora-star-loader ${className}`.trim()}
-      style={{ width: size, height: size }}
+      style={{ width, height }}
       role="status"
       aria-label={label}
     >
-      <svg viewBox="0 0 80 76" aria-hidden="true" focusable="false">
+      <svg viewBox={`0 0 100 ${viewBoxHeight}`} aria-hidden="true" focusable="false">
         {STARS.map((star, index) => {
-          const transform = `translate(${star.x - star.width / 2} ${star.y - star.height / 2}) scale(${star.width / 100} ${star.height / 100})`;
-          const starClass = star.apex ? "virora-star-loader__star virora-star-loader__star--apex" : "virora-star-loader__star";
+          const centerY = star.y * viewBoxHeight;
+          const transform = `translate(${star.x - star.width / 2} ${centerY - star.height / 2}) scale(${star.width / 100} ${star.height / 100})`;
+          const starClass = star.apex
+            ? "virora-star-loader__star virora-star-loader__star--apex"
+            : "virora-star-loader__star";
+
           return (
             <g
               key={index}
