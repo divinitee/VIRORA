@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { X } from "lucide-react";
-import { STATUS_LABEL, STATUS_STYLE, PRIORITY_LABEL, PRIORITY_STYLE, ACTOR_STYLE, STEP_LABEL } from "./model";
+import { STATUS_LABEL, STATUS_STYLE, PRIORITY_LABEL, PRIORITY_STYLE, ACTOR_STYLE, STEP_LABEL, OWNER_LABEL, DEPARTMENT_LABEL, DEPARTMENT_STYLE } from "./model";
 
 const BTN = {
   primary: "bg-blue-500 text-white hover:bg-blue-400 border-blue-400/60 shadow-[0_0_0_1px_rgba(59,130,246,.25)]",
@@ -48,6 +48,17 @@ export function Tag({ children, className = "" }) {
 
 export function ActorBadge({ actor }) {
   return <span className={`inline-flex items-center rounded border px-1.5 py-0.5 font-mono text-[10px] uppercase ${ACTOR_STYLE[actor] || ACTOR_STYLE.system}`}>{actor || "?"}</span>;
+}
+
+// Who does it. Bigger and friendlier than ActorBadge.
+export function OwnerBadge({ owner, prefix = "" }) {
+  const o = owner || "tee";
+  return <span className={`inline-flex items-center rounded-[6px] border px-2 py-0.5 text-[11px] font-semibold ${ACTOR_STYLE[o] || ACTOR_STYLE.system}`}>{prefix}{OWNER_LABEL[o] || o}</span>;
+}
+
+export function DeptBadge({ department }) {
+  const d = department || "tech";
+  return <span className={`inline-flex items-center rounded-[6px] border px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide ${DEPARTMENT_STYLE[d] || DEPARTMENT_STYLE.tech}`}>{DEPARTMENT_LABEL[d] || d}</span>;
 }
 
 export function StepStatusIcon({ status, className = "" }) {
