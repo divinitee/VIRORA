@@ -9,7 +9,14 @@ import Focus, { roadmapOf, ROADMAP_MAX } from "@/components/taskboard/Focus";
 import TaskPage from "@/components/taskboard/TaskPage";
 import TaskForm from "@/components/taskboard/TaskForm";
 import { Modal, Button, inputCls } from "@/components/taskboard/ui";
-import { buildIndex, buildExport, downloadJson, taskUrl, STATUS_LABEL } from "@/components/taskboard/model";
+import { buildIndex, buildExport, downloadJson, taskUrl, STATUS_LABEL, ACTING_AS, OWNER_LABEL, ACTOR_STYLE } from "@/components/taskboard/model";
+
+// Who is clicking. Every write is logged under this name (Tee, 2026-10-14 —
+// "separate who does what"). Remembered per browser.
+const ACTOR_KEY = "virora.taskboard.actor";
+function readActor() {
+  try { const v = localStorage.getItem(ACTOR_KEY); return ACTING_AS.includes(v) ? v : "tee"; } catch { return "tee"; }
+}
 
 // Internal VIRORA Taskboard / build receipt. Admin only.
 // Focus (now + up next) at /taskboard, the full board (backlog) at
@@ -24,6 +31,9 @@ export default function Taskboard() {
   const navigate = useNavigate();
   const [search] = useSearchParams();
   const showAll = search.get("view") === "all";
+  const sectionParam = search.get("section") || "";
+  const [actor, setActorState] = useState(readActor);
+  const setActor = (v) => { setActorState(v); try { localStorage.setItem(ACTOR_KEY, v); } catch { /* private mode */ } };
   const [data, setData] = useState(EMPTY);
   const [loaded, setLoaded] = useState(false);
   const [loadError, setLoadError] = useState("");
@@ -63,7 +73,7 @@ export default function Taskboard() {
   const run = useCallback(async (action, payload, okMsg, toastAction) => {
     setBusy(true);
     try {
-      const r = await taskboardApi(action, payload, "tee");
+      const r = await taskboardApi(action, payload, actor);
       await load();
       if (okMsg) notify(typeof okMsg === "function" ? okMsg(r) : okMsg, "ok", toastAction ? toastAction(r) : null);
       return r ?? true;
@@ -73,7 +83,7 @@ export default function Taskboard() {
     } finally {
       setBusy(false);
     }
-  }, [load, notify]);
+  }, [load, notify, actor]);
 
   const handlers = useMemo(() => ({
     newTask: () => setForm({}),
@@ -176,7 +186,7 @@ export default function Taskboard() {
         idx={idx}
         busy={busy}
         onOpen={(t) => navigate(taskUrl(t))}
-        onBacklog={() => navigate("/taskboard?view=all")}
+        onBacklog={(section) => navigate("/taskboard?view=all" + (section ? "&section=" + encodeURIComponent(section) : ""))}
         onNew={handlers.newTask}
         handlers={handlers}
       />
@@ -184,6 +194,8 @@ export default function Taskboard() {
   } else {
     body = (
       <Board
+        key={sectionParam}
+        initialSection={sectionParam}
         onFocus={() => navigate("/taskboard")}
         data={data}
         idx={idx}
@@ -224,6 +236,14 @@ export default function Taskboard() {
           }}
         />
       )}
+      <div className="fixed bottom-4 left-4 z-[65] flex items-center gap-1 rounded-[10px] border border-slate-700 bg-[#0c121c]/95 p-1 text-xs shadow-2xl backdrop-blur" role="group" aria-label="Acting as">
+        <span className="px-1.5 text-slate-500">Acting as</span>
+        {ACTING_AS.map((a) => (
+          <button key={a} type="button" onClick={() => setActor(a)} aria-pressed={actor === a} className={`rounded-[7px] border px-2 py-1 font-semibold ${actor === a ? ACTOR_STYLE[a] : "border-transparent text-slate-400 hover:text-white"}`}>
+            {OWNER_LABEL[a]}
+          </button>
+        ))}
+      </div>
       {busy && <div className="fixed left-0 right-0 top-0 z-[60] h-0.5 animate-pulse bg-blue-400" />}
       {toast && (
         <div role="status" className={`fixed bottom-4 left-1/2 z-[70] flex w-[min(92vw,560px)] -translate-x-1/2 items-center gap-3 rounded-[8px] border px-4 py-3 text-sm shadow-2xl ${toast.kind === "error" ? "border-rose-500/50 bg-[#2a0f16] text-rose-100" : "border-slate-600 bg-[#111a2a] text-slate-100"}`}>
