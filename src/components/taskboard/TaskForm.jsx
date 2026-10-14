@@ -107,7 +107,7 @@ export default function TaskForm({ task, parent, onSubmit, onClose, busy }) {
               </select>
             </Field>
             <Field label="Rough time (min)" hint="A guess is fine">
-              <input type="number" min="1" max="10000" step="5" value={f.estimate_minutes} onChange={(e) => set("estimate_minutes", e.target.value)} className={inputCls} />
+              <input type="number" min="1" max="1440" step="5" value={f.estimate_minutes} onChange={(e) => set("estimate_minutes", e.target.value)} className={inputCls} />
             </Field>
           </div>
         </div>
