@@ -97,11 +97,19 @@ const letters = (s) => String(s || "").replace(/[^a-zA-Z]/g, "").toLowerCase();
 export const gradeSpelling = (canonicalEnglish, answer) =>
   letters(canonicalEnglish).length > 0 && letters(answer) === letters(canonicalEnglish);
 
-/** Translation Drill option questions. null = not server-gradable (typed "define"). */
+/**
+ * Option / typed word questions in a "quiz" round. null = not server-gradable.
+ *   multiple_choice  English shown, pick the native meaning (uz or ru)
+ *   translation      native shown, pick the English word
+ *   definition       English definition shown, pick the English word   (Coach, 2026-10-14)
+ *   context          example sentence with a gap, pick the English word  (Coach, 2026-10-14)
+ *   spelling         native shown, TYPE the English word (gradeSpelling) (Coach, 2026-10-14)
+ */
 export function gradeTranslation(word, type, given) {
   if (typeof given !== "string" || !word) return null;
-  if (type === "translation") return given === word.english;
+  if (type === "translation" || type === "definition" || type === "context") return given === word.english;
   if (type === "multiple_choice") return [word.uzbek, word.russian].filter(Boolean).includes(given);
+  if (type === "spelling") return gradeSpelling(word.english, given);
   return null;
 }
 
