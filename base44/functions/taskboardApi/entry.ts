@@ -18,11 +18,14 @@ const PRIORITIES = ['critical', 'high', 'medium', 'low'];
 const STEP_STATUSES = ['todo', 'in_progress', 'done', 'failed', 'skipped'];
 const STEP_LABEL: Record<string, string> = { todo: 'To do', in_progress: 'In progress', done: 'Done', failed: 'Failed', skipped: 'Skipped' };
 const EVIDENCE_TYPES = ['note', 'screenshot', 'log', 'api_response', 'test_output', 'file', 'link', 'checkpoint'];
-const TASK_FIELDS = ['title', 'description', 'status', 'priority', 'category', 'project', 'tags', 'due_date', 'depends_on', 'notes', 'launch_blocker', 'order', 'focus_rank', 'work_mode', 'estimate_minutes', 'ai_minutes', 'energy', 'place'];
+const TASK_FIELDS = ['title', 'description', 'status', 'priority', 'category', 'project', 'tags', 'due_date', 'depends_on', 'notes', 'launch_blocker', 'order', 'focus_rank', 'work_mode', 'estimate_minutes', 'ai_minutes', 'energy', 'place', 'department', 'owner'];
+// Company sections and who does the work (Tee, 2026-10-14: "run this like a company").
+const DEPARTMENTS = ['tech', 'marketing', 'finance', 'ops'];
+const OWNERS = ['tee', 'claude', 'gpt', 'base44'];
 // The Focus roadmap: 1 = now, 2.. = up next. Kept short on purpose (Tee,
 // 2026-10-03: "every new task we complete, 5 new tasks get added").
 const ROADMAP_MAX = 6;
-const STEP_FIELDS = ['title', 'description', 'status', 'expected_result', 'actual_result', 'order'];
+const STEP_FIELDS = ['title', 'description', 'status', 'expected_result', 'actual_result', 'order', 'owner'];
 const CATEGORIES = ['Product / Architecture', 'Engineering', 'Design / UX', 'Planning / Strategy', 'Marketing', 'Pricing / Business', 'Research', 'General'];
 
 class ApiError extends Error {
@@ -175,6 +178,8 @@ function cleanTaskPatch(patch: any) {
     else if (k === 'ai_minutes') out.ai_minutes = Math.max(0, Math.min(1440, Math.round(Number(v) || 0)));
     else if (k === 'energy') out.energy = ['low', 'med', 'high'].includes(String(v)) ? String(v) : 'med';
     else if (k === 'place') out.place = ['laptop', 'home', 'phone', 'anywhere', 'out'].includes(String(v)) ? String(v) : 'anywhere';
+    else if (k === 'department') out.department = DEPARTMENTS.includes(String(v)) ? String(v) : 'tech';
+    else if (k === 'owner') out.owner = OWNERS.includes(String(v)) ? String(v) : 'tee';
     else out[k] = str(v);
   }
   return out;
@@ -209,6 +214,7 @@ async function createTask(db: any, actor: string, input: any) {
   const record = await db.Task.create({
     category: parent?.category || 'General', priority: 'medium', tags: [], depends_on: [], description: '', project: parent?.project || '', notes: '', launch_blocker: false,
     work_mode: 'hands_on', estimate_minutes: 15, ai_minutes: 0, energy: 'med', place: 'anywhere',
+    department: parent?.department || 'tech', owner: parent?.owner || 'tee',
     ...fields,
     status,
     ...statusStamps(null, status),
@@ -376,6 +382,7 @@ async function createStep(db: any, actor: string, input: any) {
     step_code: code, task_id: task.id, order, title,
     description: str(input.description), expected_result: str(input.expected_result),
     actual_result: str(input.actual_result), status, last_actor: actor,
+    ...(OWNERS.includes(String(input.owner)) ? { owner: String(input.owner) } : {}),
   });
   await log(db, actor, task, { node_type: 'step', node_code: code, action: 'step_added', details: `Step ${code} “${title}” added` });
   await db.Task.update(task.id, { last_actor: actor });
@@ -392,6 +399,7 @@ async function updateStep(db: any, actor: string, input: any) {
     if (k === 'title') { const t = str(v, 500).trim(); if (!t) throw bad('Step title cannot be empty'); patch.title = t; }
     else if (k === 'status') { if (!STEP_STATUSES.includes(v)) throw bad('Unknown step status'); patch.status = v; }
     else if (k === 'order') patch.order = Number(v) || 0;
+    else if (k === 'owner') patch.owner = OWNERS.includes(String(v)) ? String(v) : null;
     else patch[k] = str(v);
   }
   const changed = Object.keys(patch).filter((k) => !same(before[k], patch[k]));
@@ -468,6 +476,7 @@ async function importNative(db: any, actor: string, data: any) {
         work_mode: ['hands_on', 'claude', 'hybrid'].includes(t.work_mode) ? t.work_mode : 'hands_on',
         estimate_minutes: Math.max(1, Math.round(Number(t.estimate_minutes) || 15)), ai_minutes: Math.max(0, Math.round(Number(t.ai_minutes) || 0)),
         energy: ['low', 'med', 'high'].includes(t.energy) ? t.energy : 'med', place: ['laptop', 'home', 'phone', 'anywhere', 'out'].includes(t.place) ? t.place : 'anywhere',
+        department: DEPARTMENTS.includes(t.department) ? t.department : 'tech', owner: OWNERS.includes(t.owner) ? t.owner : 'tee',
       });
     }
     const made = await bulk(db.Task, rows);
