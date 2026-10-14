@@ -567,5 +567,38 @@ function makeStore() {
   }
 }
 
+console.log("\n=== 9. Word timing + Skill Hub word band (2026-10-14) ===");
+{
+  const { WORD_DEPTHS, depthInfo } = await import("../../base44/shared/coachPlan.js");
+  const { coachBand, newCandidatesFor, NEW_WORD_CANDIDATES } = await import("../../base44/shared/coachEngine.ts");
+  const { WORD_QUESTIONS } = await import("../../src/lib/coach/wordCheck.js");
+  const { gradeTranslation } = await import("../../base44/shared/progressCore.js");
+  ok("word question counts match the UI's word plans, for every depth", Object.keys(DEPTHS).every((d) => WORD_DEPTHS[d] && WORD_DEPTHS[d].questions === WORD_QUESTIONS[d]));
+  ok("word estimates <= 1.25 min in quarter minutes; grammar estimates unchanged", Object.values(WORD_DEPTHS).every((d) => d.minutes <= 1.25 && (d.minutes * 4) % 1 === 0) && DEPTHS.probe.minutes === 2 && DEPTHS.practice.minutes === 3 && DEPTHS.remediation.minutes === 5);
+  ok("depthInfo picks the table by item key", depthInfo("word:x:0", "practice").minutes === 0.75 && depthInfo("grammar:tenses.present.simple-routine", "practice").minutes === 3);
+  const items = [...Array.from({ length: 20 }, (_, i) => IT(`word:r${i}:0`, "learning", { due: ago(1), reps: 1 })), IT("word:w1:0", "weak"), IT("word:w2:0", "weak")];
+  const newC = Array.from({ length: 20 }, (_, i) => ({ item_type: "word", item_key: `word:n${i}:0`, word_id: `n${i}` }));
+  const p = planToday({ items, newCandidates: newC, goal, policy: POLICIES.vira, minutes: 10, now: NOW });
+  const words = p.explanation.filter((e) => e.item_type === "word");
+  ok("Vira 10 min, learner with game history -> 12+ word checks (production showed 2-3)", words.length >= 12, String(words.length));
+  ok("...never over budget; minutes_planned is the exact sum", p.minutes_planned <= 10 && p.minutes_planned === p.explanation.reduce((a, e) => a + e.est_minutes, 0), String(p.minutes_planned));
+  ok("...each word's question count comes from the word table", words.every((e) => e.questions === WORD_DEPTHS[e.depth].questions));
+  ok("...reviews still capped at 60% of the minutes", p.explanation.filter((e) => e.bucket === "review").reduce((a, e) => a + e.est_minutes, 0) <= 6);
+  ok("band = Skill Hub's (level + one below): B1 -> A2,B1; A1/Starter -> A1; C1 -> B2,C1; unknown -> A1,A2", coachBand("B1").join() === "A2,B1" && coachBand("A1").join() === "A1" && coachBand("Starter").join() === "A1" && coachBand("C1").join() === "B2,C1" && coachBand("zzz").join() === "A1,A2");
+  const vw = [...Array.from({ length: 700 }, (_, i) => ({ id: `b1-${String(i).padStart(4, "0")}`, cefr: "B1" })), ...Array.from({ length: 300 }, (_, i) => ({ id: `a2-${i}`, cefr: "A2" })), ...Array.from({ length: 50 }, (_, i) => ({ id: `c1-${i}`, cefr: "C1" }))];
+  const calls = [];
+  const svcB = { VocabularyWord: { async filter(q, sort, limit = 50, skip = 0) { calls.push([limit, skip]); const band = q.cefr.$in; return vw.filter((w) => band.includes(w.cefr)).sort((a, b) => a.id.localeCompare(b.id)).slice(skip, skip + limit).map((w) => ({ id: w.id })); } } };
+  const known = new Set(["word:b1-0001:0", "word:a2-5:1"]);
+  const nc = (await newCandidatesFor(svcB, "x@y", "B1", known)).filter((c) => c.item_type === "word");
+  ok("new words are drawn from the WHOLE band (all pages, 1,000 rows)", calls.length === 3 && nc.length === NEW_WORD_CANDIDATES, JSON.stringify(calls));
+  ok("...both band levels appear; never outside the band; never a known word (any sense)", nc.some((c) => c.word_id.startsWith("a2-")) && nc.some((c) => c.word_id.startsWith("b1-")) && !nc.some((c) => c.word_id.startsWith("c1-")) && !nc.some((c) => c.word_id === "b1-0001" || c.word_id === "a2-5"));
+  const nc2 = (await newCandidatesFor(svcB, "x@y", "B1", known)).filter((c) => c.item_type === "word");
+  ok("...deterministic per learner", JSON.stringify(nc) === JSON.stringify(nc2));
+  const W1 = { english: "environment", uzbek: "atrof-muhit", russian: "окружающая среда" };
+  ok("server grades definition/context by the English headword", gradeTranslation(W1, "definition", "environment") === true && gradeTranslation(W1, "context", "pollution") === false);
+  ok("server grades spelling letters-only, any case", gradeTranslation(W1, "spelling", " Environment ") === true && gradeTranslation(W1, "spelling", "enviroment") === false);
+  ok("old types unchanged; unknown types stay ungraded (null)", gradeTranslation(W1, "multiple_choice", "atrof-muhit") === true && gradeTranslation(W1, "translation", "environment") === true && gradeTranslation(W1, "essay", "x") === null);
+}
+
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);

@@ -1,5 +1,5 @@
 // Stage 3 pure UI helpers: node --experimental-strip-types tools/coach/ui-tests.mjs
-import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS } from "../../src/lib/coach/wordCheck.js";
+import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard } from "../../src/lib/coach/wordCheck.js";
 import { coachT, labelKey, reasonKey, goalLabel, minutesWord } from "../../src/lib/coach/coachCopy.js";
 import { GOALS } from "../../base44/shared/coachGraph.js";
 import { DEPTHS } from "../../base44/shared/coachPlan.js";
@@ -112,4 +112,30 @@ for (const lang of ["en", "uz", "ru"]) {
   ok("ru: no distractor with Latin letters (\"на CD/DVD/видео\"); uz: no distractor with Cyrillic letters", latinRu === 0 && cyrUz === 0, `${latinRu}/${cyrUz}`);
   ok("a target written with Latin letters in Russian is still playable (only distractors are filtered)", buildWordQuestions(senseMix[4], senseMix, { depth: "probe", lang: "ru", rnd })[0]?.correct === "на CD/DVD/видео");
 }
+console.log("\n=== Word workout: meaning, recall, definition, context, spelling (2026-10-14) ===");
+{
+  const env = { id: "e", english: "environment", uzbek: "atrof-muhit", russian: "окружающая среда", cefr: "B1", def_b1: "the air, water, and land where all animals and plants live", english_definition: "The world around us where we live.", example_en: "We must protect our natural environment." };
+  const P = [env, ...pool.slice(1)];
+  const kinds = (d) => buildWordQuestions(env, P, { depth: d, lang: "uz", rnd }).map((q) => q.kind).join();
+  ok("probe = meaning, definition, context", kinds("probe") === "meaning,definition,context", kinds("probe"));
+  ok("practice = meaning, definition, context, spelling", kinds("practice") === "meaning,definition,context,spelling", kinds("practice"));
+  ok("brushup = context, spelling, recall", kinds("brushup") === "context,spelling,recall", kinds("brushup"));
+  ok("remediation trains all five", kinds("remediation") === "meaning,recall,definition,context,spelling", kinds("remediation"));
+  const qq = buildWordQuestions(env, P, { depth: "remediation", lang: "uz", rnd });
+  const ctx = qq.find((q) => q.kind === "context"), def = qq.find((q) => q.kind === "definition"), sp = qq.find((q) => q.kind === "spelling");
+  ok("context: the word is blanked, never shown; answer is an option", ctx.prompt.includes("_____") && !/environment/i.test(ctx.prompt) && ctx.correct === "environment" && ctx.options.includes("environment") && ctx.type === "context");
+  ok("definition: level-appropriate (B1 learner word -> def_b1)", def.prompt === env.def_b1 && def.type === "definition");
+  ok("a definition containing the word (or a form of it) is never used", definitionFor({ english: "environment", cefr: "A2", def_a2: "Environmental things.", english_definition: "The world around us." }) === "The world around us.");
+  ok("spelling: native prompt, letter-count hint, no options", sp.prompt === "atrof-muhit" && sp.hint === "e__________" && !sp.options && sp.type === "spelling");
+  ok("spelling evidence is graded like the server (letters only, any case)", evidenceItem(env, sp, " Environment").correct === true && evidenceItem(env, sp, "enviroment").correct === false && evidenceItem(env, sp, "x").type === "spelling");
+  ok("no definition/example -> meaning/recall fill in, never empty", buildWordQuestions(target, pool, { depth: "probe", lang: "uz", rnd }).map((q) => q.kind).join() === "meaning,recall,meaning");
+  ok("the word twice in the example -> no context question", contextFor({ english: "go", example_en: "Go, go now." }) === "");
+  ok("inflected only (exploded) -> no context question", contextFor({ english: "explode", example_en: "The old factory exploded at night." }) === "");
+  ok("not typeable (etc.) -> no spelling; multiword hint keeps the space", spellingHint("etc.") === "" && spellingHint("carbon footprint") === "c_____ f________");
+  const card = wordCard(env, "ru");
+  ok("weak-word card: word, learner's translation, definition, example", card.english === "environment" && card.native === "окружающая среда" && !!card.definition && !!card.example);
+  for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`copy for the new question types (${lang})`, ["q_definition", "q_context", "q_spelling", "check", "answer", "word_card", "got_it", "min_short"].every((k) => t(k) && t(k) !== k)); }
+}
 console.log(`\n${pass} passed, ${fail} failed`);
+
+if (fail) process.exit(1);
