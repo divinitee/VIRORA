@@ -115,10 +115,11 @@ export function buildWordQuestions(word, pool, { depth, lang, rnd = Math.random 
   const available = { meaning: true, recall: true, definition: !!def, context: !!ctx, spelling: !!hint };
   const used = new Set();
   const kinds = [];
+  const count = (k) => kinds.filter((x) => x === k).length;
   for (const want of plan) {
+    // A kind not used yet if possible; otherwise repeat meaning/recall, whichever was used less.
     const pick = [want, ...(FALLBACK[want] || [])].find((k) => available[k] && !used.has(k))
-      || [want, ...(FALLBACK[want] || [])].find((k) => available[k] && (k === "meaning" || k === "recall"));
-    if (!pick) continue;
+      || (count("meaning") <= count("recall") ? "meaning" : "recall");
     used.add(pick); kinds.push(pick);
   }
   const english = (picks) => shuffle([word.english, ...picks.map((w) => w.english)], rnd);

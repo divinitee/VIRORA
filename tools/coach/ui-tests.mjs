@@ -13,15 +13,15 @@ const target = W("t", "apple", "olma", "яблоко");
 const pool = [target, W("a", "pear", "nok", "груша"), W("b", "bread", "non", "хлеб"), W("c", "water", "suv", "вода"), W("d", "milk", "sut", "молоко")];
 for (const depth of Object.keys(DEPTHS)) ok(`every plan depth has a word question count (${depth})`, WORD_QUESTIONS[depth] >= 1);
 const qs = buildWordQuestions(target, pool, { depth: "remediation", lang: "uz", rnd });
-ok("remediation word -> 3 questions, alternating types", qs.length === 3 && qs[0].type === "multiple_choice" && qs[1].type === "translation");
-ok("each question has the correct answer exactly once and 4 unique options", qs.every((q) => q.options.filter((o) => o === q.correct).length === 1 && new Set(q.options).size === q.options.length && q.options.length === 4));
+ok("remediation word -> 5 questions: meaning, recall, ... spelling last", qs.length === 5 && qs[0].type === "multiple_choice" && qs[1].type === "translation" && qs[4].type === "spelling");
+ok("each option question has the correct answer exactly once and 4 unique options", qs.filter((q) => q.type !== "spelling").every((q) => q.options.filter((o) => o === q.correct).length === 1 && new Set(q.options).size === q.options.length && q.options.length === 4));
 ok("multiple_choice answer = native (uz), translation answer = english", qs[0].correct === "olma" && qs[1].correct === "apple");
 ok("ru learners get russian", buildWordQuestions(target, pool, { depth: "probe", lang: "ru", rnd })[0].correct === "яблоко");
 ok("no translation -> no questions (never fake evidence)", buildWordQuestions(W("x", "zzz", "", ""), pool, { depth: "probe", lang: "uz" }).length === 0);
 ok("too few distractors -> no questions", buildWordQuestions(target, [target, pool[1]], { depth: "probe", lang: "uz" }).length === 0);
 const dupPool = [target, pool[1], pool[1], { ...pool[2], id: "b2" }, pool[2], pool[3], pool[4]]; // same id twice + same text under two ids
 const dq = buildWordQuestions(target, dupPool, { depth: "remediation", lang: "uz", rnd });
-ok("distractors are distinct even when the pool repeats words (no duplicate options)", dq.length === 3 && dq.every((q) => new Set(q.options).size === 4));
+ok("distractors are distinct even when the pool repeats words (no duplicate options)", dq.length === 5 && dq.filter((q) => q.options).every((q) => new Set(q.options).size === 4));
 const ev = evidenceItem(target, qs[0], "olma");
 ok("evidence item matches the server's quiz grading contract", ev.word_id === "t" && ev.type === "multiple_choice" && ev.given === "olma" && ev.correct === true);
 ok("every live grammar topic maps to a bank path", LIVE_GRAMMAR_TOPICS.every((k) => { const p = grammarPath(`grammar:${k}`); return p && p.join(".") === k; }));
@@ -67,7 +67,7 @@ for (const lang of ["en", "uz", "ru"]) {
   ok("uz learner + same word -> playable in Uzbek", buildWordQuestions(score, mixedPool, { depth: "probe", lang: "uz", rnd })[0]?.correct === "hisob");
   const ruQs = buildWordQuestions(target, mixedPool, { depth: "remediation", lang: "ru", rnd });
   const cyr = /^[Ѐ-ӿ\s-]+$/;
-  ok("ru learner: every meaning option is Russian (distractors without Russian are skipped, no mixed languages)", ruQs.length === 3 && ruQs.filter((q) => q.type === "multiple_choice").every((q) => q.options.every((o) => cyr.test(o))), JSON.stringify(ruQs.map((q) => q.options)));
+  ok("ru learner: every meaning option is Russian (distractors without Russian are skipped, no mixed languages)", ruQs.length === 5 && ruQs.filter((q) => q.type === "multiple_choice").every((q) => q.options.every((o) => cyr.test(o))), JSON.stringify(ruQs.map((q) => q.options)));
 }
 // --- Post-publish corrections (2026-10-11) ----------------------------------------
 {
@@ -92,7 +92,7 @@ for (const lang of ["en", "uz", "ru"]) {
   }
   ok("ru: \"счёт\" is never offered next to the correct \"счет\", and a headword meaning the same is never an option", nearHits === 0);
   const caseDup = buildWordQuestions(target, [target, W("x1", "Pear", "Nok ", "Груша"), pool[1], pool[2], pool[3], pool[4]], { depth: "remediation", lang: "ru", rnd });
-  ok("options are distinct ignoring case and spaces", caseDup.every((q) => new Set(q.options.map((o) => o.toLowerCase().trim())).size === q.options.length));
+  ok("options are distinct ignoring case and spaces", caseDup.filter((q) => q.options).every((q) => new Set(q.options.map((o) => o.toLowerCase().trim())).size === q.options.length));
   // Review of the bundle on live rows: senses, qualifiers and the other script.
   const confident = W("cf", "confident", "ishonchli", "уверенный");
   const senseMix = [confident, W("ce", "certain", "aniq; ishonchli", "уверенный; определённый"), W("tr", "tree", "daraxt (yog'och)", "дерево"), W("wd", "wood", "yog'och", "дерево (материал)"),
