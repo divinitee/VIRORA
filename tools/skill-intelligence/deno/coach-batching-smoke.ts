@@ -124,7 +124,7 @@ function checkPersisted(label: string, email: string, run: any, sent: any[]) {
   ok(`${label}: the plan really has > 50 word answers (${run.answers})`, run.answers > 50);
   const types = new Set(sent.flatMap((p) => (p.coach?.session_key === run.sk ? p.items.map((i: any) => i.type) : [])));
   ok(`${label}: all five question types were answered (${[...types].sort().join(', ')})`, ['multiple_choice', 'translation', 'definition', 'context', 'spelling'].every((t) => types.has(t)));
-  ok(`${label}: the plan mixed new, review and weak words`, ['new', 'review', 'remediate'].every((b) => run.items.some((i: any) => i.item_type === 'word' && i.bucket === b)), run.items.map((i: any) => i.bucket).join());
+  ok(`${label}: the plan mixed new, practised and weak words (probe, practice, remediation)`, ['probe', 'practice', 'remediation'].every((d) => run.items.some((i: any) => i.item_type === 'word' && i.depth === d)), run.items.map((i: any) => i.depth).join());
   ok(`${label}: every round sent had <= ${MAX_ROUND_ITEMS} answers`, sent.every((p) => p.items.length <= MAX_ROUND_ITEMS), sent.map((p) => p.items.length).join());
   ok(`${label}: ALL ${run.answers} answers persisted, none twice`, rows.length === run.answers, `${rows.length}`);
   const roundsPerWord = words.map((key) => new Set(rows.filter((r) => `word:${r.word_id}:0` === key).map((r) => r.round_id)).size);
