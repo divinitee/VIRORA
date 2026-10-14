@@ -13,13 +13,27 @@ import { onPath, goalRelevance, prerequisitesOf, unlockCount, edgesFor } from ".
 
 export const PLAN_VERSION = "coach-plan@1";
 
-// Depth -> questions + estimated minutes (locked estimates; recalibrated from duration_ms later).
+// Depth -> questions + estimated minutes. GRAMMAR (locked estimates; production
+// Oct 10-14 matches: ~1.5-2 min per 5-question round).
 export const DEPTHS = {
   probe: { questions: 5, minutes: 2 },        // Unknown
   brushup: { questions: 3, minutes: 1 },      // Solid (+ due)
   practice: { questions: 6, minutes: 3 },     // Learning (+ due)
   remediation: { questions: 9, minutes: 5 },  // Weak: rule recap + practice + check
 };
+// WORDS (2026-10-14). Production: real learners answer a word question in ~6-10 s,
+// so the grammar-sized estimates made a 10-20 minute plan last 45-75 s. A word check
+// is now a mix of meaning / recall / definition / context / spelling questions
+// (src/lib/coach/wordCheck.js WORD_QUESTIONS must match `questions`; tested).
+// Minutes are multiples of 0.25 so sums stay exact in floating point.
+export const WORD_DEPTHS = {
+  probe: { questions: 3, minutes: 0.5 },
+  brushup: { questions: 3, minutes: 0.5 },
+  practice: { questions: 4, minutes: 0.75 },
+  remediation: { questions: 5, minutes: 1.25 }, // word card + 5 questions
+};
+export const depthTableFor = (itemKey) => (String(itemKey || "").startsWith("word:") ? WORD_DEPTHS : DEPTHS);
+export const depthInfo = (itemKey, depth) => depthTableFor(itemKey)[depth] || DEPTHS[depth];
 
 const UNCERTAINTY = { low: 1, medium: 0.5, high: 0 };
 const clamp01 = (x) => Math.max(0, Math.min(1, x));
@@ -112,7 +126,7 @@ export function rankCandidates({ items = [], newCandidates = [], goal, policy, n
     if (features.goal_relevance >= 0.5 && !reasons.includes("goal_relevant")) reasons.push("goal_relevant");
     if (c.it.learning_state !== "unknown" && c.it.confidence === "low") reasons.push("low_confidence");
     const depth = c.bucket === "maintenance" ? "brushup" : depthFor(c.it.learning_state);
-    return { ...c, reasons, features, priority: priorityOf(features, policy.weights), depth, est_minutes: DEPTHS[depth].minutes };
+    return { ...c, reasons, features, priority: priorityOf(features, policy.weights), depth, est_minutes: depthInfo(c.it.item_key, depth).minutes };
   }).sort((a, b) => b.priority - a.priority || a.it.item_key.localeCompare(b.it.item_key));
 }
 
@@ -121,7 +135,7 @@ const explain = (c, policy) => ({
   bucket: c.bucket, priority: c.priority, features: c.features, reasons: c.reasons,
   label: LABELS[c.it.learning_state] || LABELS.unknown,
   short_reason: c.bucket === "review" ? (c.reasons.includes("due") ? "Due" : "Review") : c.bucket === "new" ? "New" : c.bucket === "remediate" ? "Needs work" : "Practice",
-  depth: c.depth, questions: DEPTHS[c.depth].questions, est_minutes: c.est_minutes,
+  depth: c.depth, questions: depthInfo(c.it.item_key, c.depth).questions, est_minutes: c.est_minutes,
   policy: policy.version, engine: PLAN_VERSION,
 });
 
@@ -140,7 +154,10 @@ export function planSession(ranked, { policy, minutes }) {
   // Reviews go first but must not crowd out the day's most valuable non-review work:
   // leave room for one remediation and one probe when such candidates exist (shadow-mode
   // finding: a 10-minute plan could otherwise be all reviews and never fix a weak item).
-  const reserve = (ranked.some((c) => c.bucket === "remediate") ? DEPTHS.remediation.minutes : 0) + (ranked.some((c) => c.bucket === "new") ? DEPTHS.probe.minutes : 0);
+  // The reserve is sized by the actual top remediation / new candidate (a weak word
+  // needs 1.25 min, a weak grammar topic 5).
+  const firstOf = (b) => ranked.find((c) => c.bucket === b);
+  const reserve = (firstOf("remediate")?.est_minutes || 0) + (firstOf("new")?.est_minutes || 0);
   const reviewCap = Math.min(L.maxReviewRatio * B, Math.max(0, B - reserve));
   const remCap = Math.max(1, Math.ceil(B / 10) * L.maxRemediationsPer10Min);
   const queue = [];
