@@ -1,7 +1,7 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useParams, useSearchParams, Link } from "react-router-dom";
-import { Loader2, ShieldAlert, Trash2, X } from "lucide-react";
+import { ShieldAlert, Trash2, X } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
 import { taskboardApi } from "@/lib/serverApi";
 import Board from "@/components/taskboard/Board";
