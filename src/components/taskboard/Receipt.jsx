@@ -23,7 +23,8 @@ export function receiptOf(task, data, idx) {
   const people = {};
   const bump = (who, k) => { if (!who) return; (people[who] ||= { steps: 0, actions: 0 })[k]++; };
   steps.filter((s) => s.status === "done").forEach((s) => bump(s.completed_by || s.owner || task.owner || "tee", "steps"));
-  events.forEach((e) => bump(e.actor, "actions"));
+  // Bookkeeping (backfills, imports) isn't work, so it doesn't count here.
+  events.filter((e) => e.actor !== "imported" && !/^Backfill/.test(e.details || "")).forEach((e) => bump(e.actor, "actions"));
   const finisher = events.find((e) => e.task_code === task.task_code && /complete/i.test(`${e.action} ${e.after || ""} ${e.details || ""}`))?.actor;
 
   // Time: first real activity → completed. Prefer started_at when we have it.
