@@ -1,12 +1,14 @@
 import React, { useMemo, useRef, useState } from "react";
 import { Plus, Search, Upload, Download, Pencil, Archive, RotateCcw, Trash2, ArrowUpRight, ShieldCheck, CalendarDays, FolderTree, ListChecks, Crosshair } from "lucide-react";
-import { Button, PriorityBadge, StatusBadge, Tag, ProgressBar, inputCls } from "./ui";
+import { Button, PriorityBadge, StatusBadge, Tag, ProgressBar, inputCls, OwnerBadge, DeptBadge } from "./ui";
 import {
   STATUSES, STATUS_LABEL, STATUS_STYLE, PRIORITIES, PRIORITY_LABEL, PRIORITY_RANK, PRIORITY_EDGE, CATEGORIES,
-  fmtDate, isOverdue, relative, dependencyState, WORK_MODE_LABEL, calibratedEstimate,
+  fmtDate, isOverdue, relative, dependencyState, DEPARTMENTS, DEPARTMENT_LABEL, DEPARTMENT_STYLE, OWNERS, OWNER_LABEL,
 } from "./model";
 
-export default function Board({ onFocus, data, idx, busy, onOpen, onNew, onEdit, onMove, onArchive, onRestore, onDelete, onExport, onImport }) {
+export default function Board({ initialSection = "", onFocus, data, idx, busy, onOpen, onNew, onEdit, onMove, onArchive, onRestore, onDelete, onExport, onImport }) {
+  const [section, setSection] = useState(DEPARTMENTS.includes(initialSection) ? initialSection : "");
+  const [owner, setOwner] = useState("");
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("");
   const [priority, setPriority] = useState("");
@@ -32,6 +34,8 @@ export default function Board({ onFocus, data, idx, busy, onOpen, onNew, onEdit,
         return [t.task_code, t.title, t.description, t.project, t.category, t.notes, ...(t.tags || []), ...steps].join(" ").toLowerCase().includes(q);
       });
     }
+    if (section) arr = arr.filter((t) => (t.department || "tech") === section);
+    if (owner) arr = arr.filter((t) => (t.owner || "tee") === owner);
     if (category) arr = arr.filter((t) => (t.category || "General") === category);
     if (priority) arr = arr.filter((t) => t.priority === priority);
     if (status) arr = arr.filter((t) => t.status === status);
@@ -43,7 +47,7 @@ export default function Board({ onFocus, data, idx, busy, onOpen, onNew, onEdit,
       code: (a, b) => a.task_code.localeCompare(b.task_code, undefined, { numeric: true }),
     }[sort];
     return [...arr].sort(cmp);
-  }, [data.tasks, idx, query, category, priority, status, sort, view, allLevels]);
+  }, [data.tasks, idx, query, section, owner, category, priority, status, sort, view, allLevels]);
 
   const cats = useMemo(() => {
     const extra = [...new Set(data.tasks.map((t) => t.category).filter((c) => c && !CATEGORIES.includes(c)))];
@@ -57,7 +61,8 @@ export default function Board({ onFocus, data, idx, busy, onOpen, onNew, onEdit,
     complete: liveRoots.filter((t) => t.status === "complete").length,
   };
   const columns = status ? [status] : STATUSES;
-  const filtersOn = query || category || priority || status || allLevels;
+  const filtersOn = query || section || owner || category || priority || status || allLevels;
+  const openIn = (d) => data.tasks.filter((t) => !t.archived && t.status !== "complete" && (t.department || "tech") === d).length;
 
   const pickFile = async (e) => {
     const file = e.target.files?.[0];
@@ -91,7 +96,20 @@ export default function Board({ onFocus, data, idx, busy, onOpen, onNew, onEdit,
             </div>
           </div>
 
-          <div className="mt-5 grid gap-2 sm:grid-cols-2 lg:flex lg:flex-wrap">
+          <div className="mt-5 flex flex-wrap items-center gap-1.5" role="group" aria-label="Section">
+            <button type="button" onClick={() => setSection("")} className={`rounded-[8px] border px-3 py-1.5 text-sm font-semibold ${!section ? "border-slate-400 bg-slate-800 text-white" : "border-slate-700 text-slate-400 hover:text-white"}`}>All sections</button>
+            {DEPARTMENTS.map((d) => (
+              <button key={d} type="button" onClick={() => setSection(section === d ? "" : d)} className={`rounded-[8px] border px-3 py-1.5 text-sm font-semibold ${section === d ? DEPARTMENT_STYLE[d] : "border-slate-700 text-slate-400 hover:text-white"}`}>
+                {DEPARTMENT_LABEL[d]} <span className="ml-1 text-xs opacity-70">{openIn(d)}</span>
+              </button>
+            ))}
+            <select value={owner} onChange={(e) => setOwner(e.target.value)} className={inputCls + " mt-0 w-auto sm:ml-auto"} aria-label="Owner filter">
+              <option value="">Everyone</option>
+              {OWNERS.map((o) => <option key={o} value={o}>{OWNER_LABEL[o]}</option>)}
+            </select>
+          </div>
+
+          <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:flex lg:flex-wrap">
             <div className="relative sm:col-span-2 lg:min-w-[260px] lg:flex-1">
               <Search className="pointer-events-none absolute left-3 top-1/2 mt-0.5 h-4 w-4 -translate-y-1/2 text-slate-500" />
               <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search all tasks, subtasks, steps, tags…" className={inputCls + " pl-9"} aria-label="Search tasks" />
@@ -128,7 +146,7 @@ export default function Board({ onFocus, data, idx, busy, onOpen, onNew, onEdit,
               </label>
             )}
             {filtersOn && (
-              <button type="button" onClick={() => { setQuery(""); setCategory(""); setPriority(""); setStatus(""); setAllLevels(false); }} className="text-sm text-blue-300 hover:text-blue-200">
+              <button type="button" onClick={() => { setSection(""); setOwner(""); setQuery(""); setCategory(""); setPriority(""); setStatus(""); setAllLevels(false); }} className="text-sm text-blue-300 hover:text-blue-200">
                 Clear filters
               </button>
             )}
@@ -214,10 +232,9 @@ function TaskCard({ task, idx, onOpen, onEdit, onMove, onArchive, busy }) {
       <h3 className="mt-1.5 text-[15px] font-semibold leading-snug text-slate-100 group-hover:text-white">{task.title}</h3>
       {task.description && <p className="mt-1 line-clamp-2 text-[13px] leading-5 text-slate-400">{task.description}</p>}
       <div className="mt-2.5 flex flex-wrap gap-1.5">
-        {task.category && <Tag>{task.category}</Tag>}
+        <DeptBadge department={task.department} />
+        <OwnerBadge owner={task.owner} />
         {task.project && <Tag className="text-slate-400">{task.project}</Tag>}
-        <Tag className="text-slate-400">{WORK_MODE_LABEL[task.work_mode || "hands_on"]} · {calibratedEstimate(task, idx.workLogsByTask ? Object.values(idx.workLogsByTask).flat() : []).minutes}m</Tag>
-        {task.ai_minutes > 0 && <Tag className="text-orange-300">AI {task.ai_minutes}m</Tag>}
         {deps.blocked && <Tag className="text-amber-300">Blocked</Tag>}
       </div>
       <div className="mt-3">
