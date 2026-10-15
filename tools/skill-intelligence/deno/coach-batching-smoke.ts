@@ -61,18 +61,19 @@ tables.WordSense = [];
 // (practice: meaning, definition, context, spelling), words missed -> weak (remediation:
 // all five types), the rest new (probe). Every question type is then exercised.
 const old = new Date(Date.now() - 3 * 86400000).toISOString();
-tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x'].flatMap((email) => [
+tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x', 'vip6@x'].flatMap((email) => [
   ...Array.from({ length: 24 }, (_, i) => ({ id: `h-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: i >= 4, round_id: `h-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
   ...Array.from({ length: 4 }, (_, i) => ({ id: `h2-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: false, round_id: `h2-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
 ]);
 tables.GrammarAttempt = [];
-tables.User = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
+tables.User = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x', 'vip6@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
 tables.StudentSubscription = [
   { id: 's1', phone: 'vip1@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's2', phone: 'vip2@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's3', phone: 'vip3@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's4', phone: 'vip4@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's5', phone: 'vip5@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
+  { id: 's6', phone: 'vip6@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
 ];
 const byId = new Map(tables.VocabularyWord.map((w) => [w.id, w]));
 const grammarAnswers = (topic: string, n: number) => Object.entries(PRACTICE_KEYS[topic] || {})
@@ -118,7 +119,8 @@ async function playSession(email: string, submit: (email: string, payload: any) 
       await flush(); // Session flushes before a grammar step
       const topic = it.item_key.replace(/^grammar:/, '');
       const gPayload = { game: 'grammar_practice', round_id: `g-${email}-${topic}`, grammar_topic: topic, items: grammarAnswers(topic, 4), coach: { session_key: sk } };
-      if (opts.grammarViaSender) grammarSaves.push(await sender.flush({ email, rounds: [gPayload] }));
+      if (opts.oldGrammarLost) { /* old path: the save failed (null) and the runner moved on */ }
+      else if (opts.grammarViaSender) grammarSaves.push(await sender.flush({ email, rounds: [gPayload] }));
       else await P({ action: 'submitEvidence', ...gPayload });
     }
   }
@@ -291,11 +293,12 @@ console.log('\n=== Grammar saves through the Coach queue: a failed grammar save 
   ok('server: session complete', after5.session.session_key === run5.sk && after5.session.complete === true, JSON.stringify(after5.session));
 }
 {
-  // The old path, for contrast: a grammar save that fails is gone, and the session can't complete.
-  me = { email: 'vip1@x', role: 'user' };
-  const before = (tables.GrammarAttempt || []).length;
-  const lost = await (async () => { try { return null; } catch { return null; } })(); // submitEvidence returned null; nothing queued
-  ok('old path (no queue): a failed grammar save stores nothing and nothing retries it', lost === null && (tables.GrammarAttempt || []).length === before);
+  // The OLD Coach path, for contrast: PracticeRunner awaited submitEvidence, got null on a
+  // network failure, and moved on. Nothing queued the round, so nothing retried it.
+  const run6 = await playSession('vip6@x', async (email, payload) => { me = { email, role: 'user' }; const r = await P({ action: 'submitEvidence', ...payload }); return r?.ok || r?.duplicate ? r : null; }, false, { oldGrammarLost: true });
+  me = { email: 'vip6@x', role: 'user' };
+  const after6 = await C({ action: 'getToday' });
+  ok('old path: Done was shown although the grammar answers were lost, and the server says the session is NOT complete (this test catches the bug)', run6.done.shown === 1 && !(tables.GrammarAttempt || []).some((r) => r.user_email === 'vip6@x') && after6.session.complete === false, JSON.stringify(after6.session));
 }
 
 console.log('\n=== Before the fix (regression proof): the old one-round flush, cut to 50 ===');
