@@ -627,5 +627,37 @@ console.log("\n=== 10. Hinted remediation: repeated failures keep a weak word we
   ok("...and two failing rounds after that put it straight back to weak", relapse.learning_state === "weak");
 }
 
+console.log("\n=== 11. Duplicate headwords: one per plan, no new twin of a known word (15 Oct audit) ===");
+{
+  const { headwordKey, wordMeaningKeys } = await import("../../base44/shared/coachPlan.js");
+  const { contentGate } = await import("../../base44/shared/coachEngine.ts");
+  const rows = [
+    { id: "p1", english: "pain", uzbek: "og'riq", russian: "боль", cefr: "A2" },
+    { id: "p2", english: "Pain ", uzbek: "og'riq", russian: "боль; мучение", cefr: "A2" },   // same meaning twin
+    { id: "c1", english: "coach", uzbek: "murabbiy", russian: "тренер", cefr: "A2" },
+    { id: "c2", english: "coach", uzbek: "avtobus", russian: "междугородний автобус", cefr: "A2" }, // other sense
+    ...Array.from({ length: 30 }, (_, i) => ({ id: `n${i}`, english: `word${i}`, uzbek: `soz${i}`, russian: `слово${i}`, cefr: "A2" })),
+  ];
+  ok("headwordKey normalises case and spaces", headwordKey("Pain ") === "pain" && headwordKey("") === null);
+  ok("twin rows with a shared translation share a meaning key; other senses don't", [...wordMeaningKeys(rows[0])].some((k) => wordMeaningKeys(rows[1]).has(k)) && ![...wordMeaningKeys(rows[2])].some((k) => wordMeaningKeys(rows[3]).has(k)));
+  const svcG = { VocabularyWord: { async filter(q) { const ids = q.id.$in; return rows.filter((r) => ids.includes(r.id)); } } };
+  const W = (id) => `word:${id}:0`;
+  const items = [IT(W("p1"), "learning", { word_id: "p1", due: ago(1), reps: 1 }), IT(W("p2"), "learning", { word_id: "p2", due: ago(1), reps: 1 }), IT(W("c2"), "learning", { word_id: "c2", due: ago(1), reps: 1 })];
+  const newC = [{ item_type: "word", item_key: W("c1"), word_id: "c1" }, ...rows.slice(4).map((r) => ({ item_type: "word", item_key: W(r.id), word_id: r.id }))];
+  const gate = await contentGate(svcG, [...items, ...newC]);
+  ok("content gate exposes headwordOf / meaningsOf from the rows it already read", gate.headwordOf(W("p2")) === "pain" && gate.meaningsOf(W("c1")).size === 2 && gate.headwordOf("grammar:x") === null);
+  const p = planToday({ items, newCandidates: newC, goal, policy: POLICIES.vi, minutes: 25, now: NOW, hasContent: gate });
+  const hws = p.explanation.filter((e) => e.item_type === "word").map((e) => gate.headwordOf(e.item_key));
+  ok("a plan never holds two items with the same headword (both 'pain' reviews due -> one planned)", hws.filter((h) => h === "pain").length === 1 && new Set(hws).size === hws.length, hws.join());
+  ok("...and 'coach' appears once although the learner has one sense and the other is new", hws.filter((h) => h === "coach").length === 1);
+  const fresh = planToday({ items: [IT(W("p1"), "solid", { word_id: "p1", due: new Date(NOW + 9 * DAY).toISOString(), reps: 3, stability: 9 })], newCandidates: [{ item_type: "word", item_key: W("p2"), word_id: "p2" }, { item_type: "word", item_key: W("c1"), word_id: "c1" }], goal, policy: POLICIES.vi, minutes: 25, now: NOW, hasContent: await contentGate(svcG, [{ item_key: W("p1"), word_id: "p1" }, { item_key: W("p2"), word_id: "p2" }, { item_key: W("c1"), word_id: "c1" }]) });
+  const keys = fresh.explanation.map((e) => e.item_key);
+  ok("a twin with the SAME meaning as a known word is never introduced as New; a new word with no twin is", !keys.includes(W("p2")) && keys.includes(W("c1")), keys.join());
+  const otherSense = planToday({ items: [IT(W("c2"), "solid", { word_id: "c2", due: new Date(NOW + 9 * DAY).toISOString(), reps: 3, stability: 9 })], newCandidates: [{ item_type: "word", item_key: W("c1"), word_id: "c1" }], goal, policy: POLICIES.vi, minutes: 25, now: NOW, hasContent: await contentGate(svcG, [{ item_key: W("c2"), word_id: "c2" }, { item_key: W("c1"), word_id: "c1" }]) });
+  ok("another SENSE of a known headword (coach = trainer when 'coach = bus' is known) can still be introduced", otherSense.explanation.some((e) => e.item_key === W("c1")));
+  const plain = planToday({ items, newCandidates: newC, goal, policy: POLICIES.vi, minutes: 25, now: NOW });
+  ok("without headword data (old callers, tests) the planner behaves exactly as before", plain.explanation.filter((e) => e.item_key === W("p1") || e.item_key === W("p2")).length === 2);
+}
+
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);
