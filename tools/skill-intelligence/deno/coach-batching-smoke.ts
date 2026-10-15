@@ -7,7 +7,9 @@
 import progressApi from '../../../base44/functions/progressApi/entry.ts';
 import coachApi from '../../../base44/functions/coachApi/entry.ts';
 import { PRACTICE_KEYS } from '../../../base44/shared/grammarKeys.js';
-import { buildWordQuestions, evidenceItem } from '../../../src/lib/coach/wordCheck.js';
+import { buildWordQuestions, evidenceItem, showsWordCard } from '../../../src/lib/coach/wordCheck.js';
+import { ratingFor, replayFsrs } from '../../../base44/shared/coachCore.js';
+import * as tsfsrs from 'npm:ts-fsrs@5.4.2';
 import { createAnswerSender, MAX_ROUND_ITEMS } from '../../../src/lib/coach/answerBatches.js';
 
 let pass = 0, fail = 0;
@@ -97,10 +99,11 @@ async function playSession(email: string, submit: (email: string, payload: any) 
     if (it.item_type === 'word') {
       const w = byId.get(it.word_id);
       const qs = buildWordQuestions(w, tables.VocabularyWord, { depth: it.depth, lang: 'uz', rnd });
+      const hint = showsWordCard(it.depth); // as Coach.jsx: a weak word opens with its word card
       for (const q of qs) {
-        const wrong = ++k % 7 === 0; // some wrong answers too
+        const wrong = ++k % 7 === 0 && !hint; // some wrong answers (weak words all right: proves the Good cap)
         const given = wrong ? (q.type === 'spelling' ? 'zzzz' : q.options.find((o: string) => o !== q.correct)) : (q.type === 'spelling' ? ` ${String(q.correct).toUpperCase()} ` : q.correct);
-        pending.push({ key: it.item_key, ev: evidenceItem(w, q, given) });
+        pending.push({ key: it.item_key, ev: evidenceItem(w, q, given, hint ? { support: 'hint' } : undefined) });
         answers++;
         if (!wrong) expectedCorrect++;
       }
@@ -144,6 +147,31 @@ me = { email: 'vip1@x', role: 'user' };
 const after1 = await C({ action: 'getToday' });
 ok('server: session COMPLETE, nothing left in the plan', after1.session.session_key === run1.sk && after1.session.complete === true && after1.plan.items.length === 0, JSON.stringify(after1.session));
 ok('server: Keep going is offered (VI: 2 a day, 0 used)', after1.continuation.available === true && after1.continuation.used === 0);
+
+console.log('\n=== Weak-word card = hint (14 Oct audit): weight x0.5, FSRS at most Good ===');
+{
+  const coachRounds = new Set(sent1.filter((p) => p.coach?.session_key === run1.sk).map((p) => p.round_id));
+  const rows = tables.WordAttempt.filter((r) => r.user_email === 'vip1@x' && coachRounds.has(r.round_id));
+  const ev = (tables.ItemEvidence || []).filter((e) => e.user_email === 'vip1@x' && e.session_key === run1.sk && e.source === 'coach_session' && e.item_type === 'word');
+  const weak = run1.items.filter((i: any) => i.item_type === 'word' && i.depth === 'remediation').map((i: any) => i.item_key);
+  const other = run1.items.filter((i: any) => i.item_type === 'word' && i.depth !== 'remediation').map((i: any) => i.item_key);
+  const isWeakRow = (r: any) => weak.includes(`word:${r.word_id}:0`);
+  ok(`the plan has weak words with a card (${weak.length}) and other words (${other.length})`, weak.length > 0 && other.length > 0);
+  ok('every answer to a weak word is stored with support "hint"', rows.filter(isWeakRow).length > 0 && rows.filter(isWeakRow).every((r) => r.support === 'hint'));
+  ok('no other answer is marked as hinted', rows.filter((r) => !isWeakRow(r)).every((r) => r.support !== 'hint'));
+  const evOf = (k: string) => ev.find((e) => e.item_key === k);
+  ok('weak words: Coach evidence counts every answer as hinted', weak.every((k) => evOf(k)?.hints_used === evOf(k)?.items && evOf(k)?.items === 5), JSON.stringify(weak.map((k) => [evOf(k)?.hints_used, evOf(k)?.items])));
+  ok('weak words weigh half of the same answers without the card (0.3 vs 0.6: server-graded x recognise x hint)', weak.every((k) => evOf(k)?.weight === 0.3) && other.every((k) => evOf(k)?.weight === 0.6 && evOf(k)?.hints_used === 0), JSON.stringify([...weak, ...other.slice(0, 3)].map((k) => evOf(k)?.weight)));
+  const allRight = (k: string) => evOf(k) && evOf(k).correct === evOf(k).items;
+  const weakRating = weak.filter(allRight).map((k) => replayFsrs([evOf(k)], tsfsrs).transitions[0]?.rating);
+  const freeRating = other.filter(allRight).map((k) => replayFsrs([evOf(k)], tsfsrs).transitions[0]?.rating);
+  ok('a weak word answered 5/5 right after its card is rated Good, never Easy', weakRating.length > 0 && weakRating.every((r) => r === 'good'), weakRating.join());
+  ok('...while a word answered all right WITHOUT a card is still rated Easy (only the card is capped)', freeRating.length > 0 && freeRating.every((r) => r === 'easy'), freeRating.join());
+  const li = (k: string) => tables.LearnerItem.find((r) => r.user_email === 'vip1@x' && r.item_key === k);
+  const wk = weak.find(allRight), fk = other.find(allRight);
+  ok('stored schedule follows: the hinted 5/5 word is due sooner than an unhinted all-right word', li(wk)?.scheduled_days < li(fk)?.scheduled_days, JSON.stringify({ hinted: li(wk)?.scheduled_days, plain: li(fk)?.scheduled_days }));
+  ok('a wrong answer after the card still counts as wrong (accuracy is not inflated)', ratingFor({ items: 5, correct: 2, hints_used: 5 }) === 'again');
+}
 
 console.log('\n=== Same session with failed saves: one network failure, one lost response ===');
 const sent2: any[] = [];
