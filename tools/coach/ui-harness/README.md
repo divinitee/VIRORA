@@ -6,5 +6,7 @@ real-backend test. Needs Chromium + Playwright (the Base44 sandbox has none):
   npx vite --config tools/coach/ui-harness/vite.config.js            # serves on :5199
   node tools/coach/ui-harness/click-through.mjs <screenshot-dir>     # main flow, 15 checks
   node tools/coach/ui-harness/corrections.mjs <screenshot-dir>       # corrections (2026-10-09/10), 28 checks
-URL params read by the mock: scenario=normal|unavailable|partial, minutes=<n>, whoami=fail|slow.
+  node tools/coach/ui-harness/save-failure.mjs <screenshot-dir>      # failed saves (2026-10-15): banner, error card, recovery; en/uz/ru, 34 checks
+URL params read by the mock: scenario=normal|unavailable|partial, minutes=<n>, whoami=fail|slow, lang=en|uz|ru.
+window.__offline = true makes Coach word saves (game "quiz") fail; grammar saves are left alone.
 Route /practice?mode=plain|coach renders PracticeRunner alone (regression check D).
