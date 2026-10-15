@@ -28,6 +28,20 @@ const S = (window.__state = {
   done: {}, // session_key -> Set(item_key)
   submits: [],
 });
+// ?persist=1 (reload-recovery.mjs): the fake server's state survives a page reload
+// (sessionStorage), like a real server would. Offline mode can be set the same way.
+const PERSIST = Q.get("persist") === "1";
+const saveState = () => {
+  if (!PERSIST) return;
+  try { sessionStorage.setItem("__mockState", JSON.stringify({ onboarded: S.onboarded, contUsed: S.contUsed, active: S.active, contPractised: S.contPractised, submits: S.submits, done: Object.fromEntries(Object.entries(S.done).map(([k, v]) => [k, [...v]])) })); } catch { /* ignore */ }
+};
+if (PERSIST) {
+  try {
+    const saved = JSON.parse(sessionStorage.getItem("__mockState") || "null");
+    if (saved) { Object.assign(S, { onboarded: saved.onboarded, contUsed: saved.contUsed, active: saved.active, contPractised: saved.contPractised, submits: saved.submits || [] }); S.done = Object.fromEntries(Object.entries(saved.done || {}).map(([k, v]) => [k, new Set(v)])); }
+  } catch { /* ignore */ }
+}
+const offlineMode = () => window.__offline || (PERSIST ? sessionStorage.getItem("__offline") : null);
 const keyOf = (n) => (n ? `2026-10-08:continuation:${n}` : "2026-10-08:today:0");
 function state(sessionNo) {
   const key = keyOf(sessionNo);
@@ -59,24 +73,25 @@ export async function coachApi(action, payload = {}) {
     return { entitlement: S.entitlement, coach: S.persona, persona: S.persona, minutes: Number(Q.get("minutes") || 10) };
   }
   if (action === "getToday") return today(payload.session_no ?? S.active);
-  if (action === "saveProfile") { if (payload.onboarded) S.onboarded = true; return { ok: true }; }
+  if (action === "saveProfile") { if (payload.onboarded) S.onboarded = true; saveState(); return { ok: true }; }
   if (action === "ackHandoff") return { ok: true };
   if (action === "startContinuation") {
     if (S.contUsed > 0 && !S.contPractised) return today(S.contUsed); // resume
     if (S.contUsed >= S.allowed) { const e = new Error("no_continuations_left"); e.code = "no_continuations_left"; throw e; }
     if (!state(S.active).complete) { const e = new Error("finish_today_first"); e.code = "finish_today_first"; throw e; }
-    S.contUsed += 1; S.active = S.contUsed; S.contPractised = false;
+    S.contUsed += 1; S.active = S.contUsed; S.contPractised = false; saveState();
     return today(S.active);
   }
   if (action === "getMap") return { goal_id: "everyday", grammar: [{ item_key: "grammar:tenses.present.simple-routine", item_type: "grammar", label: "Practising" }], words: [{ item_key: "word:v1:0", item_type: "word", word_id: "v1", label: "Needs work" }, { item_key: "word:v2:0", item_type: "word", word_id: "v2", label: "Strong" }], counts: { "New": 0, "Needs work": 1, "Practising": 1, "Strong": 1 } };
   throw new Error("unknown " + action);
 }
 export async function progressApi(action, body) {
-  rec("submit:start", { game: body.game, session_key: body.coach?.session_key, n: body.items?.length });
+  rec("submit:start", { game: body.game, session_key: body.coach?.session_key, n: body.items?.length, round_id: body.round_id });
   await sleep(DELAY);
   // window.__offline = true makes Coach WORD saves fail; "all" makes grammar saves fail too
   // (save-failure.mjs).
-  if (window.__offline === "all" || (window.__offline && body.game === "quiz")) { rec("submit:fail", { session_key: body.coach?.session_key, n: body.items?.length }); throw new Error("network"); }
+  const off = offlineMode();
+  if (off === "all" || (off && body.game === "quiz")) { rec("submit:fail", { session_key: body.coach?.session_key, n: body.items?.length, round_id: body.round_id }); throw new Error("network"); }
   const key = body.coach?.session_key;
   if (key) {
     const planned = S.sessions[key] || [];
@@ -87,7 +102,10 @@ export async function progressApi(action, body) {
     }
     if (key.includes("continuation")) S.contPractised = true;
   }
+  // A round_id the server already has is a duplicate (claimRound): stored once.
+  if (S.submits.some((b) => b.round_id === body.round_id)) { rec("submit:end", { game: body.game, session_key: key, duplicate: true }); return { duplicate: true }; }
   S.submits.push(body);
+  saveState();
   rec("submit:end", { game: body.game, session_key: key });
   return { ok: true, verification: "server_graded" };
 }
