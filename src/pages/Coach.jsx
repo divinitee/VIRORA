@@ -292,6 +292,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   const [ready, setReady] = useState(null); // { kind, word?, questions?, grammarItems?, stage?, topicKey? }
   const [saveFailed, setSaveFailed] = useState(false); // end of session: answers could not be saved
   const [retrying, setRetrying] = useState(false);
+  const [unsaved, setUnsaved] = useState(false); // mid-session: some answers failed to save (still queued)
   const pending = useRef([]);
   const finishing = useRef(false);
   const outcomes = useRef({}); // item_key -> OUTCOME (see sessionOutcome.js)
@@ -318,6 +319,17 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
     const result = await finishWithSave({ flush, onDone: () => onFinished(summarise(outcomes.current)) });
     if (result === "failed") setSaveFailed(true);
   }, [flush, onFinished]);
+  // Mid-session save (before a grammar step): a failure is shown as a banner with
+  // Try again; the answers stay queued and every later save retries them too.
+  const saveNow = useCallback(async () => {
+    const ok = await flush();
+    setUnsaved(!ok);
+    return ok;
+  }, [flush]);
+  const retryUnsaved = async () => {
+    setRetrying(true);
+    try { await saveNow(); } finally { setRetrying(false); }
+  };
   const retrySave = async () => {
     setRetrying(true);
     setSaveFailed(false);
@@ -372,7 +384,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         if (!questions.length) { finishItem(it.item_key, OUTCOME.UNAVAILABLE); return; }
         setReady({ kind: "word", key: it.item_key, word, questions, intro: showsWordCard(it.depth) ? wordCard(word, lang) : null });
       } else {
-        await flush();
+        await saveNow();
         const path = grammarPath(it.item_key);
         let bank = [];
         try { bank = path ? await loadTopic(...path) : []; } catch { bank = []; }
@@ -393,6 +405,12 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
       <div className="h-1 rounded-full bg-white/10 mb-5 overflow-hidden">
         <motion.div className="h-full rounded-full" style={{ background: color }} animate={{ width: `${(idx / Math.max(1, items.length)) * 100}%` }} />
       </div>
+      {unsaved && !saveFailed && (
+        <div role="status" className="mb-3 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-4 py-3 flex items-center justify-between gap-3">
+          <p className="text-xs text-foreground">{t("save_pending")}</p>
+          <button disabled={retrying} onClick={retryUnsaved} className="neo-pill px-3 py-1.5 text-xs font-semibold shrink-0 select-none disabled:opacity-50">{t("retry")}</button>
+        </div>
+      )}
       {saveFailed ? (
         <div role="alert" className="premium-card rounded-[28px] p-8 text-center">
           <p className="text-base font-semibold text-foreground">{t("save_failed")}</p>
