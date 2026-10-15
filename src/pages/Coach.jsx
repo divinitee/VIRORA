@@ -330,9 +330,9 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
     setRetrying(true);
     try { await saveNow(); } finally { setRetrying(false); }
   };
+  // The error card stays on screen (button disabled) while Try again runs.
   const retrySave = async () => {
     setRetrying(true);
-    setSaveFailed(false);
     try { await finish(); } finally { setRetrying(false); }
   };
 
