@@ -134,8 +134,16 @@ export function buildWordQuestions(word, pool, { depth, lang, rnd = Math.random 
 }
 
 /** The evidence item the server grades itself (given = the option text chosen). */
+/**
+ * A weak word (remediation) opens with a word card that shows the answers to its
+ * questions (translation, definition, example). Those answers are therefore given
+ * WITH A HINT (14 Oct audit): coachCore halves their evidence weight and FSRS can
+ * rate them at most Good. The card and the tag come from this one rule.
+ */
+export const showsWordCard = (depth) => depth === "remediation";
+
 export const isRight = (q, given) => (q.type === "spelling" ? spellKey(q.correct).length > 0 && spellKey(given) === spellKey(q.correct) : given === q.correct);
-export const evidenceItem = (word, q, given) => ({ word: word.english, word_id: word.id, type: q.type, given, correct: isRight(q, given) });
+export const evidenceItem = (word, q, given, { support } = {}) => ({ word: word.english, word_id: word.id, type: q.type, given, correct: isRight(q, given), ...(support ? { support } : {}) });
 
 /** "grammar:tenses.present.simple-routine" -> ["tenses","present","simple-routine"]. */
 export function grammarPath(itemKey) {

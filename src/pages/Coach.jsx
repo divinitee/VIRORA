@@ -12,7 +12,7 @@ import { loadTopic } from "@/lib/grammarPractice";
 import { submitEvidence } from "@/lib/progress/progressClient";
 import { generateRoundId } from "@/lib/gameScoring";
 import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
-import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard } from "@/lib/coach/wordCheck";
+import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard, showsWordCard } from "@/lib/coach/wordCheck";
 import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
 import { createAnswerSender } from "@/lib/coach/answerBatches";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
@@ -358,7 +358,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         if (!alive) return;
         // No usable word/translation/distractors: UNAVAILABLE. Nothing is sent.
         if (!questions.length) { finishItem(it.item_key, OUTCOME.UNAVAILABLE); return; }
-        setReady({ kind: "word", key: it.item_key, word, questions, intro: it.depth === "remediation" ? wordCard(word, lang) : null });
+        setReady({ kind: "word", key: it.item_key, word, questions, intro: showsWordCard(it.depth) ? wordCard(word, lang) : null });
       } else {
         await flush();
         const path = grammarPath(it.item_key);
@@ -385,7 +385,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         <div className="premium-card rounded-[28px] p-10 text-center"><BrandLoader size={48} className="mx-auto" /></div>
       ) : ready.kind === "word" ? (
         <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} intro={ready.intro} color={color} t={t}
-          onAnswer={(w, q, given) => pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given) })} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
+          onAnswer={(w, q, given) => pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given, ready.intro ? { support: "hint" } : undefined) })} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
       ) : (
         <PracticeRunner key={`g${idx}`} items={ready.grammarItems} stage={ready.stage} topicKey={ready.topicKey} size={ready.size}
           c={gc} coachSessionKey={sessionKey}
