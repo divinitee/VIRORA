@@ -160,7 +160,8 @@ export function createAnswerSender(submit, { store = null } = {}) {
     },
     /**
      * After a reload: requeue stored rounds (same round_id) and turn this tab's (or an
-     * abandoned tab's) staged answers into rounds, then send. { found, ok }.
+     * abandoned tab's) staged answers into rounds, then send. { found, ok }: found =
+     * rounds that were waiting (stored or already queued), ok = all of them saved.
      */
     recover(email, { tabId, newRoundId }) {
       if (!store || !email) return Promise.resolve({ found: 0, ok: true });
@@ -193,7 +194,10 @@ export function createAnswerSender(submit, { store = null } = {}) {
         Object.assign(d2.claimed, tombstones);
         store.write(email, d2);
       }
-      if (!found && !unsent.some((r) => r.email === email)) return Promise.resolve({ found: 0, ok: true });
+      // found = rounds waiting for this account, including ones already queued in this page
+      // (a Try again after a failed recovery must still report them, so the plan reloads).
+      found = [...inflight, ...unsent].filter((r) => r.email === email).length;
+      if (!found) return Promise.resolve({ found: 0, ok: true });
       return run(email).then((ok) => ({ found, ok }));
     },
     unsentCount: (email) => [...inflight, ...unsent].filter((r) => !email || r.email === email).length,
