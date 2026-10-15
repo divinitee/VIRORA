@@ -58,29 +58,32 @@ export function roundsFor(entries, { completed, sessionKey, newRoundId, max = MA
  * After a reload, recover() turns them back into rounds and sends them. A resent
  * round keeps its round_id, so a round that did land is deduplicated by the server.
  * Pending answers are claimed only by the SAME tab (sessionStorage tab id survives a
- * reload) or once abandoned for 10 minutes, so two open tabs never send the same
- * answers under two round_ids. Anything older than 7 days is dropped. If storage is
- * unavailable (private mode, quota), everything still works in memory as before.
+ * reload) or once abandoned for 10 minutes. When a tab's answers are taken that way,
+ * a tombstone (claimed[tab] = n) tells that tab, if it is in fact still open, to drop
+ * those first n answers from memory, so the same answers are never sent under two
+ * round_ids. Anything older than 7 days is dropped. If storage is unavailable
+ * (private mode, quota), everything still works in memory as before.
  */
 export const STORE_PREFIX = "virora.coach.answers.v1:";
 export const ABANDONED_MS = 10 * 60 * 1000;
 export const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 export function createAnswerStore(storage, { now = () => Date.now() } = {}) {
   const key = (email) => STORE_PREFIX + String(email || "").toLowerCase();
-  const empty = () => ({ v: 1, rounds: [], pending: {} });
+  const empty = () => ({ v: 1, rounds: [], pending: {}, claimed: {} });
   return {
     now,
     read(email) {
       try {
         const d = JSON.parse(storage?.getItem(key(email)) || "null");
-        return d && d.v === 1 && Array.isArray(d.rounds) && d.pending && typeof d.pending === "object" ? d : empty();
+        return d && d.v === 1 && Array.isArray(d.rounds) && d.pending && typeof d.pending === "object" ? { claimed: {}, ...d } : empty();
       } catch { return empty(); }
     },
     write(email, d) {
       try {
-        if (!d.rounds.length && !Object.keys(d.pending).length) storage?.removeItem(key(email));
+        if (!d.rounds.length && !Object.keys(d.pending).length && !Object.keys(d.claimed || {}).length) storage?.removeItem(key(email));
         else storage?.setItem(key(email), JSON.stringify(d));
-      } catch { /* storage unavailable: memory only */ }
+        return true;
+      } catch { return false; /* storage unavailable: memory only */ }
     },
   };
 }
@@ -132,14 +135,25 @@ export function createAnswerSender(submit, { store = null } = {}) {
       if (!email) return Promise.resolve(false);
       const at = now();
       for (const payload of rounds) unsent.push({ email, payload, at });
-      if (entries.length) for (const payload of roundsFor(entries, { completed, sessionKey, newRoundId })) unsent.push({ email, payload, at });
-      persistRounds(email, tabId ? (pending) => { delete pending[tabId]; } : null);
+      const taken = tabId && store ? Number(store.read(email).claimed?.[tabId]?.n) || 0 : 0; // sent by another tab already
+      const mine = taken ? entries.slice(taken) : entries;
+      if (mine.length) for (const payload of roundsFor(mine, { completed, sessionKey, newRoundId })) unsent.push({ email, payload, at });
+      if (store) {
+        const d = store.read(email);
+        d.rounds = [...inflight, ...unsent].filter((r) => r.email === email).map((r) => ({ payload: r.payload, at: r.at }));
+        if (tabId) { delete d.pending[tabId]; delete d.claimed[tabId]; }
+        store.write(email, d);
+      }
       return run(email);
     },
     /** Keep this tab's not-yet-sent answers on the device (called after every answer). */
+    // If another tab took this tab's answers (tombstone), they are dropped from `entries`
+    // (the caller's in-memory array) first, so they are never sent twice.
     stage(email, tabId, { sessionKey, entries = [], completed = [] }) {
       if (!store || !email || !tabId) return;
       const d = store.read(email);
+      const taken = Number(d.claimed?.[tabId]?.n) || 0;
+      if (taken) { entries.splice(0, taken); delete d.claimed[tabId]; }
       if (entries.length) d.pending[tabId] = { session_key: sessionKey, entries, completed: [...completed], touched_at: now() };
       else delete d.pending[tabId];
       store.write(email, d);
@@ -160,18 +174,25 @@ export function createAnswerSender(submit, { store = null } = {}) {
         known.add(r.payload.round_id);
         found++;
       }
-      const claimed = [];
+      const claimed = [], tombstones = {};
       for (const [tid, p] of Object.entries(d.pending)) {
         const age = t - (Number(p?.touched_at) || 0);
         if (age > MAX_AGE_MS) { claimed.push(tid); continue; } // too old: dropped
         if (tid !== tabId && age < ABANDONED_MS) continue;       // another open tab's answers
         claimed.push(tid);
+        if (tid !== tabId) tombstones[tid] = { n: (Number(d.claimed?.[tid]?.n) || 0) + (p.entries || []).length, at: t };
         for (const payload of roundsFor(p.entries || [], { completed: new Set(p.completed || []), sessionKey: p.session_key, newRoundId })) {
           unsent.push({ email, payload, at: t });
           found++;
         }
       }
       persistRounds(email, (pending) => { for (const tid of claimed) delete pending[tid]; });
+      if (Object.keys(tombstones).length || Object.keys(d.claimed || {}).length) {
+        const d2 = store.read(email);
+        for (const [tid, v] of Object.entries(d2.claimed || {})) if (t - (Number(v?.at) || 0) > MAX_AGE_MS) delete d2.claimed[tid];
+        Object.assign(d2.claimed, tombstones);
+        store.write(email, d2);
+      }
       if (!found && !unsent.some((r) => r.email === email)) return Promise.resolve({ found: 0, ok: true });
       return run(email).then((ok) => ({ found, ok }));
     },

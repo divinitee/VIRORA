@@ -256,6 +256,20 @@ console.log("\n=== Reload recovery: unsaved answers survive a reload (15 Oct) ==
     const r2 = await mk(st, okSubmit(sent)).recover("u@x", { tabId: "tabA", newRoundId });
     ok("...but once that tab has been silent for 10+ minutes they are recovered", r2.found === 1 && sent.length === 1); }
 
+  // d2) the "abandoned" tab was in fact still open: it must not send the taken answers again
+  { const st = memStorage(); const sentA = [], sentB = [];
+    const tabA = mk(st, okSubmit(sentA));
+    const memA = [ev("w1", 0), ev("w1", 1), ev("w1", 2)]; // tab A's in-memory queue
+    tabA.stage("u@x", "tabA", { sessionKey: K, entries: memA, completed: new Set(["word:w1:0"]) });
+    clock += 11 * 60 * 1000;                                // A sits idle 11 minutes
+    await mk(st, okSubmit(sentB)).recover("u@x", { tabId: "tabB", newRoundId }); // tab B opens the Coach
+    memA.push(ev("w2", 0), ev("w2", 1));                    // A comes back and answers more
+    tabA.stage("u@x", "tabA", { sessionKey: K, entries: memA, completed: new Set(["word:w1:0", "word:w2:0"]) });
+    await tabA.flush({ email: "u@x", entries: memA.splice(0), completed: new Set(["word:w1:0", "word:w2:0"]), sessionKey: K, newRoundId, tabId: "tabA" });
+    const all = [...sentB, ...sentA].flatMap((p) => p.items.map((i) => `${i.word_id}:${i.q}`));
+    ok("an 'abandoned' tab that is still open never resends the answers another tab recovered (5 answers, each sent once)", all.length === 5 && new Set(all).size === 5 && sentB.length === 1 && sentB[0].items.length === 3, JSON.stringify(all));
+    ok("...and the device copy is clean afterwards", st.getItem(STORE_PREFIX + "u@x") === null); }
+
   // e) older than 7 days -> dropped, never sent
   { const st = memStorage(); const a = mk(st, async () => null);
     await a.flush({ email: "u@x", entries: [ev("w1", 0)], completed: new Set(["word:w1:0"]), sessionKey: K, newRoundId, tabId: "tab1" });
