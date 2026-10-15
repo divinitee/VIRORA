@@ -10,7 +10,7 @@ import { PRACTICE_KEYS } from '../../../base44/shared/grammarKeys.js';
 import { buildWordQuestions, evidenceItem, showsWordCard } from '../../../src/lib/coach/wordCheck.js';
 import { ratingFor, replayFsrs } from '../../../base44/shared/coachCore.js';
 import * as tsfsrs from 'npm:ts-fsrs@5.4.2';
-import { createAnswerSender, MAX_ROUND_ITEMS } from '../../../src/lib/coach/answerBatches.js';
+import { createAnswerSender, finishWithSave, MAX_ROUND_ITEMS } from '../../../src/lib/coach/answerBatches.js';
 
 let pass = 0, fail = 0;
 const ok = (n: string, c: boolean, x = '') => { c ? pass++ : fail++; console.log(`  ${c ? 'PASS' : 'FAIL'}  ${n}${!c && x ? ' -> ' + x : ''}`); };
@@ -61,16 +61,17 @@ tables.WordSense = [];
 // (practice: meaning, definition, context, spelling), words missed -> weak (remediation:
 // all five types), the rest new (probe). Every question type is then exercised.
 const old = new Date(Date.now() - 3 * 86400000).toISOString();
-tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x'].flatMap((email) => [
+tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x'].flatMap((email) => [
   ...Array.from({ length: 24 }, (_, i) => ({ id: `h-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: i >= 4, round_id: `h-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
   ...Array.from({ length: 4 }, (_, i) => ({ id: `h2-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: false, round_id: `h2-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
 ]);
 tables.GrammarAttempt = [];
-tables.User = ['vip1@x', 'vip2@x', 'vip3@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
+tables.User = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
 tables.StudentSubscription = [
   { id: 's1', phone: 'vip1@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's2', phone: 'vip2@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's3', phone: 'vip3@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
+  { id: 's4', phone: 'vip4@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
 ];
 const byId = new Map(tables.VocabularyWord.map((w) => [w.id, w]));
 const grammarAnswers = (topic: string, n: number) => Object.entries(PRACTICE_KEYS[topic] || {})
@@ -115,9 +116,11 @@ async function playSession(email: string, submit: (email: string, payload: any) 
       await P({ action: 'submitEvidence', game: 'grammar_practice', round_id: `g-${email}-${topic}`, grammar_topic: topic, items: grammarAnswers(topic, 4), coach: { session_key: sk } });
     }
   }
-  let finalOk = await flush(); // the end of the session
-  if (!finalOk) finalOk = await flush(); // Coach.jsx retries once
-  return { sk, items, answers, perWord, finalOk, sender, expectedCorrect };
+  // The end of the session, exactly as Coach.jsx: Done only once every answer is saved
+  // (one automatic retry; the wait is skipped in tests).
+  const done = { shown: 0 };
+  const result = await finishWithSave({ flush, onDone: () => { done.shown++; }, wait: async () => {} });
+  return { sk, items, answers, perWord, finalOk: result === 'done', result, done, flush, sender, expectedCorrect };
 }
 
 function checkPersisted(label: string, email: string, run: any, sent: any[]) {
@@ -193,6 +196,69 @@ checkPersisted('VIP 2', 'vip2@x', run2, sent2.filter((p, i, a) => a.findIndex((x
 me = { email: 'vip2@x', role: 'user' };
 const after2 = await C({ action: 'getToday' });
 ok('server: session COMPLETE after the retries', after2.session.complete === true && after2.plan.items.length === 0, JSON.stringify(after2.session));
+
+console.log('\n=== Server unreachable at the end of the session: save error, never a false Done ===');
+{
+  const sent4: any[] = [];
+  let offline = false;
+  const submit4 = async (email: string, payload: any) => {
+    if (offline) return null;                           // every save fails while "offline"
+    sent4.push(payload); me = { email, role: 'user' };
+    const r = await P({ action: 'submitEvidence', ...payload });
+    return r?.ok || r?.duplicate ? r : null;
+  };
+  // Go offline right after the last grammar step: the end-of-session save (and its retry) fail.
+  const realP = P;
+  let grammarSteps = 0;
+  const run4 = await (async () => {
+    const r = await playSession('vip4@x', async (email, payload) => {
+      // the last word rounds are only sent at the very end; drop the network before that
+      return submit4(email, payload);
+    });
+    return r;
+  })();
+  // playSession already finished online; replay the failure path on a fresh session of answers:
+  // queue the same kind of answers again by starting a continuation and going offline at its end.
+  me = { email: 'vip4@x', role: 'user' };
+  const k1 = await C({ action: 'startContinuation' });
+  const csk = k1.session.session_key;
+  const sender = createAnswerSender(submit4);
+  const pending: any[] = [];
+  const completed = new Set<string>();
+  let n = 0;
+  for (const it of k1.plan.items) {
+    if (it.item_type !== 'word') continue;
+    const w = byId.get(it.word_id);
+    for (const q of buildWordQuestions(w, tables.VocabularyWord, { depth: it.depth, lang: 'uz', rnd })) { pending.push({ key: it.item_key, ev: evidenceItem(w, q, q.type === 'spelling' ? q.correct : q.correct) }); n++; }
+    completed.add(it.item_key);
+  }
+  for (const it of k1.plan.items.filter((i: any) => i.item_type === 'grammar')) {
+    const topic = it.item_key.replace(/^grammar:/, '');
+    await P({ action: 'submitEvidence', game: 'grammar_practice', round_id: `g4-${topic}`, grammar_topic: topic, items: grammarAnswers(topic, 4), coach: { session_key: csk } });
+  }
+  const flush = () => sender.flush({ email: 'vip4@x', entries: pending.splice(0), completed, sessionKey: csk, newRoundId });
+  offline = true;
+  const shown = { done: 0 };
+  const waits: number[] = [];
+  const r1 = await finishWithSave({ flush, onDone: () => { shown.done++; }, wait: async (ms: number) => { waits.push(ms); } });
+  ok(`continuation with ${n} word answers, network down at the end: result "failed", Done NOT shown`, n > 0 && r1 === 'failed' && shown.done === 0, JSON.stringify({ r1, shown }));
+  ok('it retried once automatically (after 1.5 s) before giving up', waits.length === 1 && waits[0] === 1500);
+  ok('nothing was lost: the unsent rounds are still queued for Try again', sender.unsentCount('vip4@x') > 0 && pending.length === 0);
+  me = { email: 'vip4@x', role: 'user' };
+  const mid = await C({ action: 'getToday' });
+  ok('server agrees it is NOT done: session incomplete, the unsaved words still in the plan (a Done screen here would have been false)', mid.session.session_key === csk && mid.session.complete === false && mid.plan.items.some((i: any) => i.item_type === 'word'), JSON.stringify(mid.session));
+  const r2 = await finishWithSave({ flush, onDone: () => { shown.done++; }, wait: async () => {} });
+  ok('still offline: Try again fails again, still no Done', r2 === 'failed' && shown.done === 0);
+  offline = false;
+  const r3 = await finishWithSave({ flush, onDone: () => { shown.done++; }, wait: async () => {} });
+  ok('back online: Try again saves everything and shows Done exactly once', r3 === 'done' && shown.done === 1 && sender.unsentCount('vip4@x') === 0);
+  const rows = tables.WordAttempt.filter((r) => r.user_email === 'vip4@x' && sent4.some((p) => p.round_id === r.round_id && p.coach?.session_key === csk));
+  ok(`all ${n} answers stored exactly once after the retries`, rows.length === n, String(rows.length));
+  me = { email: 'vip4@x', role: 'user' };
+  const after = await C({ action: 'getToday' });
+  ok('server: the continuation is complete once the retry succeeded', after.session.session_key === csk && after.session.complete === true, JSON.stringify(after.session));
+  ok('the earlier, fully online session showed Done once', run4.result === 'done' && run4.done.shown === 1);
+}
 
 console.log('\n=== Before the fix (regression proof): the old one-round flush, cut to 50 ===');
 const sent3: any[] = [];
