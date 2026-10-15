@@ -14,7 +14,7 @@ import { generateRoundId } from "@/lib/gameScoring";
 import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
 import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard, showsWordCard } from "@/lib/coach/wordCheck";
 import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
-import { createAnswerSender } from "@/lib/coach/answerBatches";
+import { createAnswerSender, finishWithSave } from "@/lib/coach/answerBatches";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
 
@@ -290,6 +290,8 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   const sessionKey = data.session.session_key;
   const [idx, setIdx] = useState(0);
   const [ready, setReady] = useState(null); // { kind, word?, questions?, grammarItems?, stage?, topicKey? }
+  const [saveFailed, setSaveFailed] = useState(false); // end of session: answers could not be saved
+  const [retrying, setRetrying] = useState(false);
   const pending = useRef([]);
   const finishing = useRef(false);
   const outcomes = useRef({}); // item_key -> OUTCOME (see sessionOutcome.js)
@@ -308,6 +310,19 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
     if (!email) return Promise.resolve(false);
     return answerSender.flush({ email, entries: pending.current.splice(0), completed: completedWords.current, sessionKey, newRoundId: generateRoundId });
   }, [email, sessionKey]);
+
+  // Done only after the server has every answer (it computes Done from them). If the
+  // save still fails after one automatic retry, show a save error with Try again,
+  // never a Done screen (src/lib/coach/answerBatches.js finishWithSave).
+  const finish = useCallback(async () => {
+    const result = await finishWithSave({ flush, onDone: () => onFinished(summarise(outcomes.current)) });
+    if (result === "failed") setSaveFailed(true);
+  }, [flush, onFinished]);
+  const retrySave = async () => {
+    setRetrying(true);
+    setSaveFailed(false);
+    try { await finish(); } finally { setRetrying(false); }
+  };
 
   const advance = useCallback(() => setIdx((i) => i + 1), []);
   const finishItem = useCallback((key, outcome) => {
@@ -334,10 +349,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
       if (!it) {
         if (finishing.current) return;
         finishing.current = true;
-        // Awaited: the server has every answer before Done is computed. One retry
-        // if a save failed; anything still unsent stays queued for the next flush.
-        if (!(await flush())) { await new Promise((r) => setTimeout(r, 1500)); await flush(); }
-        onFinished(summarise(outcomes.current));
+        await finish();
         return;
       }
       if (it.item_type === "word") {
@@ -381,7 +393,15 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
       <div className="h-1 rounded-full bg-white/10 mb-5 overflow-hidden">
         <motion.div className="h-full rounded-full" style={{ background: color }} animate={{ width: `${(idx / Math.max(1, items.length)) * 100}%` }} />
       </div>
-      {!ready ? (
+      {saveFailed ? (
+        <div role="alert" className="premium-card rounded-[28px] p-8 text-center">
+          <p className="text-base font-semibold text-foreground">{t("save_failed")}</p>
+          <p className="text-sm text-muted-foreground mt-2">{t("save_failed_sub")}</p>
+          <button disabled={retrying} onClick={retrySave} className="mt-5 w-full h-12 rounded-2xl font-semibold text-white select-none disabled:opacity-50" style={{ background: color }}>
+            {t("retry")}
+          </button>
+        </div>
+      ) : !ready ? (
         <div className="premium-card rounded-[28px] p-10 text-center"><BrandLoader size={48} className="mx-auto" /></div>
       ) : ready.kind === "word" ? (
         <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} intro={ready.intro} color={color} t={t}

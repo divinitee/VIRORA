@@ -83,3 +83,23 @@ export function createAnswerSender(submit) {
     unsentCount: (email) => unsent.filter((r) => !email || r.email === email).length,
   };
 }
+
+/**
+ * End of a Coach session (14 Oct audit follow-up): every queued answer must be saved
+ * BEFORE Done is shown, because Done is computed by the server from saved answers.
+ * One automatic retry after `retryMs`. If answers are still unsaved, resolve "failed"
+ * WITHOUT calling onDone: the page shows a save error with Try again instead of a
+ * Done screen the server can't back up. The unsent rounds stay queued (createAnswerSender),
+ * so Try again resends them with their original round_id.
+ */
+export async function finishWithSave({ flush, onDone, retryMs = 1500, wait = (ms) => new Promise((r) => setTimeout(r, ms)) }) {
+  let saved = false;
+  try { saved = await flush(); } catch { saved = false; }
+  if (!saved) {
+    await wait(retryMs);
+    try { saved = await flush(); } catch { saved = false; }
+  }
+  if (!saved) return "failed";
+  await onDone();
+  return "done";
+}
