@@ -4,6 +4,9 @@
     "jsr:@std/assert@1": "1.0.19",
     "jsr:@std/internal@^1.0.12": "1.0.14",
     "npm:@base44/sdk@0.8.31": "0.8.31",
+    "npm:@base44/sdk@0.8.52": "0.8.52",
+    "npm:@base44/sdk@~0.8.54": "0.8.54",
+    "npm:@base44/vite-plugin@^1.0.46": "1.0.46",
     "npm:@eslint/js@^9.19.0": "9.39.5",
     "npm:@hello-pangea/dnd@17": "17.0.0_react@18.3.1_react-dom@18.3.1_@types+react@18.3.31",
     "npm:@hookform/resolvers@^4.1.2": "4.1.3_react-hook-form@7.89.0_@types+react@18.3.31_react@18.3.1",
@@ -82,6 +85,7 @@
     "npm:tailwindcss-animate@^1.0.7": "1.0.7_tailwindcss@3.4.19",
     "npm:tailwindcss@^3.4.17": "3.4.19",
     "npm:three@0.171": "0.171.0",
+    "npm:ts-fsrs@5.4.2": "5.4.2",
     "npm:typescript@^5.8.2": "5.9.3",
     "npm:vaul@^1.1.2": "1.1.2_react@18.3.1_react-dom@18.3.1_@types+react@18.3.31_@types+react-dom@18.3.7",
     "npm:vite@^6.1.0": "6.4.4_@types+node@22.20.5",
@@ -250,8 +254,8 @@
         "uuid"
       ]
     },
-    "@base44/sdk@0.8.53": {
-      "integrity": "sha512-05+/i6LvLG5nQJ46iknaf0pVnWOnX+cMwsQORZwSxMPuonsKYEA9/+b1WoXd+fYdCiIi41mNwJjlj+c0ou0qfg==",
+    "@base44/sdk@0.8.52": {
+      "integrity": "sha512-zb8ULyt06xWZxYzrNQTgy4QsObWVUh2758W9GhAB/G7KmLGG2sAVjfTyS/iw+fmSL9lR5uGlorXwSY5HwpwMHQ==",
       "dependencies": [
         "axios",
         "partysocket",
@@ -259,8 +263,17 @@
         "uuid"
       ]
     },
-    "@base44/vite-plugin@1.0.44": {
-      "integrity": "sha512-jvXzPsIZqhfuWDpEGU2vvQ+xemQ9LL2Ql5l2qZLtliZls7DwCYHYacoxFkUgd7m8qKEzx9hwDbFZSv2DTO+HNw==",
+    "@base44/sdk@0.8.54": {
+      "integrity": "sha512-22LDIbhoe89RTeqG5bCD5yGQk8IC9wW9hOk7gm53YuxiZyDZ5YI4Xmz8JgVB1AOoflKzpw+yYK2O+m+ulGeq+Q==",
+      "dependencies": [
+        "axios",
+        "partysocket",
+        "socket.io-client",
+        "uuid"
+      ]
+    },
+    "@base44/vite-plugin@1.0.46": {
+      "integrity": "sha512-ezFnMDJovoN8Vzo1lPi6QlHT3qjn1240B8yV8HMTyMQlT5msuazMDbVLWwIddnp1QWtLuYo3FleYDrDJkypBjw==",
       "dependencies": [
         "@babel/generator",
         "@babel/parser",
@@ -4618,6 +4631,9 @@
     },
     "trough@2.2.0": {
       "integrity": "sha512-tmMpK00BjZiUyVyvrBK7knerNgmgvcV/KLVyuma/SC+TQN167GrMRciANTz09+k3zW8L8t60jWO1GpfkZdjTaw=="
+    },
+    "ts-fsrs@5.4.2": {
+      "integrity": "sha512-z4qop4pzTcyTzuJ566d9EaX/4bZZzhYfeaPImfVr+xcYT65c5oBgFDijUhCE/D+C78eaolHIhKRZ04/RwF+v2g=="
     },
     "ts-interface-checker@0.1.13": {
       "integrity": "sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA=="
