@@ -50,7 +50,8 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
   return (
     <motion.div key={k} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="premium-card rounded-[28px] p-6">
       <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{t(TITLE[kind] || "pick_word")}</p>
-      <p className={`${kind === "definition" || kind === "context" ? "text-lg leading-snug" : "text-3xl"} font-bold text-foreground mt-2 mb-5 break-words`}>{q.prompt}</p>
+      <p className={`${kind === "definition" || kind === "context" ? "text-lg leading-snug" : "text-3xl"} font-bold text-foreground mt-2 ${q.meaning ? "mb-1" : "mb-5"} break-words`}>{q.prompt}</p>
+      {q.meaning && <p data-testid="gap-meaning" className="text-sm text-muted-foreground mb-5 break-words">({q.meaning})</p>}
       {q.type === "spelling" ? (
         <form onSubmit={(e) => { e.preventDefault(); if (typed.trim()) answer(typed); }} className="grid gap-2">
           <p className="text-sm font-mono tracking-widest text-muted-foreground">{q.hint}</p>

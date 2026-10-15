@@ -54,6 +54,15 @@ export function contextFor(word) {
   return re.test(gap) ? "" : gap; // the word twice: one gap would still show the answer
 }
 
+/**
+ * Levels whose context questions show the learner-language meaning under the gap
+ * (15 Oct audit: ambiguity was concentrated in low-level gap sentences). The answer
+ * still has to be picked by its English form in context, like a recall question, so
+ * these answers are not tagged as hinted.
+ */
+export const CONTEXT_MEANING_LEVELS = ["A1", "A2"];
+export const contextMeaningShown = (word) => CONTEXT_MEANING_LEVELS.includes(String(word?.cefr || "").toUpperCase());
+
 /** "carbon footprint" -> "c_____ f________" (first letters + length). "" when not typeable. */
 export function spellingHint(english) {
   const en = clean(english);
@@ -129,7 +138,11 @@ export function buildWordQuestions(word, pool, { depth, lang, rnd = Math.random 
     const picks = shuffle(others, rnd).slice(0, 3);
     if (kind === "meaning") return { type, kind, prompt: word.english, options: shuffle([native(word), ...picks.map(native)], rnd), correct: native(word) };
     const prompt = kind === "recall" ? native(word) : kind === "definition" ? def : ctx;
-    return { type, kind, prompt, options: english(picks), correct: word.english };
+    // A1-A2 context questions show the word's meaning under the gap (15 Oct audit: 10% of
+    // sampled A1 gaps had a second right option, e.g. "for _____" dinner/lunch). Temporary
+    // safeguard until the example sentences are repaired.
+    const meaning = kind === "context" && contextMeaningShown(word) ? native(word) : undefined;
+    return { type, kind, prompt, ...(meaning ? { meaning } : {}), options: english(picks), correct: word.english };
   });
 }
 

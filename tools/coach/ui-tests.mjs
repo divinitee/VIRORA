@@ -1,5 +1,5 @@
 // Stage 3 pure UI helpers: node --experimental-strip-types tools/coach/ui-tests.mjs
-import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard, showsWordCard } from "../../src/lib/coach/wordCheck.js";
+import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard, showsWordCard, contextMeaningShown, CONTEXT_MEANING_LEVELS } from "../../src/lib/coach/wordCheck.js";
 import { coachT, labelKey, reasonKey, goalLabel, minutesWord } from "../../src/lib/coach/coachCopy.js";
 import { GOALS } from "../../base44/shared/coachGraph.js";
 import { DEPTHS } from "../../base44/shared/coachPlan.js";
@@ -289,6 +289,20 @@ console.log("\n=== Reload recovery: unsaved answers survive a reload (15 Oct) ==
     await a.flush({ email: "a@x", entries: [ev("w1", 0)], completed: new Set(["word:w1:0"]), sessionKey: K, newRoundId, tabId: "tab1" });
     const sent = []; const r = await mk(st, okSubmit(sent)).recover("b@x", { tabId: "tab1", newRoundId });
     ok("another account on the same device never sends (or sees) someone else's answers", r.found === 0 && sent.length === 0 && !!st.getItem(STORE_PREFIX + "a@x")); }
+}
+console.log("\n=== A1-A2 context questions show the meaning under the gap (15 Oct audit) ===");
+{
+  const mk = (cefr) => ({ id: "m" + cefr, english: "dinner", uzbek: "kechki ovqat", russian: "ужин", cefr, def_a2: "the main meal of the evening", english_definition: "the main meal of the evening", example_en: "What are we having for dinner?" });
+  const P2 = (w) => [w, ...pool.slice(1)];
+  const ctxOf = (cefr, lang) => buildWordQuestions(mk(cefr), P2(mk(cefr)), { depth: "probe", lang, rnd }).find((q) => q.kind === "context");
+  ok("levels: A1 and A2 only", CONTEXT_MEANING_LEVELS.join() === "A1,A2" && contextMeaningShown({ cefr: "a2" }) && !contextMeaningShown({ cefr: "B1" }) && !contextMeaningShown({}));
+  ok("A1 context question carries the learner's meaning (uz)", ctxOf("A1", "uz")?.meaning === "kechki ovqat");
+  ok("...in the learner's own language (ru)", ctxOf("A2", "ru")?.meaning === "ужин");
+  ok("B1+ context questions show no meaning (difficulty unchanged)", ["B1", "B2", "C1"].every((l) => ctxOf(l, "uz") && !("meaning" in ctxOf(l, "uz"))));
+  const all = buildWordQuestions(mk("A1"), P2(mk("A1")), { depth: "remediation", lang: "uz", rnd });
+  ok("only context questions get it (not definition/meaning/recall/spelling)", all.filter((q) => q.meaning).every((q) => q.kind === "context") && all.some((q) => q.kind === "definition" && !q.meaning));
+  const q = ctxOf("A1", "uz");
+  ok("the answer is still graded on the English word, untagged (no hint flag)", !("support" in evidenceItem(mk("A1"), q, q.correct)) && evidenceItem(mk("A1"), q, q.correct).correct === true);
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 
