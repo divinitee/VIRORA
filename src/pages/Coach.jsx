@@ -326,6 +326,14 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
     setUnsaved(!ok);
     return ok;
   }, [flush]);
+  // Grammar rounds go through the same queue as word answers: a failed save is kept
+  // (same round_id), shown in the banner, and retried by every later save and at the end.
+  const saveGrammar = useCallback(async (payload) => {
+    if (!email) return false;
+    const ok = await answerSender.flush({ email, rounds: [payload] });
+    setUnsaved(!ok);
+    return ok;
+  }, [email]);
   const retryUnsaved = async () => {
     setRetrying(true);
     try { await saveNow(); } finally { setRetrying(false); }
@@ -426,7 +434,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
           onAnswer={(w, q, given) => pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given, ready.intro ? { support: "hint" } : undefined) })} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
       ) : (
         <PracticeRunner key={`g${idx}`} items={ready.grammarItems} stage={ready.stage} topicKey={ready.topicKey} size={ready.size}
-          c={gc} coachSessionKey={sessionKey}
+          c={gc} coachSessionKey={sessionKey} onSave={saveGrammar}
           onFinish={() => finishItem(ready.key, OUTCOME.COMPLETED)}
           onExit={() => finishItem(ready.key, OUTCOME.LEFT)} />
       )}

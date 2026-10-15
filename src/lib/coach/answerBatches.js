@@ -73,9 +73,12 @@ export function createAnswerSender(submit) {
     return ok;
   }
   return {
-    flush({ email, entries = [], completed, sessionKey, newRoundId }) {
+    // rounds: ready-made payloads (a Coach grammar round, 15 Oct) queued as-is, with
+    // their own round_id, so a failed grammar save is retried exactly like word rounds.
+    flush({ email, entries = [], rounds = [], completed, sessionKey, newRoundId }) {
       if (!email) return Promise.resolve(false);
-      for (const payload of roundsFor(entries, { completed, sessionKey, newRoundId })) unsent.push({ email, payload });
+      for (const payload of rounds) unsent.push({ email, payload });
+      if (entries.length) for (const payload of roundsFor(entries, { completed, sessionKey, newRoundId })) unsent.push({ email, payload });
       const run = chain.then(() => sendAll(email));
       chain = run.catch(() => {});
       return run;

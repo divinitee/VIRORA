@@ -23,7 +23,10 @@ const ROUND_SIZE = 10;
 // onFinish (optional): called from the result screen instead of onExit, so a
 // caller can tell "finished the round" from "left part-way" (onExit). Callers
 // that don't pass it (the Grammar page) keep the old behaviour exactly.
-export default function PracticeRunner({ items, stage, topicKey, onExit, onAgain, onFinish, c, coachSessionKey, size = ROUND_SIZE }) {
+// onSave (optional, Coach, 15 Oct): the caller saves the finished round itself
+// (queued with its round_id and retried until it lands), so a failed save is
+// never silently dropped. Without it, the round is submitted here as before.
+export default function PracticeRunner({ items, stage, topicKey, onExit, onAgain, onFinish, onSave, c, coachSessionKey, size = ROUND_SIZE }) {
   const [seed] = useState(() => Math.floor(Math.random() * 1e9));
   const [roundId] = useState(() => generateRoundId());
   const { user } = useAuth();
@@ -59,7 +62,10 @@ export default function PracticeRunner({ items, stage, topicKey, onExit, onAgain
       .filter((x) => /\.(choose|build|transform)\.\d+$/.test(x.item_id || ""));
     if (user?.email && items.length) {
       const payload = { game: "grammar_practice", round_id: roundId, grammar_topic: topicKey, items, ...(coachSessionKey ? { coach: { session_key: coachSessionKey } } : {}) };
-      if (coachSessionKey) {
+      if (onSave) {
+        setSaving(true);
+        try { await onSave(payload); } finally { setSaving(false); }
+      } else if (coachSessionKey) {
         // Coach mode: the server must have this evidence BEFORE the session moves
         // on, so the next plan / Done / Keep going are computed from it.
         // submitEvidence never throws (returns null on failure) and is
