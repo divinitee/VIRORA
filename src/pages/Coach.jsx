@@ -14,7 +14,7 @@ import { generateRoundId } from "@/lib/gameScoring";
 import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
 import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard, showsWordCard } from "@/lib/coach/wordCheck";
 import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
-import { createAnswerSender, finishWithSave } from "@/lib/coach/answerBatches";
+import { createAnswerSender, createAnswerStore, finishWithSave } from "@/lib/coach/answerBatches";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
 
@@ -66,10 +66,29 @@ export default function Coach() {
     catch (e) { setErr(e?.code || "error"); return null; }
   }, []);
   useEffect(() => { load(); }, [load]);
+  // After a reload: send answers this device kept but couldn't save (same round_ids,
+  // so nothing doubles), then reload the plan. If they still can't be saved, say so.
+  const [unsavedOnDevice, setUnsavedOnDevice] = useState(false);
+  const [recovering, setRecovering] = useState(false);
+  const recover = useCallback(async () => {
+    if (!user?.email) return;
+    setRecovering(true);
+    try {
+      const r = await answerSender.recover(user.email, { tabId: TAB_ID, newRoundId: generateRoundId });
+      setUnsavedOnDevice(!r.ok);
+      if (r.found && r.ok) await load();
+    } finally { setRecovering(false); }
+  }, [user?.email, load]);
+  useEffect(() => { recover(); }, [recover]);
 
   const persona = data?.coach?.persona || "vira";
   const color = COACH_COLORS[persona];
   const t = coachT(lang, persona);
+  const deviceBanner = unsavedOnDevice ? (
+    <div role="status" className="mb-3 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-4 py-3 flex items-center justify-between gap-3">
+      <p className="text-xs text-foreground">{t("save_pending")}</p>
+      <button disabled={recovering} onClick={recover} className="neo-pill px-3 py-1.5 text-xs font-semibold shrink-0 select-none disabled:opacity-50">{t("retry")}</button>
+    </div>) : null;
   // Leaving a running session sends any queued word answers FIRST (they are
   // real answers), then reloads so the plan reflects them. Nothing is invented.
   const back = async () => {
@@ -156,6 +175,7 @@ export default function Coach() {
   const isDone = afterView === "done" || afterView === "done_partial" || (afterView === null && data.session?.complete);
   if (isDone) return (
     <Shell onBack={() => navigate("/")} right={mapBtn}>
+      {deviceBanner}
       <div className="premium-card rounded-[28px] p-8 text-center">
         <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
         <h1 className="text-xl font-bold text-foreground">{t("done_title")}</h1>
@@ -179,6 +199,7 @@ export default function Coach() {
   // 4. Nothing actionable (fallback chain ended with no items).
   if (!items.length) return (
     <Shell onBack={() => navigate("/")} right={mapBtn}>
+      {deviceBanner}
       <div className="premium-card rounded-[28px] p-8 text-center">
         <div className="flex justify-center mb-4"><Orb color={color} /></div>
         <h1 className="text-xl font-bold text-foreground">{t("nothing_title")}</h1>
@@ -190,6 +211,7 @@ export default function Coach() {
   // 5. Today's plan.
   return (
     <Shell onBack={() => navigate("/")} right={mapBtn}>
+      {deviceBanner}
       <div className="flex items-start gap-4 mb-5">
         <Orb color={color} />
         <div>
@@ -222,7 +244,19 @@ export default function Coach() {
 
 // One answer sender per page load: rounds whose save failed are resent (same
 // round_id) by the next flush, even from a later Session (Back, Keep going).
-const answerSender = createAnswerSender((email, payload) => submitEvidence(email, payload));
+// Unsaved answers are also kept on this device (localStorage) so a reload can send
+// them (recover()). The tab id lives in sessionStorage: it survives a reload of this
+// tab but differs between tabs. Without storage, everything works in memory as before.
+const safeStorage = (name) => {
+  try { const s = typeof window !== "undefined" ? window[name] : null; s.setItem("__virora_probe", "1"); s.removeItem("__virora_probe"); return s; }
+  catch { return null; }
+};
+const TAB_ID = (() => {
+  const s = safeStorage("sessionStorage");
+  try { let id = s?.getItem("virora.coach.tab"); if (!id) { id = generateRoundId(); s?.setItem("virora.coach.tab", id); } return id; }
+  catch { return generateRoundId(); }
+})();
+const answerSender = createAnswerSender((email, payload) => submitEvidence(email, payload), { store: createAnswerStore(safeStorage("localStorage")) });
 
 // Word checks are estimated in quarter minutes (coachPlan WORD_DEPTHS): show "<1 min", never "0.5 min".
 const fmtMin = (t, n) => (Number(n) > 0 && Number(n) < 1 ? t("min_short") : t("min", { n: Math.round(Number(n) || 0) }));
@@ -309,7 +343,11 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   // Resolves true when nothing is left unsent.
   const flush = useCallback(() => {
     if (!email) return Promise.resolve(false);
-    return answerSender.flush({ email, entries: pending.current.splice(0), completed: completedWords.current, sessionKey, newRoundId: generateRoundId });
+    return answerSender.flush({ email, entries: pending.current.splice(0), completed: completedWords.current, sessionKey, newRoundId: generateRoundId, tabId: TAB_ID });
+  }, [email, sessionKey]);
+  // Every answer is also kept on the device until it becomes a round (reload recovery).
+  const stage = useCallback(() => {
+    if (email) answerSender.stage(email, TAB_ID, { sessionKey, entries: pending.current, completed: completedWords.current });
   }, [email, sessionKey]);
 
   // Done only after the server has every answer (it computes Done from them). If the
@@ -347,7 +385,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   const advance = useCallback(() => setIdx((i) => i + 1), []);
   const finishItem = useCallback((key, outcome) => {
     outcomes.current[key] = outcome;
-    if (outcome === OUTCOME.COMPLETED && String(key).startsWith("word:")) completedWords.current.add(key);
+    if (outcome === OUTCOME.COMPLETED && String(key).startsWith("word:")) { completedWords.current.add(key); stage(); }
     advance();
   }, [advance]);
 
@@ -431,7 +469,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         <div className="premium-card rounded-[28px] p-10 text-center"><BrandLoader size={48} className="mx-auto" /></div>
       ) : ready.kind === "word" ? (
         <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} intro={ready.intro} color={color} t={t}
-          onAnswer={(w, q, given) => pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given, ready.intro ? { support: "hint" } : undefined) })} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
+          onAnswer={(w, q, given) => { pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given, ready.intro ? { support: "hint" } : undefined) }); stage(); }} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
       ) : (
         <PracticeRunner key={`g${idx}`} items={ready.grammarItems} stage={ready.stage} topicKey={ready.topicKey} size={ready.size}
           c={gc} coachSessionKey={sessionKey} onSave={saveGrammar}
