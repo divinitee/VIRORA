@@ -207,18 +207,9 @@ console.log('\n=== Server unreachable at the end of the session: save error, nev
     const r = await P({ action: 'submitEvidence', ...payload });
     return r?.ok || r?.duplicate ? r : null;
   };
-  // Go offline right after the last grammar step: the end-of-session save (and its retry) fail.
-  const realP = P;
-  let grammarSteps = 0;
-  const run4 = await (async () => {
-    const r = await playSession('vip4@x', async (email, payload) => {
-      // the last word rounds are only sent at the very end; drop the network before that
-      return submit4(email, payload);
-    });
-    return r;
-  })();
-  // playSession already finished online; replay the failure path on a fresh session of answers:
-  // queue the same kind of answers again by starting a continuation and going offline at its end.
+  // 1) Today's Practice fully online (Done shown once), 2) a 'Keep going' session whose
+  // end-of-session save hits a dead network, then Try again offline, then online.
+  const run4 = await playSession('vip4@x', submit4);
   me = { email: 'vip4@x', role: 'user' };
   const k1 = await C({ action: 'startContinuation' });
   const csk = k1.session.session_key;
@@ -229,7 +220,7 @@ console.log('\n=== Server unreachable at the end of the session: save error, nev
   for (const it of k1.plan.items) {
     if (it.item_type !== 'word') continue;
     const w = byId.get(it.word_id);
-    for (const q of buildWordQuestions(w, tables.VocabularyWord, { depth: it.depth, lang: 'uz', rnd })) { pending.push({ key: it.item_key, ev: evidenceItem(w, q, q.type === 'spelling' ? q.correct : q.correct) }); n++; }
+    for (const q of buildWordQuestions(w, tables.VocabularyWord, { depth: it.depth, lang: 'uz', rnd })) { pending.push({ key: it.item_key, ev: evidenceItem(w, q, q.correct) }); n++; }
     completed.add(it.item_key);
   }
   for (const it of k1.plan.items.filter((i: any) => i.item_type === 'grammar')) {
