@@ -600,5 +600,32 @@ console.log("\n=== 9. Word timing + Skill Hub word band (2026-10-14) ===");
   ok("old types unchanged; unknown types stay ungraded (null)", gradeTranslation(W1, "multiple_choice", "atrof-muhit") === true && gradeTranslation(W1, "translation", "environment") === true && gradeTranslation(W1, "essay", "x") === null);
 }
 
+console.log("\n=== 10. Hinted remediation: repeated failures keep a weak word weak (15 Oct) ===");
+{
+  // A weak word from games (client-attested 2/5), then daily Coach remediation rounds after
+  // the word card: server-graded, recognise, every answer hinted -> weight 0.3.
+  const game = { item_type: "word", item_key: "word:w9:0", items: 5, correct: 2, attestation: "client_attested", mode: "recognise", weight: baseWeight({ attestation: "client_attested", mode: "recognise" }), round_id: "g", at: at(1) };
+  const rem = (d, correct, hinted = true) => ({ item_type: "word", item_key: "word:w9:0", items: 5, correct, hints_used: hinted ? 5 : 0, attestation: "server_graded", mode: "recognise", weight: baseWeight({ attestation: "server_graded", mode: "recognise", hints_used: hinted ? 5 : 0 }), round_id: `r${d}`, at: at(d), source: "coach_session", context: "target" });
+  ok("hinted remediation round weighs 0.3 (half of 0.6)", rem(2, 1).weight === 0.3 && rem(2, 1, false).weight === 0.6);
+  let ev = [game];
+  const states = [];
+  for (const d of [2, 3, 4, 5]) { ev = [...ev, rem(d, 1)]; states.push(deriveItemState(ev)); }
+  ok("1/5 after the card, four days running: weak every day", states.every((x) => x.learning_state === "weak"), states.map((x) => x.learning_state).join());
+  ok("...accuracy never rises and the wrong streak grows", states.every((x, i) => i === 0 || x.weighted_accuracy <= states[i - 1].weighted_accuracy) && states[3].wrong_streak === 5, states.map((x) => `${x.weighted_accuracy}/${x.wrong_streak}`).join(" "));
+  const partial = deriveItemState([game, rem(2, 2), rem(3, 2), rem(4, 2)]);
+  ok("2/5 after the card three days running: still weak", partial.learning_state === "weak");
+  const sameUnhinted = deriveItemState([game, rem(2, 1, false), rem(3, 1, false)]);
+  const sameHinted = deriveItemState([game, rem(2, 1), rem(3, 1)]);
+  ok("hinted failures classify a word exactly like unhinted ones (weak either way)", sameHinted.learning_state === "weak" && sameUnhinted.learning_state === "weak");
+  const fsrs = replayFsrs([rem(2, 1), rem(3, 1), rem(4, 1)], tsfsrs);
+  ok("FSRS: each failing day is rated Again, so the word keeps coming back", fsrs.transitions.length === 3 && fsrs.transitions.every((t) => t.rating === "again"), fsrs.transitions.map((t) => t.rating).join());
+  // Documented, not changed (product rule): ONE perfect round right after the card lifts a
+  // games-weak word to Practising, because a hint lowers weight but not accuracy.
+  const primed = deriveItemState([game, rem(2, 5)]);
+  ok("documented: one 5/5 after the card moves a games-weak word to learning (rated Good, not Easy)", primed.learning_state === "learning" && ratingFor(rem(2, 5)) === "good", JSON.stringify({ s: primed.learning_state, a: primed.weighted_accuracy }));
+  const relapse = deriveItemState([game, rem(2, 5), rem(3, 1), rem(4, 1)]);
+  ok("...and two failing rounds after that put it straight back to weak", relapse.learning_state === "weak");
+}
+
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);

@@ -4,7 +4,7 @@ import { coachT, labelKey, reasonKey, goalLabel, minutesWord } from "../../src/l
 import { GOALS } from "../../base44/shared/coachGraph.js";
 import { DEPTHS } from "../../base44/shared/coachPlan.js";
 import { OUTCOME, summarise, afterRunView } from "../../src/lib/coach/sessionOutcome.js";
-import { packByWord, roundsFor, createAnswerSender, MAX_ROUND_ITEMS } from "../../src/lib/coach/answerBatches.js";
+import { packByWord, roundsFor, createAnswerSender, finishWithSave, MAX_ROUND_ITEMS } from "../../src/lib/coach/answerBatches.js";
 import { LIVE_GRAMMAR_TOPICS } from "../../base44/shared/coachGraph.js";
 let pass = 0, fail = 0;
 const ok = (n, c) => { c ? pass++ : fail++; console.log(`  ${c ? "PASS" : "FAIL"}  ${n}`); };
@@ -182,6 +182,23 @@ console.log("\n=== Weak-word card = hint (14 Oct audit) ===");
   const hinted = evidenceItem(target, q0, q0.correct, { support: "hint" });
   ok("answers after the card carry support: \"hint\" (server: weight x0.5, FSRS at most Good)", hinted.support === "hint" && hinted.correct === true);
   ok("answers without the card carry no support field (unchanged contract)", !("support" in evidenceItem(target, q0, q0.correct)));
+}
+console.log("\n=== End of session: Done only after every answer is saved (15 Oct) ===");
+{
+  const run = async (results) => {
+    const r = [...results]; const waits = []; let done = 0;
+    const out = await finishWithSave({ flush: async () => { const v = r.shift(); if (v instanceof Error) throw v; return v; }, onDone: () => { done++; }, wait: async (ms) => { waits.push(ms); } });
+    return { out, done, waits };
+  };
+  const a = await run([true]);
+  ok("saved first time -> Done once, no wait", a.out === "done" && a.done === 1 && a.waits.length === 0);
+  const b = await run([false, true]);
+  ok("first save fails, automatic retry after 1.5 s succeeds -> Done once", b.out === "done" && b.done === 1 && b.waits.join() === "1500");
+  const c = await run([false, false]);
+  ok("both attempts fail -> \"failed\" and Done is NOT shown", c.out === "failed" && c.done === 0);
+  const d = await run([new Error("offline"), new Error("offline")]);
+  ok("a thrown error counts as a failed save (no crash, no Done)", d.out === "failed" && d.done === 0);
+  for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`save-error copy (${lang})`, ["save_failed", "save_failed_sub", "retry"].every((k) => t(k) && t(k) !== k)); }
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 
