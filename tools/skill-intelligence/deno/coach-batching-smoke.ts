@@ -346,7 +346,7 @@ console.log('\n=== Reload recovery through the real handlers (15 Oct) ===');
       }
     }
     const result = await finishWithSave({ flush, onDone: () => {}, wait: async () => {} });
-    return { reloaded: false, answered, sk, recovered, result, sender };
+    return { reloaded: false, answered, sk, recovered, result, sender, items: today.plan.items };
   }
   const rowsOf = (email: string) => tables.WordAttempt.filter((r) => r.user_email === email && !String(r.round_id).startsWith('h'));
 
@@ -360,9 +360,10 @@ console.log('\n=== Reload recovery through the real handlers (15 Oct) ===');
   const rows1 = rowsOf('vip7@x');
   const keys1 = rows1.map((r) => `${r.round_id}|${r.word_id}`);
   ok(`R1: every answer from both page lives stored (${a1.answered} + ${b1.answered} = ${rows1.length})`, rows1.length === a1.answered + b1.answered, `${rows1.length}`);
-  ok('R1: no answer stored twice (round_id + word unique per row group)', new Set(rows1.map((r) => r.round_id)).size === new Set(sentLog.filter((p) => p.game === 'quiz' && rows1.some((r) => r.round_id === p.round_id)).map((p) => p.round_id)).size);
+  const quizRounds1 = sentLog.filter((p, i, a) => p.game === 'quiz' && a.findIndex((x) => x.round_id === p.round_id) === i && rows1.some((r) => r.round_id === p.round_id));
+  ok('R1: each round stored exactly once (rows per round = answers in that round)', quizRounds1.every((p) => rows1.filter((r) => r.round_id === p.round_id).length === p.items.length));
   const halfDone = sentLog.find((p) => p.game === 'quiz' && !p.coach && rows1.some((r) => r.round_id === p.round_id));
-  ok('R1: the word interrupted by the reload was sent WITHOUT Coach credit and was planned again', !!halfDone && b1.answered > 0);
+  ok('R1: the word interrupted by the reload was sent WITHOUT Coach credit and was planned again after the reload', !!halfDone && b1.items.some((i: any) => i.word_id === halfDone.items[0].word_id), JSON.stringify(halfDone?.items?.[0]));
   me = { email: 'vip7@x', role: 'user' };
   const end1 = await C({ action: 'getToday' });
   ok('R1: server: session complete after the second page life; device copy cleared', b1.result === 'done' && end1.session.complete === true && st1.m.size === 0, JSON.stringify(end1.session));
