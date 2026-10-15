@@ -15,7 +15,7 @@ import {
   evidenceFromLedgers, deriveLearnerItems, deriveItem, canonicalItem, normalizeLemma,
   isResolved, dayOf, fnv1a, LABELS, ENGINE_VERSION,
 } from './coachCore.js';
-import { planToday, PLAN_VERSION } from './coachPlan.js';
+import { planToday, PLAN_VERSION, headwordKey, wordMeaningKeys } from './coachPlan.js';
 import { resolveCoach, needsHandoff, minutesFor, POLICIES } from './coachPolicies.js';
 import { GOALS, DEFAULT_GOAL, goalOf, LIVE_GRAMMAR_TOPICS, onPath, GRAPH_VERSION } from './coachGraph.js';
 
@@ -248,11 +248,21 @@ export async function contentGate(svc: any, candidates: any[]) {
     .map((c: any) => String(c.word_id || String(c.item_key).split(':')[1] || ''))
     .filter(Boolean))];
   const playable = new Set<string>();
+  const rowsById = new Map<string, any>();
   for (const part of chunk(ids, 100)) {
     const rows = (await svc.VocabularyWord.filter({ id: { $in: part } }, 'id', part.length)) || [];
-    for (const w of rows) if (PLAYABLE_FIELDS.every((f) => String(w?.[f] || '').trim())) playable.add(String(w.id));
+    for (const w of rows) {
+      rowsById.set(String(w.id), w);
+      if (PLAYABLE_FIELDS.every((f) => String(w?.[f] || '').trim())) playable.add(String(w.id));
+    }
   }
-  return (key: string) => key.startsWith('word:') ? hasContentFn(key) && playable.has(String(key).split(':')[1]) : hasContentFn(key);
+  const gate: any = (key: string) => key.startsWith('word:') ? hasContentFn(key) && playable.has(String(key).split(':')[1]) : hasContentFn(key);
+  // Duplicate headwords (15 Oct): the planner keeps one item per headword in a plan and
+  // skips a new twin of a word the learner already has (same meaning). Same rows, no extra reads.
+  const rowOf = (key: string) => (String(key).startsWith('word:') ? rowsById.get(String(key).split(':')[1]) : undefined);
+  gate.headwordOf = (key: string) => { const w = rowOf(key); return w ? headwordKey(w.english) : null; };
+  gate.meaningsOf = (key: string) => { const w = rowOf(key); return w ? wordMeaningKeys(w) : null; };
+  return gate;
 }
 
 async function doneTodayFor(svc: any, email: string, today: string) {
