@@ -1,6 +1,6 @@
 const WORDS = [
-  { id: "v1", english: "apple", uzbek: "olma", russian: "яблоко", cefr: "A2" },
-  { id: "v2", english: "bread", uzbek: "non", russian: "хлеб", cefr: "A2" },
+  { id: "v1", english: "apple", uzbek: "olma", russian: "яблоко", cefr: "A2", def_a2: "a round fruit with red or green skin", example_en: "I eat an apple every morning." },
+  { id: "v2", english: "bread", uzbek: "non", russian: "хлеб", cefr: "A2", def_a2: "a food made from flour and baked", example_en: "We bought fresh bread at the shop." },
   { id: "v3", english: "river", uzbek: "daryo", russian: "река", cefr: "A2" },
   { id: "v4", english: "house", uzbek: "uy", russian: "дом", cefr: "A2" },
   { id: "v5", english: "book", uzbek: "kitob", russian: "книга", cefr: "A2" },

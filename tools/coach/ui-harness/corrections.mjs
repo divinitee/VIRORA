@@ -53,8 +53,8 @@ for (const m of [10, 15, 20]) {
 { const p = await open("start=/coach&scenario=partial");
   await onboard(p);
   await p.getByRole("button", { name: /Start/ }).click();
-  for (let k = 0; k < 6; k++) {
-    if (await vis(p, "What does it mean?") || await vis(p, "Which English word?")) {
+  for (let k = 0; k < 14; k++) {
+    if (await p.locator(".premium-card .grid button").first().isVisible().catch(() => false)) { // any question type (meaning / definition / context)
       await p.locator(".premium-card .grid button").first().click();
       await p.getByRole("button", { name: /^Next$/ }).click().catch(() => {});
     }
