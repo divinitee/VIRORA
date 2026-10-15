@@ -164,6 +164,14 @@ console.log("\n=== Answer batching: <= 50 per round, one word per round, failed 
   ok("the next flush resends the SAME round_id (server dedupes a round that did land)", second === true && sender.unsentCount("a@x") === 0 && sent[sent.length - 1] === sent[1]);
   ok("a thrown error counts as a failed save (kept, not lost)", await (async () => { const s2 = createAnswerSender(async () => { throw new Error("offline"); }); const r = await s2.flush({ email: "b@x", entries: entries.slice(0, 4), completed: new Set(["word:w0:0"]), sessionKey: "k", newRoundId: () => "t1" }); return r === false && s2.unsentCount("b@x") === 1; })());
   ok("rounds are only ever resent for the same account", await (async () => { const got = []; const s3 = createAnswerSender(async (email, p) => { got.push(email); return email === "c@x" ? null : { ok: true }; }); await s3.flush({ email: "c@x", entries: entries.slice(0, 4), completed: new Set(["word:w0:0"]), sessionKey: "k", newRoundId: () => "u1" }); await s3.flush({ email: "d@x", entries: [], completed: new Set(), sessionKey: "k", newRoundId: () => "u2" }); return got.join() === "c@x" && s3.unsentCount("c@x") === 1; })());
+  ok("a ready-made round (grammar) is queued as-is and resent with ITS round_id after a failure", await (async () => {
+    const ids = []; let fail = true;
+    const sg = createAnswerSender(async (email, p) => { ids.push(p.round_id); if (fail) { fail = false; return null; } return { ok: true }; });
+    const g = { game: "grammar_practice", round_id: "g-1", grammar_topic: "t", items: [{ item_id: "x", given: "y" }], coach: { session_key: "k" } };
+    const r1 = await sg.flush({ email: "g@x", rounds: [g] });
+    const r2 = await sg.flush({ email: "g@x" });
+    return r1 === false && r2 === true && ids.join() === "g-1,g-1" && sg.unsentCount("g@x") === 0;
+  })());
   ok("no email -> nothing sent, nothing consumed", (await createAnswerSender(async () => ({ ok: true })).flush({ email: null, entries })) === false);
   // Concurrent flushes (Back while a grammar step flushes) run one after another, never sending twice.
   const seen = [];

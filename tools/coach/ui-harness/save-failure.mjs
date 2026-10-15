@@ -5,6 +5,7 @@
 //   2. end-of-session save fails (after 1 automatic retry) -> save-error card, NO Done
 //   3. Try again while still offline -> still the error card, no Done
 //   4. back online -> Try again -> Done, every word answer saved exactly once
+//   5. grammar saves fail too (en): the grammar round is queued and lands exactly once
 // Run in en, uz, ru; screenshots at a 390 px phone width.
 //   node tools/coach/ui-harness/save-failure.mjs <screenshot-dir>
 import { chromium } from "playwright";
@@ -121,6 +122,37 @@ for (const lang of ["en", "uz", "ru"]) {
   ok(`${lang}: back online -> Done screen (with Keep going)`, !(await vis(page, L.failed)) && await page.getByRole("button", { name: L.keep }).isVisible().catch(() => false));
   ok(`${lang}: every word answer saved, each round once (${saved} answers in ${ids.length} rounds)`, saved === n1 + n2 && new Set(ids).size === ids.length && S.quiz.every((q) => q.key === "2026-10-08:today:0"), JSON.stringify(S.quiz));
   ok(`${lang}: server marks all 3 items done`, S.done.length === 3, S.done.join());
+  await page.close();
+}
+// ---- Grammar saves fail too (15 Oct): the grammar round is queued, never dropped ----
+{
+  const L = COPY.en;
+  const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  page.on("pageerror", (e) => errors.push(`grammar: ${e}`));
+  await page.goto(`${BASE}?start=/coach&lang=en`);
+  await page.getByRole("button", { name: L.go }).click();
+  await page.getByRole("button", { name: L.start }).waitFor();
+  await page.evaluate(() => { window.__offline = "all"; });
+  await page.getByRole("button", { name: L.start }).click();
+  const n1 = await answerWord(page, L);
+  ok("grammar: offline -> banner after word 1", await vis(page, L.pending));
+  ok("grammar: grammar step played through while offline", await finishGrammar(page, L));
+  const gFails = await page.evaluate(() => window.__log.filter((e) => e.kind === "submit:fail").length);
+  ok("grammar: the grammar save was attempted and failed (not silently skipped); banner still up", gFails >= 2 && await vis(page, L.pending), String(gFails));
+  const n2 = await answerWord(page, L);
+  await page.getByText(L.failed).first().waitFor({ timeout: 8000 }).catch(() => {});
+  ok("grammar: end of session -> error card, no Done", await vis(page, L.failed) && !(await page.getByRole("button", { name: L.keep }).isVisible().catch(() => false)));
+  await page.evaluate(() => { window.__offline = false; });
+  await page.getByRole("button", { name: L.retry }).click();
+  await page.getByRole("button", { name: L.keep }).waitFor({ timeout: 8000 }).catch(() => {});
+  await page.screenshot({ path: `${OUT}/grammar-after-recovery.png`, fullPage: true });
+  const S = await page.evaluate(() => ({
+    quiz: window.__state.submits.filter((b) => b.game === "quiz").reduce((s, b) => s + b.items.length, 0),
+    grammar: window.__state.submits.filter((b) => b.game === "grammar_practice").map((b) => b.round_id),
+    done: [...(window.__state.done["2026-10-08:today:0"] || [])],
+  }));
+  ok("grammar: back online -> Done; the grammar round landed exactly once, all word answers saved, 3/3 items done",
+    await page.getByRole("button", { name: L.keep }).isVisible().catch(() => false) && S.grammar.length === 1 && S.quiz === n1 + n2 && S.done.length === 3, JSON.stringify(S));
   await page.close();
 }
 ok("no page errors", errors.length === 0, errors.join(" | "));

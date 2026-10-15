@@ -74,9 +74,9 @@ export async function coachApi(action, payload = {}) {
 export async function progressApi(action, body) {
   rec("submit:start", { game: body.game, session_key: body.coach?.session_key, n: body.items?.length });
   await sleep(DELAY);
-  // window.__offline = true makes Coach WORD saves fail (save-failure.mjs). Grammar rounds
-  // (PracticeRunner's own save path) are left alone so the test isolates the Coach queue.
-  if (window.__offline && body.game === "quiz") { rec("submit:fail", { session_key: body.coach?.session_key, n: body.items?.length }); throw new Error("network"); }
+  // window.__offline = true makes Coach WORD saves fail; "all" makes grammar saves fail too
+  // (save-failure.mjs).
+  if (window.__offline === "all" || (window.__offline && body.game === "quiz")) { rec("submit:fail", { session_key: body.coach?.session_key, n: body.items?.length }); throw new Error("network"); }
   const key = body.coach?.session_key;
   if (key) {
     const planned = S.sessions[key] || [];
