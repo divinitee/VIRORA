@@ -13,6 +13,30 @@ import { onPath, goalRelevance, prerequisitesOf, unlockCount, edgesFor } from ".
 
 export const PLAN_VERSION = "coach-plan@1";
 
+// Duplicate headwords (15 Oct audit): the corpus has 129 English headwords with 2+ rows
+// (two "pain", two "debt"; mostly the same meaning, sometimes another sense such as
+// coach = trainer / coach = bus), and 6-40% of learners' new-word lists held a twin.
+// The engine's content lookup can hand the planner, via hasContent:
+//   headwordOf(item_key) -> normalised English headword (null if unknown)
+//   meaningsOf(item_key) -> Set of "headword|uz:sense" / "headword|ru:sense" keys
+// Rules: a plan never holds two items with the same headword, and a new word is not
+// introduced when the learner already has that headword with an overlapping meaning
+// (another sense of it still can be, on another day). Without them, nothing changes.
+const normText = (s) => String(s || "").toLowerCase().replace(/ё/g, "е").replace(/[^\p{L}\p{N}']+/gu, " ").trim();
+export const headwordKey = (english) => normText(english) || null;
+export function wordMeaningKeys(row) {
+  const h = headwordKey(row?.english);
+  if (!h) return new Set();
+  const out = new Set();
+  for (const [lang, text] of [["uz", row.uzbek], ["ru", row.russian]]) {
+    for (const part of String(text || "").split(/[;,/]/)) {
+      const sense = normText(part.replace(/\([^)]*\)/g, " "));
+      if (sense) out.add(`${h}|${lang}:${sense}`);
+    }
+  }
+  return out;
+}
+
 // Depth -> questions + estimated minutes. GRAMMAR (locked estimates; production
 // Oct 10-14 matches: ~1.5-2 min per 5-question round).
 export const DEPTHS = {
@@ -95,8 +119,12 @@ export function rankCandidates({ items = [], newCandidates = [], goal, policy, n
     else if (it.learning_state === "learning") raw.push({ it, bucket: "practice", reasons: ["practising"] });
     else if (it.learning_state === "solid") raw.push({ it, bucket: "maintenance", reasons: ["maintenance"] });
   }
+  const meaningsOf = typeof hasContent.meaningsOf === "function" ? hasContent.meaningsOf : null;
+  const knownMeanings = new Set();
+  if (meaningsOf) for (const it of items) for (const m of meaningsOf(it.item_key) || []) knownMeanings.add(m);
   for (const c of newCandidates) {
     if (byKey.has(c.item_key) || !onPath(goal, c.item_key)) continue;
+    if (meaningsOf && [...(meaningsOf(c.item_key) || [])].some((m) => knownMeanings.has(m))) continue; // a twin of a word they have
     const pre = prerequisitesOf(goal, c.item_key);
     if (pre.every((p) => ["learning", "solid"].includes(stateOf(p)))) {
       raw.push({ it: { ...c, learning_state: "unknown", confidence: "low", weighted_accuracy: null }, bucket: "new", reasons: ["new"] });
@@ -148,7 +176,7 @@ const explain = (c, policy) => ({
  *   5. at least one non-review item whenever one fits
  *   fallback: maintenance review -> goal complete for now -> free practice
  */
-export function planSession(ranked, { policy, minutes }) {
+export function planSession(ranked, { policy, minutes, headwordOf = null }) {
   const B = Math.max(0, Number(minutes) || 0);
   const L = policy.limits;
   // Reviews go first but must not crowd out the day's most valuable non-review work:
@@ -162,7 +190,10 @@ export function planSession(ranked, { policy, minutes }) {
   const remCap = Math.max(1, Math.ceil(B / 10) * L.maxRemediationsPer10Min);
   const queue = [];
   let used = 0, revUsed = 0, rem = 0;
-  const fits = (c) => used + c.est_minutes <= B;
+  // One item per English headword in a plan (twin rows, reviews of both twins included).
+  const hw = (c) => (headwordOf ? headwordOf(c.it.item_key) : null);
+  const clash = (c) => { const h = hw(c); return !!h && queue.some((q) => hw(q) === h); };
+  const fits = (c) => used + c.est_minutes <= B && !clash(c);
   const take = (c) => { queue.push(c); used += c.est_minutes; if (c.bucket === "review") revUsed += c.est_minutes; if (c.bucket === "remediate") rem++; };
   const of = (b) => ranked.filter((c) => c.bucket === b);
 
@@ -172,7 +203,7 @@ export function planSession(ranked, { policy, minutes }) {
   for (const c of ranked.filter((x) => (x.bucket === "practice" || x.bucket === "new") && !queue.includes(x))) if (fits(c)) take(c);
 
   if (queue.length && queue.every((c) => c.bucket === "review")) {
-    const alt = ranked.find((c) => c.bucket !== "review" && c.bucket !== "maintenance" && !queue.includes(c) && c.est_minutes <= B && (c.bucket !== "remediate" || remCap > 0));
+    const alt = ranked.find((c) => c.bucket !== "review" && c.bucket !== "maintenance" && !queue.includes(c) && !clash(c) && c.est_minutes <= B && (c.bucket !== "remediate" || remCap > 0));
     if (alt) {
       while (queue.length && used + alt.est_minutes > B) { const drop = queue.pop(); used -= drop.est_minutes; }
       if (used + alt.est_minutes <= B) take(alt);
@@ -195,7 +226,7 @@ export function planSession(ranked, { policy, minutes }) {
  */
 export function planToday({ items, newCandidates, goal, policy, minutes, now, hasContent, doneToday, kind = "today" }) {
   const ranked = rankCandidates({ items, newCandidates, goal, policy, now, hasContent, doneToday });
-  const { queue, minutes_planned, fallback } = planSession(ranked, { policy, minutes });
+  const { queue, minutes_planned, fallback } = planSession(ranked, { policy, minutes, headwordOf: typeof hasContent?.headwordOf === "function" ? hasContent.headwordOf : null });
   const explanation = queue.map((c) => explain(c, policy));
   const plan_hash = fnv1a(JSON.stringify([policy.version, goal.id, minutes, kind, explanation.map((e) => [e.item_key, e.depth])]));
   return {
