@@ -93,6 +93,8 @@ export async function progressApi(action, body) {
   const off = offlineMode();
   if (off === "all" || (off && body.game === "quiz")) { rec("submit:fail", { session_key: body.coach?.session_key, n: body.items?.length, round_id: body.round_id }); throw new Error("network"); }
   const key = body.coach?.session_key;
+  // A round_id the server already has is a duplicate (claimRound): stored once.
+  if (S.submits.some((b) => b.round_id === body.round_id)) { rec("submit:end", { game: body.game, session_key: key, duplicate: true }); return { duplicate: true }; }
   if (key) {
     const planned = S.sessions[key] || [];
     const set = (S.done[key] ||= new Set());
@@ -102,8 +104,6 @@ export async function progressApi(action, body) {
     }
     if (key.includes("continuation")) S.contPractised = true;
   }
-  // A round_id the server already has is a duplicate (claimRound): stored once.
-  if (S.submits.some((b) => b.round_id === body.round_id)) { rec("submit:end", { game: body.game, session_key: key, duplicate: true }); return { duplicate: true }; }
   S.submits.push(body);
   saveState();
   rec("submit:end", { game: body.game, session_key: key });
