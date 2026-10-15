@@ -4,7 +4,7 @@ import { coachT, labelKey, reasonKey, goalLabel, minutesWord } from "../../src/l
 import { GOALS } from "../../base44/shared/coachGraph.js";
 import { DEPTHS } from "../../base44/shared/coachPlan.js";
 import { OUTCOME, summarise, afterRunView } from "../../src/lib/coach/sessionOutcome.js";
-import { packByWord, roundsFor, createAnswerSender, finishWithSave, MAX_ROUND_ITEMS } from "../../src/lib/coach/answerBatches.js";
+import { packByWord, roundsFor, createAnswerSender, createAnswerStore, finishWithSave, MAX_ROUND_ITEMS, STORE_PREFIX } from "../../src/lib/coach/answerBatches.js";
 import { LIVE_GRAMMAR_TOPICS } from "../../base44/shared/coachGraph.js";
 let pass = 0, fail = 0;
 const ok = (n, c) => { c ? pass++ : fail++; console.log(`  ${c ? "PASS" : "FAIL"}  ${n}`); };
@@ -207,6 +207,74 @@ console.log("\n=== End of session: Done only after every answer is saved (15 Oct
   const d = await run([new Error("offline"), new Error("offline")]);
   ok("a thrown error counts as a failed save (no crash, no Done)", d.out === "failed" && d.done === 0);
   for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`save-error copy (${lang})`, ["save_pending", "save_failed", "save_failed_sub", "retry"].every((k) => t(k) && t(k) !== k)); }
+}
+console.log("\n=== Reload recovery: unsaved answers survive a reload (15 Oct) ===");
+{
+  const memStorage = () => { const m = new Map(); return { getItem: (k) => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)), removeItem: (k) => m.delete(k), m }; };
+  let clock = 1_000_000_000_000;
+  const mk = (storage, submit) => createAnswerSender(submit, { store: createAnswerStore(storage, { now: () => clock }) });
+  const okSubmit = (log) => async (email, p) => { log.push(p); return { ok: true }; };
+  const ev = (w, q) => ({ key: `word:${w}:0`, ev: { word_id: w, q } });
+  let rid = 0; const newRoundId = () => `rr${++rid}`;
+  const K = "2026-10-15:today:0";
+
+  // a) answers staged, page reloads before any save -> recover sends them, finished word tagged, partial untagged
+  { const st = memStorage(); const a = mk(st, okSubmit([]));
+    const entries = [ev("w1", 0), ev("w1", 1), ev("w1", 2), ev("w2", 0)];
+    a.stage("u@x", "tab1", { sessionKey: K, entries, completed: new Set(["word:w1:0"]) });
+    ok("staged answers are on the device", JSON.parse(st.getItem(STORE_PREFIX + "u@x")).pending.tab1.entries.length === 4);
+    const sent = []; const b = mk(st, okSubmit(sent)); // the reloaded page
+    const r = await b.recover("u@x", { tabId: "tab1", newRoundId });
+    const tagged = sent.find((p) => p.coach?.session_key === K), untagged = sent.find((p) => !p.coach);
+    ok("after a reload: the finished word goes WITH the session key, the half-done word WITHOUT (as on Back)", r.found === 2 && r.ok && tagged?.items.length === 3 && untagged?.items.length === 1, JSON.stringify(sent));
+    ok("...and the device copy is cleared once saved", st.getItem(STORE_PREFIX + "u@x") === null); }
+
+  // b) a save failed, then the page reloads -> resent with the SAME round_id
+  { const st = memStorage(); const a = mk(st, async () => null);
+    await a.flush({ email: "u@x", entries: [ev("w1", 0), ev("w1", 1)], completed: new Set(["word:w1:0"]), sessionKey: K, newRoundId, tabId: "tab1" });
+    const stored = JSON.parse(st.getItem(STORE_PREFIX + "u@x"));
+    ok("a failed round is kept on the device (and the staged copy of its answers removed in the same write)", stored.rounds.length === 1 && !stored.pending.tab1);
+    const sent = []; const r = await mk(st, okSubmit(sent)).recover("u@x", { tabId: "tab1", newRoundId });
+    ok("after a reload it is resent with its original round_id", r.ok && sent.length === 1 && sent[0].round_id === stored.rounds[0].payload.round_id && st.getItem(STORE_PREFIX + "u@x") === null); }
+
+  // c) reload WHILE a save is in flight -> the round is still on the device and gets resent (server dedupes)
+  { const st = memStorage(); let release; const slow = mk(st, (e, p) => new Promise((res) => { release = () => res({ ok: true }); }));
+    const pr = slow.flush({ email: "u@x", entries: [ev("w1", 0)], completed: new Set(["word:w1:0"]), sessionKey: K, newRoundId, tabId: "tab1" });
+    await new Promise((r) => setTimeout(r, 5));
+    const mid = JSON.parse(st.getItem(STORE_PREFIX + "u@x"));
+    ok("a round being sent stays on the device until the server confirms it", mid.rounds.length === 1);
+    const sent = []; await mk(st, okSubmit(sent)).recover("u@x", { tabId: "tab1", newRoundId });
+    ok("...so a reload mid-send resends it with the same round_id", sent.length === 1 && sent[0].round_id === mid.rounds[0].payload.round_id);
+    release(); await pr; }
+
+  // d) another open tab's answers are left alone; an abandoned tab's are recovered
+  { const st = memStorage(); const a = mk(st, okSubmit([]));
+    a.stage("u@x", "tabB", { sessionKey: K, entries: [ev("w9", 0)], completed: new Set(["word:w9:0"]) });
+    const sent = []; const r1 = await mk(st, okSubmit(sent)).recover("u@x", { tabId: "tabA", newRoundId });
+    ok("answers staged by ANOTHER open tab are not taken (no double send under two round_ids)", r1.found === 0 && sent.length === 0 && !!JSON.parse(st.getItem(STORE_PREFIX + "u@x")).pending.tabB);
+    clock += 11 * 60 * 1000;
+    const r2 = await mk(st, okSubmit(sent)).recover("u@x", { tabId: "tabA", newRoundId });
+    ok("...but once that tab has been silent for 10+ minutes they are recovered", r2.found === 1 && sent.length === 1); }
+
+  // e) older than 7 days -> dropped, never sent
+  { const st = memStorage(); const a = mk(st, async () => null);
+    await a.flush({ email: "u@x", entries: [ev("w1", 0)], completed: new Set(["word:w1:0"]), sessionKey: K, newRoundId, tabId: "tab1" });
+    clock += 8 * 24 * 60 * 60 * 1000;
+    const sent = []; const r = await mk(st, okSubmit(sent)).recover("u@x", { tabId: "tab1", newRoundId });
+    ok("unsaved answers older than 7 days are dropped, not sent", r.found === 0 && sent.length === 0 && st.getItem(STORE_PREFIX + "u@x") === null); }
+
+  // f) storage unavailable -> still works in memory
+  { const broken = { getItem() { throw new Error("denied"); }, setItem() { throw new Error("quota"); }, removeItem() { throw new Error("denied"); } };
+    const sent = []; const a = mk(broken, okSubmit(sent));
+    const okFlush = await a.flush({ email: "u@x", entries: [ev("w1", 0)], completed: new Set(["word:w1:0"]), sessionKey: K, newRoundId, tabId: "tab1" });
+    const r = await a.recover("u@x", { tabId: "tab1", newRoundId });
+    ok("storage that throws (private mode, quota) -> saves still work, recover is a no-op", okFlush && sent.length === 1 && r.found === 0 && r.ok); }
+
+  // g) accounts never mix
+  { const st = memStorage(); const a = mk(st, async () => null);
+    await a.flush({ email: "a@x", entries: [ev("w1", 0)], completed: new Set(["word:w1:0"]), sessionKey: K, newRoundId, tabId: "tab1" });
+    const sent = []; const r = await mk(st, okSubmit(sent)).recover("b@x", { tabId: "tab1", newRoundId });
+    ok("another account on the same device never sends (or sees) someone else's answers", r.found === 0 && sent.length === 0 && !!st.getItem(STORE_PREFIX + "a@x")); }
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 
