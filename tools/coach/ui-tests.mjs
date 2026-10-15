@@ -1,5 +1,5 @@
 // Stage 3 pure UI helpers: node --experimental-strip-types tools/coach/ui-tests.mjs
-import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard } from "../../src/lib/coach/wordCheck.js";
+import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard, showsWordCard } from "../../src/lib/coach/wordCheck.js";
 import { coachT, labelKey, reasonKey, goalLabel, minutesWord } from "../../src/lib/coach/coachCopy.js";
 import { GOALS } from "../../base44/shared/coachGraph.js";
 import { DEPTHS } from "../../base44/shared/coachPlan.js";
@@ -174,6 +174,14 @@ console.log("\n=== Answer batching: <= 50 per round, one word per round, failed 
     slow.flush({ email: "e@x", entries: entries.slice(60), completed: new Set(entries.map((e) => e.key)), sessionKey: "k", newRoundId: () => `v${++m}` }),
   ]);
   ok("concurrent flushes: every round sent exactly once", a1 && a2 && seen.length === new Set(seen).size && seen.length === m, seen.join());
+}
+console.log("\n=== Weak-word card = hint (14 Oct audit) ===");
+{
+  ok("only a weak word (remediation) opens with the word card", showsWordCard("remediation") && !showsWordCard("probe") && !showsWordCard("practice") && !showsWordCard("brushup"));
+  const q0 = buildWordQuestions(target, pool, { depth: "remediation", lang: "uz", rnd })[0];
+  const hinted = evidenceItem(target, q0, q0.correct, { support: "hint" });
+  ok("answers after the card carry support: \"hint\" (server: weight x0.5, FSRS at most Good)", hinted.support === "hint" && hinted.correct === true);
+  ok("answers without the card carry no support field (unchanged contract)", !("support" in evidenceItem(target, q0, q0.correct)));
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 
