@@ -50,40 +50,132 @@ export function roundsFor(entries, { completed, sessionKey, newRoundId, max = MA
 }
 
 /**
+ * Reload recovery (15 Oct). A per-device copy of everything not yet saved, in
+ * localStorage under one key per account:
+ *   rounds   payloads that were built (round_id fixed) but not yet confirmed saved
+ *   pending  per browser tab: answers still waiting to become rounds
+ *            ({ session_key, entries, completed, touched_at })
+ * After a reload, recover() turns them back into rounds and sends them. A resent
+ * round keeps its round_id, so a round that did land is deduplicated by the server.
+ * Pending answers are claimed only by the SAME tab (sessionStorage tab id survives a
+ * reload) or once abandoned for 10 minutes, so two open tabs never send the same
+ * answers under two round_ids. Anything older than 7 days is dropped. If storage is
+ * unavailable (private mode, quota), everything still works in memory as before.
+ */
+export const STORE_PREFIX = "virora.coach.answers.v1:";
+export const ABANDONED_MS = 10 * 60 * 1000;
+export const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+export function createAnswerStore(storage, { now = () => Date.now() } = {}) {
+  const key = (email) => STORE_PREFIX + String(email || "").toLowerCase();
+  const empty = () => ({ v: 1, rounds: [], pending: {} });
+  return {
+    now,
+    read(email) {
+      try {
+        const d = JSON.parse(storage?.getItem(key(email)) || "null");
+        return d && d.v === 1 && Array.isArray(d.rounds) && d.pending && typeof d.pending === "object" ? d : empty();
+      } catch { return empty(); }
+    },
+    write(email, d) {
+      try {
+        if (!d.rounds.length && !Object.keys(d.pending).length) storage?.removeItem(key(email));
+        else storage?.setItem(key(email), JSON.stringify(d));
+      } catch { /* storage unavailable: memory only */ }
+    },
+  };
+}
+
+/**
  * One sender per page load. submit(email, payload) resolves to the server's reply,
  * or null / throws on failure (progressClient.submitEvidence returns null).
  * flush() resolves true when nothing is left unsent for that email. Flushes run one
  * after another, so `await flush()` means every answer queued so far has been tried.
- * Unsent rounds outlive the Session component (Back, Done, Keep going) but not a reload.
+ * Unsent rounds outlive the Session component (Back, Done, Keep going); with a
+ * `store` they also outlive a reload (recover()).
  */
-export function createAnswerSender(submit) {
-  const unsent = []; // { email, payload }
+export function createAnswerSender(submit, { store = null } = {}) {
+  const unsent = []; // { email, payload, at }
+  const inflight = []; // being sent right now: still persisted until confirmed
   let chain = Promise.resolve();
+  const now = () => (store ? store.now() : Date.now());
+  // The stored rounds are always exactly: in flight + unsent, for that account.
+  function persistRounds(email, mutatePending) {
+    if (!store) return;
+    const d = store.read(email);
+    d.rounds = [...inflight, ...unsent].filter((r) => r.email === email).map((r) => ({ payload: r.payload, at: r.at }));
+    if (mutatePending) mutatePending(d.pending);
+    store.write(email, d);
+  }
   async function sendAll(email) {
     const mine = [];
     for (let i = 0; i < unsent.length;) {
       if (unsent[i].email === email) mine.push(...unsent.splice(i, 1)); else i++;
     }
+    inflight.push(...mine);
     let ok = true;
     for (const r of mine) {
       let res = null;
       try { res = await submit(email, r.payload); } catch { res = null; }
+      inflight.splice(inflight.indexOf(r), 1);
       if (!res) { unsent.push(r); ok = false; }
+      persistRounds(email);
     }
     return ok;
   }
+  const run = (email) => { const p = chain.then(() => sendAll(email)); chain = p.catch(() => {}); return p; };
   return {
     // rounds: ready-made payloads (a Coach grammar round, 15 Oct) queued as-is, with
     // their own round_id, so a failed grammar save is retried exactly like word rounds.
-    flush({ email, entries = [], rounds = [], completed, sessionKey, newRoundId }) {
+    // tabId: this tab's staged answers are replaced by the rounds built from them in
+    // ONE storage write, so a reload can never see them twice or not at all.
+    flush({ email, entries = [], rounds = [], completed, sessionKey, newRoundId, tabId }) {
       if (!email) return Promise.resolve(false);
-      for (const payload of rounds) unsent.push({ email, payload });
-      if (entries.length) for (const payload of roundsFor(entries, { completed, sessionKey, newRoundId })) unsent.push({ email, payload });
-      const run = chain.then(() => sendAll(email));
-      chain = run.catch(() => {});
-      return run;
+      const at = now();
+      for (const payload of rounds) unsent.push({ email, payload, at });
+      if (entries.length) for (const payload of roundsFor(entries, { completed, sessionKey, newRoundId })) unsent.push({ email, payload, at });
+      persistRounds(email, tabId ? (pending) => { delete pending[tabId]; } : null);
+      return run(email);
     },
-    unsentCount: (email) => unsent.filter((r) => !email || r.email === email).length,
+    /** Keep this tab's not-yet-sent answers on the device (called after every answer). */
+    stage(email, tabId, { sessionKey, entries = [], completed = [] }) {
+      if (!store || !email || !tabId) return;
+      const d = store.read(email);
+      if (entries.length) d.pending[tabId] = { session_key: sessionKey, entries, completed: [...completed], touched_at: now() };
+      else delete d.pending[tabId];
+      store.write(email, d);
+    },
+    /**
+     * After a reload: requeue stored rounds (same round_id) and turn this tab's (or an
+     * abandoned tab's) staged answers into rounds, then send. { found, ok }.
+     */
+    recover(email, { tabId, newRoundId }) {
+      if (!store || !email) return Promise.resolve({ found: 0, ok: true });
+      const d = store.read(email);
+      const t = now();
+      const known = new Set([...inflight, ...unsent].map((r) => r.payload?.round_id));
+      let found = 0;
+      for (const r of d.rounds) {
+        if (!r?.payload?.round_id || known.has(r.payload.round_id) || t - (Number(r.at) || 0) > MAX_AGE_MS) continue;
+        unsent.push({ email, payload: r.payload, at: Number(r.at) || t });
+        known.add(r.payload.round_id);
+        found++;
+      }
+      const claimed = [];
+      for (const [tid, p] of Object.entries(d.pending)) {
+        const age = t - (Number(p?.touched_at) || 0);
+        if (age > MAX_AGE_MS) { claimed.push(tid); continue; } // too old: dropped
+        if (tid !== tabId && age < ABANDONED_MS) continue;       // another open tab's answers
+        claimed.push(tid);
+        for (const payload of roundsFor(p.entries || [], { completed: new Set(p.completed || []), sessionKey: p.session_key, newRoundId })) {
+          unsent.push({ email, payload, at: t });
+          found++;
+        }
+      }
+      persistRounds(email, (pending) => { for (const tid of claimed) delete pending[tid]; });
+      if (!found && !unsent.some((r) => r.email === email)) return Promise.resolve({ found: 0, ok: true });
+      return run(email).then((ok) => ({ found, ok }));
+    },
+    unsentCount: (email) => [...inflight, ...unsent].filter((r) => !email || r.email === email).length,
   };
 }
 
