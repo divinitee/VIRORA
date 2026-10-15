@@ -198,7 +198,7 @@ console.log("\n=== End of session: Done only after every answer is saved (15 Oct
   ok("both attempts fail -> \"failed\" and Done is NOT shown", c.out === "failed" && c.done === 0);
   const d = await run([new Error("offline"), new Error("offline")]);
   ok("a thrown error counts as a failed save (no crash, no Done)", d.out === "failed" && d.done === 0);
-  for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`save-error copy (${lang})`, ["save_failed", "save_failed_sub", "retry"].every((k) => t(k) && t(k) !== k)); }
+  for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`save-error copy (${lang})`, ["save_pending", "save_failed", "save_failed_sub", "retry"].every((k) => t(k) && t(k) !== k)); }
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 
