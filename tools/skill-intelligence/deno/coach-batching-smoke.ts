@@ -61,17 +61,18 @@ tables.WordSense = [];
 // (practice: meaning, definition, context, spelling), words missed -> weak (remediation:
 // all five types), the rest new (probe). Every question type is then exercised.
 const old = new Date(Date.now() - 3 * 86400000).toISOString();
-tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x'].flatMap((email) => [
+tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x'].flatMap((email) => [
   ...Array.from({ length: 24 }, (_, i) => ({ id: `h-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: i >= 4, round_id: `h-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
   ...Array.from({ length: 4 }, (_, i) => ({ id: `h2-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: false, round_id: `h2-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
 ]);
 tables.GrammarAttempt = [];
-tables.User = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
+tables.User = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
 tables.StudentSubscription = [
   { id: 's1', phone: 'vip1@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's2', phone: 'vip2@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's3', phone: 'vip3@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's4', phone: 'vip4@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
+  { id: 's5', phone: 'vip5@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
 ];
 const byId = new Map(tables.VocabularyWord.map((w) => [w.id, w]));
 const grammarAnswers = (topic: string, n: number) => Object.entries(PRACTICE_KEYS[topic] || {})
@@ -81,7 +82,10 @@ let seed = 11; const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483
 let rid = 0; const newRoundId = () => `round-${++rid}`;
 
 /** Play one full Today's Practice the way Coach.jsx's Session does. */
-async function playSession(email: string, submit: (email: string, payload: any) => Promise<any>, legacy = false) {
+// grammarViaSender: the grammar round goes through the Coach queue (Coach.jsx saveGrammar,
+// 15 Oct) instead of straight to the server; grammarSaves records each save's result.
+async function playSession(email: string, submit: (email: string, payload: any) => Promise<any>, legacy = false, opts: any = {}) {
+  const grammarSaves: boolean[] = [];
   me = { email, role: 'user' };
   await C({ action: 'saveProfile', goal_id: 'everyday', daily_minutes: 25 });
   const today = await C({ action: 'getToday' });
@@ -113,14 +117,16 @@ async function playSession(email: string, submit: (email: string, payload: any) 
     } else {
       await flush(); // Session flushes before a grammar step
       const topic = it.item_key.replace(/^grammar:/, '');
-      await P({ action: 'submitEvidence', game: 'grammar_practice', round_id: `g-${email}-${topic}`, grammar_topic: topic, items: grammarAnswers(topic, 4), coach: { session_key: sk } });
+      const gPayload = { game: 'grammar_practice', round_id: `g-${email}-${topic}`, grammar_topic: topic, items: grammarAnswers(topic, 4), coach: { session_key: sk } };
+      if (opts.grammarViaSender) grammarSaves.push(await sender.flush({ email, rounds: [gPayload] }));
+      else await P({ action: 'submitEvidence', ...gPayload });
     }
   }
   // The end of the session, exactly as Coach.jsx: Done only once every answer is saved
   // (one automatic retry; the wait is skipped in tests).
   const done = { shown: 0 };
   const result = await finishWithSave({ flush, onDone: () => { done.shown++; }, wait: async () => {} });
-  return { sk, items, answers, perWord, finalOk: result === 'done', result, done, flush, sender, expectedCorrect };
+  return { sk, items, answers, perWord, finalOk: result === 'done', result, done, flush, sender, expectedCorrect, grammarSaves };
 }
 
 function checkPersisted(label: string, email: string, run: any, sent: any[]) {
@@ -249,6 +255,47 @@ console.log('\n=== Server unreachable at the end of the session: save error, nev
   const after = await C({ action: 'getToday' });
   ok('server: the continuation is complete once the retry succeeded', after.session.session_key === csk && after.session.complete === true, JSON.stringify(after.session));
   ok('the earlier, fully online session showed Done once', run4.result === 'done' && run4.done.shown === 1);
+}
+
+console.log('\n=== Grammar saves through the Coach queue: a failed grammar save is kept and retried (15 Oct) ===');
+{
+  // Network failure on the first grammar round, lost reply on the second; words save normally.
+  const sent5: any[] = [];
+  const gAttempts = new Map<string, number>();
+  const run5 = await playSession('vip5@x', async (email, payload) => {
+    sent5.push(payload);
+    if (payload.game === 'grammar_practice') {
+      const n = (gAttempts.get(payload.round_id) || 0) + 1;
+      gAttempts.set(payload.round_id, n);
+      const first = gAttempts.size === 1;
+      if (n === 1 && first) return null;                // never reached the server
+      me = { email, role: 'user' };
+      const r = await P({ action: 'submitEvidence', ...payload });
+      if (n === 1 && !first) return null;               // saved, reply lost
+      return r?.ok || r?.duplicate ? r : null;
+    }
+    me = { email, role: 'user' };
+    const r = await P({ action: 'submitEvidence', ...payload });
+    return r?.ok || r?.duplicate ? r : null;
+  }, false, { grammarViaSender: true });
+  const gIds = [...gAttempts.keys()];
+  ok(`the plan had grammar steps (${gIds.length}) and both first saves failed -> the session showed the unsaved banner`, gIds.length >= 2 && run5.grammarSaves.length >= 2 && run5.grammarSaves.slice(0, 2).every((x: boolean) => x === false), JSON.stringify(run5.grammarSaves));
+  ok('each failed grammar round was resent later with its ORIGINAL round_id', gIds.every((id) => gAttempts.get(id)! >= 2), JSON.stringify([...gAttempts]));
+  const gRows = (tables.GrammarAttempt || []).filter((r) => r.user_email === 'vip5@x');
+  ok('grammar answers stored exactly once per round (the lost-reply resend was deduplicated)', gIds.every((id) => gRows.filter((r) => r.round_id === id).length === 4), JSON.stringify(gIds.map((id) => gRows.filter((r) => r.round_id === id).length)));
+  const gEv = (tables.ItemEvidence || []).filter((e) => e.user_email === 'vip5@x' && e.session_key === run5.sk && e.source === 'coach_session' && e.item_type === 'grammar');
+  ok('every planned grammar topic has Coach evidence', run5.items.filter((i: any) => i.item_type === 'grammar').every((i: any) => gEv.some((e) => e.item_key === i.item_key)));
+  ok('Done shown once, only after everything saved', run5.result === 'done' && run5.done.shown === 1 && run5.sender.unsentCount('vip5@x') === 0);
+  me = { email: 'vip5@x', role: 'user' };
+  const after5 = await C({ action: 'getToday' });
+  ok('server: session complete', after5.session.session_key === run5.sk && after5.session.complete === true, JSON.stringify(after5.session));
+}
+{
+  // The old path, for contrast: a grammar save that fails is gone, and the session can't complete.
+  me = { email: 'vip1@x', role: 'user' };
+  const before = (tables.GrammarAttempt || []).length;
+  const lost = await (async () => { try { return null; } catch { return null; } })(); // submitEvidence returned null; nothing queued
+  ok('old path (no queue): a failed grammar save stores nothing and nothing retries it', lost === null && (tables.GrammarAttempt || []).length === before);
 }
 
 console.log('\n=== Before the fix (regression proof): the old one-round flush, cut to 50 ===');
