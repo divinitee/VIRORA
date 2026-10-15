@@ -387,7 +387,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
     outcomes.current[key] = outcome;
     if (outcome === OUTCOME.COMPLETED && String(key).startsWith("word:")) { completedWords.current.add(key); stage(); }
     advance();
-  }, [advance]);
+  }, [advance, stage]);
 
   // Let the page send queued answers before it leaves (Back), and as a last
   // resort on unmount (navigating away). flush() empties the queue first and
