@@ -135,6 +135,7 @@ for (const lang of ["en", "uz", "ru"]) {
   await page.evaluate(() => { window.__offline = "all"; });
   await page.getByRole("button", { name: L.start }).click();
   const n1 = await answerWord(page, L);
+  await page.getByText(L.pending).first().waitFor({ timeout: 4000 }).catch(() => {});
   ok("grammar: offline -> banner after word 1", await vis(page, L.pending));
   ok("grammar: grammar step played through while offline", await finishGrammar(page, L));
   const gFails = await page.evaluate(() => window.__log.filter((e) => e.kind === "submit:fail").length);
