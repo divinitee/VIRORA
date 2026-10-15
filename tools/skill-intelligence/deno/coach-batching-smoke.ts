@@ -10,7 +10,7 @@ import { PRACTICE_KEYS } from '../../../base44/shared/grammarKeys.js';
 import { buildWordQuestions, evidenceItem, showsWordCard } from '../../../src/lib/coach/wordCheck.js';
 import { ratingFor, replayFsrs } from '../../../base44/shared/coachCore.js';
 import * as tsfsrs from 'npm:ts-fsrs@5.4.2';
-import { createAnswerSender, finishWithSave, MAX_ROUND_ITEMS } from '../../../src/lib/coach/answerBatches.js';
+import { createAnswerSender, createAnswerStore, finishWithSave, MAX_ROUND_ITEMS } from '../../../src/lib/coach/answerBatches.js';
 
 let pass = 0, fail = 0;
 const ok = (n: string, c: boolean, x = '') => { c ? pass++ : fail++; console.log(`  ${c ? 'PASS' : 'FAIL'}  ${n}${!c && x ? ' -> ' + x : ''}`); };
@@ -61,12 +61,12 @@ tables.WordSense = [];
 // (practice: meaning, definition, context, spelling), words missed -> weak (remediation:
 // all five types), the rest new (probe). Every question type is then exercised.
 const old = new Date(Date.now() - 3 * 86400000).toISOString();
-tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x', 'vip6@x'].flatMap((email) => [
+tables.WordAttempt = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x', 'vip6@x', 'vip7@x', 'vip8@x'].flatMap((email) => [
   ...Array.from({ length: 24 }, (_, i) => ({ id: `h-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: i >= 4, round_id: `h-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
   ...Array.from({ length: 4 }, (_, i) => ({ id: `h2-${email}-${i}`, user_email: email, game: 'usage', word_id: `v${i + 1}`, word: tables.VocabularyWord[i].english, correct: false, round_id: `h2-${email}`, round_at: old, verification: 'client_attested', mode: 'recognise' })),
 ]);
 tables.GrammarAttempt = [];
-tables.User = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x', 'vip6@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
+tables.User = ['vip1@x', 'vip2@x', 'vip3@x', 'vip4@x', 'vip5@x', 'vip6@x', 'vip7@x', 'vip8@x'].map((email, i) => ({ id: `u${i + 1}`, email, cefr_level: 'A2' }));
 tables.StudentSubscription = [
   { id: 's1', phone: 'vip1@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's2', phone: 'vip2@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
@@ -74,6 +74,8 @@ tables.StudentSubscription = [
   { id: 's4', phone: 'vip4@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's5', phone: 'vip5@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
   { id: 's6', phone: 'vip6@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
+  { id: 's7', phone: 'vip7@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
+  { id: 's8', phone: 'vip8@x', status: 'active', plan: 'VIP Plan', expires_at: '2027-01-31' },
 ];
 const byId = new Map(tables.VocabularyWord.map((w) => [w.id, w]));
 const grammarAnswers = (topic: string, n: number) => Object.entries(PRACTICE_KEYS[topic] || {})
@@ -299,6 +301,88 @@ console.log('\n=== Grammar saves through the Coach queue: a failed grammar save 
   me = { email: 'vip6@x', role: 'user' };
   const after6 = await C({ action: 'getToday' });
   ok('old path: Done was shown although the grammar answers were lost, and the server says the session is NOT complete (this test catches the bug)', run6.done.shown === 1 && !(tables.GrammarAttempt || []).some((r) => r.user_email === 'vip6@x') && after6.session.complete === false, JSON.stringify(after6.session));
+}
+
+console.log('\n=== Reload recovery through the real handlers (15 Oct) ===');
+{
+  const memStorage = () => { const m = new Map(); return { getItem: (k: string) => (m.has(k) ? m.get(k) : null), setItem: (k: string, v: string) => m.set(k, String(v)), removeItem: (k: string) => m.delete(k), m }; };
+  const net = { offline: false, loseReply: 0 };
+  const sentLog: any[] = [];
+  const submitR = async (email: string, payload: any) => {
+    if (net.offline) return null;
+    sentLog.push(payload); me = { email, role: 'user' };
+    const r = await P({ action: 'submitEvidence', ...payload });
+    if (net.loseReply > 0) { net.loseReply--; return null; }
+    return r?.ok || r?.duplicate ? r : null;
+  };
+  // One "page life": plays plan items in order like Coach.jsx (stage after every answer,
+  // flush before a grammar step, Done only via finishWithSave). stopAfter = number of word
+  // answers after which the page "reloads" (everything in memory is lost).
+  async function pageLife(email: string, storage: any, { stopAfter = Infinity, tab = 'tab1' } = {}) {
+    me = { email, role: 'user' };
+    const sender = createAnswerSender(submitR, { store: createAnswerStore(storage) });
+    const recovered = await sender.recover(email, { tabId: tab, newRoundId });
+    me = { email, role: 'user' };
+    const today = await C({ action: 'getToday' });
+    const sk = today.session.session_key;
+    const pending: any[] = []; const completed = new Set<string>();
+    const flush = () => sender.flush({ email, entries: pending.splice(0), completed, sessionKey: sk, newRoundId, tabId: tab });
+    const stage = () => sender.stage(email, tab, { sessionKey: sk, entries: pending, completed });
+    let answered = 0;
+    for (const it of today.plan.items) {
+      if (it.item_type === 'word') {
+        const w = byId.get(it.word_id);
+        const qs = buildWordQuestions(w, tables.VocabularyWord, { depth: it.depth, lang: 'uz', rnd });
+        for (const q of qs) {
+          pending.push({ key: it.item_key, ev: evidenceItem(w, q, q.correct, showsWordCard(it.depth) ? { support: 'hint' } : undefined) });
+          stage(); answered++;
+          if (answered >= stopAfter) return { reloaded: true, answered, sk, recovered, sender };
+        }
+        completed.add(it.item_key); stage();
+      } else {
+        await flush();
+        const topic = it.item_key.replace(/^grammar:/, '');
+        await sender.flush({ email, rounds: [{ game: 'grammar_practice', round_id: `gR-${email}-${topic}`, grammar_topic: topic, items: grammarAnswers(topic, 4), coach: { session_key: sk } }] });
+      }
+    }
+    const result = await finishWithSave({ flush, onDone: () => {}, wait: async () => {} });
+    return { reloaded: false, answered, sk, recovered, result, sender };
+  }
+  const rowsOf = (email: string) => tables.WordAttempt.filter((r) => r.user_email === email && !String(r.round_id).startsWith('h'));
+
+  // R1: reload in the middle of a word (37 answers in), online.
+  const st1 = memStorage();
+  const a1 = await pageLife('vip7@x', st1, { stopAfter: 37 });
+  const before1 = rowsOf('vip7@x').length;
+  ok(`R1: reload after ${a1.answered} answers -> some answers were only on the device`, a1.reloaded && before1 < a1.answered && st1.m.size === 1, `${before1}/${a1.answered}`);
+  const b1 = await pageLife('vip7@x', st1);               // the reloaded page plays the rest
+  ok('R1: the reloaded page recovered them first', b1.recovered.found > 0 && b1.recovered.ok);
+  const rows1 = rowsOf('vip7@x');
+  const keys1 = rows1.map((r) => `${r.round_id}|${r.word_id}`);
+  ok(`R1: every answer from both page lives stored (${a1.answered} + ${b1.answered} = ${rows1.length})`, rows1.length === a1.answered + b1.answered, `${rows1.length}`);
+  ok('R1: no answer stored twice (round_id + word unique per row group)', new Set(rows1.map((r) => r.round_id)).size === new Set(sentLog.filter((p) => p.game === 'quiz' && rows1.some((r) => r.round_id === p.round_id)).map((p) => p.round_id)).size);
+  const halfDone = sentLog.find((p) => p.game === 'quiz' && !p.coach && rows1.some((r) => r.round_id === p.round_id));
+  ok('R1: the word interrupted by the reload was sent WITHOUT Coach credit and was planned again', !!halfDone && b1.answered > 0);
+  me = { email: 'vip7@x', role: 'user' };
+  const end1 = await C({ action: 'getToday' });
+  ok('R1: server: session complete after the second page life; device copy cleared', b1.result === 'done' && end1.session.complete === true && st1.m.size === 0, JSON.stringify(end1.session));
+
+  // R2: offline at the reload; the recovery itself fails, later succeeds; one lost reply.
+  const st2 = memStorage();
+  const a2 = await pageLife('vip8@x', st2, { stopAfter: 20 });
+  net.offline = true;
+  me = { email: 'vip8@x', role: 'user' };
+  const s2 = createAnswerSender(submitR, { store: createAnswerStore(st2) });
+  const r2a = await s2.recover('vip8@x', { tabId: 'tab1', newRoundId });
+  ok('R2: reloaded while offline -> recovery fails, answers stay on the device (banner shown)', r2a.found > 0 && r2a.ok === false && st2.m.size === 1);
+  net.offline = false; net.loseReply = 1;
+  const s3 = createAnswerSender(submitR, { store: createAnswerStore(st2) }); // reloaded again, now online
+  const r2b = await s3.recover('vip8@x', { tabId: 'tab1', newRoundId });
+  ok('R2: online, first reply lost -> recovery reports not done, keeps it', r2b.ok === false && st2.m.size === 1);
+  const r2c = await s3.recover('vip8@x', { tabId: 'tab1', newRoundId });
+  ok('R2: Try again -> saved; the lost-reply round was deduplicated by its round_id', r2c.ok === true && st2.m.size === 0);
+  const rows2 = rowsOf('vip8@x');
+  ok(`R2: exactly the ${a2.answered} answers given are stored, each once`, rows2.length === a2.answered, `${rows2.length}`);
 }
 
 console.log('\n=== Before the fix (regression proof): the old one-round flush, cut to 50 ===');
