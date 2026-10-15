@@ -73,8 +73,9 @@ for (const m of [10, 15, 20]) {
 { const p = await open("start=/coach&scenario=normal");
   await onboard(p);
   await p.getByRole("button", { name: /Start/ }).click();
+  await p.getByRole("button", { name: /^Got it$/ }).click();       // weak word: word card first (since 14 Oct)
   await p.getByText("What does it mean?").waitFor();
-  await p.locator(".premium-card .grid button").first().click();   // 1 of 3 questions answered (queued, unsent)
+  await p.locator(".premium-card .grid button").first().click();   // 1 of 5 questions answered (queued, unsent)
   await p.getByRole("button", { name: "Back" }).click();
   await p.getByRole("button", { name: /Start/ }).waitFor({ timeout: 8000 });
   const L = await log(p);
@@ -93,16 +94,19 @@ for (const m of [10, 15, 20]) {
 { const p = await open("start=/coach&scenario=normal");
   await onboard(p);
   await p.getByRole("button", { name: /Start/ }).click();
-  for (let k = 0; k < 3; k++) {
-    await p.getByText(/What does it mean\?|Which English word\?/).first().waitFor();
-    await p.locator(".premium-card .grid button").first().click();
+  await p.getByRole("button", { name: /^Got it$/ }).click();       // weak word: word card, then 5 questions
+  for (let k = 0; k < 5; k++) {
+    await p.getByText(/What does it mean\?|Which English word\?|Which word matches this definition\?|Fill the gap|Type the English word/).first().waitFor();
+    const input = p.locator(".premium-card input");
+    if (await input.isVisible().catch(() => false)) { await input.fill("apple"); await p.getByRole("button", { name: /^Check$/ }).click(); }
+    else await p.locator(".premium-card .grid button").first().click();
     await p.getByRole("button", { name: /^Next$/ }).click();
   }
   await p.locator("button:has(span:text-is('A'))").first().waitFor({ timeout: 8000 });
   await p.getByRole("button", { name: "Back" }).click();
   await p.getByRole("button", { name: /Start/ }).waitFor({ timeout: 8000 });
   const subs = (await log(p)).filter((e) => e.kind === "submit:start");
-  ok("finished word -> its 3 answers sent WITH the session_key (before grammar); Back sends nothing extra", subs.length === 1 && subs[0].detail.n === 3 && subs[0].detail.session_key === "2026-10-08:today:0", JSON.stringify(subs.map((e) => e.detail)));
+  ok("finished word -> its 5 answers sent WITH the session_key (before grammar); Back sends nothing extra", subs.length === 1 && subs[0].detail.n === 5 && subs[0].detail.session_key === "2026-10-08:today:0", JSON.stringify(subs.map((e) => e.detail)));
   ok("finished word no longer in the plan; unfinished items remain", !(await vis(p, "apple")) && await vis(p, "bread"));
   await p.close(); }
 

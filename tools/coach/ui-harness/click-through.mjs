@@ -27,11 +27,17 @@ async function runSession(tag) {
     await page.waitForTimeout(150);
     if (await page.getByRole("button", { name: /Keep going/ }).isVisible().catch(() => false)) return { counts, end: "keep" };
     if (await vis("That's all the guided practice for today")) return { counts, end: "final" };
-    const wordQ = (await vis("What does it mean?")) || (await vis("Which English word?"));
+    // Word check (since 14 Oct): a weak word opens with a word card; questions are
+    // meaning / recall / definition / context (options) or spelling (typed).
+    const gotIt = page.getByRole("button", { name: /^Got it$/ });
+    if (await gotIt.isVisible().catch(() => false)) { if (counts.word === 0) await shot(`${tag}-word-card`); await gotIt.click(); continue; }
+    const wordQ = (await vis("What does it mean?")) || (await vis("Which English word?")) || (await vis("Which word matches this definition?")) || (await vis("Fill the gap")) || (await vis("Type the English word"));
     if (wordQ) {
       if (counts.word === 0) await shot(`${tag}-word`);
       try {
-        await page.locator(".premium-card .grid button").first().click({ timeout: 3000 });
+        const input = page.locator(".premium-card input");
+        if (await input.isVisible().catch(() => false)) { await input.fill("apple"); await page.getByRole("button", { name: /^Check$/ }).click({ timeout: 3000 }); }
+        else await page.locator(".premium-card .grid button").first().click({ timeout: 3000 });
         counts.word++;
         await page.getByRole("button", { name: /^Next$/ }).click({ timeout: 3000 });
       } catch { /* re-render mid-click: loop re-reads the screen */ }
@@ -54,7 +60,7 @@ async function runSession(tag) {
 }
 const s1 = await runSession("03-today");
 await shot("04-done-today");
-ok("today's session ran word + grammar + word and reached Done", s1.end === "keep" && s1.counts.word === 5 && s1.counts.grammar >= 3, JSON.stringify(s1));
+ok("today's session ran word (card + 5) + grammar + word (3) and reached Done", s1.end === "keep" && s1.counts.word === 8 && s1.counts.grammar >= 3, JSON.stringify(s1));
 let L = await log();
 const subs = L.filter((e) => e.kind === "submit:start");
 ok("3 submissions, all tagged with today's session_key (quiz, grammar, quiz)", subs.length === 3 && subs.every((e) => e.detail.session_key === "2026-10-08:today:0") && subs.map((e) => e.detail.game).join() === "quiz,grammar_practice,quiz", JSON.stringify(subs.map((e) => e.detail)));

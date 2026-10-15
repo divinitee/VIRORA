@@ -1,6 +1,7 @@
 // Save-failure UI checks (VT-40, 15 Oct) against the REAL Coach page with the mocked
 // server (serverApi.mock.js; window.__offline makes word saves fail):
-//   1. mid-session save fails before a grammar step -> banner + Try again, session goes on
+//   1. mid-session save fails before a grammar step -> banner + Try again, session goes on;
+//      Try again offline keeps the banner, back online clears it (answers saved)
 //   2. end-of-session save fails (after 1 automatic retry) -> save-error card, NO Done
 //   3. Try again while still offline -> still the error card, no Done
 //   4. back online -> Try again -> Done, every word answer saved exactly once
@@ -13,9 +14,12 @@ const results = []; const ok = (n, c, x = "") => { results.push([c, n]); console
 const browser = await chromium.launch({ executablePath: process.env.CHROME || undefined });
 const errors = [];
 const COPY = {
-  en: { go: /Make my plan/, start: /Start/, next: /^Next$/, check: /^Check$/, got: /^Got it$/, retry: "Try again", pending: "Some answers haven't saved yet", failed: "Your answers didn't save yet", done: /done|Nice work/i },
-  uz: { go: /Rejamni tuz/, start: /Boshlash|Start/, next: /^Keyingisi$/, check: /^Tekshirish$/, got: /^Tushundim$/, retry: "Qayta urinish", pending: "Ba'zi javoblar hali saqlanmadi", failed: "Javoblaringiz hali saqlanmadi", done: /zo'r|bajarildi|tugadi/i },
-  ru: { go: /Составить план/, start: /Начать|Start/, next: /^Дальше$/, check: /^Проверить$/, got: /^Понятно$/, retry: "Ещё раз", pending: "Часть ответов пока не сохранилась", failed: "Ответы пока не сохранились", done: /Отличн|готов|выполнен/i },
+  en: { go: /Make my plan/, start: /Start/, next: /^Next$/, check: /^Check$/, got: /^Got it$/, retry: "Try again", pending: "Some answers haven't saved yet", failed: "Your answers didn't save yet", keep: /^Keep going/,
+        g: { check: /^Check$/, next: /^(Next|Finish)/, done: /^Done$/ } },
+  uz: { go: /Rejamni tuz/, start: /Boshla|Start/, next: /^Keyingisi$/, check: /^Tekshirish$/, got: /^Tushundim$/, retry: "Qayta urinish", pending: "Ba'zi javoblar hali saqlanmadi", failed: "Javoblaringiz hali saqlanmadi", keep: /^Yana davom etamiz/,
+        g: { check: /^Tekshirish$/, next: /^(Keyingi|Yakunlash)/, done: /^Tayyor$/ } },
+  ru: { go: /Составить план/, start: /Начать|Start/, next: /^Дальше$/, check: /^Проверить$/, got: /^Понятно$/, retry: "Ещё раз", pending: "Часть ответов пока не сохранилась", failed: "Ответы пока не сохранились", keep: /^Продолжаем/,
+        g: { check: /^Проверить$/, next: /^(Далее|Завершить)/, done: /^Готово$/ } },
 };
 const vis = (p, t) => p.getByText(t, { exact: false }).first().isVisible().catch(() => false);
 
@@ -42,18 +46,23 @@ async function answerWord(p, L) {
   }
   return n;
 }
-async function finishGrammar(p) {
+// Plays the grammar step (PracticeRunner) until it hands back to the Coach.
+async function finishGrammar(p, L) {
   for (let k = 0; k < 40; k++) {
-    const opt = p.locator(".premium-card button").filter({ hasNotText: /^(Next|Keyingisi|Дальше|Check|Tekshirish|Проверить)$/ }).first();
-    if (await p.getByText(/Item 3 of 3|Word check|So'z|Проверка слова/).first().isVisible().catch(() => false)) return;
-    const btns = await p.locator("button").allInnerTexts();
-    const cont = btns.find((b) => /Continue|Davom|Продолж|Finish|Next|Keyingisi|Дальше|Done|Tayyor|Готово/i.test(b));
-    if (await opt.isVisible().catch(() => false)) await opt.click().catch(() => {});
-    if (cont) await p.getByRole("button", { name: cont }).first().click().catch(() => {});
     await p.waitForTimeout(150);
-    const items = await p.evaluate(() => (window.__state.done["2026-10-08:today:0"] || new Set()).size);
-    if (items >= 2) return;
+    const optA = p.locator("button:has(span:text-is('A'))").first(); // grammar options carry A/B/C/D badges
+    const grammarOnScreen = await optA.isVisible().catch(() => false) || await p.getByRole("button", { name: L.g.done }).isVisible().catch(() => false);
+    if (!grammarOnScreen && await p.locator(".premium-card .grid button, .premium-card input").first().isVisible().catch(() => false)) return true; // next word on screen
+    if (await optA.isVisible().catch(() => false) && await optA.isEnabled().catch(() => false)) {
+      await optA.click();
+      await p.getByRole("button", { name: L.g.check }).click();
+      await p.getByRole("button", { name: L.g.next }).first().click();
+      continue;
+    }
+    const done = p.getByRole("button", { name: L.g.done });
+    if (await done.isVisible().catch(() => false)) { await done.click(); continue; }
   }
+  return false;
 }
 
 for (const lang of ["en", "uz", "ru"]) {
@@ -76,22 +85,27 @@ for (const lang of ["en", "uz", "ru"]) {
   await page.getByRole("button", { name: L.retry }).click();
   await page.waitForTimeout(900);
   ok(`${lang}: Try again while offline -> banner stays`, await vis(page, L.pending));
+  await page.evaluate(() => { window.__offline = false; });
+  await page.getByRole("button", { name: L.retry }).click();
+  await page.waitForTimeout(1200);
+  ok(`${lang}: back online, Try again on the banner -> word 1 saved, banner gone`, !(await vis(page, L.pending)) && await page.evaluate(() => window.__state.done["2026-10-08:today:0"]?.has("word:v1:0")));
+  await page.evaluate(() => { window.__offline = true; });
 
   // 2) grammar, then word 2, then the end-of-session save fails twice.
-  await finishGrammar(page);
+  ok(`${lang}: grammar step played through`, await finishGrammar(page, L));
   const n2 = await answerWord(page, L);
   await page.getByText(L.failed).first().waitFor({ timeout: 8000 }).catch(() => {});
   await page.screenshot({ path: `${OUT}/${lang}-2-save-error-card.png`, fullPage: true });
   const fails = await page.evaluate(() => window.__log.filter((e) => e.kind === "submit:fail").length);
-  ok(`${lang}: end of session, saves fail -> error card, NOT Done`, await vis(page, L.failed) && !(await vis(page, L.done)), `answers ${n1}+${n2}, fails ${fails}`);
+  ok(`${lang}: end of session, saves fail -> error card, NOT Done`, await vis(page, L.failed) && !(await page.getByRole("button", { name: L.keep }).isVisible().catch(() => false)), `answers ${n1}+${n2}, fails ${fails}`);
   ok(`${lang}: banner hidden behind the card (one message at a time)`, !(await vis(page, L.pending)));
 
   // 3) Try again offline -> still the card; the button is disabled while it works.
   const btn = page.getByRole("button", { name: L.retry });
   await btn.click();
   const disabledWhileTrying = await btn.isDisabled().catch(() => false);
-  await page.waitForTimeout(2600);
-  ok(`${lang}: Try again offline -> still the error card, no Done (button disabled while trying: ${disabledWhileTrying})`, await vis(page, L.failed) && !(await vis(page, L.done)));
+  for (let w = 0; w < 50 && await btn.isDisabled().catch(() => true); w++) await page.waitForTimeout(200); // wait for the retry to finish
+  ok(`${lang}: Try again offline -> still the error card, no Done; button disabled while trying`, disabledWhileTrying && await vis(page, L.failed) && !(await page.getByRole("button", { name: L.keep }).isVisible().catch(() => false)));
 
   // 4) Back online -> Try again -> Done; every word answer saved exactly once.
   await page.evaluate(() => { window.__offline = false; });
@@ -104,7 +118,7 @@ for (const lang of ["en", "uz", "ru"]) {
   }));
   const ids = S.quiz.map((q) => q.id);
   const saved = S.quiz.reduce((s, q) => s + q.n, 0);
-  ok(`${lang}: back online -> Done screen`, !(await vis(page, L.failed)) && (await vis(page, L.done) || await page.getByRole("button", { name: /Keep going|Davom|Продолж/ }).isVisible().catch(() => false)));
+  ok(`${lang}: back online -> Done screen (with Keep going)`, !(await vis(page, L.failed)) && await page.getByRole("button", { name: L.keep }).isVisible().catch(() => false));
   ok(`${lang}: every word answer saved, each round once (${saved} answers in ${ids.length} rounds)`, saved === n1 + n2 && new Set(ids).size === ids.length && S.quiz.every((q) => q.key === "2026-10-08:today:0"), JSON.stringify(S.quiz));
   ok(`${lang}: server marks all 3 items done`, S.done.length === 3, S.done.join());
   await page.close();
