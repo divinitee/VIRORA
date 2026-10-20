@@ -80,7 +80,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ geese · gooses · geeses · goose  
    why: goose has an irregular plural: one goose, two geese. Don't add -s.
 
-20. **Malika**'s grandma has ten ______ and five **hens**.  
+20. **Aziz**'s grandma has ten ______ and five **goats**.  
    options: ✔ geese · gooses · geeses · goose  
    why: goose has an irregular plural: one goose, two geese. Don't add -s.
 
@@ -249,31 +249,31 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: child has an irregular plural: one child, two children. Don't add -s.
 
 11. _Answer the question. Use the noun and the number in brackets._  
-   How many are in your **class**, **Malika**? (person, 12)  
+   (person, 12) How many are in your **class**, **Malika**?  
    → There are twelve ______ in my **class**.  
    key: people  
    why: person has an irregular plural: one person, two people. Don't add -s.
 
 12. _Answer the question. Use the noun and the number in brackets._  
-   How many are on the farm in **the mountains**, **Olga**? (sheep, 30)  
+   (sheep, 30) How many are on the farm in **the mountains**, **Olga**?  
    → There are thirty ______ on the farm in **the mountains**.  
    key: sheep  
    why: Sheep does not change: one sheep, two sheep. Never add -s.
 
 13. _Answer the question. Use the noun and the number in brackets._  
-   How many are in your **team**, **Aziz**? (man, 6)  
+   (man, 6) How many are in your **team**, **Aziz**?  
    → There are six ______ in my **team**.  
    key: men  
    why: man has an irregular plural: one man, two men. Don't add -s.
 
 14. _Answer the question. Use the noun and the number in brackets._  
-   How many are at the **clinic** in **Fergana**? (woman, 4)  
+   (woman, 4) How many are at the **clinic** in **Fergana**?  
    → There are four ______ at the **clinic**.  
    key: women  
    why: woman has an irregular plural: one woman, two women. Don't add -s.
 
 15. _Answer the question. Use the noun and the number in brackets._  
-   How many does **Timur**'s aunt in **Termez** have? (child, 2)  
+   (child, 2) How many does **Timur**'s aunt in **Termez** have?  
    → She has two ______.  
    key: children  
    why: child has an irregular plural: one child, two children. Don't add -s.

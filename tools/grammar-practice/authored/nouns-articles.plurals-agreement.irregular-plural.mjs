@@ -46,18 +46,14 @@ const ROWS = [
   ["tooth", "{name}'s little {who} has six new ______.", { name: NAME, who: ["brother", "sister", "cousin", "son"] }],
   ["tooth", "The dentist checked all my ______ at the {place} on {day}.", { place: ["clinic", "hospital", "centre", "dentist's"], day: ["Monday", "Friday", "Tuesday", "Saturday"] }],
   ["foot", "My ______ are cold after the {activity}, {name}.", { activity: ["walk", "game", "run", "swim"], name: NAME }],
-  ["foot", "Wash your hands and ______ before {meal}, {name}.", { meal: ["dinner", "bed", "lunch", "prayer time"].slice(0, 3).concat(["sleep"]), name: NAME }],
+  ["foot", "Wash your hands and ______ before {meal}, {name}.", { meal: ["dinner", "bed", "lunch", "sleep"], name: NAME }],
   ["mouse", "There are two ______ in {name}'s {place}!", { name: NAME, place: ["kitchen", "garage", "cupboard", "barn"] }],
   ["mouse", "Our cat caught three ______ in the {place} last {time}.", { place: ["garden", "yard", "garage", "kitchen"], time: ["week", "night", "month", "Sunday"] }],
   ["sheep", "{who} has fifty ______ on the farm near {city}.", { who: ["My grandfather", "My uncle", "Our neighbour", "Aziz's father"], city: ["Jizzakh", "Nurata", "Karshi", "Navoi"] }],
   ["sheep", "We saw many ______ on the road to {city} with {name}.", { city: ["Jizzakh", "Nurata", "Karshi", "Navoi"], name: NAME }],
   ["goose", "There are six ______ near the {place} in {where}.", { place: ["lake", "river", "pond", "farm"], where: ["our village", "the park", "Chimgan", "the zoo"] }],
-  ["goose", "Grandma has ten ______ and five {animals}.", { animals: ["hens", "ducks", "rabbits", "goats"] }],
+  ["goose", "{name}'s grandma has ten ______ and five {animals}.", { name: NAME, animals: ["hens", "ducks", "rabbits", "goats"] }],
 ];
-// foot row 2 has only 4 meal fillers either way; keep the list explicit and simple
-ROWS[13][2].meal = ["dinner", "bed", "lunch", "sleep"];
-ROWS[19][2].name = NAME;
-ROWS[19][1] = "{name}'s grandma has ten ______ and five {animals}.";
 
 const CHOOSE = ROWS.map(([n, prompt, slots]) => ({ ...BASE, stage: "choose", format: "mcq", prompt, options: OPTS[n], key: 0, why: why(n), slots }));
 const BUILD = ROWS.map(([n, s, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: "Write the plural of the word in brackets.",
@@ -81,11 +77,11 @@ const TRANSFORM = [
   [T_FIX, "sheep", "{who} has twenty sheeps near {city}.", "{who} has twenty ______ near {city}.", { who: ["My grandfather", "My uncle", "Our neighbour", "Aziz's father"], city: ["Jizzakh", "Nurata", "Karshi", "Navoi"] }],
   [T_FIX, "child", "The childrens are in the {place} with {name}.", "The ______ are in the {place} with {name}.", { place: ["yard", "park", "garden", "kitchen"], name: NAME }],
   // kind 3: answer with the noun and number in brackets
-  [T_ANS, "person", "How many are in your {group}, {name}? (person, 12)", "There are twelve ______ in my {group}.", { group: ["class", "group", "team", "family"], name: NAME }],
-  [T_ANS, "sheep", "How many are on the farm in {where}, {name}? (sheep, 30)", "There are thirty ______ on the farm in {where}.", { where: ["Nurata", "the village", "Jizzakh", "the mountains"], name: NAME }],
-  [T_ANS, "man", "How many are in your {team}, {name}? (man, 6)", "There are six ______ in my {team}.", { team: ["team", "office", "band", "group"], name: NAME }],
-  [T_ANS, "woman", "How many are at the {place} in {city}? (woman, 4)", "There are four ______ at the {place}.", { place: ["bus stop", "station", "clinic", "bank"], city: CITY }],
-  [T_ANS, "child", "How many does {name}'s aunt in {city} have? (child, 2)", "She has two ______.", { name: NAME, city: CITY }],
+  [T_ANS, "person", "(person, 12) How many are in your {group}, {name}?", "There are twelve ______ in my {group}.", { group: ["class", "group", "team", "family"], name: NAME }],
+  [T_ANS, "sheep", "(sheep, 30) How many are on the farm in {where}, {name}?", "There are thirty ______ on the farm in {where}.", { where: ["Nurata", "the village", "Jizzakh", "the mountains"], name: NAME }],
+  [T_ANS, "man", "(man, 6) How many are in your {team}, {name}?", "There are six ______ in my {team}.", { team: ["team", "office", "band", "group"], name: NAME }],
+  [T_ANS, "woman", "(woman, 4) How many are at the {place} in {city}?", "There are four ______ at the {place}.", { place: ["bus stop", "station", "clinic", "bank"], city: CITY }],
+  [T_ANS, "child", "(child, 2) How many does {name}'s aunt in {city} have?", "She has two ______.", { name: NAME, city: CITY }],
 ].map(([instr, n, source, hint, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key: PL[n], why: why(n), slots }));
 
 /* ---------------- create: 8 ---------------- */

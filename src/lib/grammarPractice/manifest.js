@@ -44,6 +44,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "nouns-articles.countability.partitive": {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "partitive",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.plurals-agreement.es-plural": {
   "domain": "nouns-articles",
   "branch": "plurals-agreement",
@@ -62,6 +76,20 @@ export const PRACTICE_MANIFEST = {
   "domain": "nouns-articles",
   "branch": "plurals-agreement",
   "topic": "irregular-plural",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.plurals-agreement.y-ies-plural": {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "y-ies-plural",
   "level": "A1",
   "authored": 68,
   "stages": {

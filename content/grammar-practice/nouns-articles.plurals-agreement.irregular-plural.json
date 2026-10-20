@@ -625,17 +625,17 @@
   "key": 0,
   "why": "goose has an irregular plural: one goose, two geese. Don't add -s.",
   "slots": {
-   "animals": [
-    "hens",
-    "ducks",
-    "rabbits",
-    "goats"
-   ],
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Malika"
+   ],
+   "animals": [
+    "hens",
+    "ducks",
+    "rabbits",
+    "goats"
    ]
   }
  },
@@ -1165,17 +1165,17 @@
   "key": "geese",
   "why": "goose has an irregular plural: one goose, two geese. Don't add -s.",
   "slots": {
-   "animals": [
-    "hens",
-    "ducks",
-    "rabbits",
-    "goats"
-   ],
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Malika"
+   ],
+   "animals": [
+    "hens",
+    "ducks",
+    "rabbits",
+    "goats"
    ]
   }
  },
@@ -1468,7 +1468,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question. Use the noun and the number in brackets.",
-  "source": "How many are in your {group}, {name}? (person, 12)",
+  "source": "(person, 12) How many are in your {group}, {name}?",
   "hint": "There are twelve ______ in my {group}.",
   "key": "people",
   "why": "person has an irregular plural: one person, two people. Don't add -s.",
@@ -1496,7 +1496,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question. Use the noun and the number in brackets.",
-  "source": "How many are on the farm in {where}, {name}? (sheep, 30)",
+  "source": "(sheep, 30) How many are on the farm in {where}, {name}?",
   "hint": "There are thirty ______ on the farm in {where}.",
   "key": "sheep",
   "why": "Sheep does not change: one sheep, two sheep. Never add -s.",
@@ -1524,7 +1524,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question. Use the noun and the number in brackets.",
-  "source": "How many are in your {team}, {name}? (man, 6)",
+  "source": "(man, 6) How many are in your {team}, {name}?",
   "hint": "There are six ______ in my {team}.",
   "key": "men",
   "why": "man has an irregular plural: one man, two men. Don't add -s.",
@@ -1552,7 +1552,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question. Use the noun and the number in brackets.",
-  "source": "How many are at the {place} in {city}? (woman, 4)",
+  "source": "(woman, 4) How many are at the {place} in {city}?",
   "hint": "There are four ______ at the {place}.",
   "key": "women",
   "why": "woman has an irregular plural: one woman, two women. Don't add -s.",
@@ -1580,7 +1580,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question. Use the noun and the number in brackets.",
-  "source": "How many does {name}'s aunt in {city} have? (child, 2)",
+  "source": "(child, 2) How many does {name}'s aunt in {city} have?",
   "hint": "She has two ______.",
   "key": "children",
   "why": "child has an irregular plural: one child, two children. Don't add -s.",
