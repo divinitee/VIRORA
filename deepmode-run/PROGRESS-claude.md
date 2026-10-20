@@ -41,3 +41,4 @@
 | 131 | 10 | 3 of 10 maps: false affix 1 (decisive -ive), compound 2 (defendant, gate mistake) | pass gate-4.4 | gated, not imported | debt 2 rows merged; defendant kept via gate_overrides (-ant suffix, not compound) in defend+defense; definite/definitely not_family of define |
 | 135 | 10 | 3 of 10 maps: missing form 2 (drive, eligible -> not_family), bad synonym 1 (well-organized) | pass gate-4.4 | gated, not imported | drift adrift adj + drifter other_meaning; drippy other_meaning; elective other_meaning |
 | 133 | 10 | 2 of 10 maps: bad synonym 1 (hard-working -> hardworking), wrong POS 1 (dismissively other_meaning adv) | pass gate-4.4 | gated, not imported | dismissively kept via gate_overrides (OALD/Cambridge list it, WordNet lacks it); 8 flags for reviewer |
+| 137 | 10 | 1 of 10 maps: missing form 1 (equator verb -> not_family equal/equate) | pass gate-4.4 | gated, not imported | 11 flags for reviewer |
