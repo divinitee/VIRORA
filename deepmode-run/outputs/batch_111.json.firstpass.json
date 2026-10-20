@@ -1,0 +1,275 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "supply",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'supper' (zipf 3.7) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "supplies",
+       "supply"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "supplied"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two corpus rows with the same meaning merged (lowest CEFR B1). Supplier (y to i + -er) kept in People & things; supple is not family."
+  },
+  {
+   "headword": "surprised at",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "kind_hint was phrasal; corrected to phrase (adjective + preposition, not verb + particle)."
+  },
+  {
+   "headword": "suspicious",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [
+    {
+     "cat": "bad synonym",
+     "msg": "suspiciously → 'distrustfully' is not a real word/phrase"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "suspect: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "suspicious: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "suspiciously: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "suspicions",
+       "suspicion"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "suspected"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "suspect (noun, a person) not added to People & things because suspect already appears as the verb form; mentioned in its note. No -ous affix claimed (suspici- is not a word)."
+  },
+  {
+   "headword": "swear",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "bad synonym",
+     "msg": "swearing → 'cursing' is not a noun (form is a noun)"
+    }
+   ],
+   "flags": [],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "swore"
+      ],
+      "VBN": [
+       "sworn"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "swear has two corpus meanings; this map is rude language, the promise row has its own map. Compound swear word left out."
+  },
+  {
+   "headword": "swear",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "swore"
+      ],
+      "VBN": [
+       "sworn"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "CORPUS: this row's definition mixes both meanings; its example is the promise meaning, so the map follows promise. Rude-language meaning has its own map (row 6a42816a...)."
+  },
+  {
+   "headword": "swift",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [
+    {
+     "cat": "bad definition",
+     "msg": "adverb definition too short"
+    }
+   ],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "swiftness"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "swifter"
+      ],
+      "JJS": [
+       "swiftest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "swift is also a bird (noun); left out as a separate word, not part of the 'fast' family for learners."
+  },
+  {
+   "headword": "switch",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: switchable. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "switches"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "switched"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun switch = change shown as conversion; device meaning only noted. Compound switchboard left out."
+  },
+  {
+   "headword": "symphony",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: symphonize"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "symphonic: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "symphonies"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No -ic affix claimed: symphonic replaces the -y, and symphon- is not a word. Symphony orchestra is a compound, left out."
+  },
+  {
+   "headword": "take back",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Other meanings of take back (say you were wrong about something you said; remind of the past) are not this map."
+  },
+  {
+   "headword": "talented at",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed adjective + preposition pattern; no forms."
+  },
+  {
+   "headword": "tax",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "taxes",
+       "tax"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "taxed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two corpus rows with the same meaning merged. taxing (tiring) shown as other_meaning false friend. Compounds taxpayer, taxman, tax-free (only as antonym) not shown as forms."
+  }
+ ]
+}
