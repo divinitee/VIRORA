@@ -240,6 +240,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "questions-negation.yes-no.be-vs-do": {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "be-vs-do",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.future.going-to-evidence": {
   "domain": "tenses",
   "branch": "future",

@@ -40,7 +40,7 @@
 39	B	nouns-articles.quantifiers.no-vs-any	A2	1	live	no with an affirmative verb vs any with a negative
 40	B	nouns-articles.possession.plural-possessive	A2	1	live	Plural possessive: apostrophe after the -s
 41	B	nouns-articles.possession.possessive-s	A2	1	live	Possessive 's on a singular name
-42	B	questions-negation.yes-no.be-vs-do	A1	2	todo	be-questions invert directly; no 'do' | Does + have (have is a main verb here)
+42	B	questions-negation.yes-no.be-vs-do	A1	2	live	be-questions invert directly; no 'do' | Does + have (have is a main verb here)
 43	B	questions-negation.yes-no.do-does	A1	3	todo	Do with you in present simple questions | Does with third person singular | Auxiliary + subject + base verb order
 44	B	questions-negation.yes-no.progressive-question	A1	1	todo	Are + subject + -ing
 45	B	questions-negation.wh-questions.progressive-wh	A1	1	todo	What + are + you + doing
