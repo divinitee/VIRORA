@@ -29,6 +29,8 @@ Rules: grammar-run/HANDOFF.md. One row per topic, in worklist order.
 
 Wave B turn 2 (Oct 20): rule 13 checker run on all 5 topics (1 hit, fine).
 
+Batch B2 audit (Claude, Oct 20): suites green, keys in sync (19 topics), checker clean. Read all ~250 multi-slot items, no defects. experience-ever teaches have + past participle explicitly (two-blank keys), which the course audit asked for. Approved. New rule 14 (topic scope notes) added for upcoming topics.
+
 Wave B turn 1 (Oct 20): build passes, lint passes, all suites green after each topic, keys in sync (14 topics).
 
 Batch B1 audit (Claude, Oct 20): suites green, keys in sync, build + lint pass. Read every multi-slot item; 2 singular/plural slot bugs fixed and re-run (irregular-past: glasses + "dropped it"; simple-negative: vegetables + "it was"). New rule 13 + grammar-run/check_slot_agreement.mjs. Distractor notes in rows 12–16 are good, keep doing that.
