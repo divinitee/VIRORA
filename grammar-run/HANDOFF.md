@@ -135,6 +135,12 @@ Use only these formats. `word_order`, `error_identification` and
     won't/will not, can't/cannot, I'm/I am, etc.). `'s` and `'d` are not: add
     the full form to the item's `acceptable` array yourself.
 11. **No zero-article typed keys** ("–"). Test "no article" only in choose.
+12. **Every slot combination must make sense.** Slots expand independently, so
+    4 × 4 fillers make 16 sentences and every one is shown to a student. Read
+    each multi-slot item as "worst pairing" before you run it. From the pilot
+    (Oct 20): "I need a new **bag**. My old one is **too slow**" and "Turn off
+    the **radio**. My grandfather hates loud **videos**." If two slots depend on
+    each other, make every filler fit every other filler, or cut a slot.
 
 **Content:** everyday life for young people in Uzbekistan (study, work, family,
 phone, food, transport, sport, weather, shopping, travel). Mix Uzbek, Russian and
