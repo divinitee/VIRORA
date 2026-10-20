@@ -9,9 +9,20 @@ import GoogleIcon from "@/components/GoogleIcon";
 import { useAppLang } from "@/hooks/useAppLang";
 import { safeReturnTo } from "@/lib/authReturnTo";
 import BetaBadge from "@/components/BetaBadge";
+import InAppBrowserNotice from "@/components/InAppBrowserNotice";
+import EmailTypoHint from "@/components/EmailTypoHint";
+import { friendlyAuthError } from "@/lib/authHelpers";
+
+// Google is the main path now: no password or email code to lose, and if a
+// phone wipes the saved login, getting back in is one tap.
+const GOOGLE_HINT = {
+  uz: "Eng oson yo'l — parol eslab qolish shart emas",
+  en: "Easiest way — no password to remember",
+  ru: "Самый простой способ — пароль не нужен",
+};
 
 export default function Login() {
-  const { t } = useAppLang();
+  const { t, lang } = useAppLang();
   const [role, setRole] = useState("student"); // "student" | "teacher"
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -23,10 +34,10 @@ export default function Login() {
     setError("");
     setLoading(true);
     try {
-      await base44.auth.loginViaEmailPassword(email, password);
+      await base44.auth.loginViaEmailPassword(email.trim(), password);
       window.location.href = safeReturnTo();
     } catch (err) {
-      setError(err.message || t("login.failed"));
+      setError(friendlyAuthError(err, lang, t("login.failed")));
     } finally {
       setLoading(false);
     }
@@ -50,6 +61,8 @@ export default function Login() {
           </div>
           <p className="text-sm text-muted-foreground mt-1">{t("login.subtitle")}</p>
         </div>
+
+        <InAppBrowserNotice className="mb-5" />
 
         {/* Role tabs */}
         <div className="grid grid-cols-2 gap-2 mb-6 bg-muted p-1 rounded-2xl">
@@ -91,13 +104,13 @@ export default function Login() {
           )}
 
           <Button
-            variant="outline"
-            className="w-full h-11 text-sm font-medium mb-5"
+            className="w-full h-12 text-base font-semibold"
             onClick={handleGoogle}
           >
-            <GoogleIcon className="w-5 h-5 mr-2" />
+            <span className="mr-2 inline-flex rounded-full bg-white p-0.5"><GoogleIcon className="w-5 h-5" /></span>
             {t("login.google")}
           </Button>
+          <p className="text-center text-xs text-muted-foreground mt-2 mb-5">{GOOGLE_HINT[lang] || GOOGLE_HINT.uz}</p>
 
           <div className="relative mb-5">
             <div className="absolute inset-0 flex items-center">
@@ -131,6 +144,7 @@ export default function Login() {
                   required
                 />
               </div>
+              <EmailTypoHint email={email} onFix={setEmail} />
             </div>
             <div className="space-y-2">
               <div className="flex items-center justify-between">
@@ -153,7 +167,7 @@ export default function Login() {
                 />
               </div>
             </div>
-            <Button type="submit" className="w-full h-11 font-semibold" disabled={loading}>
+            <Button type="submit" variant="secondary" className="w-full h-11 font-semibold" disabled={loading}>
               {loading ? (
                 <><Loader2 className="w-4 h-4 mr-2 animate-spin" />{t("login.submitting")}</>
               ) : t("login.submit")}
