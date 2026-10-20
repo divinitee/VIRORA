@@ -1,220 +1,1295 @@
 [
-{"headword": "state", "word_id": "6a6ef83f0f1e82a5a073668c", "word_ids": ["6a6ef83f0f1e82a5a073668c"], "cefr": "B1", "kind": "word", "sense_label": "Condition", "sense_pos": "noun", "corpus_definition": "The way someone or something is at a particular time.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "state", "relation": "base", "definition": "the condition that someone or something is in at a particular time", "example": "The house was in a bad state after the winter.",
-   "syn": [{"to": "condition", "relation": "synonym", "strength": 0.95, "note": "Very close: 'in good condition' and 'in a good state' mean the same."},
-           {"to": "shape", "relation": "related", "strength": 0.6, "note": "Informal, mostly in 'in good/bad shape', about health or how well something works."},
-           {"to": "situation", "relation": "related", "strength": 0.6, "note": "Situation is about everything happening around you, not one person or thing."},
-           {"to": "mood", "relation": "related", "strength": 0.4, "note": "Only about feelings: 'a state of shock' is close to a bad mood or feeling."}],
-   "ant": []},
-  {"slot": "noun", "status": "other_meaning", "form": "statement", "definition": "something that you say or write in an official way", "example": "The minister made a short statement to the press.", "note": "Belongs to state = say something formally, not the condition of something."},
-  {"slot": "verb", "status": "other_meaning", "form": "state", "definition": "to say or write something clearly and formally", "example": "Please state your name and address.", "note": "Belongs to state = say formally, not the condition of something."},
-  {"slot": "adjective", "status": "other_meaning", "form": "stately", "definition": "impressive, large and beautiful in an old, formal way", "example": "They walked past a stately old palace in Bukhara.", "note": "Belongs to state = grand ceremony and importance, not the condition of something."},
-  {"slot": "adverb", "status": "no_form", "note": "No adverb in this family."}
- ],
- "people": [],
- "affixes": [],
- "context": {"text": "The old house in Bukhara was in a terrible state when we bought it. After a year of repairs, it is in a much better state now.", "uses": ["state"]},
- "reviewer_note": "Kept the condition sense; statement, stately and the verb state belong to other meanings. Statesman left out as a compound."},
-
-{"headword": "stay up", "word_id": "6a42821646ba24054c1dccb7", "word_ids": ["6a42821646ba24054c1dccb7"], "cefr": "B1", "kind": "phrasal", "sense_label": "Late night", "sense_pos": "verb", "corpus_definition": "To go to bed later than usual.",
- "particle_note": "Not separable and has no object: 'stay up late', 'stay up all night'. Often followed by -ing: 'stay up watching TV'.",
- "relations": [{"to": "sit up", "relation": "synonym", "strength": 0.8, "note": "Mostly British and a little old-fashioned: 'We sat up talking till midnight.'"},
-               {"to": "wait up", "relation": "related", "strength": 0.6, "note": "You stay up because you are waiting for someone to come home."},
-               {"to": "go to bed", "relation": "antonym", "note": "The normal thing you do at night instead of staying awake."}],
- "context": {"text": "Before the exam, Jasur stayed up all night reading his notes. His mother told him not to stay up so late again.", "uses": ["stayed up", "stay up"]},
- "reviewer_note": "Intransitive phrasal verb; no object, so no separable pattern."},
-
-{"headword": "steep", "word_id": "6a6ef9b2a6015561480926a4", "word_ids": ["6a6ef9b2a6015561480926a4"], "cefr": "B1", "kind": "word", "sense_label": "Slope", "sense_pos": "adjective", "corpus_definition": "Having a sharp angle, making it hard to go up or down.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "steepness", "relation": "derivational", "definition": "how sharply a hill, road or path goes up or down", "example": "The steepness of the road made the climb very slow.",
-   "syn": [{"to": "slope", "relation": "related", "strength": 0.4, "note": "A slope is the surface that goes up or down; steepness is how sharp it is."},
-           {"to": "gradient", "relation": "related", "strength": 0.6, "note": "Technical word for how much a road or hill goes up or down."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "steepen", "relation": "derivational", "definition": "to become sharper in angle, going up or down more quickly", "example": "After the bridge, the path steepens and gets rocky.",
-   "syn": [], "ant": [{"to": "level out", "relation": "antonym", "note": "When a road levels out, it becomes flat."}]},
-  {"slot": "adjective", "status": "existing", "form": "steep", "relation": "base", "definition": "going up or down at a sharp angle, so hard to climb", "example": "The path to the top was very steep.", "note": "Informally it can also mean too expensive: 'steep prices'.",
-   "syn": [{"to": "sheer", "relation": "synonym", "strength": 0.8, "note": "Even stronger: almost straight up and down, like a cliff."},
-           {"to": "sharp", "relation": "related", "strength": 0.6, "note": "Easy word: a sharp rise or fall happens suddenly."},
-           {"to": "abrupt", "relation": "related", "strength": 0.4, "note": "Formal; about a sudden change, often in a slope."}],
-   "ant": [{"to": "gentle", "relation": "antonym", "note": "A gentle slope goes up slowly and is easy to walk."},
-           {"to": "gradual", "relation": "antonym", "note": "Going up or down slowly, a little at a time."},
-           {"to": "flat", "relation": "antonym", "note": "With no slope at all."}]},
-  {"slot": "adverb", "status": "existing", "form": "steeply", "relation": "derivational", "definition": "at a sharp angle, going up or down quickly", "example": "The road climbs steeply into the mountains.", "note": "Also used for numbers: 'Prices rose steeply.'",
-   "syn": [{"to": "sharply", "relation": "synonym", "strength": 0.8, "note": "Very close, and common for prices and numbers too."}],
-   "ant": [{"to": "gently", "relation": "antonym", "note": "Going up or down slowly and easily."},
-           {"to": "gradually", "relation": "antonym", "note": "Slowly, a little at a time."}]}
- ],
- "people": [],
- "affixes": [{"affix": "-ness", "in_form": "steepness", "meaning_key": "-ness", "also": ["kindness", "darkness", "sadness"]},
-             {"affix": "-ly", "in_form": "steeply", "meaning_key": "-ly", "also": ["quickly", "slowly", "sadly"]}],
- "context": {"text": "The road to the mountain village near Chimgan is very steep. Our old car climbed steeply and slowly, and the steepness scared my little sister.", "uses": ["steep", "steeply", "steepness"]},
- "reviewer_note": "The verb steep (to soak tea in water) is a different word, not this family, so it is not listed."},
-
-{"headword": "sting", "word_id": "6a6ef9b2a60155614809284c", "word_ids": ["6a6ef9b2a60155614809284c"], "cefr": "B1", "kind": "word", "sense_label": "Insect", "sense_pos": "verb", "corpus_definition": "to cause a sharp burning pain; a wound from an insect's needle",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "sting", "relation": "conversion", "definition": "a painful wound made when a bee or other insect pushes its needle into you", "example": "The bee sting on his arm was red and painful.",
-   "syn": [{"to": "bite", "relation": "related", "strength": 0.6, "note": "Mosquitoes bite with their mouth; bees and wasps sting with a needle."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "sting", "relation": "base", "definition": "to push a sharp needle into skin and cause sharp, burning pain", "example": "A bee stung him on the arm.", "note": "Irregular: sting, stung, stung. Also used for smoke or soap: 'My eyes are stinging.'",
-   "syn": [{"to": "bite", "relation": "related", "strength": 0.6, "note": "Bite is done with the mouth; sting is done with a needle."},
-           {"to": "burn", "relation": "related", "strength": 0.6, "note": "Easy word for the hot pain: 'The soap burns my eyes.'"},
-           {"to": "hurt", "relation": "related", "strength": 0.4, "note": "General word for any pain."},
-           {"to": "prick", "relation": "related", "strength": 0.6, "note": "To make a very small hole with something sharp."}],
-   "ant": []},
-  {"slot": "adjective", "status": "existing", "form": "stinging", "relation": "participial", "definition": "causing a sharp, burning pain", "example": "She felt a stinging pain in her hand.",
-   "syn": [{"to": "burning", "relation": "synonym", "strength": 0.8, "note": "Very close: a hot, sharp pain."},
-           {"to": "sharp", "relation": "related", "strength": 0.6, "note": "Easy word for sudden, strong pain."},
-           {"to": "painful", "relation": "related", "strength": 0.6, "note": "General word; stinging describes the kind of pain."}],
-   "ant": []},
-  {"slot": "adverb", "status": "no_form", "note": "Stingingly exists but is very rare; people say 'with a stinging pain'."}
- ],
- "people": [{"form": "stinger", "kind": "thing", "status": "existing", "definition": "the sharp, needle-like part of a bee or wasp", "example": "The bee left its stinger in my finger.", "note": "Mostly American; British English often just says 'sting'."}],
- "affixes": [{"affix": "-ing", "in_form": "stinging", "meaning_key": "-ing", "also": ["boring", "exciting", "interesting"]},
-             {"affix": "-er", "in_form": "stinger", "meaning_key": "-er", "also": ["printer", "heater", "cooker"]}],
- "context": {"text": "A bee stung my little brother in our garden in Fergana. The sting was red, and he cried because of the stinging pain.", "uses": ["stung", "sting", "stinging"]},
- "reviewer_note": "Corpus row mixes verb and noun; verb taken as the main sense from the example, noun kept as conversion. Stingy is not in this family."},
-
-{"headword": "stormy", "word_id": "6a6ef83f0f1e82a5a0736665", "word_ids": ["6a6ef83f0f1e82a5a0736665"], "cefr": "B1", "kind": "word", "sense_label": "Weather", "sense_pos": "adjective", "corpus_definition": "Having very bad weather with strong wind and rain.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "storm", "relation": "derivational", "definition": "very bad weather with strong wind, heavy rain and often thunder", "example": "The storm broke several trees in our street.",
-   "syn": [{"to": "tempest", "relation": "synonym", "strength": 0.8, "note": "Old or poetic word for a violent storm.", "register": "literary"},
-           {"to": "gale", "relation": "related", "strength": 0.6, "note": "A very strong wind, often without rain."},
-           {"to": "hurricane", "relation": "related", "strength": 0.4, "note": "A very strong, dangerous tropical storm."}],
-   "ant": [{"to": "calm", "relation": "antonym", "note": "A time with no wind and quiet weather."}]},
-  {"slot": "verb", "status": "other_meaning", "form": "storm", "definition": "to attack a place suddenly, or to go somewhere quickly and angrily", "example": "He stormed out of the room without a word.", "note": "Belongs to storm = attack or move angrily, not bad weather."},
-  {"slot": "adjective", "status": "existing", "form": "stormy", "relation": "base", "definition": "with strong wind, heavy rain and dark clouds", "example": "It was a very stormy night yesterday.", "note": "Also used for angry relationships: 'a stormy meeting'.",
-   "syn": [{"to": "rough", "relation": "related", "strength": 0.6, "note": "Used for the sea or weather with big waves and wind."},
-           {"to": "windy", "relation": "related", "strength": 0.6, "note": "Easy word; only about wind, not rain."},
-           {"to": "wild", "relation": "related", "strength": 0.4, "note": "Informal for very strong, uncontrolled weather."}],
-   "ant": [{"to": "calm", "relation": "antonym", "note": "Quiet weather with no wind."},
-           {"to": "sunny", "relation": "antonym", "note": "Bright weather with lots of sun."}]},
-  {"slot": "adverb", "status": "no_form", "note": "Stormily exists but is very rare."}
- ],
- "people": [],
- "affixes": [{"affix": "-y", "in_form": "stormy", "meaning_key": "-y", "also": ["rainy", "windy", "sunny"]}],
- "context": {"text": "Last night was very stormy in Tashkent. The storm was so strong that the lights in our flat went off for an hour.", "uses": ["stormy", "storm"]},
- "reviewer_note": "Verb storm (attack, leave angrily) kept as other_meaning; thunderstorm left out as a compound."},
-
-{"headword": "strength", "word_id": "6a4288ad6941e70ad6a00ecc", "word_ids": ["6a4288ad6941e70ad6a00ecc"], "cefr": "B1", "kind": "word", "sense_label": "Power", "sense_pos": "noun", "corpus_definition": "The quality of being physically powerful or not breaking easily.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "strength", "relation": "base", "definition": "the quality of being physically powerful or hard to break", "example": "The rope has enough strength to hold him.", "note": "Also means a good quality: 'Her strengths are patience and humour.'",
-   "syn": [{"to": "power", "relation": "synonym", "strength": 0.8, "note": "Very close; power is also used for machines and politics."},
-           {"to": "force", "relation": "related", "strength": 0.6, "note": "Force is the push or pull you use; strength is what you have."},
-           {"to": "toughness", "relation": "related", "strength": 0.6, "note": "About things that don't break easily or people who don't give up."},
-           {"to": "energy", "relation": "related", "strength": 0.4, "note": "Energy is what lets you work or move; it is not the same as power in your muscles."}],
-   "ant": [{"to": "weakness", "relation": "antonym", "note": "The state of having little power."}]},
-  {"slot": "verb", "status": "existing", "form": "strengthen", "relation": "derivational", "definition": "to make something or someone more powerful or harder to break", "example": "Swimming strengthens the muscles in your back.",
-   "syn": [{"to": "reinforce", "relation": "synonym", "strength": 0.8, "note": "More formal; often about walls, buildings or ideas.", "register": "formal"},
-           {"to": "build up", "relation": "related", "strength": 0.6, "note": "Easy phrase for making something grow slowly: 'build up your muscles'."}],
-   "ant": [{"to": "weaken", "relation": "antonym", "note": "To make something less powerful."}]},
-  {"slot": "adjective", "status": "existing", "form": "strong", "relation": "derivational", "definition": "physically powerful, or not easy to break", "example": "My brother is strong enough to carry the heavy box.",
-   "syn": [{"to": "powerful", "relation": "synonym", "strength": 0.8, "note": "Very close; often used for engines, people and countries."},
-           {"to": "tough", "relation": "synonym", "strength": 0.8, "note": "About things that don't break and people who can handle difficulty."},
-           {"to": "sturdy", "relation": "synonym", "strength": 0.8, "note": "About objects that are solid and well made."}],
-   "ant": [{"to": "weak", "relation": "antonym", "note": "Without much power."}]},
-  {"slot": "adverb", "status": "existing", "form": "strongly", "relation": "derivational", "definition": "in a powerful or firm way", "example": "The bridge was strongly built to survive earthquakes.", "note": "Often used for feelings: 'I strongly believe...'",
-   "syn": [{"to": "powerfully", "relation": "synonym", "strength": 0.8, "note": "Very close, but less common."},
-           {"to": "firmly", "relation": "related", "strength": 0.6, "note": "In a fixed, steady way."}],
-   "ant": [{"to": "weakly", "relation": "antonym", "note": "Without much power."}]}
- ],
- "people": [],
- "affixes": [{"affix": "-ly", "in_form": "strongly", "meaning_key": "-ly", "also": ["quickly", "slowly", "sadly"]}],
- "context": {"text": "My grandfather in Samarkand is eighty, but he still has great strength. He is strong because he works in his garden every day, and he says the work strengthens his body.", "uses": ["strength", "strong", "strengthens"]},
- "reviewer_note": "strength comes from strong (-th is not on the affix list, so not claimed); strengthen's -en not claimed either."},
-
-{"headword": "stress", "word_id": "6a4282fd46ba24054c1dcdef", "word_ids": ["6a4282fd46ba24054c1dcdef", "6a4288ad6941e70ad6a00ea6"], "cefr": "B1", "kind": "word", "sense_label": "Worry", "sense_pos": "noun", "corpus_definition": "A feeling of worry caused by difficult situations.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "stress", "relation": "base", "definition": "a feeling of worry caused by difficult problems or too much work", "example": "Too much work causes a lot of stress.",
-   "syn": [{"to": "pressure", "relation": "synonym", "strength": 0.8, "note": "About the demands that cause the worry: 'under pressure at work'."},
-           {"to": "worry", "relation": "synonym", "strength": 0.8, "note": "Easy word; worry is about a problem, stress is often about too much to do."},
-           {"to": "tension", "relation": "synonym", "strength": 0.8, "note": "A nervous feeling that makes it hard to relax."},
-           {"to": "strain", "relation": "synonym", "strength": 0.8, "note": "Worry that comes from working too hard for a long time."},
-           {"to": "anxiety", "relation": "related", "strength": 0.6, "note": "A stronger, more general fear about what might happen."}],
-   "ant": [{"to": "relaxation", "relation": "antonym", "note": "The feeling of being calm and rested."}]},
-  {"slot": "verb", "status": "existing", "form": "stress", "relation": "conversion", "register": "informal", "definition": "to feel very worried and nervous about something", "example": "Don't stress about the exam, you will be fine.", "note": "Also 'stress out'. In another meaning, stress = to say something is very important.",
-   "syn": [{"to": "worry", "relation": "synonym", "strength": 0.95, "note": "Same meaning; worry is neutral, stress is informal."},
-           {"to": "fret", "relation": "synonym", "strength": 0.8, "note": "To keep worrying about small things."}],
-   "ant": [{"to": "relax", "relation": "antonym", "note": "To become calm and stop worrying."}]},
-  {"slot": "adjective", "status": "existing", "form": "stressful", "relation": "derivational", "definition": "making you feel worried and nervous", "example": "Moving to a new city can be very stressful.",
-   "syn": [{"to": "tense", "relation": "synonym", "strength": 0.8, "note": "About a situation full of nervous feeling."},
-           {"to": "demanding", "relation": "related", "strength": 0.6, "note": "Needing a lot of time and effort."},
-           {"to": "difficult", "relation": "related", "strength": 0.6, "note": "Easy, general word; difficult things are often stressful."}],
-   "ant": [{"to": "relaxing", "relation": "antonym", "note": "Making you feel calm."}]},
-  {"slot": "adjective", "status": "existing", "form": "stressed", "relation": "participial", "definition": "feeling worried and nervous because of problems", "example": "She felt stressed before her job interview.", "note": "stressed = how you feel; stressful = what makes you feel it.",
-   "syn": [{"to": "worried", "relation": "synonym", "strength": 0.8, "note": "Easy, very close word."},
-           {"to": "anxious", "relation": "synonym", "strength": 0.8, "note": "A little stronger and more formal."},
-           {"to": "tense", "relation": "synonym", "strength": 0.8, "note": "Nervous and unable to relax."},
-           {"to": "nervous", "relation": "related", "strength": 0.6, "note": "Often about something that will happen soon."}],
-   "ant": [{"to": "relaxed", "relation": "antonym", "note": "Calm and not worried."},
-           {"to": "calm", "relation": "antonym", "note": "Quiet and peaceful inside."}]},
-  {"slot": "adverb", "status": "no_form", "note": "Stressfully exists but is very rare."}
- ],
- "people": [],
- "affixes": [{"affix": "-ful", "in_form": "stressful", "meaning_key": "-ful", "also": ["careful", "helpful", "beautiful"]}],
- "context": {"text": "Exam week is always stressful for students in Tashkent. Many of them feel stressed, so teachers tell them to sleep well and take breaks to reduce stress.", "uses": ["stressful", "stressed", "stress"]},
- "reviewer_note": "Two corpus rows with the same meaning merged into one map. Verb stress kept in the worry sense (informal); emphasis sense mentioned in its note."},
-
-{"headword": "stretch", "word_id": "6a4282fd46ba24054c1dcd58", "word_ids": ["6a4282fd46ba24054c1dcd58"], "cefr": "B1", "kind": "word", "sense_label": "Pulling", "sense_pos": "verb", "corpus_definition": "to make something longer or wider by pulling it",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "stretch", "relation": "conversion", "definition": "the ability of a material to become longer or wider without breaking", "example": "These jeans have a lot of stretch, so they are comfortable.", "note": "Also 'a stretch' = a time of moving your arms and legs to make muscles longer.",
-   "syn": [{"to": "elasticity", "relation": "synonym", "strength": 0.8, "note": "Technical, more formal word for the same thing.", "register": "formal"},
-           {"to": "give", "relation": "related", "strength": 0.6, "note": "Informal noun: 'This fabric has some give in it.'"}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "stretch", "relation": "base", "definition": "to make something longer or wider by pulling it", "example": "This fabric will stretch after you wash it.", "note": "Also used for your body: 'Stretch your arms before running.'",
-   "syn": [{"to": "extend", "relation": "synonym", "strength": 0.8, "note": "More formal; to make something longer or bigger."},
-           {"to": "lengthen", "relation": "synonym", "strength": 0.8, "note": "Only about making something longer."},
-           {"to": "widen", "relation": "related", "strength": 0.6, "note": "Only about making something wider."},
-           {"to": "pull", "relation": "related", "strength": 0.6, "note": "Easy word for the action; stretch is the result of pulling."},
-           {"to": "expand", "relation": "related", "strength": 0.4, "note": "To become bigger in all directions, not by pulling."}],
-   "ant": [{"to": "shrink", "relation": "antonym", "note": "To become smaller, often after washing."}]},
-  {"slot": "adjective", "status": "existing", "form": "stretchy", "relation": "derivational", "register": "informal", "definition": "able to become longer or wider when pulled, then go back", "example": "Kids love stretchy toys they can pull.",
-   "syn": [{"to": "elastic", "relation": "synonym", "strength": 0.95, "note": "Same meaning, a little more formal."},
-           {"to": "flexible", "relation": "related", "strength": 0.6, "note": "Easy to bend, not always to make longer."}],
-   "ant": [{"to": "stiff", "relation": "antonym", "note": "Hard and not easy to bend or pull."},
-           {"to": "rigid", "relation": "antonym", "note": "Hard and not able to change shape at all."}]},
-  {"slot": "adverb", "status": "no_form", "note": "No adverb in this family."}
- ],
- "people": [{"form": "stretcher", "kind": "thing", "status": "other_meaning", "definition": "a long piece of cloth on poles for carrying a sick or hurt person", "example": "Two doctors carried the player off the field on a stretcher.", "note": "Belongs to stretch = spread something out flat and tight, not making fabric longer."}],
- "affixes": [{"affix": "-y", "in_form": "stretchy", "meaning_key": "-y", "also": ["rainy", "sunny", "windy"]}],
- "context": {"text": "Kamola bought a stretchy T-shirt at the bazaar in Chorsu. After one wash, the cotton stretched and the shirt became too long for her.", "uses": ["stretchy", "stretched"]},
- "reviewer_note": "Noun stretch anchored to the 'ability to stretch' meaning; stretcher listed as other_meaning thing."},
-
-{"headword": "strip", "word_id": "6a6ef9b2a601556148092798", "word_ids": ["6a6ef9b2a601556148092798"], "cefr": "B1", "kind": "word", "sense_label": "Removing", "sense_pos": "verb", "corpus_definition": "a long thin piece cut from something; to remove a covering",
- "forms": [
-  {"slot": "noun", "status": "other_meaning", "form": "strip", "definition": "a long, thin piece of paper, cloth, land or other material", "example": "Cut the paper into long strips.", "note": "Belongs to strip = a long thin piece, not removing a covering. The corpus definition gives both meanings."},
-  {"slot": "verb", "status": "existing", "form": "strip", "relation": "base", "definition": "to take off a layer or covering from something", "example": "He stripped the old paint off the wooden door.", "note": "Usually 'strip something off/from something'.",
-   "syn": [{"to": "remove", "relation": "synonym", "strength": 0.8, "note": "General, more formal word for taking something away."},
-           {"to": "take off", "relation": "synonym", "strength": 0.8, "note": "Easy phrasal verb with nearly the same meaning."},
-           {"to": "peel", "relation": "related", "strength": 0.6, "note": "To take the skin off fruit, or a thin layer that comes away."},
-           {"to": "scrape", "relation": "related", "strength": 0.6, "note": "To remove something by rubbing it with a hard edge."}],
-   "ant": [{"to": "cover", "relation": "antonym", "note": "To put a layer over something."}]},
-  {"slot": "adjective", "status": "no_form", "not_family": ["striped"], "note": "No adjective in this family. Striped comes from stripe, not from strip."},
-  {"slot": "adverb", "status": "no_form", "note": "No adverb in this family."}
- ],
- "people": [],
- "affixes": [],
- "context": {"text": "Last weekend my father stripped the old paint off our wooden gate. It took him all day to strip it, but now the gate looks almost new.", "uses": ["stripped", "strip"]},
- "reviewer_note": "Corpus definition mixes two meanings; the example uses the verb, so the map is anchored to 'remove a covering' and the noun strip is other_meaning. Stripper left out on purpose (adult second meaning)."},
-
-{"headword": "striped", "word_id": "6a4282fd46ba24054c1dcd59", "word_ids": ["6a4282fd46ba24054c1dcd59"], "cefr": "B1", "kind": "word", "sense_label": "Pattern", "sense_pos": "adjective", "corpus_definition": "having lines of color on it",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "stripe", "relation": "derivational", "definition": "a long, narrow line of colour on a surface", "example": "A zebra has black and white stripes.",
-   "syn": [{"to": "line", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; a stripe is a wide or coloured line."},
-           {"to": "band", "relation": "synonym", "strength": 0.8, "note": "A wide stripe that goes around something."},
-           {"to": "streak", "relation": "related", "strength": 0.6, "note": "A thin line that is not even or planned, like paint or light."}],
-   "ant": []},
-  {"slot": "verb", "status": "no_form", "not_family": ["strip"], "note": "Stripe as a verb exists but is rare. Strip is a different word, not this family."},
-  {"slot": "adjective", "status": "existing", "form": "striped", "relation": "base", "definition": "having long, narrow lines of colour", "example": "He wore a striped tie with his suit.", "note": "American spelling of the colour word: color.",
-   "syn": [{"to": "lined", "relation": "related", "strength": 0.6, "note": "Lined paper has thin lines on it; striped is usually about colour."},
-           {"to": "banded", "relation": "related", "strength": 0.6, "note": "With wide lines, often around something."},
-           {"to": "streaked", "relation": "related", "strength": 0.4, "note": "With uneven lines, not a planned pattern."}],
-   "ant": [{"to": "plain", "relation": "antonym", "note": "One colour, with no pattern."}]},
-  {"slot": "adjective", "status": "existing", "form": "stripy", "relation": "derivational", "register": "informal", "definition": "having lines of colour; mostly British and informal", "example": "My little sister loves her pink stripy socks.", "note": "American English: stripey or just striped.", "syn": [], "ant": []},
-  {"slot": "adverb", "status": "no_form", "note": "No adverb in this family."}
- ],
- "people": [],
- "affixes": [],
- "context": {"text": "Aziz wore a blue striped shirt to his cousin's wedding. Each stripe was thin and white, and everyone said it looked smart.", "uses": ["striped", "stripe"]},
- "reviewer_note": "striped comes from stripe, not strip; the -ed/-y endings are not claimed as affixes."}
+ {
+  "headword": "state",
+  "word_id": "6a6ef83f0f1e82a5a073668c",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073668c"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Condition",
+  "sense_pos": "noun",
+  "corpus_definition": "The way someone or something is at a particular time.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "state",
+    "relation": "base",
+    "definition": "the condition that someone or something is in at a particular time",
+    "example": "The house was in a bad state after the winter.",
+    "syn": [
+     {
+      "to": "condition",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close: 'in good condition' and 'in a good state' mean the same."
+     },
+     {
+      "to": "shape",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Informal, mostly in 'in good/bad shape', about health or how well something works."
+     },
+     {
+      "to": "situation",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Situation is about everything happening around you, not one person or thing."
+     },
+     {
+      "to": "mood",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Only about feelings: 'a state of shock' is close to a bad mood or feeling."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "statement",
+    "definition": "something that you say or write in an official way",
+    "example": "The minister made a short statement to the press.",
+    "note": "Belongs to state = say something formally, not the condition of something."
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "state",
+    "definition": "to say or write something clearly and formally",
+    "example": "Please state your name and address.",
+    "note": "Belongs to state = say formally, not the condition of something."
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "stately",
+    "definition": "impressive, large and beautiful in an old, formal way",
+    "example": "They walked past a stately old palace in Bukhara.",
+    "note": "Belongs to state = grand ceremony and importance, not the condition of something."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb in this family."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "The old house in Bukhara was in a terrible state when we bought it. After a year of repairs, it is in a much better state now.",
+   "uses": [
+    "state"
+   ]
+  },
+  "reviewer_note": "Kept the condition sense; statement, stately and the verb state belong to other meanings. Statesman left out as a compound."
+ },
+ {
+  "headword": "stay up",
+  "word_id": "6a42821646ba24054c1dccb7",
+  "word_ids": [
+   "6a42821646ba24054c1dccb7"
+  ],
+  "cefr": "B1",
+  "kind": "phrasal",
+  "sense_label": "Late night",
+  "sense_pos": "verb",
+  "corpus_definition": "To go to bed later than usual.",
+  "particle_note": "Not separable and has no object: 'stay up late', 'stay up all night'. Often followed by -ing: 'stay up watching TV'.",
+  "relations": [
+   {
+    "to": "sit up",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Mostly British and a little old-fashioned: 'We sat up talking till midnight.'"
+   },
+   {
+    "to": "wait up",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "You stay up because you are waiting for someone to come home."
+   },
+   {
+    "to": "go to bed",
+    "relation": "antonym",
+    "note": "The normal thing you do at night instead of staying awake."
+   }
+  ],
+  "context": {
+   "text": "Before the exam, Jasur stayed up all night reading his notes. His mother told him not to stay up so late again.",
+   "uses": [
+    "stayed up",
+    "stay up"
+   ]
+  },
+  "reviewer_note": "Intransitive phrasal verb; no object, so no separable pattern."
+ },
+ {
+  "headword": "steep",
+  "word_id": "6a6ef9b2a6015561480926a4",
+  "word_ids": [
+   "6a6ef9b2a6015561480926a4"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Slope",
+  "sense_pos": "adjective",
+  "corpus_definition": "Having a sharp angle, making it hard to go up or down.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "steepness",
+    "relation": "derivational",
+    "definition": "how sharply a hill, road or path goes up or down",
+    "example": "The steepness of the road made the climb very slow.",
+    "syn": [
+     {
+      "to": "slope",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A slope is the surface that goes up or down; steepness is how sharp it is."
+     },
+     {
+      "to": "gradient",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Technical word for how much a road or hill goes up or down."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "steepen",
+    "relation": "derivational",
+    "definition": "to become sharper in angle, going up or down more quickly",
+    "example": "After the bridge, the path starts to steepen and gets rocky.",
+    "syn": [],
+    "ant": [
+     {
+      "to": "level out",
+      "relation": "antonym",
+      "note": "When a road levels out, it becomes flat."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "steep",
+    "relation": "base",
+    "definition": "going up or down at a sharp angle, so hard to climb",
+    "example": "The path to the top was very steep.",
+    "note": "Informally it can also mean too expensive: 'steep prices'.",
+    "syn": [
+     {
+      "to": "sheer",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Even stronger: almost straight up and down, like a cliff."
+     },
+     {
+      "to": "sharp",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: a sharp rise or fall happens suddenly."
+     },
+     {
+      "to": "abrupt",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Formal; about a sudden change, often in a slope."
+     }
+    ],
+    "ant": [
+     {
+      "to": "gentle",
+      "relation": "antonym",
+      "note": "A gentle slope goes up slowly and is easy to walk."
+     },
+     {
+      "to": "gradual",
+      "relation": "antonym",
+      "note": "Going up or down slowly, a little at a time."
+     },
+     {
+      "to": "flat",
+      "relation": "antonym",
+      "note": "With no slope at all."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "steeply",
+    "relation": "derivational",
+    "definition": "at a sharp angle, going up or down quickly",
+    "example": "The road climbs steeply into the mountains.",
+    "note": "Also used for numbers: 'Prices rose steeply.'",
+    "syn": [
+     {
+      "to": "sharply",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close, and common for prices and numbers too."
+     }
+    ],
+    "ant": [
+     {
+      "to": "gently",
+      "relation": "antonym",
+      "note": "Going up or down slowly and easily."
+     },
+     {
+      "to": "gradually",
+      "relation": "antonym",
+      "note": "Slowly, a little at a time."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ness",
+    "in_form": "steepness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "darkness",
+     "sadness"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "steeply",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "sadly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The road to the mountain village near Chimgan is very steep. Our old car climbed steeply and slowly, and the steepness scared my little sister.",
+   "uses": [
+    "steep",
+    "steeply",
+    "steepness"
+   ]
+  },
+  "reviewer_note": "The verb steep (to soak tea in water) is a different word, not this family, so it is not listed."
+ },
+ {
+  "headword": "sting",
+  "word_id": "6a6ef9b2a60155614809284c",
+  "word_ids": [
+   "6a6ef9b2a60155614809284c"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Insect",
+  "sense_pos": "verb",
+  "corpus_definition": "to cause a sharp burning pain; a wound from an insect's needle",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "sting",
+    "relation": "conversion",
+    "definition": "a painful wound made when a bee or other insect pushes its needle into you",
+    "example": "The bee sting on his arm was red and painful.",
+    "syn": [
+     {
+      "to": "bite",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Mosquitoes bite with their mouth; bees and wasps sting with a needle."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "sting",
+    "relation": "base",
+    "definition": "to push a sharp needle into skin and cause sharp, burning pain",
+    "example": "A bee stung him on the arm.",
+    "note": "Irregular: sting, stung, stung. Also used for smoke or soap: 'My eyes are stinging.'",
+    "syn": [
+     {
+      "to": "bite",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Bite is done with the mouth; sting is done with a needle."
+     },
+     {
+      "to": "burn",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word for the hot pain: 'The soap burns my eyes.'"
+     },
+     {
+      "to": "hurt",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "General word for any pain."
+     },
+     {
+      "to": "prick",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make a very small hole with something sharp."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "stinging",
+    "relation": "participial",
+    "definition": "causing a sharp, burning pain",
+    "example": "She felt a stinging pain in her hand.",
+    "syn": [
+     {
+      "to": "burning",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close: a hot, sharp pain."
+     },
+     {
+      "to": "sharp",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word for sudden, strong pain."
+     },
+     {
+      "to": "painful",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "General word; stinging describes the kind of pain."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "Stingingly exists but is very rare; people say 'with a stinging pain'."
+   }
+  ],
+  "people": [
+   {
+    "form": "stinger",
+    "kind": "thing",
+    "status": "existing",
+    "definition": "the sharp, needle-like part of a bee or wasp",
+    "example": "The bee left its stinger in my finger.",
+    "note": "Mostly American; British English often just says 'sting'."
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-ing",
+    "in_form": "stinging",
+    "meaning_key": "-ing",
+    "also": [
+     "boring",
+     "exciting",
+     "interesting"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "stinger",
+    "meaning_key": "-er",
+    "also": [
+     "printer",
+     "heater",
+     "cooker"
+    ]
+   }
+  ],
+  "context": {
+   "text": "A bee stung my little brother in our garden in Fergana. The sting was red, and he cried because of the stinging pain.",
+   "uses": [
+    "stung",
+    "sting",
+    "stinging"
+   ]
+  },
+  "reviewer_note": "Corpus row mixes verb and noun; verb taken as the main sense from the example, noun kept as conversion. Stingy is not in this family.",
+  "gate_overrides": [
+   {
+    "msg_contains": "'stinging' is marked participial",
+    "reason": "lemminflect data error: its VBG for sting is listed as 'sting' instead of 'stinging'; stinging is the regular -ing participle (Oxford/Cambridge list 'stinging' adj)."
+   }
+  ]
+ },
+ {
+  "headword": "stormy",
+  "word_id": "6a6ef83f0f1e82a5a0736665",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736665"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Weather",
+  "sense_pos": "adjective",
+  "corpus_definition": "Having very bad weather with strong wind and rain.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "storm",
+    "relation": "derivational",
+    "definition": "very bad weather with strong wind, heavy rain and often thunder",
+    "example": "The storm broke several trees in our street.",
+    "syn": [
+     {
+      "to": "tempest",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Old or poetic word for a violent storm.",
+      "register": "literary"
+     },
+     {
+      "to": "gale",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A very strong wind, often without rain."
+     },
+     {
+      "to": "hurricane",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A very strong, dangerous tropical storm."
+     }
+    ],
+    "ant": [
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "A time with no wind and quiet weather."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "storm",
+    "definition": "to attack a place suddenly, or to go somewhere quickly and angrily",
+    "example": "He stormed out of the room without a word.",
+    "note": "Belongs to storm = attack or move angrily, not bad weather."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "stormy",
+    "relation": "base",
+    "definition": "with strong wind, heavy rain and dark clouds",
+    "example": "It was a very stormy night yesterday.",
+    "note": "Also used for angry relationships: 'a stormy meeting'.",
+    "syn": [
+     {
+      "to": "rough",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Used for the sea or weather with big waves and wind."
+     },
+     {
+      "to": "windy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word; only about wind, not rain."
+     },
+     {
+      "to": "wild",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Informal for very strong, uncontrolled weather."
+     }
+    ],
+    "ant": [
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "Quiet weather with no wind."
+     },
+     {
+      "to": "sunny",
+      "relation": "antonym",
+      "note": "Bright weather with lots of sun."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "Stormily exists but is very rare."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-y",
+    "in_form": "stormy",
+    "meaning_key": "-y",
+    "also": [
+     "rainy",
+     "windy",
+     "sunny"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Last night was very stormy in Tashkent. The storm was so strong that the lights in our flat went off for an hour.",
+   "uses": [
+    "stormy",
+    "storm"
+   ]
+  },
+  "reviewer_note": "Verb storm (attack, leave angrily) kept as other_meaning; thunderstorm left out as a compound."
+ },
+ {
+  "headword": "strength",
+  "word_id": "6a4288ad6941e70ad6a00ecc",
+  "word_ids": [
+   "6a4288ad6941e70ad6a00ecc"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Power",
+  "sense_pos": "noun",
+  "corpus_definition": "The quality of being physically powerful or not breaking easily.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "strength",
+    "relation": "base",
+    "definition": "the quality of being physically powerful or hard to break",
+    "example": "The rope has enough strength to hold him.",
+    "note": "Also means a good quality: 'Her strengths are patience and humour.'",
+    "syn": [
+     {
+      "to": "power",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close; power is also used for machines and politics."
+     },
+     {
+      "to": "force",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Force is the push or pull you use; strength is what you have."
+     },
+     {
+      "to": "toughness",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "About things that don't break easily or people who don't give up."
+     },
+     {
+      "to": "energy",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Energy is what lets you work or move; it is not the same as power in your muscles."
+     }
+    ],
+    "ant": [
+     {
+      "to": "weakness",
+      "relation": "antonym",
+      "note": "The state of having little power."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "strengthen",
+    "relation": "derivational",
+    "definition": "to make something or someone more powerful or harder to break",
+    "example": "Swimming strengthens the muscles in your back.",
+    "syn": [
+     {
+      "to": "reinforce",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "More formal; often about walls, buildings or ideas.",
+      "register": "formal"
+     },
+     {
+      "to": "build up",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy phrase for making something grow slowly: 'build up your muscles'."
+     }
+    ],
+    "ant": [
+     {
+      "to": "weaken",
+      "relation": "antonym",
+      "note": "To make something less powerful."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "strong",
+    "relation": "derivational",
+    "definition": "physically powerful, or not easy to break",
+    "example": "My brother is strong enough to carry the heavy box.",
+    "syn": [
+     {
+      "to": "powerful",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close; often used for engines, people and countries."
+     },
+     {
+      "to": "tough",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "About things that don't break and people who can handle difficulty."
+     },
+     {
+      "to": "sturdy",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "About objects that are solid and well made."
+     }
+    ],
+    "ant": [
+     {
+      "to": "weak",
+      "relation": "antonym",
+      "note": "Without much power."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "strongly",
+    "relation": "derivational",
+    "definition": "in a powerful or firm way",
+    "example": "The bridge was strongly built to survive earthquakes.",
+    "note": "Often used for feelings: 'I strongly believe...'",
+    "syn": [
+     {
+      "to": "powerfully",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close, but less common."
+     },
+     {
+      "to": "firmly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a fixed, steady way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "weakly",
+      "relation": "antonym",
+      "note": "Without much power."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "strongly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "sadly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My grandfather in Samarkand is eighty, but he still has great strength. He is strong because he works in his garden every day, and he says the work strengthens his body.",
+   "uses": [
+    "strength",
+    "strong",
+    "strengthens"
+   ]
+  },
+  "reviewer_note": "strength comes from strong (-th is not on the affix list, so not claimed); strengthen's -en not claimed either."
+ },
+ {
+  "headword": "stress",
+  "word_id": "6a4282fd46ba24054c1dcdef",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcdef",
+   "6a4288ad6941e70ad6a00ea6"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Worry",
+  "sense_pos": "noun",
+  "corpus_definition": "A feeling of worry caused by difficult situations.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "stress",
+    "relation": "base",
+    "definition": "a feeling of worry caused by difficult problems or too much work",
+    "example": "Too much work causes a lot of stress.",
+    "syn": [
+     {
+      "to": "pressure",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "About the demands that cause the worry: 'under pressure at work'."
+     },
+     {
+      "to": "worry",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; worry is about a problem, stress is often about too much to do."
+     },
+     {
+      "to": "tension",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A nervous feeling that makes it hard to relax."
+     },
+     {
+      "to": "strain",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Worry that comes from working too hard for a long time."
+     },
+     {
+      "to": "anxiety",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A stronger, more general fear about what might happen."
+     }
+    ],
+    "ant": [
+     {
+      "to": "relaxation",
+      "relation": "antonym",
+      "note": "The feeling of being calm and rested."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "stress",
+    "relation": "conversion",
+    "register": "informal",
+    "definition": "to feel very worried and nervous about something",
+    "example": "Don't stress about the exam, you will be fine.",
+    "note": "Also 'stress out'. In another meaning, stress = to say something is very important.",
+    "syn": [
+     {
+      "to": "worry",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning; worry is neutral, stress is informal."
+     },
+     {
+      "to": "fret",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To keep worrying about small things."
+     }
+    ],
+    "ant": [
+     {
+      "to": "relax",
+      "relation": "antonym",
+      "note": "To become calm and stop worrying."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "stressful",
+    "relation": "derivational",
+    "definition": "making you feel worried and nervous",
+    "example": "Moving to a new city can be very stressful.",
+    "syn": [
+     {
+      "to": "tense",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "About a situation full of nervous feeling."
+     },
+     {
+      "to": "demanding",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Needing a lot of time and effort."
+     },
+     {
+      "to": "difficult",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; difficult things are often stressful."
+     }
+    ],
+    "ant": [
+     {
+      "to": "relaxing",
+      "relation": "antonym",
+      "note": "Making you feel calm."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "stressed",
+    "relation": "participial",
+    "definition": "feeling worried and nervous because of problems",
+    "example": "She felt stressed before her job interview.",
+    "note": "stressed = how you feel; stressful = what makes you feel it.",
+    "syn": [
+     {
+      "to": "worried",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, very close word."
+     },
+     {
+      "to": "anxious",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A little stronger and more formal."
+     },
+     {
+      "to": "tense",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Nervous and unable to relax."
+     },
+     {
+      "to": "nervous",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Often about something that will happen soon."
+     }
+    ],
+    "ant": [
+     {
+      "to": "relaxed",
+      "relation": "antonym",
+      "note": "Calm and not worried."
+     },
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "Quiet and peaceful inside."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "Stressfully exists but is very rare."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ful",
+    "in_form": "stressful",
+    "meaning_key": "-ful",
+    "also": [
+     "careful",
+     "helpful",
+     "beautiful"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Exam week is always stressful for students in Tashkent. Many of them feel stressed, so teachers tell them to sleep well and take breaks to reduce stress.",
+   "uses": [
+    "stressful",
+    "stressed",
+    "stress"
+   ]
+  },
+  "reviewer_note": "Two corpus rows with the same meaning merged into one map. Verb stress kept in the worry sense (informal); emphasis sense mentioned in its note."
+ },
+ {
+  "headword": "stretch",
+  "word_id": "6a4282fd46ba24054c1dcd58",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd58"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Pulling",
+  "sense_pos": "verb",
+  "corpus_definition": "to make something longer or wider by pulling it",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "stretch",
+    "relation": "conversion",
+    "definition": "the ability of a material to become longer or wider without breaking",
+    "example": "These jeans have a lot of stretch, so they are comfortable.",
+    "note": "Also 'a stretch' = a time of moving your arms and legs to make muscles longer.",
+    "syn": [
+     {
+      "to": "elasticity",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Technical, more formal word for the same thing.",
+      "register": "formal"
+     },
+     {
+      "to": "give",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Informal noun: 'This fabric has some give in it.'"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "stretch",
+    "relation": "base",
+    "definition": "to make something longer or wider by pulling it",
+    "example": "This fabric will stretch after you wash it.",
+    "note": "Also used for your body: 'Stretch your arms before running.'",
+    "syn": [
+     {
+      "to": "extend",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "More formal; to make something longer or bigger."
+     },
+     {
+      "to": "lengthen",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Only about making something longer."
+     },
+     {
+      "to": "widen",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Only about making something wider."
+     },
+     {
+      "to": "pull",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word for the action; stretch is the result of pulling."
+     },
+     {
+      "to": "expand",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To become bigger in all directions, not by pulling."
+     }
+    ],
+    "ant": [
+     {
+      "to": "shrink",
+      "relation": "antonym",
+      "note": "To become smaller, often after washing."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "stretchy",
+    "relation": "derivational",
+    "register": "informal",
+    "definition": "able to become longer or wider when pulled, then go back",
+    "example": "Kids love stretchy toys they can pull.",
+    "syn": [
+     {
+      "to": "elastic",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, a little more formal."
+     },
+     {
+      "to": "flexible",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy to bend, not always to make longer."
+     }
+    ],
+    "ant": [
+     {
+      "to": "stiff",
+      "relation": "antonym",
+      "note": "Hard and not easy to bend or pull."
+     },
+     {
+      "to": "rigid",
+      "relation": "antonym",
+      "note": "Hard and not able to change shape at all."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb in this family."
+   }
+  ],
+  "people": [
+   {
+    "form": "stretcher",
+    "kind": "thing",
+    "status": "other_meaning",
+    "definition": "a long piece of cloth on poles for carrying a sick or hurt person",
+    "example": "Two doctors carried the player off the field on a stretcher.",
+    "note": "Belongs to stretch = spread something out flat and tight, not making fabric longer."
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-y",
+    "in_form": "stretchy",
+    "meaning_key": "-y",
+    "also": [
+     "rainy",
+     "sunny",
+     "windy"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Kamola bought a stretchy T-shirt at the bazaar in Chorsu. After one wash, the cotton stretched and the shirt became too long for her.",
+   "uses": [
+    "stretchy",
+    "stretched"
+   ]
+  },
+  "reviewer_note": "Noun stretch anchored to the 'ability to stretch' meaning; stretcher listed as other_meaning thing."
+ },
+ {
+  "headword": "strip",
+  "word_id": "6a6ef9b2a601556148092798",
+  "word_ids": [
+   "6a6ef9b2a601556148092798"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Removing",
+  "sense_pos": "verb",
+  "corpus_definition": "a long thin piece cut from something; to remove a covering",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "strip",
+    "definition": "a long, thin piece of paper, cloth, land or other material",
+    "example": "Cut the paper into long strips.",
+    "note": "Belongs to strip = a long thin piece, not removing a covering. The corpus definition gives both meanings."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "strip",
+    "relation": "base",
+    "definition": "to take off a layer or covering from something",
+    "example": "He stripped the old paint off the wooden door.",
+    "note": "Usually 'strip something off/from something'.",
+    "syn": [
+     {
+      "to": "remove",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "General, more formal word for taking something away."
+     },
+     {
+      "to": "take off",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrasal verb with nearly the same meaning."
+     },
+     {
+      "to": "peel",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To take the skin off fruit, or a thin layer that comes away."
+     },
+     {
+      "to": "scrape",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To remove something by rubbing it with a hard edge."
+     }
+    ],
+    "ant": [
+     {
+      "to": "cover",
+      "relation": "antonym",
+      "note": "To put a layer over something."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "not_family": [
+     "striped"
+    ],
+    "note": "No adjective in this family. Striped comes from stripe, not from strip."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb in this family."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Last weekend my father stripped the old paint off our wooden gate. It took him all day to strip it, but now the gate looks almost new.",
+   "uses": [
+    "stripped",
+    "strip"
+   ]
+  },
+  "reviewer_note": "Corpus definition mixes two meanings; the example uses the verb, so the map is anchored to 'remove a covering' and the noun strip is other_meaning. Stripper left out on purpose (adult second meaning)."
+ },
+ {
+  "headword": "striped",
+  "word_id": "6a4282fd46ba24054c1dcd59",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd59"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Pattern",
+  "sense_pos": "adjective",
+  "corpus_definition": "having lines of color on it",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "stripe",
+    "relation": "derivational",
+    "definition": "a long, narrow line of colour on a surface",
+    "example": "A zebra has black and white stripes.",
+    "syn": [
+     {
+      "to": "line",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; a stripe is a wide or coloured line."
+     },
+     {
+      "to": "band",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A wide stripe that goes around something."
+     },
+     {
+      "to": "streak",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A thin line that is not even or planned, like paint or light."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "not_family": [
+     "strip"
+    ],
+    "note": "Stripe as a verb exists but is rare. Strip is a different word, not this family."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "striped",
+    "relation": "base",
+    "definition": "having long, narrow lines of colour",
+    "example": "He wore a striped tie with his suit.",
+    "note": "American spelling of the colour word: color.",
+    "syn": [
+     {
+      "to": "lined",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Lined paper has thin lines on it; striped is usually about colour."
+     },
+     {
+      "to": "banded",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "With wide lines, often around something."
+     },
+     {
+      "to": "streaked",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "With uneven lines, not a planned pattern."
+     }
+    ],
+    "ant": [
+     {
+      "to": "plain",
+      "relation": "antonym",
+      "note": "One colour, with no pattern."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "stripy",
+    "relation": "derivational",
+    "register": "informal",
+    "definition": "having lines of colour; mostly British and informal",
+    "example": "My little sister loves her pink stripy socks.",
+    "note": "American English: stripey or just striped.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb in this family."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Aziz wore a blue striped shirt to his cousin's wedding. Each stripe was thin and white, and everyone said it looked smart.",
+   "uses": [
+    "striped",
+    "stripe"
+   ]
+  },
+  "reviewer_note": "striped comes from stripe, not strip; the -ed/-y endings are not claimed as affixes."
+ }
 ]
