@@ -8,6 +8,7 @@ import { Switch } from "@/components/ui/switch";
 import { useAppLang } from "@/hooks/useAppLang";
 import LanguageSelector from "@/components/LanguageSelector";
 import BetaBadge from "@/components/BetaBadge";
+import AnimationStudioLink from "@/components/animation/AnimationStudioLink";
 
 export default function Settings() {
   const { t } = useAppLang();
@@ -54,6 +55,7 @@ export default function Settings() {
       </header>
 
       <div className="max-w-lg mx-auto px-4 py-8 space-y-4">
+        {user?.role === "admin" && <AnimationStudioLink />}
         <div className="bg-background rounded-2xl border border-border p-5">
           <p className="text-xs text-muted-foreground uppercase tracking-wider font-semibold mb-4">{t("settings.profile")}</p>
           <ProfileEditor user={user} onSaved={reloadUser} />

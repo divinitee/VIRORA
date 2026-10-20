@@ -25,37 +25,41 @@
 
 .virora-star-loader__outline {
   stroke: currentColor;
-  stroke-width: 5;
-  opacity: 0.32;
+  stroke-width: calc(var(--loader-stroke, 6) * 0.833);
+  opacity: var(--loader-outline, 0.32);
 }
 
 /* A single bottom-to-apex arrival, then light breathes along the fully drawn
    contours. Never rewind the stroke at a loop boundary (the old visible snap). */
 .virora-star-loader__glow,
 .virora-star-loader__halo {
-  stroke: hsl(var(--foreground));
+  stroke: var(--loader-core, hsl(var(--foreground)));
   stroke-dasharray: 1 1;
   stroke-dashoffset: 0;
-  animation: virora-star-trace 1.4s cubic-bezier(.32,.06,.24,1) var(--star-delay) both;
+  animation: virora-star-trace var(--loader-trace, 1.4s) cubic-bezier(.32,.06,.24,1) var(--star-delay) both;
+  animation-play-state: var(--loader-play, running);
 }
 
 .virora-star-loader__glow {
-  stroke-width: 6;
-  filter: drop-shadow(0 0 5px hsl(var(--accent) / 0.95)) drop-shadow(0 0 13px hsl(var(--brand) / 0.85));
+  stroke-width: var(--loader-stroke, 6);
+  filter: drop-shadow(0 0 calc(var(--loader-radiance, 13px) * 0.385) hsl(var(--accent) / 0.95)) drop-shadow(0 0 var(--loader-radiance, 13px) var(--loader-halo, hsl(var(--brand))));
 }
 
 .virora-star-loader__halo {
-  stroke: hsl(var(--brand));
-  stroke-width: 27;
-  filter: blur(6px) drop-shadow(0 0 10px hsl(var(--brand) / 0.8));
+  stroke: var(--loader-halo, hsl(var(--brand)));
+  stroke-width: calc(12px + var(--loader-radiance, 13px) * 1.15);
+  filter: blur(var(--loader-softness, 6px)) drop-shadow(0 0 calc(var(--loader-radiance, 13px) * 0.77) var(--loader-halo, hsl(var(--brand))));
 }
 
 .virora-star-loader__light {
-  animation: virora-star-breathe 3.2s ease-in-out calc(var(--star-delay) + 1.4s) infinite;
+  animation: virora-star-breathe var(--loader-pulse, 3.2s) ease-in-out calc(var(--star-delay) + var(--loader-trace, 1.4s)) infinite;
+  animation-play-state: var(--loader-play, running);
+  filter: brightness(var(--loader-intensity, 1));
+  opacity: clamp(0, var(--loader-intensity, 1), 1);
 }
 
-.virora-star-loader__star--apex .virora-star-loader__glow { stroke-width: 5; }
-.virora-star-loader__star--apex .virora-star-loader__halo { stroke-width: 15; }
+.virora-star-loader__star--apex .virora-star-loader__glow { stroke-width: calc(var(--loader-stroke, 6) * 0.833); }
+.virora-star-loader__star--apex .virora-star-loader__halo { stroke-width: calc(6px + var(--loader-radiance, 13px) * 0.692); }
 
 @keyframes virora-star-trace {
   0% { stroke-dashoffset: 1; opacity: 0; }
@@ -64,8 +68,8 @@
 }
 
 @keyframes virora-star-breathe {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.42; }
+  0%, 100% { opacity: clamp(0, var(--loader-intensity, 1), 1); }
+  50% { opacity: calc(var(--loader-min, 0.42) * clamp(0, var(--loader-intensity, 1), 1)); }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -74,6 +78,6 @@
   .virora-star-loader__halo {
     animation: none;
     stroke-dashoffset: 0;
-    opacity: 0.85;
+    opacity: clamp(0, var(--loader-intensity, 1), 1);
   }
 }

@@ -54,6 +54,8 @@ import Developer from '@/pages/Developer';
 import Taskboard from '@/pages/Taskboard';
 import Coach from '@/pages/Coach';
 import LaunchExperience from '@/components/LaunchExperience';
+import AnimationStudio from '@/pages/AnimationStudio';
+import AnimationSettingsProvider from '@/components/animation/AnimationSettingsProvider';
 
 const AuthenticatedApp = () => {
   const { user, isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -99,6 +101,7 @@ const AuthenticatedApp = () => {
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/my-progress" element={<MyProgress />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/animation-studio" element={<AnimationStudio />} />
         <Route path="/study-tips" element={<StudyTips />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/analytics" element={<Analytics />} />
@@ -144,9 +147,11 @@ function App() {
         <QueryClientProvider client={queryClientInstance}>
           <Router>
             <ScrollToTop />
-            <PageLoadingProvider>
-              <AuthenticatedApp />
-            </PageLoadingProvider>
+            <AnimationSettingsProvider>
+              <PageLoadingProvider>
+                <AuthenticatedApp />
+              </PageLoadingProvider>
+            </AnimationSettingsProvider>
           </Router>
           <Toaster />
         </QueryClientProvider>

@@ -1,5 +1,7 @@
 import React from "react";
 import "./BrandLoader.css";
+import { useAnimationSettings } from "@/components/animation/AnimationSettingsContext";
+import { animationStyle, normalizeAnimation } from "@/components/animation/animationConfig";
 
 const STAR_PATH =
   "M50 0 C56 34 66 44 100 50 C66 56 56 66 50 100 C44 66 34 56 0 50 C34 44 44 34 50 0 Z";
@@ -20,13 +22,16 @@ export default function BrandLoader({
   height = size,
   label = "Loading",
   className = "",
+  settings,
 }) {
+  const { config } = useAnimationSettings();
+  const design = settings ? normalizeAnimation(settings) : config;
   const viewBoxHeight = (100 * height) / width;
 
   return (
     <div
       className={`virora-star-loader ${className}`.trim()}
-      style={{ width, height }}
+      style={{ width: width * design.scale, height: height * design.scale, ...animationStyle(design) }}
       role="status"
       aria-label={label}
     >
@@ -43,7 +48,7 @@ export default function BrandLoader({
               key={index}
               className={starClass}
               transform={transform}
-              style={{ "--star-delay": star.delay }}
+              style={{ "--star-delay": `${Math.floor(index / 2) * design.stagger}s` }}
             >
               <path className="virora-star-loader__outline" d={STAR_PATH} />
               <g className="virora-star-loader__light">

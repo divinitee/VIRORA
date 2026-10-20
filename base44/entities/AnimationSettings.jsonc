@@ -1,0 +1,103 @@
+{
+  "name": "AnimationSettings",
+  "type": "object",
+  "description": "Public visual configuration for VIRORA's shared loading stars. Each admin apply publishes a revision; the latest revision is active.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "enum": [
+        "brand-loader"
+      ]
+    },
+    "config": {
+      "type": "object",
+      "properties": {
+        "traceDuration": {
+          "type": "number",
+          "minimum": 0.3,
+          "maximum": 5
+        },
+        "pulseDuration": {
+          "type": "number",
+          "minimum": 0.8,
+          "maximum": 8
+        },
+        "intensity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "radiance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 30
+        },
+        "softness": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 16
+        },
+        "stagger": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "strokeWidth": {
+          "type": "number",
+          "minimum": 2,
+          "maximum": 12
+        },
+        "pulseMin": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 1
+        },
+        "outlineOpacity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "scale": {
+          "type": "number",
+          "minimum": 0.6,
+          "maximum": 1.8
+        },
+        "fadeDuration": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 2
+        },
+        "glowColor": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "haloColor": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        }
+      }
+    }
+  },
+  "required": [
+    "key",
+    "config"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
