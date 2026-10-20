@@ -34,7 +34,9 @@ const STR = {
   },
 };
 
-export default function InAppBrowserNotice({ className = "" }) {
+// floating: a solid dark card pinned to the bottom of the screen, for pages
+// (the landing) whose own theme classes don't match the app's.
+export default function InAppBrowserNotice({ className = "", floating = false }) {
   const { lang } = useAppLang();
   const s = STR[lang] || STR.uz;
   const info = useMemo(() => detectInAppBrowser(), []);
@@ -59,8 +61,12 @@ export default function InAppBrowserNotice({ className = "" }) {
     setTimeout(() => setCopied(false), 2000);
   };
 
+  const tone = floating
+    ? "fixed inset-x-3 bottom-3 z-50 mx-auto max-w-md bg-slate-900 text-amber-100 shadow-2xl"
+    : "relative bg-amber-500/10 text-amber-900 dark:text-amber-100";
+
   return (
-    <div className={`relative rounded-2xl border border-amber-500/40 bg-amber-500/10 p-4 text-sm text-amber-900 dark:text-amber-100 ${className}`} role="alert">
+    <div className={`rounded-2xl border border-amber-500/40 p-4 text-sm ${tone} ${className}`} role="alert">
       <button onClick={() => setHidden(true)} className="absolute right-2 top-2 p-1 opacity-60 hover:opacity-100" aria-label="Close">
         <X className="w-4 h-4" />
       </button>
