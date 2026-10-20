@@ -1,0 +1,229 @@
+[
+ {"headword": "crazy about", "kind": "phrase", "sense_label": "Liking", "sense_pos": "adjective",
+  "usage_note": "be crazy about + noun / -ing: 'She is crazy about football.' Informal; used after be, get or go.",
+  "relations": [
+   {"to": "mad about", "relation": "synonym", "strength": 0.95, "note": "The same meaning, more British.", "register": "informal"},
+   {"to": "keen on", "relation": "synonym", "strength": 0.8, "note": "Liking something a lot, a little less strong."},
+   {"to": "fond of", "relation": "related", "strength": 0.6, "note": "Liking something in a calm, warm way."},
+   {"to": "tired of", "relation": "antonym", "note": "No longer enjoying something because you have had too much of it."}
+  ],
+  "context": {"text": "My little brother is crazy about cars. He knows every car on the streets of Tashkent and talks about them all day.", "uses": ["crazy about"]},
+  "reviewer_note": "Informal register marked; crazy (adj) alone has a different meaning (mad)."},
+
+ {"headword": "criminal", "kind": "word", "sense_label": "Law", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "criminal", "relation": "base", "definition": "a person who breaks the law", "example": "The criminal was sent to prison for five years.",
+    "syn": [{"to": "offender", "relation": "synonym", "strength": 0.95, "note": "A more formal word, often used by the police and courts.", "register": "formal"},
+            {"to": "lawbreaker", "relation": "synonym", "strength": 0.95, "note": "Someone who does not obey the law."},
+            {"to": "crook", "relation": "synonym", "strength": 0.8, "note": "A dishonest person, often one who steals.", "register": "informal"},
+            {"to": "thief", "relation": "related", "strength": 0.6, "note": "One type of law-breaker: a person who steals."}],
+    "ant": []},
+   {"slot": "noun", "status": "existing", "form": "crime", "relation": "derivational", "definition": "an action that is against the law", "example": "Stealing a phone is a crime.",
+    "syn": [{"to": "offence", "relation": "synonym", "strength": 0.95, "note": "A formal word for an illegal act. American spelling: offense.", "register": "formal"},
+            {"to": "wrongdoing", "relation": "synonym", "strength": 0.8, "note": "Bad or illegal behaviour in general."}],
+    "ant": [], "note": "The headword is made from this noun: crime + -al."},
+   {"slot": "verb", "status": "existing", "form": "criminalize", "relation": "derivational", "definition": "to make an action illegal by law", "example": "Some countries criminalize selling fake medicine.", "note": "British spelling also criminalise.",
+    "syn": [{"to": "outlaw", "relation": "synonym", "strength": 0.8, "note": "To make something illegal."},
+            {"to": "ban", "relation": "related", "strength": 0.6, "note": "To say officially that something is not allowed."}],
+    "ant": [{"to": "legalize", "relation": "antonym", "note": "To make something allowed by law."}, {"to": "decriminalize", "relation": "antonym", "note": "To stop an action being illegal."}]},
+   {"slot": "adjective", "status": "existing", "form": "criminal", "relation": "conversion", "definition": "connected with breaking the law", "example": "The police are looking into criminal activity in the area.",
+    "syn": [{"to": "illegal", "relation": "synonym", "strength": 0.95, "note": "Not allowed by law; the easiest word."},
+            {"to": "unlawful", "relation": "synonym", "strength": 0.95, "note": "A formal word for illegal.", "register": "formal"}],
+    "ant": [{"to": "legal", "relation": "antonym", "note": "Allowed by law."}, {"to": "lawful", "relation": "antonym", "note": "Allowed by law; formal."}]},
+   {"slot": "adverb", "status": "existing", "form": "criminally", "relation": "derivational", "definition": "in a way that breaks the law", "example": "He was charged with acting criminally.",
+    "syn": [{"to": "illegally", "relation": "synonym", "strength": 0.95, "note": "Against the law."}],
+    "ant": [{"to": "legally", "relation": "antonym", "note": "In a way the law allows."}]}
+  ],
+  "people": [
+   {"form": "criminologist", "kind": "job", "status": "existing", "definition": "an expert who studies why people break the law", "example": "A criminologist spoke on the news about car theft."},
+   {"form": "criminology", "kind": "field", "status": "existing", "definition": "the study of law-breaking and law-breakers", "example": "She is studying criminology at university."}
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ly", "in_form": "criminally", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]},
+   {"affix": "-ize", "in_form": "criminalize", "meaning_key": "-ize", "also": ["organize", "realize", "modernize"]}
+  ],
+  "context": {"text": "Last night the police caught a criminal near Chorsu Bazaar. He stole bags from tourists, and that is a serious crime.", "uses": ["criminal", "crime"]},
+  "reviewer_note": "Rule 6: person-noun headword stays main in the noun slot; crime as extra (source noun)."},
+
+ {"headword": "criticism", "kind": "word", "sense_label": "Opinion", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "criticism", "relation": "base", "definition": "words that say what is bad or wrong about something", "example": "The new law got a lot of criticism.",
+    "syn": [{"to": "disapproval", "relation": "synonym", "strength": 0.8, "note": "A feeling or sign that you do not like something."},
+            {"to": "complaint", "relation": "related", "strength": 0.6, "note": "Saying you are unhappy about something."},
+            {"to": "blame", "relation": "related", "strength": 0.6, "note": "Saying someone is responsible for something bad."}],
+    "ant": [{"to": "praise", "relation": "antonym", "note": "Words that say something is good."}, {"to": "approval", "relation": "antonym", "note": "Thinking something is good or right."}]},
+   {"slot": "verb", "status": "existing", "form": "criticize", "relation": "derivational", "definition": "to say what you think is bad about someone or something", "example": "Please do not criticize my cooking!", "note": "British spelling also criticise.",
+    "syn": [{"to": "condemn", "relation": "synonym", "strength": 0.8, "note": "Stronger: to say something is very wrong.", "register": "formal"},
+            {"to": "blame", "relation": "related", "strength": 0.6, "note": "To say someone is responsible for something bad."},
+            {"to": "attack", "relation": "related", "strength": 0.4, "note": "To criticize very strongly, often in public."}],
+    "ant": [{"to": "praise", "relation": "antonym", "note": "To say good things about someone."}, {"to": "compliment", "relation": "antonym", "note": "To say something nice about someone."}]},
+   {"slot": "adjective", "status": "existing", "form": "critical", "relation": "derivational", "definition": "saying that someone or something is bad or wrong", "example": "My father was critical of my plan.", "note": "critical also means 'very important' (a critical moment).",
+    "syn": [{"to": "disapproving", "relation": "synonym", "strength": 0.8, "note": "Showing you do not like something."},
+            {"to": "negative", "relation": "related", "strength": 0.6, "note": "Seeing only the bad side."}],
+    "ant": [{"to": "approving", "relation": "antonym", "note": "Showing you think something is good."}, {"to": "complimentary", "relation": "antonym", "note": "Saying nice things."}]},
+   {"slot": "adverb", "status": "existing", "form": "critically", "relation": "derivational", "definition": "in a way that points out faults", "example": "The teacher spoke critically about our homework.",
+    "syn": [{"to": "disapprovingly", "relation": "synonym", "strength": 0.8, "note": "In a way that shows you do not like something."}],
+    "ant": [{"to": "approvingly", "relation": "antonym", "note": "In a way that shows you like something."}]}
+  ],
+  "people": [
+   {"form": "critic", "kind": "job", "status": "existing", "definition": "a person who writes opinions about films, books or art", "example": "The film critic loved the new Uzbek movie."}
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ize", "in_form": "criticize", "meaning_key": "-ize", "also": ["organize", "realize", "modernize"]},
+   {"affix": "-al", "in_form": "critical", "meaning_key": "-al", "also": ["musical", "national", "personal"]},
+   {"affix": "-ly", "in_form": "critically", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]}
+  ],
+  "context": {"text": "My teacher's criticism helped me a lot. She criticized my essay, but she also showed me how to make it better.", "uses": ["criticism", "criticized"]},
+  "reviewer_note": "critical has a second meaning (very important); noted on the entry."},
+
+ {"headword": "cross out", "kind": "phrasal", "sense_label": "Writing", "sense_pos": "verb",
+  "particle_note": "Separable: cross out the word / cross the word out; with a pronoun only cross it out.",
+  "relations": [
+   {"to": "strike out", "relation": "synonym", "strength": 0.95, "note": "The same action, a little more formal."},
+   {"to": "delete", "relation": "synonym", "strength": 0.8, "note": "To remove words, often on a computer."},
+   {"to": "erase", "relation": "related", "strength": 0.6, "note": "To remove writing completely, for example with a rubber."}
+  ],
+  "context": {"text": "I made a mistake in my answer, so I crossed out the wrong word. Then I wrote the right one above it.", "uses": ["crossed out"]},
+  "reviewer_note": "No true antonym, so none listed."},
+
+ {"headword": "cruise", "kind": "word", "sense_label": "Holiday", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "cruise", "relation": "base", "definition": "a holiday on a big ship that visits several places", "example": "They went on a cruise around the Greek islands.",
+    "syn": [{"to": "voyage", "relation": "synonym", "strength": 0.8, "note": "A long journey by sea; not always a holiday."},
+            {"to": "trip", "relation": "related", "strength": 0.6, "note": "Any short journey for fun or work."}],
+    "ant": []},
+   {"slot": "verb", "status": "existing", "form": "cruise", "relation": "conversion", "definition": "to travel on a ship for a holiday", "example": "We cruised along the coast for a week.",
+    "syn": [{"to": "sail", "relation": "synonym", "strength": 0.8, "note": "To travel by boat or ship."}],
+    "ant": []},
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {"form": "cruiser", "kind": "thing", "status": "existing", "definition": "a large motor boat with rooms for sleeping", "example": "They rented a cruiser for the weekend."}
+  ],
+  "people_not_family": [],
+  "affixes": [{"affix": "-er", "in_form": "cruiser", "meaning_key": "-er", "also": ["driver", "teacher", "player"]}],
+  "context": {"text": "My grandparents went on a cruise last summer. They cruised from Italy to Spain and loved every day.", "uses": ["cruise", "cruised"]},
+  "reviewer_note": "cruiser also means a warship and a US police car; the boat sense is kept."},
+
+ {"headword": "crush", "kind": "word", "sense_label": "Press", "sense_pos": "verb",
+  "forms": [
+   {"slot": "noun", "status": "other_meaning", "form": "crush", "definition": "a strong, short feeling of love for someone", "example": "She has a crush on a boy in her class.", "note": "Belongs to crush = a short love feeling, not pressing something."},
+   {"slot": "verb", "status": "existing", "form": "crush", "relation": "base", "definition": "to press something hard so that it breaks or loses its shape", "example": "Do not crush the eggs in the shopping bag.",
+    "syn": [{"to": "squash", "relation": "synonym", "strength": 0.95, "note": "To press something until it is flat or soft."},
+            {"to": "smash", "relation": "synonym", "strength": 0.8, "note": "To break something into many pieces, often with noise."},
+            {"to": "press", "relation": "related", "strength": 0.6, "note": "To push hard on something; not always breaking it."}],
+    "ant": []},
+   {"slot": "adjective", "status": "existing", "form": "crushed", "relation": "participial", "definition": "pressed into very small pieces", "example": "Add some crushed garlic to the soup.",
+    "syn": [{"to": "squashed", "relation": "synonym", "strength": 0.95, "note": "Pressed flat or out of shape."},
+            {"to": "ground", "relation": "related", "strength": 0.6, "note": "Made into powder, like coffee or pepper."}],
+    "ant": []},
+   {"slot": "adjective", "status": "other_meaning", "form": "crushing", "definition": "very bad and making you lose hope", "example": "The team suffered a crushing defeat.", "note": "Belongs to crush = defeat completely, not pressing something."},
+   {"slot": "adverb", "status": "no_form", "note": "crushingly (crushingly boring) exists but is rare and belongs to the 'very bad' meaning."}
+  ],
+  "people": [
+   {"form": "crusher", "kind": "thing", "status": "existing", "definition": "a machine or tool that breaks things into small pieces", "example": "Use the garlic crusher in the drawer."}
+  ],
+  "people_not_family": [],
+  "affixes": [{"affix": "-er", "in_form": "crusher", "meaning_key": "-er", "also": ["driver", "teacher", "player"]}],
+  "context": {"text": "My mother told me not to crush the bread in my bag. At home she put crushed garlic and tomatoes in the soup.", "uses": ["crush", "crushed"]},
+  "reviewer_note": "Noun crush (love) and crushing (defeat) kept as other_meaning."},
+
+ {"headword": "cure", "kind": "word", "sense_label": "Health", "sense_pos": "verb",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "cure", "relation": "conversion", "definition": "a medicine or treatment that makes an ill person well", "example": "There is still no cure for the common cold.",
+    "syn": [{"to": "remedy", "relation": "synonym", "strength": 0.95, "note": "Something that makes an illness better."},
+            {"to": "treatment", "relation": "synonym", "strength": 0.8, "note": "Medical care; it may not make you fully well."},
+            {"to": "medicine", "relation": "related", "strength": 0.6, "note": "A drug you take when you are ill."}],
+    "ant": []},
+   {"slot": "verb", "status": "existing", "form": "cure", "relation": "base", "definition": "to make a sick person healthy again", "example": "This medicine can cure the infection in a week.",
+    "syn": [{"to": "heal", "relation": "synonym", "strength": 0.95, "note": "To make a person or a wound healthy again."},
+            {"to": "treat", "relation": "related", "strength": 0.6, "note": "To give medical care; the person may not get fully well."}],
+    "ant": []},
+   {"slot": "adjective", "status": "existing", "form": "curable", "relation": "derivational", "definition": "possible to make healthy again with treatment", "example": "Luckily, her illness is curable.",
+    "syn": [{"to": "treatable", "relation": "synonym", "strength": 0.95, "note": "Doctors can help with it."}],
+    "ant": [{"to": "incurable", "relation": "antonym", "note": "Impossible to make better."}]},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "people_not_family": ["curator"],
+  "affixes": [{"affix": "-able", "in_form": "curable", "meaning_key": "-able", "also": ["washable", "readable", "breakable"]}],
+  "context": {"text": "The doctor said my grandfather's illness is curable. With the right medicine, she can cure it in a month.", "uses": ["curable", "cure"]},
+  "reviewer_note": "2 rows merged (same meaning, B1). curator shares an old Latin root but is not made from cure. cure = preserve meat with salt not shown."},
+
+ {"headword": "curl", "kind": "word", "sense_label": "Shape", "sense_pos": "verb",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "curl", "relation": "conversion", "definition": "a piece of hair that has a round, twisted shape", "example": "The baby has soft blonde curls.",
+    "syn": [{"to": "ringlet", "relation": "synonym", "strength": 0.8, "note": "A long, hanging piece of twisted hair."},
+            {"to": "wave", "relation": "related", "strength": 0.6, "note": "A gentle bend in hair, not a full round shape."},
+            {"to": "coil", "relation": "related", "strength": 0.6, "note": "A round shape like a spring; used for rope and wire too."}],
+    "ant": []},
+   {"slot": "verb", "status": "existing", "form": "curl", "relation": "base", "definition": "to make something form a round, twisted shape", "example": "She curls her hair before parties.",
+    "syn": [{"to": "twist", "relation": "synonym", "strength": 0.8, "note": "To turn something round and round."},
+            {"to": "roll", "relation": "related", "strength": 0.6, "note": "To turn something over and over into a round shape."},
+            {"to": "bend", "relation": "related", "strength": 0.4, "note": "To change something from straight to not straight."}],
+    "ant": [{"to": "straighten", "relation": "antonym", "note": "To make something straight."}]},
+   {"slot": "adjective", "status": "existing", "form": "curly", "relation": "derivational", "definition": "having many round, twisted shapes", "example": "Malika has long curly hair.",
+    "syn": [{"to": "wavy", "relation": "related", "strength": 0.6, "note": "With gentle bends, not tight round shapes."}],
+    "ant": [{"to": "straight", "relation": "antonym", "note": "Not bent at all."}]},
+   {"slot": "adjective", "status": "existing", "form": "curled", "relation": "participial", "definition": "bent into a round shape", "example": "The cat lay curled on the sofa.",
+    "syn": [{"to": "twisted", "relation": "synonym", "strength": 0.8, "note": "Turned round and round."}],
+    "ant": [{"to": "straight", "relation": "antonym", "note": "Not bent at all."}]},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {"form": "curler", "kind": "thing", "status": "existing", "definition": "a small tube you put in hair to give it round shapes", "example": "My aunt sleeps with curlers in her hair."}
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-y", "in_form": "curly", "meaning_key": "-y", "also": ["rainy", "sunny", "salty"]},
+   {"affix": "-er", "in_form": "curler", "meaning_key": "-er", "also": ["driver", "teacher", "player"]}
+  ],
+  "context": {"text": "Malika was born with curly hair. Her sister has straight hair, so she curls it every morning with a hot brush.", "uses": ["curly", "curls"]},
+  "reviewer_note": "curl up (sit with legs bent) is a phrasal verb and not shown here."},
+
+ {"headword": "current", "kind": "word", "sense_label": "Now", "sense_pos": "adjective",
+  "forms": [
+   {"slot": "noun", "status": "other_meaning", "form": "current", "definition": "a strong movement of water, air or electricity", "example": "The river has a very strong current.", "note": "Belongs to current = a flow of water or electricity, not 'happening now'."},
+   {"slot": "noun", "status": "other_meaning", "form": "currency", "definition": "the money used in a country", "example": "The currency of Uzbekistan is the sum.", "note": "Belongs to current in its old meaning 'moving around'; money that is in use."},
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "existing", "form": "current", "relation": "base", "definition": "happening or true at this time", "example": "What is your current address?",
+    "syn": [{"to": "present", "relation": "synonym", "strength": 0.95, "note": "Existing now; a little formal before a noun."},
+            {"to": "existing", "relation": "synonym", "strength": 0.8, "note": "There now, already in place."},
+            {"to": "modern", "relation": "related", "strength": 0.6, "note": "Of the present time, often new and up to date."}],
+    "ant": [{"to": "former", "relation": "antonym", "note": "In the past, but not now."}, {"to": "previous", "relation": "antonym", "note": "Happening before this one."}, {"to": "past", "relation": "antonym", "note": "Belonging to a time before now."}]},
+   {"slot": "adverb", "status": "existing", "form": "currently", "relation": "derivational", "definition": "at the present time", "example": "I am currently looking for a new job.",
+    "syn": [{"to": "now", "relation": "synonym", "strength": 0.95, "note": "The easiest word for this time."},
+            {"to": "presently", "relation": "synonym", "strength": 0.8, "note": "Mainly American in this meaning; in British English it often means 'soon'."}],
+    "ant": [{"to": "formerly", "relation": "antonym", "note": "In the past, but not now."}, {"to": "previously", "relation": "antonym", "note": "Before now."}]}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [{"affix": "-ly", "in_form": "currently", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]}],
+  "context": {"text": "My current job is in the centre of Tashkent. I am currently looking for a flat closer to the office.", "uses": ["current", "currently"]},
+  "reviewer_note": "False friends for Russian speakers: current is not 'текущий' in the water sense; noun current and currency kept as other_meaning."},
+
+ {"headword": "curse", "kind": "word", "sense_label": "Magic", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "curse", "relation": "base", "definition": "magic words that wish something bad on someone", "example": "The witch put a curse on the prince.",
+    "syn": [{"to": "jinx", "relation": "synonym", "strength": 0.8, "note": "Bad luck that someone or something seems to bring.", "register": "informal"},
+            {"to": "spell", "relation": "related", "strength": 0.6, "note": "Magic words; a spell can be good or bad."}],
+    "ant": [{"to": "blessing", "relation": "antonym", "note": "A wish or prayer for something good."}]},
+   {"slot": "verb", "status": "existing", "form": "curse", "relation": "conversion", "definition": "to use magic words to make bad things happen to someone", "example": "In the story, an old woman cursed the king.", "note": "curse also means 'to swear, say rude words'.",
+    "syn": [{"to": "hex", "relation": "synonym", "strength": 0.8, "note": "To put bad magic on someone; mainly American."},
+            {"to": "jinx", "relation": "related", "strength": 0.6, "note": "To bring bad luck.", "register": "informal"}],
+    "ant": [{"to": "bless", "relation": "antonym", "note": "To ask God or magic to protect someone."}]},
+   {"slot": "adjective", "status": "existing", "form": "cursed", "relation": "participial", "definition": "having bad magic on it", "example": "Nobody wanted to live in the cursed house.",
+    "syn": [{"to": "jinxed", "relation": "synonym", "strength": 0.8, "note": "Having bad luck all the time.", "register": "informal"},
+            {"to": "doomed", "relation": "related", "strength": 0.6, "note": "Sure to end badly."}],
+    "ant": [{"to": "blessed", "relation": "antonym", "note": "Protected by God or good luck."}]},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {"text": "In the old tale, a witch put a curse on the king. After that, nobody dared to enter the cursed castle for a hundred years.", "uses": ["curse", "cursed"]},
+  "reviewer_note": "curse = swear (rude words) noted on the verb."}
+]
