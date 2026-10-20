@@ -41,18 +41,21 @@ export default function LandingNav({ dark, setDark }) {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Link to="/login" className="hidden sm:inline-block text-sm font-medium text-slate-600 landing-dark:text-slate-300 hover:text-blue-600 landing-dark:hover:text-blue-400 px-3 py-2 transition-colors">
+          {/* Visible on phones too (Oct 2026). It used to be hidden below the
+              sm breakpoint, so on a phone the only way in was "Start for
+              free" — returning students kept registering new accounts. */}
+          <Link to="/login" className="inline-flex items-center h-9 rounded-xl border border-slate-300 landing-dark:border-slate-600 text-sm font-semibold text-slate-700 landing-dark:text-slate-200 hover:text-blue-600 landing-dark:hover:text-blue-400 px-3 transition-colors">
             {t("landing.nav.login")}
           </Link>
           <LanguageMenu />
           <button
             onClick={() => setDark(!dark)}
             aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
-            className="w-9 h-9 rounded-xl border border-slate-200 landing-dark:border-slate-700 bg-white landing-dark:bg-slate-900 text-slate-600 landing-dark:text-slate-300 flex items-center justify-center hover:border-blue-300 landing-dark:hover:border-blue-500 transition-colors select-none"
+            className="hidden sm:flex w-9 h-9 rounded-xl border border-slate-200 landing-dark:border-slate-700 bg-white landing-dark:bg-slate-900 text-slate-600 landing-dark:text-slate-300 items-center justify-center hover:border-blue-300 landing-dark:hover:border-blue-500 transition-colors select-none"
           >
             {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </button>
-          <Link to="/register">
+          <Link to="/register" className="hidden sm:block">
             <Button className="h-9">{t("landing.nav.start_free")}</Button>
           </Link>
         </div>
