@@ -1,276 +1,1505 @@
 [
-{"headword": "dawn", "word_id": "6a6ef9b2a6015561480926c1", "word_ids": ["6a6ef9b2a6015561480926c1"], "cefr": "B2", "kind": "word", "sense_label": "Morning", "sense_pos": "noun", "corpus_definition": "The time of day when light first appears.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "dawn", "relation": "base", "definition": "the early morning time when the sky first becomes light", "example": "We left Tashkent at dawn to drive to the mountains.",
-   "syn": [{"to": "daybreak", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little less common in speech."},
-           {"to": "sunrise", "relation": "synonym", "strength": 0.8, "note": "Sunrise is the moment the sun appears; dawn starts a little earlier, when the sky gets light."},
-           {"to": "first light", "relation": "synonym", "strength": 0.95, "note": "A phrase with the same meaning, often in stories."},
-           {"to": "morning", "relation": "related", "strength": 0.6, "note": "Easy word: morning is the whole early part of the day; dawn is only its very start."}],
-   "ant": [{"to": "dusk", "relation": "antonym", "note": "The time in the evening when it gets dark."},
-           {"to": "sunset", "relation": "antonym", "note": "The time in the evening when the sun goes down."}]},
-  {"slot": "verb", "status": "existing", "form": "dawn", "relation": "conversion", "definition": "(of a day) to begin, when light first appears in the sky", "example": "The day dawned bright and clear over Samarkand.", "register": "literary", "note": "Mostly in stories. The phrasal verb 'dawn on' (= become clear to someone) is a different meaning.",
-   "syn": [{"to": "break", "relation": "synonym", "strength": 0.8, "note": "Used with day: 'The day broke' means the same as 'The day dawned'."},
-           {"to": "begin", "relation": "related", "strength": 0.4, "note": "Easy, general word; dawn is only about a day starting."}],
-   "ant": []},
-  {"slot": "adjective", "status": "no_form", "note": "There is no common adjective in this family; use 'early morning' (an early morning walk)."},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb in this family; use 'at dawn'."}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [],
- "context": {"text": "My grandfather always wakes up at dawn to pray and feed the chickens. Yesterday the day dawned cold and grey, but he was outside before the sun came up.", "uses": ["dawn", "dawned"]},
- "reviewer_note": "Kept the time-of-day sense; 'dawn on' (realise) and 'the dawn of' (beginning of an era) are mentioned only in notes."},
-
-{"headword": "debt", "word_id": "6a42800cb9d8fc24968a4b6a", "word_ids": ["6a42800cb9d8fc24968a4b6a", "6a42883f6941e70ad6a00dc2"], "cefr": "B2", "kind": "word", "sense_label": "Money", "sense_pos": "noun", "corpus_definition": "Money that you owe to another person.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "debt", "relation": "base", "definition": "money that you owe and must pay back to someone", "example": "He worked two jobs to pay off his debt to the bank.", "note": "The b is silent: /det/. Common phrases: in debt, pay off a debt, get into debt.",
-   "syn": [{"to": "loan", "relation": "related", "strength": 0.6, "note": "A loan is money you borrow; after you borrow it, the money you still owe is your debt."},
-           {"to": "liability", "relation": "related", "strength": 0.6, "note": "Formal word used by banks and companies for money they owe.", "register": "formal"},
-           {"to": "bill", "relation": "related", "strength": 0.4, "note": "Easy word: a bill is a paper that asks you to pay for something; if you don't pay it, it becomes a debt."}],
-   "ant": [{"to": "credit", "relation": "antonym", "note": "In banking, credit is money you have in your account or money someone owes you."},
-           {"to": "savings", "relation": "antonym", "note": "Money you have kept, not money you owe."}]},
-  {"slot": "verb", "status": "no_form", "note": "There is no verb in this family; use 'owe' (I owe him money).", "not_family": ["owe"]},
-  {"slot": "adjective", "status": "existing", "form": "indebted", "relation": "derivational", "definition": "owing money to a person, bank or country", "example": "The company is heavily indebted to foreign banks.", "register": "formal", "note": "Also means 'very grateful': 'I am indebted to my teacher for her help.'",
-   "syn": [{"to": "in the red", "relation": "related", "strength": 0.6, "note": "Informal phrase: having less money in your account than you owe.", "register": "informal"},
-           {"to": "broke", "relation": "related", "strength": 0.4, "note": "Informal: having no money at all; you can be broke without owing anyone.", "register": "informal"}],
-   "ant": []},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb in this family."}
- ],
- "people": [
-  {"form": "debtor", "kind": "person", "status": "existing", "definition": "a person, company or country that owes money", "example": "The bank sent a letter to every debtor who had not paid.", "register": "formal"}
- ],
- "people_not_family": ["creditor"],
- "affixes": [
-  {"affix": "-or", "in_form": "debtor", "meaning_key": "-or", "also": ["actor", "visitor", "inventor"]}
- ],
- "context": {"text": "My cousin borrowed money to buy a car, and now he is in debt. He doesn't like being indebted to the bank, so he wants to pay everything back before his wedding.", "uses": ["debt", "indebted"]},
- "reviewer_note": "Two corpus rows with the same meaning share one map. Creditor (the person who is owed) is not made from debt, so it is listed as not family."},
-
-{"headword": "decide on", "word_id": "6a42800cb9d8fc24968a4b93", "word_ids": ["6a42800cb9d8fc24968a4b93"], "cefr": "B2", "kind": "phrasal", "sense_label": "Choosing", "sense_pos": "verb", "corpus_definition": "To make a choice after thinking about options.",
- "particle_note": "Not separable: decide on + noun (decide on a date, NOT decide a date on). Often in the passive: 'Has a date been decided on?'",
- "relations": [
-  {"to": "choose", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word with the same meaning."},
-  {"to": "settle on", "relation": "synonym", "strength": 0.95, "note": "Very close; suggests you finally agreed after a long time."},
-  {"to": "pick", "relation": "synonym", "strength": 0.8, "note": "Informal and easy; less about long thinking."},
-  {"to": "select", "relation": "synonym", "strength": 0.8, "note": "More formal; often used for choosing from a list.", "register": "formal"},
-  {"to": "opt for", "relation": "synonym", "strength": 0.8, "note": "A little formal: choose one thing instead of others."}
- ],
- "context": {"text": "My sister and her husband still haven't decided on a name for the baby. After a long talk with our parents, they finally decided on Malika.", "uses": ["decided on"]},
- "reviewer_note": "Phrasal verb, not separable; no true antonym, so none listed."},
-
-{"headword": "decisive", "word_id": "6a6ef83f0f1e82a5a07366f8", "word_ids": ["6a6ef83f0f1e82a5a07366f8"], "cefr": "B2", "kind": "word", "sense_label": "Person", "sense_pos": "adjective", "corpus_definition": "Being able to make choices quickly and clearly.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "decisiveness", "relation": "derivational", "definition": "the quality of making choices quickly and with confidence", "example": "Her decisiveness helped the team finish the project on time.",
-   "syn": [{"to": "determination", "relation": "related", "strength": 0.6, "note": "Related: not giving up; decisiveness is about choosing quickly."},
-           {"to": "firmness", "relation": "related", "strength": 0.6, "note": "Related: being strong and not changing your mind."}],
-   "ant": [{"to": "indecision", "relation": "antonym", "note": "Not being able to choose."},
-           {"to": "hesitation", "relation": "antonym", "note": "Waiting or stopping because you are not sure."}]},
-  {"slot": "noun", "status": "existing", "form": "decision", "relation": "derivational", "definition": "a choice that you make after thinking about it", "example": "Moving to Tashkent was the biggest choice of his life, and a good decision.",
-   "syn": [{"to": "choice", "relation": "synonym", "strength": 0.8, "note": "Easy word; a choice can also be one of the options you have."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "decide", "relation": "derivational", "definition": "to choose something after thinking about the options", "example": "We decided to go to Bukhara for the holiday.",
-   "syn": [{"to": "choose", "relation": "synonym", "strength": 0.8, "note": "Easy word; choose is about picking one thing, decide can also be about what to do."},
-           {"to": "make up your mind", "relation": "synonym", "strength": 0.95, "note": "Informal phrase with the same meaning.", "register": "informal"},
-           {"to": "determine", "relation": "synonym", "strength": 0.8, "note": "Formal word for decide.", "register": "formal"}],
-   "ant": [{"to": "hesitate", "relation": "antonym", "note": "To wait before doing something because you are not sure."}]},
-  {"slot": "adjective", "status": "existing", "form": "decisive", "relation": "base", "definition": "able to make choices quickly and clearly", "example": "She is a decisive leader who never wastes time.", "note": "Decisive also means 'very important for the result': a decisive goal.",
-   "syn": [{"to": "firm", "relation": "related", "strength": 0.6, "note": "Easy word: not changing your mind easily."},
-           {"to": "resolute", "relation": "synonym", "strength": 0.8, "note": "Formal: very sure about what you want to do.", "register": "formal"},
-           {"to": "determined", "relation": "related", "strength": 0.6, "note": "Related: wanting to do something and not stopping."}],
-   "ant": [{"to": "indecisive", "relation": "antonym", "note": "Not able to choose quickly; always changing your mind."},
-           {"to": "hesitant", "relation": "antonym", "note": "Slow to act because you are not sure."}]},
-  {"slot": "adverb", "status": "existing", "form": "decisively", "relation": "derivational", "definition": "quickly and with confidence, without waiting or doubting", "example": "The manager acted decisively when the problem started.",
-   "syn": [{"to": "firmly", "relation": "related", "strength": 0.6, "note": "Easy word: in a strong way that does not change."},
-           {"to": "resolutely", "relation": "synonym", "strength": 0.8, "note": "Formal: in a very determined way.", "register": "formal"}],
-   "ant": [{"to": "hesitantly", "relation": "antonym", "note": "Slowly, because you are not sure."}]}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [
-  {"affix": "-ive", "in_form": "decisive", "meaning_key": "-ive", "also": ["active", "creative", "attractive"]},
-  {"affix": "-ness", "in_form": "decisiveness", "meaning_key": "-ness", "also": ["kindness", "happiness", "darkness"]},
-  {"affix": "-ly", "in_form": "decisively", "meaning_key": "-ly", "also": ["quickly", "slowly", "clearly"]}
- ],
- "context": {"text": "Our new head teacher is very decisive. When the heating broke in winter, she acted decisively and closed the school for two days. Everyone agreed it was the right decision.", "uses": ["decisive", "decisively", "decision"]},
- "reviewer_note": "Kept the 'quick to choose' sense; 'decisive = important for the result' is only a note. Indecisive and indecision are listed as antonyms, not forms."},
-
-{"headword": "decline", "word_id": "6a6ef83f0f1e82a5a0736671", "word_ids": ["6a6ef83f0f1e82a5a0736671"], "cefr": "B2", "kind": "word", "sense_label": "Falling", "sense_pos": "verb", "corpus_definition": "To go down in number or value.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "decline", "relation": "conversion", "definition": "a fall in the amount, number, value or quality of something", "example": "There has been a decline in the number of visitors this winter.",
-   "syn": [{"to": "fall", "relation": "synonym", "strength": 0.95, "note": "Easy word with the same meaning: a fall in prices."},
-           {"to": "drop", "relation": "synonym", "strength": 0.95, "note": "Easy word, often for a sudden fall."},
-           {"to": "decrease", "relation": "synonym", "strength": 0.95, "note": "Same meaning, a little more formal."},
-           {"to": "reduction", "relation": "synonym", "strength": 0.8, "note": "Often when someone makes the amount smaller on purpose."}],
-   "ant": [{"to": "rise", "relation": "antonym", "note": "An increase in amount or number."},
-           {"to": "increase", "relation": "antonym", "note": "The amount gets bigger."},
-           {"to": "growth", "relation": "antonym", "note": "Getting bigger over time."}]},
-  {"slot": "verb", "status": "existing", "form": "decline", "relation": "base", "definition": "to become less in number, amount or value", "example": "Sales of the old phone model declined last month.", "note": "Decline also means 'to say no politely' (decline an invitation); that is a different meaning.",
-   "syn": [{"to": "fall", "relation": "synonym", "strength": 0.95, "note": "Easy word with the same meaning."},
-           {"to": "go down", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday phrasal verb."},
-           {"to": "drop", "relation": "synonym", "strength": 0.95, "note": "Easy word, often for a quick fall."},
-           {"to": "decrease", "relation": "synonym", "strength": 0.95, "note": "Same meaning, a little more formal."}],
-   "ant": [{"to": "rise", "relation": "antonym", "note": "To go up."},
-           {"to": "increase", "relation": "antonym", "note": "To become bigger in number or amount."},
-           {"to": "grow", "relation": "antonym", "note": "To become bigger over time."}]},
-  {"slot": "adjective", "status": "existing", "form": "declining", "relation": "participial", "definition": "becoming smaller in number, amount or value", "example": "The village has a declining population because young people move to the city.",
-   "syn": [{"to": "falling", "relation": "synonym", "strength": 0.95, "note": "Easy word with the same meaning: falling prices."},
-           {"to": "decreasing", "relation": "synonym", "strength": 0.95, "note": "Same meaning, a little more formal."},
-           {"to": "shrinking", "relation": "synonym", "strength": 0.8, "note": "Getting smaller in size; often used for markets and populations."}],
-   "ant": [{"to": "rising", "relation": "antonym", "note": "Going up."},
-           {"to": "growing", "relation": "antonym", "note": "Getting bigger."}]},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb in this family."}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [
-  {"affix": "-ing", "in_form": "declining", "meaning_key": "-ing", "also": ["growing", "rising", "interesting"]}
- ],
- "context": {"text": "The number of tourists in Khiva declined sharply in January. Hotel owners are worried about the decline, but they hope the declining numbers will go up again in spring.", "uses": ["declined", "decline", "declining"]},
- "reviewer_note": "Kept the 'go down' sense; 'decline = refuse politely' is only a note on the verb."},
-
-{"headword": "deed", "word_id": "6a6ef83f0f1e82a5a07367e9", "word_ids": ["6a6ef83f0f1e82a5a07367e9"], "cefr": "B2", "kind": "word", "sense_label": "Action", "sense_pos": "noun", "corpus_definition": "something that a person does usually requiring effort",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "deed", "relation": "base", "definition": "something that a person does, especially something very good or very bad", "example": "Helping the old man carry his bags was a good deed.", "register": "formal", "note": "Common phrase: a good deed. In law, a deed is also an official paper showing who owns a house or land.",
-   "syn": [{"to": "act", "relation": "synonym", "strength": 0.95, "note": "Very close: an act of kindness = a kind deed."},
-           {"to": "action", "relation": "synonym", "strength": 0.8, "note": "Easy, general word for something you do."},
-           {"to": "feat", "relation": "related", "strength": 0.6, "note": "Something difficult that needs a lot of skill or strength."},
-           {"to": "achievement", "relation": "related", "strength": 0.6, "note": "Something good you succeed in doing after hard work."}],
-   "ant": [{"to": "misdeed", "relation": "antonym", "note": "Formal: a bad or wrong act; the opposite of a good deed.", "register": "formal"}]},
-  {"slot": "verb", "status": "no_form", "note": "There is no verb in this family for learners; use 'do' or 'act'. Deed comes from the same old root as 'do', but it is not made from it.", "not_family": ["do"]},
-  {"slot": "adjective", "status": "no_form", "note": "There is no adjective in this family."},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb in this family."}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [],
- "context": {"text": "In our mahalla, people remember every good deed. When my neighbour fixed the roof of the old teacher's house for free, everyone talked about his kind deed for weeks.", "uses": ["deed"]},
- "reviewer_note": "Kept the 'action' sense; the legal-document sense is only a note. Misdeed is listed as an antonym, not a form."},
-
-{"headword": "defend", "word_id": "6a42662edeeb39f881130117", "word_ids": ["6a42662edeeb39f881130117"], "cefr": "B2", "kind": "word", "sense_label": "Protect", "sense_pos": "verb", "corpus_definition": "To protect someone or something from danger.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "defense", "relation": "derivational", "definition": "the act of protecting someone or something from attack", "example": "The old walls were built for the defense of the city.", "note": "American spelling; British English: defence.",
-   "syn": [{"to": "protection", "relation": "synonym", "strength": 0.95, "note": "Easy word with almost the same meaning."},
-           {"to": "security", "relation": "related", "strength": 0.6, "note": "Related: being safe, or the things that keep a place safe."},
-           {"to": "guard", "relation": "related", "strength": 0.4, "note": "Related: a person who keeps a place safe, or being on watch."}],
-   "ant": [{"to": "attack", "relation": "antonym", "note": "Trying to hurt someone or take something by force."}]},
-  {"slot": "verb", "status": "existing", "form": "defend", "relation": "base", "definition": "to protect someone or something from attack or danger", "example": "The dog will protect its home and defend the children from strangers.",
-   "syn": [{"to": "protect", "relation": "synonym", "strength": 0.95, "note": "Easy word with the same meaning."},
-           {"to": "guard", "relation": "synonym", "strength": 0.8, "note": "To watch a place or person to keep them safe."},
-           {"to": "keep safe", "relation": "synonym", "strength": 0.8, "note": "Easy phrase with almost the same meaning."},
-           {"to": "shield", "relation": "synonym", "strength": 0.8, "note": "To cover or protect someone from harm."}],
-   "ant": [{"to": "attack", "relation": "antonym", "note": "To try to hurt someone or take a place by force."}]},
-  {"slot": "adjective", "status": "existing", "form": "defensive", "relation": "derivational", "definition": "used or made to protect against attack", "example": "The soldiers built a defensive wall around the camp.", "note": "Also: quick to protect yourself when people criticize you: 'Don't get so defensive!'",
-   "syn": [{"to": "protective", "relation": "synonym", "strength": 0.8, "note": "Made or used to keep someone safe."}],
-   "ant": [{"to": "offensive", "relation": "antonym", "note": "In war and sport: used for attacking."}]},
-  {"slot": "adjective", "status": "existing", "form": "defenseless", "relation": "derivational", "definition": "not able to protect itself from attack or harm", "example": "The baby birds were defenseless when the cat came.", "note": "American spelling; British English: defenceless.",
-   "syn": [{"to": "helpless", "relation": "synonym", "strength": 0.8, "note": "Easy word: not able to look after yourself."},
-           {"to": "vulnerable", "relation": "synonym", "strength": 0.8, "note": "Easy to hurt or attack."}],
-   "ant": []},
-  {"slot": "adverb", "status": "existing", "form": "defensively", "relation": "derivational", "definition": "in a way that protects against attack rather than attacking", "example": "Our football team played defensively in the second half.",
-   "syn": [{"to": "cautiously", "relation": "related", "strength": 0.4, "note": "Related: carefully, trying to avoid danger."}],
-   "ant": []}
- ],
- "people": [
-  {"form": "defender", "kind": "person", "status": "existing", "definition": "a person who protects someone or something; also a player who stops goals", "example": "The defender stopped the ball before it reached the goal."},
-  {"form": "defendant", "kind": "person", "status": "other_meaning", "definition": "the person in a court who is accused of a crime", "example": "The defendant said he was at home that night.", "note": "Belongs to defend = speak for someone in a court of law, not protecting from danger."}
- ],
- "people_not_family": [],
- "affixes": [
-  {"affix": "-er", "in_form": "defender", "meaning_key": "-er", "also": ["teacher", "player", "driver"]},
-  {"affix": "-ive", "in_form": "defensive", "meaning_key": "-ive", "also": ["active", "creative", "protective"]},
-  {"affix": "-less", "in_form": "defenseless", "meaning_key": "-less", "also": ["helpless", "homeless", "careless"]},
-  {"affix": "-ly", "in_form": "defensively", "meaning_key": "-ly", "also": ["quickly", "carefully", "slowly"]}
- ],
- "context": {"text": "Every spring the farmers defend their fields from the river by building a defensive wall of sand bags. Without this defense, the young plants would be defenseless against the water.", "uses": ["defend", "defensive", "defense", "defenseless"]},
- "reviewer_note": "Kept the 'protect' sense; defendant (court) is other_meaning. Spelling defense/defence noted."},
-
-{"headword": "defense", "word_id": "6a6ef83f0f1e82a5a073683b", "word_ids": ["6a6ef83f0f1e82a5a073683b"], "cefr": "B2", "kind": "word", "sense_label": "Protection", "sense_pos": "noun", "corpus_definition": "the action of keeping something safe from harm or attack",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "defense", "relation": "base", "definition": "the act of keeping someone or something safe from harm or attack", "example": "The soldiers stood guard for the country's defense.", "note": "American spelling; British English: defence. Also used in sport (the players who stop goals) and in law.",
-   "syn": [{"to": "protection", "relation": "synonym", "strength": 0.95, "note": "Easy word with almost the same meaning."},
-           {"to": "security", "relation": "related", "strength": 0.6, "note": "Related: being safe, or the things that keep a place safe."},
-           {"to": "resistance", "relation": "related", "strength": 0.6, "note": "Fighting back against an attack."}],
-   "ant": [{"to": "attack", "relation": "antonym", "note": "Trying to hurt someone or take something by force."},
-           {"to": "offense", "relation": "antonym", "note": "American English, in sport and war: attacking. British spelling: offence."}]},
-  {"slot": "verb", "status": "existing", "form": "defend", "relation": "derivational", "definition": "to protect someone or something from attack or danger", "example": "The army is ready to defend the border.",
-   "syn": [{"to": "protect", "relation": "synonym", "strength": 0.95, "note": "Easy word with the same meaning."},
-           {"to": "guard", "relation": "synonym", "strength": 0.8, "note": "To watch a place or person to keep them safe."},
-           {"to": "shield", "relation": "synonym", "strength": 0.8, "note": "To cover or protect someone from harm."}],
-   "ant": [{"to": "attack", "relation": "antonym", "note": "To try to hurt someone or take a place by force."}]},
-  {"slot": "adjective", "status": "existing", "form": "defensive", "relation": "derivational", "definition": "used or made to protect against attack", "example": "The old city had high defensive walls and towers.", "note": "Also: quick to protect yourself when people criticize you.",
-   "syn": [{"to": "protective", "relation": "synonym", "strength": 0.8, "note": "Made or used to keep someone safe."}],
-   "ant": [{"to": "offensive", "relation": "antonym", "note": "In war and sport: used for attacking."}]},
-  {"slot": "adjective", "status": "existing", "form": "defenseless", "relation": "derivational", "definition": "not able to protect itself from attack or harm", "example": "Without walls, the small town was defenseless.", "note": "American spelling; British English: defenceless.",
-   "syn": [{"to": "helpless", "relation": "synonym", "strength": 0.8, "note": "Easy word: not able to look after yourself."},
-           {"to": "vulnerable", "relation": "synonym", "strength": 0.8, "note": "Easy to hurt or attack."}],
-   "ant": []},
-  {"slot": "adverb", "status": "existing", "form": "defensively", "relation": "derivational", "definition": "in a way that protects against attack rather than attacking", "example": "The team played defensively to keep the score at 1-0.",
-   "syn": [{"to": "cautiously", "relation": "related", "strength": 0.4, "note": "Related: carefully, trying to avoid danger."}],
-   "ant": []}
- ],
- "people": [
-  {"form": "defender", "kind": "person", "status": "existing", "definition": "a person who protects someone or something; also a player who stops goals", "example": "The city's defenders closed the gates at night."},
-  {"form": "defendant", "kind": "person", "status": "other_meaning", "definition": "the person in a court who is accused of a crime", "example": "The defendant listened quietly to the judge.", "note": "Belongs to defense = the side that speaks for an accused person in court, not protection from attack."}
- ],
- "people_not_family": [],
- "affixes": [
-  {"affix": "-er", "in_form": "defender", "meaning_key": "-er", "also": ["teacher", "player", "driver"]},
-  {"affix": "-ive", "in_form": "defensive", "meaning_key": "-ive", "also": ["active", "creative", "protective"]},
-  {"affix": "-less", "in_form": "defenseless", "meaning_key": "-less", "also": ["helpless", "homeless", "careless"]},
-  {"affix": "-ly", "in_form": "defensively", "meaning_key": "-ly", "also": ["quickly", "carefully", "slowly"]}
- ],
- "context": {"text": "In the past, the people of Khiva built thick walls for the defense of their city. These defensive walls helped them defend their homes from attacks.", "uses": ["defense", "defensive", "defend"]},
- "reviewer_note": "Same family as defend (separate corpus headword). Kept the 'protection' sense; court and sport senses are notes or other_meaning. US/UK spelling noted."},
-
-{"headword": "define", "word_id": "6a6ef83f0f1e82a5a0736733", "word_ids": ["6a6ef83f0f1e82a5a0736733"], "cefr": "B2", "kind": "word", "sense_label": "Meaning", "sense_pos": "verb", "corpus_definition": "To explain the exact meaning of a word or idea.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "definition", "relation": "derivational", "definition": "a sentence that explains what a word or idea means", "example": "Look up the definition of this word in your dictionary.",
-   "syn": [{"to": "meaning", "relation": "related", "strength": 0.6, "note": "Easy word: the meaning is the idea; the definition is the sentence that explains it."},
-           {"to": "explanation", "relation": "related", "strength": 0.6, "note": "Related: words that help someone understand something; usually longer."},
-           {"to": "description", "relation": "related", "strength": 0.4, "note": "Related: says what something is like, not exactly what it means."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "define", "relation": "base", "definition": "to explain exactly what a word or idea means", "example": "Can you define the word 'mahalla' for our English guests?",
-   "syn": [{"to": "explain", "relation": "synonym", "strength": 0.8, "note": "Easy word; explain is more general, define is about the exact meaning."},
-           {"to": "describe", "relation": "related", "strength": 0.6, "note": "Related: say what something is like."},
-           {"to": "clarify", "relation": "related", "strength": 0.6, "note": "Formal: make something easier to understand.", "register": "formal"}],
-   "ant": []},
-  {"slot": "adjective", "status": "existing", "form": "defined", "relation": "participial", "definition": "clearly explained or described, with clear limits", "example": "Every student in the group has a clearly defined job.", "note": "Usually with an adverb: clearly defined, well defined.",
-   "syn": [{"to": "clear", "relation": "related", "strength": 0.6, "note": "Easy word: easy to understand or see."},
-           {"to": "specific", "relation": "related", "strength": 0.6, "note": "Exact and detailed."}],
-   "ant": [{"to": "undefined", "relation": "antonym", "note": "Not clearly explained or not having clear limits."},
-           {"to": "vague", "relation": "antonym", "note": "Not clear or exact."}]},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from define. Definite and definitely come from the same old root, but they mean 'certain' and are not made from define.", "not_family": ["definitely", "definite"]}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [],
- "context": {"text": "Our English teacher asked us to define ten new words. I wrote each definition in my notebook, so now every word has a clearly defined meaning for me.", "uses": ["define", "definition", "defined"]},
- "reviewer_note": "Trap: definite/definitely look like family but are not made from define; listed as not_family. No affix claimed for definition (-ition is not in the table)."},
-
-{"headword": "deliberate", "word_id": "6a6ef9b2a60155614809287e", "word_ids": ["6a6ef9b2a60155614809287e"], "cefr": "B2", "kind": "word", "sense_label": "On purpose", "sense_pos": "adjective", "corpus_definition": "done on purpose, not by accident; slow and careful",
- "forms": [
-  {"slot": "noun", "status": "other_meaning", "form": "deliberation", "definition": "long and careful thought or discussion before a decision", "example": "After hours of deliberation, the judges chose the winner.", "note": "Belongs to the verb deliberate = think or talk carefully before deciding, not 'done on purpose'."},
-  {"slot": "verb", "status": "other_meaning", "form": "deliberate", "definition": "to think or talk carefully about something before deciding", "example": "The committee deliberated for two days.", "note": "Belongs to deliberate = think carefully before deciding. Pronounced differently: the adjective ends /-rət/, the verb ends /-reɪt/.", "register": "formal"},
-  {"slot": "adjective", "status": "existing", "form": "deliberate", "relation": "base", "definition": "done on purpose, not by accident", "example": "It was a deliberate attempt to trick everyone.", "note": "Also means 'slow and careful': 'He spoke in a slow, deliberate voice.'",
-   "syn": [{"to": "intentional", "relation": "synonym", "strength": 0.95, "note": "Same meaning: done because you wanted to."},
-           {"to": "planned", "relation": "synonym", "strength": 0.8, "note": "Easy word: thought about before it happened."},
-           {"to": "conscious", "relation": "related", "strength": 0.6, "note": "Related: you know what you are doing: a conscious decision."},
-           {"to": "careful", "relation": "related", "strength": 0.6, "note": "Easy word, for the 'slow and careful' meaning."}],
-   "ant": [{"to": "accidental", "relation": "antonym", "note": "Happening by chance, not planned."},
-           {"to": "unintentional", "relation": "antonym", "note": "Not done on purpose."}]},
-  {"slot": "adverb", "status": "existing", "form": "deliberately", "relation": "derivational", "definition": "on purpose, because you want to, not by accident", "example": "My little brother deliberately hid my phone under the sofa.",
-   "syn": [{"to": "on purpose", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday phrase with the same meaning."},
-           {"to": "intentionally", "relation": "synonym", "strength": 0.95, "note": "Same meaning, a little formal."},
-           {"to": "knowingly", "relation": "synonym", "strength": 0.8, "note": "Knowing that it is wrong or what will happen."}],
-   "ant": [{"to": "accidentally", "relation": "antonym", "note": "By chance, without planning it."},
-           {"to": "by accident", "relation": "antonym", "note": "Easy phrase: not on purpose."},
-           {"to": "unintentionally", "relation": "antonym", "note": "Without wanting to."}]}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [
-  {"affix": "-ly", "in_form": "deliberately", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
- ],
- "context": {"text": "The window broke during our football game, but it wasn't deliberate; the ball hit it by accident. Then my brother deliberately hid the pieces, and that was the real problem.", "uses": ["deliberate", "deliberately"]},
- "reviewer_note": "Corpus definition joins two senses (on purpose / slow and careful); one map, sense 'On purpose', with the second sense as a note. Verb deliberate and deliberation are other_meaning (think carefully)."}
+ {
+  "headword": "dawn",
+  "word_id": "6a6ef9b2a6015561480926c1",
+  "word_ids": [
+   "6a6ef9b2a6015561480926c1"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Morning",
+  "sense_pos": "noun",
+  "corpus_definition": "The time of day when light first appears.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "dawn",
+    "relation": "base",
+    "definition": "the early morning time when the sky first becomes light",
+    "example": "We left Tashkent at dawn to drive to the mountains.",
+    "syn": [
+     {
+      "to": "daybreak",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning; a little less common in speech."
+     },
+     {
+      "to": "sunrise",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Sunrise is the moment the sun appears; dawn starts a little earlier, when the sky gets light."
+     },
+     {
+      "to": "first light",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "A phrase with the same meaning, often in stories."
+     },
+     {
+      "to": "morning",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: morning is the whole early part of the day; dawn is only its very start."
+     }
+    ],
+    "ant": [
+     {
+      "to": "dusk",
+      "relation": "antonym",
+      "note": "The time in the evening when it gets dark."
+     },
+     {
+      "to": "sunset",
+      "relation": "antonym",
+      "note": "The time in the evening when the sun goes down."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "dawn",
+    "relation": "conversion",
+    "definition": "(of a day) to begin, when light first appears in the sky",
+    "example": "The day dawned bright and clear over Samarkand.",
+    "register": "literary",
+    "note": "Mostly in stories. The phrasal verb 'dawn on' (= become clear to someone) is a different meaning.",
+    "syn": [
+     {
+      "to": "break",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used with day: 'The day broke' means the same as 'The day dawned'."
+     },
+     {
+      "to": "begin",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy, general word; dawn is only about a day starting."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective in this family; use 'early morning' (an early morning walk)."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb in this family; use 'at dawn'."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My grandfather always wakes up at dawn to pray and feed the chickens. Yesterday the day dawned cold and grey, but he was outside before the sun came up.",
+   "uses": [
+    "dawn",
+    "dawned"
+   ]
+  },
+  "reviewer_note": "Kept the time-of-day sense; 'dawn on' (realise) and 'the dawn of' (beginning of an era) are mentioned only in notes."
+ },
+ {
+  "headword": "debt",
+  "word_id": "6a42800cb9d8fc24968a4b6a",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b6a",
+   "6a42883f6941e70ad6a00dc2"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Money",
+  "sense_pos": "noun",
+  "corpus_definition": "Money that you owe to another person.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "debt",
+    "relation": "base",
+    "definition": "money that you owe and must pay back to someone",
+    "example": "He worked two jobs to pay off his debt to the bank.",
+    "note": "The b is silent: /det/. Common phrases: in debt, pay off a debt, get into debt.",
+    "syn": [
+     {
+      "to": "loan",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A loan is money you borrow; after you borrow it, the money you still owe is your debt."
+     },
+     {
+      "to": "liability",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Formal word used by banks and companies for money they owe.",
+      "register": "formal"
+     },
+     {
+      "to": "bill",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word: a bill is a paper that asks you to pay for something; if you don't pay it, it becomes a debt."
+     }
+    ],
+    "ant": [
+     {
+      "to": "credit",
+      "relation": "antonym",
+      "note": "In banking, credit is money you have in your account or money someone owes you."
+     },
+     {
+      "to": "savings",
+      "relation": "antonym",
+      "note": "Money you have kept, not money you owe."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb in this family; use 'owe' (I owe him money).",
+    "not_family": [
+     "owe"
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "indebted",
+    "relation": "derivational",
+    "definition": "owing money to a person, bank or country",
+    "example": "The company is heavily indebted to foreign banks.",
+    "register": "formal",
+    "note": "Also means 'very grateful': 'I am indebted to my teacher for her help.'",
+    "syn": [
+     {
+      "to": "in the red",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Informal phrase: having less money in your account than you owe.",
+      "register": "informal"
+     },
+     {
+      "to": "broke",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Informal: having no money at all; you can be broke without owing anyone.",
+      "register": "informal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb in this family."
+   }
+  ],
+  "people": [
+   {
+    "form": "debtor",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person, company or country that owes money",
+    "example": "The bank sent a letter to every debtor who had not paid.",
+    "register": "formal"
+   }
+  ],
+  "people_not_family": [
+   "creditor"
+  ],
+  "affixes": [
+   {
+    "affix": "-or",
+    "in_form": "debtor",
+    "meaning_key": "-or",
+    "also": [
+     "actor",
+     "visitor",
+     "inventor"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My cousin borrowed money to buy a car, and now he is in debt. He doesn't like being indebted to the bank, so he wants to pay everything back before his wedding.",
+   "uses": [
+    "debt",
+    "indebted"
+   ]
+  },
+  "reviewer_note": "Two corpus rows with the same meaning share one map. Creditor (the person who is owed) is not made from debt, so it is listed as not family."
+ },
+ {
+  "headword": "decide on",
+  "word_id": "6a42800cb9d8fc24968a4b93",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b93"
+  ],
+  "cefr": "B2",
+  "kind": "phrasal",
+  "sense_label": "Choosing",
+  "sense_pos": "verb",
+  "corpus_definition": "To make a choice after thinking about options.",
+  "particle_note": "Not separable: decide on + noun (decide on a date, NOT decide a date on). Often in the passive: 'Has a date been decided on?'",
+  "relations": [
+   {
+    "to": "choose",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Easy, everyday word with the same meaning."
+   },
+   {
+    "to": "settle on",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Very close; suggests you finally agreed after a long time."
+   },
+   {
+    "to": "pick",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Informal and easy; less about long thinking."
+   },
+   {
+    "to": "select",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "More formal; often used for choosing from a list.",
+    "register": "formal"
+   },
+   {
+    "to": "opt for",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "A little formal: choose one thing instead of others."
+   }
+  ],
+  "context": {
+   "text": "My sister and her husband still haven't decided on a name for the baby. After a long talk with our parents, they finally decided on Malika.",
+   "uses": [
+    "decided on"
+   ]
+  },
+  "reviewer_note": "Phrasal verb, not separable; no true antonym, so none listed."
+ },
+ {
+  "headword": "decisive",
+  "word_id": "6a6ef83f0f1e82a5a07366f8",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07366f8"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Person",
+  "sense_pos": "adjective",
+  "corpus_definition": "Being able to make choices quickly and clearly.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "decisiveness",
+    "relation": "derivational",
+    "definition": "the quality of making choices quickly and with confidence",
+    "example": "Her decisiveness helped the team finish the project on time.",
+    "syn": [
+     {
+      "to": "determination",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: not giving up; decisiveness is about choosing quickly."
+     },
+     {
+      "to": "firmness",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: being strong and not changing your mind."
+     }
+    ],
+    "ant": [
+     {
+      "to": "indecision",
+      "relation": "antonym",
+      "note": "Not being able to choose."
+     },
+     {
+      "to": "hesitation",
+      "relation": "antonym",
+      "note": "Waiting or stopping because you are not sure."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "decision",
+    "relation": "derivational",
+    "definition": "a choice that you make after thinking about it",
+    "example": "Moving to Tashkent was the biggest choice of his life, and a good decision.",
+    "syn": [
+     {
+      "to": "choice",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; a choice can also be one of the options you have."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "decide",
+    "relation": "derivational",
+    "definition": "to choose something after thinking about the options",
+    "example": "We decided to go to Bukhara for the holiday.",
+    "syn": [
+     {
+      "to": "choose",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; choose is about picking one thing, decide can also be about what to do."
+     },
+     {
+      "to": "make up your mind",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Informal phrase with the same meaning.",
+      "register": "informal"
+     },
+     {
+      "to": "determine",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal word for decide.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "hesitate",
+      "relation": "antonym",
+      "note": "To wait before doing something because you are not sure."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "decisive",
+    "relation": "base",
+    "definition": "able to make choices quickly and clearly",
+    "example": "She is a decisive leader who never wastes time.",
+    "note": "Decisive also means 'very important for the result': a decisive goal.",
+    "syn": [
+     {
+      "to": "firm",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: not changing your mind easily."
+     },
+     {
+      "to": "resolute",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: very sure about what you want to do.",
+      "register": "formal"
+     },
+     {
+      "to": "determined",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: wanting to do something and not stopping."
+     }
+    ],
+    "ant": [
+     {
+      "to": "indecisive",
+      "relation": "antonym",
+      "note": "Not able to choose quickly; always changing your mind."
+     },
+     {
+      "to": "hesitant",
+      "relation": "antonym",
+      "note": "Slow to act because you are not sure."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "decisively",
+    "relation": "derivational",
+    "definition": "quickly and with confidence, without waiting or doubting",
+    "example": "The manager acted decisively when the problem started.",
+    "syn": [
+     {
+      "to": "firmly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: in a strong way that does not change."
+     },
+     {
+      "to": "resolutely",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: in a very determined way.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "hesitantly",
+      "relation": "antonym",
+      "note": "Slowly, because you are not sure."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ness",
+    "in_form": "decisiveness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "happiness",
+     "darkness"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "decisively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "clearly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our new head teacher is very decisive. When the heating broke in winter, she acted decisively and closed the school for two days. Everyone agreed it was the right decision.",
+   "uses": [
+    "decisive",
+    "decisively",
+    "decision"
+   ]
+  },
+  "reviewer_note": "Kept the 'quick to choose' sense; 'decisive = important for the result' is only a note. Indecisive and indecision are listed as antonyms, not forms. No -ive affix claimed: decisive comes from decide with a stem change."
+ },
+ {
+  "headword": "decline",
+  "word_id": "6a6ef83f0f1e82a5a0736671",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736671"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Falling",
+  "sense_pos": "verb",
+  "corpus_definition": "To go down in number or value.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "decline",
+    "relation": "conversion",
+    "definition": "a fall in the amount, number, value or quality of something",
+    "example": "There has been a decline in the number of visitors this winter.",
+    "syn": [
+     {
+      "to": "fall",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with the same meaning: a fall in prices."
+     },
+     {
+      "to": "drop",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word, often for a sudden fall."
+     },
+     {
+      "to": "decrease",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, a little more formal."
+     },
+     {
+      "to": "reduction",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Often when someone makes the amount smaller on purpose."
+     }
+    ],
+    "ant": [
+     {
+      "to": "rise",
+      "relation": "antonym",
+      "note": "An increase in amount or number."
+     },
+     {
+      "to": "increase",
+      "relation": "antonym",
+      "note": "The amount gets bigger."
+     },
+     {
+      "to": "growth",
+      "relation": "antonym",
+      "note": "Getting bigger over time."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "decline",
+    "relation": "base",
+    "definition": "to become less in number, amount or value",
+    "example": "Sales of the old phone model declined last month.",
+    "note": "Decline also means 'to say no politely' (decline an invitation); that is a different meaning.",
+    "syn": [
+     {
+      "to": "fall",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with the same meaning."
+     },
+     {
+      "to": "go down",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday phrasal verb."
+     },
+     {
+      "to": "drop",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word, often for a quick fall."
+     },
+     {
+      "to": "decrease",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, a little more formal."
+     }
+    ],
+    "ant": [
+     {
+      "to": "rise",
+      "relation": "antonym",
+      "note": "To go up."
+     },
+     {
+      "to": "increase",
+      "relation": "antonym",
+      "note": "To become bigger in number or amount."
+     },
+     {
+      "to": "grow",
+      "relation": "antonym",
+      "note": "To become bigger over time."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "declining",
+    "relation": "participial",
+    "definition": "becoming smaller in number, amount or value",
+    "example": "The village has a declining population because young people move to the city.",
+    "syn": [
+     {
+      "to": "falling",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with the same meaning: falling prices."
+     },
+     {
+      "to": "decreasing",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, a little more formal."
+     },
+     {
+      "to": "shrinking",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Getting smaller in size; often used for markets and populations."
+     }
+    ],
+    "ant": [
+     {
+      "to": "rising",
+      "relation": "antonym",
+      "note": "Going up."
+     },
+     {
+      "to": "growing",
+      "relation": "antonym",
+      "note": "Getting bigger."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ing",
+    "in_form": "declining",
+    "meaning_key": "-ing",
+    "also": [
+     "growing",
+     "rising",
+     "interesting"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The number of tourists in Khiva declined sharply in January. Hotel owners are worried about the decline, but they hope the declining numbers will go up again in spring.",
+   "uses": [
+    "declined",
+    "decline",
+    "declining"
+   ]
+  },
+  "reviewer_note": "Kept the 'go down' sense; 'decline = refuse politely' is only a note on the verb."
+ },
+ {
+  "headword": "deed",
+  "word_id": "6a6ef83f0f1e82a5a07367e9",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367e9"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Action",
+  "sense_pos": "noun",
+  "corpus_definition": "something that a person does usually requiring effort",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "deed",
+    "relation": "base",
+    "definition": "something that a person does, especially something very good or very bad",
+    "example": "Helping the old man carry his bags was a good deed.",
+    "register": "formal",
+    "note": "Common phrase: a good deed. In law, a deed is also an official paper showing who owns a house or land.",
+    "syn": [
+     {
+      "to": "act",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close: an act of kindness = a kind deed."
+     },
+     {
+      "to": "action",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word for something you do."
+     },
+     {
+      "to": "feat",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Something difficult that needs a lot of skill or strength."
+     },
+     {
+      "to": "achievement",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Something good you succeed in doing after hard work."
+     }
+    ],
+    "ant": [
+     {
+      "to": "misdeed",
+      "relation": "antonym",
+      "note": "Formal: a bad or wrong act; the opposite of a good deed.",
+      "register": "formal"
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb in this family for learners; use 'do' or 'act'. Deed comes from the same old root as 'do', but it is not made from it.",
+    "not_family": [
+     "do"
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective in this family."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "In our mahalla, people remember every good deed. When my neighbour fixed the roof of the old teacher's house for free, everyone talked about his kind deed for weeks.",
+   "uses": [
+    "deed"
+   ]
+  },
+  "reviewer_note": "Kept the 'action' sense; the legal-document sense is only a note. Misdeed is listed as an antonym, not a form."
+ },
+ {
+  "headword": "defend",
+  "word_id": "6a42662edeeb39f881130117",
+  "word_ids": [
+   "6a42662edeeb39f881130117"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Protect",
+  "sense_pos": "verb",
+  "corpus_definition": "To protect someone or something from danger.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "defense",
+    "relation": "derivational",
+    "definition": "the act of protecting someone or something from attack",
+    "example": "The old walls were built for the defense of the city.",
+    "note": "American spelling; British English: defence.",
+    "syn": [
+     {
+      "to": "protection",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with almost the same meaning."
+     },
+     {
+      "to": "security",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: being safe, or the things that keep a place safe."
+     },
+     {
+      "to": "guard",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: a person who keeps a place safe, or being on watch."
+     }
+    ],
+    "ant": [
+     {
+      "to": "attack",
+      "relation": "antonym",
+      "note": "Trying to hurt someone or take something by force."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "defend",
+    "relation": "base",
+    "definition": "to protect someone or something from attack or danger",
+    "example": "The dog will protect its home and defend the children from strangers.",
+    "syn": [
+     {
+      "to": "protect",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with the same meaning."
+     },
+     {
+      "to": "guard",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To watch a place or person to keep them safe."
+     },
+     {
+      "to": "keep safe",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrase with almost the same meaning."
+     },
+     {
+      "to": "shield",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To cover or protect someone from harm."
+     }
+    ],
+    "ant": [
+     {
+      "to": "attack",
+      "relation": "antonym",
+      "note": "To try to hurt someone or take a place by force."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "defensive",
+    "relation": "derivational",
+    "definition": "used or made to protect against attack",
+    "example": "The soldiers built a defensive wall around the camp.",
+    "note": "Also: quick to protect yourself when people criticize you: 'Don't get so defensive!'",
+    "syn": [
+     {
+      "to": "protective",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Made or used to keep someone safe."
+     }
+    ],
+    "ant": [
+     {
+      "to": "offensive",
+      "relation": "antonym",
+      "note": "In war and sport: used for attacking."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "defenseless",
+    "relation": "derivational",
+    "definition": "not able to protect itself from attack or harm",
+    "example": "The baby birds were defenseless when the cat came.",
+    "note": "American spelling; British English: defenceless.",
+    "syn": [
+     {
+      "to": "helpless",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: not able to look after yourself."
+     },
+     {
+      "to": "vulnerable",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy to hurt or attack."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "defensively",
+    "relation": "derivational",
+    "definition": "in a way that protects against attack rather than attacking",
+    "example": "Our football team played defensively in the second half.",
+    "syn": [
+     {
+      "to": "cautiously",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: carefully, trying to avoid danger."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [
+   {
+    "form": "defender",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who protects someone or something; also a player who stops goals",
+    "example": "The defender stopped the ball before it reached the goal."
+   },
+   {
+    "form": "defendant",
+    "kind": "person",
+    "status": "other_meaning",
+    "definition": "the person in a court who is accused of a crime",
+    "example": "The defendant said he was at home that night.",
+    "note": "Belongs to defend = speak for someone in a court of law, not protecting from danger."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-er",
+    "in_form": "defender",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "player",
+     "driver"
+    ]
+   },
+   {
+    "affix": "-ive",
+    "in_form": "defensive",
+    "meaning_key": "-ive",
+    "also": [
+     "active",
+     "creative",
+     "protective"
+    ]
+   },
+   {
+    "affix": "-less",
+    "in_form": "defenseless",
+    "meaning_key": "-less",
+    "also": [
+     "helpless",
+     "homeless",
+     "careless"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "defensively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "carefully",
+     "slowly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Every spring the farmers defend their fields from the river by building a defensive wall of sand bags. Without this defense, the young plants would be defenseless against the water.",
+   "uses": [
+    "defend",
+    "defensive",
+    "defense",
+    "defenseless"
+   ]
+  },
+  "reviewer_note": "Kept the 'protect' sense; defendant (court) is other_meaning. Spelling defense/defence noted.",
+  "gate_overrides": [
+   {
+    "msg_contains": "'defendant' is a compound",
+    "reason": "defendant is defend + the suffix -ant (like applicant, assistant), not a compound of two words; it is in Oxford and Cambridge learner dictionaries and is shown as other_meaning (court sense)."
+   }
+  ]
+ },
+ {
+  "headword": "defense",
+  "word_id": "6a6ef83f0f1e82a5a073683b",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073683b"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Protection",
+  "sense_pos": "noun",
+  "corpus_definition": "the action of keeping something safe from harm or attack",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "defense",
+    "relation": "base",
+    "definition": "the act of keeping someone or something safe from harm or attack",
+    "example": "The soldiers stood guard for the country's defense.",
+    "note": "American spelling; British English: defence. Also used in sport (the players who stop goals) and in law.",
+    "syn": [
+     {
+      "to": "protection",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with almost the same meaning."
+     },
+     {
+      "to": "security",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: being safe, or the things that keep a place safe."
+     },
+     {
+      "to": "resistance",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Fighting back against an attack."
+     }
+    ],
+    "ant": [
+     {
+      "to": "attack",
+      "relation": "antonym",
+      "note": "Trying to hurt someone or take something by force."
+     },
+     {
+      "to": "offense",
+      "relation": "antonym",
+      "note": "American English, in sport and war: attacking. British spelling: offence."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "defend",
+    "relation": "derivational",
+    "definition": "to protect someone or something from attack or danger",
+    "example": "The army is ready to defend the border.",
+    "syn": [
+     {
+      "to": "protect",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with the same meaning."
+     },
+     {
+      "to": "guard",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To watch a place or person to keep them safe."
+     },
+     {
+      "to": "shield",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To cover or protect someone from harm."
+     }
+    ],
+    "ant": [
+     {
+      "to": "attack",
+      "relation": "antonym",
+      "note": "To try to hurt someone or take a place by force."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "defensive",
+    "relation": "derivational",
+    "definition": "used or made to protect against attack",
+    "example": "The old city had high defensive walls and towers.",
+    "note": "Also: quick to protect yourself when people criticize you.",
+    "syn": [
+     {
+      "to": "protective",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Made or used to keep someone safe."
+     }
+    ],
+    "ant": [
+     {
+      "to": "offensive",
+      "relation": "antonym",
+      "note": "In war and sport: used for attacking."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "defenseless",
+    "relation": "derivational",
+    "definition": "not able to protect itself from attack or harm",
+    "example": "Without walls, the small town was defenseless.",
+    "note": "American spelling; British English: defenceless.",
+    "syn": [
+     {
+      "to": "helpless",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: not able to look after yourself."
+     },
+     {
+      "to": "vulnerable",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy to hurt or attack."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "defensively",
+    "relation": "derivational",
+    "definition": "in a way that protects against attack rather than attacking",
+    "example": "The team played defensively to keep the score at 1-0.",
+    "syn": [
+     {
+      "to": "cautiously",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: carefully, trying to avoid danger."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [
+   {
+    "form": "defender",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who protects someone or something; also a player who stops goals",
+    "example": "The city's defenders closed the gates at night."
+   },
+   {
+    "form": "defendant",
+    "kind": "person",
+    "status": "other_meaning",
+    "definition": "the person in a court who is accused of a crime",
+    "example": "The defendant listened quietly to the judge.",
+    "note": "Belongs to defense = the side that speaks for an accused person in court, not protection from attack."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-er",
+    "in_form": "defender",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "player",
+     "driver"
+    ]
+   },
+   {
+    "affix": "-ive",
+    "in_form": "defensive",
+    "meaning_key": "-ive",
+    "also": [
+     "active",
+     "creative",
+     "protective"
+    ]
+   },
+   {
+    "affix": "-less",
+    "in_form": "defenseless",
+    "meaning_key": "-less",
+    "also": [
+     "helpless",
+     "homeless",
+     "careless"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "defensively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "carefully",
+     "slowly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "In the past, the people of Khiva built thick walls for the defense of their city. These defensive walls helped them defend their homes from attacks.",
+   "uses": [
+    "defense",
+    "defensive",
+    "defend"
+   ]
+  },
+  "reviewer_note": "Same family as defend (separate corpus headword). Kept the 'protection' sense; court and sport senses are notes or other_meaning. US/UK spelling noted.",
+  "gate_overrides": [
+   {
+    "msg_contains": "'defendant' is a compound",
+    "reason": "defendant is defend + the suffix -ant (like applicant, assistant), not a compound of two words; it is in Oxford and Cambridge learner dictionaries and is shown as other_meaning (court sense)."
+   }
+  ]
+ },
+ {
+  "headword": "define",
+  "word_id": "6a6ef83f0f1e82a5a0736733",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736733"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Meaning",
+  "sense_pos": "verb",
+  "corpus_definition": "To explain the exact meaning of a word or idea.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "definition",
+    "relation": "derivational",
+    "definition": "a sentence that explains what a word or idea means",
+    "example": "Look up the definition of this word in your dictionary.",
+    "syn": [
+     {
+      "to": "meaning",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: the meaning is the idea; the definition is the sentence that explains it."
+     },
+     {
+      "to": "explanation",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: words that help someone understand something; usually longer."
+     },
+     {
+      "to": "description",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: says what something is like, not exactly what it means."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "define",
+    "relation": "base",
+    "definition": "to explain exactly what a word or idea means",
+    "example": "Can you define the word 'mahalla' for our English guests?",
+    "syn": [
+     {
+      "to": "explain",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; explain is more general, define is about the exact meaning."
+     },
+     {
+      "to": "describe",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: say what something is like."
+     },
+     {
+      "to": "clarify",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Formal: make something easier to understand.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "defined",
+    "relation": "participial",
+    "definition": "clearly explained or described, with clear limits",
+    "example": "Every student in the group has a clearly defined job.",
+    "note": "Usually with an adverb: clearly defined, well defined.",
+    "syn": [
+     {
+      "to": "clear",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: easy to understand or see."
+     },
+     {
+      "to": "specific",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Exact and detailed."
+     }
+    ],
+    "ant": [
+     {
+      "to": "undefined",
+      "relation": "antonym",
+      "note": "Not clearly explained or not having clear limits."
+     },
+     {
+      "to": "vague",
+      "relation": "antonym",
+      "note": "Not clear or exact."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from define. Definite and definitely come from the same old root, but they mean 'certain' and are not made from define.",
+    "not_family": [
+     "definitely",
+     "definite"
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Our English teacher asked us to define ten new words. I wrote each definition in my notebook, so now every word has a clearly defined meaning for me.",
+   "uses": [
+    "define",
+    "definition",
+    "defined"
+   ]
+  },
+  "reviewer_note": "Trap: definite/definitely look like family but are not made from define; listed as not_family. No affix claimed for definition (-ition is not in the table)."
+ },
+ {
+  "headword": "deliberate",
+  "word_id": "6a6ef9b2a60155614809287e",
+  "word_ids": [
+   "6a6ef9b2a60155614809287e"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "On purpose",
+  "sense_pos": "adjective",
+  "corpus_definition": "done on purpose, not by accident; slow and careful",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "deliberation",
+    "definition": "long and careful thought or discussion before a decision",
+    "example": "After hours of deliberation, the judges chose the winner.",
+    "note": "Belongs to the verb deliberate = think or talk carefully before deciding, not 'done on purpose'."
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "deliberate",
+    "definition": "to think or talk carefully about something before deciding",
+    "example": "The committee deliberated for two days.",
+    "note": "Belongs to deliberate = think carefully before deciding. Pronounced differently: the adjective ends /-rət/, the verb ends /-reɪt/.",
+    "register": "formal"
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "deliberate",
+    "relation": "base",
+    "definition": "done on purpose, not by accident",
+    "example": "It was a deliberate attempt to trick everyone.",
+    "note": "Also means 'slow and careful': 'He spoke in a slow, deliberate voice.'",
+    "syn": [
+     {
+      "to": "intentional",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning: done because you wanted to."
+     },
+     {
+      "to": "planned",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: thought about before it happened."
+     },
+     {
+      "to": "conscious",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: you know what you are doing: a conscious decision."
+     },
+     {
+      "to": "careful",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word, for the 'slow and careful' meaning."
+     }
+    ],
+    "ant": [
+     {
+      "to": "accidental",
+      "relation": "antonym",
+      "note": "Happening by chance, not planned."
+     },
+     {
+      "to": "unintentional",
+      "relation": "antonym",
+      "note": "Not done on purpose."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "deliberately",
+    "relation": "derivational",
+    "definition": "on purpose, because you want to, not by accident",
+    "example": "My little brother deliberately hid my phone under the sofa.",
+    "syn": [
+     {
+      "to": "on purpose",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday phrase with the same meaning."
+     },
+     {
+      "to": "intentionally",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, a little formal."
+     },
+     {
+      "to": "knowingly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Knowing that it is wrong or what will happen."
+     }
+    ],
+    "ant": [
+     {
+      "to": "accidentally",
+      "relation": "antonym",
+      "note": "By chance, without planning it."
+     },
+     {
+      "to": "by accident",
+      "relation": "antonym",
+      "note": "Easy phrase: not on purpose."
+     },
+     {
+      "to": "unintentionally",
+      "relation": "antonym",
+      "note": "Without wanting to."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "deliberately",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "carefully"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The window broke during our football game, but it wasn't deliberate; the ball hit it by accident. Then my brother deliberately hid the pieces, and that was the real problem.",
+   "uses": [
+    "deliberate",
+    "deliberately"
+   ]
+  },
+  "reviewer_note": "Corpus definition joins two senses (on purpose / slow and careful); one map, sense 'On purpose', with the second sense as a note. Verb deliberate and deliberation are other_meaning (think carefully)."
+ }
 ]
