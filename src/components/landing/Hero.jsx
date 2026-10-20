@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, Play, Sparkles } from "lucide-react";
+import { ArrowRight, LogIn, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAppLang } from "@/hooks/useAppLang";
 import RoadmapBeacon from "@/components/landing/RoadmapBeacon";
@@ -9,8 +9,24 @@ import { LAUNCH_DATE } from "@/lib/appMeta";
 
 const ease = [0.22, 1, 0.36, 1];
 
+// Returning students kept tapping "Start for free" and registering a second
+// account (Oct 2026: ~10 duplicate accounts in User). So the hero now offers
+// "I have an account — Log in" as the second button, and a device that has
+// been signed in before (flag set in AuthContext) sees Log in FIRST.
+const RETURNING = {
+  uz: { welcome: "Qaytganingizdan xursandmiz! Hisobingiz bor — shunchaki kiring.", have: "Hisobim bor — Kirish", newHere: "Yangi hisob ochish" },
+  en: { welcome: "Welcome back! You already have an account — just log in.", have: "I have an account — Log in", newHere: "Create a new account" },
+  ru: { welcome: "С возвращением! У вас уже есть аккаунт — просто войдите.", have: "У меня есть аккаунт — Войти", newHere: "Создать новый аккаунт" },
+};
+
+function isReturningDevice() {
+  try { return localStorage.getItem("virora_has_account") === "1"; } catch { return false; }
+}
+
 export default function Hero() {
-  const { t } = useAppLang();
+  const { t, lang } = useAppLang();
+  const r = RETURNING[lang] || RETURNING.uz;
+  const returning = isReturningDevice();
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-sky-50 via-slate-50 to-slate-50 landing-dark:from-slate-900 landing-dark:via-slate-950 landing-dark:to-slate-950" />
@@ -60,20 +76,42 @@ export default function Hero() {
             transition={{ duration: 0.6, ease, delay: 0.2 }}
             className="mt-8 flex flex-wrap gap-3"
           >
-            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-              <Link to="/register">
-                <Button className="h-12 px-6 text-base">
-                  {t("landing.hero.cta_primary")} <ArrowRight className="w-4 h-4 ml-1" />
-                </Button>
-              </Link>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-              <a href="#how-it-works">
-                <Button variant="outline" className="h-12 px-6 text-base bg-white landing-dark:bg-slate-900 border-slate-200 landing-dark:border-slate-700 text-slate-700 landing-dark:text-slate-200 hover:bg-slate-50 landing-dark:hover:bg-slate-800">
-                  <Play className="w-4 h-4 mr-1" /> {t("landing.hero.cta_secondary")}
-                </Button>
-              </a>
-            </motion.div>
+            {returning ? (
+              <>
+                <p className="w-full text-sm font-medium text-slate-600 landing-dark:text-slate-300">{r.welcome}</p>
+                <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
+                  <Link to="/login">
+                    <Button className="h-12 px-6 text-base">
+                      <LogIn className="w-4 h-4 mr-2" /> {t("landing.nav.login")}
+                    </Button>
+                  </Link>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
+                  <Link to="/register">
+                    <Button variant="outline" className="h-12 px-6 text-base bg-white landing-dark:bg-slate-900 border-slate-200 landing-dark:border-slate-700 text-slate-700 landing-dark:text-slate-200 hover:bg-slate-50 landing-dark:hover:bg-slate-800">
+                      {r.newHere}
+                    </Button>
+                  </Link>
+                </motion.div>
+              </>
+            ) : (
+              <>
+                <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
+                  <Link to="/register">
+                    <Button className="h-12 px-6 text-base">
+                      {t("landing.hero.cta_primary")} <ArrowRight className="w-4 h-4 ml-1" />
+                    </Button>
+                  </Link>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
+                  <Link to="/login">
+                    <Button variant="outline" className="h-12 px-6 text-base bg-white landing-dark:bg-slate-900 border-slate-200 landing-dark:border-slate-700 text-slate-700 landing-dark:text-slate-200 hover:bg-slate-50 landing-dark:hover:bg-slate-800">
+                      <LogIn className="w-4 h-4 mr-2" /> {r.have}
+                    </Button>
+                  </Link>
+                </motion.div>
+              </>
+            )}
           </motion.div>
 
           <p className="mt-4 text-xs text-slate-400 landing-dark:text-slate-500">{t("landing.hero.caption")}</p>
