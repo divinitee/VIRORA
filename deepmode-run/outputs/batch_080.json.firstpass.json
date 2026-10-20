@@ -1,0 +1,327 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "envy",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'enviously' is rare (zipf 1.9)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "envy: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "envy: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "enviable: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "enviously: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "envy"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "envied"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "envy vs jealousy difference noted on the synonym."
+  },
+  {
+   "headword": "equipment",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: equity"
+    },
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: equal"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: equably, equally. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "equipments",
+       "equipment"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "equipped"
+      ],
+      "VBN": [
+       "equipped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Uncountable-noun trap noted for learners."
+  },
+  {
+   "headword": "escape from",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "No true antonym phrasal verb; none listed."
+  },
+  {
+   "headword": "exact",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "noun: marked 'no such form'; rare or doubtful family words exist: exaction, exactness"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "noun: marked 'no such form'; real words that look related: exaction, exactness. Check."
+    }
+   ],
+   "inflections": {
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "exacter"
+      ],
+      "JJS": [
+       "exactest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "verb exact (demand) as other_meaning; inexact listed as antonym (Rule 3)."
+  },
+  {
+   "headword": "examination",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "people 'examinee' is rare (zipf 1.7)"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'test' is a synonym/related target for examination, experiment"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "examinations",
+       "examination"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "examined"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "exam (clipping) kept out of synonyms because it is the same family; mentioned in the note."
+  },
+  {
+   "headword": "excitement",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: excitation"
+    },
+    {
+     "cat": "not shown",
+     "msg": "verb: real words that may be in the family but aren't shown: excise"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "excite: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "excitedly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "excitements",
+       "excitement"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "excited"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "excited/exciting -ed/-ing trap noted."
+  },
+  {
+   "headword": "exhibition",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [
+    {
+     "cat": "schema",
+     "msg": "people 'exhibit' is already shown elsewhere in the map"
+    }
+   ],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "exhibitions"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "exhibited"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "exhibit noun (object) placed in People & things as a thing (Rule 8)."
+  },
+  {
+   "headword": "expense",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "expenses",
+       "expense"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "expended"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "expend and expenditure marked formal; expenses (plural) = money paid back by an employer, not split."
+  },
+  {
+   "headword": "experiment",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: experimentation"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'test' is a synonym/related target for examination, experiment"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "experiments",
+       "experiment"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "experimented"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "experience is not family in meaning; experimenter rare, left out."
+  },
+  {
+   "headword": "extinct",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "extinctions",
+       "extinction"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "2 rows merged (same meaning, B1)."
+  }
+ ]
+}
