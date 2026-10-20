@@ -55,3 +55,8 @@ Pilot audit (Claude, Oct 20): all 6 test suites pass, keys in sync (9 topics), l
 ## Gate questions for Tee
 
 1. `tools/grammar-practice/composition-tests.mjs` line 77 asserts that 240 choose draws from third-person-s must hit a repeat, i.e. that the bank is thin (≤239 variants). The rebuild has 320, so the test fails for the right reason. Proposed fix: draw `sizes.choose + 40` instead of a fixed 240, which keeps the test's purpose (repeats come back once the pool runs out) for any pool size. Needs Tee's OK because tests are gates.
+- 2026-10-20 Batch B4 audit (#27–31, reviewer: Claude). All suites green, keys in sync (29). Read every multi-slot item (grammar-run/list_multislot.mjs — new helper, use it on every batch). 3 rule-12 defects fixed in authored files, then re-run:
+  - irregular-plural: "Two men are fixing the {thing} in our {place}" paired road/lift with office/street → now thing=roof/window/door/gate, place=house/school/office/building, "at our".
+  - irregular-plural: geese "near the river in the zoo" → where=our village/Parkent/Chimgan/the mountains.
+  - partitive: kilos of rice could be bought "at the bakery" → rice items use GROCER (market/shop/bazaar/supermarket); bread items keep bakery.
+  Rest clean: the-unique, es-plural, y-ies-plural (vowel+y excluded, "persons" never offered — good).
