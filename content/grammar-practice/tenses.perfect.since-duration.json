@@ -1,0 +1,1837 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My family ______ in this {home} since 2015, near the {place}.",
+  "options": [
+   "has lived",
+   "lives",
+   "is living",
+   "lived"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has lived.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "building",
+    "street"
+   ],
+   "place": [
+    "market",
+    "park",
+    "metro",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ {name} since we were children at the {place}.",
+  "options": [
+   "have known",
+   "know",
+   "am knowing",
+   "knew"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have known.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Bobur",
+    "Nigora"
+   ],
+   "place": [
+    "kindergarten",
+    "school",
+    "summer camp",
+    "village school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Kamila ______ her {thing} since her birthday in {month}.",
+  "options": [
+   "has had",
+   "has",
+   "is having",
+   "had"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has had.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bike",
+    "watch",
+    "laptop"
+   ],
+   "month": [
+    "March",
+    "June",
+    "May",
+    "April"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ friends since the first day at {place} in {city}.",
+  "options": [
+   "have been",
+   "are",
+   "are being",
+   "were"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have been.",
+  "slots": {
+   "place": [
+    "college",
+    "school",
+    "university",
+    "camp"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mother ______ at the {place} since 2012 with her {person}.",
+  "options": [
+   "has worked",
+   "works",
+   "is working",
+   "worked"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has worked.",
+  "slots": {
+   "place": [
+    "hospital",
+    "bank",
+    "school",
+    "library"
+   ],
+   "person": [
+    "friend",
+    "sister",
+    "colleague",
+    "team"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ a {pet} since I was six, but my {person} says no.",
+  "options": [
+   "have wanted",
+   "want",
+   "am wanting",
+   "wanted"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have wanted.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "person": [
+    "mother",
+    "father",
+    "grandmother",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur ______ ill since Monday, so he is at home with his {person} and his {thing}.",
+  "options": [
+   "has been",
+   "is",
+   "is being",
+   "was"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has been.",
+  "slots": {
+   "person": [
+    "mother",
+    "grandmother",
+    "brother",
+    "sister"
+   ],
+   "thing": [
+    "books",
+    "phone",
+    "laptop",
+    "cat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The girls ______ {lang} since 2023 at the {place}.",
+  "options": [
+   "have studied",
+   "study",
+   "am studying",
+   "studied"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have studied.",
+  "slots": {
+   "lang": [
+    "English",
+    "Korean",
+    "German",
+    "Turkish"
+   ],
+   "place": [
+    "language centre",
+    "college",
+    "school",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mr Rakhimov ______ {subject} at our {place} since 2008.",
+  "options": [
+   "has taught",
+   "teaches",
+   "is teaching",
+   "taught"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has taught.",
+  "slots": {
+   "subject": [
+    "maths",
+    "history",
+    "physics",
+    "music"
+   ],
+   "place": [
+    "school",
+    "college",
+    "lyceum",
+    "centre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ for the {team} since last September with my {person}.",
+  "options": [
+   "have played",
+   "play",
+   "am playing",
+   "played"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have played.",
+  "slots": {
+   "team": [
+    "school team",
+    "city team",
+    "college team",
+    "club"
+   ],
+   "person": [
+    "brother",
+    "best friend",
+    "cousin",
+    "classmate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This old {thing} ______ to our family since my {person} was young.",
+  "options": [
+   "has belonged",
+   "belongs",
+   "is belonging",
+   "belonged"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has belonged.",
+  "slots": {
+   "thing": [
+    "carpet",
+    "clock",
+    "table",
+    "piano"
+   ],
+   "person": [
+    "grandfather",
+    "grandmother",
+    "great-grandmother",
+    "great-grandfather"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousins ______ in {city} since 2019 with their {person}.",
+  "options": [
+   "have lived",
+   "live",
+   "are living",
+   "lived"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have lived.",
+  "slots": {
+   "city": [
+    "Seoul",
+    "Moscow",
+    "Istanbul",
+    "Almaty"
+   ],
+   "person": [
+    "parents",
+    "family",
+    "grandmother",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sevara ______ {food} since she was a little girl at her {person}'s house.",
+  "options": [
+   "has liked",
+   "likes",
+   "is liking",
+   "liked"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has liked.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "samsa",
+    "lagman"
+   ],
+   "person": [
+    "grandmother",
+    "aunt",
+    "uncle",
+    "grandfather"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ this {thing} since my first day at {place}.",
+  "options": [
+   "have had",
+   "have",
+   "am having",
+   "had"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have had.",
+  "slots": {
+   "thing": [
+    "bag",
+    "pencil case",
+    "jacket",
+    "lunch box"
+   ],
+   "place": [
+    "school",
+    "college",
+    "work",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} ______ closed since Friday because of the {reason}.",
+  "options": [
+   "has been",
+   "is",
+   "is being",
+   "was"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has been.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "café",
+    "pharmacy",
+    "shop"
+   ],
+   "reason": [
+    "holiday",
+    "repairs",
+    "owner's trip",
+    "new floor"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My parents ______ our neighbours since they moved to {district}, near the {place}.",
+  "options": [
+   "have known",
+   "know",
+   "are knowing",
+   "knew"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have known.",
+  "slots": {
+   "district": [
+    "Chilonzor",
+    "Yunusobod",
+    "Sergeli",
+    "Mirobod"
+   ],
+   "place": [
+    "metro",
+    "market",
+    "park",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Rustam ______ a {vehicle} since he got his licence, and he takes it to {place}.",
+  "options": [
+   "has driven",
+   "drives",
+   "is driving",
+   "drove"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has driven.",
+  "slots": {
+   "vehicle": [
+    "taxi",
+    "minibus",
+    "car",
+    "van"
+   ],
+   "place": [
+    "work",
+    "the market",
+    "the airport",
+    "the station"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ in this {group} since the start of the year with my {person}.",
+  "options": [
+   "have been",
+   "am",
+   "am being",
+   "was"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have been.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "club",
+    "team"
+   ],
+   "person": [
+    "best friend",
+    "cousin",
+    "brother",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle ______ a small {place} in {city} since 2016.",
+  "options": [
+   "has owned",
+   "owns",
+   "is owning",
+   "owned"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: has owned.",
+  "slots": {
+   "place": [
+    "café",
+    "shop",
+    "bakery",
+    "garage"
+   ],
+   "city": [
+    "Tashkent",
+    "Andijan",
+    "Namangan",
+    "Karshi"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ this {thing} in our {room} since last winter.",
+  "options": [
+   "have used",
+   "use",
+   "am using",
+   "used"
+  ],
+  "key": 0,
+  "why": "It started in the past and is still true now, so use the present perfect with since: have used.",
+  "slots": {
+   "thing": [
+    "heater",
+    "lamp",
+    "sofa",
+    "carpet"
+   ],
+   "room": [
+    "living room",
+    "bedroom",
+    "kitchen",
+    "flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "I ______ (know) my best friend {name} since 2016, from the {place}.",
+  "key": "have known",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have known.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Bobur",
+    "Nigora"
+   ],
+   "place": [
+    "park",
+    "school",
+    "summer camp",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "My grandmother ______ (live) in her {home} since 1980, near the {place}.",
+  "key": "has lived",
+  "acceptable": [
+   "has been living"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: has lived.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "village house",
+    "old house"
+   ],
+   "place": [
+    "river",
+    "market",
+    "school",
+    "mosque"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "We ______ (have) our {pet} since last summer, and she loves the {place}.",
+  "key": "have had",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have had.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "rabbit",
+    "puppy"
+   ],
+   "place": [
+    "garden",
+    "yard",
+    "park",
+    "sofa"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "Aziz ______ (be) at the {place} since 8 o'clock with his {person}.",
+  "key": "has been",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has been.",
+  "slots": {
+   "place": [
+    "library",
+    "gym",
+    "hospital",
+    "office"
+   ],
+   "person": [
+    "brother",
+    "friend",
+    "father",
+    "classmate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "I ______ (want) to visit {city} since I saw a film about it with my {person}.",
+  "key": "have wanted",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have wanted.",
+  "slots": {
+   "city": [
+    "Khiva",
+    "Istanbul",
+    "Seoul",
+    "Bukhara"
+   ],
+   "person": [
+    "father",
+    "family",
+    "brother",
+    "class"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "My father ______ (work) at the {place} since 2009 as a {job}.",
+  "key": "has worked",
+  "acceptable": [
+   "has been working"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: has worked.",
+  "slots": {
+   "place": [
+    "factory",
+    "airport",
+    "bank",
+    "hospital"
+   ],
+   "job": [
+    "driver",
+    "manager",
+    "mechanic",
+    "guard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "Malika and Laylo ______ (study) {subject} since September at the {place}.",
+  "key": "have studied",
+  "acceptable": [
+   "have been studying"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: have studied.",
+  "slots": {
+   "subject": [
+    "chemistry",
+    "biology",
+    "IT",
+    "economics"
+   ],
+   "place": [
+    "college",
+    "centre",
+    "university",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "Javohir ______ (have) a {problem} since Tuesday, so he is at home with his {person}.",
+  "key": "has had",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has had.",
+  "slots": {
+   "problem": [
+    "cold",
+    "headache",
+    "fever",
+    "cough"
+   ],
+   "person": [
+    "mother",
+    "grandmother",
+    "sister",
+    "father"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "My sisters ______ (be) in {city} since Sunday with their {person}.",
+  "key": "have been",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have been.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Moscow",
+    "Almaty"
+   ],
+   "person": [
+    "aunt",
+    "friends",
+    "class",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "Mrs Yusupova ______ (teach) at our {place} since 2014, and the {who} love her.",
+  "key": "has taught",
+  "acceptable": [
+   "has been teaching"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: has taught.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "lyceum",
+    "centre"
+   ],
+   "who": [
+    "students",
+    "children",
+    "parents",
+    "teachers"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "I ______ (like) {sport} since I was a child, especially with my {person}.",
+  "key": "have liked",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have liked.",
+  "slots": {
+   "sport": [
+    "football",
+    "chess",
+    "swimming",
+    "tennis"
+   ],
+   "person": [
+    "father",
+    "brother",
+    "uncle",
+    "friends"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "Dilshod ______ (play) the {instrument} since he was eight, with a {who}.",
+  "key": "has played",
+  "acceptable": [
+   "has been playing"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: has played.",
+  "slots": {
+   "instrument": [
+    "piano",
+    "guitar",
+    "violin",
+    "dutar"
+   ],
+   "who": [
+    "teacher",
+    "tutor",
+    "music club",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "We ______ (live) in {district} since 2018, near the {place}.",
+  "key": "have lived",
+  "acceptable": [
+   "have been living"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: have lived.",
+  "slots": {
+   "district": [
+    "Chilonzor",
+    "Yunusobod",
+    "Sergeli",
+    "Mirobod"
+   ],
+   "place": [
+    "metro",
+    "market",
+    "park",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "Our teacher ______ (know) my {person} since they were students in {city}.",
+  "key": "has known",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has known.",
+  "slots": {
+   "person": [
+    "mother",
+    "father",
+    "aunt",
+    "uncle"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Moscow",
+    "Bukhara"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "The {thing} on our street ______ (be) broken since the storm, and the {place} is dark.",
+  "key": "have been",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have been.",
+  "slots": {
+   "thing": [
+    "street lights",
+    "lamps",
+    "lights",
+    "traffic lights"
+   ],
+   "place": [
+    "street",
+    "corner",
+    "road",
+    "path"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "My grandfather ______ (use) the same {thing} since 2005 in his {place}.",
+  "key": "has used",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has used.",
+  "slots": {
+   "thing": [
+    "radio",
+    "clock",
+    "bike",
+    "tools"
+   ],
+   "place": [
+    "garage",
+    "garden",
+    "room",
+    "workshop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "I ______ (be) a member of the {club} since last year with my {person}.",
+  "key": "have been",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have been.",
+  "slots": {
+   "club": [
+    "chess club",
+    "football club",
+    "art club",
+    "music club"
+   ],
+   "person": [
+    "brother",
+    "cousin",
+    "friend",
+    "classmate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "Kamola ______ (want) a {thing} since her last birthday, but it is too {adj}.",
+  "key": "has wanted",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has wanted.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "new phone",
+    "bike",
+    "camera"
+   ],
+   "adj": [
+    "expensive",
+    "big",
+    "much money",
+    "dear"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "My parents ______ (own) this {thing} since 2010, and it still works {how}.",
+  "key": "have owned",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have owned.",
+  "slots": {
+   "thing": [
+    "car",
+    "fridge",
+    "TV",
+    "washing machine"
+   ],
+   "how": [
+    "well",
+    "fine",
+    "perfectly",
+    "very well"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present perfect of the verb in brackets.",
+  "source": "It ______ (be) very {weather} in {city} since the weekend.",
+  "key": "has been",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has been.",
+  "slots": {
+   "weather": [
+    "cold",
+    "hot",
+    "windy",
+    "rainy"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Termez",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the two sentences. Complete one sentence with since and the present perfect.",
+  "source": "I moved to {city} in 2017. I still live there.",
+  "hint": "I ______ (live) in {city} since 2017 with my {person}.",
+  "key": "have lived",
+  "acceptable": [
+   "have been living"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: have lived.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Namangan",
+    "Karshi"
+   ],
+   "person": [
+    "family",
+    "parents",
+    "sister",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the two sentences. Complete one sentence with since and the present perfect.",
+  "source": "Bekzod met {name} in 2020. They are still friends.",
+  "hint": "Bekzod ______ (know) {name} since 2020, from the {place}.",
+  "key": "has known",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has known.",
+  "slots": {
+   "name": [
+    "Malika",
+    "Sardor",
+    "Anna",
+    "Timur"
+   ],
+   "place": [
+    "gym",
+    "college",
+    "summer camp",
+    "football club"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the two sentences. Complete one sentence with since and the present perfect.",
+  "source": "We got our {pet} in May. We still have it.",
+  "hint": "We ______ (have) our {pet} since May, and it sleeps in the {place}.",
+  "key": "have had",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have had.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "parrot",
+    "rabbit"
+   ],
+   "place": [
+    "kitchen",
+    "hall",
+    "garden",
+    "living room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the two sentences. Complete one sentence with since and the present perfect.",
+  "source": "My aunt started work at the {place} in 2011. She still works there.",
+  "hint": "My aunt ______ (work) at the {place} since 2011 as a {job}.",
+  "key": "has worked",
+  "acceptable": [
+   "has been working"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: has worked.",
+  "slots": {
+   "place": [
+    "bank",
+    "hospital",
+    "library",
+    "post office"
+   ],
+   "job": [
+    "cashier",
+    "manager",
+    "cleaner",
+    "guard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the two sentences. Complete one sentence with since and the present perfect.",
+  "source": "The lift broke on Monday. It is still broken.",
+  "hint": "The lift in our {building} ______ (be) broken since Monday, so we use the {way}.",
+  "key": "has been",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has been.",
+  "slots": {
+   "building": [
+    "building",
+    "block",
+    "office",
+    "hotel"
+   ],
+   "way": [
+    "stairs",
+    "other lift",
+    "back stairs",
+    "steps"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with the present perfect and since.",
+  "source": "How long have you been at this {place}? I came here in September.",
+  "hint": "I ______ (be) at this {place} since September with my {person}.",
+  "key": "have been",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have been.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "centre",
+    "university"
+   ],
+   "person": [
+    "friends",
+    "brother",
+    "cousin",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with the present perfect and since.",
+  "source": "How long has your brother had his {thing}? He bought it in March.",
+  "hint": "He ______ (have) his {thing} since March, and he takes it to {where}.",
+  "key": "has had",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has had.",
+  "slots": {
+   "thing": [
+    "car",
+    "bike",
+    "phone",
+    "laptop"
+   ],
+   "where": [
+    "work",
+    "school",
+    "college",
+    "the gym"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with the present perfect and since.",
+  "source": "How long have your parents lived in {district}? They moved there in 2005.",
+  "hint": "They ______ (live) in {district} since 2005, near the {place}.",
+  "key": "have lived",
+  "acceptable": [
+   "have been living"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: have lived.",
+  "slots": {
+   "district": [
+    "Chilonzor",
+    "Yunusobod",
+    "Sergeli",
+    "Mirobod"
+   ],
+   "place": [
+    "metro",
+    "market",
+    "park",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with the present perfect and since.",
+  "source": "How long has Nigora wanted a {pet}? She wanted one when she was five.",
+  "hint": "She ______ (want) a {pet} since she was five, but her {person} says no.",
+  "key": "has wanted",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has wanted.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "person": [
+    "mother",
+    "father",
+    "grandmother",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with the present perfect and since.",
+  "source": "How long have you known your {person}? I met them at {place} in 2019.",
+  "hint": "I ______ (know) my {person} since 2019.",
+  "key": "have known",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have known.",
+  "slots": {
+   "person": [
+    "best friends",
+    "classmates",
+    "neighbours",
+    "teammates"
+   ],
+   "place": [
+    "school",
+    "camp",
+    "college",
+    "the club"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "I have lived in this {home} since 2014.",
+  "hint": "My grandparents ______ (live) in this {home} since 1990 with their {pet}.",
+  "key": "have lived",
+  "acceptable": [
+   "have been living"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: have lived.",
+  "slots": {
+   "home": [
+    "street",
+    "village",
+    "building",
+    "area"
+   ],
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "old dog"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "They have been in {city} since Friday.",
+  "hint": "My sister ______ (be) in {city} since Friday with her {person}.",
+  "key": "has been",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has been.",
+  "slots": {
+   "city": [
+    "Bukhara",
+    "Moscow",
+    "Samarkand",
+    "Seoul"
+   ],
+   "person": [
+    "friends",
+    "class",
+    "husband",
+    "team"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "We have had this {thing} since last year.",
+  "hint": "Otabek ______ (have) this {thing} since last year, and he uses it every {time}.",
+  "key": "has had",
+  "why": "It started in the past and is still true now, so use the present perfect with since: has had.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "car",
+    "camera"
+   ],
+   "time": [
+    "day",
+    "morning",
+    "weekend",
+    "evening"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "She has known Mr Aliev since 2015.",
+  "hint": "I ______ (know) Mr Aliev since 2015, from the {place}.",
+  "key": "have known",
+  "why": "It started in the past and is still true now, so use the present perfect with since: have known.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "bank",
+    "hospital"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "He has studied at the {place} since 2022.",
+  "hint": "Zarina and her sister ______ (study) at the {place} since 2022 with their {person}.",
+  "key": "have studied",
+  "acceptable": [
+   "have been studying"
+  ],
+  "why": "It started in the past and is still true now, so use the present perfect with since: have studied.",
+  "slots": {
+   "place": [
+    "college",
+    "university",
+    "language centre",
+    "music school"
+   ],
+   "person": [
+    "friends",
+    "cousin",
+    "classmates",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how long you have lived in your town. Use since.",
+  "requiredElement": "have lived + since",
+  "constraints": [
+   "exactly one sentence",
+   "must use since",
+   "must name the town"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend you have known since you were a child.",
+  "requiredElement": "have known + since",
+  "constraints": [
+   "exactly one sentence",
+   "must use since",
+   "must name the friend"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you have had since a past year.",
+  "requiredElement": "have had + since + year",
+  "constraints": [
+   "exactly one sentence",
+   "must use since",
+   "must include a year"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how long your teacher has been at your school.",
+  "requiredElement": "has been + since",
+  "constraints": [
+   "exactly one sentence",
+   "must use since",
+   "must use has"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you have wanted since you were young.",
+  "requiredElement": "have wanted + since",
+  "constraints": [
+   "exactly one sentence",
+   "must use since",
+   "must use wanted"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a family member's job, using since.",
+  "requiredElement": "has worked + since",
+  "constraints": [
+   "exactly one sentence",
+   "must use since",
+   "must name the job or place"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather since the weekend.",
+  "requiredElement": "has been + since",
+  "constraints": [
+   "exactly one sentence",
+   "must use since",
+   "must use it has been"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: when something started (past simple), and that it is still true (present perfect + since).",
+  "requiredElement": "past simple, then present perfect + since",
+  "constraints": [
+   "exactly two sentences",
+   "first sentence past simple",
+   "second sentence with since"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Introduce yourself to a new group: how long you have lived, studied and known people here. Write three or four sentences.",
+  "targetGrammar": "present perfect + since",
+  "lookFor": [
+   "have lived, have studied, have known",
+   "since + start point",
+   "no present simple with since"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about your oldest friend. Since when have you known them? Write three or four sentences.",
+  "targetGrammar": "present perfect + since",
+  "lookFor": [
+   "have known",
+   "since",
+   "what you have done together"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about an old thing in your home and its story. Write three or four sentences.",
+  "targetGrammar": "present perfect + since",
+  "lookFor": [
+   "have had or has belonged",
+   "since",
+   "past simple for the start"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a family member's job: when they started and how long they have done it. Write three or four sentences.",
+  "targetGrammar": "past simple and present perfect + since",
+  "lookFor": [
+   "started + past time",
+   "has worked + since",
+   "still"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a change in your life: something new that you have had or done since a past time. Write three or four sentences.",
+  "targetGrammar": "present perfect + since",
+  "lookFor": [
+   "since",
+   "have + past participle",
+   "how it is now"
+  ]
+ }
+]

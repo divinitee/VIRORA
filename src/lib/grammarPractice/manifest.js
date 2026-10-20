@@ -72,6 +72,76 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.perfect.experience-ever": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "experience-ever",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.perfect.for-since": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "for-since",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.perfect.never-experience": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "never-experience",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.perfect.present-result": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "present-result",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.perfect.since-duration": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-duration",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.present.continuous-negative": {
   "domain": "tenses",
   "branch": "present",

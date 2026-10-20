@@ -15,11 +15,11 @@
 14	B	tenses.past.irregular-past	A2	1	live	Producing an irregular past simple form
 15	B	tenses.past.simple-finished-time	A2	1	live	Past simple with a finished-time marker
 16	B	tenses.past.simple-negative	A2	1	live	did + not + base form for the past simple negative
-17	B	tenses.perfect.experience-ever	A2	1	todo	Present perfect question form for life experience (Have ... ever been)
-18	B	tenses.perfect.for-since	A2	2	todo	since (start point) vs for (length) | for with a length of time
-19	B	tenses.perfect.never-experience	A2	1	todo	Past participle after has never
-20	B	tenses.perfect.present-result	A2	1	todo	Present perfect for a completed action with a present result
-21	B	tenses.perfect.since-duration	A2	3	todo	Present perfect with 'since' for an unfinished period | Turning a past start point into a present perfect duration | Present perfect (continuous) from a past start point, formal register
+17	B	tenses.perfect.experience-ever	A2	1	live	Present perfect question form for life experience (Have ... ever been)
+18	B	tenses.perfect.for-since	A2	2	live	since (start point) vs for (length) | for with a length of time
+19	B	tenses.perfect.never-experience	A2	1	live	Past participle after has never
+20	B	tenses.perfect.present-result	A2	1	live	Present perfect for a completed action with a present result
+21	B	tenses.perfect.since-duration	A2	3	live	Present perfect with 'since' for an unfinished period | Turning a past start point into a present perfect duration | Present perfect (continuous) from a past start point, formal register
 22	B	tenses.future.going-to-evidence	A2	1	todo	be going to for a prediction based on present evidence
 23	B	tenses.future.going-to-plan	A2	1	todo	be going to for a pre-made plan
 24	B	tenses.future.will-spontaneous	A2	1	todo	will for a spontaneous decision at the moment of speaking
