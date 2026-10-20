@@ -42,7 +42,7 @@
    "syn": [{"to": "distrustful", "relation": "synonym", "strength": 0.8, "note": "Not trusting someone; a little more formal."}, {"to": "wary", "relation": "synonym", "strength": 0.8, "note": "Careful because you think there may be a danger or problem."}, {"to": "doubtful", "relation": "related", "strength": 0.6, "note": "Related: not sure that something is true or good."}],
    "ant": [{"to": "trusting", "relation": "antonym", "note": "A trusting person believes that others are honest."}]},
   {"slot": "adverb", "status": "existing", "form": "suspiciously", "relation": "derivational", "definition": "in a way that shows you think something is wrong", "example": "The guard looked at us suspiciously when we came in.", "note": "Also: in a way that makes people think something is wrong: 'He was acting suspiciously.'",
-   "syn": [{"to": "distrustfully", "relation": "synonym", "strength": 0.8, "note": "Close in meaning but much less common."}, {"to": "doubtfully", "relation": "related", "strength": 0.6, "note": "Related: in a way that shows you are not sure."}],
+   "syn": [{"to": "doubtfully", "relation": "related", "strength": 0.6, "note": "Related: in a way that shows you are not sure."}],
    "ant": []}
  ],
  "people": [],
@@ -55,7 +55,7 @@
 {"headword": "swear", "word_id": "6a42816a2098612b1526f910", "word_ids": ["6a42816a2098612b1526f910"], "cefr": "B2", "kind": "word", "sense_label": "Bad words", "sense_pos": "verb", "corpus_definition": "To use very bad or rude language when you are angry.",
  "forms": [
   {"slot": "noun", "status": "existing", "form": "swearing", "relation": "derivational", "definition": "the use of rude or offensive words", "example": "There is too much swearing in that film for children.",
-   "syn": [{"to": "bad language", "relation": "synonym", "strength": 0.95, "note": "Easy phrase with the same meaning."}, {"to": "cursing", "relation": "synonym", "strength": 0.8, "note": "Very close; a little old-fashioned in British English."}],
+   "syn": [{"to": "bad language", "relation": "synonym", "strength": 0.95, "note": "Easy phrase with the same meaning."}, {"to": "profanity", "relation": "synonym", "strength": 0.8, "note": "Formal word for rude or offensive language.", "register": "formal"}],
    "ant": []},
   {"slot": "verb", "status": "existing", "form": "swear", "relation": "base", "definition": "to use rude or offensive words, often when you are angry", "example": "He swore loudly when he dropped the hot pan.", "note": "Irregular: swear, swore, sworn. Pattern: swear at someone.",
    "syn": [{"to": "curse", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little more formal or old-fashioned."}, {"to": "cuss", "relation": "synonym", "strength": 0.8, "note": "Informal American English.", "register": "informal"}],
@@ -95,7 +95,7 @@
   {"slot": "adjective", "status": "existing", "form": "swift", "relation": "base", "definition": "moving or happening very quickly", "example": "The police took swift action after the accident.", "note": "A little more formal or literary than fast or quick; common in news: a swift response.",
    "syn": [{"to": "fast", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word with the same meaning."}, {"to": "quick", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word; often about actions that take little time."}, {"to": "rapid", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little formal, common in writing."}, {"to": "speedy", "relation": "synonym", "strength": 0.8, "note": "Often in wishes: a speedy recovery."}],
    "ant": [{"to": "slow", "relation": "antonym", "note": "Not moving or happening quickly."}]},
-  {"slot": "adverb", "status": "existing", "form": "swiftly", "relation": "derivational", "definition": "very quickly", "example": "The boat moved swiftly down the river.",
+  {"slot": "adverb", "status": "existing", "form": "swiftly", "relation": "derivational", "definition": "in a very quick way, without any delay", "example": "The boat moved swiftly down the river.",
    "syn": [{"to": "quickly", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word with the same meaning."}, {"to": "rapidly", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little formal."}, {"to": "fast", "relation": "synonym", "strength": 0.95, "note": "Fast is also an adverb: run fast."}],
    "ant": [{"to": "slowly", "relation": "antonym", "note": "Not quickly."}]}
  ],
