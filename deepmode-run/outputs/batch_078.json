@@ -296,7 +296,7 @@
     "kind": "person",
     "status": "existing",
     "definition": "a person whose marriage has legally ended",
-    "example": "The club has many divorcees as members.",
+    "example": "She became a divorcee at forty.",
     "note": "Also spelled divorcée."
    }
   ],
@@ -517,7 +517,7 @@
     "slot": "adjective",
     "status": "existing",
     "form": "dizzying",
-    "relation": "participial",
+    "relation": "derivational",
     "definition": "making you feel that everything is spinning",
     "example": "We looked down from a dizzying height.",
     "syn": [
@@ -1056,9 +1056,10 @@
    }
   ],
   "context": {
-   "text": "In Margilan, workers make natural dye from plants. They dye the silk red, yellow and blue.",
+   "text": "In Margilan, workers make natural dye from plants. The dyed silk is then woven into bright scarves.",
    "uses": [
-    "dye"
+    "dye",
+    "dyed"
    ]
   },
   "reviewer_note": "die/dye homophone and dyeing spelling noted."

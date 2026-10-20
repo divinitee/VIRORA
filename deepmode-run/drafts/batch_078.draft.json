@@ -44,7 +44,7 @@
    {"slot": "adverb", "status": "no_form"}
   ],
   "people": [
-   {"form": "divorcee", "kind": "person", "status": "existing", "definition": "a person whose marriage has legally ended", "example": "The club has many divorcees as members.", "note": "Also spelled divorcée."}
+   {"form": "divorcee", "kind": "person", "status": "existing", "definition": "a person whose marriage has legally ended", "example": "She became a divorcee at forty.", "note": "Also spelled divorcée."}
   ],
   "people_not_family": [],
   "affixes": [{"affix": "-ee", "in_form": "divorcee", "meaning_key": "-ee", "also": ["employee", "trainee", "refugee"]}],
@@ -85,7 +85,7 @@
             {"to": "unsteady", "relation": "related", "strength": 0.6, "note": "Not able to stand or walk well."},
             {"to": "faint", "relation": "related", "strength": 0.6, "note": "Feeling weak, as if you will fall down."}],
     "ant": []},
-   {"slot": "adjective", "status": "existing", "form": "dizzying", "relation": "participial", "definition": "making you feel that everything is spinning", "example": "We looked down from a dizzying height.",
+   {"slot": "adjective", "status": "existing", "form": "dizzying", "relation": "derivational", "definition": "making you feel that everything is spinning", "example": "We looked down from a dizzying height.",
     "syn": [{"to": "breathtaking", "relation": "related", "strength": 0.4, "note": "So high, fast or beautiful that it surprises you."}], "ant": []},
    {"slot": "adverb", "status": "existing", "form": "dizzily", "relation": "derivational", "definition": "in a way that shows you feel unsteady", "example": "He stood up dizzily after the game.",
     "syn": [{"to": "giddily", "relation": "synonym", "strength": 0.95, "note": "In the same way; less common."}], "ant": []}
@@ -187,7 +187,7 @@
   ],
   "people_not_family": [],
   "affixes": [{"affix": "-er", "in_form": "dyer", "meaning_key": "-er", "also": ["driver", "teacher", "player"]}],
-  "context": {"text": "In Margilan, workers make natural dye from plants. They dye the silk red, yellow and blue.", "uses": ["dye"]},
+  "context": {"text": "In Margilan, workers make natural dye from plants. The dyed silk is then woven into bright scarves.", "uses": ["dye", "dyed"]},
   "reviewer_note": "die/dye homophone and dyeing spelling noted."},
 
  {"headword": "dynasty", "kind": "word", "sense_label": "History", "sense_pos": "noun",
