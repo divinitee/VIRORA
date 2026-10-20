@@ -16,6 +16,18 @@ import { setUserLevel } from "@/lib/levelStore";
 import { studentApi } from "@/lib/serverApi";
 import BetaBadge from "@/components/BetaBadge";
 import { safeReturnTo } from "@/lib/authReturnTo";
+import InAppBrowserNotice from "@/components/InAppBrowserNotice";
+import EmailTypoHint from "@/components/EmailTypoHint";
+import { friendlyAuthError } from "@/lib/authHelpers";
+
+// Google is the recommended path (Oct 2026 fix): no password or email code to
+// lose, so a student whose phone wipes the login just taps it again instead
+// of opening a second account.
+const GOOGLE_HINT = {
+  uz: "Tavsiya etiladi — parol va kod kerak emas",
+  en: "Recommended — no password or code needed",
+  ru: "Рекомендуем — без пароля и кода",
+};
 
 const STR = {
   uz: {
@@ -275,7 +287,7 @@ export default function Register() {
       setDir(1);
       setStep(STEPS.length - 1); // OTP is always last
     } catch (err) {
-      setError(err.message || s.registerFail);
+      setError(friendlyAuthError(err, lang, s.registerFail));
     } finally {
       setLoading(false);
     }
@@ -377,7 +389,7 @@ export default function Register() {
       const returnTo = safeReturnTo();
       window.location.href = returnTo !== "/" ? returnTo : role === "student" ? "/onboarding" : "/";
     } catch (err) {
-      setError(err.message || s.otpFail);
+      setError(friendlyAuthError(err, lang, s.otpFail, "otp"));
     } finally {
       setLoading(false);
     }
@@ -389,7 +401,7 @@ export default function Register() {
       await base44.auth.resendOtp(email);
       toast({ title: s.codeSent, description: s.codeSentDesc });
     } catch (err) {
-      setError(err.message || s.resendFail);
+      setError(friendlyAuthError(err, lang, s.resendFail));
     }
   };
 
@@ -407,6 +419,8 @@ export default function Register() {
   return (
     <div className="min-h-screen bg-background premium-mesh flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-md">
+        <InAppBrowserNotice className="mb-5" />
+
         {/* Progress */}
         <div className="mb-5">
           <div className="flex items-center justify-between mb-2">
@@ -459,6 +473,14 @@ export default function Register() {
                     ))}
                   </div>
                   <NavButtons onNext={next} nextLabel={s.next} />
+                  {/* Shortcut: Google signups get the same name/goals/level/code
+                      questions afterwards in Onboarding (ProfileSetup), so they
+                      can skip this whole form from the very first screen. */}
+                  <Button variant="outline" className="w-full h-11 text-sm font-medium mt-3" onClick={handleGoogle}>
+                    <GoogleIcon className="w-5 h-5 mr-2" />
+                    {s.google}
+                  </Button>
+                  <p className="text-center text-xs text-muted-foreground mt-2">{GOOGLE_HINT[lang] || GOOGLE_HINT.uz}</p>
                 </>
               )}
 
@@ -575,10 +597,11 @@ export default function Register() {
               {currentKey === "creds" && (
                 <>
                   <StepHeader icon={Mail} title={s.credsTitle} sub={s.credsSub} />
-                  <Button variant="outline" className="w-full h-11 text-sm font-medium mb-4" onClick={handleGoogle}>
-                    <GoogleIcon className="w-5 h-5 mr-2" />
+                  <Button className="w-full h-12 text-base font-semibold" onClick={handleGoogle}>
+                    <span className="mr-2 inline-flex rounded-full bg-white p-0.5"><GoogleIcon className="w-5 h-5" /></span>
                     {s.google}
                   </Button>
+                  <p className="text-center text-xs text-muted-foreground mt-2 mb-4">{GOOGLE_HINT[lang] || GOOGLE_HINT.uz}</p>
                   <div className="relative mb-4">
                     <div className="absolute inset-0 flex items-center"><div className="w-full border-t border-border" /></div>
                     <div className="relative flex justify-center text-xs uppercase">
@@ -591,9 +614,10 @@ export default function Register() {
                       <Label htmlFor="email">{s.email}</Label>
                       <div className="relative">
                         <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-                        <Input id="email" type="email" autoComplete="email" autoFocus placeholder={s.emailPh}
-                          value={email} onChange={(e) => setEmail(e.target.value)} className="pl-10 h-11" />
+                        <Input id="email" type="email" autoComplete="email" placeholder={s.emailPh}
+                          value={email} onChange={(e) => setEmail(e.target.value.trim())} className="pl-10 h-11" />
                       </div>
+                      <EmailTypoHint email={email} onFix={setEmail} />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="password">{s.password}</Label>
