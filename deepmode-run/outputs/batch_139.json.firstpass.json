@@ -1,0 +1,281 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "exotic",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "false affix",
+     "msg": "'exotically' minus '-ly' leaves no real word (exotical, exoticale, exoticaly)"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "noun definition has rare words: faraway"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adjective definition has rare words: faraway"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'exotically' is rare (zipf 1.7)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "exoticism: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "exotically: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "No affix claimed on exotic itself (exot- is not a word); exoticism kept as a formal noun rather than hidden."
+  },
+  {
+   "headword": "expand",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "noun 'expanse' (other meaning): family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'expansively' (other meaning) is rare (zipf 1.9)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "expansions",
+       "expansion"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "expanded"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No -ion affix claimed on expansion (removing it leaves expans-, not a word). expanse/expansive kept as other_meaning."
+  },
+  {
+   "headword": "expert",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: experience, experiment"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb definition has rare words: skilful"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "experts"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); expertise is an extra. Don't confuse expert with experience/experienced (different family)."
+  },
+  {
+   "headword": "exploit",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "exploitations",
+       "exploitation"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "exploited"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Sense trap: exploit also means 'use resources well' (exploit oil) and the noun 'brave act'; map keeps the 'use people unfairly' sense."
+  },
+  {
+   "headword": "export",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: exportable. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "exports",
+       "export"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "exported"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun/verb stress difference noted. No ex- prefix claimed (ex- is not in the affix table)."
+  },
+  {
+   "headword": "expression",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'expressively' (other meaning) is rare (zipf 1.9)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "expressions",
+       "expression"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Only the 'group of words' sense is existing; express/expressive (showing feelings) and express (fast), expressly are other_meaning."
+  },
+  {
+   "headword": "extent",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: large"
+    },
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: large"
+    },
+    {
+     "cat": "not shown",
+     "msg": "adverb: real words that may be in the family but aren't shown: large"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "extents",
+       "extent"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "extended"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "extent comes from extend; no -ive affix claimed on extensive (removing it leaves extens-). extension kept as other_meaning (extra time / added part)."
+  },
+  {
+   "headword": "fable",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "adjective 'fabled' (other meaning): family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'fabian' (zipf 3.2) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "fables",
+       "fable"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "fabulous/fabled/fabulously share the root but not the meaning; kept as other_meaning with false-friend notes. No -ous affix claimed."
+  },
+  {
+   "headword": "fall out with",
+   "kind": "phrasal",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Corpus example 'He did fall out with his brother' uses emphatic do; context uses the normal past 'fell out with'."
+  },
+  {
+   "headword": "fame",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "fame"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "infamous is a trap: in- does not make it the opposite of famous, so it is other_meaning, not an ant. No -ous affix claimed (fame + -ous drops the e)."
+  }
+ ]
+}
