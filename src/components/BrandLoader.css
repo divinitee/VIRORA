@@ -41,13 +41,13 @@
 
 .virora-star-loader__glow {
   stroke-width: 6;
-  filter: drop-shadow(0 0 4px hsl(var(--accent) / 0.55));
+  filter: drop-shadow(0 0 5px hsl(var(--accent) / 0.95)) drop-shadow(0 0 13px hsl(var(--brand) / 0.85));
 }
 
 .virora-star-loader__halo {
   stroke: hsl(var(--brand));
-  stroke-width: 19;
-  filter: blur(7px);
+  stroke-width: 27;
+  filter: blur(6px) drop-shadow(0 0 10px hsl(var(--brand) / 0.8));
 }
 
 .virora-star-loader__light {
