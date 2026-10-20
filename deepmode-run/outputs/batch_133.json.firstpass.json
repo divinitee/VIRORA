@@ -1,0 +1,291 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "desperate",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "desperation"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Root trap: despair (verb/noun) shares the Latin root but is not made from desperate, so it is in not_family, not a form or synonym."
+  },
+  {
+   "headword": "dialect",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: dialectically. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "dialects",
+       "dialect"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "dialectic/dialectical (logic, argument) look similar but are not made from dialect; left out."
+  },
+  {
+   "headword": "diligent",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "bad synonym",
+     "msg": "diligent → 'hard-working' is not a adjective (form is a adjective)"
+    }
+   ],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "diligences",
+       "diligence"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No affix claimed for diligence (-ent/-ence swap, no free stem)."
+  },
+  {
+   "headword": "disapprove",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'disapprovingly' is rare (zipf 2.0)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "disapprovingly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "disapproval"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "disapproved"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword already has the negative prefix; approve/approval/approving are given as antonyms, not forms."
+  },
+  {
+   "headword": "discipline",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "disciplines",
+       "discipline"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "disciplined"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Three meanings (self-control / punishment / subject of study); map keeps self-control, disciplinary and disciplinarian marked other_meaning."
+  },
+  {
+   "headword": "discourage",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'discouragingly' is rare (zipf 1.4)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "discouragingly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "discouragements",
+       "discouragement"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "discouraged"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Opposite family (encourage, encouragement, encouraging) given as antonyms; no dis- affix claimed because courage is not a verb."
+  },
+  {
+   "headword": "discriminate",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "discriminations",
+       "discrimination"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "discriminated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "CORPUS: the row's example sentence does not use 'discriminate'. Trap: discriminating / indiscriminately belong to the 'tell the difference' meaning."
+  },
+  {
+   "headword": "disgrace",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "disgraced: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "disgrace"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "disgraced"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No dis- affix claimed: disgrace is not simply the opposite of grace. Corpus mixes US honor with UK behaviour; both spellings noted."
+  },
+  {
+   "headword": "disguise",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "disguises",
+       "disguise"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "disguised"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "CORPUS: the definition reads like an action ('Changing your look') but the example uses the noun; map follows the noun with the verb as a conversion."
+  },
+  {
+   "headword": "dismiss",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "wrong POS",
+     "msg": "adverb 'dismissively' (other meaning): not in the dictionary as a adverb"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: dismal"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "dismissals",
+       "dismissal"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "dismissed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Sense trap: dismissive/dismissively belong to the 'refuse to consider' meaning, kept as other_meaning."
+  }
+ ]
+}
