@@ -7,7 +7,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My aunt is ______. She works at a hospital in {city}.",
+  "prompt": "My aunt is ______. She works at a hospital in {city} on {day}.",
   "options": [
    "a doctor",
    "doctor",
@@ -22,6 +22,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "day": [
+    "weekdays",
+    "Mondays",
+    "Saturdays",
+    "most days"
    ]
   }
  },
@@ -33,7 +39,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "{name}'s father is ______ at a {place} in {city}.",
+  "prompt": "{name}'s father is ______ at a {place}.",
   "options": [
    "an engineer",
    "engineer",
@@ -54,6 +60,96 @@
     "company",
     "building site",
     "power station"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-jobs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mrs Karimova is ______ at our school in {city}. She teaches {subject}.",
+  "options": [
+   "a teacher",
+   "teacher",
+   "an teacher",
+   "teachers"
+  ],
+  "key": 0,
+  "why": "Use a/an before a job after is. Teacher starts with a consonant sound, so a: a teacher.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "music"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-jobs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle is ______. He paints {thing} in {place}.",
+  "options": [
+   "an artist",
+   "artist",
+   "a artist",
+   "artists"
+  ],
+  "key": 0,
+  "why": "Use a/an before a job after is. Artist starts with a vowel sound, so an: an artist.",
+  "slots": {
+   "thing": [
+    "mountains",
+    "old streets",
+    "people",
+    "flowers"
+   ],
+   "place": [
+    "his studio",
+    "the park",
+    "his garden",
+    "the old town"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-jobs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}'s sister is ______ at the clinic in {city}.",
+  "options": [
+   "a nurse",
+   "nurse",
+   "an nurse",
+   "nurses"
+  ],
+  "key": 0,
+  "why": "Use a/an before a job after is. Nurse starts with a consonant sound, so a: a nurse.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ],
    "city": [
     "Samarkand",
@@ -71,85 +167,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Mrs Karimova is ______ at our school in {city}.",
-  "options": [
-   "a teacher",
-   "teacher",
-   "an teacher",
-   "teachers"
-  ],
-  "key": 0,
-  "why": "Use a/an before a job after is. Teacher starts with a consonant sound, so a: a teacher.",
-  "slots": {
-   "city": [
-    "Samarkand",
-    "Bukhara",
-    "Fergana",
-    "Termez"
-   ]
-  }
- },
- {
-  "domain": "nouns-articles",
-  "branch": "articles",
-  "topic": "a-jobs",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "choose",
-  "format": "mcq",
-  "prompt": "My uncle is ______. He paints {thing}.",
-  "options": [
-   "an artist",
-   "artist",
-   "a artist",
-   "artists"
-  ],
-  "key": 0,
-  "why": "Use a/an before a job after is. Artist starts with a vowel sound, so an: an artist.",
-  "slots": {
-   "thing": [
-    "mountains",
-    "old streets",
-    "people",
-    "flowers"
-   ]
-  }
- },
- {
-  "domain": "nouns-articles",
-  "branch": "articles",
-  "topic": "a-jobs",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "choose",
-  "format": "mcq",
-  "prompt": "{name}'s sister is ______ at the clinic.",
-  "options": [
-   "a nurse",
-   "nurse",
-   "an nurse",
-   "nurses"
-  ],
-  "key": 0,
-  "why": "Use a/an before a job after is. Nurse starts with a consonant sound, so a: a nurse.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Malika"
-   ]
-  }
- },
- {
-  "domain": "nouns-articles",
-  "branch": "articles",
-  "topic": "a-jobs",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "choose",
-  "format": "mcq",
-  "prompt": "My mother is ______ at a bank in {city}.",
+  "prompt": "My mother is ______ at a {place} in {city}.",
   "options": [
    "an accountant",
    "accountant",
@@ -159,6 +177,12 @@
   "key": 0,
   "why": "Use a/an before a job after is. Accountant starts with a vowel sound, so an: an accountant.",
   "slots": {
+   "place": [
+    "bank",
+    "hotel",
+    "factory",
+    "company"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -175,7 +199,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Mr Rustamov is ______. He drives a {vehicle}.",
+  "prompt": "Mr Rustamov is ______. He drives a {vehicle} in {city}.",
   "options": [
    "a driver",
    "driver",
@@ -190,6 +214,12 @@
     "taxi",
     "minibus",
     "truck"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
    ]
   }
  },
@@ -233,7 +263,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My cousin is ______ at a café in {city}.",
+  "prompt": "My cousin is ______ at a {place} in {city}.",
   "options": [
    "a cook",
    "cook",
@@ -243,6 +273,12 @@
   "key": 0,
   "why": "Use a/an before a job after is. Cook starts with a consonant sound, so a: a cook.",
   "slots": {
+   "place": [
+    "café",
+    "hotel",
+    "school",
+    "hospital"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -259,7 +295,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Timur's brother is ______ in a theatre in {city}.",
+  "prompt": "Timur's brother is ______. He works in {place} in {city}.",
   "options": [
    "an actor",
    "actor",
@@ -269,6 +305,12 @@
   "key": 0,
   "why": "Use a/an before a job after is. Actor starts with a vowel sound, so an: an actor.",
   "slots": {
+   "place": [
+    "a theatre",
+    "a big theatre",
+    "the city theatre",
+    "a small theatre"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -285,7 +327,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My grandfather is ______. He grows {food}.",
+  "prompt": "My grandfather is ______ near {city}. He grows {food}.",
   "options": [
    "a farmer",
    "farmer",
@@ -295,6 +337,12 @@
   "key": 0,
   "why": "Use a/an before a job after is. Farmer starts with a consonant sound, so a: a farmer.",
   "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
    "food": [
     "cotton",
     "apples",
@@ -311,7 +359,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Mr Ivanov is ______. He fixes lights in {place}.",
+  "prompt": "Mr Ivanov is ______. He fixes lights in {place} in {city}.",
   "options": [
    "an electrician",
    "electrician",
@@ -326,6 +374,12 @@
     "offices",
     "flats",
     "shops"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
    ]
   }
  },
@@ -369,7 +423,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Olga is ______ in {city}. She works from nine to five.",
+  "prompt": "Olga is ______ in {city}. She goes to work by {transport}.",
   "options": [
    "an office worker",
    "office worker",
@@ -384,6 +438,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "transport": [
+    "bus",
+    "car",
+    "taxi",
+    "bike"
    ]
   }
  },
@@ -395,7 +455,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My brother is ______ in a restaurant near the {place}.",
+  "prompt": "My brother is ______ in a restaurant near the {place}, {name}.",
   "options": [
    "a waiter",
    "waiter",
@@ -410,6 +470,12 @@
     "park",
     "river",
     "market"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -421,7 +487,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our neighbour is ______ in {city}.",
+  "prompt": "Our neighbour is ______ in {city}. He works {time}.",
   "options": [
    "a police officer",
    "police officer",
@@ -436,6 +502,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "time": [
+    "at night",
+    "in the day",
+    "at weekends",
+    "every day"
    ]
   }
  },
@@ -447,7 +519,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My parents are both ______ in {city}.",
+  "prompt": "My parents are both ______ at a hospital in {city}, {name}.",
   "options": [
    "doctors",
    "a doctors",
@@ -462,6 +534,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -473,7 +551,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Aziz and Timur are ______ at a company in {city}.",
+  "prompt": "Aziz and Timur are ______ at a {place} in {city}.",
   "options": [
    "engineers",
    "an engineers",
@@ -483,6 +561,12 @@
   "key": 0,
   "why": "The subject is plural (are), so use the plural job with no a/an: engineers.",
   "slots": {
+   "place": [
+    "company",
+    "factory",
+    "building site",
+    "power station"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -499,7 +583,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My aunts are ______ at a school in {city}.",
+  "prompt": "My aunts are ______ at a school in {city}. They teach {subject}.",
   "options": [
    "teachers",
    "a teachers",
@@ -514,6 +598,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "music"
    ]
   }
  },
@@ -525,7 +615,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My uncles are ______ in a village near {city}.",
+  "prompt": "My uncles are ______ near {city}. They grow {food}.",
   "options": [
    "farmers",
    "a farmers",
@@ -540,6 +630,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "food": [
+    "cotton",
+    "apples",
+    "melons",
+    "potatoes"
    ]
   }
  },
@@ -552,7 +648,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write a or an.",
-  "source": "My mother is ______ teacher at a school in {city}. She teaches {subject}.",
+  "source": "My mother is ______ teacher at our school in {city}. She teaches {subject}.",
   "key": "a",
   "why": "Use a/an before a job after is. Teacher starts with a consonant sound, so a: a teacher.",
   "slots": {
@@ -593,7 +689,7 @@
     "bridges",
     "roads",
     "new buildings",
-    "the metro"
+    "new schools"
    ]
   }
  },
@@ -606,7 +702,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write a or an.",
-  "source": "Mr Saidov is ______ doctor. He works at a hospital in {city} on {day}.",
+  "source": "Mr Saidov is ______ doctor. He works at the city hospital in {city} on {day}.",
   "key": "a",
   "why": "Use a/an before a job after is. Doctor starts with a consonant sound, so a: a doctor.",
   "slots": {
@@ -714,7 +810,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write a or an.",
-  "source": "My uncle is ______ driver. He drives a {vehicle} in {city}.",
+  "source": "My uncle is ______ driver. He drives his {vehicle} in {city}.",
   "key": "a",
   "why": "Use a/an before a job after is. Driver starts with a consonant sound, so a: a driver.",
   "slots": {
@@ -747,9 +843,9 @@
   "slots": {
    "place": [
     "a theatre",
-    "films",
-    "TV shows",
-    "a big theatre"
+    "a big theatre",
+    "the city theatre",
+    "a small theatre"
    ],
    "city": [
     "Samarkand",
@@ -768,7 +864,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write a or an.",
-  "source": "My grandmother was ______ cook at a {place} in {city}.",
+  "source": "My grandmother was ______ cook at the {place} in {city}.",
   "key": "a",
   "why": "Use a/an before a job after is. Cook starts with a consonant sound, so a: a cook.",
   "slots": {
@@ -855,7 +951,7 @@
   "slots": {
    "transport": [
     "bus",
-    "metro",
+    "taxi",
     "train",
     "minibus"
    ],
@@ -930,7 +1026,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write a or an.",
-  "source": "Aziz is ______ waiter at a café near the {place}. He works on {day}.",
+  "source": "Aziz is ______ waiter at the café near the {place}. He works on {day}.",
   "key": "a",
   "why": "Use a/an before a job after is. Waiter starts with a consonant sound, so a: a waiter.",
   "slots": {
@@ -1092,8 +1188,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Now talk about one person. Complete the sentence with a or an + the job.",
-  "source": "My aunts are doctors in {city}.",
-  "hint": "My aunt is ______ in {city}.",
+  "source": "My aunts are doctors in {city}. They work on {day}.",
+  "hint": "My aunt is ______ in {city}. She works on {day}.",
   "key": "a doctor",
   "why": "Use a/an before a job after is. Doctor starts with a consonant sound, so a: a doctor.",
   "slots": {
@@ -1102,6 +1198,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "day": [
+    "weekdays",
+    "Mondays",
+    "Saturdays",
+    "most days"
    ]
   }
  },
@@ -1114,8 +1216,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Now talk about one person. Complete the sentence with a or an + the job.",
-  "source": "Bobur's brothers are engineers at a {place}.",
-  "hint": "Bobur's brother is ______ at a {place}.",
+  "source": "Bobur's brothers are engineers at a {place} in {city}.",
+  "hint": "Bobur's brother is ______ at a {place} in {city}.",
   "key": "an engineer",
   "why": "Use a/an before a job after is. Engineer starts with a vowel sound, so an: an engineer.",
   "slots": {
@@ -1124,23 +1226,7 @@
     "company",
     "building site",
     "power station"
-   ]
-  }
- },
- {
-  "domain": "nouns-articles",
-  "branch": "articles",
-  "topic": "a-jobs",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Now talk about one person. Complete the sentence with a or an + the job.",
-  "source": "My cousins are artists in {city}.",
-  "hint": "My cousin is ______ in {city}.",
-  "key": "an artist",
-  "why": "Use a/an before a job after is. Artist starts with a vowel sound, so an: an artist.",
-  "slots": {
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -1158,8 +1244,36 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Now talk about one person. Complete the sentence with a or an + the job.",
-  "source": "Olga's sisters are nurses at the {place}.",
-  "hint": "Olga's sister is ______ at the {place}.",
+  "source": "My cousins are artists. They paint {thing} in {city}.",
+  "hint": "My cousin is ______. She paints {thing} in {city}.",
+  "key": "an artist",
+  "why": "Use a/an before a job after is. Artist starts with a vowel sound, so an: an artist.",
+  "slots": {
+   "thing": [
+    "flowers",
+    "people",
+    "animals",
+    "streets"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-jobs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now talk about one person. Complete the sentence with a or an + the job.",
+  "source": "Olga's sisters are nurses at the {place} in {city}.",
+  "hint": "Olga's sister is ______ at the {place} in {city}.",
   "key": "a nurse",
   "why": "Use a/an before a job after is. Nurse starts with a consonant sound, so a: a nurse.",
   "slots": {
@@ -1168,6 +1282,12 @@
     "clinic",
     "school",
     "children's hospital"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
    ]
   }
  },
@@ -1180,11 +1300,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Now talk about one person. Complete the sentence with a or an + the job.",
-  "source": "My uncles are accountants in {city}.",
-  "hint": "My uncle is ______ in {city}.",
+  "source": "My uncles are accountants at a {place} in {city}.",
+  "hint": "My uncle is ______ at a {place} in {city}.",
   "key": "an accountant",
   "why": "Use a/an before a job after is. Accountant starts with a vowel sound, so an: an accountant.",
   "slots": {
+   "place": [
+    "bank",
+    "hotel",
+    "factory",
+    "company"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -1202,11 +1328,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The sentence has a mistake. Complete the correct sentence with a or an + the job.",
-  "source": "My father is driver in {city}.",
-  "hint": "My father is ______ in {city}.",
+  "source": "My father is driver. He drives his {vehicle} in {city}.",
+  "hint": "My father is ______. He drives his {vehicle} in {city}.",
   "key": "a driver",
   "why": "Use a/an before a job after is. Driver starts with a consonant sound, so a: a driver.",
   "slots": {
+   "vehicle": [
+    "bus",
+    "taxi",
+    "minibus",
+    "truck"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -1224,11 +1356,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The sentence has a mistake. Complete the correct sentence with a or an + the job.",
-  "source": "Malika is a actor in a theatre in {city}.",
-  "hint": "Malika is ______ in a theatre in {city}.",
+  "source": "Malika is a actor in {place} in {city}.",
+  "hint": "Malika is ______ in {place} in {city}.",
   "key": "an actor",
   "why": "Use a/an before a job after is. Actor starts with a vowel sound, so an: an actor.",
   "slots": {
+   "place": [
+    "a theatre",
+    "a big theatre",
+    "the city theatre",
+    "a small theatre"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -1246,11 +1384,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The sentence has a mistake. Complete the correct sentence with a or an + the job.",
-  "source": "Mr Saidov is architect. He works in {city}.",
-  "hint": "Mr Saidov is ______. He works in {city}.",
+  "source": "Mr Saidov is architect. He designs {thing} in {city}.",
+  "hint": "Mr Saidov is ______. He designs {thing} in {city}.",
   "key": "an architect",
   "why": "Use a/an before a job after is. Architect starts with a vowel sound, so an: an architect.",
   "slots": {
+   "thing": [
+    "houses",
+    "schools",
+    "hotels",
+    "parks"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -1268,8 +1412,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The sentence has a mistake. Complete the correct sentence with a or an + the job.",
-  "source": "My grandmother is an cook at a {place}.",
-  "hint": "My grandmother is ______ at a {place}.",
+  "source": "My grandmother is an cook at the {place} in {city}.",
+  "hint": "My grandmother is ______ at the {place} in {city}.",
   "key": "a cook",
   "why": "Use a/an before a job after is. Cook starts with a consonant sound, so a: a cook.",
   "slots": {
@@ -1278,6 +1422,12 @@
     "café",
     "hotel",
     "hospital"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
    ]
   }
  },
@@ -1290,11 +1440,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The sentence has a mistake. Complete the correct sentence with a or an + the job.",
-  "source": "Timur is electrician in {city}.",
-  "hint": "Timur is ______ in {city}.",
+  "source": "Timur is electrician. He works in {place} in {city}.",
+  "hint": "Timur is ______. He works in {place} in {city}.",
   "key": "an electrician",
   "why": "Use a/an before a job after is. Electrician starts with a vowel sound, so an: an electrician.",
   "slots": {
+   "place": [
+    "schools",
+    "offices",
+    "flats",
+    "shops"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -1312,8 +1468,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Add the word in brackets before the job. Complete the sentence with a or an + the word.",
-  "source": "My uncle is a farmer near {city}.",
-  "hint": "My uncle is ______ (old) farmer near {city}.",
+  "source": "My uncle is a farmer near {city}. He grows {food}.",
+  "hint": "My uncle is ______ (old) farmer near {city}. He grows {food}.",
   "key": "an old",
   "why": "Old starts with a vowel sound, so the article changes to an: an old farmer.",
   "slots": {
@@ -1322,6 +1478,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "food": [
+    "cotton",
+    "apples",
+    "melons",
+    "potatoes"
    ]
   }
  },
@@ -1334,8 +1496,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Add the word in brackets before the job. Complete the sentence with a or an + the word.",
-  "source": "Aunt Nigora is a teacher in {city}.",
-  "hint": "Aunt Nigora is ______ (English) teacher in {city}.",
+  "source": "Aunt Nigora is a teacher in {city}, {name}.",
+  "hint": "Aunt Nigora is ______ (English) teacher in {city}, {name}.",
   "key": "an English",
   "why": "English starts with a vowel sound, so the article changes to an: an English teacher.",
   "slots": {
@@ -1344,6 +1506,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1356,8 +1524,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Add the word in brackets before the job. Complete the sentence with a or an + the word.",
-  "source": "My sister is an engineer at a {place}.",
-  "hint": "My sister is ______ (good) engineer at a {place}.",
+  "source": "My sister is an engineer at the {place} in {city}.",
+  "hint": "My sister is ______ (good) engineer at the {place} in {city}.",
   "key": "a good",
   "why": "Good starts with a consonant sound, so the article changes to a: a good engineer.",
   "slots": {
@@ -1366,23 +1534,7 @@
     "company",
     "building site",
     "bank"
-   ]
-  }
- },
- {
-  "domain": "nouns-articles",
-  "branch": "articles",
-  "topic": "a-jobs",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Add the word in brackets before the job. Complete the sentence with a or an + the word.",
-  "source": "Mr Karimov is a cook at a café in {city}.",
-  "hint": "Mr Karimov is ______ (excellent) cook at a café in {city}.",
-  "key": "an excellent",
-  "why": "Excellent starts with a vowel sound, so the article changes to an: an excellent cook.",
-  "slots": {
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -1400,11 +1552,45 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Add the word in brackets before the job. Complete the sentence with a or an + the word.",
-  "source": "Bobur is an actor in {city}.",
-  "hint": "Bobur is ______ (young) actor in {city}.",
+  "source": "Mr Karimov is a cook at a café in {city}, {name}.",
+  "hint": "Mr Karimov is ______ (excellent) cook at a café in {city}, {name}.",
+  "key": "an excellent",
+  "why": "Excellent starts with a vowel sound, so the article changes to an: an excellent cook.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-jobs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets before the job. Complete the sentence with a or an + the word.",
+  "source": "Bobur is an actor in {place} in {city}.",
+  "hint": "Bobur is ______ (young) actor in {place} in {city}.",
   "key": "a young",
   "why": "Young starts with a consonant sound (y), so the article changes to a: a young actor.",
   "slots": {
+   "place": [
+    "a theatre",
+    "a big theatre",
+    "the city theatre",
+    "a small theatre"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",

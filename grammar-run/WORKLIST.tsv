@@ -31,10 +31,10 @@
 30	B	nouns-articles.plurals-agreement.y-ies-plural	A1	1	live	consonant + y → -ies
 31	B	nouns-articles.countability.partitive	A1	2	live	Counting an uncountable noun with a partitive (loaves of) | Counting an uncountable noun with 'piece of'
 32	B	nouns-articles.countability.uncountable-no-plural	A1	2	live	Uncountable noun takes no plural or 'a' | 'advice' has no plural form
-33	B	nouns-articles.quantifiers.some-any	A1	3	todo	any in a question | any in a negative | any (negative) then some (affirmative) in one sentence
-34	B	nouns-articles.quantifiers.some-offer	A1	1	todo	some in an offer/request question
-35	B	nouns-articles.articles.a-jobs	A2	1	todo	a/an with jobs
-36	B	nouns-articles.countability.uncountable-abstract	A2	1	todo	'information' is uncountable — takes some, not an/many
+33	B	nouns-articles.quantifiers.some-any	A1	3	live	any in a question | any in a negative | any (negative) then some (affirmative) in one sentence
+34	B	nouns-articles.quantifiers.some-offer	A1	1	live	some in an offer/request question
+35	B	nouns-articles.articles.a-jobs	A2	1	live	a/an with jobs
+36	B	nouns-articles.countability.uncountable-abstract	A2	1	live	'information' is uncountable — takes some, not an/many
 37	B	nouns-articles.quantifiers.few-little	A2	2	todo	a few with countable plural | a little with uncountable
 38	B	nouns-articles.quantifiers.much-many	A2	2	todo	many with plural countable nouns | much with uncountable nouns
 39	B	nouns-articles.quantifiers.no-vs-any	A2	1	todo	no with an affirmative verb vs any with a negative

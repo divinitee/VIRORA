@@ -1130,7 +1130,7 @@
     "table",
     "tray",
     "shelf",
-    "floor"
+    "kitchen table"
    ],
    "name": [
     "Aziz",
@@ -1204,8 +1204,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make the sentence negative. Write some or any.",
-  "source": "We have some tickets for the {event}.",
-  "hint": "We don't have ______ tickets for the {event}.",
+  "source": "We have some tickets for the {event}, {name}.",
+  "hint": "We don't have ______ tickets for the {event}, {name}.",
   "key": "any",
   "why": "The sentence is negative (not), so use any.",
   "slots": {
@@ -1214,6 +1214,12 @@
     "match",
     "film",
     "show"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1254,8 +1260,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make the sentence negative. Write some or any.",
-  "source": "There are some birds in the {place} today.",
-  "hint": "There aren't ______ birds in the {place} today.",
+  "source": "There are some birds in the {place} today, {name}.",
+  "hint": "There aren't ______ birds in the {place} today, {name}.",
   "key": "any",
   "why": "The sentence is negative (not), so use any.",
   "slots": {
@@ -1264,6 +1270,12 @@
     "park",
     "yard",
     "tree"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1332,8 +1344,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make a question. Write some or any.",
-  "source": "There is some sugar in the {place}.",
-  "hint": "Is there ______ sugar in the {place}?",
+  "source": "There is some sugar in the {place}, {name}.",
+  "hint": "Is there ______ sugar in the {place}, {name}?",
   "key": "any",
   "why": "This is a question, so use any.",
   "slots": {
@@ -1342,6 +1354,12 @@
     "cupboard",
     "box",
     "jar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1410,8 +1428,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make a question. Write some or any.",
-  "source": "There are some good schools in {city}.",
-  "hint": "Are there ______ good schools in {city}?",
+  "source": "There are some good schools in {city}, {name}.",
+  "hint": "Are there ______ good schools in {city}, {name}?",
   "key": "any",
   "why": "This is a question, so use any.",
   "slots": {
@@ -1420,26 +1438,7 @@
     "Bukhara",
     "Fergana",
     "Termez"
-   ]
-  }
- },
- {
-  "domain": "nouns-articles",
-  "branch": "quantifiers",
-  "topic": "some-any",
-  "level": "A1",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Complete the sentence. Write some or any in each gap.",
-  "source": "We have no milk. We have juice, {name}.",
-  "hint": "We don't have ______ milk, but we have ______ juice, {name}.",
-  "key": [
-   "any",
-   "some"
-  ],
-  "why": "The first part is negative, so any. The second part is positive, so some.",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1457,8 +1456,39 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Complete the sentence. Write some or any in each gap.",
-  "source": "There are no apples. There are oranges in the {place}.",
-  "hint": "There aren't ______ apples, but there are ______ oranges in the {place}.",
+  "source": "We have no milk. We have juice for {meal}, {name}.",
+  "hint": "We don't have ______ milk, but we have ______ juice for {meal}, {name}.",
+  "key": [
+   "any",
+   "some"
+  ],
+  "why": "The first part is negative, so any. The second part is positive, so some.",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "the guests"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-any",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Complete the sentence. Write some or any in each gap.",
+  "source": "There are no apples. There are oranges in the {place}, {name}.",
+  "hint": "There aren't ______ apples, but there are ______ oranges in the {place}, {name}.",
   "key": [
    "any",
    "some"
@@ -1470,6 +1500,12 @@
     "box",
     "fridge",
     "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1482,8 +1518,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Complete the sentence. Write some or any in each gap.",
-  "source": "{name} has no brothers. {name} has sisters.",
-  "hint": "{name} doesn't have ______ brothers, but she has ______ sisters.",
+  "source": "{name} has no brothers. She has sisters in {city}.",
+  "hint": "{name} doesn't have ______ brothers, but she has ______ sisters in {city}.",
   "key": [
    "any",
    "some"
@@ -1495,6 +1531,12 @@
     "Malika",
     "Dilnoza",
     "Nigora"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
    ]
   }
  },
@@ -1507,8 +1549,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Complete the sentence. Write some or any in each gap.",
-  "source": "I didn't buy rice. I bought carrots at the {shop}.",
-  "hint": "I didn't buy ______ rice, but I bought ______ carrots at the {shop}.",
+  "source": "I didn't buy rice. I bought carrots at the {shop}, {name}.",
+  "hint": "I didn't buy ______ rice, but I bought ______ carrots at the {shop}, {name}.",
   "key": [
    "any",
    "some"
@@ -1520,6 +1562,12 @@
     "bazaar",
     "shop",
     "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1532,8 +1580,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Complete the sentence. Write some or any in each gap.",
-  "source": "There are no trains to {city}. There are buses.",
-  "hint": "There aren't ______ trains to {city}, but there are ______ buses.",
+  "source": "There are no trains to {city}. There are buses on {day}.",
+  "hint": "There aren't ______ trains to {city}, but there are ______ buses on {day}.",
   "key": [
    "any",
    "some"
@@ -1545,6 +1593,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "day": [
+    "Sundays",
+    "Mondays",
+    "weekdays",
+    "Saturdays"
    ]
   }
  },

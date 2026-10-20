@@ -16,6 +16,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "nouns-articles.articles.a-jobs": {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-jobs",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.articles.the-shared-context": {
   "domain": "nouns-articles",
   "branch": "articles",
@@ -54,6 +68,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 308,
    "build": 308,
    "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.countability.uncountable-abstract": {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-abstract",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 428,
+   "build": 236,
+   "transform": 228,
    "create": 8,
    "express": 5
   }
@@ -109,6 +137,34 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.quantifiers.some-any": {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-any",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 344,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.quantifiers.some-offer": {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 284,
+   "build": 212,
    "transform": 240,
    "create": 8,
    "express": 5

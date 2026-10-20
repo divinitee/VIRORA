@@ -71,7 +71,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Would you like ______ rice with the {food}, {name}?",
+  "prompt": "Do you want ______ rice with the {food}, {name}?",
   "options": [
    "some",
    "a",
@@ -135,7 +135,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Would you like ______ jam on your {food}, {name}?",
+  "prompt": "Do you want ______ jam on your {food}, {name}?",
   "options": [
    "some",
    "a",
@@ -199,7 +199,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Would you like ______ cheese from {city}, {name}?",
+  "prompt": "Please have ______ cheese from {city}, {name}!",
   "options": [
    "some",
    "a",
@@ -263,7 +263,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Would you like ______ ice cream in the {place}, {name}?",
+  "prompt": "Here, have ______ ice cream in the {place}, {name}.",
   "options": [
    "some",
    "a",
@@ -327,7 +327,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Would you like ______ sugar in your {drink}, {name}?",
+  "prompt": "Do you want ______ sugar in your {drink}, {name}?",
   "options": [
    "some",
    "a",
@@ -359,7 +359,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Would you like ______ butter for the {food}, {name}?",
+  "prompt": "Take ______ butter for the {food}, {name}.",
   "options": [
    "some",
    "a",
@@ -423,7 +423,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Can I have ______ rice with my {food}, please?",
+  "prompt": "Could I have ______ rice with my {food}, please?",
   "options": [
    "some",
    "any",
@@ -597,7 +597,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Can I have ______ jam for my {food}, please, {name}?",
+  "prompt": "Can you pass me ______ jam for my {food}, please, {name}?",
   "options": [
    "some",
    "any",
@@ -1256,11 +1256,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The request has a mistake. Complete the correct request. Write some or any.",
-  "source": "Can I have any bread, please, {name}?",
-  "hint": "Can I have ______ bread, please, {name}?",
+  "source": "Can I have any bread with my {food}, please, {name}?",
+  "hint": "Can I have ______ bread with my {food}, please, {name}?",
   "key": "some",
   "why": "This is a request (you ask for something). Requests use some, even in a question.",
   "slots": {
+   "food": [
+    "soup",
+    "salad",
+    "eggs",
+    "plov"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1278,8 +1284,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The request has a mistake. Complete the correct request. Write some or any.",
-  "source": "Could you give me any paper for the {subject} lesson, please?",
-  "hint": "Could you give me ______ paper for the {subject} lesson, please?",
+  "source": "Could you give me any paper for the {subject} lesson, please, {name}?",
+  "hint": "Could you give me ______ paper for the {subject} lesson, please, {name}?",
   "key": "some",
   "why": "This is a request (you ask for something). Requests use some, even in a question.",
   "slots": {
@@ -1288,6 +1294,12 @@
     "art",
     "English",
     "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1300,8 +1312,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The request has a mistake. Complete the correct request. Write some or any.",
-  "source": "Can we have any rice with the {food}, please?",
-  "hint": "Can we have ______ rice with the {food}, please?",
+  "source": "Can we have any rice with the {food}, please, {name}?",
+  "hint": "Can we have ______ rice with the {food}, please, {name}?",
   "key": "some",
   "why": "This is a request (you ask for something). Requests use some, even in a question.",
   "slots": {
@@ -1310,6 +1322,12 @@
     "fish",
     "vegetables",
     "meat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1350,8 +1368,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The request has a mistake. Complete the correct request. Write some or any.",
-  "source": "Can I have any cheese for my {food}, please?",
-  "hint": "Can I have ______ cheese for my {food}, please?",
+  "source": "Can I have any cheese for my {food}, please, {name}?",
+  "hint": "Can I have ______ cheese for my {food}, please, {name}?",
   "key": "some",
   "why": "This is a request (you ask for something). Requests use some, even in a question.",
   "slots": {
@@ -1360,6 +1378,12 @@
     "salad",
     "pasta",
     "sandwich"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1372,8 +1396,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "You want it. Ask for it politely. Write some or any.",
-  "source": "I want some jam for my {food}.",
-  "hint": "Can I have ______ jam for my {food}, please?",
+  "source": "I want some jam for my {food}, {name}.",
+  "hint": "Can I have ______ jam for my {food}, please, {name}?",
   "key": "some",
   "why": "This is a request (you ask for something). Requests use some, even in a question.",
   "slots": {
@@ -1382,6 +1406,12 @@
     "toast",
     "pancakes",
     "bun"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1394,8 +1424,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "You want it. Ask for it politely. Write some or any.",
-  "source": "I need some help with the {thing}.",
-  "hint": "Could you give me ______ help with the {thing}, please?",
+  "source": "I need some help with the {thing}, {name}.",
+  "hint": "Could you give me ______ help with the {thing}, please, {name}?",
   "key": "some",
   "why": "This is a request (you ask for something). Requests use some, even in a question.",
   "slots": {
@@ -1404,6 +1434,12 @@
     "boxes",
     "table",
     "homework"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1416,8 +1452,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "You want it. Ask for it politely. Write some or any.",
-  "source": "We want some meat for the {event}.",
-  "hint": "Can we have ______ meat for the {event}, please?",
+  "source": "We want some meat for the {event}, {name}.",
+  "hint": "Can we have ______ meat for the {event}, please, {name}?",
   "key": "some",
   "why": "This is a request (you ask for something). Requests use some, even in a question.",
   "slots": {
@@ -1426,6 +1462,12 @@
     "picnic",
     "guests",
     "dinner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1466,8 +1508,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "You want it. Ask for it politely. Write some or any.",
-  "source": "I want some ice cream after {meal}, Mum.",
-  "hint": "Can I have ______ ice cream after {meal}, please, Mum?",
+  "source": "I want some ice cream after {meal}, {who}.",
+  "hint": "Can I have ______ ice cream after {meal}, please, {who}?",
   "key": "some",
   "why": "This is a request (you ask for something). Requests use some, even in a question.",
   "slots": {
@@ -1476,6 +1518,12 @@
     "dinner",
     "the lesson",
     "football"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Grandpa"
    ]
   }
  },

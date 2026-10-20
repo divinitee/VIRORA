@@ -70,7 +70,7 @@ const BUILD = [
   ["any", "We didn't see ______ animals at the {place} in {city}.", { place: ["lake", "park", "river", "mountains"], city: CITY }],
   ["some", "{name} put ______ water in the {thing}.", { name: NAME, thing: ["bottle", "glass", "jug", "cup"] }],
   ["any", "There aren't ______ shops in {name}'s {place}.", { name: NAME, place: ["village", "street", "town", "building"] }],
-  ["some", "There is ______ juice on the {place}, {name}.", { place: ["table", "tray", "shelf", "floor"], name: NAME }],
+  ["some", "There is ______ juice on the {place}, {name}.", { place: ["table", "tray", "shelf", "kitchen table"], name: NAME }],
   ["any", "I don't have ______ lessons this {time}, {name}.", { time: ["afternoon", "evening", "week", "weekend"], name: NAME }],
 ].map(([key, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR_B, source, key, why: key === "some" ? WP : WN, slots }));
 

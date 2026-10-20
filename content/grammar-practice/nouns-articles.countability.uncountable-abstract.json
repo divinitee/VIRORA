@@ -248,7 +248,7 @@
     "Malika"
    ],
    "thing": [
-    "new metro",
+    "new airport",
     "new park",
     "football club",
     "new school"
@@ -537,7 +537,7 @@
    ],
    "sport": [
     "football",
-    "skiing",
+    "running",
     "tennis",
     "swimming"
    ],
@@ -1202,8 +1202,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The first sentence has a mistake with a/an. Complete the correct sentence with one word.",
-  "source": "There is a luggage in the {place}.",
-  "hint": "There is ______ luggage in the {place}.",
+  "source": "There is a luggage in the {place}, {name}.",
+  "hint": "There is ______ luggage in the {place}, {name}.",
   "key": "some",
   "why": "Luggage is uncountable, so use some, not a/an.",
   "slots": {
@@ -1212,6 +1212,12 @@
     "taxi",
     "car",
     "corridor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1280,8 +1286,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The first sentence has a mistake. Complete the correct sentence with one word.",
-  "source": "The guide gave us many informations about {city}.",
-  "hint": "The guide gave us a lot of ______ about {city}.",
+  "source": "The guide gave us many informations about {city}, {name}.",
+  "hint": "The guide gave us a lot of ______ about {city}, {name}.",
   "key": "information",
   "why": "Information is uncountable, so it never takes -s.",
   "slots": {
@@ -1290,6 +1296,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1358,11 +1370,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The first sentence has a mistake. Complete the correct sentence with one word.",
-  "source": "The gym has many new equipments, {name}.",
-  "hint": "The gym has a lot of new ______, {name}.",
+  "source": "The {room} has many new equipments, {name}.",
+  "hint": "The {room} has a lot of new ______, {name}.",
   "key": "equipment",
   "why": "Equipment is uncountable, so it never takes -s.",
   "slots": {
+   "room": [
+    "gym",
+    "lab",
+    "music room",
+    "sports hall"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1380,8 +1398,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The first sentence has a mistake. Complete the correct sentence with one word.",
-  "source": "My teacher has many knowledges about {subject}.",
-  "hint": "My teacher has a lot of ______ about {subject}.",
+  "source": "My teacher has many knowledges about {subject}, {name}.",
+  "hint": "My teacher has a lot of ______ about {subject}, {name}.",
   "key": "knowledge",
   "why": "Knowledge is uncountable, so it never takes -s.",
   "slots": {
@@ -1390,6 +1408,12 @@
     "science",
     "music",
     "computers"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
@@ -1402,8 +1426,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say the same thing with the uncountable noun. Complete the sentence with one word.",
-  "source": "We have three suitcases for the trip to {city}.",
-  "hint": "We have ______ luggage for the trip to {city}.",
+  "source": "We have three suitcases for the trip to {city}, {name}.",
+  "hint": "We have ______ luggage for the trip to {city}, {name}.",
   "key": "some",
   "why": "Suitcase is countable, but luggage is uncountable, so use some luggage.",
   "slots": {
@@ -1412,6 +1436,12 @@
     "Bukhara",
     "Fergana",
     "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
    ]
   }
  },
