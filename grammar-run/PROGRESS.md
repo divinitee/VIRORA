@@ -35,6 +35,8 @@ Rules: grammar-run/HANDOFF.md. One row per topic, in worklist order.
 
 Wave B turn 3 (Oct 20): rule 14 read; only a-an (#25) is in scope this turn.
 
+Batch B3 audit (Claude, Oct 20): suites green, keys in sync (24 topics), checker hits are fine. Read all ~280 multi-slot items, no defects. a-an covers rule 14 fully (sound rule, an hour / a university / a European). The distractor discipline in the future topics is strong (will and going to are never offered where both are right). Approved.
+
 Wave B turn 2 (Oct 20): rule 13 checker run on all 5 topics (1 hit, fine).
 
 Batch B2 audit (Claude, Oct 20): suites green, keys in sync (19 topics), checker clean. Read all ~250 multi-slot items, no defects. experience-ever teaches have + past participle explicitly (two-blank keys), which the course audit asked for. Approved. New rule 14 (topic scope notes) added for upcoming topics.
