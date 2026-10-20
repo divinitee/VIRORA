@@ -37,7 +37,7 @@
   {"slot": "adjective", "status": "existing", "form": "constant", "relation": "base", "definition": "happening all the time, without stopping", "example": "The baby needs constant care.",
    "syn": [{"to": "continuous", "relation": "synonym", "strength": 0.8, "note": "Without any break at all; constant can also mean happening very often."},
            {"to": "continual", "relation": "synonym", "strength": 0.8, "note": "Happening again and again, often in an annoying way: continual complaints."},
-           {"to": "non-stop", "relation": "synonym", "strength": 0.8, "note": "Easy and a little informal: non-stop rain.", "register": "informal"},
+           {"to": "incessant", "relation": "synonym", "strength": 0.8, "note": "Formal, and usually about something annoying: incessant noise.", "register": "formal"},
            {"to": "endless", "relation": "related", "strength": 0.6, "note": "Related: seeming to never finish, often used when you are tired of it."}],
    "ant": [{"to": "occasional", "relation": "antonym", "note": "Happening only sometimes, not often."},
            {"to": "rare", "relation": "antonym", "note": "Not happening very often."}]},
@@ -183,11 +183,11 @@
 {"headword": "convince", "word_id": "6a4282fd46ba24054c1dcda7", "word_ids": ["6a4282fd46ba24054c1dcda7"], "cefr": "B2", "kind": "word", "sense_label": "Persuading", "sense_pos": "verb",
  "corpus_definition": "To make someone believe that your idea is correct.",
  "forms": [
-  {"slot": "noun", "status": "existing", "form": "conviction", "relation": "derivational", "definition": "a strong feeling or belief that something is true", "example": "She spoke with real conviction about her plan.", "note": "Careful: conviction also means being found guilty in court (from convict).",
+  {"slot": "noun", "status": "existing", "form": "conviction", "relation": "derivational", "definition": "a strong feeling or belief that something is true", "example": "She spoke with real conviction about her plan.", "note": "Careful: this noun also means being found guilty in court.",
    "syn": [{"to": "belief", "relation": "synonym", "strength": 0.8, "note": "Easy word; conviction is a very strong belief."},
            {"to": "certainty", "relation": "related", "strength": 0.6, "note": "Related: the feeling of being completely sure."}],
    "ant": [{"to": "doubt", "relation": "antonym", "note": "A feeling of not being sure."}]},
-  {"slot": "verb", "status": "existing", "form": "convince", "relation": "base", "definition": "to make someone believe that something is true or right", "example": "I could not convince him to come with us.", "note": "Patterns: convince someone (that) + clause; convince someone to do something.",
+  {"slot": "verb", "status": "existing", "form": "convince", "relation": "base", "definition": "to make someone believe that something is true or right", "example": "I could not convince him to come with us.", "note": "Patterns: convince someone (that) + clause; convince someone to do something. 'Convict' (find someone guilty in court) shares an old Latin root but is not made from this word.", "not_family": ["convict"],
    "syn": [{"to": "persuade", "relation": "synonym", "strength": 0.95, "note": "Very close; persuade is more common with 'to do': persuade him to come."},
            {"to": "win over", "relation": "synonym", "strength": 0.8, "note": "Get someone to agree with you or support you."},
            {"to": "talk into", "relation": "synonym", "strength": 0.8, "note": "Informal: talk someone into doing something.", "register": "informal"},
@@ -217,7 +217,7 @@
   {"affix": "-ly", "in_form": "convincingly", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]}
  ],
  "context": {"text": "Aziz tried to convince his parents to buy a new laptop. His reasons were convincing, and in the end they were convinced it would help his studies.", "uses": ["convince", "convincing", "convinced"]},
- "reviewer_note": "conviction kept as existing (strong belief); note warns about the legal meaning from convict. Negative forms placed in ant."
+ "reviewer_note": "conviction kept as existing (strong belief) with a warning about its legal meaning; convict listed as not_family. Negative forms placed in ant."
 },
 {"headword": "cope with", "word_id": "6a4265cce20c7210db6908f3", "word_ids": ["6a4265cce20c7210db6908f3"], "cefr": "B2", "kind": "phrasal", "sense_label": "Managing", "sense_pos": "verb",
  "corpus_definition": "To manage to deal with a difficult situation.",
@@ -257,6 +257,7 @@
  "people_not_family": [],
  "affixes": [],
  "context": {"text": "Trust is at the core of a good friendship. My grandmother says honesty and kindness are the core values of our family.", "uses": ["core"]},
- "reviewer_note": "Adjective 'core' (core subjects) is a same-meaning conversion; verb 'core' (an apple) is other_meaning."
+ "gate_overrides": [{"msg_contains": "adjective 'core': not in the dictionary", "reason": "WordNet 3.1 lists core only as noun/verb, but Cambridge and Oxford learner dictionaries give the attributive adjective use 'core' (before a noun): core subjects, core values, core business."}],
+ "reviewer_note": "Adjective 'core' (core subjects) is a same-meaning conversion kept via gate_overrides (WordNet lacks the adj); verb 'core' (an apple) is other_meaning."
 }
 ]
