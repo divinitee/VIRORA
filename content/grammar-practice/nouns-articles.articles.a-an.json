@@ -1,0 +1,1801 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ umbrella by the {place}. Is it {who}'s?",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Umbrella starts with a vowel sound (um), so use an.",
+  "slots": {
+   "place": [
+    "door",
+    "window",
+    "bed",
+    "sofa"
+   ],
+   "who": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ university near our {home} in {city}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "University starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "street",
+    "school"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Namangan"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We waited for the {transport} for half ______ hour at the {place}.",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "In hour the h is silent, so the first sound is a vowel sound (our). Use an.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "taxi",
+    "minibus"
+   ],
+   "place": [
+    "station",
+    "bus stop",
+    "corner",
+    "airport"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ European student in my {group}. She is from {country}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "European starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "English class",
+    "dance class"
+   ],
+   "country": [
+    "Spain",
+    "France",
+    "Italy",
+    "Poland"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ egg in the {place}, so I can make {meal}.",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Egg starts with a vowel sound (e), so use an.",
+  "slots": {
+   "place": [
+    "fridge",
+    "bowl",
+    "box",
+    "basket"
+   ],
+   "meal": [
+    "breakfast",
+    "lunch",
+    "a snack",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ uniform for the {team} in the {place}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Uniform starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "team": [
+    "football team",
+    "school",
+    "dance group",
+    "club"
+   ],
+   "place": [
+    "box",
+    "bag",
+    "cupboard",
+    "wardrobe"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is there ______ orange in your {bag}, {name}?",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Orange starts with a vowel sound (o), so use an.",
+  "slots": {
+   "bag": [
+    "bag",
+    "lunch box",
+    "basket",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Mum",
+    "Kamila",
+    "Bobur"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ horse in the {place} near our {home}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "In horse you say the h, so it starts with a consonant sound. Use a.",
+  "slots": {
+   "place": [
+    "field",
+    "village",
+    "yard",
+    "garden"
+   ],
+   "home": [
+    "house",
+    "dacha",
+    "school",
+    "farm"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ idea! Let's go to the {place} with {name}.",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Idea starts with a vowel sound (i), so use an.",
+  "slots": {
+   "place": [
+    "park",
+    "zoo",
+    "cinema",
+    "lake"
+   ],
+   "name": [
+    "Olga",
+    "Sardor",
+    "Nigora",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ yellow bus outside the {place} on {street}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Yellow starts with a consonant sound (y), so use a.",
+  "slots": {
+   "place": [
+    "school",
+    "hotel",
+    "station",
+    "market"
+   ],
+   "street": [
+    "Navoi Street",
+    "our street",
+    "the main road",
+    "Amir Temur Street"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ old man at the {place}. He wants to see {who}.",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Old starts with a vowel sound (o), so use an.",
+  "slots": {
+   "place": [
+    "door",
+    "gate",
+    "office",
+    "front desk"
+   ],
+   "who": [
+    "you",
+    "your father",
+    "the doctor",
+    "the teacher"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ young girl with her {pet} in the {place}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Young starts with a consonant sound (y), so use a.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "rabbit"
+   ],
+   "place": [
+    "park",
+    "garden",
+    "yard",
+    "street"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is only half ______ hour for lunch at the {place}, so let's eat {food}.",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "In hour the h is silent, so the first sound is a vowel sound (our). Use an.",
+  "slots": {
+   "place": [
+    "college",
+    "office",
+    "factory",
+    "school"
+   ],
+   "food": [
+    "samsa",
+    "soup",
+    "salad",
+    "sandwiches"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ house for sale on {street} in {city}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "In house you say the h, so it starts with a consonant sound. Use a.",
+  "slots": {
+   "street": [
+    "our street",
+    "Navoi Street",
+    "the main road",
+    "Bobur Street"
+   ],
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Andijan",
+    "Karshi"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ interesting book! Can I take it home for the {time}, {name}?",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Interesting starts with a vowel sound (i), so use an.",
+  "slots": {
+   "time": [
+    "weekend",
+    "holidays",
+    "night",
+    "week"
+   ],
+   "name": [
+    "Aziz",
+    "Laylo",
+    "Bekzod",
+    "Anna"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ bank near the {place}, next to the {shop}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Bank starts with a consonant sound (b), so use a.",
+  "slots": {
+   "place": [
+    "station",
+    "market",
+    "park",
+    "school"
+   ],
+   "shop": [
+    "café",
+    "pharmacy",
+    "bakery",
+    "bookshop"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ empty seat next to {name} on the {transport}.",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Empty starts with a vowel sound (e), so use an.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ beautiful day in {city}! Let's go to the {place}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Beautiful starts with a consonant sound (b), so use a.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Khiva",
+    "Bukhara"
+   ],
+   "place": [
+    "park",
+    "lake",
+    "mountains",
+    "old town"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ apple tree in our {place} in {where}.",
+  "options": [
+   "an",
+   "a",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "Apple starts with a vowel sound (a), so use an.",
+  "slots": {
+   "place": [
+    "garden",
+    "yard",
+    "dacha",
+    "school"
+   ],
+   "where": [
+    "the village",
+    "Chirchiq",
+    "Fergana",
+    "Namangan"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ European football match on TV tonight at {name}'s {home}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 0,
+  "why": "European starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Bobur",
+    "Sardor",
+    "Javohir"
+   ],
+   "home": [
+    "house",
+    "flat",
+    "dacha",
+    "place"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "My brother eats ______ egg with {side} before {place}.",
+  "key": "an",
+  "why": "Egg starts with a vowel sound (e), so use an.",
+  "slots": {
+   "side": [
+    "bread",
+    "tea",
+    "salad",
+    "cheese"
+   ],
+   "place": [
+    "school",
+    "work",
+    "college",
+    "class"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Kamila studies at ______ university in {city} with her {person}.",
+  "key": "a",
+  "why": "University starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Seoul",
+    "Moscow",
+    "Samarkand"
+   ],
+   "person": [
+    "cousin",
+    "friend",
+    "sister",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "The {transport} from {city} takes ______ hour.",
+  "key": "an",
+  "why": "In hour the h is silent, so the first sound is a vowel sound (our). Use an.",
+  "slots": {
+   "transport": [
+    "train",
+    "bus",
+    "minibus",
+    "taxi"
+   ],
+   "city": [
+    "Chirchiq",
+    "Angren",
+    "Jizzakh",
+    "Gulistan"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Our new {subject} teacher is ______ European woman from {country}.",
+  "key": "a",
+  "why": "European starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "subject": [
+    "English",
+    "music",
+    "art",
+    "French"
+   ],
+   "country": [
+    "Spain",
+    "Italy",
+    "Poland",
+    "Germany"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Please take ______ umbrella, {name}. It's raining in {city}.",
+  "key": "an",
+  "why": "Umbrella starts with a vowel sound (um), so use an.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Fergana",
+    "Andijan"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Every student at our {place} wears ______ uniform with {detail}.",
+  "key": "a",
+  "why": "Uniform starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "place": [
+    "school",
+    "lyceum",
+    "college",
+    "academy"
+   ],
+   "detail": [
+    "black shoes",
+    "white socks",
+    "blue trousers",
+    "dark trousers"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Can I have ______ orange with my {meal}, {name}?",
+  "key": "an",
+  "why": "Orange starts with a vowel sound (o), so use an.",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "tea"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Dad",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "My grandfather has ______ horse at his {home} in {where}.",
+  "key": "a",
+  "why": "In horse you say the h, so it starts with a consonant sound. Use a.",
+  "slots": {
+   "home": [
+    "farm",
+    "house",
+    "dacha",
+    "village house"
+   ],
+   "where": [
+    "the mountains",
+    "the village",
+    "Surkhandarya",
+    "Karakalpakstan"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Nodira has ______ idea for the {event} with her {group}.",
+  "key": "an",
+  "why": "Idea starts with a vowel sound (i), so use an.",
+  "slots": {
+   "event": [
+    "party",
+    "trip",
+    "game",
+    "concert"
+   ],
+   "group": [
+    "class",
+    "friends",
+    "team",
+    "group"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Is there ______ bus stop near the {place} on {street}?",
+  "key": "a",
+  "why": "Bus starts with a consonant sound (b), so use a.",
+  "slots": {
+   "place": [
+    "market",
+    "hospital",
+    "park",
+    "bank"
+   ],
+   "street": [
+    "Navoi Street",
+    "this street",
+    "the main road",
+    "Bobur Street"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Our neighbour on {street} is ______ old man with {feature}.",
+  "key": "an",
+  "why": "Old starts with a vowel sound (o), so use an.",
+  "slots": {
+   "street": [
+    "our street",
+    "Navoi Street",
+    "the corner",
+    "the fifth floor"
+   ],
+   "feature": [
+    "white hair",
+    "kind eyes",
+    "two dogs",
+    "three cats"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Bobur wants ______ new phone for his {event} in {month}.",
+  "key": "a",
+  "why": "New starts with a consonant sound (n), so use a.",
+  "slots": {
+   "event": [
+    "birthday",
+    "new job",
+    "trip",
+    "studies"
+   ],
+   "month": [
+    "May",
+    "June",
+    "July",
+    "March"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "We had ______ English lesson in room {num} with {teacher}.",
+  "key": "an",
+  "why": "English starts with a vowel sound (i), so use an.",
+  "slots": {
+   "num": [
+    "five",
+    "twelve",
+    "nine",
+    "three"
+   ],
+   "teacher": [
+    "Mr Karimov",
+    "Ms Smith",
+    "Olga",
+    "our teacher"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "My sister has ______ young cat called {pet} in her {home}.",
+  "key": "a",
+  "why": "Young starts with a consonant sound (y), so use a.",
+  "slots": {
+   "pet": [
+    "Mosh",
+    "Barsik",
+    "Snow",
+    "Luna"
+   ],
+   "home": [
+    "flat",
+    "house",
+    "room",
+    "home"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Aziz is ______ engineer at the {place} in {city}.",
+  "key": "an",
+  "why": "Engineer starts with a vowel sound (e), so use an.",
+  "slots": {
+   "place": [
+    "factory",
+    "airport",
+    "bank",
+    "power station"
+   ],
+   "city": [
+    "Tashkent",
+    "Navoi",
+    "Almalyk",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "Malika is ______ doctor at the {place} near our {home}.",
+  "key": "a",
+  "why": "Doctor starts with a consonant sound (d), so use a.",
+  "slots": {
+   "place": [
+    "hospital",
+    "clinic",
+    "health centre",
+    "children's hospital"
+   ],
+   "home": [
+    "house",
+    "flat",
+    "school",
+    "street"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "I read ______ interesting story about {topic} last night.",
+  "key": "an",
+  "why": "Interesting starts with a vowel sound (i), so use an.",
+  "slots": {
+   "topic": [
+    "space",
+    "animals",
+    "old Samarkand",
+    "football"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "This is ______ useful book for {subject} students at the {place}.",
+  "key": "a",
+  "why": "Useful starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "IT",
+    "music"
+   ],
+   "place": [
+    "college",
+    "university",
+    "school",
+    "language centre"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "There is ______ apple tree in my {person}'s {place}.",
+  "key": "an",
+  "why": "Apple starts with a vowel sound (a), so use an.",
+  "slots": {
+   "person": [
+    "grandmother",
+    "uncle",
+    "aunt",
+    "neighbour"
+   ],
+   "place": [
+    "garden",
+    "yard",
+    "dacha",
+    "village house"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or an. Listen to the first sound of the next word.",
+  "source": "We live in ______ house near the {place} in {city}.",
+  "key": "a",
+  "why": "In house you say the h, so it starts with a consonant sound. Use a.",
+  "slots": {
+   "place": [
+    "river",
+    "park",
+    "market",
+    "mountains"
+   ],
+   "city": [
+    "Fergana",
+    "Samarkand",
+    "Termez",
+    "Urgench"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there is only one. Complete the second sentence with a or an.",
+  "source": "I have two umbrellas in my {place}.",
+  "hint": "My {person} has only ______ umbrella.",
+  "key": "an",
+  "why": "Umbrella starts with a vowel sound (um), so use an.",
+  "slots": {
+   "place": [
+    "car",
+    "bag",
+    "hall",
+    "office"
+   ],
+   "person": [
+    "sister",
+    "brother",
+    "friend",
+    "mother"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there is only one. Complete the second sentence with a or an.",
+  "source": "There are two universities in {city}.",
+  "hint": "Our town near {city} has only ______ university for {who}.",
+  "key": "a",
+  "why": "University starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ],
+   "who": [
+    "students",
+    "young people",
+    "everyone",
+    "the region"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there is only one. Complete the second sentence with a or an.",
+  "source": "The film at the {place} is two hours long.",
+  "hint": "The {show} on TV is only ______ hour long.",
+  "key": "an",
+  "why": "In hour the h is silent, so the first sound is a vowel sound (our). Use an.",
+  "slots": {
+   "place": [
+    "cinema",
+    "theatre",
+    "club",
+    "centre"
+   ],
+   "show": [
+    "cartoon",
+    "match",
+    "concert",
+    "programme"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there is only one. Complete the second sentence with a or an.",
+  "source": "Mum bought six eggs at the {shop}.",
+  "hint": "Now there is only ______ egg in the {place}.",
+  "key": "an",
+  "why": "Egg starts with a vowel sound (e), so use an.",
+  "slots": {
+   "shop": [
+    "market",
+    "shop",
+    "bazaar",
+    "supermarket"
+   ],
+   "place": [
+    "fridge",
+    "box",
+    "bowl",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there is only one. Complete the second sentence with a or an.",
+  "source": "The students at our {place} have two uniforms.",
+  "hint": "My little brother has only ______ uniform for {use}.",
+  "key": "a",
+  "why": "Uniform starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "place": [
+    "school",
+    "lyceum",
+    "college",
+    "academy"
+   ],
+   "use": [
+    "summer",
+    "winter",
+    "sport",
+    "school days"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. A new word comes before the noun. Complete the second sentence with a or an.",
+  "source": "There is a book on the {furniture} in the {room}.",
+  "hint": "It is ______ old book from my {person}.",
+  "key": "an",
+  "why": "Old starts with a vowel sound (o), so use an.",
+  "slots": {
+   "furniture": [
+    "table",
+    "shelf",
+    "desk",
+    "bed"
+   ],
+   "room": [
+    "kitchen",
+    "bedroom",
+    "hall",
+    "classroom"
+   ],
+   "person": [
+    "grandfather",
+    "aunt",
+    "teacher",
+    "father"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. A new word comes before the noun. Complete the second sentence with a or an.",
+  "source": "I want an egg for {meal}.",
+  "hint": "I want ______ big egg, {name}.",
+  "key": "a",
+  "why": "Big starts with a consonant sound (b), so use a.",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "my salad"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Dad",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. A new word comes before the noun. Complete the second sentence with a or an.",
+  "source": "There is an orange in my {bag}.",
+  "hint": "It is ______ small orange from {place}.",
+  "key": "a",
+  "why": "Small starts with a consonant sound (s), so use a.",
+  "slots": {
+   "bag": [
+    "bag",
+    "lunch box",
+    "pocket",
+    "basket"
+   ],
+   "place": [
+    "the market",
+    "Fergana",
+    "our garden",
+    "Grandma's tree"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. A new word comes before the noun. Complete the second sentence with a or an.",
+  "source": "We live near a house on {street}.",
+  "hint": "It is ______ empty house with {feature}.",
+  "key": "an",
+  "why": "Empty starts with a vowel sound (e), so use an.",
+  "slots": {
+   "street": [
+    "our street",
+    "Navoi Street",
+    "the main road",
+    "Bobur Street"
+   ],
+   "feature": [
+    "old doors",
+    "broken windows",
+    "tall trees",
+    "no lights"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. A new word comes before the noun. Complete the second sentence with a or an.",
+  "source": "Aziz has an idea for the {event}.",
+  "hint": "It is ______ good idea, {name}.",
+  "key": "a",
+  "why": "Good starts with a consonant sound (g), so use a.",
+  "slots": {
+   "event": [
+    "party",
+    "trip",
+    "game",
+    "class project"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. The noun is different now. Complete the second sentence with a or an.",
+  "source": "Aziz is a doctor at the {place}.",
+  "hint": "His sister is ______ engineer in {city}.",
+  "key": "an",
+  "why": "Engineer starts with a vowel sound (e), so use an.",
+  "slots": {
+   "place": [
+    "hospital",
+    "clinic",
+    "health centre",
+    "children's hospital"
+   ],
+   "city": [
+    "Tashkent",
+    "Navoi",
+    "Almalyk",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. The noun is different now. Complete the second sentence with a or an.",
+  "source": "My mother is an artist in {city}.",
+  "hint": "My father is ______ university teacher.",
+  "key": "a",
+  "why": "University starts with the sound \"you\", not a vowel sound, so use a.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. The noun is different now. Complete the second sentence with a or an.",
+  "source": "We stayed in {city} for a day.",
+  "hint": "We stayed at the {place} for ______ hour.",
+  "key": "an",
+  "why": "In hour the h is silent, so the first sound is a vowel sound (our). Use an.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "place": [
+    "station",
+    "airport",
+    "café",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. The noun is different now. Complete the second sentence with a or an.",
+  "source": "I bought a pen for my {person}.",
+  "hint": "I also bought ______ eraser at the {shop}.",
+  "key": "an",
+  "why": "Eraser starts with a vowel sound (e), so use an.",
+  "slots": {
+   "person": [
+    "brother",
+    "sister",
+    "son",
+    "daughter"
+   ],
+   "shop": [
+    "bookshop",
+    "school shop",
+    "market",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. The noun is different now. Complete the second sentence with a or an.",
+  "source": "There is an elephant at the {place} in {city}.",
+  "hint": "There is ______ giraffe there too.",
+  "key": "a",
+  "why": "Giraffe starts with a consonant sound (j), so use a.",
+  "slots": {
+   "place": [
+    "zoo",
+    "park",
+    "wildlife park",
+    "animal park"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Moscow",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something in your bag. Use a or an.",
+  "requiredElement": "a / an",
+  "constraints": [
+   "exactly one sentence",
+   "must use a or an",
+   "must name one thing"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with an hour.",
+  "requiredElement": "an hour",
+  "constraints": [
+   "exactly one sentence",
+   "must use an hour"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a university.",
+  "requiredElement": "a university",
+  "constraints": [
+   "exactly one sentence",
+   "must use a university"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a person's job. Use an.",
+  "requiredElement": "an + job",
+  "constraints": [
+   "exactly one sentence",
+   "must use an",
+   "must name a job"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food for breakfast. Use an.",
+  "requiredElement": "an + food",
+  "constraints": [
+   "exactly one sentence",
+   "must use an",
+   "must name a food"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with an old thing and one sentence with a new thing.",
+  "requiredElement": "an old / a new",
+  "constraints": [
+   "exactly two sentences",
+   "must use an old",
+   "must use a new"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence that starts with There is and uses an umbrella or an apple.",
+  "requiredElement": "There is an...",
+  "constraints": [
+   "exactly one sentence",
+   "must start with There is",
+   "must use an"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a uniform or a European.",
+  "requiredElement": "a + \"you\" sound",
+  "constraints": [
+   "exactly one sentence",
+   "must use a uniform or a European"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your room. Write three or four sentences with There is a... and There is an...",
+  "targetGrammar": "a / an",
+  "lookFor": [
+   "a + consonant sound",
+   "an + vowel sound",
+   "There is"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about your family's jobs. Write three or four sentences.",
+  "targetGrammar": "a / an + job",
+  "lookFor": [
+   "a + job",
+   "an + job",
+   "is"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What is in your fridge? Write three or four sentences.",
+  "targetGrammar": "a / an + food",
+  "lookFor": [
+   "an egg or an apple",
+   "a + food",
+   "There is"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about your school or university day. Use an hour and a university or a uniform.",
+  "targetGrammar": "a / an with tricky sounds",
+  "lookFor": [
+   "an hour",
+   "a university or a uniform",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your street. Write three or four sentences.",
+  "targetGrammar": "a / an",
+  "lookFor": [
+   "a + place",
+   "an old or an empty",
+   "There is"
+  ]
+ }
+]

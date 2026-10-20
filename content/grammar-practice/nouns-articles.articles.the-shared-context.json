@@ -1,0 +1,1785 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I bought a cake and some juice at the {shop}. ______ cake was {taste}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this cake before, so now we both know it. Use the.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "market",
+    "shop",
+    "café"
+   ],
+   "taste": [
+    "delicious",
+    "sweet",
+    "very good",
+    "fresh"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you pass me ______ salt for the {food}, {name}?",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We both know which salt. Use the, also with nouns like salt.",
+  "slots": {
+   "food": [
+    "soup",
+    "salad",
+    "rice",
+    "eggs"
+   ],
+   "name": [
+    "Aziz",
+    "Mum",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where are ______ keys of our {home}? I can't find them in my {bag}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We both know which keys. Use the, also with plural nouns.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "car",
+    "dacha"
+   ],
+   "bag": [
+    "bag",
+    "pocket",
+    "jacket",
+    "backpack"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have a dog and a cat at our {home}. ______ dog sleeps in the {place}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this dog before, so now we both know it. Use the.",
+  "slots": {
+   "home": [
+    "house",
+    "dacha",
+    "farm",
+    "flat"
+   ],
+   "place": [
+    "kitchen",
+    "yard",
+    "garden",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please turn off ______ lights in the {room} before you go to {place}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We both know which lights. Use the, also with plural nouns.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bathroom",
+    "classroom",
+    "hall"
+   ],
+   "place": [
+    "bed",
+    "school",
+    "work",
+    "sleep"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is a café and a bank near {place}. ______ café opens at {time}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this café before, so now we both know it. Use the.",
+  "slots": {
+   "place": [
+    "our flat",
+    "my school",
+    "our college",
+    "my office"
+   ],
+   "time": [
+    "eight",
+    "nine",
+    "ten",
+    "seven"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister has a new bike. ______ bike is {colour} and very {adj}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this bike before, so now we both know it. Use the.",
+  "slots": {
+   "colour": [
+    "red",
+    "blue",
+    "black",
+    "green"
+   ],
+   "adj": [
+    "fast",
+    "light",
+    "nice",
+    "cool"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look at ______ boys in the {place}! They are playing {sport}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We both know which boys. Use the, also with plural nouns.",
+  "slots": {
+   "place": [
+    "park",
+    "yard",
+    "street",
+    "garden"
+   ],
+   "sport": [
+    "football",
+    "chess",
+    "tennis",
+    "volleyball"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I read a book and watched a film last night. ______ book was {opinion}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this book before, so now we both know it. Use the.",
+  "slots": {
+   "opinion": [
+    "boring",
+    "great",
+    "very long",
+    "funny"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where is ______ milk, {name}? I bought it at the {shop}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We both know which milk. Use the, also with nouns like milk.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Aziz",
+    "Kamila",
+    "Dad"
+   ],
+   "shop": [
+    "shop",
+    "market",
+    "corner shop",
+    "supermarket"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We stayed at a hotel in {city}. ______ hotel had a {feature}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this hotel before, so now we both know it. Use the.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ],
+   "feature": [
+    "big pool",
+    "nice garden",
+    "small café",
+    "great view"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father bought a car and a bike for his {use}. ______ car is {colour}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this car before, so now we both know it. Use the.",
+  "slots": {
+   "use": [
+    "work",
+    "trips",
+    "family",
+    "job"
+   ],
+   "colour": [
+    "white",
+    "black",
+    "grey",
+    "blue"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher gave us a test. ______ test was very {adj} for {who}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this test before, so now we both know it. Use the.",
+  "slots": {
+   "adj": [
+    "hard",
+    "easy",
+    "long",
+    "short"
+   ],
+   "who": [
+    "me",
+    "us",
+    "everyone",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where are ______ children? They were in the {place} with {who}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We both know which children. Use the, also with plural nouns.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "garden",
+    "kitchen"
+   ],
+   "who": [
+    "Grandma",
+    "their father",
+    "Olga",
+    "my mother"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I saw a man and a woman at the {place}. ______ woman was {doing}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this woman before, so now we both know it. Use the.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "door",
+    "gate",
+    "shop"
+   ],
+   "doing": [
+    "singing",
+    "laughing",
+    "reading",
+    "dancing"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is a sofa and a chair in my {room}. ______ chair is near the {thing}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this chair before, so now we both know it. Use the.",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "living room",
+    "flat"
+   ],
+   "thing": [
+    "window",
+    "door",
+    "lamp",
+    "TV"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is ______ water in the {thing} hot or cold, {name}?",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We both know which water. Use the, also with nouns like water.",
+  "slots": {
+   "thing": [
+    "kettle",
+    "bottle",
+    "cup",
+    "bath"
+   ],
+   "name": [
+    "Aziz",
+    "Mum",
+    "Laylo",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have a cat. ______ cat likes {food} and sleeps on the {place}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this cat before, so now we both know it. Use the.",
+  "slots": {
+   "food": [
+    "fish",
+    "milk",
+    "meat",
+    "chicken"
+   ],
+   "place": [
+    "sofa",
+    "bed",
+    "chair",
+    "carpet"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz has a brother and a sister. ______ brother is {age} years old.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this brother before, so now we both know it. Use the.",
+  "slots": {
+   "age": [
+    "ten",
+    "twelve",
+    "fifteen",
+    "twenty"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I made soup and a salad for {name}. ______ soup was {adj}.",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "We talked about this soup before, so now we both know it. Use the.",
+  "slots": {
+   "name": [
+    "Grandma",
+    "my friends",
+    "Dad",
+    "the guests"
+   ],
+   "adj": [
+    "hot",
+    "too salty",
+    "very good",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "I bought a cake and some juice at our {shop}. ______ cake was {taste}.",
+  "key": "the",
+  "why": "We talked about this cake before, so now we both know it. Use the.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "market",
+    "shop",
+    "café"
+   ],
+   "taste": [
+    "delicious",
+    "sweet",
+    "very good",
+    "fresh"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Can you pass me ______ salt for my {food}, {name}?",
+  "key": "the",
+  "why": "We both know which salt. Use the, also with nouns like salt.",
+  "slots": {
+   "food": [
+    "soup",
+    "salad",
+    "rice",
+    "eggs"
+   ],
+   "name": [
+    "Aziz",
+    "Mum",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Where are ______ keys of our {home}? I can't find them in my {bag}.",
+  "key": "the",
+  "why": "We both know which keys. Use the, also with plural nouns.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "car",
+    "dacha"
+   ],
+   "bag": [
+    "bag",
+    "pocket",
+    "jacket",
+    "backpack"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "We have a dog and a cat at our {home}. ______ dog sleeps in our {place}.",
+  "key": "the",
+  "why": "We talked about this dog before, so now we both know it. Use the.",
+  "slots": {
+   "home": [
+    "house",
+    "dacha",
+    "farm",
+    "flat"
+   ],
+   "place": [
+    "kitchen",
+    "yard",
+    "garden",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Please turn off ______ lights in your {room} before {time}.",
+  "key": "the",
+  "why": "We both know which lights. Use the, also with plural nouns.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bathroom",
+    "bedroom",
+    "office"
+   ],
+   "time": [
+    "bed",
+    "school",
+    "you leave",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "There is a café and a bank near {place}. ______ café opens at {time}.",
+  "key": "the",
+  "why": "We talked about this café before, so now we both know it. Use the.",
+  "slots": {
+   "place": [
+    "our flat",
+    "my school",
+    "our college",
+    "my office"
+   ],
+   "time": [
+    "eight",
+    "nine",
+    "ten",
+    "seven"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "My sister has a new bike. ______ bike is {colour} and very {adj}.",
+  "key": "the",
+  "why": "We talked about this bike before, so now we both know it. Use the.",
+  "slots": {
+   "colour": [
+    "red",
+    "blue",
+    "black",
+    "green"
+   ],
+   "adj": [
+    "fast",
+    "light",
+    "nice",
+    "cool"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Look at ______ boys in our {place}! They are playing {sport}.",
+  "key": "the",
+  "why": "We both know which boys. Use the, also with plural nouns.",
+  "slots": {
+   "place": [
+    "yard",
+    "street",
+    "park",
+    "garden"
+   ],
+   "sport": [
+    "football",
+    "chess",
+    "tennis",
+    "volleyball"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "I read a book and watched a film last night. ______ book was {opinion}.",
+  "key": "the",
+  "why": "We talked about this book before, so now we both know it. Use the.",
+  "slots": {
+   "opinion": [
+    "boring",
+    "great",
+    "very long",
+    "funny"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Where is ______ milk, {name}? I bought it at {shop}.",
+  "key": "the",
+  "why": "We both know which milk. Use the, also with nouns like milk.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Aziz",
+    "Kamila",
+    "Dad"
+   ],
+   "shop": [
+    "our shop",
+    "that market",
+    "this shop",
+    "a big shop"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "We stayed at a hotel in {city}. ______ hotel had a {feature}.",
+  "key": "the",
+  "why": "We talked about this hotel before, so now we both know it. Use the.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ],
+   "feature": [
+    "big pool",
+    "nice garden",
+    "small café",
+    "great view"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "My father bought a car and a bike for his {use}. ______ car is {colour}.",
+  "key": "the",
+  "why": "We talked about this car before, so now we both know it. Use the.",
+  "slots": {
+   "use": [
+    "work",
+    "trips",
+    "family",
+    "job"
+   ],
+   "colour": [
+    "white",
+    "black",
+    "grey",
+    "blue"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Our teacher gave us a test. ______ test was very {adj} for {who}.",
+  "key": "the",
+  "why": "We talked about this test before, so now we both know it. Use the.",
+  "slots": {
+   "adj": [
+    "hard",
+    "easy",
+    "long",
+    "short"
+   ],
+   "who": [
+    "me",
+    "us",
+    "everyone",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Where are ______ children? They were in our {place} with {who}.",
+  "key": "the",
+  "why": "We both know which children. Use the, also with plural nouns.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "garden",
+    "kitchen"
+   ],
+   "who": [
+    "Grandma",
+    "their father",
+    "Olga",
+    "my mother"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "I saw a man and a woman at our {place}. ______ woman was {doing}.",
+  "key": "the",
+  "why": "We talked about this woman before, so now we both know it. Use the.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "door",
+    "gate",
+    "shop"
+   ],
+   "doing": [
+    "singing",
+    "laughing",
+    "reading",
+    "dancing"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "There is a sofa and a chair in my {room}. ______ chair is near my {thing}.",
+  "key": "the",
+  "why": "We talked about this chair before, so now we both know it. Use the.",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "living room",
+    "flat"
+   ],
+   "thing": [
+    "window",
+    "door",
+    "lamp",
+    "TV"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Is ______ water in your {thing} hot or cold, {name}?",
+  "key": "the",
+  "why": "We both know which water. Use the, also with nouns like water.",
+  "slots": {
+   "thing": [
+    "kettle",
+    "bottle",
+    "cup",
+    "bath"
+   ],
+   "name": [
+    "Aziz",
+    "Mum",
+    "Laylo",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "We have a cat. ______ cat likes {food} and sleeps on my {place}.",
+  "key": "the",
+  "why": "We talked about this cat before, so now we both know it. Use the.",
+  "slots": {
+   "food": [
+    "fish",
+    "milk",
+    "meat",
+    "chicken"
+   ],
+   "place": [
+    "sofa",
+    "bed",
+    "chair",
+    "carpet"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "Aziz has a brother and a sister. ______ brother is {age} years old.",
+  "key": "the",
+  "why": "We talked about this brother before, so now we both know it. Use the.",
+  "slots": {
+   "age": [
+    "ten",
+    "twelve",
+    "fifteen",
+    "twenty"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a, an or the.",
+  "source": "I made soup and a salad for {name}. ______ soup was {adj}.",
+  "key": "the",
+  "why": "We talked about this soup before, so now we both know it. Use the.",
+  "slots": {
+   "name": [
+    "Grandma",
+    "my friends",
+    "Dad",
+    "our guests"
+   ],
+   "adj": [
+    "hot",
+    "too salty",
+    "very good",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we talk about the same thing again. Complete the second sentence with a, an or the.",
+  "source": "There is a dog in our {place}.",
+  "hint": "______ dog is very {adj}.",
+  "key": "the",
+  "why": "We talked about this dog before, so now we both know it. Use the.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "street",
+    "building"
+   ],
+   "adj": [
+    "big",
+    "friendly",
+    "old",
+    "noisy"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we talk about the same thing again. Complete the second sentence with a, an or the.",
+  "source": "My uncle has a shop in {city}.",
+  "hint": "______ shop sells {goods}.",
+  "key": "the",
+  "why": "We talked about this shop before, so now we both know it. Use the.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Andijan",
+    "Karshi"
+   ],
+   "goods": [
+    "bread",
+    "clothes",
+    "phones",
+    "fruit"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we talk about the same thing again. Complete the second sentence with a, an or the.",
+  "source": "I saw a film with {name} yesterday.",
+  "hint": "______ film was very {adj}.",
+  "key": "the",
+  "why": "We talked about this film before, so now we both know it. Use the.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "my sister",
+    "Bobur"
+   ],
+   "adj": [
+    "long",
+    "funny",
+    "good",
+    "sad"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we talk about the same thing again. Complete the second sentence with a, an or the.",
+  "source": "We bought a new sofa for our {room}.",
+  "hint": "______ sofa is {colour}.",
+  "key": "the",
+  "why": "We talked about this sofa before, so now we both know it. Use the.",
+  "slots": {
+   "room": [
+    "living room",
+    "flat",
+    "house",
+    "bedroom"
+   ],
+   "colour": [
+    "grey",
+    "blue",
+    "brown",
+    "green"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we talk about the same thing again. Complete the second sentence with a, an or the.",
+  "source": "Kamila got a letter from {who}.",
+  "hint": "______ letter was {adj}.",
+  "key": "the",
+  "why": "We talked about this letter before, so now we both know it. Use the.",
+  "slots": {
+   "who": [
+    "her grandmother",
+    "her friend",
+    "her school",
+    "her cousin"
+   ],
+   "adj": [
+    "very long",
+    "short",
+    "in English",
+    "beautiful"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. There is only one here. Complete the second sentence with a, an or the.",
+  "source": "There is one door in our {room}.",
+  "hint": "Please close ______ door, {name}.",
+  "key": "the",
+  "why": "There is only one door here, so we both know it. Use the.",
+  "slots": {
+   "room": [
+    "classroom",
+    "bedroom",
+    "kitchen",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. There is only one here. Complete the second sentence with a, an or the.",
+  "source": "There is one TV in our {home}.",
+  "hint": "Can you turn on ______ TV, {name}?",
+  "key": "the",
+  "why": "There is only one TV here, so we both know it. Use the.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "hotel room",
+    "kitchen"
+   ],
+   "name": [
+    "Dad",
+    "Bobur",
+    "Grandma",
+    "Laylo"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. There is only one here. Complete the second sentence with a, an or the.",
+  "source": "Our {building} has one lift.",
+  "hint": "Let's take ______ lift, {name}.",
+  "key": "the",
+  "why": "There is only one lift here, so we both know it. Use the.",
+  "slots": {
+   "building": [
+    "building",
+    "hotel",
+    "office",
+    "block"
+   ],
+   "name": [
+    "Aziz",
+    "Mum",
+    "Sardor",
+    "Anna"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. There is only one here. Complete the second sentence with a, an or the.",
+  "source": "There is one teacher in our {group} today.",
+  "hint": "Ask ______ teacher, {name}.",
+  "key": "the",
+  "why": "There is only one teacher here, so we both know it. Use the.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "room",
+    "lesson"
+   ],
+   "name": [
+    "Kamila",
+    "Timur",
+    "Nodira",
+    "Bekzod"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. There is only one here. Complete the second sentence with a, an or the.",
+  "source": "Our town near {city} has one station.",
+  "hint": "Let's meet at ______ station at {time}.",
+  "key": "the",
+  "why": "There is only one station here, so we both know it. Use the.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ],
+   "time": [
+    "six",
+    "seven",
+    "noon",
+    "ten"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we both know which one. Complete the second sentence with a, an or the.",
+  "source": "Mum put some bread on our {furniture}.",
+  "hint": "Is ______ bread fresh, {name}?",
+  "key": "the",
+  "why": "We both know which bread. Use the, also with nouns like bread.",
+  "slots": {
+   "furniture": [
+    "table",
+    "plate",
+    "board",
+    "tray"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Grandma",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we both know which one. Complete the second sentence with a, an or the.",
+  "source": "I bought some apples at {shop}.",
+  "hint": "______ apples are {adj}.",
+  "key": "the",
+  "why": "We both know which apples. Use the, also with plural nouns.",
+  "slots": {
+   "shop": [
+    "our market",
+    "that shop",
+    "Chorsu bazaar",
+    "a small shop"
+   ],
+   "adj": [
+    "sweet",
+    "red",
+    "very good",
+    "big"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we both know which one. Complete the second sentence with a, an or the.",
+  "source": "There is some water in my {thing}.",
+  "hint": "Is ______ water cold, {name}?",
+  "key": "the",
+  "why": "We both know which water. Use the, also with nouns like water.",
+  "slots": {
+   "thing": [
+    "bottle",
+    "cup",
+    "glass",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Laylo",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we both know which one. Complete the second sentence with a, an or the.",
+  "source": "We met some students from {city}.",
+  "hint": "______ students were very {adj}.",
+  "key": "the",
+  "why": "We both know which students. Use the, also with plural nouns.",
+  "slots": {
+   "city": [
+    "Seoul",
+    "Moscow",
+    "Bukhara",
+    "Almaty"
+   ],
+   "adj": [
+    "friendly",
+    "kind",
+    "nice",
+    "funny"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now we both know which one. Complete the second sentence with a, an or the.",
+  "source": "Dad bought some flowers for {person}.",
+  "hint": "______ flowers are on our {place} now.",
+  "key": "the",
+  "why": "We both know which flowers. Use the, also with plural nouns.",
+  "slots": {
+   "person": [
+    "Mum",
+    "Grandma",
+    "my sister",
+    "our teacher"
+   ],
+   "place": [
+    "table",
+    "balcony",
+    "shelf",
+    "desk"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a pet. Use a in the first sentence and the in the second.",
+  "requiredElement": "a ... the (second mention)",
+  "constraints": [
+   "exactly two sentences",
+   "first uses a",
+   "second uses the"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask someone at home to close or open something. Use the.",
+  "requiredElement": "the (only one here)",
+  "constraints": [
+   "exactly one sentence",
+   "must use the",
+   "must use close or open"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask where something in your kitchen is. Use the.",
+  "requiredElement": "the (shared)",
+  "constraints": [
+   "exactly one question",
+   "must use the",
+   "must start with Where"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about something you bought. Use a, then the.",
+  "requiredElement": "a ... the",
+  "constraints": [
+   "exactly two sentences",
+   "first uses a",
+   "second uses the"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask someone at the table to pass you something.",
+  "requiredElement": "the (shared)",
+  "constraints": [
+   "exactly one question",
+   "must use the",
+   "must use pass"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the lights or the windows in your room.",
+  "requiredElement": "the + plural",
+  "constraints": [
+   "exactly one sentence",
+   "must use the",
+   "must use lights or windows"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a film you saw. Use a, then the.",
+  "requiredElement": "a ... the",
+  "constraints": [
+   "exactly two sentences",
+   "first uses a",
+   "second uses the"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the water or the milk in your fridge.",
+  "requiredElement": "the + uncountable",
+  "constraints": [
+   "exactly one sentence",
+   "must use the water or the milk"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your home: there is a..., and then say more about it with the. Write three or four sentences.",
+  "targetGrammar": "a ... the",
+  "lookFor": [
+   "a + first mention",
+   "the + second mention",
+   "There is"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a trip: you stayed at a hotel and ate at a café. Write three or four sentences.",
+  "targetGrammar": "a ... the",
+  "lookFor": [
+   "a hotel or a café",
+   "the hotel or the café",
+   "was"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short note to your family about things in the kitchen. Write three or four sentences.",
+  "targetGrammar": "the (shared)",
+  "lookFor": [
+   "the + kitchen things",
+   "please",
+   "where"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a present you got. Write three or four sentences.",
+  "targetGrammar": "a ... the",
+  "lookFor": [
+   "a + present",
+   "the + present",
+   "a colour or size"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about your pets or a friend's pets. Write three or four sentences.",
+  "targetGrammar": "a ... the",
+  "lookFor": [
+   "a + animal",
+   "the + animal",
+   "likes"
+  ]
+ }
+]

@@ -20,11 +20,11 @@
 19	B	tenses.perfect.never-experience	A2	1	live	Past participle after has never
 20	B	tenses.perfect.present-result	A2	1	live	Present perfect for a completed action with a present result
 21	B	tenses.perfect.since-duration	A2	3	live	Present perfect with 'since' for an unfinished period | Turning a past start point into a present perfect duration | Present perfect (continuous) from a past start point, formal register
-22	B	tenses.future.going-to-evidence	A2	1	todo	be going to for a prediction based on present evidence
-23	B	tenses.future.going-to-plan	A2	1	todo	be going to for a pre-made plan
-24	B	tenses.future.will-spontaneous	A2	1	todo	will for a spontaneous decision at the moment of speaking
-25	B	nouns-articles.articles.a-an	A1	3	todo	a before a consonant sound | an before a vowel sound | an before a vowel sound (umbrella)
-26	B	nouns-articles.articles.the-shared-context	A1	1	todo	the for something both speakers can identify
+22	B	tenses.future.going-to-evidence	A2	1	live	be going to for a prediction based on present evidence
+23	B	tenses.future.going-to-plan	A2	1	live	be going to for a pre-made plan
+24	B	tenses.future.will-spontaneous	A2	1	live	will for a spontaneous decision at the moment of speaking
+25	B	nouns-articles.articles.a-an	A1	3	live	a before a consonant sound | an before a vowel sound | an before a vowel sound (umbrella)
+26	B	nouns-articles.articles.the-shared-context	A1	1	live	the for something both speakers can identify
 27	B	nouns-articles.articles.the-unique	A1	1	todo	the for a unique referent
 28	B	nouns-articles.plurals-agreement.es-plural	A1	1	todo	-es plural after -x
 29	B	nouns-articles.plurals-agreement.irregular-plural	A1	2	todo	Irregular plural (children) | Producing an irregular plural

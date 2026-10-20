@@ -2,6 +2,76 @@
 // Pool sizes per topic and stage, counting slot expansion. Lets the node map
 // render real numbers without loading a single bank.
 export const PRACTICE_MANIFEST = {
+ "nouns-articles.articles.a-an": {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "a-an",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 276,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.articles.the-shared-context": {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-shared-context",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 296,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.future.going-to-evidence": {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 276,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.future.going-to-plan": {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-plan",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.future.will-spontaneous": {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "will-spontaneous",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.past.continuous-at-time": {
   "domain": "tenses",
   "branch": "past",

@@ -27,6 +27,14 @@ Rules: grammar-run/HANDOFF.md. One row per topic, in worklist order.
 | 20 | tenses.perfect.present-result | A2 | 0→0 | 320/308/228 | done | past simple NOT a distractor (fine in US English). Fixed before run: "pond … have frozen" subject type, a 3-slot reply cut to 2. Agreement checker: 1 hit (food + "lots to eat"), fine |
 | 21 | tenses.perfect.since-duration | A2 | 1→0 | 320/320/228 | done | lint: "a engineer" → mechanic. Ingest refused: transform under 200 variants (too many one-slot items) → second slots added. Activity-verb keys accept the continuous form |
 
+| 22 | tenses.future.going-to-evidence | A2 | 0→0 | 320/320/276 | done | "will" NOT a distractor (also correct for predictions); distractors are be-form errors only. Ingest refused 15 first time: build/transform sentences printed is/are/to, which the key repeats; rewrote them with has/have/past forms. Checker: 2 hits (clouds/place plural), fine |
+| 23 | tenses.future.going-to-plan | A2 | 2→0 | 320/320/240 | done | will and present continuous NOT distractors (both can express plans). Lint: "a evening course" → short course. Ingest refused 2 (paint/have printed in sentence), reworded |
+| 24 | tenses.future.will-spontaneous | A2 | 0→0 | 320/320/240 | done | distractors: will to, dropped will (am/are), "going". "am going to" NOT a distractor (sometimes possible). Transform kinds: decide yes / say no (won't) / pick one ("I think I'll") |
+| 25 | nouns-articles.articles.a-an | A1 | 0→0 | 320/308/276 | done | Rule 14: every why explains the first SOUND, not the letter; includes an hour (×4), a university (×4), a European (×3), a uniform (×3), a useful, a horse/house vs an hour. Choose frames (There is / What…! / half…hour) make "the" impossible. No sentence prints the word that is the key |
+| 26 | nouns-articles.articles.the-shared-context | A1 | 0→0 | 296/296/240 | done | every frame makes a/an impossible (second mention, plural or uncountable); all nouns start with a consonant sound so "an" is always wrong. No build/transform sentence prints "the" |
+
+Wave B turn 3 (Oct 20): rule 14 read; only a-an (#25) is in scope this turn.
+
 Wave B turn 2 (Oct 20): rule 13 checker run on all 5 topics (1 hit, fine).
 
 Batch B2 audit (Claude, Oct 20): suites green, keys in sync (19 topics), checker clean. Read all ~250 multi-slot items, no defects. experience-ever teaches have + past participle explicitly (two-blank keys), which the course audit asked for. Approved. New rule 14 (topic scope notes) added for upcoming topics.

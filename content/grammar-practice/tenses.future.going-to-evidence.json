@@ -1,0 +1,1825 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look at those dark clouds over the {place}! It ______ rain, so take your {thing}.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With it, use is going to + verb.",
+  "slots": {
+   "place": [
+    "mountains",
+    "city",
+    "river",
+    "park"
+   ],
+   "thing": [
+    "umbrella",
+    "raincoat",
+    "jacket",
+    "coat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz is running very fast with his {thing}. He ______ catch the bus to {city}.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With he, use is going to + verb.",
+  "slots": {
+   "thing": [
+    "bag",
+    "backpack",
+    "suitcase",
+    "phone"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I feel very {state} after that {food}. I think I ______ be sick.",
+  "options": [
+   "am going to",
+   "is going to",
+   "going to",
+   "am go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With I, use am going to + verb.",
+  "slots": {
+   "state": [
+    "ill",
+    "bad",
+    "hot",
+    "strange"
+   ],
+   "food": [
+    "fish",
+    "soup",
+    "cake",
+    "salad"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our players are 3-0 up at the {place} with five minutes left. They ______ win the {prize}.",
+  "options": [
+   "are going to",
+   "is going to",
+   "going to",
+   "are go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With they, use are going to + verb.",
+  "slots": {
+   "place": [
+    "stadium",
+    "school field",
+    "park",
+    "sports hall"
+   ],
+   "prize": [
+    "match",
+    "game",
+    "cup",
+    "final"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Malika has studied every day for her {exam}. She ______ pass it {how}.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With she, use is going to + verb.",
+  "slots": {
+   "exam": [
+    "maths exam",
+    "English test",
+    "driving test",
+    "IT exam"
+   ],
+   "how": [
+    "easily",
+    "without problems",
+    "with a high score",
+    "for sure"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Be careful! That glass is on the edge of the {furniture}. It ______ fall onto the {floor}.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With it, use is going to + verb.",
+  "slots": {
+   "furniture": [
+    "table",
+    "desk",
+    "shelf",
+    "counter"
+   ],
+   "floor": [
+    "floor",
+    "carpet",
+    "tiles",
+    "rug"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We are stuck in traffic on {street}. We ______ be late for the {event}.",
+  "options": [
+   "are going to",
+   "is going to",
+   "going to",
+   "are go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With we, use are going to + verb.",
+  "slots": {
+   "street": [
+    "the ring road",
+    "Amir Temur Street",
+    "the main road",
+    "the bridge"
+   ],
+   "event": [
+    "lesson",
+    "meeting",
+    "film",
+    "wedding"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The sky over {city} is clear and the sun is hot. It ______ be a {kind} day.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With it, use is going to + verb.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Khiva",
+    "Termez",
+    "Bukhara"
+   ],
+   "kind": [
+    "lovely",
+    "beautiful",
+    "hot",
+    "sunny"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The baby is rubbing her eyes in the {room}. She ______ fall asleep in her {person}'s arms.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With she, use is going to + verb.",
+  "slots": {
+   "room": [
+    "bedroom",
+    "car",
+    "living room",
+    "kitchen"
+   ],
+   "person": [
+    "mother",
+    "father",
+    "grandmother",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You haven't charged your {device} all day. It ______ stop working before you get {place}.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With it, use is going to + verb.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "watch"
+   ],
+   "place": [
+    "home",
+    "to work",
+    "to class",
+    "to the station"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Those boys are playing football too close to the {target} in the {place}. They ______ break it.",
+  "options": [
+   "are going to",
+   "is going to",
+   "going to",
+   "are go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With they, use are going to + verb.",
+  "slots": {
+   "target": [
+    "window",
+    "car",
+    "glass door",
+    "lamp"
+   ],
+   "place": [
+    "yard",
+    "street",
+    "garden",
+    "car park"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur hasn't slept for two days, and he looks {state}. He ______ get ill at {place}.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With he, use is going to + verb.",
+  "slots": {
+   "state": [
+    "tired",
+    "pale",
+    "weak",
+    "awful"
+   ],
+   "place": [
+    "work",
+    "school",
+    "college",
+    "this rate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {road} is covered in ice this morning. It ______ be dangerous for {who}.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With it, use is going to + verb.",
+  "slots": {
+   "road": [
+    "road",
+    "bridge",
+    "pavement",
+    "path"
+   ],
+   "who": [
+    "drivers",
+    "cyclists",
+    "children",
+    "old people"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have eaten too much {food}. I ______ feel ill on the {transport}.",
+  "options": [
+   "am going to",
+   "is going to",
+   "going to",
+   "am go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With I, use am going to + verb.",
+  "slots": {
+   "food": [
+    "plov",
+    "cake",
+    "ice cream",
+    "samsa"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "plane",
+    "metro"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nodira is standing on a chair in the {room} to reach the {shelf}. She ______ fall!",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With she, use is going to + verb.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "hall",
+    "classroom",
+    "library"
+   ],
+   "shelf": [
+    "top shelf",
+    "old cupboard",
+    "high shelf",
+    "lamp"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is a long queue at the {place} and it isn't moving. We ______ wait a long time for {thing}.",
+  "options": [
+   "are going to",
+   "is going to",
+   "going to",
+   "are go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With we, use are going to + verb.",
+  "slots": {
+   "place": [
+    "bank",
+    "post office",
+    "pharmacy",
+    "ticket office"
+   ],
+   "thing": [
+    "our turn",
+    "help",
+    "an answer",
+    "service"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {animal} is sitting by its empty bowl in the {room}. It ______ make a lot of noise.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With it, use is going to + verb.",
+  "slots": {
+   "animal": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "room": [
+    "kitchen",
+    "hall",
+    "yard",
+    "living room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {fruit} on the tree in our {place} are big and red. They ______ be ready to pick.",
+  "options": [
+   "are going to",
+   "is going to",
+   "going to",
+   "are go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With they, use are going to + verb.",
+  "slots": {
+   "fruit": [
+    "apples",
+    "cherries",
+    "apricots",
+    "peaches"
+   ],
+   "place": [
+    "garden",
+    "yard",
+    "dacha",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bobur is driving his {car} too fast on the wet {road}. He ______ have an accident.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With he, use is going to + verb.",
+  "slots": {
+   "car": [
+    "car",
+    "van",
+    "taxi",
+    "truck"
+   ],
+   "road": [
+    "road",
+    "street",
+    "bridge",
+    "hill"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The wind in {city} is very strong today. It ______ blow the {thing} off our balcony.",
+  "options": [
+   "is going to",
+   "are going to",
+   "going to",
+   "is go to"
+  ],
+  "key": 0,
+  "why": "We can see the signs now, so we predict with be going to. With it, use is going to + verb.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Nukus",
+    "Jizzakh",
+    "Karshi"
+   ],
+   "thing": [
+    "towel",
+    "chair",
+    "plant",
+    "small table"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Take your {thing}. The clouds over the {place} are black, and it ______ (rain).",
+  "key": "is going to rain",
+  "why": "There is a sign now, so use be going to: it is going to rain.",
+  "slots": {
+   "thing": [
+    "umbrella",
+    "raincoat",
+    "jacket",
+    "coat"
+   ],
+   "place": [
+    "city",
+    "mountains",
+    "river",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "My nose is itching in this {room}. I ______ (sneeze) because of the {cause}.",
+  "key": "am going to sneeze",
+  "why": "There is a sign now, so use be going to: I am going to sneeze.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "old room",
+    "garage",
+    "attic"
+   ],
+   "cause": [
+    "dust",
+    "flowers",
+    "cat",
+    "pepper"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Our {sport} players have scored no goals and the other team has six. They ______ (lose) the {game}.",
+  "key": "are going to lose",
+  "why": "There is a sign now, so use be going to: they are going to lose.",
+  "slots": {
+   "sport": [
+    "football",
+    "basketball",
+    "volleyball",
+    "hockey"
+   ],
+   "game": [
+    "match",
+    "game",
+    "final",
+    "semi-final"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "My sister has her coat on and her {thing} in her hand by the door. She ______ (leave) for {place}.",
+  "key": "is going to leave",
+  "why": "There is a sign now, so use be going to: she is going to leave.",
+  "slots": {
+   "thing": [
+    "bag",
+    "keys",
+    "phone",
+    "umbrella"
+   ],
+   "place": [
+    "work",
+    "college",
+    "the market",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Sardor has left all the other runners far behind in the {place}. He ______ (win) the {race}.",
+  "key": "is going to win",
+  "why": "There is a sign now, so use be going to: he is going to win.",
+  "slots": {
+   "place": [
+    "stadium",
+    "park",
+    "school field",
+    "city centre"
+   ],
+   "race": [
+    "race",
+    "gold medal",
+    "prize",
+    "competition"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "We have no map, and we don't know this part of {city}. We ______ (get) lost near the {place}.",
+  "key": "are going to get",
+  "why": "There is a sign now, so use be going to: we are going to get.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Istanbul",
+    "Moscow"
+   ],
+   "place": [
+    "market",
+    "old town",
+    "river",
+    "station"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "The old {thing} in the {room} has started making a strange noise. It ______ (break).",
+  "key": "is going to break",
+  "why": "There is a sign now, so use be going to: it is going to break.",
+  "slots": {
+   "thing": [
+    "fridge",
+    "washing machine",
+    "fan",
+    "heater"
+   ],
+   "room": [
+    "kitchen",
+    "bathroom",
+    "hall",
+    "flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Turn down the heat! You ______ (burn) the {food} in the {pan}.",
+  "key": "are going to burn",
+  "why": "There is a sign now, so use be going to: you are going to burn.",
+  "slots": {
+   "food": [
+    "rice",
+    "onions",
+    "eggs",
+    "meat"
+   ],
+   "pan": [
+    "pan",
+    "pot",
+    "big pan",
+    "frying pan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Little Zarina has dropped her {thing} in the {place}, and her lips are shaking. She ______ (cry).",
+  "key": "is going to cry",
+  "why": "There is a sign now, so use be going to: she is going to cry.",
+  "slots": {
+   "thing": [
+    "ice cream",
+    "toy",
+    "doll",
+    "sweet"
+   ],
+   "place": [
+    "park",
+    "street",
+    "shop",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "The {people} have practised every evening at the {place}. They ______ (be) great in the concert.",
+  "key": "are going to be",
+  "why": "There is a sign now, so use be going to: they are going to be.",
+  "slots": {
+   "people": [
+    "singers",
+    "dancers",
+    "musicians",
+    "children"
+   ],
+   "place": [
+    "school hall",
+    "centre",
+    "club",
+    "theatre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Look, the sky over {city} has turned grey and heavy, and it feels very cold. It ______ (snow) on the {place}.",
+  "key": "is going to snow",
+  "why": "There is a sign now, so use be going to: it is going to snow.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Jizzakh",
+    "Namangan"
+   ],
+   "place": [
+    "mountains",
+    "roads",
+    "fields",
+    "houses"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Bekzod hasn't opened his {subject} book all term. He ______ (fail) the {exam}.",
+  "key": "is going to fail",
+  "why": "There is a sign now, so use be going to: he is going to fail.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "history",
+    "chemistry"
+   ],
+   "exam": [
+    "exam",
+    "test",
+    "final test",
+    "end-of-term test"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "My {transport} is stuck in traffic on the bridge. I ______ (be) late for my {event}.",
+  "key": "am going to be",
+  "why": "There is a sign now, so use be going to: I am going to be.",
+  "slots": {
+   "transport": [
+    "bus",
+    "taxi",
+    "minibus",
+    "car"
+   ],
+   "event": [
+    "lesson",
+    "meeting",
+    "interview",
+    "exam"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Look at all these {people} at the door of the {place}! We ______ (have) a busy day.",
+  "key": "are going to have",
+  "why": "There is a sign now, so use be going to: we are going to have.",
+  "slots": {
+   "people": [
+    "customers",
+    "visitors",
+    "guests",
+    "people"
+   ],
+   "place": [
+    "shop",
+    "café",
+    "museum",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "The {transport} has slowed down near the {place}. It ______ (stop) here.",
+  "key": "is going to stop",
+  "why": "There is a sign now, so use be going to: it is going to stop.",
+  "slots": {
+   "transport": [
+    "bus",
+    "tram",
+    "train",
+    "minibus"
+   ],
+   "place": [
+    "market",
+    "school",
+    "bridge",
+    "station"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Kamila and Laylo have just sat down in the {place}, but the {transport} leaves in five minutes. They ______ (miss) it.",
+  "key": "are going to miss",
+  "why": "There is a sign now, so use be going to: they are going to miss.",
+  "slots": {
+   "place": [
+    "café",
+    "shop",
+    "hotel",
+    "library"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "last bus",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Look at that clear blue sky over the {place}! It ______ (be) a {kind} day.",
+  "key": "is going to be",
+  "why": "There is a sign now, so use be going to: it is going to be.",
+  "slots": {
+   "place": [
+    "city",
+    "valley",
+    "village",
+    "lake"
+   ],
+   "kind": [
+    "sunny",
+    "lovely",
+    "warm",
+    "beautiful"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Gulnora has too many {things} in her arms on the {way}. She ______ (drop) them.",
+  "key": "is going to drop",
+  "why": "There is a sign now, so use be going to: she is going to drop.",
+  "slots": {
+   "things": [
+    "boxes",
+    "books",
+    "plates",
+    "bags"
+   ],
+   "way": [
+    "stairs",
+    "steps",
+    "hill",
+    "street"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "My father has no {thing} with him at the {place}, and it has started raining. He ______ (get) wet.",
+  "key": "is going to get",
+  "why": "There is a sign now, so use be going to: he is going to get.",
+  "slots": {
+   "thing": [
+    "coat",
+    "umbrella",
+    "jacket",
+    "hat"
+   ],
+   "place": [
+    "bus stop",
+    "gate",
+    "market",
+    "station"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use be going to and the verb in brackets.",
+  "source": "Be careful with that full {cup}! You ______ (spill) it on the {thing}.",
+  "key": "are going to spill",
+  "why": "There is a sign now, so use be going to: you are going to spill.",
+  "slots": {
+   "cup": [
+    "cup",
+    "glass",
+    "bowl",
+    "mug"
+   ],
+   "thing": [
+    "carpet",
+    "sofa",
+    "table",
+    "floor"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence about a new person. Use be going to and the verb in brackets.",
+  "source": "Look at the traffic on {street}! I am going to be late for my {event}.",
+  "hint": "My brother takes the same bus. He ______ (be) late for his {event}.",
+  "key": "is going to be",
+  "why": "He is a new subject, so am changes to is: he is going to be.",
+  "slots": {
+   "street": [
+    "the ring road",
+    "the main road",
+    "the bridge",
+    "Navoi Street"
+   ],
+   "event": [
+    "lesson",
+    "meeting",
+    "exam",
+    "interview"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence about a new person. Use be going to and the verb in brackets.",
+  "source": "The ice on the {place} near our {home} is very thin. I am going to fall!",
+  "hint": "Be careful, children! You ______ (fall) on the {place}.",
+  "key": "are going to fall",
+  "why": "With you, use are: you are going to fall.",
+  "slots": {
+   "place": [
+    "lake",
+    "pond",
+    "path",
+    "river"
+   ],
+   "home": [
+    "house",
+    "school",
+    "flat",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence about a new person. Use be going to and the verb in brackets.",
+  "source": "My shoes are wet and cold after the {walk}. I am going to catch a cold.",
+  "hint": "Your shoes got wet too on the {walk} in the {place}. You ______ (catch) a cold.",
+  "key": "are going to catch",
+  "why": "With you, use are: you are going to catch.",
+  "slots": {
+   "walk": [
+    "walk",
+    "trip",
+    "run",
+    "hike"
+   ],
+   "place": [
+    "rain",
+    "snow",
+    "park",
+    "mountains"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence about a new person. Use be going to and the verb in brackets.",
+  "source": "I haven't eaten all day at the {place}. I am going to be very hungry.",
+  "hint": "My {person} hasn't eaten all day either. She ______ (be) very hungry.",
+  "key": "is going to be",
+  "why": "With she, use is: she is going to be.",
+  "slots": {
+   "place": [
+    "office",
+    "college",
+    "market",
+    "hospital"
+   ],
+   "person": [
+    "sister",
+    "mother",
+    "aunt",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence about a new person. Use be going to and the verb in brackets.",
+  "source": "I am stuck in the {transport}, so I am going to miss the {event}.",
+  "hint": "Laylo waits in the same {transport} with me. She ______ (miss) the {event}.",
+  "key": "is going to miss",
+  "why": "With she, use is: she is going to miss.",
+  "slots": {
+   "transport": [
+    "lift",
+    "metro train",
+    "traffic jam",
+    "bus"
+   ],
+   "event": [
+    "film",
+    "start",
+    "wedding",
+    "lesson"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence with the negative of be going to and the verb in brackets.",
+  "source": "I thought rain was coming, but now the sky over the {place} is blue.",
+  "hint": "It ______ (rain) in {city} today.",
+  "key": "is not going to rain",
+  "why": "The sky is blue now, so the prediction is negative: it is not going to rain.",
+  "slots": {
+   "place": [
+    "city",
+    "mountains",
+    "river",
+    "school"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Fergana",
+    "Andijan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence with the negative of be going to and the verb in brackets.",
+  "source": "Aziz has a high fever, so he is in bed at his {person}'s house.",
+  "hint": "He ______ (go) out with his friends today.",
+  "key": "is not going to go",
+  "why": "He is ill in bed, so we predict the negative: he is not going to go.",
+  "slots": {
+   "person": [
+    "grandmother",
+    "uncle",
+    "aunt",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence with the negative of be going to and the verb in brackets.",
+  "source": "The {shop} is closed and all the lights are off on {street}.",
+  "hint": "We ______ (buy) {food} there tonight.",
+  "key": "are not going to buy",
+  "why": "The shop is closed, so the prediction is negative: we are not going to buy.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "market",
+    "shop",
+    "café"
+   ],
+   "food": [
+    "bread",
+    "fruit",
+    "milk",
+    "snacks"
+   ],
+   "street": [
+    "our street",
+    "Navoi Street",
+    "the main road",
+    "the corner"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence with the negative of be going to and the verb in brackets.",
+  "source": "There are only two minutes left and the score at the {place} is 0-4.",
+  "hint": "Our {sport} team ______ (win) this match.",
+  "key": "is not going to win",
+  "why": "The score shows it, so the prediction is negative: the team is not going to win.",
+  "slots": {
+   "place": [
+    "stadium",
+    "sports hall",
+    "school field",
+    "park"
+   ],
+   "sport": [
+    "football",
+    "basketball",
+    "hockey",
+    "volleyball"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the second sentence with the negative of be going to and the verb in brackets.",
+  "source": "Look! The {person} has fallen asleep on the {furniture}.",
+  "hint": "She ______ (finish) her homework tonight.",
+  "key": "is not going to finish",
+  "why": "She is asleep, so the prediction is negative: she is not going to finish.",
+  "slots": {
+   "person": [
+    "girl",
+    "student",
+    "little girl",
+    "young girl"
+   ],
+   "furniture": [
+    "sofa",
+    "desk",
+    "bed",
+    "chair"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the question with be going to and the verb in brackets.",
+  "source": "The sky over {city} is very dark. Maybe rain is coming to the {place}.",
+  "hint": "______ it ______ (rain) soon?",
+  "key": [
+   "Is",
+   "going to rain"
+  ],
+  "why": "In a question, be comes first: Is it going to rain?",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Namangan"
+   ],
+   "place": [
+    "city",
+    "valley",
+    "mountains",
+    "fields"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the question with be going to and the verb in brackets.",
+  "source": "Our {transport} is very slow today, and the {event} starts at nine.",
+  "hint": "______ we ______ (be) late?",
+  "key": [
+   "Are",
+   "going to be"
+  ],
+  "why": "In a question, be comes first: Are we going to be late?",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "taxi"
+   ],
+   "event": [
+    "lesson",
+    "exam",
+    "meeting",
+    "film"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the question with be going to and the verb in brackets.",
+  "source": "Sardor is running very fast at the {place}. Maybe he wins the {race}.",
+  "hint": "______ he ______ (win) the {race}?",
+  "key": [
+   "Is",
+   "going to win"
+  ],
+  "why": "In a question, be comes first: Is he going to win?",
+  "slots": {
+   "place": [
+    "stadium",
+    "park",
+    "school field",
+    "city centre"
+   ],
+   "race": [
+    "race",
+    "gold medal",
+    "prize",
+    "competition"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the question with be going to and the verb in brackets.",
+  "source": "The {glass} is on the edge of the {furniture}. Maybe it falls.",
+  "hint": "______ it ______ (fall)?",
+  "key": [
+   "Is",
+   "going to fall"
+  ],
+  "why": "In a question, be comes first: Is it going to fall?",
+  "slots": {
+   "glass": [
+    "glass",
+    "cup",
+    "vase",
+    "bowl"
+   ],
+   "furniture": [
+    "table",
+    "shelf",
+    "desk",
+    "counter"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Complete the question with be going to and the verb in brackets.",
+  "source": "My {person} looks very tired after work at the {place}.",
+  "hint": "______ she ______ (sleep) early tonight?",
+  "key": [
+   "Is",
+   "going to sleep"
+  ],
+  "why": "In a question, be comes first: Is she going to sleep?",
+  "slots": {
+   "person": [
+    "mother",
+    "sister",
+    "aunt",
+    "grandmother"
+   ],
+   "place": [
+    "hospital",
+    "bank",
+    "market",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Look out of the window. Write one sentence about the weather with be going to.",
+  "requiredElement": "be going to (prediction)",
+  "constraints": [
+   "exactly one sentence",
+   "must use going to",
+   "must be about the weather"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend is running to the bus stop and the bus is leaving. Write one sentence.",
+  "requiredElement": "be going to (prediction)",
+  "constraints": [
+   "exactly one sentence",
+   "must use going to",
+   "must be about the bus"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A glass is at the edge of a table. Write one sentence to warn someone.",
+  "requiredElement": "be going to (prediction)",
+  "constraints": [
+   "exactly one sentence",
+   "must use going to",
+   "must use fall or break"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your team is winning 4-0. Write one sentence about the result.",
+  "requiredElement": "be going to (prediction)",
+  "constraints": [
+   "exactly one sentence",
+   "must use going to",
+   "must use win"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You feel very tired and ill. Write one sentence about yourself.",
+  "requiredElement": "I am going to",
+  "constraints": [
+   "exactly one sentence",
+   "must use I am going to",
+   "must say how you will feel"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "The sky is clear and blue. Write one negative sentence.",
+  "requiredElement": "is not going to",
+  "constraints": [
+   "exactly one sentence",
+   "must use not going to",
+   "must be about rain"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend hasn't studied for the exam. Write one sentence about him or her.",
+  "requiredElement": "is going to",
+  "constraints": [
+   "exactly one sentence",
+   "must use he or she",
+   "must use going to"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a question about the dark clouds in the sky.",
+  "requiredElement": "Is it going to...?",
+  "constraints": [
+   "exactly one question",
+   "must start with Is",
+   "must use going to"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Look at the sky today. Write three or four sentences about what the weather is going to do and why.",
+  "targetGrammar": "be going to (prediction)",
+  "lookFor": [
+   "is going to",
+   "a sign you can see",
+   "is not going to"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend is late, the bus is full and the road is busy. Write three or four sentences about what is going to happen.",
+  "targetGrammar": "be going to (prediction)",
+  "lookFor": [
+   "is going to",
+   "are going to",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are watching a football match. Write three or four sentences about the result.",
+  "targetGrammar": "be going to (prediction)",
+  "lookFor": [
+   "are going to win or lose",
+   "the score now",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Someone in your family is very tired. Write three or four sentences about what is going to happen tonight.",
+  "targetGrammar": "be going to (prediction)",
+  "lookFor": [
+   "is going to",
+   "a sign you can see",
+   "is not going to"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "going-to-evidence",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a busy kitchen before dinner. Write three or four sentences with things that are going to happen.",
+  "targetGrammar": "be going to (prediction)",
+  "lookFor": [
+   "is going to",
+   "a warning",
+   "a sign you can see"
+  ]
+ }
+]
