@@ -141,6 +141,13 @@ Use only these formats. `word_order`, `error_identification` and
     (Oct 20): "I need a new **bag**. My old one is **too slow**" and "Turn off
     the **radio**. My grandfather hates loud **videos**." If two slots depend on
     each other, make every filler fit every other filler, or cut a slot.
+13. **Fillers must agree with the words around them.** If the sentence says
+    *it / is / was / this / a* about a slot, every filler must be singular (and
+    the reverse for plural). From batch B1 (Oct 20): "I broke my **glasses**
+    when I dropped **it**", "their **vegetables** … because **it** was cold".
+    Before logging each topic, run
+    `node grammar-run/check_slot_agreement.mjs <topic.key>` and read every hit
+    (it over-flags; "news" and "series" are fine).
 
 **Content:** everyday life for young people in Uzbekistan (study, work, family,
 phone, food, transport, sport, weather, shopping, travel). Mix Uzbek, Russian and
