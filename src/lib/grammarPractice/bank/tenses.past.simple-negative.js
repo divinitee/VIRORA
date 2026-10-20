@@ -778,7 +778,7 @@ export default [
     "soup",
     "rice",
     "salad",
-    "vegetables"
+    "pasta"
    ],
    "state": [
     "cold",

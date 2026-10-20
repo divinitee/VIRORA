@@ -309,7 +309,7 @@ export default [
   "slots": {
    "thing": [
     "phone",
-    "glasses",
+    "plate",
     "watch",
     "cup"
    ],
