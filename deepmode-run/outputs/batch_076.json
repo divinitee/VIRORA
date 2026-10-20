@@ -715,6 +715,12 @@
     "descent"
    ]
   },
+  "gate_overrides": [
+   {
+    "msg_contains": "'descendant' is a compound",
+    "reason": "descendant is descend + -ant (a derivation, like assistant), not a compound of two words."
+   }
+  ],
   "reviewer_note": "Everyday go down / climb down are phrasal; easy synonyms limited. descendant kept as other_meaning person."
  },
  {
@@ -838,6 +844,20 @@
     "designed"
    ]
   },
+  "gate_overrides": [
+   {
+    "msg_contains": "headword 'design (n)' is not in its own slot",
+    "reason": "'(n)' is the corpus marker for the noun row; the headword word is design, which is the noun slot's base."
+   },
+   {
+    "msg_contains": "noun 'design' is marked base but differs",
+    "reason": "Same word: the headword only carries the corpus marker '(n)'."
+   },
+   {
+    "msg_contains": "verb 'design' is marked conversion but differs",
+    "reason": "Same spelling as the noun design; '(n)' is only the corpus marker."
+   }
+  ],
   "reviewer_note": "Headword marked (n) in corpus; noun is the base. designate/designation not family in meaning."
  },
  {
