@@ -37,7 +37,7 @@ const CHOOSE = [
   [["spoke", "speaked", "speak", "spoken"], "Yesterday, my cousin ______ {lang} with a tourist from {country}.",
     { lang: ["English", "Russian", "Korean", "French"], country: ["Germany", "France", "Italy", "Japan"] }],
   [["broke", "breaked", "break", "broken"], "Last week, I ______ my {thing} when I dropped it on the {place}.",
-    { thing: ["phone", "glasses", "watch", "cup"], place: ["floor", "stairs", "road", "ground"] }],
+    { thing: ["phone", "plate", "watch", "cup"], place: ["floor", "stairs", "road", "ground"] }],
   [["swam", "swimmed", "swim", "swum"], "Last August, we ______ in the {place} with our {person}.",
     { place: ["sea", "lake", "river", "pool"], person: ["cousins", "father", "friends", "coach"] }],
   [["drank", "drinked", "drink", "drunk"], "After the match yesterday, the players ______ a lot of {drink} in the {place}.",
