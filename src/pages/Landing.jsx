@@ -8,6 +8,7 @@ import LevelAssessment from "@/components/landing/LevelAssessment";
 import LandingPricing from "@/components/landing/LandingPricing";
 import FinalCTA from "@/components/landing/FinalCTA";
 import LandingFooter from "@/components/landing/LandingFooter";
+import InAppBrowserNotice from "@/components/InAppBrowserNotice";
 
 export default function Landing() {
   const [dark, setDark] = useState(true);
@@ -25,6 +26,9 @@ export default function Landing() {
           <FinalCTA />
         </main>
         <LandingFooter />
+        {/* Most students arrive from a Telegram/Instagram link — tell them
+            to switch browsers before they sign up, not after they're lost. */}
+        <InAppBrowserNotice floating />
       </div>
     </div>
   );
