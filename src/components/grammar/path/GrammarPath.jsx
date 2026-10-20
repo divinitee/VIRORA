@@ -16,7 +16,7 @@ const STR = {
     unit: "Bo'lim", next: "Keyingi", soon: "Tez orada", preview: "Qo'shimcha", review: "Takrorlash",
     status: { new: "Yangi", practising: "Mashq qilinmoqda", review: "Takrorlash", secure: "O'zlashtirildi" },
     secureOf: (a, b) => `${a}/${b} o'zlashtirildi`, playable: (n) => `${n} ta mavzu tayyor`,
-    continue: "Davom etish", allDone: "Hozircha hammasi bajarildi!", learn: "O'rganish", learnSoon: "Tez orada",
+    continue: "Davom etish", suggested: "Tavsiya", allDone: "Hozircha hammasi bajarildi!", learn: "O'rganish", learnSoon: "Tez orada",
     practice: "Mashq", stageOff: "Hozircha mavjud emas", reviewTitle: "Takrorlash kerak", close: "Yopish",
     noContent: "Bu mavzu uchun mashqlar tayyorlanmoqda.",
     stages: { choose: ["Tanlash", "To'g'ri shaklni toping"], build: ["Tuzish", "O'zingiz yozing"], transform: ["O'zgartirish", "Gapni o'zgartiring"], create: ["Yaratish", ""], express: ["Erkin nutq", ""] },
@@ -25,7 +25,7 @@ const STR = {
     unit: "Unit", next: "Next", soon: "Coming soon", preview: "Preview", review: "Review",
     status: { new: "New", practising: "Practising", review: "Review", secure: "Secure" },
     secureOf: (a, b) => `${a}/${b} secure`, playable: (n) => `${n} ready to play`,
-    continue: "Continue", allDone: "All caught up for now!", learn: "Learn", learnSoon: "Coming soon",
+    continue: "Continue", suggested: "Suggested", allDone: "All caught up for now!", learn: "Learn", learnSoon: "Coming soon",
     practice: "Practice", stageOff: "Not available yet", reviewTitle: "Due for review", close: "Close",
     noContent: "Practice for this topic is being written.",
     stages: { choose: ["Choose", "Spot the right form"], build: ["Build", "Make it yourself"], transform: ["Transform", "Change the sentence"], create: ["Create", ""], express: ["Express", ""] },
@@ -34,7 +34,7 @@ const STR = {
     unit: "Раздел", next: "Дальше", soon: "Скоро", preview: "Дополнительно", review: "Повторить",
     status: { new: "Новое", practising: "В процессе", review: "Повторить", secure: "Усвоено" },
     secureOf: (a, b) => `${a}/${b} усвоено`, playable: (n) => `Готово тем: ${n}`,
-    continue: "Продолжить", allDone: "Пока всё пройдено!", learn: "Теория", learnSoon: "Скоро",
+    continue: "Продолжить", suggested: "Советуем", allDone: "Пока всё пройдено!", learn: "Теория", learnSoon: "Скоро",
     practice: "Практика", stageOff: "Пока недоступно", reviewTitle: "Нужно повторить", close: "Закрыть",
     noContent: "Упражнения для этой темы готовятся.",
     stages: { choose: ["Выбор", "Найдите правильную форму"], build: ["Сборка", "Напишите сами"], transform: ["Преобразование", "Измените предложение"], create: ["Создание", ""], express: ["Свободная речь", ""] },
@@ -142,6 +142,7 @@ function UnitCard({ unit, index, s, lang, statuses, available, next, open, onTog
 }
 
 function TopicSheet({ topicKey, s, lang, status, playable, onClose, onStart }) {
+  const suggested = status === STATUS.PRACTISING ? "build" : "choose";
   return (
     <motion.div className="fixed inset-0 z-50 flex items-end justify-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <button type="button" aria-label={s.close} onClick={onClose} className="absolute inset-0 bg-black/60" />
@@ -171,7 +172,7 @@ function TopicSheet({ topicKey, s, lang, status, playable, onClose, onStart }) {
                     className={`w-full flex items-center gap-3 rounded-2xl border px-4 py-3 text-left min-h-[48px] ${st.ai ? "border-white/5 opacity-50" : "border-white/15 hover:bg-white/[0.05]"}`}>
                     <Icon className="w-5 h-5" style={st.ai ? undefined : { color: ACCENT }} />
                     <span className="flex-1">
-                      <span className="block font-semibold text-foreground">{s.stages[st.id]?.[0] || st.name}</span>
+                      <span className="flex items-center gap-2 font-semibold text-foreground">{s.stages[st.id]?.[0] || st.name}{st.id === suggested && <span className="text-[10px] font-bold uppercase tracking-wider rounded-full px-2 py-0.5" style={{ color: ACCENT, background: "rgba(45,212,191,0.12)" }}>{s.suggested}</span>}</span>
                       <span className="block text-xs text-muted-foreground">{st.ai ? s.stageOff : (s.stages[st.id]?.[1] || st.blurb)}</span>
                     </span>
                   </button>
@@ -213,11 +214,9 @@ export default function GrammarPath({ lang, statuses, available, onStart, openKe
     return n;
   });
 
-  const continueNext = () => {
-    if (!next) return;
-    const st = statusOf(statuses, next.key) === STATUS.PRACTISING ? "build" : "choose";
-    onStart(next.key, st);
-  };
+  // Continue opens the topic sheet instead of jumping into a mode, so the
+  // student chooses how to practise; the sheet marks the suggested one.
+  const continueNext = () => { if (next) onOpenKey(next.key); };
 
   return (
     <div className="max-w-lg mx-auto">
