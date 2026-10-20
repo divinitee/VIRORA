@@ -12,3 +12,9 @@ Rules:
 - Claude's agents write `outputs/batch_NNN.json` (odd NNN), gate them with gate-4.4 until they pass, and log each one in `PROGRESS-claude.md` with status `gated, not imported`.
 - **Importing stays with the Base44 AI** (it has the data tools): at the start of each turn, import every batch in `PROGRESS-claude.md` marked `gated, not imported` (same upsert rule: word_id + sense_label, approved:false, gate flags attached), then change its status to `imported` in `PROGRESS-claude.md`.
 - The every-5-batches full re-check (`gate_all_outputs.py`) covers both sides' files.
+
+## Update 2026-10-20 (Tee: "use the remainder of Claude's credits, full steam ahead")
+- Claude finishes all odd batches (109 → 207), then also takes **even batches from the top down: 208, 206, 204 …**
+- Base44 AI keeps its even batches **from the bottom up: 074, 076, 078 …** The two sides meet in the middle.
+- Before writing any batch, check `outputs/batch_NNN.json`: if it already exists, skip it. Nobody overwrites the other side's file.
+- Claude logs every batch it writes (odd or even) in `PROGRESS-claude.md` as `gated, not imported`; importing stays with the Base44 AI, as before.
