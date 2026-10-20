@@ -118,7 +118,7 @@
     "ant": []},
    {"slot": "adjective", "status": "existing", "form": "crushed", "relation": "participial", "definition": "pressed into very small pieces", "example": "Add some crushed garlic to the soup.",
     "syn": [{"to": "squashed", "relation": "synonym", "strength": 0.95, "note": "Pressed flat or out of shape."},
-            {"to": "ground", "relation": "related", "strength": 0.6, "note": "Made into powder, like coffee or pepper."}],
+            {"to": "flattened", "relation": "synonym", "strength": 0.8, "note": "Pressed until it is flat."}],
     "ant": []},
    {"slot": "adjective", "status": "other_meaning", "form": "crushing", "definition": "very bad and making you lose hope", "example": "The team suffered a crushing defeat.", "note": "Belongs to crush = defeat completely, not pressing something."},
    {"slot": "adverb", "status": "no_form", "note": "crushingly (crushingly boring) exists but is rare and belongs to the 'very bad' meaning."}
