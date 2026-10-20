@@ -148,6 +148,27 @@ Use only these formats. `word_order`, `error_identification` and
     Before logging each topic, run
     `node grammar-run/check_slot_agreement.mjs <topic.key>` and read every hit
     (it over-flags; "news" and "series" are fine).
+14. **Topic scope notes from the course audit (Oct 20).** These come from the
+    GPT + Claude review of the A1–A2 course. Follow them when you reach each
+    topic, and say in the PROGRESS notes how you covered them:
+    - `adj-adv.frequency.rarely`: rarely means *not often*. Never teach it as a
+      fixed frequency ("once a week").
+    - `nouns-articles.articles.a-an`: the rule is about the first **sound**, not the
+      letter. Include *an hour* and *a university / a European*.
+    - `pronouns.demonstrative.that-those-far`: cover singular *that* as well as
+      plural *those*.
+    - `modals.ability-permission.can-form`: state the rule once (no -s, no *to*
+      after can). Don't give two overlapping instructions.
+    - `modals.semi-modals.have-to`: include *has to* for he/she/it.
+    - `nouns-articles.plurals-agreement.es-plural`: no topic teaches regular
+      plural -s, so open this one with a few regular -s items before -es.
+    - `questions-negation.negation.wasnt-werent`: no topic teaches past *be*
+      positive, so contrast *was/were* with *wasn't/weren't* here.
+    - `prep-phrasal.time.since-for`: test the **time meaning** (since + a start
+      point, for + a length). Don't make the student choose between present
+      perfect and past simple; `tenses.perfect.for-since` already does that.
+    - `adj-adv.adjective-form.adjective-after-be`: be/feel/look + adjective, but
+      don't imply "look" always takes an adjective (*look at*, *look carefully*).
 
 **Content:** everyday life for young people in Uzbekistan (study, work, family,
 phone, food, transport, sport, weather, shopping, travel). Mix Uzbek, Russian and
