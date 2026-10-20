@@ -1,0 +1,208 @@
+[
+ {"headword": "divide", "kind": "word", "sense_label": "Parts", "sense_pos": "verb",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "division", "relation": "derivational", "definition": "separating something into parts", "example": "The division of the land took many years.", "note": "division is also maths (12 ÷ 3) and a part of a company.",
+    "syn": [{"to": "separation", "relation": "synonym", "strength": 0.8, "note": "Moving things or people apart."},
+            {"to": "split", "relation": "synonym", "strength": 0.8, "note": "A break into parts; a little informal."}],
+    "ant": [{"to": "union", "relation": "antonym", "note": "Joining things together into one."}, {"to": "combination", "relation": "antonym", "note": "Putting things together."}]},
+   {"slot": "verb", "status": "existing", "form": "divide", "relation": "base", "definition": "to separate something into two or more parts", "example": "Divide the class into four groups.",
+    "syn": [{"to": "split", "relation": "synonym", "strength": 0.95, "note": "The easiest word; also used for sharing money."},
+            {"to": "separate", "relation": "synonym", "strength": 0.8, "note": "To move things apart."},
+            {"to": "share", "relation": "related", "strength": 0.6, "note": "To give a part to each person."},
+            {"to": "cut", "relation": "related", "strength": 0.4, "note": "To make parts with a knife."}],
+    "ant": [{"to": "join", "relation": "antonym", "note": "To put things together."}, {"to": "unite", "relation": "antonym", "note": "To bring together as one."}, {"to": "combine", "relation": "antonym", "note": "To mix things together."}]},
+   {"slot": "adjective", "status": "existing", "form": "divided", "relation": "participial", "definition": "separated into parts", "example": "The road is divided into two lanes.",
+    "syn": [{"to": "split", "relation": "synonym", "strength": 0.95, "note": "Broken into parts."},
+            {"to": "separated", "relation": "synonym", "strength": 0.8, "note": "Kept apart."}],
+    "ant": [{"to": "united", "relation": "antonym", "note": "Joined together as one."}]},
+   {"slot": "adjective", "status": "existing", "form": "divisible", "relation": "derivational", "definition": "able to be shared into equal parts", "example": "Ten is divisible by two.", "syn": [],
+    "ant": [{"to": "indivisible", "relation": "antonym", "note": "Not possible to separate."}]},
+   {"slot": "adjective", "status": "other_meaning", "form": "divisive", "definition": "causing people to disagree strongly", "example": "Money became a divisive topic in the family.", "note": "Belongs to divide = make people disagree, not separating into parts."},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {"form": "divider", "kind": "thing", "status": "existing", "definition": "something that separates a space into parts", "example": "A wooden divider separates the two desks."}
+  ],
+  "people_not_family": [],
+  "affixes": [{"affix": "-er", "in_form": "divider", "meaning_key": "-er", "also": ["driver", "teacher", "player"]}],
+  "context": {"text": "Grandma divided the big melon into eight pieces. Everyone was happy with the division, even my little brother.", "uses": ["divided", "division"]},
+  "reviewer_note": "divisive (disagreement) as other_meaning; -ible is not in the affix table."},
+
+ {"headword": "divorce", "kind": "word", "sense_label": "Marriage", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "divorce", "relation": "base", "definition": "the legal end of a marriage", "example": "Their divorce was finalised last spring.",
+    "syn": [{"to": "separation", "relation": "synonym", "strength": 0.8, "note": "Living apart; it is not always a legal end."},
+            {"to": "breakup", "relation": "related", "strength": 0.6, "note": "The end of any relationship.", "register": "informal"}],
+    "ant": [{"to": "marriage", "relation": "antonym", "note": "Being husband and wife."}, {"to": "wedding", "relation": "antonym", "note": "The ceremony where two people marry."}]},
+   {"slot": "verb", "status": "existing", "form": "divorce", "relation": "conversion", "definition": "to end a marriage by law", "example": "They divorced after ten years together.",
+    "syn": [{"to": "separate", "relation": "synonym", "strength": 0.8, "note": "To start living apart."},
+            {"to": "leave", "relation": "related", "strength": 0.4, "note": "To go away from a partner."}],
+    "ant": [{"to": "marry", "relation": "antonym", "note": "To become husband and wife."}]},
+   {"slot": "adjective", "status": "existing", "form": "divorced", "relation": "participial", "definition": "no longer married because of a legal end", "example": "Her parents are divorced.",
+    "syn": [{"to": "separated", "relation": "synonym", "strength": 0.8, "note": "Living apart but maybe still married."}],
+    "ant": [{"to": "married", "relation": "antonym", "note": "Having a husband or wife."}]},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {"form": "divorcee", "kind": "person", "status": "existing", "definition": "a person whose marriage has legally ended", "example": "The club has many divorcees as members.", "note": "Also spelled divorcée."}
+  ],
+  "people_not_family": [],
+  "affixes": [{"affix": "-ee", "in_form": "divorcee", "meaning_key": "-ee", "also": ["employee", "trainee", "refugee"]}],
+  "context": {"text": "Their divorce was difficult for the children. Now the parents are divorced, but they still have dinner together on holidays.", "uses": ["divorce", "divorced"]},
+  "reviewer_note": "Spelling: finalised (British) / finalized (American) in the corpus example."},
+
+ {"headword": "divorced", "kind": "word", "sense_label": "Marriage", "sense_pos": "adjective",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "divorce", "relation": "derivational", "definition": "the legal end of a marriage", "example": "They talked to a lawyer about divorce.",
+    "syn": [{"to": "separation", "relation": "synonym", "strength": 0.8, "note": "Living apart; it is not always a legal end."}],
+    "ant": [{"to": "marriage", "relation": "antonym", "note": "Being husband and wife."}]},
+   {"slot": "verb", "status": "existing", "form": "divorce", "relation": "derivational", "definition": "to end a marriage by law", "example": "They decided to divorce last year.",
+    "syn": [{"to": "separate", "relation": "synonym", "strength": 0.8, "note": "To start living apart."}],
+    "ant": [{"to": "marry", "relation": "antonym", "note": "To become husband and wife."}]},
+   {"slot": "adjective", "status": "existing", "form": "divorced", "relation": "base", "definition": "no longer married to your husband or wife by law", "example": "My parents are divorced but remain friends.",
+    "syn": [{"to": "separated", "relation": "synonym", "strength": 0.8, "note": "Living apart but maybe still married."},
+            {"to": "single", "relation": "related", "strength": 0.6, "note": "Not married now, for any reason."}],
+    "ant": [{"to": "married", "relation": "antonym", "note": "Having a husband or wife."}]},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {"form": "divorcee", "kind": "person", "status": "existing", "definition": "a person whose marriage has legally ended", "example": "My aunt is a divorcee with two sons."}
+  ],
+  "people_not_family": [],
+  "affixes": [{"affix": "-ee", "in_form": "divorcee", "meaning_key": "-ee", "also": ["employee", "trainee", "refugee"]}],
+  "context": {"text": "Aziz is divorced and lives with his son. The divorce happened five years ago, but the family is still close.", "uses": ["divorced", "divorce"]},
+  "reviewer_note": "Participle adjective headword; divorce noun/verb as source forms."},
+
+ {"headword": "dizzy", "kind": "word", "sense_label": "Feeling", "sense_pos": "adjective",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "dizziness", "relation": "derivational", "definition": "the feeling that everything is turning around you", "example": "The medicine can cause dizziness.",
+    "syn": [{"to": "giddiness", "relation": "synonym", "strength": 0.95, "note": "The same feeling; less common."},
+            {"to": "vertigo", "relation": "synonym", "strength": 0.8, "note": "A medical word, often a fear of high places."}],
+    "ant": []},
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "existing", "form": "dizzy", "relation": "base", "definition": "feeling that everything is spinning and you may fall", "example": "I felt dizzy after the long bus ride.",
+    "syn": [{"to": "giddy", "relation": "synonym", "strength": 0.95, "note": "The same feeling; also means silly and excited."},
+            {"to": "unsteady", "relation": "related", "strength": 0.6, "note": "Not able to stand or walk well."},
+            {"to": "faint", "relation": "related", "strength": 0.6, "note": "Feeling weak, as if you will fall down."}],
+    "ant": []},
+   {"slot": "adjective", "status": "existing", "form": "dizzying", "relation": "participial", "definition": "making you feel that everything is spinning", "example": "We looked down from a dizzying height.",
+    "syn": [{"to": "breathtaking", "relation": "related", "strength": 0.4, "note": "So high, fast or beautiful that it surprises you."}], "ant": []},
+   {"slot": "adverb", "status": "existing", "form": "dizzily", "relation": "derivational", "definition": "in a way that shows you feel unsteady", "example": "He stood up dizzily after the game.",
+    "syn": [{"to": "giddily", "relation": "synonym", "strength": 0.95, "note": "In the same way; less common."}], "ant": []}
+  ],
+  "people": [], "people_not_family": [],
+  "affixes": [
+   {"affix": "-ness", "in_form": "dizziness", "meaning_key": "-ness", "also": ["kindness", "happiness", "sadness"]},
+   {"affix": "-ly", "in_form": "dizzily", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]}
+  ],
+  "context": {"text": "The summer heat in Termez made me feel dizzy. The doctor said the dizziness came from not drinking enough water.", "uses": ["dizzy", "dizziness"]},
+  "reviewer_note": "verb dizzy (to make dizzy) is rare; only the participle dizzying is shown."},
+
+ {"headword": "do up", "kind": "phrasal", "sense_label": "Clothes", "sense_pos": "verb",
+  "particle_note": "Separable: do up your coat / do your coat up; with a pronoun only do it up.",
+  "relations": [
+   {"to": "fasten", "relation": "synonym", "strength": 0.95, "note": "The same action; a little more formal."},
+   {"to": "button", "relation": "synonym", "strength": 0.8, "note": "Only for clothes with buttons."},
+   {"to": "zip", "relation": "synonym", "strength": 0.8, "note": "Only for clothes or bags with a zip (US: zipper)."},
+   {"to": "undo", "relation": "antonym", "note": "To open buttons, zips or knots."},
+   {"to": "unbutton", "relation": "antonym", "note": "To open buttons."}
+  ],
+  "context": {"text": "It is very cold outside, so do up your coat. My little sister cannot do her buttons up yet, so I help her.", "uses": ["do up", "do her buttons up"]},
+  "reviewer_note": "British do up = repair/decorate a house is a different meaning, not shown."},
+
+ {"headword": "drag", "kind": "word", "sense_label": "Pulling", "sense_pos": "verb",
+  "forms": [
+   {"slot": "noun", "status": "other_meaning", "form": "drag", "definition": "something boring or annoying", "example": "Waiting for the bus is such a drag.", "note": "Belongs to drag = boring thing (informal), not pulling something."},
+   {"slot": "verb", "status": "existing", "form": "drag", "relation": "base", "definition": "to pull something heavy along the ground", "example": "He dragged the heavy box into the kitchen.",
+    "syn": [{"to": "pull", "relation": "synonym", "strength": 0.95, "note": "The easiest word; drag means pulling with effort."},
+            {"to": "haul", "relation": "synonym", "strength": 0.8, "note": "To pull something very heavy."},
+            {"to": "tow", "relation": "related", "strength": 0.6, "note": "To pull a car or boat with a rope."}],
+    "ant": [{"to": "push", "relation": "antonym", "note": "To move something away from you."}]},
+   {"slot": "adjective", "status": "no_form"}, {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [], "people_not_family": [], "affixes": [],
+  "context": {"text": "The suitcase was too heavy to carry. So I dragged it all the way from the station to the hotel.", "uses": ["dragged"]},
+  "reviewer_note": "drag (computer: drag and drop) is the same pulling meaning. dragon is not family."},
+
+ {"headword": "drain", "kind": "word", "sense_label": "Flow away", "sense_pos": "verb",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "drainage", "relation": "derivational", "definition": "the system that carries water away from a place", "example": "The city needs better drainage after heavy rain.", "syn": [], "ant": []},
+   {"slot": "verb", "status": "existing", "form": "drain", "relation": "base", "definition": "to make liquid flow away; to use up energy", "example": "Drain the pasta before you add the sauce.",
+    "syn": [{"to": "empty", "relation": "synonym", "strength": 0.8, "note": "To take everything out of a container."},
+            {"to": "exhaust", "relation": "related", "strength": 0.6, "note": "To make someone very tired."},
+            {"to": "sap", "relation": "related", "strength": 0.6, "note": "To slowly take away energy or strength."}],
+    "ant": [{"to": "fill", "relation": "antonym", "note": "To put liquid into something until it is full."}]},
+   {"slot": "adjective", "status": "existing", "form": "drained", "relation": "participial", "definition": "very tired, with no energy left", "example": "I felt drained after the long exam.",
+    "syn": [{"to": "exhausted", "relation": "synonym", "strength": 0.95, "note": "Extremely tired."},
+            {"to": "tired", "relation": "synonym", "strength": 0.8, "note": "The easiest word; less strong."}],
+    "ant": [{"to": "energetic", "relation": "antonym", "note": "Full of energy."}, {"to": "refreshed", "relation": "antonym", "note": "Rested and full of energy again."}]},
+   {"slot": "adjective", "status": "existing", "form": "draining", "relation": "participial", "definition": "making you very tired", "example": "Looking after a new baby is draining.",
+    "syn": [{"to": "exhausting", "relation": "synonym", "strength": 0.95, "note": "Very tiring."},
+            {"to": "tiring", "relation": "synonym", "strength": 0.8, "note": "Making you tired; less strong."}],
+    "ant": [{"to": "relaxing", "relation": "antonym", "note": "Making you calm and rested."}]},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {"form": "drain", "kind": "thing", "status": "existing", "definition": "a pipe or hole that takes dirty water away", "example": "Hair blocked the drain in the shower."}
+  ],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {"text": "After washing the rice, drain the water carefully. Cooking plov for forty guests left my mother completely drained.", "uses": ["drain", "drained"]},
+  "reviewer_note": "Corpus covers both meanings (liquid + energy); one map. drain (pipe) as thing per Rule 8; -age not in affix table."},
+
+ {"headword": "dwarf", "kind": "word", "sense_label": "Size", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "dwarf", "relation": "base", "definition": "a small creature in fairy tales, or a very small person", "example": "The story has seven dwarfs and a princess.", "note": "Plural dwarfs (also dwarves in fantasy books). Calling a real person a dwarf can be offensive.",
+    "syn": [{"to": "gnome", "relation": "related", "strength": 0.6, "note": "A small old man in fairy tales who lives under the ground."},
+            {"to": "elf", "relation": "related", "strength": 0.4, "note": "A small magic creature with pointed ears."}],
+    "ant": [{"to": "giant", "relation": "antonym", "note": "A very big creature or person."}]},
+   {"slot": "verb", "status": "existing", "form": "dwarf", "relation": "conversion", "definition": "to make something look very small next to it", "example": "The new tower dwarfs the old houses around it.",
+    "syn": [{"to": "overshadow", "relation": "synonym", "strength": 0.8, "note": "To be much bigger or more important than something."}],
+    "ant": []},
+   {"slot": "adjective", "status": "no_form", "note": "dwarf before a noun (dwarf trees) is the noun used like an adjective; dwarfish is rare."},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [], "people_not_family": [], "affixes": [],
+  "context": {"text": "In the fantasy film, a brave dwarf saves the village. Next to the huge dragon, he is dwarfed, but he does not run away.", "uses": ["dwarf", "dwarfed"]},
+  "reviewer_note": "Sensitive word: offensive for real people, noted on the entry."},
+
+ {"headword": "dye", "kind": "word", "sense_label": "Colour", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "dye", "relation": "base", "definition": "a substance used to change the colour of hair, cloth or food", "example": "She bought blue dye for her hair.", "note": "Do not mix up with die (stop living), which sounds the same.",
+    "syn": [{"to": "pigment", "relation": "synonym", "strength": 0.8, "note": "A substance that gives colour, often a powder."},
+            {"to": "tint", "relation": "synonym", "strength": 0.8, "note": "A light colour added to something."},
+            {"to": "paint", "relation": "related", "strength": 0.4, "note": "A coloured liquid you put on a surface."}],
+    "ant": []},
+   {"slot": "verb", "status": "existing", "form": "dye", "relation": "conversion", "definition": "to change the colour of something with a special liquid", "example": "My grandmother dyes wool with onion skins.", "note": "Forms: dyes, dyed, dyeing (not dying).",
+    "syn": [{"to": "color", "relation": "synonym", "strength": 0.8, "note": "To give something a colour. British spelling: colour."},
+            {"to": "tint", "relation": "synonym", "strength": 0.8, "note": "To add a light colour."}],
+    "ant": [{"to": "bleach", "relation": "antonym", "note": "To make something lighter or white with chemicals."}]},
+   {"slot": "adjective", "status": "existing", "form": "dyed", "relation": "participial", "definition": "having a colour that was added", "example": "He has dyed black hair.",
+    "syn": [{"to": "colored", "relation": "synonym", "strength": 0.8, "note": "With colour added. British spelling: coloured."}],
+    "ant": [{"to": "natural", "relation": "antonym", "note": "As it was, with nothing added."}]},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {"form": "dyer", "kind": "job", "status": "existing", "definition": "a person whose job is changing the colour of cloth", "example": "The dyer in Margilan uses old methods for silk."}
+  ],
+  "people_not_family": [],
+  "affixes": [{"affix": "-er", "in_form": "dyer", "meaning_key": "-er", "also": ["driver", "teacher", "player"]}],
+  "context": {"text": "In Margilan, workers make natural dye from plants. They dye the silk red, yellow and blue.", "uses": ["dye"]},
+  "reviewer_note": "die/dye homophone and dyeing spelling noted."},
+
+ {"headword": "dynasty", "kind": "word", "sense_label": "History", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "dynasty", "relation": "base", "definition": "a family of rulers who rule a country for many years", "example": "The Timurid dynasty built many beautiful buildings.",
+    "syn": [{"to": "line", "relation": "related", "strength": 0.6, "note": "A series of people from the same family."},
+            {"to": "family", "relation": "related", "strength": 0.6, "note": "The easiest word; not always rulers."},
+            {"to": "reign", "relation": "related", "strength": 0.4, "note": "The time when one king or queen rules."}],
+    "ant": []},
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "existing", "form": "dynastic", "relation": "derivational", "definition": "connected with a family of rulers", "example": "The country had a long dynastic history.", "syn": [], "ant": []},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [], "people_not_family": [],
+  "affixes": [],
+  "context": {"text": "The Timurid dynasty ruled Central Asia for more than a hundred years. Its dynastic capital, Samarkand, became famous for science and art.", "uses": ["dynasty", "dynastic"]},
+  "reviewer_note": "dynastic -ic not marked (dynast is rare)."}
+]
