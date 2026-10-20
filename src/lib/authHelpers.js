@@ -102,7 +102,8 @@ const ERR = {
 
 // Platform error text isn't a stable contract, so this matches loosely on
 // status + message and falls back to the caller's own generic string.
-export function friendlyAuthError(err, lang, fallback) {
+// context "otp" reads a generic 400/401 as a bad code, not a bad password.
+export function friendlyAuthError(err, lang, fallback, context) {
   const s = ERR[lang] || ERR.uz;
   const status = err?.status ?? err?.response?.status;
   const msg = String(err?.message || err?.data?.message || err?.data?.detail || "").toLowerCase();
@@ -111,6 +112,7 @@ export function friendlyAuthError(err, lang, fallback) {
   if (status === 429 || /too many|rate limit/.test(msg)) return s.tooMany;
   if (status === 409 || /already (exists|registered|in use)|exists|taken/.test(msg)) return s.exists;
   if (/not verified|verify your email|unverified/.test(msg)) return s.notVerified;
+  if (context === "otp") return s.badCode;
   if (/otp|code/.test(msg) && /invalid|expired|wrong|incorrect/.test(msg)) return s.badCode;
   if (/password/.test(msg) && /short|weak|at least|length|characters/.test(msg)) return s.weakPassword;
   if (/email/.test(msg) && /invalid|valid|format/.test(msg)) return s.badEmail;
