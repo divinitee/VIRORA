@@ -1,0 +1,323 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "drift",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "missing form",
+     "msg": "verb: common family word 'drive' (zipf 5.1) isn't shown. Add it to this slot (existing or other_meaning), or list it in not_family."
+    }
+   ],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: drive, driver, driving"
+    },
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: driving"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: drily. Check."
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'drier' (zipf 3.2) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "drifts",
+       "drift"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "drifted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "adrift kept as the adjective (a- is not in the affix table, so no affix claimed); drifter is other_meaning (aimless life)."
+  },
+  {
+   "headword": "drip",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: drily. Check."
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'drier' (zipf 3.2) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "drips"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "dripped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "drippy listed as other_meaning (informal 'weak, silly'); medical drip mentioned only in a note."
+  },
+  {
+   "headword": "drought",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "droughts",
+       "drought"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-form family; dry listed as not_family (shared root only)."
+  },
+  {
+   "headword": "drown",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "drownings",
+       "drowning"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "drowned"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Corpus example 'nearly did drown' is unnatural; map example uses 'nearly drowned'."
+  },
+  {
+   "headword": "ease",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "ease: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "unchecked POS",
+     "msg": "easily → 'without difficulty': phrase, part of speech not confirmed"
+    },
+    {
+     "cat": "unchecked POS",
+     "msg": "easily → 'with difficulty': phrase, part of speech not confirmed"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "ease"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "eased"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "easier"
+      ],
+      "JJS": [
+       "easiest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "easy/easily are from ease (Old French aise); uneasy put in ant with a note; easel is not family."
+  },
+  {
+   "headword": "echo",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: echoic. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "echoes",
+       "echo",
+       "echos"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "echoed"
+      ],
+      "VBN": [
+       "echoed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun and verb conversion only; echoing mentioned in note as participle, not a learner-dictionary adjective."
+  },
+  {
+   "headword": "ecosystem",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "ecosystems"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-form family; ecological/ecologist belong to ecology, listed as not_family."
+  },
+  {
+   "headword": "efficient",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "bad synonym",
+     "msg": "efficient → 'well-organized' is not a adjective (form is a adjective)"
+    }
+   ],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "efficiencies",
+       "efficiency"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "effective vs efficient trap explained in syn notes; inefficient/inefficiency are antonyms, not forms."
+  },
+  {
+   "headword": "election",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "missing form",
+     "msg": "adjective: common family word 'eligible' (zipf 4.3) isn't shown. Add it to this slot (existing or other_meaning), or list it in not_family."
+    }
+   ],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: element, eligibility"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "elections",
+       "election"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "elected"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "election is made from elect; elective is other_meaning (optional); voter is the common word but not from this family."
+  },
+  {
+   "headword": "elegant",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "elegantly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "elegance"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "-ance not in the affix table, so only -ly claimed; inelegant put in ant list."
+  }
+ ]
+}
