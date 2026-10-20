@@ -1,0 +1,301 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "addicted to",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "kind_hint was phrasal; corrected to phrase (adjective + preposition, not verb + particle). Note on 'to + -ing' trap."
+  },
+  {
+   "headword": "admiration",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "false affix",
+     "msg": "'admiringly' minus '-ly' leaves no real word (admiring, admiringe, admiringy)"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "admiringly: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'respect' is a synonym/related target for admiration, admire sb for"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'look up to' is a synonym/related target for admiration, admire sb for"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "admiration"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "admired"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Admiral (navy officer) looks similar but is not family. Admirable is formal and means 'deserving admiration', not 'feeling it'."
+  },
+  {
+   "headword": "admire sb for",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "clue collision",
+     "msg": "'respect' is a synonym/related target for admiration, admire sb for"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'look up to' is a synonym/related target for admiration, admire sb for"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "Pattern item; sb = somebody. Context shows the object between admire and for."
+  },
+  {
+   "headword": "admit",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "false affix",
+     "msg": "'admittedly' minus '-ly' leaves no real word (admitted, admittede, admittedy)"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "adjective 'admissible' (other meaning): family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb definition has rare words: weakens"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "admission: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "admitted: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "admissions",
+       "admission"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "admitted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Map keeps the 'say it is true' sense; admittance and admissible belong to 'let in / allow'. Admission has both senses, noted. No -sion affix claimed (admit -> admis- is not a clean split)."
+  },
+  {
+   "headword": "adviser",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: advance"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'advisedly' (other meaning) is rare (zipf 1.8)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "advisory: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "advisers"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "advised"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Person-noun headword stays main noun; advice (c) vs advise (s) spelling trap noted; adviser/advisor spelling noted."
+  },
+  {
+   "headword": "affection",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: affective"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "affectionately: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "affections",
+       "affection"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Affect / affected (influence; not natural) kept out as not_family: same old root, unrelated meaning for learners. No -ion affix claimed."
+  },
+  {
+   "headword": "affordable",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "bad antonym",
+     "msg": "affordable → 'unaffordable' is not a adjective (form is a adjective)"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "unchecked POS",
+     "msg": "noun 'affordability': not in WordNet, but common in real text (zipf 3.2) and built by a suffix rule"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: affably. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "affordability: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "afforded"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Unaffordable placed in ant (negative prefix, rule 3). Affordably left as no_form (very rare)."
+  },
+  {
+   "headword": "agency",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "noun definition has rare words: arranges"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: agential"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "agencies"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-form family; agent shown in People & things. No -cy affix (not in the table)."
+  },
+  {
+   "headword": "agreement",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "agreements",
+       "agreement"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "agreed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Agreeable/agreeably are false friends (pleasant), shown as other_meaning. Disagreement / disagree in ant lists, not forms."
+  },
+  {
+   "headword": "aircraft",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "aircrafts",
+       "aircraft"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Compound headword (air + craft); no forms. Plural trap noted: aircraft, not aircrafts."
+  }
+ ]
+}
