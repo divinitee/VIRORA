@@ -29,3 +29,4 @@
 | 107 | 10 | (not recorded: run was cut off before logging) | pass gate-4.4 (re-checked 2026-10-20) | gated, not imported | logged by coordinator |
 | 115 | 10 | 2 of 10 maps: wrong POS 1 (wander noun), missing form 1 (warner) | pass gate-4.4 | gated, not imported | vitamin/wage/warn rows merged; 2 gate_overrides (wander noun = Oxford/Cambridge; warner = surname, not learner word) |
 | 113 | 10 | 1 of 10 maps: bad antonym 1 | pass gate-4.4 | gated, not imported | tradition/treatment/typical rows merged; dropped untreatable antonym (not in gate lexicon), incurable kept |
+| 119 | 10 | 1 of 10 maps: gate mistake 1 (assistant read as compound assist+ant) | pass gate-4.4 | gated, not imported | gate_overrides on assist (-ant suffix); CORPUS: masked word in arithmetic definition |
