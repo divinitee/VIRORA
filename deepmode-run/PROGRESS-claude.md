@@ -28,3 +28,4 @@
 | 105 | 10 | 1 of 10 maps: bad synonym 1 (dissatisfy, removed from satisfy ant list) | pass gate-4.4 | imported | save up for phrasal; satisfaction/satisfactory separate maps, each shows the other as other_meaning; CORPUS: scratch example uses claw/cut sense, map follows itch definition; compounds left out (screwdriver, sawdust, scratch card, security guard…); 18 flags for reviewer |
 | 107 | 10 | (not recorded: run was cut off before logging) | pass gate-4.4 (re-checked 2026-10-20) | gated, not imported | logged by coordinator |
 | 115 | 10 | 2 of 10 maps: wrong POS 1 (wander noun), missing form 1 (warner) | pass gate-4.4 | gated, not imported | vitamin/wage/warn rows merged; 2 gate_overrides (wander noun = Oxford/Cambridge; warner = surname, not learner word) |
+| 113 | 10 | 1 of 10 maps: bad antonym 1 | pass gate-4.4 | gated, not imported | tradition/treatment/typical rows merged; dropped untreatable antonym (not in gate lexicon), incurable kept |
