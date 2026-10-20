@@ -7,7 +7,10 @@ import { base44 } from "@/api/base44Client";
 import { DOMAINS } from "@/lib/adaptiveGrammar";
 import { GRAMMAR_NAV } from "@/lib/grammarTiers";
 import { DOMAIN_STATE, domainState } from "@/lib/grammarMapState";
-import { loadTopic, topicKey } from "@/lib/grammarPractice";
+import { loadTopic, topicKey, availableTopics } from "@/lib/grammarPractice";
+import { topicStatuses } from "@/lib/grammarPathState";
+import { useAppLang } from "@/hooks/useAppLang";
+import GrammarPath from "@/components/grammar/path/GrammarPath";
 import { PRACTICE_STAGES } from "@/lib/grammarPractice/stages";
 import { fromStoredProfile } from "@/lib/grammarPlacementResult";
 import { useGrammarCopy } from "@/lib/grammarCopy";
@@ -31,6 +34,19 @@ import { GRAMMAR_ACCENT as ACCENT } from "@/components/grammar/map/tierMeta";
 
 const pretty = (s) => String(s || "").replace(/-/g, " ").replace(/\b\w/g, (ch) => ch.toUpperCase());
 
+// Path | Free (roadmap 05.2/05.3). Path = the ordered Foundational course
+// (src/lib/grammarCourse.js); Free = the original node map, unchanged, for
+// browsing by grammar family and for teachers picking homework. Same topics,
+// same banks, same evidence either way.
+const MODE_KEY = "virora_grammar_mode";
+const MODE_STR = {
+  uz: { path: "Yo'l", free: "Erkin", title: "Grammatika" },
+  en: { path: "Path", free: "Free", title: "Grammar" },
+  ru: { path: "Путь", free: "Свободно", title: "Грамматика" },
+};
+const readMode = () => { try { return localStorage.getItem(MODE_KEY) === "free" ? "free" : "path"; } catch { return "path"; } };
+const splitKey = (key) => { const [d, b, ...rest] = String(key).split("."); return [d, b, rest.join(".")]; };
+
 export default function Grammar() {
   const navigate = useNavigate();
   const c = useGrammarCopy();
@@ -44,6 +60,13 @@ export default function Grammar() {
   const [stageId, setStageId] = useState(null);
   const [items, setItems] = useState(null);
   const [runKey, setRunKey] = useState(0);
+  const { lang } = useAppLang();
+  const ms = MODE_STR[lang] || MODE_STR.uz;
+  const [mode, setModeState] = useState(readMode);
+  const [statuses, setStatuses] = useState({});
+  const [openKey, setOpenKey] = useState(null);
+  const [email, setEmail] = useState(null);
+  const available = useMemo(() => new Set(availableTopics()), []);
 
   const backRef = useRef(null); // stage's animated back, see GrammarStage
 
@@ -62,6 +85,7 @@ export default function Grammar() {
           return;
         }
         setResult(fromStoredProfile(rows[0], names));
+        setEmail(me?.email || null);
       } catch (e) {
         console.error("grammar home load failed", e);
         if (!cancelled) navigate("/grammar/assessment", { replace: true });
@@ -81,6 +105,41 @@ export default function Grammar() {
     return () => { cancelled = true; };
   }, [domainId, branchId, topicId]);
 
+  // The student's own server-graded grammar evidence -> display statuses for
+  // the Path. Refetched after every round so a node updates when you return.
+  const refreshStatuses = React.useCallback(async () => {
+    if (!email) return;
+    try {
+      const rows = await base44.entities.GrammarAttempt.filter(
+        { user_email: email, game: "grammar_practice" }, "-round_at", 2000);
+      setStatuses(topicStatuses(rows || []));
+    } catch (e) {
+      console.error("grammar path statuses failed", e); // Path still renders, all New
+    }
+  }, [email]);
+  useEffect(() => { refreshStatuses(); }, [refreshStatuses]);
+
+  const setMode = (m) => {
+    setModeState(m);
+    try { localStorage.setItem(MODE_KEY, m); } catch { /* ignore */ }
+    setTierId(null); setClusterId(null); setDomainId(null); setBranchId(null); setTopicId(null); setStageId(null);
+  };
+
+  // Path -> a round, in place. The map's tier/cluster aren't needed to run.
+  const startFromPath = (key, stage) => {
+    const [d, b, t] = splitKey(key);
+    setDomainId(d); setBranchId(b); setTopicId(t); setStageId(stage);
+  };
+  const exitRound = () => {
+    setStageId(null);
+    if (mode === "path") {
+      const key = topicKey(domainId, branchId, topicId);
+      setDomainId(null); setBranchId(null); setTopicId(null);
+      setOpenKey(key);       // back to that topic's sheet, not the top of the list
+      refreshStatuses();
+    }
+  };
+
   const byId = useMemo(() => Object.fromEntries((result?.domains ?? []).map((d) => [d.domain, d])), [result]);
 
   const tier = useMemo(() => GRAMMAR_NAV.find((t) => t.id === tierId) || null, [tierId]);
@@ -88,7 +147,8 @@ export default function Grammar() {
   const domain = useMemo(() => cluster?.domains.find((d) => d.id === domainId) || null, [cluster, domainId]);
 
   const goBack = () => {
-    if (stageId) setStageId(null);
+    if (stageId) exitRound();
+    else if (mode === "path") navigate("/");
     else if (topicId) { setTopicId(null); setStageId(null); }
     else if (branchId) setBranchId(null);
     else if (domainId) setDomainId(null);
