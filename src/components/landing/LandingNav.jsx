@@ -51,7 +51,7 @@ export default function LandingNav({ dark, setDark }) {
           <button
             onClick={() => setDark(!dark)}
             aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
-            className="hidden sm:flex w-9 h-9 rounded-xl border border-slate-200 landing-dark:border-slate-700 bg-white landing-dark:bg-slate-900 text-slate-600 landing-dark:text-slate-300 flex items-center justify-center hover:border-blue-300 landing-dark:hover:border-blue-500 transition-colors select-none"
+            className="hidden sm:flex w-9 h-9 rounded-xl border border-slate-200 landing-dark:border-slate-700 bg-white landing-dark:bg-slate-900 text-slate-600 landing-dark:text-slate-300 items-center justify-center hover:border-blue-300 landing-dark:hover:border-blue-500 transition-colors select-none"
           >
             {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </button>
