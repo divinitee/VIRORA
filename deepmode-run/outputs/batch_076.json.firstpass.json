@@ -1,0 +1,337 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "degree",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "degrees"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Temperature/angle meaning noted only; no family forms exist."
+  },
+  {
+   "headword": "delay",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "delays",
+       "delay"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "delayed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun/verb conversion pair; delayed as participial adjective."
+  },
+  {
+   "headword": "deliver",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: deliverance"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: deliverable. Check."
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'shipment' is a synonym/related target for deliver, delivery"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'bring' is a synonym/related target for deliver, delivery"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "deliveries",
+       "delivery"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "delivered"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "deliver = give birth / give a speech not shown; deliverable (business noun) left out as rare for learners."
+  },
+  {
+   "headword": "delivery",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: deliverance"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: deliverable. Check."
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'shipment' is a synonym/related target for deliver, delivery"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'bring' is a synonym/related target for deliver, delivery"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "deliveries",
+       "delivery"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "delivered"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Same family as deliver; separate map for the noun headword."
+  },
+  {
+   "headword": "department",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: departmentally. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "departments"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "department store is a compound and left out (Rule 7); depart as not_family."
+  },
+  {
+   "headword": "departure",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: department"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "departing: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "departures",
+       "departure"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "departed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "2 rows merged (same meaning, B1). depart marked formal."
+  },
+  {
+   "headword": "descend",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [
+    {
+     "cat": "schema",
+     "msg": "'descendant' is a compound (descend + ant): compounds are left out for now (rule 7), remove it"
+    }
+   ],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "descents",
+       "descent"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "descended"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Everyday go down / climb down are phrasal; easy synonyms limited. descendant kept as other_meaning person."
+  },
+  {
+   "headword": "design (n)",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [
+    {
+     "cat": "wrong sense",
+     "msg": "headword 'design (n)' is not in its own slot (noun)"
+    },
+    {
+     "cat": "wrong morphology",
+     "msg": "noun 'design' is marked base but differs from the headword"
+    },
+    {
+     "cat": "wrong morphology",
+     "msg": "verb 'design' is marked conversion but differs from the headword"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: designedly. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "designs",
+       "design"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "designed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword marked (n) in corpus; noun is the base. designate/designation not family in meaning."
+  },
+  {
+   "headword": "destination",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: destine"
+    },
+    {
+     "cat": "wrong morphology",
+     "msg": "adjective 'destined' (other meaning): family link not confirmed by the dictionary or a suffix rule"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "destinations"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "destined (fate) kept as other_meaning; destiny not shown (rare link for learners)."
+  },
+  {
+   "headword": "destroy",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "destructive: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "destructively: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "destructions",
+       "destruction"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "destroyed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "destructive/destruction from Latin destruct-; -ive not marked as an affix (destruct is not an everyday word)."
+  }
+ ]
+}

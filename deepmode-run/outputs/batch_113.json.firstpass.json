@@ -1,0 +1,313 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "tradition",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "traditions",
+       "tradition"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two corpus rows with the same meaning merged into one map; no verb exists in this family."
+  },
+  {
+   "headword": "tragedy",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "tragedies",
+       "tragedy"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Only the 'sad event' sense; tragedian (actor or writer of tragic plays) is rare and belongs to the theatre sense, so it is left out. No affix claimed: trag- is not a word."
+  },
+  {
+   "headword": "translation",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: translational"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'interpret' is a synonym/related target for translation, translator"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "translations",
+       "translation"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "translated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "interpreter is a near-synonym person noun but not made from translate, so it is in people_not_family."
+  },
+  {
+   "headword": "translator",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: translational"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "translator: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "translate: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'interpret' is a synonym/related target for translation, translator"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "translations",
+       "translation"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "translated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); translation is an extra noun entry."
+  },
+  {
+   "headword": "transportation",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "transportable: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "transportations",
+       "transportation"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "transported"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "transport is both a noun (British) and a verb; the noun is an extra existing entry. portable is not a family member, only a synonym."
+  },
+  {
+   "headword": "treatment",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [
+    {
+     "cat": "bad antonym",
+     "msg": "treatable → 'untreatable' is not a adjective (form is a adjective)"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "treatable: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "treatments",
+       "treatment"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "treated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two rows (B2 and B1) mean medical care, so they are merged with cefr B1. The other meaning of treatment (the way you behave towards someone) is not mapped."
+  },
+  {
+   "headword": "trim",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: trial"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "noun definition has rare words: neater"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "trimmed: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "trims",
+       "trim"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "trimmed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "trim is also an adjective meaning slim and fit (other_meaning); trimming as decoration is other_meaning too."
+  },
+  {
+   "headword": "truth",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "truths",
+       "truth"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "trueer"
+      ],
+      "JJS": [
+       "truest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "truth is made from true; truly is spelled without the e of true. No affix claimed on truly."
+  },
+  {
+   "headword": "typical",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "types",
+       "type"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "typified"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two rows with the same 'usual' meaning merged. Verb type (use a keyboard) belongs to another meaning of type and is left out; typicality is rare."
+  },
+  {
+   "headword": "uncomfortable",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "uncomfortably: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "discomforts",
+       "discomfort"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is itself a negative form; the positive family words (comfort, comfortable, comfortably) are listed as antonyms, not forms."
+  }
+ ]
+}
