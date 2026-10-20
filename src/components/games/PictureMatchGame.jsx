@@ -1,7 +1,7 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { Loader2, BookOpen, Check, X } from "lucide-react";
+import { BookOpen, Check, X } from "lucide-react";
 import { shuffle } from "@/lib/vocabGameUtils";
 import { emojiMappable } from "@/lib/wordEmoji";
 import { SKILLS, GAME_SKILL_MAP } from "@/lib/gameSkills";

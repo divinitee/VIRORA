@@ -1,7 +1,7 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Loader2, RefreshCw, UserPlus, Hourglass, QrCode, GraduationCap, Users, Wallet, ArrowRight } from "lucide-react";
+import { RefreshCw, UserPlus, Hourglass, QrCode, GraduationCap, Users, Wallet, ArrowRight } from "lucide-react";
 import { consoleApi, errorText } from "@/lib/consoleApi";
 
 // Overview: the counters and everything waiting on Tee. Read-only: loading

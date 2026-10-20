@@ -1,7 +1,7 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { ArrowLeft, Star, Flame, Target, Loader2, BookOpen, Trophy, RotateCcw, ArrowRight, Check, X, Volume2, Eraser, HelpCircle } from "lucide-react";
+import { ArrowLeft, Star, Flame, Target, BookOpen, Trophy, RotateCcw, ArrowRight, Check, X, Volume2, Eraser, HelpCircle } from "lucide-react";
 import { usableWords, shuffle, meaningInLang } from "@/lib/vocabGameUtils";
 import { definitionForLevel } from "@/lib/definitionTiers";
 import { SKILLS } from "@/lib/gameSkills";

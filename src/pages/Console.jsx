@@ -1,7 +1,7 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Loader2, LayoutDashboard, Users, GraduationCap, Network, Wallet, ShieldCheck, LogOut, Home as HomeIcon } from "lucide-react";
+import { LayoutDashboard, Users, GraduationCap, Network, Wallet, ShieldCheck, LogOut, Home as HomeIcon } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
 import { consoleApi, getConsoleToken, clearConsoleToken, errorText } from "@/lib/consoleApi";
 import ConsoleGate, { Shell, Refused } from "@/components/console/ConsoleGate";

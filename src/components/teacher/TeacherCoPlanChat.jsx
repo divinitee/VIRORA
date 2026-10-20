@@ -4,7 +4,6 @@ import { base44 } from "@/api/base44Client";
 import { Send, Sparkles, Lock } from "lucide-react";
 import MessageBubble from "@/components/tutor/MessageBubble";
 import { getAiStatus, consumeAiChatTurn } from "@/lib/aiLimits";
-import { resolveUserNameOrEmail } from "@/lib/profileName";
 
 const AGENT_NAME = "teacher_coplan";
 

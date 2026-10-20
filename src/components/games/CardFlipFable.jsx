@@ -1,7 +1,7 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { Loader2, BookOpen, Check, X, Languages } from "lucide-react";
+import { BookOpen, Check, X, Languages } from "lucide-react";
 import { usableWords, meaningInLang } from "@/lib/vocabGameUtils";
 import { SKILLS } from "@/lib/gameSkills";
 import { hintXpMultiplier } from "@/lib/levels";

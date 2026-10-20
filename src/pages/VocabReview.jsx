@@ -2,7 +2,7 @@ import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useState, useMemo } from "react";
 import { base44 } from "@/api/base44Client";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Loader2, Search } from "lucide-react";
+import { ArrowLeft, Search } from "lucide-react";
 import VocabReviewRow from "@/components/vocab/VocabReviewRow";
 
 const BANDS = ["A1", "A2", "B1", "B2", "C1"];

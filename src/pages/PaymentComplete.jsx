@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { base44 } from "@/api/base44Client";
 import { useAppLang } from "@/hooks/useAppLang";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, Loader2, Clock, Lock } from "lucide-react";
+import { CheckCircle2, Clock, Lock } from "lucide-react";
 import { isPaying } from "@/lib/subscription";
 import { formatUsd } from "@/lib/founderPricing";
 import { PLAN_LIST } from "@/lib/plans";

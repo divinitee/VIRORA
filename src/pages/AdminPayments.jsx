@@ -1,7 +1,7 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useCallback } from "react";
 import { base44 } from "@/api/base44Client";
-import { Loader2, CheckCircle2, XCircle, AlertTriangle, RefreshCw } from "lucide-react";
+import { CheckCircle2, XCircle, AlertTriangle, RefreshCw } from "lucide-react";
 import { priceFor, getCurrentStage, formatUsd } from "@/lib/founderPricing";
 
 // Admin-only preflight for the Dodo Payments wiring. Not linked in nav —

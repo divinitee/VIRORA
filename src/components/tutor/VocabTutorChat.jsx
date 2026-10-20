@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import MessageBubble from "@/components/tutor/MessageBubble";
 import { useAppLang } from "@/hooks/useAppLang";
 import { getAiStatus, consumeAiChatTurn } from "@/lib/aiLimits";
-import { resolveUserNameOrEmail } from "@/lib/profileName";
 
 const AGENT_NAME = "vocabulary_tutor";
 

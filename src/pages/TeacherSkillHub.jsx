@@ -2,7 +2,7 @@ import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useState } from "react";
 import { base44 } from "@/api/base44Client";
 import { Navigate, useNavigate } from "react-router-dom";
-import { ArrowLeft, Loader2 } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import SkillHub from "@/pages/SkillHub";
 import { teacherApi } from "@/lib/serverApi";
 

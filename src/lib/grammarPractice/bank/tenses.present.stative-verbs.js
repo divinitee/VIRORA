@@ -87,13 +87,13 @@ export default [
     "music",
     "TV",
     "radio",
-    "video"
+    "speaker"
    ],
    "sound": [
     "music",
     "noise",
     "songs",
-    "videos"
+    "sounds"
    ]
   }
  },
@@ -150,14 +150,14 @@ export default [
    "thing": [
     "phone",
     "laptop",
-    "bag",
-    "charger"
+    "tablet",
+    "computer"
    ],
    "state": [
     "broken",
     "too slow",
     "very old",
-    "too small"
+    "not working"
    ]
   }
  },

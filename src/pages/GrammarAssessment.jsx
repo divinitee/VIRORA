@@ -1,7 +1,6 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Loader2 } from "lucide-react";
 import { base44 } from "@/api/base44Client";
 import GrammarAssessmentIntro from "@/components/grammar/GrammarAssessmentIntro";
 import GrammarAssessmentRunner, { domainNames } from "@/components/grammar/GrammarAssessmentRunner";

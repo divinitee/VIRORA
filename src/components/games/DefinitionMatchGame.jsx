@@ -1,7 +1,7 @@
 import BrandLoader from "@/components/BrandLoader";
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { Loader2, BookOpen, Check, X, Quote } from "lucide-react";
+import { BookOpen, Check, X, Quote } from "lucide-react";
 import { base44 } from "@/api/base44Client";
 import { usableWords, shuffle } from "@/lib/vocabGameUtils";
 import { definitionForLevel } from "@/lib/definitionTiers";

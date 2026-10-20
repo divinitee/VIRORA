@@ -20,7 +20,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ want · are wanting · wants · have wanted  
    why: Want is a state verb, so it takes the present simple, even about now. Never use it with -ing. With they, use the base form: want.
 
-5. I ______ a new **bag** at the moment. My old one is **too slow**.  
+5. I ______ a new **tablet** at the moment. My old one is **too slow**.  
    options: ✔ need · am needing · needs · have needed  
    why: Need is a state verb, so it takes the present simple, even about now. Never use it with -ing. With I, use the base form: need.
 

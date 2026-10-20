@@ -2,7 +2,7 @@ import BrandLoader from "@/components/BrandLoader";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Loader2, ArrowLeft, Sparkles } from "lucide-react";
+import { ArrowLeft, Sparkles } from "lucide-react";
 import { base44 } from "@/api/base44Client";
 import { DOMAINS } from "@/lib/adaptiveGrammar";
 import { GRAMMAR_NAV } from "@/lib/grammarTiers";
