@@ -1,0 +1,311 @@
+[
+{
+ "headword": "beware", "word_id": "6a6ef83f0f1e82a5a0736798", "word_ids": ["6a6ef83f0f1e82a5a0736798"], "cefr": "B2", "kind": "word",
+ "sense_label": "Danger", "sense_pos": "verb",
+ "corpus_definition": "To be careful because of a possible danger.",
+ "forms": [
+  {"slot": "noun", "status": "no_form", "note": "No noun is made from beware. Use 'care' or 'caution': 'Drive with caution.'"},
+  {"slot": "verb", "status": "existing", "form": "beware", "relation": "base", "definition": "to be careful because something may be dangerous", "example": "Beware of the dog when you open the gate.", "note": "Used only in this base form: in orders and signs (Beware of pickpockets!) or after must/should/to. We don't say 'bewared' or 'bewaring'.",
+   "syn": [
+    {"to": "watch out", "relation": "synonym", "strength": 0.95, "note": "Everyday spoken English: 'Watch out for the cars!'"},
+    {"to": "look out", "relation": "synonym", "strength": 0.95, "note": "Spoken, often a quick warning: 'Look out! The floor is wet.'"},
+    {"to": "be careful", "relation": "synonym", "strength": 0.95, "note": "The easiest and most common way to say it."},
+    {"to": "take care", "relation": "synonym", "strength": 0.8, "note": "Softer; often friendly advice, not a warning sign."},
+    {"to": "mind", "relation": "synonym", "strength": 0.8, "note": "British English, in short warnings: 'Mind the step!'"}
+   ],
+   "ant": [
+    {"to": "ignore", "relation": "antonym", "note": "To pay no attention to a danger or a warning."}
+   ]},
+  {"slot": "adjective", "status": "no_form", "not_family": ["wary"], "note": "No adjective is made from beware. 'Wary' (careful because you don't trust something) shares an old root 'ware' but is not made from beware."},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "There is a sign at the gate of my uncle's house in Fergana: 'Beware of the dog!' Guests should beware, because the dog is big and loud.", "uses": ["Beware", "beware"]},
+ "reviewer_note": "Defective verb: only the base form is used; 'wary' kept as not_family, not a form."
+},
+{
+ "headword": "bid", "word_id": "6a6ef83f0f1e82a5a073684c", "word_ids": ["6a6ef83f0f1e82a5a073684c"], "cefr": "B2", "kind": "word",
+ "sense_label": "Money", "sense_pos": "verb",
+ "corpus_definition": "to offer a specific amount of money to buy something",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "bid", "relation": "conversion", "definition": "an offer to pay a certain amount of money for something", "example": "She made a high bid for the old carpet.",
+   "syn": [
+    {"to": "offer", "relation": "synonym", "strength": 0.95, "note": "Easy, general word with the same meaning."},
+    {"to": "tender", "relation": "related", "strength": 0.6, "note": "Formal: a written offer from a company to do work for a price.", "register": "formal"}
+   ],
+   "ant": []},
+  {"slot": "noun", "status": "existing", "form": "bidding", "relation": "derivational", "definition": "the act of people offering money for something at a sale", "example": "The bidding started at one hundred dollars.",
+   "syn": [], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "bid", "relation": "base", "definition": "to offer a certain amount of money to buy something", "example": "He bid 500 dollars for the painting at the auction.", "note": "In this meaning the past tense and past participle are also 'bid': 'Yesterday she bid 200 dollars.'",
+   "syn": [
+    {"to": "offer", "relation": "synonym", "strength": 0.95, "note": "Easy word; bid is used especially at auctions."},
+    {"to": "make an offer", "relation": "synonym", "strength": 0.95, "note": "Common phrase with the same meaning."},
+    {"to": "pay", "relation": "related", "strength": 0.4, "note": "Related: when you bid you only offer money; you pay later if you win."}
+   ],
+   "ant": []},
+  {"slot": "adjective", "status": "no_form"},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [
+  {"form": "bidder", "kind": "person", "status": "existing", "definition": "a person who offers money for something at an auction", "example": "The highest bidder will take the car home."}
+ ],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-ing", "in_form": "bidding", "meaning_key": "-ing", "also": ["meeting", "building", "painting"]},
+  {"affix": "-er", "in_form": "bidder", "meaning_key": "-er", "also": ["teacher", "player", "singer"]}
+ ],
+ "context": {"text": "At the auction in Tashkent, the bidding for an old carpet was very fast. My father bid 300 dollars, but another man made a higher bid and won it.", "uses": ["bidding", "bid", "bid"]},
+ "reviewer_note": "Irregular past in the money sense (bid-bid-bid); other sense 'bid = try to get' (a bid for power) not included."
+},
+{
+ "headword": "bind", "word_id": "6a6ef83f0f1e82a5a0736642", "word_ids": ["6a6ef83f0f1e82a5a0736642"], "cefr": "B2", "kind": "word",
+ "sense_label": "Tying", "sense_pos": "verb",
+ "corpus_definition": "To tie objects together using rope or string.",
+ "forms": [
+  {"slot": "noun", "status": "other_meaning", "form": "binding", "definition": "the cover that holds the pages of a book together", "example": "This old book has a leather binding.", "note": "Belongs to bind = fasten the pages of a book together, not tying things with rope."},
+  {"slot": "verb", "status": "existing", "form": "bind", "relation": "base", "definition": "to tie things together tightly with rope or string", "example": "They used rope to bind the wood together.", "note": "Irregular: bind - bound - bound.", "register": "formal",
+   "syn": [
+    {"to": "tie", "relation": "synonym", "strength": 0.95, "note": "The easy, everyday word; bind is more formal or literary."},
+    {"to": "tie up", "relation": "synonym", "strength": 0.95, "note": "Common phrasal verb: 'tie up a parcel'."},
+    {"to": "fasten", "relation": "synonym", "strength": 0.8, "note": "More general: you can fasten with a rope, a button or a belt."},
+    {"to": "wrap", "relation": "related", "strength": 0.4, "note": "To cover something by putting paper or cloth around it, not always tightly."}
+   ],
+   "ant": [
+    {"to": "untie", "relation": "antonym", "note": "To open a knot and make things free again."},
+    {"to": "release", "relation": "antonym", "note": "To let someone or something go free."}
+   ]},
+  {"slot": "adjective", "status": "existing", "form": "bound", "relation": "participial", "definition": "tied with rope so that it cannot move", "example": "The thief was found with his hands bound behind his back.",
+   "syn": [
+    {"to": "tied", "relation": "synonym", "strength": 0.95, "note": "Easy word with the same meaning."},
+    {"to": "tied up", "relation": "synonym", "strength": 0.95, "note": "Common in spoken English."}
+   ],
+   "ant": [
+    {"to": "free", "relation": "antonym", "note": "Not tied, able to move."},
+    {"to": "loose", "relation": "antonym", "note": "Not tied tightly."}
+   ]},
+  {"slot": "adjective", "status": "other_meaning", "form": "binding", "definition": "that must be obeyed because it is part of an agreement or law", "example": "The contract is legally binding.", "note": "Belongs to bind = make someone do something by law or promise, not tying with rope."},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [
+  {"form": "binder", "kind": "thing", "status": "other_meaning", "definition": "a hard cover with rings for keeping loose papers together", "example": "I keep my English notes in a blue binder.", "note": "Belongs to bind = hold papers together, not tying with rope."}
+ ],
+ "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "After the harvest, my grandfather would bind the wheat with string. He carried the bound bundles to the cart one by one.", "uses": ["bind", "bound"]},
+ "reviewer_note": "bound kept as participial adjective (tied); legal 'binding' and folder 'binder' marked other_meaning."
+},
+{
+ "headword": "blast", "word_id": "6a6ef83f0f1e82a5a0736692", "word_ids": ["6a6ef83f0f1e82a5a0736692"], "cefr": "B2", "kind": "word",
+ "sense_label": "Explosion", "sense_pos": "noun",
+ "corpus_definition": "A strong and sudden explosion of energy or wind.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "blast", "relation": "base", "definition": "a sudden, strong explosion, or a strong rush of air", "example": "The loud blast broke the nearby windows.",
+   "syn": [
+    {"to": "explosion", "relation": "synonym", "strength": 0.95, "note": "The general word; blast often means the force of the explosion."},
+    {"to": "bang", "relation": "related", "strength": 0.6, "note": "A short, loud noise; it is not always an explosion."},
+    {"to": "gust", "relation": "related", "strength": 0.6, "note": "Only for wind: a sudden strong rush of air."},
+    {"to": "burst", "relation": "related", "strength": 0.6, "note": "A short, sudden amount of something: a burst of energy."}
+   ],
+   "ant": []},
+  {"slot": "verb", "status": "existing", "form": "blast", "relation": "conversion", "definition": "to break or destroy rock or buildings with explosives", "example": "Workers blasted a tunnel through the mountain.",
+   "syn": [
+    {"to": "blow up", "relation": "synonym", "strength": 0.8, "note": "Everyday phrasal verb: 'blow up a bridge'."},
+    {"to": "explode", "relation": "related", "strength": 0.6, "note": "Usually the bomb explodes by itself; you blast something with explosives."}
+   ],
+   "ant": []},
+  {"slot": "adjective", "status": "no_form"},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "Workers blasted the rock to build a new road near Chimgan. Every blast shook the windows of the houses in the village.", "uses": ["blasted", "blast"]},
+ "reviewer_note": "Informal sense 'a blast = a very fun time' left out; the verb 'blast music' (play loudly) also not used."
+},
+{
+ "headword": "blow up", "word_id": "6a4282fd46ba24054c1dcd8f", "word_ids": ["6a4282fd46ba24054c1dcd8f"], "cefr": "B2", "kind": "phrasal",
+ "sense_label": "Explode", "sense_pos": "verb",
+ "corpus_definition": "To cause something to explode.",
+ "particle_note": "Separable: 'blow up the bridge' or 'blow the bridge up'; with a pronoun only 'blow it up'. Also used without an object: 'The car blew up.' Irregular: blow - blew - blown.",
+ "relations": [
+  {"to": "blast", "relation": "synonym", "strength": 0.8, "note": "To break or destroy with explosives; a little more technical."},
+  {"to": "explode", "relation": "synonym", "strength": 0.8, "note": "Usually without an object: 'The bomb exploded.' Blow up is more common in speech."},
+  {"to": "destroy", "relation": "related", "strength": 0.6, "note": "General word: you can destroy something in many ways, not only with a bomb."},
+  {"to": "defuse", "relation": "antonym", "note": "To stop a bomb from exploding by taking out a part of it."}
+ ],
+ "context": {"text": "In the film, the soldiers had to blow up the old bridge before the enemy arrived. When it blew up, the whole valley shook.", "uses": ["blow up", "blew up"]},
+ "reviewer_note": "Other meanings (fill with air: blow up a balloon; get very angry) left out."
+},
+{
+ "headword": "bond", "word_id": "6a6ef9b2a6015561480928a4", "word_ids": ["6a6ef9b2a6015561480928a4"], "cefr": "B2", "kind": "word",
+ "sense_label": "Friendship", "sense_pos": "noun",
+ "corpus_definition": "A close connection or strong feeling of friendship between people.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "bond", "relation": "base", "definition": "a strong feeling of friendship or love that connects people", "example": "There is a strong bond between the two sisters.",
+   "syn": [
+    {"to": "connection", "relation": "synonym", "strength": 0.8, "note": "More general; can be any link, not always a warm feeling."},
+    {"to": "tie", "relation": "synonym", "strength": 0.8, "note": "Often plural: 'family ties', 'close ties with Russia'."},
+    {"to": "link", "relation": "synonym", "strength": 0.8, "note": "A connection between people, places or things."},
+    {"to": "friendship", "relation": "related", "strength": 0.6, "note": "A relationship between friends; a bond can also be in a family."},
+    {"to": "relationship", "relation": "related", "strength": 0.6, "note": "The way two people are connected; it can be good or bad."}
+   ],
+   "ant": []},
+  {"slot": "noun", "status": "existing", "form": "bonding", "relation": "derivational", "definition": "the process of people becoming close to each other", "example": "The camping trip was good for team bonding.",
+   "syn": [], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "bond", "relation": "conversion", "definition": "to develop a close relationship with someone", "example": "The new students bonded quickly during the trip.",
+   "syn": [
+    {"to": "connect", "relation": "synonym", "strength": 0.8, "note": "To feel that you understand someone: 'We really connected.'"},
+    {"to": "get close", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday phrase."},
+    {"to": "make friends", "relation": "related", "strength": 0.6, "note": "To start a friendship; bond means the feeling becomes strong."}
+   ],
+   "ant": []},
+  {"slot": "adjective", "status": "no_form"},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-ing", "in_form": "bonding", "meaning_key": "-ing", "also": ["meeting", "building", "training"]}
+ ],
+ "context": {"text": "Ali bonded with his classmates during a school trip to Bukhara. Ten years later, the bond between them is still strong.", "uses": ["bonded", "bond"]},
+ "reviewer_note": "Other senses of bond (money: government bond; chemistry) left out; 'bound' is not family here."
+},
+{
+ "headword": "bonus", "word_id": "6a42883f6941e70ad6a00dcd", "word_ids": ["6a42883f6941e70ad6a00dcd"], "cefr": "B2", "kind": "word",
+ "sense_label": "Money", "sense_pos": "noun",
+ "corpus_definition": "Extra money given for doing a very good job.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "bonus", "relation": "base", "definition": "extra money added to your pay for good work", "example": "The staff received a holiday bonus.", "note": "Also means any pleasant extra thing: 'The hotel was near the beach, which was a bonus.' Plural: bonuses.",
+   "syn": [
+    {"to": "reward", "relation": "synonym", "strength": 0.8, "note": "Something given for good work; it is not always money."},
+    {"to": "extra pay", "relation": "synonym", "strength": 0.8, "note": "Simple phrase with the same idea."},
+    {"to": "perk", "relation": "related", "strength": 0.6, "note": "Informal: an extra thing you get from your job, like a free phone.", "register": "informal"},
+    {"to": "tip", "relation": "related", "strength": 0.4, "note": "Small money a customer gives a waiter or driver, not money from your boss."}
+   ],
+   "ant": []},
+  {"slot": "verb", "status": "no_form"},
+  {"slot": "adjective", "status": "no_form"},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "My sister works at a bank in Tashkent. This year she got a big bonus because her team did very well, and she spent it on a trip to Samarkand.", "uses": ["bonus"]},
+ "reviewer_note": "Single-word family; no forms in other slots."
+},
+{
+ "headword": "boundary", "word_id": "6a6ef83f0f1e82a5a073675a", "word_ids": ["6a6ef83f0f1e82a5a073675a"], "cefr": "B2", "kind": "word",
+ "sense_label": "Edge", "sense_pos": "noun",
+ "corpus_definition": "A line that marks the edge of an area.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "boundary", "relation": "base", "definition": "a line that shows where one area ends and another starts", "example": "The river forms a boundary between the two countries.", "note": "Plural: boundaries. Also used for limits of behaviour: 'set boundaries'.",
+   "syn": [
+    {"to": "border", "relation": "synonym", "strength": 0.8, "note": "Most often the line between two countries."},
+    {"to": "frontier", "relation": "synonym", "strength": 0.8, "note": "The border between countries, often in history or far areas."},
+    {"to": "edge", "relation": "related", "strength": 0.6, "note": "The outside part of something, not always a line between two areas."},
+    {"to": "limit", "relation": "related", "strength": 0.6, "note": "The furthest point you can go; often not a real line."},
+    {"to": "line", "relation": "related", "strength": 0.4, "note": "Very general word."}
+   ],
+   "ant": []},
+  {"slot": "verb", "status": "existing", "form": "bound", "relation": "derivational", "definition": "to form the edge of an area", "example": "The farm is bounded by mountains in the north.", "register": "formal", "note": "Usually passive: 'be bounded by'. Not the past of bind.",
+   "syn": [
+    {"to": "border", "relation": "synonym", "strength": 0.8, "note": "To be next to: 'Uzbekistan borders Kazakhstan.'"},
+    {"to": "surround", "relation": "related", "strength": 0.6, "note": "To be all around something."},
+    {"to": "enclose", "relation": "related", "strength": 0.6, "note": "To close an area in with a wall or fence."}
+   ],
+   "ant": []},
+  {"slot": "adjective", "status": "other_meaning", "form": "boundless", "definition": "without any end or limit", "example": "Children seem to have boundless energy.", "note": "Belongs to bound = limit, for energy or love, not a line on a map."},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "A small river forms the boundary between our farm and the neighbours' land. On the other side, the farm is bounded by a long wall.", "uses": ["boundary", "bounded"]},
+ "reviewer_note": "Verb bound (= form the edge of) is from the same root as boundary, not the past of bind; boundless kept as other_meaning (figurative limits)."
+},
+{
+ "headword": "brag", "word_id": "6a6ef83f0f1e82a5a0736799", "word_ids": ["6a6ef83f0f1e82a5a0736799"], "cefr": "B2", "kind": "word",
+ "sense_label": "Boasting", "sense_pos": "verb",
+ "corpus_definition": "To talk too proudly about your own achievements.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "bragging", "relation": "derivational", "definition": "talk in which someone is too proud of what they have done", "example": "Everyone got tired of his bragging.",
+   "syn": [
+    {"to": "boasting", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little more neutral."},
+    {"to": "showing off", "relation": "synonym", "strength": 0.8, "note": "Informal; can be about actions as well as words.", "register": "informal"}
+   ],
+   "ant": []},
+  {"slot": "verb", "status": "existing", "form": "brag", "relation": "base", "definition": "to talk too proudly about what you have or what you have done", "example": "He likes to brag about his expensive car.", "register": "informal", "note": "brag about / of something; past: bragged.",
+   "syn": [
+    {"to": "boast", "relation": "synonym", "strength": 0.95, "note": "Same meaning; brag is a little more informal."},
+    {"to": "show off", "relation": "synonym", "strength": 0.8, "note": "Informal; you can show off with actions, not only words.", "register": "informal"},
+    {"to": "talk big", "relation": "synonym", "strength": 0.8, "note": "Informal: to talk as if you are more important than you are.", "register": "informal"}
+   ],
+   "ant": []},
+  {"slot": "adjective", "status": "no_form"},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [
+  {"form": "braggart", "kind": "person", "status": "existing", "definition": "a person who often talks too proudly about themselves", "example": "Nobody likes a braggart at the dinner table.", "note": "Old-fashioned; today people usually say 'show-off'."}
+ ],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-ing", "in_form": "bragging", "meaning_key": "-ing", "also": ["meeting", "building", "painting"]}
+ ],
+ "context": {"text": "My cousin likes to brag about his new phone. At dinner, everyone got bored of his bragging and changed the subject.", "uses": ["brag", "bragging"]},
+ "reviewer_note": "braggart is old-fashioned but in learner dictionaries; no adjective/adverb exists."
+},
+{
+ "headword": "bravery", "word_id": "6a4265cce20c7210db6908d9", "word_ids": ["6a4265cce20c7210db6908d9"], "cefr": "B2", "kind": "word",
+ "sense_label": "Courage", "sense_pos": "noun",
+ "corpus_definition": "The quality of showing courage in dangerous situations.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "bravery", "relation": "base", "definition": "the quality of not being afraid in danger", "example": "The soldier was honored for his bravery.",
+   "syn": [
+    {"to": "courage", "relation": "synonym", "strength": 0.95, "note": "Same meaning and very common."},
+    {"to": "heroism", "relation": "synonym", "strength": 0.8, "note": "Very great courage, often to save other people."},
+    {"to": "boldness", "relation": "synonym", "strength": 0.8, "note": "Being confident and ready to take risks."},
+    {"to": "valour", "relation": "synonym", "strength": 0.8, "note": "Literary, often about soldiers. American spelling: valor.", "register": "literary"}
+   ],
+   "ant": [
+    {"to": "cowardice", "relation": "antonym", "note": "Being too afraid to do what is right."},
+    {"to": "fear", "relation": "antonym", "note": "The feeling of being afraid."}
+   ]},
+  {"slot": "verb", "status": "existing", "form": "brave", "relation": "derivational", "definition": "to face something difficult or dangerous without fear", "example": "Hundreds of fans braved the cold to see the match.",
+   "syn": [
+    {"to": "face", "relation": "synonym", "strength": 0.8, "note": "To deal with a difficult thing; less about courage."},
+    {"to": "stand up to", "relation": "related", "strength": 0.6, "note": "To refuse to accept bad treatment from a person."},
+    {"to": "defy", "relation": "related", "strength": 0.6, "note": "To refuse to obey, or to face danger in a strong way."}
+   ],
+   "ant": [
+    {"to": "avoid", "relation": "antonym", "note": "To keep away from something difficult."}
+   ]},
+  {"slot": "adjective", "status": "existing", "form": "brave", "relation": "derivational", "definition": "not afraid to do dangerous or difficult things", "example": "It was very brave of you to jump into the river.",
+   "syn": [
+    {"to": "courageous", "relation": "synonym", "strength": 0.95, "note": "Same meaning, a little more formal."},
+    {"to": "fearless", "relation": "synonym", "strength": 0.8, "note": "Not afraid at all."},
+    {"to": "bold", "relation": "synonym", "strength": 0.8, "note": "Confident and ready to take risks."},
+    {"to": "heroic", "relation": "related", "strength": 0.6, "note": "Very brave, like a hero, often to help others."}
+   ],
+   "ant": [
+    {"to": "cowardly", "relation": "antonym", "note": "Too afraid to do the right thing."},
+    {"to": "afraid", "relation": "antonym", "note": "Feeling fear."}
+   ]},
+  {"slot": "adverb", "status": "existing", "form": "bravely", "relation": "derivational", "definition": "in a way that shows no fear of danger", "example": "She bravely spoke up against the unfair rule.",
+   "syn": [
+    {"to": "courageously", "relation": "synonym", "strength": 0.95, "note": "Same meaning, a little more formal."},
+    {"to": "fearlessly", "relation": "synonym", "strength": 0.8, "note": "Without any fear at all."},
+    {"to": "boldly", "relation": "synonym", "strength": 0.8, "note": "In a confident way that takes risks."}
+   ],
+   "ant": []}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-ly", "in_form": "bravely", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+ ],
+ "context": {"text": "A young firefighter in Namangan bravely carried a child out of a burning house. Everyone praised his bravery. 'He was so brave,' said the child's mother.", "uses": ["bravely", "bravery", "brave"]},
+ "reviewer_note": "bravery is made from brave (+ -ery, not in the affix table, so no affix claimed); verb brave = face danger."
+}
+]
