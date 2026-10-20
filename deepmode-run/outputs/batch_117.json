@@ -1,419 +1,1273 @@
 [
-{
-"headword": "addicted to",
-"word_id": "6a42821646ba24054c1dccf6",
-"word_ids": ["6a42821646ba24054c1dccf6"],
-"cefr": "B2",
-"kind": "phrase",
-"sense_label": "Habit",
-"sense_pos": "adjective",
-"corpus_definition": "unable to stop doing something because you need it very much",
-"usage_note": "be / become / get addicted to + noun or -ing: 'He is addicted to coffee.' 'She got addicted to playing online games.' The 'to' is a preposition, so use -ing after it, not the infinitive.",
-"relations": [
-{"to": "hooked on", "relation": "synonym", "strength": 0.95, "note": "Very close, informal: 'He's hooked on video games.'", "register": "informal"},
-{"to": "dependent on", "relation": "synonym", "strength": 0.8, "note": "More formal; often about drugs, medicine or alcohol, or needing a person for help."},
-{"to": "obsessed with", "relation": "related", "strength": 0.6, "note": "Related: you think about something all the time, but you don't need it in your body."},
-{"to": "crazy about", "relation": "related", "strength": 0.4, "note": "Related, informal and positive: you like something very much.", "register": "informal"}
-],
-"context": {
-"text": "My younger brother is addicted to his phone. He says he can stop any time, but he has been addicted to social media since he was twelve.",
-"uses": ["addicted to"]
-},
-"reviewer_note": "kind_hint was phrasal; corrected to phrase (adjective + preposition, not verb + particle). Note on 'to + -ing' trap."
-},
-{
-"headword": "admiration",
-"word_id": "6a42662edeeb39f881130141",
-"word_ids": ["6a42662edeeb39f881130141"],
-"cefr": "B2",
-"kind": "word",
-"sense_label": "Respect",
-"sense_pos": "noun",
-"corpus_definition": "A feeling of deep respect and liking.",
-"forms": [
-{"slot": "noun", "status": "existing", "form": "admiration", "relation": "base", "definition": "a feeling of great respect and liking for someone or something", "example": "I have great admiration for doctors who work at night.",
-"syn": [
-{"to": "respect", "relation": "synonym", "strength": 0.8, "note": "Close; respect is about thinking someone is good, admiration adds liking and wonder."},
-{"to": "esteem", "relation": "synonym", "strength": 0.8, "note": "Formal word for a good opinion of someone.", "register": "formal"},
-{"to": "approval", "relation": "related", "strength": 0.6, "note": "Related: you think something is good or right, but the feeling is weaker."},
-{"to": "praise", "relation": "related", "strength": 0.4, "note": "Related: praise is what you say; admiration is what you feel."}
-],
-"ant": [
-{"to": "contempt", "relation": "antonym", "note": "A feeling that someone is worthless and not worth respect."},
-{"to": "scorn", "relation": "antonym", "note": "A strong feeling that someone or something is stupid or not good enough."}
-]},
-{"slot": "verb", "status": "existing", "form": "admire", "relation": "derivational", "definition": "to respect and like someone or something very much", "example": "Many young people admire their grandparents.",
-"syn": [
-{"to": "respect", "relation": "synonym", "strength": 0.8, "note": "Close, but without the feeling of liking or wonder."},
-{"to": "look up to", "relation": "synonym", "strength": 0.8, "note": "Easy phrasal verb, used about people you want to be like."},
-{"to": "appreciate", "relation": "related", "strength": 0.6, "note": "Related: you see that something is good and are thankful for it."},
-{"to": "praise", "relation": "related", "strength": 0.4, "note": "Related: you say good things about someone; you can admire someone silently."}
-],
-"ant": [
-{"to": "despise", "relation": "antonym", "note": "To feel that someone is very bad and has no value."},
-{"to": "look down on", "relation": "antonym", "note": "To think you are better than someone."}
-]},
-{"slot": "adjective", "status": "existing", "form": "admirable", "relation": "derivational", "definition": "very good and deserving respect", "example": "Her patience with the children is admirable.", "register": "formal",
-"syn": [
-{"to": "impressive", "relation": "synonym", "strength": 0.8, "note": "Close and more common in everyday English."},
-{"to": "praiseworthy", "relation": "synonym", "strength": 0.8, "note": "Formal: deserving to be praised.", "register": "formal"},
-{"to": "excellent", "relation": "related", "strength": 0.6, "note": "Related: very good, but about quality, not about respect."}
-],
-"ant": [
-{"to": "shameful", "relation": "antonym", "note": "So bad that people should feel ashamed."}
-]},
-{"slot": "adjective", "status": "existing", "form": "admiring", "relation": "participial", "definition": "showing that you respect and like someone very much", "example": "She gave her teacher an admiring look.", "syn": [], "ant": []},
-{"slot": "adverb", "status": "existing", "form": "admiringly", "relation": "derivational", "definition": "in a way that shows great respect and liking", "example": "The children looked admiringly at the famous footballer.",
-"syn": [
-{"to": "approvingly", "relation": "related", "strength": 0.6, "note": "Related: in a way that shows you think something is good."}
-],
-"ant": [
-{"to": "scornfully", "relation": "antonym", "note": "In a way that shows you think someone is stupid or worthless."}
-]},
-{"slot": "adverb", "status": "existing", "form": "admirably", "relation": "derivational", "definition": "very well, in a way that deserves respect", "example": "The young team played admirably in the final.", "syn": [], "ant": []}
-],
-"people": [
-{"form": "admirer", "kind": "person", "status": "existing", "definition": "a person who likes and respects someone or something very much", "example": "The singer has many admirers in Uzbekistan."}
-],
-"people_not_family": ["admiral"],
-"affixes": [
-{"affix": "-ation", "in_form": "admiration", "meaning_key": "-ation", "also": ["information", "invitation", "preparation"]},
-{"affix": "-able", "in_form": "admirable", "meaning_key": "-able", "also": ["comfortable", "enjoyable", "acceptable"]},
-{"affix": "-ly", "in_form": "admiringly", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]},
-{"affix": "-er", "in_form": "admirer", "meaning_key": "-er", "also": ["teacher", "player", "singer"]}
-],
-"context": {
-"text": "My little sister is full of admiration for her teacher. She admires how patient the teacher is, and she always talks admiringly about her lessons.",
-"uses": ["admiration", "admires", "admiringly"]
-},
-"reviewer_note": "Admiral (navy officer) looks similar but is not family. Admirable is formal and means 'deserving admiration', not 'feeling it'."
-},
-{
-"headword": "admire sb for",
-"word_id": "6a42662edeeb39f88113015a",
-"word_ids": ["6a42662edeeb39f88113015a"],
-"cefr": "B2",
-"kind": "phrase",
-"sense_label": "Respect",
-"sense_pos": "verb",
-"corpus_definition": "To respect someone for something good they have done.",
-"usage_note": "admire + person + for + noun / -ing: 'I admire her for her hard work.' 'We admire him for staying calm.' You can also say 'admire someone's + noun': 'I admire her courage.'",
-"relations": [
-{"to": "respect", "relation": "synonym", "strength": 0.8, "note": "Same pattern: 'respect someone for something'. Respect has less liking in it."},
-{"to": "look up to", "relation": "synonym", "strength": 0.8, "note": "Easy phrasal verb, about a person you want to be like; no 'for' after it."},
-{"to": "praise", "relation": "related", "strength": 0.6, "note": "Related: 'praise someone for something' means you say it out loud."},
-{"to": "appreciate", "relation": "related", "strength": 0.4, "note": "Related: you see the value of what someone did and feel thankful."},
-{"to": "despise", "relation": "antonym", "note": "To feel that someone is very bad: 'despise someone for lying'."},
-{"to": "blame", "relation": "antonym", "note": "To say someone did something wrong: 'blame someone for something'."}
-],
-"context": {
-"text": "Everyone in our village admires Aziza for her hard work. She runs a small bakery and still finds time to help her neighbours, and I admire her for that too.",
-"uses": ["admires Aziza for", "admire her for"]
-},
-"reviewer_note": "Pattern item; sb = somebody. Context shows the object between admire and for."
-},
-{
-"headword": "admit",
-"word_id": "6a42821646ba24054c1dcc63",
-"word_ids": ["6a42821646ba24054c1dcc63"],
-"cefr": "B2",
-"kind": "word",
-"sense_label": "Truth",
-"sense_pos": "verb",
-"corpus_definition": "to say that something is true, especially when you are unhappy.",
-"forms": [
-{"slot": "noun", "status": "existing", "form": "admission", "relation": "derivational", "definition": "a statement saying that something bad is true, often something you did wrong", "example": "His admission of the mistake surprised everyone.", "note": "Admission also means the right to enter a place or the price of a ticket: 'Admission is free.'",
-"syn": [
-{"to": "confession", "relation": "synonym", "strength": 0.8, "note": "Close; a confession is often about a crime or a sin."},
-{"to": "acknowledgement", "relation": "synonym", "strength": 0.8, "note": "Formal. American spelling: acknowledgment.", "register": "formal"}
-],
-"ant": [
-{"to": "denial", "relation": "antonym", "note": "A statement saying that something is not true."}
-]},
-{"slot": "noun", "status": "other_meaning", "form": "admittance", "definition": "permission to go into a place", "example": "The sign on the door said 'No admittance'.", "note": "Belongs to admit = let someone enter, not saying something is true. Formal."},
-{"slot": "verb", "status": "existing", "form": "admit", "relation": "base", "definition": "to agree that something is true, often when you don't want to", "example": "He had to admit that he was wrong.",
-"syn": [
-{"to": "confess", "relation": "synonym", "strength": 0.8, "note": "Close, but stronger: often about something very bad or secret."},
-{"to": "acknowledge", "relation": "synonym", "strength": 0.8, "note": "Formal: to accept that something is true.", "register": "formal"},
-{"to": "own up", "relation": "synonym", "strength": 0.8, "note": "Informal phrasal verb: 'own up to a mistake'.", "register": "informal"},
-{"to": "accept", "relation": "related", "strength": 0.6, "note": "Related: 'accept that…' means you agree it is true, maybe without saying it."}
-],
-"ant": [
-{"to": "deny", "relation": "antonym", "note": "To say that something is not true."}
-]},
-{"slot": "adjective", "status": "existing", "form": "admitted", "relation": "participial", "definition": "having said openly that something, usually bad, is true about yourself", "example": "He is an admitted fan of very loud music.",
-"syn": [
-{"to": "confessed", "relation": "synonym", "strength": 0.8, "note": "Close; often 'self-confessed' in everyday English."}
-],
-"ant": []},
-{"slot": "adjective", "status": "other_meaning", "form": "admissible", "definition": "allowed, especially as evidence in a court of law", "example": "The judge said the video was admissible as evidence.", "note": "Belongs to admit = allow or accept, used in law; not saying something is true about yourself. Formal."},
-{"slot": "adverb", "status": "existing", "form": "admittedly", "relation": "derivational", "definition": "used to say that something is true, even if it weakens what you are saying", "example": "Admittedly, I didn't study very hard for the test.",
-"syn": [
-{"to": "certainly", "relation": "related", "strength": 0.4, "note": "Related: used the same way before 'but': 'Certainly it's expensive, but it's good.'"}
-],
-"ant": []}
-],
-"people": [],
-"affixes": [
-{"affix": "-ly", "in_form": "admittedly", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
-],
-"context": {
-"text": "Bekzod finally admitted that he broke the window. His admission surprised his parents, but admittedly, he felt much better after telling the truth.",
-"uses": ["admitted", "admission", "admittedly"]
-},
-"reviewer_note": "Map keeps the 'say it is true' sense; admittance and admissible belong to 'let in / allow'. Admission has both senses, noted. No -sion affix claimed (admit -> admis- is not a clean split)."
-},
-{
-"headword": "adviser",
-"word_id": "6a4282fd46ba24054c1dcdc7",
-"word_ids": ["6a4282fd46ba24054c1dcdc7"],
-"cefr": "B2",
-"kind": "word",
-"sense_label": "Help",
-"sense_pos": "noun",
-"corpus_definition": "A person who gives help and suggestions.",
-"forms": [
-{"slot": "noun", "status": "existing", "form": "adviser", "relation": "base", "definition": "a person whose job is to help people make good decisions", "example": "The financial adviser helped me save money.", "note": "Also spelled advisor, especially in American English.",
-"syn": [
-{"to": "consultant", "relation": "synonym", "strength": 0.8, "note": "An expert paid to give help, usually to a company."},
-{"to": "counsellor", "relation": "synonym", "strength": 0.8, "note": "Often helps with personal problems or study. American spelling: counselor."},
-{"to": "mentor", "relation": "related", "strength": 0.6, "note": "Related: an older, experienced person who helps a younger one over a long time."},
-{"to": "guide", "relation": "related", "strength": 0.4, "note": "Related: someone who shows you the way, often on a trip."}
-],
-"ant": []},
-{"slot": "noun", "status": "existing", "form": "advice", "relation": "derivational", "definition": "an opinion someone gives you about what you should do", "example": "My father gave me some good advice about money.", "note": "Uncountable: 'some advice', 'a piece of advice', never 'an advice'. Noun advice has c; verb advise has s.", "syn": [], "ant": []},
-{"slot": "verb", "status": "existing", "form": "advise", "relation": "derivational", "definition": "to tell someone what you think they should do", "example": "The doctor advised me to drink more water.",
-"syn": [
-{"to": "recommend", "relation": "synonym", "strength": 0.8, "note": "Close; recommend is often about a thing: 'recommend a hotel'."},
-{"to": "suggest", "relation": "synonym", "strength": 0.8, "note": "Softer and more common in everyday English."},
-{"to": "counsel", "relation": "synonym", "strength": 0.8, "note": "Formal; often used about personal problems.", "register": "formal"},
-{"to": "tell", "relation": "related", "strength": 0.4, "note": "Related, easy word: 'She told me to rest.'"}
-],
-"ant": []},
-{"slot": "adjective", "status": "existing", "form": "advisory", "relation": "derivational", "definition": "having the job of giving help and suggestions, without making decisions", "example": "She works for an advisory group at the ministry.", "register": "formal",
-"syn": [
-{"to": "consultative", "relation": "synonym", "strength": 0.8, "note": "Very formal word with the same meaning.", "register": "formal"}
-],
-"ant": []},
-{"slot": "adjective", "status": "existing", "form": "advisable", "relation": "derivational", "definition": "sensible and a good idea in a situation", "example": "It is advisable to book train tickets early in summer.", "note": "Formal. Opposite: inadvisable.", "syn": [], "ant": []},
-{"slot": "adverb", "status": "other_meaning", "form": "advisedly", "definition": "after thinking carefully, on purpose", "example": "I use the word 'dangerous' advisedly.", "note": "Belongs to advise = think carefully before acting, not giving help to others. Formal and not common."}
-],
-"people": [],
-"affixes": [
-{"affix": "-er", "in_form": "adviser", "meaning_key": "-er", "also": ["teacher", "player", "driver"]},
-{"affix": "-able", "in_form": "advisable", "meaning_key": "-able", "also": ["comfortable", "enjoyable", "acceptable"]}
-],
-"context": {
-"text": "My uncle works as a financial adviser in Tashkent. He advises families on how to save money, and his advice is always simple and clear.",
-"uses": ["adviser", "advises", "advice"]
-},
-"reviewer_note": "Person-noun headword stays main noun; advice (c) vs advise (s) spelling trap noted; adviser/advisor spelling noted."
-},
-{
-"headword": "affection",
-"word_id": "6a6ef9b2a601556148092683",
-"word_ids": ["6a6ef9b2a601556148092683"],
-"cefr": "B2",
-"kind": "word",
-"sense_label": "Love",
-"sense_pos": "noun",
-"corpus_definition": "A warm, loving feeling for someone.",
-"forms": [
-{"slot": "noun", "status": "existing", "form": "affection", "relation": "base", "definition": "a feeling of liking and caring about someone", "example": "He showed great affection for his pet dog.",
-"syn": [
-{"to": "fondness", "relation": "synonym", "strength": 0.95, "note": "Very close; a gentle feeling of liking."},
-{"to": "love", "relation": "synonym", "strength": 0.8, "note": "Easy word; love is usually stronger."},
-{"to": "warmth", "relation": "synonym", "strength": 0.8, "note": "A friendly, kind feeling or way of acting."},
-{"to": "tenderness", "relation": "synonym", "strength": 0.8, "note": "A gentle, careful kind of love."},
-{"to": "care", "relation": "related", "strength": 0.6, "note": "Related: worrying about someone and helping them."}
-],
-"ant": [
-{"to": "dislike", "relation": "antonym", "note": "A feeling of not liking someone."},
-{"to": "hostility", "relation": "antonym", "note": "Unfriendly, angry feelings or behaviour towards someone."}
-]},
-{"slot": "verb", "status": "no_form", "note": "There is no verb for this meaning. Affect (to change or influence something) shares an old root but has a different meaning.", "not_family": ["affect"]},
-{"slot": "adjective", "status": "existing", "form": "affectionate", "relation": "derivational", "definition": "showing in a warm way that you love or like someone", "example": "My grandmother is very affectionate with all her grandchildren.",
-"syn": [
-{"to": "loving", "relation": "synonym", "strength": 0.95, "note": "Very close and very common."},
-{"to": "warm", "relation": "synonym", "strength": 0.8, "note": "Friendly and kind."},
-{"to": "caring", "relation": "synonym", "strength": 0.8, "note": "Kind and helpful to others."},
-{"to": "tender", "relation": "synonym", "strength": 0.8, "note": "Gentle and loving."}
-],
-"ant": [
-{"to": "cold", "relation": "antonym", "note": "Unfriendly, not showing any feelings."}
-]},
-{"slot": "adverb", "status": "existing", "form": "affectionately", "relation": "derivational", "definition": "in a warm way that shows love or liking", "example": "She smiled affectionately at her baby son.",
-"syn": [
-{"to": "lovingly", "relation": "synonym", "strength": 0.95, "note": "Very close."},
-{"to": "fondly", "relation": "synonym", "strength": 0.8, "note": "Close; also used about memories: 'remember fondly'."},
-{"to": "warmly", "relation": "synonym", "strength": 0.8, "note": "In a friendly, kind way."}
-],
-"ant": [
-{"to": "coldly", "relation": "antonym", "note": "In an unfriendly way, without feeling."}
-]}
-],
-"people": [],
-"affixes": [
-{"affix": "-ly", "in_form": "affectionately", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
-],
-"context": {
-"text": "My grandmother in Bukhara is very affectionate. She hugs us every time we visit and speaks to us with great affection.",
-"uses": ["affectionate", "affection"]
-},
-"reviewer_note": "Affect / affected (influence; not natural) kept out as not_family: same old root, unrelated meaning for learners. No -ion affix claimed."
-},
-{
-"headword": "affordable",
-"word_id": "6a42800cb9d8fc24968a4b84",
-"word_ids": ["6a42800cb9d8fc24968a4b84"],
-"cefr": "B2",
-"kind": "word",
-"sense_label": "Price",
-"sense_pos": "adjective",
-"corpus_definition": "not too expensive for people to buy",
-"forms": [
-{"slot": "noun", "status": "existing", "form": "affordability", "relation": "derivational", "definition": "how cheap or expensive something is for ordinary people", "example": "The affordability of housing is a big problem in big cities.", "register": "formal",
-"syn": [
-{"to": "cheapness", "relation": "related", "strength": 0.6, "note": "Related: cheapness can also mean low quality."}
-],
-"ant": []},
-{"slot": "verb", "status": "existing", "form": "afford", "relation": "derivational", "definition": "to have enough money to pay for something", "example": "We can't afford a new car this year.", "note": "Usually with can / could / be able to: 'I can't afford it.'",
-"syn": [
-{"to": "pay for", "relation": "synonym", "strength": 0.8, "note": "Easy; 'can pay for' is close to 'can afford'."},
-{"to": "manage", "relation": "related", "strength": 0.6, "note": "Related: 'manage to buy' means you can do it, but with effort."},
-{"to": "spare", "relation": "related", "strength": 0.4, "note": "Related: to give money or time that you don't need yourself."}
-],
-"ant": []},
-{"slot": "adjective", "status": "existing", "form": "affordable", "relation": "base", "definition": "cheap enough for most people to pay for", "example": "They offer affordable meals for students.",
-"syn": [
-{"to": "inexpensive", "relation": "synonym", "strength": 0.95, "note": "Very close and a little formal."},
-{"to": "cheap", "relation": "synonym", "strength": 0.8, "note": "Easy word, but cheap can also mean low quality."},
-{"to": "reasonable", "relation": "synonym", "strength": 0.8, "note": "Used about prices that are fair, not too high."}
-],
-"ant": [
-{"to": "expensive", "relation": "antonym", "note": "Costing a lot of money."},
-{"to": "unaffordable", "relation": "antonym", "note": "Too expensive for most people."}
-]},
-{"slot": "adverb", "status": "no_form", "note": "There is no common adverb; affordably is very rare."}
-],
-"people": [],
-"affixes": [
-{"affix": "-able", "in_form": "affordable", "meaning_key": "-able", "also": ["comfortable", "enjoyable", "acceptable"]},
-{"affix": "-ity", "in_form": "affordability", "meaning_key": "-ity", "also": ["ability", "possibility", "reality"]}
-],
-"context": {
-"text": "Students in Samarkand need affordable flats near the university. Many of them can't afford to live alone, so they share rooms with friends.",
-"uses": ["affordable", "afford"]
-},
-"reviewer_note": "Unaffordable placed in ant (negative prefix, rule 3). Affordably left as no_form (very rare)."
-},
-{
-"headword": "agency",
-"word_id": "6a6ef9b2a601556148092684",
-"word_ids": ["6a6ef9b2a601556148092684"],
-"cefr": "B2",
-"kind": "word",
-"sense_label": "Business",
-"sense_pos": "noun",
-"corpus_definition": "A business that provides a service for others.",
-"forms": [
-{"slot": "noun", "status": "existing", "form": "agency", "relation": "base", "definition": "a company that does work or arranges things for other people", "example": "They hired a travel agency to plan their trips.", "note": "Also a government office with a special job: 'a space agency'.",
-"syn": [
-{"to": "firm", "relation": "synonym", "strength": 0.8, "note": "A company, often one that gives a professional service."},
-{"to": "bureau", "relation": "synonym", "strength": 0.8, "note": "Formal; an office that gives information or a service.", "register": "formal"},
-{"to": "company", "relation": "related", "strength": 0.6, "note": "Related, easy word for any business."},
-{"to": "office", "relation": "related", "strength": 0.4, "note": "Related: the place where the work is done."}
-],
-"ant": []},
-{"slot": "verb", "status": "no_form", "note": "There is no verb made from agency."},
-{"slot": "adjective", "status": "no_form", "note": "There is no common adjective made from agency."},
-{"slot": "adverb", "status": "no_form", "note": "There is no adverb made from agency."}
-],
-"people": [
-{"form": "agent", "kind": "job", "status": "existing", "definition": "a person whose job is to act or do business for other people", "example": "A travel agent booked our hotel in Istanbul."}
-],
-"affixes": [],
-"context": {
-"text": "My sister works at a travel agency in Tashkent. Every day, she and the other agents help families plan trips to Turkey and Dubai.",
-"uses": ["agency", "agents"]
-},
-"reviewer_note": "Single-form family; agent shown in People & things. No -cy affix (not in the table)."
-},
-{
-"headword": "agreement",
-"word_id": "6a42821646ba24054c1dcc87",
-"word_ids": ["6a42821646ba24054c1dcc87"],
-"cefr": "B2",
-"kind": "word",
-"sense_label": "Opinion",
-"sense_pos": "noun",
-"corpus_definition": "a situation where two or more people share the same opinion or decision",
-"forms": [
-{"slot": "noun", "status": "existing", "form": "agreement", "relation": "base", "definition": "a situation where people have the same opinion or decide the same thing", "example": "They finally reached an agreement about the plans.", "note": "Also a written promise between people or countries: 'sign an agreement'.",
-"syn": [
-{"to": "consensus", "relation": "synonym", "strength": 0.8, "note": "Formal: everyone in a group has the same opinion.", "register": "formal"},
-{"to": "accord", "relation": "synonym", "strength": 0.8, "note": "Formal, often in 'in accord with'.", "register": "formal"},
-{"to": "understanding", "relation": "related", "strength": 0.6, "note": "Related: an informal agreement that is not written down."},
-{"to": "deal", "relation": "related", "strength": 0.6, "note": "Related, easy word: an agreement, often in business."}
-],
-"ant": [
-{"to": "disagreement", "relation": "antonym", "note": "A situation where people have different opinions."}
-]},
-{"slot": "verb", "status": "existing", "form": "agree", "relation": "derivational", "definition": "to have the same opinion as someone else", "example": "I agree with you about the new timetable.",
-"syn": [
-{"to": "concur", "relation": "synonym", "strength": 0.8, "note": "Very formal.", "register": "formal"},
-{"to": "accept", "relation": "related", "strength": 0.6, "note": "Related: you say yes to an idea, but maybe you don't share the opinion."}
-],
-"ant": [
-{"to": "disagree", "relation": "antonym", "note": "To have a different opinion."}
-]},
-{"slot": "adjective", "status": "existing", "form": "agreed", "relation": "participial", "definition": "decided by everyone in a discussion", "example": "We met at the agreed time outside the cinema.",
-"syn": [
-{"to": "settled", "relation": "synonym", "strength": 0.8, "note": "Decided and not going to change."},
-{"to": "fixed", "relation": "related", "strength": 0.6, "note": "Related: used about times and prices that will not change."}
-],
-"ant": []},
-{"slot": "adjective", "status": "other_meaning", "form": "agreeable", "definition": "pleasant and nice", "example": "We spent an agreeable evening with our neighbours.", "note": "Belongs to agree = be pleasant or suit someone (the weather agrees with me), not sharing an opinion. Formal; it can also mean 'willing to say yes'."},
-{"slot": "adverb", "status": "other_meaning", "form": "agreeably", "definition": "in a pleasant way", "example": "We were agreeably surprised by the hotel.", "note": "Goes with agreeable = pleasant, not with sharing an opinion."}
-],
-"people": [],
-"affixes": [
-{"affix": "-ment", "in_form": "agreement", "meaning_key": "-ment", "also": ["payment", "movement", "development"]}
-],
-"context": {
-"text": "After a long talk, my parents reached an agreement about our summer holiday. They both agreed to visit Khiva, and we leave on the agreed date, the first of July.",
-"uses": ["agreement", "agreed"]
-},
-"reviewer_note": "Agreeable/agreeably are false friends (pleasant), shown as other_meaning. Disagreement / disagree in ant lists, not forms."
-},
-{
-"headword": "aircraft",
-"word_id": "6a6ef83f0f1e82a5a07366f5",
-"word_ids": ["6a6ef83f0f1e82a5a07366f5"],
-"cefr": "B2",
-"kind": "word",
-"sense_label": "Flying",
-"sense_pos": "noun",
-"corpus_definition": "Any vehicle that can fly through the air.",
-"forms": [
-{"slot": "noun", "status": "existing", "form": "aircraft", "relation": "base", "definition": "any machine that flies, such as a plane or helicopter", "example": "The military aircraft flew over the city.", "note": "The plural is the same: one aircraft, two aircraft (not 'aircrafts').",
-"syn": [
-{"to": "plane", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word, but only for planes with wings."},
-{"to": "aeroplane", "relation": "synonym", "strength": 0.8, "note": "British English. American English: airplane."},
-{"to": "jet", "relation": "related", "strength": 0.6, "note": "Related: a fast plane with jet engines."},
-{"to": "helicopter", "relation": "related", "strength": 0.4, "note": "Related: one kind of aircraft, with blades on top."}
-],
-"ant": []},
-{"slot": "verb", "status": "no_form", "note": "There is no verb made from aircraft."},
-{"slot": "adjective", "status": "no_form", "note": "There is no adjective made from aircraft."},
-{"slot": "adverb", "status": "no_form", "note": "There is no adverb made from aircraft."}
-],
-"people": [],
-"affixes": [],
-"context": {
-"text": "Dozens of aircraft land at Tashkent airport every day. The newest aircraft are quieter and use less fuel than the old ones.",
-"uses": ["aircraft"]
-},
-"reviewer_note": "Compound headword (air + craft); no forms. Plural trap noted: aircraft, not aircrafts."
-}
+ {
+  "headword": "addicted to",
+  "word_id": "6a42821646ba24054c1dccf6",
+  "word_ids": [
+   "6a42821646ba24054c1dccf6"
+  ],
+  "cefr": "B2",
+  "kind": "phrase",
+  "sense_label": "Habit",
+  "sense_pos": "adjective",
+  "corpus_definition": "unable to stop doing something because you need it very much",
+  "usage_note": "be / become / get addicted to + noun or -ing: 'He is addicted to coffee.' 'She got addicted to playing online games.' The 'to' is a preposition, so use -ing after it, not the infinitive.",
+  "relations": [
+   {
+    "to": "hooked on",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Very close, informal: 'He's hooked on video games.'",
+    "register": "informal"
+   },
+   {
+    "to": "dependent on",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "More formal; often about drugs, medicine or alcohol, or needing a person for help."
+   },
+   {
+    "to": "obsessed with",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Related: you think about something all the time, but you don't need it in your body."
+   },
+   {
+    "to": "crazy about",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Related, informal and positive: you like something very much.",
+    "register": "informal"
+   }
+  ],
+  "context": {
+   "text": "My younger brother is addicted to his phone. He says he can stop any time, but he has been addicted to social media since he was twelve.",
+   "uses": [
+    "addicted to"
+   ]
+  },
+  "reviewer_note": "kind_hint was phrasal; corrected to phrase (adjective + preposition, not verb + particle). Note on 'to + -ing' trap."
+ },
+ {
+  "headword": "admiration",
+  "word_id": "6a42662edeeb39f881130141",
+  "word_ids": [
+   "6a42662edeeb39f881130141"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Respect",
+  "sense_pos": "noun",
+  "corpus_definition": "A feeling of deep respect and liking.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "admiration",
+    "relation": "base",
+    "definition": "a feeling of great respect and liking for someone or something",
+    "example": "I have great admiration for doctors who work at night.",
+    "syn": [
+     {
+      "to": "respect",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; respect is about thinking someone is good, admiration adds liking and wonder."
+     },
+     {
+      "to": "esteem",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal word for a good opinion of someone.",
+      "register": "formal"
+     },
+     {
+      "to": "approval",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: you think something is good or right, but the feeling is weaker."
+     },
+     {
+      "to": "praise",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: praise is what you say; admiration is what you feel."
+     }
+    ],
+    "ant": [
+     {
+      "to": "contempt",
+      "relation": "antonym",
+      "note": "A feeling that someone is worthless and not worth respect."
+     },
+     {
+      "to": "scorn",
+      "relation": "antonym",
+      "note": "A strong feeling that someone or something is stupid or not good enough."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "admire",
+    "relation": "derivational",
+    "definition": "to respect and like someone or something very much",
+    "example": "Many young people admire their grandparents.",
+    "syn": [
+     {
+      "to": "respect",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close, but without the feeling of liking or wonder."
+     },
+     {
+      "to": "look up to",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrasal verb, used about people you want to be like."
+     },
+     {
+      "to": "appreciate",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: you see that something is good and are thankful for it."
+     },
+     {
+      "to": "praise",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: you say good things about someone; you can admire someone silently."
+     }
+    ],
+    "ant": [
+     {
+      "to": "despise",
+      "relation": "antonym",
+      "note": "To feel that someone is very bad and has no value."
+     },
+     {
+      "to": "look down on",
+      "relation": "antonym",
+      "note": "To think you are better than someone."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "admirable",
+    "relation": "derivational",
+    "definition": "very good and deserving respect",
+    "example": "Her patience with the children is admirable.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "impressive",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close and more common in everyday English."
+     },
+     {
+      "to": "praiseworthy",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: deserving to be praised.",
+      "register": "formal"
+     },
+     {
+      "to": "excellent",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: very good, but about quality, not about respect."
+     }
+    ],
+    "ant": [
+     {
+      "to": "shameful",
+      "relation": "antonym",
+      "note": "So bad that people should feel ashamed."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "admiring",
+    "relation": "participial",
+    "definition": "showing that you respect and like someone very much",
+    "example": "She gave her teacher an admiring look.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "admiringly",
+    "relation": "derivational",
+    "definition": "in a way that shows great respect and liking",
+    "example": "The children looked admiringly at the famous footballer.",
+    "syn": [
+     {
+      "to": "approvingly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: in a way that shows you think something is good."
+     }
+    ],
+    "ant": [
+     {
+      "to": "scornfully",
+      "relation": "antonym",
+      "note": "In a way that shows you think someone is stupid or worthless."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "admirably",
+    "relation": "derivational",
+    "definition": "very well, in a way that deserves respect",
+    "example": "The young team played admirably in the final.",
+    "syn": [],
+    "ant": []
+   }
+  ],
+  "people": [
+   {
+    "form": "admirer",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who likes and respects someone or something very much",
+    "example": "The singer has many admirers in Uzbekistan."
+   }
+  ],
+  "people_not_family": [
+   "admiral"
+  ],
+  "affixes": [
+   {
+    "affix": "-ation",
+    "in_form": "admiration",
+    "meaning_key": "-ation",
+    "also": [
+     "information",
+     "invitation",
+     "preparation"
+    ]
+   },
+   {
+    "affix": "-able",
+    "in_form": "admirable",
+    "meaning_key": "-able",
+    "also": [
+     "comfortable",
+     "enjoyable",
+     "acceptable"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "admirer",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "player",
+     "singer"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My little sister is full of admiration for her teacher. She admires how patient the teacher is, and she always talks admiringly about her lessons.",
+   "uses": [
+    "admiration",
+    "admires",
+    "admiringly"
+   ]
+  },
+  "reviewer_note": "Admiral (navy officer) looks similar but is not family. Admirable is formal and means 'deserving admiration', not 'feeling it'."
+ },
+ {
+  "headword": "admire sb for",
+  "word_id": "6a42662edeeb39f88113015a",
+  "word_ids": [
+   "6a42662edeeb39f88113015a"
+  ],
+  "cefr": "B2",
+  "kind": "phrase",
+  "sense_label": "Respect",
+  "sense_pos": "verb",
+  "corpus_definition": "To respect someone for something good they have done.",
+  "usage_note": "admire + person + for + noun / -ing: 'I admire her for her hard work.' 'We admire him for staying calm.' You can also say 'admire someone's + noun': 'I admire her courage.'",
+  "relations": [
+   {
+    "to": "respect",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Same pattern: 'respect someone for something'. Respect has less liking in it."
+   },
+   {
+    "to": "look up to",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Easy phrasal verb, about a person you want to be like; no 'for' after it."
+   },
+   {
+    "to": "praise",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Related: 'praise someone for something' means you say it out loud."
+   },
+   {
+    "to": "appreciate",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Related: you see the value of what someone did and feel thankful."
+   },
+   {
+    "to": "despise",
+    "relation": "antonym",
+    "note": "To feel that someone is very bad: 'despise someone for lying'."
+   },
+   {
+    "to": "blame",
+    "relation": "antonym",
+    "note": "To say someone did something wrong: 'blame someone for something'."
+   }
+  ],
+  "context": {
+   "text": "Everyone in our village admires Aziza for her hard work. She runs a small bakery and still finds time to help her neighbours, and I admire her for that too.",
+   "uses": [
+    "admires Aziza for",
+    "admire her for"
+   ]
+  },
+  "reviewer_note": "Pattern item; sb = somebody. Context shows the object between admire and for."
+ },
+ {
+  "headword": "admit",
+  "word_id": "6a42821646ba24054c1dcc63",
+  "word_ids": [
+   "6a42821646ba24054c1dcc63"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Truth",
+  "sense_pos": "verb",
+  "corpus_definition": "to say that something is true, especially when you are unhappy.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "admission",
+    "relation": "derivational",
+    "definition": "a statement saying that something bad is true, often something you did wrong",
+    "example": "His admission of the mistake surprised everyone.",
+    "note": "Admission also means the right to enter a place or the price of a ticket: 'Admission is free.'",
+    "syn": [
+     {
+      "to": "confession",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; a confession is often about a crime or a sin."
+     },
+     {
+      "to": "acknowledgement",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal. American spelling: acknowledgment.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "denial",
+      "relation": "antonym",
+      "note": "A statement saying that something is not true."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "admittance",
+    "definition": "permission to go into a place",
+    "example": "The sign on the door said 'No admittance'.",
+    "note": "Belongs to admit = let someone enter, not saying something is true. Formal."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "admit",
+    "relation": "base",
+    "definition": "to agree that something is true, often when you don't want to",
+    "example": "He had to admit that he was wrong.",
+    "syn": [
+     {
+      "to": "confess",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close, but stronger: often about something very bad or secret."
+     },
+     {
+      "to": "acknowledge",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: to accept that something is true.",
+      "register": "formal"
+     },
+     {
+      "to": "own up",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal phrasal verb: 'own up to a mistake'.",
+      "register": "informal"
+     },
+     {
+      "to": "accept",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: 'accept that…' means you agree it is true, maybe without saying it."
+     }
+    ],
+    "ant": [
+     {
+      "to": "deny",
+      "relation": "antonym",
+      "note": "To say that something is not true."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "admitted",
+    "relation": "participial",
+    "definition": "having said openly that something, usually bad, is true about yourself",
+    "example": "He is an admitted fan of very loud music.",
+    "syn": [
+     {
+      "to": "confessed",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; often 'self-confessed' in everyday English."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "admissible",
+    "definition": "allowed, especially as evidence in a court of law",
+    "example": "The judge said the video was admissible as evidence.",
+    "note": "Belongs to admit = allow or accept, used in law; not saying something is true about yourself. Formal."
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "admittedly",
+    "relation": "derivational",
+    "definition": "used to say that something is true, even if it weakens what you are saying",
+    "example": "Admittedly, I didn't study very hard for the test.",
+    "syn": [
+     {
+      "to": "certainly",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: used the same way before 'but': 'Certainly it's expensive, but it's good.'"
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Bekzod finally admitted that he broke the window. His admission surprised his parents, but admittedly, he felt much better after telling the truth.",
+   "uses": [
+    "admitted",
+    "admission",
+    "admittedly"
+   ]
+  },
+  "reviewer_note": "Map keeps the 'say it is true' sense; admittance and admissible belong to 'let in / allow'. Admission has both senses, noted. No -sion affix claimed (admit -> admis- is not a clean split). No -ly affix claimed on admittedly (gate does not split admitted + -ly)."
+ },
+ {
+  "headword": "adviser",
+  "word_id": "6a4282fd46ba24054c1dcdc7",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcdc7"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Help",
+  "sense_pos": "noun",
+  "corpus_definition": "A person who gives help and suggestions.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "adviser",
+    "relation": "base",
+    "definition": "a person whose job is to help people make good decisions",
+    "example": "The financial adviser helped me save money.",
+    "note": "Also spelled advisor, especially in American English.",
+    "syn": [
+     {
+      "to": "consultant",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "An expert paid to give help, usually to a company."
+     },
+     {
+      "to": "counsellor",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Often helps with personal problems or study. American spelling: counselor."
+     },
+     {
+      "to": "mentor",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: an older, experienced person who helps a younger one over a long time."
+     },
+     {
+      "to": "guide",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: someone who shows you the way, often on a trip."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "advice",
+    "relation": "derivational",
+    "definition": "an opinion someone gives you about what you should do",
+    "example": "My father gave me some good advice about money.",
+    "note": "Uncountable: 'some advice', 'a piece of advice', never 'an advice'. Noun advice has c; verb advise has s.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "advise",
+    "relation": "derivational",
+    "definition": "to tell someone what you think they should do",
+    "example": "The doctor advised me to drink more water.",
+    "syn": [
+     {
+      "to": "recommend",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; recommend is often about a thing: 'recommend a hotel'."
+     },
+     {
+      "to": "suggest",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Softer and more common in everyday English."
+     },
+     {
+      "to": "counsel",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal; often used about personal problems.",
+      "register": "formal"
+     },
+     {
+      "to": "tell",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related, easy word: 'She told me to rest.'"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "advisory",
+    "relation": "derivational",
+    "definition": "having the job of giving help and suggestions, without making decisions",
+    "example": "She works for an advisory group at the ministry.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "consultative",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very formal word with the same meaning.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "advisable",
+    "relation": "derivational",
+    "definition": "sensible and a good idea in a situation",
+    "example": "It is advisable to book train tickets early in summer.",
+    "note": "Formal. Opposite: inadvisable.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "other_meaning",
+    "form": "advisedly",
+    "definition": "after thinking carefully, on purpose",
+    "example": "I use the word 'dangerous' advisedly.",
+    "note": "Belongs to advise = think carefully before acting, not giving help to others. Formal and not common."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-er",
+    "in_form": "adviser",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "player",
+     "driver"
+    ]
+   },
+   {
+    "affix": "-able",
+    "in_form": "advisable",
+    "meaning_key": "-able",
+    "also": [
+     "comfortable",
+     "enjoyable",
+     "acceptable"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My uncle works as a financial adviser in Tashkent. He advises families on how to save money, and his advice is always simple and clear.",
+   "uses": [
+    "adviser",
+    "advises",
+    "advice"
+   ]
+  },
+  "reviewer_note": "Person-noun headword stays main noun; advice (c) vs advise (s) spelling trap noted; adviser/advisor spelling noted."
+ },
+ {
+  "headword": "affection",
+  "word_id": "6a6ef9b2a601556148092683",
+  "word_ids": [
+   "6a6ef9b2a601556148092683"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Love",
+  "sense_pos": "noun",
+  "corpus_definition": "A warm, loving feeling for someone.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "affection",
+    "relation": "base",
+    "definition": "a feeling of liking and caring about someone",
+    "example": "He showed great affection for his pet dog.",
+    "syn": [
+     {
+      "to": "fondness",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close; a gentle feeling of liking."
+     },
+     {
+      "to": "love",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; love is usually stronger."
+     },
+     {
+      "to": "warmth",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A friendly, kind feeling or way of acting."
+     },
+     {
+      "to": "tenderness",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A gentle, careful kind of love."
+     },
+     {
+      "to": "care",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: worrying about someone and helping them."
+     }
+    ],
+    "ant": [
+     {
+      "to": "dislike",
+      "relation": "antonym",
+      "note": "A feeling of not liking someone."
+     },
+     {
+      "to": "hostility",
+      "relation": "antonym",
+      "note": "Unfriendly, angry feelings or behaviour towards someone."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb for this meaning. Affect (to change or influence something) shares an old root but has a different meaning.",
+    "not_family": [
+     "affect"
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "affectionate",
+    "relation": "derivational",
+    "definition": "showing in a warm way that you love or like someone",
+    "example": "My grandmother is very affectionate with all her grandchildren.",
+    "syn": [
+     {
+      "to": "loving",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close and very common."
+     },
+     {
+      "to": "warm",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Friendly and kind."
+     },
+     {
+      "to": "caring",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Kind and helpful to others."
+     },
+     {
+      "to": "tender",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Gentle and loving."
+     }
+    ],
+    "ant": [
+     {
+      "to": "cold",
+      "relation": "antonym",
+      "note": "Unfriendly, not showing any feelings."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "affectionately",
+    "relation": "derivational",
+    "definition": "in a warm way that shows love or liking",
+    "example": "She smiled affectionately at her baby son.",
+    "syn": [
+     {
+      "to": "lovingly",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close."
+     },
+     {
+      "to": "fondly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; also used about memories: 'remember fondly'."
+     },
+     {
+      "to": "warmly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "In a friendly, kind way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "coldly",
+      "relation": "antonym",
+      "note": "In an unfriendly way, without feeling."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "affectionately",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "happily"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My grandmother in Bukhara is very affectionate. She hugs us every time we visit and speaks to us with great affection.",
+   "uses": [
+    "affectionate",
+    "affection"
+   ]
+  },
+  "reviewer_note": "Affect / affected (influence; not natural) kept out as not_family: same old root, unrelated meaning for learners. No -ion affix claimed."
+ },
+ {
+  "headword": "affordable",
+  "word_id": "6a42800cb9d8fc24968a4b84",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b84"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Price",
+  "sense_pos": "adjective",
+  "corpus_definition": "not too expensive for people to buy",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "affordability",
+    "relation": "derivational",
+    "definition": "how cheap or expensive something is for ordinary people",
+    "example": "The affordability of housing is a big problem in big cities.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "cheapness",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: cheapness can also mean low quality."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "afford",
+    "relation": "derivational",
+    "definition": "to have enough money to pay for something",
+    "example": "We can't afford a new car this year.",
+    "note": "Usually with can / could / be able to: 'I can't afford it.'",
+    "syn": [
+     {
+      "to": "pay for",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy; 'can pay for' is close to 'can afford'."
+     },
+     {
+      "to": "manage",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: 'manage to buy' means you can do it, but with effort."
+     },
+     {
+      "to": "spare",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: to give money or time that you don't need yourself."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "affordable",
+    "relation": "base",
+    "definition": "cheap enough for most people to pay for",
+    "example": "They offer affordable meals for students.",
+    "syn": [
+     {
+      "to": "inexpensive",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close and a little formal."
+     },
+     {
+      "to": "cheap",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word, but cheap can also mean low quality."
+     },
+     {
+      "to": "reasonable",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used about prices that are fair, not too high."
+     }
+    ],
+    "ant": [
+     {
+      "to": "expensive",
+      "relation": "antonym",
+      "note": "Costing a lot of money."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no common adverb; affordably is very rare."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-able",
+    "in_form": "affordable",
+    "meaning_key": "-able",
+    "also": [
+     "comfortable",
+     "enjoyable",
+     "acceptable"
+    ]
+   },
+   {
+    "affix": "-ity",
+    "in_form": "affordability",
+    "meaning_key": "-ity",
+    "also": [
+     "ability",
+     "possibility",
+     "reality"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Students in Samarkand need affordable flats near the university. Many of them can't afford to live alone, so they share rooms with friends.",
+   "uses": [
+    "affordable",
+    "afford"
+   ]
+  },
+  "reviewer_note": "Unaffordable left out of ant (not in gate lexicon; expensive kept). Affordably left as no_form (very rare)."
+ },
+ {
+  "headword": "agency",
+  "word_id": "6a6ef9b2a601556148092684",
+  "word_ids": [
+   "6a6ef9b2a601556148092684"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Business",
+  "sense_pos": "noun",
+  "corpus_definition": "A business that provides a service for others.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "agency",
+    "relation": "base",
+    "definition": "a company that does work or arranges things for other people",
+    "example": "They hired a travel agency to plan their trips.",
+    "note": "Also a government office with a special job: 'a space agency'.",
+    "syn": [
+     {
+      "to": "firm",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A company, often one that gives a professional service."
+     },
+     {
+      "to": "bureau",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal; an office that gives information or a service.",
+      "register": "formal"
+     },
+     {
+      "to": "company",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related, easy word for any business."
+     },
+     {
+      "to": "office",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: the place where the work is done."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb made from agency."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective made from agency."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from agency."
+   }
+  ],
+  "people": [
+   {
+    "form": "agent",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person whose job is to act or do business for other people",
+    "example": "A travel agent booked our hotel in Istanbul."
+   }
+  ],
+  "affixes": [],
+  "context": {
+   "text": "My sister works at a travel agency in Tashkent. Every day, she and the other agents help families plan trips to Turkey and Dubai.",
+   "uses": [
+    "agency",
+    "agents"
+   ]
+  },
+  "reviewer_note": "Single-form family; agent shown in People & things. No -cy affix (not in the table)."
+ },
+ {
+  "headword": "agreement",
+  "word_id": "6a42821646ba24054c1dcc87",
+  "word_ids": [
+   "6a42821646ba24054c1dcc87"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Opinion",
+  "sense_pos": "noun",
+  "corpus_definition": "a situation where two or more people share the same opinion or decision",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "agreement",
+    "relation": "base",
+    "definition": "a situation where people have the same opinion or decide the same thing",
+    "example": "They finally reached an agreement about the plans.",
+    "note": "Also a written promise between people or countries: 'sign an agreement'.",
+    "syn": [
+     {
+      "to": "consensus",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: everyone in a group has the same opinion.",
+      "register": "formal"
+     },
+     {
+      "to": "accord",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal, often in 'in accord with'.",
+      "register": "formal"
+     },
+     {
+      "to": "understanding",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: an informal agreement that is not written down."
+     },
+     {
+      "to": "deal",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related, easy word: an agreement, often in business."
+     }
+    ],
+    "ant": [
+     {
+      "to": "disagreement",
+      "relation": "antonym",
+      "note": "A situation where people have different opinions."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "agree",
+    "relation": "derivational",
+    "definition": "to have the same opinion as someone else",
+    "example": "I agree with you about the new timetable.",
+    "syn": [
+     {
+      "to": "concur",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very formal.",
+      "register": "formal"
+     },
+     {
+      "to": "accept",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: you say yes to an idea, but maybe you don't share the opinion."
+     }
+    ],
+    "ant": [
+     {
+      "to": "disagree",
+      "relation": "antonym",
+      "note": "To have a different opinion."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "agreed",
+    "relation": "participial",
+    "definition": "decided by everyone in a discussion",
+    "example": "We met at the agreed time outside the cinema.",
+    "syn": [
+     {
+      "to": "settled",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Decided and not going to change."
+     },
+     {
+      "to": "fixed",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: used about times and prices that will not change."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "agreeable",
+    "definition": "pleasant and nice",
+    "example": "We spent an agreeable evening with our neighbours.",
+    "note": "Belongs to agree = be pleasant or suit someone (the weather agrees with me), not sharing an opinion. Formal; it can also mean 'willing to say yes'."
+   },
+   {
+    "slot": "adverb",
+    "status": "other_meaning",
+    "form": "agreeably",
+    "definition": "in a pleasant way",
+    "example": "We were agreeably surprised by the hotel.",
+    "note": "Goes with agreeable = pleasant, not with sharing an opinion."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ment",
+    "in_form": "agreement",
+    "meaning_key": "-ment",
+    "also": [
+     "payment",
+     "movement",
+     "development"
+    ]
+   }
+  ],
+  "context": {
+   "text": "After a long talk, my parents reached an agreement about our summer holiday. They both agreed to visit Khiva, and we leave on the agreed date, the first of July.",
+   "uses": [
+    "agreement",
+    "agreed"
+   ]
+  },
+  "reviewer_note": "Agreeable/agreeably are false friends (pleasant), shown as other_meaning. Disagreement / disagree in ant lists, not forms."
+ },
+ {
+  "headword": "aircraft",
+  "word_id": "6a6ef83f0f1e82a5a07366f5",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07366f5"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Flying",
+  "sense_pos": "noun",
+  "corpus_definition": "Any vehicle that can fly through the air.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "aircraft",
+    "relation": "base",
+    "definition": "any machine that flies, such as a plane or helicopter",
+    "example": "The military aircraft flew over the city.",
+    "note": "The plural is the same: one aircraft, two aircraft (not 'aircrafts').",
+    "syn": [
+     {
+      "to": "plane",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday word, but only for planes with wings."
+     },
+     {
+      "to": "aeroplane",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "British English. American English: airplane."
+     },
+     {
+      "to": "jet",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: a fast plane with jet engines."
+     },
+     {
+      "to": "helicopter",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: one kind of aircraft, with blades on top."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb made from aircraft."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from aircraft."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from aircraft."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Dozens of aircraft land at Tashkent airport every day. The newest aircraft are quieter and use less fuel than the old ones.",
+   "uses": [
+    "aircraft"
+   ]
+  },
+  "reviewer_note": "Compound headword (air + craft); no forms. Plural trap noted: aircraft, not aircrafts."
+ }
 ]
