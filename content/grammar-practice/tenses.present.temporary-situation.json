@@ -1,0 +1,1804 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ with my {person} this month because workers are repairing my {room}.",
+  "options": [
+   "am staying",
+   "stay",
+   "is staying",
+   "staying"
+  ],
+  "key": 0,
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: am staying.",
+  "slots": {
+   "person": [
+    "parents",
+    "grandparents",
+    "aunt",
+    "cousin"
+   ],
+   "room": [
+    "kitchen",
+    "bathroom",
+    "roof",
+    "flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Gulnora ______ at a {place} this summer because she wants to save money for {thing}.",
+  "options": [
+   "is working",
+   "works",
+   "are working",
+   "working"
+  ],
+  "key": 0,
+  "why": "This summer shows a situation that is true around now but will not last, so use the present continuous: is working.",
+  "slots": {
+   "place": [
+    "café",
+    "hotel",
+    "shop",
+    "bakery"
+   ],
+   "thing": [
+    "a laptop",
+    "university",
+    "a trip",
+    "a new phone"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ the {thing} in the {room} this week because ours is broken.",
+  "options": [
+   "are using",
+   "use",
+   "is using",
+   "using"
+  ],
+  "key": 0,
+  "why": "This week shows a situation that is true around now but will not last, so use the present continuous: are using.",
+  "slots": {
+   "thing": [
+    "computer",
+    "kettle",
+    "printer",
+    "fridge"
+   ],
+   "room": [
+    "office",
+    "library",
+    "staff room",
+    "teachers' room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother ______ to drive these days. His {person} gives him lessons on {day}.",
+  "options": [
+   "is learning",
+   "learns",
+   "are learning",
+   "learning"
+  ],
+  "key": 0,
+  "why": "These days shows a situation that is true around now but will not last, so use the present continuous: is learning.",
+  "slots": {
+   "person": [
+    "uncle",
+    "father",
+    "cousin",
+    "friend"
+   ],
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "weekends",
+    "Friday evenings"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousins ______ in a small flat in {city} for now. Their new house isn't {state} yet.",
+  "options": [
+   "are living",
+   "live",
+   "is living",
+   "living"
+  ],
+  "key": 0,
+  "why": "For now shows a situation that is true around now but will not last, so use the present continuous: are living.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Namangan",
+    "Bukhara"
+   ],
+   "state": [
+    "ready",
+    "finished",
+    "built",
+    "painted"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ a very good book about {topic} at the moment. I read a few pages every {time}.",
+  "options": [
+   "am reading",
+   "read",
+   "is reading",
+   "reading"
+  ],
+  "key": 0,
+  "why": "At the moment shows a situation that is true around now but will not last, so use the present continuous: am reading.",
+  "slots": {
+   "topic": [
+    "space",
+    "history",
+    "animals",
+    "football"
+   ],
+   "time": [
+    "night",
+    "evening",
+    "morning",
+    "lunchtime"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dad ______ a lot this month because his company has a big {project} in {city}.",
+  "options": [
+   "is travelling",
+   "travels",
+   "are travelling",
+   "travelling"
+  ],
+  "key": 0,
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: is travelling.",
+  "slots": {
+   "project": [
+    "project",
+    "contract",
+    "order",
+    "meeting"
+   ],
+   "city": [
+    "Almaty",
+    "Moscow",
+    "Istanbul",
+    "Dubai"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The students in our {group} ______ for the {event} this term.",
+  "options": [
+   "are preparing",
+   "prepare",
+   "is preparing",
+   "preparing"
+  ],
+  "key": 0,
+  "why": "This term shows a situation that is true around now but will not last, so use the present continuous: are preparing.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "school",
+    "college"
+   ],
+   "event": [
+    "final exams",
+    "olympiad",
+    "IELTS test",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister ______ a uniform this month because she has a part-time job at a {place} in {district}.",
+  "options": [
+   "is wearing",
+   "wears",
+   "are wearing",
+   "wearing"
+  ],
+  "key": 0,
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: is wearing.",
+  "slots": {
+   "place": [
+    "hotel",
+    "bank",
+    "clinic",
+    "café"
+   ],
+   "district": [
+    "Chilonzor",
+    "Yunusobod",
+    "Mirobod",
+    "Sergeli"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It ______ a lot this {period}, so take your {thing}.",
+  "options": [
+   "is raining",
+   "rains",
+   "are raining",
+   "raining"
+  ],
+  "key": 0,
+  "why": "This week shows a situation that is true around now but will not last, so use the present continuous: is raining.",
+  "slots": {
+   "period": [
+    "week",
+    "month",
+    "spring",
+    "autumn"
+   ],
+   "thing": [
+    "umbrella",
+    "raincoat",
+    "boots",
+    "jacket"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ a {course} online this month, so I am busy every {time}.",
+  "options": [
+   "am taking",
+   "take",
+   "is taking",
+   "taking"
+  ],
+  "key": 0,
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: am taking.",
+  "slots": {
+   "course": [
+    "computer course",
+    "maths course",
+    "design course",
+    "cooking course"
+   ],
+   "time": [
+    "evening",
+    "night",
+    "weekend",
+    "afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Anvar ______ on the sofa this week because his {person} is using his {room}.",
+  "options": [
+   "is sleeping",
+   "sleeps",
+   "are sleeping",
+   "sleeping"
+  ],
+  "key": 0,
+  "why": "This week shows a situation that is true around now but will not last, so use the present continuous: is sleeping.",
+  "slots": {
+   "person": [
+    "grandmother",
+    "uncle",
+    "aunt",
+    "cousin"
+   ],
+   "room": [
+    "room",
+    "bedroom",
+    "bed",
+    "small room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ to {place} these days because the metro station near us is closed for {reason}.",
+  "options": [
+   "are walking",
+   "walk",
+   "is walking",
+   "walking"
+  ],
+  "key": 0,
+  "why": "These days shows a situation that is true around now but will not last, so use the present continuous: are walking.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "work",
+    "university"
+   ],
+   "reason": [
+    "repairs",
+    "building work",
+    "cleaning",
+    "a few weeks"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The shop on our street ______ {things} cheaply this month because it is {reason}.",
+  "options": [
+   "is selling",
+   "sells",
+   "are selling",
+   "selling"
+  ],
+  "key": 0,
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: is selling.",
+  "slots": {
+   "things": [
+    "shoes",
+    "clothes",
+    "phones",
+    "books"
+   ],
+   "reason": [
+    "closing",
+    "moving",
+    "changing owners",
+    "getting a new name"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nargiza ______ at a school in {village} this year, but next year she wants to go back to {city}.",
+  "options": [
+   "is teaching",
+   "teaches",
+   "are teaching",
+   "teaching"
+  ],
+  "key": 0,
+  "why": "This year shows a situation that is true around now but will not last, so use the present continuous: is teaching.",
+  "slots": {
+   "village": [
+    "Zomin",
+    "Bostanliq",
+    "Parkent",
+    "Gazalkent"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Fergana",
+    "Andijan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children ______ a lot of time at their grandmother's {place} this summer because their parents are {state}.",
+  "options": [
+   "are spending",
+   "spend",
+   "is spending",
+   "spending"
+  ],
+  "key": 0,
+  "why": "This summer shows a situation that is true around now but will not last, so use the present continuous: are spending.",
+  "slots": {
+   "place": [
+    "house",
+    "flat",
+    "dacha",
+    "village house"
+   ],
+   "state": [
+    "busy",
+    "at work",
+    "abroad",
+    "away"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle ______ a car from his friend this month while his own car is at the {place} in {city}.",
+  "options": [
+   "is borrowing",
+   "borrows",
+   "are borrowing",
+   "borrowing"
+  ],
+  "key": 0,
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: is borrowing.",
+  "slots": {
+   "place": [
+    "garage",
+    "repair shop",
+    "mechanic's",
+    "service centre"
+   ],
+   "city": [
+    "Chirchik",
+    "Tashkent",
+    "Angren",
+    "Almalyk"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ less {food} this month because I want to get {goal}.",
+  "options": [
+   "am eating",
+   "eat",
+   "is eating",
+   "eating"
+  ],
+  "key": 0,
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: am eating.",
+  "slots": {
+   "food": [
+    "sugar",
+    "bread",
+    "fast food",
+    "sweets"
+   ],
+   "goal": [
+    "fit",
+    "healthier",
+    "stronger",
+    "fitter"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Olim ______ for a new job at the moment. He sends his CV to {num} companies every {period}.",
+  "options": [
+   "is looking",
+   "looks",
+   "are looking",
+   "looking"
+  ],
+  "key": 0,
+  "why": "At the moment shows a situation that is true around now but will not last, so use the present continuous: is looking.",
+  "slots": {
+   "num": [
+    "two",
+    "three",
+    "five",
+    "ten"
+   ],
+   "period": [
+    "day",
+    "week",
+    "morning",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bobur ______ in the {group} this term because his {person} asked him to help.",
+  "options": [
+   "is singing",
+   "sings",
+   "are singing",
+   "singing"
+  ],
+  "key": 0,
+  "why": "This term shows a situation that is true around now but will not last, so use the present continuous: is singing.",
+  "slots": {
+   "group": [
+    "choir",
+    "school band",
+    "music club",
+    "concert group"
+   ],
+   "person": [
+    "teacher",
+    "music teacher",
+    "friend",
+    "mother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "Rustam ______ (stay) at a hostel in {city} this week while he looks for a {thing}.",
+  "key": "is staying",
+  "why": "This week shows a situation that is true around now but will not last, so use the present continuous: is staying.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "thing": [
+    "flat",
+    "room",
+    "job",
+    "place to live"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "My parents ______ (build) a new {room} this summer, so our house has a lot of {mess}.",
+  "key": "are building",
+  "why": "This summer shows a situation that is true around now but will not last, so use the present continuous: are building.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bathroom",
+    "garage",
+    "second floor"
+   ],
+   "mess": [
+    "dust",
+    "noise",
+    "workers",
+    "boxes"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "I ______ (learn) {lang} this year for my new job at the {place}.",
+  "key": "am learning",
+  "why": "This year shows a situation that is true around now but will not last, so use the present continuous: am learning.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "Turkish",
+    "German",
+    "Chinese"
+   ],
+   "place": [
+    "hotel",
+    "airport",
+    "travel agency",
+    "embassy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "Zarina ______ (work) from home this month because the {place} has no {thing}.",
+  "key": "is working",
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: is working.",
+  "slots": {
+   "place": [
+    "office",
+    "school",
+    "clinic",
+    "bank"
+   ],
+   "thing": [
+    "heating",
+    "internet",
+    "electricity",
+    "water"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "We ______ (wait) for our new {thing} these days, so we use my {person}'s.",
+  "key": "are waiting",
+  "why": "These days shows a situation that is true around now but will not last, so use the present continuous: are waiting.",
+  "slots": {
+   "thing": [
+    "fridge",
+    "sofa",
+    "car",
+    "washing machine"
+   ],
+   "person": [
+    "aunt",
+    "neighbour",
+    "uncle",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "My little sister ______ (spend) this month at a summer camp in {place} with her {who}.",
+  "key": "is spending",
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: is spending.",
+  "slots": {
+   "place": [
+    "Chimgan",
+    "Charvak",
+    "Zomin",
+    "the mountains"
+   ],
+   "who": [
+    "classmates",
+    "friends",
+    "cousins",
+    "sports team"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "The bus company ______ (use) smaller buses on route {num} this week because of {reason}.",
+  "key": "is using",
+  "why": "This week shows a situation that is true around now but will not last, so use the present continuous: is using.",
+  "slots": {
+   "num": [
+    "12",
+    "45",
+    "67",
+    "91"
+   ],
+   "reason": [
+    "road works",
+    "repairs",
+    "the festival",
+    "building work"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "Akmal ______ (save) money for a new {thing} this year, so he cooks at home every {time}.",
+  "key": "is saving",
+  "why": "This year shows a situation that is true around now but will not last, so use the present continuous: is saving.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "phone",
+    "bike",
+    "guitar"
+   ],
+   "time": [
+    "day",
+    "evening",
+    "night",
+    "weekday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "Our neighbours ______ (paint) their {room} this week, so the stairs smell of {smell}.",
+  "key": "are painting",
+  "why": "This week shows a situation that is true around now but will not last, so use the present continuous: are painting.",
+  "slots": {
+   "room": [
+    "flat",
+    "kitchen",
+    "hall",
+    "bedroom"
+   ],
+   "smell": [
+    "paint",
+    "chemicals",
+    "fresh paint",
+    "wet paint"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "I ______ (train) for a {race} at the moment, so I run in the {place} every morning.",
+  "key": "am training",
+  "why": "At the moment shows a situation that is true around now but will not last, so use the present continuous: am training.",
+  "slots": {
+   "race": [
+    "race",
+    "marathon",
+    "half marathon",
+    "10K race"
+   ],
+   "place": [
+    "park",
+    "stadium",
+    "gym",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "Feruza ______ (live) with her aunt in {city} this year because her college has no {thing}.",
+  "key": "is living",
+  "why": "This year shows a situation that is true around now but will not last, so use the present continuous: is living.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Namangan",
+    "Nukus"
+   ],
+   "thing": [
+    "dormitory",
+    "rooms",
+    "free places",
+    "hostel"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "These days my grandfather ______ (walk) with a stick because he hurt his {part} at the {place}.",
+  "key": "is walking",
+  "why": "These days shows a situation that is true around now but will not last, so use the present continuous: is walking.",
+  "slots": {
+   "part": [
+    "leg",
+    "knee",
+    "foot",
+    "back"
+   ],
+   "place": [
+    "market",
+    "garden",
+    "bus stop",
+    "dacha"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "My cousins ______ (look) after our dog this week while we visit {city} for {event}.",
+  "key": "are looking",
+  "why": "This week shows a situation that is true around now but will not last, so use the present continuous: are looking.",
+  "slots": {
+   "city": [
+    "Bukhara",
+    "Khiva",
+    "Samarkand",
+    "Fergana"
+   ],
+   "event": [
+    "a wedding",
+    "the holidays",
+    "a conference",
+    "a family party"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "The teacher ______ (give) us extra lessons on {days} this month before the {event}.",
+  "key": "is giving",
+  "why": "This month shows a situation that is true around now but will not last, so use the present continuous: is giving.",
+  "slots": {
+   "days": [
+    "Saturdays",
+    "Tuesdays",
+    "Thursdays",
+    "weekends"
+   ],
+   "event": [
+    "exam",
+    "olympiad",
+    "final test",
+    "big test"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "I ______ (sleep) badly these days because of the {noise} from the {place}.",
+  "key": "am sleeping",
+  "why": "These days shows a situation that is true around now but will not last, so use the present continuous: am sleeping.",
+  "slots": {
+   "noise": [
+    "noise",
+    "music",
+    "sounds",
+    "dogs"
+   ],
+   "place": [
+    "street",
+    "building site",
+    "café",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "Sanjar ______ (drive) his {relative}'s car this week because his own car has a problem with the {part}.",
+  "key": "is driving",
+  "why": "This week shows a situation that is true around now but will not last, so use the present continuous: is driving.",
+  "slots": {
+   "relative": [
+    "father",
+    "uncle",
+    "brother",
+    "neighbour"
+   ],
+   "part": [
+    "engine",
+    "brakes",
+    "lights",
+    "doors"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "My mother ______ (take) a {course} at the moment, so my father makes {meal}.",
+  "key": "is taking",
+  "why": "At the moment shows a situation that is true around now but will not last, so use the present continuous: is taking.",
+  "slots": {
+   "course": [
+    "sewing course",
+    "computer course",
+    "nursing course",
+    "language course"
+   ],
+   "meal": [
+    "dinner",
+    "lunch",
+    "breakfast",
+    "supper"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "We ______ (rent) a small flat near the {place} in {city} this year.",
+  "key": "are renting",
+  "why": "This year shows a situation that is true around now but will not last, so use the present continuous: are renting.",
+  "slots": {
+   "place": [
+    "university",
+    "college",
+    "hospital",
+    "station"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Andijan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "Dilfuza ______ (help) at her uncle's {shop} this summer and earns {money} a week.",
+  "key": "is helping",
+  "why": "This summer shows a situation that is true around now but will not last, so use the present continuous: is helping.",
+  "slots": {
+   "shop": [
+    "shop",
+    "café",
+    "bakery",
+    "restaurant"
+   ],
+   "money": [
+    "300,000 som",
+    "400,000 som",
+    "some money",
+    "a little money"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous form of the verb in brackets. The situation is temporary.",
+  "source": "Murod ______ (write) his {thing} this term, so he spends a lot of time in the {place}.",
+  "key": "is writing",
+  "why": "This term shows a situation that is true around now but will not last, so use the present continuous: is writing.",
+  "slots": {
+   "thing": [
+    "final project",
+    "course paper",
+    "first book",
+    "report"
+   ],
+   "place": [
+    "library",
+    "reading room",
+    "computer room",
+    "archive"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual situation. Complete the second sentence about a temporary situation.",
+  "source": "Aziz usually lives in {city}.",
+  "hint": "This year Aziz ______ (live) in {city2} for his studies.",
+  "key": "is living",
+  "why": "This year is a temporary situation, so use the present continuous: is living.",
+  "slots": {
+   "city": [
+    "Fergana",
+    "Andijan",
+    "Namangan",
+    "Karshi"
+   ],
+   "city2": [
+    "Tashkent",
+    "Samarkand",
+    "Seoul",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual situation. Complete the second sentence about a temporary situation.",
+  "source": "My father normally works at the {place}.",
+  "hint": "This month my father ______ (work) at the {place2} because they need help there.",
+  "key": "is working",
+  "why": "This month is a temporary situation, so use the present continuous: is working.",
+  "slots": {
+   "place": [
+    "main office",
+    "factory",
+    "bank",
+    "hospital"
+   ],
+   "place2": [
+    "new branch",
+    "airport office",
+    "city office",
+    "small office"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual situation. Complete the second sentence about a temporary situation.",
+  "source": "We usually take the {transport} to college.",
+  "hint": "This week we ______ (take) a taxi because the {transport} stop has moved.",
+  "key": "are taking",
+  "why": "This week is a temporary situation, so use the present continuous: are taking.",
+  "slots": {
+   "transport": [
+    "bus",
+    "minibus",
+    "metro",
+    "school bus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual situation. Complete the second sentence about a temporary situation.",
+  "source": "I usually sleep in my own {room}.",
+  "hint": "This week I ______ (sleep) in my brother's {room} because of the {reason}.",
+  "key": "am sleeping",
+  "why": "This week is a temporary situation, so use the present continuous: am sleeping.",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "bed",
+    "small room"
+   ],
+   "reason": [
+    "repairs",
+    "guests",
+    "new carpet",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual situation. Complete the second sentence about a temporary situation.",
+  "source": "Laylo usually studies at the {place}.",
+  "hint": "This term Laylo ______ (study) online because she {reason}.",
+  "key": "is studying",
+  "why": "This term is a temporary situation, so use the present continuous: is studying.",
+  "slots": {
+   "place": [
+    "library",
+    "college",
+    "university",
+    "learning centre"
+   ],
+   "reason": [
+    "has a part-time job",
+    "lives in another city now",
+    "works in the mornings",
+    "looks after her grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the present continuous.",
+  "source": "I'm staying with my aunt in {city} this week while our parents visit {place}.",
+  "hint": "My brother ______ (stay) with our aunt in {city} this week while our parents visit {place}.",
+  "key": "is staying",
+  "why": "My brother is singular, so I'm becomes is: is staying.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "place": [
+    "Moscow",
+    "Dubai",
+    "Istanbul",
+    "Seoul"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the present continuous.",
+  "source": "My friends are learning to swim at the {place} this summer.",
+  "hint": "My friend Ali ______ (learn) to swim at the {place} this summer with his {person}.",
+  "key": "is learning",
+  "why": "My friend Ali is one person, so are becomes is: is learning.",
+  "slots": {
+   "place": [
+    "sports centre",
+    "pool",
+    "lake",
+    "river"
+   ],
+   "person": [
+    "father",
+    "coach",
+    "brother",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the present continuous.",
+  "source": "She's living in a hostel this month while she looks for a {thing}.",
+  "hint": "Kamola and her sister ______ (live) in a hostel in {city} this month while they look for a {thing}.",
+  "key": "are living",
+  "why": "Kamola and her sister are two people, so use are: are living.",
+  "slots": {
+   "thing": [
+    "flat",
+    "room",
+    "house",
+    "place to rent"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Namangan",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the present continuous.",
+  "source": "He's using my {device} this week.",
+  "hint": "I ______ (use) my {person}'s {device} this week.",
+  "key": "am using",
+  "why": "With I, use am: am using.",
+  "slots": {
+   "device": [
+    "laptop",
+    "phone",
+    "tablet",
+    "computer"
+   ],
+   "person": [
+    "brother",
+    "sister",
+    "father",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the present continuous.",
+  "source": "We're eating a lot of {food} this week.",
+  "hint": "My grandfather ______ (eat) a lot of {food} this week because the {place} has it cheap.",
+  "key": "is eating",
+  "why": "My grandfather is singular, so we're becomes is: is eating.",
+  "slots": {
+   "food": [
+    "fruit",
+    "melons",
+    "grapes",
+    "apricots"
+   ],
+   "place": [
+    "market",
+    "bazaar",
+    "shop",
+    "village shop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about the past. Complete the second sentence about the temporary situation now.",
+  "source": "Last summer I worked at a {place}.",
+  "hint": "This summer I ______ (work) at my uncle's {place2}.",
+  "key": "am working",
+  "why": "This summer is a temporary situation now, so use the present continuous: am working.",
+  "slots": {
+   "place": [
+    "café",
+    "hotel",
+    "shop",
+    "bakery"
+   ],
+   "place2": [
+    "farm",
+    "garage",
+    "bakery",
+    "restaurant"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about the past. Complete the second sentence about the temporary situation now.",
+  "source": "Last year Bobur lived in a dormitory in {city}.",
+  "hint": "This year Bobur ______ (rent) a room in {city} with two {who}.",
+  "key": "is renting",
+  "why": "This year is a temporary situation now, so use the present continuous: is renting.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ],
+   "who": [
+    "friends",
+    "classmates",
+    "students",
+    "cousins"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about the past. Complete the second sentence about the temporary situation now.",
+  "source": "Last month we studied {topic} in class.",
+  "hint": "This month we ______ (study) {topic2} in class.",
+  "key": "are studying",
+  "why": "This month is a temporary situation now, so use the present continuous: are studying.",
+  "slots": {
+   "topic": [
+    "grammar",
+    "history",
+    "poems",
+    "fractions"
+   ],
+   "topic2": [
+    "new words",
+    "essays",
+    "maps",
+    "geometry"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about the past. Complete the second sentence about the temporary situation now.",
+  "source": "Last week my mother taught at the {place}.",
+  "hint": "This week my mother ______ (teach) at a different {place2} because a teacher there has the flu.",
+  "key": "is teaching",
+  "why": "This week is a temporary situation now, so use the present continuous: is teaching.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "lyceum",
+    "centre"
+   ],
+   "place2": [
+    "school",
+    "college",
+    "lyceum",
+    "language centre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about the past. Complete the second sentence about the temporary situation now.",
+  "source": "Last year my sister wore glasses.",
+  "hint": "This month my sister ______ (wear) contact lenses for her {event} at the {place}.",
+  "key": "is wearing",
+  "why": "This month is a temporary situation now, so use the present continuous: is wearing.",
+  "slots": {
+   "event": [
+    "sports training",
+    "dance classes",
+    "swimming lessons",
+    "football practice"
+   ],
+   "place": [
+    "club",
+    "gym",
+    "pool",
+    "stadium"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you are doing this month that is different from usual.",
+  "requiredElement": "am + -ing with this month",
+  "constraints": [
+   "exactly one sentence",
+   "must include this month",
+   "must use I"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where a family member is staying or living for a short time.",
+  "requiredElement": "is staying or is living",
+  "constraints": [
+   "exactly one sentence",
+   "must name a family member",
+   "must say why it is temporary"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a course or lesson you are taking these days.",
+  "requiredElement": "am taking or am studying",
+  "constraints": [
+   "exactly one sentence",
+   "must include these days",
+   "must name the course or subject"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend who has a summer job.",
+  "requiredElement": "is working",
+  "constraints": [
+   "exactly one sentence",
+   "must include this summer",
+   "must name the place of work"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather this week.",
+  "requiredElement": "is raining, is snowing or is getting",
+  "constraints": [
+   "exactly one sentence",
+   "must include this week",
+   "must use the present continuous"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something two or more people are doing this year.",
+  "requiredElement": "are + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must include this year",
+   "must use a plural subject"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a book, series or game you are enjoying at the moment, but not at this second.",
+  "requiredElement": "am reading, am watching or am playing",
+  "constraints": [
+   "exactly one sentence",
+   "must include at the moment",
+   "must not be happening at this second"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: first your usual situation, then a temporary situation this month.",
+  "requiredElement": "present simple, then present continuous",
+  "constraints": [
+   "exactly two sentences",
+   "first sentence present simple",
+   "second sentence with this month and -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write to a friend you haven't seen for a long time. Tell them what is different in your life these days. Write three or four sentences.",
+  "targetGrammar": "present continuous for temporary situations",
+  "lookFor": [
+   "these days or this month",
+   "am, is or are + -ing",
+   "reasons with because"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a family member who is doing something unusual this year. Write three or four sentences.",
+  "targetGrammar": "present continuous for a temporary situation",
+  "lookFor": [
+   "is + -ing",
+   "this year",
+   "how it is different from usual"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your town or school is changing for a short time (repairs, a festival, exams). Describe what is happening this month. Write three or four sentences.",
+  "targetGrammar": "present continuous for temporary situations",
+  "lookFor": [
+   "this month or at the moment",
+   "is or are + -ing",
+   "a sense that it will end"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a project or course you are working on at the moment. Write three or four sentences.",
+  "targetGrammar": "present continuous for situations around now",
+  "lookFor": [
+   "at the moment or these days",
+   "am + -ing",
+   "what you do for it each week"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your usual life with your life this summer or this term. Write three or four sentences.",
+  "targetGrammar": "present simple for the usual, present continuous for the temporary",
+  "lookFor": [
+   "usually + present simple",
+   "this summer or this term + -ing",
+   "but to show the contrast"
+  ]
+ }
+]

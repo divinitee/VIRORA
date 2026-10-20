@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Water ______ at 100 degrees, so be careful with the {thing} in the {room}.",
+  "options": [
+   "boils",
+   "is boiling",
+   "boil",
+   "has boiled"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Water is singular, so the verb takes -s: boils.",
+  "slots": {
+   "thing": [
+    "kettle",
+    "pot",
+    "teapot",
+    "pan"
+   ],
+   "room": [
+    "kitchen",
+    "café",
+    "office kitchen",
+    "staff room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The sun ______ in the west, so our {room} is {state} in the evening.",
+  "options": [
+   "sets",
+   "is setting",
+   "set",
+   "has set"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. The sun is singular, so the verb takes -s: sets.",
+  "slots": {
+   "room": [
+    "balcony",
+    "living room",
+    "kitchen",
+    "classroom"
+   ],
+   "state": [
+    "hot",
+    "sunny",
+    "bright",
+    "warm"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Plants ______ water and light, so I put my {plant} near the {place}.",
+  "options": [
+   "need",
+   "are needing",
+   "needs",
+   "have needed"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Plants is plural, so use the base form: need.",
+  "slots": {
+   "plant": [
+    "flowers",
+    "small tree",
+    "herbs",
+    "basil"
+   ],
+   "place": [
+    "window",
+    "balcony",
+    "glass door",
+    "lamp"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Water ______ at zero degrees, so the {place} near our {building} is icy in January.",
+  "options": [
+   "freezes",
+   "is freezing",
+   "freeze",
+   "has frozen"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Water is singular, so the verb takes -s: freezes.",
+  "slots": {
+   "place": [
+    "path",
+    "road",
+    "pond",
+    "river"
+   ],
+   "building": [
+    "school",
+    "house",
+    "college",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Cats ______ well in the dark, so our {pet} often walks around the {place} at night.",
+  "options": [
+   "see",
+   "are seeing",
+   "sees",
+   "have seen"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Cats is plural, so use the base form: see.",
+  "slots": {
+   "pet": [
+    "cat",
+    "kitten",
+    "old cat",
+    "little cat"
+   ],
+   "place": [
+    "house",
+    "garden",
+    "yard",
+    "flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {subject} teacher showed us with {object} that the Earth ______ round the Sun.",
+  "options": [
+   "goes",
+   "is going",
+   "go",
+   "has gone"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. The Earth is singular, so the verb takes -s: goes.",
+  "slots": {
+   "subject": [
+    "geography",
+    "physics",
+    "science",
+    "astronomy"
+   ],
+   "object": [
+    "a ball",
+    "a lamp",
+    "a small model",
+    "an orange"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Oil ______ on water. You can see this when you wash a {dish} in the {place}.",
+  "options": [
+   "floats",
+   "is floating",
+   "float",
+   "has floated"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Oil is singular, so the verb takes -s: floats.",
+  "slots": {
+   "dish": [
+    "pan",
+    "plate",
+    "pot",
+    "frying pan"
+   ],
+   "place": [
+    "sink",
+    "kitchen",
+    "basin",
+    "bathroom"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bees ______ honey, and my {person} sells it at the {place}.",
+  "options": [
+   "make",
+   "are making",
+   "makes",
+   "have made"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Bees is plural, so use the base form: make.",
+  "slots": {
+   "person": [
+    "uncle",
+    "grandfather",
+    "neighbour",
+    "aunt"
+   ],
+   "place": [
+    "bazaar",
+    "market",
+    "roadside",
+    "village shop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Light ______ faster than sound, so in a {weather} you see the flash before the {noise}.",
+  "options": [
+   "travels",
+   "is travelling",
+   "travel",
+   "has travelled"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Light is singular, so the verb takes -s: travels.",
+  "slots": {
+   "weather": [
+    "storm",
+    "thunderstorm",
+    "big storm",
+    "summer storm"
+   ],
+   "noise": [
+    "thunder",
+    "sound",
+    "noise",
+    "bang"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Hot air ______, so the top floor of our {building} is always {state} in summer.",
+  "options": [
+   "rises",
+   "is rising",
+   "rise",
+   "has risen"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Hot air is singular, so the verb takes -s: rises.",
+  "slots": {
+   "building": [
+    "school",
+    "house",
+    "office",
+    "dormitory"
+   ],
+   "state": [
+    "hot",
+    "warm",
+    "stuffy",
+    "the hottest"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Fish ______ in water, so my {pet} needs clean water in its {tank}.",
+  "options": [
+   "live",
+   "are living",
+   "lives",
+   "have lived"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Fish is plural, so use the base form: live.",
+  "slots": {
+   "pet": [
+    "goldfish",
+    "little fish",
+    "fish",
+    "pet fish"
+   ],
+   "tank": [
+    "tank",
+    "bowl",
+    "aquarium",
+    "glass tank"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Metal ______ hot in the sun, so don't touch the {thing} in the {place} in July.",
+  "options": [
+   "gets",
+   "is getting",
+   "get",
+   "has got"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Metal is singular, so the verb takes -s: gets.",
+  "slots": {
+   "thing": [
+    "car door",
+    "slide",
+    "bench",
+    "gate"
+   ],
+   "place": [
+    "park",
+    "yard",
+    "street",
+    "playground"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A week ______ seven days, and my {lesson} classes are on {days}.",
+  "options": [
+   "has",
+   "is having",
+   "have",
+   "has had"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. A week is singular, so the verb takes -s: has.",
+  "slots": {
+   "lesson": [
+    "English",
+    "piano",
+    "swimming",
+    "chess"
+   ],
+   "days": [
+    "Monday and Thursday",
+    "Tuesdays",
+    "Wednesdays and Saturdays",
+    "weekends"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dogs ______ better than people, so my {pet} always finds the {food} in my bag.",
+  "options": [
+   "smell",
+   "are smelling",
+   "smells",
+   "have smelled"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Dogs is plural, so use the base form: smell.",
+  "slots": {
+   "pet": [
+    "dog",
+    "puppy",
+    "old dog",
+    "little dog"
+   ],
+   "food": [
+    "sausage",
+    "bread",
+    "cheese",
+    "meat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Many trees ______ their leaves in autumn, so we clean the {place} near our {building} a lot.",
+  "options": [
+   "lose",
+   "are losing",
+   "loses",
+   "have lost"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Many trees is plural, so use the base form: lose.",
+  "slots": {
+   "place": [
+    "yard",
+    "path",
+    "street",
+    "garden"
+   ],
+   "building": [
+    "house",
+    "school",
+    "flat",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bread ______ hard if you leave it on the {place} for {time}.",
+  "options": [
+   "becomes",
+   "is becoming",
+   "become",
+   "has become"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Bread is singular, so the verb takes -s: becomes.",
+  "slots": {
+   "place": [
+    "table",
+    "windowsill",
+    "counter",
+    "plate"
+   ],
+   "time": [
+    "two days",
+    "a day",
+    "a long time",
+    "three days"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Cows ______ grass, so my grandfather takes them to the {place} every {time}.",
+  "options": [
+   "eat",
+   "are eating",
+   "eats",
+   "have eaten"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Cows is plural, so use the base form: eat.",
+  "slots": {
+   "place": [
+    "field",
+    "hills",
+    "riverside",
+    "mountains"
+   ],
+   "time": [
+    "morning",
+    "day",
+    "afternoon",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Rain ______ from clouds, so when the sky is {colour}, I take my {thing}.",
+  "options": [
+   "comes",
+   "is coming",
+   "come",
+   "has come"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Rain is singular, so the verb takes -s: comes.",
+  "slots": {
+   "colour": [
+    "grey",
+    "dark",
+    "dark grey",
+    "black"
+   ],
+   "thing": [
+    "umbrella",
+    "raincoat",
+    "jacket",
+    "boots"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "People ______ more water in hot weather, so we always take {drink} to the {place}.",
+  "options": [
+   "drink",
+   "are drinking",
+   "drinks",
+   "have drunk"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. People is plural, so use the base form: drink.",
+  "slots": {
+   "drink": [
+    "water",
+    "a big bottle",
+    "two bottles",
+    "cold water"
+   ],
+   "place": [
+    "park",
+    "beach",
+    "stadium",
+    "field"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Many birds ______ south when it gets cold, so our {place} is quiet in {month}.",
+  "options": [
+   "fly",
+   "are flying",
+   "flies",
+   "have flown"
+  ],
+  "key": 0,
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Many birds is plural, so use the base form: fly.",
+  "slots": {
+   "place": [
+    "garden",
+    "park",
+    "yard",
+    "village"
+   ],
+   "month": [
+    "December",
+    "January",
+    "February",
+    "winter"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "The sun ______ (come) up in the east, so the {part} of our {building} gets light first.",
+  "key": "comes",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. The sun is singular, so the verb takes -s: comes.",
+  "slots": {
+   "part": [
+    "kitchen",
+    "balcony",
+    "top floor",
+    "front"
+   ],
+   "building": [
+    "house",
+    "school",
+    "flat",
+    "dormitory"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Ice ______ (float) on water, so you can see it on the {place} in {month}.",
+  "key": "floats",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Ice is singular, so the verb takes -s: floats.",
+  "slots": {
+   "place": [
+    "river",
+    "lake",
+    "pond",
+    "canal"
+   ],
+   "month": [
+    "January",
+    "February",
+    "December",
+    "winter"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "A spider ______ (have) eight legs, so my little {person} is afraid of it in the {room}.",
+  "key": "has",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. A spider is singular, so the verb takes -s: has.",
+  "slots": {
+   "person": [
+    "sister",
+    "brother",
+    "cousin",
+    "nephew"
+   ],
+   "room": [
+    "bathroom",
+    "kitchen",
+    "garage",
+    "bedroom"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Paper ______ (burn) easily, so keep it away from the {thing} in the {room}.",
+  "key": "burns",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Paper is singular, so the verb takes -s: burns.",
+  "slots": {
+   "thing": [
+    "stove",
+    "heater",
+    "candles",
+    "fire"
+   ],
+   "room": [
+    "kitchen",
+    "living room",
+    "classroom",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Plants ______ (grow) towards the light, so I turn my {plant} every {period}.",
+  "key": "grow",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Plants is plural, so use the base form: grow.",
+  "slots": {
+   "plant": [
+    "flowers",
+    "cactus",
+    "basil",
+    "little tree"
+   ],
+   "period": [
+    "week",
+    "few days",
+    "Sunday",
+    "morning"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Smoke ______ (go) up, so we open the {thing} when we cook {food}.",
+  "key": "goes",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Smoke is singular, so the verb takes -s: goes.",
+  "slots": {
+   "thing": [
+    "window",
+    "top window",
+    "kitchen door",
+    "balcony door"
+   ],
+   "food": [
+    "plov",
+    "meat",
+    "shashlik",
+    "samsa"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Cats ______ (sleep) for many hours a day, so our {pet} is always on the {place}.",
+  "key": "sleep",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Cats is plural, so use the base form: sleep.",
+  "slots": {
+   "pet": [
+    "cat",
+    "kitten",
+    "old cat",
+    "grey cat"
+   ],
+   "place": [
+    "sofa",
+    "bed",
+    "carpet",
+    "windowsill"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Milk ______ (turn) sour outside the fridge, so my mother buys it in {size} bottles at the {shop}.",
+  "key": "turns",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Milk is singular, so the verb takes -s: turns.",
+  "slots": {
+   "size": [
+    "small",
+    "little",
+    "half-litre",
+    "plastic"
+   ],
+   "shop": [
+    "market",
+    "corner shop",
+    "bazaar",
+    "supermarket"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Our {subject} teacher says that the Earth ______ (move) around the Sun at a very {adj} speed.",
+  "key": "moves",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. The Earth is singular, so the verb takes -s: moves.",
+  "slots": {
+   "subject": [
+    "geography",
+    "physics",
+    "science",
+    "astronomy"
+   ],
+   "adj": [
+    "high",
+    "great",
+    "steady",
+    "even"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Fish ______ (swim) with their tails, so my {pet} moves fast in its {tank}.",
+  "key": "swim",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Fish is plural, so use the base form: swim.",
+  "slots": {
+   "pet": [
+    "goldfish",
+    "little fish",
+    "fish",
+    "pet fish"
+   ],
+   "tank": [
+    "tank",
+    "bowl",
+    "aquarium",
+    "glass tank"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Children ______ (need) a lot of sleep, so my {person} goes to bed at {time}.",
+  "key": "need",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Children is plural, so use the base form: need.",
+  "slots": {
+   "person": [
+    "little brother",
+    "little sister",
+    "son",
+    "daughter"
+   ],
+   "time": [
+    "eight",
+    "nine",
+    "half past eight",
+    "8:30"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Camels ______ (drink) a lot of water at one time, so they can walk across the {place} for {days}.",
+  "key": "drink",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Camels is plural, so use the base form: drink.",
+  "slots": {
+   "place": [
+    "desert",
+    "Kyzylkum",
+    "hot sand",
+    "dry land"
+   ],
+   "days": [
+    "days",
+    "a week",
+    "many days",
+    "five days"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Glass ______ (break) easily, so carry the {thing} with {care}.",
+  "key": "breaks",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Glass is singular, so the verb takes -s: breaks.",
+  "slots": {
+   "thing": [
+    "mirror",
+    "window",
+    "vase",
+    "glass table"
+   ],
+   "care": [
+    "two hands",
+    "care",
+    "a friend",
+    "a blanket around it"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Bees ______ (visit) flowers, so there are many in my grandmother's {place} in {season}.",
+  "key": "visit",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Bees is plural, so use the base form: visit.",
+  "slots": {
+   "place": [
+    "garden",
+    "yard",
+    "orchard",
+    "village"
+   ],
+   "season": [
+    "spring",
+    "summer",
+    "May",
+    "June"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Thunder ______ (follow) lightning, so I count to {n} after the {thing}.",
+  "key": "follows",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Thunder is singular, so the verb takes -s: follows.",
+  "slots": {
+   "n": [
+    "three",
+    "five",
+    "ten",
+    "seven"
+   ],
+   "thing": [
+    "flash",
+    "bright light",
+    "white flash",
+    "flash of light"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "An elephant ______ (eat) a lot of grass, so the zoo in {city} buys {amount} of food every day.",
+  "key": "eats",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. An elephant is singular, so the verb takes -s: eats.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Moscow",
+    "Almaty"
+   ],
+   "amount": [
+    "tons",
+    "a lot",
+    "kilos",
+    "many kilos"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Rain ______ (make) the {thing} wet and slippery, so {who} walk carefully.",
+  "key": "makes",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Rain is singular, so the verb takes -s: makes.",
+  "slots": {
+   "thing": [
+    "roads",
+    "steps",
+    "streets",
+    "paths"
+   ],
+   "who": [
+    "we",
+    "people",
+    "children",
+    "students"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "People ______ (feel) tired after a long {activity}, so we rest at {place}.",
+  "key": "feel",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. People is plural, so use the base form: feel.",
+  "slots": {
+   "activity": [
+    "walk",
+    "game",
+    "lesson",
+    "day"
+   ],
+   "place": [
+    "home",
+    "the café",
+    "the teahouse",
+    "my friend's house"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Water ______ (cover) most of the Earth, so we see a lot of {colour} on a {map}.",
+  "key": "covers",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Water is singular, so the verb takes -s: covers.",
+  "slots": {
+   "colour": [
+    "blue",
+    "dark blue",
+    "light blue",
+    "sea blue"
+   ],
+   "map": [
+    "map",
+    "globe",
+    "world map",
+    "satellite photo"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the fact with the present simple form of the verb in brackets.",
+  "source": "Babies ______ (cry) when they are hungry, so my {person} feeds my little {sibling} often.",
+  "key": "cry",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. Babies is plural, so use the base form: cry.",
+  "slots": {
+   "person": [
+    "mother",
+    "aunt",
+    "sister",
+    "grandmother"
+   ],
+   "sibling": [
+    "brother",
+    "sister",
+    "cousin",
+    "nephew"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence as a fact that is always true.",
+  "source": "The water in the {pot} on the {place} is boiling now.",
+  "hint": "Water ______ (boil) at 100 degrees, so the {pot} on the {place} gets very hot.",
+  "key": "boils",
+  "why": "A fact about water in general takes the present simple: boils, not is boiling.",
+  "slots": {
+   "pot": [
+    "kettle",
+    "pot",
+    "teapot",
+    "pan"
+   ],
+   "place": [
+    "stove",
+    "cooker",
+    "fire",
+    "hob"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence as a fact that is always true.",
+  "source": "Look, the ice on the {place} is melting in the {weather}.",
+  "hint": "Ice ______ (melt) when it gets warm, so the {place} is wet in the {weather}.",
+  "key": "melts",
+  "why": "A rule about ice in general takes the present simple: melts.",
+  "slots": {
+   "place": [
+    "road",
+    "path",
+    "roof",
+    "steps"
+   ],
+   "weather": [
+    "sun",
+    "sunshine",
+    "warm air",
+    "spring sun"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence as a fact that is always true.",
+  "source": "Our cat is sleeping on the {place} in the {room} right now.",
+  "hint": "Cats ______ (sleep) a lot, so you often find ours on the {place} in the {room}.",
+  "key": "sleep",
+  "why": "Cats in general is plural, and a general fact takes the present simple: sleep.",
+  "slots": {
+   "place": [
+    "sofa",
+    "carpet",
+    "chair",
+    "bed"
+   ],
+   "room": [
+    "living room",
+    "bedroom",
+    "kitchen",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence as a fact that is always true.",
+  "source": "The sun is going down behind the {place} now. We can see it from the {spot}.",
+  "hint": "The sun ______ (set) in the west, so we see it go down behind the {place} from the {spot}.",
+  "key": "sets",
+  "why": "Where the sun goes down is always true, so use the present simple: sets.",
+  "slots": {
+   "place": [
+    "hills",
+    "mountains",
+    "trees",
+    "houses"
+   ],
+   "spot": [
+    "balcony",
+    "roof",
+    "kitchen",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence as a fact that is always true.",
+  "source": "The plants in my {room} are leaning towards the {thing}.",
+  "hint": "Plants ______ (grow) towards light, so the ones in my {room} lean towards the {thing}.",
+  "key": "grow",
+  "why": "Plants is plural, and how plants grow is a general fact: grow.",
+  "slots": {
+   "room": [
+    "bedroom",
+    "kitchen",
+    "office",
+    "classroom"
+   ],
+   "thing": [
+    "window",
+    "lamp",
+    "balcony door",
+    "sun"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the fact about one animal or thing. Keep the present simple.",
+  "source": "Dogs hear very well, so they bark at {sound} in the {place}.",
+  "hint": "A dog ______ (hear) very well, so it barks at {sound} in the {place}.",
+  "key": "hears",
+  "why": "A dog is singular, so hear becomes hears.",
+  "slots": {
+   "sound": [
+    "cars",
+    "bikes",
+    "people",
+    "noises"
+   ],
+   "place": [
+    "street",
+    "yard",
+    "garden",
+    "building"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the fact about one animal or thing. Keep the present simple.",
+  "source": "Bees make honey from {thing} in the {place}.",
+  "hint": "A bee ______ (make) honey from {thing} in the {place}.",
+  "key": "makes",
+  "why": "A bee is singular, so make becomes makes.",
+  "slots": {
+   "thing": [
+    "flowers",
+    "fruit trees",
+    "garden flowers",
+    "wild flowers"
+   ],
+   "place": [
+    "mountains",
+    "garden",
+    "fields",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the fact about one animal or thing. Keep the present simple.",
+  "source": "Camels carry heavy {things} across the {place}.",
+  "hint": "A camel ______ (carry) heavy {things} across the {place}.",
+  "key": "carries",
+  "why": "A camel is singular. Carry ends in a consonant + y, so it becomes carries.",
+  "slots": {
+   "things": [
+    "bags",
+    "loads",
+    "boxes",
+    "goods"
+   ],
+   "place": [
+    "desert",
+    "sand",
+    "Kyzylkum",
+    "dry land"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the fact about one animal or thing. Keep the present simple.",
+  "source": "Spiders catch {insects} with their webs in the {place}.",
+  "hint": "A spider ______ (catch) {insects} with its web in the {place}.",
+  "key": "catches",
+  "why": "A spider is singular. Catch ends in -ch, so it becomes catches.",
+  "slots": {
+   "insects": [
+    "flies",
+    "small insects",
+    "mosquitoes",
+    "bugs"
+   ],
+   "place": [
+    "corner",
+    "garden",
+    "window",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the fact about one animal or thing. Keep the present simple.",
+  "source": "Owls see well in the dark, so they find {food} in the {place}.",
+  "hint": "An owl ______ (see) well in the dark, so it finds {food} in the {place}.",
+  "key": "sees",
+  "why": "An owl is singular, so see becomes sees.",
+  "slots": {
+   "food": [
+    "mice",
+    "food",
+    "small animals",
+    "insects"
+   ],
+   "place": [
+    "fields",
+    "forest",
+    "garden",
+    "mountains"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence tells a past event. Complete the second sentence as a general fact.",
+  "source": "My {drink} got cold quickly on the {place} yesterday.",
+  "hint": "Hot {drink} ______ (get) cold quickly on the {place} in winter.",
+  "key": "gets",
+  "why": "This is now a general fact, not one past event, so use the present simple: gets.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "milk",
+    "soup"
+   ],
+   "place": [
+    "balcony",
+    "terrace",
+    "cold balcony",
+    "porch"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence tells a past event. Complete the second sentence as a general fact.",
+  "source": "The milk in my {container} went sour in the warm {place} last week.",
+  "hint": "Milk ______ (go) sour in a warm {place}, so keep your {container} in the fridge.",
+  "key": "goes",
+  "why": "This is a general fact about milk, so use the present simple: goes.",
+  "slots": {
+   "container": [
+    "bottle",
+    "jug",
+    "cup",
+    "glass"
+   ],
+   "place": [
+    "room",
+    "car",
+    "bag",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence tells a past event. Complete the second sentence as a general fact.",
+  "source": "My phone battery died quickly in {weather} on our trip to {place}.",
+  "hint": "Phone batteries ______ (die) quickly in {weather}, so keep your phone warm when you visit {place}.",
+  "key": "die",
+  "why": "Phone batteries is plural, and this is a general fact: die.",
+  "slots": {
+   "weather": [
+    "the cold",
+    "cold weather",
+    "the frost",
+    "the snow"
+   ],
+   "place": [
+    "Chimgan",
+    "the mountains",
+    "Moscow",
+    "Siberia"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence tells a past event. Complete the second sentence as a general fact.",
+  "source": "The river near {city} froze last {month}.",
+  "hint": "Water ______ (freeze) at zero degrees, so the river near {city} is often icy in {month}.",
+  "key": "freezes",
+  "why": "This is a scientific fact, so use the present simple: freezes.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Chirchik",
+    "Samarkand",
+    "Nukus"
+   ],
+   "month": [
+    "January",
+    "December",
+    "February",
+    "winter"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence tells a past event. Complete the second sentence as a general fact.",
+  "source": "My bike got rusty in {weather} outside the {place} last year.",
+  "hint": "Iron ______ (rust) in {weather}, so don't leave your bike outside the {place}.",
+  "key": "rusts",
+  "why": "This is a general fact about iron, so use the present simple: rusts.",
+  "slots": {
+   "weather": [
+    "the rain",
+    "wet weather",
+    "the snow",
+    "damp air"
+   ],
+   "place": [
+    "house",
+    "shop",
+    "school",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a fact about water.",
+  "requiredElement": "a present simple verb with -s",
+  "constraints": [
+   "exactly one sentence",
+   "must be always true",
+   "must not use the present continuous"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a fact about an animal.",
+  "requiredElement": "a present simple verb",
+  "constraints": [
+   "exactly one sentence",
+   "must be about an animal in general",
+   "must be true"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather in Uzbekistan that is true every year.",
+  "requiredElement": "a present simple verb",
+  "constraints": [
+   "exactly one sentence",
+   "must name a season or month",
+   "no now or right now"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a fact about the sun or the moon.",
+  "requiredElement": "rises, sets or shines",
+  "constraints": [
+   "exactly one sentence",
+   "must be a scientific fact",
+   "must use the present simple"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a fact about plants.",
+  "requiredElement": "plants plus a base-form verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use plants as the subject",
+   "must be always true"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a fact about the human body.",
+  "requiredElement": "a present simple verb",
+  "constraints": [
+   "exactly one sentence",
+   "must be true for all people",
+   "must use the present simple"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a fact about food, for example what happens to bread, milk or ice cream.",
+  "requiredElement": "a present simple verb with -s",
+  "constraints": [
+   "exactly one sentence",
+   "must use a singular subject",
+   "must be always true"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one fact that is always true, and one thing that is happening right now.",
+  "requiredElement": "the present simple for the fact and the present continuous for now",
+  "constraints": [
+   "exactly two sentences",
+   "first sentence a general fact",
+   "second sentence with right now"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a younger child three facts about nature. Write three or four sentences.",
+  "targetGrammar": "present simple for general truths",
+  "lookFor": [
+   "present simple verbs",
+   "-s with singular subjects",
+   "no present continuous for facts"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the weather and nature in your region across the year. Write three or four sentences.",
+  "targetGrammar": "present simple for facts that are always true",
+  "lookFor": [
+   "seasons or months",
+   "present simple verbs",
+   "correct -s endings"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Explain how to keep food fresh in summer, and why. Write three or four sentences.",
+  "targetGrammar": "present simple for facts and their results",
+  "lookFor": [
+   "facts like milk goes sour",
+   "so or because to link ideas",
+   "present simple verbs"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe an animal you know well: where it lives, what it eats and what it can do. Write three or four sentences.",
+  "targetGrammar": "present simple for facts about animals",
+  "lookFor": [
+   "lives, eats or similar -s forms",
+   "plural subjects with the base form",
+   "no is + -ing for facts"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about something you learned in a science or geography lesson.",
+  "targetGrammar": "present simple for scientific facts",
+  "lookFor": [
+   "present simple verbs",
+   "facts that are always true",
+   "correct agreement"
+  ]
+ }
+]

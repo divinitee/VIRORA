@@ -30,6 +30,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.present.general-truth": {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "general-truth",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.present.simple-negative": {
   "domain": "tenses",
   "branch": "present",
@@ -54,6 +68,48 @@ export const PRACTICE_MANIFEST = {
    "choose": 320,
    "build": 320,
    "transform": 72,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.present.simple-vs-continuous": {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.present.stative-verbs": {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.present.temporary-situation": {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "temporary-situation",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 228,
    "create": 8,
    "express": 5
   }

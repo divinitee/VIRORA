@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ this {place}. The {food} here is excellent.",
+  "options": [
+   "like",
+   "am liking",
+   "likes",
+   "have liked"
+  ],
+  "key": 0,
+  "why": "Like is a state verb, so it takes the present simple, even about now. Never use it with -ing. With I, use the base form: like.",
+  "slots": {
+   "place": [
+    "café",
+    "restaurant",
+    "teahouse",
+    "canteen"
+   ],
+   "food": [
+    "plov",
+    "soup",
+    "bread",
+    "salad"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nodira ______ her new {thing} from her {person}. She uses it every day.",
+  "options": [
+   "loves",
+   "is loving",
+   "love",
+   "loving"
+  ],
+  "key": 0,
+  "why": "Love is a state verb, so it takes the present simple, even about now. Never use it with -ing. Nodira is singular: loves.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bag",
+    "watch",
+    "laptop"
+   ],
+   "person": [
+    "parents",
+    "aunt",
+    "brother",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Turn off the {thing}, please. My grandfather ______ loud {sound}.",
+  "options": [
+   "hates",
+   "is hating",
+   "hate",
+   "has hated"
+  ],
+  "key": 0,
+  "why": "Hate is a state verb, so it takes the present simple, even about now. Never use it with -ing. My grandfather is singular: hates.",
+  "slots": {
+   "thing": [
+    "music",
+    "TV",
+    "radio",
+    "video"
+   ],
+   "sound": [
+    "music",
+    "noise",
+    "songs",
+    "videos"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children ______ {food} now. They are hungry after {activity}.",
+  "options": [
+   "want",
+   "are wanting",
+   "wants",
+   "have wanted"
+  ],
+  "key": 0,
+  "why": "Want is a state verb, so it takes the present simple, even about now. Never use it with -ing. With they, use the base form: want.",
+  "slots": {
+   "food": [
+    "some bread",
+    "ice cream",
+    "something to eat",
+    "a snack"
+   ],
+   "activity": [
+    "football",
+    "school",
+    "the trip",
+    "swimming"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ a new {thing} at the moment. My old one is {state}.",
+  "options": [
+   "need",
+   "am needing",
+   "needs",
+   "have needed"
+  ],
+  "key": 0,
+  "why": "Need is a state verb, so it takes the present simple, even about now. Never use it with -ing. With I, use the base form: need.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "bag",
+    "charger"
+   ],
+   "state": [
+    "broken",
+    "too slow",
+    "very old",
+    "too small"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Ask Malika. She ______ the answer to question {num} in the {subject} homework.",
+  "options": [
+   "knows",
+   "is knowing",
+   "know",
+   "has known"
+  ],
+  "key": 0,
+  "why": "Know is a state verb, so it takes the present simple, even about now. Never use it with -ing. Malika is singular: knows.",
+  "slots": {
+   "num": [
+    "3",
+    "5",
+    "7",
+    "10"
+   ],
+   "subject": [
+    "maths",
+    "physics",
+    "English",
+    "chemistry"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Thank you, teacher. Now we ______ the {topic} in {unit}.",
+  "options": [
+   "understand",
+   "are understanding",
+   "understands",
+   "understanding"
+  ],
+  "key": 0,
+  "why": "Understand is a state verb, so it takes the present simple, even about now. Never use it with -ing. With we, use the base form: understand.",
+  "slots": {
+   "topic": [
+    "rule",
+    "new words",
+    "example",
+    "exercise"
+   ],
+   "unit": [
+    "unit 4",
+    "lesson 6",
+    "chapter 2",
+    "part B"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sardor ______ his {person}'s story about the {thing}.",
+  "options": [
+   "believes",
+   "is believing",
+   "believe",
+   "believing"
+  ],
+  "key": 0,
+  "why": "Believe is a state verb, so it takes the present simple, even about now. Never use it with -ing. Sardor is singular: believes.",
+  "slots": {
+   "person": [
+    "friend",
+    "brother",
+    "cousin",
+    "teacher"
+   ],
+   "thing": [
+    "lost phone",
+    "big fish",
+    "old house",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Oh yes! I ______ your {thing}. We met at the {event}.",
+  "options": [
+   "remember",
+   "am remembering",
+   "remembers",
+   "remembering"
+  ],
+  "key": 0,
+  "why": "Remember is a state verb, so it takes the present simple, even about now. Never use it with -ing. With I, use the base form: remember.",
+  "slots": {
+   "thing": [
+    "face",
+    "name",
+    "sister",
+    "voice"
+   ],
+   "event": [
+    "wedding",
+    "party",
+    "conference",
+    "birthday party"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dilnoza ______ {drink} to coffee, so we always order it at the {place}.",
+  "options": [
+   "prefers",
+   "is preferring",
+   "prefer",
+   "preferring"
+  ],
+  "key": 0,
+  "why": "Prefer is a state verb, so it takes the present simple, even about now. Never use it with -ing. Dilnoza is singular: prefers.",
+  "slots": {
+   "drink": [
+    "tea",
+    "green tea",
+    "juice",
+    "hot chocolate"
+   ],
+   "place": [
+    "café",
+    "teahouse",
+    "restaurant",
+    "canteen"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {thing} ______ to my {person}. Please give it back.",
+  "options": [
+   "belongs",
+   "is belonging",
+   "belong",
+   "belonging"
+  ],
+  "key": 0,
+  "why": "Belong is a state verb, so it takes the present simple, even about now. Never use it with -ing. The subject is singular: belongs.",
+  "slots": {
+   "thing": [
+    "bag",
+    "phone",
+    "book",
+    "jacket"
+   ],
+   "person": [
+    "sister",
+    "teacher",
+    "friend",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle ______ two {things} in {city} now.",
+  "options": [
+   "owns",
+   "is owning",
+   "own",
+   "owning"
+  ],
+  "key": 0,
+  "why": "Own is a state verb, so it takes the present simple, even about now. Never use it with -ing. My uncle is singular: owns.",
+  "slots": {
+   "things": [
+    "shops",
+    "cafés",
+    "flats",
+    "cars"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {person} ______ very {state} today. Is everything OK?",
+  "options": [
+   "seems",
+   "is seeming",
+   "seem",
+   "seeming"
+  ],
+  "key": 0,
+  "why": "Seem is a state verb, so it takes the present simple, even about now. Never use it with -ing. The subject is singular: seems.",
+  "slots": {
+   "person": [
+    "brother",
+    "sister",
+    "friend",
+    "mother"
+   ],
+   "state": [
+    "tired",
+    "sad",
+    "quiet",
+    "worried"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {sign} ______ 'no {thing}'.",
+  "options": [
+   "means",
+   "is meaning",
+   "mean",
+   "meaning"
+  ],
+  "key": 0,
+  "why": "Mean is a state verb, so it takes the present simple, even about now. Never use it with -ing. The subject is singular: means.",
+  "slots": {
+   "sign": [
+    "sign",
+    "symbol",
+    "red sign",
+    "picture"
+   ],
+   "thing": [
+    "parking",
+    "phones",
+    "food",
+    "photos"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "These {things} ______ fifty thousand som at the {place}.",
+  "options": [
+   "cost",
+   "are costing",
+   "costs",
+   "costing"
+  ],
+  "key": 0,
+  "why": "Cost is a state verb, so it takes the present simple, even about now. Never use it with -ing. With these, use the base form: cost.",
+  "slots": {
+   "things": [
+    "shoes",
+    "jeans",
+    "books",
+    "headphones"
+   ],
+   "place": [
+    "bazaar",
+    "market",
+    "mall",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {food} ______ a lot of sugar, so don't give it to my {person}.",
+  "options": [
+   "contains",
+   "is containing",
+   "contain",
+   "containing"
+  ],
+  "key": 0,
+  "why": "Contain is a state verb, so it takes the present simple, even about now. Never use it with -ing. The subject is singular: contains.",
+  "slots": {
+   "food": [
+    "cake",
+    "juice",
+    "drink",
+    "yoghurt"
+   ],
+   "person": [
+    "grandfather",
+    "little brother",
+    "baby",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ with you about the {topic} for our {event}.",
+  "options": [
+   "agree",
+   "am agreeing",
+   "am agree",
+   "agrees"
+  ],
+  "key": 0,
+  "why": "Agree is a state verb, so it takes the present simple, even about now. Never use it with -ing. With I, use the base form: agree. Never say I am agree.",
+  "slots": {
+   "topic": [
+    "plan",
+    "date",
+    "place",
+    "menu"
+   ],
+   "event": [
+    "trip",
+    "party",
+    "project",
+    "class picnic"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our plans for {day} ______ on the {thing}.",
+  "options": [
+   "depend",
+   "are depending",
+   "depends",
+   "depending"
+  ],
+  "key": 0,
+  "why": "Depend is a state verb, so it takes the present simple, even about now. Never use it with -ing. With plans, use the base form: depend.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "the weekend",
+    "tomorrow",
+    "Sunday"
+   ],
+   "thing": [
+    "weather",
+    "bus times",
+    "money",
+    "exam results"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Jasur worked hard on his {work}. He ______ a {thing}.",
+  "options": [
+   "deserves",
+   "is deserving",
+   "deserve",
+   "deserving"
+  ],
+  "key": 0,
+  "why": "Deserve is a state verb, so it takes the present simple, even about now. Never use it with -ing. Jasur is singular: deserves.",
+  "slots": {
+   "work": [
+    "project",
+    "studies",
+    "exams",
+    "job"
+   ],
+   "thing": [
+    "prize",
+    "holiday",
+    "break",
+    "good mark"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {food} ______ delicious. Can I have some {extra}?",
+  "options": [
+   "smells",
+   "is smelling",
+   "smell",
+   "smelling"
+  ],
+  "key": 0,
+  "why": "Smell is a state verb, so it takes the present simple, even about now. Never use it with -ing. The subject is singular: smells.",
+  "slots": {
+   "food": [
+    "soup",
+    "plov",
+    "bread",
+    "cake"
+   ],
+   "extra": [
+    "more",
+    "now",
+    "too",
+    "later"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "I ______ (know) the way to the {place}, so I can take you there by {transport}.",
+  "key": "know",
+  "why": "Know is a state verb, so it takes the present simple, even about now. Never use it with -ing. With I, use the base form: know.",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "bazaar",
+    "hospital"
+   ],
+   "transport": [
+    "car",
+    "bus",
+    "taxi",
+    "metro"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "Kamila ______ (want) {drink} right now because she is {state}.",
+  "key": "wants",
+  "why": "Want is a state verb, so it takes the present simple, even about now. Never use it with -ing. Kamila is singular: wants.",
+  "slots": {
+   "drink": [
+    "a glass of water",
+    "a cup of tea",
+    "a cold drink",
+    "some juice"
+   ],
+   "state": [
+    "thirsty",
+    "tired",
+    "hot",
+    "sleepy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "My little brother ______ (like) his new {thing} from {person}.",
+  "key": "likes",
+  "why": "Like is a state verb, so it takes the present simple, even about now. Never use it with -ing. My little brother is singular: likes.",
+  "slots": {
+   "thing": [
+    "bike",
+    "toy car",
+    "ball",
+    "book"
+   ],
+   "person": [
+    "Grandma",
+    "our uncle",
+    "his teacher",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "We ______ (need) more {thing} for the {event} tonight.",
+  "key": "need",
+  "why": "Need is a state verb, so it takes the present simple, even about now. Never use it with -ing. With we, use the base form: need.",
+  "slots": {
+   "thing": [
+    "chairs",
+    "cups",
+    "plates",
+    "bread"
+   ],
+   "event": [
+    "party",
+    "dinner",
+    "guests",
+    "family meal"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "Bekzod ______ (understand) the {thing} now because the teacher explained it in {lang}.",
+  "key": "understands",
+  "why": "Understand is a state verb, so it takes the present simple, even about now. Never use it with -ing. Bekzod is singular: understands.",
+  "slots": {
+   "thing": [
+    "rule",
+    "task",
+    "question",
+    "text"
+   ],
+   "lang": [
+    "Uzbek",
+    "Russian",
+    "simple English",
+    "small steps"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "These {things} ______ (belong) to the {who}.",
+  "key": "belong",
+  "why": "Belong is a state verb, so it takes the present simple, even about now. Never use it with -ing. With these, use the base form: belong.",
+  "slots": {
+   "things": [
+    "books",
+    "chairs",
+    "balls",
+    "computers"
+   ],
+   "who": [
+    "school",
+    "library",
+    "club",
+    "sports team"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "My grandmother ______ (love) the {thing} in her {place}.",
+  "key": "loves",
+  "why": "Love is a state verb, so it takes the present simple, even about now. Never use it with -ing. My grandmother is singular: loves.",
+  "slots": {
+   "thing": [
+    "flowers",
+    "roses",
+    "trees",
+    "birds"
+   ],
+   "place": [
+    "garden",
+    "yard",
+    "village",
+    "balcony"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "Our cat ______ (hate) the {sound} of the {machine}.",
+  "key": "hates",
+  "why": "Hate is a state verb, so it takes the present simple, even about now. Never use it with -ing. Our cat is singular: hates.",
+  "slots": {
+   "sound": [
+    "noise",
+    "sound",
+    "loud noise",
+    "buzz"
+   ],
+   "machine": [
+    "vacuum cleaner",
+    "hair dryer",
+    "washing machine",
+    "mixer"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "I ______ (believe) you. Your story about the {thing} at the {place} is true.",
+  "key": "believe",
+  "why": "Believe is a state verb, so it takes the present simple, even about now. Never use it with -ing. With I, use the base form: believe.",
+  "slots": {
+   "thing": [
+    "lost dog",
+    "big fish",
+    "old coin",
+    "strange noise"
+   ],
+   "place": [
+    "lake",
+    "river",
+    "beach",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "My father still ______ (remember) his first {thing} in {city}.",
+  "key": "remembers",
+  "why": "Remember is a state verb, so it takes the present simple, even about now. Never use it with -ing. My father is singular: remembers.",
+  "slots": {
+   "thing": [
+    "job",
+    "car",
+    "flat",
+    "school"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Andijan",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "Most students in our {group} ______ (prefer) {sport} to running.",
+  "key": "prefer",
+  "why": "Prefer is a state verb, so it takes the present simple, even about now. Never use it with -ing. With most students, use the base form: prefer.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "college",
+    "school"
+   ],
+   "sport": [
+    "football",
+    "basketball",
+    "swimming",
+    "tennis"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "Our neighbour ______ (own) a small {shop} near the {place}.",
+  "key": "owns",
+  "why": "Own is a state verb, so it takes the present simple, even about now. Never use it with -ing. Our neighbour is singular: owns.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "café",
+    "shop",
+    "kiosk"
+   ],
+   "place": [
+    "metro",
+    "bazaar",
+    "park",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "The new {person} ______ (seem) very {state}.",
+  "key": "seems",
+  "why": "Seem is a state verb, so it takes the present simple, even about now. Never use it with -ing. The subject is singular: seems.",
+  "slots": {
+   "person": [
+    "teacher",
+    "student",
+    "neighbour",
+    "doctor"
+   ],
+   "state": [
+    "kind",
+    "friendly",
+    "nice",
+    "smart"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "This {thing} ______ (cost) too much. Let's look at the {other}.",
+  "key": "costs",
+  "why": "Cost is a state verb, so it takes the present simple, even about now. Never use it with -ing. The subject is singular: costs.",
+  "slots": {
+   "thing": [
+    "jacket",
+    "phone",
+    "bag",
+    "watch"
+   ],
+   "other": [
+    "cheaper ones",
+    "other shop",
+    "market",
+    "next shop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "This {box} ______ (contain) old {things} from my grandfather.",
+  "key": "contains",
+  "why": "Contain is a state verb, so it takes the present simple, even about now. Never use it with -ing. The subject is singular: contains.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "suitcase",
+    "drawer"
+   ],
+   "things": [
+    "photos",
+    "letters",
+    "coins",
+    "books"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "The red light ______ (mean) stop, so the {who} must wait at the {place}.",
+  "key": "means",
+  "why": "Mean is a state verb, so it takes the present simple, even about now. Never use it with -ing. The red light is singular: means.",
+  "slots": {
+   "who": [
+    "cars",
+    "drivers",
+    "people",
+    "children"
+   ],
+   "place": [
+    "corner",
+    "crossing",
+    "lights",
+    "road"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "My parents ______ (agree) with my plan to study in {city} with my {person}.",
+  "key": "agree",
+  "why": "Agree is a state verb, so it takes the present simple, even about now. Never use it with -ing. With my parents, use the base form: agree.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Seoul",
+    "Istanbul",
+    "Moscow"
+   ],
+   "person": [
+    "cousin",
+    "friend",
+    "brother",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "The price ______ (depend) on the {thing} of the {item}.",
+  "key": "depends",
+  "why": "Depend is a state verb, so it takes the present simple, even about now. Never use it with -ing. The price is singular: depends.",
+  "slots": {
+   "thing": [
+    "size",
+    "colour",
+    "age",
+    "weight"
+   ],
+   "item": [
+    "room",
+    "car",
+    "phone",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "You ______ (deserve) a {thing} after all that {work}.",
+  "key": "deserve",
+  "why": "Deserve is a state verb, so it takes the present simple, even about now. Never use it with -ing. With you, use the base form: deserve.",
+  "slots": {
+   "thing": [
+    "rest",
+    "holiday",
+    "break",
+    "good dinner"
+   ],
+   "work": [
+    "study",
+    "work",
+    "training",
+    "cleaning"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct present form of the verb in brackets. These are state verbs.",
+  "source": "These {things} from the {place} ______ (fit) me perfectly.",
+  "key": "fit",
+  "why": "Fit is a state verb, so it takes the present simple, even about now. Never use it with -ing. With these, use the base form: fit.",
+  "slots": {
+   "things": [
+    "shoes",
+    "jeans",
+    "boots",
+    "trainers"
+   ],
+   "place": [
+    "market",
+    "mall",
+    "bazaar",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "This sentence has a mistake: a state verb with -ing. Rewrite it correctly.",
+  "source": "I am knowing the answer to question {num} in the {subject} test.",
+  "hint": "I ______ (know) the answer to question {num} in the {subject} test.",
+  "key": "know",
+  "why": "Know is a state verb, so use the present simple: I know.",
+  "slots": {
+   "num": [
+    "2",
+    "4",
+    "6",
+    "9"
+   ],
+   "subject": [
+    "maths",
+    "history",
+    "English",
+    "biology"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "This sentence has a mistake: a state verb with -ing. Rewrite it correctly.",
+  "source": "Aziza is wanting a new {thing} for her {event}.",
+  "hint": "Aziza ______ (want) a new {thing} for her {event}.",
+  "key": "wants",
+  "why": "Want is a state verb, so use the present simple: Aziza wants.",
+  "slots": {
+   "thing": [
+    "dress",
+    "phone",
+    "bag",
+    "watch"
+   ],
+   "event": [
+    "birthday",
+    "graduation",
+    "trip",
+    "new job"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "This sentence has a mistake: a state verb with -ing. Rewrite it correctly.",
+  "source": "We are needing more {thing} in the {room}.",
+  "hint": "We ______ (need) more {thing} in the {room}.",
+  "key": "need",
+  "why": "Need is a state verb, so use the present simple: we need.",
+  "slots": {
+   "thing": [
+    "chairs",
+    "light",
+    "space",
+    "tables"
+   ],
+   "room": [
+    "classroom",
+    "kitchen",
+    "office",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "This sentence has a mistake: a state verb with -ing. Rewrite it correctly.",
+  "source": "This {thing} is belonging to my {person}.",
+  "hint": "This {thing} ______ (belong) to my {person}.",
+  "key": "belongs",
+  "why": "Belong is a state verb, so use the present simple: belongs.",
+  "slots": {
+   "thing": [
+    "umbrella",
+    "pen",
+    "scarf",
+    "notebook"
+   ],
+   "person": [
+    "cousin",
+    "uncle",
+    "neighbour",
+    "classmate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "This sentence has a mistake: a state verb with -ing. Rewrite it correctly.",
+  "source": "My brother is understanding the {topic} now after his {who} helped him.",
+  "hint": "My brother ______ (understand) the {topic} now after his {who} helped him.",
+  "key": "understands",
+  "why": "Understand is a state verb, so use the present simple: understands.",
+  "slots": {
+   "topic": [
+    "homework",
+    "rule",
+    "maths problem",
+    "text"
+   ],
+   "who": [
+    "teacher",
+    "friend",
+    "sister",
+    "tutor"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "I like the new {place} near our {building}.",
+  "hint": "My father ______ (like) the new {place} near our {building}.",
+  "key": "likes",
+  "why": "My father is singular, so like becomes likes. It stays in the present simple.",
+  "slots": {
+   "place": [
+    "park",
+    "café",
+    "library",
+    "gym"
+   ],
+   "building": [
+    "house",
+    "school",
+    "office",
+    "flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "My friends own a small {shop} in {city}.",
+  "hint": "My friend ______ (own) a small {shop} in {city}.",
+  "key": "owns",
+  "why": "My friend is singular, so own becomes owns.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "café",
+    "shop",
+    "garage"
+   ],
+   "city": [
+    "Namangan",
+    "Fergana",
+    "Karshi",
+    "Jizzakh"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "They prefer {drink} in the {time}.",
+  "hint": "Our teacher ______ (prefer) {drink} in the {time}.",
+  "key": "prefers",
+  "why": "Our teacher is singular, so prefer becomes prefers.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "water",
+    "juice"
+   ],
+   "time": [
+    "morning",
+    "evening",
+    "afternoon",
+    "winter"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "You seem {state} after your {event}.",
+  "hint": "Your sister ______ (seem) {state} after her {event}.",
+  "key": "seems",
+  "why": "Your sister is singular, so seem becomes seems.",
+  "slots": {
+   "state": [
+    "tired",
+    "happy",
+    "quiet",
+    "busy"
+   ],
+   "event": [
+    "exam",
+    "trip",
+    "lesson",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject.",
+  "source": "These shoes cost {price} at the {place}.",
+  "hint": "This jacket ______ (cost) {price} at the {place}.",
+  "key": "costs",
+  "why": "This jacket is singular, so cost becomes costs.",
+  "slots": {
+   "price": [
+    "200,000 som",
+    "300,000 som",
+    "a lot",
+    "too much"
+   ],
+   "place": [
+    "bazaar",
+    "mall",
+    "market",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same idea with the state verb in brackets.",
+  "source": "I am enjoying this {food} from the {place}.",
+  "hint": "I ______ (like) this {food} from the {place}.",
+  "key": "like",
+  "why": "Like is a state verb, so use the present simple: I like.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "bread",
+    "soup"
+   ],
+   "place": [
+    "bazaar",
+    "café",
+    "market",
+    "teahouse"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same idea with the state verb in brackets.",
+  "source": "Look, Madina is smiling at her new {thing}.",
+  "hint": "Madina ______ (love) her new {thing} from her {person}.",
+  "key": "loves",
+  "why": "Love is a state verb, so use the present simple: Madina loves.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bike",
+    "jacket",
+    "headphones"
+   ],
+   "person": [
+    "parents",
+    "uncle",
+    "aunt",
+    "grandparents"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same idea with the state verb in brackets.",
+  "source": "The baby is crying because of the {sound} from the {place}.",
+  "hint": "The baby ______ (hate) the {sound} from the {place}.",
+  "key": "hates",
+  "why": "Hate is a state verb, so use the present simple: the baby hates.",
+  "slots": {
+   "sound": [
+    "noise",
+    "music",
+    "loud noise",
+    "sound"
+   ],
+   "place": [
+    "street",
+    "yard",
+    "flat next door",
+    "building site"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same idea with the state verb in brackets.",
+  "source": "I am thinking about my old school in {city} a lot.",
+  "hint": "I ______ (remember) my old school in {city} very well, especially my {person}.",
+  "key": "remember",
+  "why": "Remember is a state verb, so use the present simple: I remember.",
+  "slots": {
+   "city": [
+    "Andijan",
+    "Fergana",
+    "Samarkand",
+    "Urgench"
+   ],
+   "person": [
+    "teachers",
+    "friends",
+    "classmates",
+    "first teacher"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same idea with the state verb in brackets.",
+  "source": "Everyone is nodding at your idea about the {thing}.",
+  "hint": "Everyone ______ (agree) with your idea about the {thing} for the {event}.",
+  "key": "agrees",
+  "why": "Agree is a state verb, so use the present simple. Everyone is singular: agrees.",
+  "slots": {
+   "thing": [
+    "plan",
+    "date",
+    "place",
+    "music"
+   ],
+   "event": [
+    "trip",
+    "party",
+    "concert",
+    "picnic"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you want right now.",
+  "requiredElement": "I want (not I am wanting)",
+  "constraints": [
+   "exactly one sentence",
+   "must include right now",
+   "must use want"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a food you like and why.",
+  "requiredElement": "like or likes in the present simple",
+  "constraints": [
+   "exactly one sentence",
+   "must use because",
+   "no -ing with like"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something that belongs to a family member.",
+  "requiredElement": "belongs to",
+  "constraints": [
+   "exactly one sentence",
+   "must name a family member",
+   "must use belong"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you need for school or work this week.",
+  "requiredElement": "need in the present simple",
+  "constraints": [
+   "exactly one sentence",
+   "must include this week",
+   "no -ing with need"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a person you know well and what they know about you.",
+  "requiredElement": "knows or know",
+  "constraints": [
+   "exactly one sentence",
+   "must use know",
+   "present simple only"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence saying how much something costs in your town.",
+  "requiredElement": "costs or cost",
+  "constraints": [
+   "exactly one sentence",
+   "must include a price",
+   "must use cost"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence agreeing with a friend's idea.",
+  "requiredElement": "I agree (not I am agree)",
+  "constraints": [
+   "exactly one sentence",
+   "must use agree",
+   "must say what the idea is"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with something you are doing now, and one with a state verb about how you feel about it.",
+  "requiredElement": "present continuous for the action, present simple for the state verb",
+  "constraints": [
+   "exactly two sentences",
+   "first sentence present continuous",
+   "second sentence with like, love, hate or want"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your favourite place in your town: what you like about it and what you don't like. Write three or four sentences.",
+  "targetGrammar": "state verbs in the present simple",
+  "lookFor": [
+   "like, love or hate without -ing",
+   "present simple",
+   "because to give reasons"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are in a shop. Write what you want, what you need and how much things cost. Write three or four sentences.",
+  "targetGrammar": "want, need and cost in the present simple",
+  "lookFor": [
+   "no -ing with want, need or cost",
+   "-s with singular subjects",
+   "prices or amounts"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a friend: what they like, what they know a lot about and what they want in the future. Write three or four sentences.",
+  "targetGrammar": "state verbs with he or she",
+  "lookFor": [
+   "likes, knows, wants with -s",
+   "no is + -ing with state verbs",
+   "present simple"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message to a teacher saying what you understand and what you don't understand in the lesson. Write three or four sentences.",
+  "targetGrammar": "understand and know in the present simple",
+  "lookFor": [
+   "I understand / I don't understand",
+   "no am understanding",
+   "a clear question"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "stative-verbs",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe what you are doing right now and how you feel about it. Write three or four sentences.",
+  "targetGrammar": "present continuous for actions, present simple for state verbs",
+  "lookFor": [
+   "am + -ing for actions",
+   "like, want or need in the present simple",
+   "right now or at the moment"
+  ]
+ }
+]

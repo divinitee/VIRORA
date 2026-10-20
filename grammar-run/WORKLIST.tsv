@@ -4,10 +4,10 @@
 3	A	tenses.present.simple-negative	A1	1	live	doesn't + base form (no double -s) in the present simple negative
 4	A	tenses.present.simple-routine	A1	2	live	Present simple base form for a routine with a first-person subject | Subject + verb + object + frequency phrase order in a present simple statement
 5	A	tenses.present.third-person-s	A1	3	rebuild	Third-person -s in present simple | Present simple for a scheduled routine, third person | Producing the third-person -s form
-6	A	tenses.present.general-truth	A2	1	todo	Present simple for a scientific/general truth
-7	A	tenses.present.simple-vs-continuous	A2	1	todo	Routine (present simple) vs temporary change (present continuous) in one context
-8	A	tenses.present.stative-verbs	A2	1	todo	Stative verb (like) takes present simple even for a present situation
-9	A	tenses.present.temporary-situation	A2	1	todo	Present continuous for a temporary situation around now (not at this second)
+6	A	tenses.present.general-truth	A2	1	live	Present simple for a scientific/general truth
+7	A	tenses.present.simple-vs-continuous	A2	1	live	Routine (present simple) vs temporary change (present continuous) in one context
+8	A	tenses.present.stative-verbs	A2	1	live	Stative verb (like) takes present simple even for a present situation
+9	A	tenses.present.temporary-situation	A2	1	live	Present continuous for a temporary situation around now (not at this second)
 10	A	tenses.present.changing-trend	B2	1	todo	Present continuous for a developing trend ('these days')
 11	A	tenses.present.will-characteristic	C2	1	todo	'will' expressing characteristic/habitual behaviour rather than future time
 12	B	tenses.past.continuous-at-time	A2	1	todo	Past continuous for an action in progress at a specific past time

@@ -1,0 +1,1885 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz usually ______ to {place} by bus, but this week he is cycling because the weather is {weather}.",
+  "options": [
+   "goes",
+   "is going",
+   "go",
+   "going"
+  ],
+  "key": 0,
+  "why": "Usually shows the usual routine, so use the present simple: goes.",
+  "slots": {
+   "place": [
+    "work",
+    "university",
+    "school",
+    "college"
+   ],
+   "weather": [
+    "nice",
+    "warm",
+    "sunny",
+    "lovely"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I usually drink tea, but at the moment I ______ {drink} because I'm {state}.",
+  "options": [
+   "am drinking",
+   "drink",
+   "drinks",
+   "drinking"
+  ],
+  "key": 0,
+  "why": "At the moment shows a temporary change from the routine, so use the present continuous: am drinking.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "juice",
+    "water",
+    "hot milk"
+   ],
+   "state": [
+    "tired",
+    "ill",
+    "cold",
+    "sleepy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father works in an office, but this month he ______ from {place} because they are {reason}.",
+  "options": [
+   "is working",
+   "works",
+   "work",
+   "working"
+  ],
+  "key": 0,
+  "why": "This month shows a temporary change from the routine, so use the present continuous: is working.",
+  "slots": {
+   "place": [
+    "home",
+    "our flat",
+    "my grandmother's house",
+    "a café"
+   ],
+   "reason": [
+    "painting the office",
+    "repairing the building",
+    "moving offices",
+    "changing the computers"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Madina ______ in the library every evening, but today she is studying at {place} with her {person}.",
+  "options": [
+   "studies",
+   "is studying",
+   "study",
+   "studying"
+  ],
+  "key": 0,
+  "why": "Every evening shows the usual routine, so use the present simple: studies.",
+  "slots": {
+   "place": [
+    "home",
+    "a café",
+    "the park",
+    "her aunt's flat"
+   ],
+   "person": [
+    "sister",
+    "cousin",
+    "friend",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We usually eat at home, but this week we ______ at the {place} near our {building}.",
+  "options": [
+   "are eating",
+   "eat",
+   "is eating",
+   "eating"
+  ],
+  "key": 0,
+  "why": "This week shows a temporary change from the routine, so use the present continuous: are eating.",
+  "slots": {
+   "place": [
+    "café",
+    "canteen",
+    "teahouse",
+    "restaurant"
+   ],
+   "building": [
+    "office",
+    "school",
+    "university",
+    "flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur ______ football on Saturdays, but this Saturday he is helping his {person} at the {place}.",
+  "options": [
+   "plays",
+   "is playing",
+   "play",
+   "playing"
+  ],
+  "key": 0,
+  "why": "On Saturdays shows the usual routine, so use the present simple: plays.",
+  "slots": {
+   "person": [
+    "father",
+    "uncle",
+    "grandfather",
+    "brother"
+   ],
+   "place": [
+    "market",
+    "shop",
+    "garage",
+    "farm"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister normally takes the {transport}, but this week she ______ a taxi because she has a {problem}.",
+  "options": [
+   "is taking",
+   "takes",
+   "take",
+   "taking"
+  ],
+  "key": 0,
+  "why": "This week shows a temporary change from the routine, so use the present continuous: is taking.",
+  "slots": {
+   "transport": [
+    "metro",
+    "bus",
+    "minibus",
+    "train"
+   ],
+   "problem": [
+    "bad knee",
+    "broken arm",
+    "heavy bag",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ my grandmother every Sunday, but this Sunday I am visiting my {person} in {city}.",
+  "options": [
+   "visit",
+   "am visiting",
+   "visits",
+   "visiting"
+  ],
+  "key": 0,
+  "why": "Every Sunday shows the usual routine, so use the present simple: visit.",
+  "slots": {
+   "person": [
+    "uncle",
+    "aunt",
+    "cousin",
+    "friend"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher usually speaks fast, but today she ______ more slowly because there is a new {who} in the {room}.",
+  "options": [
+   "is speaking",
+   "speaks",
+   "speak",
+   "speaking"
+  ],
+  "key": 0,
+  "why": "Today shows a temporary change from the routine, so use the present continuous: is speaking.",
+  "slots": {
+   "who": [
+    "student",
+    "boy",
+    "girl",
+    "classmate"
+   ],
+   "room": [
+    "class",
+    "group",
+    "room",
+    "classroom"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dilshod ______ {subject} at a school, but this summer he is helping at his uncle's {place}.",
+  "options": [
+   "teaches",
+   "is teaching",
+   "teach",
+   "teaching"
+  ],
+  "key": 0,
+  "why": "This summer shows the usual routine, so use the present simple: teaches.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "physics"
+   ],
+   "place": [
+    "hotel",
+    "café",
+    "shop",
+    "farm"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children usually walk to school, but this week their {person} ______ them in the car because of the {weather}.",
+  "options": [
+   "is driving",
+   "drives",
+   "drive",
+   "driving"
+  ],
+  "key": 0,
+  "why": "This week shows a temporary change from the routine, so use the present continuous: is driving.",
+  "slots": {
+   "person": [
+    "father",
+    "mother",
+    "uncle",
+    "grandfather"
+   ],
+   "weather": [
+    "snow",
+    "rain",
+    "cold",
+    "ice"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother usually ______ at seven, but these days he is getting up at {time} because of his {event}.",
+  "options": [
+   "wakes up",
+   "is waking up",
+   "wake up",
+   "waking up"
+  ],
+  "key": 0,
+  "why": "Usually shows the usual routine, so use the present simple: wakes up.",
+  "slots": {
+   "time": [
+    "five",
+    "six",
+    "half past five",
+    "5:30"
+   ],
+   "event": [
+    "exams",
+    "project",
+    "new job",
+    "online course"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I usually wear a {thing} to work, but this week I ______ a {thing2} because it's very hot.",
+  "options": [
+   "am wearing",
+   "wear",
+   "wears",
+   "wearing"
+  ],
+  "key": 0,
+  "why": "This week shows a temporary change from the routine, so use the present continuous: am wearing.",
+  "slots": {
+   "thing": [
+    "jacket",
+    "suit",
+    "sweater",
+    "coat"
+   ],
+   "thing2": [
+    "T-shirt",
+    "light shirt",
+    "short-sleeved shirt",
+    "cotton shirt"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nigora ______ {instrument} lessons every Monday, but this week she is resting because her {part} hurts.",
+  "options": [
+   "has",
+   "is having",
+   "have",
+   "having"
+  ],
+  "key": 0,
+  "why": "Every Monday shows the usual routine, so use the present simple: has.",
+  "slots": {
+   "instrument": [
+    "guitar",
+    "piano",
+    "violin",
+    "drum"
+   ],
+   "part": [
+    "hand",
+    "finger",
+    "arm",
+    "wrist"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our family usually spends the summer in {place}, but this year we ______ in {city}.",
+  "options": [
+   "are staying",
+   "stay",
+   "is staying",
+   "staying"
+  ],
+  "key": 0,
+  "why": "This year shows a temporary change from the routine, so use the present continuous: are staying.",
+  "slots": {
+   "place": [
+    "Chimgan",
+    "the village",
+    "the mountains",
+    "Charvak"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "the city"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bobur usually ______ his homework in his room, but today he is sitting in the {place} because his {person} is sleeping.",
+  "options": [
+   "does",
+   "is doing",
+   "do",
+   "doing"
+  ],
+  "key": 0,
+  "why": "Usually shows the usual routine, so use the present simple: does.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "living room",
+    "yard",
+    "garden"
+   ],
+   "person": [
+    "baby brother",
+    "grandfather",
+    "little sister",
+    "father"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mother usually cooks dinner, but tonight my father ______ {food} for us because she is {state}.",
+  "options": [
+   "is cooking",
+   "cooks",
+   "cook",
+   "cooking"
+  ],
+  "key": 0,
+  "why": "Tonight shows a temporary change from the routine, so use the present continuous: is cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "pasta",
+    "eggs"
+   ],
+   "state": [
+    "at work",
+    "ill",
+    "tired",
+    "away"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sevara usually ______ her bike to college, but this week she is walking because her bike is at the {place} for {reason}.",
+  "options": [
+   "rides",
+   "is riding",
+   "ride",
+   "riding"
+  ],
+  "key": 0,
+  "why": "Usually shows the usual routine, so use the present simple: rides.",
+  "slots": {
+   "place": [
+    "repair shop",
+    "garage",
+    "workshop",
+    "mechanic's"
+   ],
+   "reason": [
+    "repairs",
+    "a new chain",
+    "new brakes",
+    "a check"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle normally ______ in Moscow, but this year he is staying with us in {city} while he {action}.",
+  "options": [
+   "lives",
+   "is living",
+   "live",
+   "living"
+  ],
+  "key": 0,
+  "why": "Normally shows the usual routine, so use the present simple: lives.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Namangan",
+    "Andijan",
+    "Karshi"
+   ],
+   "action": [
+    "looks for work",
+    "finds a new flat",
+    "studies",
+    "visits relatives"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ in the park on Fridays, but this week we are running in the {place} because the park is {state}.",
+  "options": [
+   "run",
+   "are running",
+   "runs",
+   "running"
+  ],
+  "key": 0,
+  "why": "On Fridays shows the usual routine, so use the present simple: run.",
+  "slots": {
+   "place": [
+    "gym",
+    "sports hall",
+    "stadium",
+    "school gym"
+   ],
+   "state": [
+    "closed",
+    "wet",
+    "flooded",
+    "muddy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Sardor usually ______ (walk) to {place}, but this week he ______ (take) the bus because of the {weather}.",
+  "key": [
+   "walks",
+   "is taking"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: walks. The second is a temporary change, so it takes the present continuous: is taking.",
+  "slots": {
+   "place": [
+    "work",
+    "school",
+    "college",
+    "the office"
+   ],
+   "weather": [
+    "rain",
+    "snow",
+    "cold",
+    "heat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "I normally ______ (cook) at home, but this week I ______ (eat) at the {place} because our {thing} is broken.",
+  "key": [
+   "cook",
+   "am eating"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: cook. The second is a temporary change, so it takes the present continuous: am eating.",
+  "slots": {
+   "place": [
+    "canteen",
+    "café",
+    "teahouse",
+    "university café"
+   ],
+   "thing": [
+    "cooker",
+    "stove",
+    "oven",
+    "gas cooker"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "My parents ______ (live) in {city}, but this month they ______ (stay) with us in {city2}.",
+  "key": [
+   "live",
+   "are staying"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: live. The second is a temporary change, so it takes the present continuous: are staying.",
+  "slots": {
+   "city": [
+    "Fergana",
+    "Namangan",
+    "Andijan",
+    "Khiva"
+   ],
+   "city2": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Chirchik"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Lola usually ______ (go) to the gym after work, but today she ______ (meet) her {person} at the {place}.",
+  "key": [
+   "goes",
+   "is meeting"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: goes. The second is a temporary change, so it takes the present continuous: is meeting.",
+  "slots": {
+   "person": [
+    "sister",
+    "cousin",
+    "old friend",
+    "aunt"
+   ],
+   "place": [
+    "café",
+    "park",
+    "station",
+    "mall"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Our {subject} teacher ______ (give) us homework every day, but this week she ______ (prepare) us for the {event} in class.",
+  "key": [
+   "gives",
+   "is preparing"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: gives. The second is a temporary change, so it takes the present continuous: is preparing.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "history",
+    "biology"
+   ],
+   "event": [
+    "exam",
+    "test",
+    "olympiad",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Kamol ______ (play) the guitar every weekend, but this month he ______ (learn) the {instrument} with a {who}.",
+  "key": [
+   "plays",
+   "is learning"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: plays. The second is a temporary change, so it takes the present continuous: is learning.",
+  "slots": {
+   "instrument": [
+    "piano",
+    "violin",
+    "drums",
+    "dutar"
+   ],
+   "who": [
+    "teacher",
+    "tutor",
+    "friend",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Usually my brother ______ (sleep) until eight, but this week he ______ (get) up at six for his {event}.",
+  "key": [
+   "sleeps",
+   "is getting"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: sleeps. The second is a temporary change, so it takes the present continuous: is getting.",
+  "slots": {
+   "event": [
+    "new job",
+    "exams",
+    "training",
+    "early lessons"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Anna ______ (speak) Russian at home every day, but this year she ______ (study) {lang} at a {place}.",
+  "key": [
+   "speaks",
+   "is studying"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: speaks. The second is a temporary change, so it takes the present continuous: is studying.",
+  "slots": {
+   "lang": [
+    "Uzbek",
+    "English",
+    "Korean",
+    "Chinese"
+   ],
+   "place": [
+    "language centre",
+    "college",
+    "university",
+    "private school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "We usually ______ (have) lunch at one, but today we ______ (wait) for our {person} from {city}.",
+  "key": [
+   "have",
+   "are waiting"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: have. The second is a temporary change, so it takes the present continuous: are waiting.",
+  "slots": {
+   "person": [
+    "uncle",
+    "guests",
+    "cousins",
+    "grandparents"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Moscow",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "The bus usually ______ (stop) here, but this week it ______ (use) a different street because of the {work} on {street}.",
+  "key": [
+   "stops",
+   "is using"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: stops. The second is a temporary change, so it takes the present continuous: is using.",
+  "slots": {
+   "work": [
+    "road works",
+    "repairs",
+    "building work",
+    "new pipes"
+   ],
+   "street": [
+    "Navoi Street",
+    "Amir Temur Street",
+    "our street",
+    "the main road"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Malika ______ (work) at a hotel all year, but this summer she ______ (help) at her aunt's {place} in {city}.",
+  "key": [
+   "works",
+   "is helping"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: works. The second is a temporary change, so it takes the present continuous: is helping.",
+  "slots": {
+   "place": [
+    "shop",
+    "café",
+    "farm",
+    "bakery"
+   ],
+   "city": [
+    "Khiva",
+    "Nukus",
+    "Termez",
+    "Jizzakh"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "My dad usually ______ (drive) to work, but this week he ______ (ride) a bike because his {vehicle} is at the {place}.",
+  "key": [
+   "drives",
+   "is riding"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: drives. The second is a temporary change, so it takes the present continuous: is riding.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "old car",
+    "new car",
+    "white car"
+   ],
+   "place": [
+    "garage",
+    "repair shop",
+    "mechanic's",
+    "car wash"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "I ______ (read) the news on my phone every morning, but this week I ______ (listen) to {audio} on the {transport}.",
+  "key": [
+   "read",
+   "am listening"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: read. The second is a temporary change, so it takes the present continuous: am listening.",
+  "slots": {
+   "audio": [
+    "podcasts",
+    "audiobooks",
+    "the radio",
+    "music"
+   ],
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Ozoda usually ______ (wear) glasses, but today she ______ (try) contact lenses for her {event} at the {place}.",
+  "key": [
+   "wears",
+   "is trying"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: wears. The second is a temporary change, so it takes the present continuous: is trying.",
+  "slots": {
+   "event": [
+    "photos",
+    "dance class",
+    "sports day",
+    "performance"
+   ],
+   "place": [
+    "school",
+    "club",
+    "studio",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Normally the children ______ (run) around the yard after school, but this week they ______ (sit) inside and play {game} because of the {weather}.",
+  "key": [
+   "run",
+   "are sitting"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: run. The second is a temporary change, so it takes the present continuous: are sitting.",
+  "slots": {
+   "game": [
+    "board games",
+    "chess",
+    "cards",
+    "word games"
+   ],
+   "weather": [
+    "rain",
+    "cold",
+    "snow",
+    "wind"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Javohir ______ (teach) English at a school, but this term he ______ (write) a {thing} for {who}.",
+  "key": [
+   "teaches",
+   "is writing"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: teaches. The second is a temporary change, so it takes the present continuous: is writing.",
+  "slots": {
+   "thing": [
+    "textbook",
+    "book",
+    "course",
+    "workbook"
+   ],
+   "who": [
+    "new students",
+    "children",
+    "beginners",
+    "teachers"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Our neighbours usually ______ (spend) the summer at their {place}, but this year they ______ (build) a new {room}.",
+  "key": [
+   "spend",
+   "are building"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: spend. The second is a temporary change, so it takes the present continuous: are building.",
+  "slots": {
+   "place": [
+    "dacha",
+    "village house",
+    "country house",
+    "cottage"
+   ],
+   "room": [
+    "kitchen",
+    "garage",
+    "bathroom",
+    "balcony"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "My grandfather ______ (watch) the news at nine every night, but tonight he ______ (visit) his old {person} in {district}.",
+  "key": [
+   "watches",
+   "is visiting"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: watches. The second is a temporary change, so it takes the present continuous: is visiting.",
+  "slots": {
+   "person": [
+    "friend",
+    "colleague",
+    "neighbour",
+    "classmate"
+   ],
+   "district": [
+    "Chilonzor",
+    "Yunusobod",
+    "Sergeli",
+    "Mirobod"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Usually I ______ (study) at night, but this month I ______ (attend) a {course} at the {place}.",
+  "key": [
+   "study",
+   "am attending"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: study. The second is a temporary change, so it takes the present continuous: am attending.",
+  "slots": {
+   "course": [
+    "dance class",
+    "cooking course",
+    "driving course",
+    "music class"
+   ],
+   "place": [
+    "city centre",
+    "club",
+    "college",
+    "youth centre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence. Use the present simple for the routine and the present continuous for the temporary change.",
+  "source": "Bekzod usually ______ (buy) bread from the bakery, but this week his {person} ______ (bring) it from the {place}.",
+  "key": [
+   "buys",
+   "is bringing"
+  ],
+  "why": "The first verb is the usual routine, so it takes the present simple: buys. The second is a temporary change, so it takes the present continuous: is bringing.",
+  "slots": {
+   "person": [
+    "mother",
+    "sister",
+    "father",
+    "grandmother"
+   ],
+   "place": [
+    "bazaar",
+    "market",
+    "village",
+    "other bakery"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual routine. Complete the second sentence about a temporary change.",
+  "source": "Aziz walks to {place} with his {person} every day.",
+  "hint": "This week Aziz ______ (walk) to {place} alone. His {person} has a cold.",
+  "key": "is walking",
+  "why": "This week is a temporary change, so use the present continuous: is walking.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "work",
+    "the gym"
+   ],
+   "person": [
+    "brother",
+    "friend",
+    "cousin",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual routine. Complete the second sentence about a temporary change.",
+  "source": "My mother cooks {food} at home every evening.",
+  "hint": "This week my mother ______ (cook) {food} at my {place}. Our kitchen has no gas.",
+  "key": "is cooking",
+  "why": "This week is different from the routine, so use the present continuous: is cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "rice",
+    "pasta"
+   ],
+   "place": [
+    "aunt's flat",
+    "grandmother's house",
+    "neighbour's flat",
+    "cousin's flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual routine. Complete the second sentence about a temporary change.",
+  "source": "We have English lessons in room {num} every week.",
+  "hint": "This month we ______ (have) English lessons in the {place}. Room {num} has no heating.",
+  "key": "are having",
+  "why": "This month is a temporary change, so use the present continuous: are having.",
+  "slots": {
+   "num": [
+    "12",
+    "7",
+    "25",
+    "104"
+   ],
+   "place": [
+    "library",
+    "hall",
+    "computer room",
+    "big classroom"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual routine. Complete the second sentence about a temporary change.",
+  "source": "I sleep in my own room every night.",
+  "hint": "This week I ______ (sleep) in the {room} because my {person} is visiting.",
+  "key": "am sleeping",
+  "why": "This week is a temporary change, so use the present continuous: am sleeping.",
+  "slots": {
+   "room": [
+    "living room",
+    "kitchen",
+    "hall",
+    "small room"
+   ],
+   "person": [
+    "grandmother",
+    "uncle",
+    "aunt",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is the usual routine. Complete the second sentence about a temporary change.",
+  "source": "Shahzoda works at the {place} on weekdays.",
+  "hint": "This month Shahzoda ______ (work) at the {place2} because her boss needs help there.",
+  "key": "is working",
+  "why": "This month is a temporary change, so use the present continuous: is working.",
+  "slots": {
+   "place": [
+    "bank",
+    "main office",
+    "hospital",
+    "head office"
+   ],
+   "place2": [
+    "new office",
+    "branch in Chirchik",
+    "office near the airport",
+    "other office"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a temporary change. Complete the second sentence about the usual routine.",
+  "source": "This week Lola is getting up at six for her {event}.",
+  "hint": "Lola usually ______ (get) up at {time} on weekdays.",
+  "key": "gets",
+  "why": "Usually shows the routine, so use the present simple: gets.",
+  "slots": {
+   "event": [
+    "exams",
+    "early training",
+    "new job",
+    "trip"
+   ],
+   "time": [
+    "eight",
+    "half past seven",
+    "7:30",
+    "nine"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a temporary change. Complete the second sentence about the usual routine.",
+  "source": "Today Rustam is driving his father's car.",
+  "hint": "Rustam usually ______ (drive) his own {vehicle} to {place}.",
+  "key": "drives",
+  "why": "Usually shows the routine, so use the present simple: drives.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "old car",
+    "small car",
+    "van"
+   ],
+   "place": [
+    "work",
+    "college",
+    "the market",
+    "his office"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a temporary change. Complete the second sentence about the usual routine.",
+  "source": "This month we are eating at the {place} near the office.",
+  "hint": "We normally ______ (eat) at home with the {who}.",
+  "key": "eat",
+  "why": "Normally shows the routine, so use the present simple. We takes the base form: eat.",
+  "slots": {
+   "place": [
+    "canteen",
+    "café",
+    "teahouse",
+    "restaurant"
+   ],
+   "who": [
+    "family",
+    "children",
+    "kids",
+    "whole family"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a temporary change. Complete the second sentence about the usual routine.",
+  "source": "These days my brother is wearing a {thing} to work.",
+  "hint": "My brother usually ______ (wear) a {thing2} to work.",
+  "key": "wears",
+  "why": "Usually shows the routine, so use the present simple: wears.",
+  "slots": {
+   "thing": [
+    "suit",
+    "white shirt",
+    "tie",
+    "uniform"
+   ],
+   "thing2": [
+    "T-shirt",
+    "sweater",
+    "jacket",
+    "hoodie"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a temporary change. Complete the second sentence about the usual routine.",
+  "source": "Today Ziyoda is speaking {lang} with the {who}.",
+  "hint": "Ziyoda normally ______ (speak) Uzbek with her {person}.",
+  "key": "speaks",
+  "why": "Normally shows the routine, so use the present simple: speaks.",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Korean",
+    "Turkish"
+   ],
+   "who": [
+    "guests",
+    "tourists",
+    "visitors",
+    "new students"
+   ],
+   "person": [
+    "family",
+    "friends",
+    "colleagues",
+    "parents"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the routine and the temporary change.",
+  "source": "I usually take the metro, but this week I'm walking to {place} with my {person}.",
+  "hint": "My sister usually ______ (take) the metro, but this week she ______ (walk) to {place} with her {person}.",
+  "key": [
+   "takes",
+   "is walking"
+  ],
+  "why": "My sister is singular: takes for the routine, is walking for the temporary change.",
+  "slots": {
+   "place": [
+    "work",
+    "college",
+    "school",
+    "the office"
+   ],
+   "person": [
+    "friend",
+    "cousin",
+    "classmate",
+    "colleague"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the routine and the temporary change.",
+  "source": "We usually eat {food} on Fridays, but today we're having {food2}.",
+  "hint": "Our neighbour usually ______ (eat) {food} on Fridays, but today he ______ (have) {food2}.",
+  "key": [
+   "eats",
+   "is having"
+  ],
+  "why": "Our neighbour is singular: eats for the routine, is having for today.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "lagman",
+    "shashlik"
+   ],
+   "food2": [
+    "soup",
+    "pasta",
+    "salad",
+    "fish"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the routine and the temporary change.",
+  "source": "My parents usually watch TV at night, but this week they're reading {thing} in the {room}.",
+  "hint": "My grandfather usually ______ (watch) TV at night, but this week he ______ (read) {thing} in the {room}.",
+  "key": [
+   "watches",
+   "is reading"
+  ],
+  "why": "My grandfather is singular: watches for the routine, is reading for this week.",
+  "slots": {
+   "thing": [
+    "books",
+    "a novel",
+    "old letters",
+    "magazines"
+   ],
+   "room": [
+    "garden",
+    "kitchen",
+    "living room",
+    "bedroom"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the routine and the temporary change.",
+  "source": "Olga usually works in {city}, but this month she's working in {city2}.",
+  "hint": "Olga and her husband usually ______ (work) in {city}, but this month they ______ (work) in {city2}.",
+  "key": [
+   "work",
+   "are working"
+  ],
+  "why": "Olga and her husband are two people: work for the routine, are working for this month.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Almaty",
+    "Samarkand"
+   ],
+   "city2": [
+    "Bukhara",
+    "Fergana",
+    "Khiva",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the routine and the temporary change.",
+  "source": "Timur usually plays {sport} after school, but this week he's studying for his {event}.",
+  "hint": "Timur and Bobur usually ______ (play) {sport} after school, but this week they ______ (study) for their {event}.",
+  "key": [
+   "play",
+   "are studying"
+  ],
+  "why": "Timur and Bobur are two people: play for the routine, are studying for this week.",
+  "slots": {
+   "sport": [
+    "football",
+    "basketball",
+    "volleyball",
+    "tennis"
+   ],
+   "event": [
+    "exams",
+    "test",
+    "olympiad",
+    "finals"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you usually do in the morning and what is different this week.",
+  "requiredElement": "present simple and present continuous in one sentence",
+  "constraints": [
+   "exactly one sentence",
+   "must include usually",
+   "must include this week"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how a family member usually travels to work and how they are travelling today.",
+  "requiredElement": "present simple + present continuous",
+  "constraints": [
+   "exactly one sentence",
+   "must include today",
+   "must name a family member"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where a friend usually lives and where they are staying this month.",
+  "requiredElement": "lives or live + is staying or are staying",
+  "constraints": [
+   "exactly one sentence",
+   "must include this month",
+   "must use but"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you usually eat for lunch and what you are eating this week.",
+  "requiredElement": "eat + am eating",
+  "constraints": [
+   "exactly one sentence",
+   "must use I",
+   "must include this week"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a teacher's normal routine and a temporary change.",
+  "requiredElement": "present simple + present continuous",
+  "constraints": [
+   "exactly one sentence",
+   "must be about a teacher",
+   "must include normally or usually"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a sport or hobby you usually do and what you are doing instead these days.",
+  "requiredElement": "present simple + present continuous",
+  "constraints": [
+   "exactly one sentence",
+   "must include these days",
+   "must use but"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a shop, bus or lesson that is different from usual this week.",
+  "requiredElement": "present simple + present continuous",
+  "constraints": [
+   "exactly one sentence",
+   "must be about a thing, not a person",
+   "must include this week"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: first your usual weekend routine, then what you are doing differently this weekend.",
+  "requiredElement": "present simple in the first sentence, present continuous in the second",
+  "constraints": [
+   "exactly two sentences",
+   "first sentence present simple",
+   "second sentence present continuous"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your life is different this month. Describe your usual routine and what is different now. Write three or four sentences.",
+  "targetGrammar": "present simple for routine, present continuous for temporary change",
+  "lookFor": [
+   "usually or every day",
+   "this month or these days",
+   "both tenses used correctly"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a friend: say what you normally do on Saturdays and why this Saturday is different. Write three or four sentences.",
+  "targetGrammar": "present simple + present continuous",
+  "lookFor": [
+   "normally or usually",
+   "this Saturday",
+   "but to show the contrast"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a family member who has a temporary job or project. What do they usually do, and what are they doing now? Write three or four sentences.",
+  "targetGrammar": "present simple + present continuous",
+  "lookFor": [
+   "-s with he or she",
+   "is + -ing for the change",
+   "time words for each tense"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how your school or work is different during exam time. Write three or four sentences.",
+  "targetGrammar": "present simple for normal days, present continuous for exam time",
+  "lookFor": [
+   "normally or usually",
+   "this week or at the moment",
+   "both tenses"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "simple-vs-continuous",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Imagine you are on holiday. Compare your normal day with your holiday day. Write three or four sentences.",
+  "targetGrammar": "present simple + present continuous",
+  "lookFor": [
+   "usual habits in the present simple",
+   "holiday activities in the present continuous",
+   "but or however"
+  ]
+ }
+]
