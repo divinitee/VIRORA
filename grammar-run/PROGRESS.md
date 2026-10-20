@@ -65,3 +65,5 @@ Pilot audit (Claude, Oct 20): all 6 test suites pass, keys in sync (9 topics), l
   - irregular-plural: geese "near the river in the zoo" → where=our village/Parkent/Chimgan/the mountains.
   - partitive: kilos of rice could be bought "at the bakery" → rice items use GROCER (market/shop/bazaar/supermarket); bread items keep bakery.
   Rest clean: the-unique, es-plural, y-ies-plural (vowel+y excluded, "persons" never offered — good).
+- 2026-10-20 Batch B5 audit (#32–36, reviewer: Claude). Read every multi-slot line of uncountable-no-plural, some-any, some-offer, a-jobs, uncountable-abstract: no pairing defects. Builder's own rule-12 fixes confirmed. Clean.
+- 2026-10-20 RELEASED to production (checkpoint 6ad78fcb…): login/landing fixes + topics 1–36. Grammar Path demo still on branch grammar-path (not released).
