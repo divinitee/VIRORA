@@ -9,7 +9,7 @@ import { detectInAppBrowser, chromeIntentUrl } from "@/lib/authHelpers";
 
 const STR = {
   uz: {
-    title: "{app} ichida ochdingiz",
+    title: "{app} ichida ochdingiz", appWord: "ilova",
     body: "Bu yerda VIRORA har safar sizni hisobdan chiqarib yuborishi mumkin. Doimiy kirgan holda qolish uchun Chrome yoki Safari'da oching.",
     iosHow: "Pastki/yuqori burchakdagi ⋯ yoki ↗ belgisini bosing → «Safari'da ochish».",
     androidHow: "Yoki ⋮ belgisini bosing → «Brauzerda ochish».",
@@ -17,7 +17,7 @@ const STR = {
     copy: "Havolani nusxalash", copied: "Nusxalandi",
   },
   en: {
-    title: "You opened this inside {app}",
+    title: "You opened this inside {app}", appWord: "an app",
     body: "In here VIRORA may log you out every time. Open it in Chrome or Safari to stay signed in.",
     iosHow: "Tap the ⋯ or ↗ icon in the corner → “Open in Safari”.",
     androidHow: "Or tap ⋮ → “Open in browser”.",
@@ -25,7 +25,7 @@ const STR = {
     copy: "Copy link", copied: "Copied",
   },
   ru: {
-    title: "Вы открыли это внутри {app}",
+    title: "Вы открыли это внутри {app}", appWord: "приложения",
     body: "Здесь VIRORA может каждый раз выходить из аккаунта. Откройте в Chrome или Safari, чтобы оставаться в системе.",
     iosHow: "Нажмите ⋯ или ↗ в углу → «Открыть в Safari».",
     androidHow: "Или нажмите ⋮ → «Открыть в браузере».",
@@ -43,7 +43,7 @@ export default function InAppBrowserNotice({ className = "" }) {
 
   if (!info || hidden) return null;
 
-  const appName = info.app === "app" ? "ilova" : info.app;
+  const appName = info.app === "app" ? s.appWord : info.app;
   const url = window.location.origin + "/login";
 
   const copy = async () => {
