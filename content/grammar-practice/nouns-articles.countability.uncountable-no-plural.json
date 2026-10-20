@@ -1,0 +1,1804 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have ______ for {subject} today, {name}.",
+  "options": [
+   "some homework",
+   "a homework",
+   "homeworks",
+   "some homeworks"
+  ],
+  "key": 0,
+  "why": "Homework is uncountable: no a/an and no -s. Say some homework.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The teacher gave the {group} ______ on {day}.",
+  "options": [
+   "some homework",
+   "a homework",
+   "homeworks",
+   "some homeworks"
+  ],
+  "key": 0,
+  "why": "Homework is uncountable: no a/an and no -s. Say some homework.",
+  "slots": {
+   "group": [
+    "class",
+    "students",
+    "children",
+    "team"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Thursday",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} still has ______ to do after {activity}.",
+  "options": [
+   "some homework",
+   "a homework",
+   "homeworks",
+   "some homeworks"
+  ],
+  "key": 0,
+  "why": "Homework is uncountable: no a/an and no -s. Say some homework.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "activity": [
+    "football",
+    "dinner",
+    "the lesson",
+    "the film"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I did ______ on the {transport} to {city}.",
+  "options": [
+   "some homework",
+   "a homework",
+   "homeworks",
+   "some homeworks"
+  ],
+  "key": 0,
+  "why": "Homework is uncountable: no a/an and no -s. Say some homework.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "minibus",
+    "plane"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandmother gave me ______ about {topic}, {name}.",
+  "options": [
+   "some advice",
+   "a advice",
+   "advices",
+   "some advices"
+  ],
+  "key": 0,
+  "why": "Advice is uncountable: no a/an and no -s. Say some advice.",
+  "slots": {
+   "topic": [
+    "cooking",
+    "school",
+    "money",
+    "friends"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you give {who} ______ about {topic}?",
+  "options": [
+   "some advice",
+   "a advice",
+   "advices",
+   "some advices"
+  ],
+  "key": 0,
+  "why": "Advice is uncountable: no a/an and no -s. Say some advice.",
+  "slots": {
+   "who": [
+    "me",
+    "us",
+    "my sister",
+    "the new student"
+   ],
+   "topic": [
+    "the exam",
+    "the trip",
+    "the job",
+    "English"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} needs ______ before the {event}.",
+  "options": [
+   "some advice",
+   "a advice",
+   "advices",
+   "some advices"
+  ],
+  "key": 0,
+  "why": "Advice is uncountable: no a/an and no -s. Say some advice.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "event": [
+    "exam",
+    "interview",
+    "match",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher in {city} has ______ for the {group}.",
+  "options": [
+   "some advice",
+   "a advice",
+   "advices",
+   "some advices"
+  ],
+  "key": 0,
+  "why": "Advice is uncountable: no a/an and no -s. Say some advice.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "group": [
+    "class",
+    "new students",
+    "team",
+    "parents"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want ______ from {who}, {name}.",
+  "options": [
+   "some advice",
+   "a advice",
+   "advices",
+   "some advices"
+  ],
+  "key": 0,
+  "why": "Advice is uncountable: no a/an and no -s. Say some advice.",
+  "slots": {
+   "who": [
+    "my dad",
+    "the doctor",
+    "my teacher",
+    "my big brother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Let's listen to ______ in the {place}, {name}.",
+  "options": [
+   "some music",
+   "a music",
+   "musics",
+   "some musics"
+  ],
+  "key": 0,
+  "why": "Music is uncountable: no a/an and no -s. Say some music.",
+  "slots": {
+   "place": [
+    "car",
+    "kitchen",
+    "garden",
+    "living room"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} plays ______ at {event} every year.",
+  "options": [
+   "some music",
+   "a music",
+   "musics",
+   "some musics"
+  ],
+  "key": 0,
+  "why": "Music is uncountable: no a/an and no -s. Say some music.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "event": [
+    "weddings",
+    "Navruz",
+    "school parties",
+    "the summer camp"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ in the {place} in {city} tonight.",
+  "options": [
+   "some music",
+   "a music",
+   "musics",
+   "some musics"
+  ],
+  "key": 0,
+  "why": "Music is uncountable: no a/an and no -s. Say some music.",
+  "slots": {
+   "place": [
+    "park",
+    "square",
+    "theatre",
+    "old town"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want to download ______ for the trip to {city}, {name}.",
+  "options": [
+   "some music",
+   "a music",
+   "musics",
+   "some musics"
+  ],
+  "key": 0,
+  "why": "Music is uncountable: no a/an and no -s. Say some music.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mum cooked ______ with {food} for {meal}.",
+  "options": [
+   "some rice",
+   "a rice",
+   "rices",
+   "some rices"
+  ],
+  "key": 0,
+  "why": "Rice is uncountable: no a/an and no -s. Say some rice.",
+  "slots": {
+   "food": [
+    "vegetables",
+    "chicken",
+    "carrots",
+    "beans"
+   ],
+   "meal": [
+    "lunch",
+    "dinner",
+    "the guests",
+    "us"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please buy ______ at the {shop}, {name}.",
+  "options": [
+   "some rice",
+   "a rice",
+   "rices",
+   "some rices"
+  ],
+  "key": 0,
+  "why": "Rice is uncountable: no a/an and no -s. Say some rice.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ in the {place}, {name}.",
+  "options": [
+   "some rice",
+   "a rice",
+   "rices",
+   "some rices"
+  ],
+  "key": 0,
+  "why": "Rice is uncountable: no a/an and no -s. Say some rice.",
+  "slots": {
+   "place": [
+    "pot",
+    "bag",
+    "cupboard",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We need ______ for the plov on {day}.",
+  "options": [
+   "some rice",
+   "a rice",
+   "rices",
+   "some rices"
+  ],
+  "key": 0,
+  "why": "Rice is uncountable: no a/an and no -s. Say some rice.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}'s parents bought ______ for the new {room}.",
+  "options": [
+   "some furniture",
+   "a furniture",
+   "furnitures",
+   "some furnitures"
+  ],
+  "key": 0,
+  "why": "Furniture is uncountable: no a/an and no -s. Say some furniture.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "room": [
+    "flat",
+    "house",
+    "bedroom",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ in the {place} in {city}.",
+  "options": [
+   "some furniture",
+   "a furniture",
+   "furnitures",
+   "some furnitures"
+  ],
+  "key": 0,
+  "why": "Furniture is uncountable: no a/an and no -s. Say some furniture.",
+  "slots": {
+   "place": [
+    "shop window",
+    "yard",
+    "hall",
+    "old house"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We sold ______ before we moved to {city}, {name}.",
+  "options": [
+   "some furniture",
+   "a furniture",
+   "furnitures",
+   "some furnitures"
+  ],
+  "key": 0,
+  "why": "Furniture is uncountable: no a/an and no -s. Say some furniture.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "{name} has a lot of ______ (homework) this {time}.",
+  "key": "homework",
+  "why": "Homework is uncountable, so it never takes -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "time": [
+    "week",
+    "weekend",
+    "month",
+    "evening"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "{name} bought three ______ (book) in {city}.",
+  "key": "books",
+  "why": "You can count a book, and the number makes it plural: books.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "The doctor gave {who} some good ______ (advice) about {topic}.",
+  "key": "advice",
+  "why": "Advice is uncountable, so it never takes -s.",
+  "slots": {
+   "who": [
+    "me",
+    "us",
+    "my dad",
+    "Grandma"
+   ],
+   "topic": [
+    "sleep",
+    "sport",
+    "food",
+    "water"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "We sang four ______ (song) at the {event}, {name}.",
+  "key": "songs",
+  "why": "You can count a song, and the number makes it plural: songs.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "camp"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "I listen to ______ (music) on the {transport} to {place}.",
+  "key": "music",
+  "why": "Music is uncountable, so it never takes -s.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "minibus"
+   ],
+   "place": [
+    "school",
+    "work",
+    "college",
+    "the university"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "We need six ______ (chair) for the guests, {name}. They come on {day}.",
+  "key": "chairs",
+  "why": "You can count a chair, and the number makes it plural: chairs.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "Can you cook some ______ (rice) for {meal}, {name}?",
+  "key": "rice",
+  "why": "Rice is uncountable, so it never takes -s.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "the guests",
+    "us"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "{name} put five ______ (apple) in the {place}.",
+  "key": "apples",
+  "why": "You can count a apple, and the number makes it plural: apples.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "bag",
+    "box",
+    "basket",
+    "bowl"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "There is a lot of old ______ (furniture) in {name}'s {room}.",
+  "key": "furniture",
+  "why": "Furniture is uncountable, so it never takes -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "room": [
+    "house",
+    "flat",
+    "garage",
+    "village house"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "Aunt {name} has two ______ (bag) for the trip to {city}.",
+  "key": "bags",
+  "why": "You can count a bag, and the number makes it plural: bags.",
+  "slots": {
+   "name": [
+    "Dilnoza",
+    "Olga",
+    "Malika",
+    "Nigora"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "Our {subject} teacher never gives ______ (homework) on {day}.",
+  "key": "homework",
+  "why": "Homework is uncountable, so it never takes -s.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "art",
+    "music"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "holidays",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "{name} has five ______ (lesson) at {place} on Monday.",
+  "key": "lessons",
+  "why": "You can count a lesson, and the number makes it plural: lessons.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "school",
+    "college",
+    "the language centre",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "{name}'s big brother always gives useful ______ (advice) about {topic}.",
+  "key": "advice",
+  "why": "Advice is uncountable, so it never takes -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "topic": [
+    "phones",
+    "football",
+    "exams",
+    "jobs"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "We bought two ______ (ticket) for the {transport} to {city}.",
+  "key": "tickets",
+  "why": "You can count a ticket, and the number makes it plural: tickets.",
+  "slots": {
+   "transport": [
+    "train",
+    "bus",
+    "plane",
+    "minibus"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "There was loud ______ (music) at the {event} in {city}.",
+  "key": "music",
+  "why": "Music is uncountable, so it never takes -s.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "Mum needs six ______ (egg) for the {food}, {name}.",
+  "key": "eggs",
+  "why": "You can count a egg, and the number makes it plural: eggs.",
+  "slots": {
+   "food": [
+    "cake",
+    "breakfast",
+    "salad",
+    "pancakes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "We bought a big bag of ______ (rice) at the {shop}, {name}.",
+  "key": "rice",
+  "why": "Rice is uncountable, so it never takes -s.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "There are ten ______ (table) in the {place} in {city}.",
+  "key": "tables",
+  "why": "You can count a table, and the number makes it plural: tables.",
+  "slots": {
+   "place": [
+    "café",
+    "classroom",
+    "restaurant",
+    "hall"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "Uncle {name} makes wooden ______ (furniture) in {city}.",
+  "key": "furniture",
+  "why": "Furniture is uncountable, so it never takes -s.",
+  "slots": {
+   "name": [
+    "Rustam",
+    "Ivan",
+    "Timur",
+    "Bobur"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the word in brackets. Add -s only if you can count it.",
+  "source": "{name} went to the {place} with three ______ (friend).",
+  "key": "friends",
+  "why": "You can count a friend, and the number makes it plural: friends.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "park",
+    "cinema",
+    "lake",
+    "mountains"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "{name} has two homeworks for {day}.",
+  "hint": "{name} has a lot of ______ for {day}.",
+  "key": "homework",
+  "why": "Homework is uncountable, so it never takes -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "tomorrow",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "My dad gave me two advices about {topic}, {name}.",
+  "hint": "My dad gave me some ______ about {topic}, {name}.",
+  "key": "advice",
+  "why": "Advice is uncountable, so it never takes -s.",
+  "slots": {
+   "topic": [
+    "money",
+    "school",
+    "sport",
+    "jobs"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "We listened to musics in the {place} in {city}.",
+  "hint": "We listened to ______ in the {place} in {city}.",
+  "key": "music",
+  "why": "Music is uncountable, so it never takes -s.",
+  "slots": {
+   "place": [
+    "car",
+    "park",
+    "café",
+    "garden"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "There are many furnitures in the {place}, {name}.",
+  "hint": "There is a lot of ______ in the {place}, {name}.",
+  "key": "furniture",
+  "why": "Furniture is uncountable, so it never takes -s.",
+  "slots": {
+   "place": [
+    "shop",
+    "hall",
+    "old house",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "Grandma cooked rices with {food} for {meal}.",
+  "hint": "Grandma cooked ______ with {food} for {meal}.",
+  "key": "rice",
+  "why": "Rice is uncountable, so it never takes -s.",
+  "slots": {
+   "food": [
+    "carrots",
+    "chicken",
+    "beans",
+    "vegetables"
+   ],
+   "meal": [
+    "lunch",
+    "dinner",
+    "us",
+    "the guests"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake with a/an. Complete the correct sentence with one word.",
+  "source": "Can you give me an advice about {topic}, {name}?",
+  "hint": "Can you give me ______ advice about {topic}, {name}?",
+  "key": "some",
+  "why": "Advice is uncountable, so you can't use an. Use some.",
+  "slots": {
+   "topic": [
+    "the exam",
+    "the trip",
+    "English",
+    "my phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake with a/an. Complete the correct sentence with one word.",
+  "source": "{name} has a homework for {subject}.",
+  "hint": "{name} has ______ homework for {subject}.",
+  "key": "some",
+  "why": "Homework is uncountable, so you can't use a. Use some.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake with a/an. Complete the correct sentence with one word.",
+  "source": "Let's play a music at the {event}, {name}.",
+  "hint": "Let's play ______ music at the {event}, {name}.",
+  "key": "some",
+  "why": "Music is uncountable, so you can't use a. Use some.",
+  "slots": {
+   "event": [
+    "party",
+    "picnic",
+    "wedding",
+    "camp"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake with a/an. Complete the correct sentence with one word.",
+  "source": "We bought a furniture for the {room} in {city}.",
+  "hint": "We bought ______ furniture for the {room} in {city}.",
+  "key": "some",
+  "why": "Furniture is uncountable, so you can't use a. Use some.",
+  "slots": {
+   "room": [
+    "flat",
+    "kitchen",
+    "bedroom",
+    "office"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake with a/an. Complete the correct sentence with one word.",
+  "source": "Mum wants a rice from the {shop}, {name}.",
+  "hint": "Mum wants ______ rice from the {shop}, {name}.",
+  "key": "some",
+  "why": "Rice is uncountable, so you can't use a. Use some.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now there is more. Complete the second sentence with the words in brackets.",
+  "source": "There is one book on {name}'s {place}.",
+  "hint": "There are three ______ (book) and some ______ (homework) on {name}'s {place}.",
+  "key": [
+   "books",
+   "homework"
+  ],
+  "why": "Book is countable, so three books. Homework is uncountable: no -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "desk",
+    "table",
+    "bed",
+    "chair"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now there is more. Complete the second sentence with the words in brackets.",
+  "source": "I have one bag for the trip to {city}.",
+  "hint": "I have two ______ (bag) and some ______ (music) on my phone for the trip to {city}.",
+  "key": [
+   "bags",
+   "music"
+  ],
+  "why": "Bag is countable, so two bags. Music is uncountable: no -s.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now there is more. Complete the second sentence with the words in brackets.",
+  "source": "The teacher gave {who} one book.",
+  "hint": "The teacher gave {who} two ______ (book) and some ______ (advice).",
+  "key": [
+   "books",
+   "advice"
+  ],
+  "why": "Book is countable, so two books. Advice is uncountable: no -s.",
+  "slots": {
+   "who": [
+    "me",
+    "us",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now there is more. Complete the second sentence with the words in brackets.",
+  "source": "We bought one chair for the {room}, {name}.",
+  "hint": "We bought four ______ (chair) and some other ______ (furniture) for the {room}, {name}.",
+  "key": [
+   "chairs",
+   "furniture"
+  ],
+  "why": "Chair is countable, so four chairs. Furniture is uncountable: no -s.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "flat",
+    "office",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now there is more. Complete the second sentence with the words in brackets.",
+  "source": "There is one egg in the {place}, {name}.",
+  "hint": "There are six ______ (egg) and some ______ (rice) in the {place}, {name}.",
+  "key": [
+   "eggs",
+   "rice"
+  ],
+  "why": "Egg is countable, so six eggs. Rice is uncountable: no -s.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "fridge",
+    "cupboard",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your homework.",
+  "requiredElement": "homework",
+  "constraints": [
+   "exactly one sentence",
+   "must use homework",
+   "no -s on homework"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about advice from your family.",
+  "requiredElement": "advice",
+  "constraints": [
+   "exactly one sentence",
+   "must use advice",
+   "no a/an before advice"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about music you like.",
+  "requiredElement": "music",
+  "constraints": [
+   "exactly one sentence",
+   "must use music"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend for advice. Write one question.",
+  "requiredElement": "advice",
+  "constraints": [
+   "exactly one question",
+   "must use advice"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about rice and one countable food with a number.",
+  "requiredElement": "rice + plural noun",
+  "constraints": [
+   "exactly one sentence",
+   "must use rice",
+   "must use a number"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the furniture in your room.",
+  "requiredElement": "furniture",
+  "constraints": [
+   "exactly one sentence",
+   "must use furniture"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with some homework and two books.",
+  "requiredElement": "homework / books",
+  "constraints": [
+   "exactly one sentence",
+   "must use homework",
+   "must use books"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with advice and one with music.",
+  "requiredElement": "advice / music",
+  "constraints": [
+   "exactly two sentences",
+   "must use advice",
+   "must use music"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about your school day. Write three or four sentences.",
+  "targetGrammar": "uncountable nouns",
+  "lookFor": [
+   "homework",
+   "some",
+   "a countable noun with a number"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend has an exam next week. Write three or four sentences of advice.",
+  "targetGrammar": "uncountable nouns",
+  "lookFor": [
+   "advice",
+   "some",
+   "no -s on advice"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your room at home. Write three or four sentences.",
+  "targetGrammar": "uncountable nouns",
+  "lookFor": [
+   "furniture",
+   "There is",
+   "There are"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a family dinner. Write three or four sentences.",
+  "targetGrammar": "uncountable nouns",
+  "lookFor": [
+   "rice",
+   "music",
+   "some"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about what you do in the evening. Write three or four sentences.",
+  "targetGrammar": "uncountable nouns",
+  "lookFor": [
+   "music",
+   "homework",
+   "every evening"
+  ]
+ }
+]

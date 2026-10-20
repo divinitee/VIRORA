@@ -1,0 +1,1685 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ bread with your {food}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "food": [
+    "soup",
+    "salad",
+    "eggs",
+    "dinner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ honey for your {food}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "food": [
+    "tea",
+    "bread",
+    "pancakes",
+    "porridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ rice with the {food}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "food": [
+    "chicken",
+    "fish",
+    "vegetables",
+    "beans"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ help with your {thing}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "thing": [
+    "bags",
+    "homework",
+    "phone",
+    "project"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ jam on your {food}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "food": [
+    "bread",
+    "pancakes",
+    "toast",
+    "bun"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ plov before the {event}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "event": [
+    "match",
+    "film",
+    "trip",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ cheese from {city}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ fruit after the {event}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "event": [
+    "game",
+    "lesson",
+    "walk",
+    "run"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ ice cream in the {place}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "car",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ meat with your {food}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "food": [
+    "rice",
+    "potatoes",
+    "salad",
+    "bread"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ sugar in your {drink}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "milk",
+    "cup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ butter for the {food}, {name}?",
+  "options": [
+   "some",
+   "a",
+   "many",
+   "a few"
+  ],
+  "key": 0,
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "food": [
+    "bread",
+    "pancakes",
+    "potatoes",
+    "rice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I have ______ bread, please, {name}? I'm hungry after {activity}.",
+  "options": [
+   "some",
+   "any",
+   "a",
+   "many"
+  ],
+  "key": 0,
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "activity": [
+    "school",
+    "football",
+    "the lesson",
+    "the walk"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I have ______ rice with my {food}, please?",
+  "options": [
+   "some",
+   "any",
+   "a",
+   "many"
+  ],
+  "key": 0,
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "food": [
+    "chicken",
+    "fish",
+    "vegetables",
+    "meat"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Could you give me ______ paper for the {subject} test, please?",
+  "options": [
+   "some",
+   "any",
+   "a",
+   "many"
+  ],
+  "key": 0,
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can we have ______ cheese for the {event}, please, {name}?",
+  "options": [
+   "some",
+   "any",
+   "a",
+   "many"
+  ],
+  "key": 0,
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "event": [
+    "picnic",
+    "party",
+    "trip",
+    "breakfast"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Could you give {who} ______ help with the {thing}, please?",
+  "options": [
+   "some",
+   "any",
+   "a",
+   "many"
+  ],
+  "key": 0,
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "who": [
+    "me",
+    "us",
+    "my sister",
+    "Grandma"
+   ],
+   "thing": [
+    "bags",
+    "boxes",
+    "table",
+    "homework"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I have ______ honey for my {drink}, please?",
+  "options": [
+   "some",
+   "any",
+   "a",
+   "many"
+  ],
+  "key": 0,
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "drink": [
+    "tea",
+    "milk",
+    "cup of tea",
+    "green tea"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Could you buy ______ meat at the {shop}, please, {name}?",
+  "options": [
+   "some",
+   "any",
+   "a",
+   "many"
+  ],
+  "key": 0,
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I have ______ jam for my {food}, please, {name}?",
+  "options": [
+   "some",
+   "any",
+   "a",
+   "many"
+  ],
+  "key": 0,
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "food": [
+    "bread",
+    "toast",
+    "pancakes",
+    "bun"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Can I have ______ bread with my {food}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "food": [
+    "soup",
+    "salad",
+    "eggs",
+    "plov"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "We don't have ______ honey at home, {name}.",
+  "key": "any",
+  "why": "The sentence is negative (not), so use any.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Could you bring ______ chairs to the {place}, please, {name}?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "garden",
+    "yard",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Can we have ______ rice for the {meal}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "meal": [
+    "guests",
+    "kids",
+    "picnic",
+    "party"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "There isn't ______ cheese in the {place}, {name}.",
+  "key": "any",
+  "why": "The sentence is negative (not), so use any.",
+  "slots": {
+   "place": [
+    "fridge",
+    "kitchen",
+    "bag",
+    "box"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Could you give me ______ paper, please? I need it for {subject}.",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "subject": [
+    "maths",
+    "art",
+    "English",
+    "science"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Can I have ______ grapes from the {place}, please, {name}?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "place": [
+    "garden",
+    "bowl",
+    "table",
+    "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "{name} doesn't eat ______ meat on {day}.",
+  "key": "any",
+  "why": "The sentence is negative (not), so use any.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "day": [
+    "Monday",
+    "Wednesday",
+    "Friday",
+    "weekdays"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Could you buy ______ eggs at the {shop}, please, {name}?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Can I borrow ______ pens for the {event}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "event": [
+    "test",
+    "exam",
+    "lesson",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "There aren't ______ apples in the {place}, {name}.",
+  "key": "any",
+  "why": "The sentence is negative (not), so use any.",
+  "slots": {
+   "place": [
+    "bag",
+    "box",
+    "fridge",
+    "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Could you get ______ butter from the {place}, please, {name}?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "place": [
+    "fridge",
+    "kitchen",
+    "shop",
+    "market"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Can we have ______ help with the {thing}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "thing": [
+    "bags",
+    "boxes",
+    "tables",
+    "homework"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "I don't want ______ sugar in my {drink}, {name}.",
+  "key": "any",
+  "why": "The sentence is negative (not), so use any.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "milk",
+    "cup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Could you give us ______ tips for the {event}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "event": [
+    "exam",
+    "trip",
+    "interview",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Can I have ______ ice cream after {meal}, please, Mum?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "the lesson",
+    "football"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "We didn't buy ______ fruit in {city}, {name}.",
+  "key": "any",
+  "why": "The sentence is negative (not), so use any.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Could you bring ______ plates for the {event}, please, {name}?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "event": [
+    "party",
+    "picnic",
+    "dinner",
+    "guests"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "Can I take ______ photos of your {thing}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "thing": [
+    "garden",
+    "house",
+    "cat",
+    "dog"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write some or any.",
+  "source": "There isn't ______ jam for the {food}, {name}.",
+  "key": "any",
+  "why": "The sentence is negative (not), so use any.",
+  "slots": {
+   "food": [
+    "bread",
+    "pancakes",
+    "toast",
+    "buns"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You have it. Offer it to your friend. Write some or any.",
+  "source": "I have some bread from {city}.",
+  "hint": "Would you like ______ bread, {name}?",
+  "key": "some",
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You have it. Offer it to your friend. Write some or any.",
+  "source": "There is some rice in the {place}.",
+  "hint": "Would you like ______ rice, {name}?",
+  "key": "some",
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "place": [
+    "pot",
+    "kitchen",
+    "bowl",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You have it. Offer it to your friend. Write some or any.",
+  "source": "I have some honey from my {person}'s garden.",
+  "hint": "Would you like ______ honey, {name}?",
+  "key": "some",
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "person": [
+    "grandfather",
+    "uncle",
+    "aunt",
+    "neighbour"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You have it. Offer it to your friend. Write some or any.",
+  "source": "We have some fruit from the {shop}.",
+  "hint": "Would you like ______ fruit, {name}?",
+  "key": "some",
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You have it. Offer it to your friend. Write some or any.",
+  "source": "I can help with your {thing}.",
+  "hint": "Would you like ______ help with your {thing}, {name}?",
+  "key": "some",
+  "why": "This is an offer. Offers use some, even in a question.",
+  "slots": {
+   "thing": [
+    "bags",
+    "homework",
+    "phone",
+    "project"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The request has a mistake. Complete the correct request. Write some or any.",
+  "source": "Can I have any bread, please, {name}?",
+  "hint": "Can I have ______ bread, please, {name}?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The request has a mistake. Complete the correct request. Write some or any.",
+  "source": "Could you give me any paper for the {subject} lesson, please?",
+  "hint": "Could you give me ______ paper for the {subject} lesson, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "subject": [
+    "maths",
+    "art",
+    "English",
+    "science"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The request has a mistake. Complete the correct request. Write some or any.",
+  "source": "Can we have any rice with the {food}, please?",
+  "hint": "Can we have ______ rice with the {food}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "food": [
+    "chicken",
+    "fish",
+    "vegetables",
+    "meat"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The request has a mistake. Complete the correct request. Write some or any.",
+  "source": "Could you buy any eggs at the {shop}, please, {name}?",
+  "hint": "Could you buy ______ eggs at the {shop}, please, {name}?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The request has a mistake. Complete the correct request. Write some or any.",
+  "source": "Can I have any cheese for my {food}, please?",
+  "hint": "Can I have ______ cheese for my {food}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "food": [
+    "bread",
+    "salad",
+    "pasta",
+    "sandwich"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You want it. Ask for it politely. Write some or any.",
+  "source": "I want some jam for my {food}.",
+  "hint": "Can I have ______ jam for my {food}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "food": [
+    "bread",
+    "toast",
+    "pancakes",
+    "bun"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You want it. Ask for it politely. Write some or any.",
+  "source": "I need some help with the {thing}.",
+  "hint": "Could you give me ______ help with the {thing}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "thing": [
+    "bags",
+    "boxes",
+    "table",
+    "homework"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You want it. Ask for it politely. Write some or any.",
+  "source": "We want some meat for the {event}.",
+  "hint": "Can we have ______ meat for the {event}, please?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "event": [
+    "party",
+    "picnic",
+    "guests",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You want it. Ask for it politely. Write some or any.",
+  "source": "I need some butter for the {food}, {name}.",
+  "hint": "Can I have ______ butter for the {food}, please, {name}?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "food": [
+    "bread",
+    "pancakes",
+    "potatoes",
+    "rice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "You want it. Ask for it politely. Write some or any.",
+  "source": "I want some ice cream after {meal}, Mum.",
+  "hint": "Can I have ______ ice cream after {meal}, please, Mum?",
+  "key": "some",
+  "why": "This is a request (you ask for something). Requests use some, even in a question.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "the lesson",
+    "football"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A guest is at your home. Offer them some food. Write one question.",
+  "requiredElement": "Would you like some",
+  "constraints": [
+   "exactly one question",
+   "must use Would you like some"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You are in a café. Ask for something. Write one question.",
+  "requiredElement": "Can I have some",
+  "constraints": [
+   "exactly one question",
+   "must use Can I have some",
+   "must use please"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Offer to help a friend. Write one question.",
+  "requiredElement": "some help",
+  "constraints": [
+   "exactly one question",
+   "must use some help"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask your teacher for some paper. Write one question.",
+  "requiredElement": "Could you give me some",
+  "constraints": [
+   "exactly one question",
+   "must use some"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Offer your friend some fruit. Write one question.",
+  "requiredElement": "some fruit",
+  "constraints": [
+   "exactly one question",
+   "must use some"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask your mum for something to eat. Write one question.",
+  "requiredElement": "Can I have some",
+  "constraints": [
+   "exactly one question",
+   "must use some",
+   "must use please"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one offer and one negative sentence with any.",
+  "requiredElement": "some / any",
+  "constraints": [
+   "exactly two sentences",
+   "must use some",
+   "must use any"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a shop worker for some bread. Write one question.",
+  "requiredElement": "some bread",
+  "constraints": [
+   "exactly one question",
+   "must use some bread"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Guests come to your home. Write a short dialogue (three or four lines). Offer them food and drinks.",
+  "targetGrammar": "some in offers",
+  "lookFor": [
+   "Would you like some",
+   "please",
+   "thank you"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short dialogue (three or four lines) in a café.",
+  "targetGrammar": "some in requests",
+  "lookFor": [
+   "Can I have some",
+   "Would you like some",
+   "please"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend is moving to a new flat. Write three or four lines. Offer help.",
+  "targetGrammar": "some in offers",
+  "lookFor": [
+   "Would you like some help",
+   "Can I",
+   "some"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are at a picnic. Write three or four lines. Offer and ask for food.",
+  "targetGrammar": "some in offers and requests",
+  "lookFor": [
+   "Would you like some",
+   "Can I have some",
+   "any in a negative"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "some-offer",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short dialogue (three or four lines) at the market.",
+  "targetGrammar": "some in requests",
+  "lookFor": [
+   "Can I have some",
+   "Could you",
+   "please"
+  ]
+ }
+]

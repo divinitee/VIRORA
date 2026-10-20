@@ -25,29 +25,30 @@ const plural = (j) => (j.endsWith("man") ? j.slice(0, -3) + "men" : j + "s");
 
 /* ---------------- choose: 20 mcq ---------------- */
 // singular rows: [job, sentence, slots]; plural rows marked with P
+const NAME = ["Aziz", "Olga", "Timur", "Malika"];
 const SING = [
-  ["doctor", "My aunt is ______. She works at a hospital in {city}.", { city: CITY }],
-  ["engineer", "{name}'s father is ______ at a {place} in {city}.", { name: ["Aziz", "Olga", "Timur", "Malika"], place: ["factory", "company", "building site", "power station"], city: CITY }],
-  ["teacher", "Mrs Karimova is ______ at our school in {city}.", { city: CITY }],
-  ["artist", "My uncle is ______. He paints {thing}.", { thing: ["mountains", "old streets", "people", "flowers"] }],
-  ["nurse", "{name}'s sister is ______ at the clinic.", { name: ["Aziz", "Olga", "Timur", "Malika"] }],
-  ["accountant", "My mother is ______ at a bank in {city}.", { city: CITY }],
-  ["driver", "Mr Rustamov is ______. He drives a {vehicle}.", { vehicle: ["bus", "taxi", "minibus", "truck"] }],
+  ["doctor", "My aunt is ______. She works at a hospital in {city} on {day}.", { city: CITY, day: ["weekdays", "Mondays", "Saturdays", "most days"] }],
+  ["engineer", "{name}'s father is ______ at a {place}.", { name: NAME, place: ["factory", "company", "building site", "power station"] }],
+  ["teacher", "Mrs Karimova is ______ at our school in {city}. She teaches {subject}.", { city: CITY, subject: ["maths", "English", "history", "music"] }],
+  ["artist", "My uncle is ______. He paints {thing} in {place}.", { thing: ["mountains", "old streets", "people", "flowers"], place: ["his studio", "the park", "his garden", "the old town"] }],
+  ["nurse", "{name}'s sister is ______ at the clinic in {city}.", { name: NAME, city: CITY }],
+  ["accountant", "My mother is ______ at a {place} in {city}.", { place: ["bank", "hotel", "factory", "company"], city: CITY }],
+  ["driver", "Mr Rustamov is ______. He drives a {vehicle} in {city}.", { vehicle: ["bus", "taxi", "minibus", "truck"], city: CITY }],
   ["architect", "Uncle Bobur is ______. He designs {thing} in {city}.", { thing: ["houses", "schools", "hotels", "parks"], city: CITY }],
-  ["cook", "My cousin is ______ at a café in {city}.", { city: CITY }],
-  ["actor", "Timur's brother is ______ in a theatre in {city}.", { city: CITY }],
-  ["farmer", "My grandfather is ______. He grows {food}.", { food: ["cotton", "apples", "melons", "potatoes"] }],
-  ["electrician", "Mr Ivanov is ______. He fixes lights in {place}.", { place: ["schools", "offices", "flats", "shops"] }],
+  ["cook", "My cousin is ______ at a {place} in {city}.", { place: ["café", "hotel", "school", "hospital"], city: CITY }],
+  ["actor", "Timur's brother is ______. He works in {place} in {city}.", { place: ["a theatre", "films", "TV shows", "a big theatre"], city: CITY }],
+  ["farmer", "My grandfather is ______ near {city}. He grows {food}.", { city: CITY, food: ["cotton", "apples", "melons", "potatoes"] }],
+  ["electrician", "Mr Ivanov is ______. He fixes lights in {place} in {city}.", { place: ["schools", "offices", "flats", "shops"], city: CITY }],
   ["pilot", "Malika's dad is ______. He flies to {city} every {time}.", { city: ["Moscow", "Istanbul", "Dubai", "Seoul"], time: ["week", "Monday", "Friday", "month"] }],
-  ["office worker", "Olga is ______ in {city}. She works from nine to five.", { city: CITY }],
-  ["waiter", "My brother is ______ in a restaurant near the {place}.", { place: ["station", "park", "river", "market"] }],
-  ["police officer", "Our neighbour is ______ in {city}.", { city: CITY }],
+  ["office worker", "Olga is ______ in {city}. She goes to work by {transport}.", { city: CITY, transport: ["bus", "metro", "taxi", "train"] }],
+  ["waiter", "My brother is ______ in a restaurant near the {place}, {name}.", { place: ["station", "park", "river", "market"], name: NAME }],
+  ["police officer", "Our neighbour is ______ in {city}. He works {time}.", { city: CITY, time: ["at night", "in the day", "at weekends", "every day"] }],
 ];
 const PL = [
-  ["doctor", "My parents are both ______ in {city}.", { city: CITY }],
-  ["engineer", "Aziz and Timur are ______ at a company in {city}.", { city: CITY }],
-  ["teacher", "My aunts are ______ at a school in {city}.", { city: CITY }],
-  ["farmer", "My uncles are ______ in a village near {city}.", { city: CITY }],
+  ["doctor", "My parents are both ______ at a hospital in {city}, {name}.", { city: CITY, name: NAME }],
+  ["engineer", "Aziz and Timur are ______ at a {place} in {city}.", { place: ["company", "factory", "building site", "power station"], city: CITY }],
+  ["teacher", "My aunts are ______ at a school in {city}. They teach {subject}.", { city: CITY, subject: ["maths", "English", "history", "music"] }],
+  ["farmer", "My uncles are ______ near {city}. They grow {food}.", { city: CITY, food: ["cotton", "apples", "melons", "potatoes"] }],
 ];
 const CHOOSE = [
   ...SING.map(([j, prompt, slots]) => ({ prompt, slots, options: [`${art(j)} ${j}`, j, `${art(j) === "a" ? "an" : "a"} ${j}`, plural(j)], why: why(j) })),
@@ -83,22 +84,23 @@ const BUILD = [
 const T_ONE = "Now talk about one person. Complete the sentence with a or an + the job.";
 const T_FIX = "The sentence has a mistake. Complete the correct sentence with a or an + the job.";
 const T_ADJ = "Add the word in brackets before the job. Complete the sentence with a or an + the word.";
+const DAY = ["weekdays", "Mondays", "Saturdays", "most days"];
 const TRANSFORM = [
-  [T_ONE, "My aunts are doctors in {city}.", "My aunt is ______ in {city}.", "a doctor", why("doctor"), { city: CITY }],
-  [T_ONE, "Bobur's brothers are engineers at a {place}.", "Bobur's brother is ______ at a {place}.", "an engineer", why("engineer"), { place: ["factory", "company", "building site", "power station"] }],
-  [T_ONE, "My cousins are artists in {city}.", "My cousin is ______ in {city}.", "an artist", why("artist"), { city: CITY }],
-  [T_ONE, "Olga's sisters are nurses at the {place}.", "Olga's sister is ______ at the {place}.", "a nurse", why("nurse"), { place: ["hospital", "clinic", "school", "children's hospital"] }],
-  [T_ONE, "My uncles are accountants in {city}.", "My uncle is ______ in {city}.", "an accountant", why("accountant"), { city: CITY }],
-  [T_FIX, "My father is driver in {city}.", "My father is ______ in {city}.", "a driver", why("driver"), { city: CITY }],
-  [T_FIX, "Malika is a actor in a theatre in {city}.", "Malika is ______ in a theatre in {city}.", "an actor", why("actor"), { city: CITY }],
-  [T_FIX, "Mr Saidov is architect. He works in {city}.", "Mr Saidov is ______. He works in {city}.", "an architect", why("architect"), { city: CITY }],
-  [T_FIX, "My grandmother is an cook at a {place}.", "My grandmother is ______ at a {place}.", "a cook", why("cook"), { place: ["school", "café", "hotel", "hospital"] }],
-  [T_FIX, "Timur is electrician in {city}.", "Timur is ______ in {city}.", "an electrician", why("electrician"), { city: CITY }],
-  [T_ADJ, "My uncle is a farmer near {city}.", "My uncle is ______ farmer near {city}. (old)", "an old", "Old starts with a vowel sound, so the article changes to an: an old farmer.", { city: CITY }],
-  [T_ADJ, "Aunt Nigora is a teacher in {city}.", "Aunt Nigora is ______ teacher in {city}. (English)", "an English", "English starts with a vowel sound, so the article changes to an: an English teacher.", { city: CITY }],
-  [T_ADJ, "My sister is an engineer at a {place}.", "My sister is ______ engineer at a {place}. (good)", "a good", "Good starts with a consonant sound, so the article changes to a: a good engineer.", { place: ["factory", "company", "building site", "bank"] }],
-  [T_ADJ, "Mr Karimov is a cook at a café in {city}.", "Mr Karimov is ______ cook at a café in {city}. (excellent)", "an excellent", "Excellent starts with a vowel sound, so the article changes to an: an excellent cook.", { city: CITY }],
-  [T_ADJ, "Bobur is an actor in {city}.", "Bobur is ______ actor in {city}. (young)", "a young", "Young starts with a consonant sound (y), so the article changes to a: a young actor.", { city: CITY }],
+  [T_ONE, "My aunts are doctors in {city}. They work on {day}.", "My aunt is ______ in {city}. She works on {day}.", "a doctor", why("doctor"), { city: CITY, day: DAY }],
+  [T_ONE, "Bobur's brothers are engineers at a {place} in {city}.", "Bobur's brother is ______ at a {place} in {city}.", "an engineer", why("engineer"), { place: ["factory", "company", "building site", "power station"], city: CITY }],
+  [T_ONE, "My cousins are artists. They paint {thing} in {city}.", "My cousin is ______. She paints {thing} in {city}.", "an artist", why("artist"), { thing: ["flowers", "people", "animals", "streets"], city: CITY }],
+  [T_ONE, "Olga's sisters are nurses at the {place} in {city}.", "Olga's sister is ______ at the {place} in {city}.", "a nurse", why("nurse"), { place: ["hospital", "clinic", "school", "children's hospital"], city: CITY }],
+  [T_ONE, "My uncles are accountants at a {place} in {city}.", "My uncle is ______ at a {place} in {city}.", "an accountant", why("accountant"), { place: ["bank", "hotel", "factory", "company"], city: CITY }],
+  [T_FIX, "My father is driver. He drives a {vehicle} in {city}.", "My father is ______. He drives a {vehicle} in {city}.", "a driver", why("driver"), { vehicle: ["bus", "taxi", "minibus", "truck"], city: CITY }],
+  [T_FIX, "Malika is a actor in {place} in {city}.", "Malika is ______ in {place} in {city}.", "an actor", why("actor"), { place: ["a theatre", "films", "TV shows", "a big theatre"], city: CITY }],
+  [T_FIX, "Mr Saidov is architect. He designs {thing} in {city}.", "Mr Saidov is ______. He designs {thing} in {city}.", "an architect", why("architect"), { thing: ["houses", "schools", "hotels", "parks"], city: CITY }],
+  [T_FIX, "My grandmother is an cook at a {place} in {city}.", "My grandmother is ______ at a {place} in {city}.", "a cook", why("cook"), { place: ["school", "café", "hotel", "hospital"], city: CITY }],
+  [T_FIX, "Timur is electrician. He works in {place} in {city}.", "Timur is ______. He works in {place} in {city}.", "an electrician", why("electrician"), { place: ["schools", "offices", "flats", "shops"], city: CITY }],
+  [T_ADJ, "My uncle is a farmer near {city}. He grows {food}.", "My uncle is ______ (old) farmer near {city}. He grows {food}.", "an old", "Old starts with a vowel sound, so the article changes to an: an old farmer.", { city: CITY, food: ["cotton", "apples", "melons", "potatoes"] }],
+  [T_ADJ, "Aunt Nigora is a teacher in {city}, {name}.", "Aunt Nigora is ______ (English) teacher in {city}, {name}.", "an English", "English starts with a vowel sound, so the article changes to an: an English teacher.", { city: CITY, name: NAME }],
+  [T_ADJ, "My sister is an engineer at a {place} in {city}.", "My sister is ______ (good) engineer at a {place} in {city}.", "a good", "Good starts with a consonant sound, so the article changes to a: a good engineer.", { place: ["factory", "company", "building site", "bank"], city: CITY }],
+  [T_ADJ, "Mr Karimov is a cook at a café in {city}, {name}.", "Mr Karimov is ______ (excellent) cook at a café in {city}, {name}.", "an excellent", "Excellent starts with a vowel sound, so the article changes to an: an excellent cook.", { city: CITY, name: NAME }],
+  [T_ADJ, "Bobur is an actor in {place} in {city}.", "Bobur is ______ (young) actor in {place} in {city}.", "a young", "Young starts with a consonant sound (y), so the article changes to a: a young actor.", { place: ["a theatre", "films", "TV shows", "a big theatre"], city: CITY }],
 ].map(([instr, source, hint, key, w, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why: w, slots }));
 
 /* ---------------- create: 8 ---------------- */

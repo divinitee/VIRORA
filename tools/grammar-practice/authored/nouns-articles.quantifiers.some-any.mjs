@@ -81,20 +81,20 @@ const T_BOTH = "Complete the sentence. Write some or any in each gap.";
 const BOTH = "The first part is negative, so any. The second part is positive, so some.";
 const TRANSFORM = [
   [T_NEG, "There is some cake in the {place}, {name}.", "There isn't ______ cake in the {place}, {name}.", "any", WN, { place: ["fridge", "kitchen", "box", "bag"], name: NAME }],
-  [T_NEG, "We have some tickets for the {event}.", "We don't have ______ tickets for the {event}.", "any", WN, { event: ["concert", "match", "film", "show"] }],
+  [T_NEG, "We have some tickets for the {event}, {name}.", "We don't have ______ tickets for the {event}, {name}.", "any", WN, { event: ["concert", "match", "film", "show"], name: NAME }],
   [T_NEG, "{name} has some photos of {city}.", "{name} doesn't have ______ photos of {city}.", "any", WN, { name: NAME, city: CITY }],
-  [T_NEG, "There are some birds in the {place} today.", "There aren't ______ birds in the {place} today.", "any", WN, { place: ["garden", "park", "yard", "tree"] }],
+  [T_NEG, "There are some birds in the {place} today, {name}.", "There aren't ______ birds in the {place} today, {name}.", "any", WN, { place: ["garden", "park", "yard", "tree"], name: NAME }],
   [T_NEG, "I bought some bread at the {shop}, {name}.", "I didn't buy ______ bread at the {shop}, {name}.", "any", WN, { shop: ["market", "bakery", "shop", "bazaar"], name: NAME }],
   [T_Q, "There are some buses to {city}, {name}.", "Are there ______ buses to {city}, {name}?", "any", WQ, { city: CITY, name: NAME }],
-  [T_Q, "There is some sugar in the {place}.", "Is there ______ sugar in the {place}?", "any", WQ, { place: ["kitchen", "cupboard", "box", "jar"] }],
+  [T_Q, "There is some sugar in the {place}, {name}.", "Is there ______ sugar in the {place}, {name}?", "any", WQ, { place: ["kitchen", "cupboard", "box", "jar"], name: NAME }],
   [T_Q, "There are some cafés near the {place}, {name}.", "Are there ______ cafés near the {place}, {name}?", "any", WQ, { place: ["station", "park", "university", "hotel"], name: NAME }],
   [T_Q, "There is some soup in the {place}, {name}.", "Is there ______ soup in the {place}, {name}?", "any", WQ, { place: ["pot", "kitchen", "fridge", "bowl"], name: NAME }],
-  [T_Q, "There are some good schools in {city}.", "Are there ______ good schools in {city}?", "any", WQ, { city: CITY }],
-  [T_BOTH, "We have no milk. We have juice, {name}.", "We don't have ______ milk, but we have ______ juice, {name}.", ["any", "some"], BOTH, { name: NAME }],
-  [T_BOTH, "There are no apples. There are oranges in the {place}.", "There aren't ______ apples, but there are ______ oranges in the {place}.", ["any", "some"], BOTH, { place: ["bag", "box", "fridge", "basket"] }],
-  [T_BOTH, "{name} has no brothers. {name} has sisters.", "{name} doesn't have ______ brothers, but she has ______ sisters.", ["any", "some"], BOTH, { name: ["Olga", "Malika", "Dilnoza", "Nigora"] }],
-  [T_BOTH, "I didn't buy rice. I bought carrots at the {shop}.", "I didn't buy ______ rice, but I bought ______ carrots at the {shop}.", ["any", "some"], BOTH, { shop: ["market", "bazaar", "shop", "supermarket"] }],
-  [T_BOTH, "There are no trains to {city}. There are buses.", "There aren't ______ trains to {city}, but there are ______ buses.", ["any", "some"], BOTH, { city: CITY }],
+  [T_Q, "There are some good schools in {city}, {name}.", "Are there ______ good schools in {city}, {name}?", "any", WQ, { city: CITY, name: NAME }],
+  [T_BOTH, "We have no milk. We have juice for {meal}, {name}.", "We don't have ______ milk, but we have ______ juice for {meal}, {name}.", ["any", "some"], BOTH, { meal: ["breakfast", "lunch", "dinner", "the guests"], name: NAME }],
+  [T_BOTH, "There are no apples. There are oranges in the {place}, {name}.", "There aren't ______ apples, but there are ______ oranges in the {place}, {name}.", ["any", "some"], BOTH, { place: ["bag", "box", "fridge", "basket"], name: NAME }],
+  [T_BOTH, "{name} has no brothers. She has sisters in {city}.", "{name} doesn't have ______ brothers, but she has ______ sisters in {city}.", ["any", "some"], BOTH, { name: ["Olga", "Malika", "Dilnoza", "Nigora"], city: CITY }],
+  [T_BOTH, "I didn't buy rice. I bought carrots at the {shop}, {name}.", "I didn't buy ______ rice, but I bought ______ carrots at the {shop}, {name}.", ["any", "some"], BOTH, { shop: ["market", "bazaar", "shop", "supermarket"], name: NAME }],
+  [T_BOTH, "There are no trains to {city}. There are buses on {day}.", "There aren't ______ trains to {city}, but there are ______ buses on {day}.", ["any", "some"], BOTH, { city: CITY, day: ["Sundays", "Mondays", "weekdays", "Saturdays"] }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
 
 /* ---------------- create: 8 ---------------- */

@@ -22,7 +22,7 @@ const BASE = { domain: "nouns-articles", branch: "countability", topic: "uncount
 const NAME = ["Aziz", "Olga", "Timur", "Malika"];
 const CITY = ["Samarkand", "Bukhara", "Fergana", "Termez"];
 const AN = { information: "an", equipment: "an", news: "a", luggage: "a" };
-const OPTS = (n) => [`some ${n}`, `${AN[n]} ${n}`, `many ${n === "news" ? "newses" : n + "s"}`, n === "news" ? "a new" : `${n}s`];
+const OPTS = (n) => (n === "news" ? ["some news", "a news", "many news", "newses"] : [`some ${n}`, `${AN[n]} ${n}`, `many ${n}s`, `${n}s`]);
 const U = (n) => `${n[0].toUpperCase()}${n.slice(1)} is uncountable: no a/an, no many and no -s. Use some ${n}.`;
 
 /* ---------------- choose: 20 mcq ---------------- */

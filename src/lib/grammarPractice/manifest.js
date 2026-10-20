@@ -58,6 +58,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "nouns-articles.countability.uncountable-no-plural": {
+  "domain": "nouns-articles",
+  "branch": "countability",
+  "topic": "uncountable-no-plural",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 320,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.plurals-agreement.es-plural": {
   "domain": "nouns-articles",
   "branch": "plurals-agreement",
