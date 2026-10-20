@@ -1,222 +1,1169 @@
 [
-{"headword": "apprentice", "word_id": "6a6ef9b2a6015561480928a0", "word_ids": ["6a6ef9b2a6015561480928a0"], "cefr": "B2", "kind": "word", "sense_label": "Learning a job", "sense_pos": "noun", "corpus_definition": "a person learning a skill by working with an expert",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "apprentice", "relation": "base", "definition": "a young person who learns a job by working with an expert", "example": "He started as an apprentice to a skilled carpenter.",
-   "syn": [{"to": "trainee", "relation": "synonym", "strength": 0.8, "note": "Very close; a trainee can learn any job, often in an office or company."},
-           {"to": "learner", "relation": "related", "strength": 0.6, "note": "Easy, general word for anyone who is learning something."},
-           {"to": "intern", "relation": "related", "strength": 0.6, "note": "An intern works for a short time, often a student in an office; an apprentice learns a craft for years."},
-           {"to": "beginner", "relation": "related", "strength": 0.4, "note": "Easy word for someone who has just started; it does not mean working with an expert."}],
-   "ant": [{"to": "master", "relation": "antonym", "note": "The skilled worker who teaches the learner: a master carpenter."},
-           {"to": "expert", "relation": "antonym", "note": "A person with a lot of skill and knowledge."}]},
-  {"slot": "noun", "status": "existing", "form": "apprenticeship", "relation": "derivational", "definition": "a period of time when you learn a job from an expert", "example": "His apprenticeship at the bakery lasted three years.",
-   "syn": [{"to": "training", "relation": "related", "strength": 0.6, "note": "General word for learning the skills for a job."},
-           {"to": "internship", "relation": "related", "strength": 0.6, "note": "Usually shorter and in an office; often for students."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "apprentice", "relation": "conversion", "definition": "to send someone to learn a craft by working with an expert", "example": "At sixteen, he was apprenticed to a tailor in Bukhara.", "note": "Usually passive: be apprenticed to someone. Not common in everyday English.",
-   "syn": [{"to": "train", "relation": "related", "strength": 0.6, "note": "General word for teaching someone the skills for a job."}],
-   "ant": []},
-  {"slot": "adjective", "status": "no_form", "note": "No adjective. Use the noun before another noun: an apprentice electrician."},
-  {"slot": "adverb", "status": "no_form"}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [{"affix": "-ship", "in_form": "apprenticeship", "meaning_key": "-ship", "also": ["friendship", "membership", "leadership"]}],
- "context": {"text": "My cousin is an apprentice in a car workshop in Samarkand. His apprenticeship lasts two years, and then he hopes to open his own garage.", "uses": ["apprentice", "apprenticeship"]},
- "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); verb is a rare conversion, usually passive."},
-
-{"headword": "approve of", "word_id": "6a4282fd46ba24054c1dcdd3", "word_ids": ["6a4282fd46ba24054c1dcdd3"], "cefr": "B2", "kind": "phrasal", "sense_label": "Opinion", "sense_pos": "verb", "corpus_definition": "To think that something is right or good.",
- "particle_note": "Not separable: 'approve of my friends', never 'approve my friends of'. Patterns: approve of + noun / -ing; approve of someone doing something.",
- "relations": [
-  {"to": "like", "relation": "related", "strength": 0.6, "note": "Easy word; like is about enjoying, approve of is about thinking something is right."},
-  {"to": "support", "relation": "related", "strength": 0.6, "note": "You agree with an idea and help it happen."},
-  {"to": "agree with", "relation": "synonym", "strength": 0.8, "note": "Close: you think an idea or action is right."},
-  {"to": "accept", "relation": "related", "strength": 0.4, "note": "Weaker: you allow it, but you may not think it is good."},
-  {"to": "disapprove of", "relation": "antonym", "note": "To think that something is wrong or bad."},
-  {"to": "object to", "relation": "antonym", "note": "To say that you do not like or agree with something."}
- ],
- "context": {"text": "My grandmother doesn't approve of eating in front of the TV. But she approves of my plan to study medicine in Tashkent.", "uses": ["approve of", "approves of"]},
- "reviewer_note": "Different from 'approve' without 'of' (officially accept a plan); this map covers the opinion sense only."},
-
-{"headword": "arise", "word_id": "6a6ef9b2a60155614809279c", "word_ids": ["6a6ef9b2a60155614809279c"], "cefr": "B2", "kind": "word", "sense_label": "Happening", "sense_pos": "verb", "corpus_definition": "to begin to happen or exist; to come up as a new issue",
- "forms": [
-  {"slot": "noun", "status": "no_form", "note": "No noun in this family. Use 'occurrence' or 'appearance' instead.", "not_family": ["rise"]},
-  {"slot": "verb", "status": "existing", "form": "arise", "relation": "base", "definition": "to begin to happen, often as a problem or question", "example": "Problems arose when the project lost its funding.", "register": "formal", "note": "Irregular: arise, arose, arisen. Don't confuse with rise (go up) and raise (lift something).",
-   "syn": [{"to": "come up", "relation": "synonym", "strength": 0.95, "note": "Everyday English with the same meaning: 'A problem came up.'"},
-           {"to": "occur", "relation": "synonym", "strength": 0.8, "note": "Formal word for happen."},
-           {"to": "happen", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; arise is used most for problems and questions."},
-           {"to": "emerge", "relation": "synonym", "strength": 0.8, "note": "Used when something becomes known: 'New facts emerged.'"},
-           {"to": "crop up", "relation": "synonym", "strength": 0.8, "note": "Informal; used when something appears suddenly.", "register": "informal"}],
-   "ant": [{"to": "disappear", "relation": "antonym", "note": "To stop existing or go away."}]},
-  {"slot": "adjective", "status": "no_form"},
-  {"slot": "adverb", "status": "no_form"}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [],
- "context": {"text": "If any questions arise during the exam, raise your hand. Last year a problem arose with the computers, so the test started late.", "uses": ["arise", "arose"]},
- "reviewer_note": "Rise and raise look similar but are separate words, listed as not_family; no false a- prefix claimed."},
-
-{"headword": "arithmetic", "word_id": "6a6ef9b2a601556148092829", "word_ids": ["6a6ef9b2a601556148092829"], "cefr": "B2", "kind": "word", "sense_label": "Maths", "sense_pos": "noun", "corpus_definition": "The study of numbers and basic ****** to combine them.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "arithmetic", "relation": "base", "definition": "the part of maths that uses adding, subtracting, multiplying and dividing", "example": "We practiced arithmetic in math class today.", "note": "Also means a calculation: 'Let me check your arithmetic.'",
-   "syn": [{"to": "calculation", "relation": "related", "strength": 0.6, "note": "The act of working out a number."},
-           {"to": "maths", "relation": "related", "strength": 0.6, "note": "Maths (British) or math (American) is the whole subject; arithmetic is only the basic part."},
-           {"to": "sums", "relation": "related", "strength": 0.6, "note": "British, informal: 'do sums' = do simple arithmetic.", "register": "informal"},
-           {"to": "numeracy", "relation": "related", "strength": 0.4, "note": "The ability to work with numbers."}],
-   "ant": []},
-  {"slot": "verb", "status": "no_form"},
-  {"slot": "adjective", "status": "existing", "form": "arithmetical", "relation": "derivational", "definition": "connected with adding, subtracting, multiplying and dividing numbers", "example": "The test checks basic arithmetical skills.",
-   "syn": [{"to": "mathematical", "relation": "synonym", "strength": 0.8, "note": "Wider: about all of maths, not only simple sums."},
-           {"to": "numerical", "relation": "related", "strength": 0.6, "note": "Connected with numbers in general."}],
-   "ant": []},
-  {"slot": "adjective", "status": "existing", "form": "arithmetic", "relation": "conversion", "definition": "connected with simple calculations with numbers", "example": "An arithmetic mistake made the final answer wrong.", "note": "Same spelling as the noun, used before another noun.",
-   "syn": [], "ant": []},
-  {"slot": "adverb", "status": "existing", "form": "arithmetically", "relation": "derivational", "definition": "in a way that is connected with simple calculations", "example": "The answer is arithmetically correct, but the method is wrong.",
-   "syn": [{"to": "mathematically", "relation": "synonym", "strength": 0.8, "note": "Wider: connected with maths in general."},
-           {"to": "numerically", "relation": "related", "strength": 0.6, "note": "In a way connected with numbers."}],
-   "ant": []}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [{"affix": "-al", "in_form": "arithmetical", "meaning_key": "-al", "also": ["musical", "historical", "magical"]},
-             {"affix": "-ly", "in_form": "arithmetically", "meaning_key": "-ly", "also": ["quickly", "carefully", "basically"]}],
- "context": {"text": "My little brother is good at arithmetic, but he made one arithmetical mistake in his homework. The teacher said his answer was arithmetically wrong but well explained.", "uses": ["arithmetic", "arithmetical", "arithmetically"]},
- "reviewer_note": "CORPUS: definition has a masked word ('******', probably 'operations'); copied as given. Adjective has two real forms: arithmetical and the conversion arithmetic."},
-
-{"headword": "artificial", "word_id": "6a42800cb9d8fc24968a4b2c", "word_ids": ["6a42800cb9d8fc24968a4b2c"], "cefr": "B2", "kind": "word", "sense_label": "Not natural", "sense_pos": "adjective", "corpus_definition": "Not natural, made by people.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "artificiality", "relation": "derivational", "definition": "the quality of not being natural or real", "example": "Critics noticed the artificiality of the film's happy ending.", "register": "formal",
-   "syn": [{"to": "falseness", "relation": "related", "strength": 0.6, "note": "The quality of not being true or real."}],
-   "ant": [{"to": "naturalness", "relation": "antonym", "note": "The quality of being natural."}]},
-  {"slot": "verb", "status": "no_form", "note": "No verb. The old word 'artifice' (a clever trick) is rare and literary."},
-  {"slot": "adjective", "status": "existing", "form": "artificial", "relation": "base", "definition": "made by people, not by nature; not real", "example": "These flowers are made of artificial silk.",
-   "syn": [{"to": "man-made", "relation": "synonym", "strength": 0.95, "note": "Made by people; very close."},
-           {"to": "fake", "relation": "synonym", "strength": 0.8, "note": "Easy word; fake often means made to trick people."},
-           {"to": "synthetic", "relation": "synonym", "strength": 0.8, "note": "Made from chemicals, for example fabrics or materials."},
-           {"to": "false", "relation": "related", "strength": 0.6, "note": "Not real or not true: false teeth."}],
-   "ant": [{"to": "natural", "relation": "antonym", "note": "Made by nature, not by people."},
-           {"to": "real", "relation": "antonym", "note": "Easy word: the true thing, not a copy."},
-           {"to": "genuine", "relation": "antonym", "note": "Really what it seems to be."}]},
-  {"slot": "adverb", "status": "existing", "form": "artificially", "relation": "derivational", "definition": "in a way that is made or done by people, not nature", "example": "The fruit was artificially coloured to look fresher.", "note": "American spelling: colored.",
-   "syn": [{"to": "unnaturally", "relation": "related", "strength": 0.6, "note": "In a way that is not normal or natural."}],
-   "ant": [{"to": "naturally", "relation": "antonym", "note": "In a natural way, without help from people."}]}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [{"affix": "-ly", "in_form": "artificially", "meaning_key": "-ly", "also": ["quickly", "naturally", "carefully"]},
-             {"affix": "-ity", "in_form": "artificiality", "meaning_key": "-ity", "also": ["reality", "ability", "activity"]}],
- "context": {"text": "My aunt never uses artificial flowers in her house in Fergana. She says fruit that is artificially sweetened tastes strange too.", "uses": ["artificial", "artificially"]},
- "reviewer_note": "artifice is related by origin but rare; mentioned only in a note. artificial intelligence (AI) is a compound phrase, left out."},
-
-{"headword": "ash", "word_id": "6a6ef9b2a601556148092685", "word_ids": ["6a6ef9b2a601556148092685"], "cefr": "B2", "kind": "word", "sense_label": "Fire", "sense_pos": "noun", "corpus_definition": "The grey powder left after something has burned.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "ash", "relation": "base", "definition": "the grey powder that is left after a fire", "example": "The fire left only ash in the fireplace.", "note": "Plural 'ashes' is used for what is left of a fire or of a dead body. Ash is also a kind of tree (another meaning).",
-   "syn": [{"to": "cinders", "relation": "related", "strength": 0.6, "note": "Small pieces of burned wood or coal that are not fully powder."},
-           {"to": "soot", "relation": "related", "strength": 0.6, "note": "Black powder from smoke, found inside chimneys."},
-           {"to": "embers", "relation": "related", "strength": 0.4, "note": "Pieces of wood still hot and glowing after a fire."},
-           {"to": "dust", "relation": "related", "strength": 0.4, "note": "Easy word for any fine dry powder."}],
-   "ant": []},
-  {"slot": "verb", "status": "no_form"},
-  {"slot": "adjective", "status": "other_meaning", "form": "ashen", "definition": "very pale in the face because of shock or illness", "example": "Her face was ashen when she heard the news.", "note": "Belongs to ash = a pale grey colour, used about faces; not the powder from a fire."},
-  {"slot": "adverb", "status": "no_form"}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [],
- "context": {"text": "After the picnic in the mountains, we put water on the fire. Only grey ash was left, and the wind blew it across the grass.", "uses": ["ash"]},
- "reviewer_note": "Only one existing form; ashtray is a compound (left out); ashen kept as other_meaning (face colour)."},
-
-{"headword": "ashamed of", "word_id": "6a4282fd46ba24054c1dcdfd", "word_ids": ["6a4282fd46ba24054c1dcdfd"], "cefr": "B2", "kind": "phrase", "sense_label": "Feeling bad", "sense_pos": "adjective", "corpus_definition": "feeling bad because you did something wrong",
- "usage_note": "be/feel ashamed of + noun / -ing / yourself: 'He was ashamed of his behavior.' Also: ashamed that + clause; ashamed to + verb. Not used before a noun: say 'an ashamed boy' rarely; prefer 'the boy was ashamed'.",
- "relations": [
-  {"to": "embarrassed", "relation": "synonym", "strength": 0.8, "note": "Embarrassed is about feeling silly in front of others; ashamed is about feeling you did something wrong."},
-  {"to": "guilty", "relation": "related", "strength": 0.6, "note": "Guilty is knowing you did wrong; ashamed adds a feeling that others think less of you."},
-  {"to": "sorry", "relation": "related", "strength": 0.6, "note": "Easy word; you feel bad and wish you had not done it."},
-  {"to": "humiliated", "relation": "related", "strength": 0.4, "note": "Much stronger: made to look stupid in public."},
-  {"to": "proud of", "relation": "antonym", "note": "Feeling happy about something you or someone close to you did."}
- ],
- "context": {"text": "Bobur was ashamed of shouting at his little sister. He said sorry, and now he is proud of how kind he is to her.", "uses": ["ashamed of"]},
- "reviewer_note": "Fixed adjective + preposition phrase; noun shame is not listed because phrases have no forms."},
-
-{"headword": "assemble", "word_id": "6a4288ad6941e70ad6a00eca", "word_ids": ["6a4288ad6941e70ad6a00eca"], "cefr": "B2", "kind": "word", "sense_label": "Building", "sense_pos": "verb", "corpus_definition": "To put together all the parts of a piece of equipment.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "assembly", "relation": "derivational", "definition": "the process of putting the parts of something together", "example": "The furniture is cheaper, but assembly is not included.", "note": "Also means a large meeting of people, a different meaning.",
-   "syn": [{"to": "construction", "relation": "related", "strength": 0.6, "note": "The process of building something, often a large thing like a house."},
-           {"to": "building", "relation": "related", "strength": 0.6, "note": "Easy word for making something by joining parts."},
-           {"to": "manufacture", "relation": "related", "strength": 0.4, "note": "Making goods in large numbers in a factory.", "register": "formal"}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "assemble", "relation": "base", "definition": "to join all the parts of something together", "example": "It is easy to assemble this new chair.",
-   "syn": [{"to": "put together", "relation": "synonym", "strength": 0.95, "note": "Everyday English with the same meaning."},
-           {"to": "build", "relation": "synonym", "strength": 0.8, "note": "Easy word; build is also used for houses and roads."},
-           {"to": "construct", "relation": "synonym", "strength": 0.8, "note": "Formal; often for large things like bridges.", "register": "formal"},
-           {"to": "set up", "relation": "related", "strength": 0.6, "note": "To get equipment ready to use, not only to join its parts."}],
-   "ant": [{"to": "take apart", "relation": "antonym", "note": "To separate something into its parts."},
-           {"to": "dismantle", "relation": "antonym", "note": "Formal: to take a machine or structure apart."},
-           {"to": "disassemble", "relation": "antonym", "note": "Technical: to take apart, the exact opposite."}]},
-  {"slot": "adjective", "status": "existing", "form": "assembled", "relation": "participial", "definition": "with all the parts already joined together", "example": "The bike arrives fully assembled and ready to ride.",
-   "syn": [{"to": "built", "relation": "related", "strength": 0.6, "note": "Made by joining parts."}],
-   "ant": []},
-  {"slot": "adverb", "status": "no_form"}
- ],
- "people": [{"form": "assembler", "kind": "person", "status": "existing", "definition": "a person or machine that puts the parts of products together", "example": "She works as an assembler in a car factory near Andijan."}],
- "people_not_family": [],
- "affixes": [],
- "context": {"text": "My father assembled the new bookshelf on Saturday. Assembly took three hours because the instructions were in Chinese.", "uses": ["assembled", "assembly"]},
- "reviewer_note": "assembly here = putting parts together; the meeting sense is its own map (headword assembly). disassemble listed as antonym, not a form (rule 3)."},
-
-{"headword": "assembly", "word_id": "6a6ef9b2a6015561480928b5", "word_ids": ["6a6ef9b2a6015561480928b5"], "cefr": "B2", "kind": "word", "sense_label": "Meeting", "sense_pos": "noun", "corpus_definition": "A large group of people meeting in one place for a reason.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "assembly", "relation": "base", "definition": "a large group of people who meet in one place for a reason", "example": "The school held an assembly in the main hall.", "note": "Also the name for some groups that make laws, and for putting parts together (another meaning).",
-   "syn": [{"to": "gathering", "relation": "synonym", "strength": 0.95, "note": "A group of people who come together; very close."},
-           {"to": "meeting", "relation": "synonym", "strength": 0.8, "note": "Easy word; a meeting can be small, an assembly is usually large."},
-           {"to": "congregation", "relation": "related", "strength": 0.6, "note": "People gathered in a mosque or church for prayer."},
-           {"to": "rally", "relation": "related", "strength": 0.4, "note": "A large public meeting to support a cause or person."},
-           {"to": "crowd", "relation": "related", "strength": 0.4, "note": "Many people together, but not organised for a meeting."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "assemble", "relation": "derivational", "definition": "to come together in one place as a group", "example": "All the students assembled in the yard before the ceremony.",
-   "syn": [{"to": "gather", "relation": "synonym", "strength": 0.95, "note": "Very close and more common."},
-           {"to": "come together", "relation": "synonym", "strength": 0.95, "note": "Easy everyday phrase with the same meaning."},
-           {"to": "meet", "relation": "synonym", "strength": 0.8, "note": "Easy word; meet is used for groups of any size."},
-           {"to": "convene", "relation": "related", "strength": 0.6, "note": "Formal: used for official meetings.", "register": "formal"}],
-   "ant": [{"to": "disperse", "relation": "antonym", "note": "When a crowd goes away in different directions."},
-           {"to": "scatter", "relation": "antonym", "note": "To move quickly in many different directions."}]},
-  {"slot": "adjective", "status": "existing", "form": "assembled", "relation": "participial", "definition": "gathered together in one place", "example": "The director thanked the assembled guests for coming.", "note": "Usually after 'the' and before a noun: the assembled crowd.",
-   "syn": [{"to": "gathered", "relation": "synonym", "strength": 0.8, "note": "Very close and a little less formal."}],
-   "ant": []},
-  {"slot": "adverb", "status": "no_form"}
- ],
- "people": [],
- "people_not_family": [],
- "affixes": [],
- "context": {"text": "Every Monday our school has an assembly. All the classes assemble in the hall, and the headteacher speaks to the assembled pupils about the week.", "uses": ["assembly", "assemble", "assembled"]},
- "reviewer_note": "Meeting sense only; the building sense (putting parts together) is covered by the separate assemble map."},
-
-{"headword": "assist", "word_id": "6a6ef83f0f1e82a5a073680f", "word_ids": ["6a6ef83f0f1e82a5a073680f"], "cefr": "B2", "kind": "word", "sense_label": "Helping", "sense_pos": "verb", "corpus_definition": "To help someone do a task.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "assistance", "relation": "derivational", "definition": "help that you give to someone", "example": "Please call this number if you need any assistance.", "register": "formal",
-   "syn": [{"to": "help", "relation": "synonym", "strength": 0.95, "note": "Everyday word with the same meaning."},
-           {"to": "aid", "relation": "synonym", "strength": 0.8, "note": "Often help with money, food or medicine: foreign aid."},
-           {"to": "support", "relation": "synonym", "strength": 0.8, "note": "Help and encouragement, often over a long time."}],
-   "ant": [{"to": "hindrance", "relation": "antonym", "note": "Something that makes a task harder."}]},
-  {"slot": "noun", "status": "other_meaning", "form": "assist", "definition": "in sport, a pass that helps a teammate score", "example": "He scored one goal and made two assists.", "note": "Belongs to the sports meaning (football, basketball), not general help."},
-  {"slot": "verb", "status": "existing", "form": "assist", "relation": "base", "definition": "to help someone do a job or task", "example": "Can you assist me with these boxes?", "register": "formal",
-   "syn": [{"to": "help", "relation": "synonym", "strength": 0.95, "note": "Everyday word; assist is more formal."},
-           {"to": "aid", "relation": "synonym", "strength": 0.8, "note": "Formal; often used in writing.", "register": "formal"},
-           {"to": "support", "relation": "synonym", "strength": 0.8, "note": "Help, often by giving money, advice or encouragement."},
-           {"to": "back up", "relation": "related", "strength": 0.6, "note": "To support someone, often by agreeing with them."}],
-   "ant": [{"to": "hinder", "relation": "antonym", "note": "To make it harder for someone to do something."},
-           {"to": "obstruct", "relation": "antonym", "note": "Formal: to block or stop progress."}]},
-  {"slot": "adjective", "status": "existing", "form": "assistive", "relation": "derivational", "definition": "designed to help people with a disability do things", "example": "Assistive technology helps blind students read on computers.", "note": "Mostly used in 'assistive technology' and 'assistive devices'.",
-   "syn": [{"to": "helpful", "relation": "related", "strength": 0.6, "note": "Easy, general word for giving help."},
-           {"to": "supportive", "relation": "related", "strength": 0.4, "note": "Usually about people who give kindness and encouragement."}],
-   "ant": []},
-  {"slot": "adverb", "status": "no_form"}
- ],
- "people": [{"form": "assistant", "kind": "job", "status": "existing", "definition": "a person whose job is to help another person in their work", "example": "The doctor's assistant took my blood pressure."}],
- "people_not_family": [],
- "affixes": [{"affix": "-ance", "in_form": "assistance", "meaning_key": "-ance", "also": ["performance", "appearance", "acceptance"]},
-             {"affix": "-ant", "in_form": "assistant", "meaning_key": "-ant", "also": ["servant", "applicant", "participant"]},
-             {"affix": "-ive", "in_form": "assistive", "meaning_key": "-ive", "also": ["active", "creative", "attractive"]}],
- "context": {"text": "My sister works as an assistant in a clinic in Namangan. She assists the doctor every morning, and patients often ask her for assistance with forms.", "uses": ["assistant", "assists", "assistance"]},
- "reviewer_note": "Sports noun 'an assist' kept as other_meaning; assistant goes in people (rule 8)."}
+ {
+  "headword": "apprentice",
+  "word_id": "6a6ef9b2a6015561480928a0",
+  "word_ids": [
+   "6a6ef9b2a6015561480928a0"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Learning a job",
+  "sense_pos": "noun",
+  "corpus_definition": "a person learning a skill by working with an expert",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "apprentice",
+    "relation": "base",
+    "definition": "a young person who learns a job by working with an expert",
+    "example": "He started as an apprentice to a skilled carpenter.",
+    "syn": [
+     {
+      "to": "trainee",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close; a trainee can learn any job, often in an office or company."
+     },
+     {
+      "to": "learner",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word for anyone who is learning something."
+     },
+     {
+      "to": "intern",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "An intern works for a short time, often a student in an office; an apprentice learns a craft for years."
+     },
+     {
+      "to": "beginner",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word for someone who has just started; it does not mean working with an expert."
+     }
+    ],
+    "ant": [
+     {
+      "to": "master",
+      "relation": "antonym",
+      "note": "The skilled worker who teaches the learner: a master carpenter."
+     },
+     {
+      "to": "expert",
+      "relation": "antonym",
+      "note": "A person with a lot of skill and knowledge."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "apprenticeship",
+    "relation": "derivational",
+    "definition": "a period of time when you learn a job from an expert",
+    "example": "His apprenticeship at the bakery lasted three years.",
+    "syn": [
+     {
+      "to": "training",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "General word for learning the skills for a job."
+     },
+     {
+      "to": "internship",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Usually shorter and in an office; often for students."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "apprentice",
+    "relation": "conversion",
+    "definition": "to send someone to learn a craft by working with an expert",
+    "example": "At sixteen, he was apprenticed to a tailor in Bukhara.",
+    "note": "Usually passive: be apprenticed to someone. Not common in everyday English.",
+    "syn": [
+     {
+      "to": "train",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "General word for teaching someone the skills for a job."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "No adjective. Use the noun before another noun: an apprentice electrician."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ship",
+    "in_form": "apprenticeship",
+    "meaning_key": "-ship",
+    "also": [
+     "friendship",
+     "membership",
+     "leadership"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My cousin is an apprentice in a car workshop in Samarkand. His apprenticeship lasts two years, and then he hopes to open his own garage.",
+   "uses": [
+    "apprentice",
+    "apprenticeship"
+   ]
+  },
+  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); verb is a rare conversion, usually passive."
+ },
+ {
+  "headword": "approve of",
+  "word_id": "6a4282fd46ba24054c1dcdd3",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcdd3"
+  ],
+  "cefr": "B2",
+  "kind": "phrasal",
+  "sense_label": "Opinion",
+  "sense_pos": "verb",
+  "corpus_definition": "To think that something is right or good.",
+  "particle_note": "Not separable: 'approve of my friends', never 'approve my friends of'. Patterns: approve of + noun / -ing; approve of someone doing something.",
+  "relations": [
+   {
+    "to": "like",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Easy word; like is about enjoying, approve of is about thinking something is right."
+   },
+   {
+    "to": "support",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "You agree with an idea and help it happen."
+   },
+   {
+    "to": "agree with",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Close: you think an idea or action is right."
+   },
+   {
+    "to": "accept",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Weaker: you allow it, but you may not think it is good."
+   },
+   {
+    "to": "disapprove of",
+    "relation": "antonym",
+    "note": "To think that something is wrong or bad."
+   },
+   {
+    "to": "object to",
+    "relation": "antonym",
+    "note": "To say that you do not like or agree with something."
+   }
+  ],
+  "context": {
+   "text": "My grandmother doesn't approve of eating in front of the TV. But she approves of my plan to study medicine in Tashkent.",
+   "uses": [
+    "approve of",
+    "approves of"
+   ]
+  },
+  "reviewer_note": "Different from 'approve' without 'of' (officially accept a plan); this map covers the opinion sense only."
+ },
+ {
+  "headword": "arise",
+  "word_id": "6a6ef9b2a60155614809279c",
+  "word_ids": [
+   "6a6ef9b2a60155614809279c"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Happening",
+  "sense_pos": "verb",
+  "corpus_definition": "to begin to happen or exist; to come up as a new issue",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "no_form",
+    "note": "No noun in this family. Use 'occurrence' or 'appearance' instead.",
+    "not_family": [
+     "rise"
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "arise",
+    "relation": "base",
+    "definition": "to begin to happen, often as a problem or question",
+    "example": "Problems arose when the project lost its funding.",
+    "register": "formal",
+    "note": "Irregular: arise, arose, arisen. Don't confuse with rise (go up) and raise (lift something).",
+    "syn": [
+     {
+      "to": "come up",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Everyday English with the same meaning: 'A problem came up.'"
+     },
+     {
+      "to": "occur",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal word for happen."
+     },
+     {
+      "to": "happen",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; arise is used most for problems and questions."
+     },
+     {
+      "to": "emerge",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used when something becomes known: 'New facts emerged.'"
+     },
+     {
+      "to": "crop up",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal; used when something appears suddenly.",
+      "register": "informal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "disappear",
+      "relation": "antonym",
+      "note": "To stop existing or go away."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "If any questions arise during the exam, raise your hand. Last year a problem arose with the computers, so the test started late.",
+   "uses": [
+    "arise",
+    "arose"
+   ]
+  },
+  "reviewer_note": "Rise and raise look similar but are separate words, listed as not_family; no false a- prefix claimed."
+ },
+ {
+  "headword": "arithmetic",
+  "word_id": "6a6ef9b2a601556148092829",
+  "word_ids": [
+   "6a6ef9b2a601556148092829"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Maths",
+  "sense_pos": "noun",
+  "corpus_definition": "The study of numbers and basic ****** to combine them.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "arithmetic",
+    "relation": "base",
+    "definition": "the part of maths that uses adding, subtracting, multiplying and dividing",
+    "example": "We practiced arithmetic in math class today.",
+    "note": "Also means a calculation: 'Let me check your arithmetic.'",
+    "syn": [
+     {
+      "to": "calculation",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The act of working out a number."
+     },
+     {
+      "to": "maths",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Maths (British) or math (American) is the whole subject; arithmetic is only the basic part."
+     },
+     {
+      "to": "sums",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "British, informal: 'do sums' = do simple arithmetic.",
+      "register": "informal"
+     },
+     {
+      "to": "numeracy",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The ability to work with numbers."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form"
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "arithmetical",
+    "relation": "derivational",
+    "definition": "connected with adding, subtracting, multiplying and dividing numbers",
+    "example": "The test checks basic arithmetical skills.",
+    "syn": [
+     {
+      "to": "mathematical",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Wider: about all of maths, not only simple sums."
+     },
+     {
+      "to": "numerical",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Connected with numbers in general."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "arithmetic",
+    "relation": "conversion",
+    "definition": "connected with simple calculations with numbers",
+    "example": "An arithmetic mistake made the final answer wrong.",
+    "note": "Same spelling as the noun, used before another noun.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "arithmetically",
+    "relation": "derivational",
+    "definition": "in a way that is connected with simple calculations",
+    "example": "The answer is arithmetically correct, but the method is wrong.",
+    "syn": [
+     {
+      "to": "mathematically",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Wider: connected with maths in general."
+     },
+     {
+      "to": "numerically",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a way connected with numbers."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-al",
+    "in_form": "arithmetical",
+    "meaning_key": "-al",
+    "also": [
+     "musical",
+     "historical",
+     "magical"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "arithmetically",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "carefully",
+     "basically"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My little brother is good at arithmetic, but he made one arithmetical mistake in his homework. The teacher said his answer was arithmetically wrong but well explained.",
+   "uses": [
+    "arithmetic",
+    "arithmetical",
+    "arithmetically"
+   ]
+  },
+  "reviewer_note": "CORPUS: definition has a masked word ('******', probably 'operations'); copied as given. Adjective has two real forms: arithmetical and the conversion arithmetic."
+ },
+ {
+  "headword": "artificial",
+  "word_id": "6a42800cb9d8fc24968a4b2c",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b2c"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Not natural",
+  "sense_pos": "adjective",
+  "corpus_definition": "Not natural, made by people.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "artificiality",
+    "relation": "derivational",
+    "definition": "the quality of not being natural or real",
+    "example": "Critics noticed the artificiality of the film's happy ending.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "falseness",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The quality of not being true or real."
+     }
+    ],
+    "ant": [
+     {
+      "to": "naturalness",
+      "relation": "antonym",
+      "note": "The quality of being natural."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb. The old word 'artifice' (a clever trick) is rare and literary."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "artificial",
+    "relation": "base",
+    "definition": "made by people, not by nature; not real",
+    "example": "These flowers are made of artificial silk.",
+    "syn": [
+     {
+      "to": "man-made",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Made by people; very close."
+     },
+     {
+      "to": "fake",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; fake often means made to trick people."
+     },
+     {
+      "to": "synthetic",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Made from chemicals, for example fabrics or materials."
+     },
+     {
+      "to": "false",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Not real or not true: false teeth."
+     }
+    ],
+    "ant": [
+     {
+      "to": "natural",
+      "relation": "antonym",
+      "note": "Made by nature, not by people."
+     },
+     {
+      "to": "real",
+      "relation": "antonym",
+      "note": "Easy word: the true thing, not a copy."
+     },
+     {
+      "to": "genuine",
+      "relation": "antonym",
+      "note": "Really what it seems to be."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "artificially",
+    "relation": "derivational",
+    "definition": "in a way that is made or done by people, not nature",
+    "example": "The fruit was artificially coloured to look fresher.",
+    "note": "American spelling: colored.",
+    "syn": [
+     {
+      "to": "unnaturally",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a way that is not normal or natural."
+     }
+    ],
+    "ant": [
+     {
+      "to": "naturally",
+      "relation": "antonym",
+      "note": "In a natural way, without help from people."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "artificially",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "naturally",
+     "carefully"
+    ]
+   },
+   {
+    "affix": "-ity",
+    "in_form": "artificiality",
+    "meaning_key": "-ity",
+    "also": [
+     "reality",
+     "ability",
+     "activity"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My aunt never uses artificial flowers in her house in Fergana. She says fruit that is artificially sweetened tastes strange too.",
+   "uses": [
+    "artificial",
+    "artificially"
+   ]
+  },
+  "reviewer_note": "artifice is related by origin but rare; mentioned only in a note. artificial intelligence (AI) is a compound phrase, left out."
+ },
+ {
+  "headword": "ash",
+  "word_id": "6a6ef9b2a601556148092685",
+  "word_ids": [
+   "6a6ef9b2a601556148092685"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Fire",
+  "sense_pos": "noun",
+  "corpus_definition": "The grey powder left after something has burned.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "ash",
+    "relation": "base",
+    "definition": "the grey powder that is left after a fire",
+    "example": "The fire left only ash in the fireplace.",
+    "note": "Plural 'ashes' is used for what is left of a fire or of a dead body. Ash is also a kind of tree (another meaning).",
+    "syn": [
+     {
+      "to": "cinders",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Small pieces of burned wood or coal that are not fully powder."
+     },
+     {
+      "to": "soot",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Black powder from smoke, found inside chimneys."
+     },
+     {
+      "to": "embers",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Pieces of wood still hot and glowing after a fire."
+     },
+     {
+      "to": "dust",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word for any fine dry powder."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form"
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "ashen",
+    "definition": "very pale in the face because of shock or illness",
+    "example": "Her face was ashen when she heard the news.",
+    "note": "Belongs to ash = a pale grey colour, used about faces; not the powder from a fire."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "After the picnic in the mountains, we put water on the fire. Only grey ash was left, and the wind blew it across the grass.",
+   "uses": [
+    "ash"
+   ]
+  },
+  "reviewer_note": "Only one existing form; ashtray is a compound (left out); ashen kept as other_meaning (face colour)."
+ },
+ {
+  "headword": "ashamed of",
+  "word_id": "6a4282fd46ba24054c1dcdfd",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcdfd"
+  ],
+  "cefr": "B2",
+  "kind": "phrase",
+  "sense_label": "Feeling bad",
+  "sense_pos": "adjective",
+  "corpus_definition": "feeling bad because you did something wrong",
+  "usage_note": "be/feel ashamed of + noun / -ing / yourself: 'He was ashamed of his behavior.' Also: ashamed that + clause; ashamed to + verb. Not used before a noun: say 'an ashamed boy' rarely; prefer 'the boy was ashamed'.",
+  "relations": [
+   {
+    "to": "embarrassed",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Embarrassed is about feeling silly in front of others; ashamed is about feeling you did something wrong."
+   },
+   {
+    "to": "guilty",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Guilty is knowing you did wrong; ashamed adds a feeling that others think less of you."
+   },
+   {
+    "to": "sorry",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Easy word; you feel bad and wish you had not done it."
+   },
+   {
+    "to": "humiliated",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Much stronger: made to look stupid in public."
+   },
+   {
+    "to": "proud of",
+    "relation": "antonym",
+    "note": "Feeling happy about something you or someone close to you did."
+   }
+  ],
+  "context": {
+   "text": "Bobur was ashamed of shouting at his little sister. He said sorry, and now he is proud of how kind he is to her.",
+   "uses": [
+    "ashamed of"
+   ]
+  },
+  "reviewer_note": "Fixed adjective + preposition phrase; noun shame is not listed because phrases have no forms."
+ },
+ {
+  "headword": "assemble",
+  "word_id": "6a4288ad6941e70ad6a00eca",
+  "word_ids": [
+   "6a4288ad6941e70ad6a00eca"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Building",
+  "sense_pos": "verb",
+  "corpus_definition": "To put together all the parts of a piece of equipment.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "assembly",
+    "relation": "derivational",
+    "definition": "the process of putting the parts of something together",
+    "example": "The furniture is cheaper, but assembly is not included.",
+    "note": "Also means a large meeting of people, a different meaning.",
+    "syn": [
+     {
+      "to": "construction",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The process of building something, often a large thing like a house."
+     },
+     {
+      "to": "building",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word for making something by joining parts."
+     },
+     {
+      "to": "manufacture",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Making goods in large numbers in a factory.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "assemble",
+    "relation": "base",
+    "definition": "to join all the parts of something together",
+    "example": "It is easy to assemble this new chair.",
+    "syn": [
+     {
+      "to": "put together",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Everyday English with the same meaning."
+     },
+     {
+      "to": "build",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; build is also used for houses and roads."
+     },
+     {
+      "to": "construct",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal; often for large things like bridges.",
+      "register": "formal"
+     },
+     {
+      "to": "set up",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To get equipment ready to use, not only to join its parts."
+     }
+    ],
+    "ant": [
+     {
+      "to": "take apart",
+      "relation": "antonym",
+      "note": "To separate something into its parts."
+     },
+     {
+      "to": "dismantle",
+      "relation": "antonym",
+      "note": "Formal: to take a machine or structure apart."
+     },
+     {
+      "to": "disassemble",
+      "relation": "antonym",
+      "note": "Technical: to take apart, the exact opposite."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "assembled",
+    "relation": "participial",
+    "definition": "with all the parts already joined together",
+    "example": "The bike arrives fully assembled and ready to ride.",
+    "syn": [
+     {
+      "to": "built",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Made by joining parts."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [
+   {
+    "form": "assembler",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person or machine that puts the parts of products together",
+    "example": "She works as an assembler in a car factory near Andijan."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My father assembled the new bookshelf on Saturday. Assembly took three hours because the instructions were in Chinese.",
+   "uses": [
+    "assembled",
+    "assembly"
+   ]
+  },
+  "reviewer_note": "assembly here = putting parts together; the meeting sense is its own map (headword assembly). disassemble listed as antonym, not a form (rule 3)."
+ },
+ {
+  "headword": "assembly",
+  "word_id": "6a6ef9b2a6015561480928b5",
+  "word_ids": [
+   "6a6ef9b2a6015561480928b5"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Meeting",
+  "sense_pos": "noun",
+  "corpus_definition": "A large group of people meeting in one place for a reason.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "assembly",
+    "relation": "base",
+    "definition": "a large group of people who meet in one place for a reason",
+    "example": "The school held an assembly in the main hall.",
+    "note": "Also the name for some groups that make laws, and for putting parts together (another meaning).",
+    "syn": [
+     {
+      "to": "gathering",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "A group of people who come together; very close."
+     },
+     {
+      "to": "meeting",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; a meeting can be small, an assembly is usually large."
+     },
+     {
+      "to": "congregation",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "People gathered in a mosque or church for prayer."
+     },
+     {
+      "to": "rally",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A large public meeting to support a cause or person."
+     },
+     {
+      "to": "crowd",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Many people together, but not organised for a meeting."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "assemble",
+    "relation": "derivational",
+    "definition": "to come together in one place as a group",
+    "example": "All the students assembled in the yard before the ceremony.",
+    "syn": [
+     {
+      "to": "gather",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close and more common."
+     },
+     {
+      "to": "come together",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy everyday phrase with the same meaning."
+     },
+     {
+      "to": "meet",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; meet is used for groups of any size."
+     },
+     {
+      "to": "convene",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Formal: used for official meetings.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "disperse",
+      "relation": "antonym",
+      "note": "When a crowd goes away in different directions."
+     },
+     {
+      "to": "scatter",
+      "relation": "antonym",
+      "note": "To move quickly in many different directions."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "assembled",
+    "relation": "participial",
+    "definition": "gathered together in one place",
+    "example": "The director thanked the assembled guests for coming.",
+    "note": "Usually after 'the' and before a noun: the assembled crowd.",
+    "syn": [
+     {
+      "to": "gathered",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close and a little less formal."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Every Monday our school has an assembly. All the classes assemble in the hall, and the headteacher speaks to the assembled pupils about the week.",
+   "uses": [
+    "assembly",
+    "assemble",
+    "assembled"
+   ]
+  },
+  "reviewer_note": "Meeting sense only; the building sense (putting parts together) is covered by the separate assemble map."
+ },
+ {
+  "headword": "assist",
+  "word_id": "6a6ef83f0f1e82a5a073680f",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073680f"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Helping",
+  "sense_pos": "verb",
+  "corpus_definition": "To help someone do a task.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "assistance",
+    "relation": "derivational",
+    "definition": "help that you give to someone",
+    "example": "Please call this number if you need any assistance.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "help",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Everyday word with the same meaning."
+     },
+     {
+      "to": "aid",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Often help with money, food or medicine: foreign aid."
+     },
+     {
+      "to": "support",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Help and encouragement, often over a long time."
+     }
+    ],
+    "ant": [
+     {
+      "to": "hindrance",
+      "relation": "antonym",
+      "note": "Something that makes a task harder."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "assist",
+    "definition": "in sport, a pass that helps a teammate score",
+    "example": "He scored one goal and made two assists.",
+    "note": "Belongs to the sports meaning (football, basketball), not general help."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "assist",
+    "relation": "base",
+    "definition": "to help someone do a job or task",
+    "example": "Can you assist me with these boxes?",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "help",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Everyday word; assist is more formal."
+     },
+     {
+      "to": "aid",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal; often used in writing.",
+      "register": "formal"
+     },
+     {
+      "to": "support",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Help, often by giving money, advice or encouragement."
+     },
+     {
+      "to": "back up",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To support someone, often by agreeing with them."
+     }
+    ],
+    "ant": [
+     {
+      "to": "hinder",
+      "relation": "antonym",
+      "note": "To make it harder for someone to do something."
+     },
+     {
+      "to": "obstruct",
+      "relation": "antonym",
+      "note": "Formal: to block or stop progress."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "assistive",
+    "relation": "derivational",
+    "definition": "designed to help people with a disability do things",
+    "example": "Assistive technology helps blind students read on computers.",
+    "note": "Mostly used in 'assistive technology' and 'assistive devices'.",
+    "syn": [
+     {
+      "to": "helpful",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word for giving help."
+     },
+     {
+      "to": "supportive",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Usually about people who give kindness and encouragement."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [
+   {
+    "form": "assistant",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person whose job is to help another person in their work",
+    "example": "The doctor's assistant took my blood pressure."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ance",
+    "in_form": "assistance",
+    "meaning_key": "-ance",
+    "also": [
+     "performance",
+     "appearance",
+     "acceptance"
+    ]
+   },
+   {
+    "affix": "-ant",
+    "in_form": "assistant",
+    "meaning_key": "-ant",
+    "also": [
+     "servant",
+     "applicant",
+     "participant"
+    ]
+   },
+   {
+    "affix": "-ive",
+    "in_form": "assistive",
+    "meaning_key": "-ive",
+    "also": [
+     "active",
+     "creative",
+     "attractive"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My sister works as an assistant in a clinic in Namangan. She assists the doctor every morning, and patients often ask her for assistance with forms.",
+   "uses": [
+    "assistant",
+    "assists",
+    "assistance"
+   ]
+  },
+  "reviewer_note": "Sports noun 'an assist' kept as other_meaning; assistant goes in people (rule 8).",
+  "gate_overrides": [
+   {
+    "msg_contains": "'assistant' is a compound (assist + ant)",
+    "reason": "assistant = assist + suffix -ant (agent noun, like applicant, participant), not a compound with the word 'ant'."
+   }
+  ]
+ }
 ]
