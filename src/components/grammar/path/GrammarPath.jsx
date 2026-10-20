@@ -19,6 +19,7 @@ const STR = {
     continue: "Davom etish", allDone: "Hozircha hammasi bajarildi!", learn: "O'rganish", learnSoon: "Tez orada",
     practice: "Mashq", stageOff: "Hozircha mavjud emas", reviewTitle: "Takrorlash kerak", close: "Yopish",
     noContent: "Bu mavzu uchun mashqlar tayyorlanmoqda.",
+    stages: { choose: ["Tanlash", "To'g'ri shaklni toping"], build: ["Tuzish", "O'zingiz yozing"], transform: ["O'zgartirish", "Gapni o'zgartiring"], create: ["Yaratish", ""], express: ["Erkin nutq", ""] },
   },
   en: {
     unit: "Unit", next: "Next", soon: "Coming soon", preview: "Preview", review: "Review",
@@ -27,6 +28,7 @@ const STR = {
     continue: "Continue", allDone: "All caught up for now!", learn: "Learn", learnSoon: "Coming soon",
     practice: "Practice", stageOff: "Not available yet", reviewTitle: "Due for review", close: "Close",
     noContent: "Practice for this topic is being written.",
+    stages: { choose: ["Choose", "Spot the right form"], build: ["Build", "Make it yourself"], transform: ["Transform", "Change the sentence"], create: ["Create", ""], express: ["Express", ""] },
   },
   ru: {
     unit: "Раздел", next: "Дальше", soon: "Скоро", preview: "Дополнительно", review: "Повторить",
@@ -35,6 +37,7 @@ const STR = {
     continue: "Продолжить", allDone: "Пока всё пройдено!", learn: "Теория", learnSoon: "Скоро",
     practice: "Практика", stageOff: "Пока недоступно", reviewTitle: "Нужно повторить", close: "Закрыть",
     noContent: "Упражнения для этой темы готовятся.",
+    stages: { choose: ["Выбор", "Найдите правильную форму"], build: ["Сборка", "Напишите сами"], transform: ["Преобразование", "Измените предложение"], create: ["Создание", ""], express: ["Свободная речь", ""] },
   },
 };
 
@@ -42,7 +45,9 @@ const levelOf = (key) => PRACTICE_MANIFEST[key]?.level || null;
 
 function StatusDot({ status, isNext, playable }) {
   if (!playable) {
-    return <span className="w-9 h-9 rounded-full border border-white/10 bg-white/[0.03] flex items-center justify-center"><Lock className="w-3.5 h-3.5 text-muted-foreground/50" /></span>;
+    // Not written yet: a dashed outline, NOT a lock. Nothing on the Path is
+    // locked; this topic simply has no practice bank yet.
+    return <span className="w-9 h-9 rounded-full border-2 border-dashed border-white/15" aria-hidden="true" />;
   }
   if (status === STATUS.SECURE) {
     return <span className="w-9 h-9 rounded-full flex items-center justify-center" style={{ background: ACCENT }}><Check className="w-4 h-4 text-black" strokeWidth={3} /></span>;
@@ -166,8 +171,8 @@ function TopicSheet({ topicKey, s, lang, status, playable, onClose, onStart }) {
                     className={`w-full flex items-center gap-3 rounded-2xl border px-4 py-3 text-left min-h-[48px] ${st.ai ? "border-white/5 opacity-50" : "border-white/15 hover:bg-white/[0.05]"}`}>
                     <Icon className="w-5 h-5" style={st.ai ? undefined : { color: ACCENT }} />
                     <span className="flex-1">
-                      <span className="block font-semibold text-foreground">{st.name}</span>
-                      <span className="block text-xs text-muted-foreground">{st.ai ? s.stageOff : st.blurb}</span>
+                      <span className="block font-semibold text-foreground">{s.stages[st.id]?.[0] || st.name}</span>
+                      <span className="block text-xs text-muted-foreground">{st.ai ? s.stageOff : (s.stages[st.id]?.[1] || st.blurb)}</span>
                     </span>
                   </button>
                 );
@@ -245,9 +250,9 @@ export default function GrammarPath({ lang, statuses, available, onStart, openKe
       <div className="fixed inset-x-0 bottom-0 z-40 px-4 pb-[calc(env(safe-area-inset-bottom)+12px)] pt-3 bg-gradient-to-t from-background via-background/95 to-transparent">
         <div className="max-w-lg mx-auto">
           <button type="button" onClick={continueNext} disabled={!next}
-            className="w-full h-14 rounded-2xl font-bold text-base text-black flex items-center justify-center gap-2 disabled:opacity-50"
+            className="w-full h-14 px-4 rounded-2xl font-bold text-base text-black flex items-center justify-center gap-2 disabled:opacity-50 min-w-0"
             style={{ background: ACCENT }}>
-            {next ? (<><Sparkles className="w-5 h-5" /> {s.continue} · {topicLabel(next.key, lang)}</>) : s.allDone}
+            {next ? (<><Sparkles className="w-5 h-5 shrink-0" /> <span className="truncate">{s.continue} · {topicLabel(next.key, lang)}</span></>) : s.allDone}
           </button>
         </div>
       </div>
