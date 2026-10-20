@@ -1,0 +1,139 @@
+[
+{"headword": "calorie", "word_id": "6a4288ad6941e70ad6a00ea2", "word_ids": ["6a4288ad6941e70ad6a00ea2"], "cefr": "B2", "kind": "word", "sense_label": "Food", "sense_pos": "noun", "corpus_definition": "A unit used to measure the energy provided by food.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "calorie", "relation": "base", "definition": "a unit for measuring how much energy food gives you", "example": "A glass of cola has about 140 calories.", "syn": [{"to": "energy", "relation": "related", "strength": 0.4, "note": "Energy is what your body gets from food; a calorie is the unit we use to measure it."}, {"to": "kilojoule", "relation": "related", "strength": 0.6, "note": "Another unit for food energy, used on labels in some countries. One calorie is about 4.2 kilojoules."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from this word."},
+  {"slot": "adjective", "status": "existing", "form": "calorific", "relation": "derivational", "definition": "containing a lot of energy from food, so it can make you fat", "example": "Fried food is very calorific, so I only eat it at weekends.", "register": "informal", "note": "Mainly British. American English often uses caloric.", "syn": [{"to": "fattening", "relation": "synonym", "strength": 0.8, "note": "Everyday word for food that can make you put on weight."}, {"to": "rich", "relation": "related", "strength": 0.6, "note": "Rich food has a lot of fat, sugar or cream in it."}, {"to": "heavy", "relation": "related", "strength": 0.4, "note": "Heavy food is hard to digest and makes you feel full."}], "ant": [{"to": "light", "relation": "antonym", "note": "Light food has little fat and is easy to digest."}]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from this word."}
+ ],
+ "people": [], "people_not_family": [], "affixes": [],
+ "context": {"text": "My sister counts every calorie because she wants to lose weight. She says plov is too calorific, so she eats salad on weekdays.", "uses": ["calorie", "calorific"]},
+ "reviewer_note": "Corpus example is ungrammatical ('too many calorie counts'); our example is new. calorific kept as the adjective (in OALD/Cambridge); American caloric mentioned in a note."},
+
+{"headword": "candidate", "word_id": "6a6ef83f0f1e82a5a0736746", "word_ids": ["6a6ef83f0f1e82a5a0736746"], "cefr": "B2", "kind": "word", "sense_label": "Job", "sense_pos": "noun", "corpus_definition": "A person who is trying to get a job or position.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "candidate", "relation": "base", "definition": "a person who is trying to get a job or be elected", "example": "There are five candidates for the manager's job.", "syn": [{"to": "applicant", "relation": "synonym", "strength": 0.8, "note": "An applicant has sent an application; candidate is also used in elections."}, {"to": "contender", "relation": "synonym", "strength": 0.8, "note": "Someone with a real chance of winning a job, prize or competition."}, {"to": "nominee", "relation": "related", "strength": 0.6, "note": "A person who has been officially chosen to compete for a position or prize."}], "ant": []},
+  {"slot": "noun", "status": "existing", "form": "candidacy", "relation": "derivational", "definition": "the fact of trying to be elected or chosen for a position", "example": "She announced her candidacy for president of the student union.", "register": "formal", "note": "British English also uses candidature.", "syn": [], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from this word."},
+  {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from this word."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from this word."}
+ ],
+ "people": [], "people_not_family": [], "affixes": [],
+ "context": {"text": "Ten candidates came to the interview at the bank in Tashkent. After one candidate announced her candidacy for the top job, the others felt nervous.", "uses": ["candidates", "candidate", "candidacy"]},
+ "reviewer_note": "Headword is itself a person noun, so it stays the main noun entry (rule 6); candidacy is the state noun."},
+
+{"headword": "capacity", "word_id": "6a6ef83f0f1e82a5a073671f", "word_ids": ["6a6ef83f0f1e82a5a073671f"], "cefr": "B2", "kind": "word", "sense_label": "Space", "sense_pos": "noun", "corpus_definition": "The amount that can be held inside something.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "capacity", "relation": "base", "definition": "the largest amount or number that something can hold", "example": "The stadium has a capacity of 30,000 people.", "note": "Also 'full to capacity' = completely full.", "syn": [{"to": "volume", "relation": "synonym", "strength": 0.8, "note": "Volume is the amount of space inside something, often for liquids."}, {"to": "space", "relation": "related", "strength": 0.6, "note": "Space is the empty area; capacity is how much it can hold."}, {"to": "room", "relation": "related", "strength": 0.6, "note": "Everyday word: 'Is there room for one more?'"}, {"to": "size", "relation": "related", "strength": 0.4, "note": "Size is how big something is, not how much it holds."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from this word in this meaning."},
+  {"slot": "adjective", "status": "existing", "form": "capacious", "relation": "derivational", "definition": "having a lot of space inside", "example": "She keeps everything in her capacious handbag.", "register": "formal", "syn": [{"to": "roomy", "relation": "synonym", "strength": 0.95, "note": "Everyday, informal word with the same meaning."}, {"to": "spacious", "relation": "synonym", "strength": 0.95, "note": "Common for rooms, flats and cars."}, {"to": "big", "relation": "related", "strength": 0.6, "note": "Simple general word; it does not say there is space inside."}], "ant": [{"to": "cramped", "relation": "antonym", "note": "Without enough space for people or things."}]},
+  {"slot": "adverb", "status": "no_form", "note": "capaciously exists but is extremely rare; learners do not need it."}
+ ],
+ "people": [], "people_not_family": [], "affixes": [],
+ "context": {"text": "The new concert hall in Tashkent was full to capacity on Saturday. Even its capacious car park had no free spaces.", "uses": ["capacity", "capacious"]},
+ "reviewer_note": "Corpus example does not contain the word; new example written. Map keeps the 'amount held' sense; capable/incapacity (ability sense) left out on purpose."},
+
+{"headword": "cargo", "word_id": "6a6ef83f0f1e82a5a0736682", "word_ids": ["6a6ef83f0f1e82a5a0736682"], "cefr": "B2", "kind": "word", "sense_label": "Transport", "sense_pos": "noun", "corpus_definition": "Things that are being moved by a ship, plane, or truck.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "cargo", "relation": "base", "definition": "goods that a ship, plane or truck carries from place to place", "example": "The ship carried heavy cargo across the ocean.", "note": "Plural: cargoes or cargos.", "syn": [{"to": "freight", "relation": "synonym", "strength": 0.95, "note": "Very close; freight is common in business and American English."}, {"to": "goods", "relation": "synonym", "strength": 0.8, "note": "Easy general word for things that are bought, sold or moved."}, {"to": "load", "relation": "synonym", "strength": 0.8, "note": "Everything one vehicle carries at one time."}, {"to": "shipment", "relation": "related", "strength": 0.6, "note": "One delivery of goods sent together."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from this word."},
+  {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from this word."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from this word."}
+ ],
+ "people": [], "people_not_family": [], "affixes": [],
+ "context": {"text": "Every week, trains bring cargo from China to Uzbekistan. The cargo is usually clothes, phones and machines.", "uses": ["cargo"]},
+ "reviewer_note": "Only one form exists; compounds like cargo ship are left out (rule 7)."},
+
+{"headword": "cautious", "word_id": "6a6ef9b2a6015561480926fd", "word_ids": ["6a6ef9b2a6015561480926fd"], "cefr": "B2", "kind": "word", "sense_label": "Careful", "sense_pos": "adjective", "corpus_definition": "Being careful to avoid possible problems or dangers.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "caution", "relation": "derivational", "definition": "great care to avoid danger or mistakes", "example": "Drive with caution when the roads are wet.", "syn": [{"to": "care", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word: 'Handle with care.'"}, {"to": "carefulness", "relation": "synonym", "strength": 0.8, "note": "Same idea, but less common."}, {"to": "prudence", "relation": "synonym", "strength": 0.8, "note": "Formal: careful and sensible thinking before acting.", "register": "formal"}], "ant": [{"to": "carelessness", "relation": "antonym", "note": "Not paying attention, so you make mistakes."}, {"to": "recklessness", "relation": "antonym", "note": "Doing dangerous things without thinking about the results."}]},
+  {"slot": "noun", "status": "existing", "form": "precaution", "relation": "derivational", "definition": "something you do early to stop something bad from happening", "example": "As a precaution, we took extra water on the trip.", "syn": [], "ant": []},
+  {"slot": "noun", "status": "existing", "form": "cautiousness", "relation": "derivational", "definition": "the quality of always being careful", "example": "His cautiousness kept him safe in the mountains.", "syn": [], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "caution", "relation": "derivational", "definition": "to tell someone to be careful about a danger", "example": "The guide cautioned us not to swim in the river.", "register": "formal", "syn": [{"to": "warn", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word with the same meaning."}, {"to": "advise", "relation": "related", "strength": 0.6, "note": "To tell someone what you think they should do."}], "ant": [{"to": "encourage", "relation": "antonym", "note": "To tell someone to go ahead and do something."}]},
+  {"slot": "adjective", "status": "existing", "form": "cautious", "relation": "base", "definition": "careful to avoid danger or problems", "example": "He is very cautious when walking on slippery ice.", "syn": [{"to": "careful", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word with almost the same meaning."}, {"to": "wary", "relation": "synonym", "strength": 0.8, "note": "Careful because you do not trust someone or something."}, {"to": "prudent", "relation": "synonym", "strength": 0.8, "note": "Formal: sensible and careful, especially with money.", "register": "formal"}], "ant": [{"to": "careless", "relation": "antonym", "note": "Not thinking enough about what you are doing."}, {"to": "reckless", "relation": "antonym", "note": "Doing dangerous things without thinking."}]},
+  {"slot": "adverb", "status": "existing", "form": "cautiously", "relation": "derivational", "definition": "in a careful way, to avoid danger or problems", "example": "She opened the old door cautiously.", "syn": [{"to": "carefully", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word with the same meaning."}, {"to": "warily", "relation": "synonym", "strength": 0.8, "note": "Carefully, because you do not trust something."}], "ant": [{"to": "carelessly", "relation": "antonym", "note": "Without enough attention or care."}, {"to": "recklessly", "relation": "antonym", "note": "In a dangerous way, without thinking."}]}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [
+  {"affix": "-ous", "in_form": "cautious", "meaning_key": "-ous", "also": ["dangerous", "famous", "nervous"]},
+  {"affix": "-ly", "in_form": "cautiously", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]},
+  {"affix": "-ness", "in_form": "cautiousness", "meaning_key": "-ness", "also": ["kindness", "happiness", "sadness"]},
+  {"affix": "pre-", "in_form": "precaution", "meaning_key": "pre-", "also": ["preview", "prepay", "preschool"]}
+ ],
+ "context": {"text": "My grandfather is a cautious driver. He always drives cautiously in the mountains near Chimgan, and as a precaution he checks the brakes before every trip.", "uses": ["cautious", "cautiously", "precaution"]},
+ "reviewer_note": "cautious is made from caution, so noun and verb caution are family (derivational). precaution is a common B2 word, kept as an entry (rule 2)."},
+
+{"headword": "cemetery", "word_id": "6a6ef9b2a6015561480927ed", "word_ids": ["6a6ef9b2a6015561480927ed"], "cefr": "B2", "kind": "word", "sense_label": "General", "sense_pos": "noun", "corpus_definition": "A place where people are buried after they die.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "cemetery", "relation": "base", "definition": "an area of land where dead people are buried", "example": "They visited the cemetery to see the graves of their grandparents.", "syn": [{"to": "graveyard", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little less formal."}, {"to": "burial ground", "relation": "synonym", "strength": 0.8, "note": "Often used for very old places or places of one group of people."}, {"to": "churchyard", "relation": "related", "strength": 0.6, "note": "The land around a church, often used for graves."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from this word."},
+  {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from this word."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from this word."}
+ ],
+ "people": [], "people_not_family": [], "affixes": [],
+ "context": {"text": "Every spring, our family visits the cemetery outside the village. We clean the graves and say prayers for our grandparents.", "uses": ["cemetery"]},
+ "reviewer_note": "Only one form exists. Spelling trap: cemetery ends in -ery, not -ary."},
+
+{"headword": "charitable", "word_id": "6a6ef9b2a60155614809279f", "word_ids": ["6a6ef9b2a60155614809279f"], "cefr": "B2", "kind": "word", "sense_label": "Generous", "sense_pos": "adjective", "corpus_definition": "willing to help others and give money or time freely",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "charity", "relation": "derivational", "definition": "money, food or help that is given to people in need", "example": "They give part of their salary to charity every month.", "note": "Also means an organization that helps people in need: 'She works for a children's charity.'", "syn": [{"to": "donation", "relation": "related", "strength": 0.6, "note": "One gift of money or things to help others."}, {"to": "aid", "relation": "related", "strength": 0.6, "note": "Help, often from governments or big organizations."}, {"to": "generosity", "relation": "related", "strength": 0.6, "note": "The quality of being happy to give."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from this word."},
+  {"slot": "adjective", "status": "existing", "form": "charitable", "relation": "base", "definition": "happy to give money, time or help to people in need", "example": "The charitable man donated food to the homeless shelter.", "note": "Also means 'connected with a charity organization': a charitable trust.", "syn": [{"to": "generous", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word: happy to give."}, {"to": "giving", "relation": "synonym", "strength": 0.8, "note": "Informal: a giving person likes to help others."}, {"to": "kind", "relation": "related", "strength": 0.6, "note": "Kind is about being nice and caring in general."}, {"to": "benevolent", "relation": "synonym", "strength": 0.8, "note": "Formal: kind and wanting to help.", "register": "formal"}], "ant": [{"to": "uncharitable", "relation": "antonym", "note": "Unkind or not willing to help others."}, {"to": "selfish", "relation": "antonym", "note": "Thinking only about yourself."}, {"to": "mean", "relation": "antonym", "note": "British: not willing to give or spend money."}]},
+  {"slot": "adverb", "status": "existing", "form": "charitably", "relation": "derivational", "definition": "in a kind and generous way", "example": "She behaved charitably towards her poor neighbours.", "syn": [{"to": "generously", "relation": "synonym", "strength": 0.95, "note": "Easy word with almost the same meaning."}, {"to": "kindly", "relation": "related", "strength": 0.6, "note": "In a nice and caring way."}], "ant": [{"to": "selfishly", "relation": "antonym", "note": "Thinking only about yourself."}]}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [
+  {"affix": "-able", "in_form": "charitable", "meaning_key": "-able", "also": ["comfortable", "valuable", "enjoyable"]},
+  {"affix": "-ly", "in_form": "charitably", "meaning_key": "-ly", "also": ["kindly", "quickly", "generously"]}
+ ],
+ "context": {"text": "My aunt is very charitable. During Ramadan she gives food to charity and helps the old people in our mahalla.", "uses": ["charitable", "charity"]},
+ "reviewer_note": "charitable is made from charity; uncharitable kept as an antonym, not a form (rule 3)."},
+
+{"headword": "charm", "word_id": "6a6ef83f0f1e82a5a0736861", "word_ids": ["6a6ef83f0f1e82a5a0736861"], "cefr": "B2", "kind": "word", "sense_label": "Quality", "sense_pos": "noun", "corpus_definition": "A quality that makes people like you.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "charm", "relation": "base", "definition": "a pleasant quality that makes people like you", "example": "He used his charm to win everyone over.", "note": "Another meaning: a small object that people think brings good luck.", "syn": [{"to": "appeal", "relation": "synonym", "strength": 0.8, "note": "A quality that makes people interested in or like someone or something."}, {"to": "attraction", "relation": "related", "strength": 0.6, "note": "A feeling of liking someone, often romantically."}, {"to": "personality", "relation": "related", "strength": 0.4, "note": "Your character; a strong personality is often charming."}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "charm", "relation": "conversion", "definition": "to make people like you by being pleasant", "example": "The little girl charmed all the guests at the wedding.", "syn": [{"to": "delight", "relation": "synonym", "strength": 0.8, "note": "To make someone very happy."}, {"to": "win over", "relation": "synonym", "strength": 0.8, "note": "To make someone like or agree with you."}, {"to": "please", "relation": "related", "strength": 0.6, "note": "To make someone happy, not always by your personality."}], "ant": [{"to": "repel", "relation": "antonym", "note": "To make people dislike you or want to stay away."}]},
+  {"slot": "adjective", "status": "existing", "form": "charming", "relation": "participial", "definition": "very pleasant and easy to like", "example": "Bukhara is a charming old city.", "syn": [{"to": "lovely", "relation": "synonym", "strength": 0.8, "note": "Easy everyday word for something or someone very nice."}, {"to": "delightful", "relation": "synonym", "strength": 0.8, "note": "Very pleasant; a little formal."}, {"to": "pleasant", "relation": "synonym", "strength": 0.8, "note": "Nice and enjoyable, but weaker."}, {"to": "attractive", "relation": "related", "strength": 0.6, "note": "Nice to look at; charming is more about personality."}], "ant": [{"to": "unpleasant", "relation": "antonym", "note": "Not nice or enjoyable."}, {"to": "rude", "relation": "antonym", "note": "Not polite to other people."}]},
+  {"slot": "adverb", "status": "existing", "form": "charmingly", "relation": "derivational", "definition": "in a very pleasant way that people like", "example": "The old waiter smiled charmingly at the children.", "syn": [{"to": "delightfully", "relation": "synonym", "strength": 0.8, "note": "In a very pleasant way."}, {"to": "pleasantly", "relation": "synonym", "strength": 0.8, "note": "In a nice way, but weaker."}], "ant": [{"to": "rudely", "relation": "antonym", "note": "In a way that is not polite."}]}
+ ],
+ "people": [
+  {"form": "charmer", "kind": "person", "status": "existing", "definition": "a person who uses pleasant ways to make others like them", "example": "Be careful, he is a real charmer.", "register": "informal"}
+ ],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-ing", "in_form": "charming", "meaning_key": "-ing", "also": ["interesting", "exciting", "amazing"]},
+  {"affix": "-ly", "in_form": "charmingly", "meaning_key": "-ly", "also": ["quickly", "kindly", "happily"]},
+  {"affix": "-er", "in_form": "charmer", "meaning_key": "-er", "also": ["teacher", "singer", "driver"]}
+ ],
+ "context": {"text": "Our new neighbour is a charming young man. He charmed my grandmother on the first day with his good manners and his charm.", "uses": ["charming", "charmed", "charm"]},
+ "reviewer_note": "Map keeps the personality sense; 'lucky charm' object meaning mentioned only in a note. Compounds like charm bracelet left out."},
+
+{"headword": "checked", "word_id": "6a4282fd46ba24054c1dcd43", "word_ids": ["6a4282fd46ba24054c1dcd43"], "cefr": "B2", "kind": "word", "sense_label": "Pattern", "sense_pos": "adjective", "corpus_definition": "having a pattern of squares of different colors",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "check", "relation": "derivational", "definition": "a pattern of squares in different colours, on cloth", "example": "She bought a skirt in a red and white check.", "note": "Mainly British in this meaning. American English says plaid.", "syn": [{"to": "plaid", "relation": "synonym", "strength": 0.8, "note": "American English for this kind of pattern, especially on clothes."}, {"to": "tartan", "relation": "related", "strength": 0.6, "note": "A special Scottish pattern of crossing coloured lines."}], "ant": []},
+  {"slot": "verb", "status": "other_meaning", "form": "check", "definition": "to look at something to see if it is correct or safe", "example": "Please check your answers before you finish.", "note": "Belongs to check = examine, not the square pattern on cloth."},
+  {"slot": "adjective", "status": "existing", "form": "checked", "relation": "base", "definition": "having a pattern of squares in different colours", "example": "He wore a blue checked shirt to the office.", "note": "British English also writes chequered; American English often uses checkered or plaid.", "syn": [{"to": "plaid", "relation": "synonym", "strength": 0.8, "note": "American English, especially for shirts and skirts."}, {"to": "tartan", "relation": "related", "strength": 0.6, "note": "A Scottish pattern of crossing lines."}], "ant": [{"to": "plain", "relation": "antonym", "note": "One colour, with no pattern."}]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from this word."}
+ ],
+ "people": [], "people_not_family": [], "affixes": [],
+ "context": {"text": "For the school photo, Aziz wore a checked shirt. His mother said the green and white check looked nice with his dark trousers.", "uses": ["checked", "check"]},
+ "reviewer_note": "Homograph trap: checked (pattern) vs checked (past of check = examine); verb check given as other_meaning. chequered/checkered only in a note."},
+
+{"headword": "chemical", "word_id": "6a42800cb9d8fc24968a4b50", "word_ids": ["6a42800cb9d8fc24968a4b50"], "cefr": "B2", "kind": "word", "sense_label": "Substance", "sense_pos": "noun", "corpus_definition": "A substance created through a scientific process.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "chemical", "relation": "base", "definition": "a substance that is made or used in science or industry", "example": "Avoid touching that dangerous chemical.", "syn": [{"to": "substance", "relation": "synonym", "strength": 0.8, "note": "General word for any solid, liquid or gas."}, {"to": "compound", "relation": "related", "strength": 0.6, "note": "In science: a substance made of two or more elements."}, {"to": "element", "relation": "related", "strength": 0.4, "note": "A simple basic substance, like oxygen or gold."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from this word."},
+  {"slot": "adjective", "status": "existing", "form": "chemical", "relation": "conversion", "definition": "connected with substances and how they change and mix", "example": "Fire is a chemical reaction.", "syn": [{"to": "synthetic", "relation": "related", "strength": 0.6, "note": "Made by people in a factory, not natural."}, {"to": "artificial", "relation": "related", "strength": 0.4, "note": "Not natural; made by people."}], "ant": [{"to": "natural", "relation": "antonym", "note": "Coming from nature, not made in a factory."}]},
+  {"slot": "adverb", "status": "existing", "form": "chemically", "relation": "derivational", "definition": "in a way that is connected with substances and how they change", "example": "The water is chemically cleaned before we drink it.", "syn": [{"to": "synthetically", "relation": "related", "strength": 0.4, "note": "Made by people, not in a natural way."}], "ant": [{"to": "naturally", "relation": "antonym", "note": "In a natural way, without anything added."}]}
+ ],
+ "people": [
+  {"form": "chemist", "kind": "job", "status": "existing", "definition": "a scientist who studies substances and how they change", "example": "The chemist tested the water from the lake.", "note": "In British English a chemist is also a person who sells medicine (a pharmacist)."},
+  {"form": "chemistry", "kind": "field", "status": "existing", "definition": "the science that studies what substances are made of", "example": "My brother is studying chemistry at university in Samarkand."}
+ ],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-ly", "in_form": "chemically", "meaning_key": "-ly", "also": ["quickly", "naturally", "carefully"]}
+ ],
+ "context": {"text": "Many farmers in the Fergana Valley now use fewer chemicals on their fruit. They say chemically treated apples look nice but do not taste as good.", "uses": ["chemicals", "chemically"]},
+ "reviewer_note": "Noun and adjective share the spelling (conversion). chemist also has a British 'pharmacy' meaning, noted on the entry."}
+]
