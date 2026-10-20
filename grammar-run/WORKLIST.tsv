@@ -35,11 +35,11 @@
 34	B	nouns-articles.quantifiers.some-offer	A1	1	live	some in an offer/request question
 35	B	nouns-articles.articles.a-jobs	A2	1	live	a/an with jobs
 36	B	nouns-articles.countability.uncountable-abstract	A2	1	live	'information' is uncountable — takes some, not an/many
-37	B	nouns-articles.quantifiers.few-little	A2	2	todo	a few with countable plural | a little with uncountable
-38	B	nouns-articles.quantifiers.much-many	A2	2	todo	many with plural countable nouns | much with uncountable nouns
-39	B	nouns-articles.quantifiers.no-vs-any	A2	1	todo	no with an affirmative verb vs any with a negative
-40	B	nouns-articles.possession.plural-possessive	A2	1	todo	Plural possessive: apostrophe after the -s
-41	B	nouns-articles.possession.possessive-s	A2	1	todo	Possessive 's on a singular name
+37	B	nouns-articles.quantifiers.few-little	A2	2	live	a few with countable plural | a little with uncountable
+38	B	nouns-articles.quantifiers.much-many	A2	2	live	many with plural countable nouns | much with uncountable nouns
+39	B	nouns-articles.quantifiers.no-vs-any	A2	1	live	no with an affirmative verb vs any with a negative
+40	B	nouns-articles.possession.plural-possessive	A2	1	live	Plural possessive: apostrophe after the -s
+41	B	nouns-articles.possession.possessive-s	A2	1	live	Possessive 's on a singular name
 42	B	questions-negation.yes-no.be-vs-do	A1	2	todo	be-questions invert directly; no 'do' | Does + have (have is a main verb here)
 43	B	questions-negation.yes-no.do-does	A1	3	todo	Do with you in present simple questions | Does with third person singular | Auxiliary + subject + base verb order
 44	B	questions-negation.yes-no.progressive-question	A1	1	todo	Are + subject + -ing

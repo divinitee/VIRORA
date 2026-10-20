@@ -1,0 +1,1909 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is ______ {thing}. He got it in {city}.",
+  "options": [
+   "Aziz's",
+   "Aziz",
+   "Azizs",
+   "Aziz is"
+  ],
+  "key": 0,
+  "why": "Aziz is one person who owns something, so add 's: Aziz's.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "watch",
+    "bag"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {person} lives in {city}.",
+  "options": [
+   "Olga's",
+   "Olga",
+   "Olgas",
+   "Olga is"
+  ],
+  "key": 0,
+  "why": "Olga is one person who owns something, so add 's: Olga's.",
+  "slots": {
+   "person": [
+    "mother",
+    "father",
+    "sister",
+    "brother"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We are going to ______ {home} on {day}.",
+  "options": [
+   "Timur's",
+   "Timur",
+   "Timurs",
+   "Timur is"
+  ],
+  "key": 0,
+  "why": "Timur is one person who owns something, so add 's: Timur's.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "party",
+    "birthday party"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {pet} is very {adj}.",
+  "options": [
+   "Malika's",
+   "Malika",
+   "Malikas",
+   "Malika is"
+  ],
+  "key": 0,
+  "why": "Malika is one person who owns something, so add 's: Malika's.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "parrot",
+    "rabbit"
+   ],
+   "adj": [
+    "clever",
+    "friendly",
+    "small",
+    "funny"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I found ______ {thing} in the {place}.",
+  "options": [
+   "Bobur's",
+   "Bobur",
+   "Boburs",
+   "Bobur is"
+  ],
+  "key": 0,
+  "why": "Bobur is one person who owns something, so add 's: Bobur's.",
+  "slots": {
+   "thing": [
+    "phone",
+    "key",
+    "book",
+    "pen"
+   ],
+   "place": [
+    "classroom",
+    "car",
+    "kitchen",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {subject} teacher is from {city}.",
+  "options": [
+   "Dilnoza's",
+   "Dilnoza",
+   "Dilnozas",
+   "Dilnoza is"
+  ],
+  "key": 0,
+  "why": "Dilnoza is one person who owns something, so add 's: Dilnoza's.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "music"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I use ______ {thing}, please? Mine is at {place}.",
+  "options": [
+   "Anna's",
+   "Anna",
+   "Annas",
+   "Anna is"
+  ],
+  "key": 0,
+  "why": "Anna is one person who owns something, so add 's: Anna's.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "pen",
+    "ruler",
+    "charger"
+   ],
+   "place": [
+    "home",
+    "school",
+    "work",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {person} is a {job}.",
+  "options": [
+   "Rustam's",
+   "Rustam",
+   "Rustams",
+   "Rustam is"
+  ],
+  "key": 0,
+  "why": "Rustam is one person who owns something, so add 's: Rustam's.",
+  "slots": {
+   "person": [
+    "uncle",
+    "aunt",
+    "father",
+    "mother"
+   ],
+   "job": [
+    "doctor",
+    "driver",
+    "teacher",
+    "cook"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {thing} is on the {place}.",
+  "options": [
+   "Nigora's",
+   "Nigora",
+   "Nigoras",
+   "Nigora is"
+  ],
+  "key": 0,
+  "why": "Nigora is one person who owns something, so add 's: Nigora's.",
+  "slots": {
+   "thing": [
+    "bag",
+    "coat",
+    "phone",
+    "book"
+   ],
+   "place": [
+    "table",
+    "chair",
+    "sofa",
+    "desk"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We watched a film at ______ {home} on {day}.",
+  "options": [
+   "Sanjar's",
+   "Sanjar",
+   "Sanjars",
+   "Sanjar is"
+  ],
+  "key": 0,
+  "why": "Sanjar is one person who owns something, so add 's: Sanjar's.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "home",
+    "place"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {food} is the best in {city}.",
+  "options": [
+   "Kamola's",
+   "Kamola",
+   "Kamolas",
+   "Kamola is"
+  ],
+  "key": 0,
+  "why": "Kamola is one person who owns something, so add 's: Kamola's.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "cake",
+    "salad"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {person} plays football on {day}.",
+  "options": [
+   "Ivan's",
+   "Ivan",
+   "Ivans",
+   "Ivan is"
+  ],
+  "key": 0,
+  "why": "Ivan is one person who owns something, so add 's: Ivan's.",
+  "slots": {
+   "person": [
+    "brother",
+    "cousin",
+    "son",
+    "dad"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{who} borrowed ______ {thing} yesterday.",
+  "options": [
+   "Lola's",
+   "Lola",
+   "Lolas",
+   "Lola is"
+  ],
+  "key": 0,
+  "why": "Lola is one person who owns something, so add 's: Lola's.",
+  "slots": {
+   "who": [
+    "I",
+    "My sister",
+    "Aziz",
+    "We"
+   ],
+   "thing": [
+    "pen",
+    "umbrella",
+    "book",
+    "bike"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {thing} is {colour}.",
+  "options": [
+   "Jasur's",
+   "Jasur",
+   "Jasurs",
+   "Jasur is"
+  ],
+  "key": 0,
+  "why": "Jasur is one person who owns something, so add 's: Jasur's.",
+  "slots": {
+   "thing": [
+    "car",
+    "bike",
+    "bag",
+    "phone"
+   ],
+   "colour": [
+    "red",
+    "black",
+    "blue",
+    "white"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is this ______ {thing}, {name}?",
+  "options": [
+   "Elena's",
+   "Elena",
+   "Elenas",
+   "Elena is"
+  ],
+  "key": 0,
+  "why": "Elena is one person who owns something, so add 's: Elena's.",
+  "slots": {
+   "thing": [
+    "coat",
+    "scarf",
+    "bag",
+    "hat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {person} is coming to {city} tomorrow.",
+  "options": [
+   "Sardor's",
+   "Sardor",
+   "Sardors",
+   "Sardor is"
+  ],
+  "key": 0,
+  "why": "Sardor is one person who owns something, so add 's: Sardor's.",
+  "slots": {
+   "person": [
+    "grandmother",
+    "uncle",
+    "cousin",
+    "friend"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I like ______ {thing} very much. It is {adj}.",
+  "options": [
+   "Madina's",
+   "Madina",
+   "Madinas",
+   "Madina is"
+  ],
+  "key": 0,
+  "why": "Madina is one person who owns something, so add 's: Madina's.",
+  "slots": {
+   "thing": [
+    "dress",
+    "bag",
+    "room",
+    "drawing"
+   ],
+   "adj": [
+    "beautiful",
+    "nice",
+    "lovely",
+    "great"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {person} lives near the {place}.",
+  "options": [
+   "Boris's",
+   "Boris",
+   "Borises",
+   "Boris is"
+  ],
+  "key": 0,
+  "why": "Boris is one person who owns something, so add 's: Boris's.",
+  "slots": {
+   "person": [
+    "brother",
+    "sister",
+    "family",
+    "aunt"
+   ],
+   "place": [
+    "park",
+    "station",
+    "river",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is ______ {thing}. He left it in the {place}.",
+  "options": [
+   "James's",
+   "James",
+   "Jameses",
+   "James is"
+  ],
+  "key": 0,
+  "why": "James is one person who owns something, so add 's: James's.",
+  "slots": {
+   "thing": [
+    "jacket",
+    "phone",
+    "bag",
+    "book"
+   ],
+   "place": [
+    "car",
+    "classroom",
+    "café",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ desk is next to the {place} in the {room}.",
+  "options": [
+   "Zarina's",
+   "Zarina",
+   "Zarinas",
+   "Zarina is"
+  ],
+  "key": 0,
+  "why": "Zarina is one person who owns something, so add 's: Zarina's.",
+  "slots": {
+   "place": [
+    "window",
+    "door",
+    "board",
+    "wall"
+   ],
+   "room": [
+    "classroom",
+    "office",
+    "library",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Olga) {person} is a nurse in {city}.",
+  "key": "Olga's",
+  "acceptable": [
+   "Olga’s"
+  ],
+  "why": "Olga is one person who owns something, so add 's: Olga's.",
+  "slots": {
+   "person": [
+    "mother",
+    "aunt",
+    "sister",
+    "cousin"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "This is ______ (Timur) {thing} from {city}.",
+  "key": "Timur's",
+  "acceptable": [
+   "Timur’s"
+  ],
+  "why": "Timur is one person who owns something, so add 's: Timur's.",
+  "slots": {
+   "thing": [
+    "bike",
+    "ball",
+    "cap",
+    "watch"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "We had dinner at ______ (Aziz) {home} on {day}.",
+  "key": "Aziz's",
+  "acceptable": [
+   "Aziz’s"
+  ],
+  "why": "Aziz is one person who owns something, so add 's: Aziz's.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "home",
+    "place"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Malika) {pet} sleeps on the {place}.",
+  "key": "Malika's",
+  "acceptable": [
+   "Malika’s"
+  ],
+  "why": "Malika is one person who owns something, so add 's: Malika's.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "rabbit",
+    "puppy"
+   ],
+   "place": [
+    "sofa",
+    "bed",
+    "floor",
+    "chair"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "I can't find ______ (Bobur) {thing} in the {place}.",
+  "key": "Bobur's",
+  "acceptable": [
+   "Bobur’s"
+  ],
+  "why": "Bobur is one person who owns something, so add 's: Bobur's.",
+  "slots": {
+   "thing": [
+    "phone",
+    "key",
+    "book",
+    "pen"
+   ],
+   "place": [
+    "car",
+    "bag",
+    "classroom",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Dilnoza) {subject} homework is on the {place}.",
+  "key": "Dilnoza's",
+  "acceptable": [
+   "Dilnoza’s"
+  ],
+  "why": "Dilnoza is one person who owns something, so add 's: Dilnoza's.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "place": [
+    "desk",
+    "table",
+    "shelf",
+    "bed"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Anna) {person} works at the {place}.",
+  "key": "Anna's",
+  "acceptable": [
+   "Anna’s"
+  ],
+  "why": "Anna is one person who owns something, so add 's: Anna's.",
+  "slots": {
+   "person": [
+    "father",
+    "mother",
+    "uncle",
+    "aunt"
+   ],
+   "place": [
+    "hospital",
+    "bank",
+    "airport",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "Is that ______ (Rustam) {thing}, {name}?",
+  "key": "Rustam's",
+  "acceptable": [
+   "Rustam’s"
+  ],
+  "why": "Rustam is one person who owns something, so add 's: Rustam's.",
+  "slots": {
+   "thing": [
+    "car",
+    "bike",
+    "bag",
+    "coat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Nigora) {food} is famous in our {place}.",
+  "key": "Nigora's",
+  "acceptable": [
+   "Nigora’s"
+  ],
+  "why": "Nigora is one person who owns something, so add 's: Nigora's.",
+  "slots": {
+   "food": [
+    "plov",
+    "cake",
+    "soup",
+    "samsa"
+   ],
+   "place": [
+    "street",
+    "family",
+    "village",
+    "class"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "We are going to ______ (Sanjar) {event} on {day}.",
+  "key": "Sanjar's",
+  "acceptable": [
+   "Sanjar’s"
+  ],
+  "why": "Sanjar is one person who owns something, so add 's: Sanjar's.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "birthday party",
+    "concert"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Kamola) {thing} is {colour}.",
+  "key": "Kamola's",
+  "acceptable": [
+   "Kamola’s"
+  ],
+  "why": "Kamola is one person who owns something, so add 's: Kamola's.",
+  "slots": {
+   "thing": [
+    "dress",
+    "bag",
+    "scarf",
+    "phone"
+   ],
+   "colour": [
+    "red",
+    "green",
+    "blue",
+    "white"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "I borrowed ______ (Ivan) {thing} for the {event}.",
+  "key": "Ivan's",
+  "acceptable": [
+   "Ivan’s"
+  ],
+  "why": "Ivan is one person who owns something, so add 's: Ivan's.",
+  "slots": {
+   "thing": [
+    "camera",
+    "laptop",
+    "bike",
+    "jacket"
+   ],
+   "event": [
+    "trip",
+    "weekend",
+    "party",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Lola) {person} lives in {city}.",
+  "key": "Lola's",
+  "acceptable": [
+   "Lola’s"
+  ],
+  "why": "Lola is one person who owns something, so add 's: Lola's.",
+  "slots": {
+   "person": [
+    "grandmother",
+    "aunt",
+    "uncle",
+    "cousin"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Jasur) {room} is next to the {place}.",
+  "key": "Jasur's",
+  "acceptable": [
+   "Jasur’s"
+  ],
+  "why": "Jasur is one person who owns something, so add 's: Jasur's.",
+  "slots": {
+   "room": [
+    "bedroom",
+    "room",
+    "study",
+    "office"
+   ],
+   "place": [
+    "kitchen",
+    "bathroom",
+    "stairs",
+    "living room"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "We played football in ______ (Sardor) {place} on {day}.",
+  "key": "Sardor's",
+  "acceptable": [
+   "Sardor’s"
+  ],
+  "why": "Sardor is one person who owns something, so add 's: Sardor's.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "street",
+    "village"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Madina) {thing} is on the {place}.",
+  "key": "Madina's",
+  "acceptable": [
+   "Madina’s"
+  ],
+  "why": "Madina is one person who owns something, so add 's: Madina's.",
+  "slots": {
+   "thing": [
+    "coat",
+    "bag",
+    "hat",
+    "scarf"
+   ],
+   "place": [
+    "chair",
+    "bed",
+    "sofa",
+    "hook"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Elena) {person} is a {job}.",
+  "key": "Elena's",
+  "acceptable": [
+   "Elena’s"
+  ],
+  "why": "Elena is one person who owns something, so add 's: Elena's.",
+  "slots": {
+   "person": [
+    "brother",
+    "sister",
+    "father",
+    "mother"
+   ],
+   "job": [
+    "doctor",
+    "driver",
+    "teacher",
+    "cook"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "This is ______ (Boris) {thing}, {name}.",
+  "key": "Boris's",
+  "acceptable": [
+   "Boris’s",
+   "Boris'",
+   "Boris’"
+  ],
+  "why": "Boris is one person who owns something, so add 's: Boris's.",
+  "slots": {
+   "thing": [
+    "bag",
+    "phone",
+    "book",
+    "pen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "______ (Nodir) {pet} is very {adj}.",
+  "key": "Nodir's",
+  "acceptable": [
+   "Nodir’s"
+  ],
+  "why": "Nodir is one person who owns something, so add 's: Nodir's.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "horse"
+   ],
+   "adj": [
+    "friendly",
+    "clever",
+    "big",
+    "old"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the name in brackets with 's.",
+  "source": "I found ______ (Gulnora) {thing} under the {place}.",
+  "key": "Gulnora's",
+  "acceptable": [
+   "Gulnora’s"
+  ],
+  "why": "Gulnora is one person who owns something, so add 's: Gulnora's.",
+  "slots": {
+   "thing": [
+    "pen",
+    "phone",
+    "key",
+    "ring"
+   ],
+   "place": [
+    "desk",
+    "table",
+    "sofa",
+    "bed"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's.",
+  "source": "This {thing} belongs to Aziz, {name}.",
+  "hint": "This is ______ {thing}, {name}.",
+  "key": "Aziz's",
+  "acceptable": [
+   "Aziz’s"
+  ],
+  "why": "Aziz is one person who owns something, so add 's: Aziz's.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "watch",
+    "bag"
+   ],
+   "name": [
+    "Olga",
+    "Timur",
+    "Malika",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's.",
+  "source": "This {thing} belongs to Olga. She bought it in {city}.",
+  "hint": "This is ______ {thing}. She bought it in {city}.",
+  "key": "Olga's",
+  "acceptable": [
+   "Olga’s"
+  ],
+  "why": "Olga is one person who owns something, so add 's: Olga's.",
+  "slots": {
+   "thing": [
+    "scarf",
+    "bag",
+    "dress",
+    "hat"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's.",
+  "source": "The {thing} on the {place} belongs to Timur.",
+  "hint": "It is ______ {thing} on the {place}.",
+  "key": "Timur's",
+  "acceptable": [
+   "Timur’s"
+  ],
+  "why": "Timur is one person who owns something, so add 's: Timur's.",
+  "slots": {
+   "thing": [
+    "phone",
+    "book",
+    "cap",
+    "pen"
+   ],
+   "place": [
+    "table",
+    "desk",
+    "shelf",
+    "sofa"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's.",
+  "source": "That {pet} belongs to Malika, {name}.",
+  "hint": "That is ______ {pet}, {name}.",
+  "key": "Malika's",
+  "acceptable": [
+   "Malika’s"
+  ],
+  "why": "Malika is one person who owns something, so add 's: Malika's.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Bobur"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's.",
+  "source": "The {thing} in the {place} belongs to Bobur.",
+  "hint": "The {thing} in the {place} is ______.",
+  "key": "Bobur's",
+  "acceptable": [
+   "Bobur’s"
+  ],
+  "why": "Bobur is one person who owns something, so add 's: Bobur's.",
+  "slots": {
+   "thing": [
+    "car",
+    "bike",
+    "bag",
+    "ball"
+   ],
+   "place": [
+    "yard",
+    "garage",
+    "street",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's instead of of.",
+  "source": "The {person} of Dilnoza lives in {city}.",
+  "hint": "______ {person} lives in {city}.",
+  "key": "Dilnoza's",
+  "acceptable": [
+   "Dilnoza’s"
+  ],
+  "why": "Dilnoza is one person who owns something, so add 's: Dilnoza's.",
+  "slots": {
+   "person": [
+    "mother",
+    "father",
+    "sister",
+    "brother"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's instead of of.",
+  "source": "The {thing} of Anna is on the {place}.",
+  "hint": "______ {thing} is on the {place}.",
+  "key": "Anna's",
+  "acceptable": [
+   "Anna’s"
+  ],
+  "why": "Anna is one person who owns something, so add 's: Anna's.",
+  "slots": {
+   "thing": [
+    "bag",
+    "coat",
+    "phone",
+    "laptop"
+   ],
+   "place": [
+    "table",
+    "chair",
+    "sofa",
+    "desk"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's instead of of.",
+  "source": "The {home} of Rustam is near the {place}.",
+  "hint": "______ {home} is near the {place}.",
+  "key": "Rustam's",
+  "acceptable": [
+   "Rustam’s"
+  ],
+  "why": "Rustam is one person who owns something, so add 's: Rustam's.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "shop",
+    "office"
+   ],
+   "place": [
+    "park",
+    "station",
+    "river",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's instead of of.",
+  "source": "The {food} of Nigora is very good, {name}.",
+  "hint": "______ {food} is very good, {name}.",
+  "key": "Nigora's",
+  "acceptable": [
+   "Nigora’s"
+  ],
+  "why": "Nigora is one person who owns something, so add 's: Nigora's.",
+  "slots": {
+   "food": [
+    "plov",
+    "cake",
+    "soup",
+    "samsa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with 's instead of of.",
+  "source": "The {person} of Sanjar works in {city}.",
+  "hint": "______ {person} works in {city}.",
+  "key": "Sanjar's",
+  "acceptable": [
+   "Sanjar’s"
+  ],
+  "why": "Sanjar is one person who owns something, so add 's: Sanjar's.",
+  "slots": {
+   "person": [
+    "uncle",
+    "aunt",
+    "father",
+    "cousin"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the sentences. Use 's in each gap.",
+  "source": "Lola has a cat and Jasur has a dog. They play in the {place}, {name}.",
+  "hint": "______ cat and ______ dog play in the {place}, {name}.",
+  "key": [
+   "Lola's",
+   "Jasur's"
+  ],
+  "why": "Lola and Jasur are each one owner, so both take 's.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "street",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the sentences. Use 's in each gap.",
+  "source": "Elena has a bike and Sardor has a car. They are in the {place}, {name}.",
+  "hint": "______ bike and ______ car are in the {place}, {name}.",
+  "key": [
+   "Elena's",
+   "Sardor's"
+  ],
+  "why": "Elena and Sardor are each one owner, so both take 's.",
+  "slots": {
+   "place": [
+    "yard",
+    "garage",
+    "street",
+    "car park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the sentences. Use 's in each gap.",
+  "source": "Madina has a brother and Nodir has a sister. They study in {city}, {name}.",
+  "hint": "______ brother and ______ sister study in {city}, {name}.",
+  "key": [
+   "Madina's",
+   "Nodir's"
+  ],
+  "why": "Madina and Nodir are each one owner, so both take 's.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the sentences. Use 's in each gap.",
+  "source": "Zarina has a flat and Akmal has a house. They are near the {place} in {city}.",
+  "hint": "______ flat and ______ house are near the {place} in {city}.",
+  "key": [
+   "Zarina's",
+   "Akmal's"
+  ],
+  "why": "Zarina and Akmal are each one owner, so both take 's.",
+  "slots": {
+   "place": [
+    "park",
+    "station",
+    "river",
+    "market"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the sentences. Use 's in each gap.",
+  "source": "Farrukh has a laptop and Kamila has a tablet. They are on the {place}, {name}.",
+  "hint": "______ laptop and ______ tablet are on the {place}, {name}.",
+  "key": [
+   "Farrukh's",
+   "Kamila's"
+  ],
+  "why": "Farrukh and Kamila are each one owner, so both take 's.",
+  "slots": {
+   "place": [
+    "table",
+    "desk",
+    "sofa",
+    "shelf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your best friend's phone or bag. Use their name with 's.",
+  "requiredElement": "Name's",
+  "constraints": [
+   "exactly one sentence",
+   "must use 's with a name"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a relative of a friend. Use 's.",
+  "requiredElement": "Name's",
+  "constraints": [
+   "exactly one sentence",
+   "must use 's"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a classmate: is this thing someone's? Use a name with 's.",
+  "requiredElement": "Is this Name's",
+  "constraints": [
+   "exactly one question",
+   "must use 's"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two friends and their things. Use 's twice.",
+  "requiredElement": "Name's … Name's",
+  "constraints": [
+   "exactly one sentence",
+   "must use 's twice"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a teacher's room. Use the teacher's name with 's.",
+  "requiredElement": "Name's",
+  "constraints": [
+   "exactly one sentence",
+   "must use 's"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food someone in your family makes. Use 's.",
+  "requiredElement": "Name's",
+  "constraints": [
+   "exactly one sentence",
+   "must use 's"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend's pet. Use 's.",
+  "requiredElement": "Name's",
+  "constraints": [
+   "exactly one sentence",
+   "must use 's"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about where your friend's family lives. Use 's.",
+  "requiredElement": "Name's",
+  "constraints": [
+   "exactly two sentences",
+   "must use 's"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your best friend's family. Write three or four sentences.",
+  "targetGrammar": "possessive 's",
+  "lookFor": [
+   "Name's mother / father",
+   "lives",
+   "'s"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You found some things in the classroom. Write whose they are. Write three or four sentences.",
+  "targetGrammar": "possessive 's",
+  "lookFor": [
+   "This is Name's",
+   "'s",
+   "found"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a party at a friend's house. Write three or four sentences.",
+  "targetGrammar": "possessive 's",
+  "lookFor": [
+   "Name's house",
+   "Name's",
+   "'s"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your friends' pets or favourite things. Write three or four sentences.",
+  "targetGrammar": "possessive 's",
+  "lookFor": [
+   "Name's",
+   "is",
+   "'s"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message to a friend about a lost bag. Whose is it?",
+  "targetGrammar": "possessive 's",
+  "lookFor": [
+   "Is it Name's",
+   "'s",
+   "bag"
+  ]
+ }
+]

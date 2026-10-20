@@ -1,0 +1,1815 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have ______ apples, so we can make a pie for {who} on {day}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "who": [
+    "Grandma",
+    "the guests",
+    "Dad",
+    "our teacher"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have ______ friends in {city}, {name}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are ______ students in the {place} now, {name}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "place": [
+    "library",
+    "canteen",
+    "gym",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} bought ______ eggs at the {shop}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Wait ______ minutes, please, {name}. The {transport} is coming.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "transport": [
+    "bus",
+    "taxi",
+    "train",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I took ______ photos of the {place} in {city}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "place": [
+    "old town",
+    "market",
+    "park",
+    "river"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are ______ cafés near the {place}, {name}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "place": [
+    "station",
+    "park",
+    "university",
+    "hotel"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {person} has ______ cousins in {city}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "person": [
+    "mum",
+    "dad",
+    "friend",
+    "neighbour"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We need ______ chairs for the {event}, {name}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "event": [
+    "party",
+    "meeting",
+    "picnic",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} knows ______ English words about {topic}.",
+  "options": [
+   "a few",
+   "a little",
+   "much",
+   "a bit"
+  ],
+  "key": 0,
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "topic": [
+    "food",
+    "sport",
+    "music",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ milk in the {place}, {name}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "place": [
+    "fridge",
+    "jug",
+    "bottle",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I have ______ sugar in my {drink}, {name}?",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "milk",
+    "cocoa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} speaks ______ Russian with {who}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "who": [
+    "the neighbours",
+    "our teacher",
+    "the guests",
+    "the doctor"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have ______ money for the {thing}, {name}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "bus",
+    "snacks",
+    "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Put ______ salt in the {food}, {name}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "food": [
+    "soup",
+    "salad",
+    "rice",
+    "plov"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have ______ time before the {event}, {name}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "event": [
+    "lesson",
+    "film",
+    "match",
+    "train"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ water in the {thing}, {name}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "thing": [
+    "bottle",
+    "glass",
+    "jug",
+    "kettle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} drinks ______ juice after {activity}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "activity": [
+    "school",
+    "football",
+    "the gym",
+    "work"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I need ______ help with my {thing}, {name}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "thing": [
+    "homework",
+    "project",
+    "bags",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ rice in the {place} for {meal}.",
+  "options": [
+   "a little",
+   "a few",
+   "many",
+   "several"
+  ],
+  "key": 0,
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "place": [
+    "pot",
+    "bag",
+    "bowl",
+    "cupboard"
+   ],
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "the guests"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "I bought ______ oranges at the {shop} in {city}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "There is ______ cheese in the {place}, {name}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "place": [
+    "fridge",
+    "kitchen",
+    "bag",
+    "box"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "{name} has ______ books about {topic}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "topic": [
+    "animals",
+    "football",
+    "space",
+    "history"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "Add ______ butter to the {food}, {name}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "food": [
+    "pancakes",
+    "rice",
+    "potatoes",
+    "porridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "We waited ______ minutes at the {place}, {name}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "station",
+    "airport",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "My grandfather drinks ______ tea every {time}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "time": [
+    "morning",
+    "evening",
+    "afternoon",
+    "day"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "There are ______ trees in our {place} in {city}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "place": [
+    "yard",
+    "street",
+    "garden",
+    "school"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "I have ______ homework this {time}, {name}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "time": [
+    "evening",
+    "weekend",
+    "afternoon",
+    "week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "{name} invited ______ friends to the {event}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "event": [
+    "party",
+    "picnic",
+    "match",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "There is ______ snow on the {place} today, {name}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "place": [
+    "mountains",
+    "roof",
+    "road",
+    "hills"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "My {person} knows ______ words in Korean, {name}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "person": [
+    "sister",
+    "brother",
+    "cousin",
+    "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "We need ______ flour for the {food} on {day}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "food": [
+    "cake",
+    "bread",
+    "pancakes",
+    "samsa"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "There are ______ buses to {city} on {day}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "day": [
+    "Sundays",
+    "Mondays",
+    "weekdays",
+    "Saturdays"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "{name} put ______ honey in the {food}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "food": [
+    "tea",
+    "milk",
+    "porridge",
+    "yoghurt"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "I made ______ mistakes in my {subject} test, {name}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "There is ______ juice in the {thing} for {who}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "thing": [
+    "jug",
+    "bottle",
+    "glass",
+    "fridge"
+   ],
+   "who": [
+    "the kids",
+    "Grandma",
+    "us",
+    "you"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "Our {group} has ______ new players this {time}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "group": [
+    "team",
+    "club",
+    "football club",
+    "school team"
+   ],
+   "time": [
+    "year",
+    "season",
+    "month",
+    "week"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "Give me ______ water for the {thing}, please, {name}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "thing": [
+    "flowers",
+    "plant",
+    "dog",
+    "cat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "{name} sent ______ messages to {who} today.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "who": [
+    "Mum",
+    "the group",
+    "Grandpa",
+    "the team"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a few or a little.",
+  "source": "I know ______ Uzbek, {name}. My {person} taught me.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "person": [
+    "friend",
+    "neighbour",
+    "teacher",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount. Write a few or a little.",
+  "source": "There is some milk in the {place}, {name}.",
+  "hint": "There is ______ milk in the {place}, {name}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "place": [
+    "fridge",
+    "jug",
+    "bottle",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount. Write a few or a little.",
+  "source": "There are some people at the {place}, {name}.",
+  "hint": "There are ______ people at the {place}, {name}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "station",
+    "café",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount. Write a few or a little.",
+  "source": "We have some bread for {meal}, {name}.",
+  "hint": "We have ______ bread for {meal}, {name}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "the guests"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount. Write a few or a little.",
+  "source": "{name} has some friends in {city}.",
+  "hint": "{name} has ______ friends in {city}.",
+  "key": "a few",
+  "why": "The noun is countable and plural, so use a few.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount. Write a few or a little.",
+  "source": "There is some money in my {thing}, {name}.",
+  "hint": "There is ______ money in my {thing}, {name}.",
+  "key": "a little",
+  "why": "The noun is uncountable, so use a little.",
+  "slots": {
+   "thing": [
+    "bag",
+    "pocket",
+    "wallet",
+    "jacket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Use the new noun. Write a few or a little.",
+  "source": "I have some coins in my {thing}, {name}.",
+  "hint": "I have ______ money in my {thing}, {name}.",
+  "key": "a little",
+  "why": "Money is uncountable (coins are countable), so use a little.",
+  "slots": {
+   "thing": [
+    "bag",
+    "pocket",
+    "wallet",
+    "jacket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Use the new noun. Write a few or a little.",
+  "source": "There is some bread in the {place}, {name}.",
+  "hint": "There are ______ buns in the {place}, {name}.",
+  "key": "a few",
+  "why": "Buns are countable and plural (bread is not), so use a few.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "bag",
+    "box",
+    "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Use the new noun. Write a few or a little.",
+  "source": "{name} gave me some tips for the {event}.",
+  "hint": "{name} gave me ______ advice for the {event}.",
+  "key": "a little",
+  "why": "Advice is uncountable (tips are countable), so use a little.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "event": [
+    "exam",
+    "interview",
+    "trip",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Use the new noun. Write a few or a little.",
+  "source": "We bought some fruit at the {shop} in {city}.",
+  "hint": "We bought ______ apples at the {shop} in {city}.",
+  "key": "a few",
+  "why": "Apples are countable and plural (fruit here is not), so use a few.",
+  "slots": {
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Use the new noun. Write a few or a little.",
+  "source": "I have some homework for {subject}, {name}.",
+  "hint": "I have ______ exercises for {subject}, {name}.",
+  "key": "a few",
+  "why": "Exercises are countable and plural (homework is not), so use a few.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount of each. Write a few or a little in each gap.",
+  "source": "We have some eggs and some butter for the {food}, {name}.",
+  "hint": "We have ______ eggs and ______ butter for the {food}, {name}.",
+  "key": [
+   "a few",
+   "a little"
+  ],
+  "why": "eggs: countable plural noun → a few; butter: uncountable noun → a little.",
+  "slots": {
+   "food": [
+    "cake",
+    "pancakes",
+    "breakfast",
+    "dinner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount of each. Write a few or a little in each gap.",
+  "source": "I need some sugar and some lemons for the {drink}, {name}.",
+  "hint": "I need ______ sugar and ______ lemons for the {drink}, {name}.",
+  "key": [
+   "a little",
+   "a few"
+  ],
+  "why": "sugar: uncountable noun → a little; lemons: countable plural noun → a few.",
+  "slots": {
+   "drink": [
+    "tea",
+    "lemonade",
+    "juice",
+    "drinks"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount of each. Write a few or a little in each gap.",
+  "source": "{name} bought some carrots and some rice at the {shop}.",
+  "hint": "{name} bought ______ carrots and ______ rice at the {shop}.",
+  "key": [
+   "a few",
+   "a little"
+  ],
+  "why": "carrots: countable plural noun → a few; rice: uncountable noun → a little.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "shop": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount of each. Write a few or a little in each gap.",
+  "source": "We have some time and some ideas for the {thing}, {name}.",
+  "hint": "We have ______ time and ______ ideas for the {thing}, {name}.",
+  "key": [
+   "a little",
+   "a few"
+  ],
+  "why": "time: uncountable noun → a little; ideas: countable plural noun → a few.",
+  "slots": {
+   "thing": [
+    "project",
+    "party",
+    "trip",
+    "video"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it is only a small number or amount of each. Write a few or a little in each gap.",
+  "source": "There is some water and there are some glasses on the {place}, {name}.",
+  "hint": "There is ______ water and there are ______ glasses on the {place}, {name}.",
+  "key": [
+   "a little",
+   "a few"
+  ],
+  "why": "water: uncountable noun → a little; glasses: countable plural noun → a few.",
+  "slots": {
+   "place": [
+    "table",
+    "tray",
+    "shelf",
+    "desk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food in your fridge. Use a little.",
+  "requiredElement": "a little",
+  "constraints": [
+   "exactly one sentence",
+   "must use a little",
+   "uncountable noun"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your friends. Use a few.",
+  "requiredElement": "a few",
+  "constraints": [
+   "exactly one sentence",
+   "must use a few",
+   "plural noun"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a few and a little.",
+  "requiredElement": "a few / a little",
+  "constraints": [
+   "exactly one sentence",
+   "must use a few",
+   "must use a little"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about money. Use a little.",
+  "requiredElement": "a little",
+  "constraints": [
+   "exactly one sentence",
+   "must use a little"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your town. Use a few.",
+  "requiredElement": "a few",
+  "constraints": [
+   "exactly one sentence",
+   "must use a few"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Tell a friend to wait. Use a few minutes.",
+  "requiredElement": "a few minutes",
+  "constraints": [
+   "exactly one sentence",
+   "must use a few minutes"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a drink. Use a little sugar or a little milk.",
+  "requiredElement": "a little",
+  "constraints": [
+   "exactly one sentence",
+   "must use a little"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about your bag: one with a few and one with a little.",
+  "requiredElement": "a few / a little",
+  "constraints": [
+   "exactly two sentences",
+   "must use a few",
+   "must use a little"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are cooking dinner. What do you have? Write three or four sentences.",
+  "targetGrammar": "a few / a little",
+  "lookFor": [
+   "a few",
+   "a little",
+   "We have"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your free time this week. Write three or four sentences.",
+  "targetGrammar": "a few / a little",
+  "lookFor": [
+   "a little time",
+   "a few",
+   "friends"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your street or village. Write three or four sentences.",
+  "targetGrammar": "a few / a little",
+  "lookFor": [
+   "There are a few",
+   "There is a little",
+   "but"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What languages do you know, and how well? Write three or four sentences.",
+  "targetGrammar": "a few / a little",
+  "lookFor": [
+   "a little",
+   "a few words",
+   "speak"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are packing for a trip. Write three or four sentences about your bag.",
+  "targetGrammar": "a few / a little",
+  "lookFor": [
+   "a few",
+   "a little",
+   "I need"
+  ]
+ }
+]

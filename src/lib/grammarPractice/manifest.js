@@ -142,6 +142,76 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "nouns-articles.possession.plural-possessive": {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "plural-possessive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.possession.possessive-s": {
+  "domain": "nouns-articles",
+  "branch": "possession",
+  "topic": "possessive-s",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.quantifiers.few-little": {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "few-little",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.quantifiers.much-many": {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "much-many",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.quantifiers.no-vs-any": {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.quantifiers.some-any": {
   "domain": "nouns-articles",
   "branch": "quantifiers",

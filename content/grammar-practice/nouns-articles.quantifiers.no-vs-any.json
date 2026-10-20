@@ -1,0 +1,1809 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ sugar in my {drink}, {name}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "milk",
+    "cocoa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have ______ bread for {meal}, {name}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "the guests"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are ______ buses to {city} on {day}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "day": [
+    "Sundays",
+    "Mondays",
+    "Navruz",
+    "holidays"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} has ______ homework this {time}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "time": [
+    "evening",
+    "weekend",
+    "week",
+    "afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are ______ chairs in the {place}, {name}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "place": [
+    "kitchen",
+    "classroom",
+    "garden",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have ______ money for the {thing}, {name}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "thing": [
+    "ticket",
+    "trip",
+    "taxi",
+    "snacks"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ milk in the {place}, {name}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "place": [
+    "fridge",
+    "jug",
+    "bottle",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {person} has ______ brothers or sisters.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "person": [
+    "friend",
+    "cousin",
+    "teacher",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are ______ taxis at the {place} now, {name}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "bus stop",
+    "corner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We had ______ lessons on {day}, {name}.",
+  "options": [
+   "no",
+   "any",
+   "not",
+   "none"
+  ],
+  "key": 0,
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "day": [
+    "Navruz",
+    "Sunday",
+    "Saturday",
+    "holidays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There isn't ______ milk in the {thing}, {name}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "many"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "thing": [
+    "jug",
+    "bottle",
+    "fridge",
+    "glass"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't have ______ cousins in {city}, {name}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "a"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} didn't buy ______ bread at the {shop}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "many"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "shop": [
+    "market",
+    "bakery",
+    "shop",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There aren't ______ shops near our {home}, {name}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "a"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "school",
+    "college"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We don't have ______ tests on {day}, {name}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "a"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Monday",
+    "Saturday",
+    "Tuesday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {person} doesn't drink ______ coffee in the {time}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "many"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "person": [
+    "dad",
+    "mum",
+    "grandma",
+    "uncle"
+   ],
+   "time": [
+    "evening",
+    "afternoon",
+    "morning",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There wasn't ______ rain in {city} this {time}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "many"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "time": [
+    "week",
+    "month",
+    "summer",
+    "spring"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We didn't see ______ animals in the {place}, {name}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "a"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "place": [
+    "park",
+    "forest",
+    "mountains",
+    "desert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can't find ______ eggs in the {place}, {name}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "a"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "place": [
+    "fridge",
+    "kitchen",
+    "shop",
+    "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} doesn't have ______ free time on {day}.",
+  "options": [
+   "any",
+   "no",
+   "none",
+   "many"
+  ],
+  "key": 0,
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "There is ______ cheese in the {place}, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "place": [
+    "fridge",
+    "kitchen",
+    "bag",
+    "box"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "We don't have ______ eggs for the {food}, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "food": [
+    "cake",
+    "pancakes",
+    "breakfast",
+    "salad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "{name} has ______ brothers in {city}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "There aren't ______ trains to {city} on {day}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "day": [
+    "Sundays",
+    "Mondays",
+    "weekdays",
+    "Saturdays"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "We have ______ time for {meal} today, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "tea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "I didn't get ______ messages from {who} today, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Dad",
+    "the teacher",
+    "my friends"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "There are ______ clouds over {city} today, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "{name} doesn't eat ______ meat on {day}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "day": [
+    "Mondays",
+    "Wednesdays",
+    "Fridays",
+    "weekdays"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "There is ______ water in the {thing}, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "thing": [
+    "bottle",
+    "glass",
+    "jug",
+    "kettle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "My {person} doesn't have ______ pets.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "person": [
+    "friend",
+    "cousin",
+    "teacher",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "We had ______ homework on {day}, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "day": [
+    "Navruz",
+    "Saturday",
+    "Sunday",
+    "Friday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "There isn't ______ bread in the {place}, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "bag",
+    "box",
+    "cupboard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "{name} has ______ money for the {thing}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "thing": [
+    "ticket",
+    "trip",
+    "bike",
+    "phone"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "We can't see ______ stars over {city} tonight, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "There are ______ cafés near the {place}, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "place": [
+    "station",
+    "park",
+    "university",
+    "hotel"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "I don't know ______ people at the {place}, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "place": [
+    "club",
+    "gym",
+    "college",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "My {person} drinks tea with ______ sugar in the {time}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "person": [
+    "dad",
+    "mum",
+    "grandma",
+    "uncle"
+   ],
+   "time": [
+    "morning",
+    "evening",
+    "afternoon",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "{name} didn't take ______ photos at the {event}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "match",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "There were ______ people at the {place} on {day}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "place": [
+    "park",
+    "market",
+    "museum",
+    "cinema"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write no or any.",
+  "source": "We haven't got ______ milk for the {food}, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "food": [
+    "tea",
+    "coffee",
+    "porridge",
+    "cake"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a positive verb and no.",
+  "source": "There isn't any milk in the {place}, {name}.",
+  "hint": "There is ______ milk in the {place}, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "place": [
+    "fridge",
+    "jug",
+    "bottle",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a positive verb and no.",
+  "source": "We don't have any bread for {meal}, {name}.",
+  "hint": "We have ______ bread for {meal}, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "the guests"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a positive verb and no.",
+  "source": "{name} doesn't have any brothers in {city}.",
+  "hint": "{name} has ______ brothers in {city}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a positive verb and no.",
+  "source": "There aren't any buses to {city} on {day}.",
+  "hint": "There are ______ buses to {city} on {day}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "day": [
+    "Sundays",
+    "Mondays",
+    "weekdays",
+    "Saturdays"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a positive verb and no.",
+  "source": "I don't have any money for the {thing}, {name}.",
+  "hint": "I have ______ money for the {thing}, {name}.",
+  "key": "no",
+  "why": "The verb is positive, so use no (no = not any).",
+  "slots": {
+   "thing": [
+    "ticket",
+    "trip",
+    "taxi",
+    "snacks"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any.",
+  "source": "There is no juice in the {thing}, {name}.",
+  "hint": "There isn't ______ juice in the {thing}, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "thing": [
+    "jug",
+    "bottle",
+    "fridge",
+    "glass"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any.",
+  "source": "We have no eggs for the {food}, {name}.",
+  "hint": "We don't have ______ eggs for the {food}, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "food": [
+    "cake",
+    "pancakes",
+    "breakfast",
+    "salad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any.",
+  "source": "{name} has no homework this {time}.",
+  "hint": "{name} doesn't have ______ homework this {time}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "time": [
+    "evening",
+    "weekend",
+    "week",
+    "afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any.",
+  "source": "There are no shops near our {home}, {name}.",
+  "hint": "There aren't ______ shops near our {home}, {name}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "school",
+    "college"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any.",
+  "source": "My {person} has no free time on {day}.",
+  "hint": "My {person} doesn't have ______ free time on {day}.",
+  "key": "any",
+  "why": "The verb is already negative (not), so use any. Two negatives are wrong.",
+  "slots": {
+   "person": [
+    "dad",
+    "mum",
+    "sister",
+    "uncle"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any. Write one word in each gap.",
+  "source": "There are no taxis at the {place}, {name}.",
+  "hint": "There ______ ______ taxis at the {place}, {name}.",
+  "key": [
+   "aren't",
+   "any"
+  ],
+  "why": "Make the verb negative (not), then use any after it.",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "bus stop",
+    "corner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any. Write one word in each gap.",
+  "source": "There is no cheese in the {place}, {name}.",
+  "hint": "There ______ ______ cheese in the {place}, {name}.",
+  "key": [
+   "isn't",
+   "any"
+  ],
+  "why": "Make the verb negative (not), then use any after it.",
+  "slots": {
+   "place": [
+    "fridge",
+    "kitchen",
+    "bag",
+    "box"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any. Write one word in each gap.",
+  "source": "We have no lessons on {day}, {name}.",
+  "hint": "We ______ have ______ lessons on {day}, {name}.",
+  "key": [
+   "don't",
+   "any"
+  ],
+  "why": "Make the verb negative (not), then use any after it.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Navruz",
+    "Friday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any. Write one word in each gap.",
+  "source": "{name} has no cousins in {city}.",
+  "hint": "{name} ______ have ______ cousins in {city}.",
+  "key": [
+   "doesn't",
+   "any"
+  ],
+  "why": "Make the verb negative (not), then use any after it.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not and any. Write one word in each gap.",
+  "source": "There was no rain in {city} this {time}.",
+  "hint": "There ______ ______ rain in {city} this {time}.",
+  "key": [
+   "wasn't",
+   "any"
+  ],
+  "why": "Make the verb negative (not), then use any after it.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "time": [
+    "week",
+    "month",
+    "summer",
+    "spring"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your fridge. Use There is no.",
+  "requiredElement": "There is no",
+  "constraints": [
+   "exactly one sentence",
+   "must use no",
+   "positive verb"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your town. Use There aren't any.",
+  "requiredElement": "There aren't any",
+  "constraints": [
+   "exactly one sentence",
+   "must use any",
+   "must use not"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write the same idea twice: once with no and once with not any.",
+  "requiredElement": "no / not any",
+  "constraints": [
+   "exactly two sentences",
+   "must use no",
+   "must use any"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your free time. Use have no.",
+  "requiredElement": "have no / has no",
+  "constraints": [
+   "exactly one sentence",
+   "must use no"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your homework. Use don't have any.",
+  "requiredElement": "don't have any",
+  "constraints": [
+   "exactly one sentence",
+   "must use any"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather. Use There was no.",
+  "requiredElement": "There was no",
+  "constraints": [
+   "exactly one sentence",
+   "must use no"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your bag. Use any.",
+  "requiredElement": "any",
+  "constraints": [
+   "exactly one sentence",
+   "must use any",
+   "must use not"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your street. Use no.",
+  "requiredElement": "no",
+  "constraints": [
+   "exactly one sentence",
+   "must use no"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe an empty fridge. Write three or four sentences.",
+  "targetGrammar": "no / not any",
+  "lookFor": [
+   "There is no",
+   "There aren't any",
+   "We have no"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a quiet day in your town. Write three or four sentences.",
+  "targetGrammar": "no / not any",
+  "lookFor": [
+   "There were no",
+   "didn't see any",
+   "people"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend wants to visit your village. What isn't there? Write three or four sentences.",
+  "targetGrammar": "no / not any",
+  "lookFor": [
+   "no",
+   "any",
+   "but"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a free day: no school and no work. Write three or four sentences.",
+  "targetGrammar": "no / not any",
+  "lookFor": [
+   "I have no",
+   "don't have any",
+   "time"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "no-vs-any",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message to a friend: you can't come to the party. Explain why.",
+  "targetGrammar": "no / not any",
+  "lookFor": [
+   "no",
+   "any",
+   "money / time"
+  ]
+ }
+]

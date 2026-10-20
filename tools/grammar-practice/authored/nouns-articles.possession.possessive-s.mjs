@@ -41,7 +41,7 @@ const CHOOSE = [
   ["Madina", "I like ______ {thing} very much. It is {adj}.", { thing: ["dress", "bag", "room", "drawing"], adj: ["beautiful", "nice", "lovely", "great"] }],
   ["Boris", "______ {person} lives near the {place}.", { person: ["brother", "sister", "family", "aunt"], place: ["park", "station", "river", "market"] }],
   ["James", "This is ______ {thing}. He left it in the {place}.", { thing: ["jacket", "phone", "bag", "book"], place: ["car", "classroom", "café", "hall"] }],
-  ["Zarina", "______ {room} is next to the {place}.", { room: ["room", "office", "desk", "locker"], place: ["kitchen", "window", "door", "stairs"] }],
+  ["Zarina", "______ desk is next to the {place} in the {room}.", { place: ["window", "door", "board", "wall"], room: ["classroom", "office", "library", "hall"] }],
 ].map(([n, prompt, slots]) => ({ ...BASE, stage: "choose", format: "mcq", prompt, options: opts(n), key: 0, why: why(n), slots }));
 
 /* ---------------- build: 20 gap_fill ---------------- */
@@ -60,7 +60,7 @@ const BUILD = [
   ["Kamola", "______ (Kamola) {thing} is {colour}.", { thing: ["dress", "bag", "scarf", "phone"], colour: ["red", "green", "blue", "white"] }],
   ["Ivan", "I borrowed ______ (Ivan) {thing} for the {event}.", { thing: ["camera", "laptop", "bike", "jacket"], event: ["trip", "weekend", "party", "concert"] }],
   ["Lola", "______ (Lola) {person} lives in {city}.", { person: ["grandmother", "aunt", "uncle", "cousin"], city: CITY }],
-  ["Jasur", "______ (Jasur) {room} is next to the {place}.", { room: ["bedroom", "room", "office", "desk"], place: ["kitchen", "bathroom", "stairs", "door"] }],
+  ["Jasur", "______ (Jasur) {room} is next to the {place}.", { room: ["bedroom", "room", "study", "office"], place: ["kitchen", "bathroom", "stairs", "living room"] }],
   ["Sardor", "We played football in ______ (Sardor) {place} on {day}.", { place: ["yard", "garden", "street", "village"], day: DAY }],
   ["Madina", "______ (Madina) {thing} is on the {place}.", { thing: ["coat", "bag", "hat", "scarf"], place: ["chair", "bed", "sofa", "hook"] }],
   ["Elena", "______ (Elena) {person} is a {job}.", { person: ["brother", "sister", "father", "mother"], job: ["doctor", "driver", "teacher", "cook"] }],
