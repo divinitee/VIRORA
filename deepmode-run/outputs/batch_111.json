@@ -1,0 +1,186 @@
+[
+{"headword": "supply", "word_id": "6a42800cb9d8fc24968a4b7c", "word_ids": ["6a42800cb9d8fc24968a4b7c", "6a6ef83f0f1e82a5a0736847"], "cefr": "B1", "kind": "word", "sense_label": "Providing", "sense_pos": "verb", "corpus_definition": "to provide something that people need",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "supply", "relation": "conversion", "definition": "an amount of something that is ready for people to use", "example": "The town has a good supply of clean water.", "note": "Often plural: supplies = food, tools and other things people need, as in 'office supplies'.",
+   "syn": [{"to": "stock", "relation": "synonym", "strength": 0.8, "note": "An amount of goods kept ready to use or sell; common in shops."}, {"to": "store", "relation": "related", "strength": 0.6, "note": "Related: an amount of something kept for later use."}, {"to": "reserve", "relation": "related", "strength": 0.6, "note": "Related: an amount kept for a time when you need it, like oil or water reserves."}],
+   "ant": [{"to": "shortage", "relation": "antonym", "note": "A shortage means there is not enough of something."}, {"to": "demand", "relation": "antonym", "note": "In business, supply is what is offered and demand is what people want to buy."}]},
+  {"slot": "verb", "status": "existing", "form": "supply", "relation": "base", "definition": "to give people things that they need or want", "example": "This farm supplies milk to shops in Tashkent.", "note": "Patterns: supply something to someone; supply someone with something.",
+   "syn": [{"to": "provide", "relation": "synonym", "strength": 0.95, "note": "Almost the same; provide is very common and a little more general."}, {"to": "give", "relation": "synonym", "strength": 0.8, "note": "Easy everyday word; supply is used more for goods and services, often regularly."}, {"to": "furnish", "relation": "synonym", "strength": 0.8, "note": "Formal: furnish someone with information or goods.", "register": "formal"}, {"to": "deliver", "relation": "related", "strength": 0.6, "note": "Related: to take goods to a place; supply is about giving what is needed."}],
+   "ant": []},
+  {"slot": "adjective", "status": "no_form", "note": "There is no common adjective made from supply. Don't confuse with supple (bending easily), which is a different word.", "not_family": ["supple"]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from supply."}
+ ],
+ "people": [
+  {"form": "supplier", "kind": "job", "status": "existing", "definition": "a person or company that sells goods to businesses", "example": "Our supplier sends new parts to the factory every week."}
+ ],
+ "affixes": [
+  {"affix": "-er", "in_form": "supplier", "meaning_key": "-er", "also": ["teacher", "driver", "worker"]}
+ ],
+ "context": {"text": "A local farm supplies fresh vegetables to our school. When the supply of tomatoes runs low, the cook calls the supplier and asks for more.", "uses": ["supplies", "supply", "supplier"]},
+ "reviewer_note": "Two corpus rows with the same meaning merged (lowest CEFR B1). Supplier (y to i + -er) kept in People & things; supple is not family."},
+
+{"headword": "surprised at", "word_id": "6a4282fd46ba24054c1dce01", "word_ids": ["6a4282fd46ba24054c1dce01"], "cefr": "B1", "kind": "phrase", "sense_label": "Feeling", "sense_pos": "adjective", "corpus_definition": "feeling shocked because something was unexpected",
+ "usage_note": "be surprised at + noun / how, what clause: 'I was surprised at the price.' 'We were surprised at how big it was.' Surprised by is also common and means the same.",
+ "relations": [
+  {"to": "surprised by", "relation": "synonym", "strength": 0.95, "note": "Same meaning; by is a little more common in modern English."},
+  {"to": "amazed at", "relation": "synonym", "strength": 0.8, "note": "Stronger: very surprised, often in a good way."},
+  {"to": "astonished at", "relation": "synonym", "strength": 0.8, "note": "Very surprised; a little more formal."},
+  {"to": "shocked at", "relation": "related", "strength": 0.6, "note": "Related: surprised in a bad or upsetting way."}
+ ],
+ "context": {"text": "My grandmother was surprised at how well I can cook plov now. I was surprised at her reaction too, because she usually says nothing.", "uses": ["surprised at"]},
+ "reviewer_note": "kind_hint was phrasal; corrected to phrase (adjective + preposition, not verb + particle)."},
+
+{"headword": "suspicious", "word_id": "6a6ef9b2a60155614809275d", "word_ids": ["6a6ef9b2a60155614809275d"], "cefr": "B1", "kind": "word", "sense_label": "Distrust", "sense_pos": "adjective", "corpus_definition": "feeling that something might be wrong or dishonest",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "suspicion", "relation": "derivational", "definition": "a feeling that someone has done something wrong", "example": "I have a suspicion that he is not telling the truth.",
+   "syn": [{"to": "distrust", "relation": "synonym", "strength": 0.8, "note": "A feeling that you cannot trust someone; a bit more general."}, {"to": "mistrust", "relation": "synonym", "strength": 0.8, "note": "Very close to distrust; a little more formal."}, {"to": "doubt", "relation": "related", "strength": 0.6, "note": "Related: a feeling that something may not be true."}],
+   "ant": [{"to": "trust", "relation": "antonym", "note": "Trust is the belief that someone is honest and good."}]},
+  {"slot": "verb", "status": "existing", "form": "suspect", "relation": "derivational", "definition": "to think that someone may have done something wrong", "example": "The teacher suspected that Aziz had copied his homework.", "note": "Also a noun with stress on the first syllable: a suspect = a person the police think did a crime.",
+   "syn": [{"to": "distrust", "relation": "related", "strength": 0.6, "note": "Related: to feel you cannot trust someone; suspect is about thinking they did something wrong."}, {"to": "mistrust", "relation": "related", "strength": 0.6, "note": "Related: close to distrust, a little more formal."}],
+   "ant": [{"to": "trust", "relation": "antonym", "note": "To trust someone is to believe they are honest."}]},
+  {"slot": "adjective", "status": "existing", "form": "suspicious", "relation": "base", "definition": "feeling that someone may be dishonest or that something is wrong", "example": "My mother was suspicious of the man selling cheap phones.", "note": "Also means 'making you feel that something is wrong': a suspicious bag at the station. Pattern: suspicious of someone.",
+   "syn": [{"to": "distrustful", "relation": "synonym", "strength": 0.8, "note": "Not trusting someone; a little more formal."}, {"to": "wary", "relation": "synonym", "strength": 0.8, "note": "Careful because you think there may be a danger or problem."}, {"to": "doubtful", "relation": "related", "strength": 0.6, "note": "Related: not sure that something is true or good."}],
+   "ant": [{"to": "trusting", "relation": "antonym", "note": "A trusting person believes that others are honest."}]},
+  {"slot": "adverb", "status": "existing", "form": "suspiciously", "relation": "derivational", "definition": "in a way that shows you think something is wrong", "example": "The guard looked at us suspiciously when we came in.", "note": "Also: in a way that makes people think something is wrong: 'He was acting suspiciously.'",
+   "syn": [{"to": "distrustfully", "relation": "synonym", "strength": 0.8, "note": "Close in meaning but much less common."}, {"to": "doubtfully", "relation": "related", "strength": 0.6, "note": "Related: in a way that shows you are not sure."}],
+   "ant": []}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ly", "in_form": "suspiciously", "meaning_key": "-ly", "also": ["quickly", "carefully", "slowly"]}
+ ],
+ "context": {"text": "The shop owner became suspicious when a customer paid with a very old banknote. He had a suspicion it was fake, so he looked at it suspiciously under the light.", "uses": ["suspicious", "suspicion", "suspiciously"]},
+ "reviewer_note": "suspect (noun, a person) not added to People & things because suspect already appears as the verb form; mentioned in its note. No -ous affix claimed (suspici- is not a word)."},
+
+{"headword": "swear", "word_id": "6a42816a2098612b1526f910", "word_ids": ["6a42816a2098612b1526f910"], "cefr": "B2", "kind": "word", "sense_label": "Bad words", "sense_pos": "verb", "corpus_definition": "To use very bad or rude language when you are angry.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "swearing", "relation": "derivational", "definition": "the use of rude or offensive words", "example": "There is too much swearing in that film for children.",
+   "syn": [{"to": "bad language", "relation": "synonym", "strength": 0.95, "note": "Easy phrase with the same meaning."}, {"to": "cursing", "relation": "synonym", "strength": 0.8, "note": "Very close; a little old-fashioned in British English."}],
+   "ant": []},
+  {"slot": "verb", "status": "existing", "form": "swear", "relation": "base", "definition": "to use rude or offensive words, often when you are angry", "example": "He swore loudly when he dropped the hot pan.", "note": "Irregular: swear, swore, sworn. Pattern: swear at someone.",
+   "syn": [{"to": "curse", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little more formal or old-fashioned."}, {"to": "cuss", "relation": "synonym", "strength": 0.8, "note": "Informal American English.", "register": "informal"}],
+   "ant": []},
+  {"slot": "adjective", "status": "other_meaning", "form": "sworn", "definition": "made after a very serious, formal promise to tell the truth", "example": "The witness gave a sworn statement to the court.", "note": "Belongs to swear = make a serious promise, not using rude words."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from swear."}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ing", "in_form": "swearing", "meaning_key": "-ing", "also": ["building", "meeting", "painting"]}
+ ],
+ "context": {"text": "My little brother heard a word on the bus and asked me what it meant. I told him it was swearing and that people who swear in front of children are rude.", "uses": ["swearing", "swear"]},
+ "reviewer_note": "swear has two corpus meanings; this map is rude language, the promise row has its own map. Compound swear word left out."},
+
+{"headword": "swear", "word_id": "6a6ef9b2a601556148092799", "word_ids": ["6a6ef9b2a601556148092799"], "cefr": "B1", "kind": "word", "sense_label": "Promise", "sense_pos": "verb", "corpus_definition": "to make a very serious promise; to use very bad language",
+ "forms": [
+  {"slot": "noun", "status": "other_meaning", "form": "swearing", "definition": "the use of rude or offensive words", "example": "The coach does not allow swearing during practice.", "note": "Belongs to swear = use rude words, not making a promise. For a serious promise English uses oath or vow."},
+  {"slot": "verb", "status": "existing", "form": "swear", "relation": "base", "definition": "to promise very seriously that something is true or that you will do it", "example": "I swear I didn't take your phone.", "note": "Irregular: swear, swore, sworn. Patterns: swear (that) + clause; swear to do something.",
+   "syn": [{"to": "promise", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word; swear is stronger and more serious."}, {"to": "vow", "relation": "synonym", "strength": 0.95, "note": "A very serious promise, often formal or in stories."}, {"to": "pledge", "relation": "synonym", "strength": 0.8, "note": "Formal promise, often in public or in politics.", "register": "formal"}, {"to": "guarantee", "relation": "related", "strength": 0.6, "note": "Related: to promise that something will happen or be true."}],
+   "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "sworn", "relation": "participial", "definition": "made after a serious, formal promise to tell the truth", "example": "She gave a sworn statement to the police.", "note": "Also in 'sworn enemies' = people who have decided to be enemies for ever.",
+   "syn": [{"to": "official", "relation": "related", "strength": 0.4, "note": "Related: a sworn statement is an official one, made under a formal promise."}],
+   "ant": []},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from swear."}
+ ],
+ "people": [],
+ "affixes": [],
+ "context": {"text": "Dilnoza swore she would call her parents every Sunday while she studied abroad. In court, the witness was sworn in and gave a sworn statement.", "uses": ["swore", "sworn"]},
+ "reviewer_note": "CORPUS: this row's definition mixes both meanings; its example is the promise meaning, so the map follows promise. Rude-language meaning has its own map (row 6a42816a...)."},
+
+{"headword": "swift", "word_id": "6a6ef9b2a601556148092889", "word_ids": ["6a6ef9b2a601556148092889"], "cefr": "B1", "kind": "word", "sense_label": "Fast", "sense_pos": "adjective", "corpus_definition": "moving or happening very fast",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "swiftness", "relation": "derivational", "definition": "the quality of being very fast", "example": "Everyone was surprised by the swiftness of his recovery.", "register": "formal",
+   "syn": [{"to": "speed", "relation": "synonym", "strength": 0.8, "note": "Everyday word for how fast something is."}, {"to": "quickness", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little more common in speech."}, {"to": "rapidity", "relation": "synonym", "strength": 0.8, "note": "Formal, mostly in writing.", "register": "formal"}],
+   "ant": [{"to": "slowness", "relation": "antonym", "note": "The quality of not moving or happening fast."}]},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from swift."},
+  {"slot": "adjective", "status": "existing", "form": "swift", "relation": "base", "definition": "moving or happening very quickly", "example": "The police took swift action after the accident.", "note": "A little more formal or literary than fast or quick; common in news: a swift response.",
+   "syn": [{"to": "fast", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word with the same meaning."}, {"to": "quick", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word; often about actions that take little time."}, {"to": "rapid", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little formal, common in writing."}, {"to": "speedy", "relation": "synonym", "strength": 0.8, "note": "Often in wishes: a speedy recovery."}],
+   "ant": [{"to": "slow", "relation": "antonym", "note": "Not moving or happening quickly."}]},
+  {"slot": "adverb", "status": "existing", "form": "swiftly", "relation": "derivational", "definition": "very quickly", "example": "The boat moved swiftly down the river.",
+   "syn": [{"to": "quickly", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word with the same meaning."}, {"to": "rapidly", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little formal."}, {"to": "fast", "relation": "synonym", "strength": 0.95, "note": "Fast is also an adverb: run fast."}],
+   "ant": [{"to": "slowly", "relation": "antonym", "note": "Not quickly."}]}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ness", "in_form": "swiftness", "meaning_key": "-ness", "also": ["kindness", "darkness", "happiness"]},
+  {"affix": "-ly", "in_form": "swiftly", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+ ],
+ "context": {"text": "The doctors in Samarkand acted swiftly when my uncle fell ill. Thanks to their swift help, he was home in a week.", "uses": ["swiftly", "swift"]},
+ "reviewer_note": "swift is also a bird (noun); left out as a separate word, not part of the 'fast' family for learners."},
+
+{"headword": "switch", "word_id": "6a6ef83f0f1e82a5a07367a6", "word_ids": ["6a6ef83f0f1e82a5a07367a6"], "cefr": "B1", "kind": "word", "sense_label": "Change", "sense_pos": "verb", "corpus_definition": "To change from one thing or action to another.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "switch", "relation": "conversion", "definition": "a change from one thing or way of doing something to another", "example": "The switch to online lessons was difficult for many teachers.", "note": "The same noun also means the small button that turns a light or machine on or off.",
+   "syn": [{"to": "change", "relation": "synonym", "strength": 0.95, "note": "Easy general word with the same meaning."}, {"to": "shift", "relation": "synonym", "strength": 0.8, "note": "A change of direction, opinion or method; often gradual."}, {"to": "swap", "relation": "related", "strength": 0.6, "note": "Related: an exchange of one thing for another."}],
+   "ant": []},
+  {"slot": "verb", "status": "existing", "form": "switch", "relation": "base", "definition": "to change from one thing, plan or activity to another", "example": "I switched from coffee to green tea last year.", "note": "Patterns: switch from A to B; switch to something. Phrasal verbs switch on / switch off are about lights and machines.",
+   "syn": [{"to": "change", "relation": "synonym", "strength": 0.95, "note": "Easy general word with the same meaning."}, {"to": "shift", "relation": "synonym", "strength": 0.8, "note": "Often a slower or smaller change."}, {"to": "swap", "relation": "related", "strength": 0.6, "note": "Related: to give one thing and get another in its place; informal.", "register": "informal"}, {"to": "replace", "relation": "related", "strength": 0.4, "note": "Related: to put a new thing in the place of an old one."}],
+   "ant": []},
+  {"slot": "adjective", "status": "no_form", "note": "There is no common adjective made from switch in this meaning."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from switch."}
+ ],
+ "people": [],
+ "affixes": [],
+ "context": {"text": "Many students in Tashkent switched to online classes last winter. The switch was hard at first, but now they like studying from home.", "uses": ["switched", "switch"]},
+ "reviewer_note": "Noun switch = change shown as conversion; device meaning only noted. Compound switchboard left out."},
+
+{"headword": "symphony", "word_id": "6a6ef9b2a601556148092722", "word_ids": ["6a6ef9b2a601556148092722"], "cefr": "B1", "kind": "word", "sense_label": "Music", "sense_pos": "noun", "corpus_definition": "a long piece of serious music for a full orchestra",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "symphony", "relation": "base", "definition": "a long piece of classical music for a large orchestra", "example": "We listened to a Mozart symphony at the concert hall.", "note": "Also used in names of orchestras: the London Symphony Orchestra.",
+   "syn": [{"to": "concerto", "relation": "related", "strength": 0.4, "note": "Related: a long piece for an orchestra and one main player, like a pianist."}, {"to": "composition", "relation": "related", "strength": 0.4, "note": "Related: any piece of music someone has written."}],
+   "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from symphony."},
+  {"slot": "adjective", "status": "existing", "form": "symphonic", "relation": "derivational", "definition": "connected with music written for a large orchestra", "example": "The film has beautiful symphonic music.",
+   "syn": [{"to": "orchestral", "relation": "synonym", "strength": 0.8, "note": "Played by or written for an orchestra; a little more general."}],
+   "ant": []},
+  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from symphony."}
+ ],
+ "people": [],
+ "affixes": [],
+ "context": {"text": "The orchestra in Tashkent played a symphony by Beethoven on Friday. My sister loves symphonic music, so she bought tickets for the whole family.", "uses": ["symphony", "symphonic"]},
+ "reviewer_note": "No -ic affix claimed: symphonic replaces the -y, and symphon- is not a word. Symphony orchestra is a compound, left out."},
+
+{"headword": "take back", "word_id": "6a42800cb9d8fc24968a4b83", "word_ids": ["6a42800cb9d8fc24968a4b83"], "cefr": "B1", "kind": "phrasal", "sense_label": "Return", "sense_pos": "verb", "corpus_definition": "to return something to a store for a refund",
+ "particle_note": "Separable: 'take back the shoes' or 'take the shoes back'; with a pronoun only 'take them back'. Often: take something back to the shop.",
+ "relations": [
+  {"to": "return", "relation": "synonym", "strength": 0.95, "note": "Same meaning; a little more formal: return an item to the shop."},
+  {"to": "bring back", "relation": "synonym", "strength": 0.8, "note": "Same idea, said from the shop's point of view: 'bring it back with the receipt'."},
+  {"to": "exchange", "relation": "related", "strength": 0.4, "note": "Related: you take something back and get a different one, not your money."},
+  {"to": "keep", "relation": "antonym", "note": "You keep the thing you bought and do not return it."}
+ ],
+ "context": {"text": "The jacket I bought at the market was too small, so I took it back the next day. The seller said I could take back any item within a week.", "uses": ["took it back", "take back"]},
+ "reviewer_note": "Other meanings of take back (say you were wrong about something you said; remind of the past) are not this map."},
+
+{"headword": "talented at", "word_id": "6a4265cce20c7210db6908ef", "word_ids": ["6a4265cce20c7210db6908ef"], "cefr": "B1", "kind": "phrase", "sense_label": "Ability", "sense_pos": "adjective", "corpus_definition": "Naturally good at doing a specific activity.",
+ "usage_note": "be talented at + noun / -ing: 'She is talented at drawing.' Talented in is also used, and talented often comes before a noun: a talented singer.",
+ "relations": [
+  {"to": "good at", "relation": "synonym", "strength": 0.8, "note": "Easy everyday phrase; talented at stresses natural ability."},
+  {"to": "gifted at", "relation": "synonym", "strength": 0.8, "note": "Very close; often about children with special ability."},
+  {"to": "skilled at", "relation": "related", "strength": 0.6, "note": "Related: good because of training and practice, not only natural ability."},
+  {"to": "bad at", "relation": "antonym", "note": "Not able to do something well."}
+ ],
+ "context": {"text": "My cousin Jasur is very talented at playing the dutar. His teacher says he is the most talented at music in the whole school.", "uses": ["talented at"]},
+ "reviewer_note": "Fixed adjective + preposition pattern; no forms."},
+
+{"headword": "tax", "word_id": "6a42821646ba24054c1dccb1", "word_ids": ["6a42821646ba24054c1dccb1", "6a42883f6941e70ad6a00dc3"], "cefr": "B1", "kind": "word", "sense_label": "Money", "sense_pos": "noun", "corpus_definition": "Money that you pay to the government.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "tax", "relation": "base", "definition": "money that people and companies must pay to the government", "example": "We pay tax on everything we buy in the shop.",
+   "syn": [{"to": "duty", "relation": "synonym", "strength": 0.8, "note": "Money paid to the government on goods, especially goods brought into a country."}, {"to": "levy", "relation": "synonym", "strength": 0.8, "note": "Formal word for an official charge.", "register": "formal"}, {"to": "tariff", "relation": "related", "strength": 0.6, "note": "Related: money paid on goods coming into or going out of a country."}, {"to": "fee", "relation": "related", "strength": 0.4, "note": "Related: money you pay for a service, not to the government in general."}],
+   "ant": []},
+  {"slot": "noun", "status": "existing", "form": "taxation", "relation": "derivational", "definition": "the system of making people pay money to the government", "example": "High taxation makes life hard for small businesses.", "register": "formal", "syn": [], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "tax", "relation": "conversion", "definition": "to make people pay money to the government on something", "example": "The government taxes cigarettes very heavily.",
+   "syn": [{"to": "levy", "relation": "related", "strength": 0.6, "note": "Related: formal, used with the tax as object: levy a tax on fuel.", "register": "formal"}, {"to": "charge", "relation": "related", "strength": 0.6, "note": "Related: to ask for money for something."}],
+   "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "taxable", "relation": "derivational", "definition": "that you must pay money to the government on", "example": "Most of his income is taxable.",
+   "syn": [],
+   "ant": [{"to": "tax-free", "relation": "antonym", "note": "If something is tax-free, you do not pay money to the government on it."}]},
+  {"slot": "adjective", "status": "other_meaning", "form": "taxing", "definition": "needing a lot of effort, so it makes you tired", "example": "Teaching forty children every day is a taxing job.", "note": "Belongs to tax = put a heavy load on someone, not paying money to the government."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from tax."}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ation", "in_form": "taxation", "meaning_key": "-ation", "also": ["information", "education", "invitation"]},
+  {"affix": "-able", "in_form": "taxable", "meaning_key": "-able", "also": ["readable", "washable", "comfortable"]}
+ ],
+ "context": {"text": "In Uzbekistan, most workers pay income tax every month. The government also taxes some goods, like cars brought in from abroad, and any taxable income must be reported.", "uses": ["tax", "taxes", "taxable"]},
+ "reviewer_note": "Two corpus rows with the same meaning merged. taxing (tiring) shown as other_meaning false friend. Compounds taxpayer, taxman, tax-free (only as antonym) not shown as forms."}
+]
