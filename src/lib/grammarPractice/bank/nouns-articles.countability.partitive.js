@@ -495,9 +495,9 @@ export default [
   "slots": {
    "shop": [
     "market",
-    "bakery",
     "shop",
-    "bazaar"
+    "bazaar",
+    "supermarket"
    ],
    "food": [
     "plov",
@@ -1049,9 +1049,9 @@ export default [
   "slots": {
    "shop": [
     "market",
-    "bakery",
     "shop",
-    "bazaar"
+    "bazaar",
+    "supermarket"
    ],
    "food": [
     "plov",
@@ -1381,9 +1381,9 @@ export default [
   "slots": {
    "shop": [
     "market",
-    "bakery",
     "shop",
-    "bazaar"
+    "bazaar",
+    "supermarket"
    ],
    "name": [
     "Aziz",
@@ -1577,9 +1577,9 @@ export default [
   "slots": {
    "shop": [
     "market",
-    "bakery",
     "shop",
-    "bazaar"
+    "bazaar",
+    "supermarket"
    ],
    "name": [
     "Aziz",

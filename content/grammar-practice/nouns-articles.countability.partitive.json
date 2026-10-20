@@ -493,9 +493,9 @@
   "slots": {
    "shop": [
     "market",
-    "bakery",
     "shop",
-    "bazaar"
+    "bazaar",
+    "supermarket"
    ],
    "food": [
     "plov",
@@ -1047,9 +1047,9 @@
   "slots": {
    "shop": [
     "market",
-    "bakery",
     "shop",
-    "bazaar"
+    "bazaar",
+    "supermarket"
    ],
    "food": [
     "plov",
@@ -1379,9 +1379,9 @@
   "slots": {
    "shop": [
     "market",
-    "bakery",
     "shop",
-    "bazaar"
+    "bazaar",
+    "supermarket"
    ],
    "name": [
     "Aziz",
@@ -1575,9 +1575,9 @@
   "slots": {
    "shop": [
     "market",
-    "bakery",
     "shop",
-    "bazaar"
+    "bazaar",
+    "supermarket"
    ],
    "name": [
     "Aziz",

@@ -16,7 +16,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ children · childs · childrens · child  
    why: child has an irregular plural: one child, two children. Don't add -s.
 
-4. Two ______ are fixing the **road** in our **office**.  
+4. Two ______ are fixing the **roof** at our **building**.  
    options: ✔ men · mans · mens · man  
    why: man has an irregular plural: one man, two men. Don't add -s.
 
@@ -76,7 +76,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ sheep · sheeps · sheepes · a sheep  
    why: Sheep does not change: one sheep, two sheep. Never add -s.
 
-19. There are six ______ near the **pond** in **the park**.  
+19. There are six ______ near the **pond** in **Parkent**.  
    options: ✔ geese · gooses · geeses · goose  
    why: goose has an irregular plural: one goose, two geese. Don't add -s.
 
@@ -102,7 +102,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: child has an irregular plural: one child, two children. Don't add -s.
 
 4. _Write the plural of the word in brackets._  
-   Two ______ (man) are fixing the **lift** in our **street**.  
+   Two ______ (man) are fixing the **window** at our **house**.  
    key: men  
    why: man has an irregular plural: one man, two men. Don't add -s.
 
@@ -177,7 +177,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Sheep does not change: one sheep, two sheep. Never add -s.
 
 19. _Write the plural of the word in brackets._  
-   There are six ______ (goose) near the **farm** in **the zoo**.  
+   There are six ______ (goose) near the **farm** in **the mountains**.  
    key: geese  
    why: goose has an irregular plural: one goose, two geese. Don't add -s.
 

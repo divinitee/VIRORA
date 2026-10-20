@@ -105,7 +105,7 @@ export default [
   "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Two ______ are fixing the {thing} in our {place}.",
+  "prompt": "Two ______ are fixing the {thing} at our {place}.",
   "options": [
    "men",
    "mans",
@@ -116,16 +116,16 @@ export default [
   "why": "man has an irregular plural: one man, two men. Don't add -s.",
   "slots": {
    "thing": [
-    "road",
-    "lift",
     "roof",
-    "window"
+    "window",
+    "door",
+    "gate"
    ],
    "place": [
-    "street",
-    "building",
+    "house",
     "school",
-    "office"
+    "office",
+    "building"
    ]
   }
  },
@@ -603,9 +603,9 @@ export default [
    ],
    "where": [
     "our village",
-    "the park",
+    "Parkent",
     "Chimgan",
-    "the zoo"
+    "the mountains"
    ]
   }
  },
@@ -731,21 +731,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the plural of the word in brackets.",
-  "source": "Two ______ (man) are fixing the {thing} in our {place}.",
+  "source": "Two ______ (man) are fixing the {thing} at our {place}.",
   "key": "men",
   "why": "man has an irregular plural: one man, two men. Don't add -s.",
   "slots": {
    "thing": [
-    "road",
-    "lift",
     "roof",
-    "window"
+    "window",
+    "door",
+    "gate"
    ],
    "place": [
-    "street",
-    "building",
+    "house",
     "school",
-    "office"
+    "office",
+    "building"
    ]
   }
  },
@@ -1148,9 +1148,9 @@ export default [
    ],
    "where": [
     "our village",
-    "the park",
+    "Parkent",
     "Chimgan",
-    "the zoo"
+    "the mountains"
    ]
   }
  },

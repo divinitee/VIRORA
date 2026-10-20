@@ -64,7 +64,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ bottles of juice · bottle of juice · bottles of juices · bottles juice  
    why: You can't count juice, so count the bottle: bottles of juice. Only the bottle gets -s/-es.
 
-16. Mum bought two ______ at the **shop** for **the party**.  
+16. Mum bought two ______ at the **bazaar** for **the party**.  
    options: ✔ kilos of rice · kilo of rice · kilos of rices · kilos rice  
    why: You can't count rice, so count the kilo: kilos of rice. Only the kilo gets -s/-es.
 
@@ -162,7 +162,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: You can't count juice, so count the bottle: bottles of juice. Only the bottle gets -s/-es.
 
 16. _Use the two words in brackets with of. Put the first word in the right form._  
-   Mum bought two ______ (kilo / rice) at the **bakery** for **plov**.  
+   Mum bought two ______ (kilo / rice) at the **shop** for **plov**.  
    key: kilos of rice  
    why: You can't count rice, so count the kilo: kilos of rice. Only the kilo gets -s/-es.
 
@@ -231,8 +231,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: You can't count milk, so count the glass: glasses of milk. Only the glass gets -s/-es.
 
 8. _The first sentence has a mistake. Complete the correct sentence with the word in brackets + of + the noun._  
-   Dad bought two rices at the **shop**, **Olga**.  
-   → Dad bought two ______ (kilo) at the **shop**, **Olga**.  
+   Dad bought two rices at the **bazaar**, **Olga**.  
+   → Dad bought two ______ (kilo) at the **bazaar**, **Olga**.  
    key: kilos of rice  
    why: You can't count rice, so count the kilo: kilos of rice. Only the kilo gets -s/-es.
 
@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: You can't count water, so count the bottle: bottles of water. Only the bottle gets -s/-es.
 
 15. _Read the first sentence. Now there are more. Complete the second sentence._  
-   Dad bought a kilo of rice at the **shop**.  
-   → Mum bought three ______ at the **shop**, **Timur**.  
+   Dad bought a kilo of rice at the **bazaar**.  
+   → Mum bought three ______ at the **bazaar**, **Timur**.  
    key: kilos of rice  
    why: You can't count rice, so count the kilo: kilos of rice. Only the kilo gets -s/-es.
 

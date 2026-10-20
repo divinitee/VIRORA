@@ -36,7 +36,7 @@ const ROWS = [
   ["child", "There are twenty ______ in {name}'s {group}.", { name: NAME, group: ["class", "group", "school bus", "team"] }],
   ["child", "My {person} has three ______ and lives in {city}.", { person: ["aunt", "uncle", "cousin", "neighbour"], city: CITY }],
   ["child", "The ______ are playing in the {place} with {name}.", { place: ["yard", "park", "garden", "street"], name: NAME }],
-  ["man", "Two ______ are fixing the {thing} in our {place}.", { thing: ["road", "lift", "roof", "window"], place: ["street", "building", "school", "office"] }],
+  ["man", "Two ______ are fixing the {thing} at our {place}.", { thing: ["roof", "window", "door", "gate"], place: ["house", "school", "office", "building"] }],
   ["man", "Three ______ from {city} work at the {place}.", { city: CITY, place: ["factory", "market", "station", "bank"] }],
   ["woman", "Four ______ are waiting at the {place} in {city}.", { place: ["bus stop", "station", "clinic", "bank"], city: CITY }],
   ["woman", "The ______ in my {group} play {sport} every Sunday.", { group: ["family", "team", "class", "office"], sport: ["volleyball", "tennis", "chess", "basketball"] }],
@@ -51,7 +51,7 @@ const ROWS = [
   ["mouse", "Our cat caught three ______ in the {place} last {time}.", { place: ["garden", "yard", "garage", "kitchen"], time: ["week", "night", "month", "Sunday"] }],
   ["sheep", "{who} has fifty ______ on the farm near {city}.", { who: ["My grandfather", "My uncle", "Our neighbour", "Aziz's father"], city: ["Jizzakh", "Nurata", "Karshi", "Navoi"] }],
   ["sheep", "We saw many ______ on the road to {city} with {name}.", { city: ["Jizzakh", "Nurata", "Karshi", "Navoi"], name: NAME }],
-  ["goose", "There are six ______ near the {place} in {where}.", { place: ["lake", "river", "pond", "farm"], where: ["our village", "the park", "Chimgan", "the zoo"] }],
+  ["goose", "There are six ______ near the {place} in {where}.", { place: ["lake", "river", "pond", "farm"], where: ["our village", "Parkent", "Chimgan", "the mountains"] }],
   ["goose", "{name}'s grandma has ten ______ and five {animals}.", { name: NAME, animals: ["hens", "ducks", "rabbits", "goats"] }],
 ];
 

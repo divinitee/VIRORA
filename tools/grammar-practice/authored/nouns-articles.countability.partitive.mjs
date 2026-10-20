@@ -29,6 +29,7 @@ const why = (u, n, many) => many
 
 const NAME = ["Aziz", "Olga", "Timur", "Malika"];
 const SHOP = ["market", "bakery", "shop", "bazaar"];
+const GROCER = ["market", "shop", "bazaar", "supermarket"]; // rice/sugar are not sold at a bakery
 const CITY = ["Samarkand", "Bukhara", "Fergana", "Termez"];
 
 // [unit, noun, many?, sentence with ______, slots]
@@ -48,7 +49,7 @@ const ROWS = [
   ["cup", "coffee", false, "Can I have a ______ with my {food}, please?", { food: ["cake", "breakfast", "samsa", "dessert"] }],
   ["glass", "water", true, "Drink two ______ before the {activity}, {name}.", { activity: ["game", "run", "lesson", "walk"], name: NAME }],
   ["bottle", "juice", true, "We took four ______ on the trip to {city} with {who}.", { city: CITY, who: ["Grandma", "our cousins", "Dad", "the kids"] }],
-  ["kilo", "rice", true, "Mum bought two ______ at the {shop} for {food}.", { shop: SHOP, food: ["plov", "dinner", "the party", "the week"] }],
+  ["kilo", "rice", true, "Mum bought two ______ at the {shop} for {food}.", { shop: GROCER, food: ["plov", "dinner", "the party", "the week"] }],
   ["kilo", "sugar", false, "Can I have a ______, please? It's for {food}, {name}.", { food: ["a cake", "jam", "the party", "tea"], name: NAME }],
   ["bar", "chocolate", true, "{name} bought three ______ for {who}.", { name: NAME, who: ["the kids", "our cousins", "the trip", "the class"] }],
   ["bar", "soap", false, "There is a ______ in the {place}, {name}.", { place: ["bathroom", "bag", "cupboard", "box"], name: NAME }],
@@ -74,7 +75,7 @@ const TRANSFORM = [
   // kind 2: fix the mistake
   [T_FIX, "loaf", "bread", true, "Mum bought three breads at the {shop}, {name}.", "Mum bought three ______ (loaf) at the {shop}, {name}.", { shop: SHOP, name: NAME }],
   [T_FIX, "glass", "milk", true, "{name} drank two milks at {place}.", "{name} drank two ______ (glass) at {place}.", { name: NAME, place: ["breakfast", "school", "Grandma's house", "the café"] }],
-  [T_FIX, "kilo", "rice", true, "Dad bought two rices at the {shop}, {name}.", "Dad bought two ______ (kilo) at the {shop}, {name}.", { shop: SHOP, name: NAME }],
+  [T_FIX, "kilo", "rice", true, "Dad bought two rices at the {shop}, {name}.", "Dad bought two ______ (kilo) at the {shop}, {name}.", { shop: GROCER, name: NAME }],
   [T_FIX, "loaf", "bread", false, "Can you buy a bread at the {shop}, {name}?", "Can you buy a ______ (loaf) at the {shop}, {name}?", { shop: SHOP, name: NAME }],
   [T_FIX, "piece", "cake", false, "I want a cake piece with my {drink}, {name}.", "I want a ______ (piece) with my {drink}, {name}.", { drink: ["tea", "coffee", "milk", "juice"], name: NAME }],
   // kind 3: a unit of X -> more units of X
@@ -82,7 +83,7 @@ const TRANSFORM = [
   [T_MANY, "loaf", "bread", true, "There is one loaf of bread in the {place}.", "Now there are four ______ in the {place}, {name}.", { place: ["kitchen", "bag", "basket", "cupboard"], name: NAME }],
   [T_MANY, "cup", "tea", true, "{name} drank a cup of tea with {who}.", "{who} drank two ______.", { name: NAME, who: ["Grandma", "Dad", "our teacher", "my uncle"] }],
   [T_MANY, "bottle", "water", true, "We need a bottle of water for the {event}.", "We need six ______ for the {event}, {name}.", { event: ["trip", "game", "picnic", "walk"], name: NAME }],
-  [T_MANY, "kilo", "rice", true, "Dad bought a kilo of rice at the {shop}.", "Mum bought three ______ at the {shop}, {name}.", { shop: SHOP, name: NAME }],
+  [T_MANY, "kilo", "rice", true, "Dad bought a kilo of rice at the {shop}.", "Mum bought three ______ at the {shop}, {name}.", { shop: GROCER, name: NAME }],
 ].map(([instr, u, n, m, source, hint, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key: phrase(u, n, m), why: why(u, n, m), slots }));
 
 /* ---------------- create: 8 ---------------- */
