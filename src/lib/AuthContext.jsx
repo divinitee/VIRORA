@@ -94,6 +94,10 @@ export const AuthProvider = ({ children }) => {
       // Now check if the user is authenticated
       setIsLoadingAuth(true);
       const currentUser = await base44.auth.me();
+      // Remember that this device has signed in before, so the landing page
+      // can lead with "Log in" instead of "Start for free" next time — even
+      // after the session token itself is wiped. See landing/Hero.jsx.
+      try { localStorage.setItem("virora_has_account", "1"); } catch { /* private mode */ }
       setUser(currentUser);
       setIsAuthenticated(true);
       setIsLoadingAuth(false);
