@@ -45,11 +45,11 @@
 44	B	questions-negation.yes-no.progressive-question	A1	1	live	Are + subject + -ing
 45	B	questions-negation.wh-questions.progressive-wh	A1	1	live	What + are + you + doing
 46	B	questions-negation.wh-questions.wh-word-choice	A1	4	live	Where for place | When for time | Who for a person | Why for reason
-47	B	questions-negation.negation.dont-doesnt	A1	2	todo	don't with I | doesn't + base form (no -s on main verb)
-48	B	questions-negation.yes-no.past-did	A2	1	todo	Did for past simple questions
-49	B	questions-negation.wh-questions.how-long-perfect	A2	1	todo	have in a How long ... present perfect question
-50	B	questions-negation.wh-questions.how-often	A2	1	todo	does after 'How often' with a singular subject
-51	B	questions-negation.wh-questions.past-wh	A2	2	todo	did in a past wh-question | Wh + did + subject + base verb + time
+47	B	questions-negation.negation.dont-doesnt	A1	2	live	don't with I | doesn't + base form (no -s on main verb)
+48	B	questions-negation.yes-no.past-did	A2	1	live	Did for past simple questions
+49	B	questions-negation.wh-questions.how-long-perfect	A2	1	live	have in a How long ... present perfect question
+50	B	questions-negation.wh-questions.how-often	A2	1	live	does after 'How often' with a singular subject
+51	B	questions-negation.wh-questions.past-wh	A2	2	live	did in a past wh-question | Wh + did + subject + base verb + time
 52	B	questions-negation.negation.wasnt-werent	A2	1	todo	Negative of past 'be' — no 'didn't'
 53	B	questions-negation.subject-questions.who-subject	A2	1	todo	Subject question: no 'did', verb in past form
 54	B	sentence-structure.predication.be-am-is-are	A1	4	todo	am with I in an identity statement | is with a singular third-person subject | are with plural subject (location predicate) | are with a compound subject (my brother and I)

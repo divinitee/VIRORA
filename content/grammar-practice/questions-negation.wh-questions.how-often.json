@@ -1,0 +1,1833 @@
+[
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ your brother go to the {place}, {name}?",
+  "options": [
+   "does",
+   "do",
+   "is",
+   "are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "place": [
+    "gym",
+    "pool",
+    "stadium",
+    "club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ Madina call her {person}, {name}?",
+  "options": [
+   "does",
+   "do",
+   "is",
+   "are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "person": [
+    "grandma",
+    "aunt",
+    "cousin",
+    "dad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ you eat {food}, {name}?",
+  "options": [
+   "do",
+   "does",
+   "are",
+   "is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "fast food",
+    "fruit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ the {transport} come, {name}?",
+  "options": [
+   "does",
+   "do",
+   "is",
+   "are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ it rain in {city} in {season}?",
+  "options": [
+   "does",
+   "do",
+   "is",
+   "are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "season": [
+    "spring",
+    "autumn",
+    "winter",
+    "April"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ your parents visit {city}, {name}?",
+  "options": [
+   "do",
+   "does",
+   "are",
+   "is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ your teacher give {task}, {name}?",
+  "options": [
+   "does",
+   "do",
+   "is",
+   "are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "task": [
+    "tests",
+    "homework",
+    "quizzes",
+    "projects"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ Sardor play {game} with you, {name}?",
+  "options": [
+   "does",
+   "do",
+   "is",
+   "are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "game": [
+    "chess",
+    "football",
+    "tennis",
+    "cards"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ they clean the {room}, {name}?",
+  "options": [
+   "do",
+   "does",
+   "are",
+   "is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "bathroom",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ your mum cook {food}, {name}?",
+  "options": [
+   "does",
+   "do",
+   "is",
+   "are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "soup",
+    "samsa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ your little sister watch {show}, {name}?",
+  "options": [
+   "does",
+   "do",
+   "is",
+   "are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "show": [
+    "cartoons",
+    "videos",
+    "films",
+    "TV"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often ______ we have {subject} lessons, {name}?",
+  "options": [
+   "do",
+   "does",
+   "are",
+   "is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often does your dad ______ to {city}, {name}?",
+  "options": [
+   "go",
+   "goes",
+   "going",
+   "went"
+  ],
+  "key": 0,
+  "why": "After How often does + subject, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often does Bekzod ______ {sport}, {name}?",
+  "options": [
+   "play",
+   "plays",
+   "playing",
+   "played"
+  ],
+  "key": 0,
+  "why": "After How often does + subject, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "sport": [
+    "football",
+    "tennis",
+    "volleyball",
+    "basketball"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often does your brother ______ his {thing}, {name}?",
+  "options": [
+   "wash",
+   "washes",
+   "washing",
+   "washed"
+  ],
+  "key": 0,
+  "why": "After How often does + subject, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "thing": [
+    "car",
+    "bike",
+    "clothes",
+    "shoes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often does Shirin ______ {thing}, {name}?",
+  "options": [
+   "read",
+   "reads",
+   "reading",
+   "to read"
+  ],
+  "key": 0,
+  "why": "After How often does + subject, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "thing": [
+    "books",
+    "the news",
+    "stories",
+    "magazines"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often does your family ______ {food}, {name}?",
+  "options": [
+   "buy",
+   "buys",
+   "buying",
+   "bought"
+  ],
+  "key": 0,
+  "why": "After How often does + subject, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "food": [
+    "bread",
+    "rice",
+    "fruit",
+    "meat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often does Grandpa ______ {drink}, {name}?",
+  "options": [
+   "drink",
+   "drinks",
+   "drinking",
+   "drank"
+  ],
+  "key": 0,
+  "why": "After How often does + subject, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "drink": [
+    "green tea",
+    "coffee",
+    "milk",
+    "water"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often does your sister ______ her {thing}, {name}?",
+  "options": [
+   "use",
+   "uses",
+   "using",
+   "used"
+  ],
+  "key": 0,
+  "why": "After How often does + subject, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "bike",
+    "phone",
+    "camera"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How often does the {place} ______ late, {name}?",
+  "options": [
+   "open",
+   "opens",
+   "opening",
+   "opened"
+  ],
+  "key": 0,
+  "why": "After How often does + subject, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "place": [
+    "library",
+    "museum",
+    "shop",
+    "pool"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ your cousin come to {city}, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ you go to the {place}, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "place": [
+    "cinema",
+    "library",
+    "bazaar",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ Kamila practise the {instrument}, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "instrument": [
+    "piano",
+    "guitar",
+    "violin",
+    "dutar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ your friends play {game}, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "game": [
+    "football",
+    "chess",
+    "volleyball",
+    "cards"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ the {place} close for cleaning, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "place": [
+    "pool",
+    "gym",
+    "café",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ they have {subject} tests, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ your dad wash the {thing}, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "thing": [
+    "car",
+    "dishes",
+    "windows",
+    "carpet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ we need to water the {plant}, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "plant": [
+    "flowers",
+    "trees",
+    "tomatoes",
+    "plants"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ it snow in {city}, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ your grandparents visit you in {city}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ Nodir check his {thing}, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "thing": [
+    "phone",
+    "messages",
+    "email",
+    "homework"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ you drink {drink}, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "tea",
+    "juice",
+    "milk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ your sister go {activity}, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "activity": [
+    "shopping",
+    "swimming",
+    "running",
+    "dancing"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ the students use {thing} in class, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "thing": [
+    "laptops",
+    "dictionaries",
+    "tablets",
+    "phones"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ your mum make {food}, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "food": [
+    "plov",
+    "cake",
+    "soup",
+    "samsa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ your brothers watch {show}, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "show": [
+    "football",
+    "films",
+    "the news",
+    "cartoons"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ the {transport} go to the airport, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "minibus",
+    "metro"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ you clean your {room}, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "desk",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ Farida see her {person}, {name}?",
+  "key": "does",
+  "why": "The subject is he, she or it (one person or thing), so How often takes does.",
+  "slots": {
+   "person": [
+    "grandma",
+    "cousins",
+    "aunt",
+    "best friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write do or does.",
+  "source": "How often ______ your parents eat at a {place}, {name}?",
+  "key": "do",
+  "why": "The subject is I, you, we, they or a plural noun, so How often takes do.",
+  "slots": {
+   "place": [
+    "café",
+    "restaurant",
+    "friend's house",
+    "choyxona"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "Zarina goes to the {place} twice a week, {name}.",
+  "hint": "How often ______ Zarina ______ to the {place}, {name}?",
+  "key": [
+   "does",
+   "go"
+  ],
+  "why": "He or she takes does, then the base verb: goes becomes does … go. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "place": [
+    "pool",
+    "gym",
+    "library",
+    "club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "My brother plays {game} every day, {name}.",
+  "hint": "How often ______ your brother ______ {game}, {name}?",
+  "key": [
+   "does",
+   "play"
+  ],
+  "why": "He or she takes does, then the base verb: plays becomes does … play. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "game": [
+    "chess",
+    "football",
+    "tennis",
+    "volleyball"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "Jasur visits his grandma in {city} once a month.",
+  "hint": "How often ______ Jasur ______ his grandma in {city}?",
+  "key": [
+   "does",
+   "visit"
+  ],
+  "why": "He or she takes does, then the base verb: visits becomes does … visit. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "My mum buys {food} three times a week, {name}.",
+  "hint": "How often ______ your mum ______ {food}, {name}?",
+  "key": [
+   "does",
+   "buy"
+  ],
+  "why": "He or she takes does, then the base verb: buys becomes does … buy. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "food": [
+    "bread",
+    "milk",
+    "fruit",
+    "vegetables"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "The {transport} comes every ten minutes, {name}.",
+  "hint": "How often ______ the {transport} ______, {name}?",
+  "key": [
+   "does",
+   "come"
+  ],
+  "why": "He or she takes does, then the base verb: comes becomes does … come. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "minibus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "I call my {person} every evening, {name}.",
+  "hint": "How often ______ you ______ your {person}, {name}?",
+  "key": [
+   "do",
+   "call"
+  ],
+  "why": "You or they takes do, then the base verb call. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "person": [
+    "mum",
+    "grandma",
+    "sister",
+    "best friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "They eat {food} once a week, {name}.",
+  "hint": "How often ______ they ______ {food}, {name}?",
+  "key": [
+   "do",
+   "eat"
+  ],
+  "why": "You or they takes do, then the base verb eat. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "pizza",
+    "manti"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "We have {subject} four times a week, {name}.",
+  "hint": "How often ______ you ______ {subject}, {name}?",
+  "key": [
+   "do",
+   "have"
+  ],
+  "why": "You or they takes do, then the base verb have. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "My friends go to the {place} every Saturday, {name}.",
+  "hint": "How often ______ your friends ______ to the {place}, {name}?",
+  "key": [
+   "do",
+   "go"
+  ],
+  "why": "You or they takes do, then the base verb go. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "place": [
+    "park",
+    "cinema",
+    "stadium",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a How often question about this. Write one word in each gap.",
+  "source": "I watch {show} twice a day, {name}.",
+  "hint": "How often ______ you ______ {show}, {name}?",
+  "key": [
+   "do",
+   "watch"
+  ],
+  "why": "You or they takes do, then the base verb watch. The frequency is the answer, so it leaves the question.",
+  "slots": {
+   "show": [
+    "the news",
+    "videos",
+    "cartoons",
+    "football"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about \"your sister\". Write one word in each gap.",
+  "source": "How often do you clean the {room}, {name}?",
+  "hint": "How often ______ your sister ______ the {room}, {name}?",
+  "key": [
+   "does",
+   "clean"
+  ],
+  "why": "Your sister = she, so do becomes does. The verb stays clean.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bathroom",
+    "living room",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about \"Akmal\". Write one word in each gap.",
+  "source": "How often do your cousins come to {city}, {name}?",
+  "hint": "How often ______ Akmal ______ to {city}, {name}?",
+  "key": [
+   "does",
+   "come"
+  ],
+  "why": "Akmal = he, so do becomes does. The verb stays come.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about \"your parents\". Write one word in each gap.",
+  "source": "How often does your uncle drive to {city}, {name}?",
+  "hint": "How often ______ your parents ______ to {city}, {name}?",
+  "key": [
+   "do",
+   "drive"
+  ],
+  "why": "Your parents = they, so does becomes do. The verb stays drive.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about \"you\". Write one word in each gap.",
+  "source": "How often does Lola use her {thing}, {name}?",
+  "hint": "How often ______ you ______ your {thing}, {name}?",
+  "key": [
+   "do",
+   "use"
+  ],
+  "why": "With you, does becomes do. The verb stays use.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "bike",
+    "camera",
+    "tablet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about \"the dog\". Write one word in each gap.",
+  "source": "How often do the cats eat, {name}? Twice a day in {season}?",
+  "hint": "How often ______ the dog ______, {name}? Twice a day in {season}?",
+  "key": [
+   "does",
+   "eat"
+  ],
+  "why": "The dog = it, so do becomes does. The verb stays eat.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "season": [
+    "summer",
+    "winter",
+    "spring",
+    "autumn"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend about sport. Use How often do you.",
+  "requiredElement": "How often do you",
+  "constraints": [
+   "exactly one question",
+   "must use How often do you"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask about your friend's brother. Use How often does.",
+  "requiredElement": "How often does",
+  "constraints": [
+   "exactly one question",
+   "must use does",
+   "base verb after the subject"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask about a bus near your home. Use How often does.",
+  "requiredElement": "How often does",
+  "constraints": [
+   "exactly one question",
+   "must use does"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a classmate about homework. Use How often.",
+  "requiredElement": "How often",
+  "constraints": [
+   "exactly one question",
+   "must use do or does correctly"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two questions: one with How often do and one with How often does.",
+  "requiredElement": "How often do / does",
+  "constraints": [
+   "exactly two questions",
+   "must use do",
+   "must use does"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask about your teacher. Use How often does … give.",
+  "requiredElement": "How often does … give",
+  "constraints": [
+   "exactly one question",
+   "must use give"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask about a friend's family and food. Use How often.",
+  "requiredElement": "How often",
+  "constraints": [
+   "exactly one question",
+   "must use eat or cook"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask about a shop or market. Use How often does … open.",
+  "requiredElement": "How often does … open",
+  "constraints": [
+   "exactly one question",
+   "must use open"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a survey of four questions about free time. Use How often.",
+  "targetGrammar": "How often + do/does",
+  "lookFor": [
+   "How often do you",
+   "?"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write questions about a friend's family habits.",
+  "targetGrammar": "How often + does",
+  "lookFor": [
+   "How often does",
+   "your"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short dialogue with a doctor about sport and food.",
+  "targetGrammar": "How often + do/does",
+  "lookFor": [
+   "How often do you",
+   "every day",
+   "twice a week"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write questions about public transport in your city.",
+  "targetGrammar": "How often + does",
+  "lookFor": [
+   "How often does",
+   "bus"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "how-often",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write questions to ask a famous sports player.",
+  "targetGrammar": "How often + do",
+  "lookFor": [
+   "How often do you",
+   "train"
+  ]
+ }
+]

@@ -1,0 +1,1870 @@
+[
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where ______ you go last weekend, {name}? To {city}?",
+  "options": [
+   "did",
+   "do",
+   "does",
+   "were"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ your sister buy at the {place} yesterday, {name}?",
+  "options": [
+   "did",
+   "does",
+   "do",
+   "was"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "place": [
+    "market",
+    "bazaar",
+    "shop",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When ______ they arrive in {city} last week?",
+  "options": [
+   "did",
+   "do",
+   "does",
+   "were"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why ______ Sardor leave the {event} early last night, {name}?",
+  "options": [
+   "did",
+   "does",
+   "do",
+   "was"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "event": [
+    "party",
+    "match",
+    "concert",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ you eat for {meal} yesterday, {name}?",
+  "options": [
+   "did",
+   "do",
+   "does",
+   "were"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "supper"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ Madina meet at the {place} on Saturday, {name}?",
+  "options": [
+   "did",
+   "does",
+   "do",
+   "was"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "place": [
+    "park",
+    "café",
+    "station",
+    "gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What time ______ your parents get home last night, {name}?",
+  "options": [
+   "did",
+   "do",
+   "does",
+   "were"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where ______ your dad park the {vehicle} this morning, {name}?",
+  "options": [
+   "did",
+   "does",
+   "do",
+   "was"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "van",
+    "taxi",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ we learn in {subject} yesterday, {name}?",
+  "options": [
+   "did",
+   "do",
+   "does",
+   "were"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How ______ Kamron get to {city} last summer?",
+  "options": [
+   "did",
+   "does",
+   "do",
+   "was"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why ______ you miss the {transport} this morning, {name}?",
+  "options": [
+   "did",
+   "do",
+   "does",
+   "were"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ your teacher say about the {task} yesterday, {name}?",
+  "options": [
+   "did",
+   "does",
+   "do",
+   "was"
+  ],
+  "key": 0,
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject.",
+  "slots": {
+   "task": [
+    "test",
+    "homework",
+    "project",
+    "essay"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where did you ______ on {day}, {name}?",
+  "options": [
+   "go",
+   "went",
+   "going",
+   "goes"
+  ],
+  "key": 0,
+  "why": "After did + subject, use the base verb. Did already shows the past.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What did Lola ______ for her {person} last week, {name}?",
+  "options": [
+   "buy",
+   "bought",
+   "buying",
+   "buys"
+  ],
+  "key": 0,
+  "why": "After did + subject, use the base verb. Did already shows the past.",
+  "slots": {
+   "person": [
+    "mum",
+    "brother",
+    "grandma",
+    "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who did you ______ at the {event} last night, {name}?",
+  "options": [
+   "see",
+   "saw",
+   "seeing",
+   "sees"
+  ],
+  "key": 0,
+  "why": "After did + subject, use the base verb. Did already shows the past.",
+  "slots": {
+   "event": [
+    "party",
+    "concert",
+    "match",
+    "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What did your brother ______ in {city} last summer?",
+  "options": [
+   "do",
+   "did",
+   "doing",
+   "does"
+  ],
+  "key": 0,
+  "why": "After did + subject, use the base verb. Did already shows the past.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When did the {transport} ______ yesterday, {name}?",
+  "options": [
+   "arrive",
+   "arrived",
+   "arriving",
+   "arrives"
+  ],
+  "key": 0,
+  "why": "After did + subject, use the base verb. Did already shows the past.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "plane",
+    "minibus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where did you ______ my {thing} last night, {name}?",
+  "options": [
+   "leave",
+   "left",
+   "leaving",
+   "leaves"
+  ],
+  "key": 0,
+  "why": "After did + subject, use the base verb. Did already shows the past.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why did Jasur ______ late to {subject} today, {name}?",
+  "options": [
+   "come",
+   "came",
+   "coming",
+   "comes"
+  ],
+  "key": 0,
+  "why": "After did + subject, use the base verb. Did already shows the past.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What did your grandma ______ for {meal} on Sunday, {name}?",
+  "options": [
+   "make",
+   "made",
+   "making",
+   "makes"
+  ],
+  "key": 0,
+  "why": "After did + subject, use the base verb. Did already shows the past.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "the guests"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Where ______ you ______ (go) after {subject} yesterday, {name}?",
+  "key": [
+   "did",
+   "go"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb go.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "school",
+    "college"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "What ______ your friends ______ (eat) at the {event} last night, {name}?",
+  "key": [
+   "did",
+   "eat"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb eat.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "picnic",
+    "birthday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Who ______ you ______ (call) this morning, {name}? Your {person}?",
+  "key": [
+   "did",
+   "call"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb call.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "person": [
+    "mum",
+    "dad",
+    "teacher",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "When ______ the {event} ______ (start) yesterday, {name}?",
+  "key": [
+   "did",
+   "start"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb start.",
+  "slots": {
+   "event": [
+    "match",
+    "concert",
+    "film",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Why ______ the baby ______ (cry) last night, {name}? Was she {state}?",
+  "key": [
+   "did",
+   "cry"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb cry.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "state": [
+    "hungry",
+    "tired",
+    "cold",
+    "ill"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Where ______ Nodira ______ (buy) her new {thing} last week, {name}?",
+  "key": [
+   "did",
+   "buy"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb buy.",
+  "slots": {
+   "thing": [
+    "dress",
+    "bag",
+    "phone",
+    "coat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "What ______ you ______ (watch) on TV on {day}, {name}?",
+  "key": [
+   "did",
+   "watch"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb watch.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Where ______ your parents ______ (meet) for the first time, {name}? In {city}?",
+  "key": [
+   "did",
+   "meet"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb meet.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "What ______ you ______ (get) for your birthday last year, {name}? A {thing}?",
+  "key": [
+   "did",
+   "get"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb get.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "thing": [
+    "bike",
+    "phone",
+    "watch",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Where ______ they ______ (sleep) in {city} last summer?",
+  "key": [
+   "did",
+   "sleep"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb sleep.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "What ______ Rustam ______ (say) to the {person} yesterday, {name}?",
+  "key": [
+   "did",
+   "say"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb say.",
+  "slots": {
+   "person": [
+    "teacher",
+    "coach",
+    "doctor",
+    "driver"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "What time ______ your {person} ______ (arrive) last night, {name}?",
+  "key": [
+   "did",
+   "arrive"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb arrive.",
+  "slots": {
+   "person": [
+    "uncle",
+    "aunt",
+    "cousin",
+    "grandma"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Why ______ you ______ (choose) {subject} last year, {name}?",
+  "key": [
+   "did",
+   "choose"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb choose.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Where ______ Dilnoza ______ (find) her {thing} this morning, {name}?",
+  "key": [
+   "did",
+   "find"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb find.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "glasses",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Who ______ you ______ (help) with {subject} on Monday, {name}?",
+  "key": [
+   "did",
+   "help"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb help.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "What ______ you ______ (drink) at the {place} yesterday, {name}?",
+  "key": [
+   "did",
+   "drink"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb drink.",
+  "slots": {
+   "place": [
+    "café",
+    "party",
+    "match",
+    "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "When ______ Bobur ______ (finish) his {task} last night, {name}?",
+  "key": [
+   "did",
+   "finish"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb finish.",
+  "slots": {
+   "task": [
+    "homework",
+    "project",
+    "essay",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "How ______ your brother ______ (break) his {part} last month, {name}?",
+  "key": [
+   "did",
+   "break"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb break.",
+  "slots": {
+   "part": [
+    "arm",
+    "leg",
+    "finger",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "Where ______ you ______ (sit) on the {transport} this morning, {name}?",
+  "key": [
+   "did",
+   "sit"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb sit.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write did in the first gap and the verb in brackets in the second.",
+  "source": "What ______ the students ______ (learn) in {subject} on Tuesday, {name}?",
+  "key": [
+   "did",
+   "learn"
+  ],
+  "why": "The question is about the past, so use Wh + did + subject + base verb, for every subject. Then the base verb learn.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Where question about the place. Write one word in each gap.",
+  "source": "Sardor went to {city} last week, {name}.",
+  "hint": "Where ______ Sardor ______ last week, {name}?",
+  "key": [
+   "did",
+   "go"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so went becomes did … go.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Where question about the place. Write one word in each gap.",
+  "source": "I bought this {thing} at the bazaar yesterday, {name}.",
+  "hint": "Where ______ you ______ this {thing} yesterday, {name}?",
+  "key": [
+   "did",
+   "buy"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so bought becomes did … buy.",
+  "slots": {
+   "thing": [
+    "hat",
+    "bag",
+    "scarf",
+    "phone case"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Where question about the place. Write one word in each gap.",
+  "source": "They stayed in a hotel in {city} last summer, {name}.",
+  "hint": "Where ______ they ______ in {city} last summer, {name}?",
+  "key": [
+   "did",
+   "stay"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so stayed becomes did … stay.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Where question about the place. Write one word in each gap.",
+  "source": "My mum met her {person} at the market on Monday.",
+  "hint": "Where ______ your mum ______ her {person} on Monday?",
+  "key": [
+   "did",
+   "meet"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so met becomes did … meet.",
+  "slots": {
+   "person": [
+    "friend",
+    "sister",
+    "neighbour",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Where question about the place. Write one word in each gap.",
+  "source": "We played {game} in the park yesterday, {name}.",
+  "hint": "Where ______ you ______ {game} yesterday, {name}?",
+  "key": [
+   "did",
+   "play"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so played becomes did … play.",
+  "slots": {
+   "game": [
+    "football",
+    "volleyball",
+    "chess",
+    "tennis"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a What question about the thing. Write one word in each gap.",
+  "source": "Lola ate {food} for lunch yesterday, {name}.",
+  "hint": "What ______ Lola ______ for lunch yesterday, {name}?",
+  "key": [
+   "did",
+   "eat"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so ate becomes did … eat.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "salad",
+    "pasta"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a What question about the thing. Write one word in each gap.",
+  "source": "I watched a {show} last night, {name}.",
+  "hint": "What ______ you ______ last night, {name}?",
+  "key": [
+   "did",
+   "watch"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so watched becomes did … watch.",
+  "slots": {
+   "show": [
+    "film",
+    "match",
+    "cartoon",
+    "video"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a What question about the thing. Write one word in each gap.",
+  "source": "My brother bought a {thing} on Saturday, {name}.",
+  "hint": "What ______ your brother ______ on Saturday, {name}?",
+  "key": [
+   "did",
+   "buy"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so bought becomes did … buy.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "jacket",
+    "ball"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a What question about the thing. Write one word in each gap.",
+  "source": "Akmal wrote a {thing} for his {person} last week.",
+  "hint": "What ______ Akmal ______ for his {person} last week?",
+  "key": [
+   "did",
+   "write"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so wrote becomes did … write.",
+  "slots": {
+   "thing": [
+    "letter",
+    "poem",
+    "story",
+    "song"
+   ],
+   "person": [
+    "mum",
+    "grandma",
+    "sister",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a What question about the thing. Write one word in each gap.",
+  "source": "They made {food} for the guests on Sunday, {name}.",
+  "hint": "What ______ they ______ for the guests on Sunday, {name}?",
+  "key": [
+   "did",
+   "make"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so made becomes did … make.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "a cake",
+    "manti"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a When question about the time. Write one word in each gap.",
+  "source": "Kamila arrived in {city} on Tuesday, {name}.",
+  "hint": "When ______ Kamila ______ in {city}, {name}?",
+  "key": [
+   "did",
+   "arrive"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so arrived becomes did … arrive.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a What time question about the time. Write one word in each gap.",
+  "source": "The {event} started at seven, {name}.",
+  "hint": "What time ______ the {event} ______, {name}?",
+  "key": [
+   "did",
+   "start"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so started becomes did … start.",
+  "slots": {
+   "event": [
+    "match",
+    "concert",
+    "film",
+    "party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a When question about the time. Write one word in each gap.",
+  "source": "I finished my {task} on Monday, {name}.",
+  "hint": "When ______ you ______ your {task}, {name}?",
+  "key": [
+   "did",
+   "finish"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so finished becomes did … finish.",
+  "slots": {
+   "task": [
+    "project",
+    "essay",
+    "homework",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a What time question about the time. Write one word in each gap.",
+  "source": "Dad left for {city} at six, {name}.",
+  "hint": "What time ______ Dad ______ for {city}, {name}?",
+  "key": [
+   "did",
+   "leave"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so left becomes did … leave.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a When question about the time. Write one word in each gap.",
+  "source": "We moved to this {home} in 2020, {name}.",
+  "hint": "When ______ you ______ to this {home}, {name}?",
+  "key": [
+   "did",
+   "move"
+  ],
+  "why": "Past question: Wh + did + subject + base verb, so moved becomes did … move.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "street",
+    "town"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend about last weekend. Use Where did you.",
+  "requiredElement": "Where did you",
+  "constraints": [
+   "exactly one question",
+   "must use Where did you + base verb"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask about your friend's dinner last night. Use What did.",
+  "requiredElement": "What did",
+  "constraints": [
+   "exactly one question",
+   "must use What did",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask why a classmate was late yesterday. Use Why did.",
+  "requiredElement": "Why did",
+  "constraints": [
+   "exactly one question",
+   "must use Why did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask when your cousin arrived. Use When did.",
+  "requiredElement": "When did",
+  "constraints": [
+   "exactly one question",
+   "must use When did",
+   "must use arrive"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who your friend saw at a party. Use Who did.",
+  "requiredElement": "Who did",
+  "constraints": [
+   "exactly one question",
+   "must use Who did",
+   "must use see"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two past questions with different wh-words.",
+  "requiredElement": "Wh + did",
+  "constraints": [
+   "exactly two questions",
+   "must use did twice"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask what time the film started. Use What time did.",
+  "requiredElement": "What time did",
+  "constraints": [
+   "exactly one question",
+   "must use start"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask how your friend got to school this morning. Use How did.",
+  "requiredElement": "How did",
+  "constraints": [
+   "exactly one question",
+   "must use How did",
+   "must use get"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend came back from a trip. Write four wh-questions about it.",
+  "targetGrammar": "Wh + did questions",
+  "lookFor": [
+   "Where did you",
+   "What did you"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Interview a classmate about their last birthday.",
+  "targetGrammar": "Wh + did questions",
+  "lookFor": [
+   "What did you",
+   "Who did you"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short dialogue: a police officer asks about a lost bag.",
+  "targetGrammar": "Wh + did questions",
+  "lookFor": [
+   "Where did you",
+   "When did you"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write questions about your grandparents' childhood.",
+  "targetGrammar": "Wh + did questions",
+  "lookFor": [
+   "Where did",
+   "What did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "past-wh",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write questions about a football match last weekend.",
+  "targetGrammar": "Wh + did questions",
+  "lookFor": [
+   "Who did",
+   "What time did"
+  ]
+ }
+]
