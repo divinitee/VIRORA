@@ -72,7 +72,7 @@ const BUILD = [
   ["buy", "Last week, Bobur ______ (buy) the {thing} because he had no {money}.",
     { thing: ["shoes", "jacket", "headphones", "book"], money: ["money", "cash", "time", "card"] }],
   ["eat", "The children ______ (eat) their {food} at lunch yesterday because it was {state}.",
-    { food: ["soup", "rice", "salad", "vegetables"], state: ["cold", "too salty", "too spicy", "too hot"] }],
+    { food: ["soup", "rice", "salad", "pasta"], state: ["cold", "too salty", "too spicy", "too hot"] }],
   ["drive", "My father ______ (drive) to work last Monday because his car was at the {place}.",
     { place: ["garage", "repair shop", "mechanic's", "service centre"] }],
   ["visit", "Last summer, we ______ (visit) {city} because the {thing} were too expensive.",
