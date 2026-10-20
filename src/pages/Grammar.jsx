@@ -1,4 +1,5 @@
-import BrandLoader from "@/components/BrandLoader";
+import PageLoader from "@/components/loading/PageLoader";
+import LoadingTransition from "@/components/loading/LoadingTransition";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
@@ -205,7 +206,7 @@ export default function Grammar() {
     return (
       <div className="premium-mesh min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <BrandLoader size={64} className="mx-auto mb-3" />
+          <PageLoader size={64} className="mx-auto mb-3" label={c("home_loading")} />
           <p className="text-sm text-muted-foreground">{c("home_loading")}</p>
         </div>
       </div>
@@ -257,11 +258,8 @@ export default function Grammar() {
         {/* The round takes the map's place; the shell, header and back stay put. */}
         {running ? (
           <div className="max-w-[560px] mx-auto mt-5">
-            {items === null ? (
-              <div className="premium-card rounded-[28px] p-8 text-center">
-                <BrandLoader size={64} className="mx-auto" />
-              </div>
-            ) : (
+            <LoadingTransition loading={items === null}>
+            {items !== null && (
               <PracticeRunner
                 key={runKey}
                 items={items}
@@ -272,6 +270,7 @@ export default function Grammar() {
                 onAgain={() => setRunKey((k) => k + 1)}
               />
             )}
+            </LoadingTransition>
           </div>
         ) : mode === "path" ? (
           <div className="mt-5">

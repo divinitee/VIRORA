@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import BrandLoader from "@/components/loading/PageLoader";
 import React, { useState, useEffect, useCallback } from "react";
 import { base44 } from "@/api/base44Client";
 import { CheckCircle2, XCircle, AlertTriangle, RefreshCw } from "lucide-react";

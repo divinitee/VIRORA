@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import BrandLoader from "@/components/loading/PageLoader";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useParams, useSearchParams, Link } from "react-router-dom";
 import { ShieldAlert, Trash2, X } from "lucide-react";

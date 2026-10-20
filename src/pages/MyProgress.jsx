@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import LoadingTransition from "@/components/loading/LoadingTransition";
 import React, { useState, useEffect } from "react";
 import { base44 } from "@/api/base44Client";
 import { Link } from "react-router-dom";
@@ -47,11 +47,8 @@ export default function MyProgress() {
       </header>
 
       <div className="max-w-lg mx-auto px-4 py-6">
-        {loading ? (
-          <div className="flex justify-center py-16">
-            <BrandLoader size={64} />
-          </div>
-        ) : (
+        <LoadingTransition loading={loading}>
+        {!loading && (
           <>
             <div className="flex gap-4 mb-6">
               <div className="flex-1 bg-background border border-border rounded-2xl p-4 text-center">
@@ -108,6 +105,7 @@ export default function MyProgress() {
             </div>
           </>
         )}
+        </LoadingTransition>
       </div>
     </div>
   );

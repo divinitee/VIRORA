@@ -47,6 +47,7 @@ import TeachStressTest from '@/pages/TeachStressTest';
 import OAuthConsent from '@/pages/OAuthConsent';
 import Achievements from '@/pages/Achievements';
 import AppLoader from '@/components/AppLoader';
+import PageLoadingProvider from '@/components/loading/PageLoadingProvider';
 import HelpReporter from '@/components/HelpReporter';
 import ActivityTracker from '@/components/ActivityTracker';
 import Developer from '@/pages/Developer';
@@ -143,7 +144,9 @@ function App() {
         <QueryClientProvider client={queryClientInstance}>
           <Router>
             <ScrollToTop />
-            <AuthenticatedApp />
+            <PageLoadingProvider>
+              <AuthenticatedApp />
+            </PageLoadingProvider>
           </Router>
           <Toaster />
         </QueryClientProvider>

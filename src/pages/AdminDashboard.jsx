@@ -1,4 +1,5 @@
-import BrandLoader from "@/components/BrandLoader";
+import LoadingTransition from "@/components/loading/LoadingTransition";
+import PageLoader from "@/components/loading/PageLoader";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { resolveUserName } from "@/lib/profileName";
@@ -258,7 +259,7 @@ export default function AdminDashboard() {
   if (isLoadingAuth || !authChecked) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <BrandLoader size={56} />
+        <PageLoader size={56} />
       </div>
     );
   }
@@ -416,11 +417,8 @@ export default function AdminDashboard() {
           </div>
         </div>
 
-        {loading ? (
-          <div className="flex items-center justify-center py-20">
-            <BrandLoader size={56} />
-          </div>
-        ) : (
+        <LoadingTransition loading={loading}>
+        {!loading && (
           <div className="bg-card border border-border rounded-2xl shadow-sm overflow-hidden">
             {/* Users table */}
             {(tab === "subs" || tab === "users") && <PlanLegend />}
@@ -655,6 +653,7 @@ export default function AdminDashboard() {
             )}
           </div>
         )}
+        </LoadingTransition>
       </div>
 
       {/* Cancel confirm. The only destructive action here, so it asks which

@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import BrandLoader from "@/components/loading/PageLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { LayoutDashboard, Users, GraduationCap, Network, Wallet, ShieldCheck, LogOut, Home as HomeIcon } from "lucide-react";

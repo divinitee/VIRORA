@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import BrandLoader from "@/components/loading/PageLoader";
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { base44 } from "@/api/base44Client";
 import { useParams, useNavigate } from "react-router-dom";

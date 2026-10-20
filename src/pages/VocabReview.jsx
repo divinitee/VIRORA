@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import LoadingTransition from "@/components/loading/LoadingTransition";
 import React, { useEffect, useState, useMemo } from "react";
 import { base44 } from "@/api/base44Client";
 import { Link } from "react-router-dom";
@@ -97,11 +97,8 @@ export default function VocabReview() {
           </div>
         </div>
 
-        {loading ? (
-          <div className="flex items-center justify-center py-16 text-muted-foreground gap-2">
-            <BrandLoader size={40} /> Loading words...
-          </div>
-        ) : visible.length === 0 ? (
+        <LoadingTransition loading={loading} label="Loading words…">
+        {visible.length === 0 ? (
           <p className="text-center text-sm text-muted-foreground py-16">No words match this filter.</p>
         ) : (
           <div className="space-y-2.5">
@@ -110,6 +107,7 @@ export default function VocabReview() {
             ))}
           </div>
         )}
+        </LoadingTransition>
       </div>
     </div>
   );

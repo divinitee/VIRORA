@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import LoadingTransition from "@/components/loading/LoadingTransition";
 import React, { useState, useEffect } from "react";
 import { base44 } from "@/api/base44Client";
 import { Link } from "react-router-dom";
@@ -37,11 +37,8 @@ export default function Leaderboard() {
       </header>
 
       <div className="max-w-lg mx-auto px-4 py-6">
-        {loading ? (
-          <div className="flex justify-center py-16">
-            <BrandLoader size={64} />
-          </div>
-        ) : board.length === 0 ? (
+        <LoadingTransition loading={loading}>
+        {board.length === 0 ? (
           <div className="bg-background border border-border rounded-2xl p-8 text-center">
             <p className="text-sm text-muted-foreground">{t("leaderboard.empty")}</p>
           </div>
@@ -75,6 +72,7 @@ export default function Leaderboard() {
             })}
           </div>
         )}
+        </LoadingTransition>
       </div>
     </div>
   );

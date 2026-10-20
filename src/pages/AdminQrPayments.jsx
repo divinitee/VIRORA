@@ -1,4 +1,5 @@
 import BrandLoader from "@/components/BrandLoader";
+import PageLoader from "@/components/loading/PageLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { base44 } from "@/api/base44Client";
 import { AlertTriangle, ChevronDown, ChevronUp, Download, Loader2, RefreshCw, Send, Upload } from "lucide-react";
@@ -404,7 +405,7 @@ export default function AdminQrPayments() {
     setBusyId("");
   };
 
-  if (isAdmin === null) return <div className="flex min-h-screen items-center justify-center bg-[#0B0C1E]"><BrandLoader size={48} /></div>;
+  if (isAdmin === null) return <div className="flex min-h-screen items-center justify-center bg-background"><PageLoader size={48} /></div>;
   if (isAdmin === false) return <div className="p-8 text-center text-muted-foreground">This page is for admins only.</div>;
 
   const cols = "grid grid-cols-[1.6fr_1fr_1fr_0.9fr_0.8fr_1.5fr] items-center gap-4";

@@ -45,9 +45,11 @@ export default function BrandLoader({
               transform={transform}
               style={{ "--star-delay": star.delay }}
             >
-              <path className="virora-star-loader__halo" d={STAR_PATH} />
               <path className="virora-star-loader__outline" d={STAR_PATH} />
-              <path className="virora-star-loader__glow" d={STAR_PATH} pathLength="1" />
+              <g className="virora-star-loader__light">
+                <path className="virora-star-loader__halo" d={STAR_PATH} pathLength="1" />
+                <path className="virora-star-loader__glow" d={STAR_PATH} pathLength="1" />
+              </g>
             </g>
           );
         })}

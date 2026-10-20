@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import LoadingTransition from "@/components/loading/LoadingTransition";
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Star } from "lucide-react";
@@ -43,11 +43,8 @@ export default function Achievements() {
       </header>
 
       <div className="relative z-10 max-w-xl mx-auto px-4 py-6 space-y-5 pb-14">
-        {!ctx ? (
-          <div className="flex justify-center py-24">
-            <BrandLoader size={64} />
-          </div>
-        ) : (
+        <LoadingTransition loading={!ctx}>
+        {ctx && (
           <>
             {featured && <AchievementHero achievement={featured} />}
 
@@ -64,6 +61,7 @@ export default function Achievements() {
             </div>
           </>
         )}
+        </LoadingTransition>
       </div>
     </div>
   );

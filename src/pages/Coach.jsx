@@ -1,4 +1,5 @@
 import BrandLoader from "@/components/BrandLoader";
+import PageLoader from "@/components/loading/PageLoader";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -112,7 +113,7 @@ export default function Coach() {
     </div></Shell>);
   if (!data) return (
     <Shell onBack={() => navigate("/")}><div className="premium-card rounded-[28px] p-10 text-center">
-      <BrandLoader size={64} className="mx-auto" />
+      <PageLoader size={64} className="mx-auto" label={t("loading")} />
       <p className="text-sm text-muted-foreground mt-3">{t("loading")}</p>
     </div></Shell>);
 

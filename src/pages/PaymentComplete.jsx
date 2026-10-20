@@ -1,4 +1,5 @@
 import BrandLoader from "@/components/BrandLoader";
+import LoadingTransition from "@/components/loading/LoadingTransition";
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -116,13 +117,14 @@ export default function PaymentComplete() {
         animate={{ opacity: 1, y: 0 }}
         className="w-full max-w-md text-center space-y-5"
       >
-        {state === "checking" && (
-          <>
+        <LoadingTransition loading={state === "checking"} fallback={
+          <div className="space-y-5">
             <BrandLoader size={80} className="mx-auto" />
             <h1 className="text-2xl font-bold">{t("payment.checking_title")}</h1>
             <p className="text-muted-foreground">{t("payment.checking_sub")}</p>
-          </>
-        )}
+          </div>
+        }>
+        <div className="space-y-5">
 
         {state === "active" && (
           <>
@@ -183,6 +185,8 @@ export default function PaymentComplete() {
             </Button>
           </>
         )}
+        </div>
+        </LoadingTransition>
       </motion.div>
     </div>
   );

@@ -1,4 +1,4 @@
-import BrandLoader from "@/components/BrandLoader";
+import LoadingTransition from "@/components/loading/LoadingTransition";
 import React, { useEffect, useMemo, useState, useCallback } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { base44 } from "@/api/base44Client";
@@ -527,9 +527,8 @@ export default function QrPayment() {
           <ArrowLeft className="h-4 w-4" /> {q("back")}
         </Link>
 
-        {view === "loading" && (
-          <div className="flex justify-center py-24"><BrandLoader size={56} /></div>
-        )}
+        <LoadingTransition loading={view === "loading"}>
+        <div className="flex flex-col gap-5">
 
         {view === "error" && (
           <div className="flex flex-col items-center gap-4 rounded-[20px] border border-white/10 bg-white/[0.04] p-6 text-center">
@@ -559,6 +558,8 @@ export default function QrPayment() {
             ? <Welcome k={k} payment={payment} name={name} lang={lang} q={q} p={p} />
             : <Tracker k={k} payment={payment} q={q} p={p} hoursLine={hoursLine} handle={handle} />
         )}
+        </div>
+        </LoadingTransition>
       </div>
     </div>
   );

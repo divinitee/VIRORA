@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
-import BrandLoader from '@/components/BrandLoader';
+import BrandLoader from '@/components/loading/PageLoader';
 
 const DefaultFallback = () => (
   <div className="fixed inset-0 flex items-center justify-center bg-[#08060C]">
