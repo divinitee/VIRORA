@@ -30,6 +30,48 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "nouns-articles.articles.the-unique": {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-unique",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 212,
+   "build": 212,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.plurals-agreement.es-plural": {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "es-plural",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 212,
+   "build": 212,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.plurals-agreement.irregular-plural": {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.future.going-to-evidence": {
   "domain": "tenses",
   "branch": "future",

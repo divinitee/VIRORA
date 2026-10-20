@@ -1,0 +1,1806 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are twenty ______ in {name}'s {group}.",
+  "options": [
+   "children",
+   "childs",
+   "childrens",
+   "child"
+  ],
+  "key": 0,
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "group": [
+    "class",
+    "group",
+    "school bus",
+    "team"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {person} has three ______ and lives in {city}.",
+  "options": [
+   "children",
+   "childs",
+   "childrens",
+   "child"
+  ],
+  "key": 0,
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "person": [
+    "aunt",
+    "uncle",
+    "cousin",
+    "neighbour"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The ______ are playing in the {place} with {name}.",
+  "options": [
+   "children",
+   "childs",
+   "childrens",
+   "child"
+  ],
+  "key": 0,
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "garden",
+    "street"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Two ______ are fixing the {thing} in our {place}.",
+  "options": [
+   "men",
+   "mans",
+   "mens",
+   "man"
+  ],
+  "key": 0,
+  "why": "man has an irregular plural: one man, two men. Don't add -s.",
+  "slots": {
+   "thing": [
+    "road",
+    "lift",
+    "roof",
+    "window"
+   ],
+   "place": [
+    "street",
+    "building",
+    "school",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Three ______ from {city} work at the {place}.",
+  "options": [
+   "men",
+   "mans",
+   "mens",
+   "man"
+  ],
+  "key": 0,
+  "why": "man has an irregular plural: one man, two men. Don't add -s.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "place": [
+    "factory",
+    "market",
+    "station",
+    "bank"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Four ______ are waiting at the {place} in {city}.",
+  "options": [
+   "women",
+   "womans",
+   "womens",
+   "woman"
+  ],
+  "key": 0,
+  "why": "woman has an irregular plural: one woman, two women. Don't add -s.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "station",
+    "clinic",
+    "bank"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The ______ in my {group} play {sport} every Sunday.",
+  "options": [
+   "women",
+   "womans",
+   "womens",
+   "woman"
+  ],
+  "key": 0,
+  "why": "woman has an irregular plural: one woman, two women. Don't add -s.",
+  "slots": {
+   "group": [
+    "family",
+    "team",
+    "class",
+    "office"
+   ],
+   "sport": [
+    "volleyball",
+    "tennis",
+    "chess",
+    "basketball"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are five ______ in {name}'s family in {city}.",
+  "options": [
+   "people",
+   "peoples",
+   "persones",
+   "person"
+  ],
+  "key": 0,
+  "why": "person has an irregular plural: one person, two people. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Many ______ visit {city} in {month}.",
+  "options": [
+   "people",
+   "peoples",
+   "persones",
+   "person"
+  ],
+  "key": 0,
+  "why": "person has an irregular plural: one person, two people. Don't add -s.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Shakhrisabz"
+   ],
+   "month": [
+    "May",
+    "April",
+    "September",
+    "October"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How many ______ are there in the {place}, {name}?",
+  "options": [
+   "people",
+   "peoples",
+   "persones",
+   "person"
+  ],
+  "key": 0,
+  "why": "person has an irregular plural: one person, two people. Don't add -s.",
+  "slots": {
+   "place": [
+    "room",
+    "café",
+    "bus",
+    "queue"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}'s little {who} has six new ______.",
+  "options": [
+   "teeth",
+   "tooths",
+   "teeths",
+   "tooth"
+  ],
+  "key": 0,
+  "why": "tooth has an irregular plural: one tooth, two teeth. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "son"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The dentist checked all my ______ at the {place} on {day}.",
+  "options": [
+   "teeth",
+   "tooths",
+   "teeths",
+   "tooth"
+  ],
+  "key": 0,
+  "why": "tooth has an irregular plural: one tooth, two teeth. Don't add -s.",
+  "slots": {
+   "place": [
+    "clinic",
+    "hospital",
+    "centre",
+    "dentist's"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My ______ are cold after the {activity}, {name}.",
+  "options": [
+   "feet",
+   "foots",
+   "feets",
+   "foot"
+  ],
+  "key": 0,
+  "why": "foot has an irregular plural: one foot, two feet. Don't add -s.",
+  "slots": {
+   "activity": [
+    "walk",
+    "game",
+    "run",
+    "swim"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Wash your hands and ______ before {meal}, {name}.",
+  "options": [
+   "feet",
+   "foots",
+   "feets",
+   "foot"
+  ],
+  "key": 0,
+  "why": "foot has an irregular plural: one foot, two feet. Don't add -s.",
+  "slots": {
+   "meal": [
+    "dinner",
+    "bed",
+    "lunch",
+    "sleep"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are two ______ in {name}'s {place}!",
+  "options": [
+   "mice",
+   "mouses",
+   "mices",
+   "mouse"
+  ],
+  "key": 0,
+  "why": "mouse has an irregular plural: one mouse, two mice. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "kitchen",
+    "garage",
+    "cupboard",
+    "barn"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our cat caught three ______ in the {place} last {time}.",
+  "options": [
+   "mice",
+   "mouses",
+   "mices",
+   "mouse"
+  ],
+  "key": 0,
+  "why": "mouse has an irregular plural: one mouse, two mice. Don't add -s.",
+  "slots": {
+   "place": [
+    "garden",
+    "yard",
+    "garage",
+    "kitchen"
+   ],
+   "time": [
+    "week",
+    "night",
+    "month",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{who} has fifty ______ on the farm near {city}.",
+  "options": [
+   "sheep",
+   "sheeps",
+   "sheepes",
+   "a sheep"
+  ],
+  "key": 0,
+  "why": "Sheep does not change: one sheep, two sheep. Never add -s.",
+  "slots": {
+   "who": [
+    "My grandfather",
+    "My uncle",
+    "Our neighbour",
+    "Aziz's father"
+   ],
+   "city": [
+    "Jizzakh",
+    "Nurata",
+    "Karshi",
+    "Navoi"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We saw many ______ on the road to {city} with {name}.",
+  "options": [
+   "sheep",
+   "sheeps",
+   "sheepes",
+   "a sheep"
+  ],
+  "key": 0,
+  "why": "Sheep does not change: one sheep, two sheep. Never add -s.",
+  "slots": {
+   "city": [
+    "Jizzakh",
+    "Nurata",
+    "Karshi",
+    "Navoi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are six ______ near the {place} in {where}.",
+  "options": [
+   "geese",
+   "gooses",
+   "geeses",
+   "goose"
+  ],
+  "key": 0,
+  "why": "goose has an irregular plural: one goose, two geese. Don't add -s.",
+  "slots": {
+   "place": [
+    "lake",
+    "river",
+    "pond",
+    "farm"
+   ],
+   "where": [
+    "our village",
+    "the park",
+    "Chimgan",
+    "the zoo"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}'s grandma has ten ______ and five {animals}.",
+  "options": [
+   "geese",
+   "gooses",
+   "geeses",
+   "goose"
+  ],
+  "key": 0,
+  "why": "goose has an irregular plural: one goose, two geese. Don't add -s.",
+  "slots": {
+   "animals": [
+    "hens",
+    "ducks",
+    "rabbits",
+    "goats"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "There are twenty ______ (child) in {name}'s {group}.",
+  "key": "children",
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "group": [
+    "class",
+    "group",
+    "school bus",
+    "team"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "My {person} has three ______ (child) and lives in {city}.",
+  "key": "children",
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "person": [
+    "aunt",
+    "uncle",
+    "cousin",
+    "neighbour"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "The ______ (child) are playing in the {place} with {name}.",
+  "key": "children",
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "garden",
+    "street"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "Two ______ (man) are fixing the {thing} in our {place}.",
+  "key": "men",
+  "why": "man has an irregular plural: one man, two men. Don't add -s.",
+  "slots": {
+   "thing": [
+    "road",
+    "lift",
+    "roof",
+    "window"
+   ],
+   "place": [
+    "street",
+    "building",
+    "school",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "Three ______ (man) from {city} work at the {place}.",
+  "key": "men",
+  "why": "man has an irregular plural: one man, two men. Don't add -s.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "place": [
+    "factory",
+    "market",
+    "station",
+    "bank"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "Four ______ (woman) are waiting at the {place} in {city}.",
+  "key": "women",
+  "why": "woman has an irregular plural: one woman, two women. Don't add -s.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "station",
+    "clinic",
+    "bank"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "The ______ (woman) in my {group} play {sport} every Sunday.",
+  "key": "women",
+  "why": "woman has an irregular plural: one woman, two women. Don't add -s.",
+  "slots": {
+   "group": [
+    "family",
+    "team",
+    "class",
+    "office"
+   ],
+   "sport": [
+    "volleyball",
+    "tennis",
+    "chess",
+    "basketball"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "There are five ______ (person) in {name}'s family in {city}.",
+  "key": "people",
+  "why": "person has an irregular plural: one person, two people. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "Many ______ (person) visit {city} in {month}.",
+  "key": "people",
+  "why": "person has an irregular plural: one person, two people. Don't add -s.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Shakhrisabz"
+   ],
+   "month": [
+    "May",
+    "April",
+    "September",
+    "October"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "How many ______ (person) are there in the {place}, {name}?",
+  "key": "people",
+  "why": "person has an irregular plural: one person, two people. Don't add -s.",
+  "slots": {
+   "place": [
+    "room",
+    "café",
+    "bus",
+    "queue"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "{name}'s little {who} has six new ______ (tooth).",
+  "key": "teeth",
+  "why": "tooth has an irregular plural: one tooth, two teeth. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "son"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "The dentist checked all my ______ (tooth) at the {place} on {day}.",
+  "key": "teeth",
+  "why": "tooth has an irregular plural: one tooth, two teeth. Don't add -s.",
+  "slots": {
+   "place": [
+    "clinic",
+    "hospital",
+    "centre",
+    "dentist's"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "My ______ (foot) are cold after the {activity}, {name}.",
+  "key": "feet",
+  "why": "foot has an irregular plural: one foot, two feet. Don't add -s.",
+  "slots": {
+   "activity": [
+    "walk",
+    "game",
+    "run",
+    "swim"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "Wash your hands and ______ (foot) before {meal}, {name}.",
+  "key": "feet",
+  "why": "foot has an irregular plural: one foot, two feet. Don't add -s.",
+  "slots": {
+   "meal": [
+    "dinner",
+    "bed",
+    "lunch",
+    "sleep"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "There are two ______ (mouse) in {name}'s {place}!",
+  "key": "mice",
+  "why": "mouse has an irregular plural: one mouse, two mice. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "kitchen",
+    "garage",
+    "cupboard",
+    "barn"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "Our cat caught three ______ (mouse) in the {place} last {time}.",
+  "key": "mice",
+  "why": "mouse has an irregular plural: one mouse, two mice. Don't add -s.",
+  "slots": {
+   "place": [
+    "garden",
+    "yard",
+    "garage",
+    "kitchen"
+   ],
+   "time": [
+    "week",
+    "night",
+    "month",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "{who} has fifty ______ (sheep) on the farm near {city}.",
+  "key": "sheep",
+  "why": "Sheep does not change: one sheep, two sheep. Never add -s.",
+  "slots": {
+   "who": [
+    "My grandfather",
+    "My uncle",
+    "Our neighbour",
+    "Aziz's father"
+   ],
+   "city": [
+    "Jizzakh",
+    "Nurata",
+    "Karshi",
+    "Navoi"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "We saw many ______ (sheep) on the road to {city} with {name}.",
+  "key": "sheep",
+  "why": "Sheep does not change: one sheep, two sheep. Never add -s.",
+  "slots": {
+   "city": [
+    "Jizzakh",
+    "Nurata",
+    "Karshi",
+    "Navoi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "There are six ______ (goose) near the {place} in {where}.",
+  "key": "geese",
+  "why": "goose has an irregular plural: one goose, two geese. Don't add -s.",
+  "slots": {
+   "place": [
+    "lake",
+    "river",
+    "pond",
+    "farm"
+   ],
+   "where": [
+    "our village",
+    "the park",
+    "Chimgan",
+    "the zoo"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the plural of the word in brackets.",
+  "source": "{name}'s grandma has ten ______ (goose) and five {animals}.",
+  "key": "geese",
+  "why": "goose has an irregular plural: one goose, two geese. Don't add -s.",
+  "slots": {
+   "animals": [
+    "hens",
+    "ducks",
+    "rabbits",
+    "goats"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there are more. Complete the second sentence with the plural noun.",
+  "source": "{name} has one child in {city}.",
+  "hint": "{name}'s sister has three ______ in {city}.",
+  "key": "children",
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there are more. Complete the second sentence with the plural noun.",
+  "source": "One man works at the {place} with {name}.",
+  "hint": "Now five ______ work at the {place} with {name}.",
+  "key": "men",
+  "why": "man has an irregular plural: one man, two men. Don't add -s.",
+  "slots": {
+   "place": [
+    "factory",
+    "market",
+    "station",
+    "bank"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there are more. Complete the second sentence with the plural noun.",
+  "source": "There is one mouse in the {place}, {name}.",
+  "hint": "Now there are four ______ in the {place}, {name}.",
+  "key": "mice",
+  "why": "mouse has an irregular plural: one mouse, two mice. Don't add -s.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "garage",
+    "cupboard",
+    "barn"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there are more. Complete the second sentence with the plural noun.",
+  "source": "{name}'s baby has one {adj} tooth.",
+  "hint": "Now she has four {adj} ______.",
+  "key": "teeth",
+  "why": "tooth has an irregular plural: one tooth, two teeth. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "adj": [
+    "new",
+    "small",
+    "white",
+    "little"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the first sentence. Now there are more. Complete the second sentence with the plural noun.",
+  "source": "We have one goose at our {place} in {where}.",
+  "hint": "Our neighbours have six ______ at their {place} in {where}.",
+  "key": "geese",
+  "why": "goose has an irregular plural: one goose, two geese. Don't add -s.",
+  "slots": {
+   "place": [
+    "farm",
+    "dacha",
+    "house",
+    "garden"
+   ],
+   "where": [
+    "Chirchiq",
+    "the village",
+    "Parkent",
+    "Bostanliq"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "Three womans work in {name}'s {place}.",
+  "hint": "Three ______ work in {name}'s {place}.",
+  "key": "women",
+  "why": "woman has an irregular plural: one woman, two women. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "shop",
+    "office",
+    "café",
+    "bakery"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "Ten peoples live in our {building} in {city}.",
+  "hint": "Ten ______ live in our {building} in {city}.",
+  "key": "people",
+  "why": "person has an irregular plural: one person, two people. Don't add -s.",
+  "slots": {
+   "building": [
+    "building",
+    "block",
+    "house",
+    "street"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "My foots are wet after the {weather}, {name}.",
+  "hint": "My ______ are wet after the {weather}, {name}.",
+  "key": "feet",
+  "why": "foot has an irregular plural: one foot, two feet. Don't add -s.",
+  "slots": {
+   "weather": [
+    "rain",
+    "snow",
+    "storm",
+    "walk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "{who} has twenty sheeps near {city}.",
+  "hint": "{who} has twenty ______ near {city}.",
+  "key": "sheep",
+  "why": "Sheep does not change: one sheep, two sheep. Never add -s.",
+  "slots": {
+   "who": [
+    "My grandfather",
+    "My uncle",
+    "Our neighbour",
+    "Aziz's father"
+   ],
+   "city": [
+    "Jizzakh",
+    "Nurata",
+    "Karshi",
+    "Navoi"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence has a mistake. Complete the correct sentence.",
+  "source": "The childrens are in the {place} with {name}.",
+  "hint": "The ______ are in the {place} with {name}.",
+  "key": "children",
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "garden",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the noun and the number in brackets.",
+  "source": "How many are in your {group}, {name}? (person, 12)",
+  "hint": "There are twelve ______ in my {group}.",
+  "key": "people",
+  "why": "person has an irregular plural: one person, two people. Don't add -s.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "team",
+    "family"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the noun and the number in brackets.",
+  "source": "How many are on the farm in {where}, {name}? (sheep, 30)",
+  "hint": "There are thirty ______ on the farm in {where}.",
+  "key": "sheep",
+  "why": "Sheep does not change: one sheep, two sheep. Never add -s.",
+  "slots": {
+   "where": [
+    "Nurata",
+    "the village",
+    "Jizzakh",
+    "the mountains"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the noun and the number in brackets.",
+  "source": "How many are in your {team}, {name}? (man, 6)",
+  "hint": "There are six ______ in my {team}.",
+  "key": "men",
+  "why": "man has an irregular plural: one man, two men. Don't add -s.",
+  "slots": {
+   "team": [
+    "team",
+    "office",
+    "band",
+    "group"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the noun and the number in brackets.",
+  "source": "How many are at the {place} in {city}? (woman, 4)",
+  "hint": "There are four ______ at the {place}.",
+  "key": "women",
+  "why": "woman has an irregular plural: one woman, two women. Don't add -s.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "station",
+    "clinic",
+    "bank"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the noun and the number in brackets.",
+  "source": "How many does {name}'s aunt in {city} have? (child, 2)",
+  "hint": "She has two ______.",
+  "key": "children",
+  "why": "child has an irregular plural: one child, two children. Don't add -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the children in your family.",
+  "requiredElement": "children",
+  "constraints": [
+   "exactly one sentence",
+   "must use children"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how many people live in your home.",
+  "requiredElement": "people",
+  "constraints": [
+   "exactly one sentence",
+   "must use people",
+   "must use a number"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the men and women in your street or office.",
+  "requiredElement": "men / women",
+  "constraints": [
+   "exactly one sentence",
+   "must use men",
+   "must use women"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your teeth.",
+  "requiredElement": "teeth",
+  "constraints": [
+   "exactly one sentence",
+   "must use teeth"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your feet after a long walk.",
+  "requiredElement": "feet",
+  "constraints": [
+   "exactly one sentence",
+   "must use feet"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about animals on a farm. Use sheep.",
+  "requiredElement": "sheep",
+  "constraints": [
+   "exactly one sentence",
+   "must use sheep",
+   "must use a number"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about mice or geese.",
+  "requiredElement": "mice / geese",
+  "constraints": [
+   "exactly one sentence",
+   "must use mice or geese"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with children and one with people.",
+  "requiredElement": "children / people",
+  "constraints": [
+   "exactly two sentences",
+   "must use children",
+   "must use people"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your family. Write three or four sentences.",
+  "targetGrammar": "irregular plurals",
+  "lookFor": [
+   "people",
+   "children",
+   "a number"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a busy bus stop or market. Write three or four sentences.",
+  "targetGrammar": "irregular plurals",
+  "lookFor": [
+   "people",
+   "men or women",
+   "There are"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a farm in a village. Write three or four sentences.",
+  "targetGrammar": "irregular plurals",
+  "lookFor": [
+   "sheep",
+   "geese or mice",
+   "a number"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a visit to the dentist. Write three or four sentences.",
+  "targetGrammar": "teeth",
+  "lookFor": [
+   "teeth",
+   "the dentist",
+   "two sentences or more"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "irregular-plural",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about your class or team. Write three or four sentences.",
+  "targetGrammar": "irregular plurals",
+  "lookFor": [
+   "people",
+   "men, women or children",
+   "How many"
+  ]
+ }
+]

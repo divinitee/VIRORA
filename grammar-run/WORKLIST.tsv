@@ -25,9 +25,9 @@
 24	B	tenses.future.will-spontaneous	A2	1	live	will for a spontaneous decision at the moment of speaking
 25	B	nouns-articles.articles.a-an	A1	3	live	a before a consonant sound | an before a vowel sound | an before a vowel sound (umbrella)
 26	B	nouns-articles.articles.the-shared-context	A1	1	live	the for something both speakers can identify
-27	B	nouns-articles.articles.the-unique	A1	1	todo	the for a unique referent
-28	B	nouns-articles.plurals-agreement.es-plural	A1	1	todo	-es plural after -x
-29	B	nouns-articles.plurals-agreement.irregular-plural	A1	2	todo	Irregular plural (children) | Producing an irregular plural
+27	B	nouns-articles.articles.the-unique	A1	1	live	the for a unique referent
+28	B	nouns-articles.plurals-agreement.es-plural	A1	1	live	-es plural after -x
+29	B	nouns-articles.plurals-agreement.irregular-plural	A1	2	live	Irregular plural (children) | Producing an irregular plural
 30	B	nouns-articles.plurals-agreement.y-ies-plural	A1	1	todo	consonant + y → -ies
 31	B	nouns-articles.countability.partitive	A1	2	todo	Counting an uncountable noun with a partitive (loaves of) | Counting an uncountable noun with 'piece of'
 32	B	nouns-articles.countability.uncountable-no-plural	A1	2	todo	Uncountable noun takes no plural or 'a' | 'advice' has no plural form
