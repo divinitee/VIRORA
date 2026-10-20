@@ -1,0 +1,1797 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a bank near the {place}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "station",
+    "park",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a cat under the {furniture}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "furniture": [
+    "bed",
+    "table",
+    "sofa",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ some milk in the {container}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "container": [
+    "fridge",
+    "cup",
+    "bottle",
+    "jug"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a new student in our {group}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "team",
+    "club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a big park in {city}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ an apple in my {bag}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "bag": [
+    "bag",
+    "lunchbox",
+    "pocket",
+    "backpack"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a lot of snow in {city} today, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a problem with my {thing}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "bike",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a bus stop opposite the {place}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "place": [
+    "hospital",
+    "bank",
+    "hotel",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ some bread on the {surface}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "surface": [
+    "table",
+    "shelf",
+    "plate",
+    "tray"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ three bedrooms in our {home}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "dacha"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ twenty students in my {group}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "course",
+    "English class"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a lot of people at the {place}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "station",
+    "stadium",
+    "beach"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ some eggs in the {container}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "container": [
+    "fridge",
+    "box",
+    "basket",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ many trees in {city}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ two cafés in our {area}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "area": [
+    "street",
+    "area",
+    "building",
+    "village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ some books on the {furniture}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "furniture": [
+    "desk",
+    "shelf",
+    "floor",
+    "table"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ five people in my family, {name}. We live in {city}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ new chairs in the {room}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "room": [
+    "classroom",
+    "kitchen",
+    "office",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ lots of shops in the {place}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "have",
+   "be"
+  ],
+  "key": 0,
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "place": [
+    "city centre",
+    "old town",
+    "new mall",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a letter on your {furniture}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "furniture": [
+    "desk",
+    "bed",
+    "chair",
+    "table"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a pharmacy next to the {place}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "place": [
+    "bank",
+    "school",
+    "park",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) some juice in the {container}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "container": [
+    "fridge",
+    "bottle",
+    "jug",
+    "glass"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a man at the {place}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "place": [
+    "door",
+    "gate",
+    "window",
+    "desk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a good café in {city}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) an old photo in my {thing}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "thing": [
+    "wallet",
+    "bag",
+    "book",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a lot of traffic in {city} today, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a swimming pool in our {place}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "hotel",
+    "gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a TV in the {room}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bedroom",
+    "living room",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a lot of water on the {surface}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "surface": [
+    "floor",
+    "table",
+    "road",
+    "path"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) two windows in the {room}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) some apples on the {surface}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "surface": [
+    "table",
+    "plate",
+    "tray",
+    "shelf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) many students at the {place} today, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "place": [
+    "library",
+    "canteen",
+    "gym",
+    "bus stop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) some cats in the {place}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "street",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) lots of cars on the {road}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "road": [
+    "road",
+    "street",
+    "bridge",
+    "motorway"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) thirty pages in this {book}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "book": [
+    "book",
+    "notebook",
+    "magazine",
+    "report"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) two bags under the {furniture}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "furniture": [
+    "bed",
+    "table",
+    "desk",
+    "chair"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) some children in the {place}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "place": [
+    "pool",
+    "park",
+    "yard",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) three bus stops on our {road}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "road": [
+    "street",
+    "road",
+    "route",
+    "avenue"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) new computers in our {room}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "room": [
+    "classroom",
+    "library",
+    "office",
+    "lab"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There is a book on the {furniture}, {name}.",
+  "hint": "There ______ two books on the {furniture}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "furniture": [
+    "shelf",
+    "desk",
+    "table",
+    "bed"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There is a cat in the {place}, {name}.",
+  "hint": "There ______ three cats in the {place}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "kitchen",
+    "street"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There is one student in the {room}, {name}.",
+  "hint": "There ______ ten students in the {room}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "room": [
+    "classroom",
+    "library",
+    "canteen",
+    "gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There is a bus at the {place}, {name}.",
+  "hint": "There ______ two buses at the {place}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "place": [
+    "station",
+    "bus stop",
+    "gate",
+    "corner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There is an egg in the {container}, {name}.",
+  "hint": "There ______ six eggs in the {container}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are.",
+  "slots": {
+   "container": [
+    "fridge",
+    "box",
+    "basket",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There are two shops near my {place}, {name}.",
+  "hint": "There ______ one shop near my {place}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "place": [
+    "house",
+    "school",
+    "flat",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There are some apples on the {surface}, {name}.",
+  "hint": "There ______ an apple on the {surface}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "surface": [
+    "table",
+    "plate",
+    "tray",
+    "shelf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There are two parks in {city}, {name}.",
+  "hint": "There ______ one park in {city}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There are many people in the {place}, {name}.",
+  "hint": "There ______ one person in the {place}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "place": [
+    "room",
+    "queue",
+    "car",
+    "lift"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new number. Write one word in the gap.",
+  "source": "There are some letters for you at the {place}, {name}.",
+  "hint": "There ______ a letter for you at the {place}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is.",
+  "slots": {
+   "place": [
+    "desk",
+    "door",
+    "office",
+    "post office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the same idea with There is or There are. Write one word in the gap.",
+  "source": "Our {home} has three bedrooms, {name}.",
+  "hint": "There ______ three bedrooms in our {home}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are. Don't use has after There.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "dacha",
+    "new flat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the same idea with There is or There are. Write one word in the gap.",
+  "source": "{city} has a big airport, {name}.",
+  "hint": "There ______ a big airport in {city}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is. Don't use has after There.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the same idea with There is or There are. Write one word in the gap.",
+  "source": "The {room} has a big window, {name}.",
+  "hint": "There ______ a big window in the {room}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is. Don't use has after There.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the same idea with There is or There are. Write one word in the gap.",
+  "source": "Our {place} has a new gym, {name}.",
+  "hint": "There ______ a new gym in our {place}, {name}.",
+  "key": "is",
+  "why": "The noun after the gap is singular or uncountable, so use There is. Don't use has after There.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "hotel",
+    "building"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the same idea with There is or There are. Write one word in the gap.",
+  "source": "Our {road} has two cafés, {name}.",
+  "hint": "There ______ two cafés on our {road}, {name}.",
+  "key": "are",
+  "why": "The noun after the gap is plural, so use There are. Don't use has after There.",
+  "slots": {
+   "road": [
+    "street",
+    "road",
+    "avenue",
+    "block"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about one thing in your bag. Use There is.",
+  "requiredElement": "There is",
+  "constraints": [
+   "exactly one sentence",
+   "singular noun"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about the people in your family. Use There are.",
+  "requiredElement": "There are",
+  "constraints": [
+   "exactly one sentence",
+   "plural noun"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about your street. Use There is and There are.",
+  "requiredElement": "There is / There are",
+  "constraints": [
+   "exactly two sentences",
+   "must use is and are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about food in your fridge. Use There is some.",
+  "requiredElement": "There is some",
+  "constraints": [
+   "exactly one sentence",
+   "uncountable noun"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about your classroom. Use There are.",
+  "requiredElement": "There are",
+  "constraints": [
+   "exactly one sentence",
+   "must use are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about a park in your town. Use There is.",
+  "requiredElement": "There is",
+  "constraints": [
+   "exactly one sentence",
+   "must use is"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about your room. Use There are two ….",
+  "requiredElement": "There are two",
+  "constraints": [
+   "exactly one sentence",
+   "plural noun"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about your town: one thing it has. Use There is, not has.",
+  "requiredElement": "There is",
+  "constraints": [
+   "exactly one sentence",
+   "no has"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your bedroom.",
+  "targetGrammar": "There is / There are",
+  "lookFor": [
+   "There is",
+   "There are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your town for a visitor.",
+  "targetGrammar": "There is / There are",
+  "lookFor": [
+   "There is a",
+   "There are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your school.",
+  "targetGrammar": "There is / There are",
+  "lookFor": [
+   "There is",
+   "There are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your kitchen: what food and things are there?",
+  "targetGrammar": "There is / There are",
+  "lookFor": [
+   "There is some",
+   "There are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a photo of a street.",
+  "targetGrammar": "There is / There are",
+  "lookFor": [
+   "There is",
+   "There are"
+  ]
+ }
+]

@@ -1,0 +1,1797 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ from {city}, {name}.",
+  "options": [
+   "am",
+   "is",
+   "are",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ {age} years old, {name}.",
+  "options": [
+   "am",
+   "is",
+   "are",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "age": [
+    "twelve",
+    "fifteen",
+    "eighteen",
+    "twenty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ hungry. Can we have {food}, {name}?",
+  "options": [
+   "am",
+   "is",
+   "are",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "samsa",
+    "pizza"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ in the {room} now, {name}.",
+  "options": [
+   "am",
+   "is",
+   "are",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "library",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister ______ a {job}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "job": [
+    "nurse",
+    "teacher",
+    "driver",
+    "doctor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The bank ______ next to the {place}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "park",
+    "school",
+    "hotel"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Kamron ______ in {subject} class now, {name}.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It ______ {adj} today in {city}.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "adj": [
+    "sunny",
+    "cold",
+    "hot",
+    "windy"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher ______ very {adj}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "adj": [
+    "kind",
+    "strict",
+    "funny",
+    "friendly"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My phone ______ in my {bag}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "bag": [
+    "bag",
+    "pocket",
+    "jacket",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My parents ______ at {place} now, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "place": [
+    "home",
+    "work",
+    "the bazaar",
+    "the doctor's"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The books ______ on the {furniture}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "furniture": [
+    "shelf",
+    "table",
+    "desk",
+    "chair"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My friends ______ in {city} this week, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children ______ in the {place}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "place": [
+    "garden",
+    "yard",
+    "park",
+    "pool"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ late again, {name}! The lesson starts at {hour}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "hour": [
+    "eight",
+    "nine",
+    "ten",
+    "two"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother and I ______ at the {place}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "place": [
+    "gym",
+    "cinema",
+    "bazaar",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sardor and Lola ______ in the same {group}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "group": [
+    "class",
+    "team",
+    "group",
+    "club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mum and dad ______ from {city}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nodir and I ______ {adj} today, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "adj": [
+    "tired",
+    "busy",
+    "happy",
+    "hungry"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Kamila and her sister ______ at {place}, {name}.",
+  "options": [
+   "are",
+   "is",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "place": [
+    "home",
+    "school",
+    "the bazaar",
+    "the station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "I ______ (be) at the {place} with my mum, {name}.",
+  "key": "am",
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "doctor's",
+    "bank",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "I ______ (be) very {adj} today, {name}.",
+  "key": "am",
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "adj": [
+    "tired",
+    "happy",
+    "busy",
+    "sleepy"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "I ______ (be) good at {subject}, {name}.",
+  "key": "am",
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Sardor ______ (be) at the {place}, {name}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "place": [
+    "gym",
+    "pool",
+    "library",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "My grandma ______ (be) {age} years old, {name}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "age": [
+    "sixty",
+    "seventy",
+    "seventy-five",
+    "eighty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "The weather ______ (be) {adj} in {city}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "adj": [
+    "nice",
+    "cold",
+    "hot",
+    "warm"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Our flat ______ (be) on the {floor} floor, {name}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "floor": [
+    "second",
+    "third",
+    "fifth",
+    "ninth"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "The museum ______ (be) closed on {day}, {name}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Sunday",
+    "Saturday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "My cat ______ (be) under the {furniture}, {name}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "furniture": [
+    "bed",
+    "table",
+    "sofa",
+    "chair"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Our classroom ______ (be) next to the {room}, {name}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "room": [
+    "library",
+    "canteen",
+    "gym",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "My cousins ______ (be) in {city} now, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "The keys ______ (be) in the {place}, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "place": [
+    "drawer",
+    "car",
+    "bag",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "We ______ (be) ready for the {event}, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "event": [
+    "test",
+    "match",
+    "trip",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "They ______ (be) at the {place} with their dad, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "park",
+    "airport",
+    "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "The shops ______ (be) open until {hour}, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "hour": [
+    "eight",
+    "nine",
+    "ten",
+    "eleven"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "My dad and I ______ (be) {sport} fans, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "sport": [
+    "football",
+    "chess",
+    "tennis",
+    "volleyball"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Nodir and Zarina ______ (be) at the {place}, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "place": [
+    "station",
+    "bus stop",
+    "gate",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "You and your brother ______ (be) very {adj}, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "adj": [
+    "tall",
+    "kind",
+    "funny",
+    "quiet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "My sister and I ______ (be) in the {room}, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "living room",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Olga and her friend ______ (be) late for {event}, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "event": [
+    "school",
+    "the lesson",
+    "the bus",
+    "work"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the subject plural. Write one word in the gap.",
+  "source": "My brother is at the {place}, {name}.",
+  "hint": "My brothers ______ at the {place}, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "place": [
+    "gym",
+    "bazaar",
+    "park",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the subject plural. Write one word in the gap.",
+  "source": "The book is on the {furniture}, {name}.",
+  "hint": "The books ______ on the {furniture}, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "furniture": [
+    "shelf",
+    "table",
+    "desk",
+    "bed"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the subject plural. Write one word in the gap.",
+  "source": "My friend is from {city}, {name}.",
+  "hint": "My friends ______ from {city}, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the subject plural. Write one word in the gap.",
+  "source": "This apple is {adj}, {name}.",
+  "hint": "These apples ______ {adj}, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "adj": [
+    "red",
+    "sweet",
+    "cheap",
+    "fresh"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the subject plural. Write one word in the gap.",
+  "source": "The child is in the {room}, {name}.",
+  "hint": "The children ______ in the {room}, {name}.",
+  "key": "are",
+  "why": "The subject is plural (or you), so use are.",
+  "slots": {
+   "room": [
+    "garden",
+    "kitchen",
+    "yard",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new subject. Write one word in the gap.",
+  "source": "Aziz is hungry. He wants {food}, {name}.",
+  "hint": "I ______ hungry. I want {food}, {name}.",
+  "key": "am",
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "bread",
+    "rice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new subject. Write one word in the gap.",
+  "source": "My sister is {age} years old, {name}.",
+  "hint": "I ______ {age} years old, {name}.",
+  "key": "am",
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "age": [
+    "twelve",
+    "fourteen",
+    "sixteen",
+    "nineteen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new subject. Write one word in the gap.",
+  "source": "You are in {subject} class now, {name}.",
+  "hint": "I ______ in {subject} class now, {name}.",
+  "key": "am",
+  "why": "The subject is I, so use am.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new subject. Write one word in the gap.",
+  "source": "They are at the {place} now, {name}.",
+  "hint": "She ______ at the {place} now, {name}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "place": [
+    "gym",
+    "pool",
+    "library",
+    "bank"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the sentence with the new subject. Write one word in the gap.",
+  "source": "We are from {city}, {name}.",
+  "hint": "Jasur ______ from {city}, {name}.",
+  "key": "is",
+  "why": "The subject is one person or thing (he, she, it), so use is.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add a second person to the subject. Write one word in the gap.",
+  "source": "My brother is at {place}, {name}.",
+  "hint": "My brother and I ______ at {place}, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "place": [
+    "home",
+    "school",
+    "work",
+    "the gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add a second person to the subject. Write one word in the gap.",
+  "source": "Malika is very {adj}, {name}.",
+  "hint": "Malika and Olga ______ very {adj}, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "adj": [
+    "kind",
+    "tall",
+    "funny",
+    "busy"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add a second person to the subject. Write one word in the gap.",
+  "source": "I am {adj} today, {name}.",
+  "hint": "My friend and I ______ {adj} today, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "adj": [
+    "tired",
+    "happy",
+    "busy",
+    "free"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add a second person to the subject. Write one word in the gap.",
+  "source": "Timur is in the {group}, {name}.",
+  "hint": "Timur and Nodir ______ in the {group}, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "group": [
+    "team",
+    "club",
+    "class",
+    "choir"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add a second person to the subject. Write one word in the gap.",
+  "source": "My mum is in the {room}, {name}.",
+  "hint": "My mum and dad ______ in the {room}, {name}.",
+  "key": "are",
+  "why": "Two people joined with and are a plural subject, so use are.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "car",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about yourself: your age or your city. Use I am.",
+  "requiredElement": "I am",
+  "constraints": [
+   "exactly one sentence",
+   "must use am"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about a person in your family. Use is.",
+  "requiredElement": "is",
+  "constraints": [
+   "exactly one sentence",
+   "must use is"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write where your friends are now. Use are.",
+  "requiredElement": "are",
+  "constraints": [
+   "exactly one sentence",
+   "must use are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about you and a friend. Use … and I are.",
+  "requiredElement": "and I are",
+  "constraints": [
+   "exactly one sentence",
+   "must use and I are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about your town. Use It is.",
+  "requiredElement": "It is",
+  "constraints": [
+   "exactly one sentence",
+   "must use is"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with am, one with is and one with are.",
+  "requiredElement": "am / is / are",
+  "constraints": [
+   "exactly three sentences",
+   "must use am, is and are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about two things in your bag. Use are.",
+  "requiredElement": "are",
+  "constraints": [
+   "exactly one sentence",
+   "plural subject + are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write about your teacher. Use is.",
+  "requiredElement": "is",
+  "constraints": [
+   "exactly one sentence",
+   "must use is"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Introduce yourself: your name, age and city.",
+  "targetGrammar": "am",
+  "lookFor": [
+   "I am",
+   "I'm"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your family: who they are and where they are now.",
+  "targetGrammar": "is / are",
+  "lookFor": [
+   "is",
+   "are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your classroom: what is in it and where things are.",
+  "targetGrammar": "is / are",
+  "lookFor": [
+   "is",
+   "are"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about you and your best friend.",
+  "targetGrammar": "and I are",
+  "lookFor": [
+   "and I are",
+   "is"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your town for a visitor.",
+  "targetGrammar": "is / are",
+  "lookFor": [
+   "It is",
+   "are"
+  ]
+ }
+]

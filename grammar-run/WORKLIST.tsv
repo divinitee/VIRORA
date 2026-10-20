@@ -50,11 +50,11 @@
 49	B	questions-negation.wh-questions.how-long-perfect	A2	1	live	have in a How long ... present perfect question
 50	B	questions-negation.wh-questions.how-often	A2	1	live	does after 'How often' with a singular subject
 51	B	questions-negation.wh-questions.past-wh	A2	2	live	did in a past wh-question | Wh + did + subject + base verb + time
-52	B	questions-negation.negation.wasnt-werent	A2	1	todo	Negative of past 'be' — no 'didn't'
-53	B	questions-negation.subject-questions.who-subject	A2	1	todo	Subject question: no 'did', verb in past form
-54	B	sentence-structure.predication.be-am-is-are	A1	4	todo	am with I in an identity statement | is with a singular third-person subject | are with plural subject (location predicate) | are with a compound subject (my brother and I)
-55	B	sentence-structure.predication.be-question	A1	1	todo	Are + you inverted question with be
-56	B	sentence-structure.existential.there-is-are	A1	2	todo	There is + singular | There are + plural
+52	B	questions-negation.negation.wasnt-werent	A2	1	live	Negative of past 'be' — no 'didn't'
+53	B	questions-negation.subject-questions.who-subject	A2	1	live	Subject question: no 'did', verb in past form
+54	B	sentence-structure.predication.be-am-is-are	A1	4	live	am with I in an identity statement | is with a singular third-person subject | are with plural subject (location predicate) | are with a compound subject (my brother and I)
+55	B	sentence-structure.predication.be-question	A1	1	live	Are + you inverted question with be
+56	B	sentence-structure.existential.there-is-are	A1	2	live	There is + singular | There are + plural
 57	B	sentence-structure.existential.there-question	A1	1	todo	Is there ...? with an uncountable noun
 58	B	sentence-structure.imperatives.affirmative-imperative	A1	1	todo	Base form for an imperative
 59	B	sentence-structure.imperatives.negative-imperative	A1	1	todo	Don't + base form for a negative imperative

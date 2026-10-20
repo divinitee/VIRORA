@@ -1,0 +1,1799 @@
+[
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ you last night, {name}? Was it {person}?",
+  "options": [
+   "called",
+   "did called",
+   "call",
+   "calling"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who called …?",
+  "slots": {
+   "person": [
+    "your mum",
+    "Sardor",
+    "your cousin",
+    "the teacher"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ the {thing} in the kitchen, {name}?",
+  "options": [
+   "broke",
+   "did broke",
+   "break",
+   "breaking"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who broke …?",
+  "slots": {
+   "thing": [
+    "cup",
+    "plate",
+    "glass",
+    "window"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ the {game} yesterday, {name}?",
+  "options": [
+   "won",
+   "did won",
+   "win",
+   "winning"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who won …?",
+  "slots": {
+   "game": [
+    "chess game",
+    "football match",
+    "race",
+    "quiz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ this {food}, {name}? It's delicious.",
+  "options": [
+   "made",
+   "did made",
+   "make",
+   "making"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who made …?",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "cake",
+    "salad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ my {thing} from the desk, {name}?",
+  "options": [
+   "took",
+   "did took",
+   "take",
+   "taking"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who took …?",
+  "slots": {
+   "thing": [
+    "pen",
+    "phone",
+    "book",
+    "ruler"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ the {thing}, {name}? It's cold in here.",
+  "options": [
+   "opened",
+   "did opened",
+   "open",
+   "opening"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who opened …?",
+  "slots": {
+   "thing": [
+    "window",
+    "door",
+    "balcony door",
+    "back door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ this {text}, {name}?",
+  "options": [
+   "wrote",
+   "did wrote",
+   "write",
+   "writing"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who wrote …?",
+  "slots": {
+   "text": [
+    "message",
+    "note",
+    "poem",
+    "letter"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ you about the {news}, {name}?",
+  "options": [
+   "told",
+   "did told",
+   "tell",
+   "telling"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who told …?",
+  "slots": {
+   "news": [
+    "party",
+    "test",
+    "trip",
+    "new teacher"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ the last {food}, {name}?",
+  "options": [
+   "ate",
+   "did ate",
+   "eat",
+   "eating"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who ate …?",
+  "slots": {
+   "food": [
+    "apple",
+    "banana",
+    "sandwich",
+    "samsa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ for the {thing}, {name}?",
+  "options": [
+   "paid",
+   "did paid",
+   "pay",
+   "paying"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who paid …?",
+  "slots": {
+   "thing": [
+    "taxi",
+    "tickets",
+    "pizza",
+    "dinner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ the {room} this morning, {name}?",
+  "options": [
+   "cleaned",
+   "did cleaned",
+   "clean",
+   "cleaning"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who cleaned …?",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "bathroom",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ your {thing} on the {place}?",
+  "options": [
+   "found",
+   "did found",
+   "find",
+   "finding"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who found …?",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "wallet",
+    "bag"
+   ],
+   "place": [
+    "bus",
+    "stairs",
+    "floor",
+    "bench"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ you these {thing}, {name}?",
+  "options": [
+   "sent",
+   "did sent",
+   "send",
+   "sending"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who sent …?",
+  "slots": {
+   "thing": [
+    "flowers",
+    "photos",
+    "sweets",
+    "books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ you with your {subject} homework, {name}?",
+  "options": [
+   "helped",
+   "did helped",
+   "help",
+   "helping"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who helped …?",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ you to the {place} today, {name}?",
+  "options": [
+   "drove",
+   "did drove",
+   "drive",
+   "driving"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who drove …?",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "hospital",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ the {food} for the party, {name}?",
+  "options": [
+   "bought",
+   "did bought",
+   "buy",
+   "buying"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who bought …?",
+  "slots": {
+   "food": [
+    "cake",
+    "juice",
+    "fruit",
+    "bread"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ my brother at the {place}, {name}?",
+  "options": [
+   "saw",
+   "did saw",
+   "see",
+   "seeing"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who saw …?",
+  "slots": {
+   "place": [
+    "bazaar",
+    "park",
+    "station",
+    "gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ this {thing} on the bus, {name}?",
+  "options": [
+   "left",
+   "did left",
+   "leave",
+   "leaving"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who left …?",
+  "slots": {
+   "thing": [
+    "umbrella",
+    "jacket",
+    "bag",
+    "scarf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ you {skill}, {name}?",
+  "options": [
+   "taught",
+   "did taught",
+   "teach",
+   "teaching"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who taught …?",
+  "slots": {
+   "skill": [
+    "chess",
+    "to swim",
+    "to cook",
+    "English"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ these {food} to class, {name}?",
+  "options": [
+   "brought",
+   "did brought",
+   "bring",
+   "bringing"
+  ],
+  "key": 0,
+  "why": "Who is the subject here, so don't use did. Use the past form: Who brought …?",
+  "slots": {
+   "food": [
+    "sweets",
+    "apples",
+    "cakes",
+    "biscuits"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (sing) at the {event}, {name}?",
+  "key": "sang",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who sang …?",
+  "slots": {
+   "event": [
+    "wedding",
+    "concert",
+    "party",
+    "school show"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (give) you this {thing}, {name}?",
+  "key": "gave",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who gave …?",
+  "slots": {
+   "thing": [
+    "book",
+    "watch",
+    "bag",
+    "scarf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (cook) dinner on {day}, {name}?",
+  "key": "cooked",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who cooked …?",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (lose) the {thing}, {name}?",
+  "key": "lost",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who lost …?",
+  "slots": {
+   "thing": [
+    "key",
+    "ticket",
+    "ball",
+    "map"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (draw) this {picture}, {name}?",
+  "key": "drew",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who drew …?",
+  "slots": {
+   "picture": [
+    "picture",
+    "map",
+    "cat",
+    "house"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (come) to the {event} late, {name}?",
+  "key": "came",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who came …?",
+  "slots": {
+   "event": [
+    "lesson",
+    "meeting",
+    "party",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (wash) the {thing}, {name}?",
+  "key": "washed",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who washed …?",
+  "slots": {
+   "thing": [
+    "dishes",
+    "car",
+    "cups",
+    "floor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (choose) this {thing}, {name}?",
+  "key": "chose",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who chose …?",
+  "slots": {
+   "thing": [
+    "song",
+    "film",
+    "game",
+    "restaurant"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (fix) your {thing}, {name}?",
+  "key": "fixed",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who fixed …?",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "laptop",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (finish) the {task} first, {name}?",
+  "key": "finished",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who finished …?",
+  "slots": {
+   "task": [
+    "test",
+    "exercise",
+    "book",
+    "race"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (drink) my {drink}, {name}?",
+  "key": "drank",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who drank …?",
+  "slots": {
+   "drink": [
+    "juice",
+    "tea",
+    "milk",
+    "water"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (answer) the {q} correctly, {name}?",
+  "key": "answered",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who answered …?",
+  "slots": {
+   "q": [
+    "first question",
+    "last question",
+    "hard question",
+    "bonus question"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (meet) you at the {place}, {name}?",
+  "key": "met",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who met …?",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "bus stop",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (invite) you to the {event}, {name}?",
+  "key": "invited",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who invited …?",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "picnic"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (sit) next to you in {subject}, {name}?",
+  "key": "sat",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who sat …?",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (ring) the bell at {hour}, {name}?",
+  "key": "rang",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who rang …?",
+  "slots": {
+   "hour": [
+    "eight",
+    "nine",
+    "ten",
+    "noon"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (carry) your {thing} upstairs, {name}?",
+  "key": "carried",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who carried …?",
+  "slots": {
+   "thing": [
+    "bags",
+    "suitcase",
+    "boxes",
+    "books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (lend) you this {thing}, {name}?",
+  "key": "lent",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who lent …?",
+  "slots": {
+   "thing": [
+    "pen",
+    "bike",
+    "book",
+    "jacket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (build) this {thing}, {name}?",
+  "key": "built",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who built …?",
+  "slots": {
+   "thing": [
+    "house",
+    "bridge",
+    "wall",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past form of the verb in brackets. Who is the subject, so don't use did.",
+  "source": "Who ______ (wake) you up this morning, {name}? Was it {person}?",
+  "key": "woke",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who woke …?",
+  "slots": {
+   "person": [
+    "your mum",
+    "your dad",
+    "your brother",
+    "the alarm"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Who question about the person who did the action. Write one word in the gap.",
+  "source": "{name} broke the {thing}.",
+  "hint": "Who ______ the {thing}?",
+  "key": "broke",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who broke …?",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "thing": [
+    "cup",
+    "plate",
+    "window",
+    "vase"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Who question about the person who did the action. Write one word in the gap.",
+  "source": "My cousin won the {game}, {name}.",
+  "hint": "Who ______ the {game}, {name}?",
+  "key": "won",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who won …?",
+  "slots": {
+   "game": [
+    "race",
+    "chess game",
+    "quiz",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Who question about the person who did the action. Write one word in the gap.",
+  "source": "Malika made the {food} for us, {name}.",
+  "hint": "Who ______ the {food} for you, {name}?",
+  "key": "made",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who made …?",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "cake",
+    "salad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Who question about the person who did the action. Write one word in the gap.",
+  "source": "Sardor found my {thing} on the {place}.",
+  "hint": "Who ______ your {thing} on the {place}?",
+  "key": "found",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who found …?",
+  "slots": {
+   "thing": [
+    "keys",
+    "wallet",
+    "phone",
+    "ticket"
+   ],
+   "place": [
+    "bus",
+    "stairs",
+    "floor",
+    "bench"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask a Who question about the person who did the action. Write one word in the gap.",
+  "source": "Grandpa told us a {story} last night, {name}.",
+  "hint": "Who ______ you a {story} last night, {name}?",
+  "key": "told",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who told …?",
+  "slots": {
+   "story": [
+    "story",
+    "joke",
+    "fairy tale",
+    "funny story"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the question to the past. Write one word in the gap.",
+  "source": "Who washes the dishes after {meal}, {name}?",
+  "hint": "Who ______ the dishes after {meal} yesterday, {name}?",
+  "key": "washed",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who washed …?",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "the party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the question to the past. Write one word in the gap.",
+  "source": "Who drives you to {place} every day, {name}?",
+  "hint": "Who ______ you to {place} this morning, {name}?",
+  "key": "drove",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who drove …?",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "work",
+    "the gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the question to the past. Write one word in the gap.",
+  "source": "Who teaches {subject} at your school, {name}?",
+  "hint": "Who ______ {subject} at your school last year, {name}?",
+  "key": "taught",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who taught …?",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the question to the past. Write one word in the gap.",
+  "source": "Who brings the {food} every Friday, {name}?",
+  "hint": "Who ______ the {food} last Friday, {name}?",
+  "key": "brought",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who brought …?",
+  "slots": {
+   "food": [
+    "bread",
+    "fruit",
+    "sweets",
+    "tea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the question to the past. Write one word in the gap.",
+  "source": "Who usually pays for the {thing}, {name}?",
+  "hint": "Who ______ for the {thing} last time, {name}?",
+  "key": "paid",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who paid …?",
+  "slots": {
+   "thing": [
+    "taxi",
+    "lunch",
+    "tickets",
+    "pizza"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question. Write one word in the gap.",
+  "source": "Who did called your {person} this morning, {name}?",
+  "hint": "Who ______ your {person} this morning, {name}?",
+  "key": "called",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who called …?",
+  "slots": {
+   "person": [
+    "mum",
+    "dad",
+    "sister",
+    "brother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question. Write one word in the gap.",
+  "source": "Who did ate my {food}, {name}?",
+  "hint": "Who ______ my {food}, {name}?",
+  "key": "ate",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who ate …?",
+  "slots": {
+   "food": [
+    "sandwich",
+    "apple",
+    "samsa",
+    "banana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question. Write one word in the gap.",
+  "source": "Who did wrote on the {thing}, {name}?",
+  "hint": "Who ______ on the {thing}, {name}?",
+  "key": "wrote",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who wrote …?",
+  "slots": {
+   "thing": [
+    "board",
+    "wall",
+    "desk",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question. Write one word in the gap.",
+  "source": "Who did took my {thing}, {name}?",
+  "hint": "Who ______ my {thing}, {name}?",
+  "key": "took",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who took …?",
+  "slots": {
+   "thing": [
+    "pen",
+    "chair",
+    "notebook",
+    "seat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question. Write one word in the gap.",
+  "source": "Who did gave you the {thing}, {name}?",
+  "hint": "Who ______ you the {thing}, {name}?",
+  "key": "gave",
+  "why": "Who is the subject here, so don't use did. Use the past form: Who gave …?",
+  "slots": {
+   "thing": [
+    "money",
+    "tickets",
+    "flowers",
+    "keys"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who called you yesterday. Use Who called …?",
+  "requiredElement": "Who called",
+  "constraints": [
+   "exactly one question",
+   "no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who made a meal in your family. Use Who made …?",
+  "requiredElement": "Who made",
+  "constraints": [
+   "exactly one question",
+   "no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who won a game or match. Use Who won …?",
+  "requiredElement": "Who won",
+  "constraints": [
+   "exactly one question",
+   "past form, no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who broke something at home.",
+  "requiredElement": "Who broke",
+  "constraints": [
+   "exactly one question",
+   "must use broke",
+   "no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who helped a friend with homework.",
+  "requiredElement": "Who helped",
+  "constraints": [
+   "exactly one question",
+   "no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who took a photo. Use Who took …?",
+  "requiredElement": "Who took",
+  "constraints": [
+   "exactly one question",
+   "no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask two Who questions about last weekend.",
+  "requiredElement": "Who + past verb",
+  "constraints": [
+   "exactly two questions",
+   "past form in both",
+   "no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who taught your friend a skill.",
+  "requiredElement": "Who taught",
+  "constraints": [
+   "exactly one question",
+   "no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Something happened in your class today. Write three Who questions about it.",
+  "targetGrammar": "Who + past verb",
+  "lookFor": [
+   "Who",
+   "no did"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three Who questions about a family party.",
+  "targetGrammar": "Who + past verb",
+  "lookFor": [
+   "Who made",
+   "Who brought"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write Who questions about a football match, and answer them.",
+  "targetGrammar": "Who + past verb",
+  "lookFor": [
+   "Who won",
+   "Who scored"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your room is a mess. Ask your family three Who questions.",
+  "targetGrammar": "Who + past verb",
+  "lookFor": [
+   "Who took",
+   "Who left"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three Who questions about a trip you took.",
+  "targetGrammar": "Who + past verb",
+  "lookFor": [
+   "Who drove",
+   "Who paid"
+  ]
+ }
+]

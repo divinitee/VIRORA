@@ -254,6 +254,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "questions-negation.negation.wasnt-werent": {
+  "domain": "questions-negation",
+  "branch": "negation",
+  "topic": "wasnt-werent",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "questions-negation.subject-questions.who-subject": {
+  "domain": "questions-negation",
+  "branch": "subject-questions",
+  "topic": "who-subject",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "questions-negation.wh-questions.how-long-perfect": {
   "domain": "questions-negation",
   "branch": "wh-questions",
@@ -374,6 +402,48 @@ export const PRACTICE_MANIFEST = {
   "authored": 68,
   "stages": {
    "choose": 308,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.existential.there-is-are": {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-is-are",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.predication.be-am-is-are": {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-am-is-are",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.predication.be-question": {
+  "domain": "sentence-structure",
+  "branch": "predication",
+  "topic": "be-question",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
    "build": 320,
    "transform": 240,
    "create": 8,
