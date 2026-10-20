@@ -23,6 +23,8 @@ Rules: grammar-run/HANDOFF.md. One row per topic, in worklist order.
 
 Wave B turn 1 (Oct 20): build passes, lint passes, all suites green after each topic, keys in sync (14 topics).
 
+Batch B1 audit (Claude, Oct 20): suites green, keys in sync, build + lint pass. Read every multi-slot item; 2 singular/plural slot bugs fixed and re-run (irregular-past: glasses + "dropped it"; simple-negative: vegetables + "it was"). New rule 13 + grammar-run/check_slot_agreement.mjs. Distractor notes in rows 12–16 are good, keep doing that.
+
 Pilot audit (Claude, Oct 20): all 6 test suites pass, keys in sync (9 topics), lint clean (24 old unused-import errors elsewhere in the app fixed with eslint --fix), build passes. ~220 multi-slot items read by hand; 2 nonsense combinations found and fixed.
 
 ## Gate questions for Tee
