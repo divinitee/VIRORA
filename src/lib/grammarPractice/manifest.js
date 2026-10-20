@@ -25,7 +25,7 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
-   "transform": 288,
+   "transform": 240,
    "create": 8,
    "express": 5
   }
@@ -34,6 +34,20 @@ export const PRACTICE_MANIFEST = {
   "domain": "tenses",
   "branch": "past",
   "topic": "irregular-past",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.past.simple-finished-time": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-finished-time",
   "level": "A2",
   "authored": 68,
   "stages": {

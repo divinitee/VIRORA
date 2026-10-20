@@ -256,13 +256,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 12. _Complete the second sentence with a new short action in the past simple._  
    We were eating **samsa** when the lights went out.  
-   → We were eating **samsa** when our **aunt** ______ (arrive) from **Moscow**.  
+   → We were eating **samsa** when our **aunt** ______ (arrive) from the airport.  
    key: arrived  
    why: This is the short action that interrupted the longer one, so use the past simple: arrived.
 
 13. _Complete the second sentence with a new short action in the past simple._  
    Sara was running in the **park** when it started to rain.  
-   → Sara was running in the **park** when she ______ (fall) over a **bag**.  
+   → Sara was running in the **park** when she ______ (fall) over a **stone**.  
    key: fell  
    why: This is the short action that interrupted the longer one, so use the past simple: fell.
 
@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This is the short action that interrupted the longer one, so use the past simple: heard.
 
 15. _Complete the second sentence with a new short action in the past simple._  
-   The children were playing in the **street** when their mother called.  
-   → The children were playing in the **street** when it ______ (begin) to **rain**.  
+   The children were playing in the **garden** when their mother called.  
+   → The children were playing in the **garden** when it ______ (begin) to **get cold**.  
    key: began  
    why: This is the short action that interrupted the longer one, so use the past simple: began.
 

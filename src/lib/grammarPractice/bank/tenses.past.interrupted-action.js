@@ -1514,7 +1514,7 @@ export default [
   "format": "rewrite",
   "instr": "Complete the second sentence with a new short action in the past simple.",
   "source": "We were eating {food} when the lights went out.",
-  "hint": "We were eating {food} when our {person} ______ (arrive) from {city}.",
+  "hint": "We were eating {food} when our {person} ______ (arrive) from the airport.",
   "key": "arrived",
   "why": "This is the short action that interrupted the longer one, so use the past simple: arrived.",
   "slots": {
@@ -1529,12 +1529,6 @@ export default [
     "aunt",
     "cousins",
     "guests"
-   ],
-   "city": [
-    "Moscow",
-    "Bukhara",
-    "Seoul",
-    "Almaty"
    ]
   }
  },

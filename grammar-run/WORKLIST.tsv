@@ -13,7 +13,7 @@
 12	B	tenses.past.continuous-at-time	A2	1	live	Past continuous for an action in progress at a specific past time
 13	B	tenses.past.interrupted-action	A2	2	live	Past continuous (background) interrupted by past simple | Productive contrast of past continuous (background) and past simple (interruption)
 14	B	tenses.past.irregular-past	A2	1	live	Producing an irregular past simple form
-15	B	tenses.past.simple-finished-time	A2	1	todo	Past simple with a finished-time marker
+15	B	tenses.past.simple-finished-time	A2	1	live	Past simple with a finished-time marker
 16	B	tenses.past.simple-negative	A2	1	live	did + not + base form for the past simple negative
 17	B	tenses.perfect.experience-ever	A2	1	todo	Present perfect question form for life experience (Have ... ever been)
 18	B	tenses.perfect.for-since	A2	2	todo	since (start point) vs for (length) | for with a length of time

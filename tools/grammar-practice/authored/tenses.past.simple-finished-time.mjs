@@ -50,7 +50,7 @@ const CHOOSE = [
   ["Last summer", ["took", "have taken", "take", "are taking"], "We ______ a lot of photos in {city} last summer with my {device}.",
     { city: ["Khiva", "Bukhara", "Samarkand", "Istanbul"], device: ["phone", "camera", "tablet", "brother's camera"] }],
   ["Two weeks ago", ["sang", "has sung", "sings", "is singing"], "Two weeks ago, my sister ______ a {thing} at the {place}.",
-    { thing: ["song", "solo", "Uzbek song", "old song"], place: ["school concert", "wedding", "party", "festival"] }],
+    { thing: ["song", "solo", "folk song", "new song"], place: ["school concert", "wedding", "party", "festival"] }],
   ["Yesterday morning", ["arrived", "has arrived", "arrives", "is arriving"], "The bus ______ late yesterday morning because of the {weather} on {road}.",
     { weather: ["snow", "rain", "fog", "ice"], road: ["the bridge", "the main road", "the motorway", "our street"] }],
   ["Last Tuesday", ["sent", "have sent", "send", "am sending"], "I ______ a letter to my {person} in {city} last Tuesday.",
