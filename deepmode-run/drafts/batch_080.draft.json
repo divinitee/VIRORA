@@ -141,20 +141,19 @@
             {"to": "display", "relation": "synonym", "strength": 0.8, "note": "Things arranged so people can look at them."},
             {"to": "fair", "relation": "related", "strength": 0.6, "note": "A big event where companies show their products."}],
     "ant": []},
-   {"slot": "verb", "status": "existing", "form": "exhibit", "relation": "derivational", "definition": "to show art or objects to the public", "example": "The gallery exhibits paintings by young artists.",
+   {"slot": "verb", "status": "existing", "form": "exhibit", "relation": "derivational", "definition": "to show art or objects to the public", "example": "The gallery exhibits paintings by young artists.", "note": "exhibit is also a noun: one object shown in a museum.",
     "syn": [{"to": "show", "relation": "synonym", "strength": 0.95, "note": "The easiest word."},
             {"to": "display", "relation": "synonym", "strength": 0.95, "note": "To put things where people can see them."}],
     "ant": [{"to": "hide", "relation": "antonym", "note": "To put something where people cannot see it."}]},
    {"slot": "adjective", "status": "no_form"}, {"slot": "adverb", "status": "no_form"}
   ],
   "people": [
-   {"form": "exhibitor", "kind": "person", "status": "existing", "definition": "a person or company that shows things at a public show", "example": "Every exhibitor had a small stand."},
-   {"form": "exhibit", "kind": "thing", "status": "existing", "definition": "one object that is shown in a museum", "example": "This old carpet is the oldest exhibit in the museum."}
+   {"form": "exhibitor", "kind": "person", "status": "existing", "definition": "a person or company that shows things at a public show", "example": "Every exhibitor had a small stand."}
   ],
   "people_not_family": [],
   "affixes": [{"affix": "-or", "in_form": "exhibitor", "meaning_key": "-or", "also": ["actor", "visitor", "inventor"]}],
   "context": {"text": "Last Sunday we went to an art exhibition in Tashkent. The gallery exhibited paintings by young Uzbek artists.", "uses": ["exhibition", "exhibited"]},
-  "reviewer_note": "exhibit noun (object) placed in People & things as a thing (Rule 8)."},
+  "reviewer_note": "exhibit noun (object) noted on the verb entry (gate: one word appears once per map)."},
 
  {"headword": "expense", "kind": "word", "sense_label": "Money", "sense_pos": "noun",
   "forms": [

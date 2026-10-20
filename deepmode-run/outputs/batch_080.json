@@ -835,6 +835,7 @@
     "relation": "derivational",
     "definition": "to show art or objects to the public",
     "example": "The gallery exhibits paintings by young artists.",
+    "note": "exhibit is also a noun: one object shown in a museum.",
     "syn": [
      {
       "to": "show",
@@ -873,13 +874,6 @@
     "status": "existing",
     "definition": "a person or company that shows things at a public show",
     "example": "Every exhibitor had a small stand."
-   },
-   {
-    "form": "exhibit",
-    "kind": "thing",
-    "status": "existing",
-    "definition": "one object that is shown in a museum",
-    "example": "This old carpet is the oldest exhibit in the museum."
    }
   ],
   "people_not_family": [],
@@ -902,7 +896,7 @@
     "exhibited"
    ]
   },
-  "reviewer_note": "exhibit noun (object) placed in People & things as a thing (Rule 8)."
+  "reviewer_note": "exhibit noun (object) noted on the verb entry (gate: one word appears once per map)."
  },
  {
   "headword": "expense",
