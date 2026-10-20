@@ -11,6 +11,7 @@ import { loadTopic, topicKey, availableTopics } from "@/lib/grammarPractice";
 import { topicStatuses } from "@/lib/grammarPathState";
 import { useAppLang } from "@/hooks/useAppLang";
 import GrammarPath from "@/components/grammar/path/GrammarPath";
+import { topicLabel as topicLabelFor } from "@/lib/grammarCourse";
 import { PRACTICE_STAGES } from "@/lib/grammarPractice/stages";
 import { fromStoredProfile } from "@/lib/grammarPlacementResult";
 import { useGrammarCopy } from "@/lib/grammarCopy";
@@ -173,7 +174,10 @@ export default function Grammar() {
   }, [domain, byId, c]);
 
   // The back pill names its DESTINATION, so it reads as "where this returns to".
-  const backLabel = running ? pretty(topicId)
+  const pathIdle = mode === "path" && !running;
+  const backLabel = pathIdle ? c("home_back")
+    : running && mode === "path" ? topicLabelFor(topicKey(domainId, branchId, topicId), lang)
+    : running ? pretty(topicId)
     : level === 5 ? pretty(branchId)
       : level === 4 ? domain?.name
         : level === 3 ? cluster?.name
@@ -181,20 +185,21 @@ export default function Grammar() {
             : level === 1 ? c("home_levels_back")
               : c("home_back");
 
-  const title = running ? stageMeta?.name
+  const title = pathIdle ? ms.title
+    : running ? stageMeta?.name
     : level === 5 ? pretty(topicId)
       : level === 4 ? pretty(branchId)
         : level === 3 ? domain?.name
           : cluster ? cluster.name : tier ? tier.name : c("home_title");
 
-  const subtitle = running ? null
+  const subtitle = (running || pathIdle) ? null
     : level === 5 ? c("practice_pick_stage")
       : level === 4 ? c("practice_pick_topic")
         : level === 3 ? verdict
           : level === 2 ? c("home_hint_domain")
             : level === 1 ? c("home_hint_cluster") : c("home_pick_level");
 
-  const eyebrow = level >= 3 ? cluster?.name : c("home_eyebrow");
+  const eyebrow = !pathIdle && level >= 3 ? cluster?.name : c("home_eyebrow");
 
   if (loading) {
     return (
@@ -211,7 +216,7 @@ export default function Grammar() {
     <div className="premium-mesh min-h-screen overflow-hidden">
       <div className="relative z-10 max-w-3xl mx-auto px-4 pt-6 pb-28">
         <div className="flex items-center justify-between mb-4 min-h-[32px]">
-          <button onClick={() => (level > 0 && !running && backRef.current ? backRef.current() : goBack())}
+          <button onClick={() => (mode === "free" && level > 0 && !running && backRef.current ? backRef.current() : goBack())}
             className="neo-pill px-3 py-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors select-none">
             <ArrowLeft className="w-3.5 h-3.5" /> {backLabel}
           </button>
@@ -236,6 +241,17 @@ export default function Grammar() {
               {subtitle && <p className="text-sm text-muted-foreground mt-1">{subtitle}</p>}
             </motion.div>
           </AnimatePresence>
+          {!running && (
+            <div role="tablist" className="mt-3 inline-flex rounded-full border border-white/10 bg-white/[0.04] p-1">
+              {["path", "free"].map((m) => (
+                <button key={m} type="button" role="tab" aria-selected={mode === m} onClick={() => setMode(m)}
+                  className={`px-5 py-1.5 rounded-full text-sm font-semibold transition-colors ${mode === m ? "text-black" : "text-muted-foreground"}`}
+                  style={mode === m ? { background: ACCENT } : undefined}>
+                  {ms[m]}
+                </button>
+              ))}
+            </div>
+          )}
         </motion.div>
 
         {/* The round takes the map's place; the shell, header and back stay put. */}
@@ -252,10 +268,15 @@ export default function Grammar() {
                 stage={stageId}
                 topicKey={topicKey(domainId, branchId, topicId)}
                 c={c}
-                onExit={() => setStageId(null)}
+                onExit={exitRound}
                 onAgain={() => setRunKey((k) => k + 1)}
               />
             )}
+          </div>
+        ) : mode === "path" ? (
+          <div className="mt-5">
+            <GrammarPath lang={lang} statuses={statuses} available={available}
+              onStart={startFromPath} openKey={openKey} onOpenKey={setOpenKey} />
           </div>
         ) : (
           <div className="relative w-full aspect-square max-w-[560px] mx-auto min-h-[360px]">
