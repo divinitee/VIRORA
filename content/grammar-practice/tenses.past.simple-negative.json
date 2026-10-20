@@ -1,0 +1,1792 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Yesterday I ______ to {place} because I had a {problem}.",
+  "options": [
+   "didn't go",
+   "didn't went",
+   "not went",
+   "wasn't go"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't go, not didn't + a past form.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "work",
+    "the gym"
+   ],
+   "problem": [
+    "cold",
+    "headache",
+    "fever",
+    "sore throat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last night my brother ______ any {food} at the {event}.",
+  "options": [
+   "didn't eat",
+   "didn't ate",
+   "not ate",
+   "wasn't eat"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't eat, not didn't + a past form.",
+  "slots": {
+   "food": [
+    "plov",
+    "salad",
+    "cake",
+    "meat"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "dinner",
+    "picnic"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ {name} at the {place} last Saturday.",
+  "options": [
+   "didn't see",
+   "didn't saw",
+   "not saw",
+   "weren't see"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't see, not didn't + a past form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Bobur",
+    "Nigora"
+   ],
+   "place": [
+    "market",
+    "stadium",
+    "party",
+    "library"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Kamila ______ the {thing} yesterday because it was too {adj}.",
+  "options": [
+   "didn't buy",
+   "didn't bought",
+   "not bought",
+   "wasn't buy"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't buy, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "jacket",
+    "bag",
+    "lamp",
+    "phone"
+   ],
+   "adj": [
+    "expensive",
+    "big",
+    "small",
+    "heavy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousins ______ to my birthday party last week because they were in {city} with their {person}.",
+  "options": [
+   "didn't come",
+   "didn't came",
+   "not came",
+   "weren't come"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't come, not didn't + a past form.",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Bukhara",
+    "Seoul",
+    "Almaty"
+   ],
+   "person": [
+    "parents",
+    "father",
+    "grandmother",
+    "team"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Rustam ______ his {person} last night because his phone was {state}.",
+  "options": [
+   "didn't call",
+   "didn't called",
+   "not called",
+   "wasn't call"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't call, not didn't + a past form.",
+  "slots": {
+   "person": [
+    "mother",
+    "friend",
+    "teacher",
+    "boss"
+   ],
+   "state": [
+    "broken",
+    "dead",
+    "lost",
+    "at home"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The students ______ the {task} yesterday, so they stayed after class in the {room}.",
+  "options": [
+   "didn't finish",
+   "didn't finished",
+   "not finished",
+   "weren't finish"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't finish, not didn't + a past form.",
+  "slots": {
+   "task": [
+    "test",
+    "project",
+    "essay",
+    "exercise"
+   ],
+   "room": [
+    "library",
+    "classroom",
+    "lab",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ the {thing} in yesterday's {subject} lesson.",
+  "options": [
+   "didn't understand",
+   "didn't understood",
+   "not understood",
+   "wasn't understand"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't understand, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "question",
+    "new rule",
+    "homework",
+    "task"
+   ],
+   "subject": [
+    "maths",
+    "physics",
+    "English",
+    "chemistry"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The baby ______ well last night because of the {noise} from the {place}.",
+  "options": [
+   "didn't sleep",
+   "didn't slept",
+   "not slept",
+   "wasn't sleep"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't sleep, not didn't + a past form.",
+  "slots": {
+   "noise": [
+    "noise",
+    "music",
+    "rain",
+    "wind"
+   ],
+   "place": [
+    "street",
+    "yard",
+    "flat upstairs",
+    "building site"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ time for breakfast yesterday, so we ate {food} on the {transport}.",
+  "options": [
+   "didn't have",
+   "didn't had",
+   "not had",
+   "weren't have"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't have, not didn't + a past form.",
+  "slots": {
+   "food": [
+    "bread",
+    "apples",
+    "biscuits",
+    "a banana"
+   ],
+   "transport": [
+    "bus",
+    "metro",
+    "way",
+    "train"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father ______ the {event} on TV last night because he was at {place}.",
+  "options": [
+   "didn't watch",
+   "didn't watched",
+   "not watched",
+   "wasn't watch"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't watch, not didn't + a past form.",
+  "slots": {
+   "event": [
+    "match",
+    "final",
+    "news",
+    "concert"
+   ],
+   "place": [
+    "work",
+    "a meeting",
+    "the hospital",
+    "his friend's house"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola ______ the {transport} to college yesterday. She walked with her {person}.",
+  "options": [
+   "didn't take",
+   "didn't took",
+   "not took",
+   "wasn't take"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't take, not didn't + a past form.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "taxi",
+    "minibus"
+   ],
+   "person": [
+    "sister",
+    "friend",
+    "classmate",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The boys ______ {sport} last weekend because the {place} was closed.",
+  "options": [
+   "didn't play",
+   "didn't played",
+   "not played",
+   "weren't play"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't play, not didn't + a past form.",
+  "slots": {
+   "sport": [
+    "football",
+    "basketball",
+    "volleyball",
+    "tennis"
+   ],
+   "place": [
+    "stadium",
+    "gym",
+    "sports centre",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Akmal ______ his {thing} yesterday. It is still somewhere in the {place}.",
+  "options": [
+   "didn't find",
+   "didn't found",
+   "not found",
+   "wasn't find"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't find, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "keys",
+    "wallet",
+    "ticket",
+    "passport"
+   ],
+   "place": [
+    "house",
+    "car",
+    "flat",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Two days ago, Sevara ______ the {thing} for her {subject} class.",
+  "options": [
+   "didn't write",
+   "didn't wrote",
+   "not wrote",
+   "wasn't write"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't write, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "essay",
+    "report",
+    "story",
+    "summary"
+   ],
+   "subject": [
+    "English",
+    "history",
+    "literature",
+    "biology"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ the {sound} last night because I had my headphones on in the {room}.",
+  "options": [
+   "didn't hear",
+   "didn't heard",
+   "not heard",
+   "wasn't hear"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't hear, not didn't + a past form.",
+  "slots": {
+   "sound": [
+    "alarm",
+    "doorbell",
+    "phone",
+    "knock"
+   ],
+   "room": [
+    "bedroom",
+    "kitchen",
+    "living room",
+    "bathroom"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ about the {event} at the {place} last week, so we missed it.",
+  "options": [
+   "didn't know",
+   "didn't knew",
+   "not knew",
+   "weren't know"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't know, not didn't + a past form.",
+  "slots": {
+   "event": [
+    "concert",
+    "meeting",
+    "sale",
+    "party"
+   ],
+   "place": [
+    "library",
+    "school",
+    "park",
+    "centre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Javlon ______ any {drink} during the match yesterday, so he felt {state}.",
+  "options": [
+   "didn't drink",
+   "didn't drank",
+   "not drank",
+   "wasn't drink"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't drink, not didn't + a past form.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "tea",
+    "cold water"
+   ],
+   "state": [
+    "tired",
+    "weak",
+    "dizzy",
+    "ill"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dilfuza ______ her {thing} to class last Monday, so she shared with {name}.",
+  "options": [
+   "didn't bring",
+   "didn't brought",
+   "not brought",
+   "wasn't bring"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't bring, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "book",
+    "dictionary",
+    "notebook",
+    "laptop"
+   ],
+   "name": [
+    "Malika",
+    "Anna",
+    "Zarina",
+    "Kamola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents ______ the {food} at the new {place} last week.",
+  "options": [
+   "didn't like",
+   "didn't liked",
+   "not liked",
+   "weren't like"
+  ],
+  "key": 0,
+  "why": "The past simple negative is didn't + the base form: didn't like, not didn't + a past form.",
+  "slots": {
+   "food": [
+    "soup",
+    "plov",
+    "pizza",
+    "salad"
+   ],
+   "place": [
+    "café",
+    "restaurant",
+    "canteen",
+    "hotel"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Yesterday Madina ______ (go) to the {place} because it was {weather}.",
+  "key": "didn't go",
+  "why": "The past simple negative is didn't + the base form: didn't go, not didn't + a past form.",
+  "slots": {
+   "place": [
+    "park",
+    "market",
+    "beach",
+    "stadium"
+   ],
+   "weather": [
+    "raining",
+    "too cold",
+    "too hot",
+    "snowing"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Last night, I ______ (do) my {subject} homework because I was at my {person}'s house.",
+  "key": "didn't do",
+  "why": "The past simple negative is didn't + the base form: didn't do, not didn't + a past form.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "physics"
+   ],
+   "person": [
+    "aunt",
+    "grandmother",
+    "friend",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "We ______ (watch) the {event} last night because we were at {place}.",
+  "key": "didn't watch",
+  "why": "The past simple negative is didn't + the base form: didn't watch, not didn't + a past form.",
+  "slots": {
+   "event": [
+    "match",
+    "film",
+    "news",
+    "concert"
+   ],
+   "place": [
+    "the cinema",
+    "my aunt's house",
+    "a wedding",
+    "the park"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Last week, Bobur ______ (buy) the {thing} because he had no {money}.",
+  "key": "didn't buy",
+  "why": "The past simple negative is didn't + the base form: didn't buy, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "shoes",
+    "jacket",
+    "headphones",
+    "book"
+   ],
+   "money": [
+    "money",
+    "cash",
+    "time",
+    "card"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "The children ______ (eat) their {food} at lunch yesterday because it was {state}.",
+  "key": "didn't eat",
+  "why": "The past simple negative is didn't + the base form: didn't eat, not didn't + a past form.",
+  "slots": {
+   "food": [
+    "soup",
+    "rice",
+    "salad",
+    "vegetables"
+   ],
+   "state": [
+    "cold",
+    "too salty",
+    "too spicy",
+    "too hot"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "My father ______ (drive) to work last Monday because his car was at the {place}.",
+  "key": "didn't drive",
+  "why": "The past simple negative is didn't + the base form: didn't drive, not didn't + a past form.",
+  "slots": {
+   "place": [
+    "garage",
+    "repair shop",
+    "mechanic's",
+    "service centre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Last summer, we ______ (visit) {city} because the {thing} were too expensive.",
+  "key": "didn't visit",
+  "why": "The past simple negative is didn't + the base form: didn't visit, not didn't + a past form.",
+  "slots": {
+   "city": [
+    "Istanbul",
+    "Dubai",
+    "Seoul",
+    "London"
+   ],
+   "thing": [
+    "tickets",
+    "hotels",
+    "train tickets",
+    "flights"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Nilufar ______ (answer) the phone yesterday because she was in the {place} with her {person}.",
+  "key": "didn't answer",
+  "why": "The past simple negative is didn't + the base form: didn't answer, not didn't + a past form.",
+  "slots": {
+   "place": [
+    "lesson",
+    "meeting",
+    "cinema",
+    "library"
+   ],
+   "person": [
+    "friends",
+    "sister",
+    "cousin",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Last night the {transport} ______ (come) on time, so we waited at the {place}.",
+  "key": "didn't come",
+  "why": "The past simple negative is didn't + the base form: didn't come, not didn't + a past form.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "minibus",
+    "tram"
+   ],
+   "place": [
+    "stop",
+    "station",
+    "corner",
+    "gate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "I ______ (understand) the {thing} in class yesterday, so I asked my {person}.",
+  "key": "didn't understand",
+  "why": "The past simple negative is didn't + the base form: didn't understand, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "question",
+    "new rule",
+    "task",
+    "homework"
+   ],
+   "person": [
+    "teacher",
+    "friend",
+    "brother",
+    "classmate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Two days ago, the shop ______ (open) because of the {event} in {city}.",
+  "key": "didn't open",
+  "why": "The past simple negative is didn't + the base form: didn't open, not didn't + a past form.",
+  "slots": {
+   "event": [
+    "holiday",
+    "festival",
+    "celebration",
+    "marathon"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Last weekend, Sanjar ______ (play) {sport} because he hurt his {part}.",
+  "key": "didn't play",
+  "why": "The past simple negative is didn't + the base form: didn't play, not didn't + a past form.",
+  "slots": {
+   "sport": [
+    "football",
+    "tennis",
+    "basketball",
+    "volleyball"
+   ],
+   "part": [
+    "knee",
+    "leg",
+    "arm",
+    "back"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "I ______ (know) anyone at the {event} last Saturday except {name}.",
+  "key": "didn't know",
+  "why": "The past simple negative is didn't + the base form: didn't know, not didn't + a past form.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "meeting",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Bobur",
+    "Nigora"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Yesterday, my sister ______ (take) her {thing} to {place}, so she got wet.",
+  "key": "didn't take",
+  "why": "The past simple negative is didn't + the base form: didn't take, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "umbrella",
+    "raincoat",
+    "coat",
+    "jacket"
+   ],
+   "place": [
+    "school",
+    "college",
+    "work",
+    "the park"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Last month, we ______ (get) any {thing} from our {person}.",
+  "key": "didn't get",
+  "why": "The past simple negative is didn't + the base form: didn't get, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "news",
+    "letters",
+    "messages",
+    "parcels"
+   ],
+   "person": [
+    "cousins",
+    "uncle",
+    "aunt",
+    "grandparents"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Yesterday Otabek ______ (wear) his {clothes} because he couldn't find it in the {place}.",
+  "key": "didn't wear",
+  "why": "The past simple negative is didn't + the base form: didn't wear, not didn't + a past form.",
+  "slots": {
+   "clothes": [
+    "jacket",
+    "coat",
+    "hat",
+    "scarf"
+   ],
+   "place": [
+    "flat",
+    "cupboard",
+    "car",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Last night, I ______ (hear) my {thing} because it was in my {place}.",
+  "key": "didn't hear",
+  "why": "The past simple negative is didn't + the base form: didn't hear, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "phone",
+    "alarm",
+    "tablet",
+    "laptop"
+   ],
+   "place": [
+    "bag",
+    "coat pocket",
+    "car",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "We ______ (finish) the {task} last Friday because the {thing} stopped working.",
+  "key": "didn't finish",
+  "why": "The past simple negative is didn't + the base form: didn't finish, not didn't + a past form.",
+  "slots": {
+   "task": [
+    "project",
+    "report",
+    "presentation",
+    "homework"
+   ],
+   "thing": [
+    "computer",
+    "printer",
+    "internet",
+    "laptop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "Kamola ______ (call) her {person} yesterday because she lost her phone.",
+  "key": "didn't call",
+  "why": "The past simple negative is didn't + the base form: didn't call, not didn't + a past form.",
+  "slots": {
+   "person": [
+    "mother",
+    "friend",
+    "teacher",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple negative of the verb in brackets (didn't + verb).",
+  "source": "The teacher ______ (give) us any {task} last Friday because of the {event}.",
+  "key": "didn't give",
+  "why": "The past simple negative is didn't + the base form: didn't give, not didn't + a past form.",
+  "slots": {
+   "task": [
+    "homework",
+    "tests",
+    "exercises",
+    "reading"
+   ],
+   "event": [
+    "holiday",
+    "school concert",
+    "sports day",
+    "festival"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "I went to the {place} yesterday.",
+  "hint": "I ______ (go) to the {place} yesterday. I stayed at home with my {person}.",
+  "key": "didn't go",
+  "why": "The past simple negative is didn't + the base form: didn't go, not didn't + a past form.",
+  "slots": {
+   "place": [
+    "park",
+    "market",
+    "gym",
+    "cinema"
+   ],
+   "person": [
+    "brother",
+    "grandmother",
+    "parents",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "Ali passed his {test}.",
+  "hint": "Ali ______ (pass) his {test} last week, so he is studying with his {person} again.",
+  "key": "didn't pass",
+  "why": "The past simple negative is didn't + the base form: didn't pass, not didn't + a past form.",
+  "slots": {
+   "test": [
+    "driving test",
+    "maths exam",
+    "English exam",
+    "IELTS test"
+   ],
+   "person": [
+    "father",
+    "tutor",
+    "teacher",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "We bought a new {thing}.",
+  "hint": "We ______ (buy) a new {thing} last month because it cost too much at the {place}.",
+  "key": "didn't buy",
+  "why": "The past simple negative is didn't + the base form: didn't buy, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "sofa",
+    "fridge",
+    "TV",
+    "carpet"
+   ],
+   "place": [
+    "shop",
+    "market",
+    "mall",
+    "store"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "My sister liked the {show}.",
+  "hint": "My sister ______ (like) the {show} last Saturday because it was too {adj}.",
+  "key": "didn't like",
+  "why": "The past simple negative is didn't + the base form: didn't like, not didn't + a past form.",
+  "slots": {
+   "show": [
+    "film",
+    "play",
+    "concert",
+    "series"
+   ],
+   "adj": [
+    "long",
+    "boring",
+    "loud",
+    "sad"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "The students wrote the {task}.",
+  "hint": "The students ______ (write) the {task} yesterday because the {person} was ill.",
+  "key": "didn't write",
+  "why": "The past simple negative is didn't + the base form: didn't write, not didn't + a past form.",
+  "slots": {
+   "task": [
+    "essay",
+    "test",
+    "report",
+    "summary"
+   ],
+   "person": [
+    "teacher",
+    "tutor",
+    "school director",
+    "coach"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence: a negative in the past simple.",
+  "source": "Aziz doesn't play {sport} on weekdays.",
+  "hint": "Last week Aziz ______ (play) {sport} at all because of his {problem}.",
+  "key": "didn't play",
+  "why": "The past simple negative is didn't + the base form: didn't play, not didn't + a past form.",
+  "slots": {
+   "sport": [
+    "football",
+    "tennis",
+    "chess",
+    "volleyball"
+   ],
+   "problem": [
+    "exams",
+    "bad leg",
+    "cold",
+    "new job"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence: a negative in the past simple.",
+  "source": "We don't usually eat {food} for breakfast.",
+  "hint": "Yesterday we ______ (eat) {food} for breakfast either.",
+  "key": "didn't eat",
+  "why": "The past simple negative is didn't + the base form: didn't eat, not didn't + a past form.",
+  "slots": {
+   "food": [
+    "soup",
+    "rice",
+    "meat",
+    "fish"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence: a negative in the past simple.",
+  "source": "My father doesn't drive in {weather}.",
+  "hint": "Yesterday my father ______ (drive) because of the {weather} on the {road}.",
+  "key": "didn't drive",
+  "why": "The past simple negative is didn't + the base form: didn't drive, not didn't + a past form.",
+  "slots": {
+   "weather": [
+    "snow",
+    "rain",
+    "fog",
+    "ice"
+   ],
+   "road": [
+    "main road",
+    "bridge",
+    "mountain road",
+    "city roads"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence: a negative in the past simple.",
+  "source": "Laylo doesn't watch {show} on her {device}.",
+  "hint": "Last night Laylo ______ (watch) {show} on her {device} because she had a test.",
+  "key": "didn't watch",
+  "why": "The past simple negative is didn't + the base form: didn't watch, not didn't + a past form.",
+  "slots": {
+   "show": [
+    "cartoons",
+    "films",
+    "series",
+    "videos"
+   ],
+   "device": [
+    "phone",
+    "tablet",
+    "laptop",
+    "computer"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence: a negative in the past simple.",
+  "source": "Our teacher doesn't give us {task} on Fridays.",
+  "hint": "Last Friday our teacher ______ (give) us {task} because it was {name}'s birthday.",
+  "key": "didn't give",
+  "why": "The past simple negative is didn't + the base form: didn't give, not didn't + a past form.",
+  "slots": {
+   "task": [
+    "homework",
+    "tests",
+    "extra work",
+    "reading"
+   ],
+   "name": [
+    "Malika",
+    "Sardor",
+    "Anna",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with a negative in the past simple.",
+  "source": "Did you see the {show}?",
+  "hint": "No, I ______ (see) the {show}. I was at {place}.",
+  "key": "didn't see",
+  "why": "The past simple negative is didn't + the base form: didn't see, not didn't + a past form.",
+  "slots": {
+   "show": [
+    "film",
+    "match",
+    "concert",
+    "play"
+   ],
+   "place": [
+    "work",
+    "my aunt's house",
+    "the gym",
+    "a lesson"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with a negative in the past simple.",
+  "source": "Did Bekzod call his {person}?",
+  "hint": "No, he ______ (call) his {person} because he was {state}.",
+  "key": "didn't call",
+  "why": "The past simple negative is didn't + the base form: didn't call, not didn't + a past form.",
+  "slots": {
+   "person": [
+    "mother",
+    "teacher",
+    "coach",
+    "uncle"
+   ],
+   "state": [
+    "busy",
+    "tired",
+    "at work",
+    "in a lesson"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with a negative in the past simple.",
+  "source": "Did the girls enjoy the {event}?",
+  "hint": "No, they ______ (enjoy) the {event}. The {thing} was bad.",
+  "key": "didn't enjoy",
+  "why": "The past simple negative is didn't + the base form: didn't enjoy, not didn't + a past form.",
+  "slots": {
+   "event": [
+    "party",
+    "concert",
+    "trip",
+    "festival"
+   ],
+   "thing": [
+    "music",
+    "food",
+    "sound",
+    "weather"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with a negative in the past simple.",
+  "source": "Did your brother find his {thing}?",
+  "hint": "No, he ______ (find) his {thing} in the {place}.",
+  "key": "didn't find",
+  "why": "The past simple negative is didn't + the base form: didn't find, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "wallet",
+    "ticket"
+   ],
+   "place": [
+    "car",
+    "flat",
+    "office",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question with a negative in the past simple.",
+  "source": "Did you get my {thing}?",
+  "hint": "No, I ______ (get) your {thing}. Please send it to my {contact} again.",
+  "key": "didn't get",
+  "why": "The past simple negative is didn't + the base form: didn't get, not didn't + a past form.",
+  "slots": {
+   "thing": [
+    "message",
+    "email",
+    "file",
+    "photo"
+   ],
+   "contact": [
+    "email",
+    "phone",
+    "new number",
+    "work email"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you didn't do yesterday.",
+  "requiredElement": "didn't + base form",
+  "constraints": [
+   "exactly one sentence",
+   "must include yesterday",
+   "must use I"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place you didn't go last weekend, and why.",
+  "requiredElement": "didn't go + because",
+  "constraints": [
+   "exactly one sentence",
+   "must use because",
+   "must include last weekend"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food you didn't like as a child.",
+  "requiredElement": "didn't like",
+  "constraints": [
+   "exactly one sentence",
+   "must use didn't like",
+   "must name the food"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend who didn't come to an event.",
+  "requiredElement": "didn't come",
+  "constraints": [
+   "exactly one sentence",
+   "must name the friend",
+   "must name the event"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you didn't understand in a lesson.",
+  "requiredElement": "didn't understand",
+  "constraints": [
+   "exactly one sentence",
+   "must name the lesson",
+   "must include a past time"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two people who didn't have time for something.",
+  "requiredElement": "didn't have",
+  "constraints": [
+   "exactly one sentence",
+   "must use a plural subject",
+   "must include a past time"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with one positive and one negative past verb.",
+  "requiredElement": "past simple + didn't + base",
+  "constraints": [
+   "exactly one sentence",
+   "must use but",
+   "must use didn't"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: something you planned to do last week, and that you didn't do it.",
+  "requiredElement": "past simple, then didn't + base",
+  "constraints": [
+   "exactly two sentences",
+   "second sentence negative",
+   "must include last week"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a day when nothing went right. Write three or four sentences.",
+  "targetGrammar": "past simple negative",
+  "lookFor": [
+   "didn't + base form",
+   "at least two negatives",
+   "a finished time"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a trip where you didn't do what you planned. Write three or four sentences.",
+  "targetGrammar": "past simple positive and negative",
+  "lookFor": [
+   "didn't + base form",
+   "what you did instead",
+   "a finished time"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Explain to your teacher why you didn't do your homework. Write three or four sentences.",
+  "targetGrammar": "past simple negative with reasons",
+  "lookFor": [
+   "didn't do",
+   "because",
+   "past simple verbs"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare a good weekend and a bad one: what you did and what you didn't do. Write three or four sentences.",
+  "targetGrammar": "past simple positive and negative",
+  "lookFor": [
+   "didn't + base form",
+   "but",
+   "last weekend or a date"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a time you were ill. What didn't you do that week? Write three or four sentences.",
+  "targetGrammar": "past simple negative",
+  "lookFor": [
+   "didn't go, didn't eat, didn't sleep",
+   "a finished time",
+   "at least two negatives"
+  ]
+ }
+]

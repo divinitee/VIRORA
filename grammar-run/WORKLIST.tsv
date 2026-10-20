@@ -10,11 +10,11 @@
 9	A	tenses.present.temporary-situation	A2	1	live	Present continuous for a temporary situation around now (not at this second)
 10	A	tenses.present.changing-trend	B2	1	todo	Present continuous for a developing trend ('these days')
 11	A	tenses.present.will-characteristic	C2	1	todo	'will' expressing characteristic/habitual behaviour rather than future time
-12	B	tenses.past.continuous-at-time	A2	1	todo	Past continuous for an action in progress at a specific past time
-13	B	tenses.past.interrupted-action	A2	2	todo	Past continuous (background) interrupted by past simple | Productive contrast of past continuous (background) and past simple (interruption)
-14	B	tenses.past.irregular-past	A2	1	todo	Producing an irregular past simple form
+12	B	tenses.past.continuous-at-time	A2	1	live	Past continuous for an action in progress at a specific past time
+13	B	tenses.past.interrupted-action	A2	2	live	Past continuous (background) interrupted by past simple | Productive contrast of past continuous (background) and past simple (interruption)
+14	B	tenses.past.irregular-past	A2	1	live	Producing an irregular past simple form
 15	B	tenses.past.simple-finished-time	A2	1	todo	Past simple with a finished-time marker
-16	B	tenses.past.simple-negative	A2	1	todo	did + not + base form for the past simple negative
+16	B	tenses.past.simple-negative	A2	1	live	did + not + base form for the past simple negative
 17	B	tenses.perfect.experience-ever	A2	1	todo	Present perfect question form for life experience (Have ... ever been)
 18	B	tenses.perfect.for-since	A2	2	todo	since (start point) vs for (length) | for with a length of time
 19	B	tenses.perfect.never-experience	A2	1	todo	Past participle after has never

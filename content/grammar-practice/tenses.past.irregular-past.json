@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last Saturday, my brother ______ to the {place} with his {person}.",
+  "options": [
+   "went",
+   "goed",
+   "go",
+   "gone"
+  ],
+  "key": 0,
+  "why": "go is irregular: the past simple is went, not goed.",
+  "slots": {
+   "place": [
+    "cinema",
+    "market",
+    "stadium",
+    "zoo"
+   ],
+   "person": [
+    "friends",
+    "classmates",
+    "cousins",
+    "team"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Yesterday I ______ a big {animal} in the {place} near our house.",
+  "options": [
+   "saw",
+   "seed",
+   "see",
+   "seen"
+  ],
+  "key": 0,
+  "why": "see is irregular: the past simple is saw, not seed.",
+  "slots": {
+   "animal": [
+    "dog",
+    "horse",
+    "bird",
+    "cat"
+   ],
+   "place": [
+    "street",
+    "field",
+    "park",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last night we ______ {food} at my {person}'s house.",
+  "options": [
+   "ate",
+   "eated",
+   "eat",
+   "eaten"
+  ],
+  "key": 0,
+  "why": "eat is irregular: the past simple is ate, not eated.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "shashlik",
+    "soup"
+   ],
+   "person": [
+    "aunt",
+    "grandmother",
+    "uncle",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On Monday morning, Nilufar ______ the {transport} to {place}.",
+  "options": [
+   "took",
+   "taked",
+   "take",
+   "taken"
+  ],
+  "key": 0,
+  "why": "take is irregular: the past simple is took, not taked.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "taxi"
+   ],
+   "place": [
+    "college",
+    "work",
+    "the airport",
+    "the city centre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week, Javlon ______ a long {thing} to his {person}.",
+  "options": [
+   "wrote",
+   "writed",
+   "write",
+   "written"
+  ],
+  "key": 0,
+  "why": "write is irregular: the past simple is wrote, not writed.",
+  "slots": {
+   "thing": [
+    "letter",
+    "message",
+    "email",
+    "story"
+   ],
+   "person": [
+    "grandmother",
+    "teacher",
+    "friend",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Yesterday my teacher ______ us a lot of {task} for the {period}.",
+  "options": [
+   "gave",
+   "gived",
+   "give",
+   "given"
+  ],
+  "key": 0,
+  "why": "give is irregular: the past simple is gave, not gived.",
+  "slots": {
+   "task": [
+    "homework",
+    "exercises",
+    "reading",
+    "tasks"
+   ],
+   "period": [
+    "weekend",
+    "holiday",
+    "break",
+    "week"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last summer, my father ______ us to {city} in his {car}.",
+  "options": [
+   "drove",
+   "drived",
+   "drive",
+   "driven"
+  ],
+  "key": 0,
+  "why": "drive is irregular: the past simple is drove, not drived.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "car": [
+    "old car",
+    "new car",
+    "car",
+    "brother's car"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Two days ago, Sanjar ______ his {vehicle} to the {place}.",
+  "options": [
+   "rode",
+   "rided",
+   "ride",
+   "ridden"
+  ],
+  "key": 0,
+  "why": "ride is irregular: the past simple is rode, not rided.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "scooter",
+    "horse",
+    "motorbike"
+   ],
+   "place": [
+    "river",
+    "park",
+    "village",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Yesterday, my cousin ______ {lang} with a tourist from {country}.",
+  "options": [
+   "spoke",
+   "speaked",
+   "speak",
+   "spoken"
+  ],
+  "key": 0,
+  "why": "speak is irregular: the past simple is spoke, not speaked.",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Korean",
+    "French"
+   ],
+   "country": [
+    "Germany",
+    "France",
+    "Italy",
+    "Japan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week, I ______ my {thing} when I dropped it on the {place}.",
+  "options": [
+   "broke",
+   "breaked",
+   "break",
+   "broken"
+  ],
+  "key": 0,
+  "why": "break is irregular: the past simple is broke, not breaked.",
+  "slots": {
+   "thing": [
+    "phone",
+    "glasses",
+    "watch",
+    "cup"
+   ],
+   "place": [
+    "floor",
+    "stairs",
+    "road",
+    "ground"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last August, we ______ in the {place} with our {person}.",
+  "options": [
+   "swam",
+   "swimmed",
+   "swim",
+   "swum"
+  ],
+  "key": 0,
+  "why": "swim is irregular: the past simple is swam, not swimmed.",
+  "slots": {
+   "place": [
+    "sea",
+    "lake",
+    "river",
+    "pool"
+   ],
+   "person": [
+    "cousins",
+    "father",
+    "friends",
+    "coach"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "After the match yesterday, the players ______ a lot of {drink} in the {place}.",
+  "options": [
+   "drank",
+   "drinked",
+   "drink",
+   "drunk"
+  ],
+  "key": 0,
+  "why": "drink is irregular: the past simple is drank, not drinked.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "tea",
+    "cold water"
+   ],
+   "place": [
+    "changing room",
+    "café",
+    "bus",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last Monday, my sister ______ a new {course} at the {place}.",
+  "options": [
+   "began",
+   "beginned",
+   "begin",
+   "begun"
+  ],
+  "key": 0,
+  "why": "begin is irregular: the past simple is began, not beginned.",
+  "slots": {
+   "course": [
+    "English course",
+    "dance class",
+    "job",
+    "computer course"
+   ],
+   "place": [
+    "college",
+    "centre",
+    "university",
+    "library"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At the party last night, Gulnora ______ a {colour} dress and {shoes}.",
+  "options": [
+   "wore",
+   "weared",
+   "wear",
+   "worn"
+  ],
+  "key": 0,
+  "why": "wear is irregular: the past simple is wore, not weared.",
+  "slots": {
+   "colour": [
+    "red",
+    "blue",
+    "white",
+    "green"
+   ],
+   "shoes": [
+    "black shoes",
+    "white shoes",
+    "new shoes",
+    "boots"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week, we ______ a new {thing} for our {room}.",
+  "options": [
+   "chose",
+   "choosed",
+   "choose",
+   "chosen"
+  ],
+  "key": 0,
+  "why": "choose is irregular: the past simple is chose, not choosed.",
+  "slots": {
+   "thing": [
+    "sofa",
+    "table",
+    "carpet",
+    "lamp"
+   ],
+   "room": [
+    "living room",
+    "kitchen",
+    "bedroom",
+    "flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Yesterday Akmal ______ his {thing} at the {place}.",
+  "options": [
+   "forgot",
+   "forgetted",
+   "forget",
+   "forgotten"
+  ],
+  "key": 0,
+  "why": "forget is irregular: the past simple is forgot, not forgetted.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "bag",
+    "umbrella"
+   ],
+   "place": [
+    "café",
+    "gym",
+    "office",
+    "library"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last winter, my grandfather ______ on the {surface} near the {place}.",
+  "options": [
+   "fell",
+   "falled",
+   "fall",
+   "fallen"
+  ],
+  "key": 0,
+  "why": "fall is irregular: the past simple is fell, not falled.",
+  "slots": {
+   "surface": [
+    "ice",
+    "snow",
+    "stairs",
+    "wet road"
+   ],
+   "place": [
+    "shop",
+    "bank",
+    "bus stop",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last night, I ______ my {subject} homework with my {person}.",
+  "options": [
+   "did",
+   "doed",
+   "do",
+   "done"
+  ],
+  "key": 0,
+  "why": "do is irregular: the past simple is did, not doed.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "English",
+    "history"
+   ],
+   "person": [
+    "brother",
+    "friend",
+    "father",
+    "classmate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last year, my grandmother ______ {plant} in her {place}.",
+  "options": [
+   "grew",
+   "growed",
+   "grow",
+   "grown"
+  ],
+  "key": 0,
+  "why": "grow is irregular: the past simple is grew, not growed.",
+  "slots": {
+   "plant": [
+    "tomatoes",
+    "melons",
+    "cucumbers",
+    "flowers"
+   ],
+   "place": [
+    "garden",
+    "village garden",
+    "yard",
+    "dacha"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In the game yesterday, Bobur ______ the ball to his {person} in the {place}.",
+  "options": [
+   "threw",
+   "throwed",
+   "throw",
+   "thrown"
+  ],
+  "key": 0,
+  "why": "throw is irregular: the past simple is threw, not throwed.",
+  "slots": {
+   "person": [
+    "teammate",
+    "friend",
+    "brother",
+    "coach"
+   ],
+   "place": [
+    "park",
+    "yard",
+    "gym",
+    "field"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Yesterday I ______ (buy) a new {thing} at the {place}.",
+  "key": "bought",
+  "why": "buy is irregular: the past simple is bought.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bag",
+    "jacket",
+    "book"
+   ],
+   "place": [
+    "market",
+    "mall",
+    "shop",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last night, my uncle ______ (bring) {food} from {city}.",
+  "key": "brought",
+  "why": "bring is irregular: the past simple is brought.",
+  "slots": {
+   "food": [
+    "melons",
+    "grapes",
+    "apricots",
+    "bread"
+   ],
+   "city": [
+    "Samarkand",
+    "Fergana",
+    "Bukhara",
+    "Khorezm"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last year, Mrs Karimova ______ (teach) {subject} at our {place}.",
+  "key": "taught",
+  "why": "teach is irregular: the past simple is taught.",
+  "slots": {
+   "subject": [
+    "maths",
+    "chemistry",
+    "English",
+    "biology"
+   ],
+   "place": [
+    "school",
+    "college",
+    "lyceum",
+    "centre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "On Sunday morning, my father ______ (catch) three {fish} in the {place}.",
+  "key": "caught",
+  "why": "catch is irregular: the past simple is caught.",
+  "slots": {
+   "fish": [
+    "fish",
+    "big fish",
+    "small fish",
+    "carp"
+   ],
+   "place": [
+    "river",
+    "lake",
+    "reservoir",
+    "pond"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last month, we ______ (sell) our old {thing} to a {person}.",
+  "key": "sold",
+  "why": "sell is irregular: the past simple is sold.",
+  "slots": {
+   "thing": [
+    "car",
+    "sofa",
+    "fridge",
+    "bike"
+   ],
+   "person": [
+    "neighbour",
+    "friend",
+    "young man",
+    "family"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Yesterday, Madina ______ (tell) her {person} about the {event}.",
+  "key": "told",
+  "why": "tell is irregular: the past simple is told.",
+  "slots": {
+   "person": [
+    "mother",
+    "friends",
+    "teacher",
+    "sister"
+   ],
+   "event": [
+    "test",
+    "trip",
+    "party",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last night, I ______ (find) my {thing} under the {place}.",
+  "key": "found",
+  "why": "find is irregular: the past simple is found.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "wallet",
+    "ring"
+   ],
+   "place": [
+    "sofa",
+    "bed",
+    "table",
+    "car seat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Two hours ago, the {transport} ______ (leave) for {city}.",
+  "key": "left",
+  "why": "leave is irregular: the past simple is left.",
+  "slots": {
+   "transport": [
+    "train",
+    "bus",
+    "minibus",
+    "night bus"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Andijan",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last weekend, my sister ______ (make) a {food} for our {person}'s birthday.",
+  "key": "made",
+  "why": "make is irregular: the past simple is made.",
+  "slots": {
+   "food": [
+    "cake",
+    "pie",
+    "salad",
+    "pizza"
+   ],
+   "person": [
+    "father",
+    "mother",
+    "brother",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Yesterday, Rustam ______ (pay) {amount} for a {thing}.",
+  "key": "paid",
+  "why": "pay is irregular: the past simple is paid.",
+  "slots": {
+   "amount": [
+    "50,000 som",
+    "100,000 som",
+    "a lot",
+    "too much"
+   ],
+   "thing": [
+    "new shirt",
+    "haircut",
+    "taxi",
+    "ticket"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last week, I ______ (send) a {thing} to my {person} in Russia.",
+  "key": "sent",
+  "why": "send is irregular: the past simple is sent.",
+  "slots": {
+   "thing": [
+    "parcel",
+    "letter",
+    "card",
+    "photo"
+   ],
+   "person": [
+    "brother",
+    "aunt",
+    "cousin",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last night, the baby ______ (sleep) in the {room} with her {person}.",
+  "key": "slept",
+  "why": "sleep is irregular: the past simple is slept.",
+  "slots": {
+   "room": [
+    "bedroom",
+    "small room",
+    "living room",
+    "big room"
+   ],
+   "person": [
+    "mother",
+    "grandmother",
+    "sister",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last summer, we ______ (spend) two weeks in {place} with our {person}.",
+  "key": "spent",
+  "why": "spend is irregular: the past simple is spent.",
+  "slots": {
+   "place": [
+    "Charvak",
+    "Chimgan",
+    "Bukhara",
+    "Khiva"
+   ],
+   "person": [
+    "cousins",
+    "grandparents",
+    "friends",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "At the concert yesterday, we ______ (stand) near the {place} with our {person}.",
+  "key": "stood",
+  "why": "stand is irregular: the past simple is stood.",
+  "slots": {
+   "place": [
+    "stage",
+    "door",
+    "window",
+    "exit"
+   ],
+   "person": [
+    "friends",
+    "classmates",
+    "cousins",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last month, our {team} ______ (win) the {competition}.",
+  "key": "won",
+  "why": "win is irregular: the past simple is won.",
+  "slots": {
+   "team": [
+    "football team",
+    "class",
+    "school team",
+    "volleyball team"
+   ],
+   "competition": [
+    "cup",
+    "final",
+    "city game",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "After the exam yesterday, Sevara ______ (feel) very {state} and went to the {place}.",
+  "key": "felt",
+  "why": "feel is irregular: the past simple is felt.",
+  "slots": {
+   "state": [
+    "tired",
+    "happy",
+    "hungry",
+    "sleepy"
+   ],
+   "place": [
+    "park",
+    "café",
+    "canteen",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last year, my grandfather ______ (keep) {animals} in his {place}.",
+  "key": "kept",
+  "why": "keep is irregular: the past simple is kept.",
+  "slots": {
+   "animals": [
+    "chickens",
+    "sheep",
+    "rabbits",
+    "goats"
+   ],
+   "place": [
+    "yard",
+    "garden",
+    "village house",
+    "dacha"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last night, I ______ (hear) a loud {sound} from the {place}.",
+  "key": "heard",
+  "why": "hear is irregular: the past simple is heard.",
+  "slots": {
+   "sound": [
+    "noise",
+    "bang",
+    "song",
+    "voice"
+   ],
+   "place": [
+    "street",
+    "flat upstairs",
+    "yard",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "In class yesterday, the children ______ (draw) pictures of {thing} with {tool}.",
+  "key": "drew",
+  "why": "draw is irregular: the past simple is drew.",
+  "slots": {
+   "thing": [
+    "animals",
+    "their families",
+    "the sea",
+    "flowers"
+   ],
+   "tool": [
+    "pencils",
+    "crayons",
+    "markers",
+    "paint"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets. All the verbs are irregular.",
+  "source": "Last year, the workers ______ (build) a new {building} near our {place}.",
+  "key": "built",
+  "why": "build is irregular: the past simple is built.",
+  "slots": {
+   "building": [
+    "school",
+    "hospital",
+    "park",
+    "shop"
+   ],
+   "place": [
+    "house",
+    "street",
+    "flat",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence in the past simple.",
+  "source": "I usually go to college by {transport}.",
+  "hint": "Yesterday I ______ (go) to college by {transport} with my {person}.",
+  "key": "went",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: went.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "taxi",
+    "minibus"
+   ],
+   "person": [
+    "brother",
+    "friend",
+    "sister",
+    "classmate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence in the past simple.",
+  "source": "We usually eat {food} on Fridays.",
+  "hint": "Last Friday we ______ (eat) {food} at my {person}'s house.",
+  "key": "ate",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: ate.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "soup",
+    "fish"
+   ],
+   "person": [
+    "aunt",
+    "grandmother",
+    "uncle",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence in the past simple.",
+  "source": "My sister writes in her {thing} every evening.",
+  "hint": "Last night my sister ______ (write) in her {thing} in the {room}.",
+  "key": "wrote",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: wrote.",
+  "slots": {
+   "thing": [
+    "diary",
+    "notebook",
+    "journal",
+    "planner"
+   ],
+   "room": [
+    "kitchen",
+    "bedroom",
+    "garden",
+    "living room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence in the past simple.",
+  "source": "Aziz drinks {drink} every morning.",
+  "hint": "This morning Aziz ______ (drink) {drink} in the {place}.",
+  "key": "drank",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: drank.",
+  "slots": {
+   "drink": [
+    "green tea",
+    "black tea",
+    "coffee",
+    "milk"
+   ],
+   "place": [
+    "kitchen",
+    "café",
+    "office",
+    "car"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence in the past simple.",
+  "source": "I usually wake up at 7.",
+  "hint": "Yesterday I ______ (wake) up early because of the {sound} in the {place}.",
+  "key": "woke",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: woke.",
+  "slots": {
+   "sound": [
+    "noise",
+    "rain",
+    "music",
+    "birds"
+   ],
+   "place": [
+    "street",
+    "yard",
+    "flat upstairs",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is negative. Complete the second sentence: this person did it.",
+  "source": "I didn't see the {thing}.",
+  "hint": "My {person} ______ (see) the {thing} on Sunday.",
+  "key": "saw",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: saw.",
+  "slots": {
+   "thing": [
+    "film",
+    "match",
+    "concert",
+    "show"
+   ],
+   "person": [
+    "sister",
+    "father",
+    "cousin",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is negative. Complete the second sentence: this person did it.",
+  "source": "Ali didn't speak to the {person}.",
+  "hint": "His {who} ______ (speak) to the {person} after the lesson.",
+  "key": "spoke",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: spoke.",
+  "slots": {
+   "person": [
+    "teacher",
+    "coach",
+    "director",
+    "new student"
+   ],
+   "who": [
+    "mother",
+    "father",
+    "brother",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is negative. Complete the second sentence: this person did it.",
+  "source": "We didn't swim in the {place}.",
+  "hint": "Our {person} ______ (swim) in the {place} all afternoon.",
+  "key": "swam",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: swam.",
+  "slots": {
+   "place": [
+    "lake",
+    "river",
+    "sea",
+    "pool"
+   ],
+   "person": [
+    "cousins",
+    "friends",
+    "children",
+    "parents"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is negative. Complete the second sentence: this person did it.",
+  "source": "Lola didn't forget her {thing}.",
+  "hint": "Her brother ______ (forget) his {thing} at the {place}.",
+  "key": "forgot",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: forgot.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "bag",
+    "ticket"
+   ],
+   "place": [
+    "café",
+    "school",
+    "station",
+    "gym"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is negative. Complete the second sentence: this person did it.",
+  "source": "I didn't ride a horse in {place}.",
+  "hint": "My {person} ______ (ride) a horse in {place}.",
+  "key": "rode",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: rode.",
+  "slots": {
+   "place": [
+    "the village",
+    "Chimgan",
+    "the mountains",
+    "Zomin"
+   ],
+   "person": [
+    "brother",
+    "cousin",
+    "sister",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the past simple form of the verb in brackets.",
+  "source": "Which {thing} did you choose?",
+  "hint": "I ______ (choose) the {colour} one.",
+  "key": "chose",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: chose.",
+  "slots": {
+   "thing": [
+    "jacket",
+    "bag",
+    "phone case",
+    "bike"
+   ],
+   "colour": [
+    "blue",
+    "black",
+    "red",
+    "green"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the past simple form of the verb in brackets.",
+  "source": "What did your grandmother give you for your birthday?",
+  "hint": "She ______ (give) me a {thing} and some {food}.",
+  "key": "gave",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: gave.",
+  "slots": {
+   "thing": [
+    "book",
+    "watch",
+    "scarf",
+    "wallet"
+   ],
+   "food": [
+    "sweets",
+    "fruit",
+    "cake",
+    "chocolate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the past simple form of the verb in brackets.",
+  "source": "Who drove you to the {place}?",
+  "hint": "My {person} ______ (drive) me to the {place}.",
+  "key": "drove",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: drove.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "hospital",
+    "wedding"
+   ],
+   "person": [
+    "uncle",
+    "father",
+    "brother",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the past simple form of the verb in brackets.",
+  "source": "What time did the {event} begin?",
+  "hint": "The {event} ______ (begin) at 6, so we missed the {part}.",
+  "key": "began",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: began.",
+  "slots": {
+   "event": [
+    "film",
+    "concert",
+    "match",
+    "show"
+   ],
+   "part": [
+    "beginning",
+    "first part",
+    "start",
+    "first ten minutes"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use the past simple form of the verb in brackets.",
+  "source": "What did you do at the weekend?",
+  "hint": "I ______ (do) the {chore} and visited my {person}.",
+  "key": "did",
+  "why": "The second sentence is about the finished past, so use the irregular past simple: did.",
+  "slots": {
+   "chore": [
+    "shopping",
+    "cleaning",
+    "washing",
+    "cooking"
+   ],
+   "person": [
+    "aunt",
+    "grandmother",
+    "friend",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where you went last weekend.",
+  "requiredElement": "went",
+  "constraints": [
+   "exactly one sentence",
+   "must include last weekend",
+   "must use went"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you bought recently.",
+  "requiredElement": "bought",
+  "constraints": [
+   "exactly one sentence",
+   "must include a past time",
+   "must use bought"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you ate yesterday.",
+  "requiredElement": "ate",
+  "constraints": [
+   "exactly one sentence",
+   "must include yesterday",
+   "must use ate"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about someone you met last month.",
+  "requiredElement": "met",
+  "constraints": [
+   "exactly one sentence",
+   "must include last month",
+   "must name the person"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a present someone gave you.",
+  "requiredElement": "gave",
+  "constraints": [
+   "exactly one sentence",
+   "must use gave",
+   "must name the present"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you saw on the way to school or work.",
+  "requiredElement": "saw",
+  "constraints": [
+   "exactly one sentence",
+   "must use saw",
+   "must include a past time"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with two irregular past verbs about your morning.",
+  "requiredElement": "two irregular past forms",
+  "constraints": [
+   "exactly one sentence",
+   "must use two different irregular verbs",
+   "must include this morning"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a trip: how you went and what you did there.",
+  "requiredElement": "irregular past simple",
+  "constraints": [
+   "exactly two sentences",
+   "at least two irregular verbs",
+   "must include a past time"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe what you did last weekend. Write three or four sentences.",
+  "targetGrammar": "irregular past simple",
+  "lookFor": [
+   "went, saw, ate or bought",
+   "a past time marker",
+   "at least three irregular verbs"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a holiday you remember. Where did you go and what did you do? Write three or four sentences.",
+  "targetGrammar": "irregular past simple",
+  "lookFor": [
+   "went",
+   "took, saw or swam",
+   "a finished time"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a friend about a busy day yesterday. Write three or four sentences.",
+  "targetGrammar": "irregular past simple",
+  "lookFor": [
+   "woke, got or left",
+   "a finished time",
+   "at least three irregular verbs"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a birthday or a family celebration. Who came, what did people bring and what did you eat? Write three or four sentences.",
+  "targetGrammar": "irregular past simple",
+  "lookFor": [
+   "came",
+   "brought or gave",
+   "ate or drank"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a time you lost something and found it again. Write three or four sentences.",
+  "targetGrammar": "irregular past simple",
+  "lookFor": [
+   "lost",
+   "found",
+   "thought, saw or went"
+  ]
+ }
+]

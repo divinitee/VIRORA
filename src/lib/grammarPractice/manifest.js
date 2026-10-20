@@ -2,6 +2,62 @@
 // Pool sizes per topic and stage, counting slot expansion. Lets the node map
 // render real numbers without loading a single bank.
 export const PRACTICE_MANIFEST = {
+ "tenses.past.continuous-at-time": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.past.interrupted-action": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.past.irregular-past": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "irregular-past",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.past.simple-negative": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "simple-negative",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 296,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.present.continuous-negative": {
   "domain": "tenses",
   "branch": "present",

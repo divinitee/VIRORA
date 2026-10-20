@@ -1,0 +1,1831 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While I ______ {food} for dinner, my phone rang in the {room}.",
+  "options": [
+   "was cooking",
+   "am cooking",
+   "were cooking",
+   "cooking"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "pasta",
+    "rice"
+   ],
+   "room": [
+    "hall",
+    "bedroom",
+    "living room",
+    "other room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While Aziz ______ to the {place}, he saw his old {person}.",
+  "options": [
+   "was walking",
+   "is walking",
+   "were walking",
+   "walking"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was walking.",
+  "slots": {
+   "place": [
+    "market",
+    "bus stop",
+    "station",
+    "library"
+   ],
+   "person": [
+    "teacher",
+    "classmate",
+    "neighbour",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While we ______ {sport} in the park, it started to {weather}.",
+  "options": [
+   "were playing",
+   "are playing",
+   "was playing",
+   "playing"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: were playing.",
+  "slots": {
+   "sport": [
+    "football",
+    "volleyball",
+    "tennis",
+    "basketball"
+   ],
+   "weather": [
+    "rain",
+    "snow",
+    "get dark",
+    "get cold"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Madina ______ a {thing} in the {place} when the lights went out.",
+  "options": [
+   "was reading",
+   "is reading",
+   "were reading",
+   "reading"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was reading.",
+  "slots": {
+   "thing": [
+    "book",
+    "magazine",
+    "story",
+    "letter"
+   ],
+   "place": [
+    "library",
+    "classroom",
+    "bedroom",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children ______ around in the {place} when their {person} called them for dinner.",
+  "options": [
+   "were running",
+   "are running",
+   "was running",
+   "running"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: were running.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "park",
+    "street"
+   ],
+   "person": [
+    "mother",
+    "grandmother",
+    "father",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While my father ______ to work, he heard a strange {sound} from the {part}.",
+  "options": [
+   "was driving",
+   "is driving",
+   "were driving",
+   "driving"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was driving.",
+  "slots": {
+   "sound": [
+    "noise",
+    "sound",
+    "click",
+    "bang"
+   ],
+   "part": [
+    "engine",
+    "back",
+    "wheels",
+    "roof"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ a shower when my {person} knocked on the door with a {thing}.",
+  "options": [
+   "was having",
+   "am having",
+   "were having",
+   "having"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was having.",
+  "slots": {
+   "person": [
+    "brother",
+    "neighbour",
+    "sister",
+    "cousin"
+   ],
+   "thing": [
+    "parcel",
+    "cake",
+    "bag",
+    "box"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While the students ______ the test, the {thing} in the {room} stopped working.",
+  "options": [
+   "were writing",
+   "are writing",
+   "was writing",
+   "writing"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: were writing.",
+  "slots": {
+   "thing": [
+    "lights",
+    "heating",
+    "clock",
+    "computers"
+   ],
+   "room": [
+    "classroom",
+    "hall",
+    "exam room",
+    "library"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandmother ______ in the garden when she found an old {thing} under the {plant}.",
+  "options": [
+   "was working",
+   "is working",
+   "were working",
+   "working"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was working.",
+  "slots": {
+   "thing": [
+    "coin",
+    "key",
+    "ring",
+    "spoon"
+   ],
+   "plant": [
+    "tree",
+    "apple tree",
+    "bush",
+    "flowers"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While they ______ for the {transport}, it started to rain in {city}.",
+  "options": [
+   "were waiting",
+   "are waiting",
+   "was waiting",
+   "waiting"
+  ],
+  "key": 0,
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: were waiting.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "taxi",
+    "minibus"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Andijan",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We were having dinner when the doorbell ______ and our {person} came in with {thing}.",
+  "options": [
+   "rang",
+   "ringed",
+   "rings",
+   "has rung"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: rang.",
+  "slots": {
+   "person": [
+    "uncle",
+    "aunt",
+    "cousins",
+    "neighbour"
+   ],
+   "thing": [
+    "a cake",
+    "flowers",
+    "a big box",
+    "fruit"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Kamila was running for the {transport} when she ______ and hurt her {part}.",
+  "options": [
+   "fell",
+   "falled",
+   "falls",
+   "has fallen"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: fell.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "minibus",
+    "tram"
+   ],
+   "part": [
+    "knee",
+    "leg",
+    "hand",
+    "foot"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I was walking home when I ______ a {thing} on the ground near the {place}.",
+  "options": [
+   "found",
+   "finded",
+   "finds",
+   "has found"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: found.",
+  "slots": {
+   "thing": [
+    "phone",
+    "wallet",
+    "key",
+    "bag"
+   ],
+   "place": [
+    "park",
+    "bus stop",
+    "school",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother was doing his {subject} homework when his laptop ______ and he lost his {work}.",
+  "options": [
+   "broke",
+   "breaked",
+   "breaks",
+   "has broken"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: broke.",
+  "slots": {
+   "subject": [
+    "maths",
+    "history",
+    "English",
+    "physics"
+   ],
+   "work": [
+    "essay",
+    "project",
+    "notes",
+    "drawings"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We were watching a film when the {person} next door ______ to the door with a {thing}.",
+  "options": [
+   "came",
+   "comed",
+   "comes",
+   "has come"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: came.",
+  "slots": {
+   "person": [
+    "woman",
+    "man",
+    "boy",
+    "girl"
+   ],
+   "thing": [
+    "question",
+    "parcel",
+    "cat",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While Sardor was cooking {food}, he ______ his finger on a {thing}.",
+  "options": [
+   "cut",
+   "cutted",
+   "cuts",
+   "has cut"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: cut.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "dinner",
+    "lunch"
+   ],
+   "thing": [
+    "knife",
+    "sharp lid",
+    "broken glass",
+    "tin can"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While I was waiting at the bus stop, I ______ my old {person} from {place}.",
+  "options": [
+   "met",
+   "meeted",
+   "meets",
+   "has met"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: met.",
+  "slots": {
+   "person": [
+    "teacher",
+    "classmate",
+    "neighbour",
+    "coach"
+   ],
+   "place": [
+    "school",
+    "college",
+    "the village",
+    "my first job"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The girls were playing tennis at the {place} when it ______ to {weather}.",
+  "options": [
+   "began",
+   "beginned",
+   "begins",
+   "has begun"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: began.",
+  "slots": {
+   "place": [
+    "park",
+    "club",
+    "school",
+    "sports centre"
+   ],
+   "weather": [
+    "rain",
+    "snow",
+    "get dark",
+    "get windy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mother was shopping at the {place} when she ______ her {thing}.",
+  "options": [
+   "lost",
+   "losed",
+   "loses",
+   "has lost"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: lost.",
+  "slots": {
+   "place": [
+    "market",
+    "bazaar",
+    "mall",
+    "supermarket"
+   ],
+   "thing": [
+    "purse",
+    "phone",
+    "keys",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "While we were driving to {city}, our car ______ a big stone on the road near {place}.",
+  "options": [
+   "hit",
+   "hitted",
+   "hits",
+   "has hit"
+  ],
+  "key": 0,
+  "why": "This is the short action that interrupted the longer one, so use the past simple: hit.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "place": [
+    "Jizzakh",
+    "Gulistan",
+    "the river",
+    "a village"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "While I ______ (wash) the dishes, I broke a {thing} from my {person}'s set.",
+  "key": "was washing",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was washing.",
+  "slots": {
+   "thing": [
+    "plate",
+    "cup",
+    "glass",
+    "bowl"
+   ],
+   "person": [
+    "grandmother",
+    "mother",
+    "aunt",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "Nodir ______ (ride) his bike to {place} when it started to {weather}.",
+  "key": "was riding",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was riding.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "work",
+    "the shop"
+   ],
+   "weather": [
+    "rain",
+    "snow",
+    "get dark",
+    "get windy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "While we ______ (eat) {food} at the café, our {person} arrived.",
+  "key": "were eating",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: were eating.",
+  "slots": {
+   "food": [
+    "plov",
+    "pizza",
+    "soup",
+    "salad"
+   ],
+   "person": [
+    "friends",
+    "cousins",
+    "teacher",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "The baby ______ (sleep) in the {room} when the {thing} rang.",
+  "key": "was sleeping",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was sleeping.",
+  "slots": {
+   "room": [
+    "bedroom",
+    "next room",
+    "small room",
+    "living room"
+   ],
+   "thing": [
+    "phone",
+    "doorbell",
+    "alarm",
+    "telephone"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "While my parents ______ (watch) the {show}, the power went off in the whole {place}.",
+  "key": "were watching",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: were watching.",
+  "slots": {
+   "show": [
+    "news",
+    "match",
+    "film",
+    "concert"
+   ],
+   "place": [
+    "building",
+    "street",
+    "house",
+    "district"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "I ______ (run) in the {place} when I saw a {animal}.",
+  "key": "was running",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was running.",
+  "slots": {
+   "place": [
+    "park",
+    "forest",
+    "stadium",
+    "village"
+   ],
+   "animal": [
+    "big dog",
+    "cat",
+    "rabbit",
+    "horse"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "While Zuhra ______ (make) a cake, her {person} came home from {place}.",
+  "key": "was making",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was making.",
+  "slots": {
+   "person": [
+    "brother",
+    "grandfather",
+    "aunt",
+    "friend"
+   ],
+   "place": [
+    "work",
+    "school",
+    "the market",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "The workers ______ (build) a new {building} when they found an old {thing}.",
+  "key": "were building",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: were building.",
+  "slots": {
+   "building": [
+    "school",
+    "house",
+    "shop",
+    "road"
+   ],
+   "thing": [
+    "coin",
+    "wall",
+    "pot",
+    "well"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "While I ______ (talk) to my {person} outside the {place}, my phone battery died.",
+  "key": "was talking",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: was talking.",
+  "slots": {
+   "person": [
+    "aunt",
+    "friend",
+    "teacher",
+    "cousin"
+   ],
+   "place": [
+    "school",
+    "shop",
+    "bank",
+    "cinema"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets: the longer action.",
+  "source": "My friends ______ (swim) in the {place} when a big {thing} came.",
+  "key": "were swimming",
+  "why": "This is the longer action in progress when something else happened, so use the past continuous: were swimming.",
+  "slots": {
+   "place": [
+    "lake",
+    "river",
+    "sea",
+    "reservoir"
+   ],
+   "thing": [
+    "wave",
+    "boat",
+    "storm",
+    "wind"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "I was sleeping when the {thing} ______ (ring) in the {room}.",
+  "key": "rang",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: rang.",
+  "slots": {
+   "thing": [
+    "alarm",
+    "phone",
+    "doorbell",
+    "telephone"
+   ],
+   "room": [
+    "hall",
+    "kitchen",
+    "bedroom",
+    "flat"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "We were having dinner when my {person} ______ (come) home with a {thing}.",
+  "key": "came",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: came.",
+  "slots": {
+   "person": [
+    "father",
+    "sister",
+    "uncle",
+    "brother"
+   ],
+   "thing": [
+    "big box",
+    "new bike",
+    "cake",
+    "puppy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "Laylo was walking to school when she ______ (see) a {animal} in the {place}.",
+  "key": "saw",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: saw.",
+  "slots": {
+   "animal": [
+    "cat",
+    "dog",
+    "horse",
+    "cow"
+   ],
+   "place": [
+    "street",
+    "road",
+    "park",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "While Akmal was playing {sport}, he ______ (fall) and hurt his {part}.",
+  "key": "fell",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: fell.",
+  "slots": {
+   "sport": [
+    "football",
+    "basketball",
+    "volleyball",
+    "tennis"
+   ],
+   "part": [
+    "knee",
+    "arm",
+    "leg",
+    "back"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "While I was reading, my {person} ______ (send) me a message about the {thing}.",
+  "key": "sent",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: sent.",
+  "slots": {
+   "person": [
+    "friend",
+    "cousin",
+    "teacher",
+    "sister"
+   ],
+   "thing": [
+    "party",
+    "test",
+    "match",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "The students were writing their test when the teacher ______ (leave) the {room} to answer a {thing}.",
+  "key": "left",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: left.",
+  "slots": {
+   "room": [
+    "classroom",
+    "room",
+    "hall",
+    "lab"
+   ],
+   "thing": [
+    "call",
+    "question",
+    "phone call",
+    "message"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "My uncle was fixing the roof when he ______ (drop) his {tool} into the {place}.",
+  "key": "dropped",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: dropped.",
+  "slots": {
+   "tool": [
+    "hammer",
+    "phone",
+    "keys",
+    "bag"
+   ],
+   "place": [
+    "garden",
+    "yard",
+    "street",
+    "bushes"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "While we were waiting for the bus, a {person} ______ (give) us {thing}.",
+  "key": "gave",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: gave.",
+  "slots": {
+   "person": [
+    "woman",
+    "man",
+    "boy",
+    "girl"
+   ],
+   "thing": [
+    "a map",
+    "some water",
+    "directions",
+    "an umbrella"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "Dilshod was shopping at the {place} when he ______ (meet) his {person}.",
+  "key": "met",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: met.",
+  "slots": {
+   "place": [
+    "market",
+    "bazaar",
+    "mall",
+    "supermarket"
+   ],
+   "person": [
+    "teacher",
+    "cousin",
+    "neighbour",
+    "coach"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past simple form of the verb in brackets: the short action that interrupted.",
+  "source": "While the girls were dancing at the {event}, the music suddenly ______ (stop) and the {place} went dark.",
+  "key": "stopped",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: stopped.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "birthday party"
+   ],
+   "place": [
+    "room",
+    "hall",
+    "stage",
+    "house"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with while. Use the past continuous for the longer action and the past simple for the short one.",
+  "source": "I was cooking {food}. The phone rang in the {room}.",
+  "hint": "While I ______ (cook) {food}, the phone ______ (ring) in the {room}.",
+  "key": [
+   "was cooking",
+   "rang"
+  ],
+  "why": "The longer action in progress is past continuous (was cooking); the short action that interrupted it is past simple (rang).",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "pasta",
+    "rice"
+   ],
+   "room": [
+    "hall",
+    "bedroom",
+    "living room",
+    "other room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with while. Use the past continuous for the longer action and the past simple for the short one.",
+  "source": "Ali was riding his bike. He saw a {animal} on the {place}.",
+  "hint": "While Ali ______ (ride) his bike, he ______ (see) a {animal} on the {place}.",
+  "key": [
+   "was riding",
+   "saw"
+  ],
+  "why": "The longer action in progress is past continuous (was riding); the short action that interrupted it is past simple (saw).",
+  "slots": {
+   "animal": [
+    "dog",
+    "cat",
+    "horse",
+    "cow"
+   ],
+   "place": [
+    "road",
+    "path",
+    "bridge",
+    "street"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with while. Use the past continuous for the longer action and the past simple for the short one.",
+  "source": "We were playing {sport}. It started to {weather}.",
+  "hint": "While we ______ (play) {sport}, it ______ (start) to {weather}.",
+  "key": [
+   "were playing",
+   "started"
+  ],
+  "why": "The longer action in progress is past continuous (were playing); the short action that interrupted it is past simple (started).",
+  "slots": {
+   "sport": [
+    "football",
+    "volleyball",
+    "basketball",
+    "tennis"
+   ],
+   "weather": [
+    "rain",
+    "snow",
+    "get dark",
+    "get cold"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with while. Use the past continuous for the longer action and the past simple for the short one.",
+  "source": "My mother was shopping at the {place}. She lost her {thing}.",
+  "hint": "While my mother ______ (shop) at the {place}, she ______ (lose) her {thing}.",
+  "key": [
+   "was shopping",
+   "lost"
+  ],
+  "why": "The longer action in progress is past continuous (was shopping); the short action that interrupted it is past simple (lost).",
+  "slots": {
+   "place": [
+    "market",
+    "bazaar",
+    "mall",
+    "supermarket"
+   ],
+   "thing": [
+    "purse",
+    "phone",
+    "keys",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with while. Use the past continuous for the longer action and the past simple for the short one.",
+  "source": "The students were having a test. The {thing} went off in the {room}.",
+  "hint": "While the students ______ (have) a test, the {thing} ______ (go) off in the {room}.",
+  "key": [
+   "were having",
+   "went"
+  ],
+  "why": "The longer action in progress is past continuous (were having); the short action that interrupted it is past simple (went).",
+  "slots": {
+   "thing": [
+    "lights",
+    "fire alarm",
+    "heating",
+    "computers"
+   ],
+   "room": [
+    "classroom",
+    "hall",
+    "exam room",
+    "building"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous for the longer action.",
+  "source": "I was walking to the {place} when I met {name}.",
+  "hint": "My sisters ______ (walk) to the {place} when they met {name}.",
+  "key": "were walking",
+  "why": "The longer action in progress takes the past continuous; check the subject: were walking.",
+  "slots": {
+   "place": [
+    "market",
+    "station",
+    "park",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Bobur",
+    "Nigora"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous for the longer action.",
+  "source": "The boys were swimming in the {place} when it got {state}.",
+  "hint": "Bobur ______ (swim) in the {place} when it got {state}.",
+  "key": "was swimming",
+  "why": "The longer action in progress takes the past continuous; check the subject: was swimming.",
+  "slots": {
+   "place": [
+    "lake",
+    "river",
+    "sea",
+    "pool"
+   ],
+   "state": [
+    "cold",
+    "dark",
+    "windy",
+    "cloudy"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous for the longer action.",
+  "source": "You were sleeping when your {person} came home.",
+  "hint": "I ______ (sleep) when my {person} came home from {place}.",
+  "key": "was sleeping",
+  "why": "The longer action in progress takes the past continuous; check the subject: was sleeping.",
+  "slots": {
+   "person": [
+    "father",
+    "brother",
+    "mother",
+    "sister"
+   ],
+   "place": [
+    "work",
+    "school",
+    "the market",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous for the longer action.",
+  "source": "She was watching a {show} when the {thing} rang.",
+  "hint": "My grandparents ______ (watch) a {show} when the {thing} rang.",
+  "key": "were watching",
+  "why": "The longer action in progress takes the past continuous; check the subject: were watching.",
+  "slots": {
+   "show": [
+    "film",
+    "match",
+    "concert",
+    "cartoon"
+   ],
+   "thing": [
+    "phone",
+    "doorbell",
+    "alarm",
+    "telephone"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous for the longer action.",
+  "source": "He was talking on the phone when the {transport} arrived.",
+  "hint": "We ______ (talk) on the phone when the {transport} arrived at the {place}.",
+  "key": "were talking",
+  "why": "The longer action in progress takes the past continuous; check the subject: were talking.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "taxi",
+    "minibus"
+   ],
+   "place": [
+    "stop",
+    "station",
+    "corner",
+    "gate"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Complete the second sentence with a new short action in the past simple.",
+  "source": "I was reading in my {room} when my phone rang.",
+  "hint": "I was reading in my {room} when my {person} ______ (come) in.",
+  "key": "came",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: came.",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "bed",
+    "little room"
+   ],
+   "person": [
+    "mother",
+    "brother",
+    "sister",
+    "grandfather"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Complete the second sentence with a new short action in the past simple.",
+  "source": "We were eating {food} when the lights went out.",
+  "hint": "We were eating {food} when our {person} ______ (arrive) from {city}.",
+  "key": "arrived",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: arrived.",
+  "slots": {
+   "food": [
+    "plov",
+    "salad",
+    "soup",
+    "samsa"
+   ],
+   "person": [
+    "uncle",
+    "aunt",
+    "cousins",
+    "guests"
+   ],
+   "city": [
+    "Moscow",
+    "Bukhara",
+    "Seoul",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Complete the second sentence with a new short action in the past simple.",
+  "source": "Sara was running in the {place} when it started to rain.",
+  "hint": "Sara was running in the {place} when she ______ (fall) over a {thing}.",
+  "key": "fell",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: fell.",
+  "slots": {
+   "place": [
+    "park",
+    "forest",
+    "stadium",
+    "street"
+   ],
+   "thing": [
+    "stone",
+    "branch",
+    "bag",
+    "dog"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Complete the second sentence with a new short action in the past simple.",
+  "source": "My father was driving to {city} when the radio stopped.",
+  "hint": "My father was driving to {city} when he ______ (hear) a strange {sound}.",
+  "key": "heard",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: heard.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "sound": [
+    "noise",
+    "sound",
+    "click",
+    "bang"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Complete the second sentence with a new short action in the past simple.",
+  "source": "The children were playing in the {place} when their mother called.",
+  "hint": "The children were playing in the {place} when it ______ (begin) to {weather}.",
+  "key": "began",
+  "why": "This is the short action that interrupted the longer one, so use the past simple: began.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "garden",
+    "street"
+   ],
+   "weather": [
+    "rain",
+    "snow",
+    "get dark",
+    "get cold"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with while about something that happened while you were walking.",
+  "requiredElement": "while + was + -ing, then past simple",
+  "constraints": [
+   "exactly one sentence",
+   "must use while",
+   "must use I"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a time your phone rang at a bad moment.",
+  "requiredElement": "was + -ing when + past simple",
+  "constraints": [
+   "exactly one sentence",
+   "must use when",
+   "must include rang"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather changing while people were doing something outside.",
+  "requiredElement": "were + -ing when it started to",
+  "constraints": [
+   "exactly one sentence",
+   "must use a plural subject",
+   "must use started"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about meeting someone by chance.",
+  "requiredElement": "was + -ing when I met",
+  "constraints": [
+   "exactly one sentence",
+   "must use met",
+   "must name a place"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a small accident at home.",
+  "requiredElement": "was + -ing when + past simple",
+  "constraints": [
+   "exactly one sentence",
+   "must name what the person was doing",
+   "must name what happened"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the lights going out.",
+  "requiredElement": "past continuous + when the lights went out",
+  "constraints": [
+   "exactly one sentence",
+   "must include the lights went out",
+   "must use was or were + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence that starts with While my friends were...",
+  "requiredElement": "while + were + -ing, then past simple",
+  "constraints": [
+   "exactly one sentence",
+   "must start with While my friends were",
+   "second part in the past simple"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: what you were doing, and then what interrupted you.",
+  "requiredElement": "past continuous, then past simple",
+  "constraints": [
+   "exactly two sentences",
+   "first sentence past continuous",
+   "second sentence past simple"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a short story about a day when something surprising happened. Write three or four sentences.",
+  "targetGrammar": "past continuous for background, past simple for events",
+  "lookFor": [
+   "was or were + -ing for the scene",
+   "when or while",
+   "past simple for what happened"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a time a plan went wrong because of the weather. Write three or four sentences.",
+  "targetGrammar": "past continuous interrupted by past simple",
+  "lookFor": [
+   "what people were doing",
+   "what the weather did",
+   "when or while"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a funny moment in class or at work. Write three or four sentences.",
+  "targetGrammar": "past continuous background, past simple interruption",
+  "lookFor": [
+   "were + -ing for the class",
+   "a short event in past simple",
+   "a result"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a journey where something unexpected happened on the way. Write three or four sentences.",
+  "targetGrammar": "past continuous for the journey, past simple for the event",
+  "lookFor": [
+   "was or were + -ing",
+   "a short event",
+   "while or when"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "interrupted-action",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a time you met someone by chance. Say what you were doing, where, and what happened next. Write three or four sentences.",
+  "targetGrammar": "past continuous and past simple in a story",
+  "lookFor": [
+   "was + -ing",
+   "when I met or when I saw",
+   "what happened next"
+  ]
+ }
+]

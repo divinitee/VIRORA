@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 9 last night, I ______ a {thing} on TV with my {person}.",
+  "options": [
+   "was watching",
+   "am watching",
+   "were watching",
+   "watch"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was watching.",
+  "slots": {
+   "thing": [
+    "film",
+    "football match",
+    "cooking show",
+    "quiz show"
+   ],
+   "person": [
+    "brother",
+    "sister",
+    "parents",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 7 this morning, my mother ______ breakfast for the {who} in our {home}.",
+  "options": [
+   "was cooking",
+   "is cooking",
+   "were cooking",
+   "cooks"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was cooking.",
+  "slots": {
+   "who": [
+    "family",
+    "children",
+    "guests",
+    "twins"
+   ],
+   "home": [
+    "flat",
+    "house",
+    "dacha",
+    "village house"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At midnight, the students ______ for the {exam} in the {place}.",
+  "options": [
+   "were studying",
+   "are studying",
+   "was studying",
+   "study"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: were studying.",
+  "slots": {
+   "exam": [
+    "maths exam",
+    "history test",
+    "English exam",
+    "physics test"
+   ],
+   "place": [
+    "library",
+    "dormitory",
+    "reading room",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 3 pm yesterday, Dilnoza ______ {sport} in the {place}.",
+  "options": [
+   "was playing",
+   "is playing",
+   "were playing",
+   "plays"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was playing.",
+  "slots": {
+   "sport": [
+    "tennis",
+    "volleyball",
+    "basketball",
+    "table tennis"
+   ],
+   "place": [
+    "park",
+    "school gym",
+    "sports centre",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 8 o'clock on Saturday morning, we ______ to {city} by {transport}.",
+  "options": [
+   "were going",
+   "are going",
+   "was going",
+   "go"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: were going.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "transport": [
+    "train",
+    "bus",
+    "car",
+    "taxi"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At this time yesterday, Timur ______ in a {place} in {city}.",
+  "options": [
+   "was working",
+   "is working",
+   "were working",
+   "works"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was working.",
+  "slots": {
+   "place": [
+    "café",
+    "hotel",
+    "shop",
+    "bakery"
+   ],
+   "city": [
+    "Tashkent",
+    "Namangan",
+    "Andijan",
+    "Karshi"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 6 pm yesterday, my grandparents ______ in the park near their {home} with {name}.",
+  "options": [
+   "were walking",
+   "are walking",
+   "was walking",
+   "walk"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: were walking.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "dacha",
+    "building"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Bobur",
+    "Nigora"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 11 last night, I ______ a message to my {person} about the {thing}.",
+  "options": [
+   "was writing",
+   "am writing",
+   "were writing",
+   "write"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was writing.",
+  "slots": {
+   "person": [
+    "friend",
+    "teacher",
+    "cousin",
+    "classmate"
+   ],
+   "thing": [
+    "homework",
+    "party",
+    "match",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 10 am on Monday, our teacher ______ the {topic} to the {group}.",
+  "options": [
+   "was explaining",
+   "is explaining",
+   "were explaining",
+   "explains"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was explaining.",
+  "slots": {
+   "topic": [
+    "new grammar",
+    "homework",
+    "test rules",
+    "project"
+   ],
+   "group": [
+    "class",
+    "new students",
+    "whole group",
+    "first-year students"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 2 o'clock this afternoon, the workers ______ the {thing} outside our {building}.",
+  "options": [
+   "were repairing",
+   "are repairing",
+   "was repairing",
+   "repair"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: were repairing.",
+  "slots": {
+   "thing": [
+    "road",
+    "pavement",
+    "fence",
+    "gate"
+   ],
+   "building": [
+    "school",
+    "building",
+    "house",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 5 pm yesterday, Kamila ______ for the {transport} at the stop near the {place}.",
+  "options": [
+   "was waiting",
+   "is waiting",
+   "were waiting",
+   "waits"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was waiting.",
+  "slots": {
+   "transport": [
+    "bus",
+    "minibus",
+    "tram",
+    "school bus"
+   ],
+   "place": [
+    "market",
+    "hospital",
+    "park",
+    "bank"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 4 this morning, the baby ______, so my {person} got up and walked around the {room}.",
+  "options": [
+   "was crying",
+   "is crying",
+   "were crying",
+   "cries"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was crying.",
+  "slots": {
+   "person": [
+    "mother",
+    "father",
+    "aunt",
+    "grandmother"
+   ],
+   "room": [
+    "kitchen",
+    "flat",
+    "living room",
+    "bedroom"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 7:30 last night, my friends and I ______ a {task} together at {name}'s house.",
+  "options": [
+   "were doing",
+   "are doing",
+   "was doing",
+   "do"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: were doing.",
+  "slots": {
+   "task": [
+    "project",
+    "puzzle",
+    "maths task",
+    "science project"
+   ],
+   "name": [
+    "Sardor",
+    "Anna",
+    "Malika",
+    "Oleg"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At noon yesterday, my father ______ the car in front of the {place} with a {tool}.",
+  "options": [
+   "was washing",
+   "is washing",
+   "were washing",
+   "washes"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was washing.",
+  "slots": {
+   "place": [
+    "house",
+    "garage",
+    "building",
+    "gate"
+   ],
+   "tool": [
+    "sponge",
+    "hose",
+    "cloth",
+    "brush"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 9 this morning, it ______ heavily, so the streets of {city} were {state}.",
+  "options": [
+   "was raining",
+   "is raining",
+   "were raining",
+   "rains"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was raining.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Nukus"
+   ],
+   "state": [
+    "wet",
+    "empty",
+    "quiet",
+    "full of water"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 1 am, my neighbours ______ to loud music in their {room} on the {floor} floor.",
+  "options": [
+   "were listening",
+   "are listening",
+   "was listening",
+   "listen"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: were listening.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "flat",
+    "bedroom"
+   ],
+   "floor": [
+    "second",
+    "third",
+    "fourth",
+    "fifth"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At this time last week, I ______ on a beach in {place} with my {person}.",
+  "options": [
+   "was sitting",
+   "am sitting",
+   "were sitting",
+   "sit"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was sitting.",
+  "slots": {
+   "place": [
+    "Turkey",
+    "Egypt",
+    "Charvak",
+    "Thailand"
+   ],
+   "person": [
+    "family",
+    "cousins",
+    "parents",
+    "friends"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 8:15 yesterday morning, Javohir ______ to school on his {vehicle} through the {place}.",
+  "options": [
+   "was riding",
+   "is riding",
+   "were riding",
+   "rides"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was riding.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "scooter",
+    "new bike",
+    "brother's bike"
+   ],
+   "place": [
+    "park",
+    "old town",
+    "market",
+    "quiet streets"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 10 last night, the shop assistants ______ the {area} after a busy {day}.",
+  "options": [
+   "were cleaning",
+   "are cleaning",
+   "was cleaning",
+   "clean"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: were cleaning.",
+  "slots": {
+   "area": [
+    "floor",
+    "shelves",
+    "windows",
+    "tables"
+   ],
+   "day": [
+    "day",
+    "Saturday",
+    "sale day",
+    "holiday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At 6 this morning, my sister ______ for her {event} in the {place}.",
+  "options": [
+   "was training",
+   "is training",
+   "were training",
+   "trains"
+  ],
+  "key": 0,
+  "why": "The time is a point in the middle of the action, so use the past continuous: was training.",
+  "slots": {
+   "event": [
+    "race",
+    "marathon",
+    "match",
+    "competition"
+   ],
+   "place": [
+    "park",
+    "stadium",
+    "gym",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 8 last night, Bekzod ______ (read) a book about {topic} in his {room}.",
+  "key": "was reading",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was reading.",
+  "slots": {
+   "topic": [
+    "space",
+    "dinosaurs",
+    "history",
+    "football"
+   ],
+   "room": [
+    "room",
+    "bedroom",
+    "bed",
+    "living room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At this time yesterday, we ______ (sit) in a {place} in {city}.",
+  "key": "were sitting",
+  "why": "The time is a point in the middle of the action, so use the past continuous: were sitting.",
+  "slots": {
+   "place": [
+    "café",
+    "park",
+    "cinema",
+    "train"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 5 am, my father ______ (drive) to the {place} to meet my {person}.",
+  "key": "was driving",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was driving.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bus station",
+    "hotel"
+   ],
+   "person": [
+    "uncle",
+    "aunt",
+    "grandmother",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 3 o'clock yesterday, the children ______ (swim) in the {place} with their {person}.",
+  "key": "were swimming",
+  "why": "The time is a point in the middle of the action, so use the past continuous: were swimming.",
+  "slots": {
+   "place": [
+    "pool",
+    "lake",
+    "river",
+    "sea"
+   ],
+   "person": [
+    "coach",
+    "father",
+    "cousins",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 7 pm on Friday, I ______ (cook) {food} for my {person}'s birthday.",
+  "key": "was cooking",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "pasta",
+    "samsa"
+   ],
+   "person": [
+    "mother",
+    "brother",
+    "friend",
+    "grandfather"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At midnight, Lola ______ (talk) on the phone with her {person} in {city}.",
+  "key": "was talking",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was talking.",
+  "slots": {
+   "person": [
+    "cousin",
+    "sister",
+    "friend",
+    "aunt"
+   ],
+   "city": [
+    "Moscow",
+    "Seoul",
+    "London",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 9:30 this morning, our class ______ (take) a {test} in room {num}.",
+  "key": "was taking",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was taking.",
+  "slots": {
+   "test": [
+    "maths test",
+    "spelling test",
+    "history test",
+    "short test"
+   ],
+   "num": [
+    "12",
+    "14",
+    "21",
+    "305"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 6 last night, the farmers ______ (pick) {fruit} in the {place}.",
+  "key": "were picking",
+  "why": "The time is a point in the middle of the action, so use the past continuous: were picking.",
+  "slots": {
+   "fruit": [
+    "apples",
+    "apricots",
+    "grapes",
+    "cherries"
+   ],
+   "place": [
+    "village",
+    "garden",
+    "valley",
+    "hills"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 2 am, my computer ______ (download) a {thing} for my {person}.",
+  "key": "was downloading",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was downloading.",
+  "slots": {
+   "thing": [
+    "game",
+    "film",
+    "big file",
+    "new program"
+   ],
+   "person": [
+    "brother",
+    "sister",
+    "cousin",
+    "father"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 4 pm yesterday, Rustam and Ali ______ (fix) their {vehicle} in the {place}.",
+  "key": "were fixing",
+  "why": "The time is a point in the middle of the action, so use the past continuous: were fixing.",
+  "slots": {
+   "vehicle": [
+    "bikes",
+    "scooter",
+    "car",
+    "motorbike"
+   ],
+   "place": [
+    "garage",
+    "yard",
+    "street",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 10 o'clock on Sunday morning, I ______ (sleep) in my {room}, so I didn't hear the {sound}.",
+  "key": "was sleeping",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was sleeping.",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "bed",
+    "little room"
+   ],
+   "sound": [
+    "phone",
+    "door",
+    "doorbell",
+    "alarm"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At this time last year, my brother ______ (study) in {city} on a short {course}.",
+  "key": "was studying",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was studying.",
+  "slots": {
+   "city": [
+    "London",
+    "Seoul",
+    "Istanbul",
+    "Berlin"
+   ],
+   "course": [
+    "language course",
+    "summer course",
+    "computer course",
+    "art course"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 1 pm yesterday, the waiters ______ (serve) lunch to a big {group} from {place}.",
+  "key": "were serving",
+  "why": "The time is a point in the middle of the action, so use the past continuous: were serving.",
+  "slots": {
+   "group": [
+    "group",
+    "family",
+    "class",
+    "team"
+   ],
+   "place": [
+    "Russia",
+    "Korea",
+    "Bukhara",
+    "Kazakhstan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 7:45 this morning, Malika ______ (wait) for her {person} outside the {place}.",
+  "key": "was waiting",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was waiting.",
+  "slots": {
+   "person": [
+    "friend",
+    "sister",
+    "mother",
+    "classmate"
+   ],
+   "place": [
+    "school",
+    "metro station",
+    "shop",
+    "cinema"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 9 o'clock last night, the wind ______ (blow) hard and the {thing} in our {place} moved.",
+  "key": "was blowing",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was blowing.",
+  "slots": {
+   "thing": [
+    "trees",
+    "branches",
+    "bushes",
+    "flowers"
+   ],
+   "place": [
+    "yard",
+    "garden",
+    "street",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 11 am yesterday, we ______ (paint) the walls of the {room} {colour}.",
+  "key": "were painting",
+  "why": "The time is a point in the middle of the action, so use the past continuous: were painting.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "bedroom",
+    "hall"
+   ],
+   "colour": [
+    "white",
+    "yellow",
+    "light blue",
+    "green"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 8 pm yesterday, my uncle ______ (play) the {instrument} at a {event}.",
+  "key": "was playing",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was playing.",
+  "slots": {
+   "instrument": [
+    "piano",
+    "guitar",
+    "drums",
+    "dutar"
+   ],
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "birthday party"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At this time on Saturday evening, the girls ______ (dance) at the {place} in front of {num} people.",
+  "key": "were dancing",
+  "why": "The time is a point in the middle of the action, so use the past continuous: were dancing.",
+  "slots": {
+   "place": [
+    "school concert",
+    "dance class",
+    "club",
+    "festival"
+   ],
+   "num": [
+    "fifty",
+    "a hundred",
+    "two hundred",
+    "three hundred"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 4 am, the bakers ______ (make) {food} for the {place}.",
+  "key": "were making",
+  "why": "The time is a point in the middle of the action, so use the past continuous: were making.",
+  "slots": {
+   "food": [
+    "bread",
+    "non",
+    "samsa",
+    "buns"
+   ],
+   "place": [
+    "market",
+    "shops",
+    "cafés",
+    "hotel"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the past continuous form of the verb in brackets.",
+  "source": "At 6:30 last night, Otabek ______ (wear) his new {clothes} at the {event}.",
+  "key": "was wearing",
+  "why": "The time is a point in the middle of the action, so use the past continuous: was wearing.",
+  "slots": {
+   "clothes": [
+    "suit",
+    "shirt",
+    "jacket",
+    "shoes"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence about the same kind of action at a time in the past.",
+  "source": "I'm doing my {subject} homework now.",
+  "hint": "At 8 last night, I ______ (do) my {subject} homework at the {place}.",
+  "key": "was doing",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was doing.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "physics"
+   ],
+   "place": [
+    "kitchen table",
+    "library",
+    "desk",
+    "café"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence about the same kind of action at a time in the past.",
+  "source": "My sister is watching a {thing} now.",
+  "hint": "At 9 last night, my sister ______ (watch) a {thing} with her {person}.",
+  "key": "was watching",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was watching.",
+  "slots": {
+   "thing": [
+    "film",
+    "series",
+    "match",
+    "cartoon"
+   ],
+   "person": [
+    "friends",
+    "cousin",
+    "children",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence about the same kind of action at a time in the past.",
+  "source": "We're waiting for a {transport} now.",
+  "hint": "At 8 this morning, we ______ (wait) for a {transport} at the {place}.",
+  "key": "were waiting",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: were waiting.",
+  "slots": {
+   "transport": [
+    "taxi",
+    "bus",
+    "train",
+    "minibus"
+   ],
+   "place": [
+    "station",
+    "stop",
+    "corner",
+    "airport"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence about the same kind of action at a time in the past.",
+  "source": "The boys are playing {sport} now.",
+  "hint": "At 4 pm yesterday, the boys ______ (play) {sport} in the {place}.",
+  "key": "were playing",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: were playing.",
+  "slots": {
+   "sport": [
+    "football",
+    "basketball",
+    "volleyball",
+    "tennis"
+   ],
+   "place": [
+    "park",
+    "yard",
+    "school gym",
+    "stadium"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is about now. Complete the second sentence about the same kind of action at a time in the past.",
+  "source": "It's snowing in {city} now.",
+  "hint": "At 7 this morning, it ______ (snow) in {city} and the roads were {state}.",
+  "key": "was snowing",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was snowing.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Jizzakh",
+    "Fergana"
+   ],
+   "state": [
+    "white",
+    "icy",
+    "slippery",
+    "closed"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous.",
+  "source": "At 10 last night, I was cleaning my {room}.",
+  "hint": "At 10 last night, my brothers ______ (clean) the {room2}.",
+  "key": "were cleaning",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: were cleaning.",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "cupboard",
+    "wardrobe"
+   ],
+   "room2": [
+    "kitchen",
+    "bathroom",
+    "balcony",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous.",
+  "source": "At 6 pm, my parents were shopping at the {place}.",
+  "hint": "At 6 pm, my father ______ (shop) at the {place} with my {person}.",
+  "key": "was shopping",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was shopping.",
+  "slots": {
+   "place": [
+    "market",
+    "bazaar",
+    "supermarket",
+    "mall"
+   ],
+   "person": [
+    "uncle",
+    "brother",
+    "sister",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous.",
+  "source": "At noon, Sevara was eating {food} in the {place}.",
+  "hint": "At noon, Sevara and her friends ______ (eat) {food} in the {place}.",
+  "key": "were eating",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: were eating.",
+  "slots": {
+   "food": [
+    "plov",
+    "salad",
+    "samsa",
+    "soup"
+   ],
+   "place": [
+    "canteen",
+    "park",
+    "café",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous.",
+  "source": "At 3 am, the dog was barking in the {place}.",
+  "hint": "At 3 am, our neighbours' dogs ______ (bark) in the {place} near the {thing}.",
+  "key": "were barking",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: were barking.",
+  "slots": {
+   "place": [
+    "yard",
+    "street",
+    "garden",
+    "car park"
+   ],
+   "thing": [
+    "gate",
+    "trees",
+    "fence",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the new subject. Keep the past continuous.",
+  "source": "At this time yesterday, you were sitting on the {transport}.",
+  "hint": "At this time yesterday, I ______ (sit) on the {transport} next to my {person}.",
+  "key": "was sitting",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was sitting.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "plane",
+    "metro"
+   ],
+   "person": [
+    "aunt",
+    "friend",
+    "brother",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence about a moment in the middle of that action yesterday.",
+  "source": "I usually have lunch at 1 o'clock in the {place}.",
+  "hint": "At 1:15 yesterday, I ______ (have) lunch in the {place} with my {person}.",
+  "key": "was having",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was having.",
+  "slots": {
+   "place": [
+    "canteen",
+    "kitchen",
+    "café",
+    "park"
+   ],
+   "person": [
+    "classmates",
+    "father",
+    "friends",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence about a moment in the middle of that action yesterday.",
+  "source": "Every evening my mother walks in the {place}.",
+  "hint": "At 6:30 yesterday evening, my mother ______ (walk) in the {place} with our {person}.",
+  "key": "was walking",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was walking.",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "square",
+    "old town"
+   ],
+   "person": [
+    "neighbour",
+    "aunt",
+    "dog",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence about a moment in the middle of that action yesterday.",
+  "source": "Kamol answers emails at the {place} every morning.",
+  "hint": "At 8:30 yesterday morning, Kamol ______ (answer) emails from {who} at the {place}.",
+  "key": "was answering",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was answering.",
+  "slots": {
+   "place": [
+    "office",
+    "bank",
+    "hotel",
+    "shop"
+   ],
+   "who": [
+    "customers",
+    "students",
+    "his boss",
+    "the school"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence about a moment in the middle of that action yesterday.",
+  "source": "People buy {things} in the shop on {street} every morning.",
+  "hint": "At 9:30 this morning, people ______ (buy) {things} in the shop on {street}.",
+  "key": "were buying",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: were buying.",
+  "slots": {
+   "things": [
+    "bread",
+    "fruit",
+    "school bags",
+    "water"
+   ],
+   "street": [
+    "Navoi Street",
+    "our street",
+    "Amir Temur Street",
+    "the main street"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The first sentence is a routine. Complete the second sentence about a moment in the middle of that action yesterday.",
+  "source": "My grandfather reads the news in the {place} every morning.",
+  "hint": "At 7 this morning, my grandfather ______ (read) the news on his {device} in the {place}.",
+  "key": "was reading",
+  "why": "The time in the second sentence is a point in the middle of the action, so use the past continuous: was reading.",
+  "slots": {
+   "device": [
+    "phone",
+    "tablet",
+    "laptop",
+    "computer"
+   ],
+   "place": [
+    "garden",
+    "kitchen",
+    "yard",
+    "living room"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you were doing at 9 o'clock last night.",
+  "requiredElement": "was + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must start with At 9 o'clock last night",
+   "must use I"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what your family was doing at 7 this morning.",
+  "requiredElement": "was or were + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must include at 7 this morning",
+   "must name a family member"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what two friends were doing at this time yesterday.",
+  "requiredElement": "were + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must include at this time yesterday",
+   "must use a plural subject"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather at a time yesterday.",
+  "requiredElement": "was raining, was snowing or was shining",
+  "constraints": [
+   "exactly one sentence",
+   "must include a clock time",
+   "must use it or the sun"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what your teacher was doing at the start of yesterday's lesson.",
+  "requiredElement": "was + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must include a time",
+   "must use the past continuous"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where you were and what you were doing at midnight on New Year's Eve.",
+  "requiredElement": "was + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must include at midnight",
+   "must name a place"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what people in your street were doing at 8 o'clock this morning.",
+  "requiredElement": "were + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must include at 8 o'clock this morning",
+   "must use people or a plural noun"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: what you do at 7 pm every day, and what you were doing at 7 pm yesterday.",
+  "requiredElement": "present simple, then past continuous",
+  "constraints": [
+   "exactly two sentences",
+   "first sentence present simple",
+   "second sentence with was + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your evening yesterday. Say what you were doing at three different times. Write three or four sentences.",
+  "targetGrammar": "past continuous at specific past times",
+  "lookFor": [
+   "at + a clock time",
+   "was or were + -ing",
+   "three different actions"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend asks where everyone in your family was at 8 pm last Saturday. Answer in three or four sentences.",
+  "targetGrammar": "past continuous for actions in progress at a time",
+  "lookFor": [
+   "at 8 pm last Saturday",
+   "different family members",
+   "was or were + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe what was happening in your school or office at 10 o'clock yesterday morning. Write three or four sentences.",
+  "targetGrammar": "past continuous for scenes at a past moment",
+  "lookFor": [
+   "at 10 o'clock yesterday morning",
+   "several people doing things",
+   "were + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Think of a special day (a holiday or a wedding). What were people doing at one moment of that day? Write three or four sentences.",
+  "targetGrammar": "past continuous to describe a scene",
+  "lookFor": [
+   "a clear time",
+   "was or were + -ing",
+   "who, where and what"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "continuous-at-time",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare a normal Sunday with last Sunday: what do you usually do at noon, and what were you doing at noon last Sunday? Write three or four sentences.",
+  "targetGrammar": "present simple for routine, past continuous for a past moment",
+  "lookFor": [
+   "usually + present simple",
+   "at noon last Sunday + was + -ing",
+   "but to show the contrast"
+  ]
+ }
+]
