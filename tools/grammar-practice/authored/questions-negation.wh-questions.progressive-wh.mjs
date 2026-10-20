@@ -57,7 +57,7 @@ const BUILD = [
   [I_BE, "are", ARE, "Why ______ you laughing, {name}? Is the {show} funny?", { name: NAME, show: ["film", "video", "cartoon", "story"] }],
   [I_BE, "is", IS, "Who ______ Shahzod playing with in the {place}, {name}?", { place: ["yard", "park", "garden", "gym"], name: NAME }],
   [I_BE, "are", ARE, "What ______ your parents doing in {city} this {time}?", { city: CITY, time: ["week", "month", "summer", "weekend"] }],
-  [I_BE, "is", IS, "What ______ the dog eating, {name}? Is it your {thing}?", { name: NAME, thing: ["shoe", "sandwich", "homework", "bread"] }],
+  [I_BE, "is", IS, "What ______ the dog eating, {name}? I think it's your {thing}.", { name: NAME, thing: ["shoe", "sandwich", "homework", "bread"] }],
   [I_BE, "are", ARE, "Where ______ we sitting at the {event}, {name}?", { event: ["concert", "wedding", "match", "film"], name: NAME }],
   [I_BE, "is", IS, "Why ______ Dilshod wearing a coat in {month}, {name}?", { month: ["June", "July", "August", "May"], name: NAME }],
   [I_BE, "are", ARE, "What ______ the girls singing at the {event}, {name}?", { event: ["party", "concert", "wedding", "lesson"], name: NAME }],

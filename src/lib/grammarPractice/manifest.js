@@ -240,6 +240,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "questions-negation.wh-questions.progressive-wh": {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "questions-negation.wh-questions.wh-word-choice": {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "wh-word-choice",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 296,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "questions-negation.yes-no.be-vs-do": {
   "domain": "questions-negation",
   "branch": "yes-no",
@@ -248,6 +276,34 @@ export const PRACTICE_MANIFEST = {
   "authored": 68,
   "stages": {
    "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "questions-negation.yes-no.do-does": {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "questions-negation.yes-no.progressive-question": {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "progressive-question",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
    "build": 320,
    "transform": 240,
    "create": 8,

@@ -41,10 +41,10 @@
 40	B	nouns-articles.possession.plural-possessive	A2	1	live	Plural possessive: apostrophe after the -s
 41	B	nouns-articles.possession.possessive-s	A2	1	live	Possessive 's on a singular name
 42	B	questions-negation.yes-no.be-vs-do	A1	2	live	be-questions invert directly; no 'do' | Does + have (have is a main verb here)
-43	B	questions-negation.yes-no.do-does	A1	3	todo	Do with you in present simple questions | Does with third person singular | Auxiliary + subject + base verb order
-44	B	questions-negation.yes-no.progressive-question	A1	1	todo	Are + subject + -ing
-45	B	questions-negation.wh-questions.progressive-wh	A1	1	todo	What + are + you + doing
-46	B	questions-negation.wh-questions.wh-word-choice	A1	4	todo	Where for place | When for time | Who for a person | Why for reason
+43	B	questions-negation.yes-no.do-does	A1	3	live	Do with you in present simple questions | Does with third person singular | Auxiliary + subject + base verb order
+44	B	questions-negation.yes-no.progressive-question	A1	1	live	Are + subject + -ing
+45	B	questions-negation.wh-questions.progressive-wh	A1	1	live	What + are + you + doing
+46	B	questions-negation.wh-questions.wh-word-choice	A1	4	live	Where for place | When for time | Who for a person | Why for reason
 47	B	questions-negation.negation.dont-doesnt	A1	2	todo	don't with I | doesn't + base form (no -s on main verb)
 48	B	questions-negation.yes-no.past-did	A2	1	todo	Did for past simple questions
 49	B	questions-negation.wh-questions.how-long-perfect	A2	1	todo	have in a How long ... present perfect question

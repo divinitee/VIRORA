@@ -1,0 +1,1837 @@
+[
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you get up early on {day}, {name}?",
+  "options": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your mum cook {food} on {day}?",
+  "options": [
+   "Does",
+   "Do",
+   "Is",
+   "Are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "manti",
+    "pancakes"
+   ],
+   "day": [
+    "Sunday",
+    "Friday",
+    "Saturday",
+    "Wednesday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you go to the {place} by bus, {name}?",
+  "options": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "place": [
+    "college",
+    "gym",
+    "market",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ Akmal study {subject} at {place}?",
+  "options": [
+   "Does",
+   "Do",
+   "Is",
+   "Are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "place": [
+    "school",
+    "college",
+    "university",
+    "home"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your friends play {game} on {day}?",
+  "options": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "game": [
+    "football",
+    "chess",
+    "volleyball",
+    "basketball"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ the {transport} go to {city}?",
+  "options": [
+   "Does",
+   "Do",
+   "Is",
+   "Are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "transport": [
+    "train",
+    "bus",
+    "minibus",
+    "plane"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you and your sister share a {thing}, {name}?",
+  "options": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "thing": [
+    "room",
+    "phone",
+    "laptop",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your grandpa watch the news every {time}, {name}?",
+  "options": [
+   "Does",
+   "Do",
+   "Is",
+   "Are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "time": [
+    "day",
+    "morning",
+    "evening",
+    "night"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ they sell {item} at this {shop}?",
+  "options": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "item": [
+    "bread",
+    "juice",
+    "eggs",
+    "rice"
+   ],
+   "shop": [
+    "shop",
+    "kiosk",
+    "market",
+    "supermarket"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ it rain a lot in {city} in {season}?",
+  "options": [
+   "Does",
+   "Do",
+   "Is",
+   "Are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "season": [
+    "spring",
+    "autumn",
+    "winter",
+    "April"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your parents drink {drink} in the {time}?",
+  "options": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "key": 0,
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "milk",
+    "juice"
+   ],
+   "time": [
+    "morning",
+    "evening",
+    "afternoon",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your cat sleep on the {place}, {name}?",
+  "options": [
+   "Does",
+   "Do",
+   "Is",
+   "Are"
+  ],
+  "key": 0,
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "place": [
+    "sofa",
+    "bed",
+    "floor",
+    "chair"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Does your brother ______ {sport} on {day}?",
+  "options": [
+   "play",
+   "plays",
+   "playing",
+   "played"
+  ],
+  "key": 0,
+  "why": "After Does, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "sport": [
+    "football",
+    "tennis",
+    "volleyball",
+    "basketball"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Does Dilnoza ______ in {city}, {name}?",
+  "options": [
+   "live",
+   "lives",
+   "living",
+   "lived"
+  ],
+  "key": 0,
+  "why": "After Does, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Does your teacher ______ {lang}, {name}?",
+  "options": [
+   "speak",
+   "speaks",
+   "speaking",
+   "spoke"
+  ],
+  "key": 0,
+  "why": "After Does, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "Korean",
+    "Turkish",
+    "German"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Does the {place} ______ at nine, {name}?",
+  "options": [
+   "open",
+   "opens",
+   "opening",
+   "opened"
+  ],
+  "key": 0,
+  "why": "After Does, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "place": [
+    "shop",
+    "bank",
+    "library",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Does your dad ______ to work by {transport}, {name}?",
+  "options": [
+   "go",
+   "goes",
+   "going",
+   "went"
+  ],
+  "key": 0,
+  "why": "After Does, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "transport": [
+    "bus",
+    "car",
+    "metro",
+    "taxi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Does Bobur ______ {food} for breakfast, {name}?",
+  "options": [
+   "eat",
+   "eats",
+   "eating",
+   "ate"
+  ],
+  "key": 0,
+  "why": "After Does, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "food": [
+    "eggs",
+    "bread",
+    "porridge",
+    "fruit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Does your sister ______ English songs at {place}, {name}?",
+  "options": [
+   "sing",
+   "sings",
+   "singing",
+   "sang"
+  ],
+  "key": 0,
+  "why": "After Does, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "place": [
+    "home",
+    "school",
+    "parties",
+    "concerts"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Does the film ______ at {hour}, {name}?",
+  "options": [
+   "start",
+   "starts",
+   "starting",
+   "started"
+  ],
+  "key": 0,
+  "why": "After Does, use the base verb: no -s, no -ing, no past form.",
+  "slots": {
+   "hour": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your sister work at the {place}, {name}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "place": [
+    "bank",
+    "hospital",
+    "hotel",
+    "airport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ you need help with your {thing}, {name}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "thing": [
+    "bags",
+    "homework",
+    "project",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ Rustam sing in the school {group}, {name}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "group": [
+    "band",
+    "choir",
+    "club",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your brothers go to the {place} on {day}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "place": [
+    "gym",
+    "pool",
+    "park",
+    "stadium"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ the lesson start at {hour}, {name}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "hour": [
+    "eight",
+    "nine",
+    "ten",
+    "two"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ you know the way to the {place}, {name}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "hospital",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your uncle drive a {vehicle} in {city}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "vehicle": [
+    "taxi",
+    "bus",
+    "truck",
+    "van"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ we have {subject} on {day}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your phone take good {thing}, {name}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "thing": [
+    "photos",
+    "videos",
+    "pictures",
+    "selfies"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your neighbours have a {pet}, {name}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ Nodira like {food}, {name}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "food": [
+    "fish",
+    "rice",
+    "salad",
+    "ice cream"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ you and Sardor walk to {place} together, {name}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "work",
+    "the park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ it snow in {city} in {month}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "month": [
+    "January",
+    "December",
+    "February",
+    "March"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your cousins visit you in the {season}, {name}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "season": [
+    "summer",
+    "winter",
+    "spring",
+    "holidays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your mum make {food} for {event}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "food": [
+    "plov",
+    "cakes",
+    "samsa",
+    "salads"
+   ],
+   "event": [
+    "Navruz",
+    "birthdays",
+    "guests",
+    "weddings"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ they open the {place} at eight, {name}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "place": [
+    "shop",
+    "gym",
+    "library",
+    "pool"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your dog eat {food}, {name}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "food": [
+    "bread",
+    "meat",
+    "rice",
+    "fish"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ you listen to music on the {transport}, {name}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "plane"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ Kamila speak {lang} with her {person}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "lang": [
+    "Uzbek",
+    "Russian",
+    "English",
+    "Korean"
+   ],
+   "person": [
+    "friends",
+    "mum",
+    "teacher",
+    "cousins"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Do or Does.",
+  "source": "______ your parents watch films on {day}, {name}?",
+  "key": "Do",
+  "why": "The subject is I, you, we or they, so the question starts with Do.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "You play {sport} on {day}.",
+  "hint": "______ you ______ {sport} on {day}?",
+  "key": [
+   "Do",
+   "play"
+  ],
+  "why": "The subject is you or they, so use Do, then the base verb play.",
+  "slots": {
+   "sport": [
+    "football",
+    "tennis",
+    "chess",
+    "volleyball"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "They live near the {place}, {name}.",
+  "hint": "______ they ______ near the {place}, {name}?",
+  "key": [
+   "Do",
+   "live"
+  ],
+  "why": "The subject is you or they, so use Do, then the base verb live.",
+  "slots": {
+   "place": [
+    "river",
+    "park",
+    "bazaar",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "Your parents work in {city}, {name}.",
+  "hint": "______ your parents ______ in {city}, {name}?",
+  "key": [
+   "Do",
+   "work"
+  ],
+  "why": "The subject is you or they, so use Do, then the base verb work.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "You eat {food} for breakfast, {name}.",
+  "hint": "______ you ______ {food} for breakfast, {name}?",
+  "key": [
+   "Do",
+   "eat"
+  ],
+  "why": "The subject is you or they, so use Do, then the base verb eat.",
+  "slots": {
+   "food": [
+    "eggs",
+    "bread",
+    "porridge",
+    "fruit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "Your friends speak {lang} at school, {name}.",
+  "hint": "______ your friends ______ {lang} at school, {name}?",
+  "key": [
+   "Do",
+   "speak"
+  ],
+  "why": "The subject is you or they, so use Do, then the base verb speak.",
+  "slots": {
+   "lang": [
+    "Uzbek",
+    "Russian",
+    "English",
+    "Tajik"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "Your sister goes to the {place} on {day}.",
+  "hint": "______ your sister ______ to the {place} on {day}?",
+  "key": [
+   "Does",
+   "go"
+  ],
+  "why": "The subject is he or she, so use Does, and the verb goes back to go (no -s).",
+  "slots": {
+   "place": [
+    "gym",
+    "pool",
+    "library",
+    "market"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "Bobur watches {thing} in the {time}.",
+  "hint": "______ Bobur ______ {thing} in the {time}?",
+  "key": [
+   "Does",
+   "watch"
+  ],
+  "why": "The subject is he or she, so use Does, and the verb goes back to watch (no -s).",
+  "slots": {
+   "thing": [
+    "football",
+    "films",
+    "cartoons",
+    "the news"
+   ],
+   "time": [
+    "evening",
+    "morning",
+    "afternoon",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "Your grandma has a {thing} in {city}.",
+  "hint": "______ your grandma ______ a {thing} in {city}?",
+  "key": [
+   "Does",
+   "have"
+  ],
+  "why": "The subject is she, so use Does, and has goes back to have.",
+  "slots": {
+   "thing": [
+    "garden",
+    "flat",
+    "house",
+    "shop"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "The bus stops near the {place}, {name}.",
+  "hint": "______ the bus ______ near the {place}, {name}?",
+  "key": [
+   "Does",
+   "stop"
+  ],
+  "why": "The subject is it (the bus), so use Does, and the verb goes back to stop.",
+  "slots": {
+   "place": [
+    "school",
+    "market",
+    "park",
+    "hospital"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question. Write one word in each gap.",
+  "source": "Your teacher gives tests on {day}, {name}.",
+  "hint": "______ your teacher ______ tests on {day}, {name}?",
+  "key": [
+   "Does",
+   "give"
+  ],
+  "why": "The subject is he or she, so use Does, and the verb goes back to give (no -s).",
+  "slots": {
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write Do or Does.",
+  "source": "Do you like {food}, {name}?",
+  "hint": "______ your brother like {food}, {name}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "pizza",
+    "soup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write Do or Does.",
+  "source": "Does your sister study {subject} on {day}?",
+  "hint": "______ your sisters study {subject} on {day}?",
+  "key": "Do",
+  "why": "Sisters is plural (they), so use Do.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write Do or Does.",
+  "source": "Do they drink {drink} in the {time}?",
+  "hint": "______ Grandpa drink {drink} in the {time}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "milk",
+    "juice"
+   ],
+   "time": [
+    "morning",
+    "evening",
+    "afternoon",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write Do or Does.",
+  "source": "Does Jamshid walk to the {place}, {name}?",
+  "hint": "______ Jamshid and his friends walk to the {place}, {name}?",
+  "key": "Do",
+  "why": "Jamshid and his friends means they, so use Do.",
+  "slots": {
+   "place": [
+    "park",
+    "market",
+    "station",
+    "stadium"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write Do or Does.",
+  "source": "Do your parents cook {food} on {day}?",
+  "hint": "______ your mum cook {food} on {day}?",
+  "key": "Does",
+  "why": "The subject is he, she or it (one person or thing), so the question starts with Does.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "manti",
+    "pancakes"
+   ],
+   "day": [
+    "Sunday",
+    "Friday",
+    "Saturday",
+    "Wednesday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend about their morning. Use Do you.",
+  "requiredElement": "Do you",
+  "constraints": [
+   "exactly one question",
+   "must start with Do"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask about your friend's brother and his sport. Use Does he.",
+  "requiredElement": "Does he",
+  "constraints": [
+   "exactly one question",
+   "must start with Does",
+   "base verb after he"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask if a shop opens on Sunday. Use Does.",
+  "requiredElement": "Does",
+  "constraints": [
+   "exactly one question",
+   "must use Does",
+   "must use open"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask two friends about their weekend. Use Do you.",
+  "requiredElement": "Do you",
+  "constraints": [
+   "exactly one question",
+   "must start with Do"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask about your teacher. Use Does … speak.",
+  "requiredElement": "Does … speak",
+  "constraints": [
+   "exactly one question",
+   "must use Does",
+   "must use speak"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask if your classmates live near the school. Use Do they.",
+  "requiredElement": "Do they",
+  "constraints": [
+   "exactly one question",
+   "must start with Do"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two questions: one with Do and one with Does.",
+  "requiredElement": "Do / Does",
+  "constraints": [
+   "exactly two questions",
+   "must use Do",
+   "must use Does"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask if the bus goes to the city centre. Use Does.",
+  "requiredElement": "Does",
+  "constraints": [
+   "exactly one question",
+   "must use Does",
+   "must use go"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write four questions for a new classmate about their daily life.",
+  "targetGrammar": "Do / Does questions",
+  "lookFor": [
+   "Do you",
+   "?",
+   "every day"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You want to know about your friend's family. Write three or four questions.",
+  "targetGrammar": "Do / Does questions",
+  "lookFor": [
+   "Does your",
+   "Do your",
+   "live"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write questions for a survey about free time.",
+  "targetGrammar": "Do / Does questions",
+  "lookFor": [
+   "Do you",
+   "play",
+   "watch"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short dialogue: you ask a friend about their brother's job.",
+  "targetGrammar": "Do / Does questions",
+  "lookFor": [
+   "Does he",
+   "work",
+   "Yes, he does"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "yes-no",
+  "topic": "do-does",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write questions to ask a new teacher.",
+  "targetGrammar": "Do / Does questions",
+  "lookFor": [
+   "Do you",
+   "speak",
+   "live"
+  ]
+ }
+]

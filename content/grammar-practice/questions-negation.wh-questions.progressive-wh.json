@@ -1,0 +1,1833 @@
+[
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ you doing in the {place}, {name}?",
+  "options": [
+   "are",
+   "do",
+   "is",
+   "does"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "garden",
+    "yard",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ your brother doing now? The {thing} is very loud.",
+  "options": [
+   "is",
+   "does",
+   "are",
+   "do"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "thing": [
+    "TV",
+    "music",
+    "radio",
+    "phone"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where ______ you going, {name}? It's {weather} outside.",
+  "options": [
+   "are",
+   "do",
+   "is",
+   "does"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "weather": [
+    "cold",
+    "hot",
+    "windy",
+    "dark"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ Madina talking to on the {device}, {name}?",
+  "options": [
+   "is",
+   "does",
+   "are",
+   "do"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "computer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why ______ the children running in the {place}, {name}?",
+  "options": [
+   "are",
+   "do",
+   "is",
+   "does"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "place": [
+    "corridor",
+    "yard",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ Dad cooking for {meal}, {name}? It smells great.",
+  "options": [
+   "is",
+   "does",
+   "are",
+   "do"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "supper"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ your friends watching in the {room} now, {name}?",
+  "options": [
+   "are",
+   "do",
+   "is",
+   "does"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "room": [
+    "living room",
+    "hall",
+    "classroom",
+    "café"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where ______ the bus going now, {name}? Is it going to {city}?",
+  "options": [
+   "is",
+   "does",
+   "are",
+   "do"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ you waiting for at the {place}, {name}?",
+  "options": [
+   "are",
+   "do",
+   "is",
+   "does"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "place": [
+    "station",
+    "gate",
+    "bus stop",
+    "airport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why ______ your sister crying, {name}? Is her {thing} broken?",
+  "options": [
+   "is",
+   "does",
+   "are",
+   "do"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "thing": [
+    "phone",
+    "bike",
+    "toy",
+    "watch"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ they building in the {place} near {city}?",
+  "options": [
+   "are",
+   "do",
+   "is",
+   "does"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "place": [
+    "village",
+    "park",
+    "street",
+    "area"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ Grandma making in the kitchen, {name}? Is it {food}?",
+  "options": [
+   "is",
+   "does",
+   "are",
+   "do"
+  ],
+  "key": 0,
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "food": [
+    "plov",
+    "soup",
+    "bread",
+    "cake"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What are you ______ now, {name}? Are you at the {place}?",
+  "options": [
+   "doing",
+   "do",
+   "does",
+   "did"
+  ],
+  "key": 0,
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "gym",
+    "library",
+    "market",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where is Kamron ______ this {time}, {name}?",
+  "options": [
+   "going",
+   "go",
+   "goes",
+   "went"
+  ],
+  "key": 0,
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "time": [
+    "evening",
+    "weekend",
+    "afternoon",
+    "morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What is your mum ______ at the {place}, {name}?",
+  "options": [
+   "buying",
+   "buy",
+   "buys",
+   "bought"
+  ],
+  "key": 0,
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "place": [
+    "market",
+    "shop",
+    "bazaar",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who are you ______ to on the {device}, {name}?",
+  "options": [
+   "talking",
+   "talk",
+   "talks",
+   "talked"
+  ],
+  "key": 0,
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "computer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why are they ______ so fast, {name}? Is the {transport} here?",
+  "options": [
+   "running",
+   "run",
+   "runs",
+   "ran"
+  ],
+  "key": 0,
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "taxi",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What are the students ______ in the {place} now, {name}?",
+  "options": [
+   "writing",
+   "write",
+   "writes",
+   "wrote"
+  ],
+  "key": 0,
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "place": [
+    "classroom",
+    "library",
+    "hall",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where is your dad ______ the car, {name}? Is it in the {place}?",
+  "options": [
+   "parking",
+   "park",
+   "parks",
+   "parked"
+  ],
+  "key": 0,
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "place": [
+    "street",
+    "yard",
+    "garage",
+    "car park"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What is Nigora ______ for the {event}, {name}?",
+  "options": [
+   "wearing",
+   "wear",
+   "wears",
+   "wore"
+  ],
+  "key": 0,
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "trip"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "What ______ you reading, {name}? Is it a book about {topic}?",
+  "key": "are",
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "topic": [
+    "animals",
+    "space",
+    "history",
+    "football"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Where ______ your brother going with that {thing}, {name}?",
+  "key": "is",
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "thing": [
+    "ball",
+    "bag",
+    "box",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "What ______ I doing wrong in this {task}, {name}?",
+  "key": "am",
+  "why": "The action is happening now and the subject is I, so use am, then the -ing form.",
+  "slots": {
+   "task": [
+    "exercise",
+    "test",
+    "game",
+    "task"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Why ______ you laughing, {name}? Is the {show} funny?",
+  "key": "are",
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "show": [
+    "film",
+    "video",
+    "cartoon",
+    "story"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Who ______ Shahzod playing with in the {place}, {name}?",
+  "key": "is",
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "garden",
+    "gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "What ______ your parents doing in {city} this {time}?",
+  "key": "are",
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "time": [
+    "week",
+    "month",
+    "summer",
+    "weekend"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "What ______ the dog eating, {name}? I think it's your {thing}.",
+  "key": "is",
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "thing": [
+    "shoe",
+    "sandwich",
+    "homework",
+    "bread"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Where ______ we sitting at the {event}, {name}?",
+  "key": "are",
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "event": [
+    "concert",
+    "wedding",
+    "match",
+    "film"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "Why ______ Dilshod wearing a coat in {month}, {name}?",
+  "key": "is",
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "month": [
+    "June",
+    "July",
+    "August",
+    "May"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write am, is or are.",
+  "source": "What ______ the girls singing at the {event}, {name}?",
+  "key": "are",
+  "why": "The action is happening now and the subject is you, we or they, so use are, then the -ing form.",
+  "slots": {
+   "event": [
+    "party",
+    "concert",
+    "wedding",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "What are you ______ (do) in the {place}, {name}?",
+  "key": "doing",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "garage",
+    "garden",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "Where is Lola ______ (go) with her {person}, {name}?",
+  "key": "going",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "person": [
+    "mum",
+    "friends",
+    "sister",
+    "dad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "Who are you ______ (write) to, {name}? Is it your {person}?",
+  "key": "writing",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "person": [
+    "teacher",
+    "cousin",
+    "friend",
+    "grandma"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "Why is the baby ______ (cry) now, {name}? Is the {thing} too loud?",
+  "key": "crying",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ],
+   "thing": [
+    "TV",
+    "music",
+    "radio",
+    "phone"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "What are they ______ (eat) at the {place}, {name}?",
+  "key": "eating",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "place": [
+    "café",
+    "canteen",
+    "party",
+    "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "What is your sister ______ (make) for {meal}, {name}?",
+  "key": "making",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "supper"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "Where are you ______ (sit) on the {transport}, {name}?",
+  "key": "sitting",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "plane",
+    "metro"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "Why are your friends ______ (stand) at the {place}, {name}?",
+  "key": "standing",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "place": [
+    "door",
+    "gate",
+    "window",
+    "bus stop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "What is Javohir ______ (study) at the {place}, {name}?",
+  "key": "studying",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "place": [
+    "university",
+    "college",
+    "institute",
+    "academy"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the -ing form of the verb in brackets.",
+  "source": "Who is Grandpa ______ (talk) to in the {place}, {name}?",
+  "key": "talking",
+  "why": "After the question word + am/is/are + subject, use the -ing form.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "street",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with What. Write one word in each gap.",
+  "source": "You are watching a film in the {room}, {name}.",
+  "hint": "What ______ you ______ in the {room}, {name}?",
+  "key": [
+   "are",
+   "watching"
+  ],
+  "why": "Put are after the question word and before the subject, then use watching.",
+  "slots": {
+   "room": [
+    "living room",
+    "bedroom",
+    "kitchen",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with What. Write one word in each gap.",
+  "source": "Your brother is cooking plov in the {place}, {name}.",
+  "hint": "What ______ your brother ______ in the {place}, {name}?",
+  "key": [
+   "is",
+   "cooking"
+  ],
+  "why": "Put is after the question word and before the subject, then use cooking.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "yard",
+    "garden",
+    "village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with What. Write one word in each gap.",
+  "source": "They are building a house in {city}, {name}.",
+  "hint": "What ______ they ______ in {city}, {name}?",
+  "key": [
+   "are",
+   "building"
+  ],
+  "why": "Put are after the question word and before the subject, then use building.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with What. Write one word in each gap.",
+  "source": "Shirin is reading a book in the {place}, {name}.",
+  "hint": "What ______ Shirin ______ in the {place}, {name}?",
+  "key": [
+   "is",
+   "reading"
+  ],
+  "why": "Put is after the question word and before the subject, then use reading.",
+  "slots": {
+   "place": [
+    "library",
+    "garden",
+    "park",
+    "café"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with What. Write one word in each gap.",
+  "source": "The students are writing a test in {subject}, {name}.",
+  "hint": "What ______ the students ______ in {subject}, {name}?",
+  "key": [
+   "are",
+   "writing"
+  ],
+  "why": "Put are after the question word and before the subject, then use writing.",
+  "slots": {
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "science"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word. Write one word in each gap.",
+  "source": "Sardor is going to the market with his {person}, {name}.",
+  "hint": "Where ______ Sardor ______ with his {person}, {name}?",
+  "key": [
+   "is",
+   "going"
+  ],
+  "why": "Put is after the question word and before the subject, then use going.",
+  "slots": {
+   "person": [
+    "mum",
+    "dad",
+    "brother",
+    "friends"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word. Write one word in each gap.",
+  "source": "You are waiting for your friend at the {place}, {name}.",
+  "hint": "Who ______ you ______ for at the {place}, {name}?",
+  "key": [
+   "are",
+   "waiting"
+  ],
+  "why": "Put are after the question word and before the subject, then use waiting.",
+  "slots": {
+   "place": [
+    "station",
+    "gate",
+    "bus stop",
+    "airport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word. Write one word in each gap.",
+  "source": "Your parents are staying at a hotel in {city}, {name}.",
+  "hint": "Where ______ your parents ______ in {city}, {name}?",
+  "key": [
+   "are",
+   "staying"
+  ],
+  "why": "Put are after the question word and before the subject, then use staying.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word. Write one word in each gap.",
+  "source": "Nodir is talking to his coach at the {place}, {name}.",
+  "hint": "Who ______ Nodir ______ to at the {place}, {name}?",
+  "key": [
+   "is",
+   "talking"
+  ],
+  "why": "Put is after the question word and before the subject, then use talking.",
+  "slots": {
+   "place": [
+    "stadium",
+    "gym",
+    "pool",
+    "club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word. Write one word in each gap.",
+  "source": "Dad is running to the {transport} because he is late, {name}.",
+  "hint": "Why ______ Dad ______ to the {transport}, {name}?",
+  "key": [
+   "is",
+   "running"
+  ],
+  "why": "Put is after the question word and before the subject, then use running.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "taxi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write am, is or are.",
+  "source": "What are you doing in the {place}, {name}?",
+  "hint": "What ______ your sister doing in the {place}, {name}?",
+  "key": "is",
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "place": [
+    "garden",
+    "garage",
+    "kitchen",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write am, is or are.",
+  "source": "Where is your friend going this {time}, {name}?",
+  "hint": "Where ______ your friends going this {time}, {name}?",
+  "key": "are",
+  "why": "Friends is plural (they), so use are.",
+  "slots": {
+   "time": [
+    "evening",
+    "weekend",
+    "afternoon",
+    "summer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write am, is or are.",
+  "source": "Who is Bekzod meeting at the {place}, {name}?",
+  "hint": "Who ______ you meeting at the {place}, {name}?",
+  "key": "are",
+  "why": "The subject is you, so use are.",
+  "slots": {
+   "place": [
+    "station",
+    "café",
+    "airport",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write am, is or are.",
+  "source": "Why are they wearing coats in {month}, {name}?",
+  "hint": "Why ______ Zafar wearing a coat in {month}, {name}?",
+  "key": "is",
+  "why": "The action is happening now and the subject is he, she or it, so use is, then the -ing form.",
+  "slots": {
+   "month": [
+    "June",
+    "July",
+    "August",
+    "May"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question about the new person. Write am, is or are.",
+  "source": "What is she cooking for {meal}, {name}?",
+  "hint": "What ______ your grandparents cooking for {meal}, {name}?",
+  "key": "are",
+  "why": "Grandparents is plural (they), so use are.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "supper"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend is on the phone. Ask what they are doing now.",
+  "requiredElement": "What are you doing",
+  "constraints": [
+   "exactly one question",
+   "must use What are you doing"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask where your brother is going.",
+  "requiredElement": "Where is … -ing",
+  "constraints": [
+   "exactly one question",
+   "must start with Where",
+   "must use -ing"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask who your sister is talking to.",
+  "requiredElement": "Who is … -ing",
+  "constraints": [
+   "exactly one question",
+   "must start with Who",
+   "must use -ing"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask why the children are laughing.",
+  "requiredElement": "Why are … -ing",
+  "constraints": [
+   "exactly one question",
+   "must start with Why",
+   "must use -ing"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask what your mum is cooking.",
+  "requiredElement": "What is … -ing",
+  "constraints": [
+   "exactly one question",
+   "must start with What",
+   "must use -ing"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask what your friends are watching.",
+  "requiredElement": "What are … -ing",
+  "constraints": [
+   "exactly one question",
+   "must start with What",
+   "must use are"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two questions about people in a park now: one with is and one with are.",
+  "requiredElement": "wh + is/are + -ing",
+  "constraints": [
+   "exactly two questions",
+   "must use is",
+   "must use are"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask where you are sitting at a concert. Use am I.",
+  "requiredElement": "Where am I … -ing",
+  "constraints": [
+   "exactly one question",
+   "must use am",
+   "must use -ing"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You call a friend. Write four questions about what they are doing now.",
+  "targetGrammar": "wh + am/is/are + -ing",
+  "lookFor": [
+   "What are you doing",
+   "Where",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You hear a noise in the next room. Write questions to ask your family.",
+  "targetGrammar": "wh + am/is/are + -ing",
+  "lookFor": [
+   "What is",
+   "Who is",
+   "Why"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short phone dialogue with your mum. She is at the market.",
+  "targetGrammar": "wh + am/is/are + -ing",
+  "lookFor": [
+   "What are you buying",
+   "Where",
+   "now"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Look at a busy street. Write three or four questions about the people.",
+  "targetGrammar": "wh + am/is/are + -ing",
+  "lookFor": [
+   "Where is",
+   "What are",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "wh-questions",
+  "topic": "progressive-wh",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend is at a wedding. Write questions about it.",
+  "targetGrammar": "wh + am/is/are + -ing",
+  "lookFor": [
+   "What are they",
+   "Who is",
+   "wearing"
+  ]
+ }
+]
