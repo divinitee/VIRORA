@@ -136,7 +136,6 @@ export default function Login() {
                   id="email"
                   type="email"
                   autoComplete="email"
-                  autoFocus
                   placeholder={t("login.emailPh")}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
