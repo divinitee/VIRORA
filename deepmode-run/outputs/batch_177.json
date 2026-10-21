@@ -50,6 +50,14 @@
     "ant": []
    },
    {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "evaluate",
+    "definition": "to study something carefully and decide how good or useful it is",
+    "example": "Teachers evaluate each student's speaking at the end of the course.",
+    "note": "Belongs to value = judging quality (tests, work, ideas), not being worth a lot of money."
+   },
+   {
     "slot": "adjective",
     "status": "existing",
     "form": "valuable",
@@ -114,7 +122,7 @@
    "text": "My grandmother's old carpet from Bukhara is very valuable. An expert came to do a valuation, but we will never sell it. We value it because she made it by hand.",
    "uses": ["valuable", "valuation", "value"]
   },
-  "reviewer_note": "Trap: invaluable is a false friend (in- does not mean 'not'); kept as an existing extra with a note and no in- affix. Valuables (plural noun) placed in People & things."
+  "reviewer_note": "Trap: invaluable is a false friend (in- does not mean 'not'); kept as an existing extra with a note and no in- affix. Valuables (plural noun) placed in People & things. evaluate shown as other_meaning (judging quality)."
  },
  {
   "headword": "vast",
@@ -332,6 +340,17 @@
     "ant": []
    },
    {
+    "slot": "noun",
+    "status": "existing",
+    "form": "vet",
+    "relation": "derivational",
+    "definition": "the short, everyday word for an animal doctor",
+    "example": "We took our dog to the vet on Saturday.",
+    "note": "Short form. Much more common than the long word in British English.",
+    "syn": [],
+    "ant": []
+   },
+   {
     "slot": "verb",
     "status": "other_meaning",
     "form": "vet",
@@ -355,16 +374,7 @@
     "note": "There is no adverb made from veterinarian."
    }
   ],
-  "people": [
-   {
-    "form": "vet",
-    "kind": "job",
-    "status": "existing",
-    "definition": "the short, everyday word for an animal doctor",
-    "example": "We took our dog to the vet on Saturday.",
-    "note": "Much more common than the long word in British English."
-   }
-  ],
+  "people": [],
   "affixes": [
    {"affix": "-ian", "in_form": "veterinarian", "meaning_key": "-ian", "also": ["librarian", "musician", "historian"]}
   ],
@@ -372,7 +382,7 @@
    "text": "Our dog was sick, so we took him to the vet near Chorsu Bazaar. The veterinarian said he only needed rest. She works in a big veterinary clinic.",
    "uses": ["vet", "veterinarian", "veterinary"]
   },
-  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); vet goes in People & things. Verb vet (check carefully) is other_meaning."
+  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); the short form vet is a noun extra (not repeated in People & things). Verb vet (check carefully) is other_meaning."
  },
  {
   "headword": "via",
@@ -459,7 +469,7 @@
    {
     "slot": "adjective",
     "status": "no_form",
-    "note": "There is no common adjective; viewable is rare."
+    "note": "There is no common adjective made from viewer in this meaning."
    },
    {
     "slot": "adverb",
@@ -475,7 +485,7 @@
    "text": "Millions of viewers in Uzbekistan watched the football match last night. Many young people viewed it online, not on TV. Evening viewing is very popular in our family.",
    "uses": ["viewers", "viewed", "viewing"]
   },
-  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6). Noun view (scene/opinion) is other_meaning; viewpoint is a compound and left out."
+  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6). Noun view (scene/opinion) is other_meaning; viewpoint is a compound and left out. Rare viewable not shown."
  },
  {
   "headword": "violence",
@@ -665,6 +675,7 @@
     "relation": "derivational",
     "definition": "to offer to do a job or help without being paid",
     "example": "My sister volunteers at a children's hospital every Saturday.",
+    "note": "The same word is also a noun for the person: 'She is a volunteer.'",
     "syn": [
      {"to": "offer", "relation": "synonym", "strength": 0.8, "note": "Easy word: to say you will do something."},
      {"to": "help out", "relation": "related", "strength": 0.6, "note": "Easy phrasal verb: to help, often for a short time."}
@@ -707,15 +718,7 @@
     ]
    }
   ],
-  "people": [
-   {
-    "form": "volunteer",
-    "kind": "person",
-    "status": "existing",
-    "definition": "a person who offers to work without being paid",
-    "example": "The volunteers cleaned the park in one day."
-   }
-  ],
+  "people": [],
   "affixes": [
    {"affix": "-ing", "in_form": "volunteering", "meaning_key": "-ing", "also": ["swimming", "shopping", "reading"]},
    {"affix": "-ly", "in_form": "voluntarily", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
@@ -724,6 +727,6 @@
    "text": "My sister enjoys volunteering at a children's hospital in Tashkent. She volunteers every Saturday. All the work there is voluntary, so nobody gets paid.",
    "uses": ["volunteering", "volunteers", "voluntary"]
   },
-  "reviewer_note": "volunteer is both the verb (forms) and the person noun (People & things); volunteer noun placed in people per rule 8, not repeated in the noun slot."
+  "reviewer_note": "volunteer is both the verb and the person noun; it is shown once (verb slot, with a note about the person noun) because the gate does not allow the same word twice. Reviewer may prefer it in People & things."
  }
 ]

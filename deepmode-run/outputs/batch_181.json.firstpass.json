@@ -1,0 +1,303 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "arc",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: arcuate"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "arcs"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "arced",
+       "arcked"
+      ],
+      "VBN": [
+       "arced",
+       "arcked"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the shape sense; arc (verb) is a conversion. The electric-arc meaning and the word arch are left out."
+  },
+  {
+   "headword": "architectural",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "people 'architect': family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "architecturally: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "architectures",
+       "architecture"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Verb slot no_form: 'architect' as a verb is only computing jargon, not in learner dictionaries."
+  },
+  {
+   "headword": "aroma",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: aromatise, aromatize"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "aromatic: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "aromas"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No affix claimed on aromatic: removing -ic leaves no real word. Aromatherapy is a compound and is left out."
+  },
+  {
+   "headword": "assumption",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "assumptions",
+       "assumption"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "assumed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No affix claimed: removing -tion from assumption leaves no real word. assumed (adj) kept as other_meaning (false name)."
+  },
+  {
+   "headword": "asteroid",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: asteroidal"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: asteroidal. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "asteroid: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "asteroids"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-form family; -oid is not in the affix table, so no affix is claimed."
+  },
+  {
+   "headword": "attentive",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [
+    {
+     "cat": "schema",
+     "msg": "'attendant' is a compound (attend + ant): compounds are left out for now (rule 7), remove it"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: attic"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "attentions",
+       "attention"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "attended"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "attend kept as existing only in the formal 'attend to' sense; attendance, attendant and attendee are other_meaning (go to / serve). Opposites inattentive and inattention are in ant lists."
+  },
+  {
+   "headword": "audible",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: audience"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "noun 'audibility' is rare (zipf 1.6)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "audibility: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "audibility"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "audience, auditorium and audition share the Latin root but are not made from audible, so they are not forms or people."
+  },
+  {
+   "headword": "authoritative",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "adjective 'authoritarian' (other meaning): family link not confirmed by the dictionary or a suffix rule"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "authorities",
+       "authority"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Anchored to the confident/in-charge sense; the 'reliable source' sense (an authoritative book) is not used. authorize and authoritarian are other_meaning; author is not made from this family."
+  },
+  {
+   "headword": "autograph",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "autographs"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "autographed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "auto- and -graph are not in the affix table, so no affix is claimed."
+  },
+  {
+   "headword": "avail",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: availability"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "avail"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "availed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "CORPUS: definition is a verb but the example uses the noun ('of no avail'); map anchored to the verb, noun included as conversion. available kept as other_meaning."
+  }
+ ]
+}
