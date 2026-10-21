@@ -19,7 +19,9 @@ import { secrets } from 'base44:runtime';
 //   DODO_PRODUCT_LEARNER_YEARLY   — optional
 //   DODO_PRODUCT_VIP_YEARLY       — optional
 //   DODO_MODE                     — "test" (default) or "live"
-//   APP_BASE_URL                  — optional; where to return after payment
+//
+// The return URL and checkout hosts are public, non-secret config, so they
+// live in code (APP_BASE_URL / CHECKOUT_HOSTS below), not in Secrets.
 
 const BASE_URLS = {
   test: "https://test.dodopayments.com",
@@ -28,8 +30,7 @@ const BASE_URLS = {
 
 // Hosted checkout links. The live host is documented; the test host is a
 // best guess and is NOT confirmed in Dodo's docs — open any product's
-// "Payment Link" panel in test mode, and if the domain differs, set the
-// DODO_CHECKOUT_HOST secret to override this.
+// "Payment Link" panel in test mode, and if the domain differs, edit it here.
 const CHECKOUT_HOSTS = {
   test: "https://test.checkout.dodopayments.com",
   live: "https://checkout.dodopayments.com",
@@ -54,7 +55,7 @@ function staticPaymentLink(
   appUrl: string,
   mode: "test" | "live",
 ): string {
-  const host = secrets.get("DODO_CHECKOUT_HOST") || CHECKOUT_HOSTS[mode];
+  const host = CHECKOUT_HOSTS[mode];
   const q = new URLSearchParams();
   q.set("quantity", "1");
   q.set("redirect_url", `${appUrl}/payment-complete`);
@@ -66,6 +67,9 @@ function staticPaymentLink(
   }
   return `${host.replace(/\/$/, "")}/buy/${encodeURIComponent(productId)}?${q.toString()}`;
 }
+
+// Where Dodo sends the buyer back after paying. Public config, not a secret.
+const APP_BASE_URL = "https://virora.base44.app";
 
 const productSecretFor = (planId: string, cycle: string) => {
   const tier = planId === "vip" ? "VIP" : "LEARNER";
@@ -111,7 +115,7 @@ Deno.serve(async (req) => {
     }
 
     const mode = (secrets.get("DODO_MODE") || "test") === "live" ? "live" : "test";
-    const appUrl = secrets.get("APP_BASE_URL") || "https://virora.base44.app";
+    const appUrl = APP_BASE_URL;
 
     // The student's existing subscription row, so the webhook can match this
     // purchase back to the right teacher for commission.
