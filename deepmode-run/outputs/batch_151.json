@@ -1,0 +1,511 @@
+[
+ {
+  "headword": "lawn",
+  "word_id": "6a6ef9b2a601556148092705",
+  "word_ids": ["6a6ef9b2a601556148092705"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Garden",
+  "sense_pos": "noun",
+  "corpus_definition": "An area of short green grass in a garden.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "lawn",
+    "relation": "base",
+    "definition": "an area of short green grass around a house or in a park",
+    "example": "My father cuts the lawn every Saturday morning.",
+    "syn": [
+     {"to": "grass", "relation": "related", "strength": 0.6, "note": "Grass is the plant itself; a lawn is an area of short grass that people look after."},
+     {"to": "turf", "relation": "related", "strength": 0.6, "note": "Turf is grass with its earth, often used for sports fields or sold in pieces."},
+     {"to": "yard", "relation": "related", "strength": 0.4, "note": "In American English a yard is the land around a house; it may have a lawn in it."}
+    ],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form", "note": "There is no verb made from lawn. People say 'mow the lawn' or 'cut the grass'."},
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Behind our house in Fergana there is a small lawn with two apple trees. In summer we put a carpet on the lawn and drink tea in the shade.",
+   "uses": ["lawn", "lawn"]
+  },
+  "reviewer_note": "Only one family form exists; compounds like lawnmower are left out for the Compounds branch."
+ },
+ {
+  "headword": "leap",
+  "word_id": "6a6ef9b2a6015561480926c7",
+  "word_ids": ["6a6ef9b2a6015561480926c7"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Jump",
+  "sense_pos": "verb",
+  "corpus_definition": "To jump a long way or high into the air.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "leap",
+    "relation": "conversion",
+    "definition": "a long or high jump",
+    "example": "With one leap, the cat was on the roof.",
+    "note": "Also used for a sudden big change: 'a leap in prices'.",
+    "syn": [
+     {"to": "jump", "relation": "synonym", "strength": 0.95, "note": "Everyday word with the same meaning."},
+     {"to": "bound", "relation": "synonym", "strength": 0.8, "note": "A long jump, often one of many while running."},
+     {"to": "hop", "relation": "related", "strength": 0.4, "note": "A small, short jump, often on one foot."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "leap",
+    "relation": "base",
+    "definition": "to jump a long way or very high",
+    "example": "Watch the dog leap over the fence!",
+    "note": "Past form: leapt (more British) or leaped (more American).",
+    "syn": [
+     {"to": "jump", "relation": "synonym", "strength": 0.95, "note": "Everyday word; leap usually means a bigger, stronger jump."},
+     {"to": "spring", "relation": "synonym", "strength": 0.8, "note": "Jump quickly and suddenly."},
+     {"to": "bound", "relation": "synonym", "strength": 0.8, "note": "Move forward with long jumps."},
+     {"to": "hop", "relation": "related", "strength": 0.4, "note": "Make a small, short jump."}
+    ],
+    "ant": []
+   },
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "The old cat leapt onto the garden wall. It was a high leap, and all the children clapped.",
+   "uses": ["leapt", "leap"]
+  },
+  "reviewer_note": "Noun is a zero conversion of the verb; compounds leapfrog and leap year left out."
+ },
+ {
+  "headword": "leash",
+  "word_id": "6a6ef83f0f1e82a5a0736891",
+  "word_ids": ["6a6ef83f0f1e82a5a0736891"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Dog",
+  "sense_pos": "noun",
+  "corpus_definition": "A long rope used to control a dog while walking.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "leash",
+    "relation": "base",
+    "definition": "a long piece of rope or leather for holding a dog",
+    "example": "Always keep your dog on a leash in the city.",
+    "note": "Leash is more American; in British English people usually say 'lead'.",
+    "syn": [
+     {"to": "lead", "relation": "synonym", "strength": 0.95, "note": "British English word for the same thing."},
+     {"to": "strap", "relation": "related", "strength": 0.4, "note": "Any narrow piece of leather or cloth; a leash is one kind."},
+     {"to": "rope", "relation": "related", "strength": 0.4, "note": "A rope is any thick string; a leash is made for dogs."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "leash",
+    "relation": "conversion",
+    "definition": "to tie a dog to a rope or strap so it cannot run away",
+    "example": "Please leash your dog before you enter the park.",
+    "syn": [
+     {"to": "tie", "relation": "related", "strength": 0.6, "note": "Tie is general; leash is only for animals, mostly dogs."}
+    ],
+    "ant": [
+     {"to": "release", "relation": "antonym", "note": "Let an animal go free."}
+    ]
+   },
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "In Tashkent parks, dog owners must keep their pets on a leash. Madina always leashes her puppy before they cross the busy road.",
+   "uses": ["leash", "leashes"]
+  },
+  "reviewer_note": "American leash vs British lead noted. Unleash (mostly 'unleash anger/power') not shown as a form."
+ },
+ {
+  "headword": "lecture",
+  "word_id": "6a6ef83f0f1e82a5a07367c8",
+  "word_ids": ["6a6ef83f0f1e82a5a07367c8"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "University",
+  "sense_pos": "noun",
+  "corpus_definition": "A formal talk given to a group of students.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "lecture",
+    "relation": "base",
+    "definition": "a formal talk about a subject to a group of students",
+    "example": "Our first lecture starts at nine o'clock.",
+    "syn": [
+     {"to": "talk", "relation": "synonym", "strength": 0.8, "note": "Easier and less formal; a talk can be for anyone, not only students."},
+     {"to": "speech", "relation": "related", "strength": 0.6, "note": "A speech is a formal talk at an event, not usually to teach."},
+     {"to": "presentation", "relation": "related", "strength": 0.6, "note": "A talk that shows information, often with slides."},
+     {"to": "lesson", "relation": "related", "strength": 0.4, "note": "A lesson is a class, often at school, with more activity than listening."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "lecture",
+    "relation": "conversion",
+    "definition": "to give formal talks to students, usually at a university",
+    "example": "She lectures in economics at a university in Samarkand.",
+    "note": "It can also mean to tell someone angrily how to behave: 'Stop lecturing me!'",
+    "syn": [
+     {"to": "teach", "relation": "related", "strength": 0.6, "note": "Teach is general; lecture means teaching by talking to a large group."},
+     {"to": "speak", "relation": "related", "strength": 0.4, "note": "General word for talking to people."}
+    ],
+    "ant": []
+   },
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {
+    "form": "lecturer",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person who teaches at a university or college",
+    "example": "My brother is a lecturer at Tashkent State University."
+   }
+  ],
+  "affixes": [
+   {"affix": "-er", "in_form": "lecturer", "meaning_key": "-er", "also": ["teacher", "writer", "driver"]}
+  ],
+  "context": {
+   "text": "Dilnoza lectures on history at a university in Bukhara. Every lecture is full, because students love her stories about the Silk Road.",
+   "uses": ["lectures", "lecture"]
+  },
+  "reviewer_note": "Verb also has a 'tell someone off' meaning; kept in a note on the conversion entry."
+ },
+ {
+  "headword": "liberty",
+  "word_id": "6a6ef9b2a601556148092676",
+  "word_ids": ["6a6ef9b2a601556148092676"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Freedom",
+  "sense_pos": "noun",
+  "corpus_definition": "The power to act or speak without being restricted.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "liberty",
+    "relation": "base",
+    "definition": "the freedom to live, act and speak as you want",
+    "example": "Every person has the right to liberty.",
+    "register": "formal",
+    "note": "'Take the liberty of doing something' = do it without asking first.",
+    "syn": [
+     {"to": "freedom", "relation": "synonym", "strength": 0.95, "note": "Everyday word with the same meaning; liberty is more formal."},
+     {"to": "independence", "relation": "related", "strength": 0.6, "note": "Freedom from control by another person or country."},
+     {"to": "rights", "relation": "related", "strength": 0.4, "note": "Things the law says you are allowed to do or have."}
+    ],
+    "ant": [
+     {"to": "slavery", "relation": "antonym", "note": "Being owned by another person, with no freedom at all."},
+     {"to": "captivity", "relation": "antonym", "note": "Being kept in a prison or a cage."}
+    ]
+   },
+   {"slot": "verb", "status": "no_form", "not_family": ["liberate"], "note": "Liberate (to set free) comes from the same old Latin root, but it is not made from liberty."},
+   {"slot": "adjective", "status": "no_form", "not_family": ["liberal"], "note": "Liberal comes from the same old Latin root, but it is not made from liberty."},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Many people in history fought for liberty. Today we usually say freedom, but you still hear about liberty in law and in important speeches.",
+   "uses": ["liberty", "liberty"]
+  },
+  "reviewer_note": "liberate/liberal share the Latin root but are not derived from liberty: listed as not_family."
+ },
+ {
+  "headword": "lid",
+  "word_id": "6a6ef83f0f1e82a5a073665d",
+  "word_ids": ["6a6ef83f0f1e82a5a073665d"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Cover",
+  "sense_pos": "noun",
+  "corpus_definition": "A cover for a container.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "lid",
+    "relation": "base",
+    "definition": "a cover on the top of a box, pot or jar",
+    "example": "Put the lid on the pot so the soup stays hot.",
+    "syn": [
+     {"to": "cover", "relation": "synonym", "strength": 0.8, "note": "General word for anything that goes over something."},
+     {"to": "top", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word: 'Where's the top of this jar?'"},
+     {"to": "cap", "relation": "related", "strength": 0.6, "note": "A small lid for a bottle or a pen."}
+    ],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Grandma lifted the lid of the big pot, and the smell of plov filled the kitchen. Then she put the lid back to keep it warm.",
+   "uses": ["lid", "lid"]
+  },
+  "reviewer_note": "Only one family form; compound eyelid left out for the Compounds branch."
+ },
+ {
+  "headword": "lifestyle",
+  "word_id": "6a4288ad6941e70ad6a00e7c",
+  "word_ids": ["6a4288ad6941e70ad6a00e7c"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Living",
+  "sense_pos": "noun",
+  "corpus_definition": "The way a person lives their daily life.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "lifestyle",
+    "relation": "base",
+    "definition": "the way a person lives, including their work, food and free time",
+    "example": "Moving to the city changed his whole lifestyle.",
+    "syn": [
+     {"to": "way of life", "relation": "synonym", "strength": 0.95, "note": "Phrase with the same meaning; also used for a whole group or country."},
+     {"to": "habits", "relation": "related", "strength": 0.4, "note": "Things you do often; your habits are part of your lifestyle."},
+     {"to": "routine", "relation": "related", "strength": 0.4, "note": "The things you do every day in the same order."}
+    ],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "My uncle had an unhealthy lifestyle with fast food and no sport. Now he walks every evening, and his new lifestyle makes him feel younger.",
+   "uses": ["lifestyle", "lifestyle"]
+  },
+  "reviewer_note": "Headword is itself a compound (life + style); no other family forms exist."
+ },
+ {
+  "headword": "lining",
+  "word_id": "6a6ef83f0f1e82a5a073669d",
+  "word_ids": ["6a6ef83f0f1e82a5a073669d"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Clothes",
+  "sense_pos": "noun",
+  "corpus_definition": "A layer of material used to cover the inside of clothes.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "lining",
+    "relation": "base",
+    "definition": "a layer of cloth that covers the inside of a coat, bag or box",
+    "example": "My winter jacket has a soft, warm lining.",
+    "note": "Idiom: 'every cloud has a silver lining' = something good can come from a bad situation.",
+    "syn": [
+     {"to": "padding", "relation": "related", "strength": 0.6, "note": "Padding is thick and soft; a lining can be thin."},
+     {"to": "layer", "relation": "related", "strength": 0.4, "note": "General word for one level of material on or under another."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "line",
+    "relation": "derivational",
+    "definition": "to cover the inside of something with a layer of material",
+    "example": "She lined the drawer with clean paper.",
+    "note": "Line has many other meanings (a line on paper, stand in line); here it means covering the inside.",
+    "syn": [
+     {"to": "cover", "relation": "related", "strength": 0.6, "note": "Cover is general; this verb means covering the inside."},
+     {"to": "pad", "relation": "related", "strength": 0.4, "note": "Fill or cover with something thick and soft."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "lined",
+    "relation": "participial",
+    "definition": "having a layer of material on the inside",
+    "example": "These lined boots keep my feet warm in winter.",
+    "note": "Lined paper (paper with lines on it) is a different meaning.",
+    "syn": [
+     {"to": "padded", "relation": "related", "strength": 0.6, "note": "Padded means with thick soft material inside."}
+    ],
+    "ant": [
+     {"to": "unlined", "relation": "antonym", "note": "With no layer of material inside."}
+    ]
+   },
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {
+    "form": "liner",
+    "kind": "thing",
+    "status": "existing",
+    "definition": "a bag or cover that fits inside something to keep it clean",
+    "example": "Put a new plastic liner in the kitchen bin.",
+    "note": "A liner is also a big passenger ship (another meaning)."
+   }
+  ],
+  "affixes": [
+   {"affix": "-ing", "in_form": "lining", "meaning_key": "-ing", "also": ["building", "painting", "clothing"]},
+   {"affix": "-er", "in_form": "liner", "meaning_key": "-er", "also": ["heater", "cooker", "printer"]}
+  ],
+  "context": {
+   "text": "Bobur's grandmother lined his old coat with warm wool. Now the lining keeps him warm on cold winter mornings.",
+   "uses": ["lined", "lining"]
+  },
+  "reviewer_note": "lining comes from the verb line (= cover the inside), not line (= long thin mark); other senses kept to notes."
+ },
+ {
+  "headword": "litter",
+  "word_id": "6a4282fd46ba24054c1dcd7d",
+  "word_ids": ["6a4282fd46ba24054c1dcd7d"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Rubbish",
+  "sense_pos": "noun",
+  "corpus_definition": "Small pieces of waste left on the ground in public places.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "litter",
+    "relation": "base",
+    "definition": "pieces of paper, bottles and other rubbish left on the ground",
+    "example": "Volunteers picked up all the litter in the park.",
+    "note": "Other meanings: a group of baby animals born at one time; material for a cat's toilet box.",
+    "syn": [
+     {"to": "rubbish", "relation": "synonym", "strength": 0.95, "note": "British English; rubbish can also be inside your bin, not only on the ground."},
+     {"to": "trash", "relation": "synonym", "strength": 0.95, "note": "American English for rubbish."},
+     {"to": "garbage", "relation": "synonym", "strength": 0.8, "note": "American English, often food waste and things in the bin."},
+     {"to": "waste", "relation": "related", "strength": 0.6, "note": "General word for things that are not wanted any more."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "litter",
+    "relation": "conversion",
+    "definition": "to drop rubbish on the ground, or to lie untidily all over a place",
+    "example": "Empty bottles littered the beach after the party.",
+    "syn": [
+     {"to": "scatter", "relation": "related", "strength": 0.6, "note": "Scatter means throw or spread things over an area."},
+     {"to": "clutter", "relation": "related", "strength": 0.6, "note": "Fill a place with too many things in an untidy way."}
+    ],
+    "ant": [
+     {"to": "tidy", "relation": "antonym", "note": "Make a place clean and neat."}
+    ]
+   },
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "After the festival, plastic cups littered the main square. Next morning, students from the college picked up all the litter in big bags.",
+   "uses": ["littered", "litter"]
+  },
+  "reviewer_note": "Map keeps the 'rubbish' sense; baby-animal and cat-litter senses mentioned only in a note. Compounds litterbug and litter bin left out."
+ },
+ {
+  "headword": "locate",
+  "word_id": "6a4282fd46ba24054c1dcd7f",
+  "word_ids": ["6a4282fd46ba24054c1dcd7f"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Find",
+  "sense_pos": "verb",
+  "corpus_definition": "To find the exact position of something.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "location",
+    "relation": "derivational",
+    "definition": "the place or position where something or someone is",
+    "example": "The app shows the exact location of your taxi.",
+    "note": "'On location' = filming in a real place, not in a studio.",
+    "syn": [
+     {"to": "place", "relation": "synonym", "strength": 0.95, "note": "Easy everyday word with the same meaning."},
+     {"to": "position", "relation": "synonym", "strength": 0.8, "note": "The exact point where something is."},
+     {"to": "site", "relation": "synonym", "strength": 0.8, "note": "A place where something is built or happens."},
+     {"to": "spot", "relation": "related", "strength": 0.6, "note": "Informal: a small particular place."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "locate",
+    "relation": "base",
+    "definition": "to find exactly where something or someone is",
+    "example": "Rescue teams worked all night to locate the missing climbers.",
+    "syn": [
+     {"to": "find", "relation": "synonym", "strength": 0.95, "note": "Everyday word; locate is more formal and means find the exact place."},
+     {"to": "track down", "relation": "synonym", "strength": 0.8, "note": "Find after searching for a long time."},
+     {"to": "pinpoint", "relation": "synonym", "strength": 0.8, "note": "Find the exact place very accurately."},
+     {"to": "trace", "relation": "related", "strength": 0.6, "note": "Find someone or something by following signs or information."}
+    ],
+    "ant": [
+     {"to": "lose", "relation": "antonym", "note": "Not know where something is any more."}
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "relocate",
+    "definition": "to move to a new place to live or work",
+    "example": "The company relocated its office to Tashkent.",
+    "note": "Belongs to locate = put something in a place, not finding where something is."
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "located",
+    "definition": "in a particular place",
+    "example": "Our hotel is located near the old city of Khiva.",
+    "note": "Belongs to locate = put or build something in a place, not finding it."
+   },
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "affixes": [
+   {"affix": "-ion", "in_form": "location", "meaning_key": "-ion", "also": ["education", "creation", "decision"]}
+  ],
+  "context": {
+   "text": "My phone could not locate the new cafe, so I asked a man in the street. He showed me its exact location on the map.",
+   "uses": ["locate", "location"]
+  },
+  "reviewer_note": "located (in a place) and relocate (move) belong to the 'put in a place' sense, shown as other_meaning."
+ }
+]
