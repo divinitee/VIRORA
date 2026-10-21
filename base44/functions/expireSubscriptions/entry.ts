@@ -13,8 +13,10 @@ Deno.serve(async (req) => {
     const base44 = createClientFromRequest(req);
     let me: any = null;
     try { me = await base44.auth.me(); } catch { me = null; }
-    // Scheduled runs have no user; a signed-in caller must be an admin.
-    if (me && me.role !== 'admin') return Response.json({ error: 'admin_only' }, { status: 403 });
+    // Fail closed: the daily workflow runs with the app's admin identity (same
+    // as sendExpirationReminders), and a manual run must be an admin. A caller
+    // with no session is refused — it must never reach the service-role sweep.
+    if (!me || me.role !== 'admin') return Response.json({ error: 'admin_only' }, { status: 403 });
     const body = await req.json().catch(() => ({}));
     const dry = body?.dry_run === true;
     const svc = base44.asServiceRole.entities;
