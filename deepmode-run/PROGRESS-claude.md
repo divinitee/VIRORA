@@ -43,3 +43,4 @@
 | 133 | 10 | 2 of 10 maps: bad synonym 1 (hard-working -> hardworking), wrong POS 1 (dismissively other_meaning adv) | pass gate-4.4 | imported 2026-10-21 (Base44 AI) | dismissively kept via gate_overrides (OALD/Cambridge list it, WordNet lacks it); 8 flags for reviewer |
 | 137 | 10 | 1 of 10 maps: missing form 1 (equator verb -> not_family equal/equate) | pass gate-4.4 | imported 2026-10-21 (Base44 AI) | 11 flags for reviewer |
 | 139 | 10 | 1 FAIL: false affix 1 (exotically -ly) | pass gate-4.4 | imported 2026-10-21 (Base44 AI) | 10 groups, 10 maps; 16 flags for reviewer; exotically affix dropped (-ally) |
+| 143 | 10 | 0 FAIL first pass | pass gate-4.4 | gated, not imported | 17 flags for reviewer; grief: grievance/grievous/grievously other_meaning; grocer person-noun main, grocery in people |
