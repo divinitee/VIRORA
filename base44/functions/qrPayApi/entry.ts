@@ -31,7 +31,7 @@ import {
 //    nothing.
 //
 // Secrets: VIRORA_payment_BOT_tg — the payments bot token (optional — Telegram features stay off without
-// it), TG_WEBHOOK_URL (optional override of the bot webhook URL).
+// it). The bot webhook URL is fixed below (DEFAULT_WEBHOOK_URL) — it is public.
 
 const MAX_OPEN_PER_USER = 3;
 const ADMIN_EMAIL = 'gameboey0191@gmail.com';
@@ -264,7 +264,7 @@ async function tgSetup(svc: any, me: any) {
 
   const bot = await tg(token, 'getMe', {}).catch((e) => { throw new ApiError(502, 'bot_token_invalid', e.message); });
   const secret = randomToken(24);
-  const url = secrets.get('TG_WEBHOOK_URL') || DEFAULT_WEBHOOK_URL;
+  const url = DEFAULT_WEBHOOK_URL;
   await tg(token, 'setWebhook', {
     url,
     secret_token: secret,
