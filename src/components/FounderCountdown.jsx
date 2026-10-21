@@ -86,7 +86,9 @@ export default function FounderCountdown({ className = "", variant = "app" }) {
           <p className={`mt-1 text-sm font-bold ${tone.head}`}>
             {stage.endsOn
               ? t("pricing.founder_deadline", { date: deadline })
-              : t("pricing.founder_milestone")}
+              : stage.endsReason === "seats"
+                ? t("pricing.founder_seats", { n: stage.seatCap || 100 })
+                : t("pricing.founder_milestone")}
           </p>
         </div>
         <span className={`shrink-0 rounded-full border px-2.5 py-1 text-[9px] font-black uppercase tracking-[0.12em] ${tone.accent} border-current/20 bg-white/10`}>
