@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./BrandLoader.css";
 import { useAnimationSettings } from "@/components/animation/AnimationSettingsContext";
 import { animationStyle, normalizeAnimation } from "@/components/animation/animationConfig";
@@ -25,7 +25,10 @@ export default function BrandLoader({
   settings,
 }) {
   const { config } = useAnimationSettings();
-  const design = settings ? normalizeAnimation(settings) : config;
+  // A settings fetch must not change duration, size or phase mid-animation.
+  // Explicit studio drafts remain live; page loaders adopt changes next time.
+  const sessionConfig = useRef(config);
+  const design = settings ? normalizeAnimation(settings) : sessionConfig.current;
   const viewBoxHeight = (100 * height) / width;
 
   return (
