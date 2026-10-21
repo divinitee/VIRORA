@@ -157,7 +157,7 @@
     {"to": "attitude", "relation": "related", "strength": 0.6, "note": "Attitude is how you think and feel about one thing."},
     {"to": "outlook", "relation": "related", "strength": 0.6, "note": "Your general view of life and the future."}
   ], "ant": []},
-  {"slot": "verb", "status": "no_form", "note": "There is no common verb made from mental."},
+  {"slot": "verb", "status": "no_form", "not_family": ["mind"], "note": "There is no common verb made from mental. Mind (as in 'Do you mind?') has the same meaning area but is an old English word, not made from mental."},
   {"slot": "adjective", "status": "existing", "form": "mental", "relation": "base", "definition": "connected with the mind and the way people think and feel", "example": "Math is good for your mental health.", "note": "Informal British English also uses mental to mean 'crazy'; this is rude and can hurt people.", "syn": [
     {"to": "psychological", "relation": "synonym", "strength": 0.8, "note": "More formal and scientific; also about feelings and behaviour."},
     {"to": "intellectual", "relation": "related", "strength": 0.6, "note": "About thinking and learning only, not feelings."},
@@ -178,7 +178,7 @@
   {"affix": "-ly", "in_form": "mentally", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
  ],
  "context": {"text": "Doctors say that sport is good for both your body and your mental health. After a long day at university, I feel mentally tired, so I go for a walk in the park.", "uses": ["mental", "mentally"]},
- "reviewer_note": "No -al affix claimed (ment- is not a word); rude informal use of mental is noted, not taught."},
+ "reviewer_note": "No -al affix claimed (ment- is not a word); rude informal use of mental is noted, not taught. Mind listed as not_family."},
 
 {"headword": "mental health", "word_id": "6a4288ad6941e70ad6a00ea7", "word_ids": ["6a4288ad6941e70ad6a00ea7"], "cefr": "B2", "kind": "phrase", "sense_label": "Mind", "sense_pos": "noun", "corpus_definition": "How you feel inside and how you manage your thoughts.",
  "usage_note": "Uncountable noun: 'good mental health', 'look after your mental health'. Also used before nouns: 'mental health problems', 'mental health services'.",
