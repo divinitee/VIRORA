@@ -1,0 +1,249 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "apprentice",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "apprentice: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "apprentices"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "apprenticed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); verb is a rare conversion, usually passive."
+  },
+  {
+   "headword": "approve of",
+   "kind": "phrasal",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Different from 'approve' without 'of' (officially accept a plan); this map covers the opinion sense only."
+  },
+  {
+   "headword": "arise",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "arose"
+      ],
+      "VBN": [
+       "arisen"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Rise and raise look similar but are separate words, listed as not_family; no false a- prefix claimed."
+  },
+  {
+   "headword": "arithmetic",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "noun definition has rare words: subtracting, multiplying"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adjective definition has rare words: subtracting, multiplying"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'arithmetically' is rare (zipf 1.6)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "arithmetic: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "arithmetically: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "arithmetics",
+       "arithmetic"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "CORPUS: definition has a masked word ('******', probably 'operations'); copied as given. Adjective has two real forms: arithmetical and the conversion arithmetic."
+  },
+  {
+   "headword": "artificial",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "artificiality: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "artificially: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "artificiality"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "artifice is related by origin but rare; mentioned only in a note. artificial intelligence (AI) is a compound phrase, left out."
+  },
+  {
+   "headword": "ash",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "adjective 'ashen' (other meaning): family link not confirmed by the dictionary or a suffix rule"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "ashes",
+       "ash"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Only one existing form; ashtray is a compound (left out); ashen kept as other_meaning (face colour)."
+  },
+  {
+   "headword": "ashamed of",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed adjective + preposition phrase; noun shame is not listed because phrases have no forms."
+  },
+  {
+   "headword": "assemble",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "assemblies"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "assembled"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "assembly here = putting parts together; the meeting sense is its own map (headword assembly). disassemble listed as antonym, not a form (rule 3)."
+  },
+  {
+   "headword": "assembly",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "assemblies"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "assembled"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Meeting sense only; the building sense (putting parts together) is covered by the separate assemble map."
+  },
+  {
+   "headword": "assist",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "override",
+     "msg": "'assistant' is a compound (assist + ant): compounds are left out for now (rule 7), remove it — overridden: assistant = assist + suffix -ant (agent noun, like applicant, participant), not a compound with the word 'ant'."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "assistance"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "assisted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Sports noun 'an assist' kept as other_meaning; assistant goes in people (rule 8)."
+  }
+ ]
+}

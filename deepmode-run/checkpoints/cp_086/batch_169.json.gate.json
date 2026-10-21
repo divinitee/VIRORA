@@ -1,0 +1,229 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "slight",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "slighter"
+      ],
+      "JJS": [
+       "slightest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "The noun and verb slight (= insult) are a different meaning, shown as other_meaning; 'not in the slightest' is just the superlative."
+  },
+  {
+   "headword": "smash",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "smashes"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "smashed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "smashing (= great) is a separate informal meaning, shown as other_meaning; smasher left out as rare."
+  },
+  {
+   "headword": "snap",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: snapper"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'snapper' (zipf 3.0) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "snaps",
+       "snap"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "snapped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Many meanings (sound, break, speak angrily, photo); map anchored to the sound/break meaning. snapshot left out as a compound."
+  },
+  {
+   "headword": "snatch",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "snatches"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "snatched"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun snatch has two meanings: the quick grab (existing) and a short piece of conversation/music (other_meaning)."
+  },
+  {
+   "headword": "sneak",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "noun 'sneakiness' is rare (zipf 1.4)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "sneakiness: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "sneaked"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "sneakier"
+      ],
+      "JJS": [
+       "sneakiest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun sneak (= a person who tells on others) is old-fashioned British and left out; sneaker shown as other_meaning thing."
+  },
+  {
+   "headword": "soak",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "soaks"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "soaked"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Corpus definition uses the intransitive meaning; the transitive 'leave something in water' is the same meaning and covered in the verb definition."
+  },
+  {
+   "headword": "software",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "softwares",
+       "software"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Software is itself a compound (soft + ware); no family forms. software developer/engineer are compounds, left out."
+  },
+  {
+   "headword": "solar",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "solar: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "Adjective only, used before nouns; sun listed as not_family. solar system is its own phrase entry."
+  },
+  {
+   "headword": "solar system",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Corpus example says 'Nine planets' (out of date since 2006; now eight). Context uses eight; reviewer may want to fix the corpus example."
+  },
+  {
+   "headword": "sole",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Homonym trap: sole (foot/shoe, fish) is a different word, so the noun slot is no_form with a note, not other_meaning."
+  }
+ ]
+}

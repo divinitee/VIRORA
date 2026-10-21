@@ -252,18 +252,7 @@
   ],
   "people": [],
   "people_not_family": [],
-  "affixes": [
-   {
-    "affix": "-ive",
-    "in_form": "imaginative",
-    "meaning_key": "-ive",
-    "also": [
-     "creative",
-     "active",
-     "expensive"
-    ]
-   }
-  ],
+  "affixes": [],
   "context": {
    "text": "Good stories need imagination. My teacher asks us to imagine a new world and write about it.",
    "uses": [
@@ -348,18 +337,7 @@
   ],
   "people": [],
   "people_not_family": [],
-  "affixes": [
-   {
-    "affix": "-tion",
-    "in_form": "imitation",
-    "meaning_key": "-tion",
-    "also": [
-     "education",
-     "information",
-     "invitation"
-    ]
-   }
-  ],
+  "affixes": [],
   "context": {
    "text": "Small children often imitate their parents. My son's imitation of his father's laugh is perfect.",
    "uses": [

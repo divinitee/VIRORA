@@ -1,0 +1,251 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "have an operation",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed phrase; no forms. Usage note separates the patient (has an operation) from the doctor (operates)."
+  },
+  {
+   "headword": "hay",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "hay"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Compounds (haystack, hay fever) left out for the Compounds branch."
+  },
+  {
+   "headword": "heatwave",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Headword is a compound (heat + wave); heat and wave are not listed as its forms."
+  },
+  {
+   "headword": "heritage",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: heritable. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "heritages"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "inherit/inheritance kept out as not_family (same Latin root, not made from heritage)."
+  },
+  {
+   "headword": "highlands",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "highland: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "Headword is plural; the singular highland is given as the adjective use (highland village)."
+  },
+  {
+   "headword": "highlight",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "highlights"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "highlighted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun highlight (best part) kept as a same-family conversion: the part that stands out. Hair highlights not included."
+  },
+  {
+   "headword": "hollow",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: holy"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "noun 'hollowness' is rare (zipf 1.9)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'hollowly' (other meaning) is rare (zipf 1.3)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "hollows"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "hollowed"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "hollower"
+      ],
+      "JJS": [
+       "hollowest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun, verb and adjective all share the spelling hollow; hollowly kept as other_meaning (hollow sound/feeling sense)."
+  },
+  {
+   "headword": "hoop",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "hoops"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Compounds (hula hoop) left out for the Compounds branch."
+  },
+  {
+   "headword": "horn",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adjective definition has rare words: animal's, growths"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "horn: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "horns",
+       "horn"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "hornier"
+      ],
+      "JJS": [
+       "horniest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "hornet is not made from horn (people_not_family). Car horn and musical horn are other senses of the same noun. horny shown only in its old \"hard like horn\" sense with a warning note about the common informal meaning."
+  },
+  {
+   "headword": "horrified",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: horrific"
+    },
+    {
+     "cat": "wrong morphology",
+     "msg": "adjective 'horrible' (other meaning): family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "horrifyingly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "horrors",
+       "horror"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "horrified"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is a participle adjective; horror and horrify are the family's noun and verb. horrible/horribly kept as other_meaning (weaker 'very bad' sense)."
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "cheat",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "verb definition has rare words: dishonestly"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'cheer' (zipf 4.1) may belong here"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "cheating: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "cheated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "cheat (person) is a conversion noun, so it sits in People & things."
+  },
+  {
+   "headword": "cheat at/in",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Two prepositions shown with their typical objects."
+  },
+  {
+   "headword": "cheer up",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Both transitive and intransitive uses shown."
+  },
+  {
+   "headword": "chemist",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "chemists"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two corpus rows merged. Headword is a person noun, so it sits in People & things."
+  },
+  {
+   "headword": "chew",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "bad definition",
+     "msg": "adjective definition leans on the headword: chewing (OK if the learner already knows it)"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'cheer' (zipf 4.1) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "chews"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "chewed"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "chewier"
+      ],
+      "JJS": [
+       "chewiest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "chewing gum is a compound, not included."
+  },
+  {
+   "headword": "childhood",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: chilly"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: childishly. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "childish: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "childhoods",
+       "childhood"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "child is the base noun; childhood derived with -hood."
+  },
+  {
+   "headword": "chill",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "chill: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "chills"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "chilled"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "chillier"
+      ],
+      "JJS": [
+       "chilliest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "'chill out' (relax) is an informal phrasal meaning, not shown."
+  },
+  {
+   "headword": "chin",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "chin: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "chins"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Idiom: keep your chin up = stay positive."
+  },
+  {
+   "headword": "choir",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "bad definition",
+     "msg": "adjective definition leans on the headword: choir (OK if the learner already knows it)"
+    },
+    {
+     "cat": "false affix",
+     "msg": "'choral' = 'chore' + '-al', but 'chore' isn't confirmed as related. Real split?"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "choir: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "choirs"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "choral is from the same root (chorus)."
+  },
+  {
+   "headword": "classical music",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "classic vs classical is a common learner mistake."
+  }
+ ]
+}

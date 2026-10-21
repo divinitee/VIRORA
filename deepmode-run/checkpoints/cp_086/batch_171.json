@@ -1,0 +1,1399 @@
+[
+ {
+  "headword": "startle",
+  "word_id": "6a6ef9b2a601556148092899",
+  "word_ids": [
+   "6a6ef9b2a601556148092899"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Surprise",
+  "sense_pos": "verb",
+  "corpus_definition": "To surprise or frighten someone suddenly.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "no_form",
+    "note": "There is no common learner noun. Startle as a noun (the startle response) is a technical word used by doctors and scientists."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "startle",
+    "relation": "base",
+    "definition": "to surprise or frighten someone suddenly so that they jump",
+    "example": "Sorry, I didn't mean to startle you when I opened the door.",
+    "syn": [
+     {
+      "to": "surprise",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; startle adds the idea of a sudden small shock."
+     },
+     {
+      "to": "frighten",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Frighten is about fear; startle is short and sudden, and the fear goes quickly."
+     },
+     {
+      "to": "make someone jump",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday phrase with the same meaning.",
+      "register": "informal"
+     },
+     {
+      "to": "shock",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Shock is usually stronger and lasts longer."
+     },
+     {
+      "to": "alarm",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Alarm means to make someone worried that something bad will happen."
+     }
+    ],
+    "ant": [
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "To make someone feel quiet and relaxed again."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "startled",
+    "relation": "participial",
+    "definition": "suddenly surprised or a little frightened",
+    "example": "The startled cat ran under the bed.",
+    "syn": [
+     {
+      "to": "surprised",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; startled adds a sudden small jump of fear."
+     },
+     {
+      "to": "alarmed",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Alarmed means worried that something bad will happen."
+     },
+     {
+      "to": "shocked",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Shocked is usually stronger and about something bad."
+     },
+     {
+      "to": "frightened",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Frightened is about fear that can last a long time."
+     }
+    ],
+    "ant": [
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "Relaxed and not worried or surprised."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "startling",
+    "relation": "participial",
+    "definition": "very surprising and unexpected",
+    "example": "The report showed some startling facts about water use in the city.",
+    "syn": [
+     {
+      "to": "surprising",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word, very close; startling is a little stronger."
+     },
+     {
+      "to": "astonishing",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very surprising, often about something good or impressive."
+     },
+     {
+      "to": "shocking",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Surprising in a bad or upsetting way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unsurprising",
+      "relation": "antonym",
+      "note": "Expected; not surprising at all."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "startlingly",
+    "relation": "derivational",
+    "definition": "in a very surprising way",
+    "example": "The young singer has a startlingly beautiful voice.",
+    "syn": [
+     {
+      "to": "surprisingly",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word, very close in meaning."
+     },
+     {
+      "to": "amazingly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Usually about something good or impressive."
+     },
+     {
+      "to": "remarkably",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a way that people notice because it is unusual."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ing",
+    "in_form": "startling",
+    "meaning_key": "-ing",
+    "also": [
+     "interesting",
+     "boring",
+     "exciting"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "startlingly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "surprisingly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "A loud firework startled the children in the park in Navruz week. One startled boy dropped his ice cream, and his sister laughed in a startlingly loud voice.",
+   "uses": [
+    "startled",
+    "startled",
+    "startlingly"
+   ]
+  },
+  "reviewer_note": "Noun 'startle' is technical only, so no_form with a note; startled and startling are both participial adjectives in this meaning."
+ },
+ {
+  "headword": "starve",
+  "word_id": "6a6ef9b2a6015561480927fd",
+  "word_ids": [
+   "6a6ef9b2a6015561480927fd"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Hunger",
+  "sense_pos": "verb",
+  "corpus_definition": "To suffer or die because you have no food.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "starvation",
+    "relation": "derivational",
+    "definition": "suffering or death caused by having no food for a long time",
+    "example": "Many people died of starvation during the war.",
+    "syn": [
+     {
+      "to": "hunger",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; hunger can be small, but starvation is very serious."
+     },
+     {
+      "to": "famine",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A famine is a time when a whole region has no food."
+     },
+     {
+      "to": "malnutrition",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Being ill because you do not eat enough good food."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "starve",
+    "relation": "base",
+    "definition": "to suffer or die because you have no food",
+    "example": "Without help, these animals will starve this winter.",
+    "syn": [
+     {
+      "to": "go hungry",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrase; go hungry is less serious than starve."
+     },
+     {
+      "to": "die of hunger",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrase for the most serious case."
+     },
+     {
+      "to": "fast",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To fast is to choose not to eat, for example in Ramadan; starving is not a choice."
+     }
+    ],
+    "ant": [
+     {
+      "to": "feed",
+      "relation": "antonym",
+      "note": "To give food to a person or animal."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "starving",
+    "relation": "participial",
+    "definition": "suffering or dying because there is no food",
+    "example": "The charity sends rice to starving families.",
+    "note": "In informal English, 'I'm starving' just means 'I'm very hungry'.",
+    "syn": [
+     {
+      "to": "hungry",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word, but much weaker than starving."
+     },
+     {
+      "to": "famished",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very hungry; used mostly in the informal sense.",
+      "register": "informal"
+     },
+     {
+      "to": "underfed",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Not given enough food for a long time."
+     }
+    ],
+    "ant": [
+     {
+      "to": "well-fed",
+      "relation": "antonym",
+      "note": "Having plenty of good food."
+     },
+     {
+      "to": "full",
+      "relation": "antonym",
+      "note": "Easy word: you have eaten enough."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "starved",
+    "relation": "participial",
+    "definition": "weak or ill because of having no food",
+    "example": "The starved dog was too weak to stand.",
+    "note": "Also used as 'starved of' something: 'starved of love'.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from starve."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ation",
+    "in_form": "starvation",
+    "meaning_key": "-ation",
+    "also": [
+     "information",
+     "invitation",
+     "education"
+    ]
+   },
+   {
+    "affix": "-ing",
+    "in_form": "starving",
+    "meaning_key": "-ing",
+    "also": [
+     "boring",
+     "interesting",
+     "exciting"
+    ]
+   }
+  ],
+  "context": {
+   "text": "In the cold winter, many birds starve because the ground is frozen. My grandmother in Nukus always puts bread outside for the starving birds. She says nobody should die of starvation.",
+   "uses": [
+    "starve",
+    "starving",
+    "starvation"
+   ]
+  },
+  "reviewer_note": "Informal 'I'm starving' (very hungry) covered in a note, not as a separate entry."
+ },
+ {
+  "headword": "steer",
+  "word_id": "6a6ef9b2a6015561480926f7",
+  "word_ids": [
+   "6a6ef9b2a6015561480926f7"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Driving",
+  "sense_pos": "verb",
+  "corpus_definition": "To control the direction of a vehicle like a car or boat.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "steering",
+    "relation": "derivational",
+    "definition": "the parts of a car or boat that control its direction",
+    "example": "The steering on this old car is very heavy.",
+    "syn": [
+     {
+      "to": "handling",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "How easy a car is to control when you drive it."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "steer",
+    "relation": "base",
+    "definition": "to control the direction a car, boat or bike goes",
+    "example": "He steered the car slowly into the narrow street.",
+    "syn": [
+     {
+      "to": "drive",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Drive is the whole action; steer is only about choosing the direction."
+     },
+     {
+      "to": "guide",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To move something carefully in the right direction."
+     },
+     {
+      "to": "direct",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To show or control where something goes."
+     },
+     {
+      "to": "navigate",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To find the way, especially on a boat or plane."
+     },
+     {
+      "to": "turn",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word: to change direction."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective made from steer; steerable is rare and technical."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from steer."
+   }
+  ],
+  "people": [],
+  "people_not_family": [
+   "steer (young bull)"
+  ],
+  "affixes": [
+   {
+    "affix": "-ing",
+    "in_form": "steering",
+    "meaning_key": "-ing",
+    "also": [
+     "building",
+     "meeting",
+     "painting"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My father taught me to steer a boat on Charvak Lake. The steering was hard at first, but now I can steer it easily.",
+   "uses": [
+    "steer",
+    "steering",
+    "steer"
+   ]
+  },
+  "reviewer_note": "The noun steer (a young bull) is a different word with the same spelling; steering wheel is a compound and left out."
+ },
+ {
+  "headword": "stem",
+  "word_id": "6a6ef9b2a6015561480926bc",
+  "word_ids": [
+   "6a6ef9b2a6015561480926bc"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Plant",
+  "sense_pos": "noun",
+  "corpus_definition": "The thin part of a plant that holds the leaves.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "stem",
+    "relation": "base",
+    "definition": "the long thin part of a plant that holds the leaves or flowers",
+    "example": "Cut the stem of each rose before you put it in water.",
+    "syn": [
+     {
+      "to": "stalk",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close; stalk is often used for vegetables and thicker plants."
+     },
+     {
+      "to": "branch",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A branch grows out of the trunk of a tree."
+     },
+     {
+      "to": "trunk",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The thick main part of a tree."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "stem",
+    "definition": "to come from or be caused by something",
+    "example": "Many of his problems stem from a lack of sleep.",
+    "note": "Belongs to stem = come from (stem from), not the part of a plant. Another verb meaning is 'to stop a flow': stem the bleeding."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from stem; long-stemmed is a compound."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from stem."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "My mother grows tulips in our garden in Fergana. This spring one flower had a very long stem, so she put it in a vase on the table.",
+   "uses": [
+    "stem"
+   ]
+  },
+  "reviewer_note": "Only one existing form in this meaning; verb stem (stem from) is a different meaning, marked other_meaning."
+ },
+ {
+  "headword": "steward",
+  "word_id": "6a6ef83f0f1e82a5a0736791",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736791"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Plane",
+  "sense_pos": "noun",
+  "corpus_definition": "A person whose job is to serve passengers on a plane.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "steward",
+    "relation": "base",
+    "definition": "a man whose job is to look after passengers on a plane or ship",
+    "example": "The steward showed us where to put our bags.",
+    "note": "Today people usually say 'flight attendant' for both men and women.",
+    "syn": [
+     {
+      "to": "flight attendant",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The modern word used for men and women."
+     },
+     {
+      "to": "cabin crew",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The whole team that works with passengers on a plane."
+     },
+     {
+      "to": "attendant",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A person whose job is to help people in a public place."
+     }
+    ],
+    "ant": [
+     {
+      "to": "passenger",
+      "relation": "antonym",
+      "note": "The steward serves; the passenger is served."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "stewardship",
+    "definition": "the careful management and protection of something important",
+    "example": "The museum is under the stewardship of a new director.",
+    "note": "Belongs to steward = a person who manages or looks after property or land, not plane staff. Formal."
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "steward",
+    "definition": "to help control the crowd at a public event",
+    "example": "Volunteers will steward the marathon on Sunday.",
+    "note": "Belongs to steward = a person who helps organize a race or concert, not plane staff. Mostly British."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from steward."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from steward."
+   }
+  ],
+  "people": [
+   {
+    "form": "stewardess",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a woman whose job is to look after passengers on a plane",
+    "example": "The stewardess brought us blankets during the night flight.",
+    "note": "Old-fashioned; most people now say 'flight attendant'."
+   }
+  ],
+  "affixes": [],
+  "context": {
+   "text": "On our flight from Tashkent to Istanbul, a friendly steward brought us tea. Later a stewardess helped my little brother with his seatbelt.",
+   "uses": [
+    "steward",
+    "stewardess"
+   ]
+  },
+  "reviewer_note": "Headword is a person noun, so it stays in the noun slot (rule 6); -ess is not in the affix table, so no affix claimed for stewardess.",
+  "gate_overrides": [
+   {
+    "msg_contains": "'stewardship' is a compound",
+    "reason": "stewardship is steward + -ship (like friendship, ownership), not a compound of stewards + hip; it is in OALD and Cambridge."
+   }
+  ]
+ },
+ {
+  "headword": "stiff",
+  "word_id": "6a6ef9b2a6015561480926e3",
+  "word_ids": [
+   "6a6ef9b2a6015561480926e3"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Hard",
+  "sense_pos": "adjective",
+  "corpus_definition": "Difficult to bend or move.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "stiffness",
+    "relation": "derivational",
+    "definition": "the state of being hard to bend or move",
+    "example": "Gentle exercise can help with stiffness in your knees.",
+    "syn": [
+     {
+      "to": "rigidity",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "More formal; often about materials.",
+      "register": "formal"
+     },
+     {
+      "to": "tightness",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Often about muscles that feel tight."
+     },
+     {
+      "to": "pain",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word; stiffness can come with pain, but is not the same."
+     }
+    ],
+    "ant": [
+     {
+      "to": "flexibility",
+      "relation": "antonym",
+      "note": "Being able to bend easily."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "stiffen",
+    "relation": "derivational",
+    "definition": "to become hard to bend or move",
+    "example": "My fingers stiffen when it is very cold outside.",
+    "syn": [
+     {
+      "to": "harden",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To become hard; used for materials more than for the body."
+     },
+     {
+      "to": "tense",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make your muscles tight, often because you are nervous."
+     },
+     {
+      "to": "tighten",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To become tight."
+     }
+    ],
+    "ant": [
+     {
+      "to": "relax",
+      "relation": "antonym",
+      "note": "To let your muscles become soft and loose."
+     },
+     {
+      "to": "soften",
+      "relation": "antonym",
+      "note": "To become softer."
+     },
+     {
+      "to": "loosen",
+      "relation": "antonym",
+      "note": "To become less tight."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "stiff",
+    "relation": "base",
+    "definition": "hard to bend, move or turn",
+    "example": "My legs were stiff after the long bus journey.",
+    "syn": [
+     {
+      "to": "rigid",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very hard and not able to bend at all; often about materials."
+     },
+     {
+      "to": "hard",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word; hard is about not being soft."
+     },
+     {
+      "to": "firm",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Firm is not soft, but still a little flexible."
+     },
+     {
+      "to": "tight",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Often about muscles that do not feel loose."
+     },
+     {
+      "to": "inflexible",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Not able to bend; also used about people and rules.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "flexible",
+      "relation": "antonym",
+      "note": "Able to bend easily."
+     },
+     {
+      "to": "soft",
+      "relation": "antonym",
+      "note": "Easy word: not hard."
+     },
+     {
+      "to": "supple",
+      "relation": "antonym",
+      "note": "Able to bend and move easily, often about the body."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "stiffly",
+    "relation": "derivational",
+    "definition": "in a way that is not smooth because your body is hard to move",
+    "example": "After the football match he walked stiffly to the car.",
+    "note": "Also means 'in an unfriendly, formal way': she smiled stiffly.",
+    "syn": [
+     {
+      "to": "rigidly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Without bending at all."
+     },
+     {
+      "to": "awkwardly",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "In a way that is not easy or natural."
+     }
+    ],
+    "ant": [
+     {
+      "to": "smoothly",
+      "relation": "antonym",
+      "note": "Easily and without stopping or problems."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ness",
+    "in_form": "stiffness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "sadness",
+     "happiness"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "stiffly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "softly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "After working at the computer all day, my neck is often stiff. My doctor in Tashkent says the stiffness comes from sitting too long. When I stand up, I walk stiffly for a few minutes.",
+   "uses": [
+    "stiff",
+    "stiffness",
+    "stiffly"
+   ]
+  },
+  "reviewer_note": "Stiffen uses -en, which is not in the affix table, so no affix is claimed for it."
+ },
+ {
+  "headword": "stitch",
+  "word_id": "6a6ef83f0f1e82a5a0736652",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736652"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Sewing",
+  "sense_pos": "verb",
+  "corpus_definition": "To fix cloth using a needle and thread.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "stitch",
+    "relation": "conversion",
+    "definition": "one short line of thread that goes through cloth",
+    "example": "The doctor needed six stitches to close the cut.",
+    "note": "Also a sudden pain in your side when you run: 'I've got a stitch.'",
+    "syn": [
+     {
+      "to": "loop",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A round shape made by thread or string."
+     },
+     {
+      "to": "suture",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Medical word for a stitch that closes a cut.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "stitching",
+    "relation": "derivational",
+    "definition": "a row of short lines of thread in cloth",
+    "example": "The stitching on this bag is very strong.",
+    "syn": [
+     {
+      "to": "sewing",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Sewing is the activity; stitching is often the lines you can see."
+     },
+     {
+      "to": "needlework",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Sewing or embroidery done as a hobby or art."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "stitch",
+    "relation": "base",
+    "definition": "to sew cloth with a needle and thread",
+    "example": "Can you stitch this button back onto my coat?",
+    "syn": [
+     {
+      "to": "sew",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with almost the same meaning."
+     },
+     {
+      "to": "mend",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To repair something that is broken or torn."
+     },
+     {
+      "to": "repair",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "General word for fixing anything."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unpick",
+      "relation": "antonym",
+      "note": "To take out the thread from something that was sewn. Mostly British."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective made from stitch; people say hand-stitched or hand-sewn."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from stitch."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ing",
+    "in_form": "stitching",
+    "meaning_key": "-ing",
+    "also": [
+     "painting",
+     "building",
+     "clothing"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My grandmother in Bukhara can stitch beautiful suzani. Every stitch is very small, and the stitching takes many months to finish.",
+   "uses": [
+    "stitch",
+    "stitch",
+    "stitching"
+   ]
+  },
+  "reviewer_note": "Noun stitch (pain in your side) mentioned in a note on the conversion noun; hand-stitched is a compound and left out."
+ },
+ {
+  "headword": "strain",
+  "word_id": "6a6ef9b2a60155614809284d",
+  "word_ids": [
+   "6a6ef9b2a60155614809284d"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Injury",
+  "sense_pos": "verb",
+  "corpus_definition": "To pull or push something too hard until it hurts.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "strain",
+    "relation": "conversion",
+    "definition": "an injury to a muscle from pulling it too hard",
+    "example": "The footballer has a strain in his leg and cannot play.",
+    "note": "Strain also means worry or pressure: 'the strain of exams'.",
+    "syn": [
+     {
+      "to": "injury",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "General word for any damage to the body."
+     },
+     {
+      "to": "sprain",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A sprain is damage to a joint, like an ankle; a strain is to a muscle."
+     },
+     {
+      "to": "pull",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal: 'a pull in my leg' means a strained muscle.",
+      "register": "informal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "strain",
+    "relation": "base",
+    "definition": "to hurt a part of your body by using it too hard",
+    "example": "Bend your knees so you don't strain your back.",
+    "syn": [
+     {
+      "to": "pull",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy and common: pull a muscle."
+     },
+     {
+      "to": "injure",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "General word for hurting a part of the body."
+     },
+     {
+      "to": "hurt",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word for causing pain."
+     },
+     {
+      "to": "overwork",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To use something too much without rest."
+     }
+    ],
+    "ant": [
+     {
+      "to": "relax",
+      "relation": "antonym",
+      "note": "To let your muscles rest and become loose."
+     },
+     {
+      "to": "rest",
+      "relation": "antonym",
+      "note": "Easy word: to stop using something so it gets better."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "strained",
+    "relation": "participial",
+    "definition": "hurt because it was used or pulled too hard",
+    "example": "She has a strained muscle in her shoulder.",
+    "note": "Strained also means 'not relaxed or natural': a strained smile.",
+    "syn": [
+     {
+      "to": "pulled",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy and common: a pulled muscle."
+     },
+     {
+      "to": "injured",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "General word for hurt."
+     },
+     {
+      "to": "sore",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Painful, but not always injured."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no common adverb in this meaning."
+   }
+  ],
+  "people": [
+   {
+    "form": "strainer",
+    "kind": "thing",
+    "status": "other_meaning",
+    "definition": "a kitchen tool with small holes for separating liquid from food",
+    "example": "Pour the pasta into the strainer.",
+    "note": "Belongs to strain = pour liquid through something with small holes, not hurting a muscle."
+   }
+  ],
+  "affixes": [],
+  "context": {
+   "text": "My brother strained his back carrying a heavy carpet up the stairs. The doctor said it was a small strain and he should rest for a week.",
+   "uses": [
+    "strained",
+    "strain"
+   ]
+  },
+  "reviewer_note": "Strenuous looks similar but is not from strain, so it is left out; strain = pressure/worry covered in notes."
+ },
+ {
+  "headword": "strategy",
+  "word_id": "6a6ef83f0f1e82a5a073672f",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073672f"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Plan",
+  "sense_pos": "noun",
+  "corpus_definition": "A careful plan made to reach a specific goal.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "strategy",
+    "relation": "base",
+    "definition": "a careful plan for reaching a goal",
+    "example": "Our strategy is to study a little every day before the exam.",
+    "syn": [
+     {
+      "to": "plan",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; a strategy is a bigger, longer plan."
+     },
+     {
+      "to": "approach",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A way of dealing with a problem."
+     },
+     {
+      "to": "tactic",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A tactic is one small step; a strategy is the whole plan."
+     },
+     {
+      "to": "scheme",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A plan; in American English it can sound dishonest."
+     },
+     {
+      "to": "policy",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A set of rules or ideas, usually of a government or company."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "strategize",
+    "relation": "derivational",
+    "definition": "to make careful plans to reach a goal",
+    "example": "The team met to strategize before the final match.",
+    "note": "Mainly American English; British spelling: strategise.",
+    "syn": [
+     {
+      "to": "plan",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday word with almost the same meaning."
+     }
+    ],
+    "ant": [
+     {
+      "to": "improvise",
+      "relation": "antonym",
+      "note": "To do something without planning it first."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "strategic",
+    "relation": "derivational",
+    "definition": "part of a careful plan to reach a goal",
+    "example": "Opening a shop near the bazaar was a strategic decision.",
+    "syn": [
+     {
+      "to": "planned",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: decided before."
+     },
+     {
+      "to": "tactical",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "About small steps, not the whole plan."
+     },
+     {
+      "to": "calculated",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Planned carefully, sometimes in a cold way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unplanned",
+      "relation": "antonym",
+      "note": "Done without thinking about it before."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "strategically",
+    "relation": "derivational",
+    "definition": "in a way that is part of a careful plan",
+    "example": "The new hotel is strategically placed near the airport.",
+    "syn": [
+     {
+      "to": "tactically",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "About small steps rather than the whole plan."
+     },
+     {
+      "to": "carefully",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word, more general."
+     }
+    ],
+    "ant": [
+     {
+      "to": "randomly",
+      "relation": "antonym",
+      "note": "Without any plan or order."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "form": "strategist",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person who is skilled at making careful plans",
+    "example": "The company hired a strategist to help it grow."
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-ize",
+    "in_form": "strategize",
+    "meaning_key": "-ize",
+    "also": [
+     "organize",
+     "realize",
+     "modernize"
+    ]
+   },
+   {
+    "affix": "-ic",
+    "in_form": "strategic",
+    "meaning_key": "-ic",
+    "also": [
+     "historic",
+     "artistic",
+     "economic"
+    ]
+   },
+   {
+    "affix": "-ist",
+    "in_form": "strategist",
+    "meaning_key": "-ist",
+    "also": [
+     "artist",
+     "scientist",
+     "economist"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our football coach in Samarkand has a clear strategy for every game. He makes strategic changes at half-time, and the players are strategically placed on the field.",
+   "uses": [
+    "strategy",
+    "strategic",
+    "strategically"
+   ]
+  },
+  "reviewer_note": "No -ly affix claimed on strategically (strategic + -ally, no 'strategical' base in common use)."
+ },
+ {
+  "headword": "stroke",
+  "word_id": "6a6ef9b2a6015561480926e4",
+  "word_ids": [
+   "6a6ef9b2a6015561480926e4"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Illness",
+  "sense_pos": "noun",
+  "corpus_definition": "a gentle rub; also a sudden illness affecting the brain",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "stroke",
+    "relation": "base",
+    "definition": "a sudden illness when blood cannot reach part of the brain",
+    "example": "My grandfather had a stroke and could not speak for a month.",
+    "syn": [
+     {
+      "to": "heart attack",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A different sudden illness: a heart attack is in the heart, a stroke is in the brain."
+     },
+     {
+      "to": "seizure",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A sudden attack of an illness, often with shaking; not the same as a stroke."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "stroke",
+    "definition": "to move your hand gently over something many times",
+    "example": "She stroked the cat's soft fur.",
+    "note": "Belongs to stroke = a gentle rub with your hand, not the brain illness."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from stroke."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from stroke."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Last year our neighbour had a stroke. Now she goes to a hospital in Tashkent every week, and she is slowly learning to walk again after the stroke.",
+   "uses": [
+    "stroke",
+    "stroke"
+   ]
+  },
+  "reviewer_note": "CORPUS: one row whose definition mixes two meanings (gentle rub + illness); the example is the illness sense, so the map anchors there and 'gentle rub' is the verb other_meaning. Other stroke meanings (swimming, pen line) not shown."
+ }
+]

@@ -1,0 +1,282 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "nature reserve",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed noun phrase; no forms. Uzbekistan has the Chatkal reserve, so the context is realistic."
+  },
+  {
+   "headword": "navigate",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "navigation"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "navigated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "navigable kept as other_meaning (boats on rivers); no -ly adverb exists."
+  },
+  {
+   "headword": "necessity",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "necessities",
+       "necessity"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "necessitated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No -ity split claimed (necess- is not a word); unnecessary/unnecessarily kept as antonyms."
+  },
+  {
+   "headword": "neglect",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "neglectful: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "neglect"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "neglected"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "negligent/negligence share an old root but are not made from neglect, so they are not_family."
+  },
+  {
+   "headword": "network",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "networks"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "networked"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "network itself is net + work, no affix claimed; networking (career sense) is other_meaning."
+  },
+  {
+   "headword": "neutral",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "neutrality: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "neutrally: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "neutrality"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "neutralize is other_meaning (stop an effect, chemistry), not the taking-no-side meaning."
+  },
+  {
+   "headword": "nightmare",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "nightmarish: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "nightmares"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "nightmare is not split into night + mare (no compound/affix claimed)."
+  },
+  {
+   "headword": "noble",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "verb 'ennoble' is rare (zipf 1.7)"
+    },
+    {
+     "cat": "false affix",
+     "msg": "'nobly' = 'nob' + '-ly', but 'nob' isn't confirmed as related. Real split?"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "ennoble: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "nobly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "nobilities",
+       "nobility"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "ennobled"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "nobler"
+      ],
+      "JJS": [
+       "noblest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "nobleman/noblewoman left out (compounds). The corpus definition covers both 'good character' and 'high rank'; one map with both."
+  },
+  {
+   "headword": "nor",
+   "kind": "function",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Grammar word: kind changed from word to function; inversion after nor is in the usage note."
+  },
+  {
+   "headword": "notification",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: notion"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: noticeable, notifiable"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: notable, notifiable. Check."
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: notably. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "notifications",
+       "notification"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "notified"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "notice has a similar meaning but is not made from notify, so it is not_family."
+  }
+ ]
+}

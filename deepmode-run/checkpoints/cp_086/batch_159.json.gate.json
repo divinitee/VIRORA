@@ -1,0 +1,253 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "persist",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "persistence"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "persisted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "persistent also has a 'lasting' sense (persistent cough); kept in a note on the adjective."
+  },
+  {
+   "headword": "persuade",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "persuasive: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "persuasively: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "persuasions",
+       "persuasion"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "persuaded"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "persuasion/persuasive change the stem (persuade -> persuas-), so no -sion/-ive affix is claimed; dissuade is a separate word, used only as an antonym."
+  },
+  {
+   "headword": "physical health",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed noun phrase; mental health listed as related, not as an antonym."
+  },
+  {
+   "headword": "pine",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: pineal. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "pine: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "pines",
+       "pine"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Homonym trap: verb pine (to miss) is etymologically a separate word, so it is not shown as a family form. Compounds (pine cone, pineapple) left out."
+  },
+  {
+   "headword": "pit",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "pits"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Verb 'pit against' and adjective 'pitted' kept as other_meaning; compounds (armpit, pitfall) left out."
+  },
+  {
+   "headword": "pity",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "pity"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "pitied"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "'It's a pity' (= shame) noted on the noun; pitiable/piteous are rare and left out."
+  },
+  {
+   "headword": "plantation",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: plantal"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "plantations"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "planted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "plantation is made from plant (noun/verb); plant noun shown as an extra in the noun slot. Historical slavery sense of plantation not mentioned."
+  },
+  {
+   "headword": "playful",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: playable"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "playful: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "playfully: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "playfulness"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "played"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is the adjective; verb and noun play are the base of the family. Compounds (playground, playmate) left out."
+  },
+  {
+   "headword": "plot",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "plots"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "plotted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Senses: story (kept), secret plan and piece of land (noted); plotter is other_meaning."
+  },
+  {
+   "headword": "point out",
+   "kind": "phrasal",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Literal 'point out = show with your finger' is not the corpus sense; kept to drawing attention to a fact."
+  }
+ ]
+}

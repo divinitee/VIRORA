@@ -1,0 +1,269 @@
+[
+{"headword": "meadow", "word_id": "6a42883f6941e70ad6a00df3", "word_ids": ["6a42883f6941e70ad6a00df3"], "cefr": "B2", "kind": "word", "sense_label": "Field", "sense_pos": "noun", "corpus_definition": "A field covered in grass and often wild flowers.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "meadow", "relation": "base", "definition": "a field with tall grass and wild flowers, often in the countryside", "example": "Cows were eating in the green meadow.", "syn": [
+    {"to": "field", "relation": "related", "strength": 0.6, "note": "Easy word. A field is any open piece of land; a meadow is a field of grass and flowers."},
+    {"to": "pasture", "relation": "synonym", "strength": 0.8, "note": "Very close, but a pasture is grass land used for feeding cows, sheep or horses."},
+    {"to": "grassland", "relation": "related", "strength": 0.6, "note": "Grassland is a large natural area of grass, much bigger than one meadow."}
+  ], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from meadow."},
+  {"slot": "adjective", "status": "no_form"},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [], "affixes": [],
+ "context": {"text": "Near my grandfather's village in the mountains there is a big meadow. In spring the meadow is full of red tulips, and the shepherds bring their sheep there.", "uses": ["meadow", "meadow"]},
+ "reviewer_note": "Only one family form exists; no person or thing nouns are made from meadow."},
+
+{"headword": "meantime", "word_id": "6a6ef83f0f1e82a5a0736855", "word_ids": ["6a6ef83f0f1e82a5a0736855"], "cefr": "B2", "kind": "word", "sense_label": "Time", "sense_pos": "noun", "corpus_definition": "the time that passes between two events",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "meantime", "relation": "base", "definition": "the time between two events, while you wait for the second one", "example": "In the meantime, you can wait here.", "note": "Almost always used in the phrase 'in the meantime'.", "syn": [
+    {"to": "meanwhile", "relation": "synonym", "strength": 0.95, "note": "Same meaning: 'in the meanwhile' is possible but 'in the meantime' is much more common."},
+    {"to": "interim", "relation": "synonym", "strength": 0.8, "note": "Formal word, often in 'in the interim'.", "register": "formal"}
+  ], "ant": []},
+  {"slot": "verb", "status": "no_form"},
+  {"slot": "adjective", "status": "no_form"},
+  {"slot": "adverb", "status": "existing", "form": "meantime", "relation": "conversion", "definition": "while something else is happening, or until something happens", "example": "Meantime, I'll make us some tea.", "register": "informal", "note": "Less common than 'meanwhile' or 'in the meantime'.", "syn": [
+    {"to": "meanwhile", "relation": "synonym", "strength": 0.95, "note": "Same meaning and more common; use meanwhile in writing."},
+    {"to": "at the same time", "relation": "synonym", "strength": 0.8, "note": "Easy phrase for two things happening together."}
+  ], "ant": []}
+ ],
+ "people": [], "affixes": [],
+ "context": {"text": "The bus to Bukhara leaves at six. In the meantime, we can have lunch at the bazaar. Meantime, my brother will go and buy the tickets.", "uses": ["meantime", "Meantime"]},
+ "reviewer_note": "Meanwhile is a sister word (mean + while), not made from meantime, so it is a synonym, not a form."},
+
+{"headword": "measurement", "word_id": "6a42800cb9d8fc24968a4b56", "word_ids": ["6a42800cb9d8fc24968a4b56"], "cefr": "B2", "kind": "word", "sense_label": "Size", "sense_pos": "noun", "corpus_definition": "The size, length, or amount of something.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "measurement", "relation": "base", "definition": "the size, length or amount of something, found by checking it", "example": "Check the measurement of the box before you post it.", "note": "Also the act of finding the size: 'measurement of temperature'.", "syn": [
+    {"to": "size", "relation": "synonym", "strength": 0.8, "note": "Easy word. Size is how big something is; a measurement is an exact number for it."},
+    {"to": "dimension", "relation": "synonym", "strength": 0.8, "note": "Usually plural: the dimensions of a room are its length, width and height.", "register": "formal"},
+    {"to": "length", "relation": "related", "strength": 0.6, "note": "Length is only one kind of measurement: how long something is."},
+    {"to": "amount", "relation": "related", "strength": 0.4, "note": "An amount is how much of something there is, not always an exact number."}
+  ], "ant": []},
+  {"slot": "noun", "status": "other_meaning", "form": "measure", "definition": "an official action taken to deal with a problem", "example": "The city took new measures to reduce traffic.", "note": "Belongs to measure = an action or plan, not the size of something."},
+  {"slot": "verb", "status": "existing", "form": "measure", "relation": "derivational", "definition": "to find the exact size, length or amount of something", "example": "Please measure the room before you buy a carpet.", "syn": [
+    {"to": "gauge", "relation": "synonym", "strength": 0.8, "note": "Formal; often used for judging something without exact tools.", "register": "formal"},
+    {"to": "weigh", "relation": "related", "strength": 0.6, "note": "Weigh is only for finding how heavy something is."},
+    {"to": "calculate", "relation": "related", "strength": 0.6, "note": "You calculate with numbers; you measure with a tool like a ruler."},
+    {"to": "check", "relation": "related", "strength": 0.4, "note": "Easy, general word: you check the size of something."}
+  ], "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "measurable", "relation": "derivational", "definition": "possible to count or to find the size or amount of", "example": "We want measurable results by the end of the year.", "syn": [
+    {"to": "quantifiable", "relation": "synonym", "strength": 0.95, "note": "Formal, used in science and business.", "register": "formal"},
+    {"to": "noticeable", "relation": "related", "strength": 0.6, "note": "Noticeable means big enough to see, not always counted."}
+  ], "ant": [
+    {"to": "immeasurable", "relation": "antonym", "note": "So large that you cannot count it: 'immeasurable damage'."}
+  ]},
+  {"slot": "adjective", "status": "other_meaning", "form": "measured", "definition": "slow, careful and controlled, not done quickly or angrily", "example": "He gave a calm, measured answer to the angry customer.", "note": "Belongs to measure = thinking carefully before you act, not the size of something."},
+  {"slot": "adverb", "status": "existing", "form": "measurably", "relation": "derivational", "definition": "by an amount that is big enough to notice or count", "example": "The air in Tashkent became measurably cleaner last year.", "register": "formal", "syn": [
+    {"to": "noticeably", "relation": "synonym", "strength": 0.8, "note": "More common; big enough to see, not always counted."},
+    {"to": "significantly", "relation": "related", "strength": 0.6, "note": "Significantly means by a large or important amount."}
+  ], "ant": []}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ment", "in_form": "measurement", "meaning_key": "-ment", "also": ["payment", "agreement", "development"]},
+  {"affix": "-able", "in_form": "measurable", "meaning_key": "-able", "also": ["comfortable", "readable", "washable"]}
+ ],
+ "context": {"text": "Before buying a new sofa, my mother measured the living room. She wrote every measurement in a notebook so the shop could check that the sofa would fit.", "uses": ["measured", "measurement"]},
+ "reviewer_note": "Sense trap: measure (an action, 'safety measures') and measured (careful) are other meanings; map keeps the size sense."},
+
+{"headword": "media", "word_id": "6a42816a2098612b1526f905", "word_ids": ["6a42816a2098612b1526f905"], "cefr": "B2", "kind": "word", "sense_label": "News", "sense_pos": "noun", "corpus_definition": "Ways of communicating information to a large public audience.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "media", "relation": "base", "definition": "TV, radio, newspapers and the internet as ways of sharing news", "example": "The media covered the event all day.", "note": "Used with 'the'. It can take a singular or plural verb: 'the media is / are'.", "syn": [
+    {"to": "the press", "relation": "synonym", "strength": 0.8, "note": "The press is mainly newspapers, magazines and journalists; media also includes TV, radio and the internet."},
+    {"to": "news", "relation": "related", "strength": 0.6, "note": "Easy word. The news is the information; the media are the ways it reaches people."},
+    {"to": "journalism", "relation": "related", "strength": 0.4, "note": "Journalism is the job of collecting and writing the news."}
+  ], "ant": []},
+  {"slot": "noun", "status": "existing", "form": "medium", "relation": "derivational", "definition": "one way of sharing information, such as TV, radio or a newspaper", "example": "Radio is still a popular medium in many villages.", "note": "Media is the plural of medium in this meaning. Medium also means 'middle size', which is a different meaning.", "syn": [
+    {"to": "channel", "relation": "related", "strength": 0.6, "note": "A channel is a way or route for information, or one TV station."},
+    {"to": "means", "relation": "related", "strength": 0.4, "note": "General word for a way of doing something: 'a means of communication'."}
+  ], "ant": []},
+  {"slot": "verb", "status": "no_form", "not_family": ["mediate"], "note": "Mediate (to help two sides agree) comes from the same old Latin root, but it is not made from media."},
+  {"slot": "adjective", "status": "existing", "form": "multimedia", "relation": "derivational", "definition": "using sound, pictures, video and text together", "example": "The teacher gave a multimedia presentation about the Silk Road.", "syn": [
+    {"to": "interactive", "relation": "related", "strength": 0.4, "note": "Interactive means the user can take part, which multimedia programs often allow."},
+    {"to": "digital", "relation": "related", "strength": 0.4, "note": "Digital means made or shown with computers."}
+  ], "ant": []},
+  {"slot": "adverb", "status": "no_form"}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "multi-", "in_form": "multimedia", "meaning_key": "multi-", "also": ["multicultural", "multinational", "multiplayer"]}
+ ],
+ "context": {"text": "The media in Uzbekistan talked about the new metro line all week. Television is still the most popular medium for older people, but young people prefer multimedia news on their phones.", "uses": ["media", "medium", "multimedia"]},
+ "reviewer_note": "Medium kept as the singular of media in this meaning; mediate/mediator are not_family. Compounds like social media are left out."},
+
+{"headword": "memorable", "word_id": "6a6ef83f0f1e82a5a07367ef", "word_ids": ["6a6ef83f0f1e82a5a07367ef"], "cefr": "B2", "kind": "word", "sense_label": "Special", "sense_pos": "adjective", "corpus_definition": "easy to remember because it is very special or interesting",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "memory", "relation": "derivational", "definition": "a moment or event from the past that you can still think about", "example": "I have happy memories of summers at my grandmother's house.", "syn": [
+    {"to": "recollection", "relation": "synonym", "strength": 0.8, "note": "Formal word for something you remember.", "register": "formal"},
+    {"to": "remembrance", "relation": "related", "strength": 0.6, "note": "Formal; usually about remembering people who have died.", "register": "formal"}
+  ], "ant": []},
+  {"slot": "verb", "status": "other_meaning", "form": "memorize", "definition": "to learn something so well that you can say it exactly", "example": "Actors have to memorize long speeches.", "note": "Belongs to memory = learning facts by heart, not something being special. British spelling: memorise."},
+  {"slot": "adjective", "status": "existing", "form": "memorable", "relation": "base", "definition": "so special or interesting that people do not forget it", "example": "We had a memorable trip to Italy.", "syn": [
+    {"to": "unforgettable", "relation": "synonym", "strength": 0.95, "note": "Very close and a little stronger: you will never forget it."},
+    {"to": "special", "relation": "related", "strength": 0.6, "note": "Easy word; special things are often memorable."},
+    {"to": "remarkable", "relation": "related", "strength": 0.6, "note": "Remarkable means unusual and surprising in a way people talk about."},
+    {"to": "notable", "relation": "related", "strength": 0.6, "note": "Formal: important or interesting enough to notice.", "register": "formal"}
+  ], "ant": [
+    {"to": "forgettable", "relation": "antonym", "note": "Not special, so you soon forget it: 'a forgettable film'."},
+    {"to": "ordinary", "relation": "antonym", "note": "Normal and not special in any way."}
+  ]},
+  {"slot": "adverb", "status": "existing", "form": "memorably", "relation": "derivational", "definition": "in a special way that people will not forget", "example": "The singer ended the concert memorably with a famous old song.", "syn": [
+    {"to": "unforgettably", "relation": "synonym", "strength": 0.8, "note": "Stronger: in a way you will never forget."},
+    {"to": "strikingly", "relation": "related", "strength": 0.4, "note": "In a way that gets your attention very strongly."}
+  ], "ant": []}
+ ],
+ "people": [
+  {"form": "memorial", "kind": "thing", "status": "existing", "definition": "a statue or building that helps people remember an event or person", "example": "There is a war memorial in the centre of the town."}
+ ],
+ "affixes": [],
+ "context": {"text": "Our trip to Samarkand was truly memorable. I still have clear memories of the blue domes, and our guide memorably called them 'the sky on earth'.", "uses": ["memorable", "memories", "memorably"]},
+ "reviewer_note": "Memorize is other_meaning here (learning facts, not being special); no affix claimed because memor- is not a word."},
+
+{"headword": "memorize", "word_id": "6a4265cce20c7210db6908e4", "word_ids": ["6a4265cce20c7210db6908e4"], "cefr": "B2", "kind": "word", "sense_label": "Learning", "sense_pos": "verb", "corpus_definition": "To learn information so that you can recall it perfectly later.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "memory", "relation": "derivational", "definition": "your ability to keep facts and information in your mind", "example": "My grandfather has an amazing memory for poems.", "syn": [
+    {"to": "recall", "relation": "related", "strength": 0.6, "note": "Recall is the ability to bring something back into your mind."},
+    {"to": "mind", "relation": "related", "strength": 0.4, "note": "Easy word: the part of you that thinks and keeps information."}
+  ], "ant": []},
+  {"slot": "noun", "status": "existing", "form": "memorization", "relation": "derivational", "definition": "the process of learning facts so that you can say them exactly", "example": "Too much memorization can make lessons boring.", "note": "British spelling: memorisation.", "syn": [
+    {"to": "rote learning", "relation": "synonym", "strength": 0.8, "note": "Learning by repeating many times, often without understanding."},
+    {"to": "learning by heart", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday phrase with the same meaning."}
+  ], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "memorize", "relation": "base", "definition": "to learn something so well that you can say it exactly later", "example": "I must memorize these words for the test.", "note": "British spelling: memorise.", "syn": [
+    {"to": "learn by heart", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday phrase with the same meaning."},
+    {"to": "learn", "relation": "related", "strength": 0.6, "note": "Learn is more general; you can learn something without knowing it word for word."},
+    {"to": "remember", "relation": "related", "strength": 0.6, "note": "You memorize first, and then you remember."}
+  ], "ant": [
+    {"to": "forget", "relation": "antonym", "note": "To lose information from your mind."}
+  ]},
+  {"slot": "adjective", "status": "other_meaning", "form": "memorable", "definition": "so special or interesting that people do not forget it", "example": "Our wedding day was very memorable.", "note": "Belongs to memory = special moments that stay in your mind, not learning facts."},
+  {"slot": "adverb", "status": "other_meaning", "form": "memorably", "definition": "in a special way that people will not forget", "example": "The film ends memorably with a long silence.", "note": "Goes with memorable (special and easy to remember), not with learning facts."}
+ ],
+ "people": [
+  {"form": "memorial", "kind": "thing", "status": "other_meaning", "definition": "a statue or building that helps people remember an event or person", "example": "We put flowers at the memorial on Victory Day.", "note": "Belongs to memory = remembering people or events from the past, not learning facts."}
+ ],
+ "affixes": [
+  {"affix": "-ize", "in_form": "memorize", "meaning_key": "-ize", "also": ["organize", "realize", "apologize"]},
+  {"affix": "-ation", "in_form": "memorization", "meaning_key": "-ation", "also": ["information", "education", "organization"]}
+ ],
+ "context": {"text": "Before the exam, I tried to memorize fifty new words. My teacher says memorization works better if you have a good memory for pictures, so she draws them on the board.", "uses": ["memorize", "memorization", "memory"]},
+ "reviewer_note": "Memorable/memorably are other_meaning (being special, not learning facts). American spellings used; British -ise noted."},
+
+{"headword": "mental", "word_id": "6a4265cce20c7210db6908b9", "word_ids": ["6a4265cce20c7210db6908b9"], "cefr": "B2", "kind": "word", "sense_label": "Mind", "sense_pos": "adjective", "corpus_definition": "Relating to the mind or thinking process.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "mentality", "relation": "derivational", "definition": "the usual way a person or group thinks about things", "example": "Our coach wants us to have a winning mentality.", "syn": [
+    {"to": "mindset", "relation": "synonym", "strength": 0.95, "note": "Very close and very common today."},
+    {"to": "way of thinking", "relation": "synonym", "strength": 0.8, "note": "Easy phrase with almost the same meaning."},
+    {"to": "attitude", "relation": "related", "strength": 0.6, "note": "Attitude is how you think and feel about one thing."},
+    {"to": "outlook", "relation": "related", "strength": 0.6, "note": "Your general view of life and the future."}
+  ], "ant": []},
+  {"slot": "verb", "status": "no_form", "not_family": ["mind"], "note": "There is no common verb made from mental. Mind (as in 'Do you mind?') has the same meaning area but is an old English word, not made from mental."},
+  {"slot": "adjective", "status": "existing", "form": "mental", "relation": "base", "definition": "connected with the mind and the way people think and feel", "example": "Math is good for your mental health.", "note": "Informal British English also uses mental to mean 'crazy'; this is rude and can hurt people.", "syn": [
+    {"to": "psychological", "relation": "synonym", "strength": 0.8, "note": "More formal and scientific; also about feelings and behaviour."},
+    {"to": "intellectual", "relation": "related", "strength": 0.6, "note": "About thinking and learning only, not feelings."},
+    {"to": "emotional", "relation": "related", "strength": 0.4, "note": "About feelings, not thinking."}
+  ], "ant": [
+    {"to": "physical", "relation": "antonym", "note": "Connected with the body: 'physical and mental health'."}
+  ]},
+  {"slot": "adverb", "status": "existing", "form": "mentally", "relation": "derivational", "definition": "in a way that is connected with the mind", "example": "After the long exam I felt mentally tired.", "syn": [
+    {"to": "psychologically", "relation": "synonym", "strength": 0.8, "note": "More formal and scientific."},
+    {"to": "emotionally", "relation": "related", "strength": 0.4, "note": "About feelings, not thinking."}
+  ], "ant": [
+    {"to": "physically", "relation": "antonym", "note": "In a way connected with the body."}
+  ]}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ity", "in_form": "mentality", "meaning_key": "-ity", "also": ["reality", "personality", "nationality"]},
+  {"affix": "-ly", "in_form": "mentally", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+ ],
+ "context": {"text": "Doctors say that sport is good for both your body and your mental health. After a long day at university, I feel mentally tired, so I go for a walk in the park.", "uses": ["mental", "mentally"]},
+ "reviewer_note": "No -al affix claimed (ment- is not a word); rude informal use of mental is noted, not taught. Mind listed as not_family."},
+
+{"headword": "mental health", "word_id": "6a4288ad6941e70ad6a00ea7", "word_ids": ["6a4288ad6941e70ad6a00ea7"], "cefr": "B2", "kind": "phrase", "sense_label": "Mind", "sense_pos": "noun", "corpus_definition": "How you feel inside and how you manage your thoughts.",
+ "usage_note": "Uncountable noun: 'good mental health', 'look after your mental health'. Also used before nouns: 'mental health problems', 'mental health services'.",
+ "relations": [
+  {"to": "wellbeing", "relation": "related", "strength": 0.6, "note": "Feeling healthy and happy in body and mind. Also spelled well-being."},
+  {"to": "sanity", "relation": "related", "strength": 0.4, "note": "Sanity is only about having a healthy, normal mind; it is often used in jokes: 'for my own sanity'."},
+  {"to": "mental illness", "relation": "antonym", "note": "An illness of the mind, such as depression."}
+ ],
+ "context": {"text": "Exams can be hard on your mental health. My teacher in Namangan tells us to sleep well, talk to friends and take short breaks to protect our mental health.", "uses": ["mental health", "mental health"]},
+ "reviewer_note": "Fixed noun phrase; no forms."},
+
+{"headword": "mercy", "word_id": "6a6ef9b2a601556148092846", "word_ids": ["6a6ef9b2a601556148092846"], "cefr": "B2", "kind": "word", "sense_label": "Kindness", "sense_pos": "noun", "corpus_definition": "kindness shown to someone you have power to punish",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "mercy", "relation": "base", "definition": "kindness and forgiveness towards someone you could punish", "example": "The judge showed mercy and gave a lighter sentence.", "note": "Common phrases: 'show mercy', 'beg for mercy', 'at the mercy of'.", "syn": [
+    {"to": "forgiveness", "relation": "synonym", "strength": 0.8, "note": "Forgiveness means you stop being angry; mercy means you also choose not to punish."},
+    {"to": "compassion", "relation": "related", "strength": 0.6, "note": "A strong feeling of wanting to help people who suffer."},
+    {"to": "pity", "relation": "related", "strength": 0.6, "note": "Feeling sorry for someone; mercy is what you do because of it."},
+    {"to": "kindness", "relation": "related", "strength": 0.6, "note": "Easy, general word for being good to people."}
+  ], "ant": [
+    {"to": "cruelty", "relation": "antonym", "note": "Wanting to hurt people or make them suffer."}
+  ]},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from mercy; people say 'show mercy' or 'have mercy on someone'."},
+  {"slot": "adjective", "status": "existing", "form": "merciful", "relation": "derivational", "definition": "kind and ready to forgive instead of punishing", "example": "The king was merciful to his enemies.", "syn": [
+    {"to": "forgiving", "relation": "synonym", "strength": 0.8, "note": "Ready to stop being angry with someone."},
+    {"to": "lenient", "relation": "synonym", "strength": 0.8, "note": "Formal: giving a lighter punishment than expected.", "register": "formal"},
+    {"to": "compassionate", "relation": "related", "strength": 0.6, "note": "Feeling for people who suffer and wanting to help."},
+    {"to": "kind", "relation": "related", "strength": 0.6, "note": "Easy, general word for being good to people."}
+  ], "ant": [
+    {"to": "cruel", "relation": "antonym", "note": "Wanting to hurt people or make them suffer."},
+    {"to": "harsh", "relation": "antonym", "note": "Very strict and unkind: 'a harsh punishment'."}
+  ]},
+  {"slot": "adjective", "status": "existing", "form": "merciless", "relation": "derivational", "definition": "very cruel and showing no kindness or forgiveness", "example": "The merciless boss fired workers for being one minute late.", "syn": [
+    {"to": "ruthless", "relation": "synonym", "strength": 0.95, "note": "Very close: not caring if you hurt people to get what you want."},
+    {"to": "cruel", "relation": "synonym", "strength": 0.8, "note": "Easy word: wanting to hurt people."},
+    {"to": "heartless", "relation": "synonym", "strength": 0.8, "note": "Not feeling any pity for others."}
+  ], "ant": []},
+  {"slot": "adverb", "status": "existing", "form": "mercifully", "relation": "derivational", "definition": "in a kind way, by choosing to forgive instead of punish", "example": "The teacher mercifully gave us one more day for the homework.", "note": "Very often it means 'luckily': 'Mercifully, the rain stopped before the wedding.'", "syn": [
+    {"to": "kindly", "relation": "related", "strength": 0.6, "note": "In a kind way, but not always about punishment."},
+    {"to": "fortunately", "relation": "related", "strength": 0.4, "note": "Close to the common 'luckily' use of this word."}
+  ], "ant": [
+    {"to": "cruelly", "relation": "antonym", "note": "In a way that hurts people on purpose."}
+  ]},
+  {"slot": "adverb", "status": "existing", "form": "mercilessly", "relation": "derivational", "definition": "in a very cruel way, without any pity", "example": "The other boys teased him mercilessly.", "syn": [
+    {"to": "ruthlessly", "relation": "synonym", "strength": 0.95, "note": "Very close: without caring who gets hurt."},
+    {"to": "cruelly", "relation": "synonym", "strength": 0.8, "note": "Easy word with almost the same meaning."}
+  ], "ant": []}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ful", "in_form": "merciful", "meaning_key": "-ful", "also": ["careful", "helpful", "beautiful"]},
+  {"affix": "-less", "in_form": "merciless", "meaning_key": "-less", "also": ["careless", "helpless", "homeless"]}
+ ],
+ "context": {"text": "The young thief asked the judge for mercy. The judge was merciful and sent him to work in the community instead of prison.", "uses": ["mercy", "merciful"]},
+ "reviewer_note": "Merciless is a real -less form (like careless), so it is an entry, not an antonym; 'luckily' use of mercifully noted."},
+
+{"headword": "mighty", "word_id": "6a6ef83f0f1e82a5a073665f", "word_ids": ["6a6ef83f0f1e82a5a073665f"], "cefr": "B2", "kind": "word", "sense_label": "Strength", "sense_pos": "adjective", "corpus_definition": "Very strong and powerful.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "might", "relation": "derivational", "definition": "great power or strength", "example": "He pushed the heavy door with all his might.", "register": "literary", "note": "Not the modal verb might (= maybe); that is a different word.", "syn": [
+    {"to": "strength", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word for being strong."},
+    {"to": "power", "relation": "synonym", "strength": 0.8, "note": "Power can also mean control over people, like a country's military power."},
+    {"to": "force", "relation": "related", "strength": 0.6, "note": "Force is strength used to move or push something."}
+  ], "ant": [
+    {"to": "weakness", "relation": "antonym", "note": "Not having strength or power."}
+  ]},
+  {"slot": "verb", "status": "no_form"},
+  {"slot": "adjective", "status": "existing", "form": "mighty", "relation": "base", "definition": "very strong, powerful and often very big", "example": "The mighty Amu Darya river flows through Karakalpakstan.", "register": "literary", "syn": [
+    {"to": "powerful", "relation": "synonym", "strength": 0.95, "note": "Very close and more common in everyday English."},
+    {"to": "strong", "relation": "synonym", "strength": 0.8, "note": "Easy word; mighty is stronger and sounds like a story."},
+    {"to": "great", "relation": "related", "strength": 0.6, "note": "Great can mean big and important, like 'a great king'."}
+  ], "ant": [
+    {"to": "weak", "relation": "antonym", "note": "Not strong or powerful."},
+    {"to": "feeble", "relation": "antonym", "note": "Very weak, often because of age or illness."}
+  ]},
+  {"slot": "adverb", "status": "existing", "form": "mightily", "relation": "derivational", "definition": "with great power or strength", "example": "The wrestlers fought mightily for the gold medal.", "register": "literary", "note": "In old-fashioned English it can also mean 'very': 'mightily pleased'.", "syn": [
+    {"to": "powerfully", "relation": "synonym", "strength": 0.8, "note": "In a strong way that has a big effect."},
+    {"to": "strongly", "relation": "synonym", "strength": 0.8, "note": "Easy word, very close."}
+  ], "ant": [
+    {"to": "weakly", "relation": "antonym", "note": "Without much strength."}
+  ]},
+  {"slot": "adverb", "status": "other_meaning", "form": "mighty", "definition": "very, used in informal American English", "example": "That soup smells mighty good.", "note": "Belongs to mighty = very, an informal American use, not strength and power."}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-y", "in_form": "mighty", "meaning_key": "-y", "also": ["windy", "sunny", "rainy"]}
+ ],
+ "context": {"text": "The mighty Amu Darya once carried water to the Aral Sea with great might. Today farmers along the river work mightily to save every drop.", "uses": ["mighty", "might", "mightily"]},
+ "reviewer_note": "Noun might (power) is a different word from the modal verb might; informal American adverb mighty = very is other_meaning."}
+]

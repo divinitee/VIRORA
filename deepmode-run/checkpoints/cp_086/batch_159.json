@@ -1,0 +1,1276 @@
+[
+ {
+  "headword": "persist",
+  "word_id": "6a6ef9b2a6015561480927d1",
+  "word_ids": [
+   "6a6ef9b2a6015561480927d1"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Continuing",
+  "sense_pos": "verb",
+  "corpus_definition": "to continue doing something even when it is difficult",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "persistence",
+    "relation": "derivational",
+    "definition": "the quality of not stopping when something is hard",
+    "example": "Her persistence helped her pass the exam on the third try.",
+    "syn": [
+     {
+      "to": "determination",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close: a strong wish to do something even when it is hard."
+     },
+     {
+      "to": "perseverance",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Almost the same meaning; a little more formal.",
+      "register": "formal"
+     },
+     {
+      "to": "patience",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: being calm while you wait or keep trying."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "persist",
+    "relation": "base",
+    "definition": "to keep doing something even when it is hard",
+    "example": "He persisted with his English lessons although he was very busy.",
+    "syn": [
+     {
+      "to": "continue",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Continue is general; persist means you go on even when it is difficult."
+     },
+     {
+      "to": "carry on",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday phrasal verb with a similar meaning."
+     },
+     {
+      "to": "keep going",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal and easy: do not stop."
+     },
+     {
+      "to": "persevere",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close; a little more formal.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "give up",
+      "relation": "antonym",
+      "note": "To stop trying because something is too hard."
+     },
+     {
+      "to": "quit",
+      "relation": "antonym",
+      "note": "To stop doing something, often before it is finished."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "persistent",
+    "relation": "derivational",
+    "definition": "not stopping trying, even when others say no",
+    "example": "The persistent salesman called us every day for a week.",
+    "note": "Also means 'lasting a long time': a persistent cough, persistent rain.",
+    "syn": [
+     {
+      "to": "determined",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close: you really want to do it and will not stop."
+     },
+     {
+      "to": "stubborn",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related but negative: not willing to change your mind."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "persistently",
+    "relation": "derivational",
+    "definition": "in a way that continues and does not stop",
+    "example": "The child persistently asked for ice cream.",
+    "syn": [
+     {
+      "to": "constantly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: all the time, again and again."
+     },
+     {
+      "to": "repeatedly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: many times; persistently adds the idea of not giving up."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ence",
+    "in_form": "persistence",
+    "meaning_key": "-ence",
+    "also": [
+     "existence",
+     "difference",
+     "independence"
+    ]
+   },
+   {
+    "affix": "-ent",
+    "in_form": "persistent",
+    "meaning_key": "-ent",
+    "also": [
+     "different",
+     "dependent",
+     "excellent"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "persistently",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "carefully"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Aziz failed his driving test twice, but he persisted. His teacher said his persistence was the reason he finally passed.",
+   "uses": [
+    "persisted",
+    "persistence"
+   ]
+  },
+  "reviewer_note": "persistent also has a 'lasting' sense (persistent cough); kept in a note on the adjective."
+ },
+ {
+  "headword": "persuade",
+  "word_id": "6a42818546ba24054c1dcb49",
+  "word_ids": [
+   "6a42818546ba24054c1dcb49"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Convincing",
+  "sense_pos": "verb",
+  "corpus_definition": "To make someone agree with you by talking.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "persuasion",
+    "relation": "derivational",
+    "definition": "the act of making someone agree or do something by talking",
+    "example": "After a lot of persuasion, my father let me go to the concert.",
+    "syn": [
+     {
+      "to": "influence",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: the power to change what people think or do."
+     },
+     {
+      "to": "argument",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: the reasons you give to make someone agree."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "persuade",
+    "relation": "base",
+    "definition": "to make someone agree or do something by giving reasons",
+    "example": "I persuaded my sister to come to Samarkand with us.",
+    "syn": [
+     {
+      "to": "convince",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close. convince someone to do something = persuade someone to do something."
+     },
+     {
+      "to": "talk into",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal phrasal verb: 'She talked me into buying it.'",
+      "register": "informal"
+     },
+     {
+      "to": "encourage",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: you give support, but the person may still say no."
+     },
+     {
+      "to": "urge",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: you ask strongly; it does not mean they agree."
+     }
+    ],
+    "ant": [
+     {
+      "to": "dissuade",
+      "relation": "antonym",
+      "note": "Formal: to make someone decide NOT to do something.",
+      "register": "formal"
+     },
+     {
+      "to": "discourage",
+      "relation": "antonym",
+      "note": "To try to stop someone from doing something."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "persuasive",
+    "relation": "derivational",
+    "definition": "good at making people agree with you",
+    "example": "She gave a very persuasive speech about saving water.",
+    "syn": [
+     {
+      "to": "convincing",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close: it makes you believe it is true."
+     },
+     {
+      "to": "compelling",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Strong and interesting, so you have to agree.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "unconvincing",
+      "relation": "antonym",
+      "note": "Not able to make people believe or agree."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "persuasively",
+    "relation": "derivational",
+    "definition": "in a way that makes people agree with you",
+    "example": "He spoke so persuasively that everyone voted for his plan.",
+    "syn": [
+     {
+      "to": "convincingly",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close in meaning."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "persuasively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "carefully"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My friend tried to persuade me to join the football team. He was very persuasive, so I said yes.",
+   "uses": [
+    "persuade",
+    "persuasive"
+   ]
+  },
+  "reviewer_note": "persuasion/persuasive change the stem (persuade -> persuas-), so no -sion/-ive affix is claimed; dissuade is a separate word, used only as an antonym."
+ },
+ {
+  "headword": "physical health",
+  "word_id": "6a4288ad6941e70ad6a00e82",
+  "word_ids": [
+   "6a4288ad6941e70ad6a00e82"
+  ],
+  "cefr": "B2",
+  "kind": "phrase",
+  "sense_label": "Body",
+  "sense_pos": "noun",
+  "corpus_definition": "The state of your body being strong and free from sickness.",
+  "usage_note": "Uncountable noun phrase: good / poor physical health; for your physical health; often paired with mental health: 'physical and mental health'.",
+  "relations": [
+   {
+    "to": "fitness",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Related: how strong your body is, mostly from exercise."
+   },
+   {
+    "to": "health",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "More general: it can mean the body, the mind, or both."
+   },
+   {
+    "to": "wellbeing",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Wider: feeling healthy and happy in body and mind. US spelling: well-being."
+   },
+   {
+    "to": "mental health",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Not the same: it is about your mind, not your body. The two are often used together."
+   },
+   {
+    "to": "illness",
+    "relation": "antonym",
+    "note": "The state of being sick in your body."
+   }
+  ],
+  "context": {
+   "text": "Walking every day is good for your physical health. My grandmother is 80, but her physical health is still very good.",
+   "uses": [
+    "physical health"
+   ]
+  },
+  "reviewer_note": "Fixed noun phrase; mental health listed as related, not as an antonym."
+ },
+ {
+  "headword": "pine",
+  "word_id": "6a6ef9b2a6015561480927d2",
+  "word_ids": [
+   "6a6ef9b2a6015561480927d2"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Tree",
+  "sense_pos": "noun",
+  "corpus_definition": "A tall evergreen tree with thin sharp leaves.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "pine",
+    "relation": "base",
+    "definition": "a tall tree with thin, sharp leaves that stay green all year",
+    "example": "We had a picnic under the pine trees in the mountains near Chimgan.",
+    "note": "Also the wood of this tree: a pine table.",
+    "syn": [
+     {
+      "to": "conifer",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: any tree with cones and thin leaves; pine is one kind.",
+      "register": "formal"
+     },
+     {
+      "to": "fir",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: another tall evergreen tree that looks similar."
+     },
+     {
+      "to": "evergreen",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: any tree that keeps its leaves all year."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "The verb pine (to feel very sad because you miss someone: pine for home) is a different word with the same spelling, not part of the tree family."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "Use the noun before another noun: pine forest, pine wood."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "There is a beautiful pine forest in the mountains. In winter the pine trees are still green.",
+   "uses": [
+    "pine"
+   ]
+  },
+  "reviewer_note": "Homonym trap: verb pine (to miss) is etymologically a separate word, so it is not shown as a family form. Compounds (pine cone, pineapple) left out."
+ },
+ {
+  "headword": "pit",
+  "word_id": "6a6ef83f0f1e82a5a07367b4",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367b4"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Hole",
+  "sense_pos": "noun",
+  "corpus_definition": "A large deep hole in the ground.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "pit",
+    "relation": "base",
+    "definition": "a large deep hole in the ground",
+    "example": "The workers dug a pit to plant the old tree.",
+    "note": "Also a coal mine (UK), and in American English the hard seed of some fruit.",
+    "syn": [
+     {
+      "to": "hole",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; a pit is usually large and deep."
+     },
+     {
+      "to": "hollow",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: a low place in the ground, not always deep."
+     },
+     {
+      "to": "crater",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: a large round hole made by something hitting the ground."
+     },
+     {
+      "to": "ditch",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: a long narrow hole next to a road or field."
+     }
+    ],
+    "ant": [
+     {
+      "to": "mound",
+      "relation": "antonym",
+      "note": "A small hill or pile of earth that rises above the ground."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "pit",
+    "definition": "to make a person or team compete against another",
+    "example": "The final will pit the two best teams against each other.",
+    "note": "Belongs to pit = a place where animals were made to fight; used as 'pit A against B', not about digging holes."
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "pitted",
+    "definition": "covered with small holes or marks",
+    "example": "The old road was pitted with small holes after the winter.",
+    "note": "Belongs to pit = a small mark or hole on a surface, not a large hole in the ground."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Near the village there is an old pit where people once took sand for building. Now it is full of rainwater in spring.",
+   "uses": [
+    "pit"
+   ]
+  },
+  "reviewer_note": "Verb 'pit against' and adjective 'pitted' kept as other_meaning; compounds (armpit, pitfall) left out."
+ },
+ {
+  "headword": "pity",
+  "word_id": "6a6ef83f0f1e82a5a07366c6",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07366c6"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Feeling",
+  "sense_pos": "noun",
+  "corpus_definition": "A feeling of sadness for someone else's trouble.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "pity",
+    "relation": "base",
+    "definition": "a feeling of sadness for a person or animal in trouble",
+    "example": "I felt pity for the lost dog in the rain.",
+    "note": "'It's a pity' means 'it's sad or disappointing': It's a pity you can't come.",
+    "syn": [
+     {
+      "to": "sympathy",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close: you understand and share someone's sadness."
+     },
+     {
+      "to": "compassion",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close and stronger: you feel sorry and want to help."
+     },
+     {
+      "to": "sorrow",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: deep sadness, often about your own loss.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "indifference",
+      "relation": "antonym",
+      "note": "Not caring at all about someone's trouble."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "pity",
+    "relation": "conversion",
+    "definition": "to feel sorry for someone because they are in trouble",
+    "example": "I pity anyone who has to drive in this snow.",
+    "syn": [
+     {
+      "to": "feel sorry for",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday phrase with the same meaning."
+     },
+     {
+      "to": "sympathize with",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Understand and share someone's feelings. British spelling: sympathise."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "pitiful",
+    "relation": "derivational",
+    "definition": "making you feel sad and sorry for someone",
+    "example": "The hungry kitten made a pitiful sound.",
+    "note": "Informally it can also mean 'very bad': a pitiful excuse.",
+    "syn": [
+     {
+      "to": "pathetic",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; in informal English it often means 'very bad' too."
+     },
+     {
+      "to": "sad",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word for unhappy things."
+     },
+     {
+      "to": "miserable",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: very unhappy or in a very bad state."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "pitiless",
+    "relation": "derivational",
+    "definition": "cruel and feeling no sadness for others",
+    "example": "The pitiless sun burned the fields all summer.",
+    "register": "literary",
+    "syn": [
+     {
+      "to": "cruel",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: wanting others to suffer or not caring."
+     },
+     {
+      "to": "heartless",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close: having no kind feelings."
+     }
+    ],
+    "ant": [
+     {
+      "to": "merciful",
+      "relation": "antonym",
+      "note": "Kind and ready to forgive or help."
+     },
+     {
+      "to": "compassionate",
+      "relation": "antonym",
+      "note": "Feeling sorry for others and wanting to help."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "pitying",
+    "relation": "participial",
+    "definition": "showing that you feel sorry for someone",
+    "example": "She gave me a pitying look when I dropped my phone.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "pitifully",
+    "relation": "derivational",
+    "definition": "in a way that makes people feel sad and sorry",
+    "example": "The little boy cried pitifully when he lost his mother in the market.",
+    "syn": [
+     {
+      "to": "pathetically",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; can also mean 'very badly'."
+     },
+     {
+      "to": "sadly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ful",
+    "in_form": "pitiful",
+    "meaning_key": "-ful",
+    "also": [
+     "careful",
+     "helpful",
+     "beautiful"
+    ]
+   },
+   {
+    "affix": "-less",
+    "in_form": "pitiless",
+    "meaning_key": "-less",
+    "also": [
+     "careless",
+     "homeless",
+     "helpless"
+    ]
+   },
+   {
+    "affix": "-ing",
+    "in_form": "pitying",
+    "meaning_key": "-ing",
+    "also": [
+     "interesting",
+     "boring",
+     "loving"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "pitifully",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "carefully"
+    ]
+   }
+  ],
+  "context": {
+   "text": "We found a cat with a hurt leg near the bazaar. It looked so pitiful that we all felt pity for it and took it to a vet.",
+   "uses": [
+    "pitiful",
+    "pity"
+   ]
+  },
+  "reviewer_note": "'It's a pity' (= shame) noted on the noun; pitiable/piteous are rare and left out."
+ },
+ {
+  "headword": "plantation",
+  "word_id": "6a6ef83f0f1e82a5a0736779",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736779"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Farm",
+  "sense_pos": "noun",
+  "corpus_definition": "A large area of land where crops are grown.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "plantation",
+    "relation": "base",
+    "definition": "a large farm where one crop, like cotton or tea, is grown",
+    "example": "They work on a large coffee plantation in Brazil.",
+    "syn": [
+     {
+      "to": "estate",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close: a large area of land, often a tea or coffee estate."
+     },
+     {
+      "to": "farm",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; a plantation is usually very big and grows one crop."
+     },
+     {
+      "to": "orchard",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: land with fruit trees, usually smaller."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "plant",
+    "relation": "derivational",
+    "definition": "a living thing with roots and leaves that grows in soil",
+    "example": "My mother has many plants in the garden.",
+    "note": "Also a factory or power station: a power plant.",
+    "syn": [
+     {
+      "to": "crop",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: plants that farmers grow for food or money."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "plant",
+    "relation": "derivational",
+    "definition": "to put seeds or young trees in the ground to grow",
+    "example": "Farmers plant cotton in April in Uzbekistan.",
+    "syn": [
+     {
+      "to": "sow",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close, but only for seeds: sow wheat."
+     },
+     {
+      "to": "grow",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: to take care of plants so they get bigger."
+     }
+    ],
+    "ant": [
+     {
+      "to": "uproot",
+      "relation": "antonym",
+      "note": "To pull a plant out of the ground with its roots."
+     },
+     {
+      "to": "harvest",
+      "relation": "antonym",
+      "note": "To collect the crop at the end of the season."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [
+   {
+    "form": "planter",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who owns or manages a large farm growing one crop",
+    "example": "The tea planter showed us his fields.",
+    "note": "Also a large pot for growing plants."
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-ation",
+    "in_form": "plantation",
+    "meaning_key": "-ation",
+    "also": [
+     "information",
+     "education",
+     "invitation"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "planter",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "driver",
+     "farmer"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My uncle works on a big tea plantation. Every spring the workers plant new bushes, and every summer they pick the leaves.",
+   "uses": [
+    "plantation",
+    "plant"
+   ]
+  },
+  "reviewer_note": "plantation is made from plant (noun/verb); plant noun shown as an extra in the noun slot. Historical slavery sense of plantation not mentioned."
+ },
+ {
+  "headword": "playful",
+  "word_id": "6a42659782466c80f8ae0cd5",
+  "word_ids": [
+   "6a42659782466c80f8ae0cd5"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Fun",
+  "sense_pos": "adjective",
+  "corpus_definition": "Full of energy and wanting to have fun.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "playfulness",
+    "relation": "derivational",
+    "definition": "the quality of being full of fun and energy",
+    "example": "We love the playfulness of our new puppy.",
+    "syn": [
+     {
+      "to": "fun",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: enjoyment and pleasure."
+     },
+     {
+      "to": "liveliness",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: being full of energy."
+     }
+    ],
+    "ant": [
+     {
+      "to": "seriousness",
+      "relation": "antonym",
+      "note": "Being quiet and not joking."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "play",
+    "relation": "derivational",
+    "definition": "activities that children do for fun",
+    "example": "Children learn a lot through play.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "play",
+    "relation": "derivational",
+    "definition": "to do things for fun, like games or sport",
+    "example": "The children played in the park all afternoon.",
+    "syn": [
+     {
+      "to": "have fun",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrase: enjoy yourself."
+     },
+     {
+      "to": "amuse yourself",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Do something to pass the time in a fun way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "work",
+      "relation": "antonym",
+      "note": "To do a job or a task, not for fun."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "playful",
+    "relation": "base",
+    "definition": "full of energy and wanting to have fun",
+    "example": "The puppy was very playful this morning.",
+    "note": "Also 'not serious, joking': a playful smile.",
+    "syn": [
+     {
+      "to": "frisky",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close, used mostly for animals and children: full of energy and fun."
+     },
+     {
+      "to": "lively",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: full of energy."
+     },
+     {
+      "to": "cheerful",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: happy and positive."
+     },
+     {
+      "to": "mischievous",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: playful in a slightly naughty way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "serious",
+      "relation": "antonym",
+      "note": "Quiet, careful and not joking."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "playfully",
+    "relation": "derivational",
+    "definition": "in a fun way that is not serious",
+    "example": "She playfully threw a snowball at her brother.",
+    "syn": [
+     {
+      "to": "jokingly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close: as a joke."
+     },
+     {
+      "to": "teasingly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: joking with someone in a friendly way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "seriously",
+      "relation": "antonym",
+      "note": "In a way that is not joking."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "form": "player",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who takes part in a game or sport",
+    "example": "Each player gets five cards at the start."
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-ful",
+    "in_form": "playful",
+    "meaning_key": "-ful",
+    "also": [
+     "careful",
+     "helpful",
+     "beautiful"
+    ]
+   },
+   {
+    "affix": "-ness",
+    "in_form": "playfulness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "happiness",
+     "sadness"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "playfully",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "carefully"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "player",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "driver",
+     "singer"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our cat is very playful in the morning. She likes to play with a ball and playfully jumps on my feet.",
+   "uses": [
+    "playful",
+    "play",
+    "playfully"
+   ]
+  },
+  "reviewer_note": "Headword is the adjective; verb and noun play are the base of the family. Compounds (playground, playmate) left out."
+ },
+ {
+  "headword": "plot",
+  "word_id": "6a6ef9b2a6015561480926b4",
+  "word_ids": [
+   "6a6ef9b2a6015561480926b4"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Story",
+  "sense_pos": "noun",
+  "corpus_definition": "The series of events that form the story of a book.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "plot",
+    "relation": "base",
+    "definition": "the events that make up the story of a book or film",
+    "example": "The movie has a very complex plot.",
+    "note": "Other meanings: a secret plan to do something bad; a small piece of land (a garden plot).",
+    "syn": [
+     {
+      "to": "storyline",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Almost the same meaning."
+     },
+     {
+      "to": "story",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; story can mean the whole book, plot is the order of events."
+     },
+     {
+      "to": "narrative",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "More formal word for a story.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "plot",
+    "relation": "conversion",
+    "definition": "to plan the events of a story",
+    "example": "The writer plotted the whole novel before she wrote the first page.",
+    "note": "More often it means 'to plan something bad in secret': They plotted to steal the money.",
+    "syn": [
+     {
+      "to": "plan",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: to decide what will happen."
+     },
+     {
+      "to": "outline",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: to give the main points of a story."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [
+   {
+    "form": "plotter",
+    "kind": "person",
+    "status": "other_meaning",
+    "definition": "a person who makes secret plans to do something bad",
+    "example": "The police caught the plotters before they could act.",
+    "note": "Belongs to plot = a secret plan, not the story of a book."
+   }
+  ],
+  "affixes": [],
+  "context": {
+   "text": "I didn't like the plot of the new film. It felt like the writers plotted it in one afternoon.",
+   "uses": [
+    "plot",
+    "plotted"
+   ]
+  },
+  "reviewer_note": "Senses: story (kept), secret plan and piece of land (noted); plotter is other_meaning."
+ },
+ {
+  "headword": "point out",
+  "word_id": "6a4265cce20c7210db6908c9",
+  "word_ids": [
+   "6a4265cce20c7210db6908c9"
+  ],
+  "cefr": "B2",
+  "kind": "phrasal",
+  "sense_label": "Attention",
+  "sense_pos": "verb",
+  "corpus_definition": "To draw attention to a specific fact.",
+  "particle_note": "Separable: 'point out the mistake' or 'point the mistake out'; with a pronoun only 'point it out'. Often followed by a that-clause: 'She pointed out that the shop was closed.' Also 'point something out to someone'.",
+  "relations": [
+   {
+    "to": "draw attention to",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Same meaning; a little more formal."
+   },
+   {
+    "to": "highlight",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Show that something is important."
+   },
+   {
+    "to": "indicate",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Formal: show or say something clearly.",
+    "register": "formal"
+   },
+   {
+    "to": "mention",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Related: say something quickly, without making it important."
+   },
+   {
+    "to": "show",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Easy, general word."
+   },
+   {
+    "to": "overlook",
+    "relation": "antonym",
+    "note": "To not notice or not mention something."
+   },
+   {
+    "to": "ignore",
+    "relation": "antonym",
+    "note": "To pay no attention to something on purpose."
+   }
+  ],
+  "context": {
+   "text": "My teacher pointed out two mistakes in my essay. She also pointed out that my ideas were very good.",
+   "uses": [
+    "pointed out"
+   ]
+  },
+  "reviewer_note": "Literal 'point out = show with your finger' is not the corpus sense; kept to drawing attention to a fact."
+ }
+]

@@ -1,0 +1,270 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "cease",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cessations",
+       "cessation"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "ceased"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Cease is formal; everyday 'stop' given as the easy synonym. Cessation kept as the noun (formal), not hidden."
+  },
+  {
+   "headword": "chaos",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'chaotically' is rare (zipf 1.9)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "chaotically: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "chaos"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No affix claimed: chaotic/chaotically add -t- and do not split cleanly. No verb exists."
+  },
+  {
+   "headword": "cherish",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "cherished"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Only verb and participle adjective exist; noun and adverb are honest no_form."
+  },
+  {
+   "headword": "chronicle",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: chronically. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "chronicles"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "chronicled"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun and verb (conversion) both in the record sense; chronological listed as not_family."
+  },
+  {
+   "headword": "clan",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adjective 'clannish' is rare (zipf 1.6)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "clans"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Clannish kept as an existing adjective (disapproving); no -ish affix claimed because of the doubled n. Clansman is a compound, left out."
+  },
+  {
+   "headword": "cluster",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "clustered: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "clusters"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "clustered"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun, verb (conversion) and participle adjective all in the 'close group' sense; no adverb."
+  },
+  {
+   "headword": "coincide",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "coincide: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "coincidences",
+       "coincidence"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "coincided"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Coincidence kept in this sense (things happening together by chance); the 'agree' sense of coincide only mentioned in a note."
+  },
+  {
+   "headword": "colonel",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; real words that look related: colonise, colonize. Check."
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: colonic. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "colonels"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Person noun headword stays in its own noun slot; no family forms exist. Pronunciation trap noted."
+  },
+  {
+   "headword": "commerce",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "commercially: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "commerce"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "commercialized"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Commercial (noun = TV advert) kept as other_meaning extra in the noun slot; adjective commercial is the main family adjective."
+  },
+  {
+   "headword": "compassion",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "compassion"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Corpus definition says 'sadness'; map defines it as sympathy plus a wish to help, which is the learner-dictionary sense."
+  }
+ ]
+}

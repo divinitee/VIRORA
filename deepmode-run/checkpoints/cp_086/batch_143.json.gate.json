@@ -1,0 +1,303 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "go off",
+   "kind": "phrasal",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Only the food sense; other senses of go off (an alarm rings, a bomb explodes, someone leaves) are not included."
+  },
+  {
+   "headword": "gossip",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "verb definition has rare words: unkindly"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "gossipy: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "gossips",
+       "gossip"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "gossiped",
+       "gossipped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "The person sense of gossip (same spelling) is only in the noun note, not repeated in People & things."
+  },
+  {
+   "headword": "grapefruit",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "grapefruit: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "grapefruits",
+       "grapefruit"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-word food noun; no family forms exist. Not linked to grape."
+  },
+  {
+   "headword": "grasp",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: gray"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "grasped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Map keeps the 'understand' sense only; the physical 'hold tightly' sense of grasp is left out. grasping (greedy) is other_meaning."
+  },
+  {
+   "headword": "greed",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: grey"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "noun 'greediness' is rare (zipf 1.9)"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; real words that look related: green. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "greed: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "greedily: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "greed"
+      ]
+     },
+     "irregular": true
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "greedier"
+      ],
+      "JJS": [
+       "greediest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "greed is the base and greedy is made from it with -y; greediness kept as a less common extra noun."
+  },
+  {
+   "headword": "grief",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "grief: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "grieve: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "grieving: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "griefs",
+       "grief"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "grieved"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "grievance, grievous, grievously share the root but belong to the 'harm / unfair' meaning, so they are other_meaning."
+  },
+  {
+   "headword": "grind",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "ground",
+       "grinded"
+      ],
+      "VBN": [
+       "ground"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Trap: participle 'ground' is spelled like the noun ground (earth); noted. Noun grind (daily grind) is other_meaning."
+  },
+  {
+   "headword": "grip",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "grips",
+       "grip"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "gripped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "gripping (exciting) is other_meaning; noun grip is a same-spelling conversion."
+  },
+  {
+   "headword": "grocer",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "grocer: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "grocers"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is a person noun, so it stays the main noun entry; grocery (shop) and groceries (food) go in People & things. greengrocer is a compound, left out."
+  },
+  {
+   "headword": "growl",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'grower' (zipf 3.0) may belong here"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "growl: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "growl: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "growling: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "growls"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "growled"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Not related to grow; growl is its own word."
+  }
+ ]
+}

@@ -1,0 +1,732 @@
+[
+ {
+  "headword": "valuable",
+  "word_id": "6a42800cb9d8fc24968a4b89",
+  "word_ids": ["6a42800cb9d8fc24968a4b89"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "General",
+  "sense_pos": "adjective",
+  "corpus_definition": "worth a lot of money or very important",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "value",
+    "relation": "derivational",
+    "definition": "how much money something is worth, or how important or useful it is",
+    "example": "The value of this old house has doubled in ten years.",
+    "syn": [
+     {"to": "worth", "relation": "synonym", "strength": 0.95, "note": "Very close; worth is a little less common as a noun."},
+     {"to": "price", "relation": "related", "strength": 0.6, "note": "Easy word. The price is what you pay in a shop; the real value can be higher or lower."},
+     {"to": "importance", "relation": "related", "strength": 0.6, "note": "Used for the 'very important' meaning: the importance of education."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "valuation",
+    "relation": "derivational",
+    "definition": "an expert's opinion of how much money something is worth",
+    "example": "The bank asked for a valuation of the flat before giving the loan.",
+    "register": "formal",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "value",
+    "relation": "derivational",
+    "definition": "to think that someone or something is very important; also, to decide how much money something is worth",
+    "example": "I really value my friends from university.",
+    "syn": [
+     {"to": "appreciate", "relation": "synonym", "strength": 0.8, "note": "Close; appreciate also means 'be thankful for'."},
+     {"to": "treasure", "relation": "synonym", "strength": 0.8, "note": "Stronger and warmer: you treasure memories or gifts from people you love."},
+     {"to": "prize", "relation": "synonym", "strength": 0.8, "note": "A little formal; often used in the passive: 'highly prized'."},
+     {"to": "respect", "relation": "related", "strength": 0.6, "note": "You respect a person's ideas or work; value is wider."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "evaluate",
+    "definition": "to study something carefully and decide how good or useful it is",
+    "example": "Teachers evaluate each student's speaking at the end of the course.",
+    "note": "Belongs to value = judging quality (tests, work, ideas), not being worth a lot of money."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "valuable",
+    "relation": "base",
+    "definition": "worth a lot of money, or very useful and important",
+    "example": "Keep your valuable things in the hotel safe.",
+    "syn": [
+     {"to": "precious", "relation": "synonym", "strength": 0.8, "note": "Very close for jewellery, metals and things you love: precious stones, precious time."},
+     {"to": "expensive", "relation": "related", "strength": 0.6, "note": "Easy word; expensive is only about a high price."},
+     {"to": "useful", "relation": "related", "strength": 0.6, "note": "Easy word for the 'very important' meaning: useful advice, valuable advice."},
+     {"to": "priceless", "relation": "synonym", "strength": 0.8, "note": "Stronger: so valuable that you cannot put a price on it."},
+     {"to": "important", "relation": "related", "strength": 0.6, "note": "Easy word; used when something is not about money."}
+    ],
+    "ant": [
+     {"to": "worthless", "relation": "antonym", "note": "Having no value or use at all."},
+     {"to": "cheap", "relation": "antonym", "note": "Easy word: costing little money."},
+     {"to": "useless", "relation": "antonym", "note": "Not useful in any way; opposite of the 'very important' meaning."}
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "invaluable",
+    "relation": "derivational",
+    "definition": "extremely useful or important, so useful that nobody can say how much it is worth",
+    "example": "Your help with my English homework was invaluable.",
+    "note": "False friend: in- here does NOT mean 'not'. Invaluable means even more useful than valuable. The opposite is worthless.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "valued",
+    "relation": "participial",
+    "definition": "thought to be very important and useful by other people",
+    "example": "Dilnoza is a valued member of our team.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no common adverb; valuably is very rare."
+   }
+  ],
+  "people": [
+   {
+    "form": "valuables",
+    "kind": "thing",
+    "status": "existing",
+    "definition": "small things you own that are worth a lot of money, like jewellery",
+    "example": "Please do not leave your valuables in the car.",
+    "note": "Always plural."
+   }
+  ],
+  "affixes": [
+   {"affix": "-able", "in_form": "valuable", "meaning_key": "-able", "also": ["comfortable", "enjoyable", "acceptable"]},
+   {"affix": "-ation", "in_form": "valuation", "meaning_key": "-ation", "also": ["information", "invitation", "education"]}
+  ],
+  "context": {
+   "text": "My grandmother's old carpet from Bukhara is very valuable. An expert came to do a valuation, but we will never sell it. We value it because she made it by hand.",
+   "uses": ["valuable", "valuation", "value"]
+  },
+  "reviewer_note": "Trap: invaluable is a false friend (in- does not mean 'not'); kept as an existing extra with a note and no in- affix. Valuables (plural noun) placed in People & things. evaluate shown as other_meaning (judging quality)."
+ },
+ {
+  "headword": "vast",
+  "word_id": "6a6ef83f0f1e82a5a07366df",
+  "word_ids": ["6a6ef83f0f1e82a5a07366df"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Size",
+  "sense_pos": "adjective",
+  "corpus_definition": "Extremely large in size, area, or amount.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "vastness",
+    "relation": "derivational",
+    "definition": "the very great size of a place or area",
+    "example": "We were amazed by the vastness of the desert.",
+    "register": "literary",
+    "syn": [
+     {"to": "immensity", "relation": "synonym", "strength": 0.8, "note": "Very close but more formal and less common."},
+     {"to": "size", "relation": "related", "strength": 0.4, "note": "Easy word; size can be big or small."},
+     {"to": "expanse", "relation": "related", "strength": 0.6, "note": "A wide open area of land, sea or sky."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb made from vast."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "vast",
+    "relation": "base",
+    "definition": "extremely large in size, area or amount",
+    "example": "Uzbekistan has vast deserts in the west.",
+    "syn": [
+     {"to": "huge", "relation": "synonym", "strength": 0.95, "note": "Easy and very common; almost the same meaning."},
+     {"to": "enormous", "relation": "synonym", "strength": 0.95, "note": "Almost the same meaning."},
+     {"to": "immense", "relation": "synonym", "strength": 0.95, "note": "Almost the same, a little more formal."},
+     {"to": "large", "relation": "synonym", "strength": 0.8, "note": "Easy word, but much weaker than vast."},
+     {"to": "extensive", "relation": "related", "strength": 0.6, "note": "Covering a large area or including a lot: extensive gardens."}
+    ],
+    "ant": [
+     {"to": "tiny", "relation": "antonym", "note": "Easy word: extremely small."},
+     {"to": "small", "relation": "antonym", "note": "Easy word: not large."}
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "vastly",
+    "relation": "derivational",
+    "definition": "very much; to a very great degree",
+    "example": "Life in the city is vastly different from life in the village.",
+    "note": "Used before adjectives and verbs: vastly different, vastly improved.",
+    "syn": [
+     {"to": "hugely", "relation": "synonym", "strength": 0.8, "note": "Very close; a little informal."},
+     {"to": "greatly", "relation": "synonym", "strength": 0.8, "note": "Close; often used with verbs: greatly improved."},
+     {"to": "much", "relation": "related", "strength": 0.6, "note": "Easy word: much better, much bigger."}
+    ],
+    "ant": [
+     {"to": "slightly", "relation": "antonym", "note": "A little; to a small degree."}
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {"affix": "-ness", "in_form": "vastness", "meaning_key": "-ness", "also": ["kindness", "happiness", "darkness"]},
+   {"affix": "-ly", "in_form": "vastly", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+  ],
+  "context": {
+   "text": "The Kyzylkum is a vast desert. When you stand in it, you feel small next to its vastness. Travel there today is vastly easier than it was a hundred years ago.",
+   "uses": ["vast", "vastness", "vastly"]
+  },
+  "reviewer_note": "vastly means 'to a great degree', not 'in a vast way'; definition written for that use."
+ },
+ {
+  "headword": "vein",
+  "word_id": "6a4288ad6941e70ad6a00e9d",
+  "word_ids": ["6a4288ad6941e70ad6a00e9d", "6a6ef83f0f1e82a5a07366b7"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Body",
+  "sense_pos": "noun",
+  "corpus_definition": "A tube that carries blood back to the central organ.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "vein",
+    "relation": "base",
+    "definition": "one of the thin tubes that carry blood back to your heart",
+    "example": "The nurse found a vein in his arm.",
+    "syn": [
+     {"to": "blood vessel", "relation": "synonym", "strength": 0.8, "note": "Any tube that carries blood; veins are one kind."},
+     {"to": "artery", "relation": "related", "strength": 0.4, "note": "An artery carries blood away from the heart; a vein carries it back."},
+     {"to": "capillary", "relation": "related", "strength": 0.4, "note": "A very thin blood tube between arteries and veins."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "The verb vein (to mark with thin lines) is very rare and not used by learners."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "veined",
+    "relation": "derivational",
+    "definition": "having thin lines that you can see, like blood tubes under the skin",
+    "example": "My grandfather's old hands were thin and veined.",
+    "note": "Also used for leaves and stone: veined marble.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from vein."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "When I gave blood in Tashkent, the nurse looked for a vein in my arm. My grandmother laughed and showed us her veined hands. She said her veins are easy to find.",
+   "uses": ["vein", "veined", "veins"]
+  },
+  "reviewer_note": "Two corpus rows with the same body meaning merged into one map; the medical adjective venous is from Latin, not made from vein, so it is left out."
+ },
+ {
+  "headword": "venture",
+  "word_id": "6a6ef9b2a6015561480927c2",
+  "word_ids": ["6a6ef9b2a6015561480927c2"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Business",
+  "sense_pos": "noun",
+  "corpus_definition": "a risky new business activity or project",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "venture",
+    "relation": "base",
+    "definition": "a new business or project that might fail or lose money",
+    "example": "They launched a new business venture together last year.",
+    "syn": [
+     {"to": "enterprise", "relation": "synonym", "strength": 0.8, "note": "Close; also means a company or business in general."},
+     {"to": "undertaking", "relation": "synonym", "strength": 0.8, "note": "A big job or project; formal and less about risk."},
+     {"to": "project", "relation": "related", "strength": 0.6, "note": "Easy word; a project is not always risky or about business."},
+     {"to": "business", "relation": "related", "strength": 0.6, "note": "Easy word: a company that sells things or services."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "venture",
+    "relation": "conversion",
+    "definition": "to start doing something new and risky, especially in business",
+    "example": "Last year the company ventured into the Russian market.",
+    "note": "Usually 'venture into' or 'venture out'. It can also mean to go somewhere that might be dangerous.",
+    "syn": [
+     {"to": "risk", "relation": "related", "strength": 0.6, "note": "To do something that could have a bad result."},
+     {"to": "dare", "relation": "related", "strength": 0.6, "note": "To be brave enough to do something."},
+     {"to": "expand", "relation": "related", "strength": 0.4, "note": "In business: to grow into new places or markets."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "not_family": ["adventurous"],
+    "note": "Venturesome is rare. Adventurous is made from adventure, a different word today, so it is not shown here."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from venture."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "My cousin in Samarkand started a small venture selling dried fruit online. It went well, so last year she ventured into the Kazakh market too.",
+   "uses": ["venture", "ventured"]
+  },
+  "reviewer_note": "Venture capitalist and joint venture are compounds and left out. Adventure/adventurous treated as not_family (separate words today)."
+ },
+ {
+  "headword": "veterinarian",
+  "word_id": "6a6ef9b2a601556148092827",
+  "word_ids": ["6a6ef9b2a601556148092827"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Animals",
+  "sense_pos": "noun",
+  "corpus_definition": "A doctor who treats sick or hurt animals.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "veterinarian",
+    "relation": "base",
+    "definition": "a doctor who treats animals that are sick or hurt",
+    "example": "The veterinarian helped my cat feel better.",
+    "note": "Mainly American English. British English says vet or veterinary surgeon.",
+    "syn": [
+     {"to": "animal doctor", "relation": "synonym", "strength": 0.95, "note": "Easy phrase with the same meaning."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "vet",
+    "relation": "derivational",
+    "definition": "the short, everyday word for an animal doctor",
+    "example": "We took our dog to the vet on Saturday.",
+    "note": "Short form. Much more common than the long word in British English.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "vet",
+    "definition": "to check a person or a document carefully before accepting them",
+    "example": "All new teachers are vetted before they start work.",
+    "note": "Belongs to vet = check carefully, not to an animal doctor's work."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "veterinary",
+    "relation": "derivational",
+    "definition": "connected with the medical care of animals",
+    "example": "She studies at a veterinary college in Samarkand.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from veterinarian."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {"affix": "-ian", "in_form": "veterinarian", "meaning_key": "-ian", "also": ["librarian", "musician", "historian"]}
+  ],
+  "context": {
+   "text": "Our dog was sick, so we took him to the vet near Chorsu Bazaar. The veterinarian said he only needed rest. She works in a big veterinary clinic.",
+   "uses": ["vet", "veterinarian", "veterinary"]
+  },
+  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); the short form vet is a noun extra (not repeated in People & things). Verb vet (check carefully) is other_meaning."
+ },
+ {
+  "headword": "via",
+  "word_id": "6a6ef9b2a601556148092737",
+  "word_ids": ["6a6ef9b2a601556148092737"],
+  "cefr": "B2",
+  "kind": "function",
+  "sense_label": "Route",
+  "sense_pos": "preposition",
+  "corpus_definition": "By going through or using a certain route.",
+  "usage_note": "via + place: travel through a place on the way (fly to London via Istanbul). via + method: using something to send or get it (send it via email).",
+  "relations": [
+   {"to": "through", "relation": "synonym", "strength": 0.8, "note": "Easy word; 'through' is very common for places on a journey."},
+   {"to": "by way of", "relation": "synonym", "strength": 0.95, "note": "Same meaning for routes, a little more formal."},
+   {"to": "by means of", "relation": "related", "strength": 0.6, "note": "Formal; used for the method, not the route."},
+   {"to": "using", "relation": "related", "strength": 0.6, "note": "Easy word for the method meaning: send it using email."},
+   {"to": "direct", "relation": "antonym", "note": "Going straight from one place to another, without stopping: a direct flight."}
+  ],
+  "context": {
+   "text": "We flew from Tashkent to London via Istanbul. The ticket was cheaper than a direct flight. I sent the photos to my family via Telegram.",
+   "uses": ["via"]
+  },
+  "reviewer_note": "Kind corrected to function (preposition). Both uses (route and method) covered in the usage note."
+ },
+ {
+  "headword": "viewer",
+  "word_id": "6a42816a2098612b1526f912",
+  "word_ids": ["6a42816a2098612b1526f912"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Television",
+  "sense_pos": "noun",
+  "corpus_definition": "A person who watches a television program.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "viewer",
+    "relation": "base",
+    "definition": "a person who watches a TV programme or a video",
+    "example": "The show attracted millions of viewers worldwide.",
+    "note": "programme (British) = program (American).",
+    "syn": [
+     {"to": "watcher", "relation": "synonym", "strength": 0.8, "note": "Easy word, but much less common."},
+     {"to": "audience", "relation": "related", "strength": 0.6, "note": "The whole group of people who watch; one viewer is one person in the audience."},
+     {"to": "spectator", "relation": "related", "strength": 0.6, "note": "A person who watches a sports event live, not on TV."},
+     {"to": "onlooker", "relation": "related", "strength": 0.4, "note": "A person who watches something happen in the street."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "viewing",
+    "relation": "derivational",
+    "definition": "the activity of watching TV, films or videos",
+    "example": "This film is not suitable for family viewing.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "view",
+    "definition": "what you can see from a place, or your opinion about something",
+    "example": "Our flat has a beautiful view of the mountains.",
+    "note": "Belongs to view = what you see or what you think, not to watching TV."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "view",
+    "relation": "derivational",
+    "definition": "to watch a TV programme, film or video",
+    "example": "The video was viewed two million times in one week.",
+    "register": "formal",
+    "syn": [
+     {"to": "watch", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word with the same meaning."},
+     {"to": "see", "relation": "related", "strength": 0.6, "note": "Easy word: 'Did you see the match?'"},
+     {"to": "look at", "relation": "related", "strength": 0.4, "note": "To turn your eyes to something, often for a short time."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective made from viewer in this meaning."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from viewer."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {"affix": "-er", "in_form": "viewer", "meaning_key": "-er", "also": ["teacher", "player", "driver"]}
+  ],
+  "context": {
+   "text": "Millions of viewers in Uzbekistan watched the football match last night. Many young people viewed it online, not on TV. Evening viewing is very popular in our family.",
+   "uses": ["viewers", "viewed", "viewing"]
+  },
+  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6). Noun view (scene/opinion) is other_meaning; viewpoint is a compound and left out. Rare viewable not shown."
+ },
+ {
+  "headword": "violence",
+  "word_id": "6a6ef83f0f1e82a5a073685c",
+  "word_ids": ["6a6ef83f0f1e82a5a073685c"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Force",
+  "sense_pos": "noun",
+  "corpus_definition": "Physical force used to hurt or kill people.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "violence",
+    "relation": "base",
+    "definition": "using physical force to hurt or kill people",
+    "example": "The movie contained too much violence.",
+    "syn": [
+     {"to": "aggression", "relation": "synonym", "strength": 0.8, "note": "Angry behaviour that may become a fight; it is not always physical."},
+     {"to": "brutality", "relation": "synonym", "strength": 0.8, "note": "Very cruel physical force."},
+     {"to": "fighting", "relation": "related", "strength": 0.6, "note": "Easy word: people hitting each other or a war."},
+     {"to": "force", "relation": "related", "strength": 0.6, "note": "Physical strength used to make something happen; not always to hurt."},
+     {"to": "cruelty", "relation": "related", "strength": 0.4, "note": "Making people or animals suffer; it can be without physical force."}
+    ],
+    "ant": [
+     {"to": "peace", "relation": "antonym", "note": "Easy word: a calm time with no fighting."},
+     {"to": "nonviolence", "relation": "antonym", "note": "Not using force, even to protest. Also spelled non-violence."}
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "not_family": ["violate"],
+    "note": "There is no verb made from violence. Violate (to break a law or rule) looks similar but comes from a different word."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "violent",
+    "relation": "derivational",
+    "definition": "using physical force to hurt people, or likely to do this",
+    "example": "The police arrested a violent man at the market.",
+    "note": "Also used for very strong weather or feelings: a violent storm.",
+    "syn": [
+     {"to": "aggressive", "relation": "synonym", "strength": 0.8, "note": "Angry and ready to fight; not always physical."},
+     {"to": "brutal", "relation": "synonym", "strength": 0.8, "note": "Very cruel and violent."},
+     {"to": "rough", "relation": "related", "strength": 0.6, "note": "Easy word: not gentle, using too much force."},
+     {"to": "fierce", "relation": "related", "strength": 0.6, "note": "Angry and frightening, often used for animals and fights."}
+    ],
+    "ant": [
+     {"to": "peaceful", "relation": "antonym", "note": "Calm, with no fighting."},
+     {"to": "gentle", "relation": "antonym", "note": "Easy word: kind and soft, not using force."},
+     {"to": "nonviolent", "relation": "antonym", "note": "Not using force to protest or get something. Also spelled non-violent."}
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "violently",
+    "relation": "derivational",
+    "definition": "with a lot of physical force, in a way that can hurt people",
+    "example": "The two men argued violently outside the cafe.",
+    "syn": [
+     {"to": "aggressively", "relation": "synonym", "strength": 0.8, "note": "In an angry way, ready to fight."},
+     {"to": "brutally", "relation": "synonym", "strength": 0.8, "note": "In a very cruel way."},
+     {"to": "roughly", "relation": "related", "strength": 0.6, "note": "Easy word: without care, using too much force."}
+    ],
+    "ant": [
+     {"to": "peacefully", "relation": "antonym", "note": "Calmly, without fighting."},
+     {"to": "gently", "relation": "antonym", "note": "Easy word: softly and carefully."}
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {"affix": "-ly", "in_form": "violently", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+  ],
+  "context": {
+   "text": "There is no violence at our school in Fergana. If a student becomes violent, the teachers call his parents at once. Last year two boys argued violently, but a teacher stopped them.",
+   "uses": ["violence", "violent", "violently"]
+  },
+  "reviewer_note": "violate is not_family (different Latin root). Negative forms nonviolence/nonviolent placed in ant lists, not as forms."
+ },
+ {
+  "headword": "vital",
+  "word_id": "6a6ef9b2a6015561480926d2",
+  "word_ids": ["6a6ef9b2a6015561480926d2"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Important",
+  "sense_pos": "adjective",
+  "corpus_definition": "Very important or necessary for life.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "vitality",
+    "definition": "a lot of energy and enthusiasm",
+    "example": "My grandfather is eighty, but he is still full of vitality.",
+    "note": "Belongs to vital = full of energy and life, not 'very important'."
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "revitalize",
+    "definition": "to give new life and energy to a place or an activity",
+    "example": "The city plans to revitalize the old part of Bukhara.",
+    "note": "Belongs to vital = full of energy and life, not 'very important'. British spelling: revitalise."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "vital",
+    "relation": "base",
+    "definition": "extremely important or necessary, especially to stay alive",
+    "example": "Water is vital for all living things.",
+    "syn": [
+     {"to": "essential", "relation": "synonym", "strength": 0.95, "note": "Almost the same: completely necessary."},
+     {"to": "crucial", "relation": "synonym", "strength": 0.95, "note": "Almost the same: extremely important for what happens next."},
+     {"to": "necessary", "relation": "synonym", "strength": 0.8, "note": "Easy word, but a little weaker than vital."},
+     {"to": "important", "relation": "synonym", "strength": 0.8, "note": "Easy word, but much weaker than vital."},
+     {"to": "critical", "relation": "synonym", "strength": 0.8, "note": "Very important, often in a serious or dangerous situation."}
+    ],
+    "ant": [
+     {"to": "unimportant", "relation": "antonym", "note": "Not important at all."},
+     {"to": "unnecessary", "relation": "antonym", "note": "Not needed."},
+     {"to": "minor", "relation": "antonym", "note": "Small and not very important."}
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "vitally",
+    "relation": "derivational",
+    "definition": "in an extremely important or necessary way",
+    "example": "It is vitally important to drink water in the summer heat.",
+    "note": "Almost always used in 'vitally important'.",
+    "syn": [
+     {"to": "crucially", "relation": "synonym", "strength": 0.8, "note": "In a way that is extremely important."},
+     {"to": "extremely", "relation": "related", "strength": 0.6, "note": "Easy word: very, very."},
+     {"to": "absolutely", "relation": "related", "strength": 0.4, "note": "Completely: absolutely necessary."}
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {"affix": "-ly", "in_form": "vitally", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+  ],
+  "context": {
+   "text": "Clean water is vital for the farms in Khorezm. In summer, it is vitally important not to waste it.",
+   "uses": ["vital", "vitally"]
+  },
+  "reviewer_note": "Sense trap: vitality and revitalize belong to vital = full of energy, so they are other_meaning. Vitamin looks related but is a separate word; left out."
+ },
+ {
+  "headword": "volunteering",
+  "word_id": "6a42883f6941e70ad6a00dd1",
+  "word_ids": ["6a42883f6941e70ad6a00dd1"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Helping",
+  "sense_pos": "noun",
+  "corpus_definition": "Doing a task for no pay to help others.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "volunteering",
+    "relation": "base",
+    "definition": "doing work to help other people without being paid",
+    "example": "He likes volunteering at the local animal shelter.",
+    "syn": [
+     {"to": "charity work", "relation": "synonym", "strength": 0.8, "note": "Work for a charity, often unpaid; very close."},
+     {"to": "unpaid work", "relation": "synonym", "strength": 0.8, "note": "Easy phrase; it does not always mean helping others."},
+     {"to": "community service", "relation": "related", "strength": 0.6, "note": "Work that helps the local area; sometimes a court orders it as a punishment."}
+    ],
+    "ant": [
+     {"to": "employment", "relation": "antonym", "note": "Work that you are paid for."}
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "volunteer",
+    "relation": "derivational",
+    "definition": "to offer to do a job or help without being paid",
+    "example": "My sister volunteers at a children's hospital every Saturday.",
+    "note": "The same word is also a noun for the person: 'She is a volunteer.'",
+    "syn": [
+     {"to": "offer", "relation": "synonym", "strength": 0.8, "note": "Easy word: to say you will do something."},
+     {"to": "help out", "relation": "related", "strength": 0.6, "note": "Easy phrasal verb: to help, often for a short time."}
+    ],
+    "ant": [
+     {"to": "refuse", "relation": "antonym", "note": "To say no when someone asks you to do something."}
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "voluntary",
+    "relation": "derivational",
+    "definition": "done because you want to, often without being paid",
+    "example": "She does voluntary work at the library on Sundays.",
+    "note": "voluntary work = volunteering.",
+    "syn": [
+     {"to": "unpaid", "relation": "synonym", "strength": 0.8, "note": "Easy word: you get no money for it."},
+     {"to": "optional", "relation": "related", "strength": 0.6, "note": "You can choose to do it or not."},
+     {"to": "free", "relation": "related", "strength": 0.4, "note": "Easy word: costing no money; free work = unpaid work."}
+    ],
+    "ant": [
+     {"to": "compulsory", "relation": "antonym", "note": "Something you must do because a rule says so."},
+     {"to": "paid", "relation": "antonym", "note": "Easy word: you get money for it."}
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "voluntarily",
+    "relation": "derivational",
+    "definition": "because you choose to, not because someone makes you",
+    "example": "Many students voluntarily stayed after school to clean the park.",
+    "syn": [
+     {"to": "willingly", "relation": "synonym", "strength": 0.8, "note": "Happily and because you want to."},
+     {"to": "freely", "relation": "related", "strength": 0.6, "note": "Without anyone forcing you."}
+    ],
+    "ant": [
+     {"to": "unwillingly", "relation": "antonym", "note": "When you do not want to do it."}
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {"affix": "-ing", "in_form": "volunteering", "meaning_key": "-ing", "also": ["swimming", "shopping", "reading"]},
+   {"affix": "-ly", "in_form": "voluntarily", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+  ],
+  "context": {
+   "text": "My sister enjoys volunteering at a children's hospital in Tashkent. She volunteers every Saturday. All the work there is voluntary, so nobody gets paid.",
+   "uses": ["volunteering", "volunteers", "voluntary"]
+  },
+  "reviewer_note": "volunteer is both the verb and the person noun; it is shown once (verb slot, with a note about the person noun) because the gate does not allow the same word twice. Reviewer may prefer it in People & things."
+ }
+]

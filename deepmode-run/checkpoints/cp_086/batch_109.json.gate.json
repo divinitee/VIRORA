@@ -1,0 +1,329 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "state",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: station"
+    },
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: static"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "states",
+       "state"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the condition sense; statement, stately and the verb state belong to other meanings. Statesman left out as a compound."
+  },
+  {
+   "headword": "stay up",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Intransitive phrasal verb; no object, so no separable pattern."
+  },
+  {
+   "headword": "steep",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "verb 'steepen' is rare (zipf 1.2)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "verb definition has rare words: sharper"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'steer' (zipf 3.7) may belong here"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "steepness: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "steeply: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "steepnesses",
+       "steepness"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "steeper"
+      ],
+      "JJS": [
+       "steepest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "The verb steep (to soak tea in water) is a different word, not this family, so it is not listed."
+  },
+  {
+   "headword": "sting",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: stingy"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: stingily. Check."
+    },
+    {
+     "cat": "override",
+     "msg": "adjective 'stinging' is marked participial but is not a participle of sting, sting — overridden: lemminflect data error: its VBG for sting is listed as 'sting' instead of 'stinging'; stinging is the regular -ing participle (Oxford/Cambridge list 'stinging' adj)."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "stings"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "stung"
+      ],
+      "VBN": [
+       "stung"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Corpus row mixes verb and noun; verb taken as the main sense from the example, noun kept as conversion. Stingy is not in this family."
+  },
+  {
+   "headword": "stormy",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: stoic"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: stoically. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "storms"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "stormier"
+      ],
+      "JJS": [
+       "stormiest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Verb storm (attack, leave angrily) kept as other_meaning; thunderstorm left out as a compound."
+  },
+  {
+   "headword": "strength",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "strengths",
+       "strength"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "strengthened"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "stronger"
+      ],
+      "JJS": [
+       "strongest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "strength comes from strong (-th is not on the affix list, so not claimed); strengthen's -en not claimed either."
+  },
+  {
+   "headword": "stress",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "stresses",
+       "stress"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "stressed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two corpus rows with the same meaning merged into one map. Verb stress kept in the worry sense (informal); emphasis sense mentioned in its note."
+  },
+  {
+   "headword": "stretch",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "stretches",
+       "stretch"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "stretched"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "stretchier"
+      ],
+      "JJS": [
+       "stretchiest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun stretch anchored to the 'ability to stretch' meaning; stretcher listed as other_meaning thing."
+  },
+  {
+   "headword": "strip",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: stripper"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: stripy. Check."
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'stress' (zipf 4.7) may belong here"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'stripper' (zipf 3.5) may belong here"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "stripped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Corpus definition mixes two meanings; the example uses the verb, so the map is anchored to 'remove a covering' and the noun strip is other_meaning. Stripper left out on purpose (adult second meaning)."
+  },
+  {
+   "headword": "striped",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "stripes"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "striped comes from stripe, not strip; the -ed/-y endings are not claimed as affixes."
+  }
+ ]
+}

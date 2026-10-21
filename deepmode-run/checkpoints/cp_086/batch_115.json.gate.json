@@ -1,0 +1,276 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "vitamin",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: vitaminize"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "vitamins"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two corpus rows with the same meaning merged. vital listed as not_family (shared Latin root only)."
+  },
+  {
+   "headword": "volunteer",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "volunteer: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "volunteers"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "volunteered"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is itself a person noun, so it stays the main noun entry (rule 6). voluntary/voluntarily kept as family (volunteer is made from voluntary)."
+  },
+  {
+   "headword": "voyage",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "voyages"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "voyaged"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Verb voyage and voyager are real but literary; marked with register. Uzbekistan has no sea, so the context is historical."
+  },
+  {
+   "headword": "wage",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'wager' (zipf 3.4) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "wages"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two rows with the same meaning merged. Verb wage (wage war) is other_meaning. waged/unwaged kept in a note only (rare, formal British). wage earner is a compound, left out."
+  },
+  {
+   "headword": "wander",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: wanly. Check."
+    },
+    {
+     "cat": "override",
+     "msg": "noun 'wander': not in the dictionary as a noun — overridden: wander is a noun in the Oxford and Cambridge learner dictionaries ('go for a wander', informal, mainly British); WordNet 3.1 only lists the verb."
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "wandered"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Spelling trap: wander vs wonder flagged in the verb note. Noun wander marked informal (mostly British)."
+  },
+  {
+   "headword": "warn",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: warner"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: wary. Check."
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: warily. Check."
+    },
+    {
+     "cat": "override",
+     "msg": "People & things: common family noun 'warner' (zipf 4.1) isn't shown. Add it, or list it in people_not_family if it isn't made from this word. — overridden: warner is not a learner-dictionary word; its high frequency comes from the name Warner (Warner Bros.), not from warn + -er. Rule 5: only learner-dictionary words."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "warnings",
+       "warning"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "warned"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two rows with the same meaning merged. Adjective slot is no_form: 'warning' before a noun is attributive noun use."
+  },
+  {
+   "headword": "weird",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "people 'weirdo': family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "weirdness: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "weirdly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "weirdness"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "weirder"
+      ],
+      "JJS": [
+       "weirdest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "weirdo marked informal and possibly rude. weird out (phrasal) mentioned in the verb note only."
+  },
+  {
+   "headword": "work experience",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed noun phrase; uncountable use and the British school sense noted."
+  },
+  {
+   "headword": "workout",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: work out"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: workable. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "workouts"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun is one word (workout); the verb is two words (work out). Verb slot is no_form with that note."
+  },
+  {
+   "headword": "workplace",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "workplaces",
+       "workplace"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is itself a compound; no family forms."
+  }
+ ]
+}

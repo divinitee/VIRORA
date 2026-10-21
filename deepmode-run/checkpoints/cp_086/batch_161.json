@@ -1,0 +1,1422 @@
+[
+ {
+  "headword": "preserve",
+  "word_id": "6a4282fd46ba24054c1dcd84",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd84"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Protect",
+  "sense_pos": "verb",
+  "corpus_definition": "To keep something in its original state.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "preservation",
+    "relation": "derivational",
+    "definition": "the act of keeping something safe and in good condition",
+    "example": "The preservation of old buildings in Bukhara is very important.",
+    "syn": [
+     {
+      "to": "protection",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close; protection is more general and is about keeping something safe from harm."
+     },
+     {
+      "to": "conservation",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Almost the same, used a lot for nature, forests and animals."
+     },
+     {
+      "to": "care",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy, general word: looking after something."
+     }
+    ],
+    "ant": [
+     {
+      "to": "destruction",
+      "relation": "antonym",
+      "note": "Destroying something so that it is gone or badly damaged."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "preserve",
+    "definition": "jam made from fruit boiled with sugar",
+    "example": "My grandmother makes apricot preserves every summer.",
+    "note": "Belongs to preserve = keep food from going bad, not keeping a forest safe. Usually plural: preserves."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "preserve",
+    "relation": "base",
+    "definition": "to keep something safe and in its original condition",
+    "example": "We must preserve the forest for our children.",
+    "syn": [
+     {
+      "to": "protect",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy and very common; protect is about keeping something safe from harm."
+     },
+     {
+      "to": "keep",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; preserve means keeping it the same for a long time."
+     },
+     {
+      "to": "conserve",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close, used a lot for nature and energy."
+     },
+     {
+      "to": "save",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: save an old building, save a language."
+     },
+     {
+      "to": "maintain",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: keep something in good condition by working on it."
+     }
+    ],
+    "ant": [
+     {
+      "to": "destroy",
+      "relation": "antonym",
+      "note": "Damage something so badly that it is gone."
+     },
+     {
+      "to": "damage",
+      "relation": "antonym",
+      "note": "Harm something so it is not in good condition."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "preserved",
+    "relation": "participial",
+    "definition": "kept in good condition for a long time",
+    "example": "The old walls of Khiva are very well preserved.",
+    "note": "Often used as 'well preserved'.",
+    "syn": [
+     {
+      "to": "protected",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: kept safe from harm."
+     },
+     {
+      "to": "intact",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Not broken or damaged; a little formal."
+     }
+    ],
+    "ant": [
+     {
+      "to": "damaged",
+      "relation": "antonym",
+      "note": "Harmed and not in good condition."
+     },
+     {
+      "to": "ruined",
+      "relation": "antonym",
+      "note": "Badly damaged, often only parts are left."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb exists for this family."
+   }
+  ],
+  "people": [
+   {
+    "form": "preservative",
+    "kind": "thing",
+    "status": "other_meaning",
+    "definition": "a chemical added to food so it stays fresh longer",
+    "example": "This bread has no preservatives in it.",
+    "note": "Belongs to preserve = keep food from going bad, not keeping a forest or building safe."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ation",
+    "in_form": "preservation",
+    "meaning_key": "-ation",
+    "also": [
+     "information",
+     "education",
+     "invitation"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our town wants to preserve its old mosque. The preservation work will take two years, and the builders hope it will stay well preserved for another hundred years.",
+   "uses": [
+    "preserve",
+    "preservation",
+    "preserved"
+   ]
+  },
+  "reviewer_note": "Food sense (preserves = jam, preservative) kept as other_meaning; map is about keeping places and nature unchanged."
+ },
+ {
+  "headword": "pressure",
+  "word_id": "6a42821646ba24054c1dccaa",
+  "word_ids": [
+   "6a42821646ba24054c1dccaa"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Stress",
+  "sense_pos": "noun",
+  "corpus_definition": "The feeling of being worried and needing to do many things.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "pressure",
+    "relation": "base",
+    "definition": "a worried feeling when you have too much to do or must succeed",
+    "example": "He feels a lot of work pressure.",
+    "note": "Also means the physical force of pushing (air pressure, blood pressure).",
+    "syn": [
+     {
+      "to": "stress",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close and very common: 'stress at work'."
+     },
+     {
+      "to": "strain",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Pressure that makes you tired or close to breaking."
+     },
+     {
+      "to": "tension",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A nervous feeling, often between people."
+     },
+     {
+      "to": "worry",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word: the feeling of being afraid something bad may happen."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "pressure",
+    "relation": "conversion",
+    "definition": "to try hard to make someone do something they do not want",
+    "example": "My parents never pressured me to study medicine.",
+    "note": "British English also uses 'pressurize' with the same meaning.",
+    "syn": [
+     {
+      "to": "push",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, a little informal: 'Don't push me to decide now.'"
+     },
+     {
+      "to": "force",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Stronger: the person has no choice."
+     },
+     {
+      "to": "persuade",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Softer: you give good reasons, not pressure."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "press",
+    "definition": "to push something firmly with your finger or hand",
+    "example": "Press the green button to start the machine.",
+    "note": "Belongs to the physical meaning of pushing; pressure was first made from press."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "pressured",
+    "relation": "participial",
+    "definition": "feeling that you must do something or do it quickly",
+    "example": "I always feel pressured before exams.",
+    "syn": [
+     {
+      "to": "stressed",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very common, more about the feeling of worry."
+     },
+     {
+      "to": "rushed",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: not having enough time."
+     }
+    ],
+    "ant": [
+     {
+      "to": "relaxed",
+      "relation": "antonym",
+      "note": "Calm and not worried."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "pressing",
+    "definition": "needing to be dealt with now; urgent",
+    "example": "Finding a job is my most pressing problem.",
+    "note": "Belongs to press = demand action now (urgent), not the feeling of stress."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb exists for this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Before the university exams, Dilnoza was under a lot of pressure. Her parents did not pressure her, but she still felt pressured by her friends' high scores.",
+   "uses": [
+    "pressure",
+    "pressure",
+    "pressured"
+   ]
+  },
+  "reviewer_note": "Kept the stress sense; physical pressure only in a note. press and pressing are other_meaning. No affix claimed (-ure is not in the table)."
+ },
+ {
+  "headword": "prevent from",
+  "word_id": "6a4282fd46ba24054c1dcd9a",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd9a"
+  ],
+  "cefr": "B2",
+  "kind": "phrase",
+  "sense_label": "Stopping",
+  "sense_pos": "verb",
+  "corpus_definition": "To make sure that something does not happen.",
+  "usage_note": "prevent + someone/something + from + -ing: 'The rain prevented us from playing.' The object usually comes between prevent and from. Without from: 'prevent an accident'.",
+  "relations": [
+   {
+    "to": "stop",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Easy and very common: 'stop someone from doing something'."
+   },
+   {
+    "to": "keep from",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Same pattern, a little informal: 'keep the children from fighting'."
+   },
+   {
+    "to": "block",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Related: put something in the way so it cannot happen."
+   },
+   {
+    "to": "hinder",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Formal: make something slower or harder, not stop it completely.",
+    "register": "formal"
+   },
+   {
+    "to": "allow",
+    "relation": "antonym",
+    "note": "Let someone do something: 'allow us to play'."
+   },
+   {
+    "to": "enable",
+    "relation": "antonym",
+    "note": "Make it possible for someone to do something; a little formal."
+   }
+  ],
+  "context": {
+   "text": "Heavy rain prevented us from playing football on Sunday. Next time, a roof over the pitch will prevent the game from stopping.",
+   "uses": [
+    "prevented us from",
+    "prevent the game from"
+   ]
+  },
+  "reviewer_note": "CORPUS: example 'Rain may prevent from playing' is ungrammatical; should be 'prevent us from playing'. kind changed from phrasal to phrase: 'from' is a preposition with the object in between (prevent sb from -ing)."
+ },
+ {
+  "headword": "previous",
+  "word_id": "6a42821646ba24054c1dccab",
+  "word_ids": [
+   "6a42821646ba24054c1dccab"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Earlier",
+  "sense_pos": "adjective",
+  "corpus_definition": "Happening before the current time.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "no_form",
+    "note": "No noun exists for this family."
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb exists for this family. 'precede' has a different root."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "previous",
+    "relation": "base",
+    "definition": "happening or existing before the one you are talking about now",
+    "example": "I did not like his previous job.",
+    "syn": [
+     {
+      "to": "earlier",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy and very close."
+     },
+     {
+      "to": "last",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy: the one just before this one: 'my last job'."
+     },
+     {
+      "to": "former",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used for people and roles: 'her former husband'."
+     },
+     {
+      "to": "prior",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning but more formal.",
+      "register": "formal"
+     },
+     {
+      "to": "preceding",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: the one that comes just before, often in texts.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "next",
+      "relation": "antonym",
+      "note": "The one that comes after this one."
+     },
+     {
+      "to": "following",
+      "relation": "antonym",
+      "note": "Coming just after: 'the following day'."
+     },
+     {
+      "to": "subsequent",
+      "relation": "antonym",
+      "note": "Formal: happening after something else."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "previously",
+    "relation": "derivational",
+    "definition": "at an earlier time; before now",
+    "example": "She previously worked as a nurse in Andijan.",
+    "syn": [
+     {
+      "to": "before",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy; usually goes at the end: 'I have seen it before.'"
+     },
+     {
+      "to": "earlier",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy and very close."
+     },
+     {
+      "to": "formerly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal; used for a past job, name or role.",
+      "register": "formal"
+     },
+     {
+      "to": "beforehand",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Before a particular event: 'Call me beforehand.'"
+     }
+    ],
+    "ant": [
+     {
+      "to": "later",
+      "relation": "antonym",
+      "note": "At a time after now or after something."
+     },
+     {
+      "to": "afterwards",
+      "relation": "antonym",
+      "note": "After something has happened."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "previously",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "usually",
+     "slowly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My previous apartment was near the bazaar. I previously lived there with my brother, but now I live alone near the university.",
+   "uses": [
+    "previous",
+    "previously"
+   ]
+  },
+  "reviewer_note": "No -ous affix claimed: removing it leaves no real word. precede is not family."
+ },
+ {
+  "headword": "principle",
+  "word_id": "6a6ef83f0f1e82a5a0736702",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736702"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Belief",
+  "sense_pos": "noun",
+  "corpus_definition": "A basic ****** that guides your behavior or actions.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "principle",
+    "relation": "base",
+    "definition": "a basic belief about what is right that guides how you act",
+    "example": "Honesty is an important principle for many people.",
+    "note": "Don't confuse with principal (= main, or the head of a school); they sound the same.",
+    "syn": [
+     {
+      "to": "belief",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; a belief can be about anything, a principle guides how you act."
+     },
+     {
+      "to": "value",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Usually plural: 'family values'."
+     },
+     {
+      "to": "rule",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word; a rule can come from other people, a principle is your own."
+     },
+     {
+      "to": "standard",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A level of good behavior you expect: 'high moral standards'."
+     },
+     {
+      "to": "ideal",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A belief about how things should be in a perfect world."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb exists for this family."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "principled",
+    "relation": "derivational",
+    "definition": "having strong beliefs about what is right and acting on them",
+    "example": "She is a principled teacher who never takes gifts from parents.",
+    "syn": [
+     {
+      "to": "honest",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: telling the truth."
+     },
+     {
+      "to": "moral",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Knowing and doing what is right."
+     },
+     {
+      "to": "ethical",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A little formal, often about work: 'an ethical company'."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unprincipled",
+      "relation": "antonym",
+      "note": "Not caring about what is right; formal."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb exists. 'principally' comes from principal (= mainly), a different word.",
+    "not_family": [
+     "principally"
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My grandfather has one simple principle: always keep your promises. He is a principled man, and people in our mahalla trust him.",
+   "uses": [
+    "principle",
+    "principled"
+   ]
+  },
+  "reviewer_note": "CORPUS: definition has a masked word (******, probably 'belief'); copied as given. principle vs principal homophone trap noted."
+ },
+ {
+  "headword": "prior",
+  "word_id": "6a6ef83f0f1e82a5a0736896",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736896"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Before",
+  "sense_pos": "adjective",
+  "corpus_definition": "Happening or existing before a specific time.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "priority",
+    "definition": "the most important thing that you must deal with first",
+    "example": "My family is my first priority.",
+    "note": "Belongs to prior = first, more important, not 'earlier in time'."
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "prioritize",
+    "definition": "to decide what is most important and do it first",
+    "example": "You need to prioritize your homework this week.",
+    "note": "Belongs to prior = more important (from priority), not 'earlier in time'. British spelling: prioritise."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "prior",
+    "relation": "base",
+    "definition": "happening or existing before a certain time or event",
+    "example": "I have a prior appointment this afternoon.",
+    "note": "Formal. 'prior to' means 'before': prior to the meeting.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "previous",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, a little less formal."
+     },
+     {
+      "to": "earlier",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday word."
+     },
+     {
+      "to": "preceding",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: coming just before.",
+      "register": "formal"
+     },
+     {
+      "to": "former",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Used for past jobs and roles: 'a former teacher'."
+     }
+    ],
+    "ant": [
+     {
+      "to": "later",
+      "relation": "antonym",
+      "note": "Happening after."
+     },
+     {
+      "to": "subsequent",
+      "relation": "antonym",
+      "note": "Formal: coming after something else."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb exists. Use the preposition 'prior to' (= before): 'prior to the exam'."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Sorry, I can't come to the meeting at three. I have a prior appointment with my doctor in Chilonzor.",
+   "uses": [
+    "prior"
+   ]
+  },
+  "reviewer_note": "priority and prioritize kept as other_meaning (importance, not time). Only one existing form, so context uses one."
+ },
+ {
+  "headword": "priority",
+  "word_id": "6a6ef9b2a6015561480928b1",
+  "word_ids": [
+   "6a6ef9b2a6015561480928b1"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Importance",
+  "sense_pos": "noun",
+  "corpus_definition": "the thing that is most important and must be dealt with first",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "priority",
+    "relation": "base",
+    "definition": "the most important thing that you must deal with first",
+    "example": "Her top priority is finishing the report before Friday.",
+    "syn": [
+     {
+      "to": "main concern",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The thing you think about and care about most."
+     },
+     {
+      "to": "focus",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The thing you give most attention to."
+     },
+     {
+      "to": "goal",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word: something you want to achieve."
+     },
+     {
+      "to": "precedence",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Formal: being more important, so it comes first.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "prioritize",
+    "relation": "derivational",
+    "definition": "to decide what is most important and do it first",
+    "example": "When you have a lot of work, prioritize the urgent tasks.",
+    "note": "British spelling: prioritise. Noun for the action: prioritization.",
+    "syn": [
+     {
+      "to": "put first",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrase with the same meaning."
+     },
+     {
+      "to": "focus on",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Give most of your attention to something."
+     },
+     {
+      "to": "rank",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Put things in order from most to least important."
+     }
+    ],
+    "ant": [
+     {
+      "to": "neglect",
+      "relation": "antonym",
+      "note": "Not give enough attention to something important."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "prior",
+    "definition": "happening or existing before a certain time",
+    "example": "I have a prior appointment this afternoon.",
+    "note": "Belongs to prior = earlier in time. priority comes from the older idea of 'first, more important'."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb exists for this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ity",
+    "in_form": "priority",
+    "meaning_key": "-ity",
+    "also": [
+     "activity",
+     "ability",
+     "security"
+    ]
+   }
+  ],
+  "context": {
+   "text": "This month my priority is the IELTS exam. I prioritize reading and writing every morning, and I watch films only at the weekend.",
+   "uses": [
+    "priority",
+    "prioritize"
+   ]
+  },
+  "reviewer_note": "prior (time) kept as other_meaning. No -ize affix claimed because removing it leaves no word; -ity on prior is transparent."
+ },
+ {
+  "headword": "profession",
+  "word_id": "6a42821646ba24054c1dccac",
+  "word_ids": [
+   "6a42821646ba24054c1dccac",
+   "6a42883f6941e70ad6a00db7"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Job",
+  "sense_pos": "noun",
+  "corpus_definition": "A type of job that requires special training or education.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "profession",
+    "relation": "base",
+    "definition": "a type of job that needs special training or education",
+    "example": "Medicine is a very difficult profession.",
+    "syn": [
+     {
+      "to": "job",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word for any work you are paid for."
+     },
+     {
+      "to": "occupation",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal, used on forms; any kind of job.",
+      "register": "formal"
+     },
+     {
+      "to": "career",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The jobs you do over many years of your life."
+     },
+     {
+      "to": "trade",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A job that needs skill with your hands, like a plumber or builder."
+     },
+     {
+      "to": "vocation",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A job you feel you were born to do, like nursing or teaching."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "professionalism",
+    "relation": "derivational",
+    "definition": "the high skill and good behavior expected from a trained worker",
+    "example": "The hotel staff showed great professionalism.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "profess",
+    "definition": "to say that something is true, often when it is not",
+    "example": "He professed to know nothing about the money.",
+    "note": "Belongs to profess = claim or openly say, an older formal meaning, not 'job'.",
+    "register": "formal"
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "professional",
+    "relation": "derivational",
+    "definition": "connected with a job that needs special training",
+    "example": "You should get professional advice before you buy a house.",
+    "note": "Also a noun: 'She is a real professional.'",
+    "syn": [
+     {
+      "to": "expert",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Having a lot of skill or knowledge."
+     },
+     {
+      "to": "skilled",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Good at a job because of training."
+     },
+     {
+      "to": "qualified",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Having the right diploma or training."
+     }
+    ],
+    "ant": [
+     {
+      "to": "amateur",
+      "relation": "antonym",
+      "note": "Doing something for fun, not as a paid job."
+     },
+     {
+      "to": "unprofessional",
+      "relation": "antonym",
+      "note": "Not behaving in the right way at work."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "professionally",
+    "relation": "derivational",
+    "definition": "in a skilled way, or as your paid job",
+    "example": "She sings professionally at weddings in Tashkent.",
+    "syn": [
+     {
+      "to": "expertly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "With a lot of skill."
+     },
+     {
+      "to": "skillfully",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "With skill. British spelling: skilfully."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unprofessionally",
+      "relation": "antonym",
+      "note": "In a way that is not right for work."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "form": "professor",
+    "kind": "job",
+    "status": "other_meaning",
+    "definition": "a senior teacher at a university",
+    "example": "Our professor gave us a lot of reading for next week.",
+    "note": "Made from profess = openly teach or declare, not from the 'job' meaning of profession."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-al",
+    "in_form": "professional",
+    "meaning_key": "-al",
+    "also": [
+     "national",
+     "cultural",
+     "natural"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "professionally",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "usually",
+     "slowly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Teaching is a respected profession in Uzbekistan. My sister is a professional English teacher, and she plans her lessons very professionally.",
+   "uses": [
+    "profession",
+    "professional",
+    "professionally"
+   ]
+  },
+  "reviewer_note": "Two rows with the same meaning merged into one map. The person noun 'a professional' is not repeated in People because it is already shown as the adjective.",
+  "gate_overrides": [
+   {
+    "msg_contains": "'unprofessionally' is not a adverb",
+    "reason": "unprofessionally is a real adverb listed under unprofessional in the Oxford Learner's Dictionary; missing from the gate lexicon."
+   }
+  ]
+ },
+ {
+  "headword": "promote",
+  "word_id": "6a6ef83f0f1e82a5a07366b0",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07366b0"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Advertise",
+  "sense_pos": "verb",
+  "corpus_definition": "To help something happen or become popular.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "promotion",
+    "relation": "derivational",
+    "definition": "activities that help sell something or make it popular",
+    "example": "The shop is running a special promotion this week.",
+    "note": "Also means moving to a higher job: 'She got a promotion.'",
+    "syn": [
+     {
+      "to": "advertising",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Telling people about a product to sell it."
+     },
+     {
+      "to": "publicity",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Attention from newspapers, TV and the internet."
+     },
+     {
+      "to": "marketing",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The whole work of selling a product, not only adverts."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "promote",
+    "relation": "base",
+    "definition": "to help something become popular or happen, for example by advertising",
+    "example": "The company hired a firm to promote their product.",
+    "note": "Also means moving someone to a higher job: 'He was promoted to manager.'",
+    "syn": [
+     {
+      "to": "advertise",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy: tell people about a product so they buy it."
+     },
+     {
+      "to": "encourage",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Help something to happen or grow: 'encourage healthy eating'."
+     },
+     {
+      "to": "support",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Help an idea or plan succeed."
+     },
+     {
+      "to": "boost",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Informal: make something bigger or better."
+     },
+     {
+      "to": "publicize",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Make many people know about something. British spelling: publicise."
+     }
+    ],
+    "ant": [
+     {
+      "to": "discourage",
+      "relation": "antonym",
+      "note": "Try to stop something from happening."
+     },
+     {
+      "to": "hinder",
+      "relation": "antonym",
+      "note": "Formal: make it harder for something to happen."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "promotional",
+    "relation": "derivational",
+    "definition": "used to advertise a product or event",
+    "example": "They gave out promotional T-shirts at the concert.",
+    "syn": [
+     {
+      "to": "commercial",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: connected with buying and selling."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb exists for this family."
+   }
+  ],
+  "people": [
+   {
+    "form": "promoter",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person or company that organizes and advertises concerts or sports events",
+    "example": "The promoter sold all the tickets for the concert in two days."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ion",
+    "in_form": "promotion",
+    "meaning_key": "-ion",
+    "also": [
+     "decision",
+     "action",
+     "education"
+    ]
+   },
+   {
+    "affix": "-al",
+    "in_form": "promotional",
+    "meaning_key": "-al",
+    "also": [
+     "national",
+     "cultural",
+     "personal"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "promoter",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "player",
+     "driver"
+    ]
+   }
+  ],
+  "context": {
+   "text": "A new cafe in Samarkand wants to promote its plov. For the promotion, they give free tea to every customer and hand out promotional cards in the street.",
+   "uses": [
+    "promote",
+    "promotion",
+    "promotional"
+   ]
+  },
+  "reviewer_note": "Kept the 'make popular / advertise' sense; the job sense (get promoted) is only in notes because it has the same spellings."
+ },
+ {
+  "headword": "promptly",
+  "word_id": "6a6ef83f0f1e82a5a073671a",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073671a"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Quickly",
+  "sense_pos": "adverb",
+  "corpus_definition": "Doing something right away without waiting.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "promptness",
+    "relation": "derivational",
+    "definition": "the quality of doing something quickly and without delay",
+    "example": "We thanked the plumber for his promptness.",
+    "syn": [
+     {
+      "to": "speed",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: how fast something happens."
+     },
+     {
+      "to": "punctuality",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Being on time, not late."
+     }
+    ],
+    "ant": [
+     {
+      "to": "delay",
+      "relation": "antonym",
+      "note": "When something happens later than it should."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "prompt",
+    "definition": "a message on a computer screen that asks you to do something",
+    "example": "Type your password when you see the prompt.",
+    "note": "Belongs to prompt = remind or help someone to act, not 'quickly'."
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "prompt",
+    "definition": "to cause someone to do something or make something happen",
+    "example": "The cold weather prompted us to go home early.",
+    "note": "Belongs to prompt = cause or encourage an action, not 'quickly'."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "prompt",
+    "relation": "derivational",
+    "definition": "done quickly and without delay",
+    "example": "Thank you for your prompt reply.",
+    "note": "promptly is made from this adjective.",
+    "syn": [
+     {
+      "to": "quick",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday word."
+     },
+     {
+      "to": "immediate",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Happening at once, with no wait at all."
+     },
+     {
+      "to": "fast",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; prompt is more formal."
+     },
+     {
+      "to": "punctual",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Arriving or happening at the right time, not late."
+     }
+    ],
+    "ant": [
+     {
+      "to": "slow",
+      "relation": "antonym",
+      "note": "Taking a long time."
+     },
+     {
+      "to": "late",
+      "relation": "antonym",
+      "note": "After the expected time."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "promptly",
+    "relation": "base",
+    "definition": "quickly and without waiting",
+    "example": "Please answer the email promptly.",
+    "note": "Also means 'exactly at that time': 'The class starts promptly at nine.'",
+    "syn": [
+     {
+      "to": "quickly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday word."
+     },
+     {
+      "to": "immediately",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "At once, with no wait at all."
+     },
+     {
+      "to": "right away",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy and informal."
+     },
+     {
+      "to": "at once",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrase, a little old-fashioned."
+     },
+     {
+      "to": "without delay",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Formal phrase, common in letters.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "slowly",
+      "relation": "antonym",
+      "note": "Taking a long time."
+     },
+     {
+      "to": "late",
+      "relation": "antonym",
+      "note": "After the expected time."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "promptly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "usually",
+     "slowly"
+    ]
+   },
+   {
+    "affix": "-ness",
+    "in_form": "promptness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "happiness",
+     "sadness"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The bank sent a prompt answer to my question. When my card stopped working, they promptly gave me a new one, and I liked their promptness.",
+   "uses": [
+    "prompt",
+    "promptly",
+    "promptness"
+   ]
+  },
+  "reviewer_note": "Headword is the adverb, so prompt (adj) is the derivational root. prompt as verb/noun (cause, computer message) kept as other_meaning."
+ }
+]

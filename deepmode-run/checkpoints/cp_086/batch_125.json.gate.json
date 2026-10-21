@@ -1,0 +1,265 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "calorie",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Corpus example is ungrammatical ('too many calorie counts'); our example is new. calorific kept as the adjective (in OALD/Cambridge); American caloric mentioned in a note."
+  },
+  {
+   "headword": "candidate",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: candidly. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "candidate: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "candidates"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is itself a person noun, so it stays the main noun entry (rule 6); candidacy is the state noun."
+  },
+  {
+   "headword": "capacity",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: capacitate"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'capacitor' (zipf 3.2) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "capacities"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Corpus example does not contain the word; new example written. Map keeps the 'amount held' sense; capable/incapacity (ability sense) left out on purpose."
+  },
+  {
+   "headword": "cargo",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cargoes",
+       "cargos",
+       "cargo"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Only one form exists; compounds like cargo ship are left out (rule 7)."
+  },
+  {
+   "headword": "cautious",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "noun 'cautiousness' is rare (zipf 1.7)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cautions",
+       "caution"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "cautioned"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "cautious is made from caution, so noun and verb caution are family (derivational). precaution is a common B2 word, kept as an entry (rule 2)."
+  },
+  {
+   "headword": "cemetery",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "cemetery: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cemeteries"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Only one form exists. Spelling trap: cemetery ends in -ery, not -ary."
+  },
+  {
+   "headword": "charitable",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "charities",
+       "charity"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "charitable is made from charity; uncharitable kept as an antonym, not a form (rule 3)."
+  },
+  {
+   "headword": "charm",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: charity"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "charmingly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "charms",
+       "charm"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "charmed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Map keeps the personality sense; 'lucky charm' object meaning mentioned only in a note. Compounds like charm bracelet left out."
+  },
+  {
+   "headword": "checked",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: checker"
+    },
+    {
+     "cat": "not shown",
+     "msg": "verb: real words that may be in the family but aren't shown: checker"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'checker' (zipf 3.1) may belong here"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'cheer' (zipf 4.1) may belong here"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "check: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "checked: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "checks",
+       "check"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Homograph trap: checked (pattern) vs checked (past of check = examine); verb check given as other_meaning. chequered/checkered only in a note."
+  },
+  {
+   "headword": "chemical",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "chemically: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "chemicals"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun and adjective share the spelling (conversion). chemist also has a British 'pharmacy' meaning, noted on the entry."
+  }
+ ]
+}

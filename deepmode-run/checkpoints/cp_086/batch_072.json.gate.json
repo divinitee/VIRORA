@@ -1,0 +1,306 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "compare with",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "compare with / compare to difference noted."
+  },
+  {
+   "headword": "competition",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: competence, competitiveness"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'competitiveness' (zipf 3.5) may belong here"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "competitive: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "competitions",
+       "competition"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "competed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "compete is the base verb; competition derived from it."
+  },
+  {
+   "headword": "complicated",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: complicity"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "complications",
+       "complication"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "complicated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "complicated is the participle of complicate."
+  },
+  {
+   "headword": "concentrate",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: concentrically. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "concentrations",
+       "concentration"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "concentrated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "concentrated is mainly the liquid sense."
+  },
+  {
+   "headword": "confess",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: confessional. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "confessions",
+       "confession"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "confessed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "confessor not shown (religious, rare)."
+  },
+  {
+   "headword": "confidence",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: confidentiality"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "confidence: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'certainty' is a synonym/related target for confidence, confident"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'assurance' is a synonym/related target for confidence, confident"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'sure' is a synonym/related target for confidence, confident"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'self-assured' is a synonym/related target for confidence, confident"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "confidences",
+       "confidence"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "confidential belongs to the trust/secret sense."
+  },
+  {
+   "headword": "confident",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: confidentiality"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "confidence: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'certainty' is a synonym/related target for confidence, confident"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'assurance' is a synonym/related target for confidence, confident"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'sure' is a synonym/related target for confidence, confident"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'self-assured' is a synonym/related target for confidence, confident"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "confidences",
+       "confidence"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Same family as confidence; separate corpus row."
+  },
+  {
+   "headword": "confuse with",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "tell apart is the clear opposite."
+  },
+  {
+   "headword": "conquer",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "conquests",
+       "conquest"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "conquered"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "'conquer your fear' is a figurative extension."
+  },
+  {
+   "headword": "console",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: consolable, consolatory"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "consolations",
+       "consolation"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "consoled"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Stress: verb conSOLE, noun CONsole."
+  }
+ ]
+}

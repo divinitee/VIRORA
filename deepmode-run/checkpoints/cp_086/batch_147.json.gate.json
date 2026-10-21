@@ -1,0 +1,228 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "import",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: importance"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "imports",
+       "import"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "imported"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun and verb have different stress (IMport vs imPORT); only the trade sense is mapped."
+  },
+  {
+   "headword": "impress",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adjective definition has rare words: skilful"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "impressed: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "impressions",
+       "impression"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "impressed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "impressed vs impressive (feeling vs cause) explained; impressionist kept as other_meaning."
+  },
+  {
+   "headword": "in conclusion",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed phrase; formal written discourse marker, no forms."
+  },
+  {
+   "headword": "in debt",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed phrase; noted silent b and the related pattern go into debt."
+  },
+  {
+   "headword": "in favour (of)",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed phrase; British vs American spelling noted (favour/favor)."
+  },
+  {
+   "headword": "inactive",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: inaction"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "inactivities",
+       "inactivity"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is already the negative (in- + active); active/activity are listed as antonyms, not forms."
+  },
+  {
+   "headword": "incident",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: incidence"
+    },
+    {
+     "cat": "override",
+     "msg": "'incidentally' is a compound (incident + ally): compounds are left out for now (rule 7), remove it — overridden: incidentally is incidental + -ly (OALD/Cambridge entry), not a compound of incident + ally."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "incidents"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "incidentally is a false friend (= by the way); no affix claimed because in-cident is not a real split."
+  },
+  {
+   "headword": "independent",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "unchecked POS",
+     "msg": "independently → 'on your own': phrase, part of speech not confirmed"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "independences",
+       "independence"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is already in- + dependent; dependent/dependence are antonyms, not forms. Country sense of independence noted only."
+  },
+  {
+   "headword": "indirect",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "noun 'indirectness' is rare (zipf 1.2)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "indirectness: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "indirectly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "indirectness"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is already in- + direct; direct/directly/directness are antonyms, not forms."
+  },
+  {
+   "headword": "inexpensive",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "noun: marked 'no such form'; rare or doubtful family words exist: inexpensiveness"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "inexpensively: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "override",
+     "msg": "'in-' + 'expensive': 'inexpensive' is not the opposite of 'expensive', so this is not the prefix in- — overridden: inexpensive = not expensive (OALD/Cambridge define it as 'not costing a lot of money'); a transparent negative in- prefix."
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "Headword is already in- + expensive; expensive/expensively are antonyms, not forms."
+  }
+ ]
+}

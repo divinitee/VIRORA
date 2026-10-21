@@ -1,0 +1,1327 @@
+[
+ {
+  "headword": "envy",
+  "word_id": "6a6ef9b2a601556148092742",
+  "word_ids": [
+   "6a6ef9b2a601556148092742"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Feeling",
+  "sense_pos": "noun",
+  "corpus_definition": "a feeling of wanting what someone else has",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "envy",
+    "relation": "base",
+    "definition": "the feeling of wanting what another person has",
+    "example": "She looked at his new car with envy.",
+    "syn": [
+     {
+      "to": "jealousy",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close; jealousy is also fear of losing someone you love."
+     },
+     {
+      "to": "resentment",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Anger because something seems unfair."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "envy",
+    "relation": "conversion",
+    "definition": "to wish you had what another person has",
+    "example": "I envy people who can sing well.",
+    "syn": [
+     {
+      "to": "resent",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To feel angry because something seems unfair."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "envious",
+    "relation": "derivational",
+    "definition": "wanting something that another person has",
+    "example": "My friends were envious of my holiday in Turkey.",
+    "syn": [
+     {
+      "to": "jealous",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The most common everyday word."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "enviable",
+    "relation": "derivational",
+    "definition": "so good that other people want it too",
+    "example": "She has an enviable job by the sea.",
+    "syn": [
+     {
+      "to": "desirable",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Something many people want."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "enviously",
+    "relation": "derivational",
+    "definition": "in a way that shows you want what others have",
+    "example": "The children looked enviously at his new bike.",
+    "syn": [
+     {
+      "to": "jealously",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "In a jealous way."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ous",
+    "in_form": "envious",
+    "meaning_key": "-ous",
+    "also": [
+     "famous",
+     "dangerous",
+     "nervous"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "enviously",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Bekzod bought a new phone, and his classmates felt envy. They looked at it enviously all day.",
+   "uses": [
+    "envy",
+    "enviously"
+   ]
+  },
+  "reviewer_note": "envy vs jealousy difference noted on the synonym."
+ },
+ {
+  "headword": "equipment",
+  "word_id": "6a42800cb9d8fc24968a4b32",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b32"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Tools",
+  "sense_pos": "noun",
+  "corpus_definition": "The tools or things needed for a special job.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "equipment",
+    "relation": "base",
+    "definition": "the tools and machines you need for a job or activity",
+    "example": "We bought new sports equipment for the school.",
+    "note": "Uncountable: say 'a piece of equipment', not 'an equipment'.",
+    "syn": [
+     {
+      "to": "gear",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Equipment for sport or hobbies.",
+      "register": "informal"
+     },
+     {
+      "to": "kit",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A set of things for one activity; mainly British."
+     },
+     {
+      "to": "apparatus",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Equipment for science or medicine.",
+      "register": "formal"
+     },
+     {
+      "to": "tool",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "One thing you hold in your hand to do a job."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "equip",
+    "relation": "derivational",
+    "definition": "to give someone the things they need for a job",
+    "example": "The hospital was equipped with new machines.",
+    "syn": [
+     {
+      "to": "supply",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To give things that people need."
+     },
+     {
+      "to": "provide",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To give or make something available."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "equipped",
+    "relation": "participial",
+    "definition": "having the tools and things that are needed",
+    "example": "Our new kitchen is well equipped.",
+    "syn": [
+     {
+      "to": "prepared",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Ready for something."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ment",
+    "in_form": "equipment",
+    "meaning_key": "-ment",
+    "also": [
+     "payment",
+     "movement",
+     "government"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our school bought new sports equipment this year. Now the gym is well equipped for football and basketball.",
+   "uses": [
+    "equipment",
+    "equipped"
+   ]
+  },
+  "reviewer_note": "Uncountable-noun trap noted for learners."
+ },
+ {
+  "headword": "escape from",
+  "word_id": "6a4282fd46ba24054c1dcd99",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd99"
+  ],
+  "cefr": "B1",
+  "kind": "phrasal",
+  "sense_label": "Getting free",
+  "sense_pos": "verb",
+  "corpus_definition": "To leave a place where you are kept against your will.",
+  "particle_note": "Not separable: escape from + place or person: 'escape from prison'. Without a place: just 'escape'.",
+  "relations": [
+   {
+    "to": "break out of",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Escape from a prison by force."
+   },
+   {
+    "to": "run away from",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Leave a place or person quickly and secretly."
+   },
+   {
+    "to": "flee",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Run away from danger; a little formal."
+   },
+   {
+    "to": "get away from",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Leave a place or person, often for a rest."
+   }
+  ],
+  "context": {
+   "text": "Two prisoners escaped from the jail last night. The police found them the next morning near the river.",
+   "uses": [
+    "escaped from"
+   ]
+  },
+  "reviewer_note": "No true antonym phrasal verb; none listed."
+ },
+ {
+  "headword": "exact",
+  "word_id": "6a42800cb9d8fc24968a4b34",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b34"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Correct",
+  "sense_pos": "adjective",
+  "corpus_definition": "Completely correct or accurate.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "no_form",
+    "note": "exactness and exactitude exist but are rare and formal."
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "exact",
+    "definition": "to demand something and get it, often by force",
+    "example": "The army exacted taxes from the farmers.",
+    "note": "Belongs to exact = demand (formal), not 'completely correct'."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "exact",
+    "relation": "base",
+    "definition": "completely correct in every detail",
+    "example": "What is the exact time of the train?",
+    "syn": [
+     {
+      "to": "precise",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very exact and careful."
+     },
+     {
+      "to": "accurate",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Correct and true."
+     },
+     {
+      "to": "correct",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Right, with no mistakes."
+     },
+     {
+      "to": "right",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The easiest word."
+     }
+    ],
+    "ant": [
+     {
+      "to": "approximate",
+      "relation": "antonym",
+      "note": "Almost correct, but not exactly."
+     },
+     {
+      "to": "rough",
+      "relation": "antonym",
+      "note": "Not exact; a general idea."
+     },
+     {
+      "to": "inexact",
+      "relation": "antonym",
+      "note": "Not exactly correct."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "exactly",
+    "relation": "derivational",
+    "definition": "with no difference at all",
+    "example": "The bus came at exactly nine o'clock.",
+    "note": "Also used to agree strongly: 'Exactly!'",
+    "syn": [
+     {
+      "to": "precisely",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "In a very exact way."
+     },
+     {
+      "to": "accurately",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Correctly."
+     },
+     {
+      "to": "just",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Exactly, in phrases like 'just right'."
+     }
+    ],
+    "ant": [
+     {
+      "to": "approximately",
+      "relation": "antonym",
+      "note": "About, not exactly."
+     },
+     {
+      "to": "roughly",
+      "relation": "antonym",
+      "note": "About; not exactly."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "exactly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
+  ],
+  "context": {
+   "text": "I do not know the exact time of the concert. Can you tell me exactly when it starts?",
+   "uses": [
+    "exact",
+    "exactly"
+   ]
+  },
+  "reviewer_note": "verb exact (demand) as other_meaning; inexact listed as antonym (Rule 3)."
+ },
+ {
+  "headword": "examination",
+  "word_id": "6a42800cb9d8fc24968a4b52",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b52"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Test",
+  "sense_pos": "noun",
+  "corpus_definition": "A formal test of knowledge or ability.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "examination",
+    "relation": "base",
+    "definition": "a formal test of what you know or can do",
+    "example": "She passed her history examination.",
+    "note": "exam is the short, everyday form. examination also means a careful look (a medical examination).",
+    "syn": [
+     {
+      "to": "test",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The easiest word; often shorter and less formal."
+     },
+     {
+      "to": "assessment",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A way of judging how well someone does."
+     },
+     {
+      "to": "quiz",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A short, easy test."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "examine",
+    "relation": "derivational",
+    "definition": "to test students on what they know",
+    "example": "Students are examined at the end of each term.",
+    "note": "examine more often means to look at something carefully.",
+    "syn": [
+     {
+      "to": "test",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To check what someone knows."
+     },
+     {
+      "to": "assess",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To judge how good someone is."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [
+   {
+    "form": "examiner",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person who tests and marks students",
+    "example": "The examiner asked me three questions."
+   },
+   {
+    "form": "examinee",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who is taking a test",
+    "example": "Each examinee has two hours."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ation",
+    "in_form": "examination",
+    "meaning_key": "-ation",
+    "also": [
+     "information",
+     "invitation",
+     "education"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "examiner",
+    "meaning_key": "-er",
+    "also": [
+     "driver",
+     "teacher",
+     "player"
+    ]
+   },
+   {
+    "affix": "-ee",
+    "in_form": "examinee",
+    "meaning_key": "-ee",
+    "also": [
+     "employee",
+     "trainee",
+     "refugee"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Next week we have our English examination. The teachers will examine us on reading, writing and speaking.",
+   "uses": [
+    "examination",
+    "examine"
+   ]
+  },
+  "reviewer_note": "exam (clipping) kept out of synonyms because it is the same family; mentioned in the note."
+ },
+ {
+  "headword": "excitement",
+  "word_id": "6a4282fd46ba24054c1dcdf8",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcdf8"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Feeling",
+  "sense_pos": "noun",
+  "corpus_definition": "the feeling of being very happy and enthusiastic",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "excitement",
+    "relation": "base",
+    "definition": "a feeling of being very happy and full of energy",
+    "example": "The children could not sleep because of the excitement.",
+    "syn": [
+     {
+      "to": "thrill",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A sudden strong feeling of excitement."
+     },
+     {
+      "to": "enthusiasm",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Strong interest and wish to do something."
+     },
+     {
+      "to": "fun",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Enjoyment; the easiest word."
+     }
+    ],
+    "ant": [
+     {
+      "to": "boredom",
+      "relation": "antonym",
+      "note": "The feeling when nothing is interesting."
+     },
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "A quiet, peaceful feeling."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "excite",
+    "relation": "derivational",
+    "definition": "to make someone feel very happy and full of energy",
+    "example": "The news of the trip excited everyone.",
+    "syn": [
+     {
+      "to": "thrill",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To make someone very excited and pleased."
+     }
+    ],
+    "ant": [
+     {
+      "to": "bore",
+      "relation": "antonym",
+      "note": "To make someone lose interest."
+     },
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "To make someone quiet and peaceful."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "excited",
+    "relation": "participial",
+    "definition": "feeling very happy and full of energy",
+    "example": "I am so excited about the holidays!",
+    "syn": [
+     {
+      "to": "thrilled",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very excited and pleased."
+     },
+     {
+      "to": "eager",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Wanting very much to do something."
+     },
+     {
+      "to": "happy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The easiest word; less strong."
+     }
+    ],
+    "ant": [
+     {
+      "to": "bored",
+      "relation": "antonym",
+      "note": "Not interested."
+     },
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "Quiet and relaxed."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "exciting",
+    "relation": "participial",
+    "definition": "making you feel very happy and full of energy",
+    "example": "It was an exciting football match.",
+    "note": "excited = how you feel; exciting = what makes you feel it.",
+    "syn": [
+     {
+      "to": "thrilling",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very exciting."
+     },
+     {
+      "to": "interesting",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Making you want to know more; less strong."
+     }
+    ],
+    "ant": [
+     {
+      "to": "boring",
+      "relation": "antonym",
+      "note": "Not interesting at all."
+     },
+     {
+      "to": "dull",
+      "relation": "antonym",
+      "note": "Boring and slow."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "excitedly",
+    "relation": "derivational",
+    "definition": "in a happy way, full of energy",
+    "example": "The kids talked excitedly about the zoo.",
+    "syn": [
+     {
+      "to": "eagerly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "In a way that shows you really want something."
+     }
+    ],
+    "ant": [
+     {
+      "to": "calmly",
+      "relation": "antonym",
+      "note": "In a quiet, relaxed way."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ment",
+    "in_form": "excitement",
+    "meaning_key": "-ment",
+    "also": [
+     "payment",
+     "movement",
+     "government"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "excitedly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
+  ],
+  "context": {
+   "text": "There was a lot of excitement before the big match in Tashkent. The fans were excited, and the game was really exciting.",
+   "uses": [
+    "excitement",
+    "excited",
+    "exciting"
+   ]
+  },
+  "reviewer_note": "excited/exciting -ed/-ing trap noted."
+ },
+ {
+  "headword": "exhibition",
+  "word_id": "6a4282fd46ba24054c1dcd65",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd65"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Show",
+  "sense_pos": "noun",
+  "corpus_definition": "a public show where art or objects are displayed.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "exhibition",
+    "relation": "base",
+    "definition": "a public show of art or interesting objects",
+    "example": "We visited a photo exhibition at the museum.",
+    "syn": [
+     {
+      "to": "show",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The easiest word."
+     },
+     {
+      "to": "display",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Things arranged so people can look at them."
+     },
+     {
+      "to": "fair",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A big event where companies show their products."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "exhibit",
+    "relation": "derivational",
+    "definition": "to show art or objects to the public",
+    "example": "The gallery exhibits paintings by young artists.",
+    "note": "exhibit is also a noun: one object shown in a museum.",
+    "syn": [
+     {
+      "to": "show",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The easiest word."
+     },
+     {
+      "to": "display",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "To put things where people can see them."
+     }
+    ],
+    "ant": [
+     {
+      "to": "hide",
+      "relation": "antonym",
+      "note": "To put something where people cannot see it."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [
+   {
+    "form": "exhibitor",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person or company that shows things at a public show",
+    "example": "Every exhibitor had a small stand."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-or",
+    "in_form": "exhibitor",
+    "meaning_key": "-or",
+    "also": [
+     "actor",
+     "visitor",
+     "inventor"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Last Sunday we went to an art exhibition in Tashkent. The gallery exhibited paintings by young Uzbek artists.",
+   "uses": [
+    "exhibition",
+    "exhibited"
+   ]
+  },
+  "reviewer_note": "exhibit noun (object) noted on the verb entry (gate: one word appears once per map)."
+ },
+ {
+  "headword": "expense",
+  "word_id": "6a42883f6941e70ad6a00ddb",
+  "word_ids": [
+   "6a42883f6941e70ad6a00ddb"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Money",
+  "sense_pos": "noun",
+  "corpus_definition": "Money that you spend on things you need.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "expense",
+    "relation": "base",
+    "definition": "money that you spend on something",
+    "example": "A car is a big expense for a young family.",
+    "syn": [
+     {
+      "to": "cost",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The amount of money you pay."
+     },
+     {
+      "to": "spending",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Money you use, in general."
+     },
+     {
+      "to": "price",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The money a shop asks for one thing."
+     }
+    ],
+    "ant": [
+     {
+      "to": "income",
+      "relation": "antonym",
+      "note": "Money that you receive."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "expenditure",
+    "relation": "derivational",
+    "definition": "the total money a person or government spends",
+    "example": "The government increased expenditure on schools.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "spending",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The everyday word."
+     }
+    ],
+    "ant": [
+     {
+      "to": "income",
+      "relation": "antonym",
+      "note": "Money that you receive."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "expend",
+    "relation": "derivational",
+    "definition": "to use money, time or energy",
+    "example": "They expended a lot of money on the wedding.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "spend",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The everyday word."
+     },
+     {
+      "to": "use",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To take something for a purpose."
+     }
+    ],
+    "ant": [
+     {
+      "to": "save",
+      "relation": "antonym",
+      "note": "To keep money for later."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "expensive",
+    "relation": "derivational",
+    "definition": "costing a lot of money",
+    "example": "Hotels in the city centre are expensive.",
+    "syn": [
+     {
+      "to": "costly",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Costing a lot."
+     },
+     {
+      "to": "dear",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Expensive; mainly British."
+     },
+     {
+      "to": "pricey",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A little expensive.",
+      "register": "informal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "cheap",
+      "relation": "antonym",
+      "note": "Costing little money."
+     },
+     {
+      "to": "inexpensive",
+      "relation": "antonym",
+      "note": "Not costing much; more polite than cheap."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "expensively",
+    "relation": "derivational",
+    "definition": "in a way that costs a lot of money",
+    "example": "She was expensively dressed.",
+    "syn": [],
+    "ant": [
+     {
+      "to": "cheaply",
+      "relation": "antonym",
+      "note": "For little money."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "expensively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Travel is a big expense for my family. Flights to Europe are very expensive, so we usually go by train.",
+   "uses": [
+    "expense",
+    "expensive"
+   ]
+  },
+  "reviewer_note": "expend and expenditure marked formal; expenses (plural) = money paid back by an employer, not split."
+ },
+ {
+  "headword": "experiment",
+  "word_id": "6a42800cb9d8fc24968a4b35",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b35"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Science",
+  "sense_pos": "noun",
+  "corpus_definition": "A test to learn how something works or if something is true.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "experiment",
+    "relation": "base",
+    "definition": "a scientific test to learn something or check an idea",
+    "example": "We did an experiment with water and salt.",
+    "syn": [
+     {
+      "to": "test",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The easiest word."
+     },
+     {
+      "to": "trial",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A test to see if something works, often medicine."
+     },
+     {
+      "to": "research",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Careful study to find new facts."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "experiment",
+    "relation": "conversion",
+    "definition": "to try new ideas or methods to see what happens",
+    "example": "The chef likes to experiment with new spices.",
+    "syn": [
+     {
+      "to": "test",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To check how something works."
+     },
+     {
+      "to": "try",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To do something to see if it works."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "experimental",
+    "relation": "derivational",
+    "definition": "new and still being tested",
+    "example": "This is an experimental medicine.",
+    "syn": [
+     {
+      "to": "innovative",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "New and original."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "experimentally",
+    "relation": "derivational",
+    "definition": "by doing scientific tests",
+    "example": "The idea was tested experimentally.",
+    "syn": [],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-al",
+    "in_form": "experimental",
+    "meaning_key": "-al",
+    "also": [
+     "musical",
+     "national",
+     "personal"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "experimentally",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
+  ],
+  "context": {
+   "text": "In the science lesson we did an experiment with plants. Our teacher says experimental work is the best way to learn.",
+   "uses": [
+    "experiment",
+    "experimental"
+   ]
+  },
+  "reviewer_note": "experience is not family in meaning; experimenter rare, left out."
+ },
+ {
+  "headword": "extinct",
+  "word_id": "6a4282fd46ba24054c1dcd76",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd76",
+   "6a6ef83f0f1e82a5a07366fb"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Animals",
+  "sense_pos": "adjective",
+  "corpus_definition": "when a type of animal no longer exists today.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "extinction",
+    "relation": "derivational",
+    "definition": "the end of a type of animal or plant forever",
+    "example": "Many animals are in danger of extinction.",
+    "syn": [
+     {
+      "to": "disappearance",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "When something can no longer be found."
+     },
+     {
+      "to": "death",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The end of life."
+     }
+    ],
+    "ant": [
+     {
+      "to": "survival",
+      "relation": "antonym",
+      "note": "Continuing to live."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "not_family": [
+     "extinguish"
+    ],
+    "note": "extinguish (put out a fire) shares an old root but is not made from extinct."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "extinct",
+    "relation": "base",
+    "definition": "no longer existing anywhere in the world",
+    "example": "Dinosaurs became extinct millions of years ago.",
+    "note": "An extinct volcano will not erupt again.",
+    "syn": [
+     {
+      "to": "vanished",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Gone, not seen anymore."
+     },
+     {
+      "to": "dead",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "No longer alive; the easiest word."
+     },
+     {
+      "to": "lost",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Gone and not found."
+     }
+    ],
+    "ant": [
+     {
+      "to": "living",
+      "relation": "antonym",
+      "note": "Alive now."
+     },
+     {
+      "to": "alive",
+      "relation": "antonym",
+      "note": "Living, not dead."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ion",
+    "in_form": "extinction",
+    "meaning_key": "-ion",
+    "also": [
+     "action",
+     "protection",
+     "connection"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The Turan tiger became extinct in the last century. Today scientists work hard to save other animals from extinction.",
+   "uses": [
+    "extinct",
+    "extinction"
+   ]
+  },
+  "reviewer_note": "2 rows merged (same meaning, B1)."
+ }
+]

@@ -1,0 +1,299 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "beware",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Defective verb: only the base form is used; 'wary' kept as not_family, not a form."
+  },
+  {
+   "headword": "bid",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: biddable"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: biddable. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "bids"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "bade",
+       "bid"
+      ],
+      "VBN": [
+       "bid",
+       "bidden",
+       "bade"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Irregular past in the money sense (bid-bid-bid); other sense 'bid = try to get' (a bid for power) not included."
+  },
+  {
+   "headword": "bind",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: boundary"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'tie' is a synonym/related target for bind, bond"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "bound"
+      ],
+      "VBN": [
+       "bound"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "bound kept as participial adjective (tied); legal 'binding' and folder 'binder' marked other_meaning."
+  },
+  {
+   "headword": "blast",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: blaster"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'blaster' (zipf 3.1) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "blasts",
+       "blast"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "blasted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Informal sense 'a blast = a very fun time' left out; the verb 'blast music' (play loudly) also not used."
+  },
+  {
+   "headword": "blow up",
+   "kind": "phrasal",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Other meanings (fill with air: blow up a balloon; get very angry) left out."
+  },
+  {
+   "headword": "bond",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: bondable"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: bony. Check."
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'boner' (zipf 3.2) may belong here"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'tie' is a synonym/related target for bind, bond"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "bonds"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "bonded"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Other senses of bond (money: government bond; chemistry) left out; 'bound' is not family here."
+  },
+  {
+   "headword": "bonus",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: bony. Check."
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'boner' (zipf 3.2) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "bonuses"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-word family; no forms in other slots."
+  },
+  {
+   "headword": "boundary",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "boundaries"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "bounded"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Verb bound (= form the edge of) is from the same root as boundary, not the past of bind; boundless kept as other_meaning (figurative limits)."
+  },
+  {
+   "headword": "brag",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: braggy"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: braggy. Check."
+    },
+    {
+     "cat": "unchecked POS",
+     "msg": "bragging → 'showing off': phrase, part of speech not confirmed"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "bragged"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "braggart is old-fashioned but in learner dictionaries; no adjective/adverb exists."
+  },
+  {
+   "headword": "bravery",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "bravely: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "bravery"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "braved"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "braver"
+      ],
+      "JJS": [
+       "bravest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "bravery is made from brave (+ -ery, not in the affix table, so no affix claimed); verb brave = face danger."
+  }
+ ]
+}

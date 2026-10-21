@@ -1,0 +1,250 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "meadow",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: mealy. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "meadows",
+       "meadow"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Only one family form exists; no person or thing nouns are made from meadow."
+  },
+  {
+   "headword": "meantime",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Meanwhile is a sister word (mean + while), not made from meantime, so it is a synonym, not a form."
+  },
+  {
+   "headword": "measurement",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "measurable: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "measurements",
+       "measurement"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "measured"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Sense trap: measure (an action, 'safety measures') and measured (careful) are other meanings; map keeps the size sense."
+  },
+  {
+   "headword": "media",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: medial, medical"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: medially, medically. Check."
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'median' (zipf 4.0) may belong here"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'medics' (zipf 3.1) may belong here"
+    },
+    {
+     "cat": "bound root",
+     "msg": "'multi-' + 'media': classical prefix on a bound root; reviewer confirms"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "media"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Medium kept as the singular of media in this meaning; mediate/mediator are not_family. Compounds like social media are left out."
+  },
+  {
+   "headword": "memorable",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "memory: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "memorably: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "memories",
+       "memory"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Memorize is other_meaning here (learning facts, not being special); no affix claimed because memor- is not a word."
+  },
+  {
+   "headword": "memorize",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "memories",
+       "memory"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "memorized"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Memorable/memorably are other_meaning (being special, not learning facts). American spellings used; British -ise noted."
+  },
+  {
+   "headword": "mental",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: mention"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'mentor' (zipf 3.9) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "mentalities",
+       "mentality"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No -al affix claimed (ment- is not a word); rude informal use of mental is noted, not taught. Mind listed as not_family."
+  },
+  {
+   "headword": "mental health",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed noun phrase; no forms."
+  },
+  {
+   "headword": "mercy",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'mercer' (zipf 3.5) may belong here"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "mercilessly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "mercies",
+       "mercy"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Merciless is a real -less form (like careless), so it is an entry, not an antonym; 'luckily' use of mercifully noted."
+  },
+  {
+   "headword": "mighty",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "mightier"
+      ],
+      "JJS": [
+       "mightiest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun might (power) is a different word from the modal verb might; informal American adverb mighty = very is other_meaning."
+  }
+ ]
+}
