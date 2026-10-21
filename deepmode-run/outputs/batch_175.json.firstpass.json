@@ -1,0 +1,289 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "torture",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: tortuously, torturously. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "tortures",
+       "torture"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "tortured"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the act-of-causing-pain sense; tortured (adjective) and torturous are both learner-dictionary words."
+  },
+  {
+   "headword": "toxic",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "toxicity: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "toxicities",
+       "toxicity"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Intoxicate shares an old root but means 'make drunk' and is not made from toxic, so it is listed in not_family."
+  },
+  {
+   "headword": "track",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: trackable. Check."
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'tracer' (zipf 3.2) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "tracks"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "tracked"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Verb sense = follow the location; noun track kept as marks on the ground (same idea), race track and music track are other meanings."
+  },
+  {
+   "headword": "trade",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "bad example",
+     "msg": "in-context text uses 1 family form(s), needs 2"
+    }
+   ],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "trades",
+       "trade"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "traded"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Compounds (trademark, tradesman) left out; trade (skilled job) is another meaning, mentioned in the noun note."
+  },
+  {
+   "headword": "tragic",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "tragedies",
+       "tragedy"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No affix claimed: tragically is tragic + -ally, and removing -ic leaves no real word."
+  },
+  {
+   "headword": "tremble",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "trembles"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "trembled"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Tremor comes from the same old root but is not made from tremble; listed in people_not_family."
+  },
+  {
+   "headword": "trigger",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "triggers"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "triggered"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Gun-part sense of the noun mentioned in a note only; verb sense = make something start."
+  },
+  {
+   "headword": "triumph",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "triumphantly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "triumphs",
+       "triumph"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "triumphed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Triumphant (feeling) vs triumphal (celebrating a victory, e.g. an arch) both shown."
+  },
+  {
+   "headword": "troops",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "false affix",
+     "msg": "'trooper' = 'troop' + '-er', but 'troop' isn't confirmed as related. Real split?"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "troops"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Plural headword: the map keeps troops as the base; singular troop explained in a note."
+  },
+  {
+   "headword": "tropics",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: trope"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "noun definition has rare words: equator"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: tropically. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "tropics: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "tropics"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "CORPUS: the example sentence does not use the word tropics; the map example uses it."
+  }
+ ]
+}
