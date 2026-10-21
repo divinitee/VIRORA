@@ -2,7 +2,9 @@
  {
   "headword": "instruct",
   "word_id": "6a4265cce20c7210db6908e1",
-  "word_ids": ["6a4265cce20c7210db6908e1"],
+  "word_ids": [
+   "6a4265cce20c7210db6908e1"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Teaching",
@@ -10,45 +12,107 @@
   "corpus_definition": "To show or tell someone how to perform a task.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "instruction", "relation": "derivational",
+    "slot": "noun",
+    "status": "existing",
+    "form": "instruction",
+    "relation": "derivational",
     "definition": "information that tells you how to do or use something",
     "example": "Read the instructions carefully before you use the new washing machine.",
     "note": "Usually plural when it means steps to follow: 'follow the instructions'.",
     "syn": [
-     {"to": "directions", "relation": "synonym", "strength": 0.95, "note": "Plural noun with the same meaning: 'Follow the directions on the box.'"},
-     {"to": "guidance", "relation": "related", "strength": 0.6, "note": "Help and advice about what to do; more general and uncountable."},
-     {"to": "teaching", "relation": "related", "strength": 0.6, "note": "The work of a teacher in general, not one set of steps."}
+     {
+      "to": "directions",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Plural noun with the same meaning: 'Follow the directions on the box.'"
+     },
+     {
+      "to": "guidance",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Help and advice about what to do; more general and uncountable."
+     },
+     {
+      "to": "teaching",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The work of a teacher in general, not one set of steps."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "verb", "status": "existing", "form": "instruct", "relation": "base",
+    "slot": "verb",
+    "status": "existing",
+    "form": "instruct",
+    "relation": "base",
     "definition": "to show or tell someone how to do a task",
     "example": "The coach will instruct the team on tactics before the match.",
     "register": "formal",
     "note": "It can also mean 'to order': 'She instructed him to wait outside.'",
     "syn": [
-     {"to": "teach", "relation": "synonym", "strength": 0.8, "note": "Everyday word; instruct is more formal and often about a practical skill."},
-     {"to": "train", "relation": "synonym", "strength": 0.8, "note": "Teach a skill through practice over a period of time."},
-     {"to": "show", "relation": "related", "strength": 0.6, "note": "Easy word: 'Can you show me how to do it?'"},
-     {"to": "direct", "relation": "related", "strength": 0.6, "note": "Tell people what to do; more about giving orders than teaching."}
+     {
+      "to": "teach",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Everyday word; instruct is more formal and often about a practical skill."
+     },
+     {
+      "to": "train",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Teach a skill through practice over a period of time."
+     },
+     {
+      "to": "show",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: 'Can you show me how to do it?'"
+     },
+     {
+      "to": "direct",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Tell people what to do; more about giving orders than teaching."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "adjective", "status": "existing", "form": "instructive", "relation": "derivational",
+    "slot": "adjective",
+    "status": "existing",
+    "form": "instructive",
+    "relation": "derivational",
     "definition": "giving useful information that helps you learn something",
     "example": "The museum visit was very instructive for the children.",
     "register": "formal",
     "syn": [
-     {"to": "informative", "relation": "synonym", "strength": 0.8, "note": "Giving a lot of useful facts; very close in meaning."},
-     {"to": "educational", "relation": "synonym", "strength": 0.8, "note": "Helping people learn; common for films, games and trips."},
-     {"to": "useful", "relation": "related", "strength": 0.4, "note": "Easy, general word: helpful in any way, not only for learning."}
+     {
+      "to": "informative",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Giving a lot of useful facts; very close in meaning."
+     },
+     {
+      "to": "educational",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Helping people learn; common for films, games and trips."
+     },
+     {
+      "to": "useful",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy, general word: helpful in any way, not only for learning."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "adjective", "status": "existing", "form": "instructional", "relation": "derivational",
+    "slot": "adjective",
+    "status": "existing",
+    "form": "instructional",
+    "relation": "derivational",
     "definition": "made to teach people how to do something",
     "example": "We watched an instructional video about first aid.",
     "register": "formal",
@@ -56,34 +120,79 @@
     "ant": []
    },
    {
-    "slot": "adverb", "status": "no_form",
+    "slot": "adverb",
+    "status": "no_form",
     "note": "There is no common adverb in this family; 'instructively' exists but is very rare."
    }
   ],
   "people": [
    {
-    "form": "instructor", "kind": "job", "status": "existing",
+    "form": "instructor",
+    "kind": "job",
+    "status": "existing",
     "definition": "a person whose job is to teach a practical skill such as driving",
     "example": "My driving instructor is very patient and calm."
    }
   ],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-ion", "in_form": "instruction", "meaning_key": "-ion", "also": ["action", "protection", "connection"]},
-   {"affix": "-ive", "in_form": "instructive", "meaning_key": "-ive", "also": ["creative", "active", "attractive"]},
-   {"affix": "-al", "in_form": "instructional", "meaning_key": "-al", "also": ["national", "personal", "traditional"]},
-   {"affix": "-or", "in_form": "instructor", "meaning_key": "-or", "also": ["actor", "visitor", "inventor"]}
+   {
+    "affix": "-ion",
+    "in_form": "instruction",
+    "meaning_key": "-ion",
+    "also": [
+     "action",
+     "protection",
+     "connection"
+    ]
+   },
+   {
+    "affix": "-ive",
+    "in_form": "instructive",
+    "meaning_key": "-ive",
+    "also": [
+     "creative",
+     "active",
+     "attractive"
+    ]
+   },
+   {
+    "affix": "-al",
+    "in_form": "instructional",
+    "meaning_key": "-al",
+    "also": [
+     "national",
+     "personal",
+     "traditional"
+    ]
+   },
+   {
+    "affix": "-or",
+    "in_form": "instructor",
+    "meaning_key": "-or",
+    "also": [
+     "actor",
+     "visitor",
+     "inventor"
+    ]
+   }
   ],
   "context": {
    "text": "My driving instructor instructed me to check the mirrors before every turn. His instructions were short and clear, so I passed my test in Tashkent the first time.",
-   "uses": ["instructor", "instructed", "instructions"]
+   "uses": [
+    "instructor",
+    "instructed",
+    "instructions"
+   ]
   },
   "reviewer_note": "Mapped the teaching sense; the 'order someone' sense is mentioned only in a note on the verb."
  },
  {
   "headword": "insurance",
   "word_id": "6a42883f6941e70ad6a00dc5",
-  "word_ids": ["6a42883f6941e70ad6a00dc5"],
+  "word_ids": [
+   "6a42883f6941e70ad6a00dc5"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Protection",
@@ -91,67 +200,147 @@
   "corpus_definition": "Paying to protect yourself against loss or damage.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "insurance", "relation": "base",
+    "slot": "noun",
+    "status": "existing",
+    "form": "insurance",
+    "relation": "base",
     "definition": "an agreement where you pay a company and it pays you after loss or damage",
     "example": "Do you have car insurance for this vehicle?",
     "syn": [
-     {"to": "cover", "relation": "synonym", "strength": 0.8, "note": "British English, used in business: 'travel cover'."},
-     {"to": "coverage", "relation": "synonym", "strength": 0.8, "note": "Mostly American English: 'health coverage'."},
-     {"to": "protection", "relation": "related", "strength": 0.6, "note": "General word for keeping something safe; not always a paid agreement."},
-     {"to": "policy", "relation": "related", "strength": 0.6, "note": "The written contract you get from the company: 'an insurance policy'."}
+     {
+      "to": "cover",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "British English, used in business: 'travel cover'."
+     },
+     {
+      "to": "coverage",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Mostly American English: 'health coverage'."
+     },
+     {
+      "to": "protection",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "General word for keeping something safe; not always a paid agreement."
+     },
+     {
+      "to": "policy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The written contract you get from the company: 'an insurance policy'."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "verb", "status": "existing", "form": "insure", "relation": "derivational",
+    "slot": "verb",
+    "status": "existing",
+    "form": "insure",
+    "relation": "derivational",
     "definition": "to pay a company so it will pay you if something is lost or damaged",
     "example": "We insured our new car against theft and accidents.",
     "note": "Do not mix it up with 'ensure' (make sure). In American English 'insure' is sometimes used for 'ensure' too.",
     "syn": [
-     {"to": "cover", "relation": "synonym", "strength": 0.8, "note": "Used with the company as subject: 'The policy covers fire and flood.'"},
-     {"to": "protect", "relation": "related", "strength": 0.6, "note": "Keep something safe in any way, not only by paying a company."}
+     {
+      "to": "cover",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used with the company as subject: 'The policy covers fire and flood.'"
+     },
+     {
+      "to": "protect",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Keep something safe in any way, not only by paying a company."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "adjective", "status": "existing", "form": "insured", "relation": "participial",
+    "slot": "adjective",
+    "status": "existing",
+    "form": "insured",
+    "relation": "participial",
     "definition": "protected by an agreement that pays you after loss or damage",
     "example": "Is your house insured against fire?",
     "syn": [
-     {"to": "covered", "relation": "synonym", "strength": 0.8, "note": "Everyday way to say the same thing: 'Are you covered?'"},
-     {"to": "protected", "relation": "related", "strength": 0.6, "note": "Kept safe in a general way, not only by a paid agreement."}
+     {
+      "to": "covered",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Everyday way to say the same thing: 'Are you covered?'"
+     },
+     {
+      "to": "protected",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Kept safe in a general way, not only by a paid agreement."
+     }
     ],
     "ant": [
-     {"to": "uninsured", "relation": "antonym", "note": "Without this protection: 'an uninsured driver'."}
+     {
+      "to": "uninsured",
+      "relation": "antonym",
+      "note": "Without this protection: 'an uninsured driver'."
+     }
     ]
    },
    {
-    "slot": "adverb", "status": "no_form",
+    "slot": "adverb",
+    "status": "no_form",
     "note": "There is no adverb in this family."
    }
   ],
   "people": [
    {
-    "form": "insurer", "kind": "job", "status": "existing",
+    "form": "insurer",
+    "kind": "job",
+    "status": "existing",
     "definition": "a company or person that sells protection against loss or damage",
     "example": "The insurer paid for the repairs after the accident."
    }
   ],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-ance", "in_form": "insurance", "meaning_key": "-ance", "also": ["performance", "appearance", "assistance"]},
-   {"affix": "-er", "in_form": "insurer", "meaning_key": "-er", "also": ["teacher", "driver", "player"]}
+   {
+    "affix": "-ance",
+    "in_form": "insurance",
+    "meaning_key": "-ance",
+    "also": [
+     "performance",
+     "appearance",
+     "assistance"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "insurer",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "driver",
+     "player"
+    ]
+   }
   ],
   "context": {
    "text": "My father insured his car last month. The insurance costs about 800,000 som a year, but if there is an accident, the insurer pays for the repairs.",
-   "uses": ["insured", "insurance", "insurer"]
+   "uses": [
+    "insured",
+    "insurance",
+    "insurer"
+   ]
   },
   "reviewer_note": "insure vs ensure trap explained in the verb note; uninsured kept as an antonym, not a form."
  },
  {
   "headword": "integrate",
   "word_id": "6a6ef83f0f1e82a5a0736717",
-  "word_ids": ["6a6ef83f0f1e82a5a0736717"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736717"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Joining",
@@ -159,68 +348,170 @@
   "corpus_definition": "To mix different groups of people or things together.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "integration", "relation": "derivational",
+    "slot": "noun",
+    "status": "existing",
+    "form": "integration",
+    "relation": "derivational",
     "definition": "the process of bringing different people or things together as one group",
     "example": "The integration of new students into the school took only a few weeks.",
     "syn": [
-     {"to": "inclusion", "relation": "synonym", "strength": 0.8, "note": "Making sure everyone is part of a group; often used about people."},
-     {"to": "combination", "relation": "related", "strength": 0.6, "note": "Things put together; does not say they work well as one."},
-     {"to": "mixing", "relation": "related", "strength": 0.6, "note": "Easy word for putting things or people together."}
+     {
+      "to": "inclusion",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Making sure everyone is part of a group; often used about people."
+     },
+     {
+      "to": "combination",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Things put together; does not say they work well as one."
+     },
+     {
+      "to": "mixing",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word for putting things or people together."
+     }
     ],
     "ant": [
-     {"to": "segregation", "relation": "antonym", "note": "Keeping groups of people apart, often by law or rules."},
-     {"to": "separation", "relation": "antonym", "note": "Keeping or moving things apart."}
+     {
+      "to": "segregation",
+      "relation": "antonym",
+      "note": "Keeping groups of people apart, often by law or rules."
+     },
+     {
+      "to": "separation",
+      "relation": "antonym",
+      "note": "Keeping or moving things apart."
+     }
     ]
    },
    {
-    "slot": "verb", "status": "existing", "form": "integrate", "relation": "base",
+    "slot": "verb",
+    "status": "existing",
+    "form": "integrate",
+    "relation": "base",
     "definition": "to join different people or things together so they work as one",
     "example": "New students quickly integrated into the school group.",
     "syn": [
-     {"to": "combine", "relation": "synonym", "strength": 0.8, "note": "Put two or more things together; used more for things than people."},
-     {"to": "mix", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word for putting things or people together."},
-     {"to": "unite", "relation": "related", "strength": 0.6, "note": "Join together for a shared goal; stronger and more formal."},
-     {"to": "join", "relation": "related", "strength": 0.6, "note": "Easy word: become part of a group: 'He joined our team.'"}
+     {
+      "to": "combine",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Put two or more things together; used more for things than people."
+     },
+     {
+      "to": "mix",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday word for putting things or people together."
+     },
+     {
+      "to": "unite",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Join together for a shared goal; stronger and more formal."
+     },
+     {
+      "to": "join",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: become part of a group: 'He joined our team.'"
+     }
     ],
     "ant": [
-     {"to": "separate", "relation": "antonym", "note": "Keep or move people or things apart."},
-     {"to": "segregate", "relation": "antonym", "note": "Keep groups apart on purpose; a strong, formal word."}
+     {
+      "to": "separate",
+      "relation": "antonym",
+      "note": "Keep or move people or things apart."
+     },
+     {
+      "to": "segregate",
+      "relation": "antonym",
+      "note": "Keep groups apart on purpose; a strong, formal word."
+     }
     ]
    },
    {
-    "slot": "adjective", "status": "existing", "form": "integrated", "relation": "participial",
+    "slot": "adjective",
+    "status": "existing",
+    "form": "integrated",
+    "relation": "participial",
     "definition": "with different parts or people joined well together as one",
     "example": "The city has an integrated bus and metro system with one ticket.",
     "syn": [
-     {"to": "unified", "relation": "synonym", "strength": 0.8, "note": "Made into one whole; a little formal."},
-     {"to": "combined", "relation": "related", "strength": 0.6, "note": "Put together, but the parts may still be separate."},
-     {"to": "mixed", "relation": "related", "strength": 0.6, "note": "With different kinds of people or things: 'a mixed class'."}
+     {
+      "to": "unified",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Made into one whole; a little formal."
+     },
+     {
+      "to": "combined",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Put together, but the parts may still be separate."
+     },
+     {
+      "to": "mixed",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "With different kinds of people or things: 'a mixed class'."
+     }
     ],
     "ant": [
-     {"to": "segregated", "relation": "antonym", "note": "Kept apart: 'segregated schools'."},
-     {"to": "separate", "relation": "antonym", "note": "Not joined to the other parts."}
+     {
+      "to": "segregated",
+      "relation": "antonym",
+      "note": "Kept apart: 'segregated schools'."
+     },
+     {
+      "to": "separate",
+      "relation": "antonym",
+      "note": "Not joined to the other parts."
+     }
+    ],
+    "note": "Integral (= a necessary part of a whole) shares an old Latin root but is not made from integrate.",
+    "not_family": [
+     "integral"
     ]
    },
    {
-    "slot": "adverb", "status": "no_form",
+    "slot": "adverb",
+    "status": "no_form",
     "note": "There is no adverb in this family."
    }
   ],
   "people": [],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-ion", "in_form": "integration", "meaning_key": "-ion", "also": ["action", "education", "connection"]}
+   {
+    "affix": "-ion",
+    "in_form": "integration",
+    "meaning_key": "-ion",
+    "also": [
+     "action",
+     "education",
+     "connection"
+    ]
+   }
   ],
   "context": {
    "text": "Three students from Samarkand joined our class this year. They integrated quickly because our teacher believes integration starts with team games. Now we feel like one integrated group.",
-   "uses": ["integrated", "integration"]
+   "uses": [
+    "integrated",
+    "integration"
+   ]
   },
   "reviewer_note": "Only the joining-groups sense mapped; integral and integrity share an old root but are not made from integrate, so they are left out."
  },
  {
   "headword": "intelligence",
   "word_id": "6a4282fd46ba24054c1dcd68",
-  "word_ids": ["6a4282fd46ba24054c1dcd68"],
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd68"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Mind",
@@ -228,66 +519,153 @@
   "corpus_definition": "the mental ability to learn and understand new things.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "intelligence", "relation": "base",
+    "slot": "noun",
+    "status": "existing",
+    "form": "intelligence",
+    "relation": "base",
     "definition": "the ability to learn, understand and think about things well",
     "example": "The professor is known for her high intelligence.",
     "note": "It also means secret information about an enemy ('military intelligence'); that meaning is not shown here.",
     "syn": [
-     {"to": "cleverness", "relation": "synonym", "strength": 0.8, "note": "Everyday word; intelligence sounds more serious and scientific."},
-     {"to": "brains", "relation": "synonym", "strength": 0.8, "note": "Informal: 'She has brains.'", "register": "informal"},
-     {"to": "wisdom", "relation": "related", "strength": 0.4, "note": "Good judgement from experience; a clever young person may not have it yet."}
+     {
+      "to": "cleverness",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Everyday word; intelligence sounds more serious and scientific."
+     },
+     {
+      "to": "brains",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal: 'She has brains.'",
+      "register": "informal"
+     },
+     {
+      "to": "wisdom",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Good judgement from experience; a clever young person may not have it yet."
+     }
     ],
     "ant": [
-     {"to": "stupidity", "relation": "antonym", "note": "Lack of the ability to think well; a strong, rude word about people."}
+     {
+      "to": "stupidity",
+      "relation": "antonym",
+      "note": "Lack of the ability to think well; a strong, rude word about people."
+     }
     ]
    },
    {
-    "slot": "verb", "status": "no_form",
+    "slot": "verb",
+    "status": "no_form",
     "note": "There is no verb in this family."
    },
    {
-    "slot": "adjective", "status": "existing", "form": "intelligent", "relation": "derivational",
+    "slot": "adjective",
+    "status": "existing",
+    "form": "intelligent",
+    "relation": "derivational",
     "definition": "able to learn and understand things quickly and well",
     "example": "Dolphins are very intelligent animals.",
     "syn": [
-     {"to": "clever", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word with the same meaning (more British)."},
-     {"to": "smart", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word; very common in American English."},
-     {"to": "bright", "relation": "synonym", "strength": 0.8, "note": "Often used about children and students: 'a bright pupil'."}
+     {
+      "to": "clever",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday word with the same meaning (more British)."
+     },
+     {
+      "to": "smart",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday word; very common in American English."
+     },
+     {
+      "to": "bright",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Often used about children and students: 'a bright pupil'."
+     }
     ],
     "ant": [
-     {"to": "stupid", "relation": "antonym", "note": "Not able to think well; can be rude about people."},
-     {"to": "unintelligent", "relation": "antonym", "note": "More formal and polite than stupid."}
+     {
+      "to": "stupid",
+      "relation": "antonym",
+      "note": "Not able to think well; can be rude about people."
+     },
+     {
+      "to": "unintelligent",
+      "relation": "antonym",
+      "note": "More formal and polite than stupid."
+     }
     ]
    },
    {
-    "slot": "adverb", "status": "existing", "form": "intelligently", "relation": "derivational",
+    "slot": "adverb",
+    "status": "existing",
+    "form": "intelligently",
+    "relation": "derivational",
     "definition": "in a clever way that shows good thinking",
     "example": "She answered the difficult question intelligently.",
     "syn": [
-     {"to": "cleverly", "relation": "synonym", "strength": 0.95, "note": "Same meaning, a little less formal."},
-     {"to": "wisely", "relation": "related", "strength": 0.6, "note": "With good judgement, often from experience."},
-     {"to": "sensibly", "relation": "related", "strength": 0.6, "note": "In a practical, reasonable way."}
+     {
+      "to": "cleverly",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, a little less formal."
+     },
+     {
+      "to": "wisely",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "With good judgement, often from experience."
+     },
+     {
+      "to": "sensibly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a practical, reasonable way."
+     }
     ],
     "ant": [
-     {"to": "stupidly", "relation": "antonym", "note": "In a way that shows bad thinking."}
+     {
+      "to": "stupidly",
+      "relation": "antonym",
+      "note": "In a way that shows bad thinking."
+     }
     ]
    }
   ],
   "people": [],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-ly", "in_form": "intelligently", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+   {
+    "affix": "-ly",
+    "in_form": "intelligently",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "carefully"
+    ]
+   }
   ],
   "context": {
    "text": "Dilnoza's intelligence surprised her teachers in Namangan. She always answers questions intelligently, and everyone agrees she is a very intelligent girl.",
-   "uses": ["intelligence", "intelligently", "intelligent"]
+   "uses": [
+    "intelligence",
+    "intelligently",
+    "intelligent"
+   ]
   },
   "reviewer_note": "Secret-information sense (military intelligence) noted on the noun but not mapped; no -ence affix claimed (intelligent/intelligence split is not clean)."
  },
  {
   "headword": "interval",
   "word_id": "6a6ef83f0f1e82a5a073674e",
-  "word_ids": ["6a6ef83f0f1e82a5a073674e"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073674e"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Time",
@@ -295,28 +673,54 @@
   "corpus_definition": "A short period of time between two events.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "interval", "relation": "base",
+    "slot": "noun",
+    "status": "existing",
+    "form": "interval",
+    "relation": "base",
     "definition": "a period of time between two events or two parts of a show",
     "example": "There was a long interval between the two acts of the play.",
     "note": "In a theatre, British English says 'interval' and American English says 'intermission'. 'At intervals' means 'regularly, with time between'.",
     "syn": [
-     {"to": "break", "relation": "synonym", "strength": 0.8, "note": "Easy word for a short rest between two activities."},
-     {"to": "pause", "relation": "synonym", "strength": 0.8, "note": "A short stop, usually shorter than an interval."},
-     {"to": "gap", "relation": "synonym", "strength": 0.8, "note": "Space or time between two things: 'a gap of two years'."},
-     {"to": "intermission", "relation": "synonym", "strength": 0.95, "note": "American English for the break in a play or concert."}
+     {
+      "to": "break",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word for a short rest between two activities."
+     },
+     {
+      "to": "pause",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A short stop, usually shorter than an interval."
+     },
+     {
+      "to": "gap",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Space or time between two things: 'a gap of two years'."
+     },
+     {
+      "to": "intermission",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "American English for the break in a play or concert."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "verb", "status": "no_form",
+    "slot": "verb",
+    "status": "no_form",
     "note": "There is no verb in this family."
    },
    {
-    "slot": "adjective", "status": "no_form",
+    "slot": "adjective",
+    "status": "no_form",
     "note": "There is no adjective in this family."
    },
    {
-    "slot": "adverb", "status": "no_form",
+    "slot": "adverb",
+    "status": "no_form",
     "note": "There is no adverb in this family; use the phrase 'at intervals'."
    }
   ],
@@ -325,14 +729,20 @@
   "affixes": [],
   "context": {
    "text": "The concert had a twenty-minute interval, so we went out for tea. On the way home, buses to Chilonzor came at intervals of ten minutes.",
-   "uses": ["interval", "intervals"]
+   "uses": [
+    "interval",
+    "intervals"
+   ]
   },
   "reviewer_note": "Single-form family; British/American difference (interval vs intermission) noted."
  },
  {
   "headword": "invasion",
   "word_id": "6a4282fd46ba24054c1dcd9f",
-  "word_ids": ["6a4282fd46ba24054c1dcd9f", "6a6ef9b2a60155614809269d"],
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd9f",
+   "6a6ef9b2a60155614809269d"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Army",
@@ -340,66 +750,138 @@
   "corpus_definition": "When an army enters a country to take control by force.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "invasion", "relation": "base",
+    "slot": "noun",
+    "status": "existing",
+    "form": "invasion",
+    "relation": "base",
     "definition": "the act of an army entering another country to take control by force",
     "example": "The country prepared for the invasion at the border.",
     "note": "Also used for things that come in large numbers or are not wanted: 'an invasion of tourists', 'an invasion of privacy'.",
     "syn": [
-     {"to": "attack", "relation": "synonym", "strength": 0.8, "note": "More general: an attack can be short and does not always mean taking control."},
-     {"to": "occupation", "relation": "related", "strength": 0.6, "note": "Staying in and controlling a country after entering it."},
-     {"to": "raid", "relation": "related", "strength": 0.4, "note": "A short, quick attack; the attackers leave again."}
+     {
+      "to": "attack",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "More general: an attack can be short and does not always mean taking control."
+     },
+     {
+      "to": "occupation",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Staying in and controlling a country after entering it."
+     },
+     {
+      "to": "raid",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A short, quick attack; the attackers leave again."
+     }
     ],
     "ant": [
-     {"to": "withdrawal", "relation": "antonym", "note": "When an army leaves a country or area."},
-     {"to": "retreat", "relation": "antonym", "note": "When an army moves back because it is losing."}
+     {
+      "to": "withdrawal",
+      "relation": "antonym",
+      "note": "When an army leaves a country or area."
+     },
+     {
+      "to": "retreat",
+      "relation": "antonym",
+      "note": "When an army moves back because it is losing."
+     }
     ]
    },
    {
-    "slot": "verb", "status": "existing", "form": "invade", "relation": "derivational",
+    "slot": "verb",
+    "status": "existing",
+    "form": "invade",
+    "relation": "derivational",
     "definition": "to enter a country with an army to take control of it",
     "example": "Genghis Khan's army invaded Central Asia in the 13th century.",
     "syn": [
-     {"to": "attack", "relation": "synonym", "strength": 0.8, "note": "More general; you can attack without entering or taking control."},
-     {"to": "take over", "relation": "related", "strength": 0.6, "note": "Get control of a place or company; not always by force."},
-     {"to": "occupy", "relation": "related", "strength": 0.6, "note": "Stay in a place and control it, usually after invading."}
+     {
+      "to": "attack",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "More general; you can attack without entering or taking control."
+     },
+     {
+      "to": "take over",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Get control of a place or company; not always by force."
+     },
+     {
+      "to": "occupy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Stay in a place and control it, usually after invading."
+     }
     ],
     "ant": [
-     {"to": "withdraw", "relation": "antonym", "note": "Take an army out of a country."},
-     {"to": "retreat", "relation": "antonym", "note": "Move back away from the enemy."}
+     {
+      "to": "withdraw",
+      "relation": "antonym",
+      "note": "Take an army out of a country."
+     },
+     {
+      "to": "retreat",
+      "relation": "antonym",
+      "note": "Move back away from the enemy."
+     }
     ]
    },
    {
-    "slot": "adjective", "status": "other_meaning", "form": "invasive",
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "invasive",
     "definition": "spreading quickly into places where it is not wanted and causing harm",
     "example": "This invasive plant is killing the trees along the river.",
     "note": "Belongs to invade = spread into a place (plants, illness) or go into the body in medicine, not armies. For armies, say 'the invading army'."
    },
    {
-    "slot": "adverb", "status": "no_form",
+    "slot": "adverb",
+    "status": "no_form",
     "note": "There is no common adverb in this family."
    }
   ],
   "people": [
    {
-    "form": "invader", "kind": "person", "status": "existing",
+    "form": "invader",
+    "kind": "person",
+    "status": "existing",
     "definition": "a soldier, army or country that enters another country by force",
     "example": "The people of the city fought bravely against the invaders."
    }
   ],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-er", "in_form": "invader", "meaning_key": "-er", "also": ["teacher", "driver", "player"]}
+   {
+    "affix": "-er",
+    "in_form": "invader",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "driver",
+     "player"
+    ]
+   }
   ],
   "context": {
    "text": "In history class we read about the Mongol invasion of Central Asia. The invaders came from the east and invaded Samarkand and Bukhara in 1220.",
-   "uses": ["invasion", "invaders", "invaded"]
+   "uses": [
+    "invasion",
+    "invaders",
+    "invaded"
+   ]
   },
   "reviewer_note": "Two corpus rows with the same meaning merged (lowest CEFR B2); invasive is other_meaning (plants/medicine), not the army sense."
  },
  {
   "headword": "invention",
   "word_id": "6a4288ad6941e70ad6a00ec1",
-  "word_ids": ["6a4288ad6941e70ad6a00ec1"],
+  "word_ids": [
+   "6a4288ad6941e70ad6a00ec1"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "New thing",
@@ -407,78 +889,198 @@
   "corpus_definition": "A thing that someone created for the very first time.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "invention", "relation": "base",
+    "slot": "noun",
+    "status": "existing",
+    "form": "invention",
+    "relation": "base",
     "definition": "a new thing or machine that someone makes for the first time",
     "example": "The light bulb was a great invention.",
     "note": "It can also mean the act of making something new: 'the invention of the telephone'.",
     "syn": [
-     {"to": "creation", "relation": "synonym", "strength": 0.8, "note": "Something made by someone; can be art or food, not only a machine."},
-     {"to": "innovation", "relation": "synonym", "strength": 0.8, "note": "A new idea or way of doing things; common in business and technology."},
-     {"to": "device", "relation": "related", "strength": 0.6, "note": "A machine or tool for a special job; it may not be new."},
-     {"to": "discovery", "relation": "related", "strength": 0.4, "note": "Careful: you discover something that already exists, but you make an invention."}
+     {
+      "to": "creation",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Something made by someone; can be art or food, not only a machine."
+     },
+     {
+      "to": "innovation",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A new idea or way of doing things; common in business and technology."
+     },
+     {
+      "to": "device",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A machine or tool for a special job; it may not be new."
+     },
+     {
+      "to": "discovery",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Careful: you discover something that already exists, but you make an invention."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "verb", "status": "existing", "form": "invent", "relation": "derivational",
+    "slot": "verb",
+    "status": "existing",
+    "form": "invent",
+    "relation": "derivational",
     "definition": "to make or design something that did not exist before",
     "example": "Who invented the first computer?",
     "note": "It can also mean to make up a story or excuse that is not true.",
     "syn": [
-     {"to": "create", "relation": "synonym", "strength": 0.8, "note": "Make something new; more general than invent."},
-     {"to": "come up with", "relation": "synonym", "strength": 0.8, "note": "Easy phrasal verb, used more for ideas and plans."},
-     {"to": "design", "relation": "related", "strength": 0.6, "note": "Plan how something will look and work, before it is made."}
+     {
+      "to": "create",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Make something new; more general than invent."
+     },
+     {
+      "to": "come up with",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrasal verb, used more for ideas and plans."
+     },
+     {
+      "to": "design",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Plan how something will look and work, before it is made."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "adjective", "status": "existing", "form": "inventive", "relation": "derivational",
+    "slot": "adjective",
+    "status": "existing",
+    "form": "inventive",
+    "relation": "derivational",
     "definition": "good at thinking of new and clever ideas",
     "example": "She is an inventive cook who mixes Uzbek and Korean dishes.",
     "syn": [
-     {"to": "creative", "relation": "synonym", "strength": 0.95, "note": "Very close; the most common everyday word."},
-     {"to": "imaginative", "relation": "synonym", "strength": 0.8, "note": "Good at having new, unusual ideas."},
-     {"to": "original", "relation": "related", "strength": 0.6, "note": "New and different from anything before."}
+     {
+      "to": "creative",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close; the most common everyday word."
+     },
+     {
+      "to": "imaginative",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Good at having new, unusual ideas."
+     },
+     {
+      "to": "original",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "New and different from anything before."
+     }
     ],
     "ant": [
-     {"to": "unimaginative", "relation": "antonym", "note": "Not able to think of new or interesting ideas."}
+     {
+      "to": "unimaginative",
+      "relation": "antonym",
+      "note": "Not able to think of new or interesting ideas."
+     }
     ]
    },
    {
-    "slot": "adverb", "status": "existing", "form": "inventively", "relation": "derivational",
+    "slot": "adverb",
+    "status": "existing",
+    "form": "inventively",
+    "relation": "derivational",
     "definition": "in a new and clever way",
     "example": "The old factory was inventively turned into a modern art gallery.",
     "syn": [
-     {"to": "creatively", "relation": "synonym", "strength": 0.95, "note": "Same meaning and more common."},
-     {"to": "imaginatively", "relation": "synonym", "strength": 0.8, "note": "In a way that shows new, unusual ideas."}
+     {
+      "to": "creatively",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning and more common."
+     },
+     {
+      "to": "imaginatively",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "In a way that shows new, unusual ideas."
+     }
     ],
     "ant": []
    }
   ],
   "people": [
    {
-    "form": "inventor", "kind": "job", "status": "existing",
+    "form": "inventor",
+    "kind": "job",
+    "status": "existing",
     "definition": "a person who makes or designs something completely new",
     "example": "Thomas Edison was a famous American inventor."
    }
   ],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-ion", "in_form": "invention", "meaning_key": "-ion", "also": ["action", "protection", "connection"]},
-   {"affix": "-ive", "in_form": "inventive", "meaning_key": "-ive", "also": ["creative", "active", "attractive"]},
-   {"affix": "-ly", "in_form": "inventively", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]},
-   {"affix": "-or", "in_form": "inventor", "meaning_key": "-or", "also": ["actor", "visitor", "director"]}
+   {
+    "affix": "-ion",
+    "in_form": "invention",
+    "meaning_key": "-ion",
+    "also": [
+     "action",
+     "protection",
+     "connection"
+    ]
+   },
+   {
+    "affix": "-ive",
+    "in_form": "inventive",
+    "meaning_key": "-ive",
+    "also": [
+     "creative",
+     "active",
+     "attractive"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "inventively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "carefully"
+    ]
+   },
+   {
+    "affix": "-or",
+    "in_form": "inventor",
+    "meaning_key": "-or",
+    "also": [
+     "actor",
+     "visitor",
+     "director"
+    ]
+   }
   ],
   "context": {
    "text": "Ali's grandfather was an inventor in Fergana. His best invention was a small machine for cleaning cotton. He was always inventive and never stopped trying new ideas.",
-   "uses": ["inventor", "invention", "inventive"]
+   "uses": [
+    "inventor",
+    "invention",
+    "inventive"
+   ]
   },
   "reviewer_note": "discovery is kept only as a 'related' word with a warning note (discover existing things vs invent new ones)."
  },
  {
   "headword": "invest",
   "word_id": "6a42800cb9d8fc24968a4b70",
-  "word_ids": ["6a42800cb9d8fc24968a4b70"],
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b70"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Money",
@@ -486,62 +1088,126 @@
   "corpus_definition": "to use money to earn more money in the future",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "investment", "relation": "derivational",
+    "slot": "noun",
+    "status": "existing",
+    "form": "investment",
+    "relation": "derivational",
     "definition": "money that you put into something to get more money later",
     "example": "Buying land near the city was a good investment.",
     "syn": [
-     {"to": "funding", "relation": "related", "strength": 0.6, "note": "Money given for a project; the giver may not want profit."},
-     {"to": "stake", "relation": "related", "strength": 0.4, "note": "The part of a business that you own because you put money into it."}
+     {
+      "to": "funding",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Money given for a project; the giver may not want profit."
+     },
+     {
+      "to": "stake",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The part of a business that you own because you put money into it."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "verb", "status": "existing", "form": "invest", "relation": "base",
+    "slot": "verb",
+    "status": "existing",
+    "form": "invest",
+    "relation": "base",
     "definition": "to put money into a business or plan to make more money later",
     "example": "She decided to invest her savings in new stocks.",
     "note": "Pattern: invest (money) in something. It can also mean to give time or effort: 'invest time in your studies'.",
     "syn": [
-     {"to": "put money into", "relation": "synonym", "strength": 0.95, "note": "Easy phrase with the same meaning."},
-     {"to": "fund", "relation": "related", "strength": 0.6, "note": "Give money for a project; you may not expect profit back."},
-     {"to": "spend", "relation": "related", "strength": 0.4, "note": "Careful: when you spend money it is gone; when you invest, you hope to get more back."}
+     {
+      "to": "put money into",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrase with the same meaning."
+     },
+     {
+      "to": "fund",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Give money for a project; you may not expect profit back."
+     },
+     {
+      "to": "spend",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Careful: when you spend money it is gone; when you invest, you hope to get more back."
+     }
     ],
     "ant": [
-     {"to": "withdraw", "relation": "antonym", "note": "Take your money out of a bank or business."}
+     {
+      "to": "withdraw",
+      "relation": "antonym",
+      "note": "Take your money out of a bank or business."
+     }
     ]
    },
    {
-    "slot": "adjective", "status": "other_meaning", "form": "invested",
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "invested",
     "definition": "caring a lot about something because you have given it time or feelings",
     "example": "She is very invested in her students' success.",
     "note": "Belongs to invest = give time, effort or feelings, not money. Informal and fairly new."
    },
    {
-    "slot": "adverb", "status": "no_form",
+    "slot": "adverb",
+    "status": "no_form",
     "note": "There is no adverb in this family."
    }
   ],
   "people": [
    {
-    "form": "investor", "kind": "person", "status": "existing",
+    "form": "investor",
+    "kind": "person",
+    "status": "existing",
     "definition": "a person or company that puts money into something to make a profit",
     "example": "Foreign investors are building a new hotel in Khiva."
    }
   ],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-ment", "in_form": "investment", "meaning_key": "-ment", "also": ["payment", "movement", "agreement"]},
-   {"affix": "-or", "in_form": "investor", "meaning_key": "-or", "also": ["actor", "visitor", "inventor"]}
+   {
+    "affix": "-ment",
+    "in_form": "investment",
+    "meaning_key": "-ment",
+    "also": [
+     "payment",
+     "movement",
+     "agreement"
+    ]
+   },
+   {
+    "affix": "-or",
+    "in_form": "investor",
+    "meaning_key": "-or",
+    "also": [
+     "actor",
+     "visitor",
+     "inventor"
+    ]
+   }
   ],
   "context": {
    "text": "My uncle invested his savings in a small bakery in Bukhara. It was a good investment, and now other investors want to join him.",
-   "uses": ["invested", "investment", "investors"]
+   "uses": [
+    "invested",
+    "investment",
+    "investors"
+   ]
   },
   "reviewer_note": "Money sense mapped; the time/feelings sense appears only as the other_meaning adjective 'invested'."
  },
  {
   "headword": "investigate",
   "word_id": "6a4282fd46ba24054c1dcdb1",
-  "word_ids": ["6a4282fd46ba24054c1dcdb1"],
+  "word_ids": [
+   "6a4282fd46ba24054c1dcdb1"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Facts",
@@ -549,66 +1215,156 @@
   "corpus_definition": "To look for facts about a crime or a problem.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "investigation", "relation": "derivational",
+    "slot": "noun",
+    "status": "existing",
+    "form": "investigation",
+    "relation": "derivational",
     "definition": "an official search for the facts about a crime or problem",
     "example": "The investigation into the fire took three weeks.",
     "syn": [
-     {"to": "inquiry", "relation": "synonym", "strength": 0.8, "note": "An official search for facts; British English also spells it 'enquiry'.", "register": "formal"},
-     {"to": "probe", "relation": "synonym", "strength": 0.8, "note": "Used mostly in newspapers and news reports."},
-     {"to": "examination", "relation": "related", "strength": 0.6, "note": "A careful look at something; not always about a crime."},
-     {"to": "research", "relation": "related", "strength": 0.4, "note": "Careful study to learn new facts, usually in science or at university."}
+     {
+      "to": "inquiry",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "An official search for facts; British English also spells it 'enquiry'.",
+      "register": "formal"
+     },
+     {
+      "to": "probe",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used mostly in newspapers and news reports."
+     },
+     {
+      "to": "examination",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A careful look at something; not always about a crime."
+     },
+     {
+      "to": "research",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Careful study to learn new facts, usually in science or at university."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "verb", "status": "existing", "form": "investigate", "relation": "base",
+    "slot": "verb",
+    "status": "existing",
+    "form": "investigate",
+    "relation": "base",
     "definition": "to try to find out the facts about a crime or problem",
     "example": "The police will investigate the cause of the fire.",
     "syn": [
-     {"to": "look into", "relation": "synonym", "strength": 0.95, "note": "Easy phrasal verb with the same meaning."},
-     {"to": "examine", "relation": "synonym", "strength": 0.8, "note": "Look at something very carefully."},
-     {"to": "explore", "relation": "related", "strength": 0.6, "note": "Learn about something new; less about crimes."},
-     {"to": "check", "relation": "related", "strength": 0.4, "note": "Easy word: look quickly to see if something is right."}
+     {
+      "to": "look into",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrasal verb with the same meaning."
+     },
+     {
+      "to": "examine",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Look at something very carefully."
+     },
+     {
+      "to": "explore",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Learn about something new; less about crimes."
+     },
+     {
+      "to": "check",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy word: look quickly to see if something is right."
+     }
     ],
     "ant": [
-     {"to": "ignore", "relation": "antonym", "note": "Pay no attention to a problem at all."}
+     {
+      "to": "ignore",
+      "relation": "antonym",
+      "note": "Pay no attention to a problem at all."
+     }
     ]
    },
    {
-    "slot": "adjective", "status": "existing", "form": "investigative", "relation": "derivational",
+    "slot": "adjective",
+    "status": "existing",
+    "form": "investigative",
+    "relation": "derivational",
     "definition": "trying to find hidden facts, especially in news reporting",
     "example": "She works as an investigative journalist for a news website.",
     "syn": [],
     "ant": []
    },
    {
-    "slot": "adverb", "status": "no_form",
+    "slot": "adverb",
+    "status": "no_form",
     "note": "There is no adverb in this family."
    }
   ],
   "people": [
    {
-    "form": "investigator", "kind": "job", "status": "existing",
+    "form": "investigator",
+    "kind": "job",
+    "status": "existing",
     "definition": "a person whose job is to find out the facts about crimes or problems",
     "example": "A private investigator followed the man for two days."
    }
   ],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-ion", "in_form": "investigation", "meaning_key": "-ion", "also": ["action", "education", "connection"]},
-   {"affix": "-ive", "in_form": "investigative", "meaning_key": "-ive", "also": ["creative", "active", "attractive"]},
-   {"affix": "-or", "in_form": "investigator", "meaning_key": "-or", "also": ["actor", "visitor", "inventor"]}
+   {
+    "affix": "-ion",
+    "in_form": "investigation",
+    "meaning_key": "-ion",
+    "also": [
+     "action",
+     "education",
+     "connection"
+    ]
+   },
+   {
+    "affix": "-ive",
+    "in_form": "investigative",
+    "meaning_key": "-ive",
+    "also": [
+     "creative",
+     "active",
+     "attractive"
+    ]
+   },
+   {
+    "affix": "-or",
+    "in_form": "investigator",
+    "meaning_key": "-or",
+    "also": [
+     "actor",
+     "visitor",
+     "inventor"
+    ]
+   }
   ],
   "context": {
    "text": "The police are investigating a robbery at the Chorsu market. A young investigator found a camera video, but the investigation may take two more weeks.",
-   "uses": ["investigating", "investigator", "investigation"]
+   "uses": [
+    "investigating",
+    "investigator",
+    "investigation"
+   ]
   },
   "reviewer_note": "Not part of the invest family: investigate comes from a different Latin root (vestigium), so no cross-links to invest/investment."
  },
  {
   "headword": "investment",
   "word_id": "6a42883f6941e70ad6a00dc1",
-  "word_ids": ["6a42883f6941e70ad6a00dc1"],
+  "word_ids": [
+   "6a42883f6941e70ad6a00dc1"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Money",
@@ -616,55 +1372,117 @@
   "corpus_definition": "Giving money to something to get more money later.",
   "forms": [
    {
-    "slot": "noun", "status": "existing", "form": "investment", "relation": "base",
+    "slot": "noun",
+    "status": "existing",
+    "form": "investment",
+    "relation": "base",
     "definition": "money that you put into something to get more money later",
     "example": "This house is a good long-term investment.",
     "note": "Also used for time or effort that will help you later: 'Learning English is a good investment.'",
     "syn": [
-     {"to": "funding", "relation": "related", "strength": 0.6, "note": "Money given for a project; the giver may not want profit."},
-     {"to": "stake", "relation": "related", "strength": 0.4, "note": "The part of a business that you own because you put money into it."}
+     {
+      "to": "funding",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Money given for a project; the giver may not want profit."
+     },
+     {
+      "to": "stake",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The part of a business that you own because you put money into it."
+     }
     ],
     "ant": []
    },
    {
-    "slot": "verb", "status": "existing", "form": "invest", "relation": "derivational",
+    "slot": "verb",
+    "status": "existing",
+    "form": "invest",
+    "relation": "derivational",
     "definition": "to put money into a business or plan to make more money later",
     "example": "Many families invest in flats and land.",
     "syn": [
-     {"to": "put money into", "relation": "synonym", "strength": 0.95, "note": "Easy phrase with the same meaning."},
-     {"to": "fund", "relation": "related", "strength": 0.6, "note": "Give money for a project; you may not expect profit back."},
-     {"to": "spend", "relation": "related", "strength": 0.4, "note": "Careful: when you spend money it is gone; when you invest, you hope to get more back."}
+     {
+      "to": "put money into",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrase with the same meaning."
+     },
+     {
+      "to": "fund",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Give money for a project; you may not expect profit back."
+     },
+     {
+      "to": "spend",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Careful: when you spend money it is gone; when you invest, you hope to get more back."
+     }
     ],
     "ant": [
-     {"to": "withdraw", "relation": "antonym", "note": "Take your money out of a bank or business."}
+     {
+      "to": "withdraw",
+      "relation": "antonym",
+      "note": "Take your money out of a bank or business."
+     }
     ]
    },
    {
-    "slot": "adjective", "status": "other_meaning", "form": "invested",
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "invested",
     "definition": "caring a lot about something because you have given it time or feelings",
     "example": "The players are really invested in winning this cup.",
     "note": "Belongs to invest = give time, effort or feelings, not money. Informal and fairly new."
    },
    {
-    "slot": "adverb", "status": "no_form",
+    "slot": "adverb",
+    "status": "no_form",
     "note": "There is no adverb in this family."
    }
   ],
   "people": [
    {
-    "form": "investor", "kind": "person", "status": "existing",
+    "form": "investor",
+    "kind": "person",
+    "status": "existing",
     "definition": "a person or company that puts money into something to make a profit",
     "example": "The investors met in Tashkent to discuss the new factory."
    }
   ],
   "people_not_family": [],
   "affixes": [
-   {"affix": "-ment", "in_form": "investment", "meaning_key": "-ment", "also": ["payment", "movement", "agreement"]},
-   {"affix": "-or", "in_form": "investor", "meaning_key": "-or", "also": ["actor", "visitor", "inventor"]}
+   {
+    "affix": "-ment",
+    "in_form": "investment",
+    "meaning_key": "-ment",
+    "also": [
+     "payment",
+     "movement",
+     "agreement"
+    ]
+   },
+   {
+    "affix": "-or",
+    "in_form": "investor",
+    "meaning_key": "-or",
+    "also": [
+     "actor",
+     "visitor",
+     "inventor"
+    ]
+   }
   ],
   "context": {
    "text": "Buying a flat in Tashkent is a popular investment. Many families invest in property, and some investors buy two or three flats.",
-   "uses": ["investment", "invest", "investors"]
+   "uses": [
+    "investment",
+    "invest",
+    "investors"
+   ]
   },
   "reviewer_note": "Headword is the noun; invest is the derivational verb it is made from. Time/feelings sense shown only as other_meaning 'invested'."
  }
