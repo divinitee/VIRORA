@@ -50,3 +50,4 @@
 | 149 | 10 | 1 of 10 maps: missing form 1 (integrate adjective -> not_family integral) | pass gate-4.4 | gated, not imported | 10 groups/11 rows->10 maps (invasion 2 rows merged, B2); 9 flags for reviewer; invested shown as other_meaning (time/feelings) on invest + investment |
 | 155 | 10 | 2 of 10 maps: wrong POS 1 (networking noun, gate mistake), bad example 1 (nor context counted as 1 sentence) | pass gate-4.4 | gated, not imported | networking added to lexicon_supplement (OALD/Cambridge noun, missing from WordNet 3.1); nor kind word->function; 12 flags for reviewer |
 | 153 | 10 | 1 of 10 maps: missing form 1 (mental verb: mind) | pass gate-4.4 | gated, not imported | mind added to not_family for mental; 13 flags for reviewer |
+| 159 | 10 | 2 of 10 maps: bad synonym 2, wrong morphology 1 | pass gate-4.4 | gated, not imported | pine verb (homonym) no_form; pit verb/pitted other_meaning; plotter other_meaning |
