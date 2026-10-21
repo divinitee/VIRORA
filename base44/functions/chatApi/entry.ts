@@ -1,4 +1,5 @@
-import { createClientFromRequest } from 'npm:@base44/sdk@0.8.52';
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
+import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
 
 // Chat writes go through here so sender identity comes from the session,
 // never from the client, and a student can only post in their own room.
@@ -14,6 +15,15 @@ export default async function (req) {
     const studentEmail = room.slice(5);
     if (user.role !== 'admin' && studentEmail !== user.email) {
       return Response.json({ error: 'Forbidden' }, { status: 403 });
+    }
+    // 20 messages per account per minute; room access rules are unchanged.
+    try {
+      await reserveUsage(base44.asServiceRole.entities, user, {
+        bucket: 'chat_message', limit: 20, date: new Date().toISOString().slice(0, 16),
+      });
+    } catch (error) {
+      if (error instanceof UsageLimitError) return Response.json({ error: 'Too many messages. Please wait a minute.', code: 'rate_limited' }, { status: 429 });
+      throw error;
     }
     const msg = await base44.asServiceRole.entities.ChatMessage.create({
       room_id: room,

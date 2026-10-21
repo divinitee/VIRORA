@@ -1,7 +1,7 @@
 {
   "name": "UsageReservation",
   "type": "object",
-  "description": "Server-created AI budget reservations. A request reserves before paid work; pending reservations count too, so overlapping requests cannot all spend the same remaining allowance. Material leases outlive the maximum function runtime.",
+  "description": "Server-created usage reservations (AI turns, material runs, receipt submissions, chat messages). A request reserves before the work; pending reservations count too, so overlapping requests cannot all spend the same remaining allowance. Material leases outlive the maximum function runtime.",
   "properties": {
     "user_id": {
       "type": "string"
@@ -13,11 +13,15 @@
       "type": "string",
       "enum": [
         "ai_turn",
-        "material_run"
+        "material_run",
+        "receipt_submit",
+        "chat_message",
+        "checkout_create"
       ]
     },
     "date": {
-      "type": "string"
+      "type": "string",
+      "description": "Window key: YYYY-MM-DD for daily buckets, YYYY-MM-DDTHH:MM for per-minute buckets."
     },
     "resource_id": {
       "type": "string"

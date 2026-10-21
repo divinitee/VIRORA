@@ -1,5 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
 import { secrets } from 'base44:runtime';
+import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
 
 // Creates a Dodo Payments checkout session for the CALLING user and returns
 // the hosted checkout URL for the app to redirect to.
@@ -112,6 +113,14 @@ Deno.serve(async (req) => {
         { error: `No Dodo product configured for ${planId}/${cycle}. Set the secret ${secretName}.` },
         { status: 500 },
       );
+    }
+
+    // 20 checkout attempts per account per UTC day — plenty for real buyers.
+    try {
+      await reserveUsage(base44.asServiceRole.entities, { id: me.id || "", email: me.email }, { bucket: "checkout_create", limit: 20 });
+    } catch (error) {
+      if (error instanceof UsageLimitError) return Response.json({ error: "Too many checkout attempts today. Please try again tomorrow.", code: "rate_limited" }, { status: 429 });
+      throw error;
     }
 
     const mode = (secrets.get("DODO_MODE") || "test") === "live" ? "live" : "test";

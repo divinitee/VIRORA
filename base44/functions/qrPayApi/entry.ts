@@ -1,6 +1,7 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
 import { secrets } from 'base44:runtime';
 import { receiptFile } from '../../shared/paymentReceipt.js';
+import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
 import {
   PLANS, CYCLES, ApiError, clean, nowIso, loadSettings, reviewPayment,
   notifyTelegram, tg, randomToken, randomDigits,
@@ -181,6 +182,14 @@ async function submit(svc: any, me: any, body: any, base44: any) {
   if (!p || p.user_id !== me.id) throw new ApiError(404, 'not_found');
   if (p.status !== 'awaiting_receipt' && p.status !== 'pending') throw new ApiError(409, 'already_reviewed');
 
+  // At most 10 receipt uploads per user per UTC day, reserved before upload.
+  try { await reserveUsage(svc, me, { bucket: 'receipt_submit', limit: 10 }); }
+  catch (error) {
+    if (error instanceof UsageLimitError) throw new ApiError(429, 'too_many_receipts');
+    throw error;
+  }
+  const firstSubmission = p.status === 'awaiting_receipt';
+
   // Upload only AFTER binding the payment to this authenticated caller.
   // The URI sent to the privileged notifier is generated here, never accepted
   // from JSON/form fields, so another user's existing file cannot be relayed.
@@ -192,7 +201,9 @@ async function submit(svc: any, me: any, body: any, base44: any) {
     submitted_at: nowIso(),
   });
   // Notifications are sent by the router after this returns.
-  return { payment: studentView(updated), _notify: updated };
+  // Only the first receipt for a payment alerts the admin; replacements just
+  // update the pending row the admin will already review.
+  return { payment: studentView(updated), _notify: firstSubmission ? updated : null };
 }
 
 async function mine(svc: any, me: any) {
@@ -328,9 +339,9 @@ export default async function(req: Request): Promise<Response> {
 
     // New receipt: tell the admin by email and Telegram. Outside the action
     // so a failed notification can never undo the student's submission.
-    if (action === 'submit' && data?._notify) {
-      const p = data._notify;
-      delete data._notify;
+    const p = action === 'submit' ? data?._notify : null;
+    if (data) delete data._notify;
+    if (p) {
       try {
         await base44.asServiceRole.integrations.Core.SendEmail({
           to: ADMIN_EMAIL,
