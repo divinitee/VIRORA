@@ -1,237 +1,1235 @@
 [
-{"headword": "arc", "word_id": "6a6ef83f0f1e82a5a0736783", "word_ids": ["6a6ef83f0f1e82a5a0736783"], "cefr": "C1", "kind": "word", "sense_label": "Shape", "sense_pos": "noun", "corpus_definition": "A shape that looks like part of a circle.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "arc", "relation": "base", "definition": "a curved shape that is part of a circle", "example": "The bird flew in a graceful arc over the lake.",
-   "syn": [{"to": "curve", "relation": "synonym", "strength": 0.8, "note": "Easy, general word for any bent line; an arc is a curve like part of a circle."},
-           {"to": "semicircle", "relation": "related", "strength": 0.6, "note": "Exactly half of a circle; an arc can be any part of a circle."},
-           {"to": "bend", "relation": "related", "strength": 0.4, "note": "A place where a road or river changes direction; not always round."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "arc", "relation": "conversion", "definition": "to move through the air in a curved line", "example": "The ball arced over the goalkeeper and into the net.",
-   "syn": [{"to": "curve", "relation": "synonym", "strength": 0.8, "note": "Very close: to move in a bent line."},
-           {"to": "swing", "relation": "related", "strength": 0.4, "note": "To move from side to side or in a curve, like a door or a bat."}],
-   "ant": []},
-  {"slot": "adjective", "status": "no_form", "note": "There is no common adjective made from arc. Use curved."},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from arc."}
- ],
- "people": [], "people_not_family": [],
- "affixes": [],
- "context": {"text": "In the football match in Tashkent, the ball arced high over the players. Everyone watched its long arc before it landed in the net.", "uses": ["arced", "arc"]},
- "reviewer_note": "Kept the shape sense; arc (verb) is a conversion. The electric-arc meaning and the word arch are left out."},
-
-{"headword": "architectural", "word_id": "6a4288ad6941e70ad6a00eaf", "word_ids": ["6a4288ad6941e70ad6a00eaf"], "cefr": "C1", "kind": "word", "sense_label": "Buildings", "sense_pos": "adjective", "corpus_definition": "Relating to the art of designing buildings and large structures.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "architecture", "relation": "derivational", "definition": "the art and style of designing buildings", "example": "Samarkand is famous for its beautiful old architecture.",
-   "syn": [{"to": "design", "relation": "related", "strength": 0.6, "note": "Design is the plan for how anything looks or works, not only buildings."},
-           {"to": "construction", "relation": "related", "strength": 0.4, "note": "Construction is the work of building, not the art of planning it."}],
-   "ant": []},
-  {"slot": "verb", "status": "no_form", "note": "There is no common verb in this family. Use design."},
-  {"slot": "adjective", "status": "existing", "form": "architectural", "relation": "base", "definition": "connected with the design of buildings", "example": "The bridge has a very unusual architectural style.",
-   "syn": [{"to": "structural", "relation": "related", "strength": 0.6, "note": "About how something is built and holds together, not about its style."}],
-   "ant": []},
-  {"slot": "adverb", "status": "existing", "form": "architecturally", "relation": "derivational", "definition": "in a way connected with the design of buildings", "example": "The old city of Khiva is architecturally very interesting.",
-   "syn": [{"to": "structurally", "relation": "related", "strength": 0.6, "note": "About how something is built, not about its style or beauty."}],
-   "ant": []}
- ],
- "people": [
-  {"form": "architect", "kind": "job", "status": "existing", "definition": "a person whose job is to design buildings", "example": "The architect showed us the plans for the new school."}
- ],
- "people_not_family": [],
- "affixes": [
-  {"affix": "-al", "in_form": "architectural", "meaning_key": "-al", "also": ["natural", "cultural", "national"]},
-  {"affix": "-ly", "in_form": "architecturally", "meaning_key": "-ly", "also": ["quickly", "really", "usually"]}
- ],
- "context": {"text": "Many tourists come to Samarkand to see its architecture. The Registan has great architectural beauty, and the whole square is architecturally unique.", "uses": ["architecture", "architectural", "architecturally"]},
- "reviewer_note": "Verb slot no_form: 'architect' as a verb is only computing jargon, not in learner dictionaries."},
-
-{"headword": "aroma", "word_id": "6a6ef83f0f1e82a5a073676d", "word_ids": ["6a6ef83f0f1e82a5a073676d"], "cefr": "C1", "kind": "word", "sense_label": "Smell", "sense_pos": "noun", "corpus_definition": "A pleasant and nice smell.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "aroma", "relation": "base", "definition": "a pleasant smell, especially of food or drink", "example": "The aroma of fresh coffee filled the whole kitchen.",
-   "syn": [{"to": "smell", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; a smell can be good or bad."},
-           {"to": "scent", "relation": "synonym", "strength": 0.8, "note": "A pleasant smell, often of flowers or perfume."},
-           {"to": "fragrance", "relation": "synonym", "strength": 0.8, "note": "A sweet, pleasant smell; often used for perfume.", "register": "formal"}],
-   "ant": [{"to": "stink", "relation": "antonym", "note": "A very bad, strong smell."},
-           {"to": "stench", "relation": "antonym", "note": "A very unpleasant smell; a bit formal."}]},
-  {"slot": "verb", "status": "no_form", "note": "There is no verb made from aroma."},
-  {"slot": "adjective", "status": "existing", "form": "aromatic", "relation": "derivational", "definition": "having a strong and pleasant smell", "example": "My grandmother adds aromatic herbs like dill to her soup.",
-   "syn": [{"to": "fragrant", "relation": "synonym", "strength": 0.95, "note": "Very close; often used for flowers and perfume."},
-           {"to": "sweet-smelling", "relation": "synonym", "strength": 0.8, "note": "Easy, clear way to say the same thing."}],
-   "ant": [{"to": "smelly", "relation": "antonym", "note": "Having a bad smell."}]},
-  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from aroma."}
- ],
- "people": [], "people_not_family": [],
- "affixes": [],
- "context": {"text": "The aroma of fresh bread came from the bakery near the bazaar. Inside, my aunt was buying aromatic spices for her plov.", "uses": ["aroma", "aromatic"]},
- "reviewer_note": "No affix claimed on aromatic: removing -ic leaves no real word. Aromatherapy is a compound and is left out."},
-
-{"headword": "assumption", "word_id": "6a6ef83f0f1e82a5a0736709", "word_ids": ["6a6ef83f0f1e82a5a0736709"], "cefr": "C1", "kind": "word", "sense_label": "Belief", "sense_pos": "noun", "corpus_definition": "A belief that something is true without needing proof.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "assumption", "relation": "base", "definition": "a belief that something is true without any proof", "example": "His assumption about the test was completely wrong.",
-   "syn": [{"to": "guess", "relation": "related", "strength": 0.6, "note": "Easy word; a guess is an idea you are not sure about."},
-           {"to": "supposition", "relation": "synonym", "strength": 0.8, "note": "Very close but formal and less common.", "register": "formal"},
-           {"to": "presumption", "relation": "synonym", "strength": 0.8, "note": "Close; often used in law and formal writing.", "register": "formal"},
-           {"to": "belief", "relation": "related", "strength": 0.6, "note": "Something you think is true; it can have strong reasons behind it."}],
-   "ant": [{"to": "fact", "relation": "antonym", "note": "A fact is shown to be true; this is only believed."}]},
-  {"slot": "verb", "status": "existing", "form": "assume", "relation": "derivational", "definition": "to think something is true without being sure", "example": "I assumed you were busy, so I didn't call.",
-   "syn": [{"to": "suppose", "relation": "synonym", "strength": 0.95, "note": "Very close and common in speaking."},
-           {"to": "presume", "relation": "synonym", "strength": 0.8, "note": "Close but a little more formal.", "register": "formal"},
-           {"to": "think", "relation": "related", "strength": 0.6, "note": "Easy, general word; you may have proof or not."},
-           {"to": "expect", "relation": "related", "strength": 0.4, "note": "To think something will happen in the future."}],
-   "ant": []},
-  {"slot": "adjective", "status": "other_meaning", "form": "assumed", "definition": "used about a name that is false, not your real one", "example": "The thief stayed at the hotel under an assumed name.", "note": "Belongs to assume = take on or pretend, not believing something without proof."},
-  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb in this family."}
- ],
- "people": [], "people_not_family": [],
- "affixes": [],
- "context": {"text": "I made the assumption that the bus would come on time. I assumed wrong, and I was late for my first class.", "uses": ["assumption", "assumed"]},
- "reviewer_note": "No affix claimed: removing -tion from assumption leaves no real word. assumed (adj) kept as other_meaning (false name)."},
-
-{"headword": "asteroid", "word_id": "6a6ef83f0f1e82a5a07366cf", "word_ids": ["6a6ef83f0f1e82a5a07366cf"], "cefr": "C1", "kind": "word", "sense_label": "Space", "sense_pos": "noun", "corpus_definition": "A large rock that moves through space around the sun.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "asteroid", "relation": "base", "definition": "a large rock that moves around the sun in space", "example": "The asteroid passed close to the Earth last night.",
-   "syn": [{"to": "meteor", "relation": "related", "strength": 0.6, "note": "A small space rock that burns and shines as it falls through the air."},
-           {"to": "meteorite", "relation": "related", "strength": 0.6, "note": "A piece of space rock that has landed on the Earth."},
-           {"to": "comet", "relation": "related", "strength": 0.4, "note": "A ball of ice and dust in space with a long bright tail."}],
-   "ant": []},
-  {"slot": "verb", "status": "no_form", "note": "There is no verb made from asteroid."},
-  {"slot": "adjective", "status": "no_form", "note": "There is no common adjective; asteroidal is only used by scientists."},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from asteroid."}
- ],
- "people": [], "people_not_family": [],
- "affixes": [],
- "context": {"text": "Scientists in many countries watched a small asteroid last week. They said the asteroid was about the size of a bus and was no danger to us.", "uses": ["asteroid"]},
- "reviewer_note": "Single-form family; -oid is not in the affix table, so no affix is claimed."},
-
-{"headword": "attentive", "word_id": "6a6ef83f0f1e82a5a07367d3", "word_ids": ["6a6ef83f0f1e82a5a07367d3"], "cefr": "C1", "kind": "word", "sense_label": "Listening", "sense_pos": "adjective", "corpus_definition": "Listening and watching carefully.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "attention", "relation": "derivational", "definition": "the act of listening, watching or thinking carefully about something", "example": "Please pay attention to the teacher.",
-   "syn": [{"to": "concentration", "relation": "synonym", "strength": 0.8, "note": "Close: keeping your mind on one thing."},
-           {"to": "focus", "relation": "synonym", "strength": 0.8, "note": "Close and a little informal."},
-           {"to": "notice", "relation": "related", "strength": 0.6, "note": "Used in 'take notice of': seeing something, not always for long."}],
-   "ant": [{"to": "inattention", "relation": "antonym", "note": "Not listening or watching carefully; formal."},
-           {"to": "distraction", "relation": "antonym", "note": "Something that takes your mind away from what you are doing."}]},
-  {"slot": "noun", "status": "existing", "form": "attentiveness", "relation": "derivational", "definition": "the quality of listening and watching carefully", "example": "The nurse was known for her attentiveness to every patient.",
-   "syn": [], "ant": []},
-  {"slot": "noun", "status": "other_meaning", "form": "attendance", "definition": "being present at school, work or an event", "example": "Attendance at the meeting was very low.", "note": "Belongs to attend = go to or be present, not listening carefully."},
-  {"slot": "verb", "status": "existing", "form": "attend", "relation": "derivational", "definition": "to listen to or deal with something carefully", "example": "Please attend to what I am saying.", "register": "formal", "note": "In this meaning it is used with 'to'. The more common meaning is 'go to' (attend school).",
-   "syn": [{"to": "pay attention", "relation": "synonym", "strength": 0.95, "note": "Everyday phrase with the same meaning."},
-           {"to": "listen", "relation": "related", "strength": 0.6, "note": "Easy word: use your ears carefully."},
-           {"to": "concentrate", "relation": "related", "strength": 0.6, "note": "To keep your mind on one thing."}],
-   "ant": [{"to": "ignore", "relation": "antonym", "note": "To give no attention to someone or something."}]},
-  {"slot": "adjective", "status": "existing", "form": "attentive", "relation": "base", "definition": "listening and watching carefully", "example": "The teacher was happy with her attentive students.",
-   "syn": [{"to": "alert", "relation": "synonym", "strength": 0.8, "note": "Quick to notice things; ready."},
-           {"to": "watchful", "relation": "synonym", "strength": 0.8, "note": "Watching carefully, often for danger."},
-           {"to": "focused", "relation": "synonym", "strength": 0.8, "note": "Keeping your mind on one thing."},
-           {"to": "careful", "relation": "related", "strength": 0.6, "note": "Easy word: thinking about what you do to avoid mistakes."}],
-   "ant": [{"to": "inattentive", "relation": "antonym", "note": "Not listening or watching carefully."},
-           {"to": "distracted", "relation": "antonym", "note": "Thinking about something else."}]},
-  {"slot": "adverb", "status": "existing", "form": "attentively", "relation": "derivational", "definition": "in a way that shows you are listening and watching carefully", "example": "The children listened attentively to the story.",
-   "syn": [{"to": "carefully", "relation": "synonym", "strength": 0.8, "note": "Easy word with a similar meaning."},
-           {"to": "closely", "relation": "synonym", "strength": 0.8, "note": "Used with watch or listen: 'listen closely'."},
-           {"to": "intently", "relation": "synonym", "strength": 0.8, "note": "With great interest and full attention."}],
-   "ant": [{"to": "carelessly", "relation": "antonym", "note": "Without enough care or thought."}]}
- ],
- "people": [
-  {"form": "attendant", "kind": "job", "status": "other_meaning", "definition": "a person whose job is to help or serve people", "example": "The flight attendant brought us some water.", "note": "Belongs to attend = look after or serve people, not listening carefully."},
-  {"form": "attendee", "kind": "person", "status": "other_meaning", "definition": "a person who goes to a meeting or event", "example": "Every attendee got a free bag at the conference.", "note": "Belongs to attend = go to an event."}
- ],
- "people_not_family": [],
- "affixes": [
-  {"affix": "-ly", "in_form": "attentively", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]},
-  {"affix": "-ness", "in_form": "attentiveness", "meaning_key": "-ness", "also": ["kindness", "happiness", "darkness"]}
- ],
- "context": {"text": "The students were very attentive during the lesson. They listened attentively and gave the teacher their full attention.", "uses": ["attentive", "attentively", "attention"]},
- "reviewer_note": "attend kept as existing only in the formal 'attend to' sense; attendance, attendant and attendee are other_meaning (go to / serve). Opposites inattentive and inattention are in ant lists."},
-
-{"headword": "audible", "word_id": "6a6ef83f0f1e82a5a0736796", "word_ids": ["6a6ef83f0f1e82a5a0736796"], "cefr": "C1", "kind": "word", "sense_label": "Hearing", "sense_pos": "adjective", "corpus_definition": "Able to be heard clearly.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "audibility", "relation": "derivational", "definition": "how easy it is to hear a sound", "example": "The new microphones improved the audibility of the speakers.", "register": "formal",
-   "syn": [{"to": "clarity", "relation": "related", "strength": 0.4, "note": "How clear a sound or picture is."}],
-   "ant": []},
-  {"slot": "verb", "status": "no_form", "not_family": ["audition"], "note": "There is no verb made from audible. Audition comes from the same old Latin root (hear) but is not made from audible."},
-  {"slot": "adjective", "status": "existing", "form": "audible", "relation": "base", "definition": "loud enough for people to hear", "example": "Her soft voice was barely audible in the big room.",
-   "syn": [{"to": "clear", "relation": "related", "strength": 0.6, "note": "Easy to hear or understand."},
-           {"to": "distinct", "relation": "related", "strength": 0.6, "note": "Easy to hear and separate from other sounds."},
-           {"to": "perceptible", "relation": "synonym", "strength": 0.8, "note": "Formal: able to be noticed with any sense, not only hearing.", "register": "formal"}],
-   "ant": [{"to": "inaudible", "relation": "antonym", "note": "Too quiet to be heard."},
-           {"to": "silent", "relation": "antonym", "note": "Making no sound at all."}]},
-  {"slot": "adverb", "status": "existing", "form": "audibly", "relation": "derivational", "definition": "in a way that people can hear", "example": "The whole class sighed audibly when the teacher gave homework.",
-   "syn": [{"to": "aloud", "relation": "synonym", "strength": 0.8, "note": "In a voice that others can hear."},
-           {"to": "out loud", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday phrase with the same meaning."},
-           {"to": "clearly", "relation": "related", "strength": 0.6, "note": "In a way that is easy to hear or understand."}],
-   "ant": [{"to": "silently", "relation": "antonym", "note": "Without making any sound."}]}
- ],
- "people": [],
- "people_not_family": ["audience", "auditorium"],
- "affixes": [
-  {"affix": "-ity", "in_form": "audibility", "meaning_key": "-ity", "also": ["ability", "possibility", "activity"]},
-  {"affix": "-ly", "in_form": "audibly", "meaning_key": "-ly", "also": ["possibly", "terribly", "quickly"]}
- ],
- "context": {"text": "The teacher's voice was hardly audible at the back of the hall. When the microphone started working, everyone sighed audibly with relief.", "uses": ["audible", "audibly"]},
- "reviewer_note": "audience, auditorium and audition share the Latin root but are not made from audible, so they are not forms or people."},
-
-{"headword": "authoritative", "word_id": "6a6ef83f0f1e82a5a0736838", "word_ids": ["6a6ef83f0f1e82a5a0736838"], "cefr": "C1", "kind": "word", "sense_label": "Confident", "sense_pos": "adjective", "corpus_definition": "Showing that you are in charge and know things.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "authority", "relation": "derivational", "definition": "the power to give orders and make people obey", "example": "The head teacher has the authority to change the rules.",
-   "syn": [{"to": "power", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; power can be official or not."},
-           {"to": "control", "relation": "related", "strength": 0.6, "note": "The ability to make people or things do what you want."},
-           {"to": "command", "relation": "related", "strength": 0.6, "note": "Control over a group, often in the army."}],
-   "ant": []},
-  {"slot": "verb", "status": "other_meaning", "form": "authorize", "definition": "to give official permission for something", "example": "The manager authorized the payment.", "note": "Belongs to authority = official right to allow things, not a confident manner. British spelling: authorise."},
-  {"slot": "adjective", "status": "existing", "form": "authoritative", "relation": "base", "definition": "showing that you are in charge and know a lot", "example": "She spoke in an authoritative tone of voice.",
-   "syn": [{"to": "commanding", "relation": "synonym", "strength": 0.8, "note": "Showing power and making people want to obey."},
-           {"to": "confident", "relation": "related", "strength": 0.6, "note": "Easy word: sure of yourself, but not always in charge."},
-           {"to": "assertive", "relation": "related", "strength": 0.6, "note": "Saying clearly what you want or think."},
-           {"to": "firm", "relation": "related", "strength": 0.6, "note": "Strong and not easy to change."}],
-   "ant": [{"to": "timid", "relation": "antonym", "note": "Shy and not confident."}]},
-  {"slot": "adjective", "status": "other_meaning", "form": "authoritarian", "definition": "making people obey strict rules and not giving them freedom", "example": "The country had an authoritarian government for many years.", "note": "Belongs to authority = strict control over people; it is negative, while this word is usually positive."},
-  {"slot": "adverb", "status": "existing", "form": "authoritatively", "relation": "derivational", "definition": "in a confident way that shows you are in charge", "example": "The captain spoke authoritatively to the team.",
-   "syn": [{"to": "confidently", "relation": "related", "strength": 0.6, "note": "In a way that shows you are sure of yourself."},
-           {"to": "firmly", "relation": "related", "strength": 0.6, "note": "In a strong way that does not change."}],
-   "ant": [{"to": "timidly", "relation": "antonym", "note": "In a shy, nervous way."}]}
- ],
- "people": [],
- "people_not_family": ["author"],
- "affixes": [
-  {"affix": "-ly", "in_form": "authoritatively", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
- ],
- "context": {"text": "Our new manager speaks in an authoritative voice, so everyone listens. She has the authority to change the rules, and she explains them authoritatively.", "uses": ["authoritative", "authority", "authoritatively"]},
- "reviewer_note": "Anchored to the confident/in-charge sense; the 'reliable source' sense (an authoritative book) is not used. authorize and authoritarian are other_meaning; author is not made from this family."},
-
-{"headword": "autograph", "word_id": "6a6ef83f0f1e82a5a073685e", "word_ids": ["6a6ef83f0f1e82a5a073685e"], "cefr": "C1", "kind": "word", "sense_label": "Signature", "sense_pos": "noun", "corpus_definition": "The name of a famous person written by them.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "autograph", "relation": "base", "definition": "a famous person's name, written by them for a fan", "example": "Can I have your autograph, please?",
-   "syn": [{"to": "signature", "relation": "synonym", "strength": 0.8, "note": "Anyone's name written by them, for example on a document; this word is for famous people and fans."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "autograph", "relation": "conversion", "definition": "to write your name on something for a fan", "example": "The singer autographed hundreds of photos after the concert.",
-   "syn": [{"to": "sign", "relation": "synonym", "strength": 0.8, "note": "Easy, general word for writing your name."}],
-   "ant": []},
-  {"slot": "adjective", "status": "existing", "form": "autographed", "relation": "participial", "definition": "signed by a famous person", "example": "He has an autographed football from the national team.",
-   "syn": [{"to": "signed", "relation": "synonym", "strength": 0.95, "note": "Same meaning and very common: 'a signed photo'."}],
-   "ant": []},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from autograph."}
- ],
- "people": [], "people_not_family": [],
- "affixes": [],
- "context": {"text": "At the concert in Tashkent, my sister asked the singer for his autograph. He autographed her ticket, and now the autographed ticket hangs on her wall.", "uses": ["autograph", "autographed"]},
- "reviewer_note": "auto- and -graph are not in the affix table, so no affix is claimed."},
-
-{"headword": "avail", "word_id": "6a6ef83f0f1e82a5a0736731", "word_ids": ["6a6ef83f0f1e82a5a0736731"], "cefr": "C1", "kind": "word", "sense_label": "Use", "sense_pos": "verb", "corpus_definition": "To be of help or use in achieving something.",
- "forms": [
-  {"slot": "noun", "status": "existing", "form": "avail", "relation": "conversion", "definition": "use or help in getting a result", "example": "We tried to call him, but to no avail.", "register": "formal", "note": "Almost always in the phrases 'to no avail' and 'of no avail'.",
-   "syn": [{"to": "use", "relation": "synonym", "strength": 0.8, "note": "Easy word: 'of no use' means the same as 'of no avail'."},
-           {"to": "success", "relation": "related", "strength": 0.6, "note": "'To no avail' means 'without success'."},
-           {"to": "help", "relation": "related", "strength": 0.6, "note": "Easy, general word for making something easier."}],
-   "ant": []},
-  {"slot": "verb", "status": "existing", "form": "avail", "relation": "base", "definition": "to help someone or be useful in getting a result", "example": "Nothing we tried availed us in the end.", "register": "literary", "note": "Old-fashioned. Also formal 'avail yourself of something' = use it.",
-   "syn": [{"to": "help", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word with a similar meaning."},
-           {"to": "benefit", "relation": "related", "strength": 0.6, "note": "To be good or useful for someone."},
-           {"to": "assist", "relation": "related", "strength": 0.6, "note": "Formal word for help.", "register": "formal"}],
-   "ant": [{"to": "hinder", "relation": "antonym", "note": "To make it harder for someone to do something."}]},
-  {"slot": "adjective", "status": "other_meaning", "form": "available", "definition": "able to be used, bought or found", "example": "Tickets are available at the station.", "note": "Belongs to avail = something you can use or get, not being of help in getting a result."},
-  {"slot": "adverb", "status": "no_form", "note": "There is no adverb in this family."}
- ],
- "people": [], "people_not_family": [],
- "affixes": [],
- "context": {"text": "We looked for my lost phone all evening, but to no avail. In the end, nothing we did availed us until a taxi driver brought it back.", "uses": ["avail", "availed"]},
- "reviewer_note": "CORPUS: definition is a verb but the example uses the noun ('of no avail'); map anchored to the verb, noun included as conversion. available kept as other_meaning."}
+ {
+  "headword": "arc",
+  "word_id": "6a6ef83f0f1e82a5a0736783",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736783"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Shape",
+  "sense_pos": "noun",
+  "corpus_definition": "A shape that looks like part of a circle.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "arc",
+    "relation": "base",
+    "definition": "a curved shape that is part of a circle",
+    "example": "The bird flew in a graceful arc over the lake.",
+    "syn": [
+     {
+      "to": "curve",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word for any bent line; an arc is a curve like part of a circle."
+     },
+     {
+      "to": "semicircle",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Exactly half of a circle; an arc can be any part of a circle."
+     },
+     {
+      "to": "bend",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A place where a road or river changes direction; not always round."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "arc",
+    "relation": "conversion",
+    "definition": "to move through the air in a curved line",
+    "example": "The ball arced over the goalkeeper and into the net.",
+    "syn": [
+     {
+      "to": "curve",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close: to move in a bent line."
+     },
+     {
+      "to": "swing",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To move from side to side or in a curve, like a door or a bat."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective made from arc. Use curved."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from arc."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "In the football match in Tashkent, the ball arced high over the players. Everyone watched its long arc before it landed in the net.",
+   "uses": [
+    "arced",
+    "arc"
+   ]
+  },
+  "reviewer_note": "Kept the shape sense; arc (verb) is a conversion. The electric-arc meaning and the word arch are left out."
+ },
+ {
+  "headword": "architectural",
+  "word_id": "6a4288ad6941e70ad6a00eaf",
+  "word_ids": [
+   "6a4288ad6941e70ad6a00eaf"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Buildings",
+  "sense_pos": "adjective",
+  "corpus_definition": "Relating to the art of designing buildings and large structures.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "architecture",
+    "relation": "derivational",
+    "definition": "the art and style of designing buildings",
+    "example": "Samarkand is famous for its beautiful old architecture.",
+    "syn": [
+     {
+      "to": "design",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Design is the plan for how anything looks or works, not only buildings."
+     },
+     {
+      "to": "construction",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Construction is the work of building, not the art of planning it."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no common verb in this family. Use design."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "architectural",
+    "relation": "base",
+    "definition": "connected with the design of buildings",
+    "example": "The bridge has a very unusual architectural style.",
+    "syn": [
+     {
+      "to": "structural",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "About how something is built and holds together, not about its style."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "architecturally",
+    "relation": "derivational",
+    "definition": "in a way connected with the design of buildings",
+    "example": "The old city of Khiva is architecturally very interesting.",
+    "syn": [
+     {
+      "to": "structurally",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "About how something is built, not about its style or beauty."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [
+   {
+    "form": "architect",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person whose job is to design buildings",
+    "example": "The architect showed us the plans for the new school."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-al",
+    "in_form": "architectural",
+    "meaning_key": "-al",
+    "also": [
+     "natural",
+     "cultural",
+     "national"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "architecturally",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "really",
+     "usually"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Many tourists come to Samarkand to see its architecture. The Registan has great architectural beauty, and the whole square is architecturally unique.",
+   "uses": [
+    "architecture",
+    "architectural",
+    "architecturally"
+   ]
+  },
+  "reviewer_note": "Verb slot no_form: 'architect' as a verb is only computing jargon, not in learner dictionaries."
+ },
+ {
+  "headword": "aroma",
+  "word_id": "6a6ef83f0f1e82a5a073676d",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073676d"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Smell",
+  "sense_pos": "noun",
+  "corpus_definition": "A pleasant and nice smell.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "aroma",
+    "relation": "base",
+    "definition": "a pleasant smell, especially of food or drink",
+    "example": "The aroma of fresh coffee filled the whole kitchen.",
+    "syn": [
+     {
+      "to": "smell",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; a smell can be good or bad."
+     },
+     {
+      "to": "scent",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A pleasant smell, often of flowers or perfume."
+     },
+     {
+      "to": "fragrance",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A sweet, pleasant smell; often used for perfume.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "stink",
+      "relation": "antonym",
+      "note": "A very bad, strong smell."
+     },
+     {
+      "to": "stench",
+      "relation": "antonym",
+      "note": "A very unpleasant smell; a bit formal."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb made from aroma."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "aromatic",
+    "relation": "derivational",
+    "definition": "having a strong and pleasant smell",
+    "example": "My grandmother adds aromatic herbs like dill to her soup.",
+    "syn": [
+     {
+      "to": "fragrant",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close; often used for flowers and perfume."
+     },
+     {
+      "to": "sweet-smelling",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, clear way to say the same thing."
+     }
+    ],
+    "ant": [
+     {
+      "to": "smelly",
+      "relation": "antonym",
+      "note": "Having a bad smell."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no common adverb made from aroma."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "The aroma of fresh bread came from the bakery near the bazaar. Inside, my aunt was buying aromatic spices for her plov.",
+   "uses": [
+    "aroma",
+    "aromatic"
+   ]
+  },
+  "reviewer_note": "No affix claimed on aromatic: removing -ic leaves no real word. Aromatherapy is a compound and is left out."
+ },
+ {
+  "headword": "assumption",
+  "word_id": "6a6ef83f0f1e82a5a0736709",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736709"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Belief",
+  "sense_pos": "noun",
+  "corpus_definition": "A belief that something is true without needing proof.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "assumption",
+    "relation": "base",
+    "definition": "a belief that something is true without any proof",
+    "example": "His assumption about the test was completely wrong.",
+    "syn": [
+     {
+      "to": "guess",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word; a guess is an idea you are not sure about."
+     },
+     {
+      "to": "supposition",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close but formal and less common.",
+      "register": "formal"
+     },
+     {
+      "to": "presumption",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; often used in law and formal writing.",
+      "register": "formal"
+     },
+     {
+      "to": "belief",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Something you think is true; it can have strong reasons behind it."
+     }
+    ],
+    "ant": [
+     {
+      "to": "fact",
+      "relation": "antonym",
+      "note": "A fact is shown to be true; this is only believed."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "assume",
+    "relation": "derivational",
+    "definition": "to think something is true without being sure",
+    "example": "I assumed you were busy, so I didn't call.",
+    "syn": [
+     {
+      "to": "suppose",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close and common in speaking."
+     },
+     {
+      "to": "presume",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close but a little more formal.",
+      "register": "formal"
+     },
+     {
+      "to": "think",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; you may have proof or not."
+     },
+     {
+      "to": "expect",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To think something will happen in the future."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "assumed",
+    "definition": "used about a name that is false, not your real one",
+    "example": "The thief stayed at the hotel under an assumed name.",
+    "note": "Belongs to assume = take on or pretend, not believing something without proof."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no common adverb in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "I made the assumption that the bus would come on time. I assumed wrong, and I was late for my first class.",
+   "uses": [
+    "assumption",
+    "assumed"
+   ]
+  },
+  "reviewer_note": "No affix claimed: removing -tion from assumption leaves no real word. assumed (adj) kept as other_meaning (false name)."
+ },
+ {
+  "headword": "asteroid",
+  "word_id": "6a6ef83f0f1e82a5a07366cf",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07366cf"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Space",
+  "sense_pos": "noun",
+  "corpus_definition": "A large rock that moves through space around the sun.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "asteroid",
+    "relation": "base",
+    "definition": "a large rock that moves around the sun in space",
+    "example": "The asteroid passed close to the Earth last night.",
+    "syn": [
+     {
+      "to": "meteor",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A small space rock that burns and shines as it falls through the air."
+     },
+     {
+      "to": "meteorite",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A piece of space rock that has landed on the Earth."
+     },
+     {
+      "to": "comet",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A ball of ice and dust in space with a long bright tail."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb made from asteroid."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective; asteroidal is only used by scientists."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from asteroid."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Scientists in many countries watched a small asteroid last week. They said the asteroid was about the size of a bus and was no danger to us.",
+   "uses": [
+    "asteroid"
+   ]
+  },
+  "reviewer_note": "Single-form family; -oid is not in the affix table, so no affix is claimed."
+ },
+ {
+  "headword": "attentive",
+  "word_id": "6a6ef83f0f1e82a5a07367d3",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367d3"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Listening",
+  "sense_pos": "adjective",
+  "corpus_definition": "Listening and watching carefully.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "attention",
+    "relation": "derivational",
+    "definition": "the act of listening, watching or thinking carefully about something",
+    "example": "Please pay attention to the teacher.",
+    "syn": [
+     {
+      "to": "concentration",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close: keeping your mind on one thing."
+     },
+     {
+      "to": "focus",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close and a little informal."
+     },
+     {
+      "to": "notice",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Used in 'take notice of': seeing something, not always for long."
+     }
+    ],
+    "ant": [
+     {
+      "to": "inattention",
+      "relation": "antonym",
+      "note": "Not listening or watching carefully; formal."
+     },
+     {
+      "to": "distraction",
+      "relation": "antonym",
+      "note": "Something that takes your mind away from what you are doing."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "attentiveness",
+    "relation": "derivational",
+    "definition": "the quality of listening and watching carefully",
+    "example": "The nurse was known for her attentiveness to every patient.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "attendance",
+    "definition": "being present at school, work or an event",
+    "example": "Attendance at the meeting was very low.",
+    "note": "Belongs to attend = go to or be present, not listening carefully."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "attend",
+    "relation": "derivational",
+    "definition": "to listen to or deal with something carefully",
+    "example": "Please attend to what I am saying.",
+    "register": "formal",
+    "note": "In this meaning it is used with 'to'. The more common meaning is 'go to' (attend school).",
+    "syn": [
+     {
+      "to": "pay attention",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Everyday phrase with the same meaning."
+     },
+     {
+      "to": "listen",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: use your ears carefully."
+     },
+     {
+      "to": "concentrate",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To keep your mind on one thing."
+     }
+    ],
+    "ant": [
+     {
+      "to": "ignore",
+      "relation": "antonym",
+      "note": "To give no attention to someone or something."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "attentive",
+    "relation": "base",
+    "definition": "listening and watching carefully",
+    "example": "The teacher was happy with her attentive students.",
+    "syn": [
+     {
+      "to": "alert",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Quick to notice things; ready."
+     },
+     {
+      "to": "watchful",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Watching carefully, often for danger."
+     },
+     {
+      "to": "focused",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Keeping your mind on one thing."
+     },
+     {
+      "to": "careful",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: thinking about what you do to avoid mistakes."
+     }
+    ],
+    "ant": [
+     {
+      "to": "inattentive",
+      "relation": "antonym",
+      "note": "Not listening or watching carefully."
+     },
+     {
+      "to": "distracted",
+      "relation": "antonym",
+      "note": "Thinking about something else."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "attentively",
+    "relation": "derivational",
+    "definition": "in a way that shows you are listening and watching carefully",
+    "example": "The children listened attentively to the story.",
+    "syn": [
+     {
+      "to": "carefully",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word with a similar meaning."
+     },
+     {
+      "to": "closely",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used with watch or listen: 'listen closely'."
+     },
+     {
+      "to": "intently",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "With great interest and full attention."
+     }
+    ],
+    "ant": [
+     {
+      "to": "carelessly",
+      "relation": "antonym",
+      "note": "Without enough care or thought."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "form": "attendant",
+    "kind": "job",
+    "status": "other_meaning",
+    "definition": "a person whose job is to help or serve people",
+    "example": "The flight attendant brought us some water.",
+    "note": "Belongs to attend = look after or serve people, not listening carefully."
+   },
+   {
+    "form": "attendee",
+    "kind": "person",
+    "status": "other_meaning",
+    "definition": "a person who goes to a meeting or event",
+    "example": "Every attendee got a free bag at the conference.",
+    "note": "Belongs to attend = go to an event."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "attentively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "happily"
+    ]
+   },
+   {
+    "affix": "-ness",
+    "in_form": "attentiveness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "happiness",
+     "darkness"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The students were very attentive during the lesson. They listened attentively and gave the teacher their full attention.",
+   "uses": [
+    "attentive",
+    "attentively",
+    "attention"
+   ]
+  },
+  "reviewer_note": "attend kept as existing only in the formal 'attend to' sense; attendance, attendant and attendee are other_meaning (go to / serve). Opposites inattentive and inattention are in ant lists.",
+  "gate_overrides": [
+   {
+    "msg_contains": "'attendant' is a compound",
+    "reason": "attendant = attend + -ant suffix (like assistant, servant), not a compound of two words; it is in OALD and Cambridge."
+   }
+  ]
+ },
+ {
+  "headword": "audible",
+  "word_id": "6a6ef83f0f1e82a5a0736796",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736796"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Hearing",
+  "sense_pos": "adjective",
+  "corpus_definition": "Able to be heard clearly.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "audibility",
+    "relation": "derivational",
+    "definition": "how easy it is to hear a sound",
+    "example": "The new microphones improved the audibility of the speakers.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "clarity",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "How clear a sound or picture is."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "not_family": [
+     "audition"
+    ],
+    "note": "There is no verb made from audible. Audition comes from the same old Latin root (hear) but is not made from audible."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "audible",
+    "relation": "base",
+    "definition": "loud enough for people to hear",
+    "example": "Her soft voice was barely audible in the big room.",
+    "syn": [
+     {
+      "to": "clear",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy to hear or understand."
+     },
+     {
+      "to": "distinct",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy to hear and separate from other sounds."
+     },
+     {
+      "to": "perceptible",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: able to be noticed with any sense, not only hearing.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "inaudible",
+      "relation": "antonym",
+      "note": "Too quiet to be heard."
+     },
+     {
+      "to": "silent",
+      "relation": "antonym",
+      "note": "Making no sound at all."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "audibly",
+    "relation": "derivational",
+    "definition": "in a way that people can hear",
+    "example": "The whole class sighed audibly when the teacher gave homework.",
+    "syn": [
+     {
+      "to": "aloud",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "In a voice that others can hear."
+     },
+     {
+      "to": "out loud",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday phrase with the same meaning."
+     },
+     {
+      "to": "clearly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a way that is easy to hear or understand."
+     }
+    ],
+    "ant": [
+     {
+      "to": "silently",
+      "relation": "antonym",
+      "note": "Without making any sound."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [
+   "audience",
+   "auditorium"
+  ],
+  "affixes": [
+   {
+    "affix": "-ity",
+    "in_form": "audibility",
+    "meaning_key": "-ity",
+    "also": [
+     "ability",
+     "possibility",
+     "activity"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "audibly",
+    "meaning_key": "-ly",
+    "also": [
+     "possibly",
+     "terribly",
+     "quickly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The teacher's voice was hardly audible at the back of the hall. When the microphone started working, everyone sighed audibly with relief.",
+   "uses": [
+    "audible",
+    "audibly"
+   ]
+  },
+  "reviewer_note": "audience, auditorium and audition share the Latin root but are not made from audible, so they are not forms or people."
+ },
+ {
+  "headword": "authoritative",
+  "word_id": "6a6ef83f0f1e82a5a0736838",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736838"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Confident",
+  "sense_pos": "adjective",
+  "corpus_definition": "Showing that you are in charge and know things.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "authority",
+    "relation": "derivational",
+    "definition": "the power to give orders and make people obey",
+    "example": "The head teacher has the authority to change the rules.",
+    "syn": [
+     {
+      "to": "power",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; power can be official or not."
+     },
+     {
+      "to": "control",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The ability to make people or things do what you want."
+     },
+     {
+      "to": "command",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Control over a group, often in the army."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "authorize",
+    "definition": "to give official permission for something",
+    "example": "The manager authorized the payment.",
+    "note": "Belongs to authority = official right to allow things, not a confident manner. British spelling: authorise."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "authoritative",
+    "relation": "base",
+    "definition": "showing that you are in charge and know a lot",
+    "example": "She spoke in an authoritative tone of voice.",
+    "syn": [
+     {
+      "to": "commanding",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Showing power and making people want to obey."
+     },
+     {
+      "to": "confident",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: sure of yourself, but not always in charge."
+     },
+     {
+      "to": "assertive",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Saying clearly what you want or think."
+     },
+     {
+      "to": "firm",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Strong and not easy to change."
+     }
+    ],
+    "ant": [
+     {
+      "to": "timid",
+      "relation": "antonym",
+      "note": "Shy and not confident."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "authoritarian",
+    "definition": "making people obey strict rules and not giving them freedom",
+    "example": "The country had an authoritarian government for many years.",
+    "note": "Belongs to authority = strict control over people; it is negative, while this word is usually positive."
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "authoritatively",
+    "relation": "derivational",
+    "definition": "in a confident way that shows you are in charge",
+    "example": "The captain spoke authoritatively to the team.",
+    "syn": [
+     {
+      "to": "confidently",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a way that shows you are sure of yourself."
+     },
+     {
+      "to": "firmly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a strong way that does not change."
+     }
+    ],
+    "ant": [
+     {
+      "to": "timidly",
+      "relation": "antonym",
+      "note": "In a shy, nervous way."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [
+   "author"
+  ],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "authoritatively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "happily"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our new manager speaks in an authoritative voice, so everyone listens. She has the authority to change the rules, and she explains them authoritatively.",
+   "uses": [
+    "authoritative",
+    "authority",
+    "authoritatively"
+   ]
+  },
+  "reviewer_note": "Anchored to the confident/in-charge sense; the 'reliable source' sense (an authoritative book) is not used. authorize and authoritarian are other_meaning; author is not made from this family."
+ },
+ {
+  "headword": "autograph",
+  "word_id": "6a6ef83f0f1e82a5a073685e",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073685e"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Signature",
+  "sense_pos": "noun",
+  "corpus_definition": "The name of a famous person written by them.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "autograph",
+    "relation": "base",
+    "definition": "a famous person's name, written by them for a fan",
+    "example": "Can I have your autograph, please?",
+    "syn": [
+     {
+      "to": "signature",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Anyone's name written by them, for example on a document; this word is for famous people and fans."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "autograph",
+    "relation": "conversion",
+    "definition": "to write your name on something for a fan",
+    "example": "The singer autographed hundreds of photos after the concert.",
+    "syn": [
+     {
+      "to": "sign",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word for writing your name."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "autographed",
+    "relation": "participial",
+    "definition": "signed by a famous person",
+    "example": "He has an autographed football from the national team.",
+    "syn": [
+     {
+      "to": "signed",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning and very common: 'a signed photo'."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from autograph."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "At the concert in Tashkent, my sister asked the singer for his autograph. He autographed her ticket, and now the autographed ticket hangs on her wall.",
+   "uses": [
+    "autograph",
+    "autographed"
+   ]
+  },
+  "reviewer_note": "auto- and -graph are not in the affix table, so no affix is claimed."
+ },
+ {
+  "headword": "avail",
+  "word_id": "6a6ef83f0f1e82a5a0736731",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736731"
+  ],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Use",
+  "sense_pos": "verb",
+  "corpus_definition": "To be of help or use in achieving something.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "avail",
+    "relation": "conversion",
+    "definition": "use or help in getting a result",
+    "example": "We tried to call him, but to no avail.",
+    "register": "formal",
+    "note": "Almost always in the phrases 'to no avail' and 'of no avail'.",
+    "syn": [
+     {
+      "to": "use",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: 'of no use' means the same as 'of no avail'."
+     },
+     {
+      "to": "success",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "'To no avail' means 'without success'."
+     },
+     {
+      "to": "help",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word for making something easier."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "avail",
+    "relation": "base",
+    "definition": "to help someone or be useful in getting a result",
+    "example": "Nothing we tried availed us in the end.",
+    "register": "literary",
+    "note": "Old-fashioned. Also formal 'avail yourself of something' = use it.",
+    "syn": [
+     {
+      "to": "help",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday word with a similar meaning."
+     },
+     {
+      "to": "benefit",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To be good or useful for someone."
+     },
+     {
+      "to": "assist",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Formal word for help.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "hinder",
+      "relation": "antonym",
+      "note": "To make it harder for someone to do something."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "available",
+    "definition": "able to be used, bought or found",
+    "example": "Tickets are available at the station.",
+    "note": "Belongs to avail = something you can use or get, not being of help in getting a result."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "We looked for my lost phone all evening, but to no avail. In the end, nothing we did availed us until a taxi driver brought it back.",
+   "uses": [
+    "avail",
+    "availed"
+   ]
+  },
+  "reviewer_note": "CORPUS: definition is a verb but the example uses the noun ('of no avail'); map anchored to the verb, noun included as conversion. available kept as other_meaning."
+ }
 ]
