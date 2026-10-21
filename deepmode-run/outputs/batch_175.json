@@ -1,0 +1,223 @@
+[
+{"headword": "torture", "word_id": "6a6ef9b2a60155614809284e", "word_ids": ["6a6ef9b2a60155614809284e"], "cefr": "B2", "kind": "word", "sense_label": "Pain", "sense_pos": "noun", "corpus_definition": "the act of causing great physical or mental pain on purpose",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "torture", "relation": "base", "definition": "the act of hurting someone very badly on purpose", "example": "The use of torture is forbidden under international law.", "syn": [
+    {"to": "cruelty", "relation": "related", "strength": 0.6, "note": "Cruelty is any behaviour that causes pain; this word is for very strong, planned pain."},
+    {"to": "abuse", "relation": "related", "strength": 0.6, "note": "Abuse is cruel or wrong treatment in general, not always so extreme."},
+    {"to": "agony", "relation": "related", "strength": 0.4, "note": "Agony is the very strong pain a person feels, not the act of causing it."}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "torture", "relation": "conversion", "definition": "to hurt someone very badly on purpose, often to get information", "example": "The prisoners were tortured until they gave the names.", "syn": [
+    {"to": "torment", "relation": "synonym", "strength": 0.8, "note": "Close in meaning; often used for mental pain or for annoying someone again and again."},
+    {"to": "hurt", "relation": "related", "strength": 0.6, "note": "Easy, general word for causing pain; much weaker."},
+    {"to": "abuse", "relation": "related", "strength": 0.6, "note": "To treat someone in a cruel or wrong way; not always so extreme."}], "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "tortured", "relation": "participial", "definition": "showing or suffering great pain or worry", "example": "He had a tortured look on his face after the bad news.", "syn": [
+    {"to": "anguished", "relation": "synonym", "strength": 0.8, "note": "Showing very strong pain or worry; a bit formal.", "register": "formal"},
+    {"to": "suffering", "relation": "related", "strength": 0.6, "note": "Feeling pain, but not always so strongly."}], "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "torturous", "relation": "derivational", "definition": "causing a lot of pain or suffering", "example": "The long wait at the hospital was torturous.", "syn": [
+    {"to": "painful", "relation": "synonym", "strength": 0.8, "note": "Easy word with a similar meaning, but less strong."},
+    {"to": "agonizing", "relation": "synonym", "strength": 0.8, "note": "Very close; British spelling: agonising."}], "ant": []},
+  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from torture."}],
+ "people": [
+  {"form": "torturer", "kind": "person", "status": "existing", "definition": "a person who hurts people badly on purpose", "example": "The torturer was sent to prison for many years."}],
+ "affixes": [
+  {"affix": "-er", "in_form": "torturer", "meaning_key": "-er", "also": ["teacher", "driver", "worker"]},
+  {"affix": "-ous", "in_form": "torturous", "meaning_key": "-ous", "also": ["dangerous", "famous", "nervous"]}],
+ "context": {"text": "In the old prison museum, you can read about the torture of prisoners long ago. Guards tortured people to get names. Today such acts are forbidden by law.", "uses": ["torture", "tortured"]},
+ "reviewer_note": "Kept the act-of-causing-pain sense; tortured (adjective) and torturous are both learner-dictionary words."},
+
+{"headword": "toxic", "word_id": "6a6ef83f0f1e82a5a073677f", "word_ids": ["6a6ef83f0f1e82a5a073677f"], "cefr": "B2", "kind": "word", "sense_label": "Poison", "sense_pos": "adjective", "corpus_definition": "Something that is poisonous and can kill you.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "toxicity", "relation": "derivational", "definition": "how poisonous or harmful something is", "example": "Scientists tested the toxicity of the river water.", "register": "formal", "syn": [
+    {"to": "harmfulness", "relation": "related", "strength": 0.6, "note": "How much harm something can do, not only by poison."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from toxic.", "not_family": ["intoxicate"]},
+  {"slot": "adjective", "status": "existing", "form": "toxic", "relation": "base", "definition": "poisonous and able to make you very ill or kill you", "example": "Do not drink from that bottle as it is toxic.", "syn": [
+    {"to": "poisonous", "relation": "synonym", "strength": 0.95, "note": "Same meaning and more common in everyday English."},
+    {"to": "harmful", "relation": "related", "strength": 0.6, "note": "Can hurt you, but not always by poison."},
+    {"to": "deadly", "relation": "related", "strength": 0.6, "note": "Able to kill; used for poison, weapons and diseases."},
+    {"to": "dangerous", "relation": "related", "strength": 0.4, "note": "Easy, general word: it can hurt you in any way."}], "ant": [
+    {"to": "harmless", "relation": "antonym", "note": "Not able to hurt you."},
+    {"to": "safe", "relation": "antonym", "note": "Easy word: it will not hurt you."}]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from toxic."}],
+ "people": [
+  {"form": "toxin", "kind": "thing", "status": "existing", "definition": "a poisonous substance, often made by plants, animals or germs", "example": "Some mushrooms contain a toxin that can kill you."}],
+ "affixes": [
+  {"affix": "-ity", "in_form": "toxicity", "meaning_key": "-ity", "also": ["activity", "electricity", "possibility"]}],
+ "context": {"text": "The factory near the river was closed because it put toxic waste into the water. Now scientists check the toxicity of the fish every month.", "uses": ["toxic", "toxicity"]},
+ "reviewer_note": "Intoxicate shares an old root but means 'make drunk' and is not made from toxic, so it is listed in not_family."},
+
+{"headword": "track", "word_id": "6a4288ad6941e70ad6a00e44", "word_ids": ["6a4288ad6941e70ad6a00e44"], "cefr": "B2", "kind": "word", "sense_label": "Following", "sense_pos": "verb", "corpus_definition": "To follow the path or location of something.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "track", "relation": "conversion", "definition": "marks on the ground that show where a person, animal or car went", "example": "We followed the fox's tracks in the snow.", "note": "Also used in 'keep track of' = know where something is. Other meanings: a race path, a song on an album.", "syn": [
+    {"to": "trail", "relation": "synonym", "strength": 0.8, "note": "Marks or signs left by someone moving; very close."},
+    {"to": "footprint", "relation": "related", "strength": 0.6, "note": "The mark of one foot or shoe only."},
+    {"to": "path", "relation": "related", "strength": 0.4, "note": "A way to walk along, not the marks someone left."}], "ant": []},
+  {"slot": "noun", "status": "existing", "form": "tracking", "relation": "derivational", "definition": "the act of following where something or someone is, often with GPS", "example": "The delivery app has live tracking, so I know when my food will arrive.", "syn": [
+    {"to": "monitoring", "relation": "related", "strength": 0.6, "note": "Watching something over time; a bit more formal."}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "track", "relation": "base", "definition": "to follow where something or someone goes or is", "example": "I can track my order on the website.", "syn": [
+    {"to": "follow", "relation": "synonym", "strength": 0.8, "note": "Easy word; track often means using a map, app or marks on the ground."},
+    {"to": "trace", "relation": "synonym", "strength": 0.8, "note": "To find where someone or something is or went, often after searching."},
+    {"to": "trail", "relation": "synonym", "strength": 0.8, "note": "To follow someone secretly, often by the marks they leave."},
+    {"to": "monitor", "relation": "related", "strength": 0.6, "note": "To watch something carefully over time; more formal.", "register": "formal"}], "ant": [
+    {"to": "lose", "relation": "antonym", "note": "To no longer know where something is: 'I lost him in the crowd.'"}]},
+  {"slot": "adjective", "status": "no_form", "note": "There is no common adjective made from track in this meaning."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from track."}],
+ "people": [
+  {"form": "tracker", "kind": "thing", "status": "existing", "definition": "a small device or app that shows where something or someone is", "example": "She put a tracker on her suitcase before the flight.", "note": "Also a person who follows animals by their marks."}],
+ "affixes": [
+  {"affix": "-ing", "in_form": "tracking", "meaning_key": "-ing", "also": ["shopping", "reading", "parking"]},
+  {"affix": "-er", "in_form": "tracker", "meaning_key": "-er", "also": ["teacher", "driver", "worker"]}],
+ "context": {"text": "I ordered a new phone online and tracked the parcel every day. The tracking page showed it was already in Samarkand, so I went to the post office.", "uses": ["tracked", "tracking"]},
+ "reviewer_note": "Verb sense = follow the location; noun track kept as marks on the ground (same idea), race track and music track are other meanings."},
+
+{"headword": "trade", "word_id": "6a42883f6941e70ad6a00dda", "word_ids": ["6a42883f6941e70ad6a00dda"], "cefr": "B2", "kind": "word", "sense_label": "Business", "sense_pos": "noun", "corpus_definition": "The act of buying and selling goods.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "trade", "relation": "base", "definition": "the buying and selling of goods between people or countries", "example": "International trade helps countries grow.", "note": "Another meaning: a job that needs skill with your hands, such as building.", "syn": [
+    {"to": "commerce", "relation": "synonym", "strength": 0.8, "note": "Same idea, more formal; used about business in general.", "register": "formal"},
+    {"to": "business", "relation": "related", "strength": 0.6, "note": "Easy, wider word for making and selling things."},
+    {"to": "exchange", "relation": "related", "strength": 0.4, "note": "Giving one thing and getting another; not always for money."}], "ant": []},
+  {"slot": "noun", "status": "existing", "form": "trading", "relation": "derivational", "definition": "the activity of buying and selling, especially shares or goods", "example": "Trading on the stock market stopped early because of the news.", "syn": [
+    {"to": "dealing", "relation": "related", "strength": 0.6, "note": "Buying and selling, often of one kind of goods."}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "trade", "relation": "conversion", "definition": "to buy and sell goods, or to exchange things", "example": "Uzbekistan trades cotton and fruit with many countries.", "syn": [
+    {"to": "do business", "relation": "synonym", "strength": 0.8, "note": "Easy phrase with a similar meaning."},
+    {"to": "deal", "relation": "related", "strength": 0.6, "note": "Usually 'deal in' a kind of goods: 'He deals in old cars.'"},
+    {"to": "exchange", "relation": "related", "strength": 0.6, "note": "To give one thing and get another back."},
+    {"to": "sell", "relation": "related", "strength": 0.4, "note": "Only one side of it: giving goods for money."}], "ant": []},
+  {"slot": "adjective", "status": "no_form", "note": "There is no common adjective made from trade; it is used as a noun before another noun: a trade route."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from trade."}],
+ "people": [
+  {"form": "trader", "kind": "job", "status": "existing", "definition": "a person who buys and sells goods, often at a market", "example": "The traders at Chorsu Bazaar open their shops very early."}],
+ "affixes": [
+  {"affix": "-er", "in_form": "trader", "meaning_key": "-er", "also": ["teacher", "driver", "worker"]},
+  {"affix": "-ing", "in_form": "trading", "meaning_key": "-ing", "also": ["shopping", "banking", "farming"]}],
+ "context": {"text": "Trade along the Silk Road made cities like Bukhara rich. Merchants traded silk, spices and cotton there for hundreds of years.", "uses": ["Trade", "traded"]},
+ "reviewer_note": "Compounds (trademark, tradesman) left out; trade (skilled job) is another meaning, mentioned in the noun note."},
+
+{"headword": "tragic", "word_id": "6a6ef9b2a6015561480926e5", "word_ids": ["6a6ef9b2a6015561480926e5"], "cefr": "B2", "kind": "word", "sense_label": "Sad event", "sense_pos": "adjective", "corpus_definition": "Very sad, often involving death or loss.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "tragedy", "relation": "derivational", "definition": "a very sad event, often when people die", "example": "The plane crash was a terrible tragedy for the whole country.", "note": "Another meaning: a serious play with a sad ending, like Hamlet.", "syn": [
+    {"to": "disaster", "relation": "synonym", "strength": 0.8, "note": "A sudden event that causes a lot of damage or death."},
+    {"to": "catastrophe", "relation": "related", "strength": 0.6, "note": "A very big disaster; a bit formal.", "register": "formal"},
+    {"to": "misfortune", "relation": "related", "strength": 0.6, "note": "Bad luck; usually less serious."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from tragic."},
+  {"slot": "adjective", "status": "existing", "form": "tragic", "relation": "base", "definition": "very sad, often because someone has died", "example": "It was a tragic accident for everyone.", "syn": [
+    {"to": "sad", "relation": "synonym", "strength": 0.8, "note": "Easy word; tragic is much stronger and usually about death or loss."},
+    {"to": "heartbreaking", "relation": "synonym", "strength": 0.8, "note": "Making you feel very sad."},
+    {"to": "terrible", "relation": "related", "strength": 0.6, "note": "Very bad; not always sad."},
+    {"to": "devastating", "relation": "related", "strength": 0.6, "note": "Causing great damage or shock."}], "ant": []},
+  {"slot": "adverb", "status": "existing", "form": "tragically", "relation": "derivational", "definition": "in a very sad way, often involving death", "example": "He died tragically young, at only twenty-five.", "syn": [
+    {"to": "sadly", "relation": "related", "strength": 0.6, "note": "Easy word, but much weaker."},
+    {"to": "unfortunately", "relation": "related", "strength": 0.4, "note": "Used to say something bad happened; not so strong."}], "ant": []}],
+ "people": [],
+ "affixes": [],
+ "context": {"text": "The news about the bus accident on the road to Fergana was tragic. Three students died tragically, and the whole town still remembers the tragedy.", "uses": ["tragic", "tragically", "tragedy"]},
+ "reviewer_note": "No affix claimed: tragically is tragic + -ally, and removing -ic leaves no real word."},
+
+{"headword": "tremble", "word_id": "6a6ef9b2a601556148092735", "word_ids": ["6a6ef9b2a601556148092735"], "cefr": "B2", "kind": "word", "sense_label": "Shaking", "sense_pos": "verb", "corpus_definition": "To shake slightly because of cold or strong feelings.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "tremble", "relation": "conversion", "definition": "a small shaking movement, often in the voice or hands", "example": "There was a tremble in her voice when she spoke.", "syn": [
+    {"to": "shake", "relation": "synonym", "strength": 0.8, "note": "Easy, general word for this movement."},
+    {"to": "quiver", "relation": "synonym", "strength": 0.8, "note": "A very small, fast shaking; a bit literary.", "register": "literary"},
+    {"to": "shiver", "relation": "related", "strength": 0.6, "note": "Shaking mostly because of cold."}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "tremble", "relation": "base", "definition": "to shake a little because you are cold, afraid or excited", "example": "My hands began to tremble with fear.", "syn": [
+    {"to": "shake", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word with the same meaning."},
+    {"to": "shiver", "relation": "synonym", "strength": 0.8, "note": "Used mostly when you are cold."},
+    {"to": "quiver", "relation": "synonym", "strength": 0.8, "note": "A very small, fast shaking; a bit literary.", "register": "literary"},
+    {"to": "shudder", "relation": "related", "strength": 0.6, "note": "One strong shake, often because of fear or disgust."}], "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "trembling", "relation": "participial", "definition": "shaking slightly because of fear, cold or strong feelings", "example": "She held the letter in her trembling hands.", "syn": [
+    {"to": "shaky", "relation": "synonym", "strength": 0.8, "note": "Easy, common word: shaky hands, a shaky voice."},
+    {"to": "nervous", "relation": "related", "strength": 0.4, "note": "Worried or afraid; you may tremble when you are nervous."}], "ant": [
+    {"to": "steady", "relation": "antonym", "note": "Not shaking: steady hands."}]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from tremble."}],
+ "people": [],
+ "people_not_family": ["tremor"],
+ "affixes": [
+  {"affix": "-ing", "in_form": "trembling", "meaning_key": "-ing", "also": ["interesting", "boring", "exciting"]}],
+ "context": {"text": "It was very cold at the bus stop, and Malika began to tremble. Her trembling hands could not hold the cup of hot tea.", "uses": ["tremble", "trembling"]},
+ "reviewer_note": "Tremor comes from the same old root but is not made from tremble; listed in people_not_family."},
+
+{"headword": "trigger", "word_id": "6a6ef9b2a60155614809289b", "word_ids": ["6a6ef9b2a60155614809289b"], "cefr": "B2", "kind": "word", "sense_label": "Cause", "sense_pos": "verb", "corpus_definition": "To make something start or happen very quickly.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "trigger", "relation": "conversion", "definition": "something that makes a problem, feeling or event start", "example": "Stress can be a trigger for bad headaches.", "note": "Another meaning: the small part of a gun you pull to fire it.", "syn": [
+    {"to": "cause", "relation": "related", "strength": 0.6, "note": "The reason something happens; a trigger is what starts it quickly."},
+    {"to": "spark", "relation": "related", "strength": 0.6, "note": "A small thing that starts something bigger."},
+    {"to": "stimulus", "relation": "related", "strength": 0.4, "note": "Formal word for something that makes a body or person react.", "register": "formal"}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "trigger", "relation": "base", "definition": "to make something start or happen suddenly", "example": "Loud noises can trigger his bad memories.", "syn": [
+    {"to": "set off", "relation": "synonym", "strength": 0.95, "note": "Phrasal verb with the same meaning: set off an alarm."},
+    {"to": "cause", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; it does not say the start is sudden."},
+    {"to": "spark", "relation": "synonym", "strength": 0.8, "note": "Often used for arguments, protests and ideas."},
+    {"to": "provoke", "relation": "synonym", "strength": 0.8, "note": "Often used for a strong reaction, like anger; a bit formal.", "register": "formal"},
+    {"to": "start", "relation": "related", "strength": 0.6, "note": "Easy word, but more general."}], "ant": [
+    {"to": "prevent", "relation": "antonym", "note": "To stop something from happening at all."}]},
+  {"slot": "adjective", "status": "no_form", "note": "There is no common adjective made from trigger."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from trigger."}],
+ "people": [],
+ "affixes": [],
+ "context": {"text": "In spring, the dust and flowers in Tashkent can trigger allergies. For my sister, the main trigger is dust from the street, so she wears a mask.", "uses": ["trigger"]},
+ "reviewer_note": "Gun-part sense of the noun mentioned in a note only; verb sense = make something start."},
+
+{"headword": "triumph", "word_id": "6a6ef9b2a60155614809288b", "word_ids": ["6a6ef9b2a60155614809288b"], "cefr": "B2", "kind": "word", "sense_label": "Victory", "sense_pos": "noun", "corpus_definition": "A great success or victory after a difficult situation.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "triumph", "relation": "base", "definition": "a great win or success after a hard time", "example": "The athlete enjoyed a great triumph at the Olympics.", "syn": [
+    {"to": "victory", "relation": "synonym", "strength": 0.8, "note": "A win in a fight or game; very close."},
+    {"to": "success", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; triumph is a very big success."},
+    {"to": "win", "relation": "related", "strength": 0.6, "note": "Easy word, often used for games and sport."},
+    {"to": "achievement", "relation": "related", "strength": 0.6, "note": "Something good you did with effort."}], "ant": [
+    {"to": "defeat", "relation": "antonym", "note": "Losing a fight or game."},
+    {"to": "failure", "relation": "antonym", "note": "Not succeeding."}]},
+  {"slot": "verb", "status": "existing", "form": "triumph", "relation": "conversion", "definition": "to win or succeed after a hard fight", "example": "In the end, good triumphed over evil.", "register": "formal", "syn": [
+    {"to": "win", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word."},
+    {"to": "succeed", "relation": "synonym", "strength": 0.8, "note": "To do what you wanted to do."},
+    {"to": "prevail", "relation": "synonym", "strength": 0.8, "note": "Formal: to win in the end.", "register": "formal"},
+    {"to": "overcome", "relation": "related", "strength": 0.6, "note": "To deal with a problem successfully."}], "ant": [
+    {"to": "lose", "relation": "antonym", "note": "Not to win."},
+    {"to": "fail", "relation": "antonym", "note": "Not to succeed."}]},
+  {"slot": "adjective", "status": "existing", "form": "triumphant", "relation": "derivational", "definition": "very happy and proud because you have won or succeeded", "example": "The team came home triumphant after the final.", "syn": [
+    {"to": "victorious", "relation": "synonym", "strength": 0.8, "note": "Having won; a bit formal."},
+    {"to": "proud", "relation": "related", "strength": 0.6, "note": "Pleased with what you did; not always after a win."},
+    {"to": "successful", "relation": "related", "strength": 0.6, "note": "Getting what you wanted; less emotional."}], "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "triumphal", "relation": "derivational", "definition": "made or done to celebrate a great victory", "example": "The army marched through the triumphal arch.", "syn": [], "ant": []},
+  {"slot": "adverb", "status": "existing", "form": "triumphantly", "relation": "derivational", "definition": "in a very happy and proud way after winning", "example": "She smiled triumphantly when she got the top mark.", "syn": [
+    {"to": "proudly", "relation": "related", "strength": 0.6, "note": "In a proud way; not always after a win."},
+    {"to": "joyfully", "relation": "related", "strength": 0.4, "note": "In a very happy way."}], "ant": []}],
+ "people": [],
+ "affixes": [
+  {"affix": "-ant", "in_form": "triumphant", "meaning_key": "-ant", "also": ["pleasant", "observant", "defiant"]},
+  {"affix": "-al", "in_form": "triumphal", "meaning_key": "-al", "also": ["musical", "national", "natural"]},
+  {"affix": "-ly", "in_form": "triumphantly", "meaning_key": "-ly", "also": ["quickly", "happily", "slowly"]}],
+ "context": {"text": "Winning the national cup was a great triumph for the small team from Namangan. The triumphant players danced on the field, and their fans sang triumphantly all night.", "uses": ["triumph", "triumphant", "triumphantly"]},
+ "reviewer_note": "Triumphant (feeling) vs triumphal (celebrating a victory, e.g. an arch) both shown."},
+
+{"headword": "troops", "word_id": "6a6ef9b2a6015561480926a7", "word_ids": ["6a6ef9b2a6015561480926a7"], "cefr": "B2", "kind": "word", "sense_label": "Army", "sense_pos": "noun", "corpus_definition": "Groups of soldiers who work for the army.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "troops", "relation": "base", "definition": "soldiers, especially a large group of them", "example": "The troops marched across the field at dawn.", "note": "Usually plural. Singular troop = a group of soldiers, scouts or animals.", "syn": [
+    {"to": "soldiers", "relation": "synonym", "strength": 0.95, "note": "Easy word with the same meaning."},
+    {"to": "forces", "relation": "synonym", "strength": 0.8, "note": "An army or armed group; often 'armed forces'."},
+    {"to": "army", "relation": "related", "strength": 0.6, "note": "The whole organisation of soldiers in a country."}], "ant": []},
+  {"slot": "verb", "status": "other_meaning", "form": "troop", "definition": "to walk somewhere together as a group", "example": "The children trooped into the classroom after the break.", "note": "Belongs to troop = a group of people moving together, not soldiers. Informal.", "register": "informal"},
+  {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from troops."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from troops."}],
+ "people": [
+  {"form": "trooper", "kind": "job", "status": "existing", "definition": "a soldier of low rank, or a US state police officer", "example": "A young trooper waved to the children from the truck."}],
+ "affixes": [
+  {"affix": "-er", "in_form": "trooper", "meaning_key": "-er", "also": ["teacher", "driver", "worker"]}],
+ "context": {"text": "The troops arrived in the city early in the morning. A young trooper waved to the children who were watching from the road.", "uses": ["troops", "trooper"]},
+ "reviewer_note": "Plural headword: the map keeps troops as the base; singular troop explained in a note."},
+
+{"headword": "tropics", "word_id": "6a6ef83f0f1e82a5a073671c", "word_ids": ["6a6ef83f0f1e82a5a073671c"], "cefr": "B2", "kind": "word", "sense_label": "Geography", "sense_pos": "noun", "corpus_definition": "Hot and wet regions located near the middle of the world.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "tropics", "relation": "base", "definition": "the hot, wet parts of the world near the equator", "example": "Many colourful birds live in the tropics.", "note": "Usually 'the tropics'. Singular tropic = one of two lines on a map north and south of the equator.", "syn": [
+    {"to": "equator", "relation": "related", "strength": 0.4, "note": "The line around the middle of the earth; the hot regions are near it."},
+    {"to": "rainforest", "relation": "related", "strength": 0.4, "note": "A thick, wet forest; many are found in these hot regions."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from tropics."},
+  {"slot": "adjective", "status": "existing", "form": "tropical", "relation": "derivational", "definition": "from or like the hot, wet parts of the world", "example": "We bought tropical fruit like mango and pineapple at the market.", "syn": [
+    {"to": "equatorial", "relation": "synonym", "strength": 0.8, "note": "Near the equator; more scientific.", "register": "formal"},
+    {"to": "humid", "relation": "related", "strength": 0.6, "note": "Hot and wet (about weather), not only in these regions."},
+    {"to": "hot", "relation": "related", "strength": 0.4, "note": "Easy word, only about temperature."}], "ant": [
+    {"to": "polar", "relation": "antonym", "note": "From the very cold areas near the North or South Pole."},
+    {"to": "arctic", "relation": "antonym", "note": "From the very cold area around the North Pole."}]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from tropics."}],
+ "people": [],
+ "affixes": [
+  {"affix": "-al", "in_form": "tropical", "meaning_key": "-al", "also": ["musical", "national", "natural"]}],
+ "context": {"text": "My cousin moved from Tashkent to a city in the tropics. She says the tropical rain there is warm and falls almost every afternoon.", "uses": ["tropics", "tropical"]},
+ "reviewer_note": "CORPUS: the example sentence does not use the word tropics; the map example uses it."}
+]
