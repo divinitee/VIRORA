@@ -1,0 +1,151 @@
+[
+ {"headword": "get rid of", "kind": "phrase", "sense_label": "Removing", "sense_pos": "verb",
+  "usage_note": "get rid of + thing or person: 'I got rid of my old phone.'",
+  "relations": [
+   {"to": "throw away", "relation": "synonym", "strength": 0.8, "note": "Put something in the rubbish."},
+   {"to": "remove", "relation": "synonym", "strength": 0.8, "note": "Take something away; more formal."},
+   {"to": "dispose of", "relation": "synonym", "strength": 0.8, "note": "Formal: throw away safely."},
+   {"to": "keep", "relation": "antonym", "note": "Continue to have something."}
+  ],
+  "context": {"text": "Our flat was full of old furniture. Last weekend we finally got rid of the broken sofa.", "uses": ["got rid of"]},
+  "reviewer_note": ""},
+
+ {"headword": "give away", "kind": "phrasal", "sense_label": "Free", "sense_pos": "verb",
+  "particle_note": "Separable: give away your books / give your books away; with a pronoun only give them away.",
+  "relations": [
+   {"to": "donate", "relation": "synonym", "strength": 0.8, "note": "Give to a charity or people in need."},
+   {"to": "hand out", "relation": "related", "strength": 0.6, "note": "Give one to each person in a group."},
+   {"to": "keep", "relation": "antonym", "note": "Continue to have something."},
+   {"to": "sell", "relation": "antonym", "note": "Give something for money."}
+  ],
+  "context": {"text": "When I finished school, I gave my old textbooks away to younger students. My mother gives away clothes we do not wear.", "uses": ["gave my old textbooks away", "gives away"]},
+  "reviewer_note": "give away = tell a secret is a different meaning, not shown."},
+
+ {"headword": "glance", "kind": "word", "sense_label": "Looking", "sense_pos": "verb",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "glance", "relation": "conversion", "definition": "a quick short look", "example": "She gave me a quick glance and smiled.",
+    "syn": [{"to": "look", "relation": "synonym", "strength": 0.8, "note": "The easiest word; can be long or short."},
+            {"to": "peek", "relation": "synonym", "strength": 0.8, "note": "A quick, often secret look."}],
+    "ant": [{"to": "stare", "relation": "antonym", "note": "A long look."}]},
+   {"slot": "verb", "status": "existing", "form": "glance", "relation": "base", "definition": "to look at something very quickly", "example": "He glanced at his watch.",
+    "syn": [{"to": "peek", "relation": "synonym", "strength": 0.8, "note": "To look quickly, often secretly."},
+            {"to": "look", "relation": "related", "strength": 0.6, "note": "The easiest word."}],
+    "ant": [{"to": "stare", "relation": "antonym", "note": "To look for a long time."}, {"to": "gaze", "relation": "antonym", "note": "To look for a long time, often with love or surprise."}]},
+   {"slot": "adjective", "status": "no_form"}, {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [], "people_not_family": [], "affixes": [],
+  "context": {"text": "During the test, Aziza glanced at the clock. One quick glance told her she had ten minutes left.", "uses": ["glanced", "glance"]},
+  "reviewer_note": "at a glance as a fixed phrase not split."},
+
+ {"headword": "global", "kind": "word", "sense_label": "Whole world", "sense_pos": "adjective",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "globe", "relation": "derivational", "definition": "the world, or a round model of it", "example": "There is a globe on the teacher's desk.",
+    "syn": [{"to": "world", "relation": "synonym", "strength": 0.8, "note": "The everyday word."},
+            {"to": "earth", "relation": "synonym", "strength": 0.8, "note": "The planet we live on."}],
+    "ant": []},
+   {"slot": "noun", "status": "existing", "form": "globalization", "relation": "derivational", "definition": "the way businesses and cultures become connected around the world", "example": "Globalization changed how people shop.", "note": "British spelling: globalisation.", "syn": [], "ant": []},
+   {"slot": "verb", "status": "no_form", "note": "globalize exists but is rare and formal."},
+   {"slot": "adjective", "status": "existing", "form": "global", "relation": "base", "definition": "connected with the whole world", "example": "Climate change is a global problem.",
+    "syn": [{"to": "worldwide", "relation": "synonym", "strength": 0.95, "note": "In all parts of the world."},
+            {"to": "international", "relation": "synonym", "strength": 0.8, "note": "Between many countries."},
+            {"to": "universal", "relation": "related", "strength": 0.6, "note": "For everyone or everything."}],
+    "ant": [{"to": "local", "relation": "antonym", "note": "Of one small area."}, {"to": "national", "relation": "antonym", "note": "Of one country only."}]},
+   {"slot": "adverb", "status": "existing", "form": "globally", "relation": "derivational", "definition": "in every part of the world", "example": "The company sells its products globally.",
+    "syn": [{"to": "worldwide", "relation": "synonym", "strength": 0.95, "note": "Everywhere in the world."},
+            {"to": "internationally", "relation": "synonym", "strength": 0.8, "note": "In many countries."}],
+    "ant": [{"to": "locally", "relation": "antonym", "note": "In one small area."}]}
+  ],
+  "people": [], "people_not_family": [],
+  "affixes": [{"affix": "-ly", "in_form": "globally", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]}],
+  "context": {"text": "Pollution is a global problem. Countries must work together globally to protect the planet.", "uses": ["global", "globally"]},
+  "reviewer_note": "B1/B2 rows merged (world sense); global = overall (B2 technical) noted only."},
+
+ {"headword": "go out with", "kind": "phrasal", "sense_label": "Relationship", "sense_pos": "verb",
+  "particle_note": "Not separable: go out with + person: 'She is going out with Timur.'",
+  "relations": [
+   {"to": "date", "relation": "synonym", "strength": 0.95, "note": "Have a romantic relationship with someone."},
+   {"to": "see", "relation": "related", "strength": 0.6, "note": "'Are you seeing anyone?' informal."},
+   {"to": "break up with", "relation": "antonym", "note": "End a romantic relationship."}
+  ],
+  "context": {"text": "My cousin has been going out with her boyfriend for two years. Now they want to get married.", "uses": ["going out with"]},
+  "reviewer_note": "go out with friends (= leave home to have fun) is the literal meaning."},
+
+ {"headword": "goods", "kind": "word", "sense_label": "Things to sell", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "goods", "relation": "base", "definition": "things that are made to be sold", "example": "The shop sells electrical goods.", "note": "Always plural: 'the goods are', never 'a good'.",
+    "syn": [{"to": "products", "relation": "synonym", "strength": 0.95, "note": "Things made to be sold."},
+            {"to": "merchandise", "relation": "synonym", "strength": 0.8, "note": "Formal word for goods in shops."},
+            {"to": "items", "relation": "related", "strength": 0.6, "note": "Single things in a list or group."}],
+    "ant": [{"to": "services", "relation": "antonym", "note": "Work done for people, not things."}]},
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "other_meaning", "form": "good", "definition": "of high quality; pleasant", "example": "This is a good film.", "note": "Belongs to good = high quality, not things to sell."},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [], "people_not_family": [], "affixes": [],
+  "context": {"text": "The market in Chorsu sells all kinds of goods. Trucks bring the goods from the farms every morning.", "uses": ["goods"]},
+  "reviewer_note": "B1/B2 rows merged; good (adj) as other_meaning."},
+
+ {"headword": "graze", "kind": "word", "sense_label": "Animals eating", "sense_pos": "verb",
+  "forms": [
+   {"slot": "noun", "status": "other_meaning", "form": "graze", "definition": "a small wound where skin is scraped", "example": "He had a graze on his knee.", "note": "Belongs to graze = scrape your skin, not animals eating grass."},
+   {"slot": "verb", "status": "existing", "form": "graze", "relation": "base", "definition": "to eat grass in a field", "example": "Sheep were grazing on the hill.",
+    "syn": [{"to": "feed", "relation": "synonym", "strength": 0.8, "note": "To eat; used for animals."},
+            {"to": "browse", "relation": "related", "strength": 0.6, "note": "Animals eating leaves from trees."},
+            {"to": "eat", "relation": "related", "strength": 0.6, "note": "The easiest word."}],
+    "ant": []},
+   {"slot": "adjective", "status": "no_form"}, {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [], "people_not_family": [], "affixes": [],
+  "context": {"text": "In spring the shepherds take their sheep to the mountains. The animals graze there until autumn.", "uses": ["graze"]},
+  "reviewer_note": "grass is related in history but not shown as family."},
+
+ {"headword": "groom", "kind": "word", "sense_label": "Wedding", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "groom", "relation": "base", "definition": "a man on his wedding day", "example": "The groom wore a dark blue suit.", "note": "Also bridegroom.",
+    "syn": [{"to": "bridegroom", "relation": "synonym", "strength": 0.95, "note": "The full, older word."},
+            {"to": "husband", "relation": "related", "strength": 0.6, "note": "A married man."}],
+    "ant": [{"to": "bride", "relation": "antonym", "note": "A woman on her wedding day."}]},
+   {"slot": "verb", "status": "other_meaning", "form": "groom", "definition": "to clean and brush an animal", "example": "She grooms her horse every day.", "note": "Belongs to groom = clean an animal, not the wedding."},
+   {"slot": "adjective", "status": "no_form"}, {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [], "people_not_family": [], "affixes": [],
+  "context": {"text": "At the wedding, the groom arrived with music and dancing. The bride and groom then cut the cake.", "uses": ["groom"]},
+  "reviewer_note": "bridegroom is a compound (Rule 7) given as synonym only."},
+
+ {"headword": "habits", "kind": "word", "sense_label": "Routine", "sense_pos": "noun",
+  "forms": [
+   {"slot": "noun", "status": "existing", "form": "habits", "relation": "base", "definition": "things you do often and regularly, often without thinking", "example": "Healthy eating habits are important.", "note": "Singular: habit.",
+    "syn": [{"to": "routines", "relation": "synonym", "strength": 0.8, "note": "Things you do at the same time every day."},
+            {"to": "customs", "relation": "related", "strength": 0.6, "note": "Traditions of a group of people."},
+            {"to": "practices", "relation": "related", "strength": 0.6, "note": "Usual ways of doing something."}],
+    "ant": []},
+   {"slot": "verb", "status": "no_form", "not_family": ["inhabit"], "note": "inhabit (live in) is not made from habit."},
+   {"slot": "adjective", "status": "existing", "form": "habitual", "relation": "derivational", "definition": "done often, as a habit", "example": "He is a habitual liar.",
+    "syn": [{"to": "regular", "relation": "synonym", "strength": 0.8, "note": "Happening often."},
+            {"to": "usual", "relation": "synonym", "strength": 0.8, "note": "Normal for you."}],
+    "ant": [{"to": "occasional", "relation": "antonym", "note": "Happening only sometimes."}]},
+   {"slot": "adverb", "status": "existing", "form": "habitually", "relation": "derivational", "definition": "as a habit, very often", "example": "She habitually drinks tea at night.",
+    "syn": [{"to": "regularly", "relation": "synonym", "strength": 0.8, "note": "Often, at the same times."},
+            {"to": "usually", "relation": "synonym", "strength": 0.8, "note": "Most times."}],
+    "ant": [{"to": "occasionally", "relation": "antonym", "note": "Sometimes."}]}
+  ],
+  "people": [], "people_not_family": ["inhabitant"],
+  "affixes": [{"affix": "-ly", "in_form": "habitually", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]}],
+  "context": {"text": "Good study habits help students pass exams. My sister habitually reviews her notes before bed.", "uses": ["habits", "habitually"]},
+  "reviewer_note": "Corpus headword is plural; the map keeps it and notes the singular habit."},
+
+ {"headword": "handy", "kind": "word", "sense_label": "Useful", "sense_pos": "adjective",
+  "forms": [
+   {"slot": "noun", "status": "no_form", "not_family": ["hand"], "note": "hand is the root but not a noun form of handy."},
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "existing", "form": "handy", "relation": "base", "definition": "useful and easy to use", "example": "A small torch is handy when the lights go off.", "note": "Also: near and easy to reach ('Keep your phone handy').",
+    "syn": [{"to": "useful", "relation": "synonym", "strength": 0.95, "note": "The everyday word."},
+            {"to": "convenient", "relation": "synonym", "strength": 0.8, "note": "Easy and saving time."},
+            {"to": "practical", "relation": "synonym", "strength": 0.8, "note": "Good for real use."}],
+    "ant": [{"to": "useless", "relation": "antonym", "note": "Not useful at all."}, {"to": "inconvenient", "relation": "antonym", "note": "Causing problems."}]},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [], "people_not_family": [], "affixes": [],
+  "context": {"text": "This small bag is really handy for trips. It is handy because it fits all my documents.", "uses": ["handy"]},
+  "reviewer_note": "handyman is a compound (Rule 7)."}
+]
