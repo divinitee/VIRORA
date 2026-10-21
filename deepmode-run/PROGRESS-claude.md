@@ -52,3 +52,4 @@
 | 153 | 10 | 1 of 10 maps: missing form 1 (mental verb: mind) | pass gate-4.4 | gated, not imported | mind added to not_family for mental; 13 flags for reviewer |
 | 159 | 10 | 2 of 10 maps: bad synonym 2, wrong morphology 1 | pass gate-4.4 | gated, not imported | pine verb (homonym) no_form; pit verb/pitted other_meaning; plotter other_meaning |
 | 157 | 10 | 4 of 10 maps: missing form 1 (operative), false affix 2 (-ly on optimistically/organically), compound 1 (orphanage, gate mistake) | pass gate-4.4 | gated, not imported | operate 2 rows merged into 1 map (both corpus examples = machine sense, CORPUS note); gate_override on orphanage (orphan + -age suffix, not a compound); 8 flags for reviewer |
+| 161 | 10 | 1 of 10 maps: bad antonym 1 | pass gate-4.4 | gated, not imported | profession merged 2 rows; gate_override for unprofessionally (OALD word); CORPUS: principle def masked, prevent from example ungrammatical; prevent from -> kind phrase |
