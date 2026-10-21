@@ -77,8 +77,8 @@ Deno.serve(async (req) => {
       mode,
       api_key_set: Boolean(apiKey),
       webhook_key_set: Boolean(secrets.get("DODO_WEBHOOK_KEY")),
-      checkout_host_override: Boolean(secrets.get("DODO_CHECKOUT_HOST")),
-      app_base_url: secrets.get("APP_BASE_URL") || "https://virora.base44.app",
+      // Checkout host and return URL are fixed in createDodoCheckout's code.
+      app_base_url: "https://virora.base44.app",
     };
 
     if (!apiKey) {
