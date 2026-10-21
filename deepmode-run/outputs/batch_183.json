@@ -1,0 +1,252 @@
+[
+{"headword": "cease", "word_id": "6a6ef83f0f1e82a5a0736694", "word_ids": ["6a6ef83f0f1e82a5a0736694"], "cefr": "C1", "kind": "word", "sense_label": "Stopping", "sense_pos": "verb", "corpus_definition": "To stop doing something or to come to an end.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "cessation", "relation": "derivational", "register": "formal", "definition": "the act of stopping something, or the moment when it ends", "example": "The two countries agreed to a cessation of fighting.", "syn": [
+    {"to": "end", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; cessation is formal and used in news and official writing."},
+    {"to": "stop", "relation": "synonym", "strength": 0.8, "note": "Everyday noun: 'come to a stop'. Cessation is much more formal."},
+    {"to": "halt", "relation": "synonym", "strength": 0.8, "note": "A stop, often sudden or for a short time: 'Work came to a halt.'"}], "ant": [
+    {"to": "start", "relation": "antonym", "note": "The beginning of something, not its end."},
+    {"to": "continuation", "relation": "antonym", "note": "When something goes on and does not stop."}]},
+  {"slot": "verb", "status": "existing", "form": "cease", "relation": "base", "register": "formal", "definition": "to stop happening or to stop doing something", "example": "The noise from the street ceased at midnight.", "syn": [
+    {"to": "stop", "relation": "synonym", "strength": 0.95, "note": "Everyday word with the same meaning; cease is formal."},
+    {"to": "end", "relation": "synonym", "strength": 0.8, "note": "Easy word: 'The rain ended.' Cease sounds more formal."},
+    {"to": "halt", "relation": "synonym", "strength": 0.8, "note": "Often used for movement or work that stops suddenly."},
+    {"to": "discontinue", "relation": "synonym", "strength": 0.8, "note": "Formal, used for products or services: 'This model was discontinued.'", "register": "formal"},
+    {"to": "finish", "relation": "related", "strength": 0.6, "note": "Finish means you complete something; cease just means it stops."}], "ant": [
+    {"to": "start", "relation": "antonym", "note": "To begin doing something."},
+    {"to": "begin", "relation": "antonym", "note": "To start; a little more formal than start."},
+    {"to": "continue", "relation": "antonym", "note": "To go on without stopping."}]},
+  {"slot": "adjective", "status": "existing", "form": "ceaseless", "relation": "derivational", "register": "formal", "definition": "going on all the time and never stopping", "example": "The ceaseless noise of the traffic kept me awake.", "syn": [
+    {"to": "constant", "relation": "synonym", "strength": 0.8, "note": "Common word for something that happens all the time."},
+    {"to": "endless", "relation": "synonym", "strength": 0.8, "note": "Easy word; often used when something seems too long."},
+    {"to": "continuous", "relation": "synonym", "strength": 0.8, "note": "Without a break; a little more neutral."}], "ant": [
+    {"to": "occasional", "relation": "antonym", "note": "Happening only sometimes, not all the time."}]},
+  {"slot": "adverb", "status": "existing", "form": "ceaselessly", "relation": "derivational", "register": "formal", "definition": "all the time, without stopping", "example": "She worked ceaselessly to help her family.", "syn": [
+    {"to": "constantly", "relation": "synonym", "strength": 0.8, "note": "Common word with almost the same meaning."},
+    {"to": "endlessly", "relation": "synonym", "strength": 0.8, "note": "Often used when something seems to go on too long."},
+    {"to": "continuously", "relation": "synonym", "strength": 0.8, "note": "Without any break."}], "ant": [
+    {"to": "occasionally", "relation": "antonym", "note": "Only sometimes, not all the time."}]}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [
+  {"affix": "-less", "in_form": "ceaseless", "meaning_key": "-less", "also": ["careless", "homeless", "useless"]},
+  {"affix": "-ly", "in_form": "ceaselessly", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
+ ],
+ "context": {"text": "For three days the ceaseless rain kept us inside our house in Tashkent. On the fourth morning it finally ceased, and we went out to the park.", "uses": ["ceaseless", "ceased"]},
+ "reviewer_note": "Cease is formal; everyday 'stop' given as the easy synonym. Cessation kept as the noun (formal), not hidden."},
+
+{"headword": "chaos", "word_id": "6a6ef83f0f1e82a5a073675b", "word_ids": ["6a6ef83f0f1e82a5a073675b"], "cefr": "C1", "kind": "word", "sense_label": "Disorder", "sense_pos": "noun", "corpus_definition": "A situation where everything is confused and not organized.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "chaos", "relation": "base", "definition": "a situation where everything is confused and nothing is organized", "example": "The room was in total chaos after the party.", "note": "Uncountable: 'in chaos', 'cause chaos', never 'a chaos'. Pronounced /ˈkeɪɒs/.", "syn": [
+    {"to": "mess", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word, often for an untidy place."},
+    {"to": "disorder", "relation": "synonym", "strength": 0.8, "note": "A more formal word for a situation with no order."},
+    {"to": "confusion", "relation": "synonym", "strength": 0.8, "note": "When people do not know what is happening or what to do."},
+    {"to": "turmoil", "relation": "related", "strength": 0.6, "note": "A state of great worry and confusion, often in politics or feelings."}], "ant": [
+    {"to": "order", "relation": "antonym", "note": "When everything is organized and in the right place."},
+    {"to": "calm", "relation": "antonym", "note": "A quiet, peaceful situation."}]},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from chaos. Say 'cause chaos' or 'throw into chaos'."},
+  {"slot": "adjective", "status": "existing", "form": "chaotic", "relation": "derivational", "definition": "very confused and badly organized", "example": "The traffic in the city centre was chaotic this morning.", "syn": [
+    {"to": "messy", "relation": "synonym", "strength": 0.8, "note": "Easy word, usually for untidy places or things."},
+    {"to": "disorganized", "relation": "synonym", "strength": 0.8, "note": "Badly planned; British spelling: disorganised."},
+    {"to": "confused", "relation": "related", "strength": 0.6, "note": "Usually about people who do not understand; chaotic is about the whole situation."}], "ant": [
+    {"to": "orderly", "relation": "antonym", "note": "Well organized and tidy."},
+    {"to": "calm", "relation": "antonym", "note": "Quiet and peaceful, without trouble."}]},
+  {"slot": "adverb", "status": "existing", "form": "chaotically", "relation": "derivational", "definition": "in a very confused way, without any order", "example": "People ran chaotically in all directions when the alarm rang.", "syn": [
+    {"to": "wildly", "relation": "related", "strength": 0.6, "note": "In an uncontrolled way; not always confused."}], "ant": [
+    {"to": "calmly", "relation": "antonym", "note": "In a quiet, controlled way."}]}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "After the storm, the Chorsu market was in chaos. Boxes of fruit were everywhere and the whole scene was chaotic until the police came.", "uses": ["chaos", "chaotic"]},
+ "reviewer_note": "No affix claimed: chaotic/chaotically add -t- and do not split cleanly. No verb exists."},
+
+{"headword": "cherish", "word_id": "6a6ef83f0f1e82a5a07366e1", "word_ids": ["6a6ef83f0f1e82a5a07366e1"], "cefr": "C1", "kind": "word", "sense_label": "Love", "sense_pos": "verb", "corpus_definition": "To love someone or something very much.",
+ "forms": [
+  {"slot": "noun", "status": "no_form", "note": "There is no noun made from cherish."},
+  {"slot": "verb", "status": "existing", "form": "cherish", "relation": "base", "definition": "to love someone or something very much and take good care of them", "example": "She cherishes the old photos of her grandmother.", "syn": [
+    {"to": "treasure", "relation": "synonym", "strength": 0.95, "note": "Very close: to keep something because it is very special to you."},
+    {"to": "love", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; cherish adds the idea of caring for and keeping."},
+    {"to": "value", "relation": "synonym", "strength": 0.8, "note": "To think something is very important."},
+    {"to": "adore", "relation": "related", "strength": 0.6, "note": "To love very much; used more for people and things you enjoy."}], "ant": [
+    {"to": "neglect", "relation": "antonym", "note": "To not take care of someone or something."},
+    {"to": "hate", "relation": "antonym", "note": "To have a very strong feeling against someone or something."}]},
+  {"slot": "adjective", "status": "existing", "form": "cherished", "relation": "participial", "definition": "loved very much and kept carefully because it is special", "example": "This ring is my most cherished possession.", "syn": [
+    {"to": "treasured", "relation": "synonym", "strength": 0.95, "note": "Almost the same meaning."},
+    {"to": "precious", "relation": "synonym", "strength": 0.8, "note": "Very valuable or important to you."},
+    {"to": "beloved", "relation": "synonym", "strength": 0.8, "note": "Loved very much; often used for people and places.", "register": "literary"},
+    {"to": "dear", "relation": "related", "strength": 0.6, "note": "Easy word: 'a dear friend'; important to you."}], "ant": []},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from cherish."}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "My grandfather cherishes his old garden in Fergana. The apricot tree he planted as a boy is his most cherished thing in the world.", "uses": ["cherishes", "cherished"]},
+ "reviewer_note": "Only verb and participle adjective exist; noun and adverb are honest no_form."},
+
+{"headword": "chronicle", "word_id": "6a6ef83f0f1e82a5a07366a7", "word_ids": ["6a6ef83f0f1e82a5a07366a7"], "cefr": "C1", "kind": "word", "sense_label": "Record", "sense_pos": "noun", "corpus_definition": "A written record of events in the order they happened.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "chronicle", "relation": "base", "definition": "a written record of events in the order that they happened", "example": "This book is a detailed chronicle of the war.", "syn": [
+    {"to": "record", "relation": "synonym", "strength": 0.8, "note": "Easy, general word for written information about events."},
+    {"to": "history", "relation": "synonym", "strength": 0.8, "note": "A written story of past events; not always in strict time order."},
+    {"to": "account", "relation": "synonym", "strength": 0.8, "note": "A report or description of something that happened."},
+    {"to": "diary", "relation": "related", "strength": 0.6, "note": "A personal book where you write about each day."}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "chronicle", "relation": "conversion", "definition": "to write down events in the order that they happened", "example": "Her blog chronicles her life as a student in Tashkent.", "syn": [
+    {"to": "record", "relation": "synonym", "strength": 0.95, "note": "Very close and more common."},
+    {"to": "document", "relation": "synonym", "strength": 0.8, "note": "To record something carefully, often with photos or papers."},
+    {"to": "describe", "relation": "related", "strength": 0.6, "note": "To say what something is like; not always in time order."}], "ant": []},
+  {"slot": "adjective", "status": "no_form", "not_family": ["chronological"], "note": "There is no adjective made from chronicle. Chronological (in time order) comes from the same Greek root (time) but is not made from chronicle."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from chronicle."}
+ ],
+ "people": [
+  {"form": "chronicler", "kind": "person", "status": "existing", "definition": "a person who writes a record of important events", "example": "The chronicler described the city of Samarkand in great detail."}
+ ],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-er", "in_form": "chronicler", "meaning_key": "-er", "also": ["teacher", "writer", "player"]}
+ ],
+ "context": {"text": "My uncle is writing a chronicle of our village. He wants to chronicle every wedding and festival from the last fifty years.", "uses": ["chronicle", "chronicle"]},
+ "reviewer_note": "Noun and verb (conversion) both in the record sense; chronological listed as not_family."},
+
+{"headword": "clan", "word_id": "6a6ef9b2a6015561480926d7", "word_ids": ["6a6ef9b2a6015561480926d7"], "cefr": "C1", "kind": "word", "sense_label": "Family", "sense_pos": "noun", "corpus_definition": "A large family or group of relatives.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "clan", "relation": "base", "definition": "a large group of families who are all related to each other", "example": "Our whole clan meets at my grandmother's house for Navruz.", "note": "Often used in a friendly, joking way for a big family.", "syn": [
+    {"to": "family", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; clan suggests a very big family."},
+    {"to": "tribe", "relation": "synonym", "strength": 0.8, "note": "A large group of families with the same culture and leader."},
+    {"to": "relatives", "relation": "related", "strength": 0.6, "note": "All the people in your family, counted one by one."},
+    {"to": "dynasty", "relation": "related", "strength": 0.4, "note": "A powerful family that rules or leads for many years."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from clan."},
+  {"slot": "adjective", "status": "existing", "form": "clannish", "relation": "derivational", "register": "informal", "definition": "staying close to your own group and not friendly to others", "example": "The new neighbours found the village a little clannish at first.", "note": "Usually disapproving.", "syn": [
+    {"to": "exclusive", "relation": "related", "strength": 0.6, "note": "Only for a small group of people, keeping others out."},
+    {"to": "unfriendly", "relation": "related", "strength": 0.4, "note": "Not kind or welcoming; a general word."}], "ant": [
+    {"to": "welcoming", "relation": "antonym", "note": "Friendly to new people."},
+    {"to": "open", "relation": "antonym", "note": "Happy to meet and accept new people."}]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from clan."}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "My father has nine brothers and sisters, so our clan is very big. Some people think we are a bit clannish, because we spend every holiday together.", "uses": ["clan", "clannish"]},
+ "reviewer_note": "Clannish kept as an existing adjective (disapproving); no -ish affix claimed because of the doubled n. Clansman is a compound, left out."},
+
+{"headword": "cluster", "word_id": "6a6ef83f0f1e82a5a073676f", "word_ids": ["6a6ef83f0f1e82a5a073676f"], "cefr": "C1", "kind": "word", "sense_label": "Group", "sense_pos": "noun", "corpus_definition": "A group of things that are close together.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "cluster", "relation": "base", "definition": "a small group of similar things that are very close together", "example": "A small cluster of stars was visible in the sky.", "syn": [
+    {"to": "group", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; cluster means the things are very close."},
+    {"to": "bunch", "relation": "synonym", "strength": 0.8, "note": "Used for flowers, grapes, keys: 'a bunch of grapes'."},
+    {"to": "clump", "relation": "synonym", "strength": 0.8, "note": "Used for trees, plants or grass growing close together."},
+    {"to": "collection", "relation": "related", "strength": 0.4, "note": "A group of things, but not always close together."}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "cluster", "relation": "conversion", "definition": "to come together and stand or sit close in a small group", "example": "The students clustered around the teacher's desk.", "syn": [
+    {"to": "gather", "relation": "synonym", "strength": 0.95, "note": "To come together in one place; very close in meaning."},
+    {"to": "crowd", "relation": "synonym", "strength": 0.8, "note": "Used for many people pushing close together."},
+    {"to": "huddle", "relation": "related", "strength": 0.6, "note": "To stay very close together, often because it is cold or you are afraid."}], "ant": [
+    {"to": "scatter", "relation": "antonym", "note": "To move away in many different directions."},
+    {"to": "disperse", "relation": "antonym", "note": "Formal: to go away in different directions."}]},
+  {"slot": "adjective", "status": "existing", "form": "clustered", "relation": "participial", "definition": "grouped closely together in one place", "example": "Small clustered houses covered the side of the hill.", "syn": [
+    {"to": "grouped", "relation": "synonym", "strength": 0.8, "note": "Put together in a group."},
+    {"to": "bunched", "relation": "synonym", "strength": 0.8, "note": "Pressed close together."}], "ant": [
+    {"to": "scattered", "relation": "antonym", "note": "Spread over a wide area, far from each other."}]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from cluster."}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "In the evening, men cluster around the tea house to watch football. A small cluster of children always sits at the front.", "uses": ["cluster", "cluster"]},
+ "reviewer_note": "Noun, verb (conversion) and participle adjective all in the 'close group' sense; no adverb."},
+
+{"headword": "coincide", "word_id": "6a6ef9b2a6015561480926e9", "word_ids": ["6a6ef9b2a6015561480926e9"], "cefr": "C1", "kind": "word", "sense_label": "Timing", "sense_pos": "verb", "corpus_definition": "To happen at the same time.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "coincidence", "relation": "derivational", "definition": "a surprising situation when two things happen at the same time by chance", "example": "What a coincidence! We were born on the same day.", "syn": [
+    {"to": "chance", "relation": "synonym", "strength": 0.8, "note": "Easy word: 'We met by chance.'"},
+    {"to": "accident", "relation": "related", "strength": 0.6, "note": "Something not planned; often a bad event like a car crash."},
+    {"to": "fluke", "relation": "related", "strength": 0.6, "note": "Informal: a lucky thing that happens by chance.", "register": "informal"}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "coincide", "relation": "base", "register": "formal", "definition": "to happen at the same time as something else", "example": "My birthday coincides with Independence Day this year.", "note": "Also means 'to be the same' for ideas: 'Our opinions coincide.'", "syn": [
+    {"to": "overlap", "relation": "related", "strength": 0.6, "note": "When two events share some of the same time."},
+    {"to": "clash", "relation": "related", "strength": 0.4, "note": "When two events happen at the same time and that is a problem."}], "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "coincidental", "relation": "derivational", "definition": "happening by chance and not planned", "example": "Any similarity between the two stories is purely coincidental.", "syn": [
+    {"to": "accidental", "relation": "synonym", "strength": 0.8, "note": "Happening without being planned."},
+    {"to": "unplanned", "relation": "synonym", "strength": 0.8, "note": "Easy word: not planned."},
+    {"to": "chance", "relation": "related", "strength": 0.6, "note": "Used before a noun: 'a chance meeting'."}], "ant": [
+    {"to": "planned", "relation": "antonym", "note": "Thought about and organized before."},
+    {"to": "deliberate", "relation": "antonym", "note": "Done on purpose."}]},
+  {"slot": "adverb", "status": "existing", "form": "coincidentally", "relation": "derivational", "definition": "by chance, in a way that is surprising", "example": "Coincidentally, my teacher lives on my street.", "syn": [
+    {"to": "by chance", "relation": "synonym", "strength": 0.95, "note": "Easy phrase with the same meaning."},
+    {"to": "accidentally", "relation": "related", "strength": 0.6, "note": "Without planning; often about mistakes."}], "ant": [
+    {"to": "deliberately", "relation": "antonym", "note": "On purpose."},
+    {"to": "intentionally", "relation": "antonym", "note": "Because you planned or wanted it."}]}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [
+  {"affix": "-ence", "in_form": "coincidence", "meaning_key": "-ence", "also": ["difference", "existence", "independence"]},
+  {"affix": "-ly", "in_form": "coincidentally", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
+ ],
+ "context": {"text": "This year, Navruz coincides with my sister's birthday. It's a happy coincidence, so we will have one big party for both.", "uses": ["coincides", "coincidence"]},
+ "reviewer_note": "Coincidence kept in this sense (things happening together by chance); the 'agree' sense of coincide only mentioned in a note."},
+
+{"headword": "colonel", "word_id": "6a6ef83f0f1e82a5a073670c", "word_ids": ["6a6ef83f0f1e82a5a073670c"], "cefr": "C1", "kind": "word", "sense_label": "Army", "sense_pos": "noun", "corpus_definition": "A high-ranking officer in the army.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "colonel", "relation": "base", "definition": "a senior officer in the army, above a major", "example": "The colonel gave orders to the waiting soldiers.", "note": "Strange spelling: it sounds like 'KER-nul' /ˈkɜːnl/.", "syn": [
+    {"to": "officer", "relation": "related", "strength": 0.6, "note": "Any person in the army who gives orders; a colonel is one kind."},
+    {"to": "commander", "relation": "related", "strength": 0.4, "note": "A person in charge of a group of soldiers; can be any rank."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb made from colonel."},
+  {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from colonel."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from colonel."}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "My grandfather was a colonel in the army. Even now, the children in our street call him 'the colonel' and stand straight when he walks past.", "uses": ["colonel", "colonel"]},
+ "reviewer_note": "Person noun headword stays in its own noun slot; no family forms exist. Pronunciation trap noted."},
+
+{"headword": "commerce", "word_id": "6a6ef83f0f1e82a5a07366ba", "word_ids": ["6a6ef83f0f1e82a5a07366ba"], "cefr": "C1", "kind": "word", "sense_label": "Trade", "sense_pos": "noun", "corpus_definition": "The activity of buying and selling products on a large scale.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "commerce", "relation": "base", "definition": "the buying and selling of goods and services, especially in large amounts", "example": "Global commerce helps countries grow their wealth.", "syn": [
+    {"to": "trade", "relation": "synonym", "strength": 0.95, "note": "Easy, common word with almost the same meaning."},
+    {"to": "business", "relation": "synonym", "strength": 0.8, "note": "General word for buying, selling and making money."},
+    {"to": "trading", "relation": "synonym", "strength": 0.8, "note": "The activity of buying and selling, often of shares or goods."}], "ant": []},
+  {"slot": "noun", "status": "other_meaning", "form": "commercial", "definition": "an advertisement on TV or radio", "example": "There are too many commercials during this film.", "note": "Belongs to commercial = advertising, not buying and selling in general. British English often says 'advert'."},
+  {"slot": "verb", "status": "existing", "form": "commercialize", "relation": "derivational", "definition": "to use something to make money, often in a way that spoils it", "example": "Some people think the holiday has become too commercialized.", "note": "British spelling: commercialise. Often used in a disapproving way.", "syn": [
+    {"to": "market", "relation": "related", "strength": 0.6, "note": "To advertise and sell a product."},
+    {"to": "exploit", "relation": "related", "strength": 0.4, "note": "To use something for your own profit, often unfairly."}], "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "commercial", "relation": "derivational", "definition": "connected with buying and selling goods and services", "example": "Tashkent is the main commercial centre of the country.", "note": "Also means 'made to earn money': a commercial success.", "syn": [
+    {"to": "financial", "relation": "related", "strength": 0.6, "note": "About money in general, not only buying and selling."},
+    {"to": "economic", "relation": "related", "strength": 0.4, "note": "About the whole system of money and trade in a country."}], "ant": []},
+  {"slot": "adverb", "status": "existing", "form": "commercially", "relation": "derivational", "definition": "in a way that is connected with buying, selling and making money", "example": "The new phone was not commercially successful.", "syn": [
+    {"to": "financially", "relation": "related", "strength": 0.6, "note": "In a way connected with money."},
+    {"to": "economically", "relation": "related", "strength": 0.4, "note": "In a way connected with the economy."}], "ant": []}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [
+  {"affix": "-ize", "in_form": "commercialize", "meaning_key": "-ize", "also": ["realize", "organize", "modernize"]},
+  {"affix": "-ly", "in_form": "commercially", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
+ ],
+ "context": {"text": "Commerce has always been important in Bukhara, an old city on the Silk Road. Today its streets are still full of commercial life, and many old crafts are now sold commercially to tourists.", "uses": ["commerce", "commercial", "commercially"]},
+ "reviewer_note": "Commercial (noun = TV advert) kept as other_meaning extra in the noun slot; adjective commercial is the main family adjective."},
+
+{"headword": "compassion", "word_id": "6a6ef83f0f1e82a5a07366e2", "word_ids": ["6a6ef83f0f1e82a5a07366e2"], "cefr": "C1", "kind": "word", "sense_label": "Kindness", "sense_pos": "noun", "corpus_definition": "A strong feeling of sadness for those who are suffering.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "compassion", "relation": "base", "definition": "a strong feeling of sympathy for people who suffer, and a wish to help them", "example": "He showed great compassion for the victims.", "syn": [
+    {"to": "sympathy", "relation": "synonym", "strength": 0.8, "note": "Feeling sorry for someone; compassion is stronger and includes wanting to help."},
+    {"to": "kindness", "relation": "synonym", "strength": 0.8, "note": "Easy word for being kind and caring."},
+    {"to": "pity", "relation": "related", "strength": 0.6, "note": "Feeling sorry for someone; can sound like you feel above them."},
+    {"to": "mercy", "relation": "related", "strength": 0.6, "note": "Kindness to someone you could punish or hurt."},
+    {"to": "empathy", "relation": "related", "strength": 0.6, "note": "Understanding other people's feelings as if they were your own."}], "ant": [
+    {"to": "cruelty", "relation": "antonym", "note": "Wanting to hurt people or not caring about their pain."},
+    {"to": "indifference", "relation": "antonym", "note": "Not caring at all about other people's problems."}]},
+  {"slot": "verb", "status": "no_form", "note": "There is no common verb made from compassion. Say 'feel compassion for' or 'show compassion'."},
+  {"slot": "adjective", "status": "existing", "form": "compassionate", "relation": "derivational", "definition": "feeling or showing sympathy and a wish to help others", "example": "Our doctor is a kind and compassionate woman.", "syn": [
+    {"to": "kind", "relation": "synonym", "strength": 0.8, "note": "Easy, general word for being good to people."},
+    {"to": "caring", "relation": "synonym", "strength": 0.8, "note": "Showing that you care about other people."},
+    {"to": "sympathetic", "relation": "synonym", "strength": 0.8, "note": "Showing that you understand someone's problems."},
+    {"to": "merciful", "relation": "related", "strength": 0.6, "note": "Kind and willing to forgive."}], "ant": [
+    {"to": "cruel", "relation": "antonym", "note": "Wanting to hurt people."},
+    {"to": "heartless", "relation": "antonym", "note": "Not caring at all about other people's pain."}]},
+  {"slot": "adverb", "status": "existing", "form": "compassionately", "relation": "derivational", "definition": "in a kind way that shows you care about someone's pain", "example": "She spoke compassionately to the crying child.", "syn": [
+    {"to": "kindly", "relation": "synonym", "strength": 0.8, "note": "Easy word: in a kind way."},
+    {"to": "sympathetically", "relation": "synonym", "strength": 0.8, "note": "In a way that shows you understand someone's problems."},
+    {"to": "gently", "relation": "related", "strength": 0.6, "note": "In a soft, careful way."}], "ant": [
+    {"to": "cruelly", "relation": "antonym", "note": "In a way that hurts people."},
+    {"to": "coldly", "relation": "antonym", "note": "In an unfriendly way, without feeling."}]}
+ ],
+ "people": [], "people_not_family": [],
+ "affixes": [
+  {"affix": "-ly", "in_form": "compassionately", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
+ ],
+ "context": {"text": "My mother always shows compassion to our elderly neighbours. She is a compassionate woman who brings them hot plov every Friday.", "uses": ["compassion", "compassionate"]},
+ "reviewer_note": "Corpus definition says 'sadness'; map defines it as sympathy plus a wish to help, which is the learner-dictionary sense."}
+]
