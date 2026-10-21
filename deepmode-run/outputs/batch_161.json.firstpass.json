@@ -1,0 +1,258 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "preserve",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "preservations",
+       "preservation"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "preserved"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Food sense (preserves = jam, preservative) kept as other_meaning; map is about keeping places and nature unchanged."
+  },
+  {
+   "headword": "pressure",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "pressures",
+       "pressure"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "pressured"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the stress sense; physical pressure only in a note. press and pressing are other_meaning. No affix claimed (-ure is not in the table)."
+  },
+  {
+   "headword": "prevent from",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "kind changed from phrasal to phrase: 'from' is a preposition and needs an object between (prevent sb from -ing). Corpus example 'Rain may prevent from playing' is ungrammatical; it should be 'prevent us from playing'."
+  },
+  {
+   "headword": "previous",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "clue collision",
+     "msg": "'earlier' is a synonym/related target for previous, prior"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'preceding' is a synonym/related target for previous, prior"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "No -ous affix claimed: removing it leaves no real word. precede is not family."
+  },
+  {
+   "headword": "principle",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: principal"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "principles",
+       "principle"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Corpus definition has a masked word (******, probably 'belief'); copied as given, please fix in the corpus. principle vs principal homophone trap noted."
+  },
+  {
+   "headword": "prior",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "clue collision",
+     "msg": "'earlier' is a synonym/related target for previous, prior"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'preceding' is a synonym/related target for previous, prior"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "priority and prioritize kept as other_meaning (importance, not time). Only one existing form, so context uses one."
+  },
+  {
+   "headword": "priority",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "priorities",
+       "priority"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "prioritized"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "prior (time) kept as other_meaning. No -ize affix claimed because removing it leaves no word; -ity on prior is transparent."
+  },
+  {
+   "headword": "profession",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "bad antonym",
+     "msg": "professionally → 'unprofessionally' is not a adverb (form is a adverb)"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "professionally: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "professions",
+       "profession"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two rows with the same meaning merged into one map. The person noun 'a professional' is not repeated in People because it is already shown as the adjective."
+  },
+  {
+   "headword": "promote",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "verb: real words that may be in the family but aren't shown: promise"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "promotions",
+       "promotion"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "promoted"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the 'make popular / advertise' sense; the job sense (get promoted) is only in notes because it has the same spellings."
+  },
+  {
+   "headword": "promptly",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "verb: real words that may be in the family but aren't shown: promise"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "noun 'promptness' is rare (zipf 1.9)"
+    },
+    {
+     "cat": "unchecked POS",
+     "msg": "promptly → 'without delay': phrase, part of speech not confirmed"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "promptness"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "prompter"
+      ],
+      "JJS": [
+       "promptest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is the adverb, so prompt (adj) is the derivational root. prompt as verb/noun (cause, computer message) kept as other_meaning."
+  }
+ ]
+}
