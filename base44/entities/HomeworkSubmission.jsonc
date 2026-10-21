@@ -44,6 +44,10 @@
       "type": "boolean",
       "default": false,
       "description": "First completion happened after the assignment's due date (Asia/Tashkent calendar day)."
+    },
+    "last_round_id": {
+      "type": "string",
+      "description": "RoundReceipt round_id the last score was read from. A round counts once."
     }
   },
   "required": [

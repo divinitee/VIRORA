@@ -34,11 +34,11 @@ export default function TeacherMaterials() {
     if (!user || (!text.trim() && !file)) return;
     setSaving(true);
     try {
-      let file_url = "";
+      let file_uri = "";
       let source_type = "text";
       if (file) {
-        const uploaded = await base44.integrations.Core.UploadFile({ file });
-        file_url = uploaded.file_url;
+        const uploaded = await base44.integrations.Core.UploadPrivateFile({ file });
+        file_uri = uploaded.file_uri;
         const ext = file.name.split(".").pop()?.toLowerCase();
         source_type = ext === "pdf" ? "pdf" : ext === "docx" || ext === "doc" ? "docx" : "image";
       }
@@ -47,7 +47,7 @@ export default function TeacherMaterials() {
         teacher_email: user.email,
         title: title.trim() || file?.name || "Untitled material",
         source_type,
-        file_url: file_url || undefined,
+        file_uri: file_uri || undefined,
         source_text: text.trim() || undefined,
         processing_status: "uploaded",
       });

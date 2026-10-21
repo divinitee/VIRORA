@@ -147,14 +147,19 @@ export default async function (req) {
 
     let extraction = { text: (material.source_text || material.extracted_text || "").trim() };
 
-    if (!extraction.text && material.file_url) {
-      if (!isAppOwnedFileUrl(material.file_url)) {
+    if (!extraction.text && (material.file_uri || material.file_url)) {
+      let fileUrl = material.file_url;
+      if (material.file_uri) {
+        // Private upload: only this app's own files can be signed.
+        const signed = await base44.asServiceRole.integrations.Core.CreateFileSignedUrl({ file_uri: material.file_uri, expires_in: 300 });
+        fileUrl = signed.signed_url;
+      } else if (!isAppOwnedFileUrl(fileUrl)) {
         throw new Error("This file is not an upload from this app and cannot be processed.");
       }
       if (material.source_type === "pdf") {
-        extraction = await extractPdf(material.file_url);
+        extraction = await extractPdf(fileUrl);
       } else if (material.source_type === "docx") {
-        extraction = await extractDocx(material.file_url);
+        extraction = await extractDocx(fileUrl);
       } else if (material.source_type === "image") {
         throw new Error("Image OCR is not enabled yet.");
       }

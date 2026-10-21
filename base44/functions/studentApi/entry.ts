@@ -1,4 +1,4 @@
-import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
 import { expiryPatch } from '../../shared/subscriptionCore.js';
 
 // studentApi: every write that grants access, sets teacher attribution, or
@@ -255,11 +255,22 @@ async function listHomework(svc: any, me: any) {
   return { membership: membershipOf(m.sub, m.group), assignments, today };
 }
 
+// The game saves its round in parallel with this call, so wait briefly for it.
+async function latestRound(svc: any, email: string, game: string, since: string) {
+  for (let i = 0; i < 8; i++) {
+    const rows = (await svc.RoundReceipt.filter(
+      { user_email: email, kind: 'evidence', status: 'done', game, created_date: { $gt: since } },
+      '-created_date', 1,
+    )) || [];
+    if (rows[0]) return rows[0];
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+  return null;
+}
+
 async function submitHomework(svc: any, me: any, body: any) {
   const id = String(body.assignment_id || '');
-  const score = Number(body.score_pct);
   if (!id) throw new ApiError(400, 'assignment_required');
-  if (!Number.isFinite(score) || score < 0 || score > 100) throw new ApiError(400, 'bad_score');
 
   let a: any = null;
   try { a = await svc.HomeworkAssignment.get(id); } catch { a = null; }
@@ -272,12 +283,24 @@ async function submitHomework(svc: any, me: any, body: any) {
   }
 
   const email = normEmail(me.email);
-  const pct = Math.round(score);
   const now = nowIso();
   const existing = (await svc.HomeworkSubmission.filter({ assignment_id: a.id, student_email: email }))?.[0];
+
+  // The score comes from the round the server itself recorded, never from
+  // the client. Crossword has no scored round (it only reports "solved").
+  let pct = 100;
+  let roundId = '';
+  if (a.game !== 'crossword') {
+    const receipt = await latestRound(svc, me.email, a.game, existing?.last_completed_at || a.created_date);
+    if (!receipt || !receipt.items_total) throw new ApiError(409, 'round_not_recorded');
+    if (existing?.last_round_id === receipt.round_id) throw new ApiError(409, 'round_already_counted');
+    pct = Math.round(Math.max(0, Math.min(1, receipt.items_credit / receipt.items_total)) * 100);
+    roundId = receipt.round_id;
+  }
   let submission;
   if (existing) {
     submission = await svc.HomeworkSubmission.update(existing.id, {
+      last_round_id: roundId,
       attempts: (existing.attempts || 0) + 1,
       last_score_pct: pct,
       best_score_pct: Math.max(existing.best_score_pct ?? 0, pct),
@@ -298,6 +321,7 @@ async function submitHomework(svc: any, me: any, body: any) {
       first_completed_at: now,
       last_completed_at: now,
       completed_late: !!(a.due_date && todayLocal() > a.due_date),
+      last_round_id: roundId,
     });
   }
   return { submission };

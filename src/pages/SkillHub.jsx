@@ -207,8 +207,8 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
     if (activeGame.homeworkId) {
       // The one write that closes the homework loop. Server checks the
       // student is still in the class and targeted before recording it.
-      studentApi("submitHomework", { assignment_id: activeGame.homeworkId, score_pct: pct })
-        .then(() => setHomeworkToast({ ok: true, text: `${loc("ui.hwRecorded")} · ${pct}%` }))
+      studentApi("submitHomework", { assignment_id: activeGame.homeworkId })
+        .then((res) => setHomeworkToast({ ok: true, text: `${loc("ui.hwRecorded")} · ${res?.submission?.last_score_pct ?? pct}%` }))
         .catch((e) => {
           console.error("submitHomework failed", e);
           setHomeworkToast({ ok: false, text: loc("ui.hwNotRecorded") });

@@ -1,5 +1,6 @@
 {
   "name": "MaterialSource",
+  "type": "object",
   "properties": {
     "detected_language": {
       "type": "string"
@@ -12,7 +13,12 @@
     },
     "file_url": {
       "format": "uri",
-      "type": "string"
+      "type": "string",
+      "description": "Legacy public upload URL."
+    },
+    "file_uri": {
+      "type": "string",
+      "description": "Private upload URI (UploadPrivateFile)."
     },
     "processed_at": {
       "format": "date-time",
@@ -110,6 +116,5 @@
         }
       ]
     }
-  },
-  "type": "object"
+  }
 }
