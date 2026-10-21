@@ -1,0 +1,294 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "consistent",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "consistencies",
+       "consistency"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "consist is shown as other_meaning (be made of); consistency also has a 'thickness' sense, mentioned in a note."
+  },
+  {
+   "headword": "corpse",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: coral. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "corpses"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-form word. corps (a group of soldiers) looks similar but is a different word; left out."
+  },
+  {
+   "headword": "crumble",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "verb: real words that may be in the family but aren't shown: cruise"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "crumbs"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "crumbled"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "crumblier"
+      ],
+      "JJS": [
+       "crumbliest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "crumb is the base word (crumble is made from it); crumble as a dessert noun is other_meaning. No affix claimed: crumbl-y does not split cleanly."
+  },
+  {
+   "headword": "cub",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: cubic, cubical. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cubs"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-form word. cub reporter and Cub Scout are compounds and left out."
+  },
+  {
+   "headword": "cultivate",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cultivations",
+       "cultivation"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "cultivated"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Map keeps the farming sense; the 'develop a skill/friendship' sense is only in a note. culture shares an old root but is not made from cultivate, so it is left out."
+  },
+  {
+   "headword": "cumulative",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [
+    {
+     "cat": "missing form",
+     "msg": "noun: marked 'no such form', but the dictionary links cumulus. Show it (existing or other_meaning), or list it in not_family if it isn't made from this word."
+    }
+   ],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "noun: marked 'no such form'; rare or doubtful family words exist: cumulation"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "noun: marked 'no such form'; real words that look related: cumulation. Check."
+    },
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: cumulate"
+    },
+    {
+     "cat": "unchecked POS",
+     "msg": "cumulatively → 'in total': phrase, part of speech not confirmed"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "accumulate/accumulation kept out as not_family (same Latin root, not made from cumulative); listed accumulated only as a synonym."
+  },
+  {
+   "headword": "cunning",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "noun definition has rare words: tricking"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adjective definition has rare words: tricking"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "cunning: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "cunningly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cunning"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Noun cunning is a zero-change conversion; no -ing affix claimed (cunning is not 'cun' + -ing)."
+  },
+  {
+   "headword": "cyberspace",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cyberspace"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "Single-form word; cyber- words (cybercrime, cybersecurity) are compounds and left out."
+  },
+  {
+   "headword": "cyclone",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: cyclic, cyclical"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: cyclically. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "cyclonic: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cyclones"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "cyclonic is technical but real, so it is an entry, not hidden. cycle shares a Greek root but is not part of this family."
+  },
+  {
+   "headword": "deformed",
+   "kind": "word",
+   "cefr": "C1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: defence"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "deformity: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "deformed: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "deformities",
+       "deformity"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "deformed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is a participle adjective; deform is listed as the verb it comes from. No de- affix claimed (not in the allowed table)."
+  }
+ ]
+}
