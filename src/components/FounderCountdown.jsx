@@ -87,7 +87,7 @@ export default function FounderCountdown({ className = "", variant = "app" }) {
             {stage.endsOn
               ? t("pricing.founder_deadline", { date: deadline })
               : stage.endsReason === "seats"
-                ? t("pricing.founder_seats", { n: stage.seatCap || 100 })
+                ? t("pricing.founder_seats", { n: stage.seatCap || 99 })
                 : t("pricing.founder_milestone")}
           </p>
         </div>
