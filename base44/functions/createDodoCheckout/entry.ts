@@ -1,4 +1,4 @@
-import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
 import { secrets } from 'base44:runtime';
 import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
 
