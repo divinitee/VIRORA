@@ -1,0 +1,626 @@
+[
+ {
+  "headword": "consistent",
+  "word_id": "6a6ef83f0f1e82a5a073675c",
+  "word_ids": ["6a6ef83f0f1e82a5a073675c"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Same way",
+  "sense_pos": "adjective",
+  "corpus_definition": "Always behaving or happening in the same way.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "consistency",
+    "relation": "derivational",
+    "definition": "the quality of always doing something in the same good way",
+    "example": "The coach praised the consistency of her training.",
+    "note": "Consistency also means how thick or smooth a liquid is: 'soup with a creamy consistency'.",
+    "syn": [
+     {"to": "reliability", "relation": "synonym", "strength": 0.8, "note": "Close: you can trust someone to do well every time."},
+     {"to": "regularity", "relation": "related", "strength": 0.6, "note": "Related: something happens at the same times or in the same way."},
+     {"to": "stability", "relation": "related", "strength": 0.4, "note": "Related: not changing suddenly; used more for prices, health or countries."}
+    ],
+    "ant": [
+     {"to": "inconsistency", "relation": "antonym", "note": "Changing from good to bad, so people cannot depend on you."}
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "consist",
+    "definition": "to be made of certain parts or things",
+    "example": "The test consists of three parts: reading, writing and speaking.",
+    "note": "Belongs to the old meaning of the family (be made of, usually 'consist of'), not to 'always the same'. There is no verb meaning 'make consistent'."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "consistent",
+    "relation": "base",
+    "definition": "always behaving or happening in the same way",
+    "example": "She is a consistent worker who meets all deadlines.",
+    "syn": [
+     {"to": "reliable", "relation": "synonym", "strength": 0.8, "note": "Close: you can trust the person or thing to do well every time."},
+     {"to": "steady", "relation": "synonym", "strength": 0.8, "note": "Easy word: not changing much, going on in the same way."},
+     {"to": "regular", "relation": "related", "strength": 0.6, "note": "Related: happening at the same times again and again."},
+     {"to": "constant", "relation": "related", "strength": 0.6, "note": "Related: happening all the time or not changing at all."},
+     {"to": "dependable", "relation": "synonym", "strength": 0.8, "note": "Very close to reliable; used about people and machines."}
+    ],
+    "ant": [
+     {"to": "inconsistent", "relation": "antonym", "note": "Sometimes good and sometimes bad, so you cannot depend on it."},
+     {"to": "unreliable", "relation": "antonym", "note": "You cannot trust it to work or to do well."}
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "consistently",
+    "relation": "derivational",
+    "definition": "in the same way every time, again and again",
+    "example": "Aziz has consistently got top marks in maths this year.",
+    "syn": [
+     {"to": "always", "relation": "synonym", "strength": 0.8, "note": "Easy word; consistently suggests a steady pattern over time."},
+     {"to": "regularly", "relation": "related", "strength": 0.6, "note": "Related: often and at the same times."},
+     {"to": "reliably", "relation": "synonym", "strength": 0.8, "note": "In a way that people can trust every time."}
+    ],
+    "ant": [
+     {"to": "inconsistently", "relation": "antonym", "note": "Sometimes one way and sometimes another."}
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ly", "in_form": "consistently", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+  ],
+  "context": {
+   "text": "Dilnoza is a consistent student. She has consistently done her homework every evening, and her teacher says this consistency is why her English is so good.",
+   "uses": ["consistent", "consistently", "consistency"]
+  },
+  "reviewer_note": "consist is shown as other_meaning (be made of); consistency also has a 'thickness' sense, mentioned in a note."
+ },
+ {
+  "headword": "corpse",
+  "word_id": "6a6ef83f0f1e82a5a073670e",
+  "word_ids": ["6a6ef83f0f1e82a5a073670e"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Body",
+  "sense_pos": "noun",
+  "corpus_definition": "The body of a person who has passed away.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "corpse",
+    "relation": "base",
+    "definition": "the body of a dead person",
+    "example": "The police found a corpse near the river.",
+    "syn": [
+     {"to": "dead body", "relation": "synonym", "strength": 0.95, "note": "Same meaning and easier; used in everyday speech."},
+     {"to": "body", "relation": "synonym", "strength": 0.8, "note": "Common in news: 'a body was found'. Can also mean a living body."},
+     {"to": "remains", "relation": "related", "strength": 0.6, "note": "Formal: what is left of a dead person, often after a long time.", "register": "formal"},
+     {"to": "carcass", "relation": "related", "strength": 0.4, "note": "The dead body of an animal, not usually a person."}
+    ],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form", "note": "There is no verb made from corpse."},
+   {"slot": "adjective", "status": "no_form", "note": "There is no common adjective made from corpse. Use dead."},
+   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from corpse."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "In the detective story, a corpse is found in an old house in Bukhara. Nobody knows who the dead man is.",
+   "uses": ["corpse"]
+  },
+  "reviewer_note": "Single-form word. corps (a group of soldiers) looks similar but is a different word; left out."
+ },
+ {
+  "headword": "crumble",
+  "word_id": "6a6ef83f0f1e82a5a0736872",
+  "word_ids": ["6a6ef83f0f1e82a5a0736872"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Breaking",
+  "sense_pos": "verb",
+  "corpus_definition": "To break into very small pieces.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "crumb",
+    "relation": "derivational",
+    "definition": "a very small piece of bread, cake or biscuit",
+    "example": "There were crumbs all over the table after breakfast.",
+    "note": "The b is silent: /krʌm/. crumble is made from this word.",
+    "syn": [
+     {"to": "bit", "relation": "synonym", "strength": 0.8, "note": "Easy, general word for a small piece of anything."},
+     {"to": "piece", "relation": "related", "strength": 0.6, "note": "A part of something; it can be big or small."},
+     {"to": "speck", "relation": "related", "strength": 0.4, "note": "A very small spot or piece, like dust."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "crumble",
+    "definition": "a sweet dish of baked fruit covered with a dry mix of flour, butter and sugar",
+    "example": "My British friend made an apple crumble for dessert.",
+    "note": "Belongs to crumble = a dessert (mainly British English), not the act of breaking into pieces."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "crumble",
+    "relation": "base",
+    "definition": "to break, or make something break, into very small pieces",
+    "example": "The dry cake began to crumble away.",
+    "note": "Also used for buildings or systems that slowly fall apart: 'The old wall is crumbling.'",
+    "syn": [
+     {"to": "break up", "relation": "synonym", "strength": 0.8, "note": "Easy phrasal verb: to break into many pieces."},
+     {"to": "fall apart", "relation": "synonym", "strength": 0.8, "note": "Easy: to break into pieces, often because something is old."},
+     {"to": "disintegrate", "relation": "synonym", "strength": 0.8, "note": "Formal: to break into many small parts and stop existing.", "register": "formal"},
+     {"to": "collapse", "relation": "related", "strength": 0.6, "note": "Related: to fall down suddenly, like a building."},
+     {"to": "crush", "relation": "related", "strength": 0.4, "note": "To press something hard so it breaks; you crush it, it crumbles."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "crumbly",
+    "relation": "derivational",
+    "definition": "breaking easily into very small pieces",
+    "example": "This cheese is soft and crumbly.",
+    "syn": [
+     {"to": "dry", "relation": "related", "strength": 0.4, "note": "Easy word: food that is dry often breaks into pieces."},
+     {"to": "brittle", "relation": "related", "strength": 0.6, "note": "Hard but breaking easily, like thin glass or old bones."}
+    ],
+    "ant": [
+     {"to": "solid", "relation": "antonym", "note": "Hard and firm, not breaking easily."}
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "crumbling",
+    "relation": "participial",
+    "definition": "slowly breaking into pieces, often because it is very old",
+    "example": "We walked past the crumbling walls of the old fortress.",
+    "syn": [],
+    "ant": []
+   },
+   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from crumble."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Grandma's cake was so crumbly that it crumbled in my hand. Soon there were crumbs all over the carpet.",
+   "uses": ["crumbly", "crumbled", "crumbs"]
+  },
+  "reviewer_note": "crumb is the base word (crumble is made from it); crumble as a dessert noun is other_meaning. No affix claimed: crumbl-y does not split cleanly."
+ },
+ {
+  "headword": "cub",
+  "word_id": "6a6ef9b2a6015561480926c0",
+  "word_ids": ["6a6ef9b2a6015561480926c0"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Animal",
+  "sense_pos": "noun",
+  "corpus_definition": "The young offspring of certain wild animals.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "cub",
+    "relation": "base",
+    "definition": "a baby bear, lion, tiger, fox or wolf",
+    "example": "The bear cub played near its mother.",
+    "syn": [
+     {"to": "baby animal", "relation": "synonym", "strength": 0.8, "note": "Easy phrase; cub is used only for some wild animals."},
+     {"to": "young", "relation": "related", "strength": 0.6, "note": "Formal noun for the babies of any animal: 'a lion and her young'."},
+     {"to": "pup", "relation": "related", "strength": 0.6, "note": "A baby dog, seal or wolf."},
+     {"to": "kitten", "relation": "related", "strength": 0.4, "note": "A baby cat, not a wild animal."}
+    ],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form", "note": "Cub as a verb (to give birth to cubs) is very rare and not in learner dictionaries."},
+   {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from cub."},
+   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from cub."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "At the Tashkent Zoo, the lioness has two new cubs. Children love to watch the little cub play with its mother's tail.",
+   "uses": ["cubs", "cub"]
+  },
+  "reviewer_note": "Single-form word. cub reporter and Cub Scout are compounds and left out."
+ },
+ {
+  "headword": "cultivate",
+  "word_id": "6a6ef83f0f1e82a5a0736773",
+  "word_ids": ["6a6ef83f0f1e82a5a0736773"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Farming",
+  "sense_pos": "verb",
+  "corpus_definition": "To prepare land and grow crops on it.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "cultivation",
+    "relation": "derivational",
+    "definition": "the work of preparing land and growing crops on it",
+    "example": "Cotton cultivation is important in many parts of Uzbekistan.",
+    "syn": [
+     {"to": "farming", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word for growing crops and keeping animals."},
+     {"to": "agriculture", "relation": "related", "strength": 0.6, "note": "The whole activity or science of farming in a country."},
+     {"to": "growing", "relation": "related", "strength": 0.6, "note": "Easy: 'the growing of rice'."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "cultivate",
+    "relation": "base",
+    "definition": "to prepare land and grow crops on it",
+    "example": "The farmers cultivate corn on their large land.",
+    "note": "It also means to try to develop a skill or a friendship: 'cultivate good relations'.",
+    "syn": [
+     {"to": "grow", "relation": "synonym", "strength": 0.8, "note": "Easy word: you grow a plant; you cultivate land or a crop."},
+     {"to": "farm", "relation": "synonym", "strength": 0.8, "note": "Easy word: to use land for crops or animals."},
+     {"to": "plant", "relation": "related", "strength": 0.6, "note": "To put seeds or young plants in the ground; only the first step."},
+     {"to": "till", "relation": "related", "strength": 0.4, "note": "Old-fashioned: to prepare land for crops by digging.", "register": "literary"}
+    ],
+    "ant": [
+     {"to": "neglect", "relation": "antonym", "note": "To not look after something, so land becomes wild."}
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "cultivated",
+    "relation": "participial",
+    "definition": "used for growing crops, not wild",
+    "example": "Most of the cultivated land in the valley grows cotton and wheat.",
+    "note": "Cultivated can also describe a person who is well educated and has good manners.",
+    "syn": [
+     {"to": "farmed", "relation": "synonym", "strength": 0.8, "note": "Easy: used for farming."},
+     {"to": "planted", "relation": "related", "strength": 0.6, "note": "With plants or seeds put in it."}
+    ],
+    "ant": [
+     {"to": "uncultivated", "relation": "antonym", "note": "Not used for crops."},
+     {"to": "wild", "relation": "antonym", "note": "Growing naturally, without help from people."}
+    ]
+   },
+   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from cultivate."}
+  ],
+  "people": [
+   {
+    "form": "cultivator",
+    "kind": "thing",
+    "status": "existing",
+    "definition": "a machine or tool that breaks up soil before planting",
+    "example": "The farmer used a cultivator to prepare the field.",
+    "note": "It can also mean a person who grows crops, but this is rare."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ion", "in_form": "cultivation", "meaning_key": "-ion", "also": ["education", "creation", "decision"]},
+   {"affix": "-or", "in_form": "cultivator", "meaning_key": "-or", "also": ["actor", "inventor", "visitor"]}
+  ],
+  "context": {
+   "text": "In spring, farmers in the Fergana Valley cultivate cotton and vegetables. Careful cultivation makes the land rich, and the cultivated fields look green all summer.",
+   "uses": ["cultivate", "cultivation", "cultivated"]
+  },
+  "reviewer_note": "Map keeps the farming sense; the 'develop a skill/friendship' sense is only in a note. culture shares an old root but is not made from cultivate, so it is left out."
+ },
+ {
+  "headword": "cumulative",
+  "word_id": "6a6ef83f0f1e82a5a0736724",
+  "word_ids": ["6a6ef83f0f1e82a5a0736724"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Adding up",
+  "sense_pos": "adjective",
+  "corpus_definition": "Increasing by adding more parts together over time.",
+  "forms": [
+   {"slot": "noun", "status": "no_form", "note": "There is no common noun made from cumulative. Accumulation (from accumulate) has a similar meaning but is a different word.", "not_family": ["accumulation"]},
+   {"slot": "verb", "status": "no_form", "note": "There is no verb made from cumulative. Accumulate has a similar meaning and an old shared root, but cumulative is not made from it.", "not_family": ["accumulate"]},
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "cumulative",
+    "relation": "base",
+    "definition": "growing bigger as more parts are added over time",
+    "example": "The cumulative effect of pollution is damaging the environment.",
+    "syn": [
+     {"to": "growing", "relation": "related", "strength": 0.6, "note": "Easy word: getting bigger; it does not say how."},
+     {"to": "increasing", "relation": "related", "strength": 0.6, "note": "Getting bigger or more over time."},
+     {"to": "accumulated", "relation": "synonym", "strength": 0.8, "note": "Close: collected or built up over a long time."},
+     {"to": "total", "relation": "related", "strength": 0.4, "note": "The whole amount when everything is added; it does not show growth."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "cumulatively",
+    "relation": "derivational",
+    "definition": "when all the parts are added together over time",
+    "example": "Small savings, cumulatively, can pay for a new car.",
+    "register": "formal",
+    "syn": [
+     {"to": "together", "relation": "related", "strength": 0.4, "note": "Easy word: when things are added or taken as one."},
+     {"to": "in total", "relation": "related", "strength": 0.6, "note": "When everything is counted."}
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ly", "in_form": "cumulatively", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+  ],
+  "context": {
+   "text": "One cigarette may not seem dangerous, but the cumulative damage over many years is serious. Cumulatively, small habits change our health.",
+   "uses": ["cumulative", "Cumulatively"]
+  },
+  "reviewer_note": "accumulate/accumulation kept out as not_family (same Latin root, not made from cumulative); listed accumulated only as a synonym."
+ },
+ {
+  "headword": "cunning",
+  "word_id": "6a6ef83f0f1e82a5a07366e5",
+  "word_ids": ["6a6ef83f0f1e82a5a07366e5"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Tricky",
+  "sense_pos": "adjective",
+  "corpus_definition": "Clever at getting what you want, often by tricking others.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "cunning",
+    "relation": "conversion",
+    "definition": "the skill of getting what you want by tricking people",
+    "example": "The thief used all his cunning to escape from the police.",
+    "syn": [
+     {"to": "trickery", "relation": "synonym", "strength": 0.8, "note": "Using tricks to get what you want."},
+     {"to": "cleverness", "relation": "related", "strength": 0.6, "note": "Being clever, in a good or bad way."},
+     {"to": "craftiness", "relation": "synonym", "strength": 0.8, "note": "Very close: being clever in a secret, dishonest way."}
+    ],
+    "ant": [
+     {"to": "honesty", "relation": "antonym", "note": "Telling the truth and not tricking people."}
+    ]
+   },
+   {"slot": "verb", "status": "no_form", "note": "There is no verb made from cunning."},
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "cunning",
+    "relation": "base",
+    "definition": "clever at getting what you want, often by tricking others",
+    "example": "The cunning fox escaped the trap easily.",
+    "syn": [
+     {"to": "sly", "relation": "synonym", "strength": 0.95, "note": "Very close: clever and secret, often in a dishonest way."},
+     {"to": "crafty", "relation": "synonym", "strength": 0.95, "note": "Very close: good at tricking people."},
+     {"to": "sneaky", "relation": "synonym", "strength": 0.8, "note": "Doing things secretly to trick people.", "register": "informal"},
+     {"to": "clever", "relation": "related", "strength": 0.6, "note": "Easy word: good at thinking; clever is usually positive, cunning is often negative."},
+     {"to": "smart", "relation": "related", "strength": 0.4, "note": "Easy word: quick at thinking; usually positive."}
+    ],
+    "ant": [
+     {"to": "honest", "relation": "antonym", "note": "Telling the truth and not tricking others."},
+     {"to": "naive", "relation": "antonym", "note": "Too ready to believe people, easy to trick."}
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "cunningly",
+    "relation": "derivational",
+    "definition": "in a clever way that tricks or surprises people",
+    "example": "The door was cunningly hidden behind a bookcase.",
+    "syn": [
+     {"to": "cleverly", "relation": "synonym", "strength": 0.8, "note": "Easy and more positive."},
+     {"to": "slyly", "relation": "synonym", "strength": 0.8, "note": "In a secret, tricky way."}
+    ],
+    "ant": [
+     {"to": "honestly", "relation": "antonym", "note": "In a true and open way, without tricks."}
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ly", "in_form": "cunningly", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+  ],
+  "context": {
+   "text": "In Uzbek folk tales, the fox is always cunning. It cunningly tricks the other animals, but in the end its cunning does not help it.",
+   "uses": ["cunning", "cunningly"]
+  },
+  "reviewer_note": "Noun cunning is a zero-change conversion; no -ing affix claimed (cunning is not 'cun' + -ing)."
+ },
+ {
+  "headword": "cyberspace",
+  "word_id": "6a6ef83f0f1e82a5a07367be",
+  "word_ids": ["6a6ef83f0f1e82a5a07367be"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Internet",
+  "sense_pos": "noun",
+  "corpus_definition": "The virtual place where computer users communicate and share information.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "cyberspace",
+    "relation": "base",
+    "definition": "the online world where computer users meet and share information",
+    "example": "Much of our life is now spent in cyberspace.",
+    "syn": [
+     {"to": "the internet", "relation": "synonym", "strength": 0.8, "note": "Everyday word; cyberspace sounds more like an imagined place."},
+     {"to": "the web", "relation": "synonym", "strength": 0.8, "note": "Informal, common word for the internet and its websites."},
+     {"to": "online world", "relation": "synonym", "strength": 0.8, "note": "Easy phrase with almost the same meaning."},
+     {"to": "virtual world", "relation": "related", "strength": 0.6, "note": "A world made by computers, often in a game."}
+    ],
+    "ant": [
+     {"to": "the real world", "relation": "antonym", "note": "Life outside computers and the internet."}
+    ]
+   },
+   {"slot": "verb", "status": "no_form", "note": "There is no verb made from cyberspace."},
+   {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from cyberspace. Use online or cyber- words like cybersecurity."},
+   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from cyberspace."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My little brother spends hours in cyberspace every evening. He chats with friends in Samarkand and plays games with people from other countries.",
+   "uses": ["cyberspace"]
+  },
+  "reviewer_note": "Single-form word; cyber- words (cybercrime, cybersecurity) are compounds and left out."
+ },
+ {
+  "headword": "cyclone",
+  "word_id": "6a6ef83f0f1e82a5a073675d",
+  "word_ids": ["6a6ef83f0f1e82a5a073675d"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Storm",
+  "sense_pos": "noun",
+  "corpus_definition": "A violent storm with winds that turn in a circle.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "cyclone",
+    "relation": "base",
+    "definition": "a very strong storm with winds that turn in a circle",
+    "example": "The cyclone destroyed many houses in the area.",
+    "syn": [
+     {"to": "hurricane", "relation": "synonym", "strength": 0.8, "note": "The same kind of storm over the Atlantic Ocean."},
+     {"to": "typhoon", "relation": "synonym", "strength": 0.8, "note": "The same kind of storm over the western Pacific Ocean."},
+     {"to": "tornado", "relation": "related", "strength": 0.6, "note": "A smaller, very fast turning wind over land."},
+     {"to": "storm", "relation": "related", "strength": 0.6, "note": "Easy, general word for bad weather with strong wind and rain."}
+    ],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form", "note": "There is no verb made from cyclone."},
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "cyclonic",
+    "relation": "derivational",
+    "definition": "connected with or caused by a storm whose winds turn in a circle",
+    "example": "Strong cyclonic winds hit the coast last night.",
+    "note": "A technical word, mostly used in weather reports.",
+    "syn": [
+     {"to": "stormy", "relation": "related", "strength": 0.4, "note": "Easy word: with strong wind and rain."}
+    ],
+    "ant": []
+   },
+   {"slot": "adverb", "status": "no_form", "note": "There is no common adverb made from cyclone."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ic", "in_form": "cyclonic", "meaning_key": "-ic", "also": ["historic", "artistic", "scientific"]}
+  ],
+  "context": {
+   "text": "The news said a cyclone was moving towards the coast of India. Cyclonic winds and heavy rain closed the airport for two days.",
+   "uses": ["cyclone", "Cyclonic"]
+  },
+  "reviewer_note": "cyclonic is technical but real, so it is an entry, not hidden. cycle shares a Greek root but is not part of this family."
+ },
+ {
+  "headword": "deformed",
+  "word_id": "6a6ef83f0f1e82a5a0736711",
+  "word_ids": ["6a6ef83f0f1e82a5a0736711"],
+  "cefr": "C1",
+  "kind": "word",
+  "sense_label": "Shape",
+  "sense_pos": "adjective",
+  "corpus_definition": "Having an unusual or wrong physical shape.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "deformity",
+    "relation": "derivational",
+    "definition": "a part of the body that has not grown in the usual shape",
+    "example": "The baby was born with a small deformity of the foot.",
+    "syn": [
+     {"to": "abnormality", "relation": "related", "strength": 0.6, "note": "Something not normal in the body; more medical.", "register": "formal"},
+     {"to": "defect", "relation": "related", "strength": 0.6, "note": "A problem or fault in something, or in the body."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "deformation",
+    "relation": "derivational",
+    "definition": "a change in the shape of something, so it is no longer right",
+    "example": "Heat can cause deformation of plastic pipes.",
+    "register": "formal",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "deform",
+    "relation": "derivational",
+    "definition": "to change the usual shape of something so it looks wrong",
+    "example": "The heat from the fire deformed the metal door.",
+    "syn": [
+     {"to": "twist", "relation": "related", "strength": 0.6, "note": "Easy word: to turn or bend something out of shape."},
+     {"to": "bend", "relation": "related", "strength": 0.6, "note": "Easy word: to change something straight into a curve."},
+     {"to": "distort", "relation": "synonym", "strength": 0.8, "note": "To change the shape or sound of something so it is not natural."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "deformed",
+    "relation": "base",
+    "definition": "having an unusual or wrong physical shape",
+    "example": "The metal bar was twisted and clearly deformed.",
+    "note": "Be careful: using it about people can sound unkind.",
+    "syn": [
+     {"to": "misshapen", "relation": "synonym", "strength": 0.95, "note": "Same meaning: not having the normal shape."},
+     {"to": "distorted", "relation": "synonym", "strength": 0.8, "note": "Changed from its natural shape."},
+     {"to": "twisted", "relation": "related", "strength": 0.6, "note": "Easy word: bent and turned out of shape."},
+     {"to": "bent", "relation": "related", "strength": 0.4, "note": "Easy word: not straight any more."}
+    ],
+    "ant": [
+     {"to": "normal", "relation": "antonym", "note": "Having the usual shape."}
+    ]
+   },
+   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from deformed."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ity", "in_form": "deformity", "meaning_key": "-ity", "also": ["ability", "activity", "security"]},
+   {"affix": "-ation", "in_form": "deformation", "meaning_key": "-ation", "also": ["information", "education", "invitation"]}
+  ],
+  "context": {
+   "text": "The old car was in an accident and its door was badly deformed. The mechanic said the crash had deformed the metal too much to repair.",
+   "uses": ["deformed"]
+  },
+  "reviewer_note": "Headword is a participle adjective; deform is listed as the verb it comes from. No de- affix claimed (not in the allowed table)."
+ }
+]
