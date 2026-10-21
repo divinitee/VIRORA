@@ -1,0 +1,247 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "flexible",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "flexibility: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "flexibilities",
+       "flexibility"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Covers bend + change meanings in one map."
+  },
+  {
+   "headword": "flip",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "flip: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "flips",
+       "flip"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "flipped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "flip side / flip-flops not split."
+  },
+  {
+   "headword": "flood",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'floor' (zipf 4.9) may belong here"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "flood: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "flood: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "flooded: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "floods"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "flooded"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "floodlight, floodwater are compounds (Rule 7), not listed."
+  },
+  {
+   "headword": "fog",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "fog: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "fog: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "foggy: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "fogs",
+       "fog"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "fogged"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "foggier"
+      ],
+      "JJS": [
+       "foggiest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": ""
+  },
+  {
+   "headword": "folk",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "folks"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "folklore is a compound (Rule 7)."
+  },
+  {
+   "headword": "folk music",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Compound noun treated as a phrase map."
+  },
+  {
+   "headword": "fond",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "fondness: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "fondly: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "fondness"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "fonder"
+      ],
+      "JJS": [
+       "fondest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "fond of has its own phrase map."
+  },
+  {
+   "headword": "fond of",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": ""
+  },
+  {
+   "headword": "for fun",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": ""
+  },
+  {
+   "headword": "for instance",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": ""
+  }
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "get rid of",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": ""
+  },
+  {
+   "headword": "give away",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "give away = tell a secret is a different meaning, not shown."
+  },
+  {
+   "headword": "glance",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "glances"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "glanced"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "at a glance as a fixed phrase not split."
+  },
+  {
+   "headword": "global",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: conglobate, globalize"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; real words that look related: globalize. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "globes"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "B1/B2 rows merged (world sense); global = overall (B2 technical) noted only."
+  },
+  {
+   "headword": "go out with",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "go out with friends (= leave home to have fun) is the literal meaning."
+  },
+  {
+   "headword": "goods",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: goodness"
+    },
+    {
+     "cat": "wrong morphology",
+     "msg": "adjective 'good' (other meaning): family link not confirmed by the dictionary or a suffix rule"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "goods"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "B1/B2 rows merged; good (adj) as other_meaning."
+  },
+  {
+   "headword": "graze",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: gray. Check."
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "grazed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "grass is related in history but not shown as family."
+  },
+  {
+   "headword": "groom",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "grooms"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "bridegroom is a compound (Rule 7) given as synonym only."
+  },
+  {
+   "headword": "habits",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: habit"
+    },
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: habitable"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "verb: marked 'no such form'; rare or doubtful family words exist: habit, habituate"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "Corpus headword is plural; the map keeps it and notes the singular habit."
+  },
+  {
+   "headword": "handy",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "noun: marked 'no such form'; rare or doubtful family words exist: handiness"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "noun: marked 'no such form'; real words that look related: handiness. Check."
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: handily. Check."
+    }
+   ],
+   "inflections": {
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "handier"
+      ],
+      "JJS": [
+       "handiest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "handyman is a compound (Rule 7)."
+  }
+ ]
+}

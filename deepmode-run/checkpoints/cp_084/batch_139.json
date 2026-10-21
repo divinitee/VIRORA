@@ -1,0 +1,1361 @@
+[
+ {
+  "headword": "exotic",
+  "word_id": "6a6ef83f0f1e82a5a0736728",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736728"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Faraway",
+  "sense_pos": "adjective",
+  "corpus_definition": "From a faraway and unusual place.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "exoticism",
+    "relation": "derivational",
+    "definition": "the quality of being unusual and from a faraway place",
+    "example": "Tourists love the exoticism of the old markets in Bukhara.",
+    "register": "formal",
+    "note": "Not common in everyday speech; people usually say 'it feels exotic'.",
+    "syn": [
+     {
+      "to": "strangeness",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: the quality of being unusual, but not always in a good or exciting way."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No common verb. 'Exoticize' exists in academic writing but is not in learner dictionaries."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "exotic",
+    "relation": "base",
+    "definition": "coming from a faraway country and seeming unusual and exciting",
+    "example": "She loves trying exotic fruits from different countries.",
+    "syn": [
+     {
+      "to": "foreign",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Foreign just means from another country; exotic also means unusual and exciting."
+     },
+     {
+      "to": "unusual",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: different from what is normal, but not always from far away."
+     },
+     {
+      "to": "tropical",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "From hot, wet parts of the world; many exotic fruits are tropical."
+     },
+     {
+      "to": "strange",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Strange can sound negative; exotic usually sounds positive and exciting."
+     }
+    ],
+    "ant": [
+     {
+      "to": "ordinary",
+      "relation": "antonym",
+      "note": "Normal and not special in any way."
+     },
+     {
+      "to": "familiar",
+      "relation": "antonym",
+      "note": "Well known to you because you see it often."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "exotically",
+    "relation": "derivational",
+    "definition": "in an unusual and exciting way, like something from far away",
+    "example": "The restaurant was exotically decorated with lamps and carpets from Morocco.",
+    "syn": [
+     {
+      "to": "unusually",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "In a way that is different from normal, without the idea of far away."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My aunt brought exotic fruits like mango and papaya home from Thailand. Her kitchen smelled exotically sweet for days, and the whole family wanted to taste them.",
+   "uses": [
+    "exotic",
+    "exotically"
+   ]
+  },
+  "reviewer_note": "No affix claimed on exotic itself (exot- is not a word); exoticism kept as a formal noun rather than hidden. No -ly affix claimed on exotically (it is exotic + -ally)."
+ },
+ {
+  "headword": "expand",
+  "word_id": "6a6ef83f0f1e82a5a0736732",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736732"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Growing",
+  "sense_pos": "verb",
+  "corpus_definition": "To make something larger in size, amount, or area.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "expansion",
+    "relation": "derivational",
+    "definition": "the process of becoming bigger in size, number or area",
+    "example": "The expansion of the airport will create many new jobs.",
+    "syn": [
+     {
+      "to": "growth",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, common word; growth is more general."
+     },
+     {
+      "to": "increase",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Usually about numbers or amounts, not area."
+     },
+     {
+      "to": "development",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Development is about becoming bigger AND better or more advanced."
+     }
+    ],
+    "ant": [
+     {
+      "to": "reduction",
+      "relation": "antonym",
+      "note": "Making something smaller or less."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "expanse",
+    "definition": "a very large open area of land, water or sky",
+    "example": "We drove for hours across the wide expanse of the desert.",
+    "note": "Belongs to expand = spread over a large area, not making something larger. Mostly used in writing."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "expand",
+    "relation": "base",
+    "definition": "to make something bigger in size, number or area",
+    "example": "The business will expand into new cities next year.",
+    "syn": [
+     {
+      "to": "grow",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday word; expand is a little more formal."
+     },
+     {
+      "to": "increase",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Usually about numbers and amounts: increase prices, increase sales."
+     },
+     {
+      "to": "enlarge",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Make something physically bigger, like a photo or a room."
+     },
+     {
+      "to": "extend",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Make longer or bigger, often by adding a part: extend a house."
+     },
+     {
+      "to": "widen",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Make something wider, like a road."
+     }
+    ],
+    "ant": [
+     {
+      "to": "shrink",
+      "relation": "antonym",
+      "note": "Become smaller."
+     },
+     {
+      "to": "reduce",
+      "relation": "antonym",
+      "note": "Make something smaller in size or amount."
+     },
+     {
+      "to": "contract",
+      "relation": "antonym",
+      "note": "Become smaller or tighter; a little formal."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "expanding",
+    "relation": "participial",
+    "definition": "growing bigger in size or number",
+    "example": "Tashkent is a fast expanding city.",
+    "syn": [
+     {
+      "to": "growing",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy word with the same meaning."
+     },
+     {
+      "to": "developing",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Growing and becoming more advanced."
+     }
+    ],
+    "ant": [
+     {
+      "to": "shrinking",
+      "relation": "antonym",
+      "note": "Becoming smaller."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "expansive",
+    "definition": "covering a large area; or friendly and happy to talk",
+    "example": "The hotel has expansive gardens with fountains.",
+    "note": "Belongs to expand = spread over a wide area, or a person who is open and talkative, not making something larger."
+   },
+   {
+    "slot": "adverb",
+    "status": "other_meaning",
+    "form": "expansively",
+    "definition": "in a friendly way, talking a lot and openly",
+    "example": "He smiled and talked expansively about his trip to Samarkand.",
+    "note": "Goes with expansive (friendly and talkative). Not common."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ing",
+    "in_form": "expanding",
+    "meaning_key": "-ing",
+    "also": [
+     "growing",
+     "interesting",
+     "exciting"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our school wants to expand next year. The expansion will add ten new classrooms for the expanding number of students in our district.",
+   "uses": [
+    "expand",
+    "expansion",
+    "expanding"
+   ]
+  },
+  "reviewer_note": "No -ion affix claimed on expansion (removing it leaves expans-, not a word). expanse/expansive kept as other_meaning."
+ },
+ {
+  "headword": "expert",
+  "word_id": "6a4265cce20c7210db6908b1",
+  "word_ids": [
+   "6a4265cce20c7210db6908b1"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Person",
+  "sense_pos": "noun",
+  "corpus_definition": "A person who knows a lot about a particular subject.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "expert",
+    "relation": "base",
+    "definition": "a person who knows a lot about a subject or is very good at something",
+    "example": "He is an expert at fixing old computers.",
+    "syn": [
+     {
+      "to": "specialist",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close; often used for doctors and scientists."
+     },
+     {
+      "to": "authority",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A person whose knowledge everyone respects.",
+      "register": "formal"
+     },
+     {
+      "to": "professional",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Someone who does a job for money and with training; not always an expert."
+     },
+     {
+      "to": "master",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A person who is extremely skilled, often in an art or craft."
+     }
+    ],
+    "ant": [
+     {
+      "to": "beginner",
+      "relation": "antonym",
+      "note": "Someone who is just starting to learn something."
+     },
+     {
+      "to": "amateur",
+      "relation": "antonym",
+      "note": "Someone who does something for fun, not as a job."
+     }
+    ]
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "expertise",
+    "relation": "derivational",
+    "definition": "special skill or knowledge in a particular subject",
+    "example": "We need someone with expertise in computers.",
+    "syn": [
+     {
+      "to": "skill",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: the ability to do something well."
+     },
+     {
+      "to": "knowledge",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "What you know; expertise is a high level of it."
+     },
+     {
+      "to": "know-how",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal: practical knowledge of how to do something.",
+      "register": "informal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb in this family."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "expert",
+    "relation": "conversion",
+    "definition": "having or showing special skill or knowledge",
+    "example": "She gave us some expert advice about our garden.",
+    "syn": [
+     {
+      "to": "skilled",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Good at something because of training or practice."
+     },
+     {
+      "to": "experienced",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Good at something because you have done it for a long time."
+     },
+     {
+      "to": "professional",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Done to the high standard of a trained worker."
+     }
+    ],
+    "ant": [
+     {
+      "to": "amateur",
+      "relation": "antonym",
+      "note": "Not done by a professional; sometimes means not very good."
+     },
+     {
+      "to": "unskilled",
+      "relation": "antonym",
+      "note": "Without special training or skill."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "expertly",
+    "relation": "derivational",
+    "definition": "in a very skilful way",
+    "example": "The chef expertly cut the vegetables in seconds.",
+    "syn": [
+     {
+      "to": "skillfully",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning. British spelling: skilfully."
+     },
+     {
+      "to": "well",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; expertly means very, very well."
+     }
+    ],
+    "ant": [
+     {
+      "to": "badly",
+      "relation": "antonym",
+      "note": "In a way that is not good or skilful."
+     },
+     {
+      "to": "clumsily",
+      "relation": "antonym",
+      "note": "In a careless way that often breaks or drops things."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "expertly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "carefully",
+     "slowly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My uncle is an expert in old cars. He fixed my engine expertly in one hour, and his expertise saved me a lot of money.",
+   "uses": [
+    "expert",
+    "expertly",
+    "expertise"
+   ]
+  },
+  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); expertise is an extra. Don't confuse expert with experience/experienced (different family)."
+ },
+ {
+  "headword": "exploit",
+  "word_id": "6a6ef9b2a6015561480928ba",
+  "word_ids": [
+   "6a6ef9b2a6015561480928ba"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Unfair use",
+  "sense_pos": "verb",
+  "corpus_definition": "to use someone unfairly for your own benefit",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "exploitation",
+    "relation": "derivational",
+    "definition": "unfair treatment of people so that someone else can get money or benefit",
+    "example": "The report showed the exploitation of children in some factories.",
+    "syn": [
+     {
+      "to": "abuse",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Cruel or wrong treatment; stronger and wider in meaning."
+     },
+     {
+      "to": "misuse",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Using something in the wrong way, not always unfairly to people."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "exploit",
+    "definition": "a brave, exciting or unusual act",
+    "example": "He told us stories about his exploits in the mountains.",
+    "note": "Belongs to exploit = a brave adventure (noun, stress on EX-), not using people unfairly. Usually plural: exploits."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "exploit",
+    "relation": "base",
+    "definition": "to treat someone unfairly to get something for yourself",
+    "example": "The company exploited its workers with low wages.",
+    "syn": [
+     {
+      "to": "take advantage of",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close and common in speech."
+     },
+     {
+      "to": "use",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: 'He just uses people.' Use can also be neutral."
+     },
+     {
+      "to": "abuse",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Treat badly or cruelly; stronger."
+     },
+     {
+      "to": "misuse",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Use something in the wrong way."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "exploitative",
+    "relation": "derivational",
+    "definition": "treating people unfairly in order to get money or benefit",
+    "example": "Many people think these low wages are exploitative.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "unfair",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: not right or not equal."
+     }
+    ],
+    "ant": [
+     {
+      "to": "fair",
+      "relation": "antonym",
+      "note": "Treating people in an equal and right way."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "exploited",
+    "relation": "participial",
+    "definition": "treated unfairly by someone who gets money or benefit from you",
+    "example": "The exploited workers finally asked for better pay.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb; 'exploitatively' is very rare."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ation",
+    "in_form": "exploitation",
+    "meaning_key": "-ation",
+    "also": [
+     "information",
+     "education",
+     "invitation"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Some factories exploit young workers by paying them very little. A newspaper wrote about this exploitation, and many people stopped buying clothes from those exploitative companies.",
+   "uses": [
+    "exploit",
+    "exploitation",
+    "exploitative"
+   ]
+  },
+  "reviewer_note": "Sense trap: exploit also means 'use resources well' (exploit oil) and the noun 'brave act'; map keeps the 'use people unfairly' sense."
+ },
+ {
+  "headword": "export",
+  "word_id": "6a42800cb9d8fc24968a4b6c",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b6c"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Trade",
+  "sense_pos": "verb",
+  "corpus_definition": "to send goods to another country to sell them there",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "export",
+    "relation": "conversion",
+    "definition": "a product that is sold to another country, or the selling of it",
+    "example": "Cotton is one of Uzbekistan's main exports.",
+    "note": "Stress changes: the noun is EX-port, the verb is ex-PORT.",
+    "syn": [
+     {
+      "to": "goods",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Things that are made to be sold, inside or outside the country."
+     },
+     {
+      "to": "trade",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The general activity of buying and selling."
+     }
+    ],
+    "ant": [
+     {
+      "to": "import",
+      "relation": "antonym",
+      "note": "A product that is brought into a country to sell."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "export",
+    "relation": "base",
+    "definition": "to send goods to another country to sell them there",
+    "example": "Our country will export more grain this year.",
+    "note": "In computing it also means to save data in another format.",
+    "syn": [
+     {
+      "to": "sell abroad",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrase with the same meaning."
+     },
+     {
+      "to": "ship",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Send goods, by sea, air or road; not always to sell."
+     },
+     {
+      "to": "trade",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Buy and sell, in both directions."
+     }
+    ],
+    "ant": [
+     {
+      "to": "import",
+      "relation": "antonym",
+      "note": "Bring goods into a country to sell them."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "'Exportable' exists but is rare. The noun is often used like an adjective: export goods, export market."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb in this family."
+   }
+  ],
+  "people": [
+   {
+    "form": "exporter",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person, company or country that sells goods to other countries",
+    "example": "Uzbekistan is a big exporter of dried fruit."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-er",
+    "in_form": "exporter",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "farmer",
+     "driver"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Uzbekistan exports cotton and fruit to many countries. Cotton is one of its most important exports, and many local exporters send dried apricots to Russia and China.",
+   "uses": [
+    "exports",
+    "exports",
+    "exporters"
+   ]
+  },
+  "reviewer_note": "Noun/verb stress difference noted. No ex- prefix claimed (ex- is not in the affix table)."
+ },
+ {
+  "headword": "expression",
+  "word_id": "6a42816a2098612b1526f920",
+  "word_ids": [
+   "6a42816a2098612b1526f920"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Phrase",
+  "sense_pos": "noun",
+  "corpus_definition": "A common group of words used to mean something specific.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "expression",
+    "relation": "base",
+    "definition": "a word or group of words with a special meaning",
+    "example": "That is an interesting expression.",
+    "note": "Also means the look on someone's face, or showing your feelings; this map is about words.",
+    "syn": [
+     {
+      "to": "phrase",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "A small group of words; very close."
+     },
+     {
+      "to": "idiom",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "An expression whose meaning is different from its single words: 'break a leg'."
+     },
+     {
+      "to": "saying",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A well-known sentence with advice or wisdom."
+     },
+     {
+      "to": "term",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A word or phrase used in a special subject, like medicine or law."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "express",
+    "definition": "to show what you think or feel with words or actions",
+    "example": "She expressed her thanks to the teachers.",
+    "note": "Belongs to expression = showing feelings or ideas, not a fixed group of words."
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "expressive",
+    "definition": "showing feelings or thoughts very clearly",
+    "example": "The singer has a very expressive voice.",
+    "note": "Belongs to expression = showing feelings, not a fixed group of words."
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "express",
+    "definition": "very fast, or sent quickly",
+    "example": "We took the express train from Tashkent to Samarkand.",
+    "note": "False friend in the family: express (adjective) = fast, as in express train or express delivery."
+   },
+   {
+    "slot": "adverb",
+    "status": "other_meaning",
+    "form": "expressively",
+    "definition": "in a way that shows feelings clearly",
+    "example": "She read the poem expressively.",
+    "note": "Goes with expressive (showing feelings), not a fixed group of words."
+   },
+   {
+    "slot": "adverb",
+    "status": "other_meaning",
+    "form": "expressly",
+    "definition": "clearly and on purpose",
+    "example": "The sign expressly says no swimming.",
+    "register": "formal",
+    "note": "False friend: expressly means 'clearly' or 'for a special purpose', not 'in an expression'."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ion",
+    "in_form": "expression",
+    "meaning_key": "-ion",
+    "also": [
+     "action",
+     "discussion",
+     "decision"
+    ]
+   }
+  ],
+  "context": {
+   "text": "'Break a leg' is an English expression that means 'good luck'. My teacher writes a new expression on the board every day, and we try to use it in a sentence.",
+   "uses": [
+    "expression"
+   ]
+  },
+  "reviewer_note": "Only the 'group of words' sense is existing; express/expressive (showing feelings) and express (fast), expressly are other_meaning."
+ },
+ {
+  "headword": "extent",
+  "word_id": "6a6ef9b2a6015561480926ed",
+  "word_ids": [
+   "6a6ef9b2a6015561480926ed"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Size",
+  "sense_pos": "noun",
+  "corpus_definition": "The size, length, or amount of something.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "extent",
+    "relation": "base",
+    "definition": "how big, long or serious something is",
+    "example": "I know the full extent of the damage.",
+    "note": "Common phrases: to some extent, to a large extent = partly, mostly.",
+    "syn": [
+     {
+      "to": "size",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word."
+     },
+     {
+      "to": "scale",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "How big something is, often a problem or project."
+     },
+     {
+      "to": "degree",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "How much: 'to some degree' = 'to some extent'."
+     },
+     {
+      "to": "amount",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "How much of something there is."
+     },
+     {
+      "to": "range",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The limits between which something can change."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "extension",
+    "definition": "extra time, or an extra part added to something",
+    "example": "My teacher gave me a two-day extension for my essay.",
+    "note": "Belongs to extend = make longer or add more, not the size of something."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "extend",
+    "relation": "derivational",
+    "definition": "to continue or reach over an area or distance",
+    "example": "The fields extend all the way to the river.",
+    "note": "Also means 'make longer': extend a visa.",
+    "syn": [
+     {
+      "to": "stretch",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: 'The desert stretches for miles.'"
+     },
+     {
+      "to": "reach",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Go as far as a certain place or point."
+     },
+     {
+      "to": "spread",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Cover a bigger and bigger area."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "extensive",
+    "relation": "derivational",
+    "definition": "covering a large area or having a large amount",
+    "example": "The flood caused extensive damage to homes.",
+    "syn": [
+     {
+      "to": "large",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word for big."
+     },
+     {
+      "to": "wide",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Covering a big area or many things."
+     },
+     {
+      "to": "widespread",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Happening in many places or among many people."
+     },
+     {
+      "to": "broad",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Covering many subjects or things."
+     }
+    ],
+    "ant": [
+     {
+      "to": "limited",
+      "relation": "antonym",
+      "note": "Small in amount or area."
+     },
+     {
+      "to": "minor",
+      "relation": "antonym",
+      "note": "Small and not serious."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "extensively",
+    "relation": "derivational",
+    "definition": "in a way that covers a large area or a lot of things",
+    "example": "She has travelled extensively in Central Asia.",
+    "syn": [
+     {
+      "to": "widely",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Over a large area or among many people."
+     },
+     {
+      "to": "a lot",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy, informal way to say much or often."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "extensively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "carefully"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Doctors are still checking the extent of his injuries after the accident. The storm caused extensive damage, and the floods extended far into the fields.",
+   "uses": [
+    "extent",
+    "extensive",
+    "extended"
+   ]
+  },
+  "reviewer_note": "extent comes from extend; no -ive affix claimed on extensive (removing it leaves extens-). extension kept as other_meaning (extra time / added part)."
+ },
+ {
+  "headword": "fable",
+  "word_id": "6a6ef9b2a6015561480926da",
+  "word_ids": [
+   "6a6ef9b2a6015561480926da"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Story",
+  "sense_pos": "noun",
+  "corpus_definition": "A short story that teaches a moral lesson.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "fable",
+    "relation": "base",
+    "definition": "a short story, often with animals, that teaches a lesson",
+    "example": "He read a short fable to his children.",
+    "syn": [
+     {
+      "to": "parable",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A short story that teaches a moral or religious lesson, usually about people."
+     },
+     {
+      "to": "tale",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A story, often old or imaginary."
+     },
+     {
+      "to": "story",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; a fable is a special kind of story."
+     },
+     {
+      "to": "legend",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "An old story about famous people or events, maybe partly true."
+     },
+     {
+      "to": "myth",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "An old story about gods and heroes."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb in this family."
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "fabulous",
+    "definition": "extremely good or wonderful",
+    "example": "We had a fabulous time at the wedding.",
+    "register": "informal",
+    "note": "False friend in the family: fabulous comes from the same old word as fable, but today it means 'wonderful', not 'like a fable'."
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "fabled",
+    "definition": "very famous and talked about in many stories",
+    "example": "We visited the fabled city of Samarkand.",
+    "register": "literary",
+    "note": "Belongs to fable = old stories and legends; fabled means very famous, not about a moral lesson."
+   },
+   {
+    "slot": "adverb",
+    "status": "other_meaning",
+    "form": "fabulously",
+    "definition": "extremely, used before adjectives like rich",
+    "example": "His family is fabulously rich.",
+    "note": "Goes with fabulous (wonderful, extreme), not stories with a lesson."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My grandmother told us a fable about a fox and a crow. At the end of the fable, she explained the lesson: don't believe people who only say nice things to you.",
+   "uses": [
+    "fable"
+   ]
+  },
+  "reviewer_note": "fabulous/fabled/fabulously share the root but not the meaning; kept as other_meaning with false-friend notes. No -ous affix claimed."
+ },
+ {
+  "headword": "fall out with",
+  "word_id": "6a42662edeeb39f88113012f",
+  "word_ids": [
+   "6a42662edeeb39f88113012f"
+  ],
+  "cefr": "B2",
+  "kind": "phrasal",
+  "sense_label": "Argument",
+  "sense_pos": "verb",
+  "corpus_definition": "To have an argument and stop being friendly with someone.",
+  "particle_note": "Not separable: 'fall out with someone' (never 'fall someone out with'). Without a person: 'We fell out.' Often with over/about: 'fall out with someone over money'. Past: fell out, fallen out. Noun: a falling-out. Mainly British; Americans also say 'have a falling-out'.",
+  "relations": [
+   {
+    "to": "quarrel with",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Have an angry argument; does not always mean the friendship stops."
+   },
+   {
+    "to": "argue with",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Easy, common verb; you can argue and still be friends."
+   },
+   {
+    "to": "break up with",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "End a romantic relationship, not a friendship or family relationship."
+   },
+   {
+    "to": "make up with",
+    "relation": "antonym",
+    "note": "Become friends again after an argument."
+   },
+   {
+    "to": "get on with",
+    "relation": "antonym",
+    "note": "Have a friendly relationship with someone. American English: get along with."
+   }
+  ],
+  "context": {
+   "text": "Aziz fell out with his best friend over a small debt. They didn't speak for a month, but now they have made up and laugh about falling out.",
+   "uses": [
+    "fell out with",
+    "falling out"
+   ]
+  },
+  "reviewer_note": "Corpus example 'He did fall out with his brother' uses emphatic do; context uses the normal past 'fell out with'."
+ },
+ {
+  "headword": "fame",
+  "word_id": "6a42821646ba24054c1dcca0",
+  "word_ids": [
+   "6a42821646ba24054c1dcca0"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Being known",
+  "sense_pos": "noun",
+  "corpus_definition": "Being known by many people.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "fame",
+    "relation": "base",
+    "definition": "the state of being known and talked about by many people",
+    "example": "He found fame as an actor.",
+    "syn": [
+     {
+      "to": "celebrity",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The state of being famous, especially in films, music or TV; also means a famous person."
+     },
+     {
+      "to": "renown",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Fame for doing something good.",
+      "register": "formal"
+     },
+     {
+      "to": "popularity",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Being liked by many people, not only known."
+     },
+     {
+      "to": "glory",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Fame and praise for a great success."
+     },
+     {
+      "to": "reputation",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "What people think about you, good or bad."
+     }
+    ],
+    "ant": [
+     {
+      "to": "obscurity",
+      "relation": "antonym",
+      "note": "The state of not being known by people.",
+      "register": "formal"
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb in this family."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "famous",
+    "relation": "derivational",
+    "definition": "known about by many people",
+    "example": "Samarkand is famous for its beautiful old buildings.",
+    "syn": [
+     {
+      "to": "well-known",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy and very close in meaning."
+     },
+     {
+      "to": "celebrated",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Famous and praised for something good."
+     },
+     {
+      "to": "popular",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Liked by many people; a famous person isn't always popular."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unknown",
+      "relation": "antonym",
+      "note": "Not known by people."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "famed",
+    "relation": "participial",
+    "definition": "known by many people for a special quality",
+    "example": "The city is famed for its silk carpets.",
+    "register": "literary",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "infamous",
+    "definition": "well known for something bad",
+    "example": "The road is infamous for its traffic jams.",
+    "note": "Belongs to fame = being known for something bad. It is NOT the opposite of famous; the opposite is unknown."
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "famously",
+    "relation": "derivational",
+    "definition": "in a way that many people know about",
+    "example": "The writer famously never gave interviews.",
+    "note": "Informal phrase: 'get on famously' = be very good friends.",
+    "syn": [
+     {
+      "to": "notably",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "In a way that is important or worth noticing.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "famously",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "happily"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Lola wanted fame more than anything. She became famous after her song went viral, but she is famously shy and rarely gives interviews.",
+   "uses": [
+    "fame",
+    "famous",
+    "famously"
+   ]
+  },
+  "reviewer_note": "infamous is a trap: in- does not make it the opposite of famous, so it is other_meaning, not an ant. No -ous affix claimed (fame + -ous drops the e)."
+ }
+]

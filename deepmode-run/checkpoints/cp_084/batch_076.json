@@ -1,0 +1,1135 @@
+[
+ {
+  "headword": "degree",
+  "word_id": "6a4265cce20c7210db6908af",
+  "word_ids": [
+   "6a4265cce20c7210db6908af"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "University",
+  "sense_pos": "noun",
+  "corpus_definition": "An academic title given by a university after finishing studies.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "degree",
+    "relation": "base",
+    "definition": "the title a university gives you after you finish your studies",
+    "example": "She has a degree in economics from Tashkent State University.",
+    "note": "degree also means a unit for measuring temperature or angles (20 degrees).",
+    "syn": [
+     {
+      "to": "qualification",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Any official proof that you finished a course; wider than a university title."
+     },
+     {
+      "to": "diploma",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The paper you get; in some countries also a shorter course."
+     },
+     {
+      "to": "certificate",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "An official paper that shows you passed something."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form"
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My cousin finished her degree last summer. Now she wants to work as an engineer in Samarkand.",
+   "uses": [
+    "degree"
+   ]
+  },
+  "reviewer_note": "Temperature/angle meaning noted only; no family forms exist."
+ },
+ {
+  "headword": "delay",
+  "word_id": "6a4265fb84a10cdfe9e55d75",
+  "word_ids": [
+   "6a4265fb84a10cdfe9e55d75"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Time",
+  "sense_pos": "verb",
+  "corpus_definition": "To make something happen later than planned.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "delay",
+    "relation": "conversion",
+    "definition": "a time when you must wait longer than planned",
+    "example": "There was a two-hour delay at the airport.",
+    "syn": [
+     {
+      "to": "postponement",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Moving an event to a later time; more formal.",
+      "register": "formal"
+     },
+     {
+      "to": "wait",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "The time you spend waiting for something."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "delay",
+    "relation": "base",
+    "definition": "to make something happen later than planned",
+    "example": "Snow delayed our train by an hour.",
+    "syn": [
+     {
+      "to": "postpone",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To move an event to a later time on purpose."
+     },
+     {
+      "to": "defer",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A formal word for postpone.",
+      "register": "formal"
+     },
+     {
+      "to": "slow",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To make something go less fast."
+     }
+    ],
+    "ant": [
+     {
+      "to": "hurry",
+      "relation": "antonym",
+      "note": "To make something happen faster."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "delayed",
+    "relation": "participial",
+    "definition": "arriving or happening later than planned",
+    "example": "Our delayed flight finally left at midnight.",
+    "syn": [
+     {
+      "to": "late",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The easiest word: not on time."
+     },
+     {
+      "to": "overdue",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Later than it should be, often for payments or books."
+     }
+    ],
+    "ant": [
+     {
+      "to": "early",
+      "relation": "antonym",
+      "note": "Before the planned time."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Heavy snow delayed all the buses this morning. Because of the long delay, I was late for my first lesson.",
+   "uses": [
+    "delayed",
+    "delay"
+   ]
+  },
+  "reviewer_note": "Noun/verb conversion pair; delayed as participial adjective."
+ },
+ {
+  "headword": "deliver",
+  "word_id": "6a42816a2098612b1526f91f",
+  "word_ids": [
+   "6a42816a2098612b1526f91f"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Bringing",
+  "sense_pos": "verb",
+  "corpus_definition": "To bring goods or letters to a specific address.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "delivery",
+    "relation": "derivational",
+    "definition": "bringing goods or letters to a person or place",
+    "example": "The shop offers free delivery in the city.",
+    "syn": [
+     {
+      "to": "shipment",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Goods sent together, often by a company."
+     },
+     {
+      "to": "distribution",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Giving things out to many people or places."
+     }
+    ],
+    "ant": [
+     {
+      "to": "collection",
+      "relation": "antonym",
+      "note": "Going to get something yourself."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "deliver",
+    "relation": "base",
+    "definition": "to take goods or letters to the right address",
+    "example": "The post office delivers letters every morning.",
+    "syn": [
+     {
+      "to": "bring",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To come with something to a place; the easiest word."
+     },
+     {
+      "to": "carry",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To hold something while you move it."
+     },
+     {
+      "to": "send",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To make something go to a place; you do not take it yourself."
+     }
+    ],
+    "ant": [
+     {
+      "to": "collect",
+      "relation": "antonym",
+      "note": "To go and get something from a place."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "The bakery delivers fresh bread to our street every day. The delivery always comes before seven o'clock.",
+   "uses": [
+    "delivers",
+    "delivery"
+   ]
+  },
+  "reviewer_note": "deliver = give birth / give a speech not shown; deliverable (business noun) left out as rare for learners."
+ },
+ {
+  "headword": "delivery",
+  "word_id": "6a4288ad6941e70ad6a00e40",
+  "word_ids": [
+   "6a4288ad6941e70ad6a00e40"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Bringing",
+  "sense_pos": "noun",
+  "corpus_definition": "The act of bringing things to a person or place.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "delivery",
+    "relation": "base",
+    "definition": "the act of bringing things to a person or place",
+    "example": "We are waiting for a delivery of new chairs.",
+    "syn": [
+     {
+      "to": "shipment",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Goods sent together, often by a company."
+     },
+     {
+      "to": "distribution",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Giving things out to many people or places."
+     }
+    ],
+    "ant": [
+     {
+      "to": "collection",
+      "relation": "antonym",
+      "note": "Going to get something yourself."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "deliver",
+    "relation": "derivational",
+    "definition": "to take goods or letters to the right address",
+    "example": "Can you deliver the sofa on Saturday?",
+    "note": "The headword is made from this verb: deliver + -y.",
+    "syn": [
+     {
+      "to": "bring",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To come with something to a place; the easiest word."
+     },
+     {
+      "to": "carry",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To hold something while you move it."
+     }
+    ],
+    "ant": [
+     {
+      "to": "collect",
+      "relation": "antonym",
+      "note": "To go and get something from a place."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My order from the online shop arrived this morning. The driver delivered it to my door, and the delivery was free.",
+   "uses": [
+    "delivered",
+    "delivery"
+   ]
+  },
+  "reviewer_note": "Same family as deliver; separate map for the noun headword."
+ },
+ {
+  "headword": "department",
+  "word_id": "6a42821646ba24054c1dcc9d",
+  "word_ids": [
+   "6a42821646ba24054c1dcc9d"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Organization",
+  "sense_pos": "noun",
+  "corpus_definition": "A section of a large organization or business.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "department",
+    "relation": "base",
+    "definition": "one part of a big company, shop, school or government",
+    "example": "My uncle works in the sales department.",
+    "syn": [
+     {
+      "to": "section",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "One part of something bigger."
+     },
+     {
+      "to": "division",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A large part of a company; often bigger than a department."
+     },
+     {
+      "to": "office",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A room or group of people who do one kind of work."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "not_family": [
+     "depart"
+    ],
+    "note": "depart (= leave) shares an old root but has a different meaning today."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "departmental",
+    "relation": "derivational",
+    "definition": "belonging to one part of a company or school",
+    "example": "We have a departmental meeting every Monday.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-al",
+    "in_form": "departmental",
+    "meaning_key": "-al",
+    "also": [
+     "musical",
+     "national",
+     "personal"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My sister works in the history department of a big school. Every Friday she goes to a departmental meeting with the other teachers.",
+   "uses": [
+    "department",
+    "departmental"
+   ]
+  },
+  "reviewer_note": "department store is a compound and left out (Rule 7); depart as not_family."
+ },
+ {
+  "headword": "departure",
+  "word_id": "6a4265fb84a10cdfe9e55da4",
+  "word_ids": [
+   "6a4265fb84a10cdfe9e55da4",
+   "6a6ef9b2a6015561480928a7"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Leaving",
+  "sense_pos": "noun",
+  "corpus_definition": "The act of leaving a place to start a journey.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "departure",
+    "relation": "base",
+    "definition": "the act of leaving a place to start a journey",
+    "example": "Please arrive one hour before departure.",
+    "syn": [
+     {
+      "to": "exit",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Leaving a room or building."
+     },
+     {
+      "to": "takeoff",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The moment a plane leaves the ground."
+     }
+    ],
+    "ant": [
+     {
+      "to": "arrival",
+      "relation": "antonym",
+      "note": "The act of reaching a place."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "depart",
+    "relation": "derivational",
+    "definition": "to leave a place, especially to start a trip",
+    "example": "The train departs from platform two.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "leave",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The easiest everyday word."
+     },
+     {
+      "to": "go",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To move away from a place."
+     }
+    ],
+    "ant": [
+     {
+      "to": "arrive",
+      "relation": "antonym",
+      "note": "To reach a place."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "departing",
+    "relation": "participial",
+    "definition": "leaving a place soon or now",
+    "example": "The screen shows all departing flights.",
+    "syn": [
+     {
+      "to": "outgoing",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Going out or away."
+     }
+    ],
+    "ant": [
+     {
+      "to": "arriving",
+      "relation": "antonym",
+      "note": "Coming to a place."
+     },
+     {
+      "to": "incoming",
+      "relation": "antonym",
+      "note": "Coming in."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Our departure from Tashkent was at six in the morning. The plane departed late because of fog.",
+   "uses": [
+    "departure",
+    "departed"
+   ]
+  },
+  "reviewer_note": "2 rows merged (same meaning, B1). depart marked formal."
+ },
+ {
+  "headword": "descend",
+  "word_id": "6a6ef9b2a601556148092767",
+  "word_ids": [
+   "6a6ef9b2a601556148092767"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Going down",
+  "sense_pos": "verb",
+  "corpus_definition": "to move downward from a higher to a lower place",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "descent",
+    "relation": "derivational",
+    "definition": "a movement from a higher place to a lower one",
+    "example": "The plane began its descent into Bukhara.",
+    "syn": [
+     {
+      "to": "drop",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A fall to a lower level."
+     },
+     {
+      "to": "fall",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Going down quickly, often by accident."
+     }
+    ],
+    "ant": [
+     {
+      "to": "ascent",
+      "relation": "antonym",
+      "note": "A movement up."
+     },
+     {
+      "to": "climb",
+      "relation": "antonym",
+      "note": "Going up with effort."
+     }
+    ],
+    "note": "descent also means your family origin (of Uzbek descent)."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "descend",
+    "relation": "base",
+    "definition": "to move from a higher place to a lower place",
+    "example": "We descended the mountain before dark.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "drop",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To go down to a lower level."
+     },
+     {
+      "to": "fall",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To go down quickly, often by accident."
+     }
+    ],
+    "ant": [
+     {
+      "to": "ascend",
+      "relation": "antonym",
+      "note": "To go up; formal."
+     },
+     {
+      "to": "climb",
+      "relation": "antonym",
+      "note": "To go up with effort."
+     },
+     {
+      "to": "rise",
+      "relation": "antonym",
+      "note": "To move up."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "descending",
+    "relation": "participial",
+    "definition": "going down from higher to lower",
+    "example": "Write the numbers in descending order.",
+    "syn": [
+     {
+      "to": "falling",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Going down."
+     }
+    ],
+    "ant": [
+     {
+      "to": "ascending",
+      "relation": "antonym",
+      "note": "Going up."
+     },
+     {
+      "to": "rising",
+      "relation": "antonym",
+      "note": "Going up."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [
+   {
+    "form": "descendant",
+    "kind": "person",
+    "status": "other_meaning",
+    "definition": "a person who comes from an older member of the same family",
+    "example": "He is a descendant of Amir Temur.",
+    "note": "Belongs to descend = come from a family line, not going down."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "The hikers descended the mountain slowly. The descent took three hours, but the view was beautiful.",
+   "uses": [
+    "descended",
+    "descent"
+   ]
+  },
+  "gate_overrides": [
+   {
+    "msg_contains": "'descendant' is a compound",
+    "reason": "descendant is descend + -ant (a derivation, like assistant), not a compound of two words."
+   }
+  ],
+  "reviewer_note": "Everyday go down / climb down are phrasal; easy synonyms limited. descendant kept as other_meaning person."
+ },
+ {
+  "headword": "design (n)",
+  "word_id": "6a4288ad6941e70ad6a00ec7",
+  "word_ids": [
+   "6a4288ad6941e70ad6a00ec7"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Look",
+  "sense_pos": "noun",
+  "corpus_definition": "The way something looks or is organized.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "design",
+    "relation": "base",
+    "definition": "the way something looks or is planned",
+    "example": "I like the simple design of this phone.",
+    "syn": [
+     {
+      "to": "style",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The way something looks."
+     },
+     {
+      "to": "layout",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "How the parts of a page, room or place are arranged."
+     },
+     {
+      "to": "pattern",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Lines or shapes repeated as decoration."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "design",
+    "relation": "conversion",
+    "definition": "to plan how something will look and work",
+    "example": "She designs clothes for a shop in Tashkent.",
+    "syn": [
+     {
+      "to": "plan",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To decide in detail how to do or make something."
+     },
+     {
+      "to": "create",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make something new."
+     },
+     {
+      "to": "draw",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To make a picture with a pen or pencil."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "designed",
+    "relation": "participial",
+    "definition": "planned and made for a special use",
+    "example": "This bag is designed for long trips.",
+    "syn": [
+     {
+      "to": "planned",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Decided or arranged before."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [
+   {
+    "form": "designer",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person whose job is to plan how things look",
+    "example": "Dilnoza is a fashion designer."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-er",
+    "in_form": "designer",
+    "meaning_key": "-er",
+    "also": [
+     "driver",
+     "teacher",
+     "player"
+    ]
+   }
+  ],
+  "context": {
+   "text": "I really like the design of my new phone. It was designed by a small team in Korea.",
+   "uses": [
+    "design",
+    "designed"
+   ]
+  },
+  "gate_overrides": [
+   {
+    "msg_contains": "headword 'design (n)' is not in its own slot",
+    "reason": "'(n)' is the corpus marker for the noun row; the headword word is design, which is the noun slot's base."
+   },
+   {
+    "msg_contains": "noun 'design' is marked base but differs",
+    "reason": "Same word: the headword only carries the corpus marker '(n)'."
+   },
+   {
+    "msg_contains": "verb 'design' is marked conversion but differs",
+    "reason": "Same spelling as the noun design; '(n)' is only the corpus marker."
+   }
+  ],
+  "reviewer_note": "Headword marked (n) in corpus; noun is the base. designate/designation not family in meaning."
+ },
+ {
+  "headword": "destination",
+  "word_id": "6a4265fb84a10cdfe9e55d76",
+  "word_ids": [
+   "6a4265fb84a10cdfe9e55d76"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Travel",
+  "sense_pos": "noun",
+  "corpus_definition": "The place where someone is going to.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "destination",
+    "relation": "base",
+    "definition": "the place someone or something is going to",
+    "example": "Samarkand is a popular destination for tourists.",
+    "syn": [
+     {
+      "to": "terminus",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The last stop of a bus or train line.",
+      "register": "formal"
+     },
+     {
+      "to": "stop",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A place where a bus or train stops."
+     },
+     {
+      "to": "goal",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Something you want to reach; often not a place."
+     }
+    ],
+    "ant": [
+     {
+      "to": "origin",
+      "relation": "antonym",
+      "note": "The place where something starts."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form"
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "destined",
+    "definition": "certain to happen because of fate",
+    "example": "She felt she was destined to be a doctor.",
+    "note": "Belongs to destine = decide someone's future, not a place you travel to."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "After a long train ride, we finally reached our destination. Khiva was even more beautiful than we expected.",
+   "uses": [
+    "destination"
+   ]
+  },
+  "reviewer_note": "destined (fate) kept as other_meaning; destiny not shown (rare link for learners)."
+ },
+ {
+  "headword": "destroy",
+  "word_id": "6a4282fd46ba24054c1dcd95",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd95"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Damage",
+  "sense_pos": "verb",
+  "corpus_definition": "To break something so it cannot be used again.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "destruction",
+    "relation": "derivational",
+    "definition": "very great damage that leaves nothing useful",
+    "example": "The storm caused terrible destruction.",
+    "syn": [
+     {
+      "to": "damage",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Harm to something; it may still be usable."
+     },
+     {
+      "to": "ruin",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The state of being badly broken."
+     }
+    ],
+    "ant": [
+     {
+      "to": "construction",
+      "relation": "antonym",
+      "note": "Building something."
+     },
+     {
+      "to": "creation",
+      "relation": "antonym",
+      "note": "Making something new."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "destroy",
+    "relation": "base",
+    "definition": "to damage something so badly that it cannot be used",
+    "example": "The fire destroyed the old school.",
+    "syn": [
+     {
+      "to": "ruin",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "To damage something completely."
+     },
+     {
+      "to": "wreck",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To break a car, ship or building badly."
+     },
+     {
+      "to": "demolish",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To knock down a building on purpose."
+     },
+     {
+      "to": "break",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make something go into pieces; the easiest word."
+     }
+    ],
+    "ant": [
+     {
+      "to": "build",
+      "relation": "antonym",
+      "note": "To make a building or thing."
+     },
+     {
+      "to": "create",
+      "relation": "antonym",
+      "note": "To make something new."
+     },
+     {
+      "to": "repair",
+      "relation": "antonym",
+      "note": "To fix something broken."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "destructive",
+    "relation": "derivational",
+    "definition": "causing a lot of damage",
+    "example": "Floods can be very destructive.",
+    "syn": [
+     {
+      "to": "damaging",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Causing harm."
+     },
+     {
+      "to": "harmful",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Bad for people or things."
+     }
+    ],
+    "ant": [
+     {
+      "to": "constructive",
+      "relation": "antonym",
+      "note": "Helpful and useful."
+     },
+     {
+      "to": "harmless",
+      "relation": "antonym",
+      "note": "Not able to cause damage."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "destructively",
+    "relation": "derivational",
+    "definition": "in a way that causes damage",
+    "example": "The angry child behaved destructively.",
+    "syn": [
+     {
+      "to": "harmfully",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "In a way that hurts."
+     }
+    ],
+    "ant": [
+     {
+      "to": "constructively",
+      "relation": "antonym",
+      "note": "In a helpful way."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "form": "destroyer",
+    "kind": "thing",
+    "status": "existing",
+    "definition": "a small, fast ship used in war",
+    "example": "A navy destroyer sailed past the port."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "destructively",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "destroyer",
+    "meaning_key": "-er",
+    "also": [
+     "driver",
+     "teacher",
+     "player"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Last year a big fire destroyed a market in our town. The destruction was terrible, but people rebuilt it quickly.",
+   "uses": [
+    "destroyed",
+    "destruction"
+   ]
+  },
+  "reviewer_note": "destructive/destruction from Latin destruct-; -ive not marked as an affix (destruct is not an everyday word)."
+ }
+]

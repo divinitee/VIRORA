@@ -1,0 +1,1278 @@
+[
+ {
+  "headword": "come across",
+  "word_id": "6a42800cb9d8fc24968a4b49",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b49"
+  ],
+  "cefr": "B2",
+  "kind": "phrasal",
+  "sense_label": "Finding",
+  "sense_pos": "verb",
+  "corpus_definition": "To find something or meet someone by chance.",
+  "particle_note": "Not separable: 'come across an old photo', never 'come an old photo across'. The object always goes after 'across'. Past: came across.",
+  "relations": [
+   {
+    "to": "find",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Find is general; come across means you find it by chance, without looking for it."
+   },
+   {
+    "to": "stumble upon",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Very close: to find something by chance, often something interesting."
+   },
+   {
+    "to": "run into",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Used for people: to meet someone you know by chance."
+   },
+   {
+    "to": "bump into",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Informal, used for people: 'I bumped into my teacher at the bazaar.'",
+    "register": "informal"
+   },
+   {
+    "to": "discover",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Related: to find something new or hidden, by chance or after searching."
+   }
+  ],
+  "context": {
+   "text": "While cleaning the cupboard, Malika came across her grandfather's old letters. Last week she also came across a classmate from school at Chorsu Bazaar.",
+   "uses": [
+    "came across"
+   ]
+  },
+  "reviewer_note": "Only the 'find/meet by chance' sense; 'come across as' (seem) is a different meaning and is left out."
+ },
+ {
+  "headword": "commit",
+  "word_id": "6a42821646ba24054c1dcc66",
+  "word_ids": [
+   "6a42821646ba24054c1dcc66"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Crime",
+  "sense_pos": "verb",
+  "corpus_definition": "to do something wrong or against the law.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "commission",
+    "relation": "derivational",
+    "definition": "the act of doing a crime or something wrong",
+    "example": "He was arrested during the commission of a robbery.",
+    "register": "formal",
+    "note": "Formal in this meaning. The everyday meanings of commission are money paid to a seller, or an official group.",
+    "syn": [
+     {
+      "to": "perpetration",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very formal, used in legal English.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "commitment",
+    "definition": "a promise to do something, or strong support for something",
+    "example": "Teaching every day needs a lot of commitment.",
+    "note": "Belongs to commit = promise or give yourself to something, not doing a crime."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "commit",
+    "relation": "base",
+    "definition": "to do something bad or against the law",
+    "example": "The police believe he committed the crime alone.",
+    "note": "Used with crime, murder, mistake, suicide, an offence.",
+    "syn": [
+     {
+      "to": "carry out",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Neutral; can be used for good actions too, while commit is for bad ones."
+     },
+     {
+      "to": "perpetrate",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very formal, used in news and law.",
+      "register": "formal"
+     },
+     {
+      "to": "do",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy general word; commit shows the action is wrong."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "committed",
+    "definition": "working very hard for something you believe in",
+    "example": "She is a committed teacher who stays late to help students.",
+    "note": "Belongs to commit = give yourself to something, not doing a crime."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb in this family."
+   }
+  ],
+  "people": [
+   {
+    "form": "committee",
+    "kind": "person",
+    "status": "other_meaning",
+    "definition": "a group of people chosen to make plans or decisions",
+    "example": "The school committee meets every Monday.",
+    "note": "Belongs to commit = give a job to someone (old meaning), not doing a crime. A committee is a group of people."
+   },
+   {
+    "form": "commissioner",
+    "kind": "job",
+    "status": "other_meaning",
+    "definition": "an official in charge of a government department or group",
+    "example": "The police commissioner spoke to journalists.",
+    "note": "Goes with commission = an official group, not doing a crime."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "The man who committed the robbery was caught the next day. In court, the judge described the commission of the crime in detail.",
+   "uses": [
+    "committed",
+    "commission"
+   ]
+  },
+  "reviewer_note": "Crime sense only; commitment/committed (promise, dedication), committee and commissioner marked other_meaning."
+ },
+ {
+  "headword": "communication",
+  "word_id": "6a42816a2098612b1526f91d",
+  "word_ids": [
+   "6a42816a2098612b1526f91d",
+   "6a4288ad6941e70ad6a00e49"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "General",
+  "sense_pos": "noun",
+  "corpus_definition": "The act of sharing thoughts or news with others.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "communication",
+    "relation": "base",
+    "definition": "the act of sharing ideas, news and feelings with other people",
+    "example": "Good communication is important in a team.",
+    "note": "The plural communications often means phones, radio and the internet.",
+    "syn": [
+     {
+      "to": "contact",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Contact means you talk or write to someone; communication is the whole sharing of ideas."
+     },
+     {
+      "to": "interaction",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Interaction is any action between people, not only talking."
+     },
+     {
+      "to": "conversation",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A conversation is one talk between people."
+     }
+    ],
+    "ant": [
+     {
+      "to": "miscommunication",
+      "relation": "antonym",
+      "note": "When people do not understand each other correctly."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "communicate",
+    "relation": "derivational",
+    "definition": "to share ideas, news or feelings with other people",
+    "example": "We communicate with our cousins in Moscow by video call.",
+    "syn": [
+     {
+      "to": "talk",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word; talking is one way to share ideas."
+     },
+     {
+      "to": "get in touch",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To start contact with someone by phone, email or letter."
+     },
+     {
+      "to": "convey",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: to make an idea or feeling known to others.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "communicative",
+    "relation": "derivational",
+    "definition": "happy to talk and share information; connected with talking",
+    "example": "The new student is friendly and very communicative.",
+    "syn": [
+     {
+      "to": "talkative",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Talkative means someone talks a lot; communicative means they share information well."
+     },
+     {
+      "to": "open",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: happy to talk about your thoughts and feelings."
+     }
+    ],
+    "ant": [
+     {
+      "to": "uncommunicative",
+      "relation": "antonym",
+      "note": "Not willing to talk or give information."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb; 'communicatively' is rare and used mostly about language teaching."
+   }
+  ],
+  "people": [
+   {
+    "form": "communicator",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who is good at sharing ideas with others",
+    "example": "Our manager is a great communicator."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ion",
+    "in_form": "communication",
+    "meaning_key": "-ion",
+    "also": [
+     "education",
+     "invention",
+     "decision"
+    ]
+   },
+   {
+    "affix": "-ive",
+    "in_form": "communicative",
+    "meaning_key": "-ive",
+    "also": [
+     "creative",
+     "active",
+     "attractive"
+    ]
+   },
+   {
+    "affix": "-or",
+    "in_form": "communicator",
+    "meaning_key": "-or",
+    "also": [
+     "actor",
+     "visitor",
+     "inventor"
+    ]
+   }
+  ],
+  "context": {
+   "text": "In our office, communication between teams is very important. We communicate every morning in a short meeting, and our boss is a clear communicator.",
+   "uses": [
+    "communication",
+    "communicate",
+    "communicator"
+   ]
+  },
+  "reviewer_note": "Two corpus rows with the same meaning merged into one map. Miscommunication and uncommunicative are listed as antonyms, not forms."
+ },
+ {
+  "headword": "comparative",
+  "word_id": "6a6ef83f0f1e82a5a0736720",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736720"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Comparing",
+  "sense_pos": "adjective",
+  "corpus_definition": "Used to judge how two things are different or similar.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "comparison",
+    "relation": "derivational",
+    "definition": "the act of looking at two things to see how they are different or similar",
+    "example": "The teacher made a comparison between city life and village life.",
+    "syn": [
+     {
+      "to": "contrast",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A contrast looks only at the differences between things."
+     },
+     {
+      "to": "analysis",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A careful study of something; a comparison is one kind."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "comparative",
+    "definition": "the form of an adjective that shows more, like bigger or better",
+    "example": "The comparative of 'good' is 'better'.",
+    "note": "Belongs to grammar: the word form used with 'than', not a study that compares things."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "compare",
+    "relation": "derivational",
+    "definition": "to look at two things to see how they are different or similar",
+    "example": "Let's compare the prices in both shops before we buy.",
+    "syn": [
+     {
+      "to": "contrast",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To show the differences between two things."
+     },
+     {
+      "to": "weigh up",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To think carefully about two choices before deciding."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "comparative",
+    "relation": "base",
+    "definition": "studying how two or more things are different or similar",
+    "example": "She wrote a comparative study of schools in Uzbekistan and Kazakhstan.",
+    "syn": [
+     {
+      "to": "contrastive",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used mostly in language study; looks especially at differences.",
+      "register": "formal"
+     },
+     {
+      "to": "relative",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Careful: relative is close to comparative only in phrases like 'relative/comparative peace'."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "comparable",
+    "definition": "similar in size, amount or quality to something else",
+    "example": "Prices in Tashkent are now comparable to prices in Almaty.",
+    "note": "Belongs to compare = be similar to, not a study that compares things."
+   },
+   {
+    "slot": "adverb",
+    "status": "other_meaning",
+    "form": "comparatively",
+    "definition": "more than usual when you think about other things; fairly",
+    "example": "The test was comparatively easy this year.",
+    "note": "Belongs to comparative = relative ('comparatively cheap'), not a study that compares things."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Our class did a comparative project on two cities. We had to compare Bukhara and Samarkand, and the comparison showed many similar old buildings.",
+   "uses": [
+    "comparative",
+    "compare",
+    "comparison"
+   ]
+  },
+  "reviewer_note": "Comparative also names the grammar form (bigger, better); kept as other_meaning noun. Comparatively means 'relatively', so it is other_meaning."
+ },
+ {
+  "headword": "compensate",
+  "word_id": "6a6ef9b2a6015561480927a1",
+  "word_ids": [
+   "6a6ef9b2a6015561480927a1"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Payment",
+  "sense_pos": "verb",
+  "corpus_definition": "to give something to make up for a loss or problem",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "compensation",
+    "relation": "derivational",
+    "definition": "money or something else given to a person because of a loss or damage",
+    "example": "The airline paid us compensation for the lost suitcase.",
+    "syn": [
+     {
+      "to": "payment",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Any money you pay; compensation is paid because of a loss."
+     },
+     {
+      "to": "damages",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Legal word: money a court says someone must pay.",
+      "register": "formal"
+     },
+     {
+      "to": "refund",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A refund gives back the money you paid; compensation can be more."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "compensate",
+    "relation": "base",
+    "definition": "to give someone money or help because they lost something or were hurt",
+    "example": "The company agreed to compensate her for the damaged goods.",
+    "note": "Pattern: compensate someone for something; compensate for = make up for.",
+    "syn": [
+     {
+      "to": "pay back",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy phrase: to return money you owe."
+     },
+     {
+      "to": "make up for",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrasal verb: to do something good after something bad."
+     },
+     {
+      "to": "reimburse",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: to pay back money someone spent.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "compensatory",
+    "relation": "derivational",
+    "definition": "given to a person to make up for a loss or damage",
+    "example": "The workers received a compensatory payment after the factory closed.",
+    "register": "formal",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ation",
+    "in_form": "compensation",
+    "meaning_key": "-ation",
+    "also": [
+     "information",
+     "invitation",
+     "preparation"
+    ]
+   }
+  ],
+  "context": {
+   "text": "When the bus company lost my bag, they agreed to compensate me. The compensation was enough to buy a new bag and new clothes.",
+   "uses": [
+    "compensate",
+    "compensation"
+   ]
+  },
+  "reviewer_note": "Compensatory is formal and rare for learners but real (Oxford, Cambridge); kept as an existing entry."
+ },
+ {
+  "headword": "complicate",
+  "word_id": "6a6ef83f0f1e82a5a0736670",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736670"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "General",
+  "sense_pos": "verb",
+  "corpus_definition": "To make something harder to understand or do.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "complication",
+    "relation": "derivational",
+    "definition": "something that makes a situation more difficult",
+    "example": "There was a complication with our visas, so the trip was late.",
+    "note": "In medicine it also means a new health problem during an illness.",
+    "syn": [
+     {
+      "to": "problem",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy general word; a complication is a problem that makes things harder."
+     },
+     {
+      "to": "difficulty",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Any hard situation or thing."
+     },
+     {
+      "to": "snag",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal: a small problem you did not expect.",
+      "register": "informal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "complicate",
+    "relation": "base",
+    "definition": "to make something harder to understand or do",
+    "example": "Please don't complicate the plan with too many changes.",
+    "syn": [
+     {
+      "to": "make difficult",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrase with the same meaning."
+     },
+     {
+      "to": "confuse",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make something unclear, so people do not understand."
+     }
+    ],
+    "ant": [
+     {
+      "to": "simplify",
+      "relation": "antonym",
+      "note": "To make something easier to understand or do."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "complicated",
+    "relation": "participial",
+    "definition": "having many parts, so it is hard to understand or do",
+    "example": "The rules of this game are very complicated.",
+    "syn": [
+     {
+      "to": "complex",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close; complex is a little more formal."
+     },
+     {
+      "to": "difficult",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: hard to do or understand."
+     },
+     {
+      "to": "confusing",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Hard to understand, not clear."
+     }
+    ],
+    "ant": [
+     {
+      "to": "simple",
+      "relation": "antonym",
+      "note": "Easy to understand or do."
+     },
+     {
+      "to": "straightforward",
+      "relation": "antonym",
+      "note": "Easy and clear, with no problems."
+     },
+     {
+      "to": "uncomplicated",
+      "relation": "antonym",
+      "note": "Simple, without problems."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb; 'complicatedly' is very rare."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ion",
+    "in_form": "complication",
+    "meaning_key": "-ion",
+    "also": [
+     "education",
+     "invention",
+     "decision"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Moving to a new flat was more complicated than we thought. Heavy rain complicated things, and there was another complication: the lift was broken.",
+   "uses": [
+    "complicated",
+    "complicated",
+    "complication"
+   ]
+  },
+  "reviewer_note": "Complex is a synonym but not a family form; uncomplicated is listed as an antonym, not a form."
+ },
+ {
+  "headword": "compliment",
+  "word_id": "6a6ef9b2a601556148092671",
+  "word_ids": [
+   "6a6ef9b2a601556148092671"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Praise",
+  "sense_pos": "noun",
+  "corpus_definition": "Kind words said to someone to show you like something.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "compliment",
+    "relation": "base",
+    "definition": "nice words you say to show you like or admire someone",
+    "example": "She gave me a nice compliment on my dress.",
+    "note": "Don't confuse with complement (something that goes well with another thing); same sound, different spelling.",
+    "syn": [
+     {
+      "to": "praise",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Praise is uncountable and often more serious; a compliment is one nice remark."
+     },
+     {
+      "to": "flattery",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Nice words that are often not true, said to get something."
+     }
+    ],
+    "ant": [
+     {
+      "to": "insult",
+      "relation": "antonym",
+      "note": "Rude words that hurt someone's feelings."
+     },
+     {
+      "to": "criticism",
+      "relation": "antonym",
+      "note": "Words saying what is bad about someone or something."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "compliment",
+    "relation": "conversion",
+    "definition": "to say nice words to show you like or admire someone",
+    "example": "Everyone complimented Aziza on her plov.",
+    "note": "Pattern: compliment someone on something.",
+    "syn": [
+     {
+      "to": "praise",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close; praise is often used for work or actions."
+     },
+     {
+      "to": "flatter",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To say nice things, often not true, to please someone."
+     }
+    ],
+    "ant": [
+     {
+      "to": "insult",
+      "relation": "antonym",
+      "note": "To say rude things to someone."
+     },
+     {
+      "to": "criticize",
+      "relation": "antonym",
+      "note": "To say what is bad about someone. British spelling: criticise."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "complimentary",
+    "relation": "derivational",
+    "definition": "saying nice things that show you admire someone",
+    "example": "My teacher was very complimentary about my essay.",
+    "note": "Also means 'free', as in 'complimentary breakfast' at a hotel.",
+    "syn": [
+     {
+      "to": "admiring",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Showing that you like and respect someone."
+     },
+     {
+      "to": "flattering",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Saying nice things, sometimes more than is true."
+     }
+    ],
+    "ant": [
+     {
+      "to": "critical",
+      "relation": "antonym",
+      "note": "Saying what is bad about someone or something."
+     },
+     {
+      "to": "insulting",
+      "relation": "antonym",
+      "note": "Rude and hurtful."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "At the wedding, guests complimented my aunt on the food. One compliment made her very happy, and everyone was complimentary about the music too.",
+   "uses": [
+    "complimented",
+    "compliment",
+    "complimentary"
+   ]
+  },
+  "reviewer_note": "Spelling trap: compliment (praise) vs complement (match well). The 'free' meaning of complimentary is in the note, not a separate entry."
+ },
+ {
+  "headword": "composer",
+  "word_id": "6a4282fd46ba24054c1dcd6b",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd6b"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Music",
+  "sense_pos": "noun",
+  "corpus_definition": "a person who writes musical pieces.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "composer",
+    "relation": "base",
+    "definition": "a person who writes music, especially for orchestras",
+    "example": "The composer wrote a lovely new symphony.",
+    "syn": [
+     {
+      "to": "songwriter",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A songwriter writes songs, usually pop music; a composer often writes longer pieces."
+     },
+     {
+      "to": "musician",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Anyone who plays or writes music."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "composition",
+    "relation": "derivational",
+    "definition": "a piece of music or writing that someone has created",
+    "example": "This composition was written for the piano.",
+    "syn": [
+     {
+      "to": "piece",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word for one work of music: a piece by Mozart."
+     },
+     {
+      "to": "work",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Anything created by an artist, writer or musician."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "compose",
+    "relation": "derivational",
+    "definition": "to write a piece of music",
+    "example": "He composed his first song when he was ten.",
+    "syn": [
+     {
+      "to": "write",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; compose is used especially for music."
+     },
+     {
+      "to": "create",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make something new."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "composed",
+    "definition": "calm and in control of your feelings",
+    "example": "She stayed composed during the difficult exam.",
+    "note": "Belongs to compose = make yourself calm, not writing music."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb for writing music; 'composedly' (calmly) is rare and belongs to the calm meaning."
+   }
+  ],
+  "people": [],
+  "people_not_family": [
+   "component"
+  ],
+  "affixes": [
+   {
+    "affix": "-er",
+    "in_form": "composer",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "singer",
+     "writer"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Uzbek composers have written beautiful music for film and theatre. One famous composer composed a new piece for the Navruz concert in Tashkent.",
+   "uses": [
+    "composers",
+    "composer",
+    "composed"
+   ]
+  },
+  "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); composition is an extra noun. Composed (calm) is other_meaning. Component shares an old Latin root but is not made from compose, so it is in people_not_family."
+ },
+ {
+  "headword": "composition",
+  "word_id": "6a4282fd46ba24054c1dcd6c",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd6c"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Work",
+  "sense_pos": "noun",
+  "corpus_definition": "a piece of writing or music created by someone.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "composition",
+    "relation": "base",
+    "definition": "a piece of music or writing that someone has created",
+    "example": "She finished her school composition last night.",
+    "note": "Also means what something is made of: 'the composition of the soil'.",
+    "syn": [
+     {
+      "to": "piece",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word for one work of music or art."
+     },
+     {
+      "to": "essay",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A piece of writing for school; composition is a little old-fashioned in this meaning."
+     },
+     {
+      "to": "work",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Anything created by an artist, writer or musician."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "compose",
+    "relation": "derivational",
+    "definition": "to write music, a poem or a letter",
+    "example": "She composed a short poem for her mother's birthday.",
+    "syn": [
+     {
+      "to": "write",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; compose sounds careful and creative."
+     },
+     {
+      "to": "create",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make something new."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "composed",
+    "definition": "calm and in control of your feelings",
+    "example": "He looked composed before his speech.",
+    "note": "Belongs to compose = make yourself calm, not writing music or texts."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb for writing music or texts."
+   }
+  ],
+  "people": [
+   {
+    "form": "composer",
+    "kind": "job",
+    "status": "existing",
+    "definition": "a person who writes music, especially for orchestras",
+    "example": "Mozart is my favourite composer."
+   }
+  ],
+  "people_not_family": [
+   "component"
+  ],
+  "affixes": [
+   {
+    "affix": "-er",
+    "in_form": "composer",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "singer",
+     "writer"
+    ]
+   }
+  ],
+  "context": {
+   "text": "For homework, Dilnoza composed a short song about spring. Her teacher liked the composition so much that she played it for the whole class.",
+   "uses": [
+    "composed",
+    "composition"
+   ]
+  },
+  "reviewer_note": "Kept the 'created work' sense; 'what something is made of' is only in a note. Composed (calm) is other_meaning. Component shares an old Latin root but is not made from compose, so it is in people_not_family."
+ },
+ {
+  "headword": "concept",
+  "word_id": "6a6ef83f0f1e82a5a0736824",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736824"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Idea",
+  "sense_pos": "noun",
+  "corpus_definition": "A general idea or principle.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "concept",
+    "relation": "base",
+    "definition": "a general idea or principle about what something is",
+    "example": "The basic concept is easy to understand.",
+    "syn": [
+     {
+      "to": "idea",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday word with almost the same meaning."
+     },
+     {
+      "to": "notion",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A little formal; often an idea or belief that may not be right."
+     },
+     {
+      "to": "principle",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A basic rule or belief that explains how something works."
+     },
+     {
+      "to": "theory",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A set of ideas that tries to explain something."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "conception",
+    "relation": "derivational",
+    "definition": "an understanding of what something is or should be like",
+    "example": "Children have a different conception of time from adults.",
+    "register": "formal",
+    "note": "Also means the moment a woman becomes pregnant.",
+    "syn": [
+     {
+      "to": "understanding",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: what you know about something."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "conceive",
+    "relation": "derivational",
+    "definition": "to form an idea or plan in your mind",
+    "example": "He conceived the idea for the app while studying in Tashkent.",
+    "register": "formal",
+    "note": "Concept is made from this verb. It also means to become pregnant.",
+    "syn": [
+     {
+      "to": "think up",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrasal verb: to invent an idea or plan."
+     },
+     {
+      "to": "imagine",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make a picture of something in your mind."
+     },
+     {
+      "to": "come up with",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal and common: to think of an idea."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "conceptualize",
+    "relation": "derivational",
+    "definition": "to form a general idea of something in your mind",
+    "example": "It is hard to conceptualize how big the universe is.",
+    "register": "formal",
+    "note": "British spelling: conceptualise.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "conceptual",
+    "relation": "derivational",
+    "definition": "connected with ideas and principles, not real things",
+    "example": "The first part of the course is conceptual; the second part is practical.",
+    "syn": [
+     {
+      "to": "theoretical",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Based on ideas, not on practice."
+     },
+     {
+      "to": "abstract",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "About ideas, not about things you can see or touch."
+     }
+    ],
+    "ant": [
+     {
+      "to": "practical",
+      "relation": "antonym",
+      "note": "About real actions and use, not ideas."
+     },
+     {
+      "to": "concrete",
+      "relation": "antonym",
+      "note": "Real and specific, something you can see or touch."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "conceptually",
+    "relation": "derivational",
+    "definition": "in a way that is connected with ideas and principles",
+    "example": "Conceptually, the plan is simple, but it is hard to do.",
+    "syn": [
+     {
+      "to": "theoretically",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In theory, based on ideas, not on practice."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "conceptually",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "clearly",
+     "usually"
+    ]
+   },
+   {
+    "affix": "-ize",
+    "in_form": "conceptualize",
+    "meaning_key": "-ize",
+    "also": [
+     "organize",
+     "realize",
+     "modernize"
+    ]
+   }
+  ],
+  "context": {
+   "text": "In our first lesson, the teacher explained the concept of saving money. The idea is conceptually simple, but many people find it hard to do.",
+   "uses": [
+    "concept",
+    "conceptually"
+   ]
+  },
+  "reviewer_note": "Concept comes from conceive, so conceive is listed as a family verb; its 'become pregnant' meaning is mentioned in the note."
+ }
+]

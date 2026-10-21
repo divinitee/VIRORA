@@ -1,0 +1,1063 @@
+[
+ {
+  "headword": "vitamin",
+  "word_id": "6a42821646ba24054c1dcce4",
+  "word_ids": [
+   "6a42821646ba24054c1dcce4",
+   "6a4288ad6941e70ad6a00ea1"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Food",
+  "sense_pos": "noun",
+  "corpus_definition": "A natural substance in food that keeps you healthy.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "vitamin",
+    "relation": "base",
+    "definition": "a natural substance in food that your body needs to stay healthy",
+    "example": "Oranges are full of vitamin C.",
+    "note": "British: /ˈvɪtəmɪn/; American: /ˈvaɪtəmɪn/.",
+    "syn": [
+     {
+      "to": "nutrient",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: any substance in food that helps you grow and stay healthy; vitamins are one kind of nutrient."
+     },
+     {
+      "to": "mineral",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: iron and calcium are minerals, not vitamins, but both are needed for good health."
+     },
+     {
+      "to": "supplement",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: a pill or drink you take to get extra vitamins or other things your body needs."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb made from vitamin."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective made from vitamin. Vital (very important) shares an old root but is not made from vitamin.",
+    "not_family": [
+     "vital"
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from vitamin."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "My grandmother in Fergana says apricots are full of vitamins. In winter, when there is less fresh fruit, she gives us vitamin C tablets.",
+   "uses": [
+    "vitamins",
+    "vitamin"
+   ]
+  },
+  "reviewer_note": "Two corpus rows with the same meaning merged. vital listed as not_family (shared Latin root only)."
+ },
+ {
+  "headword": "volunteer",
+  "word_id": "6a6ef83f0f1e82a5a07367f7",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367f7"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Helping",
+  "sense_pos": "noun",
+  "corpus_definition": "someone who works without pay to help other people",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "volunteer",
+    "relation": "base",
+    "definition": "a person who works without pay to help other people",
+    "example": "She is a volunteer at the local hospital.",
+    "syn": [
+     {
+      "to": "unpaid worker",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close, but it does not show that the person chose to help."
+     },
+     {
+      "to": "helper",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: anyone who helps; a helper may be paid or not."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "volunteer",
+    "relation": "conversion",
+    "definition": "to offer to do something without being asked or paid",
+    "example": "Every summer, students volunteer to clean the parks in Tashkent.",
+    "syn": [
+     {
+      "to": "offer",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Offer is general; volunteer usually means doing it for free or by your own choice."
+     },
+     {
+      "to": "come forward",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: to offer help or information, often when people are asked."
+     }
+    ],
+    "ant": [
+     {
+      "to": "refuse",
+      "relation": "antonym",
+      "note": "To say no when you are asked to do something."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "voluntary",
+    "relation": "derivational",
+    "definition": "done because you choose to do it, not because you must",
+    "example": "The extra English lessons are voluntary, but most students come.",
+    "note": "Voluntary work = work done without pay. Same family: volunteer was made from the French form of voluntary.",
+    "syn": [
+     {
+      "to": "optional",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Optional means you can choose; voluntary also suggests you want to do it."
+     },
+     {
+      "to": "unpaid",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: voluntary work is usually unpaid."
+     },
+     {
+      "to": "willing",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: describes a person who is happy to do something."
+     }
+    ],
+    "ant": [
+     {
+      "to": "compulsory",
+      "relation": "antonym",
+      "note": "Something you must do because of a rule or law."
+     },
+     {
+      "to": "obligatory",
+      "relation": "antonym",
+      "note": "Formal word for something you must do."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "voluntarily",
+    "relation": "derivational",
+    "definition": "because you choose to, not because someone makes you",
+    "example": "He left the job voluntarily to start his own business.",
+    "syn": [
+     {
+      "to": "willingly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Willingly also shows that you are happy to do it."
+     },
+     {
+      "to": "freely",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: without anyone controlling or forcing you."
+     },
+     {
+      "to": "by choice",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy everyday phrase with almost the same meaning."
+     }
+    ],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "voluntarily",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "happily",
+     "slowly"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Aziza volunteers at a children's library in Samarkand every Saturday. The work is voluntary, so she gets no money, but she says being a volunteer makes her happy.",
+   "uses": [
+    "volunteers",
+    "voluntary",
+    "volunteer"
+   ]
+  },
+  "reviewer_note": "Headword is itself a person noun, so it stays the main noun entry (rule 6). voluntary/voluntarily kept as family (volunteer is made from voluntary)."
+ },
+ {
+  "headword": "voyage",
+  "word_id": "6a6ef9b2a60155614809289e",
+  "word_ids": [
+   "6a6ef9b2a60155614809289e"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Journey",
+  "sense_pos": "noun",
+  "corpus_definition": "a long journey, especially by sea",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "voyage",
+    "relation": "base",
+    "definition": "a long journey, especially by ship or in space",
+    "example": "The voyage across the Atlantic took three weeks.",
+    "syn": [
+     {
+      "to": "journey",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Journey is general; a voyage is usually long and by sea or in space."
+     },
+     {
+      "to": "sea journey",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrase with the same meaning."
+     },
+     {
+      "to": "crossing",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: a trip across a sea, lake or river, often a short one."
+     },
+     {
+      "to": "cruise",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: a holiday on a large ship that stops at different places."
+     },
+     {
+      "to": "trip",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: a trip is usually shorter and for fun or work."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "voyage",
+    "relation": "conversion",
+    "definition": "to travel a long way, especially by sea",
+    "example": "The explorers voyaged across the ocean to find new lands.",
+    "register": "literary",
+    "syn": [
+     {
+      "to": "sail",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Sail is common and always about boats or ships."
+     },
+     {
+      "to": "travel",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: travel is the everyday word for any journey."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from voyage."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from voyage."
+   }
+  ],
+  "people": [
+   {
+    "form": "voyager",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who goes on a long journey, especially by sea",
+    "example": "The early voyagers had only the stars to guide them.",
+    "register": "literary"
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-er",
+    "in_form": "voyager",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "player",
+     "driver"
+    ]
+   }
+  ],
+  "context": {
+   "text": "In the past, a voyage from Europe to Asia could take months. Voyagers carried food and water for the whole trip, because there were few ports on the way.",
+   "uses": [
+    "voyage",
+    "Voyagers"
+   ]
+  },
+  "reviewer_note": "Verb voyage and voyager are real but literary; marked with register. Uzbekistan has no sea, so the context is historical."
+ },
+ {
+  "headword": "wage",
+  "word_id": "6a42883f6941e70ad6a00dd5",
+  "word_ids": [
+   "6a42883f6941e70ad6a00dd5",
+   "6a6ef83f0f1e82a5a073681f"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Money",
+  "sense_pos": "noun",
+  "corpus_definition": "The regular money paid to a person for their labor.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "wage",
+    "relation": "base",
+    "definition": "the money a worker gets every week or for each hour of work",
+    "example": "He receives a weekly wage for his labor.",
+    "note": "Often plural: 'Wages are low in this factory.' Minimum wage = the lowest pay the law allows.",
+    "syn": [
+     {
+      "to": "pay",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Everyday word for money you get for working."
+     },
+     {
+      "to": "salary",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A salary is paid every month or year, usually for office or professional jobs; a wage is often paid weekly or by the hour."
+     },
+     {
+      "to": "earnings",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "All the money you get from working, sometimes from more than one job."
+     },
+     {
+      "to": "income",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: all the money you get, including from rent or business, not only from work."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "wage",
+    "definition": "to start and continue a war or a fight against something",
+    "example": "The city is waging a campaign against dirty streets.",
+    "note": "Belongs to wage = carry on a war or campaign (wage war), not money for work. Formal."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no common adjective made from wage. British English has the rare formal words waged and unwaged (having / not having paid work)."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from wage."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "My brother works in a shop in Bukhara and gets his wage every Friday. He says the wages are better in Tashkent, so he may move there next year.",
+   "uses": [
+    "wage",
+    "wages"
+   ]
+  },
+  "reviewer_note": "Two rows with the same meaning merged. Verb wage (wage war) is other_meaning. waged/unwaged kept in a note only (rare, formal British). wage earner is a compound, left out."
+ },
+ {
+  "headword": "wander",
+  "word_id": "6a6ef9b2a601556148092696",
+  "word_ids": [
+   "6a6ef9b2a601556148092696"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Walking",
+  "sense_pos": "verb",
+  "corpus_definition": "To walk around slowly without a clear goal or path.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "wander",
+    "relation": "conversion",
+    "definition": "a slow walk around a place, just for pleasure",
+    "example": "Let's go for a wander around the old town.",
+    "register": "informal",
+    "note": "Mostly British English: go for / have a wander.",
+    "syn": [
+     {
+      "to": "stroll",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "A slow, relaxed walk; very close."
+     },
+     {
+      "to": "walk",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "General word; a wander has no fixed direction."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "wander",
+    "relation": "base",
+    "definition": "to walk around slowly with no clear purpose or direction",
+    "example": "They decided to wander through the quiet city streets.",
+    "note": "Don't confuse with wonder (to think about something).",
+    "syn": [
+     {
+      "to": "walk around",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrase; it does not always show that you have no plan."
+     },
+     {
+      "to": "stroll",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Walk slowly and calmly, usually for pleasure."
+     },
+     {
+      "to": "roam",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Move around a large area without a plan, often for a long time."
+     },
+     {
+      "to": "drift",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: move slowly without control, like a boat on water."
+     }
+    ],
+    "ant": [
+     {
+      "to": "hurry",
+      "relation": "antonym",
+      "note": "To move fast because you need to be somewhere."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "wandering",
+    "relation": "participial",
+    "definition": "moving from place to place and not staying anywhere for long",
+    "example": "A wandering dog followed us home.",
+    "syn": [
+     {
+      "to": "roaming",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very close; moving around a wide area."
+     },
+     {
+      "to": "travelling",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: moving from place to place. American spelling: traveling."
+     },
+     {
+      "to": "homeless",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: has no home; used for people and animals."
+     }
+    ],
+    "ant": [
+     {
+      "to": "settled",
+      "relation": "antonym",
+      "note": "Living in one place for a long time."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from wander."
+   }
+  ],
+  "people": [
+   {
+    "form": "wanderer",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who travels from place to place without a home or a plan",
+    "example": "The old wanderer stopped at our village for one night."
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-ing",
+    "in_form": "wandering",
+    "meaning_key": "-ing",
+    "also": [
+     "interesting",
+     "boring",
+     "running"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "wanderer",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "player",
+     "driver"
+    ]
+   }
+  ],
+  "context": {
+   "text": "On Sunday we wandered around the Chorsu Bazaar with no plan at all. A wandering cat followed us from stall to stall, and after our long wander we were hungry.",
+   "uses": [
+    "wandered",
+    "wandering",
+    "wander"
+   ]
+  },
+  "reviewer_note": "Spelling trap: wander vs wonder flagged in the verb note. Noun wander marked informal (mostly British).",
+  "gate_overrides": [
+   {
+    "msg_contains": "noun 'wander': not in the dictionary as a noun",
+    "reason": "wander is a noun in the Oxford and Cambridge learner dictionaries ('go for a wander', informal, mainly British); WordNet 3.1 only lists the verb."
+   }
+  ]
+ },
+ {
+  "headword": "warn",
+  "word_id": "6a4282fd46ba24054c1dcdbf",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcdbf",
+   "6a6ef83f0f1e82a5a073686e"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Danger",
+  "sense_pos": "verb",
+  "corpus_definition": "To tell someone about a possible danger.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "warning",
+    "relation": "derivational",
+    "definition": "something that tells you about a possible danger or problem",
+    "example": "There was a warning on the radio about strong winds.",
+    "syn": [
+     {
+      "to": "alert",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A quick message about danger, often from a phone or the news."
+     },
+     {
+      "to": "caution",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: being careful; also a formal warning, for example from the police."
+     },
+     {
+      "to": "notice",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: written information that tells people something, not always about danger."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "warn",
+    "relation": "base",
+    "definition": "to tell someone that something bad or dangerous may happen",
+    "example": "I tried to warn him about the ice.",
+    "note": "Patterns: warn someone about/of something; warn someone (not) to do something.",
+    "syn": [
+     {
+      "to": "alert",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Tell someone quickly about danger so they can act."
+     },
+     {
+      "to": "caution",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "More formal: tell someone to be careful.",
+      "register": "formal"
+     },
+     {
+      "to": "advise",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: tell someone what you think they should do, not always about danger."
+     },
+     {
+      "to": "tell",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: very general; warn always means telling about danger."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no real adjective made from warn. In 'warning sign' or 'warning light', warning is a noun used before another noun."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no common adverb made from warn; warningly is very rare."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ing",
+    "in_form": "warning",
+    "meaning_key": "-ing",
+    "also": [
+     "meeting",
+     "building",
+     "painting"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The weather service warned people in Tashkent about a dust storm. After the warning, many parents kept their children at home.",
+   "uses": [
+    "warned",
+    "warning"
+   ]
+  },
+  "reviewer_note": "Two rows with the same meaning merged. Adjective slot is no_form: 'warning' before a noun is attributive noun use.",
+  "gate_overrides": [
+   {
+    "msg_contains": "common family noun 'warner'",
+    "reason": "warner is not a learner-dictionary word; its high frequency comes from the name Warner (Warner Bros.), not from warn + -er. Rule 5: only learner-dictionary words."
+   }
+  ]
+ },
+ {
+  "headword": "weird",
+  "word_id": "6a6ef83f0f1e82a5a07367d0",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367d0"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Strange",
+  "sense_pos": "adjective",
+  "corpus_definition": "Very strange or unusual.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "weirdness",
+    "relation": "derivational",
+    "definition": "the quality of being very strange or unusual",
+    "example": "Everyone noticed the weirdness of his behaviour that day.",
+    "syn": [
+     {
+      "to": "strangeness",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning; a little more neutral."
+     },
+     {
+      "to": "oddness",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close; slightly less strong."
+     }
+    ],
+    "ant": [
+     {
+      "to": "normality",
+      "relation": "antonym",
+      "note": "The state of being normal. American English often uses normalcy."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no single-word verb made from weird. Informal English has the phrasal verb weird out ('That film weirded me out')."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "weird",
+    "relation": "base",
+    "definition": "very strange or unusual, and sometimes hard to understand",
+    "example": "That is a very weird color for a car.",
+    "register": "informal",
+    "note": "Spelling trap: e before i (weird), not 'wierd'.",
+    "syn": [
+     {
+      "to": "strange",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Neutral word with the same meaning."
+     },
+     {
+      "to": "odd",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close, but a little less strong."
+     },
+     {
+      "to": "bizarre",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Stronger: very strange and surprising."
+     },
+     {
+      "to": "unusual",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: not common; it can be good or bad."
+     }
+    ],
+    "ant": [
+     {
+      "to": "normal",
+      "relation": "antonym",
+      "note": "Usual and expected."
+     },
+     {
+      "to": "ordinary",
+      "relation": "antonym",
+      "note": "Not special or different in any way."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "weirdly",
+    "relation": "derivational",
+    "definition": "in a very strange or unusual way",
+    "example": "The street was weirdly quiet for a Saturday night.",
+    "syn": [
+     {
+      "to": "strangely",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, more neutral."
+     },
+     {
+      "to": "oddly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Close, a little less strong."
+     }
+    ],
+    "ant": [
+     {
+      "to": "normally",
+      "relation": "antonym",
+      "note": "In the usual or expected way."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "form": "weirdo",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who behaves in a very strange way",
+    "example": "Some kids called him a weirdo, but he didn't care.",
+    "register": "informal",
+    "note": "Can be rude; use with care."
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-ness",
+    "in_form": "weirdness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "sadness",
+     "happiness"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "weirdly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "happily"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Last night I heard a weird noise in the kitchen. The house was weirdly quiet after that, so I turned on all the lights.",
+   "uses": [
+    "weird",
+    "weirdly"
+   ]
+  },
+  "reviewer_note": "weirdo marked informal and possibly rude. weird out (phrasal) mentioned in the verb note only."
+ },
+ {
+  "headword": "work experience",
+  "word_id": "6a42883f6941e70ad6a00dd0",
+  "word_ids": [
+   "6a42883f6941e70ad6a00dd0"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Jobs",
+  "sense_pos": "noun",
+  "corpus_definition": "The skills and knowledge you gained from past jobs.",
+  "usage_note": "Uncountable noun: 'have work experience', 'relevant / previous work experience' (not 'a work experience'). In British English it also means a short time when a student works somewhere to learn about a job: 'do work experience at a bank'.",
+  "relations": [
+   {
+    "to": "experience",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "In job adverts 'experience' alone usually means work experience."
+   },
+   {
+    "to": "background",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Related: your past education and jobs together."
+   },
+   {
+    "to": "track record",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Related: what you have done well (or badly) in the past."
+   },
+   {
+    "to": "internship",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Related: a period of work, often for students, to get work experience."
+   }
+  ],
+  "context": {
+   "text": "Many companies in Tashkent ask for at least two years of work experience. Dilnoza got her first work experience at a bank while she was still at university.",
+   "uses": [
+    "work experience"
+   ]
+  },
+  "reviewer_note": "Fixed noun phrase; uncountable use and the British school sense noted."
+ },
+ {
+  "headword": "workout",
+  "word_id": "6a6ef83f0f1e82a5a073686f",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073686f"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Exercise",
+  "sense_pos": "noun",
+  "corpus_definition": "A series of exercises done to get fit.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "workout",
+    "relation": "base",
+    "definition": "a period of physical exercise that you do to stay fit and strong",
+    "example": "I feel great after my morning workout.",
+    "syn": [
+     {
+      "to": "exercise",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "General word; a workout is one planned session of exercise."
+     },
+     {
+      "to": "training session",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Often used for sports teams and athletes."
+     },
+     {
+      "to": "training",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: regular exercise over a long time to prepare for a sport."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No single-word verb. The verb is the phrasal verb work out (two words): 'I work out at the gym three times a week.'"
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from workout."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from workout."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Every morning before university, Jasur does a short workout in the park. His sister prefers to work out at the gym in the evening.",
+   "uses": [
+    "workout",
+    "work out"
+   ]
+  },
+  "reviewer_note": "Noun is one word (workout); the verb is two words (work out). Verb slot is no_form with that note."
+ },
+ {
+  "headword": "workplace",
+  "word_id": "6a42883f6941e70ad6a00dc7",
+  "word_ids": [
+   "6a42883f6941e70ad6a00dc7"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Jobs",
+  "sense_pos": "noun",
+  "corpus_definition": "The office or building where you do your job.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "workplace",
+    "relation": "base",
+    "definition": "the office, factory or other building where people do their jobs",
+    "example": "Safety is important in every workplace.",
+    "syn": [
+     {
+      "to": "place of work",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, a little more formal."
+     },
+     {
+      "to": "office",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: one kind of workplace, with desks and computers."
+     },
+     {
+      "to": "work",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Everyday English: 'I'm at work' often means 'I'm at my workplace'."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb made from workplace."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from workplace."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from workplace."
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "A good workplace has clean air and friendly people. In our workplace in Namangan, everyone eats lunch together on Fridays.",
+   "uses": [
+    "workplace"
+   ]
+  },
+  "reviewer_note": "Headword is itself a compound; no family forms."
+ }
+]

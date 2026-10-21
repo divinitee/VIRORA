@@ -1,0 +1,532 @@
+[
+ {
+  "headword": "go off",
+  "word_id": "6a42821646ba24054c1dcce7",
+  "word_ids": ["6a42821646ba24054c1dcce7"],
+  "cefr": "B2",
+  "kind": "phrasal",
+  "sense_label": "Food",
+  "sense_pos": "verb",
+  "corpus_definition": "To start to rot or become bad to eat.",
+  "particle_note": "Not separable and has no object: 'The milk has gone off.' Mainly British English; American English usually says 'go bad'.",
+  "relations": [
+   {"to": "go bad", "relation": "synonym", "strength": 0.95, "note": "Same meaning; more common in American English."},
+   {"to": "spoil", "relation": "synonym", "strength": 0.8, "note": "A little more formal: 'The fish will spoil in the heat.'"},
+   {"to": "rot", "relation": "synonym", "strength": 0.8, "note": "Stronger: food that rots is completely bad and often smells."},
+   {"to": "go sour", "relation": "related", "strength": 0.6, "note": "Used mainly for milk that starts to taste bad."}
+  ],
+  "context": {
+   "text": "It was very hot in Tashkent, and the milk went off in one day. Put the meat in the fridge, or it will go off too.",
+   "uses": ["went off", "go off"]
+  },
+  "reviewer_note": "Only the food sense; other senses of go off (an alarm rings, a bomb explodes, someone leaves) are not included."
+ },
+ {
+  "headword": "gossip",
+  "word_id": "6a4282fd46ba24054c1dcdae",
+  "word_ids": ["6a4282fd46ba24054c1dcdae"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Talking",
+  "sense_pos": "verb",
+  "corpus_definition": "To talk about other people's private lives.",
+  "forms": [
+   {
+    "slot": "noun", "status": "existing", "form": "gossip", "relation": "conversion",
+    "definition": "talk or stories about other people's private lives",
+    "example": "I never listen to office gossip about my colleagues.",
+    "note": "Also used for a person who likes to talk about others: 'She is a terrible gossip.'",
+    "syn": [
+     {"to": "rumour", "relation": "related", "strength": 0.6, "note": "A story that may not be true and spreads from person to person. American spelling: rumor."},
+     {"to": "chat", "relation": "related", "strength": 0.4, "note": "Friendly, informal talk; not always about other people.", "register": "informal"}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb", "status": "existing", "form": "gossip", "relation": "base",
+    "definition": "to talk about other people's private lives, often unkindly",
+    "example": "People love to gossip at the office party.",
+    "syn": [
+     {"to": "chat", "relation": "related", "strength": 0.6, "note": "Easy word: to talk in a friendly way, not always about other people.", "register": "informal"},
+     {"to": "chatter", "relation": "related", "strength": 0.6, "note": "To talk quickly and a lot about unimportant things."},
+     {"to": "natter", "relation": "related", "strength": 0.4, "note": "British and informal: to talk for a long time about small things.", "register": "informal"}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective", "status": "existing", "form": "gossipy", "relation": "derivational",
+    "definition": "liking to talk about other people's private lives",
+    "example": "Our gossipy neighbour knows everything about everyone on the street.",
+    "register": "informal",
+    "syn": [
+     {"to": "chatty", "relation": "related", "strength": 0.6, "note": "Likes to talk a lot, but not always about other people.", "register": "informal"},
+     {"to": "talkative", "relation": "related", "strength": 0.4, "note": "Talks a lot; a neutral word."}
+    ],
+    "ant": [
+     {"to": "discreet", "relation": "antonym", "note": "Careful not to tell other people's secrets."}
+    ]
+   },
+   {"slot": "adverb", "status": "no_form", "note": "No common adverb in learner dictionaries."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-y", "in_form": "gossipy", "meaning_key": "-y", "also": ["sleepy", "rainy", "noisy"]}
+  ],
+  "context": {
+   "text": "My aunts love to gossip over tea. They share all the gossip from the mahalla, but my grandmother says it is not kind to be so gossipy.",
+   "uses": ["gossip", "gossip", "gossipy"]
+  },
+  "reviewer_note": "The person sense of gossip (same spelling) is only in the noun note, not repeated in People & things."
+ },
+ {
+  "headword": "grapefruit",
+  "word_id": "6a6ef83f0f1e82a5a0736788",
+  "word_ids": ["6a6ef83f0f1e82a5a0736788"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Fruit",
+  "sense_pos": "noun",
+  "corpus_definition": "A large round yellow citrus fruit with a tart pink or red center.",
+  "forms": [
+   {
+    "slot": "noun", "status": "existing", "form": "grapefruit", "relation": "base",
+    "definition": "a large round yellow citrus fruit with a sour, slightly bitter taste",
+    "example": "I drink fresh grapefruit juice every morning for breakfast.",
+    "note": "The plural is grapefruit or grapefruits.",
+    "syn": [
+     {"to": "citrus fruit", "relation": "related", "strength": 0.4, "note": "The group of fruits that grapefruit belongs to, with oranges and lemons."},
+     {"to": "pomelo", "relation": "related", "strength": 0.4, "note": "A similar fruit, but bigger and sweeter."}
+    ],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "I eat half a grapefruit for breakfast. It is a bit sour, so my little brother always adds some honey to his grapefruit.",
+   "uses": ["grapefruit"]
+  },
+  "reviewer_note": "Single-word food noun; no family forms exist. Not linked to grape."
+ },
+ {
+  "headword": "grasp",
+  "word_id": "6a6ef9b2a60155614809280b",
+  "word_ids": ["6a6ef9b2a60155614809280b"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Understanding",
+  "sense_pos": "verb",
+  "corpus_definition": "To understand something that is hard to learn.",
+  "forms": [
+   {
+    "slot": "noun", "status": "existing", "form": "grasp", "relation": "conversion",
+    "definition": "how well you understand a subject or situation",
+    "example": "She has a very good grasp of English grammar.",
+    "syn": [
+     {"to": "understanding", "relation": "synonym", "strength": 0.8, "note": "Easy, general word with almost the same meaning."},
+     {"to": "knowledge", "relation": "related", "strength": 0.6, "note": "What you know; grasp is about how well you understand it."},
+     {"to": "command", "relation": "related", "strength": 0.6, "note": "Used for languages and skills: 'a good command of English'."}
+    ],
+    "ant": [
+     {"to": "ignorance", "relation": "antonym", "note": "Not knowing or understanding something."}
+    ]
+   },
+   {
+    "slot": "verb", "status": "existing", "form": "grasp", "relation": "base",
+    "definition": "to understand something, especially something difficult",
+    "example": "He could not grasp the main idea of the lesson.",
+    "syn": [
+     {"to": "understand", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word with the same meaning."},
+     {"to": "comprehend", "relation": "synonym", "strength": 0.8, "note": "Formal, often in writing.", "register": "formal"},
+     {"to": "get", "relation": "synonym", "strength": 0.8, "note": "Informal: 'I don't get it.'", "register": "informal"},
+     {"to": "follow", "relation": "related", "strength": 0.6, "note": "To understand an explanation while you listen to it."}
+    ],
+    "ant": [
+     {"to": "misunderstand", "relation": "antonym", "note": "To understand something in the wrong way."}
+    ]
+   },
+   {
+    "slot": "adjective", "status": "other_meaning", "form": "grasping",
+    "definition": "always trying to get more money or things",
+    "example": "The grasping landlord raised the rent again.",
+    "note": "Belongs to grasp = try to take and hold things, here money; it means greedy, not understanding."
+   },
+   {"slot": "adverb", "status": "no_form", "note": "No common adverb."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "At first, Dilnoza could not grasp the new maths topic. After a week of practice, she has a much better grasp of it.",
+   "uses": ["grasp", "grasp"]
+  },
+  "reviewer_note": "Map keeps the 'understand' sense only; the physical 'hold tightly' sense of grasp is left out. grasping (greedy) is other_meaning."
+ },
+ {
+  "headword": "greed",
+  "word_id": "6a6ef9b2a601556148092715",
+  "word_ids": ["6a6ef9b2a601556148092715"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Wanting more",
+  "sense_pos": "noun",
+  "corpus_definition": "A strong wish to have more food, money, or things than needed.",
+  "forms": [
+   {
+    "slot": "noun", "status": "existing", "form": "greed", "relation": "base",
+    "definition": "a strong wish to have more money, food or things than you need",
+    "example": "His greed for gold led to his ruin.",
+    "syn": [
+     {"to": "avarice", "relation": "synonym", "strength": 0.8, "note": "Formal word, used for money and riches.", "register": "formal"},
+     {"to": "selfishness", "relation": "related", "strength": 0.4, "note": "Thinking only about yourself, not only about having more."}
+    ],
+    "ant": [
+     {"to": "generosity", "relation": "antonym", "note": "Being happy to give money, time or things to others."}
+    ]
+   },
+   {
+    "slot": "noun", "status": "existing", "form": "greediness", "relation": "derivational",
+    "definition": "the quality of always wanting more than you need",
+    "example": "Everyone in the village talked about the merchant's greediness.",
+    "note": "Less common than greed.",
+    "syn": [],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form"},
+   {
+    "slot": "adjective", "status": "existing", "form": "greedy", "relation": "derivational",
+    "definition": "wanting more money, food or things than you need",
+    "example": "The greedy boy ate all the sweets and gave none to his sister.",
+    "syn": [
+     {"to": "selfish", "relation": "related", "strength": 0.6, "note": "Easy word: thinking only about yourself."},
+     {"to": "materialistic", "relation": "related", "strength": 0.6, "note": "Caring too much about money and things you can buy."},
+     {"to": "grasping", "relation": "synonym", "strength": 0.8, "note": "Always trying to get more money; a stronger, more negative word."}
+    ],
+    "ant": [
+     {"to": "generous", "relation": "antonym", "note": "Happy to give money, food or time to others."}
+    ]
+   },
+   {
+    "slot": "adverb", "status": "existing", "form": "greedily", "relation": "derivational",
+    "definition": "in a way that shows you want more than you need",
+    "example": "The children ate the cake greedily.",
+    "syn": [
+     {"to": "hungrily", "relation": "related", "strength": 0.6, "note": "Used mainly about eating fast because you are very hungry."},
+     {"to": "selfishly", "relation": "related", "strength": 0.4, "note": "In a way that thinks only about yourself."}
+    ],
+    "ant": [
+     {"to": "generously", "relation": "antonym", "note": "In a way that gives a lot to others."}
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-y", "in_form": "greedy", "meaning_key": "-y", "also": ["sleepy", "rainy", "noisy"]},
+   {"affix": "-ly", "in_form": "greedily", "meaning_key": "-ly", "also": ["quickly", "happily", "slowly"]},
+   {"affix": "-ness", "in_form": "greediness", "meaning_key": "-ness", "also": ["happiness", "kindness", "sadness"]}
+  ],
+  "context": {
+   "text": "My little brother ate all the plov greedily. Mum told him that greed is a bad habit and that greedy children do not get dessert.",
+   "uses": ["greedily", "greed", "greedy"]
+  },
+  "reviewer_note": "greed is the base and greedy is made from it with -y; greediness kept as a less common extra noun."
+ },
+ {
+  "headword": "grief",
+  "word_id": "6a6ef9b2a60155614809277e",
+  "word_ids": ["6a6ef9b2a60155614809277e"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Sadness",
+  "sense_pos": "noun",
+  "corpus_definition": "Extreme sadness, especially when someone you love dies.",
+  "forms": [
+   {
+    "slot": "noun", "status": "existing", "form": "grief", "relation": "base",
+    "definition": "very great sadness, especially when someone you love dies",
+    "example": "He felt great grief after his mother died.",
+    "syn": [
+     {"to": "sorrow", "relation": "synonym", "strength": 0.8, "note": "A little formal; deep sadness for any reason."},
+     {"to": "sadness", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; grief is much stronger."},
+     {"to": "mourning", "relation": "related", "strength": 0.6, "note": "The time and customs of showing sadness after a death."},
+     {"to": "heartache", "relation": "related", "strength": 0.4, "note": "Strong sadness, often about love."}
+    ],
+    "ant": [
+     {"to": "joy", "relation": "antonym", "note": "A feeling of great happiness."},
+     {"to": "happiness", "relation": "antonym", "note": "The feeling of being happy."}
+    ]
+   },
+   {
+    "slot": "noun", "status": "other_meaning", "form": "grievance",
+    "definition": "a complaint about something that you think is unfair",
+    "example": "The workers met the manager to discuss their grievances.",
+    "note": "Belongs to grief = feeling unfairly treated, not sadness after a death."
+   },
+   {
+    "slot": "verb", "status": "existing", "form": "grieve", "relation": "derivational",
+    "definition": "to feel very sad because someone you love has died",
+    "example": "The whole village grieved for the old teacher.",
+    "syn": [
+     {"to": "mourn", "relation": "synonym", "strength": 0.95, "note": "Same meaning; often also means showing your sadness in public."},
+     {"to": "lament", "relation": "related", "strength": 0.4, "note": "Formal or literary: to show sadness, often with words.", "register": "formal"}
+    ],
+    "ant": [
+     {"to": "rejoice", "relation": "antonym", "note": "To feel or show great happiness; a little formal."}
+    ]
+   },
+   {
+    "slot": "adjective", "status": "existing", "form": "grieving", "relation": "participial",
+    "definition": "feeling very sad because someone has died",
+    "example": "The grieving family thanked everyone who came to the funeral.",
+    "syn": [
+     {"to": "heartbroken", "relation": "synonym", "strength": 0.8, "note": "Extremely sad; also used about love."},
+     {"to": "sorrowful", "relation": "related", "strength": 0.6, "note": "Very sad; a literary word.", "register": "literary"}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective", "status": "other_meaning", "form": "grievous",
+    "definition": "very serious and causing great harm or pain",
+    "example": "The driver made a grievous mistake.",
+    "register": "formal",
+    "note": "Belongs to grief = serious harm, not sadness after a death. Formal; often in law: grievous bodily harm."
+   },
+   {
+    "slot": "adverb", "status": "other_meaning", "form": "grievously",
+    "definition": "very seriously or badly",
+    "example": "He was grievously injured in the accident.",
+    "note": "Goes with grievous (serious harm), not sadness. Formal."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ing", "in_form": "grieving", "meaning_key": "-ing", "also": ["interesting", "exciting", "boring"]}
+  ],
+  "context": {
+   "text": "After her grandfather died, Madina was full of grief. The whole family grieved together, and the neighbours brought food to the grieving family.",
+   "uses": ["grief", "grieved", "grieving"]
+  },
+  "reviewer_note": "grievance, grievous, grievously share the root but belong to the 'harm / unfair' meaning, so they are other_meaning."
+ },
+ {
+  "headword": "grind",
+  "word_id": "6a6ef83f0f1e82a5a07366e9",
+  "word_ids": ["6a6ef83f0f1e82a5a07366e9"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Crushing",
+  "sense_pos": "verb",
+  "corpus_definition": "To crush something into small pieces or powder.",
+  "forms": [
+   {
+    "slot": "noun", "status": "other_meaning", "form": "grind",
+    "definition": "hard, boring work that goes on for a long time",
+    "example": "After the holiday, it was back to the daily grind.",
+    "note": "Belongs to grind = tiring, boring work, not crushing food. Informal; usually 'the daily grind'."
+   },
+   {
+    "slot": "verb", "status": "existing", "form": "grind", "relation": "base",
+    "definition": "to crush something into very small pieces or powder",
+    "example": "They grind coffee beans to make fresh drinks.",
+    "note": "Irregular verb: grind, ground, ground.",
+    "syn": [
+     {"to": "crush", "relation": "synonym", "strength": 0.8, "note": "Press hard to break into pieces; the pieces may be bigger."},
+     {"to": "mill", "relation": "synonym", "strength": 0.8, "note": "Grind grain or coffee, often with a machine."},
+     {"to": "pound", "relation": "related", "strength": 0.6, "note": "Hit many times to break something, for example in a bowl."},
+     {"to": "crumble", "relation": "related", "strength": 0.4, "note": "Break something soft, like bread, into small pieces with your fingers."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective", "status": "existing", "form": "ground", "relation": "participial",
+    "definition": "crushed into very small pieces or powder",
+    "example": "Add a spoon of ground black pepper to the soup.",
+    "note": "Don't confuse with the noun ground (the earth under your feet).",
+    "syn": [
+     {"to": "powdered", "relation": "synonym", "strength": 0.8, "note": "Made into powder: powdered milk, powdered sugar."},
+     {"to": "crushed", "relation": "synonym", "strength": 0.8, "note": "Broken by pressing; pieces can be bigger."}
+    ],
+    "ant": [
+     {"to": "whole", "relation": "antonym", "note": "Whole spices or beans are not crushed."}
+    ]
+   },
+   {
+    "slot": "adjective", "status": "other_meaning", "form": "grinding",
+    "definition": "very hard and tiring, and seeming to never end",
+    "example": "Many families lived in grinding poverty.",
+    "note": "Belongs to grind = hard, tiring work, not crushing food. Often in 'grinding poverty'."
+   },
+   {"slot": "adverb", "status": "no_form", "note": "No common adverb."}
+  ],
+  "people": [
+   {
+    "form": "grinder", "kind": "thing", "status": "existing",
+    "definition": "a machine or tool that crushes coffee, pepper or meat",
+    "example": "We bought an electric grinder for our coffee beans."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-er", "in_form": "grinder", "meaning_key": "-er", "also": ["heater", "cooker", "printer"]}
+  ],
+  "context": {
+   "text": "My father grinds coffee beans every morning with a small grinder. He says freshly ground coffee tastes much better.",
+   "uses": ["grinds", "grinder", "ground"]
+  },
+  "reviewer_note": "Trap: participle 'ground' is spelled like the noun ground (earth); noted. Noun grind (daily grind) is other_meaning."
+ },
+ {
+  "headword": "grip",
+  "word_id": "6a6ef83f0f1e82a5a07367ff",
+  "word_ids": ["6a6ef83f0f1e82a5a07367ff"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Holding",
+  "sense_pos": "verb",
+  "corpus_definition": "To hold something very tightly with your hand.",
+  "forms": [
+   {
+    "slot": "noun", "status": "existing", "form": "grip", "relation": "conversion",
+    "definition": "a tight hold on something with your hand",
+    "example": "She kept a firm grip on the rope.",
+    "syn": [
+     {"to": "hold", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; a hold can be gentle."},
+     {"to": "grasp", "relation": "synonym", "strength": 0.8, "note": "A firm hold; also used for understanding."},
+     {"to": "clasp", "relation": "related", "strength": 0.6, "note": "A tight hold, often of someone's hand."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb", "status": "existing", "form": "grip", "relation": "base",
+    "definition": "to hold something very tightly with your hand",
+    "example": "Grip the handle tightly when the bus starts moving.",
+    "syn": [
+     {"to": "hold", "relation": "related", "strength": 0.6, "note": "Easy, general word; you can hold something gently."},
+     {"to": "grasp", "relation": "synonym", "strength": 0.8, "note": "Take and hold firmly."},
+     {"to": "clutch", "relation": "synonym", "strength": 0.8, "note": "Hold tightly, often because you are afraid."},
+     {"to": "clasp", "relation": "related", "strength": 0.6, "note": "Hold tightly, often hands or someone in your arms."}
+    ],
+    "ant": [
+     {"to": "release", "relation": "antonym", "note": "To stop holding something."},
+     {"to": "let go", "relation": "antonym", "note": "Easy phrase: to stop holding something."}
+    ]
+   },
+   {
+    "slot": "adjective", "status": "other_meaning", "form": "gripping",
+    "definition": "so exciting that it holds your attention completely",
+    "example": "It was a gripping film, and nobody left early.",
+    "note": "Belongs to grip = hold your attention, not holding with your hand."
+   },
+   {"slot": "adverb", "status": "no_form", "note": "No common adverb."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Grandpa Bobur still has a strong grip. He can grip a heavy bag of potatoes and carry it all the way home from the bazaar.",
+   "uses": ["grip", "grip"]
+  },
+  "reviewer_note": "gripping (exciting) is other_meaning; noun grip is a same-spelling conversion."
+ },
+ {
+  "headword": "grocer",
+  "word_id": "6a6ef9b2a601556148092768",
+  "word_ids": ["6a6ef9b2a601556148092768"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Shop",
+  "sense_pos": "noun",
+  "corpus_definition": "A person who sells food and small household items in a shop.",
+  "forms": [
+   {
+    "slot": "noun", "status": "existing", "form": "grocer", "relation": "base",
+    "definition": "a person who owns or works in a shop that sells food",
+    "example": "I bought fresh fruit from the local grocer today.",
+    "note": "The grocer's = the grocer's shop (British English).",
+    "syn": [
+     {"to": "shopkeeper", "relation": "related", "strength": 0.6, "note": "Any person who owns a small shop, not only a food shop. American English: storekeeper."}
+    ],
+    "ant": []
+   },
+   {"slot": "verb", "status": "no_form"},
+   {"slot": "adjective", "status": "no_form"},
+   {"slot": "adverb", "status": "no_form"}
+  ],
+  "people": [
+   {
+    "form": "grocery", "kind": "thing", "status": "existing",
+    "definition": "a shop that sells food and things for the house",
+    "example": "There is a small grocery at the end of our street.",
+    "note": "The plural groceries means the food and things you buy there: 'I carried the groceries home.'"
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Our local grocer opens at seven every morning. My mother buys all her groceries there because the prices are fair.",
+   "uses": ["grocer", "groceries"]
+  },
+  "reviewer_note": "Headword is a person noun, so it stays the main noun entry; grocery (shop) and groceries (food) go in People & things. greengrocer is a compound, left out."
+ },
+ {
+  "headword": "growl",
+  "word_id": "6a6ef83f0f1e82a5a07366ea",
+  "word_ids": ["6a6ef83f0f1e82a5a07366ea"],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Sound",
+  "sense_pos": "verb",
+  "corpus_definition": "To make a low, rough sound in the throat.",
+  "forms": [
+   {
+    "slot": "noun", "status": "existing", "form": "growl", "relation": "conversion",
+    "definition": "a low, rough sound from the throat, often of an angry animal",
+    "example": "We heard a growl from behind the gate.",
+    "syn": [
+     {"to": "snarl", "relation": "synonym", "strength": 0.8, "note": "An angry sound, usually with the teeth showing."},
+     {"to": "rumble", "relation": "related", "strength": 0.6, "note": "A long, low sound, like thunder or a hungry stomach."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb", "status": "existing", "form": "growl", "relation": "base",
+    "definition": "to make a low, rough sound in the throat, often angrily",
+    "example": "The hungry dog began to growl softly.",
+    "note": "People can growl too: to say something in a low, angry voice.",
+    "syn": [
+     {"to": "snarl", "relation": "synonym", "strength": 0.8, "note": "Make an angry sound while showing the teeth."},
+     {"to": "rumble", "relation": "related", "strength": 0.6, "note": "Make a long, low sound: 'My stomach is rumbling.'"},
+     {"to": "roar", "relation": "related", "strength": 0.4, "note": "A much louder sound, like a lion."}
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective", "status": "existing", "form": "growling", "relation": "participial",
+    "definition": "making a low, rough sound in the throat",
+    "example": "The growling dog would not let us into the yard.",
+    "syn": [
+     {"to": "snarling", "relation": "synonym", "strength": 0.8, "note": "Angry and showing its teeth."}
+    ],
+    "ant": []
+   },
+   {"slot": "adverb", "status": "no_form", "note": "No common adverb."}
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {"affix": "-ing", "in_form": "growling", "meaning_key": "-ing", "also": ["interesting", "exciting", "boring"]}
+  ],
+  "context": {
+   "text": "Our neighbour's dog growls at everyone who walks past. Last night I heard a loud growl and saw the growling dog near our gate.",
+   "uses": ["growls", "growl", "growling"]
+  },
+  "reviewer_note": "Not related to grow; growl is its own word."
+ }
+]

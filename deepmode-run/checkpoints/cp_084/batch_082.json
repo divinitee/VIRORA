@@ -1,0 +1,817 @@
+[
+ {
+  "headword": "flexible",
+  "word_id": "6a6ef83f0f1e82a5a0736876",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736876"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Changing easily",
+  "sense_pos": "adjective",
+  "corpus_definition": "Able to change or adapt easily to new conditions.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "flexibility",
+    "relation": "derivational",
+    "definition": "the ability to change or bend easily",
+    "example": "This job gives me a lot of flexibility.",
+    "syn": [
+     {
+      "to": "adaptability",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Being able to change for new situations."
+     }
+    ],
+    "ant": [
+     {
+      "to": "rigidity",
+      "relation": "antonym",
+      "note": "Being hard and not able to change."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "not_family": [
+     "flex"
+    ],
+    "note": "flex (to bend a muscle) is the root but not made from flexible."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "flexible",
+    "relation": "base",
+    "definition": "able to change or bend without breaking",
+    "example": "My working hours are flexible.",
+    "syn": [
+     {
+      "to": "adaptable",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Able to change for new situations."
+     },
+     {
+      "to": "elastic",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Able to stretch and go back to its shape."
+     },
+     {
+      "to": "soft",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Not hard; the easiest word."
+     }
+    ],
+    "ant": [
+     {
+      "to": "rigid",
+      "relation": "antonym",
+      "note": "Hard; not able to bend or change."
+     },
+     {
+      "to": "inflexible",
+      "relation": "antonym",
+      "note": "Not able to change."
+     },
+     {
+      "to": "stiff",
+      "relation": "antonym",
+      "note": "Hard to bend."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "flexibly",
+    "relation": "derivational",
+    "definition": "in a way that can change easily",
+    "example": "We need to plan flexibly.",
+    "syn": [],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ity",
+    "in_form": "flexibility",
+    "meaning_key": "-ity",
+    "also": [
+     "ability",
+     "activity",
+     "reality"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My new job has flexible hours, so I can study in the morning. I really like this flexibility.",
+   "uses": [
+    "flexible",
+    "flexibility"
+   ]
+  },
+  "reviewer_note": "Covers bend + change meanings in one map."
+ },
+ {
+  "headword": "flip",
+  "word_id": "6a6ef83f0f1e82a5a0736686",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736686"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Turn over",
+  "sense_pos": "verb",
+  "corpus_definition": "To turn something over very quickly.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "flip",
+    "relation": "conversion",
+    "definition": "a quick turn of something so the other side is up",
+    "example": "We decided with the flip of a coin.",
+    "syn": [
+     {
+      "to": "toss",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A light throw into the air."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "flip",
+    "relation": "base",
+    "definition": "to turn something over quickly",
+    "example": "Flip the pancake after one minute.",
+    "syn": [
+     {
+      "to": "turn",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The easiest word."
+     },
+     {
+      "to": "toss",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To throw lightly into the air."
+     },
+     {
+      "to": "flick",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A small quick movement with your finger."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "My father flipped a coin to choose the winner. After the flip, my sister jumped with joy.",
+   "uses": [
+    "flipped",
+    "flip"
+   ]
+  },
+  "reviewer_note": "flip side / flip-flops not split."
+ },
+ {
+  "headword": "flood",
+  "word_id": "6a42883f6941e70ad6a00e0d",
+  "word_ids": [
+   "6a42883f6941e70ad6a00e0d"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Water",
+  "sense_pos": "noun",
+  "corpus_definition": "Too much water covering land that is usually dry.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "flood",
+    "relation": "base",
+    "definition": "a lot of water covering land that is usually dry",
+    "example": "The flood destroyed many houses.",
+    "syn": [
+     {
+      "to": "deluge",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A very big flood or heavy rain.",
+      "register": "formal"
+     },
+     {
+      "to": "overflow",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Water going over the top of something."
+     }
+    ],
+    "ant": [
+     {
+      "to": "drought",
+      "relation": "antonym",
+      "note": "A long time with no rain."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "flood",
+    "relation": "conversion",
+    "definition": "to cover a place with a lot of water",
+    "example": "The river flooded the village.",
+    "syn": [
+     {
+      "to": "overflow",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To go over the edge."
+     },
+     {
+      "to": "drown",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To cover completely with water."
+     }
+    ],
+    "ant": [
+     {
+      "to": "drain",
+      "relation": "antonym",
+      "note": "To make water flow away."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "flooded",
+    "relation": "participial",
+    "definition": "covered with water",
+    "example": "The flooded roads were closed.",
+    "syn": [
+     {
+      "to": "underwater",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Under the surface of water."
+     }
+    ],
+    "ant": [
+     {
+      "to": "dry",
+      "relation": "antonym",
+      "note": "With no water."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "After three days of rain, there was a big flood in the valley. The river flooded many fields and roads.",
+   "uses": [
+    "flood",
+    "flooded"
+   ]
+  },
+  "reviewer_note": "floodlight, floodwater are compounds (Rule 7), not listed."
+ },
+ {
+  "headword": "fog",
+  "word_id": "6a4282fd46ba24054c1dcd9e",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd9e"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Weather",
+  "sense_pos": "noun",
+  "corpus_definition": "Clouds very close to the ground that make it hard to see.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "fog",
+    "relation": "base",
+    "definition": "thick cloud near the ground that is hard to see through",
+    "example": "The airport closed because of fog.",
+    "syn": [
+     {
+      "to": "mist",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Thin fog."
+     },
+     {
+      "to": "haze",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Light dust or smoke in the air."
+     },
+     {
+      "to": "smog",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Dirty fog in cities."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "fog",
+    "relation": "conversion",
+    "definition": "to become covered with small drops of water",
+    "example": "My glasses fogged up in the warm room.",
+    "note": "Often fog up.",
+    "syn": [
+     {
+      "to": "mist",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To become covered with tiny drops."
+     }
+    ],
+    "ant": [
+     {
+      "to": "clear",
+      "relation": "antonym",
+      "note": "To become easy to see through."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "foggy",
+    "relation": "derivational",
+    "definition": "with a lot of thick cloud near the ground",
+    "example": "It was a cold, foggy morning.",
+    "syn": [
+     {
+      "to": "misty",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "With thin fog."
+     },
+     {
+      "to": "hazy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Not clear because of dust or heat."
+     }
+    ],
+    "ant": [
+     {
+      "to": "clear",
+      "relation": "antonym",
+      "note": "Easy to see through."
+     },
+     {
+      "to": "sunny",
+      "relation": "antonym",
+      "note": "With a lot of sun."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-y",
+    "in_form": "foggy",
+    "meaning_key": "-y",
+    "also": [
+     "sunny",
+     "rainy",
+     "windy"
+    ]
+   }
+  ],
+  "context": {
+   "text": "It was very foggy in Tashkent this morning. The fog was so thick that the buses were late.",
+   "uses": [
+    "foggy",
+    "fog"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "folk",
+  "word_id": "6a6ef83f0f1e82a5a07367d7",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367d7"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "People",
+  "sense_pos": "noun",
+  "corpus_definition": "Ordinary people within a particular group.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "folk",
+    "relation": "base",
+    "definition": "people, especially ordinary people",
+    "example": "Country folk often get up early.",
+    "note": "Often plural folks; 'my folks' = my parents (informal).",
+    "syn": [
+     {
+      "to": "people",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The everyday word."
+     },
+     {
+      "to": "family",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "'My folks' means my family or parents."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form"
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "folk",
+    "relation": "conversion",
+    "definition": "traditional, from the ordinary people of a country",
+    "example": "We learned an old folk dance.",
+    "syn": [
+     {
+      "to": "traditional",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Old and passed from parents to children."
+     }
+    ],
+    "ant": [
+     {
+      "to": "modern",
+      "relation": "antonym",
+      "note": "New, of the present time."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "The old folk in my village tell wonderful stories. At weddings they still dance folk dances.",
+   "uses": [
+    "folk"
+   ]
+  },
+  "reviewer_note": "folklore is a compound (Rule 7)."
+ },
+ {
+  "headword": "folk music",
+  "word_id": "6a42659782466c80f8ae0c9e",
+  "word_ids": [
+   "6a42659782466c80f8ae0c9e"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Music",
+  "sense_pos": "noun",
+  "corpus_definition": "Traditional songs or tunes that come from a specific culture.",
+  "usage_note": "Uncountable: 'I like folk music', not 'a folk music'.",
+  "relations": [
+   {
+    "to": "traditional music",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Music passed down in a country for a long time."
+   },
+   {
+    "to": "pop music",
+    "relation": "antonym",
+    "note": "Modern popular music."
+   }
+  ],
+  "context": {
+   "text": "My grandfather plays Uzbek folk music on the dutar. Many young people listen to folk music again.",
+   "uses": [
+    "folk music"
+   ]
+  },
+  "reviewer_note": "Compound noun treated as a phrase map."
+ },
+ {
+  "headword": "fond",
+  "word_id": "6a6ef83f0f1e82a5a07367ae",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367ae"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Liking",
+  "sense_pos": "adjective",
+  "corpus_definition": "Feeling a strong liking for someone or something.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "fondness",
+    "relation": "derivational",
+    "definition": "a feeling of liking someone or something",
+    "example": "She has a fondness for sweet tea.",
+    "syn": [
+     {
+      "to": "affection",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A gentle feeling of love."
+     },
+     {
+      "to": "liking",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The easy word."
+     }
+    ],
+    "ant": [
+     {
+      "to": "dislike",
+      "relation": "antonym",
+      "note": "A feeling of not liking."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form"
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "fond",
+    "relation": "base",
+    "definition": "feeling warm and kind towards someone or something",
+    "example": "I have fond memories of my school.",
+    "note": "Most often 'be fond of'.",
+    "syn": [
+     {
+      "to": "loving",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Showing love."
+     },
+     {
+      "to": "affectionate",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Showing warm, gentle love."
+     },
+     {
+      "to": "warm",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Kind and friendly."
+     }
+    ],
+    "ant": [
+     {
+      "to": "cold",
+      "relation": "antonym",
+      "note": "Not friendly."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "fondly",
+    "relation": "derivational",
+    "definition": "in a warm, loving way",
+    "example": "She smiled fondly at her grandson.",
+    "syn": [
+     {
+      "to": "lovingly",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "With love."
+     },
+     {
+      "to": "affectionately",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "In a warm, gentle way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "coldly",
+      "relation": "antonym",
+      "note": "In an unfriendly way."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ness",
+    "in_form": "fondness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "happiness",
+     "sadness"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "fondly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
+  ],
+  "context": {
+   "text": "I have fond memories of summers at my grandmother's house. I still remember her garden fondly.",
+   "uses": [
+    "fond",
+    "fondly"
+   ]
+  },
+  "reviewer_note": "fond of has its own phrase map."
+ },
+ {
+  "headword": "fond of",
+  "word_id": "6a42662edeeb39f881130155",
+  "word_ids": [
+   "6a42662edeeb39f881130155"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Liking",
+  "sense_pos": "adjective",
+  "corpus_definition": "To like something or someone very much.",
+  "usage_note": "be fond of + noun or -ing: 'She is fond of cooking.'",
+  "relations": [
+   {
+    "to": "keen on",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Liking something a lot; mainly British."
+   },
+   {
+    "to": "attached to",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Loving someone or something you have had for a long time."
+   },
+   {
+    "to": "crazy about",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Liking something very much; informal."
+   }
+  ],
+  "context": {
+   "text": "My little brother is very fond of animals. He is especially fond of our old cat.",
+   "uses": [
+    "fond of"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "for fun",
+  "word_id": "6a42659782466c80f8ae0cb8",
+  "word_ids": [
+   "6a42659782466c80f8ae0cb8"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Enjoyment",
+  "sense_pos": "adverb",
+  "corpus_definition": "Because you enjoy an activity and do not need money.",
+  "usage_note": "Goes after the verb: 'I play chess for fun.'",
+  "relations": [
+   {
+    "to": "for pleasure",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Because you enjoy it; a little more formal."
+   },
+   {
+    "to": "for a laugh",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "As a joke; informal."
+   },
+   {
+    "to": "on purpose",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Wanting to do it, not by accident."
+   }
+  ],
+  "context": {
+   "text": "I do not play football to win prizes. I just play it for fun with my friends after school.",
+   "uses": [
+    "for fun"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "for instance",
+  "word_id": "6a4265cce20c7210db6908d0",
+  "word_ids": [
+   "6a4265cce20c7210db6908d0"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Examples",
+  "sense_pos": "adverb",
+  "corpus_definition": "Used to introduce an example of what you are talking about.",
+  "usage_note": "Used to give an example; often with commas: 'Some fruits, for instance apples, grow here.'",
+  "relations": [
+   {
+    "to": "for example",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Exactly the same; more common."
+   },
+   {
+    "to": "such as",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Goes straight before the example nouns."
+   },
+   {
+    "to": "like",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Informal way to give an example."
+   }
+  ],
+  "context": {
+   "text": "Uzbekistan has many beautiful cities. For instance, Bukhara and Khiva are famous for their old buildings.",
+   "uses": [
+    "For instance"
+   ]
+  },
+  "reviewer_note": ""
+ }
+]

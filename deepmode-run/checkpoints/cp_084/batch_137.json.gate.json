@@ -1,0 +1,272 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "endangered species",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Fixed noun phrase; plural has the same form. 'Extinct' given as related, not antonym."
+  },
+  {
+   "headword": "enforce",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "adjective definition has rare words: obeyed"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "enforcement"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "enforced"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "No en- affix claimed: enforce is not clearly en- + force for learners. 'Law enforcement' is the most common collocation."
+  },
+  {
+   "headword": "enhance",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "enhancements",
+       "enhancement"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "enhanced"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Enhancer (thing, as in flavour enhancer) left out: not a learner-dictionary headword in Oxford/Cambridge."
+  },
+  {
+   "headword": "enthusiasm",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "verb 'enthuse' is rare (zipf 1.9)"
+    },
+    {
+     "cat": "wrong morphology",
+     "msg": "people 'enthusiast': family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "enthusiastically: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "enthusiasms",
+       "enthusiasm"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "enthused"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Unenthusiastic is placed as antonym, not a form. Enthuse is a back-formation from enthusiasm, still the same family."
+  },
+  {
+   "headword": "enthusiastic about",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Adjective + preposition pattern; followed by noun or -ing."
+  },
+  {
+   "headword": "equality",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: equation, equator, equity"
+    },
+    {
+     "cat": "not shown",
+     "msg": "verb: real words that may be in the family but aren't shown: equate"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "equalities",
+       "equality"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "equalized"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Inequality and unequal placed as antonyms, not forms. Equation/equate share a Latin root but are not made from equal, so they are left out."
+  },
+  {
+   "headword": "equator",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: equation"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "equator: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "equators"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Corpus example does not contain the headword; new example written. No affix claimed on equatorial (equatori- is not a word)."
+  },
+  {
+   "headword": "equip",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: equity"
+    },
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: equal"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: equably, equally. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "equipments",
+       "equipment"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "equipped"
+      ],
+      "VBN": [
+       "equipped"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Equipment is uncountable, noted. Double p in equipped/equipping noted."
+  },
+  {
+   "headword": "era",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "eras"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Single-form family; no derived words exist."
+  },
+  {
+   "headword": "establish",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "establishments",
+       "establishment"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "established"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the 'start an organization' sense; 'establish facts' mentioned in a note. Founder is not family, so People & things is empty."
+  }
+ ]
+}

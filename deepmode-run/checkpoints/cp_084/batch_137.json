@@ -1,0 +1,1257 @@
+[
+ {
+  "headword": "endangered species",
+  "word_id": "6a42883f6941e70ad6a00e13",
+  "word_ids": [
+   "6a42883f6941e70ad6a00e13"
+  ],
+  "cefr": "B2",
+  "kind": "phrase",
+  "sense_label": "Animals",
+  "sense_pos": "noun",
+  "corpus_definition": "A group of animals that might soon die out forever.",
+  "usage_note": "Countable noun phrase: 'an endangered species', 'endangered species' (the plural is the same). Often with 'protect' or 'save': 'protect endangered species'. Can also be used for plants.",
+  "relations": [
+   {
+    "to": "threatened species",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Very close; used by scientists for animals and plants that are in danger but often a little less at risk."
+   },
+   {
+    "to": "wildlife",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Wildlife means all wild animals and plants, not only the ones in danger."
+   },
+   {
+    "to": "extinct",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "An extinct animal has already died out; an endangered species may still be saved."
+   }
+  ],
+  "context": {
+   "text": "The snow leopard is an endangered species, and a few still live in the mountains of Uzbekistan. Rangers work hard to protect endangered species from hunters.",
+   "uses": [
+    "endangered species"
+   ]
+  },
+  "reviewer_note": "Fixed noun phrase; plural has the same form. 'Extinct' given as related, not antonym."
+ },
+ {
+  "headword": "enforce",
+  "word_id": "6a6ef9b2a601556148092891",
+  "word_ids": [
+   "6a6ef9b2a601556148092891"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Rules",
+  "sense_pos": "verb",
+  "corpus_definition": "To make sure that people follow the laws and rules.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "enforcement",
+    "relation": "derivational",
+    "definition": "the act of making people obey laws or rules",
+    "example": "Stricter enforcement of speed limits has made the roads safer.",
+    "syn": [
+     {
+      "to": "application",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: putting a rule into use; enforcement is stronger and often involves the police."
+     },
+     {
+      "to": "implementation",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related and formal: putting a plan or law into action.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "enforce",
+    "relation": "base",
+    "definition": "to make sure that people obey a law or rule",
+    "example": "The police are here to enforce the new traffic laws.",
+    "syn": [
+     {
+      "to": "impose",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Impose means to introduce a rule and force people to accept it."
+     },
+     {
+      "to": "apply",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easier word: to use a rule in a situation; enforce adds the idea of punishment if people do not obey."
+     },
+     {
+      "to": "carry out",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy phrasal verb: to do what a law or plan says."
+     }
+    ],
+    "ant": [
+     {
+      "to": "ignore",
+      "relation": "antonym",
+      "note": "When officials ignore a rule, they do nothing to make people obey it."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "enforceable",
+    "relation": "derivational",
+    "definition": "able to be made legal and obeyed, for example by a court",
+    "example": "This contract is not legally enforceable.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "binding",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A binding agreement must be obeyed by law."
+     },
+     {
+      "to": "valid",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Valid means legally accepted; it is a little wider in meaning."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unenforceable",
+      "relation": "antonym",
+      "note": "A rule that is impossible to make people obey."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No common adverb exists in this family."
+   }
+  ],
+  "people": [
+   {
+    "form": "enforcer",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person whose job is to make others obey rules",
+    "example": "The new manager acted as the enforcer of company rules."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ment",
+    "in_form": "enforcement",
+    "meaning_key": "-ment",
+    "also": [
+     "agreement",
+     "payment",
+     "development"
+    ]
+   },
+   {
+    "affix": "-able",
+    "in_form": "enforceable",
+    "meaning_key": "-able",
+    "also": [
+     "comfortable",
+     "readable",
+     "washable"
+    ]
+   },
+   {
+    "affix": "-er",
+    "in_form": "enforcer",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "driver",
+     "player"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The city of Tashkent decided to enforce the no-smoking rule in parks. Police say enforcement will start next month, and people who break the rule will pay a fine.",
+   "uses": [
+    "enforce",
+    "enforcement"
+   ]
+  },
+  "reviewer_note": "No en- affix claimed: enforce is not clearly en- + force for learners. 'Law enforcement' is the most common collocation."
+ },
+ {
+  "headword": "enhance",
+  "word_id": "6a6ef83f0f1e82a5a0736749",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736749"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Improving",
+  "sense_pos": "verb",
+  "corpus_definition": "To make something better or improve its value.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "enhancement",
+    "relation": "derivational",
+    "definition": "an improvement that makes something better, stronger or more valuable",
+    "example": "The new software includes several security enhancements.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "improvement",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close and more common in everyday English."
+     },
+     {
+      "to": "upgrade",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Often used for computers, phones and machines."
+     },
+     {
+      "to": "boost",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "An increase that helps something; a little informal."
+     }
+    ],
+    "ant": [
+     {
+      "to": "deterioration",
+      "relation": "antonym",
+      "note": "The process of becoming worse."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "enhance",
+    "relation": "base",
+    "definition": "to make something better, stronger or more attractive",
+    "example": "These herbs will enhance the flavor of the soup.",
+    "syn": [
+     {
+      "to": "improve",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday word with almost the same meaning."
+     },
+     {
+      "to": "boost",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Boost means to increase or make stronger; a little informal."
+     },
+     {
+      "to": "increase",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Increase is about size or amount; enhance is about quality."
+     },
+     {
+      "to": "add to",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy phrase: 'The music added to the atmosphere.'"
+     }
+    ],
+    "ant": [
+     {
+      "to": "spoil",
+      "relation": "antonym",
+      "note": "To make something worse or less attractive."
+     },
+     {
+      "to": "reduce",
+      "relation": "antonym",
+      "note": "To make something smaller or less."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "enhanced",
+    "relation": "participial",
+    "definition": "made better, stronger or more advanced than before",
+    "example": "The phone has an enhanced camera with better night photos.",
+    "syn": [
+     {
+      "to": "improved",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easier word with the same meaning."
+     },
+     {
+      "to": "better",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Very easy, general word."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb exists in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ment",
+    "in_form": "enhancement",
+    "meaning_key": "-ment",
+    "also": [
+     "agreement",
+     "payment",
+     "development"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Aziza added fresh herbs to enhance the taste of her plov. Her brother said it was a real enhancement to the old family recipe.",
+   "uses": [
+    "enhance",
+    "enhancement"
+   ]
+  },
+  "reviewer_note": "Enhancer (thing, as in flavour enhancer) left out: not a learner-dictionary headword in Oxford/Cambridge."
+ },
+ {
+  "headword": "enthusiasm",
+  "word_id": "6a6ef83f0f1e82a5a0736852",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736852"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Feeling",
+  "sense_pos": "noun",
+  "corpus_definition": "a feeling of great excitement and interest about something",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "enthusiasm",
+    "relation": "base",
+    "definition": "a strong feeling of excitement and interest in something",
+    "example": "She shows great enthusiasm for her new project.",
+    "syn": [
+     {
+      "to": "eagerness",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Eagerness is a strong wish to do something soon."
+     },
+     {
+      "to": "excitement",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; excitement can be short, enthusiasm usually lasts longer."
+     },
+     {
+      "to": "passion",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Passion is an even stronger feeling of love for an activity."
+     },
+     {
+      "to": "interest",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word, but weaker: you can be interested without being excited."
+     }
+    ],
+    "ant": [
+     {
+      "to": "indifference",
+      "relation": "antonym",
+      "note": "Not caring about something at all."
+     },
+     {
+      "to": "apathy",
+      "relation": "antonym",
+      "note": "Formal: having no interest or energy to do anything."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "enthuse",
+    "relation": "derivational",
+    "definition": "to talk about something in a very excited way",
+    "example": "He enthused about his trip to Khiva for an hour.",
+    "syn": [
+     {
+      "to": "rave",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal: to talk about something you like very much.",
+      "register": "informal"
+     },
+     {
+      "to": "praise",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To say good things about something, but calmly."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "enthusiastic",
+    "relation": "derivational",
+    "definition": "feeling or showing a lot of excitement and interest",
+    "example": "The students were very enthusiastic about the trip.",
+    "syn": [
+     {
+      "to": "eager",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Wanting very much to do something."
+     },
+     {
+      "to": "keen",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Common in British English: 'keen on football'."
+     },
+     {
+      "to": "excited",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; excited is often about a coming event."
+     },
+     {
+      "to": "passionate",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Stronger: you love the activity deeply."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unenthusiastic",
+      "relation": "antonym",
+      "note": "Showing no excitement or interest."
+     },
+     {
+      "to": "indifferent",
+      "relation": "antonym",
+      "note": "Not caring at all."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "enthusiastically",
+    "relation": "derivational",
+    "definition": "in a very excited and interested way",
+    "example": "The crowd cheered enthusiastically when the team scored.",
+    "syn": [
+     {
+      "to": "eagerly",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "With a strong wish to do something."
+     },
+     {
+      "to": "excitedly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word for showing excitement."
+     },
+     {
+      "to": "keenly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "With great interest."
+     }
+    ],
+    "ant": [
+     {
+      "to": "half-heartedly",
+      "relation": "antonym",
+      "note": "Without much interest or effort."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "form": "enthusiast",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who is very interested in a hobby or activity",
+    "example": "My uncle is a car enthusiast and reads every car magazine."
+   }
+  ],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ic",
+    "in_form": "enthusiastic",
+    "meaning_key": "-ic",
+    "also": [
+     "artistic",
+     "historic",
+     "scientific"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our new teacher has so much enthusiasm for English. The class is enthusiastic too, and everyone answers enthusiastically when she asks a question.",
+   "uses": [
+    "enthusiasm",
+    "enthusiastic",
+    "enthusiastically"
+   ]
+  },
+  "reviewer_note": "Unenthusiastic is placed as antonym, not a form. Enthuse is a back-formation from enthusiasm, still the same family."
+ },
+ {
+  "headword": "enthusiastic about",
+  "word_id": "6a4282fd46ba24054c1dcda1",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcda1"
+  ],
+  "cefr": "B2",
+  "kind": "phrase",
+  "sense_label": "Feeling",
+  "sense_pos": "adjective",
+  "corpus_definition": "Feeling very happy and interested in doing something.",
+  "usage_note": "be/feel/seem enthusiastic about + noun or -ing: 'She is enthusiastic about learning Korean.' Also 'very enthusiastic about'.",
+  "relations": [
+   {
+    "to": "keen on",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Very close, common in British English: 'keen on sport'."
+   },
+   {
+    "to": "excited about",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Easy phrase; often about something that will happen soon."
+   },
+   {
+    "to": "passionate about",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Stronger: you love it deeply."
+   },
+   {
+    "to": "interested in",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Easy, but weaker: interest without much excitement."
+   },
+   {
+    "to": "indifferent to",
+    "relation": "antonym",
+    "note": "Not caring about something at all."
+   }
+  ],
+  "context": {
+   "text": "The students are enthusiastic about the science trip to the Tashkent planetarium. Even Bekzod, who is usually quiet, seems enthusiastic about going.",
+   "uses": [
+    "enthusiastic about"
+   ]
+  },
+  "reviewer_note": "Adjective + preposition pattern; followed by noun or -ing."
+ },
+ {
+  "headword": "equality",
+  "word_id": "6a42821646ba24054c1dcc8b",
+  "word_ids": [
+   "6a42821646ba24054c1dcc8b"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Rights",
+  "sense_pos": "noun",
+  "corpus_definition": "the state where everyone has the same rights and opportunities",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "equality",
+    "relation": "base",
+    "definition": "the situation in which all people have the same rights and chances",
+    "example": "We must fight for equality for all people.",
+    "syn": [
+     {
+      "to": "fairness",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word: treating people in a right and honest way."
+     },
+     {
+      "to": "justice",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Fair treatment by the law and society; a wider idea."
+     },
+     {
+      "to": "parity",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: being at the same level, often about pay.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "inequality",
+      "relation": "antonym",
+      "note": "When some people have more rights, money or chances than others."
+     },
+     {
+      "to": "discrimination",
+      "relation": "antonym",
+      "note": "Treating some people worse because of who they are."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "equalize",
+    "relation": "derivational",
+    "definition": "to make things the same in size, amount or level",
+    "example": "The new law aims to equalize pay for men and women.",
+    "note": "British spelling: equalise. In football it also means to score a goal that makes the score level.",
+    "syn": [
+     {
+      "to": "even out",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy phrasal verb: make differences smaller."
+     },
+     {
+      "to": "balance",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make two sides the same in weight or importance."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "equal",
+    "relation": "derivational",
+    "definition": "the same in size, number, value or rights",
+    "example": "All citizens should have equal rights.",
+    "syn": [
+     {
+      "to": "same",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; used with 'the': 'the same rights'."
+     },
+     {
+      "to": "identical",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Exactly the same in every detail."
+     },
+     {
+      "to": "fair",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Fair is about right treatment, not exact sameness."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unequal",
+      "relation": "antonym",
+      "note": "Not the same in size, amount or rights."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "equally",
+    "relation": "derivational",
+    "definition": "in the same way or to the same amount",
+    "example": "The money was shared equally between the three sisters.",
+    "syn": [
+     {
+      "to": "evenly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "In parts of the same size."
+     },
+     {
+      "to": "fairly",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "In a just way; not always the same amount."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unequally",
+      "relation": "antonym",
+      "note": "In a way that is not the same or not fair."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ity",
+    "in_form": "equality",
+    "meaning_key": "-ity",
+    "also": [
+     "ability",
+     "reality",
+     "activity"
+    ]
+   },
+   {
+    "affix": "-ize",
+    "in_form": "equalize",
+    "meaning_key": "-ize",
+    "also": [
+     "organize",
+     "realize",
+     "modernize"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "equally",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our school believes in equality between boys and girls. Every student gets equal time with the teacher, and the prizes are shared equally.",
+   "uses": [
+    "equality",
+    "equal",
+    "equally"
+   ]
+  },
+  "reviewer_note": "Inequality and unequal placed as antonyms, not forms. Equation/equate share a Latin root but are not made from equal, so they are left out."
+ },
+ {
+  "headword": "equator",
+  "word_id": "6a6ef83f0f1e82a5a0736727",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736727"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Earth",
+  "sense_pos": "noun",
+  "corpus_definition": "An imaginary line around the middle of the earth.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "equator",
+    "relation": "base",
+    "definition": "an imaginary line around the middle of the earth",
+    "example": "Countries near the equator are hot all year.",
+    "note": "Usually 'the equator', sometimes with a capital E.",
+    "syn": [
+     {
+      "to": "tropics",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The hot area on both sides of this line, not the line itself."
+     },
+     {
+      "to": "latitude",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Latitude measures how far north or south a place is from this line."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb is made from equator. Equate and equal share an old Latin root but are not made from equator.",
+    "not_family": [
+     "equate",
+     "equal"
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "equatorial",
+    "relation": "derivational",
+    "definition": "near or connected with the imaginary line around the middle of the earth",
+    "example": "The Amazon has a hot, wet equatorial climate.",
+    "syn": [
+     {
+      "to": "tropical",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Tropical covers a wider hot area, not only the middle line."
+     }
+    ],
+    "ant": [
+     {
+      "to": "polar",
+      "relation": "antonym",
+      "note": "Near the North or South Pole, very far from the middle of the earth."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb exists in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Uzbekistan is far north of the equator, so our winters can be cold. My cousin lives in Kenya, where the equatorial sun is strong every day.",
+   "uses": [
+    "equator",
+    "equatorial"
+   ]
+  },
+  "reviewer_note": "Corpus example does not contain the headword; new example written. No affix claimed on equatorial (equatori- is not a word)."
+ },
+ {
+  "headword": "equip",
+  "word_id": "6a6ef83f0f1e82a5a073683f",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073683f"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Supplies",
+  "sense_pos": "verb",
+  "corpus_definition": "to provide a person or place with necessary tools or supplies",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "equipment",
+    "relation": "derivational",
+    "definition": "the tools and machines you need for a job or activity",
+    "example": "The new gym has modern equipment.",
+    "note": "Uncountable: say 'a piece of equipment', not 'an equipment'.",
+    "syn": [
+     {
+      "to": "gear",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal; often for sport or outdoor activities.",
+      "register": "informal"
+     },
+     {
+      "to": "kit",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Common in British English, especially for sport."
+     },
+     {
+      "to": "tools",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word; tools are things you hold in your hand."
+     },
+     {
+      "to": "apparatus",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal, often for science.",
+      "register": "formal"
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "equip",
+    "relation": "base",
+    "definition": "to give a person or place the tools or things they need",
+    "example": "We must equip the team with the right gear.",
+    "note": "Pattern: equip someone/something with something. Spelling: equipped, equipping.",
+    "syn": [
+     {
+      "to": "provide",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Provide someone with something: a little more general."
+     },
+     {
+      "to": "supply",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To give things that people need, often regularly."
+     },
+     {
+      "to": "fit out",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To fill a room, ship or building with what it needs."
+     },
+     {
+      "to": "give",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Very easy, general word."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "equipped",
+    "relation": "participial",
+    "definition": "having the tools, skills or things needed for something",
+    "example": "The hospital is well equipped for emergencies.",
+    "note": "Often 'well equipped' or 'equipped with'.",
+    "syn": [
+     {
+      "to": "prepared",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Ready for something; prepared is more about planning."
+     },
+     {
+      "to": "ready",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word for being able to start."
+     },
+     {
+      "to": "furnished",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Only for rooms or homes with furniture."
+     }
+    ],
+    "ant": [
+     {
+      "to": "ill-equipped",
+      "relation": "antonym",
+      "note": "Not having the tools or skills that you need."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb exists in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ment",
+    "in_form": "equipment",
+    "meaning_key": "-ment",
+    "also": [
+     "agreement",
+     "payment",
+     "development"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Before the hike in the Chimgan mountains, the guide helped us equip ourselves with boots and ropes. All the equipment was checked, so we felt well equipped.",
+   "uses": [
+    "equip",
+    "equipment",
+    "equipped"
+   ]
+  },
+  "reviewer_note": "Equipment is uncountable, noted. Double p in equipped/equipping noted."
+ },
+ {
+  "headword": "era",
+  "word_id": "6a6ef83f0f1e82a5a073674a",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073674a"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "History",
+  "sense_pos": "noun",
+  "corpus_definition": "A long period of time in history.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "era",
+    "relation": "base",
+    "definition": "a long period of history with a special character",
+    "example": "We live in a new era of digital technology.",
+    "syn": [
+     {
+      "to": "period",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word for a length of time."
+     },
+     {
+      "to": "age",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Used in names: the Stone Age, the digital age."
+     },
+     {
+      "to": "epoch",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal or scientific; very long or very important.",
+      "register": "formal"
+     },
+     {
+      "to": "time",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Very easy, general word: 'in Timur's time'."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb exists in this family."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "No adjective exists in this family."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb exists in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [],
+  "context": {
+   "text": "Samarkand was very rich in the Timurid era. Today a new era of tourism is bringing visitors from all over the world.",
+   "uses": [
+    "era"
+   ]
+  },
+  "reviewer_note": "Single-form family; no derived words exist."
+ },
+ {
+  "headword": "establish",
+  "word_id": "6a6ef83f0f1e82a5a073688f",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073688f"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Starting",
+  "sense_pos": "verb",
+  "corpus_definition": "To start a business or organization that will last.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "establishment",
+    "relation": "derivational",
+    "definition": "the act of starting a company or organization",
+    "example": "The establishment of the university took ten years.",
+    "note": "It can also mean a business or organization itself, for example a hotel or restaurant.",
+    "syn": [
+     {
+      "to": "foundation",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The act of starting an organization; a little more formal."
+     },
+     {
+      "to": "creation",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Making something new; wider meaning."
+     },
+     {
+      "to": "setting up",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, everyday phrase."
+     }
+    ],
+    "ant": [
+     {
+      "to": "closure",
+      "relation": "antonym",
+      "note": "When a business or organization stops working for ever."
+     },
+     {
+      "to": "abolition",
+      "relation": "antonym",
+      "note": "Formal: officially ending a system or law."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "establish",
+    "relation": "base",
+    "definition": "to start a company or organization that will last a long time",
+    "example": "They hope to establish a new school soon.",
+    "note": "Another meaning: to find out facts ('establish the cause').",
+    "syn": [
+     {
+      "to": "set up",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy phrasal verb with the same meaning."
+     },
+     {
+      "to": "found",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Usually about schools, cities and companies. Past: founded."
+     },
+     {
+      "to": "start",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Very easy, general word."
+     },
+     {
+      "to": "create",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make something new."
+     }
+    ],
+    "ant": [
+     {
+      "to": "close down",
+      "relation": "antonym",
+      "note": "To stop a business for ever."
+     },
+     {
+      "to": "abolish",
+      "relation": "antonym",
+      "note": "Formal: to officially end a system or law."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "established",
+    "relation": "participial",
+    "definition": "having existed for a long time and accepted by people",
+    "example": "It is an established company with a good name.",
+    "syn": [
+     {
+      "to": "long-standing",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Having existed for a long time."
+     },
+     {
+      "to": "well-known",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy word: many people know about it."
+     },
+     {
+      "to": "accepted",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Thought to be right or normal by most people."
+     }
+    ],
+    "ant": [
+     {
+      "to": "new",
+      "relation": "antonym",
+      "note": "Started only a short time ago."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "No adverb exists in this family."
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ment",
+    "in_form": "establishment",
+    "meaning_key": "-ment",
+    "also": [
+     "agreement",
+     "payment",
+     "development"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My grandfather helped establish a small bakery in Bukhara in 1985. Today it is an established business, and its establishment is still a proud family story.",
+   "uses": [
+    "establish",
+    "established",
+    "establishment"
+   ]
+  },
+  "reviewer_note": "Kept the 'start an organization' sense; 'establish facts' mentioned in a note. Founder is not family, so People & things is empty."
+ }
+]

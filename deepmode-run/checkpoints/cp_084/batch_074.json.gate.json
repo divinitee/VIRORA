@@ -1,0 +1,298 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "crazy about",
+   "kind": "phrase",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Informal register marked; crazy (adj) alone has a different meaning (mad)."
+  },
+  {
+   "headword": "criminal",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "people 'criminologist': family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "wrong morphology",
+     "msg": "people 'criminology': family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "criminal: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "crime: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "criminally: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "criminals"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Rule 6: person-noun headword stays main in the noun slot; crime as extra (source noun)."
+  },
+  {
+   "headword": "criticism",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: crisis"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "critically: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "criticisms",
+       "criticism"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "criticized"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "critical has a second meaning (very important); noted on the entry."
+  },
+  {
+   "headword": "cross out",
+   "kind": "phrasal",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "No true antonym, so none listed."
+  },
+  {
+   "headword": "cruise",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cruises"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "cruised"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "cruiser also means a warship and a US police car; the boat sense is kept."
+  },
+  {
+   "headword": "crush",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "verb: real words that may be in the family but aren't shown: cruise"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "crushed: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "crushed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun crush (love) and crushing (defeat) kept as other_meaning."
+  },
+  {
+   "headword": "cure",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: curious, curly"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: curiously. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "curable: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "cures",
+       "cure"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "cured"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "2 rows merged (same meaning, B1). curator shares an old Latin root but is not made from cure. cure = preserve meat with salt not shown."
+  },
+  {
+   "headword": "curl",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: curious"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: curiously. Check."
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "curly: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "curled: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "curls",
+       "curl"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "curled"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "curlier"
+      ],
+      "JJS": [
+       "curliest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "curl up (sit with legs bent) is a phrasal verb and not shown here."
+  },
+  {
+   "headword": "current",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "False friends for Russian speakers: current is not 'текущий' in the water sense; noun current and currency kept as other_meaning."
+  },
+  {
+   "headword": "curse",
+   "kind": "word",
+   "cefr": "B1",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: curly"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'cursor' (zipf 3.1) may belong here"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "curse: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "cursed: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "curses"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "cursed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "curse = swear (rude words) noted on the verb."
+  }
+ ]
+}

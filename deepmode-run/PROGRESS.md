@@ -28,3 +28,4 @@
 | 080 | 10 | 1 of 10 maps: schema 1 (exhibit repeated in People & things, moved to a note) | all pass gate-4.4 (round 2) | Base44 AI, 2026-10-21. Imported: 10 created, 0 updated, approved:false, 18 gate flags attached. Also imported Claude 107–139 (171 maps: 161 created, 10 updated [107 re-import]). |
 | 082 | 10 | 1 of 10 maps: bad synonym 1 (hazy 0.6 → related) | all pass gate-4.4 (round 2) | Base44 AI, 2026-10-21. folk music as phrase map. Imported: 10 created, 0 updated, approved:false, 11 gate flags attached. |
 | 084 | 10 | none | all pass gate-4.4 (round 1) | Base44 AI, 2026-10-21. global + goods B1/B2 rows merged; habits kept plural (corpus). Imported: 10 created, 0 updated, approved:false, 11 gate flags attached. |
+| checkpoint | 606 | gate_all_outputs (053–139, both sides) | 606/606 pass gate-4.4 | Checkpoint 2026-10-21: outputs copied to checkpoints/cp_084/. This turn imported Base44 074–084 (60 maps) + Claude 107–139 (171 maps). Next even batch: 086. |

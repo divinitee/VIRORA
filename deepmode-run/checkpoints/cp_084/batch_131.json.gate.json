@@ -1,0 +1,322 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "dawn",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "dawns",
+       "dawn"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "dawned"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the time-of-day sense; 'dawn on' (realise) and 'the dawn of' (beginning of an era) are mentioned only in notes."
+  },
+  {
+   "headword": "debt",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "debts",
+       "debt"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two corpus rows with the same meaning share one map. Creditor (the person who is owed) is not made from debt, so it is listed as not family."
+  },
+  {
+   "headword": "decide on",
+   "kind": "phrasal",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "clue collision",
+     "msg": "'choose' is a synonym/related target for decide on, decisive"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "Phrasal verb, not separable; no true antonym, so none listed."
+  },
+  {
+   "headword": "decisive",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "clue collision",
+     "msg": "'choose' is a synonym/related target for decide on, decisive"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "decisiveness"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "decided"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the 'quick to choose' sense; 'decisive = important for the result' is only a note. Indecisive and indecision are listed as antonyms, not forms. No -ive affix claimed: decisive comes from decide with a stem change."
+  },
+  {
+   "headword": "decline",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "declines"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "declined"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the 'go down' sense; 'decline = refuse politely' is only a note on the verb."
+  },
+  {
+   "headword": "deed",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "deeds"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the 'action' sense; the legal-document sense is only a note. Misdeed is listed as an antonym, not a form."
+  },
+  {
+   "headword": "defend",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "defensively: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "override",
+     "msg": "'defendant' is a compound (defend + ant): compounds are left out for now (rule 7), remove it — overridden: defendant is defend + the suffix -ant (like applicant, assistant), not a compound of two words; it is in Oxford and Cambridge learner dictionaries and is shown as other_meaning (court sense)."
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'protection' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'protect' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'guard' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'shield' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'protective' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'helpless' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'vulnerable' is a synonym/related target for defend, defense"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "defenses",
+       "defense"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "defended"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Kept the 'protect' sense; defendant (court) is other_meaning. Spelling defense/defence noted."
+  },
+  {
+   "headword": "defense",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "defensively: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "override",
+     "msg": "'defendant' is a compound (defend + ant): compounds are left out for now (rule 7), remove it — overridden: defendant is defend + the suffix -ant (like applicant, assistant), not a compound of two words; it is in Oxford and Cambridge learner dictionaries and is shown as other_meaning (court sense)."
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'protection' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'protect' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'guard' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'shield' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'protective' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'helpless' is a synonym/related target for defend, defense"
+    },
+    {
+     "cat": "clue collision",
+     "msg": "'vulnerable' is a synonym/related target for defend, defense"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "defenses",
+       "defense"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "defended"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Same family as defend (separate corpus headword). Kept the 'protection' sense; court and sport senses are notes or other_meaning. US/UK spelling noted."
+  },
+  {
+   "headword": "define",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: defence, defiance"
+    },
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: definitive"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adverb: marked 'no such form'; real words that look related: definitively. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "definitions",
+       "definition"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "defined"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Trap: definite/definitely look like family but are not made from define; listed as not_family. No affix claimed for definition (-ition is not in the table)."
+  },
+  {
+   "headword": "deliberate",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "unchecked POS",
+     "msg": "deliberately → 'by accident': phrase, part of speech not confirmed"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "Corpus definition joins two senses (on purpose / slow and careful); one map, sense 'On purpose', with the second sense as a note. Verb deliberate and deliberation are other_meaning (think carefully)."
+  }
+ ]
+}

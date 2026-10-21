@@ -1,0 +1,908 @@
+[
+ {
+  "headword": "await",
+  "word_id": "6a6ef83f0f1e82a5a0736887",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736887"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Waiting",
+  "sense_pos": "verb",
+  "corpus_definition": "To stay in a place until something happens.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "no_form",
+    "note": "No noun is made from await. Use the noun 'wait': 'a long wait for the results'."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "await",
+    "relation": "base",
+    "definition": "to wait for something that is going to happen",
+    "example": "We are awaiting the results of the exam.",
+    "register": "formal",
+    "note": "No preposition after it: await the answer, not 'await for' the answer.",
+    "syn": [
+     {
+      "to": "wait for",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The everyday way to say it; await is more formal."
+     },
+     {
+      "to": "expect",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: you think something will happen, but you are not always waiting for it."
+     },
+     {
+      "to": "anticipate",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Formal: you expect something and often prepare for it.",
+      "register": "formal"
+     },
+     {
+      "to": "look forward to",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Related: you wait for something nice and feel happy about it."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "No adjective. The compound 'long-awaited' (a long-awaited film) is common but is a compound."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Students all over Uzbekistan are awaiting their exam results this week. Aziz is also awaiting a phone call from the university in Tashkent.",
+   "uses": [
+    "awaiting"
+   ]
+  },
+  "reviewer_note": "Formal transitive verb; 'a-' is not a table affix, so no affix is claimed."
+ },
+ {
+  "headword": "aware of",
+  "word_id": "6a4282fd46ba24054c1dcda0",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcda0"
+  ],
+  "cefr": "B2",
+  "kind": "phrase",
+  "sense_label": "Knowing",
+  "sense_pos": "adjective",
+  "corpus_definition": "Knowing about something that is happening or exists.",
+  "usage_note": "be aware of + noun / -ing: 'Are you aware of the problem?' Also: be aware that + clause; well aware of / fully aware of for emphasis. Usually after a verb, not before a noun.",
+  "relations": [
+   {
+    "to": "conscious of",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Very close; conscious of is often about noticing something with your senses or feelings."
+   },
+   {
+    "to": "familiar with",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "You know something well because you have seen or used it before."
+   },
+   {
+    "to": "informed",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "You have been given information about something: 'well informed'."
+   },
+   {
+    "to": "unaware of",
+    "relation": "antonym",
+    "note": "Not knowing about something: 'He was unaware of the danger.'"
+   }
+  ],
+  "context": {
+   "text": "Are you aware of the new bus timetable? Many people in our street were not aware of the change and missed the morning bus.",
+   "uses": [
+    "aware of"
+   ]
+  },
+  "reviewer_note": "Adjective + preposition phrase; noun awareness is not listed because phrases have no forms."
+ },
+ {
+  "headword": "awhile",
+  "word_id": "6a6ef83f0f1e82a5a07367bd",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367bd"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Time",
+  "sense_pos": "adverb",
+  "corpus_definition": "For a short period of time.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "while",
+    "relation": "derivational",
+    "definition": "a period of time, usually not very long",
+    "example": "I waited for a while, but nobody came.",
+    "note": "Awhile is made from 'a' + this noun. After 'for', write two words: for a while.",
+    "syn": [
+     {
+      "to": "time",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word: 'for some time'."
+     },
+     {
+      "to": "moment",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A moment is a very short time."
+     },
+     {
+      "to": "period",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "More formal: 'a period of two weeks'."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb in this meaning. The phrasal verb 'while away' (spend time in a relaxed way) is separate."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "awhile",
+    "relation": "base",
+    "definition": "for a short time",
+    "example": "Sit down and rest awhile before we go.",
+    "note": "Used straight after a verb: stay awhile, rest awhile. Many teachers say 'for awhile' is wrong; write 'for a while'.",
+    "syn": [
+     {
+      "to": "briefly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "For a short time; also used for talking about something quickly."
+     },
+     {
+      "to": "temporarily",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "For a limited time, not forever; more formal."
+     },
+     {
+      "to": "for a bit",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy and informal: 'Wait here for a bit.'",
+      "register": "informal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "forever",
+      "relation": "antonym",
+      "note": "For all time, with no end."
+     },
+     {
+      "to": "permanently",
+      "relation": "antonym",
+      "note": "In a way that lasts for a very long time or always."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "We were tired after the long walk, so we sat by the river and rested awhile. After a while, Dilnoza said it was time to go home.",
+   "uses": [
+    "awhile",
+    "while"
+   ]
+  },
+  "reviewer_note": "CORPUS: the example 'for awhile' is nonstandard in careful writing (prefer 'for a while'); map follows the definition and shows the correct use."
+ },
+ {
+  "headword": "backup",
+  "word_id": "6a4288ad6941e70ad6a00e55",
+  "word_ids": [
+   "6a4288ad6941e70ad6a00e55"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Copy",
+  "sense_pos": "noun",
+  "corpus_definition": "An extra copy of information kept in case of loss.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "backup",
+    "relation": "base",
+    "definition": "an extra copy of computer files kept in case the first is lost",
+    "example": "Always keep a backup of your important files on another drive.",
+    "note": "Also written back-up in British English.",
+    "syn": [
+     {
+      "to": "copy",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; a backup is a copy kept for safety."
+     },
+     {
+      "to": "duplicate",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "An exact copy; a little more formal."
+     },
+     {
+      "to": "spare",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "An extra thing you keep in case you need it, like a spare key or tyre."
+     }
+    ],
+    "ant": [
+     {
+      "to": "original",
+      "relation": "antonym",
+      "note": "The first, real version that copies are made from."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "back up",
+    "relation": "derivational",
+    "definition": "to make an extra copy of computer information",
+    "example": "I back up my photos every Sunday evening.",
+    "note": "As a verb it is written as two words: back up your files / back your files up.",
+    "syn": [
+     {
+      "to": "copy",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "General word; back up means copying so you do not lose the files."
+     },
+     {
+      "to": "save",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: to keep work on a computer; saving once is not the same as keeping a second copy."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "No adjective. Use the noun before another noun: a backup plan, a backup copy."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "My laptop broke last month, but I didn't lose anything because I had a backup on a USB drive. Now I back up my files every week.",
+   "uses": [
+    "backup",
+    "back up"
+   ]
+  },
+  "reviewer_note": "Noun is one word (backup), verb is two (back up); this is the computer-copy sense, not support or a traffic jam."
+ },
+ {
+  "headword": "bad-tempered",
+  "word_id": "6a4282fd46ba24054c1dcdd7",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcdd7"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Mood",
+  "sense_pos": "adjective",
+  "corpus_definition": "Easily becoming angry or annoyed.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "temper",
+    "relation": "derivational",
+    "definition": "a habit of becoming angry very quickly",
+    "example": "My older brother has a terrible temper.",
+    "note": "Common phrases: lose your temper, have a bad temper.",
+    "syn": [
+     {
+      "to": "anger",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Anger is the feeling; this word is about how quickly a person gets angry."
+     },
+     {
+      "to": "irritability",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: the state of getting annoyed easily."
+     }
+    ],
+    "ant": [
+     {
+      "to": "patience",
+      "relation": "antonym",
+      "note": "Staying calm when things are slow or difficult."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "temper",
+    "definition": "to make something less strong or extreme",
+    "example": "She tempered her criticism with a few kind words.",
+    "note": "Belongs to temper = soften or control, not getting angry. Formal."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "bad-tempered",
+    "relation": "base",
+    "definition": "often angry or annoyed, especially for small reasons",
+    "example": "The bad-tempered man shouted at the bus driver.",
+    "syn": [
+     {
+      "to": "grumpy",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal and easy; often about someone in a bad mood for a short time.",
+      "register": "informal"
+     },
+     {
+      "to": "irritable",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Gets annoyed easily, often because of being tired or ill."
+     },
+     {
+      "to": "cross",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "British, a little informal: angry at one moment, not always."
+     },
+     {
+      "to": "moody",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Your mood changes quickly, often to unhappy or angry."
+     }
+    ],
+    "ant": [
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "Not angry or worried."
+     },
+     {
+      "to": "easy-going",
+      "relation": "antonym",
+      "note": "Relaxed and not easily annoyed."
+     },
+     {
+      "to": "patient",
+      "relation": "antonym",
+      "note": "Able to wait or deal with problems without getting angry."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "bad-temperedly",
+    "relation": "derivational",
+    "definition": "in an angry, annoyed way",
+    "example": "He answered bad-temperedly and closed the door.",
+    "syn": [
+     {
+      "to": "angrily",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word."
+     },
+     {
+      "to": "grumpily",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal; in a bad mood.",
+      "register": "informal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "calmly",
+      "relation": "antonym",
+      "note": "In a relaxed way, without anger."
+     },
+     {
+      "to": "patiently",
+      "relation": "antonym",
+      "note": "Without getting annoyed."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ly",
+    "in_form": "bad-temperedly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "angrily",
+     "happily"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Our neighbour is very bad-tempered in the mornings. Yesterday he lost his temper when the children played outside, and he spoke bad-temperedly to everyone.",
+   "uses": [
+    "bad-tempered",
+    "temper",
+    "bad-temperedly"
+   ]
+  },
+  "reviewer_note": "Compound adjective; the noun temper is the base it is made from. Good-tempered/ill-tempered left out of syn/ant because they share the family part.",
+  "gate_overrides": [
+   {
+    "msg_contains": "'bad-temperedly': not in the dictionary",
+    "reason": "bad-temperedly is listed as an adverb under bad-tempered in the Cambridge and Oxford learner dictionaries; WordNet 3.1 lacks hyphenated -ly adverbs."
+   }
+  ]
+ },
+ {
+  "headword": "bait",
+  "word_id": "6a6ef83f0f1e82a5a07366a6",
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07366a6"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Fishing",
+  "sense_pos": "noun",
+  "corpus_definition": "Food used to catch fish or other animals.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "bait",
+    "relation": "base",
+    "definition": "food put on a hook or in a trap to catch fish or animals",
+    "example": "He put some bait on the hook to catch fish.",
+    "note": "Uncountable: some bait, not a bait. Also used for anything that attracts people into a trap.",
+    "syn": [
+     {
+      "to": "lure",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Often a fake fish or object that attracts fish; also used for people."
+     },
+     {
+      "to": "decoy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Something used to trick an animal or person into coming closer."
+     },
+     {
+      "to": "worm",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A common kind of fishing food."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "bait",
+    "relation": "conversion",
+    "definition": "to put food on a hook or in a trap to catch animals",
+    "example": "My grandfather baited the hook with a piece of bread.",
+    "note": "Also means to annoy someone on purpose to make them angry (informal).",
+    "syn": [
+     {
+      "to": "lure",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To attract an animal or person, often with food or a trick."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Every Sunday my uncle goes fishing at Charvak Lake. He baits his hook with bread, because he says it is the best bait for carp.",
+   "uses": [
+    "baits",
+    "bait"
+   ]
+  },
+  "reviewer_note": "Verb bait also means to tease someone on purpose; mentioned in the verb note, map keeps the fishing sense."
+ },
+ {
+  "headword": "bald",
+  "word_id": "6a6ef9b2a601556148092852",
+  "word_ids": [
+   "6a6ef9b2a601556148092852"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Hair",
+  "sense_pos": "adjective",
+  "corpus_definition": "Having no hair on the top of your head.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "baldness",
+    "relation": "derivational",
+    "definition": "the state of having little or no hair on your head",
+    "example": "Baldness often runs in families.",
+    "syn": [
+     {
+      "to": "hair loss",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, common phrase; often used by doctors and in adverts."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "No verb. Say 'go bald' or 'lose your hair'."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "bald",
+    "relation": "base",
+    "definition": "with no hair, or very little hair, on the head",
+    "example": "My grandfather is completely bald.",
+    "syn": [
+     {
+      "to": "hairless",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "With no hair anywhere; less common for people's heads."
+     },
+     {
+      "to": "shaven",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "The hair has been cut off with a razor, on purpose."
+     }
+    ],
+    "ant": [
+     {
+      "to": "hairy",
+      "relation": "antonym",
+      "note": "Having a lot of hair."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "balding",
+    "relation": "derivational",
+    "definition": "starting to lose the hair on your head",
+    "example": "He was a short, balding man in a grey suit.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "other_meaning",
+    "form": "baldly",
+    "definition": "in a very direct way, without trying to be polite",
+    "example": "She told him baldly that his plan would not work.",
+    "note": "Belongs to bald = plain and direct (a bald statement), not about hair."
+   }
+  ],
+  "people": [],
+  "affixes": [
+   {
+    "affix": "-ness",
+    "in_form": "baldness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "happiness",
+     "sadness"
+    ]
+   },
+   {
+    "affix": "-ing",
+    "in_form": "balding",
+    "meaning_key": "-ing",
+    "also": [
+     "smiling",
+     "growing",
+     "running"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My father was already balding at thirty. Now he is completely bald, but he jokes that baldness saves him money at the barber's.",
+   "uses": [
+    "balding",
+    "bald",
+    "baldness"
+   ]
+  },
+  "reviewer_note": "False friend baldly (= bluntly) kept as other_meaning; no verb exists."
+ },
+ {
+  "headword": "bargain",
+  "word_id": "6a42800cb9d8fc24968a4b63",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b63"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Price",
+  "sense_pos": "noun",
+  "corpus_definition": "A good price for something bought.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "bargain",
+    "relation": "base",
+    "definition": "something you buy for less money than usual",
+    "example": "That jacket was a real bargain.",
+    "syn": [
+     {
+      "to": "good deal",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy and very common: 'I got a good deal on this phone.'"
+     },
+     {
+      "to": "steal",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal: something so cheap it is almost free.",
+      "register": "informal"
+     },
+     {
+      "to": "deal",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Related: an agreement or offer; it needs 'good' to mean cheap."
+     }
+    ],
+    "ant": [
+     {
+      "to": "rip-off",
+      "relation": "antonym",
+      "note": "Informal: something that costs much too much."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "bargain",
+    "definition": "to discuss a price with a seller to make it lower",
+    "example": "At Chorsu Bazaar, people often bargain with the sellers.",
+    "note": "Belongs to bargain = an agreement about a price, not a cheap thing you buy."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "No adjective. Use the noun before another noun: bargain prices."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "This bag was a real bargain: only fifty thousand sum at the market. My sister found another bargain at the same shop.",
+   "uses": [
+    "bargain"
+   ]
+  },
+  "reviewer_note": "Sense split: noun = cheap thing (this map); verb bargain = negotiate (agreement sense), shown as other_meaning."
+ },
+ {
+  "headword": "barrel",
+  "word_id": "6a6ef9b2a601556148092879",
+  "word_ids": [
+   "6a6ef9b2a601556148092879"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Container",
+  "sense_pos": "noun",
+  "corpus_definition": "A round container made of wood or metal for storing liquids.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "barrel",
+    "relation": "base",
+    "definition": "a large round container of wood or metal for liquids",
+    "example": "The old barrel was filled with fresh water.",
+    "note": "Also a unit for measuring oil: 'the price of oil per barrel'.",
+    "syn": [
+     {
+      "to": "cask",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "A wooden one, usually for wine or beer."
+     },
+     {
+      "to": "keg",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A small metal one, usually for beer."
+     },
+     {
+      "to": "drum",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A large metal container for oil or chemicals."
+     },
+     {
+      "to": "container",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Easy general word for anything that holds things."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "barrel",
+    "definition": "to move very fast in a way that is hard to control",
+    "example": "The truck came barrelling down the hill.",
+    "note": "Belongs to barrel = move fast (informal), not the container. American spelling: barreling."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "In my grandmother's garden there is a big metal barrel. She collects rain water in the barrel and uses it for her tomatoes.",
+   "uses": [
+    "barrel"
+   ]
+  },
+  "reviewer_note": "Informal verb barrel (move fast) kept as other_meaning."
+ },
+ {
+  "headword": "bay",
+  "word_id": "6a6ef9b2a601556148092817",
+  "word_ids": [
+   "6a6ef9b2a601556148092817"
+  ],
+  "cefr": "B2",
+  "kind": "word",
+  "sense_label": "Sea",
+  "sense_pos": "noun",
+  "corpus_definition": "Part of the sea that goes into the land.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "bay",
+    "relation": "base",
+    "definition": "a part of the sea where the coast curves inwards",
+    "example": "We watched the boats in the bay.",
+    "note": "Often in names: the Bay of Bengal, San Francisco Bay.",
+    "syn": [
+     {
+      "to": "gulf",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Usually much bigger: the Persian Gulf."
+     },
+     {
+      "to": "cove",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A small one, often with a beach."
+     },
+     {
+      "to": "inlet",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A narrow part of the sea or a lake that goes into the land."
+     },
+     {
+      "to": "harbour",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "A safe place for boats near the coast. American spelling: harbor."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "bay",
+    "definition": "(of dogs or wolves) to make a long, deep, loud sound",
+    "example": "The dogs bayed at the moon all night.",
+    "note": "A different word with the same spelling, about dogs, not the sea."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "affixes": [],
+  "context": {
+   "text": "Our hotel in Turkey looked over a quiet bay. Every morning, fishing boats left the bay and came back with fresh fish.",
+   "uses": [
+    "bay"
+   ]
+  },
+  "reviewer_note": "Homonyms: bay (howl) is a separate word, shown as other_meaning with a note; bay window/parking bay left out."
+ }
+]

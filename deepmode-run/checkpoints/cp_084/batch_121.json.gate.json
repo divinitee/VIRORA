@@ -1,0 +1,260 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "await",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: away. Check."
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "awaited"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Formal transitive verb; 'a-' is not a table affix, so no affix is claimed."
+  },
+  {
+   "headword": "aware of",
+   "kind": "phrase",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Adjective + preposition phrase; noun awareness is not listed because phrases have no forms."
+  },
+  {
+   "headword": "awhile",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "unchecked POS",
+     "msg": "awhile → 'for a bit': phrase, part of speech not confirmed"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "CORPUS: the example 'for awhile' is nonstandard in careful writing (prefer 'for a while'); map follows the definition and shows the correct use."
+  },
+  {
+   "headword": "backup",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'backer' (zipf 3.0) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "backups",
+       "backup"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Noun is one word (backup), verb is two (back up); this is the computer-copy sense, not support or a traffic jam."
+  },
+  {
+   "headword": "bad-tempered",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: temperance"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'bad-temperedly' is rare (zipf 0.0)"
+    },
+    {
+     "cat": "person noun in noun slot?",
+     "msg": "noun 'temper' looks like a person/thing noun; rule 8 puts those in People & things"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "bad-temperedly: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "override",
+     "msg": "adverb 'bad-temperedly': not in the dictionary as a adv — overridden: bad-temperedly is listed as an adverb under bad-tempered in the Cambridge and Oxford learner dictionaries; WordNet 3.1 lacks hyphenated -ly adverbs."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "tempers",
+       "temper"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Compound adjective; the noun temper is the base it is made from. Good-tempered/ill-tempered left out of syn/ant because they share the family part."
+  },
+  {
+   "headword": "bait",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "bait: no easy synonym (all below the frequency bar)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "bait: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "bait"
+      ]
+     },
+     "irregular": true
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "baited"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Verb bait also means to tease someone on purpose; mentioned in the verb note, map keeps the fishing sense."
+  },
+  {
+   "headword": "bald",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: balance"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "adverb 'baldly' (other meaning) is rare (zipf 1.9)"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "bald: no easy synonym (all below the frequency bar)"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "baldness"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "balder"
+      ],
+      "JJS": [
+       "baldest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "False friend baldly (= bluntly) kept as other_meaning; no verb exists."
+  },
+  {
+   "headword": "bargain",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "bargains"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Sense split: noun = cheap thing (this map); verb bargain = negotiate (agreement sense), shown as other_meaning."
+  },
+  {
+   "headword": "barrel",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: baric. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "barrels"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Informal verb barrel (move fast) kept as other_meaning."
+  },
+  {
+   "headword": "bay",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "level mismatch",
+     "msg": "noun definition has rare words: inwards"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'bayer' (zipf 3.3) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "bays"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Homonyms: bay (howl) is a separate word, shown as other_meaning with a note; bay window/parking bay left out."
+  }
+ ]
+}
