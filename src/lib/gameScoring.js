@@ -1,4 +1,4 @@
-import { submitReward } from "@/lib/progress/progressClient";
+// XP previews only. progressApi awards persisted XP after verified evidence.
 
 // ---------------------------------------------------------------------------
 // Layer 3.2 of claude/virora-game-template.md — the single source of truth
@@ -78,18 +78,7 @@ export async function recordRoundReward({
   level,
 }) {
   const { baseXp, streakBonus, amount } = computeRoundXp({ itemsCorrect, streakBest, hintMultiplier });
-  // VT-6: XP only. Mastery evidence goes separately through logWordAttempts
-  // (roundComposition.js) -> progressApi.submitEvidence.
-  await submitReward(userEmail, {
-    game,
-    round_id: roundId,
-    level,
-    items_total: itemsTotal,
-    items_correct: itemsCorrect,
-    amount,
-    base_xp: baseXp,
-    streak_best: streakBest,
-    hint_multiplier: hintMultiplier,
-  });
+  // Do not race an independent client-attested reward request against evidence.
+  // logWordAttempts -> submitEvidence now awards authoritative XP server-side.
   return { baseXp, streakBonus, amount, passed: roundPassed(itemsCorrect, itemsTotal) };
 }

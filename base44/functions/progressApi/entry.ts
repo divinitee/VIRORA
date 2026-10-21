@@ -5,6 +5,7 @@ import {
   claimRound, recomputeSkill, rebuildSkill, deriveSkill, readSkillStates, pageAll,
 } from '../../shared/progressEngine.ts';
 import { enrichmentFor } from '../../shared/skillActivityMap.js';
+import { verifiedReward } from '../../shared/rewardCore.js';
 import { childrenOf, TAXONOMY_VERSION } from '../../shared/skillTaxonomy.js';
 import { freshnessFor } from '../../shared/progressCore.js';
 import { rebuildLeafStates, verifyLeafStates } from '../../shared/leafStateEngine.ts';
@@ -105,7 +106,7 @@ async function submitEvidence(svc: any, me: any, body: any) {
   if (!skill) throw new ApiError(400, XP_ONLY_GAMES.includes(r.game) ? 'not_evidence' : 'unknown_game');
   const g: any = await gradeEvidence(svc, me, r, body); // validate BEFORE claiming
   const receipt = await claimRound(svc, me.email, r.round_id, 'evidence');
-  if (!receipt) return { duplicate: true, ...(await readSkillStates(svc, me.email)) };
+  if (!receipt) return { duplicate: true, reward: await awardVerifiedRound(svc, me, r), ...(await readSkillStates(svc, me.email)) };
   const round_at = receipt.round_at;
   let total: number, credit: number;
   if (g.ai) {
@@ -118,6 +119,7 @@ async function submitEvidence(svc: any, me: any, body: any) {
     total = g.rows.length; credit = g.rows.filter((x: any) => x.correct).length;
   }
   await svc.RoundReceipt.update(receipt.id, { status: 'done', game: r.game, skill, items_total: total, items_credit: credit, verification: g.verification });
+  const reward = await awardVerifiedRound(svc, me, r);
   await recomputeSkill(svc, me.email, skill);
   try { await rebuildLeafStates(svc, me.email); } catch (e) { console.error('leaf rebuild failed (ignored)', e); }
   // VT-40 Coach Engine: the ONE evidence pipeline. Item-level rows only (AI receipts have
@@ -134,24 +136,33 @@ async function submitEvidence(svc: any, me: any, body: any) {
       }, { fsrsLib: tsfsrs });
     } catch (e) { console.error('coach applyRound failed (ignored)', e); }
   }
-  return { duplicate: false, observed_pct: Math.round((100 * credit) / total), verification: g.verification, ...(await readSkillStates(svc, me.email)) };
+  return { duplicate: false, reward, observed_pct: Math.round((100 * credit) / total), verification: g.verification, ...(await readSkillStates(svc, me.email)) };
+}
+
+async function awardVerifiedRound(svc: any, me: any, r: any) {
+  const reward = await verifiedReward(svc, me.email, r.game, r.round_id);
+  if (!reward) return { eligible: false, amount: 0 };
+  const receipt = await claimRound(svc, me.email, r.round_id, 'reward');
+  if (!receipt) return { duplicate: true, eligible: true, amount: 0 };
+  await svc.RewardEvent.create({
+    user_email: me.email, game: r.game, round_id: r.round_id, ledger_version: 2, ...reward,
+  });
+  // Only the server may change leaderboard balances; preserve historic XP.
+  if (reward.amount > 0) {
+    const coins = (await svc.UserCoins.filter({ user_id: me.id }, 'created_date', 1))?.[0];
+    if (coins) await svc.UserCoins.updateMany({ id: coins.id }, { $inc: { coins: reward.amount, total_correct: reward.items_correct } });
+    else await svc.UserCoins.create({ user_id: me.id, email: me.email, user_name: me.display_name || me.full_name || me.email, classroom_code: me.classroom_code || '', coins: reward.amount, total_correct: reward.items_correct });
+  }
+  await svc.RoundReceipt.update(receipt.id, { status: 'done', game: r.game });
+  return { duplicate: false, eligible: true, ...reward };
 }
 
 async function submitReward(svc: any, me: any, body: any) {
   const r = base(body);
   if (!GAME_SKILL_MAP[r.game] && !XP_ONLY_GAMES.includes(r.game)) throw new ApiError(400, 'unknown_game');
-  const n = (v: unknown, lo: number, hi: number, d: number) => { const x = Number(v); return Number.isFinite(x) && x >= lo && x <= hi ? x : d; };
-  const items_total = n(body.items_total, 0, 200, 0);
-  const items_correct = Math.min(n(body.items_correct, 0, 200, 0), items_total);
-  const receipt = await claimRound(svc, me.email, r.round_id, 'reward');
-  if (!receipt) return { duplicate: true };
-  await svc.RewardEvent.create({
-    user_email: me.email, game: r.game, round_id: r.round_id, level: r.level, ledger_version: 2,
-    items_total, items_correct, amount: n(body.amount, 0, 2000, 0), base_xp: n(body.base_xp, 0, 2000, 0),
-    streak_best: Math.min(n(body.streak_best, 0, 200, 0), items_total), hint_multiplier: n(body.hint_multiplier, 0, 1, 1),
-  });
-  await svc.RoundReceipt.update(receipt.id, { status: 'done', game: r.game });
-  return { duplicate: false };
+  const result = await awardVerifiedRound(svc, me, r);
+  if (!result.eligible) throw new ApiError(422, 'verified_evidence_required');
+  return result;
 }
 
 async function getSkillState(svc: any, me: any, body: any) {

@@ -168,9 +168,12 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
     // UserCoins is the underlying storage entity for XP — kept unchanged
     // internally to avoid a data migration; every user-facing surface
     // presents it purely as XP now (see i18n + game components).
-    base44.entities.UserCoins.filter({ user_id: user.id }).then((res) => {
-      if (res.length > 0) setUserXp(res[0]);
+    const refresh = () => base44.entities.UserCoins.filter({ user_id: user.id }).then((res) => {
+      setUserXp(res[0] || null);
     });
+    refresh();
+    window.addEventListener("virora:reward-saved", refresh);
+    return () => window.removeEventListener("virora:reward-saved", refresh);
   }, [user]);
 
   // What games actually get. Skill Hub is consolidation — a student's own
@@ -180,31 +183,9 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
   const studentLevel = useMemo(() => levelOf(user), [user]);
   const poolWords = useMemo(() => wordsForLevel(words, studentLevel), [words, studentLevel]);
 
-  const handleXpEarned = async (earned, correctCount) => {
-    if (!user || earned === 0) return;
-    try {
-      if (userXp) {
-        const updated = await base44.entities.UserCoins.update(userXp.id, {
-          coins: (userXp.coins || 0) + earned,
-          total_correct: (userXp.total_correct || 0) + correctCount,
-          user_name: resolveUserNameOrEmail(user),
-        });
-        setUserXp(updated);
-      } else {
-        const created = await base44.entities.UserCoins.create({
-          user_id: user.id,
-          user_name: resolveUserNameOrEmail(user),
-          email: user.email,
-          classroom_code: user.classroom_code || "",
-          coins: earned,
-          total_correct: correctCount,
-        });
-        setUserXp(created);
-      }
-    } catch (e) {
-      console.error(e);
-    }
-  };
+  // Game callbacks are previews, not authority to persist or increase balances.
+  // The reward-saved event refreshes XP after the evidence response arrives.
+  const handleXpEarned = () => {};
 
   const handleGameComplete = (result) => {
     if (!activeGame) return;

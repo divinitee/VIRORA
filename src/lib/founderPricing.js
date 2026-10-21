@@ -44,14 +44,15 @@ export const PRICE_STAGES = [
     id: "founder",
     // 2026-10-21 (Tee's decision): the date deadline is retired before it fired.
     // With zero real paying users a price rise had no signal behind it, so the
-    // founder rung now ends on SEATS, not a date: the first 100 paid students
-    // lock this price for as long as they stay subscribed. Until the seat counter
-    // is built (taskboard), this rung simply stays open — flip to "early" by hand
-    // (STAGE_OVERRIDE) when seat 100 is taken. Never put a date back here without
+    // founder rung now ends on SEATS, not a date: the first 99 paid students
+    // lock this price for as long as they stay subscribed (99, not 100 — the
+    // one extra seat is reserved by Tee). Until the seat counter is built
+    // (taskboard), this rung simply stays open — flip to "early" by hand
+    // (STAGE_OVERRIDE) when seat 99 is taken. Never put a date back here without
     // a real reason: an expired countdown that didn't change anything is a lie.
     endsOn: null,
     endsReason: "seats",
-    seatCap: 100,
+    seatCap: 99,
     usd: { learner: 2.99, vip: 5.99 },
     usdYear: { learner: 29.99, vip: 59.99 },
   },

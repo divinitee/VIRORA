@@ -102,7 +102,7 @@ function ReceiptPicker({ id, preview, onPick, q, th, dashed }) {
           ? <><img src={preview} alt="" className="h-14 w-14 rounded-lg object-cover" /> {q("change")}</>
           : <><Upload className="h-5 w-5" /> {q("pick")}</>}
       </label>
-      <input id={id} type="file" accept="image/*" onChange={onPick} className="sr-only" />
+      <input id={id} type="file" accept="image/png,image/jpeg,image/webp,image/gif" onChange={onPick} className="sr-only" />
     </div>
   );
 }
@@ -478,7 +478,7 @@ export default function QrPayment() {
   const pickFile = (e) => {
     const f = e.target.files?.[0];
     if (!f) return;
-    if (!f.type.startsWith("image/") || f.size > MAX_RECEIPT_BYTES) {
+    if (!["image/png", "image/jpeg", "image/webp", "image/gif"].includes(f.type) || f.size > MAX_RECEIPT_BYTES) {
       setError(q("need_receipt"));
       return;
     }
@@ -492,8 +492,7 @@ export default function QrPayment() {
     setSending(true);
     setError("");
     try {
-      const uploaded = await base44.integrations.Core.UploadPrivateFile({ file });
-      const res = await qrPayApi("submit", { payment_id: payment.id, receipt_uri: uploaded.file_uri });
+      const res = await qrPayApi("submit", { payment_id: payment.id, receipt: file });
       showPayment(res.payment);
       window.scrollTo({ top: 0, behavior: "smooth" });
     } catch {

@@ -43,6 +43,7 @@ export async function submitEvidence(email, payload) {
   try {
     const data = await progressApi("submitEvidence", payload);
     writeSkillCache(email, data);
+    window.dispatchEvent(new CustomEvent("virora:reward-saved"));
     return data;
   } catch (e) {
     console.error("progressApi submitEvidence failed", e);

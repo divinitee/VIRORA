@@ -1,5 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
 import { secrets } from 'base44:runtime';
+import { receiptFile } from '../../shared/paymentReceipt.js';
 import {
   PLANS, CYCLES, ApiError, clean, nowIso, loadSettings, reviewPayment,
   notifyTelegram, tg, randomToken, randomDigits,
@@ -169,18 +170,24 @@ async function start(svc: any, me: any, body: any) {
   };
 }
 
-async function submit(svc: any, me: any, body: any) {
+async function submit(svc: any, me: any, body: any, base44: any) {
   const id = String(body.payment_id || '');
-  const receipt = String(body.receipt_uri || '').trim();
   if (!id) throw new ApiError(400, 'payment_required');
-  if (!receipt || receipt.length > 1000 || /\s/.test(receipt)) throw new ApiError(400, 'receipt_required');
+  let file;
+  try { file = await receiptFile(body); }
+  catch (error) { throw new ApiError(400, error.message); }
 
   const p = await svc.ManualPayment.get(id).catch(() => null);
   if (!p || p.user_id !== me.id) throw new ApiError(404, 'not_found');
   if (p.status !== 'awaiting_receipt' && p.status !== 'pending') throw new ApiError(409, 'already_reviewed');
 
+  // Upload only AFTER binding the payment to this authenticated caller.
+  // The URI sent to the privileged notifier is generated here, never accepted
+  // from JSON/form fields, so another user's existing file cannot be relayed.
+  const uploaded = await base44.asServiceRole.integrations.Core.UploadPrivateFile({ file });
+  if (!uploaded?.file_uri) throw new ApiError(502, 'receipt_upload_failed');
   const updated = await svc.ManualPayment.update(p.id, {
-    receipt_uri: receipt,
+    receipt_uri: uploaded.file_uri,
     status: 'pending',
     submitted_at: nowIso(),
   });
@@ -287,7 +294,7 @@ async function tgUnlink(svc: any, me: any) {
 
 // ------------------------------------------------------------- router
 
-const ACTIONS: Record<string, (svc: any, me: any, body: any) => Promise<any>> = {
+const ACTIONS: Record<string, (svc: any, me: any, body: any, base44: any) => Promise<any>> = {
   config: (svc) => config(svc),
   start,
   submit,
@@ -300,7 +307,7 @@ const ACTIONS: Record<string, (svc: any, me: any, body: any) => Promise<any>> = 
   tgUnlink: (svc, me) => tgUnlink(svc, me),
 };
 
-Deno.serve(async (req) => {
+export default async function(req: Request): Promise<Response> {
   if (req.method !== 'POST') return Response.json({ error: 'POST only' }, { status: 405 });
   try {
     const base44 = createClientFromRequest(req);
@@ -308,13 +315,16 @@ Deno.serve(async (req) => {
     try { me = await base44.auth.me(); } catch { me = null; }
     if (!me?.id || !me?.email) return Response.json({ error: 'not authenticated', code: 'unauthenticated' }, { status: 401 });
 
-    const body = await req.json().catch(() => ({}));
+    if (Number(req.headers.get('content-length')) > 11 * 1024 * 1024) throw new ApiError(413, 'receipt_too_large');
+    const body = req.headers.get('content-type')?.includes('multipart/form-data')
+      ? Object.fromEntries(await req.formData())
+      : await req.json().catch(() => ({}));
     const action = String(body.action || '');
     const fn = ACTIONS[action];
     if (!fn) return Response.json({ error: 'unknown action', code: 'unknown_action' }, { status: 400 });
 
     const svc = base44.asServiceRole.entities;
-    const data = await fn(svc, me, body);
+    const data = await fn(svc, me, body, base44);
 
     // New receipt: tell the admin by email and Telegram. Outside the action
     // so a failed notification can never undo the student's submission.
@@ -345,4 +355,4 @@ Deno.serve(async (req) => {
     console.error('qrPayApi error:', error);
     return Response.json({ error: (error as any)?.message || 'server error', code: 'server_error' }, { status: 500 });
   }
-});
+}
