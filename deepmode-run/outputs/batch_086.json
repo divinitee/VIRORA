@@ -1,0 +1,820 @@
+[
+ {
+  "headword": "illness",
+  "word_id": "6a4288ad6941e70ad6a00e86",
+  "word_ids": [
+   "6a4288ad6941e70ad6a00e86"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Sickness",
+  "sense_pos": "noun",
+  "corpus_definition": "A specific sickness or disease.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "illness",
+    "relation": "base",
+    "definition": "a sickness or disease of the body or mind",
+    "example": "She missed school because of a long illness.",
+    "syn": [
+     {
+      "to": "sickness",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The everyday word."
+     },
+     {
+      "to": "disease",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A named illness, often serious."
+     },
+     {
+      "to": "condition",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A health problem you have for a long time."
+     }
+    ],
+    "ant": [
+     {
+      "to": "health",
+      "relation": "antonym",
+      "note": "Being well."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form"
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "ill",
+    "relation": "derivational",
+    "definition": "not well; sick",
+    "example": "My brother is ill today.",
+    "syn": [
+     {
+      "to": "sick",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The everyday word."
+     },
+     {
+      "to": "unwell",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A little polite or formal."
+     }
+    ],
+    "ant": [
+     {
+      "to": "healthy",
+      "relation": "antonym",
+      "note": "Well and strong."
+     },
+     {
+      "to": "well",
+      "relation": "antonym",
+      "note": "Not sick."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ness",
+    "in_form": "illness",
+    "meaning_key": "-ness",
+    "also": [
+     "kindness",
+     "happiness",
+     "sadness"
+    ]
+   }
+  ],
+  "context": {
+   "text": "My grandfather was ill for two months last winter. After his illness, he walks every day to stay strong.",
+   "uses": [
+    "ill",
+    "illness"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "imagination",
+  "word_id": "6a4282fd46ba24054c1dcd67",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd67"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Mind",
+  "sense_pos": "noun",
+  "corpus_definition": "the ability to create new ideas or pictures in your mind.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "imagination",
+    "relation": "base",
+    "definition": "the ability to make new ideas or pictures in your mind",
+    "example": "Children have a lot of imagination.",
+    "syn": [
+     {
+      "to": "creativity",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "The ability to make new things."
+     },
+     {
+      "to": "fantasy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Ideas about things that are not real."
+     }
+    ],
+    "ant": [
+     {
+      "to": "reality",
+      "relation": "antonym",
+      "note": "What is real."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "imagine",
+    "relation": "derivational",
+    "definition": "to make a picture or idea in your mind",
+    "example": "Imagine you are on a beach.",
+    "syn": [
+     {
+      "to": "picture",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To see something in your mind."
+     },
+     {
+      "to": "dream",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To think about something you want."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "imaginative",
+    "relation": "derivational",
+    "definition": "good at having new and interesting ideas",
+    "example": "She is an imaginative writer.",
+    "syn": [
+     {
+      "to": "creative",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Good at making new things."
+     },
+     {
+      "to": "inventive",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Good at thinking of new ways."
+     }
+    ],
+    "ant": [
+     {
+      "to": "unimaginative",
+      "relation": "antonym",
+      "note": "Without new ideas."
+     },
+     {
+      "to": "boring",
+      "relation": "antonym",
+      "note": "Not interesting."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "imaginary",
+    "relation": "derivational",
+    "definition": "not real; only in your mind",
+    "example": "My little sister has an imaginary friend.",
+    "syn": [
+     {
+      "to": "unreal",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Not real."
+     },
+     {
+      "to": "invented",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Made up."
+     }
+    ],
+    "ant": [
+     {
+      "to": "real",
+      "relation": "antonym",
+      "note": "Existing in fact."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "imaginatively",
+    "relation": "derivational",
+    "definition": "in a creative way",
+    "example": "The room was imaginatively decorated.",
+    "syn": [],
+    "ant": []
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ive",
+    "in_form": "imaginative",
+    "meaning_key": "-ive",
+    "also": [
+     "creative",
+     "active",
+     "expensive"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Good stories need imagination. My teacher asks us to imagine a new world and write about it.",
+   "uses": [
+    "imagination",
+    "imagine"
+   ]
+  },
+  "reviewer_note": "imaginative vs imaginary is a classic confusable."
+ },
+ {
+  "headword": "imitate",
+  "word_id": "6a6ef9b2a601556148092856",
+  "word_ids": [
+   "6a6ef9b2a601556148092856"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Copying",
+  "sense_pos": "verb",
+  "corpus_definition": "to copy how someone speaks, moves, or behaves",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "imitation",
+    "relation": "derivational",
+    "definition": "copying the way someone or something is; or a copy",
+    "example": "He does a funny imitation of our teacher.",
+    "syn": [
+     {
+      "to": "copy",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Something made to look the same."
+     },
+     {
+      "to": "impression",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Copying a famous person to be funny."
+     }
+    ],
+    "ant": [
+     {
+      "to": "original",
+      "relation": "antonym",
+      "note": "The real first one."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "imitate",
+    "relation": "base",
+    "definition": "to copy how someone speaks, moves or acts",
+    "example": "Parrots can imitate human voices.",
+    "syn": [
+     {
+      "to": "copy",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The everyday word."
+     },
+     {
+      "to": "mimic",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Copy someone, often to be funny."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form"
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-tion",
+    "in_form": "imitation",
+    "meaning_key": "-tion",
+    "also": [
+     "education",
+     "information",
+     "invitation"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Small children often imitate their parents. My son's imitation of his father's laugh is perfect.",
+   "uses": [
+    "imitate",
+    "imitation"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "impatient",
+  "word_id": "6a6ef9b2a60155614809286d",
+  "word_ids": [
+   "6a6ef9b2a60155614809286d"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Waiting",
+  "sense_pos": "adjective",
+  "corpus_definition": "Not wanting to wait for something or someone.",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "impatience",
+    "relation": "derivational",
+    "definition": "the feeling of not wanting to wait",
+    "example": "He could not hide his impatience.",
+    "syn": [
+     {
+      "to": "restlessness",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Not able to stay calm or still."
+     }
+    ],
+    "ant": [
+     {
+      "to": "patience",
+      "relation": "antonym",
+      "note": "Being able to wait calmly."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form"
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "impatient",
+    "relation": "base",
+    "definition": "not wanting to wait for something or someone",
+    "example": "The passengers became impatient.",
+    "syn": [
+     {
+      "to": "restless",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Not able to stay calm or still."
+     },
+     {
+      "to": "eager",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Wanting something very much."
+     }
+    ],
+    "ant": [
+     {
+      "to": "patient",
+      "relation": "antonym",
+      "note": "Able to wait calmly."
+     },
+     {
+      "to": "calm",
+      "relation": "antonym",
+      "note": "Quiet and relaxed."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "impatiently",
+    "relation": "derivational",
+    "definition": "in a way that shows you do not want to wait",
+    "example": "She waited impatiently for the bus.",
+    "syn": [
+     {
+      "to": "restlessly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Without staying calm."
+     }
+    ],
+    "ant": [
+     {
+      "to": "patiently",
+      "relation": "antonym",
+      "note": "Calmly, without hurry."
+     }
+    ]
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "im-",
+    "in_form": "impatient",
+    "meaning_key": "im-",
+    "also": [
+     "impossible",
+     "impolite",
+     "immature"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "impatiently",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
+  ],
+  "context": {
+   "text": "The train was an hour late and everyone was impatient. A little boy kept asking impatiently, 'When will it come?'",
+   "uses": [
+    "impatient",
+    "impatiently"
+   ]
+  },
+  "reviewer_note": "patient/patience appear as antonyms only."
+ },
+ {
+  "headword": "improvement",
+  "word_id": "6a4282fd46ba24054c1dcd4a",
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd4a"
+  ],
+  "cefr": "B1",
+  "kind": "word",
+  "sense_label": "Getting better",
+  "sense_pos": "noun",
+  "corpus_definition": "when something becomes better than it was before",
+  "forms": [
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "improvement",
+    "relation": "base",
+    "definition": "when something becomes better than before",
+    "example": "There is a big improvement in your writing.",
+    "syn": [
+     {
+      "to": "progress",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Moving forward to a better state."
+     },
+     {
+      "to": "development",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Growth or change over time."
+     }
+    ],
+    "ant": [
+     {
+      "to": "decline",
+      "relation": "antonym",
+      "note": "Becoming worse."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "improve",
+    "relation": "derivational",
+    "definition": "to become better or make something better",
+    "example": "My English is improving.",
+    "syn": [
+     {
+      "to": "progress",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To move forward."
+     },
+     {
+      "to": "develop",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To grow."
+     }
+    ],
+    "ant": [
+     {
+      "to": "worsen",
+      "relation": "antonym",
+      "note": "To become worse."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "improved",
+    "relation": "participial",
+    "definition": "better than before",
+    "example": "The new model has an improved camera.",
+    "syn": [
+     {
+      "to": "better",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "The easiest word."
+     }
+    ],
+    "ant": [
+     {
+      "to": "worse",
+      "relation": "antonym",
+      "note": "Less good."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
+  ],
+  "people": [],
+  "people_not_family": [],
+  "affixes": [
+   {
+    "affix": "-ment",
+    "in_form": "improvement",
+    "meaning_key": "-ment",
+    "also": [
+     "agreement",
+     "movement",
+     "payment"
+    ]
+   }
+  ],
+  "context": {
+   "text": "Bekzod practised every day and his speaking improved quickly. His teacher noticed a big improvement.",
+   "uses": [
+    "improved",
+    "improvement"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "in cash",
+  "word_id": "6a42800cb9d8fc24968a4b94",
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b94"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Paying",
+  "sense_pos": "adverb",
+  "corpus_definition": "Using paper money or coins instead of a card.",
+  "usage_note": "pay in cash; not 'pay with cash in'.",
+  "relations": [
+   {
+    "to": "with money",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "With paper money or coins."
+   },
+   {
+    "to": "by card",
+    "relation": "antonym",
+    "note": "Paying with a bank card."
+   }
+  ],
+  "context": {
+   "text": "Many small shops in the bazaar want you to pay in cash. I always carry some money in cash.",
+   "uses": [
+    "in cash"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "in common with",
+  "word_id": "6a42662edeeb39f881130137",
+  "word_ids": [
+   "6a42662edeeb39f881130137"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Sharing",
+  "sense_pos": "adverb",
+  "corpus_definition": "To share the same interests or features as another.",
+  "usage_note": "have something / a lot / nothing in common with someone.",
+  "relations": [
+   {
+    "to": "like",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Similar to."
+   },
+   {
+    "to": "similar to",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Almost the same as."
+   },
+   {
+    "to": "different from",
+    "relation": "antonym",
+    "note": "Not the same as."
+   }
+  ],
+  "context": {
+   "text": "I have a lot in common with my best friend. We both love football and old films.",
+   "uses": [
+    "in common with"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "in contact with",
+  "word_id": "6a42662edeeb39f881130138",
+  "word_ids": [
+   "6a42662edeeb39f881130138"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Communicating",
+  "sense_pos": "adjective",
+  "corpus_definition": "Communicating or staying connected with someone.",
+  "usage_note": "be / stay / keep in contact with someone.",
+  "relations": [
+   {
+    "to": "in touch with",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "Communicating with someone; more common in speech."
+   },
+   {
+    "to": "connected with",
+    "relation": "related",
+    "strength": 0.6,
+    "note": "Linked to someone."
+   },
+   {
+    "to": "out of touch with",
+    "relation": "antonym",
+    "note": "No longer communicating with someone."
+   }
+  ],
+  "context": {
+   "text": "After school I moved to Samarkand. I am still in contact with my old classmates online.",
+   "uses": [
+    "in contact with"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "in fact",
+  "word_id": "6a4265cce20c7210db6908d2",
+  "word_ids": [
+   "6a4265cce20c7210db6908d2"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Truth",
+  "sense_pos": "adverb",
+  "corpus_definition": "Used to show that what you are saying is truly the case.",
+  "usage_note": "Often at the start of a clause to add something stronger or correct an idea.",
+  "relations": [
+   {
+    "to": "actually",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "The everyday word."
+   },
+   {
+    "to": "really",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Truly."
+   },
+   {
+    "to": "indeed",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Formal: yes, truly."
+   }
+  ],
+  "context": {
+   "text": "I thought the test would be hard. In fact, it was the easiest test of the year.",
+   "uses": [
+    "In fact"
+   ]
+  },
+  "reviewer_note": ""
+ },
+ {
+  "headword": "in general",
+  "word_id": "6a4265cce20c7210db6908d4",
+  "word_ids": [
+   "6a4265cce20c7210db6908d4"
+  ],
+  "cefr": "B1",
+  "kind": "phrase",
+  "sense_label": "Most cases",
+  "sense_pos": "adverb",
+  "corpus_definition": "Used to talk about most people or things in most situations.",
+  "usage_note": "At the start of a sentence or after a noun: 'people in general'.",
+  "relations": [
+   {
+    "to": "generally",
+    "relation": "synonym",
+    "strength": 0.95,
+    "note": "The one-word form."
+   },
+   {
+    "to": "usually",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Most of the time."
+   },
+   {
+    "to": "on the whole",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Thinking about everything together."
+   },
+   {
+    "to": "in particular",
+    "relation": "antonym",
+    "note": "Especially one thing."
+   }
+  ],
+  "context": {
+   "text": "In general, the summers in Uzbekistan are hot and dry. People in general enjoy the long evenings.",
+   "uses": [
+    "In general",
+    "in general"
+   ]
+  },
+  "reviewer_note": ""
+ }
+]
