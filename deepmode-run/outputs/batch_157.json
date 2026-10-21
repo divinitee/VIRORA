@@ -1,0 +1,455 @@
+[
+{
+ "headword": "offense", "word_id": "6a6ef9b2a6015561480927bc", "word_ids": ["6a6ef9b2a6015561480927bc"], "cefr": "B2", "kind": "word",
+ "sense_label": "Crime", "sense_pos": "noun",
+ "corpus_definition": "an act that is illegal or that upsets or insults someone",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "offense", "relation": "base",
+   "definition": "a crime, or an action that hurts or insults people",
+   "example": "Driving without a licence is a serious offense.",
+   "note": "American spelling; British English writes offence. 'Take offense' means to feel upset by something.",
+   "syn": [
+    {"to": "crime", "relation": "synonym", "strength": 0.8, "note": "Easy word. A crime is always against the law; an offense can also be a small rule-breaking or an insult."},
+    {"to": "violation", "relation": "synonym", "strength": 0.8, "note": "Formal: breaking a law or rule.", "register": "formal"},
+    {"to": "wrongdoing", "relation": "synonym", "strength": 0.8, "note": "Formal: bad or illegal behaviour in general.", "register": "formal"},
+    {"to": "insult", "relation": "related", "strength": 0.6, "note": "Related: words or actions that upset someone; only for the 'upset' part of this meaning."}
+   ],
+   "ant": []},
+  {"slot": "verb", "status": "existing", "form": "offend", "relation": "derivational",
+   "definition": "to make someone feel upset or insulted",
+   "example": "I'm sorry, I didn't mean to offend you.",
+   "note": "In formal English it can also mean to break a law: 'people who offend again'.",
+   "syn": [
+    {"to": "upset", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word for making someone unhappy."},
+    {"to": "insult", "relation": "synonym", "strength": 0.8, "note": "Stronger: you say or do something rude on purpose."},
+    {"to": "hurt", "relation": "related", "strength": 0.6, "note": "Related: 'hurt someone's feelings' is close to offend."}
+   ],
+   "ant": [
+    {"to": "please", "relation": "antonym", "note": "To make someone happy, not upset."}
+   ]},
+  {"slot": "adjective", "status": "existing", "form": "offensive", "relation": "derivational",
+   "definition": "rude in a way that makes people upset or angry",
+   "example": "Please don't use offensive words in class.",
+   "note": "As a noun, an offensive is a military attack; that is a different meaning.",
+   "syn": [
+    {"to": "rude", "relation": "synonym", "strength": 0.8, "note": "Easy word; offensive is stronger and more serious."},
+    {"to": "insulting", "relation": "synonym", "strength": 0.95, "note": "Very close: meant to make someone feel bad."},
+    {"to": "hurtful", "relation": "synonym", "strength": 0.8, "note": "Making someone feel sad or upset, often about words."}
+   ],
+   "ant": [
+    {"to": "inoffensive", "relation": "antonym", "note": "Not likely to upset anyone."},
+    {"to": "polite", "relation": "antonym", "note": "Showing good manners and respect."}
+   ]},
+  {"slot": "adjective", "status": "existing", "form": "offended", "relation": "participial",
+   "definition": "upset because someone was rude or unkind to you",
+   "example": "She felt offended when nobody thanked her.",
+   "syn": [
+    {"to": "upset", "relation": "synonym", "strength": 0.8, "note": "Easy, general word for unhappy."},
+    {"to": "hurt", "relation": "synonym", "strength": 0.8, "note": "Close: your feelings are hurt."}
+   ],
+   "ant": []},
+  {"slot": "adverb", "status": "existing", "form": "offensively", "relation": "derivational",
+   "definition": "in a rude way that makes people upset",
+   "example": "He behaved offensively at the party and had to leave.",
+   "syn": [
+    {"to": "rudely", "relation": "synonym", "strength": 0.8, "note": "Easy word; offensively is stronger."}
+   ],
+   "ant": [
+    {"to": "politely", "relation": "antonym", "note": "In a way that shows good manners."}
+   ]}
+ ],
+ "people": [
+  {"form": "offender", "kind": "person", "status": "existing",
+   "definition": "a person who has broken the law",
+   "example": "The young offender had to do community work."}
+ ],
+ "affixes": [
+  {"affix": "-ive", "in_form": "offensive", "meaning_key": "-ive", "also": ["active", "attractive", "creative"]},
+  {"affix": "-ly", "in_form": "offensively", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]},
+  {"affix": "-er", "in_form": "offender", "meaning_key": "-er", "also": ["teacher", "player", "driver"]}
+ ],
+ "context": {"text": "Stealing is a serious offense in every country. My friend once made a joke about my city, but I wasn't offended. Still, some jokes can be offensive to other people.", "uses": ["offense", "offended", "offensive"]},
+ "reviewer_note": "US spelling offense (UK offence) noted; offensive as noun (military attack) and the sports sense of offense left out as other meanings."
+},
+{
+ "headword": "official", "word_id": "6a42821646ba24054c1dccbe", "word_ids": ["6a42821646ba24054c1dccbe"], "cefr": "B2", "kind": "word",
+ "sense_label": "Approved", "sense_pos": "adjective",
+ "corpus_definition": "Approved or agreed to by someone in a position of authority.",
+ "forms": [
+  {"slot": "noun", "status": "other_meaning", "form": "office",
+   "definition": "a room or building where people work at desks",
+   "example": "My mother works in an office in the city centre.",
+   "note": "Official is made from office, but office usually means a workplace, not 'approved by people in power'."},
+  {"slot": "verb", "status": "other_meaning", "form": "officiate",
+   "definition": "to be the person in charge at a ceremony or sports game",
+   "example": "A famous referee will officiate at the final.",
+   "note": "Belongs to official = a person in charge of an event, not 'approved'. Formal and not common."},
+  {"slot": "adjective", "status": "existing", "form": "official", "relation": "base",
+   "definition": "approved or agreed by people in power",
+   "example": "He made an official announcement to the media.",
+   "note": "Also a noun: an official is a person with an important job in a government or organization.",
+   "syn": [
+    {"to": "approved", "relation": "synonym", "strength": 0.8, "note": "Easy word: someone in charge said yes to it."},
+    {"to": "authorized", "relation": "synonym", "strength": 0.8, "note": "Formal: given permission by people in power. British spelling: authorised.", "register": "formal"},
+    {"to": "formal", "relation": "related", "strength": 0.6, "note": "Related: following the correct rules and style; not always approved by anyone."}
+   ],
+   "ant": [
+    {"to": "unofficial", "relation": "antonym", "note": "Not approved by people in power."},
+    {"to": "informal", "relation": "antonym", "note": "Relaxed, not following the usual rules."}
+   ]},
+  {"slot": "adverb", "status": "existing", "form": "officially", "relation": "derivational",
+   "definition": "in a way that is approved by people in power",
+   "example": "The new bridge was officially opened yesterday.",
+   "syn": [
+    {"to": "formally", "relation": "synonym", "strength": 0.8, "note": "Done in the correct, public way."}
+   ],
+   "ant": [
+    {"to": "unofficially", "relation": "antonym", "note": "Without approval from people in power."}
+   ]}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ly", "in_form": "officially", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
+ ],
+ "context": {"text": "The official exam results will come out next week. The new school in our district officially opens on 2 September.", "uses": ["official", "officially"]},
+ "reviewer_note": "Noun 'an official' (person) has the same spelling as the headword, so it is explained in the adjective note instead of People & things."
+},
+{
+ "headword": "on board", "word_id": "6a4265fb84a10cdfe9e55d94", "word_ids": ["6a4265fb84a10cdfe9e55d94"], "cefr": "B2", "kind": "phrase",
+ "sense_label": "Travel", "sense_pos": "adverb",
+ "corpus_definition": "Inside a plane, ship, or train.",
+ "usage_note": "be/get on board; on board + the plane/ship/train: 'on board the train to Bukhara'. 'Welcome on board' is common in announcements. Informal: 'be on board' also means to agree with a plan.",
+ "relations": [
+  {"to": "aboard", "relation": "synonym", "strength": 0.95, "note": "Same meaning, one word: 'Welcome aboard!'"},
+  {"to": "inside", "relation": "related", "strength": 0.6, "note": "Easy word, but general: inside any place, not only a plane or ship."},
+  {"to": "ashore", "relation": "antonym", "note": "For ships: on land, not on the ship."}
+ ],
+ "context": {"text": "All passengers are now on board the train to Samarkand. There is a small café on board, so you can buy tea during the trip.", "uses": ["on board"]},
+ "reviewer_note": "Fixed phrase; informal 'agree with a plan' meaning only mentioned in usage_note."
+},
+{
+ "headword": "operate", "word_id": "6a42800cb9d8fc24968a4b3f", "word_ids": ["6a42800cb9d8fc24968a4b3f", "6a6ef83f0f1e82a5a07367ca"], "cefr": "B2", "kind": "word",
+ "sense_label": "Machine", "sense_pos": "verb",
+ "corpus_definition": "To make a machine work or control it.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "operation", "relation": "derivational",
+   "definition": "the way a machine or system works or is controlled",
+   "example": "The operation of this machine is very simple.",
+   "note": "Very often it means a medical treatment where a doctor cuts the body (surgery).",
+   "syn": [
+    {"to": "running", "relation": "synonym", "strength": 0.8, "note": "Easy: the running of a machine or business."},
+    {"to": "functioning", "relation": "synonym", "strength": 0.8, "note": "Formal: how well something works.", "register": "formal"},
+    {"to": "use", "relation": "related", "strength": 0.6, "note": "Related: the act of using a machine."}
+   ],
+   "ant": []},
+  {"slot": "verb", "status": "existing", "form": "operate", "relation": "base",
+   "definition": "to make a machine work, or to work in a certain way",
+   "example": "She knows how to operate this heavy machine.",
+   "note": "Also means a doctor cutting the body to treat it: 'operate on a patient'.",
+   "syn": [
+    {"to": "use", "relation": "synonym", "strength": 0.8, "note": "Easy, everyday word: 'use a machine'."},
+    {"to": "run", "relation": "synonym", "strength": 0.8, "note": "Common for machines and businesses: 'The machine runs on gas'."},
+    {"to": "work", "relation": "synonym", "strength": 0.8, "note": "Easy: 'How does this machine work?'"},
+    {"to": "function", "relation": "synonym", "strength": 0.8, "note": "Formal: to work in the correct way.", "register": "formal"},
+    {"to": "control", "relation": "related", "strength": 0.6, "note": "Related: to decide how something moves or works."}
+   ],
+   "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "operational", "relation": "derivational",
+   "definition": "working and ready to be used",
+   "example": "The new airport will be operational next year.",
+   "syn": [
+    {"to": "working", "relation": "synonym", "strength": 0.95, "note": "Easy and very close."},
+    {"to": "functional", "relation": "synonym", "strength": 0.8, "note": "Working in the way it should; a little formal."}
+   ],
+   "ant": [
+    {"to": "broken", "relation": "antonym", "note": "Not working because something is damaged."}
+   ]},
+  {"slot": "adverb", "status": "existing", "form": "operationally", "relation": "derivational",
+   "definition": "in a way that is connected with how something works or runs",
+   "example": "Operationally, the new system is much faster than the old one.",
+   "register": "formal",
+   "syn": [
+    {"to": "practically", "relation": "related", "strength": 0.4, "note": "Related: about real use, not ideas."}
+   ],
+   "ant": []}
+ ],
+ "people": [
+  {"form": "operator", "kind": "job", "status": "existing",
+   "definition": "a person whose job is to control a machine or system",
+   "example": "The crane operator works high above the street."}
+ ],
+ "affixes": [
+  {"affix": "-ion", "in_form": "operation", "meaning_key": "-ion", "also": ["action", "decision", "protection"]},
+  {"affix": "-al", "in_form": "operational", "meaning_key": "-al", "also": ["national", "personal", "natural"]},
+  {"affix": "-ly", "in_form": "operationally", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]},
+  {"affix": "-or", "in_form": "operator", "meaning_key": "-or", "also": ["actor", "visitor", "director"]}
+ ],
+ "context": {"text": "My father operates a big machine at a factory in Navoi. The new production line will be operational next month, and he will train the new operators.", "uses": ["operates", "operational", "operators"]},
+ "reviewer_note": "CORPUS: two rows (make a machine work / work in a certain way) merged into one map because both corpus examples are about operating a machine; surgery sense only in notes."
+},
+{
+ "headword": "optimist", "word_id": "6a6ef9b2a60155614809271b", "word_ids": ["6a6ef9b2a60155614809271b"], "cefr": "B2", "kind": "word",
+ "sense_label": "Hope", "sense_pos": "noun",
+ "corpus_definition": "A person who believes that good things will happen.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "optimist", "relation": "base",
+   "definition": "a person who always expects good things to happen",
+   "example": "She is an optimist who always sees the bright side.",
+   "syn": [
+    {"to": "idealist", "relation": "related", "strength": 0.6, "note": "Related: a person who believes the world can be perfect, sometimes not realistic."},
+    {"to": "dreamer", "relation": "related", "strength": 0.4, "note": "Informal: a person with big hopes and plans that may not happen."}
+   ],
+   "ant": [
+    {"to": "pessimist", "relation": "antonym", "note": "A person who always expects bad things to happen."}
+   ]},
+  {"slot": "noun", "status": "existing", "form": "optimism", "relation": "derivational",
+   "definition": "the feeling that good things will happen in the future",
+   "example": "There is a lot of optimism about the new school.",
+   "syn": [
+    {"to": "hope", "relation": "synonym", "strength": 0.8, "note": "Easy word: wanting and expecting something good."},
+    {"to": "confidence", "relation": "related", "strength": 0.6, "note": "Related: feeling sure that things will go well."}
+   ],
+   "ant": [
+    {"to": "pessimism", "relation": "antonym", "note": "The feeling that bad things will happen."}
+   ]},
+  {"slot": "verb", "status": "no_form", "not_family": ["optimize"],
+   "note": "There is no verb in this family. Optimize (make something as good as possible) comes from the same Latin root but is not made from optimist."},
+  {"slot": "adjective", "status": "existing", "form": "optimistic", "relation": "derivational",
+   "definition": "expecting good things to happen",
+   "example": "I'm optimistic about my exam results.",
+   "syn": [
+    {"to": "hopeful", "relation": "synonym", "strength": 0.95, "note": "Easy and very close."},
+    {"to": "positive", "relation": "synonym", "strength": 0.8, "note": "Everyday word: thinking about the good side."},
+    {"to": "confident", "relation": "related", "strength": 0.6, "note": "Related: sure that something will go well."}
+   ],
+   "ant": [
+    {"to": "pessimistic", "relation": "antonym", "note": "Expecting bad things to happen."},
+    {"to": "negative", "relation": "antonym", "note": "Thinking about the bad side of things."}
+   ]},
+  {"slot": "adverb", "status": "existing", "form": "optimistically", "relation": "derivational",
+   "definition": "in a hopeful way that expects good things",
+   "example": "She smiled optimistically before the race.",
+   "syn": [
+    {"to": "hopefully", "relation": "synonym", "strength": 0.8, "note": "Close, but hopefully also means 'I hope that': 'Hopefully it won't rain.'"},
+    {"to": "positively", "relation": "related", "strength": 0.6, "note": "Related: in a way that sees the good side."}
+   ],
+   "ant": [
+    {"to": "pessimistically", "relation": "antonym", "note": "In a way that expects bad things."}
+   ]}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ic", "in_form": "optimistic", "meaning_key": "-ic", "also": ["historic", "artistic", "scientific"]},
+  {"affix": "-ly", "in_form": "optimistically", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
+ ],
+ "context": {"text": "My grandmother is a real optimist. Even in a cold winter she is optimistic and says spring will come soon. Her optimism helps the whole family.", "uses": ["optimist", "optimistic", "optimism"]},
+ "reviewer_note": "Headword is a person noun, so it stays the main noun entry; optimize listed as not_family."
+},
+{
+ "headword": "organic", "word_id": "6a6ef83f0f1e82a5a0736761", "word_ids": ["6a6ef83f0f1e82a5a0736761"], "cefr": "B2", "kind": "word",
+ "sense_label": "Food", "sense_pos": "adjective",
+ "corpus_definition": "Grown without the use of artificial chemicals.",
+ "forms": [
+  {"slot": "noun", "status": "other_meaning", "form": "organ",
+   "definition": "a part of the body with a special job, like the heart",
+   "example": "The heart and the lungs are important organs.",
+   "note": "Organic comes from organ, but this belongs to organic = about living things and the body, not food grown without chemicals."},
+  {"slot": "noun", "status": "other_meaning", "form": "organism",
+   "definition": "any living thing, such as a plant, animal or bacterium",
+   "example": "Very small organisms live in the soil.",
+   "note": "Belongs to organic = about living things (science), not food grown without chemicals."},
+  {"slot": "verb", "status": "no_form", "not_family": ["organize"],
+   "note": "There is no verb in this family. Organize comes from the same old root but means to plan or arrange things."},
+  {"slot": "adjective", "status": "existing", "form": "organic", "relation": "base",
+   "definition": "grown or made without artificial chemicals",
+   "example": "We only buy organic vegetables at the market.",
+   "note": "In science it also means 'coming from living things'.",
+   "syn": [
+    {"to": "natural", "relation": "synonym", "strength": 0.8, "note": "Easy word, but more general: natural food may still use some chemicals."},
+    {"to": "green", "relation": "related", "strength": 0.4, "note": "Informal: good for nature and the environment."}
+   ],
+   "ant": [
+    {"to": "conventional", "relation": "antonym", "note": "Conventional farming is the usual kind that uses chemicals."}
+   ]},
+  {"slot": "adverb", "status": "existing", "form": "organically", "relation": "derivational",
+   "definition": "without using artificial chemicals",
+   "example": "These apples were grown organically in Fergana.",
+   "syn": [
+    {"to": "naturally", "relation": "synonym", "strength": 0.8, "note": "Easy word, but more general."}
+   ],
+   "ant": []}
+ ],
+ "people": [],
+ "affixes": [
+  {"affix": "-ic", "in_form": "organic", "meaning_key": "-ic", "also": ["historic", "artistic", "scientific"]},
+  {"affix": "-ly", "in_form": "organically", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]}
+ ],
+ "context": {"text": "My aunt has a small organic farm near Samarkand. She grows tomatoes organically, without any chemicals, and sells them at the bazaar.", "uses": ["organic", "organically"]},
+ "reviewer_note": "Organ and organism shown as other_meaning (body / living things); organize listed as not_family."
+},
+{
+ "headword": "origin", "word_id": "6a4282fd46ba24054c1dcd82", "word_ids": ["6a4282fd46ba24054c1dcd82"], "cefr": "B2", "kind": "word",
+ "sense_label": "Beginning", "sense_pos": "noun",
+ "corpus_definition": "Where something comes from or how it began.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "origin", "relation": "base",
+   "definition": "the place where something comes from or the way it started",
+   "example": "He studied the origin of the language.",
+   "note": "Often plural for people: 'She is of Uzbek origin' / 'my family's origins'.",
+   "syn": [
+    {"to": "source", "relation": "synonym", "strength": 0.8, "note": "The place or thing something comes from."},
+    {"to": "beginning", "relation": "synonym", "strength": 0.8, "note": "Easy word: the start of something."},
+    {"to": "root", "relation": "synonym", "strength": 0.8, "note": "Often plural: 'the roots of a problem', 'my roots'."},
+    {"to": "start", "relation": "related", "strength": 0.6, "note": "Easy word, but about time more than place."}
+   ],
+   "ant": [
+    {"to": "end", "relation": "antonym", "note": "The origin is where something starts; the end is where it finishes."}
+   ]},
+  {"slot": "noun", "status": "other_meaning", "form": "originality",
+   "definition": "the quality of being new, different and creative",
+   "example": "The judges liked the originality of her design.",
+   "note": "Belongs to original = new and creative, not where something comes from."},
+  {"slot": "verb", "status": "existing", "form": "originate", "relation": "derivational",
+   "definition": "to start or come from a particular place or time",
+   "example": "Tea originated in China thousands of years ago.",
+   "register": "formal",
+   "syn": [
+    {"to": "come from", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday way to say it."},
+    {"to": "begin", "relation": "synonym", "strength": 0.8, "note": "Easy word: to start."},
+    {"to": "start", "relation": "synonym", "strength": 0.8, "note": "Easy word, very common."},
+    {"to": "arise", "relation": "related", "strength": 0.6, "note": "Formal: used for problems or ideas that appear.", "register": "formal"}
+   ],
+   "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "original", "relation": "derivational",
+   "definition": "existing at the beginning, before any changes",
+   "example": "The original plan was to travel by train.",
+   "note": "Original also means new and creative, or not a copy: 'an original painting'.",
+   "syn": [
+    {"to": "first", "relation": "synonym", "strength": 0.8, "note": "Easy word: 'my first idea'."},
+    {"to": "initial", "relation": "synonym", "strength": 0.95, "note": "A little formal, very close."},
+    {"to": "earliest", "relation": "synonym", "strength": 0.8, "note": "The one that came before all others."}
+   ],
+   "ant": [
+    {"to": "final", "relation": "antonym", "note": "The last one, after all the changes."}
+   ]},
+  {"slot": "adverb", "status": "existing", "form": "originally", "relation": "derivational",
+   "definition": "at the beginning, before something changed",
+   "example": "My family is originally from Bukhara.",
+   "syn": [
+    {"to": "at first", "relation": "synonym", "strength": 0.8, "note": "Easy phrase for the start of a situation."},
+    {"to": "initially", "relation": "synonym", "strength": 0.95, "note": "Formal and very close.", "register": "formal"},
+    {"to": "first", "relation": "related", "strength": 0.6, "note": "Easy word, but often about order in a list."}
+   ],
+   "ant": [
+    {"to": "finally", "relation": "antonym", "note": "At the end, after a long time."}
+   ]}
+ ],
+ "people": [
+  {"form": "originator", "kind": "person", "status": "existing",
+   "definition": "the person who first had an idea or started something",
+   "example": "She was the originator of the reading club.",
+   "register": "formal"}
+ ],
+ "affixes": [
+  {"affix": "-al", "in_form": "original", "meaning_key": "-al", "also": ["national", "personal", "natural"]},
+  {"affix": "-ly", "in_form": "originally", "meaning_key": "-ly", "also": ["quickly", "slowly", "happily"]},
+  {"affix": "-or", "in_form": "originator", "meaning_key": "-or", "also": ["actor", "visitor", "director"]}
+ ],
+ "context": {"text": "My family is originally from Bukhara. The origin of our family name is Persian, and my grandfather still keeps the original papers.", "uses": ["originally", "origin", "original"]},
+ "reviewer_note": "False-friend split: original = first (this meaning) vs new/creative (originality shown as other_meaning)."
+},
+{
+ "headword": "orphan", "word_id": "6a6ef9b2a6015561480926b3", "word_ids": ["6a6ef9b2a6015561480926b3"], "cefr": "B2", "kind": "word",
+ "sense_label": "Family", "sense_pos": "noun",
+ "corpus_definition": "A child whose parents have died.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "orphan", "relation": "base",
+   "definition": "a child whose mother and father are both dead",
+   "example": "The orphan found a new home with a kind family.",
+   "syn": [],
+   "ant": []},
+  {"slot": "verb", "status": "existing", "form": "orphan", "relation": "conversion",
+   "definition": "to make a child lose both parents",
+   "example": "He was orphaned at the age of five.",
+   "note": "Almost always passive: 'be orphaned'.",
+   "syn": [],
+   "ant": []},
+  {"slot": "adjective", "status": "existing", "form": "orphaned", "relation": "participial",
+   "definition": "having no living mother or father",
+   "example": "The orphaned boy lived with his uncle in Andijan.",
+   "syn": [],
+   "ant": []},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb in this family."}
+ ],
+ "people": [
+  {"form": "orphanage", "kind": "thing", "status": "existing",
+   "definition": "a home where children without parents live and are cared for",
+   "example": "She grew up in an orphanage in Tashkent."}
+ ],
+ "affixes": [],
+ "context": {"text": "After the earthquake, many children were orphaned. An orphanage in the city gave every orphan food, clothes and a warm bed.", "uses": ["orphaned", "orphanage", "orphan"]},
+ "reviewer_note": "Headword is a person noun, so it stays the main noun entry; no true synonyms or antonyms exist, lists left empty."
+},
+{
+ "headword": "outcome", "word_id": "6a6ef9b2a6015561480926ca", "word_ids": ["6a6ef9b2a6015561480926ca"], "cefr": "B2", "kind": "word",
+ "sense_label": "Result", "sense_pos": "noun",
+ "corpus_definition": "The final result of a process or event.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "outcome", "relation": "base",
+   "definition": "what happens at the end of a process or event",
+   "example": "We were happy with the final outcome.",
+   "syn": [
+    {"to": "result", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word with the same meaning."},
+    {"to": "consequence", "relation": "synonym", "strength": 0.8, "note": "A result of an action, often a bad one."},
+    {"to": "end", "relation": "related", "strength": 0.6, "note": "Easy word: the last part of something."},
+    {"to": "effect", "relation": "related", "strength": 0.6, "note": "A change that something causes."}
+   ],
+   "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb in this family. To talk about the result, people say 'turn out' or 'result in'."},
+  {"slot": "adjective", "status": "no_form", "note": "There is no adjective in this family."},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb in this family."}
+ ],
+ "people": [],
+ "affixes": [],
+ "context": {"text": "Everyone waited for the outcome of the football match. In the end, the outcome was a draw, so both teams were happy.", "uses": ["outcome"]},
+ "reviewer_note": "Single-form family; out- prefix not in the affix table, so no affix claimed."
+},
+{
+ "headword": "overhead", "word_id": "6a6ef83f0f1e82a5a0736701", "word_ids": ["6a6ef83f0f1e82a5a0736701"], "cefr": "B2", "kind": "word",
+ "sense_label": "Above", "sense_pos": "adverb",
+ "corpus_definition": "Located high up in the sky or above you.",
+ "forms": [
+  {"slot": "noun", "status": "other_meaning", "form": "overhead",
+   "definition": "the regular costs of running a business, like rent",
+   "example": "The shop moved to a smaller building to cut its overhead.",
+   "note": "Belongs to overhead = business costs, not 'above you'. British English usually says overheads."},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb in this family."},
+  {"slot": "adjective", "status": "existing", "form": "overhead", "relation": "conversion",
+   "definition": "placed above your head, high up",
+   "example": "Please put your bag in the overhead locker.",
+   "syn": [
+    {"to": "high", "relation": "related", "strength": 0.6, "note": "Easy word: far above the ground."},
+    {"to": "aerial", "relation": "related", "strength": 0.4, "note": "Formal: in the air or from the air.", "register": "formal"}
+   ],
+   "ant": [
+    {"to": "underground", "relation": "antonym", "note": "Under the ground: overhead cables hang in the air, underground cables are under the earth."}
+   ]},
+  {"slot": "adverb", "status": "existing", "form": "overhead", "relation": "base",
+   "definition": "above your head, in the sky",
+   "example": "A bright plane flew overhead during the day.",
+   "syn": [
+    {"to": "above", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word."},
+    {"to": "aloft", "relation": "synonym", "strength": 0.8, "note": "Literary: high up in the air.", "register": "literary"},
+    {"to": "up", "relation": "related", "strength": 0.4, "note": "Easy word, but more general."}
+   ],
+   "ant": [
+    {"to": "below", "relation": "antonym", "note": "Lower than you, under you."},
+    {"to": "underfoot", "relation": "antonym", "note": "Under your feet, on the ground."}
+   ]}
+ ],
+ "people": [],
+ "affixes": [],
+ "context": {"text": "Birds flew overhead as we walked in the park. Later, on the plane to Tashkent, I put my bag in the overhead locker.", "uses": ["overhead"]},
+ "reviewer_note": "Compound word; adjective is a conversion of the same spelling; business 'overhead(s)' shown as other_meaning."
+}
+]
