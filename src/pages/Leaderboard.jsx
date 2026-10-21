@@ -45,7 +45,7 @@ export default function Leaderboard() {
         ) : (
           <div className="bg-background border border-border rounded-2xl overflow-hidden">
             {board.map((entry, i) => {
-              const isMe = entry.email === user?.email;
+              const isMe = entry.user_id === user?.id;
               const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `${i + 1}.`;
               return (
                 <motion.div
