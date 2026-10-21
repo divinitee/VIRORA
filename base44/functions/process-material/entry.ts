@@ -1,5 +1,7 @@
-import { createClientFromRequest } from "npm:@base44/sdk";
+import { createClientFromRequest } from "npm:@base44/sdk@0.8.55";
 import { secrets } from "base44:runtime";
+import { reserveUsage, releaseUsageLease, UsageLimitError } from '../../shared/usageGuard.js';
+import materialDownload from '../../shared/materialDownload.js';
 import * as pdfjsLib from "npm:pdfjs-dist/legacy/build/pdf.mjs";
 import mammoth from "npm:mammoth";
 
@@ -21,9 +23,7 @@ const CHUNK_SIZE = 35000;
 const MAX_CHUNKS = 12;
 
 async function extractPdf(fileUrl) {
-  const response = await fetch(fileUrl);
-  if (!response.ok) throw new Error("Could not download PDF");
-  const data = new Uint8Array(await response.arrayBuffer());
+  const data = new Uint8Array(await materialDownload(fileUrl));
   const pdf = await pdfjsLib.getDocument({ data, disableWorker: true }).promise;
   const pages = [];
   let total = 0;
@@ -49,9 +49,7 @@ async function extractPdf(fileUrl) {
 }
 
 async function extractDocx(fileUrl) {
-  const response = await fetch(fileUrl);
-  if (!response.ok) throw new Error("Could not download DOCX");
-  const buffer = await response.arrayBuffer();
+  const buffer = await materialDownload(fileUrl);
   const result = await mammoth.extractRawText({ arrayBuffer: buffer });
   return { text: result.value.slice(0, MAX_TOTAL_CHARS) };
 }
@@ -116,13 +114,17 @@ async function analyzeChunk(base44, title, chunk, chunkIndex, chunkCount) {
   });
 }
 
-Deno.serve(async (req) => {
+export default async function (req) {
+  if (req.method !== 'POST') return Response.json({ error: 'POST only' }, { status: 405 });
   const base44 = createClientFromRequest(req);
   let materialSourceId = null;
+  let reservation = null;
+  let processingStarted = false;
 
   try {
     const user = await base44.auth.me();
-    if (!user) return Response.json({ error: "Authentication required" }, { status: 401 });
+    if (!user?.id) return Response.json({ error: "Authentication required" }, { status: 401 });
+    if (user.role !== 'admin' && user.teacher_status !== 'approved') return Response.json({ error: 'Teacher access required' }, { status: 403 });
 
     const body = await req.json();
     materialSourceId = body.materialSourceId;
@@ -134,10 +136,14 @@ Deno.serve(async (req) => {
       return Response.json({ error: "Not allowed" }, { status: 403 });
     }
 
+    reservation = await reserveUsage(base44.asServiceRole.entities, user, {
+      bucket: 'material_run', limit: 5, resourceId: material.id,
+    });
     await base44.asServiceRole.entities.MaterialSource.update(material.id, {
       processing_status: "processing",
       error_message: null,
     });
+    processingStarted = true;
 
     let extraction = { text: (material.source_text || material.extracted_text || "").trim() };
 
@@ -156,6 +162,7 @@ Deno.serve(async (req) => {
 
     const source = (extraction.text || "").trim();
     if (!source) throw new Error("No readable text was found in this material.");
+    if (source.length > MAX_TOTAL_CHARS) throw new Error('Material text must be 400,000 characters or shorter');
 
     const chunks = splitIntoChunks(source);
     const analyses = [];
@@ -223,8 +230,15 @@ Deno.serve(async (req) => {
       pageCount: extraction.pageCount || null,
     });
   } catch (error) {
+    if (error instanceof UsageLimitError) {
+      const message = error.code === 'material_already_processing'
+        ? 'This material is already processing. Please wait for it to finish.'
+        : 'Daily material processing limit reached (5 runs per UTC day).';
+      return Response.json({ error: message, code: error.code }, { status: error.status });
+    }
     console.error(error);
-    if (materialSourceId) {
+    // Never overwrite a row unless THIS request passed ownership and admission.
+    if (processingStarted && materialSourceId) {
       try {
         await base44.asServiceRole.entities.MaterialSource.update(materialSourceId, {
           processing_status: "failed",
@@ -233,5 +247,7 @@ Deno.serve(async (req) => {
       } catch {}
     }
     return Response.json({ error: error?.message || "Material processing failed" }, { status: 500 });
+  } finally {
+    await releaseUsageLease(base44.asServiceRole.entities, reservation);
   }
-});
+}

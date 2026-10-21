@@ -15,6 +15,7 @@ export default function TeacherMaterials() {
   const [file, setFile] = useState(null);
   const [saving, setSaving] = useState(false);
   const [processingId, setProcessingId] = useState(null);
+  const [error, setError] = useState('');
 
   const load = async () => {
     const me = await base44.auth.me();
@@ -63,12 +64,13 @@ export default function TeacherMaterials() {
   };
 
   const processMaterial = async (id) => {
+    setError('');
     setProcessingId(id);
     try {
       await base44.functions.invoke("process-material", { materialSourceId: id });
       await load();
     } catch (error) {
-      console.error(error);
+      setError(error?.response?.data?.error || error?.data?.error || error.message || 'Material processing failed.');
       await load();
     } finally {
       setProcessingId(null);
@@ -86,6 +88,8 @@ export default function TeacherMaterials() {
       </header>
 
       <main className="max-w-4xl mx-auto p-4 md:p-6 space-y-6">
+        {error && <p role="alert" className="text-sm text-destructive">{error}</p>}
+        <p className="text-sm text-muted-foreground">Processing: 5 runs per UTC day, files up to 20 MB.</p>
         <section className="premium-card p-5 space-y-4">
           <div>
             <h1 className="text-lg font-bold flex items-center gap-2"><Upload className="w-5 h-5" /> Add teaching material</h1>

@@ -1,53 +1,13 @@
-import { createClientFromRequest } from 'npm:@base44/sdk@0.8.52';
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
+import { getAiStatus, publicAiStatus, reserveAiTurn } from '../../shared/aiQuota.js';
 
 // Server-side AI gateway. Every InvokeLLM call the app makes on behalf of a
 // learner goes through here so the plan's daily quota is enforced with the
 // service role, not in the browser. Prompts are built here from narrow,
 // task-specific inputs — there is no generic "run this prompt" action.
 
-const PLAN_LIMITS = [
-  { id: 'free', name: 'free plan', limit: 3 },
-  { id: 'learner', name: 'learner plan', limit: 25 },
-  { id: 'vip', name: 'vip plan', limit: 300, displayUnlimited: true },
-];
-const resolvePlan = (v) => {
-  if (!v) return PLAN_LIMITS[0];
-  const s = String(v).toLowerCase();
-  return PLAN_LIMITS.find((p) => p.id === s || p.name === s || s.includes(p.id)) || PLAN_LIMITS[0];
-};
-const today = () => new Date().toISOString().slice(0, 10);
 const str = (v, max = 1000) => String(v ?? '').slice(0, max);
 const clamp = (v) => Math.max(0, Math.min(100, Math.round(Number(v) || 0)));
-
-async function getStatus(sr, user, scope) {
-  if (user.role === 'admin') return { allowed: true, limit: null, used: 0, remaining: null, unlimited: true };
-  let planName = null;
-  if (scope === 'teacher' && user.teacher_status === 'approved') {
-    planName = 'vip';
-  } else {
-    let subs = await sr.entities.StudentSubscription.filter({ phone: user.email });
-    if (subs.length === 0) subs = await sr.entities.StudentSubscription.filter({ created_by_id: user.id });
-    planName = subs?.[0]?.plan || null;
-  }
-  const plan = resolvePlan(planName);
-  const logs = await sr.entities.AiUsageLog.filter({ user_email: user.email, date: today() });
-  const used = logs?.[0]?.count || 0;
-  return { allowed: used < plan.limit, limit: plan.limit, used, remaining: Math.max(0, plan.limit - used), unlimited: !!plan.displayUnlimited, _log: logs?.[0] || null };
-}
-
-async function consume(sr, user, status) {
-  if (user.role === 'admin') return status;
-  if (status._log) {
-    await sr.entities.AiUsageLog.update(status._log.id, { count: (status._log.count || 0) + 1 });
-  } else {
-    await sr.entities.AiUsageLog.create({ user_email: user.email, user_id: user.id, user_name: user.full_name || '', date: today(), count: 1 });
-  }
-  const used = status.used + 1;
-  const remaining = Math.max(0, status.limit - used);
-  return { ...status, used, remaining, allowed: remaining > 0 };
-}
-
-const publicStatus = (s) => { const { _log, ...rest } = s; return rest; };
 
 function buildTask(action, p) {
   if (action === 'gradeSentence') {
@@ -232,22 +192,20 @@ export default async function (req) {
     const { action } = body;
     const scope = body.scope === 'teacher' ? 'teacher' : 'student';
 
-    const status = await getStatus(sr, user, scope);
-    if (action === 'status') return Response.json({ status: publicStatus(status) });
+    const status = await getAiStatus(sr, user, scope);
+    if (action === 'status') return Response.json({ status: publicAiStatus(status) });
+    const task = action === 'consumeChatTurn' ? null : buildTask(action, body);
+    if (action !== 'consumeChatTurn' && !task) return Response.json({ error: 'Unknown action' }, { status: 400 });
+    if (!status.allowed) return Response.json({ blocked: true, status: publicAiStatus(status) });
 
-    if (action === 'consumeChatTurn') {
-      if (!status.allowed) return Response.json({ blocked: true, status: publicStatus(status) });
-      return Response.json({ status: publicStatus(await consume(sr, user, status)) });
-    }
-
-    const task = buildTask(action, body);
-    if (!task) return Response.json({ error: 'Unknown action' }, { status: 400 });
-    if (!status.allowed) return Response.json({ blocked: true, status: publicStatus(status) });
-
+    // Durable admission BEFORE spending credits. Accepted attempts stay charged
+    // if the provider fails, preventing retries from becoming unlimited spend.
+    const next = await reserveAiTurn(sr, user, scope, status);
+    if (!next) return Response.json({ blocked: true, status: publicAiStatus(await getAiStatus(sr, user, scope)) });
+    if (action === 'consumeChatTurn') return Response.json({ status: publicAiStatus(next) });
     const raw = await sr.integrations.Core.InvokeLLM(
       task.schema ? { prompt: task.prompt, response_json_schema: task.schema } : { prompt: task.prompt }
     );
-    const next = await consume(sr, user, status);
     const result = task.shape(raw || {});
     // VT-6: the server's own grade is the progress evidence for AI-graded
     // games; progressApi reads these rows and never a browser-reported score.
@@ -267,7 +225,7 @@ export default async function (req) {
         rubric: action === 'gradeSentence' ? 'sentence.v1' : 'definition.v1',
       });
     }
-    return Response.json({ result, status: publicStatus(next) });
+    return Response.json({ result, status: publicAiStatus(next) });
   } catch (error) {
     return Response.json({ error: error.message }, { status: 500 });
   }

@@ -1,0 +1,69 @@
+{
+  "name": "UsageReservation",
+  "type": "object",
+  "description": "Server-created AI budget reservations. A request reserves before paid work; pending reservations count too, so overlapping requests cannot all spend the same remaining allowance. Material leases outlive the maximum function runtime.",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "user_email": {
+      "type": "string"
+    },
+    "bucket": {
+      "type": "string",
+      "enum": [
+        "ai_turn",
+        "material_run"
+      ]
+    },
+    "date": {
+      "type": "string"
+    },
+    "resource_id": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean",
+      "default": false
+    },
+    "lease_until": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "user_id",
+    "user_email",
+    "bucket",
+    "date"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "data.user_email": "{{user.email}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
