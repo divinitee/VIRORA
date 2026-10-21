@@ -1,0 +1,155 @@
+[
+{"headword": "import", "word_id": "6a42800cb9d8fc24968a4b6f", "word_ids": ["6a42800cb9d8fc24968a4b6f"], "cefr": "B2", "kind": "word", "sense_label": "Trade", "sense_pos": "verb", "corpus_definition": "to bring products from another country into your own",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "import", "relation": "conversion", "definition": "a product that is brought into a country from abroad to sell", "example": "Cheap imports from China are sold in many markets in Tashkent.", "note": "Stress moves for the noun: an IMport, but to imPORT.", "syn": [{"to": "foreign goods", "relation": "synonym", "strength": 0.8, "note": "Everyday phrase for products made in another country."}, {"to": "product", "relation": "related", "strength": 0.4, "note": "Any thing that is made to be sold, from your country or another one."}], "ant": [{"to": "export", "relation": "antonym", "note": "An export is a product that a country sells to other countries."}]},
+  {"slot": "noun", "status": "existing", "form": "importation", "relation": "derivational", "definition": "the act of bringing goods into a country to sell them", "example": "The importation of some medicines needs special permission.", "register": "formal", "syn": [], "ant": [{"to": "exportation", "relation": "antonym", "note": "The act of sending goods to other countries to sell; formal and rare."}]},
+  {"slot": "verb", "status": "existing", "form": "import", "relation": "base", "definition": "to buy goods from another country and bring them into your own", "example": "Uzbekistan imports a lot of cars and machines.", "syn": [{"to": "bring in", "relation": "synonym", "strength": 0.95, "note": "Easy phrasal verb with the same meaning: 'They bring in tea from India.'"}, {"to": "buy", "relation": "related", "strength": 0.4, "note": "Buy is general; import means buying from another country."}], "ant": [{"to": "export", "relation": "antonym", "note": "To sell goods to other countries: 'Uzbekistan exports cotton.'"}]},
+  {"slot": "adjective", "status": "existing", "form": "imported", "relation": "participial", "definition": "brought into the country from abroad to be sold", "example": "Imported fruit is usually more expensive in winter.", "syn": [{"to": "foreign", "relation": "related", "strength": 0.6, "note": "Related: from another country, but foreign is used for people and ideas too."}], "ant": [{"to": "local", "relation": "antonym", "note": "Made or grown in your own area: 'local fruit from the bazaar'."}, {"to": "domestic", "relation": "antonym", "note": "Made in your own country; a little formal."}]},
+  {"slot": "adverb", "status": "no_form", "note": "There is no adverb in this family."}
+ ],
+ "people": [
+  {"form": "importer", "kind": "job", "status": "existing", "definition": "a person or company that brings goods into a country to sell", "example": "My uncle is an importer of car parts from Korea."}
+ ],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-er", "in_form": "importer", "meaning_key": "-er", "also": ["teacher", "driver", "worker"]},
+  {"affix": "-ation", "in_form": "importation", "meaning_key": "-ation", "also": ["information", "invitation", "education"]}
+ ],
+ "context": {"text": "Our shop imports coffee from Brazil. Imported coffee costs more, but customers in Tashkent love it. My brother works for an importer of tea.", "uses": ["imports", "Imported", "importer"]},
+ "reviewer_note": "Noun and verb have different stress (IMport vs imPORT); only the trade sense is mapped."},
+
+{"headword": "impress", "word_id": "6a42821646ba24054c1dcca2", "word_ids": ["6a42821646ba24054c1dcca2"], "cefr": "B2", "kind": "word", "sense_label": "Admiration", "sense_pos": "verb", "corpus_definition": "To make someone feel admiration for you.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "impression", "relation": "derivational", "definition": "the opinion or feeling you get about someone when you first meet them", "example": "She made a good impression on her new boss.", "note": "Common phrase: make a good/bad impression (on someone).", "syn": [{"to": "image", "relation": "related", "strength": 0.6, "note": "Related: the picture people have of a person or company."}, {"to": "opinion", "relation": "related", "strength": 0.4, "note": "What you think about something; an impression is often a quick, first opinion."}], "ant": []},
+  {"slot": "verb", "status": "existing", "form": "impress", "relation": "base", "definition": "to make someone admire you or think you are very good", "example": "He worked hard to impress his teachers.", "syn": [{"to": "amaze", "relation": "related", "strength": 0.6, "note": "Stronger: to surprise someone very much."}, {"to": "dazzle", "relation": "related", "strength": 0.6, "note": "To impress someone very much with something bright or clever."}, {"to": "inspire", "relation": "related", "strength": 0.4, "note": "To make someone want to do something good too."}], "ant": [{"to": "disappoint", "relation": "antonym", "note": "To make someone sad because you were not as good as they hoped."}]},
+  {"slot": "adjective", "status": "existing", "form": "impressive", "relation": "derivational", "definition": "so good, big or skilful that people admire it", "example": "The new airport in Samarkand is very impressive.", "syn": [{"to": "amazing", "relation": "synonym", "strength": 0.8, "note": "Easy and common in speaking; a little stronger."}, {"to": "remarkable", "relation": "synonym", "strength": 0.8, "note": "Unusual in a good way; a little formal."}, {"to": "great", "relation": "related", "strength": 0.6, "note": "Very general word for something good."}], "ant": [{"to": "unimpressive", "relation": "antonym", "note": "Not good or special enough to admire."}, {"to": "ordinary", "relation": "antonym", "note": "Normal, nothing special."}]},
+  {"slot": "adjective", "status": "existing", "form": "impressed", "relation": "participial", "definition": "feeling admiration for someone because of what they did", "example": "I was really impressed by your English.", "note": "impressed = how you feel; impressive = the thing that makes you feel it.", "syn": [{"to": "amazed", "relation": "related", "strength": 0.6, "note": "Stronger, with more surprise."}], "ant": [{"to": "unimpressed", "relation": "antonym", "note": "Not feeling any admiration: 'The judges were unimpressed.'"}]},
+  {"slot": "adverb", "status": "existing", "form": "impressively", "relation": "derivational", "definition": "in a way that makes people feel admiration", "example": "The team played impressively in the final.", "syn": [{"to": "remarkably", "relation": "synonym", "strength": 0.8, "note": "In an unusual and surprising way."}, {"to": "well", "relation": "related", "strength": 0.4, "note": "Easy general word; impressively is much stronger."}], "ant": []}
+ ],
+ "people": [
+  {"form": "impressionist", "kind": "job", "status": "other_meaning", "definition": "an entertainer who copies the voices of famous people", "example": "The impressionist on TV sounded just like the president.", "note": "Belongs to impression = copying how someone talks, not admiration. Also a painter in a 19th-century art style."}
+ ],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "-ion", "in_form": "impression", "meaning_key": "-ion", "also": ["action", "protection", "election"]},
+  {"affix": "-ive", "in_form": "impressive", "meaning_key": "-ive", "also": ["active", "creative", "attractive"]},
+  {"affix": "-ly", "in_form": "impressively", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+ ],
+ "context": {"text": "Aziz wanted to impress the guests, so he cooked plov for twenty people. Everyone was impressed. It was an impressive meal and made a great impression.", "uses": ["impress", "impressed", "impressive", "impression"]},
+ "reviewer_note": "impressed vs impressive (feeling vs cause) explained; impressionist kept as other_meaning."},
+
+{"headword": "in conclusion", "word_id": "6a4265cce20c7210db6908d1", "word_ids": ["6a4265cce20c7210db6908d1"], "cefr": "B2", "kind": "phrase", "sense_label": "Ending", "sense_pos": "adverb", "corpus_definition": "Used to introduce the final part of a talk or written piece.",
+ "usage_note": "Usually at the start of the last paragraph or part of a talk, followed by a comma: 'In conclusion, ...'. Common in essays and formal speaking.",
+ "relations": [
+  {"to": "to sum up", "relation": "synonym", "strength": 0.95, "note": "Very close; used to give a short summary at the end."},
+  {"to": "in summary", "relation": "synonym", "strength": 0.95, "note": "Very close; common in essays and reports."},
+  {"to": "finally", "relation": "synonym", "strength": 0.8, "note": "Introduces the last point, not always a summary."},
+  {"to": "lastly", "relation": "related", "strength": 0.6, "note": "Introduces the last item in a list of points."},
+  {"to": "to begin with", "relation": "antonym", "note": "Used to introduce the first point, at the start."},
+  {"to": "firstly", "relation": "antonym", "note": "Used to introduce the first point in a list."}
+ ],
+ "context": {"text": "In my IELTS essay I wrote three paragraphs about city life. In conclusion, I said that living in Tashkent has more good sides than bad ones.", "uses": ["In conclusion"]},
+ "reviewer_note": "Fixed phrase; formal written discourse marker, no forms."},
+
+{"headword": "in debt", "word_id": "6a42800cb9d8fc24968a4b95", "word_ids": ["6a42800cb9d8fc24968a4b95"], "cefr": "B2", "kind": "phrase", "sense_label": "Money", "sense_pos": "adjective", "corpus_definition": "A state where you have not yet returned borrowed money.",
+ "usage_note": "be in debt (to someone / the bank); get or go into debt; heavily / deeply in debt. The b in debt is silent: /det/.",
+ "relations": [
+  {"to": "owing money", "relation": "synonym", "strength": 0.95, "note": "Easy phrase with the same meaning."},
+  {"to": "in the red", "relation": "synonym", "strength": 0.8, "note": "Informal; often used about a bank account or a business.", "register": "informal"},
+  {"to": "broke", "relation": "related", "strength": 0.4, "note": "Informal: having no money at all, not always owing money.", "register": "informal"},
+  {"to": "out of debt", "relation": "antonym", "note": "Not owing any money any more."}
+ ],
+ "context": {"text": "After buying a car, my cousin was in debt to the bank for three years. Now he saves every month because he never wants to go into debt again.", "uses": ["in debt", "into debt"]},
+ "reviewer_note": "Fixed phrase; noted silent b and the related pattern go into debt."},
+
+{"headword": "in favour (of)", "word_id": "6a4265cce20c7210db6908d3", "word_ids": ["6a4265cce20c7210db6908d3"], "cefr": "B2", "kind": "phrase", "sense_label": "Support", "sense_pos": "adjective", "corpus_definition": "To support or approve of a person, group, or idea.",
+ "usage_note": "be in favour of + noun / -ing: 'I'm in favour of the plan', 'She's in favour of building a park.' Also alone: 'Who is in favour?' American spelling: in favor (of).",
+ "relations": [
+  {"to": "for", "relation": "synonym", "strength": 0.8, "note": "Short and spoken: 'Are you for or against the idea?'"},
+  {"to": "supportive of", "relation": "synonym", "strength": 0.8, "note": "Similar, a little more about helping and encouraging."},
+  {"to": "agree with", "relation": "related", "strength": 0.6, "note": "Related: you share the same opinion."},
+  {"to": "against", "relation": "antonym", "note": "Not supporting an idea: 'Most parents are against the new rule.'"},
+  {"to": "opposed to", "relation": "antonym", "note": "Formal: strongly against something."}
+ ],
+ "context": {"text": "The school director asked the parents about a shorter school day. Most of them were in favour of the idea, but a few were against it.", "uses": ["in favour of"]},
+ "reviewer_note": "Fixed phrase; British vs American spelling noted (favour/favor)."},
+
+{"headword": "inactive", "word_id": "6a42659782466c80f8ae0cc0", "word_ids": ["6a42659782466c80f8ae0cc0"], "cefr": "B2", "kind": "word", "sense_label": "Movement", "sense_pos": "adjective", "corpus_definition": "Not doing much or moving very little.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "inactivity", "relation": "derivational", "definition": "a state of not moving or doing very much", "example": "Long periods of inactivity are bad for your heart.", "syn": [{"to": "idleness", "relation": "synonym", "strength": 0.8, "note": "Not working or doing anything, often because you are lazy."}, {"to": "rest", "relation": "related", "strength": 0.4, "note": "Rest is a good, planned break; inactivity often sounds negative."}], "ant": [{"to": "activity", "relation": "antonym", "note": "Doing things and moving around."}]},
+  {"slot": "verb", "status": "no_form", "note": "No common verb. inactivate is a science word only."},
+  {"slot": "adjective", "status": "existing", "form": "inactive", "relation": "base", "definition": "not doing much, not moving much, or not working", "example": "Many children are inactive because they play on phones all day.", "syn": [{"to": "idle", "relation": "synonym", "strength": 0.8, "note": "Not working or not being used: 'The machines are idle.'"}, {"to": "sedentary", "relation": "synonym", "strength": 0.8, "note": "Formal: about a way of life with a lot of sitting.", "register": "formal"}, {"to": "passive", "relation": "related", "strength": 0.6, "note": "Letting things happen without doing anything yourself."}, {"to": "lazy", "relation": "related", "strength": 0.4, "note": "Not wanting to work; inactive does not always mean lazy."}], "ant": [{"to": "active", "relation": "antonym", "note": "Moving or doing a lot of things."}, {"to": "busy", "relation": "antonym", "note": "Having a lot of things to do."}, {"to": "energetic", "relation": "antonym", "note": "Full of energy and moving a lot."}]},
+  {"slot": "adverb", "status": "no_form", "note": "No common adverb in this family."}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "in-", "in_form": "inactive", "meaning_key": "in-", "also": ["incorrect", "invisible", "incomplete"]},
+  {"affix": "-ity", "in_form": "inactivity", "meaning_key": "-ity", "also": ["ability", "security", "electricity"]}
+ ],
+ "context": {"text": "After he retired, my grandfather became quite inactive and sat at home all day. The doctor told him that inactivity is dangerous, so now he walks in the park every morning.", "uses": ["inactive", "inactivity"]},
+ "reviewer_note": "Headword is already the negative (in- + active); active/activity are listed as antonyms, not forms."},
+
+{"headword": "incident", "word_id": "6a6ef9b2a6015561480926b0", "word_ids": ["6a6ef9b2a6015561480926b0"], "cefr": "B2", "kind": "word", "sense_label": "Event", "sense_pos": "noun", "corpus_definition": "An event that happens, often causing some trouble.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "incident", "relation": "base", "definition": "an event that happens, often a bad or unusual one", "example": "There was a small incident at the bus station this morning.", "note": "Often used by the police and in the news.", "syn": [{"to": "event", "relation": "synonym", "strength": 0.8, "note": "General word for something that happens, good or bad."}, {"to": "occurrence", "relation": "synonym", "strength": 0.8, "note": "Formal word for something that happens.", "register": "formal"}, {"to": "episode", "relation": "related", "strength": 0.6, "note": "One event or short period, often unusual."}, {"to": "accident", "relation": "related", "strength": 0.6, "note": "An event where someone is hurt or something breaks by chance."}], "ant": []},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb in this family."},
+  {"slot": "adjective", "status": "other_meaning", "form": "incidental", "definition": "happening as a small extra part of something more important", "example": "The job pays well, and the travel is an incidental benefit.", "note": "Belongs to the meaning 'small and extra', not an event that causes trouble."},
+  {"slot": "adverb", "status": "other_meaning", "form": "incidentally", "definition": "used when you add a new idea to a conversation", "example": "Incidentally, have you seen Kamola recently?", "note": "False friend: it means 'by the way', not 'in an event that causes trouble'."}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [],
+ "context": {"text": "There was an incident at the football match last night. Two fans started fighting, and the police said the incident was not serious.", "uses": ["incident"]},
+ "reviewer_note": "incidentally is a false friend (= by the way); no affix claimed because in-cident is not a real split."},
+
+{"headword": "independent", "word_id": "6a42662edeeb39f88113011e", "word_ids": ["6a42662edeeb39f88113011e"], "cefr": "B2", "kind": "word", "sense_label": "Self", "sense_pos": "adjective", "corpus_definition": "Able to do things by yourself without help.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "independence", "relation": "derivational", "definition": "the ability to live and make decisions without help from others", "example": "Getting her first job gave Malika a lot of independence.", "note": "Also means a country's freedom from another country: Uzbekistan's Independence Day is on 1 September.", "syn": [{"to": "freedom", "relation": "synonym", "strength": 0.8, "note": "Easy word: being able to do what you want."}, {"to": "self-reliance", "relation": "synonym", "strength": 0.8, "note": "Formal: trusting yourself and not needing other people.", "register": "formal"}, {"to": "autonomy", "relation": "related", "strength": 0.6, "note": "Formal: the right to make your own decisions.", "register": "formal"}], "ant": [{"to": "dependence", "relation": "antonym", "note": "Needing someone or something to help or support you."}]},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb with this meaning."},
+  {"slot": "adjective", "status": "existing", "form": "independent", "relation": "base", "definition": "able to look after yourself and decide things without help", "example": "My little sister is very independent and does her homework alone.", "syn": [{"to": "self-reliant", "relation": "synonym", "strength": 0.95, "note": "Very close, a little formal."}, {"to": "self-sufficient", "relation": "synonym", "strength": 0.8, "note": "Able to get everything you need without help."}, {"to": "free", "relation": "related", "strength": 0.6, "note": "Easy word: not controlled by other people."}], "ant": [{"to": "dependent", "relation": "antonym", "note": "Needing help or money from someone else."}, {"to": "helpless", "relation": "antonym", "note": "Not able to do things for yourself."}]},
+  {"slot": "adverb", "status": "existing", "form": "independently", "relation": "derivational", "definition": "without help or control from other people", "example": "Students should learn to work independently.", "syn": [{"to": "alone", "relation": "related", "strength": 0.6, "note": "Easy word: without other people."}, {"to": "unaided", "relation": "synonym", "strength": 0.8, "note": "Formal: without any help.", "register": "formal"}], "ant": [{"to": "together", "relation": "antonym", "note": "With other people, as a group."}]}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "in-", "in_form": "independent", "meaning_key": "in-", "also": ["incorrect", "invisible", "incomplete"]},
+  {"affix": "-ence", "in_form": "independence", "meaning_key": "-ence", "also": ["difference", "silence", "existence"]},
+  {"affix": "-ly", "in_form": "independently", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+ ],
+ "context": {"text": "When Bobur moved to Tashkent for university, he became more independent. He cooks and pays his bills independently now, and he enjoys his independence.", "uses": ["independent", "independently", "independence"]},
+ "reviewer_note": "Headword is already in- + dependent; dependent/dependence are antonyms, not forms. Country sense of independence noted only."},
+
+{"headword": "indirect", "word_id": "6a6ef83f0f1e82a5a07367a1", "word_ids": ["6a6ef83f0f1e82a5a07367a1"], "cefr": "B2", "kind": "word", "sense_label": "Speaking", "sense_pos": "adjective", "corpus_definition": "Not going straight to the point.",
+ "forms": [
+  {"slot": "noun", "status": "existing", "form": "indirectness", "relation": "derivational", "definition": "the habit of not saying things clearly or openly", "example": "His indirectness made it hard to know what he really wanted.", "syn": [{"to": "vagueness", "relation": "related", "strength": 0.6, "note": "Not being clear or exact."}], "ant": [{"to": "directness", "relation": "antonym", "note": "Saying what you think clearly and openly."}]},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb with this meaning."},
+  {"slot": "adjective", "status": "existing", "form": "indirect", "relation": "base", "definition": "not saying something clearly; going around the main point", "example": "She asked an indirect question about my salary.", "note": "Also means 'not straight' for roads and routes, and 'not the main cause': indirect costs.", "syn": [{"to": "roundabout", "relation": "synonym", "strength": 0.8, "note": "Not simple or quick: 'a roundabout way of saying no'."}, {"to": "evasive", "relation": "synonym", "strength": 0.8, "note": "Avoiding a clear answer on purpose; sounds negative.", "register": "formal"}, {"to": "vague", "relation": "related", "strength": 0.6, "note": "Not clear or exact."}, {"to": "subtle", "relation": "related", "strength": 0.4, "note": "Not obvious, often in a clever way."}], "ant": [{"to": "direct", "relation": "antonym", "note": "Saying exactly what you mean."}, {"to": "straightforward", "relation": "antonym", "note": "Honest and easy to understand."}, {"to": "clear", "relation": "antonym", "note": "Easy to understand."}]},
+  {"slot": "adverb", "status": "existing", "form": "indirectly", "relation": "derivational", "definition": "in a way that hints at something instead of saying it clearly", "example": "He told me indirectly that he didn't like my plan.", "syn": [{"to": "subtly", "relation": "related", "strength": 0.6, "note": "In a way that is not obvious."}], "ant": [{"to": "directly", "relation": "antonym", "note": "In a clear and open way."}, {"to": "openly", "relation": "antonym", "note": "Without hiding anything."}]}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "in-", "in_form": "indirect", "meaning_key": "in-", "also": ["incorrect", "invisible", "incomplete"]},
+  {"affix": "-ly", "in_form": "indirectly", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]},
+  {"affix": "-ness", "in_form": "indirectness", "meaning_key": "-ness", "also": ["kindness", "happiness", "darkness"]}
+ ],
+ "context": {"text": "In many families, people are indirect when they talk about money. My aunt asked indirectly how much my new phone cost.", "uses": ["indirect", "indirectly"]},
+ "reviewer_note": "Headword is already in- + direct; direct/directly/directness are antonyms, not forms."},
+
+{"headword": "inexpensive", "word_id": "6a42800cb9d8fc24968a4b86", "word_ids": ["6a42800cb9d8fc24968a4b86"], "cefr": "B2", "kind": "word", "sense_label": "Price", "sense_pos": "adjective", "corpus_definition": "costing only a little money",
+ "forms": [
+  {"slot": "noun", "status": "no_form", "note": "No common noun; people say 'the low price'."},
+  {"slot": "verb", "status": "no_form", "note": "There is no verb with this meaning."},
+  {"slot": "adjective", "status": "existing", "form": "inexpensive", "relation": "base", "definition": "costing only a little money; not costing much", "example": "We found an inexpensive hotel near the old city in Bukhara.", "note": "Sounds more positive than cheap, which can mean low quality.", "syn": [{"to": "cheap", "relation": "synonym", "strength": 0.95, "note": "Easy and common, but can also mean low quality."}, {"to": "affordable", "relation": "synonym", "strength": 0.8, "note": "Cheap enough for most people to buy."}, {"to": "reasonable", "relation": "related", "strength": 0.6, "note": "About a price that is fair, not too high."}], "ant": [{"to": "expensive", "relation": "antonym", "note": "Costing a lot of money."}, {"to": "costly", "relation": "antonym", "note": "Costing a lot, often more than you want to pay."}, {"to": "dear", "relation": "antonym", "note": "British, a little old-fashioned: 'Fruit is dear in winter.'"}]},
+  {"slot": "adverb", "status": "existing", "form": "inexpensively", "relation": "derivational", "definition": "for only a small amount of money", "example": "You can travel inexpensively around Uzbekistan by train.", "syn": [{"to": "cheaply", "relation": "synonym", "strength": 0.95, "note": "Easy and common with the same meaning."}], "ant": [{"to": "expensively", "relation": "antonym", "note": "In a way that costs a lot of money."}]}
+ ],
+ "people": [],
+ "people_not_family": [],
+ "affixes": [
+  {"affix": "in-", "in_form": "inexpensive", "meaning_key": "in-", "also": ["incorrect", "invisible", "incomplete"]},
+  {"affix": "-ly", "in_form": "inexpensively", "meaning_key": "-ly", "also": ["quickly", "slowly", "carefully"]}
+ ],
+ "context": {"text": "Students in Samarkand look for inexpensive places to eat. At the bazaar you can eat well and inexpensively for a few thousand sum.", "uses": ["inexpensive", "inexpensively"]},
+ "reviewer_note": "Headword is already in- + expensive; expensive/expensively are antonyms, not forms."}
+]
