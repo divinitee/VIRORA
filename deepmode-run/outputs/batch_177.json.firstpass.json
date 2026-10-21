@@ -1,0 +1,269 @@
+{
+ "gate_version": "gate-4.4",
+ "results": [
+  {
+   "headword": "valuable",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "missing form",
+     "msg": "verb: common family word 'evaluate' (zipf 4.0) isn't shown. Add it to this slot (existing or other_meaning), or list it in not_family."
+    }
+   ],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "noun: real words that may be in the family but aren't shown: evaluation"
+    },
+    {
+     "cat": "level mismatch",
+     "msg": "noun definition has rare words: expert's"
+    },
+    {
+     "cat": "wrong morphology",
+     "msg": "people 'valuables': family link not confirmed by the dictionary or a suffix rule"
+    },
+    {
+     "cat": "not shown",
+     "msg": "People & things: 'valor' (zipf 3.2) may belong here"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "values",
+       "value"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "valued"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Trap: invaluable is a false friend (in- does not mean 'not'); kept as an existing extra with a note and no in- affix. Valuables (plural noun) placed in People & things."
+  },
+  {
+   "headword": "vast",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "vastness"
+      ]
+     },
+     "irregular": false
+    },
+    "adjective": {
+     "forms": {
+      "JJR": [
+       "vaster"
+      ],
+      "JJS": [
+       "vastest"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "vastly means 'to a great degree', not 'in a vast way'; definition written for that use."
+  },
+  {
+   "headword": "vein",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "veins"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Two corpus rows with the same body meaning merged into one map; the medical adjective venous is from Latin, not made from vein, so it is left out."
+  },
+  {
+   "headword": "venture",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: venturous"
+    },
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; real words that look related: venturous. Check."
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "ventures"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "ventured"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Venture capitalist and joint venture are compounds and left out. Adventure/adventurous treated as not_family (separate words today)."
+  },
+  {
+   "headword": "veterinarian",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "schema",
+     "msg": "people 'vet' is already shown elsewhere in the map"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "wrong morphology",
+     "msg": "people 'vet': family link not confirmed by the dictionary or a suffix rule"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "veterinarians"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6); vet goes in People & things. Verb vet (check carefully) is other_meaning."
+  },
+  {
+   "headword": "via",
+   "kind": "function",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {},
+   "reviewer_note": "Kind corrected to function (preposition). Both uses (route and method) covered in the usage note."
+  },
+  {
+   "headword": "viewer",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "missing form",
+     "msg": "adjective: the note names viewable but the slot says 'no such form'. Show it (existing or other_meaning), or list it in not_family if it isn't made from this word."
+    }
+   ],
+   "flags": [
+    {
+     "cat": "no_form check",
+     "msg": "adjective: marked 'no such form'; rare or doubtful family words exist: viewable"
+    }
+   ],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "viewers"
+      ]
+     },
+     "irregular": false
+    },
+    "verb": {
+     "forms": {
+      "VBD": [
+       "viewed"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "Headword is a person noun, so it stays the main noun entry (rule 6). Noun view (scene/opinion) is other_meaning; viewpoint is a compound and left out."
+  },
+  {
+   "headword": "violence",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [],
+   "inflections": {
+    "noun": {
+     "forms": {
+      "NNS": [
+       "violence"
+      ]
+     },
+     "irregular": true
+    }
+   },
+   "reviewer_note": "violate is not_family (different Latin root). Negative forms nonviolence/nonviolent placed in ant lists, not as forms."
+  },
+  {
+   "headword": "vital",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [],
+   "flags": [
+    {
+     "cat": "not shown",
+     "msg": "adjective: real words that may be in the family but aren't shown: indispensable"
+    }
+   ],
+   "inflections": {},
+   "reviewer_note": "Sense trap: vitality and revitalize belong to vital = full of energy, so they are other_meaning. Vitamin looks related but is a separate word; left out."
+  },
+  {
+   "headword": "volunteering",
+   "kind": "word",
+   "cefr": "B2",
+   "fails": [
+    {
+     "cat": "schema",
+     "msg": "people 'volunteer' is already shown elsewhere in the map"
+    }
+   ],
+   "flags": [
+    {
+     "cat": "unchecked POS",
+     "msg": "noun 'volunteering': not in WordNet, but common in real text (zipf 3.5) and built by a suffix rule"
+    }
+   ],
+   "inflections": {
+    "verb": {
+     "forms": {
+      "VBD": [
+       "volunteered"
+      ]
+     },
+     "irregular": false
+    }
+   },
+   "reviewer_note": "volunteer is both the verb (forms) and the person noun (People & things); volunteer noun placed in people per rule 8, not repeated in the noun slot."
+  }
+ ]
+}
