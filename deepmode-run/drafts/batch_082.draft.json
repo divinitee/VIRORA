@@ -63,7 +63,7 @@
     "ant": [{"to": "clear", "relation": "antonym", "note": "To become easy to see through."}]},
    {"slot": "adjective", "status": "existing", "form": "foggy", "relation": "derivational", "definition": "with a lot of thick cloud near the ground", "example": "It was a cold, foggy morning.",
     "syn": [{"to": "misty", "relation": "synonym", "strength": 0.8, "note": "With thin fog."},
-            {"to": "hazy", "relation": "synonym", "strength": 0.6, "note": "Not clear because of dust or heat."}],
+            {"to": "hazy", "relation": "related", "strength": 0.6, "note": "Not clear because of dust or heat."}],
     "ant": [{"to": "clear", "relation": "antonym", "note": "Easy to see through."}, {"to": "sunny", "relation": "antonym", "note": "With a lot of sun."}]},
    {"slot": "adverb", "status": "no_form"}
   ],
