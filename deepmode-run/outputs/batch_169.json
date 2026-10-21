@@ -2,280 +2,1006 @@
  {
   "headword": "slight",
   "word_id": "6a6ef83f0f1e82a5a0736880",
-  "word_ids": ["6a6ef83f0f1e82a5a0736880"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736880"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Small",
   "sense_pos": "adjective",
   "corpus_definition": "Very small in degree or amount.",
   "forms": [
-   {"slot": "noun", "status": "other_meaning", "form": "slight", "definition": "a rude action that shows you do not respect someone", "example": "She took his silence as a personal slight.", "note": "Belongs to slight = to insult or ignore someone, not 'very small in amount'."},
-   {"slot": "verb", "status": "other_meaning", "form": "slight", "definition": "to insult someone by ignoring them or treating them as unimportant", "example": "He felt slighted when nobody asked for his opinion.", "note": "Belongs to slight = to insult or ignore someone, not 'very small in amount'. Formal."},
-   {"slot": "adjective", "status": "existing", "form": "slight", "relation": "base", "definition": "very small in size, amount or importance", "example": "I have a slight headache, but I can still go to class.", "syn": [
-     {"to": "small", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; slight is often used for changes, problems and differences."},
-     {"to": "minor", "relation": "synonym", "strength": 0.8, "note": "Small and not very important: a minor problem."},
-     {"to": "little", "relation": "synonym", "strength": 0.8, "note": "Easy word, but it usually comes before the noun: a little problem."},
-     {"to": "tiny", "relation": "related", "strength": 0.6, "note": "Even smaller than slight, and often about size, not degree."}
-    ], "ant": [
-     {"to": "major", "relation": "antonym", "note": "Large or important: a major change."},
-     {"to": "considerable", "relation": "antonym", "note": "Quite large in amount or degree; a bit formal."},
-     {"to": "big", "relation": "antonym", "note": "Easy, everyday opposite."}
-    ]},
-   {"slot": "adverb", "status": "existing", "form": "slightly", "relation": "derivational", "definition": "a little; not very much", "example": "The bus was slightly late this morning.", "syn": [
-     {"to": "a little", "relation": "synonym", "strength": 0.95, "note": "Easy and very close in meaning."},
-     {"to": "a bit", "relation": "synonym", "strength": 0.95, "note": "Same meaning, more informal.", "register": "informal"},
-     {"to": "somewhat", "relation": "synonym", "strength": 0.8, "note": "Same idea, more formal.", "register": "formal"}
-    ], "ant": [
-     {"to": "considerably", "relation": "antonym", "note": "By a large amount."},
-     {"to": "greatly", "relation": "antonym", "note": "Very much; a bit formal."}
-    ]}
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "slight",
+    "definition": "a rude action that shows you do not respect someone",
+    "example": "She took his silence as a personal slight.",
+    "note": "Belongs to slight = to insult or ignore someone, not 'very small in amount'."
+   },
+   {
+    "slot": "verb",
+    "status": "other_meaning",
+    "form": "slight",
+    "definition": "to insult someone by ignoring them or treating them as unimportant",
+    "example": "He felt slighted when nobody asked for his opinion.",
+    "note": "Belongs to slight = to insult or ignore someone, not 'very small in amount'. Formal."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "slight",
+    "relation": "base",
+    "definition": "very small in size, amount or importance",
+    "example": "I have a slight headache, but I can still go to class.",
+    "syn": [
+     {
+      "to": "small",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; slight is often used for changes, problems and differences."
+     },
+     {
+      "to": "minor",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Small and not very important: a minor problem."
+     },
+     {
+      "to": "little",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word, but it usually comes before the noun: a little problem."
+     },
+     {
+      "to": "tiny",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Even smaller than slight, and often about size, not degree."
+     }
+    ],
+    "ant": [
+     {
+      "to": "major",
+      "relation": "antonym",
+      "note": "Large or important: a major change."
+     },
+     {
+      "to": "considerable",
+      "relation": "antonym",
+      "note": "Quite large in amount or degree; a bit formal."
+     },
+     {
+      "to": "big",
+      "relation": "antonym",
+      "note": "Easy, everyday opposite."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "slightly",
+    "relation": "derivational",
+    "definition": "a little; not very much",
+    "example": "The bus was slightly late this morning.",
+    "syn": [
+     {
+      "to": "a little",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy and very close in meaning."
+     },
+     {
+      "to": "a bit",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same meaning, more informal.",
+      "register": "informal"
+     },
+     {
+      "to": "somewhat",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Same idea, more formal.",
+      "register": "formal"
+     }
+    ],
+    "ant": [
+     {
+      "to": "considerably",
+      "relation": "antonym",
+      "note": "By a large amount."
+     },
+     {
+      "to": "greatly",
+      "relation": "antonym",
+      "note": "Very much; a bit formal."
+     }
+    ]
+   }
   ],
   "people": [],
   "affixes": [
-   {"affix": "-ly", "in_form": "slightly", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]}
+   {
+    "affix": "-ly",
+    "in_form": "slightly",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
   ],
-  "context": {"text": "There was a slight change in the timetable today. Our lesson started slightly later, at ten instead of nine.", "uses": ["slight", "slightly"]},
+  "context": {
+   "text": "There was a slight change in the timetable today. Our lesson started slightly later, at ten instead of nine.",
+   "uses": [
+    "slight",
+    "slightly"
+   ]
+  },
   "reviewer_note": "The noun and verb slight (= insult) are a different meaning, shown as other_meaning; 'not in the slightest' is just the superlative."
  },
  {
   "headword": "smash",
   "word_id": "6a6ef83f0f1e82a5a073681d",
-  "word_ids": ["6a6ef83f0f1e82a5a073681d"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a073681d"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Break",
   "sense_pos": "verb",
   "corpus_definition": "To break something into many small pieces with force.",
   "forms": [
-   {"slot": "noun", "status": "existing", "form": "smash", "relation": "conversion", "definition": "the loud sound or act of something breaking into pieces", "example": "We heard the smash of a plate in the kitchen.", "note": "In informal English, a smash (or smash hit) is also a very successful song or film.", "syn": [
-     {"to": "crash", "relation": "synonym", "strength": 0.8, "note": "A loud noise of something hitting or breaking."},
-     {"to": "bang", "relation": "related", "strength": 0.6, "note": "A sudden loud noise, not always of breaking."}
-    ], "ant": []},
-   {"slot": "verb", "status": "existing", "form": "smash", "relation": "base", "definition": "to break something into many pieces by hitting or dropping it hard", "example": "The ball smashed the kitchen window.", "syn": [
-     {"to": "break", "relation": "synonym", "strength": 0.8, "note": "Easy, general word; smash means breaking with a lot of force and noise."},
-     {"to": "shatter", "relation": "synonym", "strength": 0.95, "note": "To break suddenly into very small pieces, often about glass."},
-     {"to": "crush", "relation": "related", "strength": 0.6, "note": "To press something hard so it breaks or loses its shape."},
-     {"to": "destroy", "relation": "related", "strength": 0.6, "note": "To damage something so badly that it cannot be used."}
-    ], "ant": [
-     {"to": "repair", "relation": "antonym", "note": "To make something broken work or look good again."},
-     {"to": "fix", "relation": "antonym", "note": "Easy, everyday word for repair."}
-    ]},
-   {"slot": "adjective", "status": "existing", "form": "smashed", "relation": "participial", "definition": "broken into many pieces", "example": "Be careful, there is smashed glass on the floor.", "note": "In informal British English, smashed can also mean very drunk.", "syn": [
-     {"to": "broken", "relation": "synonym", "strength": 0.8, "note": "Easy, general word."},
-     {"to": "shattered", "relation": "synonym", "strength": 0.95, "note": "Broken into very small pieces, often about glass."}
-    ], "ant": [
-     {"to": "whole", "relation": "antonym", "note": "In one piece, not broken."}
-    ]},
-   {"slot": "adjective", "status": "other_meaning", "form": "smashing", "definition": "very good or enjoyable", "example": "We had a smashing time at the party.", "note": "Belongs to smash = great success; old-fashioned informal British English, not breaking things."},
-   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from smash."}
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "smash",
+    "relation": "conversion",
+    "definition": "the loud sound or act of something breaking into pieces",
+    "example": "We heard the smash of a plate in the kitchen.",
+    "note": "In informal English, a smash (or smash hit) is also a very successful song or film.",
+    "syn": [
+     {
+      "to": "crash",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "A loud noise of something hitting or breaking."
+     },
+     {
+      "to": "bang",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A sudden loud noise, not always of breaking."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "smash",
+    "relation": "base",
+    "definition": "to break something into many pieces by hitting or dropping it hard",
+    "example": "The ball smashed the kitchen window.",
+    "syn": [
+     {
+      "to": "break",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word; smash means breaking with a lot of force and noise."
+     },
+     {
+      "to": "shatter",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "To break suddenly into very small pieces, often about glass."
+     },
+     {
+      "to": "crush",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To press something hard so it breaks or loses its shape."
+     },
+     {
+      "to": "destroy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To damage something so badly that it cannot be used."
+     }
+    ],
+    "ant": [
+     {
+      "to": "repair",
+      "relation": "antonym",
+      "note": "To make something broken work or look good again."
+     },
+     {
+      "to": "fix",
+      "relation": "antonym",
+      "note": "Easy, everyday word for repair."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "smashed",
+    "relation": "participial",
+    "definition": "broken into many pieces",
+    "example": "Be careful, there is smashed glass on the floor.",
+    "note": "In informal British English, smashed can also mean very drunk.",
+    "syn": [
+     {
+      "to": "broken",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy, general word."
+     },
+     {
+      "to": "shattered",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Broken into very small pieces, often about glass."
+     }
+    ],
+    "ant": [
+     {
+      "to": "whole",
+      "relation": "antonym",
+      "note": "In one piece, not broken."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "smashing",
+    "definition": "very good or enjoyable",
+    "example": "We had a smashing time at the party.",
+    "note": "Belongs to smash = great success; old-fashioned informal British English, not breaking things."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from smash."
+   }
   ],
   "people": [],
   "affixes": [],
-  "context": {"text": "A football smashed our neighbour's window yesterday. My little brother helped to clean up the smashed glass, and then he paid for a new window from his pocket money.", "uses": ["smashed", "smashed"]},
+  "context": {
+   "text": "A football smashed our neighbour's window yesterday. My little brother helped to clean up the smashed glass, and then he paid for a new window from his pocket money.",
+   "uses": [
+    "smashed",
+    "smashed"
+   ]
+  },
   "reviewer_note": "smashing (= great) is a separate informal meaning, shown as other_meaning; smasher left out as rare."
  },
  {
   "headword": "snap",
   "word_id": "6a6ef83f0f1e82a5a0736807",
-  "word_ids": ["6a6ef83f0f1e82a5a0736807"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736807"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Sound",
   "sense_pos": "verb",
   "corpus_definition": "To make a short, sharp sound.",
   "forms": [
-   {"slot": "noun", "status": "existing", "form": "snap", "relation": "conversion", "definition": "a short, sharp sound, like something breaking or closing", "example": "I heard a loud snap when the branch broke.", "note": "Informally, a snap is also a photo: 'holiday snaps'.", "syn": [
-     {"to": "crack", "relation": "synonym", "strength": 0.95, "note": "A sudden sharp sound, like wood or a whip."},
-     {"to": "click", "relation": "related", "strength": 0.6, "note": "A short quiet sound, like a switch or a pen."},
-     {"to": "pop", "relation": "related", "strength": 0.6, "note": "A short sound like a balloon breaking."}
-    ], "ant": []},
-   {"slot": "verb", "status": "existing", "form": "snap", "relation": "base", "definition": "to break suddenly with a short, sharp sound", "example": "The dry branch snapped under his foot.", "note": "Also: snap your fingers (make a sound with your fingers). In other meanings, snap means to speak angrily or to take a quick photo.", "syn": [
-     {"to": "crack", "relation": "synonym", "strength": 0.95, "note": "To break with a sharp sound."},
-     {"to": "break", "relation": "related", "strength": 0.6, "note": "Easy, general word; it does not say anything about the sound."},
-     {"to": "click", "relation": "related", "strength": 0.6, "note": "To make a short quiet sound."}
-    ], "ant": []},
-   {"slot": "adjective", "status": "other_meaning", "form": "snap", "definition": "made or done very quickly, without planning", "example": "He made a snap decision to leave.", "note": "Belongs to snap = do something suddenly; used only before a noun: a snap decision, a snap election."},
-   {"slot": "adjective", "status": "other_meaning", "form": "snappy", "definition": "short, clever and quick; also speaking in an annoyed way", "example": "The advert has a snappy title.", "note": "Belongs to snap = quick or angry speech, not a sharp sound. Informal."},
-   {"slot": "adverb", "status": "other_meaning", "form": "snappily", "definition": "in a quick, clever or annoyed way", "example": "She answered snappily because she was tired.", "note": "Goes with snappy (quick or annoyed), not the sound meaning. Not very common."}
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "snap",
+    "relation": "conversion",
+    "definition": "a short, sharp sound, like something breaking or closing",
+    "example": "I heard a loud snap when the branch broke.",
+    "note": "Informally, a snap is also a photo: 'holiday snaps'.",
+    "syn": [
+     {
+      "to": "crack",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "A sudden sharp sound, like wood or a whip."
+     },
+     {
+      "to": "click",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A short quiet sound, like a switch or a pen."
+     },
+     {
+      "to": "pop",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A short sound like a balloon breaking."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "snap",
+    "relation": "base",
+    "definition": "to break suddenly with a short, sharp sound",
+    "example": "The dry branch snapped under his foot.",
+    "note": "Also: snap your fingers (make a sound with your fingers). In other meanings, snap means to speak angrily or to take a quick photo.",
+    "syn": [
+     {
+      "to": "crack",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "To break with a sharp sound."
+     },
+     {
+      "to": "break",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; it does not say anything about the sound."
+     },
+     {
+      "to": "click",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make a short quiet sound."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "snap",
+    "definition": "made or done very quickly, without planning",
+    "example": "He made a snap decision to leave.",
+    "note": "Belongs to snap = do something suddenly; used only before a noun: a snap decision, a snap election."
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "snappy",
+    "definition": "short, clever and quick; also speaking in an annoyed way",
+    "example": "The advert has a snappy title.",
+    "note": "Belongs to snap = quick or angry speech, not a sharp sound. Informal."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no common adverb in this meaning. Snappily (from snappy = quick or annoyed) exists but is rare."
+   }
   ],
   "people": [],
   "affixes": [],
-  "context": {"text": "We walked through the forest near Chimgan, and dry sticks snapped under our feet. Every snap made the birds fly away.", "uses": ["snapped", "snap"]},
+  "context": {
+   "text": "We walked through the forest near Chimgan, and dry sticks snapped under our feet. Every snap made the birds fly away.",
+   "uses": [
+    "snapped",
+    "snap"
+   ]
+  },
   "reviewer_note": "Many meanings (sound, break, speak angrily, photo); map anchored to the sound/break meaning. snapshot left out as a compound."
  },
  {
   "headword": "snatch",
   "word_id": "6a6ef83f0f1e82a5a07366ef",
-  "word_ids": ["6a6ef83f0f1e82a5a07366ef"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07366ef"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Grab",
   "sense_pos": "verb",
   "corpus_definition": "To take something away quickly and suddenly.",
   "forms": [
-   {"slot": "noun", "status": "existing", "form": "snatch", "relation": "conversion", "definition": "a quick movement of the hand to take something", "example": "He made a snatch at the keys but missed.", "syn": [
-     {"to": "grab", "relation": "synonym", "strength": 0.95, "note": "Same idea, more common: make a grab for something."}
-    ], "ant": []},
-   {"slot": "noun", "status": "other_meaning", "form": "snatch", "definition": "a short part of a conversation or a song", "example": "I heard snatches of their conversation through the wall.", "note": "Belongs to snatch = a small piece you hear, not taking something quickly."},
-   {"slot": "verb", "status": "existing", "form": "snatch", "relation": "base", "definition": "to take something quickly and suddenly from someone or something", "example": "A man snatched her bag and ran away.", "syn": [
-     {"to": "grab", "relation": "synonym", "strength": 0.95, "note": "Very close and more common in everyday English."},
-     {"to": "seize", "relation": "synonym", "strength": 0.8, "note": "To take something quickly and firmly; more formal.", "register": "formal"},
-     {"to": "take", "relation": "related", "strength": 0.6, "note": "Easy, general word; it does not say how fast."},
-     {"to": "steal", "relation": "related", "strength": 0.4, "note": "Snatching is often a kind of stealing, but you can also snatch your own things."}
-    ], "ant": [
-     {"to": "give back", "relation": "antonym", "note": "To return something to the person who had it."}
-    ]},
-   {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from snatch."},
-   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from snatch."}
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "snatch",
+    "relation": "conversion",
+    "definition": "a quick movement of the hand to take something",
+    "example": "He made a snatch at the keys but missed.",
+    "syn": [
+     {
+      "to": "grab",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Same idea, more common: make a grab for something."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "noun",
+    "status": "other_meaning",
+    "form": "snatch",
+    "definition": "a short part of a conversation or a song",
+    "example": "I heard snatches of their conversation through the wall.",
+    "note": "Belongs to snatch = a small piece you hear, not taking something quickly."
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "snatch",
+    "relation": "base",
+    "definition": "to take something quickly and suddenly from someone or something",
+    "example": "A man snatched her bag and ran away.",
+    "syn": [
+     {
+      "to": "grab",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close and more common in everyday English."
+     },
+     {
+      "to": "seize",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To take something quickly and firmly; more formal.",
+      "register": "formal"
+     },
+     {
+      "to": "take",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; it does not say how fast."
+     },
+     {
+      "to": "steal",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Snatching is often a kind of stealing, but you can also snatch your own things."
+     }
+    ],
+    "ant": [
+     {
+      "to": "give back",
+      "relation": "antonym",
+      "note": "To return something to the person who had it."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from snatch."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from snatch."
+   }
   ],
   "people": [
-   {"form": "snatcher", "kind": "person", "status": "existing", "definition": "a person who takes things from people quickly and runs away", "example": "Police caught the bag snatcher near the bazaar.", "note": "Usually in bag snatcher."}
+   {
+    "form": "snatcher",
+    "kind": "person",
+    "status": "existing",
+    "definition": "a person who takes things from people quickly and runs away",
+    "example": "Police caught the bag snatcher near the bazaar.",
+    "note": "Usually in bag snatcher."
+   }
   ],
   "affixes": [
-   {"affix": "-er", "in_form": "snatcher", "meaning_key": "-er", "also": ["teacher", "driver", "player"]}
+   {
+    "affix": "-er",
+    "in_form": "snatcher",
+    "meaning_key": "-er",
+    "also": [
+     "teacher",
+     "driver",
+     "player"
+    ]
+   }
   ],
-  "context": {"text": "At the park, a big bird snatched a piece of bread from my sister's hand. She tried to get it back, but the bird made another snatch and flew away.", "uses": ["snatched", "snatch"]},
+  "context": {
+   "text": "At the park, a big bird snatched a piece of bread from my sister's hand. She tried to get it back, but the bird made another snatch and flew away.",
+   "uses": [
+    "snatched",
+    "snatch"
+   ]
+  },
   "reviewer_note": "Noun snatch has two meanings: the quick grab (existing) and a short piece of conversation/music (other_meaning)."
  },
  {
   "headword": "sneak",
   "word_id": "6a6ef9b2a6015561480926ba",
-  "word_ids": ["6a6ef9b2a6015561480926ba"],
+  "word_ids": [
+   "6a6ef9b2a6015561480926ba"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Secret",
   "sense_pos": "verb",
   "corpus_definition": "To move somewhere quietly so that no one sees you.",
   "forms": [
-   {"slot": "noun", "status": "existing", "form": "sneakiness", "relation": "derivational", "definition": "the quality of doing things secretly and not honestly", "example": "His sneakiness made the other players angry.", "syn": [
-     {"to": "secrecy", "relation": "related", "strength": 0.6, "note": "Keeping things secret, not always in a dishonest way."},
-     {"to": "dishonesty", "relation": "related", "strength": 0.6, "note": "Not telling the truth or not being fair."}
-    ], "ant": [
-     {"to": "honesty", "relation": "antonym", "note": "Being open and telling the truth."}
-    ]},
-   {"slot": "verb", "status": "existing", "form": "sneak", "relation": "base", "definition": "to go somewhere quietly and secretly so that nobody notices you", "example": "The kids sneaked into the kitchen to eat the cake.", "note": "Past tense: sneaked (British) or snuck (American, informal).", "syn": [
-     {"to": "creep", "relation": "synonym", "strength": 0.95, "note": "To move slowly and quietly so people don't hear you."},
-     {"to": "slip", "relation": "synonym", "strength": 0.8, "note": "To go somewhere quickly and quietly: slip out of the room."},
-     {"to": "tiptoe", "relation": "related", "strength": 0.6, "note": "To walk on your toes so you make no noise."}
-    ], "ant": []},
-   {"slot": "adjective", "status": "existing", "form": "sneaky", "relation": "derivational", "definition": "doing things in a secret and slightly dishonest way", "example": "That was a sneaky way to win the game.", "register": "informal", "syn": [
-     {"to": "sly", "relation": "synonym", "strength": 0.8, "note": "Clever at tricking people in a secret way."},
-     {"to": "dishonest", "relation": "related", "strength": 0.6, "note": "Not telling the truth; stronger and more general."},
-     {"to": "secret", "relation": "related", "strength": 0.4, "note": "Hidden from others, not always in a bad way."}
-    ], "ant": [
-     {"to": "honest", "relation": "antonym", "note": "Open and telling the truth."},
-     {"to": "open", "relation": "antonym", "note": "Not hiding anything."}
-    ]},
-   {"slot": "adjective", "status": "existing", "form": "sneak", "relation": "conversion", "definition": "done secretly or without warning", "example": "The shop gave us a sneak preview of the new phone.", "note": "Only before a noun: a sneak preview, a sneak attack.", "syn": [], "ant": []},
-   {"slot": "adjective", "status": "other_meaning", "form": "sneaking", "definition": "felt but not said, often without a good reason", "example": "I have a sneaking feeling that he forgot my birthday.", "note": "Belongs to sneak = a feeling you keep secret: a sneaking suspicion, not moving quietly."},
-   {"slot": "adverb", "status": "existing", "form": "sneakily", "relation": "derivational", "definition": "in a secret and slightly dishonest way", "example": "He sneakily took the last piece of bread.", "syn": [
-     {"to": "secretly", "relation": "synonym", "strength": 0.8, "note": "Without others knowing, not always in a bad way."},
-     {"to": "slyly", "relation": "synonym", "strength": 0.8, "note": "In a clever, secret and tricky way."}
-    ], "ant": [
-     {"to": "openly", "relation": "antonym", "note": "Without hiding anything."},
-     {"to": "honestly", "relation": "antonym", "note": "In a true and fair way."}
-    ]}
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "sneakiness",
+    "relation": "derivational",
+    "definition": "the quality of doing things secretly and not honestly",
+    "example": "His sneakiness made the other players angry.",
+    "syn": [
+     {
+      "to": "secrecy",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Keeping things secret, not always in a dishonest way."
+     },
+     {
+      "to": "dishonesty",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Not telling the truth or not being fair."
+     }
+    ],
+    "ant": [
+     {
+      "to": "honesty",
+      "relation": "antonym",
+      "note": "Being open and telling the truth."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "sneak",
+    "relation": "base",
+    "definition": "to go somewhere quietly and secretly so that nobody notices you",
+    "example": "The kids sneaked into the kitchen to eat the cake.",
+    "note": "Past tense: sneaked (British) or snuck (American, informal).",
+    "syn": [
+     {
+      "to": "creep",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "To move slowly and quietly so people don't hear you."
+     },
+     {
+      "to": "slip",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "To go somewhere quickly and quietly: slip out of the room."
+     },
+     {
+      "to": "tiptoe",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To walk on your toes so you make no noise."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "sneaky",
+    "relation": "derivational",
+    "definition": "doing things in a secret and slightly dishonest way",
+    "example": "That was a sneaky way to win the game.",
+    "register": "informal",
+    "syn": [
+     {
+      "to": "sly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Clever at tricking people in a secret way."
+     },
+     {
+      "to": "dishonest",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Not telling the truth; stronger and more general."
+     },
+     {
+      "to": "secret",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Hidden from others, not always in a bad way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "honest",
+      "relation": "antonym",
+      "note": "Open and telling the truth."
+     },
+     {
+      "to": "open",
+      "relation": "antonym",
+      "note": "Not hiding anything."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "sneak",
+    "relation": "conversion",
+    "definition": "done secretly or without warning",
+    "example": "The shop gave us a sneak preview of the new phone.",
+    "note": "Only before a noun: a sneak preview, a sneak attack.",
+    "syn": [],
+    "ant": []
+   },
+   {
+    "slot": "adjective",
+    "status": "other_meaning",
+    "form": "sneaking",
+    "definition": "felt but not said, often without a good reason",
+    "example": "I have a sneaking feeling that he forgot my birthday.",
+    "note": "Belongs to sneak = a feeling you keep secret: a sneaking suspicion, not moving quietly."
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "sneakily",
+    "relation": "derivational",
+    "definition": "in a secret and slightly dishonest way",
+    "example": "He sneakily took the last piece of bread.",
+    "syn": [
+     {
+      "to": "secretly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Without others knowing, not always in a bad way."
+     },
+     {
+      "to": "slyly",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "In a clever, secret and tricky way."
+     }
+    ],
+    "ant": [
+     {
+      "to": "openly",
+      "relation": "antonym",
+      "note": "Without hiding anything."
+     },
+     {
+      "to": "honestly",
+      "relation": "antonym",
+      "note": "In a true and fair way."
+     }
+    ]
+   }
   ],
   "people": [
-   {"form": "sneaker", "kind": "thing", "status": "other_meaning", "definition": "a soft sports shoe with a rubber bottom", "example": "I bought new sneakers for the gym.", "note": "American English; British people say trainers. The name came from moving quietly in soft shoes, but today it just means sports shoes."}
+   {
+    "form": "sneaker",
+    "kind": "thing",
+    "status": "other_meaning",
+    "definition": "a soft sports shoe with a rubber bottom",
+    "example": "I bought new sneakers for the gym.",
+    "note": "American English; British people say trainers. The name came from moving quietly in soft shoes, but today it just means sports shoes."
+   }
   ],
   "affixes": [
-   {"affix": "-y", "in_form": "sneaky", "meaning_key": "-y", "also": ["sunny", "rainy", "healthy"]},
-   {"affix": "-ly", "in_form": "sneakily", "meaning_key": "-ly", "also": ["happily", "easily", "quickly"]},
-   {"affix": "-ness", "in_form": "sneakiness", "meaning_key": "-ness", "also": ["happiness", "kindness", "darkness"]}
+   {
+    "affix": "-y",
+    "in_form": "sneaky",
+    "meaning_key": "-y",
+    "also": [
+     "sunny",
+     "rainy",
+     "healthy"
+    ]
+   },
+   {
+    "affix": "-ly",
+    "in_form": "sneakily",
+    "meaning_key": "-ly",
+    "also": [
+     "happily",
+     "easily",
+     "quickly"
+    ]
+   },
+   {
+    "affix": "-ness",
+    "in_form": "sneakiness",
+    "meaning_key": "-ness",
+    "also": [
+     "happiness",
+     "kindness",
+     "darkness"
+    ]
+   }
   ],
-  "context": {"text": "After dinner, my little brother tried to sneak out to play football. It was a sneaky plan, but Mum saw him at the door.", "uses": ["sneak", "sneaky"]},
+  "context": {
+   "text": "After dinner, my little brother tried to sneak out to play football. It was a sneaky plan, but Mum saw him at the door.",
+   "uses": [
+    "sneak",
+    "sneaky"
+   ]
+  },
   "reviewer_note": "Noun sneak (= a person who tells on others) is old-fashioned British and left out; sneaker shown as other_meaning thing."
  },
  {
   "headword": "soak",
   "word_id": "6a6ef83f0f1e82a5a07367e1",
-  "word_ids": ["6a6ef83f0f1e82a5a07367e1"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07367e1"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Water",
   "sense_pos": "verb",
   "corpus_definition": "to stay in water for a long time to get very wet",
   "forms": [
-   {"slot": "noun", "status": "existing", "form": "soak", "relation": "conversion", "definition": "a time when you leave something in water, or take a long bath", "example": "Give the beans a good soak before you cook them.", "syn": [
-     {"to": "bath", "relation": "related", "strength": 0.6, "note": "For people: a long bath is sometimes called a soak."}
-    ], "ant": []},
-   {"slot": "verb", "status": "existing", "form": "soak", "relation": "base", "definition": "to leave something in water, or stay in water, for a long time", "example": "Let the dirty plates soak in hot water for an hour.", "syn": [
-     {"to": "steep", "relation": "synonym", "strength": 0.8, "note": "Mostly for tea, herbs or food in liquid."},
-     {"to": "wet", "relation": "related", "strength": 0.6, "note": "Easy, general word; soak means very wet for a long time."},
-     {"to": "drench", "relation": "related", "strength": 0.6, "note": "To make someone or something completely wet, often by rain."},
-     {"to": "dip", "relation": "related", "strength": 0.4, "note": "To put something in liquid for a very short time."}
-    ], "ant": [
-     {"to": "dry", "relation": "antonym", "note": "To take the water out of something."}
-    ]},
-   {"slot": "adjective", "status": "existing", "form": "soaked", "relation": "participial", "definition": "completely wet", "example": "We got soaked in the rain on the way home.", "syn": [
-     {"to": "wet", "relation": "synonym", "strength": 0.8, "note": "Easy word; soaked is much stronger."},
-     {"to": "drenched", "relation": "synonym", "strength": 0.95, "note": "Very close: completely wet."}
-    ], "ant": [
-     {"to": "dry", "relation": "antonym", "note": "With no water on or in it."}
-    ]},
-   {"slot": "adjective", "status": "existing", "form": "soaking", "relation": "participial", "definition": "very wet; often used as 'soaking wet'", "example": "Your coat is soaking wet!", "register": "informal", "syn": [], "ant": []},
-   {"slot": "adverb", "status": "no_form", "note": "There is no adverb made from soak; people say 'soaking wet'."}
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "soak",
+    "relation": "conversion",
+    "definition": "a time when you leave something in water, or take a long bath",
+    "example": "Give the beans a good soak before you cook them.",
+    "syn": [
+     {
+      "to": "bath",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "For people: a long bath is sometimes called a soak."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "verb",
+    "status": "existing",
+    "form": "soak",
+    "relation": "base",
+    "definition": "to leave something in water, or stay in water, for a long time",
+    "example": "Let the dirty plates soak in hot water for an hour.",
+    "syn": [
+     {
+      "to": "steep",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Mostly for tea, herbs or food in liquid."
+     },
+     {
+      "to": "wet",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Easy, general word; soak means very wet for a long time."
+     },
+     {
+      "to": "drench",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "To make someone or something completely wet, often by rain."
+     },
+     {
+      "to": "dip",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "To put something in liquid for a very short time."
+     }
+    ],
+    "ant": [
+     {
+      "to": "dry",
+      "relation": "antonym",
+      "note": "To take the water out of something."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "soaked",
+    "relation": "participial",
+    "definition": "very wet, with water all through it",
+    "example": "We got soaked in the rain on the way home.",
+    "syn": [
+     {
+      "to": "wet",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Easy word; soaked is much stronger."
+     },
+     {
+      "to": "drenched",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Very close: completely wet."
+     }
+    ],
+    "ant": [
+     {
+      "to": "dry",
+      "relation": "antonym",
+      "note": "With no water on or in it."
+     }
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "soaking",
+    "relation": "participial",
+    "definition": "extremely wet, all the way through",
+    "example": "Your coat is soaking wet!",
+    "register": "informal",
+    "syn": [],
+    "ant": [],
+    "note": "Usually in the phrase 'soaking wet'."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form",
+    "note": "There is no adverb made from soak; people say 'soaking wet'."
+   }
   ],
   "people": [],
   "affixes": [
-   {"affix": "-ing", "in_form": "soaking", "meaning_key": "-ing", "also": ["interesting", "boring", "amazing"]}
+   {
+    "affix": "-ing",
+    "in_form": "soaking",
+    "meaning_key": "-ing",
+    "also": [
+     "interesting",
+     "boring",
+     "amazing"
+    ]
+   }
   ],
-  "context": {"text": "It rained all day in Tashkent and I came home soaked. My mum told me to soak my feet in warm water so I wouldn't get a cold.", "uses": ["soaked", "soak"]},
+  "context": {
+   "text": "It rained all day in Tashkent and I came home soaked. My mum told me to soak my feet in warm water so I wouldn't get a cold.",
+   "uses": [
+    "soaked",
+    "soak"
+   ]
+  },
   "reviewer_note": "Corpus definition uses the intransitive meaning; the transitive 'leave something in water' is the same meaning and covered in the verb definition."
  },
  {
   "headword": "software",
   "word_id": "6a42800cb9d8fc24968a4b44",
-  "word_ids": ["6a42800cb9d8fc24968a4b44"],
+  "word_ids": [
+   "6a42800cb9d8fc24968a4b44"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Computer",
   "sense_pos": "noun",
   "corpus_definition": "Programs used by a computer to function.",
   "forms": [
-   {"slot": "noun", "status": "existing", "form": "software", "relation": "base", "definition": "the programs that a computer or phone uses to work", "example": "You need to update the software on your phone.", "note": "Uncountable: say 'a piece of software' or 'a program', not 'a software'.", "syn": [
-     {"to": "program", "relation": "related", "strength": 0.6, "note": "One single piece of software. British spelling for computers is also program."},
-     {"to": "app", "relation": "related", "strength": 0.6, "note": "A program, especially one on a phone."},
-     {"to": "application", "relation": "related", "strength": 0.6, "note": "Formal word for app or program."}
-    ], "ant": [
-     {"to": "hardware", "relation": "antonym", "note": "Hardware is the machine you can touch; software is the programs inside it."}
-    ]},
-   {"slot": "verb", "status": "no_form", "note": "There is no verb made from software."},
-   {"slot": "adjective", "status": "no_form", "note": "There is no adjective made from software; use it before a noun: a software company."},
-   {"slot": "adverb", "status": "no_form"}
+   {
+    "slot": "noun",
+    "status": "existing",
+    "form": "software",
+    "relation": "base",
+    "definition": "the programs that a computer or phone uses to work",
+    "example": "You need to update the software on your phone.",
+    "note": "Uncountable: say 'a piece of software' or 'a program', not 'a software'.",
+    "syn": [
+     {
+      "to": "program",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "One single piece of software. British spelling for computers is also program."
+     },
+     {
+      "to": "app",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "A program, especially one on a phone."
+     },
+     {
+      "to": "application",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Formal word for app or program."
+     }
+    ],
+    "ant": [
+     {
+      "to": "hardware",
+      "relation": "antonym",
+      "note": "Hardware is the machine you can touch; software is the programs inside it."
+     }
+    ]
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb made from software."
+   },
+   {
+    "slot": "adjective",
+    "status": "no_form",
+    "note": "There is no adjective made from software; use it before a noun: a software company."
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
   ],
   "people": [],
   "affixes": [],
-  "context": {"text": "My cousin works for a software company in Tashkent. She writes software for banks and online shops.", "uses": ["software"]},
+  "context": {
+   "text": "My cousin works for a software company in Tashkent. She writes software for banks and online shops.",
+   "uses": [
+    "software"
+   ]
+  },
   "reviewer_note": "Software is itself a compound (soft + ware); no family forms. software developer/engineer are compounds, left out."
  },
  {
   "headword": "solar",
   "word_id": "6a6ef83f0f1e82a5a0736755",
-  "word_ids": ["6a6ef83f0f1e82a5a0736755"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a0736755"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Sun",
   "sense_pos": "adjective",
   "corpus_definition": "Relating to the light or heat from the sun.",
   "forms": [
-   {"slot": "noun", "status": "no_form", "not_family": ["sun"], "note": "Sun has the same meaning area but is an old English word, not made from solar. Solarium is rare."},
-   {"slot": "verb", "status": "no_form", "note": "There is no common verb made from solar."},
-   {"slot": "adjective", "status": "existing", "form": "solar", "relation": "base", "definition": "connected with the sun or using its light and heat", "example": "They put solar panels on the roof of the school.", "note": "Used only before a noun: solar energy, solar power, a solar panel.", "syn": [
-     {"to": "lunar", "relation": "related", "strength": 0.4, "note": "Lunar is about the moon; solar is about the sun: a lunar eclipse, a solar eclipse."}
-    ], "ant": []},
-   {"slot": "adverb", "status": "no_form"}
+   {
+    "slot": "noun",
+    "status": "no_form",
+    "not_family": [
+     "sun"
+    ],
+    "note": "Sun has the same meaning area but is an old English word, not made from solar. Solarium is rare."
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no common verb made from solar. Sun (as in 'sun yourself') is an old English word, not made from solar.",
+    "not_family": [
+     "sun"
+    ]
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "solar",
+    "relation": "base",
+    "definition": "connected with the sun or using its light and heat",
+    "example": "They put solar panels on the roof of the school.",
+    "note": "Used only before a noun: solar energy, solar power, a solar panel.",
+    "syn": [
+     {
+      "to": "lunar",
+      "relation": "related",
+      "strength": 0.4,
+      "note": "Lunar is about the moon; solar is about the sun: a lunar eclipse, a solar eclipse."
+     }
+    ],
+    "ant": []
+   },
+   {
+    "slot": "adverb",
+    "status": "no_form"
+   }
   ],
   "people": [],
   "affixes": [],
-  "context": {"text": "Uzbekistan has a lot of sunny days, so solar energy is a good idea here. Many new houses now have solar panels.", "uses": ["solar"]},
+  "context": {
+   "text": "Uzbekistan has a lot of sunny days, so solar energy is a good idea here. Many new houses now have solar panels.",
+   "uses": [
+    "solar"
+   ]
+  },
   "reviewer_note": "Adjective only, used before nouns; sun listed as not_family. solar system is its own phrase entry."
  },
  {
   "headword": "solar system",
   "word_id": "6a4282fd46ba24054c1dcd8a",
-  "word_ids": ["6a4282fd46ba24054c1dcd8a"],
+  "word_ids": [
+   "6a4282fd46ba24054c1dcd8a"
+  ],
   "cefr": "B2",
   "kind": "phrase",
   "sense_label": "Space",
@@ -283,47 +1009,160 @@
   "corpus_definition": "The sun and all the objects that travel around it.",
   "usage_note": "Usually with the or our: 'the solar system', 'our solar system'. Can also mean any star with planets around it: 'another solar system'.",
   "relations": [
-   {"to": "planetary system", "relation": "synonym", "strength": 0.8, "note": "Scientific phrase for any star with planets; solar system is the common word.", "register": "formal"},
-   {"to": "galaxy", "relation": "related", "strength": 0.4, "note": "Much bigger: a galaxy has billions of stars, and our solar system is a tiny part of one."},
-   {"to": "universe", "relation": "related", "strength": 0.4, "note": "Everything that exists in space; much bigger than the solar system."}
+   {
+    "to": "planetary system",
+    "relation": "synonym",
+    "strength": 0.8,
+    "note": "Scientific phrase for any star with planets; solar system is the common word.",
+    "register": "formal"
+   },
+   {
+    "to": "galaxy",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Much bigger: a galaxy has billions of stars, and our solar system is a tiny part of one."
+   },
+   {
+    "to": "universe",
+    "relation": "related",
+    "strength": 0.4,
+    "note": "Everything that exists in space; much bigger than the solar system."
+   }
   ],
-  "context": {"text": "There are eight planets in our solar system. Jupiter is the biggest planet in the solar system, and Earth is the third from the sun.", "uses": ["solar system"]},
+  "context": {
+   "text": "There are eight planets in our solar system. Jupiter is the biggest planet in the solar system, and Earth is the third from the sun.",
+   "uses": [
+    "solar system"
+   ]
+  },
   "reviewer_note": "Corpus example says 'Nine planets' (out of date since 2006; now eight). Context uses eight; reviewer may want to fix the corpus example."
  },
  {
   "headword": "sole",
   "word_id": "6a6ef83f0f1e82a5a07366a1",
-  "word_ids": ["6a6ef83f0f1e82a5a07366a1"],
+  "word_ids": [
+   "6a6ef83f0f1e82a5a07366a1"
+  ],
   "cefr": "B2",
   "kind": "word",
   "sense_label": "Only",
   "sense_pos": "adjective",
   "corpus_definition": "Being the only one of its kind.",
   "forms": [
-   {"slot": "noun", "status": "no_form", "note": "The noun sole (bottom of your foot or shoe; also a fish) is a different word with the same spelling, not made from this sole."},
-   {"slot": "verb", "status": "no_form", "note": "There is no verb from this meaning of sole."},
-   {"slot": "adjective", "status": "existing", "form": "sole", "relation": "base", "definition": "being the only one; not shared with anyone else", "example": "He is the sole owner of this small shop.", "note": "Used only before a noun: the sole survivor, the sole reason.", "syn": [
-     {"to": "only", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word with the same meaning."},
-     {"to": "single", "relation": "synonym", "strength": 0.8, "note": "Just one: a single reason."},
-     {"to": "exclusive", "relation": "related", "strength": 0.6, "note": "Only for one person or group: exclusive rights."}
-    ], "ant": [
-     {"to": "joint", "relation": "antonym", "note": "Shared by two or more people: joint owners."},
-     {"to": "shared", "relation": "antonym", "note": "Used or owned by more than one person."}
-    ]},
-   {"slot": "adverb", "status": "existing", "form": "solely", "relation": "derivational", "definition": "only; not involving anyone or anything else", "example": "The decision was made solely by the director.", "register": "formal", "syn": [
-     {"to": "only", "relation": "synonym", "strength": 0.95, "note": "Easy, everyday word with the same meaning."},
-     {"to": "just", "relation": "synonym", "strength": 0.8, "note": "Informal and very common."},
-     {"to": "exclusively", "relation": "synonym", "strength": 0.8, "note": "Formal: only for one thing or person."},
-     {"to": "entirely", "relation": "related", "strength": 0.6, "note": "Completely; often used together: entirely and solely."}
-    ], "ant": [
-     {"to": "partly", "relation": "antonym", "note": "Only in some way, not completely."}
-    ]}
+   {
+    "slot": "noun",
+    "status": "no_form",
+    "note": "The noun sole (bottom of your foot or shoe; also a fish) is a different word with the same spelling, not made from this sole."
+   },
+   {
+    "slot": "verb",
+    "status": "no_form",
+    "note": "There is no verb from this meaning of sole."
+   },
+   {
+    "slot": "adjective",
+    "status": "existing",
+    "form": "sole",
+    "relation": "base",
+    "definition": "being the only one; not shared with anyone else",
+    "example": "He is the sole owner of this small shop.",
+    "note": "Used only before a noun: the sole survivor, the sole reason.",
+    "syn": [
+     {
+      "to": "only",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday word with the same meaning."
+     },
+     {
+      "to": "single",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Just one: a single reason."
+     },
+     {
+      "to": "exclusive",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Only for one person or group: exclusive rights."
+     }
+    ],
+    "ant": [
+     {
+      "to": "joint",
+      "relation": "antonym",
+      "note": "Shared by two or more people: joint owners."
+     },
+     {
+      "to": "shared",
+      "relation": "antonym",
+      "note": "Used or owned by more than one person."
+     }
+    ]
+   },
+   {
+    "slot": "adverb",
+    "status": "existing",
+    "form": "solely",
+    "relation": "derivational",
+    "definition": "only; not involving anyone or anything else",
+    "example": "The decision was made solely by the director.",
+    "register": "formal",
+    "syn": [
+     {
+      "to": "only",
+      "relation": "synonym",
+      "strength": 0.95,
+      "note": "Easy, everyday word with the same meaning."
+     },
+     {
+      "to": "just",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Informal and very common."
+     },
+     {
+      "to": "exclusively",
+      "relation": "synonym",
+      "strength": 0.8,
+      "note": "Formal: only for one thing or person."
+     },
+     {
+      "to": "entirely",
+      "relation": "related",
+      "strength": 0.6,
+      "note": "Completely; often used together: entirely and solely."
+     }
+    ],
+    "ant": [
+     {
+      "to": "partly",
+      "relation": "antonym",
+      "note": "Only in some way, not completely."
+     }
+    ]
+   }
   ],
   "people": [],
   "affixes": [
-   {"affix": "-ly", "in_form": "solely", "meaning_key": "-ly", "also": ["quickly", "slowly", "really"]}
+   {
+    "affix": "-ly",
+    "in_form": "solely",
+    "meaning_key": "-ly",
+    "also": [
+     "quickly",
+     "slowly",
+     "really"
+    ]
+   }
   ],
-  "context": {"text": "Aziz is the sole owner of a small bakery in Samarkand. He is solely responsible for buying flour, baking and selling the bread.", "uses": ["sole", "solely"]},
+  "context": {
+   "text": "Aziz is the sole owner of a small bakery in Samarkand. He is solely responsible for buying flour, baking and selling the bread.",
+   "uses": [
+    "sole",
+    "solely"
+   ]
+  },
   "reviewer_note": "Homonym trap: sole (foot/shoe, fish) is a different word, so the noun slot is no_form with a note, not other_meaning."
  }
 ]
