@@ -12,6 +12,7 @@
 // never read here.
 
 import { PRACTICE_KEYS, QUIZ_KEYS } from "./grammarKeys.js";
+import { definitionForLearner } from "./languageGate.js";
 
 export const SKILL_KEYS = ["vocabulary", "grammar", "spelling", "comprehension", "creativity"];
 
@@ -104,9 +105,18 @@ export const gradeSpelling = (canonicalEnglish, answer) =>
  *   definition       English definition shown, pick the English word   (Coach, 2026-10-14)
  *   context          example sentence with a gap, pick the English word  (Coach, 2026-10-14)
  *   spelling         native shown, TYPE the English word (gradeSpelling) (Coach, 2026-10-14)
+ *   definition_choice  English word shown, pick its English definition (VT-40 5b, 2026-10-26).
+ *                    The right option is the definition THIS learner was shown, so the
+ *                    server derives it from the stored word + the learner's stored level
+ *                    (`learnerLevel`, read from the User row by the caller — never from
+ *                    the request). Client answer keys, flags and levels are ignored.
  */
-export function gradeTranslation(word, type, given) {
+export function gradeTranslation(word, type, given, { learnerLevel = null } = {}) {
   if (typeof given !== "string" || !word) return null;
+  if (type === "definition_choice") {
+    const key = definitionForLearner(word, learnerLevel).text;
+    return key.length > 0 && given.trim() === key;
+  }
   if (type === "translation" || type === "definition" || type === "context") return given === word.english;
   if (type === "multiple_choice") return [word.uzbek, word.russian].filter(Boolean).includes(given);
   if (type === "spelling") return gradeSpelling(word.english, given);
@@ -122,9 +132,9 @@ export function gradeTranslation(word, type, given) {
  *                               canonical headword via gradeSpelling. Clients
  *                               send given:"" for items never attempted.
  */
-export function gradeWordItem({ game, skill, word, item, aiScore }) {
+export function gradeWordItem({ game, skill, word, item, aiScore, learnerLevel = null }) {
   if (skill === "comprehension") return (aiScore ?? -1) >= DEFINITION_CLEAR;
-  if (game === "quiz" && word) return gradeTranslation(word, item?.type, item?.given);
+  if (game === "quiz" && word) return gradeTranslation(word, item?.type, item?.given, { learnerLevel });
   if (game === "spelling" && word && typeof item?.given === "string") return gradeSpelling(word.english, item.given);
   return null;
 }

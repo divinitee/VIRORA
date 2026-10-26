@@ -86,12 +86,21 @@ async function gradeEvidence(svc: any, me: any, r: any, body: any) {
     const ai = (await svc.AiGradedItem.filter({ user_email: me.email, round_id: r.round_id, task: 'definition' }, 'created_date', 200)) || [];
     for (const a of ai) if (!aiByKey.has(a.item_key)) aiByKey.set(a.item_key, Number(a.score) || 0);
   }
+  // VT-40 5b: definition_choice is graded against the definition for the learner's
+  // STORED level (User.cefr_level), never the request's `level` or any item field.
+  let learnerLevel: string | null = null;
+  if (r.game === 'quiz' && items.some((it: any) => it?.type === 'definition_choice')) {
+    const u = (await svc.User.filter({ email: me.email }, 'created_date', 1))?.[0];
+    learnerLevel = typeof u?.cefr_level === 'string' ? u.cefr_level : null;
+  }
   let anyAttested = false;
   const rows = items.map((it: any) => {
     const w = it?.word_id ? byId.get(str(it.word_id, 40)) : null;
+    // definition_choice is never client-attested: no stored word -> reject the round.
+    if (it?.type === 'definition_choice' && !w) throw new ApiError(400, 'bad_items');
     const word = str(w?.english || it?.word, 80);
     if (!word) throw new ApiError(400, 'bad_items');
-    let correct: boolean | null = gradeWordItem({ game: r.game, skill, word: w, item: it, aiScore: aiByKey.get(normalise(word)) });
+    let correct: boolean | null = gradeWordItem({ game: r.game, skill, word: w, item: it, aiScore: aiByKey.get(normalise(word)), learnerLevel });
     if (correct === null) { correct = it?.correct === true; anyAttested = true; }
     const given = r.game === 'spelling' && typeof it?.given === 'string' ? str(it.given, 80) : undefined;
     return { word, word_id: w?.id, correct, given, ...enrichmentFor({ game: r.game, bank: r.bank, support: it?.support }) };
