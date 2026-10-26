@@ -96,8 +96,9 @@ async function gradeEvidence(svc: any, me: any, r: any, body: any) {
   let anyAttested = false;
   const rows = items.map((it: any) => {
     const w = it?.word_id ? byId.get(str(it.word_id, 40)) : null;
-    // definition_choice is never client-attested: no stored word -> reject the round.
-    if (it?.type === 'definition_choice' && !w) throw new ApiError(400, 'bad_items');
+    // definition_choice is never client-attested: no stored word or a non-text answer
+    // would make it ungradable (null -> client flag), so the round is rejected instead.
+    if (it?.type === 'definition_choice' && (!w || typeof it?.given !== 'string')) throw new ApiError(400, 'bad_items');
     const word = str(w?.english || it?.word, 80);
     if (!word) throw new ApiError(400, 'bad_items');
     let correct: boolean | null = gradeWordItem({ game: r.game, skill, word: w, item: it, aiScore: aiByKey.get(normalise(word)), learnerLevel });

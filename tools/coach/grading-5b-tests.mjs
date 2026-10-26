@@ -38,8 +38,14 @@ ok("the headword itself is rejected", gradeTranslation(word, "definition_choice"
 ok("client 'correct: true' with a wrong answer -> still false (server decides)", quiz({ type: "definition_choice", given: "wrong", correct: true }, "B1") === false);
 ok("client-supplied level on the item is ignored (stored B1 wins over item A2)", quiz({ type: "definition_choice", given: word.def_a2, level: "A2", learnerLevel: "A2" }, "B1") === false);
 ok("client-supplied answer key on the item is ignored", quiz({ type: "definition_choice", given: "anything", answer: "anything", key: "anything" }, "B1") === false);
-ok("non-string answer -> not gradable (caller rejects; see entry.ts)", gradeTranslation(word, "definition_choice", 42, { learnerLevel: "B1" }) === null);
+ok("non-string answer -> not gradable here (the round guard below rejects it)", gradeTranslation(word, "definition_choice", 42, { learnerLevel: "B1" }) === null);
 ok("empty key never matches an empty answer", gradeTranslation({ id: "x", english: "x" }, "definition_choice", "", { learnerLevel: "B1" }) === false);
+
+console.log("Round guard (mirror of progressApi/entry.ts)");
+const rejects = (it, w) => it?.type === "definition_choice" && (!w || typeof it?.given !== "string");
+ok("definition_choice with no stored word -> round rejected (never client-attested)", rejects({ type: "definition_choice", given: B1, correct: true }, null));
+ok("definition_choice with a non-text answer -> round rejected", rejects({ type: "definition_choice", given: 42, correct: true }, word));
+ok("a well-formed definition_choice item passes the guard", !rejects({ type: "definition_choice", given: B1 }, word));
 
 console.log("Existing contract unchanged");
 ok("multiple_choice still grades against uz/ru", gradeTranslation(word, "multiple_choice", "vazn, og'irlik") === true && gradeTranslation(word, "multiple_choice", "вес") === true);
