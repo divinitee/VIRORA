@@ -1,5 +1,5 @@
 // VT-40 Stage 5a resolver tests: node tools/coach/language-gate-tests.mjs
-import { normLevel, supportKey, translationMode, translationFor, definitionForLearner, spellingPromptForm, showsFirstLetter, resolveWordContent } from "../../src/lib/coach/languageGate.js";
+import { revealsHeadword, normLevel, supportKey, translationMode, translationFor, definitionForLearner, spellingPromptForm, showsFirstLetter, resolveWordContent } from "../../src/lib/coach/languageGate.js";
 
 let pass = 0, fail = 0;
 const ok = (n, c) => { c ? pass++ : fail++; console.log(`  ${c ? "PASS" : "FAIL"}  ${n}`); };
@@ -24,7 +24,7 @@ ok("A1/EN -> none", translationMode("A1", "en") === "none");
 ok("A2/UZ -> tap", translationMode("A2", "uz") === "tap");
 ok("A2/RU -> tap", translationMode("A2", "ru") === "tap");
 for (const l of ["B1", "B2", "C1"]) for (const g of ["uz", "ru", "en"]) ok(`${l}/${g.toUpperCase()} -> none`, translationMode(l, g) === "none");
-ok("unknown level + uz -> tap (cautious), + en -> none", translationMode(null, "uz") === "tap" && translationMode(undefined, "en") === "none");
+ok("unplaced learner (no level) + uz/ru/en -> none (no assumed proficiency)", ["uz", "ru", "en"].every((g) => translationMode(null, g) === "none" && translationMode(undefined, g) === "none"));
 
 console.log("The 26 Oct live case: B1 learner, app in English");
 const b1en = resolveWordContent(word, { learnerLevel: "B1", lang: "en" });
@@ -50,6 +50,23 @@ ok("B2 with no def_b2 -> def_b1", definitionForLearner({ ...word, def_b2: "" }, 
 ok("A2 has no lower tier -> english_definition", definitionForLearner({ ...word, def_a2: "" }, "A2").source === "english_definition");
 ok("a definition containing the headword is skipped", definitionForLearner({ ...word, def_b1: "the weight of a thing" }, "B1").source === "def_a2");
 ok("never falls back to a translation: no definitions at all -> unavailable", (() => { const r = resolveWordContent({ ...sparse, english_definition: "" }, { learnerLevel: "B1", lang: "uz" }); return !r.available && !showsNative(r); })());
+
+console.log("Unplaced policy");
+const unplaced = resolveWordContent(word, { learnerLevel: null, lang: "uz" });
+ok("unplaced/UZ: no translation, flagged unplaced, word's own english_definition", !showsNative(unplaced) && unplaced.placed === false && unplaced.definitionSource === "english_definition");
+ok("placed learners are flagged placed", resolveWordContent(word, { learnerLevel: "B1", lang: "en" }).placed === true);
+ok("unplaced spelling prompt -> definition, with first letter", spellingPromptForm({ learnerLevel: null, lang: "uz", sessionId: "s", wordId: "w", sentenceOk: true }) === "definition" && showsFirstLetter(null));
+
+console.log("Headword check (whole word, forms still caught)");
+ok("prefix collision: 'art' is not revealed by 'article'", !revealsHeadword("a short article in a newspaper", "art"));
+ok("'art' in 'modern art' is caught", revealsHeadword("paintings and other modern art", "art"));
+ok("inflected forms are caught: weighs / weighed / weighing", ["it weighs", "it weighed", "weighing a box"].every((t) => revealsHeadword(t, "weigh")) && revealsHeadword("the weights of", "weight"));
+ok("not a different word that only starts the same: 'weigh' vs 'weightless'... caught only as weigh+suffix list", !revealsHeadword("a weightless astronaut", "weigh"));
+ok("multiword headword caught across spacing", revealsHeadword("we need to cut  down costs", "cut down"));
+ok("multiword headword not caught when split", !revealsHeadword("cut the bread, then sit down", "cut down"));
+ok("parenthesised part ignored: 'get out (of)' -> 'get out'", revealsHeadword("to get out of a car", "get out (of)") && !revealsHeadword("to leave a car", "get out (of)"));
+ok("case-insensitive", revealsHeadword("Brave people", "brave"));
+ok("definition with a prefix collision is now KEPT (was wrongly skipped)", definitionForLearner({ id: "x", english: "art", def_b1: "an article about painting" }, "B1").source === "def_b1");
 
 console.log("Russian missing");
 const noRu = { ...word, russian: "" };

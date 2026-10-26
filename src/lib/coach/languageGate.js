@@ -37,12 +37,13 @@ export function supportKey(lang) {
  *   "main" — A1 with uz/ru: the translation is the primary text.
  *   "tap"  — A2 with uz/ru: hidden by default, revealed on tap.
  *   "none" — English app language, or B1 and above.
- * An unknown level is treated as A2 (the most cautious level that still allows
- * support), so an unplaced uz/ru learner gets tap-only help, never inline.
+ * Unplaced learners (no trusted level) get NO translation until a level is
+ * known (GPT 5a audit: never assume a proficiency to unlock support).
  */
 export function translationMode(learnerLevel, lang) {
   if (!supportKey(lang)) return "none";
-  const lvl = normLevel(learnerLevel) || "A2";
+  const lvl = normLevel(learnerLevel);
+  if (!lvl) return "none";
   if (lvl === "A1") return "main";
   if (lvl === "A2") return "tap";
   return "none";
@@ -63,19 +64,34 @@ const OWN_TIER = { A1: "def_a2", A2: "def_a2", B1: "def_b1", B2: "def_b2", C1: "
 const LOWER_TIER = { A1: null, A2: null, B1: "def_a2", B2: "def_b1", C1: "def_b2" };
 
 /**
- * The English definition for this learner, never one that contains the
+ * True when `text` contains the headword or an inflected form of it, as a whole
+ * word: "weight" matches "weights"/"weighted" but "art" does not match "article".
+ * Parenthesised parts of a headword are ignored ("get out (of)" -> "get out"),
+ * and multiword headwords match with any whitespace between their words.
+ */
+export function revealsHeadword(text, headword) {
+  const core = clean(String(headword || "").replace(/\([^)]*\)/g, " ")).replace(/\s+/g, " ");
+  if (!core) return false;
+  const body = core.split(" ").map(esc).join("\\s+");
+  const re = new RegExp(`(^|[^\\p{L}])${body}(s|es|d|ed|ing|er|ers|ly)?(?=$|[^\\p{L}])`, "iu");
+  return re.test(String(text || ""));
+}
+
+/**
+ * The English definition for this learner, never one that reveals the
  * headword. Returns { text, source } where source is the field used, or
  * { text: "", source: null } when nothing usable exists.
+ * Unplaced learners (no trusted level) read the word's own english_definition.
  */
 export function definitionForLearner(word, learnerLevel) {
   const en = clean(word?.english);
   if (!en) return { text: "", source: null };
-  const lvl = normLevel(learnerLevel) || "A2";
-  const gives = new RegExp(`\\b${esc(en)}`, "i");
-  for (const field of [OWN_TIER[lvl], LOWER_TIER[lvl], "english_definition"]) {
+  const lvl = normLevel(learnerLevel);
+  const chain = lvl ? [OWN_TIER[lvl], LOWER_TIER[lvl], "english_definition"] : ["english_definition"];
+  for (const field of chain) {
     if (!field) continue;
     const text = clean(word?.[field]);
-    if (text && !gives.test(text)) return { text, source: field };
+    if (text && !revealsHeadword(text, en)) return { text, source: field };
   }
   return { text: "", source: null };
 }
@@ -96,14 +112,14 @@ function fnv1a(str) {
 export function spellingPromptForm({ learnerLevel, lang, sessionId, wordId, sentenceOk }) {
   const mode = translationMode(learnerLevel, lang);
   if (mode === "main") return "translation";
-  const lvl = normLevel(learnerLevel) || "A2";
-  if (lvl === "A1" || lvl === "A2") return "definition";
+  const lvl = normLevel(learnerLevel);
+  if (!lvl || lvl === "A1" || lvl === "A2") return "definition";
   if (!sentenceOk) return "definition";
   return fnv1a(`${sessionId}|${wordId}`) % 2 === 0 ? "sentence" : "definition";
 }
 
 /** First-letter hint ("w_____") on spelling prompts: every level except C1. */
-export const showsFirstLetter = (learnerLevel) => (normLevel(learnerLevel) || "A2") !== "C1";
+export const showsFirstLetter = (learnerLevel) => normLevel(learnerLevel) !== "C1";
 
 /**
  * Everything a Coach word item may show for this learner and word.
@@ -120,6 +136,7 @@ export function resolveWordContent(word, { learnerLevel, lang }) {
   if (mode === "main" && !translation) available = false; // A1 reads the translation; never substitute
   return {
     english,
+    placed: !!normLevel(learnerLevel), // false -> caller should route to placement
     mode,
     ...(mode !== "none" && translation ? { translation } : {}),
     definition: def.text,
