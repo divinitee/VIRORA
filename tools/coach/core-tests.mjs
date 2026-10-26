@@ -278,6 +278,15 @@ function makeStore() {
   const cross = await applyRound(svc, "b@x", { rows: rowsFor(target.item_key, "xb1", 5, 5, new Date(NOW + 230000).toISOString()).map((r) => ({ ...r, user_email: "b@x" })), coach: { session_key: sk } }, deps);
   ok("another learner's session key gives no coach credit", cross.coachItems === 0);
 
+  // VT-40 5b: the learner level is frozen on the session's first snapshot.
+  ok("5b: first snapshot freezes the learner's level from the User row", tables.PlanLog.filter((p) => p.session_key === sk).every((p) => p.learner_level === "A2"));
+  const ua = tables.User.find((u) => u.email === "a@x");
+  ua.cefr_level = "B2"; // promotion / retake mid-session
+  await getToday(svc, A, null, {}, deps, NOW + 290000);
+  const skRows = tables.PlanLog.filter((p) => p.session_key === sk);
+  ok("5b: a level change mid-session writes a new snapshot that KEEPS the frozen level", skRows.length >= 2 && skRows.every((p) => p.learner_level === "A2"), JSON.stringify(skRows.map((p) => [p.trigger, p.learner_level])));
+  ua.cefr_level = "A2";
+
   // Recalculation after evidence + isolation.
   const t2 = await getToday(svc, A, null, {}, deps, NOW + 300000);
   ok("practised item leaves today's plan; snapshot trigger evidence_changed", !t2.plan.items.some((i) => i.item_key === target.item_key) && tables.PlanLog.some((p) => p.trigger === "evidence_changed"));
@@ -285,6 +294,7 @@ function makeStore() {
   const bEvidenceKeys = new Set(tables.ItemEvidence.filter((e) => e.user_email === "b@x").map((e) => e.item_key));
   const bItems = tables.LearnerItem.filter((r) => r.user_email === "b@x");
   const aOnly = tables.ItemEvidence.filter((e) => e.user_email === "a@x" && !bEvidenceKeys.has(e.item_key) && isResolved(e.item_key)).map((e) => e.item_key);
+  ok("5b: each learner's session freezes their own level", tables.PlanLog.filter((p) => p.user_email === "b@x").every((p) => p.learner_level === "A2"));
   ok("cross-user isolation: B's facts come only from B's evidence", bItems.length > 0 && bItems.every((r) => bEvidenceKeys.has(r.item_key)) && !bItems.some((r) => aOnly.includes(r.item_key)) && tb.plan.items.length > 0);
 
   // Continuations.

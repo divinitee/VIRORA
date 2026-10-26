@@ -28,6 +28,10 @@
       ],
       "type": "string"
     },
+    "learner_level": {
+      "description": "VT-40 5b. The learner's CEFR level (A1..C1, or 'unplaced') frozen when the session's FIRST snapshot is written, copied unchanged onto later snapshots of the same session_key. progressApi grades definition_choice against it. Absent on sessions created before 2026-10-26 (legacy): such answers are rejected, never guessed.",
+      "type": "string"
+    },
     "minutes": {
       "type": "number"
     },

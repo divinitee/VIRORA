@@ -107,9 +107,10 @@ export const gradeSpelling = (canonicalEnglish, answer) =>
  *   spelling         native shown, TYPE the English word (gradeSpelling) (Coach, 2026-10-14)
  *   definition_choice  English word shown, pick its English definition (VT-40 5b, 2026-10-26).
  *                    The right option is the definition THIS learner was shown, so the
- *                    server derives it from the stored word + the learner's stored level
- *                    (`learnerLevel`, read from the User row by the caller — never from
- *                    the request). Client answer keys, flags and levels are ignored.
+ *                    server derives it from the stored word + the level FROZEN on the
+ *                    learner's Coach session (`learnerLevel`, from PlanLog.learner_level
+ *                    via sessionLevel(); never the request, never today's User row).
+ *                    Client answer keys, flags and levels are ignored.
  */
 export function gradeTranslation(word, type, given, { learnerLevel = null } = {}) {
   if (typeof given !== "string" || !word) return null;
@@ -121,6 +122,27 @@ export function gradeTranslation(word, type, given, { learnerLevel = null } = {}
   if (type === "multiple_choice") return [word.uzbek, word.russian].filter(Boolean).includes(given);
   if (type === "spelling") return gradeSpelling(word.english, given);
   return null;
+}
+
+/**
+ * VT-40 5b: the learner level frozen on a Coach session (PlanLog.learner_level).
+ *   snapshotLevel(cefr)  value WRITTEN on a session's first PlanLog row:
+ *                        a normalised level, or "unplaced" when there is none.
+ *   sessionLevel(row)    value used to GRADE definition_choice:
+ *                        { ok: true, level } or { ok: false } (no row / legacy row
+ *                        without a snapshot) -> the caller rejects the round.
+ */
+export const UNPLACED = "unplaced";
+export function snapshotLevel(cefr) {
+  const m = String(cefr || "").trim().toUpperCase().match(/^(A1|A2|B1|B2|C1)/);
+  return m ? m[1] : UNPLACED;
+}
+export function sessionLevel(row) {
+  const v = row?.learner_level;
+  if (typeof v !== "string" || !v) return { ok: false };
+  if (v === UNPLACED) return { ok: true, level: null };
+  const lvl = snapshotLevel(v);
+  return lvl === UNPLACED ? { ok: false } : { ok: true, level: lvl };
 }
 
 /**

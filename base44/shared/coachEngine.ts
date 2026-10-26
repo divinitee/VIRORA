@@ -22,6 +22,7 @@ import { GOALS, DEFAULT_GOAL, goalOf, LIVE_GRAMMAR_TOPICS, onPath, GRAPH_VERSION
 // Authoritative build stamp for PlanLog/explain: always generated from the modules' own version constants.
 export const ENGINE_STAMP = [PLAN_VERSION, ENGINE_VERSION, GRAPH_VERSION].join('+');
 import { pageAll } from './progressEngine.ts';
+import { snapshotLevel } from './progressCore.js';
 
 type Deps = { fsrsLib: any };
 const chunk = <T>(a: T[], n: number) => Array.from({ length: Math.ceil(a.length / n) }, (_, i) => a.slice(i * n, i * n + n));
@@ -292,7 +293,18 @@ async function snapshot(svc: any, email: string, s: any) {
   if (prev && prev.plan_hash === s.plan_hash) return { snapshot: prev, created: false };
   const trigger = !prev ? (s.kind === 'continuation' ? 'continuation_initial' : 'daily_initial')
     : prev.policy !== s.policy ? 'policy_changed' : prev.goal_id !== s.goal_id ? 'goal_changed' : prev.minutes !== s.minutes ? 'time_changed' : 'evidence_changed';
-  const row = await svc.PlanLog.create({ user_email: email, ...s, trigger });
+  // VT-40 5b: the learner level is frozen on the session's FIRST snapshot and copied
+  // unchanged onto later ones, so a promotion / retake mid-session never changes which
+  // definition is graded as right. Read from the User row here, never from the client.
+  // A legacy session (first row written before this field) stays without one, and
+  // definition_choice answers for it are rejected rather than guessed.
+  let learner_level: string | undefined;
+  if (prev) learner_level = typeof prev.learner_level === 'string' ? prev.learner_level : undefined;
+  else {
+    const u = ((await svc.User.filter({ email }, 'created_date', 1)) || [])[0];
+    learner_level = snapshotLevel(u?.cefr_level);
+  }
+  const row = await svc.PlanLog.create({ user_email: email, ...s, ...(learner_level ? { learner_level } : {}), trigger });
   // Concurrent identical requests: keep the oldest snapshot with this hash, drop the rest.
   const same = ((await svc.PlanLog.filter({ user_email: email, session_key: s.session_key, plan_hash: s.plan_hash }, 'created_date', 10)) || []);
   if (prev) { /* a change row may legitimately repeat an older hash after A->B->A */ }

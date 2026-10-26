@@ -1,7 +1,7 @@
 // VT-40 Stage 5b server grading tests: node tools/coach/grading-5b-tests.mjs
 // definition_choice = English word shown, pick its English definition. The server
 // derives the right option from the stored word + the learner's STORED level.
-import { gradeTranslation, gradeWordItem } from "../../base44/shared/progressCore.js";
+import { gradeTranslation, gradeWordItem, snapshotLevel, sessionLevel, UNPLACED } from "../../base44/shared/progressCore.js";
 import { definitionForLearner } from "../../base44/shared/languageGate.js";
 import { definitionForLearner as clientDef } from "../../src/lib/coach/languageGate.js";
 
@@ -46,6 +46,16 @@ const rejects = (it, w) => it?.type === "definition_choice" && (!w || typeof it?
 ok("definition_choice with no stored word -> round rejected (never client-attested)", rejects({ type: "definition_choice", given: B1, correct: true }, null));
 ok("definition_choice with a non-text answer -> round rejected", rejects({ type: "definition_choice", given: 42, correct: true }, word));
 ok("a well-formed definition_choice item passes the guard", !rejects({ type: "definition_choice", given: B1 }, word));
+
+console.log("Session level snapshot (PlanLog.learner_level)");
+ok("snapshot written: B1 -> 'B1', 'b1+' -> 'B1', none -> 'unplaced'", snapshotLevel("B1") === "B1" && snapshotLevel("b1+") === "B1" && snapshotLevel(null) === UNPLACED && snapshotLevel("Starter") === UNPLACED);
+ok("grading reads the frozen level", JSON.stringify(sessionLevel({ learner_level: "B1" })) === JSON.stringify({ ok: true, level: "B1" }));
+ok("'unplaced' snapshot grades as unplaced (english_definition key)", sessionLevel({ learner_level: "unplaced" }).ok && sessionLevel({ learner_level: "unplaced" }).level === null);
+ok("no session row -> fail closed", sessionLevel(null).ok === false && sessionLevel(undefined).ok === false);
+ok("legacy session row without a snapshot -> fail closed", sessionLevel({ session_key: "2026-10-25:today:0" }).ok === false);
+ok("garbage snapshot value -> fail closed", sessionLevel({ learner_level: "Z9" }).ok === false && sessionLevel({ learner_level: 3 }).ok === false);
+const frozen = sessionLevel({ learner_level: "B1" }).level;
+ok("drift: learner promoted to B2 after planning -> B1 answer still correct, B2 text not", gradeTranslation(word, "definition_choice", word.def_b1, { learnerLevel: frozen }) === true && gradeTranslation(word, "definition_choice", word.def_b2, { learnerLevel: frozen }) === false);
 
 console.log("Existing contract unchanged");
 ok("multiple_choice still grades against uz/ru", gradeTranslation(word, "multiple_choice", "vazn, og'irlik") === true && gradeTranslation(word, "multiple_choice", "вес") === true);
