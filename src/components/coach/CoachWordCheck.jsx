@@ -5,6 +5,17 @@ import { isRight } from "@/lib/coach/wordCheck";
 
 const TITLE = { meaning: "pick_meaning", recall: "pick_word", definition: "q_definition", context: "q_context", spelling: "q_spelling" };
 
+// A2 + uz/ru (VT-40 5c): the translation exists but stays hidden until the learner
+// taps for it. A tap is support, so the answer that follows is tagged as hinted.
+function TapTranslation({ text, label, onReveal, className = "" }) {
+  const [open, setOpen] = useState(false);
+  if (!text) return null;
+  return open
+    ? <p data-testid="tap-native" className={`text-sm text-muted-foreground break-words ${className}`}>({text})</p>
+    : <button type="button" data-testid="tap-translate" onClick={() => { setOpen(true); onReveal?.(); }}
+        className={`text-xs font-semibold underline underline-offset-4 text-muted-foreground hover:text-foreground select-none ${className}`}>{label}</button>;
+}
+
 // One word's questions (meaning / recall / definition / context / spelling).
 // Reports every answer up; the session submits them in one server-graded
 // "quiz" round tagged with the Coach session_key. A weak word starts with a
@@ -14,6 +25,7 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
   const [k, setK] = useState(0);
   const [picked, setPicked] = useState(null);
   const [typed, setTyped] = useState("");
+  const [tapped, setTapped] = useState(false);
   const finished = useRef(false);
   const q = questions[k];
   if (!q) return null;
@@ -24,6 +36,7 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
         <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{t("word_card")}</p>
         <p className="text-3xl font-bold text-foreground mt-2 break-words">{intro.english}</p>
         {intro.native && <p className="text-base text-muted-foreground mt-1">{intro.native}</p>}
+        {intro.tapNative && <TapTranslation text={intro.tapNative} label={t("show_translation")} className="mt-1 block" />}
         {intro.definition && <p className="text-sm text-foreground mt-4">{intro.definition}</p>}
         {intro.example && <p className="text-sm text-muted-foreground italic mt-2">“{intro.example}”</p>}
         <button onClick={() => setShowCard(false)} className="mt-6 w-full h-12 rounded-2xl font-semibold text-white select-none" style={{ background: color }}>
@@ -36,22 +49,27 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
   const answer = (given) => {
     if (picked !== null) return;
     setPicked(given);
-    onAnswer(word, q, given);
+    onAnswer(word, q, given, { tapped });
   };
   const next = () => {
     setPicked(null);
     setTyped("");
+    setTapped(false);
     if (k + 1 < questions.length) setK(k + 1);
     else if (!finished.current) { finished.current = true; onDone(); } // a double tap never skips an item
   };
   const kind = q.kind || (q.type === "multiple_choice" ? "meaning" : "recall");
   const right = picked !== null && isRight(q, picked);
+  const title = q.type === "definition_choice" ? "pick_definition" : q.type === "spelling" && q.promptForm === "sentence" ? "q_spelling_sentence" : TITLE[kind] || "pick_word";
+  const longPrompt = kind === "definition" || kind === "context" || (q.type === "spelling" && q.promptForm !== "translation");
+  const below = q.meaning || q.tapNative;
 
   return (
     <motion.div key={k} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="premium-card rounded-[28px] p-6">
-      <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{t(TITLE[kind] || "pick_word")}</p>
-      <p className={`${kind === "definition" || kind === "context" ? "text-lg leading-snug" : "text-3xl"} font-bold text-foreground mt-2 ${q.meaning ? "mb-1" : "mb-5"} break-words`}>{q.prompt}</p>
+      <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{t(title)}</p>
+      <p className={`${longPrompt ? "text-lg leading-snug" : "text-3xl"} font-bold text-foreground mt-2 ${below ? "mb-1" : "mb-5"} break-words`}>{q.prompt}</p>
       {q.meaning && <p data-testid="gap-meaning" className="text-sm text-muted-foreground mb-5 break-words">({q.meaning})</p>}
+      {!q.meaning && q.tapNative && <div className="mb-5"><TapTranslation key={k} text={q.tapNative} label={t("show_translation")} onReveal={() => setTapped(true)} /></div>}
       {q.type === "spelling" ? (
         <form onSubmit={(e) => { e.preventDefault(); if (typed.trim()) answer(typed); }} className="grid gap-2">
           <p className="text-sm font-mono tracking-widest text-muted-foreground">{q.hint}</p>

@@ -68,6 +68,9 @@ ok("parenthesised part ignored: 'get out (of)' -> 'get out'", revealsHeadword("t
 ok("case-insensitive", revealsHeadword("Brave people", "brave"));
 ok("definition with a prefix collision is now KEPT (was wrongly skipped)", definitionForLearner({ id: "x", english: "art", def_b1: "an article about painting" }, "B1").source === "def_b1");
 
+ok("5c: A1/UZ word with no English definition is still available (reads the translation)", resolveWordContent({ id: "n", english: "apple", uzbek: "olma" }, { learnerLevel: "A1", lang: "uz" }).available === true);
+ok("5c: ...but the same word is unavailable for A2/UZ and B1 (they read English)", !resolveWordContent({ id: "n", english: "apple", uzbek: "olma" }, { learnerLevel: "A2", lang: "uz" }).available && !resolveWordContent({ id: "n", english: "apple", uzbek: "olma" }, { learnerLevel: "B1", lang: "en" }).available);
+
 console.log("Russian missing");
 const noRu = { ...word, russian: "" };
 const a1ru = resolveWordContent(noRu, { learnerLevel: "A1", lang: "ru" });

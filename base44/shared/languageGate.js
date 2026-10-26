@@ -135,8 +135,9 @@ export function resolveWordContent(word, { learnerLevel, lang }) {
   const translation = mode === "none" ? "" : translationFor(word, lang);
   const def = definitionForLearner(word, learnerLevel);
   const english = clean(word?.english);
-  let available = !!english && !!def.text;
-  if (mode === "main" && !translation) available = false; // A1 reads the translation; never substitute
+  // A1 + uz/ru reads the TRANSLATION, so it needs that (never a substitute) and not a definition;
+  // everyone else reads English, so they need a definition. (5c amendment, 26 Oct.)
+  const available = !!english && (mode === "main" ? !!translation : !!def.text);
   return {
     english,
     placed: !!normLevel(learnerLevel), // false -> caller should route to placement

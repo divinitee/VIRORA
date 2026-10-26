@@ -376,7 +376,9 @@ export async function getToday(svc: any, me: any, sub: any, body: any, deps: Dep
     handoff,
     settings: { goal_id: goal.id, minutes, minutesOptions: resolved.policy.limits.minutesOptions, goalSwitching: resolved.policy.limits.goalSwitching, onboarded: !!profile.onboarded_at,
       goals: Object.values(GOALS).map((g: any) => ({ id: g.id, objective: g.objective, placeholder: !!g.placeholder })) },
-    session: { session_key, kind, session_no: sessionNo, plan_id: snap?.id || null, spent_minutes: spent, remaining_minutes: remaining, complete, frozen },
+    // 5c: the level frozen on this session (PlanLog.learner_level) — the client builds questions
+    // with the SAME level the server grades definition_choice against. null on legacy sessions.
+    session: { session_key, kind, session_no: sessionNo, plan_id: snap?.id || null, learner_level: typeof snap?.learner_level === 'string' ? snap.learner_level : null, spent_minutes: spent, remaining_minutes: remaining, complete, frozen },
     plan: { minutes, minutes_planned: plan.minutes_planned, fallback: plan.fallback, suggestion: plan.suggestion, items: plan.explanation.map(studentView) },
     done_today: doneToday.size,
     continuation: { allowed: continuationsAllowed, used: continuationsUsed, available: nextHasItems },
