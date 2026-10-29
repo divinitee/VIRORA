@@ -15,6 +15,7 @@ import ParticleBackground from "@/components/ParticleBackground";
 import { radarRows, SKILLS } from "@/lib/gameSkills";
 import { useSkillState } from "@/hooks/useSkillState";
 import BetaBadge from "@/components/BetaBadge";
+import { getAppLang } from "@/hooks/useAppLang";
 
 const ACCENT = "#3b82f6";
 const ttStyle = {
@@ -150,7 +151,8 @@ export default function Analytics() {
     try {
       const res = await runAiTask("analyticsReport", {
         stats: { totalQuizzes: stats.totalQuizzes, totalCorrect: stats.totalCorrect, accuracy: stats.accuracy, streak: stats.streak, xp: stats.xp },
-        skills: radarData.map((s) => ({ emoji: s.emoji, value: s.value })),
+        skills: radarData.map((s) => ({ emoji: s.key, value: s.value })),
+        lang: getAppLang(),
       });
       setReport(res?.text || "");
     } catch (e) {
