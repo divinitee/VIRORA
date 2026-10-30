@@ -98,6 +98,29 @@ for (const [lang, title] of [["uz", "Saqlab chiqasizmi?"], ["ru", "Сохран�
   await page.screenshot({ path: `${OUT}/5d-04-leave-${lang}.png`, fullPage: true });
   await ctx.close();
 }
+// ---- VT-40 recap: a full session ends with "What you did today" from real answers + the map ----
+{ const { ctx, page } = await open("en");
+  await page.getByRole("button", { name: /^Start$/ }).click();
+  for (let step = 0; step < 80; step++) {
+    await page.waitForTimeout(150);
+    if (await page.getByTestId("recap").isVisible().catch(() => false)) break;
+    if (await page.getByRole("button", { name: /^Got it$/ }).isVisible().catch(() => false)) { await page.getByRole("button", { name: /^Got it$/ }).click(); continue; }
+    const optA = page.locator("button:has(span:text-is('A'))").first();
+    if (await optA.isVisible().catch(() => false) && await optA.isEnabled().catch(() => false)) {
+      await optA.click(); await page.getByRole("button", { name: /^Check$/ }).click(); await page.getByRole("button", { name: /^(Next|Finish)/ }).first().click(); continue;
+    }
+    if (await page.getByRole("button", { name: /^Done$/ }).isVisible().catch(() => false)) { await page.getByRole("button", { name: /^Done$/ }).click(); continue; }
+    if (await page.getByTestId("word-q-count").isVisible().catch(() => false)) { await answer(page); await page.getByRole("button", { name: /^Next$/ }).click().catch(() => {}); }
+  }
+  const recap = page.getByTestId("recap");
+  ok("recap: the Done screen shows 'What you did today'", await recap.isVisible().catch(() => false));
+  const txt = (await recap.innerText().catch(() => "")) || "";
+  ok("recap: words, grammar and accuracy are shown", /words/i.test(txt) && /grammar/i.test(txt) && /\d+%/.test(txt), txt.slice(0, 200));
+  ok("recap: an item the server moved up is listed with from -> to (mock: bread Practising -> Strong)", /moved up/i.test(txt) && /bread/.test(txt) && /strong/i.test(txt), txt.slice(0, 300));
+  ok("recap: Keep going is still offered under it", await page.getByRole("button", { name: /Keep going/ }).isVisible().catch(() => false));
+  await page.screenshot({ path: `${OUT}/recap-en.png`, fullPage: true });
+  await ctx.close(); }
+
 ok("no page errors", errors.length === 0, errors.join(" | ").slice(0, 300));
 await browser.close();
 console.log(`\n${pass} passed, ${fail} failed`);

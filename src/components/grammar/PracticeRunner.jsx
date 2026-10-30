@@ -93,7 +93,9 @@ export default function PracticeRunner({ items, stage, topicKey, onExit, onLeave
 
   if (done) {
     const { graded } = scoreRound(round.items, responses);
-    return <PracticeResult summary={summarise(graded)} c={c} onAgain={onAgain} onExit={onFinish || onExit} />;
+    const summary = summarise(graded);
+    // onFinish receives the round summary (VT-40 recap); callers that ignore it are unaffected.
+    return <PracticeResult summary={summary} c={c} onAgain={onAgain} onExit={onFinish ? () => onFinish(summary) : onExit} />;
   }
 
   return (

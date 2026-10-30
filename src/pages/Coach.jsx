@@ -16,6 +16,7 @@ import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } fro
 import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard, showsWordCard } from "@/lib/coach/wordCheck";
 import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
 import { createAnswerSender, createAnswerStore, finishWithSave } from "@/lib/coach/answerBatches";
+import { buildRecap } from "@/lib/coach/sessionRecap";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
 
@@ -146,7 +147,19 @@ export default function Coach() {
     <Shell onBack={back}>
       <Session data={data} t={t} gc={gc} color={color} lang={lang} email={user?.email} flushRef={flushRef}
         onLeave={() => setLeaveOpen(true)}
-        onFinished={async (summary) => { await load(); setLastRun(summary); setView("after"); }} />
+        onFinished={async (summary, run) => {
+          const d = await load();
+          // Recap (VT-40): labels AFTER the server has every answer (getMap), compared with
+          // the labels the plan had at the start. getMap failing only hides "moved up".
+          let recap = null;
+          try {
+            const map = await coachApi("getMap", {}).catch(() => null);
+            const ids = (run?.planItems || []).filter((i) => i.item_type === "word").map((i) => i.word_id);
+            const ws = await fetchWords(ids).catch(() => []);
+            recap = buildRecap({ ...run, map, session: d?.session, names: Object.fromEntries(ws.map((w) => [w.id, w.english])) });
+          } catch { recap = null; }
+          setLastRun({ ...summary, recap }); setView("after");
+        }} />
       {leaveOpen && (
         <div role="dialog" aria-modal="true" aria-labelledby="leave-title" className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/60 p-4"
           onClick={() => { if (!busy) setLeaveOpen(false); }}>
@@ -200,6 +213,7 @@ export default function Coach() {
         <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
         <h1 className="text-xl font-bold text-foreground">{t("done_title")}</h1>
         <p className="text-sm text-muted-foreground mt-2">{t(continuation.available ? "done_sub_more" : "done_sub")}</p>
+        {lastRun?.recap && (lastRun.recap.words + lastRun.recap.grammar) > 0 && <Recap r={lastRun.recap} t={t} color={color} />}
         {afterView === "done_partial" && <p className="text-xs text-amber-300/90 mt-3">{t("partial_note", { n: lastRun?.unavailable || 0 })}</p>}
         {continuation.available ? (
           <button disabled={busy} onClick={keepGoing} className="mt-6 w-full h-12 rounded-2xl font-semibold text-white flex items-center justify-center gap-2" style={{ background: color }}>
@@ -358,6 +372,8 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeav
   const outcomes = useRef({}); // item_key -> OUTCOME (see sessionOutcome.js)
   const completedWords = useRef(new Set()); // word item_keys whose questions were ALL answered
   const pool = useRef(null);
+  // VT-40 recap: what was actually answered in THIS run (word: right/total by item_key; grammar: round summary).
+  const results = useRef({ words: {}, grammar: {} });
 
   // Sends queued word answers. Answers for words the learner FINISHED go with
   // the Coach session_key (Coach credit, session minutes). Answers for a word
@@ -380,7 +396,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeav
   // save still fails after one automatic retry, show a save error with Try again,
   // never a Done screen (src/lib/coach/answerBatches.js finishWithSave).
   const finish = useCallback(async () => {
-    const result = await finishWithSave({ flush, onDone: () => onFinished(summarise(outcomes.current)) });
+    const result = await finishWithSave({ flush, onDone: () => onFinished(summarise(outcomes.current), { planItems: items, ...results.current }) });
     if (result === "failed") setSaveFailed(true);
   }, [flush, onFinished]);
   // Mid-session save (before a grammar step): a failure is shown as a banner with
@@ -501,16 +517,52 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeav
       ) : ready.kind === "word" ? (
         <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} intro={ready.intro} color={color} t={t}
           onProgress={(k, n) => setSub(n > 0 ? Math.min(1, k / n) : 0)}
-          onAnswer={(w, q, given, { tapped } = {}) => { pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given, ready.intro || tapped ? { support: "hint" } : undefined) }); stage(); }} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
+          onAnswer={(w, q, given, { tapped } = {}) => {
+            const ev = evidenceItem(w, q, given, ready.intro || tapped ? { support: "hint" } : undefined);
+            pending.current.push({ key: ready.key, ev }); stage();
+            const r = results.current.words[ready.key] || { right: 0, total: 0 };
+            results.current.words[ready.key] = { right: r.right + (ev.correct ? 1 : 0), total: r.total + 1 };
+          }} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
       ) : (
         <PracticeRunner key={`g${idx}`} items={ready.grammarItems} stage={ready.stage} topicKey={ready.topicKey} size={ready.size}
           c={gc} coachSessionKey={sessionKey} onSave={saveGrammar}
-          onFinish={() => finishItem(ready.key, OUTCOME.COMPLETED)}
+          onFinish={(sum) => { if (sum?.total) results.current.grammar[ready.key] = { correct: sum.correct, total: sum.total }; finishItem(ready.key, OUTCOME.COMPLETED); }}
           onExit={() => finishItem(ready.key, OUTCOME.LEFT)}
           onLeave={onLeave} />
       )}
     </div>
   );
+}
+
+// VT-40 session recap (Tee, 30 Oct): what this run did, from real answers + the server's map.
+function Recap({ r, t, color }) {
+  const stats = [
+    r.words ? [r.words, t("recap_words")] : null,
+    r.grammar ? [r.grammar, t("recap_grammar")] : null,
+    r.accuracy !== null ? [`${r.accuracy}%`, t("recap_accuracy")] : null,
+    r.minutes ? [r.minutes, t("recap_minutes")] : null,
+  ].filter(Boolean);
+  const nameOf = (i) => (i.key.startsWith("grammar:") ? humanTopic(i.key) : i.name);
+  const Row = ({ title, list, render }) => list.length ? (
+    <div className="mt-4 text-left">
+      <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-2">{title} · {list.length}</p>
+      <div className="flex flex-wrap gap-2">{list.map((i) => <span key={i.key} className="rounded-full px-3 py-1.5 text-xs bg-white/5 border border-white/10 text-foreground">{render(i)}</span>)}</div>
+    </div>) : null;
+  return (
+    <div data-testid="recap" className="mt-6 text-left">
+      <p className="text-[11px] font-semibold uppercase tracking-wider mb-2" style={{ color }}>{t("recap_title")}</p>
+      <div className={`grid gap-2 ${stats.length >= 4 ? "grid-cols-4" : stats.length === 3 ? "grid-cols-3" : "grid-cols-2"}`}>
+        {stats.map(([v, l]) => (
+          <div key={l} className="rounded-2xl bg-white/[0.04] border border-white/10 px-2 py-3 text-center">
+            <p className="text-lg font-bold text-foreground tabular-nums">{v}</p>
+            <p className="text-[10px] text-muted-foreground mt-0.5 truncate">{l}</p>
+          </div>))}
+      </div>
+      <Row title={t("recap_moved")} list={r.moved} render={(i) => <>{nameOf(i)} <span className="text-muted-foreground">{t(labelKey(i.from))} → </span><span style={{ color }}>{t(labelKey(i.to))}</span></>} />
+      <Row title={t("recap_learned")} list={r.learned} render={(i) => <>{nameOf(i)} <span style={{ color }}>· {t(labelKey(i.to))}</span></>} />
+      <Row title={t("recap_again")} list={r.again} render={nameOf} />
+      {r.hasMap && !r.moved.length && !r.learned.length && <p className="text-xs text-muted-foreground mt-4 text-center">{t("recap_none")}</p>}
+    </div>);
 }
 
 function LearnerMap({ t, color }) {
