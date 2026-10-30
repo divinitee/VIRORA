@@ -58,7 +58,10 @@ function today(sessionNo) {
     handoff: null,
     settings: { goal_id: "everyday", minutes: 10, minutesOptions: [10, 15, 20], goalSwitching: true, onboarded: S.onboarded,
       goals: [{ id: "everyday", objective: "Everyday English: words and grammar for daily life" }, { id: "vocabulary", objective: "Build my vocabulary" }] },
-    session: { session_key: key, kind: sessionNo ? "continuation" : "today", session_no: sessionNo, spent_minutes: done.size, remaining_minutes: 10, complete },
+    // VT-40 5c/5d: the learner level frozen on the session. ?level=A1|A2|B1|B2|C1|unplaced|legacy (default A1,
+    // the translation path the Stage 3 checks were written for; "legacy" = a session without a snapshot).
+    session: { session_key: key, kind: sessionNo ? "continuation" : "today", session_no: sessionNo, spent_minutes: done.size, remaining_minutes: 10, complete,
+      learner_level: (Q.get("level") || "A1") === "legacy" ? null : (Q.get("level") || "A1") },
     plan: { minutes: 10, minutes_planned: items.reduce((s, i) => s + i.est_minutes, 0), fallback: null, suggestion: null, items },
     done_today: Object.values(S.done).reduce((s, x) => s + x.size, 0),
     continuation: { allowed: S.allowed, used: S.contUsed, available: latestComplete && S.contUsed < S.allowed },

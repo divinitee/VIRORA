@@ -208,9 +208,25 @@ export function buildWordQuestions(word, pool, { depth, lang, learnerLevel = nul
     used.add(pick); kinds.push(pick);
   }
   if (!kinds.length) return [];
+  // 5d (30 Oct play-test): the definition-form spelling prompt must not repeat a definition
+  // this word ALREADY showed in this check (definition_choice key or match-the-definition
+  // prompt), or recall is just copying. Prefer the sentence form; else another definition
+  // text for the same learner; else keep (rare: one usable definition and no sentence).
+  let spellForm = form, spellText = spellPrompt;
+  const shownDefs = new Set();
+  if (kinds.includes("meaning") && meaningIsDefChoice && keyDef.text) shownDefs.add(norm(keyDef.text));
+  if (kinds.includes("definition") && res.definition) shownDefs.add(norm(res.definition));
+  if (kinds.includes("spelling") && spellForm === "definition" && shownDefs.has(norm(spellText))) {
+    if (alt) { spellForm = "sentence"; spellText = alt; }
+    else {
+      const other = ["english_definition", "def_a2", "def_b1", "def_b2", "def_c1"].map((f) => clean(word[f]))
+        .find((d) => d && !shownDefs.has(norm(d)) && !revealsHeadword(d, word.english));
+      if (other) spellText = other;
+    }
+  }
   const english = (picks) => shuffle([word.english, ...picks.map((w) => w.english)], rnd);
   return kinds.map((kind) => {
-    if (kind === "spelling") return { type: "spelling", kind, prompt: spellPrompt, promptForm: form, hint, correct: word.english };
+    if (kind === "spelling") return { type: "spelling", kind, prompt: spellText, promptForm: spellForm, hint, correct: word.english };
     if (kind === "meaning" && meaningIsDefChoice) return { type: "definition_choice", kind, prompt: word.english, options: shuffle([keyDef.text, ...defOpts], rnd), correct: keyDef.text, ...(mode === "tap" && res.translation ? { tapNative: res.translation } : {}) };
     const picks = pick3(others);
     if (kind === "meaning") return { type: "multiple_choice", kind, prompt: word.english, options: shuffle([native(word), ...picks.map(native)], rnd), correct: native(word) };

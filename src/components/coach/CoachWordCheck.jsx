@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Check, X } from "lucide-react";
 import { isRight } from "@/lib/coach/wordCheck";
@@ -20,7 +20,7 @@ function TapTranslation({ text, label, onReveal, className = "" }) {
 // Reports every answer up; the session submits them in one server-graded
 // "quiz" round tagged with the Coach session_key. A weak word starts with a
 // short word card (`intro`).
-export default function CoachWordCheck({ word, questions, intro, color, t, onAnswer, onDone }) {
+export default function CoachWordCheck({ word, questions, intro, color, t, onAnswer, onDone, onProgress }) {
   const [showCard, setShowCard] = useState(!!intro);
   const [k, setK] = useState(0);
   const [picked, setPicked] = useState(null);
@@ -28,6 +28,16 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
   const [tapped, setTapped] = useState(false);
   const finished = useRef(false);
   const q = questions[k];
+  // 5d: report progress inside this word (answered questions / total) so the session bar moves.
+  useEffect(() => { onProgress?.(k + (picked !== null ? 1 : 0), questions.length); }, [k, picked, questions.length]); // eslint-disable-line react-hooks/exhaustive-deps
+  // 5d: Enter moves on after an answer (it already submits a typed answer). Ignores held-down repeats.
+  useEffect(() => {
+    if (picked === null || showCard) return undefined;
+    const onKey = (e) => { if (e.key === "Enter" && !e.repeat) { e.preventDefault(); nextRef.current?.(); } };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [picked, showCard]);
+  const nextRef = useRef(null);
   if (!q) return null;
 
   if (showCard) {
@@ -52,12 +62,14 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
     onAnswer(word, q, given, { tapped });
   };
   const next = () => {
+    if (picked === null) return;
     setPicked(null);
     setTyped("");
     setTapped(false);
     if (k + 1 < questions.length) setK(k + 1);
     else if (!finished.current) { finished.current = true; onDone(); } // a double tap never skips an item
   };
+  nextRef.current = next;
   const kind = q.kind || (q.type === "multiple_choice" ? "meaning" : "recall");
   const right = picked !== null && isRight(q, picked);
   const title = q.type === "definition_choice" ? "pick_definition" : q.type === "spelling" && q.promptForm === "sentence" ? "q_spelling_sentence" : TITLE[kind] || "pick_word";
@@ -66,7 +78,10 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
 
   return (
     <motion.div key={k} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="premium-card rounded-[28px] p-6">
-      <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{t(title)}</p>
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{t(title)}</p>
+        {questions.length > 1 && <span data-testid="word-q-count" className="text-[11px] font-semibold text-muted-foreground tabular-nums shrink-0">{k + 1}/{questions.length}</span>}
+      </div>
       <p className={`${longPrompt ? "text-lg leading-snug" : "text-3xl"} font-bold text-foreground mt-2 ${below ? "mb-1" : "mb-5"} break-words`}>{q.prompt}</p>
       {q.meaning && <p data-testid="gap-meaning" className="text-sm text-muted-foreground mb-5 break-words">({q.meaning})</p>}
       {!q.meaning && q.tapNative && <div className="mb-5"><TapTranslation key={k} text={q.tapNative} label={t("show_translation")} onReveal={() => setTapped(true)} /></div>}
