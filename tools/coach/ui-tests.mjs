@@ -1,5 +1,10 @@
 // Stage 3 pure UI helpers: node --experimental-strip-types tools/coach/ui-tests.mjs
-import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard, showsWordCard, contextMeaningShown, CONTEXT_MEANING_LEVELS } from "../../src/lib/coach/wordCheck.js";
+import { buildWordQuestions as buildRaw, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard as wordCardRaw, showsWordCard, contextMeaningShown, CONTEXT_MEANING_LEVELS } from "../../src/lib/coach/wordCheck.js";
+// VT-40 5c: questions now follow the LEARNER's level. These Stage 3 tests exercise the
+// translation path (multiple_choice / recall / native spelling), i.e. an A1 learner with
+// uz/ru; the level-gated behaviour has its own tests in tools/coach/coach-5c-tests.mjs.
+const buildWordQuestions = (w, p, o = {}) => buildRaw(w, p, { learnerLevel: "A1", ...o });
+const wordCard = (w, lang, lvl = "A1") => wordCardRaw(w, lang, lvl);
 import { coachT, labelKey, reasonKey, goalLabel, minutesWord } from "../../src/lib/coach/coachCopy.js";
 import { GOALS } from "../../base44/shared/coachGraph.js";
 import { DEPTHS } from "../../base44/shared/coachPlan.js";
@@ -14,7 +19,8 @@ const target = W("t", "apple", "olma", "яблоко");
 const pool = [target, W("a", "pear", "nok", "груша"), W("b", "bread", "non", "хлеб"), W("c", "water", "suv", "вода"), W("d", "milk", "sut", "молоко")];
 for (const depth of Object.keys(DEPTHS)) ok(`every plan depth has a word question count (${depth})`, WORD_QUESTIONS[depth] >= 1);
 const qs = buildWordQuestions(target, pool, { depth: "remediation", lang: "uz", rnd });
-ok("remediation word -> 5 questions: meaning, recall, ... spelling last", qs.length === 5 && qs[0].type === "multiple_choice" && qs[1].type === "translation" && qs[4].type === "spelling");
+// 5c: a slot with nothing left is dropped instead of repeating a question (this word has no definition/example).
+ok("remediation word (A1, no definition/example) -> meaning, recall, spelling; no repeated kind", qs.map((q) => q.kind).join() === "meaning,recall,spelling" && qs[0].type === "multiple_choice" && qs[1].type === "translation" && qs[2].type === "spelling");
 ok("each option question has the correct answer exactly once and 4 unique options", qs.filter((q) => q.type !== "spelling").every((q) => q.options.filter((o) => o === q.correct).length === 1 && new Set(q.options).size === q.options.length && q.options.length === 4));
 ok("multiple_choice answer = native (uz), translation answer = english", qs[0].correct === "olma" && qs[1].correct === "apple");
 ok("ru learners get russian", buildWordQuestions(target, pool, { depth: "probe", lang: "ru", rnd })[0].correct === "яблоко");
@@ -22,7 +28,7 @@ ok("no translation -> no questions (never fake evidence)", buildWordQuestions(W(
 ok("too few distractors -> no questions", buildWordQuestions(target, [target, pool[1]], { depth: "probe", lang: "uz" }).length === 0);
 const dupPool = [target, pool[1], pool[1], { ...pool[2], id: "b2" }, pool[2], pool[3], pool[4]]; // same id twice + same text under two ids
 const dq = buildWordQuestions(target, dupPool, { depth: "remediation", lang: "uz", rnd });
-ok("distractors are distinct even when the pool repeats words (no duplicate options)", dq.length === 5 && dq.filter((q) => q.options).every((q) => new Set(q.options).size === 4));
+ok("distractors are distinct even when the pool repeats words (no duplicate options)", dq.length >= 3 && dq.filter((q) => q.options).every((q) => new Set(q.options).size === 4));
 const ev = evidenceItem(target, qs[0], "olma");
 ok("evidence item matches the server's quiz grading contract", ev.word_id === "t" && ev.type === "multiple_choice" && ev.given === "olma" && ev.correct === true);
 ok("every live grammar topic maps to a bank path", LIVE_GRAMMAR_TOPICS.every((k) => { const p = grammarPath(`grammar:${k}`); return p && p.join(".") === k; }));
@@ -68,7 +74,7 @@ for (const lang of ["en", "uz", "ru"]) {
   ok("uz learner + same word -> playable in Uzbek", buildWordQuestions(score, mixedPool, { depth: "probe", lang: "uz", rnd })[0]?.correct === "hisob");
   const ruQs = buildWordQuestions(target, mixedPool, { depth: "remediation", lang: "ru", rnd });
   const cyr = /^[Ѐ-ӿ\s-]+$/;
-  ok("ru learner: every meaning option is Russian (distractors without Russian are skipped, no mixed languages)", ruQs.length === 5 && ruQs.filter((q) => q.type === "multiple_choice").every((q) => q.options.every((o) => cyr.test(o))), JSON.stringify(ruQs.map((q) => q.options)));
+  ok("ru learner: every meaning option is Russian (distractors without Russian are skipped, no mixed languages)", ruQs.length >= 3 && ruQs.filter((q) => q.type === "multiple_choice").every((q) => q.options.every((o) => cyr.test(o))), JSON.stringify(ruQs.map((q) => q.options)));
 }
 // --- Post-publish corrections (2026-10-11) ----------------------------------------
 {
@@ -125,11 +131,12 @@ console.log("\n=== Word workout: meaning, recall, definition, context, spelling 
   const qq = buildWordQuestions(env, P, { depth: "remediation", lang: "uz", rnd });
   const ctx = qq.find((q) => q.kind === "context"), def = qq.find((q) => q.kind === "definition"), sp = qq.find((q) => q.kind === "spelling");
   ok("context: the word is blanked, never shown; answer is an option", ctx.prompt.includes("_____") && !/environment/i.test(ctx.prompt) && ctx.correct === "environment" && ctx.options.includes("environment") && ctx.type === "context");
-  ok("definition: level-appropriate (B1 learner word -> def_b1)", def.prompt === env.def_b1 && def.type === "definition");
+  // 5c: the definition follows the LEARNER (A1 here reads def_a2 -> english_definition), not the word's B1.
+  ok("definition: follows the learner, not the word (A1 learner -> english_definition, never def_b1)", def.prompt === env.english_definition && def.type === "definition");
   ok("a definition containing the word (or a form of it) is never used", definitionFor({ english: "environment", cefr: "A2", def_a2: "Environmental things.", english_definition: "The world around us." }) === "The world around us.");
   ok("spelling: native prompt, letter-count hint, no options", sp.prompt === "atrof-muhit" && sp.hint === "e__________" && !sp.options && sp.type === "spelling");
   ok("spelling evidence is graded like the server (letters only, any case)", evidenceItem(env, sp, " Environment").correct === true && evidenceItem(env, sp, "enviroment").correct === false && evidenceItem(env, sp, "x").type === "spelling");
-  ok("no definition/example -> meaning/recall fill in, never empty", buildWordQuestions(target, pool, { depth: "probe", lang: "uz", rnd }).map((q) => q.kind).join() === "meaning,recall,meaning");
+  ok("no definition/example -> meaning/recall fill in, never empty, never a repeated kind (5c)", buildWordQuestions(target, pool, { depth: "probe", lang: "uz", rnd }).map((q) => q.kind).join() === "meaning,recall");
   ok("the word twice in the example -> no context question", contextFor({ english: "go", example_en: "Go, go now." }) === "");
   ok("inflected only (exploded) -> no context question", contextFor({ english: "explode", example_en: "The old factory exploded at night." }) === "");
   ok("not typeable (etc.) -> no spelling; multiword hint keeps the space", spellingHint("etc.") === "" && spellingHint("carbon footprint") === "c_____ f________");
@@ -294,11 +301,13 @@ console.log("\n=== A1-A2 context questions show the meaning under the gap (15 Oc
 {
   const mk = (cefr) => ({ id: "m" + cefr, english: "dinner", uzbek: "kechki ovqat", russian: "ужин", cefr, def_a2: "the main meal of the evening", english_definition: "the main meal of the evening", example_en: "What are we having for dinner?" });
   const P2 = (w) => [w, ...pool.slice(1)];
-  const ctxOf = (cefr, lang) => buildWordQuestions(mk(cefr), P2(mk(cefr)), { depth: "probe", lang, rnd }).find((q) => q.kind === "context");
-  ok("levels: A1 and A2 only", CONTEXT_MEANING_LEVELS.join() === "A1,A2" && contextMeaningShown({ cefr: "a2" }) && !contextMeaningShown({ cefr: "B1" }) && !contextMeaningShown({}));
-  ok("A1 context question carries the learner's meaning (uz)", ctxOf("A1", "uz")?.meaning === "kechki ovqat");
-  ok("...in the learner's own language (ru)", ctxOf("A2", "ru")?.meaning === "ужин");
-  ok("B1+ context questions show no meaning (difficulty unchanged)", ["B1", "B2", "C1"].every((l) => ctxOf(l, "uz") && !("meaning" in ctxOf(l, "uz"))));
+  // 5c (26 Oct): the support follows the LEARNER's level + app language, never the word's cefr.
+  const ctxOf = (learnerLevel, lang, wordCefr = "B2") => buildRaw(mk(wordCefr), P2(mk(wordCefr)), { depth: "probe", lang, learnerLevel, rnd }).find((q) => q.kind === "context");
+  ok("levels: A1 inline, A2 tap, B1+/en/unplaced none", CONTEXT_MEANING_LEVELS.join() === "A1,A2" && contextMeaningShown("A1", "uz") === "main" && contextMeaningShown("a2", "ru") === "tap" && contextMeaningShown("B1", "uz") === "none" && contextMeaningShown("A1", "en") === "none" && contextMeaningShown(null, "uz") === "none");
+  ok("A1 learner's context question carries the meaning inline (uz) — even for a B2 word", ctxOf("A1", "uz")?.meaning === "kechki ovqat");
+  ok("A2 learner (ru): meaning only behind a tap, never inline", ctxOf("A2", "ru")?.tapNative === "ужин" && !("meaning" in ctxOf("A2", "ru")));
+  ok("B1+ learners: no meaning at all, even for an A1 word (the 26 Oct bug)", ["B1", "B2", "C1"].every((l) => { const q = ctxOf(l, "uz", "A1"); return q && !("meaning" in q) && !("tapNative" in q); }));
+  ok("English app language: no meaning even at A1", (() => { const q = ctxOf("A1", "en"); return q && !("meaning" in q) && !("tapNative" in q); })());
   const all = buildWordQuestions(mk("A1"), P2(mk("A1")), { depth: "remediation", lang: "uz", rnd });
   ok("only context questions get it (not definition/meaning/recall/spelling)", all.filter((q) => q.meaning).every((q) => q.kind === "context") && all.some((q) => q.kind === "definition" && !q.meaning));
   const q = ctxOf("A1", "uz");

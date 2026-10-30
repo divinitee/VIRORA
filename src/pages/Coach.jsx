@@ -323,6 +323,7 @@ function Onboarding({ data, t, color, onDone, onBack }) {
 function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   const items = data.plan.items || [];
   const sessionKey = data.session.session_key;
+  const sessionLevel = data.session.learner_level || null; // "A1".."C1" | "unplaced" | null (legacy session)
   const [idx, setIdx] = useState(0);
   const [ready, setReady] = useState(null); // { kind, word?, questions?, grammarItems?, stage?, topicKey? }
   const [saveFailed, setSaveFailed] = useState(false); // end of session: answers could not be saved
@@ -420,16 +421,20 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
             // Distractors from the planned words' own levels (the first 60 by English were all "a…" words,
             // which gave the answer away on "Which English word?").
             const levels = [...new Set(ids.map((id) => wordCache.get(id)?.cefr).filter(Boolean))];
-            const extra = (await base44.entities.VocabularyWord.filter(levels.length ? { cefr: { $in: levels } } : {}, "id", 200, 0, ["id", "english", "uzbek", "russian"]).catch(() => [])) || [];
+            // 5c: definition_choice options are other words' definitions from the SAME tier, so the pool carries them.
+            const extra = (await base44.entities.VocabularyWord.filter(levels.length ? { cefr: { $in: levels } } : {}, "id", 200, 0, ["id", "english", "uzbek", "russian", "def_a2", "def_b1", "def_b2", "def_c1", "english_definition"]).catch(() => [])) || [];
             pool.current = [...ids.map((id) => wordCache.get(id)).filter(Boolean), ...extra];
           }
           word = wordCache.get(it.word_id) || null;
-          questions = word ? buildWordQuestions(word, pool.current, { depth: it.depth, lang }) : [];
+          // 5c: the LEARNER's level frozen on this session (the same snapshot the server grades with).
+          // A legacy session has no snapshot: English-only content, and no definition_choice
+          // (the server would reject it there).
+          questions = word ? buildWordQuestions(word, pool.current, { depth: it.depth, lang, learnerLevel: sessionLevel, sessionId: sessionKey, definitionChoice: !!sessionLevel }) : [];
         } catch { questions = []; }
         if (!alive) return;
         // No usable word/translation/distractors: UNAVAILABLE. Nothing is sent.
         if (!questions.length) { finishItem(it.item_key, OUTCOME.UNAVAILABLE); return; }
-        setReady({ kind: "word", key: it.item_key, word, questions, intro: showsWordCard(it.depth) ? wordCard(word, lang) : null });
+        setReady({ kind: "word", key: it.item_key, word, questions, intro: showsWordCard(it.depth) ? wordCard(word, lang, sessionLevel) : null });
       } else {
         await saveNow();
         const path = grammarPath(it.item_key);
@@ -470,7 +475,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         <div className="premium-card rounded-[28px] p-10 text-center"><BrandLoader size={48} className="mx-auto" /></div>
       ) : ready.kind === "word" ? (
         <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} intro={ready.intro} color={color} t={t}
-          onAnswer={(w, q, given) => { pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given, ready.intro ? { support: "hint" } : undefined) }); stage(); }} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
+          onAnswer={(w, q, given, { tapped } = {}) => { pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given, ready.intro || tapped ? { support: "hint" } : undefined) }); stage(); }} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
       ) : (
         <PracticeRunner key={`g${idx}`} items={ready.grammarItems} stage={ready.stage} topicKey={ready.topicKey} size={ready.size}
           c={gc} coachSessionKey={sessionKey} onSave={saveGrammar}

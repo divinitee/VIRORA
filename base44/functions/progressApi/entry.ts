@@ -1,7 +1,7 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.52';
 import {
   GAME_SKILL_MAP, XP_ONLY_GAMES, SKILL_KEYS, MAX_ITEMS, COMPARABLE,
-  gradePractice, gradeQuiz, gradeWordItem, normalise,
+  gradePractice, gradeQuiz, gradeWordItem, normalise, sessionLevel,
   claimRound, recomputeSkill, rebuildSkill, deriveSkill, readSkillStates, pageAll,
 } from '../../shared/progressEngine.ts';
 import { enrichmentFor } from '../../shared/skillActivityMap.js';
@@ -86,12 +86,28 @@ async function gradeEvidence(svc: any, me: any, r: any, body: any) {
     const ai = (await svc.AiGradedItem.filter({ user_email: me.email, round_id: r.round_id, task: 'definition' }, 'created_date', 200)) || [];
     for (const a of ai) if (!aiByKey.has(a.item_key)) aiByKey.set(a.item_key, Number(a.score) || 0);
   }
+  // VT-40 5b: definition_choice is graded against the level FROZEN on this learner's own
+  // Coach session (the session's first PlanLog row), never today's User.cefr_level, the
+  // request's `level`, or any item field. No session / no snapshot -> reject (fail closed).
+  // `any`: progressCore.js is plain JS, so Deno infers its learnerLevel default (null) as the only type.
+  let learnerLevel: any = null;
+  if (items.some((it: any) => it?.type === 'definition_choice')) {
+    if (r.game !== 'quiz') throw new ApiError(400, 'bad_items');
+    const key = body?.coach && typeof body.coach === 'object' ? str(body.coach.session_key, 80) : '';
+    const first = key ? ((await svc.PlanLog.filter({ user_email: me.email, session_key: key }, 'created_date', 1)) || [])[0] : null;
+    const lvl = sessionLevel(first);
+    if (!lvl.ok) throw new ApiError(409, 'no_session_level');
+    learnerLevel = lvl.level ?? null;
+  }
   let anyAttested = false;
   const rows = items.map((it: any) => {
     const w = it?.word_id ? byId.get(str(it.word_id, 40)) : null;
+    // definition_choice is never client-attested: no stored word or a non-text answer
+    // would make it ungradable (null -> client flag), so the round is rejected instead.
+    if (it?.type === 'definition_choice' && (!w || typeof it?.given !== 'string')) throw new ApiError(400, 'bad_items');
     const word = str(w?.english || it?.word, 80);
     if (!word) throw new ApiError(400, 'bad_items');
-    let correct: boolean | null = gradeWordItem({ game: r.game, skill, word: w, item: it, aiScore: aiByKey.get(normalise(word)) });
+    let correct: boolean | null = gradeWordItem({ game: r.game, skill, word: w, item: it, aiScore: aiByKey.get(normalise(word)), learnerLevel });
     if (correct === null) { correct = it?.correct === true; anyAttested = true; }
     const given = r.game === 'spelling' && typeof it?.given === 'string' ? str(it.given, 80) : undefined;
     return { word, word_id: w?.id, correct, given, ...enrichmentFor({ game: r.game, bank: r.bank, support: it?.support }) };

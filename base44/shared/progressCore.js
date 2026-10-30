@@ -12,6 +12,7 @@
 // never read here.
 
 import { PRACTICE_KEYS, QUIZ_KEYS } from "./grammarKeys.js";
+import { definitionForLearner } from "./languageGate.js";
 
 export const SKILL_KEYS = ["vocabulary", "grammar", "spelling", "comprehension", "creativity"];
 
@@ -104,13 +105,44 @@ export const gradeSpelling = (canonicalEnglish, answer) =>
  *   definition       English definition shown, pick the English word   (Coach, 2026-10-14)
  *   context          example sentence with a gap, pick the English word  (Coach, 2026-10-14)
  *   spelling         native shown, TYPE the English word (gradeSpelling) (Coach, 2026-10-14)
+ *   definition_choice  English word shown, pick its English definition (VT-40 5b, 2026-10-26).
+ *                    The right option is the definition THIS learner was shown, so the
+ *                    server derives it from the stored word + the level FROZEN on the
+ *                    learner's Coach session (`learnerLevel`, from PlanLog.learner_level
+ *                    via sessionLevel(); never the request, never today's User row).
+ *                    Client answer keys, flags and levels are ignored.
  */
-export function gradeTranslation(word, type, given) {
+export function gradeTranslation(word, type, given, { learnerLevel = null } = {}) {
   if (typeof given !== "string" || !word) return null;
+  if (type === "definition_choice") {
+    const key = definitionForLearner(word, learnerLevel).text;
+    return key.length > 0 && given.trim() === key;
+  }
   if (type === "translation" || type === "definition" || type === "context") return given === word.english;
   if (type === "multiple_choice") return [word.uzbek, word.russian].filter(Boolean).includes(given);
   if (type === "spelling") return gradeSpelling(word.english, given);
   return null;
+}
+
+/**
+ * VT-40 5b: the learner level frozen on a Coach session (PlanLog.learner_level).
+ *   snapshotLevel(cefr)  value WRITTEN on a session's first PlanLog row:
+ *                        a normalised level, or "unplaced" when there is none.
+ *   sessionLevel(row)    value used to GRADE definition_choice:
+ *                        { ok: true, level } or { ok: false } (no row / legacy row
+ *                        without a snapshot) -> the caller rejects the round.
+ */
+export const UNPLACED = "unplaced";
+export function snapshotLevel(cefr) {
+  const m = String(cefr || "").trim().toUpperCase().match(/^(A1|A2|B1|B2|C1)/);
+  return m ? m[1] : UNPLACED;
+}
+export function sessionLevel(row) {
+  const v = row?.learner_level;
+  if (typeof v !== "string" || !v) return { ok: false };
+  if (v === UNPLACED) return { ok: true, level: null };
+  const lvl = snapshotLevel(v);
+  return lvl === UNPLACED ? { ok: false } : { ok: true, level: lvl };
 }
 
 /**
@@ -122,9 +154,9 @@ export function gradeTranslation(word, type, given) {
  *                               canonical headword via gradeSpelling. Clients
  *                               send given:"" for items never attempted.
  */
-export function gradeWordItem({ game, skill, word, item, aiScore }) {
+export function gradeWordItem({ game, skill, word, item, aiScore, learnerLevel = null }) {
   if (skill === "comprehension") return (aiScore ?? -1) >= DEFINITION_CLEAR;
-  if (game === "quiz" && word) return gradeTranslation(word, item?.type, item?.given);
+  if (game === "quiz" && word) return gradeTranslation(word, item?.type, item?.given, { learnerLevel });
   if (game === "spelling" && word && typeof item?.given === "string") return gradeSpelling(word.english, item.given);
   return null;
 }
