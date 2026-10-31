@@ -6,6 +6,7 @@
 //   D. Closing a tab mid-word and opening a NEW tab: within 10 min the other tab's answers are
 //      left alone (it may still be open); after 10 min (abandoned) they are recovered and sent.
 //   E. Device storage fails (quota / blocked): honest "will be lost" copy, close-tab warning, retry.
+//   F. Spelling near miss: "Almost!" + the answer, en/uz/ru (still graded wrong: unit tests).
 // node tools/coach/ui-harness/audit-31oct.mjs <screenshot-dir>   (mock app on :5199)
 import { chromium } from "playwright";
 const OUT = process.argv[2];
@@ -184,6 +185,31 @@ const watch = (p) => p.on("pageerror", (e) => errors.push(String(e)));
   await p.close({ runBeforeUnload: true });
   ok("E: once saved, closing the tab no longer asks", (await closed) && asked === 1, `asked=${asked}`);
   await ctx.close(); }
+
+// ---- F (typo policy, 31 Oct): a near miss on spelling shows amber "Almost!" + the answer; still wrong ----
+for (const [lang, almost, answerLbl] of [["en", "Almost!", "Answer:"], ["uz", "Sal qoldi!", "Javob:"], ["ru", "Почти!", "Ответ:"]]) {
+  const ctx = await newCtx(); const p = await ctx.newPage(); watch(p);
+  await p.goto(`http://localhost:5199/?start=/coach&lang=${lang}&level=A1`);
+  await p.getByRole("button", { name: /Make my plan|Rejamni tuz|Составить план/ }).first().click();
+  await p.locator(".premium-card button").last().click();                 // Start (localised)
+  await p.getByRole("button", { name: /^(Got it|Tushundim|Понятно)$/ }).click();
+  let fb = null;
+  for (let k = 0; k < 8 && !fb; k++) {
+    const input = p.locator(".premium-card input");
+    if (await input.isVisible().catch(() => false)) {
+      await input.fill("aplpe");                                           // apple with two neighbours swapped
+      await input.press("Enter");
+      fb = p.getByTestId("spelling-feedback"); await fb.waitFor({ timeout: 4000 });
+      break;
+    }
+    await p.locator(".premium-card .grid button").first().click();
+    await p.getByRole("button", { name: /^(Next|Keyingisi|Дальше)$/ }).click(); await p.waitForTimeout(150);
+  }
+  const txt = fb ? await fb.innerText() : "";
+  ok(`F ${lang}: near miss -> '${almost}' with the correct spelling, marked almost (amber)`, !!fb && txt.includes(almost) && txt.includes(answerLbl) && /apple/.test(txt) && (await fb.getAttribute("data-almost")) === "true", txt);
+  if (lang === "en") await p.screenshot({ path: `${OUT}/audit-F-almost.png`, fullPage: true });
+  await ctx.close();
+}
 
 ok("no page errors", errors.length === 0, errors.join(" | ").slice(0, 300));
 await browser.close();

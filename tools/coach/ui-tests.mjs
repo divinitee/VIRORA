@@ -1,5 +1,5 @@
 // Stage 3 pure UI helpers: node --experimental-strip-types tools/coach/ui-tests.mjs
-import { buildWordQuestions as buildRaw, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard as wordCardRaw, showsWordCard, contextMeaningShown, CONTEXT_MEANING_LEVELS } from "../../src/lib/coach/wordCheck.js";
+import { buildWordQuestions as buildRaw, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, isOneLetterOff, wordCard as wordCardRaw, showsWordCard, contextMeaningShown, CONTEXT_MEANING_LEVELS } from "../../src/lib/coach/wordCheck.js";
 // VT-40 5c: questions now follow the LEARNER's level. These Stage 3 tests exercise the
 // translation path (multiple_choice / recall / native spelling), i.e. an A1 learner with
 // uz/ru; the level-gated behaviour has its own tests in tools/coach/coach-5c-tests.mjs.
@@ -136,13 +136,21 @@ console.log("\n=== Word workout: meaning, recall, definition, context, spelling 
   ok("a definition containing the word (or a form of it) is never used", definitionFor({ english: "environment", cefr: "A2", def_a2: "Environmental things.", english_definition: "The world around us." }) === "The world around us.");
   ok("spelling: native prompt, letter-count hint, no options", sp.prompt === "atrof-muhit" && sp.hint === "e__________" && !sp.options && sp.type === "spelling");
   ok("spelling evidence is graded like the server (letters only, any case)", evidenceItem(env, sp, " Environment").correct === true && evidenceItem(env, sp, "enviroment").correct === false && evidenceItem(env, sp, "x").type === "spelling");
+  ok("one-letter insertions, deletions and substitutions are identified for feedback", isOneLetterOff("appl", "apple") && isOneLetterOff("applee", "apple") && isOneLetterOff("apxle", "apple"));
+  ok("exact matches, empty answers and two-letter errors are not near misses", !isOneLetterOff("apple", "apple") && !isOneLetterOff("", "apple") && !isOneLetterOff("apxme", "apple"));
+  ok("a one-letter spelling typo still stays incorrect evidence", evidenceItem(env, sp, "enviroment").correct === false);
+  ok("two neighbouring letters swapped is a near miss (recieve, aplpe)", isOneLetterOff("recieve", "receive") && isOneLetterOff("aplpe", "apple"));
+  ok("a swap of letters that are NOT neighbours is not", !isOneLetterOff("lppae", "apple"));
+  ok("words under 4 letters never get 'Almost' (hat for cat is another word)", !isOneLetterOff("hat", "cat") && !isOneLetterOff("g", "go") && isOneLetterOff("bok", "book"));
+  ok("multi-word answers: spaces ignored like the grader", isOneLetterOff("carbon footprnt", "carbon footprint"));
+  ok("a swapped-letter answer is still incorrect evidence", evidenceItem(env, sp, "envrionment").correct === false && isOneLetterOff("envrionment", "environment"));
   ok("no definition/example -> meaning/recall fill in, never empty, never a repeated kind (5c)", buildWordQuestions(target, pool, { depth: "probe", lang: "uz", rnd }).map((q) => q.kind).join() === "meaning,recall");
   ok("the word twice in the example -> no context question", contextFor({ english: "go", example_en: "Go, go now." }) === "");
   ok("inflected only (exploded) -> no context question", contextFor({ english: "explode", example_en: "The old factory exploded at night." }) === "");
   ok("not typeable (etc.) -> no spelling; multiword hint keeps the space", spellingHint("etc.") === "" && spellingHint("carbon footprint") === "c_____ f________");
   const card = wordCard(env, "ru");
   ok("weak-word card: word, learner's translation, definition, example", card.english === "environment" && card.native === "окружающая среда" && !!card.definition && !!card.example);
-  for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`copy for the new question types (${lang})`, ["q_definition", "q_context", "q_spelling", "check", "answer", "word_card", "got_it", "min_short"].every((k) => t(k) && t(k) !== k)); }
+  for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`copy for the new question types (${lang})`, ["q_definition", "q_context", "q_spelling", "check", "answer", "almost", "word_card", "got_it", "min_short"].every((k) => t(k) && t(k) !== k)); }
 }
 console.log("\n=== Answer batching: <= 50 per round, one word per round, failed rounds retried (audit finding 1) ===");
 {

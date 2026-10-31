@@ -48,6 +48,32 @@ const clean = (s) => String(s || "").trim();
 /** Letters only, lower-case: the same comparison as the server's gradeSpelling. */
 export const spellKey = (s) => String(s || "").replace(/[^a-zA-Z]/g, "").toLowerCase();
 
+/**
+ * Feedback only ("Almost!"): the answer is still graded wrong, here and on the server.
+ * True when a non-empty answer is one insert/delete/replace away, or two neighbouring
+ * letters swapped ("recieve"), from a word of 4+ letters. Shorter words are excluded:
+ * one letter off there is usually another word ("hat" for "cat"), not a typo.
+ */
+export const ALMOST_MIN_LETTERS = 4;
+export function isOneLetterOff(given, expected) {
+  const a = spellKey(given), b = spellKey(expected);
+  if (!a || !b || a === b || b.length < ALMOST_MIN_LETTERS || Math.abs(a.length - b.length) > 1) return false;
+  if (a.length === b.length) {
+    const diff = [...a].map((c, k) => (c !== b[k] ? k : -1)).filter((k) => k >= 0);
+    if (diff.length === 2 && diff[1] === diff[0] + 1 && a[diff[0]] === b[diff[1]] && a[diff[1]] === b[diff[0]]) return true;
+  }
+  let i = 0, j = 0, edits = 0;
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) { i++; j++; continue; }
+    if (++edits > 1) return false;
+    if (a.length === b.length) { i++; j++; }
+    else if (a.length < b.length) j++;
+    else i++;
+  }
+  if (i < a.length || j < b.length) edits++;
+  return edits === 1;
+}
+
 /** A level-appropriate English definition that doesn't contain the word itself (or a form of it). */
 export function definitionFor(word) {
   const en = clean(word?.english);

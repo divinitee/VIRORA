@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Check, X } from "lucide-react";
-import { isRight } from "@/lib/coach/wordCheck";
+import { isOneLetterOff, isRight } from "@/lib/coach/wordCheck";
 
 const TITLE = { meaning: "pick_meaning", recall: "pick_word", definition: "q_definition", context: "q_context", spelling: "q_spelling" };
 
@@ -72,6 +72,7 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
   nextRef.current = next;
   const kind = q.kind || (q.type === "multiple_choice" ? "meaning" : "recall");
   const right = picked !== null && isRight(q, picked);
+  const almost = picked !== null && !right && q.type === "spelling" && isOneLetterOff(picked, q.correct);
   const title = q.type === "definition_choice" ? "pick_definition" : q.type === "spelling" && q.promptForm === "sentence" ? "q_spelling_sentence" : TITLE[kind] || "pick_word";
   const longPrompt = kind === "definition" || kind === "context" || (q.type === "spelling" && q.promptForm !== "translation");
   const below = q.meaning || q.tapNative;
@@ -91,15 +92,16 @@ export default function CoachWordCheck({ word, questions, intro, color, t, onAns
           <input value={typed} onChange={(e) => setTyped(e.target.value)} disabled={picked !== null} autoFocus
             autoComplete="off" autoCorrect="off" autoCapitalize="none" spellCheck={false} aria-label={t("q_spelling")}
             className={`w-full px-4 py-3 rounded-2xl border bg-white/[0.04] text-foreground text-base outline-none ${
-              picked === null ? "border-white/15 focus:border-white/40" : right ? "border-emerald-400/60" : "border-rose-400/60"}`} />
+              picked === null ? "border-white/15 focus:border-white/40" : right ? "border-emerald-400/60" : almost ? "border-amber-400/60" : "border-rose-400/60"}`} />
           {picked === null ? (
             <button type="submit" disabled={!typed.trim()} className="w-full h-12 rounded-2xl font-semibold text-white select-none disabled:opacity-40" style={{ background: color }}>
               {t("check")}
             </button>
           ) : (
-            <p className={`text-sm flex items-center gap-2 ${right ? "text-emerald-400" : "text-rose-400"}`}>
-              {right ? <Check className="w-4 h-4" /> : <X className="w-4 h-4" />}
-              {right ? q.correct : `${t("answer")} ${q.correct}`}
+            <p data-testid="spelling-feedback" data-almost={almost ? "true" : "false"}
+              className={`text-sm flex items-center gap-2 ${right ? "text-emerald-400" : almost ? "text-amber-300" : "text-rose-400"}`}>
+              {right ? <Check className="w-4 h-4" /> : <X className={`w-4 h-4 ${almost ? "text-amber-300" : ""}`} />}
+              {right ? q.correct : <>{almost && <>{t("almost")} </>}{t("answer")} {q.correct}</>}
             </p>
           )}
         </form>
