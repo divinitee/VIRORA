@@ -31,7 +31,7 @@ async function runSession(tag) {
     // meaning / recall / definition / context (options) or spelling (typed).
     const gotIt = page.getByRole("button", { name: /^Got it$/ });
     if (await gotIt.isVisible().catch(() => false)) { if (counts.word === 0) await shot(`${tag}-word-card`); await gotIt.click(); continue; }
-    const wordQ = (await vis("What does it mean?")) || (await vis("Which English word?")) || (await vis("Which word matches this definition?")) || (await vis("Fill the gap")) || (await vis("Type the English word"));
+    const wordQ = (await vis("What does it mean?")) || (await vis("Which English word?")) || (await vis("Which word matches this definition?")) || (await vis("Which definition fits this word?")) || (await vis("Type the missing word")) || (await vis("Fill the gap")) || (await vis("Type the English word"));
     if (wordQ) {
       if (counts.word === 0) await shot(`${tag}-word`);
       try {
@@ -60,7 +60,9 @@ async function runSession(tag) {
 }
 const s1 = await runSession("03-today");
 await shot("04-done-today");
-ok("today's session ran word (card + 5) + grammar + word (3) and reached Done", s1.end === "keep" && s1.counts.word === 8 && s1.counts.grammar >= 3, JSON.stringify(s1));
+// 5c (26 Oct): A1 + app in English reads English only and never repeats a question kind:
+// apple (remediation) = definition_choice, context, spelling; bread (brushup) = context, spelling, definition_choice.
+ok("today's session ran word (card + 3) + grammar + word (3) and reached Done", s1.end === "keep" && s1.counts.word === 6 && s1.counts.grammar >= 3, JSON.stringify(s1));
 let L = await log();
 const subs = L.filter((e) => e.kind === "submit:start");
 ok("3 submissions, all tagged with today's session_key (quiz, grammar, quiz)", subs.length === 3 && subs.every((e) => e.detail.session_key === "2026-10-08:today:0") && subs.map((e) => e.detail.game).join() === "quiz,grammar_practice,quiz", JSON.stringify(subs.map((e) => e.detail)));

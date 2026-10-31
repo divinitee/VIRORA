@@ -37,3 +37,18 @@ export function afterRunView({ session, items = [], summary }) {
   if (!items.length) return "plan"; // nothing left and not complete: the plan screen shows "nothing urgent"
   return (summary?.completed || 0) > 0 ? "done_partial" : "unavailable";
 }
+
+/**
+ * 5d: "Pick up where you left off". Decided on the server's RAW spent_minutes (GPT audit
+ * 31 Oct: rounding first hid Continue for a session with under half a minute saved).
+ * done/left are display values, never below 1 when shown.
+ */
+export function resumeState(session) {
+  const raw = Number(session?.spent_minutes);
+  const resuming = Number.isFinite(raw) && raw > 0 && !session?.complete;
+  return {
+    resuming,
+    done: resuming ? Math.max(1, Math.round(raw)) : 0,
+    left: Math.max(1, Math.round(Number(session?.remaining_minutes) || 0)),
+  };
+}

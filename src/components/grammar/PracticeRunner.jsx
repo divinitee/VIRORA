@@ -26,7 +26,9 @@ const ROUND_SIZE = 10;
 // onSave (optional, Coach, 15 Oct): the caller saves the finished round itself
 // (queued with its round_id and retried until it lands), so a failed save is
 // never silently dropped. Without it, the round is submitted here as before.
-export default function PracticeRunner({ items, stage, topicKey, onExit, onAgain, onFinish, onSave, c, coachSessionKey, size = ROUND_SIZE }) {
+// onLeave (optional, VT-40 5d): the mid-round Exit button calls this instead of onExit,
+// so the Coach can ask "Save and leave?" without changing the empty-round "back" button.
+export default function PracticeRunner({ items, stage, topicKey, onExit, onLeave, onAgain, onFinish, onSave, c, coachSessionKey, size = ROUND_SIZE }) {
   const [seed] = useState(() => Math.floor(Math.random() * 1e9));
   const [roundId] = useState(() => generateRoundId());
   const { user } = useAuth();
@@ -91,14 +93,16 @@ export default function PracticeRunner({ items, stage, topicKey, onExit, onAgain
 
   if (done) {
     const { graded } = scoreRound(round.items, responses);
-    return <PracticeResult summary={summarise(graded)} c={c} onAgain={onAgain} onExit={onFinish || onExit} />;
+    const summary = summarise(graded);
+    // onFinish receives the round summary (VT-40 recap); callers that ignore it are unaffected.
+    return <PracticeResult summary={summary} c={c} onAgain={onAgain} onExit={onFinish ? () => onFinish(summary) : onExit} />;
   }
 
   return (
     <>
       <div className="flex items-center justify-between mb-4">
         <p className="text-sm font-semibold text-foreground">{c("run_progress", { n: i + 1 })} <span className="text-muted-foreground font-normal">/ {round.items.length}</span></p>
-        <button onClick={onExit} className="neo-pill px-3 py-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors select-none">{c("run_exit_short")}</button>
+        <button onClick={onLeave || onExit} className="neo-pill px-3 py-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors select-none">{c("run_exit_short")}</button>
       </div>
 
       <div className="h-1 rounded-full bg-white/10 mb-5 overflow-hidden">

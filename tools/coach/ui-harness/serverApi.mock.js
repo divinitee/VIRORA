@@ -30,14 +30,17 @@ const S = (window.__state = {
 });
 // ?persist=1 (reload-recovery.mjs): the fake server's state survives a page reload
 // (sessionStorage), like a real server would. Offline mode can be set the same way.
-const PERSIST = Q.get("persist") === "1";
+// ?persist=shared (audit 31 Oct): state in localStorage, shared by every tab, like one real server
+// seen from two tabs (closed-tab recovery test).
+const PERSIST = Q.get("persist") === "1" || Q.get("persist") === "shared";
+const STORE = (() => { try { return Q.get("persist") === "shared" ? localStorage : sessionStorage; } catch { return sessionStorage; } })();
 const saveState = () => {
   if (!PERSIST) return;
-  try { sessionStorage.setItem("__mockState", JSON.stringify({ onboarded: S.onboarded, contUsed: S.contUsed, active: S.active, contPractised: S.contPractised, submits: S.submits, done: Object.fromEntries(Object.entries(S.done).map(([k, v]) => [k, [...v]])) })); } catch { /* ignore */ }
+  try { STORE.setItem("__mockState", JSON.stringify({ onboarded: S.onboarded, contUsed: S.contUsed, active: S.active, contPractised: S.contPractised, submits: S.submits, done: Object.fromEntries(Object.entries(S.done).map(([k, v]) => [k, [...v]])) })); } catch { /* ignore */ }
 };
 if (PERSIST) {
   try {
-    const saved = JSON.parse(sessionStorage.getItem("__mockState") || "null");
+    const saved = JSON.parse(STORE.getItem("__mockState") || "null");
     if (saved) { Object.assign(S, { onboarded: saved.onboarded, contUsed: saved.contUsed, active: saved.active, contPractised: saved.contPractised, submits: saved.submits || [] }); S.done = Object.fromEntries(Object.entries(saved.done || {}).map(([k, v]) => [k, new Set(v)])); }
   } catch { /* ignore */ }
 }
@@ -58,7 +61,10 @@ function today(sessionNo) {
     handoff: null,
     settings: { goal_id: "everyday", minutes: 10, minutesOptions: [10, 15, 20], goalSwitching: true, onboarded: S.onboarded,
       goals: [{ id: "everyday", objective: "Everyday English: words and grammar for daily life" }, { id: "vocabulary", objective: "Build my vocabulary" }] },
-    session: { session_key: key, kind: sessionNo ? "continuation" : "today", session_no: sessionNo, spent_minutes: done.size, remaining_minutes: 10, complete },
+    // VT-40 5c/5d: the learner level frozen on the session. ?level=A1|A2|B1|B2|C1|unplaced|legacy (default A1,
+    // the translation path the Stage 3 checks were written for; "legacy" = a session without a snapshot).
+    session: { session_key: key, kind: sessionNo ? "continuation" : "today", session_no: sessionNo, spent_minutes: done.size, remaining_minutes: 10, complete,
+      learner_level: (Q.get("level") || "A1") === "legacy" ? null : (Q.get("level") || "A1") },
     plan: { minutes: 10, minutes_planned: items.reduce((s, i) => s + i.est_minutes, 0), fallback: null, suggestion: null, items },
     done_today: Object.values(S.done).reduce((s, x) => s + x.size, 0),
     continuation: { allowed: S.allowed, used: S.contUsed, available: latestComplete && S.contUsed < S.allowed },
@@ -82,7 +88,19 @@ export async function coachApi(action, payload = {}) {
     S.contUsed += 1; S.active = S.contUsed; S.contPractised = false; saveState();
     return today(S.active);
   }
-  if (action === "getMap") return { goal_id: "everyday", grammar: [{ item_key: "grammar:tenses.present.simple-routine", item_type: "grammar", label: "Practising" }], words: [{ item_key: "word:v1:0", item_type: "word", word_id: "v1", label: "Needs work" }, { item_key: "word:v2:0", item_type: "word", word_id: "v2", label: "Strong" }], counts: { "New": 0, "Needs work": 1, "Practising": 1, "Strong": 1 } };
+  if (action === "getMap") {
+    // Recap (GPT audit 31 Oct): the map moves when an item is saved, so the recap's
+    // run-start baseline and after-run labels can differ. v1 Needs work -> Practising,
+    // v2 Practising -> Strong; simple-routine is not on the map (New) until practised.
+    const doneAny = (k) => Object.values(S.done).some((set) => set.has(k));
+    const grammar = doneAny("grammar:tenses.present.simple-routine") ? [{ item_key: "grammar:tenses.present.simple-routine", item_type: "grammar", label: "Practising" }] : [];
+    const words = [
+      { item_key: "word:v1:0", item_type: "word", word_id: "v1", label: doneAny("word:v1:0") ? "Practising" : "Needs work" },
+      { item_key: "word:v2:0", item_type: "word", word_id: "v2", label: doneAny("word:v2:0") ? "Strong" : "Practising" },
+      { item_key: "word:v4:0", item_type: "word", word_id: "v4", label: "Needs work" }, // never planned: stays put
+    ];
+    return { goal_id: "everyday", grammar, words, counts: { "New": 0, "Needs work": words.filter((w) => w.label === "Needs work").length, "Practising": words.filter((w) => w.label === "Practising").length + grammar.length, "Strong": words.filter((w) => w.label === "Strong").length } };
+  }
   throw new Error("unknown " + action);
 }
 export async function progressApi(action, body) {

@@ -14,8 +14,9 @@ import { submitEvidence } from "@/lib/progress/progressClient";
 import { generateRoundId } from "@/lib/gameScoring";
 import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
 import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard, showsWordCard } from "@/lib/coach/wordCheck";
-import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
+import { OUTCOME, summarise, afterRunView, resumeState } from "@/lib/coach/sessionOutcome";
 import { createAnswerSender, createAnswerStore, finishWithSave } from "@/lib/coach/answerBatches";
+import { buildRecap } from "@/lib/coach/sessionRecap";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
 
@@ -42,7 +43,8 @@ function Shell({ children, onBack, right }) {
         <button onClick={onBack} className="neo-pill p-2 select-none" aria-label="Back"><ArrowLeft className="w-4 h-4" /></button>
         {right}
       </header>
-      <div className="max-w-xl mx-auto px-4 pt-6 pb-16">{children}</div>
+      {/* pb-32: room to scroll the last button above the floating Help bubble (5d) */}
+      <div className="max-w-xl mx-auto px-4 pt-6 pb-32">{children}</div>
     </div>
   );
 }
@@ -58,6 +60,12 @@ export default function Coach() {
   const [busy, setBusy] = useState(false);
   const [lastRun, setLastRun] = useState(null); // summarise(outcomes) of the run that just ended
   const flushRef = useRef(null); // the running Session's flush (queued word answers)
+  const [leaveOpen, setLeaveOpen] = useState(false); // 5d: "Save and leave?" sheet during a run
+  const [leaveFailed, setLeaveFailed] = useState(false); // GPT audit 31 Oct: the save failed -> say so, offer Try again
+  const [leaveFrom, setLeaveFrom] = useState(null); // "grammar" when asked from inside a grammar round
+  // GPT audit 31 Oct (22:45): the browser could not keep a device copy (private mode, blocked or
+  // full storage), so unsent answers live only in this tab. Say so; never claim "kept on this device".
+  const [memoryOnly, setMemoryOnly] = useState(false);
 
   // No session_no: the SERVER decides which session is active (today or the
   // latest "Keep going"). The client never decides continuation allowance.
@@ -77,28 +85,53 @@ export default function Coach() {
     try {
       const r = await answerSender.recover(user.email, { tabId: TAB_ID, newRoundId: generateRoundId });
       setUnsavedOnDevice(!r.ok);
+      if (r.ok) setMemoryOnly(false);
       if (r.found && r.ok) await load();
     } finally { setRecovering(false); }
   }, [user?.email, load]);
   useEffect(() => { recover(); }, [recover]);
+  // Memory-only answers still unsent: ask the browser to confirm before the tab closes or reloads.
+  useEffect(() => {
+    if (!memoryOnly || !user?.email) return;
+    const warn = (e) => { if (answerSender.unsentCount(user.email) > 0) { e.preventDefault(); e.returnValue = ""; } };
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
+  }, [memoryOnly, user?.email]);
 
   const persona = data?.coach?.persona || "vira";
   const color = COACH_COLORS[persona];
   const t = coachT(lang, persona);
   const deviceBanner = unsavedOnDevice ? (
     <div role="status" className="mb-3 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-4 py-3 flex items-center justify-between gap-3">
-      <p className="text-xs text-foreground">{t("save_pending")}</p>
+      <p className="text-xs text-foreground">{t(memoryOnly ? "save_pending_memory" : "save_pending")}</p>
       <button disabled={recovering} onClick={recover} className="neo-pill px-3 py-1.5 text-xs font-semibold shrink-0 select-none disabled:opacity-50">{t("retry")}</button>
     </div>) : null;
   // Leaving a running session sends any queued word answers FIRST (they are
   // real answers), then reloads so the plan reflects them. Nothing is invented.
+  // 5d (Tee, 30 Oct): Back during a run asks first ("Save and leave?"), then shows a
+  // saving state while it sends, so it never looks frozen. Completed items are saved
+  // with the session; the plan view then offers "Pick up where you left off".
+  // GPT audit 31 Oct: the flush result decides. On failure the sheet stays open with
+  // "Not saved yet" + Try again; "Leave anyway" keeps the answers queued on this device
+  // (answerBatches resends them, same round_ids) and the plan shows the not-saved banner.
+  const openLeave = (from = null) => { setLeaveFailed(false); setLeaveFrom(from); setLeaveOpen(true); };
+  const closeLeave = () => { setLeaveOpen(false); setLeaveFailed(false); setLeaveFrom(null); };
+  const saveAndLeave = async () => {
+    setBusy(true);
+    let ok = false;
+    try { ok = (await flushRef.current?.()) !== false; } catch { ok = false; }
+    if (!ok) { setMemoryOnly(!answerSender.durable(user?.email)); setBusy(false); setLeaveFailed(true); return; }
+    try { await load(); } finally { setBusy(false); closeLeave(); }
+    setView("plan");
+  };
+  const leaveAnyway = async () => {
+    setBusy(true);
+    try { await load(); } finally { setBusy(false); closeLeave(); }
+    setUnsavedOnDevice(true); // persistent "not saved yet" banner with Try again (recover)
+    setView("plan");
+  };
   const back = async () => {
-    if (view === "run") {
-      setBusy(true);
-      try { await flushRef.current?.(); await load(); } finally { setBusy(false); }
-      setView("plan");
-      return;
-    }
+    if (view === "run") { openLeave(); return; }
     if (view === "plan") navigate("/"); else setView("plan");
   };
   const mapBtn = data && view !== "map" ? (
@@ -140,7 +173,35 @@ export default function Coach() {
   if (view === "run") return (
     <Shell onBack={back}>
       <Session data={data} t={t} gc={gc} color={color} lang={lang} email={user?.email} flushRef={flushRef}
-        onFinished={async (summary) => { await load(); setLastRun(summary); setView("after"); }} />
+        onLeave={(from) => openLeave(from)}
+        onFinished={async (summary, run) => {
+          const d = await load();
+          // Recap (VT-40): labels AFTER the server has every answer (getMap), compared with
+          // the labels the plan had at the start. getMap failing only hides "moved up".
+          let recap = null;
+          try {
+            const map = await coachApi("getMap", {}).catch(() => null);
+            const ids = (run?.planItems || []).filter((i) => i.item_type === "word").map((i) => i.word_id);
+            const ws = await fetchWords(ids).catch(() => []);
+            recap = buildRecap({ ...run, map, session: d?.session, names: Object.fromEntries(ws.map((w) => [w.id, w.english])) });
+          } catch { recap = null; }
+          setLastRun({ ...summary, recap }); setView("after");
+        }} />
+      {leaveOpen && (
+        <div role="dialog" aria-modal="true" aria-labelledby="leave-title" className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/60 p-4"
+          onClick={() => { if (!busy) closeLeave(); }}>
+          <div className="premium-card rounded-[28px] p-6 w-full max-w-sm text-center" onClick={(e) => e.stopPropagation()}>
+            <h2 id="leave-title" className="text-lg font-bold text-foreground">{t(leaveFailed ? "leave_failed_title" : "leave_title")}</h2>
+            <p data-testid="leave-sub" className="text-sm text-muted-foreground mt-2">{t(leaveFailed ? (memoryOnly ? "leave_failed_sub_memory" : "leave_failed_sub") : "leave_sub")}</p>
+            {!leaveFailed && leaveFrom === "grammar" && <p data-testid="leave-grammar-note" className="text-xs text-amber-300/90 mt-2">{t("leave_grammar_note")}</p>}
+            <button disabled={busy} onClick={saveAndLeave} className="mt-5 w-full h-12 rounded-2xl font-semibold text-white flex items-center justify-center gap-2 select-none disabled:opacity-70" style={{ background: color }}>
+              {busy && <Loader2 className="w-4 h-4 animate-spin" />} {busy ? t("leaving") : t(leaveFailed ? "retry" : "leave_save")}
+            </button>
+            {leaveFailed && <button disabled={busy} onClick={leaveAnyway} className="neo-pill mt-3 w-full h-11 flex items-center justify-center text-sm font-semibold select-none disabled:opacity-50">{t(memoryOnly ? "leave_anyway_memory" : "leave_anyway")}</button>}
+            <button disabled={busy} onClick={closeLeave} className="neo-pill mt-3 w-full h-11 flex items-center justify-center text-sm font-semibold select-none disabled:opacity-50">{t("leave_stay")}</button>
+          </div>
+        </div>
+      )}
     </Shell>);
 
   const items = data.plan.items || [];
@@ -181,6 +242,7 @@ export default function Coach() {
         <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
         <h1 className="text-xl font-bold text-foreground">{t("done_title")}</h1>
         <p className="text-sm text-muted-foreground mt-2">{t(continuation.available ? "done_sub_more" : "done_sub")}</p>
+        {lastRun?.recap && (lastRun.recap.words + lastRun.recap.grammar) > 0 && <Recap r={lastRun.recap} t={t} color={color} />}
         {afterView === "done_partial" && <p className="text-xs text-amber-300/90 mt-3">{t("partial_note", { n: lastRun?.unavailable || 0 })}</p>}
         {continuation.available ? (
           <button disabled={busy} onClick={keepGoing} className="mt-6 w-full h-12 rounded-2xl font-semibold text-white flex items-center justify-center gap-2" style={{ background: color }}>
@@ -209,7 +271,9 @@ export default function Coach() {
       </div>
     </Shell>);
 
-  // 5. Today's plan.
+  // 5. Today's plan. 5d: a session already started today (minutes spent, not complete)
+  // reads as "Pick up where you left off" with what's done and what's left.
+  const { resuming, done: spentShown, left: leftShown } = resumeState(data.session);
   return (
     <Shell onBack={() => navigate("/")} right={mapBtn}>
       {deviceBanner}
@@ -222,7 +286,7 @@ export default function Coach() {
       </div>
       <div className="premium-card rounded-[28px] p-5">
         <div className="flex items-center justify-between mb-3">
-          <h1 className="text-lg font-bold text-foreground">{data.session.kind === "continuation" ? t("keep_going") : t("today_title")}</h1>
+          <h1 className="text-lg font-bold text-foreground">{resuming ? t("resume_title") : data.session.kind === "continuation" ? t("keep_going") : t("today_title")}</h1>
           <span className="text-xs text-muted-foreground flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{fmtMin(t, data.plan.minutes_planned)}</span>
         </div>
         <ul className="divide-y divide-white/5">
@@ -237,8 +301,9 @@ export default function Coach() {
           ))}
         </ul>
         <button onClick={() => { setLastRun(null); setView("run"); }} className="mt-4 w-full h-12 rounded-2xl font-semibold text-white flex items-center justify-center gap-2" style={{ background: color }}>
-          <Play className="w-4 h-4" /> {t("start")}
+          <Play className="w-4 h-4" /> {resuming ? t("resume") : t("start")}
         </button>
+        {resuming && <p className="text-[11px] text-muted-foreground text-center mt-2">{t("resume_sub", { done: spentShown, left: leftShown })}</p>}
       </div>
     </Shell>);
 }
@@ -320,11 +385,12 @@ function Onboarding({ data, t, color, onDone, onBack }) {
 
 // Runs the plan's items in order. Word answers are batched and sent as ONE
 // server-graded "quiz" round when the session moves to grammar or ends.
-function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
+function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeave }) {
   const items = data.plan.items || [];
   const sessionKey = data.session.session_key;
   const sessionLevel = data.session.learner_level || null; // "A1".."C1" | "unplaced" | null (legacy session)
   const [idx, setIdx] = useState(0);
+  const [sub, setSub] = useState(0); // 5d: progress WITHIN the current word (0..1), so the bar moves per question
   const [ready, setReady] = useState(null); // { kind, word?, questions?, grammarItems?, stage?, topicKey? }
   const [saveFailed, setSaveFailed] = useState(false); // end of session: answers could not be saved
   const [retrying, setRetrying] = useState(false);
@@ -334,6 +400,17 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   const outcomes = useRef({}); // item_key -> OUTCOME (see sessionOutcome.js)
   const completedWords = useRef(new Set()); // word item_keys whose questions were ALL answered
   const pool = useRef(null);
+  // VT-40 recap: what was actually answered in THIS run (word: right/total by item_key; grammar: round summary).
+  const results = useRef({ words: {}, grammar: {} });
+  // Recap baseline (GPT audit 31 Oct): the server's labels as THIS run starts. Kept only if it
+  // arrives before anything from this run is sent; otherwise the recap shows no progress lists.
+  const baseline = useRef(null);
+  const sentAny = useRef(false);
+  useEffect(() => {
+    let alive = true;
+    coachApi("getMap", {}).then((m) => { if (alive && !sentAny.current) baseline.current = m; }).catch(() => {});
+    return () => { alive = false; };
+  }, []);
 
   // Sends queued word answers. Answers for words the learner FINISHED go with
   // the Coach session_key (Coach credit, session minutes). Answers for a word
@@ -345,6 +422,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   // Resolves true when nothing is left unsent.
   const flush = useCallback(() => {
     if (!email) return Promise.resolve(false);
+    if (pending.current.length) sentAny.current = true;
     return answerSender.flush({ email, entries: pending.current.splice(0), completed: completedWords.current, sessionKey, newRoundId: generateRoundId, tabId: TAB_ID });
   }, [email, sessionKey]);
   // Every answer is also kept on the device until it becomes a round (reload recovery).
@@ -356,7 +434,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   // save still fails after one automatic retry, show a save error with Try again,
   // never a Done screen (src/lib/coach/answerBatches.js finishWithSave).
   const finish = useCallback(async () => {
-    const result = await finishWithSave({ flush, onDone: () => onFinished(summarise(outcomes.current)) });
+    const result = await finishWithSave({ flush, onDone: () => onFinished(summarise(outcomes.current), { planItems: items, baseline: baseline.current, ...results.current }) });
     if (result === "failed") setSaveFailed(true);
   }, [flush, onFinished]);
   // Mid-session save (before a grammar step): a failure is shown as a banner with
@@ -370,6 +448,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
   // (same round_id), shown in the banner, and retried by every later save and at the end.
   const saveGrammar = useCallback(async (payload) => {
     if (!email) return false;
+    sentAny.current = true;
     const ok = await answerSender.flush({ email, rounds: [payload] });
     setUnsaved(!ok);
     return ok;
@@ -406,6 +485,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
       // Unmount the finished item FIRST, so nothing can be answered (or
       // submitted) twice while the next step loads or the last round saves.
       setReady(null);
+      setSub(0);
       if (!it) {
         if (finishing.current) return;
         finishing.current = true;
@@ -455,7 +535,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         <span className="text-xs text-muted-foreground">{data.session.kind === "continuation" ? t("keep_going") : t("today_title")}</span>
       </div>
       <div className="h-1 rounded-full bg-white/10 mb-5 overflow-hidden">
-        <motion.div className="h-full rounded-full" style={{ background: color }} animate={{ width: `${(idx / Math.max(1, items.length)) * 100}%` }} />
+        <motion.div className="h-full rounded-full" style={{ background: color }} animate={{ width: `${((idx + sub) / Math.max(1, items.length)) * 100}%` }} />
       </div>
       {unsaved && !saveFailed && (
         <div role="status" className="mb-3 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-4 py-3 flex items-center justify-between gap-3">
@@ -475,15 +555,53 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef }) {
         <div className="premium-card rounded-[28px] p-10 text-center"><BrandLoader size={48} className="mx-auto" /></div>
       ) : ready.kind === "word" ? (
         <CoachWordCheck key={`w${idx}`} word={ready.word} questions={ready.questions} intro={ready.intro} color={color} t={t}
-          onAnswer={(w, q, given, { tapped } = {}) => { pending.current.push({ key: ready.key, ev: evidenceItem(w, q, given, ready.intro || tapped ? { support: "hint" } : undefined) }); stage(); }} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
+          onProgress={(k, n) => setSub(n > 0 ? Math.min(1, k / n) : 0)}
+          onAnswer={(w, q, given, { tapped } = {}) => {
+            const ev = evidenceItem(w, q, given, ready.intro || tapped ? { support: "hint" } : undefined);
+            pending.current.push({ key: ready.key, ev }); stage();
+            const r = results.current.words[ready.key] || { right: 0, total: 0 };
+            results.current.words[ready.key] = { right: r.right + (ev.correct ? 1 : 0), total: r.total + 1 };
+          }} onDone={() => finishItem(ready.key, OUTCOME.COMPLETED)} />
       ) : (
         <PracticeRunner key={`g${idx}`} items={ready.grammarItems} stage={ready.stage} topicKey={ready.topicKey} size={ready.size}
           c={gc} coachSessionKey={sessionKey} onSave={saveGrammar}
-          onFinish={() => finishItem(ready.key, OUTCOME.COMPLETED)}
-          onExit={() => finishItem(ready.key, OUTCOME.LEFT)} />
+          onFinish={(sum) => { if (sum?.total) results.current.grammar[ready.key] = { correct: sum.correct, total: sum.total }; finishItem(ready.key, OUTCOME.COMPLETED); }}
+          onExit={() => finishItem(ready.key, OUTCOME.LEFT)}
+          onLeave={() => onLeave?.("grammar")} />
       )}
     </div>
   );
+}
+
+// VT-40 session recap (Tee, 30 Oct): what this run did, from real answers + the server's map.
+function Recap({ r, t, color }) {
+  const stats = [
+    r.words ? [r.words, t("recap_words")] : null,
+    r.grammar ? [r.grammar, t("recap_grammar")] : null,
+    r.accuracy !== null ? [`${r.accuracy}%`, t("recap_accuracy")] : null,
+    r.minutes ? [r.minutes, t("recap_minutes")] : null,
+  ].filter(Boolean);
+  const nameOf = (i) => (i.key.startsWith("grammar:") ? humanTopic(i.key) : i.name);
+  const Row = ({ title, list, render }) => list.length ? (
+    <div className="mt-4 text-left">
+      <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-2">{title} · {list.length}</p>
+      <div className="flex flex-wrap gap-2">{list.map((i) => <span key={i.key} className="rounded-full px-3 py-1.5 text-xs bg-white/5 border border-white/10 text-foreground">{render(i)}</span>)}</div>
+    </div>) : null;
+  return (
+    <div data-testid="recap" className="mt-6 text-left">
+      <p className="text-[11px] font-semibold uppercase tracking-wider mb-2" style={{ color }}>{t("recap_title")}</p>
+      <div className={`grid gap-2 ${stats.length >= 4 ? "grid-cols-4" : stats.length === 3 ? "grid-cols-3" : "grid-cols-2"}`}>
+        {stats.map(([v, l]) => (
+          <div key={l} className="rounded-2xl bg-white/[0.04] border border-white/10 px-2 py-3 text-center">
+            <p className="text-lg font-bold text-foreground tabular-nums">{v}</p>
+            <p className="text-[10px] text-muted-foreground mt-0.5 truncate">{l}</p>
+          </div>))}
+      </div>
+      <Row title={t("recap_moved")} list={r.moved} render={(i) => <>{nameOf(i)} <span className="text-muted-foreground">{t(labelKey(i.from))} → </span><span style={{ color }}>{t(labelKey(i.to))}</span></>} />
+      <Row title={t("recap_learned")} list={r.learned} render={(i) => <>{nameOf(i)} <span style={{ color }}>· {t(labelKey(i.to))}</span></>} />
+      <Row title={t("recap_again")} list={r.again} render={nameOf} />
+      {r.hasMap && !r.moved.length && !r.learned.length && <p className="text-xs text-muted-foreground mt-4 text-center">{t("recap_none")}</p>}
+    </div>);
 }
 
 function LearnerMap({ t, color }) {

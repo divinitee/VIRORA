@@ -72,6 +72,7 @@ export function createAnswerStore(storage, { now = () => Date.now() } = {}) {
   const empty = () => ({ v: 1, rounds: [], pending: {}, claimed: {} });
   return {
     now,
+    available: !!storage, // false: no device copy at all (private mode / blocked storage)
     read(email) {
       try {
         const d = JSON.parse(storage?.getItem(key(email)) || "null");
@@ -80,8 +81,9 @@ export function createAnswerStore(storage, { now = () => Date.now() } = {}) {
     },
     write(email, d) {
       try {
-        if (!d.rounds.length && !Object.keys(d.pending).length && !Object.keys(d.claimed || {}).length) storage?.removeItem(key(email));
-        else storage?.setItem(key(email), JSON.stringify(d));
+        if (!storage) return false; // nothing was written anywhere: memory only
+        if (!d.rounds.length && !Object.keys(d.pending).length && !Object.keys(d.claimed || {}).length) storage.removeItem(key(email));
+        else storage.setItem(key(email), JSON.stringify(d));
         return true;
       } catch { return false; /* storage unavailable: memory only */ }
     },
@@ -101,13 +103,17 @@ export function createAnswerSender(submit, { store = null } = {}) {
   const inflight = []; // being sent right now: still persisted until confirmed
   let chain = Promise.resolve();
   const now = () => (store ? store.now() : Date.now());
+  // GPT audit 31 Oct (22:45): whether the LAST device write for this account succeeded.
+  // false = the unsent answers exist only in this tab's memory (closing it loses them).
+  const lastWrite = new Map();
+  const write = (email, d) => { const ok = store.write(email, d); lastWrite.set(email, ok); return ok; };
   // The stored rounds are always exactly: in flight + unsent, for that account.
   function persistRounds(email, mutatePending) {
     if (!store) return;
     const d = store.read(email);
     d.rounds = [...inflight, ...unsent].filter((r) => r.email === email).map((r) => ({ payload: r.payload, at: r.at }));
     if (mutatePending) mutatePending(d.pending);
-    store.write(email, d);
+    write(email, d);
   }
   async function sendAll(email) {
     const mine = [];
@@ -142,7 +148,7 @@ export function createAnswerSender(submit, { store = null } = {}) {
         const d = store.read(email);
         d.rounds = [...inflight, ...unsent].filter((r) => r.email === email).map((r) => ({ payload: r.payload, at: r.at }));
         if (tabId) { delete d.pending[tabId]; delete d.claimed[tabId]; }
-        store.write(email, d);
+        write(email, d);
       }
       return run(email);
     },
@@ -156,7 +162,7 @@ export function createAnswerSender(submit, { store = null } = {}) {
       if (taken) { entries.splice(0, taken); delete d.claimed[tabId]; }
       if (entries.length) d.pending[tabId] = { session_key: sessionKey, entries, completed: [...completed], touched_at: now() };
       else delete d.pending[tabId];
-      store.write(email, d);
+      write(email, d);
     },
     /**
      * After a reload: requeue stored rounds (same round_id) and turn this tab's (or an
@@ -192,7 +198,7 @@ export function createAnswerSender(submit, { store = null } = {}) {
         const d2 = store.read(email);
         for (const [tid, v] of Object.entries(d2.claimed || {})) if (t - (Number(v?.at) || 0) > MAX_AGE_MS) delete d2.claimed[tid];
         Object.assign(d2.claimed, tombstones);
-        store.write(email, d2);
+        write(email, d2);
       }
       // found = rounds waiting for this account, including ones already queued in this page
       // (a Try again after a failed recovery must still report them, so the plan reloads).
@@ -200,6 +206,8 @@ export function createAnswerSender(submit, { store = null } = {}) {
       if (!found) return Promise.resolve({ found: 0, ok: true });
       return run(email).then((ok) => ({ found, ok }));
     },
+    /** true when this account's unsent answers are also kept on the device (they survive closing the tab). */
+    durable: (email) => !!store && store.available !== false && lastWrite.get(email) !== false,
     unsentCount: (email) => [...inflight, ...unsent].filter((r) => !email || r.email === email).length,
   };
 }

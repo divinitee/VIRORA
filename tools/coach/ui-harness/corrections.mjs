@@ -74,10 +74,11 @@ for (const m of [10, 15, 20]) {
   await onboard(p);
   await p.getByRole("button", { name: /Start/ }).click();
   await p.getByRole("button", { name: /^Got it$/ }).click();       // weak word: word card first (since 14 Oct)
-  await p.getByText("What does it mean?").waitFor();
+  await p.getByText(/What does it mean\?|Which English word\?|Which word matches this definition\?|Which definition fits this word\?|Fill the gap|Type the English word|Type the missing word/).first().waitFor(); // 5c: A1/EN asks "Which definition fits this word?"
   await p.locator(".premium-card .grid button").first().click();   // 1 of 5 questions answered (queued, unsent)
   await p.getByRole("button", { name: "Back" }).click();
-  await p.getByRole("button", { name: /Start/ }).waitFor({ timeout: 8000 });
+  await p.getByRole("button", { name: "Save & leave" }).click();     // 5d: Back asks "Save and leave?" first
+  await p.getByRole("button", { name: /^(Start|Continue)$/ }).waitFor({ timeout: 8000 });
   const L = await log(p);
   const iBack = L.findIndex((e) => e.kind === "submit:start");
   const sub = L[iBack];
@@ -94,9 +95,12 @@ for (const m of [10, 15, 20]) {
 { const p = await open("start=/coach&scenario=normal");
   await onboard(p);
   await p.getByRole("button", { name: /Start/ }).click();
-  await p.getByRole("button", { name: /^Got it$/ }).click();       // weak word: word card, then 5 questions
-  for (let k = 0; k < 5; k++) {
-    await p.getByText(/What does it mean\?|Which English word\?|Which word matches this definition\?|Fill the gap|Type the English word/).first().waitFor();
+  await p.getByRole("button", { name: /^Got it$/ }).click();       // weak word: word card, then its questions
+  // 5c: no question kind repeats, so the count comes from the per-word counter ("1/3"), not a fixed 5.
+  await p.getByTestId("word-q-count").waitFor();
+  const nQ = Number(((await p.getByTestId("word-q-count").textContent()) || "").split("/")[1]);
+  for (let k = 0; k < nQ; k++) {
+    await p.getByTestId("word-q-count").waitFor();
     const input = p.locator(".premium-card input");
     if (await input.isVisible().catch(() => false)) { await input.fill("apple"); await p.getByRole("button", { name: /^Check$/ }).click(); }
     else await p.locator(".premium-card .grid button").first().click();
@@ -104,9 +108,10 @@ for (const m of [10, 15, 20]) {
   }
   await p.locator("button:has(span:text-is('A'))").first().waitFor({ timeout: 8000 });
   await p.getByRole("button", { name: "Back" }).click();
-  await p.getByRole("button", { name: /Start/ }).waitFor({ timeout: 8000 });
+  await p.getByRole("button", { name: "Save & leave" }).click();     // 5d: Back asks "Save and leave?" first
+  await p.getByRole("button", { name: /^(Start|Continue)$/ }).waitFor({ timeout: 8000 });
   const subs = (await log(p)).filter((e) => e.kind === "submit:start");
-  ok("finished word -> its 5 answers sent WITH the session_key (before grammar); Back sends nothing extra", subs.length === 1 && subs[0].detail.n === 5 && subs[0].detail.session_key === "2026-10-08:today:0", JSON.stringify(subs.map((e) => e.detail)));
+  ok(`finished word -> all ${nQ} of its answers sent WITH the session_key (before grammar); Back sends nothing extra`, nQ >= 2 && subs.length === 1 && subs[0].detail.n === nQ && subs[0].detail.session_key === "2026-10-08:today:0", JSON.stringify(subs.map((e) => e.detail)));
   ok("finished word no longer in the plan; unfinished items remain", !(await vis(p, "apple")) && await vis(p, "bread"));
   await p.close(); }
 

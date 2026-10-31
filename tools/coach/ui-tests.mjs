@@ -1,5 +1,5 @@
 // Stage 3 pure UI helpers: node --experimental-strip-types tools/coach/ui-tests.mjs
-import { buildWordQuestions as buildRaw, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, wordCard as wordCardRaw, showsWordCard, contextMeaningShown, CONTEXT_MEANING_LEVELS } from "../../src/lib/coach/wordCheck.js";
+import { buildWordQuestions as buildRaw, evidenceItem, grammarPath, stageForDepth, WORD_QUESTIONS, definitionFor, contextFor, spellingHint, isOneLetterOff, wordCard as wordCardRaw, showsWordCard, contextMeaningShown, CONTEXT_MEANING_LEVELS } from "../../src/lib/coach/wordCheck.js";
 // VT-40 5c: questions now follow the LEARNER's level. These Stage 3 tests exercise the
 // translation path (multiple_choice / recall / native spelling), i.e. an A1 learner with
 // uz/ru; the level-gated behaviour has its own tests in tools/coach/coach-5c-tests.mjs.
@@ -136,13 +136,21 @@ console.log("\n=== Word workout: meaning, recall, definition, context, spelling 
   ok("a definition containing the word (or a form of it) is never used", definitionFor({ english: "environment", cefr: "A2", def_a2: "Environmental things.", english_definition: "The world around us." }) === "The world around us.");
   ok("spelling: native prompt, letter-count hint, no options", sp.prompt === "atrof-muhit" && sp.hint === "e__________" && !sp.options && sp.type === "spelling");
   ok("spelling evidence is graded like the server (letters only, any case)", evidenceItem(env, sp, " Environment").correct === true && evidenceItem(env, sp, "enviroment").correct === false && evidenceItem(env, sp, "x").type === "spelling");
+  ok("one-letter insertions, deletions and substitutions are identified for feedback", isOneLetterOff("appl", "apple") && isOneLetterOff("applee", "apple") && isOneLetterOff("apxle", "apple"));
+  ok("exact matches, empty answers and two-letter errors are not near misses", !isOneLetterOff("apple", "apple") && !isOneLetterOff("", "apple") && !isOneLetterOff("apxme", "apple"));
+  ok("a one-letter spelling typo still stays incorrect evidence", evidenceItem(env, sp, "enviroment").correct === false);
+  ok("two neighbouring letters swapped is a near miss (recieve, aplpe)", isOneLetterOff("recieve", "receive") && isOneLetterOff("aplpe", "apple"));
+  ok("a swap of letters that are NOT neighbours is not", !isOneLetterOff("lppae", "apple"));
+  ok("words under 4 letters never get 'Almost' (hat for cat is another word)", !isOneLetterOff("hat", "cat") && !isOneLetterOff("g", "go") && isOneLetterOff("bok", "book"));
+  ok("multi-word answers: spaces ignored like the grader", isOneLetterOff("carbon footprnt", "carbon footprint"));
+  ok("a swapped-letter answer is still incorrect evidence", evidenceItem(env, sp, "envrionment").correct === false && isOneLetterOff("envrionment", "environment"));
   ok("no definition/example -> meaning/recall fill in, never empty, never a repeated kind (5c)", buildWordQuestions(target, pool, { depth: "probe", lang: "uz", rnd }).map((q) => q.kind).join() === "meaning,recall");
   ok("the word twice in the example -> no context question", contextFor({ english: "go", example_en: "Go, go now." }) === "");
   ok("inflected only (exploded) -> no context question", contextFor({ english: "explode", example_en: "The old factory exploded at night." }) === "");
   ok("not typeable (etc.) -> no spelling; multiword hint keeps the space", spellingHint("etc.") === "" && spellingHint("carbon footprint") === "c_____ f________");
   const card = wordCard(env, "ru");
   ok("weak-word card: word, learner's translation, definition, example", card.english === "environment" && card.native === "окружающая среда" && !!card.definition && !!card.example);
-  for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`copy for the new question types (${lang})`, ["q_definition", "q_context", "q_spelling", "check", "answer", "word_card", "got_it", "min_short"].every((k) => t(k) && t(k) !== k)); }
+  for (const lang of ["en", "uz", "ru"]) { const t = coachT(lang, "vira"); ok(`copy for the new question types (${lang})`, ["q_definition", "q_context", "q_spelling", "check", "answer", "almost", "word_card", "got_it", "min_short"].every((k) => t(k) && t(k) !== k)); }
 }
 console.log("\n=== Answer batching: <= 50 per round, one word per round, failed rounds retried (audit finding 1) ===");
 {
@@ -312,6 +320,27 @@ console.log("\n=== A1-A2 context questions show the meaning under the gap (15 Oc
   ok("only context questions get it (not definition/meaning/recall/spelling)", all.filter((q) => q.meaning).every((q) => q.kind === "context") && all.some((q) => q.kind === "definition" && !q.meaning));
   const q = ctxOf("A1", "uz");
   ok("the answer is still graded on the English word, untagged (no hint flag)", !("support" in evidenceItem(mk("A1"), q, q.correct)) && evidenceItem(mk("A1"), q, q.correct).correct === true);
+}
+console.log("GPT audit 31 Oct (22:45): memory-only fallback is reported, never called 'kept on this device'");
+{
+  const mem = () => { const m = new Map(); return { getItem: (k) => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)), removeItem: (k) => m.delete(k) }; };
+  const pay = (id) => ({ round_id: id, game: "quiz", items: [{ word_id: "w" }] });
+  const fail = async () => null;
+  const good = createAnswerSender(fail, { store: createAnswerStore(mem()) });
+  await good.flush({ email: "a@x", rounds: [pay("r1")] });
+  ok("working storage + failed save -> durable (answers really are on the device)", good.durable("a@x") === true && good.unsentCount("a@x") === 1);
+  const none = createAnswerSender(fail, { store: createAnswerStore(null) });
+  await none.flush({ email: "a@x", rounds: [pay("r1")] });
+  ok("no storage at all (private mode) -> NOT durable, answer still queued in memory", none.durable("a@x") === false && none.unsentCount("a@x") === 1);
+  const quota = { getItem: () => null, setItem: () => { throw new Error("QuotaExceededError"); }, removeItem: () => {} };
+  const full = createAnswerSender(fail, { store: createAnswerStore(quota) });
+  await full.flush({ email: "a@x", rounds: [pay("r1")] });
+  ok("storage present but the write fails (quota) -> NOT durable", full.durable("a@x") === false);
+  ok("no store passed -> NOT durable", createAnswerSender(fail).durable("a@x") === false);
+  ok("createAnswerStore(null).write reports false (it used to report a save that never happened)", createAnswerStore(null).write("a@x", { rounds: [pay("r")], pending: {}, claimed: {} }) === false);
+  let up = false; const flaky = createAnswerSender(async () => (up ? { ok: true } : null), { store: createAnswerStore(null) });
+  await flaky.flush({ email: "a@x", rounds: [pay("r1")] }); up = true;
+  ok("memory-only answers are still retried in this tab and saved once back online", (await flaky.flush({ email: "a@x" })) === true && flaky.unsentCount("a@x") === 0);
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 

@@ -53,7 +53,9 @@ ok("A2/UZ meaning = definition_choice on def_a2", (() => { const q = a2.find((x)
 ok("A2/UZ: the translation is never in a prompt, option or inline hint", a2.every((q) => !UZ.test(q.prompt) && !(q.options || []).some((o) => UZ.test(o)) && !("meaning" in q)));
 ok("A2/UZ: it is available as tapNative (hidden until tapped)", a2.some((q) => q.tapNative === "vazn, og'irlik"));
 ok("A2/UZ weak-word card: tap only, not inline", wordCard(word, "uz", "A2").tapNative === "vazn, og'irlik" && !("native" in wordCard(word, "uz", "A2")));
-ok("A2/UZ spelling prompt = def_a2 (English)", a2.find((q) => q.type === "spelling")?.prompt === word.def_a2);
+// 5d + GPT audit 31 Oct: A2 already saw def_a2 as the definition_choice key. Spelling stays a DEFINITION
+// prompt (5c: no sentence form below B1) from A2's own chain: def_a2 -> english_definition.
+ok("A2/UZ spelling: definition form, English, not the def_a2 just shown, from A2's chain (english_definition)", (() => { const sp = a2.find((q) => q.type === "spelling"); return sp && sp.promptForm === "definition" && sp.prompt === word.english_definition && !UZ.test(sp.prompt); })());
 ok("a tapped answer is tagged as hinted", evidenceItem(word, a2[0], a2[0].correct, { support: "hint" }).support === "hint");
 
 console.log("B1+ spelling: mixed definition / sentence, stable on reload, C1 no first letter");
@@ -62,9 +64,10 @@ ok("no alternative sentence when description == example_en", altSentenceFor({ ..
 ok("no alternative sentence when the headword appears twice", altSentenceFor({ ...word, description: "weight and weight again" }) === "");
 const forms = new Set();
 for (let i = 0; i < 40; i++) {
-  const s = buildWordQuestions(word, pool, { depth: "brushup", lang: "en", learnerLevel: "B2", sessionId: `sess-${i}`, rnd }).find((q) => q.type === "spelling");
+  // definitionChoice:false -> no definition is shown before spelling, so the hash alone picks the form (5d dedupe not triggered).
+  const s = buildWordQuestions(word, pool, { depth: "brushup", lang: "en", learnerLevel: "B2", sessionId: `sess-${i}`, definitionChoice: false, rnd }).find((q) => q.type === "spelling");
   forms.add(s.promptForm);
-  const again = buildWordQuestions(word, pool, { depth: "brushup", lang: "en", learnerLevel: "B2", sessionId: `sess-${i}`, rnd }).find((q) => q.type === "spelling");
+  const again = buildWordQuestions(word, pool, { depth: "brushup", lang: "en", learnerLevel: "B2", sessionId: `sess-${i}`, definitionChoice: false, rnd }).find((q) => q.type === "spelling");
   if (again.promptForm !== s.promptForm || again.prompt !== s.prompt) forms.add("UNSTABLE");
 }
 ok("both forms appear across sessions; never changes on reload", forms.has("sentence") && forms.has("definition") && !forms.has("UNSTABLE"), [...forms].join());

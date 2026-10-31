@@ -26,6 +26,16 @@ async function newPage() {
   await page.getByRole("button", { name: /Start/ }).waitFor();
   return { ctx, page };
 }
+// 5c: a word now asks only the question kinds it can (no repeats), so "finish the word"
+// answers until the word check is gone instead of assuming exactly 5 questions.
+async function finishWord(p) {
+  for (let k = 0; k < 8; k++) {
+    const grammar = await p.locator("button:has(span:text-is('A'))").first().isVisible().catch(() => false);
+    const wordQ = await p.locator("[data-testid='word-q-count'], .premium-card input, .premium-card .grid button").first().isVisible().catch(() => false);
+    if (grammar || !wordQ) return;
+    await answerOne(p);
+  }
+}
 async function answerOne(p) {
   const input = p.locator(".premium-card input");
   if (await input.isVisible().catch(() => false)) { await input.fill("apple"); await p.getByRole("button", { name: /^Check$/ }).click(); }
@@ -58,7 +68,7 @@ async function answerOne(p) {
   await page.evaluate(() => sessionStorage.setItem("__offline", "quiz"));
   await page.getByRole("button", { name: /Start/ }).click();
   await page.getByRole("button", { name: /^Got it$/ }).click();
-  for (let k = 0; k < 5; k++) await answerOne(page);                     // word finished -> save before grammar fails
+  await finishWord(page);                     // word finished -> save before grammar fails
   await page.getByText(PENDING).first().waitFor({ timeout: 5000 }).catch(() => {});
   const failedIds = await page.evaluate(() => window.__log.filter((e) => e.kind === "submit:fail").map((e) => e.detail.round_id));
   ok("B: offline -> the finished word's save failed (banner in the session)", failedIds.length >= 1 && await vis(page, PENDING), JSON.stringify(failedIds));
@@ -74,11 +84,11 @@ async function answerOne(p) {
   const s = await state(page);
   await page.screenshot({ path: `${OUT}/reload-B-recovered.png`, fullPage: true });
   const q = s.submits.filter((x) => x.game === "quiz");
-  ok("B: back online -> Try again saves the word WITH Coach credit and its ORIGINAL round_id", q.length === 1 && q[0].n === 5 && q[0].key === "2026-10-08:today:0" && failedIds.includes(q[0].id), JSON.stringify({ q, failedIds }));
+  ok("B: back online -> Try again saves the word WITH Coach credit and its ORIGINAL round_id", q.length === 1 && q[0].n === 3 && q[0].key === "2026-10-08:today:0" && failedIds.includes(q[0].id) /* 5c: apple asks 3 kinds, no repeats */, JSON.stringify({ q, failedIds }));
   ok("B: the saved word left the plan and the banner is gone", !(await vis(page, "apple")) && !(await vis(page, PENDING)) && s.done.includes("word:v1:0"));
 
   // ---- C. the rest of the session, then Done ----
-  await page.getByRole("button", { name: /Start/ }).click();
+  await page.getByRole("button", { name: /^(Start|Continue)$/ }).click(); // 5d: a started session resumes with "Continue"
   for (let step = 0; step < 60; step++) {
     await page.waitForTimeout(150);
     if (await page.getByRole("button", { name: /Keep going/ }).isVisible().catch(() => false)) break;

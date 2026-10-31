@@ -29,7 +29,7 @@ const TYPE_OF = { meaning: "multiple_choice", recall: "translation", definition:
 // When a kind has no usable content for this word, try these instead (in order).
 const FALLBACK = { definition: ["context", "recall", "meaning"], context: ["definition", "recall", "meaning"], spelling: ["recall", "meaning"], meaning: ["recall"], recall: ["meaning"] };
 
-import { resolveWordContent, definitionForLearner, spellingPromptForm, showsFirstLetter, revealsHeadword, normLevel } from "./languageGate.js";
+import { resolveWordContent, definitionForLearner, definitionChain, spellingPromptForm, showsFirstLetter, revealsHeadword, normLevel } from "./languageGate.js";
 
 /** Kept for callers that only need the field name; English has NO native field (never "uzbek"). */
 export const nativeKeyFor = (lang) => (lang === "ru" ? "russian" : lang === "uz" ? "uzbek" : null);
@@ -47,6 +47,32 @@ const esc = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const clean = (s) => String(s || "").trim();
 /** Letters only, lower-case: the same comparison as the server's gradeSpelling. */
 export const spellKey = (s) => String(s || "").replace(/[^a-zA-Z]/g, "").toLowerCase();
+
+/**
+ * Feedback only ("Almost!"): the answer is still graded wrong, here and on the server.
+ * True when a non-empty answer is one insert/delete/replace away, or two neighbouring
+ * letters swapped ("recieve"), from a word of 4+ letters. Shorter words are excluded:
+ * one letter off there is usually another word ("hat" for "cat"), not a typo.
+ */
+export const ALMOST_MIN_LETTERS = 4;
+export function isOneLetterOff(given, expected) {
+  const a = spellKey(given), b = spellKey(expected);
+  if (!a || !b || a === b || b.length < ALMOST_MIN_LETTERS || Math.abs(a.length - b.length) > 1) return false;
+  if (a.length === b.length) {
+    const diff = [...a].map((c, k) => (c !== b[k] ? k : -1)).filter((k) => k >= 0);
+    if (diff.length === 2 && diff[1] === diff[0] + 1 && a[diff[0]] === b[diff[1]] && a[diff[1]] === b[diff[0]]) return true;
+  }
+  let i = 0, j = 0, edits = 0;
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) { i++; j++; continue; }
+    if (++edits > 1) return false;
+    if (a.length === b.length) { i++; j++; }
+    else if (a.length < b.length) j++;
+    else i++;
+  }
+  if (i < a.length || j < b.length) edits++;
+  return edits === 1;
+}
 
 /** A level-appropriate English definition that doesn't contain the word itself (or a form of it). */
 export function definitionFor(word) {
@@ -208,9 +234,29 @@ export function buildWordQuestions(word, pool, { depth, lang, learnerLevel = nul
     used.add(pick); kinds.push(pick);
   }
   if (!kinds.length) return [];
+  // 5d (30 Oct play-test): the definition-form spelling prompt must not repeat a definition
+  // this word ALREADY showed in this check (definition_choice key or match-the-definition
+  // prompt), or recall is just copying. GPT audit 31 Oct: alternatives must stay inside the
+  // learner's locked rules (5c):
+  //   - the sentence form only where 5c allows it (B1 and above);
+  //   - another definition only from the learner's own chain (own tier -> one below -> english_definition);
+  //   - otherwise keep the definition (rare: one usable definition and no permitted sentence).
+  let spellForm = form, spellText = spellPrompt;
+  const shownDefs = new Set();
+  if (kinds.includes("meaning") && meaningIsDefChoice && keyDef.text) shownDefs.add(norm(keyDef.text));
+  if (kinds.includes("definition") && res.definition) shownDefs.add(norm(res.definition));
+  if (kinds.includes("spelling") && spellForm === "definition" && shownDefs.has(norm(spellText))) {
+    const sentenceAllowed = ["B1", "B2", "C1"].includes(level);
+    if (sentenceAllowed && alt) { spellForm = "sentence"; spellText = alt; }
+    else {
+      const other = definitionChain(level).map((f) => clean(word[f]))
+        .find((d) => d && !shownDefs.has(norm(d)) && !revealsHeadword(d, word.english));
+      if (other) spellText = other;
+    }
+  }
   const english = (picks) => shuffle([word.english, ...picks.map((w) => w.english)], rnd);
   return kinds.map((kind) => {
-    if (kind === "spelling") return { type: "spelling", kind, prompt: spellPrompt, promptForm: form, hint, correct: word.english };
+    if (kind === "spelling") return { type: "spelling", kind, prompt: spellText, promptForm: spellForm, hint, correct: word.english };
     if (kind === "meaning" && meaningIsDefChoice) return { type: "definition_choice", kind, prompt: word.english, options: shuffle([keyDef.text, ...defOpts], rnd), correct: keyDef.text, ...(mode === "tap" && res.translation ? { tapNative: res.translation } : {}) };
     const picks = pick3(others);
     if (kind === "meaning") return { type: "multiple_choice", kind, prompt: word.english, options: shuffle([native(word), ...picks.map(native)], rnd), correct: native(word) };
