@@ -10,6 +10,7 @@ import { InputOTP, InputOTPGroup, InputOTPSlot } from "@/components/ui/input-otp
 import GoogleIcon from "@/components/GoogleIcon";
 import { toast } from "@/components/ui/use-toast";
 import { useAppLang } from "@/hooks/useAppLang";
+import SignupConsent, { consentError } from "@/components/legal/SignupConsent";
 import { APP_LANGS } from "@/i18n/translations";
 import { LEVELS } from "@/lib/levels";
 import { setUserLevel } from "@/lib/levelStore";
@@ -229,6 +230,8 @@ export default function Register() {
   const [heardAbout, setHeardAbout] = useState("");
   const [heardDetail, setHeardDetail] = useState("");
   const [error, setError] = useState("");
+  const [consentTerms, setConsentTerms] = useState(false);
+  const [consentData, setConsentData] = useState(false);
   const [loading, setLoading] = useState(false);
   const [otpCode, setOtpCode] = useState("");
 
@@ -281,6 +284,7 @@ export default function Register() {
   const handleSubmit = async () => {
     setError("");
     if (password !== confirmPassword) { setError(s.pwdMismatch); return; }
+    if (!consentTerms || !consentData) { setError(consentError(lang)); return; }
     setLoading(true);
     try {
       await base44.auth.register({ email, password });
@@ -741,6 +745,8 @@ export default function Register() {
                       </div>
                     )}
                   </div>
+                  <SignupConsent lang={lang} terms={consentTerms} data={consentData}
+                    onTerms={(v) => { setConsentTerms(v); setError(""); }} onData={(v) => { setConsentData(v); setError(""); }} />
                   <NavButtons
                     onBack={back} onNext={handleSubmit} nextLabel={s.create} backLabel={s.back}
                     loading={loading} loadingLabel={s.creating} disabled={!canNext()}

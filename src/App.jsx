@@ -14,6 +14,9 @@ import Register from '@/pages/Register';
 import ForgotPassword from '@/pages/ForgotPassword';
 import ResetPassword from '@/pages/ResetPassword';
 import Home from '@/pages/Home';
+import Terms from '@/pages/Terms';
+import Privacy from '@/pages/Privacy';
+import TeacherPayouts from '@/pages/TeacherPayouts';
 import Quiz from '@/pages/Quiz';
 import TeacherDashboard from '@/pages/TeacherDashboard';
 import TeacherMaterials from '@/pages/TeacherMaterials';
@@ -85,6 +88,8 @@ const AuthenticatedApp = () => {
       <Route path="/register" element={<Register />} />
       <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/reset-password" element={<ResetPassword />} />
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/privacy" element={<Privacy />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/landing" element={<Landing />} />
@@ -96,6 +101,7 @@ const AuthenticatedApp = () => {
         <Route path="/teacher" element={<TeacherDashboard />} />
         <Route path="/teacher/materials" element={<TeacherMaterials />} />
         <Route path="/teacher/skill-hub" element={<TeacherSkillHub />} />
+        <Route path="/teacher/payouts" element={<TeacherPayouts />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/achievements" element={<Achievements />} />
