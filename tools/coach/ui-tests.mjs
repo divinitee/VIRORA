@@ -313,6 +313,27 @@ console.log("\n=== A1-A2 context questions show the meaning under the gap (15 Oc
   const q = ctxOf("A1", "uz");
   ok("the answer is still graded on the English word, untagged (no hint flag)", !("support" in evidenceItem(mk("A1"), q, q.correct)) && evidenceItem(mk("A1"), q, q.correct).correct === true);
 }
+console.log("GPT audit 31 Oct (22:45): memory-only fallback is reported, never called 'kept on this device'");
+{
+  const mem = () => { const m = new Map(); return { getItem: (k) => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)), removeItem: (k) => m.delete(k) }; };
+  const pay = (id) => ({ round_id: id, game: "quiz", items: [{ word_id: "w" }] });
+  const fail = async () => null;
+  const good = createAnswerSender(fail, { store: createAnswerStore(mem()) });
+  await good.flush({ email: "a@x", rounds: [pay("r1")] });
+  ok("working storage + failed save -> durable (answers really are on the device)", good.durable("a@x") === true && good.unsentCount("a@x") === 1);
+  const none = createAnswerSender(fail, { store: createAnswerStore(null) });
+  await none.flush({ email: "a@x", rounds: [pay("r1")] });
+  ok("no storage at all (private mode) -> NOT durable, answer still queued in memory", none.durable("a@x") === false && none.unsentCount("a@x") === 1);
+  const quota = { getItem: () => null, setItem: () => { throw new Error("QuotaExceededError"); }, removeItem: () => {} };
+  const full = createAnswerSender(fail, { store: createAnswerStore(quota) });
+  await full.flush({ email: "a@x", rounds: [pay("r1")] });
+  ok("storage present but the write fails (quota) -> NOT durable", full.durable("a@x") === false);
+  ok("no store passed -> NOT durable", createAnswerSender(fail).durable("a@x") === false);
+  ok("createAnswerStore(null).write reports false (it used to report a save that never happened)", createAnswerStore(null).write("a@x", { rounds: [pay("r")], pending: {}, claimed: {} }) === false);
+  let up = false; const flaky = createAnswerSender(async () => (up ? { ok: true } : null), { store: createAnswerStore(null) });
+  await flaky.flush({ email: "a@x", rounds: [pay("r1")] }); up = true;
+  ok("memory-only answers are still retried in this tab and saved once back online", (await flaky.flush({ email: "a@x" })) === true && flaky.unsentCount("a@x") === 0);
+}
 console.log(`\n${pass} passed, ${fail} failed`);
 
 if (fail) process.exit(1);

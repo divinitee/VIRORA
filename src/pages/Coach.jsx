@@ -63,6 +63,9 @@ export default function Coach() {
   const [leaveOpen, setLeaveOpen] = useState(false); // 5d: "Save and leave?" sheet during a run
   const [leaveFailed, setLeaveFailed] = useState(false); // GPT audit 31 Oct: the save failed -> say so, offer Try again
   const [leaveFrom, setLeaveFrom] = useState(null); // "grammar" when asked from inside a grammar round
+  // GPT audit 31 Oct (22:45): the browser could not keep a device copy (private mode, blocked or
+  // full storage), so unsent answers live only in this tab. Say so; never claim "kept on this device".
+  const [memoryOnly, setMemoryOnly] = useState(false);
 
   // No session_no: the SERVER decides which session is active (today or the
   // latest "Keep going"). The client never decides continuation allowance.
@@ -82,17 +85,25 @@ export default function Coach() {
     try {
       const r = await answerSender.recover(user.email, { tabId: TAB_ID, newRoundId: generateRoundId });
       setUnsavedOnDevice(!r.ok);
+      if (r.ok) setMemoryOnly(false);
       if (r.found && r.ok) await load();
     } finally { setRecovering(false); }
   }, [user?.email, load]);
   useEffect(() => { recover(); }, [recover]);
+  // Memory-only answers still unsent: ask the browser to confirm before the tab closes or reloads.
+  useEffect(() => {
+    if (!memoryOnly || !user?.email) return;
+    const warn = (e) => { if (answerSender.unsentCount(user.email) > 0) { e.preventDefault(); e.returnValue = ""; } };
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
+  }, [memoryOnly, user?.email]);
 
   const persona = data?.coach?.persona || "vira";
   const color = COACH_COLORS[persona];
   const t = coachT(lang, persona);
   const deviceBanner = unsavedOnDevice ? (
     <div role="status" className="mb-3 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-4 py-3 flex items-center justify-between gap-3">
-      <p className="text-xs text-foreground">{t("save_pending")}</p>
+      <p className="text-xs text-foreground">{t(memoryOnly ? "save_pending_memory" : "save_pending")}</p>
       <button disabled={recovering} onClick={recover} className="neo-pill px-3 py-1.5 text-xs font-semibold shrink-0 select-none disabled:opacity-50">{t("retry")}</button>
     </div>) : null;
   // Leaving a running session sends any queued word answers FIRST (they are
@@ -109,7 +120,7 @@ export default function Coach() {
     setBusy(true);
     let ok = false;
     try { ok = (await flushRef.current?.()) !== false; } catch { ok = false; }
-    if (!ok) { setBusy(false); setLeaveFailed(true); return; }
+    if (!ok) { setMemoryOnly(!answerSender.durable(user?.email)); setBusy(false); setLeaveFailed(true); return; }
     try { await load(); } finally { setBusy(false); closeLeave(); }
     setView("plan");
   };
@@ -181,12 +192,12 @@ export default function Coach() {
           onClick={() => { if (!busy) closeLeave(); }}>
           <div className="premium-card rounded-[28px] p-6 w-full max-w-sm text-center" onClick={(e) => e.stopPropagation()}>
             <h2 id="leave-title" className="text-lg font-bold text-foreground">{t(leaveFailed ? "leave_failed_title" : "leave_title")}</h2>
-            <p className="text-sm text-muted-foreground mt-2">{t(leaveFailed ? "leave_failed_sub" : "leave_sub")}</p>
+            <p data-testid="leave-sub" className="text-sm text-muted-foreground mt-2">{t(leaveFailed ? (memoryOnly ? "leave_failed_sub_memory" : "leave_failed_sub") : "leave_sub")}</p>
             {!leaveFailed && leaveFrom === "grammar" && <p data-testid="leave-grammar-note" className="text-xs text-amber-300/90 mt-2">{t("leave_grammar_note")}</p>}
             <button disabled={busy} onClick={saveAndLeave} className="mt-5 w-full h-12 rounded-2xl font-semibold text-white flex items-center justify-center gap-2 select-none disabled:opacity-70" style={{ background: color }}>
               {busy && <Loader2 className="w-4 h-4 animate-spin" />} {busy ? t("leaving") : t(leaveFailed ? "retry" : "leave_save")}
             </button>
-            {leaveFailed && <button disabled={busy} onClick={leaveAnyway} className="neo-pill mt-3 w-full h-11 flex items-center justify-center text-sm font-semibold select-none disabled:opacity-50">{t("leave_anyway")}</button>}
+            {leaveFailed && <button disabled={busy} onClick={leaveAnyway} className="neo-pill mt-3 w-full h-11 flex items-center justify-center text-sm font-semibold select-none disabled:opacity-50">{t(memoryOnly ? "leave_anyway_memory" : "leave_anyway")}</button>}
             <button disabled={busy} onClick={closeLeave} className="neo-pill mt-3 w-full h-11 flex items-center justify-center text-sm font-semibold select-none disabled:opacity-50">{t("leave_stay")}</button>
           </div>
         </div>

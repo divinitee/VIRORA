@@ -5,6 +5,7 @@
 //   C. The REAL browser Back / Forward (BrowserRouter, ?router=browser) mid-word.
 //   D. Closing a tab mid-word and opening a NEW tab: within 10 min the other tab's answers are
 //      left alone (it may still be open); after 10 min (abandoned) they are recovered and sent.
+//   E. Device storage fails (quota / blocked): honest "will be lost" copy, close-tab warning, retry.
 // node tools/coach/ui-harness/audit-31oct.mjs <screenshot-dir>   (mock app on :5199)
 import { chromium } from "playwright";
 const OUT = process.argv[2];
@@ -142,6 +143,46 @@ const watch = (p) => p.on("pageerror", (e) => errors.push(String(e)));
   const q = s3.filter((x) => x.game === "quiz");
   ok("D: after 10 min the abandoned tab's answer is recovered and sent once, without Coach credit", q.length === 1 && q[0].items?.length === 1 && !q[0].coach?.session_key, JSON.stringify(q));
   ok("D: device copy cleared after the recovery", (await p3.evaluate(() => Object.keys(localStorage).filter((k) => k.startsWith("virora.coach.answers")).map((k) => JSON.parse(localStorage.getItem(k))).filter((d) => Object.keys(d.pending || {}).length || (d.rounds || []).length).length)) === 0);
+  await ctx.close(); }
+
+// ---- E (GPT audit 31 Oct, 22:45). The browser can't keep a device copy (storage full / blocked):
+// the sheet must NOT say "kept on this device"; leaving is labelled as losing them; the banner says
+// "only in this tab"; closing the tab asks first; Try again still saves them once back online. ----
+{ const ctx = await newCtx();
+  await ctx.addInitScript(() => {               // like a full quota: every Coach answer write fails
+    const set = Storage.prototype.setItem;
+    Storage.prototype.setItem = function (k, v) { if (String(k).startsWith("virora.coach.answers")) throw new DOMException("full", "QuotaExceededError"); return set.call(this, k, v); };
+  });
+  const p = await ctx.newPage(); watch(p);
+  await p.goto("http://localhost:5199/?start=/coach&lang=en&level=A1");
+  await onboardIfNeeded(p);
+  await p.evaluate(() => { window.__offline = true; });
+  await p.getByRole("button", { name: /^Start$/ }).click();
+  await p.getByRole("button", { name: /^Got it$/ }).click();
+  await finishWord(p);
+  await p.waitForTimeout(800);
+  await p.getByRole("button", { name: "Back" }).click();
+  await p.getByRole("button", { name: "Save & leave" }).click();
+  await p.getByText("Not saved yet").first().waitFor({ timeout: 6000 }).catch(() => {});
+  const sub = (await p.getByTestId("leave-sub").innerText().catch(() => "")) || "";
+  ok("E: storage failed -> the sheet does NOT claim the answers are kept on this device", !/kept on this device/i.test(sub) && /will be lost/i.test(sub), sub);
+  ok("E: ...and the leave button says what it costs ('Leave and lose these answers')", await p.getByRole("button", { name: "Leave and lose these answers" }).isVisible().catch(() => false));
+  await p.screenshot({ path: `${OUT}/audit-E-memory-only.png`, fullPage: true });
+  await p.getByRole("button", { name: "Leave and lose these answers" }).click();
+  await p.waitForTimeout(800);
+  ok("E: plan banner says the answers only exist in this tab", await vis(p, "only exist in this tab"));
+  let asked = 0;
+  p.on("dialog", async (d) => { if (d.type() === "beforeunload") asked++; await d.dismiss(); });
+  await p.close({ runBeforeUnload: true });
+  await p.waitForTimeout(800);
+  ok("E: closing the tab while those answers are unsent asks the browser to confirm first", asked === 1 && !p.isClosed(), `asked=${asked} closed=${p.isClosed()}`);
+  await p.evaluate(() => { window.__offline = false; });
+  await p.locator("[role=status] button").first().click();
+  await p.waitForTimeout(2000);
+  ok("E: back online, Try again saves them (with the session key) and the banner goes", !(await vis(p, "only exist in this tab")) && (await submits(p)).some((s) => s.game === "quiz" && s.session_key === "2026-10-08:today:0"));
+  const closed = p.waitForEvent("close", { timeout: 3000 }).then(() => true, () => false);
+  await p.close({ runBeforeUnload: true });
+  ok("E: once saved, closing the tab no longer asks", (await closed) && asked === 1, `asked=${asked}`);
   await ctx.close(); }
 
 ok("no page errors", errors.length === 0, errors.join(" | ").slice(0, 300));
