@@ -1,9 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
+import { useAuth } from "@/lib/AuthContext";
 import PayoutTerms from "@/components/teacher/PayoutTerms";
 
 export default function TeacherPayouts() {
+  const { user } = useAuth();
+  if (!user || (user.role !== "admin" && user.teacher_status !== "approved")) return <Navigate to="/" replace />;
   return (
     <div className="min-h-screen px-4 py-6">
       <div className="max-w-3xl mx-auto space-y-4">

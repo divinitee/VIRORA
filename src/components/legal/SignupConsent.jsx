@@ -25,7 +25,7 @@ const COPY = {
 
 export const consentError = (lang) => (COPY[lang] || COPY.en).error;
 
-export default function SignupConsent({ lang, terms, data, onTerms, onData }) {
+export default function SignupConsent({ lang, terms, data, onTerms, onData, error }) {
   const c = COPY[lang] || COPY.en;
   const row = (id, checked, onChange, label) => (
     <label htmlFor={id} className="flex items-start gap-3 text-xs leading-relaxed text-muted-foreground cursor-pointer">
@@ -37,6 +37,7 @@ export default function SignupConsent({ lang, terms, data, onTerms, onData }) {
     <div className="space-y-3 pt-4">
       {row("consent-terms", terms, onTerms, c.terms)}
       {row("consent-data", data, onData, c.data)}
+      {error && <p role="alert" className="text-xs text-destructive">{error}</p>}
     </div>
   );
 }

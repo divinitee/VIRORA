@@ -3,17 +3,19 @@ import ReactMarkdown from "react-markdown";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { getAppLang } from "@/hooks/useAppLang";
+import { useAuth } from "@/lib/AuthContext";
 
 const LANGS = ["uz", "ru", "en"];
 
 export default function LegalPage({ docs }) {
   const initial = LANGS.includes(getAppLang()) ? getAppLang() : "uz";
   const [lang, setLang] = useState(initial);
+  const { user } = useAuth();
   return (
     <div className="min-h-screen px-4 py-6">
       <div className="max-w-3xl mx-auto">
         <div className="flex items-center justify-between mb-6">
-          <Link to="/" className="text-muted-foreground hover:text-foreground p-1.5"><ArrowLeft className="w-5 h-5" /></Link>
+          <Link to={user ? "/" : "/landing"} className="text-muted-foreground hover:text-foreground p-1.5"><ArrowLeft className="w-5 h-5" /></Link>
           <div className="flex gap-1 rounded-full border border-border p-1">
             {LANGS.map((l) => (
               <button key={l} onClick={() => setLang(l)}

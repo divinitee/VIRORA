@@ -414,6 +414,7 @@ export default function Register() {
   // via ProfileSetup. (Home guards the same case for anyone who lands there by
   // another route.)
   const handleGoogle = () => {
+    if (!consentTerms || !consentData) { setError(consentError(lang)); return; }
     const returnTo = safeReturnTo();
     base44.auth.loginWithProvider("google", returnTo !== "/" ? returnTo : "/onboarding");
   };
@@ -480,6 +481,8 @@ export default function Register() {
                   {/* Shortcut: Google signups get the same name/goals/level/code
                       questions afterwards in Onboarding (ProfileSetup), so they
                       can skip this whole form from the very first screen. */}
+                  <SignupConsent lang={lang} terms={consentTerms} data={consentData} error={error === consentError(lang) ? error : ""}
+                    onTerms={(v) => { setConsentTerms(v); setError(""); }} onData={(v) => { setConsentData(v); setError(""); }} />
                   <Button variant="outline" className="w-full h-11 text-sm font-medium mt-3" onClick={handleGoogle}>
                     <GoogleIcon className="w-5 h-5 mr-2" />
                     {s.google}
@@ -601,6 +604,9 @@ export default function Register() {
               {currentKey === "creds" && (
                 <>
                   <StepHeader icon={Mail} title={s.credsTitle} sub={s.credsSub} />
+                  <SignupConsent lang={lang} terms={consentTerms} data={consentData} error={error === consentError(lang) ? error : ""}
+                    onTerms={(v) => { setConsentTerms(v); setError(""); }} onData={(v) => { setConsentData(v); setError(""); }} />
+                  <div className="h-3" />
                   <Button className="w-full h-12 text-base font-semibold" onClick={handleGoogle}>
                     <span className="mr-2 inline-flex rounded-full bg-white p-0.5"><GoogleIcon className="w-5 h-5" /></span>
                     {s.google}
