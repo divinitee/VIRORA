@@ -14,7 +14,7 @@ import { submitEvidence } from "@/lib/progress/progressClient";
 import { generateRoundId } from "@/lib/gameScoring";
 import { coachT, labelKey, reasonKey, goalLabel, COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
 import { buildWordQuestions, evidenceItem, grammarPath, stageForDepth, wordCard, showsWordCard } from "@/lib/coach/wordCheck";
-import { OUTCOME, summarise, afterRunView } from "@/lib/coach/sessionOutcome";
+import { OUTCOME, summarise, afterRunView, resumeState } from "@/lib/coach/sessionOutcome";
 import { createAnswerSender, createAnswerStore, finishWithSave } from "@/lib/coach/answerBatches";
 import { buildRecap } from "@/lib/coach/sessionRecap";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
@@ -61,6 +61,8 @@ export default function Coach() {
   const [lastRun, setLastRun] = useState(null); // summarise(outcomes) of the run that just ended
   const flushRef = useRef(null); // the running Session's flush (queued word answers)
   const [leaveOpen, setLeaveOpen] = useState(false); // 5d: "Save and leave?" sheet during a run
+  const [leaveFailed, setLeaveFailed] = useState(false); // GPT audit 31 Oct: the save failed -> say so, offer Try again
+  const [leaveFrom, setLeaveFrom] = useState(null); // "grammar" when asked from inside a grammar round
 
   // No session_no: the SERVER decides which session is active (today or the
   // latest "Keep going"). The client never decides continuation allowance.
@@ -98,13 +100,27 @@ export default function Coach() {
   // 5d (Tee, 30 Oct): Back during a run asks first ("Save and leave?"), then shows a
   // saving state while it sends, so it never looks frozen. Completed items are saved
   // with the session; the plan view then offers "Pick up where you left off".
+  // GPT audit 31 Oct: the flush result decides. On failure the sheet stays open with
+  // "Not saved yet" + Try again; "Leave anyway" keeps the answers queued on this device
+  // (answerBatches resends them, same round_ids) and the plan shows the not-saved banner.
+  const openLeave = (from = null) => { setLeaveFailed(false); setLeaveFrom(from); setLeaveOpen(true); };
+  const closeLeave = () => { setLeaveOpen(false); setLeaveFailed(false); setLeaveFrom(null); };
   const saveAndLeave = async () => {
     setBusy(true);
-    try { await flushRef.current?.(); await load(); } finally { setBusy(false); setLeaveOpen(false); }
+    let ok = false;
+    try { ok = (await flushRef.current?.()) !== false; } catch { ok = false; }
+    if (!ok) { setBusy(false); setLeaveFailed(true); return; }
+    try { await load(); } finally { setBusy(false); closeLeave(); }
+    setView("plan");
+  };
+  const leaveAnyway = async () => {
+    setBusy(true);
+    try { await load(); } finally { setBusy(false); closeLeave(); }
+    setUnsavedOnDevice(true); // persistent "not saved yet" banner with Try again (recover)
     setView("plan");
   };
   const back = async () => {
-    if (view === "run") { setLeaveOpen(true); return; }
+    if (view === "run") { openLeave(); return; }
     if (view === "plan") navigate("/"); else setView("plan");
   };
   const mapBtn = data && view !== "map" ? (
@@ -146,7 +162,7 @@ export default function Coach() {
   if (view === "run") return (
     <Shell onBack={back}>
       <Session data={data} t={t} gc={gc} color={color} lang={lang} email={user?.email} flushRef={flushRef}
-        onLeave={() => setLeaveOpen(true)}
+        onLeave={(from) => openLeave(from)}
         onFinished={async (summary, run) => {
           const d = await load();
           // Recap (VT-40): labels AFTER the server has every answer (getMap), compared with
@@ -162,14 +178,16 @@ export default function Coach() {
         }} />
       {leaveOpen && (
         <div role="dialog" aria-modal="true" aria-labelledby="leave-title" className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/60 p-4"
-          onClick={() => { if (!busy) setLeaveOpen(false); }}>
+          onClick={() => { if (!busy) closeLeave(); }}>
           <div className="premium-card rounded-[28px] p-6 w-full max-w-sm text-center" onClick={(e) => e.stopPropagation()}>
-            <h2 id="leave-title" className="text-lg font-bold text-foreground">{t("leave_title")}</h2>
-            <p className="text-sm text-muted-foreground mt-2">{t("leave_sub")}</p>
+            <h2 id="leave-title" className="text-lg font-bold text-foreground">{t(leaveFailed ? "leave_failed_title" : "leave_title")}</h2>
+            <p className="text-sm text-muted-foreground mt-2">{t(leaveFailed ? "leave_failed_sub" : "leave_sub")}</p>
+            {!leaveFailed && leaveFrom === "grammar" && <p data-testid="leave-grammar-note" className="text-xs text-amber-300/90 mt-2">{t("leave_grammar_note")}</p>}
             <button disabled={busy} onClick={saveAndLeave} className="mt-5 w-full h-12 rounded-2xl font-semibold text-white flex items-center justify-center gap-2 select-none disabled:opacity-70" style={{ background: color }}>
-              {busy && <Loader2 className="w-4 h-4 animate-spin" />} {busy ? t("leaving") : t("leave_save")}
+              {busy && <Loader2 className="w-4 h-4 animate-spin" />} {busy ? t("leaving") : t(leaveFailed ? "retry" : "leave_save")}
             </button>
-            <button disabled={busy} onClick={() => setLeaveOpen(false)} className="neo-pill mt-3 w-full h-11 flex items-center justify-center text-sm font-semibold select-none disabled:opacity-50">{t("leave_stay")}</button>
+            {leaveFailed && <button disabled={busy} onClick={leaveAnyway} className="neo-pill mt-3 w-full h-11 flex items-center justify-center text-sm font-semibold select-none disabled:opacity-50">{t("leave_anyway")}</button>}
+            <button disabled={busy} onClick={closeLeave} className="neo-pill mt-3 w-full h-11 flex items-center justify-center text-sm font-semibold select-none disabled:opacity-50">{t("leave_stay")}</button>
           </div>
         </div>
       )}
@@ -244,8 +262,7 @@ export default function Coach() {
 
   // 5. Today's plan. 5d: a session already started today (minutes spent, not complete)
   // reads as "Pick up where you left off" with what's done and what's left.
-  const spent = Math.round(Number(data.session?.spent_minutes) || 0);
-  const resuming = spent > 0 && !data.session?.complete;
+  const { resuming, done: spentShown, left: leftShown } = resumeState(data.session);
   return (
     <Shell onBack={() => navigate("/")} right={mapBtn}>
       {deviceBanner}
@@ -275,7 +292,7 @@ export default function Coach() {
         <button onClick={() => { setLastRun(null); setView("run"); }} className="mt-4 w-full h-12 rounded-2xl font-semibold text-white flex items-center justify-center gap-2" style={{ background: color }}>
           <Play className="w-4 h-4" /> {resuming ? t("resume") : t("start")}
         </button>
-        {resuming && <p className="text-[11px] text-muted-foreground text-center mt-2">{t("resume_sub", { done: spent, left: Math.max(1, Math.round(Number(data.session?.remaining_minutes) || 0)) })}</p>}
+        {resuming && <p className="text-[11px] text-muted-foreground text-center mt-2">{t("resume_sub", { done: spentShown, left: leftShown })}</p>}
       </div>
     </Shell>);
 }
@@ -539,7 +556,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeav
           c={gc} coachSessionKey={sessionKey} onSave={saveGrammar}
           onFinish={(sum) => { if (sum?.total) results.current.grammar[ready.key] = { correct: sum.correct, total: sum.total }; finishItem(ready.key, OUTCOME.COMPLETED); }}
           onExit={() => finishItem(ready.key, OUTCOME.LEFT)}
-          onLeave={onLeave} />
+          onLeave={() => onLeave?.("grammar")} />
       )}
     </div>
   );

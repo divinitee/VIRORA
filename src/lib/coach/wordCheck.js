@@ -29,7 +29,7 @@ const TYPE_OF = { meaning: "multiple_choice", recall: "translation", definition:
 // When a kind has no usable content for this word, try these instead (in order).
 const FALLBACK = { definition: ["context", "recall", "meaning"], context: ["definition", "recall", "meaning"], spelling: ["recall", "meaning"], meaning: ["recall"], recall: ["meaning"] };
 
-import { resolveWordContent, definitionForLearner, spellingPromptForm, showsFirstLetter, revealsHeadword, normLevel } from "./languageGate.js";
+import { resolveWordContent, definitionForLearner, definitionChain, spellingPromptForm, showsFirstLetter, revealsHeadword, normLevel } from "./languageGate.js";
 
 /** Kept for callers that only need the field name; English has NO native field (never "uzbek"). */
 export const nativeKeyFor = (lang) => (lang === "ru" ? "russian" : lang === "uz" ? "uzbek" : null);
@@ -210,16 +210,20 @@ export function buildWordQuestions(word, pool, { depth, lang, learnerLevel = nul
   if (!kinds.length) return [];
   // 5d (30 Oct play-test): the definition-form spelling prompt must not repeat a definition
   // this word ALREADY showed in this check (definition_choice key or match-the-definition
-  // prompt), or recall is just copying. Prefer the sentence form; else another definition
-  // text for the same learner; else keep (rare: one usable definition and no sentence).
+  // prompt), or recall is just copying. GPT audit 31 Oct: alternatives must stay inside the
+  // learner's locked rules (5c):
+  //   - the sentence form only where 5c allows it (B1 and above);
+  //   - another definition only from the learner's own chain (own tier -> one below -> english_definition);
+  //   - otherwise keep the definition (rare: one usable definition and no permitted sentence).
   let spellForm = form, spellText = spellPrompt;
   const shownDefs = new Set();
   if (kinds.includes("meaning") && meaningIsDefChoice && keyDef.text) shownDefs.add(norm(keyDef.text));
   if (kinds.includes("definition") && res.definition) shownDefs.add(norm(res.definition));
   if (kinds.includes("spelling") && spellForm === "definition" && shownDefs.has(norm(spellText))) {
-    if (alt) { spellForm = "sentence"; spellText = alt; }
+    const sentenceAllowed = ["B1", "B2", "C1"].includes(level);
+    if (sentenceAllowed && alt) { spellForm = "sentence"; spellText = alt; }
     else {
-      const other = ["english_definition", "def_a2", "def_b1", "def_b2", "def_c1"].map((f) => clean(word[f]))
+      const other = definitionChain(level).map((f) => clean(word[f]))
         .find((d) => d && !shownDefs.has(norm(d)) && !revealsHeadword(d, word.english));
       if (other) spellText = other;
     }

@@ -53,8 +53,9 @@ ok("A2/UZ meaning = definition_choice on def_a2", (() => { const q = a2.find((x)
 ok("A2/UZ: the translation is never in a prompt, option or inline hint", a2.every((q) => !UZ.test(q.prompt) && !(q.options || []).some((o) => UZ.test(o)) && !("meaning" in q)));
 ok("A2/UZ: it is available as tapNative (hidden until tapped)", a2.some((q) => q.tapNative === "vazn, og'irlik"));
 ok("A2/UZ weak-word card: tap only, not inline", wordCard(word, "uz", "A2").tapNative === "vazn, og'irlik" && !("native" in wordCard(word, "uz", "A2")));
-// 5d: A2 remediation already showed def_a2 as the definition_choice key, so spelling switches to the sentence form.
-ok("A2/UZ spelling prompt is English and never repeats the def_a2 just shown (5d)", (() => { const sp = a2.find((q) => q.type === "spelling"); return sp && sp.prompt !== word.def_a2 && !UZ.test(sp.prompt) && sp.promptForm === "sentence"; })());
+// 5d + GPT audit 31 Oct: A2 already saw def_a2 as the definition_choice key. Spelling stays a DEFINITION
+// prompt (5c: no sentence form below B1) from A2's own chain: def_a2 -> english_definition.
+ok("A2/UZ spelling: definition form, English, not the def_a2 just shown, from A2's chain (english_definition)", (() => { const sp = a2.find((q) => q.type === "spelling"); return sp && sp.promptForm === "definition" && sp.prompt === word.english_definition && !UZ.test(sp.prompt); })());
 ok("a tapped answer is tagged as hinted", evidenceItem(word, a2[0], a2[0].correct, { support: "hint" }).support === "hint");
 
 console.log("B1+ spelling: mixed definition / sentence, stable on reload, C1 no first letter");

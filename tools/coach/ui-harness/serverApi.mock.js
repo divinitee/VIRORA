@@ -30,14 +30,17 @@ const S = (window.__state = {
 });
 // ?persist=1 (reload-recovery.mjs): the fake server's state survives a page reload
 // (sessionStorage), like a real server would. Offline mode can be set the same way.
-const PERSIST = Q.get("persist") === "1";
+// ?persist=shared (audit 31 Oct): state in localStorage, shared by every tab, like one real server
+// seen from two tabs (closed-tab recovery test).
+const PERSIST = Q.get("persist") === "1" || Q.get("persist") === "shared";
+const STORE = (() => { try { return Q.get("persist") === "shared" ? localStorage : sessionStorage; } catch { return sessionStorage; } })();
 const saveState = () => {
   if (!PERSIST) return;
-  try { sessionStorage.setItem("__mockState", JSON.stringify({ onboarded: S.onboarded, contUsed: S.contUsed, active: S.active, contPractised: S.contPractised, submits: S.submits, done: Object.fromEntries(Object.entries(S.done).map(([k, v]) => [k, [...v]])) })); } catch { /* ignore */ }
+  try { STORE.setItem("__mockState", JSON.stringify({ onboarded: S.onboarded, contUsed: S.contUsed, active: S.active, contPractised: S.contPractised, submits: S.submits, done: Object.fromEntries(Object.entries(S.done).map(([k, v]) => [k, [...v]])) })); } catch { /* ignore */ }
 };
 if (PERSIST) {
   try {
-    const saved = JSON.parse(sessionStorage.getItem("__mockState") || "null");
+    const saved = JSON.parse(STORE.getItem("__mockState") || "null");
     if (saved) { Object.assign(S, { onboarded: saved.onboarded, contUsed: saved.contUsed, active: saved.active, contPractised: saved.contPractised, submits: saved.submits || [] }); S.done = Object.fromEntries(Object.entries(saved.done || {}).map(([k, v]) => [k, new Set(v)])); }
   } catch { /* ignore */ }
 }

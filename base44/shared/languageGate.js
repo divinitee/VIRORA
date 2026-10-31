@@ -86,6 +86,15 @@ export function revealsHeadword(text, headword) {
  * { text: "", source: null } when nothing usable exists.
  * Unplaced learners (no trusted level) read the word's own english_definition.
  */
+/**
+ * The definition fields a learner may read, in order (own tier -> one below -> english_definition).
+ * Unplaced learners read only english_definition. Exported for 5d (spelling alternatives).
+ */
+export function definitionChain(learnerLevel) {
+  const lvl = normLevel(learnerLevel);
+  return (lvl ? [OWN_TIER[lvl], LOWER_TIER[lvl], "english_definition"] : ["english_definition"]).filter(Boolean);
+}
+
 export function definitionForLearner(word, learnerLevel) {
   const en = clean(word?.english);
   if (!en) return { text: "", source: null };
