@@ -85,7 +85,19 @@ export async function coachApi(action, payload = {}) {
     S.contUsed += 1; S.active = S.contUsed; S.contPractised = false; saveState();
     return today(S.active);
   }
-  if (action === "getMap") return { goal_id: "everyday", grammar: [{ item_key: "grammar:tenses.present.simple-routine", item_type: "grammar", label: "Practising" }], words: [{ item_key: "word:v1:0", item_type: "word", word_id: "v1", label: "Needs work" }, { item_key: "word:v2:0", item_type: "word", word_id: "v2", label: "Strong" }], counts: { "New": 0, "Needs work": 1, "Practising": 1, "Strong": 1 } };
+  if (action === "getMap") {
+    // Recap (GPT audit 31 Oct): the map moves when an item is saved, so the recap's
+    // run-start baseline and after-run labels can differ. v1 Needs work -> Practising,
+    // v2 Practising -> Strong; simple-routine is not on the map (New) until practised.
+    const doneAny = (k) => Object.values(S.done).some((set) => set.has(k));
+    const grammar = doneAny("grammar:tenses.present.simple-routine") ? [{ item_key: "grammar:tenses.present.simple-routine", item_type: "grammar", label: "Practising" }] : [];
+    const words = [
+      { item_key: "word:v1:0", item_type: "word", word_id: "v1", label: doneAny("word:v1:0") ? "Practising" : "Needs work" },
+      { item_key: "word:v2:0", item_type: "word", word_id: "v2", label: doneAny("word:v2:0") ? "Strong" : "Practising" },
+      { item_key: "word:v4:0", item_type: "word", word_id: "v4", label: "Needs work" }, // never planned: stays put
+    ];
+    return { goal_id: "everyday", grammar, words, counts: { "New": 0, "Needs work": words.filter((w) => w.label === "Needs work").length, "Practising": words.filter((w) => w.label === "Practising").length + grammar.length, "Strong": words.filter((w) => w.label === "Strong").length } };
+  }
   throw new Error("unknown " + action);
 }
 export async function progressApi(action, body) {

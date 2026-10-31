@@ -98,6 +98,24 @@ for (const [lang, title] of [["uz", "Saqlab chiqasizmi?"], ["ru", "Сохран�
   await page.screenshot({ path: `${OUT}/5d-04-leave-${lang}.png`, fullPage: true });
   await ctx.close();
 }
+// ---- 5d audit (31 Oct): browser Back / swipe-back = a route change that unmounts the Coach mid-run ----
+// Mid-WORD: the partial answers must still be saved (as ordinary practice, without Coach credit,
+// exactly as Back did before 5d), and the half-done word must stay in today's plan.
+{ const { ctx, page } = await open("en");
+  await page.getByRole("button", { name: /^Start$/ }).click();
+  await page.getByRole("button", { name: /^Got it$/ }).click();
+  await answer(page);                                                     // 1 question of apple answered
+  const before = (await state(page)).filter((e) => e.kind === "submit:start").length;
+  await page.evaluate(() => window.__navigate("/"));                      // what browser Back does in the real app
+  await page.waitForTimeout(1500);
+  const sent = (await state(page)).filter((e) => e.kind === "submit:start").slice(before);
+  ok("browser Back mid-word: nothing was sent before leaving", before === 0, String(before));
+  ok("browser Back mid-word: the partial answer is still saved, WITHOUT Coach credit (unmount flush)", sent.length === 1 && sent[0].detail.game === "quiz" && sent[0].detail.n === 1 && !sent[0].detail.session_key, JSON.stringify(sent.map((e) => e.detail)));
+  await page.evaluate(() => window.__navigate("/coach"));
+  await page.getByText("apple").first().waitFor({ timeout: 6000 }).catch(() => {});
+  ok("coming back: the half-done word is still in the plan, and it says Start (nothing completed yet)", await vis(page, "apple") && await page.getByRole("button", { name: /^Start$/ }).isVisible().catch(() => false));
+  await ctx.close(); }
+
 // ---- VT-40 recap: a full session ends with "What you did today" from real answers + the map ----
 { const { ctx, page } = await open("en");
   await page.getByRole("button", { name: /^Start$/ }).click();
@@ -116,7 +134,8 @@ for (const [lang, title] of [["uz", "Saqlab chiqasizmi?"], ["ru", "Сохран�
   ok("recap: the Done screen shows 'What you did today'", await recap.isVisible().catch(() => false));
   const txt = (await recap.innerText().catch(() => "")) || "";
   ok("recap: words, grammar and accuracy are shown", /words/i.test(txt) && /grammar/i.test(txt) && /\d+%/.test(txt), txt.slice(0, 200));
-  ok("recap: an item the server moved up is listed with from -> to (mock: bread Practising -> Strong)", /moved up/i.test(txt) && /bread/.test(txt) && /strong/i.test(txt), txt.slice(0, 300));
+  ok("recap: an item the server moved up DURING the run is listed with from -> to (mock: bread Practising -> Strong)", /moved up/i.test(txt) && /bread/.test(txt) && /strong/i.test(txt), txt.slice(0, 300));
+  ok("recap: a topic first practised in this run shows as learned (simple routine -> Practising)", /learned today/i.test(txt) && /simple routine/i.test(txt), txt.slice(0, 400));
   ok("recap: Keep going is still offered under it", await page.getByRole("button", { name: /Keep going/ }).isVisible().catch(() => false));
   await page.screenshot({ path: `${OUT}/recap-en.png`, fullPage: true });
   await ctx.close(); }

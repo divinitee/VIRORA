@@ -374,6 +374,15 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeav
   const pool = useRef(null);
   // VT-40 recap: what was actually answered in THIS run (word: right/total by item_key; grammar: round summary).
   const results = useRef({ words: {}, grammar: {} });
+  // Recap baseline (GPT audit 31 Oct): the server's labels as THIS run starts. Kept only if it
+  // arrives before anything from this run is sent; otherwise the recap shows no progress lists.
+  const baseline = useRef(null);
+  const sentAny = useRef(false);
+  useEffect(() => {
+    let alive = true;
+    coachApi("getMap", {}).then((m) => { if (alive && !sentAny.current) baseline.current = m; }).catch(() => {});
+    return () => { alive = false; };
+  }, []);
 
   // Sends queued word answers. Answers for words the learner FINISHED go with
   // the Coach session_key (Coach credit, session minutes). Answers for a word
@@ -385,6 +394,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeav
   // Resolves true when nothing is left unsent.
   const flush = useCallback(() => {
     if (!email) return Promise.resolve(false);
+    if (pending.current.length) sentAny.current = true;
     return answerSender.flush({ email, entries: pending.current.splice(0), completed: completedWords.current, sessionKey, newRoundId: generateRoundId, tabId: TAB_ID });
   }, [email, sessionKey]);
   // Every answer is also kept on the device until it becomes a round (reload recovery).
@@ -396,7 +406,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeav
   // save still fails after one automatic retry, show a save error with Try again,
   // never a Done screen (src/lib/coach/answerBatches.js finishWithSave).
   const finish = useCallback(async () => {
-    const result = await finishWithSave({ flush, onDone: () => onFinished(summarise(outcomes.current), { planItems: items, ...results.current }) });
+    const result = await finishWithSave({ flush, onDone: () => onFinished(summarise(outcomes.current), { planItems: items, baseline: baseline.current, ...results.current }) });
     if (result === "failed") setSaveFailed(true);
   }, [flush, onFinished]);
   // Mid-session save (before a grammar step): a failure is shown as a banner with
@@ -410,6 +420,7 @@ function Session({ data, t, gc, color, lang, email, onFinished, flushRef, onLeav
   // (same round_id), shown in the banner, and retried by every later save and at the end.
   const saveGrammar = useCallback(async (payload) => {
     if (!email) return false;
+    sentAny.current = true;
     const ok = await answerSender.flush({ email, rounds: [payload] });
     setUnsaved(!ok);
     return ok;

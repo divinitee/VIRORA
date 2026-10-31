@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { MemoryRouter, Routes, Route } from "react-router-dom";
+import { MemoryRouter, Routes, Route, useNavigate } from "react-router-dom";
 import "@/index.css";
 import Coach from "@/pages/Coach";
 import CoachTodayCard from "@/components/coach/CoachTodayCard";
@@ -26,10 +26,14 @@ function PracticeHarness() {
             onAgain={() => setEnded("again")} onExit={() => setEnded("exit")} />}
     </div>);
 }
+// Test hook (5d audit, 31 Oct): window.__navigate(path) changes route the way the browser's
+// Back / swipe-back does in the real app (BrowserRouter), so the Coach unmounts mid-run.
+function NavHook() { const nav = useNavigate(); React.useEffect(() => { window.__navigate = nav; }, [nav]); return null; }
 const start = new URLSearchParams(location.search).get("start") || "/coach";
 try { localStorage.setItem("app_lang", new URLSearchParams(location.search).get("lang") || "en"); } catch {}
 ReactDOM.createRoot(document.getElementById("root")).render(
   <MemoryRouter initialEntries={[start]}>
+    <NavHook />
     <Routes>
       <Route path="/coach" element={<Coach />} />
       <Route path="/" element={<div id="home" className="max-w-xl mx-auto p-4"><CoachTodayCard /></div>} />

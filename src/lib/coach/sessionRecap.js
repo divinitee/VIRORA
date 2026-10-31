@@ -1,7 +1,10 @@
 // VT-40 session recap (Tee, 30 Oct 2026): "you did this, you learnt this, you moved this
 // much". Pure, so it is tested without a browser. Every number comes from something real:
-//   - before: the label each plan item carried when the session started (getToday plan)
-//   - after:  the label the SERVER gives the same item once the session's answers are
+//   - before: the SERVER's label for each item when THIS RUN started (getMap, fetched as
+//             the run begins and only kept if it arrived before anything was submitted).
+//             GPT audit 31 Oct: plan-time labels can predate the run (e.g. a learner who
+//             left mid-word sent those answers, then resumed), so they are not used.
+//   - after:  the label the SERVER gives the same item once the run's answers are
 //             saved (getMap, called after the awaited submissions)
 //   - answers: what the learner actually answered in this run (word questions as graded
 //             by the same rule as the server; grammar rounds from PracticeRunner's summary)
@@ -16,13 +19,18 @@ export const RANK = { "New": 0, "Needs work": 1, "Practising": 2, "Strong": 3 };
  * @param {Array}  p.planItems  getToday plan items at the start of the run ({ item_key, item_type, word_id, label })
  * @param {object} p.words      item_key -> { right, total } for words answered in this run
  * @param {object} p.grammar    item_key -> { correct, total } for grammar rounds finished in this run
+ * @param {object} [p.baseline] getMap result when the run STARTED, or null when it wasn't captured in time
  * @param {object} [p.map]      getMap result after the run ({ words:[], grammar:[] } with item_key + label), or null
  * @param {object} [p.session]  getToday session after the run ({ spent_minutes })
  * @param {object} [p.names]    word_id -> English headword (for display)
  */
-export function buildRecap({ planItems = [], words = {}, grammar = {}, map = null, session = null, names = {} } = {}) {
+const labelsOf = (m) => (m ? Object.fromEntries([...(m.words || []), ...(m.grammar || [])].map((i) => [i.item_key, i.label])) : null);
+
+export function buildRecap({ planItems = [], words = {}, grammar = {}, baseline = null, map = null, session = null, names = {} } = {}) {
   const before = Object.fromEntries(planItems.map((i) => [i.item_key, i]));
-  const after = map ? Object.fromEntries([...(map.words || []), ...(map.grammar || [])].map((i) => [i.item_key, i.label])) : null;
+  const start = labelsOf(baseline);
+  // Progress needs BOTH ends measured by the server around this run; otherwise it is not claimed.
+  const after = start ? labelsOf(map) : null;
 
   const wordKeys = Object.keys(words).filter((k) => words[k]?.total > 0);
   const grammarKeys = Object.keys(grammar).filter((k) => grammar[k]?.total > 0);
@@ -36,7 +44,7 @@ export function buildRecap({ planItems = [], words = {}, grammar = {}, map = nul
   };
   const moved = [], learned = [], again = [];
   for (const key of [...wordKeys, ...grammarKeys]) {
-    const from = before[key]?.label || "New";
+    const from = (start && start[key]) || "New"; // not on the map yet = never practised = New
     const to = after ? after[key] : undefined;
     const name = nameOf(key);
     if (!name) continue;
