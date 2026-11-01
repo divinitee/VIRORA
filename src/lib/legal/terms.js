@@ -4,7 +4,7 @@ export const TERMS = {
 
 ### 1. Ijrochi ma'lumotlari (O'zR "Elektron tijorat to'g'risida"gi O'RQ-792-son Qonuni 16-moddasi)
 - **Xizmat ko'rsatuvchi:** Normatov Temur Ulug'bekovich (O'zini o'zi band qilgan shaxs maqomida ro'yxatdan o'tgan).
-- **JSHSHIR (PINFL):** 52407056180013 | Manzil: Toshkent shahri, O'zbekiston Respublikasi.
+- **Manzil:** Toshkent shahri, O'zbekiston Respublikasi.
 - **Bog'lanish:** support@virora.space | Veb-sayt: https://virora.space.
 - **Aktsept tartibi:** Ro'yxatdan o'tishda rozilik katakchasini belgilash yoki obuna to'lovini amalga oshirish O'zR Fuqarolik kodeksining 366-moddasiga muvofiq ushbu Ommaviy ofertani to'liq va so'zsiz qabul qilish (aktsept) hisoblanadi.
 
@@ -30,7 +30,7 @@ export const TERMS = {
 
 ### 1. Сведения об Исполнителе (ст. 16 Закона РУз «Об электронной коммерции» № ЗРУ-792)
 - **Поставщик услуг:** Норматов Темур Улугбекович (зарегистрирован в статусе самозанятого лица / O'zini o'zi band qilgan shaxs).
-- **ПИНФЛ:** 52407056180013 | Адрес: г. Ташкент, Республика Узбекистан.
+- **Адрес:** г. Ташкент, Республика Узбекистан.
 - **Контакты:** support@virora.space | Веб-сайт: https://virora.space.
 - **Порядок акцепта:** Отметка поля согласия при регистрации или оплата подписки является полным и безоговорочным акцептом настоящей Публичной оферты в соответствии со ст. 366 Гражданского кодекса РУз.
 
@@ -56,7 +56,7 @@ export const TERMS = {
 
 ### 1. Provider details (Art. 16, Law of the Republic of Uzbekistan "On E-Commerce" No. ZRU-792)
 - **Service provider:** Normatov Temur Ulug'bekovich (registered as a self-employed person / O'zini o'zi band qilgan shaxs).
-- **PINFL:** 52407056180013 | Address: Tashkent, Republic of Uzbekistan.
+- **Address:** Tashkent, Republic of Uzbekistan.
 - **Contact:** support@virora.space | Website: https://virora.space.
 - **Acceptance:** Ticking the consent box at sign-up or paying for a subscription constitutes full and unconditional acceptance of this Public Offer under Art. 366 of the Civil Code of Uzbekistan.
 

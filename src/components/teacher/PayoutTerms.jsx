@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ChevronDown, ScrollText } from "lucide-react";
 
 const ITEMS = [
-  ["Operator", "Normatov Temur Ulug'bekovich (PINFL: 52407056180013)."],
+  ["Operator", "Normatov Temur Ulug'bekovich."],
   ["Commission & Attribution", "Calculated at the active Teacher Dashboard percentage on verified subscription payments made using the Teacher's unique referral code."],
   ["14-Day Verification Hold", "All commissions enter a 14-calendar-day verification hold from the transaction timestamp to cover gateway settlement and fraud checks before unlocking for withdrawal."],
   ["Fair Investigation & Clawback Rules", "Self-referrals and artificial sign-ups are prohibited. Flagged transactions are paused with in-app notice; the Teacher has 7 calendar days to submit evidence, and VIRORA issues a decision within 7 business days. Post-payout clawbacks apply solely to processor-verified fraud or chargebacks."],

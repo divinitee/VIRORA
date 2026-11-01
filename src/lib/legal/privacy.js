@@ -2,7 +2,7 @@
 export const PRIVACY = {
   uz: `# MAXFIYLIK SIYOSATI (O'RQ-547, O'RQ-1125 va VMQ-415 talablari asosida)
 
-- **Operator:** Normatov Temur Ulug'bekovich (JSHSHIR: 52407056180013, Toshkent sh., O'zbekiston Respublikasi, support@virora.space).
+- **Operator:** Normatov Temur Ulug'bekovich (Toshkent sh., O'zbekiston Respublikasi, support@virora.space).
 
 ### 1. Mahalliylashtirish talab etilmaydigan ma'lumotlar (O'RQ-1125, 26.03.2026)
 VIRORA foydalanuvchilarning biometrik, genetik yoki telekommunikatsiya operatorlari abonent ma'lumotlarini to'plamaydi va saqlamaydi. Shu sababli, O'zR "Shaxsga doir ma'lumotlar to'g'risida"gi Qonunining 27-1-moddasiga muvofiq, o'quv ma'lumotlar bazasi majburiy mahalliy serverda saqlash va Davlat reyestrida ro'yxatdan o'tkazish talablaridan ozod etilgan.
@@ -20,7 +20,7 @@ Ma'lumotlar hisob faol bo'lgan davrda saqlanadi. Foydalanuvchi istalgan vaqtda s
 `,
   ru: `# ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ (на основании ЗРУ-547, ЗРУ-1125 и ПКМ-415)
 
-- **Оператор:** Норматов Темур Улугбекович (ПИНФЛ: 52407056180013, г. Ташкент, Республика Узбекистан, support@virora.space).
+- **Оператор:** Норматов Темур Улугбекович (г. Ташкент, Республика Узбекистан, support@virora.space).
 
 ### 1. Данные, не требующие локализации (ЗРУ-1125, 26.03.2026)
 VIRORA не собирает и не хранит биометрические, генетические данные пользователей или абонентские данные операторов связи. Поэтому, согласно ст. 27-1 Закона РУз «О персональных данных», учебная база данных освобождена от требований обязательного хранения на локальных серверах и регистрации в Государственном реестре.
@@ -38,7 +38,7 @@ VIRORA не собирает и не хранит биометрические, 
 `,
   en: `# PRIVACY POLICY (under ZRU-547, ZRU-1125 and CMR-415)
 
-- **Operator:** Normatov Temur Ulug'bekovich (PINFL: 52407056180013, Tashkent, Republic of Uzbekistan, support@virora.space).
+- **Operator:** Normatov Temur Ulug'bekovich (Tashkent, Republic of Uzbekistan, support@virora.space).
 
 ### 1. Data not subject to localization (ZRU-1125, 26.03.2026)
 VIRORA does not collect or store users' biometric or genetic data, or telecom-operator subscriber data. Therefore, under Art. 27-1 of the Law of Uzbekistan "On Personal Data", the learning database is exempt from mandatory local-server storage and State Register registration.
