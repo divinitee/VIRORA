@@ -1,24 +1,23 @@
 {
-  "name": "ConsentWriteLock",
-  "type": "object",
   "description": "Short lease locks that serialise consent writes per user (16 fixed shard rows). Claimed only by functions/legalApi with a conditional updateMany on id + version. Holds a random token, never a user id or other personal data. No client or MCP access.",
+  "name": "ConsentWriteLock",
   "properties": {
-    "shard": {
-      "type": "integer",
-      "description": "0-15. A user's lock is FNV-1a(user id) mod 16."
-    },
-    "version": {
-      "type": "integer",
-      "description": "Incremented on every claim and release; the claim succeeds only if it is unchanged."
-    },
     "holder": {
-      "type": "string",
-      "description": "Random token of the current holder, empty when free."
+      "description": "Random token of the current holder, empty when free.",
+      "type": "string"
     },
     "lease_until": {
-      "type": "string",
+      "description": "The lock is free after this time even if a holder crashed.",
       "format": "date-time",
-      "description": "The lock is free after this time even if a holder crashed."
+      "type": "string"
+    },
+    "shard": {
+      "description": "0-15: user locks, FNV-1a(user id) mod 16. 1000: reserved row for the publisher-only canary self-test.",
+      "type": "integer"
+    },
+    "version": {
+      "description": "Incremented on every claim and release; the claim succeeds only if it is unchanged.",
+      "type": "integer"
     }
   },
   "required": [
@@ -27,6 +26,11 @@
   ],
   "rls": {
     "create": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "delete": {
       "user_condition": {
         "role": "never"
       }
@@ -40,11 +44,7 @@
       "user_condition": {
         "role": "never"
       }
-    },
-    "delete": {
-      "user_condition": {
-        "role": "never"
-      }
     }
-  }
+  },
+  "type": "object"
 }

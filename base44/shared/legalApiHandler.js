@@ -27,7 +27,7 @@ import {
   validateManifest, verifyPresentation,
 } from './legalCore.js';
 import { loadActiveRelease, loadRecords, readMode } from './consentGuard.js';
-import { seedConsentLocks, withConsentLock } from './consentLock.js';
+import { claimSelfTest, seedConsentLocks, withConsentLock } from './consentLock.js';
 
 const iso = (ms) => new Date(ms).toISOString();
 // Base44 validates writes against the entity .jsonc; a null in a "string"
@@ -351,12 +351,22 @@ async function adminPublishRelease(ctx, body) {
   return { published: { id: row.id, release_id: releaseId, effective_at: candidate.effective_at } };
 }
 
+// Canary check of the write lock on the REAL ConsentWriteLock via the service
+// role (GPT second re-review). Publisher-only; touches only the reserved
+// self-test shard row, never consent evidence.
+async function adminLockSelfTest(ctx, body) {
+  requirePublisher(ctx);
+  const rounds = Math.min(4, Math.max(1, Number(body.rounds) || 4));
+  const parallel = Math.min(9, Math.max(2, Number(body.parallel) || 9));
+  return { self_test: await claimSelfTest(ctx.svc, { rounds, parallel }) };
+}
+
 // ---------------------------------------------------------------- router
 
 const PUBLIC = { getPublishedLegalPackage };
 const ACTIONS = {
   getConsentStatus, recordConsent, withdrawConsent, listMyConsents,
-  adminListReleases, adminCreateDraft, adminPublishRelease,
+  adminListReleases, adminCreateDraft, adminPublishRelease, adminLockSelfTest,
 };
 
 export function createLegalApiHandler({ createClientFromRequest, getSecret, now = () => Date.now(), lockOpts = {} }) {

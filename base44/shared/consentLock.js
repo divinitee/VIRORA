@@ -82,6 +82,9 @@ export async function seedConsentLocks(svc) {
 
 const token = () => 'lk_' + (globalThis.crypto?.randomUUID?.() || `${Date.now()}_${Math.random()}`).replace(/[^A-Za-z0-9]/g, '');
 const busy = (why) => new LegalError(CODE.LEGAL_WRITE_BUSY, 503, `${why}; retry with the same idempotency_key`);
+// One structured line per refusal, for monitoring (search the legalApi
+// function logs for "legal_write_busy"). See README "Operations".
+const report = (reason, extra) => console.warn(JSON.stringify({ event: 'legal_write_busy', reason, ...extra }));
 const retryAfterMs = (e) => {
   const s = Number(e?.response?.headers?.['retry-after'] ?? e?.headers?.get?.('retry-after'));
   return Number.isFinite(s) && s > 0 ? s * 1000 : null;
@@ -102,6 +105,7 @@ export async function withConsentLock(svc, userId, fn, {
   const started = Date.now();
   let row = null;
   let claimedAt = 0;
+  let reason = 'contended';
   for (let attempt = 0; ; attempt++) {
     let pause = Math.min(250, 40 + attempt * 30);
     try {
@@ -115,15 +119,23 @@ export async function withConsentLock(svc, userId, fn, {
         );
         if (res?.updated === 1) { claimedAt = t; break; }
       }
+      reason = 'contended';
     } catch (e) {
       // Rate limit (429) or a transient error: not acquired. Never write.
+      reason = (e?.response?.status ?? e?.status) === 429 ? 'rate_limited' : 'error';
       pause = Math.max(pause, retryAfterMs(e) ?? 0);
     }
-    if (Date.now() - started + pause > waitMs) throw busy('consent write busy');
+    if (Date.now() - started + pause > waitMs) {
+      report(reason, { shard, attempts: attempt + 1, waited_ms: Date.now() - started });
+      throw busy('consent write busy');
+    }
     await sleep(pause);
   }
   const fence = () => {
-    if (now() >= claimedAt + leaseMs - marginMs) throw busy('consent write lock lease no longer safe');
+    if (now() >= claimedAt + leaseMs - marginMs) {
+      report('fenced', { shard, held_ms: now() - claimedAt });
+      throw busy('consent write lock lease no longer safe');
+    }
   };
   try {
     return await fn(fence);
@@ -136,3 +148,38 @@ export async function withConsentLock(svc, userId, fn, {
     ).catch((e) => console.error('consent lock release failed:', e?.message || e));
   }
 }
+
+// Canary self-test (publisher-only, via legalApi adminLockSelfTest): the same
+// race as the live Task probe, but on ConsentWriteLock itself through the
+// service-role client — the exact path consent writes use. Uses a reserved
+// shard (SELFTEST_SHARD), never a user's lock, and touches no evidence.
+// Budget: rounds × (parallel + 1) bulk calls; the defaults stay under
+// Base44's 50 per 60 s per caller. 429s are counted, not hidden.
+export const SELFTEST_SHARD = 1000;
+export async function claimSelfTest(svc, { rounds = 4, parallel = 9 } = {}) {
+  const out = [];
+  for (let r = 0; r < rounds; r++) {
+    const row = await shardRow(svc, SELFTEST_SHARD);
+    const tokens = Array.from({ length: parallel }, () => token());
+    const res = await Promise.all(tokens.map((holder) =>
+      svc.ConsentWriteLock.updateMany(
+        { id: row.id, version: row.version },
+        { $set: { holder, lease_until: new Date(Date.now() + LEASE_MS).toISOString() }, $inc: { version: 1 } },
+      ).then((x) => ({ updated: x?.updated }), (e) => ({ error: (e?.response?.status ?? e?.status) === 429 ? 429 : 'error' }))));
+    const after = await shardRow(svc, SELFTEST_SHARD);
+    const winners = res.filter((x) => x.updated === 1).length;
+    out.push({
+      round: r + 1, winners, lost: res.filter((x) => x.updated === 0).length,
+      rate_limited: res.filter((x) => x.error === 429).length, errors: res.filter((x) => x.error === 'error').length,
+      version_advanced_by: (after.version ?? 0) - (row.version ?? 0),
+      holder_is_a_winner: tokens.includes(after.holder),
+    });
+    await svc.ConsentWriteLock.updateMany({ id: row.id, holder: after.holder }, { $set: { holder: '', lease_until: EPOCH }, $inc: { version: 1 } });
+  }
+  const clean = out.filter((x) => x.rate_limited === 0 && x.errors === 0);
+  return {
+    rounds: out,
+    verdict: clean.length && clean.every((x) => x.winners === 1 && x.version_advanced_by === 1 && x.holder_is_a_winner) ? 'ATOMIC' : 'NOT_PROVEN',
+  };
+}
+
