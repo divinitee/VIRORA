@@ -54,6 +54,21 @@ Deno.test('write lock: only consentLock.js touches ConsentWriteLock, it never to
   assertEquals(props.sort(), ['holder', 'lease_until', 'shard', 'version']);
 });
 
+Deno.test('write lock: every ConsentRecord append is inside withConsentLock and immediately preceded by fence()', () => {
+  const h = read('base44/shared/legalApiHandler.js');
+  const lines = h.split('\n');
+  const creates = lines.map((l, i) => [l, i] as const).filter(([l]) => /ConsentRecord\.create\(/.test(l));
+  assert(creates.length >= 2, 'record + withdraw appends found');
+  for (const [, i] of creates) assert(/^\s*fence\(\);/.test(lines[i - 1]), `line ${i + 1}: append not preceded by fence()`);
+  // Both writers run their append step through the lock.
+  assert(/withConsentLock\(ctx\.svc, me\.id, \(fence\) => appendConsent\(/.test(h));
+  assert(/withConsentLock\(ctx\.svc, me\.id, \(fence\) => appendWithdrawal\(/.test(h));
+  // History is never read with a single capped query in legal code.
+  for (const f of ['base44/shared/legalApiHandler.js', 'base44/shared/consentGuard.js']) {
+    assert(!/ConsentRecord\.filter\([^)]*,\s*'occurred_at',\s*1000\)/.test(read(f)), `${f}: capped history read`);
+  }
+});
+
 Deno.test('browser never touches legal entities directly', () => {
   const bad: string[] = [];
   for (const f of walk('src')) {

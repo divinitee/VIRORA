@@ -1,37 +1,56 @@
-// Write lock for consent evidence (GPT code audit, 2 Nov 2026, P2).
+// Write lock for consent evidence (GPT code audit + re-review, 2 Nov 2026).
 //
-// Problem: recordConsent / withdrawConsent do read-key → check → create. Two
-// simultaneous requests with the same idempotency key can both pass the
+// Problem: recordConsent / withdrawConsent do read-history → check → append.
+// Two simultaneous requests with the same idempotency key could both pass the
 // check and both append. Base44 has no unique constraints, no transactions
 // and no conditional create, so the evidence table itself cannot refuse the
 // second row.
 //
-// What Base44 DOES guarantee: updateMany() re-checks its conditions at the
-// moment of the write when the query names a single record's id (the
-// documented "claim a record" / "save only if unchanged" pattern). So the
-// lock is a small, fixed set of rows in ConsentWriteLock, each claimed with
-//   updateMany({ id, version }, { $set: { holder, lease_until }, $inc: { version: 1 } })
-// and held only while the caller reads its prior records and appends.
+// The primitive: updateMany() with a query naming a single record's id is an
+// atomic conditional write ("claim a record" / "save only if unchanged" in
+// the SDK 0.8.57 docs and docs.base44.com entity-schemas#concurrent-updates).
+// Verified LIVE on this app (2 Nov 2026, probe task VT-47.1): 6 rounds of
+// 9–20 simultaneous updateMany({id, field: v}, {$inc}) calls → exactly one
+// `updated: 1` per round, all others `updated: 0`, counter advanced by
+// exactly 1 each round; a naive read-then-write control with 30 callers
+// lost 29 of 30 updates, so the requests really did overlap.
 //
-// - One lock per user (hashed onto LOCK_SHARDS rows), so the same user's
-//   record and withdraw calls are serialised; different users rarely wait.
-// - The rows are seeded when a publisher creates a draft (before any release,
-//   and so any consent, can exist) and lazily if missing. If seeding ever
-//   produced two rows for a shard, every caller picks the same canonical one
-//   (oldest created_date, then id).
-// - A lease, not a forever lock: a crashed holder blocks for at most LEASE_MS.
-// - Holder is a random token. No user id or personal data is stored here.
+// Mechanism:
+// - One lock per user, hashed onto LOCK_SHARDS fixed rows of ConsentWriteLock.
+// - Claim: updateMany({ id, version }, { $set: { holder, lease_until }, $inc: { version: 1 } }),
+//   held iff `updated === 1`.
+// - Stale-holder fence, BEFORE EVERY APPEND: the holder may append only while
+//   its own lease is still valid with a safety margin
+//   (now < claimed_at + LEASE_MS − FENCE_MARGIN_MS). Another handler can take
+//   the row only after lease_until has passed, so a holder that passes the
+//   fence cannot overlap one that claimed after expiry, provided the append
+//   finishes within the margin and instance clocks agree to within it. A
+//   holder that stalled past the fence aborts with LEGAL_WRITE_BUSY and
+//   writes nothing; the client retries with the same idempotency key. The
+//   fence costs no API call, which matters: Base44 allows 50 bulk updates per
+//   60 s per caller, and legalApi's service token is ONE caller for the whole
+//   app (shared with progressApi's coin rewards).
+// - Release in finally, conditioned on our holder token.
+// - 429 / errors while claiming: back off (honouring Retry-After within the
+//   wait budget), then LEGAL_WRITE_BUSY. Nothing is ever written without the
+//   lock.
+// - Rows are seeded at draft time (before any release, so before any consent)
+//   and lazily if missing; duplicate seed rows resolve to the oldest.
+// - Holder is a random token: no user id or personal data here.
 // - ConsentRecord stays append-only: this module never touches it.
 //
-// Backstop: if a lease ever expires mid-write, readers still collapse rows
-// sharing an idempotency key (legalCore.collapseDuplicates), so a duplicate
-// can never change status, receipts or which record a retry returns.
+// Residual (documented, not silent): an append that is still in flight longer
+// than FENCE_MARGIN_MS after passing the fence, or instance clock skew beyond
+// the margin. Readers then collapse rows sharing an idempotency key
+// (legalCore.collapseDuplicates), so even that cannot change status, receipts
+// or retries.
 
 import { CODE, LegalError } from './legalCore.js';
 
 export const LOCK_SHARDS = 16;
-export const LEASE_MS = 15_000;
-const WAIT_MS = 4_000;
+export const LEASE_MS = 30_000;
+export const FENCE_MARGIN_MS = 15_000;
+const WAIT_MS = 6_000;
 const EPOCH = new Date(0).toISOString();
 
 export function shardFor(userId) {
@@ -62,34 +81,55 @@ export async function seedConsentLocks(svc) {
 }
 
 const token = () => 'lk_' + (globalThis.crypto?.randomUUID?.() || `${Date.now()}_${Math.random()}`).replace(/[^A-Za-z0-9]/g, '');
+const busy = (why) => new LegalError(CODE.LEGAL_WRITE_BUSY, 503, `${why}; retry with the same idempotency_key`);
+const retryAfterMs = (e) => {
+  const s = Number(e?.response?.headers?.['retry-after'] ?? e?.headers?.get?.('retry-after'));
+  return Number.isFinite(s) && s > 0 ? s * 1000 : null;
+};
 
-// Runs fn() while holding the caller's lock. Throws LEGAL_WRITE_BUSY (503)
-// if the lock can't be had within WAIT_MS; the client retries with the SAME
-// idempotency key, so nothing is lost or doubled.
-export async function withConsentLock(svc, userId, fn, { now = () => Date.now(), sleep = (ms) => new Promise((r) => setTimeout(r, ms)), waitMs = WAIT_MS } = {}) {
+// Runs fn(fence) while holding the caller's lock. fn MUST call fence()
+// immediately before every append; fence() throws LEGAL_WRITE_BUSY once the
+// lease is no longer safely ours.
+export async function withConsentLock(svc, userId, fn, {
+  now = () => Date.now(),
+  sleep = (ms) => new Promise((r) => setTimeout(r, ms)),
+  waitMs = WAIT_MS,
+  leaseMs = LEASE_MS,
+  marginMs = FENCE_MARGIN_MS,
+} = {}) {
   const shard = shardFor(userId);
   const mine = token();
   const started = Date.now();
   let row = null;
+  let claimedAt = 0;
   for (let attempt = 0; ; attempt++) {
-    row = await shardRow(svc, shard);
-    const t = now();
-    const free = !row.holder || Date.parse(row.lease_until || EPOCH) <= t;
-    if (free) {
-      const res = await svc.ConsentWriteLock.updateMany(
-        { id: row.id, version: row.version },
-        { $set: { holder: mine, lease_until: new Date(t + LEASE_MS).toISOString() }, $inc: { version: 1 } },
-      );
-      if (res?.updated === 1) break;
+    let pause = Math.min(250, 40 + attempt * 30);
+    try {
+      row = await shardRow(svc, shard);
+      const t = now();
+      const free = !row.holder || Date.parse(row.lease_until || EPOCH) <= t;
+      if (free) {
+        const res = await svc.ConsentWriteLock.updateMany(
+          { id: row.id, version: row.version },
+          { $set: { holder: mine, lease_until: new Date(t + leaseMs).toISOString() }, $inc: { version: 1 } },
+        );
+        if (res?.updated === 1) { claimedAt = t; break; }
+      }
+    } catch (e) {
+      // Rate limit (429) or a transient error: not acquired. Never write.
+      pause = Math.max(pause, retryAfterMs(e) ?? 0);
     }
-    if (Date.now() - started >= waitMs) throw new LegalError(CODE.LEGAL_WRITE_BUSY, 503, 'consent write busy, retry with the same idempotency_key');
-    await sleep(Math.min(250, 40 + attempt * 30));
+    if (Date.now() - started + pause > waitMs) throw busy('consent write busy');
+    await sleep(pause);
   }
+  const fence = () => {
+    if (now() >= claimedAt + leaseMs - marginMs) throw busy('consent write lock lease no longer safe');
+  };
   try {
-    return await fn();
+    return await fn(fence);
   } finally {
     // Release only if still ours (a lease that expired and was re-claimed is
-    // left to its new holder).
+    // left to its new holder). A failed release just lets the lease expire.
     await svc.ConsentWriteLock.updateMany(
       { id: row.id, holder: mine },
       { $set: { holder: '', lease_until: EPOCH }, $inc: { version: 1 } },

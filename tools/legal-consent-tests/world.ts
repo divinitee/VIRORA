@@ -30,15 +30,22 @@ export function makeWorld(secretOverrides: Record<string, string | undefined> = 
       }
       return { success: true, updated: hits.length, has_more: false };
     };
-    for (const m of ['create', 'update', 'updateMany', 'delete', 'filter', 'list', 'get']) {
+    const rawFilter = e.filter.bind(e);
+    e.count = async (q: Record<string, unknown> = {}) => (await rawFilter(q, undefined, 1e9)).length;
+    for (const m of ['create', 'update', 'updateMany', 'delete', 'filter', 'list', 'get', 'count']) {
       const orig = e[m]?.bind(e);
       e[m] = async (...a: any[]) => {
         calls.push(`${n}.${m}`);
         if (world.concurrent) await new Promise((r) => setTimeout(r, Math.random() * 3));
-        if (world.failReads && (m === 'filter' || m === 'list')) throw new Error('db down');
+        if (world.failReads && (m === 'filter' || m === 'list' || m === 'count')) throw new Error('db down');
+        if (world.hooks?.[`${n}.${m}`]) await world.hooks[`${n}.${m}`](...a);
         if (world.failCreate && m === 'create' && n === 'ConsentRecord') throw new Error('write failed');
         if (!orig) throw new Error(`${m} not supported`);
-        return orig(...a);
+        const out = await orig(...a);
+        // after-hooks park a handler AFTER a call returned (e.g. after a
+        // consistent history read, before its next step).
+        if (world.hooks?.[`after:${n}.${m}`]) await world.hooks[`after:${n}.${m}`](out, ...a);
+        return out;
       };
     }
     entities[n] = e;
@@ -51,7 +58,7 @@ export function makeWorld(secretOverrides: Record<string, string | undefined> = 
   };
   let clock = Date.parse('2026-11-01T10:00:00Z');
   const world: any = {
-    entities, calls, secrets, failReads: false, failCreate: false, concurrent: false,
+    entities, calls, secrets, failReads: false, failCreate: false, concurrent: false, hooks: {} as Record<string, (...a: any[]) => Promise<void> | void>,
     now: () => clock,
     advance: (ms: number) => { clock += ms; },
     getSecret: (n: string) => secrets[n],
