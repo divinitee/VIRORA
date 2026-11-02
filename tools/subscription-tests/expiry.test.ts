@@ -56,7 +56,7 @@ Deno.test('idempotent: applying the patch twice changes nothing more', () => {
 Deno.test('read-time truth: subscriptionKind sees an ended trial as free', () => {
   assertEquals(subscriptionKind(trial, END - 1), 'trial');
   assertEquals(subscriptionKind(trial, END), 'free');
-  assertEquals(subscriptionKind(trial, null), 'trial'); // raw stored state
+  assertEquals(subscriptionKind(trial, null as unknown as number), 'trial'); // raw stored state
 });
 
 Deno.test('live Dodo card rows are not reclassified (webhooks own them)', () => {
