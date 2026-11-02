@@ -5,6 +5,7 @@ import {
   ATTESTED_WEIGHT, CONFIDENCE_HIGH_MIN, CONFIDENCE_MEDIUM_MIN, groupRounds, masteryOf, presentState,
   skillConfidence, stateFrom, confidenceFor, replayPeak,
 } from "../../base44/shared/progressCore.js";
+import { bestCheckAfter, checkFromReceipt, storedCheck, CROSSWORD_CHECK } from "../../base44/shared/homeworkCheck.js";
 
 let fails = 0, n = 0;
 const eq = (got, want, msg) => {
@@ -62,6 +63,39 @@ const rebuilt = stateFrom({ verified: g, legacy: [], verifiedCount: g.length, le
 const receipts = stateFrom({ verified: [round(1, 1, 2, "self"), round(2, 1, 1, "server")], legacy: [], verifiedCount: 2, serverCount: 1, legacyCount: 0 }, Date.parse(at(20)));
 eq([rebuilt.current_mastery, rebuilt.server_checked_rounds], [receipts.current_mastery, receipts.server_checked_rounds], "rebuild and recompute agree");
 eq(replayPeak(g, []) >= rebuilt.current_mastery, true, "peak replay uses the weighted mastery");
+
+// Homework score checks (GPT semi-final audit: three states, no inference)
+eq(checkFromReceipt({ verification: "server_graded" }), "server_verified", "receipt server_graded → server_verified");
+eq(checkFromReceipt({ verification: "server_ai" }), "server_verified", "receipt server_ai → server_verified");
+eq(checkFromReceipt({ verification: "client_attested" }), "self_checked", "receipt client_attested → self_checked");
+eq(checkFromReceipt({}), "unknown", "receipt without verification → unknown (not guessed)");
+eq(checkFromReceipt({ verification: "whatever" }), "unknown", "unrecognised verification → unknown");
+eq(CROSSWORD_CHECK, "self_checked", "crossword (client says solved, no scored round) → self_checked");
+eq(bestCheckAfter(null, 80, "self_checked"), "self_checked", "first submission: best takes this round's check");
+eq(bestCheckAfter({ best_score_pct: 70, best_score_check: "server_verified" }, 90, "self_checked"), "self_checked", "new best replaces the check");
+eq(bestCheckAfter({ best_score_pct: 90, best_score_check: "server_verified" }, 80, "self_checked"), "server_verified", "lower score keeps the best's check");
+eq(bestCheckAfter({ best_score_pct: 90, best_score_check: "server_verified" }, 90, "self_checked"), "server_verified", "a tie keeps the original best's check");
+eq(bestCheckAfter({ best_score_pct: 90 }, 50, "server_verified"), "unknown", "pre-VT-45 best stays unknown when not beaten");
+eq(storedCheck(undefined, 75), "unknown", "teacher view: old submission → unknown, never guessed from the game");
+eq(storedCheck("self_checked", 75), "self_checked", "teacher view: stored state shown as is");
+eq(storedCheck("client_attested", 75), "unknown", "teacher view: a raw/unknown value is never mapped to a state");
+eq(storedCheck(undefined, null), null, "teacher view: no score → no label");
+const tApi = (await import("node:fs")).readFileSync("base44/functions/teacherApi/entry.ts", "utf8");
+eq(/SERVER_GRADED_HOMEWORK|selfChecked\(/.test(tApi), false, "teacherApi: the game-type exclusion list is gone");
+
+// Trust boundary (static): who can write the fields the confidence cap and
+// the homework label rely on.
+const fsx = await import("node:fs");
+const rls = (e) => JSON.parse(fsx.readFileSync(`base44/entities/${e}.jsonc`, "utf8")).rls || {};
+for (const e of ["SkillState", "RoundReceipt", "HomeworkSubmission", "WordAttempt", "GrammarAttempt", "AiGradedItem"]) {
+  const r = rls(e);
+  eq(["create", "update", "delete"].map((op) => r[op]?.user_condition?.role), ["admin", "admin", "admin"], `${e}: students can't create/update/delete (admin/service only)`);
+}
+const walk = (d) => fsx.readdirSync(d, { withFileTypes: true }).flatMap((x) => x.isDirectory() ? walk(`${d}/${x.name}`) : /\.(js|jsx|ts)$/.test(x.name) ? [`${d}/${x.name}`] : []);
+const writers = (re) => [...walk("src"), ...walk("base44")].filter((f) => re.test(fsx.readFileSync(f, "utf8")));
+eq(writers(/SkillState\.(create|update|bulkCreate|updateMany)\(/), ["base44/shared/progressEngine.ts"], "SkillState is written only by progressEngine (server)");
+eq(writers(/RoundReceipt\.(create|update|bulkCreate|updateMany)\(/).sort(), ["base44/functions/progressApi/entry.ts", "base44/shared/progressEngine.ts"], "RoundReceipt (incl. verification) is written only by progressApi/progressEngine");
+eq(writers(/HomeworkSubmission\.(create|update|bulkCreate|updateMany)\(/), ["base44/functions/studentApi/entry.ts"], "HomeworkSubmission is written only by studentApi (server)");
 
 console.log(fails ? `\n${fails}/${n} FAILED` : `\nALL PASS (${n})`);
 process.exit(fails ? 1 : 0);

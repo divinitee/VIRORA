@@ -1,6 +1,7 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
 import { readSkillStates } from '../../shared/progressEngine.ts';
 import { subscriptionKind } from '../../shared/subscriptionCore.js';
+import { storedCheck } from '../../shared/homeworkCheck.js';
 
 // teacherApi: the Teacher Panel's only read/write path for classes, rosters,
 // homework and results. (Teacher Panel phase 1, 2026-09-23)
@@ -174,7 +175,7 @@ async function overview(svc: any, me: any) {
         name: nameOf.get(email) || sub?.student_name || email,
         status,
         best_score_pct: sub?.best_score_pct ?? null,
-        best_self_checked: selfChecked(sub?.best_score_verification, sub?.best_score_pct, a.game),
+        best_score_check: storedCheck(sub?.best_score_check, sub?.best_score_pct),
         attempts: sub?.attempts || 0,
         completed_at: sub?.first_completed_at || null,
         completed_late: !!sub?.completed_late,
@@ -210,7 +211,7 @@ async function overview(svc: any, me: any) {
       student_name: s.student_name || s.student_email,
       best_score_pct: s.best_score_pct ?? null,
       last_score_pct: s.last_score_pct ?? null,
-      best_self_checked: selfChecked(s.best_score_verification, s.best_score_pct, a?.game),
+      best_score_check: storedCheck(s.best_score_check, s.best_score_pct),
       completed_at: s.last_completed_at || s.first_completed_at,
       completed_late: !!s.completed_late,
     };
@@ -365,17 +366,6 @@ const ACTIONS: Record<string, (svc: any, me: any, body: any) => Promise<any>> = 
   createAssignment,
   closeAssignment,
 };
-
-// VT-45: a homework score from a game that reported its own answers is shown
-// to the teacher as "self-checked". Submissions from before VT-45 have no
-// label; for those we can't tell, so they're marked self-checked too unless
-// the game is one the server always grades.
-const SERVER_GRADED_HOMEWORK = new Set(['grammar', 'grammar_practice', 'spelling', 'definition', 'sentence', 'crossword']);
-function selfChecked(verification: any, pct: any, game?: string) {
-  if (pct == null) return false;
-  if (verification) return verification === 'client_attested';
-  return game ? !SERVER_GRADED_HOMEWORK.has(game) : true;
-}
 
 Deno.serve(async (req) => {
   if (req.method !== 'POST') return Response.json({ error: 'POST only' }, { status: 405 });

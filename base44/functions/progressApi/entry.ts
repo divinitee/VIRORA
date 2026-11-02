@@ -99,10 +99,12 @@ async function gradeEvidence(svc: any, me: any, r: any, body: any) {
     if (!lvl.ok) throw new ApiError(409, 'no_session_level');
     learnerLevel = lvl.level ?? null;
   }
-  // VT-45 phase 1: a Coach round (it carries the session key) only ever sends
-  // question types the server can grade, so an ungradable item in one is
-  // forged and the round is rejected instead of trusting its `correct` flag.
-  const coachRound = r.game === 'quiz' && !!(body?.coach && typeof body.coach === 'object' && str(body.coach.session_key, 80));
+  // VT-45 phase 1: a "quiz" round that sends an items array must be fully
+  // server-gradable. Only the Coach sends quiz items (src/lib/coach/answerBatches.js),
+  // with OR without coach.session_key, and every one is gradable; Skill Hub's
+  // Translation Drill uses the counts form above. So the rule hangs on the
+  // round's shape, not on a key the client could leave out (GPT audit, 2 Nov).
+  const quizItems = r.game === 'quiz' && Array.isArray(body.items);
   let anyAttested = false;
   const rows = items.map((it: any) => {
     const w = it?.word_id ? byId.get(str(it.word_id, 40)) : null;
@@ -113,7 +115,7 @@ async function gradeEvidence(svc: any, me: any, r: any, body: any) {
     if (!word) throw new ApiError(400, 'bad_items');
     let correct: boolean | null = gradeWordItem({ game: r.game, skill, word: w, item: it, aiScore: aiByKey.get(normalise(word)), learnerLevel });
     if (correct === null) {
-      if (coachRound) throw new ApiError(400, 'ungradable_item');
+      if (quizItems) throw new ApiError(400, 'ungradable_item');
       // Self-reported answer: it must at least be a real boolean (the games
       // send !!correct). Anything else is malformed, not "wrong".
       if (typeof it?.correct !== 'boolean') throw new ApiError(400, 'bad_items');

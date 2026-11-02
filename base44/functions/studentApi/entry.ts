@@ -1,5 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
 import { expiryPatch } from '../../shared/subscriptionCore.js';
+import { CROSSWORD_CHECK, bestCheckAfter, checkFromReceipt } from '../../shared/homeworkCheck.js';
 
 // studentApi: every write that grants access, sets teacher attribution, or
 // records homework for the CALLING student. (Teacher Panel phase 1, 2026-09-23)
@@ -290,16 +291,16 @@ async function submitHomework(svc: any, me: any, body: any) {
   // the client. Crossword has no scored round (it only reports "solved").
   let pct = 100;
   let roundId = '';
-  // VT-45: how this score was checked, copied from the receipt, so the teacher
-  // can see when a game reported its own answers ("self-checked").
-  let verification = 'none';
+  // VT-45: how this score was checked, copied from the receipt (never guessed),
+  // so the teacher can tell verified, self-checked and unknown scores apart.
+  let check: string = CROSSWORD_CHECK;
   if (a.game !== 'crossword') {
     const receipt = await latestRound(svc, me.email, a.game, existing?.last_completed_at || a.created_date);
     if (!receipt || !receipt.items_total) throw new ApiError(409, 'round_not_recorded');
     if (existing?.last_round_id === receipt.round_id) throw new ApiError(409, 'round_already_counted');
     pct = Math.round(Math.max(0, Math.min(1, receipt.items_credit / receipt.items_total)) * 100);
     roundId = receipt.round_id;
-    verification = String(receipt.verification || 'client_attested');
+    check = checkFromReceipt(receipt);
   }
   let submission;
   if (existing) {
@@ -307,10 +308,9 @@ async function submitHomework(svc: any, me: any, body: any) {
       last_round_id: roundId,
       attempts: (existing.attempts || 0) + 1,
       last_score_pct: pct,
-      last_score_verification: verification,
+      last_score_check: check,
       best_score_pct: Math.max(existing.best_score_pct ?? 0, pct),
-      // The best round keeps its own label; a new best replaces it.
-      best_score_verification: pct > (existing.best_score_pct ?? -1) ? verification : (existing.best_score_verification || 'client_attested'),
+      best_score_check: bestCheckAfter(existing, pct, check),
       last_completed_at: now,
       student_name: displayName(me),
     });
@@ -325,8 +325,8 @@ async function submitHomework(svc: any, me: any, body: any) {
       attempts: 1,
       best_score_pct: pct,
       last_score_pct: pct,
-      best_score_verification: verification,
-      last_score_verification: verification,
+      best_score_check: check,
+      last_score_check: check,
       first_completed_at: now,
       last_completed_at: now,
       completed_late: !!(a.due_date && todayLocal() > a.due_date),
