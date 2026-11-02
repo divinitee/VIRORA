@@ -166,7 +166,11 @@ export default function Home() {
   const handleDeleteAccount = async () => {
     setDeleting(true);
     try {
-      if (subscription) await base44.entities.StudentSubscription.delete(subscription.id);
+      // The subscription row is NOT deleted here (GPT final decision, 2 Nov):
+      // students can't delete subscription records any more (RLS admin-only),
+      // because a paid record is billing/entitlement evidence. Removing it is
+      // part of the admin wipe, where payment records follow the lawyer's
+      // retention decision.
       await base44.entities.QuizResult.deleteMany({ student_phone: user?.email });
       await base44.auth.logout("/register");
     } catch (err) {
