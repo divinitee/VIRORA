@@ -15,16 +15,19 @@
 //   LegalDocumentVersion, LegalPolicyRelease, ConsentRecord
 //
 // Append-only: this file only ever calls .create() on those three entities.
+// Consent writes run under a per-user lease lock (consentLock.js) so two
+// simultaneous requests with the same idempotency key cannot both append.
 // tools/legal-consent-tests/append_only.test.ts fails if an update/delete call
 // appears anywhere in the legal code.
 
 import {
   CODE, DOC_TYPES, EVENT, EVIDENCE_SCHEMA_VERSION, LOCALES, LegalError, ORIGIN_ROUTES,
-  activeGrants, canonicalize, deriveStatus, docFor, documentId, isEnforcedFor, isIdempotencyKey, isLocale,
+  activeGrants, canonicalize, collapseDuplicates, deriveStatus, docFor, documentId, isEnforcedFor, isIdempotencyKey, isLocale,
   parseIdList, pickLocale, requirementKey, selectActiveRelease, sha256Hex, signPresentation, validateActions,
   validateManifest, verifyPresentation,
 } from './legalCore.js';
 import { loadActiveRelease, loadRecords, readMode } from './consentGuard.js';
+import { seedConsentLocks, withConsentLock } from './consentLock.js';
 
 const iso = (ms) => new Date(ms).toISOString();
 // Base44 validates writes against the entity .jsonc; a null in a "string"
@@ -118,9 +121,14 @@ async function recordConsent(ctx, body) {
   });
   const reqs = validateActions(release, body.actions);
 
-  // Idempotency: a retry after an ambiguous timeout finds what the first
-  // attempt already wrote and only appends what is still missing.
-  const prior = await ctx.svc.ConsentRecord.filter({ subject_user_id: String(me.id), idempotency_key: body.idempotency_key }, 'occurred_at', 50);
+  return withConsentLock(ctx.svc, me.id, () => appendConsent(ctx, me, body, release, reqs, origin, occurredAt), ctx.lockOpts);
+}
+
+async function appendConsent(ctx, me, body, release, reqs, origin, occurredAt) {
+  // Idempotency (under the user's write lock): a retry, sequential or
+  // simultaneous, finds what the first attempt wrote and only appends what is
+  // still missing.
+  const prior = collapseDuplicates(await ctx.svc.ConsentRecord.filter({ subject_user_id: String(me.id), idempotency_key: body.idempotency_key }, 'occurred_at', 50));
   if (prior.some((r) => r.release_id !== release.release_id)) throw new LegalError(CODE.INVALID_REQUEST, 400, 'idempotency_key reused');
   const done = new Set(prior.map((r) => requirementKey(r)));
 
@@ -160,6 +168,10 @@ async function recordConsent(ctx, body) {
 async function withdrawConsent(ctx, body) {
   const me = ctx.requireUser();
   if (!isIdempotencyKey(body.idempotency_key)) throw new LegalError(CODE.INVALID_REQUEST, 400, 'idempotency_key');
+  return withConsentLock(ctx.svc, me.id, () => appendWithdrawal(ctx, me, body), ctx.lockOpts);
+}
+
+async function appendWithdrawal(ctx, me, body) {
   const records = await loadRecords(ctx.svc, me.id);
   const already = records.find((r) => r.event_type === EVENT.DP_WITHDRAWN && r.idempotency_key === body.idempotency_key);
   if (already) return { withdrawn: { record_id: already.id, purpose_scope_id: already.purpose_scope_id, occurred_at: already.occurred_at } };
@@ -245,7 +257,11 @@ async function adminCreateDraft(ctx, body) {
   if (!docsIn.length || docsIn.length > 30) throw new LegalError(CODE.INVALID_REQUEST, 400, 'documents');
   const reqs = Array.isArray(body.required_events_and_scopes) ? body.required_events_and_scopes : [];
 
+  // Phase 1, no writes: hash every document and check it against what is
+  // already stored. Nothing is written until the whole manifest validates, so
+  // a rejected draft leaves no orphan document rows behind.
   const byLocale = {};
+  const pending = [];
   const now = ctx.now();
   for (const d of docsIn) {
     if (!DOC_TYPES.includes(d.document_type) || !LOCALES.includes(d.locale) || !VERSION.test(String(d.version || ''))) {
@@ -260,7 +276,7 @@ async function adminCreateDraft(ctx, body) {
       throw new LegalError(CODE.INVALID_REQUEST, 409, `${id} already exists with different text — use a new version`);
     }
     if (!existing.length) {
-      await ctx.svc.LegalDocumentVersion.create(compact({
+      pending.push(compact({
         document_id: id, document_type: d.document_type, version: String(d.version), locale: d.locale,
         content_format: d.content_format === 'text' ? 'text' : 'markdown', canonical_content: content, sha256,
         first_release_id: releaseId, created_at: iso(now), created_by: String(me.id),
@@ -281,6 +297,11 @@ async function adminCreateDraft(ctx, body) {
   // broken draft is caught now, not at publish time.
   const problems = validateManifest({ ...draft, approval_reference: 'pending' });
   if (problems.length) throw new LegalError(CODE.INVALID_REQUEST, 400, problems.join('; '));
+  // Phase 2: write. Validation already rejected duplicate document ids, so
+  // each pending artifact is written once.
+  for (const doc of pending) await ctx.svc.LegalDocumentVersion.create(doc);
+  // Consent write locks exist before any release (and so any consent) can.
+  await seedConsentLocks(ctx.svc);
   const row = await ctx.svc.LegalPolicyRelease.create(compact(draft));
   return { draft: { id: row.id, release_id: releaseId, documents_by_locale: byLocale } };
 }
@@ -334,7 +355,7 @@ const ACTIONS = {
   adminListReleases, adminCreateDraft, adminPublishRelease,
 };
 
-export function createLegalApiHandler({ createClientFromRequest, getSecret, now = () => Date.now() }) {
+export function createLegalApiHandler({ createClientFromRequest, getSecret, now = () => Date.now(), lockOpts = {} }) {
   return async (req) => {
     if (req.method !== 'POST') return Response.json({ ok: false, error: 'POST only', code: CODE.INVALID_REQUEST }, { status: 405 });
     try {
@@ -347,7 +368,7 @@ export function createLegalApiHandler({ createClientFromRequest, getSecret, now 
         try { me = await base44.auth.me(); } catch { me = null; }
       }
       const ctx = {
-        svc, getSecret, now,
+        svc, getSecret, now, lockOpts: { now, ...lockOpts },
         requireUser: () => {
           if (!me?.id) throw new LegalError(CODE.UNAUTHENTICATED, 401);
           return me;

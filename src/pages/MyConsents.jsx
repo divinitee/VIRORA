@@ -6,6 +6,7 @@ import { useAuth } from "@/lib/AuthContext";
 import { getAppLang } from "@/hooks/useAppLang";
 import { listMyConsents, newIdempotencyKey, withdrawConsent } from "@/lib/legal/legalClient";
 import { disableConsentedAnalytics } from "@/lib/analyticsConsent";
+import { useConsent } from "@/lib/legal/ConsentContext";
 
 // /legal/consents — consent receipts and withdrawal (Legal Consent
 // Architecture §5, §7 withdrawConsent). Deliberately UNGATED: withdrawing
@@ -46,6 +47,7 @@ export default function MyConsents() {
   const [busy, setBusy] = useState(null);
   const [notice, setNotice] = useState("");
   const keys = useRef({});
+  const consent = useConsent();
 
   const load = useCallback(async () => {
     setError("");
@@ -62,15 +64,19 @@ export default function MyConsents() {
     keys.current[r.record_id] ||= newIdempotencyKey();
     try {
       await withdrawConsent({ related_record_id: r.record_id, idempotency_key: keys.current[r.record_id] });
-      // Withdrawal stops analytics at once, not at the next consent re-check.
-      disableConsentedAnalytics();
-      setNotice(c.withdrawn);
-      await load();
     } catch {
       setNotice(c.failed);
-    } finally {
       setBusy(null);
+      return;
     }
+    // Committed. Withdrawal stops analytics at once, not at the next consent
+    // re-check; then the app-wide consent state is re-read straight away
+    // (caches dropped, gate back up) instead of waiting up to 60 s.
+    disableConsentedAnalytics();
+    setNotice(c.withdrawn);
+    try { await consent.withdrawn(); } catch { /* the provider already fails closed */ }
+    await load();
+    setBusy(null);
   };
 
   return (
