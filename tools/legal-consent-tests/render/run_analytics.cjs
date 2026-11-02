@@ -58,7 +58,12 @@ const last = (w) => (w.__analytics || []).at(-1)?.[0];
   check(enables(w).length === 0, 'signed out: analytics never start');
 
   const my = fs.readFileSync(path.join(process.cwd(), 'src/pages/MyConsents.jsx'), 'utf8');
-  check(/await withdrawConsent\([^)]*\);\s*\n\s*\/\/[^\n]*\n\s*disableConsentedAnalytics\(\);/.test(my), 'withdrawal page stops analytics right after a successful withdrawal');
+  // Order in the success path: commit → analytics off → app-wide re-check.
+  // (Behaviour is proven end to end by run_withdraw.cjs.)
+  const iW = my.indexOf('await withdrawConsent('), iCatch = my.indexOf('} catch', iW), iOff = my.indexOf('disableConsentedAnalytics();', iW), iRe = my.indexOf('consent.withdrawn()', iW);
+  const failPath = my.slice(iCatch, my.indexOf('}', my.indexOf('return;', iCatch)));
+  check(iW > 0 && iOff > iCatch && iRe > iOff && failPath.includes('return;') && !failPath.includes('disableConsentedAnalytics'),
+    'withdrawal page stops analytics right after a successful withdrawal (and only then), before the app-wide re-check');
 
   console.log(failures ? `\n${failures} FAILED` : '\nALL PASS');
   process.exit(failures ? 1 : 0);

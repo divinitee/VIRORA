@@ -15,7 +15,7 @@
 // this: see LEGAL-CONSENT-V1-HANDOFF.md "Path inventory" for each decision.
 
 import {
-  CODE, LegalError, deriveStatus, isEnforcedFor, parseIdList, resolveMode, selectActiveRelease, validateManifest,
+  CODE, LegalError, collapseDuplicates, deriveStatus, isEnforcedFor, parseIdList, resolveMode, selectActiveRelease, validateManifest,
 } from './legalCore.js';
 
 export const MODE_SECRET = 'LEGAL_CONSENT_MODE';
@@ -39,8 +39,10 @@ export async function loadActiveRelease(svc, now = Date.now()) {
   return release;
 }
 
-export const loadRecords = (svc, userId) =>
-  svc.ConsentRecord.filter({ subject_user_id: String(userId) }, 'occurred_at', 1000);
+// Every reader goes through here, so duplicate rows from a concurrent retry
+// are collapsed before status, receipts or withdrawal see them.
+export const loadRecords = async (svc, userId) =>
+  collapseDuplicates(await svc.ConsentRecord.filter({ subject_user_id: String(userId) }, 'occurred_at', 1000));
 
 // Returns { enforced, allowed, code?, missing? }. Never throws.
 /** @param {any} svc @param {any} user @param {{ getSecret?: (n: string) => string | undefined, now?: number }} [opts] */

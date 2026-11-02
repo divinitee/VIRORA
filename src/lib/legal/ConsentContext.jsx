@@ -117,17 +117,30 @@ export function ConsentProvider({ children }) {
     };
   }, [check, quiet]);
 
+  // A withdrawal the server just committed. legalApi is outside the consent
+  // interceptor, so nothing else would notice until the next 60 s re-check:
+  // stop analytics, drop every cached query (protected data must not outlive
+  // the consent it was loaded under), then take a FRESH status read, which
+  // moves the app to "required" (or "unavailable") right away. Gate off:
+  // only the cache drop applies, nothing else changes.
+  const withdrawn = useCallback(async () => {
+    disableConsentedAnalytics();
+    queryClientInstance.clear();
+    if (CONSENT_GATE_ENABLED) await check();
+  }, [check]);
+
   const value = useMemo(() => ({
     enabled: CONSENT_GATE_ENABLED,
     state, status, code, retrying,
     // Fresh read after a successful submission: only this unlocks.
     accepted: () => check(),
     refresh: () => check(),
+    withdrawn,
     retry: async () => { setRetrying(true); try { await check(); } finally { setRetrying(false); } },
     setLocale: (l) => { localeRef.current = l; return check(); },
     locale: localeRef.current,
     signOut: () => base44.auth.logout(`${window.location.origin}/landing`),
-  }), [state, status, code, retrying, check]);
+  }), [state, status, code, retrying, check, withdrawn]);
 
   return <ConsentContext.Provider value={value}>{children}</ConsentContext.Provider>;
 }

@@ -19,8 +19,8 @@ function* walk(dir: string): Generator<string> {
   }
 }
 
-Deno.test('schema: LegalDocumentVersion / LegalPolicyRelease / ConsentRecord are RLS never for create/read/update/delete', () => {
-  for (const n of ['LegalDocumentVersion', 'LegalPolicyRelease', 'ConsentRecord']) {
+Deno.test('schema: LegalDocumentVersion / LegalPolicyRelease / ConsentRecord / ConsentWriteLock are RLS never for create/read/update/delete', () => {
+  for (const n of ['LegalDocumentVersion', 'LegalPolicyRelease', 'ConsentRecord', 'ConsentWriteLock']) {
     const e = JSON.parse(read(`base44/entities/${n}.jsonc`));
     for (const op of ['create', 'read', 'update', 'delete']) {
       assertEquals(e.rls?.[op]?.user_condition?.role, 'never', `${n}.${op}`);
@@ -33,13 +33,25 @@ Deno.test('append-only: no code updates or deletes legal/consent entities', () =
   for (const dir of ['src', 'base44']) {
     for (const f of walk(dir)) {
       const s = read(f);
-      if (/(ConsentRecord|LegalPolicyRelease|LegalDocumentVersion)\s*\.\s*(update|delete|deleteMany|bulkUpdate)\s*\(/.test(s)) bad.push(f);
+      if (/(ConsentRecord|LegalPolicyRelease|LegalDocumentVersion)\s*\.\s*(update|updateMany|upsert|delete|deleteMany|bulkUpdate)\s*\(/.test(s)) bad.push(f);
     }
   }
   assertEquals(bad, []);
   // The handler only ever calls .create on the three entities.
   const h = read('base44/shared/legalApiHandler.js');
-  assert(!/\.(update|delete)\(/.test(h), 'legalApiHandler must be create/read only');
+  assert(!/\.(update|updateMany|upsert|delete|deleteMany|bulkUpdate)\(/.test(h), 'legalApiHandler must be create/read only');
+});
+
+Deno.test('write lock: only consentLock.js touches ConsentWriteLock, it never touches evidence, and the schema holds no user field', () => {
+  const users: string[] = [];
+  for (const dir of ['src', 'base44']) {
+    for (const f of walk(dir)) if (/ConsentWriteLock\s*\./.test(read(f))) users.push(f);
+  }
+  assertEquals(users, ['base44/shared/consentLock.js']);
+  const lock = read('base44/shared/consentLock.js');
+  assert(!/(ConsentRecord|LegalPolicyRelease|LegalDocumentVersion)\s*\./.test(lock), 'lock module must not touch evidence entities');
+  const props = Object.keys(JSON.parse(read('base44/entities/ConsentWriteLock.jsonc')).properties);
+  assertEquals(props.sort(), ['holder', 'lease_until', 'shard', 'version']);
 });
 
 Deno.test('browser never touches legal entities directly', () => {

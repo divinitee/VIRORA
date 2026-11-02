@@ -32,6 +32,7 @@ export const CODE = Object.freeze({
   NOT_FOUND: 'NOT_FOUND',
   FORBIDDEN: 'FORBIDDEN',
   UNAUTHENTICATED: 'UNAUTHENTICATED',
+  LEGAL_WRITE_BUSY: 'LEGAL_WRITE_BUSY',
 });
 
 // Codes the browser treats as "show the gate / the can't-verify screen".
@@ -112,6 +113,15 @@ export function validateManifest(release) {
   if (!locales.length) problems.push('no locales');
   const reqs = Array.isArray(release.required_events_and_scopes) ? release.required_events_and_scopes : [];
   if (!reqs.length) problems.push('no required events');
+  // Each requirement once: a duplicate would put the same action on the
+  // consent screen twice, validateActions() would then refuse the submission
+  // as a duplicate action, and nobody could ever complete consent.
+  const reqKeys = new Set();
+  for (const r of reqs) {
+    const k = requirementKey(r || {});
+    if (reqKeys.has(k)) problems.push(`duplicate requirement ${k}`);
+    reqKeys.add(k);
+  }
   for (const r of reqs) {
     if (!ACCEPT_EVENTS.includes(r.event_type)) problems.push(`bad event_type ${r.event_type}`);
     if (!DOC_TYPES.includes(r.document_type)) problems.push(`bad document_type ${r.document_type}`);
@@ -126,9 +136,29 @@ export function validateManifest(release) {
       const label = r.label_by_locale?.[l];
       if (!label) problems.push(`${l} missing label for ${r.event_type}`);
     }
+    const types = new Set();
     for (const d of list) {
       if (!/^[0-9a-f]{64}$/.test(String(d.sha256 || ''))) problems.push(`${l} ${d.document_type} bad sha256`);
       if (!d.document_id || !d.version) problems.push(`${l} ${d.document_type} missing id/version`);
+      // One document per type per locale: docFor() picks the first, so a
+      // second one would be served or recorded ambiguously.
+      if (types.has(d.document_type)) problems.push(`${l} duplicate document_type ${d.document_type}`);
+      types.add(d.document_type);
+      // The reference must name exactly the artifact it claims (type,
+      // version and THIS locale), so evidence can't point at another
+      // locale's text.
+      if (d.document_id && d.version && d.document_id !== documentId(d.document_type, d.version, l)) {
+        problems.push(`${l} ${d.document_type} document_id ${d.document_id} does not match type/version/locale`);
+      }
+    }
+  }
+  // Every document reference is unique across the whole release.
+  const refIds = new Set();
+  for (const l of locales) {
+    for (const d of Array.isArray(docs[l]) ? docs[l] : []) {
+      if (!d.document_id) continue;
+      if (refIds.has(d.document_id)) problems.push(`duplicate document reference ${d.document_id}`);
+      refIds.add(d.document_id);
     }
   }
   return problems;
@@ -173,6 +203,23 @@ export function deriveStatus(release, records) {
     (ok ? satisfied : missing).push(req);
   }
   return { allowed: missing.length === 0, satisfied, missing };
+}
+
+// Rows that share an idempotency key and describe the same requirement are
+// ONE user action written twice (a concurrent retry that slipped past the
+// write lock, e.g. after a lease expired). Keep the earliest; the rest are
+// ignored by every reader, so a duplicate can never change status, receipts
+// or which record a retry gets back. Rows are never deleted (append-only).
+export function collapseDuplicates(records) {
+  const seen = new Set();
+  const out = [];
+  for (const r of [...(records || [])].sort(order)) {
+    const k = r.idempotency_key ? `${r.idempotency_key}|${r.event_type}|${r.purpose_scope_id || ''}` : null;
+    if (k && seen.has(k)) continue;
+    if (k) seen.add(k);
+    out.push(r);
+  }
+  return out;
 }
 
 // Active (not withdrawn) grants, for the withdrawal screen.

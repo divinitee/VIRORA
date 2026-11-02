@@ -1,6 +1,12 @@
 // In-memory Base44 for the legal consent tests. Reuses the Admin Console mock
 // entity (filter/list/get/create/update) and adds a call log so the
 // append-only test can prove legal code never updates or deletes.
+//
+// Concurrency (GPT code audit, 2 Nov 2026): world.concurrent = true makes
+// every entity call yield for a random 0–3 ms first, so simultaneous requests
+// really interleave between their reads and writes. updateMany() applies its
+// match + write in one step after that yield, like Base44's single-id
+// conditional update (the documented "claim a record" pattern).
 import { MockEntity } from '../admin-console-tests/mock_base44.ts';
 import { createLegalApiHandler } from '../../base44/shared/legalApiHandler.js';
 
@@ -14,13 +20,23 @@ export const USERS: Record<string, any> = {
 export function makeWorld(secretOverrides: Record<string, string | undefined> = {}) {
   const calls: string[] = [];
   const entities: Record<string, any> = {};
-  for (const n of ['LegalDocumentVersion', 'LegalPolicyRelease', 'ConsentRecord', 'User']) {
+  for (const n of ['LegalDocumentVersion', 'LegalPolicyRelease', 'ConsentRecord', 'ConsentWriteLock', 'User']) {
     const e = new MockEntity(n) as any;
-    for (const m of ['create', 'update', 'delete', 'filter', 'list', 'get']) {
+    e.updateMany = async (q: Record<string, unknown>, data: any) => {
+      const hits = e.rows.filter((r: any) => Object.entries(q).every(([k, v]) => r[k] === v));
+      for (const r of hits) {
+        Object.assign(r, structuredClone(data.$set || {}));
+        for (const [k, v] of Object.entries(data.$inc || {})) r[k] = (Number(r[k]) || 0) + Number(v);
+      }
+      return { success: true, updated: hits.length, has_more: false };
+    };
+    for (const m of ['create', 'update', 'updateMany', 'delete', 'filter', 'list', 'get']) {
       const orig = e[m]?.bind(e);
       e[m] = async (...a: any[]) => {
         calls.push(`${n}.${m}`);
+        if (world.concurrent) await new Promise((r) => setTimeout(r, Math.random() * 3));
         if (world.failReads && (m === 'filter' || m === 'list')) throw new Error('db down');
+        if (world.failCreate && m === 'create' && n === 'ConsentRecord') throw new Error('write failed');
         if (!orig) throw new Error(`${m} not supported`);
         return orig(...a);
       };
@@ -35,7 +51,7 @@ export function makeWorld(secretOverrides: Record<string, string | undefined> = 
   };
   let clock = Date.parse('2026-11-01T10:00:00Z');
   const world: any = {
-    entities, calls, secrets, failReads: false,
+    entities, calls, secrets, failReads: false, failCreate: false, concurrent: false,
     now: () => clock,
     advance: (ms: number) => { clock += ms; },
     getSecret: (n: string) => secrets[n],
@@ -47,7 +63,8 @@ export function makeWorld(secretOverrides: Record<string, string | undefined> = 
       asServiceRole: { entities },
     };
   };
-  world.handler = createLegalApiHandler({ createClientFromRequest, getSecret: world.getSecret, now: world.now });
+  world.lockOpts = { waitMs: 1500, sleep: (ms: number) => new Promise((r) => setTimeout(r, Math.min(ms, 5))) };
+  world.handler = createLegalApiHandler({ createClientFromRequest, getSecret: world.getSecret, now: world.now, lockOpts: world.lockOpts });
   world.call = async (who: string | null, action: string, body: Record<string, unknown> = {}) => {
     const res = await world.handler(new Request('https://x/legalApi', {
       method: 'POST', headers: who ? { 'x-user': who } : {}, body: JSON.stringify({ action, ...body }),

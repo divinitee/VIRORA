@@ -19,6 +19,6 @@ const alias = { name: 'alias', setup(b) {
   });
 } };
 const out = process.env.BUNDLE_OUT || '/tmp/consent-render-bundle.js';
-await build({ entryPoints: [path.join(R, 'entry.jsx')], bundle: true, outfile: out, format: 'iife', platform: 'browser', jsx: 'automatic',
+await build({ entryPoints: [path.join(R, process.env.ENTRY || 'entry.jsx')], bundle: true, outfile: out, format: 'iife', platform: 'browser', jsx: 'automatic',
   nodePaths: [path.join(root, 'node_modules')], plugins: [alias], define: { 'process.env.NODE_ENV': '"development"', 'import.meta.env': '{}' }, loader: { '.js': 'jsx' }, logLevel: 'error' });
 console.log('bundled', fs.statSync(out).size);
