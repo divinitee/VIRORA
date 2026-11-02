@@ -15,7 +15,7 @@ async function load(name: string) {
   const mod = await import(`../../base44/functions/${name}/entry.ts`);
   if (mod.default) handlers[name] = mod.default;
 }
-for (const f of ['legalApi', 'aiApi', 'studentApi', 'coachApi', 'progressApi', 'teacherApi', 'chatApi']) await load(f);
+for (const f of ['legalApi', 'aiApi', 'studentApi', 'coachApi', 'progressApi', 'teacherApi', 'chatApi', 'dodoPortal']) await load(f);
 
 const post = (fn: string, who: string | null, body: Record<string, unknown>) => handlers[fn](new Request('http://x', {
   method: 'POST', headers: who ? { 'x-user': who, 'content-type': 'application/json' } : {}, body: JSON.stringify(body),
@@ -23,7 +23,7 @@ const post = (fn: string, who: string | null, body: Record<string, unknown>) => 
 
 Deno.test('wiring: enforce + no release → every guarded entry denies before work (503 LEGAL_POLICY_UNAVAILABLE)', async () => {
   store.LEGAL_CONSENT_MODE = 'enforce';
-  for (const fn of ['aiApi', 'studentApi', 'coachApi', 'progressApi', 'teacherApi', 'chatApi']) {
+  for (const fn of ['aiApi', 'studentApi', 'coachApi', 'progressApi', 'teacherApi', 'chatApi', 'dodoPortal']) {
     const r = await post(fn, 'ana', { action: 'gradeSentence', sentence: 'hi', room_id: 'x', text: 'y' });
     assertEquals([fn, r.status, (await r.json()).code], [fn, 503, 'LEGAL_POLICY_UNAVAILABLE']);
   }

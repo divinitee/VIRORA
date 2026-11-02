@@ -59,6 +59,8 @@ eq(/type === "subscription\.updated" \? \(scheduledCancelPatch\(row, data\)/.tes
 const portal = fs.readFileSync("base44/functions/dodoPortal/entry.ts", "utf8");
 eq(/filter\(\{ phone: me\.email \}\)/.test(portal) && !/body\.(customer|email|dodo)/.test(portal), true, "dodoPortal finds the customer from the session, not the body");
 eq(/StudentSubscription\.(update|create|delete)/.test(portal), false, "dodoPortal never edits the row (Dodo's webhook does)");
+const iDeny = portal.indexOf("consentDenial("), iAuth = portal.indexOf("if (!me?.email)"), iRead = portal.indexOf("StudentSubscription.filter(");
+eq(iAuth > 0 && iDeny > iAuth && iDeny < iRead, true, "consent check runs right after authentication, before the subscription read or any Dodo call");
 
 const portalSrc = fs.readFileSync("base44/functions/dodoPortal/entry.ts", "utf8");
 eq(portalSrc.indexOf("customerOwnedBy(") > 0 && portalSrc.indexOf("customerOwnedBy(") < portalSrc.indexOf("portalSessionUrl(mode"), true, "dodoPortal checks Dodo-side ownership BEFORE creating a portal session");

@@ -1,5 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
 import { secrets } from 'base44:runtime';
+import { consentDenial } from '../../shared/consentGuard.js';
 import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
 import { cardSubscriptionFor, customerOwnedBy, customerUrl, portalSessionUrl } from '../../shared/billingPortal.js';
 
@@ -23,6 +24,9 @@ Deno.serve(async (req) => {
     let me: any = null;
     try { me = await base44.auth.me(); } catch { me = null; }
     if (!me?.email) return Response.json({ ok: false, error: 'not authenticated', code: 'unauthenticated' }, { status: 401 });
+    // Legal consent (v1.0 §7): after authentication, before any data read or Dodo call.
+    const denied = await consentDenial(base44.asServiceRole.entities, me, { getSecret: (n: string) => secrets.get(n) });
+    if (denied) return denied;
 
     const svc = base44.asServiceRole.entities;
     const rows = (await svc.StudentSubscription.filter({ phone: me.email })) || [];

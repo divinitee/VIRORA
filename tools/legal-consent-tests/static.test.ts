@@ -54,7 +54,7 @@ Deno.test('browser never touches legal entities directly', () => {
 // this test until someone decides which list it belongs in.
 const GUARDED = [
   'aiApi', 'process-material', 'chatApi', 'coachApi', 'progressApi', 'studentApi', 'teacherApi',
-  'qrPayApi', 'createDodoCheckout',
+  'qrPayApi', 'createDodoCheckout', 'dodoPortal',
 ];
 const FILTERED = ['sendDailyReminder']; // bulk job: skips users without current consent
 const EXEMPT: Record<string, string> = {
