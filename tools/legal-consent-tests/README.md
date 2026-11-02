@@ -109,5 +109,55 @@ updates. Base44 also rate-limits bulk updates to 50 per 60 s per caller (a
 service token is one caller), so the lock spends only 2 calls per write
 (claim + release) and the fence is a local lease check.
 
+## Operations (before and after enforcement)
+
+### Canary self-test of the write lock (first step after deploy, mode still off)
+`legalApi` → `{ action: "adminLockSelfTest" }` as a legal publisher. It runs 4
+rounds of 9 simultaneous conditional claims on the REAL `ConsentWriteLock`
+through the service role (reserved shard 1000; no user lock, no evidence
+written) and returns per-round winners plus a verdict. Merge-gate expectation:
+`verdict: "ATOMIC"`, every clean round `winners: 1`, `version_advanced_by: 1`.
+`NOT_PROVEN` (any clean round with ≠ 1 winner) → do not enable consent. Uses
+≤ 40 of the 50-per-minute bulk-update budget; run it at a quiet moment.
+
+### Shared rate limit → `LEGAL_WRITE_BUSY`
+Base44 allows 50 bulk updates (updateMany / upsert / bulk) per 60 s per
+caller, and the service token used by every backend function is ONE caller.
+Consent writes spend 2 (claim + release) per accepted submission or
+withdrawal; `progressApi` coin rewards spend 1 per rewarded round (VT-48).
+
+- **Signal:** every refusal logs one JSON line
+  `{"event":"legal_write_busy","reason":"rate_limited"|"contended"|"fenced"|"error",…}`
+  (no user id). Read with `GET /api/apps/{app}/functions-mgmt/legalApi/logs`.
+- **User impact:** the gate / My consents show "couldn't save, retry"; the
+  ticks and the idempotency key are kept, so a retry is exact. Nothing is
+  written without the lock, ever.
+- **Watch:** more than 3 `rate_limited` lines in 10 minutes, or any during a
+  release roll-out → check whether coin rewards are saturating the bucket.
+- **Respond, in order:** (1) do not roll out a new legal release during peak
+  practice hours — re-consent bursts are the main consent load; (2) VT-48:
+  take coin rewards off the shared bucket (per-row `update()` with a
+  read-check, or batch them); (3) ask Base44 for a higher bulk limit. There is
+  deliberately no bypass that writes evidence without the lock.
+
+### History size → retention
+Consent evidence is append-only and kept for the account's lifetime plus the
+statutory retention period the lawyer sets (§15 sign-off item); no archival or
+deletion in v1. A user adds rows only by deliberate grant / withdraw actions.
+
+- `consent_history_large` (≥ 5,000 rows for one user) logs a warning; that is
+  months of continuous toggling, so treat it as abuse or a bug and contact the
+  user.
+- `consent_history_over_max` (20,000) means everything consent-related fails
+  closed for that user: status, receipts and withdrawal all answer 503, and
+  every guarded function denies. No processing happens, which is the same
+  effect a withdrawal would have, so nobody is processed without verifiable
+  consent; the cost is that this user is locked out until ops acts.
+  Response: raise `RECORD_MAX` after review (reads are paged and count-checked,
+  so a higher cap is safe, only slower), or — if this ever becomes normal —
+  v2 checkpointing (a server-signed status snapshot row that readers start
+  from), which needs its own legal review because it changes how evidence is
+  evaluated.
+
 The live proofs (real Base44 RLS denies direct CRUD; MCP entity access off;
 canary accounts) are manual — see LEGAL-CONSENT-V1-HANDOFF.md in the project.

@@ -114,3 +114,22 @@ Deno.test('history: past the hard maximum → fail closed, never a truncated eva
   // Exactly at a page boundary under the max still reads completely.
   assertEquals((await loadRecords(w.entities, 'u_ana', { page: 31 })).length, rows(w).length);
 });
+
+Deno.test('monitoring: a large history logs consent_history_large; over the max logs consent_history_over_max', async () => {
+  const w = makeWorld();
+  await publish(w);
+  await acceptAll(w, 'ana');
+  await padHistory(w, 40);
+  const logs: string[] = [];
+  const [warn, err] = [console.warn, console.error];
+  console.warn = (m: string) => logs.push(String(m));
+  console.error = (m: string) => logs.push(String(m));
+  try {
+    await loadRecords(w.entities, 'u_ana', { page: 10, warn: 30 });
+    await loadRecords(w.entities, 'u_ana', { page: 10, max: 20 }).catch(() => {});
+  } finally { console.warn = warn; console.error = err; }
+  const ev = logs.map((l) => { try { return JSON.parse(l); } catch { return {}; } });
+  assert(ev.some((e) => e.event === 'consent_history_large' && e.rows === rows(w).length && e.subject_user_id === 'u_ana'));
+  assert(ev.some((e) => e.event === 'consent_history_over_max' && e.max === 20));
+});
+

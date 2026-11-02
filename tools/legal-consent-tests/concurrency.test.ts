@@ -201,3 +201,26 @@ Deno.test('control: with a BROKEN lock (every claim "succeeds") the same race do
   }
   assert(dupes > 0, 'expected the unprotected race to produce duplicate rows');
 });
+
+Deno.test('self-test (canary action): publisher-only; reports ATOMIC on an atomic store and NOT_PROVEN on a broken one; touches only the reserved shard', async () => {
+  const w = makeWorld();
+  await publish(w);
+  const evidenceBefore = rows(w).length;
+  const denied = await w.call('ana', 'adminLockSelfTest', {});
+  assertEquals([denied.status, denied.code], [403, CODE.FORBIDDEN]);
+  w.concurrent = true;
+  const ok = await w.call('tee', 'adminLockSelfTest', {});
+  w.concurrent = false;
+  assertEquals(ok.self_test.verdict, 'ATOMIC', JSON.stringify(ok));
+  assertEquals(ok.self_test.rounds.length, 4);
+  assert(ok.self_test.rounds.every((r: any) => r.winners === 1 && r.lost === 8));
+  assertEquals(rows(w).length, evidenceBefore, 'no consent evidence written');
+  const testRows = w.entities.ConsentWriteLock.rows.filter((r: any) => r.shard === 1000);
+  assertEquals(testRows.length, 1);
+  assertEquals(testRows[0].holder, '', 'released');
+  // A store where every conditional write "succeeds" is caught.
+  const real = w.entities.ConsentWriteLock.updateMany;
+  w.entities.ConsentWriteLock.updateMany = async (q: any, d: any) => { await real({ id: q.id }, d); return { success: true, updated: 1, has_more: false }; };
+  const bad = await w.call('tee', 'adminLockSelfTest', { rounds: 2 });
+  assertEquals(bad.self_test.verdict, 'NOT_PROVEN');
+});

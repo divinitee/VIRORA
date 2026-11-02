@@ -52,6 +52,8 @@ export async function loadActiveRelease(svc, now = Date.now()) {
 // are also collapsed before status, receipts or withdrawal see them.
 export const RECORD_PAGE = 500;
 export const RECORD_MAX = 20_000;
+// Early warning, long before RECORD_MAX locks anyone out (README "Operations").
+export const RECORD_WARN = 5_000;
 
 async function readAll(svc, query, page, max) {
   const byId = new Map();
@@ -59,18 +61,24 @@ async function readAll(svc, query, page, max) {
     const rows = await svc.ConsentRecord.filter(query, 'created_date', page, skip);
     for (const r of rows) byId.set(r.id, r);
     if (rows.length < page) break;
-    if (skip + page >= max) throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history too long to evaluate');
+    if (skip + page >= max) {
+      console.error(JSON.stringify({ event: 'consent_history_over_max', subject_user_id: query.subject_user_id, max }));
+      throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history too long to evaluate');
+    }
   }
   return [...byId.values()];
 }
 
-/** @param {any} svc @param {string|number} userId @param {{ page?: number, max?: number }} [opts] */
-export async function loadRecords(svc, userId, { page = RECORD_PAGE, max = RECORD_MAX } = {}) {
+/** @param {any} svc @param {string|number} userId @param {{ page?: number, max?: number, warn?: number }} [opts] */
+export async function loadRecords(svc, userId, { page = RECORD_PAGE, max = RECORD_MAX, warn = RECORD_WARN } = {}) {
   const query = { subject_user_id: String(userId) };
   for (let attempt = 0; attempt < 2; attempt++) {
     const rows = await readAll(svc, query, page, max);
     const total = typeof svc.ConsentRecord.count === 'function' ? await svc.ConsentRecord.count(query) : rows.length;
-    if (rows.length === total) return collapseDuplicates(rows);
+    if (rows.length === total) {
+      if (total >= warn) console.warn(JSON.stringify({ event: 'consent_history_large', subject_user_id: query.subject_user_id, rows: total, max }));
+      return collapseDuplicates(rows);
+    }
   }
   throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history changed while reading');
 }

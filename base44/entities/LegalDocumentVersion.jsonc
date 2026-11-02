@@ -1,58 +1,57 @@
 {
+  "description": "Immutable published legal artifact: exact canonical text of one document type, version and locale, with its SHA-256 (Legal Consent Architecture v1.0 \u00a74). Written only by functions/legalApi (service role, create-only). Never edited: changed text = new version.",
   "name": "LegalDocumentVersion",
-  "type": "object",
-  "description": "Immutable published legal artifact: exact canonical text of one document type, version and locale, with its SHA-256 (Legal Consent Architecture v1.0 §4). Written only by functions/legalApi (service role, create-only). Never edited: changed text = new version.",
   "properties": {
-    "document_id": {
-      "type": "string",
-      "description": "type:version:locale, e.g. public_offer:1.3:uz"
-    },
-    "document_type": {
-      "type": "string",
-      "enum": [
-        "public_offer",
-        "privacy_notice",
-        "data_processing_consent"
-      ]
-    },
-    "version": {
+    "canonical_content": {
+      "description": "Exact UTF-8 text, line endings normalised to LF.",
       "type": "string"
     },
-    "locale": {
-      "type": "string",
-      "enum": [
-        "uz",
-        "ru",
-        "en"
-      ]
-    },
     "content_format": {
-      "type": "string",
+      "default": "markdown",
       "enum": [
         "markdown",
         "text"
       ],
-      "default": "markdown"
-    },
-    "canonical_content": {
-      "type": "string",
-      "description": "Exact UTF-8 text, line endings normalised to LF."
-    },
-    "sha256": {
-      "type": "string",
-      "description": "Lowercase hex SHA-256 of canonical_content."
-    },
-    "first_release_id": {
-      "type": "string",
-      "description": "Release draft that first introduced this version."
+      "type": "string"
     },
     "created_at": {
-      "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "type": "string"
     },
     "created_by": {
-      "type": "string",
-      "description": "Publisher user id."
+      "description": "Publisher user id.",
+      "type": "string"
+    },
+    "document_id": {
+      "description": "type:version:locale, e.g. public_offer:1.3:uz",
+      "type": "string"
+    },
+    "document_type": {
+      "enum": [
+        "public_offer",
+        "privacy_notice",
+        "data_processing_consent"
+      ],
+      "type": "string"
+    },
+    "first_release_id": {
+      "description": "Release draft that first introduced this version.",
+      "type": "string"
+    },
+    "locale": {
+      "enum": [
+        "uz",
+        "ru",
+        "en"
+      ],
+      "type": "string"
+    },
+    "sha256": {
+      "description": "Lowercase hex SHA-256 of canonical_content.",
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
     }
   },
   "required": [
@@ -69,6 +68,11 @@
         "role": "never"
       }
     },
+    "delete": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
     "read": {
       "user_condition": {
         "role": "never"
@@ -78,11 +82,7 @@
       "user_condition": {
         "role": "never"
       }
-    },
-    "delete": {
-      "user_condition": {
-        "role": "never"
-      }
     }
-  }
+  },
+  "type": "object"
 }
