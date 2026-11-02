@@ -774,9 +774,11 @@ export default function AdminDashboard() {
                   </p>
                 )}
                 <div className="text-[11px] font-mono text-muted-foreground space-y-0.5 mt-3 max-h-40 overflow-y-auto">
-                  {wipeResult.results.filter((r) => r.deleted || r.failed).map((r) => (
+                  {wipeResult.results.filter((r) => r.deleted || r.failed || r.retained).map((r) => (
                     <div key={r.name} className={r.failed ? "text-amber-400" : ""}>
-                      {r.name}: {r.deleted} deleted{r.failed ? `, ${r.failed} failed` : ""}
+                      {r.retained
+                        ? `${r.name}: kept (${r.retained})`
+                        : `${r.name}: ${r.deleted} deleted${r.failed ? `, ${r.failed} failed` : ""}`}
                     </div>
                   ))}
                 </div>

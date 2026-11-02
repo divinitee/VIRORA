@@ -40,6 +40,32 @@ export const USER_DATA_ENTITIES = [
   { name: "TeacherReferral", emailFields: ["teacher_email"], idFields: ["teacher_id"] },
   { name: "UserCoins", emailFields: ["email"], idFields: ["user_id"] },
   { name: "WordAttempt", emailFields: ["user_email"], idFields: [] },
+  // Added 2026-11-01 (tools/check_wipe_coverage.py was failing on all of
+  // these). Without them a "deleted" account kept its route history, Coach
+  // plan, learning map, homework and uploads — which breaks the Privacy
+  // Policy's deletion promise.
+  { name: "ActivitySession", emailFields: ["student_email"], idFields: [], excluded: ["teacher_id"] },
+  { name: "CoachProfile", emailFields: ["user_email"], idFields: [] },
+  { name: "PlanLog", emailFields: ["user_email"], idFields: [] },
+  { name: "ItemEvidence", emailFields: ["user_email"], idFields: [] },
+  { name: "LearnerItem", emailFields: ["user_email"], idFields: [] },
+  { name: "LearnerWordState", emailFields: ["user_email"], idFields: [] },
+  { name: "LeafState", emailFields: ["user_email"], idFields: [] },
+  { name: "ThemeProgress", emailFields: ["user_email"], idFields: [] },
+  { name: "UsageReservation", emailFields: ["user_email"], idFields: ["user_id"] },
+  // A student's own submissions. teacher_id names the OTHER party.
+  { name: "HomeworkSubmission", emailFields: ["student_email"], idFields: ["student_id"], excluded: ["teacher_id"] },
+  // A teacher's own assignments and uploaded materials. Students' submissions
+  // to a deleted teacher's assignments are the students' data and stay.
+  { name: "HomeworkAssignment", emailFields: ["teacher_email"], idFields: ["teacher_id"] },
+  { name: "MaterialSegment", emailFields: [], idFields: ["teacher_id"] },
+  { name: "MaterialSource", emailFields: ["teacher_email"], idFields: ["teacher_id"] },
+  // RETAINED, not deleted: payment records (amount, date, receipt) may have to
+  // be kept for accounting/tax. Pending the lawyer's retention decision
+  // (legal facts pack §D). Listed so the coverage check stays honest.
+  { name: "ManualPayment", emailFields: ["user_email"], idFields: ["user_id"], retain: "payment record: retention pending lawyer" },
+  // Admin TOTP secrets: RLS never, and guardDelete refuses admins anyway.
+  { name: "AdminSecurity", emailFields: ["email"], idFields: ["user_id"], retain: "admin security record (admins can't be wiped here)" },
 ];
 
 // Profile fields cleared by a reset, so the account walks back through
@@ -62,6 +88,10 @@ export const PROFILE_RESET_PATCH = {
   teacher_commission_accrued_usd: 0,
   teacher_payout_status: "none",
   teacher_last_payout_at: null,
+  teaching_center: "",
+  teacher_phone: "",
+  heard_about_us: "",
+  heard_about_us_detail: "",
 };
 
 // Resetting data is always safe: the login survives, so there is no way to
@@ -85,7 +115,8 @@ export function guardDelete(target, me) {
   return null;
 }
 
-// Deletes every row belonging to this person across all 13 entities above.
+// Deletes every row belonging to this person across every entity above
+// (except the ones marked `retain`).
 // Matches on the declared email/id fields plus created_by_id as a catch-all,
 // de-duplicating by row id so a row matched twice is only deleted once.
 // Never throws — a failure on one entity is recorded and the sweep continues,
@@ -96,6 +127,11 @@ export async function wipeUserData(user, onProgress) {
   const results = [];
 
   for (const ent of USER_DATA_ENTITIES) {
+    if (ent.retain) {
+      results.push({ name: ent.name, deleted: 0, failed: 0, error: null, retained: ent.retain });
+      onProgress?.([...results]);
+      continue;
+    }
     let deleted = 0;
     let failed = 0;
     let firstError = null;
