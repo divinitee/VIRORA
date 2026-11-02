@@ -26,6 +26,19 @@ export function cardSubscriptionFor(rows) {
   return card[0];
 }
 
+export const customerUrl = (mode, customerId) =>
+  `${DODO_API[mode === "live" ? "live" : "test"]}/customers/${encodeURIComponent(customerId)}`;
+
+// Second ownership check (GPT audit, 2 Nov): the Dodo customer behind the row
+// must have the signed-in account's email. Checkout pins that email (API
+// session customer.email, or the payment link's email + disableEmail), so a
+// mismatch means the row is wrong, and the portal is refused.
+export function customerOwnedBy(customer, email) {
+  const a = String(customer?.email || "").trim().toLowerCase();
+  const b = String(email || "").trim().toLowerCase();
+  return a.length > 0 && a === b;
+}
+
 export function portalSessionUrl(mode, customerId, returnUrl) {
   const base = DODO_API[mode === "live" ? "live" : "test"];
   const q = new URLSearchParams();

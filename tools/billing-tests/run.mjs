@@ -2,7 +2,7 @@
 // Self-cancel for card plans: who gets a portal, what Settings shows, and how
 // a cancel scheduled in Dodo's portal is mirrored on the row.
 import fs from "node:fs";
-import { billingView, cardSubscriptionFor, portalSessionUrl, scheduledCancelPatch } from "../../base44/shared/billingPortal.js";
+import { billingView, cardSubscriptionFor, customerOwnedBy, customerUrl, portalSessionUrl, scheduledCancelPatch } from "../../base44/shared/billingPortal.js";
 
 let fails = 0, n = 0;
 const eq = (got, want, msg) => {
@@ -28,6 +28,13 @@ eq(portalSessionUrl("live", "cus_A/B", "https://virora.base44.app/settings"),
   "live portal URL, customer id escaped, return URL set");
 eq(portalSessionUrl("whatever", "cus_1").startsWith("https://test.dodopayments.com/"), true, "anything but live → test host");
 
+// Second ownership check: Dodo's customer record must carry the caller's email
+eq(customerOwnedBy({ email: "Ana@Example.com " }, "ana@example.com"), true, "Dodo customer email matches the account (case/space-insensitive)");
+eq(customerOwnedBy({ email: "bob@example.com" }, "ana@example.com"), false, "different email: portal refused");
+eq(customerOwnedBy({}, "ana@example.com"), false, "no email on the customer: refused (fail closed)");
+eq(customerOwnedBy(null, "ana@example.com"), false, "no customer record: refused");
+eq(customerUrl("live", "cus_1"), "https://live.dodopayments.com/customers/cus_1", "customer lookup URL");
+
 // Settings view
 eq(billingView(null), null, "no row: no card");
 eq(billingView({ status: "active", plan: "Free Plan" }), null, "free plan: no card");
@@ -52,6 +59,10 @@ eq(/type === "subscription\.updated" \? \(scheduledCancelPatch\(row, data\)/.tes
 const portal = fs.readFileSync("base44/functions/dodoPortal/entry.ts", "utf8");
 eq(/filter\(\{ phone: me\.email \}\)/.test(portal) && !/body\.(customer|email|dodo)/.test(portal), true, "dodoPortal finds the customer from the session, not the body");
 eq(/StudentSubscription\.(update|create|delete)/.test(portal), false, "dodoPortal never edits the row (Dodo's webhook does)");
+
+const portalSrc = fs.readFileSync("base44/functions/dodoPortal/entry.ts", "utf8");
+eq(portalSrc.indexOf("customerOwnedBy(") > 0 && portalSrc.indexOf("customerOwnedBy(") < portalSrc.indexOf("portalSessionUrl(mode"), true, "dodoPortal checks Dodo-side ownership BEFORE creating a portal session");
+eq(/if \(!cust\.ok\)[\s\S]{0,200}status: 502/.test(portalSrc), true, "a failed customer lookup refuses the portal (fail closed)");
 
 console.log(fails ? `\n${fails}/${n} FAILED` : `\nALL PASS (${n})`);
 process.exit(fails ? 1 : 0);

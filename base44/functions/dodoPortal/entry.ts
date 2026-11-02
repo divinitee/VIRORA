@@ -1,7 +1,7 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
 import { secrets } from 'base44:runtime';
 import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
-import { cardSubscriptionFor, portalSessionUrl } from '../../shared/billingPortal.js';
+import { cardSubscriptionFor, customerOwnedBy, customerUrl, portalSessionUrl } from '../../shared/billingPortal.js';
 
 // Opens Dodo's customer portal for the CALLING user, where they can cancel
 // auto-renewal (or update their card / download invoices). Returns { url }
@@ -40,6 +40,21 @@ Deno.serve(async (req) => {
     }
 
     const mode = (secrets.get('DODO_MODE') || 'test') === 'live' ? 'live' : 'test';
+
+    // Ownership, checked twice: the row was found by the caller's own email
+    // (above), and Dodo's record of that customer must carry the same email.
+    // Any failure to confirm it refuses the portal (fail closed).
+    const cust = await fetch(customerUrl(mode, sub.dodo_customer_id), { headers: { Authorization: `Bearer ${apiKey}` } });
+    const customer: any = await cust.json().catch(() => null);
+    if (!cust.ok) {
+      console.error('Dodo customer lookup failed:', cust.status);
+      return Response.json({ ok: false, error: 'portal unavailable', code: 'portal_failed' }, { status: 502 });
+    }
+    if (!customerOwnedBy(customer, me.email)) {
+      console.error('dodoPortal: customer email does not match the signed-in account for row', sub.id);
+      return Response.json({ ok: false, error: 'subscription needs support', code: 'customer_mismatch' }, { status: 403 });
+    }
+
     const res = await fetch(portalSessionUrl(mode, sub.dodo_customer_id, RETURN_URL), {
       method: 'POST',
       headers: { Authorization: `Bearer ${apiKey}` },

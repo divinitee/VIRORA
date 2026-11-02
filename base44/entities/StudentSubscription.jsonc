@@ -118,7 +118,7 @@
     "cancelled_at": {
       "type": "string",
       "format": "date",
-      "description": "When an admin cancelled this subscription."
+      "description": "Date cancellation was requested: by an admin (cancel now or at period end), by Dodo (subscription.cancelled), or scheduled in Dodo's customer portal (subscription.updated, cancel_at_next_billing_date). Every consumer reads it the same way: with status 'active' it is a SCHEDULED end (subscriptionKind 'ending', access continues until expires_at, then the expiry check sets 'cancelled'); with status 'cancelled' access has ended. Cleared when a cancellation is undone or a new paid period starts."
     },
     "admin_note": {
       "type": "string",
