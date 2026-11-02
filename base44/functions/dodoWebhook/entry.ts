@@ -1,6 +1,7 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
 import { secrets } from 'base44:runtime';
 import { Webhook } from 'npm:standardwebhooks@1.0.0';
+import { scheduledCancelPatch } from '../../shared/billingPortal.js';
 
 // Dodo Payments webhook receiver — the thing that actually grants and revokes
 // access, so it is the single most security-sensitive endpoint in the app.
@@ -257,6 +258,10 @@ Deno.serve(async (req) => {
       if (row) {
         await base44.asServiceRole.entities.StudentSubscription.update(row.id, {
           last_dodo_event_id: eventId,
+          // A cancel scheduled (or undone) in Dodo's customer portal arrives
+          // as subscription.updated. Mirror it as cancelled_at without
+          // touching access; see billingPortal.js.
+          ...(type === "subscription.updated" ? (scheduledCancelPatch(row, data) || {}) : {}),
         });
       }
       return Response.json({ ok: true, noted: type });

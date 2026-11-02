@@ -9,6 +9,7 @@ import { useAppLang } from "@/hooks/useAppLang";
 import LanguageSelector from "@/components/LanguageSelector";
 import BetaBadge from "@/components/BetaBadge";
 import AnimationStudioLink from "@/components/animation/AnimationStudioLink";
+import BillingCard from "@/components/settings/BillingCard";
 
 export default function Settings() {
   const { t } = useAppLang();
@@ -61,6 +62,8 @@ export default function Settings() {
           <ProfileEditor user={user} onSaved={reloadUser} />
           <p className="text-sm text-muted-foreground mt-3 text-center">{user?.email}</p>
         </div>
+
+        <BillingCard user={user} />
 
         <div className="bg-background rounded-2xl border border-border p-5">
           <div className="flex items-center gap-2 mb-4">
