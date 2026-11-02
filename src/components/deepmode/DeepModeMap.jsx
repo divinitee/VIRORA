@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { useAppLang } from "@/hooks/useAppLang";
 import { createEngine } from "./deepModeEngine";
 import { DEEP_MAP_COPY } from "./deepModeMapCopy";
-import { SAMPLE_ORDER, SAMPLE_WORDS } from "./deepModeSamples";
+import { useBetaWords } from "./useBetaWords";
+import DeepModeSearch from "./DeepModeSearch";
 import "./deepModeMap.css";
 
 // Interactive Deep Mode preview (VT-38): the approved word-family map with
@@ -11,7 +12,12 @@ import "./deepModeMap.css";
 export default function DeepModeMap() {
   const { lang } = useAppLang();
   const c = DEEP_MAP_COPY[lang] || DEEP_MAP_COPY.en;
-  const [word, setWord] = useState(SAMPLE_ORDER[0]);
+  const { words, beta } = useBetaWords();
+  const [word, setWord] = useState(null);
+  const [banner, setBanner] = useState(true);
+  useEffect(() => {
+    if (words && !word) setWord(words[Math.floor(Math.random() * words.length)]);
+  }, [words, word]);
   const [grammar, setGrammar] = useState(false);
   const firstRun = useRef(true);
   const stageRef = useRef(null);
@@ -25,13 +31,14 @@ export default function DeepModeMap() {
   const crumbRef = useRef(null);
 
   useEffect(() => {
+    if (!word) return undefined;
     const destroy = createEngine(
       {
         stage: stageRef.current, world: worldRef.current, nodesEl: nodesRef.current,
         glowLayer: glowRef.current, lineLayer: lineRef.current, sky: skyRef.current,
         fitBtn: fitRef.current, dock: dockRef.current, crumb: crumbRef.current,
       },
-      SAMPLE_WORDS[word],
+      word,
       c,
       { autoOpen: firstRun.current }
     );
@@ -54,6 +61,12 @@ export default function DeepModeMap() {
       <div className="stage" ref={stageRef} aria-label={c.stageLabel}>
         <canvas className="dm-sky" ref={skyRef} aria-hidden="true" />
         <div className="proto">{c.preview}</div>
+        {beta && banner && (
+          <div className="dm-banner">
+            <span>{c.banner.replace("{n}", words.length)}</span>
+            <button type="button" aria-label={c.close} onClick={() => setBanner(false)}>×</button>
+          </div>
+        )}
         <div className="crumb" ref={crumbRef} hidden />
         <div className="world" ref={worldRef}>
           <svg className="dm-links" viewBox="-3000 -3000 6000 6000" aria-hidden="true">
@@ -76,12 +89,7 @@ export default function DeepModeMap() {
         </div>
 
         <div className="dock" ref={dockRef}>
-          <div className="words" role="group" aria-label={c.try}>
-            <span className="lbl">{c.try}</span>
-            {SAMPLE_ORDER.map((w) => (
-              <button key={w} type="button" className="chip" aria-pressed={word === w} onClick={() => setWord(w)}>{w}</button>
-            ))}
-          </div>
+          {words && <DeepModeSearch words={words} current={word} onPick={setWord} c={c} />}
           <div className="tools">
             <span className="hint">{c.hint}</span>
             <button type="button" className="icon-btn" ref={fitRef} aria-label={c.fit} title={c.fit}>⤢</button>

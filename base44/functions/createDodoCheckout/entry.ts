@@ -1,4 +1,5 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
+import { consentDenial } from '../../shared/consentGuard.js';
 import { secrets } from 'base44:runtime';
 import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
 
@@ -96,6 +97,8 @@ Deno.serve(async (req) => {
     if (!me?.email) {
       return Response.json({ error: "not authenticated" }, { status: 401 });
     }
+    const denied = await consentDenial(base44.asServiceRole.entities, me, { getSecret: (n: string) => secrets.get(n) });
+    if (denied) return denied;
 
     const body = await req.json().catch(() => ({}));
     const planId = String(body.plan || "learner").toLowerCase();

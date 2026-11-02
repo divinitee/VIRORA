@@ -1,0 +1,112 @@
+{
+  "name": "ConsentRecord",
+  "type": "object",
+  "description": "Append-only consent evidence, one row per event (§6). Created only by functions/legalApi with server timestamps and the authenticated user id. No client or MCP access; never updated or deleted.",
+  "properties": {
+    "subject_user_id": {
+      "type": "string",
+      "description": "From the authenticated identity, never the request body."
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "TERMS_ACCEPTED",
+        "DATA_PROCESSING_CONSENT_GRANTED",
+        "DATA_PROCESSING_CONSENT_WITHDRAWN"
+      ]
+    },
+    "purpose_scope_id": {
+      "type": "string",
+      "description": "Required for data-processing grant/withdrawal; null for terms."
+    },
+    "release_id": {
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "document_version": {
+      "type": "string"
+    },
+    "document_locale": {
+      "type": "string"
+    },
+    "document_sha256": {
+      "type": "string"
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Server time the explicit action was accepted."
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Server time immediately before the append."
+    },
+    "auth_provider": {
+      "type": "string",
+      "description": "Server-derived from the auth identity; 'unknown' if the platform does not expose it."
+    },
+    "origin_route": {
+      "type": "string",
+      "enum": [
+        "register",
+        "login",
+        "oauth/consent",
+        "app-gate",
+        "privacy-settings"
+      ]
+    },
+    "presentation_id": {
+      "type": "string",
+      "description": "Server-signed token for the exact release/locale served."
+    },
+    "idempotency_key": {
+      "type": "string"
+    },
+    "related_record_id": {
+      "type": "string",
+      "description": "For withdrawals: the grant withdrawn."
+    },
+    "evidence_schema_version": {
+      "type": "number"
+    },
+    "migration_source": {
+      "type": "string",
+      "description": "Only for verified legacy imports (none in v1)."
+    }
+  },
+  "required": [
+    "subject_user_id",
+    "event_type",
+    "release_id",
+    "document_id",
+    "document_sha256",
+    "occurred_at",
+    "recorded_at",
+    "idempotency_key"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "read": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "never"
+      }
+    }
+  }
+}

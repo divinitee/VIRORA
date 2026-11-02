@@ -1,4 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
+import { secrets } from 'base44:runtime';
+import { consentDenial } from '../../shared/consentGuard.js';
 import { readSkillStates } from '../../shared/progressEngine.ts';
 import { subscriptionKind } from '../../shared/subscriptionCore.js';
 
@@ -371,6 +373,8 @@ Deno.serve(async (req) => {
     let me: any = null;
     try { me = await base44.auth.me(); } catch { me = null; }
     if (!me?.id) return Response.json({ error: 'not authenticated', code: 'unauthenticated' }, { status: 401 });
+    const denied = await consentDenial(base44.asServiceRole.entities, me, { getSecret: (n: string) => secrets.get(n) });
+    if (denied) return denied;
 
     const body = await req.json().catch(() => ({}));
     const action = String(body.action || '');

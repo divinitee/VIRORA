@@ -1,13 +1,17 @@
 import { Toaster } from "@/components/ui/toaster"
 import { QueryClientProvider } from '@tanstack/react-query'
 import { queryClientInstance } from '@/lib/query-client'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { ThemeProvider } from 'next-themes';
 import PageNotFound from './lib/PageNotFound';
 import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import ScrollToTop from './components/ScrollToTop';
 import ProtectedRoute from '@/components/ProtectedRoute';
+import { ConsentProvider, useConsent } from '@/lib/legal/ConsentContext';
+import { consentGateView } from '@/lib/legal/consentGateView';
+import MyConsents from '@/pages/MyConsents';
+import AdminLegal from '@/pages/AdminLegal';
 import { Navigate } from 'react-router-dom';
 import Login from '@/pages/Login';
 import Register from '@/pages/Register';
@@ -62,6 +66,8 @@ import AnimationSettingsProvider from '@/components/animation/AnimationSettingsP
 
 const AuthenticatedApp = () => {
   const { user, isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
+  const consent = useConsent();
+  const location = useLocation();
 
   // Show loading spinner while checking app public settings or auth
   if (isLoadingPublicSettings || isLoadingAuth) {
@@ -79,10 +85,20 @@ const AuthenticatedApp = () => {
     }
   }
 
+  // Legal Consent Architecture §8–§9. With the kill switch off (default),
+  // consent.state is "disabled" and nothing below changes behaviour.
+  // With it on: a signed-in user on any gated path (including /oauth/consent)
+  // sees only a loader, the blocking gate or the can't-verify screen until a
+  // fresh server response says they're allowed. Global side-effect
+  // components (activity tracking, help/bug reporter, launch overlay) mount
+  // only for verified users.
+  const { block: consentBlock, globalsAllowed } = consentGateView({ consent, user, pathname: location.pathname, Loader: AppLoader });
+  if (consentBlock) return consentBlock;
+
   // Render the main app
   return (
     <>
-      <LaunchExperience user={user} />
+      {globalsAllowed && <LaunchExperience user={user} />}
       <Routes>
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
@@ -95,6 +111,8 @@ const AuthenticatedApp = () => {
       <Route path="/landing" element={<Landing />} />
       <Route path="/roadmap" element={<Roadmap />} />
       <Route path="/oauth/consent" element={<OAuthConsent />} />
+      <Route path="/legal/consents" element={<MyConsents />} />
+      <Route path="/admin/legal" element={<AdminLegal />} />
       <Route element={<ProtectedRoute unauthenticatedElement={<Navigate to="/landing" replace />} />}>
         <Route path="/" element={<Home />} />
         <Route path="/quiz/:unitKey" element={<Quiz />} />
@@ -138,8 +156,8 @@ const AuthenticatedApp = () => {
       </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-      <ActivityTracker user={user} />
-      <HelpReporter user={user} />
+      {globalsAllowed && <ActivityTracker user={user} />}
+      {globalsAllowed && <HelpReporter user={user} />}
     </>
   );
 };
@@ -155,7 +173,9 @@ function App() {
             <ScrollToTop />
             <AnimationSettingsProvider>
               <PageLoadingProvider>
-                <AuthenticatedApp />
+                <ConsentProvider>
+                  <AuthenticatedApp />
+                </ConsentProvider>
               </PageLoadingProvider>
             </AnimationSettingsProvider>
           </Router>

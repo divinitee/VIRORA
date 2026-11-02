@@ -1,4 +1,5 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
+import { consentDenial } from '../../shared/consentGuard.js';
 import { secrets } from 'base44:runtime';
 import { receiptFile } from '../../shared/paymentReceipt.js';
 import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
@@ -325,6 +326,8 @@ export default async function(req: Request): Promise<Response> {
     let me: any = null;
     try { me = await base44.auth.me(); } catch { me = null; }
     if (!me?.id || !me?.email) return Response.json({ error: 'not authenticated', code: 'unauthenticated' }, { status: 401 });
+    const denied = await consentDenial(base44.asServiceRole.entities, me, { getSecret: (n: string) => secrets.get(n) });
+    if (denied) return denied;
 
     if (Number(req.headers.get('content-length')) > 11 * 1024 * 1024) throw new ApiError(413, 'receipt_too_large');
     const body = req.headers.get('content-type')?.includes('multipart/form-data')

@@ -4,7 +4,8 @@ export const DEEP_MAP_COPY = {
   en: {
     brandSub: "Word family map",
     vocab: "Vocabulary", grammar: "Grammar", soon: "soon",
-    preview: "Preview · 3 sample words",
+    preview: "Beta",
+    banner: "Deep Mode Beta · {n} words added · more coming every week", close: "Close", searchPh: "Search a word…", notAdded: "Not added yet — more words coming soon.",
     branches: { meaning: "Meaning", syn: "Synonyms", ant: "Antonyms", forms: "Word forms", context: "In context", root: "Root", affixes: "Affixes" },
     pos: { noun: "noun", verb: "verb", adjective: "adjective", adverb: "adverb" },
     of4: "{n} of 4",
@@ -36,7 +37,8 @@ export const DEEP_MAP_COPY = {
   uz: {
     brandSub: "So'z oilasi xaritasi",
     vocab: "Lug'at", grammar: "Grammatika", soon: "tez orada",
-    preview: "Namuna · 3 ta so'z",
+    preview: "Beta",
+    banner: "Deep Mode Beta · {n} ta so'z qo'shildi · har hafta yangilari qo'shiladi", close: "Yopish", searchPh: "So'z qidiring…", notAdded: "Hali qo'shilmagan — yangi so'zlar tez orada.",
     branches: { meaning: "Ma'nosi", syn: "Sinonimlar", ant: "Antonimlar", forms: "So'z shakllari", context: "Kontekstda", root: "Kelib chiqishi", affixes: "Qo'shimchalar" },
     pos: { noun: "ot", verb: "fe'l", adjective: "sifat", adverb: "ravish" },
     of4: "4 tadan {n}",
@@ -68,7 +70,8 @@ export const DEEP_MAP_COPY = {
   ru: {
     brandSub: "Карта семьи слова",
     vocab: "Лексика", grammar: "Грамматика", soon: "скоро",
-    preview: "Превью · 3 слова",
+    preview: "Бета",
+    banner: "Deep Mode Beta · добавлено слов: {n} · новые каждую неделю", close: "Закрыть", searchPh: "Найти слово…", notAdded: "Пока не добавлено — новые слова скоро.",
     branches: { meaning: "Значение", syn: "Синонимы", ant: "Антонимы", forms: "Формы слова", context: "В контексте", root: "Корень", affixes: "Аффиксы" },
     pos: { noun: "сущ.", verb: "глагол", adjective: "прил.", adverb: "наречие" },
     of4: "{n} из 4",

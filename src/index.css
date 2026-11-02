@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&family=Barlow:wght@300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap');
+/* Fonts are self-hosted: see src/fonts.js (was a Google Fonts @import). */
 
 @tailwind base;
 @tailwind components;

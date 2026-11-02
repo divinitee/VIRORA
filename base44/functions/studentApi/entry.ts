@@ -1,4 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
+import { secrets } from 'base44:runtime';
+import { consentDenial } from '../../shared/consentGuard.js';
 import { expiryPatch } from '../../shared/subscriptionCore.js';
 
 // studentApi: every write that grants access, sets teacher attribution, or
@@ -346,6 +348,8 @@ Deno.serve(async (req) => {
     let me: any = null;
     try { me = await base44.auth.me(); } catch { me = null; }
     if (!me?.id || !me?.email) return Response.json({ error: 'not authenticated', code: 'unauthenticated' }, { status: 401 });
+    const denied = await consentDenial(base44.asServiceRole.entities, me, { getSecret: (n: string) => secrets.get(n) });
+    if (denied) return denied;
 
     const body = await req.json().catch(() => ({}));
     const fn = ACTIONS[String(body.action || '')];
