@@ -43,6 +43,17 @@ const ACTIVITY_STYLES = {
   new: { label: "New", cls: "bg-muted text-muted-foreground" },
   inactive: { label: "Inactive 14d+", cls: "bg-amber-500/10 text-amber-600" },
 };
+// VT-45: the game reported this score itself; the server couldn't check the
+// answers (most Skill Hub word games). Shown so teachers don't read it as graded.
+function SelfCheckedPill() {
+  return (
+    <span title="This game reports its own answers, so VIRORA couldn't check this score."
+      className="text-[10px] font-semibold px-1.5 py-0.5 rounded-full border border-amber-500/40 text-amber-600 dark:text-amber-400 whitespace-nowrap">
+      self-checked
+    </span>
+  );
+}
+
 const HW_STYLES = {
   completed: { label: "Completed", cls: "bg-emerald-500/10 text-emerald-600" },
   overdue: { label: "Overdue", cls: "bg-amber-500/10 text-amber-600" },
@@ -296,6 +307,7 @@ function OverviewTab({ user, groups, activeStudents, activeAssignments, attentio
         {recent.slice(0, 8).map((r) => (
           <Row key={`${r.assignment_id}-${r.student_email}`} title={r.student_name} sub={`${r.assignment_title} · ${timeAgo(r.completed_at)}`}>
             {r.best_score_pct != null && <span className="text-sm font-bold text-emerald-600 tabular-nums">{r.best_score_pct}%</span>}
+            {r.best_self_checked && <SelfCheckedPill />}
             {r.completed_late && <Pill cls={HW_STYLES.overdue.cls}>late</Pill>}
           </Row>
         ))}
@@ -684,6 +696,7 @@ function AssignmentCard({ a, expanded, onToggle, onClose }) {
                 </div>
                 <div className="flex items-center gap-1.5 flex-shrink-0">
                   {r.best_score_pct != null && <span className="text-sm font-bold text-emerald-600 tabular-nums">{r.best_score_pct}%</span>}
+                  {r.best_self_checked && <SelfCheckedPill />}
                   {r.completed_late && <Pill cls={HW_STYLES.overdue.cls}>late</Pill>}
                   <Pill cls={HW_STYLES[r.status].cls}>{HW_STYLES[r.status].label}</Pill>
                 </div>

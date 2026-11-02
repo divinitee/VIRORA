@@ -290,12 +290,16 @@ async function submitHomework(svc: any, me: any, body: any) {
   // the client. Crossword has no scored round (it only reports "solved").
   let pct = 100;
   let roundId = '';
+  // VT-45: how this score was checked, copied from the receipt, so the teacher
+  // can see when a game reported its own answers ("self-checked").
+  let verification = 'none';
   if (a.game !== 'crossword') {
     const receipt = await latestRound(svc, me.email, a.game, existing?.last_completed_at || a.created_date);
     if (!receipt || !receipt.items_total) throw new ApiError(409, 'round_not_recorded');
     if (existing?.last_round_id === receipt.round_id) throw new ApiError(409, 'round_already_counted');
     pct = Math.round(Math.max(0, Math.min(1, receipt.items_credit / receipt.items_total)) * 100);
     roundId = receipt.round_id;
+    verification = String(receipt.verification || 'client_attested');
   }
   let submission;
   if (existing) {
@@ -303,7 +307,10 @@ async function submitHomework(svc: any, me: any, body: any) {
       last_round_id: roundId,
       attempts: (existing.attempts || 0) + 1,
       last_score_pct: pct,
+      last_score_verification: verification,
       best_score_pct: Math.max(existing.best_score_pct ?? 0, pct),
+      // The best round keeps its own label; a new best replaces it.
+      best_score_verification: pct > (existing.best_score_pct ?? -1) ? verification : (existing.best_score_verification || 'client_attested'),
       last_completed_at: now,
       student_name: displayName(me),
     });
@@ -318,6 +325,8 @@ async function submitHomework(svc: any, me: any, body: any) {
       attempts: 1,
       best_score_pct: pct,
       last_score_pct: pct,
+      best_score_verification: verification,
+      last_score_verification: verification,
       first_completed_at: now,
       last_completed_at: now,
       completed_late: !!(a.due_date && todayLocal() > a.due_date),

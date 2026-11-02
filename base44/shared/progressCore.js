@@ -51,6 +51,36 @@ export function confidenceFor(verifiedRounds) {
   return "low";
 }
 
+/* ---------------- VT-45 phase 1: self-reported evidence ---------------- */
+
+/**
+ * Self-reported ("client_attested") rounds — the 11 Skill Hub word games whose
+ * answers the server can't check — count for less on the skill bars, the same
+ * 0.6 evidence weight the Coach uses (coachCore ATTESTATION.client_attested).
+ * Tee + GPT, 2 Nov 2026.
+ *
+ * It's an EVIDENCE weight, not a penalty on the score: inside the window a
+ * self-reported round pulls the average 0.6 as hard as a server-checked round
+ * of the same size. A window of only self-reported rounds keeps its plain
+ * average; once server-checked rounds are present they dominate.
+ */
+export const ATTESTED_WEIGHT = 0.6;
+export const isAttested = (verification) => verification === "client_attested";
+export const isServerChecked = (verification) => verification === "server_graded" || verification === "server_ai";
+const roundWeight = (r) => (r?.attested ? ATTESTED_WEIGHT : 1);
+
+/**
+ * Skill-bar confidence. Volume (verified_rounds) sets the level as before, but
+ * "high" needs CONFIDENCE_HIGH_MIN SERVER-CHECKED rounds: self-reported rounds
+ * alone stop at "medium". An unknown server count (a SkillState row written
+ * before VT-45) is treated as unproven, so it's capped too until recomputed.
+ */
+export function skillConfidence(verifiedRounds, serverCheckedRounds) {
+  const level = confidenceFor(verifiedRounds || 0);
+  if (level !== "high") return level;
+  return Number(serverCheckedRounds) >= CONFIDENCE_HIGH_MIN ? "high" : "medium";
+}
+
 export function freshnessFor(lastAt, now = Date.now()) {
   if (!lastAt) return "cold";
   const days = (now - new Date(lastAt).getTime()) / DAY_MS;
@@ -163,12 +193,21 @@ export function gradeWordItem({ game, skill, word, item, aiScore, learnerLevel =
 
 /* ---------------- rounds, window, peak ---------------- */
 
-/** Group item-ledger rows into rounds. creditOf(row) in [0,1]. */
-export function groupRounds(rows, creditOf) {
+/**
+ * Group item-ledger rows into rounds. creditOf(row) in [0,1].
+ * VT-45: a round is self-reported (`attested`) if any of its rows is, and
+ * server-checked (`server`) only if all of them are. progressApi writes one
+ * verification per round, so in practice the rows agree. `defaultVerification`
+ * covers ledgers whose rows don't carry the field (AiGradedItem: server_ai).
+ */
+export function groupRounds(rows, creditOf, defaultVerification) {
   const by = new Map();
   for (const r of rows) {
     if (!r.round_id) continue;
-    const g = by.get(r.round_id) || { round_id: r.round_id, at: r.round_at || r.created_date, total: 0, credit: 0, verified: true };
+    const g = by.get(r.round_id) || { round_id: r.round_id, at: r.round_at || r.created_date, total: 0, credit: 0, verified: true, attested: false, server: true };
+    const v = r.verification ?? defaultVerification;
+    if (isAttested(v)) g.attested = true;
+    if (!isServerChecked(v)) g.server = false;
     g.total += 1;
     g.credit += creditOf(r);
     by.set(r.round_id, g);
@@ -191,25 +230,33 @@ export function windowOf(verifiedNewestFirst, legacyNewestFirst) {
 
 export function masteryOf(rounds) {
   let c = 0, t = 0;
-  for (const r of rounds) { c += Number(r.credit) || 0; t += Number(r.total) || 0; }
+  for (const r of rounds) {
+    const w = roundWeight(r);
+    c += w * (Number(r.credit) || 0);
+    t += w * (Number(r.total) || 0);
+  }
   return t > 0 ? Math.round((100 * c) / t) : 0;
 }
 
 /** Everything but historical_peak / legacy_best, from the two tiers. */
-export function stateFrom({ verified, legacy, verifiedCount, legacyCount }, now = Date.now()) {
+export function stateFrom({ verified, legacy, verifiedCount, legacyCount, serverCount = undefined }, now = Date.now()) {
   const vs = [...verified].sort(byAtDesc);
   const ls = [...legacy].sort(byAtDesc);
   const { rounds, legacyInWindow } = windowOf(vs, ls);
   const last = [vs[0]?.at, ls[0]?.at].filter(Boolean).sort().pop() || null;
   const round_count = verifiedCount + legacyCount;
+  // Server-checked rounds (VT-45). Callers pass the full count; when they
+  // don't, it's counted from the rounds given (the rebuild path has them all).
+  const server_checked_rounds = serverCount ?? vs.filter((r) => r.server === true).length;
   return {
     current_mastery: masteryOf(rounds),
     verified_rounds: verifiedCount,
+    server_checked_rounds,
     round_count,
     evidence_count: round_count,
     legacy_rounds_in_window: legacyInWindow,
     items_in_window: rounds.reduce((a, r) => a + (Number(r.total) || 0), 0),
-    confidence: confidenceFor(verifiedCount),
+    confidence: skillConfidence(verifiedCount, server_checked_rounds),
     freshness: freshnessFor(last, now),
     last_evidence_at: last,
   };
@@ -230,7 +277,7 @@ export function replayPeak(verified, legacy) {
 export function zeroState(email, skill) {
   return {
     user_email: email, skill, current_mastery: 0, confidence: "low", freshness: "cold",
-    round_count: 0, verified_rounds: 0, evidence_count: 0, legacy_rounds_in_window: 0, items_in_window: 0,
+    round_count: 0, verified_rounds: 0, server_checked_rounds: 0, evidence_count: 0, legacy_rounds_in_window: 0, items_in_window: 0,
     last_evidence_at: null, historical_peak: 0, legacy_best: 0, computed_at: null,
   };
 }
@@ -241,7 +288,7 @@ export function presentState(row, now = Date.now()) {
   return {
     ...row, round_count, evidence_count: round_count,
     freshness: freshnessFor(row.last_evidence_at, now),
-    confidence: confidenceFor(row.verified_rounds || 0),
+    confidence: skillConfidence(row.verified_rounds || 0, row.server_checked_rounds),
   };
 }
 
@@ -255,4 +302,4 @@ export function summarize(states) {
 }
 
 /** Fields compared by the rebuild-equivalence check. */
-export const COMPARABLE = ["current_mastery", "round_count", "verified_rounds", "legacy_rounds_in_window", "items_in_window", "confidence", "last_evidence_at", "historical_peak"];
+export const COMPARABLE = ["current_mastery", "round_count", "verified_rounds", "server_checked_rounds", "legacy_rounds_in_window", "items_in_window", "confidence", "last_evidence_at", "historical_peak"];

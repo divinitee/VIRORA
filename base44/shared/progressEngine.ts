@@ -4,7 +4,7 @@
 //   rebuildSkill    from scratch: every item-ledger row grouped into rounds + every legacy RewardEvent.
 import {
   SKILL_KEYS, EVIDENCE_WINDOW_N, gamesForSkill, ledgerForSkill, groupRounds,
-  stateFrom, replayPeak, zeroState, presentState, summarize,
+  isAttested, isServerChecked, stateFrom, replayPeak, zeroState, presentState, summarize,
 } from './progressCore.js';
 
 export * from './progressCore.js';
@@ -29,7 +29,14 @@ const legacyQuery = (email: string, skill: string) => ({
 });
 const legacyRound = (e: any) => ({ round_id: e.round_id || e.id, at: e.created_date, total: Number(e.items_total) || 0, credit: Math.min(Number(e.items_correct) || 0, Number(e.items_total) || 0), verified: false });
 const receiptQuery = (email: string, skill: string) => ({ user_email: email, kind: 'evidence', status: 'done', skill });
-const receiptRound = (r: any) => ({ round_id: r.round_id, at: r.round_at, total: Number(r.items_total) || 0, credit: Number(r.items_credit) || 0, verified: true });
+// VT-45: `attested` = self-reported round (counts 0.6 in the window); `server`
+// = the server checked every answer. A receipt with no verification (none
+// should exist after VT-6) is neither: full weight, but no proof for "high".
+const receiptRound = (r: any) => ({
+  round_id: r.round_id, at: r.round_at, total: Number(r.items_total) || 0, credit: Number(r.items_credit) || 0, verified: true,
+  attested: isAttested(r.verification), server: isServerChecked(r.verification),
+});
+const serverReceiptQuery = (email: string, skill: string) => ({ ...receiptQuery(email, skill), verification: { $in: ['server_graded', 'server_ai'] } });
 
 function ledgerQuery(email: string, skill: string) {
   if (skill === 'creativity') return { user_email: email, task: 'sentence', counted: true };
@@ -71,14 +78,17 @@ export async function claimRound(svc: any, email: string, roundId: string, kind:
 
 export async function recomputeSkill(svc: any, email: string, skill: string, now = Date.now()) {
   const existing = (await svc.SkillState.filter({ user_email: email, skill }, '-updated_date', 1))?.[0];
-  if (!existing || existing.verified_rounds == null) return await rebuildSkill(svc, email, skill, now);
-  const [receipts, verifiedCount, legacy, legacyCount] = await Promise.all([
+  // server_checked_rounds == null: written before VT-45, so rebuild once from
+  // the ledger to get the server-checked count right.
+  if (!existing || existing.verified_rounds == null || existing.server_checked_rounds == null) return await rebuildSkill(svc, email, skill, now);
+  const [receipts, verifiedCount, serverCount, legacy, legacyCount] = await Promise.all([
     svc.RoundReceipt.filter(receiptQuery(email, skill), '-round_at', EVIDENCE_WINDOW_N),
     svc.RoundReceipt.count(receiptQuery(email, skill)),
+    svc.RoundReceipt.count(serverReceiptQuery(email, skill)),
     svc.RewardEvent.filter(legacyQuery(email, skill), '-created_date', EVIDENCE_WINDOW_N),
     svc.RewardEvent.count(legacyQuery(email, skill)),
   ]);
-  const s = stateFrom({ verified: (receipts || []).map(receiptRound), legacy: (legacy || []).map(legacyRound), verifiedCount, legacyCount }, now);
+  const s = stateFrom({ verified: (receipts || []).map(receiptRound), legacy: (legacy || []).map(legacyRound), verifiedCount, serverCount, legacyCount }, now);
   return await upsertState(svc, email, skill, {
     ...s,
     historical_peak: Math.max(Number(existing.historical_peak) || 0, s.current_mastery),
@@ -91,7 +101,7 @@ export async function deriveSkill(svc: any, email: string, skill: string, now = 
     pageAll(svc[ledgerForSkill(skill)], ledgerQuery(email, skill)),
     pageAll(svc.RewardEvent, legacyQuery(email, skill)),
   ]);
-  const verified = groupRounds(rows, creditOf(skill));
+  const verified = groupRounds(rows, creditOf(skill), skill === 'creativity' ? 'server_ai' : undefined);
   const legacy = legacyRows.map(legacyRound);
   const s = stateFrom({ verified, legacy, verifiedCount: verified.length, legacyCount: legacy.length }, now);
   return { ...s, historical_peak: replayPeak(verified, legacy) };

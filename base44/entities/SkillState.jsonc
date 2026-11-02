@@ -51,6 +51,10 @@
       "default": 0,
       "description": "Rounds of server-validated post-VT-6 evidence."
     },
+    "server_checked_rounds": {
+      "type": "number",
+      "description": "VT-45. Rounds the server checked itself (server_graded / server_ai). 'high' confidence needs CONFIDENCE_HIGH_MIN of these; self-reported (client_attested) rounds alone stop at 'medium'. Null on rows written before VT-45 (treated as unproven until recomputed)."
+    },
     "legacy_rounds_in_window": {
       "type": "number",
       "default": 0,

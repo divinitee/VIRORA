@@ -32,6 +32,26 @@
     "last_score_pct": {
       "type": "number"
     },
+    "last_score_verification": {
+      "type": "string",
+      "enum": [
+        "server_graded",
+        "server_ai",
+        "client_attested",
+        "none"
+      ],
+      "description": "VT-45. How the last score was checked, copied from the RoundReceipt. client_attested = the game reported its own answers (shown to the teacher as 'self-checked'). none = crossword (no scored round)."
+    },
+    "best_score_verification": {
+      "type": "string",
+      "enum": [
+        "server_graded",
+        "server_ai",
+        "client_attested",
+        "none"
+      ],
+      "description": "VT-45. Same, for the round that set best_score_pct."
+    },
     "first_completed_at": {
       "type": "string",
       "format": "date-time"

@@ -99,6 +99,10 @@ async function gradeEvidence(svc: any, me: any, r: any, body: any) {
     if (!lvl.ok) throw new ApiError(409, 'no_session_level');
     learnerLevel = lvl.level ?? null;
   }
+  // VT-45 phase 1: a Coach round (it carries the session key) only ever sends
+  // question types the server can grade, so an ungradable item in one is
+  // forged and the round is rejected instead of trusting its `correct` flag.
+  const coachRound = r.game === 'quiz' && !!(body?.coach && typeof body.coach === 'object' && str(body.coach.session_key, 80));
   let anyAttested = false;
   const rows = items.map((it: any) => {
     const w = it?.word_id ? byId.get(str(it.word_id, 40)) : null;
@@ -108,7 +112,14 @@ async function gradeEvidence(svc: any, me: any, r: any, body: any) {
     const word = str(w?.english || it?.word, 80);
     if (!word) throw new ApiError(400, 'bad_items');
     let correct: boolean | null = gradeWordItem({ game: r.game, skill, word: w, item: it, aiScore: aiByKey.get(normalise(word)), learnerLevel });
-    if (correct === null) { correct = it?.correct === true; anyAttested = true; }
+    if (correct === null) {
+      if (coachRound) throw new ApiError(400, 'ungradable_item');
+      // Self-reported answer: it must at least be a real boolean (the games
+      // send !!correct). Anything else is malformed, not "wrong".
+      if (typeof it?.correct !== 'boolean') throw new ApiError(400, 'bad_items');
+      correct = it.correct;
+      anyAttested = true;
+    }
     const given = r.game === 'spelling' && typeof it?.given === 'string' ? str(it.given, 80) : undefined;
     return { word, word_id: w?.id, correct, given, ...enrichmentFor({ game: r.game, bank: r.bank, support: it?.support }) };
   });
