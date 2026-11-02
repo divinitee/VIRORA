@@ -3,5 +3,5 @@ import LegalPage from "@/components/legal/LegalPage";
 import { TERMS } from "@/lib/legal/terms";
 
 export default function Terms() {
-  return <LegalPage docs={TERMS} />;
+  return <LegalPage docs={TERMS} docType="public_offer" />;
 }

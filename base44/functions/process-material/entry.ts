@@ -1,4 +1,5 @@
 import { createClientFromRequest } from "npm:@base44/sdk@0.8.55";
+import { consentDenial } from '../../shared/consentGuard.js';
 import { secrets } from "base44:runtime";
 import { reserveUsage, releaseUsageLease, UsageLimitError } from '../../shared/usageGuard.js';
 import materialDownload from '../../shared/materialDownload.js';
@@ -125,6 +126,9 @@ export default async function (req) {
     const user = await base44.auth.me();
     if (!user?.id) return Response.json({ error: "Authentication required" }, { status: 401 });
     if (user.role !== 'admin' && user.teacher_status !== 'approved') return Response.json({ error: 'Teacher access required' }, { status: 403 });
+    // Legal consent (v1.0 §7): before accepting/processing the upload...
+    const denied = await consentDenial(base44.asServiceRole.entities, user, { getSecret: (n: string) => secrets.get(n) });
+    if (denied) return denied;
 
     const body = await req.json();
     materialSourceId = body.materialSourceId;
@@ -171,6 +175,13 @@ export default async function (req) {
 
     const chunks = splitIntoChunks(source);
     const analyses = [];
+    // ...and again right before the content leaves for the model provider,
+    // in case consent was withdrawn or a new release went live mid-run.
+    const lateDenial = await consentDenial(base44.asServiceRole.entities, user, { getSecret: (n: string) => secrets.get(n) });
+    if (lateDenial) {
+      await base44.asServiceRole.entities.MaterialSource.update(material.id, { processing_status: "failed", error_message: "Legal consent required" });
+      return lateDenial;
+    }
     for (let i = 0; i < chunks.length; i++) {
       analyses.push(await analyzeChunk(base44, material.title, chunks[i], i + 1, chunks.length));
     }

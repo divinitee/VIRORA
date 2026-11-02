@@ -1,4 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
+import { secrets } from 'base44:runtime';
+import { consentDenial } from '../../shared/consentGuard.js';
 import { getAiStatus, publicAiStatus, reserveAiTurn } from '../../shared/aiQuota.js';
 
 // Server-side AI gateway. Every InvokeLLM call the app makes on behalf of a
@@ -199,6 +201,9 @@ export default async function (req) {
     const base44 = createClientFromRequest(req);
     const user = await base44.auth.me();
     if (!user) return Response.json({ error: 'Unauthorized' }, { status: 401 });
+    // Legal consent (v1.0 §7): before metering, prompt building or any model call.
+    const denied = await consentDenial(base44.asServiceRole.entities, user, { getSecret: (n: string) => secrets.get(n) });
+    if (denied) return denied;
     const sr = base44.asServiceRole;
     const body = await req.json().catch(() => ({}));
     const { action } = body;

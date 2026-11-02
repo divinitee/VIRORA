@@ -5,10 +5,13 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Bell, Check, Globe } from "lucide-react";
 import ProfileEditor from "@/components/ProfileEditor";
 import { Switch } from "@/components/ui/switch";
-import { useAppLang } from "@/hooks/useAppLang";
+import { useAppLang, getAppLang } from "@/hooks/useAppLang";
 import LanguageSelector from "@/components/LanguageSelector";
 import BetaBadge from "@/components/BetaBadge";
 import AnimationStudioLink from "@/components/animation/AnimationStudioLink";
+import { CONSENT_GATE_ENABLED } from "@/lib/legal/consentConfig";
+
+const LEGAL_LINK = { uz: "Mening roziliklarim", ru: "Мои согласия", en: "My consents" };
 
 export default function Settings() {
   const { t } = useAppLang();
@@ -91,6 +94,12 @@ export default function Settings() {
             </p>
           )}
         </div>
+
+        {CONSENT_GATE_ENABLED && (
+          <Link to="/legal/consents" className="block bg-background rounded-2xl border border-border p-5 hover:bg-muted/40">
+            <p className="text-sm font-medium text-foreground">{LEGAL_LINK[getAppLang()] || LEGAL_LINK.uz}</p>
+          </Link>
+        )}
       </div>
     </div>
   );

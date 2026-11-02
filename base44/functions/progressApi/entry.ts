@@ -1,4 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.52';
+import { secrets } from 'base44:runtime';
+import { consentDenial } from '../../shared/consentGuard.js';
 import {
   GAME_SKILL_MAP, XP_ONLY_GAMES, SKILL_KEYS, MAX_ITEMS, COMPARABLE,
   gradePractice, gradeQuiz, gradeWordItem, normalise, sessionLevel,
@@ -288,6 +290,8 @@ export default async function (req: Request): Promise<Response> {
     let me: any = null;
     try { me = await base44.auth.me(); } catch { me = null; }
     if (!me?.email) return Response.json({ ok: false, error: 'not authenticated', code: 'unauthenticated' }, { status: 401 });
+    const denied = await consentDenial(base44.asServiceRole.entities, me, { getSecret: (n: string) => secrets.get(n) });
+    if (denied) return denied;
     const body = await req.json().catch(() => ({}));
     const fn = ACTIONS[String(body.action || '')];
     if (!fn) return Response.json({ ok: false, error: 'unknown action', code: 'unknown_action' }, { status: 400 });

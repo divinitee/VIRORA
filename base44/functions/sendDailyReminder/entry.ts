@@ -1,4 +1,6 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
+import { secrets } from 'base44:runtime';
+import { consentFilter } from '../../shared/consentGuard.js';
 
 Deno.serve(async (req) => {
   try {
@@ -13,9 +15,15 @@ Deno.serve(async (req) => {
     // Fetch all users (service role) — these are the people who installed/registered
     const users = await base44.asServiceRole.entities.User.list();
 
+    // Legal consent (v1.0 §9): no reminder emails to anyone the consent
+    // system says has not accepted the current release (when enforced).
+    const mayContact = await consentFilter(base44.asServiceRole.entities, { getSecret: (n: string) => secrets.get(n) });
+
     let sent = 0;
+    let skippedConsent = 0;
     for (const u of users) {
       if (!u.email) continue;
+      if (!(await mayContact(u))) { skippedConsent++; continue; }
       // Skip users who disabled notifications
       if (u.notifications_enabled === false) continue;
       const name = u.full_name || u.email.split('@')[0];
@@ -27,7 +35,7 @@ Deno.serve(async (req) => {
       sent++;
     }
 
-    return Response.json({ success: true, sent, total: users.length });
+    return Response.json({ success: true, sent, skippedConsent, total: users.length });
   } catch (error) {
     return Response.json({ error: error.message }, { status: 500 });
   }

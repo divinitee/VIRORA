@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "npm:@base44/sdk@0.8.31": "./mock_sdk_module.ts",
+    "npm:@base44/sdk@0.8.52": "./mock_sdk_module.ts",
+    "npm:@base44/sdk@0.8.55": "./mock_sdk_module.ts",
+    "base44:runtime": "../admin-console-tests/mock_runtime.ts",
+    "jsr:@std/assert@1": "jsr:@std/assert@1"
+  }
+}

@@ -11,6 +11,9 @@ import GoogleIcon from "@/components/GoogleIcon";
 import { toast } from "@/components/ui/use-toast";
 import { useAppLang } from "@/hooks/useAppLang";
 import SignupConsent, { consentError } from "@/components/legal/SignupConsent";
+import ConsentGateScreen, { ConsentUnavailableScreen } from "@/components/legal/ConsentGateScreen";
+import { CONSENT_GATE_ENABLED } from "@/lib/legal/consentConfig";
+import { getConsentStatus } from "@/lib/legal/legalClient";
 import { APP_LANGS } from "@/i18n/translations";
 import { LEVELS } from "@/lib/levels";
 import { setUserLevel } from "@/lib/levelStore";
@@ -234,6 +237,8 @@ export default function Register() {
   const [consentData, setConsentData] = useState(false);
   const [loading, setLoading] = useState(false);
   const [otpCode, setOtpCode] = useState("");
+  const [consentGate, setConsentGate] = useState(null);
+  const [consentGateError, setConsentGateError] = useState(null);
 
   // Step sequence — students get "goals" and "level" after role selection.
   // Teachers get neither: they aren't the ones being levelled. Teachers do
@@ -297,38 +302,12 @@ export default function Register() {
     }
   };
 
-  const handleVerify = async () => {
-    setError("");
+  // Everything after a working session: consent gate (when enabled), then
+  // the profile writes. Re-entered from the gate's onAccepted / Retry, since
+  // the OTP itself can't be verified twice.
+  const finishSetup = async () => {
     setLoading(true);
     try {
-      const result = await base44.auth.verifyOtp({ email, otpCode });
-
-      // verifyOtp confirms the email; it does NOT reliably hand back a session.
-      // The SDK types it `Promise<any>` and every one of its own examples
-      // follows it with an explicit login. The old code assumed a token came
-      // back, so when it didn't, nothing was ever stored under
-      // base44_access_token — and the hard redirect below landed on a
-      // ProtectedRoute with no session, which bounced the brand-new student
-      // straight back to /landing. Silently, because every call in between was
-      // wrapped in an empty catch.
-      let signedIn = false;
-      const token = result?.access_token || result?.token;
-      if (token) {
-        base44.auth.setToken(token);
-        try { await base44.auth.me(); signedIn = true; } catch { signedIn = false; }
-      }
-      if (!signedIn) {
-        try {
-          await base44.auth.loginViaEmailPassword(email, password);
-          await base44.auth.me(); // prove the session works before navigating
-          signedIn = true;
-        } catch (loginErr) {
-          console.error("Post-verification sign-in failed:", loginErr);
-          setError(s.sessionFail);
-          return;
-        }
-      }
-
       // Everything the form collected, in one write now that there's a session
       // to write it with.
       //
@@ -393,6 +372,71 @@ export default function Register() {
       const returnTo = safeReturnTo();
       window.location.href = returnTo !== "/" ? returnTo : role === "student" ? "/onboarding" : "/";
     } catch (err) {
+      console.error("Post-sign-up setup failed:", err);
+      setError(friendlyAuthError(err, lang, s.registerFail));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const continueAfterSignIn = async (locale = lang) => {
+    if (CONSENT_GATE_ENABLED) {
+      try {
+        const st = await getConsentStatus(["uz", "ru", "en"].includes(locale) ? locale : "uz");
+        if (!(st.allowed || st.enforced === false)) {
+          setConsentGateError(null);
+          setConsentGate(st);
+          return;
+        }
+      } catch (e) {
+        // Fail closed: no profile writes without a readable consent status.
+        setConsentGate(null);
+        setConsentGateError(e.code || "CONSENT_CHECK_UNAVAILABLE");
+        return;
+      }
+    }
+    setConsentGate(null);
+    setConsentGateError(null);
+    await finishSetup();
+  };
+
+  const handleVerify = async () => {
+    setError("");
+    setLoading(true);
+    try {
+      const result = await base44.auth.verifyOtp({ email, otpCode });
+
+      // verifyOtp confirms the email; it does NOT reliably hand back a session.
+      // The SDK types it `Promise<any>` and every one of its own examples
+      // follows it with an explicit login. The old code assumed a token came
+      // back, so when it didn't, nothing was ever stored under
+      // base44_access_token — and the hard redirect below landed on a
+      // ProtectedRoute with no session, which bounced the brand-new student
+      // straight back to /landing. Silently, because every call in between was
+      // wrapped in an empty catch.
+      let signedIn = false;
+      const token = result?.access_token || result?.token;
+      if (token) {
+        base44.auth.setToken(token);
+        try { await base44.auth.me(); signedIn = true; } catch { signedIn = false; }
+      }
+      if (!signedIn) {
+        try {
+          await base44.auth.loginViaEmailPassword(email, password);
+          await base44.auth.me(); // prove the session works before navigating
+          signedIn = true;
+        } catch (loginErr) {
+          console.error("Post-verification sign-in failed:", loginErr);
+          setError(s.sessionFail);
+          return;
+        }
+      }
+
+      // Legal Consent Architecture §8: the server-recorded consent comes
+      // first; nothing below (profile, level, class join, teacher application)
+      // runs until the server says this account may proceed.
+      await continueAfterSignIn();
+    } catch (err) {
       setError(friendlyAuthError(err, lang, s.otpFail, "otp"));
     } finally {
       setLoading(false);
@@ -420,6 +464,21 @@ export default function Register() {
   };
 
   const isTeacher = role === "teacher";
+
+  if (consentGate) {
+    return (
+      <ConsentGateScreen status={consentGate} origin="register"
+        onLocaleChange={(l) => continueAfterSignIn(l)} onAccepted={() => continueAfterSignIn(consentGate.locale)}
+        onStale={() => continueAfterSignIn(consentGate.locale)}
+        onSignOut={() => base44.auth.logout(`${window.location.origin}/landing`)} />
+    );
+  }
+  if (consentGateError) {
+    return (
+      <ConsentUnavailableScreen code={consentGateError} locale={lang} retrying={loading}
+        onRetry={() => continueAfterSignIn()} onSignOut={() => base44.auth.logout(`${window.location.origin}/landing`)} />
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background premium-mesh flex items-center justify-center px-4 py-10">
