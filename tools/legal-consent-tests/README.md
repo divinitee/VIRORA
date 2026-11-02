@@ -19,6 +19,19 @@ deno test --allow-read tools/legal-consent-tests/static.test.ts
 # proves the race is real
 deno test --allow-read tools/legal-consent-tests/concurrency.test.ts
 
+# lease expiry with two handlers really overlapping (GPT re-review 2 Nov):
+# A is parked mid-request, the clock passes its lease, B runs for real, then A
+# resumes → the stale-holder fence before every append makes A abort with
+# LEGAL_WRITE_BUSY and write nothing; A never releases B's lock; 429 on claim
+# backs off; the one residual window (an append in flight past the margin) is
+# shown and collapsed by readers
+deno test --allow-read tools/legal-consent-tests/lease.test.ts
+
+# complete history (GPT re-review 2 Nov): withdrawal / re-grant after more than
+# 1,000 rows is seen; count() mismatch re-reads then fails closed; past the
+# hard max fails closed (never a truncated evaluation)
+deno test --allow-read tools/legal-consent-tests/history.test.ts
+
 # manifest duplicates (GPT code audit 2 Nov): duplicate requirement, duplicate
 # document type per locale, duplicate/mismatched document reference → refused
 # at draft (nothing written), refused at publish, never served (503)
@@ -71,6 +84,30 @@ BUNDLE_OUT=/tmp/consent-withdraw.js NODE_PATH=/tmp/rc/node_modules node tools/le
 GATE_OFF=1 ENTRY=entry_withdraw.jsx ANALYTICS_SPY=1 BUNDLE_OUT=/tmp/consent-withdraw-off.js node tools/legal-consent-tests/render/build.mjs
 GATE_OFF=1 BUNDLE_OUT=/tmp/consent-withdraw-off.js NODE_PATH=/tmp/rc/node_modules node tools/legal-consent-tests/render/run_withdraw.cjs
 ```
+
+## Removed on purpose: `TeacherCoPlanChat.jsx`, `VocabTutorChat.jsx`
+
+Both components called `base44.agents.*` straight from the browser — an AI
+path that bypasses every backend consent guard. Neither was mounted anywhere
+(no imports). The Legal v1.3 audit (Q2) said "either delete those components
+or disable the agent"; this branch deletes them and `static.test.ts`
+("agents: no browser code calls Base44 agents") keeps it that way. The
+`vocabulary_tutor` agent itself must also be disabled in the Base44 dashboard
+before enforcement (tracked on the taskboard, VT-47).
+
+## Base44 claim semantics (live, 2 Nov 2026)
+
+The write lock relies on `updateMany({ id, <field>: v }, …)` being an atomic
+conditional write. Documented in SDK 0.8.57 (`entities.types.d.ts`, "Claim a
+record … Only one user can claim the task, even if several try at the same
+time") and docs.base44.com (entity-schemas, "Concurrent updates": conditions
+"are only checked again at the moment of the write when the query names a
+single record's id"). Verified on this app with a temporary probe task
+(VT-47.1): 6 rounds of 9–20 simultaneous conditional claims → exactly one
+`updated: 1` per round; a naive read-then-write control lost 29 of 30
+updates. Base44 also rate-limits bulk updates to 50 per 60 s per caller (a
+service token is one caller), so the lock spends only 2 calls per write
+(claim + release) and the fence is a local lease check.
 
 The live proofs (real Base44 RLS denies direct CRUD; MCP entity access off;
 canary accounts) are manual — see LEGAL-CONSENT-V1-HANDOFF.md in the project.

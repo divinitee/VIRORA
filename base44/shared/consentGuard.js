@@ -39,10 +39,41 @@ export async function loadActiveRelease(svc, now = Date.now()) {
   return release;
 }
 
+// The caller's COMPLETE consent history (GPT re-review, 2 Nov 2026). A single
+// capped read sorted oldest-first would drop the newest events — e.g. a
+// withdrawal — once a user had more rows than the cap, and an older grant
+// would then still look active. So:
+//   - page through every row (oldest first, by server created_date),
+//   - drop any row seen twice across a page boundary (same id),
+//   - confirm the total with count(); a mismatch (rows appended or a page
+//     boundary shifted mid-read) re-reads once, then fails closed,
+//   - refuse to evaluate past RECORD_MAX rows (fail closed, never truncate).
 // Every reader goes through here, so duplicate rows from a concurrent retry
-// are collapsed before status, receipts or withdrawal see them.
-export const loadRecords = async (svc, userId) =>
-  collapseDuplicates(await svc.ConsentRecord.filter({ subject_user_id: String(userId) }, 'occurred_at', 1000));
+// are also collapsed before status, receipts or withdrawal see them.
+export const RECORD_PAGE = 500;
+export const RECORD_MAX = 20_000;
+
+async function readAll(svc, query, page, max) {
+  const byId = new Map();
+  for (let skip = 0; ; skip += page) {
+    const rows = await svc.ConsentRecord.filter(query, 'created_date', page, skip);
+    for (const r of rows) byId.set(r.id, r);
+    if (rows.length < page) break;
+    if (skip + page >= max) throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history too long to evaluate');
+  }
+  return [...byId.values()];
+}
+
+/** @param {any} svc @param {string|number} userId @param {{ page?: number, max?: number }} [opts] */
+export async function loadRecords(svc, userId, { page = RECORD_PAGE, max = RECORD_MAX } = {}) {
+  const query = { subject_user_id: String(userId) };
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const rows = await readAll(svc, query, page, max);
+    const total = typeof svc.ConsentRecord.count === 'function' ? await svc.ConsentRecord.count(query) : rows.length;
+    if (rows.length === total) return collapseDuplicates(rows);
+  }
+  throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history changed while reading');
+}
 
 // Returns { enforced, allowed, code?, missing? }. Never throws.
 /** @param {any} svc @param {any} user @param {{ getSecret?: (n: string) => string | undefined, now?: number }} [opts] */

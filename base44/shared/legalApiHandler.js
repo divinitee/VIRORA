@@ -22,7 +22,7 @@
 
 import {
   CODE, DOC_TYPES, EVENT, EVIDENCE_SCHEMA_VERSION, LOCALES, LegalError, ORIGIN_ROUTES,
-  activeGrants, canonicalize, collapseDuplicates, deriveStatus, docFor, documentId, isEnforcedFor, isIdempotencyKey, isLocale,
+  activeGrants, canonicalize, deriveStatus, docFor, documentId, isEnforcedFor, isIdempotencyKey, isLocale,
   parseIdList, pickLocale, requirementKey, selectActiveRelease, sha256Hex, signPresentation, validateActions,
   validateManifest, verifyPresentation,
 } from './legalCore.js';
@@ -121,14 +121,16 @@ async function recordConsent(ctx, body) {
   });
   const reqs = validateActions(release, body.actions);
 
-  return withConsentLock(ctx.svc, me.id, () => appendConsent(ctx, me, body, release, reqs, origin, occurredAt), ctx.lockOpts);
+  return withConsentLock(ctx.svc, me.id, (fence) => appendConsent(ctx, me, body, release, reqs, origin, occurredAt, fence), ctx.lockOpts);
 }
 
-async function appendConsent(ctx, me, body, release, reqs, origin, occurredAt) {
+async function appendConsent(ctx, me, body, release, reqs, origin, occurredAt, fence) {
   // Idempotency (under the user's write lock): a retry, sequential or
   // simultaneous, finds what the first attempt wrote and only appends what is
   // still missing.
-  const prior = collapseDuplicates(await ctx.svc.ConsentRecord.filter({ subject_user_id: String(me.id), idempotency_key: body.idempotency_key }, 'occurred_at', 50));
+  // Read from the caller's COMPLETE history (paged + count-checked), not a
+  // separately capped query.
+  const prior = (await loadRecords(ctx.svc, me.id)).filter((r) => r.idempotency_key === body.idempotency_key);
   if (prior.some((r) => r.release_id !== release.release_id)) throw new LegalError(CODE.INVALID_REQUEST, 400, 'idempotency_key reused');
   const done = new Set(prior.map((r) => requirementKey(r)));
 
@@ -137,6 +139,7 @@ async function appendConsent(ctx, me, body, release, reqs, origin, occurredAt) {
     if (done.has(requirementKey(req))) continue;
     const d = docFor(release, body.locale, req.document_type);
     if (!d) throw new LegalError(CODE.LEGAL_VERSION_CHANGED, 409, 'document missing for locale');
+    fence(); // still safely the lock holder? otherwise abort before writing
     const row = await ctx.svc.ConsentRecord.create(compact({
       subject_user_id: String(me.id),
       event_type: req.event_type,
@@ -168,10 +171,10 @@ async function appendConsent(ctx, me, body, release, reqs, origin, occurredAt) {
 async function withdrawConsent(ctx, body) {
   const me = ctx.requireUser();
   if (!isIdempotencyKey(body.idempotency_key)) throw new LegalError(CODE.INVALID_REQUEST, 400, 'idempotency_key');
-  return withConsentLock(ctx.svc, me.id, () => appendWithdrawal(ctx, me, body), ctx.lockOpts);
+  return withConsentLock(ctx.svc, me.id, (fence) => appendWithdrawal(ctx, me, body, fence), ctx.lockOpts);
 }
 
-async function appendWithdrawal(ctx, me, body) {
+async function appendWithdrawal(ctx, me, body, fence) {
   const records = await loadRecords(ctx.svc, me.id);
   const already = records.find((r) => r.event_type === EVENT.DP_WITHDRAWN && r.idempotency_key === body.idempotency_key);
   if (already) return { withdrawn: { record_id: already.id, purpose_scope_id: already.purpose_scope_id, occurred_at: already.occurred_at } };
@@ -181,6 +184,7 @@ async function appendWithdrawal(ctx, me, body) {
   const grant = activeGrants(records).find((r) => r.id === str(body.related_record_id, 100));
   if (!grant) throw new LegalError(CODE.NOT_FOUND, 404, 'no active grant with that id');
   const now = ctx.now();
+  fence(); // still safely the lock holder? otherwise abort before writing
   const row = await ctx.svc.ConsentRecord.create(compact({
     subject_user_id: String(me.id),
     event_type: EVENT.DP_WITHDRAWN,
