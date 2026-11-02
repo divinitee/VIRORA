@@ -34,5 +34,15 @@ GATE_OFF=1 BUNDLE_OUT=/tmp/consent-off.js node tools/legal-consent-tests/render/
 BUNDLE_OUT=/tmp/consent-off.js NODE_PATH=/tmp/rc/node_modules node tools/legal-consent-tests/render/run_off.cjs
 ```
 
+## Analytics follow verified consent (2 Nov 2026 addendum)
+
+```bash
+# real ConsentProvider + a spy for src/lib/analyticsConsent.js: analytics start
+# only on enforced+allowed, stop on required / unreadable / signed out / mode
+# off, and the withdrawal page stops them at once
+ANALYTICS_SPY=1 BUNDLE_OUT=/tmp/consent-analytics.js node tools/legal-consent-tests/render/build.mjs
+BUNDLE_OUT=/tmp/consent-analytics.js NODE_PATH=/tmp/rc/node_modules node tools/legal-consent-tests/render/run_analytics.cjs
+```
+
 The live proofs (real Base44 RLS denies direct CRUD; MCP entity access off;
 canary accounts) are manual — see LEGAL-CONSENT-V1-HANDOFF.md in the project.

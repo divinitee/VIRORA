@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/AuthContext";
 import { getAppLang } from "@/hooks/useAppLang";
 import { listMyConsents, newIdempotencyKey, withdrawConsent } from "@/lib/legal/legalClient";
+import { disableConsentedAnalytics } from "@/lib/analyticsConsent";
 
 // /legal/consents — consent receipts and withdrawal (Legal Consent
 // Architecture §5, §7 withdrawConsent). Deliberately UNGATED: withdrawing
@@ -61,6 +62,8 @@ export default function MyConsents() {
     keys.current[r.record_id] ||= newIdempotencyKey();
     try {
       await withdrawConsent({ related_record_id: r.record_id, idempotency_key: keys.current[r.record_id] });
+      // Withdrawal stops analytics at once, not at the next consent re-check.
+      disableConsentedAnalytics();
       setNotice(c.withdrawn);
       await load();
     } catch {

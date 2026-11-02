@@ -8,6 +8,7 @@ const mocks = {
   '@/api/base44Client': path.join(R, 'mocks/base44Client.js'),
   '@/lib/AuthContext': path.join(R, 'mocks/AuthContext.js'),
   ...(process.env.GATE_OFF ? {} : { '@/lib/legal/consentConfig': path.join(R, 'mocks/consentConfig.js') }),
+  ...(process.env.ANALYTICS_SPY ? { '@/lib/analyticsConsent': path.join(R, 'mocks/analyticsConsent.js') } : {}),
 };
 const alias = { name: 'alias', setup(b) {
   b.onResolve({ filter: /^@\// }, (a) => {

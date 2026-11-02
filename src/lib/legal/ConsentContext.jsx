@@ -6,6 +6,7 @@ import { getAppLang } from "@/hooks/useAppLang";
 import { queryClientInstance } from "@/lib/query-client";
 import { getConsentStatus } from "@/lib/legal/legalClient";
 import { CONSENT_EVENT, CONSENT_GATE_ENABLED, RECHECK_INTERVAL_MS } from "@/lib/legal/consentConfig";
+import { disableConsentedAnalytics, enableConsentedAnalytics } from "@/lib/analyticsConsent";
 
 // Consent status for the signed-in user (Legal Consent Architecture §9–§11).
 //
@@ -40,7 +41,7 @@ export function ConsentProvider({ children }) {
 
   const check = useCallback(async ({ silent = false } = {}) => {
     if (!CONSENT_GATE_ENABLED) return;
-    if (!user?.id) { setState("anonymous"); setStatus(null); return; }
+    if (!user?.id) { setState("anonymous"); setStatus(null); disableConsentedAnalytics(); return; }
     // A quiet re-check never supersedes one already running, so a burst of
     // focus/route events can't keep postponing a failing check's verdict.
     if (silent && inFlight.current) return;
@@ -65,6 +66,7 @@ export function ConsentProvider({ children }) {
     if (err) {
       setCode(err.code || "CONSENT_CHECK_UNAVAILABLE");
       setState("unavailable");
+      disableConsentedAnalytics();
       if (was === "verified") queryClientInstance.clear();
       return;
     }
@@ -72,9 +74,14 @@ export function ConsentProvider({ children }) {
       setStatus(null);
       setCode(null);
       setState("verified");
+      // Analytics only after VERIFIED consent: enforced AND allowed. Mode off
+      // (enforced:false) lets the app run but is not consent, so no tracking.
+      if (res.enforced === true && res.allowed === true) enableConsentedAnalytics(user);
+      else disableConsentedAnalytics();
       return;
     }
     // Required: drop consent-dependent cached data and stop protected UI.
+    disableConsentedAnalytics();
     if (was === "verified") queryClientInstance.clear();
     setStatus(res);
     setState("required");
