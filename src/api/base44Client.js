@@ -10,5 +10,7 @@ export const base44 = createClient({
   functionsVersion,
   serverUrl: '',
   requiresAuth: false,
-  appBaseUrl
+  appBaseUrl,
+  // No analytics before consent: see src/lib/analyticsConsent.js.
+  analytics: { enabled: false }
 });

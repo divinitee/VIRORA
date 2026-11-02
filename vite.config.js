@@ -11,7 +11,9 @@ export default defineConfig({
       legacySDKImports: process.env.BASE44_LEGACY_SDK_IMPORTS === 'true',
       hmrNotifier: true,
       navigationNotifier: true,
-      analyticsTracker: true,
+      // Off: it logged every page view for every visitor before consent.
+      // Consented analytics live in src/lib/analyticsConsent.js.
+      analyticsTracker: false,
       visualEditAgent: true
     }),
     react(),
