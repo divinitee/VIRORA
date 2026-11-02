@@ -1,0 +1,77 @@
+{
+  "description": "Legal release manifest (\u00a74.1). Append-only: a draft row and, on publication, a separate 'published' row. The active release is the published row with the latest effective_at that is not in the future. Written only by functions/legalApi.",
+  "name": "LegalPolicyRelease",
+  "properties": {
+    "approval_reference": {
+      "description": "Lawyer/approval sign-off reference. Required to publish.",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "documents_by_locale": {
+      "description": "{ uz|ru|en: [{document_type, document_id, version, sha256}] }",
+      "type": "object"
+    },
+    "effective_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "published_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "published_by": {
+      "type": "string"
+    },
+    "release_id": {
+      "type": "string"
+    },
+    "required_events_and_scopes": {
+      "description": "[{event_type, purpose_scope_id, document_type, label_by_locale}] \u2014 the separate choices the gate shows.",
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "published",
+        "retired"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "release_id",
+    "status"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "read": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "never"
+      }
+    }
+  },
+  "type": "object"
+}

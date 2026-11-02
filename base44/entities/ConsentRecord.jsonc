@@ -1,0 +1,112 @@
+{
+  "description": "Append-only consent evidence, one row per event (\u00a76). Created only by functions/legalApi with server timestamps and the authenticated user id. No client or MCP access; never updated or deleted.",
+  "name": "ConsentRecord",
+  "properties": {
+    "auth_provider": {
+      "description": "Server-derived from the auth identity; 'unknown' if the platform does not expose it.",
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "document_locale": {
+      "type": "string"
+    },
+    "document_sha256": {
+      "type": "string"
+    },
+    "document_version": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "TERMS_ACCEPTED",
+        "DATA_PROCESSING_CONSENT_GRANTED",
+        "DATA_PROCESSING_CONSENT_WITHDRAWN"
+      ],
+      "type": "string"
+    },
+    "evidence_schema_version": {
+      "type": "number"
+    },
+    "idempotency_key": {
+      "type": "string"
+    },
+    "migration_source": {
+      "description": "Only for verified legacy imports (none in v1).",
+      "type": "string"
+    },
+    "occurred_at": {
+      "description": "Server time the explicit action was accepted.",
+      "format": "date-time",
+      "type": "string"
+    },
+    "origin_route": {
+      "enum": [
+        "register",
+        "login",
+        "oauth/consent",
+        "app-gate",
+        "privacy-settings"
+      ],
+      "type": "string"
+    },
+    "presentation_id": {
+      "description": "Server-signed token for the exact release/locale served.",
+      "type": "string"
+    },
+    "purpose_scope_id": {
+      "description": "Required for data-processing grant/withdrawal; null for terms.",
+      "type": "string"
+    },
+    "recorded_at": {
+      "description": "Server time immediately before the append.",
+      "format": "date-time",
+      "type": "string"
+    },
+    "related_record_id": {
+      "description": "For withdrawals: the grant withdrawn.",
+      "type": "string"
+    },
+    "release_id": {
+      "type": "string"
+    },
+    "subject_user_id": {
+      "description": "From the authenticated identity, never the request body.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "subject_user_id",
+    "event_type",
+    "release_id",
+    "document_id",
+    "document_sha256",
+    "occurred_at",
+    "recorded_at",
+    "idempotency_key"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "read": {
+      "user_condition": {
+        "role": "never"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "never"
+      }
+    }
+  },
+  "type": "object"
+}
