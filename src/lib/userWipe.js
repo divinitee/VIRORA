@@ -3,6 +3,18 @@ import { base44 } from "@/api/base44Client";
 // Everything in the schema that belongs to a single person, and the fields
 // that can point at them.
 //
+// SCOPE (GPT audit, 2 Nov 2026): this is DATABASE-TABLE deletion coverage,
+// not complete erasure of a person's data. The wipe deletes their rows in
+// every user-data entity below (33/33, tools/check_wipe_coverage.py) except
+// the ones marked `retain`. It does NOT yet delete:
+//   - uploaded files: avatars, payment receipt photos, teacher material
+//     files, bug-report screenshots (Base44 file storage)
+//   - copies outside VIRORA: receipt photos sent to the admin Telegram bot,
+//     rows exported to Google Sheets
+// Those are tracked as a separate deletion backlog (taskboard VT-47).
+// Retained on purpose, pending the lawyer: ManualPayment (financial records)
+// and AdminSecurity (security records). Never delete those silently.
+//
 // The key field is wildly inconsistent across entities for historical
 // reasons — and two of them are actively misleading: StudentSubscription's
 // `phone` and QuizResult's `student_phone` both store EMAIL addresses, not
@@ -116,7 +128,7 @@ export function guardDelete(target, me) {
 }
 
 // Deletes every row belonging to this person across every entity above
-// (except the ones marked `retain`).
+// (except the ones marked `retain`). Database rows only; see SCOPE above.
 // Matches on the declared email/id fields plus created_by_id as a catch-all,
 // de-duplicating by row id so a row matched twice is only deleted once.
 // Never throws — a failure on one entity is recorded and the sweep continues,
