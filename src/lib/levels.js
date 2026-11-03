@@ -1,11 +1,11 @@
-import { GATES, STARTER_LEVEL } from "@/lib/placementContent";
+import { GATES, STARTER_LEVEL } from "@/lib/levelGates";
 
 // ---------------------------------------------------------------------------
 // The single source of truth for the CEFR level system.
 //
 // GATES is the placement test's own ordered list of CEFR gates and
 // STARTER_LEVEL sits below the first one, for a student who can't clear A1.
-// Both are re-exported from placementContent rather than redeclared here — a
+// Both come from levelGates (placementContent re-exports the same) — a
 // second level vocabulary is exactly the kind of drift that breaks silently.
 // ---------------------------------------------------------------------------
 
