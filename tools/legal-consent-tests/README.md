@@ -115,10 +115,12 @@ service token is one caller), so the lock spends only 2 calls per write
 `legalApi` → `{ action: "adminLockSelfTest" }` as a legal publisher. It runs 4
 rounds of 9 simultaneous conditional claims on the REAL `ConsentWriteLock`
 through the service role (reserved shard 1000; no user lock, no evidence
-written) and returns per-round winners plus a verdict. Merge-gate expectation:
-`verdict: "ATOMIC"`, every clean round `winners: 1`, `version_advanced_by: 1`.
-`NOT_PROVEN` (any clean round with ≠ 1 winner) → do not enable consent. Uses
-≤ 40 of the 50-per-minute bulk-update budget; run it at a quiet moment.
+written) and returns per-round winners plus a verdict. `ATOMIC` requires EVERY
+requested round to complete cleanly: no 429, no error, no failed round,
+exactly one winner, everyone else `updated: 0`, `version_advanced_by: 1`, and
+the stored holder is that winner's token. Anything else is `NOT_PROVEN` →
+do not enable consent; if it was a rate limit, wait a minute and run it again.
+Uses ≤ 40 of the 50-per-minute bulk-update budget; run it at a quiet moment.
 
 ### Shared rate limit → `LEGAL_WRITE_BUSY`
 Base44 allows 50 bulk updates (updateMany / upsert / bulk) per 60 s per
@@ -148,7 +150,7 @@ deletion in v1. A user adds rows only by deliberate grant / withdraw actions.
 - `consent_history_large` (≥ 5,000 rows for one user) logs a warning; that is
   months of continuous toggling, so treat it as abuse or a bug and contact the
   user.
-- `consent_history_over_max` (20,000) means everything consent-related fails
+- `consent_history_over_max` (more than 20,000; exactly 20,000 still reads) means everything consent-related fails
   closed for that user: status, receipts and withdrawal all answer 503, and
   every guarded function denies. No processing happens, which is the same
   effect a withdrawal would have, so nobody is processed without verifiable
