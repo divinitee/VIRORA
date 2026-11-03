@@ -282,8 +282,28 @@ async function getSkillMap(svc: any, me: any) {
   return { taxonomy_version: TAXONOMY_VERSION, groups };
 }
 
+// VT-48 admin sweep: apply every learner's pending coins, and list rows stuck
+// in 'applying' for more than 10 minutes (those need a human look, never an
+// automatic re-apply, so nobody is double-credited).
+async function reconcileCoins(svc: any, me: any) {
+  if (me.role !== 'admin') throw new ApiError(403, 'admin_only');
+  const pending = (await svc.RewardEvent.filter({ coins_state: 'pending' }, 'created_date', 500)) || [];
+  const emails = [...new Set(pending.map((e: any) => e.user_email).filter(Boolean))];
+  let applied = 0;
+  for (const email of emails) {
+    const u = (await svc.User.filter({ email }, 'created_date', 1))?.[0];
+    if (!u) continue;
+    applied += await reconcilePending(svc, u);
+  }
+  const cutoff = Date.now() - 10 * 60 * 1000;
+  const applying = (await svc.RewardEvent.filter({ coins_state: 'applying' }, 'created_date', 500)) || [];
+  const stuck = applying.filter((e: any) => Date.parse(e.created_date) < cutoff)
+    .map((e: any) => ({ id: e.id, user_email: e.user_email, amount: e.amount, created_date: e.created_date }));
+  return { pending: pending.length, applied, stuck };
+}
+
 const ACTIONS: Record<string, (svc: any, me: any, body: any) => Promise<any>> = {
-  getSkillMap,
+  getSkillMap, reconcileCoins: (svc, me) => reconcileCoins(svc, me),
   submitEvidence, submitReward, getSkillState, rebuild, verify,
   rebuildLeafStates: rebuildLeafStatesAction, verifyLeafStates: verifyLeafStatesAction,
 };
