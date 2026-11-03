@@ -1,3 +1,4 @@
+import { GATES, STARTER_LEVEL } from "@/lib/levelGates";
 // Shared placement-test content — single source of truth for both the
 // Assessor Lab (dev harness) and the real PlacementTest flow, so the two
 // never drift out of sync with each other.
@@ -919,7 +920,6 @@ export const C1_OPEN_GRAMMAR = [
 
 // GATES / STARTER_LEVEL live in levelGates.js (one definition, tiny file) and
 // are re-exported here so every existing import keeps working.
-import { GATES, STARTER_LEVEL } from "@/lib/levelGates";
 export { GATES, STARTER_LEVEL };
 
 // Pure-MCQ gates (A1/A2) pass at 60% correct (6/10) — unchanged from
