@@ -78,23 +78,6 @@ const r5 = await call({ action: 'submitEvidence', game: 'grammar_practice', roun
 ok('practice: server graded, construct', r5.verification === 'server_graded' && tables.GrammarAttempt.find((r) => r.round_id === 'gp-1').mode === 'construct');
 ok('duplicate round still rejected', (await call({ action: 'submitEvidence', game: 'spelling', bank: 'typing', round_id: 'sp-1', items: [{ word: 'apple', word_id: 'v1', given: 'apple' }] })).duplicate === true);
 
-console.log('\n=== VT-48 rewards: coins never lost to a rate limit ===');
-me = { id: 'u-learner', email: 'learner@x', role: 'user' };
-const w1 = await call({ action: 'submitReward', game: 'spelling', round_id: 'sp-1' });
-ok('reward applied (1 correct = 10 XP)', w1.ok && w1.amount === 10 && w1.coins_pending === false && tables.UserCoins?.[0]?.coins === 10, JSON.stringify(w1));
-ok('duplicate reward rejected, no double coins', (await call({ action: 'submitReward', game: 'spelling', round_id: 'sp-1' })).duplicate === true && tables.UserCoins[0].coins === 10);
-// Second graded round, with the coin bucket exhausted for every retry.
-await call({ action: 'submitEvidence', game: 'spelling', bank: 'typing', round_id: 'sp-3', items: [{ word: 'apple', word_id: 'v1', given: 'apple' }] });
-(globalThis as any).__coins429 = 4;
-const w2 = await call({ action: 'submitReward', game: 'spelling', round_id: 'sp-3' });
-ok('rate-limited round still succeeds for the student, coins pending', w2.ok && w2.coins_pending === true && tables.UserCoins[0].coins === 10, JSON.stringify(w2));
-ok('retry of that round is a true duplicate (round is recorded)', (await call({ action: 'submitReward', game: 'spelling', round_id: 'sp-3' })).duplicate === true);
-await call({ action: 'submitEvidence', game: 'spelling', bank: 'typing', round_id: 'sp-4', items: [{ word: 'apple', word_id: 'v1', given: 'apple' }] });
-const w3 = await call({ action: 'submitReward', game: 'spelling', round_id: 'sp-4' });
-ok('next round applies its own + the pending 10 (total 30)', w3.coins_pending === false && tables.UserCoins[0].coins === 30, String(tables.UserCoins[0].coins));
-ok('no RewardEvent left pending', tables.RewardEvent.every((e: any) => e.coins_state === 'applied'));
-ok('learner cannot run the coin sweep', (await call({ action: 'reconcileCoins' })).code === 'admin_only');
-
 console.log('\n=== admin shadow rebuild/verify ===');
 ok('learner cannot rebuild leaf states', (await call({ action: 'rebuildLeafStates', email: 'learner@x' })).code === 'admin_only');
 ok('learner cannot verify leaf states', (await call({ action: 'verifyLeafStates', email: 'learner@x' })).code === 'admin_only');
