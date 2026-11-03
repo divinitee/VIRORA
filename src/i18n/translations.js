@@ -299,7 +299,7 @@ export const translations = {
     pricing: {
       beta_badge: "BETA",
       founder_label: "Founding Learner narxi",
-      founder_info: "Founding Learner bosqichida qo'shilsangiz, obunangiz faol turgan ekan, narxingiz keyingi narx oshishlaridan keyin ham o'zgarmaydi. Narx VIRORA keyingi mahsulot bosqichlariga o'tgani sari oshadi.",
+      founder_info: "Founding Learner bosqichida qo'shilsangiz, obunangiz faol turgan ekan, narxingiz keyingi narx oshishlaridan keyin ham o'zgarmaydi. Founding Learner narxi faqat dastlabki 99 ta pullik o'quvchi uchun; joylar tugagach, narx keyingi bosqichga o'tadi.",
       founder_lock: "Obuna davomida narx qulflanadi",
       founder_deadline: "Founder narxi {date} gacha",
       founder_then: "keyin {price}",
@@ -710,7 +710,7 @@ export const translations = {
     pricing: {
       beta_badge: "BETA",
       founder_label: "Founding Learner price",
-      founder_info: "Join during the Founding Learner stage and your price stays locked for as long as your subscription remains active, even after later price increases. The price changes as VIRORA reaches the next product milestones.",
+      founder_info: "Join during the Founding Learner stage and your price stays locked for as long as your subscription remains active, even after later price increases. The founder price is only for the first 99 paid students; once those spots are taken, the price moves to the next stage.",
       founder_lock: "Price locked while subscribed",
       founder_deadline: "Founder price ends {date}",
       founder_then: "then {price}",
@@ -1121,7 +1121,7 @@ export const translations = {
     pricing: {
       beta_badge: "BETA",
       founder_label: "Цена Founding Learner",
-      founder_info: "Присоединитесь на этапе Founding Learner, и цена останется зафиксированной, пока подписка активна, даже после будущего повышения. Цена меняется по мере прохождения следующих этапов развития VIRORA.",
+      founder_info: "Присоединитесь на этапе Founding Learner, и цена останется зафиксированной, пока подписка активна, даже после будущего повышения. Цена Founding Learner только для первых 99 платящих учеников; когда места закончатся, цена перейдёт на следующий этап.",
       founder_lock: "Цена зафиксирована, пока подписка активна",
       founder_deadline: "Цена основателя до {date}",
       founder_then: "затем {price}",
