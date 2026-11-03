@@ -16,6 +16,17 @@ import { radarRows, SKILLS } from "@/lib/gameSkills";
 import { useSkillState } from "@/hooks/useSkillState";
 import BetaBadge from "@/components/BetaBadge";
 import { getAppLang } from "@/hooks/useAppLang";
+import { refreshMySubscription, subscriptionKind } from "@/lib/subscription";
+
+// VT-29 (Tee's rule): Premium Analytics is for subscribers; the 3-day trial
+// keeps it so new students can see it. Free plan sees an upgrade card.
+// Display gate only: every number here is the student's own data.
+const ANALYTICS_KINDS = ["paid", "ending", "trial"];
+const LOCK_COPY = {
+  en: { title: "Premium Analytics", body: "Your full progress dashboard (activity, accuracy trends, skill radar and your AI report) is part of the Learner and VIP plans.", cta: "See plans", back: "Back home" },
+  uz: { title: "Premium tahlil", body: "To'liq natijalar paneli (faollik, aniqlik o'zgarishi, ko'nikmalar xaritasi va AI hisobot) Learner va VIP rejalarida mavjud.", cta: "Rejalarni ko'rish", back: "Bosh sahifa" },
+  ru: { title: "Премиум-аналитика", body: "Полная панель прогресса (активность, динамика точности, карта навыков и отчёт ИИ) входит в планы Learner и VIP.", cta: "Смотреть планы", back: "На главную" },
+};
 
 const ACCENT = "#3b82f6";
 const ttStyle = {
@@ -75,12 +86,17 @@ export default function Analytics() {
   const [user, setUser] = useState(null);
   const [report, setReport] = useState("");
   const [generating, setGenerating] = useState(false);
+  const [locked, setLocked] = useState(false);
 
   useEffect(() => {
     (async () => {
       try {
         const me = await base44.auth.me();
         setUser(me);
+        if (me?.role !== "admin" && me?.teacher_status !== "approved") {
+          const res = await refreshMySubscription().catch(() => null);
+          if (!ANALYTICS_KINDS.includes(subscriptionKind(res?.subscription))) { setLocked(true); return; }
+        }
         const [r, c] = await Promise.all([
           base44.entities.QuizResult.filter({ student_phone: me.email }, "-created_date", 200),
           base44.entities.UserCoins.filter({ user_id: me.id }),
@@ -166,6 +182,21 @@ export default function Analytics() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
         <BrandLoader size={64} />
+      </div>
+    );
+  }
+
+  if (locked) {
+    const c = LOCK_COPY[getAppLang()] || LOCK_COPY.en;
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center px-4">
+        <div className="premium-card max-w-md w-full p-6 text-center">
+          <div className="text-3xl" aria-hidden="true">📊</div>
+          <h1 className="mt-3 text-xl font-bold text-foreground">{c.title}</h1>
+          <p className="mt-2 text-sm text-muted-foreground">{c.body}</p>
+          <Link to="/pricing" className="mt-5 inline-flex h-11 w-full items-center justify-center rounded-xl bg-primary font-semibold text-primary-foreground">{c.cta}</Link>
+          <Link to="/" className="mt-3 inline-block text-sm text-muted-foreground hover:text-foreground">{c.back}</Link>
+        </div>
       </div>
     );
   }
