@@ -1,6 +1,7 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.31';
 import { secrets } from 'base44:runtime';
 import { Webhook } from 'npm:standardwebhooks@1.0.0';
+import { guardQrDays } from '../../shared/subscriptionCore.js';
 
 // Dodo Payments webhook receiver — the thing that actually grants and revokes
 // access, so it is the single most security-sensitive endpoint in the app.
@@ -345,6 +346,15 @@ Deno.serve(async (req) => {
       return Response.json({ ok: true, unhandled: type });
     }
 
+    // 5b. VT-32.1: QR-paid days are never shortened or cut by a card event.
+    // While a QR payment covers a later date than the card, Dodo only records
+    // its ids here; the card takes the row over once its date passes the QR end.
+    const before = row ? { status: row.status, provider: row.provider, expires_at: row.expires_at, plan: row.plan } : null;
+    const guard = guardQrDays(row, patch);
+    if (guard.held) {
+      for (const k of Object.keys(patch)) if (!(k in guard.patch)) delete patch[k];
+    }
+
     // 6. Apply. If we've never seen this person, create the row so a payment
     // is never silently dropped on the floor. Before creating, give a concurrent
     // webhook a chance to finish its insert. This is not the correctness guard
@@ -395,6 +405,22 @@ Deno.serve(async (req) => {
     // of this handler if the same subscription receives another event.
     const canonical = await findAndReconcileRows(base44, subscriptionId, email, row?.id || "");
     if (canonical) row = canonical;
+
+    if (guard.held) {
+      // Visible in the Admin Console audit log. overlap = the card is still
+      // charging while QR days run: the student is paying twice (refund one).
+      console.warn("QR days kept over card event", type, row?.id, guard.overlap ? "(double payment)" : "");
+      try {
+        await base44.asServiceRole.entities.AdminAuditLog.create({
+          ts: new Date().toISOString(), channel: "system", outcome: "ok",
+          action: guard.overlap ? "card_paying_over_qr" : "card_event_held_for_qr",
+          reason: type, target_type: "StudentSubscription", target_id: row?.id || "",
+          before: JSON.stringify(before), details: JSON.stringify({ dodo_subscription_id: subscriptionId, next_billing_date: isoDate(data.next_billing_date) }),
+        });
+      } catch (e) {
+        console.error("QR hold audit failed:", e?.message);
+      }
+    }
 
     // 7. Teacher commission. Dodo's initial successful subscription normally
     // emits both subscription.active and subscription.renewed. The renewed
