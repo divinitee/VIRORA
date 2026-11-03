@@ -11,54 +11,60 @@ import ProtectedRoute from '@/components/ProtectedRoute';
 import { Navigate } from 'react-router-dom';
 import Login from '@/pages/Login';
 import Register from '@/pages/Register';
-import ForgotPassword from '@/pages/ForgotPassword';
-import ResetPassword from '@/pages/ResetPassword';
 import Home from '@/pages/Home';
-import Terms from '@/pages/Terms';
-import Privacy from '@/pages/Privacy';
-import TeacherPayouts from '@/pages/TeacherPayouts';
-import Quiz from '@/pages/Quiz';
-import TeacherDashboard from '@/pages/TeacherDashboard';
-import TeacherMaterials from '@/pages/TeacherMaterials';
-import TeacherSkillHub from '@/pages/TeacherSkillHub';
-import Pricing from '@/pages/Pricing';
-import About from '@/pages/About';
-import Contact from '@/pages/Contact';
-import Leaderboard from '@/pages/Leaderboard';
-import MyProgress from '@/pages/MyProgress';
-import Settings from '@/pages/Settings';
-import StudyTips from '@/pages/StudyTips';
-import AdminDashboard from '@/pages/AdminDashboard';
-import Analytics from '@/pages/Analytics';
 import Landing from '@/pages/Landing';
-import Roadmap from '@/pages/Roadmap';
-import AssessorLab from '@/pages/AssessorLab';
-import PlacementTest from '@/pages/PlacementTest';
-import Grammar from '@/pages/Grammar';
-import GrammarAssessment from '@/pages/GrammarAssessment';
-import AdminWipeUsers from '@/pages/AdminWipeUsers';
-import AdminPayments from '@/pages/AdminPayments';
-import QrPayment from '@/pages/QrPayment';
-import AdminQrPayments from '@/pages/AdminQrPayments';
-import Console from '@/pages/Console';
-import PaymentComplete from '@/pages/PaymentComplete';
-import Onboarding from '@/pages/Onboarding';
-import LessonRunner from '@/pages/LessonRunner';
-import MyWords from '@/pages/MyWords';
-import VocabReview from '@/pages/VocabReview';
-import TeachStressTest from '@/pages/TeachStressTest';
-import OAuthConsent from '@/pages/OAuthConsent';
-import Achievements from '@/pages/Achievements';
 import AppLoader from '@/components/AppLoader';
 import PageLoadingProvider from '@/components/loading/PageLoadingProvider';
 import HelpReporter from '@/components/HelpReporter';
 import ActivityTracker from '@/components/ActivityTracker';
-import Developer from '@/pages/Developer';
-import Taskboard from '@/pages/Taskboard';
-import Coach from '@/pages/Coach';
 import LaunchExperience from '@/components/LaunchExperience';
-import AnimationStudio from '@/pages/AnimationStudio';
 import AnimationSettingsProvider from '@/components/animation/AnimationSettingsProvider';
+import { Suspense } from 'react';
+import { lazyPage } from '@/lib/lazyPage';
+// VT-39 (Claude, 2026-11-03): every page used to ship in ONE 3.1 MB bundle
+// that phones had to download and parse before anything showed. Pages now
+// load on demand; the four first-visit pages stay in the main bundle.
+const ForgotPassword = lazyPage(() => import('@/pages/ForgotPassword'));
+const ResetPassword = lazyPage(() => import('@/pages/ResetPassword'));
+const Terms = lazyPage(() => import('@/pages/Terms'));
+const Privacy = lazyPage(() => import('@/pages/Privacy'));
+const TeacherPayouts = lazyPage(() => import('@/pages/TeacherPayouts'));
+const Quiz = lazyPage(() => import('@/pages/Quiz'));
+const TeacherDashboard = lazyPage(() => import('@/pages/TeacherDashboard'));
+const TeacherMaterials = lazyPage(() => import('@/pages/TeacherMaterials'));
+const TeacherSkillHub = lazyPage(() => import('@/pages/TeacherSkillHub'));
+const Pricing = lazyPage(() => import('@/pages/Pricing'));
+const About = lazyPage(() => import('@/pages/About'));
+const Contact = lazyPage(() => import('@/pages/Contact'));
+const Leaderboard = lazyPage(() => import('@/pages/Leaderboard'));
+const MyProgress = lazyPage(() => import('@/pages/MyProgress'));
+const Settings = lazyPage(() => import('@/pages/Settings'));
+const StudyTips = lazyPage(() => import('@/pages/StudyTips'));
+const AdminDashboard = lazyPage(() => import('@/pages/AdminDashboard'));
+const Analytics = lazyPage(() => import('@/pages/Analytics'));
+const Roadmap = lazyPage(() => import('@/pages/Roadmap'));
+const AssessorLab = lazyPage(() => import('@/pages/AssessorLab'));
+const PlacementTest = lazyPage(() => import('@/pages/PlacementTest'));
+const Grammar = lazyPage(() => import('@/pages/Grammar'));
+const GrammarAssessment = lazyPage(() => import('@/pages/GrammarAssessment'));
+const AdminWipeUsers = lazyPage(() => import('@/pages/AdminWipeUsers'));
+const AdminPayments = lazyPage(() => import('@/pages/AdminPayments'));
+const QrPayment = lazyPage(() => import('@/pages/QrPayment'));
+const AdminQrPayments = lazyPage(() => import('@/pages/AdminQrPayments'));
+const Console = lazyPage(() => import('@/pages/Console'));
+const PaymentComplete = lazyPage(() => import('@/pages/PaymentComplete'));
+const Onboarding = lazyPage(() => import('@/pages/Onboarding'));
+const LessonRunner = lazyPage(() => import('@/pages/LessonRunner'));
+const MyWords = lazyPage(() => import('@/pages/MyWords'));
+const VocabReview = lazyPage(() => import('@/pages/VocabReview'));
+const TeachStressTest = lazyPage(() => import('@/pages/TeachStressTest'));
+const OAuthConsent = lazyPage(() => import('@/pages/OAuthConsent'));
+const Achievements = lazyPage(() => import('@/pages/Achievements'));
+const Developer = lazyPage(() => import('@/pages/Developer'));
+const Taskboard = lazyPage(() => import('@/pages/Taskboard'));
+const Coach = lazyPage(() => import('@/pages/Coach'));
+const AnimationStudio = lazyPage(() => import('@/pages/AnimationStudio'));
+
 
 const AuthenticatedApp = () => {
   const { user, isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -83,6 +89,7 @@ const AuthenticatedApp = () => {
   return (
     <>
       <LaunchExperience user={user} />
+      <Suspense fallback={<AppLoader />}>
       <Routes>
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
@@ -138,6 +145,7 @@ const AuthenticatedApp = () => {
       </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      </Suspense>
       <ActivityTracker user={user} />
       <HelpReporter user={user} />
     </>
