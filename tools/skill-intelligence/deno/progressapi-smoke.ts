@@ -102,5 +102,25 @@ ok('getSkillState still returns the live 5 skills', (await call({ action: 'getSk
 const rbAll = await call({ action: 'rebuildLeafStates', limit: 10 });
 ok('batch rebuild walks learners', rbAll.ok && rbAll.total >= 1);
 
+console.log('\n=== VT-48 rewards: coins never lost to a rate limit ===');
+// A graded round awards its XP inside submitEvidence (reward in the response).
+me = { id: 'u-coins', email: 'coins@x', role: 'user' };
+const bal = () => (tables.UserCoins || []).find((c: any) => c.user_id === 'u-coins')?.coins;
+const spell = (id: string) => call({ action: 'submitEvidence', game: 'spelling', bank: 'typing', round_id: id, items: [{ word: 'apple', word_id: 'v1', given: 'apple' }] });
+const c1 = await spell('c-1');
+ok('reward applied (1 correct = 10 XP)', c1.reward?.amount === 10 && c1.reward?.coins_pending === false && bal() === 10, JSON.stringify(c1.reward));
+ok('submitReward for the same round is a duplicate, no double coins', (await call({ action: 'submitReward', game: 'spelling', round_id: 'c-1' })).duplicate === true && bal() === 10);
+(globalThis as any).__coins429 = 4; // first try + all 3 retries hit the limit
+const c2 = await spell('c-2');
+ok('rate-limited round still succeeds, coins marked pending (not lost)', c2.ok && c2.reward?.coins_pending === true && bal() === 10, JSON.stringify(c2.reward));
+ok('retrying that round is a true duplicate', (await call({ action: 'submitReward', game: 'spelling', round_id: 'c-2' })).duplicate === true && bal() === 10);
+const c3 = await spell('c-3');
+ok('next round applies its own 10 + the pending 10 (total 30)', c3.reward?.coins_pending === false && bal() === 30, String(bal()));
+ok('no RewardEvent left pending for this learner', tables.RewardEvent.filter((e: any) => e.user_email === 'coins@x').every((e: any) => e.coins_state === 'applied'));
+ok('learner cannot run the coin sweep', (await call({ action: 'reconcileCoins' })).code === 'admin_only');
+me = { id: 'u-admin', email: 'admin@x', role: 'admin' };
+const sweep = await call({ action: 'reconcileCoins' });
+ok('admin sweep runs: nothing pending, nothing stuck', sweep.ok && sweep.pending === 0 && sweep.stuck.length === 0, JSON.stringify(sweep));
+
 console.log(`\n${pass} passed, ${fail} failed`);
 Deno.exit(fail ? 1 : 0);
