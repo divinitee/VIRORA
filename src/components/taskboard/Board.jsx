@@ -4,6 +4,7 @@ import { Button, PriorityBadge, StatusBadge, Tag, ProgressBar, inputCls, OwnerBa
 import {
   STATUSES, STATUS_LABEL, STATUS_STYLE, PRIORITIES, PRIORITY_LABEL, PRIORITY_RANK, PRIORITY_EDGE, CATEGORIES,
   fmtDate, isOverdue, relative, dependencyState, DEPARTMENTS, DEPARTMENT_LABEL, DEPARTMENT_STYLE, OWNERS, OWNER_LABEL,
+  isTeeAttention,
 } from "./model";
 
 export default function Board({ initialSection = "", onFocus, data, idx, busy, onOpen, onNew, onEdit, onMove, onArchive, onRestore, onDelete, onExport, onImport }) {
