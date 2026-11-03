@@ -10,6 +10,7 @@ import { childrenOf, TAXONOMY_VERSION } from '../../shared/skillTaxonomy.js';
 import { freshnessFor } from '../../shared/progressCore.js';
 import { rebuildLeafStates, verifyLeafStates } from '../../shared/leafStateEngine.ts';
 import { applyRound as coachApplyRound } from '../../shared/coachEngine.ts';
+import { applyOwnEvent, reconcilePending } from '../../shared/coinLedger.js';
 
 // progressApi (VT-6, corrected 2026-09-29). Progress and rewards are separate:
 //   submitEvidence  a round's per-item evidence -> item ledger -> SkillState.
@@ -160,17 +161,22 @@ async function awardVerifiedRound(svc: any, me: any, r: any) {
   if (!reward) return { eligible: false, amount: 0 };
   const receipt = await claimRound(svc, me.email, r.round_id, 'reward');
   if (!receipt) return { duplicate: true, eligible: true, amount: 0 };
-  await svc.RewardEvent.create({
+  // VT-48: the RewardEvent is the source of truth for the coins. coins_state
+  // lets a rate-limited increment be applied later instead of being lost.
+  const ev = await svc.RewardEvent.create({
     user_email: me.email, game: r.game, round_id: r.round_id, ledger_version: 2, ...reward,
+    coins_state: reward.amount > 0 ? 'applying' : 'applied',
   });
   // Only the server may change leaderboard balances; preserve historic XP.
-  if (reward.amount > 0) {
-    const coins = (await svc.UserCoins.filter({ user_id: me.id }, 'created_date', 1))?.[0];
-    if (coins) await svc.UserCoins.updateMany({ id: coins.id }, { $inc: { coins: reward.amount, total_correct: reward.items_correct } });
-    else await svc.UserCoins.create({ user_id: me.id, email: me.email, user_name: me.display_name || me.full_name || me.email, classroom_code: me.classroom_code || '', coins: reward.amount, total_correct: reward.items_correct });
-  }
+  let coins_state = 'applied';
+  if (reward.amount > 0) coins_state = await applyOwnEvent(svc, me, ev);
+  // The round itself is recorded either way, so a retry is a true duplicate.
   await svc.RoundReceipt.update(receipt.id, { status: 'done', game: r.game });
-  return { duplicate: false, eligible: true, ...reward };
+  // Catch up anything earlier rounds left pending (one cheap read if none).
+  if (coins_state === 'applied') {
+    try { await reconcilePending(svc, me); } catch (e) { console.error('reconcile coins (ignored)', e); }
+  }
+  return { duplicate: false, eligible: true, ...reward, coins_pending: coins_state !== 'applied' };
 }
 
 async function submitReward(svc: any, me: any, body: any) {
