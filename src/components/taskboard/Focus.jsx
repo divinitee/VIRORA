@@ -4,7 +4,7 @@ import {
 } from "lucide-react";
 import { Button, PriorityBadge, ProgressBar, Modal, inputCls, OwnerBadge, DeptBadge } from "./ui";
 import Receipt, { receiptOf } from "./Receipt";
-import { PRIORITY_RANK, STATUS_LABEL, relative, dependencyState, fmtDuration, DEPARTMENTS, DEPARTMENT_LABEL, DEPARTMENT_STYLE } from "./model";
+import { PRIORITY_RANK, STATUS_LABEL, relative, dependencyState, fmtDuration, DEPARTMENTS, DEPARTMENT_LABEL, DEPARTMENT_STYLE, isTeeAttention } from "./model";
 
 // Focus: the Taskboard's front page. Three things only (Tee, 2026-10-14 —
 // "run it like a company … Last task completed, Current task, Next task"):
@@ -55,6 +55,8 @@ export default function Focus({ data, idx, busy, onOpen, onBacklog, onNew, handl
   const lastDone = finished[0] || null;
   const earlier = finished.slice(1, 6);
   const sectionCounts = DEPARTMENTS.map((d) => [d, open.filter((t) => (t.department || "tech") === d).length]);
+  // Board clean-up (3 Nov): decisions only Tee can make, pinned above everything.
+  const teeAsks = open.filter(isTeeAttention).sort((a, b) => (PRIORITY_RANK[a.priority] ?? 9) - (PRIORITY_RANK[b.priority] ?? 9));
 
   const path = now ? pathOf(now, idx) : [];
   const done = path.filter((p) => p.done);
@@ -100,6 +102,28 @@ export default function Focus({ data, idx, busy, onOpen, onBacklog, onNew, handl
           </div>
         </div>
       </header>
+
+      {teeAsks.length > 0 && (
+        <section className="mx-auto mt-5 max-w-[1400px] px-4 sm:px-6" aria-label="TEE's attention needed">
+          <div className="rounded-[14px] border border-amber-500/40 bg-gradient-to-b from-amber-500/[0.08] to-[#0b111b] p-4">
+            <h2 className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-200">
+              <Flag className="h-3.5 w-3.5" /> TEE's attention needed <span className="rounded bg-amber-400/25 px-1.5 text-[11px]">{teeAsks.length}</span>
+              <span className="font-normal normal-case tracking-normal text-amber-200/60">decisions only you can make; everything else is being run</span>
+            </h2>
+            <ul className="mt-3 grid gap-1.5 md:grid-cols-2">
+              {teeAsks.map((t) => (
+                <li key={t.id}>
+                  <button type="button" onClick={() => onOpen(t)} className="flex w-full items-start gap-2 rounded-[8px] border border-slate-800 bg-[#0f1624] px-3 py-2 text-left hover:border-amber-400/50">
+                    <span className="mt-0.5 font-mono text-[11px] text-amber-300/80">{t.task_code}</span>
+                    <span className="min-w-0 flex-1 text-sm text-slate-100">{t.title}</span>
+                    <PriorityBadge priority={t.priority} />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       <main className="mx-auto grid max-w-[1400px] gap-5 px-4 py-6 sm:px-6 lg:grid-cols-[300px_minmax(0,1fr)_320px]">
         {/* ───────── LAST DONE ───────── */}
