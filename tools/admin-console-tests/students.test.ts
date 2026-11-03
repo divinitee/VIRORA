@@ -58,7 +58,7 @@ Deno.test('students: all three actions need a console token and an allowlisted a
 Deno.test('studentsList: rows with plan kind, group, method, last active; orphans listed', async () => {
   const t = await setup();
   t.E.StudentSubscription.rows.push(
-    { id: 's1', phone: 'student@example.com', status: 'active', plan: 'Learner Plan', is_trial: true, expires_at: '2026-10-06', referral_code: 'MALIKA1', teacher_id: 'u_teacher', updated_date: '2026-10-01' },
+    { id: 's1', phone: 'student@example.com', status: 'active', plan: 'Learner Plan', is_trial: true, expires_at: '2099-10-06' /* far future: kind is read against the real clock (was 2026-10-06, rotted) */, referral_code: 'MALIKA1', teacher_id: 'u_teacher', updated_date: '2026-10-01' },
     { id: 's9', phone: 'gone@example.com', status: 'active', plan: 'VIP Plan', expires_at: '2026-11-01', updated_date: '2026-10-01' },
   );
   const r = await t.call('tee', 'studentsList', { token: t.token });
