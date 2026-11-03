@@ -1,5 +1,5 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
-import { expiryPatch } from '../../shared/subscriptionCore.js';
+import { expiryPatch, selfDeletePlan } from '../../shared/subscriptionCore.js';
 
 // studentApi: every write that grants access, sets teacher attribution, or
 // records homework for the CALLING student. (Teacher Panel phase 1, 2026-09-23)
@@ -342,16 +342,9 @@ async function deleteMySubscription(svc: any, me: any) {
   if (!me.trial_used_at) {
     try { await svc.User.update(me.id, { trial_used_at: nowIso() }); } catch (e) { console.error('trial flag', e?.message); }
   }
-  let deleted = 0;
-  const kept: any[] = [];
-  for (const r of rows) {
-    const reason = ['paused', 'cancelled'].includes(r.status) ? 'on_hold'
-      : (r.provider === 'dodo' && r.status === 'active' && !r.cancelled_at) ? 'active_card' : '';
-    if (reason) { kept.push({ id: r.id, reason }); continue; }
-    await svc.StudentSubscription.delete(r.id);
-    deleted++;
-  }
-  return { deleted, kept };
+  const { remove, kept } = selfDeletePlan(rows);
+  for (const id of remove) await svc.StudentSubscription.delete(id);
+  return { deleted: remove.length, kept };
 }
 
 // ---------------------------------------------------------------- router
