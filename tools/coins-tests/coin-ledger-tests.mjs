@@ -80,8 +80,6 @@ console.log("Long 429 → pending → applied on the next round, exactly once");
   const ev = await event(w, 5);
   ok("left pending, not lost", (await applyOwnEvent(w.svc, me, ev, noSleep)) === "pending" && w.db.RewardEvent[0].coins_state === "pending");
   ok("balance untouched so far", w.db.UserCoins[0].coins === 0);
-  // limit clears
-  const w2 = { ...w }; w2.svc.UserCoins.updateMany = world().svc.UserCoins.updateMany; // placeholder, replaced below
 }
 {
   const w = world({ fail429: 4 }); // exactly 1 + 3 retries fail → pending, then clears
