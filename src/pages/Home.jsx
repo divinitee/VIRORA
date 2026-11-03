@@ -1,5 +1,5 @@
 import BrandLoader from "@/components/loading/PageLoader";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, Suspense } from "react";
 import { base44 } from "@/api/base44Client";
 import { ensureUserLevel } from "@/lib/levelStore";
 import { Button } from "@/components/ui/button";
@@ -13,8 +13,11 @@ import BottomTabBar from "@/components/BottomTabBar";
 import UnitDrawer from "@/components/UnitDrawer";
 import ParticleBackground from "@/components/ParticleBackground";
 import { refreshMySubscription } from "@/lib/subscription";
-import SkillHub from "@/pages/SkillHub";
-import DeepModeComingSoon from "@/components/deepmode/DeepModeComingSoon";
+import { lazyPage } from "@/lib/lazyPage";
+// VT-39: the Skill Hub games and Deep Mode load when their tab is opened,
+// not with the Home screen (they were most of the first download on phones).
+const SkillHub = lazyPage(() => import("@/pages/SkillHub"));
+const DeepModeComingSoon = lazyPage(() => import("@/components/deepmode/DeepModeComingSoon"));
 import AppTour, { startAppTour } from "@/components/tour/AppTour";
 import { useAppLang } from "@/hooks/useAppLang";
 import MissionControl from "@/components/mission/MissionControl";
@@ -306,9 +309,9 @@ export default function Home() {
           )
         )}
 
-        {activeTab === "skillhub" && !isTeacherAccount && <SkillHub isActive={isActive} user={user} autoRandomToken={randomLaunch} homeworkId={homeworkId} onHomeworkExit={exitHomework} />}
+        {activeTab === "skillhub" && !isTeacherAccount && <Suspense fallback={<BrandLoader />}><SkillHub isActive={isActive} user={user} autoRandomToken={randomLaunch} homeworkId={homeworkId} onHomeworkExit={exitHomework} /></Suspense>}
 
-        {activeTab === "deep" && !isTeacherAccount && <DeepModeComingSoon onNavigate={navigateTab} />}
+        {activeTab === "deep" && !isTeacherAccount && <Suspense fallback={<BrandLoader />}><DeepModeComingSoon onNavigate={navigateTab} /></Suspense>}
 
         {activeTab === "settings" && (
           <SettingsTab
