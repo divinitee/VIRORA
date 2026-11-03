@@ -917,10 +917,10 @@ export const C1_OPEN_GRAMMAR = [
 
 // ---- Gate configuration ----
 
-export const GATES = ["A1", "A2", "B1", "B2", "C1"];
-
-// Below the first gate — a true beginner who cannot clear A1.
-export const STARTER_LEVEL = "Starter";
+// GATES / STARTER_LEVEL live in levelGates.js (one definition, tiny file) and
+// are re-exported here so every existing import keeps working.
+import { GATES, STARTER_LEVEL } from "@/lib/levelGates";
+export { GATES, STARTER_LEVEL };
 
 // Pure-MCQ gates (A1/A2) pass at 60% correct (6/10) — unchanged from
 // before this rebuild. Mixed gates (B1/B2/C1) pass at an average item
