@@ -1,38 +1,40 @@
 {
-  "name": "RewardEvent",
-  "type": "object",
   "description": "XP ledger: one row per completed round that awards XP. Written only by progressApi.submitReward. Rows with ledger_version 2 are post-correction and are XP ONLY - never mastery evidence. Rows without ledger_version are pre-correction client-reported history, used by SkillState only as a flagged legacy tier that fills the window while fewer than 10 verified rounds exist.",
+  "name": "RewardEvent",
   "properties": {
-    "user_email": {
-      "type": "string"
-    },
-    "game": {
-      "type": "string"
-    },
     "amount": {
-      "type": "number",
-      "description": "XP awarded after modifiers."
-    },
-    "round_id": {
-      "type": "string"
-    },
-    "items_total": {
-      "type": "number"
-    },
-    "items_correct": {
+      "description": "XP awarded after modifiers.",
       "type": "number"
     },
     "base_xp": {
       "type": "number"
     },
-    "streak_best": {
-      "type": "number"
+    "coins_state": {
+      "description": "VT-48: whether UserCoins includes this row. applying = being applied now; applied = in the balance; pending = increment failed (rate limit), applied on the learner's next round or by the admin sweep. Absent = legacy row, never touched.",
+      "enum": [
+        "applying",
+        "applied",
+        "pending"
+      ],
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
     },
     "hint_multiplier": {
       "type": "number"
     },
+    "items_correct": {
+      "type": "number"
+    },
+    "items_total": {
+      "type": "number"
+    },
+    "ledger_version": {
+      "description": "2 = post-correction XP-only row. Absent = legacy.",
+      "type": "number"
+    },
     "level": {
-      "type": "string",
       "enum": [
         "Starter",
         "A1",
@@ -40,11 +42,17 @@
         "B1",
         "B2",
         "C1"
-      ]
+      ],
+      "type": "string"
     },
-    "ledger_version": {
-      "type": "number",
-      "description": "2 = post-correction XP-only row. Absent = legacy."
+    "round_id": {
+      "type": "string"
+    },
+    "streak_best": {
+      "type": "number"
+    },
+    "user_email": {
+      "type": "string"
     }
   },
   "required": [
@@ -53,6 +61,7 @@
     "amount",
     "round_id"
   ],
+  "type": "object",
   "rls": {
     "create": {
       "user_condition": {
