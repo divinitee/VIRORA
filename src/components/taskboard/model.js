@@ -38,6 +38,11 @@ export const DEPARTMENT_STYLE = {
   finance: "border-amber-500/40 bg-amber-500/10 text-amber-300",
   ops: "border-teal-500/40 bg-teal-500/10 text-teal-300",
 };
+// Board clean-up (3 Nov): a decision only Tee can make. Shown as a "⚑ Tee"
+// badge and the "TEE's attention needed" filter on the board.
+export const TEE_ATTENTION_TAG = "tee-attention";
+export const isTeeAttention = (t) => (t?.tags || []).includes(TEE_ATTENTION_TAG);
+
 export const OWNERS = ["tee", "claude", "gpt", "base44"];
 export const OWNER_LABEL = { tee: "Tee", claude: "Claude", gpt: "GPT", base44: "Base44" };
 export const ACTING_AS = ["tee", "claude", "gpt"];
