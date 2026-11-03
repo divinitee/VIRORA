@@ -1,9 +1,14 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { motion } from "framer-motion";
 import { Sparkles, Play, ArrowRight } from "lucide-react";
 import { useAppLang } from "@/hooks/useAppLang";
-import LearnerProfile from "@/components/profile/LearnerProfile";
 import SkillMap from "@/components/profile/skillmap/SkillMap";
+import { lazyPage } from "@/lib/lazyPage";
+
+// VT-39: the old constellation is only shown when the Skill Map fails to load,
+// but it pulled the whole grammar question bank into the first download.
+// Loaded on demand now.
+const LearnerProfile = lazyPage(() => import("@/components/profile/LearnerProfile"));
 
 // skillStates: the RAW server SkillState rows from MissionControl's
 // useSkillState (null while loading). Passed through untouched.
@@ -28,7 +33,11 @@ export default function HeroCard({ accent, accentGlow, onContinue, skillStates, 
         </h2>
 
         <div className="relative mt-3">
-          <SkillMap fallback={<LearnerProfile skillStates={skillStates} error={skillStateError} />} />
+          <SkillMap fallback={(
+            <Suspense fallback={<div className="mt-4 aspect-square max-w-[420px] mx-auto rounded-full border border-white/10 bg-white/[0.03] animate-pulse" />}>
+              <LearnerProfile skillStates={skillStates} error={skillStateError} />
+            </Suspense>
+          )} />
         </div>
         <button
           onClick={onContinue}
