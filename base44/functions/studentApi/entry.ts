@@ -327,6 +327,33 @@ async function submitHomework(svc: any, me: any, body: any) {
   return { submission };
 }
 
+// VT-1.1.2 (Claude, 2026-11-03): the only way a student removes their own
+// subscription row (Home → Delete account). Before this the browser deleted the
+// row itself, which let a paused/cancelled student re-run onboarding and hand
+// themselves access back, and let pre-flag accounts take a second trial.
+//  - paused / cancelled rows are an admin decision: kept, never deleted here
+//  - a live card row is kept: deleting it would not stop Dodo charging the card
+//  - trial_used_at is stamped first, so a fresh row can never be a new trial
+async function deleteMySubscription(svc: any, me: any) {
+  const byEmail = (await svc.StudentSubscription.filter({ phone: me.email })) || [];
+  const byCreator = (await svc.StudentSubscription.filter({ created_by_id: me.id })) || [];
+  const rows = [...new Map([...byEmail, ...byCreator].map((r: any) => [r.id, r])).values()];
+  if (!rows.length) return { deleted: 0, kept: [] };
+  if (!me.trial_used_at) {
+    try { await svc.User.update(me.id, { trial_used_at: nowIso() }); } catch (e) { console.error('trial flag', e?.message); }
+  }
+  let deleted = 0;
+  const kept: any[] = [];
+  for (const r of rows) {
+    const reason = ['paused', 'cancelled'].includes(r.status) ? 'on_hold'
+      : (r.provider === 'dodo' && r.status === 'active' && !r.cancelled_at) ? 'active_card' : '';
+    if (reason) { kept.push({ id: r.id, reason }); continue; }
+    await svc.StudentSubscription.delete(r.id);
+    deleted++;
+  }
+  return { deleted, kept };
+}
+
 // ---------------------------------------------------------------- router
 
 const ACTIONS: Record<string, (svc: any, me: any, body: any) => Promise<any>> = {
@@ -337,6 +364,7 @@ const ACTIONS: Record<string, (svc: any, me: any, body: any) => Promise<any>> = 
   applyTeacher,
   listHomework: (svc, me) => listHomework(svc, me),
   submitHomework,
+  deleteMySubscription: (svc, me) => deleteMySubscription(svc, me),
 };
 
 Deno.serve(async (req) => {
