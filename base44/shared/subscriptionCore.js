@@ -72,6 +72,34 @@ export function expiryPatch(sub, now = Date.now()) {
   return { status: "inactive" };
 }
 
+// --- QR days vs card webhooks (VT-32.1, Claude 2026-11-03) ------------------
+// A QR payment approved on a row that also has a Dodo card (a scheduled card
+// cancel, or a card bought later) makes the row QR-owned: provider "manual",
+// expires_at = the end the QR money paid for. Before this guard, the next Dodo
+// event for that card overwrote the row: a renewal reset expires_at to the
+// (earlier) card date, and expired/cancelled/on_hold cut access, erasing
+// days the student had paid for by QR.
+//
+// Rule: while QR-paid days are still ahead, a Dodo event may record its ids
+// but never shortens, pauses or ends access. Once the card's own paid-through
+// date reaches the QR end, the card takes the row over as normal.
+// Returns { patch, held, overlap } — overlap = the card is paying while QR
+// days are still running (the student is paying twice; tell the admin).
+const DODO_ID_FIELDS = ["last_dodo_event_id", "dodo_subscription_id", "dodo_customer_id"];
+
+export function guardQrDays(row, patch, today = dateStr(Date.now())) {
+  const qrEnd = String(row?.expires_at || "").slice(0, 10);
+  const qrOwned = !!row && row.provider === "manual" && row.status === "active" && !row.is_trial
+    && isRealPlan(row) && /^\d{4}-\d{2}-\d{2}$/.test(qrEnd) && qrEnd > today;
+  if (!qrOwned) return { patch, held: false, overlap: false };
+  const cardEnd = typeof patch?.expires_at === "string" ? patch.expires_at.slice(0, 10) : "";
+  const cardActive = patch?.status === "active" && !patch?.cancelled_at;
+  if (cardActive && cardEnd && cardEnd >= qrEnd) return { patch, held: false, overlap: false };
+  const keep = {};
+  for (const k of DODO_ID_FIELDS) if (patch && k in patch) keep[k] = patch[k];
+  return { patch: keep, held: true, overlap: cardActive };
+}
+
 export function paidSinceStamp(sub, now = Date.now()) {
   if (!sub || sub.paid_since || sub.is_trial || !isRealPlan(sub)) return {};
   return { paid_since: dateStr(now) };
