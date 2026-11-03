@@ -14,10 +14,6 @@ import UnitDrawer from "@/components/UnitDrawer";
 import ParticleBackground from "@/components/ParticleBackground";
 import { refreshMySubscription } from "@/lib/subscription";
 import { lazyPage } from "@/lib/lazyPage";
-// VT-39: the Skill Hub games and Deep Mode load when their tab is opened,
-// not with the Home screen (they were most of the first download on phones).
-const SkillHub = lazyPage(() => import("@/pages/SkillHub"));
-const DeepModeComingSoon = lazyPage(() => import("@/components/deepmode/DeepModeComingSoon"));
 import AppTour, { startAppTour } from "@/components/tour/AppTour";
 import { useAppLang } from "@/hooks/useAppLang";
 import MissionControl from "@/components/mission/MissionControl";
@@ -25,6 +21,11 @@ import StudentHomework from "@/components/homework/StudentHomework";
 import BetaBadge from "@/components/BetaBadge";
 import AchievementsButton from "@/components/AchievementsButton";
 import { hasAnyUnlocked } from "@/lib/achievements";
+
+// VT-39: the Skill Hub games and Deep Mode load when their tab is opened,
+// not with the Home screen (they were most of the first download on phones).
+const SkillHub = lazyPage(() => import("@/pages/SkillHub"));
+const DeepModeComingSoon = lazyPage(() => import("@/components/deepmode/DeepModeComingSoon"));
 
 const pageVariants = {
   initial: { x: "100%", opacity: 0 },
