@@ -13,6 +13,7 @@ import { SUB_KIND_META } from "@/lib/subscription";
 import { teacherApi } from "@/lib/serverApi";
 import BetaBadge from "@/components/BetaBadge";
 import ActivityReport from "@/components/ActivityReport";
+import { skillRows } from "@/lib/gameSkills";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 // Teacher Panel (rebuilt 2026-09-23, phase 1).
@@ -721,30 +722,78 @@ function MaterialsTab({ onOpen }) {
 
 /* ------------------------------------------------------------ Activity dialog */
 
+// VT-2.3.3 (Claude, 2026-11-03): the student's five skills, from the same
+// server SkillState they see themselves (teacherApi.studentProgress checks the
+// roster first). Read-only; nothing here is computed in the browser.
+const SKILL_NAME = { vocabulary: "Vocabulary", grammar: "Grammar", spelling: "Spelling", comprehension: "Comprehension", creativity: "Creativity" };
+const CONFIDENCE_NAME = { low: "low confidence", medium: "medium confidence", high: "high confidence" };
+
+function StudentSkills({ state }) {
+  if (!state) return null;
+  const rows = skillRows(state);
+  if (!rows.some((r) => r.evidence_count)) {
+    return <p className="rounded-xl border border-border/60 px-3 py-3 text-sm text-muted-foreground">No graded practice yet, so there are no skill levels to show.</p>;
+  }
+  return (
+    <div className="space-y-2.5">
+      {rows.map((r) => (
+        <div key={r.key}>
+          <div className="flex items-baseline justify-between text-sm">
+            <span className="font-medium text-foreground">{r.emoji} {SKILL_NAME[r.key] || r.key}</span>
+            <span className="text-xs text-muted-foreground">
+              {r.evidence_count ? `${r.current_mastery}% · ${CONFIDENCE_NAME[r.confidence] || r.confidence} · ${r.round_count || r.evidence_count} rounds` : "not practised yet"}
+            </span>
+          </div>
+          <div className="mt-1 h-2 overflow-hidden rounded-full bg-muted">
+            <div className="h-full rounded-full" style={{ width: `${r.evidence_count ? r.current_mastery : 0}%`, background: r.color }} />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function StudentActivityDialog({ student, onClose }) {
   const [sessions, setSessions] = useState([]);
+  const [skills, setSkills] = useState(null);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     if (!student) return;
     let active = true;
     setLoading(true);
-    teacherApi("studentActivity", { email: student.email })
-      .then((res) => { if (active) setSessions(res?.sessions || []); })
-      .catch((error) => { console.error("Student activity load failed:", error); if (active) setSessions([]); })
-      .finally(() => { if (active) setLoading(false); });
+    setSkills(null);
+    Promise.all([
+      teacherApi("studentActivity", { email: student.email })
+        .then((res) => { if (active) setSessions(res?.sessions || []); })
+        .catch((error) => { console.error("Student activity load failed:", error); if (active) setSessions([]); }),
+      teacherApi("studentProgress", { email: student.email })
+        .then((res) => { if (active) setSkills(res || null); })
+        .catch((error) => { console.error("Student progress load failed:", error); }),
+    ]).finally(() => { if (active) setLoading(false); });
     return () => { active = false; };
   }, [student?.email]);
   return (
     <Dialog open={!!student} onOpenChange={(open) => { if (!open) onClose(); }}>
       <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-xl sm:rounded-2xl">
         <DialogHeader>
-          <DialogTitle>{student?.name || "Student"} · Activity</DialogTitle>
-          <DialogDescription>Visible, active learning time recorded in VIRORA.</DialogDescription>
+          <DialogTitle>{student?.name || "Student"} · Progress</DialogTitle>
+          <DialogDescription>Skill levels from graded practice, and active learning time recorded in VIRORA.</DialogDescription>
         </DialogHeader>
         {loading ? (
           <div className="flex justify-center py-12"><RefreshCw className="w-5 h-5 animate-spin text-primary" /></div>
         ) : (
-          <ActivityReport sessions={sessions} compact />
+          <div className="space-y-5">
+            {skills && (
+              <section>
+                <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">Skills</h3>
+                <StudentSkills state={skills} />
+              </section>
+            )}
+            <section>
+              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">Activity</h3>
+              <ActivityReport sessions={sessions} compact />
+            </section>
+          </div>
         )}
       </DialogContent>
     </Dialog>
