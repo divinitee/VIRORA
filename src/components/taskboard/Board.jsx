@@ -17,6 +17,7 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
   const [view, setView] = useState("active");
   const [allLevels, setAllLevels] = useState(false);
   const [dragOver, setDragOver] = useState(null);
+  const [teeOnly, setTeeOnly] = useState(false);
   const fileRef = useRef(null);
 
   const archivedCount = data.tasks.filter((t) => t.archived).length;
@@ -27,7 +28,10 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
     // Hide anything whose ancestor is archived too.
     const hiddenByAncestor = (t) => idx.path(t).some((p) => p.archived);
     let arr = data.tasks.filter((t) => (view === "archived" ? t.archived : !hiddenByAncestor(t)));
-    if (view === "active" && !q && !allLevels) arr = arr.filter((t) => !t.parent_id);
+    // "Tee's attention" (board clean-up, 3 Nov): every open task tagged
+    // tee-attention, at any level, so decisions never hide under a parent.
+    if (teeOnly) arr = arr.filter((t) => isTeeAttention(t) && t.status !== "complete");
+    else if (view === "active" && !q && !allLevels) arr = arr.filter((t) => !t.parent_id);
     if (q) {
       arr = arr.filter((t) => {
         const steps = (idx.stepsByTask[t.id] || []).map((s) => s.title);
@@ -47,7 +51,7 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
       code: (a, b) => a.task_code.localeCompare(b.task_code, undefined, { numeric: true }),
     }[sort];
     return [...arr].sort(cmp);
-  }, [data.tasks, idx, query, section, owner, category, priority, status, sort, view, allLevels]);
+  }, [data.tasks, idx, query, section, owner, category, priority, status, sort, view, allLevels, teeOnly]);
 
   const cats = useMemo(() => {
     const extra = [...new Set(data.tasks.map((t) => t.category).filter((c) => c && !CATEGORIES.includes(c)))];
@@ -59,9 +63,10 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
     progress: liveRoots.filter((t) => t.status === "in_progress").length,
     blockers: data.tasks.filter((t) => !t.archived && t.launch_blocker && t.status !== "complete").length,
     complete: liveRoots.filter((t) => t.status === "complete").length,
+    tee: data.tasks.filter((t) => !t.archived && t.status !== "complete" && isTeeAttention(t)).length,
   };
   const columns = status ? [status] : STATUSES;
-  const filtersOn = query || section || owner || category || priority || status || allLevels;
+  const filtersOn = query || section || owner || category || priority || status || allLevels || teeOnly;
   const openIn = (d) => data.tasks.filter((t) => !t.archived && t.status !== "complete" && (t.department || "tech") === d).length;
 
   const pickFile = async (e) => {
@@ -86,6 +91,11 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
                 <span><b className="text-rose-300">{counts.blockers}</b> open launch blockers</span>
                 <span><b className="text-emerald-300">{counts.complete}</b> complete</span>
               </div>
+              {counts.tee > 0 && (
+                <button type="button" onClick={() => { setTeeOnly((v) => !v); setView("active"); }} className={`mt-3 inline-flex items-center gap-2 rounded-[8px] border px-3 py-1.5 text-sm font-bold ${teeOnly ? "border-amber-300 bg-amber-400/20 text-amber-100" : "border-amber-500/60 bg-amber-500/10 text-amber-200 hover:bg-amber-500/20"}`}>
+                  ⚑ TEE's attention needed <span className="rounded bg-amber-400/30 px-1.5 text-xs">{counts.tee}</span>
+                </button>
+              )}
             </div>
             <div className="flex flex-wrap items-center gap-2">
               {onFocus && <Button variant="primary" icon={Crosshair} onClick={onFocus}>Back to Focus</Button>}
@@ -146,7 +156,7 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
               </label>
             )}
             {filtersOn && (
-              <button type="button" onClick={() => { setSection(""); setOwner(""); setQuery(""); setCategory(""); setPriority(""); setStatus(""); setAllLevels(false); }} className="text-sm text-blue-300 hover:text-blue-200">
+              <button type="button" onClick={() => { setSection(""); setOwner(""); setQuery(""); setCategory(""); setPriority(""); setStatus(""); setAllLevels(false); setTeeOnly(false); }} className="text-sm text-blue-300 hover:text-blue-200">
                 Clear filters
               </button>
             )}
@@ -222,6 +232,7 @@ function TaskCard({ task, idx, onOpen, onEdit, onMove, onArchive, busy }) {
       <div className="flex items-center justify-between gap-2">
         <span className="font-mono text-[11px] text-slate-400">{task.task_code}</span>
         <div className="flex items-center gap-1.5">
+          {isTeeAttention(task) && task.status !== "complete" && <span className="rounded border border-amber-400/60 bg-amber-400/15 px-1.5 py-0.5 text-[10px] font-bold uppercase text-amber-200" title="TEE's attention needed: a decision only Tee can make">⚑ Tee</span>}
           {task.launch_blocker && <span className="rounded border border-rose-500/50 bg-rose-500/10 px-1.5 py-0.5 text-[10px] font-bold uppercase text-rose-300">Blocker</span>}
           <PriorityBadge priority={task.priority} />
         </div>
