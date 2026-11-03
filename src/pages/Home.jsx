@@ -170,7 +170,8 @@ export default function Home() {
   const handleDeleteAccount = async () => {
     setDeleting(true);
     try {
-      if (subscription) await base44.entities.StudentSubscription.delete(subscription.id);
+      // VT-1.1.2: the server removes the row (and keeps admin holds / live cards).
+      if (subscription) await studentApi("deleteMySubscription");
       await base44.entities.QuizResult.deleteMany({ student_phone: user?.email });
       await base44.auth.logout("/register");
     } catch (err) {
