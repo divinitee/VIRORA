@@ -100,6 +100,19 @@ export function guardQrDays(row, patch, today = dateStr(Date.now())) {
   return { patch: keep, held: true, overlap: cardActive };
 }
 
+// --- Student self-delete (VT-1.1.2, Claude 2026-11-03) -----------------------
+// Which of a student's own rows studentApi.deleteMySubscription may remove.
+// paused/cancelled = an admin decision (kept); a live card row is kept because
+// deleting it would not stop Dodo charging the card.
+export function selfDeletePlan(rows) {
+  const remove = [], kept = [];
+  for (const r of rows || []) {
+    const reason = ["paused", "cancelled"].includes(r.status) ? "on_hold" : isLiveCardSub(r) ? "active_card" : "";
+    if (reason) kept.push({ id: r.id, reason }); else remove.push(r.id);
+  }
+  return { remove, kept };
+}
+
 export function paidSinceStamp(sub, now = Date.now()) {
   if (!sub || sub.paid_since || sub.is_trial || !isRealPlan(sub)) return {};
   return { paid_since: dateStr(now) };
