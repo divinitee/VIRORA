@@ -133,3 +133,24 @@ Deno.test('monitoring: a large history logs consent_history_large; over the max 
   assert(ev.some((e) => e.event === 'consent_history_over_max' && e.max === 20));
 });
 
+
+Deno.test('history cap boundary: max − 1 and exactly max are read completely; max + 1 fails closed', async () => {
+  for (const [extra, ok] of [[-1, true], [0, true], [1, false]] as const) {
+    const w = makeWorld();
+    await publish(w);
+    await acceptAll(w, 'ana'); // 2 rows
+    const max = 40;
+    await padHistory(w, max - 2 + extra);
+    assertEquals(rows(w).length, max + extra);
+    for (const page of [10, 7, 40, 100]) {
+      try {
+        const recs = await loadRecords(w.entities, 'u_ana', { page, max, warn: 1e9 });
+        assert(ok, `${max + extra} rows (page ${page}) should have failed closed`);
+        assertEquals(recs.length, max + extra, `page ${page}: complete`);
+      } catch (e) {
+        assert(!ok, `${max + extra} rows (page ${page}) should pass: ${(e as Error).message}`);
+        assertEquals((e as LegalError).code, CODE.CONSENT_CHECK_UNAVAILABLE);
+      }
+    }
+  }
+});

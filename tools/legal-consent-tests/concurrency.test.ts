@@ -224,3 +224,51 @@ Deno.test('self-test (canary action): publisher-only; reports ATOMIC on an atomi
   const bad = await w.call('tee', 'adminLockSelfTest', { rounds: 2 });
   assertEquals(bad.self_test.verdict, 'NOT_PROVEN');
 });
+
+Deno.test('self-test verdict: ANY rate-limited, errored or failed round → NOT_PROVEN, even if the clean rounds were perfect', async () => {
+  const tooMany = () => Object.assign(new Error('429'), { response: { status: 429, headers: {} } });
+  const run = async (sabotage: (w: any) => void, rounds = 4) => {
+    const w = makeWorld();
+    await publish(w);
+    sabotage(w);
+    return (await w.call('tee', 'adminLockSelfTest', { rounds })).self_test;
+  };
+  // 1. One claim in round 2 rate-limited (the other 3 rounds perfect).
+  let r = await run((w) => {
+    const real = w.entities.ConsentWriteLock.updateMany; let n = 0;
+    w.entities.ConsentWriteLock.updateMany = async (q: any, d: any) => { if (d.$set?.holder && ++n === 12) throw tooMany(); return real(q, d); };
+  });
+  assertEquals(r.verdict, 'NOT_PROVEN');
+  assertEquals(r.rounds.filter((x: any) => x.rate_limited > 0).length, 1);
+  assertEquals(r.rounds.filter((x: any) => x.rate_limited === 0 && x.winners === 1).length, 3, 'the other rounds were clean');
+  // 2. A non-429 error on one claim.
+  r = await run((w) => {
+    const real = w.entities.ConsentWriteLock.updateMany; let n = 0;
+    w.entities.ConsentWriteLock.updateMany = async (q: any, d: any) => { if (d.$set?.holder && ++n === 3) throw new Error('boom'); return real(q, d); };
+  });
+  assertEquals(r.verdict, 'NOT_PROVEN');
+  assertEquals(r.rounds[0].errors, 1);
+  // 3. A round that cannot run at all (reading the shard row fails) → reported as failed, verdict NOT_PROVEN.
+  r = await run((w) => {
+    const real = w.entities.ConsentWriteLock.filter; let n = 0;
+    w.entities.ConsentWriteLock.filter = async (...a: any[]) => { if (++n === 3) throw tooMany(); return real(...a); };
+  });
+  assertEquals(r.verdict, 'NOT_PROVEN');
+  assert(r.rounds.some((x: any) => x.failed && x.reason === 'rate_limited'));
+  assertEquals(r.rounds.length, 4, 'every requested round is reported');
+  // 4. Holder must be the winner's own token, not just any token from the round.
+  r = await run((w) => {
+    const real = w.entities.ConsentWriteLock.updateMany;
+    w.entities.ConsentWriteLock.updateMany = async (q: any, d: any) => {
+      const out = await real(q, d);
+      if (d.$set?.holder && out.updated === 1) { const row = w.entities.ConsentWriteLock.rows.find((x: any) => x.id === q.id); row.holder = 'lk_not_the_winner'; }
+      return out;
+    };
+  }, 1);
+  assertEquals(r.verdict, 'NOT_PROVEN');
+  assertEquals(r.rounds[0].holder_is_the_winner, false);
+  // Control: all clean → ATOMIC.
+  r = await run(() => {});
+  assertEquals(r.verdict, 'ATOMIC');
+  assert(r.rounds.every((x: any) => x.winners === 1 && x.lost === 8 && x.holder_is_the_winner));
+});

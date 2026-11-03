@@ -156,30 +156,40 @@ export async function withConsentLock(svc, userId, fn, {
 // Budget: rounds × (parallel + 1) bulk calls; the defaults stay under
 // Base44's 50 per 60 s per caller. 429s are counted, not hidden.
 export const SELFTEST_SHARD = 1000;
+// Verdict (GPT catch-up, 3 Nov 2026): ATOMIC only if EVERY requested round
+// completed cleanly — no 429, no error, no round that failed to run — with
+// exactly one winner, everyone else updated:0, the version advanced by
+// exactly 1, and the stored holder being that winner's own token. A partial
+// run (e.g. 1 clean round and 3 rate-limited) is NOT_PROVEN, never ATOMIC.
 export async function claimSelfTest(svc, { rounds = 4, parallel = 9 } = {}) {
   const out = [];
   for (let r = 0; r < rounds; r++) {
-    const row = await shardRow(svc, SELFTEST_SHARD);
-    const tokens = Array.from({ length: parallel }, () => token());
-    const res = await Promise.all(tokens.map((holder) =>
-      svc.ConsentWriteLock.updateMany(
-        { id: row.id, version: row.version },
-        { $set: { holder, lease_until: new Date(Date.now() + LEASE_MS).toISOString() }, $inc: { version: 1 } },
-      ).then((x) => ({ updated: x?.updated }), (e) => ({ error: (e?.response?.status ?? e?.status) === 429 ? 429 : 'error' }))));
-    const after = await shardRow(svc, SELFTEST_SHARD);
-    const winners = res.filter((x) => x.updated === 1).length;
-    out.push({
-      round: r + 1, winners, lost: res.filter((x) => x.updated === 0).length,
-      rate_limited: res.filter((x) => x.error === 429).length, errors: res.filter((x) => x.error === 'error').length,
-      version_advanced_by: (after.version ?? 0) - (row.version ?? 0),
-      holder_is_a_winner: tokens.includes(after.holder),
-    });
-    await svc.ConsentWriteLock.updateMany({ id: row.id, holder: after.holder }, { $set: { holder: '', lease_until: EPOCH }, $inc: { version: 1 } });
+    try {
+      const row = await shardRow(svc, SELFTEST_SHARD);
+      const tokens = Array.from({ length: parallel }, () => token());
+      const res = await Promise.all(tokens.map((holder) =>
+        svc.ConsentWriteLock.updateMany(
+          { id: row.id, version: row.version },
+          { $set: { holder, lease_until: new Date(Date.now() + LEASE_MS).toISOString() }, $inc: { version: 1 } },
+        ).then((x) => ({ updated: x?.updated }), (e) => ({ error: (e?.response?.status ?? e?.status) === 429 ? 429 : 'error' }))));
+      const after = await shardRow(svc, SELFTEST_SHARD);
+      const winnerIdx = res.map((x, i) => (x.updated === 1 ? i : -1)).filter((i) => i >= 0);
+      out.push({
+        round: r + 1, winners: winnerIdx.length, lost: res.filter((x) => x.updated === 0).length,
+        rate_limited: res.filter((x) => x.error === 429).length, errors: res.filter((x) => x.error === 'error').length,
+        version_advanced_by: (after.version ?? 0) - (row.version ?? 0),
+        holder_is_the_winner: winnerIdx.length === 1 && after.holder === tokens[winnerIdx[0]],
+      });
+      await svc.ConsentWriteLock.updateMany({ id: row.id, holder: after.holder }, { $set: { holder: '', lease_until: EPOCH }, $inc: { version: 1 } });
+    } catch (e) {
+      out.push({ round: r + 1, failed: true, reason: (e?.response?.status ?? e?.status) === 429 ? 'rate_limited' : 'error' });
+    }
   }
-  const clean = out.filter((x) => x.rate_limited === 0 && x.errors === 0);
+  const proven = (x) => !x.failed && x.rate_limited === 0 && x.errors === 0 && x.winners === 1
+    && x.lost === parallel - 1 && x.version_advanced_by === 1 && x.holder_is_the_winner;
   return {
     rounds: out,
-    verdict: clean.length && clean.every((x) => x.winners === 1 && x.version_advanced_by === 1 && x.holder_is_a_winner) ? 'ATOMIC' : 'NOT_PROVEN',
+    verdict: out.length === rounds && out.every(proven) ? 'ATOMIC' : 'NOT_PROVEN',
   };
 }
 

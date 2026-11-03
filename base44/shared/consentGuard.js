@@ -55,16 +55,24 @@ export const RECORD_MAX = 20_000;
 // Early warning, long before RECORD_MAX locks anyone out (README "Operations").
 export const RECORD_WARN = 5_000;
 
+// Reads at most `max` rows; exactly `max` is allowed (GPT catch-up, 3 Nov
+// 2026: the old loop refused a history of exactly `max`). After a full `max`,
+// one extra row is probed: if it exists the history is over the cap and the
+// read fails closed.
 async function readAll(svc, query, page, max) {
   const byId = new Map();
-  for (let skip = 0; ; skip += page) {
-    const rows = await svc.ConsentRecord.filter(query, 'created_date', page, skip);
+  let skip = 0;
+  while (skip < max) {
+    const want = Math.min(page, max - skip);
+    const rows = await svc.ConsentRecord.filter(query, 'created_date', want, skip);
     for (const r of rows) byId.set(r.id, r);
-    if (rows.length < page) break;
-    if (skip + page >= max) {
-      console.error(JSON.stringify({ event: 'consent_history_over_max', subject_user_id: query.subject_user_id, max }));
-      throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history too long to evaluate');
-    }
+    if (rows.length < want) return [...byId.values()];
+    skip += want;
+  }
+  const beyond = await svc.ConsentRecord.filter(query, 'created_date', 1, max);
+  if (beyond.length) {
+    console.error(JSON.stringify({ event: 'consent_history_over_max', subject_user_id: query.subject_user_id, max }));
+    throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history too long to evaluate');
   }
   return [...byId.values()];
 }
