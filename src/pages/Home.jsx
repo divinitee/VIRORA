@@ -14,6 +14,7 @@ import UnitDrawer from "@/components/UnitDrawer";
 import ParticleBackground from "@/components/ParticleBackground";
 import { refreshMySubscription } from "@/lib/subscription";
 import { lazyPage } from "@/lib/lazyPage";
+import { studentApi } from "@/lib/serverApi";
 import AppTour, { startAppTour } from "@/components/tour/AppTour";
 import { useAppLang } from "@/hooks/useAppLang";
 import MissionControl from "@/components/mission/MissionControl";
