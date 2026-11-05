@@ -192,4 +192,3 @@ export async function claimSelfTest(svc, { rounds = 4, parallel = 9 } = {}) {
     verdict: out.length === rounds && out.every(proven) ? 'ATOMIC' : 'NOT_PROVEN',
   };
 }
-
