@@ -77,18 +77,43 @@ async function readAll(svc, query, page, max) {
   return [...byId.values()];
 }
 
+// Complete history plus its PHYSICAL row count (before duplicates collapse).
+// Writers need the physical count to keep the stored history within the cap.
 /** @param {any} svc @param {string|number} userId @param {{ page?: number, max?: number, warn?: number }} [opts] */
-export async function loadRecords(svc, userId, { page = RECORD_PAGE, max = RECORD_MAX, warn = RECORD_WARN } = {}) {
+export async function loadHistory(svc, userId, { page = RECORD_PAGE, max = RECORD_MAX, warn = RECORD_WARN } = {}) {
   const query = { subject_user_id: String(userId) };
   for (let attempt = 0; attempt < 2; attempt++) {
     const rows = await readAll(svc, query, page, max);
     const total = typeof svc.ConsentRecord.count === 'function' ? await svc.ConsentRecord.count(query) : rows.length;
     if (rows.length === total) {
       if (total >= warn) console.warn(JSON.stringify({ event: 'consent_history_large', subject_user_id: query.subject_user_id, rows: total, max }));
-      return collapseDuplicates(rows);
+      return { records: collapseDuplicates(rows), physical: total, max };
     }
   }
   throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history changed while reading');
+}
+
+/** @param {any} svc @param {string|number} userId @param {{ page?: number, max?: number, warn?: number }} [opts] */
+export async function loadRecords(svc, userId, opts = {}) {
+  return (await loadHistory(svc, userId, opts)).records;
+}
+
+// Write preflight for CONSENT-GIVING appends (GPT review of f845916).
+// Invariant kept by legalApi:  physical rows + active grants <= max.
+//  - Giving consent (terms / grant) may append only if, afterwards, there is
+//    still one free slot for every grant that would then be active. Otherwise
+//    it is refused BEFORE the first write, with nothing written: no rows
+//    persist behind a failed request, and a retry still reaches the
+//    idempotency check because the history stays readable.
+//  - Withdrawal is never blocked by the cap: under the invariant it always
+//    fits (it adds one row and removes one active grant), so the cap can
+//    never leave a user with a grant they cannot withdraw.
+/** @param {{ physical: number, max: number }} history @param {number} adding @param {number} activeAfter @param {string|number} userId */
+export function assertRoomFor(history, adding, activeAfter, userId) {
+  if (adding > 0 && history.physical + adding + activeAfter > history.max) {
+    console.error(JSON.stringify({ event: 'consent_history_over_max', subject_user_id: String(userId), max: history.max, rows: history.physical, adding, active_after: activeAfter }));
+    throw new LegalError(CODE.CONSENT_CHECK_UNAVAILABLE, 503, 'consent history is at its limit; nothing was written');
+  }
 }
 
 // Returns { enforced, allowed, code?, missing? }. Never throws.

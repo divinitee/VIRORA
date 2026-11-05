@@ -346,4 +346,3 @@ Deno.test('monitoring: every LEGAL_WRITE_BUSY logs one legal_write_busy line wit
   assertEquals(reasons, ['rate_limited', 'contended', 'fenced']);
   assert(logs.filter((e) => e.event === 'legal_write_busy').every((e) => typeof e.shard === 'number' && !('subject_user_id' in e)), 'lock logs carry no user id');
 });
-

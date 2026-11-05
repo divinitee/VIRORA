@@ -26,7 +26,7 @@ import {
   parseIdList, pickLocale, requirementKey, selectActiveRelease, sha256Hex, signPresentation, validateActions,
   validateManifest, verifyPresentation,
 } from './legalCore.js';
-import { loadActiveRelease, loadRecords, readMode } from './consentGuard.js';
+import { assertRoomFor, loadActiveRelease, loadHistory, loadRecords, readMode } from './consentGuard.js';
 import { claimSelfTest, seedConsentLocks, withConsentLock } from './consentLock.js';
 
 const iso = (ms) => new Date(ms).toISOString();
@@ -130,15 +130,29 @@ async function appendConsent(ctx, me, body, release, reqs, origin, occurredAt, f
   // still missing.
   // Read from the caller's COMPLETE history (paged + count-checked), not a
   // separately capped query.
-  const prior = (await loadRecords(ctx.svc, me.id)).filter((r) => r.idempotency_key === body.idempotency_key);
+  const history = await loadHistory(ctx.svc, me.id);
+  const prior = history.records.filter((r) => r.idempotency_key === body.idempotency_key);
   if (prior.some((r) => r.release_id !== release.release_id)) throw new LegalError(CODE.INVALID_REQUEST, 400, 'idempotency_key reused');
   const done = new Set(prior.map((r) => requirementKey(r)));
 
-  const created = [];
+  // Decide everything this request will append BEFORE writing any of it:
+  // a missing document or a full history refuses the request with nothing written.
+  const todo = [];
   for (const req of reqs) {
     if (done.has(requirementKey(req))) continue;
     const d = docFor(release, body.locale, req.document_type);
     if (!d) throw new LegalError(CODE.LEGAL_VERSION_CHANGED, 409, 'document missing for locale');
+    todo.push({ req, d });
+  }
+  // Scopes that will hold an active grant once this request is written.
+  const activeAfter = new Set([
+    ...activeGrants(history.records).map((r) => r.purpose_scope_id),
+    ...todo.filter(({ req }) => req.event_type === EVENT.DP_GRANTED).map(({ req }) => req.purpose_scope_id),
+  ]).size;
+  assertRoomFor(history, todo.length, activeAfter, me.id);
+
+  const created = [];
+  for (const { req, d } of todo) {
     fence(); // still safely the lock holder? otherwise abort before writing
     const row = await ctx.svc.ConsentRecord.create(compact({
       subject_user_id: String(me.id),
@@ -183,6 +197,8 @@ async function appendWithdrawal(ctx, me, body, fence) {
   // comes from loading by subject_user_id = caller, never from the body.
   const grant = activeGrants(records).find((r) => r.id === str(body.related_record_id, 100));
   if (!grant) throw new LegalError(CODE.NOT_FOUND, 404, 'no active grant with that id');
+  // No cap preflight here on purpose: the grant-time reserve guarantees this
+  // row fits, and a withdrawal must never be refused for space.
   const now = ctx.now();
   fence(); // still safely the lock holder? otherwise abort before writing
   const row = await ctx.svc.ConsentRecord.create(compact({

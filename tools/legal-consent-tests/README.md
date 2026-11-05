@@ -32,6 +32,11 @@ deno test --allow-read tools/legal-consent-tests/lease.test.ts
 # hard max fails closed (never a truncated evaluation)
 deno test --allow-read tools/legal-consent-tests/history.test.ts
 
+# writes at the production cap (GPT review of f845916): 19,999 rows + 2 events
+# → refused, nothing written, retry same; the largest fitting submission works
+# and is idempotent; the reserved slot always lets a grant be withdrawn
+deno test --allow-read tools/legal-consent-tests/cap.test.ts
+
 # manifest duplicates (GPT code audit 2 Nov): duplicate requirement, duplicate
 # document type per locale, duplicate/mismatched document reference → refused
 # at draft (nothing written), refused at publish, never served (503)
@@ -150,6 +155,11 @@ deletion in v1. A user adds rows only by deliberate grant / withdraw actions.
 - `consent_history_large` (≥ 5,000 rows for one user) logs a warning; that is
   months of continuous toggling, so treat it as abuse or a bug and contact the
   user.
+- Writes keep **rows + active grants ≤ 20,000**: giving consent is refused
+  (503, nothing written, the history stays readable and the retry reaches the
+  idempotency check) unless one slot stays free for every grant that would be
+  active afterwards, so a grant can always be withdrawn. Withdrawal is never
+  refused for space. `cap.test.ts` covers this at the real 20,000 cap.
 - `consent_history_over_max` (more than 20,000; exactly 20,000 still reads) means everything consent-related fails
   closed for that user: status, receipts and withdrawal all answer 503, and
   every guarded function denies. No processing happens, which is the same
