@@ -1,13 +1,14 @@
 import BrandLoader from "@/components/loading/PageLoader";
 import React, { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { LayoutDashboard, Users, GraduationCap, Network, Wallet, ShieldCheck, LogOut, Home as HomeIcon } from "lucide-react";
+import { LayoutDashboard, Users, Repeat, GraduationCap, Network, Wallet, ShieldCheck, LogOut, Home as HomeIcon } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
 import { consoleApi, getConsoleToken, clearConsoleToken, errorText } from "@/lib/consoleApi";
 import ConsoleGate, { Shell, Refused } from "@/components/console/ConsoleGate";
 import OverviewSection from "@/components/console/OverviewSection";
 import SecuritySection from "@/components/console/SecuritySection";
 import StudentsSection from "@/components/console/StudentsSection";
+import ComebackSection from "@/components/console/ComebackSection";
 
 // /console: one admin page for students, teachers, groups and payments
 // (VT-35). Sign-in = VIRORA login + authenticator code; enforced on the
@@ -20,6 +21,7 @@ import StudentsSection from "@/components/console/StudentsSection";
 const SECTIONS = [
   { key: "overview", label: "Overview", icon: LayoutDashboard },
   { key: "students", label: "Students", icon: Users },
+  { key: "comeback", label: "Comeback", icon: Repeat },
   { key: "teachers", label: "Teachers", icon: GraduationCap, phase: "P2", legacy: "/admin" },
   { key: "groups", label: "Groups", icon: Network, phase: "P2", legacy: "/teacher" },
   { key: "payments", label: "Payments", icon: Wallet, phase: "P3", legacy: "/admin-qr-payments" },
@@ -83,12 +85,13 @@ function ConsoleShell({ user, onSignOut, onSessionLost }) {
           {section === "overview" && <OverviewSection onSessionLost={onSessionLost} />}
           {section === "security" && <SecuritySection onSessionLost={onSessionLost} />}
           {section === "students" && <StudentsSection onSessionLost={onSessionLost} />}
+          {section === "comeback" && <ComebackSection onSessionLost={onSessionLost} />}
           {current?.phase && <ComingSoon section={current} />}
         </div>
       </main>
 
       {/* mobile bottom tabs */}
-      <nav className="fixed inset-x-0 bottom-0 z-10 grid grid-cols-6 border-t border-white/10 bg-[#0E0F26] pb-[env(safe-area-inset-bottom)] md:hidden">
+      <nav className="fixed inset-x-0 bottom-0 z-10 grid grid-cols-7 border-t border-white/10 bg-[#0E0F26] pb-[env(safe-area-inset-bottom)] md:hidden">
         {SECTIONS.map((s) => (
           <button key={s.key} onClick={() => go(s.key)}
             className={`flex flex-col items-center gap-1 py-2 text-[10px] select-none ${section === s.key ? "text-violet-300" : "text-white/50"}`}>
