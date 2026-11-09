@@ -1,10 +1,10 @@
 import React, { useMemo, useRef, useState } from "react";
-import { Plus, Search, Upload, Download, Pencil, Archive, RotateCcw, Trash2, ArrowUpRight, ShieldCheck, CalendarDays, FolderTree, ListChecks, Crosshair } from "lucide-react";
+import { Plus, Search, Upload, Download, Pencil, Archive, RotateCcw, Trash2, ArrowUpRight, ShieldCheck, CalendarDays, FolderTree, ListChecks, Crosshair, CheckCircle2 } from "lucide-react";
 import { Button, PriorityBadge, StatusBadge, Tag, ProgressBar, inputCls, OwnerBadge, DeptBadge } from "./ui";
 import {
   STATUSES, STATUS_LABEL, STATUS_STYLE, PRIORITIES, PRIORITY_LABEL, PRIORITY_RANK, PRIORITY_EDGE, CATEGORIES,
   fmtDate, isOverdue, relative, dependencyState, DEPARTMENTS, DEPARTMENT_LABEL, DEPARTMENT_STYLE, OWNERS, OWNER_LABEL,
-  isTeeAttention,
+  isTeeAttention, BLOCKS, UNSORTED_BLOCK, blockOf,
 } from "./model";
 
 export default function Board({ initialSection = "", onFocus, data, idx, busy, onOpen, onNew, onEdit, onMove, onArchive, onRestore, onDelete, onExport, onImport }) {
@@ -15,7 +15,8 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
   const [priority, setPriority] = useState("");
   const [status, setStatus] = useState("");
   const [sort, setSort] = useState("priority");
-  const [view, setView] = useState("active");
+  // Blocks is the default view (9 Nov 2026): work is cleared block by block.
+  const [view, setView] = useState("blocks");
   const [allLevels, setAllLevels] = useState(false);
   const [dragOver, setDragOver] = useState(null);
   const [teeOnly, setTeeOnly] = useState(false);
@@ -32,7 +33,7 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
     // "Tee's attention" (board clean-up, 3 Nov): every open task tagged
     // tee-attention, at any level, so decisions never hide under a parent.
     if (teeOnly) arr = arr.filter((t) => isTeeAttention(t) && t.status !== "complete");
-    else if (view === "active" && !q && !allLevels) arr = arr.filter((t) => !t.parent_id);
+    else if (view !== "archived" && !q && !allLevels) arr = arr.filter((t) => !t.parent_id);
     if (q) {
       arr = arr.filter((t) => {
         const steps = (idx.stepsByTask[t.id] || []).map((s) => s.title);
@@ -147,10 +148,11 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
           </div>
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <div className="inline-flex rounded-[8px] border border-slate-700 bg-slate-950 p-0.5 text-sm">
+              <button type="button" onClick={() => setView("blocks")} className={`rounded-[6px] px-3 py-1.5 ${view === "blocks" ? "bg-slate-700 text-white" : "text-slate-400 hover:text-white"}`}>Blocks</button>
               <button type="button" onClick={() => setView("active")} className={`rounded-[6px] px-3 py-1.5 ${view === "active" ? "bg-slate-700 text-white" : "text-slate-400 hover:text-white"}`}>Board</button>
               <button type="button" onClick={() => setView("archived")} className={`rounded-[6px] px-3 py-1.5 ${view === "archived" ? "bg-slate-700 text-white" : "text-slate-400 hover:text-white"}`}>Archived ({archivedCount})</button>
             </div>
-            {view === "active" && (
+            {view !== "archived" && (
               <label className="flex cursor-pointer items-center gap-2 rounded-[8px] border border-slate-700 px-3 py-1.5 text-sm text-slate-300 hover:border-slate-500">
                 <input type="checkbox" checked={allLevels} onChange={(e) => setAllLevels(e.target.checked)} className="h-4 w-4 accent-blue-500" />
                 Show subtasks on board
@@ -169,6 +171,8 @@ export default function Board({ initialSection = "", onFocus, data, idx, busy, o
       <main className="mx-auto max-w-[1500px] px-4 py-5 sm:px-6">
         {view === "archived" ? (
           <ArchivedList tasks={visible} idx={idx} onOpen={onOpen} onRestore={onRestore} onDelete={onDelete} busy={busy} />
+        ) : view === "blocks" && data.tasks.length > 0 ? (
+          <BlocksView tasks={visible} all={data.tasks} idx={idx} showComplete={status === "complete"} onOpen={onOpen} onEdit={onEdit} onMove={onMove} onArchive={onArchive} busy={busy} />
         ) : data.tasks.length === 0 ? (
           <div className="mx-auto mt-10 max-w-md rounded-[10px] border border-dashed border-slate-700 p-10 text-center">
             <FolderTree className="mx-auto h-8 w-8 text-slate-500" />
@@ -282,6 +286,54 @@ function TaskCard({ task, idx, onOpen, onEdit, onMove, onArchive, busy }) {
         <Button size="sm" variant="ghost" icon={ArrowUpRight} onClick={() => onOpen(task)} aria-label={`Open ${task.task_code}`} title="Open" />
       </div>
     </article>
+  );
+}
+
+// Blocks view: one section per block, in priority order, with this week's
+// output per block (tasks completed in the last 7 days, any level).
+function BlocksView({ tasks, all, idx, showComplete, onOpen, onEdit, onMove, onArchive, busy }) {
+  const weekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  const doneThisWeek = all.filter((t) => !t.archived && t.status === "complete" && t.completed_at && Date.parse(t.completed_at) >= weekAgo);
+  const doneBy = {};
+  for (const t of doneThisWeek) { const b = blockOf(t, idx); doneBy[b] = (doneBy[b] || 0) + 1; }
+  const shown = tasks.filter((t) => showComplete || t.status !== "complete");
+  const groups = {};
+  for (const t of shown) (groups[blockOf(t, idx)] ||= []).push(t);
+  const blocks = groups[UNSORTED_BLOCK.key]?.length ? [...BLOCKS, UNSORTED_BLOCK] : BLOCKS;
+
+  return (
+    <div className="space-y-4">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 rounded-[10px] border border-emerald-500/30 bg-emerald-500/[.05] px-4 py-3 text-sm">
+        <span className="inline-flex items-center gap-2 font-semibold text-emerald-200"><CheckCircle2 className="h-4 w-4" /> {doneThisWeek.length} done in the last 7 days</span>
+        {BLOCKS.filter((b) => doneBy[b.key]).map((b) => (
+          <span key={b.key} className="text-slate-400">{b.icon} {b.key} <b className="text-slate-200">{doneBy[b.key]}</b></span>
+        ))}
+      </div>
+      {blocks.map((b) => {
+        const list = groups[b.key] || [];
+        const open = list.filter((t) => t.status !== "complete");
+        const active = open.filter((t) => t.status === "in_progress").length;
+        const pct = list.length ? Math.round(list.reduce((s, t) => s + idx.progress(t).fraction, 0) / list.length * 100) : null;
+        return (
+          <section key={b.key} className={`rounded-[10px] border ${b.style}`}>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 border-b border-slate-800/80 px-4 py-3">
+              <h2 className={`font-semibold ${b.focus ? "text-lg text-white" : "text-[15px] text-slate-100"}`}>{b.icon} {b.key}</h2>
+              {b.focus && <span className="rounded border border-rose-400/60 bg-rose-500/15 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-rose-200">Focus</span>}
+              <span className="text-xs text-slate-400">{open.length} open{active ? ` · ${active} in progress` : ""}{pct !== null ? ` · ${pct}%` : ""}</span>
+              {doneBy[b.key] > 0 && <span className="text-xs text-emerald-300">✓ {doneBy[b.key]} this week</span>}
+              <span className="w-full text-xs text-slate-500 sm:ml-auto sm:w-auto">{b.note}</span>
+            </div>
+            {list.length ? (
+              <div className="grid gap-2.5 p-2.5 md:grid-cols-2 xl:grid-cols-3">
+                {list.map((t) => <TaskCard key={t.id} task={t} idx={idx} onOpen={onOpen} onEdit={onEdit} onMove={onMove} onArchive={onArchive} busy={busy} />)}
+              </div>
+            ) : (
+              <p className="px-4 py-4 text-xs text-slate-500">Nothing open here.</p>
+            )}
+          </section>
+        );
+      })}
+    </div>
   );
 }
 
