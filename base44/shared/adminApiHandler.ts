@@ -28,6 +28,7 @@ import {
 } from './adminAuthCore.ts';
 import { computeOverview, displayName } from './adminOverviewCore.ts';
 import { studentsList, studentDetail, studentAction } from './adminStudents.ts';
+import { comebackReport } from './adminComeback.ts';
 
 export interface HandlerDeps {
   createClientFromRequest: (req: Request) => any;
@@ -252,6 +253,9 @@ const ACTIONS: Record<string, (ctx: Ctx) => Promise<Record<string, unknown>>> = 
   studentsList: (ctx) => studentsList(ctx),
   studentDetail: (ctx) => studentDetail(ctx),
   studentAction: (ctx) => studentAction(ctx),
+
+  // ----- Comeback (day-two return), base44/shared/adminComeback.ts -----
+  comeback: (ctx) => comebackReport(ctx),
 };
 
 // Shared by first enrolment and re-enrolment: the pending seed becomes the
