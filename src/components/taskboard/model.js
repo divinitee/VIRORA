@@ -43,6 +43,27 @@ export const DEPARTMENT_STYLE = {
 export const TEE_ATTENTION_TAG = "tee-attention";
 export const isTeeAttention = (t) => (t?.tags || []).includes(TEE_ATTENTION_TAG);
 
+// Blocks (Tee, 9 Nov 2026): work is cleared block by block, not card by card.
+// A task's block is its ROOT task's `project`. Order = priority order on the
+// Blocks view. Comeback is the only focus; everything else waits its turn.
+export const BLOCKS = [
+  { key: "Comeback", icon: "🎯", note: "The focus. First thing every session.", style: "border-rose-400/50 bg-rose-500/[.06]", focus: true },
+  { key: "Ship & Stabilize", icon: "🚢", note: "Publish, QA, small fixes. One chunk a week.", style: "border-slate-600 bg-slate-500/[.04]" },
+  { key: "Grading", icon: "✍️", note: "AI marking: fair, server-checked, fails closed.", style: "border-slate-600 bg-slate-500/[.04]" },
+  { key: "Animations & Performance", icon: "⚡", note: "Smooth on cheap phones and old laptops.", style: "border-slate-600 bg-slate-500/[.04]" },
+  { key: "UI/UX", icon: "🎨", note: "Friction, clarity, polish.", style: "border-slate-600 bg-slate-500/[.04]" },
+  { key: "Money & Legal", icon: "💰", note: "Pricing, payments, legal. Before the paid push.", style: "border-slate-600 bg-slate-500/[.04]" },
+  { key: "Content Engine", icon: "📚", note: "Deep Mode, grammar. Base44 credits + batch runs.", style: "border-slate-600 bg-slate-500/[.04]" },
+  { key: "Teachers & Admin", icon: "🧑‍🏫", note: "Teacher system, console, accounts.", style: "border-slate-600 bg-slate-500/[.04]" },
+  { key: "Parked", icon: "🅿️", note: "Not until Comeback Phase 1 is done.", style: "border-dashed border-slate-700 bg-transparent opacity-80" },
+];
+export const BLOCK_KEYS = BLOCKS.map((b) => b.key);
+export const UNSORTED_BLOCK = { key: "Unsorted", icon: "❔", note: "No block yet. Set the task's Project to a block name.", style: "border-dashed border-amber-500/40 bg-transparent" };
+export const blockOf = (task, idx) => {
+  const root = idx.path(task)[0] || task;
+  return BLOCK_KEYS.includes(root.project) ? root.project : UNSORTED_BLOCK.key;
+};
+
 export const OWNERS = ["tee", "claude", "gpt", "base44"];
 export const OWNER_LABEL = { tee: "Tee", claude: "Claude", gpt: "GPT", base44: "Base44" };
 export const ACTING_AS = ["tee", "claude", "gpt"];
