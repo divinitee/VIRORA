@@ -36,7 +36,14 @@ import { studentApi, teacherApi } from "@/lib/serverApi";
 import { useSkillLoc } from "@/lib/skillHubI18n";
 import { useAppLang } from "@/hooks/useAppLang";
 import { getRandomChallenge } from "@/lib/skillTreeData";
-import { levelOf, difficultyFor, wordsForLevel, cognitiveDemandForLevel } from "@/lib/levels";
+import { levelOf, difficultyFor, wordsForLevel, cognitiveDemandForLevel, nextLevelDown } from "@/lib/levels";
+
+// Soft landing (base44/shared/easeCore.js, 2026-11-10). uz/ru are drafts.
+const EASE_COPY = {
+  en: { title: "Easier words for now", body: "The last rounds were tough, so your games now use easier words and shorter rounds. Score 70% or more in two rounds and you're back to your level.", cta: "Play an easy round" },
+  uz: { title: "Hozircha osonroq so'zlar", body: "Oxirgi raundlar qiyin bo'ldi, shuning uchun o'yinlarda hozircha osonroq so'zlar va qisqaroq raundlar chiqadi. Ikki raundda 70% yoki undan yuqori natija ko'rsating va o'z darajangizga qaytasiz.", cta: "Oson raundni o'ynash" },
+  ru: { title: "Пока слова попроще", body: "Последние раунды были трудными, поэтому в играх сейчас слова попроще и раунды короче. Наберите 70% и больше в двух раундах — и вернётесь на свой уровень.", cta: "Сыграть лёгкий раунд" },
+};
 import { resolveUserNameOrEmail } from "@/lib/profileName";
 import { hasDiagnostic, resolveSkillEntry } from "@/lib/skillDiagnostics";
 
@@ -74,9 +81,13 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
   // is deliberately not built here — this is the seam it will attach to.
   const [hubMode, setHubMode] = useState("practice");
   const loc = useSkillLoc();
-  const { t } = useAppLang();
+  const { t, lang } = useAppLang();
   const navigate = useNavigate();
   const skillState = useSkillState(user);
+  // Soft landing: two low rounds in a row (server-decided) switch games to
+  // easier words until two good rounds. The student's real level, the skill
+  // tree and its locks never change. Homework is never eased.
+  const ease = !!skillState?.ease?.on;
 
   // Skill Hub entry gate. A skill with a diagnostic routes through its own
   // entry check instead of diving into subskills: placement complete goes to
@@ -182,6 +193,8 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
   // so this only ever narrows what a student sees, never empties a game.
   const studentLevel = useMemo(() => levelOf(user), [user]);
   const poolWords = useMemo(() => wordsForLevel(words, studentLevel), [words, studentLevel]);
+  const easyLevel = useMemo(() => nextLevelDown(studentLevel), [studentLevel]);
+  const easyWords = useMemo(() => wordsForLevel(words, easyLevel), [words, easyLevel]);
 
   // Game callbacks are previews, not authority to persist or increase balances.
   // The reward-saved event refreshes XP after the evidence response arrives.
@@ -304,13 +317,15 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
       // setting difficulty outright — so "Hard" means hard for this student,
       // not "third node in the category," and two students at different
       // levels playing the same node get different intensity.
-      const diff = difficultyFor(studentLevel, activeGame.difficulty);
+      const eased = ease && !activeGame.homeworkId;
+      const playLevel = eased ? easyLevel : studentLevel;
+      const diff = difficultyFor(playLevel, eased ? "Easy" : activeGame.difficulty);
       // level + cognitiveDemand ride alongside difficulty (round intensity) as
       // a separate signal — "how hard the language is" vs "what kind of
       // thinking the task requires". Every engine gets them; only the
       // AI-generating ones (definition_match, definition today) act on them
       // so far. See levels.js's "Cognitive demand" section.
-      const base = { words: poolWords, unitName: "Skill Hub", onBack: leaveGame, onXpEarned: handleXpEarned, onGameComplete: handleGameComplete, difficulty: diff, level: studentLevel, cognitiveDemand: cognitiveDemandForLevel(studentLevel) };
+      const base = { words: eased ? easyWords : poolWords, unitName: "Skill Hub", onBack: leaveGame, onXpEarned: handleXpEarned, onGameComplete: handleGameComplete, difficulty: diff, level: playLevel, cognitiveDemand: cognitiveDemandForLevel(playLevel) };
       if (activeGame.game === "quiz")
         return <VocabQuizGame {...base} user={user} timePerQ={30} autoAdvance />;
       if (activeGame.game === "sentence")
@@ -482,6 +497,18 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
             stubby and the boughs splayed nearly flat. The inner layers
             (subskills, challenges) are laid out in percentages too, so they
             just gain a little vertical breathing room. */}
+        {ease && !assignmentMode && (
+          <div data-testid="ease-banner" className="max-w-[560px] mx-auto mb-3 rounded-2xl border border-emerald-400/40 bg-emerald-500/[0.08] p-4">
+            <p className="text-sm font-bold text-foreground">{(EASE_COPY[lang] || EASE_COPY.en).title}</p>
+            <p className="mt-1 text-xs text-muted-foreground leading-relaxed">{(EASE_COPY[lang] || EASE_COPY.en).body}</p>
+            <button
+              onClick={() => setActiveGame({ game: "quiz", difficulty: "Easy", skillLabel: "Vocabulary", title: (EASE_COPY[lang] || EASE_COPY.en).cta, skillId: "vocabulary" })}
+              className="mt-3 h-10 px-4 rounded-xl bg-emerald-500 text-white text-sm font-bold select-none"
+            >
+              {(EASE_COPY[lang] || EASE_COPY.en).cta}
+            </button>
+          </div>
+        )}
         <div data-tour="skill-stage" className="relative w-full aspect-[5/6] max-w-[560px] mx-auto min-h-[430px]">
           <SkillStage
             onPlayGame={assignmentMode ? handleAssignGame : (g) => setActiveGame(g)}
