@@ -4,11 +4,10 @@ import { useAppLang } from "@/hooks/useAppLang";
 import { DASH_STR, getGreetingKey } from "@/lib/dashboardData";
 import HeroCard from "./HeroCard";
 import FreeLessonCard from "./FreeLessonCard";
-import MissionsCard from "./MissionsCard";
+import ComebackCard from "./ComebackCard";
 import ProgressSnapshot from "./ProgressSnapshot";
 import RecentAchievement from "./RecentAchievement";
 import QuickActions from "./QuickActions";
-import CoachTodayCard from "@/components/coach/CoachTodayCard";
 import { useSkillStateWithStatus } from "@/hooks/useSkillState";
 import { resolveUserName } from "@/lib/profileName";
 
@@ -48,6 +47,9 @@ export default function MissionControl({
   const { lang, t } = useAppLang();
   const s = DASH_STR[lang] || DASH_STR.en;
   const [xpRecord, setXpRecord] = useState(null);
+  // Comeback Card state (server streak + XP). Once loaded it is the ONE source
+  // for the streak shown anywhere on Home, so two different numbers never show.
+  const [comeback, setComeback] = useState(null);
 
   useEffect(() => {
     if (!user) return;
@@ -80,8 +82,8 @@ export default function MissionControl({
     }, 0);
     const totalCorrect = (results || []).reduce((a, r) => a + (r.score || 0), 0);
     const totalQuizzes = (results || []).length;
-    const streak = computeStreak(results);
-    const xp = xpRecord?.coins || 0;
+    const streak = comeback ? comeback.streak.current : computeStreak(results);
+    const xp = comeback ? comeback.xp : xpRecord?.coins || 0;
     return {
       wordsCorrectToday,
       quizzesToday,
@@ -91,7 +93,7 @@ export default function MissionControl({
       streak,
       xp,
     };
-  }, [results, xpRecord]);
+  }, [results, xpRecord, comeback]);
 
   const greeting = s[getGreetingKey()];
   // The student's own display_name, falling back to a provider-supplied
@@ -108,12 +110,9 @@ export default function MissionControl({
   // entity with real per-round day history — Skill Hub's own "quiz" game
   // writes there too, so it still tracks real activity, just not the full
   // Skill Hub picture yet.
-  const missions = [
-    { id: "play", label: t("dashboard.missionPlay"), icon: "Zap", progress: skillHubToday.playedToday ? 1 : 0, target: 1, done: skillHubToday.playedToday },
-    { id: "variety", label: t("dashboard.missionVariety"), icon: "BookOpen", progress: Math.min(skillHubToday.skillsToday, 2), target: 2, done: skillHubToday.skillsToday >= 2 },
-    { id: "score", label: t("dashboard.missionScore"), icon: "Target", progress: Math.min(Math.round(skillHubToday.bestToday), 80), target: 80, done: skillHubToday.bestToday >= 80 },
-    { id: "streak", label: t("dashboard.missionStreak"), icon: "Flame", progress: data.streak > 0 ? 1 : 0, target: 1, done: data.streak > 0 },
-  ];
+  // Comeback Revamp (2026-11-10): Today's Mission moved into ComebackCard as
+  // server-side daily missions that pay XP (progressApi.claimMission).
+  void skillHubToday;
 
   // AI Coach card removed for now (see project handoff doc) — to be
   // rebuilt alongside the SRS system for reminders/active suggestions.
@@ -149,13 +148,10 @@ export default function MissionControl({
         )}
       </div>
 
-      <CoachTodayCard />
+      <ComebackCard onState={setComeback} />
       {homeworkSlot}
       <HeroCard accent={ACCENT} accentGlow={ACCENT_GLOW} onContinue={onContinue} skillStates={skillState?.skills ?? null} skillStateError={skillStateError} />
       <FreeLessonCard />
-      <div data-tour="missions">
-        <MissionsCard missions={missions} accent={ACCENT} accentGlow={ACCENT_GLOW} />
-      </div>
       <ProgressSnapshot totalCorrect={data.totalCorrect} streak={data.streak} xp={data.xp} />
       <RecentAchievement achievement={achievement} />
       <QuickActions onNavigate={onNavigate} accent={ACCENT} />
