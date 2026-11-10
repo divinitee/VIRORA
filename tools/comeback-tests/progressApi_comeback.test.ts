@@ -30,19 +30,23 @@ Deno.test('after learning yesterday + today: streak 2, claim pays once', async (
   const s = await call('getComeback');
   eq([s.streak.current, s.streak.today_done, s.today], [2, true, dayKey(Date.now())], 'streak');
   const m = Object.fromEntries(s.missions.map((x: any) => [x.id, x]));
-  eq([m.show_up.done, m.score_80.done, m.correct_20.progress], [true, true, 9], 'missions');
+  eq([m.show_up.done, m.answer_20.done, m.correct_15.done, m.correct_15.progress], [true, false, false, 9], 'missions');
+  eq([s.bonuses.map((b: any) => b.id), s.next_bonus.day], [['streak_2'], 3], 'day-2 bonus is waiting');
 
   const c1 = await call('claimMission', { mission_id: 'show_up' });
   eq([c1.ok, c1.amount, c1.duplicate, c1.xp], [true, 50, false, 150], 'paid 50');
   const c2 = await call('claimMission', { mission_id: 'show_up' });
   eq([c2.ok, c2.amount, c2.duplicate, c2.xp], [true, 0, true, 150], 'second claim pays nothing');
   // racing claims: only one pays
-  const [a, b] = await Promise.all([call('claimMission', { mission_id: 'score_80' }), call('claimMission', { mission_id: 'score_80' })]);
-  eq([a.amount + b.amount], [50], 'race pays once');
+  const [a, b] = await Promise.all([call('claimMission', { mission_id: 'streak_2' }), call('claimMission', { mission_id: 'streak_2' })]);
+  eq([a.amount + b.amount], [100], 'streak bonus race pays once');
+  const early = await call('claimMission', { mission_id: 'streak_3' });
+  eq(early.code, 'mission_not_done', 'day-3 bonus not reached yet');
   const after = await call('getComeback');
-  eq(after.xp, 200, 'balance 100 + 50 + 50');
+  eq(after.xp, 250, 'balance 100 + 50 + 100');
   eq(E.RewardEvent.rows.filter((r) => r.game === 'mission').length, 2, 'two mission ledger rows');
   eq(E.RewardEvent.rows.every((r) => r.coins_state === 'applied' && r.ledger_version === 2), true, 'ledger rows applied, v2');
   eq(after.streak.current, 2, 'claims did not change the streak');
-  eq(after.missions.find((x: any) => x.id === 'correct_20').claimed, false, 'unfinished mission unclaimed');
+  eq(after.missions.find((x: any) => x.id === 'correct_15').claimed, false, 'unfinished mission unclaimed');
+  eq(after.bonuses.length, 0, 'claimed bonus is gone');
 });
