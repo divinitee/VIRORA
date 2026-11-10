@@ -1,7 +1,7 @@
 # Comeback tests (Comeback Revamp Phase 1, 2026-11-10)
 
 ```bash
-# day log, streaks, missions, admin tracker ignores mission claims
+# day log, streaks, effort missions, streak bonuses, reminder targeting, admin tracker ignores claims
 deno test -A --no-check tools/comeback-tests/comebackCore.test.mjs
 # the REAL progressApi entry (SDK mocked): getComeback + claimMission, exactly-once XP incl. a race
 deno test -A --no-check --import-map=tools/comeback-tests/import_map.json tools/comeback-tests/progressApi_comeback.test.ts
