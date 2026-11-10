@@ -4928,8 +4928,8 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@base44/sdk@~0.8.57",
-        "npm:@base44/vite-plugin@^1.0.50",
+        "npm:@base44/sdk@~0.8.59",
+        "npm:@base44/vite-plugin@^1.0.52",
         "npm:@eslint/js@^9.19.0",
         "npm:@fontsource/albert-sans@^5.3.0",
         "npm:@fontsource/barlow@^5.3.0",
