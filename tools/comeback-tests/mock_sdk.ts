@@ -33,7 +33,7 @@ export class Ent {
   }
 }
 export const world: { entities: Record<string, Ent>; me: any } = { entities: {}, me: null };
-for (const n of ['RoundReceipt', 'AssessmentResult', 'UserCoins', 'RewardEvent']) world.entities[n] = new Ent(n);
+for (const n of ['RoundReceipt', 'AssessmentResult', 'UserCoins', 'RewardEvent', 'SkillState']) world.entities[n] = new Ent(n);
 export function createClientFromRequest(_req: Request) {
   return { auth: { me: async () => { if (!world.me) throw new Error('401'); return { ...world.me }; } }, asServiceRole: { entities: world.entities } };
 }

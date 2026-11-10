@@ -50,3 +50,16 @@ Deno.test('after learning yesterday + today: streak 2, claim pays once', async (
   eq(after.missions.find((x: any) => x.id === 'correct_15').claimed, false, 'unfinished mission unclaimed');
   eq(after.bonuses.length, 0, 'claimed bonus is gone');
 });
+
+Deno.test('soft landing: two low rounds switch ease on, two good rounds switch it off', async () => {
+  world.me = { id: 'u2', email: 'weak@x', role: 'user' };
+  const add = (credit: number, minsAgo: number) => E.RoundReceipt.create({ user_email: 'weak@x', round_id: `w-${minsAgo}`, kind: 'evidence', status: 'done', round_at: new Date(Date.now() - minsAgo * 60000).toISOString(), items_total: 12, items_credit: credit });
+  await add(4, 50);
+  eq((await call('getSkillState')).ease.on, false, 'one low round: not yet');
+  await add(3, 40);
+  eq((await call('getSkillState')).ease.on, true, 'two low rounds: eased');
+  await add(10, 30);
+  eq((await call('getSkillState')).ease.on, true, 'one good round: still eased');
+  await add(9, 20);
+  eq((await call('getSkillState')).ease.on, false, 'two good rounds: back to normal');
+});

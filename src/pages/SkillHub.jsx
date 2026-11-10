@@ -38,14 +38,15 @@ import { useAppLang } from "@/hooks/useAppLang";
 import { getRandomChallenge } from "@/lib/skillTreeData";
 import { levelOf, difficultyFor, wordsForLevel, cognitiveDemandForLevel, nextLevelDown } from "@/lib/levels";
 
+import { resolveUserNameOrEmail } from "@/lib/profileName";
+import { hasDiagnostic, resolveSkillEntry } from "@/lib/skillDiagnostics";
+
 // Soft landing (base44/shared/easeCore.js, 2026-11-10). uz/ru are drafts.
 const EASE_COPY = {
   en: { title: "Easier words for now", body: "The last rounds were tough, so your games now use easier words and shorter rounds. Score 70% or more in two rounds and you're back to your level.", cta: "Play an easy round" },
   uz: { title: "Hozircha osonroq so'zlar", body: "Oxirgi raundlar qiyin bo'ldi, shuning uchun o'yinlarda hozircha osonroq so'zlar va qisqaroq raundlar chiqadi. Ikki raundda 70% yoki undan yuqori natija ko'rsating va o'z darajangizga qaytasiz.", cta: "Oson raundni o'ynash" },
   ru: { title: "Пока слова попроще", body: "Последние раунды были трудными, поэтому в играх сейчас слова попроще и раунды короче. Наберите 70% и больше в двух раундах — и вернётесь на свой уровень.", cta: "Сыграть лёгкий раунд" },
 };
-import { resolveUserNameOrEmail } from "@/lib/profileName";
-import { hasDiagnostic, resolveSkillEntry } from "@/lib/skillDiagnostics";
 
 /* ---------- Page ---------- */
 
