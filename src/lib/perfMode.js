@@ -11,6 +11,7 @@
 //   1. ?perf=lite / ?perf=full in the URL (remembered) - manual override
 //   2. a remembered decision from an earlier visit
 //   3. the browser says so: Data Saver on, 4 GB of RAM or less, 4 CPU cores or fewer
+//      (cores are ignored on iPhone/iPad, which under-report them)
 //   4. the device proves it: a short frame-rate probe after load (probePerf);
 //      if frames really are slow, lite switches on and is remembered
 // A capable device (the Mac, a flagship phone running smoothly) never changes.
@@ -18,12 +19,14 @@
 const KEY = "virora_perf";
 
 /** Pure decision from what the browser reports. Returns "lite" | "full" | null (undecided: probe). */
-export function decidePerf({ param, stored, saveData, deviceMemory, cores } = {}) {
+export function decidePerf({ param, stored, saveData, deviceMemory, cores, appleMobile } = {}) {
   if (param === "lite" || param === "full") return param;
   if (stored === "lite" || stored === "full") return stored;
   if (saveData === true) return "lite";
   if (typeof deviceMemory === "number" && deviceMemory <= 4) return "lite";
-  if (typeof cores === "number" && cores > 0 && cores <= 4) return "lite";
+  // iPhones/iPads under-report their cores (privacy), so the core count says
+  // nothing there: they are judged by the frame-rate probe instead.
+  if (!appleMobile && typeof cores === "number" && cores > 0 && cores <= 4) return "lite";
   return null;
 }
 
@@ -46,6 +49,7 @@ function read() {
     saveData: nav.connection?.saveData,
     deviceMemory: nav.deviceMemory,
     cores: nav.hardwareConcurrency,
+    appleMobile: /iPhone|iPad|iPod/.test(nav.userAgent || "") || (nav.platform === "MacIntel" && nav.maxTouchPoints > 1),
   });
   if (param === "lite" || param === "full") { try { localStorage.setItem(KEY, param); } catch { /* ignore */ } }
   return { mode: decision || "full", decided: decision !== null };

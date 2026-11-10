@@ -6,6 +6,7 @@ eq(decidePerf({ cores: 6 }), null, 'flagship phone (6 cores, no memory hint) is 
 eq(decidePerf({ deviceMemory: 4, cores: 8 }), 'lite', 'budget Android: 8 slow cores, 4 GB');
 eq(decidePerf({ deviceMemory: 2, cores: 8 }), 'lite', '2 GB phone');
 eq(decidePerf({ cores: 4 }), 'lite', 'old quad-core laptop');
+eq(decidePerf({ cores: 4, appleMobile: true }), null, 'iPhone reporting 4 cores is judged by the frame probe, not the core count');
 eq(decidePerf({ saveData: true, deviceMemory: 8, cores: 8 }), 'lite', 'Data Saver on');
 eq(decidePerf({ stored: 'full', deviceMemory: 2 }), 'full', 'a remembered choice wins over the heuristic');
 eq(decidePerf({ param: 'lite', stored: 'full' }), 'lite', '?perf= wins over everything');
