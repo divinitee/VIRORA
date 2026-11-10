@@ -1,4 +1,5 @@
 import React from "react";
+import { PERF_LITE } from "@/lib/perfMode";
 import { motion, AnimatePresence } from "framer-motion";
 import { Sparkles } from "lucide-react";
 import { PULSE_PHASES } from "@/lib/skillTreeData";
@@ -9,7 +10,8 @@ import { PULSE_PHASES } from "@/lib/skillTreeData";
 // it. Behaviour is identical to what Vocabulary shipped with.
 
 export const EASE = [0.16, 1, 0.3, 1]; // premium ease-out-expo — slow, smooth settle
-export const RM = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+// Reduced motion: the OS setting, or lite mode on a weak device (src/lib/perfMode.js).
+export const RM = PERF_LITE || (typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
 
 export function StreamPulses({ color, x, y, filterId }) {
   return PULSE_PHASES.map((p, i) => (

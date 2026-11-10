@@ -20,6 +20,8 @@ import ActivityTracker from '@/components/ActivityTracker';
 import LaunchExperience from '@/components/LaunchExperience';
 import AnimationSettingsProvider from '@/components/animation/AnimationSettingsProvider';
 import { Suspense } from 'react';
+import { MotionConfig } from 'framer-motion';
+import { PERF_LITE } from '@/lib/perfMode';
 import { lazyPage } from '@/lib/lazyPage';
 // VT-39 (Claude, 2026-11-03): every page used to ship in ONE 3.1 MB bundle
 // that phones had to download and parse before anything showed. Pages now
@@ -156,6 +158,8 @@ const AuthenticatedApp = () => {
 function App() {
 
   return (
+    // Lite mode (weak devices): framer-motion skips transform animations.
+    <MotionConfig reducedMotion={PERF_LITE ? "always" : "user"}>
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <AuthProvider>
         <QueryClientProvider client={queryClientInstance}>

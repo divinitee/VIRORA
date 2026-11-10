@@ -452,3 +452,44 @@
 @media (prefers-reduced-motion: reduce) {
   .vr-sheen, .vr-spin-slow, .vr-spin-xslow, .vr-breathe, .vr-twinkle, .vr-rise, .vr-scan, .vr-pulse-violet { animation: none; }
 }
+
+/* Lite mode for weak devices (VT-39 round 3, 2026-11-10). Set by
+   src/lib/perfMode.js as <html data-perf="lite">. Keeps layout, colours and
+   every feature; removes only what costs frames. A capable device never gets
+   this attribute, so its look is unchanged. */
+html[data-perf="lite"] *,
+html[data-perf="lite"] *::before,
+html[data-perf="lite"] *::after {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+html[data-perf="lite"] .neo-bloom,
+html[data-perf="lite"] .neo-float,
+html[data-perf="lite"] .animate-neo-float,
+html[data-perf="lite"] .animate-neo-breathe,
+html[data-perf="lite"] .skill-border-glow,
+html[data-perf="lite"] .skill-hover-pulse,
+html[data-perf="lite"] .medal-shine::before,
+html[data-perf="lite"] .mission-sweep::after,
+html[data-perf="lite"] .hero-continue,
+html[data-perf="lite"] .skill-beam,
+html[data-perf="lite"] .hub-glow-pulse,
+html[data-perf="lite"] .hub-drift,
+html[data-perf="lite"] .hub-line,
+html[data-perf="lite"] .hub-ambient,
+html[data-perf="lite"] .vt-glisten,
+html[data-perf="lite"] .vt-firefly,
+html[data-perf="lite"] .vt-spark,
+html[data-perf="lite"] .vr-sheen,
+html[data-perf="lite"] .vr-spin-slow,
+html[data-perf="lite"] .vr-spin-xslow,
+html[data-perf="lite"] .vr-breathe,
+html[data-perf="lite"] .vr-twinkle,
+html[data-perf="lite"] .vr-rise,
+html[data-perf="lite"] .vr-scan,
+html[data-perf="lite"] .vr-pulse-violet {
+  animation: none !important;
+}
+/* Same choices the reduced-motion block makes for the Skill Hub tree. */
+html[data-perf="lite"] .tree-bloom { display: none; }
+html[data-perf="lite"] .hub-node.dim { filter: none; }

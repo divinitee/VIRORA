@@ -1,9 +1,12 @@
 import React, { useEffect, useRef } from "react";
+import { PERF_LITE } from "@/lib/perfMode";
 
 export default function ParticleBackground() {
   const canvasRef = useRef(null);
 
   useEffect(() => {
+    // Lite mode (weak devices): no particle canvas at all.
+    if (PERF_LITE) return;
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
@@ -47,11 +50,21 @@ export default function ParticleBackground() {
     };
     draw();
 
+    // Don't burn battery drawing particles nobody can see.
+    const onVisibility = () => {
+      cancelAnimationFrame(animId);
+      if (!document.hidden) draw();
+    };
+    document.addEventListener("visibilitychange", onVisibility);
+
     return () => {
       cancelAnimationFrame(animId);
       window.removeEventListener("resize", resize);
+      document.removeEventListener("visibilitychange", onVisibility);
     };
   }, []);
+
+  if (PERF_LITE) return null;
 
   return (
     <canvas
