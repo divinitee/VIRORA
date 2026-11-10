@@ -22,7 +22,9 @@ function writeSkillCache(email, data) {
   if (!email || !data?.skills) return;
   const prev = readSkillCache(email);
   if (prev?.computed_at && data.computed_at && data.computed_at < prev.computed_at) return;
-  const next = { email, skills: data.skills, overall: data.overall, computed_at: data.computed_at || null, today: data.today ?? prev?.today ?? null,
+  const next = { email, skills: data.skills, overall: data.overall, computed_at: data.computed_at || null, // A freshly recorded round (submitEvidence, not a duplicate) means the
+    // student has played today, even though that response carries no `today`.
+    today: data.today ?? (prev?.today && data.duplicate === false ? { ...prev.today, playedToday: true } : prev?.today ?? null),
     // Soft landing (base44/shared/easeCore.js). Kept when a response omits it.
     ease: data.ease ?? prev?.ease ?? null };
   try {
