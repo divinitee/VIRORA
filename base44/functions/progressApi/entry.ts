@@ -12,6 +12,19 @@ import { rebuildLeafStates, verifyLeafStates } from '../../shared/leafStateEngin
 import { applyRound as coachApplyRound } from '../../shared/coachEngine.ts';
 import { applyOwnEvent, reconcilePending } from '../../shared/coinLedger.js';
 import { comebackState, claimTarget, dayKey, addDays, dayStartMs, MISSION_GAME } from '../../shared/comebackCore.js';
+import { easeFrom, EASE_WINDOW } from '../../shared/easeCore.js';
+
+// Soft landing (shared/easeCore.js): two low rounds in a row -> easier words in
+// the Skill Hub until two good rounds in a row. Replayed from the last rounds.
+async function easeOf(svc: any, email: string) {
+  try {
+    const recent = (await svc.RoundReceipt.filter({ user_email: email, kind: 'evidence', status: 'done' }, '-round_at', EASE_WINDOW)) || [];
+    return easeFrom(recent);
+  } catch (e) {
+    console.error('ease read failed (ignored)', e);
+    return { on: false, lows: 0, highs: 0 };
+  }
+}
 
 // progressApi (VT-6, corrected 2026-09-29). Progress and rewards are separate:
 //   submitEvidence  a round's per-item evidence -> item ledger -> SkillState.
@@ -154,7 +167,7 @@ async function submitEvidence(svc: any, me: any, body: any) {
       }, { fsrsLib: tsfsrs });
     } catch (e) { console.error('coach applyRound failed (ignored)', e); }
   }
-  return { duplicate: false, reward, observed_pct: Math.round((100 * credit) / total), verification: g.verification, ...(await readSkillStates(svc, me.email)) };
+  return { duplicate: false, reward, observed_pct: Math.round((100 * credit) / total), verification: g.verification, ...(await readSkillStates(svc, me.email)), ease: await easeOf(svc, me.email) };
 }
 
 async function awardVerifiedRound(svc: any, me: any, r: any) {
@@ -195,7 +208,7 @@ async function getSkillState(svc: any, me: any, body: any) {
   const today = (await svc.RoundReceipt.filter({ user_email: me.email, kind: 'evidence', status: 'done', created_date: { $gte: since } }, '-created_date', 200)) || [];
   const skillsToday = new Set(today.map((e: any) => e.skill).filter(Boolean));
   const bestToday = today.reduce((m: number, e: any) => Math.max(m, e.items_total ? Math.round((100 * e.items_credit) / e.items_total) : 0), 0);
-  return { ...state, today: { playedToday: today.length > 0, skillsToday: skillsToday.size, bestToday } };
+  return { ...state, today: { playedToday: today.length > 0, skillsToday: skillsToday.size, bestToday }, ease: await easeOf(svc, me.email) };
 }
 
 async function allLearners(svc: any) {
