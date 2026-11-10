@@ -11,7 +11,7 @@ import { freshnessFor } from '../../shared/progressCore.js';
 import { rebuildLeafStates, verifyLeafStates } from '../../shared/leafStateEngine.ts';
 import { applyRound as coachApplyRound } from '../../shared/coachEngine.ts';
 import { applyOwnEvent, reconcilePending } from '../../shared/coinLedger.js';
-import { comebackState, dayKey, addDays, dayStartMs, MISSIONS, MISSION_GAME, missionRoundId } from '../../shared/comebackCore.js';
+import { comebackState, claimTarget, dayKey, addDays, dayStartMs, MISSION_GAME } from '../../shared/comebackCore.js';
 
 // progressApi (VT-6, corrected 2026-09-29). Progress and rewards are separate:
 //   submitEvidence  a round's per-item evidence -> item ledger -> SkillState.
@@ -321,18 +321,18 @@ async function getComeback(svc: any, me: any) {
   return await loadComeback(svc, me);
 }
 
-// Pays one finished mission's XP, once per mission per Tashkent day. Done-ness
-// is recomputed here from server rows; the client only names the mission.
+// Pays one finished mission's XP (once per mission per Tashkent day) or one
+// reached streak bonus (once per streak run). Done-ness is recomputed here
+// from server rows; the client only names what it wants to claim.
 async function claimMission(svc: any, me: any, body: any) {
   const id = str(body.mission_id, 40);
-  const def = MISSIONS.find((m) => m.id === id);
-  if (!def) throw new ApiError(400, 'unknown_mission');
   const now = Date.now();
   const state = await loadComeback(svc, me, now);
-  const m = state.missions.find((x: any) => x.id === id);
-  if (!m?.done) throw new ApiError(409, 'mission_not_done');
-  if (m.claimed) return { duplicate: true, amount: 0, ...state };
-  const round_id = missionRoundId(state.today, id);
+  const def = claimTarget(state, id);
+  if (!def) throw new ApiError(400, 'unknown_mission');
+  if (!def.done) throw new ApiError(409, 'mission_not_done');
+  if (def.claimed) return { duplicate: true, amount: 0, ...state };
+  const round_id = def.round_id;
   const receipt = await claimRound(svc, me.email, round_id, 'reward');
   if (!receipt) return { duplicate: true, amount: 0, ...(await loadComeback(svc, me)) };
   const ev = await svc.RewardEvent.create({
