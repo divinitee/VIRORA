@@ -62,8 +62,10 @@ function methodOf(sub: any, approvedQr: boolean) {
   return isRealPlan(sub) && !sub.is_trial ? 'manual' : null;
 }
 
-export const subView = (s: any) => s && ({
-  id: s.id, plan: s.plan || '', status: s.status || '', kind: subscriptionKind(s), billing_cycle: s.billing_cycle || '',
+// `now` is the handler's clock (ctx.now), so every action in one request
+// judges expiry at the same instant (and tests with a fixed clock don't rot).
+export const subView = (s: any, now: number = Date.now()) => s && ({
+  id: s.id, plan: s.plan || '', status: s.status || '', kind: subscriptionKind(s, now), billing_cycle: s.billing_cycle || '',
   expires_at: s.expires_at || '', is_trial: !!s.is_trial, provider: s.provider || '', cancelled_at: s.cancelled_at || '',
   paused_at: s.paused_at || '', paused_days_remaining: s.paused_days_remaining ?? null, paid_since: s.paid_since || '',
   referral_code: s.referral_code || '', teacher_id: s.teacher_id || '', teacher_name: s.teacher_name || '',
@@ -116,7 +118,7 @@ export async function studentsList(ctx: any) {
       level: u.cefr_level || '',
       joined_at: u.created_date || '',
       last_active_at: lastMs ? new Date(lastMs).toISOString() : null,
-      sub: subView(sub),
+      sub: subView(sub, ctx.now),
       sub_count: mine.length,
       group: g ? { code: g.code, label: g.label || g.code, teacher_name: g.teacher_name || '', teacher_id: g.teacher_id } : (sub?.referral_code ? { code: sub.referral_code, label: sub.referral_code, teacher_name: sub.teacher_name || '', teacher_id: sub.teacher_id || '', missing: true } : null),
       method: methodOf(sub, qrApproved.has(u.id)),
@@ -124,7 +126,7 @@ export async function studentsList(ctx: any) {
   });
 
   // Subscription rows whose account no longer exists (deleted users, typos).
-  const orphans = subs.filter((s: any) => !claimed.has(s.id)).map((s: any) => ({ ...subView(s), email: normEmail(s.phone), name: s.student_name || '' }));
+  const orphans = subs.filter((s: any) => !claimed.has(s.id)).map((s: any) => ({ ...subView(s, ctx.now), email: normEmail(s.phone), name: s.student_name || '' }));
 
   const groupOptions = groups
     .filter((g: any) => g.group_status !== 'ended')
@@ -174,7 +176,7 @@ export async function studentDetail(ctx: any) {
       joined_at: user.created_date || '', trial_used_at: user.trial_used_at || '', heard_about_us: user.heard_about_us || '',
       classroom_code: user.classroom_code || '',
     },
-    subscription: subView(sub),
+    subscription: subView(sub, ctx.now),
     other_subscriptions: subs.filter((s: any) => s.id !== sub?.id).map(subView),
     payments: (payments || []).map((p: any) => ({
       id: p.id, plan: p.plan, billing_cycle: p.billing_cycle, amount_uzs: p.amount_uzs, payment_code: p.payment_code,
@@ -214,7 +216,7 @@ export async function studentAction(ctx: any) {
   const today = new Date(now).toISOString().slice(0, 10);
   const needSub = () => { if (!sub) throw new AuthError(409, 'no_subscription'); };
   const notCard = () => { if (isLiveCardSub(sub)) throw new AuthError(409, 'card_managed_by_dodo'); };
-  const wrongState = () => { throw new AuthError(409, 'wrong_state', { kind: subscriptionKind(sub) }); };
+  const wrongState = () => { throw new AuthError(409, 'wrong_state', { kind: subscriptionKind(sub, now) }); };
 
   let patch: Record<string, unknown>;
   let group: any = null;
@@ -275,7 +277,7 @@ export async function studentAction(ctx: any) {
     }
     case 'reactivate': {
       needSub(); notCard();
-      const kind = subscriptionKind(sub);
+      const kind = subscriptionKind(sub, now);
       if (kind !== 'cancelled' && kind !== 'ending') wrongState();
       patch = reactivatePatch(sub, now, note);
       details = kind === 'ending' ? 'Scheduled cancellation removed' : `Reactivated until ${patch.expires_at}`;
@@ -333,5 +335,5 @@ export async function studentAction(ctx: any) {
     after: patch,
     details: `${normEmail(user.email)}: ${details}${note ? ` · note: ${note}` : ''}`,
   });
-  return { subscription: subView({ ...(sub || {}), ...(row || {}), ...patch }) };
+  return { subscription: subView({ ...(sub || {}), ...(row || {}), ...patch }, now) };
 }
