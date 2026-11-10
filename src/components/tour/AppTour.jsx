@@ -17,7 +17,9 @@ import { TOUR_COPY } from "./tourCopy";
 // - Each step names the Home tab it lives on; the tour switches tabs so the
 //   student sees the real screen behind the spotlight.
 
-export const TOUR_VERSION = "v1";
+// v2 (Comeback Revamp, 2026-11-10): new Home card. Bumped so every student
+// sees the short tour once more at the relaunch.
+export const TOUR_VERSION = "v2";
 export const START_TOUR_EVENT = "virora:start-tour";
 const doneKey = (email) => `virora_tour_${TOUR_VERSION}_done_${email || "anon"}`;
 
@@ -33,8 +35,9 @@ export function startAppTour() {
 
 const STEPS = [
   { id: "welcome", tab: "home" },
-  { id: "home", tab: "home", target: "nav-home" },
+  { id: "today", tab: "home", target: "today-start" },
   { id: "missions", tab: "home", target: "missions" },
+  { id: "home", tab: "home", target: "nav-home" },
   { id: "skillhub", tab: "skillhub", target: "nav-skillhub" },
   { id: "stage", tab: "skillhub", target: "skill-stage" },
   { id: "toolbar", tab: "skillhub", target: "hub-toolbar" },
