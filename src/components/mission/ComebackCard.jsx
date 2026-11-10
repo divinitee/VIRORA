@@ -1,37 +1,45 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Flame, Play, ArrowRight, Check, Star, Zap, Target, Loader2 } from "lucide-react";
+import { Flame, Play, ArrowRight, Check, Star, Zap, Target, Loader2, Gift } from "lucide-react";
 import { coachApi, progressApi } from "@/lib/serverApi";
 import { useAppLang } from "@/hooks/useAppLang";
 import { COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
 
-// Comeback Card (Comeback Revamp Phase 1, Claude 2026-11-10). The top of Home:
-// one clear "do this now", a daily streak, and three daily missions that pay
-// XP. Replaces the separate Coach card and Today's Mission card, so a student
-// opening the app sees ONE thing to do instead of a wall of options.
+// Comeback Card (Comeback Revamp Phase 1, Claude 2026-11-10).
+//
+// variant "home"  (default) the top of Home: streak, ONE "do this now" button,
+//                 three daily missions that pay XP, and what tomorrow earns.
+// variant "after" the same card on the Coach's Done screen, without the
+//                 button: the streak tick and "come back tomorrow for +N XP"
+//                 land at the exact moment a practice ends, which is when the
+//                 decision to return is made.
 //
 // Everything is server-side (progressApi.getComeback / claimMission), on the
 // same day log as the admin Comeback tracker: a day counts when the student
 // finishes a round or a lesson answer, on Tashkent time.
 //
-// uz/ru copy are first drafts: need Tee's native check.
+// uz/ru copy are first drafts: need a native check.
 
 const COPY = {
   en: {
     streak: (n) => (n === 1 ? "1-day streak" : `${n}-day streak`),
     noStreak: "Start your streak",
     best: (n) => `Best ${n}`,
-    todayDone: "Today's done. Your streak is safe. See you tomorrow!",
+    todayDone: "Today's done. Your streak is safe.",
     keep: (n) => `Finish one practice today to keep your ${n}-day streak.`,
     start0: "Finish one practice today to start your streak.",
+    hookTomorrow: (r, d) => `Come back tomorrow: +${r} XP for a ${d}-day streak.`,
+    hookToday: (r, d) => `Practise today: +${r} XP for a ${d}-day streak.`,
+    hookLater: (n, r) => `${n} more days in a row: +${r} XP bonus.`,
     cta: "Start today's practice",
     ctaMore: "Keep going",
     picked: (coach) => `${coach} picked it for you`,
     missions: "Daily missions",
     claim: (n) => `Claim +${n} XP`,
     claimed: (n) => `+${n} XP`,
-    m: { show_up: "Finish one practice", correct_20: "Get 20 answers right", score_80: "Score 80% or more in one round" },
+    m: { show_up: "Finish one practice", answer_20: "Answer 20 questions", correct_15: "Get 15 answers right" },
+    bonus: (d) => `${d}-day streak bonus`,
     claimFail: "Couldn't claim right now. Try again.",
     days: ["S", "M", "T", "W", "T", "F", "S"],
   },
@@ -39,16 +47,20 @@ const COPY = {
     streak: (n) => `${n} kunlik streak`,
     noStreak: "Streakni boshlang",
     best: (n) => `Eng yaxshi: ${n}`,
-    todayDone: "Bugungi mashg'ulot bajarildi. Streak saqlandi. Ertaga ko'rishguncha!",
+    todayDone: "Bugungi mashg'ulot bajarildi. Streak saqlandi.",
     keep: (n) => `${n} kunlik streakni saqlash uchun bugun bitta mashqni bajaring.`,
     start0: "Streakni boshlash uchun bugun bitta mashqni bajaring.",
+    hookTomorrow: (r, d) => `Ertaga qayting: ${d} kunlik streak uchun +${r} XP.`,
+    hookToday: (r, d) => `Bugun mashq qiling: ${d} kunlik streak uchun +${r} XP.`,
+    hookLater: (n, r) => `Yana ${n} kun ketma-ket: +${r} XP bonus.`,
     cta: "Bugungi mashg'ulotni boshlash",
     ctaMore: "Davom etish",
     picked: (coach) => `${coach} siz uchun tanladi`,
     missions: "Kunlik vazifalar",
     claim: (n) => `+${n} XP olish`,
     claimed: (n) => `+${n} XP`,
-    m: { show_up: "Bitta mashqni bajaring", correct_20: "20 ta to'g'ri javob bering", score_80: "Bitta raundda 80%+ natija" },
+    m: { show_up: "Bitta mashqni bajaring", answer_20: "20 ta savolga javob bering", correct_15: "15 ta to'g'ri javob bering" },
+    bonus: (d) => `${d} kunlik streak bonusi`,
     claimFail: "Hozir olib bo'lmadi. Qaytadan urinib ko'ring.",
     days: ["Ya", "Du", "Se", "Ch", "Pa", "Ju", "Sh"],
   },
@@ -56,24 +68,38 @@ const COPY = {
     streak: (n) => `Серия: ${n} дн.`,
     noStreak: "Начните серию",
     best: (n) => `Рекорд: ${n}`,
-    todayDone: "На сегодня всё. Серия сохранена. До завтра!",
+    todayDone: "На сегодня всё. Серия сохранена.",
     keep: (n) => `Выполните одну практику сегодня, чтобы сохранить серию в ${n} дн.`,
     start0: "Выполните одну практику сегодня, чтобы начать серию.",
+    hookTomorrow: (r, d) => `Возвращайтесь завтра: +${r} XP за серию в ${d} дн.`,
+    hookToday: (r, d) => `Позанимайтесь сегодня: +${r} XP за серию в ${d} дн.`,
+    hookLater: (n, r) => `Ещё ${n} дн. подряд: бонус +${r} XP.`,
     cta: "Начать практику на сегодня",
     ctaMore: "Продолжить",
     picked: (coach) => `${coach} подобрала её для вас`,
     missions: "Задания дня",
     claim: (n) => `Забрать +${n} XP`,
     claimed: (n) => `+${n} XP`,
-    m: { show_up: "Выполните одну практику", correct_20: "Дайте 20 правильных ответов", score_80: "Наберите 80%+ в одном раунде" },
+    m: { show_up: "Выполните одну практику", answer_20: "Ответьте на 20 вопросов", correct_15: "Дайте 15 правильных ответов" },
+    bonus: (d) => `Бонус за серию в ${d} дн.`,
     claimFail: "Сейчас не получилось. Попробуйте ещё раз.",
     days: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
   },
 };
 
-const MISSION_ICONS = { show_up: Flame, correct_20: Zap, score_80: Target };
+const MISSION_ICONS = { show_up: Flame, answer_20: Zap, correct_15: Target };
 
-export default function ComebackCard({ onState }) {
+// The line under the week strip: what the next practice day is worth.
+function hookLine(c, state) {
+  const nb = state?.next_bonus;
+  if (!nb) return null;
+  if (nb.days_left === 1) return state.streak.today_done ? c.hookTomorrow(nb.reward, nb.day) : c.hookToday(nb.reward, nb.day);
+  // Today not done: today's practice is one of the days still needed.
+  if (!state.streak.today_done && nb.days_left === 2) return c.hookTomorrow(nb.reward, nb.day);
+  return c.hookLater(state.streak.today_done ? nb.days_left : nb.days_left - 1, nb.reward);
+}
+
+export default function ComebackCard({ onState, variant = "home" }) {
   const navigate = useNavigate();
   const { lang } = useAppLang();
   const c = COPY[lang] || COPY.en;
@@ -83,6 +109,7 @@ export default function ComebackCard({ onState }) {
   const [claiming, setClaiming] = useState(null);
   const [claimError, setClaimError] = useState(null);
   const [burst, setBurst] = useState(null);
+  const isHome = variant === "home";
 
   const apply = useCallback((s) => { setState(s); onState?.(s); }, [onState]);
 
@@ -104,10 +131,19 @@ export default function ComebackCard({ onState }) {
     }
   };
 
+  // On the Done screen a failed load shows nothing: never block the recap.
+  if (!isHome && (failed || !state)) return null;
+
   const color = COACH_COLORS[persona] || COACH_COLORS.vira;
   const streak = state?.streak?.current || 0;
   const todayDone = !!state?.streak?.today_done;
   const status = !state ? "" : todayDone ? c.todayDone : streak > 0 ? c.keep(streak) : c.start0;
+  const hook = hookLine(c, state);
+  // Streak bonuses first: they are the reward for coming back.
+  const rows = state ? [
+    ...state.bonuses.map((b) => ({ ...b, label: c.bonus(b.day), Icon: Gift, bonus: true })),
+    ...state.missions.map((m) => ({ ...m, label: c.m[m.id] || m.id, Icon: MISSION_ICONS[m.id] || Zap })),
+  ] : [];
 
   return (
     <motion.section
@@ -116,20 +152,22 @@ export default function ComebackCard({ onState }) {
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className="relative premium-card p-5 md:p-6 overflow-hidden"
       style={{ background: `linear-gradient(160deg, ${color}22, transparent 60%)` }}
+      data-testid={`comeback-${variant}`}
     >
       {/* Streak + XP */}
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-3 min-w-0">
           <motion.span
             className={`w-12 h-12 rounded-2xl flex items-center justify-center shrink-0 ${streak > 0 ? "bg-orange-500/20" : "bg-white/5"}`}
-            animate={streak > 0 && !todayDone ? { scale: [1, 1.07, 1] } : {}}
-            transition={{ duration: 2.4, repeat: Infinity }}
+            initial={!isHome ? { scale: 0.6 } : false}
+            animate={!isHome ? { scale: [0.6, 1.25, 1] } : streak > 0 && !todayDone ? { scale: [1, 1.07, 1] } : {}}
+            transition={!isHome ? { duration: 0.7 } : { duration: 2.4, repeat: Infinity }}
           >
             <Flame className={`w-7 h-7 ${streak > 0 ? "text-orange-400" : "text-muted-foreground"}`} />
           </motion.span>
           <div className="min-w-0">
             <p className="text-xl font-bold text-foreground leading-tight">
-              {!state ? " " : streak > 0 ? c.streak(streak) : c.noStreak}
+              {!state ? " " : streak > 0 ? c.streak(streak) : c.noStreak}
             </p>
             {state?.streak?.best > 1 && <p className="text-[11px] text-muted-foreground">{c.best(state.streak.best)}</p>}
           </div>
@@ -163,45 +201,53 @@ export default function ComebackCard({ onState }) {
 
       {status && <p className="mt-3 text-sm text-muted-foreground">{status}</p>}
       {failed && !state && <p className="mt-3 text-sm text-muted-foreground">{c.start0}</p>}
+      {hook && (
+        <p data-testid="comeback-hook" className="mt-2 flex items-center gap-2 rounded-xl border border-amber-400/30 bg-amber-400/[0.08] px-3 py-2 text-sm font-semibold text-amber-200">
+          <Gift className="w-4 h-4 shrink-0" /> {hook}
+        </p>
+      )}
 
       {/* The one thing to do */}
-      <button
-        data-tour="today-start"
-        onClick={() => navigate("/coach")}
-        className="hero-continue relative mt-4 w-full h-14 rounded-2xl font-bold text-white text-base flex items-center justify-center gap-2 select-none overflow-hidden"
-        style={{ background: `linear-gradient(180deg, ${color}, ${color}bb)`, opacity: todayDone ? 0.85 : 1 }}
-      >
-        <Play className="w-5 h-5" /> {todayDone ? c.ctaMore : c.cta} <ArrowRight className="w-4 h-4 opacity-80" />
-      </button>
-      <p className="mt-1.5 text-center text-[11px] text-muted-foreground">{c.picked(COACH_NAMES[persona] || "Vira")}</p>
+      {isHome && (
+        <>
+          <button
+            data-tour="today-start"
+            onClick={() => navigate("/coach")}
+            className="hero-continue relative mt-4 w-full h-14 rounded-2xl font-bold text-white text-base flex items-center justify-center gap-2 select-none overflow-hidden"
+            style={{ background: `linear-gradient(180deg, ${color}, ${color}bb)`, opacity: todayDone ? 0.85 : 1 }}
+          >
+            <Play className="w-5 h-5" /> {todayDone ? c.ctaMore : c.cta} <ArrowRight className="w-4 h-4 opacity-80" />
+          </button>
+          <p className="mt-1.5 text-center text-[11px] text-muted-foreground">{c.picked(COACH_NAMES[persona] || "Vira")}</p>
+        </>
+      )}
 
-      {/* Daily missions */}
-      <div data-tour="missions" className="mt-5">
+      {/* Daily missions + streak bonuses */}
+      <div data-tour={isHome ? "missions" : undefined} className="mt-5">
         <div className="flex items-center justify-between mb-2.5">
           <h3 className="text-xs font-bold text-foreground uppercase tracking-wider">{c.missions}</h3>
           {state && <span className="text-[10px] text-muted-foreground tabular-nums">{state.missions.filter((m) => m.done).length}/{state.missions.length}</span>}
         </div>
         <div className="space-y-2">
           {!state && !failed && [0, 1, 2].map((i) => <div key={i} className="h-14 rounded-2xl bg-white/[0.04] animate-pulse" />)}
-          {state?.missions.map((m) => {
-            const Icon = MISSION_ICONS[m.id] || Zap;
-            const pct = Math.round((m.progress / m.target) * 100);
+          {rows.map((m) => {
+            const pct = m.bonus ? 100 : Math.round((m.progress / m.target) * 100);
             return (
-              <div key={m.id} className={`relative rounded-2xl border p-3 ${m.done ? "border-orange-400/40 bg-orange-500/[0.07]" : "border-white/10 bg-white/[0.03]"}`}>
+              <div key={m.id} className={`relative rounded-2xl border p-3 ${m.bonus ? "border-amber-400/50 bg-amber-400/[0.08]" : m.done ? "border-orange-400/40 bg-orange-500/[0.07]" : "border-white/10 bg-white/[0.03]"}`}>
                 <div className="flex items-center gap-3">
-                  <span className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${m.done ? "bg-orange-500/80" : "bg-white/5"}`}>
-                    <Icon className={`w-4 h-4 ${m.done ? "text-white" : "text-foreground"}`} />
+                  <span className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${m.bonus ? "bg-amber-400" : m.done ? "bg-orange-500/80" : "bg-white/5"}`}>
+                    <m.Icon className={`w-4 h-4 ${m.bonus ? "text-black" : m.done ? "text-white" : "text-foreground"}`} />
                   </span>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold text-foreground leading-tight">{c.m[m.id] || m.id}</p>
-                    <div className="mt-1.5 flex items-center gap-2">
-                      <div className="flex-1 h-1.5 rounded-full bg-white/10 overflow-hidden">
-                        <motion.div className="h-full rounded-full bg-orange-400" initial={{ width: 0 }} animate={{ width: `${pct}%` }} transition={{ duration: 0.6 }} />
+                    <p className="text-sm font-semibold text-foreground leading-tight">{m.label}</p>
+                    {!m.bonus && (
+                      <div className="mt-1.5 flex items-center gap-2">
+                        <div className="flex-1 h-1.5 rounded-full bg-white/10 overflow-hidden">
+                          <motion.div className="h-full rounded-full bg-orange-400" initial={{ width: 0 }} animate={{ width: `${pct}%` }} transition={{ duration: 0.6 }} />
+                        </div>
+                        <span className="text-[10px] text-muted-foreground tabular-nums shrink-0">{m.progress}/{m.target}</span>
                       </div>
-                      <span className="text-[10px] text-muted-foreground tabular-nums shrink-0">
-                        {m.id === "score_80" ? `${m.progress}%` : `${m.progress}/${m.target}`}
-                      </span>
-                    </div>
+                    )}
                   </div>
                   <div className="shrink-0 relative">
                     {m.claimed ? (
