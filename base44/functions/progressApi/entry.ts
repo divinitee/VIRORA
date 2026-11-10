@@ -11,6 +11,7 @@ import { freshnessFor } from '../../shared/progressCore.js';
 import { rebuildLeafStates, verifyLeafStates } from '../../shared/leafStateEngine.ts';
 import { applyRound as coachApplyRound } from '../../shared/coachEngine.ts';
 import { applyOwnEvent, reconcilePending } from '../../shared/coinLedger.js';
+import { comebackState, dayKey, addDays, dayStartMs, MISSIONS, MISSION_GAME, missionRoundId } from '../../shared/comebackCore.js';
 
 // progressApi (VT-6, corrected 2026-09-29). Progress and rewards are separate:
 //   submitEvidence  a round's per-item evidence -> item ledger -> SkillState.
@@ -302,7 +303,50 @@ async function reconcileCoins(svc: any, me: any) {
   return { pending: pending.length, applied, stuck };
 }
 
+// ---- Comeback (Phase 1, 2026-11-10): streak + daily missions --------------
+// Same day log as the admin Comeback tracker (shared/comebackCore.js).
+const STREAK_LOOKBACK_DAYS = 120;
+
+async function loadComeback(svc: any, me: any, now = Date.now()) {
+  const since = new Date(dayStartMs(addDays(dayKey(now), -STREAK_LOOKBACK_DAYS))).toISOString();
+  const [receipts, assessments, coins] = await Promise.all([
+    pageAll(svc.RoundReceipt, { user_email: me.email, round_at: { $gte: since } }),
+    pageAll(svc.AssessmentResult, { user_email: me.email, created_date: { $gte: since } }),
+    svc.UserCoins.filter({ user_id: me.id }, 'created_date', 1),
+  ]);
+  return { ...comebackState({ receipts, assessments, now }), xp: Number(coins?.[0]?.coins) || 0 };
+}
+
+async function getComeback(svc: any, me: any) {
+  return await loadComeback(svc, me);
+}
+
+// Pays one finished mission's XP, once per mission per Tashkent day. Done-ness
+// is recomputed here from server rows; the client only names the mission.
+async function claimMission(svc: any, me: any, body: any) {
+  const id = str(body.mission_id, 40);
+  const def = MISSIONS.find((m) => m.id === id);
+  if (!def) throw new ApiError(400, 'unknown_mission');
+  const now = Date.now();
+  const state = await loadComeback(svc, me, now);
+  const m = state.missions.find((x: any) => x.id === id);
+  if (!m?.done) throw new ApiError(409, 'mission_not_done');
+  if (m.claimed) return { duplicate: true, amount: 0, ...state };
+  const round_id = missionRoundId(state.today, id);
+  const receipt = await claimRound(svc, me.email, round_id, 'reward');
+  if (!receipt) return { duplicate: true, amount: 0, ...(await loadComeback(svc, me)) };
+  const ev = await svc.RewardEvent.create({
+    user_email: me.email, game: MISSION_GAME, round_id, ledger_version: 2,
+    amount: def.reward, base_xp: def.reward, items_correct: 0, items_total: 0,
+    coins_state: 'applying',
+  });
+  const coins_state = await applyOwnEvent(svc, me, ev);
+  await svc.RoundReceipt.update(receipt.id, { status: 'done', game: MISSION_GAME });
+  return { duplicate: false, amount: def.reward, coins_pending: coins_state !== 'applied', ...(await loadComeback(svc, me)) };
+}
+
 const ACTIONS: Record<string, (svc: any, me: any, body: any) => Promise<any>> = {
+  getComeback: (svc, me) => getComeback(svc, me), claimMission,
   getSkillMap, reconcileCoins: (svc, me) => reconcileCoins(svc, me),
   submitEvidence, submitReward, getSkillState, rebuild, verify,
   rebuildLeafStates: rebuildLeafStatesAction, verifyLeafStates: verifyLeafStatesAction,
