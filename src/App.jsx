@@ -159,7 +159,7 @@ function App() {
 
   return (
     // Lite mode (weak devices): framer-motion skips transform animations.
-    <MotionConfig reducedMotion={PERF_LITE ? "always" : "user"}>
+    <MotionConfig reducedMotion={PERF_LITE ? "always" : "never"}>
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <AuthProvider>
         <QueryClientProvider client={queryClientInstance}>
@@ -175,6 +175,7 @@ function App() {
         </QueryClientProvider>
       </AuthProvider>
     </ThemeProvider>
+    </MotionConfig>
   )
 }
 

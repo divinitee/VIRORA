@@ -41,6 +41,7 @@ import { levelOf, difficultyFor, wordsForLevel, cognitiveDemandForLevel, nextLev
 import { resolveUserNameOrEmail } from "@/lib/profileName";
 import { hasDiagnostic, resolveSkillEntry } from "@/lib/skillDiagnostics";
 import { startHerePick, START_HERE_COPY } from "@/lib/startHere";
+import { probePerf } from "@/lib/perfMode";
 
 // Soft landing (base44/shared/easeCore.js, 2026-11-10). uz/ru are drafts.
 const EASE_COPY = {
@@ -90,6 +91,8 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
   // easier words until two good rounds. The student's real level, the skill
   // tree and its locks never change. Homework is never eased.
   const ease = !!skillState?.ease?.on;
+  // VT-39: the tree is the heaviest screen; measure real frame rate here too.
+  useEffect(() => { probePerf({ delayMs: 1500 }); }, []);
 
   // Skill Hub entry gate. A skill with a diagnostic routes through its own
   // entry check instead of diving into subskills: placement complete goes to
