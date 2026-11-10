@@ -94,9 +94,8 @@ function hookLine(c, state) {
   const nb = state?.next_bonus;
   if (!nb) return null;
   if (nb.days_left === 1) return state.streak.today_done ? c.hookTomorrow(nb.reward, nb.day) : c.hookToday(nb.reward, nb.day);
-  // Today not done: today's practice is one of the days still needed.
-  if (!state.streak.today_done && nb.days_left === 2) return c.hookTomorrow(nb.reward, nb.day);
-  return c.hookLater(state.streak.today_done ? nb.days_left : nb.days_left - 1, nb.reward);
+  // days_left = practice days still needed (today counts if it isn't done yet).
+  return c.hookLater(nb.days_left, nb.reward);
 }
 
 export default function ComebackCard({ onState, variant = "home" }) {
