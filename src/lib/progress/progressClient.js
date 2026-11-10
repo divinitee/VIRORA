@@ -22,7 +22,9 @@ function writeSkillCache(email, data) {
   if (!email || !data?.skills) return;
   const prev = readSkillCache(email);
   if (prev?.computed_at && data.computed_at && data.computed_at < prev.computed_at) return;
-  const next = { email, skills: data.skills, overall: data.overall, computed_at: data.computed_at || null, today: data.today ?? prev?.today ?? null };
+  const next = { email, skills: data.skills, overall: data.overall, computed_at: data.computed_at || null, today: data.today ?? prev?.today ?? null,
+    // Soft landing (base44/shared/easeCore.js). Kept when a response omits it.
+    ease: data.ease ?? prev?.ease ?? null };
   try {
     localStorage.setItem(CACHE_KEY, JSON.stringify(next));
     localStorage.removeItem(LEGACY_KEY);
