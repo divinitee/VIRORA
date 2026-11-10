@@ -39,13 +39,13 @@ export default function HeroCard({ accent, accentGlow, onContinue, skillStates, 
             </Suspense>
           )} />
         </div>
+        {/* Comeback Revamp (2026-11-10): secondary on purpose. Home has ONE
+            primary button ("Start today's practice" on the Comeback Card). */}
         <button
           onClick={onContinue}
-          // Comeback Revamp (2026-11-10): secondary on purpose. Home has ONE
-          // primary button ("Start today's practice" on the Comeback Card).
           className="relative mt-5 w-full h-11 rounded-2xl border border-white/15 bg-white/[0.04] font-semibold text-foreground text-sm flex items-center justify-center gap-2 select-none hover:bg-white/[0.08]"
         >
-          <Play className="w-4 h-4" style={{ color: accent }} /> {t("dashboard.qaRandom") === "dashboard.qaRandom" ? t("dashboard.continue") : "Skill Hub"} <ArrowRight className="w-4 h-4 opacity-70" />
+          <Play className="w-4 h-4" style={{ color: accent }} /> Skill Hub <ArrowRight className="w-4 h-4 opacity-70" />
         </button>
       </motion.div>
     </div>
