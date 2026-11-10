@@ -19,6 +19,7 @@ import { createAnswerSender, createAnswerStore, finishWithSave } from "@/lib/coa
 import { buildRecap } from "@/lib/coach/sessionRecap";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
+import ComebackCard from "@/components/mission/ComebackCard";
 
 // VIRORA Coach (VT-40 Stage 3). One screen, five states:
 //   handoff (entitlement changed) -> onboarding (goal + minutes) -> today's plan
@@ -238,6 +239,9 @@ export default function Coach() {
   if (isDone) return (
     <Shell onBack={() => navigate("/")} right={mapBtn}>
       {deviceBanner}
+      {/* Comeback Revamp (2026-11-10): the streak tick, today's rewards and what
+          tomorrow earns, shown the moment a practice ends. */}
+      <div className="mb-4"><ComebackCard variant="after" /></div>
       <div className="premium-card rounded-[28px] p-8 text-center">
         <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
         <h1 className="text-xl font-bold text-foreground">{t("done_title")}</h1>
@@ -251,6 +255,8 @@ export default function Coach() {
         ) : (
           <>
             <p className="text-xs text-muted-foreground mt-5">{t("no_more_today")}</p>
+            {/* Not a dead end: the daily missions can be finished in Skill Hub. */}
+            <button onClick={() => navigate("/?tab=skillhub")} className="neo-pill mt-4 px-5 py-2 text-sm font-semibold">{t("free_practice")}</button>
             {upsell && <Link to="/pricing" className="block mt-4 text-sm font-semibold underline underline-offset-4" style={{ color: COACH_COLORS.velvet }}>{t("upsell")}</Link>}
           </>
         )}
