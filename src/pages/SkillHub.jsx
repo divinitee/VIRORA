@@ -40,6 +40,7 @@ import { levelOf, difficultyFor, wordsForLevel, cognitiveDemandForLevel, nextLev
 
 import { resolveUserNameOrEmail } from "@/lib/profileName";
 import { hasDiagnostic, resolveSkillEntry } from "@/lib/skillDiagnostics";
+import { startHerePick, START_HERE_COPY } from "@/lib/startHere";
 
 // Soft landing (base44/shared/easeCore.js, 2026-11-10). uz/ru are drafts.
 const EASE_COPY = {
@@ -196,6 +197,11 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
   const poolWords = useMemo(() => wordsForLevel(words, studentLevel), [words, studentLevel]);
   const easyLevel = useMemo(() => nextLevelDown(studentLevel), [studentLevel]);
   const easyWords = useMemo(() => wordsForLevel(words, easyLevel), [words, easyLevel]);
+  // VT-50.2 "Start here": one thing in front of the tree (src/lib/startHere.js).
+  const startHere = useMemo(
+    () => (skillState ? startHerePick({ playedToday: !!skillState.today?.playedToday, level: studentLevel, dayIndex: Math.floor(Date.now() / 86400000) }) : null),
+    [skillState, studentLevel],
+  );
 
   // Game callbacks are previews, not authority to persist or increase balances.
   // The reward-saved event refreshes XP after the evidence response arrives.
@@ -510,6 +516,27 @@ export default function SkillHub({ isActive = true, user = null, autoRandomToken
             </button>
           </div>
         )}
+        {!ease && !assignmentMode && startHere && (() => {
+          const sc = START_HERE_COPY[lang] || START_HERE_COPY.en;
+          const isCoach = startHere.kind === "coach";
+          return (
+            <div data-testid="start-here" className="max-w-[560px] mx-auto mb-3 rounded-2xl border border-violet-400/40 bg-violet-500/[0.08] p-4 flex items-center gap-3">
+              <div className="flex-1 min-w-0">
+                <p className="text-[11px] font-bold uppercase tracking-wider text-violet-300">{isCoach ? sc.start : sc.next}</p>
+                <p className="text-sm font-bold text-foreground truncate">
+                  {isCoach ? sc.coach : `${startHere.challenge.title} · ${startHere.challenge.time}`}
+                </p>
+                <p className="text-[11px] text-muted-foreground mt-0.5">{sc.or}</p>
+              </div>
+              <button
+                onClick={() => (isCoach ? navigate("/coach") : setActiveGame(startHere.challenge))}
+                className="h-10 px-4 rounded-xl bg-violet-500 text-white text-sm font-bold select-none shrink-0"
+              >
+                {isCoach ? sc.go : sc.play}
+              </button>
+            </div>
+          );
+        })()}
         <div data-tour="skill-stage" className="relative w-full aspect-[5/6] max-w-[560px] mx-auto min-h-[430px]">
           <SkillStage
             onPlayGame={assignmentMode ? handleAssignGame : (g) => setActiveGame(g)}
