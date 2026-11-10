@@ -17,6 +17,7 @@
 
 import { pageAll } from './adminStudents.ts';
 import { displayName } from './adminOverviewCore.ts';
+import { isMissionReceipt } from './comebackCore.js';
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 const TZ_OFFSET_MS = 5 * 60 * 60 * 1000; // Asia/Tashkent, no DST
@@ -62,7 +63,8 @@ export function computeComeback({ users, receipts, assessments, sessions, now, w
 
   const learned = new Map<string, Set<string>>();
   const opened = new Map<string, Set<string>>();
-  for (const r of receipts) mark(learned, r.user_email, Date.parse(r.round_at || r.created_date || ''));
+  // Mission XP claims (comebackCore) are rewards, not learning: never a day.
+  for (const r of receipts) if (!isMissionReceipt(r)) mark(learned, r.user_email, Date.parse(r.round_at || r.created_date || ''));
   for (const a of assessments) mark(learned, a.user_email, Date.parse(a.created_date || ''));
   for (const s of sessions) mark(opened, s.student_email, Date.parse(s.started_at || s.created_date || ''));
 
