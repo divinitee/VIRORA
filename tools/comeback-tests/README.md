@@ -1,6 +1,10 @@
 # Comeback tests (Comeback Revamp Phase 1, 2026-11-10)
 
 ```bash
+# soft landing (ease mode) rules, incl. the real students' rounds
+deno test -A --no-check tools/comeback-tests/easeCore.test.mjs
+# the REAL sendDailyReminder entry (SDK mocked)
+deno test -A --no-check --import-map=tools/comeback-tests/import_map_reminder.json tools/comeback-tests/reminder_entry.test.ts
 # day log, streaks, effort missions, streak bonuses, reminder targeting, admin tracker ignores claims
 deno test -A --no-check tools/comeback-tests/comebackCore.test.mjs
 # the REAL progressApi entry (SDK mocked): getComeback + claimMission, exactly-once XP incl. a race
