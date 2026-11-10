@@ -1,0 +1,17 @@
+import { startHerePick, gentleChallenges, GENTLE_GAMES } from '@/lib/startHere';
+const ok = (c, m) => { if (!c) { console.log('FAIL', m); process.exit(1); } console.log('PASS', m); };
+ok(startHerePick({ playedToday: false, level: 'A2' }).kind === 'coach', 'nothing done today -> the Coach');
+const pool = gentleChallenges('A2');
+ok(pool.length >= 3, `A2 has gentle games (${pool.map((p) => p.game).join(', ')})`);
+ok(pool.every((p) => GENTLE_GAMES.includes(p.game) && p.difficulty !== 'Hard'), 'only gentle, never Hard nodes');
+ok(!pool.some((p) => ['context_guess', 'related_words', 'usage'].includes(p.game)), 'never the games weak students fail');
+ok(new Set(pool.map((p) => p.game)).size === pool.length, 'one node per game');
+const a = startHerePick({ playedToday: true, level: 'A2', dayIndex: 100 });
+const b = startHerePick({ playedToday: true, level: 'A2', dayIndex: 100 });
+const c = startHerePick({ playedToday: true, level: 'A2', dayIndex: 101 });
+ok(a.kind === 'game' && a.challenge.game === b.challenge.game, 'same pick all day');
+ok(a.challenge.game !== c.challenge.game, 'a different pick tomorrow');
+ok(a.challenge.title && a.challenge.time && a.challenge.skillId === 'vocabulary', 'pick is launchable (title, time, skill)');
+const starter = gentleChallenges('Starter');
+ok(starter.length >= 1 && !starter.some((p) => p.game === 'definition_match'), 'Starter only gets what is unlocked for Starter');
+console.log('all good');
