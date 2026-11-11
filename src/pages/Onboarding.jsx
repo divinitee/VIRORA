@@ -64,8 +64,13 @@ const COPY = {
   },
 };
 
-// The Coach's goals (base44/shared/coachGraph.js GOALS). Labels come from coachCopy.
-const GOAL_IDS = ["everyday", "vocabulary", "grammar_basics"];
+// The Coach's goals (base44/shared/coachGraph.js GOALS). uz/ru labels come from
+// coachCopy; English uses the goal's own objective text, as the Coach does.
+const GOALS = [
+  { id: "everyday", objective: "Everyday English: words and grammar for daily life" },
+  { id: "vocabulary", objective: "Build my vocabulary" },
+  { id: "grammar_basics", objective: "Fix my grammar basics" },
+];
 
 function GoalStep({ onDone }) {
   const navigate = useNavigate();
@@ -106,7 +111,8 @@ function GoalStep({ onDone }) {
         <p className="text-sm text-muted-foreground mb-6">{c.sub}</p>
 
         <div className="space-y-2.5" role="radiogroup" aria-label={c.title}>
-          {GOAL_IDS.map((id) => {
+          {GOALS.map((g) => {
+            const id = g.id;
             const on = goal === id;
             return (
               <button
@@ -119,7 +125,7 @@ function GoalStep({ onDone }) {
                 <span className={`w-5 h-5 rounded-full border-2 shrink-0 flex items-center justify-center ${on ? "border-blue-500 bg-blue-500" : "border-muted-foreground/40"}`}>
                   {on && <Check className="w-3 h-3 text-white" />}
                 </span>
-                {goalLabel(t, { id })}
+                {goalLabel(t, g)}
               </button>
             );
           })}
