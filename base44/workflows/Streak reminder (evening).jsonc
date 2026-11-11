@@ -1,0 +1,43 @@
+{
+  "name": "Streak reminder (evening)",
+  "description": "VT-50.9: every evening at 19:00 Tashkent, emails students whose streak is at risk (practised yesterday, not today) and a one-time nudge 2 and 6 days after their last practice. Never emails anyone who practised today, teachers or admins. Rules: base44/shared/comebackReminder.js.",
+  "trigger": {
+    "condition": null,
+    "config": {
+      "trigger_type": "scheduled",
+      "events": [],
+      "schedule_mode": "recurring",
+      "cron_expression": "0 19 * * *",
+      "one_time_date": null,
+      "timezone": "Asia/Tashkent",
+      "interval_value": null,
+      "interval_unit": null,
+      "interval_anchor": null,
+      "ends_type": "never",
+      "ends_on_date": null,
+      "ends_after_count": null
+    }
+  },
+  "definition": {
+    "do": [
+      {
+        "run_function": {
+          "call": "invoke_backend_function",
+          "then": "end",
+          "with": {
+            "args": {
+              "dry_run": true
+            },
+            "function_name": "sendDailyReminder"
+          }
+        }
+      }
+    ],
+    "document": {
+      "dsl": "1.0.0",
+      "name": "streak_reminder_evening",
+      "namespace": "base44",
+      "version": "1.0"
+    }
+  }
+}
