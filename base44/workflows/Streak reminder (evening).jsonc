@@ -25,9 +25,7 @@
           "call": "invoke_backend_function",
           "then": "end",
           "with": {
-            "args": {
-              "dry_run": true
-            },
+            "args": {},
             "function_name": "sendDailyReminder"
           }
         }
@@ -37,7 +35,7 @@
       "dsl": "1.0.0",
       "name": "streak_reminder_evening",
       "namespace": "base44",
-      "version": "1.0"
+      "version": "1.1"
     }
   }
 }
