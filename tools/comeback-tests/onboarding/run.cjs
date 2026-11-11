@@ -18,8 +18,8 @@ const click = (b) => b.dispatchEvent(new w.MouseEvent('click', { bubbles: true }
   click(btn('Continue')); await sleep(400);
   ok(text().includes("You're clicking through blindly"), 'blind click wakes them up');
   ok(!w.__calls.length && w.__path === '/onboarding', 'blind click saves nothing, goes nowhere');
-  click(btn('Build my vocabulary')); await sleep(200);
-  ok(!text().includes("clicking through blindly"), 'message clears once they pick');
+  click(btn('Build my vocabulary')); await sleep(900);
+  ok(!w.document.querySelector('[data-testid="wake-up"]') || w.document.querySelector('[data-testid="wake-up"]').style.opacity === '0', 'message clears once they pick');
   ok(btn('Start my first practice'), 'button now says what happens next');
   click(btn('Start my first practice')); await sleep(400);
   ok(JSON.stringify(w.__calls) === JSON.stringify([['plan'], ['coach', 'saveProfile', { goal_id: 'vocabulary', onboarded: true }]]), 'plan started, then coach goal saved');

@@ -135,9 +135,9 @@ function GoalStep({ onDone }) {
           {woke && (
             <motion.p
               data-testid="wake-up"
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: "auto" }}
-              exit={{ opacity: 0, height: 0 }}
+              initial={{ opacity: 0, y: -4 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, transition: { duration: 0.15 } }}
               className="mt-4 flex gap-2 rounded-xl border border-amber-400/50 bg-amber-400/10 px-3 py-2.5 text-sm font-medium text-amber-200"
             >
               <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" /> {c.wake}
