@@ -5,6 +5,7 @@ import { Flame, Play, ArrowRight, Check, Star, Zap, Target, Loader2, Gift } from
 import { coachApi, progressApi } from "@/lib/serverApi";
 import { useAppLang } from "@/hooks/useAppLang";
 import { COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
+import { VixelIcon, vixelsFromXp, xpToNextVixel, XP_PER_VIXEL } from "@/components/economy/Vixels";
 
 // Comeback Card (Comeback Revamp Phase 1, Claude 2026-11-10).
 //
@@ -42,6 +43,9 @@ const COPY = {
     bonus: (d) => `${d}-day streak bonus`,
     claimFail: "Couldn't claim right now. Try again.",
     days: ["S", "M", "T", "W", "T", "F", "S"],
+    vxName: "Vixels",
+    vxTap: "Show Vixels",
+    vxNext: (n) => `${n} XP to your next Vixel`,
   },
   uz: {
     streak: (n) => `${n} kunlik streak`,
@@ -63,6 +67,9 @@ const COPY = {
     bonus: (d) => `${d} kunlik streak bonusi`,
     claimFail: "Hozir olib bo'lmadi. Qaytadan urinib ko'ring.",
     days: ["Ya", "Du", "Se", "Ch", "Pa", "Ju", "Sh"],
+    vxName: "Vixels",
+    vxTap: "Vixellarni ko'rsatish",
+    vxNext: (n) => `Keyingi Vixelgacha ${n} XP`,
   },
   ru: {
     streak: (n) => `Серия: ${n} дн.`,
@@ -84,6 +91,9 @@ const COPY = {
     bonus: (d) => `Бонус за серию в ${d} дн.`,
     claimFail: "Сейчас не получилось. Попробуйте ещё раз.",
     days: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+    vxName: "Vixels",
+    vxTap: "Показать Vixels",
+    vxNext: (n) => `До следующего Vixel: ${n} XP`,
   },
 };
 
@@ -108,6 +118,7 @@ export default function ComebackCard({ onState, variant = "home" }) {
   const [claiming, setClaiming] = useState(null);
   const [claimError, setClaimError] = useState(null);
   const [burst, setBurst] = useState(null);
+  const [showVx, setShowVx] = useState(false);
   const isHome = variant === "home";
 
   const apply = useCallback((s) => { setState(s); onState?.(s); }, [onState]);
@@ -172,9 +183,50 @@ export default function ComebackCard({ onState, variant = "home" }) {
           </div>
         </div>
         {state && (
-          <span className="neo-pill px-2.5 h-8 text-xs font-semibold text-amber-200 shrink-0 tabular-nums">
-            <Star className="w-3.5 h-3.5 text-amber-300" /> {state.xp.toLocaleString()} XP
-          </span>
+          <div className="flex flex-col items-end gap-1 shrink-0">
+            <div className="flex items-center gap-1.5">
+              <AnimatePresence initial={false}>
+                {showVx && (
+                  <motion.span
+                    key="vx"
+                    initial={{ opacity: 0, x: 10, scale: 0.85 }}
+                    animate={{ opacity: 1, x: 0, scale: 1 }}
+                    exit={{ opacity: 0, x: 10, scale: 0.85 }}
+                    transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+                    className="neo-pill px-2.5 h-8 text-xs font-semibold text-amber-100 tabular-nums"
+                    style={{ borderColor: "rgba(245,196,81,0.45)" }}
+                    data-testid="vixel-balance"
+                  >
+                    <VixelIcon className="w-4 h-4" title={c.vxName} /> {vixelsFromXp(state.xp).toLocaleString()}
+                  </motion.span>
+                )}
+              </AnimatePresence>
+              <button
+                type="button"
+                onClick={() => setShowVx((v) => !v)}
+                aria-expanded={showVx}
+                aria-label={c.vxTap}
+                className="neo-pill px-2.5 h-8 text-xs font-semibold text-amber-200 tabular-nums cursor-pointer transition-transform active:scale-95"
+                data-testid="xp-chip"
+              >
+                <Star className="w-3.5 h-3.5 text-amber-300" /> {state.xp.toLocaleString()} XP
+              </button>
+            </div>
+            <AnimatePresence initial={false}>
+              {showVx && (
+                <motion.p
+                  key="vx-next"
+                  initial={{ opacity: 0, y: -4 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -4 }}
+                  className="text-[10px] text-muted-foreground tabular-nums"
+                  title={`${XP_PER_VIXEL} XP = 1 Vixel`}
+                >
+                  {c.vxNext(xpToNextVixel(state.xp))}
+                </motion.p>
+              )}
+            </AnimatePresence>
+          </div>
         )}
       </div>
 
