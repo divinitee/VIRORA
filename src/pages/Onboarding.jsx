@@ -1,164 +1,170 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { Sparkles, BookOpen, MessageSquareText, TrendingUp, ChevronRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+import { Target, ArrowRight, Loader2, AlertTriangle, Check } from "lucide-react";
 import { base44 } from "@/api/base44Client";
-import { chooseFreePlan, TRIAL_DAYS, TRIAL_ENABLED } from "@/lib/subscription";
-import { PLAN_LIST, formatPrice } from "@/lib/plans";
+import { chooseFreePlan } from "@/lib/subscription";
 import ProfileSetup from "@/components/onboarding/ProfileSetup";
 import { needsProfileSetup } from "@/lib/profileStatus";
 import { useAppLang } from "@/hooks/useAppLang";
+import { coachApi } from "@/lib/serverApi";
+import { coachT, goalLabel } from "@/lib/coach/coachCopy";
 
-// Post-registration flow for students: choose a plan (with a soft nudge
-// before committing to free) -> quick tutorial -> a warm, skippable
-// placement-test suggestion. The test is no longer mandatory — it's
-// pitched on its own merits, not used as a gate.
+// Post-registration flow for students (Comeback Revamp, Tee 11 Nov 2026).
+//
+// Before: plan pitch -> "are you sure, free?" -> 3 outdated tutorial slides
+// -> "Take the placement test now" -> Home -> app tour -> Coach setup. About a
+// dozen screens before a single word, and people auto-click the blue button,
+// so most landed in a placement test they never chose (friction on day one).
+//
+// Now: ONE screen, then the first practice.
+//   - One question that matters: what do you want first? (it becomes the
+//     Coach's goal, so the Coach's own setup screen is skipped).
+//   - Tee's wake-up: the big blue button does nothing useful until an answer
+//     is picked. Clicking it blindly shakes the card and says, in the
+//     student's language, "you're clicking through blindly - signing up for
+//     what? why?". Nobody is punished; they just have to look once.
+//   - Then straight into the first practice. The app tour runs on Home
+//     afterwards, once they have done something.
+//   - The free plan / trial is started silently (no pitch before any value);
+//     the placement test is a small optional link, never the default.
+//
+// uz/ru copy are drafts for a native check.
 
-function PlanStep({ onFree, onSeePlans }) {
-  const { t } = useAppLang();
+const COPY = {
+  en: {
+    kicker: "One question before you start",
+    title: "What do you want first?",
+    sub: "Your coach builds your first practice around this.",
+    wake: "Hold on. You're clicking through blindly. Signing up to what? Why? Pick what you want first: it decides your very first practice.",
+    blank: "Continue",
+    go: "Start my first practice",
+    test: "Not sure of your level? Take a 5-minute test instead",
+    fail: "Couldn't save that. Check your connection and try again.",
+  },
+  uz: {
+    kicker: "Boshlashdan oldin bitta savol",
+    title: "Avval nimani xohlaysiz?",
+    sub: "Murabbiyingiz birinchi mashg'ulotingizni shunga qarab tuzadi.",
+    wake: "To'xtang. Siz ko'r-ko'rona bosib o'tyapsiz. Nimaga ro'yxatdan o'tyapsiz? Nima uchun? Avval nimani xohlashingizni tanlang: birinchi mashg'ulotingiz shunga bog'liq.",
+    blank: "Davom etish",
+    go: "Birinchi mashg'ulotni boshlash",
+    test: "Darajangizni bilmaysizmi? Buning o'rniga 5 daqiqalik test topshiring",
+    fail: "Saqlab bo'lmadi. Internetni tekshirib, qaytadan urinib ko'ring.",
+  },
+  ru: {
+    kicker: "Один вопрос перед стартом",
+    title: "Что вам нужно в первую очередь?",
+    sub: "Ваш коуч построит первую практику вокруг этого.",
+    wake: "Стоп. Вы кликаете не глядя. Регистрируетесь — на что? Зачем? Выберите, что вам нужно в первую очередь: от этого зависит ваша первая практика.",
+    blank: "Продолжить",
+    go: "Начать первую практику",
+    test: "Не уверены в своём уровне? Пройдите 5-минутный тест",
+    fail: "Не удалось сохранить. Проверьте интернет и попробуйте ещё раз.",
+  },
+};
+
+// The Coach's goals (base44/shared/coachGraph.js GOALS). Labels come from coachCopy.
+const GOAL_IDS = ["everyday", "vocabulary", "grammar_basics"];
+
+function GoalStep({ onDone }) {
+  const navigate = useNavigate();
+  const { lang } = useAppLang();
+  const c = COPY[lang] || COPY.en;
+  const t = coachT(lang, "vira");
+  const [goal, setGoal] = useState(null);
+  const [woke, setWoke] = useState(false);
+  const [shake, setShake] = useState(0);
+  const [busy, setBusy] = useState(false);
+  const [failed, setFailed] = useState(false);
+
+  const press = async () => {
+    if (!goal) { setWoke(true); setShake((n) => n + 1); return; }
+    setBusy(true); setFailed(false);
+    try {
+      await onDone(); // plan/trial first: the coach is resolved from the subscription
+      await coachApi("saveProfile", { goal_id: goal, onboarded: true });
+      navigate("/coach");
+    } catch (e) {
+      console.error("onboarding save failed", e);
+      setFailed(true);
+    } finally {
+      setBusy(false);
+    }
+  };
+
   return (
     <div className="flex-1 flex flex-col justify-center px-6 max-w-sm mx-auto w-full">
-      <Sparkles className="w-10 h-10 text-blue-500 mb-4" />
-      <h1 className="text-2xl font-bold text-foreground mb-2">{t("onboarding.planTitle")}</h1>
-      <p className="text-sm text-muted-foreground mb-8">{t("onboarding.planSub")}</p>
-      <button
-        onClick={onFree}
-        className="w-full h-14 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 text-white font-semibold shadow-lg mb-3 select-none"
+      <motion.div
+        key={shake}
+        animate={shake ? { x: [0, -10, 10, -7, 7, -3, 0] } : {}}
+        transition={{ duration: 0.45 }}
       >
-        {t("onboarding.startFree")}
-      </button>
-      <button
-        onClick={onSeePlans}
-        className="w-full h-12 rounded-xl border-2 border-border text-foreground font-medium select-none"
-      >
-        {t("onboarding.seePaid")}
-      </button>
-    </div>
-  );
-}
+        <Target className="w-10 h-10 text-blue-500 mb-4" />
+        <p className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground">{c.kicker}</p>
+        <h1 className="text-2xl font-bold text-foreground mt-1 mb-2">{c.title}</h1>
+        <p className="text-sm text-muted-foreground mb-6">{c.sub}</p>
 
-function ConfirmFreeStep({ onConfirm, onSeePlans }) {
-  const { t } = useAppLang();
-  return (
-    <div className="flex-1 flex flex-col justify-center px-6 max-w-sm mx-auto w-full text-center">
-      <h2 className="text-xl font-bold text-foreground mb-2">{t("onboarding.confirmTitle")}</h2>
-      <p className="text-sm text-muted-foreground mb-8">
-        {TRIAL_ENABLED
-          ? t("onboarding.confirmBodyTrial", { days: TRIAL_DAYS })
-          : t("onboarding.confirmBodyNoTrial")}
-      </p>
-      <button
-        onClick={onConfirm}
-        className="w-full h-14 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 text-white font-semibold shadow-lg mb-3 select-none"
-      >
-        {t("onboarding.confirmYes")}
-      </button>
-      <button
-        onClick={onSeePlans}
-        className="w-full h-12 rounded-xl border-2 border-border text-foreground font-medium select-none"
-      >
-        {t("onboarding.confirmShowPaid")}
-      </button>
-    </div>
-  );
-}
+        <div className="space-y-2.5" role="radiogroup" aria-label={c.title}>
+          {GOAL_IDS.map((id) => {
+            const on = goal === id;
+            return (
+              <button
+                key={id}
+                role="radio"
+                aria-checked={on}
+                onClick={() => { setGoal(id); setWoke(false); }}
+                className={`w-full text-left px-4 py-3.5 rounded-2xl border-2 text-sm font-medium flex items-center gap-3 select-none transition-colors ${on ? "border-blue-500 bg-blue-500/10 text-foreground" : woke ? "border-amber-400/70 text-foreground" : "border-border text-foreground"}`}
+              >
+                <span className={`w-5 h-5 rounded-full border-2 shrink-0 flex items-center justify-center ${on ? "border-blue-500 bg-blue-500" : "border-muted-foreground/40"}`}>
+                  {on && <Check className="w-3 h-3 text-white" />}
+                </span>
+                {goalLabel(t, { id })}
+              </button>
+            );
+          })}
+        </div>
 
-function PlansStep({ onBackToFree }) {
-  const { t } = useAppLang();
-  const paid = PLAN_LIST.filter((p) => p.id !== "free");
-  return (
-    <div className="flex-1 flex flex-col px-6 max-w-sm mx-auto w-full py-8">
-      <h2 className="text-xl font-bold text-foreground mb-5">{t("onboarding.plansTitle")}</h2>
-      <div className="space-y-3 mb-6">
-        {paid.map((p) => {
-          const Icon = p.icon;
-          return (
-            <Link
-              key={p.id}
-              to="/pricing"
-              className={`block rounded-xl border-2 ${p.border} bg-gradient-to-br ${p.color} p-4`}
+        <AnimatePresence>
+          {woke && (
+            <motion.p
+              data-testid="wake-up"
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              className="mt-4 flex gap-2 rounded-xl border border-amber-400/50 bg-amber-400/10 px-3 py-2.5 text-sm font-medium text-amber-200"
             >
-              <div className="flex items-center gap-2 mb-1">
-                <Icon className={`w-5 h-5 ${p.iconColor}`} />
-                <span className="font-bold text-foreground">{p.name}</span>
-              </div>
-              <p className="text-sm text-muted-foreground">{formatPrice(p.monthlyPrice)} {t("onboarding.perMonth")}</p>
-            </Link>
-          );
-        })}
-      </div>
-      <button onClick={onBackToFree} className="text-sm text-muted-foreground hover:text-foreground underline select-none">
-        {t("onboarding.plansBackFree")}
-      </button>
-    </div>
-  );
-}
+              <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" /> {c.wake}
+            </motion.p>
+          )}
+        </AnimatePresence>
+      </motion.div>
 
-const TUTORIAL_SLIDES = [
-  { icon: BookOpen, titleKey: "onboarding.tutorial.skillHubTitle", bodyKey: "onboarding.tutorial.skillHubBody" },
-  { icon: MessageSquareText, titleKey: "onboarding.tutorial.aiTitle", bodyKey: "onboarding.tutorial.aiBody" },
-  { icon: TrendingUp, titleKey: "onboarding.tutorial.progressTitle", bodyKey: "onboarding.tutorial.progressBody" },
-];
-
-function TutorialStep({ onDone }) {
-  const { t } = useAppLang();
-  const [idx, setIdx] = useState(0);
-  const slide = TUTORIAL_SLIDES[idx];
-  const Icon = slide.icon;
-  const isLast = idx === TUTORIAL_SLIDES.length - 1;
-  return (
-    <div className="flex-1 flex flex-col justify-center px-6 max-w-sm mx-auto w-full text-center">
-      <div className="w-16 h-16 mx-auto rounded-full bg-blue-500/15 flex items-center justify-center mb-5">
-        <Icon className="w-8 h-8 text-blue-500" />
-      </div>
-      <h2 className="text-xl font-bold text-foreground mb-2">{t(slide.titleKey)}</h2>
-      <p className="text-sm text-muted-foreground mb-8">{t(slide.bodyKey)}</p>
-      <div className="flex justify-center gap-1.5 mb-6">
-        {TUTORIAL_SLIDES.map((_, i) => (
-          <div key={i} className={`h-1.5 rounded-full transition-all ${i === idx ? "w-6 bg-blue-500" : "w-1.5 bg-muted"}`} />
-        ))}
-      </div>
       <button
-        onClick={() => (isLast ? onDone() : setIdx(idx + 1))}
-        className="w-full h-12 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 text-white font-semibold shadow-lg flex items-center justify-center gap-1.5 select-none"
+        onClick={press}
+        disabled={busy}
+        className="mt-6 w-full h-14 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 text-white font-semibold shadow-lg flex items-center justify-center gap-2 select-none disabled:opacity-70"
       >
-        {isLast ? t("onboarding.gotIt") : t("onboarding.next")} <ChevronRight className="w-4 h-4" />
+        {busy ? <Loader2 className="w-5 h-5 animate-spin" /> : null}
+        {goal ? c.go : c.blank} {!busy && <ArrowRight className="w-4 h-4" />}
       </button>
-      {!isLast && (
-        <button onClick={onDone} className="mt-3 text-sm text-muted-foreground hover:text-foreground select-none">
-          {t("onboarding.skip")}
-        </button>
-      )}
-    </div>
-  );
-}
+      {failed && <p className="mt-2 text-xs text-rose-300 text-center">{c.fail}</p>}
 
-function SuggestTestStep({ onTakeIt, onLater }) {
-  const { t } = useAppLang();
-  return (
-    <div className="flex-1 flex flex-col justify-center px-6 max-w-sm mx-auto w-full text-center">
-      <Sparkles className="w-10 h-10 text-blue-500 mx-auto mb-4" />
-      <h2 className="text-xl font-bold text-foreground mb-2">{t("onboarding.testTitle")}</h2>
-      <p className="text-sm text-muted-foreground mb-8">{t("onboarding.testBody")}</p>
       <button
-        onClick={onTakeIt}
-        className="w-full h-14 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 text-white font-semibold shadow-lg mb-3 select-none"
+        onClick={async () => { await onDone(); navigate("/placement-test"); }}
+        className="mt-4 text-xs text-muted-foreground hover:text-foreground underline select-none"
       >
-        {t("onboarding.testTake")}
-      </button>
-      <button onClick={onLater} className="w-full h-12 rounded-xl border-2 border-border text-foreground font-medium select-none">
-        {t("onboarding.testLater")}
+        {c.test}
       </button>
     </div>
   );
 }
 
 export default function Onboarding() {
-  const [step, setStep] = useState("plan");
   // null = still checking. A Google signup reaches the app without ever having
   // seen the registration form, so the four profile questions run here first.
   const [setupUser, setSetupUser] = useState(null);
   const [checked, setChecked] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     let cancelled = false;
@@ -171,15 +177,12 @@ export default function Onboarding() {
     return () => { cancelled = true; };
   }, []);
 
-  const handleChooseFree = async () => {
+  // Free plan / trial, started silently. chooseFreePlan dedupes in flight.
+  const startPlan = async () => {
     const me = await base44.auth.me().catch(() => null);
     if (me) await chooseFreePlan();
-    setStep("tutorial");
   };
 
-  // Hold the plan pitch back until we know whether the profile questions are
-  // owed — otherwise a Google student sees "Start free" flash before being
-  // asked their name.
   if (!checked) return <div className="min-h-screen bg-background" />;
 
   if (setupUser) {
@@ -192,13 +195,7 @@ export default function Onboarding() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col py-8">
-      {step === "plan" && <PlanStep onFree={() => setStep("confirm")} onSeePlans={() => setStep("plans")} />}
-      {step === "confirm" && <ConfirmFreeStep onConfirm={handleChooseFree} onSeePlans={() => setStep("plans")} />}
-      {step === "plans" && <PlansStep onBackToFree={() => setStep("confirm")} />}
-      {step === "tutorial" && <TutorialStep onDone={() => setStep("suggest-test")} />}
-      {step === "suggest-test" && (
-        <SuggestTestStep onTakeIt={() => navigate("/placement-test")} onLater={() => navigate("/")} />
-      )}
+      <GoalStep onDone={startPlan} />
     </div>
   );
 }
