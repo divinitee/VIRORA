@@ -1,6 +1,8 @@
 # Comeback tests (Comeback Revamp Phase 1, 2026-11-10)
 
 ```bash
+# post-signup flow: one question, blind-click wake-up, straight to the Coach (jsdom)
+node tools/comeback-tests/onboarding/build.mjs && NODE_PATH=/tmp/rc/node_modules node tools/comeback-tests/onboarding/run.cjs
 # soft landing (ease mode) rules, incl. the real students' rounds
 deno test -A --no-check tools/comeback-tests/easeCore.test.mjs
 # the REAL sendDailyReminder entry (SDK mocked)
