@@ -194,7 +194,7 @@ export default function ComebackCard({ onState, variant = "home" }) {
                     exit={{ opacity: 0, x: 10, scale: 0.85 }}
                     transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
                     className="neo-pill px-2.5 h-8 text-xs font-semibold text-amber-100 tabular-nums"
-                    style={{ borderColor: "rgba(245,196,81,0.45)" }}
+                    style={{ borderColor: "rgba(124,82,201,0.6)", background: "#140a2e" }}
                     data-testid="vixel-balance"
                   >
                     <VixelIcon className="w-4 h-4" title={c.vxName} /> {vixelsFromXp(state.xp).toLocaleString()}
