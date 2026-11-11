@@ -99,6 +99,10 @@ export default function Quiz() {
   const endQuiz = async (finalScore) => {
     clearInterval(timerRef.current);
     setPhase("result");
+    base44.analytics.track({
+      eventName: "quiz_completed",
+      properties: { unit_key: unitKey || null, score: finalScore, total_questions: words.length },
+    });
     const now = new Date();
     const dateStr = now.toLocaleDateString() + " " + now.toLocaleTimeString().slice(0, 5);
     await base44.entities.QuizResult.create({
