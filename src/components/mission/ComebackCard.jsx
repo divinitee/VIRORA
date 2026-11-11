@@ -205,7 +205,7 @@ export default function ComebackCard({ onState, variant = "home" }) {
                 type="button"
                 onClick={() => setShowVx((v) => !v)}
                 aria-expanded={showVx}
-                aria-label={c.vxTap}
+                aria-label={`${state.xp.toLocaleString()} XP. ${c.vxTap}`}
                 className="neo-pill px-2.5 h-8 text-xs font-semibold text-amber-200 tabular-nums cursor-pointer transition-transform active:scale-95"
                 data-testid="xp-chip"
               >
