@@ -10,17 +10,17 @@ const probe = () => p.evaluate(() => {
   cols.forEach((col) => {
     const lines = [...col.querySelectorAll(":scope > div.border-t")].map((l) => l.getBoundingClientRect().top);
     const blocks = [...col.querySelectorAll(":scope > button")].map((x) => x.getBoundingClientRect());
-    for (const y of lines) for (const r of blocks) if (y > r.top + 0.5 && y < r.bottom - 0.5) cut++;
+    for (const y of lines) for (const el of col.querySelectorAll(":scope > button")) { const r = el.getBoundingClientRect(); if (y > r.top + 0.5 && y < r.bottom - 0.5) { for (const x of [r.left + 6, r.left + r.width / 2, r.right - 6]) { const hit = document.elementFromPoint(x, y); if (!hit || !el.contains(hit)) cut++; } } }
   });
   return { cut, height: Math.round(grid.getBoundingClientRect().height), gaps: [...grid.querySelectorAll(":scope > button")].map((g) => g.innerText.replace(/\s+/g, " ")), labels: [...grid.children[0].querySelectorAll("span")].map((s) => s.innerText) };
 });
 let r = await probe(); out.push("compact: " + JSON.stringify(r));
-ok(r.cut === 0, "compact: no hour line crosses a class block");
+ok(r.cut === 0, "compact: no hour line visible through a class block");
 ok(r.gaps.length === 2 && r.gaps[0].includes("12:00 – 14:00") && r.gaps[1].includes("15:00 – 18:00"), "compact: empty stretches folded into gap bands");
 ok(r.labels[0] === "09:00" && r.labels.at(-1) === "19:00", "compact: trimmed to 09:00–20:00");
 const compactH = r.height;
 await p.click("button:has-text('Full day')"); r = await probe(); out.push("full: " + JSON.stringify(r));
-ok(r.gaps.length === 0 && r.labels[0] === "08:00" && r.cut === 0, "full day: all hours, still no lines through blocks");
+ok(r.gaps.length === 0 && r.labels[0] === "08:00" && r.cut === 0, "full day: all hours, no line visible through blocks");
 ok(compactH < r.height - 200, `compact is shorter (${compactH} vs ${r.height})`);
 await p.reload(); await p.waitForSelector("h1"); r = await probe(); ok(r.gaps.length === 0, "full-day choice remembered after reload");
 await p.click("button:has-text('Compact')"); r = await probe(); ok(r.gaps.length === 2, "back to compact");

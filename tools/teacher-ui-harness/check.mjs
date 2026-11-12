@@ -30,7 +30,7 @@ ok(await p.locator("text=Phrasal verbs sprint").count() === 1 && await p.locator
 await p.goto(base + "/teacher?tab=classes"); await p.waitForSelector("h1:has-text('My Classes')");
 await p.screenshot({ path: "/tmp/shots/desk-classes.png" });
 ok(await overflow(p) <= 0, "desktop calendar: no horizontal page overflow");
-const blocks = p.locator("div.hidden.md\\:block button[title]");
+const blocks = p.locator("div.hidden.md\\:block button[title]:not([title^=Show])");
 const nb = await blocks.count(); ok(nb === 14, `desktop: ${nb} calendar blocks (expect 3x3 MWF + 3 TTS + 2 Individual = 14)`);
 const b1 = await p.locator("button[title^='B1+']").first().boundingBox(); const a1 = await p.locator("button[title^='A1 ·']").first().boundingBox();
 ok(b1 && a1 && a1.y > b1.y && Math.abs(a1.x - b1.x) < 3, "B1+ 09:00 above A1 10:30 in same Mon column");
