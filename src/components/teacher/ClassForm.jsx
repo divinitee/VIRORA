@@ -81,7 +81,7 @@ export default function ClassForm({ initial, onSubmit, onCancel, submitLabel, su
         <div className="flex flex-wrap gap-1.5">
           {DAY_OPTIONS.map((d) => (
             <button key={d} type="button" onClick={() => toggleDay(d)} aria-pressed={days.includes(d)}
-              className={`min-w-11 h-11 px-2 rounded-xl text-xs font-bold select-none transition-colors ${days.includes(d) ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground hover:bg-muted/70"}`}>
+              className={`min-w-[44px] h-11 px-2 rounded-xl text-xs font-bold select-none transition-colors ${days.includes(d) ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground hover:bg-muted/70"}`}>
               {d}
             </button>
           ))}
