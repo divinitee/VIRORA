@@ -241,6 +241,7 @@ export default function Coach() {
       {deviceBanner}
       {/* Comeback Revamp (2026-11-10): the streak tick, today's rewards and what
           tomorrow earns, shown the moment a practice ends. */}
+      <ViraBubble moment="sessionEnd" className="mb-3" />
       <div className="mb-4"><ComebackCard variant="after" /></div>
       <div className="premium-card rounded-[28px] p-8 text-center">
         <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
