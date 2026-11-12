@@ -1,4 +1,5 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
+import { banGuard } from '../../shared/banCore.ts';
 import { expiryPatch, selfDeletePlan } from '../../shared/subscriptionCore.js';
 
 // studentApi: every write that grants access, sets teacher attribution, or
@@ -371,6 +372,11 @@ Deno.serve(async (req) => {
     const body = await req.json().catch(() => ({}));
     const fn = ACTIONS[String(body.action || '')];
     if (!fn) return Response.json({ error: 'unknown action', code: 'unknown_action' }, { status: 400 });
+    // Banned accounts are refused, except deleting their own account (privacy right).
+    if (!SELF_DELETE_ACTIONS.has(String(body.action))) {
+      const banned = await banGuard(base44.asServiceRole.entities, me);
+      if (banned) return banned;
+    }
 
     const data = await fn(base44.asServiceRole.entities, me, body);
     return Response.json({ ok: true, ...data });

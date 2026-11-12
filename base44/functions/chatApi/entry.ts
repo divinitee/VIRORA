@@ -1,4 +1,5 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
+import { banGuard } from '../../shared/banCore.ts';
 import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
 
 // Chat writes go through here so sender identity comes from the session,
@@ -8,6 +9,8 @@ export default async function (req) {
     const base44 = createClientFromRequest(req);
     const user = await base44.auth.me();
     if (!user) return Response.json({ error: 'Unauthorized' }, { status: 401 });
+    const banned = await banGuard(base44.asServiceRole.entities, user);
+    if (banned) return banned;
     const { room_id, text } = await req.json().catch(() => ({}));
     const content = String(text || '').trim().slice(0, 2000);
     const room = String(room_id || '');
