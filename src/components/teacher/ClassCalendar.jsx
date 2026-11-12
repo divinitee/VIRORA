@@ -14,7 +14,7 @@ import { DAY_OPTIONS, classColor, formatSlot, seatsLabel, Pill, GROUP_STATUS_STY
 // overflow: the grid only renders at md+, and the filter row scrolls inside
 // itself.
 
-const HOUR_PX = 56;
+const HOUR_PX = 72; // tall enough that a 60-min class shows all five block details
 const DEFAULT_MINUTES = 60; // display length when a class has no end time
 
 const toMin = (hhmm) => {
@@ -242,8 +242,9 @@ function CalendarBlock({ ev, firstHour, onOpen }) {
   const top = ((ev.start - firstHour * 60) / 60) * HOUR_PX;
   const height = Math.max(28, ((ev.end - ev.start) / 60) * HOUR_PX - 2);
   const width = 100 / ev.lanes;
-  const roomy = height >= 84;
-  const medium = height >= 52;
+  const showMeta = height >= 40;
+  const showTime = height >= 54;
+  const showSeats = height >= 66;
   return (
     <button onClick={onOpen}
       className={`absolute rounded-lg px-1.5 py-1 text-left overflow-hidden border transition-[filter] hover:brightness-125 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${g.group_status === "paused" ? "opacity-60" : ""}`}
@@ -258,13 +259,13 @@ function CalendarBlock({ ev, firstHour, onOpen }) {
       }}
       title={`${g.label || g.code} · ${formatSlot(g)}`}>
       <p className="text-[11px] font-bold text-foreground leading-tight truncate">{g.icon ? `${g.icon} ` : ""}{g.label || g.code}</p>
-      {medium && (
+      {showMeta && (
         <p className="text-[10px] text-muted-foreground leading-tight truncate">
           {[g.level, g.module].filter(Boolean).join(" · ") || formatSlot(g)}
         </p>
       )}
-      {roomy && <p className="text-[10px] text-muted-foreground leading-tight truncate tabular-nums">{formatSlot(g)}</p>}
-      {roomy && <p className="text-[10px] font-semibold leading-tight truncate" style={{ color }}>{seatsLabel(g)}</p>}
+      {showTime && <p className="text-[10px] text-muted-foreground leading-tight truncate tabular-nums">{formatSlot(g)}</p>}
+      {showSeats && <p className="text-[10px] font-semibold leading-tight truncate" style={{ color }}>{seatsLabel(g)}</p>}
     </button>
   );
 }
