@@ -1,4 +1,4 @@
-"""Verify lib/userWipe.js covers every entity/field that identifies a user.
+"""Verify base44/shared/userDataMap.js (the wipe map) covers every entity/field that identifies a user.
 
 Missing an entity here means a wiped user silently leaves orphaned rows
 behind, which is how a "fresh" re-registration inherits stale state.
@@ -9,7 +9,7 @@ import os
 import re
 import sys
 
-lib = open("src/lib/userWipe.js").read()
+lib = open("base44/shared/userDataMap.js").read()
 covered = {}
 # `excluded` fields are ones we deliberately refuse to match because they
 # reference a DIFFERENT person than the row's owner (e.g. a subscription's
