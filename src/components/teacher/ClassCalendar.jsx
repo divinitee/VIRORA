@@ -259,9 +259,9 @@ function CalendarBlock({ ev, firstHour, onOpen }) {
       }}
       title={`${g.label || g.code} · ${formatSlot(g)}`}>
       <p className="text-[11px] font-bold text-foreground leading-tight truncate">{g.icon ? `${g.icon} ` : ""}{g.label || g.code}</p>
-      {showMeta && (
+      {showMeta && (g.level || g.module) && (
         <p className="text-[10px] text-muted-foreground leading-tight truncate">
-          {[g.level, g.module].filter(Boolean).join(" · ") || formatSlot(g)}
+          {[g.level, g.module].filter(Boolean).join(" · ")}
         </p>
       )}
       {showTime && <p className="text-[10px] text-muted-foreground leading-tight truncate tabular-nums">{formatSlot(g)}</p>}
