@@ -1,0 +1,30 @@
+import { chromium } from "playwright";
+const out = []; const ok = (c, m) => out.push(`${c ? "PASS" : "FAIL"} ${m}`);
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
+p.on("pageerror", (e) => out.push("PAGEERROR " + e.message));
+await p.goto("http://127.0.0.1:5288/index.html#/teacher?tab=classes"); await p.waitForSelector("h1");
+const probe = () => p.evaluate(() => {
+  const grid = document.querySelector("div.hidden.md\\:block .grid.relative");
+  const cols = [...grid.children].slice(1, 8);
+  let cut = 0;
+  cols.forEach((col) => {
+    const lines = [...col.querySelectorAll(":scope > div.border-t")].map((l) => l.getBoundingClientRect().top);
+    const blocks = [...col.querySelectorAll(":scope > button")].map((x) => x.getBoundingClientRect());
+    for (const y of lines) for (const r of blocks) if (y > r.top + 0.5 && y < r.bottom - 0.5) cut++;
+  });
+  return { cut, height: Math.round(grid.getBoundingClientRect().height), gaps: [...grid.querySelectorAll(":scope > button")].map((g) => g.innerText.replace(/\s+/g, " ")), labels: [...grid.children[0].querySelectorAll("span")].map((s) => s.innerText) };
+});
+let r = await probe(); out.push("compact: " + JSON.stringify(r));
+ok(r.cut === 0, "compact: no hour line crosses a class block");
+ok(r.gaps.length === 2 && r.gaps[0].includes("12:00 – 14:00") && r.gaps[1].includes("15:00 – 18:00"), "compact: empty stretches folded into gap bands");
+ok(r.labels[0] === "09:00" && r.labels.at(-1) === "19:00", "compact: trimmed to 09:00–20:00");
+const compactH = r.height;
+await p.click("button:has-text('Full day')"); r = await probe(); out.push("full: " + JSON.stringify(r));
+ok(r.gaps.length === 0 && r.labels[0] === "08:00" && r.cut === 0, "full day: all hours, still no lines through blocks");
+ok(compactH < r.height - 200, `compact is shorter (${compactH} vs ${r.height})`);
+await p.reload(); await p.waitForSelector("h1"); r = await probe(); ok(r.gaps.length === 0, "full-day choice remembered after reload");
+await p.click("button:has-text('Compact')"); r = await probe(); ok(r.gaps.length === 2, "back to compact");
+await p.locator("div.hidden.md\\:block .grid.relative > button").first().click(); r = await probe(); ok(r.gaps.length === 0, "clicking a gap band expands to full day");
+const bt = await p.locator("button[title^='B1+']").first().innerText(); ok(/09:00–10:30/.test(bt) && /seats left/.test(bt), "block still shows all details");
+await p.click("button:has-text('Compact')");
+await b.close(); console.log(out.join("\n"));
