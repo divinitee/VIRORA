@@ -33,6 +33,7 @@ const LEVELS = new Set(['Starter', 'A1', 'A2', 'B1', 'B2', 'C1']);
 const DAYS = new Set(['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']);
 const GROUP_STATUSES = new Set(['running', 'paused', 'ended']);
 const TIME_RE = /^([01]\d|2[0-3]):[0-5]\d$/;
+const COLORS = new Set(['violet', 'indigo', 'blue', 'cyan', 'emerald', 'amber', 'rose', 'fuchsia']);
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 class ApiError extends Error {
@@ -76,7 +77,37 @@ function cleanGroupFields(body: any) {
     if (!GROUP_STATUSES.has(body.group_status)) throw new ApiError(400, 'bad_group_status');
     out.group_status = body.group_status;
   }
+  // Teacher Panel revamp (2026-11-12): calendar details + appearance.
+  if (body.module !== undefined) out.module = String(body.module || '').trim().slice(0, 80);
+  if (body.max_capacity !== undefined) {
+    if (body.max_capacity === null || body.max_capacity === '') out.max_capacity = null;
+    else {
+      const n = Math.round(Number(body.max_capacity));
+      if (!Number.isFinite(n) || n < 1 || n > 200) throw new ApiError(400, 'bad_capacity', 'Capacity must be between 1 and 200.');
+      out.max_capacity = n;
+    }
+  }
+  if (body.color !== undefined) {
+    if (body.color && !COLORS.has(body.color)) throw new ApiError(400, 'bad_color');
+    out.color = body.color || null;
+  }
+  if (body.icon !== undefined) out.icon = [...String(body.icon || '').trim()].slice(0, 2).join('');
   return out;
+}
+
+// Fixed weekly slot rule (Tee, 2026-11-12): a class has ONE start/end time,
+// shared by every day it meets. The data model already stores a single
+// start_time/end_time, so per-day times can't exist; this enforces that a
+// scheduled class has a real slot. Checked on the merged result so a partial
+// update can't leave the class half-scheduled.
+function assertFixedSlot(merged: any) {
+  const days = merged.days || [];
+  if (days.length && !merged.start_time) {
+    throw new ApiError(400, 'start_time_required', 'Pick a start time for the days this class meets.');
+  }
+  if (merged.start_time && merged.end_time && merged.end_time <= merged.start_time) {
+    throw new ApiError(400, 'bad_time_range', 'End time must be after the start time.');
+  }
 }
 
 async function ownedGroup(svc: any, me: any, groupId: string) {
@@ -224,6 +255,10 @@ async function overview(svc: any, me: any) {
     end_time: g.end_time || '',
     group_status: g.group_status || 'running',
     student_count: (activeByCode.get(g.code) || []).length,
+    module: g.module || '',
+    max_capacity: g.max_capacity ?? null,
+    color: g.color || '',
+    icon: g.icon || '',
   }));
 
   return {
@@ -258,6 +293,7 @@ async function studentProgress(svc: any, me: any, body: any) {
 
 async function createGroup(svc: any, me: any, body: any) {
   const fields = cleanGroupFields(body);
+  assertFixedSlot(fields);
   let code = '';
   for (let i = 0; i < 8 && !code; i++) {
     const candidate = generateCode();
@@ -282,6 +318,7 @@ async function createGroup(svc: any, me: any, body: any) {
 async function updateGroup(svc: any, me: any, body: any) {
   const g = await ownedGroup(svc, me, body.group_id);
   const fields = cleanGroupFields(body);
+  assertFixedSlot({ ...g, ...fields });
   const group = await svc.TeacherReferral.update(g.id, fields);
   return { group };
 }
