@@ -88,10 +88,13 @@ async function lastActiveMap(svc: any) {
 // ------------------------------------------------------------ list
 
 export async function studentsList(ctx: any) {
-  const [users, subs, groups, payments, last] = await Promise.all([
+  const [users, subs, groups, payments, last, bans] = await Promise.all([
     pageAll(ctx.svc.User), pageAll(ctx.svc.StudentSubscription), pageAll(ctx.svc.TeacherReferral),
     pageAll(ctx.svc.ManualPayment), lastActiveMap(ctx.svc),
+    ctx.svc.AccountBan ? pageAll(ctx.svc.AccountBan).catch(() => []) : Promise.resolve([]),
   ]);
+  const bannedEmails = new Set(bans.map((b: any) => normEmail(b.email)));
+  const bannedIds = new Set(bans.map((b: any) => b.user_id).filter(Boolean));
   const byEmail = new Map<string, any[]>();
   const byCreator = new Map<string, any[]>();
   for (const s of subs) {
@@ -122,6 +125,7 @@ export async function studentsList(ctx: any) {
       sub_count: mine.length,
       group: g ? { code: g.code, label: g.label || g.code, teacher_name: g.teacher_name || '', teacher_id: g.teacher_id } : (sub?.referral_code ? { code: sub.referral_code, label: sub.referral_code, teacher_name: sub.teacher_name || '', teacher_id: sub.teacher_id || '', missing: true } : null),
       method: methodOf(sub, qrApproved.has(u.id)),
+      banned: bannedEmails.has(normEmail(u.email)) || bannedIds.has(u.id),
     };
   });
 

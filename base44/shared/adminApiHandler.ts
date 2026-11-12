@@ -29,6 +29,7 @@ import {
 import { computeOverview, displayName } from './adminOverviewCore.ts';
 import { studentsList, studentDetail, studentAction } from './adminStudents.ts';
 import { comebackReport } from './adminComeback.ts';
+import { studentsBulk } from './adminBulk.ts';
 
 export interface HandlerDeps {
   createClientFromRequest: (req: Request) => any;
@@ -45,6 +46,7 @@ type Ctx = {
   keys: { tokenKey: CryptoKey; seedKey: CryptoKey };
   allowlist: Set<string>;
   audit: (e: AuditEntry) => Promise<void>;
+  integrations?: any; // service-role integrations (email for bulk Nudge)
 };
 
 type AuditEntry = {
@@ -256,6 +258,9 @@ const ACTIONS: Record<string, (ctx: Ctx) => Promise<Record<string, unknown>>> = 
 
   // ----- Comeback (day-two return), base44/shared/adminComeback.ts -----
   comeback: (ctx) => comebackReport(ctx),
+
+  // ----- Bulk select: delete / ban / unban / nudge, base44/shared/adminBulk.ts -----
+  studentsBulk: (ctx) => studentsBulk(ctx),
 };
 
 // Shared by first enrolment and re-enrolment: the pending seed becomes the
@@ -345,7 +350,7 @@ export function createAdminApiHandler(deps: HandlerDeps) {
       const fn = ACTIONS[action];
       if (!fn) throw new AuthError(400, 'unknown_action');
 
-      const ctx: Ctx = { svc, me, row: await loadRow(svc, me.id), body, now, keys, allowlist, audit };
+      const ctx: Ctx = { svc, me, row: await loadRow(svc, me.id), body, now, keys, allowlist, audit, integrations: base44.asServiceRole?.integrations };
 
       // 5. console token for everything past sign-in
       if (!PRE_AUTH.has(action)) {
