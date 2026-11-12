@@ -44,7 +44,7 @@ const TABS = [
   { id: "overview", label: "Overview" },
   { id: "classes", label: "My Classes" },
   { id: "students", label: "Students" },
-  { id: "assignments", label: "Homework" },
+  { id: "assignments", label: "Assignments" },
   { id: "materials", label: "Materials" },
 ];
 
@@ -81,6 +81,7 @@ export default function TeacherDashboard() {
   const [activityStudent, setActivityStudent] = useState(null);
   const [creating, setCreating] = useState(false);
   const [createError, setCreateError] = useState("");
+  const [createSaving, setCreateSaving] = useState(false);
 
   const flash = (msg) => { setNotice(msg); setTimeout(() => setNotice(""), 2500); };
 
@@ -194,7 +195,6 @@ export default function TeacherDashboard() {
     flash("Class updated.");
     await load(true);
   };
-  const [createSaving, setCreateSaving] = useState(false);
   const createClass = async (fields) => {
     setCreateSaving(true);
     setCreateError("");
