@@ -350,6 +350,9 @@ async function deleteMySubscription(svc: any, me: any) {
 
 // ---------------------------------------------------------------- router
 
+// Still allowed for a banned account: deleting their own data.
+const SELF_DELETE_ACTIONS = new Set(['deleteMySubscription']);
+
 const ACTIONS: Record<string, (svc: any, me: any, body: any) => Promise<any>> = {
   refresh: (svc, me) => refresh(svc, me),
   startTrial: (svc, me) => startTrial(svc, me),
