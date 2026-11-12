@@ -10,6 +10,8 @@ import RecentAchievement from "./RecentAchievement";
 import QuickActions from "./QuickActions";
 import { useSkillStateWithStatus } from "@/hooks/useSkillState";
 import { resolveUserName } from "@/lib/profileName";
+import ViraBubble from "@/components/mascot/ViraBubble";
+import { homeMoment } from "@/lib/mascot/vira";
 
 export const ACCENT = "#3b82f6";
 export const ACCENT_GLOW = "rgba(59,130,246,0.5)";
@@ -148,6 +150,7 @@ export default function MissionControl({
         )}
       </div>
 
+      {comeback && <ViraBubble moment={homeMoment(comeback)} vars={{ n: comeback.streak?.current || 0 }} />}
       <ComebackCard onState={setComeback} />
       {homeworkSlot}
       <HeroCard accent={ACCENT} accentGlow={ACCENT_GLOW} onContinue={onContinue} skillStates={skillState?.skills ?? null} skillStateError={skillStateError} />
