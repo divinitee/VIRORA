@@ -1,26 +1,31 @@
 // Vira mascot MVP (2026-11-13). Scripted, no AI: a pose + a line per moment.
-// Pure (no React). Poses live in public/mascots/vira/<mood>_<nn>.webp.
-// To add poses: drop files into public/mascots/vira/ and list them in POSES.
+// Pure (no React). Poses live in public/mascots/vira/<mood>/vira_base_<mood>_<nn>.webp
+// (source of truth: Desktop/VIRORA/Mascots and Characters/vira/base/app on Tee's Mac).
+// To add poses: copy the files in and widen the [first, last] range in POSES.
 // Lines follow the app language (useAppLang). Formal "siz"/"вы" to match the app.
 
+// mood -> [first, last] pose number available
 export const POSES = {
-  neutral: ["01", "09"],
-  wave: ["04", "06"],
-  cheerful: ["02", "07"],
-  proud: ["05", "07"],
-  disappointed: ["04", "08"],
-  sleepy: ["01", "02"],
+  neutral: [1, 11],
+  wave: [1, 12],
+  cheerful: [1, 10],
+  proud: [1, 13],
+  disappointed: [2, 13],
+  sleepy: [1, 10],
+  surprised: [1, 10],
+  curious: [1, 12],
+  cheeky: [1, 9],
 };
 
 // moment -> moods Vira may show for it
 export const MOMENT_MOODS = {
   first: ["wave", "neutral"],
   dayTwo: ["wave", "cheerful"],
-  streak: ["proud", "cheerful"],
+  streak: ["proud", "cheerful", "cheeky"],
   gap: ["disappointed"],
-  todayDone: ["cheerful", "proud"],
+  todayDone: ["cheerful", "proud", "cheeky"],
   sessionEnd: ["sleepy"],
-  lessonDone: ["proud", "cheerful"],
+  lessonDone: ["proud", "cheerful", "surprised"],
 };
 
 export const LINES = {
@@ -92,7 +97,8 @@ export function viraFor(moment, lang = "en", vars = {}) {
   for (const [k, v] of Object.entries(vars)) text = text.replace(new RegExp(`\\{${k}\\}`, "g"), String(v));
   const moods = MOMENT_MOODS[moment] || ["neutral"];
   const mood = moods[pickIndex(`vira_mood_${moment}`, moods.length)];
-  const files = POSES[mood] || POSES.neutral;
-  const src = `/mascots/vira/${mood}_${files[pickIndex(`vira_pose_${mood}`, files.length)]}.webp`;
+  const [first, last] = POSES[mood] || POSES.neutral;
+  const nn = String(first + pickIndex(`vira_pose_${mood}`, last - first + 1)).padStart(2, "0");
+  const src = `/mascots/vira/${mood}/vira_base_${mood}_${nn}.webp`;
   return { src, text, mood };
 }
