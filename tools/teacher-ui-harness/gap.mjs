@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 const out = []; const ok = (c, m) => out.push(`${c ? "PASS" : "FAIL"} ${m}`);
-const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1280, height: 1800 } });
 p.on("pageerror", (e) => out.push("PAGEERROR " + e.message));
 await p.goto("http://127.0.0.1:5288/index.html#/teacher?tab=classes"); await p.waitForSelector("h1");
 const probe = () => p.evaluate(() => {
