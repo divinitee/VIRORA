@@ -20,6 +20,7 @@ import { buildRecap } from "@/lib/coach/sessionRecap";
 import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
 import ComebackCard from "@/components/mission/ComebackCard";
+import ViraBubble from "@/components/mascot/ViraBubble";
 
 // VIRORA Coach (VT-40 Stage 3). One screen, five states:
 //   handoff (entitlement changed) -> onboarding (goal + minutes) -> today's plan
@@ -241,7 +242,7 @@ export default function Coach() {
       {deviceBanner}
       {/* Comeback Revamp (2026-11-10): the streak tick, today's rewards and what
           tomorrow earns, shown the moment a practice ends. */}
-      <ViraBubble moment="sessionEnd" className="mb-3" />
+      {persona === "vira" && <ViraBubble moment="sessionEnd" className="mb-3" />}
       <div className="mb-4"><ComebackCard variant="after" /></div>
       <div className="premium-card rounded-[28px] p-8 text-center">
         <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
