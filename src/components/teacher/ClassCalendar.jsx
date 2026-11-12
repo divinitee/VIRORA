@@ -144,7 +144,6 @@ export default function ClassCalendar({ groups, onOpenClass, onCreate }) {
     try { localStorage.setItem(COMPACT_KEY, v ? "1" : "0"); } catch { /* storage unavailable: in-memory only */ }
   };
   const { rows, total, yOf } = useMemo(() => buildRows(byDay.flat(), compact), [byDay, compact]);
-  const hasGap = rows.some((r) => r.type === "gap");
 
   const goWeek = (n) => {
     setWeekOffset(n);
@@ -323,7 +322,7 @@ function CalendarBlock({ ev, yOf, onOpen }) {
   const showSeats = height >= 66;
   return (
     <button onClick={onOpen}
-      className={`absolute z-[1] rounded-lg px-1.5 py-1 text-left overflow-hidden border transition-[filter] hover:brightness-125 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${g.group_status === "paused" ? "opacity-60" : ""}`}
+      className={`absolute z-[1] rounded-lg px-1.5 py-1 text-left overflow-hidden border transition-[filter] hover:brightness-125 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${g.group_status === "paused" ? "[&>*]:opacity-60" : ""}`}
       style={{
         top,
         height,
