@@ -65,7 +65,7 @@ Deno.test('bulk delete removes accounts and their data, keeps payments and bans,
   svc.AccountBan.rows.push({ id: 'b1', email: 'test2@x', user_id: 't2' });
   const res = await studentsBulk(ctx({ op: 'delete', confirm: 'delete', user_ids: ['t1', 't2', 'a2', 'me'] }));
   eq([res.done, res.failed], [2, 2], 'two deleted, two refused');
-  eq(svc.User.rows.map((u: any) => u.id).sort(), ['a2', 'fresh' === 'x' ? '' : 'me', 's1', 's2'].filter(Boolean).sort(), 'admins and the real student remain');
+  eq(svc.User.rows.map((u: any) => u.id).sort(), ['a2', 'me', 's1', 's2'], 'admins and the real student remain');
   eq(svc.RoundReceipt.rows.map((r: any) => r.id), ['r3'], 'only the real student keeps receipts');
   eq(svc.UserCoins.rows.length, 0, 'coins gone');
   eq([svc.ManualPayment.rows.length, svc.AccountBan.rows.length], [1, 1], 'payment record and ban retained');
