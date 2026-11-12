@@ -16,6 +16,56 @@ import { DAY_OPTIONS, classColor, formatSlot, seatsLabel, Pill, GROUP_STATUS_STY
 
 const HOUR_PX = 72; // tall enough that a 60-min class shows all five block details
 const DEFAULT_MINUTES = 60; // display length when a class has no end time
+const GAP_PX = 30; // height of a folded "no classes" stretch
+const MIN_GAP_HOURS = 2; // only fold empty stretches at least this long
+const COMPACT_KEY = "virora.teacher.calendarCompact";
+
+const hh = (h) => `${String(h).padStart(2, "0")}:00`;
+
+// Rows of the desktop grid, top to bottom: one row per hour, except that in
+// compact mode a run of empty hours folds into a single thin "gap" row, and
+// the empty hours before the first / after the last class are trimmed.
+function buildRows(events, compact) {
+  let first = 8;
+  let last = 20;
+  if (events.length) {
+    const lo = Math.floor(Math.min(...events.map((e) => e.start)) / 60);
+    const hi = Math.ceil(Math.max(...events.map((e) => e.end)) / 60);
+    first = compact ? lo : Math.min(first, lo);
+    last = compact ? hi : Math.max(last, hi);
+  }
+  last = Math.min(24, Math.max(last, first + 1));
+  const busy = (h) => events.some((e) => e.start < (h + 1) * 60 && e.end > h * 60);
+  const rows = [];
+  let y = 0;
+  for (let h = first; h < last;) {
+    if (compact && !busy(h)) {
+      let end = h;
+      while (end < last && !busy(end)) end++;
+      if (end - h >= MIN_GAP_HOURS) {
+        rows.push({ type: "gap", from: h, to: end, top: y, height: GAP_PX });
+        y += GAP_PX;
+        h = end;
+        continue;
+      }
+    }
+    rows.push({ type: "hour", from: h, to: h + 1, top: y, height: HOUR_PX });
+    y += HOUR_PX;
+    h++;
+  }
+  // Minutes since midnight to a y position on this (possibly folded) grid.
+  const yOf = (min) => {
+    for (const r of rows) {
+      if (min < r.to * 60) return r.type === "gap" ? r.top : r.top + ((Math.max(min, r.from * 60) - r.from * 60) / 60) * HOUR_PX;
+    }
+    return y;
+  };
+  return { rows, total: y, yOf };
+}
+
+function readCompact() {
+  try { return localStorage.getItem(COMPACT_KEY) !== "0"; } catch { return true; }
+}
 
 const toMin = (hhmm) => {
   const [h, m] = String(hhmm || "").split(":").map(Number);
@@ -87,10 +137,14 @@ export default function ClassCalendar({ groups, onOpenClass, onCreate }) {
     return layoutDay(events);
   }), [scheduled]);
 
-  const allEvents = byDay.flat();
-  const firstHour = allEvents.length ? Math.max(0, Math.min(8, Math.floor(Math.min(...allEvents.map((e) => e.start)) / 60))) : 8;
-  const lastHour = allEvents.length ? Math.min(24, Math.max(20, Math.ceil(Math.max(...allEvents.map((e) => e.end)) / 60))) : 20;
-  const hours = Array.from({ length: lastHour - firstHour }, (_, i) => firstHour + i);
+  // Compact (default): empty stretches fold away. Remembered per browser.
+  const [compact, setCompactState] = useState(readCompact);
+  const setCompact = (v) => {
+    setCompactState(v);
+    try { localStorage.setItem(COMPACT_KEY, v ? "1" : "0"); } catch { /* storage unavailable: in-memory only */ }
+  };
+  const { rows, total, yOf } = useMemo(() => buildRows(byDay.flat(), compact), [byDay, compact]);
+  const hasGap = rows.some((r) => r.type === "gap");
 
   const goWeek = (n) => {
     setWeekOffset(n);
@@ -151,6 +205,18 @@ export default function ClassCalendar({ groups, onOpenClass, onCreate }) {
       ) : (
         <>
           {/* Desktop: weekly grid */}
+          <div className="hidden md:flex justify-end -mt-1">
+            <div className="grid grid-cols-2 gap-1 bg-muted p-1 rounded-xl" role="group" aria-label="Calendar density">
+              <button onClick={() => setCompact(true)} aria-pressed={compact}
+                className={`h-9 px-3 rounded-lg text-xs font-semibold ${compact ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"}`}>
+                Compact
+              </button>
+              <button onClick={() => setCompact(false)} aria-pressed={!compact}
+                className={`h-9 px-3 rounded-lg text-xs font-semibold ${!compact ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"}`}>
+                Full day
+              </button>
+            </div>
+          </div>
           <div className="hidden md:block bg-background rounded-2xl border border-border overflow-hidden">
             <div className="grid" style={{ gridTemplateColumns: "56px repeat(7, minmax(0, 1fr))" }}>
               <div className="border-b border-border" />
@@ -161,23 +227,33 @@ export default function ClassCalendar({ groups, onOpenClass, onCreate }) {
                 </div>
               ))}
             </div>
-            <div className="grid relative" style={{ gridTemplateColumns: "56px repeat(7, minmax(0, 1fr))", height: hours.length * HOUR_PX }}>
+            <div className="grid relative" style={{ gridTemplateColumns: "56px repeat(7, minmax(0, 1fr))", height: total + 8 }}>
               <div className="relative">
-                {hours.map((h, i) => (
-                  <span key={h} className="absolute right-2 text-[10px] text-muted-foreground tabular-nums -translate-y-1/2" style={{ top: i * HOUR_PX }}>
-                    {i === 0 ? "" : `${String(h).padStart(2, "0")}:00`}
+                {rows.map((r) => (r.type === "hour" ? (
+                  <span key={`l${r.from}`} className="absolute right-2 text-[10px] text-muted-foreground tabular-nums" style={{ top: r.top + 4 }}>
+                    {hh(r.from)}
                   </span>
-                ))}
+                ) : null))}
               </div>
               {byDay.map((events, di) => (
                 <div key={di} className={`relative border-l border-border ${di === todayIdx ? "bg-primary/[0.04]" : ""}`}>
-                  {hours.map((h, i) => (
-                    <div key={h} className="absolute inset-x-0 border-t border-border/50" style={{ top: i * HOUR_PX }} />
-                  ))}
+                  {rows.map((r, i) => (i === 0 || r.type === "gap" || rows[i - 1].type === "gap" ? null : (
+                    <div key={`h${r.from}`} className="absolute inset-x-0 border-t border-border/40" style={{ top: r.top }} />
+                  )))}
                   {events.map((ev) => (
-                    <CalendarBlock key={ev.group.id} ev={ev} firstHour={firstHour} onOpen={() => onOpenClass(ev.group.id)} />
+                    <CalendarBlock key={ev.group.id} ev={ev} yOf={yOf} onOpen={() => onOpenClass(ev.group.id)} />
                   ))}
                 </div>
+              ))}
+              {/* Folded empty stretches: one quiet band across the whole week. */}
+              {rows.filter((r) => r.type === "gap").map((r) => (
+                <button key={`g${r.from}`} onClick={() => setCompact(false)} title="Show the full day"
+                  className="absolute left-0 right-0 flex items-center justify-center gap-2 text-[10px] font-medium text-muted-foreground hover:text-foreground bg-muted/40 border-y border-dashed border-border/70 transition-colors"
+                  style={{ top: r.top, height: r.height }}>
+                  <span className="tabular-nums">{hh(r.from)} – {hh(r.to)}</span>
+                  <span aria-hidden="true">·</span>
+                  <span>no classes</span>
+                </button>
               ))}
             </div>
           </div>
@@ -236,24 +312,25 @@ function FilterChip({ active, onClick, color, children }) {
   );
 }
 
-function CalendarBlock({ ev, firstHour, onOpen }) {
+function CalendarBlock({ ev, yOf, onOpen }) {
   const g = ev.group;
   const color = classColor(g);
-  const top = ((ev.start - firstHour * 60) / 60) * HOUR_PX;
-  const height = Math.max(28, ((ev.end - ev.start) / 60) * HOUR_PX - 2);
+  const top = yOf(ev.start) + 2;
+  const height = Math.max(28, yOf(ev.end) - yOf(ev.start) - 4);
   const width = 100 / ev.lanes;
   const showMeta = height >= 40;
   const showTime = height >= 54;
   const showSeats = height >= 66;
   return (
     <button onClick={onOpen}
-      className={`absolute rounded-lg px-1.5 py-1 text-left overflow-hidden border transition-[filter] hover:brightness-125 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${g.group_status === "paused" ? "opacity-60" : ""}`}
+      className={`absolute z-[1] rounded-lg px-1.5 py-1 text-left overflow-hidden border transition-[filter] hover:brightness-125 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${g.group_status === "paused" ? "opacity-60" : ""}`}
       style={{
-        top: top + 1,
+        top,
         height,
-        left: `calc(${ev.lane * width}% + 2px)`,
-        width: `calc(${width}% - 4px)`,
-        background: `${color}26`,
+        left: `calc(${ev.lane * width}% + 3px)`,
+        width: `calc(${width}% - 6px)`,
+        // Solid base under the tint, so hour lines never show through a class.
+        background: `linear-gradient(${color}2e, ${color}2e), hsl(var(--background))`,
         borderColor: `${color}66`,
         borderLeft: `3px solid ${color}`,
       }}
