@@ -1,0 +1,34 @@
+{
+  "name": "AccountBan",
+  "type": "object",
+  "description": "Banned accounts (Admin Console bulk 'Ban', 11 Nov 2026). Written and read only by server functions (service role). A row here makes progressApi, coachApi, studentApi, aiApi and chatApi refuse the account with code account_banned. Kept when the account is deleted, so the email stays banned.",
+  "properties": {
+    "email": {
+      "type": "string",
+      "description": "Lower-cased email of the banned account."
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "banned_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "banned_by": {
+      "type": "string",
+      "description": "Admin email."
+    }
+  },
+  "required": [
+    "email"
+  ],
+  "rls": {
+    "create": { "user_condition": { "role": "never" } },
+    "read": { "user_condition": { "role": "never" } },
+    "update": { "user_condition": { "role": "never" } },
+    "delete": { "user_condition": { "role": "never" } }
+  }
+}
