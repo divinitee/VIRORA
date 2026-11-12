@@ -1,0 +1,1 @@
+export const base44 = { auth: { me: async () => ({ id: "t1", email: "tee@example.com", full_name: "Tee Demo", role: "user", teacher_status: "approved" }), logout: () => {} }, entities: {}, functions: { invoke: async () => ({}) } };
