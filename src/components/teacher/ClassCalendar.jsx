@@ -98,7 +98,7 @@ export default function ClassCalendar({ groups, onOpenClass, onCreate }) {
   };
 
   const weekLabel = `${fmtDay(weekDates[0])} – ${fmtDay(weekDates[6])}`;
-  const weekName = weekOffset === 0 ? "This week" : weekOffset === -1 ? "Last week" : weekOffset === 1 ? "Next week" : weekLabel;
+  const weekName = weekOffset === 0 ? "This week" : weekOffset === -1 ? "Last week" : weekOffset === 1 ? "Next week" : weekOffset < 0 ? `${-weekOffset} weeks ago` : `In ${weekOffset} weeks`;
 
   return (
     <div className="space-y-4">
@@ -106,7 +106,7 @@ export default function ClassCalendar({ groups, onOpenClass, onCreate }) {
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="min-w-0">
           <h1 className="text-xl font-bold text-foreground">My Classes</h1>
-          <p className="text-xs text-muted-foreground">{weekName}{weekOffset !== 0 || true ? ` · ${weekLabel}` : ""}</p>
+          <p className="text-xs text-muted-foreground">{`${weekName} · ${weekLabel}`}</p>
         </div>
         <div className="flex items-center gap-2">
           <div className="flex items-center rounded-xl border border-border bg-background">
