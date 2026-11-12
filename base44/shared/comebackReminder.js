@@ -10,7 +10,7 @@
 //   - never learned, or lapsed on other days -> nothing
 // Students only. uz copy is a first draft: needs a native check.
 
-import { learnedDays, reminderFor, isMissionReceipt, STREAK_BONUSES } from './comebackCore.js';
+import { learnedDays, reminderFor, isMissionReceipt, STREAK_BONUSES, dayKey, currentStreak, DAY_MS } from './comebackCore.js';
 
 const SITE = 'https://virora.space';
 const norm = (e) => String(e || '').trim().toLowerCase();
@@ -23,8 +23,28 @@ function firstName(u) {
   return n.split(/\s+/)[0];
 }
 
+// Admin "Nudge" (console bulk action): like the daily rules, but for any
+// gap, and it also covers students who signed up and never practised.
+// null = they already practised today (nothing to nudge).
+export function nudgeFor(learned, now = Date.now()) {
+  const today = dayKey(now);
+  if (learned.has(today)) return null;
+  const r = reminderFor(learned, now);
+  if (r?.kind === 'at_risk') return r;
+  const last = [...learned].sort().pop();
+  if (!last) return { kind: 'start' };
+  const gap = Math.round((Date.parse(today + 'T00:00:00Z') - Date.parse(last + 'T00:00:00Z')) / DAY_MS);
+  return { kind: 'lapsed', gap, streak: currentStreak(learned, today) };
+}
+
 export function reminderEmail(u, r) {
   const hi = firstName(u) ? `Salom, ${firstName(u)}!` : 'Salom!';
+  if (r.kind === 'start') {
+    return {
+      subject: "VIRORA'dagi birinchi mashg'ulotingiz sizni kutmoqda",
+      body: `${hi}\n\nSiz VIRORA'da ro'yxatdan o'tdingiz, lekin hali birinchi mashg'ulotni boshlamadingiz. Bitta savolga javob bering va 10 daqiqalik birinchi mashqingiz tayyor.\n\nBoshlash: ${SITE}\n\nVIRORA`,
+    };
+  }
   if (r.kind === 'at_risk') {
     return {
       subject: `🔥 ${r.streak} kunlik streakingizni bugun saqlab qoling`,
