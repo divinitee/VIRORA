@@ -4,8 +4,8 @@ import { base44 } from "@/api/base44Client";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
-  BookOpen, LogOut, Users, RefreshCw, Plus, Copy, ChevronDown, UserMinus, AlertTriangle,
-  Sparkles, Activity, ClipboardList, CheckCircle2, Clock, FileText, LayoutDashboard,
+  BookOpen, LogOut, RefreshCw, ChevronDown, ChevronRight, AlertTriangle,
+  Sparkles, Activity, ClipboardList, CheckCircle2, Clock, FileText,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { resolveUserNameOrEmail } from "@/lib/profileName";
@@ -15,45 +15,38 @@ import BetaBadge from "@/components/BetaBadge";
 import ActivityReport from "@/components/ActivityReport";
 import { skillRows } from "@/lib/gameSkills";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import ClassCalendar from "@/components/teacher/ClassCalendar";
+import ClassDetails from "@/components/teacher/ClassDetails";
+import ClassForm from "@/components/teacher/ClassForm";
+import { ACTIVITY_STYLES, HW_STYLES, Pill, Section, Row, formatDate, timeAgo } from "@/components/teacher/panelUi";
 
-// Teacher Panel (rebuilt 2026-09-23, phase 1).
+// Teacher Panel (rebuilt 2026-09-23, phase 1; revamped 2026-11-12).
 //
 // Everything on this page reads and writes through teacherApi
 // (base44/functions/teacherApi), which scopes every query to the calling
 // teacher server-side. Nothing here talks to StudentSubscription /
 // TeacherReferral / HomeworkAssignment directly any more.
 //
-// Removed on purpose (see claude/virora-teacher-panel-audit.md):
-//   Approvals: dead manual-payment flow that let a teacher grant paid access
-//   Chat: students had no chat UI, messages went nowhere
-//   Results: legacy unit quizzes the teacher could never read
-//   AI Co-Plan: its agent was never configured; returns when it's real
+// Revamp 2026-11-12 (VIRORA Teacher Panel executive order):
+//   Overview = one big Assign Homework button + three compact summary cards
+//     that link to their filtered views (no long lists, no "New class").
+//   My Classes = weekly calendar (agenda on mobile), class filter, class
+//     creation, and Class Details (Overview / Students / Assignments /
+//     Settings). Each class has ONE fixed weekly time slot.
+//
+// URL state (so every card/link is a real, shareable view):
+//   ?tab=classes&class=<id>   open a class's details
+//   ?tab=classes&new=1        open the create-class form
+//   ?tab=students&filter=attention
+//   ?tab=assignments&view=active|recent|closed
 
-const DAY_OPTIONS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-const LEVEL_OPTIONS = ["Starter", "A1", "A2", "B1", "B2", "C1"];
 const TABS = [
-  { id: "overview", label: "Overview", icon: LayoutDashboard },
-  { id: "classes", label: "Classes", icon: Users },
-  { id: "students", label: "Students", icon: Users },
-  { id: "assignments", label: "Assignments", icon: ClipboardList },
-  { id: "materials", label: "Materials", icon: FileText },
+  { id: "overview", label: "Overview" },
+  { id: "classes", label: "My Classes" },
+  { id: "students", label: "Students" },
+  { id: "assignments", label: "Homework" },
+  { id: "materials", label: "Materials" },
 ];
-
-const ACTIVITY_STYLES = {
-  active: { label: "Active", cls: "bg-emerald-500/10 text-emerald-600" },
-  new: { label: "New", cls: "bg-muted text-muted-foreground" },
-  inactive: { label: "Inactive 14d+", cls: "bg-amber-500/10 text-amber-600" },
-};
-const HW_STYLES = {
-  completed: { label: "Completed", cls: "bg-emerald-500/10 text-emerald-600" },
-  overdue: { label: "Overdue", cls: "bg-amber-500/10 text-amber-600" },
-  assigned: { label: "Assigned", cls: "bg-muted text-muted-foreground" },
-};
-const GROUP_STATUS_STYLES = {
-  running: "bg-emerald-500/10 text-emerald-600",
-  paused: "bg-amber-500/10 text-amber-600",
-  ended: "bg-muted text-muted-foreground",
-};
 
 function greetingWord() {
   const h = new Date().getHours();
@@ -61,35 +54,22 @@ function greetingWord() {
   if (h < 18) return "Good afternoon";
   return "Good evening";
 }
-const formatDayPattern = (days) => (days?.length ? days.map((d) => d.slice(0, 2)).join(" ") : "");
-function formatDate(iso) {
-  if (!iso) return "";
-  const d = new Date(iso.length === 10 ? `${iso}T00:00:00` : iso);
-  if (Number.isNaN(d.getTime())) return iso;
-  return d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
-}
-function timeAgo(iso) {
-  if (!iso) return "";
-  const mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
-  if (mins < 1) return "just now";
-  if (mins < 60) return `${mins}m ago`;
-  const h = Math.round(mins / 60);
-  if (h < 24) return `${h}h ago`;
-  const d = Math.round(h / 24);
-  return `${d}d ago`;
-}
-
-function Pill({ cls, children }) {
-  return <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full whitespace-nowrap ${cls}`}>{children}</span>;
-}
 
 export default function TeacherDashboard() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const tab = TABS.some((t) => t.id === searchParams.get("tab")) ? searchParams.get("tab") : "overview";
-  const setTab = (id) => {
+  // Replace the query string with exactly these params (tab + its filters).
+  const go = (id, extra = {}) => {
+    const next = new URLSearchParams();
+    if (id !== "overview") next.set("tab", id);
+    for (const [k, v] of Object.entries(extra)) if (v != null && v !== "") next.set(k, v);
+    setSearchParams(next, { replace: false });
+    window.scrollTo?.({ top: 0 });
+  };
+  const setParam = (k, v) => {
     const next = new URLSearchParams(searchParams);
-    if (id === "overview") next.delete("tab"); else next.set("tab", id);
+    if (v == null || v === "") next.delete(k); else next.set(k, v);
     setSearchParams(next, { replace: true });
   };
 
@@ -99,6 +79,8 @@ export default function TeacherDashboard() {
   const [refreshing, setRefreshing] = useState(false);
   const [notice, setNotice] = useState("");
   const [activityStudent, setActivityStudent] = useState(null);
+  const [creating, setCreating] = useState(false);
+  const [createError, setCreateError] = useState("");
 
   const flash = (msg) => { setNotice(msg); setTimeout(() => setNotice(""), 2500); };
 
@@ -156,11 +138,11 @@ export default function TeacherDashboard() {
       </div>
       <div className="flex items-center gap-1">
         {access === "approved" && (
-          <button onClick={() => load(true)} className="text-muted-foreground hover:text-foreground transition-colors p-1.5" aria-label="Refresh">
+          <button onClick={() => load(true)} className="text-muted-foreground hover:text-foreground transition-colors p-2.5" aria-label="Refresh">
             <RefreshCw className={`w-4 h-4 ${refreshing ? "animate-spin" : ""}`} />
           </button>
         )}
-        <button onClick={() => base44.auth.logout("/login")} className="text-muted-foreground hover:text-foreground transition-colors p-1.5" aria-label="Log out">
+        <button onClick={() => base44.auth.logout("/login")} className="text-muted-foreground hover:text-foreground transition-colors p-2.5" aria-label="Log out">
           <LogOut className="w-4 h-4" />
         </button>
       </div>
@@ -187,25 +169,75 @@ export default function TeacherDashboard() {
 
   const groups = data.groups || [];
   const students = data.students || [];
+  const assignments = data.assignments || [];
   const activeStudents = students.filter((s) => s.roster_status === "active");
-  const activeAssignments = (data.assignments || []).filter((a) => a.status === "active");
+  const activeAssignments = assignments.filter((a) => a.status === "active");
   const attention = activeStudents
     .map((s) => ({ ...s, overdue: hwByStudent[s.email]?.overdue || 0 }))
     .filter((s) => s.overdue > 0 || s.activity === "inactive");
+  const assignable = groups.filter((g) => g.group_status !== "ended");
+
+  // Assign Homework: straight into the Skill Hub picker, with the class
+  // preselected when we know it. No classes yet means create one first.
+  const assign = (groupId) => {
+    if (!assignable.length) { go("classes", { new: "1" }); return; }
+    navigate(groupId ? `/teacher/skill-hub?class=${encodeURIComponent(groupId)}` : "/teacher/skill-hub");
+  };
+
+  const openClassId = tab === "classes" ? searchParams.get("class") : null;
+  const openClass = openClassId ? groups.find((g) => g.id === openClassId) || null : null;
+  const showCreate = creating || (tab === "classes" && searchParams.get("new") === "1");
+  const closeCreate = () => { setCreating(false); setCreateError(""); if (searchParams.get("new")) setParam("new", null); };
+
+  const saveClass = async (groupId, fields) => {
+    await teacherApi("updateGroup", { group_id: groupId, ...fields });
+    flash("Class updated.");
+    await load(true);
+  };
+  const [createSaving, setCreateSaving] = useState(false);
+  const createClass = async (fields) => {
+    setCreateSaving(true);
+    setCreateError("");
+    try {
+      const res = await teacherApi("createGroup", fields);
+      closeCreate();
+      flash("Class created. Share its code with your students.");
+      await load(true);
+      if (res?.group?.id) go("classes", { class: res.group.id });
+    } catch (e) {
+      setCreateError(e?.message || "Couldn't create the class.");
+    } finally {
+      setCreateSaving(false);
+    }
+  };
+  const setRoster = async (student, removed) => {
+    try {
+      await teacherApi("setRoster", { subscription_id: student.subscription_id, removed });
+      flash(removed ? `${student.name} removed from the class.` : `${student.name} restored.`);
+      await load(true);
+    } catch (e) {
+      flash(e?.message || "Couldn't update the roster.");
+    }
+  };
+  const copyCode = (code) => {
+    navigator.clipboard?.writeText(code);
+    flash(`Code copied: ${code}`);
+  };
+
+  const wide = tab === "classes";
 
   return (
     <div className="min-h-screen bg-muted/40 flex flex-col">
       {header}
-      <div className="flex-1 overflow-y-auto">
-        <div className="max-w-3xl mx-auto px-4 py-6 space-y-5">
-          {/* Tabs */}
-          <nav className="grid grid-cols-5 gap-1 bg-muted p-1 rounded-xl" aria-label="Teacher Panel sections">
+      <div className="flex-1 overflow-y-auto overflow-x-hidden">
+        <div className={`${wide ? "max-w-6xl" : "max-w-3xl"} mx-auto px-4 py-5 space-y-5 pb-28 sm:pb-8`}>
+          <nav className="grid grid-cols-5 gap-1 bg-muted p-1 rounded-xl max-w-3xl" aria-label="Teacher Panel sections">
             {TABS.map((t) => (
               <button
                 key={t.id}
-                onClick={() => setTab(t.id)}
+                onClick={() => go(t.id)}
                 aria-current={tab === t.id ? "page" : undefined}
-                className={`py-2 rounded-lg text-[11px] font-semibold transition-all select-none px-1 ${tab === t.id ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
+                className={`min-h-[44px] rounded-lg text-[11px] sm:text-xs font-semibold transition-all select-none px-1 leading-tight ${tab === t.id ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
               >
                 {t.label}
               </button>
@@ -219,27 +251,78 @@ export default function TeacherDashboard() {
           {tab === "overview" && (
             <OverviewTab
               user={user}
-              groups={groups}
-              activeStudents={activeStudents}
+              hasClasses={assignable.length > 0}
               activeAssignments={activeAssignments}
               attention={attention}
               recent={data.recent_completions || []}
-              onNavigate={setTab}
-              onAssign={() => navigate("/teacher/skill-hub")}
+              go={go}
+              onAssign={() => assign()}
             />
           )}
           {tab === "classes" && (
-            <ClassesTab groups={groups} students={students} onChanged={() => load(true)} flash={flash} onActivity={setActivityStudent} />
+            <ClassCalendar
+              groups={groups}
+              onOpenClass={(id) => setParam("class", id)}
+              onCreate={() => { setCreateError(""); setCreating(true); }}
+            />
           )}
           {tab === "students" && (
-            <StudentsTab groups={groups} students={students} hwByStudent={hwByStudent} onActivity={setActivityStudent} />
+            <StudentsTab
+              groups={groups}
+              students={students}
+              attention={attention}
+              hwByStudent={hwByStudent}
+              onlyAttention={searchParams.get("filter") === "attention"}
+              setOnlyAttention={(on) => setParam("filter", on ? "attention" : null)}
+              onActivity={setActivityStudent}
+            />
           )}
           {tab === "assignments" && (
-            <AssignmentsTab assignments={data.assignments || []} onAssign={() => navigate("/teacher/skill-hub")} onChanged={() => load(true)} flash={flash} />
+            <AssignmentsTab
+              assignments={assignments}
+              recent={data.recent_completions || []}
+              view={["active", "recent", "closed"].includes(searchParams.get("view")) ? searchParams.get("view") : "active"}
+              setView={(v) => setParam("view", v === "active" ? null : v)}
+              onAssign={() => assign()}
+              onChanged={() => load(true)}
+              flash={flash}
+            />
           )}
           {tab === "materials" && <MaterialsTab onOpen={() => navigate("/teacher/materials")} />}
         </div>
       </div>
+
+      {/* Mobile: Assign Homework always one tap away (Overview has its own big button). */}
+      {tab !== "overview" && (
+        <div className="sm:hidden fixed inset-x-0 bottom-0 z-30 px-4 pt-3 bg-gradient-to-t from-background via-background/95 to-transparent" style={{ paddingBottom: "max(1rem, env(safe-area-inset-bottom))" }}>
+          <Button onClick={() => assign()} className="w-full h-12 gap-2 text-base shadow-lg shadow-primary/30">
+            <Sparkles className="w-4 h-4" /> Assign homework
+          </Button>
+        </div>
+      )}
+
+      <ClassDetails
+        group={openClass}
+        students={students}
+        assignments={assignments}
+        hwByStudent={hwByStudent}
+        onClose={() => setParam("class", null)}
+        onSave={saveClass}
+        onRoster={setRoster}
+        onActivity={setActivityStudent}
+        onAssign={(id) => assign(id)}
+        onCopy={copyCode}
+      />
+
+      <Dialog open={showCreate} onOpenChange={(o) => { if (!o) closeCreate(); }}>
+        <DialogContent className="max-h-[92vh] overflow-y-auto overflow-x-hidden w-[calc(100vw-1rem)] sm:max-w-xl rounded-2xl">
+          <DialogHeader className="text-left">
+            <DialogTitle>New class</DialogTitle>
+            <DialogDescription>Each class gets a join code your students enter, and one fixed weekly time slot.</DialogDescription>
+          </DialogHeader>
+          {showCreate && <ClassForm onSubmit={createClass} onCancel={closeCreate} submitLabel="Create class" submitting={createSaving} error={createError} />}
+        </DialogContent>
+      </Dialog>
 
       <StudentActivityDialog student={activityStudent} onClose={() => setActivityStudent(null)} />
     </div>
@@ -248,332 +331,113 @@ export default function TeacherDashboard() {
 
 /* ------------------------------------------------------------ Overview */
 
-function OverviewTab({ user, groups, activeStudents, activeAssignments, attention, recent, onNavigate, onAssign }) {
-  const runningGroups = groups.filter((g) => g.group_status === "running").length;
-  const stats = [
-    { label: "Classes", value: runningGroups, icon: Users, tab: "classes" },
-    { label: "Students", value: activeStudents.length, icon: Users, tab: "students" },
-    { label: "Active homework", value: activeAssignments.length, icon: ClipboardList, tab: "assignments" },
-    { label: "Need attention", value: attention.length, icon: AlertTriangle, tab: "students", warn: attention.length > 0 },
+function OverviewTab({ user, hasClasses, activeAssignments, attention, recent, go, onAssign }) {
+  const overdueCount = attention.filter((s) => s.overdue > 0).length;
+  const inactiveCount = attention.filter((s) => s.activity === "inactive").length;
+  const latest = recent[0];
+  const nextDue = activeAssignments
+    .filter((a) => a.due_date)
+    .sort((a, b) => a.due_date.localeCompare(b.due_date))[0];
+  const cards = [
+    {
+      key: "attention",
+      title: "Needs attention",
+      value: attention.length,
+      icon: AlertTriangle,
+      warn: attention.length > 0,
+      sub: attention.length
+        ? [overdueCount && `${overdueCount} with overdue work`, inactiveCount && `${inactiveCount} inactive 14d+`].filter(Boolean).join(" · ")
+        : "Nobody is behind",
+      onClick: () => go("students", { filter: "attention" }),
+    },
+    {
+      key: "recent",
+      title: "Recently completed",
+      value: recent.length,
+      icon: CheckCircle2,
+      sub: latest ? `Latest: ${latest.student_name} · ${timeAgo(latest.completed_at)}` : "No completions yet",
+      onClick: () => go("assignments", { view: "recent" }),
+    },
+    {
+      key: "active",
+      title: "Active homework",
+      value: activeAssignments.length,
+      icon: ClipboardList,
+      sub: nextDue ? `Next due ${formatDate(nextDue.due_date)}` : activeAssignments.length ? "No due dates set" : "No homework out",
+      onClick: () => go("assignments", { view: "active" }),
+    },
   ];
   return (
-    <div className="space-y-5">
-      <div className="bg-gradient-to-br from-primary/15 via-primary/5 to-transparent rounded-2xl border border-primary/20 p-5">
-        <p className="text-xs text-muted-foreground">{greetingWord()},</p>
-        <h1 className="text-xl font-bold text-foreground">{resolveUserNameOrEmail(user)?.split(" ")[0] || "Teacher"}</h1>
-        <div className="grid grid-cols-2 gap-3 mt-4">
-          <Button onClick={onAssign} className="h-11 gap-2" disabled={groups.length === 0}>
-            <Sparkles className="w-4 h-4" /> Assign homework
-          </Button>
-          <Button onClick={() => onNavigate("classes")} variant="outline" className="h-11 gap-2">
-            <Plus className="w-4 h-4" /> New class
-          </Button>
+    <div className="space-y-4">
+      <div className="bg-gradient-to-br from-primary/20 via-primary/5 to-transparent rounded-2xl border border-primary/25 p-5 space-y-4">
+        <div>
+          <p className="text-xs text-muted-foreground">{greetingWord()},</p>
+          <h1 className="text-xl font-bold text-foreground">{resolveUserNameOrEmail(user)?.split(" ")[0] || "Teacher"}</h1>
         </div>
-        {groups.length === 0 && (
-          <p className="text-xs text-muted-foreground mt-3">Start by creating a class. Each class gets a code your students enter to join.</p>
+        <Button onClick={onAssign} className="w-full h-16 gap-3 text-lg font-bold rounded-2xl shadow-lg shadow-primary/30">
+          <Sparkles className="w-5 h-5" /> Assign Homework
+        </Button>
+        {!hasClasses && (
+          <p className="text-xs text-muted-foreground">
+            You need a class first.{" "}
+            <button onClick={() => go("classes", { new: "1" })} className="text-primary font-semibold underline-offset-2 hover:underline">Create one in My Classes</button>
+          </p>
         )}
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {stats.map((s) => (
-          <button key={s.label} onClick={() => onNavigate(s.tab)} className="bg-background rounded-xl p-3 border border-border text-left hover:border-primary/40 transition-colors">
-            <s.icon className={`w-4 h-4 mb-1 ${s.warn ? "text-amber-500" : "text-primary"}`} />
-            <p className={`text-lg font-bold ${s.warn ? "text-amber-600" : "text-foreground"}`}>{s.value}</p>
-            <p className="text-[11px] text-muted-foreground">{s.label}</p>
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        {cards.map((c) => (
+          <button key={c.key} onClick={c.onClick}
+            className="group bg-background rounded-2xl border border-border p-4 text-left hover:border-primary/40 transition-colors flex sm:flex-col items-center sm:items-start gap-3 min-h-[72px]">
+            <div className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${c.warn ? "bg-amber-500/10" : "bg-primary/10"}`}>
+              <c.icon className={`w-5 h-5 ${c.warn ? "text-amber-500" : "text-primary"}`} />
+            </div>
+            <div className="min-w-0 flex-1">
+              <div className="flex items-baseline gap-2">
+                <p className={`text-2xl font-bold tabular-nums ${c.warn ? "text-amber-600" : "text-foreground"}`}>{c.value}</p>
+                <p className="text-sm font-semibold text-foreground">{c.title}</p>
+              </div>
+              <p className="text-xs text-muted-foreground truncate">{c.sub}</p>
+            </div>
+            <ChevronRight className="w-4 h-4 text-muted-foreground flex-shrink-0 sm:hidden" />
+            <span className="hidden sm:inline text-xs font-semibold text-primary group-hover:underline">View all →</span>
           </button>
         ))}
       </div>
-
-      <Section title="Needs attention" empty={attention.length === 0 ? "Nobody is behind. Overdue homework and students inactive for 14+ days show up here." : null}>
-        {attention.slice(0, 8).map((s) => (
-          <Row key={s.email} title={s.name} sub={s.group_label || s.group_code}>
-            {s.overdue > 0 && <Pill cls={HW_STYLES.overdue.cls}>{s.overdue} overdue</Pill>}
-            {s.activity === "inactive" && <Pill cls={ACTIVITY_STYLES.inactive.cls}>Inactive 14d+</Pill>}
-          </Row>
-        ))}
-      </Section>
-
-      <Section title="Recently completed" empty={recent.length === 0 ? "Completed homework will appear here as students finish it." : null}>
-        {recent.slice(0, 8).map((r) => (
-          <Row key={`${r.assignment_id}-${r.student_email}`} title={r.student_name} sub={`${r.assignment_title} · ${timeAgo(r.completed_at)}`}>
-            {r.best_score_pct != null && <span className="text-sm font-bold text-emerald-600 tabular-nums">{r.best_score_pct}%</span>}
-            {r.completed_late && <Pill cls={HW_STYLES.overdue.cls}>late</Pill>}
-          </Row>
-        ))}
-      </Section>
-
-      <Section title="Active homework" empty={activeAssignments.length === 0 ? "No homework out right now." : null}>
-        {activeAssignments.slice(0, 5).map((a) => (
-          <Row key={a.id} title={a.title} sub={`${a.group_label || a.group_code}${a.due_date ? ` · due ${formatDate(a.due_date)}` : ""}`}>
-            <span className="text-xs text-muted-foreground tabular-nums">{a.counts.completed}/{a.counts.total} done</span>
-            {a.counts.overdue > 0 && <Pill cls={HW_STYLES.overdue.cls}>{a.counts.overdue} overdue</Pill>}
-          </Row>
-        ))}
-      </Section>
-    </div>
-  );
-}
-
-function Section({ title, empty, children, action }) {
-  return (
-    <section className="bg-background rounded-2xl border border-border overflow-hidden">
-      <div className="px-5 py-3 border-b border-border flex items-center justify-between">
-        <h3 className="text-sm font-semibold text-muted-foreground">{title}</h3>
-        {action}
-      </div>
-      {empty ? <p className="px-5 py-6 text-sm text-muted-foreground text-center">{empty}</p> : children}
-    </section>
-  );
-}
-
-function Row({ title, sub, children, onClick }) {
-  const Comp = onClick ? "button" : "div";
-  return (
-    <Comp onClick={onClick} className={`w-full flex items-center justify-between gap-3 px-5 py-3 border-b border-border last:border-0 text-left ${onClick ? "hover:bg-muted/30 transition-colors" : ""}`}>
-      <div className="min-w-0">
-        <p className="text-sm font-medium text-foreground truncate">{title}</p>
-        {sub && <p className="text-xs text-muted-foreground truncate">{sub}</p>}
-      </div>
-      <div className="flex items-center gap-1.5 flex-shrink-0">{children}</div>
-    </Comp>
-  );
-}
-
-/* ------------------------------------------------------------ Classes */
-
-function ClassesTab({ groups, students, onChanged, flash, onActivity }) {
-  const [creating, setCreating] = useState(false);
-  const [editingId, setEditingId] = useState(null);
-  const [expanded, setExpanded] = useState(null);
-  const [saving, setSaving] = useState(false);
-  const [error, setError] = useState("");
-
-  const save = async (fields, groupId) => {
-    setSaving(true);
-    setError("");
-    try {
-      if (groupId) await teacherApi("updateGroup", { group_id: groupId, ...fields });
-      else await teacherApi("createGroup", fields);
-      setCreating(false);
-      setEditingId(null);
-      flash(groupId ? "Class updated." : "Class created. Share its code with your students.");
-      await onChanged();
-    } catch (e) {
-      setError(e?.message || "Couldn't save the class.");
-    } finally {
-      setSaving(false);
-    }
-  };
-
-  const setRoster = async (student, removed) => {
-    try {
-      await teacherApi("setRoster", { subscription_id: student.subscription_id, removed });
-      flash(removed ? `${student.name} removed from the class.` : `${student.name} restored.`);
-      await onChanged();
-    } catch (e) {
-      flash(e?.message || "Couldn't update the roster.");
-    }
-  };
-
-  const copyCode = (code) => {
-    navigator.clipboard?.writeText(code);
-    flash(`Code copied: ${code}`);
-  };
-
-  return (
-    <div className="space-y-4">
-      {!creating ? (
-        <Button onClick={() => setCreating(true)} variant="outline" className="w-full h-11 gap-1.5">
-          <Plus className="w-4 h-4" /> New class
-        </Button>
-      ) : (
-        <GroupForm onSubmit={(f) => save(f)} onCancel={() => setCreating(false)} submitLabel="Create class" submitting={saving} />
-      )}
-      {error && <p className="text-sm text-destructive">{error}</p>}
-      {groups.length === 0 && !creating && (
-        <p className="text-center text-sm text-muted-foreground py-6">No classes yet. Create one to get a join code.</p>
-      )}
-      {groups.map((g) => {
-        const members = students.filter((s) => s.group_code === g.code);
-        if (editingId === g.id) {
-          return (
-            <GroupForm key={g.id} initial={g} onSubmit={(f) => save(f, g.id)} onCancel={() => setEditingId(null)} submitLabel="Save changes" submitting={saving} />
-          );
-        }
-        return (
-          <GroupCard
-            key={g.id}
-            group={g}
-            members={members}
-            expanded={expanded === g.id}
-            onToggle={() => setExpanded(expanded === g.id ? null : g.id)}
-            onCopy={() => copyCode(g.code)}
-            onEdit={() => setEditingId(g.id)}
-            onRoster={setRoster}
-            onActivity={onActivity}
-          />
-        );
-      })}
-    </div>
-  );
-}
-
-function GroupForm({ initial, onSubmit, onCancel, submitLabel, submitting }) {
-  const [label, setLabel] = useState(initial?.label || "");
-  const [level, setLevel] = useState(initial?.level || "");
-  const [days, setDays] = useState(initial?.days || []);
-  const [startTime, setStartTime] = useState(initial?.start_time || "");
-  const [endTime, setEndTime] = useState(initial?.end_time || "");
-  const [groupStatus, setGroupStatus] = useState(initial?.group_status || "running");
-  const toggleDay = (d) => setDays((prev) => (prev.includes(d) ? prev.filter((x) => x !== d) : [...prev, d]));
-  const submit = () => {
-    const fields = { label: label.trim(), level: level || null, days, start_time: startTime || null, end_time: endTime || null };
-    if (initial) fields.group_status = groupStatus;
-    onSubmit(fields);
-  };
-  return (
-    <div className="bg-background rounded-2xl border border-border p-5 space-y-3">
-      <h3 className="text-sm font-semibold text-foreground">{initial ? "Edit class" : "New class"}</h3>
-      <input type="text" placeholder="Class name, e.g. B2 Evening" value={label} onChange={(e) => setLabel(e.target.value)}
-        className="w-full h-10 px-3 border border-input rounded-xl text-sm bg-background text-foreground focus:border-primary focus:outline-none transition-colors" />
-      <select value={level} onChange={(e) => setLevel(e.target.value)} className="w-full h-10 px-3 border border-input rounded-xl text-sm bg-background text-foreground">
-        <option value="">Level (optional)</option>
-        {LEVEL_OPTIONS.map((l) => <option key={l} value={l}>{l}</option>)}
-      </select>
-      <div>
-        <p className="text-xs text-muted-foreground mb-1.5">Days</p>
-        <div className="flex flex-wrap gap-1.5">
-          {DAY_OPTIONS.map((d) => (
-            <button key={d} type="button" onClick={() => toggleDay(d)}
-              className={`w-10 h-9 rounded-lg text-xs font-bold select-none transition-colors ${days.includes(d) ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground hover:bg-muted/70"}`}>
-              {d.slice(0, 2)}
-            </button>
-          ))}
-        </div>
-      </div>
-      <div className="flex gap-2">
-        <input type="time" value={startTime} onChange={(e) => setStartTime(e.target.value)} aria-label="Start time"
-          className="flex-1 h-10 px-3 border border-input rounded-xl text-sm bg-background text-foreground" />
-        <input type="time" value={endTime} onChange={(e) => setEndTime(e.target.value)} aria-label="End time"
-          className="flex-1 h-10 px-3 border border-input rounded-xl text-sm bg-background text-foreground" />
-      </div>
-      {initial && (
-        <div>
-          <p className="text-xs text-muted-foreground mb-1.5">Status</p>
-          <div className="grid grid-cols-3 gap-1.5">
-            {["running", "paused", "ended"].map((st) => (
-              <button key={st} type="button" onClick={() => setGroupStatus(st)}
-                className={`h-9 rounded-lg text-xs font-semibold select-none capitalize transition-colors ${groupStatus === st ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground hover:bg-muted/70"}`}>
-                {st}
-              </button>
-            ))}
-          </div>
-          {groupStatus === "ended" && <p className="text-[11px] text-muted-foreground mt-1.5">Ended classes stop accepting new students and new homework.</p>}
-        </div>
-      )}
-      <div className="flex gap-2 pt-1">
-        <Button onClick={submit} disabled={submitting} className="flex-1 h-10">{submitting ? "Saving..." : submitLabel}</Button>
-        {onCancel && <Button variant="outline" onClick={onCancel} className="h-10">Cancel</Button>}
-      </div>
-    </div>
-  );
-}
-
-function GroupCard({ group, members, expanded, onToggle, onCopy, onEdit, onRoster, onActivity }) {
-  const active = members.filter((s) => s.roster_status === "active");
-  const removed = members.filter((s) => s.roster_status === "removed");
-  const [showRemoved, setShowRemoved] = useState(false);
-  const inactive = active.filter((s) => s.activity === "inactive").length;
-  return (
-    <div className="bg-background rounded-2xl border border-border overflow-hidden">
-      <button onClick={onToggle} className="w-full flex items-center justify-between px-5 py-4 hover:bg-muted/30 transition-colors text-left gap-3">
-        <div className="flex items-center gap-3 min-w-0">
-          <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0"><Users className="w-5 h-5 text-primary" /></div>
-          <div className="min-w-0">
-            <div className="flex items-center gap-1.5 flex-wrap">
-              <p className="text-sm font-semibold text-foreground truncate">{group.label || "Untitled class"}</p>
-              {group.level && <Pill cls="text-primary bg-primary/10">{group.level}</Pill>}
-              <Pill cls={`capitalize ${GROUP_STATUS_STYLES[group.group_status] || ""}`}>{group.group_status}</Pill>
-            </div>
-            <p className="text-xs text-muted-foreground mt-0.5 truncate">
-              {group.days?.length ? formatDayPattern(group.days) : "No schedule set"}
-              {group.start_time && ` · ${group.start_time}${group.end_time ? `–${group.end_time}` : ""}`}
-              {` · ${active.length} student${active.length !== 1 ? "s" : ""}`}
-              {inactive > 0 && <span className="text-amber-600 font-semibold">{` · ${inactive} inactive`}</span>}
-            </p>
-          </div>
-        </div>
-        <div className="flex items-center gap-2 flex-shrink-0">
-          <span className="hidden sm:inline font-mono text-xs font-bold text-primary bg-primary/10 px-2 py-1 rounded-lg">{group.code}</span>
-          <ChevronDown className={`w-4 h-4 text-muted-foreground transition-transform ${expanded ? "rotate-180" : ""}`} />
-        </div>
-      </button>
-      <AnimatePresence>
-        {expanded && (
-          <motion.div initial={{ height: 0 }} animate={{ height: "auto" }} exit={{ height: 0 }} className="overflow-hidden">
-            <div className="border-t border-border px-5 py-2.5 flex items-center justify-between gap-2 bg-muted/20">
-              <button onClick={onCopy} className="text-xs font-mono font-bold text-primary flex items-center gap-1.5">
-                <Copy className="w-3.5 h-3.5" /> Join code {group.code}
-              </button>
-              <button onClick={onEdit} className="text-xs font-medium text-muted-foreground hover:text-foreground">Edit class</button>
-            </div>
-            {active.length === 0 ? (
-              <p className="text-center text-xs text-muted-foreground py-6">No students yet. They join by entering <span className="font-mono font-bold">{group.code}</span> at sign-up or in their profile.</p>
-            ) : active.map((s) => (
-              <div key={s.subscription_id} className="flex items-center justify-between px-5 py-3 border-t border-border gap-2">
-                <div className="min-w-0">
-                  <p className="text-sm font-medium text-foreground truncate">{s.name}</p>
-                  <p className="text-xs text-muted-foreground truncate">{s.email}</p>
-                </div>
-                <div className="flex items-center gap-1.5 flex-shrink-0">
-                  <Pill cls={ACTIVITY_STYLES[s.activity]?.cls}>{ACTIVITY_STYLES[s.activity]?.label}</Pill>
-                  <Button variant="outline" size="sm" onClick={() => onActivity({ email: s.email, name: s.name })} className="h-7 gap-1 text-xs">
-                    <Activity className="w-3.5 h-3.5" /> Activity
-                  </Button>
-                  <button onClick={() => onRoster(s, true)} title="Remove from class" aria-label={`Remove ${s.name} from class`}
-                    className="p-1.5 rounded-lg bg-destructive/10 text-destructive hover:bg-destructive/20 transition-colors">
-                    <UserMinus className="w-4 h-4" />
-                  </button>
-                </div>
-              </div>
-            ))}
-            {removed.length > 0 && (
-              <div className="border-t border-border px-5 py-2.5">
-                <button onClick={() => setShowRemoved((v) => !v)} className="text-xs text-muted-foreground hover:text-foreground">
-                  {showRemoved ? "Hide" : "Show"} {removed.length} removed
-                </button>
-                {showRemoved && removed.map((s) => (
-                  <div key={s.subscription_id} className="flex items-center justify-between py-2">
-                    <p className="text-xs text-muted-foreground">{s.name}</p>
-                    <button onClick={() => onRoster(s, false)} className="text-xs text-primary font-medium">Restore</button>
-                  </div>
-                ))}
-              </div>
-            )}
-          </motion.div>
-        )}
-      </AnimatePresence>
     </div>
   );
 }
 
 /* ------------------------------------------------------------ Students */
 
-function StudentsTab({ groups, students, hwByStudent, onActivity }) {
+function StudentsTab({ groups, students, attention, hwByStudent, onlyAttention, setOnlyAttention, onActivity }) {
   const [groupFilter, setGroupFilter] = useState("all");
+  const attentionEmails = new Set(attention.map((s) => s.email));
   const rows = students
     .filter((s) => s.roster_status === "active")
+    .filter((s) => !onlyAttention || attentionEmails.has(s.email))
     .filter((s) => groupFilter === "all" || s.group_code === groupFilter);
   return (
     <div className="space-y-3">
-      {groups.length > 1 && (
-        <select value={groupFilter} onChange={(e) => setGroupFilter(e.target.value)}
-          className="w-full h-10 px-3 border border-input rounded-xl text-sm bg-background text-foreground">
-          <option value="all">All classes</option>
-          {groups.map((g) => <option key={g.id} value={g.code}>{g.label || g.code}</option>)}
-        </select>
-      )}
-      <Section title={`Students (${rows.length})`} empty={rows.length === 0 ? "No students yet. Share a class code to get started." : null}>
+      <div className="flex flex-wrap gap-2">
+        <div className="grid grid-cols-2 gap-1 bg-muted p-1 rounded-xl">
+          <button onClick={() => setOnlyAttention(false)} aria-pressed={!onlyAttention}
+            className={`h-10 px-3 rounded-lg text-xs font-semibold ${!onlyAttention ? "bg-background text-foreground shadow-sm" : "text-muted-foreground"}`}>All students</button>
+          <button onClick={() => setOnlyAttention(true)} aria-pressed={onlyAttention}
+            className={`h-10 px-3 rounded-lg text-xs font-semibold ${onlyAttention ? "bg-background text-foreground shadow-sm" : "text-muted-foreground"}`}>Needs attention ({attention.length})</button>
+        </div>
+        {groups.length > 1 && (
+          <select value={groupFilter} onChange={(e) => setGroupFilter(e.target.value)} aria-label="Filter by class"
+            className="flex-1 min-w-[160px] h-12 px-3 border border-input rounded-xl text-sm bg-background text-foreground">
+            <option value="all">All classes</option>
+            {groups.map((g) => <option key={g.id} value={g.code}>{g.label || g.code}</option>)}
+          </select>
+        )}
+      </div>
+      <Section
+        title={`${onlyAttention ? "Needs attention" : "Students"} (${rows.length})`}
+        empty={rows.length === 0 ? (onlyAttention ? "Nobody is behind. Overdue homework and students inactive for 14+ days show up here." : "No students yet. Share a class code to get started.") : null}
+      >
         {rows.map((s) => {
           const hw = hwByStudent[s.email] || { total: 0, completed: 0, overdue: 0 };
           const kind = SUB_KIND_META[s.plan_kind];
@@ -590,9 +454,9 @@ function StudentsTab({ groups, students, hwByStudent, onActivity }) {
               <div className="flex items-center gap-1.5 flex-shrink-0">
                 {hw.overdue > 0 && <Pill cls={HW_STYLES.overdue.cls}>{hw.overdue} overdue</Pill>}
                 <Pill cls={ACTIVITY_STYLES[s.activity]?.cls}>{ACTIVITY_STYLES[s.activity]?.label}</Pill>
-                {kind && <Pill cls={kind.cls}>{kind.label}</Pill>}
-                <Button variant="outline" size="sm" onClick={() => onActivity({ email: s.email, name: s.name })} className="h-7 gap-1 text-xs">
-                  <Activity className="w-3.5 h-3.5" />
+                {kind && <span className="hidden sm:inline"><Pill cls={kind.cls}>{kind.label}</Pill></span>}
+                <Button variant="outline" size="sm" onClick={() => onActivity({ email: s.email, name: s.name })} className="h-10 w-10 p-0" aria-label={`${s.name} progress`}>
+                  <Activity className="w-4 h-4" />
                 </Button>
               </div>
             </div>
@@ -605,9 +469,8 @@ function StudentsTab({ groups, students, hwByStudent, onActivity }) {
 
 /* ------------------------------------------------------------ Assignments */
 
-function AssignmentsTab({ assignments, onAssign, onChanged, flash }) {
+function AssignmentsTab({ assignments, recent, view, setView, onAssign, onChanged, flash }) {
   const [expanded, setExpanded] = useState(null);
-  const [showClosed, setShowClosed] = useState(false);
   const active = assignments.filter((a) => a.status === "active");
   const closed = assignments.filter((a) => a.status !== "active");
 
@@ -621,26 +484,49 @@ function AssignmentsTab({ assignments, onAssign, onChanged, flash }) {
     }
   };
 
+  const views = [
+    { id: "active", label: `Active (${active.length})` },
+    { id: "recent", label: "Recently completed" },
+    { id: "closed", label: `Closed (${closed.length})` },
+  ];
+
   return (
     <div className="space-y-4">
-      <Button onClick={onAssign} className="w-full h-11 gap-2"><Sparkles className="w-4 h-4" /> Assign homework</Button>
-      {active.length === 0 && <p className="text-center text-sm text-muted-foreground py-6">No active homework.</p>}
-      {active.map((a) => (
-        <AssignmentCard key={a.id} a={a} expanded={expanded === a.id} onToggle={() => setExpanded(expanded === a.id ? null : a.id)} onClose={() => toggleClosed(a)} />
-      ))}
-      {closed.length > 0 && (
-        <div>
-          <button onClick={() => setShowClosed((v) => !v)} className="text-xs text-muted-foreground hover:text-foreground">
-            {showClosed ? "Hide" : "Show"} {closed.length} closed
+      <Button onClick={onAssign} className="hidden sm:flex w-full h-12 gap-2 text-base"><Sparkles className="w-4 h-4" /> Assign homework</Button>
+      <div className="grid grid-cols-3 gap-1 bg-muted p-1 rounded-xl" role="group" aria-label="Homework view">
+        {views.map((v) => (
+          <button key={v.id} onClick={() => setView(v.id)} aria-pressed={view === v.id}
+            className={`min-h-[44px] rounded-lg text-[11px] sm:text-xs font-semibold px-1 leading-tight ${view === v.id ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"}`}>
+            {v.label}
           </button>
-          {showClosed && (
-            <div className="space-y-3 mt-3">
-              {closed.map((a) => (
-                <AssignmentCard key={a.id} a={a} expanded={expanded === a.id} onToggle={() => setExpanded(expanded === a.id ? null : a.id)} onClose={() => toggleClosed(a)} />
-              ))}
-            </div>
-          )}
-        </div>
+        ))}
+      </div>
+
+      {view === "active" && (
+        active.length === 0
+          ? <p className="text-center text-sm text-muted-foreground py-6">No active homework.</p>
+          : active.map((a) => (
+            <AssignmentCard key={a.id} a={a} expanded={expanded === a.id} onToggle={() => setExpanded(expanded === a.id ? null : a.id)} onClose={() => toggleClosed(a)} />
+          ))
+      )}
+
+      {view === "recent" && (
+        <Section title="Recently completed" empty={recent.length === 0 ? "Completed homework will appear here as students finish it." : null}>
+          {recent.map((r) => (
+            <Row key={`${r.assignment_id}-${r.student_email}`} title={r.student_name} sub={`${r.assignment_title} · ${timeAgo(r.completed_at)}`}>
+              {r.best_score_pct != null && <span className="text-sm font-bold text-emerald-600 tabular-nums">{r.best_score_pct}%</span>}
+              {r.completed_late && <Pill cls={HW_STYLES.overdue.cls}>late</Pill>}
+            </Row>
+          ))}
+        </Section>
+      )}
+
+      {view === "closed" && (
+        closed.length === 0
+          ? <p className="text-center text-sm text-muted-foreground py-6">No closed homework.</p>
+          : closed.map((a) => (
+            <AssignmentCard key={a.id} a={a} expanded={expanded === a.id} onToggle={() => setExpanded(expanded === a.id ? null : a.id)} onClose={() => toggleClosed(a)} />
+          ))
       )}
     </div>
   );
@@ -690,8 +576,8 @@ function AssignmentCard({ a, expanded, onToggle, onClose }) {
                 </div>
               </div>
             ))}
-            <div className="px-5 py-2.5 bg-muted/20 flex justify-end">
-              <button onClick={onClose} className="text-xs font-medium text-muted-foreground hover:text-foreground">
+            <div className="px-5 py-2 bg-muted/20 flex justify-end">
+              <button onClick={onClose} className="h-10 px-2 text-xs font-medium text-muted-foreground hover:text-foreground">
                 {a.status === "active" ? "Close homework" : "Reopen homework"}
               </button>
             </div>
@@ -715,7 +601,7 @@ function MaterialsTab({ onOpen }) {
       <p className="text-sm text-muted-foreground">
         Upload or paste your own teaching material. VIRORA stores it and writes a short summary. You can't turn materials into homework or share them with students yet.
       </p>
-      <Button onClick={onOpen} variant="outline" className="gap-2"><FileText className="w-4 h-4" /> Open Material Library</Button>
+      <Button onClick={onOpen} variant="outline" className="gap-2 h-11"><FileText className="w-4 h-4" /> Open Material Library</Button>
     </div>
   );
 }
@@ -774,7 +660,7 @@ function StudentActivityDialog({ student, onClose }) {
   }, [student?.email]);
   return (
     <Dialog open={!!student} onOpenChange={(open) => { if (!open) onClose(); }}>
-      <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-xl sm:rounded-2xl">
+      <DialogContent className="max-h-[90vh] overflow-y-auto w-[calc(100vw-1rem)] sm:max-w-xl rounded-2xl">
         <DialogHeader>
           <DialogTitle>{student?.name || "Student"} · Progress</DialogTitle>
           <DialogDescription>Skill levels from graded practice, and active learning time recorded in VIRORA.</DialogDescription>
