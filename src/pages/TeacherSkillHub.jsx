@@ -1,13 +1,17 @@
 import BrandLoader from "@/components/loading/PageLoader";
 import React, { useEffect, useState } from "react";
 import { base44 } from "@/api/base44Client";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate, useNavigate, useSearchParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import SkillHub from "@/pages/SkillHub";
 import { teacherApi } from "@/lib/serverApi";
 
 export default function TeacherSkillHub() {
   const navigate = useNavigate();
+  // ?class=<id> (from My Classes / Class Details): preselect that class.
+  // SkillHub defaults to the first group, so the chosen one goes first.
+  const [searchParams] = useSearchParams();
+  const preferredClass = searchParams.get("class");
   const [user, setUser] = useState(null);
   const [groups, setGroups] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -26,7 +30,8 @@ export default function TeacherSkillHub() {
         const active = (data.students || []).filter((s) => s.roster_status === "active");
         const rows = (data.groups || [])
           .filter((g) => g.group_status !== "ended")
-          .map((g) => ({ ...g, students: active.filter((s) => s.group_code === g.code) }));
+          .map((g) => ({ ...g, students: active.filter((s) => s.group_code === g.code) }))
+          .sort((a, b) => (b.id === preferredClass) - (a.id === preferredClass));
         if (!cancelled) {
           setUser(me);
           setGroups(rows);
