@@ -1,5 +1,5 @@
 // Vira mascot MVP (2026-11-13). Scripted, no AI: a pose + a line per moment.
-// Pure (no React). Poses live in public/mascots/vira/<mood>/vira_base_<mood>_<nn>.webp
+// Pure (no React). Poses live in public/assets/vira/<mood>/vira_base_<mood>_<nn>.webp
 // (source of truth: Desktop/VIRORA/Mascots and Characters/vira/base/app on Tee's Mac).
 // To add poses: copy the files in and widen the [first, last] range in POSES.
 // Lines follow the app language (useAppLang). Formal "siz"/"вы" to match the app.
@@ -99,6 +99,6 @@ export function viraFor(moment, lang = "en", vars = {}) {
   const mood = moods[pickIndex(`vira_mood_${moment}`, moods.length)];
   const [first, last] = POSES[mood] || POSES.neutral;
   const nn = String(first + pickIndex(`vira_pose_${mood}`, last - first + 1)).padStart(2, "0");
-  const src = `/mascots/vira/${mood}/vira_base_${mood}_${nn}.webp`;
+  const src = `/assets/vira/${mood}/vira_base_${mood}_${nn}.webp`;
   return { src, text, mood };
 }
