@@ -46,6 +46,8 @@ export default function Home() {
   // form, so it arrives with no level, no goals and no class code. Send it to
   // onboarding to answer those four questions instead of silently defaulting.
   const [needsSetup, setNeedsSetup] = useState(false);
+  // Admin Console ban (AccountBan, 11 Nov 2026): every learner API refuses this account.
+  const [banned, setBanned] = useState(false);
   const [searchParams, setSearchParams] = useSearchParams();
   // "tutor" was the old AI Teacher tab, replaced by Deep Mode (2026-10-05).
   // Old links/bookmarks to ?tab=tutor land on Deep Mode instead.
@@ -131,6 +133,7 @@ export default function Home() {
         const res = await refreshMySubscription();
         if (res?.subscription) setSubscription(res.subscription);
       } catch (subErr) {
+        if (subErr?.code === "account_banned") { setBanned(true); return; }
         console.error("subscription refresh failed, reading directly:", subErr);
         let subs = await base44.entities.StudentSubscription.filter({ phone: me.email });
         if (subs.length === 0) subs = await base44.entities.StudentSubscription.filter({ created_by_id: me.id });
@@ -190,6 +193,20 @@ export default function Home() {
   }
 
   if (needsSetup) return <Navigate to="/onboarding" replace />;
+
+  if (banned) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background px-6">
+        <div className="max-w-sm text-center" data-testid="account-banned">
+          <h1 className="text-xl font-bold text-foreground">Account suspended</h1>
+          <p className="mt-2 text-sm text-muted-foreground">This VIRORA account has been suspended. If you think this is a mistake, contact us at gameboey0191@gmail.com.</p>
+          <p className="mt-1 text-sm text-muted-foreground">Bu VIRORA hisobi to'xtatilgan. Xato deb o'ylasangiz, biz bilan bog'laning.</p>
+          <p className="mt-1 text-sm text-muted-foreground">Этот аккаунт VIRORA заблокирован. Если это ошибка, свяжитесь с нами.</p>
+          <button onClick={handleLogout} className="mt-6 h-11 px-6 rounded-xl border border-border text-sm font-semibold">Log out</button>
+        </div>
+      </div>
+    );
+  }
 
   const isAdmin = user?.role === "admin";
   // A real (non-admin) teacher whose application is approved gets the same
