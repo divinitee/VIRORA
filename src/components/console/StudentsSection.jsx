@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTitle, SheetDescription } from "@/components/
 import { PlanDot } from "@/components/payments/MemberCard";
 import { planKey } from "@/lib/planTheme";
 import { consoleApi, errorText } from "@/lib/consoleApi";
+import BulkBar from "./BulkBar";
 
 // Students (VT-35 P2a). Read through adminApi `studentsList` / `studentDetail`,
 // every change through `studentAction` (audited server-side). Nothing here
@@ -334,6 +335,9 @@ export default function StudentsSection({ onSessionLost }) {
   const [showStaff, setShowStaff] = useState(false);
   const [openId, setOpenId] = useState(null);
   const [showOrphans, setShowOrphans] = useState(false);
+  // Bulk select (11 Nov 2026): ids of ticked rows.
+  const [picked, setPicked] = useState(() => new Set());
+  const togglePick = (id) => setPicked((prev) => { const n = new Set(prev); if (n.has(id)) n.delete(id); else n.add(id); return n; });
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -364,6 +368,20 @@ export default function StudentsSection({ onSessionLost }) {
       })
       .sort((a, b) => String(b.last_active_at || "").localeCompare(String(a.last_active_at || "")));
   }, [data, q, kind, group, endingSoon, showStaff]);
+
+  const pickedRows = data ? data.rows.filter((r) => picked.has(r.user_id)) : [];
+  const allShownPicked = rows.length > 0 && rows.every((r) => picked.has(r.user_id));
+  const toggleAllShown = () => setPicked((prev) => {
+    const n = new Set(prev);
+    if (allShownPicked) rows.forEach((r) => n.delete(r.user_id)); else rows.slice(0, 50).forEach((r) => n.add(r.user_id));
+    return n;
+  });
+  const PickBox = ({ r }) => (
+    <input type="checkbox" aria-label={`Select ${r.name}`} checked={picked.has(r.user_id)} disabled={r.role === "admin"}
+      onClick={(e) => e.stopPropagation()} onChange={() => togglePick(r.user_id)}
+      className="h-4 w-4 shrink-0 accent-violet-500 disabled:opacity-30" />
+  );
+  const BannedTag = ({ r }) => (r.banned ? <span className="rounded bg-rose-500/20 px-1.5 py-0.5 text-[10px] font-bold uppercase text-rose-300">Banned</span> : null);
 
   if (!data) {
     return <div className="flex h-64 items-center justify-center">{error ? <p className="text-sm text-rose-300">{errorText(error)}</p> : <BrandLoader size={48} />}</div>;
@@ -403,19 +421,27 @@ export default function StudentsSection({ onSessionLost }) {
         </div>
       </div>
 
+      <BulkBar
+        selected={pickedRows}
+        onClear={() => setPicked(new Set())}
+        onDone={(op) => { if (op === "delete") setPicked(new Set()); load(); }}
+        onSessionLost={onSessionLost}
+      />
+
       {/* desktop table */}
       <div className="hidden overflow-hidden rounded-2xl border border-white/10 bg-[#11122A] md:block">
         <table className="w-full text-left text-sm">
           <thead className="text-xs uppercase tracking-wider text-white/40">
-            <tr><th className="px-4 py-2">Student</th><th className="px-2 py-2">Plan</th><th className="px-2 py-2">Ends</th><th className="px-2 py-2">Group</th><th className="px-2 py-2">Level</th><th className="px-2 py-2">Active</th><th className="px-2 py-2">Paid by</th></tr>
+            <tr><th className="w-8 py-2 pl-4"><input type="checkbox" aria-label="Select all shown" checked={allShownPicked} onChange={toggleAllShown} className="h-4 w-4 accent-violet-500" /></th><th className="px-4 py-2">Student</th><th className="px-2 py-2">Plan</th><th className="px-2 py-2">Ends</th><th className="px-2 py-2">Group</th><th className="px-2 py-2">Level</th><th className="px-2 py-2">Active</th><th className="px-2 py-2">Paid by</th></tr>
           </thead>
           <tbody>
             {rows.map((r) => (
-              <tr key={r.user_id} onClick={() => setOpenId(r.user_id)} className="cursor-pointer border-t border-white/5 hover:bg-white/5">
+              <tr key={r.user_id} onClick={() => setOpenId(r.user_id)} className={`cursor-pointer border-t border-white/5 hover:bg-white/5 ${picked.has(r.user_id) ? "bg-violet-500/10" : ""}`}>
+                <td className="py-2.5 pl-4" onClick={(e) => e.stopPropagation()}><PickBox r={r} /></td>
                 <td className="px-4 py-2.5">
                   <div className="flex items-center gap-2.5">
                     <PlanDot plan={dotPlan(r.sub)} />
-                    <div className="min-w-0"><p className="truncate font-medium">{r.name}</p><p className="truncate text-xs text-white/40">{r.email}</p></div>
+                    <div className="min-w-0"><p className="flex items-center gap-1.5 truncate font-medium">{r.name} <BannedTag r={r} /></p><p className="truncate text-xs text-white/40">{r.email}</p></div>
                   </div>
                 </td>
                 <td className="px-2 py-2.5"><div className="flex items-center gap-1.5"><span className="text-white/80">{r.sub?.plan?.replace(" Plan", "") || "—"}</span><KindBadge kind={kindOf(r.sub)} /></div></td>
@@ -434,11 +460,12 @@ export default function StudentsSection({ onSessionLost }) {
       {/* mobile cards */}
       <ul className="space-y-2 md:hidden">
         {rows.map((r) => (
-          <li key={r.user_id}>
-            <button onClick={() => setOpenId(r.user_id)} className="flex w-full items-center gap-3 rounded-2xl border border-white/10 bg-[#11122A] p-3 text-left select-none">
+          <li key={r.user_id} className="flex items-center gap-2">
+            <label className="flex h-12 w-8 shrink-0 items-center justify-center"><PickBox r={r} /></label>
+            <button onClick={() => setOpenId(r.user_id)} className={`flex w-full min-w-0 items-center gap-3 rounded-2xl border p-3 text-left select-none ${picked.has(r.user_id) ? "border-violet-400/50 bg-violet-500/10" : "border-white/10 bg-[#11122A]"}`}>
               <PlanDot plan={dotPlan(r.sub)} />
               <div className="min-w-0 flex-1">
-                <p className="truncate text-sm font-medium">{r.name}</p>
+                <p className="flex items-center gap-1.5 truncate text-sm font-medium">{r.name} <BannedTag r={r} /></p>
                 <p className="truncate text-xs text-white/40">{r.group ? r.group.label : "No group"} · {ago(r.last_active_at)}</p>
               </div>
               <KindBadge kind={kindOf(r.sub)} />
