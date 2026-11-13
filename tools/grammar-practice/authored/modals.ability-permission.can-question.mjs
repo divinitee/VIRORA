@@ -173,7 +173,7 @@ const TRANSFORM = [
     { thing: ["tickets", "room", "meal", "books"], method: ["card", "phone", "bank transfer", "QR code"] }],
   [ABLE, "Is Lola able to swim {how} {where}?", "______ (swim) {how} {where}?", "can lola swim",
     "Is Lola able to = Can Lola: Can Lola swim…?",
-    { how: ["well", "fast", "far", "underwater"], where: ["in the sea", "in deep water", "in the river", "in the lake"] }],
+    { how: ["well", "fast", "far", "alone"], where: ["in the sea", "in deep water", "in the river", "in the lake"] }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
 
 /* ---------------- create: 8 ---------------- */

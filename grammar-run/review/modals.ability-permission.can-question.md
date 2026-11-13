@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Is it possible for me to = Can I: Can I pay…?
 
 15. _Ask the same question with can._  
-   Is Lola able to swim **underwater** **in deep water**?  
-   → ______ (swim) **underwater** **in deep water**?  
+   Is Lola able to swim **alone** **in deep water**?  
+   → ______ (swim) **alone** **in deep water**?  
    key: can lola swim  
    why: Is Lola able to = Can Lola: Can Lola swim…?
 

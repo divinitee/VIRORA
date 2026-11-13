@@ -1566,7 +1566,7 @@ export default [
     "well",
     "fast",
     "far",
-    "underwater"
+    "alone"
    ],
    "where": [
     "in the sea",
