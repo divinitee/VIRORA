@@ -289,7 +289,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "______ speak {lang} {how}?",
+  "prompt": "______ speak {lang} with their {who}?",
   "options": [
    "Can your grandparents",
    "Do your grandparents can",
@@ -305,11 +305,11 @@
     "Kazakh",
     "English"
    ],
-   "how": [
-    "well",
-    "a little",
-    "very well",
-    "at all"
+   "who": [
+    "neighbours",
+    "friends",
+    "guests",
+    "grandchildren"
    ]
   }
  },
@@ -948,7 +948,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the question with can + the right person + the verb in brackets.",
-  "source": "A: ______ (see) the {thing} from your window, {name}? B: Yes, it's beautiful.",
+  "source": "A: ______ (see) the {thing} from your window, {name}? B: Yes, the view is beautiful.",
   "key": "can you see",
   "why": "Ask about you: can + you + see. Can comes before the person in a question.",
   "slots": {
