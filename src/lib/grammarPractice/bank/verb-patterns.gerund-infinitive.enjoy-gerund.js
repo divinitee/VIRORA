@@ -85,7 +85,7 @@ export default [
   "slots": {
    "food": [
     "plov",
-    "cakes",
+    "pasta",
     "soup",
     "Korean food"
    ],

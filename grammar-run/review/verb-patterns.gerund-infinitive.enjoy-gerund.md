@@ -12,7 +12,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ working · to work · work · works  
    why: Enjoy is always followed by the -ing form: enjoy working. Never enjoy to + verb.
 
-3. Do you enjoy ______ **cakes**, **Olga**?  
+3. Do you enjoy ______ **pasta**, **Olga**?  
    options: ✔ cooking · to cook · cook · cooks  
    why: Enjoy is always followed by the -ing form: enjoy cooking. Never enjoy to + verb.
 

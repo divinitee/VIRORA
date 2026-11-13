@@ -33,7 +33,7 @@ const CHOOSE = [
   [e("working", "work", "works"), EN("working"), "My grandfather enjoys ______ in the {place} every {time}.",
     { place: ["garden", "yard", "orchard", "vineyard"], time: ["morning", "evening", "afternoon", "day"] }],
   [e("cooking", "cook", "cooks"), EN("cooking"), "Do you enjoy ______ {food}, {name}?",
-    { food: ["plov", "cakes", "soup", "Korean food"], name: ["Aziza", "Timur", "Olga", "Sardor"] }],
+    { food: ["plov", "pasta", "soup", "Korean food"], name: ["Aziza", "Timur", "Olga", "Sardor"] }],
   [e("going", "go", "went"), "Enjoy (also enjoyed) is followed by the -ing form: enjoyed going. Never enjoyed to go or enjoyed went.", "We really enjoyed ______ to the {event} {when}.",
     { event: ["concert", "match", "festival", "circus"], when: ["last night", "on Saturday", "yesterday", "last week"] }],
   [e("doing", "do", "does"), EN("doing"), "Bobur doesn't enjoy ______ {chore} {when}.",
