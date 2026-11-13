@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Malika enjoys ______ {things} {when}.",
+  "options": [
+   "reading",
+   "to read",
+   "read",
+   "reads"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy reading. Never enjoy to + verb.",
+  "slots": {
+   "things": [
+    "books",
+    "comics",
+    "novels",
+    "short stories"
+   ],
+   "when": [
+    "before bed",
+    "at the weekend",
+    "in the evening",
+    "on holiday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandfather enjoys ______ in the {place} every {time}.",
+  "options": [
+   "working",
+   "to work",
+   "work",
+   "works"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy working. Never enjoy to + verb.",
+  "slots": {
+   "place": [
+    "garden",
+    "yard",
+    "orchard",
+    "vineyard"
+   ],
+   "time": [
+    "morning",
+    "evening",
+    "afternoon",
+    "day"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you enjoy ______ {food}, {name}?",
+  "options": [
+   "cooking",
+   "to cook",
+   "cook",
+   "cooks"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy cooking. Never enjoy to + verb.",
+  "slots": {
+   "food": [
+    "plov",
+    "pasta",
+    "soup",
+    "Korean food"
+   ],
+   "name": [
+    "Aziza",
+    "Timur",
+    "Olga",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We really enjoyed ______ to the {event} {when}.",
+  "options": [
+   "going",
+   "to go",
+   "go",
+   "went"
+  ],
+  "key": 0,
+  "why": "Enjoy (also enjoyed) is followed by the -ing form: enjoyed going. Never enjoyed to go or enjoyed went.",
+  "slots": {
+   "event": [
+    "concert",
+    "match",
+    "festival",
+    "circus"
+   ],
+   "when": [
+    "last night",
+    "on Saturday",
+    "yesterday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bobur doesn't enjoy ______ {chore} {when}.",
+  "options": [
+   "doing",
+   "to do",
+   "do",
+   "does"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy doing. Never enjoy to + verb.",
+  "slots": {
+   "chore": [
+    "the dishes",
+    "homework",
+    "the shopping",
+    "housework"
+   ],
+   "when": [
+    "at the weekend",
+    "after dinner",
+    "every day",
+    "in the evening"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children enjoyed ______ with the {animal} at the {place}.",
+  "options": [
+   "playing",
+   "to play",
+   "play",
+   "played"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy playing. Never enjoy to + verb.",
+  "slots": {
+   "animal": [
+    "puppies",
+    "kittens",
+    "rabbits",
+    "lambs"
+   ],
+   "place": [
+    "farm",
+    "village",
+    "petting zoo",
+    "animal centre"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I enjoy ______ to {audio} on the {trip}.",
+  "options": [
+   "listening",
+   "to listen",
+   "listen",
+   "listens"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy listening. Never enjoy to + verb.",
+  "slots": {
+   "audio": [
+    "music",
+    "podcasts",
+    "audiobooks",
+    "English songs"
+   ],
+   "trip": [
+    "bus",
+    "metro",
+    "train",
+    "way home"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister enjoys ______ pictures of {thing} in her {book}.",
+  "options": [
+   "drawing",
+   "to draw",
+   "draw",
+   "draws"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy drawing. Never enjoy to + verb.",
+  "slots": {
+   "thing": [
+    "animals",
+    "flowers",
+    "people",
+    "buildings"
+   ],
+   "book": [
+    "notebook",
+    "sketchbook",
+    "diary",
+    "art book"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Did you enjoy ______ in {city}, {name}?",
+  "options": [
+   "living",
+   "to live",
+   "live",
+   "lived"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy living. Never enjoy to + verb.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Tashkent",
+    "Moscow",
+    "Seoul"
+   ],
+   "name": [
+    "Kamila",
+    "Rustam",
+    "Olga",
+    "Bekzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher enjoys ______ about {topic} with us {when}.",
+  "options": [
+   "talking",
+   "to talk",
+   "talk",
+   "talks"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy talking. Never enjoy to + verb.",
+  "slots": {
+   "topic": [
+    "history",
+    "films",
+    "books",
+    "science"
+   ],
+   "when": [
+    "after class",
+    "during breaks",
+    "on Fridays",
+    "in the last lesson"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Most people enjoy ______ {food} {when}.",
+  "options": [
+   "eating",
+   "to eat",
+   "eat",
+   "eats"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy eating. Never enjoy to + verb.",
+  "slots": {
+   "food": [
+    "ice cream",
+    "watermelon",
+    "fresh fruit",
+    "cold soup"
+   ],
+   "when": [
+    "in summer",
+    "on hot days",
+    "in July",
+    "after lunch"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur enjoys ______ his {vehicle} in the {place}.",
+  "options": [
+   "riding",
+   "to ride",
+   "ride",
+   "rides"
+  ],
+  "key": 0,
+  "why": "Enjoy is always followed by the -ing form: enjoy riding. Never enjoy to + verb.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "scooter",
+    "horse",
+    "motorbike"
+   ],
+   "place": [
+    "park",
+    "village",
+    "countryside",
+    "city"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father loves ______ {food} for the family on {day}.",
+  "options": [
+   "cooking",
+   "cook",
+   "cooks",
+   "to cooking"
+  ],
+  "key": 0,
+  "why": "After loves, use the -ing form (cooking) or to + verb, but never the bare verb.",
+  "slots": {
+   "food": [
+    "plov",
+    "breakfast",
+    "shashlik",
+    "soup"
+   ],
+   "day": [
+    "Sundays",
+    "Fridays",
+    "Saturdays",
+    "holidays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I hate ______ up early when it's {weather}.",
+  "options": [
+   "getting",
+   "get",
+   "gets",
+   "to getting"
+  ],
+  "key": 0,
+  "why": "After hate, use the -ing form (getting) or to + verb, but never the bare verb.",
+  "slots": {
+   "weather": [
+    "cold",
+    "dark",
+    "raining",
+    "snowing"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you like ______ {game}, {name}?",
+  "options": [
+   "playing",
+   "play",
+   "plays",
+   "to playing"
+  ],
+  "key": 0,
+  "why": "After like, use the -ing form (playing) or to + verb, but never the bare verb.",
+  "slots": {
+   "game": [
+    "chess",
+    "volleyball",
+    "computer games",
+    "cards"
+   ],
+   "name": [
+    "Lola",
+    "Anvar",
+    "Malika",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Kids love ______ in the {water} with their {who}.",
+  "options": [
+   "swimming",
+   "swim",
+   "swims",
+   "to swimming"
+  ],
+  "key": 0,
+  "why": "After love, use the -ing form (swimming) or to + verb, but never the bare verb.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "pool",
+    "sea"
+   ],
+   "who": [
+    "friends",
+    "cousins",
+    "dads",
+    "brothers"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mum doesn't like ______ in the {place} {how}.",
+  "options": [
+   "driving",
+   "drive",
+   "drives",
+   "to driving"
+  ],
+  "key": 0,
+  "why": "After like, use the -ing form (driving) or to + verb, but never the bare verb.",
+  "slots": {
+   "place": [
+    "city centre",
+    "rain",
+    "snow",
+    "dark"
+   ],
+   "how": [
+    "very much",
+    "at all",
+    "alone",
+    "much"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziza likes ______ new words in a {book} {when}.",
+  "options": [
+   "writing",
+   "write",
+   "writes",
+   "to writing"
+  ],
+  "key": 0,
+  "why": "After likes, use the -ing form (writing) or to + verb, but never the bare verb.",
+  "slots": {
+   "book": [
+    "notebook",
+    "small notebook",
+    "diary",
+    "special book"
+   ],
+   "when": [
+    "after class",
+    "every day",
+    "before bed",
+    "in the evening"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lots of teenagers love ______ videos about {topic} on their {device}.",
+  "options": [
+   "watching",
+   "watch",
+   "watches",
+   "to watching"
+  ],
+  "key": 0,
+  "why": "After love, use the -ing form (watching) or to + verb, but never the bare verb.",
+  "slots": {
+   "topic": [
+    "football",
+    "cooking",
+    "games",
+    "science"
+   ],
+   "device": [
+    "phones",
+    "tablets",
+    "laptops",
+    "computers"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandma hates ______ the {transport} because it's {adj}.",
+  "options": [
+   "taking",
+   "take",
+   "takes",
+   "to taking"
+  ],
+  "key": 0,
+  "why": "After hates, use the -ing form (taking) or to + verb, but never the bare verb.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "minibus"
+   ],
+   "adj": [
+    "crowded",
+    "slow",
+    "noisy",
+    "hot"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Sevara enjoys ______ (dance) at {event} with her {who}.",
+  "key": "dancing",
+  "why": "Enjoy is always followed by the -ing form: enjoy dancing. Never enjoy to + verb. Drop the final e: dance becomes dancing.",
+  "slots": {
+   "event": [
+    "weddings",
+    "parties",
+    "school concerts",
+    "family events"
+   ],
+   "who": [
+    "sisters",
+    "friends",
+    "cousins",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "I don't enjoy ______ (shop) for {things} {how}.",
+  "key": "shopping",
+  "why": "Enjoy is always followed by the -ing form: enjoy shopping. Never enjoy to + verb. Double the last letter: shop becomes shopping.",
+  "slots": {
+   "things": [
+    "clothes",
+    "shoes",
+    "presents",
+    "food"
+   ],
+   "how": [
+    "with my brother",
+    "alone",
+    "online",
+    "with my mum"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Do your parents enjoy ______ (watch) {show} {when}?",
+  "key": "watching",
+  "why": "Enjoy is always followed by the -ing form: enjoy watching. Never enjoy to + verb.",
+  "slots": {
+   "show": [
+    "the news",
+    "old films",
+    "football",
+    "comedy shows"
+   ],
+   "when": [
+    "in the evening",
+    "at night",
+    "after dinner",
+    "on Sundays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Akmal enjoys ______ (fix) old {thing} in his {place}.",
+  "key": "fixing",
+  "why": "Enjoy is always followed by the -ing form: enjoy fixing. Never enjoy to + verb.",
+  "slots": {
+   "thing": [
+    "bikes",
+    "radios",
+    "phones",
+    "clocks"
+   ],
+   "place": [
+    "garage",
+    "room",
+    "workshop",
+    "free time"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "We enjoyed ______ (sit) by the {water} {when}.",
+  "key": "sitting",
+  "why": "Enjoy is always followed by the -ing form: enjoy sitting. Never enjoy to + verb. Double the last letter: sit becomes sitting.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "fountain",
+    "pool"
+   ],
+   "when": [
+    "yesterday evening",
+    "last night",
+    "on Sunday",
+    "all afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My little sister enjoys ______ (help) Mum in the {room} {when}.",
+  "key": "helping",
+  "why": "Enjoy is always followed by the -ing form: enjoy helping. Never enjoy to + verb.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "shop",
+    "yard"
+   ],
+   "when": [
+    "every day",
+    "after school",
+    "at weekends",
+    "on Sundays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Nobody enjoys ______ (wait) in a long queue at the {place}.",
+  "key": "waiting",
+  "why": "Enjoy is always followed by the -ing form: enjoy waiting. Never enjoy to + verb.",
+  "slots": {
+   "place": [
+    "bank",
+    "post office",
+    "airport",
+    "hospital"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Does Lola enjoy ______ (run) in the {place} {when}?",
+  "key": "running",
+  "why": "Enjoy is always followed by the -ing form: enjoy running. Never enjoy to + verb. Double the last letter: run becomes running.",
+  "slots": {
+   "place": [
+    "park",
+    "stadium",
+    "street",
+    "sports ground"
+   ],
+   "when": [
+    "in the morning",
+    "before work",
+    "at weekends",
+    "every evening"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "I really enjoyed ______ (meet) your {who} {when}.",
+  "key": "meeting",
+  "why": "Enjoy is always followed by the -ing form: enjoy meeting. Never enjoy to + verb.",
+  "slots": {
+   "who": [
+    "family",
+    "parents",
+    "friends",
+    "cousins"
+   ],
+   "when": [
+    "last night",
+    "yesterday",
+    "on Saturday",
+    "at the party"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Jasur doesn't enjoy ______ (speak) in front of the {group} because he feels {feel}.",
+  "key": "speaking",
+  "why": "Enjoy is always followed by the -ing form: enjoy speaking. Never enjoy to + verb.",
+  "slots": {
+   "group": [
+    "class",
+    "whole school",
+    "teachers",
+    "camera"
+   ],
+   "feel": [
+    "shy",
+    "nervous",
+    "scared",
+    "worried"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My grandmother loves ______ (make) {food} for her {who}.",
+  "key": "making",
+  "why": "After loves, use the -ing form (making) or to + verb, but never the bare verb. Drop the final e: make becomes making.",
+  "slots": {
+   "food": [
+    "samsa",
+    "jam",
+    "bread",
+    "sweets"
+   ],
+   "who": [
+    "grandchildren",
+    "neighbours",
+    "guests",
+    "family"
+   ]
+  },
+  "acceptable": [
+   "to make"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Do you like ______ (write) {texts} in English, {name}?",
+  "key": "writing",
+  "why": "After like, use the -ing form (writing) or to + verb, but never the bare verb. Drop the final e: write becomes writing.",
+  "slots": {
+   "texts": [
+    "emails",
+    "stories",
+    "letters",
+    "messages"
+   ],
+   "name": [
+    "Nodira",
+    "Sardor",
+    "Olga",
+    "Anvar"
+   ]
+  },
+  "acceptable": [
+   "to write"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Olga hates ______ (lose) at {game} against her {who}.",
+  "key": "losing",
+  "why": "After hates, use the -ing form (losing) or to + verb, but never the bare verb. Drop the final e: lose becomes losing.",
+  "slots": {
+   "game": [
+    "chess",
+    "cards",
+    "tennis",
+    "video games"
+   ],
+   "who": [
+    "brother",
+    "sister",
+    "dad",
+    "friends"
+   ]
+  },
+  "acceptable": [
+   "to lose"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "The tourists enjoyed ______ (try) {food} at the {place}.",
+  "key": "trying",
+  "why": "Enjoy is always followed by the -ing form: enjoy trying. Never enjoy to + verb.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "fresh bread",
+    "local fruit"
+   ],
+   "place": [
+    "bazaar",
+    "market",
+    "café",
+    "festival"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Our dog enjoys ______ (lie) in the {place} {when}.",
+  "key": "lying",
+  "why": "Enjoy is always followed by the -ing form: enjoy lying. Never enjoy to + verb. Change ie to y: lie becomes lying.",
+  "slots": {
+   "place": [
+    "sun",
+    "garden",
+    "shade",
+    "yard"
+   ],
+   "when": [
+    "after lunch",
+    "all day",
+    "in the afternoon",
+    "in summer"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "I enjoy ______ (chat) with my {who} {when}.",
+  "key": "chatting",
+  "why": "Enjoy is always followed by the -ing form: enjoy chatting. Never enjoy to + verb. Double the last letter: chat becomes chatting.",
+  "slots": {
+   "who": [
+    "friends",
+    "cousins",
+    "grandparents",
+    "classmates"
+   ],
+   "when": [
+    "in the evening",
+    "at weekends",
+    "after school",
+    "every night"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Students usually enjoy ______ (play) {game} in {lesson}.",
+  "key": "playing",
+  "why": "Enjoy is always followed by the -ing form: enjoy playing. Never enjoy to + verb.",
+  "slots": {
+   "game": [
+    "word games",
+    "quiz games",
+    "team games",
+    "board games"
+   ],
+   "lesson": [
+    "English lessons",
+    "class",
+    "the break",
+    "PE"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Kamola loves ______ (swim) in the {water} {when}.",
+  "key": "swimming",
+  "why": "After loves, use the -ing form (swimming) or to + verb, but never the bare verb. Double the last letter: swim becomes swimming.",
+  "slots": {
+   "water": [
+    "sea",
+    "lake",
+    "pool",
+    "river"
+   ],
+   "when": [
+    "in summer",
+    "every morning",
+    "on holiday",
+    "at weekends"
+   ]
+  },
+  "acceptable": [
+   "to swim"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Did you enjoy ______ (stay) at the {place}, {name}?",
+  "key": "staying",
+  "why": "Enjoy is always followed by the -ing form: enjoy staying. Never enjoy to + verb.",
+  "slots": {
+   "place": [
+    "hotel",
+    "camp",
+    "guesthouse",
+    "sanatorium"
+   ],
+   "name": [
+    "Bobur",
+    "Lola",
+    "Dilshod",
+    "Nigora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My uncle enjoys ______ (tell) {stories} about his {time}.",
+  "key": "telling",
+  "why": "Enjoy is always followed by the -ing form: enjoy telling. Never enjoy to + verb.",
+  "slots": {
+   "stories": [
+    "stories",
+    "funny stories",
+    "old stories",
+    "long stories"
+   ],
+   "time": [
+    "childhood",
+    "school days",
+    "student days",
+    "first job"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with enjoy. Change the form of the second verb.",
+  "source": "I like to paint {things} {when}.",
+  "hint": "I enjoy ______ (paint) {things} {when}.",
+  "key": "painting",
+  "why": "Like can take to + verb, but enjoy can't: enjoy painting.",
+  "slots": {
+   "things": [
+    "flowers",
+    "mountains",
+    "people",
+    "animals"
+   ],
+   "when": [
+    "at weekends",
+    "in my free time",
+    "after school",
+    "on holiday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with enjoy. Change the form of the second verb.",
+  "source": "My brother likes to play {game} with his {who}.",
+  "hint": "My brother enjoys ______ (play) {game} with his {who}.",
+  "key": "playing",
+  "why": "After enjoys, the next verb takes -ing: enjoys playing.",
+  "slots": {
+   "game": [
+    "football",
+    "chess",
+    "cards",
+    "basketball"
+   ],
+   "who": [
+    "friends",
+    "classmates",
+    "cousins",
+    "neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with enjoy. Change the form of the second verb.",
+  "source": "We love to walk in the {place} {when}.",
+  "hint": "We enjoy ______ (walk) in the {place} {when}.",
+  "key": "walking",
+  "why": "Love can take to + verb, but enjoy takes only -ing: enjoy walking.",
+  "slots": {
+   "place": [
+    "park",
+    "mountains",
+    "old city",
+    "forest"
+   ],
+   "when": [
+    "in autumn",
+    "on Sundays",
+    "after dinner",
+    "in spring"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with enjoy. Change the form of the second verb.",
+  "source": "Nodira likes to bake {food} for her {who}.",
+  "hint": "Nodira enjoys ______ (bake) {food} for her {who}.",
+  "key": "baking",
+  "why": "Enjoys + -ing: baking. Drop the final e before -ing.",
+  "slots": {
+   "food": [
+    "cakes",
+    "bread",
+    "cookies",
+    "pies"
+   ],
+   "who": [
+    "friends",
+    "family",
+    "classmates",
+    "neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with enjoy. Change the form of the second verb.",
+  "source": "They love to sing {songs} at {event}.",
+  "hint": "They enjoy ______ (sing) {songs} at {event}.",
+  "key": "singing",
+  "why": "Enjoy is followed by the -ing form: enjoy singing.",
+  "slots": {
+   "songs": [
+    "Uzbek songs",
+    "old songs",
+    "pop songs",
+    "English songs"
+   ],
+   "event": [
+    "parties",
+    "weddings",
+    "family dinners",
+    "school concerts"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "Lola enjoys getting up early on {day} to {act}.",
+  "hint": "Lola ______ (get) up early on {day} to {act}.",
+  "key": "doesn't enjoy getting",
+  "why": "Lola is one person, so the negative is doesn't enjoy. The next verb keeps -ing: getting.",
+  "slots": {
+   "day": [
+    "Saturdays",
+    "Sundays",
+    "Mondays",
+    "holidays"
+   ],
+   "act": [
+    "go running",
+    "study",
+    "cook breakfast",
+    "walk the dog"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "I enjoy doing {task} {when}.",
+  "hint": "I ______ (do) {task} {when}.",
+  "key": "don't enjoy doing",
+  "why": "With I, the negative is don't enjoy, and the next verb keeps -ing: doing.",
+  "slots": {
+   "task": [
+    "homework",
+    "the cleaning",
+    "the ironing",
+    "the washing"
+   ],
+   "when": [
+    "on Sundays",
+    "in the evening",
+    "at night",
+    "alone"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "My parents enjoy watching {show} {when}.",
+  "hint": "My parents ______ (watch) {show} {when}.",
+  "key": "don't enjoy watching",
+  "why": "My parents is plural, so use don't enjoy + watching.",
+  "slots": {
+   "show": [
+    "horror films",
+    "cartoons",
+    "talent shows",
+    "football"
+   ],
+   "when": [
+    "late at night",
+    "at weekends",
+    "after work",
+    "together"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "Rustam enjoys answering {thing} in {lesson}.",
+  "hint": "Rustam ______ (answer) {thing} in {lesson}.",
+  "key": "doesn't enjoy answering",
+  "why": "Rustam is one person, so use doesn't enjoy (no -s on enjoy), then answering.",
+  "slots": {
+   "thing": [
+    "questions",
+    "the teacher's questions",
+    "hard questions",
+    "long questions"
+   ],
+   "lesson": [
+    "class",
+    "maths",
+    "physics",
+    "history"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "We enjoy sitting in the {row} row of the {room}.",
+  "hint": "We ______ (sit) in the {row} row of the {room}.",
+  "key": "don't enjoy sitting",
+  "why": "With we, the negative is don't enjoy, then sitting (double the t).",
+  "slots": {
+   "row": [
+    "front",
+    "back",
+    "first",
+    "last"
+   ],
+   "room": [
+    "bus",
+    "cinema",
+    "classroom",
+    "theatre"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with enjoy + -ing.",
+  "source": "I take photos of {things} {where}. It's fun for me.",
+  "hint": "I enjoy ______ (take) photos of {things} {where}.",
+  "key": "taking",
+  "why": "Enjoy + -ing: taking. Drop the final e of take.",
+  "slots": {
+   "things": [
+    "buildings",
+    "flowers",
+    "birds",
+    "the sky"
+   ],
+   "where": [
+    "in the city",
+    "in the park",
+    "on holiday",
+    "from my window"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with enjoy + -ing.",
+  "source": "Bekzod plays football with his {who} {when}. He loves it.",
+  "hint": "Bekzod enjoys ______ (play) football with his {who} {when}.",
+  "key": "playing",
+  "why": "Enjoys + -ing: playing.",
+  "slots": {
+   "who": [
+    "friends",
+    "brothers",
+    "cousins",
+    "classmates"
+   ],
+   "when": [
+    "after school",
+    "at weekends",
+    "every evening",
+    "on Sundays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with enjoy + -ing.",
+  "source": "My mum makes {food} for the {who}. It makes her happy.",
+  "hint": "My mum enjoys ______ (make) {food} for the {who}.",
+  "key": "making",
+  "why": "Enjoys + -ing: making. Drop the final e of make.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "cakes",
+    "dinner"
+   ],
+   "who": [
+    "whole family",
+    "guests",
+    "neighbours",
+    "children"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with enjoy + -ing.",
+  "source": "Dilnoza writes in her {book} {when}. It relaxes her.",
+  "hint": "Dilnoza enjoys ______ (write) in her {book} {when}.",
+  "key": "writing",
+  "why": "Enjoys + -ing: writing, with one t.",
+  "slots": {
+   "book": [
+    "diary",
+    "notebook",
+    "journal",
+    "blog"
+   ],
+   "when": [
+    "every evening",
+    "before bed",
+    "at weekends",
+    "after school"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with enjoy + -ing.",
+  "source": "My friends and I ride our bikes {where} {when}. It's great fun.",
+  "hint": "My friends and I enjoy ______ (ride) our bikes {where} {when}.",
+  "key": "riding",
+  "why": "Enjoy + -ing: riding. Drop the final e of ride.",
+  "slots": {
+   "where": [
+    "in the park",
+    "by the river",
+    "around the city",
+    "in the village"
+   ],
+   "when": [
+    "after school",
+    "at weekends",
+    "in summer",
+    "on Sundays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you enjoy doing at the weekend.",
+  "requiredElement": "enjoy + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must use I enjoy",
+   "must include at the weekend"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you don't enjoy doing at home.",
+  "requiredElement": "don't enjoy + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must use don't enjoy",
+   "must name a job at home"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what a friend enjoys doing.",
+  "requiredElement": "enjoys + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must name the friend",
+   "must use enjoys + -ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a new classmate a question about their free time.",
+  "requiredElement": "Do you enjoy + -ing … ?",
+  "constraints": [
+   "exactly one question",
+   "must use Do you enjoy",
+   "must end with a question mark"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you loved doing when you were a child.",
+  "requiredElement": "loved + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must use loved",
+   "must use an -ing form"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you hate doing in the morning.",
+  "requiredElement": "hate + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must use hate",
+   "must include in the morning"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something your family enjoys doing together.",
+  "requiredElement": "enjoy + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must use together",
+   "must use enjoy + -ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one thing you enjoy doing in summer and one thing you don't enjoy doing in winter.",
+  "requiredElement": "enjoy / don't enjoy + -ing",
+  "constraints": [
+   "exactly two sentences",
+   "one positive, one negative",
+   "-ing form after enjoy in both"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a new friend about your free time. What do you enjoy doing, and what don't you enjoy? Write three or four sentences.",
+  "targetGrammar": "enjoy / don't enjoy + -ing",
+  "lookFor": [
+   "enjoy + -ing",
+   "don't enjoy + -ing",
+   "no enjoy to + verb"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a person in your family and the things they love and hate doing. Write three or four sentences.",
+  "targetGrammar": "love / hate / enjoy + -ing",
+  "lookFor": [
+   "loves or enjoys + -ing",
+   "hates + -ing",
+   "no bare verb after love or hate"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your last holiday or a special day. What did you enjoy doing? Write three or four sentences.",
+  "targetGrammar": "enjoyed + -ing",
+  "lookFor": [
+   "enjoyed + -ing",
+   "two or more different -ing forms",
+   "past time words like last summer"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare yourself and your best friend: what do you both enjoy doing, and what is different? Write three or four sentences.",
+  "targetGrammar": "enjoy / like + -ing for comparing",
+  "lookFor": [
+   "we both enjoy + -ing",
+   "he / she enjoys + -ing",
+   "but for a difference"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your teacher asks: \"What do you enjoy doing in English lessons?\" Answer in three or four sentences.",
+  "targetGrammar": "enjoy + -ing with study activities",
+  "lookFor": [
+   "enjoy + -ing",
+   "don't enjoy + -ing",
+   "a reason with because"
+  ]
+ }
+]

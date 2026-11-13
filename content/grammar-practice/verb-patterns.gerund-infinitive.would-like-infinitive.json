@@ -1,0 +1,1819 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I would like ______ a table for {num} {when}, please.",
+  "options": [
+   "to book",
+   "book",
+   "booking",
+   "to booking"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to book.",
+  "slots": {
+   "num": [
+    "two",
+    "three",
+    "four",
+    "six"
+   ],
+   "when": [
+    "tonight",
+    "on Friday",
+    "at seven",
+    "this evening"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ {meal} with us {when}?",
+  "options": [
+   "to have",
+   "have",
+   "to having",
+   "to has"
+  ],
+  "key": 0,
+  "why": "In a question with would you like, the verb still needs to: Would you like to have?",
+  "slots": {
+   "meal": [
+    "dinner",
+    "plov",
+    "tea",
+    "a meal"
+   ],
+   "when": [
+    "tonight",
+    "on Sunday",
+    "after work",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father ______ to speak to the {person} {when}.",
+  "options": [
+   "would like",
+   "would likes",
+   "would to like",
+   "would liking"
+  ],
+  "key": 0,
+  "why": "Would never changes and like never takes -s after would: he would like, she would like. Then to + verb.",
+  "slots": {
+   "person": [
+    "manager",
+    "doctor",
+    "director",
+    "head teacher"
+   ],
+   "when": [
+    "now",
+    "today",
+    "before lunch",
+    "this afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We'd like ______ {city} {when}.",
+  "options": [
+   "to visit",
+   "visit",
+   "visiting",
+   "to visits"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to visit.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Shahrisabz"
+   ],
+   "when": [
+    "next spring",
+    "this summer",
+    "one day",
+    "in May"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandma would like ______ her in {place} {when}.",
+  "options": [
+   "us to visit",
+   "that we visit",
+   "us visit",
+   "we to visit"
+  ],
+  "key": 0,
+  "why": "To say what you want another person to do, use would like + person + to + verb: would like us to visit. Not \"would like that…\".",
+  "slots": {
+   "place": [
+    "Bukhara",
+    "Termez",
+    "the village",
+    "Karshi"
+   ],
+   "when": [
+    "more often",
+    "this summer",
+    "next month",
+    "at New Year"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ the {thing} {where}?",
+  "options": [
+   "me to carry",
+   "that I carry",
+   "me carry",
+   "I to carry"
+  ],
+  "key": 0,
+  "why": "To say what you want another person to do, use would like + person + to + verb: would like me to carry. Not \"would like that…\".",
+  "slots": {
+   "thing": [
+    "bags",
+    "box",
+    "shopping",
+    "suitcase"
+   ],
+   "where": [
+    "to the car",
+    "upstairs",
+    "home",
+    "to the bus stop"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nigora would like ______ a {pet} {when}.",
+  "options": [
+   "to get",
+   "get",
+   "getting",
+   "to gets"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to get.",
+  "slots": {
+   "pet": [
+    "kitten",
+    "puppy",
+    "parrot",
+    "rabbit"
+   ],
+   "when": [
+    "for her birthday",
+    "this year",
+    "one day",
+    "next summer"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'd like ______ more about the {course} at your {place}.",
+  "options": [
+   "to learn",
+   "learn",
+   "learning",
+   "to learning"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to learn.",
+  "slots": {
+   "course": [
+    "English course",
+    "summer camp",
+    "IT course",
+    "art classes"
+   ],
+   "place": [
+    "centre",
+    "school",
+    "college",
+    "club"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would your parents like ______ my {food} {when}?",
+  "options": [
+   "to try",
+   "try",
+   "to trying",
+   "to tries"
+  ],
+  "key": 0,
+  "why": "In a question with would you like, the verb still needs to: Would you like to try?",
+  "slots": {
+   "food": [
+    "plov",
+    "cake",
+    "soup",
+    "salad"
+   ],
+   "when": [
+    "now",
+    "after dinner",
+    "before they go",
+    "later"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The students would like ______ the {exam} on {day} instead.",
+  "options": [
+   "to take",
+   "take",
+   "taking",
+   "to took"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to take.",
+  "slots": {
+   "exam": [
+    "exam",
+    "test",
+    "quiz",
+    "dictation"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Thursday",
+    "Tuesday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister ______ to study {subject} in {country}.",
+  "options": [
+   "would like",
+   "would likes",
+   "would to like",
+   "would liking"
+  ],
+  "key": 0,
+  "why": "Would never changes and like never takes -s after would: he would like, she would like. Then to + verb.",
+  "slots": {
+   "subject": [
+    "medicine",
+    "design",
+    "IT",
+    "music"
+   ],
+   "country": [
+    "Korea",
+    "Germany",
+    "Turkey",
+    "Italy"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We'd like ______ the {thing} before we {act}.",
+  "options": [
+   "to see",
+   "see",
+   "seeing",
+   "to saw"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to see.",
+  "slots": {
+   "thing": [
+    "room",
+    "flat",
+    "house",
+    "car"
+   ],
+   "act": [
+    "pay",
+    "decide",
+    "sign anything",
+    "say yes"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I wouldn't like ______ in a {place} {how}.",
+  "options": [
+   "to live",
+   "live",
+   "to living",
+   "to lives"
+  ],
+  "key": 0,
+  "why": "Wouldn't like is also followed by to + the base verb: wouldn't like to live.",
+  "slots": {
+   "place": [
+    "big city",
+    "small village",
+    "cold country",
+    "flat"
+   ],
+   "how": [
+    "far from my family",
+    "without friends",
+    "alone",
+    "without a car"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Would you like ______ this {item} on in {colour}?",
+  "options": [
+   "to try",
+   "try",
+   "to trying",
+   "to tries"
+  ],
+  "key": 0,
+  "why": "In a question with would you like, the verb still needs to: Would you like to try?",
+  "slots": {
+   "item": [
+    "jacket",
+    "dress",
+    "shirt",
+    "coat"
+   ],
+   "colour": [
+    "black",
+    "blue",
+    "grey",
+    "white"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher would like ______ our {thing} by {day}.",
+  "options": [
+   "us to finish",
+   "that we finish",
+   "us finish",
+   "we to finish"
+  ],
+  "key": 0,
+  "why": "To say what you want another person to do, use would like + person + to + verb: would like us to finish. Not \"would like that…\".",
+  "slots": {
+   "thing": [
+    "projects",
+    "essays",
+    "posters",
+    "reports"
+   ],
+   "day": [
+    "Friday",
+    "Monday",
+    "Wednesday",
+    "next week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mum would like ______ a new {thing} for the {room}.",
+  "options": [
+   "to buy",
+   "buy",
+   "buying",
+   "to buying"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to buy.",
+  "slots": {
+   "thing": [
+    "carpet",
+    "sofa",
+    "table",
+    "lamp"
+   ],
+   "room": [
+    "living room",
+    "hall",
+    "bedroom",
+    "guest room"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The man at the {place} ______ to talk to you, {name}.",
+  "options": [
+   "would like",
+   "would likes",
+   "would to like",
+   "would liking"
+  ],
+  "key": 0,
+  "why": "Would never changes and like never takes -s after would: he would like, she would like. Then to + verb.",
+  "slots": {
+   "place": [
+    "door",
+    "gate",
+    "reception desk",
+    "front desk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Malika",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where would you like ______ {when}, {name}?",
+  "options": [
+   "to go",
+   "go",
+   "to going",
+   "to goes"
+  ],
+  "key": 0,
+  "why": "In a question with would you like, the verb still needs to: Would you like to go?",
+  "slots": {
+   "when": [
+    "this weekend",
+    "on holiday",
+    "after the exam",
+    "tonight"
+   ],
+   "name": [
+    "Kamila",
+    "Sardor",
+    "Lola",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They'd like ______ a {thing} for {who}.",
+  "options": [
+   "to plan",
+   "plan",
+   "planning",
+   "to planned"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to plan.",
+  "slots": {
+   "thing": [
+    "party",
+    "surprise",
+    "picnic",
+    "concert"
+   ],
+   "who": [
+    "their teacher",
+    "Grandma",
+    "the new students",
+    "their coach"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dilnoza would like ______ you her {thing} from {place}.",
+  "options": [
+   "to show",
+   "show",
+   "showing",
+   "to showed"
+  ],
+  "key": 0,
+  "why": "After would like ('d like), use to + the base verb: would like to show.",
+  "slots": {
+   "thing": [
+    "photos",
+    "pictures",
+    "videos",
+    "drawings"
+   ],
+   "place": [
+    "Bukhara",
+    "the trip",
+    "the camp",
+    "Samarkand"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "I'd like ______ (order) the {dish} and a {drink}, please.",
+  "key": "to order",
+  "why": "After would like ('d like), use to + the base verb: would like to order.",
+  "slots": {
+   "dish": [
+    "plov",
+    "chicken soup",
+    "lagman",
+    "fish"
+   ],
+   "drink": [
+    "green tea",
+    "juice",
+    "coffee",
+    "lemonade"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Would you like ______ (come) {how} {when}?",
+  "key": "to come",
+  "why": "In a question with would you like, the verb still needs to: Would you like to come?",
+  "slots": {
+   "how": [
+    "with us",
+    "over",
+    "along",
+    "round"
+   ],
+   "when": [
+    "tonight",
+    "on Saturday",
+    "after school",
+    "later"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My grandfather would like ______ (see) all his {who} {when}.",
+  "key": "to see",
+  "why": "After would like ('d like), use to + the base verb: would like to see.",
+  "slots": {
+   "who": [
+    "grandchildren",
+    "children",
+    "old friends",
+    "cousins"
+   ],
+   "when": [
+    "on his birthday",
+    "at New Year",
+    "this summer",
+    "more often"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "We wouldn't like ______ (miss) the {event}, so let's leave {when}.",
+  "key": "to miss",
+  "why": "Wouldn't like is also followed by to + the base verb: wouldn't like to miss.",
+  "slots": {
+   "event": [
+    "concert",
+    "last bus",
+    "wedding",
+    "final"
+   ],
+   "when": [
+    "now",
+    "early",
+    "at six",
+    "soon"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Aziz would like ______ (be) a {job} in {city}.",
+  "key": "to be",
+  "why": "After would like ('d like), use to + the base verb: would like to be.",
+  "slots": {
+   "job": [
+    "chef",
+    "dentist",
+    "driver",
+    "programmer"
+   ],
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Samarkand",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My parents would like me ______ (study) {subject} at a university in {city}.",
+  "key": "to study",
+  "why": "To say what you want another person to do, use would like + person + to + verb: would like me to study. Not \"would like that…\".",
+  "slots": {
+   "subject": [
+    "medicine",
+    "law",
+    "economics",
+    "banking"
+   ],
+   "city": [
+    "Tashkent",
+    "Seoul",
+    "Moscow",
+    "Samarkand"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "It's {adj} in here. Would you like me ______ (open) the {thing}?",
+  "key": "to open",
+  "why": "To say what you want another person to do, use would like + person + to + verb: would like me to open. Not \"would like that…\".",
+  "slots": {
+   "adj": [
+    "hot",
+    "warm",
+    "stuffy",
+    "a bit hot"
+   ],
+   "thing": [
+    "window",
+    "door",
+    "windows",
+    "balcony door"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Lola would like ______ (spend) her {holiday} near the {place}.",
+  "key": "to spend",
+  "why": "After would like ('d like), use to + the base verb: would like to spend.",
+  "slots": {
+   "holiday": [
+    "holiday",
+    "summer",
+    "weekend",
+    "free days"
+   ],
+   "place": [
+    "sea",
+    "lake",
+    "mountains",
+    "river"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Would your brother like ______ (join) our {team} {when}?",
+  "key": "to join",
+  "why": "In a question with would you like, the verb still needs to: Would you like to join?",
+  "slots": {
+   "team": [
+    "football team",
+    "chess club",
+    "band",
+    "group"
+   ],
+   "when": [
+    "this year",
+    "next season",
+    "on Saturday",
+    "again"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "I'd like ______ (thank) you for the {thing}, {name}.",
+  "key": "to thank",
+  "why": "After would like ('d like), use to + the base verb: would like to thank.",
+  "slots": {
+   "thing": [
+    "present",
+    "flowers",
+    "help",
+    "lovely dinner"
+   ],
+   "name": [
+    "Madina",
+    "Bekzod",
+    "Olga",
+    "Uncle Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "The director would like ______ (speak) with all the {who} {when}.",
+  "key": "to speak",
+  "why": "After would like ('d like), use to + the base verb: would like to speak.",
+  "slots": {
+   "who": [
+    "teachers",
+    "students",
+    "parents",
+    "new workers"
+   ],
+   "when": [
+    "after lunch",
+    "at three",
+    "on Monday",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "You look {adj}. Wouldn't you like ______ (rest) for a {time}?",
+  "key": "to rest",
+  "why": "In a question with would you like, the verb still needs to: Would you like to rest?",
+  "slots": {
+   "adj": [
+    "tired",
+    "pale",
+    "sleepy",
+    "exhausted"
+   ],
+   "time": [
+    "while",
+    "moment",
+    "bit",
+    "few minutes"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Kamila would like ______ (try) {activity} {when}.",
+  "key": "to try",
+  "why": "After would like ('d like), use to + the base verb: would like to try.",
+  "slots": {
+   "activity": [
+    "skiing",
+    "yoga",
+    "rock climbing",
+    "horse riding"
+   ],
+   "when": [
+    "one day",
+    "this winter",
+    "next year",
+    "some day"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Our class would like ______ (invite) a {guest} {when}.",
+  "key": "to invite",
+  "why": "After would like ('d like), use to + the base verb: would like to invite.",
+  "slots": {
+   "guest": [
+    "famous writer",
+    "doctor",
+    "footballer",
+    "scientist"
+   ],
+   "when": [
+    "next month",
+    "this term",
+    "on Friday",
+    "before the holidays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Would you like us ______ (wait) for you {where}, {name}?",
+  "key": "to wait",
+  "why": "To say what you want another person to do, use would like + person + to + verb: would like us to wait. Not \"would like that…\".",
+  "slots": {
+   "where": [
+    "outside",
+    "at the gate",
+    "in the car",
+    "downstairs"
+   ],
+   "name": [
+    "Anvar",
+    "Nilufar",
+    "Olga",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "I'd like ______ (pay) for the {thing} by {method}, please.",
+  "key": "to pay",
+  "why": "After would like ('d like), use to + the base verb: would like to pay.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "room",
+    "meal",
+    "books"
+   ],
+   "method": [
+    "card",
+    "phone",
+    "bank transfer",
+    "QR code"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Bobur would like ______ (improve) his {skill} before the {exam}.",
+  "key": "to improve",
+  "why": "After would like ('d like), use to + the base verb: would like to improve.",
+  "slots": {
+   "skill": [
+    "English",
+    "speaking",
+    "writing",
+    "maths"
+   ],
+   "exam": [
+    "exam",
+    "interview",
+    "test",
+    "competition"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Would you like ______ (sit) near the {spot}, {name}?",
+  "key": "to sit",
+  "why": "In a question with would you like, the verb still needs to: Would you like to sit?",
+  "slots": {
+   "spot": [
+    "window",
+    "door",
+    "heater",
+    "stage"
+   ],
+   "name": [
+    "Grandma",
+    "Aziza",
+    "Mr Karimov",
+    "Dilshod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My little brother would like ______ (have) a {thing} for {event}.",
+  "key": "to have",
+  "why": "After would like ('d like), use to + the base verb: would like to have.",
+  "slots": {
+   "thing": [
+    "bike",
+    "robot",
+    "football",
+    "drum"
+   ],
+   "event": [
+    "his birthday",
+    "New Year",
+    "the holidays",
+    "his next birthday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Would the guests like ______ (eat) {when}, {name}?",
+  "key": "to eat",
+  "why": "In a question with would you like, the verb still needs to: Would you like to eat?",
+  "slots": {
+   "when": [
+    "now",
+    "later",
+    "outside",
+    "in the garden"
+   ],
+   "name": [
+    "Mum",
+    "Aunt Lola",
+    "Dad",
+    "Nodira"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the request more polite. Use would like.",
+  "source": "I want to see the {thing} {when}.",
+  "hint": "I ______ (see) the {thing} {when}, please.",
+  "key": "would like to see",
+  "acceptable": [
+   "'d like to see"
+  ],
+  "why": "Would like is the polite way to say want. It is followed by to + base verb: would like to see.",
+  "slots": {
+   "thing": [
+    "menu",
+    "manager",
+    "room",
+    "doctor"
+   ],
+   "when": [
+    "now",
+    "first",
+    "again",
+    "today"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the request more polite. Use would like.",
+  "source": "We want to change our {thing} {when}.",
+  "hint": "We ______ (change) our {thing} {when}, please.",
+  "key": "would like to change",
+  "acceptable": [
+   "'d like to change"
+  ],
+  "why": "Use would like + to + base verb for a polite request: would like to change.",
+  "slots": {
+   "thing": [
+    "seats",
+    "room",
+    "tickets",
+    "table"
+   ],
+   "when": [
+    "now",
+    "today",
+    "if possible",
+    "this evening"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the request more polite. Use would like.",
+  "source": "I want to ask a question about the {thing}, {name}.",
+  "hint": "I ______ (ask) a question about the {thing}, {name}.",
+  "key": "would like to ask",
+  "acceptable": [
+   "'d like to ask"
+  ],
+  "why": "Would like + to + base verb is polite: would like to ask.",
+  "slots": {
+   "thing": [
+    "homework",
+    "price",
+    "timetable",
+    "test"
+   ],
+   "name": [
+    "Mr Aliev",
+    "Ms Petrova",
+    "Malika",
+    "Bobur"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the request more polite. Use would like.",
+  "source": "My mother wants to speak with the {person} {when}.",
+  "hint": "My mother ______ (speak) with the {person} {when}, please.",
+  "key": "would like to speak",
+  "acceptable": [
+   "'d like to speak"
+  ],
+  "why": "With he or she, would like stays the same (never would likes). Then to speak.",
+  "slots": {
+   "person": [
+    "teacher",
+    "doctor",
+    "manager",
+    "director"
+   ],
+   "when": [
+    "today",
+    "now",
+    "this morning",
+    "after class"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the request more polite. Use would like.",
+  "source": "I want to buy {num} tickets for {event}.",
+  "hint": "I ______ (buy) {num} tickets for {event}, please.",
+  "key": "would like to buy",
+  "acceptable": [
+   "'d like to buy"
+  ],
+  "why": "Would like + to + base verb is the polite form: would like to buy.",
+  "slots": {
+   "num": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "event": [
+    "the concert",
+    "the match",
+    "the film",
+    "the show"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Turn this into a polite invitation with Would you like … ?",
+  "source": "Do you want to dance?",
+  "hint": "______ (dance) with {who} {when}?",
+  "key": "would you like to dance",
+  "why": "A polite invitation is Would you like + to + base verb.",
+  "slots": {
+   "who": [
+    "us",
+    "me",
+    "my sister",
+    "our group"
+   ],
+   "when": [
+    "tonight",
+    "at the wedding",
+    "at the party",
+    "now"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Turn this into a polite invitation with Would you like … ?",
+  "source": "Bobur, do you want to play {game}?",
+  "hint": "______ (play) {game} with us after {event}, Bobur?",
+  "key": "would you like to play",
+  "why": "Invite with Would you like + to + base verb: Would you like to play…?",
+  "slots": {
+   "game": [
+    "chess",
+    "volleyball",
+    "cards",
+    "football"
+   ],
+   "event": [
+    "school",
+    "lunch",
+    "class",
+    "work"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Turn this into a polite invitation with Would you like … ?",
+  "source": "Kamila, do you want to watch {show}?",
+  "hint": "______ (watch) {show} with me on {day}, Kamila?",
+  "key": "would you like to watch",
+  "why": "Would you like + to watch is a polite invitation.",
+  "slots": {
+   "show": [
+    "a film",
+    "the match",
+    "the new series",
+    "a cartoon"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Turn this into a polite invitation with Would you like … ?",
+  "source": "Do you want to have {meal} at our house?",
+  "hint": "______ (have) {meal} at our house {when}?",
+  "key": "would you like to have",
+  "why": "Would you like + to have is the polite way to invite someone to eat.",
+  "slots": {
+   "meal": [
+    "dinner",
+    "lunch",
+    "plov",
+    "tea"
+   ],
+   "when": [
+    "on Sunday",
+    "tomorrow",
+    "this weekend",
+    "after the lesson"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Turn this into a polite invitation with Would you like … ?",
+  "source": "Do you want to go for a walk in {place} {when}?",
+  "hint": "______ (go) for a walk in {place} {when}?",
+  "key": "would you like to go",
+  "why": "Would you like + to go is a polite invitation.",
+  "slots": {
+   "place": [
+    "the park",
+    "the old city",
+    "the botanical garden",
+    "the city centre"
+   ],
+   "when": [
+    "today",
+    "this evening",
+    "on Saturday",
+    "later"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to + verb.",
+  "source": "The teacher says to us: \"Please read page {num} {when}.\"",
+  "hint": "The teacher would like ______ (read) page {num} {when}.",
+  "key": "us to read",
+  "why": "The teacher is talking to us, so use would like + us + to read.",
+  "slots": {
+   "num": [
+    "ten",
+    "twelve",
+    "twenty",
+    "forty"
+   ],
+   "when": [
+    "at home",
+    "tonight",
+    "before Monday",
+    "again"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to + verb.",
+  "source": "I say to you: \"Please call me {when}.\"",
+  "hint": "I'd like ______ (call) me {when}.",
+  "key": "you to call",
+  "why": "Use would like + you + to + verb: I'd like you to call me.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "tonight",
+    "after work",
+    "on Friday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to + verb.",
+  "source": "Dad says to my sister: \"Please help Mum in the {room}.\"",
+  "hint": "Dad would like ______ (help) Mum in the {room}.",
+  "key": "my sister to help",
+  "acceptable": [
+   "her to help"
+  ],
+  "why": "Use would like + person + to + verb: would like my sister to help.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "yard",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to + verb.",
+  "source": "Our coach says to the players: \"Please come at {time} on {day}.\"",
+  "hint": "Our coach would like ______ (come) at {time} on {day}.",
+  "key": "the players to come",
+  "acceptable": [
+   "them to come"
+  ],
+  "why": "Use would like + person + to + verb: would like the players to come. Not \"would like that the players come\".",
+  "slots": {
+   "time": [
+    "eight",
+    "nine",
+    "seven",
+    "ten"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Monday",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to + verb.",
+  "source": "Grandma says to me: \"Please bring {thing} {when}.\"",
+  "hint": "Grandma would like ______ (bring) {thing} {when}.",
+  "key": "me to bring",
+  "why": "Grandma is talking to me, so use would like + me + to bring.",
+  "slots": {
+   "thing": [
+    "bread",
+    "some fruit",
+    "the photos",
+    "the newspaper"
+   ],
+   "when": [
+    "tomorrow",
+    "next time",
+    "on Sunday",
+    "tonight"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You are in a café. Write one sentence to order food and a drink.",
+  "requiredElement": "I'd like to … or I would like to …",
+  "constraints": [
+   "exactly one sentence",
+   "must use would like to or 'd like to",
+   "must name a food and a drink"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Invite a friend to do something with you this weekend.",
+  "requiredElement": "Would you like to + base verb?",
+  "constraints": [
+   "exactly one question",
+   "must start with Would you like to",
+   "must include this weekend"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a country you would like to visit and why.",
+  "requiredElement": "would like to visit",
+  "constraints": [
+   "exactly one sentence",
+   "must name a country",
+   "must give a reason with because"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Offer to help a person who is carrying heavy bags.",
+  "requiredElement": "Would you like me to + base verb?",
+  "constraints": [
+   "exactly one question",
+   "must use Would you like me to",
+   "must name what you will do"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a job you would like to do one day.",
+  "requiredElement": "would like to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use would like to or 'd like to",
+   "must name a job"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you wouldn't like to do.",
+  "requiredElement": "wouldn't like to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use wouldn't like to",
+   "must say what you wouldn't like to do"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You are at a hotel. Write one polite sentence asking to change something.",
+  "requiredElement": "I'd like to change …",
+  "constraints": [
+   "exactly one sentence",
+   "must use would like to or 'd like to",
+   "must end with please"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something your teacher would like your class to do.",
+  "requiredElement": "would like + us + to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use would like us to",
+   "must not use that after would like"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are at a restaurant with your family. Write a short dialogue with the waiter: order food, drinks and ask for the bill.",
+  "targetGrammar": "would like to + verb for polite requests",
+  "lookFor": [
+   "I'd like to … / We'd like to …",
+   "Would you like to … ? from the waiter",
+   "to + base verb after like"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message inviting a friend to your birthday party. Say what you would like to do together.",
+  "targetGrammar": "Would you like to … ? and we'd like to …",
+  "lookFor": [
+   "Would you like to + verb",
+   "two or more different verbs after would like to",
+   "a day or time"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your dream holiday. Where would you like to go, and what would you like to do there? Write three or four sentences.",
+  "targetGrammar": "would like to + base verb",
+  "lookFor": [
+   "would like to go / visit / see",
+   "a place name",
+   "no -ing or bare verb after would like"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What would you like to do after you finish school or university? What would your parents like you to do? Write three or four sentences.",
+  "targetGrammar": "would like to + verb and would like + person + to + verb",
+  "lookFor": [
+   "I'd like to …",
+   "would like me to …",
+   "no would like that …"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You call a language centre. Write what you say: ask for information about a course and book a place.",
+  "targetGrammar": "polite requests with would like to",
+  "lookFor": [
+   "I'd like to know / ask / book",
+   "please",
+   "to + base verb after like"
+  ]
+ }
+]

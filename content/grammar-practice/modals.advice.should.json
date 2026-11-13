@@ -1,0 +1,1786 @@
+[
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You look {adj}. You should ______ a doctor {when}.",
+  "options": [
+   "see",
+   "to see",
+   "seeing",
+   "sees"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should see. No to, no -ing, no -s.",
+  "slots": {
+   "adj": [
+    "ill",
+    "pale",
+    "unwell",
+    "terrible"
+   ],
+   "when": [
+    "today",
+    "soon",
+    "right away",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You should ______ ten new words every day, {name}. Write them {where}.",
+  "options": [
+   "learn",
+   "to learn",
+   "learning",
+   "learns"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should learn. No to, no -ing, no -s.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "where": [
+    "in a notebook",
+    "on cards",
+    "in your phone",
+    "on the wall"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We should ______ the {room} before {who} come.",
+  "options": [
+   "clean",
+   "to clean",
+   "cleaning",
+   "cleans"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should clean. No to, no -ing, no -s.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "flat",
+    "bathroom"
+   ],
+   "who": [
+    "the guests",
+    "Grandma and Grandpa",
+    "our friends",
+    "the neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You should ______ a jacket, {name}. It's {adj} outside.",
+  "options": [
+   "wear",
+   "to wear",
+   "wearing",
+   "wears"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should wear. No to, no -ing, no -s.",
+  "slots": {
+   "name": [
+    "Bobur",
+    "Kamila",
+    "Sardor",
+    "Madina"
+   ],
+   "adj": [
+    "cold",
+    "windy",
+    "chilly",
+    "freezing"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz should ______ to bed earlier. He's always {state} in the {time}.",
+  "options": [
+   "go",
+   "to go",
+   "going",
+   "goes"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should go. No to, no -ing, no -s.",
+  "slots": {
+   "state": [
+    "tired",
+    "sleepy",
+    "late",
+    "grumpy"
+   ],
+   "time": [
+    "morning",
+    "first lesson",
+    "mornings",
+    "afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Tourists should ______ {city} in {season}.",
+  "options": [
+   "visit",
+   "to visit",
+   "visiting",
+   "visits"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should visit. No to, no -ing, no -s.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Shahrisabz"
+   ],
+   "season": [
+    "spring",
+    "autumn",
+    "April",
+    "October"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You should ______ your {relative} more often, {name}.",
+  "options": [
+   "call",
+   "to call",
+   "calling",
+   "calls"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should call. No to, no -ing, no -s.",
+  "slots": {
+   "relative": [
+    "grandmother",
+    "parents",
+    "uncle",
+    "aunt"
+   ],
+   "name": [
+    "Jasur",
+    "Nodira",
+    "Anvar",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Students should ______ their phones off in {place}, {name}.",
+  "options": [
+   "turn",
+   "to turn",
+   "turning",
+   "turns"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should turn. No to, no -ing, no -s.",
+  "slots": {
+   "place": [
+    "class",
+    "the exam",
+    "the library",
+    "lessons"
+   ],
+   "name": [
+    "Aziz",
+    "everyone",
+    "Lola",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I think you should ______ {thing} for your mum's birthday.",
+  "options": [
+   "buy",
+   "to buy",
+   "buying",
+   "buys"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should buy. No to, no -ing, no -s.",
+  "slots": {
+   "thing": [
+    "flowers",
+    "a scarf",
+    "a cake",
+    "a nice book"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Children should ______ {food} every day for {meal}.",
+  "options": [
+   "eat",
+   "to eat",
+   "eating",
+   "eats"
+  ],
+  "key": 0,
+  "why": "After should, use the base verb: should eat. No to, no -ing, no -s.",
+  "slots": {
+   "food": [
+    "fruit",
+    "vegetables",
+    "eggs",
+    "porridge"
+   ],
+   "meal": [
+    "breakfast",
+    "lunch",
+    "a snack",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ eat so many {food}, {name}. They're bad for your teeth.",
+  "options": [
+   "shouldn't",
+   "should",
+   "don't should",
+   "shouldn't to"
+  ],
+  "key": 0,
+  "why": "It is a bad idea, so use shouldn't + base verb. Never don't should.",
+  "slots": {
+   "food": [
+    "sweets",
+    "chocolates",
+    "biscuits",
+    "sugary snacks"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ go to bed so late, {name}. You have {event} tomorrow.",
+  "options": [
+   "shouldn't",
+   "should",
+   "don't should",
+   "shouldn't to"
+  ],
+  "key": 0,
+  "why": "It is a bad idea, so use shouldn't + base verb. Never don't should.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Kamila",
+    "Bobur",
+    "Malika"
+   ],
+   "event": [
+    "school",
+    "an exam",
+    "a test",
+    "work"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Drivers ______ use their phones {when}. It's very dangerous.",
+  "options": [
+   "shouldn't",
+   "should",
+   "don't should",
+   "shouldn't to"
+  ],
+  "key": 0,
+  "why": "It is a bad idea, so use shouldn't + base verb. Never don't should.",
+  "slots": {
+   "when": [
+    "while they drive",
+    "on the road",
+    "in traffic",
+    "at the wheel"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You look tired. You ______ have a rest, {name}. Sit {where}.",
+  "options": [
+   "should",
+   "shouldn't",
+   "don't should",
+   "should to"
+  ],
+  "key": 0,
+  "why": "It is a good idea, so use should + base verb. Should never takes do / don't.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Aziz",
+    "Grandpa",
+    "Olga"
+   ],
+   "where": [
+    "here",
+    "on the sofa",
+    "in the shade",
+    "by the window"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It's a long trip. We ______ take some {food} with us, {name}.",
+  "options": [
+   "should",
+   "shouldn't",
+   "don't should",
+   "should to"
+  ],
+  "key": 0,
+  "why": "It is a good idea, so use should + base verb. Should never takes do / don't.",
+  "slots": {
+   "food": [
+    "water",
+    "sandwiches",
+    "fruit",
+    "snacks"
+   ],
+   "name": [
+    "Dad",
+    "Aziz",
+    "Mum",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ swim in the {water} {when}. It's dangerous.",
+  "options": [
+   "shouldn't",
+   "should",
+   "don't should",
+   "shouldn't to"
+  ],
+  "key": 0,
+  "why": "It is a bad idea, so use shouldn't + base verb. Never don't should.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "sea",
+    "canal"
+   ],
+   "when": [
+    "at night",
+    "alone",
+    "after a big meal",
+    "in winter"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ take an umbrella, {name}? It looks {weather}.",
+  "options": [
+   "Should I",
+   "Do I should",
+   "Am I should",
+   "Should I to"
+  ],
+  "key": 0,
+  "why": "To ask for advice, put should before the subject: Should I take…?",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "weather": [
+    "cloudy",
+    "grey",
+    "like rain",
+    "dark"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ wear to the {event}, {name}?",
+  "options": [
+   "should I",
+   "I should",
+   "do I should",
+   "should I to"
+  ],
+  "key": 0,
+  "why": "To ask for advice, put should before the subject: What should I wear…?",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "interview",
+    "concert"
+   ],
+   "name": [
+    "Mum",
+    "Lola",
+    "Aziza",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where ______ go on holiday this {season}, {name}?",
+  "options": [
+   "should we",
+   "we should",
+   "do we should",
+   "should we to"
+  ],
+  "key": 0,
+  "why": "To ask for advice, put should before the subject: Where should we go…?",
+  "slots": {
+   "season": [
+    "summer",
+    "spring",
+    "winter",
+    "autumn"
+   ],
+   "name": [
+    "Dad",
+    "Mum",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ call the doctor, {name}? Grandma has a {problem}.",
+  "options": [
+   "Should I",
+   "Do I should",
+   "Am I should",
+   "Should I to"
+  ],
+  "key": 0,
+  "why": "To ask for advice, put should before the subject: Should I call…?",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Lola"
+   ],
+   "problem": [
+    "high fever",
+    "bad cough",
+    "headache",
+    "pain in her back"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You have a test tomorrow. You ______ (study) {when}, {name}.",
+  "key": "should study",
+  "why": "It's a good idea, so use should + base verb: should study.",
+  "slots": {
+   "when": [
+    "tonight",
+    "this evening",
+    "now",
+    "all afternoon"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "It's very cold. You ______ (wear) a {thing}, {name}.",
+  "key": "should wear",
+  "why": "It's a good idea, so use should + base verb: should wear.",
+  "slots": {
+   "thing": [
+    "warm coat",
+    "hat",
+    "scarf",
+    "jacket"
+   ],
+   "name": [
+    "Bobur",
+    "Kamila",
+    "Sardor",
+    "Madina"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You ______ (eat) fast food every day, {name}. It's not {adj}.",
+  "key": "shouldn't eat",
+  "why": "It's a bad idea, so use shouldn't + base verb: shouldn't eat.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "adj": [
+    "healthy",
+    "good for you",
+    "cheap",
+    "a good idea"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "{who} has a toothache. He ______ (go) to the dentist {when}.",
+  "key": "should go",
+  "why": "It's a good idea, so use should + base verb: should go.",
+  "slots": {
+   "who": [
+    "Aziz",
+    "My brother",
+    "Dad",
+    "Grandpa"
+   ],
+   "when": [
+    "today",
+    "soon",
+    "this week",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "We ______ (be) late for the {event}, {name}.",
+  "key": "shouldn't be",
+  "why": "It's a bad idea, so use shouldn't + base verb: shouldn't be.",
+  "slots": {
+   "event": [
+    "wedding",
+    "concert",
+    "exam",
+    "interview"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You ______ (drink) more water in {season}, {name}.",
+  "key": "should drink",
+  "why": "It's a good idea, so use should + base verb: should drink.",
+  "slots": {
+   "season": [
+    "summer",
+    "hot weather",
+    "July",
+    "August"
+   ],
+   "name": [
+    "Grandpa",
+    "Aziz",
+    "Lola",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "Lola ______ (spend) so much time on her {device}. Her eyes {state}.",
+  "key": "shouldn't spend",
+  "why": "It's a bad idea, so use shouldn't + base verb: shouldn't spend.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "computer"
+   ],
+   "state": [
+    "hurt",
+    "are tired",
+    "are red",
+    "feel tired"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "If you're tired, you ______ (take) a break for {time}, {name}.",
+  "key": "should take",
+  "why": "It's a good idea, so use should + base verb: should take.",
+  "slots": {
+   "time": [
+    "ten minutes",
+    "a while",
+    "half an hour",
+    "a few minutes"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You ______ (tell) {who} about the party. It's a surprise, {name}!",
+  "key": "shouldn't tell",
+  "why": "It's a bad idea, so use shouldn't + base verb: shouldn't tell.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Lola",
+    "the teacher",
+    "your brother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "Tourists ______ (try) {food} when they visit {city}.",
+  "key": "should try",
+  "why": "It's a good idea, so use should + base verb: should try.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "lagman",
+    "fresh bread"
+   ],
+   "city": [
+    "Samarkand",
+    "Tashkent",
+    "Bukhara",
+    "Uzbekistan"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You ______ (leave) your bag {where}. Someone can take it, {name}.",
+  "key": "shouldn't leave",
+  "why": "It's a bad idea, so use shouldn't + base verb: shouldn't leave.",
+  "slots": {
+   "where": [
+    "on the bus",
+    "outside",
+    "on the bench",
+    "in the car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "My brother ______ (read) more {things}. He wants to improve his {skill}.",
+  "key": "should read",
+  "why": "It's a good idea, so use should + base verb: should read.",
+  "slots": {
+   "things": [
+    "books",
+    "English stories",
+    "newspapers",
+    "articles"
+   ],
+   "skill": [
+    "English",
+    "spelling",
+    "vocabulary",
+    "writing"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You ______ (ask) the teacher if you don't understand something in {lesson}, {name}.",
+  "key": "should ask",
+  "why": "It's a good idea, so use should + base verb: should ask.",
+  "slots": {
+   "lesson": [
+    "maths",
+    "class",
+    "English",
+    "physics"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "Children ______ (play) with {thing}. It's dangerous.",
+  "key": "shouldn't play",
+  "why": "It's a bad idea, so use shouldn't + base verb: shouldn't play.",
+  "slots": {
+   "thing": [
+    "matches",
+    "knives",
+    "fire",
+    "electricity"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "We ______ (book) the tickets {when}. They sell out fast, {name}.",
+  "key": "should book",
+  "why": "It's a good idea, so use should + base verb: should book.",
+  "slots": {
+   "when": [
+    "today",
+    "now",
+    "early",
+    "this week"
+   ],
+   "name": [
+    "Dad",
+    "Aziz",
+    "Mum",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You look unhappy, {name}. You ______ (talk) to {who} about it.",
+  "key": "should talk",
+  "why": "It's a good idea, so use should + base verb: should talk.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "your parents",
+    "a friend",
+    "the teacher",
+    "your sister"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "Students ______ (copy) answers from {source} in the {test}.",
+  "key": "shouldn't copy",
+  "why": "It's a bad idea, so use shouldn't + base verb: shouldn't copy.",
+  "slots": {
+   "source": [
+    "the internet",
+    "their friends",
+    "other students",
+    "the book"
+   ],
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "homework"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You ______ (bring) a {thing} to the beach. The sun is very strong.",
+  "key": "should bring",
+  "why": "It's a good idea, so use should + base verb: should bring.",
+  "slots": {
+   "thing": [
+    "hat",
+    "cap",
+    "bottle of sun cream",
+    "big umbrella"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "I think Dad ______ (sell) his old {vehicle}. It's {state}.",
+  "key": "should sell",
+  "why": "It's a good idea, so use should + base verb: should sell.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "van",
+    "motorbike",
+    "bike"
+   ],
+   "state": [
+    "too old",
+    "always broken",
+    "very slow",
+    "not safe"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Give advice with should or shouldn't + the verb in brackets.",
+  "source": "You ______ (walk) {where} at night, {name}. It isn't safe.",
+  "key": "shouldn't walk",
+  "why": "It's a bad idea, so use shouldn't + base verb: shouldn't walk.",
+  "slots": {
+   "where": [
+    "alone",
+    "in the park",
+    "by the river",
+    "on dark streets"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Give the same advice with should or shouldn't.",
+  "source": "Drink more {drink}, {name}.",
+  "hint": "You ______ (drink) more {drink}, {name}.",
+  "key": "should drink",
+  "why": "An order (Drink…) becomes advice with should + base verb.",
+  "slots": {
+   "drink": [
+    "water",
+    "milk",
+    "green tea",
+    "juice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Grandpa",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Give the same advice with should or shouldn't.",
+  "source": "Go to bed early {when}, {name}.",
+  "hint": "You ______ (go) to bed early {when}, {name}.",
+  "key": "should go",
+  "why": "Go… becomes advice: You should go…",
+  "slots": {
+   "when": [
+    "tonight",
+    "this week",
+    "before the exam",
+    "every night"
+   ],
+   "name": [
+    "Bobur",
+    "Kamila",
+    "Sardor",
+    "Madina"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Give the same advice with should or shouldn't.",
+  "source": "Don't eat so much {food}, {name}.",
+  "hint": "You ______ (eat) so much {food}, {name}.",
+  "key": "shouldn't eat",
+  "why": "Don't eat… becomes advice with shouldn't: You shouldn't eat…",
+  "slots": {
+   "food": [
+    "sugar",
+    "bread",
+    "fast food",
+    "salt"
+   ],
+   "name": [
+    "Dad",
+    "Aziz",
+    "Olga",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Give the same advice with should or shouldn't.",
+  "source": "Don't worry about the {thing}, {name}.",
+  "hint": "You ______ (worry) about the {thing}, {name}.",
+  "key": "shouldn't worry",
+  "why": "Don't worry… becomes advice with shouldn't: You shouldn't worry…",
+  "slots": {
+   "thing": [
+    "exam",
+    "test",
+    "interview",
+    "match"
+   ],
+   "name": [
+    "Lola",
+    "Aziz",
+    "Mum",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Give the same advice with should or shouldn't.",
+  "source": "Ask your {who} for help {when}.",
+  "hint": "You ______ (ask) your {who} for help {when}.",
+  "key": "should ask",
+  "why": "Ask… becomes advice: You should ask…",
+  "slots": {
+   "who": [
+    "teacher",
+    "parents",
+    "brother",
+    "friends"
+   ],
+   "when": [
+    "now",
+    "today",
+    "next time",
+    "before the test"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with should or shouldn't.",
+  "source": "It's a good idea to learn some {lang} before your trip, {name}.",
+  "hint": "You ______ (learn) some {lang} before your trip, {name}.",
+  "key": "should learn",
+  "why": "It's a good idea to… = should + base verb.",
+  "slots": {
+   "lang": [
+    "English",
+    "Korean",
+    "Turkish",
+    "German"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with should or shouldn't.",
+  "source": "It's not a good idea to swim after {meal}, {name}.",
+  "hint": "You ______ (swim) after {meal}, {name}.",
+  "key": "shouldn't swim",
+  "why": "It's not a good idea to… = shouldn't + base verb.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "a big meal",
+    "dinner",
+    "eating"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with should or shouldn't.",
+  "source": "It's a good idea for Aziz to see the {doctor} {when}.",
+  "hint": "Aziz ______ (see) the {doctor} {when}.",
+  "key": "should see",
+  "why": "It's a good idea for Aziz to… = Aziz should + base verb.",
+  "slots": {
+   "doctor": [
+    "doctor",
+    "dentist",
+    "nurse",
+    "school doctor"
+   ],
+   "when": [
+    "today",
+    "soon",
+    "this week",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with should or shouldn't.",
+  "source": "It's not a good idea for {who} to watch TV {how}.",
+  "hint": "{who} ______ (watch) TV {how}.",
+  "key": "shouldn't watch",
+  "why": "It's not a good idea for… to = shouldn't + base verb.",
+  "slots": {
+   "who": [
+    "Children",
+    "Young kids",
+    "Little children",
+    "Babies"
+   ],
+   "how": [
+    "all day",
+    "late at night",
+    "for hours",
+    "before school"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with should or shouldn't.",
+  "source": "It's a good idea for us to leave {when}, {name}.",
+  "hint": "We ______ (leave) {when}, {name}.",
+  "key": "should leave",
+  "why": "It's a good idea for us to… = We should + base verb.",
+  "slots": {
+   "when": [
+    "now",
+    "early",
+    "before six",
+    "soon"
+   ],
+   "name": [
+    "Dad",
+    "Aziz",
+    "Mum",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the suggestion with You should.",
+  "source": "Why don't you call {who}, {name}?",
+  "hint": "You ______ (call) {who}, {name}.",
+  "key": "should call",
+  "why": "Why don't you…? is a suggestion. You can say: You should call…",
+  "slots": {
+   "who": [
+    "your grandma",
+    "the doctor",
+    "your teacher",
+    "a taxi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the suggestion with You should.",
+  "source": "Why don't you take the {transport}? It's faster, {name}.",
+  "hint": "You ______ (take) the {transport}. It's faster, {name}.",
+  "key": "should take",
+  "why": "Why don't you take…? = You should take…",
+  "slots": {
+   "transport": [
+    "metro",
+    "train",
+    "fast bus",
+    "taxi"
+   ],
+   "name": [
+    "Bobur",
+    "Kamila",
+    "Sardor",
+    "Madina"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the suggestion with You should.",
+  "source": "Why don't you join the {club}, {name}?",
+  "hint": "You ______ (join) the {club}, {name}.",
+  "key": "should join",
+  "why": "Why don't you join…? = You should join…",
+  "slots": {
+   "club": [
+    "chess club",
+    "football team",
+    "school choir",
+    "English club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the suggestion with You should.",
+  "source": "Why don't you ask for a {thing}, {name}?",
+  "hint": "You ______ (ask) for a {thing}, {name}.",
+  "key": "should ask",
+  "why": "Why don't you ask…? = You should ask…",
+  "slots": {
+   "thing": [
+    "discount",
+    "bigger size",
+    "receipt",
+    "new one"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the suggestion with You should.",
+  "source": "Why don't you rest for a {time}, {name}?",
+  "hint": "You ______ (rest) for a {time}, {name}.",
+  "key": "should rest",
+  "why": "Why don't you rest…? = You should rest…",
+  "slots": {
+   "time": [
+    "while",
+    "bit",
+    "few minutes",
+    "moment"
+   ],
+   "name": [
+    "Grandpa",
+    "Mum",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend is always tired. Give one piece of advice.",
+  "requiredElement": "You should + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use should",
+   "base verb after should"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend wants to learn English fast. Give one piece of advice.",
+  "requiredElement": "You should + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use should",
+   "no to after should"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something people shouldn't do in a library.",
+  "requiredElement": "shouldn't + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use shouldn't",
+   "must mention the library"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A tourist is coming to Uzbekistan. Tell them one thing they should try.",
+  "requiredElement": "should try",
+  "constraints": [
+   "exactly one sentence",
+   "must use should",
+   "must name a food or place"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend for advice about what to wear to a party.",
+  "requiredElement": "What should I … ?",
+  "constraints": [
+   "exactly one question",
+   "must start with What should I",
+   "must end with a question mark"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence of advice for a student before an exam.",
+  "requiredElement": "should / shouldn't",
+  "constraints": [
+   "exactly one sentence",
+   "must use should or shouldn't",
+   "must mention the exam"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something children shouldn't eat too much of.",
+  "requiredElement": "shouldn't + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use shouldn't",
+   "must name a food"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Give two pieces of advice to a friend who has a cold: one with should, one with shouldn't.",
+  "requiredElement": "should / shouldn't",
+  "constraints": [
+   "exactly two sentences",
+   "one should, one shouldn't",
+   "base verb in both"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend wants to visit your city for three days. Give advice: what should they see, eat and do?",
+  "targetGrammar": "should / shouldn't for advice",
+  "lookFor": [
+   "You should + base verb",
+   "You shouldn't + base verb",
+   "place and food names"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A new student is starting at your school. Give them advice for their first week.",
+  "targetGrammar": "should / shouldn't",
+  "lookFor": [
+   "should + base verb",
+   "shouldn't + base verb",
+   "three or more pieces of advice"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your little brother spends all day on his phone. What should he do? Write three or four sentences.",
+  "targetGrammar": "he should / he shouldn't",
+  "lookFor": [
+   "he should",
+   "he shouldn't",
+   "a reason with because"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message asking a friend for advice about a problem, and then write their answer.",
+  "targetGrammar": "Should I … ? and You should …",
+  "lookFor": [
+   "Should I … ? / What should I … ?",
+   "You should …",
+   "a clear problem"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What should people do to stay healthy? Write three or four sentences.",
+  "targetGrammar": "should / shouldn't for general advice",
+  "lookFor": [
+   "people should",
+   "people shouldn't",
+   "food, sleep or sport"
+  ]
+ }
+]
