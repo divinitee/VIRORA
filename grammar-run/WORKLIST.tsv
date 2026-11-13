@@ -106,7 +106,7 @@
 105	B	comparison.superlative.est-superlative	A2	1	todo	-iest spelling with 'the'
 106	B	comparison.superlative.irregular-superlative	A2	1	todo	best as superlative of good, with 'the'
 107	B	comparison.equality.as-as	A2	1	todo	as + adj + as
-108	B	modals.ability-permission.can-ability	A1	1	todo	can + base verb for ability
+108	B	modals.ability-permission.can-ability	A1	1	live	can + base verb for ability
 109	B	modals.ability-permission.can-form	A1	2	todo	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')
 110	B	modals.ability-permission.can-question	A1	1	todo	Modal question: can + subject + verb
 111	B	modals.ability-permission.can-request	A1	1	todo	Can for a request

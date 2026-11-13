@@ -2,6 +2,20 @@
 // Pool sizes per topic and stage, counting slot expansion. Lets the node map
 // render real numbers without loading a single bank.
 export const PRACTICE_MANIFEST = {
+ "modals.ability-permission.can-ability": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-ability",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 272,
+   "build": 284,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.articles.a-an": {
   "domain": "nouns-articles",
   "branch": "articles",
