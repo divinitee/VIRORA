@@ -64,7 +64,7 @@
 63	B	sentence-structure.word-order.svo-basic	A1	1	todo	Subject + verb + object
 64	B	sentence-structure.existential.there-was-were	A2	1	todo	there was/were agreement in the past
 65	B	sentence-structure.imperatives.lets	A2	1	live	Let's + base form
-66	B	sentence-structure.conjunctions.because	A2	1	todo	because for a reason
+66	B	sentence-structure.conjunctions.because	A2	1	live	because for a reason
 67	B	sentence-structure.conjunctions.when-time-clause	A2	1	todo	Present simple (not will) in a future time clause after when
 68	B	sentence-structure.word-order.double-object	A2	1	todo	S + V + indirect object + direct object
 69	B	sentence-structure.relative-clauses.that-which-things	A2	1	todo	that/which for a thing

@@ -121,7 +121,7 @@ const TRANSFORM = [
   // so -> because (5)
   [SO, "Aziz was hungry {when}, so he made a {food}.", "Aziz made a {food} {when} ______ (hungry).", "because he was hungry", [],
     "The reason (he was hungry) comes after because. So gave the result; because gives the reason.",
-    { food: ["sandwich", "salad", "pizza", "omelette"], when: ["after school", "at midnight", "last night", "in the afternoon"] }],
+    { food: ["sandwich", "salad", "pizza", "big breakfast"], when: ["after school", "at midnight", "last night", "in the afternoon"] }],
   [SO, "It was cold, so the children played {where} {when}.", "The children played {where} {when} ______ (cold).", "because it was cold", [],
     "Put the reason after because: because it was cold.",
     { where: ["inside", "at home", "in the gym", "in the hall"], when: ["yesterday", "on Monday", "all day", "after school"] }],

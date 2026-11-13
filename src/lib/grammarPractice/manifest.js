@@ -478,6 +478,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.conjunctions.because": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 260,
+   "build": 272,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.existential.there-is-are": {
   "domain": "sentence-structure",
   "branch": "existential",
