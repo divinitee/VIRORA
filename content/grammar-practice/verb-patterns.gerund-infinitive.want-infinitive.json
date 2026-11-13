@@ -1450,8 +1450,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the request with want + person + to + verb.",
-  "source": "Mum says to me: \"Wash the {thing}, please.\"",
-  "hint": "Mum wants ______ (wash) the {thing}.",
+  "source": "Mum says to me: \"Wash the {thing} {when}, please.\"",
+  "hint": "Mum wants ______ (wash) the {thing} {when}.",
   "key": "me to wash",
   "why": "Mum is talking to me, so use want + me + to + verb. Not \"wants that I wash\".",
   "slots": {
@@ -1460,6 +1460,12 @@
     "car",
     "windows",
     "carpet"
+   ],
+   "when": [
+    "now",
+    "today",
+    "after dinner",
+    "this evening"
    ]
   }
  },
@@ -1522,16 +1528,22 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the request with want + person + to + verb.",
-  "source": "Dad says to my brother: \"Turn off the {device}.\"",
-  "hint": "Dad wants ______ (turn) off the {device}.",
+  "source": "Dad says to my brother: \"Turn off the {device} {when}.\"",
+  "hint": "Dad wants ______ (turn) off the {device} {when}.",
   "key": "my brother to turn",
-  "why": "Use want + person + to + verb: wants my brother to turn off the light. Not \"wants that my brother turns\".",
+  "why": "Use want + person + to + verb: wants my brother to turn. Not \"wants that my brother turns\".",
   "slots": {
    "device": [
     "TV",
     "light",
     "computer",
     "music"
+   ],
+   "when": [
+    "now",
+    "at ten",
+    "before bed",
+    "at night"
    ]
   },
   "acceptable": [

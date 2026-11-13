@@ -167,7 +167,7 @@ const TRANSFORM = [
     "The teacher is talking to us, so use wants + us + to bring.",
     { thing: ["dictionaries", "notebooks", "photos", "projects"], when: ["tomorrow", "on Monday", "next lesson", "on Friday"] }],
   [PERSON, "Dad says to my brother: \"Turn off the {device} {when}.\"", "Dad wants ______ (turn) off the {device} {when}.", "my brother to turn",
-    "Use want + person + to + verb: wants my brother to turn off the light. Not \"wants that my brother turns\".",
+    "Use want + person + to + verb: wants my brother to turn. Not \"wants that my brother turns\".",
     { device: ["TV", "light", "computer", "music"], when: ["now", "at ten", "before bed", "at night"] }],
   [PERSON, "I say to you: \"Come to my {event} on {day}.\"", "I want ______ (come) to my {event} on {day}.", "you to come",
     "Use want + you + to + verb: I want you to come.",
