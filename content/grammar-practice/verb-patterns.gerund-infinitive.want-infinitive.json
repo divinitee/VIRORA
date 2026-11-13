@@ -1,0 +1,1777 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {relative} wants ______ a {job} one day.",
+  "options": [
+   "to be",
+   "be",
+   "being",
+   "to being"
+  ],
+  "key": 0,
+  "why": "After wants, use to + the base verb: wants to be. Only want takes the -s, never the second verb.",
+  "slots": {
+   "relative": [
+    "little sister",
+    "younger brother",
+    "cousin",
+    "best friend"
+   ],
+   "job": [
+    "teacher",
+    "doctor",
+    "pilot",
+    "programmer"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want ______ a new {item} with my {money}.",
+  "options": [
+   "to buy",
+   "buy",
+   "buying",
+   "to buying"
+  ],
+  "key": 0,
+  "why": "After want, use to + the base verb: want to buy.",
+  "slots": {
+   "item": [
+    "phone",
+    "laptop",
+    "bike",
+    "watch"
+   ],
+   "money": [
+    "birthday money",
+    "first salary",
+    "savings",
+    "prize money"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We want ______ {city} in {season}.",
+  "options": [
+   "to visit",
+   "visit",
+   "visiting",
+   "to visits"
+  ],
+  "key": 0,
+  "why": "After want, use to + the base verb: want to visit.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Shahrisabz"
+   ],
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "May"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Akmal wants ______ {lang} at a language centre in {city}.",
+  "options": [
+   "to learn",
+   "learn",
+   "learning",
+   "to learning"
+  ],
+  "key": 0,
+  "why": "After wants, use to + the base verb: wants to learn. Only want takes the -s, never the second verb.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "German",
+    "Turkish",
+    "Chinese"
+   ],
+   "city": [
+    "Tashkent",
+    "Namangan",
+    "Fergana",
+    "Andijan"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mother wants ______ her with the {task} on {day}.",
+  "options": [
+   "me to help",
+   "that I help",
+   "me help",
+   "I to help"
+  ],
+  "key": 0,
+  "why": "To say what you want another person to do, use want + person + to + verb: want me to help. English never uses \"want that…\" here.",
+  "slots": {
+   "task": [
+    "cooking",
+    "cleaning",
+    "shopping",
+    "washing"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Wednesday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bobur doesn't want ______ to the {place} today. He feels {state}.",
+  "options": [
+   "to go",
+   "go",
+   "going",
+   "to goes"
+  ],
+  "key": 0,
+  "why": "In the negative, doesn't want is still followed by to + the base verb: doesn't want to go.",
+  "slots": {
+   "place": [
+    "gym",
+    "party",
+    "market",
+    "cinema"
+   ],
+   "state": [
+    "tired",
+    "ill",
+    "sleepy",
+    "unwell"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you want ______ {food} for dinner tonight, {name}?",
+  "options": [
+   "to have",
+   "have",
+   "having",
+   "to having"
+  ],
+  "key": 0,
+  "why": "In a question, want is still followed by to + the base verb: want to have.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "soup",
+    "lagman"
+   ],
+   "name": [
+    "Aziza",
+    "Timur",
+    "Olga",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola and her sister want ______ a {business} {place}.",
+  "options": [
+   "to open",
+   "open",
+   "opening",
+   "to opened"
+  ],
+  "key": 0,
+  "why": "After want, use to + the base verb: want to open.",
+  "slots": {
+   "business": [
+    "café",
+    "small shop",
+    "bakery",
+    "beauty salon"
+   ],
+   "place": [
+    "in the city centre",
+    "near the bazaar",
+    "on our street",
+    "next to the university"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents want ______ {food} {occasion}.",
+  "options": [
+   "to make",
+   "make",
+   "making",
+   "to making"
+  ],
+  "key": 0,
+  "why": "After want, use to + the base verb: want to make.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "lagman",
+    "manti"
+   ],
+   "occasion": [
+    "for the whole family",
+    "for our guests",
+    "for the neighbours",
+    "on Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The teacher wants ______ the {text} {how} at home.",
+  "options": [
+   "us to read",
+   "that we read",
+   "us read",
+   "we to read"
+  ],
+  "key": 0,
+  "why": "To say what you want another person to do, use want + person + to + verb: want us to read. English never uses \"want that…\" here.",
+  "slots": {
+   "text": [
+    "text",
+    "story",
+    "dialogue",
+    "chapter"
+   ],
+   "how": [
+    "aloud",
+    "carefully",
+    "slowly",
+    "twice"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do your friends want ______ {sport} with us after {event}?",
+  "options": [
+   "to play",
+   "play",
+   "playing",
+   "to plays"
+  ],
+  "key": 0,
+  "why": "In a question, want is still followed by to + the base verb: want to play.",
+  "slots": {
+   "sport": [
+    "football",
+    "volleyball",
+    "basketball",
+    "table tennis"
+   ],
+   "event": [
+    "school",
+    "lunch",
+    "class",
+    "the lesson"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't want ______ my {thing} on the {transport} again.",
+  "options": [
+   "to leave",
+   "leave",
+   "leaving",
+   "to left"
+  ],
+  "key": 0,
+  "why": "In the negative, don't want is still followed by to + the base verb: don't want to leave.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bag",
+    "umbrella",
+    "keys"
+   ],
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Malika wants ______ a {pet}, but her {family} say no.",
+  "options": [
+   "to get",
+   "get",
+   "getting",
+   "to gets"
+  ],
+  "key": 0,
+  "why": "After wants, use to + the base verb: wants to get. Only want takes the -s, never the second verb.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "parrot",
+    "rabbit"
+   ],
+   "family": [
+    "parents",
+    "grandparents",
+    "mum and dad",
+    "older sisters"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our coach wants ______ {where} every day before the {event}.",
+  "options": [
+   "us to run",
+   "that we run",
+   "us run",
+   "we to run"
+  ],
+  "key": 0,
+  "why": "To say what you want another person to do, use want + person + to + verb: want us to run. English never uses \"want that…\" here.",
+  "slots": {
+   "where": [
+    "in the park",
+    "around the stadium",
+    "by the river",
+    "up the hill"
+   ],
+   "event": [
+    "match",
+    "final",
+    "race",
+    "tournament"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My dad wants ______ his old {vehicle} {where} and buy a new one.",
+  "options": [
+   "to sell",
+   "sell",
+   "selling",
+   "to selling"
+  ],
+  "key": 0,
+  "why": "After wants, use to + the base verb: wants to sell. Only want takes the -s, never the second verb.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "bike",
+    "van",
+    "motorbike"
+   ],
+   "where": [
+    "online",
+    "at the market",
+    "to a neighbour",
+    "to his friend"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What do you want ______ after {stage}, {name}?",
+  "options": [
+   "to do",
+   "do",
+   "doing",
+   "to doing"
+  ],
+  "key": 0,
+  "why": "In a question, want is still followed by to + the base verb: want to do.",
+  "slots": {
+   "stage": [
+    "school",
+    "university",
+    "college",
+    "the exams"
+   ],
+   "name": [
+    "Kamila",
+    "Sardor",
+    "Olga",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Olga wants ______ her {relative} in {city} this summer.",
+  "options": [
+   "to see",
+   "see",
+   "seeing",
+   "to sees"
+  ],
+  "key": 0,
+  "why": "After wants, use to + the base verb: wants to see. Only want takes the -s, never the second verb.",
+  "slots": {
+   "relative": [
+    "grandmother",
+    "aunt",
+    "cousins",
+    "uncle"
+   ],
+   "city": [
+    "Moscow",
+    "Kazan",
+    "Almaty",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother doesn't want ______ his {food}. He says it's too {taste}.",
+  "options": [
+   "to eat",
+   "eat",
+   "eating",
+   "to eats"
+  ],
+  "key": 0,
+  "why": "In the negative, doesn't want is still followed by to + the base verb: doesn't want to eat.",
+  "slots": {
+   "food": [
+    "soup",
+    "porridge",
+    "salad",
+    "rice"
+   ],
+   "taste": [
+    "hot",
+    "salty",
+    "spicy",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Jasur's parents want ______ {subject} {where}.",
+  "options": [
+   "him to study",
+   "that he studies",
+   "him study",
+   "he to study"
+  ],
+  "key": 0,
+  "why": "To say what you want another person to do, use want + person + to + verb: want him to study. English never uses \"want that…\" here.",
+  "slots": {
+   "subject": [
+    "medicine",
+    "law",
+    "economics",
+    "engineering"
+   ],
+   "where": [
+    "at university",
+    "in Tashkent",
+    "in Korea",
+    "abroad"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone in my class wants ______ the {event} on {day}.",
+  "options": [
+   "to watch",
+   "watch",
+   "watching",
+   "to watched"
+  ],
+  "key": 0,
+  "why": "After wants, use to + the base verb: wants to watch. Only want takes the -s, never the second verb.",
+  "slots": {
+   "event": [
+    "football match",
+    "concert",
+    "new film",
+    "final"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Tuesday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Nodira wants ______ (become) a {job} after college.",
+  "key": "to become",
+  "why": "After wants, use to + the base verb: wants to become. Only want takes the -s, never the second verb.",
+  "slots": {
+   "job": [
+    "nurse",
+    "lawyer",
+    "designer",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "We want ______ (try) the new {place} in our {area}.",
+  "key": "to try",
+  "why": "After want, use to + the base verb: want to try.",
+  "slots": {
+   "place": [
+    "café",
+    "restaurant",
+    "bakery",
+    "pizza place"
+   ],
+   "area": [
+    "street",
+    "district",
+    "mahalla",
+    "town"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My father doesn't want ______ (rest) on {day}. He's happy in the {place}.",
+  "key": "to rest",
+  "why": "In the negative, doesn't want is still followed by to + the base verb: doesn't want to rest.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "his day off"
+   ],
+   "place": [
+    "garden",
+    "garage",
+    "yard",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My cousins want ______ (move) to {city} for {reason}.",
+  "key": "to move",
+  "why": "After want, use to + the base verb: want to move.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Seoul",
+    "Istanbul"
+   ],
+   "reason": [
+    "work",
+    "university",
+    "a better job",
+    "their studies"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Dilshod wants ______ (call) his {relative} {when}.",
+  "key": "to call",
+  "why": "After wants, use to + the base verb: wants to call. Only want takes the -s, never the second verb.",
+  "slots": {
+   "relative": [
+    "mother",
+    "grandfather",
+    "uncle",
+    "big sister"
+   ],
+   "when": [
+    "tonight",
+    "after dinner",
+    "this evening",
+    "on Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "I don't want ______ (wear) my {clothes} {when}.",
+  "key": "to wear",
+  "why": "In the negative, don't want is still followed by to + the base verb: don't want to wear.",
+  "slots": {
+   "clothes": [
+    "school uniform",
+    "old jacket",
+    "brown coat",
+    "heavy boots"
+   ],
+   "when": [
+    "today",
+    "this weekend",
+    "tomorrow",
+    "on holiday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Kamola wants ______ (pass) her {exam} in {month}.",
+  "key": "to pass",
+  "why": "After wants, use to + the base verb: wants to pass. Only want takes the -s, never the second verb.",
+  "slots": {
+   "exam": [
+    "driving test",
+    "IELTS exam",
+    "maths exam",
+    "entrance exam"
+   ],
+   "month": [
+    "June",
+    "May",
+    "December",
+    "March"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Do you want ______ (stay) at {place} {when}?",
+  "key": "to stay",
+  "why": "In a question, want is still followed by to + the base verb: want to stay.",
+  "slots": {
+   "place": [
+    "home",
+    "my house",
+    "your aunt's flat",
+    "the hotel"
+   ],
+   "when": [
+    "tonight",
+    "this weekend",
+    "on Friday",
+    "after the party"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "My friends and I want ______ (start) a {club} at {place}.",
+  "key": "to start",
+  "why": "After want, use to + the base verb: want to start.",
+  "slots": {
+   "club": [
+    "chess club",
+    "book club",
+    "football team",
+    "music group"
+   ],
+   "place": [
+    "school",
+    "college",
+    "university",
+    "the youth centre"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Our teacher wants ______ (meet) our {who} {when}.",
+  "key": "to meet",
+  "why": "After wants, use to + the base verb: wants to meet. Only want takes the -s, never the second verb.",
+  "slots": {
+   "who": [
+    "parents",
+    "families",
+    "mothers",
+    "fathers"
+   ],
+   "when": [
+    "next week",
+    "on Friday",
+    "after the exams",
+    "before the holidays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "The boys don't want ______ (sit) in the {row} row of the {room}.",
+  "key": "to sit",
+  "why": "In the negative, don't want is still followed by to + the base verb: don't want to sit.",
+  "slots": {
+   "row": [
+    "front",
+    "back",
+    "first",
+    "last"
+   ],
+   "room": [
+    "classroom",
+    "bus",
+    "hall",
+    "cinema"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Sevara wants ______ (cook) {food} for her {who}.",
+  "key": "to cook",
+  "why": "After wants, use to + the base verb: wants to cook. Only want takes the -s, never the second verb.",
+  "slots": {
+   "food": [
+    "plov",
+    "dinner",
+    "manti",
+    "soup"
+   ],
+   "who": [
+    "guests",
+    "parents",
+    "friends",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Does your sister want ______ (take) the {transport} to {city}?",
+  "key": "to take",
+  "why": "In a question, want is still followed by to + the base verb: want to take.",
+  "slots": {
+   "transport": [
+    "train",
+    "bus",
+    "plane",
+    "night train"
+   ],
+   "city": [
+    "Bukhara",
+    "Khiva",
+    "Termez",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "I want ______ (answer) the {thing} first. It looks {adj}.",
+  "key": "to answer",
+  "why": "After want, use to + the base verb: want to answer.",
+  "slots": {
+   "thing": [
+    "last question",
+    "second question",
+    "third question",
+    "picture question"
+   ],
+   "adj": [
+    "easy",
+    "interesting",
+    "simple",
+    "fun"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Mum wants you ______ (clean) your {room} {when}.",
+  "key": "to clean",
+  "why": "To say what you want another person to do, use want + person + to + verb: want you to clean. English never uses \"want that…\" here.",
+  "slots": {
+   "room": [
+    "room",
+    "desk",
+    "shoes",
+    "wardrobe"
+   ],
+   "when": [
+    "today",
+    "before dinner",
+    "this morning",
+    "right now"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Aziza's father wants her ______ (drive) {how}.",
+  "key": "to drive",
+  "why": "To say what you want another person to do, use want + person + to + verb: want her to drive. English never uses \"want that…\" here.",
+  "slots": {
+   "how": [
+    "carefully",
+    "slowly",
+    "more slowly",
+    "very carefully"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "The bus driver doesn't want ______ (wait) for {who} at the {stop}.",
+  "key": "to wait",
+  "why": "In the negative, doesn't want is still followed by to + the base verb: doesn't want to wait.",
+  "slots": {
+   "who": [
+    "us",
+    "late students",
+    "anyone",
+    "the other passengers"
+   ],
+   "stop": [
+    "first stop",
+    "bus station",
+    "corner",
+    "last stop"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "The {team} want ______ (win) the {cup} this year.",
+  "key": "to win",
+  "why": "After want, use to + the base verb: want to win.",
+  "slots": {
+   "team": [
+    "players",
+    "girls",
+    "boys",
+    "students"
+   ],
+   "cup": [
+    "city cup",
+    "school cup",
+    "final",
+    "tournament"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Why do you want ______ (borrow) my {thing}, {name}?",
+  "key": "to borrow",
+  "why": "In a question, want is still followed by to + the base verb: want to borrow.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "dictionary",
+    "bike",
+    "charger"
+   ],
+   "name": [
+    "Bobur",
+    "Lola",
+    "Anvar",
+    "Nigora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the correct form of the verb in brackets.",
+  "source": "Rustam wants ______ (know) the {thing} of the {event}.",
+  "key": "to know",
+  "why": "After wants, use to + the base verb: wants to know. Only want takes the -s, never the second verb.",
+  "slots": {
+   "thing": [
+    "time",
+    "date",
+    "start time",
+    "finish time"
+   ],
+   "event": [
+    "concert",
+    "match",
+    "party",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person. Keep want + to.",
+  "source": "I want to buy {item} for my {who}.",
+  "hint": "My sister ______ (buy) {item} for her {who}.",
+  "key": "wants to buy",
+  "why": "My sister is one person, so want becomes wants. The second verb stays to + base: to buy.",
+  "slots": {
+   "item": [
+    "flowers",
+    "a present",
+    "a cake",
+    "a card"
+   ],
+   "who": [
+    "teacher",
+    "mother",
+    "best friend",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person. Keep want + to.",
+  "source": "We want to go to {place} on {day}.",
+  "hint": "Timur ______ (go) to {place} on {day}.",
+  "key": "wants to go",
+  "why": "Timur is one person, so use wants, then to + base verb: to go, not to goes.",
+  "slots": {
+   "place": [
+    "the zoo",
+    "the park",
+    "the cinema",
+    "the stadium"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person. Keep want + to.",
+  "source": "They want to learn {skill} in the {season}.",
+  "hint": "Our neighbour ______ (learn) {skill} in the {season}.",
+  "key": "wants to learn",
+  "why": "Our neighbour is one person, so use wants + to learn.",
+  "slots": {
+   "skill": [
+    "to swim",
+    "to drive",
+    "English",
+    "to cook"
+   ],
+   "season": [
+    "summer",
+    "spring",
+    "autumn",
+    "winter"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person. Keep want + to.",
+  "source": "I want to finish my {task} before {time}.",
+  "hint": "Aziz ______ (finish) his {task} before {time}.",
+  "key": "wants to finish",
+  "why": "Aziz is one person, so want becomes wants. Finish stays in the base form after to.",
+  "slots": {
+   "task": [
+    "homework",
+    "project",
+    "report",
+    "essay"
+   ],
+   "time": [
+    "dinner",
+    "nine",
+    "the weekend",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person. Keep want + to.",
+  "source": "You want to watch {show} tonight.",
+  "hint": "Grandpa ______ (watch) {show} tonight.",
+  "key": "wants to watch",
+  "why": "Grandpa is one person, so use wants, then to watch.",
+  "slots": {
+   "show": [
+    "the news",
+    "the football",
+    "a film",
+    "a concert"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "Lola wants to move to {city} {when}.",
+  "hint": "Lola ______ (move) to {city} {when}.",
+  "key": "doesn't want to move",
+  "why": "Lola is one person, so the negative is doesn't want. Want loses its -s after doesn't, and to move stays.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "another city",
+    "the capital"
+   ],
+   "when": [
+    "next year",
+    "this year",
+    "after college",
+    "in the summer"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "I want to eat {food} {when}.",
+  "hint": "I ______ (eat) {food} {when}.",
+  "key": "don't want to eat",
+  "why": "With I, the negative is don't want, still followed by to + base verb.",
+  "slots": {
+   "food": [
+    "fast food",
+    "sweets",
+    "meat",
+    "bread"
+   ],
+   "when": [
+    "today",
+    "this week",
+    "tonight",
+    "for lunch"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "My friends want to play {game} {where}.",
+  "hint": "My friends ______ (play) {game} {where}.",
+  "key": "don't want to play",
+  "why": "My friends is plural, so the negative is don't want + to play.",
+  "slots": {
+   "game": [
+    "chess",
+    "computer games",
+    "cards",
+    "volleyball"
+   ],
+   "where": [
+    "inside",
+    "in the yard",
+    "at my house",
+    "after school"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "Bekzod wants to sit next to {who} in {lesson}.",
+  "hint": "Bekzod ______ (sit) next to {who} in {lesson}.",
+  "key": "doesn't want to sit",
+  "why": "Bekzod is one person, so use doesn't want + to sit. Never doesn't wants.",
+  "slots": {
+   "who": [
+    "Anvar",
+    "the window",
+    "the door",
+    "his cousin"
+   ],
+   "lesson": [
+    "maths",
+    "class",
+    "English",
+    "history"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence in the negative.",
+  "source": "We want to spend our {money} on {thing}.",
+  "hint": "We ______ (spend) our {money} on {thing}.",
+  "key": "don't want to spend",
+  "why": "With we, the negative is don't want, then to + base verb: to spend.",
+  "slots": {
+   "money": [
+    "money",
+    "savings",
+    "pocket money",
+    "birthday money"
+   ],
+   "thing": [
+    "clothes",
+    "games",
+    "snacks",
+    "new phones"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the request with want + person + to + verb.",
+  "source": "Mum says to me: \"Wash the {thing}, please.\"",
+  "hint": "Mum wants ______ (wash) the {thing}.",
+  "key": "me to wash",
+  "why": "Mum is talking to me, so use want + me + to + verb. Not \"wants that I wash\".",
+  "slots": {
+   "thing": [
+    "dishes",
+    "car",
+    "windows",
+    "carpet"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the request with want + person + to + verb.",
+  "source": "The doctor says to my grandfather: \"Walk every {time}.\"",
+  "hint": "The doctor wants my grandfather ______ (walk) every {time}.",
+  "key": "to walk",
+  "why": "After want + person, use to + base verb: wants my grandfather to walk.",
+  "slots": {
+   "time": [
+    "day",
+    "morning",
+    "evening",
+    "afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the request with want + person + to + verb.",
+  "source": "Our teacher says to us: \"Bring your {thing} {when}.\"",
+  "hint": "Our teacher wants ______ (bring) our {thing} {when}.",
+  "key": "us to bring",
+  "why": "The teacher is talking to us, so use wants + us + to bring.",
+  "slots": {
+   "thing": [
+    "dictionaries",
+    "notebooks",
+    "photos",
+    "projects"
+   ],
+   "when": [
+    "tomorrow",
+    "on Monday",
+    "next lesson",
+    "on Friday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the request with want + person + to + verb.",
+  "source": "Dad says to my brother: \"Turn off the {device}.\"",
+  "hint": "Dad wants ______ (turn) off the {device}.",
+  "key": "my brother to turn",
+  "why": "Use want + person + to + verb: wants my brother to turn off the light. Not \"wants that my brother turns\".",
+  "slots": {
+   "device": [
+    "TV",
+    "light",
+    "computer",
+    "music"
+   ]
+  },
+  "acceptable": [
+   "him to turn"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the request with want + person + to + verb.",
+  "source": "I say to you: \"Come to my {event} on {day}.\"",
+  "hint": "I want ______ (come) to my {event} on {day}.",
+  "key": "you to come",
+  "why": "Use want + you + to + verb: I want you to come.",
+  "slots": {
+   "event": [
+    "party",
+    "birthday",
+    "concert",
+    "wedding"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a job you want to do in the future.",
+  "requiredElement": "want to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use I want to",
+   "must name a job"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place you want to visit and say when.",
+  "requiredElement": "want to visit",
+  "constraints": [
+   "exactly one sentence",
+   "must name a place",
+   "must include a time"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you don't want to do this weekend.",
+  "requiredElement": "don't want to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use don't want to",
+   "must include this weekend"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something a family member wants to do.",
+  "requiredElement": "wants to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must name a family member",
+   "must use wants to"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something your parents or teacher want you to do.",
+  "requiredElement": "want + me + to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use want(s) me to",
+   "must not use that after want"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a question to ask a friend what they want to do after school.",
+  "requiredElement": "Do you want to … ? or What do you want to … ?",
+  "constraints": [
+   "exactly one question",
+   "must end with a question mark",
+   "must use want to"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a skill you want to learn this year.",
+  "requiredElement": "want to learn",
+  "constraints": [
+   "exactly one sentence",
+   "must name a skill",
+   "must include this year"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one thing you want to buy, and one thing you don't want to buy.",
+  "requiredElement": "want to buy and don't want to buy",
+  "constraints": [
+   "exactly two sentences",
+   "one positive, one negative",
+   "must use to buy in both"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Talk about your plans for the next five years. What do you want to do, and what don't you want to do? Write three or four sentences.",
+  "targetGrammar": "want to / don't want to + base verb",
+  "lookFor": [
+   "want to + base verb",
+   "don't want to + base verb",
+   "no bare verb or -ing after want"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend asks: \"What do you want to do this weekend?\" Answer and give reasons. Write three or four sentences.",
+  "targetGrammar": "want to + base verb for plans",
+  "lookFor": [
+   "want to + base verb",
+   "a reason with because",
+   "a time like this weekend or on Saturday"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What do your parents want you to do in the future? Do you want the same thing? Write three or four sentences.",
+  "targetGrammar": "want + person + to + base verb",
+  "lookFor": [
+   "want(s) me to + base verb",
+   "I want to / I don't want to",
+   "no want that…"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a trip you want to take. Where do you want to go and what do you want to see there? Write three or four sentences.",
+  "targetGrammar": "want to + base verb",
+  "lookFor": [
+   "want to go / visit / see",
+   "a place name",
+   "two or more different verbs after want to"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message to a friend inviting them to do something with you. Say what you want to do and what you want them to bring.",
+  "targetGrammar": "want to + verb and want + you + to + verb",
+  "lookFor": [
+   "want to + base verb",
+   "want you to + base verb",
+   "a day or time"
+  ]
+ }
+]
