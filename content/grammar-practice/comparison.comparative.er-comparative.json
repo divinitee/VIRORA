@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {relative} is ______ than me. We both play {sport} after school.",
+  "options": [
+   "taller",
+   "tall",
+   "tallest",
+   "more tall"
+  ],
+  "key": 0,
+  "why": "Tall is a short adjective, so add -er: taller. Short adjectives take -er, not more.",
+  "slots": {
+   "relative": [
+    "brother",
+    "cousin",
+    "sister",
+    "best friend"
+   ],
+   "sport": [
+    "basketball",
+    "volleyball",
+    "football",
+    "tennis"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The bus is ______ than a taxi, so I take it to {place} every {time}.",
+  "options": [
+   "cheaper",
+   "cheap",
+   "cheapest",
+   "more cheap"
+  ],
+  "key": 0,
+  "why": "Cheap is a short adjective, so add -er: cheaper. Short adjectives take -er, not more.",
+  "slots": {
+   "place": [
+    "school",
+    "university",
+    "work",
+    "the market"
+   ],
+   "time": [
+    "day",
+    "morning",
+    "weekday",
+    "afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The metro is ______ than the bus, so I use it to get to {place} in the {time}.",
+  "options": [
+   "faster",
+   "fast",
+   "fastest",
+   "more fast"
+  ],
+  "key": 0,
+  "why": "Fast is a short adjective, so add -er: faster. Short adjectives take -er, not more.",
+  "slots": {
+   "place": [
+    "work",
+    "university",
+    "college",
+    "the city centre"
+   ],
+   "time": [
+    "morning",
+    "evening",
+    "afternoon",
+    "rush hour"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In {city}, July is ______ than June. We {activity} every evening.",
+  "options": [
+   "hotter",
+   "hoter",
+   "hot",
+   "more hot"
+  ],
+  "key": 0,
+  "why": "Hot ends in one vowel and one consonant, so double the last letter: hotter. Short adjectives take -er, not more.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Samarkand",
+    "Termez"
+   ],
+   "activity": [
+    "sit outside",
+    "go swimming",
+    "eat ice cream",
+    "drink cold water"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our new flat is ______ than the old one. It has {rooms} and it is near the {place}.",
+  "options": [
+   "bigger",
+   "biger",
+   "big",
+   "more big"
+  ],
+  "key": 0,
+  "why": "Big ends in one vowel and one consonant, so double the last letter: bigger. Short adjectives take -er, not more.",
+  "slots": {
+   "rooms": [
+    "three bedrooms",
+    "four rooms",
+    "two balconies",
+    "a big hall"
+   ],
+   "place": [
+    "park",
+    "metro",
+    "market",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My phone is ______ than my sister's phone. I got it {when} from my {person}.",
+  "options": [
+   "older",
+   "old",
+   "oldest",
+   "more old"
+  ],
+  "key": 0,
+  "why": "Old is a short adjective, so add -er: older. Short adjectives take -er, not more.",
+  "slots": {
+   "when": [
+    "four years ago",
+    "five years ago",
+    "a long time ago",
+    "six years ago"
+   ],
+   "person": [
+    "uncle",
+    "father",
+    "aunt",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little {sibling} is ______ than me, so I often help with {task}.",
+  "options": [
+   "younger",
+   "young",
+   "youngest",
+   "more young"
+  ],
+  "key": 0,
+  "why": "Young is a short adjective, so add -er: younger. Short adjectives take -er, not more.",
+  "slots": {
+   "sibling": [
+    "brother",
+    "sister",
+    "cousin",
+    "nephew"
+   ],
+   "task": [
+    "homework",
+    "maths",
+    "reading",
+    "English"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Today is ______ than yesterday, so I am wearing my {clothes} and {extra}.",
+  "options": [
+   "colder",
+   "cold",
+   "coldest",
+   "more cold"
+  ],
+  "key": 0,
+  "why": "Cold is a short adjective, so add -er: colder. Short adjectives take -er, not more.",
+  "slots": {
+   "clothes": [
+    "warm coat",
+    "winter jacket",
+    "thick sweater",
+    "boots"
+   ],
+   "extra": [
+    "a scarf",
+    "a hat",
+    "gloves",
+    "warm socks"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "For me, English is ______ than {subject}. I {verb} it every day.",
+  "options": [
+   "easier",
+   "easyer",
+   "easy",
+   "easiest"
+  ],
+  "key": 0,
+  "why": "Easy ends in y, so change y to i and add -er: easier. Use than after it to compare two things.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "chemistry",
+    "history"
+   ],
+   "verb": [
+    "study",
+    "speak",
+    "read",
+    "use"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In summer, the days are ______ than in winter, so we play {sport} outside until {time}.",
+  "options": [
+   "longer",
+   "long",
+   "longest",
+   "more long"
+  ],
+  "key": 0,
+  "why": "Long is a short adjective, so add -er: longer. Short adjectives take -er, not more.",
+  "slots": {
+   "sport": [
+    "football",
+    "volleyball",
+    "tennis",
+    "basketball"
+   ],
+   "time": [
+    "eight o'clock",
+    "nine o'clock",
+    "late",
+    "dark"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father is ______ than me. He can carry {thing} to the {place} easily.",
+  "options": [
+   "stronger",
+   "strong",
+   "strongest",
+   "more strong"
+  ],
+  "key": 0,
+  "why": "Strong is a short adjective, so add -er: stronger. Short adjectives take -er, not more.",
+  "slots": {
+   "thing": [
+    "the big bags",
+    "the heavy box",
+    "two suitcases",
+    "the water bottles"
+   ],
+   "place": [
+    "car",
+    "fifth floor",
+    "kitchen",
+    "taxi"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My room is ______ than my brother's room, but it has a {thing} and a big {thing2}.",
+  "options": [
+   "smaller",
+   "small",
+   "smallest",
+   "more small"
+  ],
+  "key": 0,
+  "why": "Small is a short adjective, so add -er: smaller. Short adjectives take -er, not more.",
+  "slots": {
+   "thing": [
+    "desk",
+    "lamp",
+    "bookshelf",
+    "sofa"
+   ],
+   "thing2": [
+    "window",
+    "bed",
+    "mirror",
+    "cupboard"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My new {clothes} is ______ than my old one. I bought it at the {place}.",
+  "options": [
+   "warmer",
+   "warm",
+   "warmest",
+   "more warm"
+  ],
+  "key": 0,
+  "why": "Warm is a short adjective, so add -er: warmer. Short adjectives take -er, not more.",
+  "slots": {
+   "clothes": [
+    "coat",
+    "jacket",
+    "sweater",
+    "hat"
+   ],
+   "place": [
+    "market",
+    "bazaar",
+    "mall",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My old laptop is ______ than my new {device}, so I use it only for {task}.",
+  "options": [
+   "slower",
+   "slow",
+   "slowest",
+   "more slow"
+  ],
+  "key": 0,
+  "why": "Slow is a short adjective, so add -er: slower. Short adjectives take -er, not more.",
+  "slots": {
+   "device": [
+    "phone",
+    "tablet",
+    "computer",
+    "work laptop"
+   ],
+   "task": [
+    "music",
+    "films",
+    "my notes",
+    "email"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On Saturday, the bazaar is ______ than on Monday. Many people buy {food} and {food2} there.",
+  "options": [
+   "busier",
+   "busyer",
+   "busy",
+   "busiest"
+  ],
+  "key": 0,
+  "why": "Busy ends in y, so change y to i and add -er: busier. Use than after it to compare two things.",
+  "slots": {
+   "food": [
+    "fruit",
+    "meat",
+    "vegetables",
+    "bread"
+   ],
+   "food2": [
+    "rice",
+    "flour",
+    "tea",
+    "sweets"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My school bag is ______ than my brother's bag because I carry my {thing} and a big {book}.",
+  "options": [
+   "heavier",
+   "heavyer",
+   "heavy",
+   "heaviest"
+  ],
+  "key": 0,
+  "why": "Heavy ends in y, so change y to i and add -er: heavier. Use than after it to compare two things.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "lunch",
+    "water bottle",
+    "sports clothes"
+   ],
+   "book": [
+    "dictionary",
+    "maths book",
+    "atlas",
+    "notebook"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mother gets up ______ than everyone in our family. She makes {food} and {drink} for us.",
+  "options": [
+   "earlier",
+   "earlyer",
+   "early",
+   "earliest"
+  ],
+  "key": 0,
+  "why": "Early ends in y, so change y to i and add -er: earlier. Use than after it to compare two things.",
+  "slots": {
+   "food": [
+    "breakfast",
+    "eggs",
+    "porridge",
+    "sandwiches"
+   ],
+   "drink": [
+    "tea",
+    "coffee",
+    "juice",
+    "compote"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The mountains near Chimgan are ______ than the hills near our {place}. We go there {time}.",
+  "options": [
+   "higher",
+   "high",
+   "highest",
+   "more high"
+  ],
+  "key": 0,
+  "why": "High is a short adjective, so add -er: higher. Short adjectives take -er, not more.",
+  "slots": {
+   "place": [
+    "village",
+    "town",
+    "city",
+    "house"
+   ],
+   "time": [
+    "in spring",
+    "in summer",
+    "every summer",
+    "at the weekend"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {book} is ______ than that one. I can read it in {time}.",
+  "options": [
+   "thinner",
+   "thiner",
+   "thin",
+   "more thin"
+  ],
+  "key": 0,
+  "why": "Thin ends in one vowel and one consonant, so double the last letter: thinner. Short adjectives take -er, not more.",
+  "slots": {
+   "book": [
+    "book",
+    "novel",
+    "story book",
+    "magazine"
+   ],
+   "time": [
+    "one day",
+    "two days",
+    "an evening",
+    "a week"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The weather today is ______ than yesterday, so let's go to the {place} with {people}.",
+  "options": [
+   "nicer",
+   "nice",
+   "nicest",
+   "more nice"
+  ],
+  "key": 0,
+  "why": "Nice already ends in e, so just add -r: nicer. Short adjectives take -er, not more.",
+  "slots": {
+   "place": [
+    "park",
+    "lake",
+    "river",
+    "mountains"
+   ],
+   "people": [
+    "our friends",
+    "the children",
+    "my cousins",
+    "your sister"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "Tashkent is ______ (big) than {city}. It has a metro and many {place}.",
+  "key": "bigger",
+  "why": "Big ends in one vowel and one consonant, so double the last letter: bigger. Use than after it to compare two things.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Namangan",
+    "Andijan"
+   ],
+   "place": [
+    "parks",
+    "universities",
+    "theatres",
+    "markets"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "Be careful! This {drink} is ______ (hot) than the {food}.",
+  "key": "hotter",
+  "why": "Hot ends in one vowel and one consonant, so double the last letter: hotter. Use than after it to compare two things.",
+  "slots": {
+   "drink": [
+    "soup",
+    "tea",
+    "coffee",
+    "milk"
+   ],
+   "food": [
+    "plov",
+    "bread",
+    "salad",
+    "juice"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "Vegetables at the {place} are ______ (cheap) than in the {shop}.",
+  "key": "cheaper",
+  "why": "Cheap is a short adjective, so add -er: cheaper. Use than after it to compare two things.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "market",
+    "village market",
+    "street market"
+   ],
+   "shop": [
+    "supermarket",
+    "mall",
+    "city centre",
+    "big stores"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "My cousin can run ______ (fast) than me. He trains at the {place} every {day}.",
+  "key": "faster",
+  "why": "Fast is a short adjective, so add -er: faster. Use than after it to compare two things.",
+  "slots": {
+   "place": [
+    "stadium",
+    "gym",
+    "park",
+    "sports club"
+   ],
+   "day": [
+    "morning",
+    "evening",
+    "weekend",
+    "afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "This {test} is ______ (easy) than the last one. I know all the {words}.",
+  "key": "easier",
+  "why": "Easy ends in y, so change y to i and add -er: easier. Use than after it to compare two things.",
+  "slots": {
+   "test": [
+    "test",
+    "quiz",
+    "exam",
+    "exercise"
+   ],
+   "words": [
+    "words",
+    "answers",
+    "rules",
+    "verbs"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "My sister is ______ (young) than me. She is still at {place} and she loves {thing}.",
+  "key": "younger",
+  "why": "Young is a short adjective, so add -er: younger. Use than after it to compare two things.",
+  "slots": {
+   "place": [
+    "school",
+    "primary school",
+    "kindergarten",
+    "music school"
+   ],
+   "thing": [
+    "drawing",
+    "dancing",
+    "cartoons",
+    "music"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "In December, the days are ______ (short) than in {month}, so I go home in the dark after {thing}.",
+  "key": "shorter",
+  "why": "Short is a short adjective, so add -er: shorter. Use than after it to compare two things.",
+  "slots": {
+   "month": [
+    "June",
+    "July",
+    "May",
+    "August"
+   ],
+   "thing": [
+    "school",
+    "work",
+    "lessons",
+    "training"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "This suitcase is ______ (heavy) than my {bag}. Can you help me carry it to the {place}?",
+  "key": "heavier",
+  "why": "Heavy ends in y, so change y to i and add -er: heavier. Use than after it to compare two things.",
+  "slots": {
+   "bag": [
+    "backpack",
+    "school bag",
+    "sports bag",
+    "handbag"
+   ],
+   "place": [
+    "car",
+    "taxi",
+    "bus",
+    "door"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "Our cat is ______ (happy) in the new flat than in the old one. It sleeps on the {place} by the {thing}.",
+  "key": "happier",
+  "why": "Happy ends in y, so change y to i and add -er: happier. Use than after it to compare two things.",
+  "slots": {
+   "place": [
+    "sofa",
+    "bed",
+    "carpet",
+    "chair"
+   ],
+   "thing": [
+    "window",
+    "heater",
+    "door",
+    "balcony"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "Our kitchen is ______ (warm) than the other rooms, so we often {act} there with {who}.",
+  "key": "warmer",
+  "why": "Warm is a short adjective, so add -er: warmer. Use than after it to compare two things.",
+  "slots": {
+   "act": [
+    "eat",
+    "sit",
+    "do homework",
+    "drink tea"
+   ],
+   "who": [
+    "our grandparents",
+    "the children",
+    "my little brother",
+    "my aunt"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "Coffee is ______ (strong) than tea, so my father drinks only one {cup} {when}.",
+  "key": "stronger",
+  "why": "Strong is a short adjective, so add -er: stronger. Use than after it to compare two things.",
+  "slots": {
+   "cup": [
+    "cup",
+    "small cup",
+    "glass",
+    "mug"
+   ],
+   "when": [
+    "before work",
+    "at breakfast",
+    "after lunch",
+    "in the morning"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "This {bus} is ______ (new) than the old ones. It has {feature} and {feature2}.",
+  "key": "newer",
+  "why": "New is a short adjective, so add -er: newer. Use than after it to compare two things.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro train",
+    "minibus"
+   ],
+   "feature": [
+    "air conditioning",
+    "big windows",
+    "soft seats",
+    "bright lights"
+   ],
+   "feature2": [
+    "free Wi-Fi",
+    "phone chargers",
+    "screens",
+    "a clean floor"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "This {thing} is ______ (thin) than that one, so it fits in my {bag}.",
+  "key": "thinner",
+  "why": "Thin ends in one vowel and one consonant, so double the last letter: thinner. Use than after it to compare two things.",
+  "slots": {
+   "thing": [
+    "notebook",
+    "book",
+    "phone",
+    "tablet"
+   ],
+   "bag": [
+    "pocket",
+    "small bag",
+    "backpack",
+    "jacket pocket"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "My mother is ______ (busy) than my father because she works at the {place} and looks after my little {sibling}.",
+  "key": "busier",
+  "why": "Busy ends in y, so change y to i and add -er: busier. Use than after it to compare two things.",
+  "slots": {
+   "place": [
+    "hospital",
+    "school",
+    "bank",
+    "market"
+   ],
+   "sibling": [
+    "brother",
+    "sister",
+    "cousin",
+    "nephew"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "My shoes are ______ (dirty) than yours because I walked through the {place} after the {event}.",
+  "key": "dirtier",
+  "why": "Dirty ends in y, so change y to i and add -er: dirtier. Use than after it to compare two things.",
+  "slots": {
+   "place": [
+    "park",
+    "field",
+    "garden",
+    "yard"
+   ],
+   "event": [
+    "rain",
+    "snow",
+    "storm",
+    "football match"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "The new road is ______ (safe) than the old one, so children can walk to {place} with their {person}.",
+  "key": "safer",
+  "why": "Safe already ends in e, so just add -r: safer. Use than after it to compare two things.",
+  "slots": {
+   "place": [
+    "school",
+    "the park",
+    "the shop",
+    "the stadium"
+   ],
+   "person": [
+    "friends",
+    "brothers",
+    "sisters",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "My score in English is ______ (high) than my score in {subject}, so my {person} is happy.",
+  "key": "higher",
+  "why": "High is a short adjective, so add -er: higher. Use than after it to compare two things.",
+  "slots": {
+   "subject": [
+    "maths",
+    "history",
+    "physics",
+    "chemistry"
+   ],
+   "person": [
+    "teacher",
+    "mother",
+    "father",
+    "grandfather"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "The air in the mountains is ______ (clean) than the air in the {city}, so we go to {place} every summer.",
+  "key": "cleaner",
+  "why": "Clean is a short adjective, so add -er: cleaner. Use than after it to compare two things.",
+  "slots": {
+   "city": [
+    "city",
+    "city centre",
+    "capital",
+    "town"
+   ],
+   "place": [
+    "Chimgan",
+    "Zaamin",
+    "the hills",
+    "the mountains"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "Water from the {source} is ______ (cold) than water from the tap, so we drink it on hot {time}.",
+  "key": "colder",
+  "why": "Cold is a short adjective, so add -er: colder. Use than after it to compare two things.",
+  "slots": {
+   "source": [
+    "spring",
+    "well",
+    "fridge",
+    "mountain stream"
+   ],
+   "time": [
+    "days",
+    "afternoons",
+    "evenings",
+    "mornings"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form (-er) of the word in brackets.",
+  "source": "This cartoon is ______ (funny) than the film we watched on {day}. My {person} laughed a lot.",
+  "key": "funnier",
+  "why": "Funny ends in y, so change y to i and add -er: funnier. Use than after it to compare two things.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Sunday",
+    "Saturday"
+   ],
+   "person": [
+    "sister",
+    "brother",
+    "cousin",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence so it says the same thing from the other side. Use the comparative form of the word in brackets.",
+  "source": "In the {pic}, my brother is shorter than my {relative}.",
+  "hint": "In the {pic}, my {relative} is ______ (tall) than my brother.",
+  "key": "taller",
+  "why": "Short and tall are opposites. Tall is a short adjective, so it becomes taller.",
+  "slots": {
+   "pic": [
+    "photo",
+    "family photo",
+    "picture",
+    "video"
+   ],
+   "relative": [
+    "cousin",
+    "father",
+    "uncle",
+    "best friend"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence so it says the same thing from the other side. Use the comparative form of the word in brackets.",
+  "source": "The neighbours' {pet2} is older than our {pet}.",
+  "hint": "Our {pet} is ______ (young) than the neighbours' {pet2}.",
+  "key": "younger",
+  "why": "Old and young are opposites. Young is a short adjective, so it becomes younger.",
+  "slots": {
+   "pet2": [
+    "dog",
+    "cat",
+    "goat",
+    "horse"
+   ],
+   "pet": [
+    "cat",
+    "dog",
+    "rabbit",
+    "parrot"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence so it says the same thing from the other side. Use the comparative form of the word in brackets.",
+  "source": "The bus to {city} is slower than the {fast}.",
+  "hint": "The {fast} to {city} is ______ (fast) than the bus.",
+  "key": "faster",
+  "why": "Slow and fast are opposites. Fast is a short adjective, so it becomes faster, not more fast.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Karshi",
+    "Navoi"
+   ],
+   "fast": [
+    "train",
+    "plane",
+    "express train",
+    "high-speed train"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence so it says the same thing from the other side. Use the comparative form of the word in brackets.",
+  "source": "The old {device} in my {room} is bigger than the new one.",
+  "hint": "The new {device} is ______ (small) than the old one in my {room}.",
+  "key": "smaller",
+  "why": "Big and small are opposites. Small is a short adjective, so it becomes smaller.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "TV",
+    "fan"
+   ],
+   "room": [
+    "bedroom",
+    "kitchen",
+    "living room",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence so it says the same thing from the other side. Use the comparative form of the word in brackets.",
+  "source": "In {city}, January is colder than {month}.",
+  "hint": "In {city}, {month} is ______ (warm) than January.",
+  "key": "warmer",
+  "why": "Cold and warm are opposites. Warm is a short adjective, so it becomes warmer.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Nukus",
+    "Fergana"
+   ],
+   "month": [
+    "April",
+    "May",
+    "June",
+    "September"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one sentence. Use the comparative form of the word in brackets and than.",
+  "source": "For the trip to {city}, my suitcase is 20 kilos and your {bag} is 15 kilos.",
+  "hint": "For the trip to {city}, my suitcase is ______ (heavy) than your {bag}.",
+  "key": "heavier",
+  "why": "Twenty kilos is more than fifteen, so my suitcase is heavier. Heavy ends in y: change y to i and add -er.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Moscow",
+    "Bukhara",
+    "Istanbul"
+   ],
+   "bag": [
+    "suitcase",
+    "bag",
+    "backpack",
+    "sports bag"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one sentence. Use the comparative form of the word in brackets and than.",
+  "source": "Aziza is 15 and her cousin {name} is 12. They live in {city}.",
+  "hint": "Aziza is ______ (old) than her cousin {name}. They live in {city}.",
+  "key": "older",
+  "why": "Fifteen is more than twelve, so Aziza is older. Old is a short adjective: add -er.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Lola",
+    "Dilnoza"
+   ],
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Samarkand",
+    "Urgench"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one sentence. Use the comparative form of the word in brackets and than.",
+  "source": "A metro ticket to the {place} is 3,000 sum and a taxi is 30,000 sum.",
+  "hint": "A metro ticket to the {place} is ______ (cheap) than a taxi.",
+  "key": "cheaper",
+  "why": "The ticket costs less money, so it is cheaper. Cheap is a short adjective: add -er.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "city centre",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one sentence. Use the comparative form of the word in brackets and than.",
+  "source": "Lola gets up at six and walks to {place}. Her {sibling} gets up at eight.",
+  "hint": "Lola gets up ______ (early) than her {sibling} and walks to {place}.",
+  "key": "earlier",
+  "why": "Six o'clock comes before eight, so Lola gets up earlier. Early ends in y: change y to i and add -er.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "work",
+    "the gym"
+   ],
+   "sibling": [
+    "brother",
+    "sister",
+    "cousin",
+    "father"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one sentence. Use the comparative form of the word in brackets and than.",
+  "source": "My walk to {place} is 20 minutes. My {friend}'s walk is 10 minutes.",
+  "hint": "My walk to {place} is ______ (long) than my {friend}'s walk.",
+  "key": "longer",
+  "why": "Twenty minutes is more than ten, so my walk is longer. Long is a short adjective: add -er.",
+  "slots": {
+   "place": [
+    "school",
+    "work",
+    "the metro",
+    "the bus stop"
+   ],
+   "friend": [
+    "friend",
+    "sister",
+    "brother",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Short adjectives take -er, not more.",
+  "source": "My new {device} is more fast than my old one, and the {part} is better.",
+  "hint": "My new {device} is ______ (fast) than my old one, and the {part} is better.",
+  "key": "faster",
+  "why": "Fast has one syllable, so add -er: faster. Never more fast.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "computer"
+   ],
+   "part": [
+    "camera",
+    "screen",
+    "battery",
+    "sound"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Short adjectives take -er, not more.",
+  "source": "Today is more hot than yesterday. Let's stay in the {place} and drink {drink}.",
+  "hint": "Today is ______ (hot) than yesterday. Let's stay in the {place} and drink {drink}.",
+  "key": "hotter",
+  "why": "Hot is a short adjective. Double the t and add -er: hotter. Never more hot.",
+  "slots": {
+   "place": [
+    "shade",
+    "house",
+    "kitchen",
+    "garden"
+   ],
+   "drink": [
+    "cold water",
+    "green tea",
+    "juice",
+    "ayran"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Short adjectives take -er, not more.",
+  "source": "My {sibling} is more young than me, but {sport} is easy for us both.",
+  "hint": "My {sibling} is ______ (young) than me, but {sport} is easy for us both.",
+  "key": "younger",
+  "why": "Young is a short adjective, so add -er: younger. Never more young.",
+  "slots": {
+   "sibling": [
+    "brother",
+    "sister",
+    "cousin",
+    "friend"
+   ],
+   "sport": [
+    "swimming",
+    "running",
+    "chess",
+    "football"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Short adjectives take -er, not more.",
+  "source": "This {item} is more cheap than that one, and the colour is {nice}.",
+  "hint": "This {item} is ______ (cheap) than that one, and the colour is {nice}.",
+  "key": "cheaper",
+  "why": "Cheap is a short adjective, so add -er: cheaper. Never more cheap.",
+  "slots": {
+   "item": [
+    "bag",
+    "jacket",
+    "phone case",
+    "scarf"
+   ],
+   "nice": [
+    "nice",
+    "beautiful",
+    "better",
+    "lovely"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Short adjectives take -er, not more.",
+  "source": "Your {room} is more big than mine, so we can do our {task} there.",
+  "hint": "Your {room} is ______ (big) than mine, so we can do our {task} there.",
+  "key": "bigger",
+  "why": "Big is a short adjective. Double the g and add -er: bigger. Never more big.",
+  "slots": {
+   "room": [
+    "room",
+    "kitchen",
+    "balcony",
+    "flat"
+   ],
+   "task": [
+    "homework",
+    "project",
+    "painting",
+    "revision"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing you and someone in your family. Who is taller, older or younger?",
+  "requiredElement": "a short adjective with -er plus than",
+  "constraints": [
+   "exactly one sentence",
+   "must name a family member",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two cities or towns in Uzbekistan that you know.",
+  "requiredElement": "a short adjective with -er plus than",
+  "constraints": [
+   "exactly one sentence",
+   "must name two places",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing the weather today and the weather yesterday.",
+  "requiredElement": "hotter, colder, warmer or another -er adjective plus than",
+  "constraints": [
+   "exactly one sentence",
+   "must include today",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two ways to get to school, university or work: bus, metro, taxi, walking or bike.",
+  "requiredElement": "faster, slower, cheaper or another -er adjective plus than",
+  "constraints": [
+   "exactly one sentence",
+   "must name two kinds of transport",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing your phone with a friend's phone or an old phone.",
+  "requiredElement": "a short adjective with -er plus than",
+  "constraints": [
+   "exactly one sentence",
+   "must be about a phone",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two school subjects. Which is easier for you?",
+  "requiredElement": "easier or another -er adjective plus than",
+  "constraints": [
+   "exactly one sentence",
+   "must name two subjects",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with an adjective that doubles its last letter: big, hot, thin or fat.",
+  "requiredElement": "bigger, hotter, thinner or fatter plus than",
+  "constraints": [
+   "exactly one sentence",
+   "must use a doubled -er spelling",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences comparing your home now with a home you lived in before.",
+  "requiredElement": "two short adjectives with -er plus than",
+  "constraints": [
+   "exactly two sentences",
+   "two different -er adjectives",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare yourself with a brother, sister, cousin or friend. Who is taller, older, faster or stronger? Write three or four sentences.",
+  "targetGrammar": "short adjectives with -er plus than",
+  "lookFor": [
+   "-er adjectives",
+   "than after the adjective",
+   "no more before a short adjective"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare summer and winter where you live. Write three or four sentences.",
+  "targetGrammar": "short adjectives with -er plus than for weather and days",
+  "lookFor": [
+   "hotter, colder, longer or shorter",
+   "than",
+   "correct spelling such as hotter"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your city or village with another place you know. Write three or four sentences.",
+  "targetGrammar": "short adjectives with -er plus than for places",
+  "lookFor": [
+   "bigger, smaller, older or newer",
+   "than",
+   "two places named"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend from another country is coming to visit you. Compare two ways to travel around your city. Write three or four sentences.",
+  "targetGrammar": "short adjectives with -er plus than for transport",
+  "lookFor": [
+   "faster, slower, cheaper or safer",
+   "than",
+   "no more before a short adjective"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Think about yourself five years ago. Compare the old you and the you of today. Write three or four sentences.",
+  "targetGrammar": "short adjectives with -er plus than for change over time",
+  "lookFor": [
+   "taller, older, busier or happier",
+   "y changed to i before -er",
+   "than"
+  ]
+ }
+]

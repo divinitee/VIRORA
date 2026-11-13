@@ -1,0 +1,1802 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ {name} for lunch on {day}. We arranged it last week.",
+  "options": [
+   "am meeting",
+   "meet",
+   "will meet",
+   "have met"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am meeting.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Kamola",
+    "Timur"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Monday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ with us next {when}. She called my mother yesterday.",
+  "options": [
+   "is staying",
+   "stays",
+   "will stay",
+   "is stay"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is staying.",
+  "slots": {
+   "who": [
+    "aunt",
+    "grandmother",
+    "cousin",
+    "older sister"
+   ],
+   "when": [
+    "week",
+    "month",
+    "weekend",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ our grandparents in {city} on {day}. My father phoned them yesterday.",
+  "options": [
+   "are visiting",
+   "visit",
+   "will visit",
+   "have visited"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are visiting.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ the dentist at {time} tomorrow. She has an appointment.",
+  "options": [
+   "is seeing",
+   "sees",
+   "will see",
+   "has seen"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is seeing.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Anna",
+    "Sevara",
+    "Nilufar"
+   ],
+   "time": [
+    "ten",
+    "three",
+    "half past four",
+    "nine"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My parents ______ a party for my {who}'s birthday on {day}. They invited twenty guests.",
+  "options": [
+   "are having",
+   "have",
+   "will have",
+   "are have"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are having.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "cousin",
+    "grandmother"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Wednesday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ tennis with {name} at {time} this evening. We booked the court.",
+  "options": [
+   "am playing",
+   "play",
+   "will play",
+   "have played"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am playing.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Ilya",
+    "Rustam",
+    "Laziz"
+   ],
+   "time": [
+    "six",
+    "seven",
+    "five",
+    "half past six"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {who} ______ for dinner {when}. My mother invited them this morning.",
+  "options": [
+   "are coming",
+   "come",
+   "will come",
+   "are come"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are coming.",
+  "slots": {
+   "who": [
+    "cousins",
+    "neighbours",
+    "relatives",
+    "friends"
+   ],
+   "when": [
+    "tonight",
+    "tomorrow",
+    "on Friday",
+    "on Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father ______ me to the {place} at {time} tomorrow. We agreed on it last night.",
+  "options": [
+   "is taking",
+   "takes",
+   "will take",
+   "has taken"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is taking.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bus station",
+    "hospital"
+   ],
+   "time": [
+    "five",
+    "six",
+    "seven",
+    "half past five"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ dinner with my {who} on Friday. We booked a table at a {place}.",
+  "options": [
+   "am having",
+   "have",
+   "will have",
+   "am have"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am having.",
+  "slots": {
+   "who": [
+    "friends",
+    "parents",
+    "cousins",
+    "classmates"
+   ],
+   "place": [
+    "café",
+    "restaurant",
+    "teahouse"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The plumber ______ our {thing} on {day} morning. My mother called him yesterday.",
+  "options": [
+   "is fixing",
+   "fixes",
+   "will fix",
+   "has fixed"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is fixing.",
+  "slots": {
+   "thing": [
+    "sink",
+    "shower",
+    "heater",
+    "washing machine"
+   ],
+   "day": [
+    "Tuesday",
+    "Monday",
+    "Wednesday",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ a film with our {who} on {day}. We already have the tickets.",
+  "options": [
+   "are watching",
+   "watch",
+   "will watch",
+   "are watch"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are watching.",
+  "slots": {
+   "who": [
+    "cousins",
+    "friends",
+    "classmates",
+    "neighbours"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can't come to the lesson on {day}. I ______ my grandmother in {city}. We planned it a month ago.",
+  "options": [
+   "am visiting",
+   "visit",
+   "will visit",
+   "have visited"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am visiting.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Thursday",
+    "Friday"
+   ],
+   "city": [
+    "Khiva",
+    "Termez",
+    "Andijan",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ his {who} at the station at eight. He promised them last week.",
+  "options": [
+   "is meeting",
+   "meets",
+   "will meet",
+   "is meet"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is meeting.",
+  "slots": {
+   "name": [
+    "Bobur",
+    "Pavel",
+    "Jasur",
+    "Sanjar"
+   ],
+   "who": [
+    "grandparents",
+    "cousins",
+    "parents",
+    "friends"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ me with my move on {day}. They promised last week.",
+  "options": [
+   "are helping",
+   "help",
+   "will help",
+   "have helped"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are helping.",
+  "slots": {
+   "who": [
+    "friends",
+    "cousins",
+    "brothers",
+    "neighbours"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sorry, I can't meet you at seven. I ______ my {who} to the {place}. I bought the tickets yesterday.",
+  "options": [
+   "am taking",
+   "take",
+   "will take",
+   "am take"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am taking.",
+  "slots": {
+   "who": [
+    "cousin",
+    "little brother",
+    "sister",
+    "nephew"
+   ],
+   "place": [
+    "cinema",
+    "zoo",
+    "circus",
+    "theatre"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandmother ______ {food} for the whole family on {day}. Everyone has an invitation.",
+  "options": [
+   "is cooking",
+   "cooks",
+   "will cook",
+   "has cooked"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "sumalak",
+    "lagman"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My parents ______ in a hotel in {city} next {when}. They booked a room.",
+  "options": [
+   "are staying",
+   "stay",
+   "will stay",
+   "are stay"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are staying.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Istanbul",
+    "Dubai"
+   ],
+   "when": [
+    "weekend",
+    "week",
+    "month",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ the doctor on {day} {part}. I made an appointment yesterday.",
+  "options": [
+   "am seeing",
+   "see",
+   "will see",
+   "have seen"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am seeing.",
+  "slots": {
+   "day": [
+    "Thursday",
+    "Monday",
+    "Wednesday",
+    "Friday"
+   ],
+   "part": [
+    "afternoon",
+    "morning",
+    "evening"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} and I ______ for the exam together at the library {when}. We planned it on the phone.",
+  "options": [
+   "are studying",
+   "study",
+   "will study",
+   "are study"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are studying.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Dilnoza",
+    "Timur"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "on Sunday",
+    "this evening"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ the guitar at his friend's wedding on {day}. The family asked him a month ago.",
+  "options": [
+   "is playing",
+   "plays",
+   "will play",
+   "has played"
+  ],
+  "key": 0,
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is playing.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "uncle"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "I ______ (meet) {name} at the café at {time}. We arranged it on Monday.",
+  "key": "am meeting",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am meeting.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Kamola",
+    "Timur"
+   ],
+   "time": [
+    "six",
+    "seven",
+    "five",
+    "half past six"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "My {who} ______ (stay) with us next {when}. She called my mother yesterday.",
+  "key": "is staying",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is staying.",
+  "slots": {
+   "who": [
+    "aunt",
+    "grandmother",
+    "cousin",
+    "older sister"
+   ],
+   "when": [
+    "week",
+    "month",
+    "weekend",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "We ______ (visit) our grandparents in {city} on {day}. Dad bought the train tickets.",
+  "key": "are visiting",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are visiting.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "{name} ______ (see) the dentist at {time} tomorrow. She made an appointment.",
+  "key": "is seeing",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is seeing.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Anna",
+    "Sevara",
+    "Nilufar"
+   ],
+   "time": [
+    "ten",
+    "three",
+    "half past four",
+    "nine"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "My {who} ______ (have) a party on {day}. They invited all their friends.",
+  "key": "are having",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are having.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "cousins",
+    "aunt and uncle"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Wednesday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "I ______ (play) tennis with my {who} this {when}. We booked the court.",
+  "key": "am playing",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am playing.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "father",
+    "friend"
+   ],
+   "when": [
+    "evening",
+    "afternoon",
+    "Saturday",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "Our {who} ______ (come) for dinner {when}. My mother invited them this morning.",
+  "key": "are coming",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are coming.",
+  "slots": {
+   "who": [
+    "cousins",
+    "neighbours",
+    "relatives",
+    "friends"
+   ],
+   "when": [
+    "tonight",
+    "tomorrow",
+    "on Friday",
+    "on Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "My father ______ (take) me to the {place} at {time} tomorrow. We agreed on it yesterday.",
+  "key": "is taking",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is taking.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bus station",
+    "hospital"
+   ],
+   "time": [
+    "six",
+    "five",
+    "seven",
+    "half past six"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "I ______ (have) lunch with my {who} on Friday. We booked a table at a {place}.",
+  "key": "am having",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am having.",
+  "slots": {
+   "who": [
+    "friends",
+    "parents",
+    "cousins",
+    "classmates"
+   ],
+   "place": [
+    "café",
+    "restaurant",
+    "teahouse"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "The mechanic ______ (fix) our {thing} on {day}. My father called him.",
+  "key": "is fixing",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is fixing.",
+  "slots": {
+   "thing": [
+    "car",
+    "motorbike",
+    "van",
+    "bike"
+   ],
+   "day": [
+    "Tuesday",
+    "Monday",
+    "Wednesday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "We ______ (watch) the match with our {who} on {day}. We have the tickets.",
+  "key": "are watching",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are watching.",
+  "slots": {
+   "who": [
+    "cousins",
+    "friends",
+    "classmates",
+    "neighbours"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "Sorry, I can't come on {day}. I ______ (help) my uncle in his {place}.",
+  "key": "am helping",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am helping.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
+   "place": [
+    "shop",
+    "garden",
+    "workshop",
+    "café"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "{name} ______ (meet) his friends at the {place} at eight. They planned it in a group chat.",
+  "key": "is meeting",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is meeting.",
+  "slots": {
+   "name": [
+    "Bobur",
+    "Pavel",
+    "Jasur",
+    "Sanjar"
+   ],
+   "place": [
+    "park",
+    "café",
+    "metro",
+    "stadium"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "My grandmother ______ (cook) {food} for everyone on {day}. She invited the whole family.",
+  "key": "is cooking",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "sumalak",
+    "lagman"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "My parents ______ (go) to {city} on {day}. Their tickets came by email.",
+  "key": "are going",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are going.",
+  "slots": {
+   "city": [
+    "Dubai",
+    "Istanbul",
+    "Seoul",
+    "Moscow"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "I ______ (take) my little {who} to the {place} on Saturday. I promised him last week.",
+  "key": "am taking",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am taking.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "nephew"
+   ],
+   "place": [
+    "zoo",
+    "circus",
+    "cinema",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "We ______ (stay) at a hotel in {city} next {when}. We booked two rooms.",
+  "key": "are staying",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are staying.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "when": [
+    "weekend",
+    "week",
+    "month",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "{name} and I ______ (study) together at the library {when}. We planned it after class.",
+  "key": "are studying",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are studying.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Dilnoza",
+    "Timur"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "on Sunday",
+    "this evening"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "My {who} ______ (sing) at her friend's wedding in {month}. The family asked her last month.",
+  "key": "is singing",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is singing.",
+  "slots": {
+   "who": [
+    "sister",
+    "cousin",
+    "aunt",
+    "daughter"
+   ],
+   "month": [
+    "May",
+    "June",
+    "September",
+    "October"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the present continuous of the verb in brackets.",
+  "source": "I ______ (see) the doctor on {day} {part}. The receptionist gave me a time.",
+  "key": "am seeing",
+  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am seeing.",
+  "slots": {
+   "day": [
+    "Thursday",
+    "Monday",
+    "Wednesday",
+    "Friday"
+   ],
+   "part": [
+    "afternoon",
+    "morning",
+    "evening"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
+  "source": "Diary, {day}: 3 pm, {pro}.",
+  "hint": "I ______ (see) the {pro} at three on {day}.",
+  "key": "am seeing",
+  "why": "A diary plan is an arrangement, so use the present continuous: am seeing.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Monday",
+    "Tuesday",
+    "Thursday"
+   ],
+   "pro": [
+    "dentist",
+    "doctor",
+    "eye doctor"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
+  "source": "Diary, {day}: 7 pm, dinner with {name}.",
+  "hint": "I ______ (have) dinner with {name} at seven on {day}.",
+  "key": "am having",
+  "why": "A diary plan is an arrangement, so use the present continuous: am having.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Wednesday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Kamola",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
+  "source": "Diary, {day}: football with my {who}, 10 am.",
+  "hint": "I ______ (play) football with my {who} on {day} morning.",
+  "key": "am playing",
+  "why": "A diary plan is an arrangement, so use the present continuous: am playing.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Monday"
+   ],
+   "who": [
+    "cousins",
+    "friends",
+    "brothers",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
+  "source": "Diary, {day}: meet Grandma at the {place}.",
+  "hint": "I ______ (meet) my grandmother at the {place} on {day}.",
+  "key": "am meeting",
+  "why": "A diary plan is an arrangement, so use the present continuous: am meeting.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Wednesday",
+    "Friday",
+    "Sunday"
+   ],
+   "place": [
+    "station",
+    "airport",
+    "bus station"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
+  "source": "Diary, {day}: help Uncle Rustam in the {place}.",
+  "hint": "I ______ (help) my uncle in his {place} on {day}.",
+  "key": "am helping",
+  "why": "A diary plan is an arrangement, so use the present continuous: am helping.",
+  "slots": {
+   "day": [
+    "Thursday",
+    "Tuesday",
+    "Saturday",
+    "Sunday"
+   ],
+   "place": [
+    "shop",
+    "garden",
+    "workshop",
+    "café"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the person in the hint.",
+  "source": "I am meeting {name} at the café tomorrow.",
+  "hint": "My {who} ______ {name} at the café tomorrow.",
+  "key": "is meeting",
+  "why": "Same arrangement, new person: change am / is / are to match: is meeting.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Kamola",
+    "Timur"
+   ],
+   "who": [
+    "sister",
+    "brother",
+    "mother",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the person in the hint.",
+  "source": "We are driving to {city} on Monday.",
+  "hint": "My {who} ______ to {city} on Monday.",
+  "key": "is driving",
+  "why": "Same arrangement, new person: change am / is / are to match: is driving.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "who": [
+    "aunt",
+    "uncle",
+    "father",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the person in the hint.",
+  "source": "She is visiting her grandparents in {city} on {day}.",
+  "hint": "We ______ our grandparents in {city} on {day}.",
+  "key": "are visiting",
+  "why": "Same arrangement, new person: change am / is / are to match: are visiting.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the person in the hint.",
+  "source": "My {who} is playing in a concert on {day}.",
+  "hint": "I ______ in a concert on {day}.",
+  "key": "am playing",
+  "why": "Same arrangement, new person: change am / is / are to match: am playing.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "friend"
+   ],
+   "day": [
+    "Saturday",
+    "Friday",
+    "Sunday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the person in the hint.",
+  "source": "I am having a party at my house on {day}.",
+  "hint": "My {who} ______ a party at their house on {day}.",
+  "key": "are having",
+  "why": "Same arrangement, new person: change am / is / are to match: are having.",
+  "slots": {
+   "who": [
+    "cousins",
+    "neighbours",
+    "parents",
+    "friends"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Wednesday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "I meet my {who} at the station {when}. We arranged it last week.",
+  "hint": "I ______ my {who} at the station {when}. We arranged it last week.",
+  "key": "am meeting",
+  "why": "Meet (present simple) is wrong for an arrangement. Use am / is / are + -ing: am meeting.",
+  "slots": {
+   "who": [
+    "cousin",
+    "grandmother",
+    "uncle",
+    "aunt"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "on Sunday",
+    "tonight"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "{name} is visit her aunt in {city} on Friday.",
+  "hint": "{name} ______ her aunt in {city} on Friday.",
+  "key": "is visiting",
+  "why": "Is visit is wrong for an arrangement. Use am / is / are + -ing: is visiting.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Anna",
+    "Sevara",
+    "Nilufar"
+   ],
+   "city": [
+    "Khiva",
+    "Termez",
+    "Andijan",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "We going to the {event} on {day}. We have the tickets.",
+  "hint": "We ______ to the {event} on {day}. We have the tickets.",
+  "key": "are going",
+  "why": "Going (no are) is wrong for an arrangement. Use am / is / are + -ing: are going.",
+  "slots": {
+   "event": [
+    "concert",
+    "theatre",
+    "football match",
+    "circus"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "My {who} will playing tennis with his friend at {time}. They booked the court.",
+  "hint": "My {who} ______ tennis with his friend at {time}. They booked the court.",
+  "key": "is playing",
+  "why": "Will playing is wrong for an arrangement. Use am / is / are + -ing: is playing.",
+  "slots": {
+   "who": [
+    "brother",
+    "father",
+    "cousin",
+    "uncle"
+   ],
+   "time": [
+    "six",
+    "seven",
+    "five",
+    "eight"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "I am have lunch with my {who} on {day}. We booked a table.",
+  "hint": "I ______ lunch with my {who} on {day}. We booked a table.",
+  "key": "am having",
+  "why": "Am have is wrong for an arrangement. Use am / is / are + -ing: am having.",
+  "slots": {
+   "who": [
+    "parents",
+    "friends",
+    "cousins",
+    "classmates"
+   ],
+   "day": [
+    "Friday",
+    "Sunday",
+    "Monday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about someone you are meeting this week. Say when.",
+  "requiredElement": "present continuous for an arrangement",
+  "constraints": [
+   "exactly one sentence",
+   "a day or time",
+   "am / is / are + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a trip your family is taking soon, and how you know it is fixed.",
+  "requiredElement": "arrangement + evidence",
+  "constraints": [
+   "one or two sentences",
+   "a place named",
+   "present continuous"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about an appointment you have this month.",
+  "requiredElement": "am seeing / am going",
+  "constraints": [
+   "exactly one sentence",
+   "a day named",
+   "present continuous"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what a friend is doing on Saturday evening.",
+  "requiredElement": "is + -ing with he or she",
+  "constraints": [
+   "exactly one sentence",
+   "must name the friend",
+   "is + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence saying no to an invitation because you have another plan.",
+  "requiredElement": "present continuous as a reason",
+  "constraints": [
+   "one or two sentences",
+   "Sorry, I can't ...",
+   "I am + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a family event next weekend.",
+  "requiredElement": "are + -ing for a family plan",
+  "constraints": [
+   "exactly one sentence",
+   "next weekend",
+   "present continuous"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about who is coming to your home for dinner this week.",
+  "requiredElement": "is / are coming",
+  "constraints": [
+   "exactly one sentence",
+   "a day named",
+   "coming"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences from your diary for next week: two different arrangements.",
+  "requiredElement": "two arrangements",
+  "constraints": [
+   "exactly two sentences",
+   "two different days",
+   "present continuous in both"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your plans for next weekend. Who are you meeting, and where are you going? Write three or four sentences.",
+  "targetGrammar": "present continuous for arrangements",
+  "lookFor": [
+   "am / is / are + -ing",
+   "days or times",
+   "people named"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend invites you to the cinema on Friday, but you are busy. Write a message: say no and explain your arrangements. Write three or four sentences.",
+  "targetGrammar": "present continuous to explain plans",
+  "lookFor": [
+   "I'm + -ing",
+   "a time",
+   "polite refusal"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your family's plans for a holiday such as Navruz or New Year. Write three or four sentences.",
+  "targetGrammar": "present continuous for family arrangements",
+  "lookFor": [
+   "we are + -ing",
+   "who is coming",
+   "where you are going"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Look at your week. Describe three appointments or meetings you have. Write three or four sentences.",
+  "targetGrammar": "present continuous with fixed times",
+  "lookFor": [
+   "am + -ing",
+   "a day in each sentence",
+   "no will for arrangements"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "arrangement-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a trip that someone in your family is taking soon. Write three or four sentences.",
+  "targetGrammar": "is / are + -ing for travel plans",
+  "lookFor": [
+   "is + -ing",
+   "a place and a day",
+   "how you know it is booked"
+  ]
+ }
+]

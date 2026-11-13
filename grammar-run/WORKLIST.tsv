@@ -62,7 +62,7 @@
 61	B	sentence-structure.conjunctions.so-result	A1	1	live	so for a result
 62	B	sentence-structure.word-order.place-time-order	A1	1	todo	Place before time at the end of a sentence
 63	B	sentence-structure.word-order.svo-basic	A1	1	todo	Subject + verb + object
-64	B	sentence-structure.existential.there-was-were	A2	1	todo	there was/were agreement in the past
+64	B	sentence-structure.existential.there-was-were	A2	1	live	there was/were agreement in the past
 65	B	sentence-structure.imperatives.lets	A2	1	live	Let's + base form
 66	B	sentence-structure.conjunctions.because	A2	1	live	because for a reason
 67	B	sentence-structure.conjunctions.when-time-clause	A2	1	live	Present simple (not will) in a future time clause after when
@@ -91,21 +91,21 @@
 90	B	verb-patterns.gerund-infinitive.want-infinitive	A2	1	live	want + to-infinitive
 91	B	verb-patterns.gerund-infinitive.would-like-infinitive	A2	1	live	would like + to-infinitive
 92	B	verb-patterns.object-infinitive.let-bare	A2	1	todo	let + object + bare infinitive
-93	B	adj-adv.frequency.adverb-position	A1	2	todo	Frequency adverb before the main verb | Frequency adverb AFTER be
-94	B	adj-adv.frequency.always	A1	1	todo	always for a fixed routine
-95	B	adj-adv.frequency.never	A1	2	todo	never for zero frequency | never with a positive verb (no double negative)
-96	B	adj-adv.frequency.rarely	A1	1	todo	rarely ≈ once a week
+93	B	adj-adv.frequency.adverb-position	A1	2	live	Frequency adverb before the main verb | Frequency adverb AFTER be
+94	B	adj-adv.frequency.always	A1	1	live	always for a fixed routine
+95	B	adj-adv.frequency.never	A1	2	live	never for zero frequency | never with a positive verb (no double negative)
+96	B	adj-adv.frequency.rarely	A1	1	live	rarely ≈ once a week
 97	B	adj-adv.adjective-form.adjective-before-noun	A1	1	todo	Adjective + noun order (adjective does not take plural -s)
 98	B	adj-adv.adjective-form.adjective-after-be	A2	1	todo	Adjective (not adverb) after be/feel/look
 99	B	adj-adv.adverb-form.irregular-adverb	A2	2	todo	well is the adverb of good | hard is both adjective and adverb; 'hardly' means 'almost not'
 100	B	adj-adv.adverb-form.ly-adverb	A2	2	todo	-ly adverb modifies a verb | Forming -ly adverb from an adjective ending in -y
-101	B	comparison.comparative.er-comparative	A1	3	todo	-er comparative of a short adjective with 'than' | Spelling of -er with a final consonant doubled | -er comparative (not 'more fast')
+101	B	comparison.comparative.er-comparative	A1	3	live	-er comparative of a short adjective with 'than' | Spelling of -er with a final consonant doubled | -er comparative (not 'more fast')
 102	B	comparison.comparative.double-comparative-error	A2	1	todo	Not combining more with -er
 103	B	comparison.comparative.less-comparative	A2	1	todo	less + adjective + than
-104	B	comparison.comparative.more-comparative	A2	1	todo	more + long adjective
-105	B	comparison.superlative.est-superlative	A2	1	todo	-iest spelling with 'the'
+104	B	comparison.comparative.more-comparative	A2	1	live	more + long adjective
+105	B	comparison.superlative.est-superlative	A2	1	live	-iest spelling with 'the'
 106	B	comparison.superlative.irregular-superlative	A2	1	todo	best as superlative of good, with 'the'
-107	B	comparison.equality.as-as	A2	1	todo	as + adj + as
+107	B	comparison.equality.as-as	A2	1	live	as + adj + as
 108	B	modals.ability-permission.can-ability	A1	1	live	can + base verb for ability
 109	B	modals.ability-permission.can-form	A1	2	todo	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')
 110	B	modals.ability-permission.can-question	A1	1	live	Modal question: can + subject + verb
@@ -133,8 +133,8 @@
 132	B	prep-phrasal.dependent-prepositions.adjective-preposition	A2	1	todo	good at / afraid of
 133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	todo	interested in
 134	B	prep-phrasal.phrasal-verbs.common-phrasal	A2	1	todo	Particle choice in a common phrasal verb (get up)
-135	B	conditionals-wishes.zero-first.first-if-clause	A2	2	todo	Present simple (not will) in the if-clause | No 'will' in the if-clause
-136	B	conditionals-wishes.zero-first.first-will	A2	2	todo	First conditional: will in the result clause | First conditional with a negative if-clause
+135	B	conditionals-wishes.zero-first.first-if-clause	A2	2	live	Present simple (not will) in the if-clause | No 'will' in the if-clause
+136	B	conditionals-wishes.zero-first.first-will	A2	2	live	First conditional: will in the result clause | First conditional with a negative if-clause
 137	B	conditionals-wishes.zero-first.zero-general-truth	A2	2	todo	Zero conditional: present simple in both clauses | Zero (not first) conditional for a general consequence
 138	B	passive-causative.simple-passive.active-to-passive	A2	1	todo	Simple active → passive with 'by'
 139	B	passive-causative.simple-passive.past-passive	A2	4	todo	Past simple passive: was + pp | Producing was/were + pp | Past passive in a longer stem | Productive past passive
@@ -145,11 +145,11 @@
 144	C	tenses.perfect.perfect-vs-past	B1	1	todo	Present perfect cannot combine with a finished-time marker
 145	C	tenses.perfect.since-clause	B1	1	todo	Present perfect in the main clause with a since-clause in past simple
 146	C	tenses.perfect.unfinished-time	B1	1	todo	Present perfect with an unfinished time period ('this morning' while still morning)
-147	C	tenses.future.arrangement-continuous	B1	1	todo	Present continuous for a fixed future arrangement
-148	C	tenses.future.future-continuous	B1	1	todo	Future continuous for an action in progress at a future time
+147	C	tenses.future.arrangement-continuous	B1	1	live	Present continuous for a fixed future arrangement
+148	C	tenses.future.future-continuous	B1	1	live	Future continuous for an action in progress at a future time
 149	C	tenses.future.timetable-simple	B1	1	todo	Present simple for a timetabled future event
 150	C	tenses.used-to.didnt-use-to	B1	1	todo	Negative: didn't use to (no -d after did)
-151	C	tenses.used-to.used-to-state	B1	2	todo	used to + base form for a discontinued past state | Productive used to for a discontinued habit or state
+151	C	tenses.used-to.used-to-state	B1	2	live	used to + base form for a discontinued past state | Productive used to for a discontinued habit or state
 152	C	nouns-articles.articles.the-second-mention	B1	1	todo	a on first mention, the on second mention
 153	C	nouns-articles.articles.zero-article-general	B1	2	todo	Zero article with plural nouns used generally | Zero article with uncountable abstract nouns used generally
 154	C	nouns-articles.plurals-agreement.each-every-singular	B1	2	todo	each/every + singular noun + singular verb | Productive each/every with singular agreement

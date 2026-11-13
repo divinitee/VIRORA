@@ -1,0 +1,1792 @@
+[
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz is ______ boy in our {group}. He plays {sport} for the school team.",
+  "options": [
+   "the tallest",
+   "tallest",
+   "the taller",
+   "the most tall"
+  ],
+  "key": 0,
+  "why": "Tall is a short adjective, so the superlative is the + -est: the tallest. It compares one thing with all the others in a group.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "year",
+    "family"
+   ],
+   "sport": [
+    "basketball",
+    "volleyball",
+    "football",
+    "handball"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Tashkent is ______ city in Uzbekistan. It has {thing} and many {place}.",
+  "options": [
+   "the biggest",
+   "the bigest",
+   "the bigger",
+   "biggest"
+  ],
+  "key": 0,
+  "why": "Big ends in one vowel and one consonant, so double the last letter: the biggest. It compares one thing with all the others in a group.",
+  "slots": {
+   "thing": [
+    "a metro",
+    "an airport",
+    "a TV tower",
+    "a zoo"
+   ],
+   "place": [
+    "parks",
+    "universities",
+    "markets",
+    "theatres"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandfather is ______ person in our {place}. He is ninety and still {action} every day.",
+  "options": [
+   "the oldest",
+   "oldest",
+   "the older",
+   "the most old"
+  ],
+  "key": 0,
+  "why": "Old is a short adjective, so the superlative is the + -est: the oldest. It compares one thing with all the others in a group.",
+  "slots": {
+   "place": [
+    "family",
+    "street",
+    "village",
+    "building"
+   ],
+   "action": [
+    "walks in the park",
+    "reads the newspaper",
+    "works in his garden",
+    "drinks tea with friends"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "July is ______ month in {city}, so we sleep on the {place} at night.",
+  "options": [
+   "the hottest",
+   "the hotest",
+   "the hotter",
+   "hottest"
+  ],
+  "key": 0,
+  "why": "Hot ends in one vowel and one consonant, so double the last letter: the hottest. It compares one thing with all the others in a group.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Termez",
+    "Samarkand"
+   ],
+   "place": [
+    "balcony",
+    "roof",
+    "terrace",
+    "veranda"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Samsa is ______ lunch near our {place}, so {who} buy it every day.",
+  "options": [
+   "the cheapest",
+   "cheapest",
+   "the cheaper",
+   "the most cheap"
+  ],
+  "key": 0,
+  "why": "Cheap is a short adjective, so the superlative is the + -est: the cheapest. It compares one thing with all the others in a group.",
+  "slots": {
+   "place": [
+    "university",
+    "college",
+    "school",
+    "office"
+   ],
+   "who": [
+    "students",
+    "workers",
+    "drivers",
+    "my friends"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "For me, {subject} is ______ subject at school. I always get {mark}.",
+  "options": [
+   "the easiest",
+   "the easyest",
+   "the easier",
+   "easiest"
+  ],
+  "key": 0,
+  "why": "Easy ends in y, so change y to i and add -est: the easiest. It compares one thing with all the others in a group.",
+  "slots": {
+   "subject": [
+    "English",
+    "art",
+    "music",
+    "PE"
+   ],
+   "mark": [
+    "a five",
+    "top marks",
+    "good marks",
+    "high marks"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousin {name} is ______ child in our family. She is only {age}.",
+  "options": [
+   "the youngest",
+   "youngest",
+   "the younger",
+   "the most young"
+  ],
+  "key": 0,
+  "why": "Young is a short adjective, so the superlative is the + -est: the youngest. It compares one thing with all the others in a group.",
+  "slots": {
+   "name": [
+    "Malika",
+    "Sevara",
+    "Zarina",
+    "Nilufar"
+   ],
+   "age": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Saturday is ______ day at the bazaar. People buy {food} and {food2} for the week.",
+  "options": [
+   "the busiest",
+   "the busyest",
+   "the busier",
+   "busiest"
+  ],
+  "key": 0,
+  "why": "Busy ends in y, so change y to i and add -est: the busiest. It compares one thing with all the others in a group.",
+  "slots": {
+   "food": [
+    "meat",
+    "fruit",
+    "vegetables",
+    "rice"
+   ],
+   "food2": [
+    "bread",
+    "flour",
+    "eggs",
+    "tea"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Friday is ______ day of my week. I have {n} lessons and {thing} after school.",
+  "options": [
+   "the longest",
+   "longest",
+   "the longer",
+   "the most long"
+  ],
+  "key": 0,
+  "why": "Long is a short adjective, so the superlative is the + -est: the longest. It compares one thing with all the others in a group.",
+  "slots": {
+   "n": [
+    "seven",
+    "eight",
+    "six",
+    "nine"
+   ],
+   "thing": [
+    "football training",
+    "a music lesson",
+    "an English club",
+    "extra maths"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {bag} is ______ one in our group, because I carry my {thing} every day.",
+  "options": [
+   "the heaviest",
+   "the heavyest",
+   "the heavier",
+   "heaviest"
+  ],
+  "key": 0,
+  "why": "Heavy ends in y, so change y to i and add -est: the heaviest. It compares one thing with all the others in a group.",
+  "slots": {
+   "bag": [
+    "school bag",
+    "backpack",
+    "sports bag",
+    "rucksack"
+   ],
+   "thing": [
+    "laptop",
+    "dictionary",
+    "lunch box",
+    "sports shoes"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Diana is ______ runner in our {group}. She trains at the {place}.",
+  "options": [
+   "the fastest",
+   "fastest",
+   "the faster",
+   "the most fast"
+  ],
+  "key": 0,
+  "why": "Fast is a short adjective, so the superlative is the + -est: the fastest. It compares one thing with all the others in a group.",
+  "slots": {
+   "group": [
+    "class",
+    "school",
+    "club",
+    "team"
+   ],
+   "place": [
+    "stadium",
+    "park",
+    "gym",
+    "sports club"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My birthday was ______ day of the year for me. My {people} came and we ate {food}.",
+  "options": [
+   "the happiest",
+   "the happyest",
+   "the happier",
+   "happiest"
+  ],
+  "key": 0,
+  "why": "Happy ends in y, so change y to i and add -est: the happiest. It compares one thing with all the others in a group.",
+  "slots": {
+   "people": [
+    "friends",
+    "cousins",
+    "grandparents",
+    "classmates"
+   ],
+   "food": [
+    "cake",
+    "plov",
+    "ice cream",
+    "pizza"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "January is ______ month in {city}. We wear {clothes} and drink hot tea.",
+  "options": [
+   "the coldest",
+   "coldest",
+   "the colder",
+   "the most cold"
+  ],
+  "key": 0,
+  "why": "Cold is a short adjective, so the superlative is the + -est: the coldest. It compares one thing with all the others in a group.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Nukus",
+    "Fergana",
+    "Samarkand"
+   ],
+   "clothes": [
+    "warm coats",
+    "thick hats",
+    "boots",
+    "scarves"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {relative} is ______ person in our family. He always tells jokes at {event}.",
+  "options": [
+   "the funniest",
+   "the funnyest",
+   "the funnier",
+   "funniest"
+  ],
+  "key": 0,
+  "why": "Funny ends in y, so change y to i and add -est: the funniest. It compares one thing with all the others in a group.",
+  "slots": {
+   "relative": [
+    "uncle",
+    "brother",
+    "grandfather",
+    "cousin"
+   ],
+   "event": [
+    "dinner",
+    "weddings",
+    "parties",
+    "breakfast"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is ______ café in our {area}. They make great {food}.",
+  "options": [
+   "the nicest",
+   "nicest",
+   "the nicer",
+   "the most nice"
+  ],
+  "key": 0,
+  "why": "Nice already ends in e, so just add -st: the nicest. It compares one thing with all the others in a group.",
+  "slots": {
+   "area": [
+    "street",
+    "area",
+    "town",
+    "district"
+   ],
+   "food": [
+    "samsa",
+    "tea",
+    "cakes",
+    "coffee"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is ______ {device} in the shop, and my {person} wants it.",
+  "options": [
+   "the thinnest",
+   "the thinest",
+   "the thinner",
+   "thinnest"
+  ],
+  "key": 0,
+  "why": "Thin ends in one vowel and one consonant, so double the last letter: the thinnest. It compares one thing with all the others in a group.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "TV"
+   ],
+   "person": [
+    "brother",
+    "father",
+    "sister",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every {day}, my father catches ______ bus to {place} at six o'clock.",
+  "options": [
+   "the earliest",
+   "the earlyest",
+   "the earlier",
+   "earliest"
+  ],
+  "key": 0,
+  "why": "Early ends in y, so change y to i and add -est: the earliest. It compares one thing with all the others in a group.",
+  "slots": {
+   "day": [
+    "morning",
+    "weekday",
+    "Monday",
+    "workday"
+   ],
+   "place": [
+    "work",
+    "the factory",
+    "the city",
+    "Chirchiq"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "After the {event}, Jasur's shirt was ______ shirt on our {team}.",
+  "options": [
+   "the dirtiest",
+   "the dirtyest",
+   "the dirtier",
+   "dirtiest"
+  ],
+  "key": 0,
+  "why": "Dirty ends in y, so change y to i and add -est: the dirtiest. It compares one thing with all the others in a group.",
+  "slots": {
+   "event": [
+    "match",
+    "game",
+    "training",
+    "rain"
+   ],
+   "team": [
+    "team",
+    "football team",
+    "school team",
+    "club team"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our flat is ______ one in the building, but it has a big {room} and a {thing}.",
+  "options": [
+   "the smallest",
+   "smallest",
+   "the smaller",
+   "the most small"
+  ],
+  "key": 0,
+  "why": "Small is a short adjective, so the superlative is the + -est: the smallest. It compares one thing with all the others in a group.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "balcony",
+    "bathroom",
+    "living room"
+   ],
+   "thing": [
+    "nice view",
+    "quiet yard",
+    "small garden",
+    "new lift"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Chimgan is one of ______ places near Tashkent. People go there at {day} with their {person}.",
+  "options": [
+   "the highest",
+   "highest",
+   "the higher",
+   "the most high"
+  ],
+  "key": 0,
+  "why": "High is a short adjective, so the superlative is the + -est: the highest. It compares one thing with all the others in a group.",
+  "slots": {
+   "day": [
+    "weekends",
+    "the weekend",
+    "New Year",
+    "Navruz"
+   ],
+   "person": [
+    "families",
+    "friends",
+    "children",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Samarkand is one of ______ (old) cities in {area}. Tourists love its {thing}.",
+  "key": "the oldest",
+  "why": "Old is a short adjective, so the superlative is the + -est: the oldest. It compares one thing with all the others in a group.",
+  "slots": {
+   "area": [
+    "Uzbekistan",
+    "Central Asia",
+    "Asia",
+    "our region"
+   ],
+   "thing": [
+    "markets",
+    "squares",
+    "buildings",
+    "old walls"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "July is ______ (hot) month in {city}, so we stay at home at {time}.",
+  "key": "the hottest",
+  "why": "Hot ends in one vowel and one consonant, so double the last letter: the hottest. It compares one thing with all the others in a group.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Termez",
+    "Samarkand"
+   ],
+   "time": [
+    "midday",
+    "lunchtime",
+    "noon",
+    "two o'clock"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Chorsu is one of ______ (big) markets in Tashkent. My mother buys {food} and {food2} there.",
+  "key": "the biggest",
+  "why": "Big ends in one vowel and one consonant, so double the last letter: the biggest. It compares one thing with all the others in a group.",
+  "slots": {
+   "food": [
+    "fruit",
+    "spices",
+    "meat",
+    "rice"
+   ],
+   "food2": [
+    "bread",
+    "nuts",
+    "dried fruit",
+    "honey"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "For me, this was ______ (easy) test of {period}. I knew every {thing}.",
+  "key": "the easiest",
+  "why": "Easy ends in y, so change y to i and add -est: the easiest. It compares one thing with all the others in a group.",
+  "slots": {
+   "period": [
+    "this term",
+    "this year",
+    "this month",
+    "my life"
+   ],
+   "thing": [
+    "answer",
+    "word",
+    "rule",
+    "question"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Bekzod is ______ (tall) boy in our {group}. He is a {sport} player.",
+  "key": "the tallest",
+  "why": "Tall is a short adjective, so the superlative is the + -est: the tallest. It compares one thing with all the others in a group.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "family",
+    "building"
+   ],
+   "sport": [
+    "basketball",
+    "volleyball",
+    "handball",
+    "water polo"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Students buy {food} at this kiosk because it has ______ (cheap) prices near our {place}.",
+  "key": "the cheapest",
+  "why": "Cheap is a short adjective, so the superlative is the + -est: the cheapest. It compares one thing with all the others in a group.",
+  "slots": {
+   "food": [
+    "samsa",
+    "tea",
+    "sandwiches",
+    "hot dogs"
+   ],
+   "place": [
+    "university",
+    "college",
+    "school",
+    "station"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Kamola is ______ (young) student in our {group}. She is only {age}.",
+  "key": "the youngest",
+  "why": "Young is a short adjective, so the superlative is the + -est: the youngest. It compares one thing with all the others in a group.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "course",
+    "club"
+   ],
+   "age": [
+    "fifteen",
+    "sixteen",
+    "fourteen",
+    "thirteen"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Monday is ______ (busy) day of my week. I have {n} lessons and {club} after school.",
+  "key": "the busiest",
+  "why": "Busy ends in y, so change y to i and add -est: the busiest. It compares one thing with all the others in a group.",
+  "slots": {
+   "n": [
+    "six",
+    "seven",
+    "eight",
+    "five"
+   ],
+   "club": [
+    "football training",
+    "an English club",
+    "a music lesson",
+    "extra maths"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "My {relative} has ______ (long) hair in our family. She wears it in two {style}.",
+  "key": "the longest",
+  "why": "Long is a short adjective, so the superlative is the + -est: the longest. It compares one thing with all the others in a group.",
+  "slots": {
+   "relative": [
+    "sister",
+    "cousin",
+    "aunt",
+    "grandmother"
+   ],
+   "style": [
+    "plaits",
+    "braids",
+    "ponytails",
+    "buns"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "This is ______ (heavy) box in our {home}. Please help me carry it to {place}.",
+  "key": "the heaviest",
+  "why": "Heavy ends in y, so change y to i and add -est: the heaviest. It compares one thing with all the others in a group.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "office",
+    "garage"
+   ],
+   "place": [
+    "my car",
+    "our car",
+    "a taxi",
+    "my room"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "{name} is ______ (fast) swimmer in our {club}.",
+  "key": "the fastest",
+  "why": "Fast is a short adjective, so the superlative is the + -est: the fastest. It compares one thing with all the others in a group.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Diana",
+    "Timur",
+    "Lola"
+   ],
+   "club": [
+    "club",
+    "school",
+    "class",
+    "city"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "That was ______ (happy) day of my life. My {person} came home from {city}.",
+  "key": "the happiest",
+  "why": "Happy ends in y, so change y to i and add -est: the happiest. It compares one thing with all the others in a group.",
+  "slots": {
+   "person": [
+    "brother",
+    "father",
+    "sister",
+    "uncle"
+   ],
+   "city": [
+    "Moscow",
+    "Seoul",
+    "London",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "January is ______ (cold) month in {city}. Sometimes it snows for {time}.",
+  "key": "the coldest",
+  "why": "Cold is a short adjective, so the superlative is the + -est: the coldest. It compares one thing with all the others in a group.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Nukus",
+    "Fergana",
+    "Samarkand"
+   ],
+   "time": [
+    "a week",
+    "three days",
+    "two days",
+    "a whole week"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "My grandfather tells ______ (funny) stories about his {life} at our family {event}.",
+  "key": "the funniest",
+  "why": "Funny ends in y, so change y to i and add -est: the funniest. It compares one thing with all the others in a group.",
+  "slots": {
+   "life": [
+    "childhood",
+    "school days",
+    "village",
+    "old job"
+   ],
+   "event": [
+    "dinners",
+    "parties",
+    "weddings",
+    "picnics"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Our teacher is ______ (nice) person in our {place}. She always {does}.",
+  "key": "the nicest",
+  "why": "Nice already ends in e, so just add -st: the nicest. It compares one thing with all the others in a group.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "lyceum",
+    "academy"
+   ],
+   "does": [
+    "helps us",
+    "smiles",
+    "listens to us",
+    "explains things twice"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "This is ______ (thin) {device} in this shop, and it costs {price}.",
+  "key": "the thinnest",
+  "why": "Thin ends in one vowel and one consonant, so double the last letter: the thinnest. It compares one thing with all the others in a group.",
+  "slots": {
+   "device": [
+    "laptop",
+    "phone",
+    "tablet",
+    "TV"
+   ],
+   "price": [
+    "a lot",
+    "too much",
+    "a lot of money",
+    "over five million sum"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "My mother takes ______ (early) bus to work. It leaves at {time} from our {stop}.",
+  "key": "the earliest",
+  "why": "Early ends in y, so change y to i and add -est: the earliest. It compares one thing with all the others in a group.",
+  "slots": {
+   "time": [
+    "half past five",
+    "six o'clock",
+    "ten to six",
+    "quarter to six"
+   ],
+   "stop": [
+    "street",
+    "stop",
+    "corner",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "My little brother has ______ (dirty) shoes in our family, because he plays {where} with his {friends}.",
+  "key": "the dirtiest",
+  "why": "Dirty ends in y, so change y to i and add -est: the dirtiest. It compares one thing with all the others in a group.",
+  "slots": {
+   "where": [
+    "in puddles",
+    "in our yard",
+    "in a field",
+    "near a river"
+   ],
+   "friends": [
+    "friends",
+    "cousins",
+    "dog",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Our {room} is ______ (small) room in our flat, but it is very {state}.",
+  "key": "the smallest",
+  "why": "Small is a short adjective, so the superlative is the + -est: the smallest. It compares one thing with all the others in a group.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bathroom",
+    "bedroom",
+    "study"
+   ],
+   "state": [
+    "warm",
+    "bright",
+    "clean",
+    "cosy"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the + the superlative (-est) of the adjective in brackets.",
+  "source": "Chimgan has some of ______ (high) mountains near Tashkent. We go there {when} with our {people}.",
+  "key": "the highest",
+  "why": "High is a short adjective, so the superlative is the + -est: the highest. It compares one thing with all the others in a group.",
+  "slots": {
+   "when": [
+    "every winter",
+    "every spring",
+    "in summer",
+    "at weekends"
+   ],
+   "people": [
+    "families",
+    "friends",
+    "cousins",
+    "classmates"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a superlative. Use the + -est of the adjective in brackets.",
+  "source": "Aziz is taller than all the other boys in our {group}. He plays {sport}.",
+  "hint": "Aziz is ______ (tall) boy in our {group}. He plays {sport}.",
+  "key": "the tallest",
+  "why": "Taller than all the others means the tallest. Tall is a short adjective, so the superlative is the + -est: the tallest.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "year",
+    "building"
+   ],
+   "sport": [
+    "basketball",
+    "volleyball",
+    "football",
+    "tennis"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a superlative. Use the + -est of the adjective in brackets.",
+  "source": "This {dish} is cheaper than all the other dishes in this {place}.",
+  "hint": "This {dish} is ______ (cheap) dish in this {place}.",
+  "key": "the cheapest",
+  "why": "Cheaper than all the others means the cheapest. Cheap is a short adjective, so the superlative is the + -est: the cheapest.",
+  "slots": {
+   "dish": [
+    "soup",
+    "salad",
+    "samsa",
+    "plov"
+   ],
+   "place": [
+    "café",
+    "canteen",
+    "restaurant",
+    "teahouse"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a superlative. Use the + -est of the adjective in brackets.",
+  "source": "This box is heavier than all the other boxes. Please carry it to {place} with {who}.",
+  "hint": "This is ______ (heavy) box. Please carry it to {place} with {who}.",
+  "key": "the heaviest",
+  "why": "Heavier than all the others means the heaviest. Heavy ends in y, so change y to i and add -est: the heaviest.",
+  "slots": {
+   "place": [
+    "my car",
+    "your room",
+    "our kitchen",
+    "a taxi"
+   ],
+   "who": [
+    "your brother",
+    "Sardor",
+    "your father",
+    "a friend"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a superlative. Use the + -est of the adjective in brackets.",
+  "source": "Our {room} is bigger than all the other rooms in our {home}.",
+  "hint": "Our {room} is ______ (big) room in our {home}.",
+  "key": "the biggest",
+  "why": "Bigger than all the others means the biggest. Big ends in one vowel and one consonant, so double the last letter: the biggest.",
+  "slots": {
+   "room": [
+    "living room",
+    "kitchen",
+    "bedroom",
+    "hall"
+   ],
+   "home": [
+    "flat",
+    "house",
+    "dacha",
+    "new flat"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a superlative. Use the + -est of the adjective in brackets.",
+  "source": "On {day}, my train leaves earlier than all the other trains to {city}.",
+  "hint": "On {day}, my train is ______ (early) train to {city}.",
+  "key": "the earliest",
+  "why": "Earlier than all the others means the earliest. Early ends in y, so change y to i and add -est: the earliest.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Andijan",
+    "Karshi"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the facts. Then complete the sentence with the + -est of the adjective in brackets.",
+  "source": "Lola is 15, Madina is 16 and {name} is 17. They all live in {city}.",
+  "hint": "Of these three girls, {name} is ______ (old). They all live in {city}.",
+  "key": "the oldest",
+  "why": "Seventeen is the highest age of the three, so she is the oldest. Old is a short adjective, so the superlative is the + -est: the oldest.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Zarina",
+    "Sevara",
+    "Nigora"
+   ],
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Samarkand",
+    "Urgench"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the facts. Then complete the sentence with the + -est of the adjective in brackets.",
+  "source": "Aziz ran 100 metres in 14 seconds, Sardor in 13 and {name} in 12.",
+  "hint": "Of these three boys, {name} is ______ (fast).",
+  "key": "the fastest",
+  "why": "Twelve seconds is the shortest time, so he is the fastest. Fast is a short adjective, so the superlative is the + -est: the fastest.",
+  "slots": {
+   "name": [
+    "Timur",
+    "Jasur",
+    "Bekzod",
+    "Ivan"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the facts. Then complete the sentence with the + -est of the adjective in brackets.",
+  "source": "In {city}, January is 0°C, February is 3°C and December is minus 2°C.",
+  "hint": "In {city}, December is ______ (cold) of these three months.",
+  "key": "the coldest",
+  "why": "Minus two is the lowest temperature, so December is the coldest. Cold is a short adjective, so the superlative is the + -est: the coldest.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Namangan",
+    "Jizzakh"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the facts. Then complete the sentence with the + -est of the adjective in brackets.",
+  "source": "In my family, my {relative} is 160 cm, my mother is 165 cm and my father is 180 cm.",
+  "hint": "In my family, my father is ______ (tall).",
+  "key": "the tallest",
+  "why": "A hundred and eighty is the biggest number, so my father is the tallest. Tall is a short adjective, so the superlative is the + -est: the tallest.",
+  "slots": {
+   "relative": [
+    "sister",
+    "brother",
+    "grandmother",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Read the facts. Then complete the sentence with the + -est of the adjective in brackets.",
+  "source": "From our {home} to {place}, road A is 10 km, road B is 15 km and road C is 25 km.",
+  "hint": "From our {home} to {place}, road C is ______ (long) way.",
+  "key": "the longest",
+  "why": "Twenty-five kilometres is the most of the three, so road C is the longest way. Long is a short adjective, so the superlative is the + -est: the longest.",
+  "slots": {
+   "home": [
+    "house",
+    "school",
+    "village",
+    "office"
+   ],
+   "place": [
+    "Chimgan",
+    "Charvak",
+    "Parkent",
+    "Gazalkent"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the superlative.",
+  "source": "Malika is the most tall girl in our {group}. She plays {sport}.",
+  "hint": "Malika is ______ (tall) girl in our {group}. She plays {sport}.",
+  "key": "the tallest",
+  "why": "Tall is a short adjective, so the superlative is the tallest, never the most tall.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "school",
+    "club"
+   ],
+   "sport": [
+    "basketball",
+    "volleyball",
+    "tennis",
+    "handball"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the superlative.",
+  "source": "This is the bigest {room} in our {home}.",
+  "hint": "This is ______ (big) {room} in our {home}.",
+  "key": "the biggest",
+  "why": "Big ends in one vowel and one consonant, so double the g: the biggest.",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "window",
+    "cupboard"
+   ],
+   "home": [
+    "flat",
+    "house",
+    "dacha",
+    "new flat"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the superlative.",
+  "source": "For {who}, maths was the easyest subject at {school}.",
+  "hint": "For {who}, maths was ______ (easy) subject at {school}.",
+  "key": "the easiest",
+  "why": "Easy ends in y, so change y to i before -est: the easiest.",
+  "slots": {
+   "who": [
+    "me",
+    "my sister",
+    "my brother",
+    "Aziz"
+   ],
+   "school": [
+    "school",
+    "primary school",
+    "college",
+    "music school"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the superlative.",
+  "source": "Today is the hotest day of this {period}, so we are staying {place}.",
+  "hint": "Today is ______ (hot) day of this {period}, so we are staying {place}.",
+  "key": "the hottest",
+  "why": "Hot ends in one vowel and one consonant, so double the t: the hottest.",
+  "slots": {
+   "period": [
+    "summer",
+    "week",
+    "month",
+    "year"
+   ],
+   "place": [
+    "at home",
+    "inside",
+    "indoors",
+    "in our flat"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the superlative.",
+  "source": "Kamila is fastest runner in our {club}. She trains every {day}.",
+  "hint": "Kamila is ______ (fast) runner in our {club}. She trains every {day}.",
+  "key": "the fastest",
+  "why": "A superlative needs the in front of it: the fastest.",
+  "slots": {
+   "club": [
+    "club",
+    "class",
+    "school",
+    "team"
+   ],
+   "day": [
+    "morning",
+    "evening",
+    "day",
+    "weekend"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the tallest, oldest or youngest person in your family.",
+  "requiredElement": "the + an -est adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must name a family member",
+   "must use the before the superlative"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the biggest or oldest city you know in Uzbekistan.",
+  "requiredElement": "the biggest or the oldest",
+  "constraints": [
+   "exactly one sentence",
+   "must name a city",
+   "must use in after the noun"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the hottest or coldest month where you live.",
+  "requiredElement": "the hottest or the coldest",
+  "constraints": [
+   "exactly one sentence",
+   "must name a month",
+   "must use the before the superlative"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the easiest subject for you at school or university.",
+  "requiredElement": "the easiest",
+  "constraints": [
+   "exactly one sentence",
+   "must name a subject",
+   "must use the y-to-i spelling"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the busiest day of your week.",
+  "requiredElement": "the busiest",
+  "constraints": [
+   "exactly one sentence",
+   "must name a day",
+   "must say why"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the cheapest or nicest place to eat near your home.",
+  "requiredElement": "the cheapest or the nicest",
+  "constraints": [
+   "exactly one sentence",
+   "must name or describe a place",
+   "must use the before the superlative"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the happiest day of your life.",
+  "requiredElement": "the happiest",
+  "constraints": [
+   "exactly one sentence",
+   "must use day of my life",
+   "must say what happened"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about two friends: who is the tallest and who is the funniest in your group?",
+  "requiredElement": "two -est superlatives with the",
+  "constraints": [
+   "exactly two sentences",
+   "two different superlatives",
+   "the before each superlative"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your family. Who is the oldest, the youngest, the tallest and the funniest? Write three or four sentences.",
+  "targetGrammar": "the + -est superlatives about people",
+  "lookFor": [
+   "the before every superlative",
+   "-est forms",
+   "y changed to i: funniest"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend from abroad wants to visit Uzbekistan. Tell them about the best-known places: the oldest city, the biggest market, the highest mountains. Write three or four sentences.",
+  "targetGrammar": "the + -est superlatives about places",
+  "lookFor": [
+   "the oldest, the biggest or the highest",
+   "in after the noun",
+   "doubled consonants: biggest, hottest"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your week. Which is the busiest day, the longest day and the easiest day? Write three or four sentences.",
+  "targetGrammar": "the + -est superlatives about time",
+  "lookFor": [
+   "the busiest, the longest, the easiest",
+   "of my week or in my week",
+   "y changed to i"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the weather where you live through the year. Which month is the hottest, the coldest and the nicest? Write three or four sentences.",
+  "targetGrammar": "the + -est superlatives about weather",
+  "lookFor": [
+   "the hottest, the coldest, the nicest",
+   "month names",
+   "no most before short adjectives"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your class or group. Who is the fastest, the youngest or the quietest? Write three or four sentences.",
+  "targetGrammar": "the + -est superlatives about a group",
+  "lookFor": [
+   "the before every superlative",
+   "in our class or in my group",
+   "no comparative where a superlative is needed"
+  ]
+ }
+]
