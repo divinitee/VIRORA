@@ -2,146 +2,6 @@
 // Pool sizes per topic and stage, counting slot expansion. Lets the node map
 // render real numbers without loading a single bank.
 export const PRACTICE_MANIFEST = {
- "adj-adv.frequency.adverb-position": {
-  "domain": "adj-adv",
-  "branch": "frequency",
-  "topic": "adverb-position",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 296,
-   "transform": 216,
-   "create": 8,
-   "express": 5
-  }
- },
- "adj-adv.frequency.always": {
-  "domain": "adj-adv",
-  "branch": "frequency",
-  "topic": "always",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 268,
-   "build": 264,
-   "transform": 208,
-   "create": 8,
-   "express": 5
-  }
- },
- "adj-adv.frequency.never": {
-  "domain": "adj-adv",
-  "branch": "frequency",
-  "topic": "never",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 304,
-   "build": 276,
-   "transform": 220,
-   "create": 8,
-   "express": 5
-  }
- },
- "adj-adv.frequency.rarely": {
-  "domain": "adj-adv",
-  "branch": "frequency",
-  "topic": "rarely",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 270,
-   "build": 240,
-   "transform": 212,
-   "create": 8,
-   "express": 5
-  }
- },
- "comparison.comparative.er-comparative": {
-  "domain": "comparison",
-  "branch": "comparative",
-  "topic": "er-comparative",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 368,
-   "transform": 228,
-   "create": 8,
-   "express": 5
-  }
- },
- "comparison.comparative.more-comparative": {
-  "domain": "comparison",
-  "branch": "comparative",
-  "topic": "more-comparative",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 308,
-   "build": 368,
-   "transform": 204,
-   "create": 8,
-   "express": 5
-  }
- },
- "comparison.equality.as-as": {
-  "domain": "comparison",
-  "branch": "equality",
-  "topic": "as-as",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 308,
-   "build": 296,
-   "transform": 216,
-   "create": 8,
-   "express": 5
-  }
- },
- "comparison.superlative.est-superlative": {
-  "domain": "comparison",
-  "branch": "superlative",
-  "topic": "est-superlative",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 320,
-   "transform": 204,
-   "create": 8,
-   "express": 5
-  }
- },
- "conditionals-wishes.zero-first.first-if-clause": {
-  "domain": "conditionals-wishes",
-  "branch": "zero-first",
-  "topic": "first-if-clause",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 325,
-   "build": 312,
-   "transform": 224,
-   "create": 8,
-   "express": 5
-  }
- },
- "conditionals-wishes.zero-first.first-will": {
-  "domain": "conditionals-wishes",
-  "branch": "zero-first",
-  "topic": "first-will",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 268,
-   "build": 284,
-   "transform": 252,
-   "create": 8,
-   "express": 5
-  }
- },
  "nouns-articles.articles.a-an": {
   "domain": "nouns-articles",
   "branch": "articles",
@@ -562,20 +422,6 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
- "sentence-structure.existential.there-was-were": {
-  "domain": "sentence-structure",
-  "branch": "existential",
-  "topic": "there-was-were",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 296,
-   "build": 228,
-   "transform": 204,
-   "create": 8,
-   "express": 5
-  }
- },
  "sentence-structure.predication.be-am-is-are": {
   "domain": "sentence-structure",
   "branch": "predication",
@@ -599,34 +445,6 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "tenses.future.arrangement-continuous": {
-  "domain": "tenses",
-  "branch": "future",
-  "topic": "arrangement-continuous",
-  "level": "B1",
-  "authored": 68,
-  "stages": {
-   "choose": 308,
-   "build": 308,
-   "transform": 232,
-   "create": 8,
-   "express": 5
-  }
- },
- "tenses.future.future-continuous": {
-  "domain": "tenses",
-  "branch": "future",
-  "topic": "future-continuous",
-  "level": "B1",
-  "authored": 68,
-  "stages": {
-   "choose": 296,
-   "build": 268,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -936,20 +754,6 @@ export const PRACTICE_MANIFEST = {
    "choose": 20,
    "build": 58,
    "transform": 15,
-   "create": 8,
-   "express": 5
-  }
- },
- "tenses.used-to.used-to-state": {
-  "domain": "tenses",
-  "branch": "used-to",
-  "topic": "used-to-state",
-  "level": "B1",
-  "authored": 68,
-  "stages": {
-   "choose": 272,
-   "build": 284,
-   "transform": 216,
    "create": 8,
    "express": 5
   }
