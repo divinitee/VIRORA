@@ -9,7 +9,7 @@ export default [
   "level": "A2",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "If it rains tomorrow, we ______ at home and {act}.",
+  "prompt": "If it rains {when}, we ______ at home and {act}.",
   "options": [
    "will stay",
    "stay",
@@ -19,6 +19,12 @@ export default [
   "key": 0,
   "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will stay. Not the present or past, and not would.",
   "slots": {
+   "when": [
+    "tomorrow",
+    "on Saturday",
+    "tonight",
+    "on Sunday"
+   ],
    "act": [
     "watch films",
     "play chess",
@@ -374,7 +380,7 @@ export default [
   "level": "A2",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "If my parents finish work early, we ______ dinner in the {place}.",
+  "prompt": "If my parents finish work early {when}, we ______ dinner in the {place}.",
   "options": [
    "will have",
    "have",
@@ -384,6 +390,12 @@ export default [
   "key": 0,
   "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will have. Not the present or past, and not would.",
   "slots": {
+   "when": [
+    "today",
+    "tomorrow",
+    "on Friday",
+    "this evening"
+   ],
    "place": [
     "garden",
     "yard",
@@ -522,7 +534,7 @@ export default [
   "level": "A2",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "If they leave now, they ______ {where} before dark.",
+  "prompt": "If they leave {when}, they ______ {where} before dark.",
   "options": [
    "will get",
    "get",
@@ -532,6 +544,12 @@ export default [
   "key": 0,
   "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will get. Not the present or past, and not would.",
   "slots": {
+   "when": [
+    "now",
+    "at six",
+    "before lunch",
+    "in ten minutes"
+   ],
    "where": [
     "home",
     "there",

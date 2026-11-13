@@ -145,7 +145,7 @@
 144	C	tenses.perfect.perfect-vs-past	B1	1	todo	Present perfect cannot combine with a finished-time marker
 145	C	tenses.perfect.since-clause	B1	1	todo	Present perfect in the main clause with a since-clause in past simple
 146	C	tenses.perfect.unfinished-time	B1	1	todo	Present perfect with an unfinished time period ('this morning' while still morning)
-147	C	tenses.future.arrangement-continuous	B1	1	todo	Present continuous for a fixed future arrangement
+147	C	tenses.future.arrangement-continuous	B1	1	live	Present continuous for a fixed future arrangement
 148	C	tenses.future.future-continuous	B1	1	live	Future continuous for an action in progress at a future time
 149	C	tenses.future.timetable-simple	B1	1	todo	Present simple for a timetabled future event
 150	C	tenses.used-to.didnt-use-to	B1	1	todo	Negative: didn't use to (no -d after did)

@@ -39,7 +39,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My {who} ______ with us next week. She called my mother yesterday.",
+  "prompt": "My {who} ______ with us next {when}. She called my mother yesterday.",
   "options": [
    "is staying",
    "stays",
@@ -54,6 +54,12 @@
     "grandmother",
     "cousin",
     "older sister"
+   ],
+   "when": [
+    "week",
+    "month",
+    "weekend",
+    "Friday"
    ]
   }
  },
@@ -65,7 +71,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We ______ our grandparents in {city} on Sunday. My father phoned them yesterday.",
+  "prompt": "We ______ our grandparents in {city} on {day}. My father phoned them yesterday.",
   "options": [
    "are visiting",
    "visit",
@@ -80,6 +86,12 @@
     "Bukhara",
     "Fergana",
     "Namangan"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
    ]
   }
  },
@@ -123,7 +135,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My parents ______ a party for my sister's birthday on {day}. They invited twenty guests.",
+  "prompt": "My parents ______ a party for my {who}'s birthday on {day}. They invited twenty guests.",
   "options": [
    "are having",
    "have",
@@ -133,6 +145,12 @@
   "key": 0,
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: are having.",
   "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "cousin",
+    "grandmother"
+   ],
    "day": [
     "Saturday",
     "Sunday",
@@ -181,7 +199,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our {who} ______ for dinner tonight. My mother invited them this morning.",
+  "prompt": "Our {who} ______ for dinner {when}. My mother invited them this morning.",
   "options": [
    "are coming",
    "come",
@@ -196,6 +214,12 @@
     "neighbours",
     "relatives",
     "friends"
+   ],
+   "when": [
+    "tonight",
+    "tomorrow",
+    "on Friday",
+    "on Sunday"
    ]
   }
  },
@@ -207,7 +231,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My father ______ me to the {place} at five tomorrow. We agreed on it last night.",
+  "prompt": "My father ______ me to the {place} at {time} tomorrow. We agreed on it last night.",
   "options": [
    "is taking",
    "takes",
@@ -222,6 +246,12 @@
     "station",
     "bus station",
     "hospital"
+   ],
+   "time": [
+    "five",
+    "six",
+    "seven",
+    "half past five"
    ]
   }
  },
@@ -264,7 +294,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The plumber ______ our {thing} on Tuesday morning. My mother called him yesterday.",
+  "prompt": "The plumber ______ our {thing} on {day} morning. My mother called him yesterday.",
   "options": [
    "is fixing",
    "fixes",
@@ -279,6 +309,12 @@
     "shower",
     "heater",
     "washing machine"
+   ],
+   "day": [
+    "Tuesday",
+    "Monday",
+    "Wednesday",
+    "Friday"
    ]
   }
  },
@@ -290,7 +326,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We ______ a film with our {who} on Saturday. We already have the tickets.",
+  "prompt": "We ______ a film with our {who} on {day}. We already have the tickets.",
   "options": [
    "are watching",
    "watch",
@@ -305,6 +341,12 @@
     "friends",
     "classmates",
     "neighbours"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Thursday"
    ]
   }
  },
@@ -412,7 +454,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Sorry, I can't meet you at seven. I ______ my {who} to the cinema. I bought the tickets yesterday.",
+  "prompt": "Sorry, I can't meet you at seven. I ______ my {who} to the {place}. I bought the tickets yesterday.",
   "options": [
    "am taking",
    "take",
@@ -427,6 +469,12 @@
     "little brother",
     "sister",
     "nephew"
+   ],
+   "place": [
+    "cinema",
+    "zoo",
+    "circus",
+    "theatre"
    ]
   }
  },
@@ -470,7 +518,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My parents ______ in a hotel in {city} next weekend. They booked a room.",
+  "prompt": "My parents ______ in a hotel in {city} next {when}. They booked a room.",
   "options": [
    "are staying",
    "stay",
@@ -485,6 +533,12 @@
     "Bukhara",
     "Istanbul",
     "Dubai"
+   ],
+   "when": [
+    "weekend",
+    "week",
+    "month",
+    "Friday"
    ]
   }
  },
@@ -496,7 +550,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I ______ the doctor on {day} afternoon. I made an appointment yesterday.",
+  "prompt": "I ______ the doctor on {day} {part}. I made an appointment yesterday.",
   "options": [
    "am seeing",
    "see",
@@ -511,6 +565,11 @@
     "Monday",
     "Wednesday",
     "Friday"
+   ],
+   "part": [
+    "afternoon",
+    "morning",
+    "evening"
    ]
   }
  },
@@ -522,7 +581,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "{name} and I ______ for the exam together at the library tomorrow. We planned it on the phone.",
+  "prompt": "{name} and I ______ for the exam together at the library {when}. We planned it on the phone.",
   "options": [
    "are studying",
    "study",
@@ -537,6 +596,12 @@
     "Olga",
     "Dilnoza",
     "Timur"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "on Sunday",
+    "this evening"
    ]
   }
  },
@@ -548,7 +613,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My brother ______ the guitar at his friend's wedding on {day}. The family asked him a month ago.",
+  "prompt": "My {who} ______ the guitar at his friend's wedding on {day}. The family asked him a month ago.",
   "options": [
    "is playing",
    "plays",
@@ -558,6 +623,11 @@
   "key": 0,
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: is playing.",
   "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "uncle"
+   ],
    "day": [
     "Saturday",
     "Sunday",
@@ -602,7 +672,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "My {who} ______ (stay) with us next week. She called my mother yesterday.",
+  "source": "My {who} ______ (stay) with us next {when}. She called my mother yesterday.",
   "key": "is staying",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: is staying.",
   "slots": {
@@ -611,6 +681,12 @@
     "grandmother",
     "cousin",
     "older sister"
+   ],
+   "when": [
+    "week",
+    "month",
+    "weekend",
+    "Friday"
    ]
   }
  },
@@ -623,7 +699,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "We ______ (visit) our grandparents in {city} on Sunday. Dad bought the train tickets.",
+  "source": "We ______ (visit) our grandparents in {city} on {day}. Dad bought the train tickets.",
   "key": "are visiting",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: are visiting.",
   "slots": {
@@ -632,6 +708,12 @@
     "Bukhara",
     "Fergana",
     "Namangan"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
    ]
   }
  },
@@ -671,10 +753,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "My parents ______ (have) a party on {day}. They invited all the neighbours.",
+  "source": "My {who} ______ (have) a party on {day}. They invited all their friends.",
   "key": "are having",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: are having.",
   "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "cousins",
+    "aunt and uncle"
+   ],
    "day": [
     "Saturday",
     "Sunday",
@@ -692,7 +780,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "I ______ (play) tennis with my {who} this evening. We booked the court.",
+  "source": "I ______ (play) tennis with my {who} this {when}. We booked the court.",
   "key": "am playing",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: am playing.",
   "slots": {
@@ -701,6 +789,12 @@
     "cousin",
     "father",
     "friend"
+   ],
+   "when": [
+    "evening",
+    "afternoon",
+    "Saturday",
+    "Sunday"
    ]
   }
  },
@@ -713,7 +807,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "Our {who} ______ (come) for dinner tonight. My mother invited them this morning.",
+  "source": "Our {who} ______ (come) for dinner {when}. My mother invited them this morning.",
   "key": "are coming",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: are coming.",
   "slots": {
@@ -722,6 +816,12 @@
     "neighbours",
     "relatives",
     "friends"
+   ],
+   "when": [
+    "tonight",
+    "tomorrow",
+    "on Friday",
+    "on Sunday"
    ]
   }
  },
@@ -734,7 +834,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "My father ______ (take) me to the {place} at six tomorrow. We agreed on it yesterday.",
+  "source": "My father ______ (take) me to the {place} at {time} tomorrow. We agreed on it yesterday.",
   "key": "is taking",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: is taking.",
   "slots": {
@@ -743,6 +843,12 @@
     "station",
     "bus station",
     "hospital"
+   ],
+   "time": [
+    "six",
+    "five",
+    "seven",
+    "half past six"
    ]
   }
  },
@@ -781,7 +887,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "The mechanic ______ (fix) our {thing} on Tuesday. My father called him.",
+  "source": "The mechanic ______ (fix) our {thing} on {day}. My father called him.",
   "key": "is fixing",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: is fixing.",
   "slots": {
@@ -790,6 +896,12 @@
     "motorbike",
     "van",
     "bike"
+   ],
+   "day": [
+    "Tuesday",
+    "Monday",
+    "Wednesday",
+    "Thursday"
    ]
   }
  },
@@ -802,7 +914,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "We ______ (watch) the match with our {who} on Saturday. We have the tickets.",
+  "source": "We ______ (watch) the match with our {who} on {day}. We have the tickets.",
   "key": "are watching",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: are watching.",
   "slots": {
@@ -811,6 +923,12 @@
     "friends",
     "classmates",
     "neighbours"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
    ]
   }
  },
@@ -877,7 +995,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "My grandmother ______ (cook) {food} for everyone on Sunday. She invited the whole family.",
+  "source": "My grandmother ______ (cook) {food} for everyone on {day}. She invited the whole family.",
   "key": "is cooking",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: is cooking.",
   "slots": {
@@ -886,6 +1004,12 @@
     "manti",
     "sumalak",
     "lagman"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
    ]
   }
  },
@@ -898,7 +1022,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "My parents ______ (go) to {city} on Monday. Their tickets came by email.",
+  "source": "My parents ______ (go) to {city} on {day}. Their tickets came by email.",
   "key": "are going",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: are going.",
   "slots": {
@@ -907,6 +1031,12 @@
     "Istanbul",
     "Seoul",
     "Moscow"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Sunday"
    ]
   }
  },
@@ -919,7 +1049,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "I ______ (take) my little {who} to the zoo on Saturday. I promised him last week.",
+  "source": "I ______ (take) my little {who} to the {place} on Saturday. I promised him last week.",
   "key": "am taking",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: am taking.",
   "slots": {
@@ -927,6 +1057,12 @@
     "brother",
     "cousin",
     "nephew"
+   ],
+   "place": [
+    "zoo",
+    "circus",
+    "cinema",
+    "park"
    ]
   }
  },
@@ -939,7 +1075,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "We ______ (stay) at a hotel in {city} next weekend. We booked two rooms.",
+  "source": "We ______ (stay) at a hotel in {city} next {when}. We booked two rooms.",
   "key": "are staying",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: are staying.",
   "slots": {
@@ -948,6 +1084,12 @@
     "Bukhara",
     "Khiva",
     "Tashkent"
+   ],
+   "when": [
+    "weekend",
+    "week",
+    "month",
+    "Friday"
    ]
   }
  },
@@ -960,7 +1102,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "{name} and I ______ (study) together at the library tomorrow. We planned it after class.",
+  "source": "{name} and I ______ (study) together at the library {when}. We planned it after class.",
   "key": "are studying",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: are studying.",
   "slots": {
@@ -969,6 +1111,12 @@
     "Olga",
     "Dilnoza",
     "Timur"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "on Sunday",
+    "this evening"
    ]
   }
  },
@@ -981,10 +1129,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "My sister ______ (sing) at her friend's wedding in {month}. The family asked her last month.",
+  "source": "My {who} ______ (sing) at her friend's wedding in {month}. The family asked her last month.",
   "key": "is singing",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: is singing.",
   "slots": {
+   "who": [
+    "sister",
+    "cousin",
+    "aunt",
+    "daughter"
+   ],
    "month": [
     "May",
     "June",
@@ -1002,7 +1156,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
-  "source": "I ______ (see) the doctor on {day} afternoon. The receptionist gave me a time.",
+  "source": "I ______ (see) the doctor on {day} {part}. The receptionist gave me a time.",
   "key": "am seeing",
   "why": "This is already arranged with other people for a fixed time, so use the present continuous: am seeing.",
   "slots": {
@@ -1011,6 +1165,11 @@
     "Monday",
     "Wednesday",
     "Friday"
+   ],
+   "part": [
+    "afternoon",
+    "morning",
+    "evening"
    ]
   }
  },
@@ -1023,8 +1182,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
-  "source": "Diary, {day}: 3 pm, dentist.",
-  "hint": "I ______ (see) the dentist at three on {day}.",
+  "source": "Diary, {day}: 3 pm, {pro}.",
+  "hint": "I ______ (see) the {pro} at three on {day}.",
   "key": "am seeing",
   "why": "A diary plan is an arrangement, so use the present continuous: am seeing.",
   "slots": {
@@ -1033,6 +1192,11 @@
     "Monday",
     "Tuesday",
     "Thursday"
+   ],
+   "pro": [
+    "dentist",
+    "doctor",
+    "eye doctor"
    ]
   }
  },
@@ -1045,11 +1209,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
-  "source": "Diary, Friday: 7 pm, dinner with {name}.",
-  "hint": "I ______ (have) dinner with {name} at seven on Friday.",
+  "source": "Diary, {day}: 7 pm, dinner with {name}.",
+  "hint": "I ______ (have) dinner with {name} at seven on {day}.",
   "key": "am having",
   "why": "A diary plan is an arrangement, so use the present continuous: am having.",
   "slots": {
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Wednesday"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1067,11 +1237,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
-  "source": "Diary, Sunday: football with my {who}, 10 am.",
-  "hint": "I ______ (play) football with my {who} on Sunday morning.",
+  "source": "Diary, {day}: football with my {who}, 10 am.",
+  "hint": "I ______ (play) football with my {who} on {day} morning.",
   "key": "am playing",
   "why": "A diary plan is an arrangement, so use the present continuous: am playing.",
   "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Monday"
+   ],
    "who": [
     "cousins",
     "friends",
@@ -1116,11 +1292,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Write a sentence about the plan in the diary. Use the verb in brackets.",
-  "source": "Diary, Thursday: help Uncle Rustam in the {place}.",
-  "hint": "I ______ (help) my uncle in his {place} on Thursday.",
+  "source": "Diary, {day}: help Uncle Rustam in the {place}.",
+  "hint": "I ______ (help) my uncle in his {place} on {day}.",
   "key": "am helping",
   "why": "A diary plan is an arrangement, so use the present continuous: am helping.",
   "slots": {
+   "day": [
+    "Thursday",
+    "Tuesday",
+    "Saturday",
+    "Sunday"
+   ],
    "place": [
     "shop",
     "garden",
@@ -1194,8 +1376,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence about the person in the hint.",
-  "source": "She is visiting her grandparents in {city} on Sunday.",
-  "hint": "We ______ our grandparents in {city} on Sunday.",
+  "source": "She is visiting her grandparents in {city} on {day}.",
+  "hint": "We ______ our grandparents in {city} on {day}.",
   "key": "are visiting",
   "why": "Same arrangement, new person: change am / is / are to match: are visiting.",
   "slots": {
@@ -1204,6 +1386,12 @@
     "Bukhara",
     "Fergana",
     "Namangan"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Navruz"
    ]
   }
  },
@@ -1216,11 +1404,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence about the person in the hint.",
-  "source": "My brother is playing in a concert on {day}.",
+  "source": "My {who} is playing in a concert on {day}.",
   "hint": "I ______ in a concert on {day}.",
   "key": "am playing",
   "why": "Same arrangement, new person: change am / is / are to match: am playing.",
   "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "friend"
+   ],
    "day": [
     "Saturday",
     "Friday",
@@ -1266,8 +1460,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
-  "source": "I meet my {who} at the station tomorrow. We arranged it last week.",
-  "hint": "I ______ my {who} at the station tomorrow. We arranged it last week.",
+  "source": "I meet my {who} at the station {when}. We arranged it last week.",
+  "hint": "I ______ my {who} at the station {when}. We arranged it last week.",
   "key": "am meeting",
   "why": "Meet (present simple) is wrong for an arrangement. Use am / is / are + -ing: am meeting.",
   "slots": {
@@ -1276,6 +1470,12 @@
     "grandmother",
     "uncle",
     "aunt"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "on Sunday",
+    "tonight"
    ]
   }
  },
@@ -1316,8 +1516,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
-  "source": "We going to the {event} on Saturday. We have the tickets.",
-  "hint": "We ______ to the {event} on Saturday. We have the tickets.",
+  "source": "We going to the {event} on {day}. We have the tickets.",
+  "hint": "We ______ to the {event} on {day}. We have the tickets.",
   "key": "are going",
   "why": "Going (no are) is wrong for an arrangement. Use am / is / are + -ing: are going.",
   "slots": {
@@ -1326,6 +1526,12 @@
     "theatre",
     "football match",
     "circus"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
    ]
   }
  },
@@ -1338,8 +1544,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
-  "source": "My {who} will playing tennis with his friend at six. They booked the court.",
-  "hint": "My {who} ______ tennis with his friend at six. They booked the court.",
+  "source": "My {who} will playing tennis with his friend at {time}. They booked the court.",
+  "hint": "My {who} ______ tennis with his friend at {time}. They booked the court.",
   "key": "is playing",
   "why": "Will playing is wrong for an arrangement. Use am / is / are + -ing: is playing.",
   "slots": {
@@ -1348,6 +1554,12 @@
     "father",
     "cousin",
     "uncle"
+   ],
+   "time": [
+    "six",
+    "seven",
+    "five",
+    "eight"
    ]
   }
  },

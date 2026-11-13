@@ -105,7 +105,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "At {time} tomorrow, I ______ in the exam hall, so I can't answer your messages.",
+  "prompt": "At {time} tomorrow, I ______ in the {room}, so I can't answer your messages.",
   "options": [
    "will be sitting",
    "will sit",
@@ -120,6 +120,11 @@ export default [
     "eleven",
     "nine",
     "half past ten"
+   ],
+   "room": [
+    "exam hall",
+    "sports hall",
+    "school hall"
    ]
   }
  },
@@ -227,7 +232,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Please don't come at six. I ______ my {task} then.",
+  "prompt": "Please don't come at {time}. I ______ my {task} then.",
   "options": [
    "will be doing",
    "will do",
@@ -237,6 +242,12 @@ export default [
   "key": 0,
   "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be doing.",
   "slots": {
+   "time": [
+    "six",
+    "five",
+    "seven",
+    "half past six"
+   ],
    "task": [
     "homework",
     "project",
@@ -290,7 +301,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "In two hours, we ______ through the {place}, so there will be no internet.",
+  "prompt": "In {n} hours, we ______ through the {place}, so there will be no internet.",
   "options": [
    "will be driving",
    "will drive",
@@ -300,6 +311,11 @@ export default [
   "key": 0,
   "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
   "slots": {
+   "n": [
+    "two",
+    "three",
+    "four"
+   ],
    "place": [
     "mountains",
     "desert",
@@ -380,7 +396,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "This time tomorrow, we ______ around the old city of {city}. Our tour starts at ten.",
+  "prompt": "This time tomorrow, we ______ around the old city of {city} with our {who}.",
   "options": [
    "will be walking",
    "will walk",
@@ -395,6 +411,12 @@ export default [
     "Khiva",
     "Samarkand",
     "Shahrisabz"
+   ],
+   "who": [
+    "guide",
+    "teacher",
+    "cousins",
+    "friends"
    ]
   }
  },
@@ -496,7 +518,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Tomorrow at noon, the students ______ their {exam}, so the school will be quiet.",
+  "prompt": "Tomorrow at {time}, the students ______ their {exam}, so the school will be quiet.",
   "options": [
    "will be writing",
    "will write",
@@ -506,6 +528,12 @@ export default [
   "key": 0,
   "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be writing.",
   "slots": {
+   "time": [
+    "noon",
+    "ten",
+    "eleven",
+    "nine"
+   ],
    "exam": [
     "exam",
     "maths test",
@@ -682,10 +710,16 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "This time next week, we ______ (sit) on a train to {city}.",
+  "source": "This time next {when}, we ______ (sit) on a train to {city}.",
   "key": "will be sitting",
   "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be sitting.",
   "slots": {
+   "when": [
+    "week",
+    "month",
+    "Friday",
+    "Sunday"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -730,7 +764,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "Please come after eight. At seven, I ______ (cook) {food} for the guests.",
+  "source": "Please come after eight. At seven, I ______ (cook) {food} for the {who}.",
   "key": "will be cooking",
   "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cooking.",
   "slots": {
@@ -739,6 +773,12 @@ export default [
     "manti",
     "lagman",
     "soup"
+   ],
+   "who": [
+    "guests",
+    "family",
+    "neighbours",
+    "children"
    ]
   }
  },
@@ -880,10 +920,16 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "At six tomorrow, I ______ (wait) for you outside the {place}.",
+  "source": "At {time} tomorrow, I ______ (wait) for you outside the {place}.",
   "key": "will be waiting",
   "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be waiting.",
   "slots": {
+   "time": [
+    "six",
+    "five",
+    "seven",
+    "eight"
+   ],
    "place": [
     "cinema",
     "metro",
@@ -922,10 +968,16 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "At nine tomorrow morning, our class ______ (visit) the {place}.",
+  "source": "At nine tomorrow morning, our {group} ______ (visit) the {place}.",
   "key": "will be visiting",
   "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be visiting.",
   "slots": {
+   "group": [
+    "class",
+    "group",
+    "team",
+    "school club"
+   ],
    "place": [
     "museum",
     "factory",
@@ -1065,10 +1117,16 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "At seven tomorrow, the workers ______ (build) the new {thing} in our street.",
+  "source": "At {time} tomorrow, the workers ______ (build) the new {thing} in our street.",
   "key": "will be building",
   "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be building.",
   "slots": {
+   "time": [
+    "seven",
+    "eight",
+    "nine",
+    "ten"
+   ],
    "thing": [
     "school",
     "shop",
