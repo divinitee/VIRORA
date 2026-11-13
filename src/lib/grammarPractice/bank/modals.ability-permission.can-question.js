@@ -721,7 +721,7 @@ export default [
     "small letters",
     "the newspaper",
     "her phone",
-    "menus"
+    "small print"
    ]
   }
  },
@@ -1081,7 +1081,11 @@ export default [
     "one night",
     "three days"
    ]
-  }
+  },
+  "acceptable": [
+   "can we stay",
+   "can i stay"
+  ]
  },
  {
   "id": "gpr.modals.ability-permission.can-question.build.018",

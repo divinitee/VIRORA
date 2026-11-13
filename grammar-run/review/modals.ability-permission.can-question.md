@@ -102,7 +102,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Ask about you: can + you + play. Can comes before the person in a question.
 
 4. _Write the question with can + the right person + the verb in brackets._  
-   A: Your grandmother is **eighty**. ______ (read) without glasses? B: No, not **menus**.  
+   A: Your grandmother is **eighty**. ______ (read) without glasses? B: No, not **small print**.  
    key: can she read  
    why: Ask about your grandmother (she): can + she + read. Can comes before the person in a question.
 
@@ -168,7 +168,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. _Write the question with can + the right person + the verb in brackets._  
    A: How long ______ (stay) in **Bukhara**? B: Only **two days**.  
-   key: can you stay  
+   key: can you stay (also: can we stay, can i stay)  
    why: Ask about you: How long + can + you + stay? Can comes before the person in a question.
 
 18. _Write the question with can + the right person + the verb in brackets._  
