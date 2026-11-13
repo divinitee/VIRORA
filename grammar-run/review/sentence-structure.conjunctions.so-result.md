@@ -207,14 +207,14 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Reason first, then so + result: so the children played inside.
 
 4. _Say the same thing with so. Start with the reason._  
-   Aziz bought a new phone **on Friday** because his old one was **too old**.  
-   → Aziz's old phone was **too old**, ______ (buy) a new one **on Friday**.  
+   Aziz bought a new phone **on Friday** because his old one was **cracked**.  
+   → Aziz's old phone was **cracked**, ______ (buy) a new one **on Friday**.  
    key: so he bought  
    why: Reason first, then so + result: so he bought a new one.
 
 5. _Say the same thing with so. Start with the reason._  
    Dad took a taxi **yesterday** because he was **late**.  
-   → Dad was **late**, ______ (take) a taxi **yesterday**.  
+   → Dad was **late** **yesterday**, ______ (take) a taxi.  
    key: so he took  
    why: Reason first, then so + result: so he took a taxi.
 
@@ -255,8 +255,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: That's why = so: so we walked…
 
 12. _Rewrite with so instead of That's why._  
-   Bobur is ill. That's why he isn't at **the party** **this week**.  
-   → Bobur is ill, ______ (be) at **the party** **this week**.  
+   Bobur is ill. That's why he isn't at **the lesson** **this week**.  
+   → Bobur is ill, ______ (be) at **the lesson** **this week**.  
    key: so he isn't  
    why: That's why = so: so he isn't at school.
 

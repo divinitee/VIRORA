@@ -1243,8 +1243,8 @@ export default [
    "state": [
     "broken",
     "very slow",
-    "too old",
-    "lost"
+    "cracked",
+    "not working"
    ],
    "when": [
     "yesterday",
@@ -1264,7 +1264,7 @@ export default [
   "format": "rewrite",
   "instr": "Say the same thing with so. Start with the reason.",
   "source": "Dad took a taxi {when} because he was {state}.",
-  "hint": "Dad was {state}, ______ (take) a taxi {when}.",
+  "hint": "Dad was {state} {when}, ______ (take) a taxi.",
   "key": "so he took",
   "why": "Reason first, then so + result: so he took a taxi.",
   "slots": {
@@ -1471,13 +1471,13 @@ export default [
     "school",
     "work",
     "training",
-    "the party"
+    "the lesson"
    ],
    "when": [
     "today",
     "this week",
     "now",
-    "tonight"
+    "this morning"
    ]
   },
   "acceptable": [
