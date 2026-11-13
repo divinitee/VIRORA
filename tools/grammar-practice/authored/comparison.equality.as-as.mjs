@@ -170,7 +170,7 @@ const TRANSFORM = [
   [FIX, "tall", "My {relative} is as tall than my father, and he is only {age}.", "My {relative} is ______ (tall) my father, and he is only {age}.",
     "After as ... use as again, not than: as tall as.",
     { relative: ["brother", "cousin", "nephew", "little brother"], age: ["fourteen", "fifteen", "thirteen", "sixteen"] }],
-  [FIX, "cold", "Today in {city} is as colder as yesterday, so wear your {clothes}.", "Today in {city} is ______ (cold) yesterday, so wear your {clothes}.",
+  [FIX, "cold", "Today in {city} it is as colder as yesterday, so wear your {clothes}.", "Today in {city} it is ______ (cold) yesterday, so wear your {clothes}.",
     "Between as and as, use the normal adjective: as cold as, not as colder as.",
     { city: ["Tashkent", "Nukus", "Fergana", "Samarkand"], clothes: ["warm coat", "hat", "boots", "gloves"] }],
   [FIX, "good", "{name}'s {lang} is the same good as her teacher's.", "{name}'s {lang} is ______ (good) her teacher's.",

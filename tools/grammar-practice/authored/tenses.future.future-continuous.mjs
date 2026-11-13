@@ -57,7 +57,7 @@ const CHOOSE = [
     { name: ["Dilnoza", "Olga", "Malika", "Nodira"] }],
   [B("fish", "fishing", "fish"), "At ten o'clock on {day}, I ______ at the {place} with my grandfather.",
     { day: ["Saturday", "Sunday", "Friday", "Wednesday"], place: ["lake", "river", "canal", "pond"] }],
-  [A("serve", "serving"), "At this time next {when}, my {who} ______ in the army.",
+  [A("study", "studying"), "At this time next {when}, my {who} ______ at a university in Seoul.",
     { when: ["year", "month", "spring", "winter"], who: ["brother", "cousin", "neighbour", "friend"] }],
   [A("write", "writing"), "Tomorrow at {time}, the students ______ their {exam}, so the school will be quiet.",
     { time: ["noon", "ten", "eleven", "nine"], exam: ["exam", "maths test", "English test", "final exam"] }],

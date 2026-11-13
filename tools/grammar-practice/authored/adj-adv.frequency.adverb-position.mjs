@@ -76,7 +76,7 @@ const CHOOSE_B = [
   ["i", "always", "I ______ tired on {day} because I have {n} lessons.",
     { day: ["Mondays", "Tuesdays", "Thursdays", "Fridays"], n: ["seven", "eight", "six", "nine"] }],
   ["sg", "never", "Our {room} ______ cold in winter. My father fixed the {thing} last year.",
-    { room: ["flat", "house", "classroom", "kitchen"], thing: ["windows", "heating", "heater", "door"] }],
+    { room: ["flat", "house", "bedroom", "kitchen"], thing: ["windows", "heating", "heater", "door"] }],
   ["pl", "always", "My cousins ______ happy at Navruz. They eat {food} and play in the {place}.",
     { food: ["sumalak", "plov", "sweets", "halim"], place: ["yard", "park", "street", "garden"] }],
   ["i", "never", "I ______ late for my English lessons. I leave home at {time} and take the {transport}.",
