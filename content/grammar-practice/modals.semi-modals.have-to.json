@@ -545,7 +545,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Children ______ have to go to school on {day} in {country}.",
+  "prompt": "Children ______ have to go to school on {day}, {name}.",
   "options": [
    "don't",
    "doesn't",
@@ -558,13 +558,13 @@
    "day": [
     "Sundays",
     "holidays",
-    "Saturdays"
+    "New Year's Day"
    ],
-   "country": [
-    "Uzbekistan",
-    "Russia",
-    "Korea",
-    "our country"
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },

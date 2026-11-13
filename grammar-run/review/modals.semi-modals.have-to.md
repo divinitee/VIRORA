@@ -72,7 +72,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ Does · Do · Is · Are  
    why: Questions with have to use do / does: Do you have to … ? Does she have to … ?
 
-18. Children ______ have to go to school on **Saturdays** in **Russia**.  
+18. Children ______ have to go to school on **New Year's Day**, **Olga**.  
    options: ✔ don't · doesn't · aren't · not  
    why: The negative uses don't / doesn't + have to: She doesn't have to … ; They don't have to …
 
