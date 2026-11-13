@@ -28,9 +28,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ can · is · knows · has  
    why: To say someone is able to do something, use can + verb: can make. Don't use am / is / are, know or have here.
 
-7. I ______ run **two kilometres** without stopping.  
+7. I ______ swim **fifty metres** without stopping.  
    options: ✔ can · am · know · have  
-   why: To say someone is able to do something, use can + verb: can run. Don't use am / is / are, know or have here.
+   why: To say someone is able to do something, use can + verb: can swim. Don't use am / is / are, know or have here.
 
 8. Our cat ______ open the **door** with its **head**.  
    options: ✔ can · is · knows · has  
@@ -64,7 +64,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ see · sees · to see · seeing  
    why: After can, use the base verb with no to, no -s and no -ing: can see.
 
-16. Dilnoza can ______ **emails** **without looking** on her phone.  
+16. Dilnoza can ______ **emails** on her phone **without looking**.  
    options: ✔ type · types · to type · typing  
    why: After can, use the base verb with no to, no -s and no -ing: can type.
 

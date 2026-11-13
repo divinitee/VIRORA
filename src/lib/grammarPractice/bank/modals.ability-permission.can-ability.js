@@ -201,7 +201,7 @@ export default [
   "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I ______ run {dist} without stopping.",
+  "prompt": "I ______ swim {dist} without stopping.",
   "options": [
    "can",
    "am",
@@ -209,13 +209,13 @@ export default [
    "have"
   ],
   "key": 0,
-  "why": "To say someone is able to do something, use can + verb: can run. Don't use am / is / are, know or have here.",
+  "why": "To say someone is able to do something, use can + verb: can swim. Don't use am / is / are, know or have here.",
   "slots": {
    "dist": [
-    "five kilometres",
-    "ten kilometres",
+    "a kilometre",
     "two kilometres",
-    "three kilometres"
+    "fifty metres",
+    "five hundred metres"
    ]
   }
  },
@@ -477,7 +477,7 @@ export default [
   "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Dilnoza can ______ {things} {how} on her phone.",
+  "prompt": "Dilnoza can ______ {things} on her phone {how}.",
   "options": [
    "type",
    "types",
