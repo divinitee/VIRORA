@@ -1,0 +1,1737 @@
+[
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If it rains tomorrow, we ______ at home and {act}.",
+  "options": [
+   "will stay",
+   "stay",
+   "stayed",
+   "would stay"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will stay. Not the present or past, and not would.",
+  "slots": {
+   "act": [
+    "watch films",
+    "play chess",
+    "read",
+    "bake a cake"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If {name} doesn't hurry, he ______ the {transport}.",
+  "options": [
+   "will miss",
+   "misses",
+   "missed",
+   "has missed"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will miss. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Timur",
+    "Sardor",
+    "Aziz",
+    "Ilya"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If {name} passes the exam, her parents ______ her a {gift}.",
+  "options": [
+   "will buy",
+   "buy",
+   "bought",
+   "would buy"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will buy. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Zarina"
+   ],
+   "gift": [
+    "bike",
+    "phone",
+    "laptop",
+    "new dress"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If it snows {when}, the {transport} ______ on time tomorrow.",
+  "options": [
+   "won't come",
+   "don't come",
+   "didn't come",
+   "wouldn't come"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't come.",
+  "slots": {
+   "when": [
+    "tonight",
+    "this evening",
+    "all night"
+   ],
+   "transport": [
+    "buses",
+    "trains",
+    "trams",
+    "minibuses"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If you eat all that {food} now, you ______ ill tonight.",
+  "options": [
+   "will be",
+   "are",
+   "were",
+   "would be"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will be. Not the present or past, and not would.",
+  "slots": {
+   "food": [
+    "ice cream",
+    "cake",
+    "chocolate",
+    "candy"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ you if I find your {thing} in the {place}.",
+  "options": [
+   "will call",
+   "call",
+   "called",
+   "would call"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will call. Not the present or past, and not would.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "glasses",
+    "wallet"
+   ],
+   "place": [
+    "car",
+    "kitchen",
+    "classroom",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If the weather is good on {day}, the {place} ______ full of families.",
+  "options": [
+   "will be",
+   "is",
+   "was",
+   "has been"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will be. Not the present or past, and not would.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Navruz"
+   ],
+   "place": [
+    "park",
+    "zoo",
+    "lake",
+    "square"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If I drink {drink} now, I ______ tonight.",
+  "options": [
+   "won't sleep",
+   "don't sleep",
+   "didn't sleep",
+   "wouldn't sleep"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't sleep.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "strong tea",
+    "cola",
+    "black tea"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If you ask {name}, she ______ you with the {task} after school.",
+  "options": [
+   "will help",
+   "helps",
+   "helped",
+   "has helped"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will help. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Dilnoza",
+    "Anna",
+    "Kamola",
+    "Nilufar"
+   ],
+   "task": [
+    "homework",
+    "project",
+    "essay",
+    "maths"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If our {who} visit us on Sunday, we ______ to the {place} together.",
+  "options": [
+   "will go",
+   "go",
+   "went",
+   "would go"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will go. Not the present or past, and not would.",
+  "slots": {
+   "who": [
+    "cousins",
+    "grandparents",
+    "friends",
+    "relatives"
+   ],
+   "place": [
+    "bazaar",
+    "mountains",
+    "museum",
+    "old city"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If {name} doesn't study this week, he ______ the {exam}.",
+  "options": [
+   "will fail",
+   "fails",
+   "failed",
+   "has failed"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will fail. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Bekzod",
+    "Pavel",
+    "Rustam",
+    "Jasur"
+   ],
+   "exam": [
+    "test",
+    "exam",
+    "maths test",
+    "English test"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If we are late {when}, the {who} ______ angry.",
+  "options": [
+   "will be",
+   "is",
+   "was",
+   "would be"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will be. Not the present or past, and not would.",
+  "slots": {
+   "when": [
+    "again",
+    "for class",
+    "tomorrow",
+    "for the lesson"
+   ],
+   "who": [
+    "teacher",
+    "coach",
+    "director",
+    "driver"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If my parents finish work early, we ______ dinner in the {place}.",
+  "options": [
+   "will have",
+   "have",
+   "had",
+   "would have"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will have. Not the present or past, and not would.",
+  "slots": {
+   "place": [
+    "garden",
+    "yard",
+    "café",
+    "restaurant"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If you don't wear a {coat}, you ______ warm in the {place}.",
+  "options": [
+   "won't be",
+   "aren't",
+   "weren't",
+   "wouldn't be"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't be.",
+  "slots": {
+   "coat": [
+    "coat",
+    "jacket",
+    "warm hat",
+    "scarf"
+   ],
+   "place": [
+    "mountains",
+    "stadium",
+    "park",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If we buy meat at the bazaar, my father ______ {food} tonight.",
+  "options": [
+   "will cook",
+   "cooks",
+   "cooked",
+   "has cooked"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will cook. Not the present or past, and not would.",
+  "slots": {
+   "food": [
+    "plov",
+    "shashlik",
+    "lagman",
+    "manti"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If I see Aziz at the {place}, I ______ him about the {event}.",
+  "options": [
+   "will tell",
+   "tell",
+   "told",
+   "would tell"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will tell. Not the present or past, and not would.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "metro",
+    "stadium",
+    "library"
+   ],
+   "event": [
+    "party",
+    "concert",
+    "trip",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If it rains on {day}, our {team} ______ outside.",
+  "options": [
+   "won't train",
+   "doesn't train",
+   "didn't train",
+   "wouldn't train"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't train.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Tuesday",
+    "Thursday"
+   ],
+   "team": [
+    "team",
+    "football team",
+    "running club",
+    "school team"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If they leave now, they ______ {where} before dark.",
+  "options": [
+   "will get",
+   "get",
+   "got",
+   "have got"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will get. Not the present or past, and not would.",
+  "slots": {
+   "where": [
+    "home",
+    "there",
+    "to the village",
+    "to the hotel"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If you give my {who} this {gift}, she ______ it.",
+  "options": [
+   "will love",
+   "loves",
+   "loved",
+   "has loved"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will love. Not the present or past, and not would.",
+  "slots": {
+   "who": [
+    "grandmother",
+    "mother",
+    "aunt",
+    "sister"
+   ],
+   "gift": [
+    "scarf",
+    "book",
+    "cake",
+    "plant"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If I get the job in {city}, I ______ very happy.",
+  "options": [
+   "will be",
+   "am",
+   "was",
+   "would be"
+  ],
+  "key": 0,
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will be. Not the present or past, and not would.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Seoul",
+    "Dubai",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If it rains on {day}, we ______ (stay) at home with {who}.",
+  "key": "will stay",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will stay. Not the present or past, and not would.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
+   "who": [
+    "our grandparents",
+    "my cousins",
+    "the children",
+    "our neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If {name} doesn't hurry, she ______ (miss) the {transport}.",
+  "key": "will miss",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will miss. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Sevara",
+    "Anna",
+    "Madina",
+    "Nodira"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "first lesson"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If you eat too many {food}, you ______ (feel) ill {when}.",
+  "key": "will feel",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will feel. Not the present or past, and not would.",
+  "slots": {
+   "food": [
+    "sweets",
+    "cakes",
+    "samsas",
+    "chocolates"
+   ],
+   "when": [
+    "tonight",
+    "later",
+    "tomorrow",
+    "after the party"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If I find your {thing} in the {place}, I ______ (call) you.",
+  "key": "will call",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will call. Not the present or past, and not would.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "glasses",
+    "wallet"
+   ],
+   "place": [
+    "car",
+    "kitchen",
+    "classroom",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If the weather is nice, my {who} ______ (go) for a walk in the {place}.",
+  "key": "will go",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will go. Not the present or past, and not would.",
+  "slots": {
+   "who": [
+    "grandparents",
+    "parents",
+    "cousins",
+    "friends"
+   ],
+   "place": [
+    "park",
+    "garden",
+    "mountains",
+    "old city"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If we leave at {time}, we ______ (not be) late for the {event}.",
+  "key": "won't be",
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't be.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "half past six",
+    "eight"
+   ],
+   "event": [
+    "concert",
+    "wedding",
+    "match",
+    "film"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If you ask {name} nicely, he ______ (help) you with the {task}.",
+  "key": "will help",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will help. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Timur",
+    "Anton",
+    "Laziz"
+   ],
+   "task": [
+    "homework",
+    "project",
+    "essay",
+    "computer"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If my parents finish work early, we ______ (have) dinner at the {place}.",
+  "key": "will have",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will have. Not the present or past, and not would.",
+  "slots": {
+   "place": [
+    "café",
+    "restaurant",
+    "teahouse",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If it snows tonight, the children ______ (build) a snowman in the {place}.",
+  "key": "will build",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will build. Not the present or past, and not would.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "garden",
+    "street"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If {name} gets a good mark, her mother ______ (buy) her a {gift}.",
+  "key": "will buy",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will buy. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Malika",
+    "Olga",
+    "Zarina",
+    "Kamola"
+   ],
+   "gift": [
+    "bike",
+    "phone",
+    "new dress",
+    "watch"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If you drink {drink} now, you ______ (not sleep) {when}.",
+  "key": "won't sleep",
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't sleep.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "strong tea",
+    "cola",
+    "black tea"
+   ],
+   "when": [
+    "tonight",
+    "well",
+    "before midnight",
+    "at all"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If the {team} wins on {day}, the fans ______ (dance) in the streets.",
+  "key": "will dance",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will dance. Not the present or past, and not would.",
+  "slots": {
+   "team": [
+    "team",
+    "national team",
+    "city team",
+    "football team"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Wednesday"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If my {who} don't study, they ______ (fail) the {exam}.",
+  "key": "will fail",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will fail. Not the present or past, and not would.",
+  "slots": {
+   "who": [
+    "cousins",
+    "brothers",
+    "classmates",
+    "friends"
+   ],
+   "exam": [
+    "exam",
+    "test",
+    "maths test",
+    "English exam"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If the {shop} is closed on {day}, I ______ (go) to the bazaar.",
+  "key": "will go",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will go. Not the present or past, and not would.",
+  "slots": {
+   "shop": [
+    "shop",
+    "bakery",
+    "supermarket",
+    "pharmacy"
+   ],
+   "day": [
+    "Sunday",
+    "Monday",
+    "Friday",
+    "Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If I see your {who} at the {place}, I ______ (say) hello.",
+  "key": "will say",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will say. Not the present or past, and not would.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "parents",
+    "grandmother"
+   ],
+   "place": [
+    "bazaar",
+    "park",
+    "metro",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If you don't wear a hat, you ______ (be) cold in the {place}.",
+  "key": "will be",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will be. Not the present or past, and not would.",
+  "slots": {
+   "place": [
+    "mountains",
+    "stadium",
+    "park",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If my {device} works again, I ______ (send) you the {thing}.",
+  "key": "will send",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will send. Not the present or past, and not would.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "computer",
+    "tablet"
+   ],
+   "thing": [
+    "photos",
+    "video",
+    "address",
+    "files"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If my {who} come early, we ______ (cook) {food} together.",
+  "key": "will cook",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will cook. Not the present or past, and not would.",
+  "slots": {
+   "who": [
+    "cousins",
+    "grandparents",
+    "guests",
+    "friends"
+   ],
+   "food": [
+    "plov",
+    "manti",
+    "samsa",
+    "lagman"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If it is hot on {day}, we ______ (swim) in the {place}.",
+  "key": "will swim",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will swim. Not the present or past, and not would.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Thursday"
+   ],
+   "place": [
+    "river",
+    "lake",
+    "pool",
+    "sea"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the result with will or won't and the verb in brackets.",
+  "source": "If {name} calls tonight, I ______ (not answer). I am still angry with him about the {thing}.",
+  "key": "won't answer",
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't answer.",
+  "slots": {
+   "name": [
+    "Jasur",
+    "Ilya",
+    "Bobur",
+    "Sanjar"
+   ],
+   "thing": [
+    "party",
+    "money",
+    "game",
+    "photos"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes.",
+  "source": "it / rain on {day} → we / stay at home and {act}.",
+  "hint": "If it rains on {day}, we ______ at home and {act}.",
+  "key": "will stay",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will stay. Not the present or past, and not would.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
+   "act": [
+    "watch films",
+    "play chess",
+    "bake a cake",
+    "read"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes.",
+  "source": "{name} / pass the exam → her parents / buy her a {gift}.",
+  "hint": "If {name} passes the exam, her parents ______ her a {gift}.",
+  "key": "will buy",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will buy. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Zarina"
+   ],
+   "gift": [
+    "bike",
+    "phone",
+    "laptop",
+    "watch"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes.",
+  "source": "we / buy meat at the {place} → my father / cook {food}.",
+  "hint": "If we buy meat at the {place}, my father ______ {food}.",
+  "key": "will cook",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will cook. Not the present or past, and not would.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "market",
+    "shop",
+    "supermarket"
+   ],
+   "food": [
+    "plov",
+    "shashlik",
+    "lagman",
+    "manti"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes.",
+  "source": "you / ask {name} → she / help you with the {task}.",
+  "hint": "If you ask {name}, she ______ you with the {task}.",
+  "key": "will help",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will help. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Dilnoza",
+    "Anna",
+    "Kamola",
+    "Nilufar"
+   ],
+   "task": [
+    "homework",
+    "project",
+    "essay",
+    "maths"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes.",
+  "source": "the weather / be nice → my {who} / go to the {place}.",
+  "hint": "If the weather is nice, my {who} ______ to the {place}.",
+  "key": "will go",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will go. Not the present or past, and not would.",
+  "slots": {
+   "who": [
+    "grandparents",
+    "parents",
+    "cousins",
+    "friends"
+   ],
+   "place": [
+    "park",
+    "mountains",
+    "lake",
+    "old city"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes. Use won't where the notes say not.",
+  "source": "you / not hurry → you / miss the {transport} on {day}.",
+  "hint": "If you don't hurry, you ______ the {transport} on {day}.",
+  "key": "will miss",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will miss. Not the present or past, and not would.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes. Use won't where the notes say not.",
+  "source": "we / leave at {time} → we / not be late for the {event}.",
+  "hint": "If we leave at {time}, we ______ late for the {event}.",
+  "key": "won't be",
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't be.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "eight",
+    "half past six"
+   ],
+   "event": [
+    "concert",
+    "wedding",
+    "match",
+    "film"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes. Use won't where the notes say not.",
+  "source": "you / drink {drink} now → you / not sleep tonight.",
+  "hint": "If you drink {drink} now, you ______ tonight.",
+  "key": "won't sleep",
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't sleep.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "strong tea",
+    "cola",
+    "black tea"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes. Use won't where the notes say not.",
+  "source": "{name} / not study → he / fail the {exam} in {month}.",
+  "hint": "If {name} doesn't study, he ______ the {exam} in {month}.",
+  "key": "will fail",
+  "why": "The if-part is in the present, and the result is a real future, so use will + the base form: will fail. Not the present or past, and not would.",
+  "slots": {
+   "name": [
+    "Bekzod",
+    "Pavel",
+    "Rustam",
+    "Jasur"
+   ],
+   "exam": [
+    "test",
+    "exam",
+    "maths test",
+    "English test"
+   ],
+   "month": [
+    "May",
+    "June",
+    "December",
+    "January"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a sentence with if from the notes. Use won't where the notes say not.",
+  "source": "it / snow tonight → the {transport} / not come on time.",
+  "hint": "If it snows tonight, the {transport} ______ on time.",
+  "key": "won't come",
+  "why": "The if-part is in the present, and the result is a real future that will not happen, so use won't + the base form: won't come.",
+  "slots": {
+   "transport": [
+    "buses",
+    "trains",
+    "trams",
+    "minibuses"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake in the result. Rewrite the sentence correctly.",
+  "source": "If it rains tomorrow, we stay at home with {who}.",
+  "hint": "If it rains tomorrow, we ______ at home with {who}.",
+  "key": "will stay",
+  "why": "Stay (present) is wrong for a real future result. Use will + the base form: will stay.",
+  "slots": {
+   "who": [
+    "our grandparents",
+    "my cousins",
+    "the children",
+    "our neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake in the result. Rewrite the sentence correctly.",
+  "source": "If you ask {name}, she would help you with the {task}.",
+  "hint": "If you ask {name}, she ______ you with the {task}.",
+  "key": "will help",
+  "why": "Would help is wrong for a real future result. Use will + the base form: will help.",
+  "slots": {
+   "name": [
+    "Dilnoza",
+    "Anna",
+    "Kamola",
+    "Malika"
+   ],
+   "task": [
+    "homework",
+    "project",
+    "essay",
+    "maths"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake in the result. Rewrite the sentence correctly.",
+  "source": "If my {who} come early, we cooked {food} together.",
+  "hint": "If my {who} come early, we ______ {food} together.",
+  "key": "will cook",
+  "why": "Cooked (past) is wrong for a real future result. Use will + the base form: will cook.",
+  "slots": {
+   "who": [
+    "cousins",
+    "grandparents",
+    "guests",
+    "friends"
+   ],
+   "food": [
+    "plov",
+    "manti",
+    "samsa",
+    "lagman"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake in the result. Rewrite the sentence correctly.",
+  "source": "If {name} doesn't hurry, he will misses the {transport}.",
+  "hint": "If {name} doesn't hurry, he ______ the {transport}.",
+  "key": "will miss",
+  "why": "Will misses is wrong for a real future result. Use will + the base form: will miss (no -s after will).",
+  "slots": {
+   "name": [
+    "Timur",
+    "Sardor",
+    "Aziz",
+    "Ilya"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake in the result. Rewrite the sentence correctly.",
+  "source": "If it is hot on {day}, we will to swim in the {place}.",
+  "hint": "If it is hot on {day}, we ______ in the {place}.",
+  "key": "will swim",
+  "why": "Will to swim is wrong for a real future result. Use will + the base form: will swim (no to after will).",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Thursday"
+   ],
+   "place": [
+    "river",
+    "lake",
+    "pool",
+    "sea"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Finish this sentence: If I get up late tomorrow, ...",
+  "requiredElement": "will in the result",
+  "constraints": [
+   "exactly one sentence",
+   "result with will",
+   "no will after if"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what will happen if you don't do your homework.",
+  "requiredElement": "negative if-clause + will",
+  "constraints": [
+   "exactly one sentence",
+   "if I don't",
+   "will in the result"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what your mother or father will do if you get a good mark.",
+  "requiredElement": "will + base form",
+  "constraints": [
+   "exactly one sentence",
+   "must name the person",
+   "will + base form, no -s"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with won't in the result.",
+  "requiredElement": "won't + base form",
+  "constraints": [
+   "exactly one sentence",
+   "must use if",
+   "won't + base form"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what will happen if it snows a lot tonight.",
+  "requiredElement": "will for a real future result",
+  "constraints": [
+   "exactly one sentence",
+   "if it snows",
+   "will in the result"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you will cook if your friends visit you this weekend.",
+  "requiredElement": "will + cook / make",
+  "constraints": [
+   "exactly one sentence",
+   "must name a food",
+   "will in the result"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence warning a friend: what will happen if he or she doesn't wear a coat?",
+  "requiredElement": "warning with will",
+  "constraints": [
+   "exactly one sentence",
+   "if you don't",
+   "will be or will feel"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: what will happen if you win a prize, and what won't happen.",
+  "requiredElement": "will and won't",
+  "constraints": [
+   "exactly two sentences",
+   "one with will",
+   "one with won't"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend wants to stay up all night before an exam. Tell them what will happen. Write three or four sentences with if.",
+  "targetGrammar": "will in first conditional results",
+  "lookFor": [
+   "if you ..., you will ...",
+   "won't + base form",
+   "no would"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Plan a trip for next summer. What will you do if you have enough money, and what will you do if you don't? Write three or four sentences.",
+  "targetGrammar": "will for real future results",
+  "lookFor": [
+   "will + base form",
+   "negative if-clause",
+   "two different plans"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Talk about what will happen in your city if it snows a lot this winter. Write three or four sentences.",
+  "targetGrammar": "will and won't for results",
+  "lookFor": [
+   "will in each result",
+   "won't once or more",
+   "present after if"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a younger brother or sister what will happen if they eat too many sweets. Write three or four sentences.",
+  "targetGrammar": "warnings with will",
+  "lookFor": [
+   "you will ...",
+   "you won't ...",
+   "no present in the result"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Imagine your team wins an important match this weekend. Describe what will happen. Write three or four sentences.",
+  "targetGrammar": "will for consequences",
+  "lookFor": [
+   "if our team wins",
+   "will + base form",
+   "at least three results"
+  ]
+ }
+]

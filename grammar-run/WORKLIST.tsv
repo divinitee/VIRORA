@@ -133,8 +133,8 @@
 132	B	prep-phrasal.dependent-prepositions.adjective-preposition	A2	1	todo	good at / afraid of
 133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	todo	interested in
 134	B	prep-phrasal.phrasal-verbs.common-phrasal	A2	1	todo	Particle choice in a common phrasal verb (get up)
-135	B	conditionals-wishes.zero-first.first-if-clause	A2	2	todo	Present simple (not will) in the if-clause | No 'will' in the if-clause
-136	B	conditionals-wishes.zero-first.first-will	A2	2	todo	First conditional: will in the result clause | First conditional with a negative if-clause
+135	B	conditionals-wishes.zero-first.first-if-clause	A2	2	live	Present simple (not will) in the if-clause | No 'will' in the if-clause
+136	B	conditionals-wishes.zero-first.first-will	A2	2	live	First conditional: will in the result clause | First conditional with a negative if-clause
 137	B	conditionals-wishes.zero-first.zero-general-truth	A2	2	todo	Zero conditional: present simple in both clauses | Zero (not first) conditional for a general consequence
 138	B	passive-causative.simple-passive.active-to-passive	A2	1	todo	Simple active → passive with 'by'
 139	B	passive-causative.simple-passive.past-passive	A2	4	todo	Past simple passive: was + pp | Producing was/were + pp | Past passive in a longer stem | Productive past passive
@@ -146,7 +146,7 @@
 145	C	tenses.perfect.since-clause	B1	1	todo	Present perfect in the main clause with a since-clause in past simple
 146	C	tenses.perfect.unfinished-time	B1	1	todo	Present perfect with an unfinished time period ('this morning' while still morning)
 147	C	tenses.future.arrangement-continuous	B1	1	todo	Present continuous for a fixed future arrangement
-148	C	tenses.future.future-continuous	B1	1	todo	Future continuous for an action in progress at a future time
+148	C	tenses.future.future-continuous	B1	1	live	Future continuous for an action in progress at a future time
 149	C	tenses.future.timetable-simple	B1	1	todo	Present simple for a timetabled future event
 150	C	tenses.used-to.didnt-use-to	B1	1	todo	Negative: didn't use to (no -d after did)
 151	C	tenses.used-to.used-to-state	B1	2	live	used to + base form for a discontinued past state | Productive used to for a discontinued habit or state

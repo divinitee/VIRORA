@@ -114,6 +114,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "conditionals-wishes.zero-first.first-if-clause": {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-if-clause",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 325,
+   "build": 312,
+   "transform": 224,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "conditionals-wishes.zero-first.first-will": {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "first-will",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 232,
+   "build": 284,
+   "transform": 252,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.articles.a-an": {
   "domain": "nouns-articles",
   "branch": "articles",
@@ -571,6 +599,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.future.future-continuous": {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 244,
+   "build": 208,
    "transform": 240,
    "create": 8,
    "express": 5

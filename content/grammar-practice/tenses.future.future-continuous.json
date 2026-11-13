@@ -1,0 +1,1706 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At this time {when}, we ______ on the beach in {place}, so don't call us.",
+  "options": [
+   "will be relaxing",
+   "will relax",
+   "will be relax",
+   "will relaxing"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be relaxing.",
+  "slots": {
+   "when": [
+    "next week",
+    "next Saturday",
+    "next month",
+    "tomorrow"
+   ],
+   "place": [
+    "Antalya",
+    "Dubai",
+    "Batumi",
+    "Bodrum"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't call me at {time} tomorrow. I ______ my {test} then.",
+  "options": [
+   "will be taking",
+   "will take",
+   "take",
+   "will be take"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be taking.",
+  "slots": {
+   "time": [
+    "nine",
+    "ten",
+    "eleven",
+    "half past nine"
+   ],
+   "test": [
+    "driving test",
+    "maths exam",
+    "English exam",
+    "IELTS test"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At {time} tonight, my {who} ______ dinner, so please come later.",
+  "options": [
+   "will be having",
+   "will have",
+   "will be have",
+   "will having"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be having.",
+  "slots": {
+   "time": [
+    "eight",
+    "seven",
+    "half past seven",
+    "nine"
+   ],
+   "who": [
+    "family",
+    "parents",
+    "grandparents",
+    "cousins"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At {time} tomorrow, I ______ in the exam hall, so I can't answer your messages.",
+  "options": [
+   "will be sitting",
+   "will sit",
+   "will be sit",
+   "will sitting"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be sitting.",
+  "slots": {
+   "time": [
+    "ten",
+    "eleven",
+    "nine",
+    "half past ten"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't visit us on {day} morning. We ______ the {room} then.",
+  "options": [
+   "will be cleaning",
+   "will clean",
+   "clean",
+   "will be clean"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cleaning.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
+   "room": [
+    "flat",
+    "house",
+    "kitchen",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At midnight on {day}, my sister ______ to {city}, so she can't come to the party.",
+  "options": [
+   "will be flying",
+   "will fly",
+   "flies",
+   "will be fly"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be flying.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Thursday"
+   ],
+   "city": [
+    "Seoul",
+    "Istanbul",
+    "Dubai",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Tomorrow at {time}, the children ______ football in the {place}, so it will be noisy.",
+  "options": [
+   "will be playing",
+   "will play",
+   "will be play",
+   "will playing"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be playing.",
+  "slots": {
+   "time": [
+    "four",
+    "five",
+    "six",
+    "half past four"
+   ],
+   "place": [
+    "yard",
+    "street",
+    "park",
+    "school yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please don't come at six. I ______ my {task} then.",
+  "options": [
+   "will be doing",
+   "will do",
+   "will be do",
+   "will doing"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be doing.",
+  "slots": {
+   "task": [
+    "homework",
+    "project",
+    "essay",
+    "English homework"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At this time on {day}, {name} ______ in the {race}, so he can't help you.",
+  "options": [
+   "will be running",
+   "will run",
+   "runs",
+   "will be run"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be running.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Monday"
+   ],
+   "name": [
+    "Timur",
+    "Aziz",
+    "Pavel",
+    "Sardor"
+   ],
+   "race": [
+    "marathon",
+    "school race",
+    "city race"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In two hours, we ______ through the {place}, so there will be no internet.",
+  "options": [
+   "will be driving",
+   "will drive",
+   "will be drive",
+   "will driving"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
+  "slots": {
+   "place": [
+    "mountains",
+    "desert",
+    "Kamchik Pass",
+    "valley"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At {time} tomorrow, my {who} ______, so let's not phone her.",
+  "options": [
+   "will be working",
+   "will work",
+   "works",
+   "will be work"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be working.",
+  "slots": {
+   "time": [
+    "nine",
+    "ten",
+    "eleven",
+    "noon"
+   ],
+   "who": [
+    "mother",
+    "aunt",
+    "sister",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When the guests arrive at {time}, my mother ______ {food} in the kitchen. She always starts late.",
+  "options": [
+   "will be cooking",
+   "will cook",
+   "will be cook",
+   "will cooking"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cooking.",
+  "slots": {
+   "time": [
+    "seven",
+    "six",
+    "eight",
+    "half past six"
+   ],
+   "food": [
+    "plov",
+    "manti",
+    "lagman",
+    "soup"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This time tomorrow, we ______ around the old city of {city}. Our tour starts at ten.",
+  "options": [
+   "will be walking",
+   "will walk",
+   "walk",
+   "will be walk"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be walking.",
+  "slots": {
+   "city": [
+    "Bukhara",
+    "Khiva",
+    "Samarkand",
+    "Shahrisabz"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't phone {name} at eight. She ______ her baby to bed then.",
+  "options": [
+   "will be putting",
+   "will put",
+   "puts",
+   "will be put"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be putting.",
+  "slots": {
+   "name": [
+    "Dilnoza",
+    "Olga",
+    "Malika",
+    "Nodira"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At ten o'clock on {day}, I ______ at the {place} with my grandfather.",
+  "options": [
+   "will be fishing",
+   "will fish",
+   "fish",
+   "will be fish"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be fishing.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Wednesday"
+   ],
+   "place": [
+    "lake",
+    "river",
+    "canal",
+    "pond"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At this time next {when}, my {who} ______ in the army.",
+  "options": [
+   "will be serving",
+   "will serve",
+   "will be serve",
+   "will serving"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be serving.",
+  "slots": {
+   "when": [
+    "year",
+    "month",
+    "spring",
+    "winter"
+   ],
+   "who": [
+    "brother",
+    "cousin",
+    "neighbour",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Tomorrow at noon, the students ______ their {exam}, so the school will be quiet.",
+  "options": [
+   "will be writing",
+   "will write",
+   "will be write",
+   "will writing"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be writing.",
+  "slots": {
+   "exam": [
+    "exam",
+    "maths test",
+    "English test",
+    "final exam"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At seven tomorrow morning, I ______ to work, so call me after {time}.",
+  "options": [
+   "will be driving",
+   "will drive",
+   "drive",
+   "will be drive"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
+  "slots": {
+   "time": [
+    "nine",
+    "half past eight",
+    "ten",
+    "eight"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At this time on Sunday, we ______ my cousin's wedding in {city}.",
+  "options": [
+   "will be celebrating",
+   "will celebrate",
+   "will be celebrate",
+   "will celebrating"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be celebrating.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Namangan",
+    "Andijan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't come at nine tonight. My {who} and I ______ a film.",
+  "options": [
+   "will be watching",
+   "will watch",
+   "watch",
+   "will be watch"
+  ],
+  "key": 0,
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be watching.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "father",
+    "friends"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At this time {when}, I ______ (fly) to {city}.",
+  "key": "will be flying",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be flying.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "next Monday",
+    "on Friday",
+    "next week"
+   ],
+   "city": [
+    "Seoul",
+    "Dubai",
+    "Istanbul",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "Don't call me at {time} tonight. I ______ (study) for my {exam}.",
+  "key": "will be studying",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be studying.",
+  "slots": {
+   "time": [
+    "eight",
+    "nine",
+    "ten",
+    "half past eight"
+   ],
+   "exam": [
+    "exam",
+    "maths test",
+    "English test",
+    "IELTS exam"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At {time} on Saturday, my parents ______ (work) in the {place}.",
+  "key": "will be working",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be working.",
+  "slots": {
+   "time": [
+    "ten",
+    "eleven",
+    "nine",
+    "noon"
+   ],
+   "place": [
+    "garden",
+    "shop",
+    "bazaar",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "This time next week, we ______ (sit) on a train to {city}.",
+  "key": "will be sitting",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be sitting.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At noon tomorrow, {name} ______ (give) a talk at the {place}.",
+  "key": "will be giving",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be giving.",
+  "slots": {
+   "name": [
+    "Kamola",
+    "Anna",
+    "Zarina",
+    "Sevara"
+   ],
+   "place": [
+    "conference",
+    "school",
+    "university",
+    "library"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "Please come after eight. At seven, I ______ (cook) {food} for the guests.",
+  "key": "will be cooking",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "lagman",
+    "soup"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At this time on {day}, the {team} ______ (play) in the final.",
+  "key": "will be playing",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be playing.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Wednesday"
+   ],
+   "team": [
+    "team",
+    "boys",
+    "girls",
+    "students"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At ten tomorrow, my {who} ______ (take) his driving test, so he can't help you.",
+  "key": "will be taking",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be taking.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "uncle",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "Don't visit on Sunday morning. My {who} ______ (clean) the {room} then.",
+  "key": "will be cleaning",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cleaning.",
+  "slots": {
+   "who": [
+    "mother",
+    "aunt",
+    "grandmother",
+    "sister"
+   ],
+   "room": [
+    "flat",
+    "house",
+    "kitchen",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At {time} tonight, we ______ (watch) the football match at {whose} house.",
+  "key": "will be watching",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be watching.",
+  "slots": {
+   "time": [
+    "nine",
+    "eight",
+    "ten",
+    "half past eight"
+   ],
+   "whose": [
+    "Aziz's",
+    "my",
+    "Olga's",
+    "Timur's"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At this time next month, my {who} ______ (study) in {city}.",
+  "key": "will be studying",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be studying.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "cousin",
+    "friend"
+   ],
+   "city": [
+    "Seoul",
+    "London",
+    "Moscow",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At six tomorrow, I ______ (wait) for you outside the {place}.",
+  "key": "will be waiting",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be waiting.",
+  "slots": {
+   "place": [
+    "cinema",
+    "metro",
+    "school",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At midnight, the {who} ______ (sleep), so please come in quietly.",
+  "key": "will be sleeping",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be sleeping.",
+  "slots": {
+   "who": [
+    "children",
+    "baby",
+    "grandparents",
+    "neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At nine tomorrow morning, our class ______ (visit) the {place}.",
+  "key": "will be visiting",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be visiting.",
+  "slots": {
+   "place": [
+    "museum",
+    "factory",
+    "zoo",
+    "library"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At this time on {day}, my grandfather ______ (drink) tea in the teahouse with his {who}.",
+  "key": "will be drinking",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be drinking.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Sunday",
+    "Saturday",
+    "Monday"
+   ],
+   "who": [
+    "friends",
+    "neighbours",
+    "brothers"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "In an hour, we ______ (drive) through the {place}, so we can't use our phones.",
+  "key": "will be driving",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
+  "slots": {
+   "place": [
+    "mountains",
+    "desert",
+    "Kamchik Pass",
+    "valley"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At five o'clock, {name} ______ (play) the piano at the {event}.",
+  "key": "will be playing",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be playing.",
+  "slots": {
+   "name": [
+    "Malika",
+    "Olga",
+    "Dilnoza",
+    "Shahzoda"
+   ],
+   "event": [
+    "concert",
+    "school party",
+    "wedding",
+    "festival"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At this time next {when}, I ______ (lie) on the beach.",
+  "key": "will be lying",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be lying.",
+  "slots": {
+   "when": [
+    "week",
+    "month",
+    "Sunday",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "Tomorrow at {time}, my {who} ______ (drive) us to the airport.",
+  "key": "will be driving",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
+  "slots": {
+   "time": [
+    "five",
+    "six",
+    "seven",
+    "half past five"
+   ],
+   "who": [
+    "uncle",
+    "father",
+    "brother",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
+  "source": "At seven tomorrow, the workers ______ (build) the new {thing} in our street.",
+  "key": "will be building",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be building.",
+  "slots": {
+   "thing": [
+    "school",
+    "shop",
+    "café",
+    "playground"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence for the time in the hint.",
+  "source": "I am working in the {place} now.",
+  "hint": "At this time {when}, I ______ in the {place}.",
+  "key": "will be working",
+  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be working.",
+  "slots": {
+   "place": [
+    "office",
+    "shop",
+    "garden",
+    "library"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "next Monday",
+    "on Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence for the time in the hint.",
+  "source": "My {who} is cooking {food} now.",
+  "hint": "At this time tomorrow, my {who} ______ {food}.",
+  "key": "will be cooking",
+  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be cooking.",
+  "slots": {
+   "who": [
+    "mother",
+    "aunt",
+    "grandmother",
+    "sister"
+   ],
+   "food": [
+    "plov",
+    "manti",
+    "lagman",
+    "soup"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence for the time in the hint.",
+  "source": "We are sitting in the {place} now.",
+  "hint": "At this time {when}, we ______ in the {place}.",
+  "key": "will be sitting",
+  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be sitting.",
+  "slots": {
+   "place": [
+    "park",
+    "café",
+    "garden",
+    "classroom"
+   ],
+   "when": [
+    "next week",
+    "tomorrow",
+    "on Sunday",
+    "next month"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence for the time in the hint.",
+  "source": "{name} is playing {game} with his friends now.",
+  "hint": "At this time on Saturday, {name} ______ {game} with his friends.",
+  "key": "will be playing",
+  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be playing.",
+  "slots": {
+   "name": [
+    "Bekzod",
+    "Ilya",
+    "Timur",
+    "Sanjar"
+   ],
+   "game": [
+    "chess",
+    "football",
+    "volleyball",
+    "video games"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence for the time in the hint.",
+  "source": "The children are swimming in the {place} now.",
+  "hint": "At this time {when}, the children ______ in the {place}.",
+  "key": "will be swimming",
+  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be swimming.",
+  "slots": {
+   "place": [
+    "river",
+    "lake",
+    "pool",
+    "sea"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "next Monday",
+    "on Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what will be in progress at the time in the hint.",
+  "source": "Our {subject} lesson goes from ten until twelve on {day}.",
+  "hint": "At eleven on {day}, we ______ (have) our {subject} lesson.",
+  "key": "will be having",
+  "why": "That time is in the middle of the action, so it will be in progress: will be having.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "history",
+    "music"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Thursday",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what will be in progress at the time in the hint.",
+  "source": "My {who} drives to {city} from eight until twelve on Saturday.",
+  "hint": "At ten on Saturday, my {who} ______ (drive) to {city}.",
+  "key": "will be driving",
+  "why": "That time is in the middle of the action, so it will be in progress: will be driving.",
+  "slots": {
+   "who": [
+    "father",
+    "uncle",
+    "brother",
+    "grandfather"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what will be in progress at the time in the hint.",
+  "source": "The match goes from seven until nine tonight at the {place}.",
+  "hint": "At eight tonight, the {who} ______ (play) football at the {place}.",
+  "key": "will be playing",
+  "why": "That time is in the middle of the action, so it will be in progress: will be playing.",
+  "slots": {
+   "who": [
+    "boys",
+    "girls",
+    "students",
+    "children"
+   ],
+   "place": [
+    "stadium",
+    "school",
+    "park",
+    "sports hall"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what will be in progress at the time in the hint.",
+  "source": "My {who} sleeps from eleven until seven.",
+  "hint": "At {time} in the morning, my {who} ______ (sleep).",
+  "key": "will be sleeping",
+  "why": "That time is in the middle of the action, so it will be in progress: will be sleeping.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "baby brother",
+    "grandmother"
+   ],
+   "time": [
+    "three",
+    "two",
+    "four",
+    "five"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what will be in progress at the time in the hint.",
+  "source": "The wedding party goes from six until midnight on {day}.",
+  "hint": "At nine on {day}, the {who} ______ (dance).",
+  "key": "will be dancing",
+  "why": "That time is in the middle of the action, so it will be in progress: will be dancing.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Thursday"
+   ],
+   "who": [
+    "guests",
+    "young people",
+    "children",
+    "relatives"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "At this time {when}, I will be work in the {place}.",
+  "hint": "At this time {when}, I ______ in the {place}.",
+  "key": "will be working",
+  "why": "Will be work is wrong. The future continuous needs will + be + -ing: will be working.",
+  "slots": {
+   "place": [
+    "shop",
+    "office",
+    "garden",
+    "bakery"
+   ],
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "next Monday",
+    "on Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "At {time} tonight, we will watching the {match}.",
+  "hint": "At {time} tonight, we ______ the {match}.",
+  "key": "will be watching",
+  "why": "Will watching is wrong. The future continuous needs will + be + -ing: will be watching.",
+  "slots": {
+   "time": [
+    "nine",
+    "eight",
+    "ten",
+    "half past nine"
+   ],
+   "match": [
+    "match",
+    "final",
+    "concert",
+    "film"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "Don't call at {time}. {name} be studying for the test.",
+  "hint": "Don't call at {time}. {name} ______ for the test.",
+  "key": "will be studying",
+  "why": "Be studying (no will) is wrong. The future continuous needs will + be + -ing: will be studying.",
+  "slots": {
+   "time": [
+    "seven",
+    "eight",
+    "nine",
+    "six"
+   ],
+   "name": [
+    "Kamola",
+    "Anna",
+    "Sevara",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "At this time on {day}, the children will be swim in the {place}.",
+  "hint": "At this time on {day}, the children ______ in the {place}.",
+  "key": "will be swimming",
+  "why": "Will be swim is wrong. The future continuous needs will + be + -ing: will be swimming.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Monday"
+   ],
+   "place": [
+    "river",
+    "lake",
+    "pool",
+    "sea"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "There is a mistake with the verb. Rewrite the sentence correctly.",
+  "source": "At noon tomorrow, my {who} will be play the piano at the {event}.",
+  "hint": "At noon tomorrow, my {who} ______ the piano at the {event}.",
+  "key": "will be playing",
+  "why": "Will be play is wrong. The future continuous needs will + be + -ing: will be playing.",
+  "slots": {
+   "who": [
+    "sister",
+    "cousin",
+    "daughter",
+    "friend"
+   ],
+   "event": [
+    "concert",
+    "school party",
+    "wedding",
+    "festival"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you will be doing at this time tomorrow.",
+  "requiredElement": "will be + -ing at a future time",
+  "constraints": [
+   "exactly one sentence",
+   "at this time tomorrow",
+   "will be + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence telling a friend not to call you at a certain time tomorrow, and why.",
+  "requiredElement": "will be + -ing as a reason",
+  "constraints": [
+   "exactly one sentence or two",
+   "a clock time",
+   "will be + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what your family will be doing at eight o'clock tonight.",
+  "requiredElement": "will be + -ing with a clock time",
+  "constraints": [
+   "exactly one sentence",
+   "at eight o'clock tonight",
+   "will be + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where you will be living this time next year.",
+  "requiredElement": "will be living",
+  "constraints": [
+   "exactly one sentence",
+   "this time next year",
+   "will be + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what a friend will be doing on Saturday morning.",
+  "requiredElement": "will be + -ing with he or she",
+  "constraints": [
+   "exactly one sentence",
+   "must name the friend",
+   "will be + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you will be doing during a holiday next month.",
+  "requiredElement": "will be + -ing on holiday",
+  "constraints": [
+   "exactly one sentence",
+   "a place named",
+   "will be + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what will be happening in your street at noon tomorrow.",
+  "requiredElement": "will be + -ing for a scene",
+  "constraints": [
+   "exactly one sentence",
+   "at noon tomorrow",
+   "will be + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: what you will be doing at 9 a.m. and at 9 p.m. tomorrow.",
+  "requiredElement": "two future-continuous sentences",
+  "constraints": [
+   "exactly two sentences",
+   "two clock times",
+   "will be + -ing in both"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe tomorrow: what will you be doing at 8 a.m., at noon and at 8 p.m.? Write three or four sentences.",
+  "targetGrammar": "future continuous at clock times",
+  "lookFor": [
+   "will be + -ing",
+   "a time in each sentence",
+   "no will + base for actions in progress"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Imagine your perfect holiday next summer. Describe what you will be doing at this time on a normal day. Write three or four sentences.",
+  "targetGrammar": "future continuous for a scene",
+  "lookFor": [
+   "will be + -ing",
+   "a place named",
+   "at least three actions"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend wants to visit you on Saturday. Explain when you can't meet and what you will be doing. Write three or four sentences.",
+  "targetGrammar": "future continuous for unavailability",
+  "lookFor": [
+   "will be + -ing",
+   "clock times or parts of the day",
+   "a time when you are free"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your life ten years from now. Where will you be living, and what will you be doing? Write three or four sentences.",
+  "targetGrammar": "future continuous for the long term",
+  "lookFor": [
+   "will be living / working",
+   "this time in ten years",
+   "no will be + base"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "future-continuous",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe what different people in your family will be doing at seven o'clock tomorrow evening. Write three or four sentences.",
+  "targetGrammar": "future continuous with different subjects",
+  "lookFor": [
+   "will be + -ing",
+   "at least three people",
+   "at seven o'clock"
+  ]
+ }
+]
