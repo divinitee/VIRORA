@@ -127,7 +127,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Ability → can + base verb: can run. The verb has no -s and no to.
 
 9. _Use can + the verb in brackets to talk about ability._  
-   Aziza ______ (type) **without looking** on her **laptop**.  
+   Aziza ______ (type) on her **laptop** **without looking**.  
    key: can type  
    why: Ability → can + base verb: can type. The verb has no -s and no to.
 
@@ -172,7 +172,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Ability → can + base verb: can write. The verb has no -s and no to.
 
 18. _Use can + the verb in brackets to talk about ability._  
-   I ______ (hear) the **music** from my **desk**.  
+   I ______ (hear) the **music** from my **kitchen**.  
    key: can hear  
    why: Ability → can + base verb: can hear. The verb has no -s and no to.
 

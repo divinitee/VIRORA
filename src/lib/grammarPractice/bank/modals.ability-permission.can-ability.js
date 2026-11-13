@@ -836,7 +836,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Use can + the verb in brackets to talk about ability.",
-  "source": "Aziza ______ (type) {how} on her {device}.",
+  "source": "Aziza ______ (type) on her {device} {how}.",
   "key": "can type",
   "why": "Ability → can + base verb: can type. The verb has no -s and no to.",
   "slots": {
@@ -1092,7 +1092,7 @@ export default [
    "room": [
     "bedroom",
     "window",
-    "desk",
+    "kitchen",
     "balcony"
    ]
   }
