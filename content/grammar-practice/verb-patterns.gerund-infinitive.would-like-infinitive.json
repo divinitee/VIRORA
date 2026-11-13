@@ -1371,8 +1371,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Turn this into a polite invitation with Would you like … ?",
-  "source": "Do you want to play {game}?",
-  "hint": "______ (play) {game} with us after {event}?",
+  "source": "Bobur, do you want to play {game}?",
+  "hint": "______ (play) {game} with us after {event}, Bobur?",
   "key": "would you like to play",
   "why": "Invite with Would you like + to + base verb: Would you like to play…?",
   "slots": {
@@ -1399,8 +1399,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Turn this into a polite invitation with Would you like … ?",
-  "source": "Do you want to watch {show}?",
-  "hint": "______ (watch) {show} with me on {day}?",
+  "source": "Kamila, do you want to watch {show}?",
+  "hint": "______ (watch) {show} with me on {day}, Kamila?",
   "key": "would you like to watch",
   "why": "Would you like + to watch is a polite invitation.",
   "slots": {
@@ -1558,8 +1558,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with would like + person + to + verb.",
-  "source": "The coach says to the players: \"Please come at {time} on {day}.\"",
-  "hint": "The coach would like ______ (come) at {time} on {day}.",
+  "source": "Our coach says to the players: \"Please come at {time} on {day}.\"",
+  "hint": "Our coach would like ______ (come) at {time} on {day}.",
   "key": "the players to come",
   "acceptable": [
    "them to come"

@@ -771,6 +771,20 @@ export const PRACTICE_MANIFEST = {
    "create": 8,
    "express": 5
   }
+ },
+ "verb-patterns.gerund-infinitive.would-like-infinitive": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
  }
 };
 
