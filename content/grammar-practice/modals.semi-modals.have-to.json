@@ -1,0 +1,1812 @@
+[
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ get up at six because my {transport} leaves at {time}.",
+  "options": [
+   "have to",
+   "has to",
+   "have",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With I, you, we and they, use have to + base verb for something that is necessary.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "minibus",
+    "metro"
+   ],
+   "time": [
+    "half past six",
+    "six thirty",
+    "seven",
+    "a quarter to seven"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My dad ______ work at the {place} on {day}.",
+  "options": [
+   "has to",
+   "have to",
+   "has",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With he, she or it, use has to + base verb. Don't forget to.",
+  "slots": {
+   "place": [
+    "factory",
+    "hospital",
+    "shop",
+    "office"
+   ],
+   "day": [
+    "Saturdays",
+    "Sundays",
+    "holidays",
+    "Fridays"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Students ______ wear a uniform at {place} {when}.",
+  "options": [
+   "have to",
+   "has to",
+   "have",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With I, you, we and they, use have to + base verb for something that is necessary.",
+  "slots": {
+   "place": [
+    "our school",
+    "this college",
+    "school",
+    "the academy"
+   ],
+   "when": [
+    "every day",
+    "on Mondays",
+    "for exams",
+    "all week"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola ______ take her {thing} before {meal}.",
+  "options": [
+   "has to",
+   "have to",
+   "has",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With he, she or it, use has to + base verb. Don't forget to.",
+  "slots": {
+   "thing": [
+    "medicine",
+    "vitamins",
+    "pills",
+    "tablets"
+   ],
+   "meal": [
+    "breakfast",
+    "dinner",
+    "school",
+    "bed"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ leave now, {name}. The {event} starts soon.",
+  "options": [
+   "have to",
+   "has to",
+   "have",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With I, you, we and they, use have to + base verb for something that is necessary.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mum",
+    "Dad"
+   ],
+   "event": [
+    "film",
+    "concert",
+    "lesson",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ show your {doc} at the {place}.",
+  "options": [
+   "have to",
+   "has to",
+   "have",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With I, you, we and they, use have to + base verb for something that is necessary.",
+  "slots": {
+   "doc": [
+    "passport",
+    "ticket",
+    "ID card",
+    "student card"
+   ],
+   "place": [
+    "airport",
+    "gate",
+    "entrance",
+    "border"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our dog ______ go out {freq}, {name}.",
+  "options": [
+   "has to",
+   "have to",
+   "has",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With he, she or it, use has to + base verb. Don't forget to.",
+  "slots": {
+   "freq": [
+    "three times a day",
+    "every morning",
+    "twice a day",
+    "after meals"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister ______ study for her {exam} {when}.",
+  "options": [
+   "has to",
+   "have to",
+   "has",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With he, she or it, use has to + base verb. Don't forget to.",
+  "slots": {
+   "exam": [
+    "exams",
+    "driving test",
+    "IELTS exam",
+    "maths test"
+   ],
+   "when": [
+    "tonight",
+    "every day",
+    "this week",
+    "all weekend"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They ______ pay for the {thing} {when}.",
+  "options": [
+   "have to",
+   "has to",
+   "have",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With I, you, we and they, use have to + base verb for something that is necessary.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "room",
+    "flat",
+    "lessons"
+   ],
+   "when": [
+    "today",
+    "every month",
+    "before Friday",
+    "now"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Doctors {how} ______ work {when}.",
+  "options": [
+   "have to",
+   "has to",
+   "have",
+   "haves to"
+  ],
+  "key": 0,
+  "why": "With I, you, we and they, use have to + base verb for something that is necessary.",
+  "slots": {
+   "how": [
+    "sometimes",
+    "often",
+    "usually",
+    "always"
+   ],
+   "when": [
+    "at night",
+    "at weekends",
+    "on holidays",
+    "very long hours"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz has to ______ his {thing} {when}.",
+  "options": [
+   "finish",
+   "finishing",
+   "finishes",
+   "finished"
+  ],
+  "key": 0,
+  "why": "After have to / has to, use the base verb: finish.",
+  "slots": {
+   "thing": [
+    "homework",
+    "project",
+    "report",
+    "essay"
+   ],
+   "when": [
+    "tonight",
+    "by Friday",
+    "today",
+    "before dinner"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have to ______ the {room} before {who} arrive.",
+  "options": [
+   "clean",
+   "cleaning",
+   "cleans",
+   "cleaned"
+  ],
+  "key": 0,
+  "why": "After have to / has to, use the base verb: clean.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "flat",
+    "bathroom"
+   ],
+   "who": [
+    "the guests",
+    "our friends",
+    "Grandma and Grandpa",
+    "the neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You have to ______ your hands before {meal}, {name}.",
+  "options": [
+   "wash",
+   "washing",
+   "washes",
+   "washed"
+  ],
+  "key": 0,
+  "why": "After have to / has to, use the base verb: wash.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "eating"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She has to ______ a bus and a metro to get to {place}.",
+  "options": [
+   "take",
+   "taking",
+   "takes",
+   "took"
+  ],
+  "key": 0,
+  "why": "After have to / has to, use the base verb: take.",
+  "slots": {
+   "place": [
+    "work",
+    "university",
+    "school",
+    "the office"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have to ______ my {relative} with the {task}.",
+  "options": [
+   "help",
+   "helping",
+   "helps",
+   "helped"
+  ],
+  "key": 0,
+  "why": "After have to / has to, use the base verb: help.",
+  "slots": {
+   "relative": [
+    "mum",
+    "grandfather",
+    "little brother",
+    "aunt"
+   ],
+   "task": [
+    "shopping",
+    "cooking",
+    "garden",
+    "cleaning"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you have to work on {day}, {name}?",
+  "options": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "key": 0,
+  "why": "Questions with have to use do / does: Do you have to … ? Does she have to … ?",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "holidays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your sister have to wear a {thing} at {place}?",
+  "options": [
+   "Does",
+   "Do",
+   "Is",
+   "Are"
+  ],
+  "key": 0,
+  "why": "Questions with have to use do / does: Do you have to … ? Does she have to … ?",
+  "slots": {
+   "thing": [
+    "uniform",
+    "suit",
+    "hat",
+    "badge"
+   ],
+   "place": [
+    "work",
+    "school",
+    "the hotel",
+    "the hospital"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Children ______ have to go to school on {day} in {country}.",
+  "options": [
+   "don't",
+   "doesn't",
+   "aren't",
+   "not"
+  ],
+  "key": 0,
+  "why": "The negative uses don't / doesn't + have to: She doesn't have to … ; They don't have to …",
+  "slots": {
+   "day": [
+    "Sundays",
+    "holidays",
+    "Saturdays"
+   ],
+   "country": [
+    "Uzbekistan",
+    "Russia",
+    "Korea",
+    "our country"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} is lucky. He ______ have to get up early {when}.",
+  "options": [
+   "doesn't",
+   "don't",
+   "isn't",
+   "not"
+  ],
+  "key": 0,
+  "why": "The negative uses don't / doesn't + have to: She doesn't have to … ; They don't have to …",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Sardor"
+   ],
+   "when": [
+    "tomorrow",
+    "on Sundays",
+    "this week",
+    "in the holidays"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What time ______ we have to be at the {place}, {name}?",
+  "options": [
+   "do",
+   "does",
+   "are",
+   "is"
+  ],
+  "key": 0,
+  "why": "Questions with have to use do / does: Do you have to … ? Does she have to … ?",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "school",
+    "stadium"
+   ],
+   "name": [
+    "Dad",
+    "Mum",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "My brother ______ (wear) glasses {when}, {name}.",
+  "key": "has to wear",
+  "why": "With he, she, it: has to + base verb: has to wear.",
+  "slots": {
+   "when": [
+    "for reading",
+    "at school",
+    "all the time",
+    "in class"
+   ],
+   "name": [
+    "Mum",
+    "Olga",
+    "Aziz",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "I ______ (finish) this {task} by {day}.",
+  "key": "have to finish",
+  "why": "With I, you, we, they: have to + base verb: have to finish.",
+  "slots": {
+   "task": [
+    "project",
+    "essay",
+    "report",
+    "book"
+   ],
+   "day": [
+    "Friday",
+    "Monday",
+    "tomorrow",
+    "the weekend"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "Our teacher ______ (check) {num} tests {when}.",
+  "key": "has to check",
+  "why": "With he, she, it: has to + base verb: has to check.",
+  "slots": {
+   "num": [
+    "thirty",
+    "forty",
+    "fifty",
+    "a hundred"
+   ],
+   "when": [
+    "tonight",
+    "every week",
+    "this evening",
+    "by Monday"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "We ______ (buy) a present for {who} {when}.",
+  "key": "have to buy",
+  "why": "With I, you, we, they: have to + base verb: have to buy.",
+  "slots": {
+   "who": [
+    "Grandma",
+    "Mum",
+    "our teacher",
+    "Aziz"
+   ],
+   "when": [
+    "today",
+    "this week",
+    "before Sunday",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "Lola ______ (walk) her dog {freq}, {name}.",
+  "key": "has to walk",
+  "why": "With he, she, it: has to + base verb: has to walk.",
+  "slots": {
+   "freq": [
+    "every morning",
+    "twice a day",
+    "after school",
+    "every evening"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "You ______ (be) quiet in the {place}, {name}.",
+  "key": "have to be",
+  "why": "With I, you, we, they: have to + base verb: have to be.",
+  "slots": {
+   "place": [
+    "library",
+    "hospital",
+    "museum",
+    "exam room"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "Students ______ (bring) a {thing} {when}.",
+  "key": "have to bring",
+  "why": "With I, you, we, they: have to + base verb: have to bring.",
+  "slots": {
+   "thing": [
+    "dictionary",
+    "calculator",
+    "pencil",
+    "notebook"
+   ],
+   "when": [
+    "every day",
+    "for the test",
+    "on Monday",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "My mum ______ (cook) dinner for {num} people {when}.",
+  "key": "has to cook",
+  "why": "With he, she, it: has to + base verb: has to cook.",
+  "slots": {
+   "num": [
+    "ten",
+    "twelve",
+    "fifteen",
+    "twenty"
+   ],
+   "when": [
+    "tonight",
+    "on Sunday",
+    "every Friday",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "They ______ (change) trains in {city} {when}.",
+  "key": "have to change",
+  "why": "With I, you, we, they: have to + base verb: have to change.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Tashkent",
+    "Bukhara",
+    "Jizzakh"
+   ],
+   "when": [
+    "today",
+    "on the way",
+    "twice",
+    "at night"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "Aziz ______ (repeat) the {exam}. He failed it.",
+  "key": "has to repeat",
+  "why": "With he, she, it: has to + base verb: has to repeat.",
+  "slots": {
+   "exam": [
+    "exam",
+    "test",
+    "course",
+    "year"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "I ______ (call) my parents every {time}, {name}.",
+  "key": "have to call",
+  "why": "With I, you, we, they: have to + base verb: have to call.",
+  "slots": {
+   "time": [
+    "evening",
+    "day",
+    "night",
+    "weekend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "The players ______ (train) {freq} before the {event}.",
+  "key": "have to train",
+  "why": "With I, you, we, they: have to + base verb: have to train.",
+  "slots": {
+   "freq": [
+    "every day",
+    "twice a day",
+    "every morning",
+    "a lot"
+   ],
+   "event": [
+    "final",
+    "big match",
+    "tournament",
+    "cup game"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "Dilnoza ______ (look) after her little {sib} {when}.",
+  "key": "has to look",
+  "why": "With he, she, it: has to + base verb: has to look.",
+  "slots": {
+   "sib": [
+    "brother",
+    "sister",
+    "cousins",
+    "brothers"
+   ],
+   "when": [
+    "after school",
+    "today",
+    "every evening",
+    "at weekends"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "We ______ (wait) for the {transport} {where}.",
+  "key": "have to wait",
+  "why": "With I, you, we, they: have to + base verb: have to wait.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "taxi",
+    "minibus"
+   ],
+   "where": [
+    "outside",
+    "at the corner",
+    "in the rain",
+    "for an hour"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "My {who} ______ (drive) {dist} every day.",
+  "key": "has to drive",
+  "why": "With he, she, it: has to + base verb: has to drive.",
+  "slots": {
+   "who": [
+    "dad",
+    "uncle",
+    "brother",
+    "neighbour"
+   ],
+   "dist": [
+    "fifty kilometres",
+    "a long way",
+    "far",
+    "for two hours"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "You ______ (fill) in this {form}, {name}.",
+  "key": "have to fill",
+  "why": "With I, you, we, they: have to + base verb: have to fill.",
+  "slots": {
+   "form": [
+    "form",
+    "application",
+    "card",
+    "questionnaire"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "sir",
+    "madam"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "The {worker} ______ (stand) all {time}.",
+  "key": "has to stand",
+  "why": "With he, she, it: has to + base verb: has to stand.",
+  "slots": {
+   "worker": [
+    "shop assistant",
+    "waiter",
+    "guard",
+    "cook"
+   ],
+   "time": [
+    "day",
+    "morning",
+    "afternoon",
+    "evening"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "I ______ (get) up early {when}, {name}.",
+  "key": "have to get",
+  "why": "With I, you, we, they: have to + base verb: have to get.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "on Mondays",
+    "every day",
+    "this week"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "Our cat ______ (eat) special {food} {when}.",
+  "key": "has to eat",
+  "why": "With he, she, it: has to + base verb: has to eat.",
+  "slots": {
+   "food": [
+    "food",
+    "biscuits",
+    "fish",
+    "meat"
+   ],
+   "when": [
+    "now",
+    "every day",
+    "because she's old",
+    "this month"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use have to or has to + the verb in brackets.",
+  "source": "You ______ (speak) English in this {class}, {name}.",
+  "key": "have to speak",
+  "why": "With I, you, we, they: have to + base verb: have to speak.",
+  "slots": {
+   "class": [
+    "class",
+    "lesson",
+    "room",
+    "club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with have to or has to.",
+  "source": "Students must wear a uniform at {place} {when}.",
+  "hint": "Students ______ (wear) a uniform at {place} {when}.",
+  "key": "have to wear",
+  "why": "Students is plural, so must becomes have to + base verb.",
+  "slots": {
+   "place": [
+    "our school",
+    "this college",
+    "school",
+    "the academy"
+   ],
+   "when": [
+    "every day",
+    "on Mondays",
+    "for exams",
+    "all week"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with have to or has to.",
+  "source": "Drivers must stop at the {thing} {where}.",
+  "hint": "Drivers ______ (stop) at the {thing} {where}.",
+  "key": "have to stop",
+  "why": "Drivers is plural: have to stop.",
+  "slots": {
+   "thing": [
+    "red light",
+    "crossing",
+    "border",
+    "gate"
+   ],
+   "where": [
+    "in the city",
+    "here",
+    "on this road",
+    "every time"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with have to or has to.",
+  "source": "Aziz must finish the {task} {when}.",
+  "hint": "Aziz ______ (finish) the {task} {when}.",
+  "key": "has to finish",
+  "why": "Aziz is one person (he), so must becomes has to.",
+  "slots": {
+   "task": [
+    "report",
+    "project",
+    "essay",
+    "test"
+   ],
+   "when": [
+    "today",
+    "by Friday",
+    "tonight",
+    "this week"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with have to or has to.",
+  "source": "Passengers must show their {doc} at the {place}.",
+  "hint": "Passengers ______ (show) their {doc} at the {place}.",
+  "key": "have to show",
+  "why": "Passengers is plural: have to show.",
+  "slots": {
+   "doc": [
+    "passports",
+    "tickets",
+    "ID cards",
+    "boarding passes"
+   ],
+   "place": [
+    "airport",
+    "gate",
+    "station",
+    "border"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with have to or has to.",
+  "source": "My sister must take her {thing} {when}.",
+  "hint": "My sister ______ (take) her {thing} {when}.",
+  "key": "has to take",
+  "why": "My sister is she, so use has to.",
+  "slots": {
+   "thing": [
+    "medicine",
+    "vitamins",
+    "pills",
+    "tablets"
+   ],
+   "when": [
+    "every morning",
+    "after meals",
+    "twice a day",
+    "before bed"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person.",
+  "source": "I have to get up at {time}, {name}.",
+  "hint": "My dad ______ (get) up at {time}, {name}.",
+  "key": "has to get",
+  "why": "My dad is he, so have to becomes has to.",
+  "slots": {
+   "time": [
+    "five",
+    "six",
+    "half past five",
+    "six thirty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person.",
+  "source": "We have to wear {thing} at {place}.",
+  "hint": "Olga ______ (wear) {thing} at {place}.",
+  "key": "has to wear",
+  "why": "Olga is she, so have to becomes has to.",
+  "slots": {
+   "thing": [
+    "a uniform",
+    "a suit",
+    "a hat",
+    "black shoes"
+   ],
+   "place": [
+    "work",
+    "school",
+    "the hotel",
+    "the bank"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person.",
+  "source": "I have to study for the {exam} {when}.",
+  "hint": "Aziz ______ (study) for the {exam} {when}.",
+  "key": "has to study",
+  "why": "Aziz is he, so use has to.",
+  "slots": {
+   "exam": [
+    "exam",
+    "test",
+    "interview",
+    "competition"
+   ],
+   "when": [
+    "tonight",
+    "this week",
+    "every day",
+    "all weekend"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person.",
+  "source": "They have to help their parents in the {place} {when}.",
+  "hint": "Bobur ______ (help) his parents in the {place} {when}.",
+  "key": "has to help",
+  "why": "Bobur is he, so use has to.",
+  "slots": {
+   "place": [
+    "shop",
+    "garden",
+    "kitchen",
+    "field"
+   ],
+   "when": [
+    "after school",
+    "at weekends",
+    "every day",
+    "in summer"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about the new person.",
+  "source": "You have to pay for the {thing} {when}.",
+  "hint": "She ______ (pay) for the {thing} {when}.",
+  "key": "has to pay",
+  "why": "With she, use has to.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "room",
+    "lessons",
+    "books"
+   ],
+   "when": [
+    "today",
+    "now",
+    "before Friday",
+    "every month"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with do or does + have to.",
+  "source": "Aziz has to work on {day} {when}.",
+  "hint": "______ Aziz ______ (work) on {day} {when}?",
+  "key": [
+   "Does",
+   "have to work"
+  ],
+  "why": "Question: Does + he + have to + verb. After does, has becomes have.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "holidays"
+   ],
+   "when": [
+    "this week",
+    "again",
+    "every week",
+    "in summer"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with do or does + have to.",
+  "source": "You have to bring a {thing} {when}.",
+  "hint": "______ you ______ (bring) a {thing} {when}?",
+  "key": [
+   "Do",
+   "have to bring"
+  ],
+  "why": "Question: Do + you + have to + verb.",
+  "slots": {
+   "thing": [
+    "dictionary",
+    "calculator",
+    "passport",
+    "photo"
+   ],
+   "when": [
+    "tomorrow",
+    "on Monday",
+    "for the test",
+    "every day"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with do or does + have to.",
+  "source": "Lola has to wear a {thing} at {place}.",
+  "hint": "______ Lola ______ (wear) a {thing} at {place}?",
+  "key": [
+   "Does",
+   "have to wear"
+  ],
+  "why": "Question: Does + she + have to + verb (have, not has).",
+  "slots": {
+   "thing": [
+    "uniform",
+    "hat",
+    "badge",
+    "suit"
+   ],
+   "place": [
+    "school",
+    "work",
+    "the hospital",
+    "the hotel"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with do or does + have to.",
+  "source": "We have to leave at {time} {when}.",
+  "hint": "______ we ______ (leave) at {time} {when}?",
+  "key": [
+   "Do",
+   "have to leave"
+  ],
+  "why": "Question: Do + we + have to + verb.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "five",
+    "eight"
+   ],
+   "when": [
+    "tomorrow",
+    "tonight",
+    "on Friday",
+    "today"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with do or does + have to.",
+  "source": "Your brother has to go to the {place} {when}.",
+  "hint": "______ your brother ______ (go) to the {place} {when}?",
+  "key": [
+   "Does",
+   "have to go"
+  ],
+  "why": "Question: Does + he + have to + verb.",
+  "slots": {
+   "place": [
+    "dentist",
+    "hospital",
+    "bank",
+    "office"
+   ],
+   "when": [
+    "today",
+    "tomorrow",
+    "every week",
+    "this afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you have to do every morning.",
+  "requiredElement": "I have to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use have to",
+   "must include every morning"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something a family member has to do at work.",
+  "requiredElement": "has to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must name the person",
+   "must use has to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a rule at your school or university.",
+  "requiredElement": "have to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use have to",
+   "must mention school or university"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend a question about their job or studies with have to.",
+  "requiredElement": "Do you have to … ?",
+  "constraints": [
+   "exactly one question",
+   "must start with Do you have to",
+   "must end with a question mark"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you don't have to do at the weekend.",
+  "requiredElement": "don't have to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use don't have to",
+   "must include at the weekend"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what tourists have to show at the airport.",
+  "requiredElement": "have to show",
+  "constraints": [
+   "exactly one sentence",
+   "must use have to",
+   "must name a document"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something a pet has to do or have every day.",
+  "requiredElement": "has to + base verb",
+  "constraints": [
+   "exactly one sentence",
+   "must name the animal",
+   "must use has to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one thing you have to do this week and one thing your friend has to do.",
+  "requiredElement": "have to / has to",
+  "constraints": [
+   "exactly two sentences",
+   "have to in one, has to in the other",
+   "base verb in both"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a normal school or work day. What do you have to do? Write three or four sentences.",
+  "targetGrammar": "have to for duties",
+  "lookFor": [
+   "I have to + base verb",
+   "time words",
+   "three different verbs"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What does a doctor, a teacher or a driver have to do at work? Choose one job and write three or four sentences.",
+  "targetGrammar": "has to for a job",
+  "lookFor": [
+   "he / she has to + base verb",
+   "don't forget to",
+   "no must to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about the rules in your home. What do you and your brothers or sisters have to do?",
+  "targetGrammar": "have to / has to",
+  "lookFor": [
+   "I have to",
+   "my brother / sister has to",
+   "don't have to for one thing"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend is coming to study at your school. Write what students have to do there.",
+  "targetGrammar": "have to for rules",
+  "lookFor": [
+   "students have to",
+   "you have to",
+   "a question with Do you have to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Interview a friend about their week: write four questions with have to and their answers.",
+  "targetGrammar": "Do you have to … ? questions and answers",
+  "lookFor": [
+   "Do you have to … ?",
+   "Yes, I do / No, I don't",
+   "has to in one answer"
+  ]
+ }
+]

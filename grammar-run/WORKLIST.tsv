@@ -116,7 +116,7 @@
 115	B	modals.obligation.mustnt-vs-dont-have-to	A2	2	todo	mustn't (prohibition) vs don't have to (no obligation) | don't have to = not necessary
 116	B	modals.advice.should	A2	1	live	should for advice
 117	B	modals.deduction.might-possibility	A2	1	todo	might for possibility
-118	B	modals.semi-modals.have-to	A2	1	todo	have to for external necessity
+118	B	modals.semi-modals.have-to	A2	1	live	have to for external necessity
 119	B	prep-phrasal.place.between	A1	1	todo	between two named places
 120	B	prep-phrasal.place.in-container	A1	1	todo	in for a container
 121	B	prep-phrasal.place.on-surface	A1	2	todo	on for a surface | on the wall (vertical surface)
