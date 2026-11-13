@@ -492,6 +492,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.conjunctions.so-result": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "so-result",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 284,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.existential.there-is-are": {
   "domain": "sentence-structure",
   "branch": "existential",

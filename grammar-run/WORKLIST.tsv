@@ -59,7 +59,7 @@
 58	B	sentence-structure.imperatives.affirmative-imperative	A1	1	todo	Base form for an imperative
 59	B	sentence-structure.imperatives.negative-imperative	A1	1	todo	Don't + base form for a negative imperative
 60	B	sentence-structure.conjunctions.and-but-or	A1	2	live	and for addition | but for contrast
-61	B	sentence-structure.conjunctions.so-result	A1	1	todo	so for a result
+61	B	sentence-structure.conjunctions.so-result	A1	1	live	so for a result
 62	B	sentence-structure.word-order.place-time-order	A1	1	todo	Place before time at the end of a sentence
 63	B	sentence-structure.word-order.svo-basic	A1	1	todo	Subject + verb + object
 64	B	sentence-structure.existential.there-was-were	A2	1	todo	there was/were agreement in the past

@@ -1317,11 +1317,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with so. Use the verb in brackets.",
-  "source": "The shop was closed. We went home {when}.",
-  "hint": "The shop was closed, ______ (go) home {when}.",
+  "source": "The {shop} was closed. We went home {when}.",
+  "hint": "The {shop} was closed, ______ (go) home {when}.",
   "key": "so we went",
   "why": "The second sentence is the result: so we went home.",
   "slots": {
+   "shop": [
+    "shop",
+    "bakery",
+    "market",
+    "pharmacy"
+   ],
    "when": [
     "early",
     "without bread",
@@ -1426,11 +1432,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with so instead of That's why.",
-  "source": "The bus didn't come. That's why we walked {where}.",
-  "hint": "The bus didn't come, ______ (walk) {where}.",
+  "source": "The {transport} didn't come. That's why we walked {where}.",
+  "hint": "The {transport} didn't come, ______ (walk) {where}.",
   "key": "so we walked",
   "why": "That's why = so: so we walked…",
   "slots": {
+   "transport": [
+    "bus",
+    "taxi",
+    "minibus",
+    "tram"
+   ],
    "where": [
     "home",
     "to school",
