@@ -160,7 +160,7 @@ const TRANSFORM = [
   // questions with do / does (5)
   [Q, "Aziz has to work on {day} {when}.", "______ Aziz ______ (work) on {day} {when}?", ["Does", "have to work"],
     "Question: Does + he + have to + verb. After does, has becomes have.",
-    { day: ["Saturday", "Sunday", "Friday", "holidays"], when: ["this week", "again", "every week", "in summer"] }],
+    { day: ["Saturday", "Sunday", "Friday", "Monday"], when: ["this week", "again", "every week", "in summer"] }],
   [Q, "You have to bring a {thing} {when}.", "______ you ______ (bring) a {thing} {when}?", ["Do", "have to bring"],
     "Question: Do + you + have to + verb.",
     { thing: ["dictionary", "calculator", "passport", "photo"], when: ["tomorrow", "on Monday", "for the test", "every day"] }],

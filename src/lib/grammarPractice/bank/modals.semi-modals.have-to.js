@@ -1469,7 +1469,7 @@ export default [
     "Saturday",
     "Sunday",
     "Friday",
-    "holidays"
+    "Monday"
    ],
    "when": [
     "this week",
