@@ -723,9 +723,9 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the correct form of the verb in brackets.",
-  "source": "My cousins want ______ (move) to {city} for {reason}.",
-  "key": "to move",
-  "why": "After want, use to + the base verb: want to move.",
+  "source": "My cousins want ______ (live) in {city} for {reason}.",
+  "key": "to live",
+  "why": "After want, use to + the base verb: want to live.",
   "slots": {
    "city": [
     "Tashkent",
@@ -966,7 +966,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the correct form of the verb in brackets.",
-  "source": "Does your sister want ______ (take) the {transport} to {city}?",
+  "source": "Does your sister want ______ (take) the {transport} {when}?",
   "key": "to take",
   "why": "In a question, want is still followed by to + the base verb: want to take.",
   "slots": {
@@ -976,11 +976,11 @@
     "plane",
     "night train"
    ],
-   "city": [
-    "Bukhara",
-    "Khiva",
-    "Termez",
-    "Nukus"
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "next week",
+    "at the weekend"
    ]
   }
  },
@@ -1204,16 +1204,16 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence about the new person. Keep want + to.",
-  "source": "We want to go to {place} on {day}.",
-  "hint": "Timur ______ (go) to {place} on {day}.",
-  "key": "wants to go",
-  "why": "Timur is one person, so use wants, then to + base verb: to go, not to goes.",
+  "source": "We want to visit {place} on {day}.",
+  "hint": "Timur ______ (visit) {place} on {day}.",
+  "key": "wants to visit",
+  "why": "Timur is one person, so use wants, then to + base verb: to visit, not to visits.",
   "slots": {
    "place": [
     "the zoo",
-    "the park",
-    "the cinema",
-    "the stadium"
+    "the museum",
+    "the old city",
+    "Chorsu Bazaar"
    ],
    "day": [
     "Saturday",
@@ -1310,10 +1310,10 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence in the negative.",
-  "source": "Lola wants to move to {city} {when}.",
-  "hint": "Lola ______ (move) to {city} {when}.",
-  "key": "doesn't want to move",
-  "why": "Lola is one person, so the negative is doesn't want. Want loses its -s after doesn't, and to move stays.",
+  "source": "Lola wants to live in {city} {when}.",
+  "hint": "Lola ______ (live) in {city} {when}.",
+  "key": "doesn't want to live",
+  "why": "Lola is one person, so the negative is doesn't want. Want loses its -s after doesn't, and to live stays.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1394,8 +1394,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence in the negative.",
-  "source": "Bekzod wants to sit next to {who} in {lesson}.",
-  "hint": "Bekzod ______ (sit) next to {who} in {lesson}.",
+  "source": "Bekzod wants to sit near {who} in {lesson}.",
+  "hint": "Bekzod ______ (sit) near {who} in {lesson}.",
   "key": "doesn't want to sit",
   "why": "Bekzod is one person, so use doesn't want + to sit. Never doesn't wants.",
   "slots": {
@@ -1559,16 +1559,16 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the request with want + person + to + verb.",
-  "source": "I say to you: \"Come to my {event} on {day}.\"",
-  "hint": "I want ______ (come) to my {event} on {day}.",
-  "key": "you to come",
-  "why": "Use want + you + to + verb: I want you to come.",
+  "source": "I say to you: \"Help me with my {task} on {day}.\"",
+  "hint": "I want ______ (help) me with my {task} on {day}.",
+  "key": "you to help",
+  "why": "Use want + you + to + verb: I want you to help me.",
   "slots": {
-   "event": [
-    "party",
-    "birthday",
-    "concert",
-    "wedding"
+   "task": [
+    "project",
+    "homework",
+    "presentation",
+    "party"
    ],
    "day": [
     "Saturday",

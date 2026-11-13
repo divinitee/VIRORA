@@ -757,6 +757,20 @@ export const PRACTICE_MANIFEST = {
    "create": 8,
    "express": 5
   }
+ },
+ "verb-patterns.gerund-infinitive.want-infinitive": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 296,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
  }
 };
 
