@@ -177,7 +177,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Use or for a choice between two things (only one is true).
 
 19. _Write and, but or or._  
-   Is it **seven** ______ **half past ten** now? My phone is dead.  
+   Is the **bank** open ______ closed now, **Mum**?  
    key: or  
    why: Use or for a choice between two things (only one is true).
 
@@ -207,8 +207,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Add one more place with and: … and Khiva.
 
 4. _Join the two sentences into one with and. Use the word in brackets._  
-   Lola can sing at **parties** **very well**. She can dance there too.  
-   → Lola can sing ______ (dance) at **parties** **very well**.  
+   Lola can sing **very well** at **parties**. She can dance there too.  
+   → Lola can sing ______ (dance) **very well** at **parties**.  
    key: and dance  
    why: Add one more action with and: sing and dance.
 

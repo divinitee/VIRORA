@@ -1107,21 +1107,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write and, but or or.",
-  "source": "Is it {time} ______ {time2} now? My phone is dead.",
+  "source": "Is the {shop} open ______ closed now, {name}?",
   "key": "or",
   "why": "Use or for a choice between two things (only one is true).",
   "slots": {
-   "time": [
-    "six",
-    "seven",
-    "nine",
-    "ten"
+   "shop": [
+    "shop",
+    "bank",
+    "pharmacy",
+    "café"
    ],
-   "time2": [
-    "half past six",
-    "half past seven",
-    "half past nine",
-    "half past ten"
+   "name": [
+    "Dad",
+    "Aziz",
+    "Olga",
+    "Mum"
    ]
   }
  },
@@ -1245,8 +1245,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences into one with and. Use the word in brackets.",
-  "source": "Lola can sing at {event} {how}. She can dance there too.",
-  "hint": "Lola can sing ______ (dance) at {event} {how}.",
+  "source": "Lola can sing {how} at {event}. She can dance there too.",
+  "hint": "Lola can sing ______ (dance) {how} at {event}.",
   "key": "and dance",
   "why": "Add one more action with and: sing and dance.",
   "slots": {
