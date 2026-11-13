@@ -1,0 +1,1772 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I stayed at home {when} ______ I was {ill}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "on Monday",
+    "last week",
+    "on Friday"
+   ],
+   "ill": [
+    "ill",
+    "tired",
+    "sick",
+    "unwell"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz is happy ______ he {reason}, {name}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "reason": [
+    "passed his exam",
+    "got a new bike",
+    "won the match",
+    "has a new phone"
+   ],
+   "name": [
+    "Mum",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We can't play outside ______ it's {weather}, {name}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "weather": [
+    "raining",
+    "snowing",
+    "too hot",
+    "dark"
+   ],
+   "name": [
+    "Bobur",
+    "Kamila",
+    "Sardor",
+    "Madina"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm learning English ______ I want to {goal} {when}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "goal": [
+    "study abroad",
+    "travel",
+    "work in IT",
+    "watch films in English"
+   ],
+   "when": [
+    "one day",
+    "next year",
+    "in the future",
+    "after school"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She's wearing a {garment} ______ it's {adj} today.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "garment": [
+    "coat",
+    "scarf",
+    "hat",
+    "jacket"
+   ],
+   "adj": [
+    "cold",
+    "windy",
+    "freezing",
+    "chilly"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} is closed ______ it's {day}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "shop": [
+    "shop",
+    "bank",
+    "post office",
+    "café"
+   ],
+   "day": [
+    "Sunday",
+    "a holiday",
+    "very late",
+    "New Year"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little brother is crying ______ he {reason}, {name}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "reason": [
+    "lost his toy",
+    "is hungry",
+    "fell down",
+    "is tired"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziza",
+    "Grandma"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We took a taxi to the {place} ______ we were {late}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "theatre",
+    "stadium"
+   ],
+   "late": [
+    "in a hurry",
+    "tired",
+    "lost",
+    "carrying heavy bags"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I didn't call you, {name}, ______ my phone was {state}.",
+  "options": [
+   "because",
+   "so",
+   "because of",
+   "although"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "name": [
+    "Aziza",
+    "Bekzod",
+    "Olga",
+    "Rustam"
+   ],
+   "state": [
+    "broken",
+    "dead",
+    "at home",
+    "switched off"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola is going to bed early ______ she has {event} tomorrow.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "event": [
+    "an exam",
+    "a test",
+    "a long trip",
+    "an early flight"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why are you late, {name}? — ______ I missed the {transport}.",
+  "options": [
+   "Because",
+   "So",
+   "But",
+   "Because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Jasur",
+    "Nodira"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why do you like {city}? — ______ it's {adj}.",
+  "options": [
+   "Because",
+   "So",
+   "But",
+   "Because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "adj": [
+    "beautiful",
+    "old",
+    "quiet",
+    "green"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dad is angry ______ I {reason}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "reason": [
+    "broke the window",
+    "came home late",
+    "lost the keys",
+    "didn't do my homework"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We love our teacher ______ she {reason}.",
+  "options": [
+   "because",
+   "so",
+   "but",
+   "because of"
+  ],
+  "key": 0,
+  "why": "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.",
+  "slots": {
+   "reason": [
+    "is kind",
+    "explains well",
+    "makes lessons fun",
+    "helps us"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {event} was cancelled ______ the {weather}.",
+  "options": [
+   "because of",
+   "because",
+   "so",
+   "but"
+  ],
+  "key": 0,
+  "why": "Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "event": [
+    "match",
+    "concert",
+    "picnic",
+    "trip"
+   ],
+   "weather": [
+    "rain",
+    "snow",
+    "storm",
+    "wind"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I couldn't sleep {when} ______ the {noise}.",
+  "options": [
+   "because of",
+   "because",
+   "so",
+   "but"
+  ],
+  "key": 0,
+  "why": "Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "last night",
+    "on Friday",
+    "at all",
+    "again"
+   ],
+   "noise": [
+    "noise",
+    "music",
+    "neighbours",
+    "traffic"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We were late for {event} ______ the {thing}.",
+  "options": [
+   "because of",
+   "because",
+   "so",
+   "but"
+  ],
+  "key": 0,
+  "why": "Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "event": [
+    "school",
+    "work",
+    "the lesson",
+    "the film"
+   ],
+   "thing": [
+    "traffic",
+    "snow",
+    "rain",
+    "long queue"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The flight was delayed ______ {reason}.",
+  "options": [
+   "because of",
+   "because",
+   "so",
+   "but"
+  ],
+  "key": 0,
+  "why": "Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "reason": [
+    "bad weather",
+    "the fog",
+    "a problem with the plane",
+    "the snow"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Many tourists visit {city} ______ its {thing}.",
+  "options": [
+   "because of",
+   "because",
+   "so",
+   "but"
+  ],
+  "key": 0,
+  "why": "Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Shahrisabz"
+   ],
+   "thing": [
+    "old buildings",
+    "history",
+    "markets",
+    "beautiful squares"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister is in hospital ______ a {problem}.",
+  "options": [
+   "because of",
+   "because",
+   "so",
+   "but"
+  ],
+  "key": 0,
+  "why": "Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "problem": [
+    "broken leg",
+    "broken arm",
+    "high fever",
+    "bad back"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "I'm tired ______ I worked all {time}, {name}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "time": [
+    "day",
+    "night",
+    "weekend",
+    "morning"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "We're happy ______ our team won the {game} {when}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "game": [
+    "match",
+    "final",
+    "cup",
+    "game"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Sunday",
+    "again"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "Bobur is learning Korean ______ he wants to work in {place} {when}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "place": [
+    "Seoul",
+    "Busan",
+    "Korea",
+    "a Korean company"
+   ],
+   "when": [
+    "one day",
+    "next year",
+    "after university",
+    "in the future"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "I can't come {when} ______ I have to {act}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "tonight",
+    "on Saturday",
+    "tomorrow",
+    "this weekend"
+   ],
+   "act": [
+    "study",
+    "work",
+    "help my mum",
+    "look after my sister"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "The baby is crying ______ she's {state}, {name}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "state": [
+    "hungry",
+    "tired",
+    "sleepy",
+    "cold"
+   ],
+   "name": [
+    "Dad",
+    "Aziza",
+    "Grandma",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "I took an umbrella {when} ______ it was {weather}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "this morning",
+    "today",
+    "yesterday",
+    "on Monday"
+   ],
+   "weather": [
+    "raining",
+    "cloudy",
+    "grey",
+    "wet"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "We opened the windows ______ it was {adj} in the {room}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "adj": [
+    "hot",
+    "stuffy",
+    "warm",
+    "too warm"
+   ],
+   "room": [
+    "classroom",
+    "kitchen",
+    "bedroom",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "My dad sold his {vehicle} ______ it was too {adj}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "vehicle": [
+    "car",
+    "van",
+    "motorbike",
+    "bike"
+   ],
+   "adj": [
+    "old",
+    "expensive",
+    "small",
+    "slow"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "Kamila didn't go to school {when} ______ she had a {illness}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "yesterday",
+    "on Monday",
+    "last week",
+    "today"
+   ],
+   "illness": [
+    "cold",
+    "headache",
+    "fever",
+    "sore throat"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "I love summer ______ I can {act}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "act": [
+    "swim every day",
+    "eat watermelon",
+    "sleep late",
+    "go to the mountains"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "Jasur is late {when} ______ he missed the {transport}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "today",
+    "again",
+    "this morning",
+    "for class"
+   ],
+   "transport": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "We stayed inside ______ it was {temp} outside, {name}.",
+  "key": "because",
+  "why": "A sentence with its own verb follows, so use because. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "temp": [
+    "too hot",
+    "freezing",
+    "very windy",
+    "dark"
+   ],
+   "name": [
+    "Lola",
+    "Bobur",
+    "Sevara",
+    "Anvar"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "The school was closed {when} ______ the {weather}.",
+  "key": "because of",
+  "why": "Only a noun follows, so use because of. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "yesterday",
+    "on Monday",
+    "today",
+    "last Friday"
+   ],
+   "weather": [
+    "snow",
+    "storm",
+    "heat",
+    "ice"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "We couldn't hear the teacher ______ the {noise}.",
+  "key": "because of",
+  "why": "Only a noun follows, so use because of. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "noise": [
+    "noise",
+    "music",
+    "traffic",
+    "wind"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "I was late {when} ______ the {thing} on the road.",
+  "key": "because of",
+  "why": "Only a noun follows, so use because of. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "today",
+    "this morning",
+    "again",
+    "yesterday"
+   ],
+   "thing": [
+    "traffic",
+    "snow",
+    "ice",
+    "roadworks"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "The game stopped {when} ______ the {weather}.",
+  "key": "because of",
+  "why": "Only a noun follows, so use because of. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "twice",
+    "at half-time",
+    "early",
+    "for an hour"
+   ],
+   "weather": [
+    "rain",
+    "wind",
+    "storm",
+    "hail"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "Grandpa stayed in bed {when} ______ his {problem}.",
+  "key": "because of",
+  "why": "Only a noun follows, so use because of. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "all day",
+    "yesterday",
+    "this week",
+    "on Sunday"
+   ],
+   "problem": [
+    "bad back",
+    "broken leg",
+    "cold",
+    "headache"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "We didn't go to the beach {when} ______ the {weather}.",
+  "key": "because of",
+  "why": "Only a noun follows, so use because of. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "when": [
+    "yesterday",
+    "on Sunday",
+    "today",
+    "last weekend"
+   ],
+   "weather": [
+    "wind",
+    "cold",
+    "rain",
+    "clouds"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "I chose this university ______ its {thing}.",
+  "key": "because of",
+  "why": "Only a noun follows, so use because of. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "thing": [
+    "good teachers",
+    "location",
+    "library",
+    "sports centre"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write because or because of.",
+  "source": "My sister is popular at school ______ her {quality}.",
+  "key": "because of",
+  "why": "Only a noun follows, so use because of. Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).",
+  "slots": {
+   "quality": [
+    "kindness",
+    "smile",
+    "jokes",
+    "cooking"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with because. Start with the result.",
+  "source": "Aziz was hungry {when}, so he made a {food}.",
+  "hint": "Aziz made a {food} {when} ______ (hungry).",
+  "key": "because he was hungry",
+  "why": "The reason (he was hungry) comes after because. So gave the result; because gives the reason.",
+  "slots": {
+   "food": [
+    "sandwich",
+    "salad",
+    "pizza",
+    "big breakfast"
+   ],
+   "when": [
+    "after school",
+    "at midnight",
+    "last night",
+    "in the afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with because. Start with the result.",
+  "source": "It was cold, so the children played {where} {when}.",
+  "hint": "The children played {where} {when} ______ (cold).",
+  "key": "because it was cold",
+  "why": "Put the reason after because: because it was cold.",
+  "slots": {
+   "where": [
+    "inside",
+    "at home",
+    "in the gym",
+    "in the hall"
+   ],
+   "when": [
+    "yesterday",
+    "on Monday",
+    "all day",
+    "after school"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with because. Start with the result.",
+  "source": "Lola was tired after {activity}, so she went to bed {when}.",
+  "hint": "Lola went to bed {when} ______ (tired).",
+  "key": "because she was tired",
+  "why": "Put the reason after because: because she was tired.",
+  "slots": {
+   "activity": [
+    "the trip",
+    "the match",
+    "work",
+    "school"
+   ],
+   "when": [
+    "early",
+    "at nine",
+    "after dinner",
+    "before ten"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with because. Start with the result.",
+  "source": "The bus didn't come, so we walked to {place} {when}.",
+  "hint": "We walked to {place} {when} ______ (come).",
+  "key": "because the bus didn't come",
+  "why": "Put the reason after because: because the bus didn't come.",
+  "slots": {
+   "place": [
+    "school",
+    "work",
+    "the station",
+    "the market"
+   ],
+   "when": [
+    "today",
+    "this morning",
+    "again",
+    "yesterday"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with because. Start with the result.",
+  "source": "My phone was broken, so I didn't answer your {msg}, {name}.",
+  "hint": "{name}, I didn't answer your {msg} ______ (broken).",
+  "key": "because my phone was broken",
+  "why": "Put the reason after because: because my phone was broken.",
+  "slots": {
+   "msg": [
+    "call",
+    "message",
+    "calls",
+    "text"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mum",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change because of + noun into because + a full sentence.",
+  "source": "{who} stayed at home {when} because of the rain.",
+  "hint": "{who} stayed at home {when} ______ (rain).",
+  "key": "because it was raining",
+  "why": "Because of + noun (the rain) becomes because + a sentence: because it was raining.",
+  "slots": {
+   "who": [
+    "We",
+    "My family",
+    "The children",
+    "My friends and I"
+   ],
+   "when": [
+    "yesterday",
+    "on Sunday",
+    "all weekend",
+    "last night"
+   ]
+  },
+  "acceptable": [
+   "because it rained"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change because of + noun into because + a full sentence.",
+  "source": "The {game} stopped {when} because of the snow.",
+  "hint": "The {game} stopped {when} ______ (snow).",
+  "key": "because it was snowing",
+  "why": "Because of the snow becomes because it was snowing.",
+  "slots": {
+   "game": [
+    "match",
+    "game",
+    "concert",
+    "race"
+   ],
+   "when": [
+    "early",
+    "twice",
+    "after ten minutes",
+    "at half-time"
+   ]
+  },
+  "acceptable": [
+   "because it snowed"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change because of + noun into because + a full sentence.",
+  "source": "{name} couldn't sleep {when} because of the noise.",
+  "hint": "{name} couldn't sleep {when} ______ (noisy).",
+  "key": "because it was noisy",
+  "why": "Because of the noise becomes because it was noisy.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Malika",
+    "My brother",
+    "Grandma"
+   ],
+   "when": [
+    "last night",
+    "on Friday",
+    "at all",
+    "again"
+   ]
+  },
+  "acceptable": [
+   "because it was so noisy",
+   "because it was too noisy",
+   "because it was very noisy"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change because of + noun into because + a full sentence.",
+  "source": "Malika stayed {place} {when} because of her headache.",
+  "hint": "Malika stayed {place} {when} ______ (headache).",
+  "key": "because she had a headache",
+  "why": "Because of her headache becomes because she had a headache.",
+  "slots": {
+   "place": [
+    "in bed",
+    "at home",
+    "in her room",
+    "on the sofa"
+   ],
+   "when": [
+    "all day",
+    "yesterday",
+    "this morning",
+    "on Sunday"
+   ]
+  },
+  "acceptable": [
+   "because her head hurt"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change because of + noun into because + a full sentence.",
+  "source": "They cancelled our {thing} {when} because of the fog.",
+  "hint": "They cancelled our {thing} {when} ______ (foggy).",
+  "key": "because it was foggy",
+  "why": "Because of the fog becomes because it was foggy.",
+  "slots": {
+   "thing": [
+    "flight",
+    "trip",
+    "train",
+    "picnic"
+   ],
+   "when": [
+    "yesterday",
+    "this morning",
+    "last night",
+    "again"
+   ]
+  },
+  "acceptable": [
+   "because it was very foggy"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with because.",
+  "source": "Bobur is happy. He passed his {exam} {when}.",
+  "hint": "Bobur is happy ______ (pass) his {exam} {when}.",
+  "key": "because he passed",
+  "why": "The second sentence is the reason, so join with because: because he passed…",
+  "slots": {
+   "exam": [
+    "exam",
+    "driving test",
+    "maths test",
+    "English test"
+   ],
+   "when": [
+    "yesterday",
+    "this week",
+    "on Monday",
+    "at last"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with because.",
+  "source": "{who} love {city}. It's very beautiful.",
+  "hint": "{who} love {city} ______ (beautiful).",
+  "key": "because it's very beautiful",
+  "why": "The second sentence is the reason: because it's very beautiful.",
+  "slots": {
+   "who": [
+    "We",
+    "My parents",
+    "Tourists",
+    "Many people"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "our city"
+   ]
+  },
+  "acceptable": [
+   "because it is very beautiful",
+   "because it's beautiful",
+   "because it is beautiful"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with because.",
+  "source": "My brother is learning English. He wants to travel {where}.",
+  "hint": "My brother is learning English ______ (travel) {where}.",
+  "key": "because he wants to travel",
+  "why": "The second sentence is the reason: because he wants to travel.",
+  "slots": {
+   "where": [
+    "abroad",
+    "to London",
+    "around the world",
+    "to America"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with because.",
+  "source": "The children are tired. They played all {time} in the {place}.",
+  "hint": "The children are tired ______ (play) all {time} in the {place}.",
+  "key": "because they played",
+  "why": "The second sentence is the reason: because they played…",
+  "slots": {
+   "time": [
+    "day",
+    "afternoon",
+    "morning",
+    "evening"
+   ],
+   "place": [
+    "park",
+    "yard",
+    "garden",
+    "snow"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with because.",
+  "source": "Dad is angry. I broke his {thing} {when}.",
+  "hint": "Dad is angry ______ (break) his {thing} {when}.",
+  "key": "because I broke",
+  "why": "The second sentence is the reason: because I broke… (break → broke).",
+  "slots": {
+   "thing": [
+    "phone",
+    "glasses",
+    "camera",
+    "watch"
+   ],
+   "when": [
+    "yesterday",
+    "this morning",
+    "last night",
+    "again"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about why you are learning English.",
+  "requiredElement": "because + reason",
+  "constraints": [
+   "exactly one sentence",
+   "must use because",
+   "the reason has its own verb"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your favourite season and why you like it.",
+  "requiredElement": "because",
+  "constraints": [
+   "exactly one sentence",
+   "must name a season",
+   "must use because"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a time you were late and why.",
+  "requiredElement": "because + past",
+  "constraints": [
+   "exactly one sentence",
+   "must use because",
+   "past tense"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Answer the question: Why do you like your best friend?",
+  "requiredElement": "Because + reason",
+  "constraints": [
+   "one or two sentences",
+   "must use because",
+   "a full sentence after because"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something that was cancelled because of the weather.",
+  "requiredElement": "because of + noun",
+  "constraints": [
+   "exactly one sentence",
+   "must use because of",
+   "a noun after because of"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about why you can't come to a friend's party.",
+  "requiredElement": "I can't come because …",
+  "constraints": [
+   "exactly one sentence",
+   "must use because",
+   "must use can't"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a city you want to visit and why.",
+  "requiredElement": "because",
+  "constraints": [
+   "exactly one sentence",
+   "must name a city",
+   "must use because"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with because and one with because of.",
+  "requiredElement": "because / because of",
+  "constraints": [
+   "exactly two sentences",
+   "because + sentence",
+   "because of + noun"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What is your favourite food, place and hobby? Say why you like each one. Write three or four sentences.",
+  "targetGrammar": "because for reasons",
+  "lookFor": [
+   "because + a full sentence",
+   "three different reasons",
+   "no because of + sentence"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You missed a lesson yesterday. Write a short message to your teacher explaining why.",
+  "targetGrammar": "because / because of for an excuse",
+  "lookFor": [
+   "because + reason",
+   "because of + noun",
+   "polite words like sorry"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Do you prefer living in a city or a village? Give two or three reasons.",
+  "targetGrammar": "because to support an opinion",
+  "lookFor": [
+   "I prefer … because …",
+   "two or more reasons",
+   "full sentences after because"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a bad day you had. What went wrong and why? Write three or four sentences.",
+  "targetGrammar": "because / because of in the past",
+  "lookFor": [
+   "because + past sentence",
+   "because of + noun",
+   "past tense verbs"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Why do people visit Uzbekistan? Write three or four sentences for a tourist website.",
+  "targetGrammar": "because / because of",
+  "lookFor": [
+   "because",
+   "because of + noun",
+   "place names"
+  ]
+ }
+]

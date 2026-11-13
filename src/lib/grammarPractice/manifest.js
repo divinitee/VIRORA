@@ -2,6 +2,90 @@
 // Pool sizes per topic and stage, counting slot expansion. Lets the node map
 // render real numbers without loading a single bank.
 export const PRACTICE_MANIFEST = {
+ "modals.ability-permission.can-ability": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-ability",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 272,
+   "build": 284,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.ability-permission.can-question": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 284,
+   "build": 284,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.ability-permission.can-request": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 271,
+   "build": 272,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.ability-permission.cant-ability": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "cant-ability",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 268,
+   "build": 260,
+   "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.advice.should": {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 296,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.semi-modals.have-to": {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 304,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.articles.a-an": {
   "domain": "nouns-articles",
   "branch": "articles",
@@ -408,6 +492,62 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.conjunctions.and-but-or": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "and-but-or",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 292,
+   "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.conjunctions.because": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "because",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 260,
+   "build": 272,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.conjunctions.so-result": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "so-result",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 284,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.conjunctions.when-time-clause": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "when-time-clause",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 284,
+   "transform": 232,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.existential.there-is-are": {
   "domain": "sentence-structure",
   "branch": "existential",
@@ -417,6 +557,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.imperatives.lets": {
+  "domain": "sentence-structure",
+  "branch": "imperatives",
+  "topic": "lets",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 316,
+   "build": 272,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -754,6 +908,48 @@ export const PRACTICE_MANIFEST = {
    "choose": 20,
    "build": 58,
    "transform": 15,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "verb-patterns.gerund-infinitive.enjoy-gerund": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "verb-patterns.gerund-infinitive.want-infinitive": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "want-infinitive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 296,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "verb-patterns.gerund-infinitive.would-like-infinitive": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "would-like-infinitive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 216,
    "create": 8,
    "express": 5
   }

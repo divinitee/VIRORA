@@ -58,14 +58,14 @@
 57	B	sentence-structure.existential.there-question	A1	1	todo	Is there ...? with an uncountable noun
 58	B	sentence-structure.imperatives.affirmative-imperative	A1	1	todo	Base form for an imperative
 59	B	sentence-structure.imperatives.negative-imperative	A1	1	todo	Don't + base form for a negative imperative
-60	B	sentence-structure.conjunctions.and-but-or	A1	2	todo	and for addition | but for contrast
-61	B	sentence-structure.conjunctions.so-result	A1	1	todo	so for a result
+60	B	sentence-structure.conjunctions.and-but-or	A1	2	live	and for addition | but for contrast
+61	B	sentence-structure.conjunctions.so-result	A1	1	live	so for a result
 62	B	sentence-structure.word-order.place-time-order	A1	1	todo	Place before time at the end of a sentence
 63	B	sentence-structure.word-order.svo-basic	A1	1	todo	Subject + verb + object
 64	B	sentence-structure.existential.there-was-were	A2	1	todo	there was/were agreement in the past
-65	B	sentence-structure.imperatives.lets	A2	1	todo	Let's + base form
-66	B	sentence-structure.conjunctions.because	A2	1	todo	because for a reason
-67	B	sentence-structure.conjunctions.when-time-clause	A2	1	todo	Present simple (not will) in a future time clause after when
+65	B	sentence-structure.imperatives.lets	A2	1	live	Let's + base form
+66	B	sentence-structure.conjunctions.because	A2	1	live	because for a reason
+67	B	sentence-structure.conjunctions.when-time-clause	A2	1	live	Present simple (not will) in a future time clause after when
 68	B	sentence-structure.word-order.double-object	A2	1	todo	S + V + indirect object + direct object
 69	B	sentence-structure.relative-clauses.that-which-things	A2	1	todo	that/which for a thing
 70	B	sentence-structure.relative-clauses.where-place	A2	1	todo	where for a place (no object gap)
@@ -86,10 +86,10 @@
 85	B	verb-patterns.have-got.have-got-question	A1	1	todo	Has ... got question form
 86	B	verb-patterns.have-got.have-has	A1	3	todo	have (not has) with I | has with third person singular | Producing has got for third person
 87	B	verb-patterns.gerund-infinitive.decide-infinitive	A2	1	todo	decide + to-infinitive
-88	B	verb-patterns.gerund-infinitive.enjoy-gerund	A2	2	todo	enjoy + -ing | like/love + -ing (or to) but never bare infinitive
+88	B	verb-patterns.gerund-infinitive.enjoy-gerund	A2	2	live	enjoy + -ing | like/love + -ing (or to) but never bare infinitive
 89	B	verb-patterns.gerund-infinitive.preposition-gerund	A2	1	todo	-ing form after a preposition
-90	B	verb-patterns.gerund-infinitive.want-infinitive	A2	1	todo	want + to-infinitive
-91	B	verb-patterns.gerund-infinitive.would-like-infinitive	A2	1	todo	would like + to-infinitive
+90	B	verb-patterns.gerund-infinitive.want-infinitive	A2	1	live	want + to-infinitive
+91	B	verb-patterns.gerund-infinitive.would-like-infinitive	A2	1	live	would like + to-infinitive
 92	B	verb-patterns.object-infinitive.let-bare	A2	1	todo	let + object + bare infinitive
 93	B	adj-adv.frequency.adverb-position	A1	2	todo	Frequency adverb before the main verb | Frequency adverb AFTER be
 94	B	adj-adv.frequency.always	A1	1	todo	always for a fixed routine
@@ -106,17 +106,17 @@
 105	B	comparison.superlative.est-superlative	A2	1	todo	-iest spelling with 'the'
 106	B	comparison.superlative.irregular-superlative	A2	1	todo	best as superlative of good, with 'the'
 107	B	comparison.equality.as-as	A2	1	todo	as + adj + as
-108	B	modals.ability-permission.can-ability	A1	1	todo	can + base verb for ability
+108	B	modals.ability-permission.can-ability	A1	1	live	can + base verb for ability
 109	B	modals.ability-permission.can-form	A1	2	todo	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')
-110	B	modals.ability-permission.can-question	A1	1	todo	Modal question: can + subject + verb
-111	B	modals.ability-permission.can-request	A1	1	todo	Can for a request
-112	B	modals.ability-permission.cant-ability	A1	1	todo	can't for lack of ability; no 'doesn't'
+110	B	modals.ability-permission.can-question	A1	1	live	Modal question: can + subject + verb
+111	B	modals.ability-permission.can-request	A1	1	live	Can for a request
+112	B	modals.ability-permission.cant-ability	A1	1	live	can't for lack of ability; no 'doesn't'
 113	B	modals.ability-permission.could-past-ability	A2	1	todo	could for past ability
 114	B	modals.obligation.must	A2	1	todo	must for strong obligation
 115	B	modals.obligation.mustnt-vs-dont-have-to	A2	2	todo	mustn't (prohibition) vs don't have to (no obligation) | don't have to = not necessary
-116	B	modals.advice.should	A2	1	todo	should for advice
+116	B	modals.advice.should	A2	1	live	should for advice
 117	B	modals.deduction.might-possibility	A2	1	todo	might for possibility
-118	B	modals.semi-modals.have-to	A2	1	todo	have to for external necessity
+118	B	modals.semi-modals.have-to	A2	1	live	have to for external necessity
 119	B	prep-phrasal.place.between	A1	1	todo	between two named places
 120	B	prep-phrasal.place.in-container	A1	1	todo	in for a container
 121	B	prep-phrasal.place.on-surface	A1	2	todo	on for a surface | on the wall (vertical surface)
