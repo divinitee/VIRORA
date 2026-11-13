@@ -76,7 +76,7 @@ const INSTR_B = "Use can't + the verb in brackets.";
 const B = (v) => `Not able → can't + base verb: can't ${v} (or cannot ${v}). Never doesn't can or don't can.`;
 const BUILD = [
   ["see", "My grandmother ______ (see) well without her {thing} {when}.",
-    { thing: ["glasses", "reading glasses", "new glasses", "old glasses"], when: ["at night", "in the evening", "any more", "these days"] }],
+    { thing: ["glasses", "reading glasses", "contact lenses"], when: ["at night", "in the evening", "any more", "these days"] }],
   ["open", "I ______ (open) this {thing}. Please help me, {name}.",
     { thing: ["jar", "bottle", "door", "window"], name: ["Dad", "Aziz", "Olga", "Rustam"] }],
   ["talk", "Our baby ______ (talk) yet. She's only {age} months old.",

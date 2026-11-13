@@ -636,8 +636,7 @@ export default [
    "thing": [
     "glasses",
     "reading glasses",
-    "new glasses",
-    "old glasses"
+    "contact lenses"
    ],
    "when": [
     "at night",

@@ -87,7 +87,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## build (20)
 
 1. _Use can't + the verb in brackets._  
-   My grandmother ______ (see) well without her **new glasses** **in the evening**.  
+   My grandmother ______ (see) well without her **reading glasses** **in the evening**.  
    key: can't see (also: can not see)  
    why: Not able → can't + base verb: can't see (or cannot see). Never doesn't can or don't can.
 
