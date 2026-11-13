@@ -1449,10 +1449,16 @@
   "format": "rewrite",
   "instr": "Rewrite the sentence about the new person.",
   "source": "I'll call you when I get home {when}.",
-  "hint": "Aziz will call you when ______ (get) home {when}.",
+  "hint": "{who} will call you when ______ (get) home {when}.",
   "key": "he gets",
   "why": "With he, the present simple takes -s: when he gets home.",
   "slots": {
+   "who": [
+    "Aziz",
+    "Dad",
+    "My brother",
+    "Grandpa"
+   ],
    "when": [
     "tonight",
     "later",
@@ -1470,11 +1476,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence about the new person.",
-  "source": "We'll start when we're ready, {name}.",
-  "hint": "She'll start when ______ (be) ready, {name}.",
+  "source": "We'll start the {thing} when we're ready, {name}.",
+  "hint": "She'll start the {thing} when ______ (be) ready, {name}.",
   "key": "she is",
   "why": "With she, use is: when she is ready, not when she will be.",
   "slots": {
+   "thing": [
+    "test",
+    "game",
+    "song",
+    "race"
+   ],
    "name": [
     "Coach",
     "Ms Lee",
@@ -1495,11 +1507,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence about the new person.",
-  "source": "I'll buy a car when I find a job in {city}.",
-  "hint": "My sister will buy a car when ______ (find) a job in {city}.",
+  "source": "I'll buy a {thing} when I find a job in {city}.",
+  "hint": "My sister will buy a {thing} when ______ (find) a job in {city}.",
   "key": "she finds",
   "why": "With she, the present simple takes -s: when she finds.",
   "slots": {
+   "thing": [
+    "car",
+    "flat",
+    "laptop",
+    "scooter"
+   ],
    "city": [
     "Tashkent",
     "Samarkand",
@@ -1517,8 +1535,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence about the new person.",
-  "source": "I'll tell you when I know the {thing}.",
-  "hint": "Dad will tell you when ______ (know) the {thing}.",
+  "source": "I'll tell you when I know the {thing}, {name}.",
+  "hint": "Dad will tell you when ______ (know) the {thing}, {name}.",
   "key": "he knows",
   "why": "With he, the present simple takes -s: when he knows.",
   "slots": {
@@ -1527,6 +1545,12 @@
     "price",
     "time",
     "address"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Lola",
+    "Timur"
    ]
   }
  },
@@ -1539,8 +1563,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence about the new person.",
-  "source": "We'll go to the {place} when we have time.",
-  "hint": "Lola will go to the {place} when ______ (have) time.",
+  "source": "We'll go to the {place} when we have time {when}.",
+  "hint": "Lola will go to the {place} when ______ (have) time {when}.",
   "key": "she has",
   "why": "With she, have becomes has: when she has time.",
   "slots": {
@@ -1549,6 +1573,12 @@
     "museum",
     "gym",
     "bazaar"
+   ],
+   "when": [
+    "in summer",
+    "at the weekend",
+    "next month",
+    "after the exams"
    ]
   }
  },

@@ -506,6 +506,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.conjunctions.when-time-clause": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "when-time-clause",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 284,
+   "transform": 232,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.existential.there-is-are": {
   "domain": "sentence-structure",
   "branch": "existential",
