@@ -464,6 +464,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.conjunctions.and-but-or": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "and-but-or",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 292,
+   "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.existential.there-is-are": {
   "domain": "sentence-structure",
   "branch": "existential",
