@@ -421,7 +421,7 @@ export default [
     "window",
     "door",
     "balcony door",
-    "gate"
+    "windows"
    ],
    "name": [
     "Mum",
@@ -535,7 +535,7 @@ export default [
   "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Can I ______ a {thing}, please? {extra}",
+  "prompt": "Can I ______ a {thing}, please, {name}?",
   "options": [
    "have",
    "to have",
@@ -551,11 +551,11 @@ export default [
     "cup of tea",
     "bag"
    ],
-   "extra": [
-    "Thank you!",
-    "Thanks a lot.",
-    "Thanks.",
-    "That's very kind."
+   "name": [
+    "Mum",
+    "Grandma",
+    "Aunt Lola",
+    "Dad"
    ]
   }
  },

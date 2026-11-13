@@ -56,7 +56,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ Can I · Can you · Do I · Am I  
    why: You want to use it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.
 
-14. It's very cold. ______ close the **gate** for me, please, **Mum**?  
+14. It's very cold. ______ close the **windows** for me, please, **Mum**?  
    options: ✔ Can you · Can I · Do you · Are you  
    why: You want the other person to close, so ask Can you … ? Can I … ? asks to do something yourself.
 
@@ -72,7 +72,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ pass · to pass · passing · passes  
    why: After Can you / Can I, use the base verb: pass. No to, no -ing, no -s.
 
-18. Can I ______ a **piece of cake**, please? **Thank you!**  
+18. Can I ______ a **piece of cake**, please, **Mum**?  
    options: ✔ have · to have · having · has  
    why: After Can you / Can I, use the base verb: have. No to, no -ing, no -s.
 
