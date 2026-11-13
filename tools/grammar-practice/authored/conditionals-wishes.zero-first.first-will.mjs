@@ -32,8 +32,8 @@ const A = (v, pres, past) => [`will ${v}`, pres, past, `would ${v}`];
 const B = (v, pres, past, perf) => [`will ${v}`, pres, past, perf];
 const N = (v, dont) => [`won't ${v}`, `${dont} ${v}`, `didn't ${v}`, `wouldn't ${v}`];
 const CHOOSE = [
-  [A("stay", "stay", "stayed"), "If it rains tomorrow, we ______ at home and {act}.",
-    { act: ["watch films", "play chess", "read", "bake a cake"] }],
+  [A("stay", "stay", "stayed"), "If it rains {when}, we ______ at home and {act}.",
+    { when: ["tomorrow", "on Saturday", "tonight", "on Sunday"], act: ["watch films", "play chess", "read", "bake a cake"] }],
   [B("miss", "misses", "missed", "has missed"), "If {name} doesn't hurry, he ______ the {transport}.",
     { name: ["Timur", "Sardor", "Aziz", "Ilya"], transport: ["bus", "train", "metro", "minibus"] }],
   [A("buy", "buy", "bought"), "If {name} passes the exam, her parents ______ her a {gift}.",
@@ -56,8 +56,8 @@ const CHOOSE = [
     { name: ["Bekzod", "Pavel", "Rustam", "Jasur"], exam: ["test", "exam", "maths test", "English test"] }],
   [["will be", "is", "was", "would be"], "If we are late {when}, the {who} ______ angry.",
     { when: ["again", "for class", "tomorrow", "for the lesson"], who: ["teacher", "coach", "director", "driver"] }],
-  [A("have", "have", "had"), "If my parents finish work early, we ______ dinner in the {place}.",
-    { place: ["garden", "yard", "café", "restaurant"] }],
+  [A("have", "have", "had"), "If my parents finish work early {when}, we ______ dinner in the {place}.",
+    { when: ["today", "tomorrow", "on Friday", "this evening"], place: ["garden", "yard", "café", "restaurant"] }],
   [["won't be", "aren't", "weren't", "wouldn't be"], "If you don't wear a {coat}, you ______ warm in the {place}.",
     { coat: ["coat", "jacket", "warm hat", "scarf"], place: ["mountains", "stadium", "park", "yard"] }],
   [B("cook", "cooks", "cooked", "has cooked"), "If we buy meat at the bazaar, my father ______ {food} tonight.",
@@ -66,8 +66,8 @@ const CHOOSE = [
     { place: ["bazaar", "metro", "stadium", "library"], event: ["party", "concert", "trip", "match"] }],
   [N("train", "doesn't"), "If it rains on {day}, our {team} ______ outside.",
     { day: ["Saturday", "Sunday", "Tuesday", "Thursday"], team: ["team", "football team", "running club", "school team"] }],
-  [B("get", "get", "got", "have got"), "If they leave now, they ______ {where} before dark.",
-    { where: ["home", "there", "to the village", "to the hotel"] }],
+  [B("get", "get", "got", "have got"), "If they leave {when}, they ______ {where} before dark.",
+    { when: ["now", "at six", "before lunch", "in ten minutes"], where: ["home", "there", "to the village", "to the hotel"] }],
   [B("love", "loves", "loved", "has loved"), "If you give my {who} this {gift}, she ______ it.",
     { who: ["grandmother", "mother", "aunt", "sister"], gift: ["scarf", "book", "cake", "plant"] }],
   [A("be", "am", "was"), "If I get the job in {city}, I ______ very happy.",
