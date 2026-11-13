@@ -1,0 +1,1792 @@
+[
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A train is ______ than a bus, so I always take the train to {city} with my {person}.",
+  "options": [
+   "more comfortable",
+   "comfortabler",
+   "most comfortable",
+   "comfortable"
+  ],
+  "key": 0,
+  "why": "Comfortable is a long adjective, so put more in front of it: more comfortable. Long adjectives never take -er.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Karshi"
+   ],
+   "person": [
+    "family",
+    "parents",
+    "grandmother",
+    "friends"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A taxi is ______ than the metro, so I only take one when I am late for {thing} or carrying {load}.",
+  "options": [
+   "more expensive",
+   "expensiver",
+   "most expensive",
+   "expensive"
+  ],
+  "key": 0,
+  "why": "Expensive is a long adjective, so put more in front of it: more expensive. Long adjectives never take -er.",
+  "slots": {
+   "thing": [
+    "work",
+    "class",
+    "a lesson",
+    "the doctor"
+   ],
+   "load": [
+    "heavy bags",
+    "a big box",
+    "my suitcase",
+    "a lot of shopping"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "For me, history is ______ than {subject}. I love stories about {topic}.",
+  "options": [
+   "more interesting",
+   "interestinger",
+   "most interesting",
+   "interesting"
+  ],
+  "key": 0,
+  "why": "Interesting is a long adjective, so put more in front of it: more interesting. Long adjectives never take -er.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "chemistry",
+    "geography"
+   ],
+   "topic": [
+    "old cities",
+    "the Silk Road",
+    "famous people",
+    "ancient Samarkand"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "English grammar is ______ than English {part} for me, so I study it every {time}.",
+  "options": [
+   "more difficult",
+   "difficulter",
+   "most difficult",
+   "difficult"
+  ],
+  "key": 0,
+  "why": "Difficult is a long adjective, so put more in front of it: more difficult. Long adjectives never take -er.",
+  "slots": {
+   "part": [
+    "vocabulary",
+    "listening",
+    "reading",
+    "spelling"
+   ],
+   "time": [
+    "evening",
+    "morning",
+    "weekend",
+    "day"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In spring, our {place} is ______ than in winter. There are {flowers} everywhere.",
+  "options": [
+   "more beautiful",
+   "beautifuller",
+   "most beautiful",
+   "beautiful"
+  ],
+  "key": 0,
+  "why": "Beautiful is a long adjective, so put more in front of it: more beautiful. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "garden",
+    "village",
+    "city",
+    "park"
+   ],
+   "flowers": [
+    "flowers",
+    "green trees",
+    "tulips",
+    "roses"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Riding a bike on the main road is ______ than riding in the {place}, so I always wear a {thing}.",
+  "options": [
+   "more dangerous",
+   "dangerouser",
+   "most dangerous",
+   "dangerous"
+  ],
+  "key": 0,
+  "why": "Dangerous is a long adjective, so put more in front of it: more dangerous. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "park",
+    "yard",
+    "village",
+    "quiet streets"
+   ],
+   "thing": [
+    "helmet",
+    "bright jacket",
+    "safety vest",
+    "bike helmet"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Football is ______ than tennis at my {place}. Every day, my classmates play it in the {area}.",
+  "options": [
+   "more popular",
+   "popularer",
+   "most popular",
+   "popular"
+  ],
+  "key": 0,
+  "why": "Popular is a long adjective, so put more in front of it: more popular. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "university",
+    "lyceum"
+   ],
+   "area": [
+    "yard",
+    "park",
+    "stadium",
+    "gym"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "For my parents, my studies are ______ than {thing}, so I do my homework before I {fun}.",
+  "options": [
+   "more important",
+   "importanter",
+   "most important",
+   "important"
+  ],
+  "key": 0,
+  "why": "Important is a long adjective, so put more in front of it: more important. Long adjectives never take -er.",
+  "slots": {
+   "thing": [
+    "football",
+    "games",
+    "my phone",
+    "parties"
+   ],
+   "fun": [
+    "watch TV",
+    "play games",
+    "meet friends",
+    "go out"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Samarkand is ______ than our {town}. Tourists from {country} visit it every year.",
+  "options": [
+   "more famous",
+   "famouser",
+   "most famous",
+   "famous"
+  ],
+  "key": 0,
+  "why": "Famous is a long adjective, so put more in front of it: more famous. Long adjectives never take -er.",
+  "slots": {
+   "town": [
+    "town",
+    "village",
+    "district",
+    "city"
+   ],
+   "country": [
+    "Japan",
+    "Germany",
+    "Korea",
+    "France"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The new {building} in our city is ______ than the old one. It has {feature}.",
+  "options": [
+   "more modern",
+   "moderner",
+   "most modern",
+   "modern"
+  ],
+  "key": 0,
+  "why": "Modern is a long adjective, so put more in front of it: more modern. Long adjectives never take -er.",
+  "slots": {
+   "building": [
+    "hospital",
+    "library",
+    "school",
+    "station"
+   ],
+   "feature": [
+    "lifts",
+    "big windows",
+    "free Wi-Fi",
+    "a café"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandmother's plov is ______ than the plov at the {place}. She cooks it with {ingredient}.",
+  "options": [
+   "more delicious",
+   "deliciouser",
+   "most delicious",
+   "delicious"
+  ],
+  "key": 0,
+  "why": "Delicious is a long adjective, so put more in front of it: more delicious. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "café",
+    "restaurant",
+    "canteen",
+    "wedding"
+   ],
+   "ingredient": [
+    "lamb",
+    "yellow carrots",
+    "raisins",
+    "chickpeas"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My phone is ______ than my laptop on the {transport}. I can read {thing} on it.",
+  "options": [
+   "more useful",
+   "usefuller",
+   "most useful",
+   "useful"
+  ],
+  "key": 0,
+  "why": "Useful is a long adjective, so put more in front of it: more useful. Long adjectives never take -er.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "plane"
+   ],
+   "thing": [
+    "books",
+    "the news",
+    "my notes",
+    "messages"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "At {hour}, the metro is ______ than at midday, because everyone is going to {place}.",
+  "options": [
+   "more crowded",
+   "very crowded",
+   "most crowded",
+   "crowded"
+  ],
+  "key": 0,
+  "why": "Crowded is a long adjective, so put more in front of it: more crowded. Long adjectives never take -er.",
+  "slots": {
+   "hour": [
+    "eight o'clock",
+    "half past seven",
+    "eight thirty",
+    "quarter to eight"
+   ],
+   "place": [
+    "work",
+    "school",
+    "university",
+    "their offices"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A football match at the stadium is ______ than a match on {screen}. You can hear the {sound}.",
+  "options": [
+   "more exciting",
+   "very exciting",
+   "most exciting",
+   "exciting"
+  ],
+  "key": 0,
+  "why": "Exciting is a long adjective, so put more in front of it: more exciting. Long adjectives never take -er.",
+  "slots": {
+   "screen": [
+    "TV",
+    "my phone",
+    "a laptop",
+    "a tablet"
+   ],
+   "sound": [
+    "fans",
+    "music",
+    "drums",
+    "crowd"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister is a ______ driver than my brother. She always drives slowly near {place} and stops for {who}.",
+  "options": [
+   "more careful",
+   "carefuller",
+   "most careful",
+   "careful"
+  ],
+  "key": 0,
+  "why": "Careful is a long adjective, so put more in front of it: more careful. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "schools",
+    "the market",
+    "parks",
+    "our house"
+   ],
+   "who": [
+    "people",
+    "children",
+    "old people",
+    "cyclists"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Working in the {place} is ______ than working in an office, so my {relative} goes to bed early every evening.",
+  "options": [
+   "more tiring",
+   "very tiring",
+   "most tiring",
+   "tiring"
+  ],
+  "key": 0,
+  "why": "Tiring is a long adjective, so put more in front of it: more tiring. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "fields",
+    "market",
+    "garden",
+    "factory"
+   ],
+   "relative": [
+    "uncle",
+    "aunt",
+    "cousin",
+    "father"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "For me, a walk in the {place} is ______ than a day at the mall. I listen to the {sound}.",
+  "options": [
+   "more relaxing",
+   "very relaxing",
+   "most relaxing",
+   "relaxing"
+  ],
+  "key": 0,
+  "why": "Relaxing is a long adjective, so put more in front of it: more relaxing. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "park",
+    "mountains",
+    "garden",
+    "forest"
+   ],
+   "sound": [
+    "birds",
+    "music",
+    "river",
+    "wind"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Life in my grandparents' {place} is ______ than life in the city. There are no {thing}.",
+  "options": [
+   "more peaceful",
+   "peacefuller",
+   "most peaceful",
+   "peaceful"
+  ],
+  "key": 0,
+  "why": "Peaceful is a long adjective, so put more in front of it: more peaceful. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "village",
+    "small town",
+    "mountain village",
+    "little town"
+   ],
+   "thing": [
+    "traffic jams",
+    "loud cars",
+    "crowds",
+    "big shops"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I am ______ before a speaking test than before a written test, so I practise with {person} at {place}.",
+  "options": [
+   "more nervous",
+   "nervouser",
+   "most nervous",
+   "nervous"
+  ],
+  "key": 0,
+  "why": "Nervous is a long adjective, so put more in front of it: more nervous. Long adjectives never take -er.",
+  "slots": {
+   "person": [
+    "my friend",
+    "my teacher",
+    "my sister",
+    "my tutor"
+   ],
+   "place": [
+    "home",
+    "school",
+    "the library",
+    "a café"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "For my little brother, a museum is ______ than a park. He wants to {action} all day.",
+  "options": [
+   "more boring",
+   "very boring",
+   "most boring",
+   "boring"
+  ],
+  "key": 0,
+  "why": "Boring is a long adjective, so put more in front of it: more boring. Long adjectives never take -er.",
+  "slots": {
+   "action": [
+    "run",
+    "play football",
+    "ride his bike",
+    "climb trees"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Clothes at the mall are ______ (expensive) than at the {place}. I buy my {item} there.",
+  "key": "more expensive",
+  "why": "Expensive is a long adjective, so put more in front of it: more expensive. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "market",
+    "street market",
+    "village market"
+   ],
+   "item": [
+    "shoes",
+    "jeans",
+    "T-shirts",
+    "jackets"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "My new {furniture} is ______ (comfortable) than the old one. I sit on it every {time}.",
+  "key": "more comfortable",
+  "why": "Comfortable is a long adjective, so put more in front of it: more comfortable. Long adjectives never take -er.",
+  "slots": {
+   "furniture": [
+    "sofa",
+    "chair",
+    "armchair",
+    "desk chair"
+   ],
+   "time": [
+    "evening",
+    "morning",
+    "day",
+    "weekend"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "This {book} is ______ (interesting) than the film. My {person} gave it to me.",
+  "key": "more interesting",
+  "why": "Interesting is a long adjective, so put more in front of it: more interesting. Long adjectives never take -er.",
+  "slots": {
+   "book": [
+    "book",
+    "story",
+    "novel",
+    "comic"
+   ],
+   "person": [
+    "teacher",
+    "aunt",
+    "cousin",
+    "best friend"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "The {subject} test was ______ (difficult) than the English test, so I need to study with {person}.",
+  "key": "more difficult",
+  "why": "Difficult is a long adjective, so put more in front of it: more difficult. Long adjectives never take -er.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "chemistry",
+    "history"
+   ],
+   "person": [
+    "my tutor",
+    "a friend",
+    "my brother",
+    "my teacher"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "I think Khiva is ______ (beautiful) than many big cities. The old {thing} are amazing, especially in the {time}.",
+  "key": "more beautiful",
+  "why": "Beautiful is a long adjective, so put more in front of it: more beautiful. Long adjectives never take -er.",
+  "slots": {
+   "thing": [
+    "walls",
+    "towers",
+    "streets",
+    "gates"
+   ],
+   "time": [
+    "evening",
+    "morning",
+    "spring",
+    "autumn"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Swimming in the {water} is ______ (dangerous) than swimming in a pool, so I always swim with {who}.",
+  "key": "more dangerous",
+  "why": "Dangerous is a long adjective, so put more in front of it: more dangerous. Long adjectives never take -er.",
+  "slots": {
+   "water": [
+    "river",
+    "canal",
+    "lake",
+    "sea"
+   ],
+   "who": [
+    "my father",
+    "a friend",
+    "my uncle",
+    "my brother"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Basketball is ______ (popular) than volleyball at our {place}. Many {people} play it after lessons.",
+  "key": "more popular",
+  "why": "Popular is a long adjective, so put more in front of it: more popular. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "university",
+    "lyceum"
+   ],
+   "people": [
+    "students",
+    "boys",
+    "girls",
+    "teachers"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Sleep is ______ (important) than games before an exam, so I go to bed at {time} and turn off my {device}.",
+  "key": "more important",
+  "why": "Important is a long adjective, so put more in front of it: more important. Long adjectives never take -er.",
+  "slots": {
+   "time": [
+    "ten",
+    "ten o'clock",
+    "half past nine",
+    "eleven"
+   ],
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "computer"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Bukhara is ______ (famous) than my home {town}. People come to see its old {thing}.",
+  "key": "more famous",
+  "why": "Famous is a long adjective, so put more in front of it: more famous. Long adjectives never take -er.",
+  "slots": {
+   "town": [
+    "town",
+    "village",
+    "city",
+    "district"
+   ],
+   "thing": [
+    "streets",
+    "buildings",
+    "markets",
+    "towers"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Our new {room} is ______ (modern) than the old one. It has {feature} and a big screen.",
+  "key": "more modern",
+  "why": "Modern is a long adjective, so put more in front of it: more modern. Long adjectives never take -er.",
+  "slots": {
+   "room": [
+    "classroom",
+    "computer room",
+    "library",
+    "reading room"
+   ],
+   "feature": [
+    "new desks",
+    "fast computers",
+    "air conditioning",
+    "bright lights"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Fresh {food} from my grandmother's {where} are ______ (delicious) than {food} from the supermarket.",
+  "key": "more delicious",
+  "why": "Delicious is a long adjective, so put more in front of it: more delicious. Long adjectives never take -er.",
+  "slots": {
+   "food": [
+    "tomatoes",
+    "cucumbers",
+    "apples",
+    "grapes"
+   ],
+   "where": [
+    "garden",
+    "village",
+    "farm",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "For me, a dictionary app is ______ (useful) than a paper dictionary, because I can use it on the {transport} or at {place}.",
+  "key": "more useful",
+  "why": "Useful is a long adjective, so put more in front of it: more useful. Long adjectives never take -er.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "plane"
+   ],
+   "place": [
+    "work",
+    "school",
+    "university",
+    "home"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "The bazaar is ______ (crowded) on Sunday than on weekdays, so we go early to buy {food} and {food2}.",
+  "key": "more crowded",
+  "why": "Crowded is a long adjective, so put more in front of it: more crowded. Long adjectives never take -er.",
+  "slots": {
+   "food": [
+    "fruit",
+    "meat",
+    "vegetables",
+    "bread"
+   ],
+   "food2": [
+    "rice",
+    "flour",
+    "tea",
+    "eggs"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "For my brother, {sport} is ______ (exciting) than {sport2}.",
+  "key": "more exciting",
+  "why": "Exciting is a long adjective, so put more in front of it: more exciting. Long adjectives never take -er.",
+  "slots": {
+   "sport": [
+    "football",
+    "basketball",
+    "kurash",
+    "wrestling"
+   ],
+   "sport2": [
+    "chess",
+    "golf",
+    "running",
+    "swimming"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "My father is ______ (careful) with money than me. He saves a little every {time} for {goal}.",
+  "key": "more careful",
+  "why": "Careful is a long adjective, so put more in front of it: more careful. Long adjectives never take -er.",
+  "slots": {
+   "time": [
+    "week",
+    "month",
+    "day",
+    "Friday"
+   ],
+   "goal": [
+    "holidays",
+    "a new car",
+    "my studies",
+    "our house"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "A long day at {place} is ______ (tiring) than a day at home, so I drink {drink} in the evening.",
+  "key": "more tiring",
+  "why": "Tiring is a long adjective, so put more in front of it: more tiring. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "university",
+    "work",
+    "school",
+    "college"
+   ],
+   "drink": [
+    "tea",
+    "green tea",
+    "warm milk",
+    "ayran"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Drinking tea with my {person} is ______ (relaxing) than watching videos on my {device}.",
+  "key": "more relaxing",
+  "why": "Relaxing is a long adjective, so put more in front of it: more relaxing. Long adjectives never take -er.",
+  "slots": {
+   "person": [
+    "grandmother",
+    "family",
+    "friends",
+    "parents"
+   ],
+   "device": [
+    "phone",
+    "tablet",
+    "laptop",
+    "computer"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "My mother is ______ (patient) than my father when she helps me with {subject}. She explains everything {how}.",
+  "key": "more patient",
+  "why": "Patient is a long adjective, so put more in front of it: more patient. Long adjectives never take -er.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "homework",
+    "chemistry"
+   ],
+   "how": [
+    "slowly",
+    "again",
+    "twice",
+    "carefully"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "My older brother is ______ (serious) than me. He studies {subject} {place}.",
+  "key": "more serious",
+  "why": "Serious is a long adjective, so put more in front of it: more serious. Long adjectives never take -er.",
+  "slots": {
+   "subject": [
+    "medicine",
+    "law",
+    "economics",
+    "engineering"
+   ],
+   "place": [
+    "in Tashkent",
+    "at university",
+    "in Moscow",
+    "in Samarkand"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with the comparative form of the adjective in brackets (more + adjective).",
+  "source": "Weddings in my grandparents' {place} are ______ (traditional) than weddings in the city. People dance to {music} all {time}.",
+  "key": "more traditional",
+  "why": "Traditional is a long adjective, so put more in front of it: more traditional. Long adjectives never take -er.",
+  "slots": {
+   "place": [
+    "village",
+    "town",
+    "mountain village",
+    "little town"
+   ],
+   "music": [
+    "old songs",
+    "folk music",
+    "live music",
+    "drums"
+   ],
+   "time": [
+    "night",
+    "evening",
+    "day",
+    "afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the long adjective in brackets. Keep the meaning.",
+  "source": "A bus ticket to {city} is cheaper than a {train} ticket.",
+  "hint": "A {train} ticket to {city} is ______ (expensive) than a bus ticket.",
+  "key": "more expensive",
+  "why": "Cheap takes -er, but expensive is a long adjective, so it takes more: more expensive.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Namangan",
+    "Termez"
+   ],
+   "train": [
+    "train",
+    "plane",
+    "fast train",
+    "sleeper train"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the long adjective in brackets. Keep the meaning.",
+  "source": "For me, {subject} is easier than {subject2}.",
+  "hint": "For me, {subject2} is ______ (difficult) than {subject}.",
+  "key": "more difficult",
+  "why": "Easy takes -ier, but difficult is a long adjective, so it takes more: more difficult.",
+  "slots": {
+   "subject": [
+    "English",
+    "history",
+    "art",
+    "music"
+   ],
+   "subject2": [
+    "maths",
+    "physics",
+    "chemistry",
+    "Russian"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the long adjective in brackets. Keep the meaning.",
+  "source": "For {who}, the park is safer than the main road.",
+  "hint": "For {who}, the main road is ______ (dangerous) than the park.",
+  "key": "more dangerous",
+  "why": "Safe takes -r, but dangerous is a long adjective, so it takes more: more dangerous.",
+  "slots": {
+   "who": [
+    "children",
+    "cyclists",
+    "runners",
+    "families"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the long adjective in brackets. Keep the meaning.",
+  "source": "This {task} is harder than the last one, so I need {help}.",
+  "hint": "This {task} is ______ (difficult) than the last one, so I need {help}.",
+  "key": "more difficult",
+  "why": "Hard and difficult mean the same here. Difficult is a long adjective, so it takes more.",
+  "slots": {
+   "task": [
+    "exercise",
+    "test",
+    "question",
+    "puzzle"
+   ],
+   "help": [
+    "some help",
+    "a break",
+    "a dictionary",
+    "my teacher"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the long adjective in brackets. Keep the meaning.",
+  "source": "Our {garden} is nicer in May than in {month}.",
+  "hint": "Our {garden} is ______ (beautiful) in May than in {month}.",
+  "key": "more beautiful",
+  "why": "Nice takes -r, but beautiful is a long adjective, so it takes more: more beautiful.",
+  "slots": {
+   "garden": [
+    "garden",
+    "park",
+    "street",
+    "village"
+   ],
+   "month": [
+    "January",
+    "February",
+    "November",
+    "December"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one comparison. Use the adjective in brackets and than.",
+  "source": "At the {shop}, the black {device} costs 4 million sum. The white one costs 3 million.",
+  "hint": "At the {shop}, the black {device} is ______ (expensive) than the white one.",
+  "key": "more expensive",
+  "why": "Four million is more money than three million. Expensive is long, so use more expensive.",
+  "slots": {
+   "shop": [
+    "mall",
+    "market",
+    "phone shop",
+    "electronics shop"
+   ],
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "watch"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one comparison. Use the adjective in brackets and than.",
+  "source": "Thirty students in our {group} play football. Only five play {sport}.",
+  "hint": "In our {group}, football is ______ (popular) than {sport}.",
+  "key": "more popular",
+  "why": "More people play football. Popular is a long adjective, so use more popular.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "school",
+    "college"
+   ],
+   "sport": [
+    "tennis",
+    "chess",
+    "volleyball",
+    "golf"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one comparison. Use the adjective in brackets and than.",
+  "source": "On the way to {city}, the train seat is soft and wide. The bus seat is hard and small.",
+  "hint": "On the way to {city}, the train seat is ______ (comfortable) than the bus seat.",
+  "key": "more comfortable",
+  "why": "A soft, wide seat feels better. Comfortable is a long adjective, so use more comfortable.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Karshi"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one comparison. Use the adjective in brackets and than.",
+  "source": "I read the book about {topic} in two days. I stopped the film about {topic} after ten minutes.",
+  "hint": "The book about {topic} was ______ (interesting) than the film.",
+  "key": "more interesting",
+  "why": "You finished the book but not the film. Interesting is a long adjective, so use more interesting.",
+  "slots": {
+   "topic": [
+    "space",
+    "animals",
+    "the Silk Road",
+    "football"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two facts into one comparison. Use the adjective in brackets and than.",
+  "source": "There are 200 people at the {place} near our {home} on Sunday. On Tuesday there are 50.",
+  "hint": "The {place} near our {home} is ______ (crowded) on Sunday than on Tuesday.",
+  "key": "more crowded",
+  "why": "Two hundred people is a lot more than fifty. Crowded is a long adjective, so use more crowded.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "park",
+    "mall",
+    "zoo"
+   ],
+   "home": [
+    "house",
+    "flat",
+    "school",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Long adjectives use more, not -er.",
+  "source": "This chair is comfortabler than the {other} at {place}.",
+  "hint": "This chair is ______ (comfortable) than the {other} at {place}.",
+  "key": "more comfortable",
+  "why": "Comfortable is a long adjective, so say more comfortable, never comfortabler.",
+  "slots": {
+   "other": [
+    "sofa",
+    "old chair",
+    "bench",
+    "armchair"
+   ],
+   "place": [
+    "home",
+    "school",
+    "work",
+    "my office"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Long adjectives use more, not -er.",
+  "source": "My new {club} is interestinger than the old one, and the teacher is {kind}.",
+  "hint": "My new {club} is ______ (interesting) than the old one, and the teacher is {kind}.",
+  "key": "more interesting",
+  "why": "Interesting is a long adjective, so say more interesting, never interestinger.",
+  "slots": {
+   "club": [
+    "class",
+    "course",
+    "club",
+    "group"
+   ],
+   "kind": [
+    "kind",
+    "friendly",
+    "funny",
+    "young"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Long adjectives use more, not -er.",
+  "source": "A plane ticket to {city} is expensiver than a train ticket, but the flight is {short}.",
+  "hint": "A plane ticket to {city} is ______ (expensive) than a train ticket, but the flight is {short}.",
+  "key": "more expensive",
+  "why": "Expensive is a long adjective, so say more expensive, never expensiver.",
+  "slots": {
+   "city": [
+    "Nukus",
+    "Termez",
+    "Urgench",
+    "Fergana"
+   ],
+   "short": [
+    "short",
+    "quick",
+    "only one hour",
+    "under two hours"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Long adjectives use more, not -er.",
+  "source": "Climbing in the {place} is dangerouser than walking in the {place2}.",
+  "hint": "Climbing in the {place} is ______ (dangerous) than walking in the {place2}.",
+  "key": "more dangerous",
+  "why": "Dangerous is a long adjective, so say more dangerous, never dangerouser.",
+  "slots": {
+   "place": [
+    "mountains",
+    "hills",
+    "canyon",
+    "gorge"
+   ],
+   "place2": [
+    "park",
+    "garden",
+    "yard",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Long adjectives use more, not -er.",
+  "source": "For me, my {thing} is usefuller than my laptop at {place}.",
+  "hint": "For me, my {thing} is ______ (useful) than my laptop at {place}.",
+  "key": "more useful",
+  "why": "Useful has two syllables and is a long adjective, so say more useful, never usefuller.",
+  "slots": {
+   "thing": [
+    "phone",
+    "notebook",
+    "tablet",
+    "dictionary"
+   ],
+   "place": [
+    "school",
+    "work",
+    "university",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two school or university subjects. Which is more interesting for you?",
+  "requiredElement": "more + a long adjective + than",
+  "constraints": [
+   "exactly one sentence",
+   "must name two subjects",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two kinds of transport in your city.",
+  "requiredElement": "more comfortable, more expensive or another more + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must name two kinds of transport",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two dishes you know. Which one is more delicious?",
+  "requiredElement": "more delicious or another more + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must name two dishes",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two places in Uzbekistan you would like to visit.",
+  "requiredElement": "more beautiful, more famous or another more + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must name two places",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two sports or hobbies you like.",
+  "requiredElement": "more exciting, more relaxing or another more + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must name two sports or hobbies",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two people in your family. Use careful, patient or serious.",
+  "requiredElement": "more careful, more patient or more serious + than",
+  "constraints": [
+   "exactly one sentence",
+   "must name two family members",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing your phone with a book or a laptop. Which is more useful for you?",
+  "requiredElement": "more useful + than",
+  "constraints": [
+   "exactly one sentence",
+   "must name two things",
+   "must use than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with a short adjective (-er) and one with a long adjective (more).",
+  "requiredElement": "one -er comparative and one more + adjective comparative",
+  "constraints": [
+   "exactly two sentences",
+   "one -er and one more",
+   "must use than in both"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare life in a big city and life in a village. Which do you prefer, and why? Write three or four sentences.",
+  "targetGrammar": "more + long adjective + than",
+  "lookFor": [
+   "more peaceful, more crowded, more expensive or similar",
+   "than",
+   "no -er on long adjectives"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare two ways of learning English: with an app or with a teacher. Write three or four sentences.",
+  "targetGrammar": "more + long adjective + than for opinions",
+  "lookFor": [
+   "more useful, more interesting or more difficult",
+   "than",
+   "a reason for your opinion"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A tourist asks you about two cities in Uzbekistan. Compare them for the tourist. Write three or four sentences.",
+  "targetGrammar": "more + long adjective + than for places",
+  "lookFor": [
+   "more beautiful, more famous or more modern",
+   "than",
+   "two cities named"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your school or university now with your school a few years ago. Write three or four sentences.",
+  "targetGrammar": "more + long adjective + than for change over time",
+  "lookFor": [
+   "more difficult, more interesting or more modern",
+   "than",
+   "no most in a comparison of two things"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare two jobs you might like to do in the future. Write three or four sentences.",
+  "targetGrammar": "more + long adjective + than for jobs",
+  "lookFor": [
+   "more interesting, more tiring, more important or similar",
+   "than",
+   "a mix of more and -er where right"
+  ]
+ }
+]

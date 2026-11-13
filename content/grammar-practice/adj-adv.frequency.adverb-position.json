@@ -1,0 +1,1786 @@
+[
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandmother ______ green tea after {meal} with her {who}.",
+  "options": [
+   "usually drinks",
+   "drinks usually",
+   "is usually drinks",
+   "usually drinking"
+  ],
+  "key": 0,
+  "why": "Usually goes before the main verb: usually drinks. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "work"
+   ],
+   "who": [
+    "friends",
+    "sisters",
+    "neighbours",
+    "daughter"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ up early on {days} and {act} before breakfast.",
+  "options": [
+   "always get",
+   "get always",
+   "am always get",
+   "always getting"
+  ],
+  "key": 0,
+  "why": "Always goes before the main verb: always get. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "days": [
+    "school days",
+    "weekdays",
+    "workdays",
+    "Mondays"
+   ],
+   "act": [
+    "make my bed",
+    "do exercises",
+    "walk the dog",
+    "read the news"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother ______ hungry after {training}. He eats two {food}.",
+  "options": [
+   "is always",
+   "always is",
+   "always",
+   "does always"
+  ],
+  "key": 0,
+  "why": "With be, always goes after it: is always. Don't leave out be.",
+  "slots": {
+   "training": [
+    "football training",
+    "school",
+    "the gym",
+    "swimming"
+   ],
+   "food": [
+    "sandwiches",
+    "plates of plov",
+    "bowls of soup",
+    "samsas"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ {sport} in the {place} after school.",
+  "options": [
+   "often play",
+   "play often",
+   "are often play",
+   "often playing"
+  ],
+  "key": 0,
+  "why": "Often goes before the main verb: often play. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "sport": [
+    "football",
+    "volleyball",
+    "basketball",
+    "table tennis"
+   ],
+   "place": [
+    "yard",
+    "park",
+    "gym",
+    "sports hall"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little brother ______ {food}. He doesn't like the {thing}.",
+  "options": [
+   "never eats",
+   "eats never",
+   "is never eats",
+   "never eating"
+  ],
+  "key": 0,
+  "why": "Never goes before the main verb: never eats. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "food": [
+    "onions",
+    "carrots",
+    "fish",
+    "spinach"
+   ],
+   "thing": [
+    "taste",
+    "smell",
+    "colour",
+    "look of it"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My parents ______ a taxi to the {place} when it is {weather}.",
+  "options": [
+   "sometimes take",
+   "take sometimes",
+   "are sometimes take",
+   "sometimes taking"
+  ],
+  "key": 0,
+  "why": "Sometimes goes before the main verb: sometimes take. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "station",
+    "airport",
+    "hospital"
+   ],
+   "weather": [
+    "raining",
+    "snowing",
+    "very hot",
+    "very late"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The buses in our {place} ______ late in the morning. They come every {n} minutes.",
+  "options": [
+   "are never",
+   "never are",
+   "never",
+   "do never"
+  ],
+  "key": 0,
+  "why": "With be, never goes after it: are never. Don't leave out be.",
+  "slots": {
+   "place": [
+    "town",
+    "city",
+    "district",
+    "street"
+   ],
+   "n": [
+    "five",
+    "ten",
+    "seven",
+    "fifteen"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ my homework in the {room} after {time}.",
+  "options": [
+   "usually do",
+   "do usually",
+   "am usually do",
+   "usually doing"
+  ],
+  "key": 0,
+  "why": "Usually goes before the main verb: usually do. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "library",
+    "living room",
+    "bedroom"
+   ],
+   "time": [
+    "dinner",
+    "school",
+    "lunch",
+    "training"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziza ______ her grandmother on {day} evenings and tells her about {topic}.",
+  "options": [
+   "always calls",
+   "calls always",
+   "is always calls",
+   "always calling"
+  ],
+  "key": 0,
+  "why": "Always goes before the main verb: always calls. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Sunday",
+    "Saturday",
+    "Wednesday"
+   ],
+   "topic": [
+    "school",
+    "her week",
+    "her friends",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My friends and I ______ {program} on Friday nights at {whose} house.",
+  "options": [
+   "often watch",
+   "watch often",
+   "are often watch",
+   "often watching"
+  ],
+  "key": 0,
+  "why": "Often goes before the main verb: often watch. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "program": [
+    "films",
+    "football",
+    "cartoons",
+    "comedy shows"
+   ],
+   "whose": [
+    "Sardor's",
+    "my",
+    "Olga's",
+    "Timur's"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ tired on {day} because I have {n} lessons.",
+  "options": [
+   "am always",
+   "always am",
+   "always",
+   "do always"
+  ],
+  "key": 0,
+  "why": "With be, always goes after it: am always. Don't leave out be.",
+  "slots": {
+   "day": [
+    "Mondays",
+    "Tuesdays",
+    "Thursdays",
+    "Fridays"
+   ],
+   "n": [
+    "seven",
+    "eight",
+    "six",
+    "nine"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher ______ her phone in class. She keeps it in her {bag} until {time}.",
+  "options": [
+   "never uses",
+   "uses never",
+   "is never uses",
+   "never using"
+  ],
+  "key": 0,
+  "why": "Never goes before the main verb: never uses. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "bag": [
+    "bag",
+    "handbag",
+    "desk",
+    "coat pocket"
+   ],
+   "time": [
+    "lunch",
+    "the break",
+    "the end of the day",
+    "home time"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father ______ plov in a big {pot} {when}.",
+  "options": [
+   "sometimes cooks",
+   "cooks sometimes",
+   "is sometimes cooks",
+   "sometimes cooking"
+  ],
+  "key": 0,
+  "why": "Sometimes goes before the main verb: sometimes cooks. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "pot": [
+    "kazan",
+    "pot",
+    "iron pot",
+    "family kazan"
+   ],
+   "when": [
+    "at weekends",
+    "on holidays",
+    "for guests",
+    "on Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children ______ to school with their {person}, but today they are going by {transport}.",
+  "options": [
+   "usually walk",
+   "walk usually",
+   "are usually walk",
+   "usually walking"
+  ],
+  "key": 0,
+  "why": "Usually goes before the main verb: usually walk. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "person": [
+    "mother",
+    "older brother",
+    "friends",
+    "neighbours"
+   ],
+   "transport": [
+    "car",
+    "bus",
+    "taxi",
+    "bike"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {room} ______ cold in winter. My father fixed the {thing} last year.",
+  "options": [
+   "is never",
+   "never is",
+   "never",
+   "does never"
+  ],
+  "key": 0,
+  "why": "With be, never goes after it: is never. Don't leave out be.",
+  "slots": {
+   "room": [
+    "flat",
+    "house",
+    "classroom",
+    "kitchen"
+   ],
+   "thing": [
+    "windows",
+    "heating",
+    "heater",
+    "door"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle ______ a {clothes} at work because the {place} is cold.",
+  "options": [
+   "always wears",
+   "wears always",
+   "is always wears",
+   "always wearing"
+  ],
+  "key": 0,
+  "why": "Always goes before the main verb: always wears. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "clothes": [
+    "jacket",
+    "warm sweater",
+    "hat",
+    "coat"
+   ],
+   "place": [
+    "office",
+    "factory",
+    "building",
+    "workshop"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousins ______ happy at Navruz. They eat {food} and play in the {place}.",
+  "options": [
+   "are always",
+   "always are",
+   "always",
+   "do always"
+  ],
+  "key": 0,
+  "why": "With be, always goes after it: are always. Don't leave out be.",
+  "slots": {
+   "food": [
+    "sumalak",
+    "plov",
+    "sweets",
+    "halim"
+   ],
+   "place": [
+    "yard",
+    "park",
+    "street",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ late for my English lessons. I leave home at {time} and take the {transport}.",
+  "options": [
+   "am never",
+   "never am",
+   "never",
+   "do never"
+  ],
+  "key": 0,
+  "why": "With be, never goes after it: am never. Don't leave out be.",
+  "slots": {
+   "time": [
+    "seven",
+    "half past seven",
+    "eight",
+    "quarter past seven"
+   ],
+   "transport": [
+    "metro",
+    "bus",
+    "minibus",
+    "early bus"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The bazaar ______ busy on {day}. People buy {food} for the week.",
+  "options": [
+   "is always",
+   "always is",
+   "always",
+   "does always"
+  ],
+  "key": 0,
+  "why": "With be, always goes after it: is always. Don't leave out be.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Saturdays",
+    "Sundays"
+   ],
+   "food": [
+    "meat",
+    "fruit",
+    "vegetables",
+    "rice"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandfather ______ bored. He reads {thing} and works in his {place} every day.",
+  "options": [
+   "is never",
+   "never is",
+   "never",
+   "does never"
+  ],
+  "key": 0,
+  "why": "With be, never goes after it: is never. Don't leave out be.",
+  "slots": {
+   "thing": [
+    "books",
+    "the newspaper",
+    "stories",
+    "poems"
+   ],
+   "place": [
+    "garden",
+    "workshop",
+    "yard",
+    "orchard"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with usually and the right form of the verb in brackets. Put usually in the right place.",
+  "source": "My sister ______ (walk) to {place} with her {friend}.",
+  "key": "usually walks",
+  "why": "Usually goes before the main verb: usually walks. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "the metro",
+    "work"
+   ],
+   "friend": [
+    "friends",
+    "classmate",
+    "best friend",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with always and the right form of the verb in brackets. Put always in the right place.",
+  "source": "I ______ (brush) my teeth before {time} and after {meal}.",
+  "key": "always brush",
+  "why": "Always goes before the main verb: always brush. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "time": [
+    "bed",
+    "school",
+    "work",
+    "sleeping"
+   ],
+   "meal": [
+    "breakfast",
+    "dinner",
+    "lunch",
+    "sweets"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with often and the right form of the verb in brackets. Put often in the right place.",
+  "source": "We ______ (visit) our grandparents in {city} at {time}.",
+  "key": "often visit",
+  "why": "Often goes before the main verb: often visit. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "time": [
+    "weekends",
+    "the weekend",
+    "Navruz",
+    "New Year"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with never and the right form of the verb in brackets. Put never in the right place.",
+  "source": "My father ______ (drink) {drink} {time}. He can't sleep after it.",
+  "key": "never drinks",
+  "why": "Never goes before the main verb: never drinks. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "strong tea",
+    "black tea",
+    "espresso"
+   ],
+   "time": [
+    "in the evening",
+    "after dinner",
+    "at night",
+    "after six"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with sometimes and the right form of the verb in brackets. Put sometimes in the right place.",
+  "source": "I ______ (help) my mother with {task} on {day}.",
+  "key": "sometimes help",
+  "why": "Sometimes goes before the main verb: sometimes help. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "task": [
+    "the cooking",
+    "the shopping",
+    "the cleaning",
+    "the washing"
+   ],
+   "day": [
+    "Saturdays",
+    "Sundays",
+    "Fridays",
+    "holidays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with usually and the right form of the verb in brackets. Put usually in the right place.",
+  "source": "We ______ (have) {meal} at seven o'clock in the {room}.",
+  "key": "usually have",
+  "why": "Usually goes before the main verb: usually have. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "meal": [
+    "dinner",
+    "breakfast",
+    "tea",
+    "supper"
+   ],
+   "room": [
+    "kitchen",
+    "living room",
+    "yard",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with always and the right form of the verb in brackets. Put always in the right place.",
+  "source": "Bekzod ______ (do) his homework at the {place} before he {fun}.",
+  "key": "always does",
+  "why": "Always goes before the main verb: always does. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "place": [
+    "kitchen table",
+    "library",
+    "desk in his room",
+    "table by the window"
+   ],
+   "fun": [
+    "plays games",
+    "watches TV",
+    "goes out",
+    "meets friends"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with often and the right form of the verb in brackets. Put often in the right place.",
+  "source": "My friends and I ______ (go) to the {place} after classes. We {activity} there.",
+  "key": "often go",
+  "why": "Often goes before the main verb: often go. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "place": [
+    "park",
+    "café",
+    "library",
+    "student centre"
+   ],
+   "activity": [
+    "talk",
+    "relax",
+    "chat",
+    "meet other students"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with never and the right form of the verb in brackets. Put never in the right place.",
+  "source": "My grandmother ______ (watch) {program}. She prefers {thing}.",
+  "key": "never watches",
+  "why": "Never goes before the main verb: never watches. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "program": [
+    "cartoons",
+    "football",
+    "action films",
+    "the news"
+   ],
+   "thing": [
+    "books",
+    "music",
+    "the radio",
+    "her garden"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with sometimes and the right form of the verb in brackets. Put sometimes in the right place.",
+  "source": "My brother ______ (play) chess with our {relative} in the {place}.",
+  "key": "sometimes plays",
+  "why": "Sometimes goes before the main verb: sometimes plays. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "relative": [
+    "grandfather",
+    "uncle",
+    "father",
+    "cousin"
+   ],
+   "place": [
+    "park",
+    "yard",
+    "garden",
+    "teahouse"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with usually and the right form of the verb in brackets. Put usually in the right place.",
+  "source": "Students ______ (take) the metro to {place} because it is {reason}.",
+  "key": "usually take",
+  "why": "Usually goes before the main verb: usually take. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "place": [
+    "university",
+    "college",
+    "the city centre",
+    "school"
+   ],
+   "reason": [
+    "fast",
+    "cheap",
+    "warm",
+    "safe"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with always and the right form of the verb in brackets. Put always in the right place.",
+  "source": "I ______ (forget) my {thing} at home on {day}.",
+  "key": "always forget",
+  "why": "Always goes before the main verb: always forget. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "thing": [
+    "umbrella",
+    "keys",
+    "notebook",
+    "lunch"
+   ],
+   "day": [
+    "Mondays",
+    "Fridays",
+    "Tuesdays",
+    "Thursdays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with usually and the right form of the verb in brackets. Put usually in the right place.",
+  "source": "My little brother ______ (be) sleepy after {meal}, so he sleeps on the {place}.",
+  "key": "is usually",
+  "why": "With be, usually goes after it: is usually. Don't leave out be.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "school",
+    "dinner",
+    "swimming"
+   ],
+   "place": [
+    "sofa",
+    "bed",
+    "carpet",
+    "floor"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with often and the right form of the verb in brackets. Put often in the right place.",
+  "source": "The roads ______ (be) icy in {month}, so we walk {how}.",
+  "key": "are often",
+  "why": "With be, often goes after it: are often. Don't leave out be.",
+  "slots": {
+   "month": [
+    "January",
+    "February",
+    "December",
+    "winter"
+   ],
+   "how": [
+    "slowly",
+    "carefully",
+    "very slowly",
+    "very carefully"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with sometimes and the right form of the verb in brackets. Put sometimes in the right place.",
+  "source": "I ______ (be) late for {thing} because of the {problem}.",
+  "key": "am sometimes",
+  "why": "With be, sometimes goes after it: am sometimes. Don't leave out be.",
+  "slots": {
+   "thing": [
+    "school",
+    "work",
+    "class",
+    "the bus"
+   ],
+   "problem": [
+    "traffic",
+    "rain",
+    "snow",
+    "long queue"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with never and the right form of the verb in brackets. Put never in the right place.",
+  "source": "Our English teacher ______ (be) angry. She {does} when we make mistakes.",
+  "key": "is never",
+  "why": "With be, never goes after it: is never. Don't leave out be.",
+  "slots": {
+   "does": [
+    "smiles",
+    "helps us",
+    "explains again",
+    "stays calm"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with always and the right form of the verb in brackets. Put always in the right place.",
+  "source": "My parents ______ (be) busy on {day}. They work at the {place}.",
+  "key": "are always",
+  "why": "With be, always goes after it: are always. Don't leave out be.",
+  "slots": {
+   "day": [
+    "Mondays",
+    "weekdays",
+    "Saturdays",
+    "Fridays"
+   ],
+   "place": [
+    "bazaar",
+    "hospital",
+    "shop",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with usually and the right form of the verb in brackets. Put usually in the right place.",
+  "source": "The metro ______ (be) crowded at {time}, so I {act}.",
+  "key": "is usually",
+  "why": "With be, usually goes after it: is usually. Don't leave out be.",
+  "slots": {
+   "time": [
+    "eight o'clock",
+    "rush hour",
+    "half past eight",
+    "nine o'clock"
+   ],
+   "act": [
+    "stand",
+    "read on my phone",
+    "listen to music",
+    "leave early"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with often and the right form of the verb in brackets. Put often in the right place.",
+  "source": "In {month}, it ______ (be) very hot in {city}.",
+  "key": "is often",
+  "why": "With be, often goes after it: is often. Don't leave out be.",
+  "slots": {
+   "month": [
+    "July",
+    "August",
+    "June",
+    "early September"
+   ],
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Termez",
+    "Samarkand"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete the sentence with never and the right form of the verb in brackets. Put never in the right place.",
+  "source": "I ______ (be) bored at my grandparents' house. We {activity} together.",
+  "key": "am never",
+  "why": "With be, never goes after it: am never. Don't leave out be.",
+  "slots": {
+   "activity": [
+    "cook",
+    "play chess",
+    "work in the garden",
+    "tell stories"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "We play {sport} on {day}.",
+  "hint": "We ______ (often) {sport} on {day}.",
+  "key": "often play",
+  "why": "Often goes before the main verb: often play. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "sport": [
+    "football",
+    "volleyball",
+    "chess",
+    "tennis"
+   ],
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "Fridays",
+    "holidays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "My mother makes {food} for {meal}.",
+  "hint": "My mother ______ (usually) {food} for {meal}.",
+  "key": "usually makes",
+  "why": "Usually goes before the main verb: usually makes. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "food": [
+    "eggs",
+    "porridge",
+    "pancakes",
+    "soup"
+   ],
+   "meal": [
+    "breakfast",
+    "dinner",
+    "guests",
+    "lunch"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "I check my phone in {place}.",
+  "hint": "I ______ (never) my phone in {place}.",
+  "key": "never check",
+  "why": "Never goes before the main verb: never check. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "place": [
+    "class",
+    "the library",
+    "lessons",
+    "the cinema"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "Timur goes to the gym after {thing} with his {person}.",
+  "hint": "Timur ______ (always) to the gym after {thing} with his {person}.",
+  "key": "always goes",
+  "why": "Always goes before the main verb: always goes. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "thing": [
+    "work",
+    "school",
+    "lessons",
+    "college"
+   ],
+   "person": [
+    "brother",
+    "friend",
+    "father",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "They eat {food} at the {place}.",
+  "hint": "They ______ (sometimes) {food} at the {place}.",
+  "key": "sometimes eat",
+  "why": "Sometimes goes before the main verb: sometimes eat. Don't add be, and don't put it between the verb and the words after it.",
+  "slots": {
+   "food": [
+    "samsa",
+    "shashlik",
+    "plov",
+    "soup"
+   ],
+   "place": [
+    "café",
+    "canteen",
+    "teahouse",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "My sister is tired after {thing} on {day}.",
+  "hint": "My sister ______ (often) tired after {thing} on {day}.",
+  "key": "is often",
+  "why": "With be, often goes after it: is often. Don't leave out be.",
+  "slots": {
+   "thing": [
+    "work",
+    "school",
+    "training",
+    "her lessons"
+   ],
+   "day": [
+    "Mondays",
+    "Fridays",
+    "weekdays",
+    "Thursdays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "The {place} in our {town} is closed on Mondays.",
+  "hint": "The {place} in our {town} ______ (always) closed on Mondays.",
+  "key": "is always",
+  "why": "With be, always goes after it: is always. Don't leave out be.",
+  "slots": {
+   "place": [
+    "museum",
+    "library",
+    "theatre",
+    "gallery"
+   ],
+   "town": [
+    "town",
+    "city",
+    "district",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "I am hungry after {thing}.",
+  "hint": "I ______ (usually) hungry after {thing}.",
+  "key": "am usually",
+  "why": "With be, usually goes after it: am usually. Don't leave out be.",
+  "slots": {
+   "thing": [
+    "football",
+    "swimming",
+    "school",
+    "the gym"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "We are late for {thing} on {day}.",
+  "hint": "We ______ (never) late for {thing} on {day}.",
+  "key": "are never",
+  "why": "With be, never goes after it: are never. Don't leave out be.",
+  "slots": {
+   "thing": [
+    "class",
+    "school",
+    "work",
+    "lessons"
+   ],
+   "day": [
+    "Mondays",
+    "rainy days",
+    "Fridays",
+    "snowy days"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the word in brackets to the sentence in the right place.",
+  "source": "In {city}, the weather is cold in {month}.",
+  "hint": "In {city}, the weather ______ (sometimes) cold in {month}.",
+  "key": "is sometimes",
+  "why": "With be, sometimes goes after it: is sometimes. Don't leave out be.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Fergana",
+    "Nukus"
+   ],
+   "month": [
+    "April",
+    "March",
+    "October",
+    "November"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The word in brackets is in the wrong place. Rewrite the sentence correctly.",
+  "source": "My father drinks usually coffee at {place} with {who}.",
+  "hint": "My father ______ (usually) coffee at {place} with {who}.",
+  "key": "usually drinks",
+  "why": "Usually goes before the main verb, not between drinks and coffee: usually drinks.",
+  "slots": {
+   "place": [
+    "work",
+    "breakfast",
+    "the office",
+    "home"
+   ],
+   "who": [
+    "his friends",
+    "my mother",
+    "his colleagues",
+    "my uncle"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The word in brackets is in the wrong place. Rewrite the sentence correctly.",
+  "source": "She always is late for {thing} on {day}.",
+  "hint": "She ______ (always) late for {thing} on {day}.",
+  "key": "is always",
+  "why": "With be, always comes after it: is always.",
+  "slots": {
+   "thing": [
+    "class",
+    "the bus",
+    "work",
+    "lessons"
+   ],
+   "day": [
+    "Mondays",
+    "Fridays",
+    "Tuesdays",
+    "Wednesdays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The word in brackets is in the wrong place. Rewrite the sentence correctly.",
+  "source": "I play often {game} with my {person}.",
+  "hint": "I ______ (often) {game} with my {person}.",
+  "key": "often play",
+  "why": "Often goes before the main verb, not between play and the game: often play.",
+  "slots": {
+   "game": [
+    "chess",
+    "football",
+    "tennis",
+    "video games"
+   ],
+   "person": [
+    "brother",
+    "cousin",
+    "friends",
+    "father"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The word in brackets is in the wrong place. Rewrite the sentence correctly.",
+  "source": "He is usually works at the {place} on {day}.",
+  "hint": "He ______ (usually) at the {place} on {day}.",
+  "key": "usually works",
+  "why": "Works is the main verb, so don't add is: usually works.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "shop",
+    "hospital",
+    "factory"
+   ],
+   "day": [
+    "Saturdays",
+    "weekdays",
+    "Mondays",
+    "Sundays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The word in brackets is in the wrong place. Rewrite the sentence correctly.",
+  "source": "They never are at home on {day} because they visit {who}.",
+  "hint": "They ______ (never) at home on {day} because they visit {who}.",
+  "key": "are never",
+  "why": "With be, never comes after it: are never.",
+  "slots": {
+   "day": [
+    "Saturdays",
+    "Sundays",
+    "Fridays",
+    "holidays"
+   ],
+   "who": [
+    "their grandparents",
+    "friends",
+    "their cousins",
+    "relatives"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you always do in the morning.",
+  "requiredElement": "always before the main verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use I",
+   "must use always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you never eat or drink.",
+  "requiredElement": "never before the main verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use I",
+   "must use never"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how you usually get to school, university or work.",
+  "requiredElement": "usually before the main verb",
+  "constraints": [
+   "exactly one sentence",
+   "must name a kind of transport",
+   "must use usually"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how you often feel on Monday mornings.",
+  "requiredElement": "be + often + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must use am or is",
+   "often after be"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about someone in your family who is always busy, happy or late.",
+  "requiredElement": "be + always + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must name a family member",
+   "always after is"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you sometimes do at the weekend with friends.",
+  "requiredElement": "sometimes before the main verb",
+  "constraints": [
+   "exactly one sentence",
+   "must include at the weekend",
+   "must use sometimes"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place in your city that is never quiet.",
+  "requiredElement": "be + never + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must name a place",
+   "never after is"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about your evenings: one with a main verb and one with be.",
+  "requiredElement": "a frequency adverb before a main verb and after be",
+  "constraints": [
+   "exactly two sentences",
+   "one adverb before a main verb",
+   "one adverb after be"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a normal school or work day for you, from morning to evening. Use always, usually, often, sometimes and never. Write three or four sentences.",
+  "targetGrammar": "frequency adverbs before the main verb",
+  "lookFor": [
+   "adverb before the main verb",
+   "no adverb between the verb and its object",
+   "at least three different adverbs"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your weekends. What do you usually do, and what do you never do? Write three or four sentences.",
+  "targetGrammar": "frequency adverbs in habits",
+  "lookFor": [
+   "usually and never before the main verb",
+   "no be before a main verb",
+   "at weekends or at the weekend"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how you feel at different times of the week. Are you often tired? Are you always happy on Fridays? Write three or four sentences.",
+  "targetGrammar": "frequency adverbs after be",
+  "lookFor": [
+   "am, is or are before the adverb",
+   "an adjective after the adverb",
+   "no missing be"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe someone in your family and their habits. Write three or four sentences.",
+  "targetGrammar": "frequency adverbs with be and with main verbs",
+  "lookFor": [
+   "adverb after be",
+   "adverb before the main verb",
+   "he or she with the -s form"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe what you eat and drink in a normal week. Write three or four sentences.",
+  "targetGrammar": "frequency adverbs before main verbs about food",
+  "lookFor": [
+   "often, sometimes or never before eat or drink",
+   "no adverb after the verb",
+   "food and drink named"
+  ]
+ }
+]

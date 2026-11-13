@@ -91,7 +91,7 @@
 90	B	verb-patterns.gerund-infinitive.want-infinitive	A2	1	todo	want + to-infinitive
 91	B	verb-patterns.gerund-infinitive.would-like-infinitive	A2	1	todo	would like + to-infinitive
 92	B	verb-patterns.object-infinitive.let-bare	A2	1	todo	let + object + bare infinitive
-93	B	adj-adv.frequency.adverb-position	A1	2	todo	Frequency adverb before the main verb | Frequency adverb AFTER be
+93	B	adj-adv.frequency.adverb-position	A1	2	live	Frequency adverb before the main verb | Frequency adverb AFTER be
 94	B	adj-adv.frequency.always	A1	1	todo	always for a fixed routine
 95	B	adj-adv.frequency.never	A1	2	todo	never for zero frequency | never with a positive verb (no double negative)
 96	B	adj-adv.frequency.rarely	A1	1	todo	rarely ≈ once a week
@@ -99,13 +99,13 @@
 98	B	adj-adv.adjective-form.adjective-after-be	A2	1	todo	Adjective (not adverb) after be/feel/look
 99	B	adj-adv.adverb-form.irregular-adverb	A2	2	todo	well is the adverb of good | hard is both adjective and adverb; 'hardly' means 'almost not'
 100	B	adj-adv.adverb-form.ly-adverb	A2	2	todo	-ly adverb modifies a verb | Forming -ly adverb from an adjective ending in -y
-101	B	comparison.comparative.er-comparative	A1	3	todo	-er comparative of a short adjective with 'than' | Spelling of -er with a final consonant doubled | -er comparative (not 'more fast')
+101	B	comparison.comparative.er-comparative	A1	3	live	-er comparative of a short adjective with 'than' | Spelling of -er with a final consonant doubled | -er comparative (not 'more fast')
 102	B	comparison.comparative.double-comparative-error	A2	1	todo	Not combining more with -er
 103	B	comparison.comparative.less-comparative	A2	1	todo	less + adjective + than
-104	B	comparison.comparative.more-comparative	A2	1	todo	more + long adjective
-105	B	comparison.superlative.est-superlative	A2	1	todo	-iest spelling with 'the'
+104	B	comparison.comparative.more-comparative	A2	1	live	more + long adjective
+105	B	comparison.superlative.est-superlative	A2	1	live	-iest spelling with 'the'
 106	B	comparison.superlative.irregular-superlative	A2	1	todo	best as superlative of good, with 'the'
-107	B	comparison.equality.as-as	A2	1	todo	as + adj + as
+107	B	comparison.equality.as-as	A2	1	live	as + adj + as
 108	B	modals.ability-permission.can-ability	A1	1	todo	can + base verb for ability
 109	B	modals.ability-permission.can-form	A1	2	todo	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')
 110	B	modals.ability-permission.can-question	A1	1	todo	Modal question: can + subject + verb

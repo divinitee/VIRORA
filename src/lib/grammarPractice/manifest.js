@@ -2,6 +2,76 @@
 // Pool sizes per topic and stage, counting slot expansion. Lets the node map
 // render real numbers without loading a single bank.
 export const PRACTICE_MANIFEST = {
+ "adj-adv.frequency.adverb-position": {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "adverb-position",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 296,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.comparative.er-comparative": {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "er-comparative",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 368,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.comparative.more-comparative": {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "more-comparative",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 368,
+   "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.equality.as-as": {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "as-as",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 296,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.superlative.est-superlative": {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "est-superlative",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.articles.a-an": {
   "domain": "nouns-articles",
   "branch": "articles",
