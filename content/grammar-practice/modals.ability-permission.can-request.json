@@ -1,0 +1,1749 @@
+[
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It's hot in here. ______ you open the {thing}, please, {name}?",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "thing": [
+    "window",
+    "door",
+    "windows",
+    "balcony door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My bags are very heavy. ______ you help me {where}, please, {name}?",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "where": [
+    "with them",
+    "up the stairs",
+    "to the car",
+    "to the taxi"
+   ],
+   "name": [
+    "Bobur",
+    "Aziza",
+    "Dad",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sorry, I don't understand. ______ you say that {how}, please, {name}?",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "how": [
+    "again",
+    "more slowly",
+    "in English",
+    "one more time"
+   ],
+   "name": [
+    "Ms Petrova",
+    "Mr Aliev",
+    "Kamila",
+    "Bobur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you lend me {money} for the {thing}, please?",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "money": [
+    "5,000 sum",
+    "some money",
+    "10,000 sum",
+    "a little money"
+   ],
+   "thing": [
+    "bus",
+    "taxi",
+    "tickets",
+    "metro"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Excuse me, ______ you tell me the way to the {place}, please?",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "bazaar",
+    "hospital"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you turn down the {thing}, please? I'm trying to {act}.",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "thing": [
+    "music",
+    "TV",
+    "radio",
+    "volume"
+   ],
+   "act": [
+    "sleep",
+    "study",
+    "read",
+    "work"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you take a photo of {who} {where}, please?",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "who": [
+    "us",
+    "me and my sister",
+    "our family",
+    "my friends"
+   ],
+   "where": [
+    "here",
+    "by the fountain",
+    "in front of the gate",
+    "near the tower"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you wait for me {where}, {name}? I'll be five minutes.",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "where": [
+    "outside",
+    "at the gate",
+    "by the car",
+    "downstairs"
+   ],
+   "name": [
+    "Dad",
+    "Sardor",
+    "Malika",
+    "Anvar"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you call me {when}, please, {name}?",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "when": [
+    "tonight",
+    "after work",
+    "tomorrow",
+    "later"
+   ],
+   "name": [
+    "Nodira",
+    "Rustam",
+    "Olga",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you give me a glass of water, please? I'm {why}.",
+  "options": [
+   "Can",
+   "Do",
+   "Are",
+   "Have"
+  ],
+  "key": 0,
+  "why": "To ask someone to do something, use Can you + base verb … , please? Do, Are and Have don't make a request.",
+  "slots": {
+   "why": [
+    "thirsty",
+    "so thirsty",
+    "very thirsty",
+    "really thirsty"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I left my {thing} at home. ______ borrow yours, {name}?",
+  "options": [
+   "Can I",
+   "Can you",
+   "Do I",
+   "Am I"
+  ],
+  "key": 0,
+  "why": "You want to borrow it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "pencil",
+    "calculator"
+   ],
+   "name": [
+    "Aziza",
+    "Bekzod",
+    "Lola",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Excuse me, ______ sit {where}, please?",
+  "options": [
+   "Can I",
+   "Can you",
+   "Do I",
+   "Am I"
+  ],
+  "key": 0,
+  "why": "You want to sit it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "where": [
+    "here",
+    "next to you",
+    "by the window",
+    "at this table"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ use your {device} for a minute? Mine is {state}.",
+  "options": [
+   "Can I",
+   "Can you",
+   "Do I",
+   "Am I"
+  ],
+  "key": 0,
+  "why": "You want to use it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "charger",
+    "calculator"
+   ],
+   "state": [
+    "broken",
+    "at home",
+    "not working",
+    "out of battery"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It's very cold. ______ close the {thing} for me, please, {name}?",
+  "options": [
+   "Can you",
+   "Can I",
+   "Do you",
+   "Are you"
+  ],
+  "key": 0,
+  "why": "You want the other person to close, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "thing": [
+    "window",
+    "door",
+    "balcony door",
+    "gate"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm really thirsty. ______ have some {drink}, please, {name}?",
+  "options": [
+   "Can I",
+   "Can you",
+   "Do I",
+   "Am I"
+  ],
+  "key": 0,
+  "why": "You want to have it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "tea",
+    "lemonade"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Aunt Lola",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't get it. ______ explain this {thing} to me again, {name}?",
+  "options": [
+   "Can you",
+   "Can I",
+   "Do you",
+   "Are you"
+  ],
+  "key": 0,
+  "why": "You want the other person to explain, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "thing": [
+    "rule",
+    "word",
+    "exercise",
+    "question"
+   ],
+   "name": [
+    "Ms Karimova",
+    "Mr Aliev",
+    "Kamila",
+    "Bobur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you ______ me the {thing}, please, {name}?",
+  "options": [
+   "pass",
+   "to pass",
+   "passing",
+   "passes"
+  ],
+  "key": 0,
+  "why": "After Can you / Can I, use the base verb: pass. No to, no -ing, no -s.",
+  "slots": {
+   "thing": [
+    "salt",
+    "bread",
+    "sugar",
+    "water"
+   ],
+   "name": [
+    "Dad",
+    "Lola",
+    "Aziz",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I ______ a {thing}, please? {extra}",
+  "options": [
+   "have",
+   "to have",
+   "having",
+   "has"
+  ],
+  "key": 0,
+  "why": "After Can you / Can I, use the base verb: have. No to, no -ing, no -s.",
+  "slots": {
+   "thing": [
+    "glass of water",
+    "piece of cake",
+    "cup of tea",
+    "bag"
+   ],
+   "extra": [
+    "Thank you!",
+    "Thanks a lot.",
+    "Thanks.",
+    "That's very kind."
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you ______ my {thing} {when}, Ms Petrova?",
+  "options": [
+   "check",
+   "to check",
+   "checking",
+   "checks"
+  ],
+  "key": 0,
+  "why": "After Can you / Can I, use the base verb: check. No to, no -ing, no -s.",
+  "slots": {
+   "thing": [
+    "homework",
+    "essay",
+    "answers",
+    "letter"
+   ],
+   "when": [
+    "tonight",
+    "now",
+    "later",
+    "before class"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I ______ the window, please? It's very {adj} in here.",
+  "options": [
+   "open",
+   "to open",
+   "opening",
+   "opens"
+  ],
+  "key": 0,
+  "why": "After Can you / Can I, use the base verb: open. No to, no -ing, no -s.",
+  "slots": {
+   "adj": [
+    "hot",
+    "stuffy",
+    "warm"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ pass the {thing}, please? It's too far away, {name}.",
+  "key": "Can you",
+  "why": "You want the other person to pass it, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "thing": [
+    "salt",
+    "bread",
+    "sugar",
+    "ketchup"
+   ],
+   "name": [
+    "Dad",
+    "Lola",
+    "Aziz",
+    "Grandma"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ use the {thing}, please? It's urgent.",
+  "key": "Can I",
+  "why": "You want to use it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "thing": [
+    "bathroom",
+    "toilet",
+    "phone",
+    "computer"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ help me with my {task}, {name}? It's too hard for me.",
+  "key": "Can you",
+  "why": "You want the other person to help, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "task": [
+    "homework",
+    "project",
+    "essay",
+    "maths problem"
+   ],
+   "name": [
+    "Sardor",
+    "Olga",
+    "Dad",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ open the {thing} for me? My hands are full, {name}.",
+  "key": "Can you",
+  "why": "You want the other person to open it, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "thing": [
+    "door",
+    "gate",
+    "car door",
+    "fridge"
+   ],
+   "name": [
+    "Timur",
+    "Mum",
+    "Bobur",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ go to the {place} with my friends {when}, Mum?",
+  "key": "Can I",
+  "why": "You want to go it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "place": [
+    "park",
+    "cinema",
+    "café",
+    "stadium"
+   ],
+   "when": [
+    "tonight",
+    "on Saturday",
+    "after school",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ speak more slowly, please, {name}? My {lang} isn't very good.",
+  "key": "Can you",
+  "why": "You want the other person to speak more slowly, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Mr Smith",
+    "Anna",
+    "Ms Lee"
+   ],
+   "lang": [
+    "English",
+    "Russian",
+    "Uzbek",
+    "Korean"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ have another {thing}, please, {name}? It's delicious.",
+  "key": "Can I",
+  "why": "You want to have it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "thing": [
+    "piece of cake",
+    "samsa",
+    "cup of tea",
+    "slice of melon"
+   ],
+   "name": [
+    "Grandma",
+    "Aunt Lola",
+    "Mum",
+    "Nodira"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ wake me up at {time} tomorrow, {name}?",
+  "key": "Can you",
+  "why": "You want the other person to wake me up, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "half past six",
+    "eight"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ leave {when} today, {name}? My mother is ill.",
+  "key": "Can I",
+  "why": "You want to leave it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "when": [
+    "early",
+    "at three",
+    "after lunch",
+    "before the last lesson"
+   ],
+   "name": [
+    "Ms Karimova",
+    "Mr Aliev",
+    "Ms Petrova",
+    "Mr Rakhimov"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "Excuse me, ______ show me the way to the {place}, please?",
+  "key": "Can you",
+  "why": "You want the other person to show the way, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "place": [
+    "station",
+    "metro",
+    "museum",
+    "post office"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ try on these {clothes} in {size}, please?",
+  "key": "Can I",
+  "why": "You want to try them on it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "clothes": [
+    "jeans",
+    "shoes",
+    "trousers",
+    "boots"
+   ],
+   "size": [
+    "a bigger size",
+    "a smaller size",
+    "black",
+    "blue"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ turn off the {thing} for me, please? It's late, {name}.",
+  "key": "Can you",
+  "why": "You want the other person to turn it off, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "thing": [
+    "light",
+    "TV",
+    "music",
+    "radio"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ pay for the {thing} by {method}, please?",
+  "key": "Can I",
+  "why": "You want to pay it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "room",
+    "meal",
+    "books"
+   ],
+   "method": [
+    "card",
+    "phone",
+    "bank transfer",
+    "QR code"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "Excuse me, ______ bring me a {thing}, please?",
+  "key": "Can you",
+  "why": "You want the other person to bring it, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "thing": [
+    "menu",
+    "glass of water",
+    "spoon",
+    "napkin"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ sit next to {who} today, {name}?",
+  "key": "Can I",
+  "why": "You want to sit there it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "who": [
+    "Aziz",
+    "the window",
+    "my friend",
+    "Lola"
+   ],
+   "name": [
+    "Ms Karimova",
+    "Mr Aliev",
+    "Ms Petrova",
+    "Coach"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ repeat the {thing} more slowly, please, {name}?",
+  "key": "Can you",
+  "why": "You want the other person to repeat it, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "thing": [
+    "question",
+    "address",
+    "number",
+    "word"
+   ],
+   "name": [
+    "Mr Aliev",
+    "Kamila",
+    "Madam",
+    "Ms Lee"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ borrow your {thing} until {day}?",
+  "key": "Can I",
+  "why": "You want to borrow it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "thing": [
+    "book",
+    "bike",
+    "camera",
+    "dictionary"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "the weekend",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ keep a secret, {name}?",
+  "key": "Can you",
+  "why": "You want the other person to keep a secret, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "name": [
+    "Aziza",
+    "Timur",
+    "Olga",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ take my {thing} {where}, Dad? It's too heavy.",
+  "key": "Can you",
+  "why": "You want the other person to take it, so ask Can you … ? Can I … ? asks to do something yourself.",
+  "slots": {
+   "thing": [
+    "bag",
+    "box",
+    "suitcase",
+    "guitar"
+   ],
+   "where": [
+    "home",
+    "upstairs",
+    "to the car",
+    "inside"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Can I or Can you.",
+  "source": "______ come to your {event} on {day}?",
+  "key": "Can I",
+  "why": "You want to come it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.",
+  "slots": {
+   "event": [
+    "party",
+    "concert",
+    "football match",
+    "birthday"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite request with Can you … , please?",
+  "source": "Close the {thing}, {name}.",
+  "hint": "______ (close) the {thing}, please, {name}?",
+  "key": "can you close",
+  "why": "A polite request: Can you + base verb … , please?",
+  "slots": {
+   "thing": [
+    "door",
+    "window",
+    "gate",
+    "curtains"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite request with Can you … , please?",
+  "source": "Turn down the {thing} {how}.",
+  "hint": "______ (turn) down the {thing} {how}, please?",
+  "key": "can you turn",
+  "why": "Make the order polite: Can you turn … , please?",
+  "slots": {
+   "thing": [
+    "music",
+    "TV",
+    "radio",
+    "volume"
+   ],
+   "how": [
+    "now",
+    "a little",
+    "a bit",
+    "a lot"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite request with Can you … , please?",
+  "source": "Help me with the {thing} {when}.",
+  "hint": "______ (help) me with the {thing} {when}, please?",
+  "key": "can you help",
+  "why": "A polite request: Can you help me … , please?",
+  "slots": {
+   "thing": [
+    "bags",
+    "dishes",
+    "homework",
+    "cooking"
+   ],
+   "when": [
+    "now",
+    "tonight",
+    "after dinner",
+    "later"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite request with Can you … , please?",
+  "source": "Send me the {thing} {when}.",
+  "hint": "______ (send) me the {thing} {when}, please?",
+  "key": "can you send",
+  "why": "A polite request: Can you send … , please?",
+  "slots": {
+   "thing": [
+    "photos",
+    "address",
+    "homework",
+    "video"
+   ],
+   "when": [
+    "tonight",
+    "today",
+    "after class",
+    "now"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite request with Can you … , please?",
+  "source": "Wait for me at the {place} {when}.",
+  "hint": "______ (wait) for me at the {place} {when}, please?",
+  "key": "can you wait",
+  "why": "A polite request: Can you wait … , please?",
+  "slots": {
+   "place": [
+    "gate",
+    "bus stop",
+    "corner",
+    "entrance"
+   ],
+   "when": [
+    "after class",
+    "at six",
+    "after work",
+    "at noon"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission with Can I … ?",
+  "source": "I want to use your {thing} for {time}.",
+  "hint": "______ (use) your {thing} for {time}, please?",
+  "key": "can i use",
+  "why": "To ask to do something yourself, use Can I + base verb … ?",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "charger",
+    "pen"
+   ],
+   "time": [
+    "a minute",
+    "a moment",
+    "a second",
+    "a few minutes"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission with Can I … ?",
+  "source": "I want to ask a question about the {thing}, {name}.",
+  "hint": "______ (ask) a question about the {thing}, {name}?",
+  "key": "can i ask",
+  "why": "Ask for permission with Can I + base verb: Can I ask … ?",
+  "slots": {
+   "thing": [
+    "homework",
+    "test",
+    "timetable",
+    "trip"
+   ],
+   "name": [
+    "Ms Karimova",
+    "Mr Aliev",
+    "Coach",
+    "Ms Petrova"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission with Can I … ?",
+  "source": "I want to sit {where}, {name}.",
+  "hint": "______ (sit) {where}, {name}?",
+  "key": "can i sit",
+  "why": "Ask for permission with Can I sit … ?",
+  "slots": {
+   "where": [
+    "here",
+    "by the window",
+    "next to Aziz",
+    "at the back"
+   ],
+   "name": [
+    "Ms Lee",
+    "Mr Aliev",
+    "Madam",
+    "Coach"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission with Can I … ?",
+  "source": "I want to go home {when}, {name}.",
+  "hint": "______ (go) home {when}, {name}?",
+  "key": "can i go",
+  "why": "Ask for permission with Can I go … ?",
+  "slots": {
+   "when": [
+    "early",
+    "now",
+    "at four",
+    "after lunch"
+   ],
+   "name": [
+    "Ms Karimova",
+    "Dad",
+    "Mr Rakhimov",
+    "Mum"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission with Can I … ?",
+  "source": "I want to try this {thing} on in {colour}.",
+  "hint": "______ (try) this {thing} on in {colour}, please?",
+  "key": "can i try",
+  "why": "Ask for permission with Can I try … ?",
+  "slots": {
+   "thing": [
+    "jacket",
+    "dress",
+    "shirt",
+    "coat"
+   ],
+   "colour": [
+    "black",
+    "blue",
+    "grey",
+    "white"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission for the other person with Can … ?",
+  "source": "My friend wants to come {when} too, {name}.",
+  "hint": "______ (come) {when} too, {name}?",
+  "key": "can my friend come",
+  "why": "Put can first, then the person: Can my friend come … ?",
+  "slots": {
+   "when": [
+    "tonight",
+    "on Saturday",
+    "to the party",
+    "with us"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Ms Lee"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission for the other person with Can … ?",
+  "source": "My little brother wants to play with us {where}.",
+  "hint": "______ (play) with us {where}?",
+  "key": "can my little brother play",
+  "why": "Put can first, then the person: Can my little brother play … ?",
+  "slots": {
+   "where": [
+    "in the yard",
+    "in the park",
+    "after school",
+    "today"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission for the other person with Can … ?",
+  "source": "Our dog wants to come into the {room}, {name}.",
+  "hint": "______ (come) into the {room}, {name}?",
+  "key": "can our dog come",
+  "why": "Put can first, then the dog: Can our dog come … ?",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "house",
+    "bedroom"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Dad",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission for the other person with Can … ?",
+  "source": "My sister wants to sit with us at the {event}.",
+  "hint": "______ (sit) with us at the {event}?",
+  "key": "can my sister sit",
+  "why": "Put can first, then the person: Can my sister sit … ?",
+  "slots": {
+   "event": [
+    "wedding",
+    "concert",
+    "party",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask for permission for the other person with Can … ?",
+  "source": "My parents want to watch the {event} from the {place}.",
+  "hint": "______ (watch) the {event} from the {place}?",
+  "key": "can my parents watch",
+  "why": "Put can first, then the people: Can my parents watch … ?",
+  "slots": {
+   "event": [
+    "match",
+    "concert",
+    "show",
+    "game"
+   ],
+   "place": [
+    "front row",
+    "back",
+    "balcony",
+    "side"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You are in class and you forgot your pen. Ask a classmate.",
+  "requiredElement": "Can I borrow … ?",
+  "constraints": [
+   "exactly one question",
+   "must use Can I",
+   "must use please"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You are at a friend's house and you are thirsty. Ask politely.",
+  "requiredElement": "Can I have … , please?",
+  "constraints": [
+   "exactly one question",
+   "must use Can I have",
+   "must name a drink"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask your teacher to explain something again.",
+  "requiredElement": "Can you + base verb … , please?",
+  "constraints": [
+   "exactly one question",
+   "must use Can you",
+   "must use again"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a stranger to take a photo of you.",
+  "requiredElement": "Can you take a photo … ?",
+  "constraints": [
+   "exactly one question",
+   "must use Can you",
+   "must start with Excuse me"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask your parents for permission to go somewhere this weekend.",
+  "requiredElement": "Can I go … ?",
+  "constraints": [
+   "exactly one question",
+   "must use Can I",
+   "must name a place"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a shop assistant to help you find something.",
+  "requiredElement": "Can you help me … ?",
+  "constraints": [
+   "exactly one question",
+   "must use Can you help",
+   "must name the thing"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask if your friend can come with you to a party.",
+  "requiredElement": "Can my friend come … ?",
+  "constraints": [
+   "exactly one question",
+   "must start with Can my friend",
+   "base verb after the person"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two requests: one asking to do something yourself, one asking someone else to do something.",
+  "requiredElement": "Can I … ? and Can you … ?",
+  "constraints": [
+   "exactly two questions",
+   "one with Can I, one with Can you",
+   "please in at least one"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are at a café. Write a short dialogue with the waiter: ask for the menu, order, and ask for the bill.",
+  "targetGrammar": "Can I … ? / Can you … ? requests",
+  "lookFor": [
+   "Can I have … , please?",
+   "Can you bring … ?",
+   "please and thank you"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are staying with a host family abroad. Write four polite requests you might need on the first day.",
+  "targetGrammar": "Can I … ? and Can you … ?",
+  "lookFor": [
+   "Can I + base verb",
+   "Can you + base verb",
+   "please"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend is helping you move to a new flat. Write four requests to your friend.",
+  "targetGrammar": "Can you … , please?",
+  "lookFor": [
+   "Can you + base verb",
+   "four different verbs",
+   "no Do you … ? for requests"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message to your teacher asking for two things (for example, to leave early and to send you the homework).",
+  "targetGrammar": "Can I … ? and Can you … ?",
+  "lookFor": [
+   "Can I + base verb",
+   "Can you + base verb",
+   "a polite greeting and thank you"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are lost in a new city. Write a short dialogue asking a person on the street for help.",
+  "targetGrammar": "Can you … ? requests",
+  "lookFor": [
+   "Excuse me",
+   "Can you tell / show me … ?",
+   "please and thank you"
+  ]
+ }
+]

@@ -30,6 +30,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.ability-permission.can-request": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-request",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 271,
+   "build": 272,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.ability-permission.cant-ability": {
   "domain": "modals",
   "branch": "ability-permission",
