@@ -21,7 +21,7 @@ const BASE = { domain: "modals", branch: "ability-permission", topic: "can-abili
 
 const M = { i: ["can", "am", "know", "have"], sg: ["can", "is", "knows", "has"], pl: ["can", "are", "know", "have"] };
 const MEAN = (v) => `To say someone is able to do something, use can + verb: can ${v}. Don't use am / is / are, know or have here.`;
-const F = (v, s) => [v, s, `to ${v}`, `${v.replace(/e$/, "")}ing`.replace(/^(run|swim|sit|get)ing$/, (m, b) => b + b.slice(-1) + "ing")];
+const F = (v, s, ing) => [v, s, `to ${v}`, ing];
 const FORM = (v) => `After can, use the base verb with no to, no -s and no -ing: can ${v}.`;
 
 /* ---------------- choose: 20 mcq ---------------- */
@@ -52,21 +52,21 @@ const CHOOSE = [
   [M.sg, MEAN("walk"), "Look, {name}! The baby ______ walk {how}.",
     { name: ["Mum", "Dad", "Grandma", "Aziza"], how: ["now", "on her own", "a little", "without help"] }],
   // form: base verb after can (8)
-  [F("speak", "speaks"), FORM("speak"), "My uncle can ______ three languages: Uzbek, Russian and {lang}.",
+  [F("speak", "speaks", "speaking"), FORM("speak"), "My uncle can ______ three languages: Uzbek, Russian and {lang}.",
     { lang: ["English", "Turkish", "Arabic", "German"] }],
-  [F("build", "builds"), FORM("build"), "Aziz can ______ a {thing} in one {time}.",
+  [F("build", "builds", "building"), FORM("build"), "Aziz can ______ a {thing} in one {time}.",
     { thing: ["chair", "table", "kite", "birdhouse"], time: ["afternoon", "day", "morning", "week"] }],
-  [F("see", "sees"), FORM("see"), "We can ______ the {place} from our {room} window.",
+  [F("see", "sees", "seeing"), FORM("see"), "We can ______ the {place} from our {room} window.",
     { place: ["mountains", "river", "park", "stadium"], room: ["kitchen", "bedroom", "classroom", "office"] }],
-  [F("type", "types"), FORM("type"), "Dilnoza can ______ {things} {how} on her phone.",
+  [F("type", "types", "typing"), FORM("type"), "Dilnoza can ______ {things} {how} on her phone.",
     { things: ["messages", "emails", "notes", "answers"], how: ["very fast", "with one hand", "without looking", "in English"] }],
-  [F("catch", "catches"), FORM("catch"), "My dog can ______ a {thing} {how}.",
+  [F("catch", "catches", "catching"), FORM("catch"), "My dog can ______ a {thing} {how}.",
     { thing: ["ball", "stick", "toy", "biscuit"], how: ["in the air", "every time", "from far away", "very fast"] }],
-  [F("learn", "learns"), FORM("learn"), "Children can ______ a lot from {source}.",
+  [F("learn", "learns", "learning"), FORM("learn"), "Children can ______ a lot from {source}.",
     { source: ["games", "cartoons", "books", "their parents"] }],
-  [F("read", "reads"), FORM("read"), "Grandpa can ______ {thing} without glasses.",
+  [F("read", "reads", "reading"), FORM("read"), "Grandpa can ______ {thing} without glasses.",
     { thing: ["small letters", "the newspaper", "the menu", "books"] }],
-  [F("play", "plays"), FORM("play"), "They can ______ {sport} {where}.",
+  [F("play", "plays", "playing"), FORM("play"), "They can ______ {sport} {where}.",
     { sport: ["football", "volleyball", "tennis", "basketball"], where: ["on the beach", "in the yard", "at school", "in the gym"] }],
 ].map(([options, why, prompt, slots]) => ({ ...BASE, stage: "choose", format: "mcq", prompt, options, key: 0, why, slots }));
 
@@ -138,15 +138,15 @@ const TRANSFORM = [
     "Is able to means can: can tie. No is before can.",
     { thing: ["shoes", "laces", "own shoes", "trainers"] }],
   // know how to -> can (5)
-  [KNOW, "Timur knows how to drive a {vehicle}.", "Timur ______ (drive) a {vehicle}.", "drive",
+  [KNOW, "{who} knows how to drive a {vehicle}.", "{who} ______ (drive) a {vehicle}.", "drive",
     "Knows how to means can: can drive. Can has no -s.",
-    { vehicle: ["car", "bus", "truck", "tractor"] }],
+    { who: ["Timur", "My uncle", "Our neighbour", "Aziza's father"], vehicle: ["car", "bus", "truck", "tractor"] }],
   [KNOW, "I know how to make {food} for {num} people.", "I ______ (make) {food} for {num} people.", "make",
     "Know how to means can: can make.",
     { food: ["plov", "soup", "salad", "samsa"], num: ["ten", "twenty", "fifty", "a hundred"] }],
-  [KNOW, "My parents know how to use {thing}.", "My parents ______ (use) {thing}.", "use",
+  [KNOW, "{who} know how to use {thing}.", "{who} ______ (use) {thing}.", "use",
     "Know how to means can: can use.",
-    { thing: ["a smartphone", "a computer", "online banking", "video calls"] }],
+    { who: ["My parents", "My grandparents", "Our teachers", "Most students"], thing: ["a smartphone", "a computer", "online banking", "video calls"] }],
   [KNOW, "Lola knows how to play {game}. She learned it from her {who}.", "Lola ______ (play) {game}. She learned it from her {who}.", "play",
     "Knows how to means can: can play. Can never takes -s.",
     { game: ["chess", "the piano", "the guitar", "tennis"], who: ["father", "grandfather", "uncle", "teacher"] }],
