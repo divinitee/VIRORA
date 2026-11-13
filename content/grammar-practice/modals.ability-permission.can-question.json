@@ -1,0 +1,1781 @@
+[
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ ride a {vehicle}, {name}?",
+  "options": [
+   "Can you",
+   "Do you can",
+   "Are you can",
+   "Can you to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can you ride…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "horse",
+    "scooter",
+    "motorbike"
+   ],
+   "name": [
+    "Aziz",
+    "Lola",
+    "Timur",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ swim in deep {water}, {name}?",
+  "options": [
+   "Can you",
+   "Do you can",
+   "Are you can",
+   "Can you to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can you swim…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "water": [
+    "water",
+    "rivers",
+    "lakes",
+    "pools"
+   ],
+   "name": [
+    "Malika",
+    "Sardor",
+    "Kamila",
+    "Bobur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ cook {food} for {num} people?",
+  "options": [
+   "Can you",
+   "Do you can",
+   "Are you can",
+   "Can you to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can you cook…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "manti",
+    "lagman"
+   ],
+   "num": [
+    "ten",
+    "twenty",
+    "five",
+    "fifty"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ speak {lang} {how}?",
+  "options": [
+   "Can you",
+   "Do you can",
+   "Are you can",
+   "Can you to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can you speak…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "German",
+    "Turkish",
+    "English"
+   ],
+   "how": [
+    "well",
+    "a little",
+    "very well",
+    "at all"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ play the {instrument}, {name}?",
+  "options": [
+   "Can you",
+   "Do you can",
+   "Are you can",
+   "Can you to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can you play…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "instrument": [
+    "piano",
+    "guitar",
+    "drums",
+    "dutar"
+   ],
+   "name": [
+    "Nodira",
+    "Jasur",
+    "Olga",
+    "Anvar"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ see the {thing} from your {room}?",
+  "options": [
+   "Can you",
+   "Do you can",
+   "Are you can",
+   "Can you to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can you see…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "thing": [
+    "mountains",
+    "river",
+    "stadium",
+    "park"
+   ],
+   "room": [
+    "window",
+    "balcony",
+    "flat",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ draw {things} {how}?",
+  "options": [
+   "Can you",
+   "Do you can",
+   "Are you can",
+   "Can you to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can you draw…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "things": [
+    "people",
+    "animals",
+    "cars",
+    "houses"
+   ],
+   "how": [
+    "well",
+    "from memory",
+    "very well",
+    "fast"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ walk on her own yet, {name}?",
+  "options": [
+   "Can the baby",
+   "Does the baby can",
+   "Is the baby can",
+   "Can the baby to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can the baby walk…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "name": [
+    "Dilnoza",
+    "Mum",
+    "Aunt Lola",
+    "Grandma"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ drive a {vehicle}, {name}?",
+  "options": [
+   "Can your father",
+   "Does your father can",
+   "Is your father can",
+   "Can your father to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can your father drive…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "vehicle": [
+    "truck",
+    "bus",
+    "tractor",
+    "car"
+   ],
+   "name": [
+    "Rustam",
+    "Malika",
+    "Aziz",
+    "Nigora"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ speak {lang} {how}?",
+  "options": [
+   "Can your grandparents",
+   "Do your grandparents can",
+   "Are your grandparents can",
+   "Can your grandparents to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can your grandparents speak…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "Tajik",
+    "Kazakh",
+    "English"
+   ],
+   "how": [
+    "well",
+    "a little",
+    "very well",
+    "at all"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ open the {thing} {how}?",
+  "options": [
+   "Can your cat",
+   "Does your cat can",
+   "Is your cat can",
+   "Can your cat to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can your cat open…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "thing": [
+    "door",
+    "fridge",
+    "window",
+    "cupboard"
+   ],
+   "how": [
+    "by itself",
+    "with its paws",
+    "on its own",
+    "at night"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ use a {device} {how}?",
+  "options": [
+   "Can your grandmother",
+   "Does your grandmother can",
+   "Is your grandmother can",
+   "Can your grandmother to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can your grandmother use…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "device": [
+    "smartphone",
+    "computer",
+    "laptop",
+    "tablet"
+   ],
+   "how": [
+    "well",
+    "on her own",
+    "without help",
+    "at all"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ fix {thing} {when}?",
+  "options": [
+   "Can Aziz",
+   "Does Aziz can",
+   "Is Aziz can",
+   "Can Aziz to"
+  ],
+  "key": 0,
+  "why": "In a question, can comes first, then the subject, then the base verb: Can Aziz fix…? Don't add do/does or am/is/are, and no to.",
+  "slots": {
+   "thing": [
+    "my bike",
+    "our TV",
+    "your phone",
+    "the computer"
+   ],
+   "when": [
+    "today",
+    "by Friday",
+    "this week",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What ______ cook, {name}?",
+  "options": [
+   "can you",
+   "you can",
+   "do you can",
+   "can you to"
+  ],
+  "key": 0,
+  "why": "After the question word, put can before the subject: What can you cook…? Not \"What you can…\".",
+  "slots": {
+   "name": [
+    "Sevara",
+    "Bekzod",
+    "Olga",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where ______ buy {thing} in this {place}?",
+  "options": [
+   "can we",
+   "we can",
+   "do we can",
+   "can we to"
+  ],
+  "key": 0,
+  "why": "After the question word, put can before the subject: Where can we buy…? Not \"Where we can…\".",
+  "slots": {
+   "thing": [
+    "bread",
+    "tickets",
+    "water",
+    "stamps"
+   ],
+   "place": [
+    "town",
+    "area",
+    "city",
+    "district"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How many {things} ______ carry, {name}?",
+  "options": [
+   "can you",
+   "you can",
+   "do you can",
+   "can you to"
+  ],
+  "key": 0,
+  "why": "After the question word, put can before the subject: How many can you carry…? Not \"How many you can…\".",
+  "slots": {
+   "things": [
+    "bags",
+    "boxes",
+    "chairs",
+    "books"
+   ],
+   "name": [
+    "Jasur",
+    "Lola",
+    "Aziz",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When ______ start the {task}, {name}?",
+  "options": [
+   "can we",
+   "we can",
+   "do we can",
+   "can we to"
+  ],
+  "key": 0,
+  "why": "After the question word, put can before the subject: When can we start…? Not \"When we can…\".",
+  "slots": {
+   "task": [
+    "test",
+    "project",
+    "game",
+    "exercise"
+   ],
+   "name": [
+    "Ms Karimova",
+    "Mr Aliev",
+    "Coach",
+    "Ms Petrova"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How fast ______ run {dist}?",
+  "options": [
+   "can your brother",
+   "your brother can",
+   "does your brother can",
+   "can your brother to"
+  ],
+  "key": 0,
+  "why": "After the question word, put can before the subject: How fast can your brother run…? Not \"How fast your brother can…\".",
+  "slots": {
+   "dist": [
+    "a kilometre",
+    "100 metres",
+    "five kilometres",
+    "two kilometres"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Which {thing} ______ play, {name}?",
+  "options": [
+   "can your sister",
+   "your sister can",
+   "does your sister can",
+   "can your sister to"
+  ],
+  "key": 0,
+  "why": "After the question word, put can before the subject: Which can your sister play…? Not \"Which your sister can…\".",
+  "slots": {
+   "thing": [
+    "songs",
+    "games",
+    "instruments",
+    "sports"
+   ],
+   "name": [
+    "Anvar",
+    "Madina",
+    "Sardor",
+    "Nilufar"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How long ______ stay {where}, {name}?",
+  "options": [
+   "can you",
+   "you can",
+   "do you can",
+   "can you to"
+  ],
+  "key": 0,
+  "why": "After the question word, put can before the subject: How long can you stay…? Not \"How long you can…\".",
+  "slots": {
+   "where": [
+    "at the party",
+    "with us",
+    "in Tashkent",
+    "here"
+   ],
+   "name": [
+    "Olga",
+    "Bobur",
+    "Malika",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: ______ (swim), {name}? B: Yes, I love the {water}!",
+  "key": "can you swim",
+  "why": "Ask about you: can + you + swim. Can comes before the person in a question.",
+  "slots": {
+   "name": [
+    "Aziza",
+    "Timur",
+    "Olga",
+    "Sardor"
+   ],
+   "water": [
+    "sea",
+    "lake",
+    "river",
+    "pool"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Your brother is eighteen now. ______ (drive)? B: Yes, since {when}.",
+  "key": "can he drive",
+  "why": "Ask about your brother (he): can + he + drive. Can comes before the person in a question.",
+  "slots": {
+   "when": [
+    "last year",
+    "March",
+    "the summer",
+    "his birthday"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: ______ (play) the {instrument}, {name}? B: Yes, a little.",
+  "key": "can you play",
+  "why": "Ask about you: can + you + play. Can comes before the person in a question.",
+  "slots": {
+   "instrument": [
+    "piano",
+    "guitar",
+    "violin",
+    "dutar"
+   ],
+   "name": [
+    "Malika",
+    "Bekzod",
+    "Lola",
+    "Anvar"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Your grandmother is {age}. ______ (read) without glasses? B: No, not {what}.",
+  "key": "can she read",
+  "why": "Ask about your grandmother (she): can + she + read. Can comes before the person in a question.",
+  "slots": {
+   "age": [
+    "eighty",
+    "ninety",
+    "seventy-five",
+    "eighty-five"
+   ],
+   "what": [
+    "small letters",
+    "the newspaper",
+    "her phone",
+    "menus"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Your sister makes great {food}. What else ______ (make)? B: {other} and bread.",
+  "key": "can she make",
+  "why": "Ask about your sister (she): What + can + she + make? Can comes before the person in a question.",
+  "slots": {
+   "food": [
+    "cakes",
+    "samsa",
+    "pies",
+    "cookies"
+   ],
+   "other": [
+    "Biscuits",
+    "Pizza",
+    "Pancakes",
+    "Soup"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: What languages ______ (speak), {name}? B: Uzbek, Russian and a little {lang}.",
+  "key": "can you speak",
+  "why": "Ask about you: What languages + can + you + speak? Can comes before the person in a question.",
+  "slots": {
+   "name": [
+    "Kamila",
+    "Rustam",
+    "Nodira",
+    "Jasur"
+   ],
+   "lang": [
+    "English",
+    "Korean",
+    "Turkish",
+    "German"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Your cat is so clever! ______ (open) the {thing}? B: Yes, with its {part}!",
+  "key": "can it open",
+  "why": "Ask about the cat (it): can + it + open. Can comes before the person in a question.",
+  "slots": {
+   "thing": [
+    "door",
+    "fridge",
+    "cupboard",
+    "window"
+   ],
+   "part": [
+    "paws",
+    "head",
+    "nose",
+    "teeth"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: How many push-ups ______ (do), {name}? B: About {num}.",
+  "key": "can you do",
+  "why": "Ask about you: How many + can + you + do? Can comes before the person in a question.",
+  "slots": {
+   "name": [
+    "Bobur",
+    "Aziz",
+    "Sevara",
+    "Timur"
+   ],
+   "num": [
+    "twenty",
+    "thirty",
+    "fifty",
+    "ten"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Your parents live in {city}. ______ (speak) {lang}? B: Yes, very well.",
+  "key": "can they speak",
+  "why": "Ask about your parents (they): can + they + speak. Can comes before the person in a question.",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Kazan",
+    "Seoul",
+    "Istanbul"
+   ],
+   "lang": [
+    "Russian",
+    "Uzbek",
+    "English",
+    "Korean"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: How fast ______ (type), {name}? B: About {num} words a minute.",
+  "key": "can you type",
+  "why": "Ask about you: How fast + can + you + type? Can comes before the person in a question.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Sardor",
+    "Madina",
+    "Anvar"
+   ],
+   "num": [
+    "thirty",
+    "forty",
+    "fifty",
+    "sixty"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Our robot is ready, {name}. What ______ (do)? B: Walk and {ability}.",
+  "key": "can it do",
+  "why": "Ask about the robot (it): What + can + it + do? Can comes before the person in a question.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Bekzod",
+    "Kamila",
+    "Aziz"
+   ],
+   "ability": [
+    "talk",
+    "dance",
+    "sing",
+    "draw"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: My uncle has a boat. ______ (take) us to the {place}? B: Sure, on {day}.",
+  "key": "can he take",
+  "why": "Ask about your uncle (he): can + he + take. Can comes before the person in a question.",
+  "slots": {
+   "place": [
+    "island",
+    "beach",
+    "other side",
+    "old fort"
+   ],
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: ______ (see) the {thing} from your window, {name}? B: Yes, it's beautiful.",
+  "key": "can you see",
+  "why": "Ask about you: can + you + see. Can comes before the person in a question.",
+  "slots": {
+   "thing": [
+    "mountains",
+    "river",
+    "lake",
+    "old city"
+   ],
+   "name": [
+    "Nigora",
+    "Timur",
+    "Olga",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Malika is only {age}. ______ (write) her name? B: Yes, and the {more} too.",
+  "key": "can she write",
+  "why": "Ask about Malika (she): can + she + write. Can comes before the person in a question.",
+  "slots": {
+   "age": [
+    "four",
+    "five",
+    "three",
+    "six"
+   ],
+   "more": [
+    "alphabet",
+    "numbers",
+    "date",
+    "days of the week"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: We're here! Where ______ (park) the car, {name}? B: Behind the {place}.",
+  "key": "can we park",
+  "why": "Ask about us (we): Where + can + we + park? Can comes before the person in a question.",
+  "slots": {
+   "name": [
+    "Dad",
+    "Aziz",
+    "Mum",
+    "Lola"
+   ],
+   "place": [
+    "hotel",
+    "market",
+    "school",
+    "bank"
+   ]
+  },
+  "acceptable": [
+   "can i park"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Your dog is very big. ______ (jump) over the {thing}? B: Easily, {name}!",
+  "key": "can it jump",
+  "why": "Ask about the dog (it): can + it + jump. Can comes before the person in a question.",
+  "slots": {
+   "thing": [
+    "fence",
+    "gate",
+    "wall",
+    "sofa"
+   ],
+   "name": [
+    "Rustam",
+    "Malika",
+    "Sardor",
+    "Nodira"
+   ]
+  },
+  "acceptable": [
+   "can he jump",
+   "can she jump"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: How long ______ (stay) in {city}? B: Only {time}.",
+  "key": "can you stay",
+  "why": "Ask about you: How long + can + you + stay? Can comes before the person in a question.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "time": [
+    "two days",
+    "a week",
+    "one night",
+    "three days"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Our neighbours have a big garden. ______ (grow) {food} there? B: Yes, lots of {food}!",
+  "key": "can they grow",
+  "why": "Ask about the neighbours (they): can + they + grow. Can comes before the person in a question.",
+  "slots": {
+   "food": [
+    "tomatoes",
+    "melons",
+    "grapes",
+    "apples"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: ______ (hear) me, {name}? B: Not very well. The {noise} is too loud.",
+  "key": "can you hear",
+  "why": "Ask about you: can + you + hear. Can comes before the person in a question.",
+  "slots": {
+   "name": [
+    "Aziza",
+    "Bekzod",
+    "Lola",
+    "Timur"
+   ],
+   "noise": [
+    "music",
+    "TV",
+    "wind",
+    "traffic"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question with can + the right person + the verb in brackets.",
+  "source": "A: Your little brother is {age}. ______ (tie) his shoes? B: Not yet.",
+  "key": "can he tie",
+  "why": "Ask about your little brother (he): can + he + tie. Can comes before the person in a question.",
+  "slots": {
+   "age": [
+    "three",
+    "four",
+    "five",
+    "six"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question with can.",
+  "source": "Sardor can play {instrument} {how}.",
+  "hint": "______ (play) {instrument} {how}?",
+  "key": "can sardor play",
+  "why": "Move can to the front, before Sardor: Can Sardor play…?",
+  "slots": {
+   "instrument": [
+    "the piano",
+    "the guitar",
+    "the drums",
+    "the dutar"
+   ],
+   "how": [
+    "well",
+    "very well",
+    "by ear",
+    "a little"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question with can.",
+  "source": "Your parents can come to the {event} on {day}.",
+  "hint": "______ (come) to the {event} on {day}?",
+  "key": "can your parents come",
+  "why": "Can goes before the subject: Can your parents come…?",
+  "slots": {
+   "event": [
+    "concert",
+    "meeting",
+    "party",
+    "school show"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Monday",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question with can.",
+  "source": "The new student can speak {lang} {how}.",
+  "hint": "______ (speak) {lang} {how}?",
+  "key": "can the new student speak",
+  "why": "Can goes first, then the new student, then speak.",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Korean",
+    "Turkish"
+   ],
+   "how": [
+    "well",
+    "very well",
+    "a little",
+    "quite well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question with can.",
+  "source": "Aziza can ride a {vehicle} {where}.",
+  "hint": "______ (ride) a {vehicle} {where}?",
+  "key": "can aziza ride",
+  "why": "Can goes before Aziza: Can Aziza ride…? No does.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "horse",
+    "scooter",
+    "motorbike"
+   ],
+   "where": [
+    "in the city",
+    "in the mountains",
+    "on the road",
+    "in the village"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a yes/no question with can.",
+  "source": "Your dog can catch a {thing} {how}.",
+  "hint": "______ (catch) a {thing} {how}?",
+  "key": "can your dog catch",
+  "why": "Can goes before your dog: Can your dog catch…?",
+  "slots": {
+   "thing": [
+    "ball",
+    "stick",
+    "frisbee",
+    "toy"
+   ],
+   "how": [
+    "in the air",
+    "in its mouth",
+    "every time",
+    "from far away"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word given.",
+  "source": "Malika can speak {num} languages {how}.",
+  "hint": "How many languages ______ (speak) {how}?",
+  "key": "can malika speak",
+  "why": "After How many languages, put can before Malika: can Malika speak.",
+  "slots": {
+   "num": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "how": [
+    "well",
+    "very well",
+    "now",
+    "at work"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word given.",
+  "source": "Timur can swim {dist} {where}.",
+  "hint": "How far ______ (swim) {where}?",
+  "key": "can timur swim",
+  "why": "After How far, put can before Timur: can Timur swim.",
+  "slots": {
+   "dist": [
+    "two kilometres",
+    "a kilometre",
+    "five hundred metres",
+    "three kilometres"
+   ],
+   "where": [
+    "in the sea",
+    "in the lake",
+    "in the river",
+    "in the pool"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word given.",
+  "source": "We can buy {thing} at the {shop}.",
+  "hint": "Where ______ (buy) {thing}?",
+  "key": "can we buy",
+  "why": "After Where, put can before we: Where can we buy…?",
+  "slots": {
+   "thing": [
+    "bread",
+    "stamps",
+    "tickets",
+    "fruit"
+   ],
+   "shop": [
+    "market",
+    "kiosk",
+    "station",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word given.",
+  "source": "The children can start {task} at {time}.",
+  "hint": "When ______ (start) {task}?",
+  "key": "can the children start",
+  "why": "After When, put can before the children: When can the children start…?",
+  "slots": {
+   "task": [
+    "the test",
+    "the game",
+    "lunch",
+    "the lesson"
+   ],
+   "time": [
+    "nine",
+    "ten",
+    "noon",
+    "two"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question with the question word given.",
+  "source": "Your brother can lift {weight} {where}.",
+  "hint": "How much ______ (lift) {where}?",
+  "key": "can your brother lift",
+  "why": "After How much, put can before your brother: can your brother lift.",
+  "slots": {
+   "weight": [
+    "fifty kilos",
+    "eighty kilos",
+    "a hundred kilos",
+    "a lot"
+   ],
+   "where": [
+    "at the gym",
+    "in training",
+    "with one hand",
+    "now"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question with can.",
+  "source": "Are you able to come {when}, {name}?",
+  "hint": "______ (come) {when}, {name}?",
+  "key": "can you come",
+  "why": "Are you able to = Can you: Can you come…?",
+  "slots": {
+   "when": [
+    "on Friday",
+    "tomorrow",
+    "at six",
+    "this evening"
+   ],
+   "name": [
+    "Olga",
+    "Aziz",
+    "Lola",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question with can.",
+  "source": "Is your father able to pick us up from the {place} {when}?",
+  "hint": "______ (pick) us up from the {place} {when}?",
+  "key": "can your father pick",
+  "why": "Is your father able to = Can your father: Can your father pick us up…?",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "school",
+    "stadium"
+   ],
+   "when": [
+    "tonight",
+    "at five",
+    "after the match",
+    "tomorrow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question with can.",
+  "source": "Are your friends able to help with the {event} {when}?",
+  "hint": "______ (help) with the {event} {when}?",
+  "key": "can your friends help",
+  "why": "Are your friends able to = Can your friends: Can your friends help…?",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "move"
+   ],
+   "when": [
+    "on Saturday",
+    "next week",
+    "tomorrow",
+    "this weekend"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question with can.",
+  "source": "Is it possible for me to pay for the {thing} by {method}?",
+  "hint": "______ (pay) for the {thing} by {method}?",
+  "key": "can i pay",
+  "why": "Is it possible for me to = Can I: Can I pay…?",
+  "slots": {
+   "thing": [
+    "tickets",
+    "room",
+    "meal",
+    "books"
+   ],
+   "method": [
+    "card",
+    "phone",
+    "bank transfer",
+    "QR code"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Ask the same question with can.",
+  "source": "Is Lola able to swim {how} {where}?",
+  "hint": "______ (swim) {how} {where}?",
+  "key": "can lola swim",
+  "why": "Is Lola able to = Can Lola: Can Lola swim…?",
+  "slots": {
+   "how": [
+    "well",
+    "fast",
+    "far",
+    "underwater"
+   ],
+   "where": [
+    "in the sea",
+    "in deep water",
+    "in the river",
+    "in the lake"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a question to ask a new friend about a sport they can play.",
+  "requiredElement": "Can you + base verb … ?",
+  "constraints": [
+   "exactly one question",
+   "must start with Can you",
+   "must name a sport"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a question about a language someone in your class can speak.",
+  "requiredElement": "Can he / she speak … ?",
+  "constraints": [
+   "exactly one question",
+   "must name the person",
+   "can before the person"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a question with What can … ? about cooking.",
+  "requiredElement": "What can + subject + cook?",
+  "constraints": [
+   "exactly one question",
+   "must start with What can",
+   "must end with a question mark"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a question with Where can … ? about buying something in your city.",
+  "requiredElement": "Where can I / we buy … ?",
+  "constraints": [
+   "exactly one question",
+   "must start with Where can",
+   "must name a thing to buy"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a question to ask your teacher about something your class can do.",
+  "requiredElement": "Can we + base verb … ?",
+  "constraints": [
+   "exactly one question",
+   "must use Can we",
+   "no to after can"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a question about an animal and what it can do.",
+  "requiredElement": "Can + animal + base verb?",
+  "constraints": [
+   "exactly one question",
+   "must name an animal",
+   "can before the animal"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a question with How many … can … ?",
+  "requiredElement": "How many + noun + can + subject + verb?",
+  "constraints": [
+   "exactly one question",
+   "must start with How many",
+   "can before the subject"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two questions to ask a friend about their skills.",
+  "requiredElement": "Can you + base verb … ?",
+  "constraints": [
+   "exactly two questions",
+   "two different verbs",
+   "no do or does with can"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are interviewing a new member for your school club. Write four questions with can.",
+  "targetGrammar": "yes/no and wh- questions with can",
+  "lookFor": [
+   "Can you + base verb?",
+   "a wh- question with can",
+   "no Do you can…?"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short dialogue: you meet an exchange student. Ask what they can do and answer their questions about you.",
+  "targetGrammar": "can questions and short answers",
+  "lookFor": [
+   "Can you … ?",
+   "Yes, I can / No, I can't",
+   "can before the subject"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You want to rent a flat. Write four questions to the owner with can (pets, guests, parking, internet).",
+  "targetGrammar": "Can I / Can we + base verb … ?",
+  "lookFor": [
+   "Can I / Can we",
+   "base verb after can",
+   "a question mark on each question"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write questions for a class survey about skills: cooking, languages, sports and music.",
+  "targetGrammar": "Can you + base verb … ? / How many … can you … ?",
+  "lookFor": [
+   "four or more questions",
+   "a How many / How well question",
+   "no to after can"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A tourist asks you about your city. Write four questions they could ask with Where can … ? or What can … ?",
+  "targetGrammar": "wh- questions with can",
+  "lookFor": [
+   "Where can I / we …",
+   "What can I / we …",
+   "can before the subject"
+  ]
+ }
+]
