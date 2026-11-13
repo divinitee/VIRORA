@@ -55,7 +55,7 @@ const CHOOSE = [
   [ROLE, ME("sit"), "Excuse me, ______ sit {where}, please?",
     { where: ["here", "next to you", "by the window", "at this table"] }],
   [ROLE, ME("use"), "______ use your {device} for a minute? Mine is {state}.",
-    { device: ["phone", "laptop", "charger", "calculator"], state: ["broken", "at home", "not working", "out of battery"] }],
+    { device: ["phone", "laptop", "charger", "calculator"], state: ["broken", "at home", "not working", "in the car"] }],
   [ROLE_YOU, YOU("close"), "It's very cold. ______ close the {thing} for me, please, {name}?",
     { thing: ["window", "door", "balcony door", "windows"], name: ["Mum", "Aziz", "Olga", "Sardor"] }],
   [ROLE, ME("have"), "I'm really thirsty. ______ have some {drink}, please, {name}?",

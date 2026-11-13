@@ -509,8 +509,8 @@ export default [
    "who": [
     "us",
     "me",
-    "the TV",
-    "the radio"
+    "you",
+    "people"
    ],
    "where": [
     "on the phone",

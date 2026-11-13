@@ -62,7 +62,7 @@ const CHOOSE = [
   [V("see", "sees", "seeing"), VW("see"), "We can't ______ the {thing} from here. Let's move {where}.",
     { thing: ["stage", "screen", "board", "river"], where: ["closer", "to the front", "forward", "nearer"] }],
   [V("hear", "hears", "hearing"), VW("hear"), "Grandpa can't ______ {who} well {where}.",
-    { who: ["us", "me", "the TV", "the radio"], where: ["on the phone", "from the kitchen", "in the car", "outside"] }],
+    { who: ["us", "me", "you", "people"], where: ["on the phone", "from the kitchen", "in the car", "outside"] }],
   [V("write", "writes", "writing"), VW("write"), "Our son can't ______ his name in {script} yet, {name}.",
     { script: ["English", "Russian", "capital letters", "Latin letters"], name: ["Ms Karimova", "Doctor", "Grandma", "Aunt Lola"] }],
   [V("eat", "eats", "eating"), VW("eat"), "I can't ______ {food}, {name}. I'm allergic.",

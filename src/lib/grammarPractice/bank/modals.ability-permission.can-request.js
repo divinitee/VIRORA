@@ -395,7 +395,7 @@ export default [
     "broken",
     "at home",
     "not working",
-    "out of battery"
+    "in the car"
    ]
   }
  },

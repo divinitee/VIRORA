@@ -52,7 +52,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ Can I · Can you · Do I · Am I  
    why: You want to sit it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.
 
-13. ______ use your **phone** for a minute? Mine is **out of battery**.  
+13. ______ use your **phone** for a minute? Mine is **in the car**.  
    options: ✔ Can I · Can you · Do I · Am I  
    why: You want to use it yourself, so ask for permission with Can I … ? Can you … ? asks the other person to do it.
 
