@@ -195,8 +195,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Students is plural, so must becomes have to + base verb.
 
 2. _Rewrite the sentence with have to or has to._  
-   Drivers must stop at the **border** **in the city**.  
-   → Drivers ______ (stop) at the **border** **in the city**.  
+   Drivers must stop at the **border** **here**.  
+   → Drivers ______ (stop) at the **border** **here**.  
    key: have to stop  
    why: Drivers is plural: have to stop.
 

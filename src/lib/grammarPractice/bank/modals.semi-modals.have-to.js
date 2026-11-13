@@ -1217,10 +1217,10 @@ export default [
     "gate"
    ],
    "where": [
-    "in the city",
     "here",
+    "every time",
     "on this road",
-    "every time"
+    "at night"
    ]
   }
  },

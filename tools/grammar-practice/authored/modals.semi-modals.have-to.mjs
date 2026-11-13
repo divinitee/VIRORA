@@ -131,7 +131,7 @@ const TRANSFORM = [
     { place: ["our school", "this college", "school", "the academy"], when: ["every day", "on Mondays", "for exams", "all week"] }],
   [MUST, "Drivers must stop at the {thing} {where}.", "Drivers ______ (stop) at the {thing} {where}.", "have to stop",
     "Drivers is plural: have to stop.",
-    { thing: ["red light", "crossing", "border", "gate"], where: ["in the city", "here", "on this road", "every time"] }],
+    { thing: ["red light", "crossing", "border", "gate"], where: ["here", "every time", "on this road", "at night"] }],
   [MUST, "Aziz must finish the {task} {when}.", "Aziz ______ (finish) the {task} {when}.", "has to finish",
     "Aziz is one person (he), so must becomes has to.",
     { task: ["report", "project", "essay", "test"], when: ["today", "by Friday", "tonight", "this week"] }],
