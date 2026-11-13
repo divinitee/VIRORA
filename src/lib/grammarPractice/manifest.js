@@ -58,6 +58,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.advice.should": {
+  "domain": "modals",
+  "branch": "advice",
+  "topic": "should",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 296,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.articles.a-an": {
   "domain": "nouns-articles",
   "branch": "articles",
