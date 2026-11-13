@@ -157,7 +157,7 @@ export default [
     "morning",
     "first lesson",
     "mornings",
-    "class"
+    "afternoon"
    ]
   }
  },

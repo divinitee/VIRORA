@@ -35,7 +35,7 @@ const CHOOSE = [
   [F("wear", "wearing", "wears"), FW("wear"), "You should ______ a jacket, {name}. It's {adj} outside.",
     { name: ["Bobur", "Kamila", "Sardor", "Madina"], adj: ["cold", "windy", "chilly", "freezing"] }],
   [F("go", "going", "goes"), FW("go"), "Aziz should ______ to bed earlier. He's always {state} in the {time}.",
-    { state: ["tired", "sleepy", "late", "grumpy"], time: ["morning", "first lesson", "mornings", "class"] }],
+    { state: ["tired", "sleepy", "late", "grumpy"], time: ["morning", "first lesson", "mornings", "afternoon"] }],
   [F("visit", "visiting", "visits"), FW("visit"), "Tourists should ______ {city} in {season}.",
     { city: ["Samarkand", "Bukhara", "Khiva", "Shahrisabz"], season: ["spring", "autumn", "April", "October"] }],
   [F("call", "calling", "calls"), FW("call"), "You should ______ your {relative} more often, {name}.",
