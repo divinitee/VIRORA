@@ -478,6 +478,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.imperatives.lets": {
+  "domain": "sentence-structure",
+  "branch": "imperatives",
+  "topic": "lets",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 316,
+   "build": 272,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.predication.be-am-is-are": {
   "domain": "sentence-structure",
   "branch": "predication",

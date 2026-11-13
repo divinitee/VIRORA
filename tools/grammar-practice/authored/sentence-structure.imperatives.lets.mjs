@@ -20,7 +20,7 @@ const V = (v, s, ing) => [v, `to ${v}`, ing, s];
 const VW = (v) => `After Let's, use the base verb: Let's ${v}. No to, no -ing, no -s.`;
 const FORM = ["Let's", "Lets we", "Let we", "Let's we"];
 const FW = "Make a suggestion with Let's + base verb. Let's already means let us, so don't add we.";
-const N = (v) => [`not ${v}`, `not to ${v}`, `no ${v}`, `not ${v}ing`.replace(/eing$/, "ing")];
+const N = (v, ing) => [`not ${v}`, `not to ${v}`, `no ${v}`, `not ${ing}`];
 const NW = (v) => `The negative suggestion is Let's not + base verb: Let's not ${v}.`;
 
 /* ---------------- choose: 20 mcq ---------------- */
@@ -57,13 +57,13 @@ const CHOOSE = [
     { when: ["tomorrow", "on Monday", "next week", "on Friday"], name: ["Kamila", "Jasur", "Nigora", "Sardor"] }],
   [FORM, FW, "______ meet at the {place} at {time}.",
     { place: ["cinema", "metro", "café", "library"], time: ["six", "seven", "five", "eight"] }],
-  [N("be"), NW("be"), "Let's ______ late {when}, {name}.",
+  [N("be", "being"), NW("be"), "Let's ______ late {when}, {name}.",
     { when: ["again", "tomorrow", "this time", "for class"], name: ["Aziz", "Olga", "Timur", "Dilnoza"] }],
-  [N("take"), NW("take"), "Let's ______ the {transport}. It's too {adj}.",
+  [N("take", "taking"), NW("take"), "Let's ______ the {transport}. It's too {adj}.",
     { transport: ["bus", "metro", "minibus", "train"], adj: ["crowded", "slow", "full"] }],
-  [N("have"), NW("have"), "Let's ______ {food} again. We had it {when}.",
+  [N("have", "having"), NW("have"), "Let's ______ {food} again. We had it {when}.",
     { food: ["pizza", "plov", "soup", "pasta"], when: ["yesterday", "last night", "on Monday", "for lunch"] }],
-  [N("worry"), NW("worry"), "Let's ______ about the {thing} now. Let's enjoy the {event}.",
+  [N("worry", "worrying"), NW("worry"), "Let's ______ about the {thing} now. Let's enjoy the {event}.",
     { thing: ["exam", "test", "homework", "money"], event: ["party", "holiday", "weekend", "concert"] }],
 ].map(([options, why, prompt, slots]) => ({ ...BASE, stage: "choose", format: "mcq", prompt, options, key: 0, why, slots }));
 
@@ -74,8 +74,8 @@ const NEG = (v) => `The context says we shouldn't do it, so use Let's not + base
 const BUILD = [
   ["go", 1, "It's a lovely day. ______ (go) for a walk in the {place}, {name}!",
     { place: ["park", "old city", "botanical garden", "mahalla"], name: ["Aziz", "Lola", "Mum", "Sardor"] }],
-  ["have", 1, "______ (have) {food} for lunch today. It's my favourite!",
-    { food: ["plov", "lagman", "pizza", "soup"] }],
+  ["have", 1, "______ (have) {food} for lunch today. It's my favourite, {name}!",
+    { food: ["plov", "lagman", "pizza", "soup"], name: ["Mum", "Aziz", "Olga", "Dad"] }],
   ["hurry", 1, "The film starts at {time}. ______ (hurry), {name}!",
     { time: ["six", "seven", "eight", "half past five"], name: ["Bobur", "Kamila", "Olga", "Timur"] }],
   ["ask", 1, "We're lost. ______ (ask) the {person} for directions to the {place}.",
@@ -87,7 +87,7 @@ const BUILD = [
   ["sit", 1, "______ (sit) {where}. There's a nice view, {name}.",
     { where: ["here", "by the window", "outside", "on the balcony"], name: ["Grandma", "Dilshod", "Malika", "Dad"] }],
   ["call", 1, "______ (call) {who} {when} and tell them the news.",
-    { who: ["Grandma", "our parents", "Aziz", "everyone"], when: ["now", "tonight", "after dinner", "right away"] }],
+    { who: ["our parents", "Aziz and Lola", "everyone", "our friends"], when: ["now", "tonight", "after dinner", "right away"] }],
   ["open", 1, "It's {temp} in here. ______ (open) the windows.",
     { temp: ["hot", "stuffy", "warm", "too hot"] }],
   ["play", 1, "______ (play) {game} while we wait for {who}.",
