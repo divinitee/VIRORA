@@ -51,9 +51,9 @@
   "slots": {
    "meal": [
     "dinner",
-    "lunch",
-    "breakfast",
-    "tea"
+    "plov",
+    "tea",
+    "a meal"
    ],
    "when": [
     "tonight",
@@ -1436,7 +1436,7 @@
     "dinner",
     "lunch",
     "plov",
-    "breakfast"
+    "tea"
    ],
    "when": [
     "on Sunday",
@@ -1597,8 +1597,8 @@
    "thing": [
     "bread",
     "some fruit",
-    "her glasses",
-    "the photos"
+    "the photos",
+    "the newspaper"
    ],
    "when": [
     "tomorrow",

@@ -53,9 +53,9 @@ export default [
   "slots": {
    "meal": [
     "dinner",
-    "lunch",
-    "breakfast",
-    "tea"
+    "plov",
+    "tea",
+    "a meal"
    ],
    "when": [
     "tonight",
@@ -1438,7 +1438,7 @@ export default [
     "dinner",
     "lunch",
     "plov",
-    "breakfast"
+    "tea"
    ],
    "when": [
     "on Sunday",
@@ -1599,8 +1599,8 @@ export default [
    "thing": [
     "bread",
     "some fruit",
-    "her glasses",
-    "the photos"
+    "the photos",
+    "the newspaper"
    ],
    "when": [
     "tomorrow",

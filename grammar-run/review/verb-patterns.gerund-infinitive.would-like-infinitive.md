@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Use would like + person + to + verb: would like the players to come. Not "would like that the players come".
 
 15. _Rewrite with would like + person + to + verb._  
-   Grandma says to me: "Please bring **her glasses** **on Sunday**."  
-   → Grandma would like ______ (bring) **her glasses** **on Sunday**.  
+   Grandma says to me: "Please bring **the photos** **on Sunday**."  
+   → Grandma would like ______ (bring) **the photos** **on Sunday**.  
    key: me to bring  
    why: Grandma is talking to me, so use would like + me + to bring.
 

@@ -39,7 +39,7 @@ const CHOOSE = [
   [o("book", "booking", "to booking"), TO("book"), "I would like ______ a table for {num} {when}, please.",
     { num: ["two", "three", "four", "six"], when: ["tonight", "on Friday", "at seven", "this evening"] }],
   [q("have", "having", "has"), Q("have"), "Would you like ______ {meal} with us {when}?",
-    { meal: ["dinner", "lunch", "breakfast", "tea"], when: ["tonight", "on Sunday", "after work", "tomorrow"] }],
+    { meal: ["dinner", "plov", "tea", "a meal"], when: ["tonight", "on Sunday", "after work", "tomorrow"] }],
   [WLO, WL, "My father ______ to speak to the {person} {when}.",
     { person: ["manager", "doctor", "director", "head teacher"], when: ["now", "today", "before lunch", "this afternoon"] }],
   [o("visit", "visiting", "to visits"), TO("visit"), "We'd like ______ {city} {when}.",
@@ -157,7 +157,7 @@ const TRANSFORM = [
     { show: ["a film", "the match", "the new series", "a cartoon"], day: ["Friday", "Saturday", "Sunday", "Thursday"] }],
   [INVITE, "Do you want to have {meal} at our house?", "______ (have) {meal} at our house {when}?", "would you like to have",
     "Would you like + to have is the polite way to invite someone to eat.",
-    { meal: ["dinner", "lunch", "plov", "breakfast"], when: ["on Sunday", "tomorrow", "this weekend", "after the lesson"] }],
+    { meal: ["dinner", "lunch", "plov", "tea"], when: ["on Sunday", "tomorrow", "this weekend", "after the lesson"] }],
   [INVITE, "Do you want to go for a walk in {place} {when}?", "______ (go) for a walk in {place} {when}?", "would you like to go",
     "Would you like + to go is a polite invitation.",
     { place: ["the park", "the old city", "the botanical garden", "the city centre"], when: ["today", "this evening", "on Saturday", "later"] }],
@@ -176,7 +176,7 @@ const TRANSFORM = [
     { time: ["eight", "nine", "seven", "ten"], day: ["Saturday", "Sunday", "Monday", "Friday"] }],
   [PERSON, "Grandma says to me: \"Please bring {thing} {when}.\"", "Grandma would like ______ (bring) {thing} {when}.", "me to bring",
     "Grandma is talking to me, so use would like + me + to bring.",
-    { thing: ["bread", "some fruit", "her glasses", "the photos"], when: ["tomorrow", "next time", "on Sunday", "tonight"] }],
+    { thing: ["bread", "some fruit", "the photos", "the newspaper"], when: ["tomorrow", "next time", "on Sunday", "tonight"] }],
 ].map(([instr, source, hint, key, why, slots]) => {
   const k = typeof key === "string" ? { key } : key;
   const acc = { "my sister to help": ["her to help"], "the players to come": ["them to come"] }[k.key];
