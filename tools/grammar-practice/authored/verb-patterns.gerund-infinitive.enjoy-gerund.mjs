@@ -112,7 +112,7 @@ const BUILD = [
   ["staying", EN("staying"), "Did you enjoy ______ (stay) at the {place}, {name}?",
     { place: ["hotel", "camp", "guesthouse", "sanatorium"], name: ["Bobur", "Lola", "Dilshod", "Nigora"] }],
   ["telling", EN("telling"), "My uncle enjoys ______ (tell) {stories} about his {time}.",
-    { stories: ["stories", "funny stories", "old stories", "long stories"], time: ["childhood", "school days", "army days", "first job"] }],
+    { stories: ["stories", "funny stories", "old stories", "long stories"], time: ["childhood", "school days", "student days", "first job"] }],
 ].map(([key, why, source, slots, acceptable]) => ({
   ...BASE, stage: "build", format: "gap_fill", instr: INSTR_B, source, key, why, slots, ...(acceptable ? { acceptable } : {}),
 }));

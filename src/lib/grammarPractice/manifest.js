@@ -758,6 +758,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.gerund-infinitive.enjoy-gerund": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "enjoy-gerund",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.gerund-infinitive.want-infinitive": {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",
