@@ -636,7 +636,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write was or were.",
-  "source": "When I was a child, there ______ a small {shop} at the end of our {street}.",
+  "source": "Ten years ago, there ______ a small {shop} at the end of our {street}.",
   "key": "was",
   "why": "A small shop is one thing, and this was in the past, so use there was.",
   "slots": {
@@ -713,7 +713,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write was or were.",
-  "source": "There ______ a lot of rain in {city} last spring, and the {place} looked green.",
+  "source": "Last spring there ______ a lot of rain in {city}, and the {place} looked green.",
   "key": "was",
   "why": "Rain is uncountable, and this was in the past, so use there was.",
   "slots": {
@@ -1099,7 +1099,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write was or were.",
-  "source": "There ______ a lot of children in the {place} yesterday afternoon. They {act}.",
+  "source": "Yesterday afternoon there ______ a lot of children in the {place}. They {act}.",
   "key": "were",
   "why": "Children is plural, and this was in the past, so use there were.",
   "slots": {
@@ -1191,7 +1191,9 @@
   "slots": {
    "road": [
     "road",
-    "street"
+    "street",
+    "bridge",
+    "main road"
    ],
    "home": [
     "house",
@@ -1281,7 +1283,7 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Make the sentence negative. Use any.",
+  "instr": "Make the sentence negative.",
   "source": "There were some free seats on the {transport} this morning.",
   "hint": "There ______ any free seats on the {transport} this morning.",
   "key": "weren't",
@@ -1303,7 +1305,7 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Make the sentence negative. Use any.",
+  "instr": "Make the sentence negative.",
   "source": "There was some bread in the {place} for {meal}.",
   "hint": "There ______ any bread in the {place} for {meal}.",
   "key": "wasn't",
@@ -1331,7 +1333,7 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Make the sentence negative. Use any.",
+  "instr": "Make the sentence negative.",
   "source": "There were some good films at the cinema near our {home} in {city} last week.",
   "hint": "There ______ any good films at the cinema near our {home} in {city} last week.",
   "key": "weren't",
@@ -1359,7 +1361,7 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Make the sentence negative. Use any.",
+  "instr": "Make the sentence negative.",
   "source": "There was a doctor at the {place} in our {area} yesterday.",
   "hint": "There ______ a doctor at the {place} in our {area} yesterday.",
   "key": "wasn't",
@@ -1387,7 +1389,7 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Make the sentence negative. Use any.",
+  "instr": "Make the sentence negative.",
   "source": "There were a lot of people at the {event} in {city} on Sunday.",
   "hint": "There ______ many people at the {event} in {city} on Sunday.",
   "key": "weren't",

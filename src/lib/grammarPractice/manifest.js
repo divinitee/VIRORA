@@ -534,6 +534,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.existential.there-was-were": {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-was-were",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 228,
+   "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.predication.be-am-is-are": {
   "domain": "sentence-structure",
   "branch": "predication",
@@ -866,6 +880,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 20,
    "build": 58,
    "transform": 15,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.used-to.used-to-state": {
+  "domain": "tenses",
+  "branch": "used-to",
+  "topic": "used-to-state",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 272,
+   "build": 284,
+   "transform": 216,
    "create": 8,
    "express": 5
   }

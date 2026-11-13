@@ -94,13 +94,13 @@ const I1 = "Write was or were.";
 const I2 = "Write was or were in each gap.";
 // [key, source, why, slots]
 const BUILD = [
-  ["was", "When I was a child, there ______ a small {shop} at the end of our {street}.", W.sg("A small shop"),
+  ["was", "Ten years ago, there ______ a small {shop} at the end of our {street}.", W.sg("A small shop"),
     { shop: ["shop", "bakery", "café", "kiosk"], street: ["street", "road", "lane"] }],
   [["were", "was"], "There ______ a lot of guests at the {event}, but there ______ only one {who} I knew.", "Guests is plural, so there were. One person is singular, so there was.",
     { event: ["wedding", "party", "birthday party", "concert"], who: ["girl", "boy", "person", "man"] }],
   ["were", "Last night there ______ three good films on TV, so I stayed up until {time}.", W.pl("Films"),
     { time: ["midnight", "one o'clock", "eleven", "half past twelve"] }],
-  ["was", "There ______ a lot of rain in {city} last spring, and the {place} looked green.", W.un("Rain"),
+  ["was", "Last spring there ______ a lot of rain in {city}, and the {place} looked green.", W.un("Rain"),
     { city: ["Tashkent", "Fergana", "Namangan", "Samarkand"], place: ["park", "garden", "yard", "field"] }],
   [["was", "were"], "There ______ one {shop} in our {place}, and there ______ no cafés.", "One shop is singular, so there was. Cafés is plural, so there were.",
     { shop: ["shop", "bakery", "school", "clinic"], place: ["village", "street", "district", "area"] }],
@@ -130,7 +130,7 @@ const BUILD = [
     { place: ["cinema", "new cinema", "film club", "cinema in town"], who: ["friends", "my sister", "our cousins", "my parents"] }],
   [["was", "were"], "At the {place} yesterday there ______ lots of fruit, but there ______ no tomatoes.", "Fruit is uncountable, so there was. Tomatoes is plural, so there were.",
     { place: ["bazaar", "market", "shop", "supermarket"] }],
-  ["were", "There ______ a lot of children in the {place} yesterday afternoon. They {act}.", W.pl("Children"),
+  ["were", "Yesterday afternoon there ______ a lot of children in the {place}. They {act}.", W.pl("Children"),
     { place: ["park", "playground", "yard", "pool"], act: ["played games", "ran and shouted", "laughed a lot", "had ice cream"] }],
   [["were", "was"], "There ______ two tests in {subject} last week, and there ______ a lot of homework too, so I {act} every evening.", "Tests is plural, so there were. Homework is uncountable, so there was.",
     { subject: ["maths", "English", "physics", "history"], act: ["studied", "worked hard", "stayed at home", "read my notes"] }],
@@ -140,7 +140,7 @@ const BUILD = [
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
 const PAST = "Rewrite the sentence in the past.";
-const NEG = "Make the sentence negative. Use any.";
+const NEG = "Make the sentence negative.";
 const FIX = "This sentence has a mistake. Rewrite it correctly.";
 // [instr, source, hint, key, why, slots]
 const TRANSFORM = [
@@ -149,7 +149,7 @@ const TRANSFORM = [
     { shop: ["shop", "market", "supermarket", "café"], place: ["street", "village", "district", "town"] }],
   [PAST, "There are many cars on the {road} near our {home} today.", "There ______ many cars on the {road} near our {home} last night.", "were",
     "Last night is the past, and cars is plural, so are becomes were.",
-    { road: ["road", "street"], home: ["house", "school", "flat", "college"] }],
+    { road: ["road", "street", "bridge", "main road"], home: ["house", "school", "flat", "college"] }],
   [PAST, "There is no milk in the {place}.", "There ______ no milk in the {place} yesterday.", "was",
     "Yesterday is the past, and milk is uncountable, so is becomes was.",
     { place: ["fridge", "kitchen", "shop", "café"] }],
