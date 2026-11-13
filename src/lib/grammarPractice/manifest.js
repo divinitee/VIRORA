@@ -30,6 +30,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.ability-permission.cant-ability": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "cant-ability",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 268,
+   "build": 264,
+   "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.articles.a-an": {
   "domain": "nouns-articles",
   "branch": "articles",

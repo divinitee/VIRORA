@@ -110,7 +110,7 @@
 109	B	modals.ability-permission.can-form	A1	2	todo	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')
 110	B	modals.ability-permission.can-question	A1	1	live	Modal question: can + subject + verb
 111	B	modals.ability-permission.can-request	A1	1	todo	Can for a request
-112	B	modals.ability-permission.cant-ability	A1	1	todo	can't for lack of ability; no 'doesn't'
+112	B	modals.ability-permission.cant-ability	A1	1	live	can't for lack of ability; no 'doesn't'
 113	B	modals.ability-permission.could-past-ability	A2	1	todo	could for past ability
 114	B	modals.obligation.must	A2	1	todo	must for strong obligation
 115	B	modals.obligation.mustnt-vs-dont-have-to	A2	2	todo	mustn't (prohibition) vs don't have to (no obligation) | don't have to = not necessary

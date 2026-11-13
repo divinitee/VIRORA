@@ -54,7 +54,7 @@ const CHOOSE = [
   [N.sg, NEG("she is", "walk"), "{name}'s baby ______ walk yet, but she {other}.",
     { name: ["Aziza", "Lola", "Olga", "Nodira"], other: ["crawls everywhere", "stands up", "says 'mama'", "claps her hands"] }],
   [V("lift", "lifts", "lifting"), VW("lift"), "My brother can't ______ the {thing}. It's too {adj}.",
-    { thing: ["box", "bag", "table", "suitcase"], adj: ["heavy", "big", "full", "large"] }],
+    { thing: ["box", "bag", "table", "suitcase"], adj: ["heavy", "big", "large"] }],
   [V("find", "finds", "finding"), VW("find"), "I can't ______ my {thing}. Have you seen it, {name}?",
     { thing: ["phone", "wallet", "passport", "umbrella"], name: ["Mum", "Dad", "Bekzod", "Sevara"] }],
   [V("speak", "speaks", "speaking"), VW("speak"), "Aziz can't ______ {lang} {how}.",
