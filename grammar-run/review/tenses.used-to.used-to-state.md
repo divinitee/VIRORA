@@ -86,193 +86,193 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## build (20)
 
-1. _Complete the sentence with used and the verb in brackets, in the right form._  
+1. _Complete the sentence with used to and the verb in brackets._  
    When I was a child, I ______ (live) in a village near **Bukhara**. Now my home is in the **city centre**.  
    key: used to live  
    why: This was true in the past but is not true now, so use used to + the base form: used to live. Not use to, no -ing or past form after it, and no be before it.
 
-2. _Complete the sentence with used and the verb in brackets, in the right form._  
+2. _Complete the sentence with used to and the verb in brackets._  
    My uncle ______ (have) a small **bakery** in the **market**, but he sold it last year.  
    key: used to have  
    why: This was true in the past but is not true now, so use used to + the base form: used to have. Not use to, no -ing or past form after it, and no be before it.
 
-3. _Complete the sentence with used and the verb in brackets, in the right form._  
+3. _Complete the sentence with used to and the verb in brackets._  
    This **village** ______ (be) very quiet. Now there are new **shops** everywhere.  
    key: used to be  
    why: This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.
 
-4. _Complete the sentence with used and the verb in brackets, in the right form._  
+4. _Complete the sentence with used to and the verb in brackets._  
    **Malika** ______ (like) **cartoons**, but she doesn't any more.  
    key: used to like  
    why: This was true in the past but is not true now, so use used to + the base form: used to like. Not use to, no -ing or past form after it, and no be before it.
 
-5. _Complete the sentence with used and the verb in brackets, in the right form._  
+5. _Complete the sentence with used to and the verb in brackets._  
    We ______ (go) camping in the **countryside** every **spring**, but now we are too busy.  
    key: used to go  
    why: This was true in the past but is not true now, so use used to + the base form: used to go. Not use to, no -ing or past form after it, and no be before it.
 
-6. _Complete the sentence with used and the verb in brackets, in the right form._  
+6. _Complete the sentence with used to and the verb in brackets._  
    My father ______ (play) **football** for a city team, but he stopped after his **wedding**.  
    key: used to play  
    why: This was true in the past but is not true now, so use used to + the base form: used to play. Not use to, no -ing or past form after it, and no be before it.
 
-7. _Complete the sentence with used and the verb in brackets, in the right form._  
+7. _Complete the sentence with used to and the verb in brackets._  
    My mother ______ (work) at a **hospital**. Now she stays at home with my little **brothers**.  
    key: used to work  
    why: This was true in the past but is not true now, so use used to + the base form: used to work. Not use to, no -ing or past form after it, and no be before it.
 
-8. _Complete the sentence with used and the verb in brackets, in the right form._  
+8. _Complete the sentence with used to and the verb in brackets._  
    There ______ (be) a big **statue** in the middle of our **village**, but now it is gone.  
    key: used to be  
    why: This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.
 
-9. _Complete the sentence with used and the verb in brackets, in the right form._  
+9. _Complete the sentence with used to and the verb in brackets._  
    I ______ (eat) a lot of **sweets**, but now I am careful.  
    key: used to eat  
    why: This was true in the past but is not true now, so use used to + the base form: used to eat. Not use to, no -ing or past form after it, and no be before it.
 
-10. _Complete the sentence with used and the verb in brackets, in the right form._  
+10. _Complete the sentence with used to and the verb in brackets._  
    Our neighbours ______ (know) everyone in our **building**, but now many new people live here.  
    key: used to know  
    why: This was true in the past but is not true now, so use used to + the base form: used to know. Not use to, no -ing or past form after it, and no be before it.
 
-11. _Complete the sentence with used and the verb in brackets, in the right form._  
+11. _Complete the sentence with used to and the verb in brackets._  
    Our **school** ______ (have) only one computer, but now every **classroom** has ten.  
    key: used to have  
    why: This was true in the past but is not true now, so use used to + the base form: used to have. Not use to, no -ing or past form after it, and no be before it.
 
-12. _Complete the sentence with used and the verb in brackets, in the right form._  
+12. _Complete the sentence with used to and the verb in brackets._  
    I ______ (walk) home after **lessons**, but now my **uncle** drives me.  
    key: used to walk  
    why: This was true in the past but is not true now, so use used to + the base form: used to walk. Not use to, no -ing or past form after it, and no be before it.
 
-13. _Complete the sentence with used and the verb in brackets, in the right form._  
+13. _Complete the sentence with used to and the verb in brackets._  
    My little **cousin** ______ (be) afraid of **birds**, but now he loves them.  
    key: used to be  
    why: This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.
 
-14. _Complete the sentence with used and the verb in brackets, in the right form._  
+14. _Complete the sentence with used to and the verb in brackets._  
    My **grandparents** ______ (live) in **Termez**, but they moved here last year.  
    key: used to live  
    why: This was true in the past but is not true now, so use used to + the base form: used to live. Not use to, no -ing or past form after it, and no be before it.
 
-15. _Complete the sentence with used and the verb in brackets, in the right form._  
+15. _Complete the sentence with used to and the verb in brackets._  
    **Pavel** ______ (wear) glasses for **school**, but now he doesn't need them.  
    key: used to wear  
    why: This was true in the past but is not true now, so use used to + the base form: used to wear. Not use to, no -ing or past form after it, and no be before it.
 
-16. _Complete the sentence with used and the verb in brackets, in the right form._  
+16. _Complete the sentence with used to and the verb in brackets._  
    My **older brother** ______ (drink) a lot of coffee. Now he has only **black tea**.  
    key: used to drink  
    why: This was true in the past but is not true now, so use used to + the base form: used to drink. Not use to, no -ing or past form after it, and no be before it.
 
-17. _Complete the sentence with used and the verb in brackets, in the right form._  
+17. _Complete the sentence with used to and the verb in brackets._  
    I ______ (ride) my bike in the **park** every day when I was **eleven**.  
    key: used to ride  
    why: This was true in the past but is not true now, so use used to + the base form: used to ride. Not use to, no -ing or past form after it, and no be before it.
 
-18. _Complete the sentence with used and the verb in brackets, in the right form._  
+18. _Complete the sentence with used to and the verb in brackets._  
    **Tashkent** ______ (be) much **greener** fifty years ago.  
    key: used to be  
    why: This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.
 
-19. _Complete the sentence with used and the verb in brackets, in the right form._  
+19. _Complete the sentence with used to and the verb in brackets._  
    As a baby, my **sister** ______ (sleep) all day. Now she runs around until **nine**.  
    key: used to sleep  
    why: This was true in the past but is not true now, so use used to + the base form: used to sleep. Not use to, no -ing or past form after it, and no be before it.
 
-20. _Complete the sentence with used and the verb in brackets, in the right form._  
+20. _Complete the sentence with used to and the verb in brackets._  
    We ______ (watch) films at the old cinema in **Fergana**, but it closed in the **autumn**.  
    key: used to watch  
    why: This was true in the past but is not true now, so use used to + the base form: used to watch. Not use to, no -ing or past form after it, and no be before it.
 
 ## transform (15)
 
-1. _Rewrite the two sentences as one, with used._  
+1. _Rewrite the two sentences as one, with used to._  
    I lived in a small **village house** in **Namangan** as a child. I don't live there now.  
    → As a child, I ______ in a small **village house** in **Namangan**.  
    key: used to live  
    why: This was true in the past but is not true now, so use used to + the base form: used to live. Not use to, no -ing or past form after it, and no be before it.
 
-2. _Rewrite the two sentences as one, with used._  
+2. _Rewrite the two sentences as one, with used to._  
    Ten years ago, my **brother** had a **small car**. He doesn't have it now.  
    → Ten years ago, my **brother** ______ a **small car**.  
    key: used to have  
    why: This was true in the past but is not true now, so use used to + the base form: used to have. Not use to, no -ing or past form after it, and no be before it.
 
-3. _Rewrite the two sentences as one, with used._  
+3. _Rewrite the two sentences as one, with used to._  
    This **big building** was a factory. It isn't a factory now.  
    → This **big building** ______ a factory.  
    key: used to be  
    why: This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.
 
-4. _Rewrite the two sentences as one, with used._  
+4. _Rewrite the two sentences as one, with used to._  
    When she was young, **Kamola** liked **pop music**. She doesn't like it now.  
    → When she was young, **Kamola** ______ **pop music**.  
    key: used to like  
    why: This was true in the past but is not true now, so use used to + the base form: used to like. Not use to, no -ing or past form after it, and no be before it.
 
-5. _Rewrite the two sentences as one, with used._  
+5. _Rewrite the two sentences as one, with used to._  
    There was a big **park** near our **school**. It is not there now.  
    → There ______ a big **park** near our **school**.  
    key: used to be  
    why: This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.
 
-6. _Rewrite the sentence with used instead of often, always or usually._  
+6. _Rewrite the sentence with used to instead of often, always or usually._  
    When I was little, I often played **football** in the **street**.  
    → When I was little, I ______ **football** in the **street**.  
    key: used to play  
    why: A past habit that has stopped: used to + the base form, used to play. Used already says it happened often.
 
-7. _Rewrite the sentence with used instead of often, always or usually._  
+7. _Rewrite the sentence with used to instead of often, always or usually._  
    Every summer, my **parents** always went camping in the **forest**.  
    → Every summer, my **parents** ______ camping in the **forest**.  
    key: used to go  
    why: A past habit that has stopped: used to + the base form, used to go. Used already says it happened often.
 
-8. _Rewrite the sentence with used instead of often, always or usually._  
+8. _Rewrite the sentence with used to instead of often, always or usually._  
    In the past, my mother always made **manti** on **holidays**.  
    → In the past, my mother ______ **manti** on **holidays**.  
    key: used to make  
    why: A past habit that has stopped: used to + the base form, used to make. Used already says it happened often.
 
-9. _Rewrite the sentence with used instead of often, always or usually._  
+9. _Rewrite the sentence with used to instead of often, always or usually._  
    At **school**, we usually wore a **school uniform**.  
    → At **school**, we ______ a **school uniform**.  
    key: used to wear  
    why: A past habit that has stopped: used to + the base form, used to wear. Used already says it happened often.
 
-10. _Rewrite the sentence with used instead of often, always or usually._  
+10. _Rewrite the sentence with used to instead of often, always or usually._  
    My **uncle** often told us stories in the **evenings**.  
    → My **uncle** ______ us stories in the **evenings**.  
    key: used to tell  
    why: A past habit that has stopped: used to + the base form, used to tell. Used already says it happened often.
 
-11. _This sentence has a mistake with used. Rewrite it correctly._  
+11. _This sentence has a mistake with used to. Rewrite it correctly._  
    When I was **ten**, I use to have **dark** hair.  
    → When I was **ten**, I ______ **dark** hair.  
    key: used to have  
    why: Use to is wrong. After used, write to + the base form: used to have.
 
-12. _This sentence has a mistake with used. Rewrite it correctly._  
+12. _This sentence has a mistake with used to. Rewrite it correctly._  
    She was used to live in **Kazan** with her **sister**.  
    → She ______ in **Kazan** with her **sister**.  
    key: used to live  
    why: Was used to live is wrong. After used, write to + the base form: used to live.
 
-13. _This sentence has a mistake with used. Rewrite it correctly._  
+13. _This sentence has a mistake with used to. Rewrite it correctly._  
    We used to playing **volleyball** after school with our **cousins**.  
    → We ______ **volleyball** after school with our **cousins**.  
    key: used to play  
    why: Used to playing is wrong. After used, write to + the base form: used to play.
 
-14. _This sentence has a mistake with used. Rewrite it correctly._  
+14. _This sentence has a mistake with used to. Rewrite it correctly._  
    My brother used to took the **bus** **at night**.  
    → My brother ______ the **bus** **at night**.  
    key: used to take  
    why: Used to took is wrong. After used, write to + the base form: used to take.
 
-15. _This sentence has a mistake with used. Rewrite it correctly._  
+15. _This sentence has a mistake with used to. Rewrite it correctly._  
    There use to be a **playground** on our **street**.  
    → There ______ a **playground** on our **street**.  
    key: used to be  

@@ -84,7 +84,7 @@ const CHOOSE = [
 });
 
 /* ---------------- build: 20 gap_fill ---------------- */
-const INSTR = "Complete the sentence with used and the verb in brackets, in the right form.";
+const INSTR = "Complete the sentence with used to and the verb in brackets.";
 // [verb, source, slots] (no "to" in any sentence: the key would echo it)
 const BUILD = [
   ["live", "When I was a child, I ______ (live) in a village near {city}. Now my home is in the {area}.",
@@ -130,9 +130,9 @@ const BUILD = [
 ].map(([v, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key: `used to ${v}`, why: why(`used to ${v}`), slots }));
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
-const STATE = "Rewrite the two sentences as one, with used.";
-const HABIT = "Rewrite the sentence with used instead of often, always or usually.";
-const FIX = "This sentence has a mistake with used. Rewrite it correctly.";
+const STATE = "Rewrite the two sentences as one, with used to.";
+const HABIT = "Rewrite the sentence with used to instead of often, always or usually.";
+const FIX = "This sentence has a mistake with used to. Rewrite it correctly.";
 const whyH = (form) => `A past habit that has stopped: used to + the base form, ${form}. Used already says it happened often.`;
 const whyF = (bad, form) => `${bad} is wrong. After used, write to + the base form: ${form}.`;
 // [instr, source, hint, verb, why|null, slots]
