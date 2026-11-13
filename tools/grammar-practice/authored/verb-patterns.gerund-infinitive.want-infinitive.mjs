@@ -25,7 +25,10 @@ const OBJ = (who, v) => `To say what you want another person to do, use want + p
 
 // four options, key first: to + base, bare base, -ing, and one "to + wrong form"
 const o = (base, ing, wrong) => [`to ${base}`, base, ing, wrong];
-const ob = (who, base, ing, thatClause) => [`${who} to ${base}`, thatClause, `${who} ${base}`, `${who} ${ing}`];
+// person pattern: key, the that-clause transfer, the bare verb, and the subject
+// pronoun in place of the object one (wants I to help). "wants me helping" is
+// NOT offered: natives do say "I don't want you running around".
+const ob = (who, subj, base, thatClause) => [`${who} to ${base}`, thatClause, `${who} ${base}`, `${subj} to ${base}`];
 
 /* ---------------- choose: 20 mcq ---------------- */
 const CHOOSE = [
@@ -37,7 +40,7 @@ const CHOOSE = [
     { city: ["Samarkand", "Bukhara", "Khiva", "Shahrisabz"], season: ["spring", "summer", "autumn", "May"] }],
   [o("learn", "learning", "to learning"), TO_S("learn"), "Akmal wants ______ {lang} at a language centre in {city}.",
     { lang: ["Korean", "German", "Turkish", "Chinese"], city: ["Tashkent", "Namangan", "Fergana", "Andijan"] }],
-  [ob("me", "help", "helping", "that I help"), OBJ("me", "help"), "My mother wants ______ her with the {task} on {day}.",
+  [ob("me", "I", "help", "that I help"), OBJ("me", "help"), "My mother wants ______ her with the {task} on {day}.",
     { task: ["cooking", "cleaning", "shopping", "washing"], day: ["Saturday", "Sunday", "Friday", "Wednesday"] }],
   [o("go", "going", "to goes"), NEG("doesn't", "go"), "Bobur doesn't want ______ to the {place} today. He feels {state}.",
     { place: ["gym", "party", "market", "cinema"], state: ["tired", "ill", "sleepy", "unwell"] }],
@@ -46,8 +49,8 @@ const CHOOSE = [
   [o("open", "opening", "to opened"), TO("open"), "Lola and her sister want ______ a {business} {place}.",
     { business: ["café", "small shop", "bakery", "beauty salon"], place: ["in the city centre", "near the bazaar", "on our street", "next to the university"] }],
   [o("make", "making", "to making"), TO("make"), "My grandparents want ______ {food} {occasion}.",
-    { food: ["plov", "samsa", "sumalak", "manti"], occasion: ["for the whole family", "for our guests", "for Navruz", "for the wedding"] }],
-  [ob("us", "read", "reading", "that we read"), OBJ("us", "read"), "The teacher wants ______ the {text} {how} at home.",
+    { food: ["plov", "samsa", "lagman", "manti"], occasion: ["for the whole family", "for our guests", "for the neighbours", "on Sunday"] }],
+  [ob("us", "we", "read", "that we read"), OBJ("us", "read"), "The teacher wants ______ the {text} {how} at home.",
     { text: ["text", "story", "dialogue", "chapter"], how: ["aloud", "carefully", "slowly", "twice"] }],
   [o("play", "playing", "to plays"), Q("play"), "Do your friends want ______ {sport} with us after {event}?",
     { sport: ["football", "volleyball", "basketball", "table tennis"], event: ["school", "lunch", "class", "the lesson"] }],
@@ -55,7 +58,7 @@ const CHOOSE = [
     { thing: ["phone", "bag", "umbrella", "keys"], transport: ["bus", "metro", "train", "minibus"] }],
   [o("get", "getting", "to gets"), TO_S("get"), "Malika wants ______ a {pet}, but her {family} say no.",
     { pet: ["cat", "dog", "parrot", "rabbit"], family: ["parents", "grandparents", "mum and dad", "older sisters"] }],
-  [ob("us", "run", "running", "that we run"), OBJ("us", "run"), "Our coach wants ______ {where} every day before the {event}.",
+  [ob("us", "we", "run", "that we run"), OBJ("us", "run"), "Our coach wants ______ {where} every day before the {event}.",
     { where: ["in the park", "around the stadium", "by the river", "up the hill"], event: ["match", "final", "race", "tournament"] }],
   [o("sell", "selling", "to selling"), TO_S("sell"), "My dad wants ______ his old {vehicle} {where} and buy a new one.",
     { vehicle: ["car", "bike", "van", "motorbike"], where: ["online", "at the market", "to a neighbour", "to his friend"] }],
@@ -65,7 +68,7 @@ const CHOOSE = [
     { relative: ["grandmother", "aunt", "cousins", "uncle"], city: ["Moscow", "Kazan", "Almaty", "Tashkent"] }],
   [o("eat", "eating", "to eats"), NEG("doesn't", "eat"), "My brother doesn't want ______ his {food}. He says it's too {taste}.",
     { food: ["soup", "porridge", "salad", "rice"], taste: ["hot", "salty", "spicy", "cold"] }],
-  [ob("him", "study", "studying", "that he studies"), OBJ("him", "study"), "Jasur's parents want ______ {subject} {where}.",
+  [ob("him", "he", "study", "that he studies"), OBJ("him", "study"), "Jasur's parents want ______ {subject} {where}.",
     { subject: ["medicine", "law", "economics", "engineering"], where: ["at university", "in Tashkent", "in Korea", "abroad"] }],
   [o("watch", "watching", "to watched"), TO_S("watch"), "Everyone in my class wants ______ the {event} on {day}.",
     { event: ["football match", "concert", "new film", "final"], day: ["Saturday", "Sunday", "Friday", "Tuesday"] }],
@@ -78,8 +81,8 @@ const BUILD = [
     { job: ["nurse", "lawyer", "designer", "teacher"] }],
   ["to try", TO("try"), "We want ______ (try) the new {place} in our {area}.",
     { place: ["café", "restaurant", "bakery", "pizza place"], area: ["street", "district", "mahalla", "town"] }],
-  ["to rest", NEG("doesn't", "rest"), "My father doesn't want ______ (rest) on {day}. He wants to work in the {place}.",
-    { day: ["Sunday", "Saturday", "his day off", "holidays"], place: ["garden", "garage", "yard", "shop"] }],
+  ["to rest", NEG("doesn't", "rest"), "My father doesn't want ______ (rest) on {day}. He's happy in the {place}.",
+    { day: ["Sunday", "Saturday", "Friday", "his day off"], place: ["garden", "garage", "yard", "shop"] }],
   ["to move", TO("move"), "My cousins want ______ (move) to {city} for {reason}.",
     { city: ["Tashkent", "Samarkand", "Seoul", "Istanbul"], reason: ["work", "university", "a better job", "their studies"] }],
   ["to call", TO_S("call"), "Dilshod wants ______ (call) his {relative} {when}.",
@@ -94,14 +97,14 @@ const BUILD = [
     { club: ["chess club", "book club", "football team", "music group"], place: ["school", "college", "university", "the youth centre"] }],
   ["to meet", TO_S("meet"), "Our teacher wants ______ (meet) our {who} {when}.",
     { who: ["parents", "families", "mothers", "fathers"], when: ["next week", "on Friday", "after the exams", "before the holidays"] }],
-  ["to sit", NEG("don't", "sit"), "The boys don't want ______ (sit) at the {spot} of the {room}.",
-    { spot: ["front", "back", "side", "corner"], room: ["classroom", "bus", "hall", "cinema"] }],
+  ["to sit", NEG("don't", "sit"), "The boys don't want ______ (sit) in the {row} row of the {room}.",
+    { row: ["front", "back", "first", "last"], room: ["classroom", "bus", "hall", "cinema"] }],
   ["to cook", TO_S("cook"), "Sevara wants ______ (cook) {food} for her {who}.",
-    { food: ["plov", "dinner", "a cake", "soup"], who: ["guests", "parents", "friends", "grandmother"] }],
+    { food: ["plov", "dinner", "manti", "soup"], who: ["guests", "parents", "friends", "grandmother"] }],
   ["to take", Q("take"), "Does your sister want ______ (take) the {transport} to {city}?",
     { transport: ["train", "bus", "plane", "night train"], city: ["Bukhara", "Khiva", "Termez", "Nukus"] }],
   ["to answer", TO("answer"), "I want ______ (answer) the {thing} first. It looks {adj}.",
-    { thing: ["last question", "second question", "long question", "hardest question"], adj: ["easy", "interesting", "short", "simple"] }],
+    { thing: ["last question", "second question", "third question", "picture question"], adj: ["easy", "interesting", "simple", "fun"] }],
   ["to clean", OBJ("you", "clean"), "Mum wants you ______ (clean) your {room} {when}.",
     { room: ["room", "desk", "shoes", "wardrobe"], when: ["today", "before dinner", "this morning", "right now"] }],
   ["to drive", OBJ("her", "drive"), "Aziza's father wants her ______ (drive) {how}.",
@@ -113,7 +116,7 @@ const BUILD = [
   ["to borrow", Q("borrow"), "Why do you want ______ (borrow) my {thing}, {name}?",
     { thing: ["laptop", "dictionary", "bike", "charger"], name: ["Bobur", "Lola", "Anvar", "Nigora"] }],
   ["to know", TO_S("know"), "Rustam wants ______ (know) the {thing} of the {event}.",
-    { thing: ["time", "date", "price", "address"], event: ["concert", "match", "party", "meeting"] }],
+    { thing: ["time", "date", "start time", "finish time"], event: ["concert", "match", "party", "meeting"] }],
 ].map(([key, why, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR_B, source, key, why, slots }));
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
@@ -152,7 +155,7 @@ const TRANSFORM = [
     { who: ["Anvar", "the window", "the door", "his cousin"], lesson: ["maths", "class", "English", "history"] }],
   [MAKE_NEG, "We want to spend our {money} on {thing}.", "We ______ (spend) our {money} on {thing}.", "don't want to spend",
     "With we, the negative is don't want, then to + base verb: to spend.",
-    { money: ["money", "savings", "pocket money", "free time"], thing: ["clothes", "games", "snacks", "new phones"] }],
+    { money: ["money", "savings", "pocket money", "birthday money"], thing: ["clothes", "games", "snacks", "new phones"] }],
   // imperative -> want + person + to (5)
   [PERSON, "Mum says to me: \"Wash the {thing}, please.\"", "Mum wants ______ (wash) the {thing}.", "me to wash",
     "Mum is talking to me, so use want + me + to + verb. Not \"wants that I wash\".",
@@ -169,7 +172,11 @@ const TRANSFORM = [
   [PERSON, "I say to you: \"Come to my {event} on {day}.\"", "I want ______ (come) to my {event} on {day}.", "you to come",
     "Use want + you + to + verb: I want you to come.",
     { event: ["party", "birthday", "concert", "wedding"], day: ["Saturday", "Sunday", "Friday", "Thursday"] }],
-].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
+].map(([instr, source, hint, key, why, slots]) => ({
+  ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots,
+  // "Dad says to my brother" -> "him to turn" is just as right
+  ...(key === "my brother to turn" ? { acceptable: ["him to turn"] } : {}),
+}));
 
 /* ---------------- create: 8 ---------------- */
 const CREATE = [
