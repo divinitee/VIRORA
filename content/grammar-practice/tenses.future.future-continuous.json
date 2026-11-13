@@ -484,15 +484,15 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "At this time next {when}, my {who} ______ in the army.",
+  "prompt": "At this time next {when}, my {who} ______ at a university in Seoul.",
   "options": [
-   "will be serving",
-   "will serve",
-   "will be serve",
-   "will serving"
+   "will be studying",
+   "will study",
+   "will be study",
+   "will studying"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be serving.",
+  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be studying.",
   "slots": {
    "when": [
     "year",

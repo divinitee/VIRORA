@@ -470,7 +470,7 @@ export default [
    "room": [
     "flat",
     "house",
-    "classroom",
+    "bedroom",
     "kitchen"
    ],
    "thing": [

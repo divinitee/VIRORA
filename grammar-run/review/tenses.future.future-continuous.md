@@ -64,9 +64,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ will be fishing · will fish · fish · will be fish  
    why: The action will be in progress at that moment in the future, so use will be + -ing: will be fishing.
 
-16. At this time next **spring**, my **cousin** ______ in the army.  
-   options: ✔ will be serving · will serve · will be serve · will serving  
-   why: The action will be in progress at that moment in the future, so use will be + -ing: will be serving.
+16. At this time next **spring**, my **cousin** ______ at a university in Seoul.  
+   options: ✔ will be studying · will study · will be study · will studying  
+   why: The action will be in progress at that moment in the future, so use will be + -ing: will be studying.
 
 17. Tomorrow at **noon**, the students ______ their **final exam**, so the school will be quiet.  
    options: ✔ will be writing · will write · will be write · will writing  

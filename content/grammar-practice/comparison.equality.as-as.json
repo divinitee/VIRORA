@@ -1466,8 +1466,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake. For two equal things, use as + adjective + as.",
-  "source": "Today in {city} is as colder as yesterday, so wear your {clothes}.",
-  "hint": "Today in {city} is ______ (cold) yesterday, so wear your {clothes}.",
+  "source": "Today in {city} it is as colder as yesterday, so wear your {clothes}.",
+  "hint": "Today in {city} it is ______ (cold) yesterday, so wear your {clothes}.",
   "key": "as cold as",
   "why": "Between as and as, use the normal adjective: as cold as, not as colder as.",
   "slots": {

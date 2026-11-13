@@ -255,8 +255,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After as ... use as again, not than: as tall as.
 
 12. _Correct the mistake. For two equal things, use as + adjective + as._  
-   Today in **Samarkand** is as colder as yesterday, so wear your **boots**.  
-   → Today in **Samarkand** is ______ (cold) yesterday, so wear your **boots**.  
+   Today in **Samarkand** it is as colder as yesterday, so wear your **boots**.  
+   → Today in **Samarkand** it is ______ (cold) yesterday, so wear your **boots**.  
    key: as cold as  
    why: Between as and as, use the normal adjective: as cold as, not as colder as.
 
