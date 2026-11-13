@@ -16,6 +16,48 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "adj-adv.frequency.always": {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 268,
+   "build": 264,
+   "transform": 208,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "adj-adv.frequency.never": {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "never",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 304,
+   "build": 276,
+   "transform": 220,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "adj-adv.frequency.rarely": {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "rarely",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 270,
+   "build": 240,
+   "transform": 212,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.comparative.er-comparative": {
   "domain": "comparison",
   "branch": "comparative",

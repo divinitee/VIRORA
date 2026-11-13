@@ -92,9 +92,9 @@
 91	B	verb-patterns.gerund-infinitive.would-like-infinitive	A2	1	todo	would like + to-infinitive
 92	B	verb-patterns.object-infinitive.let-bare	A2	1	todo	let + object + bare infinitive
 93	B	adj-adv.frequency.adverb-position	A1	2	live	Frequency adverb before the main verb | Frequency adverb AFTER be
-94	B	adj-adv.frequency.always	A1	1	todo	always for a fixed routine
-95	B	adj-adv.frequency.never	A1	2	todo	never for zero frequency | never with a positive verb (no double negative)
-96	B	adj-adv.frequency.rarely	A1	1	todo	rarely ≈ once a week
+94	B	adj-adv.frequency.always	A1	1	live	always for a fixed routine
+95	B	adj-adv.frequency.never	A1	2	live	never for zero frequency | never with a positive verb (no double negative)
+96	B	adj-adv.frequency.rarely	A1	1	live	rarely ≈ once a week
 97	B	adj-adv.adjective-form.adjective-before-noun	A1	1	todo	Adjective + noun order (adjective does not take plural -s)
 98	B	adj-adv.adjective-form.adjective-after-be	A2	1	todo	Adjective (not adverb) after be/feel/look
 99	B	adj-adv.adverb-form.irregular-adverb	A2	2	todo	well is the adverb of good | hard is both adjective and adverb; 'hardly' means 'almost not'

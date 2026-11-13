@@ -1,0 +1,1745 @@
+[
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father ______ reads the news on his {device} at {time}. He does it every morning, even on holidays.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "Every morning, even on holidays, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "computer"
+   ],
+   "time": [
+    "breakfast",
+    "seven o'clock",
+    "half past six",
+    "eight o'clock"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {subject} teacher ______ checks our homework at the {part} of the lesson. She looks at every notebook, every time.",
+  "options": [
+   "always",
+   "usually",
+   "rarely",
+   "never"
+  ],
+  "key": 0,
+  "why": "Every notebook, every time, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "history",
+    "Russian"
+   ],
+   "part": [
+    "start",
+    "end",
+    "beginning"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} near our {home} is ______ open at eight o'clock, every day of the week.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "Every day of the week, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "shop",
+    "small market"
+   ],
+   "home": [
+    "house",
+    "flat",
+    "school",
+    "metro station"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ wear a seatbelt in my {person}'s car. I put it on every time, even for short trips to the {place}.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "Every time, even for short trips, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "person": [
+    "uncle",
+    "father",
+    "aunt",
+    "brother"
+   ],
+   "place": [
+    "bazaar",
+    "shop",
+    "school",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dilnoza ______ says thank you to the {person}. She is very polite and does it every time.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "She does it every time, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "person": [
+    "bus driver",
+    "waiter",
+    "shop assistant",
+    "cleaner"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {relative} is ______ at home in the evening. She {act} and never goes out after dark.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "She never goes out after dark, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "relative": [
+    "grandmother",
+    "aunt",
+    "mother",
+    "older sister"
+   ],
+   "act": [
+    "cooks",
+    "reads",
+    "watches TV",
+    "sews"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ take off our shoes at the {spot} when we visit {who}. Everyone does it, every time.",
+  "options": [
+   "always",
+   "usually",
+   "rarely",
+   "never"
+  ],
+  "key": 0,
+  "why": "Everyone does it, every time, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "spot": [
+    "door",
+    "entrance",
+    "front door",
+    "doorway"
+   ],
+   "who": [
+    "friends",
+    "our relatives",
+    "our neighbours",
+    "my aunt"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {device}'s battery is ______ empty by {time}. It is old, and this happens every single day.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "This happens every single day, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "watch"
+   ],
+   "time": [
+    "lunch",
+    "six o'clock",
+    "the evening",
+    "the end of school"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bobur ______ gets the top mark in {subject}. He gets five out of five in every test.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "Five out of five in every test, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "chemistry",
+    "English"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The morning {transport} to {city} ______ leaves on time. It is never late.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "It is never late, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "transport": [
+    "train",
+    "bus",
+    "fast train",
+    "minibus"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Andijan",
+    "Namangan"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In our family, we ______ eat {food} at Navruz with our {who}. We have it every year, because it is our tradition.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "Every year, because it is a tradition, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "food": [
+    "sumalak",
+    "plov",
+    "halim",
+    "samsa"
+   ],
+   "who": [
+    "relatives",
+    "grandparents",
+    "neighbours",
+    "cousins"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Kamola is ______ happy to help her {who}. She says yes every time they ask, even when she is {state}.",
+  "options": [
+   "always",
+   "usually",
+   "rarely",
+   "never"
+  ],
+  "key": 0,
+  "why": "She says yes every time, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "who": [
+    "friends",
+    "classmates",
+    "cousins",
+    "neighbours"
+   ],
+   "state": [
+    "busy",
+    "tired",
+    "hungry",
+    "late"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The water in this {place} is ______ cold, even in {month}.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "Cold even in the hottest months, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "place": [
+    "river",
+    "mountain lake",
+    "spring",
+    "stream"
+   ],
+   "month": [
+    "July",
+    "August",
+    "June",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little sister ______ sleeps with her {toy}. She can't sleep without it.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "She can't sleep without it, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "toy": [
+    "teddy bear",
+    "doll",
+    "blanket",
+    "toy rabbit"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {team} ______ trains on Tuesdays and Thursdays. The coach doesn't cancel, even when it {weather}.",
+  "options": [
+   "always",
+   "usually",
+   "rarely",
+   "never"
+  ],
+  "key": 0,
+  "why": "The coach doesn't cancel, even in bad weather, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "team": [
+    "football team",
+    "volleyball team",
+    "basketball team",
+    "running club"
+   ],
+   "weather": [
+    "rains",
+    "snows",
+    "is very cold",
+    "is very hot"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ forget people's names. I meet someone at a {event}, and {n} minutes later the name is gone, every time.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "Every time, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "lesson",
+    "meeting"
+   ],
+   "n": [
+    "five",
+    "ten",
+    "two",
+    "three"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sardor is ______ the first student in the {room}. He arrives at {time}, before everyone, every day.",
+  "options": [
+   "always",
+   "usually",
+   "rarely",
+   "never"
+  ],
+  "key": 0,
+  "why": "Before everyone, every day, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "room": [
+    "classroom",
+    "gym",
+    "lab",
+    "computer room"
+   ],
+   "time": [
+    "half past seven",
+    "quarter to eight",
+    "seven o'clock",
+    "ten to eight"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mother ______ makes {food} on {day}. It is our family tradition, every week.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "A family tradition, every week, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "lagman",
+    "dumplings"
+   ],
+   "day": [
+    "Fridays",
+    "Sundays",
+    "Saturdays",
+    "Thursdays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "These {shoes} are ______ comfortable. I wear them to {place} every day, and my feet never hurt.",
+  "options": [
+   "always",
+   "never",
+   "rarely",
+   "sometimes"
+  ],
+  "key": 0,
+  "why": "My feet never hurt, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "shoes": [
+    "shoes",
+    "trainers",
+    "boots",
+    "sandals"
+   ],
+   "place": [
+    "school",
+    "work",
+    "the gym",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz is ______ online. His {who} send messages at any hour, and he replies in one minute, every time.",
+  "options": [
+   "always",
+   "usually",
+   "rarely",
+   "never"
+  ],
+  "key": 0,
+  "why": "He replies every time, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "who": [
+    "friends",
+    "classmates",
+    "cousins",
+    "brothers"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "My {who} ______ goes to bed at {time}. He goes at that time every night, even at weekends.",
+  "key": "always",
+  "why": "Every night, even at weekends, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "uncle",
+    "grandfather"
+   ],
+   "time": [
+    "ten",
+    "eleven",
+    "half past ten",
+    "nine"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "I ______ have {drink} with breakfast. I have it every morning, even on holidays.",
+  "key": "always",
+  "why": "Every morning, even on holidays, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "drink": [
+    "tea",
+    "milk",
+    "juice",
+    "coffee"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "Our {teacher} ______ comes to {what} with a smile. In every lesson, she is happy to see us.",
+  "key": "always",
+  "why": "In every lesson, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "teacher": [
+    "English teacher",
+    "maths teacher",
+    "music teacher",
+    "history teacher"
+   ],
+   "what": [
+    "class",
+    "school",
+    "our lessons",
+    "the lesson"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "We ______ eat lunch at {place}. We eat there most days, but on {day} we go home.",
+  "key": "usually",
+  "why": "Most days, but not on one day, so the answer is usually. Usually means most times, but not every time.",
+  "slots": {
+   "place": [
+    "the canteen",
+    "school",
+    "the café",
+    "college"
+   ],
+   "day": [
+    "Fridays",
+    "Saturdays",
+    "Wednesdays",
+    "Mondays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "My {who} ______ drinks coffee. He doesn't like it at all, so he has {drink} instead.",
+  "key": "never",
+  "why": "He doesn't like it at all, so the answer is never. Never means not at any time.",
+  "slots": {
+   "who": [
+    "grandfather",
+    "father",
+    "uncle",
+    "older brother"
+   ],
+   "drink": [
+    "green tea",
+    "black tea",
+    "milk",
+    "water"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "The {place} is ______ crowded on {day}. There are lots of people every week, with no exceptions.",
+  "key": "always",
+  "why": "Every week, with no exceptions, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "park",
+    "metro",
+    "shopping centre"
+   ],
+   "day": [
+    "Saturdays",
+    "Sundays",
+    "holidays",
+    "Friday evenings"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "{name} ______ wears a hat in winter. She puts it on every time she goes {out}, even for a minute.",
+  "key": "always",
+  "why": "Every time, even for a minute, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "name": [
+    "Malika",
+    "Zarina",
+    "Olga",
+    "Nilufar"
+   ],
+   "out": [
+    "out",
+    "to school",
+    "to the shop",
+    "outside"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "I ______ check the weather on my {device} in the morning. I look at it every day before I {act}.",
+  "key": "always",
+  "why": "Every day, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "tablet",
+    "computer"
+   ],
+   "act": [
+    "leave home",
+    "get dressed",
+    "go out",
+    "choose my clothes"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "My parents ______ watch {prog} in the evening. They watch it most evenings, but not on {day}.",
+  "key": "usually",
+  "why": "Most evenings, but not on one day, so the answer is usually. Usually means most times, but not every time.",
+  "slots": {
+   "prog": [
+    "the news",
+    "TV",
+    "films",
+    "football"
+   ],
+   "day": [
+    "Sundays",
+    "Fridays",
+    "Saturdays",
+    "Mondays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "{name} is ______ late. He comes on time to every lesson and every meeting.",
+  "key": "never",
+  "why": "He comes on time to everything, so the answer is never. Never means not at any time.",
+  "slots": {
+   "name": [
+    "Timur",
+    "Rustam",
+    "Anton",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "My little cousins are ______ hungry after {act}. They ask for {food} every time, with no exceptions.",
+  "key": "always",
+  "why": "Every time, with no exceptions, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "act": [
+    "swimming",
+    "football",
+    "school",
+    "playing outside"
+   ],
+   "food": [
+    "samsa",
+    "bread",
+    "fruit",
+    "sandwiches"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "Our {pet} ______ sleeps on my {place}. She sleeps there every night, even in summer.",
+  "key": "always",
+  "why": "Every night, even in summer, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "pet": [
+    "cat",
+    "kitten"
+   ],
+   "place": [
+    "bed",
+    "pillow",
+    "chair",
+    "sofa"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "I ______ take the bus to {place}. I take it most days, but sometimes my {who} drives me.",
+  "key": "usually",
+  "why": "Most days, but not every day, so the answer is usually. Usually means most times, but not every time.",
+  "slots": {
+   "place": [
+    "school",
+    "work",
+    "college",
+    "university"
+   ],
+   "who": [
+    "father",
+    "uncle",
+    "brother",
+    "mother"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "Aziza ______ tells her {who} the truth. She is very honest and does it every time.",
+  "key": "always",
+  "why": "Every time, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "who": [
+    "parents",
+    "friends",
+    "teachers",
+    "grandmother"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "My {who} ______ eats meat. He is a vegetarian, so he eats {food} and vegetables.",
+  "key": "never",
+  "why": "He is a vegetarian, so the answer is never. Never means not at any time.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "uncle",
+    "friend"
+   ],
+   "food": [
+    "rice",
+    "beans",
+    "eggs",
+    "bread"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "Our {place} is ______ clean. The cleaners come every day, morning and evening.",
+  "key": "always",
+  "why": "Every day, morning and evening, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "place": [
+    "school",
+    "classroom",
+    "office",
+    "building"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "We ______ visit my grandparents on {day}. We go most weeks, but not when it {weather}.",
+  "key": "usually",
+  "why": "Most weeks, but not in bad weather, so the answer is usually. Usually means most times, but not every time.",
+  "slots": {
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "Friday evenings",
+    "Saturday mornings"
+   ],
+   "weather": [
+    "snows",
+    "rains hard",
+    "is very cold",
+    "is icy"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "My {who} ______ locks the {thing} at night. He checks it every night before bed.",
+  "key": "always",
+  "why": "Every night, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "who": [
+    "father",
+    "grandfather",
+    "uncle",
+    "brother"
+   ],
+   "thing": [
+    "door",
+    "front door",
+    "gate",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "Students are ______ quiet in the {place}. Everyone is silent there, from {time} until closing.",
+  "key": "always",
+  "why": "Everyone is silent there, all day, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "place": [
+    "library",
+    "exam room",
+    "reading room",
+    "test room"
+   ],
+   "time": [
+    "morning",
+    "nine o'clock",
+    "opening",
+    "eight"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write always, usually or never.",
+  "source": "I ______ sleep with the {thing} open. I keep it open every night, even in {month}.",
+  "key": "always",
+  "why": "Every night, even in the cold months, so the answer is always. Always means every time, with no exceptions.",
+  "slots": {
+   "thing": [
+    "window",
+    "door",
+    "balcony door",
+    "small window"
+   ],
+   "month": [
+    "winter",
+    "January",
+    "December",
+    "February"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always instead of the words every day or every time.",
+  "source": "I drink {drink} after {sport} every time.",
+  "hint": "I ______ {drink} after {sport}.",
+  "key": "always drink",
+  "why": "Every time, with no exceptions, is what always means. Always goes before the main verb or after be.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "tea",
+    "milk"
+   ],
+   "sport": [
+    "football",
+    "training",
+    "running",
+    "swimming"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always instead of the words every day or every time.",
+  "source": "My mother calls her {rel} on {day} every week.",
+  "hint": "My mother ______ her {rel} on {day}.",
+  "key": "always calls",
+  "why": "Every time, with no exceptions, is what always means. Always goes before the main verb or after be.",
+  "slots": {
+   "day": [
+    "Sundays",
+    "Fridays",
+    "Saturdays",
+    "Mondays"
+   ],
+   "rel": [
+    "sister",
+    "mother",
+    "brother",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always instead of the words every day or every time.",
+  "source": "We have {food} for lunch at {place} every day.",
+  "hint": "We ______ {food} for lunch at {place}.",
+  "key": "always have",
+  "why": "Every time, with no exceptions, is what always means. Always goes before the main verb or after be.",
+  "slots": {
+   "food": [
+    "soup",
+    "bread",
+    "salad",
+    "rice"
+   ],
+   "place": [
+    "home",
+    "the canteen",
+    "school",
+    "work"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always instead of the words every day or every time.",
+  "source": "{name} is tired after {thing} every time.",
+  "hint": "{name} ______ tired after {thing}.",
+  "key": "is always",
+  "why": "Every time, with no exceptions, is what always means. Always goes before the main verb or after be.",
+  "slots": {
+   "name": [
+    "Laziz",
+    "Ruslan",
+    "Ilya",
+    "Javlon"
+   ],
+   "thing": [
+    "work",
+    "school",
+    "training",
+    "the gym"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always instead of the words every day or every time.",
+  "source": "The {bus} is full at {time} every day.",
+  "hint": "The {bus} ______ full at {time}.",
+  "key": "is always",
+  "why": "Every time, with no exceptions, is what always means. Always goes before the main verb or after be.",
+  "slots": {
+   "bus": [
+    "bus",
+    "metro",
+    "minibus",
+    "tram"
+   ],
+   "time": [
+    "eight o'clock",
+    "half past eight",
+    "rush hour",
+    "seven o'clock"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always and the opposite idea.",
+  "source": "My {who} is never late for {thing}.",
+  "hint": "My {who} ______ on time for {thing}.",
+  "key": "is always",
+  "why": "Never late means always on time: never and always are opposites.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "father",
+    "cousin"
+   ],
+   "thing": [
+    "school",
+    "work",
+    "training",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always and the opposite idea.",
+  "source": "{name} never forgets her {thing}.",
+  "hint": "{name} ______ (remember) her {thing}.",
+  "key": "always remembers",
+  "why": "Never forgets means always remembers: never and always are opposites.",
+  "slots": {
+   "name": [
+    "Nodira",
+    "Sevara",
+    "Anna",
+    "Malika"
+   ],
+   "thing": [
+    "keys",
+    "phone",
+    "notebook",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always and the opposite idea.",
+  "source": "Our {room} is never dirty.",
+  "hint": "Our {room} ______ clean.",
+  "key": "is always",
+  "why": "Never dirty means always clean: never and always are opposites.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "flat",
+    "bathroom"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always and the opposite idea.",
+  "source": "The {shop} near my house is never closed on {day}.",
+  "hint": "The {shop} near my house ______ open on {day}.",
+  "key": "is always",
+  "why": "Never closed means always open: never and always are opposites.",
+  "slots": {
+   "shop": [
+    "pharmacy",
+    "bakery",
+    "shop",
+    "market"
+   ],
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "holidays",
+    "Mondays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with always and the opposite idea.",
+  "source": "My {who} never go to bed late {when}.",
+  "hint": "My {who} ______ to bed early {when}.",
+  "key": "always go",
+  "why": "Never late means always early: never and always are opposites.",
+  "slots": {
+   "who": [
+    "grandparents",
+    "parents",
+    "little cousins",
+    "neighbours"
+   ],
+   "when": [
+    "on weekdays",
+    "in winter",
+    "in the village",
+    "at home"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The adverb in the first sentence does not match the facts. Rewrite the first sentence correctly.",
+  "source": "Our {place} is usually open at eight. It opens at eight every day, even on {day}.",
+  "hint": "Our {place} ______ open at eight.",
+  "key": "is always",
+  "why": "Every day, even on holidays: there are no exceptions, so usually is wrong. Use always.",
+  "slots": {
+   "place": [
+    "shop",
+    "bakery",
+    "pharmacy",
+    "café"
+   ],
+   "day": [
+    "holidays",
+    "Sundays",
+    "Navruz",
+    "New Year's Day"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The adverb in the first sentence does not match the facts. Rewrite the first sentence correctly.",
+  "source": "My {who} usually brings {food} to school. She brings it every day, with no exceptions.",
+  "hint": "My {who} ______ {food} to school.",
+  "key": "always brings",
+  "why": "Every day, with no exceptions: there are no exceptions, so usually is wrong. Use always.",
+  "slots": {
+   "who": [
+    "friend",
+    "sister",
+    "classmate",
+    "cousin"
+   ],
+   "food": [
+    "lunch",
+    "fruit",
+    "water",
+    "bread"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The adverb in the first sentence does not match the facts. Rewrite the first sentence correctly.",
+  "source": "I usually wear glasses for {task}. I can't see well without them.",
+  "hint": "I ______ glasses for {task}.",
+  "key": "always wear",
+  "why": "I can't see well without them: there are no exceptions, so usually is wrong. Use always.",
+  "slots": {
+   "task": [
+    "reading",
+    "driving",
+    "watching TV",
+    "my lessons"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The adverb in the first sentence does not match the facts. Rewrite the first sentence correctly.",
+  "source": "My little {sib} usually cries at the {place}. He cries every single time we go.",
+  "hint": "My little {sib} ______ at the {place}.",
+  "key": "always cries",
+  "why": "Every single time: there are no exceptions, so usually is wrong. Use always.",
+  "slots": {
+   "sib": [
+    "brother",
+    "cousin",
+    "nephew"
+   ],
+   "place": [
+    "dentist",
+    "doctor",
+    "hospital",
+    "hairdresser"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The adverb in the first sentence does not match the facts. Rewrite the first sentence correctly.",
+  "source": "The weather in {city} is usually hot in {month}. It is hot every single day of the month.",
+  "hint": "The weather in {city} ______ hot in {month}.",
+  "key": "is always",
+  "why": "Every single day of the month: there are no exceptions, so usually is wrong. Use always.",
+  "slots": {
+   "city": [
+    "Termez",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "month": [
+    "June",
+    "July",
+    "August"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you always do in the morning.",
+  "requiredElement": "always for a routine",
+  "constraints": [
+   "exactly one sentence",
+   "must use I",
+   "must use always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you always eat or drink at a holiday.",
+  "requiredElement": "always for a tradition",
+  "constraints": [
+   "exactly one sentence",
+   "must name a holiday",
+   "must use always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a person in your family who is always busy, happy or tired.",
+  "requiredElement": "be + always",
+  "constraints": [
+   "exactly one sentence",
+   "must name a family member",
+   "must use is always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you always take with you when you leave home.",
+  "requiredElement": "always for every time",
+  "constraints": [
+   "exactly one sentence",
+   "must name a thing",
+   "must use always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you usually do, and one about something you always do.",
+  "requiredElement": "always vs usually",
+  "constraints": [
+   "exactly two sentences",
+   "one with usually",
+   "one with always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place in your city that is always busy.",
+  "requiredElement": "be + always + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "must name a place",
+   "must use always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend who always helps you.",
+  "requiredElement": "always for a habit",
+  "constraints": [
+   "exactly one sentence",
+   "must name the friend",
+   "must use always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a rule in your home or school that everyone always follows.",
+  "requiredElement": "always for a rule",
+  "constraints": [
+   "exactly one sentence",
+   "must say where",
+   "must use always"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your morning routine. What do you always do before you leave home? Write three or four sentences.",
+  "targetGrammar": "always for routines",
+  "lookFor": [
+   "always with a routine",
+   "always before the main verb",
+   "at least two different actions"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a family tradition. What does your family always do at Navruz, New Year or a birthday? Write three or four sentences.",
+  "targetGrammar": "always for traditions",
+  "lookFor": [
+   "always with a tradition",
+   "a holiday or event named",
+   "present simple verbs"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a friend or family member. What are they always like? What do they always do? Write three or four sentences.",
+  "targetGrammar": "always with be and with main verbs",
+  "lookFor": [
+   "is always + adjective",
+   "always + main verb",
+   "he or she with the -s form"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare things you always do with things you usually do at the weekend. Write three or four sentences.",
+  "targetGrammar": "always vs usually",
+  "lookFor": [
+   "always for no exceptions",
+   "usually for most times",
+   "at the weekend or at weekends"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "frequency",
+  "topic": "always",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a place you know well, such as a bazaar, a park or your school. What is always true about it? Write three or four sentences.",
+  "targetGrammar": "always for facts that do not change",
+  "lookFor": [
+   "always used two or more times",
+   "a place named",
+   "be or a main verb after always as needed"
+  ]
+ }
+]
