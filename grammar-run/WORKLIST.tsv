@@ -74,7 +74,7 @@
 73	B	pronouns.personal.subject-pronouns	A1	2	live	Subject pronoun I (not me/my) as sentence subject | Subject pronoun he referring back to a named male
 74	B	pronouns.possessive.possessive-determiners	A1	3	live	Possessive determiner my before a noun | his (not he/him) before a noun | their (determiner) vs theirs
 75	B	pronouns.possessive.possessive-pronouns	A1	2	todo	Possessive pronoun theirs standing alone | mine (pronoun) vs my (determiner)
-76	B	pronouns.demonstrative.that-those-far	A1	2	todo	those for plural far objects | those as a pronoun for plural far items
+76	B	pronouns.demonstrative.that-those-far	A1	2	live	those for plural far objects | those as a pronoun for plural far items
 77	B	pronouns.demonstrative.this-these-near	A1	2	live	this for a single near object | these for plural near objects
 78	B	pronouns.personal.subject-object-contrast	A2	1	todo	Object pronoun after a preposition in a coordinated phrase
 79	B	pronouns.substitution.one-ones	A2	3	todo	one replacing a singular countable noun | ones replacing a plural noun | 'those' as a formal substitute for 'the ones' before a post-modifier

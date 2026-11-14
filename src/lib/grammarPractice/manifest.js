@@ -464,6 +464,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.demonstrative.that-those-far": {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "that-those-far",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 296,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "pronouns.demonstrative.this-these-near": {
   "domain": "pronouns",
   "branch": "demonstrative",
