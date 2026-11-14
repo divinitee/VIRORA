@@ -58,7 +58,7 @@ const CHOOSE = [
   [["our teacher", "gives", "homework"], "______ {when}, but it is {adj}.",
     { when: ["every lesson", "every day", "on Fridays", "twice a week"], adj: ["short", "easy", "interesting", "not difficult"] }],
   [["Aziz", "needs", "a pen"], "______. Can you give him {one}, {name}?",
-    { one: ["one", "yours", "a blue one", "a black one"], name: ["Aziz", "Olga", "Timur", "Lola"] }],
+    { one: ["one", "yours", "a blue one", "a black one"], name: ["Madina", "Olga", "Timur", "Lola"] }],
   [["Timur", "sells", "phones"], "______ at the {place} in {city}.",
     { place: ["market", "small shop", "big shop", "mall"], city: ["Andijan", "Bukhara", "Karshi", "Termez"] }],
   [["my grandparents", "keep", "three cows"], "______ in their {place} near {city}.",
