@@ -278,7 +278,7 @@ export default [
    "dad": [
     "Dad",
     "My uncle",
-    "Mr Karimov",
+    "My older brother",
     "Grandpa"
    ],
    "who": [

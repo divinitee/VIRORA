@@ -46,7 +46,7 @@ const CHOOSE = [
   [W("Sunday"), "My {who}'s birthday party is ______ Sunday. Can you come, {name}?",
     { who: ["sister", "brother", "cousin", "best friend"], name: ["Aziz", "Olga", "Timur", "Lola"] }],
   [WP("Saturdays"), "{dad} doesn't work ______ Saturdays. He stays at home with {who}.",
-    { dad: ["Dad", "My uncle", "Mr Karimov", "Grandpa"], who: ["us", "his family", "the children", "Grandma"] }],
+    { dad: ["Dad", "My uncle", "My older brother", "Grandpa"], who: ["us", "his family", "the children", "Grandma"] }],
   [WP("Mondays"), "The {bus} to the village only goes ______ Mondays, {name}.",
     { bus: ["bus", "minibus", "train", "old bus"], name: ["Mum", "Dad", "Aziz", "Olga"] }],
   [WP("Sunday mornings"), "{who} go to the bazaar ______ Sunday mornings to buy {food}.",

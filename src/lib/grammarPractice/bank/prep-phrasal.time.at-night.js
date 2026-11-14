@@ -636,7 +636,7 @@ export default [
    "does": [
     "runs around the house",
     "plays with its toys",
-    "sits by the window",
+    "jumps on the beds",
     "wakes us up"
    ]
   }

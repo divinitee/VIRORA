@@ -69,7 +69,7 @@ const CHOOSE = [
   ["The {shop} near our home is open ______ night too, {name}.",
     { shop: ["pharmacy", "small shop", "cafe", "bakery"], name: ["Mum", "Dad", "Aziz", "Olga"] }],
   ["{cat} is very active ______ night. It {does}.",
-    { cat: ["Our cat", "My cat", "Grandma's cat", "The neighbour's cat"], does: ["runs around the house", "plays with its toys", "sits by the window", "wakes us up"] }],
+    { cat: ["Our cat", "My cat", "Grandma's cat", "The neighbour's cat"], does: ["runs around the house", "plays with its toys", "jumps on the beds", "wakes us up"] }],
 ].map(([prompt, slots]) => ({ ...BASE, stage: "choose", format: "mcq", prompt, options: OPTS, key: 0, why: W, slots }));
 
 /* ---------------- build: 20 gap_fill ---------------- */

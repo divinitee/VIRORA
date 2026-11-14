@@ -1549,7 +1549,7 @@ export default [
    ],
    "who": [
     "the bus",
-    "their friend",
+    "a friend",
     "the teacher",
     "a taxi"
    ]

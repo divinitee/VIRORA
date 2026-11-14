@@ -162,7 +162,7 @@ const TRANSFORM = [
   [MORE, "new books", "{name} has a new book about {topic}.", "{name} has three ______ about {topic}.",
     "Three means more than one, so the noun takes -s: new books. The adjective does not change.", { name: ["Aziz", "Olga", "Timur", "Lola"], topic: ["animals", "space", "football", "history"] }],
   [MORE, "tall boys", "A tall boy is waiting at the {place} for {who}.", "Two ______ are waiting at the {place} for {who}.",
-    "Two means more than one: tall boys. The adjective stays the same.", { place: ["bus stop", "gate", "door", "corner"], who: ["the bus", "their friend", "the teacher", "a taxi"] }],
+    "Two means more than one: tall boys. The adjective stays the same.", { place: ["bus stop", "gate", "door", "corner"], who: ["the bus", "a friend", "the teacher", "a taxi"] }],
   [MORE, "cheap pens", "Can I have a cheap pen, {name}? I need it for {thing}.", "Can I have two ______, {name}? I need them for {thing}.",
     "Two means more than one: cheap pens. Only the noun takes -s.", { name: ["please", "Aziz", "Olga", "Mum"], thing: ["school", "my test", "my homework", "the exam"] }],
 ].map(([instr, key, source, hint, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
