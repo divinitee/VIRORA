@@ -301,7 +301,7 @@ export default function LessonRunner() {
                 >
                   {pc.lessonDoneCta}: {topicLabel(afterTopic, lang)}
                 </button>
-                <button onClick={() => navigate("/")} className="mt-3 h-11 rounded-xl border border-white/15 text-sm font-semibold text-foreground select-none">
+                <button onClick={() => navigate("/")} className="mt-3 h-11 rounded-xl border border-border text-sm font-semibold text-foreground select-none">
                   {pc.backHome}
                 </button>
               </>
