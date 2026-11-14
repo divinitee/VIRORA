@@ -56,7 +56,7 @@
 55	B	sentence-structure.predication.be-question	A1	1	live	Are + you inverted question with be
 56	B	sentence-structure.existential.there-is-are	A1	2	live	There is + singular | There are + plural
 57	B	sentence-structure.existential.there-question	A1	1	todo	Is there ...? with an uncountable noun
-58	B	sentence-structure.imperatives.affirmative-imperative	A1	1	todo	Base form for an imperative
+58	B	sentence-structure.imperatives.affirmative-imperative	A1	1	live	Base form for an imperative
 59	B	sentence-structure.imperatives.negative-imperative	A1	1	todo	Don't + base form for a negative imperative
 60	B	sentence-structure.conjunctions.and-but-or	A1	2	live	and for addition | but for contrast
 61	B	sentence-structure.conjunctions.so-result	A1	1	live	so for a result
@@ -70,7 +70,7 @@
 69	B	sentence-structure.relative-clauses.that-which-things	A2	1	todo	that/which for a thing
 70	B	sentence-structure.relative-clauses.where-place	A2	1	todo	where for a place (no object gap)
 71	B	sentence-structure.relative-clauses.who-people	A2	2	todo	who for a person in a defining relative clause | Productive defining relative clause
-72	B	pronouns.personal.object-pronouns	A1	4	todo	Object pronoun her after a verb | Object pronoun me | Object pronoun us (vs we/our) | Producing the object pronoun for a plural referent
+72	B	pronouns.personal.object-pronouns	A1	4	live	Object pronoun her after a verb | Object pronoun me | Object pronoun us (vs we/our) | Producing the object pronoun for a plural referent
 73	B	pronouns.personal.subject-pronouns	A1	2	live	Subject pronoun I (not me/my) as sentence subject | Subject pronoun he referring back to a named male
 74	B	pronouns.possessive.possessive-determiners	A1	3	live	Possessive determiner my before a noun | his (not he/him) before a noun | their (determiner) vs theirs
 75	B	pronouns.possessive.possessive-pronouns	A1	2	todo	Possessive pronoun theirs standing alone | mine (pronoun) vs my (determiner)
@@ -107,7 +107,7 @@
 106	B	comparison.superlative.irregular-superlative	A2	1	todo	best as superlative of good, with 'the'
 107	B	comparison.equality.as-as	A2	1	live	as + adj + as
 108	B	modals.ability-permission.can-ability	A1	1	live	can + base verb for ability
-109	B	modals.ability-permission.can-form	A1	2	todo	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')
+109	B	modals.ability-permission.can-form	A1	2	live	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')
 110	B	modals.ability-permission.can-question	A1	1	live	Modal question: can + subject + verb
 111	B	modals.ability-permission.can-request	A1	1	live	Can for a request
 112	B	modals.ability-permission.cant-ability	A1	1	live	can't for lack of ability; no 'doesn't'
@@ -123,7 +123,7 @@
 122	B	prep-phrasal.time.at-clock	A1	1	live	at with clock times
 123	B	prep-phrasal.time.at-night	A1	1	live	at night (fixed expression vs in the morning)
 124	B	prep-phrasal.time.in-months	A1	1	live	in with months
-125	B	prep-phrasal.time.in-on-at-contrast	A1	1	todo	in / on / at contrast across three time expressions
+125	B	prep-phrasal.time.in-on-at-contrast	A1	1	live	in / on / at contrast across three time expressions
 126	B	prep-phrasal.time.on-days	A1	1	live	on with days
 127	B	prep-phrasal.place.in-area	A2	1	todo	in for an enclosed area (garden)
 128	B	prep-phrasal.time.since-for	A2	1	todo	since with a start point
@@ -132,7 +132,7 @@
 131	B	prep-phrasal.movement.to-vs-in	A2	1	todo	to for movement towards, in for location
 132	B	prep-phrasal.dependent-prepositions.adjective-preposition	A2	1	todo	good at / afraid of
 133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	todo	interested in
-134	B	prep-phrasal.phrasal-verbs.common-phrasal	A2	1	todo	Particle choice in a common phrasal verb (get up)
+134	B	prep-phrasal.phrasal-verbs.common-phrasal	A2	1	live	Particle choice in a common phrasal verb (get up)
 135	B	conditionals-wishes.zero-first.first-if-clause	A2	2	live	Present simple (not will) in the if-clause | No 'will' in the if-clause
 136	B	conditionals-wishes.zero-first.first-will	A2	2	live	First conditional: will in the result clause | First conditional with a negative if-clause
 137	B	conditionals-wishes.zero-first.zero-general-truth	A2	2	todo	Zero conditional: present simple in both clauses | Zero (not first) conditional for a general consequence

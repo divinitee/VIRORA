@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister ______ {food} very well, {name}.",
+  "options": [
+   "can cook",
+   "cans cook",
+   "can cooks",
+   "can to cook"
+  ],
+  "key": 0,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can cook.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "manti",
+    "eggs"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandpa ______ a {vehicle} {how}.",
+  "options": [
+   "can drives",
+   "can drive",
+   "can to drive",
+   "is can drive"
+  ],
+  "key": 1,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can drive.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "truck",
+    "tractor",
+    "bus"
+   ],
+   "how": [
+    "very well",
+    "carefully",
+    "slowly",
+    "safely"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola ______ {lang} {how}.",
+  "options": [
+   "cans speak",
+   "can to speak",
+   "can speak",
+   "is can speak"
+  ],
+  "key": 2,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can speak.",
+  "slots": {
+   "lang": [
+    "English",
+    "Korean",
+    "Turkish",
+    "German"
+   ],
+   "how": [
+    "well",
+    "a little",
+    "very well",
+    "quite well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He ______ the {instrument} {how}.",
+  "options": [
+   "can to play",
+   "cans plays",
+   "can plays",
+   "can play"
+  ],
+  "key": 3,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can play.",
+  "slots": {
+   "instrument": [
+    "piano",
+    "guitar",
+    "dutar",
+    "drums"
+   ],
+   "how": [
+    "very well",
+    "a little",
+    "beautifully",
+    "quite well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother ______ a {vehicle} {how}.",
+  "options": [
+   "can ride",
+   "cans ride",
+   "can rides",
+   "can to ride"
+  ],
+  "key": 0,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can ride.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "horse",
+    "scooter",
+    "skateboard"
+   ],
+   "how": [
+    "fast",
+    "very well",
+    "without help",
+    "quite well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}, look! She ______ beautiful {thing}.",
+  "options": [
+   "can draws",
+   "can draw",
+   "can to draw",
+   "is can draw"
+  ],
+  "key": 1,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can draw.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "thing": [
+    "pictures",
+    "faces",
+    "animals",
+    "flowers"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aunt Lola ______ {song} {how}.",
+  "options": [
+   "cans sing",
+   "can to sing",
+   "can sing",
+   "is can sing"
+  ],
+  "key": 2,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can sing.",
+  "slots": {
+   "song": [
+    "songs",
+    "Uzbek songs",
+    "old songs",
+    "Russian songs"
+   ],
+   "how": [
+    "very well",
+    "beautifully",
+    "from memory",
+    "without music"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle ______ old {thing} {how}.",
+  "options": [
+   "can to fix",
+   "cans fixes",
+   "can fixes",
+   "can fix"
+  ],
+  "key": 3,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can fix.",
+  "slots": {
+   "thing": [
+    "bikes",
+    "radios",
+    "chairs",
+    "clocks"
+   ],
+   "how": [
+    "very quickly",
+    "without help",
+    "very well",
+    "at home"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little sister ______ {thing} now, {name}.",
+  "options": [
+   "can read",
+   "cans read",
+   "can reads",
+   "can to read"
+  ],
+  "key": 0,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can read.",
+  "slots": {
+   "thing": [
+    "books",
+    "short stories",
+    "English words",
+    "the clock"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look, {name}. He ______ {dist} without stopping.",
+  "options": [
+   "can runs",
+   "can run",
+   "can to run",
+   "is can run"
+  ],
+  "key": 1,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can run.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "dist": [
+    "two kilometres",
+    "three kilometres",
+    "round the park",
+    "to the river"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Kamila ______ very fast in {lang} on a {device}.",
+  "options": [
+   "cans type",
+   "can to type",
+   "can type",
+   "is can type"
+  ],
+  "key": 2,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can type.",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Uzbek",
+    "Korean"
+   ],
+   "device": [
+    "computer",
+    "laptop",
+    "phone",
+    "keyboard"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandmother ______ {thing} by hand for {who}.",
+  "options": [
+   "can to sew",
+   "cans sews",
+   "can sews",
+   "can sew"
+  ],
+  "key": 3,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can sew.",
+  "slots": {
+   "thing": [
+    "dresses",
+    "shirts",
+    "bags",
+    "curtains"
+   ],
+   "who": [
+    "the family",
+    "us",
+    "her neighbours",
+    "the children"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bobur ______ a heavy {thing} up to the {floor} floor.",
+  "options": [
+   "can carry",
+   "cans carry",
+   "can carries",
+   "can to carry"
+  ],
+  "key": 0,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can carry.",
+  "slots": {
+   "thing": [
+    "box",
+    "bag",
+    "table",
+    "suitcase"
+   ],
+   "floor": [
+    "third",
+    "fourth",
+    "fifth",
+    "top"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousin ______ {thing} in {lang}.",
+  "options": [
+   "can writes",
+   "can write",
+   "can to write",
+   "is can write"
+  ],
+  "key": 1,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can write.",
+  "slots": {
+   "thing": [
+    "letters",
+    "stories",
+    "poems",
+    "emails"
+   ],
+   "lang": [
+    "English",
+    "Korean",
+    "Arabic",
+    "Turkish"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur ______ {thing} {how}.",
+  "options": [
+   "cans climb",
+   "can to climb",
+   "can climb",
+   "is can climb"
+  ],
+  "key": 2,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can climb.",
+  "slots": {
+   "thing": [
+    "trees",
+    "mountains",
+    "the rope",
+    "hills"
+   ],
+   "how": [
+    "very fast",
+    "without help",
+    "quickly",
+    "easily"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandma ______ delicious {food} for {event}.",
+  "options": [
+   "can to make",
+   "cans makes",
+   "can makes",
+   "can make"
+  ],
+  "key": 3,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can make.",
+  "slots": {
+   "food": [
+    "bread",
+    "cakes",
+    "jam",
+    "noodles"
+   ],
+   "event": [
+    "birthdays",
+    "Navruz",
+    "guests",
+    "the family"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My aunt ______ {subj} to {who}.",
+  "options": [
+   "can teach",
+   "cans teach",
+   "can teaches",
+   "can to teach"
+  ],
+  "key": 0,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can teach.",
+  "slots": {
+   "subj": [
+    "maths",
+    "English",
+    "music",
+    "drawing"
+   ],
+   "who": [
+    "children",
+    "adults",
+    "students",
+    "beginners"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She ______ {lang} {media} without help.",
+  "options": [
+   "can understands",
+   "can understand",
+   "can to understand",
+   "is can understand"
+  ],
+  "key": 1,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can understand.",
+  "slots": {
+   "lang": [
+    "English",
+    "Korean",
+    "Turkish",
+    "Russian"
+   ],
+   "media": [
+    "films",
+    "songs",
+    "cartoons",
+    "news"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz ______ a new {thing} {how}.",
+  "options": [
+   "cans learn",
+   "can to learn",
+   "can learn",
+   "is can learn"
+  ],
+  "key": 2,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can learn.",
+  "slots": {
+   "thing": [
+    "game",
+    "song",
+    "dance",
+    "card trick"
+   ],
+   "how": [
+    "very quickly",
+    "in a day",
+    "in five minutes",
+    "easily"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little brother ______ the {thing} by himself now, {name}.",
+  "options": [
+   "can to wash",
+   "cans washes",
+   "can washes",
+   "can wash"
+  ],
+  "key": 3,
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can wash.",
+  "slots": {
+   "thing": [
+    "dishes",
+    "cups",
+    "plates",
+    "spoons"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "My mum ______ (bake) {food} without a recipe, {name}.",
+  "key": "can bake",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can bake.",
+  "slots": {
+   "food": [
+    "bread",
+    "cakes",
+    "cookies",
+    "pies"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Aziz ______ (swims) across the {water} {how}.",
+  "key": "can swim",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can swim.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "pool",
+    "canal"
+   ],
+   "how": [
+    "easily",
+    "in a minute",
+    "very fast",
+    "without stopping"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "She ______ (speak) {lang} with her {who}.",
+  "key": "can speak",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can speak.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "English",
+    "Korean",
+    "Turkish"
+   ],
+   "who": [
+    "grandmother",
+    "friends",
+    "teacher",
+    "cousins"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "My grandfather ______ (plays) {game} very well, {name}.",
+  "key": "can play",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can play.",
+  "slots": {
+   "game": [
+    "chess",
+    "backgammon",
+    "football",
+    "volleyball"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "He ______ (drive) a {vehicle} in the {place}.",
+  "key": "can drive",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can drive.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "truck",
+    "bus",
+    "tractor"
+   ],
+   "place": [
+    "city",
+    "mountains",
+    "snow",
+    "rain"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Nigora ______ (draws) {thing} very well, {name}.",
+  "key": "can draw",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can draw.",
+  "slots": {
+   "thing": [
+    "horses",
+    "people",
+    "flowers",
+    "houses"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "My uncle ______ (repair) {thing} in his {place}.",
+  "key": "can repair",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can repair.",
+  "slots": {
+   "thing": [
+    "cars",
+    "bikes",
+    "phones",
+    "TVs"
+   ],
+   "place": [
+    "garage",
+    "workshop",
+    "shop",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Little Kamila ______ (writes) her {thing} now, {name}.",
+  "key": "can write",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can write.",
+  "slots": {
+   "thing": [
+    "name",
+    "first name",
+    "family name",
+    "address"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Bobur ______ (lift) {thing} with one hand, {name}.",
+  "key": "can lift",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can lift.",
+  "slots": {
+   "thing": [
+    "a chair",
+    "a heavy box",
+    "a bag of rice",
+    "a big melon"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "She ______ (sings) {song} {how}.",
+  "key": "can sing",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can sing.",
+  "slots": {
+   "song": [
+    "Uzbek songs",
+    "English songs",
+    "old songs",
+    "Russian songs"
+   ],
+   "how": [
+    "very well",
+    "beautifully",
+    "from memory",
+    "without music"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Grandma ______ (knit) warm {thing} for us in {time}.",
+  "key": "can knit",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can knit.",
+  "slots": {
+   "thing": [
+    "socks",
+    "hats",
+    "scarves",
+    "mittens"
+   ],
+   "time": [
+    "a day",
+    "a week",
+    "two days",
+    "three days"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "My brother ______ (runs) to the {place} in {time}.",
+  "key": "can run",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can run.",
+  "slots": {
+   "place": [
+    "school",
+    "park",
+    "river",
+    "shop"
+   ],
+   "time": [
+    "five minutes",
+    "ten minutes",
+    "a minute",
+    "three minutes"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "He ______ (cook) {food} for the whole family, {name}.",
+  "key": "can cook",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can cook.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "dinner",
+    "breakfast"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Malika ______ (reads) {lang} books {how}.",
+  "key": "can read",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can read.",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Turkish",
+    "Korean"
+   ],
+   "how": [
+    "easily",
+    "quickly",
+    "without a dictionary",
+    "very well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "My cousin ______ (jump) over the {thing}, {name}.",
+  "key": "can jump",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can jump.",
+  "slots": {
+   "thing": [
+    "fence",
+    "wall",
+    "box",
+    "bench"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "My aunt ______ (makes) beautiful {thing} at home, {name}.",
+  "key": "can make",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can make.",
+  "slots": {
+   "thing": [
+    "bags",
+    "dolls",
+    "baskets",
+    "toys"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Timur ______ (catch) {thing} with one hand, {name}.",
+  "key": "can catch",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can catch.",
+  "slots": {
+   "thing": [
+    "a ball",
+    "an apple",
+    "the keys",
+    "a bottle"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Olga ______ (types) {num} words in a minute, {name}.",
+  "key": "can type",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can type.",
+  "slots": {
+   "num": [
+    "forty",
+    "fifty",
+    "sixty",
+    "eighty"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "Mr Karimov ______ (fly) a {thing}, {name}.",
+  "key": "can fly",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can fly.",
+  "slots": {
+   "thing": [
+    "plane",
+    "kite",
+    "drone",
+    "helicopter"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write can + the verb in brackets.",
+  "source": "My little brother ______ (rides) a {vehicle} without help now, {name}.",
+  "key": "can ride",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can ride.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "scooter",
+    "horse",
+    "pony"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My sister cans drive a {vehicle}, {name}.",
+  "hint": "My sister ______ a {vehicle}, {name}.",
+  "key": "can drive",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can drive.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "bus",
+    "truck",
+    "tractor"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "He can swims in the {water} {how}.",
+  "hint": "He ______ in the {water} {how}.",
+  "key": "can swim",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can swim.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "sea",
+    "pool"
+   ],
+   "how": [
+    "very fast",
+    "very well",
+    "underwater",
+    "for an hour"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Lola can to play the {inst} {how}.",
+  "hint": "Lola ______ the {inst} {how}.",
+  "key": "can play",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can play.",
+  "slots": {
+   "inst": [
+    "piano",
+    "guitar",
+    "violin",
+    "dutar"
+   ],
+   "how": [
+    "very well",
+    "a little",
+    "beautifully",
+    "quite well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Grandpa is can make {thing}, {name}.",
+  "hint": "Grandpa ______ {thing}, {name}.",
+  "key": "can make",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can make.",
+  "slots": {
+   "thing": [
+    "baskets",
+    "chairs",
+    "tables",
+    "kites"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Aziz cans speaks {lang} {how}.",
+  "hint": "Aziz ______ {lang} {how}.",
+  "key": "can speak",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. She can speak.",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Korean",
+    "Turkish"
+   ],
+   "how": [
+    "well",
+    "a little",
+    "very well",
+    "quite well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change I to my brother. Rewrite the sentence.",
+  "source": "I can cook {food} {how}.",
+  "hint": "My brother ______ {food} {how}.",
+  "key": "can cook",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. With I or with he / she, it is the same: can cook.",
+  "slots": {
+   "food": [
+    "plov",
+    "eggs",
+    "soup",
+    "pasta"
+   ],
+   "how": [
+    "well",
+    "a little",
+    "very well",
+    "without help"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change I to my sister. Rewrite the sentence.",
+  "source": "I can ride a {vehicle} {how}.",
+  "hint": "My sister ______ a {vehicle} {how}.",
+  "key": "can ride",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. With I or with he / she, it is the same: can ride.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "horse",
+    "scooter",
+    "skateboard"
+   ],
+   "how": [
+    "fast",
+    "very well",
+    "without help",
+    "quite well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change I to Aunt Lola. Rewrite the sentence.",
+  "source": "I can read {lang} {how}.",
+  "hint": "Aunt Lola ______ {lang} {how}.",
+  "key": "can read",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. With I or with he / she, it is the same: can read.",
+  "slots": {
+   "lang": [
+    "English",
+    "Arabic",
+    "Korean",
+    "Turkish"
+   ],
+   "how": [
+    "well",
+    "a little",
+    "very well",
+    "quite well"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change I to Dad. Rewrite the sentence.",
+  "source": "I can fix {thing} for {who}.",
+  "hint": "Dad ______ {thing} for {who}.",
+  "key": "can fix",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. With I or with he / she, it is the same: can fix.",
+  "slots": {
+   "thing": [
+    "bikes",
+    "chairs",
+    "lamps",
+    "doors"
+   ],
+   "who": [
+    "the neighbours",
+    "our friends",
+    "Grandma",
+    "the school"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change I to Madina. Rewrite the sentence.",
+  "source": "I can sing {song} {how}.",
+  "hint": "Madina ______ {song} {how}.",
+  "key": "can sing",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. With I or with he / she, it is the same: can sing.",
+  "slots": {
+   "song": [
+    "Uzbek songs",
+    "English songs",
+    "old songs",
+    "Russian songs"
+   ],
+   "how": [
+    "very well",
+    "beautifully",
+    "from memory",
+    "without music"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with can.",
+  "source": "Timur plays {game} {how}.",
+  "hint": "Timur ______ {game} {how}.",
+  "key": "can play",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. The -s goes: can play.",
+  "slots": {
+   "game": [
+    "chess",
+    "tennis",
+    "football",
+    "volleyball"
+   ],
+   "how": [
+    "very well",
+    "quite well",
+    "well",
+    "a little"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with can.",
+  "source": "Grandma bakes bread in a {place}, {name}.",
+  "hint": "Grandma ______ bread in a {place}, {name}.",
+  "key": "can bake",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. The -s goes: can bake.",
+  "slots": {
+   "place": [
+    "tandir",
+    "big oven",
+    "small oven",
+    "clay oven"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with can.",
+  "source": "She speaks {lang} with her {who}.",
+  "hint": "She ______ {lang} with her {who}.",
+  "key": "can speak",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. The -s goes: can speak.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "English",
+    "Korean",
+    "Turkish"
+   ],
+   "who": [
+    "grandmother",
+    "friends",
+    "teacher",
+    "cousins"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with can.",
+  "source": "My uncle drives a {vehicle}, {name}.",
+  "hint": "My uncle ______ a {vehicle}, {name}.",
+  "key": "can drive",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. The -s goes: can drive.",
+  "slots": {
+   "vehicle": [
+    "bus",
+    "truck",
+    "tractor",
+    "taxi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with can.",
+  "source": "He writes {thing} in {lang}.",
+  "hint": "He ______ {thing} in {lang}.",
+  "key": "can write",
+  "why": "With he or she, can and the verb after it don't change: no -s and no to. The -s goes: can write.",
+  "slots": {
+   "thing": [
+    "letters",
+    "stories",
+    "poems",
+    "emails"
+   ],
+   "lang": [
+    "English",
+    "Korean",
+    "Arabic",
+    "Turkish"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something your mother or father can do well.",
+  "requiredElement": "He can … / She can …",
+  "constraints": [
+   "exactly one sentence",
+   "he or she + can + verb",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend and a sport he or she can play.",
+  "requiredElement": "can play",
+  "constraints": [
+   "exactly one sentence",
+   "a friend's name + can play",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a language a person in your family can speak.",
+  "requiredElement": "can speak",
+  "constraints": [
+   "exactly one sentence",
+   "a family word + can speak",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something your grandmother or grandfather can make.",
+  "requiredElement": "can make",
+  "constraints": [
+   "exactly one sentence",
+   "he or she + can make",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a little child you know and what he or she can do now.",
+  "requiredElement": "can + verb",
+  "constraints": [
+   "exactly one sentence",
+   "he or she + can",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a teacher and something he or she can do well.",
+  "requiredElement": "can + verb",
+  "constraints": [
+   "exactly one sentence",
+   "a teacher + can",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a famous person you like and what he or she can do.",
+  "requiredElement": "can + verb",
+  "constraints": [
+   "exactly one sentence",
+   "he or she + can",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one thing your brother or sister can do, one thing your friend can do.",
+  "requiredElement": "can + verb",
+  "constraints": [
+   "exactly two sentences",
+   "he or she + can in both",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a new friend about a person in your family and three things he or she can do.",
+  "targetGrammar": "he / she can + verb",
+  "lookFor": [
+   "he can / she can",
+   "three different verbs",
+   "no -s and no to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your best friend. What can he or she do well?",
+  "targetGrammar": "he / she can + verb",
+  "lookFor": [
+   "he can / she can",
+   "well / very well",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a grandparent. What can he or she make or do with his or her hands?",
+  "targetGrammar": "can make / can do",
+  "lookFor": [
+   "can make or can sew or can fix",
+   "he or she",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a visitor about a teacher at your school and what he or she can do.",
+  "targetGrammar": "he / she can + verb",
+  "lookFor": [
+   "he can / she can",
+   "no -s and no to",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a little child you know. What can he or she do now?",
+  "targetGrammar": "he / she can + verb",
+  "lookFor": [
+   "he can / she can",
+   "now",
+   "three or four sentences"
+  ]
+ }
+]

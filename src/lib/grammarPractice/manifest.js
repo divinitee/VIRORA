@@ -170,6 +170,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.ability-permission.can-form": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "can-form",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.ability-permission.can-question": {
   "domain": "modals",
   "branch": "ability-permission",
@@ -478,6 +492,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.phrasal-verbs.common-phrasal": {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "common-phrasal",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 296,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.time.at-clock": {
   "domain": "prep-phrasal",
   "branch": "time",
@@ -520,6 +548,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.time.in-on-at-contrast": {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "in-on-at-contrast",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.time.on-days": {
   "domain": "prep-phrasal",
   "branch": "time",
@@ -558,6 +600,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 320,
    "build": 308,
    "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.personal.object-pronouns": {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 296,
+   "transform": 228,
    "create": 8,
    "express": 5
   }
@@ -838,6 +894,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 296,
    "build": 228,
    "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.imperatives.affirmative-imperative": {
+  "domain": "sentence-structure",
+  "branch": "imperatives",
+  "topic": "affirmative-imperative",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
    "create": 8,
    "express": 5
   }
