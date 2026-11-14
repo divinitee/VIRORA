@@ -1,0 +1,60 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const dom = new JSDOM('<!doctype html><div id="root"></div><div id="a"></div><div id="b"></div><div id="c"></div>', { runScripts: 'outside-only', pretendToBeVisual: true, url: 'https://x.test/' });
+const w = dom.window;
+w.matchMedia = w.matchMedia || (() => ({ matches: false, addListener() {}, removeListener() {}, addEventListener() {}, removeEventListener() {} }));
+w.IntersectionObserver = class { observe() {} disconnect() {} unobserve() {} };
+w.ResizeObserver = class { observe() {} disconnect() {} unobserve() {} };
+w.eval(fs.readFileSync('/tmp/path-bundle.js', 'utf8'));
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const $ = (sel) => w.document.querySelector(sel);
+const txt = (id) => w.document.getElementById(id).textContent;
+const click = (el) => el.dispatchEvent(new w.MouseEvent('click', { bubbles: true }));
+let n = 0;
+const ok = (c, m) => { if (!c) { console.log('FAIL', m, '\n', w.document.body.textContent); process.exit(1); } n++; console.log('PASS', m); };
+(async () => {
+  const P = w.__path;
+  ok(P.fresh.next.kind === 'lesson', 'new student: first stop is the lesson');
+  ok(P.href(P.fresh.next) === '/lesson/' + P.lessonId, 'lesson stop link');
+  ok(P.afterLesson.next.kind === 'grammar' && P.href(P.afterLesson.next).startsWith('/grammar?topic='), 'after the lesson: a grammar stop');
+
+  w.__mountHome();
+  await sleep(700);
+  const primary = $('#root [data-testid="home-primary"]');
+  ok(primary && primary.textContent.includes('Continue: ' + P.label(P.fresh.next)), 'Home main button says Continue + the next stop');
+  ok(!txt('root').includes("Start today's practice"), 'old main button text is gone when the path is loaded');
+  click(primary);
+  ok(w.__clicks.includes('primary'), 'main button opens the path stop');
+  const coach = $('#root [data-testid="home-coach"]');
+  const free = $('#root [data-testid="home-free"]');
+  ok(coach && free, 'Home shows the two other ways: today\'s practice + free roam');
+  click(free);
+  ok(w.__clicks.includes('free'), 'free roam button fires');
+  click(coach);
+  await sleep(50);
+  ok(w.__loc === '/coach', 'today\'s practice goes to the Coach');
+  ok(txt('root').includes('2-day streak') && txt('root').includes('1,240 XP'), 'streak + XP still on the card');
+  const card = $('#root [data-testid="path-card"]');
+  ok(card && card.getAttribute('href') === '/grammar?view=path', 'path card links to the whole path');
+  ok(card.textContent.includes(P.label(P.fresh.next)) && card.textContent.includes('0 of ' + P.fresh.total), 'path card: next stop + progress');
+
+  w.__mountPassed();
+  await sleep(200);
+  const next = $('#a [data-testid="path-next"]');
+  ok(next && next.textContent.includes(P.label(P.afterLesson.next)), 'passed round: next step button names the stop');
+  ok(w.__clicks.filter((c) => c === 'passed').length === 1, 'pass reported once');
+  click(next); click($('#a [data-testid="path-coach"]')); click($('#a [data-testid="path-free"]'));
+  ok(['next', 'coach', 'roam'].every((c) => w.__clicks.includes(c)), 'next / suggested practice / free roam all fire');
+
+  w.__mountNotYet();
+  await sleep(200);
+  ok(!$('#b [data-testid="path-next"]'), 'failed round: no next-step button');
+  ok($('#b [data-testid="path-coach"]') && $('#b [data-testid="path-free"]'), 'failed round: other ways still offered');
+  ok(!w.__clicks.includes('passed2'), 'failed round is not reported as a pass');
+
+  w.__mountDone();
+  await sleep(200);
+  ok($('#c [data-testid="path-card"]') && txt('c').length > 0, 'finished path: card still renders');
+  console.log('all good', n);
+  process.exit(0);
+})();
