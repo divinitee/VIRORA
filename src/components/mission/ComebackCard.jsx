@@ -1,7 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Flame, Play, ArrowRight, Check, Star, Zap, Target, Loader2, Gift } from "lucide-react";
+import { Flame, Play, ArrowRight, Check, Star, Zap, Target, Loader2, Gift, Sparkles, Compass } from "lucide-react";
+import { pathCopy } from "@/lib/learnerPath";
 import { coachApi, progressApi } from "@/lib/serverApi";
 import { useAppLang } from "@/hooks/useAppLang";
 import { COACH_NAMES, COACH_COLORS } from "@/lib/coach/coachCopy";
@@ -15,6 +16,13 @@ import { VixelIcon, vixelsFromXp, xpToNextVixel, XP_PER_VIXEL } from "@/componen
 //                 button: the streak tick and "come back tomorrow for +N XP"
 //                 land at the exact moment a practice ends, which is when the
 //                 decision to return is made.
+//
+// One path (14 Nov 2026): when Home passes `primary`, the one button becomes
+// the path's Continue (src/lib/learnerPath.js) and the Coach's practice moves
+// to a smaller "Today's practice" button beside "Free roam". Without `primary`
+// (path finished, or its load failed) the button is the Coach's, as before.
+//   primary     { label, hint, onClick, loading } | null
+//   onFreeRoam  () => void  (opens the Skill Hub tab)
 //
 // Everything is server-side (progressApi.getComeback / claimMission), on the
 // same day log as the admin Comeback tracker: a day counts when the student
@@ -108,10 +116,11 @@ function hookLine(c, state) {
   return c.hookLater(nb.days_left, nb.reward);
 }
 
-export default function ComebackCard({ onState, variant = "home" }) {
+export default function ComebackCard({ onState, variant = "home", primary = null, onFreeRoam = null }) {
   const navigate = useNavigate();
   const { lang } = useAppLang();
   const c = COPY[lang] || COPY.en;
+  const pc = pathCopy(lang);
   const [state, setState] = useState(null);
   const [failed, setFailed] = useState(false);
   const [persona, setPersona] = useState("vira");
@@ -263,13 +272,40 @@ export default function ComebackCard({ onState, variant = "home" }) {
         <>
           <button
             data-tour="today-start"
-            onClick={() => navigate("/coach")}
-            className="hero-continue relative mt-4 w-full h-14 rounded-2xl font-bold text-white text-base flex items-center justify-center gap-2 select-none overflow-hidden"
-            style={{ background: `linear-gradient(180deg, ${color}, ${color}bb)`, opacity: todayDone ? 0.85 : 1 }}
+            data-testid="home-primary"
+            onClick={primary ? primary.onClick : () => navigate("/coach")}
+            disabled={!!primary?.loading}
+            className="hero-continue relative mt-4 w-full h-14 px-4 rounded-2xl font-bold text-white text-base flex items-center justify-center gap-2 select-none overflow-hidden min-w-0 disabled:opacity-60"
+            style={{ background: `linear-gradient(180deg, ${color}, ${color}bb)`, opacity: !primary && todayDone ? 0.85 : undefined }}
           >
-            <Play className="w-5 h-5" /> {todayDone ? c.ctaMore : c.cta} <ArrowRight className="w-4 h-4 opacity-80" />
+            <Play className="w-5 h-5 shrink-0" /> <span className="truncate">{primary ? primary.label : todayDone ? c.ctaMore : c.cta}</span> <ArrowRight className="w-4 h-4 opacity-80 shrink-0" />
           </button>
-          <p className="mt-1.5 text-center text-[11px] text-muted-foreground">{c.picked(COACH_NAMES[persona] || "Vira")}</p>
+          <p className="mt-1.5 text-center text-[11px] text-muted-foreground truncate">{primary ? primary.hint : c.picked(COACH_NAMES[persona] || "Vira")}</p>
+          {primary && (
+            <div className="mt-3" data-testid="path-alternatives">
+              <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">{pc.or}</p>
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  type="button"
+                  data-testid="home-coach"
+                  onClick={() => navigate("/coach")}
+                  className="rounded-2xl border border-white/10 bg-white/[0.04] hover:bg-white/[0.08] px-3 py-2.5 text-left select-none min-w-0"
+                >
+                  <span className="flex items-center gap-1.5 text-sm font-semibold text-foreground"><Sparkles className="w-4 h-4 shrink-0" style={{ color }} /> <span className="truncate">{pc.suggested}</span></span>
+                  <span className="block text-[11px] text-muted-foreground truncate">{pc.suggestedSub(COACH_NAMES[persona] || "Vira")}</span>
+                </button>
+                <button
+                  type="button"
+                  data-testid="home-free"
+                  onClick={() => onFreeRoam?.()}
+                  className="rounded-2xl border border-white/10 bg-white/[0.04] hover:bg-white/[0.08] px-3 py-2.5 text-left select-none min-w-0"
+                >
+                  <span className="flex items-center gap-1.5 text-sm font-semibold text-foreground"><Compass className="w-4 h-4 shrink-0 text-teal-300" /> <span className="truncate">{pc.free}</span></span>
+                  <span className="block text-[11px] text-muted-foreground truncate">{pc.freeSub}</span>
+                </button>
+              </div>
+            </div>
+          )}
         </>
       )}
 

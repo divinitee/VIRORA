@@ -10,7 +10,7 @@ export const TOUR_COPY = {
     steps: {
       welcome: { title: "Welcome to VIRORA", body: "Let's take a 1-minute tour so you know where everything is. You can replay it any time from the Help button." },
       home: { title: "Home", body: "Your daily base. Homework from your teacher, your progress, your streak and quick actions all live here." },
-      today: { title: "Start here every day", body: "This one button is all you need. Your coach picks today's practice for you. Finish it and your streak grows." },
+      today: { title: "Start here every day", body: "This one button is all you need. It opens the next step on your path. Finish it and your streak grows." },
       missions: { title: "Daily missions", body: "Three small goals every day. Finish one practice to keep your streak, and claim XP for every mission you complete." },
       skillhub: { title: "Skill Hub", body: "This is where you practise. Every skill is a branch on your skill tree." },
       stage: { title: "Your skill tree", body: "Tap Vocabulary or Grammar to open it, then tap a node to start a game. Branches marked \"soon\" are on the way." },
@@ -30,7 +30,7 @@ export const TOUR_COPY = {
     steps: {
       welcome: { title: "VIRORA'ga xush kelibsiz", body: "Hamma narsa qayerdaligini bilishingiz uchun 1 daqiqalik qisqa sayohat qilamiz. Uni istalgan vaqtda Yordam tugmasi orqali qayta ko'rishingiz mumkin." },
       home: { title: "Bosh sahifa", body: "Kundalik bazangiz. O'qituvchingiz bergan uy vazifalari, natijalaringiz, streak va tezkor amallar shu yerda." },
-      today: { title: "Har kuni shu yerdan boshlang", body: "Sizga faqat shu tugma kerak. Murabbiyingiz bugungi mashg'ulotni siz uchun tanlaydi. Uni bajaring va streakingiz o'sadi." },
+      today: { title: "Har kuni shu yerdan boshlang", body: "Sizga faqat shu tugma kerak. U yo'lingizdagi keyingi qadamni ochadi. Uni bajaring va streakingiz o'sadi." },
       missions: { title: "Kunlik vazifalar", body: "Har kuni uchta kichik maqsad. Streakni saqlash uchun bitta mashqni bajaring va har bir bajarilgan vazifa uchun XP oling." },
       skillhub: { title: "Skill Hub", body: "Bu yerda mashq qilasiz. Har bir ko'nikma ko'nikmalar daraxtingizdagi bitta shox." },
       stage: { title: "Ko'nikmalar daraxti", body: "Vocabulary yoki Grammar'ni oching, so'ng o'yinni boshlash uchun tugunni bosing. \"soon\" belgili shoxlar tez orada qo'shiladi." },
@@ -50,7 +50,7 @@ export const TOUR_COPY = {
     steps: {
       welcome: { title: "Добро пожаловать в VIRORA", body: "Давайте за 1 минуту покажем, где что находится. Тур можно пройти снова в любое время через кнопку «Помощь»." },
       home: { title: "Главная", body: "Ваша база на каждый день: домашние задания от учителя, прогресс, серия дней и быстрые действия." },
-      today: { title: "Начинайте здесь каждый день", body: "Вам нужна только эта кнопка. Ваш коуч подбирает практику на сегодня. Выполните её, и ваша серия растёт." },
+      today: { title: "Начинайте здесь каждый день", body: "Вам нужна только эта кнопка. Она открывает следующий шаг на вашем пути. Выполните его, и ваша серия растёт." },
       missions: { title: "Задания дня", body: "Три небольшие цели каждый день. Выполните одну практику, чтобы сохранить серию, и забирайте XP за каждое задание." },
       skillhub: { title: "Skill Hub", body: "Здесь вы тренируетесь. Каждый навык — это ветка вашего дерева навыков." },
       stage: { title: "Дерево навыков", body: "Откройте Vocabulary или Grammar, затем нажмите на узел, чтобы начать игру. Ветки с пометкой «soon» скоро появятся." },

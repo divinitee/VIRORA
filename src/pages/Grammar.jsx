@@ -1,7 +1,7 @@
 import PageLoader from "@/components/loading/PageLoader";
 import LoadingTransition from "@/components/loading/LoadingTransition";
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, Sparkles } from "lucide-react";
 import { base44 } from "@/api/base44Client";
@@ -19,6 +19,9 @@ import { useGrammarCopy } from "@/lib/grammarCopy";
 import GrammarStage from "@/components/grammar/map/GrammarStage";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
 import { GRAMMAR_ACCENT as ACCENT } from "@/components/grammar/map/tierMeta";
+import { useLearnerPath } from "@/hooks/useLearnerPath";
+import PathNextActions from "@/components/grammar/path/PathNextActions";
+import { PASS_MIN_ITEMS, PASS_MIN_ACCURACY, pathCopy, stopHref, stopLabel } from "@/lib/learnerPath";
 
 // Route: /grammar — the student's Grammar world.
 //
@@ -32,7 +35,14 @@ import { GRAMMAR_ACCENT as ACCENT } from "@/components/grammar/map/tierMeta";
 // the practice layers come from the auto-generated manifest — nothing here
 // decides what belongs where, and empty nodes are locked upstream, not hidden.
 //
-// Placement entry rule is unchanged: no GrammarProfile row -> the assessment.
+// Placement entry rule: no GrammarProfile row -> the assessment, EXCEPT when the
+// student arrives from the one learner path (src/lib/learnerPath.js):
+//   /grammar?topic=<key>&stage=choose   Home's Continue: starts that round
+//   /grammar?topic=<key>                opens that topic's sheet
+//   /grammar?view=path                  "See the whole path"
+// A path stop must never be behind a test wall, so those three open the Path
+// tab without a profile. The Free map still needs the placement (it is built
+// from the placement verdicts): tapping Free without one goes to the test.
 
 const pretty = (s) => String(s || "").replace(/-/g, " ").replace(/\b\w/g, (ch) => ch.toUpperCase());
 
@@ -64,11 +74,21 @@ export default function Grammar() {
   const [runKey, setRunKey] = useState(0);
   const { lang } = useAppLang();
   const ms = MODE_STR[lang] || MODE_STR.uz;
-  const [mode, setModeState] = useState(readMode);
+  const pc = pathCopy(lang);
+  // How the student got here, read once (the params are cleared after use so a
+  // refresh or the Back button never restarts a round).
+  const [searchParams, setSearchParams] = useSearchParams();
+  const entry = useRef({ topic: searchParams.get("topic"), stage: searchParams.get("stage"), view: searchParams.get("view") }).current;
+  const pathEntry = Boolean(entry.topic || entry.view === "path");
+  const fromHome = Boolean(entry.topic); // launched by a Continue link: "Done" returns Home
+  const entered = useRef(false);
+  const [noProfile, setNoProfile] = useState(false);
+  const [mode, setModeState] = useState(() => (pathEntry ? "path" : readMode()));
   const [statuses, setStatuses] = useState({});
   const [openKey, setOpenKey] = useState(null);
   const [email, setEmail] = useState(null);
   const available = useMemo(() => new Set(availableTopics()), []);
+  const path = useLearnerPath(email);
 
   const backRef = useRef(null); // stage's animated back, see GrammarStage
 
@@ -82,16 +102,21 @@ export default function Grammar() {
         const rows = await base44.entities.GrammarProfile.filter({ user_email: me?.email });
         if (cancelled) return;
         if (!rows?.length) {
-          // No diagnostic yet — the assessment is the way in.
-          navigate("/grammar/assessment", { replace: true });
-          return;
+          if (!pathEntry) {
+            // No diagnostic yet — the assessment is the way in.
+            navigate("/grammar/assessment", { replace: true });
+            return;
+          }
+          setNoProfile(true); // a path stop: practise now, the test can wait
+        } else {
+          setResult(fromStoredProfile(rows[0], names));
         }
-        setResult(fromStoredProfile(rows[0], names));
         setEmail(me?.email || null);
       } catch (e) {
         console.error("grammar home load failed", e);
-        if (!cancelled) navigate("/grammar/assessment", { replace: true });
-        return;
+        if (cancelled) return;
+        if (!pathEntry) { navigate("/grammar/assessment", { replace: true }); return; }
+        setNoProfile(true);
       }
       if (!cancelled) setLoading(false);
     })();
@@ -122,6 +147,7 @@ export default function Grammar() {
   useEffect(() => { refreshStatuses(); }, [refreshStatuses]);
 
   const setMode = (m) => {
+    if (m === "free" && noProfile) { navigate("/grammar/assessment"); return; }
     setModeState(m);
     try { localStorage.setItem(MODE_KEY, m); } catch { /* ignore */ }
     setTierId(null); setClusterId(null); setDomainId(null); setBranchId(null); setTopicId(null); setStageId(null);
@@ -132,8 +158,30 @@ export default function Grammar() {
     const [d, b, t] = splitKey(key);
     setDomainId(d); setBranchId(b); setTopicId(t); setStageId(stage);
   };
+  // Arriving from a Continue link: open the stop that was asked for, once.
+  useEffect(() => {
+    if (loading || entered.current || !pathEntry) return;
+    entered.current = true;
+    const next = new URLSearchParams(searchParams);
+    ["topic", "stage", "view"].forEach((k) => next.delete(k));
+    setSearchParams(next, { replace: true });
+    if (!entry.topic || !available.has(entry.topic)) return;
+    const stage = PRACTICE_STAGES.find((s) => s.id === entry.stage && !s.ai) ? entry.stage : null;
+    if (stage) startFromPath(entry.topic, stage); else setOpenKey(entry.topic);
+  }, [loading]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // The result screen's "Next step": the next stop on the one path.
+  const goNextStop = (stop) => {
+    if (!stop) return;
+    if (stop.kind === "lesson") { navigate(stopHref(stop)); return; }
+    setItems(null); // never compose the next round from the last topic's bank
+    startFromPath(stop.key, "choose");
+    setRunKey((k) => k + 1);
+  };
+
   const exitRound = () => {
     setStageId(null);
+    if (mode === "path" && fromHome) { navigate("/"); return; }
     if (mode === "path") {
       const key = topicKey(domainId, branchId, topicId);
       setDomainId(null); setBranchId(null); setTopicId(null);
@@ -268,14 +316,33 @@ export default function Grammar() {
                 c={c}
                 onExit={exitRound}
                 onAgain={() => setRunKey((k) => k + 1)}
+                resultAfter={mode === "path" ? (summary) => {
+                  const key = topicKey(domainId, branchId, topicId);
+                  const passedNow = summary.total >= PASS_MIN_ITEMS && summary.correct / summary.total >= PASS_MIN_ACCURACY;
+                  const done = passedNow || Boolean(path.passed?.has(key));
+                  const nextStop = path.withPassed(done ? key : null).next;
+                  return (
+                    <PathNextActions lang={lang} passed={done} nextStop={nextStop}
+                      onPassed={() => path.markPassed(key)}
+                      onNext={() => goNextStop(nextStop)}
+                      onCoach={() => navigate("/coach")}
+                      onFree={() => navigate("/?tab=skillhub")} />
+                  );
+                } : undefined}
               />
             )}
             </LoadingTransition>
           </div>
         ) : mode === "path" ? (
           <div className="mt-5">
+            {/* "Next" and the Continue bar come from the ONE path, so this tab and
+                Home always point at the same stop. Until it loads (or if it fails)
+                GrammarPath falls back to its own course-order pick. */}
             <GrammarPath lang={lang} statuses={statuses} available={available}
-              onStart={startFromPath} openKey={openKey} onOpenKey={setOpenKey} />
+              onStart={startFromPath} openKey={openKey} onOpenKey={setOpenKey}
+              next={!path.state ? undefined : path.state.next?.kind === "grammar" ? { unitId: path.state.next.unitId, key: path.state.next.key } : null}
+              continueLabel={path.state?.next?.kind === "lesson" ? `${pc.cont} · ${stopLabel(path.state.next, lang)}` : undefined}
+              onContinue={path.state?.next?.kind === "lesson" ? () => navigate(stopHref(path.state.next)) : undefined} />
           </div>
         ) : (
           <div className="relative w-full aspect-square max-w-[560px] mx-auto min-h-[360px]">

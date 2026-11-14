@@ -21,7 +21,9 @@ const Stat = ({ label, value, tone }) => (
   </div>
 );
 
-export default function PracticeResult({ summary, c, onAgain, onExit }) {
+// after (optional): (summary) => node, rendered under the buttons. The Grammar
+// page uses it for the path's "once done" choices; other callers don't pass it.
+export default function PracticeResult({ summary, c, onAgain, onExit, after }) {
   const { correct, total, pct, tier, streak, missed } = summary;
   const good = pct >= 70;
   const tone = pct >= 90 ? ACCENT : pct >= 50 ? "#D9B45B" : WARM;
@@ -87,6 +89,7 @@ export default function PracticeResult({ summary, c, onAgain, onExit }) {
           {c("fin_done")}
         </button>
       </div>
+      {after ? after(summary) : null}
     </motion.div>
   );
 }
