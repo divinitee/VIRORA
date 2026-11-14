@@ -9,8 +9,8 @@ import PathNextActions from '@/components/grammar/path/PathNextActions';
 import { pathState, stopHref, stopLabel, LESSON_STOPS } from '@/lib/learnerPath';
 
 const KEYS = ['tenses.present.simple-routine', 'tenses.present.third-person-s', 'tenses.present.be-affirmative'];
-const fresh = pathState({ available: KEYS, passed: [], lessonsDone: 0 });
-const afterLesson = pathState({ available: KEYS, passed: [], lessonsDone: 1 });
+const fresh = pathState({ available: new Set(KEYS), passed: new Set(), lessonsDone: 0 });
+const afterLesson = pathState({ available: new Set(KEYS), passed: new Set(), lessonsDone: 1 });
 window.__path = { fresh, afterLesson, href: stopHref, label: (s) => stopLabel(s, 'en'), lessonId: LESSON_STOPS[0].lessonId };
 window.__clicks = [];
 const Loc = () => { const l = useLocation(); window.__loc = l.pathname + l.search; return null; };
@@ -26,4 +26,4 @@ window.__mountPassed = () => mount('a', <PathNextActions lang="en" passed nextSt
   onNext={() => window.__clicks.push('next')} onCoach={() => window.__clicks.push('coach')} onFree={() => window.__clicks.push('roam')} onPassed={() => window.__clicks.push('passed')} />);
 window.__mountNotYet = () => mount('b', <PathNextActions lang="uz" passed={false} nextStop={afterLesson.next}
   onNext={() => window.__clicks.push('next2')} onCoach={() => {}} onFree={() => {}} onPassed={() => window.__clicks.push('passed2')} />);
-window.__mountDone = () => mount('c', <PathCard state={pathState({ available: [], passed: [], lessonsDone: 1 })} loading={false} />);
+window.__mountDone = () => mount('c', <PathCard state={pathState({ available: new Set(), passed: new Set(), lessonsDone: 1 })} loading={false} />);
