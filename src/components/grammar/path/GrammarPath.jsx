@@ -194,10 +194,18 @@ function TopicSheet({ topicKey, s, lang, status, playable, onClose, onStart }) {
  *   onStart     (topicKey, stageId) => void — opens a practice round
  *   openKey     topic whose sheet should be open (lets the page reopen it after a round)
  *   onOpenKey   (topicKey | null) => void
+ * One path (14 Nov 2026, src/lib/learnerPath.js), all optional:
+ *   next           { unitId, key } | null from the one learner path. When given
+ *                  (even null) it replaces this component's own pick, so the
+ *                  "Next" glow and the Continue bar match Home's Continue.
+ *   continueLabel  text for the Continue bar when the next stop is not a
+ *                  grammar topic (a lesson)
+ *   onContinue     what the Continue bar does in that case
  */
-export default function GrammarPath({ lang, statuses, available, onStart, openKey, onOpenKey }) {
+export default function GrammarPath({ lang, statuses, available, onStart, openKey, onOpenKey, next: nextProp, continueLabel, onContinue }) {
   const s = STR[lang] || STR.uz;
-  const next = useMemo(() => nextTopic(statuses, available), [statuses, available]);
+  const ownNext = useMemo(() => nextTopic(statuses, available), [statuses, available]);
+  const next = nextProp !== undefined ? nextProp : ownNext;
   const reviews = useMemo(() => reviewKeys(statuses), [statuses]);
   const [openUnits, setOpenUnits] = useState(() => new Set(next ? [next.unitId] : [UNITS[0].id]));
   const [showReview, setShowReview] = useState(false);
@@ -248,10 +256,11 @@ export default function GrammarPath({ lang, statuses, available, onStart, openKe
       {/* One primary action, fixed above the safe area. */}
       <div className="fixed inset-x-0 bottom-0 z-40 px-4 pb-[calc(env(safe-area-inset-bottom)+12px)] pt-3 bg-gradient-to-t from-background via-background/95 to-transparent">
         <div className="max-w-lg mx-auto">
-          <button type="button" onClick={continueNext} disabled={!next}
+          <button type="button" onClick={onContinue || continueNext} disabled={!next && !onContinue} data-testid="grammar-path-continue"
             className="w-full h-14 px-4 rounded-2xl font-bold text-base text-black flex items-center justify-center gap-2 disabled:opacity-50 min-w-0"
             style={{ background: ACCENT }}>
-            {next ? (<><Sparkles className="w-5 h-5 shrink-0" /> <span className="truncate">{s.continue} · {topicLabel(next.key, lang)}</span></>) : s.allDone}
+            {continueLabel ? (<><Sparkles className="w-5 h-5 shrink-0" /> <span className="truncate">{continueLabel}</span></>)
+              : next ? (<><Sparkles className="w-5 h-5 shrink-0" /> <span className="truncate">{s.continue} · {topicLabel(next.key, lang)}</span></>) : s.allDone}
           </button>
         </div>
       </div>

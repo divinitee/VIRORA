@@ -28,7 +28,9 @@ const ROUND_SIZE = 10;
 // never silently dropped. Without it, the round is submitted here as before.
 // onLeave (optional, VT-40 5d): the mid-round Exit button calls this instead of onExit,
 // so the Coach can ask "Save and leave?" without changing the empty-round "back" button.
-export default function PracticeRunner({ items, stage, topicKey, onExit, onLeave, onAgain, onFinish, onSave, c, coachSessionKey, size = ROUND_SIZE }) {
+// resultAfter (optional, one path, 14 Nov): (summary) => node shown under the result
+// card's buttons (the path's "next stop / suggested practice / free roam").
+export default function PracticeRunner({ items, stage, topicKey, onExit, onLeave, onAgain, onFinish, onSave, c, coachSessionKey, size = ROUND_SIZE, resultAfter }) {
   const [seed] = useState(() => Math.floor(Math.random() * 1e9));
   const [roundId] = useState(() => generateRoundId());
   const { user } = useAuth();
@@ -95,7 +97,7 @@ export default function PracticeRunner({ items, stage, topicKey, onExit, onLeave
     const { graded } = scoreRound(round.items, responses);
     const summary = summarise(graded);
     // onFinish receives the round summary (VT-40 recap); callers that ignore it are unaffected.
-    return <PracticeResult summary={summary} c={c} onAgain={onAgain} onExit={onFinish ? () => onFinish(summary) : onExit} />;
+    return <PracticeResult summary={summary} c={c} onAgain={onAgain} onExit={onFinish ? () => onFinish(summary) : onExit} after={resultAfter} />;
   }
 
   return (

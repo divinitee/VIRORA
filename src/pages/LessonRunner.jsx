@@ -14,6 +14,10 @@ import McqGateItem from "@/components/placement/McqGateItem";
 import OpenGateItem from "@/components/placement/OpenGateItem";
 import { TEACH_BEATS_BY_LESSON } from "@/lib/teachContent";
 import ViraBubble from "@/components/mascot/ViraBubble";
+import { useAppLang } from "@/hooks/useAppLang";
+import { useLearnerPath } from "@/hooks/useLearnerPath";
+import { grammarAfterLesson, pathCopy, stopHref } from "@/lib/learnerPath";
+import { topicLabel } from "@/lib/grammarCourse";
 
 // Student-facing runner for one Lesson: Orientation -> Teach -> Practice ->
 // Check -> Mastery -> Pass/Retry. Standalone route, not yet wired into
@@ -67,6 +71,14 @@ export default function LessonRunner() {
   const [checkOutcome, setCheckOutcome] = useState(null); // { results, pending, allPassed, mastery }
   const [checkActivityItems, setCheckActivityItems] = useState([]); // [{activity, items}] shown this check pass
   const [advanced, setAdvanced] = useState(null);
+
+  // One path (14 Nov 2026): a lesson teaches, grammar practice drills. When the
+  // lesson is complete the first thing offered is a practice round on the
+  // grammar this lesson taught (src/lib/learnerPath.js LESSON_STOPS[].grammar).
+  const { lang } = useAppLang();
+  const pc = pathCopy(lang);
+  const path = useLearnerPath(userEmail || null);
+  const afterTopic = grammarAfterLesson(lessonId, { available: path.available, passed: path.passed || new Set() });
 
   useEffect(() => {
     (async () => {
@@ -280,9 +292,24 @@ export default function LessonRunner() {
             <h2 className="text-xl font-bold text-foreground mb-2">Lesson complete</h2>
             <p className="text-sm text-muted-foreground mb-6">Mastery score: {checkOutcome.mastery.toFixed(1)}/5</p>
             <ViraBubble moment="lessonDone" className="mb-6 text-left" />
-            <button onClick={() => navigate("/")} className="h-12 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 text-white font-semibold shadow-lg select-none">
-              {advanced?.hasNext ? "Continue" : "Done"}
-            </button>
+            {afterTopic ? (
+              <>
+                <button
+                  data-testid="lesson-practise-grammar"
+                  onClick={() => navigate(stopHref({ kind: "grammar", key: afterTopic }))}
+                  className="h-12 px-4 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 text-white font-semibold shadow-lg select-none truncate"
+                >
+                  {pc.lessonDoneCta}: {topicLabel(afterTopic, lang)}
+                </button>
+                <button onClick={() => navigate("/")} className="mt-3 h-11 rounded-xl border border-border text-sm font-semibold text-foreground select-none">
+                  {pc.backHome}
+                </button>
+              </>
+            ) : (
+              <button onClick={() => navigate("/")} className="h-12 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 text-white font-semibold shadow-lg select-none">
+                {advanced?.hasNext ? "Continue" : "Done"}
+              </button>
+            )}
           </>
         ) : (
           <>

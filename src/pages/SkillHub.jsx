@@ -38,7 +38,6 @@ import { useAppLang } from "@/hooks/useAppLang";
 import { getRandomChallenge } from "@/lib/skillTreeData";
 import { levelOf, difficultyFor, wordsForLevel, cognitiveDemandForLevel, nextLevelDown } from "@/lib/levels";
 
-import { resolveUserNameOrEmail } from "@/lib/profileName";
 import { hasDiagnostic, resolveSkillEntry } from "@/lib/skillDiagnostics";
 import { startHerePick, START_HERE_COPY } from "@/lib/startHere";
 import { probePerf } from "@/lib/perfMode";
