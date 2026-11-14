@@ -1084,12 +1084,12 @@ export const PRACTICE_MANIFEST = {
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
-   "choose": 20,
-   "build": 58,
-   "transform": 15,
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
    "create": 8,
    "express": 5
   }

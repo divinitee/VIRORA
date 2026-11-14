@@ -6,383 +6,665 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Mariam ______ to work by bus every morning.",
+  "prompt": "She ______ to {place} by {transport} every morning.",
   "options": [
    "goes",
    "go",
    "going",
-   "gone"
+   "is go"
   ],
   "key": 0,
-  "why": "Mariam is third-person singular, so the present simple verb takes -es."
+  "why": "She is third person singular. Verbs ending in -sh, -ch, -x, -ss or -o add -es: go becomes goes.",
+  "slots": {
+   "place": [
+    "school",
+    "work",
+    "university",
+    "the gym"
+   ],
+   "transport": [
+    "bus",
+    "metro",
+    "taxi",
+    "minibus"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.002",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My father ______ coffee before work.",
+  "prompt": "The bakery ______ at {time} every day. It sells fresh {food}.",
   "options": [
-   "drink",
-   "drinks",
-   "drinking",
-   "drunk"
+   "opens",
+   "open",
+   "opening",
+   "does opens"
   ],
-  "key": 1,
-  "why": "A third-person singular subject takes the present simple -s form."
+  "key": 0,
+  "why": "The bakery means one person or thing, like he, she or it. Add -s: open becomes opens.",
+  "slots": {
+   "time": [
+    "7 a.m.",
+    "8 a.m.",
+    "six o'clock",
+    "seven o'clock"
+   ],
+   "food": [
+    "bread",
+    "non",
+    "samsa",
+    "cakes"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.003",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The teacher ______ English at our school.",
+  "prompt": "My father ______ at a {place} in {city}.",
   "options": [
-   "teach",
-   "teaching",
-   "teaches",
-   "has teach"
+   "works",
+   "work",
+   "working",
+   "is work"
   ],
-  "key": 2,
-  "why": "Teach takes -es with a third-person singular subject."
+  "key": 0,
+  "why": "My father means one person or thing, like he, she or it. Add -s: work becomes works.",
+  "slots": {
+   "place": [
+    "bank",
+    "hospital",
+    "hotel",
+    "factory"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Namangan"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.004",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My little sister ______ loudly when she is hungry.",
+  "prompt": "Aziz ______ {sport} with his {person} on Sundays.",
   "options": [
-   "cry",
-   "crying",
-   "has cry",
-   "cries"
+   "plays",
+   "play",
+   "playing",
+   "does plays"
   ],
-  "key": 3,
-  "why": "A verb ending in consonant plus y changes y to ies with third-person singular."
+  "key": 0,
+  "why": "Aziz means one person or thing, like he, she or it. Add -s: play becomes plays.",
+  "slots": {
+   "sport": [
+    "football",
+    "tennis",
+    "chess",
+    "volleyball"
+   ],
+   "person": [
+    "brother",
+    "friends",
+    "cousins",
+    "father"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.005",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The shop ______ at nine o'clock every morning.",
+  "prompt": "My mother ______ {program} with my {person} every evening.",
   "options": [
-   "opens",
-   "open",
-   "opening",
-   "has open"
+   "watches",
+   "watch",
+   "watching",
+   "is watch"
   ],
   "key": 0,
-  "why": "The singular subject shop takes opens in the present simple."
+  "why": "My mother means one person or thing, like he, she or it. Verbs ending in -sh, -ch, -x, -ss or -o add -es: watch becomes watches.",
+  "slots": {
+   "program": [
+    "the news",
+    "a series",
+    "cooking shows",
+    "old films"
+   ],
+   "person": [
+    "sister",
+    "grandmother",
+    "aunt",
+    "little brother"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.006",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Aziz ______ his grandmother every Sunday.",
+  "prompt": "The bus to {place} ______ at {time} every day.",
   "options": [
-   "visit",
-   "visits",
-   "visiting",
-   "has visit"
+   "leaves",
+   "leave",
+   "leaving",
+   "does leaves"
   ],
-  "key": 1,
-  "why": "Aziz is third-person singular, so visit takes -s."
+  "key": 0,
+  "why": "The bus means one person or thing, like he, she or it. Add -s: leave becomes leaves.",
+  "slots": {
+   "place": [
+    "Chilonzor",
+    "the airport",
+    "the city centre",
+    "Yunusobod"
+   ],
+   "time": [
+    "7:30",
+    "8:15",
+    "9:00",
+    "10:45"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.007",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My mother ______ the news after dinner.",
+  "prompt": "Madina ______ {subject} at the {place} after school.",
   "options": [
-   "watch",
-   "watching",
-   "watches",
-   "has watch"
+   "studies",
+   "study",
+   "studying",
+   "is study"
   ],
-  "key": 2,
-  "why": "Watch takes -es with a third-person singular subject."
+  "key": 0,
+  "why": "Madina means one person or thing, like he, she or it. After a consonant, y changes to -ies: study becomes studies.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "chemistry",
+    "history"
+   ],
+   "place": [
+    "library",
+    "learning centre",
+    "kitchen table",
+    "café"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.008",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The baby ______ a lot during the day.",
+  "prompt": "Our teacher ______ us {task} every {day}.",
   "options": [
-   "sleep",
-   "sleeping",
-   "has sleep",
-   "sleeps"
+   "gives",
+   "give",
+   "giving",
+   "does gives"
   ],
-  "key": 3,
-  "why": "The singular subject baby takes sleeps in the present simple."
+  "key": 0,
+  "why": "Our teacher means one person or thing, like he, she or it. Add -s: give becomes gives.",
+  "slots": {
+   "task": [
+    "homework",
+    "a test",
+    "a short quiz",
+    "new words"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "week",
+    "lesson"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.009",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Dilshod ______ his homework before dinner.",
+  "prompt": "It ______ a lot in {city} in {season}.",
   "options": [
-   "finishes",
-   "finish",
-   "finishing",
-   "has finish"
+   "rains",
+   "rain",
+   "raining",
+   "is rain"
   ],
   "key": 0,
-  "why": "Finish takes -es with a third-person singular subject."
+  "why": "It is third person singular. Add -s: rain becomes rains.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Andijan",
+    "Namangan"
+   ],
+   "season": [
+    "March",
+    "April",
+    "spring",
+    "autumn"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.010",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The train ______ at 7:30 every morning.",
+  "prompt": "My brother ______ a {pet} and two {things}.",
   "options": [
-   "leave",
-   "leaves",
-   "leaving",
-   "has leave"
+   "has",
+   "have",
+   "having",
+   "haves"
   ],
-  "key": 1,
-  "why": "The singular subject train takes leaves in the present simple."
+  "key": 0,
+  "why": "My brother means one person or thing, like he, she or it. Have is irregular: with he, she or it it becomes has.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "parrot",
+    "rabbit"
+   ],
+   "things": [
+    "bikes",
+    "phones",
+    "laptops",
+    "guitars"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.011",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My cousin ______ tennis on Saturdays.",
+  "prompt": "Dilnoza ______ her {task} before {meal}.",
   "options": [
-   "play",
-   "playing",
-   "plays",
-   "has play"
+   "does",
+   "do",
+   "doing",
+   "is do"
   ],
-  "key": 2,
-  "why": "A third-person singular subject takes the -s form in the present simple."
+  "key": 0,
+  "why": "Dilnoza means one person or thing, like he, she or it. Do adds -es with he, she or it: does.",
+  "slots": {
+   "task": [
+    "homework",
+    "reading",
+    "revision",
+    "chores"
+   ],
+   "meal": [
+    "dinner",
+    "lunch",
+    "breakfast",
+    "supper"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.012",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The dog ______ at strangers near the gate.",
+  "prompt": "The café near our {place} ______ cheap {food}.",
   "options": [
-   "bark",
-   "barking",
-   "has bark",
-   "barks"
+   "sells",
+   "sell",
+   "selling",
+   "does sells"
   ],
-  "key": 3,
-  "why": "The singular subject dog takes barks in the present simple."
+  "key": 0,
+  "why": "The café means one person or thing, like he, she or it. Add -s: sell becomes sells.",
+  "slots": {
+   "place": [
+    "school",
+    "university",
+    "office",
+    "house"
+   ],
+   "food": [
+    "samsa",
+    "sandwiches",
+    "plov",
+    "coffee"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.013",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "She ______ a new laptop for her work.",
+  "prompt": "The baby ______ when he is {state}. Then my mother {action} him.",
   "options": [
-   "has",
-   "have",
-   "having",
-   "has have"
+   "cries",
+   "cry",
+   "crying",
+   "is cry"
   ],
   "key": 0,
-  "why": "Has is the irregular present simple form of have for third-person singular subjects."
+  "why": "The baby means one person or thing, like he, she or it. After a consonant, y changes to -ies: cry becomes cries.",
+  "slots": {
+   "state": [
+    "hungry",
+    "tired",
+    "cold",
+    "wet"
+   ],
+   "action": [
+    "feeds",
+    "holds",
+    "rocks",
+    "sings to"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.014",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The student ______ the teacher when he has a question.",
+  "prompt": "Timur ______ {things} in his uncle's {place}.",
   "options": [
-   "ask",
-   "asks",
-   "asking",
-   "has ask"
+   "fixes",
+   "fix",
+   "fixing",
+   "does fixes"
   ],
-  "key": 1,
-  "why": "The singular subject student takes asks in the present simple."
+  "key": 0,
+  "why": "Timur means one person or thing, like he, she or it. Verbs ending in -sh, -ch, -x, -ss or -o add -es: fix becomes fixes.",
+  "slots": {
+   "things": [
+    "phones",
+    "laptops",
+    "bikes",
+    "cars"
+   ],
+   "place": [
+    "shop",
+    "garage",
+    "workshop",
+    "small shop"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.015",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My aunt ______ her car to work every day.",
+  "prompt": "Olga ______ {lang} with her {person}.",
   "options": [
-   "drive",
-   "driving",
-   "drives",
-   "driven"
+   "speaks",
+   "speak",
+   "speaking",
+   "is speak"
   ],
-  "key": 2,
-  "why": "My aunt is third-person singular, so drive takes -s."
+  "key": 0,
+  "why": "Olga means one person or thing, like he, she or it. Add -s: speak becomes speaks.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "English",
+    "Uzbek",
+    "Korean"
+   ],
+   "person": [
+    "grandmother",
+    "friends",
+    "colleagues",
+    "neighbours"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.016",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The child ______ his teeth before bed.",
+  "prompt": "This train ______ in {town} and {city}.",
   "options": [
-   "brush",
-   "brushing",
-   "has brush",
-   "brushes"
+   "stops",
+   "stop",
+   "stopping",
+   "does stops"
   ],
-  "key": 3,
-  "why": "Brush takes -es with a third-person singular subject."
+  "key": 0,
+  "why": "This train means one person or thing, like he, she or it. Add -s: stop becomes stops.",
+  "slots": {
+   "town": [
+    "Gulistan",
+    "Jizzakh",
+    "Navoi",
+    "Karshi"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Termez",
+    "Urgench"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.017",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Madina ______ French after school.",
+  "prompt": "My grandfather ______ at {time} and {action} in the garden.",
   "options": [
-   "studies",
-   "study",
-   "studying",
-   "has study"
+   "gets up",
+   "get up",
+   "getting up",
+   "is get up"
   ],
   "key": 0,
-  "why": "Study changes y to ies with a third-person singular subject."
+  "why": "My grandfather means one person or thing, like he, she or it. Add -s: get up becomes gets up.",
+  "slots": {
+   "time": [
+    "5 a.m.",
+    "6 a.m.",
+    "half past five",
+    "six o'clock"
+   ],
+   "action": [
+    "walks",
+    "works",
+    "drinks tea",
+    "reads"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.018",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The bus ______ outside the station for ten minutes.",
+  "prompt": "He ______ the {item} after {meal}.",
   "options": [
-   "wait",
-   "waits",
-   "waiting",
-   "has wait"
+   "washes",
+   "wash",
+   "washing",
+   "does washes"
   ],
-  "key": 1,
-  "why": "The singular subject bus takes waits in the present simple."
+  "key": 0,
+  "why": "He is third person singular. Verbs ending in -sh, -ch, -x, -ss or -o add -es: wash becomes washes.",
+  "slots": {
+   "item": [
+    "dishes",
+    "cups",
+    "plates",
+    "pots"
+   ],
+   "meal": [
+    "dinner",
+    "lunch",
+    "breakfast",
+    "supper"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.019",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My uncle ______ his keys in the same drawer.",
+  "prompt": "Jasur ______ a {vehicle} in {city}.",
   "options": [
-   "keep",
-   "keeping",
-   "keeps",
-   "has keep"
+   "drives",
+   "drive",
+   "driving",
+   "is drive"
   ],
-  "key": 2,
-  "why": "My uncle is third-person singular, so keep takes -s."
+  "key": 0,
+  "why": "Jasur means one person or thing, like he, she or it. Add -s: drive becomes drives.",
+  "slots": {
+   "vehicle": [
+    "taxi",
+    "bus",
+    "truck",
+    "van"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Khiva",
+    "Nukus"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.choose.020",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The receptionist ______ every visitor politely.",
+  "prompt": "The film ______ at {time}, so we have {amount} to get there.",
   "options": [
-   "greet",
-   "greeting",
-   "has greet",
-   "greets"
+   "starts",
+   "start",
+   "starting",
+   "does starts"
   ],
-  "key": 3,
-  "why": "The singular subject receptionist takes greets in the present simple."
+  "key": 0,
+  "why": "The film means one person or thing, like he, she or it. Add -s: start becomes starts.",
+  "slots": {
+   "time": [
+    "seven",
+    "eight",
+    "nine",
+    "half past six"
+   ],
+   "amount": [
+    "an hour",
+    "thirty minutes",
+    "plenty of time",
+    "twenty minutes"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.build.001",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "My brother ______ (go) to {place} by {transport} every morning.",
-  "key": "goes",
-  "why": "Go takes -es with a third-person singular subject.",
+  "source": "My aunt ______ (teach) {subject} at a {place} in Tashkent.",
+  "key": "teaches",
+  "why": "My aunt means one person or thing, like he, she or it. Verbs ending in -sh, -ch, -x, -ss or -o add -es: teach becomes teaches.",
   "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "music",
+    "art"
+   ],
    "place": [
     "school",
-    "the office",
-    "university"
-   ],
-   "transport": [
-    "bus",
-    "train",
-    "bike"
+    "college",
+    "lyceum",
+    "language school"
    ]
   }
  },
@@ -391,18 +673,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "Laylo ______ (work) at {place} every weekday.",
-  "key": "works",
-  "why": "Laylo is third-person singular, so work takes -s.",
+  "source": "Sardor ______ (wake) up at {time} on {days}.",
+  "key": "wakes",
+  "why": "Sardor means one person or thing, like he, she or it. Add -s: wake becomes wakes.",
   "slots": {
-   "place": [
-    "a bank",
-    "a hospital",
-    "a hotel"
+   "time": [
+    "six",
+    "seven",
+    "half past six",
+    "6:30"
+   ],
+   "days": [
+    "weekdays",
+    "school days",
+    "Mondays",
+    "workdays"
    ]
   }
  },
@@ -411,18 +700,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The teacher ______ (teach) {schoolSubject} to our class.",
-  "key": "teaches",
-  "why": "Teach takes -es with a third-person singular subject.",
+  "source": "The museum in {city} ______ (close) at {time} on Sundays.",
+  "key": "closes",
+  "why": "The museum means one person or thing, like he, she or it. Add -s: close becomes closes.",
   "slots": {
-   "schoolSubject": [
-    "English",
-    "history",
-    "mathematics"
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "time": [
+    "five",
+    "six",
+    "4 p.m.",
+    "5 p.m."
    ]
   }
  },
@@ -431,18 +727,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "My cousin ______ (study) {schoolSubject} after dinner.",
-  "key": "studies",
-  "why": "Study changes y to ies with a third-person singular subject.",
+  "source": "My cousin ______ (live) in {city} with her {person}.",
+  "key": "lives",
+  "why": "My cousin means one person or thing, like he, she or it. Add -s: live becomes lives.",
   "slots": {
-   "schoolSubject": [
-    "English",
-    "biology",
-    "economics"
+   "city": [
+    "Fergana",
+    "Andijan",
+    "Moscow",
+    "Almaty"
+   ],
+   "person": [
+    "parents",
+    "husband",
+    "grandmother",
+    "two sisters"
    ]
   }
  },
@@ -451,18 +754,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "She ______ (watch) {program} every evening.",
-  "key": "watches",
-  "why": "Watch takes -es with a third-person singular subject.",
+  "source": "Nodira ______ (finish) work at {time} and then goes to the {place}.",
+  "key": "finishes",
+  "why": "Nodira means one person or thing, like he, she or it. Verbs ending in -sh, -ch, -x, -ss or -o add -es: finish becomes finishes.",
   "slots": {
-   "program": [
-    "the news",
-    "a cooking show",
-    "a comedy program"
+   "time": [
+    "five",
+    "six",
+    "4:30",
+    "half past five"
+   ],
+   "place": [
+    "gym",
+    "market",
+    "park",
+    "library"
    ]
   }
  },
@@ -471,31 +781,52 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The baby ______ (cry) when he is tired.",
-  "key": "cries",
-  "why": "Cry changes y to ies with a third-person singular subject."
+  "source": "Our neighbour ______ (carry) {things} up to the {floor} floor for my grandmother.",
+  "key": "carries",
+  "why": "Our neighbour means one person or thing, like he, she or it. After a consonant, y changes to -ies: carry becomes carries.",
+  "slots": {
+   "things": [
+    "bags",
+    "boxes",
+    "bottles of water",
+    "shopping bags"
+   ],
+   "floor": [
+    "fourth",
+    "fifth",
+    "sixth",
+    "ninth"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.build.007",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "My father ______ (have) breakfast at {time} every morning.",
-  "key": "has",
-  "why": "Has is the irregular present simple form of have for third-person singular.",
+  "source": "The number {num} bus ______ (go) to the {place}.",
+  "key": "goes",
+  "why": "The bus means one person or thing, like he, she or it. Verbs ending in -sh, -ch, -x, -ss or -o add -es: go becomes goes.",
   "slots": {
-   "time": [
-    "seven o'clock",
-    "half past seven",
-    "eight o'clock"
+   "num": [
+    "7",
+    "12",
+    "45",
+    "89"
+   ],
+   "place": [
+    "airport",
+    "bazaar",
+    "station",
+    "university"
    ]
   }
  },
@@ -504,18 +835,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The shop ______ (close) at {time} on weekdays.",
-  "key": "closes",
-  "why": "Close takes -s with a third-person singular subject.",
+  "source": "Bekzod ______ (try) a new {food} at every {place} he visits.",
+  "key": "tries",
+  "why": "Bekzod means one person or thing, like he, she or it. After a consonant, y changes to -ies: try becomes tries.",
   "slots": {
-   "time": [
-    "six o'clock",
-    "seven o'clock",
-    "eight o'clock"
+   "food": [
+    "dish",
+    "drink",
+    "dessert",
+    "soup"
+   ],
+   "place": [
+    "café",
+    "restaurant",
+    "food stall",
+    "teahouse"
    ]
   }
  },
@@ -524,31 +862,52 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "Aziza ______ (miss) the bus when she leaves home late.",
-  "key": "misses",
-  "why": "Miss takes -es with a third-person singular subject."
+  "source": "My phone ______ (have) a good {part}, but it is very {state}.",
+  "key": "has",
+  "why": "My phone means one person or thing, like he, she or it. Have is irregular: with he, she or it it becomes has.",
+  "slots": {
+   "part": [
+    "camera",
+    "speaker",
+    "microphone",
+    "screen"
+   ],
+   "state": [
+    "old",
+    "slow",
+    "heavy",
+    "small"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.build.010",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The dog ______ (try) to catch the ball in {place}.",
-  "key": "tries",
-  "why": "Try changes y to ies with a third-person singular subject.",
+  "source": "The doctor ______ (see) {num} patients every {period}.",
+  "key": "sees",
+  "why": "The doctor means one person or thing, like he, she or it. Add -s: see becomes sees.",
   "slots": {
-   "place": [
-    "the garden",
-    "the park",
-    "the yard"
+   "num": [
+    "twenty",
+    "thirty",
+    "forty",
+    "fifty"
+   ],
+   "period": [
+    "day",
+    "morning",
+    "shift",
+    "afternoon"
    ]
   }
  },
@@ -557,18 +916,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "My aunt ______ (drive) to {place} every day.",
-  "key": "drives",
-  "why": "Drive takes -s with a third-person singular subject.",
+  "source": "Kamila ______ (miss) her {person} because they live in {city}.",
+  "key": "misses",
+  "why": "Kamila means one person or thing, like he, she or it. Verbs ending in -sh, -ch, -x, -ss or -o add -es: miss becomes misses.",
   "slots": {
-   "place": [
-    "work",
-    "the office",
-    "the city center"
+   "person": [
+    "parents",
+    "brothers",
+    "old friends",
+    "grandparents"
+   ],
+   "city": [
+    "Moscow",
+    "Seoul",
+    "Istanbul",
+    "Almaty"
    ]
   }
  },
@@ -577,18 +943,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The student ______ (ask) the teacher {questionTime}.",
-  "key": "asks",
-  "why": "Ask takes -s with a third-person singular subject.",
+  "source": "My dog ______ (sleep) on the {place} next to the {thing}.",
+  "key": "sleeps",
+  "why": "My dog means one person or thing, like he, she or it. Add -s: sleep becomes sleeps.",
   "slots": {
-   "questionTime": [
-    "after class",
-    "during the lesson",
-    "when he needs help"
+   "place": [
+    "sofa",
+    "carpet",
+    "floor",
+    "balcony"
+   ],
+   "thing": [
+    "door",
+    "window",
+    "heater",
+    "TV"
    ]
   }
  },
@@ -597,18 +970,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "My grandmother ______ (cook) {meal} on Sundays.",
-  "key": "cooks",
-  "why": "Cook takes -s with a third-person singular subject.",
+  "source": "Dad ______ (buy) {food} from the {shop} on the corner.",
+  "key": "buys",
+  "why": "Dad means one person or thing, like he, she or it. Add -s: buy becomes buys.",
   "slots": {
-   "meal": [
-    "lunch",
-    "dinner",
-    "a large family meal"
+   "food": [
+    "bread",
+    "milk",
+    "fruit",
+    "vegetables"
+   ],
+   "shop": [
+    "shop",
+    "kiosk",
+    "market stall",
+    "little shop"
    ]
   }
  },
@@ -617,31 +997,52 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The receptionist ______ (answer) every phone call politely.",
-  "key": "answers",
-  "why": "Answer takes -s with a third-person singular subject."
+  "source": "Anvar ______ (ride) his {vehicle} to the {place}.",
+  "key": "rides",
+  "why": "Anvar means one person or thing, like he, she or it. Add -s: ride becomes rides.",
+  "slots": {
+   "vehicle": [
+    "bike",
+    "scooter",
+    "motorbike",
+    "bicycle"
+   ],
+   "place": [
+    "park",
+    "lake",
+    "stadium",
+    "shop"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.build.015",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "Rustam ______ (wash) his car on {day}.",
-  "key": "washes",
-  "why": "Wash takes -es with a third-person singular subject.",
+  "source": "Lola ______ (watch) {program} on her {device} at night.",
+  "key": "watches",
+  "why": "Lola means one person or thing, like he, she or it. Verbs ending in -sh, -ch, -x, -ss or -o add -es: watch becomes watches.",
   "slots": {
-   "day": [
-    "Saturday",
-    "Sunday",
-    "Friday"
+   "program": [
+    "cartoons",
+    "videos",
+    "series",
+    "films"
+   ],
+   "device": [
+    "phone",
+    "tablet",
+    "laptop",
+    "computer"
    ]
   }
  },
@@ -650,18 +1051,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The train ______ (leave) from platform {platform} every morning.",
-  "key": "leaves",
-  "why": "Leave takes -s with a third-person singular subject.",
+  "source": "The teacher ______ (ask) {who} about the {topic} every lesson.",
+  "key": "asks",
+  "why": "The teacher means one person or thing, like he, she or it. Add -s: ask becomes asks.",
   "slots": {
-   "platform": [
-    "one",
-    "two",
-    "three"
+   "who": [
+    "me",
+    "us",
+    "Aziz",
+    "the class"
+   ],
+   "topic": [
+    "homework",
+    "new words",
+    "last text",
+    "grammar"
    ]
   }
  },
@@ -670,18 +1078,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "My nephew ______ (brush) his teeth before {time}.",
-  "key": "brushes",
-  "why": "Brush takes -es with a third-person singular subject.",
+  "source": "Our {subject} class ______ (start) at {time}.",
+  "key": "starts",
+  "why": "Our class means one person or thing, like he, she or it. Add -s: start becomes starts.",
   "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "music",
+    "history"
+   ],
    "time": [
-    "bedtime",
-    "school",
-    "breakfast"
+    "eight",
+    "nine",
+    "8:30",
+    "9:15"
    ]
   }
  },
@@ -690,31 +1105,52 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The manager ______ (check) the reports every morning.",
-  "key": "checks",
-  "why": "Check takes -s with a third-person singular subject."
+  "source": "My grandmother ______ (make) {food} for the whole family on {day}.",
+  "key": "makes",
+  "why": "My grandmother means one person or thing, like he, she or it. Add -s: make becomes makes.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "samsa",
+    "soup"
+   ],
+   "day": [
+    "Fridays",
+    "Sundays",
+    "holidays",
+    "birthdays"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.build.019",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The child ______ (carry) his bag to {place} every day.",
-  "key": "carries",
-  "why": "Carry changes y to ies with a third-person singular subject.",
+  "source": "Farrukh ______ (fly) to {city} for work {freq}.",
+  "key": "flies",
+  "why": "Farrukh means one person or thing, like he, she or it. After a consonant, y changes to -ies: fly becomes flies.",
   "slots": {
-   "place": [
-    "school",
-    "the library",
-    "his classroom"
+   "city": [
+    "Dubai",
+    "Moscow",
+    "Istanbul",
+    "Seoul"
+   ],
+   "freq": [
+    "twice a year",
+    "every month",
+    "once a year",
+    "every spring"
    ]
   }
  },
@@ -723,18 +1159,25 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with the present simple form of the verb in brackets.",
-  "source": "The nurse ______ (help) patients at {place}.",
-  "key": "helps",
-  "why": "Help takes -s with a third-person singular subject.",
+  "source": "It ______ (snow) in the {place} in {season}.",
+  "key": "snows",
+  "why": "It is third person singular. Add -s: snow becomes snows.",
   "slots": {
    "place": [
-    "the clinic",
-    "the hospital",
-    "the health center"
+    "mountains",
+    "north",
+    "hills",
+    "villages near Chimgan"
+   ],
+   "season": [
+    "winter",
+    "January",
+    "December",
+    "February"
    ]
   }
  },
@@ -743,269 +1186,435 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the sentence in the negative using the present simple.",
-  "source": "She watches the news every evening.",
-  "hint": "She ______ (watch) the news every evening.",
-  "key": "doesn't watch",
-  "why": "Use doesn't plus the root verb for a third-person singular negative.",
-  "acceptable": [
-   "does not watch"
-  ]
+  "instr": "Rewrite the sentence with the new subject. Keep the present simple.",
+  "source": "I walk to {place} with my {person}.",
+  "hint": "Malika ______ (walk) to {place} with her {person}.",
+  "key": "walks",
+  "why": "Malika is one person, so walk becomes walks.",
+  "slots": {
+   "place": [
+    "school",
+    "work",
+    "the market",
+    "the park"
+   ],
+   "person": [
+    "friend",
+    "sister",
+    "brother",
+    "cousin"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.002",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the sentence in the negative using the present simple.",
-  "source": "My brother studies English after dinner.",
-  "hint": "My brother ______ (study) English after dinner.",
-  "key": "doesn't study",
-  "why": "After doesn't, use the root verb study.",
-  "acceptable": [
-   "does not study"
-  ]
+  "instr": "Rewrite the sentence with the new subject. Keep the present simple.",
+  "source": "We eat {food} for {meal}.",
+  "hint": "My father ______ (eat) {food} for {meal}.",
+  "key": "eats",
+  "why": "My father is one person, so eat becomes eats.",
+  "slots": {
+   "food": [
+    "eggs",
+    "bread",
+    "porridge",
+    "fruit"
+   ],
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "supper"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.003",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the sentence in the negative using the present simple.",
-  "source": "The shop closes at eight o'clock.",
-  "hint": "The shop ______ (close) at eight o'clock.",
-  "key": "doesn't close",
-  "why": "Use doesn't plus the root verb close.",
-  "acceptable": [
-   "does not close"
-  ]
+  "instr": "Rewrite the sentence with the new subject. Keep the present simple.",
+  "source": "They watch {sport} on TV on {day}.",
+  "hint": "Rustam ______ (watch) {sport} on TV on {day}.",
+  "key": "watches",
+  "why": "Rustam is one person. Watch ends in -ch, so it becomes watches.",
+  "slots": {
+   "sport": [
+    "football",
+    "boxing",
+    "tennis",
+    "wrestling"
+   ],
+   "day": [
+    "Saturdays",
+    "Sundays",
+    "Fridays",
+    "weekends"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.004",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the sentence in the negative using the present simple.",
-  "source": "Aziz has a bicycle.",
-  "hint": "Aziz ______ (have) a bicycle.",
-  "key": "doesn't have",
-  "why": "After doesn't, irregular has returns to the root verb have.",
-  "acceptable": [
-   "does not have"
-  ]
+  "instr": "Rewrite the sentence with the new subject. Keep the present simple.",
+  "source": "I go to the {place} by {transport}.",
+  "hint": "My sister ______ (go) to the {place} by {transport}.",
+  "key": "goes",
+  "why": "My sister is one person. Go ends in -o, so it becomes goes.",
+  "slots": {
+   "place": [
+    "market",
+    "bank",
+    "library",
+    "gym"
+   ],
+   "transport": [
+    "bus",
+    "taxi",
+    "metro",
+    "bike"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.005",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the sentence in the negative using the present simple.",
-  "source": "The baby cries at night.",
-  "hint": "The baby ______ (cry) at night.",
-  "key": "doesn't cry",
-  "why": "After doesn't, use the root verb cry.",
-  "acceptable": [
-   "does not cry"
-  ]
+  "instr": "Rewrite the sentence with the new subject. Keep the present simple.",
+  "source": "You study {subject} in the {place}.",
+  "hint": "Shahlo ______ (study) {subject} in the {place}.",
+  "key": "studies",
+  "why": "Shahlo is one person. Study ends in a consonant + y, so it becomes studies.",
+  "slots": {
+   "subject": [
+    "English",
+    "biology",
+    "maths",
+    "Korean"
+   ],
+   "place": [
+    "library",
+    "evening",
+    "afternoon",
+    "kitchen"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.006",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a yes/no question in the present simple.",
-  "source": "She works at a bank.",
-  "hint": "______ she ______ (work) at a bank?",
-  "key": [
-   "Does",
-   "work"
-  ],
-  "why": "Use Does plus the subject and the root verb for a third-person singular question."
+  "instr": "Rewrite the sentence about one person or thing. Keep the present simple.",
+  "source": "My friends play {game} after {event}.",
+  "hint": "My friend ______ (play) {game} after {event}.",
+  "key": "plays",
+  "why": "My friend is one person, so play becomes plays.",
+  "slots": {
+   "game": [
+    "chess",
+    "football",
+    "computer games",
+    "basketball"
+   ],
+   "event": [
+    "school",
+    "class",
+    "work",
+    "dinner"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.007",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a yes/no question in the present simple.",
-  "source": "The teacher teaches mathematics.",
-  "hint": "______ the teacher ______ (teach) mathematics?",
-  "key": [
-   "Does",
-   "teach"
-  ],
-  "why": "After Does, use the root verb teach."
+  "instr": "Rewrite the sentence about one person or thing. Keep the present simple.",
+  "source": "The shops open at {time} on {day}.",
+  "hint": "The shop ______ (open) at {time} on {day}.",
+  "key": "opens",
+  "why": "The shop is one thing, so open becomes opens.",
+  "slots": {
+   "time": [
+    "nine",
+    "ten",
+    "8 a.m.",
+    "10 a.m."
+   ],
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "holidays",
+    "weekdays"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.008",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a yes/no question in the present simple.",
-  "source": "My mother drives to work.",
-  "hint": "______ your mother ______ (drive) to work?",
-  "key": [
-   "Does",
-   "drive"
-  ],
-  "why": "Use Does plus the root verb drive in a present simple question."
+  "instr": "Rewrite the sentence about one person or thing. Keep the present simple.",
+  "source": "Our teachers give us {task} every {period}.",
+  "hint": "Our teacher ______ (give) us {task} every {period}.",
+  "key": "gives",
+  "why": "Our teacher is one person, so give becomes gives.",
+  "slots": {
+   "task": [
+    "homework",
+    "a test",
+    "new words",
+    "a short text"
+   ],
+   "period": [
+    "week",
+    "day",
+    "lesson",
+    "Friday"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.009",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a yes/no question in the present simple.",
-  "source": "The child plays outside after school.",
-  "hint": "______ the child ______ (play) outside after school?",
-  "key": [
-   "Does",
-   "play"
-  ],
-  "why": "After Does, use the root verb play."
+  "instr": "Rewrite the sentence about one person or thing. Keep the present simple.",
+  "source": "The buses stop near the {place} every {interval}.",
+  "hint": "The bus ______ (stop) near the {place} every {interval}.",
+  "key": "stops",
+  "why": "The bus is one thing, so stop becomes stops.",
+  "slots": {
+   "place": [
+    "school",
+    "park",
+    "hospital",
+    "bazaar"
+   ],
+   "interval": [
+    "ten minutes",
+    "half hour",
+    "twenty minutes",
+    "fifteen minutes"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.010",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a yes/no question in the present simple.",
-  "source": "Laylo goes to university by bus.",
-  "hint": "______ Laylo ______ (go) to university by bus?",
-  "key": [
-   "Does",
-   "go"
-  ],
-  "why": "Use Does plus the root verb go in the question."
+  "instr": "Rewrite the sentence about one person or thing. Keep the present simple.",
+  "source": "My brothers fix {things} in the {place}.",
+  "hint": "My brother ______ (fix) {things} in the {place}.",
+  "key": "fixes",
+  "why": "My brother is one person. Fix ends in -x, so it becomes fixes.",
+  "slots": {
+   "things": [
+    "bikes",
+    "cars",
+    "phones",
+    "computers"
+   ],
+   "place": [
+    "garage",
+    "yard",
+    "shop",
+    "workshop"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.011",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a wh-question asking where in the present simple.",
-  "source": "Kamola works at a hospital.",
-  "hint": "Where ______ Kamola ______ (work)?",
-  "key": [
-   "does",
-   "work"
-  ],
-  "why": "A wh-question uses does plus the subject and root verb."
+  "instr": "Rewrite the sentence as a positive statement.",
+  "source": "Aziza doesn't drink {drink} in the {time}.",
+  "hint": "Aziza ______ (drink) {drink} in the {time}.",
+  "key": "drinks",
+  "why": "In a positive sentence there is no does, so the -s goes on the verb: drinks.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "green tea",
+    "milk",
+    "juice"
+   ],
+   "time": [
+    "morning",
+    "evening",
+    "afternoon",
+    "winter"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.012",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a wh-question asking what in the present simple.",
-  "source": "My brother watches the news after dinner.",
-  "hint": "What ______ your brother ______ (watch) after dinner?",
-  "key": [
-   "does",
-   "watch"
-  ],
-  "why": "Use does plus the root verb watch in the wh-question."
+  "instr": "Rewrite the sentence as a positive statement.",
+  "source": "My uncle doesn't have a {vehicle} or a {thing}.",
+  "hint": "My uncle ______ (have) a {vehicle} and a {thing}.",
+  "key": "has",
+  "why": "Without doesn't, have changes to has with he, she or it.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "bike",
+    "motorbike",
+    "scooter"
+   ],
+   "thing": [
+    "garden",
+    "dog",
+    "big house",
+    "flat"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.013",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a wh-question asking when in the present simple.",
-  "source": "The shop opens at nine o'clock.",
-  "hint": "When ______ the shop ______ (open)?",
-  "key": [
-   "does",
-   "open"
-  ],
-  "why": "Use does plus the root verb open after the question word."
+  "instr": "Rewrite the sentence as a positive statement.",
+  "source": "Nilufar doesn't teach {subject} at the {place}.",
+  "hint": "Nilufar ______ (teach) {subject} at the {place}.",
+  "key": "teaches",
+  "why": "Without doesn't, the verb takes the ending: teach becomes teaches.",
+  "slots": {
+   "subject": [
+    "English",
+    "music",
+    "art",
+    "maths"
+   ],
+   "place": [
+    "lyceum",
+    "college",
+    "school",
+    "university"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.014",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a wh-question asking why in the present simple.",
-  "source": "The baby cries because he is tired.",
-  "hint": "Why ______ the baby ______ (cry)?",
-  "key": [
-   "does",
-   "cry"
-  ],
-  "why": "The wh-question uses does plus the root verb cry."
+  "instr": "Rewrite the sentence as a positive statement.",
+  "source": "This bus doesn't go to the {place} after {time}.",
+  "hint": "This bus ______ (go) to the {place} after {time}.",
+  "key": "goes",
+  "why": "Without doesn't, the verb takes the ending: go becomes goes.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bazaar",
+    "stadium"
+   ],
+   "time": [
+    "ten",
+    "nine",
+    "midnight",
+    "eight"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.transform.015",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite the statement as a wh-question asking how in the present simple.",
-  "source": "My aunt goes to work by train.",
-  "hint": "How ______ your aunt ______ (go) to work?",
-  "key": [
-   "does",
-   "go"
-  ],
-  "why": "Use does plus the root verb go after the question word."
+  "instr": "Rewrite the sentence as a positive statement.",
+  "source": "Javlon doesn't try {food} at {place}.",
+  "hint": "Javlon ______ (try) {food} at {place}.",
+  "key": "tries",
+  "why": "Without doesn't, the verb takes the ending: try becomes tries.",
+  "slots": {
+   "food": [
+    "new dishes",
+    "spicy food",
+    "the soup",
+    "the salads"
+   ],
+   "place": [
+    "restaurants",
+    "parties",
+    "weddings",
+    "cafés"
+   ]
+  }
  },
  {
   "id": "gpr.tenses.present.third-person-s.create.001",
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence about a family member's daily routine, using the present simple.",
-  "requiredElement": "a third-person singular subject with a correctly formed -s verb",
+  "prompt": "Write one sentence about what your mother or father does every morning.",
+  "requiredElement": "a verb with -s or -es after he or she",
   "constraints": [
    "exactly one sentence",
-   "must be about another person, not yourself"
+   "must include every morning",
+   "must be about one parent"
   ]
  },
  {
@@ -1013,15 +1622,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence about a friend using a verb ending in consonant plus y.",
-  "requiredElement": "a third-person singular subject with a correctly formed -ies verb",
+  "prompt": "Write one sentence about where your best friend lives.",
+  "requiredElement": "lives",
   "constraints": [
    "exactly one sentence",
-   "must use a present simple verb ending in -ies",
-   "must be about another person"
+   "must name your friend",
+   "must use the verb live"
   ]
  },
  {
@@ -1029,14 +1638,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence describing a person's job or daily work.",
-  "requiredElement": "a third-person singular subject with a correctly formed present simple verb",
+  "prompt": "Write one sentence about what time a shop, bus or lesson starts.",
+  "requiredElement": "starts or opens",
   "constraints": [
    "exactly one sentence",
-   "must include a job or workplace"
+   "must include a time",
+   "must be about a thing, not a person"
   ]
  },
  {
@@ -1044,15 +1654,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence about what a person watches, reads, or listens to regularly.",
-  "requiredElement": "a third-person singular subject with a correctly formed present simple verb",
+  "prompt": "Write one sentence about a hobby of someone in your family.",
+  "requiredElement": "a verb with -s or -es",
   "constraints": [
    "exactly one sentence",
-   "must describe a regular habit",
-   "must be about another person"
+   "must name a family member",
+   "must use the present simple"
   ]
  },
  {
@@ -1060,14 +1670,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence about an animal's regular behavior.",
-  "requiredElement": "a singular animal subject with a correctly formed present simple verb",
+  "prompt": "Write one sentence about what your teacher has in class.",
+  "requiredElement": "has",
   "constraints": [
    "exactly one sentence",
-   "must describe something the animal regularly does"
+   "must use the verb have",
+   "must be about your teacher"
   ]
  },
  {
@@ -1075,15 +1686,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence about a person using the present simple form of have.",
-  "requiredElement": "a third-person singular subject with has",
+  "prompt": "Write one sentence about what a friend studies.",
+  "requiredElement": "studies",
   "constraints": [
    "exactly one sentence",
-   "must use has",
-   "must be about another person"
+   "must use the verb study",
+   "must be about one friend"
   ]
  },
  {
@@ -1091,15 +1702,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence about a person going somewhere regularly.",
-  "requiredElement": "a third-person singular subject with goes",
+  "prompt": "Write one sentence about what your pet or a neighbour's pet does every day.",
+  "requiredElement": "a verb with -s or -es after it or a singular noun",
   "constraints": [
    "exactly one sentence",
-   "must use goes",
-   "must include a destination"
+   "must include every day",
+   "must be about one animal"
   ]
  },
  {
@@ -1107,15 +1718,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence about another person's daily routine using a verb that takes -es.",
-  "requiredElement": "a third-person singular subject with a correctly formed -es verb",
+  "prompt": "Write two sentences: one about what you do on Sundays, and one about what your brother, sister or friend does.",
+  "requiredElement": "the base form with I and the -s form with he or she",
   "constraints": [
-   "exactly one sentence",
-   "must be about another person",
-   "must use a present simple verb ending in -es"
+   "exactly two sentences",
+   "first sentence with I",
+   "second sentence with he, she or a name"
   ]
  },
  {
@@ -1123,15 +1734,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "express",
   "format": "free_response",
-  "prompt": "Describe what a person in your family does every day. Write three or four sentences.",
-  "targetGrammar": "present simple with third-person singular -s",
+  "prompt": "Describe a normal day for one person in your family. Write three or four sentences.",
+  "targetGrammar": "present simple with the third-person -s",
   "lookFor": [
-   "third-person singular subjects",
-   "correct -s endings",
-   "no bare base forms after he/she/it"
+   "-s or -es on every verb after he or she",
+   "has, does and goes spelled correctly",
+   "time words like every day or in the morning"
   ]
  },
  {
@@ -1139,15 +1750,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "express",
   "format": "free_response",
-  "prompt": "Describe a friend's typical weekday. Write three or four sentences.",
-  "targetGrammar": "present simple with third-person singular -s",
+  "prompt": "Tell a new classmate about your best friend: where they live, what they like and what they do after school. Write three or four sentences.",
+  "targetGrammar": "present simple with the third-person -s",
   "lookFor": [
-   "a consistent third-person singular subject",
-   "correct present simple verb endings",
-   "correct use of -s, -es, or -ies where needed"
+   "lives, likes and other -s forms",
+   "no is before the verb",
+   "he or she used correctly"
   ]
  },
  {
@@ -1155,16 +1766,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "express",
   "format": "free_response",
-  "prompt": "Describe the daily routine of someone you know. Write four sentences.",
-  "targetGrammar": "present simple with third-person singular -s",
+  "prompt": "Describe your town: when the shops open, where the buses go and what the market sells. Write three or four sentences.",
+  "targetGrammar": "present simple -s with singular things",
   "lookFor": [
-   "third-person singular subjects",
-   "regular actions or routines",
-   "correct verb forms",
-   "no bare base forms after a third-person singular subject"
+   "-s on verbs after a singular noun",
+   "opens, goes, sells",
+   "times and places"
   ]
  },
  {
@@ -1172,16 +1782,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "express",
   "format": "free_response",
-  "prompt": "Describe what one person does before, during, and after work or school. Write three or four sentences.",
-  "targetGrammar": "present simple with third-person singular -s",
+  "prompt": "Describe the job of someone you know. What does he or she do every day? Write three or four sentences.",
+  "targetGrammar": "present simple with the third-person -s",
   "lookFor": [
-   "one clear third-person singular person",
-   "correct present simple forms",
-   "accurate use of -s endings",
-   "logical daily sequence"
+   "works, helps, teaches or similar -s forms",
+   "-es after -ch, -sh, -s, -x and -o",
+   "every day or other routine words"
   ]
  },
  {
@@ -1189,16 +1798,15 @@ export default [
   "domain": "tenses",
   "branch": "present",
   "topic": "third-person-s",
-  "level": "A2",
+  "level": "A1",
   "stage": "express",
   "format": "free_response",
-  "prompt": "Choose a person you know and describe three things they regularly do. Write three or four sentences.",
-  "targetGrammar": "present simple with third-person singular -s",
+  "prompt": "Compare your routine with a friend's routine. Write three or four sentences.",
+  "targetGrammar": "base form with I and -s form with he or she",
   "lookFor": [
-   "third-person singular reference",
-   "at least three regular actions",
-   "correct present simple verb endings",
-   "no missing third-person singular endings"
+   "I + base form",
+   "he or she + -s form",
+   "but or and to join the ideas"
   ]
  }
 ];
