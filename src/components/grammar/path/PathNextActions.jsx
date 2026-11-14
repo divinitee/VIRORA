@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { ArrowRight, Sparkles, Compass, Check, Target } from "lucide-react";
 import { pathCopy, stopLabel } from "@/lib/learnerPath";
 
@@ -13,10 +13,16 @@ import { pathCopy, stopLabel } from "@/lib/learnerPath";
 //   passed     this round finished the stop (8+ answers, 80%+)
 //   nextStop   the stop Continue would open now (null = path finished)
 //   onNext / onCoach / onFree  navigation, owned by the page
+//   onPassed   called once when a passing result is shown (the page remembers
+//              the stop as passed without waiting for the server)
 const ACCENT = "#3E9E92";
 
-export default function PathNextActions({ lang, passed, nextStop, onNext, onCoach, onFree }) {
+export default function PathNextActions({ lang, passed, nextStop, onNext, onCoach, onFree, onPassed }) {
   const c = pathCopy(lang);
+  const told = useRef(false);
+  useEffect(() => {
+    if (passed && !told.current) { told.current = true; onPassed?.(); }
+  }, [passed, onPassed]);
   return (
     <div className="mt-5 pt-4 border-t border-white/10" data-testid="path-next-actions">
       <p className="flex items-center gap-1.5 text-xs font-semibold" style={{ color: passed ? ACCENT : "#D9B45B" }}>
