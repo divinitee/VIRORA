@@ -41,7 +41,7 @@ async function playRound(id, right) {
   w.__mountPage('r1', '/grammar?topic=tenses.present.simple-routine&stage=choose');
   ok(await waitFor(() => root('r1').textContent.includes('Question 1')), 'Continue link opens the round straight away', 'r1');
   ok(w.__loc.r1 === '/grammar', 'no placement-test wall, link params cleared (' + w.__loc.r1 + ')');
-  ok(w.__round.items.every((it) => it.id.startsWith('tenses.present.simple-routine.choose.')), 'round is the asked topic + stage');
+  ok(w.__round.items.every((it) => it.id.includes('.tenses.present.simple-routine.choose.')), 'round is the asked topic + stage');
   const size = await playRound('r1', true);
   ok(await waitFor(() => root('r1').querySelector('[data-testid="path-next-actions"]')), 'result screen shows the path actions', 'r1');
   ok(size >= 8, 'round is long enough to pass (' + size + ')');
@@ -56,7 +56,7 @@ async function playRound(id, right) {
   const before = w.__round;
   click(nextBtn);
   ok(await waitFor(() => w.__round !== before && root('r1').textContent.includes('Question 1')), 'Next step starts the next stop', 'r1');
-  ok(w.__round.items.every((it) => it.id.startsWith('tenses.present.third-person-s.choose.')), 'next round uses the NEXT topic bank, not the old one (' + w.__round.items[0].id + ')');
+  ok(w.__round.items.every((it) => it.id.includes('.tenses.present.third-person-s.choose.')), 'next round uses the NEXT topic bank, not the old one (' + w.__round.items[0].id + ')');
   await playRound('r1', false);
   ok(await waitFor(() => root('r1').querySelector('[data-testid="path-next-actions"]')), 'second result screen', 'r1');
   ok(!root('r1').querySelector('[data-testid="path-next"]'), 'all wrong -> not passed -> no Next step', 'r1');
