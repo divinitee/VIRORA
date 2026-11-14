@@ -240,6 +240,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.obligation.must": {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "must",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 296,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.obligation.mustnt-vs-dont-have-to": {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "mustnt-vs-dont-have-to",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 308,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.semi-modals.have-to": {
   "domain": "modals",
   "branch": "semi-modals",
@@ -884,6 +912,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.existential.there-question": {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.existential.there-was-were": {
   "domain": "sentence-structure",
   "branch": "existential",
@@ -921,6 +963,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 316,
    "build": 272,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.imperatives.negative-imperative": {
+  "domain": "sentence-structure",
+  "branch": "imperatives",
+  "topic": "negative-imperative",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -1355,6 +1411,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "verb-patterns.object-infinitive.let-bare": {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "let-bare",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 272,
+   "build": 308,
    "transform": 216,
    "create": 8,
    "express": 5
