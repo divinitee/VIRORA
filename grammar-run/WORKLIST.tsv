@@ -95,7 +95,7 @@
 94	B	adj-adv.frequency.always	A1	1	live	always for a fixed routine
 95	B	adj-adv.frequency.never	A1	2	live	never for zero frequency | never with a positive verb (no double negative)
 96	B	adj-adv.frequency.rarely	A1	1	live	rarely ≈ once a week
-97	B	adj-adv.adjective-form.adjective-before-noun	A1	1	todo	Adjective + noun order (adjective does not take plural -s)
+97	B	adj-adv.adjective-form.adjective-before-noun	A1	1	live	Adjective + noun order (adjective does not take plural -s)
 98	B	adj-adv.adjective-form.adjective-after-be	A2	1	todo	Adjective (not adverb) after be/feel/look
 99	B	adj-adv.adverb-form.irregular-adverb	A2	2	todo	well is the adverb of good | hard is both adjective and adverb; 'hardly' means 'almost not'
 100	B	adj-adv.adverb-form.ly-adverb	A2	2	todo	-ly adverb modifies a verb | Forming -ly adverb from an adjective ending in -y
@@ -120,11 +120,11 @@
 119	B	prep-phrasal.place.between	A1	1	todo	between two named places
 120	B	prep-phrasal.place.in-container	A1	1	todo	in for a container
 121	B	prep-phrasal.place.on-surface	A1	2	todo	on for a surface | on the wall (vertical surface)
-122	B	prep-phrasal.time.at-clock	A1	1	todo	at with clock times
-123	B	prep-phrasal.time.at-night	A1	1	todo	at night (fixed expression vs in the morning)
-124	B	prep-phrasal.time.in-months	A1	1	todo	in with months
+122	B	prep-phrasal.time.at-clock	A1	1	live	at with clock times
+123	B	prep-phrasal.time.at-night	A1	1	live	at night (fixed expression vs in the morning)
+124	B	prep-phrasal.time.in-months	A1	1	live	in with months
 125	B	prep-phrasal.time.in-on-at-contrast	A1	1	todo	in / on / at contrast across three time expressions
-126	B	prep-phrasal.time.on-days	A1	1	todo	on with days
+126	B	prep-phrasal.time.on-days	A1	1	live	on with days
 127	B	prep-phrasal.place.in-area	A2	1	todo	in for an enclosed area (garden)
 128	B	prep-phrasal.time.since-for	A2	1	todo	since with a start point
 129	B	prep-phrasal.movement.arrive-at-in	A2	1	todo	arrive at (a point) — never 'arrive to'

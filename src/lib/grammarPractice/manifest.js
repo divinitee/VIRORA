@@ -2,6 +2,20 @@
 // Pool sizes per topic and stage, counting slot expansion. Lets the node map
 // render real numbers without loading a single bank.
 export const PRACTICE_MANIFEST = {
+ "adj-adv.adjective-form.adjective-before-noun": {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 204,
+   "create": 8,
+   "express": 5
+  }
+ },
  "adj-adv.frequency.adverb-position": {
   "domain": "adj-adv",
   "branch": "frequency",
@@ -459,6 +473,62 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 284,
    "build": 212,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "prep-phrasal.time.at-clock": {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "prep-phrasal.time.at-night": {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-night",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "prep-phrasal.time.in-months": {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "in-months",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "prep-phrasal.time.on-days": {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "on-days",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 284,
    "transform": 240,
    "create": 8,
    "express": 5

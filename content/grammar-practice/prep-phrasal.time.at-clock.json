@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} gets up ______ 6:30 and has {food} for breakfast.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "6:30 is a clock time, so use at: at 6:30. In and on are not used before a clock time.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Timur",
+    "Madina"
+   ],
+   "food": [
+    "bread and tea",
+    "eggs",
+    "porridge",
+    "bread and honey"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {subject} lesson starts ______ nine o'clock, {name}.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "nine o'clock is a clock time, so use at: at nine o'clock. In and on are not used before a clock time.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "history",
+    "music"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {bus} to {city} leaves ______ half past seven.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "half past seven is a clock time, so use at: at half past seven. In and on are not used before a clock time.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "minibus",
+    "plane"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Namangan",
+    "Nukus"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} comes home ______ 6 p.m., and then we have {meal}.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "6 p.m. is a clock time, so use at: at 6 p.m.. In and on are not used before a clock time.",
+  "slots": {
+   "who": [
+    "dad",
+    "mum",
+    "uncle",
+    "older brother"
+   ],
+   "meal": [
+    "dinner",
+    "plov",
+    "tea",
+    "soup"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can we meet ______ four o'clock near the {place}, {name}?",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "four o'clock is a clock time, so use at: at four o'clock. In and on are not used before a clock time.",
+  "slots": {
+   "place": [
+    "park",
+    "school gate",
+    "bus stop",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}, the {shop} near our home opens ______ 8 a.m.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "8 a.m. is a clock time, so use at: at 8 a.m.. In and on are not used before a clock time.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ],
+   "shop": [
+    "bakery",
+    "market",
+    "small shop",
+    "pharmacy"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I do my {task} ______ five o'clock, {name}.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "five o'clock is a clock time, so use at: at five o'clock. In and on are not used before a clock time.",
+  "slots": {
+   "task": [
+    "homework",
+    "English homework",
+    "reading",
+    "maths"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {show} starts ______ a quarter past eight. Don't be late, {name}!",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "a quarter past eight is a clock time, so use at: at a quarter past eight. In and on are not used before a clock time.",
+  "slots": {
+   "show": [
+    "film",
+    "football match",
+    "concert",
+    "school play"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandma drinks a cup of {drink} ______ ten o'clock, {name}.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "ten o'clock is a clock time, so use at: at ten o'clock. In and on are not used before a clock time.",
+  "slots": {
+   "drink": [
+    "tea",
+    "green tea",
+    "milk",
+    "hot milk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}'s football practice finishes ______ 7:15. {who} picks him up.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "7:15 is a clock time, so use at: at 7:15. In and on are not used before a clock time.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Sardor"
+   ],
+   "who": [
+    "His dad",
+    "His mum",
+    "His uncle",
+    "His brother"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{who} have lunch ______ one o'clock in the school {place}.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "one o'clock is a clock time, so use at: at one o'clock. In and on are not used before a clock time.",
+  "slots": {
+   "who": [
+    "We",
+    "The students",
+    "The teachers",
+    "My classmates"
+   ],
+   "place": [
+    "canteen",
+    "dining room",
+    "hall",
+    "cafe"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {test} begins ______ ten past nine. Please bring a {thing}.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "ten past nine is a clock time, so use at: at ten past nine. In and on are not used before a clock time.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "maths test"
+   ],
+   "thing": [
+    "pen",
+    "pencil",
+    "ruler",
+    "calculator"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} rings ______ six o'clock. I hate it, {name}!",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "six o'clock is a clock time, so use at: at six o'clock. In and on are not used before a clock time.",
+  "slots": {
+   "thing": [
+    "alarm",
+    "phone",
+    "alarm clock",
+    "old clock"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The doctor can see you ______ 11:30, {name}. Please bring your {doc}.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "11:30 is a clock time, so use at: at 11:30. In and on are not used before a clock time.",
+  "slots": {
+   "name": [
+    "Mr Karimov",
+    "Mrs Rahimova",
+    "Olga",
+    "Aziz"
+   ],
+   "doc": [
+    "passport",
+    "card",
+    "papers",
+    "ID card"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} calls her grandparents in {city} ______ eight o'clock.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "eight o'clock is a clock time, so use at: at eight o'clock. In and on are not used before a clock time.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Madina",
+    "Olga",
+    "Kamila"
+   ],
+   "city": [
+    "Khiva",
+    "Termez",
+    "Kazan",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {place} closes ______ 9 p.m. Hurry up, {name}!",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "9 p.m. is a clock time, so use at: at 9 p.m.. In and on are not used before a clock time.",
+  "slots": {
+   "place": [
+    "swimming pool",
+    "library",
+    "museum",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our guests arrive ______ half past five. Can you make {food}, {name}?",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "half past five is a clock time, so use at: at half past five. In and on are not used before a clock time.",
+  "slots": {
+   "food": [
+    "some tea",
+    "a salad",
+    "plov",
+    "some soup"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Grandma"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} wants to watch the big match ______ midnight with {who}.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "midnight is a clock time, so use at: at midnight. In and on are not used before a clock time.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Sardor"
+   ],
+   "who": [
+    "his dad",
+    "his friends",
+    "his brother",
+    "his uncle"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}, the {place} is very busy ______ noon.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "noon is a clock time, so use at: at noon. In and on are not used before a clock time.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "place": [
+    "market",
+    "bazaar",
+    "canteen",
+    "bus station"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What time is your {thing}, {name}? It is ______ 4:45.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "since"
+  ],
+  "key": 0,
+  "why": "4:45 is a clock time, so use at: at 4:45. In and on are not used before a clock time.",
+  "slots": {
+   "thing": [
+    "lesson",
+    "train",
+    "appointment",
+    "music class"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "{name} wakes up ______ 7:15 and has a glass of {drink}.",
+  "key": "at",
+  "why": "7:15 is a clock time, so use at.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Timur",
+    "Madina"
+   ],
+   "drink": [
+    "water",
+    "milk",
+    "juice",
+    "warm water"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "My {subject} class finishes ______ twelve o'clock, {name}.",
+  "key": "at",
+  "why": "twelve o'clock is a clock time, so use at.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "art",
+    "music"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "The bus to {place} comes ______ ten past eight. Don't be late, {name}.",
+  "key": "at",
+  "why": "ten past eight is a clock time, so use at.",
+  "slots": {
+   "place": [
+    "the city centre",
+    "the airport",
+    "the village",
+    "our school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "Our family has dinner ______ seven o'clock in the {room}, {name}.",
+  "key": "at",
+  "why": "seven o'clock is a clock time, so use at.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "yard",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mum",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "The {shop} on {street} closes ______ 10 p.m.",
+  "key": "at",
+  "why": "10 p.m. is a clock time, so use at.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "fruit shop",
+    "cafe"
+   ],
+   "street": [
+    "our street",
+    "Navoi Street",
+    "the corner",
+    "the main road"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "Let's meet ______ half past three in front of the {place}, {name}.",
+  "key": "at",
+  "why": "half past three is a clock time, so use at.",
+  "slots": {
+   "place": [
+    "school",
+    "library",
+    "park",
+    "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "{name} goes to bed ______ ten o'clock. She reads a {book} first.",
+  "key": "at",
+  "why": "ten o'clock is a clock time, so use at.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Madina",
+    "Olga",
+    "Kamila"
+   ],
+   "book": [
+    "book",
+    "story",
+    "comic",
+    "magazine"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "The {train} for {city} leaves ______ 6:40.",
+  "key": "at",
+  "why": "6:40 is a clock time, so use at.",
+  "slots": {
+   "train": [
+    "train",
+    "bus",
+    "minibus",
+    "fast train"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Andijan",
+    "Karshi"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "I phone my {who} ______ five o'clock, {name}.",
+  "key": "at",
+  "why": "five o'clock is a clock time, so use at.",
+  "slots": {
+   "who": [
+    "grandma",
+    "aunt",
+    "mother",
+    "sister"
+   ],
+   "name": [
+    "Dad",
+    "Aziz",
+    "Olga",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "The {place} opens ______ 9 a.m. Tickets are {price}.",
+  "key": "at",
+  "why": "9 a.m. is a clock time, so use at.",
+  "slots": {
+   "place": [
+    "museum",
+    "zoo",
+    "swimming pool",
+    "art gallery"
+   ],
+   "price": [
+    "cheap",
+    "not expensive",
+    "free for children",
+    "half price for students"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "Your {thing} is ______ 2:30, {name}.",
+  "key": "at",
+  "why": "2:30 is a clock time, so use at.",
+  "slots": {
+   "thing": [
+    "lesson",
+    "interview",
+    "piano lesson",
+    "dentist appointment"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "The {event} starts ______ eight o'clock. Bring your {who}.",
+  "key": "at",
+  "why": "eight o'clock is a clock time, so use at.",
+  "slots": {
+   "event": [
+    "concert",
+    "school show",
+    "meeting",
+    "party"
+   ],
+   "who": [
+    "parents",
+    "friends",
+    "brother",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "{who} leave the house ______ 7:20 to catch the {bus}.",
+  "key": "at",
+  "why": "7:20 is a clock time, so use at.",
+  "slots": {
+   "who": [
+    "We",
+    "My sister and I",
+    "The children",
+    "Aziz and I"
+   ],
+   "bus": [
+    "school bus",
+    "metro",
+    "number 3 bus",
+    "train"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "{who} takes the bread out of the {oven} ______ four o'clock.",
+  "key": "at",
+  "why": "four o'clock is a clock time, so use at.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Grandma",
+    "My aunt",
+    "Our neighbour"
+   ],
+   "oven": [
+    "oven",
+    "tandoor",
+    "big oven",
+    "clay oven"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "{name}'s English lesson begins ______ 6 p.m. She uses her {device}.",
+  "key": "at",
+  "why": "6 p.m. is a clock time, so use at.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Madina",
+    "Olga",
+    "Kamila"
+   ],
+   "device": [
+    "phone",
+    "laptop",
+    "computer",
+    "tablet"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "The football {thing} is ______ three o'clock. Come and watch, {name}!",
+  "key": "at",
+  "why": "three o'clock is a clock time, so use at.",
+  "slots": {
+   "thing": [
+    "match",
+    "game",
+    "final",
+    "practice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mum",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "{who} feeds the {animal} ______ six o'clock.",
+  "key": "at",
+  "why": "six o'clock is a clock time, so use at.",
+  "slots": {
+   "who": [
+    "Grandpa",
+    "My uncle",
+    "Grandma",
+    "Our neighbour"
+   ],
+   "animal": [
+    "chickens",
+    "sheep",
+    "cows",
+    "goats"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "The {who} will call you ______ 11 a.m., {name}.",
+  "key": "at",
+  "why": "11 a.m. is a clock time, so use at.",
+  "slots": {
+   "who": [
+    "doctor",
+    "teacher",
+    "manager",
+    "nurse"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mr Karimov",
+    "Mrs Rahimova"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "Our {lesson} ends ______ a quarter to two. Then we go to {place}.",
+  "key": "at",
+  "why": "a quarter to two is a clock time, so use at.",
+  "slots": {
+   "lesson": [
+    "last lesson",
+    "maths lesson",
+    "class",
+    "English class"
+   ],
+   "place": [
+    "the canteen",
+    "the park",
+    "our club",
+    "the library"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or on.",
+  "source": "The {show} on TV is ______ 9:30. {name} wants to watch it.",
+  "key": "at",
+  "why": "9:30 is a clock time, so use at.",
+  "slots": {
+   "show": [
+    "football match",
+    "film",
+    "cartoon",
+    "music show"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Grandpa",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} starts work in 8 o'clock in the {place}.",
+  "hint": "{name} starts work ______ 8 o'clock in the {place}.",
+  "key": "at",
+  "why": "8 o'clock is a clock time, so use at, not in.",
+  "slots": {
+   "name": [
+    "My dad",
+    "Aunt Lola",
+    "Mr Karimov",
+    "My sister"
+   ],
+   "place": [
+    "bank",
+    "shop",
+    "hospital",
+    "office"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {lesson} begins on half past nine, {name}.",
+  "hint": "The {lesson} begins ______ half past nine, {name}.",
+  "key": "at",
+  "why": "Half past nine is a clock time, so use at, not on.",
+  "slots": {
+   "lesson": [
+    "lesson",
+    "English lesson",
+    "maths class",
+    "test"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We have breakfast in seven o'clock in the {room}, {name}.",
+  "hint": "We have breakfast ______ seven o'clock in the {room}, {name}.",
+  "key": "at",
+  "why": "Seven o'clock is a clock time, so use at, not in.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "yard",
+    "living room",
+    "garden"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {shop} opens since 10 a.m., {name}.",
+  "hint": "The {shop} opens ______ 10 a.m., {name}.",
+  "key": "at",
+  "why": "10 a.m. is the time it opens, a clock time, so use at, not since.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "bank",
+    "pharmacy",
+    "post office"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {who} comes home on 5 p.m. and makes {food}.",
+  "hint": "My {who} comes home ______ 5 p.m. and makes {food}.",
+  "key": "at",
+  "why": "5 p.m. is a clock time, so use at, not on.",
+  "slots": {
+   "who": [
+    "mum",
+    "aunt",
+    "sister",
+    "grandmother"
+   ],
+   "food": [
+    "dinner",
+    "tea",
+    "soup",
+    "plov"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. The time is 9 o'clock.",
+  "source": "{name}, what time does the {thing} start?",
+  "hint": "It starts ______ 9 o'clock.",
+  "key": "at",
+  "why": "For a clock time we say at: at 9 o'clock.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mum",
+    "Dad"
+   ],
+   "thing": [
+    "film",
+    "lesson",
+    "concert",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. The time is 6:45.",
+  "source": "What time do you get up, {name}?",
+  "hint": "I get up ______ 6:45 for {thing}.",
+  "key": "at",
+  "why": "6:45 is a clock time, so the answer uses at.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "school",
+    "work",
+    "the bus",
+    "my run"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. The time is half past four.",
+  "source": "What time does the {bus} to {city} leave?",
+  "hint": "It leaves ______ half past four.",
+  "key": "at",
+  "why": "Half past four is a clock time, so the answer uses at.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "minibus",
+    "plane"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. The time is two o'clock.",
+  "source": "What time does {name} finish {thing}?",
+  "hint": "She finishes ______ two o'clock.",
+  "key": "at",
+  "why": "Two o'clock is a clock time, so the answer uses at.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Madina",
+    "Olga",
+    "Kamila"
+   ],
+   "thing": [
+    "school",
+    "work",
+    "her lessons",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. The time is 8 p.m.",
+  "source": "What time do your {who} have {meal}?",
+  "hint": "They have {meal} ______ 8 p.m.",
+  "key": "at",
+  "why": "8 p.m. is a clock time, so the answer uses at.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "cousins",
+    "neighbours"
+   ],
+   "meal": [
+    "dinner",
+    "supper",
+    "tea",
+    "plov"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences.",
+  "source": "The {test} begins in Room {n}. It is ten o'clock.",
+  "hint": "The {test} begins in Room {n} ______ ten o'clock.",
+  "key": "at",
+  "why": "Say the clock time with at: at ten o'clock.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "lesson"
+   ],
+   "n": [
+    "5",
+    "12",
+    "21",
+    "3"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences.",
+  "source": "{name} goes to bed with a {thing}. It is half past ten.",
+  "hint": "{name} goes to bed with a {thing} ______ half past ten.",
+  "key": "at",
+  "why": "Say the clock time with at: at half past ten.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Grandpa",
+    "My brother",
+    "Lola"
+   ],
+   "thing": [
+    "book",
+    "cup of tea",
+    "glass of milk",
+    "story book"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences.",
+  "source": "We leave for the {place}, {name}. It is 7:30.",
+  "hint": "We leave for the {place} ______ 7:30, {name}.",
+  "key": "at",
+  "why": "Say the clock time with at: at 7:30.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "village",
+    "mountains"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences.",
+  "source": "{who} feeds the {animal}. It is six o'clock.",
+  "hint": "{who} feeds the {animal} ______ six o'clock.",
+  "key": "at",
+  "why": "Say the clock time with at: at six o'clock.",
+  "slots": {
+   "who": [
+    "Grandma",
+    "Grandpa",
+    "My uncle",
+    "My cousin"
+   ],
+   "animal": [
+    "chickens",
+    "cat",
+    "sheep",
+    "dog"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences.",
+  "source": "The {who} closes the {thing}. It is a quarter to eight.",
+  "hint": "The {who} closes the {thing} ______ a quarter to eight.",
+  "key": "at",
+  "why": "Say the clock time with at: at a quarter to eight.",
+  "slots": {
+   "who": [
+    "cleaner",
+    "teacher",
+    "caretaker",
+    "school director"
+   ],
+   "thing": [
+    "gate",
+    "door",
+    "main door",
+    "windows"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the time you get up on a school day or a work day.",
+  "requiredElement": "at + clock time",
+  "constraints": [
+   "exactly one sentence",
+   "must use at + a clock time",
+   "about you"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the time your first lesson starts.",
+  "requiredElement": "at + clock time",
+  "constraints": [
+   "exactly one sentence",
+   "must use at",
+   "a clock time like 8:30 or nine o'clock"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the time your family has dinner.",
+  "requiredElement": "at + clock time",
+  "constraints": [
+   "exactly one sentence",
+   "must use at",
+   "about your family"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Invite a friend to meet you. Say the place and the clock time.",
+  "requiredElement": "Let's meet at …",
+  "constraints": [
+   "exactly one sentence",
+   "must use at + a clock time",
+   "a place in your town"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question to a friend about the time of something.",
+  "requiredElement": "What time …?",
+  "constraints": [
+   "exactly one question",
+   "must start with What time",
+   "must end with a question mark"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Answer this question about yourself: What time do you go to bed?",
+  "requiredElement": "I go to bed at …",
+  "constraints": [
+   "exactly one sentence",
+   "must use at",
+   "a clock time"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a shop or market near your home and the time it opens or closes.",
+  "requiredElement": "opens / closes at …",
+  "constraints": [
+   "exactly one sentence",
+   "must use at + a clock time",
+   "opens or closes"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about your day: one thing in the morning and one in the evening, each with a clock time.",
+  "requiredElement": "at + clock time (×2)",
+  "constraints": [
+   "exactly two sentences",
+   "at in both sentences",
+   "two different clock times"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a normal school day or work day for you, from morning to evening. Give the times.",
+  "targetGrammar": "at + clock times",
+  "lookFor": [
+   "I get up at …",
+   "at + four or five clock times",
+   "starts / finishes / goes"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A new student asks about your school timetable. Tell them when lessons start, have breaks and finish.",
+  "targetGrammar": "at + clock times",
+  "lookFor": [
+   "starts at …",
+   "finishes at …",
+   "at + half past / o'clock"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a friend. Plan a trip to the park or the bazaar on Saturday and say what time you will meet.",
+  "targetGrammar": "at + clock time",
+  "lookFor": [
+   "Let's meet at …",
+   "a place",
+   "a clock time"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a friend about your family's evening: when people come home, eat and go to bed.",
+  "targetGrammar": "at + clock times",
+  "lookFor": [
+   "comes home at …",
+   "have dinner at …",
+   "goes to bed at …"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "at-clock",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about your weekend day. What time do you get up, eat and go out?",
+  "targetGrammar": "at + clock times",
+  "lookFor": [
+   "at + clock times",
+   "three or four sentences",
+   "about you"
+  ]
+ }
+]

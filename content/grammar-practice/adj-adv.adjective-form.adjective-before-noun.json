@@ -1,0 +1,1792 @@
+[
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} live in a ______ near the {place}.",
+  "options": [
+   "big house",
+   "house big",
+   "bigs house",
+   "big houses"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: big house. \"A\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "who": [
+    "grandparents",
+    "cousins",
+    "aunt and uncle",
+    "neighbours"
+   ],
+   "place": [
+    "river",
+    "park",
+    "school",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our neighbour {name} has two ______ in his {place}.",
+  "options": [
+   "old cars",
+   "cars old",
+   "olds cars",
+   "old car"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: old cars. \"Two\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "name": [
+    "Bobur",
+    "Mr Karimov",
+    "Rustam",
+    "Timur"
+   ],
+   "place": [
+    "garage",
+    "yard",
+    "garden",
+    "big garage"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} wants an ______ for her {event}.",
+  "options": [
+   "expensive phone",
+   "phone expensive",
+   "expensives phone",
+   "expensive phones"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: expensive phone. \"An\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Madina",
+    "Olga",
+    "Kamila"
+   ],
+   "event": [
+    "birthday",
+    "sixteenth birthday",
+    "graduation",
+    "new job"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are many ______ in the {place} near {where}.",
+  "options": [
+   "tall trees",
+   "trees tall",
+   "talls trees",
+   "tall tree"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: tall trees. \"Many\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "yard",
+    "village"
+   ],
+   "where": [
+    "our school",
+    "my home",
+    "the river",
+    "Grandma's house"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have a ______ for {subject} this {when}.",
+  "options": [
+   "young teacher",
+   "teacher young",
+   "youngs teacher",
+   "young teachers"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: young teacher. \"A\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "music",
+    "art"
+   ],
+   "when": [
+    "year",
+    "term",
+    "semester",
+    "autumn"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "These ______ are from the {place}, {name}.",
+  "options": [
+   "cheap shoes",
+   "shoes cheap",
+   "cheaps shoes",
+   "cheap shoe"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: cheap shoes. \"These\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "place": [
+    "market",
+    "bazaar",
+    "small shop",
+    "shop near our school"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Let's watch a ______ on {day}, {name}.",
+  "options": [
+   "funny film",
+   "film funny",
+   "funnys film",
+   "funny films"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: funny film. \"A\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Friday evening"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mum",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} carries two ______ to the {place} every day.",
+  "options": [
+   "heavy bags",
+   "bags heavy",
+   "heavys bags",
+   "heavy bag"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: heavy bags. \"Two\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "mother",
+    "dad"
+   ],
+   "place": [
+    "market",
+    "bus stop",
+    "shop",
+    "station"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I need a ______ for my {task} tonight, {name}.",
+  "options": [
+   "quiet room",
+   "room quiet",
+   "quiets room",
+   "quiet rooms"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: quiet room. \"A\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "task": [
+    "homework",
+    "exam practice",
+    "reading",
+    "online lesson"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {who} has three ______ in the {place}.",
+  "options": [
+   "friendly dogs",
+   "dogs friendly",
+   "friendlys dogs",
+   "friendly dog"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: friendly dogs. \"Three\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "who": [
+    "neighbour",
+    "uncle",
+    "grandfather",
+    "aunt"
+   ],
+   "place": [
+    "yard",
+    "garden",
+    "village",
+    "big yard"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} rides an ______ to school. It was his {who}'s.",
+  "options": [
+   "old bike",
+   "bike old",
+   "olds bike",
+   "old bikes"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: old bike. \"An\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "name": [
+    "Bobur",
+    "Sardor",
+    "Jasur",
+    "Timur"
+   ],
+   "who": [
+    "dad",
+    "grandfather",
+    "uncle",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} makes two ______ for {event}.",
+  "options": [
+   "big cakes",
+   "cakes big",
+   "bigs cakes",
+   "big cake"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: big cakes. \"Two\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "who": [
+    "grandmother",
+    "aunt",
+    "mother",
+    "sister"
+   ],
+   "event": [
+    "Navruz",
+    "my birthday",
+    "our guests",
+    "the New Year"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is a ______ at the {place}. He is asking for {who}.",
+  "options": [
+   "tall man",
+   "man tall",
+   "talls man",
+   "tall men"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: tall man. \"A\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "place": [
+    "door",
+    "gate",
+    "bus stop",
+    "shop"
+   ],
+   "who": [
+    "you",
+    "Dad",
+    "your brother",
+    "the teacher"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {place} has many ______ about {topic}.",
+  "options": [
+   "interesting books",
+   "books interesting",
+   "interestings books",
+   "interesting book"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: interesting books. \"Many\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "place": [
+    "library",
+    "school library",
+    "teacher",
+    "classroom"
+   ],
+   "topic": [
+    "history",
+    "animals",
+    "space",
+    "sport"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {building} is on a ______ in {city}.",
+  "options": [
+   "busy street",
+   "street busy",
+   "busys street",
+   "busy streets"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: busy street. \"A\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "building": [
+    "flat",
+    "school",
+    "college",
+    "shop"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Namangan",
+    "Andijan"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {place} has four ______ and a big {thing}.",
+  "options": [
+   "comfortable chairs",
+   "chairs comfortable",
+   "comfortables chairs",
+   "comfortable chair"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: comfortable chairs. \"Four\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "place": [
+    "living room",
+    "office",
+    "teachers' room",
+    "library"
+   ],
+   "thing": [
+    "table",
+    "window",
+    "desk",
+    "carpet"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} studies at a ______ in {city}.",
+  "options": [
+   "modern school",
+   "school modern",
+   "moderns school",
+   "modern schools"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: modern school. \"A\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "cousin",
+    "friend"
+   ],
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Fergana",
+    "Karshi"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are two ______ on the {place}. Their {who} is asleep.",
+  "options": [
+   "noisy children",
+   "children noisy",
+   "noisys children",
+   "noisy child"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: noisy children. \"Two\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "place": [
+    "bus",
+    "train",
+    "minibus",
+    "plane"
+   ],
+   "who": [
+    "mother",
+    "father",
+    "grandma",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher gives us an ______ in {subject} every {day}.",
+  "options": [
+   "easy test",
+   "test easy",
+   "easys test",
+   "easy tests"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: easy test. \"An\" means one, so the noun is singular, and the adjective never takes -s.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "history",
+    "biology"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "week",
+    "month"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{city} has many ______ for {who} to see.",
+  "options": [
+   "beautiful places",
+   "places beautiful",
+   "beautifuls places",
+   "beautiful place"
+  ],
+  "key": 0,
+  "why": "The adjective goes before the noun: beautiful places. \"Many\" means more than one, so the noun is plural, but the adjective never takes -s.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "who": [
+    "tourists",
+    "visitors",
+    "students",
+    "families"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: bag / red. Add -s to the noun if there is more than one.",
+  "key": "red bag",
+  "source": "{name} has a ______ for {thing}.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Aziz",
+    "Olga",
+    "Timur"
+   ],
+   "thing": [
+    "school",
+    "the gym",
+    "the swimming pool",
+    "the trip"
+   ]
+  },
+  "why": "Adjective first, then the noun: red bag. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: apple / green. Add -s to the noun if there is more than one.",
+  "key": "green apples",
+  "source": "Grandma has two ______ in her {place}, {name}.",
+  "slots": {
+   "place": [
+    "bag",
+    "basket",
+    "kitchen",
+    "hand"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  },
+  "why": "Adjective first, then the noun: green apples. Two means more than one, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: flat / small. Add -s to the noun if there is more than one.",
+  "key": "small flat",
+  "source": "My {who} lives in a ______ in {city}.",
+  "slots": {
+   "who": [
+    "uncle",
+    "aunt",
+    "cousin",
+    "brother"
+   ],
+   "city": [
+    "Tashkent",
+    "Nukus",
+    "Termez",
+    "Kokand"
+   ]
+  },
+  "why": "Adjective first, then the noun: small flat. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: friend / good. Add -s to the noun if there is more than one.",
+  "key": "good friends",
+  "source": "{name} has many ______ at {place}.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Bobur",
+    "Sardor",
+    "Kamila"
+   ],
+   "place": [
+    "school",
+    "college",
+    "the sports club",
+    "work"
+   ]
+  },
+  "why": "Adjective first, then the noun: good friends. Many means more than one, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: coat / warm. Add -s to the noun if there is more than one.",
+  "key": "warm coat",
+  "source": "Take a ______ today, {name}. It is cold {where}.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "where": [
+    "outside",
+    "in the mountains",
+    "in the park",
+    "at the bus stop"
+   ]
+  },
+  "why": "Adjective first, then the noun: warm coat. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: shirt / white. Add -s to the noun if there is more than one.",
+  "key": "white shirts",
+  "source": "{who} needs three ______ for {thing}.",
+  "slots": {
+   "who": [
+    "Dad",
+    "My uncle",
+    "My brother",
+    "Mr Karimov"
+   ],
+   "thing": [
+    "work",
+    "his new job",
+    "the office",
+    "the week"
+   ]
+  },
+  "why": "Adjective first, then the noun: white shirts. Three means more than one, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: question / easy. Add -s to the noun if there is more than one.",
+  "key": "easy question",
+  "source": "The teacher asks {name} an ______ in the {subject} lesson.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "subject": [
+    "English",
+    "maths",
+    "history",
+    "geography"
+   ]
+  },
+  "why": "Adjective first, then the noun: easy question. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: room / big. Add -s to the noun if there is more than one.",
+  "key": "big rooms",
+  "source": "Our {building} has two ______ and a small {room}.",
+  "slots": {
+   "building": [
+    "flat",
+    "house",
+    "new flat",
+    "old house"
+   ],
+   "room": [
+    "kitchen",
+    "bathroom",
+    "hall",
+    "balcony"
+   ]
+  },
+  "why": "Adjective first, then the noun: big rooms. Two means more than one, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: cat / black. Add -s to the noun if there is more than one.",
+  "key": "black cat",
+  "source": "There is a ______ on our {place}, {name}.",
+  "slots": {
+   "place": [
+    "roof",
+    "wall",
+    "car",
+    "balcony"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  },
+  "why": "Adjective first, then the noun: black cat. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: student / clever. Add -s to the noun if there is more than one.",
+  "key": "clever students",
+  "source": "There are many ______ in my {group} at {place}.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "team",
+    "English group"
+   ],
+   "place": [
+    "school",
+    "college",
+    "the club",
+    "the lyceum"
+   ]
+  },
+  "why": "Adjective first, then the noun: clever students. Many means more than one, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: song / beautiful. Add -s to the noun if there is more than one.",
+  "key": "beautiful song",
+  "source": "{name} sings a ______ for {who}.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Madina",
+    "Olga",
+    "Kamila"
+   ],
+   "who": [
+    "her grandmother",
+    "the class",
+    "her friends",
+    "us"
+   ]
+  },
+  "why": "Adjective first, then the noun: beautiful song. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: orange / sweet. Add -s to the noun if there is more than one.",
+  "key": "sweet oranges",
+  "source": "Mum buys five ______ at the {place} on {day}.",
+  "slots": {
+   "place": [
+    "market",
+    "bazaar",
+    "shop",
+    "corner shop"
+   ],
+   "day": [
+    "Saturdays",
+    "Sundays",
+    "Mondays",
+    "Fridays"
+   ]
+  },
+  "why": "Adjective first, then the noun: sweet oranges. Five means more than one, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: phone / cheap. Add -s to the noun if there is more than one.",
+  "key": "cheap phone",
+  "source": "{name} wants a ______ for {reason}.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Sardor"
+   ],
+   "reason": [
+    "school",
+    "his trips",
+    "music",
+    "games"
+   ]
+  },
+  "why": "Adjective first, then the noun: cheap phone. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: hat / funny. Add -s to the noun if there is more than one.",
+  "key": "funny hats",
+  "source": "The {who} wear ______ at the {event}.",
+  "slots": {
+   "who": [
+    "children",
+    "girls",
+    "boys",
+    "students"
+   ],
+   "event": [
+    "party",
+    "school show",
+    "New Year party",
+    "festival"
+   ]
+  },
+  "why": "Adjective first, then the noun: funny hats. Each child wears a hat, so there is more than one hat, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: lesson / interesting. Add -s to the noun if there is more than one.",
+  "key": "interesting lesson",
+  "source": "We have an ______ about {topic} on {day}.",
+  "slots": {
+   "topic": [
+    "space",
+    "animals",
+    "history",
+    "the sea"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Thursday",
+    "Friday"
+   ]
+  },
+  "why": "Adjective first, then the noun: interesting lesson. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: word / long. Add -s to the noun if there is more than one.",
+  "key": "long words",
+  "source": "This {text} has many ______. Can you help me, {name}?",
+  "slots": {
+   "text": [
+    "text",
+    "story",
+    "page",
+    "letter"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  },
+  "why": "Adjective first, then the noun: long words. Many means more than one, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: chair / comfortable. Add -s to the noun if there is more than one.",
+  "key": "comfortable chair",
+  "source": "Grandpa sits in a ______ by the {place} after {meal}.",
+  "slots": {
+   "place": [
+    "window",
+    "door",
+    "stove",
+    "TV"
+   ],
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "work"
+   ]
+  },
+  "why": "Adjective first, then the noun: comfortable chair. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: girl / happy. Add -s to the noun if there is more than one.",
+  "key": "happy girls",
+  "source": "Two ______ are {doing} in the school {place}.",
+  "slots": {
+   "doing": [
+    "singing",
+    "dancing",
+    "playing",
+    "laughing"
+   ],
+   "place": [
+    "yard",
+    "hall",
+    "garden",
+    "gym"
+   ]
+  },
+  "why": "Adjective first, then the noun: happy girls. Two means more than one, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: idea / good. Add -s to the noun if there is more than one.",
+  "key": "good idea",
+  "source": "That is a ______, {name}! Let's go to the {place}.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mum",
+    "Timur"
+   ],
+   "place": [
+    "park",
+    "river",
+    "cinema",
+    "lake"
+   ]
+  },
+  "why": "Adjective first, then the noun: good idea. A or an means one, so the noun has no -s."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the two words in the right order: car / fast. Add -s to the noun if there is more than one.",
+  "key": "fast cars",
+  "source": "My {who} likes ______ and {thing}.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "uncle",
+    "friend Timur"
+   ],
+   "thing": [
+    "big bikes",
+    "loud music",
+    "football",
+    "video games"
+   ]
+  },
+  "why": "Adjective first, then the noun: fast cars. He likes cars in general, not one car, so the noun takes -s, but the adjective never does."
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake: put the adjective in the right place.",
+  "source": "{name} lives in a house big near the {place}.",
+  "hint": "{name} lives in a ______ near the {place}.",
+  "key": "big house",
+  "why": "The adjective goes before the noun: a big house, not a house big.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Bobur",
+    "Madina"
+   ],
+   "place": [
+    "river",
+    "park",
+    "station",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake: put the adjective in the right place.",
+  "source": "We have a teacher nice for {subject}, {name}.",
+  "hint": "We have a ______ for {subject}, {name}.",
+  "key": "nice teacher",
+  "why": "In English the adjective comes first: a nice teacher.",
+  "slots": {
+   "subject": [
+    "English",
+    "maths",
+    "music",
+    "art"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake: put the adjective in the right place.",
+  "source": "Take off your shoes dirty at the {place}, {name}.",
+  "hint": "Take off your ______ at the {place}, {name}.",
+  "key": "dirty shoes",
+  "why": "The adjective goes before the noun: your dirty shoes.",
+  "slots": {
+   "place": [
+    "door",
+    "hall",
+    "front door",
+    "entrance"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake: put the adjective in the right place.",
+  "source": "There is a cat hungry in the {place}. Give it some {food}.",
+  "hint": "There is a ______ in the {place}. Give it some {food}.",
+  "key": "hungry cat",
+  "why": "The adjective goes before the noun: a hungry cat.",
+  "slots": {
+   "place": [
+    "yard",
+    "kitchen",
+    "garden",
+    "street"
+   ],
+   "food": [
+    "milk",
+    "meat",
+    "bread",
+    "fish"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the adjective.",
+  "source": "{name} has two bigs dogs in the {place}.",
+  "hint": "{name} has two ______ in the {place}.",
+  "key": "big dogs",
+  "why": "Adjectives never take -s, even with a plural noun: two big dogs.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Aziz",
+    "Grandpa",
+    "My uncle"
+   ],
+   "place": [
+    "yard",
+    "garden",
+    "village",
+    "big yard"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the adjective.",
+  "source": "My {who} grows beautifuls flowers in front of the {place}.",
+  "hint": "My {who} grows ______ in front of the {place}.",
+  "key": "beautiful flowers",
+  "why": "The adjective stays the same with a plural noun: beautiful flowers.",
+  "slots": {
+   "who": [
+    "grandmother",
+    "mother",
+    "aunt",
+    "neighbour"
+   ],
+   "place": [
+    "house",
+    "window",
+    "gate",
+    "door"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the adjective.",
+  "source": "Grandpa shows us three olds photos of {place} after {meal}.",
+  "hint": "Grandpa shows us three ______ of {place} after {meal}.",
+  "key": "old photos",
+  "why": "Only the noun takes -s: three old photos.",
+  "slots": {
+   "place": [
+    "Samarkand",
+    "his village",
+    "our family",
+    "his school"
+   ],
+   "meal": [
+    "dinner",
+    "lunch",
+    "breakfast",
+    "tea"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake in the adjective.",
+  "source": "There are many youngs players in our {team} this {when}.",
+  "hint": "There are many ______ in our {team} this {when}.",
+  "key": "young players",
+  "why": "The adjective never takes -s: many young players.",
+  "slots": {
+   "team": [
+    "team",
+    "football team",
+    "club",
+    "school team"
+   ],
+   "when": [
+    "year",
+    "season",
+    "summer",
+    "autumn"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Put the adjective before the noun.",
+  "source": "My {who} has a car. The car is old.",
+  "hint": "My {who} has an ______.",
+  "key": "old car",
+  "why": "Put the adjective before the noun, and use an before the sound o: an old car.",
+  "slots": {
+   "who": [
+    "uncle",
+    "grandfather",
+    "neighbour",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Put the adjective before the noun.",
+  "source": "We have a garden behind our {house}. It is small, {name}.",
+  "hint": "We have a ______ behind our {house}, {name}.",
+  "key": "small garden",
+  "why": "Put the adjective before the noun: a small garden.",
+  "slots": {
+   "house": [
+    "house",
+    "school",
+    "home",
+    "building"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Put the adjective before the noun.",
+  "source": "{name} has two friends. They are kind.",
+  "hint": "{name} has two ______.",
+  "key": "kind friends",
+  "why": "Put the adjective before the noun. The noun is plural, but the adjective has no -s: kind friends.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Bobur",
+    "Kamila",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Put the adjective before the noun.",
+  "source": "Mum buys bread at the {place}. The bread is fresh.",
+  "hint": "Mum buys ______ at the {place}.",
+  "key": "fresh bread",
+  "why": "Put the adjective before the noun: fresh bread.",
+  "slots": {
+   "place": [
+    "bakery",
+    "market",
+    "bazaar",
+    "corner shop"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now there is more than one. Rewrite the sentence.",
+  "source": "{name} has a new book about {topic}.",
+  "hint": "{name} has three ______ about {topic}.",
+  "key": "new books",
+  "why": "Three means more than one, so the noun takes -s: new books. The adjective does not change.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "topic": [
+    "animals",
+    "space",
+    "football",
+    "history"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now there is more than one. Rewrite the sentence.",
+  "source": "A tall boy is waiting at the {place} for {who}.",
+  "hint": "Two ______ are waiting at the {place} for {who}.",
+  "key": "tall boys",
+  "why": "Two means more than one: tall boys. The adjective stays the same.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "gate",
+    "door",
+    "corner"
+   ],
+   "who": [
+    "the bus",
+    "their friend",
+    "the teacher",
+    "a taxi"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now there is more than one. Rewrite the sentence.",
+  "source": "Can I have a cheap pen, {name}? I need it for {thing}.",
+  "hint": "Can I have two ______, {name}? I need them for {thing}.",
+  "key": "cheap pens",
+  "why": "Two means more than one: cheap pens. Only the noun takes -s.",
+  "slots": {
+   "name": [
+    "please",
+    "Aziz",
+    "Olga",
+    "Mum"
+   ],
+   "thing": [
+    "school",
+    "my test",
+    "my homework",
+    "the exam"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your home. Use a or an + adjective + noun.",
+  "requiredElement": "a/an + adjective + noun",
+  "constraints": [
+   "exactly one sentence",
+   "the adjective before the noun",
+   "about your home"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two things in your bag. Use two + adjective + noun.",
+  "requiredElement": "two + adjective + plural noun",
+  "constraints": [
+   "exactly one sentence",
+   "the adjective has no -s",
+   "the noun has -s"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Describe your best friend with one sentence. Use an adjective before a noun.",
+  "requiredElement": "adjective + noun",
+  "constraints": [
+   "exactly one sentence",
+   "the adjective before the noun",
+   "about your friend"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your town or village. Use many + adjective + noun.",
+  "requiredElement": "many + adjective + plural noun",
+  "constraints": [
+   "exactly one sentence",
+   "the adjective has no -s",
+   "about your town"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the food your family eats on a holiday. Use an adjective before the food word.",
+  "requiredElement": "adjective + noun",
+  "constraints": [
+   "exactly one sentence",
+   "the adjective before the noun",
+   "a food word"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about an animal you know: a pet, or an animal in your village or town.",
+  "requiredElement": "a/an + adjective + noun",
+  "constraints": [
+   "exactly one sentence",
+   "the adjective before the noun",
+   "an animal word"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the clothes you wear to school or work.",
+  "requiredElement": "adjective + plural noun",
+  "constraints": [
+   "exactly one sentence",
+   "a plural noun with an adjective",
+   "the adjective has no -s"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about your classroom: one about one thing, one about many things.",
+  "requiredElement": "a + adjective + noun / adjective + plural noun",
+  "constraints": [
+   "exactly two sentences",
+   "one singular, one plural",
+   "adjectives before the nouns"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your home to a new friend from another country.",
+  "targetGrammar": "adjective + noun",
+  "lookFor": [
+   "a big / small / old house or flat",
+   "adjectives before nouns",
+   "no -s on adjectives"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a friend about your favourite place in your town.",
+  "targetGrammar": "adjective + noun",
+  "lookFor": [
+   "a / an + adjective + noun",
+   "many + adjective + plural noun",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the people in your family. Say one thing about each person.",
+  "targetGrammar": "adjective + noun",
+  "lookFor": [
+   "a kind mother, a tall brother …",
+   "adjectives before nouns",
+   "is / are"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message about a market or shop near your home. What can you buy there?",
+  "targetGrammar": "adjective + plural noun",
+  "lookFor": [
+   "fresh, cheap, big …",
+   "plural nouns with -s",
+   "no -s on adjectives"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-before-noun",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your school or your workplace for a new student.",
+  "targetGrammar": "adjective + noun",
+  "lookFor": [
+   "a / an + adjective + noun",
+   "two or three adjectives",
+   "three or four sentences"
+  ]
+ }
+]
