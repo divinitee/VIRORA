@@ -1,0 +1,1780 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz is in the {room}. Can you call ______, {name}?",
+  "options": [
+   "him",
+   "he",
+   "his",
+   "himself"
+  ],
+  "key": 0,
+  "why": "After a verb or a preposition we use the object form: he → him.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "yard",
+    "garage"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Olga",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} lives in {city}. We visit ______ every summer.",
+  "options": [
+   "she",
+   "her",
+   "hers",
+   "herself"
+  ],
+  "key": 1,
+  "why": "After a verb or a preposition we use the object form: she → her.",
+  "slots": {
+   "who": [
+    "grandmother",
+    "aunt",
+    "sister",
+    "older sister"
+   ],
+   "city": [
+    "Bukhara",
+    "Samarkand",
+    "Khiva",
+    "Namangan"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}, I can't do this {task}. Can you help ______?",
+  "options": [
+   "I",
+   "my",
+   "me",
+   "mine"
+  ],
+  "key": 2,
+  "why": "After a verb or a preposition we use the object form: I → me.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandpa",
+    "Aunt Lola"
+   ],
+   "task": [
+    "homework",
+    "exercise",
+    "puzzle",
+    "maths problem"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We are at the {place}, {name}. Come and meet ______ here.",
+  "options": [
+   "we",
+   "our",
+   "ours",
+   "us"
+  ],
+  "key": 3,
+  "why": "After a verb or a preposition we use the object form: we → us. Our needs a noun after it.",
+  "slots": {
+   "place": [
+    "park",
+    "bazaar",
+    "station",
+    "cafe"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {pets} are hungry. Can you feed ______, {name}?",
+  "options": [
+   "them",
+   "they",
+   "their",
+   "theirs"
+  ],
+  "key": 0,
+  "why": "More than one person or thing, after a verb or a preposition: they → them.",
+  "slots": {
+   "pets": [
+    "cats",
+    "dogs",
+    "chickens",
+    "rabbits"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can't find my {thing}. Have you seen ______, {name}?",
+  "options": [
+   "its",
+   "it",
+   "it's",
+   "they"
+  ],
+  "key": 1,
+  "why": "One thing, after a verb or a preposition: it. Its needs a noun after it; it's means it is.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "key"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Madina is new in our {group}. Let's talk to ______, {name}.",
+  "options": [
+   "she",
+   "her",
+   "hers",
+   "herself"
+  ],
+  "key": 1,
+  "why": "After a verb or a preposition we use the object form: she → her.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "team",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents live near the {place}. I often help ______ in the {area}.",
+  "options": [
+   "them",
+   "they",
+   "their",
+   "theirs"
+  ],
+  "key": 0,
+  "why": "More than one person or thing, after a verb or a preposition: they → them.",
+  "slots": {
+   "place": [
+    "market",
+    "park",
+    "school",
+    "river"
+   ],
+   "area": [
+    "garden",
+    "kitchen",
+    "shop",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher, Mr Karimov, is very {adj}. All the {who} like ______.",
+  "options": [
+   "him",
+   "he",
+   "his",
+   "himself"
+  ],
+  "key": 0,
+  "why": "After a verb or a preposition we use the object form: he → him.",
+  "slots": {
+   "adj": [
+    "kind",
+    "funny",
+    "friendly",
+    "patient"
+   ],
+   "who": [
+    "students",
+    "children",
+    "parents",
+    "teachers"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}, this {box} is very heavy. Can you carry ______ for me?",
+  "options": [
+   "its",
+   "it",
+   "it's",
+   "they"
+  ],
+  "key": 1,
+  "why": "One thing, after a verb or a preposition: it. Its needs a noun after it; it's means it is.",
+  "slots": {
+   "name": [
+    "Dad",
+    "Grandpa",
+    "Aziz",
+    "Uncle Bobur"
+   ],
+   "box": [
+    "box",
+    "bag",
+    "suitcase",
+    "table"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister and I are at home. {who} is coming to see ______ tonight.",
+  "options": [
+   "we",
+   "our",
+   "ours",
+   "us"
+  ],
+  "key": 3,
+  "why": "After a verb or a preposition we use the object form: we → us. Our needs a noun after it.",
+  "slots": {
+   "who": [
+    "Grandma",
+    "Aunt Lola",
+    "Uncle Bobur",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm at the {place}, {name}. Please wait for ______.",
+  "options": [
+   "I",
+   "my",
+   "me",
+   "mine"
+  ],
+  "key": 2,
+  "why": "After a verb or a preposition we use the object form: I → me.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "gate",
+    "school door",
+    "corner"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {kids} are in the yard. Ask ______ to come in for {meal}.",
+  "options": [
+   "them",
+   "they",
+   "their",
+   "theirs"
+  ],
+  "key": 0,
+  "why": "More than one person or thing, after a verb or a preposition: they → them.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "meal": [
+    "dinner",
+    "lunch",
+    "tea",
+    "plov"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola has {ill}. I'm going to phone ______ after school, {name}.",
+  "options": [
+   "she",
+   "her",
+   "hers",
+   "herself"
+  ],
+  "key": 1,
+  "why": "After a verb or a preposition we use the object form: she → her.",
+  "slots": {
+   "ill": [
+    "a cold",
+    "a fever",
+    "a headache",
+    "flu"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur is my best friend. I play {game} with ______ every day.",
+  "options": [
+   "him",
+   "he",
+   "his",
+   "himself"
+  ],
+  "key": 0,
+  "why": "After a verb or a preposition we use the object form: he → him.",
+  "slots": {
+   "game": [
+    "football",
+    "chess",
+    "tennis",
+    "basketball"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{who} makes great {food}. Everybody loves ______.",
+  "options": [
+   "its",
+   "it",
+   "it's",
+   "they"
+  ],
+  "key": 1,
+  "why": "One thing, after a verb or a preposition: it. Its needs a noun after it; it's means it is.",
+  "slots": {
+   "who": [
+    "My mum",
+    "Grandma",
+    "My aunt",
+    "Dad"
+   ],
+   "food": [
+    "plov",
+    "soup",
+    "bread",
+    "honey cake"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our neighbours are away. We water the {plants} for ______, {name}.",
+  "options": [
+   "them",
+   "they",
+   "their",
+   "theirs"
+  ],
+  "key": 0,
+  "why": "More than one person or thing, after a verb or a preposition: they → them.",
+  "slots": {
+   "plants": [
+    "flowers",
+    "trees",
+    "garden",
+    "tomatoes"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Excuse me. Can you show ______ the way to the {place}? I'm new in {city}.",
+  "options": [
+   "I",
+   "my",
+   "me",
+   "mine"
+  ],
+  "key": 2,
+  "why": "After a verb or a preposition we use the object form: I → me.",
+  "slots": {
+   "place": [
+    "station",
+    "bazaar",
+    "museum",
+    "library"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little brother is {state}. Can you hold ______ for a minute, {name}?",
+  "options": [
+   "him",
+   "he",
+   "his",
+   "himself"
+  ],
+  "key": 0,
+  "why": "After a verb or a preposition we use the object form: he → him.",
+  "slots": {
+   "state": [
+    "crying",
+    "tired",
+    "sleepy",
+    "sad"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our class is going on a trip. {who} is taking ______ to the {place}.",
+  "options": [
+   "we",
+   "our",
+   "ours",
+   "us"
+  ],
+  "key": 3,
+  "why": "After a verb or a preposition we use the object form: we → us. Our needs a noun after it.",
+  "slots": {
+   "who": [
+    "Mr Karimov",
+    "Ms Olga",
+    "Our teacher",
+    "Mrs Rahimova"
+   ],
+   "place": [
+    "museum",
+    "zoo",
+    "mountains",
+    "lake"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "{name} is at the {place}. I can see ______ (he) from here.",
+  "key": "him",
+  "why": "He → him after a verb or a preposition.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Grandpa",
+    "My brother",
+    "Timur"
+   ],
+   "place": [
+    "gate",
+    "bus stop",
+    "window",
+    "corner"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "{name} is very good at {subj}. Ask ______ (she) for help.",
+  "key": "her",
+  "why": "She → her after a verb or a preposition.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Madina",
+    "My sister",
+    "Aunt Lola"
+   ],
+   "subj": [
+    "maths",
+    "English",
+    "chemistry",
+    "drawing"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "{name}, please give ______ (I) the {thing}.",
+  "key": "me",
+  "why": "I → me after a verb or a preposition.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "thing": [
+    "salt",
+    "bread",
+    "remote",
+    "pen"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "Our {who} lives in {city}. He writes to ______ (we) every week.",
+  "key": "us",
+  "why": "We → us after a verb or a preposition.",
+  "slots": {
+   "who": [
+    "uncle",
+    "grandfather",
+    "brother",
+    "cousin"
+   ],
+   "city": [
+    "Moscow",
+    "Kazan",
+    "Seoul",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "I have two new {things}. I wear ______ (they) to {place}.",
+  "key": "them",
+  "why": "They → them after a verb or a preposition.",
+  "slots": {
+   "things": [
+    "shirts",
+    "jackets",
+    "sweaters",
+    "T-shirts"
+   ],
+   "place": [
+    "school",
+    "college",
+    "work",
+    "the gym"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "My {who} are coming today. Can you meet ______ (they) at the {place}?",
+  "key": "them",
+  "why": "They → them after a verb or a preposition.",
+  "slots": {
+   "who": [
+    "cousins",
+    "grandparents",
+    "aunts",
+    "friends"
+   ],
+   "place": [
+    "station",
+    "airport",
+    "bus stop",
+    "gate"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "Mr Karimov is our new {job}. Do you know ______ (he), {name}?",
+  "key": "him",
+  "why": "He → him after a verb or a preposition.",
+  "slots": {
+   "job": [
+    "neighbour",
+    "teacher",
+    "doctor",
+    "coach"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "{who} has a big {place}. We help ______ (she) on Saturdays.",
+  "key": "her",
+  "why": "She → her after a verb or a preposition.",
+  "slots": {
+   "who": [
+    "Grandma",
+    "My aunt",
+    "Aunt Lola",
+    "Mrs Rahimova"
+   ],
+   "place": [
+    "garden",
+    "farm",
+    "field",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "I don't understand this {word}, {name}. Can you explain it to ______ (I)?",
+  "key": "me",
+  "why": "I → me after a verb or a preposition.",
+  "slots": {
+   "word": [
+    "word",
+    "sentence",
+    "rule",
+    "question"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Ms Olga",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "We are lost in the {place}, {name}. Can you help ______ (we)?",
+  "key": "us",
+  "why": "We → us after a verb or a preposition.",
+  "slots": {
+   "place": [
+    "market",
+    "old city",
+    "park",
+    "big shop"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "The {animals} are thirsty. Give ______ (they) some water, {name}.",
+  "key": "them",
+  "why": "They → them after a verb or a preposition.",
+  "slots": {
+   "animals": [
+    "cows",
+    "sheep",
+    "horses",
+    "chickens"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "{name} is in hospital. Let's visit ______ (he) tomorrow with some {gift}.",
+  "key": "him",
+  "why": "He → him after a verb or a preposition.",
+  "slots": {
+   "name": [
+    "Grandpa",
+    "Uncle Bobur",
+    "Aziz",
+    "My cousin"
+   ],
+   "gift": [
+    "fruit",
+    "flowers",
+    "juice",
+    "books"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "My {who} is in {city} now. I miss ______ (she) a lot.",
+  "key": "her",
+  "why": "She → her after a verb or a preposition.",
+  "slots": {
+   "who": [
+    "sister",
+    "aunt",
+    "grandmother",
+    "best friend"
+   ],
+   "city": [
+    "Kazan",
+    "Seoul",
+    "Almaty",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "{name}, please call ______ (I) when you get to {place}.",
+  "key": "me",
+  "why": "I → me after a verb or a preposition.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "place": [
+    "school",
+    "Tashkent",
+    "the station",
+    "Grandma's house"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "Our {who} cooks {food} for ______ (we) every Friday.",
+  "key": "us",
+  "why": "We → us after a verb or a preposition.",
+  "slots": {
+   "who": [
+    "grandmother",
+    "dad",
+    "uncle",
+    "mother"
+   ],
+   "food": [
+    "plov",
+    "soup",
+    "manti",
+    "samsa"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "I can't find my {things}. Have you seen ______ (they), {name}?",
+  "key": "them",
+  "why": "They → them after a verb or a preposition.",
+  "slots": {
+   "things": [
+    "keys",
+    "glasses",
+    "books",
+    "shoes"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "My little brother is afraid of the {thing}. I sit with ______ (he) at night.",
+  "key": "him",
+  "why": "He → him after a verb or a preposition.",
+  "slots": {
+   "thing": [
+    "dark",
+    "dog",
+    "storm",
+    "noise"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "{name} has a new phone number. Can you text ______ (she) for me?",
+  "key": "her",
+  "why": "She → her after a verb or a preposition.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Madina",
+    "Aunt Lola",
+    "Grandma"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "This {bag} is too heavy for ______ (I), {name}.",
+  "key": "me",
+  "why": "I → me after a verb or a preposition.",
+  "slots": {
+   "bag": [
+    "bag",
+    "box",
+    "suitcase",
+    "table"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the object form of the word in brackets.",
+  "source": "{who} tells ______ (we) stories about his {time}.",
+  "key": "us",
+  "why": "We → us after a verb or a preposition.",
+  "slots": {
+   "who": [
+    "Grandpa",
+    "Uncle Bobur",
+    "Our neighbour",
+    "Mr Karimov"
+   ],
+   "time": [
+    "childhood",
+    "school",
+    "village",
+    "work"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Don't say the name or the noun again. Use a pronoun.",
+  "source": "Aziz is my friend. I often play {game} with Aziz at the {place}.",
+  "hint": "Aziz is my friend. I often play {game} with ______ at the {place}.",
+  "key": "him",
+  "why": "Aziz is one boy, after with: him.",
+  "slots": {
+   "game": [
+    "football",
+    "chess",
+    "tennis",
+    "basketball"
+   ],
+   "place": [
+    "park",
+    "club",
+    "school",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Don't say the name or the noun again. Use a pronoun.",
+  "source": "My aunt is a {job}. Everybody in our {area} knows my aunt.",
+  "hint": "My aunt is a {job}. Everybody in our {area} knows ______.",
+  "key": "her",
+  "why": "My aunt is one woman, after knows: her.",
+  "slots": {
+   "job": [
+    "doctor",
+    "nurse",
+    "teacher",
+    "baker"
+   ],
+   "area": [
+    "street",
+    "village",
+    "town",
+    "neighbourhood"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Don't say the name or the noun again. Use a pronoun.",
+  "source": "These {things} are dirty. Please wash the {things}, {name}.",
+  "hint": "These {things} are dirty. Please wash ______, {name}.",
+  "key": "them",
+  "why": "The things are more than one, after wash: them.",
+  "slots": {
+   "things": [
+    "plates",
+    "cups",
+    "socks",
+    "apples"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Don't say the name or the noun again. Use a pronoun.",
+  "source": "Mum and I are in the {room}. {who} is looking for Mum and me.",
+  "hint": "Mum and I are in the {room}. {who} is looking for ______.",
+  "key": "us",
+  "why": "Mum and me = us after for.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "yard",
+    "living room"
+   ],
+   "who": [
+    "Dad",
+    "Grandma",
+    "Aziz",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Don't say the name or the noun again. Use a pronoun.",
+  "source": "{name}, I have a new {thing}. I take the {thing} to school every day.",
+  "hint": "{name}, I have a new {thing}. I take ______ to school every day.",
+  "key": "it",
+  "why": "One thing, after take: it.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "thing": [
+    "bike",
+    "bag",
+    "ball",
+    "laptop"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Mr Karimov is my neighbour. I see he at the {place} every morning.",
+  "hint": "Mr Karimov is my neighbour. I see ______ at the {place} every morning.",
+  "key": "him",
+  "why": "After see we use the object form: him, not he.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "shop",
+    "gate",
+    "bakery"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Madina is in my {group}. I sit next to she, {name}.",
+  "hint": "Madina is in my {group}. I sit next to ______, {name}.",
+  "key": "her",
+  "why": "After next to we use the object form: her, not she.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "team",
+    "row"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Please help we, {name}! The {thing} is very heavy.",
+  "hint": "Please help ______, {name}! The {thing} is very heavy.",
+  "key": "us",
+  "why": "After help we use the object form: us, not we.",
+  "slots": {
+   "name": [
+    "Dad",
+    "Grandpa",
+    "Aziz",
+    "Uncle Bobur"
+   ],
+   "thing": [
+    "box",
+    "table",
+    "sofa",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {pets} are in the {place}. Can you see they?",
+  "hint": "My {pets} are in the {place}. Can you see ______?",
+  "key": "them",
+  "why": "After see we use the object form: them, not they.",
+  "slots": {
+   "pets": [
+    "dogs",
+    "cats",
+    "rabbits",
+    "chickens"
+   ],
+   "place": [
+    "garden",
+    "yard",
+    "street",
+    "field"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name}, can you lend I your {thing}?",
+  "hint": "{name}, can you lend ______ your {thing}?",
+  "key": "me",
+  "why": "After lend we use the object form: me, not I.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "pen",
+    "ruler",
+    "bike",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change grandfather to grandparents. Then change the pronoun.",
+  "source": "We visit our grandfather on Sundays. We bring him {gift}, {name}.",
+  "hint": "We visit our grandparents on Sundays. We bring ______ {gift}, {name}.",
+  "key": "them",
+  "why": "Grandparents are more than one person: him → them.",
+  "slots": {
+   "gift": [
+    "fruit",
+    "bread",
+    "sweets",
+    "flowers"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change Aziz to Lola. Then change the pronoun.",
+  "source": "Aziz is late. Let's wait for him at the {place}, {name}.",
+  "hint": "Lola is late. Let's wait for ______ at the {place}, {name}.",
+  "key": "her",
+  "why": "Lola is a girl: him → her.",
+  "slots": {
+   "place": [
+    "gate",
+    "bus stop",
+    "corner",
+    "cafe"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Olga",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change friend to friends. Then change the pronoun.",
+  "source": "My friend is at the {place}. Can you let him in, {name}?",
+  "hint": "My friends are at the {place}. Can you let ______ in, {name}?",
+  "key": "them",
+  "why": "Friends are more than one person: him → them.",
+  "slots": {
+   "place": [
+    "door",
+    "gate",
+    "front door",
+    "garden gate"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change this bag to these bags. Then change the pronoun.",
+  "source": "I like this {colour} bag, {name}. I want to buy it.",
+  "hint": "I like these {colour} bags, {name}. I want to buy ______.",
+  "key": "them",
+  "why": "Bags are more than one thing: it → them.",
+  "slots": {
+   "colour": [
+    "red",
+    "blue",
+    "black",
+    "green"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change Dad to Mum. Then change the pronoun.",
+  "source": "Dad is in the {room}. Please take this {thing} to him.",
+  "hint": "Mum is in the {room}. Please take this {thing} to ______.",
+  "key": "her",
+  "why": "Mum is a woman: him → her.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "yard",
+    "bedroom"
+   ],
+   "thing": [
+    "tea",
+    "letter",
+    "phone",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend and what you do with him or her.",
+  "requiredElement": "with him / with her",
+  "constraints": [
+   "exactly one sentence",
+   "must use him or her",
+   "a friend's name"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a person in your family who helps you.",
+  "requiredElement": "helps me",
+  "constraints": [
+   "exactly one sentence",
+   "must use me",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your family and a person who visits you.",
+  "requiredElement": "visits us",
+  "constraints": [
+   "exactly one sentence",
+   "must use us",
+   "about your family"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two or more people or animals you like.",
+  "requiredElement": "like them",
+  "constraints": [
+   "exactly one sentence",
+   "must use them",
+   "about you"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a thing you use every day and why you like it.",
+  "requiredElement": "like it / use it",
+  "constraints": [
+   "exactly one sentence",
+   "must use it as an object",
+   "about you"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question to a friend: ask them to help you with something.",
+  "requiredElement": "Can you help me …?",
+  "constraints": [
+   "exactly one question",
+   "must use me",
+   "must end with a question mark"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a teacher and what the students think of him or her.",
+  "requiredElement": "like him / like her",
+  "constraints": [
+   "exactly one sentence",
+   "must use him or her",
+   "a teacher"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: name a person in the first, then use him or her in the second.",
+  "requiredElement": "name … him / her",
+  "constraints": [
+   "exactly two sentences",
+   "a name in the first",
+   "him or her in the second"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a new friend about your best friend: what you do with them and why you like them.",
+  "targetGrammar": "him / her / them",
+  "lookFor": [
+   "with him / with her",
+   "I like him / her",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a person in your family who looks after you. What do they do for you?",
+  "targetGrammar": "me / us",
+  "lookFor": [
+   "helps me / for us",
+   "a family word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to your grandparents. Tell them you miss them and want to visit them.",
+  "targetGrammar": "them",
+  "lookFor": [
+   "miss them",
+   "visit them",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a friend about your favourite thing at home and what you do with it.",
+  "targetGrammar": "it",
+  "lookFor": [
+   "use it / like it",
+   "what you do",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "object-pronouns",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a teacher you like. Say what the teacher does and why you like him or her.",
+  "targetGrammar": "him / her",
+  "lookFor": [
+   "him or her",
+   "what the teacher does",
+   "three or four sentences"
+  ]
+ }
+]
