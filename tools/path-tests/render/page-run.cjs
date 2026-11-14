@@ -24,8 +24,11 @@ async function playRound(id, right) {
     if (it.format !== 'mcq') throw new Error('expected mcq in choose stage, got ' + it.format);
     let pick = it.options.findIndex((_, k) => w.__grade(it, k).correct === right);
     if (pick < 0) pick = 0;
-    const opts = [...root(id).querySelectorAll('button')].filter((b) => /^[A-D]/.test(b.textContent.trim()) && b.className.includes('text-left'));
-    click(opts[pick]);
+    // The previous question's card is still leaving the screen for a moment: wait for THIS item's options.
+    const shown = () => [...root(id).querySelectorAll('button')].filter((b) => b.className.includes('text-left') && !b.disabled);
+    const mine = () => { const o = shown(); return o.length === it.options.length && o.every((b, k) => b.textContent.trim().slice(1) === String(it.options[k])); };
+    if (!(await waitFor(mine))) throw new Error('options for question ' + (i + 1) + ' never showed');
+    click(shown()[pick]);
     await sleep(40);
     click(btn(id, 'Check'));
     await waitFor(() => btn(id, 'Next') || btn(id, 'Finish'));
