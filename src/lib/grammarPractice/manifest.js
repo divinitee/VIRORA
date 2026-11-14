@@ -464,6 +464,48 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.demonstrative.this-these-near": {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.personal.subject-pronouns": {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "subject-pronouns",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.possessive.possessive-determiners": {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-determiners",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 352,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "questions-negation.negation.dont-doesnt": {
   "domain": "questions-negation",
   "branch": "negation",
@@ -748,6 +790,20 @@ export const PRACTICE_MANIFEST = {
   "domain": "sentence-structure",
   "branch": "predication",
   "topic": "be-question",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.word-order.svo-basic": {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "svo-basic",
   "level": "A1",
   "authored": 68,
   "stages": {
