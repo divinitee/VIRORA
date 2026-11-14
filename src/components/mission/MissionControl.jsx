@@ -1,9 +1,12 @@
 import React, { useState, useEffect, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 import { base44 } from "@/api/base44Client";
 import { useAppLang } from "@/hooks/useAppLang";
 import { DASH_STR, getGreetingKey } from "@/lib/dashboardData";
 import HeroCard from "./HeroCard";
-import FreeLessonCard from "./FreeLessonCard";
+import PathCard from "./PathCard";
+import { useLearnerPath } from "@/hooks/useLearnerPath";
+import { pathCopy, stopHref, stopLabel, unitName } from "@/lib/learnerPath";
 import ComebackCard from "./ComebackCard";
 import ProgressSnapshot from "./ProgressSnapshot";
 import RecentAchievement from "./RecentAchievement";
@@ -47,7 +50,26 @@ export default function MissionControl({
   homeworkSlot = null,
 }) {
   const { lang, t } = useAppLang();
+  const navigate = useNavigate();
   const s = DASH_STR[lang] || DASH_STR.en;
+
+  // The ONE path (14 Nov 2026, src/lib/learnerPath.js). Home's single primary
+  // button is its Continue. If the path can't be read, or every ready stop is
+  // done, `primary` stays null and the button is the Coach's, as before.
+  const path = useLearnerPath(user?.email);
+  const pc = pathCopy(lang);
+  const nextStop = path.state?.next || null;
+  const primary = path.loading
+    ? { label: pc.cont, hint: pc.hint, onClick: () => {}, loading: true }
+    : nextStop
+      ? {
+          label: pc.contTo(stopLabel(nextStop, lang)),
+          hint: nextStop.kind === "lesson"
+            ? `${pc.lesson} · ${pc.hint}`
+            : `${pc.unit(path.state.unit.index + 1)} · ${unitName(nextStop.unitId, lang)}`,
+          onClick: () => navigate(stopHref(nextStop)),
+        }
+      : null;
   const [xpRecord, setXpRecord] = useState(null);
   // Comeback Card state (server streak + XP). Once loaded it is the ONE source
   // for the streak shown anywhere on Home, so two different numbers never show.
@@ -151,10 +173,10 @@ export default function MissionControl({
       </div>
 
       {comeback && <ViraBubble moment={homeMoment(comeback)} vars={{ n: comeback.streak?.current || 0 }} />}
-      <ComebackCard onState={setComeback} />
+      <ComebackCard onState={setComeback} primary={primary} onFreeRoam={() => onNavigate?.("skillhub")} />
       {homeworkSlot}
       <HeroCard accent={ACCENT} accentGlow={ACCENT_GLOW} onContinue={onContinue} skillStates={skillState?.skills ?? null} skillStateError={skillStateError} />
-      <FreeLessonCard />
+      <PathCard state={path.state} loading={path.loading} />
       <ProgressSnapshot totalCorrect={data.totalCorrect} streak={data.streak} xp={data.xp} />
       <RecentAchievement achievement={achievement} />
       <QuickActions onNavigate={onNavigate} accent={ACCENT} />
