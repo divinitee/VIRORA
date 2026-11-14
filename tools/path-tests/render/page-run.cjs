@@ -2,7 +2,8 @@ const { JSDOM } = require('jsdom');
 const fs = require('fs');
 const dom = new JSDOM('<!doctype html><div id="r1"></div><div id="r2"></div><div id="r3"></div>', { runScripts: 'outside-only', pretendToBeVisual: true, url: 'https://x.test/' });
 const w = dom.window;
-w.matchMedia = w.matchMedia || (() => ({ matches: false, addListener() {}, removeListener() {}, addEventListener() {}, removeEventListener() {} }));
+// The page loader releases on a CSS animation event jsdom never fires; reduced motion skips that wait.
+w.matchMedia = (q) => ({ matches: /reduce/.test(String(q)), media: String(q), addListener() {}, removeListener() {}, addEventListener() {}, removeEventListener() {} });
 w.IntersectionObserver = class { observe() {} disconnect() {} unobserve() {} };
 w.ResizeObserver = class { observe() {} disconnect() {} unobserve() {} };
 w.scrollTo = () => {}; w.Element.prototype.scrollIntoView = () => {};
