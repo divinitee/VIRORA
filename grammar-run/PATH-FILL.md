@@ -82,8 +82,8 @@ order**, unit by unit. Claude is building the path screens on another branch
    can it carry 20 different choose sentences that all test its own point, without
    repeating a sibling? If not, log it `needs Tee` with a merge/skip suggestion and
    move on. Watch these sibling groups: the time prepositions (P7-P11), have-got
-   (P21-P23), place prepositions (P25-P27), indefinite pronouns (P44-P47), relative
-   clauses (P48-P50), passives (P56-P58). `modals.ability-permission.can-form`
+   (P21-P23), place prepositions (P25-P27), indefinite pronouns (P45-P48), relative
+   clauses (P49-P51), passives (P57-P59). `modals.ability-permission.can-form`
    (P14) overlaps the finished can-ability topic: keep it to he/she + no -s and no
    "to" after can (rule 14: state the rule once). Rule 14 also has notes for
    that-those-far, adjective-after-be and since-for: follow them.
