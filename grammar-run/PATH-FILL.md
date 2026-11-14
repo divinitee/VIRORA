@@ -116,3 +116,5 @@ order**, unit by unit. Claude is building the path screens on another branch
 - A {name} slot must never contain a name that is already printed in the same sentence ("Aziz needs a pen. Can you give him one, Aziz?").
 - A slot for the SUBJECT or OWNER must fit every value of the other slot ("Our school is proud of its old market" does not work).
 - Read each multi-slot line as its worst pairing before you call a topic done: `node grammar-run/list_multislot.mjs <key>`.
+- A pronoun in the sentence must agree with every slot value ("A tall boy is waiting for their friend"; "Mr Karimov ... stays at home with us").
+- The second sentence must still be true for every slot value (a cat that is "very active" cannot "sit by the window").
