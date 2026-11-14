@@ -111,3 +111,8 @@ order**, unit by unit. Claude is building the path screens on another branch
    - These topics are stops on a path that learners walk in order: keep the
      sentences about a learner's own life in Uzbekistan, and make CREATE and EXPRESS
      prompts invite them to talk about themselves.
+
+## Lessons from the audit of P1-P5 (read before each turn)
+- A {name} slot must never contain a name that is already printed in the same sentence ("Aziz needs a pen. Can you give him one, Aziz?").
+- A slot for the SUBJECT or OWNER must fit every value of the other slot ("Our school is proud of its old market" does not work).
+- Read each multi-slot line as its worst pairing before you call a topic done: `node grammar-run/list_multislot.mjs <key>`.
