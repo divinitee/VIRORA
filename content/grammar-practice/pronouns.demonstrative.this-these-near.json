@@ -1,0 +1,1804 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ is my phone here in my hand. It's {adj}, but it works {how}.",
+  "options": [
+   "This",
+   "These",
+   "That",
+   "Those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (here in my hand), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "adj": [
+    "old",
+    "small",
+    "cheap",
+    "cracked"
+   ],
+   "how": [
+    "well",
+    "fine",
+    "very well",
+    "OK"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ books here on my desk are {adj}. I need them for {subject}.",
+  "options": [
+   "These",
+   "This",
+   "Those",
+   "That"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (here on my desk), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "adj": [
+    "new",
+    "heavy",
+    "from the library",
+    "Aziz's"
+   ],
+   "subject": [
+    "maths",
+    "English",
+    "history",
+    "my exam"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look at ______ shoes I'm wearing. Mum bought them in {city} {when}.",
+  "options": [
+   "these",
+   "this",
+   "those",
+   "that"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (I'm wearing them), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Samarkand",
+    "Andijan"
+   ],
+   "when": [
+    "last week",
+    "yesterday",
+    "for my birthday",
+    "in the summer"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mmm, ______ soup on my plate is {adj}, {name}!",
+  "options": [
+   "this",
+   "these",
+   "that",
+   "those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (on my plate), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "adj": [
+    "delicious",
+    "hot",
+    "very good",
+    "great"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Dad",
+    "Aunt Malika"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ is my friend {name}, next to me in the photo from {place}.",
+  "options": [
+   "This",
+   "These",
+   "That",
+   "Those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (next to me in the photo), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Timur",
+    "Madina"
+   ],
+   "place": [
+    "Samarkand",
+    "the wedding",
+    "school",
+    "the park"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm holding ______ bags, and they are {adj}. Can you open the door, {name}?",
+  "options": [
+   "these",
+   "this",
+   "those",
+   "that"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (I'm holding them), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "adj": [
+    "heavy",
+    "full",
+    "very big",
+    "wet"
+   ],
+   "name": [
+    "Dad",
+    "Aziz",
+    "Olga",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ chair next to me is free. Sit here, {name}, and have some {food}.",
+  "options": [
+   "This",
+   "These",
+   "That",
+   "Those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (next to me), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Grandpa",
+    "Sardor",
+    "Kamila"
+   ],
+   "food": [
+    "tea",
+    "bread",
+    "fruit",
+    "soup"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ apples in my basket are from our {place}. Try one, {name}.",
+  "options": [
+   "These",
+   "This",
+   "Those",
+   "That"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (in my basket), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "place": [
+    "garden",
+    "village",
+    "tree",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ jacket I'm wearing is {adj}. It was {price}.",
+  "options": [
+   "This",
+   "These",
+   "That",
+   "Those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (I'm wearing it), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "adj": [
+    "warm",
+    "new",
+    "my brother's",
+    "too big"
+   ],
+   "price": [
+    "cheap",
+    "a present",
+    "on sale",
+    "from the market"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ pencils in my bag are {colour}. Do you need one, {name}?",
+  "options": [
+   "These",
+   "This",
+   "Those",
+   "That"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (in my bag), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "colour": [
+    "blue",
+    "red",
+    "new",
+    "sharp"
+   ],
+   "name": [
+    "Bobur",
+    "Kamila",
+    "Sardor",
+    "Madina"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I love ______ song I'm listening to now. It's {adj}, {name}.",
+  "options": [
+   "this",
+   "these",
+   "that",
+   "those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (I'm listening to it now), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "adj": [
+    "so good",
+    "beautiful",
+    "very old",
+    "new"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ are my cousins here in the photo, {name1} and {name2}.",
+  "options": [
+   "These",
+   "This",
+   "Those",
+   "That"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (here in the photo), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "name1": [
+    "Aziz",
+    "Lola",
+    "Bobur",
+    "Madina"
+   ],
+   "name2": [
+    "Kamila",
+    "Sardor",
+    "Nodira",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ flowers here on the table are from the {place}. They're for {who}.",
+  "options": [
+   "These",
+   "This",
+   "Those",
+   "That"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (here on the table), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "place": [
+    "market",
+    "garden",
+    "flower shop",
+    "village"
+   ],
+   "who": [
+    "Mum",
+    "Grandma",
+    "our teacher",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name}, ______ milk in my glass tastes {adj}.",
+  "options": [
+   "This",
+   "These",
+   "That",
+   "Those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (in my glass), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aunt Dilnoza"
+   ],
+   "adj": [
+    "strange",
+    "sour",
+    "funny",
+    "bad"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Welcome, {name}! ______ room here is mine, and it is {adj}.",
+  "options": [
+   "This",
+   "These",
+   "That",
+   "Those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (here, where we are standing), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "adj": [
+    "small",
+    "a bit messy",
+    "quiet",
+    "warm"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Wow, ______ cakes here in the box are {adj}! Did you make them, {name}?",
+  "options": [
+   "these",
+   "this",
+   "those",
+   "that"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (here in the box), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "adj": [
+    "beautiful",
+    "so small",
+    "lovely",
+    "amazing"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Aunt Malika",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ keys in my pocket open the {place} and the {place2}.",
+  "options": [
+   "These",
+   "This",
+   "Those",
+   "That"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (in my pocket), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "place": [
+    "front door",
+    "gate",
+    "garage",
+    "shop"
+   ],
+   "place2": [
+    "car",
+    "back door",
+    "office",
+    "cupboard"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ homework here on my desk is for {day}. It's {adj}.",
+  "options": [
+   "This",
+   "These",
+   "That",
+   "Those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (here on my desk), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "day": [
+    "Monday",
+    "tomorrow",
+    "Friday",
+    "next week"
+   ],
+   "adj": [
+    "easy",
+    "long",
+    "very hard",
+    "short"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Try ______ grapes in my hand, {name}. They are very {adj}.",
+  "options": [
+   "these",
+   "this",
+   "those",
+   "that"
+  ],
+  "key": 0,
+  "why": "More than one, and they are near (in my hand), so use these. This is for one thing; that and those are for things far away.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Grandpa",
+    "Olga",
+    "Timur"
+   ],
+   "adj": [
+    "sweet",
+    "fresh",
+    "big",
+    "juicy"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ is my new bike here, {name}. Dad gave it to me {when}.",
+  "options": [
+   "This",
+   "These",
+   "That",
+   "Those"
+  ],
+  "key": 0,
+  "why": "One thing, and it is near (here, next to you), so use this. These is for more than one; that and those are for things far away.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Timur",
+    "Madina"
+   ],
+   "when": [
+    "yesterday",
+    "last week",
+    "for my birthday",
+    "in May"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ bag in my hand is very {adj}, {name}.",
+  "key": "This",
+  "why": "Bag is one thing, so use this.",
+  "slots": {
+   "adj": [
+    "heavy",
+    "old",
+    "light",
+    "full"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "Look! ______ photos on my phone are from {place}, {name}.",
+  "key": "These",
+  "why": "Photos are more than one, so use these.",
+  "slots": {
+   "place": [
+    "Samarkand",
+    "the wedding",
+    "our trip",
+    "the mountains"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Lola",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ tea in my cup is {adj}. Can I have some {extra}?",
+  "key": "This",
+  "why": "Tea is one thing, so use this.",
+  "slots": {
+   "adj": [
+    "cold",
+    "too strong",
+    "very hot",
+    "not sweet"
+   ],
+   "extra": [
+    "sugar",
+    "milk",
+    "lemon",
+    "honey"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ children here with me are in my {group}, {name}.",
+  "key": "These",
+  "why": "Children are more than one, so use these.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "team",
+    "club"
+   ],
+   "name": [
+    "Mum",
+    "Mr Aliev",
+    "Grandpa",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "{name}, I'm wearing ______ boots because it is {weather} today.",
+  "key": "These",
+  "why": "Boots are more than one, so use these.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ],
+   "weather": [
+    "cold",
+    "raining",
+    "snowy",
+    "wet"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ computer in front of me is {adj}. I need help, {name}.",
+  "key": "This",
+  "why": "Computer is one thing, so use this.",
+  "slots": {
+   "adj": [
+    "very slow",
+    "broken",
+    "new",
+    "strange"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ sweets in my {pocket} are for {who}.",
+  "key": "These",
+  "why": "Sweets are more than one, so use these.",
+  "slots": {
+   "pocket": [
+    "pocket",
+    "bag",
+    "coat pocket",
+    "backpack"
+   ],
+   "who": [
+    "my sister",
+    "the kids",
+    "you",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "Is ______ your {thing} in my hand, {name}?",
+  "key": "this",
+  "why": "The thing in your hand is one thing, so use this.",
+  "slots": {
+   "thing": [
+    "key",
+    "pen",
+    "ring",
+    "ticket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ glasses I'm wearing are {adj}. I got them from {who}.",
+  "key": "These",
+  "why": "Glasses are more than one, so use these.",
+  "slots": {
+   "adj": [
+    "new",
+    "a bit big",
+    "strong",
+    "my old ones"
+   ],
+   "who": [
+    "Grandpa",
+    "the doctor",
+    "my aunt",
+    "a shop in town"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ place here is {adj}. Let's sit down, {name}.",
+  "key": "This",
+  "why": "Place is one thing, so use this.",
+  "slots": {
+   "adj": [
+    "nice",
+    "quiet",
+    "perfect",
+    "shady"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ trousers I have on are too {adj}, {name}.",
+  "key": "These",
+  "why": "Trousers are more than one, so use these.",
+  "slots": {
+   "adj": [
+    "long",
+    "short",
+    "big",
+    "small"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Dad",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ plov on my plate is {adj}, {name}!",
+  "key": "This",
+  "why": "Plov is one thing, so use this.",
+  "slots": {
+   "adj": [
+    "delicious",
+    "very hot",
+    "so good",
+    "perfect"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Aunt Malika",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ exercises here in my {book} are {adj}.",
+  "key": "These",
+  "why": "Exercises are more than one, so use these.",
+  "slots": {
+   "book": [
+    "book",
+    "workbook",
+    "notebook",
+    "textbook"
+   ],
+   "adj": [
+    "easy",
+    "hard",
+    "long",
+    "short"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ street where we are standing is very {adj}, {name}.",
+  "key": "This",
+  "why": "Street is one thing, so use this.",
+  "slots": {
+   "adj": [
+    "busy",
+    "quiet",
+    "old",
+    "long"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ grapes here are from our {garden}. They are {adj}.",
+  "key": "These",
+  "why": "Grapes are more than one, so use these.",
+  "slots": {
+   "garden": [
+    "garden",
+    "village",
+    "yard",
+    "vine"
+   ],
+   "adj": [
+    "sweet",
+    "big",
+    "ripe",
+    "delicious"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ is my grandmother next to me in the {photo}.",
+  "key": "This",
+  "why": "The person next to you is one thing, so use this.",
+  "slots": {
+   "photo": [
+    "photo",
+    "picture",
+    "video",
+    "old photo"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ are my friends here with me, {name1} and {name2}.",
+  "key": "These",
+  "why": "Friends are more than one, so use these.",
+  "slots": {
+   "name1": [
+    "Aziz",
+    "Lola",
+    "Bobur",
+    "Madina"
+   ],
+   "name2": [
+    "Kamila",
+    "Sardor",
+    "Nodira",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ room we are in is our {room}, and it is {adj}.",
+  "key": "This",
+  "why": "Room is one thing, so use this.",
+  "slots": {
+   "room": [
+    "classroom",
+    "kitchen",
+    "living room",
+    "music room"
+   ],
+   "adj": [
+    "big",
+    "bright",
+    "warm",
+    "new"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "Smell ______ flowers in my hand, {name}. They are from the {place}.",
+  "key": "these",
+  "why": "Flowers are more than one, so use these.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Grandma",
+    "Aziz",
+    "Lola"
+   ],
+   "place": [
+    "garden",
+    "market",
+    "park",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The things are near you. Write this or these.",
+  "source": "______ bus we are on goes to {place}, and it is very {adj}.",
+  "key": "This",
+  "why": "Bus is one thing, so use this.",
+  "slots": {
+   "place": [
+    "the centre",
+    "the station",
+    "Chilonzor",
+    "the airport"
+   ],
+   "adj": [
+    "full",
+    "slow",
+    "hot",
+    "crowded"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it plural (more than one).",
+  "source": "This book is {adj}. I read it {when}.",
+  "hint": "______ books are {adj}. I read them {when}.",
+  "key": "These",
+  "why": "Books is more than one, so this changes to these.",
+  "slots": {
+   "adj": [
+    "interesting",
+    "easy",
+    "funny",
+    "new"
+   ],
+   "when": [
+    "every day",
+    "at night",
+    "on the bus",
+    "at school"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it plural (more than one).",
+  "source": "This cup on my {place} is {adj}.",
+  "hint": "______ cups on my {place} are {adj}.",
+  "key": "These",
+  "why": "Cups is more than one, so this changes to these.",
+  "slots": {
+   "place": [
+    "desk",
+    "table",
+    "tray",
+    "shelf"
+   ],
+   "adj": [
+    "dirty",
+    "full",
+    "empty",
+    "Grandma's"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it plural (more than one).",
+  "source": "This apple in my hand is {adj}. I got it from {who}.",
+  "hint": "______ apples in my hand are {adj}. I got them from {who}.",
+  "key": "These",
+  "why": "Apples is more than one, so this changes to these.",
+  "slots": {
+   "adj": [
+    "sweet",
+    "sour",
+    "red",
+    "big"
+   ],
+   "who": [
+    "Grandma",
+    "the market",
+    "our garden",
+    "a friend"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it plural (more than one).",
+  "source": "This is my cousin {name}.",
+  "hint": "______ are my cousins {name} and {name2}.",
+  "key": "These",
+  "why": "Two cousins are more than one, so This is changes to These are.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Bobur",
+    "Madina"
+   ],
+   "name2": [
+    "Kamila",
+    "Sardor",
+    "Nodira",
+    "Jasur"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it plural (more than one).",
+  "source": "This {adj} student here is from {city}.",
+  "hint": "______ {adj} students here are from {city}.",
+  "key": "These",
+  "why": "Students is more than one, so this changes to these.",
+  "slots": {
+   "adj": [
+    "new",
+    "young",
+    "quiet",
+    "clever"
+   ],
+   "city": [
+    "Nukus",
+    "Termez",
+    "Kazan",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This shoes I'm wearing are {adj}, {name}.",
+  "hint": "______ shoes I'm wearing are {adj}, {name}.",
+  "key": "These",
+  "why": "Shoes is plural, so use these, not this.",
+  "slots": {
+   "adj": [
+    "new",
+    "too small",
+    "comfortable",
+    "my sister's"
+   ],
+   "name": [
+    "Mum",
+    "Aziz",
+    "Olga",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "These book in my {bag} is about {topic}.",
+  "hint": "______ book in my {bag} is about {topic}.",
+  "key": "This",
+  "why": "Book is one thing, so use this, not these.",
+  "slots": {
+   "bag": [
+    "bag",
+    "backpack",
+    "hand",
+    "desk"
+   ],
+   "topic": [
+    "animals",
+    "space",
+    "football",
+    "history"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This apricots here on the {table} are from {place}.",
+  "hint": "______ apricots here on the {table} are from {place}.",
+  "key": "These",
+  "why": "Apricots is plural, so use these, not this.",
+  "slots": {
+   "table": [
+    "table",
+    "plate",
+    "tray",
+    "counter"
+   ],
+   "place": [
+    "Fergana",
+    "our garden",
+    "the market",
+    "Grandpa's tree"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "These water in my {bottle} is {adj}.",
+  "hint": "______ water in my {bottle} is {adj}.",
+  "key": "This",
+  "why": "Water has no plural, so use this, not these.",
+  "slots": {
+   "bottle": [
+    "bottle",
+    "glass",
+    "cup",
+    "flask"
+   ],
+   "adj": [
+    "cold",
+    "warm",
+    "fresh",
+    "very clean"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This keys in my {pocket} are for the {place}.",
+  "hint": "______ keys in my {pocket} are for the {place}.",
+  "key": "These",
+  "why": "Keys is plural, so use these, not this.",
+  "slots": {
+   "pocket": [
+    "pocket",
+    "bag",
+    "hand",
+    "coat"
+   ],
+   "place": [
+    "flat",
+    "car",
+    "garage",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now the thing is here, near you. Rewrite the sentence.",
+  "source": "{name}, that bag over there is {adj}.",
+  "hint": "{name}, ______ bag here is {adj}.",
+  "key": "This",
+  "why": "The bag is near now and it is one thing, so that changes to this.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Mum",
+    "Dad"
+   ],
+   "adj": [
+    "heavy",
+    "mine",
+    "open",
+    "new"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now the thing is here, near you. Rewrite the sentence.",
+  "source": "Those boys over there are in my {group}, {name}.",
+  "hint": "______ boys here are in my {group}, {name}.",
+  "key": "These",
+  "why": "The boys are near now and there are more than one, so those changes to these.",
+  "slots": {
+   "group": [
+    "class",
+    "team",
+    "club",
+    "group"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Grandpa",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now the thing is here, near you. Rewrite the sentence.",
+  "source": "Is that your {thing} over there, {name}?",
+  "hint": "Is ______ your {thing} here, {name}?",
+  "key": "this",
+  "why": "The thing is near now and it is one thing, so that changes to this.",
+  "slots": {
+   "thing": [
+    "phone",
+    "jacket",
+    "ball",
+    "umbrella"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now the thing is here, near you. Rewrite the sentence.",
+  "source": "Those flowers in the garden are {adj}, {name}.",
+  "hint": "______ flowers in my hand are {adj}, {name}.",
+  "key": "These",
+  "why": "The flowers are in your hand now, more than one, so those changes to these.",
+  "slots": {
+   "adj": [
+    "beautiful",
+    "red",
+    "white",
+    "lovely"
+   ],
+   "name": [
+    "Mum",
+    "Grandma",
+    "Aziz",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Now the thing is here, near you. Rewrite the sentence.",
+  "source": "That chair by the door is {adj}, {name}.",
+  "hint": "______ chair next to me is {adj}, {name}.",
+  "key": "This",
+  "why": "The chair is next to you now and it is one thing, so that changes to this.",
+  "slots": {
+   "adj": [
+    "free",
+    "broken",
+    "new",
+    "very old"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You are holding your phone. Write one sentence about it with This.",
+  "requiredElement": "This + is",
+  "constraints": [
+   "exactly one sentence",
+   "must start with This",
+   "must say something about the phone"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You are wearing your shoes. Write one sentence about them with These.",
+  "requiredElement": "These + are",
+  "constraints": [
+   "exactly one sentence",
+   "must start with These",
+   "are, not is"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Show a friend a photo of your family. Write one sentence about one person in it.",
+  "requiredElement": "This is my …",
+  "constraints": [
+   "exactly one sentence",
+   "must use This is",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the food on your plate at dinner.",
+  "requiredElement": "this + noun",
+  "constraints": [
+   "exactly one sentence",
+   "must use this",
+   "must name the food"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You have some books on your desk. Write one sentence about them.",
+  "requiredElement": "these + plural noun",
+  "constraints": [
+   "exactly one sentence",
+   "must use these",
+   "a plural noun after these"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend visits your room. Write one sentence to show them something in it.",
+  "requiredElement": "This is / These are",
+  "constraints": [
+   "exactly one sentence",
+   "must use this or these",
+   "must name the thing"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the room you are in now.",
+  "requiredElement": "This room …",
+  "constraints": [
+   "exactly one sentence",
+   "must use this",
+   "is, not are"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about things in your bag: one with this, one with these.",
+  "requiredElement": "this + singular / these + plural",
+  "constraints": [
+   "exactly two sentences",
+   "one this, one these",
+   "is after this, are after these"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are showing a new friend around your room. Write what you say about four things in it.",
+  "targetGrammar": "this / these for near things",
+  "lookFor": [
+   "This is …",
+   "These are …",
+   "is after this, are after these"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are looking at photos of your family on your phone. Describe three of them.",
+  "targetGrammar": "This is … / These are …",
+  "lookFor": [
+   "This is my …",
+   "These are my …",
+   "family words"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are at the market with a friend, holding some fruit. Write a short conversation about it.",
+  "targetGrammar": "this / these + noun",
+  "lookFor": [
+   "these + plural fruit",
+   "this + one thing",
+   "a question with this or these"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the things on your desk or table right now.",
+  "targetGrammar": "this / these",
+  "lookFor": [
+   "this + singular noun",
+   "these + plural noun",
+   "near words: here, on my desk"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "demonstrative",
+  "topic": "this-these-near",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message to a pen friend with a photo of your school. What is in the photo?",
+  "targetGrammar": "This is / These are",
+  "lookFor": [
+   "This is our school",
+   "These are my friends / classmates",
+   "three or four sentences"
+  ]
+ }
+]

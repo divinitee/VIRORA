@@ -61,7 +61,7 @@
 60	B	sentence-structure.conjunctions.and-but-or	A1	2	live	and for addition | but for contrast
 61	B	sentence-structure.conjunctions.so-result	A1	1	live	so for a result
 62	B	sentence-structure.word-order.place-time-order	A1	1	todo	Place before time at the end of a sentence
-63	B	sentence-structure.word-order.svo-basic	A1	1	todo	Subject + verb + object
+63	B	sentence-structure.word-order.svo-basic	A1	1	live	Subject + verb + object
 64	B	sentence-structure.existential.there-was-were	A2	1	live	there was/were agreement in the past
 65	B	sentence-structure.imperatives.lets	A2	1	live	Let's + base form
 66	B	sentence-structure.conjunctions.because	A2	1	live	because for a reason
@@ -71,11 +71,11 @@
 70	B	sentence-structure.relative-clauses.where-place	A2	1	todo	where for a place (no object gap)
 71	B	sentence-structure.relative-clauses.who-people	A2	2	todo	who for a person in a defining relative clause | Productive defining relative clause
 72	B	pronouns.personal.object-pronouns	A1	4	todo	Object pronoun her after a verb | Object pronoun me | Object pronoun us (vs we/our) | Producing the object pronoun for a plural referent
-73	B	pronouns.personal.subject-pronouns	A1	2	todo	Subject pronoun I (not me/my) as sentence subject | Subject pronoun he referring back to a named male
-74	B	pronouns.possessive.possessive-determiners	A1	3	todo	Possessive determiner my before a noun | his (not he/him) before a noun | their (determiner) vs theirs
+73	B	pronouns.personal.subject-pronouns	A1	2	live	Subject pronoun I (not me/my) as sentence subject | Subject pronoun he referring back to a named male
+74	B	pronouns.possessive.possessive-determiners	A1	3	live	Possessive determiner my before a noun | his (not he/him) before a noun | their (determiner) vs theirs
 75	B	pronouns.possessive.possessive-pronouns	A1	2	todo	Possessive pronoun theirs standing alone | mine (pronoun) vs my (determiner)
-76	B	pronouns.demonstrative.that-those-far	A1	2	todo	those for plural far objects | those as a pronoun for plural far items
-77	B	pronouns.demonstrative.this-these-near	A1	2	todo	this for a single near object | these for plural near objects
+76	B	pronouns.demonstrative.that-those-far	A1	2	live	those for plural far objects | those as a pronoun for plural far items
+77	B	pronouns.demonstrative.this-these-near	A1	2	live	this for a single near object | these for plural near objects
 78	B	pronouns.personal.subject-object-contrast	A2	1	todo	Object pronoun after a preposition in a coordinated phrase
 79	B	pronouns.substitution.one-ones	A2	3	todo	one replacing a singular countable noun | ones replacing a plural noun | 'those' as a formal substitute for 'the ones' before a post-modifier
 80	B	pronouns.indefinite.indefinite-agreement	A2	2	todo	everyone takes a singular verb | Singular verb after 'nobody' despite plural meaning
