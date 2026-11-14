@@ -474,7 +474,7 @@ export default [
     "a black one"
    ],
    "name": [
-    "Aziz",
+    "Madina",
     "Olga",
     "Timur",
     "Lola"

@@ -102,7 +102,7 @@ const BUILD = [
   ["their", "they", "Sardor and Jasur are brothers. ______ (they) father is a {job} in {city}.",
     { job: ["driver", "doctor", "teacher", "builder"], city: ["Tashkent", "Bukhara", "Karshi", "Urgench"] }],
   ["its", "it", "Our {town} is proud of ______ (it) {thing}.",
-    { town: ["town", "city", "village", "school"], thing: ["old market", "big park", "football team", "new stadium"] }],
+    { town: ["town", "city", "village", "home town"], thing: ["old market", "big park", "football team", "new stadium"] }],
   ["your", "you", "Do you like ______ (you) new {thing}, {name}?",
     { thing: ["school", "teacher", "phone", "flat"], name: ["Aziz", "Olga", "Timur", "Lola"] }],
   ["your", "you", "{name}, please put ______ (you) {thing} in the {place}.",

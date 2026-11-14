@@ -943,7 +943,7 @@ export default [
     "town",
     "city",
     "village",
-    "school"
+    "home town"
    ],
    "thing": [
     "old market",

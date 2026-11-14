@@ -540,7 +540,7 @@ export default [
    "place2": [
     "car",
     "back door",
-    "window",
+    "office",
     "cupboard"
    ]
   }

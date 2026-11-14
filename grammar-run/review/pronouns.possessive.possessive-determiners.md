@@ -142,7 +142,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A noun comes after the gap, so they changes to their.
 
 12. _Write the possessive word (my, your, his, her, its, our, their) for the word in brackets._  
-   Our **school** is proud of ______ (it) **big park**.  
+   Our **home town** is proud of ______ (it) **big park**.  
    key: its  
    why: A noun comes after the gap, so it changes to its.
 

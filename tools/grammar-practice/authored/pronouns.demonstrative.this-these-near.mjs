@@ -58,7 +58,7 @@ const CHOOSE = [
   [LO.p, WP("here in the box"), "Wow, ______ cakes here in the box are {adj}! Did you make them, {name}?",
     { adj: ["beautiful", "so small", "lovely", "amazing"], name: ["Mum", "Grandma", "Aunt Malika", "Kamila"] }],
   [UP.p, WP("in my pocket"), "______ keys in my pocket open the {place} and the {place2}.",
-    { place: ["front door", "gate", "garage", "shop"], place2: ["car", "back door", "window", "cupboard"] }],
+    { place: ["front door", "gate", "garage", "shop"], place2: ["car", "back door", "office", "cupboard"] }],
   [UP.s, WS("here on my desk"), "______ homework here on my desk is for {day}. It's {adj}.",
     { day: ["Monday", "tomorrow", "Friday", "next week"], adj: ["easy", "long", "very hard", "short"] }],
   [LO.p, WP("in my hand"), "Try ______ grapes in my hand, {name}. They are very {adj}.",
