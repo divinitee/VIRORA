@@ -175,8 +175,8 @@ export default function MissionControl({
       {comeback && <ViraBubble moment={homeMoment(comeback)} vars={{ n: comeback.streak?.current || 0 }} />}
       <ComebackCard onState={setComeback} primary={primary} onFreeRoam={() => onNavigate?.("skillhub")} />
       {homeworkSlot}
-      <HeroCard accent={ACCENT} accentGlow={ACCENT_GLOW} onContinue={onContinue} skillStates={skillState?.skills ?? null} skillStateError={skillStateError} />
       <PathCard state={path.state} loading={path.loading} />
+      <HeroCard accent={ACCENT} accentGlow={ACCENT_GLOW} onContinue={onContinue} skillStates={skillState?.skills ?? null} skillStateError={skillStateError} />
       <ProgressSnapshot totalCorrect={data.totalCorrect} streak={data.streak} xp={data.xp} />
       <RecentAchievement achievement={achievement} />
       <QuickActions onNavigate={onNavigate} accent={ACCENT} />
