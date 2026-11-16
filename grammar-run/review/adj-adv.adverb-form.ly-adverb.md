@@ -20,7 +20,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ politely · polite · politly · more polite  
    why: To say how someone does something, use an adverb, not an adjective: polite + -ly = politely.
 
-5. Our **tutor** explains **maths** very ______.  
+5. Our **new teacher** explains **maths** very ______.  
    options: ✔ clearly · clear · clearley · more clear  
    why: To say how someone does something, use an adverb, not an adjective: clear + -ly = clearly.
 

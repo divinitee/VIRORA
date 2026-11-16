@@ -149,9 +149,9 @@ export default [
   "slots": {
    "teacher": [
     "teacher",
-    "coach",
     "tutor",
-    "trainer"
+    "new teacher",
+    "class teacher"
    ],
    "subject": [
     "grammar",

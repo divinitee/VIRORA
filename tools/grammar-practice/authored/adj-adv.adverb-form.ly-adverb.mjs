@@ -43,7 +43,7 @@ const CHOOSE = [
   R("polite", "politely", "politly", "The {person} answered every question ______ and {did}.",
     { person: ["waiter", "doctor", "shop assistant", "driver"], did: ["smiled", "helped us", "showed us the way", "gave us a map"] }),
   R("clear", "clearly", "clearley", "Our {teacher} explains {subject} very ______.",
-    { teacher: ["teacher", "coach", "tutor", "trainer"], subject: ["grammar", "maths", "the rules", "everything"] }),
+    { teacher: ["teacher", "tutor", "new teacher", "class teacher"], subject: ["grammar", "maths", "the rules", "everything"] }),
   R("bad", "badly", "badley", "I slept ______ last night because of the {noise}, {name}.",
     { noise: ["noise", "heat", "storm", "music next door"], name: P4 }),
   R("correct", "correctly", "correctley", "{name} answered all the {things} ______ and got a {grade}.",
