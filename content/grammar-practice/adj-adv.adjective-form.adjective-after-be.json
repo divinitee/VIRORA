@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Be ______ with the hot tea, {name}! It's in a {cup}.",
+  "options": [
+   "careful",
+   "carefully",
+   "care",
+   "cares"
+  ],
+  "key": 0,
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "cup": [
+    "glass",
+    "thin cup",
+    "small bowl",
+    "paper cup"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children are very ______ today. They're reading {thing}, {name}.",
+  "options": [
+   "quietly",
+   "quietness",
+   "quieten",
+   "quiet"
+  ],
+  "key": 3,
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "thing": [
+    "books",
+    "comics",
+    "stories",
+    "magazines"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} was ______ because I came home late from {place}.",
+  "options": [
+   "anger",
+   "angers",
+   "angry",
+   "angrily"
+  ],
+  "key": 2,
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "grandpa"
+   ],
+   "place": [
+    "football",
+    "the park",
+    "my friend's house",
+    "the cinema"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The test was ______, so I finished in {n} minutes, {name}.",
+  "options": [
+   "eases",
+   "easy",
+   "easily",
+   "ease"
+  ],
+  "key": 1,
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "n": [
+    "ten",
+    "fifteen",
+    "twenty",
+    "thirty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our new {thing} is ______ and soft, {name}.",
+  "options": [
+   "comfortable",
+   "comfortably",
+   "comfort",
+   "comforts"
+  ],
+  "key": 0,
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "thing": [
+    "sofa",
+    "bed",
+    "armchair",
+    "pillow"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} is ______ this week. She has a lot of {work}.",
+  "options": [
+   "busily",
+   "business",
+   "busies",
+   "busy"
+  ],
+  "key": 3,
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "work": [
+    "work",
+    "homework",
+    "tests",
+    "lessons"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You look ______ today, {name}. Did you sleep {how}?",
+  "options": [
+   "tire",
+   "tiredness",
+   "tired",
+   "tiredly"
+  ],
+  "key": 2,
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "how": [
+    "badly",
+    "late",
+    "enough",
+    "at all"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} looks ______ in her new {clothes}.",
+  "options": [
+   "beautify",
+   "beautiful",
+   "beautifully",
+   "beauty"
+  ],
+  "key": 1,
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "clothes": [
+    "dress",
+    "coat",
+    "scarf",
+    "hat"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {food} looks ______, {who}! Can I have some?",
+  "options": [
+   "delicious",
+   "deliciously",
+   "deliciousness",
+   "delight"
+  ],
+  "key": 0,
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "food": [
+    "cake",
+    "plov",
+    "soup",
+    "salad"
+   ],
+   "who": [
+    "Mum",
+    "Grandma",
+    "Dad",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {who} looks ______. What happened, {name}?",
+  "options": [
+   "sadly",
+   "sadness",
+   "sadden",
+   "sad"
+  ],
+  "key": 3,
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "friend",
+    "cousin"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {pet} looks ______. Give it some food, {name}.",
+  "options": [
+   "hunger",
+   "hungers",
+   "hungry",
+   "hungrily"
+  ],
+  "key": 2,
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I feel ______ after the long {trip}, {name}.",
+  "options": [
+   "tire",
+   "tired",
+   "tiredly",
+   "tiring"
+  ],
+  "key": 1,
+  "why": "After feel, use an adjective to say how you are, not an adverb.",
+  "slots": {
+   "trip": [
+    "trip",
+    "walk",
+    "lesson",
+    "game"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I always feel ______ after {meal}, {name}.",
+  "options": [
+   "sleepy",
+   "sleepily",
+   "sleeping",
+   "sleep"
+  ],
+  "key": 0,
+  "why": "After feel, use an adjective to say how you are, not an adverb.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "plov",
+    "a big meal"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I feel ______ in my new {clothes}, {name}.",
+  "options": [
+   "warmly",
+   "warming",
+   "warms",
+   "warm"
+  ],
+  "key": 3,
+  "why": "After feel, use an adjective to say how you are, not an adverb.",
+  "slots": {
+   "clothes": [
+    "jacket",
+    "coat",
+    "sweater",
+    "hat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Take a deep breath. You'll feel ______ soon, {name}. The {event} is easy.",
+  "options": [
+   "calming",
+   "calms",
+   "calm",
+   "calmly"
+  ],
+  "key": 2,
+  "why": "After feel, use an adjective to say how you are, not an adverb.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "test",
+    "game",
+    "lesson",
+    "exam"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} felt ______ when her team lost the {match}.",
+  "options": [
+   "sadden",
+   "sad",
+   "sadly",
+   "saddening"
+  ],
+  "key": 1,
+  "why": "After feel, use an adjective to say how you are, not an adverb.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "match": [
+    "match",
+    "final",
+    "game",
+    "cup"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A picnic in the {place}? That sounds ______, {name}!",
+  "options": [
+   "great",
+   "greatly",
+   "greatness",
+   "greats"
+  ],
+  "key": 0,
+  "why": "After sound, taste, smell and seem, use an adjective, not an adverb.",
+  "slots": {
+   "place": [
+    "park",
+    "mountains",
+    "garden",
+    "village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {drink} tastes ______. Is it old, {name}?",
+  "options": [
+   "terribly",
+   "terror",
+   "terrify",
+   "terrible"
+  ],
+  "key": 3,
+  "why": "After sound, taste, smell and seem, use an adjective, not an adverb.",
+  "slots": {
+   "drink": [
+    "milk",
+    "juice",
+    "tea",
+    "yogurt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The bread smells ______. Is it fresh from the {place}, {name}?",
+  "options": [
+   "wonder",
+   "wonders",
+   "wonderful",
+   "wonderfully"
+  ],
+  "key": 2,
+  "why": "After sound, taste, smell and seem, use an adjective, not an adverb.",
+  "slots": {
+   "place": [
+    "bakery",
+    "tandoor",
+    "oven",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your new {who} seems very ______. He always says hello, {name}.",
+  "options": [
+   "impolitely",
+   "polite",
+   "politely",
+   "politeness"
+  ],
+  "key": 1,
+  "why": "After sound, taste, smell and seem, use an adjective, not an adverb.",
+  "slots": {
+   "who": [
+    "neighbour",
+    "teacher",
+    "classmate",
+    "doctor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "You look ______ (tiredly), {name}. Go to bed early {when}.",
+  "key": "tired",
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "when": [
+    "tonight",
+    "today",
+    "this evening",
+    "after dinner"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "The {food} is ______ (deliciously)! Thank you, {who}.",
+  "key": "delicious",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "food": [
+    "soup",
+    "plov",
+    "cake",
+    "salad"
+   ],
+   "who": [
+    "Mum",
+    "Grandma",
+    "Aunt Lola",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "Please be ______ (quietly) in the {place}, {name}.",
+  "key": "quiet",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "place": [
+    "library",
+    "hospital",
+    "museum",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "My {who} was very ______ (anger) with me, {name}.",
+  "key": "angry",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "grandpa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "{name} feels ______ (happily) today. It's her {day}.",
+  "key": "happy",
+  "why": "After feel, use an adjective to say how you are, not an adverb.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "day": [
+    "birthday",
+    "first day of the holidays",
+    "last exam",
+    "big day"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "The {thing} was ______ (boringly), so we went home, {name}.",
+  "key": "boring",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "thing": [
+    "film",
+    "concert",
+    "game",
+    "show"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "This {thing} is very ______ (comfort), {name}.",
+  "key": "comfortable",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "thing": [
+    "sofa",
+    "bed",
+    "chair",
+    "armchair"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "The test seemed ______ (easily) to {name} and her {who}.",
+  "key": "easy",
+  "why": "After sound, taste, smell and seem, use an adjective, not an adverb.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "who": [
+    "friends",
+    "sister",
+    "classmates",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "Your {pet} looks ______ (hunger), {name}. Did you feed it?",
+  "key": "hungry",
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "A day at the {place}? That sounds ______ (wonderfully), {name}!",
+  "key": "wonderful",
+  "why": "After sound, taste, smell and seem, use an adjective, not an adverb.",
+  "slots": {
+   "place": [
+    "lake",
+    "zoo",
+    "river",
+    "mountains"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "I feel ______ (sleepily) after {meal}, {name}.",
+  "key": "sleepy",
+  "why": "After feel, use an adjective to say how you are, not an adverb.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "plov",
+    "a big meal"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "Grandpa seems ______ (sadly) today, {name}. Let's call {who}.",
+  "key": "sad",
+  "why": "After sound, taste, smell and seem, use an adjective, not an adverb.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "him",
+    "Grandma",
+    "Dad",
+    "Mum"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "The {street} is very ______ (noise) at night, {name}.",
+  "key": "noisy",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "street": [
+    "street",
+    "road",
+    "yard",
+    "city"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "{name} looked ______ (nervously) before the {event}.",
+  "key": "nervous",
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "test",
+    "match",
+    "concert",
+    "interview"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "The water in the {place} feels ______ (warmly) today, {name}.",
+  "key": "warm",
+  "why": "After feel, use an adjective to say how you are, not an adverb.",
+  "slots": {
+   "place": [
+    "lake",
+    "river",
+    "sea",
+    "pool"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "Our {who} is very ______ (kindness) to us, {name}.",
+  "key": "kind",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "who": [
+    "teacher",
+    "neighbour",
+    "coach",
+    "doctor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "This {drink} tastes ______ (strangely). Is it old, {name}?",
+  "key": "strange",
+  "why": "After sound, taste, smell and seem, use an adjective, not an adverb.",
+  "slots": {
+   "drink": [
+    "milk",
+    "juice",
+    "tea",
+    "yogurt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "My {sib} is ______ (busily) with homework, {name}.",
+  "key": "busy",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "sib": [
+    "brother",
+    "sister",
+    "cousin",
+    "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "The baby is ______ (calmly) now. She's sleeping in her {bed}, {name}.",
+  "key": "calm",
+  "why": "After be (am, is, are, was), use an adjective, not an adverb.",
+  "slots": {
+   "bed": [
+    "cot",
+    "bed",
+    "pram",
+    "cradle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right form of the word in brackets.",
+  "source": "Your {thing} looks ______ (beauty), {name}!",
+  "key": "beautiful",
+  "why": "When look means seem, use an adjective after it, not an adverb.",
+  "slots": {
+   "thing": [
+    "dress",
+    "garden",
+    "picture",
+    "room"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "You look tiredly, {name}. Sit down, {who}.",
+  "hint": "You look ______, {name}. Sit down, {who}.",
+  "key": "tired",
+  "why": "When look means seem, use an adjective: tired, not tiredly.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "please",
+    "now",
+    "here",
+    "for a minute"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {food} smells deliciously, {who}.",
+  "hint": "The {food} smells ______, {who}.",
+  "key": "delicious",
+  "why": "After smell, use an adjective: delicious, not deliciously.",
+  "slots": {
+   "food": [
+    "soup",
+    "plov",
+    "bread",
+    "cake"
+   ],
+   "who": [
+    "Mum",
+    "Grandma",
+    "Dad",
+    "Aunt Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Be carefully with the {thing}, {name}.",
+  "hint": "Be ______ with the {thing}, {name}.",
+  "key": "careful",
+  "why": "After be, use an adjective: careful, not carefully.",
+  "slots": {
+   "thing": [
+    "knife",
+    "hot tea",
+    "glass",
+    "scissors"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} feels happily today. Her {who} is here.",
+  "hint": "{name} feels ______ today. Her {who} is here.",
+  "key": "happy",
+  "why": "After feel, use an adjective: happy, not happily.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "who": [
+    "grandma",
+    "aunt",
+    "cousin",
+    "best friend"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This {music} sounds strangely, {name}.",
+  "hint": "This {music} sounds ______, {name}.",
+  "key": "strange",
+  "why": "After sound, use an adjective: strange, not strangely.",
+  "slots": {
+   "music": [
+    "song",
+    "music",
+    "radio",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with an adjective.",
+  "source": "{name} sang beautifully at the {event}.",
+  "hint": "{name}'s song at the {event} was ______.",
+  "key": "beautiful",
+  "why": "The song was … : after was, use the adjective beautiful.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "concert",
+    "party",
+    "wedding",
+    "school show"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with an adjective.",
+  "source": "The {kids} played quietly in their room, {name}.",
+  "hint": "The {kids} were ______ in their room, {name}.",
+  "key": "quiet",
+  "why": "They were … : after were, use the adjective quiet.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with an adjective.",
+  "source": "My {who} answered angrily, {name}.",
+  "hint": "My {who} was ______, {name}.",
+  "key": "angry",
+  "why": "He or she was … : after was, use the adjective angry.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "grandpa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with an adjective.",
+  "source": "{name} smiled happily at her {who}.",
+  "hint": "{name} looked ______.",
+  "key": "happy",
+  "why": "She looked … : when look means seem, use the adjective happy.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "who": [
+    "sister",
+    "mum",
+    "friend",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with an adjective.",
+  "source": "{name} spoke nervously at the start of the {event}.",
+  "hint": "{name} seemed ______ at the start of the {event}.",
+  "key": "nervous",
+  "why": "He or she seemed … : after seem, use the adjective nervous.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "lesson",
+    "meeting",
+    "interview",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence: put the adjective after be.",
+  "source": "This is a big {home}, {name}.",
+  "hint": "This {home} ______, {name}.",
+  "key": "is big",
+  "why": "The adjective can go after be: This house is big.",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "garden",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence: put the adjective after be.",
+  "source": "These are old {things}, {name}.",
+  "hint": "These {things} ______, {name}.",
+  "key": "are old",
+  "why": "More than one → are, then the adjective: These books are old.",
+  "slots": {
+   "things": [
+    "books",
+    "photos",
+    "chairs",
+    "shoes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence: put the adjective after be.",
+  "source": "That was an easy {test}, {name}.",
+  "hint": "That {test} ______, {name}.",
+  "key": "was easy",
+  "why": "In the past → was, then the adjective: That test was easy.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "lesson",
+    "game"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence: put the adjective after be.",
+  "source": "It's a beautiful {place}, {name}.",
+  "hint": "This {place} ______, {name}.",
+  "key": "is beautiful",
+  "why": "One place → is, then the adjective: This park is beautiful.",
+  "slots": {
+   "place": [
+    "park",
+    "city",
+    "village",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence: put the adjective after be.",
+  "source": "They are noisy {kids}, {name}.",
+  "hint": "The {kids} ______, {name}.",
+  "key": "are noisy",
+  "why": "More than one → are, then the adjective: The boys are noisy.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how you feel today.",
+  "requiredElement": "I feel + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "feel",
+   "an adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your favourite food: how does it look, smell or taste?",
+  "requiredElement": "It looks / smells / tastes + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "look, smell or taste",
+   "an adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend looks unhappy. Write one sentence to him or her.",
+  "requiredElement": "You look + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "you look",
+   "an adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your English lessons this week.",
+  "requiredElement": "They are / were + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "be",
+   "an adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend has a plan for Saturday. Write one sentence to answer.",
+  "requiredElement": "That sounds + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "sounds",
+   "an adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your street at night.",
+  "requiredElement": "It is + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "be",
+   "an adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how you feel before a test.",
+  "requiredElement": "I feel + adjective",
+  "constraints": [
+   "exactly one sentence",
+   "feel",
+   "an adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about your room: one with is and one with looks.",
+  "requiredElement": "It is … / It looks …",
+  "constraints": [
+   "exactly two sentences",
+   "is + adjective",
+   "looks + adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how you feel on a Monday morning and on a Friday evening.",
+  "targetGrammar": "I feel + adjective",
+  "lookFor": [
+   "feel twice",
+   "two different adjectives",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a family dinner: how does the food look, smell and taste?",
+  "targetGrammar": "It looks / smells / tastes + adjective",
+  "lookFor": [
+   "look, smell or taste",
+   "two adjectives",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your best friend today: how does he or she look and feel?",
+  "targetGrammar": "He / She looks + adjective",
+  "lookFor": [
+   "looks",
+   "feels or is",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your town or village for a visitor: what is it like?",
+  "targetGrammar": "It is + adjective",
+  "lookFor": [
+   "is + adjective",
+   "two adjectives",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "adjective-after-be",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend invites you to a party. Answer the message and say how you feel.",
+  "targetGrammar": "That sounds + adjective. I feel …",
+  "lookFor": [
+   "sounds",
+   "feel",
+   "three or four sentences"
+  ]
+ }
+]
