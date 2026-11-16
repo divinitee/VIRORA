@@ -18,7 +18,7 @@
 // Build: "Write in, on or at." (all keys in); no build source prints "in"
 // anywhere else.
 // Transform: 5 answer a Where …? question (the place is in instr; key "in
-// the") / 5 correct the mistake / 5 notes → sentence.
+// the") / 5 correct the mistake / 5 short answer → full sentence.
 //
 // Run: node tools/grammar-practice/authored/prep-phrasal.place.in-area.mjs
 
@@ -55,7 +55,7 @@ const CHOOSE = [
   ["area", "There's a big park ______ the centre of our {town}, {name}.", { town: ["town", "city", "village", "district"], name: NAME }],
   ["world", "My {who} has a small house ______ the countryside, {name}.", { who: REL, name: NAME }],
   ["town", "Is there a good {place} ______ your town, {name}?", { place: ["café", "library", "gym", "cinema"], name: NAME }],
-  ["area", "Our {pet} stays ______ the yard all day, {name}.", { pet: ["dog", "cat", "chickens", "rabbit"], name: NAME }],
+  ["area", "Our {pet} stays ______ the yard all day, {name}.", { pet: ["dog", "cat", "puppy", "rabbit"], name: NAME }],
   ["sky", "There are a lot of fish ______ this {water}, {name}.", { water: ["river", "lake", "pond", "sea"], name: NAME }],
   ["town", "How many people live ______ your {area}, {name}?", { area: ["village", "town", "city", "building"], name: NAME }],
   ["world", "There are many {thing} ______ the world, {name}.", { thing: ["languages", "countries", "animals", "cities"], name: NAME }],
@@ -94,30 +94,27 @@ const BUILD = [
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
 const COR = "Correct the mistake.";
-const NOTE = "Make a sentence from the notes. Use in.";
+const NOTE = "Answer in a full sentence. Use in.";
 const TRANSFORM = [
   // where? (5)
-  ["Answer the question. Use in and the mountains.", "Where does your {who} live, {name}?", "He or she lives ______ mountains, {name}.", "in the", "The mountains are an area: in the mountains.", { who: REL, name: NAME }],
+  ["Answer the question. Use in and the mountains.", "Where does your {who} live, {name}?", "He lives ______ mountains, {name}.", "in the", "The mountains are an area: in the mountains.", { who: ["grandpa", "uncle", "cousin", "brother"], name: NAME }],
   ["Answer the question. Use in and the yard.", "Where is the {pet}, {name}?", "It's ______ yard, {name}.", "in the", "The yard is an area with a fence around it: in the yard.", { pet: ["dog", "cat", "puppy", "rabbit"], name: NAME }],
   ["Answer the question. Use in and the forest.", "Where do the {animal} live, {name}?", "They live ______ forest, {name}.", "in the", "The forest is an area: in the forest.", { animal: ["birds", "squirrels", "rabbits", "deer"], name: NAME }],
-  ["Answer the question. Use in and the countryside.", "Where does your {who} have a house, {name}?", "He or she has a house ______ countryside, {name}.", "in the", "We say in the countryside.", { who: REL, name: NAME }],
+  ["Answer the question. Use in and the countryside.", "Where does your {who} have a house, {name}?", "She has a house ______ countryside, {name}.", "in the", "We say in the countryside.", { who: ["grandma", "aunt", "sister", "cousin"], name: NAME }],
   ["Answer the question. Use in and the sky.", "Where are the {thing}, {name}?", "They're ______ sky, {name}. Look up!", "in the", "We say in the sky, not on the sky.", { thing: ["stars", "birds", "clouds", "planes"], name: NAME }],
   // correct the mistake (5)
   [COR, "My aunt lives at {city}, {name}.", "My aunt lives ______ {city}, {name}.", "in", "For a city, use in: in Samarkand, not at Samarkand.", { city: CITY, name: NAME }],
   [COR, "There are a lot of {thing} on the sky, {name}.", "There are a lot of {thing} ______ the sky, {name}.", "in", "We say in the sky, not on the sky.", { thing: ["stars", "clouds", "birds", "planes"], name: NAME }],
-  [COR, "My grandparents live at a small village, {name}.", "My grandparents live ______ a small village, {name}.", "in", "For a village, use in, not at.", { name: NAME, x: ["", "", "", ""] }],
+  [COR, "My grandparents live at a small village near {city}, {name}.", "My grandparents live ______ a small village near {city}, {name}.", "in", "For a village, use in, not at.", { city: CITY, name: NAME }],
   [COR, "The {pet} is playing on the yard, {name}.", "The {pet} is playing ______ the yard, {name}.", "in", "The yard is an area, so use in, not on.", { pet: ["dog", "cat", "puppy", "kitten"], name: NAME }],
-  [COR, "My friend from {country} works at Uzbekistan now.", "My friend from {country} works ______ Uzbekistan now.", "in", "For a country, use in, not at.", { country: COUNTRY, x: ["", "", "", ""] }],
+  [COR, "My friend from {country} works at Uzbekistan now, {name}.", "My friend from {country} works ______ Uzbekistan now, {name}.", "in", "For a country, use in, not at.", { country: COUNTRY, name: NAME }],
   // notes -> sentence (5)
-  [NOTE, "my uncle / live / {city}", "My uncle lives ______ {city}, {name}.", "in", "A city → in: in Bukhara.", { city: CITY, name: NAME }],
-  [NOTE, "the {animal} / be / the field", "The {animal} are ______ the field, {name}.", "in", "A field is an area: in the field.", { animal: ["cows", "sheep", "horses", "goats"], name: NAME }],
-  [NOTE, "we / swim / the {water} / every summer", "We swim ______ the {water} every summer, {name}.", "in", "We swim in the sea, in the river, in the lake.", { water: ["sea", "river", "lake", "pond"], name: NAME }],
-  [NOTE, "there / be / a big park / the centre of our {town}", "There's a big park ______ the centre of our {town}, {name}.", "in", "We say in the centre of a town.", { town: ["town", "city", "village", "district"], name: NAME }],
-  [NOTE, "my cousin / live / {country}", "My cousin lives ______ {country}, {name}.", "in", "A country → in: in Korea, in Turkey.", { country: COUNTRY, name: NAME }],
-].map(([instr, source, hint, key, why, slots]) => {
-  const s = { ...slots }; delete s.x;
-  return { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };
-});
+  [NOTE, "Where does your uncle live? – {city}.", "My uncle lives ______ {city}, {name}.", "in", "A city → in: in Bukhara.", { city: CITY, name: NAME }],
+  [NOTE, "Where are the {animal}? – The field.", "The {animal} are ______ the field, {name}.", "in", "A field is an area: in the field.", { animal: ["cows", "sheep", "horses", "goats"], name: NAME }],
+  [NOTE, "Where do you swim every summer? – The {water}.", "We swim ______ the {water} every summer, {name}.", "in", "We swim in the sea, in the river, in the lake.", { water: ["sea", "river", "lake", "pond"], name: NAME }],
+  [NOTE, "Where's the big park? – The centre of our {town}.", "There's a big park ______ the centre of our {town}, {name}.", "in", "We say in the centre of a town.", { town: ["town", "city", "village", "district"], name: NAME }],
+  [NOTE, "Where does your cousin live? – {country}.", "My cousin lives ______ {country}, {name}.", "in", "A country → in: in Korea, in Turkey.", { country: COUNTRY, name: NAME }],
+].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
 
 /* ---------------- create: 8 ---------------- */
 const CREATE = [
