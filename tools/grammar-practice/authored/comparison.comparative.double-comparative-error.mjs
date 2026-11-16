@@ -176,7 +176,7 @@ const TRANSFORM = [
     { city: ["Tashkent", "Samarkand", "Nukus", "Fergana"], name: ["Mum", "Dad", "Aziz", "Olga"] }],
   [JOIN, "The {film} was bad. The {thing} was very, very bad.", "The {thing} was ______ (bad) than the {film}.", "worse",
     "The comparative of bad is worse. It needs no more and no -er.",
-    { film: ["film", "first game", "concert", "lesson"], thing: ["food", "weather", "music", "second game"] }],
+    { film: ["film", "first game", "party", "lesson"], thing: ["food", "weather", "traffic", "second game"] }],
   [JOIN, "My {bag} weighs 3 kilos. Your {bag} weighs 6 kilos, {name}.", "Your {bag} is ______ (heavy) than mine, {name}.", "heavier",
     "Heavy ends in -y, so it becomes heavier. Do not add more.",
     { bag: ["bag", "backpack", "suitcase", "box"], name: ["Aziz", "Olga", "Timur", "Lola"] }],

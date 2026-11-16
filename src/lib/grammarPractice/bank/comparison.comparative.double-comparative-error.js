@@ -1549,13 +1549,13 @@ export default [
    "film": [
     "film",
     "first game",
-    "concert",
+    "party",
     "lesson"
    ],
    "thing": [
     "food",
     "weather",
-    "music",
+    "traffic",
     "second game"
    ]
   }
