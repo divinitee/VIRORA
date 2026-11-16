@@ -76,7 +76,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "comparison",
   "branch": "comparative",
   "topic": "er-comparative",
-  "level": "A1",
+  "level": "A2",
   "authored": 68,
   "stages": {
    "choose": 320,
