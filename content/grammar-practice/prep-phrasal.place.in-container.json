@@ -314,8 +314,8 @@
    "part": [
     "head",
     "tail",
-    "ears",
-    "nose"
+    "nose",
+    "face"
    ]
   }
  },
@@ -519,7 +519,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My {thing} is ______ my backpack, next to my books.",
+  "prompt": "My {thing} is ______ my backpack, next to my books, {name}.",
   "options": [
    "in",
    "on",
@@ -1062,12 +1062,6 @@
     "Dad",
     "Grandma",
     "Aziz"
-   ],
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
    ]
   }
  },
@@ -1187,8 +1181,8 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Answer the question. Use in.",
-  "source": "Where's the {food}? (the fridge)",
+  "instr": "Answer the question. Use in and the fridge.",
+  "source": "Where's the {food}?",
   "hint": "It's ______ fridge, {name}.",
   "key": "in the",
   "why": "The fridge is a container: in the fridge.",
@@ -1215,8 +1209,8 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Answer the question. Use in.",
-  "source": "Where are the {kids}? (the garden)",
+  "instr": "Answer the question. Use in and the garden.",
+  "source": "Where are the {kids}?",
   "hint": "They're ______ garden, {name}.",
   "key": "in the",
   "why": "A garden has walls or a fence around it: in the garden.",
@@ -1243,8 +1237,8 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Answer the question. Use in.",
-  "source": "Where's my {thing}? (your bag)",
+  "instr": "Answer the question. Use in and your bag.",
+  "source": "Where's my {thing}?",
   "hint": "It's ______ bag, {name}.",
   "key": "in your",
   "why": "A bag is a container: in your bag.",
@@ -1271,8 +1265,8 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Answer the question. Use in.",
-  "source": "Where's {who}? (the kitchen)",
+  "instr": "Answer the question. Use in and the kitchen.",
+  "source": "Where's {who}?",
   "hint": "She's ______ kitchen, {name}.",
   "key": "in the",
   "why": "A kitchen is a room: in the kitchen.",
@@ -1299,8 +1293,8 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Answer the question. Use in.",
-  "source": "Where are the {things}? (the drawer)",
+  "instr": "Answer the question. Use in and the drawer.",
+  "source": "Where are the {things}?",
   "hint": "They're ______ drawer, {name}.",
   "key": "in the",
   "why": "A drawer is a container: in the drawer.",
@@ -1566,8 +1560,14 @@
    "bag": [
     "bag",
     "backpack",
-    "pocket",
-    "pencil case"
+    "school bag",
+    "handbag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },

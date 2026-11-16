@@ -1,0 +1,1822 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The keys are ______ the table, next to the {thing}, {name}.",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "phone",
+    "lamp",
+    "books",
+    "bread"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's a picture of {what} ______ the wall of my {room}.",
+  "options": [
+   "in",
+   "at",
+   "to",
+   "on"
+  ],
+  "key": 3,
+  "why": "A wall or a door is a surface too, so use on the wall / on the door.",
+  "slots": {
+   "what": [
+    "my grandparents",
+    "a horse",
+    "Samarkand",
+    "the sea"
+   ],
+   "room": [
+    "room",
+    "bedroom",
+    "classroom",
+    "kitchen"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {thing} is ______ the floor, {name}. Pick it up!",
+  "options": [
+   "at",
+   "to",
+   "on",
+   "in"
+  ],
+  "key": 2,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "pen",
+    "bag",
+    "sock",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {food} is ______ the plate. Eat it, {name}.",
+  "options": [
+   "to",
+   "on",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "Food is on a plate (a flat surface), not in a plate.",
+  "slots": {
+   "food": [
+    "bread",
+    "rice",
+    "cake",
+    "chicken"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are some books ______ the shelf above my {thing}, {name}.",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "bed",
+    "desk",
+    "sofa",
+    "table"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {pet} is sleeping ______ the sofa, {name}.",
+  "options": [
+   "in",
+   "at",
+   "to",
+   "on"
+  ],
+  "key": 3,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look! The {what} are ______ the board, {name}.",
+  "options": [
+   "at",
+   "to",
+   "on",
+   "in"
+  ],
+  "key": 2,
+  "why": "A wall or a door is a surface too, so use on the wall / on the door.",
+  "slots": {
+   "what": [
+    "answers",
+    "new words",
+    "homework tasks",
+    "dates"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's a {thing} ______ the door. It says 'Please knock', {name}.",
+  "options": [
+   "to",
+   "on",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "A wall or a door is a surface too, so use on the wall / on the door.",
+  "slots": {
+   "thing": [
+    "sign",
+    "note",
+    "poster",
+    "card"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My phone is ______ my desk, next to my {thing}, {name}.",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "books",
+    "lamp",
+    "cup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's some {food} ______ your {clothes}, {name}.",
+  "options": [
+   "in",
+   "at",
+   "to",
+   "on"
+  ],
+  "key": 3,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "food": [
+    "juice",
+    "ice cream",
+    "tea",
+    "soup"
+   ],
+   "clothes": [
+    "T-shirt",
+    "shirt",
+    "jacket",
+    "dress"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are {n} photos ______ our fridge, {name}.",
+  "options": [
+   "at",
+   "to",
+   "on",
+   "in"
+  ],
+  "key": 2,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} is ______ the roof, {name}!",
+  "options": [
+   "to",
+   "on",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "cat",
+    "ball",
+    "kite",
+    "football"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Put the cups ______ the {surface}, please, {name}.",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "surface": [
+    "tray",
+    "table",
+    "shelf",
+    "counter"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look at the map ______ page {n}, {name}.",
+  "options": [
+   "in",
+   "at",
+   "to",
+   "on"
+  ],
+  "key": 3,
+  "why": "We say on a page and on a screen: the words or picture are on the surface.",
+  "slots": {
+   "n": [
+    "12",
+    "20",
+    "35",
+    "48"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {thing} is ______ the chair, {name}.",
+  "options": [
+   "at",
+   "to",
+   "on",
+   "in"
+  ],
+  "key": 2,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "bag",
+    "jacket",
+    "book",
+    "scarf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's snow ______ the {thing} this morning, {name}.",
+  "options": [
+   "to",
+   "on",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "roof",
+    "car",
+    "bench",
+    "ground"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's a {thing} ______ the ceiling, {name}!",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "spider",
+    "fly",
+    "lamp",
+    "big light"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's a photo of my {who} ______ my phone screen, {name}.",
+  "options": [
+   "in",
+   "at",
+   "to",
+   "on"
+  ],
+  "key": 3,
+  "why": "We say on a page and on a screen: the words or picture are on the surface.",
+  "slots": {
+   "who": [
+    "cat",
+    "family",
+    "dog",
+    "sister"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {things} are ______ the teacher's desk, {kids}.",
+  "options": [
+   "at",
+   "to",
+   "on",
+   "in"
+  ],
+  "key": 2,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "things": [
+    "notebooks",
+    "tests",
+    "essays",
+    "books"
+   ],
+   "kids": [
+    "class",
+    "students",
+    "boys",
+    "girls"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} is ______ the balcony, {name}.",
+  "options": [
+   "to",
+   "on",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "bike",
+    "cat",
+    "table",
+    "plant"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's a {pic} ______ the wall of the {room}.",
+  "key": "on",
+  "why": "A wall or a door is a surface too, so use on the wall / on the door.",
+  "slots": {
+   "pic": [
+    "map",
+    "clock",
+    "mirror",
+    "picture"
+   ],
+   "room": [
+    "kitchen",
+    "hall",
+    "classroom",
+    "living room"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Your {thing} is ______ the floor, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "pen",
+    "sock",
+    "ball",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Put the {food} ______ a plate, {name}.",
+  "key": "on",
+  "why": "Food is on a plate (a flat surface), not in a plate.",
+  "slots": {
+   "food": [
+    "bread",
+    "cake",
+    "fruit",
+    "cheese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {pet} is lying ______ the carpet, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There are {n} books ______ the shelf, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "n": [
+    "ten",
+    "twenty",
+    "fifty",
+    "a hundred"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {things} are ______ the table, next to the bread, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "things": [
+    "plates",
+    "cups",
+    "knives",
+    "spoons"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Write the answers ______ page {n}, {name}.",
+  "key": "on",
+  "why": "We say on a page and on a screen: the words or picture are on the surface.",
+  "slots": {
+   "n": [
+    "12",
+    "20",
+    "35",
+    "48"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's a picture of {what} ______ my laptop screen, {name}.",
+  "key": "on",
+  "why": "We say on a page and on a screen: the words or picture are on the surface.",
+  "slots": {
+   "what": [
+    "my dog",
+    "my family",
+    "the sea",
+    "Bukhara"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's a {color} sticker ______ my laptop, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "color": [
+    "red",
+    "blue",
+    "yellow",
+    "green"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The cat is sitting ______ the {surface}, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "surface": [
+    "chair",
+    "sofa",
+    "table",
+    "roof"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Your keys are ______ the {surface} by the door, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "surface": [
+    "shelf",
+    "table",
+    "chair",
+    "stool"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's a {thing} ______ the door of our classroom, {name}.",
+  "key": "on",
+  "why": "A wall or a door is a surface too, so use on the wall / on the door.",
+  "slots": {
+   "thing": [
+    "sign",
+    "note",
+    "poster",
+    "timetable"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {thing} is ______ my desk, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "lamp",
+    "computer",
+    "phone",
+    "notebook"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's snow ______ the {thing} this morning, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "roof",
+    "cars",
+    "ground",
+    "benches"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "My {thing} is ______ the chair by the {place}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "bag",
+    "coat",
+    "jacket",
+    "book"
+   ],
+   "place": [
+    "window",
+    "door",
+    "bed",
+    "desk"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's a fly ______ your {part}, {name}!",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "part": [
+    "nose",
+    "head",
+    "arm",
+    "hand"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Put your {things} ______ the teacher's desk, {kids}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "things": [
+    "notebooks",
+    "tests",
+    "essays",
+    "books"
+   ],
+   "kids": [
+    "class",
+    "students",
+    "boys",
+    "girls"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {things} are ______ the top shelf, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "things": [
+    "plates",
+    "cups",
+    "glasses",
+    "bowls"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's a poster of {star} ______ my bedroom wall, {name}.",
+  "key": "on",
+  "why": "A wall or a door is a surface too, so use on the wall / on the door.",
+  "slots": {
+   "star": [
+    "a footballer",
+    "a singer",
+    "a cat",
+    "the moon"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Our {thing} is ______ the balcony, {name}.",
+  "key": "on",
+  "why": "The thing touches the top of a surface, so use on.",
+  "slots": {
+   "thing": [
+    "bike",
+    "table",
+    "plant",
+    "washing machine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use on and the table.",
+  "source": "Where's my {thing}?",
+  "hint": "It's ______ table, {name}.",
+  "key": "on the",
+  "why": "A table is a surface: on the table.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "book",
+    "key"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use on and the wall.",
+  "source": "Where's the {pic}?",
+  "hint": "It's ______ wall, {name}.",
+  "key": "on the",
+  "why": "A wall is a surface too: on the wall.",
+  "slots": {
+   "pic": [
+    "map",
+    "clock",
+    "mirror",
+    "picture"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use on and the shelf.",
+  "source": "Where are the {things}?",
+  "hint": "They're ______ shelf, {name}.",
+  "key": "on the",
+  "why": "A shelf is a surface: on the shelf.",
+  "slots": {
+   "things": [
+    "books",
+    "cups",
+    "plates",
+    "photos"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use on and the sofa.",
+  "source": "Where's the {pet}?",
+  "hint": "It's ______ sofa, {name}.",
+  "key": "on the",
+  "why": "The animal is on top of the sofa: on the sofa.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use on and your plate.",
+  "source": "Where's the {food}?",
+  "hint": "It's ______ plate, {name}.",
+  "key": "on your",
+  "why": "Food is on a plate: on your plate.",
+  "slots": {
+   "food": [
+    "bread",
+    "cake",
+    "rice",
+    "chicken"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {pic} is in the wall, {name}.",
+  "hint": "The {pic} is ______ the wall, {name}.",
+  "key": "on",
+  "why": "A wall is a surface, so use on, not in.",
+  "slots": {
+   "pic": [
+    "map",
+    "clock",
+    "mirror",
+    "picture"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Your {thing} is at the floor, {name}.",
+  "hint": "Your {thing} is ______ the floor, {name}.",
+  "key": "on",
+  "why": "The floor is a surface, so use on, not at.",
+  "slots": {
+   "thing": [
+    "pen",
+    "sock",
+    "ball",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {food} is in the plate, {name}.",
+  "hint": "The {food} is ______ the plate, {name}.",
+  "key": "on",
+  "why": "Food is on a plate, not in a plate.",
+  "slots": {
+   "food": [
+    "bread",
+    "cake",
+    "rice",
+    "chicken"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There are {n} books in the shelf, {name}.",
+  "hint": "There are {n} books ______ the shelf, {name}.",
+  "key": "on",
+  "why": "A shelf is a surface, so use on, not in.",
+  "slots": {
+   "n": [
+    "two",
+    "five",
+    "ten",
+    "twenty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Look at the photo in page {n}, {name}.",
+  "hint": "Look at the photo ______ page {n}, {name}.",
+  "key": "on",
+  "why": "We say on page 12, not in page 12.",
+  "slots": {
+   "n": [
+    "12",
+    "20",
+    "35",
+    "48"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with on.",
+  "source": "The {thing} is on top of the fridge, {name}.",
+  "hint": "The {thing} is ______ the fridge, {name}.",
+  "key": "on",
+  "why": "On top of a surface = on it.",
+  "slots": {
+   "thing": [
+    "bread",
+    "box",
+    "radio",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with on.",
+  "source": "The cat is on top of the {surface}, {name}.",
+  "hint": "The cat is ______ the {surface}, {name}.",
+  "key": "on",
+  "why": "On top of a surface = on it.",
+  "slots": {
+   "surface": [
+    "table",
+    "sofa",
+    "chair",
+    "bed"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with on.",
+  "source": "Your {thing} is on top of the {surface}, {name}.",
+  "hint": "Your {thing} is ______ the {surface}, {name}.",
+  "key": "on",
+  "why": "On top of a surface = on it.",
+  "slots": {
+   "thing": [
+    "phone",
+    "book",
+    "key",
+    "pen"
+   ],
+   "surface": [
+    "table",
+    "desk",
+    "shelf",
+    "TV"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with on.",
+  "source": "There's a {thing} on top of the cupboard, {name}.",
+  "hint": "There's a {thing} ______ the cupboard, {name}.",
+  "key": "on",
+  "why": "On top of a surface = on it.",
+  "slots": {
+   "thing": [
+    "box",
+    "bag",
+    "clock",
+    "lamp"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with on.",
+  "source": "There are {n} books on top of the {furniture}.",
+  "hint": "There are {n} books ______ the {furniture}.",
+  "key": "on",
+  "why": "On top of a surface = on it.",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "five",
+    "ten"
+   ],
+   "furniture": [
+    "desk",
+    "table",
+    "piano",
+    "chair"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something on your desk.",
+  "requiredElement": "There's a … on my desk.",
+  "constraints": [
+   "exactly one sentence",
+   "on my desk",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a picture or poster on a wall at home.",
+  "requiredElement": "There's a … on the wall.",
+  "constraints": [
+   "exactly one sentence",
+   "on the wall",
+   "a room word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food on your plate today.",
+  "requiredElement": "There's … on my plate.",
+  "constraints": [
+   "exactly one sentence",
+   "on my plate",
+   "a food word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where your pet or a friend's pet likes to sleep.",
+  "requiredElement": "It sleeps on the …",
+  "constraints": [
+   "exactly one sentence",
+   "on the",
+   "an animal word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something on a shelf in your room.",
+  "requiredElement": "There are … on the shelf.",
+  "constraints": [
+   "exactly one sentence",
+   "on the shelf",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what is on the board in your classroom.",
+  "requiredElement": "There are … on the board.",
+  "constraints": [
+   "exactly one sentence",
+   "on the board",
+   "a school word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend can't find her keys. Write one sentence to help her.",
+  "requiredElement": "They're on the …",
+  "constraints": [
+   "exactly one sentence",
+   "on the",
+   "a furniture word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one about a thing on a table and one about a thing on a wall.",
+  "requiredElement": "… on the table. / … on the wall.",
+  "constraints": [
+   "exactly two sentences",
+   "on the table",
+   "on the wall"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your desk: what is on it now?",
+  "targetGrammar": "There's a … on my desk.",
+  "lookFor": [
+   "on",
+   "a thing word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the walls of your room: what pictures, posters or clocks are on them?",
+  "targetGrammar": "There's a … on the wall.",
+  "lookFor": [
+   "on the wall",
+   "a room word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the table before dinner at home.",
+  "targetGrammar": "There are … on the table.",
+  "lookFor": [
+   "on the table",
+   "a food or kitchen word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend is looking for things in your flat. Tell her where they are.",
+  "targetGrammar": "Your … is on the …",
+  "lookFor": [
+   "on the",
+   "a furniture word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your classroom: what is on the board, the walls and the desks?",
+  "targetGrammar": "There are … on the board.",
+  "lookFor": [
+   "on the board",
+   "on the wall",
+   "three or four sentences"
+  ]
+ }
+]

@@ -93,8 +93,10 @@ const COR = "Correct the mistake.";
 const INS = "Rewrite the sentence with in.";
 const TRANSFORM = [
   // Where …? (5)
-  ["Answer the question. Use in and the fridge.", "Where's the {food}?",
-...
+  ["Answer the question. Use in and the fridge.", "Where's the {food}?", "It's ______ fridge, {name}.", "in the", "The fridge is a container: in the fridge.", { food: ["milk", "butter", "cheese", "juice"], name: NAME }],
+  ["Answer the question. Use in and the garden.", "Where are the {kids}?", "They're ______ garden, {name}.", "in the", "A garden has walls or a fence around it: in the garden.", { kids: KIDS, name: NAME }],
+  ["Answer the question. Use in and your bag.", "Where's my {thing}?", "It's ______ bag, {name}.", "in your", "A bag is a container: in your bag.", { thing: ["phone", "pen", "ticket", "book"], name: NAME }],
+  ["Answer the question. Use in and the kitchen.", "Where's {who}?", "She's ______ kitchen, {name}.", "in the", "A kitchen is a room: in the kitchen.", { who: ["Mum", "Grandma", "your aunt", "your sister"], name: NAME }],
   ["Answer the question. Use in and the drawer.", "Where are the {things}?", "They're ______ drawer, {name}.", "in the", "A drawer is a container: in the drawer.", { things: ["spoons", "forks", "knives", "scissors"], name: NAME }],
   // correct the mistake (5)
   [COR, "{who} is at the kitchen, {name}.", "{who} is ______ the kitchen, {name}.", "in", "A kitchen is a room, so use in, not at.", { who: ["Mum", "Grandma", "My aunt", "Dad"], name: NAME }],
@@ -106,7 +108,7 @@ const TRANSFORM = [
   [INS, "The {thing} is inside the box, {name}.", "The {thing} is ______ the box, {name}.", "in", "Inside a container = in it.", { thing: ["present", "cake", "toy", "watch"], name: NAME }],
   [INS, "There's some {drink} inside the {container}.", "There's some {drink} ______ the {container}.", "in", "Inside a container = in it.", { drink: ["water", "juice", "milk", "tea"], container: ["bottle", "jug", "cup", "glass"] }],
   [INS, "The children are inside the {room}, {name}.", "The children are ______ the {room}, {name}.", "in", "Inside a building or a room = in it.", { room: ["house", "school", "classroom", "museum"], name: NAME }],
-  [INS, "My {thing} is inside my {bag}, {name}.", "My {thing} is ______ my {bag}, {name}.", "in", "Inside a bag = in it.", { thing: ["phone", "book", "key", "pen"], bag: ["bag", "backpack", "pocket", "pencil case"], name: NAME }],
+  [INS, "My {thing} is inside my {bag}, {name}.", "My {thing} is ______ my {bag}, {name}.", "in", "Inside a bag = in it.", { thing: ["phone", "book", "key", "pen"], bag: ["bag", "backpack", "school bag", "handbag"], name: NAME }],
   [INS, "The {animal} is inside the {room}.", "The {animal} is ______ the {room}.", "in", "Inside a building or a room = in it.", { animal: ["bird", "cat", "hamster", "rabbit"], room: ["house", "kitchen", "garage", "shed"] }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
 

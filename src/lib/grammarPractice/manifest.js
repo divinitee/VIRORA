@@ -534,6 +534,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.place.in-container": {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "prep-phrasal.place.on-surface": {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "on-surface",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 368,
+   "build": 320,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.time.at-clock": {
   "domain": "prep-phrasal",
   "branch": "time",
