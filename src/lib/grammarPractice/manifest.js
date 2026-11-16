@@ -16,6 +16,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "adj-adv.adverb-form.irregular-adverb": {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 344,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "adj-adv.adverb-form.ly-adverb": {
   "domain": "adj-adv",
   "branch": "adverb-form",
