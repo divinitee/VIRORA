@@ -562,6 +562,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.dependent-prepositions.adjective-preposition": {
+  "domain": "prep-phrasal",
+  "branch": "dependent-prepositions",
+  "topic": "adjective-preposition",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 368,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.phrasal-verbs.common-phrasal": {
   "domain": "prep-phrasal",
   "branch": "phrasal-verbs",
