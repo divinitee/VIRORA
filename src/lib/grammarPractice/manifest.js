@@ -240,6 +240,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.ability-permission.could-past-ability": {
+  "domain": "modals",
+  "branch": "ability-permission",
+  "topic": "could-past-ability",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 236,
+   "build": 236,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.advice.should": {
   "domain": "modals",
   "branch": "advice",
@@ -249,6 +263,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 296,
    "build": 296,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.deduction.might-possibility": {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-possibility",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 560,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -529,6 +557,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 284,
    "build": 212,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "prep-phrasal.movement.go-home": {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 368,
    "transform": 240,
    "create": 8,
    "express": 5

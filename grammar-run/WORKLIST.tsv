@@ -111,11 +111,11 @@
 110	B	modals.ability-permission.can-question	A1	1	live	Modal question: can + subject + verb
 111	B	modals.ability-permission.can-request	A1	1	live	Can for a request
 112	B	modals.ability-permission.cant-ability	A1	1	live	can't for lack of ability; no 'doesn't'
-113	B	modals.ability-permission.could-past-ability	A2	1	todo	could for past ability
+113	B	modals.ability-permission.could-past-ability	A2	1	live	could for past ability
 114	B	modals.obligation.must	A2	1	live	must for strong obligation
 115	B	modals.obligation.mustnt-vs-dont-have-to	A2	2	live	mustn't (prohibition) vs don't have to (no obligation) | don't have to = not necessary
 116	B	modals.advice.should	A2	1	live	should for advice
-117	B	modals.deduction.might-possibility	A2	1	todo	might for possibility
+117	B	modals.deduction.might-possibility	A2	1	live	might for possibility
 118	B	modals.semi-modals.have-to	A2	1	live	have to for external necessity
 119	B	prep-phrasal.place.between	A1	1	live	between two named places
 120	B	prep-phrasal.place.in-container	A1	1	live	in for a container
@@ -128,7 +128,7 @@
 127	B	prep-phrasal.place.in-area	A2	1	live	in for an enclosed area (garden)
 128	B	prep-phrasal.time.since-for	A2	1	todo	since with a start point
 129	B	prep-phrasal.movement.arrive-at-in	A2	1	todo	arrive at (a point) — never 'arrive to'
-130	B	prep-phrasal.movement.go-home	A2	1	todo	No preposition before 'home' after go/come
+130	B	prep-phrasal.movement.go-home	A2	1	live	No preposition before 'home' after go/come
 131	B	prep-phrasal.movement.to-vs-in	A2	1	todo	to for movement towards, in for location
 132	B	prep-phrasal.dependent-prepositions.adjective-preposition	A2	1	todo	good at / afraid of
 133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	todo	interested in
