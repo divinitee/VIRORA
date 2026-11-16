@@ -117,16 +117,16 @@ const TRANSFORM = [
   [RW, "Those are their {things}, {who}.", "Those {things} are ______, {who}.", "theirs", "Their + noun → theirs: Those books are theirs.", { things: THINGS, who: TEACH }],
   // correct the mistake (5)
   [COR, "This {thing} is my, {name}.", "This {thing} is ______, {name}.", "mine", "No noun after it, so use mine, not my.", { thing: THING, name: NAME }],
-  [COR, "The {color} {thing} is her's.", "The {color} {thing} is ______.", "hers", "Hers has no apostrophe.", { color: COLOR, thing: ["bag", "bike", "coat", "phone"] }],
+  [COR, "The {color} {thing} is her's.", "The {color} {thing} is ______.", "hers", "Hers never has an apostrophe: her's is wrong.", { color: COLOR, thing: ["bag", "bike", "coat", "phone"] }],
   [COR, "Is this {thing} your, {name}?", "Is this {thing} ______, {name}?", "yours", "No noun after it, so use yours, not your.", { thing: THING, name: NAME }],
-  [COR, "These {things} are our's, {name}.", "These {things} are ______, {name}.", "ours", "Ours has no apostrophe.", { things: THINGS, name: NAME }],
+  [COR, "These {things} are our's, {name}.", "These {things} are ______, {name}.", "ours", "Ours never has an apostrophe: our's is wrong.", { things: THINGS, name: NAME }],
   [COR, "Those {things} are their, {who}.", "Those {things} are ______, {who}.", "theirs", "No noun after it, so use theirs, not their.", { things: THINGS, who: TEACH }],
   // whose? (5)
-  [WHOSE, "Whose {thing} is this? – It's {name}'s.", "Whose {thing} is this? – It's ______.", "his", "Aziz's → his.", { thing: THING, name: HE }],
-  [WHOSE, "Whose {thing} is this? – It's my {who}'s.", "Whose {thing} is this? – It's ______.", "hers", "My mum's, my sister's → hers.", { thing: THING, who: ["mum", "sister", "aunt", "grandma"] }],
-  [WHOSE, "Whose {things} are these? – They're my {who}'.", "Whose {things} are these? – They're ______.", "theirs", "My parents', my cousins' → theirs.", { things: THINGS, who: ["parents", "cousins", "grandparents", "neighbours"] }],
-  [WHOSE, "Whose {thing} is this, {name}? – It's my {thing}.", "Whose {thing} is this, {name}? – It's ______.", "mine", "My phone → mine.", { thing: THING, name: NAME }],
-  [WHOSE, "Whose {pet} is that, {name}? – It's our {pet}.", "Whose {pet} is that, {name}? – It's ______.", "ours", "Our dog → ours.", { pet: PET, name: NAME }],
+  [WHOSE, "Whose {thing} is this? – It's {name}'s.", "Whose {thing} is this? – It's ______.", "his", "A boy's thing → his, with no noun after it.", { thing: THING, name: HE }],
+  [WHOSE, "Whose {thing} is this? – It's my {who}'s.", "Whose {thing} is this? – It's ______.", "hers", "My mum's or my sister's thing → hers.", { thing: THING, who: ["mum", "sister", "aunt", "grandma"] }],
+  [WHOSE, "Whose {things} are these? – They're my {who}'.", "Whose {things} are these? – They're ______.", "theirs", "My parents' or my cousins' things → theirs.", { things: THINGS, who: ["parents", "cousins", "grandparents", "neighbours"] }],
+  [WHOSE, "Whose {thing} is this, {name}? – It's my {thing}.", "Whose {thing} is this, {name}? – It's ______.", "mine", "My + noun → mine, with no noun after it.", { thing: THING, name: NAME }],
+  [WHOSE, "Whose {pet} is that, {name}? – It's our {pet}.", "Whose {pet} is that, {name}? – It's ______.", "ours", "Our + noun → ours, with no noun after it.", { pet: PET, name: NAME }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
 
 /* ---------------- create: 8 ---------------- */

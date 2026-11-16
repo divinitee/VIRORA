@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {food} is ______ the fridge. It's nice and cold, {name}.",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "food": [
+    "milk",
+    "juice",
+    "butter",
+    "cheese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} is ______ my pocket, {name}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "thing": [
+    "phone",
+    "key",
+    "ticket",
+    "pen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{who} is ______ the kitchen. She's cooking {food}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Grandma",
+    "My aunt",
+    "My sister"
+   ],
+   "food": [
+    "plov",
+    "soup",
+    "dinner",
+    "rice"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {things} are ______ my bag, {name}. Here they are.",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "things": [
+    "books",
+    "pens",
+    "keys",
+    "glasses"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's some {drink} ______ the bottle, {name}.",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "milk",
+    "lemonade"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {things} are ______ the drawer. Open it, {name}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "things": [
+    "spoons",
+    "forks",
+    "knives",
+    "scissors"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {kids} are ______ the {room}. They're watching TV.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "room": [
+    "living room",
+    "bedroom",
+    "other room",
+    "small room"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's a lot of sugar ______ my {drink}, {name}.",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "juice",
+    "cocoa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} is ______ the wardrobe. Can you open the door, {name}?",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "thing": [
+    "coat",
+    "dress",
+    "jacket",
+    "shirt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {animal} is ______ the box. Only its {part} is outside.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "animal": [
+    "cat",
+    "kitten",
+    "puppy",
+    "rabbit"
+   ],
+   "part": [
+    "head",
+    "tail",
+    "ears",
+    "nose"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{who} is ______ the garden. She is picking {fruit}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "who": [
+    "Grandma",
+    "My aunt",
+    "Mum",
+    "My sister"
+   ],
+   "fruit": [
+    "apples",
+    "cherries",
+    "apricots",
+    "grapes"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are {n} apples ______ the bowl, {name}.",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{t} is ______ the classroom with the {kids}.",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "t": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "Mrs Karimova",
+    "Our teacher"
+   ],
+   "kids": [
+    "students",
+    "children",
+    "boys",
+    "girls"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's no {drink} ______ the glass, {name}. It's empty.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "milk",
+    "tea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {sib} is ______ the bathroom. Please wait, {name}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "sib": [
+    "brother",
+    "sister",
+    "cousin",
+    "dad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's some {food} ______ the pot. It's still hot, {name}.",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "food": [
+    "soup",
+    "rice",
+    "plov",
+    "tea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} is ______ my backpack, next to my books.",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pencil case",
+    "lunch box",
+    "water bottle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The fish are ______ the {tank}. They're swimming, {name}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "tank": [
+    "tank",
+    "pond",
+    "bowl",
+    "aquarium"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} is ______ his room. He's doing his {task}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "task": [
+    "homework",
+    "project",
+    "English homework",
+    "maths homework"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's something ______ this {box}. Can you guess what it is, {name}?",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "envelope",
+    "parcel"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's some {drink} ______ the jug, {name}.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "milk",
+    "lemonade"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "My {sib} is ______ the shower. Please wait, {name}.",
+  "key": "in",
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "sib": [
+    "brother",
+    "sister",
+    "cousin",
+    "dad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {kids} are ______ the garden. They are playing {game}.",
+  "key": "in",
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "game": [
+    "football",
+    "tag",
+    "hide and seek",
+    "with the dog"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "I keep my {things} ______ a box under my bed, {name}.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "things": [
+    "photos",
+    "toys",
+    "letters",
+    "old books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Your {thing} is ______ the washing machine, {name}!",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "thing": [
+    "shirt",
+    "scarf",
+    "jacket",
+    "hat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {food} is ______ the cupboard, next to the {food2}.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "food": [
+    "sugar",
+    "rice",
+    "tea",
+    "salt"
+   ],
+   "food2": [
+    "flour",
+    "pasta",
+    "coffee",
+    "jam"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "We are ______ the {room}. Come and join us, {name}.",
+  "key": "in",
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "garden",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Put your {thing} ______ your bag, {name}. It's raining.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "thing": [
+    "phone",
+    "book",
+    "ticket",
+    "notebook"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's too much milk ______ my {drink}, {name}.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "cocoa",
+    "cup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {animal} is ______ its cage. It's sleeping, {name}.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "animal": [
+    "bird",
+    "parrot",
+    "hamster",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There are {n} students ______ our class, {name}.",
+  "key": "in",
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "n": [
+    "twenty",
+    "twenty-five",
+    "thirty",
+    "eighteen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {thing} is ______ my wallet, {name}.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "thing": [
+    "money",
+    "card",
+    "ticket",
+    "photo"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "{name} is still ______ bed. She is {state}.",
+  "key": "in",
+  "why": "We say in bed: the person is under the blanket.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "state": [
+    "very tired",
+    "ill",
+    "sleepy",
+    "not well"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's some {food} ______ the bowl, {name}.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "food": [
+    "soup",
+    "rice",
+    "fruit",
+    "salad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The books are ______ the {box}. Can you carry it, {name}?",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "suitcase",
+    "backpack"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's a mouse ______ the kitchen, {who}!",
+  "key": "in",
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "My grandparents are ______ the {room} now. They are having tea, {name}.",
+  "key": "in",
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "garden",
+    "dining room"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The {things} are ______ the drawer by the {place}.",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "things": [
+    "forks",
+    "spoons",
+    "knives",
+    "pens"
+   ],
+   "place": [
+    "sink",
+    "window",
+    "door",
+    "cooker"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Is there any {drink} ______ the bottle, {name}?",
+  "key": "in",
+  "why": "The thing is inside a container, so use in.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "milk",
+    "oil"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Your {thing} is ______ the hall, {name}.",
+  "key": "in",
+  "why": "The person is inside a room or a garden, so use in.",
+  "slots": {
+   "thing": [
+    "bag",
+    "coat",
+    "umbrella",
+    "scarf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in.",
+  "source": "Where's the {food}? (the fridge)",
+  "hint": "It's ______ fridge, {name}.",
+  "key": "in the",
+  "why": "The fridge is a container: in the fridge.",
+  "slots": {
+   "food": [
+    "milk",
+    "butter",
+    "cheese",
+    "juice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in.",
+  "source": "Where are the {kids}? (the garden)",
+  "hint": "They're ______ garden, {name}.",
+  "key": "in the",
+  "why": "A garden has walls or a fence around it: in the garden.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in.",
+  "source": "Where's my {thing}? (your bag)",
+  "hint": "It's ______ bag, {name}.",
+  "key": "in your",
+  "why": "A bag is a container: in your bag.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "ticket",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in.",
+  "source": "Where's {who}? (the kitchen)",
+  "hint": "She's ______ kitchen, {name}.",
+  "key": "in the",
+  "why": "A kitchen is a room: in the kitchen.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Grandma",
+    "your aunt",
+    "your sister"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in.",
+  "source": "Where are the {things}? (the drawer)",
+  "hint": "They're ______ drawer, {name}.",
+  "key": "in the",
+  "why": "A drawer is a container: in the drawer.",
+  "slots": {
+   "things": [
+    "spoons",
+    "forks",
+    "knives",
+    "scissors"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{who} is at the kitchen, {name}.",
+  "hint": "{who} is ______ the kitchen, {name}.",
+  "key": "in",
+  "why": "A kitchen is a room, so use in, not at.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Grandma",
+    "My aunt",
+    "Dad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {thing} is on my pocket, {name}.",
+  "hint": "My {thing} is ______ my pocket, {name}.",
+  "key": "in",
+  "why": "A pocket is a container, so use in, not on.",
+  "slots": {
+   "thing": [
+    "phone",
+    "key",
+    "ticket",
+    "pen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There's some {drink} at the bottle, {name}.",
+  "hint": "There's some {drink} ______ the bottle, {name}.",
+  "key": "in",
+  "why": "A bottle is a container, so use in, not at.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "milk",
+    "lemonade"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {kids} are on the classroom, {name}.",
+  "hint": "The {kids} are ______ the classroom, {name}.",
+  "key": "in",
+  "why": "A classroom is a room, so use in, not on.",
+  "slots": {
+   "kids": [
+    "students",
+    "children",
+    "boys",
+    "girls"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} is still on bed. She's {state}.",
+  "hint": "{name} is still ______ bed. She's {state}.",
+  "key": "in",
+  "why": "We say in bed, not on bed.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "state": [
+    "very tired",
+    "ill",
+    "sleepy",
+    "not well"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with in.",
+  "source": "The {thing} is inside the box, {name}.",
+  "hint": "The {thing} is ______ the box, {name}.",
+  "key": "in",
+  "why": "Inside a container = in it.",
+  "slots": {
+   "thing": [
+    "present",
+    "cake",
+    "toy",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with in.",
+  "source": "There's some {drink} inside the {container}.",
+  "hint": "There's some {drink} ______ the {container}.",
+  "key": "in",
+  "why": "Inside a container = in it.",
+  "slots": {
+   "drink": [
+    "water",
+    "juice",
+    "milk",
+    "tea"
+   ],
+   "container": [
+    "bottle",
+    "jug",
+    "cup",
+    "glass"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with in.",
+  "source": "The children are inside the {room}, {name}.",
+  "hint": "The children are ______ the {room}, {name}.",
+  "key": "in",
+  "why": "Inside a building or a room = in it.",
+  "slots": {
+   "room": [
+    "house",
+    "school",
+    "classroom",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with in.",
+  "source": "My {thing} is inside my {bag}, {name}.",
+  "hint": "My {thing} is ______ my {bag}, {name}.",
+  "key": "in",
+  "why": "Inside a bag = in it.",
+  "slots": {
+   "thing": [
+    "phone",
+    "book",
+    "key",
+    "pen"
+   ],
+   "bag": [
+    "bag",
+    "backpack",
+    "pocket",
+    "pencil case"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with in.",
+  "source": "The {animal} is inside the {room}.",
+  "hint": "The {animal} is ______ the {room}.",
+  "key": "in",
+  "why": "Inside a building or a room = in it.",
+  "slots": {
+   "animal": [
+    "bird",
+    "cat",
+    "hamster",
+    "rabbit"
+   ],
+   "room": [
+    "house",
+    "kitchen",
+    "garage",
+    "shed"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something in your bag today.",
+  "requiredElement": "There's a … in my bag.",
+  "constraints": [
+   "exactly one sentence",
+   "in my bag",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food in your fridge.",
+  "requiredElement": "There's some … in the fridge.",
+  "constraints": [
+   "exactly one sentence",
+   "in the fridge",
+   "a food word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where your mum or dad is now.",
+  "requiredElement": "She's / He's in the …",
+  "constraints": [
+   "exactly one sentence",
+   "in the",
+   "a room word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something in your pocket.",
+  "requiredElement": "My … is in my pocket.",
+  "constraints": [
+   "exactly one sentence",
+   "in my pocket",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you keep in a box at home.",
+  "requiredElement": "I keep my … in a box.",
+  "constraints": [
+   "exactly one sentence",
+   "in a box",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend can't find his phone. Write one sentence to help him.",
+  "requiredElement": "It's in your …",
+  "constraints": [
+   "exactly one sentence",
+   "in your",
+   "a container word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where your pet sleeps.",
+  "requiredElement": "It sleeps in …",
+  "constraints": [
+   "exactly one sentence",
+   "in",
+   "an animal word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one about a thing in your bag and one about a person in a room.",
+  "requiredElement": "… in my bag. / … in the kitchen.",
+  "constraints": [
+   "exactly two sentences",
+   "in my bag",
+   "in the + room"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe what is in your school bag today.",
+  "targetGrammar": "in my bag / in my pencil case",
+  "lookFor": [
+   "in",
+   "a school word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are at a friend's flat. Ask where three things are, and write the answers.",
+  "targetGrammar": "Where's the …? – It's in the …",
+  "lookFor": [
+   "in the",
+   "a container or room word",
+   "three or four lines"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your kitchen: what is in the fridge, the cupboard and the drawers?",
+  "targetGrammar": "There's … in the …",
+  "lookFor": [
+   "in the fridge",
+   "in the cupboard or drawer",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a note for your brother: tell him where his things are.",
+  "targetGrammar": "Your … is in the …",
+  "lookFor": [
+   "in",
+   "a thing word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-container",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "It's Saturday morning. Say where everyone in your family is now.",
+  "targetGrammar": "Mum is in the kitchen. Dad is in the garden.",
+  "lookFor": [
+   "in the + room",
+   "a family word",
+   "three or four sentences"
+  ]
+ }
+]

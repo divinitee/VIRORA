@@ -674,6 +674,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.possessive.possessive-pronouns": {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 416,
+   "build": 368,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "questions-negation.negation.dont-doesnt": {
   "domain": "questions-negation",
   "branch": "negation",

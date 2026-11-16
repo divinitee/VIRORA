@@ -1377,7 +1377,7 @@
   "source": "The {color} {thing} is her's.",
   "hint": "The {color} {thing} is ______.",
   "key": "hers",
-  "why": "Hers has no apostrophe.",
+  "why": "Hers never has an apostrophe: her's is wrong.",
   "slots": {
    "color": [
     "white",
@@ -1433,7 +1433,7 @@
   "source": "These {things} are our's, {name}.",
   "hint": "These {things} are ______, {name}.",
   "key": "ours",
-  "why": "Ours has no apostrophe.",
+  "why": "Ours never has an apostrophe: our's is wrong.",
   "slots": {
    "things": [
     "books",
@@ -1489,7 +1489,7 @@
   "source": "Whose {thing} is this? – It's {name}'s.",
   "hint": "Whose {thing} is this? – It's ______.",
   "key": "his",
-  "why": "Aziz's → his.",
+  "why": "A boy's thing → his, with no noun after it.",
   "slots": {
    "thing": [
     "phone",
@@ -1517,7 +1517,7 @@
   "source": "Whose {thing} is this? – It's my {who}'s.",
   "hint": "Whose {thing} is this? – It's ______.",
   "key": "hers",
-  "why": "My mum's, my sister's → hers.",
+  "why": "My mum's or my sister's thing → hers.",
   "slots": {
    "thing": [
     "phone",
@@ -1545,7 +1545,7 @@
   "source": "Whose {things} are these? – They're my {who}'.",
   "hint": "Whose {things} are these? – They're ______.",
   "key": "theirs",
-  "why": "My parents', my cousins' → theirs.",
+  "why": "My parents' or my cousins' things → theirs.",
   "slots": {
    "things": [
     "books",
@@ -1573,7 +1573,7 @@
   "source": "Whose {thing} is this, {name}? – It's my {thing}.",
   "hint": "Whose {thing} is this, {name}? – It's ______.",
   "key": "mine",
-  "why": "My phone → mine.",
+  "why": "My + noun → mine, with no noun after it.",
   "slots": {
    "thing": [
     "phone",
@@ -1601,7 +1601,7 @@
   "source": "Whose {pet} is that, {name}? – It's our {pet}.",
   "hint": "Whose {pet} is that, {name}? – It's ______.",
   "key": "ours",
-  "why": "Our dog → ours.",
+  "why": "Our + noun → ours, with no noun after it.",
   "slots": {
    "pet": [
     "dog",
