@@ -104,7 +104,7 @@
 103	B	comparison.comparative.less-comparative	A2	1	live	less + adjective + than
 104	B	comparison.comparative.more-comparative	A2	1	live	more + long adjective
 105	B	comparison.superlative.est-superlative	A2	1	live	-iest spelling with 'the'
-106	B	comparison.superlative.irregular-superlative	A2	1	todo	best as superlative of good, with 'the'
+106	B	comparison.superlative.irregular-superlative	A2	1	live	best as superlative of good, with 'the'
 107	B	comparison.equality.as-as	A2	1	live	as + adj + as
 108	B	modals.ability-permission.can-ability	A1	1	live	can + base verb for ability
 109	B	modals.ability-permission.can-form	A1	2	live	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')

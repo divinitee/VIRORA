@@ -156,6 +156,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.superlative.irregular-superlative": {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 368,
+   "build": 320,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
  "conditionals-wishes.zero-first.first-if-clause": {
   "domain": "conditionals-wishes",
   "branch": "zero-first",
