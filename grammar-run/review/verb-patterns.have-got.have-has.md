@@ -64,7 +64,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: having · are have · ✔ have · has  
    why: With they or more than one person or thing, use have.
 
-16. My **cousin** ______ a shop in **Bukhara**.  
+16. Our **cousin** ______ a shop in **Bukhara**.  
    options: is have · ✔ has · have · having  
    why: With he, she, it or one person or thing, use has.
 
@@ -76,7 +76,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: have · having · is have · ✔ has  
    why: With he, she, it or one person or thing, use has.
 
-19. My **grandparents** ______ a **swing** in their garden.  
+19. Our **grandparents** ______ a **swing** in their garden.  
    options: having · are have · ✔ have · has  
    why: With they or more than one person or thing, use have.
 
@@ -201,8 +201,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: One person → has, not have.
 
 3. _Rewrite the sentence about one person. Use has._  
-   My brothers have a **guitar** in **the garage**.  
-   → My brother ______ a **guitar** in **the garage**.  
+   My brothers have a **guitar** in **the flat**.  
+   → My brother ______ a **guitar** in **the flat**.  
    key: has  
    why: One brother → has, not have.
 
@@ -231,8 +231,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: More than one sister → have.
 
 8. _Rewrite the sentence about more people. Use have._  
-   He has got a **cold** **this week**.  
-   → We ______ got a **cold** **this week**.  
+   He has got **two** cousins in **Fergana**.  
+   → We ______ got **two** cousins in **Fergana**.  
    key: have  
    why: With we, use have got.
 

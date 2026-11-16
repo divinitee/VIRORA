@@ -62,10 +62,10 @@ const CHOOSE = [
   [O_HAVE, W.i, "I ______ {n} brothers and a {age} sister.", { n: ["two", "three", "four", "five"], age: ["little", "big", "baby", "younger"] }],
   [O_HAS, W.has, "The {pet} ______ a little bed by the {place}.", { pet: ["cat", "dog", "puppy", "kitten"], place: ["window", "door", "sofa", "heater"] }],
   [O_HAVE2, W.they, "{pair} ______ a new {pet}.", { pair: ["Aziz and Lola", "Timur and Olga", "My aunt and uncle", "My cousins"], pet: ["puppy", "kitten", "parrot", "rabbit"] }],
-  [O_HAS, W.has, "My {who} ______ a shop in {city}.", { who: ["uncle", "aunt", "cousin", "neighbour"], city: CITY }],
+  [O_HAS, W.has, "Our {who} ______ a shop in {city}.", { who: ["uncle", "aunt", "cousin", "neighbour"], city: CITY }],
   [O_HAVE2, W.we, "We ______ a lot of {thing} at home, {name}.", { thing: ["books", "plants", "photos", "toys"], name: NAME }],
   [O_HAS, W.has, "{name} ______ a cold, so he is at home {when}.", { name: HE, when: ["today", "this morning", "again", "this week"] }],
-  [O_HAVE2, W.they, "My {who} ______ a {thing} in their garden.", { who: ["friends", "neighbours", "grandparents", "cousins"], thing: ["big table", "swing", "small pool", "tree house"] }],
+  [O_HAVE2, W.they, "Our {who} ______ a {thing} in their garden.", { who: ["friends", "neighbours", "grandparents", "cousins"], thing: ["big table", "swing", "small pool", "tree house"] }],
   [O_HAS, W.has, "This {room} ______ two {thing}.", { room: ["room", "classroom", "bedroom", "kitchen"], thing: ["windows", "doors", "lamps", "clocks"] }],
 ].map(([base, why, prompt, slots], i) => {
   const options = rot(base, i);
@@ -105,13 +105,13 @@ const TRANSFORM = [
   // -> has (5)
   [ONE, "I have a new {thing}.", "{name} ______ a new {thing}.", "has", "One person (he or she) → has.", { thing: ["bike", "phone", "bag", "watch"], name: NAME }],
   [ONE, "We have a small {place}.", "Our {who} ______ a small {place}.", "has", "One person → has, not have.", { place: ["garden", "car", "shop", "flat"], who: ["neighbour", "teacher", "uncle", "aunt"] }],
-  [ONE, "My brothers have a {thing} in {room}.", "My brother ______ a {thing} in {room}.", "has", "One brother → has, not have.", { thing: ["guitar", "computer", "bike", "camera"], room: ["his room", "the garage", "the flat", "the house"] }],
+  [ONE, "My brothers have a {thing} in {room}.", "My brother ______ a {thing} in {room}.", "has", "One brother → has, not have.", { thing: ["guitar", "computer", "bike", "camera"], room: ["the garage", "the flat", "the house", "the living room"] }],
   [ONE, "They have got a {color} car.", "Our {who} ______ got a {color} car.", "has", "One person → has got, not have got.", { color: COLOR, who: ["teacher", "neighbour", "uncle", "aunt"] }],
   [ONE, "My friends have a {pet} called {pn}.", "My friend ______ a {pet} called {pn}.", "has", "One friend → has, not have.", { pet: PET, pn: PN }],
   // -> have (5)
   [MORE, "She has two {thing}, {name}.", "They ______ two {thing}, {name}.", "have", "With they, use have: they have.", { thing: ["cats", "bikes", "phones", "rooms"], name: NAME }],
   [MORE, "My sister has long {colour} hair and {eye} eyes.", "My sisters ______ long {colour} hair and {eye} eyes.", "have", "More than one sister → have.", { colour: ["dark", "black", "brown", "fair"], eye: ["brown", "green", "blue", "dark"] }],
-  [MORE, "He has got a {ill} {when}.", "We ______ got a {ill} {when}.", "have", "With we, use have got.", { ill: ILL, when: ["today", "this morning", "again", "this week"] }],
+  [MORE, "He has got {n} cousins in {city}.", "We ______ got {n} cousins in {city}.", "have", "With we, use have got.", { n: ["two", "three", "four", "five"], city: CITY }],
   [MORE, "My cousin has a flat near the {place} in {city}.", "My cousins ______ a flat near the {place} in {city}.", "have", "More than one cousin → have.", { place: ["park", "bazaar", "station", "river"], city: CITY }],
   [MORE, "Lola has a new {thing}.", "Lola and {friend} ______ a new {thing}.", "have", "Two people → have, not has.", { friend: ["Olga", "Madina", "Kamila", "her sister"], thing: ["bag", "phone", "dress", "bike"] }],
   // correct the mistake (5)

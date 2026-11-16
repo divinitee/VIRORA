@@ -489,7 +489,7 @@ export default [
   "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My {who} ______ a shop in {city}.",
+  "prompt": "Our {who} ______ a shop in {city}.",
   "options": [
    "is have",
    "has",
@@ -585,7 +585,7 @@ export default [
   "level": "A1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My {who} ______ a {thing} in their garden.",
+  "prompt": "Our {who} ______ a {thing} in their garden.",
   "options": [
    "having",
    "are have",
@@ -1258,10 +1258,10 @@ export default [
     "camera"
    ],
    "room": [
-    "his room",
     "the garage",
     "the flat",
-    "the house"
+    "the house",
+    "the living room"
    ]
   }
  },
@@ -1386,22 +1386,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence about more people. Use have.",
-  "source": "He has got a {ill} {when}.",
-  "hint": "We ______ got a {ill} {when}.",
+  "source": "He has got {n} cousins in {city}.",
+  "hint": "We ______ got {n} cousins in {city}.",
   "key": "have",
   "why": "With we, use have got.",
   "slots": {
-   "ill": [
-    "cold",
-    "headache",
-    "sore throat",
-    "toothache"
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
    ],
-   "when": [
-    "today",
-    "this morning",
-    "again",
-    "this week"
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
    ]
   }
  },
