@@ -95,7 +95,7 @@ const BUILD = [
   ["Have", "______ the students got their {thing}, {who}?", { thing: ["books", "pens", "notebooks", "dictionaries"], who: TEACH }],
   ["Have", "______ your friends got a {thing} for the trip to {city}?", { thing: ["car", "map", "tent", "camera"], city: CITY }],
   ["Have", "______ I got any {msg} today, {name}?", { msg: ["messages", "letters", "emails", "calls"], name: NAME }],
-  ["Have", "______ you got any {food} in the {place}, {name}?", { food: ["milk", "juice", "cheese", "eggs"], place: ["fridge", "kitchen", "bag", "shop"] }],
+  ["Have", "______ you got any {food} in the {place}, {name}?", { food: ["milk", "juice", "cheese", "eggs"], place: ["fridge", "kitchen", "bag", "shop"], name: NAME }],
   ["Have", "______ your cousins got a flat in {city}, {name}?", { city: CITY, name: NAME }],
 ].map(([key, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR_B, source, key, why: key === "Has" ? W_HAS : W_HAVE, slots }));
 

@@ -82,8 +82,8 @@
 81	B	pronouns.indefinite.nothing-anything	A2	1	todo	nothing with an affirmative verb (no double negative)
 82	B	pronouns.indefinite.someone-anyone	A2	2	todo	someone in an affirmative statement | anyone in a negative statement
 83	B	pronouns.indefinite.something-offer	A2	1	todo	something in an offer question
-84	B	verb-patterns.have-got.have-got-negative	A1	1	todo	haven't got (not haven't have)
-85	B	verb-patterns.have-got.have-got-question	A1	1	todo	Has ... got question form
+84	B	verb-patterns.have-got.have-got-negative	A1	1	live	haven't got (not haven't have)
+85	B	verb-patterns.have-got.have-got-question	A1	1	live	Has ... got question form
 86	B	verb-patterns.have-got.have-has	A1	3	live	have (not has) with I | has with third person singular | Producing has got for third person
 87	B	verb-patterns.gerund-infinitive.decide-infinitive	A2	1	todo	decide + to-infinitive
 88	B	verb-patterns.gerund-infinitive.enjoy-gerund	A2	2	live	enjoy + -ing | like/love + -ing (or to) but never bare infinitive

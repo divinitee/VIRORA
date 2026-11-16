@@ -1416,6 +1416,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.have-got.have-got-negative": {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 368,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "verb-patterns.have-got.have-got-question": {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 416,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.have-got.have-has": {
   "domain": "verb-patterns",
   "branch": "have-got",
