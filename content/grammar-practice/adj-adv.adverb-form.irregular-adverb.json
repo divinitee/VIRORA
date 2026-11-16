@@ -871,7 +871,7 @@
    "place": [
     "bakery",
     "hospital",
-    "farm",
+    "factory",
     "market"
    ]
   }
@@ -1503,7 +1503,7 @@
    ],
    "place": [
     "factory",
-    "farm",
+    "bakery",
     "market",
     "hospital"
    ]

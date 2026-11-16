@@ -77,7 +77,7 @@
 76	B	pronouns.demonstrative.that-those-far	A1	2	live	those for plural far objects | those as a pronoun for plural far items
 77	B	pronouns.demonstrative.this-these-near	A1	2	live	this for a single near object | these for plural near objects
 78	B	pronouns.personal.subject-object-contrast	A2	1	todo	Object pronoun after a preposition in a coordinated phrase
-79	B	pronouns.substitution.one-ones	A2	3	todo	one replacing a singular countable noun | ones replacing a plural noun | 'those' as a formal substitute for 'the ones' before a post-modifier
+79	B	pronouns.substitution.one-ones	A2	3	live	one replacing a singular countable noun | ones replacing a plural noun | 'those' as a formal substitute for 'the ones' before a post-modifier
 80	B	pronouns.indefinite.indefinite-agreement	A2	2	todo	everyone takes a singular verb | Singular verb after 'nobody' despite plural meaning
 81	B	pronouns.indefinite.nothing-anything	A2	1	todo	nothing with an affirmative verb (no double negative)
 82	B	pronouns.indefinite.someone-anyone	A2	2	todo	someone in an affirmative statement | anyone in a negative statement

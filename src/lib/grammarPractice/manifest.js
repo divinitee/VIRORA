@@ -716,6 +716,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.substitution.one-ones": {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "one-ones",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 512,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "questions-negation.negation.dont-doesnt": {
   "domain": "questions-negation",
   "branch": "negation",

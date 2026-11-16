@@ -873,7 +873,7 @@ export default [
    "place": [
     "bakery",
     "hospital",
-    "farm",
+    "factory",
     "market"
    ]
   }
@@ -1505,7 +1505,7 @@ export default [
    ],
    "place": [
     "factory",
-    "farm",
+    "bakery",
     "market",
     "hospital"
    ]
