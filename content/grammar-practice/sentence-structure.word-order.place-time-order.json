@@ -73,13 +73,13 @@
   "format": "mcq",
   "prompt": "______. They bring {food} from their {place}.",
   "options": [
-   "My grandparents every summer visit us in Tashkent",
-   "My grandparents visit in Tashkent us every summer",
-   "My grandparents visit us in Tashkent every summer",
-   "My grandparents visit us every summer in Tashkent"
+   "My grandparents every summer take the train to Tashkent",
+   "My grandparents take to Tashkent the train every summer",
+   "My grandparents take the train to Tashkent every summer",
+   "My grandparents take the train every summer to Tashkent"
   ],
   "key": 2,
-  "why": "Where comes before when: in Tashkent (where) + every summer (when). The time never goes between the verb and its object.",
+  "why": "Where comes before when: to Tashkent (where) + every summer (when). The time never goes between the verb and its object.",
   "slots": {
    "food": [
     "apricots",
@@ -167,15 +167,15 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "______. Our teacher is {who}, {name}.",
+  "prompt": "______. The librarian is {who}, {name}.",
   "options": [
-   "We have English on Tuesdays in this room",
-   "We on Tuesdays have English in this room",
-   "We have in this room English on Tuesdays",
-   "We have English in this room on Tuesdays"
+   "We take our books on Tuesdays to the library",
+   "We on Tuesdays take our books to the library",
+   "We take to the library our books on Tuesdays",
+   "We take our books to the library on Tuesdays"
   ],
   "key": 3,
-  "why": "Where comes before when: in this room (where) + on Tuesdays (when). The time never goes between the verb and its object.",
+  "why": "Where comes before when: to the library (where) + on Tuesdays (when). The time never goes between the verb and its object.",
   "slots": {
    "who": [
     "Ms Ivanova",
@@ -201,13 +201,13 @@
   "format": "mcq",
   "prompt": "______. They drink {drink} and talk about {topic}.",
   "options": [
-   "Aziz after work meets his friends at the café",
-   "Aziz meets at the café his friends after work",
-   "Aziz meets his friends at the café after work",
-   "Aziz meets his friends after work at the café"
+   "Aziz after work takes his friends to the café",
+   "Aziz takes to the café his friends after work",
+   "Aziz takes his friends to the café after work",
+   "Aziz takes his friends after work to the café"
   ],
   "key": 2,
-  "why": "Where comes before when: at the café (where) + after work (when). The time never goes between the verb and its object.",
+  "why": "Where comes before when: to the café (where) + after work (when). The time never goes between the verb and its object.",
   "slots": {
    "drink": [
     "tea",
@@ -361,13 +361,13 @@
   "format": "mcq",
   "prompt": "______. He wants to win the {event} this {when}.",
   "options": [
-   "Timur plays at the club chess on Wednesdays",
-   "Timur plays chess at the club on Wednesdays",
-   "Timur plays chess on Wednesdays at the club",
-   "Timur on Wednesdays plays chess at the club"
+   "Timur takes to the club his chess set on Wednesdays",
+   "Timur takes his chess set to the club on Wednesdays",
+   "Timur takes his chess set on Wednesdays to the club",
+   "Timur on Wednesdays takes his chess set to the club"
   ],
   "key": 1,
-  "why": "Where comes before when: at the club (where) + on Wednesdays (when). The time never goes between the verb and its object.",
+  "why": "Where comes before when: to the club (where) + on Wednesdays (when). The time never goes between the verb and its object.",
   "slots": {
    "event": [
     "city cup",
@@ -425,13 +425,13 @@
   "format": "mcq",
   "prompt": "______. We stay for {n} weeks with {who}.",
   "options": [
-   "We see our cousins every summer in Samarkand",
-   "We every summer see our cousins in Samarkand",
-   "We see in Samarkand our cousins every summer",
-   "We see our cousins in Samarkand every summer"
+   "We drive our car every summer to Samarkand",
+   "We every summer drive our car to Samarkand",
+   "We drive to Samarkand our car every summer",
+   "We drive our car to Samarkand every summer"
   ],
   "key": 3,
-  "why": "Where comes before when: in Samarkand (where) + every summer (when). The time never goes between the verb and its object.",
+  "why": "Where comes before when: to Samarkand (where) + every summer (when). The time never goes between the verb and its object.",
   "slots": {
    "n": [
     "two",
@@ -1289,8 +1289,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the word order: place, then time.",
-  "source": "My {sib} takes the bus every morning to school.",
-  "hint": "My {sib} takes the bus ______ ______.",
+  "source": "My {sib} takes the bus every morning to school, {name}.",
+  "hint": "My {sib} takes the bus ______ ______, {name}.",
   "key": [
    "to school",
    "every morning"
@@ -1302,6 +1302,12 @@
     "sister",
     "cousin",
     "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1345,8 +1351,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the word order: place, then time.",
-  "source": "My {who} buys fruit on Sundays at the bazaar.",
-  "hint": "My {who} buys fruit ______ ______.",
+  "source": "My {who} buys {food} on Sundays at the bazaar.",
+  "hint": "My {who} buys {food} ______ ______.",
   "key": [
    "at the bazaar",
    "on Sundays"
@@ -1358,6 +1364,12 @@
     "dad",
     "grandma",
     "uncle"
+   ],
+   "food": [
+    "fruit",
+    "vegetables",
+    "meat",
+    "rice"
    ]
   }
  },
@@ -1401,8 +1413,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the word order: place, then time.",
-  "source": "I every morning walk to school with my {who}.",
-  "hint": "I walk ______ ______ with my {who}.",
+  "source": "I every morning walk to school with my {who}, {name}.",
+  "hint": "I walk ______ ______ with my {who}, {name}.",
   "key": [
    "to school",
    "every morning"
@@ -1414,6 +1426,12 @@
     "sister",
     "cousin",
     "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1457,8 +1475,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the word order: place, then time.",
-  "source": "My {who} on Saturdays meet their friends at the café.",
-  "hint": "My {who} meet their friends ______ ______.",
+  "source": "My {who} on Saturdays meet their friends at the café, {name}.",
+  "hint": "My {who} meet their friends ______ ______, {name}.",
   "key": [
    "at the café",
    "on Saturdays"
@@ -1470,6 +1488,12 @@
     "brothers",
     "cousins",
     "sisters"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1513,19 +1537,25 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the word order: place, then time.",
-  "source": "We on {day} have breakfast at home in the morning.",
-  "hint": "We have breakfast ______ ______ on {day}.",
+  "source": "We every Sunday have {meal} at home, {name}.",
+  "hint": "We have {meal} ______ ______, {name}.",
   "key": [
    "at home",
-   "in the morning"
+   "every Sunday"
   ],
   "why": "The time never goes between the subject and the verb here: put it at the end, after the place.",
   "slots": {
-   "day": [
-    "Sundays",
-    "holidays",
-    "Saturdays",
-    "Fridays"
+   "meal": [
+    "breakfast",
+    "pancakes",
+    "eggs",
+    "porridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
