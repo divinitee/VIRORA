@@ -93,7 +93,7 @@ const BUILD = [
   b1("g", "The {season} holidays are the ______ (good) time of the year, {name}.",
     { season: ["summer", "winter", "spring", "New Year"], name: N4 }),
   b1("g", "We had the ______ (good) seats in the {place}, right at the {where}.",
-    { place: ["cinema", "theatre", "stadium", "hall"], where: ["front", "centre", "top", "side"] }),
+    { place: ["cinema", "theatre", "stadium", "hall"], where: ["front", "centre", "middle", "very front"] }),
   b1("w", "It was the ______ (bad) {thing} of my school life, {name}.",
     { thing: ["day", "exam", "mark", "week"], name: P4 }),
   b1("w", "This {place} has the ______ (bad) {thing} in the city.",

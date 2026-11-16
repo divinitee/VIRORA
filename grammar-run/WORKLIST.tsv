@@ -98,7 +98,7 @@
 97	B	adj-adv.adjective-form.adjective-before-noun	A1	1	live	Adjective + noun order (adjective does not take plural -s)
 98	B	adj-adv.adjective-form.adjective-after-be	A2	1	todo	Adjective (not adverb) after be/feel/look
 99	B	adj-adv.adverb-form.irregular-adverb	A2	2	todo	well is the adverb of good | hard is both adjective and adverb; 'hardly' means 'almost not'
-100	B	adj-adv.adverb-form.ly-adverb	A2	2	todo	-ly adverb modifies a verb | Forming -ly adverb from an adjective ending in -y
+100	B	adj-adv.adverb-form.ly-adverb	A2	2	live	-ly adverb modifies a verb | Forming -ly adverb from an adjective ending in -y
 101	B	comparison.comparative.er-comparative	A1	3	live	-er comparative of a short adjective with 'than' | Spelling of -er with a final consonant doubled | -er comparative (not 'more fast')
 102	B	comparison.comparative.double-comparative-error	A2	1	live	Not combining more with -er
 103	B	comparison.comparative.less-comparative	A2	1	live	less + adjective + than

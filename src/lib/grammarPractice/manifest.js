@@ -16,6 +16,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "adj-adv.adverb-form.ly-adverb": {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "ly-adverb",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 368,
+   "build": 512,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "adj-adv.frequency.adverb-position": {
   "domain": "adj-adv",
   "branch": "frequency",

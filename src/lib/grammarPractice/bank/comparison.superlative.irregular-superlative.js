@@ -804,8 +804,8 @@ export default [
    "where": [
     "front",
     "centre",
-    "top",
-    "side"
+    "middle",
+    "very front"
    ]
   }
  },
