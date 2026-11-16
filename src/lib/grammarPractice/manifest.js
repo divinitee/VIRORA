@@ -72,6 +72,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.comparative.double-comparative-error": {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "double-comparative-error",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.comparative.er-comparative": {
   "domain": "comparison",
   "branch": "comparative",
