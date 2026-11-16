@@ -1454,10 +1454,10 @@ export default [
     "her sister"
    ],
    "thing": [
-    "bag",
-    "phone",
-    "dress",
-    "bike"
+    "teacher",
+    "puppy",
+    "game",
+    "neighbour"
    ]
   }
  },

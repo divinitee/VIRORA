@@ -243,8 +243,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: More than one cousin → have.
 
 10. _Rewrite the sentence about more people. Use have._  
-   Lola has a new **phone**.  
-   → Lola and **Kamila** ______ a new **phone**.  
+   Lola has a new **puppy**.  
+   → Lola and **Kamila** ______ a new **puppy**.  
    key: have  
    why: Two people → have, not has.
 

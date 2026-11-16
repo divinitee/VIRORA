@@ -113,7 +113,7 @@ const TRANSFORM = [
   [MORE, "My sister has long {colour} hair and {eye} eyes.", "My sisters ______ long {colour} hair and {eye} eyes.", "have", "More than one sister → have.", { colour: ["dark", "black", "brown", "fair"], eye: ["brown", "green", "blue", "dark"] }],
   [MORE, "He has got {n} cousins in {city}.", "We ______ got {n} cousins in {city}.", "have", "With we, use have got.", { n: ["two", "three", "four", "five"], city: CITY }],
   [MORE, "My cousin has a flat near the {place} in {city}.", "My cousins ______ a flat near the {place} in {city}.", "have", "More than one cousin → have.", { place: ["park", "bazaar", "station", "river"], city: CITY }],
-  [MORE, "Lola has a new {thing}.", "Lola and {friend} ______ a new {thing}.", "have", "Two people → have, not has.", { friend: ["Olga", "Madina", "Kamila", "her sister"], thing: ["bag", "phone", "dress", "bike"] }],
+  [MORE, "Lola has a new {thing}.", "Lola and {friend} ______ a new {thing}.", "have", "Two people → have, not has.", { friend: ["Olga", "Madina", "Kamila", "her sister"], thing: ["teacher", "puppy", "game", "neighbour"] }],
   // correct the mistake (5)
   [COR, "She have a {pet} called {pn}.", "She ______ a {pet} called {pn}.", "has", "She → has, not have.", { pet: PET, pn: PN }],
   [COR, "I has two {sib} in {city}.", "I ______ two {sib} in {city}.", "have", "I → have, not has.", { sib: ["sisters", "brothers", "cousins", "aunts"], city: CITY }],

@@ -132,7 +132,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: It is not allowed or not safe, so use mustn't.
 
 10. _Write mustn't, don't have to or doesn't have to._  
-   **Aziz** ______ play football today. He hurt his **knee** yesterday.  
+   **Aziz** ______ play football today. He hurt his **knee**, and the doctor says no.  
    key: mustn't  
    why: It is not allowed or not safe, so use mustn't. Mustn't is the same for he and she.
 

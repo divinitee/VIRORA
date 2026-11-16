@@ -116,7 +116,7 @@ const BUILD = [
     { place: ["library", "reading room", "study room", "book club"], name: NAME }],
   ["m", "You ______ show this message to {who}, {name}. It's a secret.",
     { who: ["anyone", "your brother", "Mum", "your friends"], name: NAME }],
-  ["hm", "{name} ______ play football today. He hurt his {part} yesterday.",
+  ["hm", "{name} ______ play football today. He hurt his {part}, and the doctor says no.",
     { name: HE, part: ["leg", "knee", "foot", "ankle"] }],
   // don't / doesn't have to (10)
   ["d", "You ______ wash the {thing}, {name}. We've got a dishwasher.",

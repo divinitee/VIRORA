@@ -117,7 +117,7 @@
 116	B	modals.advice.should	A2	1	live	should for advice
 117	B	modals.deduction.might-possibility	A2	1	todo	might for possibility
 118	B	modals.semi-modals.have-to	A2	1	live	have to for external necessity
-119	B	prep-phrasal.place.between	A1	1	todo	between two named places
+119	B	prep-phrasal.place.between	A1	1	live	between two named places
 120	B	prep-phrasal.place.in-container	A1	1	live	in for a container
 121	B	prep-phrasal.place.on-surface	A1	2	live	on for a surface | on the wall (vertical surface)
 122	B	prep-phrasal.time.at-clock	A1	1	live	at with clock times

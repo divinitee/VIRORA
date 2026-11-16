@@ -879,7 +879,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write mustn't, don't have to or doesn't have to.",
-  "source": "{name} ______ play football today. He hurt his {part} yesterday.",
+  "source": "{name} ______ play football today. He hurt his {part}, and the doctor says no.",
   "key": "mustn't",
   "why": "It is not allowed or not safe, so use mustn't. Mustn't is the same for he and she.",
   "slots": {

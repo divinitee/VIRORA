@@ -534,6 +534,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.place.between": {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "between",
+  "level": "A1",
+  "authored": 68,
+  "stages": {
+   "choose": 524,
+   "build": 440,
+   "transform": 408,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.place.in-container": {
   "domain": "prep-phrasal",
   "branch": "place",
