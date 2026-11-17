@@ -36,8 +36,8 @@ function RecapMistakes({ mistakes, c, lang, navigate }) {
                 {m.explanation_uz ? <p className="text-xs text-muted-foreground">{m.explanation_uz}</p> : null}
                 {links.length ? (
                   <div className="flex flex-wrap gap-2 pt-1">
-                    {links.map((l) => (
-                      <Button key={l.topic} size="sm" variant="outline" className="h-8" onClick={() => navigate(l.href)}>{c.practise}</Button>
+                    {links.map((l, i) => (
+                      <Button key={l.topic} size="sm" variant="outline" className="h-8" onClick={() => navigate(l.href)}>{c.practise}{links.length > 1 ? ` ${i + 1}` : ""}</Button>
                     ))}
                   </div>
                 ) : null}
