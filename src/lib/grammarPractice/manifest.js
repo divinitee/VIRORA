@@ -772,6 +772,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.indefinite.nothing-anything": {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 248,
+   "build": 248,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "pronouns.indefinite.someone-anyone": {
   "domain": "pronouns",
   "branch": "indefinite",
@@ -782,6 +796,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 224,
    "build": 236,
    "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.indefinite.something-offer": {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "something-offer",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 308,
+   "transform": 240,
    "create": 8,
    "express": 5
   }

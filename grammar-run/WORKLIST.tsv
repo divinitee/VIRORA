@@ -79,9 +79,9 @@
 78	B	pronouns.personal.subject-object-contrast	A2	1	live	Object pronoun after a preposition in a coordinated phrase
 79	B	pronouns.substitution.one-ones	A2	3	todo	one replacing a singular countable noun | ones replacing a plural noun | 'those' as a formal substitute for 'the ones' before a post-modifier
 80	B	pronouns.indefinite.indefinite-agreement	A2	2	todo	everyone takes a singular verb | Singular verb after 'nobody' despite plural meaning
-81	B	pronouns.indefinite.nothing-anything	A2	1	todo	nothing with an affirmative verb (no double negative)
+81	B	pronouns.indefinite.nothing-anything	A2	1	live	nothing with an affirmative verb (no double negative)
 82	B	pronouns.indefinite.someone-anyone	A2	2	live	someone in an affirmative statement | anyone in a negative statement
-83	B	pronouns.indefinite.something-offer	A2	1	todo	something in an offer question
+83	B	pronouns.indefinite.something-offer	A2	1	live	something in an offer question
 84	B	verb-patterns.have-got.have-got-negative	A1	1	live	haven't got (not haven't have)
 85	B	verb-patterns.have-got.have-got-question	A1	1	live	Has ... got question form
 86	B	verb-patterns.have-got.have-has	A1	3	live	have (not has) with I | has with third person singular | Producing has got for third person
