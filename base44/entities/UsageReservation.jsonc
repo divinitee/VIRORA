@@ -16,7 +16,8 @@
         "material_run",
         "receipt_submit",
         "chat_message",
-        "checkout_create"
+        "checkout_create",
+        "live_teacher_session"
       ]
     },
     "date": {

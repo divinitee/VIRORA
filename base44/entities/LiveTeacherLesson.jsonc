@@ -1,0 +1,101 @@
+{
+  "name": "LiveTeacherLesson",
+  "type": "object",
+  "description": "One Live Teacher voice lesson. Counters and the teacher's own short summary only: no audio, no transcript. Created and updated only by liveTeacherApi (service role); students read their own rows.",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["normal", "strict", "exam"]
+    },
+    "age_group": {
+      "type": "string",
+      "enum": ["kid", "teen", "adult"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["started", "ended"]
+    },
+    "started_at": {
+      "type": "string"
+    },
+    "ended_at": {
+      "type": "string"
+    },
+    "duration_s": {
+      "type": "number"
+    },
+    "max_minutes": {
+      "type": "number",
+      "description": "Hard length of this lesson (core MAX_MINUTES). Tools are refused 5 minutes past it."
+    },
+    "model": {
+      "type": "string"
+    },
+    "tool_calls": {
+      "type": "number"
+    },
+    "mistakes_logged": {
+      "type": "number"
+    },
+    "new_mistakes": {
+      "type": "number"
+    },
+    "repeated_mistakes": {
+      "type": "number"
+    },
+    "mastered_now": {
+      "type": "number"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "strengths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "focus_next": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "level_at_end": {
+      "type": "string"
+    },
+    "scores": {
+      "type": "object",
+      "description": "Exam mode only."
+    }
+  },
+  "required": ["user_email", "mode", "status"],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {
+      "$or": [
+        {
+          "data.user_email": "{{user.email}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

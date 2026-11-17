@@ -69,6 +69,9 @@ export const USER_DATA_ENTITIES = [
   { name: "LeafState", emailFields: ["user_email"], idFields: [] },
   { name: "ThemeProgress", emailFields: ["user_email"], idFields: [] },
   { name: "UsageReservation", emailFields: ["user_email"], idFields: ["user_id"] },
+  // Live Teacher (AI voice teacher) memory + lesson counters. No audio or transcripts are stored.
+  { name: "LiveTeacherProfile", emailFields: ["user_email"], idFields: [] },
+  { name: "LiveTeacherLesson", emailFields: ["user_email"], idFields: [] },
   // A student's own submissions. teacher_id names the OTHER party.
   { name: "HomeworkSubmission", emailFields: ["student_email"], idFields: ["student_id"], excluded: ["teacher_id"] },
   // A teacher's own assignments and uploaded materials. Students' submissions

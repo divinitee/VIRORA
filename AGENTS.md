@@ -23,6 +23,7 @@ npx skills add base44/skills
 - `src/lib/adaptiveGrammar/README.md`: the dataset's own item contract and layout.
 - `tools/grammar-placement-sim/README.md`: offline regression harness for the placement engine.
 - `docs/skill-intelligence-architecture.md`: **source of truth** for Skill Intelligence (skill taxonomy, activity → leaf ownership, response modes, evidence classification, shadow leaf state, transfer graph). Read it before changing `base44/shared/skill*.js`, `base44/shared/leafState*`, the `LeafState` entity, or adding a game/bank.
+- `docs/live-teacher.md`: Live Teacher (AI English voice teacher): architecture, mistake-tracking rules, setup, tests, and what is NOT verified yet. Read it before changing `base44/shared/liveTeacher*.js`, `base44/functions/liveTeacherApi/`, or `src/pages/LiveTeacher.jsx`.
 
 ## Key Files
 
