@@ -562,6 +562,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "passive-causative.simple-passive.past-passive": {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "past-passive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 752,
+   "build": 500,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "passive-causative.simple-passive.present-passive": {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "present-passive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 416,
+   "build": 416,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.movement.arrive-at-in": {
   "domain": "prep-phrasal",
   "branch": "movement",
@@ -1243,6 +1271,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 296,
    "build": 212,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.relative-clauses.where-place": {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "where-place",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5
