@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After decide, the next verb is to + the base form: decided to meet. Not the -ing form and not the bare verb.
 
 15. _Complete the sentence with to + the verb in brackets._  
-   **Lola** decided ______ ______ (cook) **plov** for the guests.  
+   For the guests, **Lola** decided ______ ______ (cook) **plov**.  
    key: to + cook  
    why: After decide, the next verb is to + the base form: decided to cook. Not the -ing form and not the bare verb.
 

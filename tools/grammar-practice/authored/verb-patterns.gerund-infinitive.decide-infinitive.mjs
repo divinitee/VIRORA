@@ -105,7 +105,7 @@ const BUILD = [
     { relative: ["father", "mother", "aunt", "brother"], thing: ["help", "advice", "money", "a lift"] }),
   B("meet", "We decided ______ ______ (meet) at the {place} at {time}.",
     { place: ["station", "park", "cafe", "school gate"], time: ["six", "seven", "half past five", "noon"] }),
-  B("cook", "{name} decided ______ ______ (cook) {food} for the guests.",
+  B("cook", "For the guests, {name} decided ______ ______ (cook) {food}.",
     { name: ANY, food: ["plov", "soup", "manti", "fish"] }),
   B("start", "My {relative} has decided ______ ______ (start) a new {thing}.",
     { relative: ["sister", "brother", "cousin", "friend"], thing: ["job", "course", "hobby", "business"] }),

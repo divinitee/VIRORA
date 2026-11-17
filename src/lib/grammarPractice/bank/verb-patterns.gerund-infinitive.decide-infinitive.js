@@ -1070,7 +1070,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with to + the verb in brackets.",
-  "source": "{name} decided ______ ______ (cook) {food} for the guests.",
+  "source": "For the guests, {name} decided ______ ______ (cook) {food}.",
   "key": [
    "to",
    "cook"

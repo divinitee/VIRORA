@@ -87,7 +87,7 @@
 86	B	verb-patterns.have-got.have-has	A1	3	todo	have (not has) with I | has with third person singular | Producing has got for third person
 87	B	verb-patterns.gerund-infinitive.decide-infinitive	A2	1	live	decide + to-infinitive
 88	B	verb-patterns.gerund-infinitive.enjoy-gerund	A2	2	live	enjoy + -ing | like/love + -ing (or to) but never bare infinitive
-89	B	verb-patterns.gerund-infinitive.preposition-gerund	A2	1	todo	-ing form after a preposition
+89	B	verb-patterns.gerund-infinitive.preposition-gerund	A2	1	live	-ing form after a preposition
 90	B	verb-patterns.gerund-infinitive.want-infinitive	A2	1	live	want + to-infinitive
 91	B	verb-patterns.gerund-infinitive.would-like-infinitive	A2	1	live	would like + to-infinitive
 92	B	verb-patterns.object-infinitive.let-bare	A2	1	todo	let + object + bare infinitive
@@ -131,7 +131,7 @@
 130	B	prep-phrasal.movement.go-home	A2	1	todo	No preposition before 'home' after go/come
 131	B	prep-phrasal.movement.to-vs-in	A2	1	todo	to for movement towards, in for location
 132	B	prep-phrasal.dependent-prepositions.adjective-preposition	A2	1	live	good at / afraid of
-133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	todo	interested in
+133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	live	interested in
 134	B	prep-phrasal.phrasal-verbs.common-phrasal	A2	1	live	Particle choice in a common phrasal verb (get up)
 135	B	conditionals-wishes.zero-first.first-if-clause	A2	2	live	Present simple (not will) in the if-clause | No 'will' in the if-clause
 136	B	conditionals-wishes.zero-first.first-will	A2	2	live	First conditional: will in the result clause | First conditional with a negative if-clause

@@ -576,6 +576,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.dependent-prepositions.interested-in": {
+  "domain": "prep-phrasal",
+  "branch": "dependent-prepositions",
+  "topic": "interested-in",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 296,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.phrasal-verbs.common-phrasal": {
   "domain": "prep-phrasal",
   "branch": "phrasal-verbs",
@@ -1453,6 +1467,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 308,
    "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "verb-patterns.gerund-infinitive.preposition-gerund": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "preposition-gerund",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5
