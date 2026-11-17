@@ -1,0 +1,1656 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The woman ______ lives next door is a {job}, {name}.",
+  "options": [
+   "who",
+   "which",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "job": [
+    "teacher",
+    "doctor",
+    "nurse",
+    "cook"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The man ______ sells {thing} at the bazaar is my uncle.",
+  "options": [
+   "which",
+   "where",
+   "what",
+   "who"
+  ],
+  "key": 3,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "thing": [
+    "melons",
+    "bread",
+    "spices",
+    "carpets"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have a friend ______ speaks {lang} very well.",
+  "options": [
+   "where",
+   "what",
+   "who",
+   "which"
+  ],
+  "key": 2,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "lang": [
+    "English",
+    "Turkish",
+    "Korean",
+    "Chinese"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The boy ______ won the {event} is in my class, {name}.",
+  "options": [
+   "what",
+   "who",
+   "which",
+   "where"
+  ],
+  "key": 1,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "event": [
+    "race",
+    "chess game",
+    "competition",
+    "quiz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you know the girl ______ is standing near the {place}, {name}?",
+  "options": [
+   "who",
+   "which",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "place": [
+    "door",
+    "window",
+    "bus stop",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The students ______ finished the test can go home, {name}.",
+  "options": [
+   "which",
+   "where",
+   "what",
+   "who"
+  ],
+  "key": 3,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The doctor ______ helped my grandma was very kind, {name}.",
+  "options": [
+   "where",
+   "what",
+   "who",
+   "which"
+  ],
+  "key": 2,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousin is the person ______ always makes us laugh at {event}.",
+  "options": [
+   "what",
+   "who",
+   "which",
+   "where"
+  ],
+  "key": 1,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "event": [
+    "weddings",
+    "parties",
+    "dinner",
+    "family picnics"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The people ______ live upstairs have a {pet}.",
+  "options": [
+   "who",
+   "which",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "pet": [
+    "dog",
+    "parrot",
+    "cat",
+    "rabbit"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The driver ______ took us to {city} was very friendly.",
+  "options": [
+   "which",
+   "where",
+   "what",
+   "who"
+  ],
+  "key": 3,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where is the man ______ fixed our {thing}, {name}?",
+  "options": [
+   "where",
+   "what",
+   "who",
+   "which"
+  ],
+  "key": 2,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "thing": [
+    "car",
+    "fridge",
+    "washing machine",
+    "roof"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children ______ play in the yard are very {adj}.",
+  "options": [
+   "what",
+   "who",
+   "which",
+   "where"
+  ],
+  "key": 1,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "adj": [
+    "loud",
+    "happy",
+    "funny",
+    "friendly"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I like teachers ______ explain things slowly, {name}.",
+  "options": [
+   "who",
+   "which",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The woman ______ called you {when} was from the bank.",
+  "options": [
+   "which",
+   "where",
+   "what",
+   "who"
+  ],
+  "key": 3,
+  "why": "The noun is a person, so use who (or that). which is for things, where for places.",
+  "slots": {
+   "when": [
+    "this morning",
+    "an hour ago",
+    "yesterday",
+    "at lunch"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The man ______ near the {place} has three horses.",
+  "options": [
+   "which lives",
+   "where lives",
+   "who lives",
+   "who he lives"
+  ],
+  "key": 2,
+  "why": "who is already the subject of the clause: who lives, not who he lives.",
+  "slots": {
+   "place": [
+    "river",
+    "school",
+    "mosque",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My aunt is the woman ______ at the {job}, {name}.",
+  "options": [
+   "where works",
+   "who works",
+   "who she works",
+   "which works"
+  ],
+  "key": 1,
+  "why": "who is already the subject of the clause: who lives, not who he lives.",
+  "slots": {
+   "job": [
+    "bank",
+    "hospital",
+    "post office",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mr Karimov is the man ______ us {subj}.",
+  "options": [
+   "who teaches",
+   "who he teaches",
+   "which teaches",
+   "where teaches"
+  ],
+  "key": 0,
+  "why": "who is already the subject of the clause: who lives, not who he lives.",
+  "slots": {
+   "subj": [
+    "maths",
+    "history",
+    "chemistry",
+    "music"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The girls ______ in the choir are from {city}.",
+  "options": [
+   "who they sing",
+   "which sing",
+   "where sing",
+   "who sing"
+  ],
+  "key": 3,
+  "why": "who is already the subject of the clause: who lives, not who he lives.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandma is the person ______ this {food}, {name}.",
+  "options": [
+   "which cooked",
+   "where cooked",
+   "who cooked",
+   "who she cooked"
+  ],
+  "key": 2,
+  "why": "who is already the subject of the clause: who lives, not who he lives.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "cake",
+    "samsa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "People ______ too fast are dangerous, {name}.",
+  "options": [
+   "where drive",
+   "who drive",
+   "who they drive",
+   "which drive"
+  ],
+  "key": 1,
+  "why": "who is already the subject of the clause: who lives, not who he lives.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The woman ______ (live) next door is a {job}.",
+  "key": "who lives",
+  "acceptable": [
+   "that lives"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "job": [
+    "teacher",
+    "doctor",
+    "nurse",
+    "cook"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The people ______ (live) upstairs are from {city}.",
+  "key": "who live",
+  "acceptable": [
+   "that live"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "My uncle is the man ______ (work) at the {job}, {name}.",
+  "key": "who works",
+  "acceptable": [
+   "that works"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "job": [
+    "bank",
+    "airport",
+    "hospital",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The doctors ______ (work) at this hospital are very good, {name}.",
+  "key": "who work",
+  "acceptable": [
+   "that work"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "I have a friend ______ (play) the {instr} very well.",
+  "key": "who plays",
+  "acceptable": [
+   "that plays"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "instr": [
+    "piano",
+    "guitar",
+    "dutar",
+    "violin"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The boys ______ (play) football in the {place} are my cousins.",
+  "key": "who play",
+  "acceptable": [
+   "that play"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "street",
+    "field"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "We need someone ______ (speak) {lang}, {name}.",
+  "key": "who speaks",
+  "acceptable": [
+   "that speaks"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Turkish",
+    "German"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "Ms Ivanova is the teacher ______ (teach) us {subj}.",
+  "key": "who teaches",
+  "acceptable": [
+   "that teaches"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "subj": [
+    "English",
+    "maths",
+    "art",
+    "biology"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The man ______ (sell) {thing} here is very kind, {name}.",
+  "key": "who sells",
+  "acceptable": [
+   "that sells"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "thing": [
+    "fruit",
+    "bread",
+    "flowers",
+    "shoes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The woman ______ (help) us yesterday was a {job}.",
+  "key": "who helped",
+  "acceptable": [
+   "that helped"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "job": [
+    "nurse",
+    "police officer",
+    "teacher",
+    "doctor"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The girl ______ (win) the {event} is only twelve, {name}.",
+  "key": "who won",
+  "acceptable": [
+   "that won"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "event": [
+    "race",
+    "competition",
+    "chess game",
+    "quiz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The man ______ (call) you {when} was from the school.",
+  "key": "who called",
+  "acceptable": [
+   "that called"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "when": [
+    "this morning",
+    "at lunch",
+    "an hour ago",
+    "last night"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "Is there anyone ______ (want) more {food}, {name}?",
+  "key": "who wants",
+  "acceptable": [
+   "that wants"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "food": [
+    "plov",
+    "tea",
+    "cake",
+    "soup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "People ______ (like) {sport} often come to this park.",
+  "key": "who like",
+  "acceptable": [
+   "that like"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "sport": [
+    "football",
+    "chess",
+    "running",
+    "volleyball"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The woman ______ (write) this book lives in {city}.",
+  "key": "who wrote",
+  "acceptable": [
+   "that wrote"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The boy ______ (sit) next to me in class is from {city}.",
+  "key": "who sits",
+  "acceptable": [
+   "that sits"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "Who is the person ______ (make) this {thing}, {name}?",
+  "key": "who made",
+  "acceptable": [
+   "that made"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "thing": [
+    "cake",
+    "video",
+    "poster",
+    "dress"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "Tourists ______ (visit) {city} love the old town.",
+  "key": "who visit",
+  "acceptable": [
+   "that visit"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "My cousin is the man ______ (drive) the school bus, {name}.",
+  "key": "who drives",
+  "acceptable": [
+   "that drives"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who and the verb in brackets in the right form.",
+  "source": "The students ______ (arrive) late had to wait outside, {name}.",
+  "key": "who arrived",
+  "acceptable": [
+   "that arrived"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with who.",
+  "source": "I have a friend. She lives in {city}.",
+  "hint": "I have a friend ______ in {city}.",
+  "key": "who lives",
+  "acceptable": [
+   "that lives"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "city": [
+    "London",
+    "Moscow",
+    "Seoul",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with who.",
+  "source": "The man is my uncle. He sells {thing} at the bazaar.",
+  "hint": "The man ______ {thing} at the bazaar is my uncle.",
+  "key": "who sells",
+  "acceptable": [
+   "that sells"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "thing": [
+    "melons",
+    "bread",
+    "spices",
+    "carpets"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with who.",
+  "source": "The girl is in my class. She won the {event}.",
+  "hint": "The girl ______ the {event} is in my class.",
+  "key": "who won",
+  "acceptable": [
+   "that won"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "event": [
+    "race",
+    "chess game",
+    "competition",
+    "quiz"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with who.",
+  "source": "The people are very nice. They live next door, {name}.",
+  "hint": "The people ______ next door are very nice, {name}.",
+  "key": "who live",
+  "acceptable": [
+   "that live"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with who.",
+  "source": "The doctor was very kind. He helped my {who}.",
+  "hint": "The doctor ______ my {who} was very kind.",
+  "key": "who helped",
+  "acceptable": [
+   "that helped"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "who": [
+    "grandma",
+    "grandpa",
+    "little brother",
+    "mum"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The woman which lives next door is a {job}.",
+  "hint": "The woman ______ next door is a {job}.",
+  "key": "who lives",
+  "acceptable": [
+   "that lives"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "job": [
+    "teacher",
+    "doctor",
+    "nurse",
+    "cook"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The man who he works at the {job} is my dad.",
+  "hint": "The man ______ at the {job} is my dad.",
+  "key": "who works",
+  "acceptable": [
+   "that works"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "job": [
+    "bank",
+    "airport",
+    "hospital",
+    "post office"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I have a friend what plays the {instr}.",
+  "hint": "I have a friend ______ the {instr}.",
+  "key": "who plays",
+  "acceptable": [
+   "that plays"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "instr": [
+    "piano",
+    "guitar",
+    "dutar",
+    "violin"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The students where finished the test can go, {name}.",
+  "hint": "The students ______ the test can go, {name}.",
+  "key": "who finished",
+  "acceptable": [
+   "that finished"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The girl who she sings in the choir is from {city}.",
+  "hint": "The girl ______ in the choir is from {city}.",
+  "key": "who sings",
+  "acceptable": [
+   "that sings"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the person does. Use a person who.",
+  "source": "A doctor helps sick people.",
+  "hint": "A doctor is a person ______ sick people.",
+  "key": "who helps",
+  "acceptable": [
+   "that helps"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {}
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the person does. Use a person who.",
+  "source": "A teacher teaches children at {place}.",
+  "hint": "A teacher is a person ______ children at {place}.",
+  "key": "who teaches",
+  "acceptable": [
+   "that teaches"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "place": [
+    "school",
+    "a college",
+    "a lyceum",
+    "a kindergarten"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the person does. Use a person who.",
+  "source": "A baker makes {food}.",
+  "hint": "A baker is a person ______ {food}.",
+  "key": "who makes",
+  "acceptable": [
+   "that makes"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "food": [
+    "bread",
+    "cakes",
+    "non",
+    "samsa"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the person does. Use a person who.",
+  "source": "A pilot flies {thing}.",
+  "hint": "A pilot is a person ______ {thing}.",
+  "key": "who flies",
+  "acceptable": [
+   "that flies"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "thing": [
+    "planes",
+    "helicopters",
+    "big planes",
+    "passenger planes"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the person does. Use a person who.",
+  "source": "A {job} drives a {vehicle}.",
+  "hint": "A {job} is a person ______ a {vehicle}.",
+  "key": "who drives",
+  "acceptable": [
+   "that drives"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "job": [
+    "bus driver",
+    "taxi driver",
+    "truck driver",
+    "tram driver"
+   ],
+   "vehicle": [
+    "bus",
+    "taxi",
+    "truck",
+    "tram"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend who lives in another city.",
+  "requiredElement": "I have a friend who lives in …",
+  "constraints": [
+   "exactly one sentence",
+   "who",
+   "a city name"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a person in your family who cooks well.",
+  "requiredElement": "My … is the person who …",
+  "constraints": [
+   "exactly one sentence",
+   "who",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Say what a nurse is. Use a person who.",
+  "requiredElement": "A nurse is a person who …",
+  "constraints": [
+   "exactly one sentence",
+   "a person who",
+   "a verb with -s"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a teacher who helped you.",
+  "requiredElement": "… is the teacher who helped me …",
+  "constraints": [
+   "exactly one sentence",
+   "who",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the people who live next door.",
+  "requiredElement": "The people who live next door …",
+  "constraints": [
+   "exactly one sentence",
+   "who live",
+   "a describing word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a famous person who you like.",
+  "requiredElement": "… is a singer / player who …",
+  "constraints": [
+   "exactly one sentence",
+   "who + verb",
+   "a job word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the kind of friends you like.",
+  "requiredElement": "I like friends who …",
+  "constraints": [
+   "exactly one sentence",
+   "who",
+   "a plural noun"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one about a person who lives near you and one about a person who works with your mum or dad.",
+  "requiredElement": "who lives / who works",
+  "constraints": [
+   "exactly two sentences",
+   "who lives once",
+   "who works once"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe three people in your street or building. Use who in each sentence.",
+  "targetGrammar": "The man who … / The woman who …",
+  "lookFor": [
+   "who three times",
+   "a person word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your best friend and the people who are important to him or her.",
+  "targetGrammar": "… is a person who …",
+  "lookFor": [
+   "who",
+   "a family word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the people at a family wedding or party.",
+  "targetGrammar": "The woman who … / The boy who …",
+  "lookFor": [
+   "who twice",
+   "a past verb",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about three jobs. Say what each person does.",
+  "targetGrammar": "A … is a person who …",
+  "lookFor": [
+   "a person who",
+   "three job words",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your class: the students who are good at different things.",
+  "targetGrammar": "The boy who … / The girl who …",
+  "lookFor": [
+   "who",
+   "good at",
+   "three or four sentences"
+  ]
+ }
+]

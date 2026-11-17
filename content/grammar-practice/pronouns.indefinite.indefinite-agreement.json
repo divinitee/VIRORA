@@ -7,7 +7,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Everyone {group} ______ football.",
+  "prompt": "Everyone {group} ______ football, {name}.",
   "options": [
    "likes",
    "like",
@@ -22,6 +22,12 @@
     "in our class",
     "in our street",
     "at my school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -33,7 +39,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Nobody ______ the answer to this question, {name}.",
+  "prompt": "Nobody ______ the answer to this {subj} question, {name}.",
   "options": [
    "know",
    "are knowing",
@@ -43,6 +49,12 @@
   "key": 3,
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
+   "subj": [
+    "maths",
+    "history",
+    "science",
+    "English"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -123,7 +135,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Everyone in our class ______ a {thing} now.",
+  "prompt": "Everyone in our class ______ a {thing} now, {name}.",
   "options": [
    "has",
    "have",
@@ -138,6 +150,12 @@
     "laptop",
     "tablet",
     "dictionary"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -161,9 +179,9 @@
   "slots": {
    "group": [
     "in my family",
-    "in our class",
-    "in our street",
-    "at my school"
+    "in our house",
+    "in our flat",
+    "at my grandma's"
    ],
    "room": [
     "kitchen",
@@ -181,7 +199,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Someone ______ at the door, {name}. Can you open it?",
+  "prompt": "Someone ______ at the {door}, {name}. Can you open it?",
   "options": [
    "am",
    "be",
@@ -191,6 +209,12 @@
   "key": 2,
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
+   "door": [
+    "door",
+    "gate",
+    "front door",
+    "back door"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -207,7 +231,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Everybody in {city} ______ Uzbek and a little Russian.",
+  "prompt": "Everybody in {group} ______ Uzbek and a little Russian.",
   "options": [
    "speaking",
    "speaks",
@@ -217,7 +241,7 @@
   "key": 1,
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
-   "city": [
+   "group": [
     "our village",
     "my town",
     "our street",
@@ -278,8 +302,8 @@
    "thing": [
     "car",
     "phone",
-    "house",
-    "kitchen"
+    "radio",
+    "laptop"
    ],
    "name": [
     "Aziz",
@@ -329,7 +353,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "No one ______ in that old house on our street.",
+  "prompt": "No one ______ in that old {home} on our street, {name}.",
   "options": [
    "living",
    "lives",
@@ -338,7 +362,20 @@
   ],
   "key": 1,
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
-  "slots": {}
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "building",
+    "cottage"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
  },
  {
   "domain": "pronouns",
@@ -412,7 +449,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Everyone {group} ______ Grandma's plov.",
+  "prompt": "Everyone {group} ______ Grandma's {food}.",
   "options": [
    "are loving",
    "loving",
@@ -424,9 +461,15 @@
   "slots": {
    "group": [
     "in my family",
-    "in our class",
-    "in our street",
-    "at my school"
+    "in our house",
+    "in our flat",
+    "at my grandma's"
+   ],
+   "food": [
+    "plov",
+    "samsa",
+    "soup",
+    "cakes"
    ]
   }
  },
@@ -438,7 +481,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Somebody ______ me every morning at seven, {name}. I don't know who it is.",
+  "prompt": "Somebody ______ me every morning at {time}, {name}. I don't know who it is.",
   "options": [
    "calling",
    "calls",
@@ -448,6 +491,12 @@
   "key": 1,
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
+   "time": [
+    "seven",
+    "six",
+    "eight",
+    "half past seven"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -464,7 +513,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Nobody in my family ______ a {pet}.",
+  "prompt": "Nobody in my {group} ______ a {pet}.",
   "options": [
    "has",
    "have",
@@ -474,11 +523,17 @@
   "key": 0,
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
+   "group": [
+    "family",
+    "class",
+    "street",
+    "building"
+   ],
    "pet": [
     "dog",
     "cat",
     "car",
-    "bike"
+    "horse"
    ]
   }
  },
@@ -490,7 +545,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Everybody {group} ______ to bed late at the weekend.",
+  "prompt": "Everybody {group} ______ to bed late at the weekend, {name}.",
   "options": [
    "go",
    "are going",
@@ -502,9 +557,15 @@
   "slots": {
    "group": [
     "in my family",
-    "in our class",
-    "in our street",
-    "at my school"
+    "in our house",
+    "in our flat",
+    "at my grandma's"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -548,7 +609,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "No one ______ this text, {name}. It's too difficult.",
+  "prompt": "No one ______ this {text}, {name}. It's too difficult.",
   "options": [
    "understanding",
    "understands",
@@ -558,6 +619,12 @@
   "key": 1,
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
+   "text": [
+    "text",
+    "letter",
+    "poem",
+    "story"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -575,7 +642,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Everyone {group} ______ (like) football.",
+  "source": "Everyone {group} ______ (like) {sport}.",
   "key": "likes",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -584,6 +651,12 @@
     "in our class",
     "in our street",
     "at my school"
+   ],
+   "sport": [
+    "football",
+    "chess",
+    "volleyball",
+    "tennis"
    ]
   }
  },
@@ -596,7 +669,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Nobody ______ (know) where {name} is.",
+  "source": "Nobody ______ (know) where {name} is {when}.",
   "key": "knows",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -605,6 +678,12 @@
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "when": [
+    "now",
+    "today",
+    "this morning",
+    "tonight"
    ]
   }
  },
@@ -617,7 +696,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Everybody ______ (be) tired after the {event}.",
+  "source": "Everybody ______ (be) tired after the {event}, {name}.",
   "key": "is",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -626,6 +705,12 @@
     "trip",
     "exam",
     "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -665,7 +750,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Everyone {group} ______ (have) a bike.",
+  "source": "Everyone {group} ______ (have) a {thing}.",
   "key": "has",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -674,6 +759,12 @@
     "in our class",
     "in our street",
     "at my school"
+   ],
+   "thing": [
+    "bike",
+    "phone",
+    "pet",
+    "laptop"
    ]
   }
  },
@@ -734,7 +825,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Someone in our {place} ______ (work) at the bank.",
+  "source": "Someone in our {place} ______ (work) at the {job}.",
   "key": "works",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -743,6 +834,12 @@
     "building",
     "family",
     "village"
+   ],
+   "job": [
+    "bank",
+    "hospital",
+    "airport",
+    "post office"
    ]
   }
  },
@@ -836,7 +933,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "No one ______ (live) on the top floor of our {home}.",
+  "source": "No one ______ (live) on the top floor of our {home}, {name}.",
   "key": "lives",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -844,7 +941,13 @@
     "building",
     "house",
     "block",
-    "school"
+    "new building"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -884,7 +987,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Everyone ______ (love) {name}'s cakes.",
+  "source": "Everyone ______ (love) {name}'s {food}.",
   "key": "loves",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -893,6 +996,12 @@
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "food": [
+    "cakes",
+    "plov",
+    "soup",
+    "salads"
    ]
   }
  },
@@ -932,10 +1041,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Someone always ______ (help) Grandma with the {task}.",
+  "source": "Someone always ______ (help) {who} with the {task}.",
   "key": "helps",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
+   "who": [
+    "Grandma",
+    "Grandpa",
+    "Mum",
+    "our teacher"
+   ],
    "task": [
     "shopping",
     "garden",
@@ -953,10 +1068,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Everybody in our class ______ (speak) a little English, {name}.",
+  "source": "Everybody in our {group} ______ (speak) a little English, {name}.",
   "key": "speaks",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
+   "group": [
+    "class",
+    "family",
+    "office",
+    "street"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -974,15 +1095,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "No one in my family ______ (watch) TV in the {when}.",
+  "source": "No one in our {group} ______ (watch) TV in the {when}.",
   "key": "watches",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
+   "group": [
+    "family",
+    "flat",
+    "house",
+    "building"
+   ],
    "when": [
     "morning",
     "afternoon",
-    "day",
-    "week"
+    "evening",
+    "daytime"
    ]
   }
  },
@@ -995,15 +1122,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the right form.",
-  "source": "Everyone {group} ______ (go) to the bazaar on Sundays.",
+  "source": "Everyone {group} ______ (go) to the {place} on Sundays.",
   "key": "goes",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
    "group": [
     "in my family",
-    "in our class",
-    "in our street",
-    "at my school"
+    "in our house",
+    "in our flat",
+    "at my grandma's"
+   ],
+   "place": [
+    "bazaar",
+    "park",
+    "café",
+    "market"
    ]
   }
  },
@@ -1043,8 +1176,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with everyone or everybody.",
-  "source": "All the students in our class like {subj}.",
-  "hint": "Everyone in our class ______ {subj}.",
+  "source": "All the students in our class like {subj}, {name}.",
+  "hint": "Everyone in our class ______ {subj}, {name}.",
   "key": "likes",
   "why": "everyone → singular verb: likes.",
   "slots": {
@@ -1053,6 +1186,12 @@
     "art",
     "English",
     "PE"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1093,16 +1232,22 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with everyone or everybody.",
-  "source": "All the people in our street have a {thing}.",
-  "hint": "Everyone in our street ______ a {thing}.",
+  "source": "All the people in our {place} have a {thing}.",
+  "hint": "Everyone in our {place} ______ a {thing}.",
   "key": "has",
   "why": "everyone → has, not have.",
   "slots": {
+   "place": [
+    "street",
+    "building",
+    "village",
+    "family"
+   ],
    "thing": [
     "car",
     "garden",
     "dog",
-    "balcony"
+    "bike"
    ]
   }
  },
@@ -1115,8 +1260,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with everyone or everybody.",
-  "source": "All the guests were happy at the {event}.",
-  "hint": "Everybody ______ happy at the {event}.",
+  "source": "All the guests were happy at the {event}, {name}.",
+  "hint": "Everybody ______ happy at the {event}, {name}.",
   "key": "was",
   "why": "everybody → was, not were.",
   "slots": {
@@ -1125,6 +1270,12 @@
     "party",
     "dinner",
     "picnic"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1137,11 +1288,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with everyone or everybody.",
-  "source": "All my cousins speak English, {name}.",
-  "hint": "Everyone in my family ______ English, {name}.",
+  "source": "All the people in my family speak {lang}, {name}.",
+  "hint": "Everyone in my family ______ {lang}, {name}.",
   "key": "speaks",
   "why": "everyone → speaks, with -s.",
   "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Tajik",
+    "Turkish"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1159,8 +1316,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "Everyone are here, {name}. Let's go.",
-  "hint": "Everyone ______ here, {name}. Let's go.",
+  "source": "Everyone are here, {name}. Let's start the {event}.",
+  "hint": "Everyone ______ here, {name}. Let's start the {event}.",
   "key": "is",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -1169,6 +1326,12 @@
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "event": [
+    "lesson",
+    "game",
+    "meeting",
+    "film"
    ]
   }
  },
@@ -1181,8 +1344,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "Nobody know the answer, {name}.",
-  "hint": "Nobody ______ the answer, {name}.",
+  "source": "Nobody know the answer, {name}. Ask {who}.",
+  "hint": "Nobody ______ the answer, {name}. Ask {who}.",
   "key": "knows",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -1191,6 +1354,12 @@
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "who": [
+    "the teacher",
+    "Dad",
+    "Grandpa",
+    "Mum"
    ]
   }
  },
@@ -1231,8 +1400,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "Everybody were tired after the {event}.",
-  "hint": "Everybody ______ tired after the {event}.",
+  "source": "Everybody were tired after the {event}, {name}.",
+  "hint": "Everybody ______ tired after the {event}, {name}.",
   "key": "was",
   "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
   "slots": {
@@ -1241,6 +1410,12 @@
     "trip",
     "exam",
     "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1281,16 +1456,22 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with nobody or no one.",
-  "source": "The students don't like the new {thing}.",
-  "hint": "Nobody ______ the new {thing}.",
+  "source": "The students don't like the new {thing}, {name}.",
+  "hint": "Nobody ______ the new {thing}, {name}.",
   "key": "likes",
   "why": "nobody → singular verb: likes (no don't).",
   "slots": {
    "thing": [
     "timetable",
-    "teacher",
     "rule",
-    "canteen"
+    "canteen",
+    "uniform"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1303,8 +1484,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with nobody or no one.",
-  "source": "The people in the {place} aren't happy.",
-  "hint": "No one in the {place} ______ happy.",
+  "source": "The people in the {place} aren't happy, {name}.",
+  "hint": "No one in the {place} ______ happy, {name}.",
   "key": "is",
   "why": "no one → is (no not).",
   "slots": {
@@ -1313,6 +1494,12 @@
     "class",
     "street",
     "village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1325,8 +1512,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with nobody or no one.",
-  "source": "My friends weren't at home {when}.",
-  "hint": "Nobody ______ at home {when}.",
+  "source": "My friends weren't at home {when}, {name}.",
+  "hint": "Nobody ______ at home {when}, {name}.",
   "key": "was",
   "why": "nobody → was (no not).",
   "slots": {
@@ -1335,6 +1522,12 @@
     "on Sunday",
     "last night",
     "at five"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1375,8 +1568,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with nobody or no one.",
-  "source": "My classmates haven't got a {thing}.",
-  "hint": "Nobody in my class ______ a {thing}.",
+  "source": "My classmates haven't got a {thing}, {name}.",
+  "hint": "Nobody in my class ______ a {thing}, {name}.",
   "key": "has",
   "why": "nobody → has (no not).",
   "slots": {
@@ -1385,6 +1578,12 @@
     "horse",
     "boat",
     "dog"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },

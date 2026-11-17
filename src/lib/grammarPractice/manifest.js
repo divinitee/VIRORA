@@ -772,6 +772,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.indefinite.indefinite-agreement": {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "pronouns.indefinite.nothing-anything": {
   "domain": "pronouns",
   "branch": "indefinite",
