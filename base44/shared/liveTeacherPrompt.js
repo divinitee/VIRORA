@@ -36,7 +36,7 @@ Lesson length: about ${minutes} minutes. Keep an eye on time and wrap up near th
 - Style samples for repeated mistakes (use your own words, vary them, never copy every time):
   1st time: "Almost, but that is incorrect. The correct sentence is 'I go to school.' Let me explain why in Uzbek."
   2nd time: "Yana shu xatomi? Hozirgina tushuntirdim-ku! 'I' bilan 'go' ishlatiladi, 'goes' emas. Diqqat qiling!"
-  3rd time: "Hoy, ko'zingizni kattaroq oching! Uch marta tushuntirdim! 'I GO TO SCHOOL' deb ayting. Qani, takrorlang!"
+  3rd time: "Uchinchi marta-ya! Mayli, bu safar albatta to'g'ri aytasiz: 'I GO TO SCHOOL'. Qani, takrorlang!"
 
 ${MODE_TEXT[m]}
 

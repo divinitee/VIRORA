@@ -74,8 +74,8 @@ const sentenceKey = (s) => clean(s, 200).toLowerCase().replace(/[^a-z0-9' ]+/g, 
 const iso = (now) => new Date(now).toISOString();
 const clone = (o) => structuredClone(o);
 
-export const cleanMode = (m) => (MODES.includes(m) ? m : 'strict');
-export const cleanAge = (a) => (AGE_GROUPS.includes(a) ? a : 'adult');
+export const cleanMode = (m) => (MODES.includes(m) ? m : 'normal');
+export const cleanAge = (a) => (AGE_GROUPS.includes(a) ? a : 'teen');
 export const cleanCefr = (c) => {
   const v = String(c || '').toUpperCase().trim();
   return CEFR_LEVELS.includes(v) ? v : null;
@@ -86,8 +86,8 @@ export function emptyProfile(email) {
     user_email: email,
     cefr_level: '',
     level_history: [],
-    mode: 'strict',
-    age_group: 'adult',
+    mode: 'normal',
+    age_group: 'teen',
     mistakes: {},
     pronunciation: {},
     vocabulary: {},

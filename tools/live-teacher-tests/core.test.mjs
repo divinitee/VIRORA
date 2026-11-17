@@ -226,7 +226,8 @@ test('prompt: personality, modes, memory, safety and tool protocol are all prese
   assert.match(buildInstructions({ mode: 'normal', ageGroup: 'adult' }), /MODE: NORMAL/);
   assert.match(buildInstructions({ mode: 'strict', ageGroup: 'kid' }), /NO sarcasm at all/);
   // junk input falls back safely
-  assert.match(buildInstructions({ mode: 'hax', ageGroup: 'zzz' }), /MODE: STRICT/);
+  assert.match(buildInstructions({ mode: 'hax', ageGroup: 'zzz' }), /MODE: NORMAL/);
+  assert.match(buildInstructions({ mode: 'hax', ageGroup: 'zzz' }), /STUDENT AGE: teenager/);
 });
 
 test('session config: GA realtime shape, tools, semantic VAD with interruption, no language lock', () => {

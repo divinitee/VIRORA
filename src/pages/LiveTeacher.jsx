@@ -74,8 +74,8 @@ export default function LiveTeacher() {
 
   const [phase, setPhase] = useState("setup"); // setup | connecting | live | ending | recap
   const [profile, setProfile] = useState(null);
-  const [mode, setMode] = useState("strict");
-  const [age, setAge] = useState("adult");
+  const [mode, setMode] = useState("normal");
+  const [age, setAge] = useState("teen");
   const [error, setError] = useState("");
   const [errorDetail, setErrorDetail] = useState(""); // admins only: OpenAI's own wording
   const [agentState, setAgentState] = useState("connecting");
