@@ -135,7 +135,7 @@
 134	B	prep-phrasal.phrasal-verbs.common-phrasal	A2	1	live	Particle choice in a common phrasal verb (get up)
 135	B	conditionals-wishes.zero-first.first-if-clause	A2	2	live	Present simple (not will) in the if-clause | No 'will' in the if-clause
 136	B	conditionals-wishes.zero-first.first-will	A2	2	live	First conditional: will in the result clause | First conditional with a negative if-clause
-137	B	conditionals-wishes.zero-first.zero-general-truth	A2	2	todo	Zero conditional: present simple in both clauses | Zero (not first) conditional for a general consequence
+137	B	conditionals-wishes.zero-first.zero-general-truth	A2	2	live	Zero conditional: present simple in both clauses | Zero (not first) conditional for a general consequence
 138	B	passive-causative.simple-passive.active-to-passive	A2	1	todo	Simple active → passive with 'by'
 139	B	passive-causative.simple-passive.past-passive	A2	4	todo	Past simple passive: was + pp | Producing was/were + pp | Past passive in a longer stem | Productive past passive
 140	B	passive-causative.simple-passive.present-passive	A2	2	todo	Present simple passive: is + pp | Plural present passive: are + pp

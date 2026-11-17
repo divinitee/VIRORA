@@ -1023,15 +1023,15 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present simple.",
-  "source": "If the {river} ______ (rise), the road is closed, {name}.",
-  "key": "rises",
+  "source": "If the {river} ______ (flood), the road is closed, {name}.",
+  "key": "floods",
   "why": "For something that is always true, the if-part takes the present simple. Never will after if.",
   "slots": {
    "river": [
     "river",
-    "water",
     "canal",
-    "lake"
+    "lake",
+    "stream"
    ],
    "name": [
     "Aziz",

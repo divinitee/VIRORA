@@ -226,6 +226,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "conditionals-wishes.zero-first.zero-general-truth": {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "zero-general-truth",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 284,
+   "build": 284,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.ability-permission.can-ability": {
   "domain": "modals",
   "branch": "ability-permission",

@@ -89,7 +89,7 @@ const BUILD = [
   B("goes", W_IF, "If {name} ______ (go) to bed late, he is sleepy at {place}.", { name: M4, place: ["school", "work", "the lesson", "training"] }),
   B("goes", W_RES, "If you leave {food} in the sun, it ______ (go) bad, {name}.", { food: ["milk", "fish", "meat", "butter"], name: N4 }),
   B("watches", W_IF, "{name}, if my little brother ______ (watch) {films}, he doesn't sleep.", { name: P4, films: ["scary films", "horror films", "the news", "TV at night"] }),
-  B("rises", W_IF, "If the {river} ______ (rise), the road is closed, {name}.", { river: ["river", "water", "canal", "lake"], name: N4 }),
+  B("floods", W_IF, "If the {river} ______ (flood), the road is closed, {name}.", { river: ["river", "canal", "lake", "stream"], name: N4 }),
   B("melts", W_RES, "{name}, ice ______ (melt) if you leave it in the {place}.", { name: N4, place: ["sun", "kitchen", "car", "warm room"] }),
   B("dies", W_RES, "A plant ______ (die) if it gets no {thing}.", { thing: ["water", "light", "sun", "air"] }),
   B("gets", W_RES, "My {relative} ______ (get) a headache if she reads in the {place}.", { relative: ["mother", "aunt", "sister", "grandmother"], place: ["car", "bus", "dark", "train"] }),
