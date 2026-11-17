@@ -8,15 +8,26 @@
     },
     "mode": {
       "type": "string",
-      "enum": ["normal", "strict", "exam"]
+      "enum": [
+        "normal",
+        "strict",
+        "exam"
+      ]
     },
     "age_group": {
       "type": "string",
-      "enum": ["kid", "teen", "adult"]
+      "enum": [
+        "kid",
+        "teen",
+        "adult"
+      ]
     },
     "status": {
       "type": "string",
-      "enum": ["started", "ended"]
+      "enum": [
+        "started",
+        "ended"
+      ]
     },
     "started_at": {
       "type": "string"
@@ -54,11 +65,15 @@
     },
     "strengths": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
     "focus_next": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
     "level_at_end": {
       "type": "string"
@@ -66,9 +81,20 @@
     "scores": {
       "type": "object",
       "description": "Exam mode only."
+    },
+    "mistakes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "This lesson's mistakes, one per key, newest last (max 30): { key, rule, variant, wrong, correct, explanation_uz, status, count }. Shown in the recap."
     }
   },
-  "required": ["user_email", "mode", "status"],
+  "required": [
+    "user_email",
+    "mode",
+    "status"
+  ],
   "rls": {
     "create": {
       "user_condition": {
