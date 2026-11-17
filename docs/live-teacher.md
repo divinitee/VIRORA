@@ -56,7 +56,7 @@ Children never get sarcasm (the strict rungs become gentle). Strictness is never
 
 1. OpenAI: create an API key at platform.openai.com (add billing, set a **monthly budget limit**).
 2. Base44 dashboard -> the app -> secrets: add `OPENAI_API_KEY`. Never put it in code, `.env.local` that is committed, or the browser.
-3. Optional secrets (no code change): `LIVE_TEACHER_MODEL` (default `gpt-realtime-2`; `gpt-realtime-mini` is cheaper), `LIVE_TEACHER_VOICE` (default `marin`; also `cedar`), `LIVE_TEACHER_REASONING` (default `low`; set empty to omit), `LIVE_TEACHER_TRANSCRIBE_MODEL` (default `gpt-4o-transcribe`).
+3. Optional secrets (no code change): `LIVE_TEACHER_MODEL` (default `gpt-realtime-2`; `gpt-realtime-mini` is cheaper), `LIVE_TEACHER_VOICE` (default `marin`; also `cedar`), `LIVE_TEACHER_REASONING` (default `low`; set empty to omit), `LIVE_TEACHER_TRANSCRIBE_MODEL` (default `gpt-4o-transcribe`), `LIVE_TEACHER_MAX_OUTPUT` (default `1500` output tokens per response, audio + reasoning).
 4. Publish the branch from the Base44 dashboard, open `/live-teacher` in Chrome or Safari, allow the microphone.
 
 Costs: voice is billed per audio token (launch pricing was reported as about $32 per 1M audio input tokens and $64 per 1M audio output tokens for `gpt-realtime-2`; check the current OpenAI pricing page). No lesson cost has been measured yet: run a few test lessons and read the OpenAI usage dashboard before opening this to students. Limits in code (`liveTeacherCore.js`): `MAX_MINUTES` (normal 15, strict 15, exam 12) and `DAILY_SESSIONS` (free 1, learner 3, vip 10 per day; admins unlimited). These are placeholder business decisions for the owner to change.
@@ -68,7 +68,7 @@ Stored: CEFR estimate, mistake records (wrong/correct sentence, short Uzbek expl
 ## Tests
 
 ```
-node --test tools/live-teacher-tests/core.test.mjs tools/live-teacher-tests/engine.test.mjs   # no key, no network
+node --test tools/live-teacher-tests/*.test.mjs   # no key, no network
 OPENAI_API_KEY=sk-... node tools/live-teacher-tests/scenarios.mjs                             # real model, text mode
 ```
 
