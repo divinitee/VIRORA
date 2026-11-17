@@ -1234,6 +1234,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.relative-clauses.that-which-things": {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 212,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.relative-clauses.who-people": {
   "domain": "sentence-structure",
   "branch": "relative-clauses",

@@ -636,7 +636,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write that and the verb in brackets in the right form.",
-  "source": "The phone ______ (be) on the table is mine, {name}. Yours is in the {place}.",
+  "source": "The phone ______ (be) on the table now belongs to me, {name}. Take yours from the {place}.",
   "key": "that is",
   "acceptable": [
    "which is"
@@ -666,7 +666,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write that and the verb in brackets in the right form.",
-  "source": "The shoes ______ (be) in the box are new, {name}.",
+  "source": "The shoes ______ (be) in the box now look new, {name}.",
   "key": "that are",
   "acceptable": [
    "which are"
@@ -798,7 +798,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write that and the verb in brackets in the right form.",
-  "source": "The {food} ______ (be) in the fridge was very cold, {name}.",
+  "source": "The {food} ______ (be) in the fridge last week went bad, {name}.",
   "key": "that was",
   "acceptable": [
    "which was"
@@ -807,9 +807,9 @@
   "slots": {
    "food": [
     "milk",
-    "juice",
-    "melon",
-    "water"
+    "soup",
+    "meat",
+    "fish"
    ],
    "name": [
     "Aziz",
@@ -828,7 +828,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write that and the verb in brackets in the right form.",
-  "source": "The {thing} ______ (be) on my desk were for school, {name}.",
+  "source": "The {thing} ______ (be) on my desk yesterday belong to my sister, {name}.",
   "key": "that were",
   "acceptable": [
    "which were"
@@ -1152,7 +1152,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write that and the verb in brackets in the right form.",
-  "source": "Animals ______ (live) in the {place} need a lot of water.",
+  "source": "Animals ______ (live) in the {place} can be dangerous, {name}.",
   "key": "that live",
   "acceptable": [
    "which live"
@@ -1161,9 +1161,15 @@
   "slots": {
    "place": [
     "desert",
-    "zoo",
+    "jungle",
     "forest",
     "mountains"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1331,14 +1337,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "This is the book who I told you about, {name}.",
-  "hint": "This is the book ______ I told you about, {name}.",
+  "source": "This is the {thing} who I told you about, {name}.",
+  "hint": "This is the {thing} ______ I told you about, {name}.",
   "key": "that",
   "acceptable": [
    "which"
   ],
   "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
   "slots": {
+   "thing": [
+    "book",
+    "film",
+    "game",
+    "song"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1356,8 +1368,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The {food} what Grandma made was delicious.",
-  "hint": "The {food} ______ Grandma made was delicious.",
+  "source": "The {food} what Grandma made was delicious, {name}.",
+  "hint": "The {food} ______ Grandma made was delicious, {name}.",
   "key": "that",
   "acceptable": [
    "which"
@@ -1369,6 +1381,12 @@
     "plov",
     "soup",
     "bread"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1443,14 +1461,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The shoes that is in the box are new, {name}.",
-  "hint": "The shoes ______ in the box are new, {name}.",
+  "source": "The {shoes} that is in the box look new, {name}.",
+  "hint": "The {shoes} ______ in the box look new, {name}.",
   "key": "that are",
   "acceptable": [
    "which are"
   ],
   "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
   "slots": {
+   "shoes": [
+    "shoes",
+    "boots",
+    "trainers",
+    "sandals"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1468,14 +1492,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the thing does. Use that.",
-  "source": "A fridge keeps {food} cold.",
-  "hint": "A fridge is a machine ______ {food} cold.",
+  "source": "Look, {name}. A fridge keeps {food} cold.",
+  "hint": "Look, {name}. A fridge is a machine ______ {food} cold.",
   "key": "that keeps",
   "acceptable": [
    "which keeps"
   ],
   "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
   "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
    "food": [
     "food",
     "milk",
@@ -1493,14 +1523,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the thing does. Use that.",
-  "source": "A dictionary tells you what {thing} mean.",
-  "hint": "A dictionary is a book ______ you what {thing} mean.",
+  "source": "Look, {name}. A dictionary tells you what {thing} mean.",
+  "hint": "Look, {name}. A dictionary is a book ______ you what {thing} mean.",
   "key": "that tells",
   "acceptable": [
    "which tells"
   ],
   "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
   "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
    "thing": [
     "words",
     "new words",
@@ -1518,25 +1554,25 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the thing does. Use that.",
-  "source": "A {tool} cuts {thing}.",
-  "hint": "A {tool} is a thing ______ {thing}.",
+  "source": "Look, {name}. A knife cuts {thing}.",
+  "hint": "Look, {name}. A knife is a thing ______ {thing}.",
   "key": "that cuts",
   "acceptable": [
    "which cuts"
   ],
   "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
   "slots": {
-   "tool": [
-    "knife",
-    "pair of scissors",
-    "saw",
-    "blade"
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ],
    "thing": [
-    "paper",
     "bread",
-    "wood",
-    "things"
+    "meat",
+    "fruit",
+    "vegetables"
    ]
   }
  },
@@ -1549,25 +1585,25 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the thing does. Use that.",
-  "source": "A {room} washes {thing}.",
-  "hint": "A {room} is a machine ______ {thing}.",
+  "source": "Look, {name}. A washing machine washes {thing}.",
+  "hint": "Look, {name}. A washing machine is a machine ______ {thing}.",
   "key": "that washes",
   "acceptable": [
    "which washes"
   ],
   "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
   "slots": {
-   "room": [
-    "washing machine",
-    "dishwasher",
-    "car wash",
-    "washer"
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ],
    "thing": [
     "clothes",
-    "plates",
-    "cars",
-    "things"
+    "shirts",
+    "towels",
+    "jeans"
    ]
   }
  },
@@ -1580,14 +1616,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the thing does. Use that.",
-  "source": "A clock shows the time {where}.",
-  "hint": "A clock is a thing ______ the time {where}.",
+  "source": "Look, {name}. A clock shows the time {where}.",
+  "hint": "Look, {name}. A clock is a thing ______ the time {where}.",
   "key": "that shows",
   "acceptable": [
    "which shows"
   ],
   "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
   "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
    "where": [
     "on the wall",
     "in the kitchen",

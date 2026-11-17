@@ -66,14 +66,14 @@ const CHOOSE = [
 /* ---------------- build: 20 gap_fill ---------------- */
 const INSTR_B = "Write that and the verb in brackets in the right form.";
 const BUILD = [
-  ["that is", "The phone ______ (be) on the table is mine, {name}. Yours is in the {place}.", { name: NAME, place: ["bag", "car", "kitchen", "drawer"] }],
-  ["that are", "The shoes ______ (be) in the box are new, {name}.", { name: NAME }],
+  ["that is", "The phone ______ (be) on the table now belongs to me, {name}. Take yours from the {place}.", { name: NAME, place: ["bag", "car", "kitchen", "drawer"] }],
+  ["that are", "The shoes ______ (be) in the box now look new, {name}.", { name: NAME }],
   ["that goes", "Take the bus ______ (go) to the {place}, {name}.", { place: ["centre", "station", "airport", "bazaar"], name: NAME }],
   ["that go", "The buses ______ (go) to {city} leave from here, {name}.", { city: ["Samarkand", "Bukhara", "Tashkent", "Fergana"], name: NAME }],
   ["that has", "I want a bag ______ (have) a lot of pockets, {name}.", { name: NAME }],
   ["that have", "We need chairs ______ (have) soft seats for the {room}.", { room: ["kitchen", "office", "classroom", "hall"] }],
-  ["that was", "The {food} ______ (be) in the fridge was very cold, {name}.", { food: ["milk", "juice", "melon", "water"], name: NAME }],
-  ["that were", "The {thing} ______ (be) on my desk were for school, {name}.", { thing: ["books", "papers", "pens", "notebooks"], name: NAME }],
+  ["that was", "The {food} ______ (be) in the fridge last week went bad, {name}.", { food: ["milk", "soup", "meat", "fish"], name: NAME }],
+  ["that were", "The {thing} ______ (be) on my desk yesterday belong to my sister, {name}.", { thing: ["books", "papers", "pens", "notebooks"], name: NAME }],
   ["that makes", "This is the machine ______ (make) {food}, {name}.", { food: ["coffee", "bread", "ice cream", "juice"], name: NAME }],
   ["that make", "I don't like films ______ (make) me cry, {name}.", { name: NAME }],
   ["that broke", "The {thing} ______ (break) yesterday was very old.", { thing: ["cup", "plate", "glass", "chair"] }],
@@ -85,7 +85,7 @@ const BUILD = [
   ["that keeps", "We need a box ______ (keep) the {food} cold.", { food: ["fish", "meat", "drinks", "ice cream"] }],
   ["that opens", "Where is the key ______ (open) this {thing}, {name}?", { thing: ["door", "box", "drawer", "gate"], name: NAME }],
   ["that arrived", "The parcel ______ (arrive) {when} is for {who}.", { when: ["today", "this morning", "yesterday", "at lunch"], who: ["Grandma", "Dad", "you", "my sister"] }],
-  ["that live", "Animals ______ (live) in the {place} need a lot of water.", { place: ["desert", "zoo", "forest", "mountains"] }],
+  ["that live", "Animals ______ (live) in the {place} can be dangerous, {name}.", { place: ["desert", "jungle", "forest", "mountains"], name: NAME }],
 ].map(([key, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR_B, source, key, acceptable: other(key), why: W.build, slots: fix(slots, source) }));
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
@@ -100,17 +100,17 @@ const TRANSFORM = [
   [JOIN, "Take the bus, {name}. It goes to the {place}.", "Take the bus ______ to the {place}, {name}.", "that goes", { place: ["centre", "station", "airport", "bazaar"], name: NAME }],
   [JOIN, "I like {thing}. They have a lot of pictures, {name}.", "I like {thing} ______ a lot of pictures, {name}.", "that have", { thing: ["books", "magazines", "comics", "websites"], name: NAME }],
   // correct (5)
-  [COR, "This is the book who I told you about, {name}.", "This is the book ______ I told you about, {name}.", "that", { name: NAME }],
-  [COR, "The {food} what Grandma made was delicious.", "The {food} ______ Grandma made was delicious.", "that", { food: ["cake", "plov", "soup", "bread"] }],
+  [COR, "This is the {thing} who I told you about, {name}.", "This is the {thing} ______ I told you about, {name}.", "that", { thing: ["book", "film", "game", "song"], name: NAME }],
+  [COR, "The {food} what Grandma made was delicious, {name}.", "The {food} ______ Grandma made was delicious, {name}.", "that", { food: ["cake", "plov", "soup", "bread"], name: NAME }],
   [COR, "The bus that it goes to the {place} is late, {name}.", "The bus ______ to the {place} is late, {name}.", "that goes", { place: ["centre", "station", "airport", "bazaar"], name: NAME }],
   [COR, "I want a phone where has a good {part}, {name}.", "I want a phone ______ a good {part}, {name}.", "that has", { part: ["camera", "battery", "screen", "speaker"], name: NAME }],
-  [COR, "The shoes that is in the box are new, {name}.", "The shoes ______ in the box are new, {name}.", "that are", { name: NAME }],
+  [COR, "The {shoes} that is in the box look new, {name}.", "The {shoes} ______ in the box look new, {name}.", "that are", { shoes: ["shoes", "boots", "trainers", "sandals"], name: NAME }],
   // define (5)
-  [DEF, "A fridge keeps {food} cold.", "A fridge is a machine ______ {food} cold.", "that keeps", { food: ["food", "milk", "drinks", "meat"] }],
-  [DEF, "A dictionary tells you what {thing} mean.", "A dictionary is a book ______ you what {thing} mean.", "that tells", { thing: ["words", "new words", "English words", "hard words"] }],
-  [DEF, "A {tool} cuts {thing}.", "A {tool} is a thing ______ {thing}.", "that cuts", { tool: ["knife", "pair of scissors", "saw", "blade"], thing: ["paper", "bread", "wood", "things"] }],
-  [DEF, "A {room} washes {thing}.", "A {room} is a machine ______ {thing}.", "that washes", { room: ["washing machine", "dishwasher", "car wash", "washer"], thing: ["clothes", "plates", "cars", "things"] }],
-  [DEF, "A clock shows the time {where}.", "A clock is a thing ______ the time {where}.", "that shows", { where: ["on the wall", "in the kitchen", "at the station", "in our classroom"] }],
+  [DEF, "Look, {name}. A fridge keeps {food} cold.", "Look, {name}. A fridge is a machine ______ {food} cold.", "that keeps", { name: NAME, food: ["food", "milk", "drinks", "meat"] }],
+  [DEF, "Look, {name}. A dictionary tells you what {thing} mean.", "Look, {name}. A dictionary is a book ______ you what {thing} mean.", "that tells", { name: NAME, thing: ["words", "new words", "English words", "hard words"] }],
+  [DEF, "Look, {name}. A knife cuts {thing}.", "Look, {name}. A knife is a thing ______ {thing}.", "that cuts", { name: NAME, thing: ["bread", "meat", "fruit", "vegetables"] }],
+  [DEF, "Look, {name}. A washing machine washes {thing}.", "Look, {name}. A washing machine is a machine ______ {thing}.", "that washes", { name: NAME, thing: ["clothes", "shirts", "towels", "jeans"] }],
+  [DEF, "Look, {name}. A clock shows the time {where}.", "Look, {name}. A clock is a thing ______ the time {where}.", "that shows", { name: NAME, where: ["on the wall", "in the kitchen", "at the station", "in our classroom"] }],
 ].map(([instr, source, hint, key, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, acceptable: other(key), why: W.build, slots: fix(slots, source + hint) }));
 
 /* ---------------- create: 8 ---------------- */
