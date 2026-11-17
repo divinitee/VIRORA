@@ -29,7 +29,7 @@ export default function ViraAvatar({ mood = "neutral", size = 56, color = "#a78b
           draggable={false}
           onError={() => setOk(false)}
           className="absolute left-1/2 top-0 max-w-none select-none pointer-events-none"
-          style={{ width: size * 1.55, transform: "translateX(-50%) translateY(4%)" }}
+          style={{ width: size * 1.2, transform: "translateX(-50%) translateY(2%)" }}
         />
       )}
     </motion.div>

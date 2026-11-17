@@ -161,7 +161,7 @@ export default function Coach() {
     return (
       <Shell onBack={() => navigate("/")}>
         <div className="premium-card rounded-[28px] p-8 text-center">
-          <div className="flex justify-center mb-4"><Orb color={color} size={72} persona={persona} mood="wave" /></div>
+          <div className="flex justify-center mb-4"><Orb color={color} size={72} persona={persona} mood="cheerful" /></div>
           <h1 className="text-xl font-bold text-foreground">{t(down ? "handoff_down" : "handoff_up", { to: COACH_NAMES[data.coach.coach] || COACH_NAMES[persona] })}</h1>
           <p className="text-sm text-muted-foreground mt-2">{t("hello", { n: data.settings.minutes })}</p>
           <button disabled={busy} onClick={async () => { setBusy(true); try { await coachApi("ackHandoff", {}); await load(); } finally { setBusy(false); } }}
@@ -290,7 +290,7 @@ export default function Coach() {
     <Shell onBack={() => navigate("/")} right={mapBtn}>
       {deviceBanner}
       <div className="flex items-start gap-4 mb-5">
-        <Orb color={color} size={64} persona={persona} mood="wave" />
+        <Orb color={color} size={64} persona={persona} mood="neutral" />
         <div>
           <p className="text-xs font-semibold uppercase tracking-wider" style={{ color }}>{COACH_NAMES[persona]}</p>
           <p className="text-sm text-foreground mt-1">{t("hello", { n: Math.max(1, Math.round(data.plan.minutes_planned || data.plan.minutes)) })}</p>
@@ -368,7 +368,7 @@ function Onboarding({ data, t, color, onDone, onBack }) {
   return (
     <Shell onBack={onBack}>
       <div className="premium-card rounded-[28px] p-6">
-        <div className="flex items-center gap-4 mb-4"><Orb color={color} persona={data?.coach?.persona || "vira"} mood="wave" /><h1 className="text-xl font-bold text-foreground">{t("onboarding_title")}</h1></div>
+        <div className="flex items-center gap-4 mb-4"><Orb color={color} persona={data?.coach?.persona || "vira"} mood="neutral" /><h1 className="text-xl font-bold text-foreground">{t("onboarding_title")}</h1></div>
         <p className="text-sm text-foreground">{t("hello", { n: minutes })}</p>
         <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mt-6 mb-2">{t("onboarding_goal")}</p>
         <div className="grid gap-2">
