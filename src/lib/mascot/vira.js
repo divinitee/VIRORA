@@ -7,11 +7,13 @@
 // Lines follow the app language (useAppLang). Formal "siz"/"вы" to match the app.
 
 // mood -> [first, last] pose number available
+// 2026-11-17 review: wave_01, wave_02 and proud_01 are the older full-body
+// framing (she looks tiny next to the rest), so they are left out of rotation.
 export const POSES = {
   neutral: [1, 11],
-  wave: [1, 12],
+  wave: [3, 12],
   cheerful: [1, 10],
-  proud: [1, 13],
+  proud: [2, 13],
   disappointed: [2, 13],
   sleepy: [1, 10],
   surprised: [1, 10],
@@ -137,6 +139,14 @@ function pickIndex(key, len) {
   return i;
 }
 
+/** A random pose of a mood (no line), never the same one twice in a row. */
+export function viraPose(mood = "neutral") {
+  const m = POSES[mood] ? mood : "neutral";
+  const [first, last] = POSES[m];
+  const nn = String(first + pickIndex(`vira_pose_${m}`, last - first + 1)).padStart(2, "0");
+  return `/assets/vira/${m}/vira_base_${m}_${nn}.webp`;
+}
+
 /** { src, text, mood } for a moment, or null if the moment is unknown. */
 export function viraFor(moment, lang = "en", vars = {}) {
   const set = LINES[moment];
@@ -145,7 +155,5 @@ export function viraFor(moment, lang = "en", vars = {}) {
   let text = line[lang] || line.en;
   for (const [k, v] of Object.entries(vars)) text = text.replace(new RegExp(`\\{${k}\\}`, "g"), String(v));
   const mood = POSES[line.mood] ? line.mood : "neutral";
-  const [first, last] = POSES[mood];
-  const nn = String(first + pickIndex(`vira_pose_${mood}`, last - first + 1)).padStart(2, "0");
-  return { src: `/assets/vira/${mood}/vira_base_${mood}_${nn}.webp`, text, mood };
+  return { src: viraPose(mood), text, mood };
 }
