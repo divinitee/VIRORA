@@ -8,6 +8,48 @@ import { liveTeacherApi } from "@/lib/serverApi";
 import { createRealtimeSession } from "@/lib/liveTeacher/realtimeClient";
 import { copyFor } from "@/lib/liveTeacher/copy";
 
+// VT-54.2: mistake -> grammar exercise links come from src/lib/liveTeacher/practice.js
+// (built in lane B). Loaded through a glob so the page builds and works before
+// that file exists: until then the recap simply shows no practice buttons.
+const practiceModules = import.meta.glob("../lib/liveTeacher/practice.js", { eager: true });
+const practiceFor = Object.values(practiceModules)[0]?.practiceFor || (() => []);
+const safePractice = (rule, variant) => {
+  try { return (practiceFor(rule, variant) || []).slice(0, 2); } catch { return []; }
+};
+
+function RecapMistakes({ mistakes, c, lang, navigate }) {
+  const list = Array.isArray(mistakes) ? mistakes : [];
+  return (
+    <div>
+      <h3 className="text-sm font-bold uppercase tracking-wider mb-2">{c.recapMistakes}</h3>
+      {!list.length ? <p className="text-sm text-muted-foreground">{c.recapNoMistakes}</p> : (
+        <ul className="space-y-2">
+          {list.map((m) => {
+            const links = safePractice(m.rule, m.variant);
+            return (
+              <li key={m.key} className="rounded-xl border border-border p-3 text-sm space-y-1.5">
+                <div className="flex items-center justify-between gap-2">
+                  <span className="font-semibold">{(m.label && (m.label[lang] || m.label.en)) || m.rule}</span>
+                  <span className="text-[11px] rounded-full px-2 py-0.5 bg-white/10">{c.status[m.status] || m.status} \u00b7 {m.count}\u00d7</span>
+                </div>
+                {m.wrong ? <p className="text-muted-foreground"><span className="line-through">{m.wrong}</span> \u2192 <span className="text-foreground">{m.correct}</span></p> : null}
+                {m.explanation_uz ? <p className="text-xs text-muted-foreground">{m.explanation_uz}</p> : null}
+                {links.length ? (
+                  <div className="flex flex-wrap gap-2 pt-1">
+                    {links.map((l) => (
+                      <Button key={l.topic} size="sm" variant="outline" className="h-8" onClick={() => navigate(l.href)}>{c.practise}</Button>
+                    ))}
+                  </div>
+                ) : null}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+  );
+}
+
 // Live Teacher: a real-time VOICE lesson with the AI English teacher.
 // Architecture and security notes: docs/live-teacher.md.
 //   server  base44/functions/liveTeacherApi (mints the short-lived voice token,
@@ -381,6 +423,7 @@ export default function LiveTeacher() {
               ))}
             </div>
             {recap?.cefr_level ? <p className="text-sm">{c.level}: <b>{recap.cefr_level}</b></p> : null}
+            <RecapMistakes mistakes={recap?.mistakes} c={c} lang={lang} navigate={navigate} />
             {recap?.scores ? (
               <div>
                 <h3 className="text-sm font-bold uppercase tracking-wider mb-2">{c.recapScores}</h3>
