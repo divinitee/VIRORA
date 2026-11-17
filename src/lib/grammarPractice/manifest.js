@@ -660,6 +660,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.time.since-for": {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "since-for",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 464,
+   "build": 416,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "pronouns.demonstrative.that-those-far": {
   "domain": "pronouns",
   "branch": "demonstrative",
@@ -1412,6 +1426,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 272,
    "build": 284,
    "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "verb-patterns.gerund-infinitive.decide-infinitive": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "decide-infinitive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 368,
+   "transform": 240,
    "create": 8,
    "express": 5
   }

@@ -85,7 +85,7 @@
 84	B	verb-patterns.have-got.have-got-negative	A1	1	todo	haven't got (not haven't have)
 85	B	verb-patterns.have-got.have-got-question	A1	1	todo	Has ... got question form
 86	B	verb-patterns.have-got.have-has	A1	3	todo	have (not has) with I | has with third person singular | Producing has got for third person
-87	B	verb-patterns.gerund-infinitive.decide-infinitive	A2	1	todo	decide + to-infinitive
+87	B	verb-patterns.gerund-infinitive.decide-infinitive	A2	1	live	decide + to-infinitive
 88	B	verb-patterns.gerund-infinitive.enjoy-gerund	A2	2	live	enjoy + -ing | like/love + -ing (or to) but never bare infinitive
 89	B	verb-patterns.gerund-infinitive.preposition-gerund	A2	1	todo	-ing form after a preposition
 90	B	verb-patterns.gerund-infinitive.want-infinitive	A2	1	live	want + to-infinitive
@@ -126,7 +126,7 @@
 125	B	prep-phrasal.time.in-on-at-contrast	A1	1	live	in / on / at contrast across three time expressions
 126	B	prep-phrasal.time.on-days	A1	1	live	on with days
 127	B	prep-phrasal.place.in-area	A2	1	todo	in for an enclosed area (garden)
-128	B	prep-phrasal.time.since-for	A2	1	todo	since with a start point
+128	B	prep-phrasal.time.since-for	A2	1	live	since with a start point
 129	B	prep-phrasal.movement.arrive-at-in	A2	1	todo	arrive at (a point) — never 'arrive to'
 130	B	prep-phrasal.movement.go-home	A2	1	todo	No preposition before 'home' after go/come
 131	B	prep-phrasal.movement.to-vs-in	A2	1	todo	to for movement towards, in for location
