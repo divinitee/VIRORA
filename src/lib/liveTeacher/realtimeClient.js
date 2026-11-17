@@ -41,6 +41,7 @@ export function createRealtimeSession({ clientSecret, openingPrompt, onEvent, ru
   let responseDone = false;
   let needsContinue = false;
 
+  const seenTypes = new Set(); // debug: log each event type once (VT-54.1)
   const emit = (e) => { try { onEvent(e); } catch { /* UI errors must not break the link */ } };
   const send = (obj) => { if (dc && dc.readyState === 'open') dc.send(JSON.stringify(obj)); };
 
@@ -109,10 +110,21 @@ export function createRealtimeSession({ clientSecret, openingPrompt, onEvent, ru
         emit({ type: 'state', state: 'idle' });
         emit({ type: 'audio_stopped' });
         break;
+      // VT-54.1 (2026-11-17): the first live lesson sent ZERO tool calls to the
+      // server. Function calls are now taken from every place the GA API can
+      // carry them, de-duplicated by call_id. arguments.done is only used when
+      // it carries the name (it may not), so it can never claim a call_id first
+      // with an empty name.
       case 'response.function_call_arguments.done':
-        handleCall(ev.call_id, ev.name, ev.arguments);
+        if (ev.name) handleCall(ev.call_id, ev.name, ev.arguments);
+        break;
+      case 'response.output_item.done':
+        if (ev.item?.type === 'function_call') handleCall(ev.item.call_id, ev.item.name, ev.item.arguments);
         break;
       case 'response.done':
+        for (const o of ev.response?.output || []) {
+          if (o?.type === 'function_call') handleCall(o.call_id, o.name, o.arguments);
+        }
         responseDone = true;
         if (hadCalls) needsContinue = true;
         if (ev.response?.status === 'failed') {
@@ -125,6 +137,10 @@ export function createRealtimeSession({ clientSecret, openingPrompt, onEvent, ru
         break;
       default:
         break;
+    }
+    if (ev.type && !seenTypes.has(ev.type)) {
+      seenTypes.add(ev.type);
+      console.debug('[live-teacher] event', ev.type);
     }
   }
 
@@ -159,8 +175,12 @@ export function createRealtimeSession({ clientSecret, openingPrompt, onEvent, ru
     dc.onmessage = (e) => onMessage(e.data);
     dc.onopen = () => {
       emit({ type: 'state', state: 'connected' });
-      // The teacher speaks first.
-      send({ type: 'response.create', response: { instructions: openingPrompt } });
+      // The teacher speaks first. The opening goes in as a message, NOT as
+      // response.instructions: that field REPLACES the session instructions for
+      // the response, so the greeting would have run without the persona,
+      // the memory and the tools.
+      send({ type: 'conversation.item.create', item: { type: 'message', role: 'user', content: [{ type: 'input_text', text: `[${openingPrompt}]` }] } });
+      send({ type: 'response.create' });
     };
 
     const offer = await pc.createOffer();
