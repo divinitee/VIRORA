@@ -76,7 +76,7 @@
 75	B	pronouns.possessive.possessive-pronouns	A1	2	live	Possessive pronoun theirs standing alone | mine (pronoun) vs my (determiner)
 76	B	pronouns.demonstrative.that-those-far	A1	2	live	those for plural far objects | those as a pronoun for plural far items
 77	B	pronouns.demonstrative.this-these-near	A1	2	live	this for a single near object | these for plural near objects
-78	B	pronouns.personal.subject-object-contrast	A2	1	todo	Object pronoun after a preposition in a coordinated phrase
+78	B	pronouns.personal.subject-object-contrast	A2	1	live	Object pronoun after a preposition in a coordinated phrase
 79	B	pronouns.substitution.one-ones	A2	3	todo	one replacing a singular countable noun | ones replacing a plural noun | 'those' as a formal substitute for 'the ones' before a post-modifier
 80	B	pronouns.indefinite.indefinite-agreement	A2	2	todo	everyone takes a singular verb | Singular verb after 'nobody' despite plural meaning
 81	B	pronouns.indefinite.nothing-anything	A2	1	todo	nothing with an affirmative verb (no double negative)
@@ -127,9 +127,9 @@
 126	B	prep-phrasal.time.on-days	A1	1	live	on with days
 127	B	prep-phrasal.place.in-area	A2	1	live	in for an enclosed area (garden)
 128	B	prep-phrasal.time.since-for	A2	1	todo	since with a start point
-129	B	prep-phrasal.movement.arrive-at-in	A2	1	todo	arrive at (a point) — never 'arrive to'
+129	B	prep-phrasal.movement.arrive-at-in	A2	1	live	arrive at (a point) — never 'arrive to'
 130	B	prep-phrasal.movement.go-home	A2	1	live	No preposition before 'home' after go/come
-131	B	prep-phrasal.movement.to-vs-in	A2	1	todo	to for movement towards, in for location
+131	B	prep-phrasal.movement.to-vs-in	A2	1	live	to for movement towards, in for location
 132	B	prep-phrasal.dependent-prepositions.adjective-preposition	A2	1	todo	good at / afraid of
 133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	todo	interested in
 134	B	prep-phrasal.phrasal-verbs.common-phrasal	A2	1	live	Particle choice in a common phrasal verb (get up)

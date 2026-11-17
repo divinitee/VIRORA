@@ -1,0 +1,1834 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every summer we go ______ {area} and stay in a village there, {name}.",
+  "options": [
+   "to",
+   "in",
+   "at",
+   "on"
+  ],
+  "key": 0,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "area": [
+    "the mountains",
+    "the countryside",
+    "the north",
+    "the south"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle lives ______ {city}, but he often goes to {far} for work.",
+  "options": [
+   "in",
+   "at",
+   "on",
+   "to"
+  ],
+  "key": 0,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} moved to {far} {when}. Now she works ______ a big city.",
+  "options": [
+   "at",
+   "on",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We stayed in {city} for a week and then went ______ {city2}.",
+  "options": [
+   "on",
+   "to",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "city2": [
+    "Khiva",
+    "Tashkent",
+    "Andijan",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousins came ______ Tashkent {when}, and they still live in the capital.",
+  "options": [
+   "to",
+   "in",
+   "at",
+   "on"
+  ],
+  "key": 0,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} studies ______ {far}, and he flies to Tashkent every {time}.",
+  "options": [
+   "in",
+   "at",
+   "on",
+   "to"
+  ],
+  "key": 0,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "time": [
+    "summer",
+    "winter",
+    "holiday",
+    "New Year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Let's go to {city} {next} and stay ______ the old town, {name}.",
+  "options": [
+   "at",
+   "on",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents live in {area}, so we go ______ their village by car.",
+  "options": [
+   "on",
+   "to",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "area": [
+    "the countryside",
+    "the mountains",
+    "a small village",
+    "the south"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We flew ______ {country} {when} and spent two weeks in the south.",
+  "options": [
+   "to",
+   "in",
+   "at",
+   "on"
+  ],
+  "key": 0,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} works ______ {far} now. She returns to Uzbekistan every {time}.",
+  "options": [
+   "in",
+   "at",
+   "on",
+   "to"
+  ],
+  "key": 0,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "time": [
+    "summer",
+    "winter",
+    "spring",
+    "year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When did you come to {city}, {name}? Do you like living ______ this city?",
+  "options": [
+   "at",
+   "on",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We were in {city} {when}. We went ______ the old town every day.",
+  "options": [
+   "on",
+   "to",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My aunt is going ______ {country} {next}. She will stay in the capital.",
+  "options": [
+   "to",
+   "in",
+   "at",
+   "on"
+  ],
+  "key": 0,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} lived ______ {area} as a child, and then his family moved to {city}.",
+  "options": [
+   "in",
+   "at",
+   "on",
+   "to"
+  ],
+  "key": 0,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "area": [
+    "the mountains",
+    "a small village",
+    "the countryside",
+    "the north"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They took the train to {city} and stayed ______ the city for three days.",
+  "options": [
+   "at",
+   "on",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is your brother still in {far}, {name}? When is he coming ______ Tashkent?",
+  "options": [
+   "on",
+   "to",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want to go ______ {country} one day and live in a big city there, {name}.",
+  "options": [
+   "to",
+   "in",
+   "at",
+   "on"
+  ],
+  "key": 0,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher studied ______ {far}, and then she came to our town.",
+  "options": [
+   "in",
+   "at",
+   "on",
+   "to"
+  ],
+  "key": 0,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We're flying to {far} {next}, and we'll stay ______ the centre, {name}.",
+  "options": [
+   "at",
+   "on",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My friends spent the summer in {area}, and then they went ______ {city}.",
+  "options": [
+   "on",
+   "to",
+   "in",
+   "at"
+  ],
+  "key": 1,
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "area": [
+    "the mountains",
+    "the countryside",
+    "a small village",
+    "the north"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "We go ______ {area} every summer, {name}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "area": [
+    "the mountains",
+    "the countryside",
+    "the north",
+    "the south"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "{name} moved ______ {far} {when}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "My uncle flies ______ {country} {next}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "When did your family come ______ Tashkent, {name}?",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "Let's take the train ______ {city} on Saturday, {name}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "My sister returned ______ Uzbekistan {when}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "Are you going ______ {city} {next}, {name}?",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "Our neighbours are moving ______ {area} next month.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "area": [
+    "the countryside",
+    "a small village",
+    "the mountains",
+    "the south"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "{name} went ______ {far} with his {who}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "who": [
+    "dad",
+    "uncle",
+    "brother",
+    "team"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "My cousins came ______ our city {when}, {name}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "My grandparents live ______ {area}, {name}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "area": [
+    "the countryside",
+    "the mountains",
+    "a small village",
+    "the north"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "{name} works ______ {far} now.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "We stayed ______ {city} for a week {when}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "My brother studies ______ {country}, {name}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "Is your aunt still ______ {far}, {name}?",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "They spent the holidays ______ {area}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "area": [
+    "the mountains",
+    "the countryside",
+    "a small village",
+    "the south"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "{name} lived ______ {city} as a child.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "Our friends were ______ {country} {when}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "My {who} works ______ the capital, {name}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "uncle",
+    "aunt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or in.",
+  "source": "We'll stay ______ {far} for three days {next}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We go in {area} every summer, {name}.",
+  "hint": "We go ______ {area} every summer, {name}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "area": [
+    "the mountains",
+    "the countryside",
+    "the north",
+    "the south"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My aunt lives to {city} now, {name}.",
+  "hint": "My aunt lives ______ {city} now, {name}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} moved in {far} {when}.",
+  "hint": "{name} moved ______ {far} {when}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We stayed to {city} for a week {when}.",
+  "hint": "We stayed ______ {city} for a week {when}.",
+  "key": "in",
+  "why": "live, stay, work, study and be show where someone is, so use in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My cousins flew in {country} {when}.",
+  "hint": "My cousins flew ______ {country} {when}.",
+  "key": "to",
+  "why": "go, fly, move, come and return show movement towards a place, so use to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (go)",
+  "source": "We will be in {city} {next}, {name}.",
+  "hint": "We will go ______ {city} {next}, {name}.",
+  "key": "to",
+  "why": "go shows movement: go to.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (fly)",
+  "source": "My uncle will be in {far} {next}.",
+  "hint": "My uncle will fly ______ {far} {next}.",
+  "key": "to",
+  "why": "fly shows movement: fly to.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (move)",
+  "source": "Next year {name} will live in {country}.",
+  "hint": "Next year {name} will move ______ {country}.",
+  "key": "to",
+  "why": "move shows movement: move to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (come)",
+  "source": "My grandparents will be in Tashkent {next}, {name}.",
+  "hint": "My grandparents will come ______ Tashkent {next}, {name}.",
+  "key": "to",
+  "why": "come shows movement: come to.",
+  "slots": {
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (return)",
+  "source": "{name} will be back in Uzbekistan {next}.",
+  "hint": "{name} will return ______ Uzbekistan {next}.",
+  "key": "to",
+  "why": "return shows movement: return to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "next": [
+    "next summer",
+    "next month",
+    "next spring",
+    "next year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (live)",
+  "source": "My cousins moved to {city} {when}.",
+  "hint": "My cousins live ______ {city} now.",
+  "key": "in",
+  "why": "live shows where they are: live in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (work)",
+  "source": "{name} went to {far} for a job {when}.",
+  "hint": "{name} works ______ {far} now.",
+  "key": "in",
+  "why": "work shows where she is: work in.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (stay)",
+  "source": "We went to {area} for the weekend, {name}.",
+  "hint": "We stayed ______ {area} for the weekend, {name}.",
+  "key": "in",
+  "why": "stay shows where you were: stay in.",
+  "slots": {
+   "area": [
+    "the mountains",
+    "the countryside",
+    "a small village",
+    "the north"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (study)",
+  "source": "My brother went to {country} to study {when}.",
+  "hint": "My brother studies ______ {country} now.",
+  "key": "in",
+  "why": "study shows where he is: study in.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with the verb in brackets. (be)",
+  "source": "Our teacher flew to {far} {when}.",
+  "hint": "Our teacher was ______ {far} {when}.",
+  "key": "in",
+  "why": "be shows where someone is: be in.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "last summer",
+    "last year",
+    "last spring",
+    "two years ago"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a city you want to go to.",
+  "requiredElement": "I want to go to …",
+  "constraints": [
+   "exactly one sentence",
+   "go to",
+   "a city name"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where a relative lives.",
+  "requiredElement": "My … lives in …",
+  "constraints": [
+   "exactly one sentence",
+   "lives in",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a trip: where you went and where you stayed.",
+  "requiredElement": "We went to … and stayed in …",
+  "constraints": [
+   "exactly one sentence",
+   "to once",
+   "in once"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about someone who moved to another city or country.",
+  "requiredElement": "… moved to …",
+  "constraints": [
+   "exactly one sentence",
+   "moved to",
+   "a place name"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where you spend the summer holidays.",
+  "requiredElement": "We spend the summer in …",
+  "constraints": [
+   "exactly one sentence",
+   "in",
+   "a place word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question to a friend about a trip. Use go to.",
+  "requiredElement": "Are you going to … ?",
+  "constraints": [
+   "exactly one question",
+   "go to",
+   "a place name"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where you would like to live one day.",
+  "requiredElement": "I'd like to live in …",
+  "constraints": [
+   "exactly one sentence",
+   "live in",
+   "a city or country"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one about where you live and one about where you often go.",
+  "requiredElement": "I live in … / I often go to …",
+  "constraints": [
+   "exactly two sentences",
+   "in once",
+   "to once"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your last holiday: where you went, where you stayed and what you did there.",
+  "targetGrammar": "went to / stayed in",
+  "lookFor": [
+   "went to",
+   "stayed in",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a relative who lives in another city or country. How often do you go there?",
+  "targetGrammar": "lives in / go to",
+  "lookFor": [
+   "lives in",
+   "go to",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Plan a trip for next summer: where will you go, and where will you stay?",
+  "targetGrammar": "go to / stay in",
+  "lookFor": [
+   "go to",
+   "stay in",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about someone in your family who moved to a new city. Where does he or she live now?",
+  "targetGrammar": "moved to / lives in",
+  "lookFor": [
+   "moved to",
+   "lives in",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a place you love: where it is and how you get there.",
+  "targetGrammar": "go to / is in",
+  "lookFor": [
+   "to",
+   "in",
+   "three or four sentences"
+  ]
+ }
+]

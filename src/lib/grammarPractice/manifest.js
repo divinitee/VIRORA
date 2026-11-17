@@ -562,6 +562,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.movement.arrive-at-in": {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 452,
+   "build": 560,
+   "transform": 384,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.movement.go-home": {
   "domain": "prep-phrasal",
   "branch": "movement",
@@ -572,6 +586,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 308,
    "build": 368,
    "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "prep-phrasal.movement.to-vs-in": {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "to-vs-in",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 560,
+   "build": 416,
+   "transform": 384,
    "create": 8,
    "express": 5
   }
@@ -754,6 +782,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 296,
    "build": 296,
    "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.personal.subject-object-contrast": {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "subject-object-contrast",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 272,
+   "transform": 240,
    "create": 8,
    "express": 5
   }

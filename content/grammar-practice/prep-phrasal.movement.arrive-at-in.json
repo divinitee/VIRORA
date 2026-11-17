@@ -1,0 +1,1870 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We arrived ______ the airport {when}, {name}.",
+  "options": [
+   "at",
+   "in",
+   "to",
+   "on"
+  ],
+  "key": 0,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "when": [
+    "at 6 a.m.",
+    "very early",
+    "late",
+    "on time"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousins arrived ______ {city} {when}.",
+  "options": [
+   "at",
+   "to",
+   "on",
+   "in"
+  ],
+  "key": 3,
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} arrived ______ the {event} with a big cake.",
+  "options": [
+   "to",
+   "on",
+   "at",
+   "in"
+  ],
+  "key": 2,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When did you arrive ______ {country}, {name}?",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "to"
+  ],
+  "key": 1,
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Call me when you arrive ______ the {place}, {name}.",
+  "options": [
+   "at",
+   "in",
+   "to",
+   "on"
+  ],
+  "key": 0,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "place": [
+    "station",
+    "hotel",
+    "cinema",
+    "bus station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The guests arrived ______ the {event} very late, {name}.",
+  "options": [
+   "in",
+   "to",
+   "on",
+   "at"
+  ],
+  "key": 3,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We arrive ______ {far} in the evening, {name}. Then we take a taxi.",
+  "options": [
+   "to",
+   "on",
+   "in",
+   "at"
+  ],
+  "key": 2,
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We arrived ______ the bus stop {when}, but the bus was gone.",
+  "options": [
+   "on",
+   "at",
+   "in",
+   "to"
+  ],
+  "key": 1,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "when": [
+    "too late",
+    "at eight",
+    "a minute late",
+    "at five past nine"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} is arriving ______ {city} {when}.",
+  "options": [
+   "in",
+   "at",
+   "to",
+   "on"
+  ],
+  "key": 0,
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "when": [
+    "tomorrow",
+    "on Monday",
+    "next week",
+    "tonight"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} arrived ______ Grandma's flat with some {food}.",
+  "options": [
+   "in",
+   "to",
+   "on",
+   "at"
+  ],
+  "key": 3,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "who": [
+    "uncle",
+    "aunt",
+    "sister",
+    "brother"
+   ],
+   "food": [
+    "fruit",
+    "bread",
+    "sweets",
+    "flowers"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Let's meet when we arrive ______ the {place}, {name}.",
+  "options": [
+   "to",
+   "on",
+   "at",
+   "in"
+  ],
+  "key": 2,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "place": [
+    "stadium",
+    "bazaar",
+    "cinema",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We arrived ______ {country} {when}, {name}.",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "to"
+  ],
+  "key": 1,
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please arrive ______ the {event} on time, {name}.",
+  "options": [
+   "at",
+   "in",
+   "to",
+   "on"
+  ],
+  "key": 0,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "event": [
+    "exam",
+    "meeting",
+    "concert",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents arrive ______ {city} by train {when}.",
+  "options": [
+   "at",
+   "to",
+   "on",
+   "in"
+  ],
+  "key": 3,
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "when": [
+    "tomorrow",
+    "on Sunday",
+    "next Friday",
+    "tonight"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} arrived ______ the hotel {when}.",
+  "options": [
+   "to",
+   "on",
+   "at",
+   "in"
+  ],
+  "key": 2,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "when": [
+    "late at night",
+    "very tired",
+    "at midnight",
+    "with two big bags"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What time did you arrive ______ the {event}, {name}?",
+  "options": [
+   "on",
+   "at",
+   "in",
+   "to"
+  ],
+  "key": 1,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother will arrive ______ {far} {when}.",
+  "options": [
+   "in",
+   "at",
+   "to",
+   "on"
+  ],
+  "key": 0,
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "tomorrow",
+    "on Monday",
+    "next week",
+    "on Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We arrived ______ the gate just in time, {name}. The {t} was still there.",
+  "options": [
+   "in",
+   "to",
+   "on",
+   "at"
+  ],
+  "key": 3,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "t": [
+    "plane",
+    "bus",
+    "coach",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} arrived ______ {city} {when} and called her mum.",
+  "options": [
+   "to",
+   "on",
+   "in",
+   "at"
+  ],
+  "key": 2,
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {kids} arrived ______ the {place} with their teacher.",
+  "options": [
+   "on",
+   "at",
+   "in",
+   "to"
+  ],
+  "key": 1,
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "kids": [
+    "children",
+    "students",
+    "boys",
+    "girls"
+   ],
+   "place": [
+    "museum",
+    "zoo",
+    "theatre",
+    "park gate"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "We arrived ______ the {place} {when}, {name}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "place": [
+    "station",
+    "hotel",
+    "cinema",
+    "bus station"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "My aunt arrived ______ {city} {when}.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "{name} arrived ______ the {event} late again.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "When do you arrive ______ {far}, {name}?",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "Text me when you arrive ______ the {place}, {name}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "station",
+    "hotel",
+    "stadium"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "They arrived ______ {country} {when}.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "The teacher arrived ______ the {event} before us, {name}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "event": [
+    "concert",
+    "meeting",
+    "exam",
+    "party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "{name} is arriving ______ {city} tomorrow with her {who}.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "who": [
+    "mum",
+    "sister",
+    "aunt",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "Our guests arrived ______ the {event} early, {name}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "We arrived ______ Grandma's house {when}, {name}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "My cousins will arrive ______ {far} {when}.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "tomorrow",
+    "on Monday",
+    "next week",
+    "on Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "{name} arrived ______ the airport {when}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "when": [
+    "very early",
+    "too late",
+    "with the family",
+    "by taxi"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "We arrived ______ {country} {when}, {name}.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "Please arrive ______ the {place} ten minutes early, {name}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "place": [
+    "station",
+    "cinema",
+    "theatre",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "When did your grandparents arrive ______ {city}, {name}?",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "The {kids} arrived ______ the zoo {when}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "kids": [
+    "children",
+    "students",
+    "boys",
+    "girls"
+   ],
+   "when": [
+    "yesterday",
+    "on Friday",
+    "last week",
+    "early"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "My uncle arrived ______ {far} {when}. He loves the city.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "We arrived ______ the {event} {when}, {name}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "by taxi",
+    "on foot",
+    "together",
+    "very late"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "{name} arrives ______ {city} by train {when}.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "when": [
+    "tomorrow",
+    "tonight",
+    "on Sunday",
+    "next Friday"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write at, in or to.",
+  "source": "What time do we arrive ______ the hotel, {name}? I'm very {state}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "state": [
+    "tired",
+    "hungry",
+    "sleepy",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We arrived to the {place} {when}, {name}.",
+  "hint": "We arrived ______ the {place} {when}, {name}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "place": [
+    "station",
+    "hotel",
+    "cinema",
+    "bus station"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My aunt arrived to {city} {when}.",
+  "hint": "My aunt arrived ______ {city} {when}.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} arrived to the {event} late.",
+  "hint": "{name} arrived ______ the {event} late.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "They arrived to {country} {when}.",
+  "hint": "They arrived ______ {country} {when}.",
+  "key": "in",
+  "why": "arrive in + a city or a country. Never arrive to.",
+  "slots": {
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "When did you arrive to the hotel, {name}? You look {state}.",
+  "hint": "When did you arrive ______ the hotel, {name}? You look {state}.",
+  "key": "at",
+  "why": "arrive at + a place like a building, a stop or an event. Never arrive to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "state": [
+    "tired",
+    "hungry",
+    "cold",
+    "sleepy"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with arrived.",
+  "source": "We got to the {place} {when}, {name}.",
+  "hint": "We ______ the {place} {when}, {name}.",
+  "key": "arrived at",
+  "why": "got to a building = arrived at.",
+  "slots": {
+   "place": [
+    "station",
+    "hotel",
+    "cinema",
+    "bus station"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with arrived.",
+  "source": "My cousins got to {city} {when}.",
+  "hint": "My cousins ______ {city} {when}.",
+  "key": "arrived in",
+  "why": "got to a city = arrived in.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with arrived.",
+  "source": "{name} got to the {event} with a present.",
+  "hint": "{name} ______ the {event} with a present.",
+  "key": "arrived at",
+  "why": "got to an event = arrived at.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with arrived.",
+  "source": "Our {who} got to {far} {when}.",
+  "hint": "Our {who} ______ {far} {when}.",
+  "key": "arrived in",
+  "why": "got to a city = arrived in.",
+  "slots": {
+   "who": [
+    "teacher",
+    "neighbour",
+    "uncle",
+    "aunt"
+   ],
+   "far": [
+    "Istanbul",
+    "Moscow",
+    "London",
+    "Almaty"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with arrived.",
+  "source": "The {kids} got to the zoo {when}.",
+  "hint": "The {kids} ______ the zoo {when}.",
+  "key": "arrived at",
+  "why": "got to a place = arrived at.",
+  "slots": {
+   "kids": [
+    "children",
+    "students",
+    "boys",
+    "girls"
+   ],
+   "when": [
+    "yesterday",
+    "on Friday",
+    "last week",
+    "early"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with arrived.",
+  "source": "We left Tashkent. Four hours later we were in {city}, {name}.",
+  "hint": "We ______ {city} four hours later, {name}.",
+  "key": "arrived in",
+  "why": "A city → arrived in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with arrived.",
+  "source": "{name} left home. Ten minutes later she was at the {place}.",
+  "hint": "{name} ______ the {place} ten minutes later.",
+  "key": "arrived at",
+  "why": "A building or a stop → arrived at.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "place": [
+    "station",
+    "bus stop",
+    "cinema",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with arrived.",
+  "source": "My uncle took a plane. The next {day}, he was in {country}.",
+  "hint": "My uncle ______ {country} the next {day}.",
+  "key": "arrived in",
+  "why": "A country → arrived in.",
+  "slots": {
+   "day": [
+    "morning",
+    "day",
+    "evening",
+    "afternoon"
+   ],
+   "country": [
+    "Turkey",
+    "Kazakhstan",
+    "England",
+    "Russia"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with arrived.",
+  "source": "We took a taxi. Half an hour later we were at the {event}, {name}.",
+  "hint": "We ______ the {event} half an hour later, {name}.",
+  "key": "arrived at",
+  "why": "An event → arrived at.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with arrived.",
+  "source": "The {who} took the bus. An hour later they were at the {place}.",
+  "hint": "The {who} ______ the {place} an hour later.",
+  "key": "arrived at",
+  "why": "A building → arrived at.",
+  "slots": {
+   "who": [
+    "guests",
+    "students",
+    "tourists",
+    "players"
+   ],
+   "place": [
+    "hotel",
+    "museum",
+    "theatre",
+    "restaurant"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what time you arrive at school or work.",
+  "requiredElement": "I arrive at … at …",
+  "constraints": [
+   "exactly one sentence",
+   "arrive at",
+   "a time"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a city you arrived in on a trip.",
+  "requiredElement": "We arrived in …",
+  "constraints": [
+   "exactly one sentence",
+   "arrived in",
+   "a city name"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about arriving late at a party or a lesson.",
+  "requiredElement": "I arrived at the … late.",
+  "constraints": [
+   "exactly one sentence",
+   "arrived at",
+   "an event word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question to a friend about his or her trip. Use arrive.",
+  "requiredElement": "When did you arrive in …?",
+  "constraints": [
+   "exactly one question",
+   "arrive in or at",
+   "a place name"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a relative who is arriving soon.",
+  "requiredElement": "My … is arriving in … tomorrow.",
+  "constraints": [
+   "exactly one sentence",
+   "arriving in or at",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence for a friend: tell him or her to call you after arriving.",
+  "requiredElement": "Call me when you arrive at …",
+  "constraints": [
+   "exactly one sentence",
+   "arrive at or in",
+   "a place word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about arriving at a station or an airport.",
+  "requiredElement": "We arrived at the …",
+  "constraints": [
+   "exactly one sentence",
+   "arrived at",
+   "station or airport"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a trip: the city you arrived in and the hotel you arrived at.",
+  "requiredElement": "We arrived in … / We arrived at the hotel …",
+  "constraints": [
+   "exactly two sentences",
+   "arrived in once",
+   "arrived at once"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a trip to another city: when you left, when you arrived and where you went first.",
+  "targetGrammar": "arrived in / arrived at",
+  "lookFor": [
+   "arrived in",
+   "arrived at",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a friend who is visiting you: tell him or her what to do on arriving.",
+  "targetGrammar": "When you arrive at / in …",
+  "lookFor": [
+   "arrive at or in",
+   "a place word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a day when you arrived late somewhere. What happened?",
+  "targetGrammar": "I arrived at … late",
+  "lookFor": [
+   "arrived at",
+   "a time",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Plan a family holiday: when you arrive in the city and at the hotel.",
+  "targetGrammar": "We arrive in … / at the hotel …",
+  "lookFor": [
+   "arrive in",
+   "arrive at",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "arrive-at-in",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the first day of a school trip: where the class arrived and when.",
+  "targetGrammar": "We arrived at the …",
+  "lookFor": [
+   "arrived at",
+   "a time",
+   "three or four sentences"
+  ]
+ }
+]
