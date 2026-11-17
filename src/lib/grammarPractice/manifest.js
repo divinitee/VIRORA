@@ -1234,6 +1234,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.relative-clauses.who-people": {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.word-order.double-object": {
   "domain": "sentence-structure",
   "branch": "word-order",

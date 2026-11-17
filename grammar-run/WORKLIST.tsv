@@ -69,7 +69,7 @@
 68	B	sentence-structure.word-order.double-object	A2	1	live	S + V + indirect object + direct object
 69	B	sentence-structure.relative-clauses.that-which-things	A2	1	todo	that/which for a thing
 70	B	sentence-structure.relative-clauses.where-place	A2	1	todo	where for a place (no object gap)
-71	B	sentence-structure.relative-clauses.who-people	A2	2	todo	who for a person in a defining relative clause | Productive defining relative clause
+71	B	sentence-structure.relative-clauses.who-people	A2	2	live	who for a person in a defining relative clause | Productive defining relative clause
 72	B	pronouns.personal.object-pronouns	A1	4	live	Object pronoun her after a verb | Object pronoun me | Object pronoun us (vs we/our) | Producing the object pronoun for a plural referent
 73	B	pronouns.personal.subject-pronouns	A1	2	live	Subject pronoun I (not me/my) as sentence subject | Subject pronoun he referring back to a named male
 74	B	pronouns.possessive.possessive-determiners	A1	3	live	Possessive determiner my before a noun | his (not he/him) before a noun | their (determiner) vs theirs

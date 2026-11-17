@@ -39,7 +39,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The man ______ sells {thing} at the bazaar is my uncle.",
+  "prompt": "The man ______ sells {thing} at the bazaar is my {who}.",
   "options": [
    "which",
    "where",
@@ -54,6 +54,12 @@
     "bread",
     "spices",
     "carpets"
+   ],
+   "who": [
+    "uncle",
+    "neighbour",
+    "cousin",
+    "grandpa"
    ]
   }
  },
@@ -65,7 +71,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I have a friend ______ speaks {lang} very well.",
+  "prompt": "I have a friend ______ speaks {lang} very well, {name}.",
   "options": [
    "where",
    "what",
@@ -80,6 +86,12 @@
     "Turkish",
     "Korean",
     "Chinese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -155,7 +167,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The students ______ finished the test can go home, {name}.",
+  "prompt": "The students ______ finished the {test} can go home, {name}.",
   "options": [
    "which",
    "where",
@@ -165,6 +177,12 @@
   "key": 3,
   "why": "The noun is a person, so use who (or that). which is for things, where for places.",
   "slots": {
+   "test": [
+    "test",
+    "exam",
+    "dictation",
+    "project"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -181,7 +199,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The doctor ______ helped my grandma was very kind, {name}.",
+  "prompt": "The doctor ______ helped my {who} was very kind, {name}.",
   "options": [
    "where",
    "what",
@@ -191,6 +209,12 @@
   "key": 2,
   "why": "The noun is a person, so use who (or that). which is for things, where for places.",
   "slots": {
+   "who": [
+    "grandma",
+    "grandpa",
+    "little brother",
+    "mum"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -207,7 +231,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My cousin is the person ______ always makes us laugh at {event}.",
+  "prompt": "My cousin is the person ______ always makes us laugh at {event}, {name}.",
   "options": [
    "what",
    "who",
@@ -222,6 +246,12 @@
     "parties",
     "dinner",
     "family picnics"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -233,7 +263,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The people ______ live upstairs have a {pet}.",
+  "prompt": "The people ______ live upstairs have a {pet}, {name}.",
   "options": [
    "who",
    "which",
@@ -248,6 +278,12 @@
     "parrot",
     "cat",
     "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -259,7 +295,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The driver ______ took us to {city} was very friendly.",
+  "prompt": "The driver ______ took us to {city} was very friendly, {name}.",
   "options": [
    "which",
    "where",
@@ -274,6 +310,12 @@
     "Bukhara",
     "Khiva",
     "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -317,7 +359,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The children ______ play in the yard are very {adj}.",
+  "prompt": "The children ______ play in the {place} are very {adj}.",
   "options": [
    "what",
    "who",
@@ -327,6 +369,12 @@
   "key": 1,
   "why": "The noun is a person, so use who (or that). which is for things, where for places.",
   "slots": {
+   "place": [
+    "yard",
+    "park",
+    "street",
+    "garden"
+   ],
    "adj": [
     "loud",
     "happy",
@@ -343,7 +391,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I like teachers ______ explain things slowly, {name}.",
+  "prompt": "I like teachers ______ explain {subj} slowly, {name}.",
   "options": [
    "who",
    "which",
@@ -353,6 +401,12 @@
   "key": 0,
   "why": "The noun is a person, so use who (or that). which is for things, where for places.",
   "slots": {
+   "subj": [
+    "grammar",
+    "maths",
+    "new words",
+    "the rules"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -369,7 +423,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The woman ______ called you {when} was from the bank.",
+  "prompt": "The woman ______ called you {when} was from the {place}.",
   "options": [
    "which",
    "where",
@@ -384,6 +438,12 @@
     "an hour ago",
     "yesterday",
     "at lunch"
+   ],
+   "place": [
+    "bank",
+    "school",
+    "hospital",
+    "post office"
    ]
   }
  },
@@ -395,7 +455,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The man ______ near the {place} has three horses.",
+  "prompt": "The man ______ near the {place} has three {animal}.",
   "options": [
    "which lives",
    "where lives",
@@ -410,6 +470,12 @@
     "school",
     "mosque",
     "park"
+   ],
+   "animal": [
+    "horses",
+    "cows",
+    "dogs",
+    "goats"
    ]
   }
  },
@@ -453,7 +519,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Mr Karimov is the man ______ us {subj}.",
+  "prompt": "Mr Karimov is the man ______ us {subj}, {name}.",
   "options": [
    "who teaches",
    "who he teaches",
@@ -468,6 +534,12 @@
     "history",
     "chemistry",
     "music"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -479,7 +551,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The girls ______ in the choir are from {city}.",
+  "prompt": "The girls ______ in the choir are from {city}, {name}.",
   "options": [
    "who they sing",
    "which sing",
@@ -494,6 +566,12 @@
     "Bukhara",
     "Khiva",
     "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -537,7 +615,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "People ______ too fast are dangerous, {name}.",
+  "prompt": "People ______ too fast on this {road} are dangerous, {name}.",
   "options": [
    "where drive",
    "who drive",
@@ -547,6 +625,12 @@
   "key": 1,
   "why": "who is already the subject of the clause: who lives, not who he lives.",
   "slots": {
+   "road": [
+    "road",
+    "street",
+    "bridge",
+    "hill"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -564,7 +648,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The woman ______ (live) next door is a {job}.",
+  "source": "The woman ______ (live) next door is a {job}, {name}.",
   "key": "who lives",
   "acceptable": [
    "that lives"
@@ -576,6 +660,12 @@
     "doctor",
     "nurse",
     "cook"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -588,7 +678,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The people ______ (live) upstairs are from {city}.",
+  "source": "The people ______ (live) upstairs are from {city}, {name}.",
   "key": "who live",
   "acceptable": [
    "that live"
@@ -600,6 +690,12 @@
     "Bukhara",
     "Khiva",
     "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -642,13 +738,19 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The doctors ______ (work) at this hospital are very good, {name}.",
+  "source": "The {job} ______ (work) at this hospital are very good, {name}.",
   "key": "who work",
   "acceptable": [
    "that work"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
+   "job": [
+    "doctors",
+    "nurses",
+    "cooks",
+    "cleaners"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -666,7 +768,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "I have a friend ______ (play) the {instr} very well.",
+  "source": "I have a friend ______ (play) the {instr} very well, {name}.",
   "key": "who plays",
   "acceptable": [
    "that plays"
@@ -678,6 +780,12 @@
     "guitar",
     "dutar",
     "violin"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -690,7 +798,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The boys ______ (play) football in the {place} are my cousins.",
+  "source": "The boys ______ (play) football in the {place} are my {who}.",
   "key": "who play",
   "acceptable": [
    "that play"
@@ -702,6 +810,12 @@
     "park",
     "street",
     "field"
+   ],
+   "who": [
+    "cousins",
+    "brothers",
+    "neighbours",
+    "classmates"
    ]
   }
  },
@@ -744,7 +858,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "Ms Ivanova is the teacher ______ (teach) us {subj}.",
+  "source": "Ms Ivanova is the teacher ______ (teach) us {subj}, {name}.",
   "key": "who teaches",
   "acceptable": [
    "that teaches"
@@ -756,6 +870,12 @@
     "maths",
     "art",
     "biology"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -798,13 +918,19 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The woman ______ (help) us yesterday was a {job}.",
+  "source": "The woman ______ (help) us {when} was a {job}.",
   "key": "who helped",
   "acceptable": [
    "that helped"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
+   "when": [
+    "yesterday",
+    "on Monday",
+    "last week",
+    "this morning"
+   ],
    "job": [
     "nurse",
     "police officer",
@@ -852,7 +978,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The man ______ (call) you {when} was from the school.",
+  "source": "The man ______ (call) you {when} was from the {place}.",
   "key": "who called",
   "acceptable": [
    "that called"
@@ -864,6 +990,12 @@
     "at lunch",
     "an hour ago",
     "last night"
+   ],
+   "place": [
+    "school",
+    "bank",
+    "shop",
+    "hospital"
    ]
   }
  },
@@ -906,7 +1038,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "People ______ (like) {sport} often come to this park.",
+  "source": "People ______ (like) {sport} often come to this {place}.",
   "key": "who like",
   "acceptable": [
    "that like"
@@ -918,6 +1050,12 @@
     "chess",
     "running",
     "volleyball"
+   ],
+   "place": [
+    "park",
+    "club",
+    "café",
+    "sports centre"
    ]
   }
  },
@@ -930,13 +1068,19 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The woman ______ (write) this book lives in {city}.",
+  "source": "The woman ______ (write) this {book} lives in {city}.",
   "key": "who wrote",
   "acceptable": [
    "that wrote"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
+   "book": [
+    "book",
+    "song",
+    "poem",
+    "story"
+   ],
    "city": [
     "Samarkand",
     "Bukhara",
@@ -954,7 +1098,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The boy ______ (sit) next to me in class is from {city}.",
+  "source": "The boy ______ (sit) next to me in class is from {city}, {name}.",
   "key": "who sits",
   "acceptable": [
    "that sits"
@@ -966,6 +1110,12 @@
     "Bukhara",
     "Khiva",
     "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -978,7 +1128,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "Who is the person ______ (make) this {thing}, {name}?",
+  "source": "Do you know the person ______ (make) this {thing}, {name}?",
   "key": "who made",
   "acceptable": [
    "that made"
@@ -1008,7 +1158,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "Tourists ______ (visit) {city} love the old town.",
+  "source": "Tourists ______ (visit) {city} love the old {place}.",
   "key": "who visit",
   "acceptable": [
    "that visit"
@@ -1019,7 +1169,13 @@
     "Samarkand",
     "Bukhara",
     "Khiva",
-    "Fergana"
+    "Shahrisabz"
+   ],
+   "place": [
+    "town",
+    "streets",
+    "mosques",
+    "bazaar"
    ]
   }
  },
@@ -1032,13 +1188,19 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "My cousin is the man ______ (drive) the school bus, {name}.",
+  "source": "My cousin is the man ______ (drive) the school {vehicle}, {name}.",
   "key": "who drives",
   "acceptable": [
    "that drives"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
+   "vehicle": [
+    "bus",
+    "van",
+    "minibus",
+    "coach"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1056,13 +1218,19 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write who and the verb in brackets in the right form.",
-  "source": "The students ______ (arrive) late had to wait outside, {name}.",
+  "source": "The students ______ (arrive) late had to wait {place}, {name}.",
   "key": "who arrived",
   "acceptable": [
    "that arrived"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
+   "place": [
+    "outside",
+    "in the hall",
+    "at the door",
+    "in the corridor"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1080,8 +1248,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with who.",
-  "source": "I have a friend. She lives in {city}.",
-  "hint": "I have a friend ______ in {city}.",
+  "source": "I have a friend, {name}. She lives in {city}.",
+  "hint": "I have a friend ______ in {city}, {name}.",
   "key": "who lives",
   "acceptable": [
    "that lives"
@@ -1093,6 +1261,12 @@
     "Moscow",
     "Seoul",
     "Istanbul"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1105,14 +1279,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with who.",
-  "source": "The man is my uncle. He sells {thing} at the bazaar.",
-  "hint": "The man ______ {thing} at the bazaar is my uncle.",
+  "source": "The man is my {who}. He sells {thing} at the bazaar.",
+  "hint": "The man ______ {thing} at the bazaar is my {who}.",
   "key": "who sells",
   "acceptable": [
    "that sells"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
+   "who": [
+    "uncle",
+    "neighbour",
+    "cousin",
+    "grandpa"
+   ],
    "thing": [
     "melons",
     "bread",
@@ -1130,8 +1310,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with who.",
-  "source": "The girl is in my class. She won the {event}.",
-  "hint": "The girl ______ the {event} is in my class.",
+  "source": "The girl is in my class, {name}. She won the {event}.",
+  "hint": "The girl ______ the {event} is in my class, {name}.",
   "key": "who won",
   "acceptable": [
    "that won"
@@ -1143,26 +1323,7 @@
     "chess game",
     "competition",
     "quiz"
-   ]
-  }
- },
- {
-  "domain": "sentence-structure",
-  "branch": "relative-clauses",
-  "topic": "who-people",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Join the two sentences with who.",
-  "source": "The people are very nice. They live next door, {name}.",
-  "hint": "The people ______ next door are very nice, {name}.",
-  "key": "who live",
-  "acceptable": [
-   "that live"
-  ],
-  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1180,8 +1341,39 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with who.",
-  "source": "The doctor was very kind. He helped my {who}.",
-  "hint": "The doctor ______ my {who} was very kind.",
+  "source": "The people are very {adj}. They live next door, {name}.",
+  "hint": "The people ______ next door are very {adj}, {name}.",
+  "key": "who live",
+  "acceptable": [
+   "that live"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "adj": [
+    "nice",
+    "friendly",
+    "quiet",
+    "kind"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with who.",
+  "source": "The doctor was very kind. He helped my {who}, {name}.",
+  "hint": "The doctor ______ my {who} was very kind, {name}.",
   "key": "who helped",
   "acceptable": [
    "that helped"
@@ -1193,101 +1385,7 @@
     "grandpa",
     "little brother",
     "mum"
-   ]
-  }
- },
- {
-  "domain": "sentence-structure",
-  "branch": "relative-clauses",
-  "topic": "who-people",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Correct the mistake.",
-  "source": "The woman which lives next door is a {job}.",
-  "hint": "The woman ______ next door is a {job}.",
-  "key": "who lives",
-  "acceptable": [
-   "that lives"
-  ],
-  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
-  "slots": {
-   "job": [
-    "teacher",
-    "doctor",
-    "nurse",
-    "cook"
-   ]
-  }
- },
- {
-  "domain": "sentence-structure",
-  "branch": "relative-clauses",
-  "topic": "who-people",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Correct the mistake.",
-  "source": "The man who he works at the {job} is my dad.",
-  "hint": "The man ______ at the {job} is my dad.",
-  "key": "who works",
-  "acceptable": [
-   "that works"
-  ],
-  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
-  "slots": {
-   "job": [
-    "bank",
-    "airport",
-    "hospital",
-    "post office"
-   ]
-  }
- },
- {
-  "domain": "sentence-structure",
-  "branch": "relative-clauses",
-  "topic": "who-people",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Correct the mistake.",
-  "source": "I have a friend what plays the {instr}.",
-  "hint": "I have a friend ______ the {instr}.",
-  "key": "who plays",
-  "acceptable": [
-   "that plays"
-  ],
-  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
-  "slots": {
-   "instr": [
-    "piano",
-    "guitar",
-    "dutar",
-    "violin"
-   ]
-  }
- },
- {
-  "domain": "sentence-structure",
-  "branch": "relative-clauses",
-  "topic": "who-people",
-  "level": "A2",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Correct the mistake.",
-  "source": "The students where finished the test can go, {name}.",
-  "hint": "The students ______ the test can go, {name}.",
-  "key": "who finished",
-  "acceptable": [
-   "that finished"
-  ],
-  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1305,8 +1403,132 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The girl who she sings in the choir is from {city}.",
-  "hint": "The girl ______ in the choir is from {city}.",
+  "source": "The woman which lives next door is a {job}, {name}.",
+  "hint": "The woman ______ next door is a {job}, {name}.",
+  "key": "who lives",
+  "acceptable": [
+   "that lives"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "job": [
+    "teacher",
+    "doctor",
+    "nurse",
+    "cook"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The man who he works at the {job} is my {who}.",
+  "hint": "The man ______ at the {job} is my {who}.",
+  "key": "who works",
+  "acceptable": [
+   "that works"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "job": [
+    "bank",
+    "airport",
+    "hospital",
+    "post office"
+   ],
+   "who": [
+    "dad",
+    "uncle",
+    "neighbour",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I have a friend what plays the {instr}, {name}.",
+  "hint": "I have a friend ______ the {instr}, {name}.",
+  "key": "who plays",
+  "acceptable": [
+   "that plays"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "instr": [
+    "piano",
+    "guitar",
+    "dutar",
+    "violin"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The students where finished the {test} can go, {name}.",
+  "hint": "The students ______ the {test} can go, {name}.",
+  "key": "who finished",
+  "acceptable": [
+   "that finished"
+  ],
+  "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "dictation",
+    "project"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "who-people",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The girl who she sings in the choir is from {city}, {name}.",
+  "hint": "The girl ______ in the choir is from {city}, {name}.",
   "key": "who sings",
   "acceptable": [
    "that sings"
@@ -1318,6 +1540,12 @@
     "Bukhara",
     "Khiva",
     "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1330,14 +1558,21 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the person does. Use a person who.",
-  "source": "A doctor helps sick people.",
-  "hint": "A doctor is a person ______ sick people.",
+  "source": "A doctor helps {who}.",
+  "hint": "A doctor is a person ______ {who}.",
   "key": "who helps",
   "acceptable": [
    "that helps"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
-  "slots": {}
+  "slots": {
+   "who": [
+    "sick people",
+    "ill children",
+    "people in hospital",
+    "patients"
+   ]
+  }
  },
  {
   "domain": "sentence-structure",
@@ -1348,19 +1583,25 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the person does. Use a person who.",
-  "source": "A teacher teaches children at {place}.",
-  "hint": "A teacher is a person ______ children at {place}.",
+  "source": "A teacher teaches {who} at {place}.",
+  "hint": "A teacher is a person ______ {who} at {place}.",
   "key": "who teaches",
   "acceptable": [
    "that teaches"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
+   "who": [
+    "children",
+    "students",
+    "young people",
+    "teenagers"
+   ],
    "place": [
     "school",
     "a college",
     "a lyceum",
-    "a kindergarten"
+    "a language centre"
    ]
   }
  },
@@ -1373,8 +1614,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the person does. Use a person who.",
-  "source": "A baker makes {food}.",
-  "hint": "A baker is a person ______ {food}.",
+  "source": "A baker makes {food} every {when}.",
+  "hint": "A baker is a person ______ {food} every {when}.",
   "key": "who makes",
   "acceptable": [
    "that makes"
@@ -1386,6 +1627,12 @@
     "cakes",
     "non",
     "samsa"
+   ],
+   "when": [
+    "day",
+    "morning",
+    "night",
+    "week"
    ]
   }
  },
@@ -1398,19 +1645,25 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the person does. Use a person who.",
-  "source": "A pilot flies {thing}.",
-  "hint": "A pilot is a person ______ {thing}.",
-  "key": "who flies",
+  "source": "A {job} looks after {who}.",
+  "hint": "A {job} is a person ______ {who}.",
+  "key": "who looks after",
   "acceptable": [
-   "that flies"
+   "that looks after"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
-   "thing": [
-    "planes",
-    "helicopters",
-    "big planes",
-    "passenger planes"
+   "job": [
+    "nurse",
+    "babysitter",
+    "nanny",
+    "carer"
+   ],
+   "who": [
+    "sick people",
+    "children",
+    "old people",
+    "babies"
    ]
   }
  },

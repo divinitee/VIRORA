@@ -1,0 +1,1807 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is the book ______ I told you about, {name}.",
+  "options": [
+   "that",
+   "who",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I lost the {thing} ______ {who} gave me.",
+  "options": [
+   "who",
+   "where",
+   "what",
+   "which"
+  ],
+  "key": 3,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "watch",
+    "pen",
+    "scarf",
+    "bag"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "my uncle",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {food} ______ Grandma made was delicious, {name}.",
+  "options": [
+   "where",
+   "what",
+   "that",
+   "who"
+  ],
+  "key": 2,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "food": [
+    "cake",
+    "plov",
+    "soup",
+    "bread"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where is the {thing} ______ was on the table, {name}?",
+  "options": [
+   "what",
+   "which",
+   "who",
+   "where"
+  ],
+  "key": 1,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "phone",
+    "key",
+    "letter",
+    "cup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We watched a film ______ was very {adj}, {name}.",
+  "options": [
+   "that",
+   "who",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "adj": [
+    "funny",
+    "sad",
+    "long",
+    "scary"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The bus ______ goes to {place} leaves at {time}.",
+  "options": [
+   "who",
+   "where",
+   "what",
+   "which"
+  ],
+  "key": 3,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "place": [
+    "the airport",
+    "the station",
+    "the centre",
+    "the bazaar"
+   ],
+   "time": [
+    "seven",
+    "eight",
+    "nine",
+    "ten"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't like songs ______ are too {adj}, {name}.",
+  "options": [
+   "where",
+   "what",
+   "that",
+   "who"
+  ],
+  "key": 2,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "adj": [
+    "loud",
+    "slow",
+    "long",
+    "sad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The shoes ______ I bought {when} are too small.",
+  "options": [
+   "what",
+   "which",
+   "who",
+   "where"
+  ],
+  "key": 1,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last week",
+    "on Monday",
+    "at the bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you have a {thing} ______ I can use, {name}?",
+  "options": [
+   "that",
+   "who",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "pen",
+    "charger",
+    "dictionary",
+    "calculator"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is the {thing} ______ my dad uses for work, {name}.",
+  "options": [
+   "who",
+   "where",
+   "what",
+   "which"
+  ],
+  "key": 3,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "car",
+    "phone",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ we found in the yard belongs to {who}.",
+  "options": [
+   "where",
+   "what",
+   "that",
+   "who"
+  ],
+  "key": 2,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "ball",
+    "bike",
+    "key",
+    "toy"
+   ],
+   "who": [
+    "our neighbour",
+    "the boy next door",
+    "my cousin",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want a phone ______ has a good {part}, {name}.",
+  "options": [
+   "what",
+   "which",
+   "who",
+   "where"
+  ],
+  "key": 1,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "part": [
+    "camera",
+    "battery",
+    "screen",
+    "speaker"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ you sent me {when} is beautiful.",
+  "options": [
+   "that",
+   "who",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "photo",
+    "card",
+    "video",
+    "picture"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on my birthday",
+    "this morning"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is this the train ______ stops in {city}, {name}?",
+  "options": [
+   "who",
+   "where",
+   "what",
+   "which"
+  ],
+  "key": 3,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Jizzakh",
+    "Navoi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {food} ______ you bought at the bazaar are very sweet, {name}.",
+  "options": [
+   "where",
+   "what",
+   "that",
+   "who"
+  ],
+  "key": 2,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "food": [
+    "melons",
+    "grapes",
+    "apricots",
+    "peaches"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I see the {thing} ______ you made at school, {name}?",
+  "options": [
+   "what",
+   "which",
+   "who",
+   "where"
+  ],
+  "key": 1,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "poster",
+    "model",
+    "card",
+    "picture"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is the {game} ______ my brother likes, {name}.",
+  "options": [
+   "that",
+   "who",
+   "where",
+   "what"
+  ],
+  "key": 0,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "game": [
+    "game",
+    "song",
+    "film",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ are on the shelf are {who}'s.",
+  "options": [
+   "who",
+   "where",
+   "what",
+   "which"
+  ],
+  "key": 3,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "books",
+    "plates",
+    "cups",
+    "boxes"
+   ],
+   "who": [
+    "Mum",
+    "Grandma",
+    "my sister",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm reading a story ______ is about a {hero}, {name}.",
+  "options": [
+   "where",
+   "what",
+   "that",
+   "who"
+  ],
+  "key": 2,
+  "why": "The noun is a thing, so use that (which is also right). who is for people, where for places.",
+  "slots": {
+   "hero": [
+    "dragon",
+    "king",
+    "brave girl",
+    "small boy"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ broke last week is working again, {name}.",
+  "options": [
+   "what",
+   "which",
+   "who",
+   "where"
+  ],
+  "key": 1,
+  "why": "The noun is a thing, so use which (that is also right). who is for people, where for places.",
+  "slots": {
+   "thing": [
+    "fridge",
+    "TV",
+    "washing machine",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "The phone ______ (be) on the table is mine, {name}. Yours is in the {place}.",
+  "key": "that is",
+  "acceptable": [
+   "which is"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "bag",
+    "car",
+    "kitchen",
+    "drawer"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "The shoes ______ (be) in the box are new, {name}.",
+  "key": "that are",
+  "acceptable": [
+   "which are"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "Take the bus ______ (go) to the {place}, {name}.",
+  "key": "that goes",
+  "acceptable": [
+   "which goes"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "place": [
+    "centre",
+    "station",
+    "airport",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "The buses ______ (go) to {city} leave from here, {name}.",
+  "key": "that go",
+  "acceptable": [
+   "which go"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "I want a bag ______ (have) a lot of pockets, {name}.",
+  "key": "that has",
+  "acceptable": [
+   "which has"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "We need chairs ______ (have) soft seats for the {room}.",
+  "key": "that have",
+  "acceptable": [
+   "which have"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "room": [
+    "kitchen",
+    "office",
+    "classroom",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "The {food} ______ (be) in the fridge was very cold, {name}.",
+  "key": "that was",
+  "acceptable": [
+   "which was"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "food": [
+    "milk",
+    "juice",
+    "melon",
+    "water"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "The {thing} ______ (be) on my desk were for school, {name}.",
+  "key": "that were",
+  "acceptable": [
+   "which were"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "books",
+    "papers",
+    "pens",
+    "notebooks"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "This is the machine ______ (make) {food}, {name}.",
+  "key": "that makes",
+  "acceptable": [
+   "which makes"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "food": [
+    "coffee",
+    "bread",
+    "ice cream",
+    "juice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "I don't like films ______ (make) me cry, {name}.",
+  "key": "that make",
+  "acceptable": [
+   "which make"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "The {thing} ______ (break) yesterday was very old.",
+  "key": "that broke",
+  "acceptable": [
+   "which broke"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "cup",
+    "plate",
+    "glass",
+    "chair"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "This is the {thing} ______ (win) the prize, {name}.",
+  "key": "that won",
+  "acceptable": [
+   "which won"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "picture",
+    "cake",
+    "poem",
+    "song"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "I can't buy a phone ______ (cost) so much, {name}.",
+  "key": "that costs",
+  "acceptable": [
+   "which costs"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "The {thing} ______ (cost) a lot were not very good.",
+  "key": "that cost",
+  "acceptable": [
+   "which cost"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "shoes",
+    "headphones",
+    "glasses",
+    "jeans"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "I'm reading a book ______ (tell) the story of {who}.",
+  "key": "that tells",
+  "acceptable": [
+   "which tells"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "who": [
+    "a famous king",
+    "a small village",
+    "an old horse",
+    "a brave girl"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "Is this the train ______ (stop) in {city}, {name}?",
+  "key": "that stops",
+  "acceptable": [
+   "which stops"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Jizzakh",
+    "Navoi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "We need a box ______ (keep) the {food} cold.",
+  "key": "that keeps",
+  "acceptable": [
+   "which keeps"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "food": [
+    "fish",
+    "meat",
+    "drinks",
+    "ice cream"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "Where is the key ______ (open) this {thing}, {name}?",
+  "key": "that opens",
+  "acceptable": [
+   "which opens"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "door",
+    "box",
+    "drawer",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "The parcel ______ (arrive) {when} is for {who}.",
+  "key": "that arrived",
+  "acceptable": [
+   "which arrived"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "when": [
+    "today",
+    "this morning",
+    "yesterday",
+    "at lunch"
+   ],
+   "who": [
+    "Grandma",
+    "Dad",
+    "you",
+    "my sister"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write that and the verb in brackets in the right form.",
+  "source": "Animals ______ (live) in the {place} need a lot of water.",
+  "key": "that live",
+  "acceptable": [
+   "which live"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "place": [
+    "desert",
+    "zoo",
+    "forest",
+    "mountains"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with that.",
+  "source": "I bought a {thing}, {name}. It was very cheap.",
+  "hint": "I bought a {thing} ______ very cheap, {name}.",
+  "key": "that was",
+  "acceptable": [
+   "which was"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "phone",
+    "jacket",
+    "bag",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with that.",
+  "source": "Where is the {thing}? It was on the table, {name}.",
+  "hint": "Where is the {thing} ______ on the table, {name}?",
+  "key": "that was",
+  "acceptable": [
+   "which was"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "key",
+    "letter",
+    "cake",
+    "cup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with that.",
+  "source": "We watched a film. It made us {feel}, {name}.",
+  "hint": "We watched a film ______ us {feel}, {name}.",
+  "key": "that made",
+  "acceptable": [
+   "which made"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "feel": [
+    "laugh",
+    "cry",
+    "think",
+    "smile"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with that.",
+  "source": "Take the bus, {name}. It goes to the {place}.",
+  "hint": "Take the bus ______ to the {place}, {name}.",
+  "key": "that goes",
+  "acceptable": [
+   "which goes"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "place": [
+    "centre",
+    "station",
+    "airport",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with that.",
+  "source": "I like {thing}. They have a lot of pictures, {name}.",
+  "hint": "I like {thing} ______ a lot of pictures, {name}.",
+  "key": "that have",
+  "acceptable": [
+   "which have"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "books",
+    "magazines",
+    "comics",
+    "websites"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This is the book who I told you about, {name}.",
+  "hint": "This is the book ______ I told you about, {name}.",
+  "key": "that",
+  "acceptable": [
+   "which"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {food} what Grandma made was delicious.",
+  "hint": "The {food} ______ Grandma made was delicious.",
+  "key": "that",
+  "acceptable": [
+   "which"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "food": [
+    "cake",
+    "plov",
+    "soup",
+    "bread"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The bus that it goes to the {place} is late, {name}.",
+  "hint": "The bus ______ to the {place} is late, {name}.",
+  "key": "that goes",
+  "acceptable": [
+   "which goes"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "place": [
+    "centre",
+    "station",
+    "airport",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I want a phone where has a good {part}, {name}.",
+  "hint": "I want a phone ______ a good {part}, {name}.",
+  "key": "that has",
+  "acceptable": [
+   "which has"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "part": [
+    "camera",
+    "battery",
+    "screen",
+    "speaker"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The shoes that is in the box are new, {name}.",
+  "hint": "The shoes ______ in the box are new, {name}.",
+  "key": "that are",
+  "acceptable": [
+   "which are"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the thing does. Use that.",
+  "source": "A fridge keeps {food} cold.",
+  "hint": "A fridge is a machine ______ {food} cold.",
+  "key": "that keeps",
+  "acceptable": [
+   "which keeps"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "food": [
+    "food",
+    "milk",
+    "drinks",
+    "meat"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the thing does. Use that.",
+  "source": "A dictionary tells you what {thing} mean.",
+  "hint": "A dictionary is a book ______ you what {thing} mean.",
+  "key": "that tells",
+  "acceptable": [
+   "which tells"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "thing": [
+    "words",
+    "new words",
+    "English words",
+    "hard words"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the thing does. Use that.",
+  "source": "A {tool} cuts {thing}.",
+  "hint": "A {tool} is a thing ______ {thing}.",
+  "key": "that cuts",
+  "acceptable": [
+   "which cuts"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "tool": [
+    "knife",
+    "pair of scissors",
+    "saw",
+    "blade"
+   ],
+   "thing": [
+    "paper",
+    "bread",
+    "wood",
+    "things"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the thing does. Use that.",
+  "source": "A {room} washes {thing}.",
+  "hint": "A {room} is a machine ______ {thing}.",
+  "key": "that washes",
+  "acceptable": [
+   "which washes"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "room": [
+    "washing machine",
+    "dishwasher",
+    "car wash",
+    "washer"
+   ],
+   "thing": [
+    "clothes",
+    "plates",
+    "cars",
+    "things"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what the thing does. Use that.",
+  "source": "A clock shows the time {where}.",
+  "hint": "A clock is a thing ______ the time {where}.",
+  "key": "that shows",
+  "acceptable": [
+   "which shows"
+  ],
+  "why": "A thing + that / which + verb: the verb agrees with the thing (the phone that is, the shoes that are).",
+  "slots": {
+   "where": [
+    "on the wall",
+    "in the kitchen",
+    "at the station",
+    "in our classroom"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a book or film that you like.",
+  "requiredElement": "… is a book / film that …",
+  "constraints": [
+   "exactly one sentence",
+   "that or which",
+   "a describing word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a present that someone gave you.",
+  "requiredElement": "The … that my … gave me …",
+  "constraints": [
+   "exactly one sentence",
+   "that or which",
+   "a person word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Say what a phone is. Use a thing that.",
+  "requiredElement": "A phone is a thing that …",
+  "constraints": [
+   "exactly one sentence",
+   "that",
+   "a verb with -s"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food that you don't like.",
+  "requiredElement": "I don't like food that …",
+  "constraints": [
+   "exactly one sentence",
+   "that",
+   "a food word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the bus or train that you take to school or work.",
+  "requiredElement": "The bus that I take …",
+  "constraints": [
+   "exactly one sentence",
+   "that or which",
+   "a time word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a song that makes you happy.",
+  "requiredElement": "… is a song that makes me …",
+  "constraints": [
+   "exactly one sentence",
+   "that makes",
+   "a feeling word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a thing that you lost.",
+  "requiredElement": "I lost the … that …",
+  "constraints": [
+   "exactly one sentence",
+   "that or which",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with that and one with which, both about things.",
+  "requiredElement": "… that … / … which …",
+  "constraints": [
+   "exactly two sentences",
+   "that once",
+   "which once"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe three things in your room. Say something about each one with that or which.",
+  "targetGrammar": "The … that … / The … which …",
+  "lookFor": [
+   "that or which three times",
+   "a thing word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your favourite film or book and why you like it.",
+  "targetGrammar": "It's a film that … / The part that I like …",
+  "lookFor": [
+   "that or which",
+   "a feeling word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You want to buy a new phone. Describe the phone that you want.",
+  "targetGrammar": "I want a phone that has …",
+  "lookFor": [
+   "that",
+   "has or have",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe three machines in your kitchen and what they do.",
+  "targetGrammar": "A … is a machine that …",
+  "lookFor": [
+   "that three times",
+   "a verb with -s",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "that-which-things",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the presents that you got for your last birthday.",
+  "targetGrammar": "The … that my … gave me …",
+  "lookFor": [
+   "that or which",
+   "a past verb",
+   "three or four sentences"
+  ]
+ }
+]
