@@ -216,6 +216,7 @@ const BY_RULE = {
     stative: [T.stative], stative_verbs: [T.stative], i_am_knowing: [T.stative], i_am_liking: [T.stative],
     i_am_wanting: [T.stative], i_am_understanding: [T.stative],
     temporary: [T.temporary], temporary_situation: [T.temporary],
+    present_continuous_for_future: [T.arrangeCont], arrangement: [T.arrangeCont],
   },
   'grammar.past_simple': {
     irregular: [T.irrPast], irregular_past: [T.irrPast], goed: [T.irrPast], buyed: [T.irrPast],
@@ -241,7 +242,6 @@ const BY_RULE = {
     past_for_perfect: [T.presResult, T.everExp], past_vs_perfect: [T.presResult, T.finishedTime],
     missing_have: [T.presResult], past_participle: [T.presResult, T.everExp], have_went: [T.presResult, T.everExp],
     present_result: [T.presResult],
-    present_continuous_for_future: [T.arrangeCont], arrangement: [T.arrangeCont],
   },
   'grammar.future_forms': {
     going_to: [T.goingPlan, T.goingEvidence], missing_be_going_to: [T.goingPlan], i_going_to: [T.goingPlan],
