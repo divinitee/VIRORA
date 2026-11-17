@@ -191,3 +191,24 @@ test('profile view: returns only the student\'s own data', async () => {
   assert.equal(other.body.profile.mistakes.length, 0);
   assert.equal(other.body.recent_lessons.length, 0);
 });
+
+test('VT-54.2: the recap lists this lesson\'s own mistakes (one per key, with label and latest status)', async () => {
+  const svc = fakeDb();
+  const { fetchImpl } = fakeOpenAI();
+  const s = (await startLesson({ svc, user: student, body: {}, env, fetchImpl, now: T0 })).body;
+  await tool(svc, s.lesson_id, 'log_mistake', igoes, T0 + 1000);
+  await tool(svc, s.lesson_id, 'log_mistake', igoes, T0 + 2000);
+  await tool(svc, s.lesson_id, 'log_mistake', { rule: 'grammar.articles', variant: 'missing_a', wrong: 'I am student.', correct: 'I am a student.' }, T0 + 3000);
+  const r = await endLesson({ svc, user: student, body: { lesson_id: s.lesson_id }, now: T0 + 60000 });
+  const m = r.body.recap.mistakes;
+  assert.equal(m.length, 2);
+  assert.equal(m[0].variant, 'i_goes');
+  assert.equal(m[0].status, 'repeated');
+  assert.equal(m[0].count, 2);
+  assert.equal(m[0].correct, 'I go to school.');
+  assert.ok(m[0].label.uz);
+  assert.equal(m[1].rule, 'grammar.articles');
+  // and the idempotent second end returns the same list
+  const again = await endLesson({ svc, user: student, body: { lesson_id: s.lesson_id }, now: T0 + 70000 });
+  assert.equal(again.body.recap.mistakes.length, 2);
+});

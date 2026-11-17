@@ -30,9 +30,9 @@ function RecapMistakes({ mistakes, c, lang, navigate }) {
               <li key={m.key} className="rounded-xl border border-border p-3 text-sm space-y-1.5">
                 <div className="flex items-center justify-between gap-2">
                   <span className="font-semibold">{(m.label && (m.label[lang] || m.label.en)) || m.rule}</span>
-                  <span className="text-[11px] rounded-full px-2 py-0.5 bg-white/10">{c.status[m.status] || m.status} \u00b7 {m.count}\u00d7</span>
+                  <span className="text-[11px] rounded-full px-2 py-0.5 bg-white/10">{c.status[m.status] || m.status} · {m.count}×</span>
                 </div>
-                {m.wrong ? <p className="text-muted-foreground"><span className="line-through">{m.wrong}</span> \u2192 <span className="text-foreground">{m.correct}</span></p> : null}
+                {m.wrong ? <p className="text-muted-foreground"><span className="line-through">{m.wrong}</span> → <span className="text-foreground">{m.correct}</span></p> : null}
                 {m.explanation_uz ? <p className="text-xs text-muted-foreground">{m.explanation_uz}</p> : null}
                 {links.length ? (
                   <div className="flex flex-wrap gap-2 pt-1">
