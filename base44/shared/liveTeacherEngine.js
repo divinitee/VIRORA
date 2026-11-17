@@ -16,7 +16,7 @@
 import {
   MAX_MINUTES, cleanMode, cleanAge, clean, normalizeProfile, emptyProfile,
   applyMistake, applyCorrectUse, applyLevelEstimate, applyPronunciation, applyVocabulary,
-  finishLesson, memorySummary, publicProfileView,
+  finishLesson, memorySummary, publicProfileView, RULE_LABELS,
 } from './liveTeacherCore.js';
 import { buildInstructions, buildSessionConfig } from './liveTeacherPrompt.js';
 
@@ -25,6 +25,20 @@ const MAX_TOOL_CALLS = 300; // per lesson; a runaway client cannot hammer the da
 const GRACE_MIN = 5; // a lesson may run this long past its limit before tools are refused
 
 const reply = (status, body) => ({ status, body });
+const MAX_LESSON_MISTAKES = 30;
+
+// VT-54.2: this lesson's own mistakes, newest last, one entry per mistake key.
+function lessonMistakes(lesson, profile, result) {
+  const list = Array.isArray(lesson.mistakes) ? lesson.mistakes.filter((m) => m.key !== result.key) : [];
+  const rec = profile.mistakes[result.key] || {};
+  list.push({
+    key: result.key, rule: rec.rule, variant: rec.variant,
+    wrong: rec.wrong_example || '', correct: rec.correct_example || '', explanation_uz: rec.explanation_uz || '',
+    status: result.status, count: result.total_count,
+  });
+  return list.slice(-MAX_LESSON_MISTAKES);
+}
+const withLabels = (list) => (Array.isArray(list) ? list : []).map((m) => ({ ...m, label: RULE_LABELS[m.rule] || RULE_LABELS['other.general'] }));
 const PROFILE_FIELDS = [
   'cefr_level', 'level_history', 'mode', 'age_group', 'mistakes', 'pronunciation', 'vocabulary',
   'test_results', 'progress', 'lesson_count', 'last_lesson_at', 'last_lesson_summary', 'last_focus',
@@ -166,6 +180,7 @@ async function finalize(svc, { lesson, row, profile, summary, strengths, focusNe
     lesson_count: next.lesson_count,
     duration_s: durationS,
     scores: scores && lesson.mode === 'exam' ? next.test_results[next.test_results.length - 1] || null : null,
+    mistakes: withLabels(lesson.mistakes),
   };
   await svc.LiveTeacherLesson.update(lesson.id, {
     status: 'ended', ended_at: new Date(now).toISOString(), duration_s: durationS,
@@ -194,6 +209,7 @@ export async function handleTool({ svc, user, body = {}, now = Date.now() }) {
       counters.mistakes_logged = (lesson.mistakes_logged || 0) + 1;
       if (r.result.status === 'new') counters.new_mistakes = (lesson.new_mistakes || 0) + 1;
       else counters.repeated_mistakes = (lesson.repeated_mistakes || 0) + 1;
+      counters.mistakes = lessonMistakes(lesson, r.profile, r.result);
       break;
     }
     case 'log_correct_use': {
@@ -237,7 +253,7 @@ export async function endLesson({ svc, user, body = {}, now = Date.now() }) {
         summary: lesson.summary || '', strengths: lesson.strengths || [], focus_next: lesson.focus_next || [],
         new_mistakes: lesson.new_mistakes || 0, repeated_mistakes: lesson.repeated_mistakes || 0,
         mastered_now: lesson.mastered_now || 0, cefr_level: lesson.level_at_end || '', duration_s: lesson.duration_s || 0,
-        scores: lesson.scores || null,
+        scores: lesson.scores || null, mistakes: withLabels(lesson.mistakes),
       },
     });
   }
