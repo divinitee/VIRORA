@@ -95,9 +95,9 @@ const TRANSFORM = [
   // past, one thing (5)
   ["My grandpa built this house in {year}, {name}.", "This house ______ in {year}, {name}.", "was built by my grandpa", { year: YEAR, name: NAME }],
   ["Alisher Navoi wrote this poem, {name}. We read it in {lesson}.", "This poem ______, {name}. We read it in {lesson}.", "was written by Alisher Navoi", { name: NAME, lesson: ["class", "our lesson", "year seven", "school"] }],
-  ["Mum made this dress for the {event}, {name}.", "This dress ______ for the {event}, {name}.", "was made by Mum", { event: ["wedding", "party", "concert", "holiday"], name: NAME }],
+  ["My aunt made this dress for the {event}, {name}.", "This dress ______ for the {event}, {name}.", "was made by my aunt", { event: ["wedding", "party", "concert", "holiday"], name: NAME }],
   ["A boy found my phone in the {place}, {name}.", "My phone ______ in the {place}, {name}.", "was found by a boy", { place: ["park", "bus", "yard", "library"], name: NAME }],
-  ["The ball broke the window {when}, {name}.", "The window ______ {when}, {name}.", "was broken by the ball", { when: ["during the match", "after lunch", "yesterday", "this morning"], name: NAME }],
+  ["A ball broke the window {when}, {name}.", "The window ______ {when}, {name}.", "was broken by a ball", { when: ["during the match", "after lunch", "yesterday", "this morning"], name: NAME }],
   // present, one thing (5)
   ["My dad cleans the car every {day}, {name}.", "The car ______ every {day}, {name}.", "is cleaned by my dad", { day: ["Sunday", "Saturday", "Friday", "weekend"], name: NAME }],
   ["Ms Ivanova teaches this class on {day}, {name}.", "This class ______ on {day}, {name}.", "is taught by Ms Ivanova", { day: ["Mondays", "Tuesdays", "Thursdays", "Fridays"], name: NAME }],
@@ -106,8 +106,8 @@ const TRANSFORM = [
   ["My sister makes this {food} every {when}, {name}.", "This {food} ______ every {when}, {name}.", "is made by my sister", { food: ["cake", "salad", "soup", "bread"], when: ["Sunday", "week", "weekend", "holiday"], name: NAME }],
   // more than one (5)
   ["Our teacher took these photos in {city}, {name}.", "These photos ______ in {city}, {name}.", "were taken by our teacher", { city: CITY, name: NAME }],
-  ["The neighbours planted these trees {when}, {name}.", "These trees ______ {when}, {name}.", "were planted by the neighbours", { when: ["last spring", "ten years ago", "in 2015", "last autumn"], name: NAME }],
-  ["The postman delivers the letters every {when}, {name}.", "The letters ______ every {when}, {name}.", "are delivered by the postman", { when: ["morning", "day", "Monday", "afternoon"], name: NAME }],
+  ["My grandparents planted these trees {when}, {name}.", "These trees ______ {when}, {name}.", "were planted by my grandparents", { when: ["last spring", "ten years ago", "in 2015", "last autumn"], name: NAME }],
+  ["Our postman delivers the letters every {when}, {name}.", "The letters ______ every {when}, {name}.", "are delivered by our postman", { when: ["morning", "day", "Monday", "afternoon"], name: NAME }],
   ["Farmers grow these melons in {region}, {name}.", "These melons ______ in {region}, {name}.", "are grown by farmers", { region: ["Khorezm", "our village", "the south", "Mirzachul"], name: NAME }],
   ["My brother writes these songs on the {inst}, {name}.", "These songs ______ on the {inst}, {name}.", "are written by my brother", { inst: ["guitar", "piano", "dutar", "violin"], name: NAME }],
 ].map(([source, hint, key, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr: INSTR_T, source, hint, key, why: WHY, slots: fix(slots, source + hint) }));

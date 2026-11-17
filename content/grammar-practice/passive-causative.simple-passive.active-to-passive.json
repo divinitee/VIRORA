@@ -1298,9 +1298,9 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence in the passive. Keep the tense and use by.",
-  "source": "Mum made this dress for the {event}, {name}.",
+  "source": "My aunt made this dress for the {event}, {name}.",
   "hint": "This dress ______ for the {event}, {name}.",
-  "key": "was made by Mum",
+  "key": "was made by my aunt",
   "why": "The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.",
   "slots": {
    "event": [
@@ -1354,9 +1354,9 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence in the passive. Keep the tense and use by.",
-  "source": "The ball broke the window {when}, {name}.",
+  "source": "A ball broke the window {when}, {name}.",
   "hint": "The window ______ {when}, {name}.",
-  "key": "was broken by the ball",
+  "key": "was broken by a ball",
   "why": "The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.",
   "slots": {
    "when": [
@@ -1556,9 +1556,9 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence in the passive. Keep the tense and use by.",
-  "source": "The neighbours planted these trees {when}, {name}.",
+  "source": "My grandparents planted these trees {when}, {name}.",
   "hint": "These trees ______ {when}, {name}.",
-  "key": "were planted by the neighbours",
+  "key": "were planted by my grandparents",
   "why": "The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.",
   "slots": {
    "when": [
@@ -1584,9 +1584,9 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence in the passive. Keep the tense and use by.",
-  "source": "The postman delivers the letters every {when}, {name}.",
+  "source": "Our postman delivers the letters every {when}, {name}.",
   "hint": "The letters ______ every {when}, {name}.",
-  "key": "are delivered by the postman",
+  "key": "are delivered by our postman",
   "why": "The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.",
   "slots": {
    "when": [

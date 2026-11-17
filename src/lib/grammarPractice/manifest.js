@@ -562,6 +562,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "passive-causative.simple-passive.active-to-passive": {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "active-to-passive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
  "passive-causative.simple-passive.past-passive": {
   "domain": "passive-causative",
   "branch": "simple-passive",
