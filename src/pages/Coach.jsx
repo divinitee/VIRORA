@@ -367,7 +367,7 @@ function Onboarding({ data, t, color, onDone, onBack }) {
   return (
     <Shell onBack={onBack}>
       <div className="premium-card rounded-[28px] p-6">
-        <div className="flex items-center gap-4 mb-4"><Orb color={color} /><h1 className="text-xl font-bold text-foreground">{t("onboarding_title")}</h1></div>
+        <div className="flex items-center gap-4 mb-4"><Orb color={color} persona={data?.coach?.persona || "vira"} mood="wave" /><h1 className="text-xl font-bold text-foreground">{t("onboarding_title")}</h1></div>
         <p className="text-sm text-foreground">{t("hello", { n: minutes })}</p>
         <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mt-6 mb-2">{t("onboarding_goal")}</p>
         <div className="grid gap-2">
