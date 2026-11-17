@@ -248,7 +248,8 @@ export default function Coach() {
       {persona === "vira" && <ViraBubble moment="sessionEnd" className="mb-3" />}
       <div className="mb-4"><ComebackCard variant="after" /></div>
       <div className="premium-card rounded-[28px] p-8 text-center">
-        <div className="flex justify-center mb-4"><Orb color={color} size={64} persona={persona} mood="proud" /></div>
+        {/* Vira already speaks above (ViraBubble), so no second Vira here */}
+        {persona !== "vira" && <div className="flex justify-center mb-4"><Orb color={color} size={64} persona={persona} mood="proud" /></div>}
         <h1 className="text-xl font-bold text-foreground">{t("done_title")}</h1>
         <p className="text-sm text-muted-foreground mt-2">{t(continuation.available ? "done_sub_more" : "done_sub")}</p>
         {lastRun?.recap && (lastRun.recap.words + lastRun.recap.grammar) > 0 && <Recap r={lastRun.recap} t={t} color={color} />}
