@@ -1,55 +1,57 @@
 {
-  "name": "LiveTeacherLesson",
-  "type": "object",
   "description": "One Live Teacher voice lesson. Counters and the teacher's own short summary only: no audio, no transcript. Created and updated only by liveTeacherApi (service role); students read their own rows.",
+  "name": "LiveTeacherLesson",
   "properties": {
-    "user_email": {
-      "type": "string"
-    },
-    "mode": {
-      "type": "string",
-      "enum": [
-        "normal",
-        "strict",
-        "exam"
-      ]
-    },
     "age_group": {
-      "type": "string",
       "enum": [
         "kid",
         "teen",
         "adult"
-      ]
-    },
-    "status": {
-      "type": "string",
-      "enum": [
-        "started",
-        "ended"
-      ]
-    },
-    "started_at": {
-      "type": "string"
-    },
-    "ended_at": {
+      ],
       "type": "string"
     },
     "duration_s": {
       "type": "number"
     },
-    "max_minutes": {
-      "type": "number",
-      "description": "Hard length of this lesson (core MAX_MINUTES). Tools are refused 5 minutes past it."
-    },
-    "model": {
+    "ended_at": {
       "type": "string"
     },
-    "tool_calls": {
+    "focus_next": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "level_at_end": {
+      "type": "string"
+    },
+    "mastered_now": {
       "type": "number"
+    },
+    "max_minutes": {
+      "description": "Hard length of this lesson (core MAX_MINUTES). Tools are refused 5 minutes past it.",
+      "type": "number"
+    },
+    "mistakes": {
+      "description": "This lesson's mistakes, one per key, newest last (max 30): { key, rule, variant, wrong, correct, explanation_uz, status, count }. Shown in the recap.",
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
     },
     "mistakes_logged": {
       "type": "number"
+    },
+    "mode": {
+      "enum": [
+        "normal",
+        "strict",
+        "exam"
+      ],
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
     },
     "new_mistakes": {
       "type": "number"
@@ -57,37 +59,34 @@
     "repeated_mistakes": {
       "type": "number"
     },
-    "mastered_now": {
-      "type": "number"
+    "scores": {
+      "description": "Exam mode only.",
+      "type": "object"
+    },
+    "started_at": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "started",
+        "ended"
+      ],
+      "type": "string"
+    },
+    "strengths": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
     },
     "summary": {
       "type": "string"
     },
-    "strengths": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
+    "tool_calls": {
+      "type": "number"
     },
-    "focus_next": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "level_at_end": {
+    "user_email": {
       "type": "string"
-    },
-    "scores": {
-      "type": "object",
-      "description": "Exam mode only."
-    },
-    "mistakes": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      },
-      "description": "This lesson's mistakes, one per key, newest last (max 30): { key, rule, variant, wrong, correct, explanation_uz, status, count }. Shown in the recap."
     }
   },
   "required": [
@@ -95,8 +94,14 @@
     "mode",
     "status"
   ],
+  "type": "object",
   "rls": {
     "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
       "user_condition": {
         "role": "admin"
       }
@@ -114,11 +119,6 @@
       ]
     },
     "update": {
-      "user_condition": {
-        "role": "admin"
-      }
-    },
-    "delete": {
       "user_condition": {
         "role": "admin"
       }
