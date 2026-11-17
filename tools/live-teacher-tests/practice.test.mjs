@@ -87,6 +87,7 @@ const TOPICS = new Set([
   'sentence-structure.predication.be-am-is-are',
   'sentence-structure.predication.be-question',
   'sentence-structure.word-order.svo-basic',
+  'tenses.future.arrangement-continuous',
   'tenses.future.future-continuous',
   'tenses.future.going-to-evidence',
   'tenses.future.going-to-plan',
@@ -227,4 +228,9 @@ test('P10. every grammar rule that has exercises gets at least one button', () =
   const empty = RULES.filter((r) => r.startsWith('grammar.') && practiceFor(r, '').length === 0);
   // No topic in the bank trains these yet. Add them here only on purpose.
   assert.deepEqual(empty.sort(), ['grammar.passive_voice', 'grammar.relative_clauses', 'grammar.reported_speech']);
+});
+
+test('lane A: the arrangement topic is reachable for present continuous for future', () => {
+  assert.deepEqual(practiceFor('grammar.future_forms', 'present_continuous_for_future').map((x) => x.topic), ['tenses.future.arrangement-continuous']);
+  assert.deepEqual(practiceFor('grammar.present_continuous', 'present continuous for future').map((x) => x.topic), ['tenses.future.arrangement-continuous']);
 });

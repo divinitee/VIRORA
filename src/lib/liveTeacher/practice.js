@@ -111,6 +111,7 @@ const T = {
   goingPlan: 'tenses.future.going-to-plan',
   goingEvidence: 'tenses.future.going-to-evidence',
   futCont: 'tenses.future.future-continuous',
+  arrangeCont: 'tenses.future.arrangement-continuous', // added in lane A (topic is live on the branch)
   canForm: 'modals.ability-permission.can-form',
   canQ: 'modals.ability-permission.can-question',
   cant: 'modals.ability-permission.cant-ability',
@@ -240,6 +241,7 @@ const BY_RULE = {
     past_for_perfect: [T.presResult, T.everExp], past_vs_perfect: [T.presResult, T.finishedTime],
     missing_have: [T.presResult], past_participle: [T.presResult, T.everExp], have_went: [T.presResult, T.everExp],
     present_result: [T.presResult],
+    present_continuous_for_future: [T.arrangeCont], arrangement: [T.arrangeCont],
   },
   'grammar.future_forms': {
     going_to: [T.goingPlan, T.goingEvidence], missing_be_going_to: [T.goingPlan], i_going_to: [T.goingPlan],
@@ -247,6 +249,7 @@ const BY_RULE = {
     going_to_evidence: [T.goingEvidence],
     will_to: [T.will], will_ing: [T.will], will_s: [T.will], will_spontaneous: [T.will], present_for_future: [T.will, T.goingPlan],
     future_continuous: [T.futCont],
+    present_continuous_for_future: [T.arrangeCont], arrangement: [T.arrangeCont], arrangements: [T.arrangeCont],
     will_in_if_clause: [T.ifClause, T.firstWill], if_will: [T.ifClause, T.firstWill],
   },
   'grammar.modal_verbs': {
