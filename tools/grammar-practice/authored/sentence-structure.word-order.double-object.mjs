@@ -78,7 +78,7 @@ const BUILD = [
   B(["us", "some fruit"], "some fruit / us", "Our {who} brought ______ ______ from the {place}.", { who: ["grandparents", "cousins", "neighbours", "aunt and uncle"], place: ["village", "garden", "bazaar", "farm"] }),
   B(["the baby", "a song"], "a song / the baby", "{who} sang ______ ______, and he fell asleep.", { who: ["Mum", "Grandma", "My sister", "Aunt Lola"], x: [] }),
   B(["you", "my notes"], "my notes / you", "I'll send ______ ______ tonight, {name}.", { name: NAME, x: [] }),
-  B(["his mum", "a cup of tea"], "a cup of tea / his mum", "{name} made ______ ______ after {event}.", { name: ["Aziz", "Timur", "Bobur", "Rustam"], event: ["work", "dinner", "lunch", "the long trip"] }),
+  B(["his grandma", "a cup of tea"], "a cup of tea / his grandma", "{name} made ______ ______ after {event}.", { name: ["Aziz", "Timur", "Bobur", "Rustam"], event: ["work", "dinner", "lunch", "the long trip"] }),
   B(["us", "the way"], "the way / us", "A {who} showed ______ ______ to the {place}.", { who: ["police officer", "kind woman", "taxi driver", "student"], place: ["station", "museum", "bazaar", "hotel"] }),
   B(["me", "a ticket"], "a ticket / me", "My {who} got ______ ______ for the {event}, {name}.", { who: ["brother", "dad", "uncle", "cousin"], event: ["match", "concert", "film", "show"], name: NAME }),
   B(["the guests", "plov"], "plov / the guests", "Grandma cooked ______ ______ in a big {pot}.", { pot: ["kazan", "black pot", "old pot", "pot"], x: [] }),
@@ -110,7 +110,7 @@ const TRANSFORM = [
   // for-form -> IO DO (5)
   [FOR, "Mum made a cake for us {when}, {name}.", "Mum made ______ {when}, {name}.", "us a cake", { when: ["yesterday", "on Sunday", "for my birthday", "last night"], name: NAME }],
   [FOR, "My {who} bought a ticket for me.", "My {who} bought ______.", "me a ticket", { who: ["dad", "brother", "uncle", "cousin"], x: [] }],
-  [FOR, "Aziz got some flowers for his mum {when}.", "Aziz got ______ {when}.", "his mum some flowers", { when: ["yesterday", "on her birthday", "on Women's Day", "last week"], x: [] }],
+  [FOR, "Aziz got some flowers for his grandma {when}.", "Aziz got ______ {when}.", "his grandma some flowers", { when: ["yesterday", "on her birthday", "on Women's Day", "last week"], x: [] }],
   [FOR, "Grandma cooked plov for the guests {when}.", "Grandma cooked ______ {when}.", "the guests plov", { when: ["yesterday", "on Friday", "for the wedding", "last night"], x: [] }],
   [FOR, "I'll get a coffee for you, {name}. Wait {where}.", "I'll get ______, {name}. Wait {where}.", "you a coffee", { name: NAME, where: ["here", "by the door", "at the table", "outside"] }],
 ].map(([instr, source, hint, key, slots]) => ({ instr, source, hint, key, slots }));

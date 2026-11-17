@@ -1031,13 +1031,13 @@
   "pv": "2.5",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Put these words in the right gaps: a cup of tea / his mum.",
+  "instr": "Put these words in the right gaps: a cup of tea / his grandma.",
   "source": "{name} made ______ ______ after {event}.",
   "key": [
-   "his mum",
+   "his grandma",
    "a cup of tea"
   ],
-  "why": "The person first (his mum), then the thing (a cup of tea).",
+  "why": "The person first (his grandma), then the thing (a cup of tea).",
   "slots": {
    "name": [
     "Aziz",
@@ -1524,9 +1524,9 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence without for: the person first, then the thing.",
-  "source": "Aziz got some flowers for his mum {when}.",
+  "source": "Aziz got some flowers for his grandma {when}.",
   "hint": "Aziz got ______ {when}.",
-  "key": "his mum some flowers",
+  "key": "his grandma some flowers",
   "why": "After give, send, show, tell, buy and similar verbs: the person first, then the thing (gave my sister a present). Or use to / for: gave a present to my sister.",
   "slots": {
    "when": [
