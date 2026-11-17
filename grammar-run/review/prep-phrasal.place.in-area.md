@@ -44,7 +44,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: on · at · to · ✔ in  
    why: For an area with edges around it (a village, the yard, the forest, the mountains), use in.
 
-11. There's a big park ______ the centre of our **city**, **Aziz**.  
+11. There's a big park ______ the middle of our **city**, **Aziz**.  
    options: at · to · ✔ in · on  
    why: For an area with edges around it (a village, the yard, the forest, the mountains), use in.
 
@@ -167,7 +167,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: We say in the sky and in the sea: the thing is inside that big area.
 
 17. _Write in, on or at._  
-   There's a big park ______ the centre of our **town**, **Olga**.  
+   There's a big park ______ the middle of our **town**, **Olga**.  
    key: in  
    why: For an area with edges around it (a village, the yard, the forest, the mountains), use in.
 
@@ -267,8 +267,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: We swim in the sea, in the river, in the lake.
 
 14. _Answer in a full sentence. Use in._  
-   Where's the big park? – The centre of our **town**.  
-   → There's a big park ______ the centre of our **town**, **Aziz**.  
+   Where's the big park? – The middle of our **town**.  
+   → There's a big park ______ the middle of our **town**, **Aziz**.  
    key: in  
    why: We say in the centre of a town.
 

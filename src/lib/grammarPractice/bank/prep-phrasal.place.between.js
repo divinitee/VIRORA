@@ -642,7 +642,7 @@ export default [
    "b": [
     "door",
     "wardrobe",
-    "desk",
+    "bed",
     "bookcase"
    ],
    "name": [
@@ -804,7 +804,7 @@ export default [
    "b": [
     "door",
     "wardrobe",
-    "desk",
+    "bed",
     "bookcase"
    ]
   }
@@ -1050,7 +1050,7 @@ export default [
    "b": [
     "door",
     "wardrobe",
-    "desk",
+    "bed",
     "bookcase"
    ]
   }
@@ -1312,7 +1312,7 @@ export default [
    "b": [
     "door",
     "wardrobe",
-    "desk",
+    "bed",
     "bookcase"
    ]
   }

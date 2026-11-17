@@ -207,8 +207,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Next to A and next to B → between A and B.
 
 4. _Make one sentence with between._  
-   My bed is next to the window. It's also next to the **desk**.  
-   → My bed is ______ the window and the **desk**.  
+   My bed is next to the window. It's also next to the **bed**.  
+   → My bed is ______ the window and the **bed**.  
    key: between  
    why: Next to A and next to B → between A and B.
 

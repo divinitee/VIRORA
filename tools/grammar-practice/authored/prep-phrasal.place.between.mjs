@@ -32,7 +32,7 @@ const SHOP_B = ["café", "school", "park", "hospital"];
 const SHOP_C = ["bank", "phone shop", "flower shop", "shoe shop"];
 const FAM_A = ["mum", "grandma", "aunt", "sister"];
 const FAM_B = ["dad", "grandpa", "uncle", "brother"];
-const ROOM_B = ["door", "wardrobe", "desk", "bookcase"];
+const ROOM_B = ["door", "wardrobe", "bed", "bookcase"];
 const VEH = ["buses", "vans", "lorries", "minibuses"];
 
 const rot = (arr, i) => arr.map((_, j) => arr[(j + i) % arr.length]);

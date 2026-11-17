@@ -52,7 +52,7 @@ const CHOOSE = [
   ["area", "There are a lot of {animal} ______ the field behind our house, {name}.", { animal: ["cows", "sheep", "horses", "goats"], name: NAME }],
   ["town", "My {who} lives ______ a big city, but I live in a village, {name}.", { who: ["cousin", "aunt", "brother", "friend"], name: NAME }],
   ["area", "It's very hot ______ the desert in {month}, {name}.", { month: ["July", "August", "June", "the afternoon"], name: NAME }],
-  ["area", "There's a big park ______ the centre of our {town}, {name}.", { town: ["town", "city", "village", "district"], name: NAME }],
+  ["area", "There's a big park ______ the middle of our {town}, {name}.", { town: ["town", "city", "village", "district"], name: NAME }],
   ["world", "My {who} has a small house ______ the countryside, {name}.", { who: REL, name: NAME }],
   ["town", "Is there a good {place} ______ your town, {name}?", { place: ["café", "library", "gym", "cinema"], name: NAME }],
   ["area", "Our {pet} stays ______ the yard all day, {name}.", { pet: ["dog", "cat", "puppy", "rabbit"], name: NAME }],
@@ -86,7 +86,7 @@ const BUILD = [
   ["world", "There are many {thing} ______ the world, {name}.", { thing: ["languages", "countries", "animals", "cities"], name: NAME }],
   ["world", "My {who} has a small house ______ the countryside, {name}.", { who: REL, name: NAME }],
   ["sky", "Look! There's a {color} plane ______ the sky, {name}.", { color: ["white", "red", "big", "small"], name: NAME }],
-  ["area", "There's a big park ______ the centre of our {town}, {name}.", { town: ["town", "city", "village", "district"], name: NAME }],
+  ["area", "There's a big park ______ the middle of our {town}, {name}.", { town: ["town", "city", "village", "district"], name: NAME }],
   ["area", "The children are playing ______ the yard with their {thing}.", { thing: ["ball", "dog", "bikes", "kite"] }],
   ["sky", "There are a lot of fish ______ this {water}, {name}.", { water: ["river", "lake", "pond", "sea"], name: NAME }],
   ["area", "It's very {adj} ______ the desert during the day, {name}.", { adj: ["hot", "dry", "sunny", "bright"], name: NAME }],
@@ -112,7 +112,7 @@ const TRANSFORM = [
   [NOTE, "Where does your uncle live? – {city}.", "My uncle lives ______ {city}, {name}.", "in", "A city → in: in Bukhara.", { city: CITY, name: NAME }],
   [NOTE, "Where are the {animal}? – The field.", "The {animal} are ______ the field, {name}.", "in", "A field is an area: in the field.", { animal: ["cows", "sheep", "horses", "goats"], name: NAME }],
   [NOTE, "Where do you swim every summer? – The {water}.", "We swim ______ the {water} every summer, {name}.", "in", "We swim in the sea, in the river, in the lake.", { water: ["sea", "river", "lake", "pond"], name: NAME }],
-  [NOTE, "Where's the big park? – The centre of our {town}.", "There's a big park ______ the centre of our {town}, {name}.", "in", "We say in the centre of a town.", { town: ["town", "city", "village", "district"], name: NAME }],
+  [NOTE, "Where's the big park? – The middle of our {town}.", "There's a big park ______ the middle of our {town}, {name}.", "in", "We say in the centre of a town.", { town: ["town", "city", "village", "district"], name: NAME }],
   [NOTE, "Where does your cousin live? – {country}.", "My cousin lives ______ {country}, {name}.", "in", "A country → in: in Korea, in Turkey.", { country: COUNTRY, name: NAME }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
 

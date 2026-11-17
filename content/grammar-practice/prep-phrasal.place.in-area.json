@@ -321,7 +321,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "There's a big park ______ the centre of our {town}, {name}.",
+  "prompt": "There's a big park ______ the middle of our {town}, {name}.",
   "options": [
    "at",
    "to",
@@ -1074,7 +1074,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write in, on or at.",
-  "source": "There's a big park ______ the centre of our {town}, {name}.",
+  "source": "There's a big park ______ the middle of our {town}, {name}.",
   "key": "in",
   "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
   "slots": {
@@ -1540,8 +1540,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer in a full sentence. Use in.",
-  "source": "Where's the big park? – The centre of our {town}.",
-  "hint": "There's a big park ______ the centre of our {town}, {name}.",
+  "source": "Where's the big park? – The middle of our {town}.",
+  "hint": "There's a big park ______ the middle of our {town}, {name}.",
   "key": "in",
   "why": "We say in the centre of a town.",
   "slots": {

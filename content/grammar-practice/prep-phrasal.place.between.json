@@ -640,7 +640,7 @@
    "b": [
     "door",
     "wardrobe",
-    "desk",
+    "bed",
     "bookcase"
    ],
    "name": [
@@ -802,7 +802,7 @@
    "b": [
     "door",
     "wardrobe",
-    "desk",
+    "bed",
     "bookcase"
    ]
   }
@@ -1048,7 +1048,7 @@
    "b": [
     "door",
     "wardrobe",
-    "desk",
+    "bed",
     "bookcase"
    ]
   }
@@ -1310,7 +1310,7 @@
    "b": [
     "door",
     "wardrobe",
-    "desk",
+    "bed",
     "bookcase"
    ]
   }

@@ -79,7 +79,7 @@ const BUILD = [
   B(["the baby", "a song"], "a song / the baby", "{who} sang ______ ______, and he fell asleep.", { who: ["Mum", "Grandma", "My sister", "Aunt Lola"], x: [] }),
   B(["you", "my notes"], "my notes / you", "I'll send ______ ______ tonight, {name}.", { name: NAME, x: [] }),
   B(["his grandma", "a cup of tea"], "a cup of tea / his grandma", "{name} made ______ ______ after {event}.", { name: ["Aziz", "Timur", "Bobur", "Rustam"], event: ["work", "dinner", "lunch", "the long trip"] }),
-  B(["us", "the way"], "the way / us", "A {who} showed ______ ______ to the {place}.", { who: ["police officer", "kind woman", "taxi driver", "student"], place: ["station", "museum", "bazaar", "hotel"] }),
+  B(["us", "the way"], "the way / us", "A {who} showed ______ ______ to the {place}.", { who: ["shop assistant", "kind woman", "taxi driver", "student"], place: ["station", "museum", "bazaar", "hotel"] }),
   B(["me", "a ticket"], "a ticket / me", "My {who} got ______ ______ for the {event}, {name}.", { who: ["brother", "dad", "uncle", "cousin"], event: ["match", "concert", "film", "show"], name: NAME }),
   B(["the guests", "plov"], "plov / the guests", "Grandma cooked ______ ______ in a big {pot}.", { pot: ["kazan", "black pot", "old pot", "pot"], x: [] }),
   B(["my dad", "a new watch"], "a new watch / my dad", "We gave ______ ______ for his {event}, {name}.", { event: ["birthday", "fiftieth birthday", "new job", "sixtieth birthday"], name: NAME }),

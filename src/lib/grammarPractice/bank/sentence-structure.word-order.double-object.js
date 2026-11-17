@@ -1072,7 +1072,7 @@ export default [
   "why": "The person first (us), then the thing (the way).",
   "slots": {
    "who": [
-    "police officer",
+    "shop assistant",
     "kind woman",
     "taxi driver",
     "student"
