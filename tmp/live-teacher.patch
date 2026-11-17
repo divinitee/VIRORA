@@ -1,0 +1,2866 @@
+From ca53c7f6a02f78049c246cac18e51ab31799c021 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Tue, 17 Nov 2026 14:15:50 +0500
+Subject: [PATCH] Add Live Teacher: AI English voice teacher (feature branch,
+ not for main yet)
+
+Real-time voice lessons (OpenAI Realtime over WebRTC) with a strict,
+bilingual teacher personality, server-side mistake tracking
+(new / repeated / relapse / mastered, 4-step tone ladder), CEFR level
+estimate, pronunciation and vocabulary memory, and three modes
+(normal, strict, exam).
+
+- base44/functions/liveTeacherApi + shared/liveTeacher{Core,Prompt,Engine}.js
+- entities LiveTeacherProfile / LiveTeacherLesson (added to the wipe map)
+- /live-teacher page and WebRTC client; permanent OpenAI key stays server-side
+- tools/live-teacher-tests: 25 offline tests + a real-model scenario runner
+- docs/live-teacher.md: setup, privacy, and what is not verified yet
+
+Not run against the real OpenAI API or built with npm (no network here).
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_014LwdZackbaQT2BUGHXsSgt
+---
+ AGENTS.md                                |   1 +
+ base44/entities/LiveTeacherLesson.jsonc  | 101 ++++++
+ base44/entities/LiveTeacherProfile.jsonc |  95 +++++
+ base44/entities/UsageReservation.jsonc   |   3 +-
+ base44/functions/liveTeacherApi/entry.ts |  73 ++++
+ base44/shared/liveTeacherCore.js         | 442 +++++++++++++++++++++++
+ base44/shared/liveTeacherEngine.js       | 265 ++++++++++++++
+ base44/shared/liveTeacherPrompt.js       | 207 +++++++++++
+ base44/shared/userDataMap.js             |   3 +
+ docs/live-teacher.md                     |  97 +++++
+ src/App.jsx                              |   2 +
+ src/lib/liveTeacher/copy.js              | 169 +++++++++
+ src/lib/liveTeacher/realtimeClient.js    | 202 +++++++++++
+ src/lib/serverApi.js                     |   2 +
+ src/pages/LiveTeacher.jsx                | 409 +++++++++++++++++++++
+ tools/live-teacher-tests/core.test.mjs   | 249 +++++++++++++
+ tools/live-teacher-tests/engine.test.mjs | 193 ++++++++++
+ tools/live-teacher-tests/scenarios.mjs   | 154 ++++++++
+ 18 files changed, 2666 insertions(+), 1 deletion(-)
+ create mode 100644 base44/entities/LiveTeacherLesson.jsonc
+ create mode 100644 base44/entities/LiveTeacherProfile.jsonc
+ create mode 100644 base44/functions/liveTeacherApi/entry.ts
+ create mode 100644 base44/shared/liveTeacherCore.js
+ create mode 100644 base44/shared/liveTeacherEngine.js
+ create mode 100644 base44/shared/liveTeacherPrompt.js
+ create mode 100644 docs/live-teacher.md
+ create mode 100644 src/lib/liveTeacher/copy.js
+ create mode 100644 src/lib/liveTeacher/realtimeClient.js
+ create mode 100644 src/pages/LiveTeacher.jsx
+ create mode 100644 tools/live-teacher-tests/core.test.mjs
+ create mode 100644 tools/live-teacher-tests/engine.test.mjs
+ create mode 100644 tools/live-teacher-tests/scenarios.mjs
+
+diff --git a/AGENTS.md b/AGENTS.md
+index 496eb91..e81c4da 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -23,6 +23,7 @@ npx skills add base44/skills
+ - `src/lib/adaptiveGrammar/README.md`: the dataset's own item contract and layout.
+ - `tools/grammar-placement-sim/README.md`: offline regression harness for the placement engine.
+ - `docs/skill-intelligence-architecture.md`: **source of truth** for Skill Intelligence (skill taxonomy, activity → leaf ownership, response modes, evidence classification, shadow leaf state, transfer graph). Read it before changing `base44/shared/skill*.js`, `base44/shared/leafState*`, the `LeafState` entity, or adding a game/bank.
++- `docs/live-teacher.md`: Live Teacher (AI English voice teacher): architecture, mistake-tracking rules, setup, tests, and what is NOT verified yet. Read it before changing `base44/shared/liveTeacher*.js`, `base44/functions/liveTeacherApi/`, or `src/pages/LiveTeacher.jsx`.
+ 
+ ## Key Files
+ 
+diff --git a/base44/entities/LiveTeacherLesson.jsonc b/base44/entities/LiveTeacherLesson.jsonc
+new file mode 100644
+index 0000000..e0e750c
+--- /dev/null
++++ b/base44/entities/LiveTeacherLesson.jsonc
+@@ -0,0 +1,101 @@
++{
++  "name": "LiveTeacherLesson",
++  "type": "object",
++  "description": "One Live Teacher voice lesson. Counters and the teacher's own short summary only: no audio, no transcript. Created and updated only by liveTeacherApi (service role); students read their own rows.",
++  "properties": {
++    "user_email": {
++      "type": "string"
++    },
++    "mode": {
++      "type": "string",
++      "enum": ["normal", "strict", "exam"]
++    },
++    "age_group": {
++      "type": "string",
++      "enum": ["kid", "teen", "adult"]
++    },
++    "status": {
++      "type": "string",
++      "enum": ["started", "ended"]
++    },
++    "started_at": {
++      "type": "string"
++    },
++    "ended_at": {
++      "type": "string"
++    },
++    "duration_s": {
++      "type": "number"
++    },
++    "max_minutes": {
++      "type": "number",
++      "description": "Hard length of this lesson (core MAX_MINUTES). Tools are refused 5 minutes past it."
++    },
++    "model": {
++      "type": "string"
++    },
++    "tool_calls": {
++      "type": "number"
++    },
++    "mistakes_logged": {
++      "type": "number"
++    },
++    "new_mistakes": {
++      "type": "number"
++    },
++    "repeated_mistakes": {
++      "type": "number"
++    },
++    "mastered_now": {
++      "type": "number"
++    },
++    "summary": {
++      "type": "string"
++    },
++    "strengths": {
++      "type": "array",
++      "items": { "type": "string" }
++    },
++    "focus_next": {
++      "type": "array",
++      "items": { "type": "string" }
++    },
++    "level_at_end": {
++      "type": "string"
++    },
++    "scores": {
++      "type": "object",
++      "description": "Exam mode only."
++    }
++  },
++  "required": ["user_email", "mode", "status"],
++  "rls": {
++    "create": {
++      "user_condition": {
++        "role": "admin"
++      }
++    },
++    "read": {
++      "$or": [
++        {
++          "data.user_email": "{{user.email}}"
++        },
++        {
++          "user_condition": {
++            "role": "admin"
++          }
++        }
++      ]
++    },
++    "update": {
++      "user_condition": {
++        "role": "admin"
++      }
++    },
++    "delete": {
++      "user_condition": {
++        "role": "admin"
++      }
++    }
++  }
++}
+diff --git a/base44/entities/LiveTeacherProfile.jsonc b/base44/entities/LiveTeacherProfile.jsonc
+new file mode 100644
+index 0000000..f359771
+--- /dev/null
++++ b/base44/entities/LiveTeacherProfile.jsonc
+@@ -0,0 +1,95 @@
++{
++  "name": "LiveTeacherProfile",
++  "type": "object",
++  "description": "Live Teacher (AI English voice teacher) memory. One row per student: estimated CEFR level, the mistake tracker, pronunciation and vocabulary notes, exam results and progress snapshots. Educational data only: NO audio and NO transcripts are stored. Written only by liveTeacherApi (service role); students can read their own row. Logic: base44/shared/liveTeacherCore.js.",
++  "properties": {
++    "user_email": {
++      "type": "string"
++    },
++    "cefr_level": {
++      "type": "string",
++      "description": "Smoothed estimate: the most common of the last 5 teacher estimates. Empty until the first lesson."
++    },
++    "level_history": {
++      "type": "array",
++      "items": { "type": "object" },
++      "description": "Last 10 estimates: { cefr, confidence, at }."
++    },
++    "mode": {
++      "type": "string",
++      "enum": ["normal", "strict", "exam"],
++      "description": "Last mode the student used."
++    },
++    "age_group": {
++      "type": "string",
++      "enum": ["kid", "teen", "adult"],
++      "description": "Last age group the student chose. Drives the teacher's tone (no sarcasm for kids)."
++    },
++    "mistakes": {
++      "type": "object",
++      "description": "Map key -> record. key = '<rule with dots as underscores>__<variant>' (no dots in field names). Record: rule, variant, wrong_example, correct_example, explanation_uz, total_count, status (active|mastered), correct_streak, first_seen, last_seen, last_lesson_id, last_level, relapses, mastered_at. Capped at 200."
++    },
++    "pronunciation": {
++      "type": "object",
++      "description": "Map word -> { word, issue, tip_uz, count, first_seen, last_seen }. Capped at 100."
++    },
++    "vocabulary": {
++      "type": "object",
++      "description": "Map word -> { word, meaning_uz, seen, struggles, good_uses, learned, last_seen }. Capped at 300."
++    },
++    "test_results": {
++      "type": "array",
++      "items": { "type": "object" },
++      "description": "Exam-mode scores: { at, cefr, grammar, vocabulary, fluency, pronunciation }. Last 30."
++    },
++    "progress": {
++      "type": "array",
++      "items": { "type": "object" },
++      "description": "One snapshot per finished lesson: { at, cefr, active, mastered }. Last 60."
++    },
++    "lesson_count": {
++      "type": "number"
++    },
++    "last_lesson_at": {
++      "type": "string"
++    },
++    "last_lesson_summary": {
++      "type": "string"
++    },
++    "last_focus": {
++      "type": "array",
++      "items": { "type": "string" },
++      "description": "What the teacher wants to practise next time."
++    }
++  },
++  "required": ["user_email"],
++  "rls": {
++    "create": {
++      "user_condition": {
++        "role": "admin"
++      }
++    },
++    "read": {
++      "$or": [
++        {
++          "data.user_email": "{{user.email}}"
++        },
++        {
++          "user_condition": {
++            "role": "admin"
++          }
++        }
++      ]
++    },
++    "update": {
++      "user_condition": {
++        "role": "admin"
++      }
++    },
++    "delete": {
++      "user_condition": {
++        "role": "admin"
++      }
++    }
++  }
++}
+diff --git a/base44/entities/UsageReservation.jsonc b/base44/entities/UsageReservation.jsonc
+index 2935071..0a03f37 100644
+--- a/base44/entities/UsageReservation.jsonc
++++ b/base44/entities/UsageReservation.jsonc
+@@ -16,7 +16,8 @@
+         "material_run",
+         "receipt_submit",
+         "chat_message",
+-        "checkout_create"
++        "checkout_create",
++        "live_teacher_session"
+       ]
+     },
+     "date": {
+diff --git a/base44/functions/liveTeacherApi/entry.ts b/base44/functions/liveTeacherApi/entry.ts
+new file mode 100644
+index 0000000..4bc49ca
+--- /dev/null
++++ b/base44/functions/liveTeacherApi/entry.ts
+@@ -0,0 +1,73 @@
++import { createClientFromRequest } from 'npm:@base44/sdk@0.8.55';
++import { banGuard } from '../../shared/banCore.ts';
++import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
++import { aiPlanFor } from '../../shared/aiQuota.js';
++import { DAILY_SESSIONS } from '../../shared/liveTeacherCore.js';
++import { startLesson, handleTool, endLesson, getProfileView, isConfigured } from '../../shared/liveTeacherEngine.js';
++
++// Live Teacher (AI English voice teacher). Thin glue: login, ban check, daily
++// allowance, then the shared engine does the work.
++//
++//   action 'start'    mint a SHORT-LIVED OpenAI Realtime secret for the browser
++//   action 'tool'     run one teacher tool call (log_mistake, ...) and return
++//                     the server's decision (new/repeated, tone, directive)
++//   action 'end'      close the lesson (idempotent)
++//   action 'profile'  the student's own learning profile
++//
++// The permanent key is the app secret OPENAI_API_KEY (Base44 dashboard ->
++// secrets). It stays in this function; the browser only gets the short-lived
++// secret. See docs/live-teacher.md.
++
++async function planId(sr: any, user: any): Promise<string> {
++  if (user.role === 'admin') return 'vip';
++  let subs = await sr.entities.StudentSubscription.filter({ phone: user.email }, '-created_date', 50);
++  if (!subs.length) subs = await sr.entities.StudentSubscription.filter({ created_by_id: user.id }, '-created_date', 50);
++  return aiPlanFor(subs, user, 'student').id;
++}
++
++export default async function (req: Request) {
++  try {
++    const base44 = createClientFromRequest(req);
++    const user = await base44.auth.me();
++    if (!user) return Response.json({ error: 'Unauthorized' }, { status: 401 });
++    const banned = await banGuard(base44.asServiceRole.entities, user);
++    if (banned) return banned;
++    const svc = base44.asServiceRole.entities;
++    const body = await req.json().catch(() => ({}));
++    // Only the settings this feature needs; the rest of the environment stays out of reach.
++    const env: Record<string, string | undefined> = {};
++    for (const k of ['OPENAI_API_KEY', 'LIVE_TEACHER_MODEL', 'LIVE_TEACHER_VOICE', 'LIVE_TEACHER_REASONING', 'LIVE_TEACHER_TRANSCRIBE_MODEL']) env[k] = Deno.env.get(k);
++    const out = (r: { status: number; body: unknown }) => Response.json(r.body, { status: r.status });
++
++    switch (body.action) {
++      case 'start': {
++        if (!isConfigured(env)) return out(await startLesson({ svc, user, body, env })); // 503, nothing reserved
++        // Daily allowance BEFORE any paid work. Admins are unlimited.
++        let reservation: any = null;
++        if (user.role !== 'admin') {
++          const plan = await planId(base44.asServiceRole, user);
++          const limit = DAILY_SESSIONS[plan as keyof typeof DAILY_SESSIONS] ?? DAILY_SESSIONS.free;
++          try {
++            reservation = await reserveUsage(svc, user, { bucket: 'live_teacher_session', limit });
++          } catch (error) {
++            if (error instanceof UsageLimitError) {
++              return Response.json({ ok: false, code: 'daily_allowance_exhausted', error: 'Daily Live Teacher lessons used up.', limit }, { status: 429 });
++            }
++            throw error;
++          }
++        }
++        const result = await startLesson({ svc, user, body, env });
++        // No voice session was opened, so nothing was spent: give the lesson back.
++        if (result.status !== 200 && reservation) await svc.UsageReservation.delete(reservation.id);
++        return out(result);
++      }
++      case 'tool': return out(await handleTool({ svc, user, body }));
++      case 'end': return out(await endLesson({ svc, user, body }));
++      case 'profile': return out(await getProfileView({ svc, user }));
++      default: return Response.json({ ok: false, error: 'Unknown action', code: 'unknown_action' }, { status: 400 });
++    }
++  } catch (error) {
++    console.error('liveTeacherApi failed', (error as any)?.message);
++    return Response.json({ ok: false, error: 'Live Teacher had a problem. Try again.', code: 'server_error' }, { status: 500 });
++  }
++}
+diff --git a/base44/shared/liveTeacherCore.js b/base44/shared/liveTeacherCore.js
+new file mode 100644
+index 0000000..b6330d9
+--- /dev/null
++++ b/base44/shared/liveTeacherCore.js
+@@ -0,0 +1,442 @@
++// Live Teacher core (AI English teacher, voice). PURE logic: no I/O, no clock
++// reads unless `now` is passed, so every rule here is unit-testable
++// (tools/live-teacher-tests/).
++//
++// What lives here:
++//   - the mistake tracker: new vs repeated vs relapse (was mastered), and the
++//     escalation ladder (patient -> stricter -> playful strict -> drill)
++//   - mastery: MASTERY_STREAK correct uses in a row after the last mistake
++//   - level (CEFR) estimate smoothing, pronunciation + vocabulary memory
++//   - the short memory summary that is injected into the teacher's prompt
++//
++// The MODEL decides *what* the mistake is (it hears the student). The SERVER
++// decides *how many times* it happened and *how strict* to be, so the counts
++// cannot drift or be forgotten mid-conversation. See docs/live-teacher.md.
++
++export const MODES = ['normal', 'strict', 'exam'];
++export const AGE_GROUPS = ['kid', 'teen', 'adult'];
++export const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
++
++// Voice minutes cost real money (gpt-realtime-2 audio tokens), so every lesson
++// has a hard length and every plan a daily number of lessons. These are
++// BUSINESS defaults the owner can change here in one place.
++export const MAX_MINUTES = { normal: 15, strict: 15, exam: 12 };
++export const DAILY_SESSIONS = { free: 1, learner: 3, vip: 10 };
++
++export const MASTERY_STREAK = 3; // correct uses in a row (after the last mistake) = mastered
++export const MAX_LEVEL = 4; // escalation ladder top
++const CAPS = { mistakes: 200, pronunciation: 100, vocabulary: 300, levelHistory: 10, tests: 30, progress: 60 };
++
++// A controlled vocabulary of rules keeps the model's mistake keys consistent
++// between lessons (a free-text key would drift: "third person s" vs "he go").
++// `variant` (free snake_case) separates different mistakes inside one rule:
++// "i_goes" and "he_dont" are both subject-verb agreement but are NOT the same
++// mistake and are counted separately.
++export const RULE_LABELS = {
++  'grammar.subject_verb_agreement': { uz: "Ega va fe'l moslashuvi", en: 'Subject–verb agreement' },
++  'grammar.verb_to_be': { uz: "To be fe'li (am/is/are)", en: 'Verb "to be"' },
++  'grammar.articles': { uz: 'Artikllar (a/an/the)', en: 'Articles' },
++  'grammar.plural_nouns': { uz: "Ko'plik shakli", en: 'Plural nouns' },
++  'grammar.present_simple': { uz: 'Present Simple', en: 'Present Simple' },
++  'grammar.present_continuous': { uz: 'Present Continuous', en: 'Present Continuous' },
++  'grammar.past_simple': { uz: 'Past Simple', en: 'Past Simple' },
++  'grammar.present_perfect': { uz: 'Present Perfect', en: 'Present Perfect' },
++  'grammar.future_forms': { uz: 'Kelasi zamon', en: 'Future forms' },
++  'grammar.modal_verbs': { uz: "Modal fe'llar", en: 'Modal verbs' },
++  'grammar.conditionals': { uz: 'Shart gaplar', en: 'Conditionals' },
++  'grammar.passive_voice': { uz: "Majhul nisbat", en: 'Passive voice' },
++  'grammar.word_order': { uz: "So'z tartibi", en: 'Word order' },
++  'grammar.question_formation': { uz: "Savol tuzish", en: 'Question formation' },
++  'grammar.negation': { uz: 'Inkor gaplar', en: 'Negation' },
++  'grammar.prepositions': { uz: "Predloglar", en: 'Prepositions' },
++  'grammar.pronouns': { uz: 'Olmoshlar', en: 'Pronouns' },
++  'grammar.countable_uncountable': { uz: "Sanaladigan / sanalmaydigan otlar", en: 'Countable / uncountable' },
++  'grammar.comparatives': { uz: 'Qiyosiy darajalar', en: 'Comparatives and superlatives' },
++  'grammar.gerund_infinitive': { uz: 'Gerund va infinitiv', en: 'Gerund vs infinitive' },
++  'grammar.relative_clauses': { uz: 'Aniqlovchi gaplar', en: 'Relative clauses' },
++  'grammar.reported_speech': { uz: "O'zlashtirma gap", en: 'Reported speech' },
++  'vocabulary.word_choice': { uz: "So'z tanlash", en: 'Word choice' },
++  'vocabulary.false_friend': { uz: "Aldamchi do'st so'zlar", en: 'False friends' },
++  'vocabulary.collocation': { uz: "So'z birikmalari", en: 'Collocations' },
++  'writing.spelling': { uz: "Imlo", en: 'Spelling' },
++  'writing.punctuation': { uz: 'Tinish belgilari', en: 'Punctuation' },
++  'language.used_uzbek_instead_of_english': { uz: "Inglizcha o'rniga o'zbekcha gapirish", en: 'Used Uzbek instead of English' },
++  'other.general': { uz: 'Boshqa xato', en: 'Other' },
++};
++export const RULES = Object.keys(RULE_LABELS);
++
++// ---------- small helpers ----------
++export const clean = (v, max = 200) => String(v ?? '').replace(/\s+/g, ' ').trim().slice(0, max);
++export const slug = (v, max = 40) =>
++  clean(v, 80).toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '').slice(0, max);
++// "I goes to school!" and "i goes to school" are the same wrong sentence.
++const sentenceKey = (s) => clean(s, 200).toLowerCase().replace(/[^a-z0-9' ]+/g, '').replace(/\s+/g, ' ').trim();
++const iso = (now) => new Date(now).toISOString();
++const clone = (o) => structuredClone(o);
++
++export const cleanMode = (m) => (MODES.includes(m) ? m : 'strict');
++export const cleanAge = (a) => (AGE_GROUPS.includes(a) ? a : 'adult');
++export const cleanCefr = (c) => {
++  const v = String(c || '').toUpperCase().trim();
++  return CEFR_LEVELS.includes(v) ? v : null;
++};
++
++export function emptyProfile(email) {
++  return {
++    user_email: email,
++    cefr_level: '',
++    level_history: [],
++    mode: 'strict',
++    age_group: 'adult',
++    mistakes: {},
++    pronunciation: {},
++    vocabulary: {},
++    test_results: [],
++    progress: [],
++    lesson_count: 0,
++    last_lesson_at: '',
++    last_lesson_summary: '',
++    last_focus: [],
++  };
++}
++
++/** A row from the database may lack newer fields; make it safe to work on. */
++export function normalizeProfile(row) {
++  const base = emptyProfile(row?.user_email || '');
++  const p = { ...base, ...(row || {}) };
++  for (const k of ['mistakes', 'pronunciation', 'vocabulary']) if (!p[k] || typeof p[k] !== 'object' || Array.isArray(p[k])) p[k] = {};
++  for (const k of ['level_history', 'test_results', 'progress', 'last_focus']) if (!Array.isArray(p[k])) p[k] = [];
++  p.lesson_count = Number(p.lesson_count) || 0;
++  return p;
++}
++
++export function mistakeStats(profile) {
++  let active = 0;
++  let mastered = 0;
++  for (const m of Object.values(profile.mistakes || {})) (m.status === 'mastered' ? mastered++ : active++);
++  return { active, mastered };
++}
++
++function evict(map, max, score) {
++  const keys = Object.keys(map);
++  if (keys.length <= max) return;
++  keys.sort((a, b) => score(map[a]) - score(map[b]));
++  for (const k of keys.slice(0, keys.length - max)) delete map[k];
++}
++
++// ---------- mistake tracker ----------
++// The key is a field NAME inside the stored `mistakes` object, so it must not
++// contain '.' (document databases treat dots in field names as paths). The
++// readable rule id (with its dot) is kept as a VALUE in the record.
++export function mistakeKey(rule, variant) {
++  const r = RULES.includes(rule) ? rule : 'other.general';
++  return `${r.replace(/\./g, '_')}__${slug(variant) || 'general'}`;
++}
++
++/** Find an existing record for this report: same key, or same rule + same wrong sentence. */
++export function findMistakeKey(profile, rule, variant, wrong) {
++  const key = mistakeKey(rule, variant);
++  if (profile.mistakes[key]) return key;
++  const r = RULES.includes(rule) ? rule : 'other.general';
++  const w = sentenceKey(wrong);
++  if (!w) return null;
++  for (const [k, m] of Object.entries(profile.mistakes)) {
++    if (m.rule === r && sentenceKey(m.wrong_example) === w) return k;
++  }
++  return null;
++}
++
++const SARCASM_OK = { adult: true, teen: true, kid: false };
++
++// Tone ladder per mode. Level 1 is always patient (first mistake: explain
++// calmly). Exam mode never teaches during the exam.
++const LADDER = {
++  normal: ['patient', 'patient_firm', 'encouraging_drill', 'encouraging_drill'],
++  strict: ['patient', 'stricter', 'playful_strict', 'playful_strict_drill'],
++  exam: ['examiner', 'examiner', 'examiner', 'examiner'],
++};
++
++function directive({ mode, age, level, status, rec, prevExplanation }) {
++  if (mode === 'exam') {
++    return 'EXAM MODE: do NOT correct, hint, repeat the right answer, or react to the error in any way. Stay neutral and move to the next question. The mistake is recorded for the final report.';
++  }
++  const relapse = status === 'relapse'
++    ? 'RELAPSE: the student had already MASTERED this rule, so this is a step backwards. Say so (surprised, fair, not cruel) and restate the rule in one sentence. '
++    : '';
++  const earlier = prevExplanation ? ` Earlier explanation (Uzbek) you gave: "${prevExplanation}".` : '';
++  const total = rec.total_count;
++  if (level <= 1) {
++    return `NEW mistake. Be patient. Say the correct sentence ("${rec.correct_example || '...'}"), then explain the rule in simple Uzbek in 2-3 sentences. Ask the student to say the correct sentence once.`;
++  }
++  if (level === 2) {
++    const strict = mode === 'strict' && age !== 'kid';
++    return `${relapse}REPEATED mistake (${total} times in total). ${strict ? 'Use a clearly stricter tone: openly say you already explained this.' : 'Stay friendly but firmer: remind the student you already covered this.'}${earlier} Give the correct sentence ("${rec.correct_example || '...'}") and make the student repeat it correctly right now. No sarcasm yet.`;
++  }
++  if (level === 3) {
++    if (mode === 'normal') {
++      return `${relapse}STILL repeating this (${total} times in total). Stay warm, NO sarcasm. Ask the student to repeat the correct sentence ("${rec.correct_example || '...'}") slowly, then give ONE short extra exercise (two gap-fill sentences with the same rule) and wait for the answers.${earlier}`;
++    }
++    const humor = SARCASM_OK[age]
++      ? `Use playful strict expressions and light humorous sarcasm aimed at the MISTAKE, never the person (like "Yana shu xatomi? Hozirgina tushuntirdim-ku!"${age === 'teen' ? ' - keep it light, teen student' : ''}).`
++      : 'The student is a child: be playfully insistent and encouraging, with NO sarcasm.';
++    return `${relapse}THIRD time or more (${total} in total). ${humor} Demand that the student repeat the correct sentence out loud ("${rec.correct_example || '...'}"), then give an extra exercise: three quick sentences to fix. Wait for the answers.${earlier}`;
++  }
++  const drama = SARCASM_OK[age] && mode === 'strict'
++    ? 'Dramatic, friendly mock-despair is allowed (never insulting).'
++    : 'Stay kind and encouraging.';
++  return `${relapse}FOURTH time or more (${total} in total). ${drama} Pause the lesson flow: the student repeats "${rec.correct_example || 'the correct sentence'}" three times slowly, then does a mini-drill of three NEW sentences with the same rule. Continue the lesson only after they get one right.${earlier}`;
++}
++
++/**
++ * Record one mistake the model heard. Returns { profile, result }.
++ * result.status: 'new' | 'repeated' | 'relapse' (was mastered, came back).
++ */
++export function applyMistake(profile, report, { lessonId = '', mode = 'strict', ageGroup = 'adult', now = Date.now() } = {}) {
++  const p = clone(profile);
++  const rule = RULES.includes(report?.rule) ? report.rule : 'other.general';
++  const variant = slug(report?.variant) || 'general';
++  const wrong = clean(report?.wrong, 200);
++  const correct = clean(report?.correct, 200);
++  const explanation = clean(report?.explanation_uz, 300);
++  const m = cleanMode(mode);
++  const age = cleanAge(ageGroup);
++
++  const foundKey = findMistakeKey(p, rule, variant, wrong);
++  const key = foundKey || mistakeKey(rule, variant);
++  const prev = foundKey ? p.mistakes[foundKey] : null;
++
++  let status = 'new';
++  let level = 1;
++  if (prev) {
++    status = prev.status === 'mastered' ? 'relapse' : 'repeated';
++    // Inside one lesson the ladder climbs one step per repeat. A mistake that
++    // carries over from an earlier lesson starts at level 2: it is already a
++    // repeated mistake the moment it reappears.
++    level = prev.last_lesson_id && prev.last_lesson_id === lessonId
++      ? Math.min(MAX_LEVEL, (prev.last_level || 1) + 1)
++      : 2;
++  }
++
++  const stamp = iso(now);
++  const rec = {
++    key,
++    rule,
++    variant,
++    wrong_example: wrong || prev?.wrong_example || '',
++    correct_example: correct || prev?.correct_example || '',
++    // keep the FIRST explanation: it is what the student already heard
++    explanation_uz: prev?.explanation_uz || explanation,
++    total_count: (prev?.total_count || 0) + 1,
++    status: 'active',
++    correct_streak: 0,
++    first_seen: prev?.first_seen || stamp,
++    last_seen: stamp,
++    last_lesson_id: lessonId,
++    last_level: level,
++    relapses: (prev?.relapses || 0) + (status === 'relapse' ? 1 : 0),
++    mastered_at: '',
++  };
++  p.mistakes[key] = rec;
++  evict(p.mistakes, CAPS.mistakes, (x) => (x.status === 'mastered' ? 0 : 1e15) + Date.parse(x.last_seen || 0));
++
++  const ladderTone = LADDER[m][level - 1];
++  // Children never get sarcasm: the strict rungs become gentle ones.
++  const tone = !SARCASM_OK[age] ? ladderTone.replace('playful_strict', 'playful_gentle') : ladderTone;
++  const result = {
++    ok: true,
++    status,
++    key,
++    level,
++    tone,
++    total_count: rec.total_count,
++    previous_explanation_uz: prev?.explanation_uz || '',
++    needs_drill: m !== 'exam' && level >= 3,
++    directive: directive({ mode: m, age, level, status, rec, prevExplanation: prev?.explanation_uz || '' }),
++    ...mistakeStats(p),
++  };
++  return { profile: p, result };
++}
++
++/** The student used a previously-mistaken pattern correctly. */
++export function applyCorrectUse(profile, report, { mode = 'strict', now = Date.now() } = {}) {
++  const p = clone(profile);
++  const key = findMistakeKey(p, report?.rule, report?.variant, '');
++  const rec = key ? p.mistakes[key] : null;
++  if (!rec) return { profile: p, result: { ok: true, status: 'untracked', directive: 'Nothing to update. Continue.' } };
++  if (rec.status === 'mastered') return { profile: p, result: { ok: true, status: 'already_mastered', key, directive: 'Already mastered. Continue.' } };
++  const quiet = mode === 'exam';
++  rec.correct_streak = (rec.correct_streak || 0) + 1;
++  rec.last_seen = iso(now);
++  if (rec.correct_streak >= MASTERY_STREAK) {
++    rec.status = 'mastered';
++    rec.mastered_at = iso(now);
++    return {
++      profile: p,
++      result: {
++        ok: true, status: 'mastered', key, correct_streak: rec.correct_streak, ...mistakeStats(p),
++        directive: quiet ? 'Exam: no feedback. Continue.' : 'The student has now MASTERED this rule (several correct uses in a row). Say so briefly and genuinely, then move on.',
++      },
++    };
++  }
++  return {
++    profile: p,
++    result: {
++      ok: true, status: 'improving', key, correct_streak: rec.correct_streak,
++      remaining: MASTERY_STREAK - rec.correct_streak,
++      directive: quiet ? 'Exam: no feedback. Continue.' : 'Correct this time. Acknowledge it in a few words (no gushing) and keep going.',
++    },
++  };
++}
++
++// ---------- level, pronunciation, vocabulary ----------
++export function applyLevelEstimate(profile, report, { now = Date.now() } = {}) {
++  const p = clone(profile);
++  const cefr = cleanCefr(report?.cefr);
++  if (!cefr) return { profile: p, result: { ok: false, error: 'invalid_cefr' } };
++  const confidence = Math.max(0, Math.min(1, Number(report?.confidence) || 0.5));
++  p.level_history.push({ cefr, confidence, at: iso(now) });
++  p.level_history = p.level_history.slice(-CAPS.levelHistory);
++  // Smooth: the most common of the last 5 estimates; a tie goes to the newest.
++  const recent = p.level_history.slice(-5);
++  const counts = {};
++  for (const e of recent) counts[e.cefr] = (counts[e.cefr] || 0) + 1;
++  const top = Math.max(...Object.values(counts));
++  const winner = [...recent].reverse().find((e) => counts[e.cefr] === top).cefr;
++  p.cefr_level = winner;
++  return { profile: p, result: { ok: true, cefr_level: winner, estimates: p.level_history.length, directive: 'Level noted. Pitch the next task one step above the student\'s comfort zone.' } };
++}
++
++export function applyPronunciation(profile, report, { now = Date.now() } = {}) {
++  const p = clone(profile);
++  const word = clean(report?.word, 40).toLowerCase().replace(/[^a-z' -]/g, '');
++  if (!word) return { profile: p, result: { ok: false, error: 'invalid_word' } };
++  const prev = p.pronunciation[word];
++  const rec = {
++    word,
++    issue: clean(report?.issue, 160) || prev?.issue || '',
++    tip_uz: clean(report?.tip_uz, 200) || prev?.tip_uz || '',
++    count: (prev?.count || 0) + 1,
++    first_seen: prev?.first_seen || iso(now),
++    last_seen: iso(now),
++  };
++  p.pronunciation[word] = rec;
++  evict(p.pronunciation, CAPS.pronunciation, (x) => Date.parse(x.last_seen || 0));
++  return {
++    profile: p,
++    result: {
++      ok: true, status: prev ? 'repeated' : 'new', count: rec.count,
++      directive: prev
++        ? `Pronunciation problem with "${word}" again (${rec.count} times). Model it slowly syllable by syllable and have the student repeat it three times.`
++        : `Model "${word}" slowly and clearly, say what to change in the mouth (in Uzbek, one sentence), and ask for one repeat.`,
++    },
++  };
++}
++
++export function applyVocabulary(profile, report, { now = Date.now() } = {}) {
++  const p = clone(profile);
++  const word = clean(report?.word, 40).toLowerCase().replace(/[^a-z' -]/g, '');
++  const outcome = ['learned', 'struggled', 'used_well'].includes(report?.outcome) ? report.outcome : null;
++  if (!word || !outcome) return { profile: p, result: { ok: false, error: 'invalid_vocabulary' } };
++  const prev = p.vocabulary[word] || { word, meaning_uz: '', seen: 0, struggles: 0, good_uses: 0, learned: false };
++  const rec = { ...prev, word, seen: prev.seen + 1, last_seen: iso(now) };
++  const meaning = clean(report?.meaning_uz, 80);
++  if (meaning) rec.meaning_uz = meaning;
++  if (outcome === 'struggled') { rec.struggles += 1; rec.learned = false; rec.good_uses = 0; }
++  if (outcome === 'used_well') { rec.good_uses += 1; if (rec.good_uses >= 2) rec.learned = true; }
++  if (outcome === 'learned') { rec.learned = true; rec.good_uses = Math.max(rec.good_uses, 1); }
++  p.vocabulary[word] = rec;
++  evict(p.vocabulary, CAPS.vocabulary, (x) => Date.parse(x.last_seen || 0));
++  return { profile: p, result: { ok: true, status: rec.learned ? 'learned' : 'learning', directive: 'Noted. Continue.' } };
++}
++
++// ---------- end of lesson ----------
++const score = (v) => (Number.isFinite(Number(v)) ? Math.max(0, Math.min(100, Math.round(Number(v)))) : null);
++
++export function finishLesson(profile, { mode = 'strict', summary = '', focusNext = [], scores = null, now = Date.now() } = {}) {
++  const p = clone(profile);
++  p.lesson_count += 1;
++  p.last_lesson_at = iso(now);
++  p.last_lesson_summary = clean(summary, 400);
++  p.last_focus = (Array.isArray(focusNext) ? focusNext : []).map((f) => clean(f, 80)).filter(Boolean).slice(0, 5);
++  const st = mistakeStats(p);
++  p.progress.push({ at: iso(now), cefr: p.cefr_level || '', active: st.active, mastered: st.mastered });
++  p.progress = p.progress.slice(-CAPS.progress);
++  if (mode === 'exam' && scores) {
++    const s = {
++      grammar: score(scores.grammar), vocabulary: score(scores.vocabulary),
++      fluency: score(scores.fluency), pronunciation: score(scores.pronunciation),
++    };
++    if (Object.values(s).some((v) => v != null)) {
++      p.test_results.push({ at: iso(now), cefr: cleanCefr(scores.cefr) || p.cefr_level || '', ...s });
++      p.test_results = p.test_results.slice(-CAPS.tests);
++    }
++  }
++  return p;
++}
++
++// ---------- what the teacher "remembers" (goes into the prompt) ----------
++export function memorySummary(profile, { now = Date.now() } = {}) {
++  const p = normalizeProfile(profile);
++  if (!p.lesson_count && !Object.keys(p.mistakes).length) {
++    return 'FIRST LESSON: you know nothing about this student yet. Start with easy questions and estimate their level.';
++  }
++  const lines = [];
++  lines.push(`Level estimate: ${p.cefr_level || 'unknown'}. Lessons so far: ${p.lesson_count}.`);
++  if (p.last_lesson_at) {
++    const days = Math.max(0, Math.round((now - Date.parse(p.last_lesson_at)) / 86400000));
++    lines.push(`Last lesson: ${days === 0 ? 'today' : `${days} day(s) ago`}${p.last_lesson_summary ? ` - ${p.last_lesson_summary}` : ''}`);
++  }
++  if (p.last_focus.length) lines.push(`Planned focus for this lesson: ${p.last_focus.join('; ')}.`);
++
++  const active = Object.values(p.mistakes)
++    .filter((m) => m.status !== 'mastered')
++    .sort((a, b) => b.total_count - a.total_count || Date.parse(b.last_seen) - Date.parse(a.last_seen))
++    .slice(0, 8);
++  if (active.length) {
++    lines.push('ACTIVE MISTAKES (when the student repeats one, call log_mistake with the EXACT same rule and variant):');
++    for (const m of active) {
++      lines.push(`- rule=${m.rule} variant=${m.variant} | seen ${m.total_count}x | wrong: "${m.wrong_example}" -> right: "${m.correct_example}"`);
++    }
++  }
++  const mastered = Object.values(p.mistakes).filter((m) => m.status === 'mastered');
++  if (mastered.length) {
++    lines.push(`Mastered before (a mistake on these is a relapse): ${mastered.slice(0, 8).map((m) => `${m.rule}:${m.variant}`).join(', ')}.`);
++  }
++  const pron = Object.values(p.pronunciation).sort((a, b) => b.count - a.count).slice(0, 5);
++  if (pron.length) lines.push(`Pronunciation difficulties: ${pron.map((x) => `${x.word} (${x.issue || 'unclear'})`).join('; ')}.`);
++  const vocab = Object.values(p.vocabulary).filter((v) => !v.learned && v.struggles > 0).slice(0, 6);
++  if (vocab.length) lines.push(`Words the student struggles with: ${vocab.map((v) => v.word).join(', ')}.`);
++  const lastTest = p.test_results[p.test_results.length - 1];
++  if (lastTest) lines.push(`Last exam: grammar ${lastTest.grammar ?? '-'}, vocabulary ${lastTest.vocabulary ?? '-'}, fluency ${lastTest.fluency ?? '-'}, pronunciation ${lastTest.pronunciation ?? '-'}.`);
++  return lines.join('\n');
++}
++
++// ---------- what the browser may see ----------
++export function publicProfileView(profile) {
++  const p = normalizeProfile(profile);
++  const mistakes = Object.values(p.mistakes)
++    .sort((a, b) => Date.parse(b.last_seen) - Date.parse(a.last_seen))
++    .slice(0, 40)
++    .map((m) => ({
++      key: m.key, rule: m.rule, variant: m.variant,
++      label: RULE_LABELS[m.rule] || RULE_LABELS['other.general'],
++      wrong: m.wrong_example, correct: m.correct_example, explanation_uz: m.explanation_uz,
++      count: m.total_count, status: m.status, streak: m.correct_streak, last_seen: m.last_seen,
++    }));
++  return {
++    cefr_level: p.cefr_level || '',
++    lesson_count: p.lesson_count,
++    last_lesson_at: p.last_lesson_at,
++    last_lesson_summary: p.last_lesson_summary,
++    last_focus: p.last_focus,
++    mode: p.mode,
++    age_group: p.age_group,
++    ...mistakeStats(p),
++    mistakes,
++    pronunciation: Object.values(p.pronunciation).sort((a, b) => b.count - a.count).slice(0, 20),
++    vocabulary_learned: Object.values(p.vocabulary).filter((v) => v.learned).length,
++    vocabulary_struggling: Object.values(p.vocabulary).filter((v) => !v.learned && v.struggles > 0).map((v) => v.word).slice(0, 20),
++    test_results: p.test_results.slice(-5),
++    progress: p.progress.slice(-20),
++  };
++}
+diff --git a/base44/shared/liveTeacherEngine.js b/base44/shared/liveTeacherEngine.js
+new file mode 100644
+index 0000000..541944d
+--- /dev/null
++++ b/base44/shared/liveTeacherEngine.js
+@@ -0,0 +1,265 @@
++// Live Teacher engine: the server-side steps of a lesson, with every outside
++// dependency injected (`svc` = service-role entities, `env`, `fetchImpl`) so
++// the whole flow is testable without Base44 or OpenAI
++// (tools/live-teacher-tests/engine.test.mjs).
++//
++// base44/functions/liveTeacherApi/entry.ts is the thin glue: login, ban check,
++// daily allowance, then one call into this file.
++//
++// Every function returns { status, body } (an HTTP status and a JSON body).
++//
++// SECURITY: the permanent OpenAI key is read from `env` HERE, on the server,
++// and is used for exactly one call (minting a short-lived client secret). It is
++// never returned, never logged. The browser only ever gets that short-lived
++// secret, which can open a single Realtime session.
++
++import {
++  MAX_MINUTES, cleanMode, cleanAge, clean, normalizeProfile, emptyProfile,
++  applyMistake, applyCorrectUse, applyLevelEstimate, applyPronunciation, applyVocabulary,
++  finishLesson, memorySummary, publicProfileView,
++} from './liveTeacherCore.js';
++import { buildInstructions, buildSessionConfig } from './liveTeacherPrompt.js';
++
++const OPENAI_URL = 'https://api.openai.com/v1/realtime/client_secrets';
++const MAX_TOOL_CALLS = 300; // per lesson; a runaway client cannot hammer the database
++const GRACE_MIN = 5; // a lesson may run this long past its limit before tools are refused
++
++const reply = (status, body) => ({ status, body });
++const PROFILE_FIELDS = [
++  'cefr_level', 'level_history', 'mode', 'age_group', 'mistakes', 'pronunciation', 'vocabulary',
++  'test_results', 'progress', 'lesson_count', 'last_lesson_at', 'last_lesson_summary', 'last_focus',
++];
++const pick = (o) => Object.fromEntries(PROFILE_FIELDS.map((k) => [k, o[k]]));
++
++export const isConfigured = (env) => !!env?.OPENAI_API_KEY;
++
++export async function getOrCreateProfile(svc, email) {
++  const rows = await svc.LiveTeacherProfile.filter({ user_email: email }, 'created_date', 1);
++  if (rows?.length) return { row: rows[0], profile: normalizeProfile(rows[0]) };
++  const row = await svc.LiveTeacherProfile.create(emptyProfile(email));
++  return { row, profile: normalizeProfile(row) };
++}
++
++const saveProfile = (svc, row, profile) => svc.LiveTeacherProfile.update(row.id, pick(profile));
++
++// Never let an OpenAI error text carry a key-shaped string anywhere.
++const redact = (s) => String(s || '').replace(/(sk|ek)-[A-Za-z0-9_-]{8,}/g, '[redacted]').slice(0, 240);
++
++async function sha256Hex(text) {
++  const bytes = new TextEncoder().encode(String(text));
++  const digest = await crypto.subtle.digest('SHA-256', bytes);
++  return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, '0')).join('');
++}
++
++// ---------------------------------------------------------------- start
++export async function startLesson({ svc, user, body = {}, env, fetchImpl = fetch, now = Date.now() }) {
++  if (!isConfigured(env)) {
++    return reply(503, { ok: false, code: 'not_configured', error: 'Live Teacher is not set up yet.' });
++  }
++  const mode = cleanMode(body.mode);
++  const ageGroup = cleanAge(body.age_group);
++  const lang = ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz';
++
++  const { row, profile } = await getOrCreateProfile(svc, user.email);
++  const instructions = buildInstructions({
++    mode, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }),
++  });
++  const session = buildSessionConfig({ instructions, env });
++
++  let res;
++  try {
++    res = await fetchImpl(OPENAI_URL, {
++      method: 'POST',
++      headers: {
++        Authorization: `Bearer ${env.OPENAI_API_KEY}`,
++        'Content-Type': 'application/json',
++        // Ties the session to a stable, anonymous per-student id (OpenAI abuse tooling).
++        'OpenAI-Safety-Identifier': await sha256Hex(user.id || user.email),
++      },
++      body: JSON.stringify({ session }),
++    });
++  } catch (e) {
++    console.error('live teacher: openai unreachable', redact(e?.message));
++    return reply(502, { ok: false, code: 'openai_unreachable', error: 'The voice service is unreachable. Try again.' });
++  }
++  let data = null;
++  try { data = await res.json(); } catch { data = null; }
++  if (!res.ok) {
++    const detail = redact(data?.error?.message);
++    console.error('live teacher: openai refused', res.status, detail);
++    // Only admins see OpenAI's own wording (it makes set-up quick to debug);
++    // students always get the generic sentence.
++    const admin = user.role === 'admin';
++    return reply(502, {
++      ok: false, code: 'openai_rejected',
++      error: admin ? `OpenAI said (${res.status}): ${detail}` : 'The voice service refused the request.',
++      ...(admin ? { openai_status: res.status, openai_message: detail } : {}),
++    });
++  }
++  const secret = data?.value || data?.client_secret?.value;
++  if (!secret) return reply(502, { ok: false, code: 'openai_bad_response', error: 'The voice service sent an unexpected answer.' });
++
++  const lesson = await svc.LiveTeacherLesson.create({
++    user_email: user.email,
++    mode,
++    age_group: ageGroup,
++    status: 'started',
++    started_at: new Date(now).toISOString(),
++    model: session.model,
++    max_minutes: MAX_MINUTES[mode],
++    tool_calls: 0,
++    mistakes_logged: 0,
++    new_mistakes: 0,
++    repeated_mistakes: 0,
++    mastered_now: 0,
++  });
++  // Remember the student's last choices so the page can pre-select them.
++  await saveProfile(svc, row, { ...profile, mode, age_group: ageGroup });
++
++  return reply(200, {
++    ok: true,
++    client_secret: secret,
++    expires_at: data?.expires_at || null,
++    lesson_id: lesson.id,
++    model: session.model,
++    mode,
++    age_group: ageGroup,
++    max_minutes: MAX_MINUTES[mode],
++    opening_prompt: 'Start the lesson now, following FIRST TURN in your instructions. Speak first.',
++    profile: publicProfileView({ ...profile, mode, age_group: ageGroup }),
++  });
++}
++
++// ---------------------------------------------------------------- tools
++const parseArgs = (a) => {
++  if (a && typeof a === 'object' && !Array.isArray(a)) return a;
++  try {
++    const v = JSON.parse(String(a || '{}'));
++    return v && typeof v === 'object' && !Array.isArray(v) ? v : {};
++  } catch { return {}; }
++};
++
++async function loadLesson(svc, user, id, now, { allowEnded = false } = {}) {
++  let lesson = null;
++  try { lesson = id ? await svc.LiveTeacherLesson.get(String(id)) : null; } catch { lesson = null; }
++  if (!lesson || lesson.user_email !== user.email) return { error: reply(404, { ok: false, code: 'lesson_not_found', error: 'Lesson not found.' }) };
++  if (lesson.status !== 'started' && !allowEnded) return { error: reply(409, { ok: false, code: 'lesson_ended', error: 'This lesson has ended.' }) };
++  const age = now - Date.parse(lesson.started_at);
++  if (lesson.status === 'started' && age > (lesson.max_minutes + GRACE_MIN) * 60000) {
++    return { error: reply(410, { ok: false, code: 'lesson_expired', error: 'This lesson has run out of time.' }) };
++  }
++  return { lesson };
++}
++
++async function finalize(svc, { lesson, row, profile, summary, strengths, focusNext, scores, now }) {
++  const next = finishLesson(profile, { mode: lesson.mode, summary, focusNext, scores, now });
++  await saveProfile(svc, row, next);
++  const durationS = Math.max(0, Math.round((now - Date.parse(lesson.started_at)) / 1000));
++  const recap = {
++    summary: clean(summary, 400),
++    strengths: (Array.isArray(strengths) ? strengths : []).map((s) => clean(s, 80)).filter(Boolean).slice(0, 3),
++    focus_next: next.last_focus,
++    new_mistakes: lesson.new_mistakes || 0,
++    repeated_mistakes: lesson.repeated_mistakes || 0,
++    mastered_now: lesson.mastered_now || 0,
++    cefr_level: next.cefr_level || '',
++    lesson_count: next.lesson_count,
++    duration_s: durationS,
++    scores: scores && lesson.mode === 'exam' ? next.test_results[next.test_results.length - 1] || null : null,
++  };
++  await svc.LiveTeacherLesson.update(lesson.id, {
++    status: 'ended', ended_at: new Date(now).toISOString(), duration_s: durationS,
++    summary: recap.summary, strengths: recap.strengths, focus_next: recap.focus_next,
++    level_at_end: recap.cefr_level, scores: recap.scores || undefined,
++  });
++  return recap;
++}
++
++export async function handleTool({ svc, user, body = {}, now = Date.now() }) {
++  const { lesson, error } = await loadLesson(svc, user, body.lesson_id, now);
++  if (error) return error;
++  if ((lesson.tool_calls || 0) >= MAX_TOOL_CALLS) return reply(429, { ok: false, code: 'too_many_tool_calls', error: 'Too many actions in one lesson.' });
++
++  const { row, profile } = await getOrCreateProfile(svc, user.email);
++  const args = parseArgs(body.args);
++  const ctx = { lessonId: lesson.id, mode: lesson.mode, ageGroup: lesson.age_group, now };
++  const counters = { tool_calls: (lesson.tool_calls || 0) + 1 };
++  let next = profile;
++  let output;
++
++  switch (body.name) {
++    case 'log_mistake': {
++      const r = applyMistake(profile, args, ctx);
++      next = r.profile; output = r.result;
++      counters.mistakes_logged = (lesson.mistakes_logged || 0) + 1;
++      if (r.result.status === 'new') counters.new_mistakes = (lesson.new_mistakes || 0) + 1;
++      else counters.repeated_mistakes = (lesson.repeated_mistakes || 0) + 1;
++      break;
++    }
++    case 'log_correct_use': {
++      const r = applyCorrectUse(profile, args, ctx);
++      next = r.profile; output = r.result;
++      if (r.result.status === 'mastered') counters.mastered_now = (lesson.mastered_now || 0) + 1;
++      break;
++    }
++    case 'set_level_estimate': { const r = applyLevelEstimate(profile, args, ctx); next = r.profile; output = r.result; break; }
++    case 'log_pronunciation': { const r = applyPronunciation(profile, args, ctx); next = r.profile; output = r.result; break; }
++    case 'log_vocabulary': { const r = applyVocabulary(profile, args, ctx); next = r.profile; output = r.result; break; }
++    case 'end_lesson': {
++      const recap = await finalize(svc, {
++        lesson: { ...lesson, ...counters }, row, profile,
++        summary: args.summary, strengths: args.strengths, focusNext: args.focus_next, scores: args.scores, now,
++      });
++      return reply(200, {
++        ok: true, recap,
++        output: { ok: true, directive: 'Lesson saved. Say a short goodbye now (in exam mode, first give the spoken verdict). Do not start a new topic.' },
++      });
++    }
++    default:
++      // Unknown tool: answer politely so the model recovers instead of stalling.
++      return reply(200, { ok: true, output: { ok: false, error: 'unknown_tool' } });
++  }
++
++  if (next !== profile) await saveProfile(svc, row, next);
++  await svc.LiveTeacherLesson.update(lesson.id, counters);
++  return reply(200, { ok: true, output, profile: publicProfileView(next) });
++}
++
++// ---------------------------------------------------------------- end
++/** The student pressed End (or time ran out). Idempotent. */
++export async function endLesson({ svc, user, body = {}, now = Date.now() }) {
++  const { lesson, error } = await loadLesson(svc, user, body.lesson_id, now, { allowEnded: true });
++  if (error) return error;
++  if (lesson.status === 'ended') {
++    return reply(200, {
++      ok: true,
++      recap: {
++        summary: lesson.summary || '', strengths: lesson.strengths || [], focus_next: lesson.focus_next || [],
++        new_mistakes: lesson.new_mistakes || 0, repeated_mistakes: lesson.repeated_mistakes || 0,
++        mastered_now: lesson.mastered_now || 0, cefr_level: lesson.level_at_end || '', duration_s: lesson.duration_s || 0,
++        scores: lesson.scores || null,
++      },
++    });
++  }
++  const { row, profile } = await getOrCreateProfile(svc, user.email);
++  // The teacher normally saves a summary through end_lesson. If the student
++  // closed early, write a plain factual one.
++  const fallback = `Lesson ended early. ${lesson.mistakes_logged || 0} mistake(s) were recorded.`;
++  const recap = await finalize(svc, { lesson, row, profile, summary: fallback, strengths: [], focusNext: profile.last_focus, scores: null, now });
++  return reply(200, { ok: true, recap });
++}
++
++// ---------------------------------------------------------------- profile
++export async function getProfileView({ svc, user }) {
++  const { profile } = await getOrCreateProfile(svc, user.email);
++  const lessons = await svc.LiveTeacherLesson.filter({ user_email: user.email, status: 'ended' }, '-created_date', 5);
++  return reply(200, {
++    ok: true,
++    profile: publicProfileView(profile),
++    recent_lessons: (lessons || []).map((l) => ({
++      started_at: l.started_at, mode: l.mode, duration_s: l.duration_s || 0, summary: l.summary || '',
++      level_at_end: l.level_at_end || '',
++    })),
++    limits: { max_minutes: MAX_MINUTES },
++  });
++}
+diff --git a/base44/shared/liveTeacherPrompt.js b/base44/shared/liveTeacherPrompt.js
+new file mode 100644
+index 0000000..2f567e6
+--- /dev/null
++++ b/base44/shared/liveTeacherPrompt.js
+@@ -0,0 +1,207 @@
++// Live Teacher prompt + tool definitions. Pure functions (testable).
++// The personality lives HERE, in one place, so the owner can tune it without
++// touching the voice plumbing. The server builds the prompt per lesson and the
++// browser never sees or edits it.
++
++import { RULES, MAX_MINUTES, cleanMode, cleanAge } from './liveTeacherCore.js';
++
++const MODE_TEXT = {
++  normal: `MODE: NORMAL. Friendly, supportive teacher. Correct mistakes kindly. Be encouraging, but still honest and specific: praise real progress only, not every answer. No sarcasm. Repeated mistakes make you firmer and give extra practice, never harsher or mocking.`,
++  strict: `MODE: STRICT. Demanding teacher with strong discipline and a dry sense of humor. High standards, short patience for carelessness, zero tolerance for the SAME mistake coming back after you explained it. Corrections are firm and direct. Light humorous sarcasm is allowed when a mistake repeats (aimed at the mistake, never the person). You still want the student to win: strictness is how you show you believe in them.`,
++  exam: `MODE: EXAM. You are a real examiner, formal and neutral. NEVER reveal answers, hint, correct, explain, or praise during the exam. If the student asks "is this right?" say you cannot comment during the exam. Run it like this: Part 1 (about 3 minutes) personal questions; Part 2 a one-minute talk on a topic you give; Part 3 a short discussion plus two quick grammar transformation tasks. Keep time. Still call log_mistake silently for each error (the tool will tell you to stay silent). When time is up or the student says they are finished: call end_lesson with scores (grammar, vocabulary, fluency, pronunciation, each 0-100) and a CEFR level, then speak a short verdict: CEFR level, strongest and weakest area, and the three most important mistakes WITH their corrections. This verdict is the only moment you reveal corrections.`,
++};
++
++const AGE_TEXT = {
++  kid: `STUDENT AGE: child. Warm, playful, very simple words, very short sentences. NO sarcasm at all, only gentle teasing like a kind older sibling. Celebrate effort. Keep exercises game-like.`,
++  teen: `STUDENT AGE: teenager. Energetic, a little cool, light humor allowed. Sarcasm only very light, and only about the mistake. Never embarrass them.`,
++  adult: `STUDENT AGE: adult. Full personality allowed: confident, analytical, dry humor.`,
++};
++
++export function buildInstructions({ mode, ageGroup, uiLang, studentName, memory }) {
++  const m = cleanMode(mode);
++  const age = cleanAge(ageGroup);
++  const name = String(studentName || '').trim().split(/\s+/)[0].slice(0, 30);
++  const minutes = MAX_MINUTES[m];
++  return `# ROLE
++You are the live English teacher inside VIRORA, an English-learning app for Uzbek-speaking students. You talk to the student by VOICE, in real time. You are a real teacher, not a chatbot: intelligent, analytical, confident, demanding. Your job is to make this student speak better English, lesson after lesson.
++${name ? `The student's first name is ${name}. Use it sparingly.` : ''}
++Lesson length: about ${minutes} minutes. Keep an eye on time and wrap up near the end.
++
++# PERSONALITY
++- Strict and demanding, because you take the student seriously. Analytical: you find the exact rule behind a mistake and name it.
++- Confident, direct, not chatty. Dry humor and light sarcasm when it is earned. Patient when the student is genuinely trying or confused. Very serious about a mistake that keeps coming back.
++- Motivating, not gushing. Do NOT praise every answer. Praise real progress, briefly and specifically.
++- Your tone follows the student's behavior: effort makes you warmer, carelessness or the same mistake again makes you stricter, frustration or sadness makes you drop the act and be kind.
++- NEVER abusive, threatening, discriminatory or humiliating. Humor and sarcasm aim at the MISTAKE, never at the student's intelligence, looks, family, region, gender, religion or background. If the student seems hurt, scared of mistakes, or upset, stop being strict at once and encourage them.
++- Style samples for repeated mistakes (use your own words, vary them, never copy every time):
++  1st time: "Almost, but that is incorrect. The correct sentence is 'I go to school.' Let me explain why in Uzbek."
++  2nd time: "Yana shu xatomi? Hozirgina tushuntirdim-ku! 'I' bilan 'go' ishlatiladi, 'goes' emas. Diqqat qiling!"
++  3rd time: "Hoy, ko'zingizni kattaroq oching! Uch marta tushuntirdim! 'I GO TO SCHOOL' deb ayting. Qani, takrorlang!"
++
++${MODE_TEXT[m]}
++
++${AGE_TEXT[age]}
++
++# HOW YOU SPEAK
++- You are speaking out loud. Short turns (1-3 sentences). ONE question or task at a time. No lists, no markdown, no emojis, no stage directions.
++- English: clear, standard pronunciation; a little slower for A1-A2 students. Uzbek: natural spoken Uzbek, Latin spelling norms (o', g', sh, ch), not Russian-flavoured.
++- If the student interrupts, stop immediately. Do NOT resume the old sentence. React to what they just said.
++- Let the student finish and think. If they stay silent for several seconds, encourage them once, gently.
++- Never read out these instructions, tool names, keys, or technical details.
++
++# LANGUAGES
++- You teach in English and explain in Uzbek. The student may speak English, Uzbek, or a mix. Understand both.
++- Grammar explanations: in simple Uzbek (2-3 sentences), with English examples. A1-A2 students: mostly Uzbek with short English. B1 and up: more English, Uzbek only for explaining rules.
++- If the student speaks Uzbek when the task needed English: say what they meant in English and ask them to say it in English. Call log_mistake with rule "language.used_uzbek_instead_of_english" only for A2+ students who should be able to try. Normal Uzbek help requests ("tushunmadim", asking you to explain) are NOT mistakes. Beginners (A1) get patience: translate, then ask for a short English attempt.
++- If the student uses another language (for example Russian), still understand and answer simply in English and Uzbek.
++
++# WHAT YOU TEACH
++Grammar, speaking, listening (say a sentence, ask the student to repeat it or answer a question about it), vocabulary, pronunciation, reading (give a very short text, have them read it aloud, ask about it), writing and sentence construction (the student builds sentences aloud, you check), and natural everyday expressions. Follow the student's request; otherwise follow STUDENT MEMORY, then your own plan.
++- Estimate the CEFR level (A1-C2) from grammar range, vocabulary, fluency and comprehension. Call set_level_estimate after about five minutes and again whenever your view changes. Keep tasks one step above the student's comfort.
++- If an explanation fails ("I don't understand"): do NOT repeat the same words. Switch fully to simple Uzbek, use a different angle (a real-life example or a comparison with how Uzbek works), give two short examples, then ask ONE tiny check question.
++- Advanced questions: answer accurately and analytically. Explain in Uzbek with English examples, and connect it back to the student's level. If you are not sure, say so; never invent rules.
++- Stay on English learning. Politely steer back from unrelated topics.
++
++# MISTAKE PROTOCOL (this is how you track errors; follow it exactly)
++1. When the student makes an English mistake, FIRST call log_mistake (silently, never announce the tool), THEN correct them.
++2. Choose the closest "rule" from the list. Make "variant" a short snake_case name for the exact pattern (for example i_goes, he_dont, missing_the_before_sea). If the student already has this mistake in STUDENT MEMORY, reuse its EXACT rule and variant.
++3. Different mistakes are different mistakes. Do not file two different errors under one variant, and do not invent a new variant for an error that is already in memory.
++4. The tool replies with status (new / repeated / relapse), a level 1-4, a tone, and a directive. Follow the directive: the SERVER counts mistakes, not you. Do what the directive says, in your own voice.
++5. Report at most TWO mistakes per student turn, most important first. Mention the rest later.
++6. When the student uses a pattern from their mistake list correctly, call log_correct_use.
++7. Pronunciation: when you hear a clear problem with a specific word, call log_pronunciation, then model the word slowly. Do not claim certainty about sounds you could not hear clearly.
++8. New or struggled vocabulary: call log_vocabulary.
++9. When the lesson ends (student says goodbye, asks to stop, or time is nearly up) call end_lesson with a summary, then say a short goodbye.
++
++# STUDENT MEMORY
++${memory || 'No memory.'}
++
++# FIRST TURN
++When the lesson starts, greet briefly in Uzbek and English (about two sentences), say what you will do, and ask ONE easy question. ${memory && !/FIRST LESSON/.test(memory) ? 'If memory shows earlier mistakes or a planned focus, mention it in one sentence and start there.' : 'Use the first minutes to estimate the level.'}${uiLang === 'ru' ? ' The student uses the app in Russian but you teach with English and Uzbek.' : ''}`;
++}
++
++const str = (description, extra = {}) => ({ type: 'string', description, ...extra });
++
++export const TOOLS = [
++  {
++    type: 'function',
++    name: 'log_mistake',
++    description: 'Record ONE English mistake the student just made. Call this BEFORE correcting. The result tells you how strict to be and what to do.',
++    parameters: {
++      type: 'object',
++      properties: {
++        rule: str('Closest grammar/vocabulary rule.', { enum: RULES }),
++        variant: str('Short snake_case name of the exact pattern, e.g. i_goes. Reuse the same variant for the same error.'),
++        wrong: str("The student's wrong sentence or phrase, as they said it."),
++        correct: str('The corrected sentence.'),
++        explanation_uz: str('The explanation you will give, in simple Uzbek, max 2 sentences.'),
++      },
++      required: ['rule', 'variant', 'wrong', 'correct'],
++    },
++  },
++  {
++    type: 'function',
++    name: 'log_correct_use',
++    description: 'The student just used a pattern from their mistake list CORRECTLY.',
++    parameters: {
++      type: 'object',
++      properties: {
++        rule: str('Rule of the earlier mistake.', { enum: RULES }),
++        variant: str('Variant of the earlier mistake.'),
++      },
++      required: ['rule', 'variant'],
++    },
++  },
++  {
++    type: 'function',
++    name: 'set_level_estimate',
++    description: "Record your estimate of the student's CEFR level.",
++    parameters: {
++      type: 'object',
++      properties: {
++        cefr: str('CEFR level.', { enum: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] }),
++        confidence: { type: 'number', description: '0 to 1.' },
++      },
++      required: ['cefr'],
++    },
++  },
++  {
++    type: 'function',
++    name: 'log_pronunciation',
++    description: 'Record a clear pronunciation problem with one word.',
++    parameters: {
++      type: 'object',
++      properties: {
++        word: str('The English word.'),
++        issue: str('What went wrong, short, e.g. "th pronounced as s".'),
++        tip_uz: str('One short tip in Uzbek.'),
++      },
++      required: ['word', 'issue'],
++    },
++  },
++  {
++    type: 'function',
++    name: 'log_vocabulary',
++    description: 'Record how the student handled a vocabulary word.',
++    parameters: {
++      type: 'object',
++      properties: {
++        word: str('The English word.'),
++        outcome: str('How it went.', { enum: ['learned', 'struggled', 'used_well'] }),
++        meaning_uz: str('Uzbek meaning, a few words.'),
++      },
++      required: ['word', 'outcome'],
++    },
++  },
++  {
++    type: 'function',
++    name: 'end_lesson',
++    description: 'Call when the lesson is over, right before the goodbye. In exam mode include scores.',
++    parameters: {
++      type: 'object',
++      properties: {
++        summary: str('2 short sentences: what was covered and how it went.'),
++        strengths: { type: 'array', items: { type: 'string' }, description: 'Up to 3 short items.' },
++        focus_next: { type: 'array', items: { type: 'string' }, description: 'Up to 3 things to practise next time.' },
++        scores: {
++          type: 'object',
++          description: 'Exam mode only, each 0-100.',
++          properties: {
++            grammar: { type: 'number' }, vocabulary: { type: 'number' }, fluency: { type: 'number' },
++            pronunciation: { type: 'number' }, cefr: { type: 'string' },
++          },
++        },
++      },
++      required: ['summary'],
++    },
++  },
++];
++
++// The Realtime session the server asks OpenAI for. Model / voice / reasoning
++// can be changed with environment variables (no code change): see
++// docs/live-teacher.md.
++export function buildSessionConfig({ instructions, env = {} }) {
++  const session = {
++    type: 'realtime',
++    model: env.LIVE_TEACHER_MODEL || 'gpt-realtime-2',
++    instructions,
++    output_modalities: ['audio'],
++    audio: {
++      input: {
++        // No `language` on purpose: students switch between Uzbek and English.
++        transcription: { model: env.LIVE_TEACHER_TRANSCRIBE_MODEL || 'gpt-4o-transcribe' },
++        noise_reduction: { type: 'near_field' },
++        // semantic_vad waits for the student to finish a thought (good for
++        // beginners who pause to think) and still lets them interrupt.
++        turn_detection: { type: 'semantic_vad', eagerness: 'low', create_response: true, interrupt_response: true },
++      },
++      output: { voice: env.LIVE_TEACHER_VOICE || 'marin' },
++    },
++    tools: TOOLS,
++    tool_choice: 'auto',
++    max_output_tokens: 700,
++  };
++  const effort = env.LIVE_TEACHER_REASONING === undefined ? 'low' : env.LIVE_TEACHER_REASONING;
++  if (effort) session.reasoning = { effort };
++  return session;
++}
+diff --git a/base44/shared/userDataMap.js b/base44/shared/userDataMap.js
+index 74cae77..d6adf04 100644
+--- a/base44/shared/userDataMap.js
++++ b/base44/shared/userDataMap.js
+@@ -69,6 +69,9 @@ export const USER_DATA_ENTITIES = [
+   { name: "LeafState", emailFields: ["user_email"], idFields: [] },
+   { name: "ThemeProgress", emailFields: ["user_email"], idFields: [] },
+   { name: "UsageReservation", emailFields: ["user_email"], idFields: ["user_id"] },
++  // Live Teacher (AI voice teacher) memory + lesson counters. No audio or transcripts are stored.
++  { name: "LiveTeacherProfile", emailFields: ["user_email"], idFields: [] },
++  { name: "LiveTeacherLesson", emailFields: ["user_email"], idFields: [] },
+   // A student's own submissions. teacher_id names the OTHER party.
+   { name: "HomeworkSubmission", emailFields: ["student_email"], idFields: ["student_id"], excluded: ["teacher_id"] },
+   // A teacher's own assignments and uploaded materials. Students' submissions
+diff --git a/docs/live-teacher.md b/docs/live-teacher.md
+new file mode 100644
+index 0000000..f7a3f59
+--- /dev/null
++++ b/docs/live-teacher.md
+@@ -0,0 +1,97 @@
++# Live Teacher: AI English voice teacher
++
++Branch: `feature/live-teacher` (NOT merged into `main`). Page: `/live-teacher`.
++
++A real-time VOICE lesson with a strict, bilingual (English + Uzbek) AI English teacher that remembers each student's mistakes between lessons.
++
++## What was built
++
++| Piece | File |
++|---|---|
++| Teacher personality, modes, tool definitions, OpenAI session config | `base44/shared/liveTeacherPrompt.js` |
++| Mistake tracker (new / repeated / relapse / mastered), tone ladder, level, pronunciation, vocabulary, memory summary | `base44/shared/liveTeacherCore.js` |
++| Server steps of a lesson (start, tool, end, profile) | `base44/shared/liveTeacherEngine.js` |
++| Backend function (login, ban check, daily allowance) | `base44/functions/liveTeacherApi/entry.ts` |
++| Database | `base44/entities/LiveTeacherProfile.jsonc`, `LiveTeacherLesson.jsonc` (+ `live_teacher_session` bucket in `UsageReservation`, both entities added to the wipe map `userDataMap.js`) |
++| Voice link (WebRTC to OpenAI) | `src/lib/liveTeacher/realtimeClient.js` |
++| Screen | `src/pages/LiveTeacher.jsx`, copy in `src/lib/liveTeacher/copy.js` (uz / ru / en), route in `src/App.jsx` |
++| Tests | `tools/live-teacher-tests/` |
++
++The backend is a Base44 function (the app's existing backend), not a separate FastAPI service: login, bans, plan limits and the database are already there.
++
++## How a lesson works
++
++```
++Browser                         liveTeacherApi (Base44)                OpenAI
++  |-- start(mode, age) ------------>|  daily allowance check                |
++  |                                 |-- POST /v1/realtime/client_secrets -->|  (permanent key, server only)
++  |<-- short-lived secret ----------|<-- ek_... ----------------------------|
++  |== WebRTC: mic + teacher voice, JSON events =========================== >|  (secret only)
++  |   teacher hears a mistake -> tool call log_mistake
++  |-- tool(log_mistake) ----------->|  counts it, decides tone, saves
++  |<-- {status, level, tone, directive}                                      |
++  |   (sent back to the model, which answers in that tone)
++  |-- tool(end_lesson) / end ------>|  saves summary, progress, level
++```
++
++Why the server counts mistakes: the model hears the student and names the mistake (`rule` from a fixed list + a short `variant`, e.g. `i_goes`), but the SERVER keeps the counter and decides how strict to be, so counts cannot drift or be forgotten mid-conversation.
++
++### Mistake tracking
++
++- **new**: first time -> level 1, patient, explain in Uzbek.
++- **repeated**: seen before. Inside one lesson the level climbs 1 -> 2 -> 3 -> 4. A mistake carried over from an earlier lesson starts at level 2.
++- **relapse**: the student had mastered it (3 correct uses in a row after the last mistake) and it came back.
++- Different mistakes are different: a mistake is identified by its `rule` + `variant` (stored under a dot-free key). If the model's variant name drifts but the wrong sentence is the same, it is still the same mistake. The active mistake list (exact rule + variant) is in the teacher's prompt every lesson so the model reuses the same keys.
++
++| Level | Strict mode | Normal mode | Exam mode |
++|---|---|---|---|
++| 1 | patient, correct + Uzbek explanation | same | silent, no correction |
++| 2 | stricter, quotes the earlier explanation, demands a repeat | firm but friendly | silent |
++| 3 | playful strict, light sarcasm at the MISTAKE, repeat + extra exercise | warm, no sarcasm, repeat + exercise | silent |
++| 4 | repeat 3x slowly + mini-drill, mock despair allowed | kind drill | silent |
++
++Children never get sarcasm (the strict rungs become gentle). Strictness is never abusive: this is in the prompt and in the directives.
++
++## Setup (once)
++
++1. OpenAI: create an API key at platform.openai.com (add billing, set a **monthly budget limit**).
++2. Base44 dashboard -> the app -> secrets: add `OPENAI_API_KEY`. Never put it in code, `.env.local` that is committed, or the browser.
++3. Optional secrets (no code change): `LIVE_TEACHER_MODEL` (default `gpt-realtime-2`; `gpt-realtime-mini` is cheaper), `LIVE_TEACHER_VOICE` (default `marin`; also `cedar`), `LIVE_TEACHER_REASONING` (default `low`; set empty to omit), `LIVE_TEACHER_TRANSCRIBE_MODEL` (default `gpt-4o-transcribe`).
++4. Publish the branch from the Base44 dashboard, open `/live-teacher` in Chrome or Safari, allow the microphone.
++
++Costs: voice is billed per audio token (launch pricing was reported as about $32 per 1M audio input tokens and $64 per 1M audio output tokens for `gpt-realtime-2`; check the current OpenAI pricing page). No lesson cost has been measured yet: run a few test lessons and read the OpenAI usage dashboard before opening this to students. Limits in code (`liveTeacherCore.js`): `MAX_MINUTES` (normal 15, strict 15, exam 12) and `DAILY_SESSIONS` (free 1, learner 3, vip 10 per day; admins unlimited). These are placeholder business decisions for the owner to change.
++
++## Privacy
++
++Stored: CEFR estimate, mistake records (wrong/correct sentence, short Uzbek explanation), pronunciation and vocabulary notes, exam scores, per-lesson counters and a 2-sentence summary. NOT stored: audio and conversation transcripts (the transcript on screen lives only in the browser tab). During a lesson the audio is processed by OpenAI. Both new entities are in `userDataMap.js` so the existing account wipe removes them (`python3 tools/check_wipe_coverage.py` passes). The browser gets the student's own profile only. Add the Live Teacher / OpenAI processing to the Privacy page before launch.
++
++## Tests
++
++```
++node --test tools/live-teacher-tests/core.test.mjs tools/live-teacher-tests/engine.test.mjs   # no key, no network
++OPENAI_API_KEY=sk-... node tools/live-teacher-tests/scenarios.mjs                             # real model, text mode
++```
++
++`core.test.mjs` / `engine.test.mjs` (25 tests): scenarios 1, 2, 8 and the modes, mastery/relapse, memory, key safety, lesson ownership, limits, against an in-memory database and a fake OpenAI.
++`scenarios.mjs`: runs scenarios 1-5 and 8 against the real model with the real prompt and tracker. Tone and humour need a human read.
++
++### Voice checklist (needs a microphone; scenarios 6 and 7 can only be tested here)
++
++1. Say "I goes to school." -> teacher corrects, explains in Uzbek.
++2. Repeat it 3 times -> 2nd: stricter + reminds, 3rd: playful strict + asks you to repeat + extra exercise.
++3. Answer in Uzbek only -> teacher gives the English version and asks you to repeat in English.
++4. Say "Tushunmadim" after an explanation -> a NEW explanation in simple Uzbek, not the same words.
++5. Ask "difference between present perfect and past simple?" -> a clear analytical answer.
++6. Start talking while the teacher speaks -> she stops at once and reacts to you.
++7. Mispronounce "think" (say "sink") -> she logs it and models the word slowly; the Mistakes panel does not break.
++8. End, start again -> she greets you with your earlier mistake and level.
++
++## Not verified yet (be honest before launch)
++
++- **Nothing has been run against the real OpenAI voice API**: the build environment has no network. The request shapes follow the current Realtime GA docs (`/v1/realtime/client_secrets`, `/v1/realtime/calls`, data channel `oai-events`), but the first live run may reveal a rejected field (e.g. `reasoning`, `semantic_vad`, the transcription model). Admins see OpenAI's error text on the start screen to make this quick to fix. The three session knobs are env-configurable.
++- **Uzbek speech understanding quality is unknown.** OpenAI has not published a full language list for the realtime model. If Uzbek recognition is weak, the fallback is to rely on typed Uzbek help or a separate transcription step.
++- The front end was syntax-checked and the logic unit-tested, but `npm run build` / `npm run lint` were not run (dependencies could not be installed offline). Run them before merging.
++- A voice session cannot be force-closed from the server; the page ends it at the time limit and the server stops accepting tool calls 5 minutes after the limit. A student who tampers with the page could stay connected until the token's session limit.
++- Lessons whose connection never opened stay as `started` rows (harmless; not counted).
++- No entry point on Home / bottom tab yet: only the `/live-teacher` route. Decide: Home quick action, or a tab.
++- No admin view of Live Teacher usage yet.
+diff --git a/src/App.jsx b/src/App.jsx
+index da086b1..1da1a1f 100644
+--- a/src/App.jsx
++++ b/src/App.jsx
+@@ -66,6 +66,7 @@ const Developer = lazyPage(() => import('@/pages/Developer'));
+ const Taskboard = lazyPage(() => import('@/pages/Taskboard'));
+ const Coach = lazyPage(() => import('@/pages/Coach'));
+ const AnimationStudio = lazyPage(() => import('@/pages/AnimationStudio'));
++const LiveTeacher = lazyPage(() => import('@/pages/LiveTeacher'));
+ 
+ 
+ const AuthenticatedApp = () => {
+@@ -140,6 +141,7 @@ const AuthenticatedApp = () => {
+         <Route path="/onboarding" element={<Onboarding />} />
+         <Route path="/lesson/:lessonId" element={<LessonRunner />} />
+         <Route path="/coach" element={<Coach />} />
++        <Route path="/live-teacher" element={<LiveTeacher />} />
+         <Route path="/my-words" element={<MyWords />} />
+         <Route path="/vocab-review" element={<VocabReview />} />
+         <Route path="/teach-stress-test" element={<TeachStressTest />} />
+diff --git a/src/lib/liveTeacher/copy.js b/src/lib/liveTeacher/copy.js
+new file mode 100644
+index 0000000..f899231
+--- /dev/null
++++ b/src/lib/liveTeacher/copy.js
+@@ -0,0 +1,169 @@
++// Live Teacher screen copy (uz / ru / en). Kept next to the feature, like
++// deepModeCopy.js, so the shared translations file stays untouched.
++
++export const COPY = {
++  uz: {
++    title: 'Live Teacher',
++    subtitle: 'Jonli ovozli AI ingliz tili ustozi',
++    back: 'Orqaga',
++    mode: 'Rejim',
++    modes: {
++      normal: { name: 'Oddiy', desc: "Do'stona va qo'llab-quvvatlovchi ustoz." },
++      strict: { name: 'Qattiq', desc: "Talabchan ustoz: qat'iy tuzatish, hazil-mutoyiba, intizom." },
++      exam: { name: 'Imtihon', desc: "Haqiqiy imtihon oluvchi: javob aytilmaydi, oxirida baho." },
++    },
++    age: 'Yoshingiz',
++    ages: { kid: 'Bola', teen: "O'smir", adult: 'Kattalar' },
++    start: 'Darsni boshlash',
++    connecting: 'Ulanmoqda...',
++    level: 'Daraja',
++    levelUnknown: 'aniqlanmagan',
++    lessons: 'Darslar',
++    active: 'Faol xatolar',
++    mastered: "O'zlashtirilgan",
++    state: { connecting: 'Ulanmoqda', connected: 'Ulandi', listening: 'Eshityapti', thinking: "O'ylayapti", speaking: 'Gapiryapti', idle: 'Sizni kutyapti' },
++    mute: "Ovozni o'chirish",
++    unmute: "Ovozni yoqish",
++    end: 'Darsni tugatish',
++    ending: 'Yakunlanmoqda...',
++    you: 'Siz',
++    teacher: 'Ustoz',
++    mistakes: 'Xatolaringiz',
++    noMistakes: "Hozircha xato yo'q. Gapiring!",
++    status: { new: 'yangi', repeated: 'takror', relapse: 'qaytdi', active: 'faol', mastered: "o'zlashtirildi" },
++    times: 'marta',
++    timeLeft: 'Qolgan vaqt',
++    oneMinute: 'Bir daqiqa qoldi.',
++    recapTitle: 'Dars yakuni',
++    recapNew: 'Yangi xatolar',
++    recapRepeated: 'Takroriy xatolar',
++    recapMastered: "Endi o'zlashtirildi",
++    recapFocus: 'Keyingi darsda mashq qilamiz',
++    recapScores: 'Imtihon natijasi',
++    scoreNames: { grammar: 'Grammatika', vocabulary: "Lug'at", fluency: 'Ravonlik', pronunciation: 'Talaffuz' },
++    again: 'Yana bir dars',
++    home: 'Bosh sahifa',
++    errors: {
++      mic_denied: "Mikrofonga ruxsat berilmadi. Brauzer sozlamalaridan ruxsat bering va qayta urinib ko'ring.",
++      mic_missing: 'Mikrofon topilmadi.',
++      unsupported: "Bu brauzer ovozli darsni qo'llamaydi. Chrome yoki Safari'da oching (Telegram ichidagi brauzerda ishlamasligi mumkin).",
++      daily_allowance_exhausted: "Bugungi Live Teacher darslari tugadi. Ertaga qaytib keling yoki rejani yangilang.",
++      not_configured: "Live Teacher hali sozlanmagan. Administrator OpenAI kalitini qo'shishi kerak.",
++      account_banned: 'Hisobingiz bloklangan.',
++      secret_expired: "Ulanish vaqti o'tib ketdi. Qaytadan boshlang.",
++      closed: "Ulanish uzildi. Qaytadan boshlang.",
++      generic: "Xatolik yuz berdi. Qaytadan urinib ko'ring.",
++    },
++    privacy: "VIRORA ovozingizni ham, suhbat matnini ham saqlamaydi. Dars davomida ovoz OpenAI orqali qayta ishlanadi. Faqat daraja, xatolar va mashq natijalari saqlanadi.",
++  },
++  en: {
++    title: 'Live Teacher',
++    subtitle: 'Your live AI English teacher, by voice',
++    back: 'Back',
++    mode: 'Mode',
++    modes: {
++      normal: { name: 'Normal', desc: 'Friendly, supportive teaching.' },
++      strict: { name: 'Strict', desc: 'Demanding teacher: firm corrections, dry humor, discipline.' },
++      exam: { name: 'Exam', desc: 'A real examiner: no answers revealed, scored at the end.' },
++    },
++    age: 'Your age group',
++    ages: { kid: 'Child', teen: 'Teen', adult: 'Adult' },
++    start: 'Start lesson',
++    connecting: 'Connecting...',
++    level: 'Level',
++    levelUnknown: 'not set yet',
++    lessons: 'Lessons',
++    active: 'Active mistakes',
++    mastered: 'Mastered',
++    state: { connecting: 'Connecting', connected: 'Connected', listening: 'Listening', thinking: 'Thinking', speaking: 'Speaking', idle: 'Waiting for you' },
++    mute: 'Mute',
++    unmute: 'Unmute',
++    end: 'End lesson',
++    ending: 'Wrapping up...',
++    you: 'You',
++    teacher: 'Teacher',
++    mistakes: 'Your mistakes',
++    noMistakes: 'No mistakes yet. Start talking!',
++    status: { new: 'new', repeated: 'repeated', relapse: 'relapse', active: 'active', mastered: 'mastered' },
++    times: 'times',
++    timeLeft: 'Time left',
++    oneMinute: 'One minute left.',
++    recapTitle: 'Lesson recap',
++    recapNew: 'New mistakes',
++    recapRepeated: 'Repeated mistakes',
++    recapMastered: 'Newly mastered',
++    recapFocus: 'Next time we practise',
++    recapScores: 'Exam result',
++    scoreNames: { grammar: 'Grammar', vocabulary: 'Vocabulary', fluency: 'Fluency', pronunciation: 'Pronunciation' },
++    again: 'Another lesson',
++    home: 'Home',
++    errors: {
++      mic_denied: 'Microphone permission was denied. Allow it in your browser settings and try again.',
++      mic_missing: 'No microphone found.',
++      unsupported: 'This browser cannot do voice lessons. Open VIRORA in Chrome or Safari (in-app browsers such as Telegram may block the microphone).',
++      daily_allowance_exhausted: "You've used today's Live Teacher lessons. Come back tomorrow or upgrade your plan.",
++      not_configured: 'Live Teacher is not set up yet. An admin needs to add the OpenAI key.',
++      account_banned: 'Your account is blocked.',
++      secret_expired: 'The connection window expired. Start again.',
++      closed: 'The connection dropped. Start again.',
++      generic: 'Something went wrong. Please try again.',
++    },
++    privacy: 'VIRORA does not store your voice or the conversation text. During the lesson your audio is processed by OpenAI. Only your level, mistakes and practice results are kept.',
++  },
++  ru: {
++    title: 'Live Teacher',
++    subtitle: 'Живой голосовой AI-учитель английского',
++    back: 'Назад',
++    mode: 'Режим',
++    modes: {
++      normal: { name: 'Обычный', desc: 'Дружелюбный и поддерживающий учитель.' },
++      strict: { name: 'Строгий', desc: 'Требовательный учитель: жёсткие исправления, юмор, дисциплина.' },
++      exam: { name: 'Экзамен', desc: 'Настоящий экзаменатор: ответы не раскрываются, оценка в конце.' },
++    },
++    age: 'Возраст',
++    ages: { kid: 'Ребёнок', teen: 'Подросток', adult: 'Взрослый' },
++    start: 'Начать урок',
++    connecting: 'Подключение...',
++    level: 'Уровень',
++    levelUnknown: 'пока не определён',
++    lessons: 'Уроки',
++    active: 'Активные ошибки',
++    mastered: 'Освоено',
++    state: { connecting: 'Подключение', connected: 'Подключено', listening: 'Слушает', thinking: 'Думает', speaking: 'Говорит', idle: 'Ждёт вас' },
++    mute: 'Выключить микрофон',
++    unmute: 'Включить микрофон',
++    end: 'Завершить урок',
++    ending: 'Завершаем...',
++    you: 'Вы',
++    teacher: 'Учитель',
++    mistakes: 'Ваши ошибки',
++    noMistakes: 'Ошибок пока нет. Говорите!',
++    status: { new: 'новая', repeated: 'повтор', relapse: 'вернулась', active: 'активна', mastered: 'освоена' },
++    times: 'раз',
++    timeLeft: 'Осталось',
++    oneMinute: 'Осталась минута.',
++    recapTitle: 'Итоги урока',
++    recapNew: 'Новые ошибки',
++    recapRepeated: 'Повторные ошибки',
++    recapMastered: 'Освоено сейчас',
++    recapFocus: 'В следующий раз отработаем',
++    recapScores: 'Результат экзамена',
++    scoreNames: { grammar: 'Грамматика', vocabulary: 'Лексика', fluency: 'Беглость', pronunciation: 'Произношение' },
++    again: 'Ещё урок',
++    home: 'Главная',
++    errors: {
++      mic_denied: 'Нет доступа к микрофону. Разрешите его в настройках браузера и попробуйте снова.',
++      mic_missing: 'Микрофон не найден.',
++      unsupported: 'Этот браузер не поддерживает голосовые уроки. Откройте в Chrome или Safari (во встроенных браузерах, например Telegram, микрофон может быть закрыт).',
++      daily_allowance_exhausted: 'Уроки Live Teacher на сегодня закончились. Приходите завтра или обновите тариф.',
++      not_configured: 'Live Teacher ещё не настроен. Администратору нужно добавить ключ OpenAI.',
++      account_banned: 'Ваш аккаунт заблокирован.',
++      secret_expired: 'Время подключения истекло. Начните заново.',
++      closed: 'Соединение прервано. Начните заново.',
++      generic: 'Что-то пошло не так. Попробуйте ещё раз.',
++    },
++    privacy: 'VIRORA не хранит ваш голос и текст разговора. Во время урока звук обрабатывается OpenAI. Сохраняются только уровень, ошибки и результаты практики.',
++  },
++};
++
++export const copyFor = (lang) => COPY[lang] || COPY.uz;
+diff --git a/src/lib/liveTeacher/realtimeClient.js b/src/lib/liveTeacher/realtimeClient.js
+new file mode 100644
+index 0000000..b37f9db
+--- /dev/null
++++ b/src/lib/liveTeacher/realtimeClient.js
+@@ -0,0 +1,202 @@
++// Browser side of the Live Teacher voice link (OpenAI Realtime API over WebRTC).
++//
++// SECURITY: the browser never sees the permanent OpenAI key. It receives a
++// short-lived client secret minted by liveTeacherApi('start') and uses it for
++// exactly one WebRTC session. The teacher's instructions and tools are fixed
++// by the server inside that secret; the browser cannot change them.
++//
++// Flow: mic -> RTCPeerConnection -> OpenAI. The model's voice comes back on
++// the audio track; JSON events (transcripts, tool calls) travel on the
++// "oai-events" data channel. Tool calls are executed by OUR server
++// (runTool -> liveTeacherApi('tool')), because the server owns the mistake
++// counters; the result goes back to the model as function_call_output.
++//
++// Interruptions: the session uses server-side turn detection with
++// interrupt_response, so when the student starts talking OpenAI stops the
++// teacher's audio itself. We only mirror that in the UI.
++
++const CALLS_URL = 'https://api.openai.com/v1/realtime/calls';
++
++export class LiveError extends Error {
++  constructor(code, message) { super(message || code); this.code = code; }
++}
++
++/**
++ * @param {{ clientSecret: string, openingPrompt: string,
++ *           onEvent: (e: object) => void,
++ *           runTool: (call: {name: string, args: string, call_id: string}) => Promise<object> }} opts
++ */
++export function createRealtimeSession({ clientSecret, openingPrompt, onEvent, runTool }) {
++  let pc = null;
++  let dc = null;
++  let stream = null;
++  let audioEl = null;
++  let closed = false;
++
++  // tool-call bookkeeping: answer ALL tool calls of a response, then ask for ONE new response
++  let chain = Promise.resolve();
++  const seenCalls = new Set();
++  let pending = 0;
++  let hadCalls = false;
++  let responseDone = false;
++  let needsContinue = false;
++
++  const emit = (e) => { try { onEvent(e); } catch { /* UI errors must not break the link */ } };
++  const send = (obj) => { if (dc && dc.readyState === 'open') dc.send(JSON.stringify(obj)); };
++
++  function maybeContinue() {
++    if (needsContinue && responseDone && pending === 0) {
++      needsContinue = false;
++      send({ type: 'response.create' });
++    }
++  }
++
++  function handleCall(callId, name, args) {
++    if (!callId || seenCalls.has(callId)) return;
++    seenCalls.add(callId);
++    hadCalls = true;
++    pending += 1;
++    chain = chain.then(async () => {
++      let output;
++      try {
++        output = await runTool({ name, args, call_id: callId });
++      } catch {
++        output = { ok: false, error: 'tool_failed' };
++      }
++      send({ type: 'conversation.item.create', item: { type: 'function_call_output', call_id: callId, output: JSON.stringify(output ?? { ok: true }) } });
++      pending -= 1;
++      maybeContinue();
++    });
++  }
++
++  function onMessage(raw) {
++    let ev;
++    try { ev = JSON.parse(raw); } catch { return; }
++    switch (ev.type) {
++      case 'input_audio_buffer.speech_started':
++        emit({ type: 'state', state: 'listening' });
++        emit({ type: 'student_speaking' });
++        break;
++      case 'input_audio_buffer.speech_stopped':
++        emit({ type: 'state', state: 'thinking' });
++        break;
++      // two spellings across API versions
++      case 'conversation.item.added':
++      case 'conversation.item.created':
++        if (ev.item?.role === 'user') emit({ type: 'user_item', id: ev.item.id });
++        break;
++      case 'conversation.item.input_audio_transcription.completed':
++        emit({ type: 'user_transcript', id: ev.item_id, text: String(ev.transcript || '').trim() });
++        break;
++      case 'response.created':
++        responseDone = false;
++        hadCalls = false;
++        emit({ type: 'state', state: 'thinking' });
++        break;
++      case 'response.output_audio_transcript.delta':
++      case 'response.audio_transcript.delta':
++        emit({ type: 'assistant_delta', id: ev.item_id, delta: ev.delta || '' });
++        break;
++      case 'response.output_audio_transcript.done':
++      case 'response.audio_transcript.done':
++        emit({ type: 'assistant_done', id: ev.item_id, text: ev.transcript || '' });
++        break;
++      case 'output_audio_buffer.started':
++        emit({ type: 'state', state: 'speaking' });
++        break;
++      case 'output_audio_buffer.stopped':
++      case 'output_audio_buffer.cleared':
++        emit({ type: 'state', state: 'idle' });
++        emit({ type: 'audio_stopped' });
++        break;
++      case 'response.function_call_arguments.done':
++        handleCall(ev.call_id, ev.name, ev.arguments);
++        break;
++      case 'response.done':
++        responseDone = true;
++        if (hadCalls) needsContinue = true;
++        if (ev.response?.status === 'failed') {
++          emit({ type: 'error', code: 'response_failed', message: ev.response?.status_details?.error?.message || 'response_failed' });
++        }
++        maybeContinue();
++        break;
++      case 'error':
++        emit({ type: 'error', code: ev.error?.code || 'realtime_error', message: ev.error?.message || 'realtime_error' });
++        break;
++      default:
++        break;
++    }
++  }
++
++  async function start() {
++    if (!navigator.mediaDevices?.getUserMedia || typeof RTCPeerConnection === 'undefined') {
++      throw new LiveError('unsupported', 'This browser cannot do voice.');
++    }
++    emit({ type: 'state', state: 'connecting' });
++    try {
++      stream = await navigator.mediaDevices.getUserMedia({
++        audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
++      });
++    } catch (e) {
++      throw new LiveError(e?.name === 'NotFoundError' ? 'mic_missing' : 'mic_denied', e?.message);
++    }
++
++    pc = new RTCPeerConnection();
++    audioEl = new Audio();
++    audioEl.autoplay = true;
++    audioEl.playsInline = true;
++    pc.ontrack = (e) => { audioEl.srcObject = e.streams[0]; };
++    pc.onconnectionstatechange = () => {
++      if (closed) return;
++      // 'disconnected' is often a brief network blip that heals by itself: only react to a real loss.
++      if (['failed', 'closed'].includes(pc.connectionState)) {
++        emit({ type: 'closed', reason: pc.connectionState });
++      }
++    };
++    stream.getTracks().forEach((t) => pc.addTrack(t, stream));
++
++    dc = pc.createDataChannel('oai-events');
++    dc.onmessage = (e) => onMessage(e.data);
++    dc.onopen = () => {
++      emit({ type: 'state', state: 'connected' });
++      // The teacher speaks first.
++      send({ type: 'response.create', response: { instructions: openingPrompt } });
++    };
++
++    const offer = await pc.createOffer();
++    await pc.setLocalDescription(offer);
++    let res;
++    try {
++      res = await fetch(CALLS_URL, {
++        method: 'POST',
++        body: offer.sdp,
++        headers: { Authorization: `Bearer ${clientSecret}`, 'Content-Type': 'application/sdp' },
++      });
++    } catch {
++      throw new LiveError('connect_failed', 'Could not reach the voice service.');
++    }
++    if (!res.ok) throw new LiveError(res.status === 401 ? 'secret_expired' : 'connect_failed', `Voice service answered ${res.status}.`);
++    await pc.setRemoteDescription({ type: 'answer', sdp: await res.text() });
++  }
++
++  return {
++    start,
++    /** Ask the teacher to wrap up: she calls end_lesson, then says goodbye. */
++    requestEnd() {
++      send({
++        type: 'conversation.item.create',
++        item: { type: 'message', role: 'user', content: [{ type: 'input_text', text: '[The student pressed the End button. Wrap up now: call end_lesson, then say a very short goodbye.]' }] },
++      });
++      send({ type: 'response.create' });
++    },
++    setMuted(muted) { stream?.getAudioTracks().forEach((t) => { t.enabled = !muted; }); },
++    stop() {
++      closed = true;
++      try { dc?.close(); } catch { /* already closed */ }
++      try { stream?.getTracks().forEach((t) => t.stop()); } catch { /* already stopped */ }
++      try { pc?.close(); } catch { /* already closed */ }
++      if (audioEl) { audioEl.srcObject = null; audioEl = null; }
++      dc = null; pc = null; stream = null;
++    },
++  };
++}
+diff --git a/src/lib/serverApi.js b/src/lib/serverApi.js
+index 548d932..3d13042 100644
+--- a/src/lib/serverApi.js
++++ b/src/lib/serverApi.js
+@@ -48,6 +48,8 @@ export const progressApi = (action, payload) => call("progressApi", action, payl
+ export const coachApi = (action, payload) => call("coachApi", action, payload);
+ // Humo/Uzcard QR payments (2026-10-02): base44/functions/qrPayApi/entry.ts
+ export const qrPayApi = (action, payload) => call("qrPayApi", action, payload);
++// Live Teacher (AI English voice teacher): base44/functions/liveTeacherApi/entry.ts
++export const liveTeacherApi = (action, payload) => call("liveTeacherApi", action, payload);
+ 
+ // Internal Taskboard (admin only). base44/functions/taskboardApi/entry.ts
+ export const taskboardApi = async (action, payload = {}, actor = "tee") => {
+diff --git a/src/pages/LiveTeacher.jsx b/src/pages/LiveTeacher.jsx
+new file mode 100644
+index 0000000..eaa3988
+--- /dev/null
++++ b/src/pages/LiveTeacher.jsx
+@@ -0,0 +1,409 @@
++import React, { useCallback, useEffect, useRef, useState } from "react";
++import { useNavigate } from "react-router-dom";
++import { motion } from "framer-motion";
++import { ArrowLeft, Mic, MicOff, PhoneOff, Loader2, GraduationCap, Flame, Smile, Clock } from "lucide-react";
++import { Button } from "@/components/ui/button";
++import { useAppLang } from "@/hooks/useAppLang";
++import { liveTeacherApi } from "@/lib/serverApi";
++import { createRealtimeSession } from "@/lib/liveTeacher/realtimeClient";
++import { copyFor } from "@/lib/liveTeacher/copy";
++
++// Live Teacher: a real-time VOICE lesson with the AI English teacher.
++// Architecture and security notes: docs/live-teacher.md.
++//   server  base44/functions/liveTeacherApi (mints the short-lived voice token,
++//           owns the mistake counters and the student's memory)
++//   voice   src/lib/liveTeacher/realtimeClient.js (WebRTC straight to OpenAI)
++
++const MODE_ICON = { normal: Smile, strict: Flame, exam: GraduationCap };
++const STATE_DOT = { listening: "bg-emerald-400", speaking: "bg-sky-400", thinking: "bg-amber-400", idle: "bg-white/40", connected: "bg-white/40", connecting: "bg-amber-400" };
++
++const fmt = (s) => `${Math.floor(Math.max(0, s) / 60)}:${String(Math.max(0, s) % 60).padStart(2, "0")}`;
++
++function upsert(list, id, role, text) {
++  if (!text) return list;
++  const i = list.findIndex((m) => m.id === id);
++  if (i === -1) return [...list, { id, role, text }];
++  const next = list.slice();
++  next[i] = { ...next[i], role, text };
++  return next;
++}
++
++function Orb({ state }) {
++  const active = state === "speaking" || state === "listening";
++  return (
++    <motion.div
++      aria-hidden="true"
++      className="mx-auto rounded-full"
++      style={{
++        width: 112, height: 112,
++        background: "radial-gradient(circle at 30% 30%, #fff8, hsl(var(--primary)) 45%, #0006)",
++        boxShadow: "0 0 40px hsl(var(--primary) / 0.45)",
++      }}
++      animate={{ scale: active ? [1, 1.12, 1] : [1, 1.04, 1] }}
++      transition={{ duration: active ? 1.1 : 3, repeat: Infinity, ease: "easeInOut" }}
++    />
++  );
++}
++
++function MistakeList({ mistakes, c, lang }) {
++  const top = (mistakes || []).slice(0, 6);
++  if (!top.length) return <p className="text-sm text-muted-foreground">{c.noMistakes}</p>;
++  return (
++    <ul className="space-y-2">
++      {top.map((m) => {
++        const status = m.status === "mastered" ? "mastered" : m.count > 1 ? "repeated" : "new";
++        const tone = status === "mastered" ? "bg-emerald-500/15 text-emerald-300" : status === "repeated" ? "bg-rose-500/15 text-rose-300" : "bg-amber-500/15 text-amber-300";
++        return (
++          <li key={m.key} className="rounded-xl border border-border p-3 text-sm">
++            <div className="flex items-center justify-between gap-2">
++              <span className="font-semibold">{(m.label && (m.label[lang] || m.label.en)) || m.rule}</span>
++              <span className={`text-[11px] rounded-full px-2 py-0.5 ${tone}`}>{c.status[status]} · {m.count}× </span>
++            </div>
++            {m.wrong ? <p className="mt-1 text-muted-foreground"><span className="line-through">{m.wrong}</span> → <span className="text-foreground">{m.correct}</span></p> : null}
++          </li>
++        );
++      })}
++    </ul>
++  );
++}
++
++export default function LiveTeacher() {
++  const navigate = useNavigate();
++  const { lang } = useAppLang();
++  const c = copyFor(lang);
++
++  const [phase, setPhase] = useState("setup"); // setup | connecting | live | ending | recap
++  const [profile, setProfile] = useState(null);
++  const [mode, setMode] = useState("strict");
++  const [age, setAge] = useState("adult");
++  const [error, setError] = useState("");
++  const [errorDetail, setErrorDetail] = useState(""); // admins only: OpenAI's own wording
++  const [agentState, setAgentState] = useState("connecting");
++  const [transcript, setTranscript] = useState([]);
++  const [muted, setMuted] = useState(false);
++  const [secondsLeft, setSecondsLeft] = useState(0);
++  const [recap, setRecap] = useState(null);
++
++  const sessionRef = useRef(null);
++  const lessonRef = useRef(null); // { id, deadline }
++  const phaseRef = useRef("setup");
++  const endedRef = useRef(false);
++  const goodbyeRef = useRef(false);
++  const fallbackRef = useRef(null);
++  const scrollRef = useRef(null);
++
++  const go = (p) => { phaseRef.current = p; setPhase(p); };
++
++  // load the student's profile (level, mistakes) and last choices
++  useEffect(() => {
++    let alive = true;
++    liveTeacherApi("profile")
++      .then((r) => {
++        if (!alive) return;
++        setProfile(r.profile);
++        if (r.profile?.mode) setMode(r.profile.mode);
++        if (r.profile?.age_group) setAge(r.profile.age_group);
++      })
++      .catch(() => {});
++    return () => { alive = false; };
++  }, []);
++
++  // leaving the page always closes the microphone and the voice link
++  useEffect(() => () => {
++    clearTimeout(fallbackRef.current);
++    sessionRef.current?.stop();
++  }, []);
++
++  useEffect(() => { scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" }); }, [transcript]);
++
++  const finish = useCallback(async () => {
++    if (endedRef.current) return;
++    endedRef.current = true;
++    clearTimeout(fallbackRef.current);
++    sessionRef.current?.stop();
++    sessionRef.current = null;
++    try {
++      const r = await liveTeacherApi("end", { lesson_id: lessonRef.current?.id });
++      setRecap(r.recap);
++      // refresh level / counters for the next lesson
++      liveTeacherApi("profile").then((p) => setProfile(p.profile)).catch(() => {});
++    } catch {
++      setRecap(null);
++    }
++    go("recap");
++  }, []);
++
++  const askToEnd = useCallback(() => {
++    if (phaseRef.current !== "live") return;
++    go("ending");
++    sessionRef.current?.requestEnd();
++    // if the teacher never answers, close the lesson ourselves
++    clearTimeout(fallbackRef.current);
++    fallbackRef.current = setTimeout(finish, 20000);
++  }, [finish]);
++
++  // lesson clock
++  useEffect(() => {
++    if (phase !== "live") return undefined;
++    const tick = () => {
++      const left = Math.round((lessonRef.current.deadline - Date.now()) / 1000);
++      setSecondsLeft(left);
++      if (left <= 0) askToEnd();
++    };
++    tick();
++    const id = setInterval(tick, 1000);
++    return () => clearInterval(id);
++  }, [phase, askToEnd]);
++
++  const runTool = useCallback(async ({ name, args }) => {
++    try {
++      const r = await liveTeacherApi("tool", { lesson_id: lessonRef.current?.id, name, args });
++      if (r.profile) setProfile(r.profile);
++      if (name === "end_lesson") {
++        // the teacher is saying goodbye: close once she stops talking (or after 15 s)
++        goodbyeRef.current = true;
++        clearTimeout(fallbackRef.current);
++        fallbackRef.current = setTimeout(finish, 15000);
++      }
++      return r.output;
++    } catch (e) {
++      return { ok: false, error: e?.code || "tool_failed" };
++    }
++  }, [finish]);
++
++  const onEvent = useCallback((e) => {
++    switch (e.type) {
++      case "state": setAgentState(e.state); break;
++      case "user_transcript": setTranscript((t) => upsert(t, e.id, "user", e.text)); break;
++      case "assistant_delta":
++        setTranscript((t) => {
++          const i = t.findIndex((m) => m.id === e.id);
++          if (i === -1) return [...t, { id: e.id, role: "assistant", text: e.delta }];
++          const next = t.slice();
++          next[i] = { ...next[i], text: next[i].text + e.delta };
++          return next;
++        });
++        break;
++      case "assistant_done": setTranscript((t) => upsert(t, e.id, "assistant", e.text)); break;
++      case "audio_stopped":
++        if (goodbyeRef.current) { clearTimeout(fallbackRef.current); fallbackRef.current = setTimeout(finish, 800); }
++        break;
++      case "error":
++        // the voice service reported a problem mid-lesson; keep going unless it is fatal
++        if (e.code === "session_expired" || e.code === "response_failed") setError("generic");
++        break;
++      case "closed":
++        if (phaseRef.current === "live" || phaseRef.current === "ending") { setError("closed"); finish(); }
++        break;
++      default: break;
++    }
++  }, [finish]);
++
++  const start = async () => {
++    setError("");
++    setErrorDetail("");
++    setTranscript([]);
++    setRecap(null);
++    endedRef.current = false;
++    goodbyeRef.current = false;
++    go("connecting");
++    setAgentState("connecting");
++    let session = null;
++    try {
++      const r = await liveTeacherApi("start", { mode, age_group: age, lang });
++      lessonRef.current = { id: r.lesson_id, deadline: Date.now() + r.max_minutes * 60000 };
++      setProfile(r.profile);
++      session = createRealtimeSession({ clientSecret: r.client_secret, openingPrompt: r.opening_prompt, onEvent, runTool });
++      sessionRef.current = session;
++      await session.start();
++      go("live");
++    } catch (e) {
++      session?.stop();
++      sessionRef.current = null;
++      lessonRef.current = null;
++      setError(c.errors[e?.code] ? e.code : "generic");
++      // the server only puts OpenAI's wording in the message for admins
++      setErrorDetail(String(e?.message || "").startsWith("OpenAI said") ? e.message : "");
++      go("setup");
++    }
++  };
++
++  const toggleMute = () => {
++    const next = !muted;
++    setMuted(next);
++    sessionRef.current?.setMuted(next);
++  };
++
++  const live = phase === "live" || phase === "ending";
++
++  return (
++    <div className="min-h-screen bg-background text-foreground flex flex-col" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
++      <header className="flex items-center gap-2 px-3 py-3 border-b border-border">
++        <Button variant="ghost" size="icon" onClick={() => navigate(-1)} aria-label={c.back} disabled={live}>
++          <ArrowLeft className="w-5 h-5" />
++        </Button>
++        <div>
++          <h1 className="text-base font-bold leading-tight">{c.title}</h1>
++          <p className="text-xs text-muted-foreground leading-tight">{c.subtitle}</p>
++        </div>
++      </header>
++
++      <main className="flex-1 w-full max-w-2xl mx-auto px-4 py-5 space-y-5">
++        {error ? (
++          <div role="alert" className="rounded-xl border border-rose-500/40 bg-rose-500/10 p-3 text-sm">
++            {c.errors[error] || c.errors.generic}
++            {errorDetail ? <p className="mt-1 text-xs text-muted-foreground break-words">{errorDetail}</p> : null}
++          </div>
++        ) : null}
++
++        {(phase === "setup" || phase === "connecting") && (
++          <>
++            <section className="grid grid-cols-3 gap-2 text-center">
++              {[
++                [c.level, profile?.cefr_level || c.levelUnknown],
++                [c.lessons, profile?.lesson_count ?? 0],
++                [c.mastered, profile?.mastered ?? 0],
++              ].map(([label, value]) => (
++                <div key={label} className="rounded-xl border border-border p-3">
++                  <div className="text-lg font-bold">{value}</div>
++                  <div className="text-[11px] text-muted-foreground">{label}</div>
++                </div>
++              ))}
++            </section>
++
++            <section>
++              <h2 className="text-sm font-bold uppercase tracking-wider mb-2">{c.mode}</h2>
++              <div className="space-y-2">
++                {["normal", "strict", "exam"].map((m) => {
++                  const Icon = MODE_ICON[m];
++                  const on = mode === m;
++                  return (
++                    <button
++                      key={m}
++                      type="button"
++                      onClick={() => setMode(m)}
++                      disabled={phase === "connecting"}
++                      className={`w-full text-left rounded-xl border p-3 flex gap-3 items-start transition-colors ${on ? "border-primary bg-primary/10" : "border-border hover:border-foreground/30"}`}
++                    >
++                      <Icon className="w-5 h-5 mt-0.5 shrink-0" />
++                      <span>
++                        <span className="block font-semibold">{c.modes[m].name}</span>
++                        <span className="block text-sm text-muted-foreground">{c.modes[m].desc}</span>
++                      </span>
++                    </button>
++                  );
++                })}
++              </div>
++            </section>
++
++            <section>
++              <h2 className="text-sm font-bold uppercase tracking-wider mb-2">{c.age}</h2>
++              <div className="flex gap-2">
++                {["kid", "teen", "adult"].map((a) => (
++                  <button
++                    key={a}
++                    type="button"
++                    onClick={() => setAge(a)}
++                    disabled={phase === "connecting"}
++                    className={`flex-1 rounded-xl border py-2 text-sm font-medium ${age === a ? "border-primary bg-primary/10" : "border-border"}`}
++                  >
++                    {c.ages[a]}
++                  </button>
++                ))}
++              </div>
++            </section>
++
++            {profile?.mistakes?.length ? (
++              <section>
++                <h2 className="text-sm font-bold uppercase tracking-wider mb-2">{c.mistakes}</h2>
++                <MistakeList mistakes={profile.mistakes} c={c} lang={lang} />
++              </section>
++            ) : null}
++
++            <Button className="w-full h-12 text-base font-semibold" onClick={start} disabled={phase === "connecting"}>
++              {phase === "connecting" ? <><Loader2 className="w-4 h-4 mr-2 animate-spin" />{c.connecting}</> : <><Mic className="w-4 h-4 mr-2" />{c.start}</>}
++            </Button>
++            <p className="text-xs text-muted-foreground text-center">{c.privacy}</p>
++          </>
++        )}
++
++        {live && (
++          <>
++            <div className="text-center space-y-3">
++              <Orb state={agentState} />
++              <div className="flex items-center justify-center gap-2 text-sm">
++                <span className={`w-2 h-2 rounded-full ${STATE_DOT[agentState] || "bg-white/40"}`} />
++                <span>{phase === "ending" ? c.ending : c.state[agentState] || ""}</span>
++                <span className="text-muted-foreground flex items-center gap-1 ml-3"><Clock className="w-3.5 h-3.5" />{fmt(secondsLeft)}</span>
++              </div>
++              {secondsLeft > 0 && secondsLeft <= 60 ? <p className="text-xs text-amber-300">{c.oneMinute}</p> : null}
++            </div>
++
++            <div ref={scrollRef} className="rounded-xl border border-border p-3 h-56 overflow-y-auto space-y-2 text-sm" aria-live="polite">
++              {transcript.map((m) => (
++                <p key={m.id} className={m.role === "user" ? "text-right" : ""}>
++                  <span className="text-[11px] text-muted-foreground mr-1">{m.role === "user" ? c.you : c.teacher}</span>
++                  <span>{m.text}</span>
++                </p>
++              ))}
++            </div>
++
++            <section>
++              <h2 className="text-sm font-bold uppercase tracking-wider mb-2">{c.mistakes}</h2>
++              <MistakeList mistakes={profile?.mistakes} c={c} lang={lang} />
++            </section>
++
++            <div className="flex gap-2">
++              <Button variant="outline" className="flex-1 h-12" onClick={toggleMute} disabled={phase === "ending"}>
++                {muted ? <><MicOff className="w-4 h-4 mr-2" />{c.unmute}</> : <><Mic className="w-4 h-4 mr-2" />{c.mute}</>}
++              </Button>
++              <Button variant="destructive" className="flex-1 h-12" onClick={askToEnd} disabled={phase === "ending"}>
++                {phase === "ending" ? <><Loader2 className="w-4 h-4 mr-2 animate-spin" />{c.ending}</> : <><PhoneOff className="w-4 h-4 mr-2" />{c.end}</>}
++              </Button>
++            </div>
++          </>
++        )}
++
++        {phase === "recap" && (
++          <section className="space-y-4">
++            <h2 className="text-xl font-bold">{c.recapTitle}</h2>
++            {recap?.summary ? <p className="text-sm">{recap.summary}</p> : null}
++            <div className="grid grid-cols-3 gap-2 text-center">
++              {[
++                [c.recapNew, recap?.new_mistakes ?? 0],
++                [c.recapRepeated, recap?.repeated_mistakes ?? 0],
++                [c.recapMastered, recap?.mastered_now ?? 0],
++              ].map(([label, value]) => (
++                <div key={label} className="rounded-xl border border-border p-3">
++                  <div className="text-lg font-bold">{value}</div>
++                  <div className="text-[11px] text-muted-foreground">{label}</div>
++                </div>
++              ))}
++            </div>
++            {recap?.cefr_level ? <p className="text-sm">{c.level}: <b>{recap.cefr_level}</b></p> : null}
++            {recap?.scores ? (
++              <div>
++                <h3 className="text-sm font-bold uppercase tracking-wider mb-2">{c.recapScores}</h3>
++                <ul className="grid grid-cols-2 gap-2 text-sm">
++                  {Object.keys(c.scoreNames).map((k) => (
++                    <li key={k} className="rounded-xl border border-border p-2 flex justify-between"><span>{c.scoreNames[k]}</span><b>{recap.scores[k] ?? "-"}</b></li>
++                  ))}
++                </ul>
++              </div>
++            ) : null}
++            {recap?.focus_next?.length ? (
++              <div>
++                <h3 className="text-sm font-bold uppercase tracking-wider mb-2">{c.recapFocus}</h3>
++                <ul className="list-disc pl-5 text-sm space-y-1">{recap.focus_next.map((f) => <li key={f}>{f}</li>)}</ul>
++              </div>
++            ) : null}
++            <div className="flex gap-2">
++              <Button className="flex-1 h-12" onClick={() => { go("setup"); setError(""); }}>{c.again}</Button>
++              <Button variant="outline" className="flex-1 h-12" onClick={() => navigate("/")}>{c.home}</Button>
++            </div>
++          </section>
++        )}
++      </main>
++    </div>
++  );
++}
+diff --git a/tools/live-teacher-tests/core.test.mjs b/tools/live-teacher-tests/core.test.mjs
+new file mode 100644
+index 0000000..d41ee6c
+--- /dev/null
++++ b/tools/live-teacher-tests/core.test.mjs
+@@ -0,0 +1,249 @@
++// Live Teacher core + prompt tests (mistake tracker, tone ladder, memory).
++// Run: node --test tools/live-teacher-tests/      (also works with: deno test -A)
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import {
++  emptyProfile, applyMistake, applyCorrectUse, applyLevelEstimate, applyPronunciation, applyVocabulary,
++  finishLesson, memorySummary, publicProfileView, mistakeStats, mistakeKey, RULES, MASTERY_STREAK,
++} from '../../base44/shared/liveTeacherCore.js';
++import { buildInstructions, buildSessionConfig, TOOLS } from '../../base44/shared/liveTeacherPrompt.js';
++
++const T0 = Date.parse('2026-11-17T09:00:00Z');
++const igoes = {
++  rule: 'grammar.subject_verb_agreement', variant: 'i_goes',
++  wrong: 'I goes to school.', correct: 'I go to school.',
++  explanation_uz: "'I' bilan 'go' ishlatiladi, 'goes' emas.",
++};
++const hedont = {
++  rule: 'grammar.subject_verb_agreement', variant: 'he_dont',
++  wrong: "He don't like tea.", correct: "He doesn't like tea.", explanation_uz: "'He' bilan 'doesn't' ishlatiladi.",
++};
++const IGOES_KEY = mistakeKey('grammar.subject_verb_agreement', 'i_goes');
++const mistake = (p, report, ctx = {}) => applyMistake(p, report, { lessonId: 'L1', mode: 'strict', ageGroup: 'adult', now: T0, ...ctx });
++
++test('1. a simple first mistake is NEW: patient, explain in Uzbek', () => {
++  const { profile, result } = mistake(emptyProfile('a@b.c'), igoes);
++  assert.equal(result.status, 'new');
++  assert.equal(result.level, 1);
++  assert.equal(result.tone, 'patient');
++  assert.match(result.directive, /patient/i);
++  assert.match(result.directive, /Uzbek/);
++  assert.equal(profile.mistakes[IGOES_KEY].total_count, 1);
++});
++
++test('2. the same mistake 3 times in one lesson climbs patient -> stricter -> playful strict + drill', () => {
++  let p = emptyProfile('a@b.c');
++  const seen = [];
++  for (let i = 0; i < 4; i++) {
++    const r = mistake(p, igoes);
++    p = r.profile;
++    seen.push(r.result);
++  }
++  assert.deepEqual(seen.map((r) => r.status), ['new', 'repeated', 'repeated', 'repeated']);
++  assert.deepEqual(seen.map((r) => r.level), [1, 2, 3, 4]);
++  assert.deepEqual(seen.map((r) => r.tone), ['patient', 'stricter', 'playful_strict', 'playful_strict_drill']);
++  assert.equal(seen[1].needs_drill, false);
++  assert.equal(seen[2].needs_drill, true);
++  // 2nd: reminds of the earlier explanation; 3rd: sarcasm + repeat + extra exercise
++  assert.match(seen[1].directive, /already (explained|covered)/i);
++  assert.ok(seen[1].directive.includes("'I' bilan 'go'"), 'quotes the earlier Uzbek explanation');
++  assert.match(seen[2].directive, /sarcasm/i);
++  assert.match(seen[2].directive, /repeat/i);
++  assert.match(seen[2].directive, /extra exercise/i);
++  assert.equal(seen[3].total_count, 4);
++});
++
++test('0. keys never contain a dot (they are database field names)', () => {
++  assert.equal(IGOES_KEY, 'grammar_subject_verb_agreement__i_goes');
++  for (const r of RULES) assert.equal(mistakeKey(r, 'x.y z').includes('.'), false);
++});
++
++test('3. different mistakes are NOT counted as the same mistake', () => {
++  let p = emptyProfile('a@b.c');
++  p = mistake(p, igoes).profile;
++  const r = mistake(p, hedont);
++  assert.equal(r.result.status, 'new', 'he_dont is a different mistake from i_goes');
++  assert.equal(r.result.level, 1);
++  assert.equal(Object.keys(r.profile.mistakes).length, 2);
++  // and a different rule with a similar word is also separate
++  const r2 = mistake(r.profile, { rule: 'grammar.past_simple', variant: 'goed', wrong: 'I goed home.', correct: 'I went home.' });
++  assert.equal(r2.result.status, 'new');
++  assert.equal(Object.keys(r2.profile.mistakes).length, 3);
++});
++
++test('3b. the same wrong sentence under a drifting variant name is still the same mistake', () => {
++  let p = mistake(emptyProfile('a@b.c'), igoes).profile;
++  const r = mistake(p, { ...igoes, variant: 'first_person_with_s', wrong: 'i goes to school' });
++  assert.equal(r.result.status, 'repeated');
++  assert.equal(Object.keys(r.profile.mistakes).length, 1);
++});
++
++test('4. a mistake from an earlier lesson is already REPEATED (level 2) with the old explanation', () => {
++  let p = mistake(emptyProfile('a@b.c'), igoes, { lessonId: 'L1' }).profile;
++  const r = mistake(p, igoes, { lessonId: 'L2', now: T0 + 86400000 });
++  assert.equal(r.result.status, 'repeated');
++  assert.equal(r.result.level, 2);
++  assert.equal(r.result.previous_explanation_uz, igoes.explanation_uz);
++  // and it keeps climbing inside the new lesson
++  const r3 = mistake(r.profile, igoes, { lessonId: 'L2', now: T0 + 86400000 + 1000 });
++  assert.equal(r3.result.level, 3);
++});
++
++test('5. mastery: 3 correct uses in a row; a new mistake resets the streak; coming back is a RELAPSE', () => {
++  let p = mistake(emptyProfile('a@b.c'), igoes).profile;
++  let r = applyCorrectUse(p, igoes);
++  assert.equal(r.result.status, 'improving');
++  assert.equal(r.result.correct_streak, 1);
++  // a mistake in between resets the streak
++  p = mistake(r.profile, igoes).profile;
++  assert.equal(p.mistakes[IGOES_KEY].correct_streak, 0);
++  for (let i = 1; i <= MASTERY_STREAK; i++) {
++    r = applyCorrectUse(p, igoes);
++    p = r.profile;
++  }
++  assert.equal(r.result.status, 'mastered');
++  assert.equal(p.mistakes[IGOES_KEY].status, 'mastered');
++  assert.deepEqual(mistakeStats(p), { active: 0, mastered: 1 });
++  // mastered mistakes are not nagged about any more
++  assert.equal(applyCorrectUse(p, igoes).result.status, 'already_mastered');
++  // ...but if it comes back, that is a relapse, distinguished from new/repeated
++  const back = mistake(p, igoes, { lessonId: 'L9' });
++  assert.equal(back.result.status, 'relapse');
++  assert.match(back.result.directive, /MASTERED/);
++  assert.equal(back.profile.mistakes[IGOES_KEY].relapses, 1);
++  assert.equal(back.profile.mistakes[IGOES_KEY].status, 'active');
++  // correct use of something never mistaken is ignored, not invented
++  assert.equal(applyCorrectUse(emptyProfile('x'), igoes).result.status, 'untracked');
++});
++
++test('6. modes: normal never sarcastic, exam stays silent, children never get sarcasm', () => {
++  let p = emptyProfile('a@b.c');
++  const normal = [];
++  for (let i = 0; i < 3; i++) { const r = mistake(p, igoes, { mode: 'normal' }); p = r.profile; normal.push(r.result); }
++  assert.deepEqual(normal.map((r) => r.tone), ['patient', 'patient_firm', 'encouraging_drill']);
++  assert.match(normal[2].directive, /NO sarcasm/);
++
++  const exam = mistake(emptyProfile('a@b.c'), igoes, { mode: 'exam' }).result;
++  assert.equal(exam.tone, 'examiner');
++  assert.match(exam.directive, /do NOT correct/i);
++  assert.equal(exam.needs_drill, false);
++
++  let k = emptyProfile('a@b.c');
++  let last;
++  for (let i = 0; i < 3; i++) { const r = mistake(k, igoes, { ageGroup: 'kid' }); k = r.profile; last = r.result; }
++  assert.equal(last.tone, 'playful_gentle');
++  assert.match(last.directive, /NO sarcasm/);
++});
++
++test('7. level estimate is smoothed and validated', () => {
++  let p = emptyProfile('a@b.c');
++  for (const cefr of ['A2', 'A2', 'B1']) p = applyLevelEstimate(p, { cefr, confidence: 0.7 }, { now: T0 }).profile;
++  assert.equal(p.cefr_level, 'A2', 'one optimistic estimate does not move the level');
++  for (const cefr of ['B1', 'B1']) p = applyLevelEstimate(p, { cefr }, { now: T0 }).profile;
++  assert.equal(p.cefr_level, 'B1');
++  const bad = applyLevelEstimate(p, { cefr: 'Z9' });
++  assert.equal(bad.result.ok, false);
++  assert.equal(bad.profile.cefr_level, 'B1');
++});
++
++test('8. pronunciation + vocabulary memory', () => {
++  let p = emptyProfile('a@b.c');
++  let r = applyPronunciation(p, { word: 'Think', issue: 'th pronounced as s', tip_uz: "Tilni tishlar orasiga qo'ying" });
++  assert.equal(r.result.status, 'new');
++  r = applyPronunciation(r.profile, { word: 'think', issue: 'th pronounced as s' });
++  assert.equal(r.result.status, 'repeated');
++  assert.equal(r.result.count, 2);
++  assert.match(r.result.directive, /three times/);
++  p = r.profile;
++  let v = applyVocabulary(p, { word: 'borrow', outcome: 'struggled', meaning_uz: 'qarz olmoq' });
++  v = applyVocabulary(v.profile, { word: 'borrow', outcome: 'used_well' });
++  assert.equal(v.profile.vocabulary.borrow.learned, false);
++  v = applyVocabulary(v.profile, { word: 'borrow', outcome: 'used_well' });
++  assert.equal(v.profile.vocabulary.borrow.learned, true);
++  assert.equal(applyVocabulary(p, { word: '', outcome: 'learned' }).result.ok, false);
++});
++
++test('9. returning student: memory summary carries level, exact mistake keys, last lesson', () => {
++  assert.match(memorySummary(emptyProfile('a@b.c')), /FIRST LESSON/);
++  let p = mistake(emptyProfile('a@b.c'), igoes).profile;
++  p = applyLevelEstimate(p, { cefr: 'A2' }).profile;
++  p = applyPronunciation(p, { word: 'think', issue: 'th as s' }).profile;
++  p = finishLesson(p, { mode: 'strict', summary: 'Present Simple practice.', focusNext: ['he/she + s'], now: T0 });
++  const s = memorySummary(p, { now: T0 + 2 * 86400000 });
++  assert.match(s, /Level estimate: A2/);
++  assert.match(s, /Lessons so far: 1/);
++  assert.match(s, /2 day\(s\) ago/);
++  assert.match(s, /rule=grammar\.subject_verb_agreement variant=i_goes/);
++  assert.match(s, /think/);
++  assert.match(s, /he\/she \+ s/);
++});
++
++test('10. finishLesson keeps progress; exam scores are stored only for exam mode', () => {
++  let p = applyLevelEstimate(emptyProfile('a@b.c'), { cefr: 'B1' }).profile;
++  const scores = { grammar: 71, vocabulary: 64.4, fluency: 58, pronunciation: 80, cefr: 'B1' };
++  const normal = finishLesson(p, { mode: 'strict', summary: 's', scores, now: T0 });
++  assert.equal(normal.test_results.length, 0);
++  assert.equal(normal.lesson_count, 1);
++  const exam = finishLesson(p, { mode: 'exam', summary: 's', scores, now: T0 });
++  assert.equal(exam.test_results.length, 1);
++  assert.equal(exam.test_results[0].vocabulary, 64);
++  assert.equal(exam.progress.length, 1);
++});
++
++test('11. the mistake map is capped and keeps active mistakes over mastered ones', () => {
++  let p = emptyProfile('a@b.c');
++  for (let i = 0; i < 205; i++) {
++    p = applyMistake(p, { rule: 'other.general', variant: `v${i}`, wrong: `w${i}`, correct: `c${i}` }, { lessonId: 'L', now: T0 + i * 1000 }).profile;
++    if (i < 50) p.mistakes[mistakeKey('other.general', `v${i}`)].status = 'mastered';
++  }
++  assert.ok(Object.keys(p.mistakes).length <= 200);
++  assert.ok(p.mistakes[mistakeKey('other.general', 'v204')], 'newest survives');
++  assert.equal(p.mistakes[mistakeKey('other.general', 'v0')], undefined, 'oldest mastered one is evicted first');
++});
++
++test('12. what the browser sees contains no internal lesson ids', () => {
++  const p = mistake(emptyProfile('a@b.c'), igoes).profile;
++  const view = publicProfileView(p);
++  assert.equal(view.mistakes[0].key, IGOES_KEY);
++  assert.ok(view.mistakes[0].label.uz);
++  assert.equal(JSON.stringify(view).includes('last_lesson_id'), false);
++});
++
++// ---------------- prompt + session ----------------
++test('prompt: personality, modes, memory, safety and tool protocol are all present', () => {
++  const strict = buildInstructions({ mode: 'strict', ageGroup: 'adult', uiLang: 'uz', studentName: 'Doniyor Pulatov', memory: 'MEMORY-LINE' });
++  assert.match(strict, /Strict and demanding/);
++  assert.match(strict, /Yana shu xatomi/);
++  assert.match(strict, /NEVER abusive, threatening, discriminatory or humiliating/);
++  assert.match(strict, /MODE: STRICT/);
++  assert.match(strict, /MEMORY-LINE/);
++  assert.match(strict, /first name is Doniyor\./);
++  assert.ok(!strict.includes('Pulatov'), 'only the first name goes to the model');
++  assert.match(strict, /FIRST call log_mistake/);
++  assert.match(strict, /I don't understand/);
++  assert.match(strict, /language\.used_uzbek_instead_of_english/);
++  assert.match(buildInstructions({ mode: 'exam', ageGroup: 'adult' }), /NEVER reveal answers/);
++  assert.match(buildInstructions({ mode: 'normal', ageGroup: 'adult' }), /MODE: NORMAL/);
++  assert.match(buildInstructions({ mode: 'strict', ageGroup: 'kid' }), /NO sarcasm at all/);
++  // junk input falls back safely
++  assert.match(buildInstructions({ mode: 'hax', ageGroup: 'zzz' }), /MODE: STRICT/);
++});
++
++test('session config: GA realtime shape, tools, semantic VAD with interruption, no language lock', () => {
++  const cfg = buildSessionConfig({ instructions: 'X', env: {} });
++  assert.equal(cfg.type, 'realtime');
++  assert.equal(cfg.model, 'gpt-realtime-2');
++  assert.equal(cfg.audio.output.voice, 'marin');
++  assert.equal(cfg.audio.input.turn_detection.interrupt_response, true);
++  assert.equal(cfg.audio.input.turn_detection.type, 'semantic_vad');
++  assert.equal('language' in cfg.audio.input.transcription, false);
++  assert.deepEqual(cfg.reasoning, { effort: 'low' });
++  const names = cfg.tools.map((t) => t.name);
++  assert.deepEqual(names.sort(), ['end_lesson', 'log_correct_use', 'log_mistake', 'log_pronunciation', 'log_vocabulary', 'set_level_estimate']);
++  const lm = TOOLS.find((t) => t.name === 'log_mistake');
++  assert.deepEqual(lm.parameters.properties.rule.enum, RULES);
++  const custom = buildSessionConfig({ instructions: 'X', env: { LIVE_TEACHER_MODEL: 'gpt-realtime-mini', LIVE_TEACHER_VOICE: 'cedar', LIVE_TEACHER_REASONING: '' } });
++  assert.equal(custom.model, 'gpt-realtime-mini');
++  assert.equal(custom.audio.output.voice, 'cedar');
++  assert.equal('reasoning' in custom, false);
++});
+diff --git a/tools/live-teacher-tests/engine.test.mjs b/tools/live-teacher-tests/engine.test.mjs
+new file mode 100644
+index 0000000..f5e4861
+--- /dev/null
++++ b/tools/live-teacher-tests/engine.test.mjs
+@@ -0,0 +1,193 @@
++// Live Teacher engine tests: the whole server flow against an in-memory
++// database and a FAKE OpenAI (no network, no real key).
++// Run: node --test tools/live-teacher-tests/
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import { startLesson, handleTool, endLesson, getProfileView } from '../../base44/shared/liveTeacherEngine.js';
++import { mistakeKey } from '../../base44/shared/liveTeacherCore.js';
++
++const PERMANENT = 'sk-test-PERMANENT-KEY-1234567890';
++const env = { OPENAI_API_KEY: PERMANENT };
++const T0 = Date.parse('2026-11-17T09:00:00Z');
++
++// minimal in-memory stand-in for Base44 entities
++function fakeDb() {
++  let n = 0;
++  const tables = {};
++  const entity = (name) => {
++    const rows = (tables[name] ||= []);
++    return {
++      rows,
++      async create(data) { const row = { id: `${name}-${++n}`, created_date: new Date(T0 + n).toISOString(), ...structuredClone(data) }; rows.push(row); return structuredClone(row); },
++      async get(id) { const r = rows.find((x) => x.id === id); if (!r) throw new Error('not found'); return structuredClone(r); },
++      async filter(q = {}) { return structuredClone(rows.filter((r) => Object.entries(q).every(([k, v]) => r[k] === v))); },
++      async update(id, patch) { const r = rows.find((x) => x.id === id); Object.assign(r, structuredClone(patch)); return structuredClone(r); },
++    };
++  };
++  return { LiveTeacherProfile: entity('LiveTeacherProfile'), LiveTeacherLesson: entity('LiveTeacherLesson') };
++}
++
++function fakeOpenAI({ ok = true, status = 200, body = { value: 'ek_test_SHORTLIVED', expires_at: 1790000000 } } = {}) {
++  const calls = [];
++  const fetchImpl = async (url, init) => {
++    calls.push({ url, init, body: JSON.parse(init.body) });
++    return { ok, status, json: async () => body };
++  };
++  return { fetchImpl, calls };
++}
++
++const student = { id: 'u1', email: 'stu@example.com', full_name: 'Doniyor Pulatov', role: 'user' };
++const igoes = { rule: 'grammar.subject_verb_agreement', variant: 'i_goes', wrong: 'I goes to school.', correct: 'I go to school.', explanation_uz: "'I' bilan 'go' ishlatiladi." };
++const tool = (svc, lessonId, name, args, now, u = student) => handleTool({ svc, user: u, body: { lesson_id: lessonId, name, args: JSON.stringify(args) }, now });
++
++test('start: not configured -> 503 and no OpenAI call', async () => {
++  const { fetchImpl, calls } = fakeOpenAI();
++  const r = await startLesson({ svc: fakeDb(), user: student, body: {}, env: {}, fetchImpl, now: T0 });
++  assert.equal(r.status, 503);
++  assert.equal(r.body.code, 'not_configured');
++  assert.equal(calls.length, 0);
++});
++
++test('start: server mints a short-lived secret; the permanent key never reaches the browser', async () => {
++  const svc = fakeDb();
++  const { fetchImpl, calls } = fakeOpenAI();
++  const r = await startLesson({ svc, user: student, body: { mode: 'strict', age_group: 'adult', lang: 'uz' }, env, fetchImpl, now: T0 });
++  assert.equal(r.status, 200);
++  assert.equal(r.body.client_secret, 'ek_test_SHORTLIVED');
++  assert.equal(JSON.stringify(r.body).includes(PERMANENT), false, 'permanent key is absent from the response');
++  // the OpenAI call used the permanent key server-side, with GA endpoint and a hashed identifier
++  assert.equal(calls[0].url, 'https://api.openai.com/v1/realtime/client_secrets');
++  assert.equal(calls[0].init.headers.Authorization, `Bearer ${PERMANENT}`);
++  assert.match(calls[0].init.headers['OpenAI-Safety-Identifier'], /^[0-9a-f]{64}$/);
++  assert.notEqual(calls[0].init.headers['OpenAI-Safety-Identifier'], student.id);
++  const session = calls[0].body.session;
++  assert.equal(session.type, 'realtime');
++  assert.match(session.instructions, /MODE: STRICT/);
++  assert.match(session.instructions, /FIRST LESSON/);
++  assert.ok(session.tools.some((t) => t.name === 'log_mistake'));
++  // lesson row + profile row created, bound to this student
++  assert.equal(svc.LiveTeacherLesson.rows[0].user_email, student.email);
++  assert.equal(svc.LiveTeacherLesson.rows[0].max_minutes, 15);
++  assert.equal(svc.LiveTeacherProfile.rows.length, 1);
++  assert.equal(r.body.lesson_id, svc.LiveTeacherLesson.rows[0].id);
++});
++
++test('start: OpenAI refuses -> 502; students never see OpenAI text, admins do; key shapes are redacted', async () => {
++  const body = { error: { message: 'Bad key sk-proj-ABCDEFGH12345678 or unknown param session.reasoning' } };
++  const bad = fakeOpenAI({ ok: false, status: 400, body });
++  const s = await startLesson({ svc: fakeDb(), user: student, body: {}, env, fetchImpl: bad.fetchImpl, now: T0 });
++  assert.equal(s.status, 502);
++  assert.equal(s.body.code, 'openai_rejected');
++  assert.equal('openai_message' in s.body, false);
++  const a = await startLesson({ svc: fakeDb(), user: { ...student, role: 'admin' }, body: {}, env, fetchImpl: bad.fetchImpl, now: T0 });
++  assert.match(a.body.openai_message, /unknown param/);
++  assert.match(a.body.error, /^OpenAI said \(400\)/);
++  assert.equal(s.body.error.includes('unknown param'), false, 'the student-facing message never carries OpenAI wording');
++  assert.equal(a.body.openai_message.includes('sk-proj-ABCDEFGH12345678'), false);
++  // network failure
++  const down = await startLesson({ svc: fakeDb(), user: student, body: {}, env, fetchImpl: async () => { throw new Error('boom'); }, now: T0 });
++  assert.equal(down.status, 502);
++  assert.equal(down.body.code, 'openai_unreachable');
++});
++
++test('2. same mistake x3 through the server: new -> repeated(level 2) -> repeated(level 3, drill), persisted', async () => {
++  const svc = fakeDb();
++  const { fetchImpl } = fakeOpenAI();
++  const { body: start } = await startLesson({ svc, user: student, body: { mode: 'strict' }, env, fetchImpl, now: T0 });
++  const outs = [];
++  for (let i = 0; i < 3; i++) outs.push((await tool(svc, start.lesson_id, 'log_mistake', igoes, T0 + 1000 * (i + 1))).body.output);
++  assert.deepEqual(outs.map((o) => [o.status, o.level]), [['new', 1], ['repeated', 2], ['repeated', 3]]);
++  assert.equal(outs[2].needs_drill, true);
++  const lesson = svc.LiveTeacherLesson.rows[0];
++  assert.equal(lesson.new_mistakes, 1);
++  assert.equal(lesson.repeated_mistakes, 2);
++  assert.equal(lesson.tool_calls, 3);
++  assert.equal(svc.LiveTeacherProfile.rows[0].mistakes[mistakeKey('grammar.subject_verb_agreement', 'i_goes')].total_count, 3);
++});
++
++test('8. returning student: memory goes into the next prompt, and the old mistake starts at level 2', async () => {
++  const svc = fakeDb();
++  const { fetchImpl, calls } = fakeOpenAI();
++  const first = (await startLesson({ svc, user: student, body: { mode: 'strict' }, env, fetchImpl, now: T0 })).body;
++  await tool(svc, first.lesson_id, 'log_mistake', igoes, T0 + 1000);
++  await tool(svc, first.lesson_id, 'set_level_estimate', { cefr: 'A2', confidence: 0.8 }, T0 + 2000);
++  await tool(svc, first.lesson_id, 'log_pronunciation', { word: 'think', issue: 'th as s' }, T0 + 3000);
++  const ended = await tool(svc, first.lesson_id, 'end_lesson', { summary: 'Present Simple basics.', strengths: ['good effort'], focus_next: ['he/she + s'] }, T0 + 60000);
++  assert.equal(ended.body.recap.lesson_count, 1);
++  assert.equal(ended.body.recap.new_mistakes, 1);
++  assert.equal(ended.body.recap.cefr_level, 'A2');
++
++  const second = (await startLesson({ svc, user: student, body: { mode: 'strict' }, env, fetchImpl, now: T0 + 86400000 })).body;
++  const prompt = calls[1].body.session.instructions;
++  assert.match(prompt, /Level estimate: A2/);
++  assert.match(prompt, /rule=grammar\.subject_verb_agreement variant=i_goes/);
++  assert.match(prompt, /Present Simple basics/);
++  assert.match(prompt, /think/);
++  const again = (await tool(svc, second.lesson_id, 'log_mistake', igoes, T0 + 86400000 + 5000)).body.output;
++  assert.equal(again.status, 'repeated');
++  assert.equal(again.level, 2);
++  assert.equal(second.profile.cefr_level, 'A2');
++});
++
++test('end is idempotent and does not double-count lessons', async () => {
++  const svc = fakeDb();
++  const { fetchImpl } = fakeOpenAI();
++  const s = (await startLesson({ svc, user: student, body: {}, env, fetchImpl, now: T0 })).body;
++  const a = await endLesson({ svc, user: student, body: { lesson_id: s.lesson_id }, now: T0 + 90000 });
++  assert.equal(a.body.recap.duration_s, 90);
++  const b = await endLesson({ svc, user: student, body: { lesson_id: s.lesson_id }, now: T0 + 99000 });
++  assert.equal(b.status, 200);
++  assert.equal(svc.LiveTeacherProfile.rows[0].lesson_count, 1);
++  // tools are refused after the lesson ended
++  assert.equal((await tool(svc, s.lesson_id, 'log_mistake', igoes, T0 + 100000)).status, 409);
++});
++
++test('exam mode: silent directive, scores saved at the end', async () => {
++  const svc = fakeDb();
++  const { fetchImpl, calls } = fakeOpenAI();
++  const s = (await startLesson({ svc, user: student, body: { mode: 'exam' }, env, fetchImpl, now: T0 })).body;
++  assert.match(calls[0].body.session.instructions, /MODE: EXAM/);
++  assert.equal(s.max_minutes, 12);
++  const m = (await tool(svc, s.lesson_id, 'log_mistake', igoes, T0 + 1000)).body.output;
++  assert.equal(m.tone, 'examiner');
++  assert.match(m.directive, /do NOT correct/i);
++  const end = await tool(svc, s.lesson_id, 'end_lesson', { summary: 'Exam done.', scores: { grammar: 70, vocabulary: 65, fluency: 60, pronunciation: 75, cefr: 'B1' } }, T0 + 600000);
++  assert.deepEqual([end.body.recap.scores.grammar, end.body.recap.scores.cefr], [70, 'B1']);
++  assert.equal(svc.LiveTeacherProfile.rows[0].test_results.length, 1);
++});
++
++test('tools: a student cannot use someone else\'s lesson, an expired one, or flood the database', async () => {
++  const svc = fakeDb();
++  const { fetchImpl } = fakeOpenAI();
++  const s = (await startLesson({ svc, user: student, body: {}, env, fetchImpl, now: T0 })).body;
++  const other = { id: 'u2', email: 'other@example.com', role: 'user' };
++  assert.equal((await tool(svc, s.lesson_id, 'log_mistake', igoes, T0 + 1000, other)).status, 404);
++  assert.equal((await tool(svc, 'nope', 'log_mistake', igoes, T0 + 1000)).status, 404);
++  // 15 min lesson + 5 min grace
++  assert.equal((await tool(svc, s.lesson_id, 'log_mistake', igoes, T0 + 21 * 60000)).status, 410);
++  svc.LiveTeacherLesson.rows[0].tool_calls = 300;
++  assert.equal((await tool(svc, s.lesson_id, 'log_mistake', igoes, T0 + 1000)).status, 429);
++  svc.LiveTeacherLesson.rows[0].tool_calls = 0;
++  // an unknown tool name does not crash the model's turn
++  const unknown = await tool(svc, s.lesson_id, 'delete_everything', {}, T0 + 1000);
++  assert.equal(unknown.status, 200);
++  assert.equal(unknown.body.output.ok, false);
++  // garbage arguments are survivable
++  const junk = await handleTool({ svc, user: student, body: { lesson_id: s.lesson_id, name: 'log_mistake', args: '{not json' }, now: T0 + 2000 });
++  assert.equal(junk.status, 200);
++  assert.equal(junk.body.output.status, 'new');
++});
++
++test('profile view: returns only the student\'s own data', async () => {
++  const svc = fakeDb();
++  const { fetchImpl } = fakeOpenAI();
++  const s = (await startLesson({ svc, user: student, body: {}, env, fetchImpl, now: T0 })).body;
++  await tool(svc, s.lesson_id, 'log_mistake', igoes, T0 + 1000);
++  await endLesson({ svc, user: student, body: { lesson_id: s.lesson_id }, now: T0 + 5000 });
++  const mine = await getProfileView({ svc, user: student });
++  assert.equal(mine.body.profile.mistakes.length, 1);
++  assert.equal(mine.body.recent_lessons.length, 1);
++  const other = await getProfileView({ svc, user: { id: 'u2', email: 'other@example.com' } });
++  assert.equal(other.body.profile.mistakes.length, 0);
++  assert.equal(other.body.recent_lessons.length, 0);
++});
+diff --git a/tools/live-teacher-tests/scenarios.mjs b/tools/live-teacher-tests/scenarios.mjs
+new file mode 100644
+index 0000000..07d6814
+--- /dev/null
++++ b/tools/live-teacher-tests/scenarios.mjs
+@@ -0,0 +1,154 @@
++// Live Teacher scenario runner: checks the teacher's REAL behaviour (personality,
++// tone escalation, Uzbek explanations, tool use) against the actual OpenAI model,
++// in TEXT mode, using the exact same prompt, tools and mistake tracker as the
++// voice lesson. Voice itself (microphone, interruptions, pronunciation) can only
++// be tested in the browser: see docs/live-teacher.md, "Voice checklist".
++//
++// Run on YOUR computer (the key stays in your terminal, never in a file):
++//   Windows PowerShell:  $env:OPENAI_API_KEY="sk-..."; node tools/live-teacher-tests/scenarios.mjs
++//   Mac/Linux:           OPENAI_API_KEY=sk-... node tools/live-teacher-tests/scenarios.mjs
++// Optional: SCENARIO_MODEL=gpt-5-mini (any text model your key can use)
++//           SCENARIO_ONLY=2     (run only scenario 2)
++//           SCENARIO_DRY=1      (no network: canned model, checks the plumbing only)
++import {
++  emptyProfile, applyMistake, applyCorrectUse, applyLevelEstimate, applyPronunciation, applyVocabulary,
++  finishLesson, memorySummary,
++} from '../../base44/shared/liveTeacherCore.js';
++import { buildInstructions, TOOLS } from '../../base44/shared/liveTeacherPrompt.js';
++
++const DRY = !!process.env.SCENARIO_DRY;
++const KEY = process.env.OPENAI_API_KEY;
++const MODEL = process.env.SCENARIO_MODEL || 'gpt-5-mini';
++if (!DRY && !KEY) { console.error('Set OPENAI_API_KEY in your terminal first (see the top of this file).'); process.exit(1); }
++
++async function respond(body) {
++  if (DRY) return dryModel(body);
++  const res = await fetch('https://api.openai.com/v1/responses', {
++    method: 'POST', headers: { Authorization: `Bearer ${KEY}`, 'Content-Type': 'application/json' }, body: JSON.stringify(body),
++  });
++  const data = await res.json();
++  if (!res.ok) throw new Error(`OpenAI ${res.status}: ${String(data?.error?.message).replace(/(sk|ek)-[A-Za-z0-9_-]+/g, '[redacted]')}`);
++  return data;
++}
++
++// canned stand-in used only by SCENARIO_DRY to prove the loop works offline
++let dryStep = 0;
++function dryModel(body) {
++  dryStep += 1;
++  const last = body.input[body.input.length - 1];
++  if (last.type === 'function_call_output') {
++    return { id: `r${dryStep}`, output: [{ type: 'message', content: [{ type: 'output_text', text: '(dry) Almost, but that is incorrect.' }] }] };
++  }
++  return { id: `r${dryStep}`, output: [{ type: 'function_call', call_id: `c${dryStep}`, name: 'log_mistake', arguments: JSON.stringify({ rule: 'grammar.subject_verb_agreement', variant: 'i_goes', wrong: 'I goes to school.', correct: 'I go to school.', explanation_uz: "'I' bilan 'go'." }) }] };
++}
++
++const textOf = (r) => (r.output || []).filter((o) => o.type === 'message').flatMap((o) => o.content || []).map((c) => c.text).join(' ').trim();
++
++class Lesson {
++  constructor({ mode = 'strict', ageGroup = 'adult', profile = emptyProfile('test@example.com'), id = 'L1' }) {
++    this.mode = mode; this.ageGroup = ageGroup; this.profile = profile; this.id = id; this.prev = null; this.toolLog = [];
++  }
++  instructions() { return buildInstructions({ mode: this.mode, ageGroup: this.ageGroup, uiLang: 'uz', studentName: 'Test', memory: memorySummary(this.profile) }); }
++  runTool(name, args) {
++    const ctx = { lessonId: this.id, mode: this.mode, ageGroup: this.ageGroup, now: Date.now() };
++    const fn = { log_mistake: applyMistake, log_correct_use: applyCorrectUse, set_level_estimate: applyLevelEstimate, log_pronunciation: applyPronunciation, log_vocabulary: applyVocabulary }[name];
++    if (!fn) return { ok: true };
++    const r = fn(this.profile, args, ctx);
++    this.profile = r.profile;
++    this.toolLog.push({ name, args, result: r.result });
++    return r.result;
++  }
++  async say(student) {
++    console.log(`\n  STUDENT: ${student}`);
++    let input = [{ role: 'user', content: student }];
++    for (let i = 0; i < 5; i++) {
++      const r = await respond({ model: MODEL, instructions: this.instructions(), input, tools: TOOLS, previous_response_id: this.prev || undefined });
++      this.prev = r.id;
++      const calls = (r.output || []).filter((o) => o.type === 'function_call');
++      if (!calls.length) { const t = textOf(r); console.log(`  TEACHER: ${t}`); return t; }
++      input = calls.map((c) => {
++        const out = this.runTool(c.name, JSON.parse(c.arguments || '{}'));
++        const brief = c.name === 'log_mistake' ? ` -> ${out.status} level ${out.level} (${out.tone})` : '';
++        console.log(`    [tool] ${c.name}${brief}`);
++        return { type: 'function_call_output', call_id: c.call_id, output: JSON.stringify(out) };
++      });
++    }
++    return '';
++  }
++}
++
++const checks = [];
++const check = (label, ok) => { checks.push({ label, ok }); console.log(`  ${ok ? 'PASS' : 'CHECK BY HAND'}: ${label}`); };
++const hasUzbek = (t) => /\b(ishlatiladi|emas|xato|tushun|ayting|takrorlang|bilan|uchun|qani|diqqat)\b/i.test(t);
++
++const scenarios = {
++  1: async () => {
++    console.log('\n=== 1. Simple grammar mistake ===');
++    const l = new Lesson({});
++    const t = await l.say('I goes to school every day.');
++    check('teacher logged the mistake before correcting', l.toolLog[0]?.name === 'log_mistake');
++    check('first mistake = new, patient', l.toolLog[0]?.result.status === 'new' && l.toolLog[0]?.result.tone === 'patient');
++    check('correct sentence given ("I go")', /I go\b/.test(t));
++    check('explained in Uzbek', hasUzbek(t));
++  },
++  2: async () => {
++    console.log('\n=== 2. Same mistake three times (strict mode) ===');
++    const l = new Lesson({});
++    const replies = [];
++    for (let i = 0; i < 3; i++) replies.push(await l.say('I goes to school.'));
++    const lv = l.toolLog.filter((x) => x.name === 'log_mistake').map((x) => x.result.level);
++    check(`levels climb 1,2,3 (got ${lv.join(',')})`, lv.join(',') === '1,2,3');
++    check('2nd reply is Uzbek and reminds of the earlier explanation', hasUzbek(replies[1]));
++    check('3rd reply demands a repeat / gives an exercise', /(takrorlang|repeat|mashq|exercise|ayting)/i.test(replies[2]));
++    console.log('  Read the three replies: strict but never insulting? (judge by hand)');
++  },
++  3: async () => {
++    console.log('\n=== 3. Student speaks Uzbek instead of English (A2 student) ===');
++    const p = applyLevelEstimate(emptyProfile('t@e.c'), { cefr: 'A2' }).profile;
++    const l = new Lesson({ profile: p });
++    const t = await l.say("Men kecha do'konga bordim va non sotib oldim.");
++    check('teacher gives the English version', /(went|bought)/i.test(t));
++    check('teacher asks the student to say it in English', /(english|inglizcha|ayting|say)/i.test(t));
++  },
++  4: async () => {
++    console.log("\n=== 4. Student does not understand the explanation ===");
++    const l = new Lesson({});
++    await l.say('She go to work every day.');
++    const t = await l.say("Tushunmadim. Nega 'goes' bo'ladi?");
++    check('answers in Uzbek', hasUzbek(t) || /\b(siz|u|ega)\b/i.test(t));
++    check('does not just repeat the same explanation (read it: different angle / example?)', t.length > 20);
++  },
++  5: async () => {
++    console.log('\n=== 5. Advanced English question ===');
++    const l = new Lesson({});
++    const t = await l.say("What is the difference between 'I have been working' and 'I worked' when I talk about my job?");
++    check('substantive answer (Present Perfect Continuous vs Past Simple)', /(present perfect|continuous|have been)/i.test(t) && t.length > 80);
++  },
++  6: async () => {
++    console.log('\n=== 6. Interruptions and 7. Pronunciation: VOICE ONLY ===');
++    console.log('  These need a microphone: use the "Voice checklist" in docs/live-teacher.md.');
++  },
++  8: async () => {
++    console.log('\n=== 8. Student returns for another lesson ===');
++    const l1 = new Lesson({ id: 'L1' });
++    await l1.say('I goes to school.');
++    l1.profile = finishLesson(applyLevelEstimate(l1.profile, { cefr: 'A2' }).profile, { mode: 'strict', summary: 'Present Simple basics.', focusNext: ['he/she + s'] });
++    const l2 = new Lesson({ id: 'L2', profile: l1.profile });
++    console.log('  --- memory the teacher is given for lesson 2 ---');
++    console.log(memorySummary(l2.profile).split('\n').map((x) => `  | ${x}`).join('\n'));
++    const t = await l2.say('Hello teacher. I goes to school today.');
++    const lv = l2.toolLog.find((x) => x.name === 'log_mistake')?.result;
++    check('the old mistake is recognised as REPEATED (level 2) in the new lesson', lv?.status === 'repeated' && lv?.level === 2);
++    check('teacher refers back to the earlier explanation (read it)', t.length > 20);
++  },
++};
++
++const only = process.env.SCENARIO_ONLY;
++for (const [n, run] of Object.entries(scenarios)) {
++  if (DRY && !['1'].includes(n)) continue; // the canned model only knows scenario 1
++  if (only && only !== n) continue;
++  try { await run(); } catch (e) { console.error(`  ERROR in scenario ${n}: ${e.message}`); checks.push({ label: `scenario ${n} crashed`, ok: false }); }
++}
++const failed = checks.filter((c) => !c.ok);
++console.log(`\n${checks.length - failed.length}/${checks.length} automatic checks passed. "CHECK BY HAND" lines need your own judgement (tone, humour, respect).`);
++process.exit(0);
+-- 
+2.43.0
+
