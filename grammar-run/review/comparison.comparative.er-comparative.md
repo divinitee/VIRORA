@@ -1,4 +1,4 @@
-# comparison.comparative.er-comparative — review sample (A1)
+# comparison.comparative.er-comparative — review sample (A2)
 
 Each item shows one random filler combination (in bold). Mark anything a teacher wouldn't accept.
 
