@@ -1178,6 +1178,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.word-order.double-object": {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "double-object",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 284,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.word-order.place-time-order": {
   "domain": "sentence-structure",
   "branch": "word-order",

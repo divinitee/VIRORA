@@ -1163,7 +1163,7 @@
     "birthday",
     "fiftieth birthday",
     "new job",
-    "holiday"
+    "sixtieth birthday"
    ],
    "name": [
     "Aziz",
@@ -1296,8 +1296,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence without to: the person first, then the thing.",
-  "source": "Grandma told a story to the children {when}.",
-  "hint": "Grandma told ______ {when}.",
+  "source": "Grandma told a story to the children {when}, {name}.",
+  "hint": "Grandma told ______ {when}, {name}.",
   "key": "the children a story",
   "why": "After give, send, show, tell, buy and similar verbs: the person first, then the thing (gave my sister a present). Or use to / for: gave a present to my sister.",
   "slots": {
@@ -1306,6 +1306,12 @@
     "after dinner",
     "before bed",
     "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1374,8 +1380,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the word order.",
-  "source": "The teacher gave to us a test {when}.",
-  "hint": "The teacher gave ______ {when}.",
+  "source": "The teacher gave to us a test {when}, {name}.",
+  "hint": "The teacher gave ______ {when}, {name}.",
   "key": "us a test",
   "why": "After give, send, show, tell, buy and similar verbs: the person first, then the thing (gave my sister a present). Or use to / for: gave a present to my sister.",
   "slots": {
@@ -1384,6 +1390,12 @@
     "on Friday",
     "yesterday",
     "this morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1424,11 +1436,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the word order.",
-  "source": "Lola wrote a long letter her grandma from {city}.",
-  "hint": "Lola wrote ______ from {city}.",
+  "source": "{name} wrote a long letter her grandma from {city}.",
+  "hint": "{name} wrote ______ from {city}.",
   "key": "her grandma a long letter",
   "why": "After give, send, show, tell, buy and similar verbs: the person first, then the thing (gave my sister a present). Or use to / for: gave a present to my sister.",
   "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
    "city": [
     "Moscow",
     "London",
@@ -1502,8 +1520,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence without for: the person first, then the thing.",
-  "source": "My {who} bought a ticket for me.",
-  "hint": "My {who} bought ______.",
+  "source": "My {who} bought a ticket for me, {name}.",
+  "hint": "My {who} bought ______, {name}.",
   "key": "me a ticket",
   "why": "After give, send, show, tell, buy and similar verbs: the person first, then the thing (gave my sister a present). Or use to / for: gave a present to my sister.",
   "slots": {
@@ -1512,6 +1530,12 @@
     "brother",
     "uncle",
     "cousin"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1524,11 +1548,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence without for: the person first, then the thing.",
-  "source": "Aziz got some flowers for his grandma {when}.",
-  "hint": "Aziz got ______ {when}.",
+  "source": "{name} got some flowers for his grandma {when}.",
+  "hint": "{name} got ______ {when}.",
   "key": "his grandma some flowers",
   "why": "After give, send, show, tell, buy and similar verbs: the person first, then the thing (gave my sister a present). Or use to / for: gave a present to my sister.",
   "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
    "when": [
     "yesterday",
     "on her birthday",
@@ -1546,8 +1576,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence without for: the person first, then the thing.",
-  "source": "Grandma cooked plov for the guests {when}.",
-  "hint": "Grandma cooked ______ {when}.",
+  "source": "Grandma cooked plov for the guests {when}, {name}.",
+  "hint": "Grandma cooked ______ {when}, {name}.",
   "key": "the guests plov",
   "why": "After give, send, show, tell, buy and similar verbs: the person first, then the thing (gave my sister a present). Or use to / for: gave a present to my sister.",
   "slots": {
@@ -1556,6 +1586,12 @@
     "on Friday",
     "for the wedding",
     "last night"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
