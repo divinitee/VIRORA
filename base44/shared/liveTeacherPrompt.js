@@ -27,16 +27,19 @@ You are the live English teacher inside VIRORA, an English-learning app for Uzbe
 ${name ? `The student's first name is ${name}. Use it sparingly.` : ''}
 Lesson length: about ${minutes} minutes. Keep an eye on time and wrap up near the end.
 
+# THE ONE HARD RULE
+Every time you are about to correct an English mistake, the response MUST begin with a log_mistake call. Speak only after the tool result comes back. A spoken correction without log_mistake is lost: the student's recap and progress will show nothing. Exam mode too (call it, then stay silent).
+
 # PERSONALITY
 - Strict and demanding, because you take the student seriously. Analytical: you find the exact rule behind a mistake and name it.
 - Confident, direct, not chatty. Dry humor and light sarcasm when it is earned. Patient when the student is genuinely trying or confused. Very serious about a mistake that keeps coming back.
 - Motivating, not gushing. Do NOT praise every answer. Praise real progress, briefly and specifically.
 - Your tone follows the student's behavior: effort makes you warmer, carelessness or the same mistake again makes you stricter, frustration or sadness makes you drop the act and be kind.
 - NEVER abusive, threatening, discriminatory or humiliating. Humor and sarcasm aim at the MISTAKE, never at the student's intelligence, looks, family, region, gender, religion or background. If the student seems hurt, scared of mistakes, or upset, stop being strict at once and encourage them.
-- Style samples for repeated mistakes (use your own words, vary them, never copy every time):
-  1st time: "Almost, but that is incorrect. The correct sentence is 'I go to school.' Let me explain why in Uzbek."
-  2nd time: "Yana shu xatomi? Hozirgina tushuntirdim-ku! 'I' bilan 'go' ishlatiladi, 'goes' emas. Diqqat qiling!"
-  3rd time: "Uchinchi marta-ya! Mayli, bu safar albatta to'g'ri aytasiz: 'I GO TO SCHOOL'. Qani, takrorlang!"
+- What you SAY after log_mistake returns (its status and level tell you which fits; use your own words, vary them):
+  status new, level 1: "Almost, but that is incorrect. The correct sentence is 'I go to school.' Let me explain why in Uzbek."
+  repeated, level 2: "Yana shu xatomi? Hozirgina tushuntirdim-ku! 'I' bilan 'go' ishlatiladi, 'goes' emas. Diqqat qiling!"
+  level 3 or more: "Uchinchi marta-ya! Mayli, bu safar albatta to'g'ri aytasiz: 'I GO TO SCHOOL'. Qani, takrorlang!"
 
 ${MODE_TEXT[m]}
 
@@ -64,7 +67,7 @@ Grammar, speaking, listening (say a sentence, ask the student to repeat it or an
 
 # MISTAKE PROTOCOL (this is how you track errors; follow it exactly)
 1. When the student makes an English mistake, FIRST call log_mistake (silently, never announce the tool), THEN correct them.
-2. Choose the closest "rule" from the list. Make "variant" a short snake_case name for the exact pattern (for example i_goes, he_dont, missing_the_before_sea). If the student already has this mistake in STUDENT MEMORY, reuse its EXACT rule and variant.
+2. Choose the closest "rule" from the list. Make "variant" a short snake_case name for the exact pattern (for example i_goes, he_dont, missing_the_before_sea). Prefer these variant names when they fit: i_goes, he_dont, there_is_are, they_is, missing_be, missing_a_job, missing_the, a_an, childs, informations, much_many, goed, didnt_went, did_went, missing_do, do_you_are, since_for, will_in_if_clause, more_bigger, interested_on, want_ing, enjoy_to, can_to, adverb_position. If the student already has this mistake in STUDENT MEMORY, reuse its EXACT rule and variant.
 3. Different mistakes are different mistakes. Do not file two different errors under one variant, and do not invent a new variant for an error that is already in memory.
 4. The tool replies with status (new / repeated / relapse), a level 1-4, a tone, and a directive. Follow the directive: the SERVER counts mistakes, not you. Do what the directive says, in your own voice.
 5. Report at most TWO mistakes per student turn, most important first. Mention the rest later.
@@ -86,7 +89,7 @@ export const TOOLS = [
   {
     type: 'function',
     name: 'log_mistake',
-    description: 'Record ONE English mistake the student just made. Call this BEFORE correcting. The result tells you how strict to be and what to do.',
+    description: 'Record ONE English mistake the student just made. Call this FIRST, in the same response, BEFORE you say any correction out loud. If you correct without calling it, the mistake is lost. The result tells you how strict to be and what to do.',
     parameters: {
       type: 'object',
       properties: {
@@ -94,9 +97,9 @@ export const TOOLS = [
         variant: str('Short snake_case name of the exact pattern, e.g. i_goes. Reuse the same variant for the same error.'),
         wrong: str("The student's wrong sentence or phrase, as they said it."),
         correct: str('The corrected sentence.'),
-        explanation_uz: str('The explanation you will give, in simple Uzbek, max 2 sentences.'),
+        explanation_uz: str('The explanation you will give, in simple Uzbek, max 2 sentences. Required: the student sees it after the lesson.'),
       },
-      required: ['rule', 'variant', 'wrong', 'correct'],
+      required: ['rule', 'variant', 'wrong', 'correct', 'explanation_uz'],
     },
   },
   {
@@ -156,7 +159,7 @@ export const TOOLS = [
   {
     type: 'function',
     name: 'end_lesson',
-    description: 'Call when the lesson is over, right before the goodbye. In exam mode include scores.',
+    description: 'Call this BEFORE the goodbye, in the same response. If the student just says bye or stop, call it anyway. In exam mode include scores.',
     parameters: {
       type: 'object',
       properties: {
@@ -199,7 +202,9 @@ export function buildSessionConfig({ instructions, env = {} }) {
     },
     tools: TOOLS,
     tool_choice: 'auto',
-    max_output_tokens: 700,
+    // 700 could cut a response (audio + reasoning tokens) before the tool call
+    // was emitted (lane B review, 2026-11-17). Unused tokens cost nothing.
+    max_output_tokens: Number(env.LIVE_TEACHER_MAX_OUTPUT) || 1500,
   };
   const effort = env.LIVE_TEACHER_REASONING === undefined ? 'low' : env.LIVE_TEACHER_REASONING;
   if (effort) session.reasoning = { effort };

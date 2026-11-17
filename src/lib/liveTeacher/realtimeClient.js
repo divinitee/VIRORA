@@ -116,12 +116,14 @@ export function createRealtimeSession({ clientSecret, openingPrompt, onEvent, ru
       // it carries the name (it may not), so it can never claim a call_id first
       // with an empty name.
       case 'response.function_call_arguments.done':
+        console.debug('[live-teacher] args.done', { call_id: ev.call_id, has_name: !!ev.name });
         if (ev.name) handleCall(ev.call_id, ev.name, ev.arguments);
         break;
       case 'response.output_item.done':
         if (ev.item?.type === 'function_call') handleCall(ev.item.call_id, ev.item.name, ev.item.arguments);
         break;
       case 'response.done':
+        console.debug('[live-teacher] response.done', ev.response?.status, ev.response?.status_details || '');
         for (const o of ev.response?.output || []) {
           if (o?.type === 'function_call') handleCall(o.call_id, o.name, o.arguments);
         }

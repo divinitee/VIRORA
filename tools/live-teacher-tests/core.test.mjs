@@ -1,5 +1,5 @@
 // Live Teacher core + prompt tests (mistake tracker, tone ladder, memory).
-// Run: node --test tools/live-teacher-tests/      (also works with: deno test -A)
+// Run: node --test tools/live-teacher-tests/*.test.mjs      (also works with: deno test -A)
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {

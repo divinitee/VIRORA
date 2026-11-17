@@ -1,6 +1,6 @@
 // Live Teacher engine tests: the whole server flow against an in-memory
 // database and a FAKE OpenAI (no network, no real key).
-// Run: node --test tools/live-teacher-tests/
+// Run: node --test tools/live-teacher-tests/*.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { startLesson, handleTool, endLesson, getProfileView } from '../../base44/shared/liveTeacherEngine.js';
