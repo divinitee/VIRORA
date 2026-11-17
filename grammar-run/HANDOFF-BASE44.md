@@ -37,13 +37,10 @@ Already done on this branch: P16-P21 (and whatever turn 5 has logged).
 24. P57 passive-causative.simple-passive.present-passive
 25. P58 passive-causative.simple-passive.past-passive
 26. P59 passive-causative.simple-passive.active-to-passive
-27. P43 verb-patterns.gerund-infinitive.decide-infinitive (was Claude's)
-28. P53 prep-phrasal.time.since-for (was Claude's)
-29. P54 verb-patterns.gerund-infinitive.preposition-gerund (was Claude's)
-30. P55 prep-phrasal.dependent-prepositions.interested-in (was Claude's)
-31. P56 conditionals-wishes.zero-first.zero-general-truth (was Claude's)
 
 ## Do NOT write or touch
+**Update 17 Nov: Claude is back.** Your list now ENDS at P59 (item 26). Claude writes P43 decide-infinitive, P53 since-for, P54 preposition-gerund, P55 interested-in and P56 zero-general-truth on his own branch: do not write them. Claude may fix sentences in your finished topics between your turns: if a file you wrote has changed, keep the change.
+
 P31 double-comparative-error, P32 less-comparative, P33 irregular-superlative, P34 ly-adverb, P35 irregular-adverb, P36 one-ones, P37 adjective-preposition: **Claude finished these** on branch `grammar-path-fill-claude`. Also leave `comparison.comparative.er-comparative` alone (Claude re-levelled it to A2 there). They reach main when Claude merges.
 
 ## Notes for the five topics that were Claude's
