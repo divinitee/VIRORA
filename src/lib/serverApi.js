@@ -50,6 +50,8 @@ export const coachApi = (action, payload) => call("coachApi", action, payload);
 export const qrPayApi = (action, payload) => call("qrPayApi", action, payload);
 // Live Teacher (AI English voice teacher): base44/functions/liveTeacherApi/entry.ts
 export const liveTeacherApi = (action, payload) => call("liveTeacherApi", action, payload);
+// Live Teacher LAB (admin test bench for ears/mouth providers): base44/functions/liveTeacherLab/entry.ts
+export const liveTeacherLab = (action, payload) => call("liveTeacherLab", action, payload);
 
 // Internal Taskboard (admin only). base44/functions/taskboardApi/entry.ts
 export const taskboardApi = async (action, payload = {}, actor = "tee") => {
