@@ -31,6 +31,9 @@ const SAMPLES = [
   { id: "filler", label: "Fillers (hmm)", text: "Hmm… Mhm. Okay, okay…" },
   { id: "velvet", label: "Velvet-style", text: "Oh come on, you know this one! It's \"I am a student\", not \"I am student\". Again, and this time with the article!" },
   { id: "violet", label: "Violet-style", text: "Stop. \"I very like\" is wrong. We say \"I really like\". Say it. Now." },
+  { id: "tags_vira", label: "Vira + emotion tags", text: "[warmly] Oh, that's so close! [laughs softly] We say \"I go\", not \"I goes\". You've got this." },
+  { id: "tags_velvet", label: "Velvet + emotion tags", text: "[sarcastic] Oh wow, \"he don't\"? Again? [sighs] Fine. It's \"he doesn't\". [mischievously] Say it right or I'm telling Violet." },
+  { id: "tags_violet", label: "Violet + emotion tags", text: "[calmly] No excuses. [pause] \"I am a student.\" Article. Every time. [firmly] Again." },
 ];
 
 const EL_MODELS = [
