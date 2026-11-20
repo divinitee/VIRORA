@@ -2354,6 +2354,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.meaning-change-verbs.stop-gerund": {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 212,
+   "build": 224,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.object-infinitive.let-bare": {
   "domain": "verb-patterns",
   "branch": "object-infinitive",

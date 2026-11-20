@@ -615,10 +615,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "Has it stopped ______ (rain) yet, {name}?",
+  "source": "Has it stopped ______ (rain) in {city} yet, {name}?",
   "key": "raining",
   "why": "The activity ends: stop + -ing (raining).",
   "slots": {
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Samarkand",
+    "Nukus"
+   ],
    "name": [
     "Akmal",
     "Nodira",
@@ -828,10 +834,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "I stopped ______ (watch) TV in the evenings and started reading, {name}.",
+  "source": "I stopped ______ (watch) {show} in the evenings and started reading, {name}.",
   "key": "watching",
   "why": "The activity ends: stop + -ing (watching).",
   "slots": {
+   "show": [
+    "TV",
+    "the news",
+    "cartoons",
+    "football"
+   ],
    "name": [
     "Jamshid",
     "Malika",
@@ -951,10 +963,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "My little brother has stopped ______ (grow), {name}. He's still short!",
+  "source": "My {who} has stopped ______ (grow), {name}. He's still short!",
   "key": "growing",
   "why": "The activity ends: stop + -ing (growing).",
   "slots": {
+   "who": [
+    "little brother",
+    "son",
+    "nephew",
+    "cousin"
+   ],
    "name": [
     "Jamshid",
     "Malika",
