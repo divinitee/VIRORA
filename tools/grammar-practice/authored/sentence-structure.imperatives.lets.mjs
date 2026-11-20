@@ -14,7 +14,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "sentence-structure", branch: "imperatives", topic: "lets", level: "A2", pv: "2.5" };
+const BASE = { domain: "sentence-structure", branch: "imperatives", topic: "lets", level: "A1", pv: "2.5" };
 
 const V = (v, s, ing) => [v, `to ${v}`, ing, s];
 const VW = (v) => `After Let's, use the base verb: Let's ${v}. No to, no -ing, no -s.`;

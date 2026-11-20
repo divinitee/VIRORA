@@ -16,7 +16,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "nouns-articles", branch: "articles", topic: "a-jobs", level: "A2", pv: "2.5" };
+const BASE = { domain: "nouns-articles", branch: "articles", topic: "a-jobs", level: "A1", pv: "2.5" };
 const CITY = ["Samarkand", "Bukhara", "Fergana", "Termez"];
 const VOWEL = new Set(["engineer", "artist", "actor", "architect", "office worker", "English teacher", "electrician", "accountant", "honest driver", "old farmer", "excellent cook", "IT specialist"]);
 const art = (j) => (VOWEL.has(j) ? "an" : "a");
