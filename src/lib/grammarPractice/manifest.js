@@ -1066,6 +1066,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.personal.dummy-it": {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "pronouns.personal.object-pronouns": {
   "domain": "pronouns",
   "branch": "personal",
@@ -1388,6 +1402,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.clause-linkers.purpose-so-that": {
+  "domain": "sentence-structure",
+  "branch": "clause-linkers",
+  "topic": "purpose-so-that",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.conjunctions.although-despite": {
   "domain": "sentence-structure",
   "branch": "conjunctions",
@@ -1636,6 +1664,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 320,
    "build": 320,
    "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.relative-clauses.whose": {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "whose",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 296,
+   "transform": 240,
    "create": 8,
    "express": 5
   }

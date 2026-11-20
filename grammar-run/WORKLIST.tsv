@@ -164,9 +164,9 @@
 163	C	sentence-structure.word-order.indirect-object-to	B1	1	live	Direct object + to + indirect object order
 164	C	sentence-structure.relative-clauses.object-relative-omission	B1	2	live	Object relative pronoun optional; 'where' impossible for a thing | Productive omitted object relative
 165	C	sentence-structure.relative-clauses.which-vs-what	B1	1	live	which (relative) vs what (not a relative pronoun) after a noun
-166	C	sentence-structure.relative-clauses.whose	B1	1	todo	whose for possession in a relative clause
-167	C	sentence-structure.clause-linkers.purpose-so-that	B1	1	todo	so that + clause for purpose (vs so + result)
-168	C	pronouns.personal.dummy-it	B1	1	todo	Dummy 'it' as subject for weather/time/distance
+166	C	sentence-structure.relative-clauses.whose	B1	1	live	whose for possession in a relative clause
+167	C	sentence-structure.clause-linkers.purpose-so-that	B1	1	live	so that + clause for purpose (vs so + result)
+168	C	pronouns.personal.dummy-it	B1	1	live	Dummy 'it' as subject for weather/time/distance
 169	C	pronouns.substitution.another-other	B1	1	todo	another (a different single one) vs other/others
 170	C	pronouns.substitution.so-neither	B1	2	todo	Neither + auxiliary + subject agreeing with a negative | 'Nor' with inversion continuing a negative in formal register
 171	C	pronouns.substitution.the-other-others	B1	1	todo	the other (the remaining one of two) vs another/others
