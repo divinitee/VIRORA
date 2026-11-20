@@ -1164,6 +1164,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "questions-negation.negation.no-vs-not": {
+  "domain": "questions-negation",
+  "branch": "negation",
+  "topic": "no-vs-not",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 222,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "questions-negation.negation.wasnt-werent": {
   "domain": "questions-negation",
   "branch": "negation",
