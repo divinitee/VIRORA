@@ -44,6 +44,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "adj-adv.adverb-form.adverb-vs-adjective-sense": {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 284,
+   "build": 284,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "adj-adv.adverb-form.irregular-adverb": {
   "domain": "adj-adv",
   "branch": "adverb-form",

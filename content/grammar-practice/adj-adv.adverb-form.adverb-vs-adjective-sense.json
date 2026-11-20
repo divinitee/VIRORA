@@ -400,6 +400,12 @@
     "train",
     "plane",
     "start"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
    ]
   }
  },
@@ -533,7 +539,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our new {who} is a ______ paid engineer, {name}.",
+  "prompt": "Everyone at the {place} speaks ______ of our new {who}.",
   "options": [
    "high",
    "higher",
@@ -541,19 +547,19 @@
    "highly"
   ],
   "key": 3,
-  "why": "paid very well: highly = very / very well.",
+  "why": "speak highly of = say very good things about: highly = very / very well.",
   "slots": {
-   "who": [
-    "neighbour",
-    "uncle",
-    "cousin",
-    "friend"
+   "place": [
+    "school",
+    "office",
+    "hospital",
+    "club"
    ],
-   "name": [
-    "Sherzod",
-    "Feruza",
-    "Akmal",
-    "Dilnoza"
+   "who": [
+    "teacher",
+    "doctor",
+    "coach",
+    "manager"
    ]
   }
  },
