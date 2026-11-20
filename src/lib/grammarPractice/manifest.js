@@ -1738,6 +1738,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.perfect.since-clause": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-clause",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 312,
+   "transform": 236,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.perfect.since-duration": {
   "domain": "tenses",
   "branch": "perfect",

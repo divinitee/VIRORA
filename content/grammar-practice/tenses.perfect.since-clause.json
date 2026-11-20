@@ -612,7 +612,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "My grandparents ______ (live) in {city} since they got married.",
+  "source": "My grandparents ______ (live) in {city} since they got married, {name}.",
   "key": "have lived",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have lived. The since clause says when it started.",
   "slots": {
@@ -621,6 +621,12 @@
     "Bukhara",
     "Khiva",
     "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   },
   "acceptable": [
@@ -690,10 +696,15 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "My little brother ______ (grow) a lot since you last saw him, {name}.",
+  "source": "My little {sib} ______ (grow) a lot since you last saw him, {name}.",
   "key": "has grown",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has grown. The since clause says when it started.",
   "slots": {
+   "sib": [
+    "brother",
+    "cousin",
+    "nephew"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -714,7 +725,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "I ______ (learn) many new words since I started {thing}.",
+  "source": "I ______ (learn) many new words since I started {thing}, {name}.",
   "key": "have learned",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have learned. The since clause says when it started.",
   "slots": {
@@ -723,6 +734,12 @@
     "watching films in English",
     "this course",
     "using the app"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   },
   "acceptable": [
@@ -738,10 +755,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "Our street ______ (become) much quieter since they closed the {place}.",
+  "source": "Our {area} ______ (become) much quieter since they closed the {place}.",
   "key": "has become",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has become. The since clause says when it started.",
   "slots": {
+   "area": [
+    "street",
+    "area",
+    "village",
+    "town"
+   ],
    "place": [
     "old market",
     "car park",
@@ -759,10 +782,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "My sister ______ (want) to be a doctor since she was in {class}.",
+  "source": "My {who} ______ (want) to be a doctor since she was in {class}.",
   "key": "have wanted",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have wanted. The since clause says when it started.",
   "slots": {
+   "who": [
+    "sister",
+    "cousin",
+    "best friend",
+    "niece"
+   ],
    "class": [
     "primary school",
     "year five",
@@ -780,10 +809,15 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "My father ______ (drive) the same {car} since I was born.",
+  "source": "My {who} ______ (drive) the same {car} since I was born.",
   "key": "has driven",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has driven. The since clause says when it started.",
   "slots": {
+   "who": [
+    "father",
+    "uncle",
+    "grandfather"
+   ],
    "car": [
     "car",
     "white car",
@@ -861,7 +895,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "I ______ (read) five books since the {season} holidays started.",
+  "source": "I ______ (read) five books since the {season} holidays started, {name}.",
   "key": "have read",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have read. The since clause says when it started.",
   "slots": {
@@ -870,6 +904,12 @@
     "winter",
     "spring",
     "autumn"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   },
   "acceptable": [
@@ -885,10 +925,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "My cousin ______ (not eat) meat since he watched a film about {thing}.",
+  "source": "My {who} ______ (not eat) meat since he watched a film about {thing}.",
   "key": "hasn't eaten",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: hasn't eaten. The since clause says when it started.",
   "slots": {
+   "who": [
+    "cousin",
+    "brother",
+    "uncle",
+    "friend"
+   ],
    "thing": [
     "farms",
     "animals",
@@ -906,7 +952,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "We ______ (not be) to the {place} since it closed for repairs.",
+  "source": "We ______ (not be) to the {place} since it closed for repairs, {name}.",
   "key": "haven't been",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: haven't been. The since clause says when it started.",
   "slots": {
@@ -915,6 +961,12 @@
     "museum",
     "cinema",
     "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -927,10 +979,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
-  "source": "Our neighbour ______ (help) us a lot since my father broke his {part}.",
+  "source": "Our {who} ______ (help) us a lot since my father broke his {part}.",
   "key": "has helped",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has helped. The since clause says when it started.",
   "slots": {
+   "who": [
+    "neighbour",
+    "uncle",
+    "aunt",
+    "grandmother"
+   ],
    "part": [
     "leg",
     "arm",
@@ -981,10 +1039,23 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the past simple.",
-  "source": "My brother has worked at the bank since he ______ (finish) college.",
+  "source": "My {who} has worked at the {place} since he ______ (finish) college.",
   "key": "finished",
   "why": "The since clause names a finished moment in the past, so it takes the past simple: finished.",
-  "slots": {}
+  "slots": {
+   "who": [
+    "brother",
+    "uncle",
+    "cousin",
+    "father"
+   ],
+   "place": [
+    "bank",
+    "airport",
+    "hotel",
+    "hospital"
+   ]
+  }
  },
  {
   "domain": "tenses",
@@ -995,7 +1066,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the past simple.",
-  "source": "{name} has played the piano since she ______ (be) six.",
+  "source": "{name} has played the {instr} since she ______ (be) six.",
   "key": "was",
   "why": "The since clause names a finished moment in the past, so it takes the past simple: was.",
   "slots": {
@@ -1004,6 +1075,12 @@
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "instr": [
+    "piano",
+    "violin",
+    "guitar",
+    "dutar"
    ]
   }
  },
@@ -1016,7 +1093,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the past simple.",
-  "source": "We haven't seen our old neighbours since we ______ (move) to {city}.",
+  "source": "We haven't seen our old neighbours since we ______ (move) to {city}, {name}.",
   "key": "moved",
   "why": "The since clause names a finished moment in the past, so it takes the past simple: moved.",
   "slots": {
@@ -1025,6 +1102,12 @@
     "Samarkand",
     "Andijan",
     "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1037,10 +1120,16 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the past simple.",
-  "source": "My father has been much calmer since he ______ (get) his new {job}.",
+  "source": "My {who} has been much calmer since he ______ (get) his new {job}.",
   "key": "got",
   "why": "The since clause names a finished moment in the past, so it takes the past simple: got.",
   "slots": {
+   "who": [
+    "father",
+    "uncle",
+    "brother",
+    "grandfather"
+   ],
    "job": [
     "job",
     "car",
@@ -1119,8 +1208,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with since. Use the present perfect.",
-  "source": "I met {name} when we started school. I still know her.",
-  "hint": "I ______ {name} since we started school.",
+  "source": "I met {name} when we started {school}. I still know her.",
+  "hint": "I ______ {name} since we started {school}.",
   "key": "have known",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have known. The since clause says when it started.",
   "slots": {
@@ -1129,6 +1218,12 @@
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "school": [
+    "school",
+    "college",
+    "kindergarten",
+    "primary school"
    ]
   }
  },
@@ -1141,8 +1236,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with since. Use the present perfect.",
-  "source": "My brother got a {pet} when he was nine. He still has it.",
-  "hint": "My brother ______ a {pet} since he was nine.",
+  "source": "My brother got a {pet} when he was {age}. He still has it.",
+  "hint": "My brother ______ a {pet} since he was {age}.",
   "key": "has had",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has had. The since clause says when it started.",
   "slots": {
@@ -1151,6 +1246,12 @@
     "cat",
     "parrot",
     "tortoise"
+   ],
+   "age": [
+    "nine",
+    "ten",
+    "seven",
+    "eight"
    ]
   }
  },
@@ -1163,8 +1264,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with since. Use the present perfect.",
-  "source": "My {who} began to teach when he left university. He still teaches.",
-  "hint": "My {who} ______ since he left university.",
+  "source": "My {who} began to teach {subj} when he left university. He still teaches it.",
+  "hint": "My {who} ______ {subj} since he left university.",
   "key": "has taught",
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has taught. The since clause says when it started.",
   "slots": {
@@ -1173,6 +1274,12 @@
     "father",
     "older brother",
     "cousin"
+   ],
+   "subj": [
+    "maths",
+    "history",
+    "English",
+    "music"
    ]
   },
   "acceptable": [
@@ -1188,8 +1295,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "I know {name} since we were children.",
-  "hint": "I ______ {name} since we were children.",
+  "source": "I know {name} since we were {age}.",
+  "hint": "I ______ {name} since we were {age}.",
   "key": "have known",
   "why": "Since + a past moment needs the present perfect, not the present simple: have known.",
   "slots": {
@@ -1198,6 +1305,12 @@
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "age": [
+    "children",
+    "at school",
+    "six",
+    "babies"
    ]
   }
  },
@@ -1210,8 +1323,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "My sister lived in {city} since she got married.",
-  "hint": "My sister ______ in {city} since she got married.",
+  "source": "My sister lived in {city} since she got married, {name}.",
+  "hint": "My sister ______ in {city} since she got married, {name}.",
   "key": "has lived",
   "why": "She still lives there, so not the past simple: has lived.",
   "slots": {
@@ -1220,6 +1333,12 @@
     "Tashkent",
     "Seoul",
     "Bukhara"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   },
   "acceptable": [
@@ -1263,8 +1382,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "{name} has played chess since he has been five.",
-  "hint": "{name} has played chess since he ______ five.",
+  "source": "{name} has played {game} since he has been five.",
+  "hint": "{name} has played {game} since he ______ five.",
   "key": "was",
   "why": "The since clause is a finished moment, so the past simple: was.",
   "slots": {
@@ -1273,6 +1392,12 @@
     "Timur",
     "Ilya",
     "Jasur"
+   ],
+   "game": [
+    "chess",
+    "football",
+    "tennis",
+    "the piano"
    ]
   }
  },
@@ -1285,11 +1410,101 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "I haven't eaten since I have had breakfast, {name}.",
-  "hint": "I haven't eaten since I ______ breakfast, {name}.",
+  "source": "I haven't eaten since I have had {meal}, {name}.",
+  "hint": "I haven't eaten since I ______ {meal}, {name}.",
   "key": "had",
   "why": "The since clause is a finished moment, so the past simple: had.",
   "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "meal": [
+    "breakfast",
+    "lunch",
+    "that sandwich",
+    "my morning tea"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-clause",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Finish the since clause with the verb in the past simple.",
+  "source": "My parents got married in {time}. They have lived in {city} since then.",
+  "hint": "My parents have lived in {city} since they ______ married.",
+  "key": "got",
+  "why": "The since clause names a finished moment in the past, so it takes the past simple: got.",
+  "slots": {
+   "time": [
+    "1998",
+    "2001",
+    "2005",
+    "2010"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Andijan",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-clause",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Finish the since clause with the verb in the past simple.",
+  "source": "{name} started school in {time}. He has worn glasses since then.",
+  "hint": "{name} has worn glasses since he ______ school.",
+  "key": "started",
+  "why": "The since clause names a finished moment in the past, so it takes the past simple: started.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Timur",
+    "Ilya",
+    "Jasur"
+   ],
+   "time": [
+    "2015",
+    "2018",
+    "2019",
+    "2020"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-clause",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Finish the since clause with the verb in the past simple.",
+  "source": "We sold our old car {time}. We haven't had a car since then, {name}.",
+  "hint": "We haven't had a car since we ______ the old one, {name}.",
+  "key": "sold",
+  "why": "The since clause names a finished moment in the past, so it takes the past simple: sold.",
+  "slots": {
+   "time": [
+    "last year",
+    "in 2022",
+    "in the spring",
+    "in the summer"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1307,88 +1522,22 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Finish the since clause with the verb in the past simple.",
-  "source": "My parents have lived here since {time}. (they / get married)",
-  "hint": "My parents have lived here since they ______ married.",
-  "key": "got",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: got.",
-  "slots": {
-   "time": [
-    "1998",
-    "2001",
-    "2005",
-    "2010"
-   ]
-  }
- },
- {
-  "domain": "tenses",
-  "branch": "perfect",
-  "topic": "since-clause",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Finish the since clause with the verb in the past simple.",
-  "source": "{name} has worn glasses since {time}. (he / start school)",
-  "hint": "{name} has worn glasses since he ______ school.",
-  "key": "started",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: started.",
-  "slots": {
-   "name": [
-    "Sardor",
-    "Timur",
-    "Ilya",
-    "Jasur"
-   ],
-   "time": [
-    "2015",
-    "2018",
-    "he was seven",
-    "primary school"
-   ]
-  }
- },
- {
-  "domain": "tenses",
-  "branch": "perfect",
-  "topic": "since-clause",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Finish the since clause with the verb in the past simple.",
-  "source": "We haven't had a car since {time}. (we / sell the old one)",
-  "hint": "We haven't had a car since we ______ the old one.",
-  "key": "sold",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: sold.",
-  "slots": {
-   "time": [
-    "last year",
-    "2022",
-    "the spring",
-    "the summer"
-   ]
-  }
- },
- {
-  "domain": "tenses",
-  "branch": "perfect",
-  "topic": "since-clause",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Finish the since clause with the verb in the past simple.",
-  "source": "I have felt better since {time}. (I / see the doctor)",
-  "hint": "I have felt better since I ______ the doctor.",
+  "source": "I saw the doctor {time}. I have felt better since then, {name}.",
+  "hint": "I have felt better since I ______ the doctor, {name}.",
   "key": "saw",
   "why": "The since clause names a finished moment in the past, so it takes the past simple: saw.",
   "slots": {
    "time": [
-    "Monday",
+    "on Monday",
     "last week",
-    "Friday",
+    "on Friday",
     "yesterday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1401,7 +1550,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Finish the since clause with the verb in the past simple.",
-  "source": "{name} has been tired since {time}. (she / come back from the trip)",
+  "source": "{name} came back from the trip {time}. She has been tired since then.",
   "hint": "{name} has been tired since she ______ back from the trip.",
   "key": "came",
   "why": "The since clause names a finished moment in the past, so it takes the past simple: came.",
@@ -1413,10 +1562,10 @@
     "Nilufar"
    ],
    "time": [
-    "Sunday",
+    "on Sunday",
     "last week",
-    "the weekend",
-    "Friday"
+    "at the weekend",
+    "on Friday"
    ]
   }
  },
