@@ -27,3 +27,5 @@ Log for the topics in grammar-run/WAVE-C-BASE44.md. Claude folds these rows into
 **Claude audit of C9-C12 (20 Nov):** worst pairings and second right answers checked on embedded-order, basic-tag, although-despite, indirect-object-to: nothing to change. Note: ingest expands typed tag keys like "doesn't she" to "does not she" (not English); harmless (it only accepts an extra answer), leave it.
 
 - Claude audit of C13-C14 (20 Nov, after turn 4): object-relative-omission and which-vs-what read in full (choose, build, transform with slots). Nothing to change: one right answer per choose line, every "an {who}" filler starts with a vowel sound, the that / which acceptables are where they belong and nowhere else.
+
+- Claude audit of C15-C17 (20 Nov, after turn 5): whose, purpose-so-that, dummy-it read in full. Nothing to change. Watch item kept: dummy-it transform "There are five kilometres to the {place}" → "It's" (natives can say "there are five km to go"; as a correct-the-mistake source it is fine). Audit dump now lives at grammar-run/tools-claude/da.mjs (the /tmp copy was wiped).
