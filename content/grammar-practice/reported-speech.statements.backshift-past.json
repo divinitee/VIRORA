@@ -1,0 +1,1915 @@
+[
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I saw the {film},' {m} said. He said he ______ the {film}.",
+  "options": [
+   "had seen",
+   "has seen",
+   "had saw",
+   "have seen"
+  ],
+  "key": 0,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "film": [
+    "film",
+    "match",
+    "play",
+    "show"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'We went to {city},' my {who} said. They said they ______ to {city}.",
+  "options": [
+   "has gone",
+   "had went",
+   "have gone",
+   "had gone"
+  ],
+  "key": 3,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "who": [
+    "friends",
+    "cousins",
+    "parents",
+    "neighbours"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I ate all the {food},' {f} said. She said she ______ all the {food}.",
+  "options": [
+   "had ate",
+   "have eaten",
+   "had eaten",
+   "has eaten"
+  ],
+  "key": 2,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "food": [
+    "cake",
+    "plov",
+    "bread",
+    "sweets"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I took your {thing},' {m} said. He said he ______ my {thing}.",
+  "options": [
+   "have taken",
+   "had taken",
+   "has taken",
+   "had took"
+  ],
+  "key": 1,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "pen",
+    "umbrella",
+    "charger",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I wrote a {text},' {f} said. She said she ______ a {text}.",
+  "options": [
+   "had written",
+   "has written",
+   "had wrote",
+   "have written"
+  ],
+  "key": 0,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "text": [
+    "poem",
+    "song",
+    "letter",
+    "story"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I forgot my {thing},' {m} said. He said he ______ his {thing}.",
+  "options": [
+   "has forgotten",
+   "had forgot",
+   "have forgotten",
+   "had forgotten"
+  ],
+  "key": 3,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "keys",
+    "passport",
+    "phone",
+    "ticket"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I broke the {thing},' {f} said. She said she ______ the {thing}.",
+  "options": [
+   "had broke",
+   "have broken",
+   "had broken",
+   "has broken"
+  ],
+  "key": 2,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "vase",
+    "window",
+    "cup",
+    "plate"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I gave the {thing} to my sister,' {m} said. He said he ______ the {thing} to his sister.",
+  "options": [
+   "have given",
+   "had given",
+   "has given",
+   "had gave"
+  ],
+  "key": 1,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "book",
+    "money",
+    "keys",
+    "letter"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I did my {work},' {f} said. She said she ______ her {work}.",
+  "options": [
+   "had done",
+   "has done",
+   "had did",
+   "have done"
+  ],
+  "key": 0,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "work": [
+    "homework",
+    "exercises",
+    "shopping",
+    "washing"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I spoke to the {who},' {m} said. He said he ______ to the {who}.",
+  "options": [
+   "has spoken",
+   "had spoke",
+   "have spoken",
+   "had spoken"
+  ],
+  "key": 3,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "teacher",
+    "manager",
+    "doctor",
+    "director"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I fell off my {bike},' {f} said. She said she ______ off her {bike}.",
+  "options": [
+   "had fell",
+   "have fallen",
+   "had fallen",
+   "has fallen"
+  ],
+  "key": 2,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "bike": [
+    "bike",
+    "horse",
+    "chair",
+    "scooter"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'We drove to {city},' the {who} said. They said they ______ to {city}.",
+  "options": [
+   "have driven",
+   "had driven",
+   "has driven",
+   "had drove"
+  ],
+  "key": 1,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "who": [
+    "tourists",
+    "students",
+    "neighbours",
+    "guests"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Someone stole my {thing},' {m} said. He said someone ______ his {thing}.",
+  "options": [
+   "had stolen",
+   "has stolen",
+   "had stole",
+   "have stolen"
+  ],
+  "key": 0,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "bike",
+    "phone",
+    "wallet",
+    "car"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I swam in the {water},' {f} said. She said she ______ in the {water}.",
+  "options": [
+   "has swum",
+   "had swam",
+   "have swum",
+   "had swum"
+  ],
+  "key": 3,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "water": [
+    "lake",
+    "sea",
+    "river",
+    "pool"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'We chose the {color} one,' my {who} said. They said they ______ the {color} one.",
+  "options": [
+   "had chose",
+   "have chosen",
+   "had chosen",
+   "has chosen"
+  ],
+  "key": 2,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "who": [
+    "parents",
+    "friends",
+    "cousins",
+    "neighbours"
+   ],
+   "color": [
+    "blue",
+    "red",
+    "black",
+    "white"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I wore my new {thing},' {f} said. She said she ______ her new {thing}.",
+  "options": [
+   "have worn",
+   "had worn",
+   "has worn",
+   "had wore"
+  ],
+  "key": 1,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "dress",
+    "coat",
+    "shoes",
+    "scarf"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I knew the answer to the {q},' {m} said. He said he ______ the answer to the {q}.",
+  "options": [
+   "had known",
+   "has known",
+   "had knew",
+   "have known"
+  ],
+  "key": 0,
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "q": [
+    "question",
+    "puzzle",
+    "riddle",
+    "maths problem"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I've lost my {thing},' {m} said. He said he ______ his {thing}.",
+  "options": [
+   "has lost",
+   "have lost",
+   "was lost",
+   "had lost"
+  ],
+  "key": 3,
+  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "keys",
+    "passport",
+    "phone",
+    "ticket"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I've never been to {city},' {f} said. She said she ______ never been to {city}.",
+  "options": [
+   "have",
+   "was",
+   "had",
+   "has"
+  ],
+  "key": 2,
+  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "London",
+    "Seoul",
+    "Paris",
+    "Dubai"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'I've already done the {work},' {m} said. He said he ______ already done the {work}.",
+  "options": [
+   "did",
+   "had",
+   "has",
+   "have"
+  ],
+  "key": 1,
+  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "work": [
+    "homework",
+    "shopping",
+    "washing",
+    "cleaning"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'The film began at six,' {m} said. He said the film ______ (begin) at six, {f}.",
+  "key": "had begun",
+  "acceptable": [
+   "began"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I flew to {city},' {f} said. She said she ______ (fly) to {city}.",
+  "key": "had flown",
+  "acceptable": [
+   "flew"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Moscow",
+    "Istanbul",
+    "Dubai",
+    "Seoul"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I rode a horse in the {place},' {m} said. He said he ______ (ride) a horse in the {place}.",
+  "key": "had ridden",
+  "acceptable": [
+   "rode"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "mountains",
+    "village",
+    "desert",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'We sang at the {event},' the {who} said. They said they ______ (sing) at the {event}.",
+  "key": "had sung",
+  "acceptable": [
+   "sang"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "who": [
+    "children",
+    "girls",
+    "students",
+    "boys"
+   ],
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "festival"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I drew a {thing},' {f} said. She said she ______ (draw) a {thing}.",
+  "key": "had drawn",
+  "acceptable": [
+   "drew"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "horse",
+    "map",
+    "house",
+    "tree"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I hid the {thing},' {m} said. He said he ______ (hide) the {thing}.",
+  "key": "had hidden",
+  "acceptable": [
+   "hid"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "presents",
+    "cake",
+    "keys",
+    "money"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I threw the ball over the {place},' {m} said. He said he ______ (throw) the ball over the {place}.",
+  "key": "had thrown",
+  "acceptable": [
+   "threw"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "wall",
+    "fence",
+    "roof",
+    "trees"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I saw your {who} at the bazaar,' {f} said. She said she ______ (see) my {who} at the bazaar.",
+  "key": "had seen",
+  "acceptable": [
+   "saw"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "who": [
+    "brother",
+    "mother",
+    "uncle",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I went to the {place},' {m} said. He said he ______ (go) to the {place}.",
+  "key": "had gone",
+  "acceptable": [
+   "went"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "dentist",
+    "bank",
+    "gym",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'We ate at the new {place},' my {who} said. They said they ______ (eat) at the new {place}.",
+  "key": "had eaten",
+  "acceptable": [
+   "ate"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "who": [
+    "parents",
+    "friends",
+    "cousins",
+    "neighbours"
+   ],
+   "place": [
+    "café",
+    "restaurant",
+    "chaikhana",
+    "canteen"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I took a lot of photos in {city},' {f} said. She said she ______ (take) a lot of photos in {city}.",
+  "key": "had taken",
+  "acceptable": [
+   "took"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I wrote to the {who},' {m} said. He said he ______ (write) to the {who}.",
+  "key": "had written",
+  "acceptable": [
+   "wrote"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "manager",
+    "director",
+    "teacher",
+    "landlord"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I forgot her {thing},' {f} said. She said she ______ (forget) her {thing}.",
+  "key": "had forgotten",
+  "acceptable": [
+   "forgot"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "birthday",
+    "name",
+    "number",
+    "address"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I broke my {part},' {m} said. He said he ______ (break) his {part}.",
+  "key": "had broken",
+  "acceptable": [
+   "broke"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "part": [
+    "arm",
+    "leg",
+    "finger",
+    "nose"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I gave my old {thing} away,' {f} said. She said she ______ (give) her old {thing} away.",
+  "key": "had given",
+  "acceptable": [
+   "gave"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "bike",
+    "clothes",
+    "books",
+    "toys"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'We spoke {lang} in {city},' the {who} said. They said they ______ (speak) {lang} in {city}.",
+  "key": "had spoken",
+  "acceptable": [
+   "spoke"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "who": [
+    "tourists",
+    "students",
+    "girls",
+    "boys"
+   ],
+   "lang": [
+    "English",
+    "Russian",
+    "Turkish",
+    "Korean"
+   ],
+   "city": [
+    "Istanbul",
+    "Moscow",
+    "Seoul",
+    "London"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I fell asleep in the {place},' {m} said. He said he ______ (fall) asleep in the {place}.",
+  "key": "had fallen",
+  "acceptable": [
+   "fell"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "cinema",
+    "car",
+    "lesson",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I drove all night,' {f} said. She said she ______ (drive) all night, {m}.",
+  "key": "had driven",
+  "acceptable": [
+   "drove"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'Somebody stole our {thing},' the {who} said. They said somebody ______ (steal) their {thing}.",
+  "key": "had stolen",
+  "acceptable": [
+   "stole"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "thing": [
+    "car",
+    "bikes",
+    "bags",
+    "money"
+   ],
+   "who": [
+    "tourists",
+    "neighbours",
+    "students",
+    "guests"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "source": "'I wore a suit to the {event},' {m} said. He said he ______ (wear) a suit to the {event}.",
+  "key": "had worn",
+  "acceptable": [
+   "wore"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "wedding",
+    "interview",
+    "party",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. Use the past perfect.",
+  "source": "'I went to the {place},' {m} said.",
+  "hint": "{m} said that ______ to the {place}.",
+  "key": "he had gone",
+  "acceptable": [
+   "he went"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "dentist",
+    "bank",
+    "gym",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. Use the past perfect.",
+  "source": "'I saw the {film},' {f} said.",
+  "hint": "{f} said that ______ the {film}.",
+  "key": "she had seen",
+  "acceptable": [
+   "she saw"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "film": [
+    "film",
+    "match",
+    "play",
+    "show"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. Use the past perfect.",
+  "source": "'We ate all the {food},' the {who} said.",
+  "hint": "The {who} said that ______ all the {food}.",
+  "key": "they had eaten",
+  "acceptable": [
+   "they ate"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "who": [
+    "children",
+    "boys",
+    "girls",
+    "guests"
+   ],
+   "food": [
+    "cake",
+    "plov",
+    "bread",
+    "sweets"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. Use the past perfect.",
+  "source": "'I forgot my {thing},' {m} said.",
+  "hint": "{m} said that ______ his {thing}.",
+  "key": "he had forgotten",
+  "acceptable": [
+   "he forgot"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "keys",
+    "passport",
+    "phone",
+    "ticket"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. Use the past perfect.",
+  "source": "'I broke the {thing},' {f} said.",
+  "hint": "{f} said that ______ the {thing}.",
+  "key": "she had broken",
+  "acceptable": [
+   "she broke"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "vase",
+    "window",
+    "cup",
+    "plate"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{m} said he has seen the {film}.",
+  "hint": "{m} said he ______ the {film}.",
+  "key": "had seen",
+  "acceptable": [
+   "saw"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "film": [
+    "film",
+    "match",
+    "play",
+    "show"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{f} said she had went to {city}.",
+  "hint": "{f} said she ______ to {city}.",
+  "key": "had gone",
+  "acceptable": [
+   "went"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{m} said he had took my {thing}.",
+  "hint": "{m} said he ______ my {thing}.",
+  "key": "had taken",
+  "acceptable": [
+   "took"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "pen",
+    "umbrella",
+    "charger",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {who} said they have driven to {city}.",
+  "hint": "My {who} said they ______ to {city}.",
+  "key": "had driven",
+  "acceptable": [
+   "drove"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "who": [
+    "friends",
+    "cousins",
+    "parents",
+    "neighbours"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{f} said she had wrote a {text}.",
+  "hint": "{f} said she ______ a {text}.",
+  "key": "had written",
+  "acceptable": [
+   "wrote"
+  ],
+  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "text": [
+    "poem",
+    "song",
+    "letter",
+    "story"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. The present perfect becomes the past perfect.",
+  "source": "'I've finished the {work},' {f} said.",
+  "hint": "{f} said that she ______ the {work}.",
+  "key": "had finished",
+  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "work": [
+    "homework",
+    "project",
+    "report",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. The present perfect becomes the past perfect.",
+  "source": "'I've lost my {thing},' {m} said.",
+  "hint": "{m} said that he ______ his {thing}.",
+  "key": "had lost",
+  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "keys",
+    "passport",
+    "phone",
+    "ticket"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. The present perfect becomes the past perfect.",
+  "source": "'We've never been to {city},' my {who} said.",
+  "hint": "My {who} said that they ______ never ______ to {city}.",
+  "key": [
+   "had",
+   "been"
+  ],
+  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "slots": {
+   "who": [
+    "parents",
+    "friends",
+    "cousins",
+    "neighbours"
+   ],
+   "city": [
+    "London",
+    "Seoul",
+    "Paris",
+    "Dubai"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. The present perfect becomes the past perfect.",
+  "source": "'I've already eaten,' {m} said at the {place}.",
+  "hint": "At the {place}, {m} said that he ______ already ______.",
+  "key": [
+   "had",
+   "eaten"
+  ],
+  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "party",
+    "café",
+    "wedding",
+    "table"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the words. The present perfect becomes the past perfect.",
+  "source": "'I've just bought a new {thing},' {f} said.",
+  "hint": "{f} said that she ______ just ______ a new {thing}.",
+  "key": [
+   "had",
+   "bought"
+  ],
+  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "phone",
+    "car",
+    "dress",
+    "laptop"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend said: 'I lost my phone.' Report it with the past perfect.",
+  "requiredElement": "He / She said he / she had lost …",
+  "constraints": [
+   "exactly one sentence",
+   "had + past participle",
+   "pronoun change"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your brother said: 'I saw a famous singer.' Report it.",
+  "requiredElement": "He said he had seen …",
+  "constraints": [
+   "exactly one sentence",
+   "had seen",
+   "said"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report something someone told you about their holiday. Use had + past participle.",
+  "requiredElement": "said (that) … had …",
+  "constraints": [
+   "exactly one sentence",
+   "past perfect",
+   "said"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Someone said: 'I've finished.' Report it.",
+  "requiredElement": "… said he / she had finished",
+  "constraints": [
+   "exactly one sentence",
+   "had finished",
+   "pronoun"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write the direct words (past simple) and then the reported sentence.",
+  "requiredElement": "direct → reported with had",
+  "constraints": [
+   "exactly two sentences",
+   "past simple in quotes",
+   "had + past participle"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your teacher said: 'I wrote a book.' Report it.",
+  "requiredElement": "… said he / she had written a book",
+  "constraints": [
+   "exactly one sentence",
+   "had written",
+   "said"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friends said: 'We went to the mountains.' Report it.",
+  "requiredElement": "They said they had gone …",
+  "constraints": [
+   "exactly one sentence",
+   "they",
+   "had gone"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Someone said: 'I've never been to London.' Report it.",
+  "requiredElement": "… said he / she had never been …",
+  "constraints": [
+   "exactly one sentence",
+   "had never been",
+   "said"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend told you about a bad day. Write three or four sentences reporting what had happened.",
+  "targetGrammar": "reported speech with had + pp",
+  "lookFor": [
+   "said",
+   "had + past participle",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report what your family said about a trip they took. Write three or four sentences.",
+  "targetGrammar": "past perfect in reported speech",
+  "lookFor": [
+   "they said",
+   "had",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A classmate told you about a film. Report it in three or four sentences.",
+  "targetGrammar": "backshift past → past perfect",
+  "lookFor": [
+   "said",
+   "had seen / had liked",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences reporting what a tourist said about your city.",
+  "targetGrammar": "had + past participle",
+  "lookFor": [
+   "said",
+   "had",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report a story a grandparent told you about their youth. Write three or four sentences.",
+  "targetGrammar": "past perfect in reported speech",
+  "lookFor": [
+   "said",
+   "had",
+   "three or four sentences"
+  ]
+ }
+]

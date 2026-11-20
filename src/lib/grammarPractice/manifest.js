@@ -1556,6 +1556,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "reported-speech.statements.backshift-past": {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 368,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "reported-speech.statements.backshift-present": {
   "domain": "reported-speech",
   "branch": "statements",
