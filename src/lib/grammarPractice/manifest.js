@@ -492,6 +492,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.obligation.modal-passive": {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.obligation.must": {
   "domain": "modals",
   "branch": "obligation",

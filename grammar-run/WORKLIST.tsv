@@ -192,7 +192,7 @@
 191	C	comparison.modified-comparison.slightly-comparative	B1	1	live	slightly + comparative
 192	C	comparison.parallel-comparison.progressive-comparative	B1	1	live	comparative + and + comparative for gradual change
 193	C	comparison.parallel-comparison.the-more-the-more	B1	3	live	the + comparative ..., the + comparative | Productive parallel comparative | Reduced parallel comparative with ellipsis ('the sooner, the better')
-194	C	modals.obligation.modal-passive	B1	1	todo	Modal + be + pp when the subject receives the action
+194	C	modals.obligation.modal-passive	B1	1	live	Modal + be + pp when the subject receives the action
 195	C	modals.deduction.cant-present	B1	3	live	can't (not mustn't) for a negative deduction | can't for a negative deduction in an extended context | Productive can't be for negative deduction
 196	C	modals.deduction.might-present	B1	1	live	might for an uncertain deduction
 197	C	modals.deduction.must-present	B1	2	live	must for a confident present deduction | Productive must for present deduction
