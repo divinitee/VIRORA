@@ -1116,11 +1116,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "I can't get used to get up so early, {name}.",
-  "hint": "I can't get used to ______ up so early, {name}.",
+  "source": "I can't get used to get up so early for {work}, {name}.",
+  "hint": "I can't get used to ______ up so early for {work}, {name}.",
   "key": "getting",
   "why": "After get used to, the verb is -ing: getting up.",
   "slots": {
+   "work": [
+    "school",
+    "work",
+    "training",
+    "my new job"
+   ],
    "name": [
     "Dilnoza",
     "Sardor",
@@ -1222,8 +1228,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "My uncle never got used to work at night as a {job}.",
-  "hint": "My uncle never got used to ______ at night as a {job}.",
+  "source": "My uncle never got used to work at night as a {job}, {name}.",
+  "hint": "My uncle never got used to ______ at night as a {job}, {name}.",
   "key": "working",
   "why": "got used to + -ing: working.",
   "slots": {
@@ -1232,6 +1238,12 @@
     "nurse",
     "baker",
     "guard"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1272,8 +1284,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with got used to.",
-  "source": "The spicy {food} was hard for us at first. Later it was fine.",
-  "hint": "We ______ the spicy {food}.",
+  "source": "The spicy {food} was hard for us at first. Later it was fine, {name}.",
+  "hint": "We ______ the spicy {food}, {name}.",
   "key": "got used to",
   "why": "Hard at first, fine later: got used to + noun.",
   "slots": {
@@ -1282,6 +1294,12 @@
     "noodles",
     "sauce",
     "curry"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1294,8 +1312,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with got used to.",
-  "source": "Waking up at {time} was difficult for my sister. After a month it was easy.",
-  "hint": "My sister ______ up at {time}.",
+  "source": "Waking up at {time} was difficult for my sister. After a month it was easy, {name}.",
+  "hint": "My sister ______ up at {time}, {name}.",
   "key": "got used to waking",
   "why": "Difficult, then easy: got used to + -ing.",
   "slots": {
@@ -1304,6 +1322,12 @@
     "six",
     "half past five",
     "dawn"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1344,11 +1368,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with got used to.",
-  "source": "Speaking English at work was scary for me. Now it's normal, {name}.",
-  "hint": "I ______ English at work, {name}.",
+  "source": "Speaking English at {place} was scary for me. Now it's normal, {name}.",
+  "hint": "I ______ English at {place}, {name}.",
   "key": "got used to speaking",
   "why": "Scary before, normal now: got used to + -ing.",
   "slots": {
+   "place": [
+    "work",
+    "school",
+    "meetings",
+    "the hotel"
+   ],
    "name": [
     "Zarina",
     "Akmal",
@@ -1366,11 +1396,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with am / is / are getting used to.",
-  "source": "Living alone is still a bit strange for me, but it's easier every week, {name}.",
-  "hint": "I ______ alone, {name}.",
+  "source": "Living alone in {city} is still a bit strange for me, but it's easier every week, {name}.",
+  "hint": "I ______ alone in {city}, {name}.",
   "key": "am getting used to living",
   "why": "Easier every week = still changing: am getting used to + -ing.",
   "slots": {
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Seoul",
+    "Istanbul"
+   ],
    "name": [
     "Dilnoza",
     "Sardor",
@@ -1388,8 +1424,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with am / is / are getting used to.",
-  "source": "The new {thing} is still strange for my mum, but she uses it every day.",
-  "hint": "My mum ______ the new {thing}.",
+  "source": "The new {thing} is still strange for my mum, but she uses it every day, {name}.",
+  "hint": "My mum ______ the new {thing}, {name}.",
   "key": "is getting used to",
   "why": "Still strange, used every day: is getting used to.",
   "slots": {
@@ -1398,6 +1434,12 @@
     "oven",
     "laptop",
     "car"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1438,11 +1480,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with am / is / are getting used to.",
-  "source": "Working nights is hard for my brother, but it's a little easier now, {name}.",
-  "hint": "My brother ______ nights, {name}.",
+  "source": "Working nights at the {place} is hard for my brother, but it's a little easier now, {name}.",
+  "hint": "My brother ______ nights at the {place}, {name}.",
   "key": "is getting used to working",
   "why": "A little easier now: is getting used to + -ing.",
   "slots": {
+   "place": [
+    "hospital",
+    "bakery",
+    "factory",
+    "hotel"
+   ],
    "name": [
     "Dilnoza",
     "Sardor",
