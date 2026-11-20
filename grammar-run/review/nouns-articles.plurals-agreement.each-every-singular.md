@@ -76,7 +76,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: questions · of questions · the questions · ✔ question  
    why: Each is followed by a singular noun (question), never a plural.
 
-19. Each of these **cups** ______ **twenty thousand** soum.  
+19. Each of these **cups** ______ **twenty thousand** soum now.  
    options: costing · are cost · ✔ costs · cost  
    why: Each of + a plural noun still means one by one, so the verb is singular: costs.
 

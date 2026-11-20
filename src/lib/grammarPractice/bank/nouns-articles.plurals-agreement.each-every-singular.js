@@ -567,7 +567,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Each of these {things} ______ {price} soum.",
+  "prompt": "Each of these {things} ______ {price} soum now.",
   "options": [
    "costing",
    "are cost",

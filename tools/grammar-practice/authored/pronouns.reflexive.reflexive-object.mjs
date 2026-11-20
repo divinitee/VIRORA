@@ -74,7 +74,7 @@ const CHOOSE = [
 });
 
 /* ---------------- build: 20 gap_fill ---------------- */
-const INSTR_B = "Write the right pronoun: myself / yourself / himself … or me / you / us … The word in brackets says who it is.";
+const INSTR_B = "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.";
 const BUILD = [
   ["myself", W_SELF, "I cut ______ while I was cooking {food} {when}.", { food: ["plov", "soup", "dinner", "fish"], when: PAST }],
   ["yourself", W_SELF, "Be careful, {g}! Don't burn ______ on the {pan}.", { g: GIRL, pan: PAN }],

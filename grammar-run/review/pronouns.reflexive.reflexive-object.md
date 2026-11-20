@@ -86,103 +86,103 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## build (20)
 
-1. _Write the right pronoun._  
+1. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    I cut ______ while I was cooking **plov** **last week**.  
    key: myself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-2. _Write the right pronoun._  
+2. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    Be careful, **Lola**! Don't burn ______ on the **pan**.  
    key: yourself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-3. _Write the right pronoun._  
+3. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    We introduced ______ to the new **students** on **Tuesday**.  
    key: ourselves  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-4. _Write the right pronoun._  
+4. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    I made ______ a **sandwich** because I was hungry, **Kamila**.  
    key: myself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-5. _Write the right pronoun._  
+5. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    Did you hurt ______ when you fell on the **stairs**, **Lola**?  
    key: yourself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-6. _Write the right pronoun._  
+6. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    My grandpa taught ______ English from **old books** in **Termez**.  
    key: himself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-7. _Write the right pronoun._  
+7. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    I looked at ______ in the **mirror** and laughed, **Kamila**.  
    key: myself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-8. _Write the right pronoun._  
+8. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    Enjoy ______ at the **wedding**, **Olga**!  
    key: yourself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-9. _Write the right pronoun._  
+9. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    We enjoyed ______ at the **concert** **last night**.  
    key: ourselves  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-10. _Write the right pronoun._  
+10. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    The **front** door locks ______ when you close it, **Madina**.  
    key: itself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-11. _Write the right pronoun._  
+11. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    I'm angry with ______ because I forgot my **keys**, **Olga**.  
    key: myself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-12. _Write the right pronoun._  
+12. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    Take care of ______ in **Bukhara**, **Olga**.  
    key: yourself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-13. _Write the right pronoun._  
+13. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    I sometimes talk to ______ when I'm **nervous**, **Lola**.  
    key: myself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-14. _Write the right pronoun._  
+14. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    We bought ______ new **hats** for the trip to **Khiva**.  
    key: ourselves  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-15. _Write the right pronoun._  
+15. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
    Help ______ to some **samsa**, **Lola**.  
    key: yourself  
    why: The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.
 
-16. _Write the right pronoun._  
-   My dad drove ______ to the **airport** **last night**.  
+16. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
+   My dad drove ______ (I) to the **airport** **last night**.  
    key: me  
    why: Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.
 
-17. _Write the right pronoun._  
-   Can you show ______ the way to the **museum**, **Kamila**?  
+17. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
+   Can you show ______ (I) the way to the **museum**, **Kamila**?  
    key: me  
    why: Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.
 
-18. _Write the right pronoun._  
-   Our neighbours invited ______ to their **wedding** **last night**.  
+18. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
+   Our neighbours invited ______ (we) to their **wedding** **last night**.  
    key: us  
    why: Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.
 
-19. _Write the right pronoun._  
-   I'll send ______ the photos **tomorrow**, **Olga**.  
+19. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
+   I'll send ______ (you) the photos **tomorrow**, **Olga**.  
    key: you  
    why: Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.
 
-20. _Write the right pronoun._  
-   The **professor** gave ______ a good mark **yesterday**.  
+20. _Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is._  
+   The **professor** gave ______ (I) a good mark **yesterday**.  
    key: me  
    why: Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.
 

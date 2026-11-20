@@ -48,7 +48,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: the other · another · ✔ the others · others  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 
-12. There were five **apples**. I ate one, and my brother ate ______, **Aziz**.  
+12. There were five **apples**. I ate one, and my brother ate all ______, **Aziz**.  
    options: another · ✔ the others · others · the other  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 

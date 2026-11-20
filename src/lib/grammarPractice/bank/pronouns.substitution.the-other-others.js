@@ -349,7 +349,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "There were five {fruit}. I ate one, and my brother ate ______, {name}.",
+  "prompt": "There were five {fruit}. I ate one, and my brother ate all ______, {name}.",
   "options": [
    "another",
    "the others",
