@@ -82,6 +82,7 @@ export default function LiveTeacherV2() {
   const [recap, setRecap] = useState(null);
   const [personaName, setPersonaName] = useState("Vira");
   const [fillerNote, setFillerNote] = useState(""); // admins: why the "hmm" clips failed
+  const [timing, setTiming] = useState(""); // admins: where the waiting time went last turn
 
   const loopRef = useRef(null);
   const lessonRef = useRef(null); // { id, deadline }
@@ -158,6 +159,7 @@ export default function LiveTeacherV2() {
     if (!lessonRef.current || phaseRef.current !== "live") return;
     setError("");
     const filler = playFiller();
+    const sentAt = performance.now();
     let r;
     try {
       const audio_b64 = await blobToB64(blob);
@@ -175,6 +177,11 @@ export default function LiveTeacherV2() {
     if (phaseRef.current !== "live") return;
     if (r.empty) { loopRef.current?.listen(); return; }
 
+    if (r.timings) {
+      const s = (ms) => `${(ms / 1000).toFixed(1)}s`;
+      const total = performance.now() - sentAt;
+      setTiming(`last turn: ears ${s(r.timings.ears_ms || 0)} · brain ${s(r.timings.brain_ms || 0)} · voice ${s(r.timings.voice_ms || 0)} · network ${s(Math.max(0, total - (r.timings.server_ms || 0)))} · total ${s(total)}`);
+    }
     if (typeof r.lesson_cost_usd === "number") setCost(r.lesson_cost_usd);
     addTurn("student", r.student_text, { away: r.addressed === false });
     addTurn("teacher", r.reply_text, { explanation: r.explanation_text });
@@ -355,6 +362,7 @@ export default function LiveTeacherV2() {
 
       {error ? <p className="text-sm text-rose-300">{error}</p> : null}
       {isAdmin && fillerNote ? <p className="text-xs text-amber-300">{fillerNote}</p> : null}
+      {isAdmin && timing ? <p className="text-[11px] text-muted-foreground">{timing}</p> : null}
       {paused && pausedReason ? (
         <p className="text-sm text-muted-foreground text-center">
           {pausedReason === "away" ? "Paused. Someone needs you? Press Resume when you're back." : pausedReason === "idle" ? "Paused because it went quiet." : "Paused."}
