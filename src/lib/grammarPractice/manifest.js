@@ -856,6 +856,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.dependent-prepositions.verb-preposition": {
+  "domain": "prep-phrasal",
+  "branch": "dependent-prepositions",
+  "topic": "verb-preposition",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.movement.across-through-along": {
   "domain": "prep-phrasal",
   "branch": "movement",
