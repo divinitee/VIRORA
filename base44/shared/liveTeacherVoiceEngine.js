@@ -467,12 +467,12 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
     });
     const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft });
     const tBrain = Date.now();
-    const [{ out, usage }, ttsToken, safety] = await Promise.all([
-      think(env, { instructions, message, safetyId: await sha256Hex(user.id || user.email) }, fetchImpl),
+    const safetyId = await sha256Hex(user.id || user.email);
+    // The next voice pass is made while the brain thinks: no extra wait.
+    const [{ out, usage }, ttsToken] = await Promise.all([
+      think(env, { instructions, message, safetyId }, fetchImpl),
       softToken(env, 'tts_websocket', fetchImpl),
-      Promise.resolve(null),
     ]);
-    void safety;
     timings.brain_ms = Date.now() - tBrain;
 
     const ctx = { lessonId: lesson.id, mode: lesson.mode, ageGroup: lesson.age_group, now };
