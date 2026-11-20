@@ -284,11 +284,35 @@ export async function fillerClips({ user, body = {}, env, fetchImpl = fetch }) {
   try {
     const voiceId = await resolveVoice(env, persona, fetchImpl);
     const key = `${voiceId}|${settings(env).ttsModel}`;
-    if (!fillerCache.has(key)) {
-      const clips = await Promise.all(FILLERS[persona].map((text) => speak({ ...env, LIVE_TEACHER_AUDIO_TAGS: '0' }, { voiceId, text }, fetchImpl).then((v) => ({ text, audio_b64: v.audio_b64, mime: v.mime }))));
-      fillerCache.set(key, clips.filter((c) => c.audio_b64));
+    if (fillerCache.has(key)) return reply(200, { ok: true, clips: fillerCache.get(key) });
+    // Two at a time with one retry: ElevenLabs refuses too many parallel requests
+    // (that silently killed every filler in the first live test, 2026-11-20).
+    const quiet = { ...env, LIVE_TEACHER_AUDIO_TAGS: '0' };
+    const one = async (text) => {
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const v = await speak(quiet, { voiceId, text }, fetchImpl);
+          if (v.audio_b64) return { text, audio_b64: v.audio_b64, mime: v.mime };
+        } catch (e) {
+          if (attempt === 1) throw e;
+          await new Promise((r) => setTimeout(r, 700));
+        }
+      }
+      return null;
+    };
+    const clips = [];
+    let lastError = '';
+    const lines = FILLERS[persona];
+    for (let i = 0; i < lines.length; i += 2) {
+      const got = await Promise.allSettled(lines.slice(i, i + 2).map(one));
+      for (const g of got) {
+        if (g.status === 'fulfilled' && g.value) clips.push(g.value);
+        else if (g.status === 'rejected') lastError = redact(g.reason?.message);
+      }
     }
-    return reply(200, { ok: true, clips: fillerCache.get(key) });
+    if (clips.length === lines.length) fillerCache.set(key, clips); // cache only a full set
+    if (!clips.length) throw new ServiceError('fillers_failed', `Fillers: ${lastError || 'no audio'}`);
+    return reply(200, { ok: true, clips, ...(lastError && user?.role === 'admin' ? { warning: lastError } : {}) });
   } catch (e) {
     return errorReply(user, e);
   }
