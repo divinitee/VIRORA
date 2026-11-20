@@ -25,6 +25,8 @@
 
 import { writeFileSync } from "node:fs";
 
+// Audit (Claude, 20 Nov): four "the" keys had a post-modifier ("students in my group") where the zero
+// article is also English; each is now one specific group or thing (we met, you bought, we saw).
 const BASE = { domain: "nouns-articles", branch: "articles", topic: "zero-article-general", level: "B1", pv: "2.5" };
 const NAME = ["Aziz", "Olga", "Timur", "Lola"];
 const rot = (arr, i) => arr.map((_, j) => arr[(j + i) % arr.length]);
@@ -44,15 +46,15 @@ const CHOOSE = [
   ["–", "fresh fruit", "My grandmother thinks ______ fresh fruit is good for {who}.", { who: ["children", "everyone", "old people", "your skin"] , x: [] }],
   ["the", "water", "______ water in this {container} is very cold, {name}.", { container: ["bottle", "glass", "jug", "cup"], name: NAME }],
   ["–", "children", "______ children usually learn languages faster than {who}, {name}.", { who: ["adults", "their parents", "old people", "grandparents"], name: NAME }],
-  ["the", "students", "______ students in my group are very {adj}, {name}.", { adj: ["friendly", "kind", "clever", "funny"], name: NAME }],
+  ["the", "students", "______ students we met at the party were very {adj}, {name}.", { adj: ["friendly", "kind", "clever", "funny"], name: NAME }],
   ["–", "coffee", "I never drink ______ coffee. I prefer {drink}, {name}.", { drink: ["tea", "juice", "milk", "water"], name: NAME }],
   ["–", "sport", "______ sport is good for your {part}, {name}.", { part: ["heart", "body", "health", "mood"], name: NAME }],
-  ["the", "bread", "______ bread from this {shop} is always fresh, {name}.", { shop: ["bakery", "shop", "bazaar", "kiosk"], name: NAME }],
+  ["the", "bread", "______ bread you bought at the {shop} this morning is very fresh, {name}.", { shop: ["bakery", "shop", "bazaar", "kiosk"], name: NAME }],
   ["–", "spiders", "Many people are afraid of ______ spiders, but my {who} loves them.", { who: ["sister", "brother", "cousin", "friend"], x: [] }],
   ["–", "health", "______ health is more important than {thing}, {name}.", { thing: ["money", "success", "fame", "work"], name: NAME }],
-  ["the", "teachers", "______ teachers at my {school} are very {adj}.", { school: ["school", "college", "lyceum", "university"], adj: ["kind", "strict", "helpful", "young"] }],
+  ["the", "teachers", "______ teachers I told you about work at my {school}. They are very {adj}.", { school: ["school", "college", "lyceum", "university"], adj: ["kind", "strict", "helpful", "young"] }],
   ["–", "elephants", "{who} told me that ______ elephants can't jump.", { who: ["My teacher", "My brother", "Grandpa", "Our guide"], x: [] }],
-  ["the", "elephants", "______ elephants at the zoo were {doing}, {name}.", { doing: ["eating", "sleeping", "playing", "swimming"], name: NAME }],
+  ["the", "elephants", "______ elephants we saw at the zoo yesterday were {doing}, {name}.", { doing: ["eating", "sleeping", "playing", "swimming"], name: NAME }],
   ["–", "breakfast", "______ breakfast is the most important meal of the day, {who} says.", { who: ["my mum", "our doctor", "my grandmother", "our teacher"], x: [] }],
   ["–", "vegetables", "______ vegetables are always good for {who}, {name}.", { who: ["you", "children", "everyone", "your body"], name: NAME }],
   ["the", "money", "Where is ______ money I gave you {when}, {name}?", { when: ["yesterday", "this morning", "last week", "on Monday"], name: NAME }],

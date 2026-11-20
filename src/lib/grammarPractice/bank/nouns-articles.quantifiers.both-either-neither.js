@@ -285,7 +285,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I've got two sisters. ______ of them are {jobs}, {name}.",
+  "prompt": "I've got two sisters. ______ of them are {jobs}, just like our mother, {name}.",
   "options": [
    "neither",
    "either",

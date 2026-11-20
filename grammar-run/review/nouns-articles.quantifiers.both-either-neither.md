@@ -40,7 +40,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: both · neither · ✔ either · none  
    why: Any one of the two is OK, so use either (with a singular noun).
 
-10. I've got two sisters. ______ of them are **nurses**, **Aziz**.  
+10. I've got two sisters. ______ of them are **nurses**, just like our mother, **Aziz**.  
    options: neither · either · none · ✔ both  
    why: It is true for the two of them, so use both (with a plural verb).
 

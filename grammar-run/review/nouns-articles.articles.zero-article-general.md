@@ -24,7 +24,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ – · The · A · Some of  
    why: This is about children in general, not some children we know. Use no article.
 
-6. ______ students in my group are very **kind**, **Olga**.  
+6. ______ students we met at the party were very **kind**, **Olga**.  
    options: ✔ The · A · Some of · –  
    why: This is about specific students (the ones the sentence names), so use the.
 
@@ -36,7 +36,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: Some of · ✔ – · The · A  
    why: This is about sport in general, not some sport we know. Use no article.
 
-9. ______ bread from this **bakery** is always fresh, **Timur**.  
+9. ______ bread you bought at the **bakery** this morning is very fresh, **Timur**.  
    options: – · ✔ The · A · Some of  
    why: This is about specific bread (the ones the sentence names), so use the.
 
@@ -48,7 +48,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: A · Some of · ✔ – · The  
    why: This is about health in general, not some health we know. Use no article.
 
-12. ______ teachers at my **school** are very **kind**.  
+12. ______ teachers I told you about work at my **school**. They are very **kind**.  
    options: Some of · – · ✔ The · A  
    why: This is about specific teachers (the ones the sentence names), so use the.
 
@@ -56,7 +56,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ – · the · a · some of  
    why: This is about elephants in general, not some elephants we know. Use no article.
 
-14. ______ elephants at the zoo were **swimming**, **Aziz**.  
+14. ______ elephants we saw at the zoo yesterday were **swimming**, **Aziz**.  
    options: ✔ The · A · Some of · –  
    why: This is about specific elephants (the ones the sentence names), so use the.
 

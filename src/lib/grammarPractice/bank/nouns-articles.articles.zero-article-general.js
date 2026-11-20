@@ -163,7 +163,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "______ students in my group are very {adj}, {name}.",
+  "prompt": "______ students we met at the party were very {adj}, {name}.",
   "options": [
    "The",
    "A",
@@ -259,7 +259,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "______ bread from this {shop} is always fresh, {name}.",
+  "prompt": "______ bread you bought at the {shop} this morning is very fresh, {name}.",
   "options": [
    "–",
    "The",
@@ -349,7 +349,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "______ teachers at my {school} are very {adj}.",
+  "prompt": "______ teachers I told you about work at my {school}. They are very {adj}.",
   "options": [
    "Some of",
    "–",
@@ -407,7 +407,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "______ elephants at the zoo were {doing}, {name}.",
+  "prompt": "______ elephants we saw at the zoo yesterday were {doing}, {name}.",
   "options": [
    "The",
    "A",

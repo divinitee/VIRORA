@@ -21,6 +21,7 @@
 
 import { writeFileSync } from "node:fs";
 
+// Audit (Claude, 20 Nov): "Neither of them are doctors" is said too, so the both line now has "just like our mother".
 const BASE = { domain: "nouns-articles", branch: "quantifiers", topic: "both-either-neither", level: "B1", pv: "2.5" };
 const NAME = ["Aziz", "Olga", "Timur", "Lola"];
 const NAME2 = ["Olga", "Lola", "Kamila", "Madina"];
@@ -51,7 +52,7 @@ const CHOOSE = [
   ["both", "b", "Olga and Lola are best friends. ______ of them want to study {subject} in {city}.", { subject: ["medicine", "law", "maths", "art"], city: ["Tashkent", "Kazan", "Seoul", "Almaty"] }],
   ["neither", "n", "______ of the two {things} was cheap, so I didn't buy anything, {name}.", { things: ["bags", "jackets", "phones", "watches"], name: NAME }],
   ["either", "e", "We can meet on Saturday or Sunday. ______ day is fine for me, {name}.", { name: NAME, x: [] }],
-  ["both", "b", "I've got two sisters. ______ of them are {jobs}, {name}.", { jobs: ["doctors", "teachers", "nurses", "students"], name: NAME }],
+  ["both", "b", "I've got two sisters. ______ of them are {jobs}, just like our mother, {name}.", { jobs: ["doctors", "teachers", "nurses", "students"], name: NAME }],
   ["neither", "n", "______ of my two brothers likes {food}. They never eat it, {name}.", { food: ["fish", "onions", "carrots", "soup"], name: NAME }],
   ["either", "e", "You can use ______ computer in the {room}, {name}. They both work now.", { room: ["lab", "library", "office", "classroom"], name: NAME }],
   ["both", "bn", "______ my phone and my laptop are broken, {name}. I can't {task}.", { name: NAME, task: ["do my homework", "send emails", "watch the lesson", "read my messages"] }],
