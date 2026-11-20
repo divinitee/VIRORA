@@ -276,3 +276,21 @@ test('brain stream: reply is handed over before the JSON is finished', async () 
   assert.equal(r.out.reply, 'Hello "friend". How are you?');
   assert.equal(r.usage.prompt_tokens, 10);
 });
+
+test('language: Russian/Uzbek speech is detected, mirrored in the prompt, and gets its own thinking sounds', async () => {
+  const { speechLang, buildTurnMessage, fillerLines } = await import('../../base44/shared/liveTeacherBrain.js');
+  const client = await import('../../src/lib/liveTeacher/fillerMood.js');
+  for (const f of [speechLang, client.speechLang]) {
+    assert.equal(f('rus', 'whatever'), 'ru');
+    assert.equal(f('', 'Э-э-э, стой, стой. Я не понял это.'), 'ru');
+    assert.equal(f('', 'Rahmat, men buni bilmaganman, tushuntirganingiz uchun'), 'uz');
+    assert.equal(f('eng', 'The man ate ham with his men.'), 'en');
+  }
+  assert.match(buildTurnMessage({ persona: 'vira', studentText: 'что это значит', studentLang: 'ru' }), /STUDENT LANGUAGE: Russian/);
+  assert.doesNotMatch(buildTurnMessage({ persona: 'vira', studentText: 'hello', studentLang: 'en' }), /STUDENT LANGUAGE/);
+  assert.equal(fillerLines('velvet', 'neutral', 'ru')[0], 'Ммм, понятно…');
+  const s = fakeServices();
+  const r = await fillerClips({ user: student, body: { persona: 'vira', mood: 'question', lang: 'uz' }, env, fetchImpl: s.fetchImpl });
+  assert.equal(r.body.lang, 'uz');
+  assert.ok(s.calls.some((c) => c.url.includes('/text-to-speech/') && JSON.parse(c.init.body).text.includes('yaxshi savol')));
+});

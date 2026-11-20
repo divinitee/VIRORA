@@ -268,24 +268,24 @@ export default function LiveTeacherV2() {
     const tEnd = performance.now();
     // ears: the phone sends the clip straight to ElevenLabs (accurate model, no server detour)
     let text = null;
-    let lang = "en";
+    let spokenLang = "en"; // what the student just spoke (en / uz / ru), not the app language
     const pass = sttRef.current;
     sttRef.current = null; // single use
     if (pass?.token) {
       const t = await transcribeDirect({ blob, token: pass.token, model: pass.model });
-      if (t.ok) { text = t.text; lang = speechLang(t.language, t.text); } else note(`direct ears: ${t.error}, using backup`);
+      if (t.ok) { text = t.text; spokenLang = speechLang(t.language, t.text); } else note(`direct ears: ${t.error}, using backup`);
     }
     const earsMs = performance.now() - tEnd;
     if (text !== null && !text.replace(/\([^)]*\)|\[[^\]]*\]/g, "").trim()) { refillEars(); loopRef.current?.listen(); return; } // only sounds
 
-    startThinking(text ? fillerMood(text) : "neutral", lang);
+    startThinking(text ? fillerMood(text) : "neutral", spokenLang);
     waitingRef.current = true;
     const tSent = performance.now();
     let r;
     try {
       const base = { lesson_id: lessonRef.current.id, duration_s: durationS, history: historyRef.current.slice(-16), lang };
       r = text !== null
-        ? await liveTeacherApi("v2_turn_text", { ...base, text, student_lang: lang }) // fast path: a few words of text
+        ? await liveTeacherApi("v2_turn_text", { ...base, text, student_lang: spokenLang }) // fast path: a few words of text
         : await liveTeacherApi("v2_turn", { ...base, audio_b64: await blobToB64(blob), mime: "audio/wav" }); // backup: upload the audio
     } catch (e) {
       waitingRef.current = false;
