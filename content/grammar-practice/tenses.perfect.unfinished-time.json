@@ -1471,7 +1471,10 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "have learnt"
+  ]
  },
  {
   "domain": "tenses",

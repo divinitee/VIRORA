@@ -116,7 +116,7 @@ const TRANSFORM = [
   [ANS, "How many {thing} have you learned this week, {name}? Twenty.", "I ______ twenty {thing} so far.", "have learned", WHY_P("have learned"), { thing: ["new words", "verbs", "songs", "phrases"], name: NAME }],
   [ANS, "How many times has it rained this {period}, {name}? Twice.", "It ______ twice so far, {name}.", "has rained", WHY_P("has rained"), { period: ["week", "month", "spring"], name: NAME }],
   [ANS, "How many {game} has your team played this year, {name}? Six.", "We ______ six {game} so far.", "have played", WHY_P("have played"), { game: ["matches", "games", "home matches", "finals"], name: NAME }],
-].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
+].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots, ...(key === "have learned" ? { acceptable: ["have learnt", "have learnt"].slice(0, 1) } : {}) }));
 
 /* ---------------- create: 8 ---------------- */
 const CREATE = [

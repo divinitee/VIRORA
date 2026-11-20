@@ -263,7 +263,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Answer the question with the present perfect and so far._  
    How many **new words** have you learned this week, **Lola**? Twenty.  
    → I ______ twenty **new words** so far.  
-   key: have learned  
+   key: have learned (also: have learnt)  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have learned.
 
 14. _Answer the question with the present perfect and so far._  

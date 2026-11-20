@@ -1482,7 +1482,10 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "have learnt"
+  ]
  },
  {
   "id": "gpr.tenses.perfect.unfinished-time.transform.014",
