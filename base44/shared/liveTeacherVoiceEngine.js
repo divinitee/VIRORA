@@ -18,7 +18,7 @@ import {
   getOrCreateProfile, saveProfile, loadLesson, finalize, lessonMistakes, withLabels, redact, sha256Hex,
 } from './liveTeacherEngine.js';
 import {
-  PERSONAS, cleanPersona, FILLERS, FILLER_TAG, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
+  PERSONAS, cleanPersona, FILLERS, fillerTag, cleanMood, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
   modelSupportsTags, stripAudioTags,
 } from './liveTeacherBrain.js';
 
@@ -29,7 +29,8 @@ const MAX_AUDIO_B64 = 4_000_000; // ~3 MB: far more than a 30-second WAV turn
 // List prices (USD) used for the per-lesson cost estimate. Override nothing
 // here to change billing: they only feed the estimate shown to the admin.
 export const PRICES = {
-  stt_per_hour: 0.20, // ElevenLabs Scribe v3
+  stt_per_hour: 0.20, // ElevenLabs Scribe v3 (uploaded clip, fallback path)
+  stt_live_per_hour: 0.22, // ElevenLabs Scribe v3 Live (streamed from the phone)
   tts_per_1k_chars: { eleven_v4_turbo: 0.04, eleven_v3_conversational: 0.04, eleven_v4: 0.08, eleven_v3: 0.08, eleven_flash_v2_5: 0.04 },
   brain_per_1m: {
     'gpt-5.6-terra': { in: 2, cached: 0.2, out: 12 },
@@ -45,14 +46,15 @@ export function settings(env = {}) {
     brainReasoning: env.LIVE_TEACHER_BRAIN_REASONING === undefined ? 'minimal' : env.LIVE_TEACHER_BRAIN_REASONING,
     ttsModel: env.LIVE_TEACHER_TTS_MODEL || 'eleven_v4_turbo',
     sttModel: env.LIVE_TEACHER_STT_MODEL || 'scribe_v3',
+    sttLiveModel: env.LIVE_TEACHER_STT_LIVE_MODEL || 'scribe_v3_live',
     audioTags: env.LIVE_TEACHER_AUDIO_TAGS !== '0',
   };
 }
 export const isVoiceConfigured = (env) => !!env?.OPENAI_API_KEY && !!env?.ELEVENLABS_API_KEY;
 
 const round6 = (n) => Math.round(n * 1e6) / 1e6;
-export function costOf({ sttSeconds = 0, brainModel, usage = null, ttsModel, ttsChars = 0 }) {
-  const stt = (sttSeconds / 3600) * PRICES.stt_per_hour;
+export function costOf({ sttSeconds = 0, sttLive = false, brainModel, usage = null, ttsModel, ttsChars = 0 }) {
+  const stt = (sttSeconds / 3600) * (sttLive ? PRICES.stt_live_per_hour : PRICES.stt_per_hour);
   const p = PRICES.brain_per_1m[brainModel] || PRICES.brain_per_1m['gpt-5.6-terra'];
   const inTok = usage?.prompt_tokens || 0;
   const cached = usage?.prompt_tokens_details?.cached_tokens || 0;
@@ -93,6 +95,19 @@ function bytesToB64(bytes) {
 class ServiceError extends Error {
   constructor(code, message, status = 502) { super(message); this.code = code; this.status = status; }
 }
+
+// ------------------------------------------------------------------ passes for the phone
+// Short-lived, single-use ElevenLabs tokens so the PHONE can stream the voice
+// and the live transcript directly (the permanent key never leaves the server).
+export async function mintToken(env, type, fetchImpl = fetch, { maxSeconds = null } = {}) {
+  const q = maxSeconds ? `?max_session_duration_seconds=${Math.round(maxSeconds)}` : '';
+  const res = await fetchImpl(`https://api.elevenlabs.io/v1/single-use-token/${type}${q}`, { method: 'POST', headers: { 'xi-api-key': env.ELEVENLABS_API_KEY } });
+  const data = await res.json().catch(() => null);
+  if (!res.ok || !data?.token) throw new ServiceError('token_failed', `Token ${type}: ${res.status} ${redact(data?.detail?.message || data?.detail)}`);
+  return data.token;
+}
+// A token failure must never break the lesson: the phone falls back to the server path.
+const softToken = (env, type, fetchImpl, opts) => mintToken(env, type, fetchImpl, opts).catch((e) => { console.error('live teacher v2 token', redact(e?.message)); return null; });
 
 // ------------------------------------------------------------------ voices
 const voiceCache = new Map(); // persona -> voice id (per warm function instance)
@@ -255,13 +270,21 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
   const ageGroup = ['kid', 'teen', 'adult'].includes(body.age_group) ? body.age_group : 'teen';
   const lang = ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz';
   const s = settings(env);
+  const tags = s.audioTags && modelSupportsTags(s.ttsModel);
   try {
-    const voiceId = await resolveVoice(env, persona, fetchImpl);
-    const { row, profile } = await getOrCreateProfile(svc, user.email);
-    const instructions = buildBrainInstructions({ persona, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: s.audioTags && modelSupportsTags(s.ttsModel) });
-    const safetyId = await sha256Hex(user.id || user.email);
-    const { out, usage } = await think(env, { instructions, message: buildTurnMessage({ persona, start: true }), safetyId }, fetchImpl);
-    const voice = await speak(env, { voiceId, text: out.reply }, fetchImpl);
+    const [voiceId, { row, profile }, safetyId] = await Promise.all([
+      resolveVoice(env, persona, fetchImpl), getOrCreateProfile(svc, user.email), sha256Hex(user.id || user.email),
+    ]);
+    const instructions = buildBrainInstructions({ persona, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags });
+    // The brain writes the greeting while the passes for the phone are made.
+    const [{ out, usage }, sttToken, ttsToken] = await Promise.all([
+      think(env, { instructions, message: buildTurnMessage({ persona, start: true }), safetyId }, fetchImpl),
+      softToken(env, 'realtime_scribe', fetchImpl, { maxSeconds: P.minutes * 60 + 180 }),
+      softToken(env, 'tts_websocket', fetchImpl),
+    ]);
+    const speakText = tags ? out.reply : stripAudioTags(out.reply);
+    // The phone streams the greeting itself; v2_speak is its fallback.
+    const voice = { chars: speakText.length };
     const c = costOf({ brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: voice.chars });
     const lesson = await svc.LiveTeacherLesson.create({
       user_email: user.email, mode: P.mode, age_group: ageGroup, status: 'started',
@@ -274,8 +297,9 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
     await saveProfile(svc, row, { ...profile, age_group: ageGroup });
     return reply(200, {
       ok: true, lesson_id: lesson.id, persona, persona_name: P.name, max_minutes: P.minutes,
-      reply_text: stripAudioTags(out.reply), explanation_text: out.explanation_text,
-      audio_b64: voice.audio_b64, audio_mime: voice.mime,
+      reply_text: stripAudioTags(out.reply), speak_text: speakText, explanation_text: out.explanation_text,
+      voice: { voice_id: voiceId, model: s.ttsModel }, stt_live_model: s.sttLiveModel,
+      tts_token: ttsToken, stt_token: sttToken,
       cost_usd: c.total, profile: publicProfileView(profile),
     });
   } catch (e) {
@@ -289,18 +313,18 @@ const fillerCache = new Map(); // voiceId|model -> clips (per warm instance)
 export async function fillerClips({ user, body = {}, env, fetchImpl = fetch }) {
   if (!isVoiceConfigured(env)) return reply(503, { ok: false, code: 'not_configured', error: 'Not set up.' });
   const persona = cleanPersona(body.persona);
+  const mood = cleanMood(body.mood);
   try {
     const voiceId = await resolveVoice(env, persona, fetchImpl);
-    const key = `${voiceId}|${settings(env).ttsModel}|v2`;
+    const key = `${voiceId}|${settings(env).ttsModel}|${mood}|v3`;
     if (fillerCache.has(key)) return reply(200, { ok: true, clips: fillerCache.get(key) });
     // Two at a time with one retry: ElevenLabs refuses too many parallel requests
     // (that silently killed every filler in the first live test, 2026-11-20).
-    // One fixed mood tag per persona, so every "hmm" has the same feel as the
-    // teacher (no more sad "mhm" followed by a cheerful answer).
+    // Each mood set is spoken with its own mood tag (sympathetic, happy, thoughtful...).
     const one = async (text) => {
       for (let attempt = 0; attempt < 2; attempt++) {
         try {
-          const v = await speak(env, { voiceId, text: `${FILLER_TAG[persona]} ${text}` }, fetchImpl);
+          const v = await speak(env, { voiceId, text: `${fillerTag(persona, mood)} ${text}` }, fetchImpl);
           if (v.audio_b64) return { text, audio_b64: v.audio_b64, mime: v.mime };
         } catch (e) {
           if (attempt === 1) throw e;
@@ -311,7 +335,7 @@ export async function fillerClips({ user, body = {}, env, fetchImpl = fetch }) {
     };
     const clips = [];
     let lastError = '';
-    const lines = FILLERS[persona];
+    const lines = FILLERS[persona][mood];
     for (let i = 0; i < lines.length; i += 2) {
       const got = await Promise.allSettled(lines.slice(i, i + 2).map(one));
       for (const g of got) {
@@ -321,7 +345,7 @@ export async function fillerClips({ user, body = {}, env, fetchImpl = fetch }) {
     }
     if (clips.length === lines.length) fillerCache.set(key, clips); // cache only a full set
     if (!clips.length) throw new ServiceError('fillers_failed', `Fillers: ${lastError || 'no audio'}`);
-    return reply(200, { ok: true, clips, ...(lastError && user?.role === 'admin' ? { warning: lastError } : {}) });
+    return reply(200, { ok: true, mood, clips, ...(lastError && user?.role === 'admin' ? { warning: lastError } : {}) });
   } catch (e) {
     return errorReply(user, e);
   }
