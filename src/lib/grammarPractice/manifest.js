@@ -898,6 +898,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "passive-causative.modal-passive.modal-be-pp": {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "passive-causative.perfect-progressive-passive.present-perfect-passive": {
   "domain": "passive-causative",
   "branch": "perfect-progressive-passive",

@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {form} form ______ by a parent, {name}.",
+  "options": [
+   "must be signed",
+   "must signed",
+   "must be sign",
+   "must been signed"
+  ],
+  "key": 0,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "form": [
+    "school",
+    "trip",
+    "visa",
+    "medical"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Plastic {thing} ______, so don't throw them away, {name}.",
+  "options": [
+   "can recycled",
+   "can be recycle",
+   "can been recycled",
+   "can be recycled"
+  ],
+  "key": 3,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "bottles",
+    "bags",
+    "cups",
+    "boxes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {med} ______ away from children, {name}.",
+  "options": [
+   "should be keep",
+   "should been kept",
+   "should be kept",
+   "should kept"
+  ],
+  "key": 2,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "med": [
+    "medicine",
+    "cleaning spray",
+    "knife",
+    "glue"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The new {place} ______ next year, {name}.",
+  "options": [
+   "will been finished",
+   "will be finished",
+   "will finished",
+   "will be finish"
+  ],
+  "key": 1,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "place": [
+    "bridge",
+    "metro line",
+    "stadium",
+    "hospital"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {event} ______ if it rains, {name}.",
+  "options": [
+   "might be cancelled",
+   "might cancelled",
+   "might be cancel",
+   "might been cancelled"
+  ],
+  "key": 0,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "picnic",
+    "concert",
+    "festival"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My old {thing} ______. I need a new one, {name}.",
+  "options": [
+   "can't fixed",
+   "can't be fix",
+   "can't been fixed",
+   "can't be fixed"
+  ],
+  "key": 3,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "TV",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{fruit} ______ before you eat them, {name}.",
+  "options": [
+   "should be wash",
+   "should been washed",
+   "should be washed",
+   "should washed"
+  ],
+  "key": 2,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "fruit": [
+    "Apples",
+    "Grapes",
+    "Peaches",
+    "Strawberries"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {bill} ______ by the first of the month, {name}.",
+  "options": [
+   "has to been paid",
+   "has to be paid",
+   "has to paid",
+   "has to be pay"
+  ],
+  "key": 1,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "bill": [
+    "rent",
+    "phone bill",
+    "gas bill",
+    "school fee"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {thing} ______ tomorrow, {name}.",
+  "options": [
+   "will be sent",
+   "will sent",
+   "will be send",
+   "will been sent"
+  ],
+  "key": 0,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "order",
+    "parcel",
+    "card"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The mountains ______ from our {room} window, {name}.",
+  "options": [
+   "can seen",
+   "can be see",
+   "can been seen",
+   "can be seen"
+  ],
+  "key": 3,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bedroom",
+    "office",
+    "hotel"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Phones ______ in the {room}, {name}.",
+  "options": [
+   "won't be allow",
+   "won't been allowed",
+   "won't be allowed",
+   "won't allowed"
+  ],
+  "key": 2,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "room": [
+    "exam room",
+    "meeting",
+    "library",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The lights ______ when you leave the {room}, {name}.",
+  "options": [
+   "should been turned off",
+   "should be turned off",
+   "should turned off",
+   "should be turn off"
+  ],
+  "key": 1,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "office",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Flights to {city} ______ because of the snow, {name}.",
+  "options": [
+   "might be delayed",
+   "might delayed",
+   "might be delay",
+   "might been delayed"
+  ],
+  "key": 0,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Istanbul",
+    "Almaty",
+    "Seoul"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Tickets ______ online or at the {place}, {name}.",
+  "options": [
+   "can bought",
+   "can be buy",
+   "can been bought",
+   "can be bought"
+  ],
+  "key": 3,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "place": [
+    "station",
+    "door",
+    "stadium",
+    "box office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {event} ______ in the main hall, {name}.",
+  "options": [
+   "will be hold",
+   "will been held",
+   "will be held",
+   "will held"
+  ],
+  "key": 2,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "event": [
+    "meeting",
+    "concert",
+    "party",
+    "exam"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Bags ______ on the {place}, {name}.",
+  "options": [
+   "shouldn't been left",
+   "shouldn't be left",
+   "shouldn't left",
+   "shouldn't be leave"
+  ],
+  "key": 1,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "place": [
+    "stairs",
+    "floor",
+    "bus",
+    "seats"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ before winter, {name}.",
+  "options": [
+   "has to be repaired",
+   "has to repaired",
+   "has to be repair",
+   "has to been repaired"
+  ],
+  "key": 0,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "roof",
+    "heater",
+    "window",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {thing} ______ without a key, {name}.",
+  "options": [
+   "can't opened",
+   "can't be open",
+   "can't been opened",
+   "can't be opened"
+  ],
+  "key": 3,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "door",
+    "box",
+    "safe",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The winners ______ on {day}, {name}.",
+  "options": [
+   "will be announce",
+   "will been announced",
+   "will be announced",
+   "will announced"
+  ],
+  "key": 2,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Sunday",
+    "Navruz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our old {thing} ______ next month, {name}.",
+  "options": [
+   "might been sold",
+   "might be sold",
+   "might sold",
+   "might be sell"
+  ],
+  "key": 1,
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "car",
+    "flat",
+    "house",
+    "piano"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "{food} ______ (should / keep) in the fridge, {name}.",
+  "key": "should be kept",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "food": [
+    "Milk",
+    "Meat",
+    "Fish",
+    "Cheese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "Old {thing} ______ (can / recycle), {name}.",
+  "key": "can be recycled",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "newspapers",
+    "bottles",
+    "phones",
+    "boxes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The new {place} ______ (will / finish) in May, {name}.",
+  "key": "will be finished",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "place": [
+    "bridge",
+    "metro line",
+    "stadium",
+    "hospital"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The {event} ______ (might / postpone), {name}.",
+  "key": "might be postponed",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "picnic",
+    "concert",
+    "festival"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "Your {thing} ______ (can't / fix), {name}. Sorry.",
+  "key": "can't be fixed",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "TV",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "This {form} form ______ (must / sign) by a parent, {name}.",
+  "key": "must be signed",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "form": [
+    "school",
+    "trip",
+    "visa",
+    "medical"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "Your {thing} ______ (will / send) tomorrow, {name}.",
+  "key": "will be sent",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "order",
+    "parcel",
+    "card"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The {sight} ______ (can / see) from the hill, {name}.",
+  "key": "can be seen",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "sight": [
+    "old town",
+    "river",
+    "sea",
+    "whole city"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "Dogs ______ (won't / allow) in the {place}, {name}.",
+  "key": "won't be allowed",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "place": [
+    "café",
+    "shop",
+    "museum",
+    "hotel"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "Phones ______ (should / turn off) in the {room}, {name}.",
+  "key": "should be turned off",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "room": [
+    "exam room",
+    "meeting",
+    "library",
+    "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "Trains to {city} ______ (might / delay) today, {name}.",
+  "key": "might be delayed",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "Tickets ______ (can / buy) at the {place}, {name}.",
+  "key": "can be bought",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "place": [
+    "station",
+    "door",
+    "stadium",
+    "box office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The {event} ______ (will / hold) in the park, {name}.",
+  "key": "will be held",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "event": [
+    "concert",
+    "festival",
+    "party",
+    "race"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "Children ______ (shouldn't / leave) alone at the {place}, {name}.",
+  "key": "shouldn't be left",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "place": [
+    "pool",
+    "beach",
+    "lake",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The {thing} ______ (can't / open) without a code, {name}.",
+  "key": "can't be opened",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "door",
+    "box",
+    "safe",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The results ______ (will / announce) on {day}, {name}.",
+  "key": "will be announced",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Sunday",
+    "Navruz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The old {thing} ______ (might / sell) soon, {name}.",
+  "key": "might be sold",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "car",
+    "flat",
+    "house",
+    "piano"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The {room} ______ (should / clean) every day, {name}.",
+  "key": "should be cleaned",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "bathroom",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "This {thing} ______ (can't / use) after {month}.",
+  "key": "can't be used",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "card",
+    "coupon",
+    "pass"
+   ],
+   "month": [
+    "May",
+    "June",
+    "July",
+    "August"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
+  "source": "The {bill} ______ (must / pay) today, {name}.",
+  "key": "must be paid",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "bill": [
+    "rent",
+    "phone bill",
+    "gas bill",
+    "school fee"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "You can recycle these {thing}, {name}.",
+  "hint": "These {thing} ______, {name}.",
+  "key": "can be recycled",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "bottles",
+    "bags",
+    "cups",
+    "boxes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "They will finish the new {place} next year, {name}.",
+  "hint": "The new {place} ______ next year, {name}.",
+  "key": "will be finished",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "place": [
+    "bridge",
+    "metro line",
+    "stadium",
+    "hospital"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "You should keep this {med} in a cool place, {name}.",
+  "hint": "This {med} ______ in a cool place, {name}.",
+  "key": "should be kept",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "med": [
+    "medicine",
+    "cream",
+    "cheese",
+    "chocolate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "They might postpone the {event}, {name}.",
+  "hint": "The {event} ______, {name}.",
+  "key": "might be postponed",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "picnic",
+    "concert",
+    "festival"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "Nobody can fix my old {thing}, {name}.",
+  "hint": "My old {thing} ______, {name}.",
+  "key": "can't be fixed",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "TV",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Plastic {thing} can recycled, {name}.",
+  "hint": "Plastic {thing} ______, {name}.",
+  "key": "can be recycled",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "bottles",
+    "bags",
+    "cups",
+    "boxes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {event} will be hold in the hall, {name}.",
+  "hint": "The {event} ______ in the hall, {name}.",
+  "key": "will be held",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "event": [
+    "meeting",
+    "concert",
+    "party",
+    "exam"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This {thing} can't been opened without a key, {name}.",
+  "hint": "This {thing} ______ without a key, {name}.",
+  "key": "can't be opened",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "door",
+    "box",
+    "safe",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{fruit} should washed before you eat them, {name}.",
+  "hint": "{fruit} ______ before you eat them, {name}.",
+  "key": "should be washed",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "fruit": [
+    "Apples",
+    "Grapes",
+    "Peaches",
+    "Strawberries"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {bill} must be pay today, {name}.",
+  "hint": "The {bill} ______ today, {name}.",
+  "key": "must be paid",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "bill": [
+    "rent",
+    "phone bill",
+    "gas bill",
+    "school fee"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a modal passive (can / can't / should / will / might + be + past participle).",
+  "source": "It's possible to see the {sight} from here, {name}.",
+  "hint": "The {sight} ______ from here, {name}.",
+  "key": "can be seen",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "sight": [
+    "old town",
+    "river",
+    "sea",
+    "whole city"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a modal passive (can / can't / should / will / might + be + past participle).",
+  "source": "It's a good idea to water the {plant} every day, {name}.",
+  "hint": "The {plant} ______ every day, {name}.",
+  "key": "should be watered",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "plant": [
+    "flowers",
+    "tomatoes",
+    "roses",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a modal passive (can / can't / should / will / might + be + past participle).",
+  "source": "They are going to announce the winners on {day}, {name}.",
+  "hint": "The winners ______ on {day}, {name}.",
+  "key": "will be announced",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Sunday",
+    "Navruz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a modal passive (can / can't / should / will / might + be + past participle).",
+  "source": "Maybe they will sell our old {thing}, {name}.",
+  "hint": "Our old {thing} ______, {name}.",
+  "key": "might be sold",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "car",
+    "flat",
+    "house",
+    "piano"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with a modal passive (can / can't / should / will / might + be + past participle).",
+  "source": "It's not possible to use this {thing} after {month}.",
+  "hint": "This {thing} ______ after {month}.",
+  "key": "can't be used",
+  "why": "Passive with a modal: modal + be + past participle.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "card",
+    "coupon",
+    "pass"
+   ],
+   "month": [
+    "May",
+    "June",
+    "July",
+    "August"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something that can be recycled.",
+  "requiredElement": "… can be recycled",
+  "constraints": [
+   "exactly one sentence",
+   "can be + past participle",
+   "present"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food that should be kept in the fridge.",
+  "requiredElement": "… should be kept …",
+  "constraints": [
+   "exactly one sentence",
+   "should be + past participle",
+   "a place"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a building that will be finished next year.",
+  "requiredElement": "… will be finished …",
+  "constraints": [
+   "exactly one sentence",
+   "will be + past participle",
+   "future"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about an event that might be cancelled.",
+  "requiredElement": "… might be cancelled …",
+  "constraints": [
+   "exactly one sentence",
+   "might be + past participle",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something that can't be fixed.",
+  "requiredElement": "… can't be fixed",
+  "constraints": [
+   "exactly one sentence",
+   "can't be + past participle",
+   "present"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one rule for a library with a modal passive.",
+  "requiredElement": "… must / should be …",
+  "constraints": [
+   "exactly one sentence",
+   "modal + be + past participle",
+   "a rule"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about your phone with two different modal passives.",
+  "requiredElement": "two modal passives",
+  "constraints": [
+   "exactly two sentences",
+   "two different modals",
+   "be + past participle"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a view that can be seen from somewhere.",
+  "requiredElement": "… can be seen from …",
+  "constraints": [
+   "exactly one sentence",
+   "can be seen",
+   "a place"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four rules for a hotel pool. Use can, can't, should and must + be + past participle.",
+  "targetGrammar": "modal passives for rules",
+  "lookFor": [
+   "can't be",
+   "should be",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe plans for your town next year. What will be built or changed? Write three or four sentences.",
+  "targetGrammar": "will be + past participle",
+  "lookFor": [
+   "will be",
+   "might be",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about recycling at home: what can be recycled and what should be thrown away?",
+  "targetGrammar": "can be / should be + past participle",
+  "lookFor": [
+   "can be",
+   "should be",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four instructions for looking after a plant or a pet, with should be and must be.",
+  "targetGrammar": "modal passive instructions",
+  "lookFor": [
+   "should be",
+   "must be",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a festival in your city. When will it be held, and what can be seen? Write three or four sentences.",
+  "targetGrammar": "will be held / can be seen",
+  "lookFor": [
+   "will be",
+   "can be",
+   "three or four sentences"
+  ]
+ }
+]
