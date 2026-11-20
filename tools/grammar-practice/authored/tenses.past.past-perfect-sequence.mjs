@@ -49,7 +49,7 @@ const CHOOSE = [
   ["know", "knew", "known", "I recognised {name} at once because I ______ him since {time}.", { name: NAME_M, time: ["school", "childhood", "primary school", "we were six"] }],
   ["drink", "drank", "drunk", "By the time I came back with the cups, my guests ______ all the {drink}.", { drink: ["tea", "juice", "water", "lemonade"], x: [] }],
   ["choose", "chose", "chosen", "When we got to the {shop}, my sister ______ a {thing} already.", { shop: ["shop", "bazaar", "market", "mall"], thing: ["dress", "present", "cake", "phone"] }],
-  ["come", "came", "come", "When I got to the {event}, all my {who} ______.", { event: ["party", "wedding", "meeting", "picnic"], who: ["friends", "cousins", "classmates", "teammates"] }],
+  ["ring", "rang", "rung", "I was late: when I got to {school}, the {bell} ______.", { school: ["school", "college", "the lyceum", "my lesson"], bell: ["bell", "first bell", "school bell"] }],
   ["sing", "sang", "sung", "By the time we got to the {place}, the {group} ______ three songs.", { place: ["hall", "concert", "school", "club"], group: ["choir", "children", "band", "singers"] }],
 ].map(([v, past, pp, prompt, slots], i) => {
   const s = {};
