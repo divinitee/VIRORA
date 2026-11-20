@@ -558,27 +558,26 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "When I got to the {event}, all my {who} ______.",
+  "prompt": "I was late: when I got to {school}, the {bell} ______.",
   "options": [
-   "had came",
-   "had come",
-   "had come",
-   "has come"
+   "had rang",
+   "had ring",
+   "had rung",
+   "has rung"
   ],
-  "key": 1,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, come.",
+  "key": 2,
+  "why": "This happened before the other past action, so use the past perfect: had + past participle, rung.",
   "slots": {
-   "event": [
-    "party",
-    "wedding",
-    "meeting",
-    "picnic"
+   "school": [
+    "school",
+    "college",
+    "the lyceum",
+    "my lesson"
    ],
-   "who": [
-    "friends",
-    "cousins",
-    "classmates",
-    "teammates"
+   "bell": [
+    "bell",
+    "first bell",
+    "school bell"
    ]
   }
  },
