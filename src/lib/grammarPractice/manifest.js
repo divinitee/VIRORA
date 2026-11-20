@@ -240,6 +240,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.parallel-comparison.progressive-comparative": {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 296,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.superlative.est-superlative": {
   "domain": "comparison",
   "branch": "superlative",

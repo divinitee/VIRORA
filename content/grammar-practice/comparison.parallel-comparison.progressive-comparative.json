@@ -103,7 +103,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Flats in {city} are getting ______ every year.",
+  "prompt": "Flats in {city} are getting ______ every year, {name}.",
   "options": [
    "most and most expensive",
    "more and more expensive",
@@ -118,6 +118,12 @@
     "Samarkand",
     "Moscow",
     "Almaty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -161,7 +167,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "After five hours of walking in the {place}, the children got ______.",
+  "prompt": "After five hours of walking in the {place}, the children got ______, {name}.",
   "options": [
    "tired and tired",
    "more tired and tired",
@@ -176,6 +182,12 @@
     "mountains",
     "museum",
     "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -251,7 +263,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "In {month}, the nights get ______ in the mountains.",
+  "prompt": "In {month}, the nights get ______ in the mountains, {name}.",
   "options": [
    "colder and colder",
    "more and more cold",
@@ -266,6 +278,12 @@
     "November",
     "late autumn",
     "December"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -373,7 +391,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The roads in our {city} are getting ______.",
+  "prompt": "The roads in our {city} are getting ______, {name}.",
   "options": [
    "busier and busier",
    "more and more busy",
@@ -388,6 +406,12 @@
     "city",
     "village",
     "district"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -431,7 +455,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {runner} ran ______ at the end of the race.",
+  "prompt": "The {runner} ran ______ at the end of the race, {name}.",
   "options": [
    "fast and fast",
    "more faster and faster",
@@ -446,6 +470,12 @@
     "girl",
     "horse",
     "winner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -489,7 +519,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My {bag} got ______ as I put more books in it.",
+  "prompt": "My {bag} got ______ as I put more books in it, {name}.",
   "options": [
    "heavier and heavier",
    "more and more heavy",
@@ -504,6 +534,12 @@
     "backpack",
     "box",
     "suitcase"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -515,7 +551,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My mother got ______ when my brother didn't call {when}.",
+  "prompt": "My mother got ______ when my brother didn't call {when}, {name}.",
   "options": [
    "worried and worried",
    "more worried and worried",
@@ -530,6 +566,12 @@
     "that night",
     "for two days",
     "all day"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -573,7 +615,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {weather} got ______, so we stayed inside.",
+  "prompt": "The {weather} got ______, so we stayed inside, {name}.",
   "options": [
    "more stronger and stronger",
    "stronger and stronger",
@@ -588,6 +630,12 @@
     "rain",
     "storm",
     "snow"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -627,7 +675,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
-  "source": "The weather in {city} is getting ______ (hot) every week.",
+  "source": "The weather in {city} is getting ______ (hot) every week, {name}.",
   "key": "hotter and hotter",
   "why": "The change keeps growing: comparative + and + comparative, hotter and hotter.",
   "slots": {
@@ -636,6 +684,12 @@
     "Bukhara",
     "Tashkent",
     "Karshi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -675,7 +729,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
-  "source": "Food at the {place} is getting ______ (expensive).",
+  "source": "Food at the {place} is getting ______ (expensive), {name}.",
   "key": "more and more expensive",
   "why": "The change keeps growing: comparative + and + comparative, more and more expensive.",
   "slots": {
@@ -684,6 +738,12 @@
     "supermarket",
     "café",
     "canteen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -723,7 +783,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
-  "source": "The noise from the {place} got ______ (loud) all night.",
+  "source": "The noise from the {place} got ______ (loud) all night, {name}.",
   "key": "louder and louder",
   "why": "The change keeps growing: comparative + and + comparative, louder and louder.",
   "slots": {
@@ -732,6 +792,12 @@
     "party",
     "flat next door",
     "café"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -906,7 +972,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
-  "source": "The town is getting ______ (big). There are new {thing} everywhere.",
+  "source": "The town is getting ______ (big). There are new {thing} everywhere, {name}.",
   "key": "bigger and bigger",
   "why": "The change keeps growing: comparative + and + comparative, bigger and bigger.",
   "slots": {
@@ -915,6 +981,12 @@
     "roads",
     "shops",
     "schools"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1029,7 +1101,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
-  "source": "The pain in my {part} got ______ (bad), so I called the doctor.",
+  "source": "The pain in my {part} got ______ (bad), so I called the doctor, {name}.",
   "key": "worse and worse",
   "why": "The change keeps growing: comparative + and + comparative, worse and worse.",
   "slots": {
@@ -1038,6 +1110,12 @@
     "leg",
     "back",
     "knee"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1050,7 +1128,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
-  "source": "As the night went on, the {place} got ______ (quiet).",
+  "source": "As the night went on, the {place} got ______ (quiet), {name}.",
   "key": "quieter and quieter",
   "why": "The change keeps growing: comparative + and + comparative, quieter and quieter.",
   "slots": {
@@ -1059,6 +1137,12 @@
     "town",
     "village",
     "city"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1148,8 +1232,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with … and … (the comparative twice).",
-  "source": "The {test} questions got a bit harder each time.",
-  "hint": "The {test} questions got ______.",
+  "source": "The {test} questions got a bit harder each time, {name}.",
+  "hint": "The {test} questions got ______, {name}.",
   "key": "harder and harder",
   "why": "The change keeps growing: comparative + and + comparative, harder and harder.",
   "slots": {
@@ -1158,6 +1242,12 @@
     "quiz",
     "exam",
     "game"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1170,8 +1260,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with … and … (the comparative twice).",
-  "source": "The {city} roads get a little busier every year.",
-  "hint": "The {city} roads are getting ______.",
+  "source": "The {city} roads get a little busier every year, {name}.",
+  "hint": "The {city} roads are getting ______, {name}.",
   "key": "busier and busier",
   "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
   "slots": {
@@ -1180,6 +1270,12 @@
     "Samarkand",
     "Bukhara",
     "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1248,8 +1344,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The music got loud and loud at the {event}.",
-  "hint": "The music got ______ at the {event}.",
+  "source": "The music got loud and loud at the {event}, {name}.",
+  "hint": "The music got ______ at the {event}, {name}.",
   "key": "louder and louder",
   "why": "The change keeps growing: comparative + and + comparative, louder and louder.",
   "slots": {
@@ -1258,6 +1354,12 @@
     "wedding",
     "concert",
     "festival"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1298,8 +1400,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "My little {pet} is getting more bigger and bigger.",
-  "hint": "My little {pet} is getting ______.",
+  "source": "My little {pet} is getting more bigger and bigger, {name}.",
+  "hint": "My little {pet} is getting ______, {name}.",
   "key": "bigger and bigger",
   "why": "The change keeps growing: comparative + and + comparative, bigger and bigger.",
   "slots": {
@@ -1308,6 +1410,12 @@
     "kitten",
     "rabbit",
     "brother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1376,11 +1484,18 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The change keeps growing. Rewrite the three sentences as one.",
-  "source": "At first my bag was heavy. Then it was heavier. At the end it was very heavy.",
-  "hint": "My bag got ______.",
+  "source": "At first my bag was heavy. Then it was heavier. At the end it was very heavy, {name}.",
+  "hint": "My bag got ______, {name}.",
   "key": "heavier and heavier",
   "why": "The change keeps growing: comparative + and + comparative, heavier and heavier.",
-  "slots": {}
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
  },
  {
   "domain": "comparison",
@@ -1391,8 +1506,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "The change keeps growing. Rewrite the three sentences as one.",
-  "source": "At first the {film} was interesting. Then it was more interesting. At the end it was great.",
-  "hint": "The {film} got ______.",
+  "source": "At first the {film} was interesting. Then it was more interesting. At the end it was great, {name}.",
+  "hint": "The {film} got ______, {name}.",
   "key": "more and more interesting",
   "why": "The change keeps growing: comparative + and + comparative, more and more interesting.",
   "slots": {
@@ -1401,6 +1516,12 @@
     "book",
     "story",
     "series"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
