@@ -75,10 +75,10 @@ export default [
   "format": "mcq",
   "prompt": "I'm still ______ my new {thing}. The buttons are different, {name}.",
   "options": [
-   "getting use to",
    "get used to",
+   "got used to",
    "getting used to",
-   "used to"
+   "getting use to"
   ],
   "key": 2,
   "why": "\"Still\" = the change is happening now: am getting used to.",
@@ -171,9 +171,9 @@ export default [
   "format": "mcq",
   "prompt": "Our new {who} is ______ the cold winters here, {name}.",
   "options": [
-   "used to",
    "getting use to",
    "get used to",
+   "got used to",
    "getting used to"
   ],
   "key": 3,
@@ -262,9 +262,9 @@ export default [
   "prompt": "Are you ______ your new {job} yet, {name}?",
   "options": [
    "getting used to",
-   "used to",
    "getting use to",
-   "get used to"
+   "get used to",
+   "got used to"
   ],
   "key": 0,
   "why": "\"Yet\" asks about a change that is still happening: getting used to.",

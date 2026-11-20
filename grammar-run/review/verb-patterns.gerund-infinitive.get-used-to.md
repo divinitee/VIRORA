@@ -13,7 +13,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After a month the food stopped feeling strange: got used to + noun.
 
 3. I'm still ______ my new **laptop**. The buttons are different, **Malika**.  
-   options: getting use to · get used to · ✔ getting used to · used to  
+   options: get used to · got used to · ✔ getting used to · getting use to  
    why: "Still" = the change is happening now: am getting used to.
 
 4. You'll soon ______ the noise from the **street**, **Otabek**.  
@@ -25,7 +25,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: She became comfortable with it quickly, in the past: got used to.
 
 6. Our new **teacher** is ______ the cold winters here, **Otabek**.  
-   options: used to · getting use to · get used to · ✔ getting used to  
+   options: getting use to · get used to · got used to · ✔ getting used to  
    why: It is happening now, little by little: is getting used to.
 
 7. I can't ______ driving on the left in **Australia**, **Zarina**.  
@@ -37,7 +37,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: "Soon" in a past story: got used to + -ing.
 
 9. Are you ______ your new **job** yet, **Feruza**?  
-   options: ✔ getting used to · used to · getting use to · get used to  
+   options: ✔ getting used to · getting use to · get used to · got used to  
    why: "Yet" asks about a change that is still happening: getting used to.
 
 10. It's hard to ______ a new **city** at my age, **Malika**.  

@@ -23,7 +23,7 @@ const NAME = ["Dilnoza", "Sardor", "Feruza", "Otabek"];
 const NAME2 = ["Zarina", "Akmal", "Malika", "Ulugbek"];
 const INF = ["get used to", "used to", "get use to", "use to"];
 const PAST = ["got used to", "used to", "got use to", "was use to"];
-const ING = ["getting used to", "used to", "getting use to", "get used to"];
+const ING = ["getting used to", "getting use to", "get used to", "got used to"]; // "used to" left out: "I'm used to …" (be used to) would be English
 const v4 = (ing, base, past) => [ing, base, past, `to ${base}`];
 
 /* ---------------- choose: 20 mcq ---------------- */
