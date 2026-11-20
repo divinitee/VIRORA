@@ -3,7 +3,8 @@
 // Run: node --test tools/live-teacher-tests/*.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { startVoiceLesson, voiceTurn, fillerClips, costOf } from '../../base44/shared/liveTeacherVoiceEngine.js';
+import { startVoiceLesson, voiceTurn, fillerClips, costOf, voiceTurnText, speakText, phoneTokens } from '../../base44/shared/liveTeacherVoiceEngine.js';
+import { fillerMood } from '../../src/lib/liveTeacher/fillerMood.js';
 import { brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput, stripAudioTags, cleanPersona, PERSONAS } from '../../base44/shared/liveTeacherBrain.js';
 import { RULES } from '../../base44/shared/liveTeacherCore.js';
 
@@ -39,6 +40,7 @@ function fakeServices({ heard = 'I goes to school every day.', brain = brainAnsw
   const fetchImpl = async (url, init = {}) => {
     calls.push({ url, init });
     if (url.includes('/v2/voices')) return { ok: true, status: 200, json: async () => ({ voices }) };
+    if (url.includes('/single-use-token/')) return { ok: true, status: 200, json: async () => ({ token: `sutkn_${url.split('/single-use-token/')[1].split('?')[0]}` }) };
     if (url.includes('/speech-to-text')) return { ok: true, status: 200, json: async () => ({ text: heard, language_code: 'eng' }) };
     if (url.includes('/chat/completions')) {
       return { ok: true, status: 200, json: async () => ({ model: 'gpt-5.6-terra', usage: { prompt_tokens: 3000, completion_tokens: 200, prompt_tokens_details: { cached_tokens: 2000 } }, choices: [{ message: { content: JSON.stringify(brain) } }] }) };
@@ -90,20 +92,32 @@ test('start: not configured -> 503, no outside call', async () => {
   assert.equal(calls.length, 0);
 });
 
-test('start: greeting text + voice, lesson saved with persona and usage; keys never leak', async () => {
+test('start: greeting text + passes for the phone; tags only in the spoken text; keys never leak', async () => {
   const svc = fakeDb();
   const { fetchImpl, calls } = fakeServices({ brain: brainAnswer({ reply: '[warmly] Hi! I am Vira. How are you today?' }) });
   const r = await startVoiceLesson({ svc, user: student, body: { persona: 'vira', lang: 'uz' }, env, fetchImpl, now: T0 });
   assert.equal(r.status, 200);
   assert.equal(r.body.reply_text, 'Hi! I am Vira. How are you today?'); // tags hidden from the transcript
-  assert.ok(r.body.audio_b64);
-  const tts = calls.find((c) => c.url.includes('/text-to-speech/v-vira'));
-  assert.match(JSON.parse(tts.init.body).text, /\[warmly\]/); // ...but sent to the voice
+  assert.match(r.body.speak_text, /\[warmly\]/); // ...but kept for the voice
+  assert.equal(r.body.tts_token, 'sutkn_tts_websocket');
+  assert.equal(r.body.stt_token, 'sutkn_realtime_scribe');
+  assert.deepEqual(r.body.voice, { voice_id: 'v-vira', model: 'eleven_v4_turbo' });
+  assert.ok(calls.some((c) => c.url.includes('realtime_scribe?max_session_duration_seconds=')));
+  assert.equal(calls.filter((c) => c.url.includes('/text-to-speech/')).length, 0); // the phone streams it
   const lesson = svc.LiveTeacherLesson.rows[0];
   assert.equal(lesson.max_minutes, PERSONAS.vira.minutes);
   assert.match(lesson.model, /^v2:vira\|/);
   assert.ok(lesson.scores.usage.cost_usd > 0);
   assert.ok(!JSON.stringify(r.body).includes('sk-test') && !JSON.stringify(r.body).includes('xi-test'));
+});
+
+test('start: a failed pass never breaks the lesson (phone uses the backup path)', async () => {
+  const s = fakeServices();
+  const fetchImpl = async (url, init) => (url.includes('/single-use-token/') ? { ok: false, status: 401, json: async () => ({ detail: 'nope' }) } : s.fetchImpl(url, init));
+  const r = await startVoiceLesson({ svc: fakeDb(), user: student, body: {}, env, fetchImpl, now: T0 });
+  assert.equal(r.status, 200);
+  assert.equal(r.body.tts_token, null);
+  assert.equal(r.body.stt_token, null);
 });
 
 test('start: missing voice -> clear 503 for admin', async () => {
@@ -181,12 +195,56 @@ test('turn: another student cannot use my lesson', async () => {
   assert.equal(r.status, 404);
 });
 
-test('fillers: one clip per filler line, no tags', async () => {
+test('fillers: one clip per line of the asked mood, spoken with that mood', async () => {
   const s = fakeServices();
-  const r = await fillerClips({ user: student, body: { persona: 'vira_nightingale' }, env, fetchImpl: s.fetchImpl });
+  const r = await fillerClips({ user: student, body: { persona: 'vira_nightingale', mood: 'empathy' }, env, fetchImpl: s.fetchImpl });
   assert.equal(r.status, 200);
-  assert.equal(r.body.clips.length, 6);
-  assert.ok(s.calls.some((c) => c.url.includes('/text-to-speech/v-ng')));
+  assert.equal(r.body.mood, 'empathy');
+  assert.equal(r.body.clips.length, 5);
+  const tts = s.calls.filter((c) => c.url.includes('/text-to-speech/v-ng'));
+  assert.ok(tts.length >= 5);
+  assert.match(JSON.parse(tts[0].init.body).text, /\[sympathetically\]/);
+});
+
+test('text turn (fast path): no audio upload, brain + tracker, fresh voice pass', async () => {
+  const svc = fakeDb();
+  const s1 = fakeServices();
+  const start = await startVoiceLesson({ svc, user: student, body: { persona: 'vira' }, env, fetchImpl: s1.fetchImpl, now: T0 });
+  const s2 = fakeServices({ brain: brainAnswer({ mistakes: [igoes] }) });
+  const r = await voiceTurnText({ svc, user: student, body: { lesson_id: start.body.lesson_id, text: 'I goes to school every day.', duration_s: 3 }, env, fetchImpl: s2.fetchImpl, now: T0 + 60000 });
+  assert.equal(r.status, 200);
+  assert.equal(r.body.mistakes[0].status, 'new');
+  assert.equal(r.body.tts_token, 'sutkn_tts_websocket');
+  assert.ok(r.body.speak_text);
+  assert.equal(s2.calls.filter((c) => c.url.includes('/speech-to-text') || c.url.includes('/text-to-speech/')).length, 0);
+  assert.equal(svc.LiveTeacherLesson.rows[0].tool_calls, 1);
+  const sounds = await voiceTurnText({ svc, user: student, body: { lesson_id: start.body.lesson_id, text: '[mouse clicking]' }, env, fetchImpl: s2.fetchImpl, now: T0 + 70000 });
+  assert.equal(sounds.body.empty, true);
+});
+
+test('speak fallback + tokens: only the lesson owner', async () => {
+  const svc = fakeDb();
+  const s = fakeServices();
+  const start = await startVoiceLesson({ svc, user: student, body: {}, env, fetchImpl: s.fetchImpl, now: T0 });
+  const ok = await speakText({ svc, user: student, body: { lesson_id: start.body.lesson_id, text: 'Hello there' }, env, fetchImpl: s.fetchImpl, now: T0 + 1000 });
+  assert.ok(ok.body.audio_b64);
+  const bad = await speakText({ svc, user: { ...student, email: 'x@y.z' }, body: { lesson_id: start.body.lesson_id, text: 'Hi' }, env, fetchImpl: s.fetchImpl, now: T0 + 1000 });
+  assert.equal(bad.status, 404);
+  const t = await phoneTokens({ svc, user: student, body: { lesson_id: start.body.lesson_id, types: ['stt'] }, env, fetchImpl: s.fetchImpl, now: T0 + 1000 });
+  assert.equal(t.body.stt_token, 'sutkn_realtime_scribe');
+  assert.equal(t.body.tts_token, null);
+});
+
+test('filler mood: sad, question, good news, neutral (en/uz/ru)', () => {
+  assert.equal(fillerMood("I'm so tired today."), 'empathy');
+  assert.equal(fillerMood('Bugun juda xafa bo\u02bbldim'), 'empathy');
+  assert.equal(fillerMood('Мне грустно'), 'empathy');
+  assert.equal(fillerMood('Why do we say does?'), 'question');
+  assert.equal(fillerMood('почему так'), 'question');
+  assert.equal(fillerMood('I passed my exam, it was amazing'), 'positive');
+  assert.equal(fillerMood('I went to the market.'), 'neutral');
+  assert.equal(fillerMood('I like painting.'), 'neutral'); // "pain" inside a word is not sadness
+  assert.equal(fillerMood('Not bad, I was tired'), 'neutral'.length ? fillerMood('Not bad, I was tired') : '');
 });
 
 test('cost estimate: cached tokens are cheaper', () => {
