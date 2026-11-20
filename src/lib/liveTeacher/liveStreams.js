@@ -114,7 +114,7 @@ export function createPcmPlayer(ctx, rate = PCM_RATE) {
 
   const decode = (b64) => {
     const bin = atob(b64);
-    let bytes = new Uint8Array(bin.length + (carry ? 1 : 0));
+    let bytes = new Uint8Array(bin.length + (carry !== null ? 1 : 0));
     let o = 0;
     if (carry !== null) { bytes[0] = carry; o = 1; carry = null; }
     for (let i = 0; i < bin.length; i++) bytes[o + i] = bin.charCodeAt(i);
