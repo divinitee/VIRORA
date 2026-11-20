@@ -632,7 +632,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "I've been very busy ______ (late), {name}. Sorry I didn't call.",
   "key": "lately",
-  "why": "lately = recently.",
+  "why": "\"busy … sorry I didn't call\" is about the recent past: lately = recently.",
   "slots": {
    "name": [
     "Sherzod",
@@ -653,7 +653,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "The {who} arrived ______ (late) again this morning, {name}.",
   "key": "late",
-  "why": "late = not on time / at a late hour.",
+  "why": "The teacher came after the right time: late = not on time / at a late hour.",
   "slots": {
    "who": [
     "teacher",
@@ -680,7 +680,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "Has the weather in {city} been cold ______ (late), {name}?",
   "key": "lately",
-  "why": "lately = recently.",
+  "why": "A question about recent weather: lately = recently.",
   "slots": {
    "city": [
     "Tashkent",
@@ -707,7 +707,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "Don't stay out ______ (late) tonight, {name}. You have the {test} tomorrow.",
   "key": "late",
-  "why": "late = not on time / at a late hour.",
+  "why": "Staying out until a late hour: late = not on time / at a late hour.",
   "slots": {
    "name": [
     "Sherzod",
@@ -734,7 +734,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "I ______ (hard) know anyone at the {event}, {name}.",
   "key": "hardly",
-  "why": "hardly = almost not.",
+  "why": "I almost don't know anyone there: hardly = almost not.",
   "slots": {
    "event": [
     "party",
@@ -761,7 +761,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "The builders worked ______ (hard) all day on the {thing}, {name}.",
   "key": "hard",
-  "why": "hard = with a lot of effort.",
+  "why": "They worked with a lot of effort: hard = with a lot of effort.",
   "slots": {
    "thing": [
     "roof",
@@ -788,7 +788,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "There's ______ (hard) any milk in the fridge, {name}.",
   "key": "hardly",
-  "why": "hardly = almost not.",
+  "why": "There is almost no milk: hardly = almost not.",
   "slots": {
    "name": [
     "Sherzod",
@@ -809,7 +809,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "My little brother ______ (hard) ever eats {food}, {name}.",
   "key": "hardly",
-  "why": "hardly = almost not.",
+  "why": "\"ever\" here means almost never: hardly = almost not.",
   "slots": {
    "food": [
     "vegetables",
@@ -836,7 +836,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "Try ______ (hard) and you will pass the {test}, {name}.",
   "key": "hard",
-  "why": "hard = with a lot of effort.",
+  "why": "Try with a lot of effort: hard = with a lot of effort.",
   "slots": {
    "test": [
     "exam",
@@ -863,7 +863,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "I ______ (near) forgot your birthday, {name}!",
   "key": "nearly",
-  "why": "nearly = almost.",
+  "why": "I almost forgot, but didn't: nearly = almost.",
   "slots": {
    "name": [
     "Otabek",
@@ -884,7 +884,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "Our hotel was ______ (near) the {sight} in {city}.",
   "key": "near",
-  "why": "near = close to (a place).",
+  "why": "The hotel was close to the place: near = close to (a place).",
   "slots": {
    "sight": [
     "old town",
@@ -911,7 +911,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "The {thing} costs ______ (near) a million sum, {name}.",
   "key": "nearly",
-  "why": "nearly = almost.",
+  "why": "The price is almost a million: nearly = almost.",
   "slots": {
    "thing": [
     "bike",
@@ -938,7 +938,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "We ______ (near) won the {match}, {name}. We lost 2–3.",
   "key": "nearly",
-  "why": "nearly = almost.",
+  "why": "2–3 means we almost won: nearly = almost.",
   "slots": {
    "match": [
     "final",
@@ -965,7 +965,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "Don't park ______ (near) the {place}, {name}.",
   "key": "near",
-  "why": "near = close to (a place).",
+  "why": "Don't park close to that place: near = close to (a place).",
   "slots": {
    "place": [
     "gate",
@@ -992,7 +992,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "Dr Karimova is a ______ (high) respected {job}, {name}.",
   "key": "highly",
-  "why": "highly = very / very well.",
+  "why": "People respect the doctor very much: highly = very / very well.",
   "slots": {
    "job": [
     "doctor",
@@ -1019,7 +1019,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "The kite flew ______ (high) above the {place}, {name}.",
   "key": "high",
-  "why": "high = far up.",
+  "why": "The kite was far up in the sky: high = far up.",
   "slots": {
    "place": [
     "park",
@@ -1046,7 +1046,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "I ______ (high) recommend this {thing}, {name}.",
   "key": "highly",
-  "why": "highly = very / very well.",
+  "why": "I recommend it very strongly: highly = very / very well.",
   "slots": {
    "thing": [
     "book",
@@ -1073,7 +1073,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "My {who} hasn't been well ______ (late), {name}.",
   "key": "lately",
-  "why": "lately = recently.",
+  "why": "\"hasn't been well\" in the recent past: lately = recently.",
   "slots": {
    "who": [
     "grandma",
@@ -1100,7 +1100,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "It's snowing ______ (hard) in the {place} today, {name}.",
   "key": "hard",
-  "why": "hard = with a lot of effort.",
+  "why": "Heavy snow falls hard: hard = with a lot of effort.",
   "slots": {
    "place": [
     "mountains",
@@ -1127,7 +1127,7 @@
   "instr": "Use the word in brackets or its -ly form.",
   "source": "The {work} is ______ (near) ready, {name}. Give me five minutes.",
   "key": "nearly",
-  "why": "nearly = almost.",
+  "why": "Five more minutes means almost ready: nearly = almost.",
   "slots": {
    "work": [
     "dinner",
@@ -1155,7 +1155,7 @@
   "source": "I haven't slept well recently, {name}.",
   "hint": "I haven't slept well ______, {name}.",
   "key": "lately",
-  "why": "recently = lately.",
+  "why": "Lately means recently: same meaning, same place.",
   "slots": {
    "name": [
     "Sherzod",
@@ -1177,7 +1177,7 @@
   "source": "Have you been to the {place} recently, {name}?",
   "hint": "Have you been to the {place} ______, {name}?",
   "key": "lately",
-  "why": "recently = lately.",
+  "why": "Lately means recently: same meaning, same place.",
   "slots": {
    "place": [
     "cinema",
@@ -1205,7 +1205,7 @@
   "source": "My dad has been very busy at the {place} recently.",
   "hint": "My dad has been very busy at the {place} ______.",
   "key": "lately",
-  "why": "recently = lately.",
+  "why": "Lately means recently: same meaning, same place.",
   "slots": {
    "place": [
     "office",
@@ -1227,7 +1227,7 @@
   "source": "It has rained a lot in {city} recently, {name}.",
   "hint": "It has rained a lot in {city} ______, {name}.",
   "key": "lately",
-  "why": "recently = lately.",
+  "why": "Lately means recently: same meaning, same place.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1255,7 +1255,7 @@
   "source": "What {thing} have you watched recently, {name}?",
   "hint": "What {thing} have you watched ______, {name}?",
   "key": "lately",
-  "why": "recently = lately.",
+  "why": "Lately means recently: same meaning, same place.",
   "slots": {
    "thing": [
     "films",
@@ -1283,7 +1283,7 @@
   "source": "I almost missed the {bus} this morning, {name}.",
   "hint": "I ______ missed the {bus} this morning, {name}.",
   "key": "nearly",
-  "why": "almost = nearly.",
+  "why": "Nearly means almost: put it where almost was.",
   "slots": {
    "bus": [
     "bus",
@@ -1311,7 +1311,7 @@
   "source": "We almost lost the {match}, {name}.",
   "hint": "We ______ lost the {match}, {name}.",
   "key": "nearly",
-  "why": "almost = nearly.",
+  "why": "Nearly means almost: put it where almost was.",
   "slots": {
    "match": [
     "final",
@@ -1339,7 +1339,7 @@
   "source": "The {thing} is almost ready, {name}.",
   "hint": "The {thing} is ______ ready, {name}.",
   "key": "nearly",
-  "why": "almost = nearly.",
+  "why": "Nearly means almost: put it where almost was.",
   "slots": {
    "thing": [
     "dinner",
@@ -1367,7 +1367,7 @@
   "source": "My grandma is almost ninety, {name}. She still cooks {food}!",
   "hint": "My grandma is ______ ninety, {name}. She still cooks {food}!",
   "key": "nearly",
-  "why": "almost = nearly.",
+  "why": "Nearly means almost: put it where almost was.",
   "slots": {
    "name": [
     "Otabek",
@@ -1395,7 +1395,7 @@
   "source": "I almost fell on the ice in the {place}, {name}.",
   "hint": "I ______ fell on the ice in the {place}, {name}.",
   "key": "nearly",
-  "why": "almost = nearly.",
+  "why": "Nearly means almost: put it where almost was.",
   "slots": {
    "place": [
     "street",
@@ -1423,7 +1423,7 @@
   "source": "I almost can't hear you. The music in the {place} is loud, {name}.",
   "hint": "I can ______ hear you. The music in the {place} is loud, {name}.",
   "key": "hardly",
-  "why": "almost can't = can hardly.",
+  "why": "almost can't hear → can hardly hear.",
   "slots": {
    "place": [
     "café",
@@ -1451,7 +1451,7 @@
   "source": "There was almost no food at the {event}, {name}.",
   "hint": "There was ______ any food at the {event}, {name}.",
   "key": "hardly",
-  "why": "almost no = hardly any.",
+  "why": "almost no food → hardly any food.",
   "slots": {
    "event": [
     "party",
@@ -1479,7 +1479,7 @@
   "source": "My uncle almost never visits {city}, {name}.",
   "hint": "My uncle ______ ever visits {city}, {name}.",
   "key": "hardly",
-  "why": "almost never = hardly ever.",
+  "why": "almost never visits → hardly ever visits.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1507,7 +1507,7 @@
   "source": "I almost didn't sleep before the {test}, {name}.",
   "hint": "I ______ slept before the {test}, {name}.",
   "key": "hardly",
-  "why": "almost didn't = hardly.",
+  "why": "almost didn't sleep → hardly slept.",
   "slots": {
    "test": [
     "exam",
@@ -1535,7 +1535,7 @@
   "source": "Almost nobody came to the {event}, {name}.",
   "hint": "______ anybody came to the {event}, {name}.",
   "key": "Hardly",
-  "why": "almost nobody = hardly anybody.",
+  "why": "almost nobody came → hardly anybody came.",
   "slots": {
    "event": [
     "meeting",

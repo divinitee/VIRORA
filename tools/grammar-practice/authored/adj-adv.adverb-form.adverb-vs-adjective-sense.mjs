@@ -77,7 +77,7 @@ const BUILD = [
   ["near", "near", "Our hotel was ______ (near) the {sight} in {city}.", { sight: ["old town", "beach", "station", "bazaar"], city: ["Bukhara", "Istanbul", "Khiva", "Samarkand"] }, "the hotel was close to the place"],
   ["nearly", "near", "The {thing} costs ______ (near) a million sum, {name}.", { thing: ["bike", "phone", "carpet", "laptop"], name: NAME }, "the price is almost a million"],
   ["nearly", "near", "We ______ (near) won the {match}, {name}. We lost 2–3.", { match: ["final", "match", "game", "cup"], name: NAME2 }, "2–3 means we almost won"],
-  ["near", "near", "Don't park ______ (near) the {place}, {name}.", { place: ["gate", "school", "hospital", "corner"], name: NAME }, "don"t park close to that place"],
+  ["near", "near", "Don't park ______ (near) the {place}, {name}.", { place: ["gate", "school", "hospital", "corner"], name: NAME }, "don't park close to that place"],
   ["highly", "high", "Dr Karimova is a ______ (high) respected {job}.", { job: ["doctor", "teacher", "surgeon", "scientist"], x: [] }, "people respect the doctor very much"],
   ["high", "high", "The kite flew ______ (high) above the {place}, {name}.", { place: ["park", "field", "beach", "roofs"], name: NAME2 }, "the kite was far up in the sky"],
   ["highly", "high", "I ______ (high) recommend this {thing}, {name}.", { thing: ["book", "film", "café", "teacher"], name: NAME }, "I recommend it very strongly"],
