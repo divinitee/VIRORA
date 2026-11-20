@@ -71,7 +71,7 @@ export const blobToB64 = (blob) => new Promise((resolve, reject) => {
  * createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, onLevel })
  * onUtterance({ blob, durationS }) fires when the student finished a turn.
  */
-export function createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, onLevel } = {}) {
+export function createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, onLevel, onTurnStart, onTurnChunk } = {}) {
   let ctx = null; let stream = null; let source = null; let proc = null;
   let state = 'paused';
   let pushToTalk = false;
@@ -86,6 +86,8 @@ export function createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, 
   function beginTurn() {
     turn = [...preroll]; voicedMs = 0; silenceMs = 0; turnMs = 0;
     set('speaking');
+    // live ears: send the pre-roll first so the first word is not cut
+    onTurnStart?.(concat(turn));
   }
   function finishTurn() {
     const ms = turnMs;
@@ -136,6 +138,7 @@ export function createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, 
       }
       case 'speaking': {
         turn.push(small); turnMs += frameMs;
+        onTurnChunk?.(small);
         if (voice) { voicedMs += frameMs; silenceMs = 0; } else silenceMs += frameMs;
         if (!pushToTalk && (silenceMs >= END_SILENCE_MS || turnMs >= MAX_TURN_S * 1000)) finishTurn();
         else if (pushToTalk && turnMs >= MAX_TURN_S * 1000) finishTurn();
