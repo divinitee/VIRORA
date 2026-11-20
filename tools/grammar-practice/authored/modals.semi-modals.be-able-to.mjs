@@ -74,7 +74,7 @@ const BUILD = [
   ["hasn't been able to find", WHY_P, "She ______ (not / find) a job since she came {where}, {name}.", { where: ["here", "back", "home", "over"], name: NAME }],
   ["haven't been able to visit", WHY_P, "We ______ (not / visit) Grandma this {time} because of the snow, {name}.", { time: ["month", "week", "winter", "year"], name: NAME }],
   ["haven't been able to call", WHY_P, "I ______ (not / call) you all {time}. My phone is broken, {name}.", { time: ["day", "week", "morning", "evening"], name: NAME }],
-  ["have been able to finish", WHY_P, "Good news! We ______ (finish) the {work} early, {name}.", { work: ["project", "report", "house", "garden"], name: NAME }],
+  ["have been able to finish", WHY_P, "Since we got the new {tool}, we ______ (finish) work early every day, {name}.", { tool: ["computer", "printer", "car", "machine"], name: NAME }],
   ["to be able to speak", WHY_I, "I want ______ (speak) {lang} with my grandparents, {name}.", { lang: ["Uzbek", "Russian", "Tajik", "Kazakh"], name: NAME }],
   ["to be able to play", WHY_I, "She'd like ______ (play) the {instr} one day, {name}.", { instr: ["piano", "guitar", "violin", "dutar"], name: NAME }],
   ["to be able to travel", WHY_I, "We hope ______ (travel) round {place} next year, {name}.", { place: ["Europe", "Asia", "Turkey", "Korea"], name: NAME }],
@@ -103,7 +103,7 @@ const TRANSFORM = [
   [PER, "Since {when}, sleeping well hasn't been possible for me, {name}.", "I ______ sleep well since {when}, {name}.", "haven't been able to", WHY_P, { when: ["Monday", "the party", "last week", "Sunday"], name: NAME }],
   [PER, "She came to {city} in May. She still has no {thing}.", "She ______ find a {thing} in {city}.", "hasn't been able to", WHY_P, { city: ["Tashkent", "Moscow", "Seoul", "Istanbul"], thing: ["job", "flat", "room", "school"] }],
   [PER, "This {time}, saving some money has been possible for us, {name}.", "This {time}, we ______ save some money, {name}.", "have been able to", WHY_P, { time: ["year", "month", "summer", "winter"], name: NAME }],
-  [PER, "They wanted us at their house this {time}, but there was never a free day, {name}.", "They ______ visit us this {time}, {name}.", "haven't been able to", WHY_P, { time: ["month", "week", "winter", "year"], name: NAME }],
+  [PER, "They wanted to visit us this {time}, but they never had a free day, {name}.", "They ______ visit us this {time}, {name}.", "haven't been able to", WHY_P, { time: ["month", "week", "winter", "year"], name: NAME }],
   [PER, "Since the {course}, films in English are easy for him, {name}.", "Since the {course}, he ______ understand films in English, {name}.", "has been able to", WHY_P, { course: ["course", "summer school", "trip", "camp"], name: NAME }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
 

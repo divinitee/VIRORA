@@ -91,7 +91,7 @@ const NOT = "Rewrite the sentence with fewer or less … than.";
 // [instr, source, hint, key, slots]
 const TRANSFORM = [
   [NUM, "Last year our {group} had 30 students. This year it has {n}.", "This year our {group} has ______ students than last year.", "fewer", { group: ["group", "class", "club", "team"], n: ["25", "22", "20", "18"] }],
-  [NUM, "I slept eight hours on Monday and {n} hours on Tuesday, {name}.", "I slept ______ on Tuesday than on Monday, {name}.", "fewer hours", { n: ["six", "five", "seven", "four"], name: NAME }],
+  [NUM, "I slept eight hours on Monday and {n} hours on Tuesday, {name}.", "I had ______ hours of sleep on Tuesday than on Monday, {name}.", "fewer hours", { n: ["six", "five", "seven", "four"], name: NAME }],
   [NUM, "The old phone cost 3 million soum. The new one costs {n} million, {name}.", "The new phone costs ______ money than the old one, {name}.", "less", { n: ["2", "2.5", "1.5", "1"], name: NAME }],
   [NUM, "We had 40 guests at my sister's wedding and {n} at mine, {name}.", "We had ______ guests at my wedding than at my sister's, {name}.", "fewer", { n: ["30", "25", "35", "20"], name: NAME }],
   [NUM, "Our old car used 10 litres of petrol a day. The new one uses {n}.", "The new car uses ______ petrol than the old one, {name}.", "less", { n: ["6", "7", "5", "8"], name: NAME }],

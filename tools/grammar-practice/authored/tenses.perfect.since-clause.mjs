@@ -73,7 +73,7 @@ const BUILD = [
   [IM, "has grown", "My little {sib} ______ (grow) a lot since you last saw him, {name}.", { sib: ["brother", "cousin", "nephew"], name: NAME }],
   [IM, "have learned", "I ______ (learn) many new words since I started {thing}, {name}.", { thing: ["reading English books", "watching films in English", "this course", "using the app"], name: NAME }],
   [IM, "has become", "Our {area} ______ (become) much quieter since they closed the {place}.", { area: ["street", "area", "village", "town"], place: ["old market", "car park", "factory", "big shop"] }],
-  [IM, "have wanted", "My {who} ______ (want) to be a doctor since she was in {class}.", { who: ["sister", "cousin", "best friend", "niece"], class: ["primary school", "year five", "year three", "kindergarten"] }],
+  [IM, "has wanted", "My {who} ______ (want) to be a doctor since she was in {class}.", { who: ["sister", "cousin", "best friend", "niece"], class: ["primary school", "year five", "year three", "kindergarten"] }],
   [IM, "has driven", "My {who} ______ (drive) the same {car} since I was born.", { who: ["father", "uncle", "grandfather"], car: ["car", "white car", "old car", "truck"] }],
   [IM, "have made", "We ______ (make) a lot of friends since we joined the {club}, {name}.", { club: ["chess club", "football club", "choir", "dance group"], name: NAME }],
   [IM, "has been", "{name} ______ (be) very happy since he got his new {job}.", { name: NAME_M, job: ["job", "bike", "puppy", "phone"] }],
