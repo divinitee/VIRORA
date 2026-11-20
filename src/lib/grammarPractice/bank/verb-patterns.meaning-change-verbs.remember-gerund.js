@@ -497,7 +497,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Do you remember ______ this {thing} at the bazaar, {name}?",
+  "prompt": "Do you remember ______ this {thing} at the bazaar years ago, {name}?",
   "options": [
    "buying",
    "to buy",
@@ -989,7 +989,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
-  "source": "I remember ______ (put) my {thing} on the table, {name}. Where is it now?",
+  "source": "I remember ______ (put) my {thing} on this table an hour ago, {name}.",
   "key": "putting",
   "why": "A memory of something done before: remember + -ing (putting).",
   "slots": {

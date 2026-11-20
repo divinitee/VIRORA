@@ -68,7 +68,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: got · ✔ getting · to get · get  
    why: "On my first trip" is the past, so this is a memory of the past: remember + -ing (getting).
 
-17. Do you remember ______ this **teapot** at the bazaar, **Nodira**?  
+17. Do you remember ______ this **teapot** at the bazaar years ago, **Nodira**?  
    options: ✔ buying · to buy · buy · bought  
    why: We bought it before: a memory, so this is a memory of the past: remember + -ing (buying).
 
@@ -162,7 +162,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A memory of something done before: remember + -ing (planting).
 
 16. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (put) my **wallet** on the table, **Akmal**. Where is it now?  
+   I remember ______ (put) my **wallet** on this table an hour ago, **Akmal**.  
    key: putting  
    why: A memory of something done before: remember + -ing (putting).
 
