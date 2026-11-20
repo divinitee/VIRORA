@@ -16,6 +16,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "adj-adv.adverb-form.irregular-adverb": {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 344,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "adj-adv.adverb-form.ly-adverb": {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "ly-adverb",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 368,
+   "build": 512,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "adj-adv.frequency.adverb-position": {
   "domain": "adj-adv",
   "branch": "frequency",
@@ -72,16 +100,44 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.comparative.double-comparative-error": {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "double-comparative-error",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.comparative.er-comparative": {
   "domain": "comparison",
   "branch": "comparative",
   "topic": "er-comparative",
-  "level": "A1",
+  "level": "A2",
   "authored": 68,
   "stages": {
    "choose": 320,
    "build": 368,
    "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.comparative.less-comparative": {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "less-comparative",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 240,
    "create": 8,
    "express": 5
   }
@@ -128,6 +184,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.superlative.irregular-superlative": {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 368,
+   "build": 320,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
  "conditionals-wishes.zero-first.first-if-clause": {
   "domain": "conditionals-wishes",
   "branch": "zero-first",
@@ -152,6 +222,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 268,
    "build": 284,
    "transform": 252,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "conditionals-wishes.zero-first.zero-general-truth": {
+  "domain": "conditionals-wishes",
+  "branch": "zero-first",
+  "topic": "zero-general-truth",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 284,
+   "build": 284,
+   "transform": 228,
    "create": 8,
    "express": 5
   }
@@ -492,6 +576,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.dependent-prepositions.adjective-preposition": {
+  "domain": "prep-phrasal",
+  "branch": "dependent-prepositions",
+  "topic": "adjective-preposition",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 368,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "prep-phrasal.dependent-prepositions.interested-in": {
+  "domain": "prep-phrasal",
+  "branch": "dependent-prepositions",
+  "topic": "interested-in",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 296,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.phrasal-verbs.common-phrasal": {
   "domain": "prep-phrasal",
   "branch": "phrasal-verbs",
@@ -576,6 +688,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.time.since-for": {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "since-for",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 464,
+   "build": 416,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "pronouns.demonstrative.that-those-far": {
   "domain": "pronouns",
   "branch": "demonstrative",
@@ -641,6 +767,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 308,
    "build": 352,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.substitution.one-ones": {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "one-ones",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 512,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -1318,6 +1458,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.gerund-infinitive.decide-infinitive": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "decide-infinitive",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 368,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.gerund-infinitive.enjoy-gerund": {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",
@@ -1327,6 +1481,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 308,
    "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "verb-patterns.gerund-infinitive.preposition-gerund": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "preposition-gerund",
+  "level": "A2",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5

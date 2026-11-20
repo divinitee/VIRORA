@@ -1,0 +1,1804 @@
+[
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} speaks {lang} very ______.",
+  "options": [
+   "well",
+   "good",
+   "goodly",
+   "more good"
+  ],
+  "key": 0,
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "lang": [
+    "English",
+    "Russian",
+    "Korean",
+    "Turkish"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {relative} cooks very ______, {name}. Come for dinner.",
+  "options": [
+   "well",
+   "good",
+   "goodly",
+   "more good"
+  ],
+  "key": 0,
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "relative": [
+    "mother",
+    "father",
+    "aunt",
+    "grandmother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On {day}, our team played very ______ and won the {event}.",
+  "options": [
+   "well",
+   "good",
+   "goodly",
+   "more good"
+  ],
+  "key": 0,
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
+   "event": [
+    "match",
+    "game",
+    "cup",
+    "final"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Did you sleep ______, {name}? You look {adj}.",
+  "options": [
+   "well",
+   "good",
+   "goodly",
+   "more good"
+  ],
+  "key": 0,
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "adj": [
+    "tired",
+    "happy",
+    "fresh",
+    "sleepy"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} draws {things} really ______.",
+  "options": [
+   "well",
+   "good",
+   "goodly",
+   "more good"
+  ],
+  "key": 0,
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "things": [
+    "animals",
+    "faces",
+    "flowers",
+    "cars"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know {city} very ______, so I use a {thing}.",
+  "options": [
+   "well",
+   "good",
+   "goodly",
+   "more good"
+  ],
+  "key": 0,
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "this city"
+   ],
+   "thing": [
+    "map",
+    "phone",
+    "guide",
+    "taxi"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The new {device} works very ______, {name}. Thank you!",
+  "options": [
+   "well",
+   "good",
+   "goodly",
+   "more good"
+  ],
+  "key": 0,
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "printer",
+    "washing machine"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} studies very ______ before every {exam}.",
+  "options": [
+   "hard",
+   "hardly",
+   "hardy",
+   "hardily"
+  ],
+  "key": 0,
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "exam": [
+    "exam",
+    "test",
+    "competition",
+    "interview"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {relative} works ______ in the {place} all day.",
+  "options": [
+   "hard",
+   "hardly",
+   "hardy",
+   "hardily"
+  ],
+  "key": 0,
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "relative": [
+    "father",
+    "uncle",
+    "mother",
+    "brother"
+   ],
+   "place": [
+    "field",
+    "shop",
+    "garden",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It is raining ______ now, so wait {where}, {name}.",
+  "options": [
+   "hard",
+   "hardly",
+   "hardy",
+   "hardily"
+  ],
+  "key": 0,
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "where": [
+    "inside",
+    "here",
+    "in the car",
+    "at school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Try ______ and you will {result}, {name}.",
+  "options": [
+   "hard",
+   "hardly",
+   "hardy",
+   "hardily"
+  ],
+  "key": 0,
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "result": [
+    "pass",
+    "win",
+    "finish",
+    "learn it"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} trained ______ for the {event}.",
+  "options": [
+   "hard",
+   "hardly",
+   "hardy",
+   "hardily"
+  ],
+  "key": 0,
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "who": [
+    "boys",
+    "girls",
+    "players",
+    "team"
+   ],
+   "event": [
+    "match",
+    "final",
+    "race",
+    "tournament"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} runs very ______. Nobody in the {group} can catch him.",
+  "options": [
+   "fast",
+   "fastly",
+   "fastily",
+   "more fastly"
+  ],
+  "key": 0,
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Sardor"
+   ],
+   "group": [
+    "class",
+    "team",
+    "school",
+    "street"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't drive so ______, {name}! The road is {adj}.",
+  "options": [
+   "fast",
+   "fastly",
+   "fastily",
+   "more fastly"
+  ],
+  "key": 0,
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "adj": [
+    "wet",
+    "narrow",
+    "icy",
+    "busy"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {relative} talks so ______ that I can't {do}.",
+  "options": [
+   "fast",
+   "fastly",
+   "fastily",
+   "more fastly"
+  ],
+  "key": 0,
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "relative": [
+    "sister",
+    "cousin",
+    "aunt",
+    "friend"
+   ],
+   "do": [
+    "understand",
+    "follow",
+    "answer",
+    "keep up"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The new {thing} goes very ______, {name}.",
+  "options": [
+   "fast",
+   "fastly",
+   "fastily",
+   "more fastly"
+  ],
+  "key": 0,
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "thing": [
+    "train",
+    "bus",
+    "bike",
+    "boat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {bus} arrived ______ again, so I missed the {thing}.",
+  "options": [
+   "late",
+   "lately",
+   "lated",
+   "latly"
+  ],
+  "key": 0,
+  "why": "Late is both the adjective and the adverb. Lately means recently.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "taxi",
+    "minibus"
+   ],
+   "thing": [
+    "first lesson",
+    "meeting",
+    "film",
+    "test"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} went to bed ______ and is very tired {when}.",
+  "options": [
+   "late",
+   "lately",
+   "lated",
+   "latly"
+  ],
+  "key": 0,
+  "why": "Late is both the adjective and the adverb. Lately means recently.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "when": [
+    "today",
+    "this morning",
+    "now",
+    "at school"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We got up ______ to catch the {bus} to {city}.",
+  "options": [
+   "early",
+   "earlily",
+   "earlyly",
+   "more early"
+  ],
+  "key": 0,
+  "why": "Early is both the adjective and the adverb. It does not change.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "plane",
+    "minibus"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Namangan"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} always comes to {place} ______, before everybody else.",
+  "options": [
+   "early",
+   "earlily",
+   "earlyly",
+   "more early"
+  ],
+  "key": 0,
+  "why": "Early is both the adjective and the adverb. It does not change.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "place": [
+    "school",
+    "work",
+    "training",
+    "the lesson"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the adverb of the word in brackets. Careful: it does not end in -ly.",
+  "source": "{name} plays the {inst} very ______ (good).",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "inst": [
+    "piano",
+    "guitar",
+    "dutar",
+    "violin"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the adverb of the word in brackets. Careful: it does not end in -ly.",
+  "source": "I can't see ______ (good) without my glasses, {name}.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the adverb of the word in brackets. Careful: it does not end in -ly.",
+  "source": "My {relative} knows {city} ______ (good). He was born there.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "relative": [
+    "father",
+    "uncle",
+    "grandfather",
+    "brother"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Namangan"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the adverb of the word in brackets. Careful: it does not end in -ly.",
+  "source": "The {event} went ______ (good), {name}. Everybody was happy.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "event": [
+    "party",
+    "meeting",
+    "concert",
+    "trip"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the adverb of the word in brackets. Careful: it does not end in -ly.",
+  "source": "{name} did ______ (good) in the {test} and got a {mark}.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "test": [
+    "test",
+    "exam",
+    "competition",
+    "quiz"
+   ],
+   "mark": [
+    "five",
+    "prize",
+    "top mark",
+    "medal"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the adverb of the word in brackets. Careful: it does not end in -ly.",
+  "source": "Listen ______ (good), {who}. I will say this only once.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "who": [
+    "children",
+    "everyone",
+    "class",
+    "boys"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the adverb of the word in brackets. Careful: it does not end in -ly.",
+  "source": "This {thing} doesn't work very ______ (good) in {cond}.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "thing": [
+    "phone",
+    "car",
+    "bike",
+    "radio"
+   ],
+   "cond": [
+    "winter",
+    "the cold",
+    "bad weather",
+    "the rain"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the adverb of the word in brackets. Careful: it does not end in -ly.",
+  "source": "You speak {lang} really ______ (good), {name}.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "lang": [
+    "Uzbek",
+    "Russian",
+    "English",
+    "Korean"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: hard or hardly.",
+  "source": "{name} works very ______ at the {place}.",
+  "key": "hard",
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "place": [
+    "bakery",
+    "hospital",
+    "factory",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: hard or hardly.",
+  "source": "It snowed ______ all {time}, {name}.",
+  "key": "hard",
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "time": [
+    "night",
+    "day",
+    "morning",
+    "weekend"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: hard or hardly.",
+  "source": "You must push the {thing} ______ to open it, {name}.",
+  "key": "hard",
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "thing": [
+    "door",
+    "gate",
+    "window",
+    "box"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: hard or hardly.",
+  "source": "The {who} are studying ______ for the {exam}.",
+  "key": "hard",
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "who": [
+    "students",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "exam": [
+    "exams",
+    "test",
+    "final test",
+    "competition"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: hard or hardly.",
+  "source": "{name} hit the ball ______, and it flew over the {thing}.",
+  "key": "hard",
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "thing": [
+    "wall",
+    "fence",
+    "net",
+    "goal"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: fast or fastly.",
+  "source": "The {thing} is going too ______, {name}.",
+  "key": "fast",
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "thing": [
+    "bus",
+    "car",
+    "taxi",
+    "train"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: fast or fastly.",
+  "source": "{name} learns new {things} very ______.",
+  "key": "fast",
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "things": [
+    "words",
+    "songs",
+    "games",
+    "rules"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: fast or fastly.",
+  "source": "Time goes ______ when you are {doing}, {name}.",
+  "key": "fast",
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "doing": [
+    "on holiday",
+    "with friends",
+    "busy",
+    "happy"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: fast or fastly.",
+  "source": "Eat ______, {name}! The {bus} leaves in five minutes.",
+  "key": "fast",
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "bus": [
+    "bus",
+    "train",
+    "taxi",
+    "minibus"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: late or lately.",
+  "source": "{name} came home ______ last night, at {time}.",
+  "key": "late",
+  "why": "Late is both the adjective and the adverb. Lately means recently.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "time": [
+    "midnight",
+    "eleven",
+    "half past eleven",
+    "one o'clock"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: late or lately.",
+  "source": "The {show} started ______ because of the {reason}.",
+  "key": "late",
+  "why": "Late is both the adjective and the adverb. Lately means recently.",
+  "slots": {
+   "show": [
+    "concert",
+    "match",
+    "film",
+    "lesson"
+   ],
+   "reason": [
+    "rain",
+    "traffic",
+    "snow",
+    "weather"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the correct adverb: early or earlily.",
+  "source": "The {shop} opens ______ on {day}, at six o'clock.",
+  "key": "early",
+  "why": "Early is both the adjective and the adverb. It does not change.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "market",
+    "bazaar",
+    "cafe"
+   ],
+   "day": [
+    "Sundays",
+    "Mondays",
+    "Saturdays",
+    "Fridays"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a verb and an adverb.",
+  "source": "{name} is a good singer, {voc}.",
+  "hint": "{name} sings ______, {voc}.",
+  "key": "well",
+  "why": "A good singer sings well. Good describes the person, well describes the action.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "voc": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a verb and an adverb.",
+  "source": "My {relative} is a hard worker, {name}.",
+  "hint": "My {relative} works ______, {name}.",
+  "key": "hard",
+  "why": "A hard worker works hard. The adverb has the same form as the adjective.",
+  "slots": {
+   "relative": [
+    "father",
+    "mother",
+    "uncle",
+    "aunt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a verb and an adverb.",
+  "source": "{name} is a fast runner, {voc}.",
+  "hint": "{name} runs ______, {voc}.",
+  "key": "fast",
+  "why": "A fast runner runs fast. The adverb has the same form as the adjective.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "voc": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a verb and an adverb.",
+  "source": "Our {person} is a good cook, {name}.",
+  "hint": "Our {person} cooks ______, {name}.",
+  "key": "well",
+  "why": "A good cook cooks well. Good describes the person, well describes the action.",
+  "slots": {
+   "person": [
+    "neighbour",
+    "aunt",
+    "grandfather",
+    "uncle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a verb and an adverb.",
+  "source": "The {who} are fast learners, {name}.",
+  "hint": "The {who} learn ______, {name}.",
+  "key": "fast",
+  "why": "Fast learners learn fast. The adverb has the same form as the adjective.",
+  "slots": {
+   "who": [
+    "children",
+    "new students",
+    "twins",
+    "girls"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the adverb.",
+  "source": "{name} speaks {lang} very good.",
+  "hint": "{name} speaks {lang} very ______.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "lang": [
+    "English",
+    "Russian",
+    "Korean",
+    "German"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the adverb.",
+  "source": "{name}, she works very hardly every {day}.",
+  "hint": "{name}, she works very ______ every {day}.",
+  "key": "hard",
+  "why": "Hard is both the adjective and the adverb. Hardly means almost not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "day": [
+    "day",
+    "morning",
+    "weekend",
+    "summer"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the adverb.",
+  "source": "The {thing} goes very fastly, {name}.",
+  "hint": "The {thing} goes very ______, {name}.",
+  "key": "fast",
+  "why": "Fast is both the adjective and the adverb. There is no fastly.",
+  "slots": {
+   "thing": [
+    "new train",
+    "bus",
+    "car",
+    "boat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the adverb.",
+  "source": "The {bus} came lately again, {name}.",
+  "hint": "The {bus} came ______ again, {name}.",
+  "key": "late",
+  "why": "Late is both the adjective and the adverb. Lately means recently.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "taxi",
+    "minibus"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the adverb.",
+  "source": "My {relative} drives good in the {place}.",
+  "hint": "My {relative} drives ______ in the {place}.",
+  "key": "well",
+  "why": "Good is an adjective. Its adverb is well: you do something well.",
+  "slots": {
+   "relative": [
+    "mother",
+    "sister",
+    "aunt",
+    "father"
+   ],
+   "place": [
+    "city",
+    "mountains",
+    "rain",
+    "snow"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Finish the second sentence so it means the same. Use an adverb.",
+  "source": "{name}'s English is good, {voc}.",
+  "hint": "{name} speaks English ______, {voc}.",
+  "key": "well",
+  "why": "Good English means you speak English well.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "voc": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Finish the second sentence so it means the same. Use an adverb.",
+  "source": "My {relative} has a hard job at the {place}.",
+  "hint": "My {relative} works ______ at the {place}.",
+  "key": "hard",
+  "why": "A hard job means you work hard. The adverb has the same form as the adjective.",
+  "slots": {
+   "relative": [
+    "father",
+    "uncle",
+    "brother",
+    "aunt"
+   ],
+   "place": [
+    "factory",
+    "bakery",
+    "market",
+    "hospital"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Finish the second sentence so it means the same. Use an adverb.",
+  "source": "{name}'s answers in the {test} were good.",
+  "hint": "{name} answered ______ in the {test}.",
+  "key": "well",
+  "why": "Good answers mean you answered well.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "interview"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Finish the second sentence so it means the same. Use an adverb.",
+  "source": "The {thing} is fast, {name}.",
+  "hint": "The {thing} moves ______, {name}.",
+  "key": "fast",
+  "why": "Something fast moves fast. The adverb has the same form as the adjective.",
+  "slots": {
+   "thing": [
+    "train",
+    "river",
+    "car",
+    "boat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Finish the second sentence so it means the same. Use an adverb.",
+  "source": "We had an early start on {day}, {name}.",
+  "hint": "We started ______ on {day}, {name}.",
+  "key": "early",
+  "why": "An early start means you started early. The adverb has the same form as the adjective.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Saturday",
+    "Sunday",
+    "Friday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you do well.",
+  "requiredElement": "an action verb + well",
+  "constraints": [
+   "exactly one sentence",
+   "must be about you",
+   "must use well, not good"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a person who works or studies hard.",
+  "requiredElement": "works hard or studies hard",
+  "constraints": [
+   "exactly one sentence",
+   "must name a person",
+   "must use hard, not hardly"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about someone who runs, talks or drives fast.",
+  "requiredElement": "an action verb + fast",
+  "constraints": [
+   "exactly one sentence",
+   "must use fast",
+   "must not use fastly"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a day when you got up early or went to bed late.",
+  "requiredElement": "got up early or went to bed late",
+  "constraints": [
+   "exactly one sentence",
+   "must use early or late",
+   "past tense"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how well you speak another language.",
+  "requiredElement": "speak + a language + well",
+  "constraints": [
+   "exactly one sentence",
+   "must name a language",
+   "must use well"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with good and one with well about the same person.",
+  "requiredElement": "good as an adjective, well as an adverb",
+  "constraints": [
+   "exactly two sentences",
+   "good before a noun or after be",
+   "well after an action verb"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend wrote: \"My brother drives very good but too fastly.\" Write the sentence correctly.",
+  "requiredElement": "drives very well but too fast",
+  "constraints": [
+   "exactly one sentence",
+   "must use well",
+   "must use fast"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence of advice for a student before an exam. Use hard or early.",
+  "requiredElement": "study hard or go to bed early",
+  "constraints": [
+   "exactly one sentence",
+   "must be advice",
+   "must use hard or early"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What can you do well, and what can't you do well yet? Write three or four sentences.",
+  "targetGrammar": "action verbs with well",
+  "lookFor": [
+   "well after the verb or object",
+   "no good in place of well",
+   "at least two different verbs"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a person you know who works very hard. What do they do? Write three or four sentences.",
+  "targetGrammar": "work hard, start early, finish late",
+  "lookFor": [
+   "hard, not hardly",
+   "early or late",
+   "the adverb after the verb"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your school day or work day. When do you get up, how do you work, when do you finish? Write three or four sentences.",
+  "targetGrammar": "early, late, hard, fast, well",
+  "lookFor": [
+   "early or late",
+   "hard or fast",
+   "no fastly or hardly"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Who is the best sports player you know? How do they play, run or train? Write three or four sentences.",
+  "targetGrammar": "action verbs with well, fast and hard",
+  "lookFor": [
+   "plays well",
+   "runs fast or trains hard",
+   "adverbs, not adjectives"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "irregular-adverb",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Give advice to a new student who wants to learn English well. Write three or four sentences.",
+  "targetGrammar": "well, hard, early",
+  "lookFor": [
+   "speak or learn well",
+   "study or work hard",
+   "no good in place of well"
+  ]
+ }
+]

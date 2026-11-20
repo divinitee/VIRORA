@@ -77,7 +77,7 @@
 76	B	pronouns.demonstrative.that-those-far	A1	2	live	those for plural far objects | those as a pronoun for plural far items
 77	B	pronouns.demonstrative.this-these-near	A1	2	live	this for a single near object | these for plural near objects
 78	B	pronouns.personal.subject-object-contrast	A2	1	todo	Object pronoun after a preposition in a coordinated phrase
-79	B	pronouns.substitution.one-ones	A2	3	todo	one replacing a singular countable noun | ones replacing a plural noun | 'those' as a formal substitute for 'the ones' before a post-modifier
+79	B	pronouns.substitution.one-ones	A2	3	live	one replacing a singular countable noun | ones replacing a plural noun | 'those' as a formal substitute for 'the ones' before a post-modifier
 80	B	pronouns.indefinite.indefinite-agreement	A2	2	todo	everyone takes a singular verb | Singular verb after 'nobody' despite plural meaning
 81	B	pronouns.indefinite.nothing-anything	A2	1	todo	nothing with an affirmative verb (no double negative)
 82	B	pronouns.indefinite.someone-anyone	A2	2	todo	someone in an affirmative statement | anyone in a negative statement
@@ -85,9 +85,9 @@
 84	B	verb-patterns.have-got.have-got-negative	A1	1	todo	haven't got (not haven't have)
 85	B	verb-patterns.have-got.have-got-question	A1	1	todo	Has ... got question form
 86	B	verb-patterns.have-got.have-has	A1	3	todo	have (not has) with I | has with third person singular | Producing has got for third person
-87	B	verb-patterns.gerund-infinitive.decide-infinitive	A2	1	todo	decide + to-infinitive
+87	B	verb-patterns.gerund-infinitive.decide-infinitive	A2	1	live	decide + to-infinitive
 88	B	verb-patterns.gerund-infinitive.enjoy-gerund	A2	2	live	enjoy + -ing | like/love + -ing (or to) but never bare infinitive
-89	B	verb-patterns.gerund-infinitive.preposition-gerund	A2	1	todo	-ing form after a preposition
+89	B	verb-patterns.gerund-infinitive.preposition-gerund	A2	1	live	-ing form after a preposition
 90	B	verb-patterns.gerund-infinitive.want-infinitive	A2	1	live	want + to-infinitive
 91	B	verb-patterns.gerund-infinitive.would-like-infinitive	A2	1	live	would like + to-infinitive
 92	B	verb-patterns.object-infinitive.let-bare	A2	1	todo	let + object + bare infinitive
@@ -97,14 +97,14 @@
 96	B	adj-adv.frequency.rarely	A1	1	live	rarely ≈ once a week
 97	B	adj-adv.adjective-form.adjective-before-noun	A1	1	live	Adjective + noun order (adjective does not take plural -s)
 98	B	adj-adv.adjective-form.adjective-after-be	A2	1	todo	Adjective (not adverb) after be/feel/look
-99	B	adj-adv.adverb-form.irregular-adverb	A2	2	todo	well is the adverb of good | hard is both adjective and adverb; 'hardly' means 'almost not'
-100	B	adj-adv.adverb-form.ly-adverb	A2	2	todo	-ly adverb modifies a verb | Forming -ly adverb from an adjective ending in -y
+99	B	adj-adv.adverb-form.irregular-adverb	A2	2	live	well is the adverb of good | hard is both adjective and adverb; 'hardly' means 'almost not'
+100	B	adj-adv.adverb-form.ly-adverb	A2	2	live	-ly adverb modifies a verb | Forming -ly adverb from an adjective ending in -y
 101	B	comparison.comparative.er-comparative	A1	3	live	-er comparative of a short adjective with 'than' | Spelling of -er with a final consonant doubled | -er comparative (not 'more fast')
-102	B	comparison.comparative.double-comparative-error	A2	1	todo	Not combining more with -er
-103	B	comparison.comparative.less-comparative	A2	1	todo	less + adjective + than
+102	B	comparison.comparative.double-comparative-error	A2	1	live	Not combining more with -er
+103	B	comparison.comparative.less-comparative	A2	1	live	less + adjective + than
 104	B	comparison.comparative.more-comparative	A2	1	live	more + long adjective
 105	B	comparison.superlative.est-superlative	A2	1	live	-iest spelling with 'the'
-106	B	comparison.superlative.irregular-superlative	A2	1	todo	best as superlative of good, with 'the'
+106	B	comparison.superlative.irregular-superlative	A2	1	live	best as superlative of good, with 'the'
 107	B	comparison.equality.as-as	A2	1	live	as + adj + as
 108	B	modals.ability-permission.can-ability	A1	1	live	can + base verb for ability
 109	B	modals.ability-permission.can-form	A1	2	live	Modal takes no -s and no 'to' | Modal + bare infinitive (no 'to')
@@ -126,16 +126,16 @@
 125	B	prep-phrasal.time.in-on-at-contrast	A1	1	live	in / on / at contrast across three time expressions
 126	B	prep-phrasal.time.on-days	A1	1	live	on with days
 127	B	prep-phrasal.place.in-area	A2	1	todo	in for an enclosed area (garden)
-128	B	prep-phrasal.time.since-for	A2	1	todo	since with a start point
+128	B	prep-phrasal.time.since-for	A2	1	live	since with a start point
 129	B	prep-phrasal.movement.arrive-at-in	A2	1	todo	arrive at (a point) — never 'arrive to'
 130	B	prep-phrasal.movement.go-home	A2	1	todo	No preposition before 'home' after go/come
 131	B	prep-phrasal.movement.to-vs-in	A2	1	todo	to for movement towards, in for location
-132	B	prep-phrasal.dependent-prepositions.adjective-preposition	A2	1	todo	good at / afraid of
-133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	todo	interested in
+132	B	prep-phrasal.dependent-prepositions.adjective-preposition	A2	1	live	good at / afraid of
+133	B	prep-phrasal.dependent-prepositions.interested-in	A2	1	live	interested in
 134	B	prep-phrasal.phrasal-verbs.common-phrasal	A2	1	live	Particle choice in a common phrasal verb (get up)
 135	B	conditionals-wishes.zero-first.first-if-clause	A2	2	live	Present simple (not will) in the if-clause | No 'will' in the if-clause
 136	B	conditionals-wishes.zero-first.first-will	A2	2	live	First conditional: will in the result clause | First conditional with a negative if-clause
-137	B	conditionals-wishes.zero-first.zero-general-truth	A2	2	todo	Zero conditional: present simple in both clauses | Zero (not first) conditional for a general consequence
+137	B	conditionals-wishes.zero-first.zero-general-truth	A2	2	live	Zero conditional: present simple in both clauses | Zero (not first) conditional for a general consequence
 138	B	passive-causative.simple-passive.active-to-passive	A2	1	todo	Simple active → passive with 'by'
 139	B	passive-causative.simple-passive.past-passive	A2	4	todo	Past simple passive: was + pp | Producing was/were + pp | Past passive in a longer stem | Productive past passive
 140	B	passive-causative.simple-passive.present-passive	A2	2	todo	Present simple passive: is + pp | Plural present passive: are + pp

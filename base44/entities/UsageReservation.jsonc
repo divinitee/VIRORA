@@ -1,38 +1,38 @@
 {
-  "name": "UsageReservation",
-  "type": "object",
   "description": "Server-created usage reservations (AI turns, material runs, receipt submissions, chat messages). A request reserves before the work; pending reservations count too, so overlapping requests cannot all spend the same remaining allowance. Material leases outlive the maximum function runtime.",
+  "name": "UsageReservation",
   "properties": {
-    "user_id": {
-      "type": "string"
-    },
-    "user_email": {
-      "type": "string"
+    "active": {
+      "default": false,
+      "type": "boolean"
     },
     "bucket": {
-      "type": "string",
       "enum": [
         "ai_turn",
         "material_run",
         "receipt_submit",
         "chat_message",
-        "checkout_create"
-      ]
+        "checkout_create",
+        "live_teacher_session"
+      ],
+      "type": "string"
     },
     "date": {
-      "type": "string",
-      "description": "Window key: YYYY-MM-DD for daily buckets, YYYY-MM-DDTHH:MM for per-minute buckets."
+      "description": "Window key: YYYY-MM-DD for daily buckets, YYYY-MM-DDTHH:MM for per-minute buckets.",
+      "type": "string"
+    },
+    "lease_until": {
+      "format": "date-time",
+      "type": "string"
     },
     "resource_id": {
       "type": "string"
     },
-    "active": {
-      "type": "boolean",
-      "default": false
+    "user_email": {
+      "type": "string"
     },
-    "lease_until": {
-      "type": "string",
-      "format": "date-time"
+    "user_id": {
+      "type": "string"
     }
   },
   "required": [
@@ -41,6 +41,7 @@
     "bucket",
     "date"
   ],
+  "type": "object",
   "rls": {
     "read": {
       "$or": [

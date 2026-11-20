@@ -1,4 +1,4 @@
-// Hand-authored: comparison / comparative / er-comparative (A1).
+// Hand-authored: comparison / comparative / er-comparative (A2; A1 in the placement bank, re-levelled by Tee on 16 Nov 2026: comparatives are A2).
 // Speaking Pack batch 2, topic 1 (grammar-run/SPEAK-2.md).
 //
 // Tests ONE point: a short adjective takes -er (+ than) to compare two things
@@ -22,7 +22,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "comparison", branch: "comparative", topic: "er-comparative", level: "A1", pv: "2.5" };
+const BASE = { domain: "comparison", branch: "comparative", topic: "er-comparative", level: "A2", pv: "2.5" };
 
 // kind: "reg" (add -er), "dbl" (double the last consonant), "y" (y -> ier), "e" (add -r)
 const est = (adj, er) => er.replace(/er$/, "est");

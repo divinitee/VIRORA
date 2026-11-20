@@ -1,0 +1,1864 @@
+[
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} is ______ player in our {team}.",
+  "options": [
+   "the best",
+   "the goodest",
+   "the most good",
+   "the better"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Lola",
+    "Madina"
+   ],
+   "team": [
+    "team",
+    "school",
+    "class",
+    "club"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is ______ {food} in town, {name}. Try it!",
+  "options": [
+   "the best",
+   "the goodest",
+   "the most good",
+   "the better"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "food": [
+    "plov",
+    "bread",
+    "ice cream",
+    "pizza"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{day} is ______ day of the week for me because I {do}.",
+  "options": [
+   "the best",
+   "the goodest",
+   "the most good",
+   "the better"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Wednesday"
+   ],
+   "do": [
+    "play football",
+    "see my friends",
+    "sleep late",
+    "have no homework"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {relative} makes ______ {dish} in our family.",
+  "options": [
+   "the best",
+   "the goodest",
+   "the most good",
+   "the better"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "relative": [
+    "grandmother",
+    "mother",
+    "aunt",
+    "father"
+   ],
+   "dish": [
+    "soup",
+    "bread",
+    "salads",
+    "cakes"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "For {name}, summer is ______ season of the year. It is time for {thing}.",
+  "options": [
+   "the best",
+   "the goodest",
+   "the most good",
+   "the better"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "my sister",
+    "Timur"
+   ],
+   "thing": [
+    "swimming",
+    "holidays",
+    "fruit",
+    "long days"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What is ______ way to learn new {things}, {name}?",
+  "options": [
+   "the best",
+   "the goodest",
+   "the most good",
+   "the better"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "things": [
+    "words",
+    "songs",
+    "rules",
+    "names"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Monday is ______ day of the week for {name}. There is a {thing} every Monday.",
+  "options": [
+   "the worst",
+   "the baddest",
+   "the most bad",
+   "the worse"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "my brother",
+    "Timur"
+   ],
+   "thing": [
+    "test",
+    "long lesson",
+    "meeting",
+    "big test"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "That was ______ {film} of the year, {name}. I fell asleep.",
+  "options": [
+   "the worst",
+   "the baddest",
+   "the most bad",
+   "the worse"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "film": [
+    "film",
+    "match",
+    "concert",
+    "show"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Winter is ______ time for {activity} in our {place}.",
+  "options": [
+   "the worst",
+   "the baddest",
+   "the most bad",
+   "the worse"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "activity": [
+    "cycling",
+    "picnics",
+    "football",
+    "long walks"
+   ],
+   "place": [
+    "town",
+    "village",
+    "city",
+    "street"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is ______ road in the {place}. It is full of {things}.",
+  "options": [
+   "the worst",
+   "the baddest",
+   "the most bad",
+   "the worse"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "place": [
+    "town",
+    "village",
+    "city",
+    "area"
+   ],
+   "things": [
+    "holes",
+    "stones",
+    "cracks",
+    "water"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {subject} mark was ______ in the class, {name}. I am so sad.",
+  "options": [
+   "the worst",
+   "the baddest",
+   "the most bad",
+   "the worse"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "English",
+    "history"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who is the ______ {person} in your {group}, {name}?",
+  "options": [
+   "best",
+   "goodest",
+   "better",
+   "most good"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "person": [
+    "singer",
+    "dancer",
+    "cook",
+    "student"
+   ],
+   "group": [
+    "family",
+    "class",
+    "group",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {shop} has the ______ {thing} in the city.",
+  "options": [
+   "best",
+   "goodest",
+   "better",
+   "most good"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "shop": [
+    "shop",
+    "cafe",
+    "bakery",
+    "market"
+   ],
+   "thing": [
+    "prices",
+    "bread",
+    "coffee",
+    "fruit"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} got the ______ mark in the {test}: 100 out of 100.",
+  "options": [
+   "best",
+   "goodest",
+   "better",
+   "most good"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "My sister",
+    "Timur"
+   ],
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "competition"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It was the ______ {event} of my life, {name}!",
+  "options": [
+   "best",
+   "goodest",
+   "better",
+   "most good"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "event": [
+    "day",
+    "holiday",
+    "trip",
+    "birthday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {team} has the ______ coach in the {area}.",
+  "options": [
+   "best",
+   "goodest",
+   "better",
+   "most good"
+  ],
+  "key": 0,
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "team": [
+    "team",
+    "club",
+    "school",
+    "gym"
+   ],
+   "area": [
+    "city",
+    "region",
+    "country",
+    "town"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It was the ______ {event} of the year for our team. We lost {score}.",
+  "options": [
+   "worst",
+   "baddest",
+   "worse",
+   "most bad"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "event": [
+    "game",
+    "match",
+    "day",
+    "week"
+   ],
+   "score": [
+    "5-0",
+    "6-1",
+    "4-0",
+    "7-2"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} had the ______ {thing} in the class, so the teacher helped him.",
+  "options": [
+   "worst",
+   "baddest",
+   "worse",
+   "most bad"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Sardor"
+   ],
+   "thing": [
+    "mark",
+    "result",
+    "score",
+    "handwriting"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is the ______ {weather} of the winter, {name}. Stay at home.",
+  "options": [
+   "worst",
+   "baddest",
+   "worse",
+   "most bad"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "weather": [
+    "weather",
+    "storm",
+    "day",
+    "snow"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} was the ______ part of the {trip}.",
+  "options": [
+   "worst",
+   "baddest",
+   "worse",
+   "most bad"
+  ],
+  "key": 0,
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "thing": [
+    "food",
+    "weather",
+    "hotel",
+    "bus ride"
+   ],
+   "trip": [
+    "trip",
+    "holiday",
+    "journey",
+    "weekend"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "{name} is the ______ (good) student in our {group}.",
+  "key": "best",
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Aziz",
+    "Madina",
+    "Timur"
+   ],
+   "group": [
+    "class",
+    "group",
+    "school",
+    "year"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "This cafe makes the ______ (good) {food} in the {place}.",
+  "key": "best",
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "food": [
+    "samsa",
+    "coffee",
+    "soup",
+    "cakes"
+   ],
+   "place": [
+    "city",
+    "area",
+    "street",
+    "town"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "{name}, what is the ______ (good) {thing} on your phone?",
+  "key": "best",
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "game",
+    "app",
+    "photo",
+    "song"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "My {relative} gives the ______ (good) advice about {topic}.",
+  "key": "best",
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "relative": [
+    "grandfather",
+    "mother",
+    "aunt",
+    "older brother"
+   ],
+   "topic": [
+    "school",
+    "money",
+    "friends",
+    "work"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "The {season} holidays are the ______ (good) time of the year, {name}.",
+  "key": "best",
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "season": [
+    "summer",
+    "winter",
+    "spring",
+    "New Year"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "We had the ______ (good) seats in the {place}, right at the {where}.",
+  "key": "best",
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "place": [
+    "cinema",
+    "theatre",
+    "stadium",
+    "hall"
+   ],
+   "where": [
+    "front",
+    "centre",
+    "middle",
+    "very front"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "It was the ______ (bad) {thing} of my school life, {name}.",
+  "key": "worst",
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "thing": [
+    "day",
+    "exam",
+    "mark",
+    "week"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "This {place} has the ______ (bad) {thing} in the city.",
+  "key": "worst",
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "place": [
+    "cafe",
+    "shop",
+    "hotel",
+    "station"
+   ],
+   "thing": [
+    "service",
+    "coffee",
+    "prices",
+    "toilets"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "{name} says {day} is the ______ (bad) day for a test.",
+  "key": "worst",
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "My sister",
+    "Timur"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "The {time} is the ______ (bad) time to drive through the {place}.",
+  "key": "worst",
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "time": [
+    "morning",
+    "evening",
+    "rush hour",
+    "afternoon"
+   ],
+   "place": [
+    "centre",
+    "market",
+    "old city",
+    "main street"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "That was the ______ (bad) {thing} I can remember, {name}.",
+  "key": "worst",
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "thing": [
+    "storm",
+    "winter",
+    "match",
+    "journey"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets.",
+  "source": "The second {part} was the ______ (bad) part of the whole {show}.",
+  "key": "worst",
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "part": [
+    "song",
+    "scene",
+    "half",
+    "story"
+   ],
+   "show": [
+    "show",
+    "concert",
+    "film",
+    "evening"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets. Do not forget the.",
+  "source": "{name}, this is ______ ______ (good) {thing} I have.",
+  "key": [
+   "the",
+   "best"
+  ],
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "jacket",
+    "photo",
+    "idea",
+    "pen"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets. Do not forget the.",
+  "source": "Who is ______ ______ (good) {person} in your family, {name}?",
+  "key": [
+   "the",
+   "best"
+  ],
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "person": [
+    "cook",
+    "driver",
+    "singer",
+    "storyteller"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets. Do not forget the.",
+  "source": "{city} is ______ ______ (good) place for a {trip}, I think.",
+  "key": [
+   "the",
+   "best"
+  ],
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Chimgan"
+   ],
+   "trip": [
+    "weekend",
+    "holiday",
+    "school trip",
+    "family trip"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets. Do not forget the.",
+  "source": "For me, {thing} is ______ ______ (good) way to relax after {time}.",
+  "key": [
+   "the",
+   "best"
+  ],
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "thing": [
+    "music",
+    "a walk",
+    "football",
+    "a film"
+   ],
+   "time": [
+    "school",
+    "work",
+    "an exam",
+    "a long day"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets. Do not forget the.",
+  "source": "{name}, this is ______ ______ (bad) {thing} in the shop. Don't buy it.",
+  "key": [
+   "the",
+   "worst"
+  ],
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "thing": [
+    "phone",
+    "bag",
+    "jacket",
+    "laptop"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets. Do not forget the.",
+  "source": "{month} is ______ ______ (bad) month for {who} because of the weather.",
+  "key": [
+   "the",
+   "worst"
+  ],
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "month": [
+    "January",
+    "February",
+    "December",
+    "November"
+   ],
+   "who": [
+    "drivers",
+    "farmers",
+    "cyclists",
+    "builders"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets. Do not forget the.",
+  "source": "That was ______ ______ (bad) {meal} of the trip, {name}.",
+  "key": [
+   "the",
+   "worst"
+  ],
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "meal": [
+    "meal",
+    "lunch",
+    "dinner",
+    "breakfast"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the superlative of the word in brackets. Do not forget the.",
+  "source": "My {relative} thinks {thing} is ______ ______ (bad) thing for children.",
+  "key": [
+   "the",
+   "worst"
+  ],
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "relative": [
+    "grandmother",
+    "father",
+    "aunt",
+    "uncle"
+   ],
+   "thing": [
+    "too much sugar",
+    "no sleep",
+    "too much TV",
+    "no sport"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a superlative.",
+  "source": "No {thing} in town is better than this one, {name}.",
+  "hint": "This is ______ ______ {thing} in town, {name}.",
+  "key": [
+   "the",
+   "best"
+  ],
+  "why": "If nothing is better, this one is the best. Good, better, the best.",
+  "slots": {
+   "thing": [
+    "cafe",
+    "shop",
+    "park",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a superlative.",
+  "source": "{name}, no day of the week is worse than {day} for me.",
+  "hint": "{name}, {day} is ______ ______ day of the week for me.",
+  "key": [
+   "the",
+   "worst"
+  ],
+  "why": "If no day is worse, this day is the worst. Bad, worse, the worst.",
+  "slots": {
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Thursday",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a superlative.",
+  "source": "Nobody in our {group} is better at {subj} than Lola.",
+  "hint": "Lola is ______ ______ in our {group} at {subj}.",
+  "key": [
+   "the",
+   "best"
+  ],
+  "why": "If nobody is better, Lola is the best. Good, better, the best.",
+  "slots": {
+   "group": [
+    "class",
+    "school",
+    "group",
+    "club"
+   ],
+   "subj": [
+    "maths",
+    "English",
+    "chess",
+    "drawing"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a superlative.",
+  "source": "No film this {period} was worse than this one, {name}.",
+  "hint": "This was ______ ______ film this {period}, {name}.",
+  "key": [
+   "the",
+   "worst"
+  ],
+  "why": "If no film was worse, this one was the worst. Bad, worse, the worst.",
+  "slots": {
+   "period": [
+    "year",
+    "month",
+    "summer",
+    "winter"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say the same thing with a superlative.",
+  "source": "{name}, no one in my family is a better cook than my {relative}.",
+  "hint": "{name}, my {relative} is ______ ______ cook in my family.",
+  "key": [
+   "the",
+   "best"
+  ],
+  "why": "If no one is better, this person is the best. Good, better, the best.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "relative": [
+    "grandmother",
+    "father",
+    "aunt",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This is the goodest {food} in the city, {name}.",
+  "hint": "This is the ______ {food} in the city, {name}.",
+  "key": "best",
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "food": [
+    "plov",
+    "bread",
+    "tea",
+    "ice cream"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "It was the baddest {day} of the {period}.",
+  "hint": "It was the ______ {day} of the {period}.",
+  "key": "worst",
+  "why": "The superlative of bad is the worst: bad, worse, the worst. There is no baddest or most bad.",
+  "slots": {
+   "day": [
+    "day",
+    "match",
+    "exam",
+    "trip"
+   ],
+   "period": [
+    "year",
+    "month",
+    "week",
+    "season"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} is the most good {person} in our school.",
+  "hint": "{name} is the ______ {person} in our school.",
+  "key": "best",
+  "why": "The superlative of good is the best: good, better, the best. There is no goodest or most good.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "person": [
+    "singer",
+    "runner",
+    "artist",
+    "player"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This is the worse {thing} in the {place}, {name}.",
+  "hint": "This is the ______ {thing} in the {place}, {name}.",
+  "key": "worst",
+  "why": "Worse compares two things. For the top of a whole group, use the worst.",
+  "slots": {
+   "thing": [
+    "road",
+    "cafe",
+    "hotel",
+    "street"
+   ],
+   "place": [
+    "town",
+    "city",
+    "area",
+    "village"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} is best {person} in our class.",
+  "hint": "{name} is ______ ______ {person} in our class.",
+  "key": [
+   "the",
+   "best"
+  ],
+  "why": "A superlative before a noun needs the: the best.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "person": [
+    "student",
+    "singer",
+    "speaker",
+    "reader"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the opposite idea. Change only the superlative.",
+  "source": "{day} is the best day of the week for {name}.",
+  "hint": "{day} is the ______ day of the week for {name}.",
+  "key": "worst",
+  "why": "The opposite of the best is the worst.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Lola",
+    "my sister",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the opposite idea. Change only the superlative.",
+  "source": "This is the worst {food} I know, {name}.",
+  "hint": "This is the ______ {food} I know, {name}.",
+  "key": "best",
+  "why": "The opposite of the worst is the best.",
+  "slots": {
+   "food": [
+    "soup",
+    "pizza",
+    "coffee",
+    "bread"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the opposite idea. Change only the superlative.",
+  "source": "The {thing} was the best part of the {trip}.",
+  "hint": "The {thing} was the ______ part of the {trip}.",
+  "key": "worst",
+  "why": "The opposite of the best is the worst.",
+  "slots": {
+   "thing": [
+    "food",
+    "weather",
+    "hotel",
+    "music"
+   ],
+   "trip": [
+    "trip",
+    "holiday",
+    "weekend",
+    "journey"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the opposite idea. Change only the superlative.",
+  "source": "{name} had the worst {result} in the group.",
+  "hint": "{name} had the ______ {result} in the group.",
+  "key": "best",
+  "why": "The opposite of the worst is the best.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Lola",
+    "Madina",
+    "Timur"
+   ],
+   "result": [
+    "result",
+    "score",
+    "mark",
+    "time"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the opposite idea. Change only the superlative.",
+  "source": "Winter is the worst season for {sport} in {place}.",
+  "hint": "Winter is the ______ season for {sport} in {place}.",
+  "key": "best",
+  "why": "The opposite of the worst is the best.",
+  "slots": {
+   "sport": [
+    "running",
+    "cycling",
+    "football",
+    "tennis"
+   ],
+   "place": [
+    "our town",
+    "the mountains",
+    "my village",
+    "the city"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the best day of your week.",
+  "requiredElement": "the best + noun",
+  "constraints": [
+   "exactly one sentence",
+   "must use the best",
+   "must name a day"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the worst weather you remember.",
+  "requiredElement": "the worst + noun",
+  "constraints": [
+   "exactly one sentence",
+   "must use the worst",
+   "must be about weather"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Who is the best cook in your family? Answer in one sentence.",
+  "requiredElement": "the best + noun",
+  "constraints": [
+   "exactly one sentence",
+   "must use the best",
+   "must name a family member"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the best place in your town or village.",
+  "requiredElement": "the best + noun + in",
+  "constraints": [
+   "exactly one sentence",
+   "must use the best",
+   "must name a place"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the worst film, game or book you know.",
+  "requiredElement": "the worst + noun",
+  "constraints": [
+   "exactly one sentence",
+   "must use the worst",
+   "must name the film, game or book"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the best way to learn English words.",
+  "requiredElement": "the best way to + verb",
+  "constraints": [
+   "exactly one sentence",
+   "must use the best way",
+   "must be about learning words"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: the best thing and the worst thing about your school or job.",
+  "requiredElement": "the best and the worst",
+  "constraints": [
+   "exactly two sentences",
+   "must use the best",
+   "must use the worst"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend wrote: \"It was the goodest day of my life.\" Write the sentence correctly.",
+  "requiredElement": "the best day",
+  "constraints": [
+   "exactly one sentence",
+   "must use the best",
+   "must not use goodest"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell me about the best day of your life so far. What happened? Write three or four sentences.",
+  "targetGrammar": "the best + noun",
+  "lookFor": [
+   "the best with the",
+   "no goodest or most good",
+   "past tense for the story"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What is the best thing and the worst thing about your town or village? Write three or four sentences.",
+  "targetGrammar": "the best and the worst",
+  "lookFor": [
+   "the best",
+   "the worst",
+   "a reason for each"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Who is the best teacher, coach or trainer you know? Why? Write three or four sentences.",
+  "targetGrammar": "the best + noun",
+  "lookFor": [
+   "the best with the",
+   "a reason",
+   "no most good"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What is the worst food you have tried and the best food you know? Write three or four sentences.",
+  "targetGrammar": "the best and the worst",
+  "lookFor": [
+   "the worst",
+   "the best",
+   "no baddest"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "superlative",
+  "topic": "irregular-superlative",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A visitor asks you: what is the best season to visit Uzbekistan, and what is the worst? Answer in three or four sentences.",
+  "targetGrammar": "the best and the worst + season",
+  "lookFor": [
+   "the best season",
+   "the worst season",
+   "a reason for each"
+  ]
+ }
+]
