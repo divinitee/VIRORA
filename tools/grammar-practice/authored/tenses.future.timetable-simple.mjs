@@ -51,7 +51,7 @@ const CHOOSE = [
   ["pl", "run", "The buses to {place} ______ every {n} minutes tomorrow.", { place: ["the airport", "the bazaar", "the centre", "the station"], n: ["ten", "fifteen", "twenty", "thirty"] }],
   ["pl", "close", "The shops in our {area} ______ at {time} on Sunday.", { area: ["street", "town", "village", "district"], time: ["six", "five", "four", "seven"] }],
   ["pl", "start", "Our {exam} ______ on {day}, so I'm studying all weekend.", { exam: ["exams", "tests", "final exams", "entrance exams"], day: ["Monday", "Tuesday", "Wednesday", "the 10th"] }],
-  ["pl", "leave", "The {transport} to {city} ______ from Platform 2 tomorrow.", { transport: ["trains", "buses", "minibuses", "coaches"], city: CITY }],
+  ["pl", "leave", "The {transport} to {city} ______ from the main station tomorrow.", { transport: ["trains", "buses", "minibuses", "coaches"], city: CITY }],
   ["pl", "start", "The school holidays ______ next {day}, {name}!", { day: ["Friday", "Monday", "week", "Saturday"], name: NAME }],
   ["pl", "finish", "Lessons ______ at {time} tomorrow because of the {event}.", { time: ["twelve", "noon", "one", "eleven"], event: ["school concert", "sports day", "teachers' meeting", "school trip"] }],
   ["q", "does", "What time ______ the {event} start tomorrow, {name}?", { event: ["film", "match", "concert", "lesson"], name: NAME }],
