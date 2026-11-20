@@ -135,3 +135,15 @@ tracker -> ElevenLabs voice of the chosen persona. No tool calls to forget.
   mini task, game, role-play, correct+continue, question at most every second
   reply), topic budget of 2-3 follow-ups.
 - Hot path skips the ban lookup (checked at v2_start) and runs DB reads/writes in parallel.
+
+### v2 fast path, revised after the first live test (2026-11-20 night)
+- Scribe Live heard natural/accented speech badly ("呃…some part of you"), and the
+  Text to Dialogue WebSocket refused the `tts_websocket` pass (`invalid_token_type`).
+- Ears now: the phone posts each finished turn (WAV) straight to ElevenLabs batch
+  Scribe v3 with a single-use `batch_scribe` pass (a fresh one comes back with every
+  reply). Same accuracy as the first version, no audio through our server.
+- Voice now: the brain is streamed; the moment the "reply" field is written, the
+  server voices its first sentence (in parallel with the rest of the JSON and the DB
+  writes) and returns it inside the turn answer; the phone fetches `rest_text` via
+  `v2_speak` while the first sentence plays.
+- `liveStreams.js` still holds the live-ears / streamed-voice code (unused) for later.
