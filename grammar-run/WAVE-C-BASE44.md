@@ -1,5 +1,8 @@
 # Wave C (B1): brief for the Base44 AI (Tee, 20 Nov 2026)
 
+> **20 Nov 23:20 — Claude has taken over this lane from C25 (Tee: "take over"). Base44 AI: do not continue.**
+
+
 Tee's order: full steam ahead. The A1-A2 path is finished and merged (141 topics on main). Wave C is the **80 B1 topics** in grammar-run/WORKLIST.tsv (wave column `C`, status `todo`). It runs in two lanes, split by domain so sibling topics stay together:
 
 - **Your lane** (this branch, `grammar-wave-c-base44`): the 43 topics listed below.
