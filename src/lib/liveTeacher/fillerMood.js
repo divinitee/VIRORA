@@ -41,3 +41,18 @@ export function fillerMood(studentText) {
   if (has(t, POSITIVE)) return 'positive';
   return 'neutral';
 }
+
+/**
+ * Which language did the student just speak? (en | uz | ru)
+ * Scribe's language code first, then the alphabet / common Uzbek words.
+ * Same rule as speechLang() in base44/shared/liveTeacherBrain.js.
+ */
+export function speechLang(code, text) {
+  const t = String(text || '');
+  const c = String(code || '').toLowerCase();
+  if (c.startsWith('ru')) return 'ru';
+  if (c.startsWith('uz')) return 'uz';
+  if ((t.match(/[Ѐ-ӿ]/g) || []).length >= 4) return /[ўқғҳ]/i.test(t) ? 'uz' : 'ru';
+  const uzWords = t.toLowerCase().match(/\b(siz|sizga|menga|rahmat|nima|nimani|nega|qanday|tushun\w*|bilmad\w*|kerak|yaxshi|juda|uchun|bilan|emas|lekin|chunki|buni|qiling|ayting|iltimos|mumkinmi|bo['ʻ’]ldi|o['ʻ’]zbek\w*)\b/g) || [];
+  return uzWords.length >= 2 ? 'uz' : 'en';
+}

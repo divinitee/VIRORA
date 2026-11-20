@@ -9,7 +9,7 @@ import { liveTeacherApi } from "@/lib/serverApi";
 import { copyFor } from "@/lib/liveTeacher/copy";
 import { createVoiceLoop, playAudio, blobToB64 } from "@/lib/liveTeacher/voiceLoop";
 import { transcribeDirect } from "@/lib/liveTeacher/liveStreams";
-import { fillerMood } from "@/lib/liveTeacher/fillerMood";
+import { fillerMood, speechLang } from "@/lib/liveTeacher/fillerMood";
 
 // Live Teacher v2 (2026-11-20): "text brain" lessons.
 //   you talk -> ElevenLabs Scribe writes it down -> the brain (OpenAI text
@@ -139,38 +139,51 @@ export default function LiveTeacherV2() {
   }
 
   // ---------------------------------------------------------- thinking sounds
-  // Sorted by mood, saved on the phone after the first lesson (no credits, instant).
-  const fillerKey = (p) => `lt-fillers:v3:${p}`;
-  const fillerLoadRef = useRef(null);
-  function loadFillers(p) {
-    if (!fillerLoadRef.current) fillerLoadRef.current = loadFillersNow(p).finally(() => { fillerLoadRef.current = null; });
-    return fillerLoadRef.current;
+  // Sorted by language (en / uz / ru) and mood, saved on the phone after the
+  // first time (no credits, instant). A Russian sentence gets "Ммм, понятно…".
+  const fillerKey = (p) => `lt-fillers:v4:${p}`;
+  const MOODS = ["neutral", "empathy", "hold", "question", "positive"];
+  const fillerLoadRef = useRef({}); // lang -> loading promise
+  const lastLangRef = useRef("en");
+  function readFillerCache(p) {
+    try { return JSON.parse(localStorage.getItem(fillerKey(p)) || "{}") || {}; } catch { return {}; }
   }
-  async function loadFillersNow(p) {
-    let cache = {};
-    try { cache = JSON.parse(localStorage.getItem(fillerKey(p)) || "{}") || {}; } catch { cache = {}; }
-    fillersRef.current = cache;
-    for (const mood of ["neutral", "empathy", "hold", "question", "positive"]) {
-      if (Array.isArray(cache[mood]) && cache[mood].length) continue;
+  function loadFillers(p, langs = ["en"]) {
+    if (!Object.keys(fillersRef.current).length) fillersRef.current = readFillerCache(p);
+    return Promise.all(langs.map((lang) => {
+      if (!fillerLoadRef.current[lang]) {
+        fillerLoadRef.current[lang] = loadFillerLang(p, lang).finally(() => { delete fillerLoadRef.current[lang]; });
+      }
+      return fillerLoadRef.current[lang];
+    }));
+  }
+  async function loadFillerLang(p, lang) {
+    for (const mood of MOODS) {
+      if (fillersRef.current[lang]?.[mood]?.length) continue;
       try {
-        const f = await liveTeacherApi("v2_fillers", { persona: p, mood });
+        const f = await liveTeacherApi("v2_fillers", { persona: p, mood, lang });
         if (f?.clips?.length) {
-          cache = { ...cache, [mood]: f.clips };
-          fillersRef.current = cache;
-          try { localStorage.setItem(fillerKey(p), JSON.stringify(cache)); } catch { /* storage full: keep in memory only */ }
+          fillersRef.current = { ...fillersRef.current, [lang]: { ...(fillersRef.current[lang] || {}), [mood]: f.clips } };
+          try { localStorage.setItem(fillerKey(p), JSON.stringify(fillersRef.current)); } catch { /* storage full: memory only */ }
         }
-        if (f?.warning) note(`thinking sounds (${mood}): ${f.warning}`);
-      } catch (e) { note(`thinking sounds (${mood}) failed: ${e.message}`); }
+        if (f?.warning) note(`thinking sounds (${lang} ${mood}): ${f.warning}`);
+      } catch (e) { note(`thinking sounds (${lang} ${mood}) failed: ${e.message}`); }
     }
   }
-  function pickClip(mood) {
-    const list = fillersRef.current[mood]?.length ? fillersRef.current[mood] : fillersRef.current.neutral;
-    if (!list?.length) return null;
-    const recent = recentRef.current[mood] || [];
+  function pickClip(lang, mood) {
+    const set = fillersRef.current[lang];
+    const list = set?.[mood]?.length ? set[mood] : set?.neutral;
+    if (!list?.length) {
+      // never answer a Russian sentence with an English "hmm": load that language for next time
+      if (lang !== "en") loadFillers(persona, [lang]);
+      return null;
+    }
+    const key = `${lang}:${mood}`;
+    const recent = recentRef.current[key] || [];
     let options = list.map((_, i) => i).filter((i) => !recent.includes(i));
     if (!options.length) options = list.map((_, i) => i);
     const i = options[Math.floor(Math.random() * options.length)];
-    recentRef.current[mood] = [...recent, i].slice(-3);
+    recentRef.current[key] = [...recent, i].slice(-3);
     return list[i];
   }
   function playClip(clip) {
@@ -179,14 +192,15 @@ export default function LiveTeacherV2() {
     fillerRef.current = p;
     fillerDoneRef.current = p.done;
   }
-  function startThinking(mood) {
+  function startThinking(mood, lang = "en") {
+    lastLangRef.current = lang;
     fillerDoneRef.current = Promise.resolve();
-    if (Math.random() < 0.92) playClip(pickClip(mood));
+    if (Math.random() < 0.92) playClip(pickClip(lang, mood));
     clearTimeout(holdTimerRef.current);
     // still no answer after ~2.5 s: one "give me a second" so it never goes quiet
     holdTimerRef.current = setTimeout(async () => {
       await fillerDoneRef.current;
-      if (waitingRef.current && phaseRef.current === "live") playClip(pickClip("hold"));
+      if (waitingRef.current && phaseRef.current === "live") playClip(pickClip(lastLangRef.current, "hold"));
     }, 2600);
   }
 
@@ -254,23 +268,24 @@ export default function LiveTeacherV2() {
     const tEnd = performance.now();
     // ears: the phone sends the clip straight to ElevenLabs (accurate model, no server detour)
     let text = null;
+    let lang = "en";
     const pass = sttRef.current;
     sttRef.current = null; // single use
     if (pass?.token) {
       const t = await transcribeDirect({ blob, token: pass.token, model: pass.model });
-      if (t.ok) text = t.text; else note(`direct ears: ${t.error}, using backup`);
+      if (t.ok) { text = t.text; lang = speechLang(t.language, t.text); } else note(`direct ears: ${t.error}, using backup`);
     }
     const earsMs = performance.now() - tEnd;
     if (text !== null && !text.replace(/\([^)]*\)|\[[^\]]*\]/g, "").trim()) { refillEars(); loopRef.current?.listen(); return; } // only sounds
 
-    startThinking(text ? fillerMood(text) : "neutral");
+    startThinking(text ? fillerMood(text) : "neutral", lang);
     waitingRef.current = true;
     const tSent = performance.now();
     let r;
     try {
       const base = { lesson_id: lessonRef.current.id, duration_s: durationS, history: historyRef.current.slice(-16), lang };
       r = text !== null
-        ? await liveTeacherApi("v2_turn_text", { ...base, text }) // fast path: a few words of text
+        ? await liveTeacherApi("v2_turn_text", { ...base, text, student_lang: lang }) // fast path: a few words of text
         : await liveTeacherApi("v2_turn", { ...base, audio_b64: await blobToB64(blob), mime: "audio/wav" }); // backup: upload the audio
     } catch (e) {
       waitingRef.current = false;
@@ -332,8 +347,8 @@ export default function LiveTeacherV2() {
       go("live");
       addTurn("teacher", s.reply_text, { explanation: s.explanation_text });
       // thinking sounds load once the greeting is playing (not all at once)
-      await playReply(s, () => { loadFillers(persona); });
-      if (!Object.keys(fillersRef.current).length) loadFillers(persona);
+      // English sounds + the app's language load once the greeting is playing
+      await playReply(s, () => { loadFillers(persona, ["en", ...(lang === "uz" || lang === "ru" ? [lang] : [])]); });
       if (phaseRef.current === "live" && loop.state === "teacher") loop.listen();
     } catch (e) {
       loop.stop();
