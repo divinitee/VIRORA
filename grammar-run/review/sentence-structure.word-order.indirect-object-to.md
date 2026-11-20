@@ -87,7 +87,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## build (20)
 
 1. _Write to or for._  
-   Please send the **address** ______ me **today**, **Lola**.  
+   Please lend your **pen** ______ me **today**, **Lola**.  
    key: to  
    why: Give, lend, pass, show and hand: the thing, then to + the person who gets it.
 
@@ -102,7 +102,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.
 
 4. _Write to or for._  
-   Can you show the way ______ our **new classmates**, **Olga**?  
+   Pass this **book** ______ the person on your left, **Olga**.  
    key: to  
    why: Give, lend, pass, show and hand: the thing, then to + the person who gets it.
 
@@ -112,7 +112,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.
 
 6. _Write to or for._  
-   Give the **money** ______ the driver, **Aziz**.  
+   Show your **ticket** ______ the driver, **Aziz**.  
    key: to  
    why: Give, lend, pass, show and hand: the thing, then to + the person who gets it.
 

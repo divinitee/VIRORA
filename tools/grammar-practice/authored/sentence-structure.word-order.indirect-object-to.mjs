@@ -71,12 +71,12 @@ const CHOOSE = [
 /* ---------------- build: 20 gap_fill ---------------- */
 const INSTR_B = "Write to or for.";
 const BUILD = [
-  ["to", WT, "Please send the {thing} ______ me {when}, {name}.", { thing: ["photos", "address", "tickets", "file"], when: ["today", "tonight", "soon", "now"], name: NAME }],
+  ["to", WT, "Please lend your {thing} ______ me {when}, {name}.", { thing: ["notes", "pen", "umbrella", "charger"], when: ["today", "tonight", "for a day", "now"], name: NAME }],
   ["to", WX, "I explained the problem ______ my {who}, {name}.", { who: ["boss", "teacher", "parents", "neighbour"], name: NAME }],
   ["to", WX, "She described her new {place} ______ us, {name}.", { place: ["flat", "school", "office", "village"], name: NAME }],
-  ["to", WT, "Can you show the way ______ our {who}, {name}?", { who: ["guests", "visitors", "new classmates", "cousins"], name: NAME }],
+  ["to", WT, "Pass this {thing} ______ the person on your left, {name}.", { thing: ["paper", "list", "book", "plate"], name: NAME }],
   ["to", WX, "{name} said sorry ______ his {who}.", { name: NAMEM, who: ["brother", "teacher", "neighbour", "friend"] }],
-  ["to", WT, "Give the {thing} ______ the driver, {name}.", { thing: ["money", "ticket", "bag", "note"], name: NAME }],
+  ["to", WT, "Show your {thing} ______ the driver, {name}.", { thing: ["ticket", "pass", "card", "passport"], name: NAME }],
   ["to", WX, "I introduced my cousin ______ my friends at the {event}, {name}.", { event: EVENT, name: NAME }],
   ["to", WT, "He lent his {thing} ______ me {when}.", { thing: ["car", "bike", "camera", "laptop"], when: PAST }],
   ["to", WT, "Pass the {thing} ______ {name}, please!", { thing: ["ball", "salt", "bread", "pen"], name: NAME }],

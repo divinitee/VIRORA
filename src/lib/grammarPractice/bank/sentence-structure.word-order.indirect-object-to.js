@@ -656,20 +656,20 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write to or for.",
-  "source": "Please send the {thing} ______ me {when}, {name}.",
+  "source": "Please lend your {thing} ______ me {when}, {name}.",
   "key": "to",
   "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
   "slots": {
    "thing": [
-    "photos",
-    "address",
-    "tickets",
-    "file"
+    "notes",
+    "pen",
+    "umbrella",
+    "charger"
    ],
    "when": [
     "today",
     "tonight",
-    "soon",
+    "for a day",
     "now"
    ],
    "name": [
@@ -743,15 +743,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write to or for.",
-  "source": "Can you show the way ______ our {who}, {name}?",
+  "source": "Pass this {thing} ______ the person on your left, {name}.",
   "key": "to",
   "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
   "slots": {
-   "who": [
-    "guests",
-    "visitors",
-    "new classmates",
-    "cousins"
+   "thing": [
+    "paper",
+    "list",
+    "book",
+    "plate"
    ],
    "name": [
     "Aziz",
@@ -797,15 +797,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write to or for.",
-  "source": "Give the {thing} ______ the driver, {name}.",
+  "source": "Show your {thing} ______ the driver, {name}.",
   "key": "to",
   "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
   "slots": {
    "thing": [
-    "money",
     "ticket",
-    "bag",
-    "note"
+    "pass",
+    "card",
+    "passport"
    ],
    "name": [
     "Aziz",
