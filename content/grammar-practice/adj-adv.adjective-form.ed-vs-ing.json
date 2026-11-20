@@ -750,9 +750,9 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the -ing or -ed adjective of the word in brackets.",
-  "source": "The test results were ______ (surprise). Everyone passed the {test}!",
-  "key": "surprising",
-  "why": "The results cause surprise: surprising.",
+  "source": "The test results were ______ (amaze). Everyone passed the {test}!",
+  "key": "amazing",
+  "why": "The results cause amazement: amazing.",
   "slots": {
    "test": [
     "exam",
@@ -1047,12 +1047,12 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete both gaps: how the person feels (-ed) and what causes it (-ing).",
-  "source": "I was really ______ (surprise) by the end — it was the most ______ (surprise) {film} I've seen this year, {name}.",
+  "source": "I was really ______ (amaze) by the end — it was the most ______ (amaze) {film} I've seen this year, {name}.",
   "key": [
-   "surprised",
-   "surprising"
+   "amazed",
+   "amazing"
   ],
-  "why": "Feeling → surprised; the film causes it → surprising.",
+  "why": "Feeling → amazed; the film causes it → amazing.",
   "slots": {
    "film": [
     "film",
@@ -1477,10 +1477,10 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite. Say how the people felt with an -ed adjective.",
-  "source": "The ending of the {film} surprised us, {name}.",
+  "source": "The ending of the {film} shocked us, {name}.",
   "hint": "We were ______ by the ending of the {film}, {name}.",
-  "key": "surprised",
-  "why": "We felt it: surprised by ….",
+  "key": "shocked",
+  "why": "We felt it: shocked by ….",
   "slots": {
    "film": [
     "film",
