@@ -92,12 +92,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: unless = if … not, with a positive present verb after it.
 
 2. _Write unless or if._  
-   I won't tell **anyone** ______ you want me to, **Lola**.  
+   I won't tell **anyone** ______ you say it's OK, **Lola**.  
    key: unless  
    why: unless = if … not, with a positive present verb after it.
 
 3. _Write unless or if._  
-   We'll go to the **mountains** tomorrow ______ it snows, **Lola**.  
+   We'll go to the **beach** tomorrow ______ it snows, **Lola**.  
    key: unless  
    why: unless = if … not, with a positive present verb after it.
 
@@ -117,7 +117,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: unless = if … not, with a positive present verb after it.
 
 7. _Write unless or if._  
-   I never take the **bus** ______ it's raining, **Aziz**.  
+   I always walk ______ it's raining. Then I take the **bus**, **Aziz**.  
    key: unless  
    why: unless = if … not, with a positive present verb after it.
 
@@ -172,7 +172,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The condition is positive here: if.
 
 18. _Write unless or if._  
-   I'll buy the **phone** ______ it's cheaper tomorrow, **Lola**.  
+   I'll buy the **phone** ______ I get my salary on Friday, **Lola**.  
    key: if  
    why: The condition is positive here: if.
 

@@ -677,7 +677,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write unless or if.",
-  "source": "I won't tell {who} ______ you want me to, {name}.",
+  "source": "I won't tell {who} ______ you say it's OK, {name}.",
   "key": "unless",
   "why": "unless = if … not, with a positive present verb after it.",
   "slots": {
@@ -709,9 +709,9 @@ export default [
   "why": "unless = if … not, with a positive present verb after it.",
   "slots": {
    "place": [
-    "mountains",
+    "beach",
     "lake",
-    "village",
+    "river",
     "park"
    ],
    "name": [
@@ -812,7 +812,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write unless or if.",
-  "source": "I never take the {bus} ______ it's raining, {name}.",
+  "source": "I always walk ______ it's raining. Then I take the {bus}, {name}.",
   "key": "unless",
   "why": "unless = if … not, with a positive present verb after it.",
   "slots": {
@@ -1109,7 +1109,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write unless or if.",
-  "source": "I'll buy the {thing} ______ it's cheaper tomorrow, {name}.",
+  "source": "I'll buy the {thing} ______ I get my salary on Friday, {name}.",
   "key": "if",
   "why": "The condition is positive here: if.",
   "slots": {

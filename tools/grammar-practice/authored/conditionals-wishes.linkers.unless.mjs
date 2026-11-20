@@ -56,12 +56,12 @@ const CHOOSE = [
 const INSTR = "Write unless or if.";
 const BUILD = [
   ["unless", "You'll be late for the {event} ______ you take a taxi, {name}.", { event: ["wedding", "match", "meeting", "concert"], name: NAME }],
-  ["unless", "I won't tell {who} ______ you want me to, {name}.", { who: ["anyone", "your mum", "the teacher", "Timur"], name: NAME }],
-  ["unless", "We'll go to the {place} tomorrow ______ it snows, {name}.", { place: ["mountains", "lake", "village", "park"], name: NAME }],
+  ["unless", "I won't tell {who} ______ you say it's OK, {name}.", { who: ["anyone", "your mum", "the teacher", "Timur"], name: NAME }],
+  ["unless", "We'll go to the {place} tomorrow ______ it snows, {name}.", { place: ["beach", "lake", "river", "park"], name: NAME }],
   ["unless", "You can't use the {room} ______ you have a key, {name}.", { room: ["gym", "office", "lab", "music room"], name: NAME }],
   ["unless", "The {food} will go bad ______ you put it in the fridge, {name}.", { food: ["milk", "meat", "fish", "cake"], name: NAME }],
   ["unless", "Don't buy the {thing} ______ it's on sale, {name}.", { thing: ["TV", "sofa", "laptop", "phone"], name: NAME }],
-  ["unless", "I never take the {bus} ______ it's raining, {name}.", { bus: ["bus", "metro", "taxi", "tram"], name: NAME }],
+  ["unless", "I always walk ______ it's raining. Then I take the {bus}, {name}.", { bus: ["bus", "metro", "taxi", "tram"], name: NAME }],
   ["unless", "She won't speak to her {who} ______ he says sorry, {name}.", { who: ["brother", "husband", "cousin", "friend"], name: NAME }],
   ["unless", "You won't get better before the {event} ______ you rest, {name}.", { event: ["match", "exam", "wedding", "trip"], name: NAME }],
   ["unless", "They can't win ______ they score in the next {n} minutes, {name}.", { n: ["five", "ten", "two", "three"], name: NAME }],
@@ -72,7 +72,7 @@ const BUILD = [
   ["if", "You'll pass the {test} ______ you study hard, {name}.", { test: ["exam", "test", "driving test", "quiz"], name: NAME }],
   ["if", "Call me ______ you need help with the {work}, {name}.", { work: ["move", "homework", "garden", "car"], name: NAME }],
   ["if", "We'll stay at home ______ it rains on {day}, {name}.", { day: ["Saturday", "Sunday", "Friday", "Monday"], name: NAME }],
-  ["if", "I'll buy the {thing} ______ it's cheaper tomorrow, {name}.", { thing: ["TV", "sofa", "laptop", "phone"], name: NAME }],
+  ["if", "I'll buy the {thing} ______ I get my salary on Friday, {name}.", { thing: ["TV", "sofa", "laptop", "phone"], name: NAME }],
   ["if", "The {pet} gets angry ______ you touch its food, {name}.", { pet: ["cat", "dog", "puppy", "kitten"], name: NAME }],
   ["if", "You can sit on the {seat} ______ you're tired, {name}.", { seat: ["bench", "sofa", "chair", "step"], name: NAME }],
 ].map(([key, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key, why: key === "if" ? WHY_IF : WHY, slots }));
