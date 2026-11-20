@@ -310,6 +310,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "conditionals-wishes.second.second-if-clause": {
+  "domain": "conditionals-wishes",
+  "branch": "second",
+  "topic": "second-if-clause",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "conditionals-wishes.zero-first.first-if-clause": {
   "domain": "conditionals-wishes",
   "branch": "zero-first",
