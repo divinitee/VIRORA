@@ -165,13 +165,53 @@ export async function transcribe(env, { bytes, mime }, fetchImpl = fetch) {
 }
 
 // ------------------------------------------------------------------ brain
-export async function think(env, { instructions, message, safetyId }, fetchImpl = fetch) {
+// Streams the answer: the moment the "reply" text is complete (it is the
+// second field), onReply(reply) fires so the voice can start while the brain
+// is still writing the mistakes/explanation part.
+async function readStream(res, onReply) {
+  const reader = res.body.getReader();
+  const dec = new TextDecoder();
+  let buf = '';
+  let content = '';
+  let usage = null;
+  let model = '';
+  let replied = false;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buf += dec.decode(value, { stream: true });
+    let i;
+    while ((i = buf.indexOf('\n')) >= 0) {
+      const line = buf.slice(0, i).trim();
+      buf = buf.slice(i + 1);
+      if (!line.startsWith('data:')) continue;
+      const d = line.slice(5).trim();
+      if (!d || d === '[DONE]') continue;
+      let j; try { j = JSON.parse(d); } catch { continue; }
+      if (j.model) model = j.model;
+      if (j.usage) usage = j.usage;
+      const delta = j.choices?.[0]?.delta?.content;
+      if (delta) {
+        content += delta;
+        if (!replied && onReply) {
+          const m = content.match(/"reply"\s*:\s*"((?:[^"\\]|\\.)*)"/);
+          if (m) { replied = true; try { onReply(JSON.parse(`"${m[1]}"`)); } catch { /* final JSON still wins */ } }
+        }
+      }
+    }
+  }
+  return { content, usage, model };
+}
+
+export async function think(env, { instructions, message, safetyId, onReply = null }, fetchImpl = fetch) {
   const s = settings(env);
   const body = {
     model: s.brainModel,
     messages: [{ role: 'system', content: instructions }, { role: 'user', content: message }],
     response_format: { type: 'json_schema', json_schema: { name: 'teacher_turn', strict: true, schema: brainSchema() } },
     max_completion_tokens: 2000,
+    stream: true,
+    stream_options: { include_usage: true },
     ...(s.brainReasoning ? { reasoning_effort: s.brainReasoning } : {}),
     ...(safetyId ? { safety_identifier: safetyId } : {}),
   };
@@ -180,26 +220,36 @@ export async function think(env, { instructions, message, safetyId }, fetchImpl 
     headers: { Authorization: `Bearer ${env.OPENAI_API_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify(b),
   });
-  let res = await call(body);
-  let data = await res.json().catch(() => null);
+  let sent = body;
+  let res = await call(sent);
+  let err = res.ok ? null : await res.json().catch(() => null);
   // A model may not accept 'minimal' (or these optional fields): step down to
   // 'low', then drop the optional fields altogether.
-  const refused = () => res.status === 400 && /reasoning|safety_identifier/i.test(String(data?.error?.message || ''));
+  const refused = () => res.status === 400 && /reasoning|safety_identifier/i.test(String(err?.error?.message || ''));
   if (refused() && body.reasoning_effort && body.reasoning_effort !== 'low') {
-    res = await call({ ...body, reasoning_effort: 'low' });
-    data = await res.json().catch(() => null);
+    sent = { ...body, reasoning_effort: 'low' };
+    res = await call(sent);
+    err = res.ok ? null : await res.json().catch(() => null);
   }
   if (refused()) {
     const { reasoning_effort, safety_identifier, ...rest } = body;
-    res = await call(rest);
-    data = await res.json().catch(() => null);
+    sent = rest;
+    res = await call(sent);
+    err = res.ok ? null : await res.json().catch(() => null);
   }
-  if (!res.ok) throw new ServiceError('brain_failed', `Brain: ${res.status} ${redact(data?.error?.message)}`);
-  const content = data?.choices?.[0]?.message?.content;
+  if (!res.ok) throw new ServiceError('brain_failed', `Brain: ${res.status} ${redact(err?.error?.message)}`);
+
+  let content; let usage; let model;
+  const streamed = res.body && String(res.headers?.get?.('content-type') || '').includes('event-stream');
+  if (streamed) ({ content, usage, model } = await readStream(res, onReply));
+  else {
+    const data = await res.json().catch(() => null);
+    content = data?.choices?.[0]?.message?.content; usage = data?.usage; model = data?.model;
+  }
   let parsed = null;
   try { parsed = JSON.parse(content || '{}'); } catch { parsed = null; }
   if (!parsed) throw new ServiceError('brain_bad_json', 'Brain: unreadable answer');
-  return { out: cleanBrainOutput(parsed), usage: data?.usage || null, model: data?.model || s.brainModel };
+  return { out: cleanBrainOutput(parsed), usage: usage || null, model: model || s.brainModel };
 }
 
 // ------------------------------------------------------------------ mouth
