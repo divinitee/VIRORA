@@ -1,4 +1,4 @@
-# sentence-structure.imperatives.lets — review sample (A2)
+# sentence-structure.imperatives.lets — review sample (A1)
 
 Each item shows one random filler combination (in bold). Mark anything a teacher wouldn't accept.
 

@@ -1,4 +1,4 @@
-# tenses.future.arrangement-continuous — review sample (B1)
+# tenses.future.arrangement-continuous — review sample (A2)
 
 Each item shows one random filler combination (in bold). Mark anything a teacher wouldn't accept.
 

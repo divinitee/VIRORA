@@ -13,7 +13,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "tenses", branch: "present", topic: "general-truth", level: "A2", pv: "2.5" };
+const BASE = { domain: "tenses", branch: "present", topic: "general-truth", level: "A1", pv: "2.5" };
 
 // [simple, continuous, wrong agreement, perfect]
 const opts = (simple, cont, agree, perf) => [simple, cont, agree, perf];

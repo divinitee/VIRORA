@@ -22,7 +22,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "tenses", branch: "future", topic: "arrangement-continuous", level: "B1", pv: "2.5" };
+const BASE = { domain: "tenses", branch: "future", topic: "arrangement-continuous", level: "A2", pv: "2.5" };
 const why = (form) => `This is already arranged with other people for a fixed time, so use the present continuous: ${form}.`;
 const BE = { i: "am", sg: "is", pl: "are" };
 const HAVE = { i: "have", sg: "has", pl: "have" };
