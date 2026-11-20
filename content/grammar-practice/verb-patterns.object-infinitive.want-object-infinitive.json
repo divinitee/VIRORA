@@ -1148,11 +1148,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The teacher wants us reading more books, {name}.",
-  "hint": "The teacher wants ______ more books, {name}.",
+  "source": "The teacher wants us reading more {thing}, {name}.",
+  "hint": "The teacher wants ______ more {thing}, {name}.",
   "key": "us to read",
   "why": "want + us + to + base, not -ing.",
   "slots": {
+   "thing": [
+    "books",
+    "stories",
+    "newspapers",
+    "poems"
+   ],
    "name": [
     "Malika",
     "Ulugbek",
@@ -1171,7 +1177,7 @@
   "format": "rewrite",
   "instr": "Correct the mistake.",
   "source": "Mum wanted me help her in the {room}.",
-  "hint": "Mum wanted ______ her in the {room}.",
+  "hint": "Mum wanted ______ her in the {room}, {name}.",
   "key": "me to help",
   "why": "want + me + to + base: don't forget \"to\".",
   "slots": {
@@ -1180,6 +1186,12 @@
     "garden",
     "shop",
     "yard"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
    ]
   }
  },
@@ -1221,7 +1233,7 @@
   "format": "rewrite",
   "instr": "Rewrite with want / wanted + person + to.",
   "source": "My dad said: 'Please wash the {thing}.' He asked me.",
-  "hint": "My dad wanted ______ the {thing}.",
+  "hint": "My dad wanted ______ the {thing}, {name}.",
   "key": "me to wash",
   "why": "Dad's request to me: wanted me to wash.",
   "slots": {
@@ -1230,6 +1242,12 @@
     "dishes",
     "windows",
     "carpet"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
    ]
   }
  },
@@ -1243,7 +1261,7 @@
   "format": "rewrite",
   "instr": "Rewrite with want / wanted + person + to.",
   "source": "The coach said to the boys: 'Run {dist} every morning.'",
-  "hint": "The coach wants ______ {dist} every morning.",
+  "hint": "The coach wants ______ {dist} every morning, {name}.",
   "key": "them to run",
   "why": "The coach's wish for the boys: them to run.",
   "slots": {
@@ -1252,6 +1270,12 @@
     "three kilometres",
     "ten laps",
     "two miles"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
    ]
   }
  },
@@ -1293,7 +1317,7 @@
   "format": "rewrite",
   "instr": "Rewrite with want / wanted + person + to.",
   "source": "The teacher told {who}: 'Speak English in class.'",
-  "hint": "The teacher wants ______ English in class.",
+  "hint": "The teacher wants ______ English in class, {name}.",
   "key": "her to speak",
   "why": "The teacher's wish for her: her to speak.",
   "slots": {
@@ -1302,6 +1326,12 @@
     "Madina",
     "my sister",
     "the new girl"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
    ]
   }
  },
@@ -1315,7 +1345,7 @@
   "format": "rewrite",
   "instr": "Rewrite with want / wanted + person + to.",
   "source": "My friend said to me: 'Come to my {event}, please.'",
-  "hint": "My friend wanted ______ to his {event}.",
+  "hint": "My friend wanted ______ to his {event}, {name}.",
   "key": "me to come",
   "why": "My friend's wish for me: me to come.",
   "slots": {
@@ -1324,6 +1354,12 @@
     "wedding",
     "match",
     "birthday"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
    ]
   }
  },
@@ -1365,7 +1401,7 @@
   "format": "rewrite",
   "instr": "Rewrite with would like + person + to.",
   "source": "My parents hope my brother becomes a {job}.",
-  "hint": "My parents would like ______ a {job}.",
+  "hint": "My parents would like ______ a {job}, {name}.",
   "key": "him to become",
   "why": "would like + him + to + base: him to become.",
   "slots": {
@@ -1374,6 +1410,12 @@
     "teacher",
     "pilot",
     "lawyer"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
    ]
   }
  },
@@ -1415,7 +1457,7 @@
   "format": "rewrite",
   "instr": "Rewrite with would like + person + to.",
   "source": "The manager hopes the workers come early on {day}.",
-  "hint": "The manager would like ______ early on {day}.",
+  "hint": "The manager would like ______ early on {day}, {name}.",
   "key": "them to come",
   "why": "would like + them + to + base: them to come.",
   "slots": {
@@ -1424,6 +1466,12 @@
     "Friday",
     "Saturday",
     "Tuesday"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
    ]
   }
  },
