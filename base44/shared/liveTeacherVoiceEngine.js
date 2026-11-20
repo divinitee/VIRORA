@@ -135,12 +135,6 @@ export function pickVoice(list, P) {
   }) || null;
 }
 
-async function unusedResolveVoiceTail(hit, P) {
-  if (!hit) return null;
-  voiceCache.set(P.id, hit.voice_id);
-  return hit.voice_id;
-}
-
 // ------------------------------------------------------------------ ears
 export async function transcribe(env, { bytes, mime }, fetchImpl = fetch) {
   const fd = new FormData();
