@@ -37,7 +37,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: enough goes before the noun: enough eggs.
 
 9. The **show** was ______ for the children, so we left early, **Malika**.  
-   options: ✔ too scary · scary enough · enough scary · too much scary  
+   options: ✔ too scary · enough scary · too much scary · scary too  
    why: You left early, so it was more scary than is OK: too scary.
 
 10. I'm not ______ to win the **competition**, but I'll try, **Zarina**.  

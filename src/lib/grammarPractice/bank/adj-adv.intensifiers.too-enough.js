@@ -256,9 +256,9 @@ export default [
   "prompt": "The {film} was ______ for the children, so we left early, {name}.",
   "options": [
    "too scary",
-   "scary enough",
    "enough scary",
-   "too much scary"
+   "too much scary",
+   "scary too"
   ],
   "key": 0,
   "why": "You left early, so it was more scary than is OK: too scary.",

@@ -36,7 +36,7 @@ const CHOOSE = [
   [TOO("cold"), "It's ______ to go out without a coat today, {name}.", { name: NAME2, day: [] }, "You need a coat, so it is colder than is OK: too cold."],
   [ENA("tall"), "My little sister is ______ to reach the top shelf now, {name}. She grew a lot this year.", { name: NAME, x: [] }, "She grew, so now she can reach it: tall enough."],
   [ENN("eggs"), "Have we got ______ for {dish}, {name}?", { dish: ["a cake", "an omelette", "pancakes", "cookies"], name: NAME2 }, "enough goes before the noun: enough eggs."],
-  [TOO("scary"), "The {film} was ______ for the children, so we left early.", { film: ["film", "show", "story", "game"], name: NAME }, "You left early, so it was more scary than is OK: too scary."],
+  [["too scary", "enough scary", "too much scary", "scary too"], "The {film} was ______ for the children, so we left early.", { film: ["film", "show", "story", "game"], name: NAME }, "You left early, so it was more scary than is OK: too scary."],
   [ENA("fast"), "I'm not ______ to win the {race}, but I'll try, {name}.", { race: ["race", "marathon", "competition", "match"], name: NAME2 }, "\"but I'll try\" = I may lose: not fast enough."],
   [TOO("small"), "This {thing} is ______ for me. Have you got a bigger one, {name}?", { thing: ["shirt", "jacket", "T-shirt", "coat"], name: NAME }, "You want a bigger one: too small."],
   [ENN("money"), "Did you bring ______ for the {ticket}, {name}?", { ticket: ["bus", "metro", "cinema", "museum"], name: NAME2 }, "enough goes before the noun: enough money."],
