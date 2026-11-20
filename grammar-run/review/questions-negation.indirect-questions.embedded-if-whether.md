@@ -102,7 +102,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
 4. _Write the verb in brackets after if. Use statement order: no do / does / did._  
-   Do you know if your brother still ______ (work) at the **hotel**, **Aziz**?  
+   Can you find out if your brother still ______ (work) at the **hotel**, **Aziz**?  
    key: works  
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
@@ -127,7 +127,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
 9. _Write the verb in brackets after if. Use statement order: no do / does / did._  
-   Do you know if the shop ______ (open) at **eight** every day, **Olga**?  
+   Please ask if the shop ______ (open) at **eight** every day, **Olga**?  
    key: opens  
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
 15. _Write the verb in brackets after if. Use statement order: no do / does / did._  
-   Do you know if this bus ______ (go) to the **airport** every hour, **Aziz**?  
+   Could you check if this bus ______ (go) to the **airport** every hour, **Aziz**?  
    key: goes  
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
@@ -172,7 +172,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
 18. _Write the verb in brackets after if. Use statement order: no do / does / did._  
-   Do you know if the museum ______ (be) free on **Fridays** every week, **Lola**?  
+   I'd like to know if the museum ______ (be) free on **Fridays** every week, **Lola**?  
    key: is  
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 

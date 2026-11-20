@@ -1,0 +1,1825 @@
+[
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you tell me ______, {name}? I'm near the {place}.",
+  "options": [
+   "where the station is",
+   "where is the station",
+   "where does the station is",
+   "the station where is"
+  ],
+  "key": 0,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "museum",
+    "bazaar",
+    "station",
+    "old town"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you know ______ to {city}, {name}?",
+  "options": [
+   "how much does a ticket cost",
+   "how much costs a ticket",
+   "how much a ticket does cost",
+   "how much a ticket costs"
+  ],
+  "key": 3,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know ______, {name}. I forgot to ask {who}.",
+  "options": [
+   "what time starts the film",
+   "what time the film does start",
+   "what time the film starts",
+   "what time does the film start"
+  ],
+  "key": 2,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "Dad",
+    "Mum",
+    "my sister",
+    "the teacher"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Could you tell me ______ {when}, {name}?",
+  "options": [
+   "where you did be",
+   "where you were",
+   "where were you",
+   "where did you be"
+  ],
+  "key": 1,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "after school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I wonder ______ the {event} so early, {name}.",
+  "options": [
+   "why she left",
+   "why did she leave",
+   "why she did leave",
+   "why left she"
+  ],
+  "key": 0,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "meeting",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you remember ______, {name}? I need to call him {when}.",
+  "options": [
+   "what is his number",
+   "what does his number",
+   "his number what is",
+   "what his number is"
+  ],
+  "key": 3,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "when": [
+    "today",
+    "tonight",
+    "now",
+    "later"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you tell me ______ the {place}, {name}?",
+  "options": [
+   "how get I to",
+   "how I do get to",
+   "how I get to",
+   "how do I get to"
+  ],
+  "key": 2,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "place": [
+    "museum",
+    "bazaar",
+    "station",
+    "old town"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm not sure ______ {when}, {name}.",
+  "options": [
+   "what we do doing",
+   "what we are doing",
+   "what are we doing",
+   "what do we doing"
+  ],
+  "key": 1,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "this weekend",
+    "on Friday",
+    "tonight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you know ______ in {city}, {name}?",
+  "options": [
+   "where your uncle lives",
+   "where does your uncle live",
+   "where lives your uncle",
+   "where your uncle does live"
+  ],
+  "key": 0,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Tell me ______, {name}. I want to know everything about the {thing}.",
+  "options": [
+   "what did happen",
+   "what happened did",
+   "what did it happen",
+   "what happened"
+  ],
+  "key": 3,
+  "why": "Here the wh-word is the subject, so the order is already wh-word + verb: what happened. No did.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "trip",
+    "match",
+    "party",
+    "test"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Could you tell me ______ the {thing}, {name}?",
+  "options": [
+   "when bought you",
+   "when you did buy",
+   "when you bought",
+   "when did you buy"
+  ],
+  "key": 2,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bike",
+    "car",
+    "tickets"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have no idea ______, {name}. Let's ask {who}.",
+  "options": [
+   "how she old is",
+   "how old she is",
+   "how old is she",
+   "how old does she"
+  ],
+  "key": 1,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "her mum",
+    "the teacher",
+    "Dad",
+    "her friend"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you ask him ______ to the {event}, {name}?",
+  "options": [
+   "who he is coming with",
+   "who is he coming with",
+   "who does he coming with",
+   "who he coming with"
+  ],
+  "key": 0,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "meeting",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you know ______ by {transport}, {name}?",
+  "options": [
+   "how long does the trip take",
+   "how long takes the trip",
+   "how long the trip does take",
+   "how long the trip takes"
+  ],
+  "key": 3,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "car",
+    "plane"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please tell me ______ the {thing}, {name}.",
+  "options": [
+   "where put you",
+   "where you did put",
+   "where you put",
+   "where did you put"
+  ],
+  "key": 2,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "thing": [
+    "keys",
+    "remote",
+    "tickets",
+    "passport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can't remember ______ {when}, {name}.",
+  "options": [
+   "what the teacher did say",
+   "what the teacher said",
+   "what did the teacher say",
+   "what said the teacher"
+  ],
+  "key": 1,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "in class",
+    "yesterday",
+    "on Monday",
+    "this morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you find out ______ {food}, {name}?",
+  "options": [
+   "how often she eats",
+   "how often does she eat",
+   "how often eats she",
+   "how often she does eat"
+  ],
+  "key": 0,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "food": [
+    "meat",
+    "fish",
+    "sweets",
+    "fruit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Could you explain ______ so sad {when}, {name}?",
+  "options": [
+   "why is your brother",
+   "why does your brother",
+   "why your brother does",
+   "why your brother is"
+  ],
+  "key": 3,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "today",
+    "this week",
+    "now",
+    "these days"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'd like to know ______ for {meal}, {name}.",
+  "options": [
+   "what do we having",
+   "what we having",
+   "what we are having",
+   "what are we having"
+  ],
+  "key": 2,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "the party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you tell me ______ open on {day}, {name}?",
+  "options": [
+   "what time the bank does",
+   "what time the bank is",
+   "what time is the bank",
+   "what time does the bank"
+  ],
+  "key": 1,
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "holidays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Can you tell me where the station ______ (be), {name}? I'm near the {place}.",
+  "key": "is",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "museum",
+    "bazaar",
+    "station",
+    "old town"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Do you know how much a ticket to {city} ______ (cost) {when}?",
+  "key": "costs",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "when": [
+    "now",
+    "these days",
+    "today",
+    "this month"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "I don't know what time the film ______ (start) {when}, {name}.",
+  "key": "starts",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "every evening",
+    "on weekdays",
+    "on Sundays",
+    "every night"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Could you tell me where you ______ (be) {when}, {name}?",
+  "key": "were",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "after school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "I wonder why she ______ (leave) the {event} so early yesterday, {name}.",
+  "key": "left",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "meeting",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Do you know which street your uncle ______ (live) on in {city}, {name}?",
+  "key": "lives",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Can you tell me how long the trip ______ (take) by {transport}, {name}?",
+  "key": "takes",
+  "acceptable": [
+   "will take"
+  ],
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "car",
+    "plane"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Please tell me where you ______ (put) the {thing} last night, {name}.",
+  "key": "put",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "thing": [
+    "keys",
+    "remote",
+    "tickets",
+    "passport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "I can't remember what the teacher ______ (say) {when}, {name}.",
+  "key": "said",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "on Monday",
+    "this morning",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Do you know how often she ______ (go) to the {place} these days, {name}?",
+  "key": "goes",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "place": [
+    "gym",
+    "library",
+    "bazaar",
+    "pool"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Could you explain why your brother ______ (be) so quiet {when}, {name}?",
+  "key": "is",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "today",
+    "this week",
+    "these days",
+    "now"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "I'd like to know what time the {shop} ______ (close) every day, {name}.",
+  "key": "closes",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "bank",
+    "post office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Ask him where he ______ (buy) his {thing} last year, {name}.",
+  "key": "bought",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "thing": [
+    "bike",
+    "guitar",
+    "car",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "I have no idea how old {who} ______ (be) now, {name}.",
+  "key": "is",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "who": [
+    "your grandmother",
+    "our teacher",
+    "that tree",
+    "this house"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "I need to know when the next bus ______ (leave) for {city}, {name}.",
+  "key": "leaves",
+  "acceptable": [
+   "will leave"
+  ],
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Can you tell me what this word ______ (mean) in {lang}, {name}?",
+  "key": "means",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "Uzbek",
+    "Turkish",
+    "Korean"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "I'm not sure who ______ (win) the match {when}, {name}.",
+  "key": "won",
+  "why": "The wh-word is the subject here, so the verb comes straight after it, in statement form.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Sunday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Could you tell me how many people ______ (come) to the {event} last {day}?",
+  "key": "came",
+  "why": "The wh-word is the subject here, so the verb comes straight after it, in statement form.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "meeting",
+    "concert"
+   ],
+   "day": [
+    "week",
+    "Saturday",
+    "month",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Tell me what you ______ (do) {when}, {name}.",
+  "key": "did",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "after school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
+  "source": "Do you remember where we ______ (park) the car {when}, {name}?",
+  "key": "parked",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "this morning",
+    "yesterday",
+    "last night",
+    "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "Where does she live in {city}, {name}?",
+  "hint": "Could you tell me where ______ in {city}, {name}?",
+  "key": "she lives",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "What time does it open on {day}, {name}?",
+  "hint": "Do you know what time ______ on {day}, {name}?",
+  "key": "it opens",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "holidays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "How much are they at the {shop}, {name}?",
+  "hint": "Can you tell me how much ______ at the {shop}, {name}?",
+  "key": "they are",
+  "acceptable": [
+   "they're"
+  ],
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "shop": [
+    "bazaar",
+    "shop",
+    "market",
+    "mall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "Where is the toilet in this {place}, {name}?",
+  "hint": "Could you tell me where ______ in this {place}, {name}?",
+  "key": "the toilet is",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "place": [
+    "café",
+    "hotel",
+    "museum",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "Why is he so angry {when}, {name}?",
+  "hint": "Do you know why ______ so angry {when}, {name}?",
+  "key": "he is",
+  "acceptable": [
+   "he's"
+  ],
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "today",
+    "now",
+    "this week",
+    "these days"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "Where did you buy your {thing}, {name}?",
+  "hint": "Can I ask where ______ your {thing}, {name}?",
+  "key": "you bought",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "thing": [
+    "bag",
+    "shoes",
+    "jacket",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "What did the doctor say {when}, {name}?",
+  "hint": "Can you tell me what ______ {when}, {name}?",
+  "key": "the doctor said",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "after school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "How can I get to the {place}, {name}?",
+  "hint": "Could you tell me how ______ to the {place}, {name}?",
+  "key": "I can get",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "place": [
+    "museum",
+    "bazaar",
+    "station",
+    "old town"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "When will they arrive in {city}, {name}?",
+  "hint": "Do you know when ______ in {city}, {name}?",
+  "key": "they will arrive",
+  "acceptable": [
+   "they'll arrive"
+  ],
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use statement order.",
+  "source": "Who did you meet at the {event}, {name}?",
+  "hint": "Tell me who ______ at the {event}, {name}.",
+  "key": "you met",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "meeting",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order.",
+  "source": "Can you tell me where is it, {name}? I can't see the {place}.",
+  "hint": "Can you tell me where ______, {name}? I can't see the {place}.",
+  "key": "it is",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "museum",
+    "bazaar",
+    "station",
+    "old town"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order.",
+  "source": "Do you know what time does the lesson start {when}, {name}?",
+  "hint": "Do you know what time ______ {when}, {name}?",
+  "key": "the lesson starts",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "today",
+    "on Monday",
+    "tomorrow",
+    "on Fridays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order.",
+  "source": "Can you remember where did I put my {thing}, {name}?",
+  "hint": "Can you remember where ______ my {thing}, {name}?",
+  "key": "I put",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "glasses",
+    "wallet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order.",
+  "source": "Could you tell me how much costs the ticket to {city}, {name}?",
+  "hint": "Could you tell me how much ______ to {city}, {name}?",
+  "key": "the ticket costs",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order.",
+  "source": "I wonder why was she late {when}, {name}.",
+  "hint": "I wonder why ______ late {when}, {name}.",
+  "key": "she was",
+  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "after school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a stranger politely where the nearest bus stop is.",
+  "requiredElement": "Could you tell me where … is?",
+  "constraints": [
+   "exactly one question",
+   "where + subject + is",
+   "no question order after where"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a shop worker politely how much something costs.",
+  "requiredElement": "Can you tell me how much … costs?",
+  "constraints": [
+   "exactly one question",
+   "how much + subject + verb",
+   "no does"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend politely what time the match starts.",
+  "requiredElement": "Do you know what time … starts?",
+  "constraints": [
+   "exactly one question",
+   "what time + subject + verb",
+   "no does"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a sentence saying you don't know where a friend lives.",
+  "requiredElement": "I don't know where … lives.",
+  "constraints": [
+   "exactly one sentence",
+   "where + subject + verb",
+   "lives with -s"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a sentence saying you can't remember what you did last weekend.",
+  "requiredElement": "I can't remember what I did …",
+  "constraints": [
+   "exactly one sentence",
+   "what + subject + past verb",
+   "no did after what"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a teacher politely why a lesson is cancelled.",
+  "requiredElement": "Could you tell me why … is …?",
+  "constraints": [
+   "exactly one question",
+   "why + subject + is",
+   "statement order"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a hotel worker politely how you can get to the old town.",
+  "requiredElement": "Could you tell me how I can get to …?",
+  "constraints": [
+   "exactly one question",
+   "how + I + can",
+   "statement order"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two polite questions for a new classmate: one with where and one with what.",
+  "requiredElement": "Can I ask where you … / Do you know what …?",
+  "constraints": [
+   "exactly two questions",
+   "two different wh-words",
+   "statement order in both"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are a tourist in a new city. Write polite questions to ask at the hotel desk.",
+  "targetGrammar": "Could you tell me where … is / how much … costs?",
+  "lookFor": [
+   "wh-word + statement order",
+   "different wh-words",
+   "three or four questions"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a friend who missed a class: say what you don't know about the homework and ask them to find out.",
+  "targetGrammar": "I don't know what … / Can you ask when …?",
+  "lookFor": [
+   "wh-word + statement order",
+   "no do / does inside",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You lost your bag. Write what you can't remember and ask a worker for help.",
+  "targetGrammar": "I can't remember where I … / Do you know where …?",
+  "lookFor": [
+   "wh-word + statement order",
+   "past verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write polite questions to ask a doctor or nurse.",
+  "targetGrammar": "Could you tell me how often I … / why …?",
+  "lookFor": [
+   "wh-word + statement order",
+   "different wh-words",
+   "three or four questions"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-order",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are planning a trip with your class. Write what you need to find out.",
+  "targetGrammar": "We need to know how much … costs / when … leaves.",
+  "lookFor": [
+   "wh-word + statement order",
+   "no question order inside",
+   "three or four sentences"
+  ]
+ }
+]

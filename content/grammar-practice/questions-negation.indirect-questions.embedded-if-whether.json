@@ -729,7 +729,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
-  "source": "Do you know if your brother still ______ (work) at the {place}, {name}?",
+  "source": "Can you find out if your brother still ______ (work) at the {place}, {name}?",
   "key": "works",
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
@@ -864,7 +864,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
-  "source": "Do you know if the shop ______ (open) at {time} every day, {name}?",
+  "source": "Please ask if the shop ______ (open) at {time} every day, {name}?",
   "key": "opens",
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
@@ -1026,7 +1026,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
-  "source": "Do you know if this bus ______ (go) to the {place} every hour, {name}?",
+  "source": "Could you check if this bus ______ (go) to the {place} every hour, {name}?",
   "key": "goes",
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
@@ -1107,7 +1107,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
-  "source": "Do you know if the museum ______ (be) free on {day} every week, {name}?",
+  "source": "I'd like to know if the museum ______ (be) free on {day} every week, {name}?",
   "key": "is",
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
