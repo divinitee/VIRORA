@@ -320,6 +320,7 @@ export default function LiveTeacherV2() {
   async function startLesson() {
     setError(""); setTranscript([]); setMistakes([]); setCost(0); setRecap(null); setPartial(""); setFillerNote(""); setTiming("");
     historyRef.current = []; endingRef.current = false; streamFailsRef.current = 0; cutRef.current = 0;
+    fillersRef.current = {}; recentRef.current = {};
     go("connecting");
     // made inside the tap, so the browser allows it to play sound
     try {
