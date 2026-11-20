@@ -28,7 +28,7 @@ const reply = (status, body) => ({ status, body });
 const MAX_LESSON_MISTAKES = 30;
 
 // VT-54.2: this lesson's own mistakes, newest last, one entry per mistake key.
-function lessonMistakes(lesson, profile, result) {
+export function lessonMistakes(lesson, profile, result) {
   const list = Array.isArray(lesson.mistakes) ? lesson.mistakes.filter((m) => m.key !== result.key) : [];
   const rec = profile.mistakes[result.key] || {};
   list.push({
@@ -38,7 +38,7 @@ function lessonMistakes(lesson, profile, result) {
   });
   return list.slice(-MAX_LESSON_MISTAKES);
 }
-const withLabels = (list) => (Array.isArray(list) ? list : []).map((m) => ({ ...m, label: RULE_LABELS[m.rule] || RULE_LABELS['other.general'] }));
+export const withLabels = (list) => (Array.isArray(list) ? list : []).map((m) => ({ ...m, label: RULE_LABELS[m.rule] || RULE_LABELS['other.general'] }));
 const PROFILE_FIELDS = [
   'cefr_level', 'level_history', 'mode', 'age_group', 'mistakes', 'pronunciation', 'vocabulary',
   'test_results', 'progress', 'lesson_count', 'last_lesson_at', 'last_lesson_summary', 'last_focus',
@@ -54,12 +54,12 @@ export async function getOrCreateProfile(svc, email) {
   return { row, profile: normalizeProfile(row) };
 }
 
-const saveProfile = (svc, row, profile) => svc.LiveTeacherProfile.update(row.id, pick(profile));
+export const saveProfile = (svc, row, profile) => svc.LiveTeacherProfile.update(row.id, pick(profile));
 
 // Never let an OpenAI error text carry a key-shaped string anywhere.
-const redact = (s) => String(s || '').replace(/(sk|ek)-[A-Za-z0-9_-]{8,}/g, '[redacted]').slice(0, 240);
+export const redact = (s) => String(s || '').replace(/(sk|ek)-[A-Za-z0-9_-]{8,}/g, '[redacted]').slice(0, 240);
 
-async function sha256Hex(text) {
+export async function sha256Hex(text) {
   const bytes = new TextEncoder().encode(String(text));
   const digest = await crypto.subtle.digest('SHA-256', bytes);
   return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, '0')).join('');
@@ -153,7 +153,7 @@ const parseArgs = (a) => {
   } catch { return {}; }
 };
 
-async function loadLesson(svc, user, id, now, { allowEnded = false } = {}) {
+export async function loadLesson(svc, user, id, now, { allowEnded = false } = {}) {
   let lesson = null;
   try { lesson = id ? await svc.LiveTeacherLesson.get(String(id)) : null; } catch { lesson = null; }
   if (!lesson || lesson.user_email !== user.email) return { error: reply(404, { ok: false, code: 'lesson_not_found', error: 'Lesson not found.' }) };
@@ -165,7 +165,7 @@ async function loadLesson(svc, user, id, now, { allowEnded = false } = {}) {
   return { lesson };
 }
 
-async function finalize(svc, { lesson, row, profile, summary, strengths, focusNext, scores, now }) {
+export async function finalize(svc, { lesson, row, profile, summary, strengths, focusNext, scores, now }) {
   const next = finishLesson(profile, { mode: lesson.mode, summary, focusNext, scores, now });
   await saveProfile(svc, row, next);
   const durationS = Math.max(0, Math.round((now - Date.parse(lesson.started_at)) / 1000));
