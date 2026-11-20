@@ -999,7 +999,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
-  "source": "You've just come back from {place}. You ______ (be) happy to be home, {name}.",
+  "source": "You've just come back from {place}. You ______ (be) glad that you are home, {name}.",
   "key": "must be",
   "why": "The speaker is sure, from the evidence: must + base verb.",
   "slots": {

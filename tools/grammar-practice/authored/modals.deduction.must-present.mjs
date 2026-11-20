@@ -63,7 +63,7 @@ const BUILD = [
   ["be", "Your sister trains at the {place} every morning. She ______ (be) very fit, {name}.", { place: ["gym", "pool", "stadium", "sports club"], name: NAME }],
   ["like", "He has three phones and two {thing}. He ______ (like) technology, {name}.", { thing: ["laptops", "tablets", "cameras", "smart watches"], name: NAME }],
   ["be", "The {who} is shouting at everyone. He ______ (be) angry, {name}.", { who: ["boss", "coach", "driver", "manager"], name: NAME }],
-  ["be", "You've just come back from {place}. You ______ (be) happy to be home, {name}.", { place: ["a long trip", "Moscow", "the mountains", "a month in Korea"], name: NAME }],
+  ["be", "You've just come back from {place}. You ______ (be) glad that you are home, {name}.", { place: ["a long trip", "Moscow", "the mountains", "a month in Korea"], name: NAME }],
   ["be", "Olga always wins at {game}. She ______ (be) very clever, {name}.", { game: ["chess", "cards", "backgammon", "quizzes"], name: NAME }],
   ["want", "The {pet} is sitting by its bowl. It ______ (want) its dinner, {name}.", { pet: ["cat", "dog", "puppy", "kitten"], name: NAME }],
   ["work", "My uncle has a big farm near {city}. He ______ (work) very hard, {name}.", { city: ["Fergana", "Namangan", "Andijan", "Jizzakh"], name: NAME }],

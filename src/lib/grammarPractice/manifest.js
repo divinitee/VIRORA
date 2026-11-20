@@ -450,6 +450,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.deduction.must-present": {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.obligation.must": {
   "domain": "modals",
   "branch": "obligation",
