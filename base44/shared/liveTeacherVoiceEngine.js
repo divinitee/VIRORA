@@ -1,4 +1,5 @@
 // Live Teacher v2 engine (2026-11-20): the "text brain" lesson loop.
+// Turn timings (ears/brain/voice) are returned to admins to find the slow part.
 //
 //   student audio -> EARS  ElevenLabs Scribe (speech-to-text, word for word)
 //                 -> BRAIN OpenAI text model (reply + mistakes, one JSON answer)
