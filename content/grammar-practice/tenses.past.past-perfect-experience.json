@@ -361,7 +361,7 @@
     "airport",
     "station",
     "bus station",
-    "theatre"
+    "ferry port"
    ],
    "trip": [
     "trip",
@@ -1182,7 +1182,7 @@
    "place": [
     "theatre",
     "museum",
-    "museum",
+    "zoo",
     "stadium"
    ]
   }

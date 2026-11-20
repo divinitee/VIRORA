@@ -363,7 +363,7 @@ export default [
     "airport",
     "station",
     "bus station",
-    "border"
+    "ferry port"
    ],
    "trip": [
     "trip",
@@ -1184,7 +1184,7 @@ export default [
    "place": [
     "theatre",
     "museum",
-    "mosque",
+    "zoo",
     "stadium"
    ]
   }
