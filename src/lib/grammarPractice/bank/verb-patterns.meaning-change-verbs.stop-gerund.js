@@ -453,7 +453,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Why did your {who} stop ______ you, {name}?",
+  "prompt": "Your {who} never phones now. Why did he stop ______ you, {name}?",
   "options": [
    "called",
    "calling",
@@ -466,7 +466,7 @@ export default [
    "who": [
     "cousin",
     "friend",
-    "aunt",
+    "uncle",
     "brother"
    ],
    "name": [

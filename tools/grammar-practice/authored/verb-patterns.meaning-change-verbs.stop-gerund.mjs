@@ -40,7 +40,7 @@ const CHOOSE = [
   [S("worrying", "worry", "worried"), "Stop ______ about the {test}. You'll be fine, {name}.", { test: ["exam", "interview", "match", "results"], name: NAME2 }, "End the worry now"],
   [S("running", "run", "ran"), "The tap in the {room} has stopped ______, {name}.", { room: ["kitchen", "bathroom", "garden", "yard"], name: NAME }, "The water ended"],
   [S("buying", "buy", "bought"), "My parents stopped ______ newspapers years ago.", { x: [], y: [] }, "They don't buy them any more"],
-  [S("calling", "call", "called"), "Why did your {who} stop ______ you, {name}?", { who: ["cousin", "friend", "aunt", "brother"], name: NAME2 }, "The calls ended"],
+  [S("calling", "call", "called"), "Your {who} never phones now. Why did he stop ______ you, {name}?", { who: ["cousin", "friend", "uncle", "brother"], name: NAME2 }, "The calls ended"],
   [S("shouting", "shout", "shouted"), "Please stop ______ at your little {who}, {name}.", { who: ["brother", "sister", "cousin", "son"], name: NAME }, "End the shouting"],
   [S("growing", "grow", "grew"), "This {tree} stopped ______ years ago.", { tree: ["apple tree", "palm tree", "plant", "vine"], x: [] }, "It doesn't grow any more"],
   [S("learning", "learn", "learned"), "Never stop ______, {name}. Even at seventy!", { name: NAME2, x: [] }, "Don't ever end your learning"],

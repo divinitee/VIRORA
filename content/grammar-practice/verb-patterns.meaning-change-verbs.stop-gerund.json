@@ -451,7 +451,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Why did your {who} stop ______ you, {name}?",
+  "prompt": "Your {who} never phones now. Why did he stop ______ you, {name}?",
   "options": [
    "called",
    "calling",
@@ -464,7 +464,7 @@
    "who": [
     "cousin",
     "friend",
-    "aunt",
+    "uncle",
     "brother"
    ],
    "name": [

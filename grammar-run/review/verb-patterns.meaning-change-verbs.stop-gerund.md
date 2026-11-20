@@ -64,7 +64,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: buy · bought · ✔ buying · to buy  
    why: They don't buy them any more: the activity ends, so stop + -ing (buying).
 
-16. Why did your **cousin** stop ______ you, **Malika**?  
+16. Your **cousin** never phones now. Why did he stop ______ you, **Malika**?  
    options: called · ✔ calling · to call · call  
    why: The calls ended: the activity ends, so stop + -ing (calling).
 
