@@ -289,7 +289,8 @@ const clip = (s, n) => String(s ?? '').replace(/\s+/g, ' ').trim().slice(0, n);
  * The per-turn user message: this lesson's mistakes, the recent conversation,
  * and what the student just said.
  */
-export function buildTurnMessage({ persona, history = [], studentText = '', lessonMistakes = [], minutesLeft = null, start = false }) {
+const LANG_NAME = { uz: 'Uzbek', ru: 'Russian' };
+export function buildTurnMessage({ persona, history = [], studentText = '', lessonMistakes = [], minutesLeft = null, start = false, studentLang = 'en' }) {
   const P = PERSONAS[cleanPersona(persona)];
   const lines = [];
   if (Array.isArray(lessonMistakes) && lessonMistakes.length) {
@@ -309,6 +310,7 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
     }
   }
   lines.push('');
+  if (!start && LANG_NAME[studentLang]) lines.push(`STUDENT LANGUAGE: ${LANG_NAME[studentLang]} (answer in ${LANG_NAME[studentLang]}, then have them say it in English).`);
   lines.push(start ? 'LESSON START. Greet the student now.' : `STUDENT JUST SAID: "${clip(studentText, 1200)}"`);
   return lines.join('\n');
 }
