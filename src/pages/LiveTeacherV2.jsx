@@ -81,6 +81,7 @@ export default function LiveTeacherV2() {
   const [cost, setCost] = useState(0);
   const [recap, setRecap] = useState(null);
   const [personaName, setPersonaName] = useState("Vira");
+  const [fillerNote, setFillerNote] = useState(""); // admins: why the "hmm" clips failed
 
   const loopRef = useRef(null);
   const lessonRef = useRef(null); // { id, deadline }
@@ -129,7 +130,7 @@ export default function LiveTeacherV2() {
 
   function playFiller() {
     const clips = fillersRef.current;
-    if (!clips.length || Math.random() > 0.75) return null;
+    if (!clips.length || Math.random() > 0.9) return null;
     let i = Math.floor(Math.random() * clips.length);
     if (clips.length > 1 && i === lastFillerRef.current) i = (i + 1) % clips.length;
     lastFillerRef.current = i;
@@ -202,11 +203,23 @@ export default function LiveTeacherV2() {
     try {
       await loop.start();
       loop.setPushToTalk(noisy);
-      const [s, f] = await Promise.all([
-        liveTeacherApi("v2_start", { persona, age_group: age, lang }),
-        liveTeacherApi("v2_fillers", { persona }).catch(() => ({ clips: [] })),
-      ]);
-      fillersRef.current = f?.clips || [];
+      const s = await liveTeacherApi("v2_start", { persona, age_group: age, lang });
+      // The "hmm" clips load AFTER the greeting request (not at the same time:
+      // ElevenLabs refuses too many parallel requests) and retry once.
+      fillersRef.current = [];
+      setFillerNote("");
+      (async () => {
+        for (let attempt = 0; attempt < 2 && !fillersRef.current.length; attempt++) {
+          try {
+            const f = await liveTeacherApi("v2_fillers", { persona });
+            fillersRef.current = f?.clips || [];
+            if (f?.warning) setFillerNote(`Some thinking sounds failed: ${f.warning}`);
+          } catch (e) {
+            if (attempt === 1) setFillerNote(`Thinking sounds failed: ${e.message}`);
+            else await new Promise((r) => setTimeout(r, 1500));
+          }
+        }
+      })();
       lessonRef.current = { id: s.lesson_id, deadline: Date.now() + (s.max_minutes || 10) * 60000 };
       setSecondsLeft((s.max_minutes || 10) * 60);
       setPersonaName(s.persona_name || "Vira");
@@ -341,6 +354,7 @@ export default function LiveTeacherV2() {
       ) : null}
 
       {error ? <p className="text-sm text-rose-300">{error}</p> : null}
+      {isAdmin && fillerNote ? <p className="text-xs text-amber-300">{fillerNote}</p> : null}
       {paused && pausedReason ? (
         <p className="text-sm text-muted-foreground text-center">
           {pausedReason === "away" ? "Paused. Someone needs you? Press Resume when you're back." : pausedReason === "idle" ? "Paused because it went quiet." : "Paused."}
