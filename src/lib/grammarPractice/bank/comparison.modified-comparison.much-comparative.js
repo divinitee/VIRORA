@@ -26,10 +26,10 @@ export default [
     "classroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "tram"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "Karshi"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "task"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "old bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "comic"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "mother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "armchair"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "old route"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "valley"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -346,10 +346,10 @@ export default [
     "Kazan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -378,10 +378,10 @@ export default [
     "fog"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -410,10 +410,10 @@ export default [
     "quiz"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "golf"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "cousin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "money"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "backpack"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "drawing"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "weekends"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "cousin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "airport shop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -688,10 +688,10 @@ export default [
     "the summer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -715,10 +715,10 @@ export default [
     "Tashkent"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "Kazakh"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "house"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "sandals"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -823,10 +823,10 @@ export default [
     "wardrobe"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -849,10 +849,10 @@ export default [
     "hour"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -897,10 +897,10 @@ export default [
     "May"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -924,10 +924,10 @@ export default [
     "bus stop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -951,10 +951,10 @@ export default [
     "canal"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -978,10 +978,10 @@ export default [
     "washing machine"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1005,10 +1005,10 @@ export default [
     "school"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1032,10 +1032,10 @@ export default [
     "bus stop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1059,10 +1059,10 @@ export default [
     "list"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1086,10 +1086,10 @@ export default [
     "melon"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1113,10 +1113,10 @@ export default [
     "future"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1140,10 +1140,10 @@ export default [
     "half past five"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1167,10 +1167,10 @@ export default [
     "Navruz holidays"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1195,10 +1195,10 @@ export default [
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1217,10 +1217,10 @@ export default [
   "why": "A big difference: much goes before the comparative, much more expensive. Not very.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ],
    "n": [
     "10",
@@ -1251,10 +1251,10 @@ export default [
     "summer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1279,10 +1279,10 @@ export default [
     "library"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1307,10 +1307,10 @@ export default [
     "project"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1335,10 +1335,10 @@ export default [
     "flat"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1363,10 +1363,10 @@ export default [
     "kettle"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1391,10 +1391,10 @@ export default [
     "biology"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1419,10 +1419,10 @@ export default [
     "garden"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1447,10 +1447,10 @@ export default [
     "aunt"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1475,10 +1475,10 @@ export default [
     "bus stop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1503,10 +1503,10 @@ export default [
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1559,10 +1559,10 @@ export default [
     "Kazan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1587,10 +1587,10 @@ export default [
     "lesson"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },

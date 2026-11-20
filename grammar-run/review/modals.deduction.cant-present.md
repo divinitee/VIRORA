@@ -4,27 +4,27 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. That ______ be Aziz at the door. He's in **Korea** this week, **Timur**.  
+1. That ______ be Aziz at the door. He's in **Korea** this week, **Nodira**.  
    options: ✔ can't · mustn't · must · might  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-2. You ______ be hungry! You've just eaten two plates of **plov**, **Aziz**.  
+2. You ______ be hungry! You've just eaten two plates of **plov**, **Zarina**.  
    options: mustn't · must · might · ✔ can't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-3. She ______ be at work. Her office is closed on **Saturday**s, **Timur**.  
+3. She ______ be at work. Her office is closed on **Saturday**s, **Nodira**.  
    options: must · might · ✔ can't · mustn't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-4. This ______ be your **bag**. Yours is blue, and this one is red, **Lola**.  
+4. This ______ be your **bag**. Yours is blue, and this one is red, **Akmal**.  
    options: might · ✔ can't · mustn't · must  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-5. He ______ be twenty. His son is at **medical school**, **Olga**.  
+5. He ______ be twenty. His son is at **medical school**, **Sherzod**.  
    options: ✔ can't · mustn't · must · might  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-6. It ______ be cold outside. People are wearing **shorts**, **Lola**.  
+6. It ______ be cold outside. People are wearing **shorts**, **Akmal**.  
    options: mustn't · must · might · ✔ can't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
@@ -32,23 +32,23 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: must · might · ✔ can't · mustn't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-8. The **post office** ______ be open. It's three o'clock in the morning, **Aziz**.  
+8. The **post office** ______ be open. It's three o'clock in the morning, **Zarina**.  
    options: might · ✔ can't · mustn't · must  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-9. You ______ be tired. You slept for **eleven** hours, **Aziz**!  
+9. You ______ be tired. You slept for **eleven** hours, **Zarina**!  
    options: ✔ can't · mustn't · must · might  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-10. That ______ be the right bus. This one goes to the **stadium**, not the airport, **Olga**.  
+10. That ______ be the right bus. This one goes to the **stadium**, not the airport, **Sherzod**.  
    options: mustn't · must · might · ✔ can't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-11. She ______ be Lola's sister. Lola has only **brothers**, **Aziz**.  
+11. She ______ be Lola's sister. Lola has only **brothers**, **Zarina**.  
    options: must · might · ✔ can't · mustn't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-12. He ______ know about the **plan**. Nobody told him, **Lola**.  
+12. He ______ know about the **plan**. Nobody told him, **Akmal**.  
    options: might · ✔ can't · mustn't · must  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
@@ -56,123 +56,123 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ can't · mustn't · must · might  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-14. You ______ be serious, **Aziz**! A new **bike** for five dollars?  
+14. You ______ be serious, **Zarina**! A new **bike** for five dollars?  
    options: mustn't · must · might · ✔ can't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-15. Timur ______ be at the **library**. I've just seen him in the café, **Timur**.  
+15. Timur ______ be at the **library**. I've just seen him in the café, **Nodira**.  
    options: must · might · ✔ can't · mustn't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-16. It ______ be very far. The map says **five minutes on foot**, **Olga**.  
+16. It ______ be very far. The map says **five minutes on foot**, **Sherzod**.  
    options: might · ✔ can't · mustn't · must  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-17. This ______ be the right address. There's no **house** here, **Lola**.  
+17. This ______ be the right address. There's no **house** here, **Akmal**.  
    options: ✔ can't · mustn't · must · might  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-18. She ______ be from **France**. She doesn't speak a word of the language, **Aziz**.  
+18. She ______ be from **France**. She doesn't speak a word of the language, **Zarina**.  
    options: mustn't · must · might · ✔ can't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-19. That ______ be true! Our **coach** is never late, **Olga**.  
+19. That ______ be true! Our **coach** is never late, **Sherzod**.  
    options: must · might · ✔ can't · mustn't  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
-20. The **cat** ______ be hungry. I fed it ten minutes ago, **Lola**.  
+20. The **cat** ______ be hungry. I fed it ten minutes ago, **Akmal**.  
    options: might · ✔ can't · mustn't · must  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 ## build (20)
 
 1. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   Aziz ______ (be) at home. He's in **Bukhara** today, **Olga**.  
+   Aziz ______ (be) at home. He's in **Bukhara** today, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 2. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   You ______ (be) hungry. You've just had **lunch**, **Lola**.  
+   You ______ (be) hungry. You've just had **lunch**, **Akmal**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 3. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   This ______ (be) my **bag**. Mine is black, **Lola**.  
+   This ______ (be) my **bag**. Mine is black, **Akmal**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 4. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   The **post office** ______ (be) open. It's midnight, **Aziz**.  
+   The **post office** ______ (be) open. It's midnight, **Zarina**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 5. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   It ______ (be) winter. The trees are green and it's **sunny**, **Olga**.  
+   It ______ (be) winter. The trees are green and it's **sunny**, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 6. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   Olga ______ (know) about the **plan**. It's a secret, **Timur**.  
+   Olga ______ (know) about the **plan**. It's a secret, **Nodira**.  
    key: can't know  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 7. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   He ______ (be) asleep. I can hear him **talking**, **Aziz**.  
+   He ______ (be) asleep. I can hear him **talking**, **Zarina**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 8. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   That ______ (be) the right **card**. It doesn't open the door, **Aziz**.  
+   That ______ (be) the right **card**. It doesn't open the door, **Zarina**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 9. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   She ______ (be) tired. She slept until **eleven**, **Olga**.  
+   She ______ (be) tired. She slept until **eleven**, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 10. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   Your bag ______ (be) heavy. There's only one **scarf** in it, **Timur**.  
+   Your bag ______ (be) heavy. There's only one **scarf** in it, **Nodira**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 11. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   The film ______ (be) over. It started **fifteen minutes** ago, **Olga**.  
+   The film ______ (be) over. It started **fifteen minutes** ago, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 12. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   It ______ (be) Timur on the phone. He's on the plane to **Seoul**, **Olga**.  
+   It ______ (be) Timur on the phone. He's on the plane to **Seoul**, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 13. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   They ______ (live) here. This **house** is empty, **Lola**.  
+   They ______ (live) here. This **house** is empty, **Akmal**.  
    key: can't live  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 14. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   You ______ (be) serious about the **plan**, **Olga**!  
+   You ______ (be) serious about the **plan**, **Sherzod**!  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 15. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   That ______ (be) Madina's **bike**. She doesn't have one, **Aziz**.  
+   That ______ (be) Madina's **bike**. She doesn't have one, **Zarina**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 16. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   This ______ (be) the way to the **airport**. The signs say it's behind us, **Aziz**.  
+   This ______ (be) the way to the **airport**. The signs say it's behind us, **Zarina**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 17. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   He ______ (be) **forty**. He's still at school, **Lola**.  
+   He ______ (be) **forty**. He's still at school, **Akmal**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 18. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   The car ______ (need) petrol. I filled it up **today**, **Lola**.  
+   The car ______ (need) petrol. I filled it up **today**, **Akmal**.  
    key: can't need  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
@@ -182,99 +182,99 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 20. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   She ______ (be) at the **gym**. It's closed today, **Timur**.  
+   She ______ (be) at the **gym**. It's closed today, **Nodira**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 ## transform (15)
 
 1. _Rewrite with can't._  
-   I'm sure he isn't at home. His **scooter** isn't outside, **Aziz**.  
-   → He ______ at home. His **scooter** isn't outside, **Aziz**.  
+   I'm sure he isn't at home. His **scooter** isn't outside, **Zarina**.  
+   → He ______ at home. His **scooter** isn't outside, **Zarina**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 2. _Rewrite with can't._  
-   It's impossible that you are hungry, **Olga**. You've just had **two sandwiches**.  
-   → You ______ hungry, **Olga**. You've just had **two sandwiches**.  
+   It's impossible that you are hungry, **Sherzod**. You've just had **two sandwiches**.  
+   → You ______ hungry, **Sherzod**. You've just had **two sandwiches**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 3. _Rewrite with can't._  
-   I'm sure this isn't your **bag**, **Olga**.  
-   → This ______ your **bag**, **Olga**.  
+   I'm sure this isn't your **bag**, **Sherzod**.  
+   → This ______ your **bag**, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 4. _Rewrite with can't._  
-   I'm sure she doesn't know about the **wedding**, **Timur**.  
-   → She ______ about the **wedding**, **Timur**.  
+   I'm sure she doesn't know about the **wedding**, **Nodira**.  
+   → She ______ about the **wedding**, **Nodira**.  
    key: can't know  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 5. _Rewrite with can't._  
-   I'm sure it isn't far to the **bazaar**, **Lola**.  
-   → It ______ far to the **bazaar**, **Lola**.  
+   I'm sure it isn't far to the **bazaar**, **Akmal**.  
+   → It ______ far to the **bazaar**, **Akmal**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 6. _Correct the mistake._  
-   That mustn't be John. He's in **Canada** this week, **Olga**.  
-   → That ______ John. He's in **Canada** this week, **Olga**.  
+   That mustn't be John. He's in **Canada** this week, **Sherzod**.  
+   → That ______ John. He's in **Canada** this week, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 7. _Correct the mistake._  
-   You mustn't be tired. You slept for **eleven** hours, **Olga**.  
-   → You ______ tired. You slept for **eleven** hours, **Olga**.  
+   You mustn't be tired. You slept for **eleven** hours, **Sherzod**.  
+   → You ______ tired. You slept for **eleven** hours, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 8. _Correct the mistake._  
-   She can't to be at work. It's **Sunday**, **Lola**.  
-   → She ______ at work. It's **Sunday**, **Lola**.  
+   She can't to be at work. It's **Sunday**, **Akmal**.  
+   → She ______ at work. It's **Sunday**, **Akmal**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 9. _Correct the mistake._  
-   He can't knows the answer to the **puzzle**, **Lola**.  
-   → He ______ the answer to the **puzzle**, **Lola**.  
+   He can't knows the answer to the **puzzle**, **Akmal**.  
+   → He ______ the answer to the **puzzle**, **Akmal**.  
    key: can't know  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 10. _Correct the mistake._  
-   It don't can be true. Our **coach** is never late, **Olga**.  
-   → It ______ true. Our **coach** is never late, **Olga**.  
+   It don't can be true. Our **coach** is never late, **Sherzod**.  
+   → It ______ true. Our **coach** is never late, **Sherzod**.  
    key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 11. _Rewrite with can't be + -ing._  
-   I'm sure she isn't sleeping. I can hear her **singing**, **Lola**.  
-   → She ______. I can hear her **singing**, **Lola**.  
+   I'm sure she isn't sleeping. I can hear her **singing**, **Akmal**.  
+   → She ______. I can hear her **singing**, **Akmal**.  
    key: can't be sleeping  
    why: The speaker is sure it is not happening now: can't be + -ing.
 
 12. _Rewrite with can't be + -ing._  
-   I'm sure he isn't working at the **library** today. It's closed, **Olga**.  
-   → He ______ at the **library** today. It's closed, **Olga**.  
+   I'm sure he isn't working at the **library** today. It's closed, **Sherzod**.  
+   → He ______ at the **library** today. It's closed, **Sherzod**.  
    key: can't be working  
    why: The speaker is sure it is not happening now: can't be + -ing.
 
 13. _Rewrite with can't be + -ing._  
-   I'm sure they aren't waiting for us at the **station**. Nobody is there, **Aziz**.  
-   → They ______ for us at the **station**. Nobody is there, **Aziz**.  
+   I'm sure they aren't waiting for us at the **station**. Nobody is there, **Zarina**.  
+   → They ______ for us at the **station**. Nobody is there, **Zarina**.  
    key: can't be waiting  
    why: The speaker is sure it is not happening now: can't be + -ing.
 
 14. _Rewrite with can't be + -ing._  
-   I'm sure it isn't raining in **Tashkent**. The sky is clear, **Timur**.  
-   → It ______ in **Tashkent**. The sky is clear, **Timur**.  
+   I'm sure it isn't raining in **Tashkent**. The sky is clear, **Nodira**.  
+   → It ______ in **Tashkent**. The sky is clear, **Nodira**.  
    key: can't be raining  
    why: The speaker is sure it is not happening now: can't be + -ing.
 
 15. _Rewrite with can't be + -ing._  
-   I'm sure you aren't telling the truth about the **party**, **Lola**.  
-   → You ______ the truth about the **party**, **Lola**.  
+   I'm sure you aren't telling the truth about the **party**, **Akmal**.  
+   → You ______ the truth about the **party**, **Akmal**.  
    key: can't be telling  
    why: The speaker is sure it is not happening now: can't be + -ing.
 

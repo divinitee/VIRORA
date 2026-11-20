@@ -26,10 +26,10 @@ export default [
     "first bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "this morning"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "shop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "chicken"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "key"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "main actor"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "book"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "on Sunday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "bookshop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -346,10 +346,10 @@ export default [
     "lamp"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -372,16 +372,16 @@ export default [
   "why": "A guess about the past, not sure: might have + past participle.",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "lunchtime"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "interview"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "conference"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "Namangan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "gym"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "report"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "neighbour"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "first bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -688,10 +688,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "shop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "cheese"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "key"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -823,10 +823,10 @@ export default [
     "book"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -850,10 +850,10 @@ export default [
     "on Sunday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -877,10 +877,10 @@ export default [
     "bookshop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -904,10 +904,10 @@ export default [
     "lamp"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -958,10 +958,10 @@ export default [
     "week"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -985,10 +985,10 @@ export default [
     "conference"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1012,10 +1012,10 @@ export default [
     "gym"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1033,16 +1033,16 @@ export default [
   "why": "A guess about the past, not sure: might have + past participle.",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1066,10 +1066,10 @@ export default [
     "party"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1096,10 +1096,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1126,10 +1126,10 @@ export default [
     "invitation"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1156,10 +1156,10 @@ export default [
     "change"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1186,10 +1186,10 @@ export default [
     "page"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1217,10 +1217,10 @@ export default [
     "first bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1245,10 +1245,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1273,10 +1273,10 @@ export default [
     "Namangan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1329,10 +1329,10 @@ export default [
     "bookshop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1357,10 +1357,10 @@ export default [
     "first bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1385,10 +1385,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1413,10 +1413,10 @@ export default [
     "cinema"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1441,10 +1441,10 @@ export default [
     "umbrella"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1469,10 +1469,10 @@ export default [
     "cheese"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1497,10 +1497,10 @@ export default [
     "party"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1528,10 +1528,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1559,10 +1559,10 @@ export default [
     "invitation"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1590,10 +1590,10 @@ export default [
     "change"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [
@@ -1621,10 +1621,10 @@ export default [
     "exercise"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   },
   "acceptable": [

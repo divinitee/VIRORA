@@ -4,7 +4,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. I ______ that film **last week**, **Timur**. It was great.  
+1. I ______ that film **last week**, **Zarina**. It was great.  
    options: ✔ saw · have seen · see · am seeing  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: saw. Not the present perfect.
 
@@ -16,7 +16,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: buys · is buying · ✔ bought · has bought  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: bought. Not the present perfect.
 
-4. I ______ **Aziz** at a party **two years ago**.  
+4. I ______ **Nodira** at a party **two years ago**.  
    options: am meeting · ✔ met · have met · meet  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: met. Not the present perfect.
 
@@ -24,11 +24,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ lost · has lost · loses · is losing  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: lost. Not the present perfect.
 
-6. Your **teacher** ______ you an hour ago, **Lola**.  
+6. Your **teacher** ______ you an hour ago, **Sherzod**.  
    options: has called · calls · is calling · ✔ called  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: called. Not the present perfect.
 
-7. I ______ to swim when I was **eight**, **Aziz**.  
+7. I ______ to swim when I was **eight**, **Nodira**.  
    options: learn · am learning · ✔ learned · have learned  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: learned. Not the present perfect.
 
@@ -36,7 +36,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: is winning · ✔ won · has won · wins  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: won. Not the present perfect.
 
-9. We ______ the **test** at six yesterday, **Aziz**.  
+9. We ______ the **test** at six yesterday, **Nodira**.  
    options: ✔ finished · have finished · finish · are finishing  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: finished. Not the present perfect.
 
@@ -52,7 +52,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: are moving · ✔ moved · have moved · move  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: moved. Not the present perfect.
 
-13. I ______ in this **flat** since **2018**, **Lola**.  
+13. I ______ in this **flat** since **2018**, **Sherzod**.  
    options: ✔ have lived · lived · live · am living  
    why: The time is not finished (since, so far, and still), so use the present perfect: have lived.
 
@@ -60,19 +60,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: worked · works · is working · ✔ has worked  
    why: The time is not finished (since, so far, and still), so use the present perfect: has worked.
 
-15. So far this year, I ______ **four** books in English, **Timur**.  
+15. So far this year, I ______ **four** books in English, **Zarina**.  
    options: reads · am reading · ✔ have read · read  
    why: The time is not finished (since, so far, and still), so use the present perfect: have read.
 
-16. I ______ **Olga** for **ten** years, and we are still best friends.  
+16. I ______ **Akmal** for **ten** years, and we are still best friends.  
    options: am knowing · ✔ have known · knew · know  
    why: The time is not finished (since, so far, and still), so use the present perfect: have known.
 
-17. My brother ______ ill since **Tuesday**, **Olga**.  
+17. My brother ______ ill since **Tuesday**, **Akmal**.  
    options: ✔ has been · was · is · is being  
    why: The time is not finished (since, so far, and still), so use the present perfect: has been.
 
-18. We ______ this **fridge** since I was a baby, **Timur**, and it still works.  
+18. We ______ this **fridge** since I was a baby, **Zarina**, and it still works.  
    options: had · have · are having · ✔ have had  
    why: The time is not finished (since, so far, and still), so use the present perfect: have had.
 
@@ -80,29 +80,29 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: scores · is scoring · ✔ has scored · scored  
    why: The time is not finished (since, so far, and still), so use the present perfect: has scored.
 
-20. I ______ English for **six** years, and I still go to lessons, **Olga**.  
+20. I ______ English for **six** years, and I still go to lessons, **Akmal**.  
    options: am studying · ✔ have studied · studied · study  
    why: The time is not finished (since, so far, and still), so use the present perfect: have studied.
 
 ## build (20)
 
 1. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   I ______ (see) **Olga** at the bazaar **yesterday**.  
+   I ______ (see) **Akmal** at the bazaar **yesterday**.  
    key: saw  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: saw. Not the present perfect.
 
 2. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   We ______ (go) to the mountains last **autumn**, **Aziz**.  
+   We ______ (go) to the mountains last **autumn**, **Nodira**.  
    key: went  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: went. Not the present perfect.
 
 3. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   The **lesson** ______ (start) ten minutes ago, **Olga**. Hurry up!  
+   The **lesson** ______ (start) ten minutes ago, **Akmal**. Hurry up!  
    key: started  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: started. Not the present perfect.
 
 4. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   **Aziz** ______ (write) this poem in **2023**.  
+   **Nodira** ______ (write) this poem in **2023**.  
    key: wrote  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: wrote. Not the present perfect.
 
@@ -117,12 +117,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: was. Not the present perfect.
 
 7. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   My sister ______ (pass) her driving test **last month**, **Olga**.  
+   My sister ______ (pass) her driving test **last month**, **Akmal**.  
    key: passed  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: passed. Not the present perfect.
 
 8. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   I ______ (get) your message at **ten** last night, **Aziz**.  
+   I ______ (get) your message at **ten** last night, **Nodira**.  
    key: got  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: got. Not the present perfect.
 
@@ -147,17 +147,17 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The time is not finished (since, so far, and still), so use the present perfect: has lived.
 
 13. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   I ______ (play) the **guitar** since I was **eight**, **Olga**.  
+   I ______ (play) the **guitar** since I was **eight**, **Akmal**.  
    key: have played (also: have been playing)  
    why: The time is not finished (since, so far, and still), so use the present perfect: have played.
 
 14. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   It ______ (rain) every day so far this **week**, **Timur**.  
+   It ______ (rain) every day so far this **week**, **Zarina**.  
    key: has rained (also: has been raining)  
    why: The time is not finished (since, so far, and still), so use the present perfect: has rained.
 
 15. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   We ______ (be) friends since **school**, **Olga**.  
+   We ______ (be) friends since **school**, **Akmal**.  
    key: have been  
    why: The time is not finished (since, so far, and still), so use the present perfect: have been.
 
@@ -167,7 +167,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The time is not finished (since, so far, and still), so use the present perfect: has taught.
 
 17. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   I ______ (have) this **laptop** for six years, and it still works, **Lola**.  
+   I ______ (have) this **laptop** for six years, and it still works, **Sherzod**.  
    key: have had  
    why: The time is not finished (since, so far, and still), so use the present perfect: have had.
 
@@ -177,7 +177,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The time is not finished (since, so far, and still), so use the present perfect: has visited.
 
 19. _Present perfect or past simple? Look at the time words and write the verb in brackets._  
-   I ______ (know) my best friend since we were **seven**, **Timur**.  
+   I ______ (know) my best friend since we were **seven**, **Zarina**.  
    key: have known  
    why: The time is not finished (since, so far, and still), so use the present perfect: have known.
 
@@ -189,8 +189,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## transform (15)
 
 1. _Correct the mistake._  
-   I have seen that film **last week**, **Aziz**.  
-   → I ______ that film **last week**, **Aziz**.  
+   I have seen that film **last week**, **Nodira**.  
+   → I ______ that film **last week**, **Nodira**.  
    key: saw  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: saw. Not the present perfect.
 
@@ -201,8 +201,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: visited. Not the present perfect.
 
 3. _Correct the mistake._  
-   **Timur** has bought a new **bag** two days ago.  
-   → **Timur** ______ a new **bag** two days ago.  
+   **Zarina** has bought a new **bag** two days ago.  
+   → **Zarina** ______ a new **bag** two days ago.  
    key: bought  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: bought. Not the present perfect.
 
@@ -213,14 +213,14 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The time is not finished (since, so far, and still), so use the present perfect: have lived.
 
 5. _Correct the mistake._  
-   My brother is ill since **Friday**, **Timur**.  
-   → My brother ______ ill since **Friday**, **Timur**.  
+   My brother is ill since **Friday**, **Zarina**.  
+   → My brother ______ ill since **Friday**, **Zarina**.  
    key: has been  
    why: The time is not finished (since, so far, and still), so use the present perfect: has been.
 
 6. _Rewrite the sentence with the new time words. Change the verb if you need to._  
-   I have lost my **phone**, **Aziz**.  
-   → I ______ my **phone** yesterday, **Aziz**.  
+   I have lost my **phone**, **Nodira**.  
+   → I ______ my **phone** yesterday, **Nodira**.  
    key: lost  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: lost. Not the present perfect.
 
@@ -231,26 +231,26 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: went. Not the present perfect.
 
 8. _Rewrite the sentence with the new time words. Change the verb if you need to._  
-   **Lola** has finished the **test**.  
-   → **Lola** ______ the **test** an hour ago.  
+   **Sherzod** has finished the **test**.  
+   → **Sherzod** ______ the **test** an hour ago.  
    key: finished  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: finished. Not the present perfect.
 
 9. _Rewrite the sentence with the new time words. Change the verb if you need to._  
-   We have met your **brother**, **Aziz**.  
-   → We ______ your **brother** last week, **Aziz**.  
+   We have met your **brother**, **Nodira**.  
+   → We ______ your **brother** last week, **Nodira**.  
    key: met  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: met. Not the present perfect.
 
 10. _Rewrite the sentence with the new time words. Change the verb if you need to._  
-   The **post office** has closed, **Lola**.  
-   → The **post office** ______ at six yesterday, **Lola**.  
+   The **post office** has closed, **Sherzod**.  
+   → The **post office** ______ at six yesterday, **Sherzod**.  
    key: closed  
    why: The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: closed. Not the present perfect.
 
 11. _Rewrite the sentence with the new time words. Change the verb if you need to._  
-   I lived here in **2018**, **Aziz**.  
-   → I ______ here since **2018**, **Aziz**.  
+   I lived here in **2018**, **Nodira**.  
+   → I ______ here since **2018**, **Nodira**.  
    key: have lived (also: have been living)  
    why: The time is not finished (since, so far, and still), so use the present perfect: have lived.
 
@@ -261,20 +261,20 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The time is not finished (since, so far, and still), so use the present perfect: has worked.
 
 13. _Rewrite the sentence with the new time words. Change the verb if you need to._  
-   We had two tests last **term**, **Timur**.  
-   → We ______ two tests so far this **term**, **Timur**.  
+   We had two tests last **term**, **Zarina**.  
+   → We ______ two tests so far this **term**, **Zarina**.  
    key: have had  
    why: The time is not finished (since, so far, and still), so use the present perfect: have had.
 
 14. _Rewrite the sentence with the new time words. Change the verb if you need to._  
-   My **cousin** was in hospital on Monday, **Aziz**.  
-   → My **cousin** ______ in hospital since Monday, **Aziz**.  
+   My **cousin** was in hospital on Monday, **Nodira**.  
+   → My **cousin** ______ in hospital since Monday, **Nodira**.  
    key: has been  
    why: The time is not finished (since, so far, and still), so use the present perfect: has been.
 
 15. _Rewrite the sentence with the new time words. Change the verb if you need to._  
-   I knew **Lola** at **school**.  
-   → I ______ **Lola** for ten years, and we are still friends.  
+   I knew **Sherzod** at **school**.  
+   → I ______ **Sherzod** for ten years, and we are still friends.  
    key: have known  
    why: The time is not finished (since, so far, and still), so use the present perfect: have known.
 

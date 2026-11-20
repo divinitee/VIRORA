@@ -19,7 +19,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "conditionals-wishes", branch: "second", topic: "second-if-clause", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Dilnoza", "Sardor", "Feruza", "Otabek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const PAST = { win: "won", have: "had", live: "lived", know: "knew", can: "could", speak: "spoke", be: "were", find: "found", lose: "lost", get: "got", meet: "met", go: "went", study: "studied", work: "worked", own: "owned", eat: "ate", need: "needed" };
 const PRES = { be: "are" };
 const WHY = "Imagined situation: if + past simple, … would + base verb.";
@@ -27,7 +27,7 @@ const opts = (v) => [PAST[v], PRES[v] || v, `will ${v}`, `would ${v}`];
 
 /* ---------------- choose: 20 mcq ---------------- */
 const CHOOSE = [
-  ["win", "What would you do if you ______ the {prize}, {name}?", { prize: ["lottery", "big prize", "cup", "competition"], name: NAME }],
+  ["win", "What would you do if you ______ the {prize}, {name}?", { prize: ["quiz show", "big prize", "cup", "competition"], name: NAME }],
   ["have", "If I ______ more free time, I would learn the {instr}, {name}.", { instr: ["piano", "guitar", "violin", "dutar"], name: NAME }],
   ["live", "If we ______ in {city}, we would visit the old town every day, {name}.", { city: ["Samarkand", "Bukhara", "Khiva", "Rome"], name: NAME }],
   ["know", "If I ______ the answer to the {q}, I would tell you, {name}.", { q: ["question", "puzzle", "riddle", "maths problem"], name: NAME }],
@@ -76,7 +76,7 @@ const BUILD = [
   [INSTR2, ["lived", "would visit"], "If we ______ (live) in {city}, we ______ (visit) the old town every weekend.", { city: ["Samarkand", "Bukhara", "Khiva", "Rome"], x: ["", "", "", ""] }],
   [INSTR2, ["were", "would play"], "If you ______ (be) taller, you ______ (play) for the {team}, {name}.", { team: ["school team", "city team", "college team", "club"], name: NAME }],
   [INSTR2, ["knew", "would come"], "If she ______ (know) about the {event}, she ______ (come), {name}.", { event: ["party", "wedding", "concert", "meeting"], name: NAME }],
-  [INSTR2, ["won", "would buy"], "If I ______ (win) the {prize}, I ______ (buy) a house for my parents, {name}.", { prize: ["lottery", "big prize", "competition", "cup"], name: NAME }],
+  [INSTR2, ["won", "would buy"], "If I ______ (win) the {prize}, I ______ (buy) a house for my parents, {name}.", { prize: ["quiz show", "big prize", "competition", "cup"], name: NAME }],
 ].map(([instr, key, source, slots]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (source.includes(`{${n}}`)) s[n] = f;
@@ -96,10 +96,10 @@ const TRANSFORM = [
   [REAL, "He can't swim, so he never goes to the {place}, {name}.", "If he ______ swim, he would go to the {place}, {name}.", "can", { place: ["pool", "beach", "lake", "sea"], name: NAME }],
   [FIX, "If I would have more money, I would buy a {thing}, {name}.", "If I ______ more money, I would buy a {thing}, {name}.", "have", { thing: ["car", "laptop", "bike", "camera"], name: NAME }],
   [FIX, "If we live in {city}, we would visit the museums every week, {name}.", "If we ______ in {city}, we would visit the museums every week, {name}.", "live", { city: ["Samarkand", "Bukhara", "Khiva", "Rome"], name: NAME }],
-  [FIX, "What would you do if you will win the {prize}, {name}?", "What would you do if you ______ the {prize}, {name}?", "win", { prize: ["lottery", "big prize", "cup", "competition"], name: NAME }],
+  [FIX, "What would you do if you will win the {prize}, {name}?", "What would you do if you ______ the {prize}, {name}?", "win", { prize: ["quiz show", "big prize", "cup", "competition"], name: NAME }],
   [FIX, "If she knows his number, she would call him from the {place}, {name}.", "If she ______ his number, she would call him from the {place}, {name}.", "know", { place: ["office", "station", "airport", "hotel"], name: NAME }],
   [FIX, "If I can fly, I would visit {country} every day, {name}.", "If I ______ fly, I would visit {country} every day, {name}.", "can", { country: ["Japan", "Italy", "Turkey", "Korea"], name: NAME }],
-  [IMAG, "Imagine: you win the {prize}. You buy a house, {name}.", "If you ______ the {prize}, you would buy a house, {name}.", "win", { prize: ["lottery", "big prize", "cup", "competition"], name: NAME }],
+  [IMAG, "Imagine: you win the {prize}. You buy a house, {name}.", "If you ______ the {prize}, you would buy a house, {name}.", "win", { prize: ["quiz show", "big prize", "cup", "competition"], name: NAME }],
   [IMAG, "Just imagine you live in {city}. You walk to the old town every day, {name}.", "If you ______ in {city}, you would walk to the old town every day, {name}.", "live", { city: ["Samarkand", "Bukhara", "Khiva", "Rome"], name: NAME }],
   [IMAG, "Picture this: I meet a famous {who}. I ask for a photo, {name}.", "If I ______ a famous {who}, I would ask for a photo, {name}.", "meet", { who: ["singer", "footballer", "actor", "writer"], name: NAME }],
   [IMAG, "Let's imagine we have a big garden. We grow {food}, {name}.", "If we ______ a big garden, we would grow {food}, {name}.", "have", { food: ["tomatoes", "melons", "grapes", "apples"], name: NAME }],

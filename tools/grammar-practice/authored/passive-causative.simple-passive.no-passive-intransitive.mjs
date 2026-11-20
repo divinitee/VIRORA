@@ -20,7 +20,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "passive-causative", branch: "simple-passive", topic: "no-passive-intransitive", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Feruza", "Otabek", "Dilnoza", "Sardor"]; // listener names: never printed in a sentence (audit 20 Nov)
 const PAST = { happen: "happened", arrive: "arrived", die: "died", fall: "fell", disappear: "disappeared", come: "came", sleep: "slept", go: "went", stay: "stayed", appear: "appeared", laugh: "laughed", wait: "waited", stop: "stopped", occur: "occurred", rain: "rained" };
 const PP = { build: "built", steal: "stolen", invite: "invited", cancel: "cancelled", take: "taken", find: "found", make: "made", open: "opened" };
 const WHY_I = "This verb has no object, so it has no passive: use the active past simple.";
@@ -75,7 +75,7 @@ const BUILD = [
   [PAST.occur, WHY_I, "The mistake ______ (occur) in the {thing} again, {name}.", { thing: ["report", "test", "email", "list"], name: NAME }],
   [PAST.rain, WHY_I, "It ______ (rain) all day in {city}, {name}.", { city: ["London", "Moscow", "Tashkent", "Fergana"], name: NAME }],
   [PAST.stop, WHY_I, "The music ______ (stop) at {time}, {name}.", { time: ["midnight", "eleven", "ten o'clock", "two"], name: NAME }],
-  ["was built", WHY_T, "This {building} ______ (build) in {year}.", { building: ["mosque", "bridge", "school", "hotel"], year: ["1990", "2005", "1975", "2012"] }],
+  ["was built", WHY_T, "This {building} ______ (build) in {year}.", { building: ["theatre", "bridge", "school", "hotel"], year: ["1990", "2005", "1975", "2012"] }],
   ["was stolen", WHY_T, "My {thing} ______ (steal) on the bus, {name}.", { thing: ["bag", "phone", "wallet", "bike"], name: NAME }],
   ["were invited", WHY_T, "All my {who} ______ (invite) to the party, {name}.", { who: ["neighbours", "cousins", "teachers", "classmates"], name: NAME }],
   ["was taken", WHY_T, "The injured man ______ (take) to hospital after the {accident}, {name}.", { accident: ["accident", "crash", "fire", "storm"], name: NAME }],
@@ -95,7 +95,7 @@ const TRANSFORM = [
   [FIX, "The vase was fallen off the {furn}, {name}.", "The vase ______ off the {furn}, {name}.", "fell", WHY_I, { furn: ["table", "shelf", "chair", "window"], name: NAME }],
   [FIX, "My {thing} was disappeared from my bag, {name}.", "My {thing} ______ from my bag, {name}.", "disappeared", WHY_I, { thing: ["pen", "phone", "key", "ticket"], name: NAME }],
   [TOP, "Someone stole my {thing} at the bazaar, {name}.", "My {thing} ______ at the bazaar, {name}.", "was stolen", WHY_T, { thing: ["bag", "phone", "wallet", "bike"], name: NAME }],
-  [TOP, "They built this {building} in {year}.", "This {building} ______ in {year}.", "was built", WHY_T, { building: ["mosque", "bridge", "school", "hotel"], year: ["1990", "2005", "1975", "2012"] }],
+  [TOP, "They built this {building} in {year}.", "This {building} ______ in {year}.", "was built", WHY_T, { building: ["theatre", "bridge", "school", "hotel"], year: ["1990", "2005", "1975", "2012"] }],
   [TOP, "Someone found the lost {pet} in the park, {name}.", "The lost {pet} ______ in the park, {name}.", "was found", WHY_T, { pet: ["dog", "cat", "puppy", "kitten"], name: NAME }],
   [TOP, "They invited all the {who} to the wedding, {name}.", "All the {who} ______ to the wedding, {name}.", "were invited", WHY_T, { who: ["neighbours", "cousins", "teachers", "classmates"], name: NAME }],
   [TOP, "Someone opened the {thing} at night, {name}.", "The {thing} ______ at night, {name}.", "was opened", WHY_T, { thing: ["door", "window", "gate", "safe"], name: NAME }],

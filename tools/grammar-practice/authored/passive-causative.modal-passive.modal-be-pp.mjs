@@ -20,7 +20,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "passive-causative", branch: "modal-passive", topic: "modal-be-pp", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Malika", "Ulugbek", "Gulnora", "Jamshid"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "Passive with a modal: modal + be + past participle.";
 // [modal, base, pp, particle]
 const shapes = (m, b, pp, p = "") => [`${m} be ${pp}${p}`, `${m} ${pp}${p}`, `${m} be ${b}${p}`, `${m} been ${pp}${p}`];

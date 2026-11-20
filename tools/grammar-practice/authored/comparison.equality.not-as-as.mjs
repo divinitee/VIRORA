@@ -18,7 +18,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "comparison", branch: "equality", topic: "not-as-as", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Malika", "Ulugbek", "Gulnora", "Jamshid"]; // listener names: never printed in a sentence (audit 20 Nov)
 const ER = { fast: "faster", cheap: "cheaper", big: "bigger", old: "older", tall: "taller", warm: "warmer", long: "longer", busy: "busier", heavy: "heavier", hot: "hotter", cold: "colder", quiet: "quieter", easy: "easier", good: "better", strong: "stronger", near: "nearer" };
 const WHY = (a) => `Not as ${a} as = less ${a} than. The base adjective goes between as and as.`;
 const form = (a) => {

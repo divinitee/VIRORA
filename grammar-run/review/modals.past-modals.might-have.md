@@ -4,11 +4,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. Aziz didn't come to class this morning. I don't know why. He ______ the **train**, **Timur**.  
+1. Aziz didn't come to class this morning. I don't know why. He ______ the **train**, **Feruza**.  
    options: ✔ might have missed · might miss · might had missed · might has missed  
    why: A guess about the past, not sure: might have + past participle.
 
-2. Olga didn't call **yesterday**. She ______, **Aziz**. I'm not sure.  
+2. Olga didn't call **yesterday**. She ______, **Dilnoza**. I'm not sure.  
    options: might forget · might had forgotten · might has forgotten · ✔ might have forgotten  
    why: A guess about the past, not sure: might have + past participle.
 
@@ -16,39 +16,39 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: might had left · might has left · ✔ might have left · might leave  
    why: A guess about the past, not sure: might have + past participle.
 
-4. Nobody answered at the **flat**. They ______ out. I'm not sure, **Lola**.  
+4. Nobody answered at the **flat**. They ______ out. I'm not sure, **Otabek**.  
    options: might has gone · ✔ might have gone · might go · might had gone  
    why: A guess about the past, not sure: might have + past participle.
 
-5. The **cheese** is gone. I'm not sure who took it. The cat ______ it, **Olga**.  
+5. The **cheese** is gone. I'm not sure who took it. The cat ______ it, **Sardor**.  
    options: ✔ might have eaten · might eat · might had eaten · might has eaten  
    why: A guess about the past, not sure: might have + past participle.
 
-6. Timur hasn't got his **wallet**. He ______ it on the bus. Nobody knows, **Lola**.  
+6. Timur hasn't got his **wallet**. He ______ it on the bus. Nobody knows, **Otabek**.  
    options: might lose · might had lost · might has lost · ✔ might have lost  
    why: A guess about the past, not sure: might have + past participle.
 
-7. I'm not sure, but I ______ that film before, **Aziz**. The **first scene** looks familiar.  
+7. I'm not sure, but I ______ that film before, **Dilnoza**. The **first scene** looks familiar.  
    options: might had seen · might has seen · ✔ might have seen · might see  
    why: A guess about the past, not sure: might have + past participle.
 
-8. I don't know where my **pen** is. My brother ______ it, **Aziz**.  
+8. I don't know where my **pen** is. My brother ______ it, **Dilnoza**.  
    options: might has taken · ✔ might have taken · might take · might had taken  
    why: A guess about the past, not sure: might have + past participle.
 
-9. The road was closed **yesterday**. There ______ an accident. I don't know, **Aziz**.  
+9. The road was closed **yesterday**. There ______ an accident. I don't know, **Dilnoza**.  
    options: ✔ might have been · might be · might had been · might has been  
    why: A guess about the past, not sure: might have + past participle.
 
-10. The **post office** was dark when we got there. It ______ early. I'm not sure, **Olga**.  
+10. The **post office** was dark when we got there. It ______ early. I'm not sure, **Sardor**.  
    options: might close · might had closed · might has closed · ✔ might have closed  
    why: A guess about the past, not sure: might have + past participle.
 
-11. The **printer** doesn't work. I don't know why. Someone ______ it, **Aziz**.  
+11. The **printer** doesn't work. I don't know why. Someone ______ it, **Dilnoza**.  
    options: might had broken · might has broken · ✔ might have broken · might break  
    why: A guess about the past, not sure: might have + past participle.
 
-12. I missed the game yesterday. I'm not sure, but **Navbahor** ______ the match, **Lola**.  
+12. I missed the game yesterday. I'm not sure, but **Riverside** ______ the match, **Otabek**.  
    options: might has won · ✔ might have won · might win · might had won  
    why: A guess about the past, not sure: might have + past participle.
 
@@ -56,43 +56,43 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ might have bought · might buy · might had bought · might has bought  
    why: A guess about the past, not sure: might have + past participle.
 
-14. He's still in bed at **lunchtime**. I don't know why. He ______ badly, **Aziz**.  
+14. He's still in bed at **lunchtime**. I don't know why. He ______ badly, **Dilnoza**.  
    options: might sleep · might had slept · might has slept · ✔ might have slept  
    why: A guess about the past, not sure: might have + past participle.
 
-15. I'm not sure how she passed. She ______ a lot before the **test**, **Timur**.  
+15. I'm not sure how she passed. She ______ a lot before the **test**, **Feruza**.  
    options: might had studied · might has studied · ✔ might have studied · might study  
    why: A guess about the past, not sure: might have + past participle.
 
-16. I'm not sure where I know him from. I ______ him at the **concert**, **Olga**.  
+16. I'm not sure where I know him from. I ______ him at the **concert**, **Sardor**.  
    options: might has met · ✔ might have met · might meet · might had met  
    why: A guess about the past, not sure: might have + past participle.
 
-17. I don't know how they got to **Samarkand**. They ______ there, **Lola**.  
+17. I don't know how they got to **Samarkand**. They ______ there, **Otabek**.  
    options: ✔ might have driven · might drive · might had driven · might has driven  
    why: A guess about the past, not sure: might have + past participle.
 
-18. Her knee is hurt. I'm not sure what happened. She ______ in the **yard**, **Aziz**.  
+18. Her knee is hurt. I'm not sure what happened. She ______ in the **yard**, **Dilnoza**.  
    options: might fall · might had fallen · might has fallen · ✔ might have fallen  
    why: A guess about the past, not sure: might have + past participle.
 
-19. I don't know if Timur is free. He ______ his **project** by now, **Olga**.  
+19. I don't know if Timur is free. He ______ his **project** by now, **Sardor**.  
    options: might had finished · might has finished · ✔ might have finished · might finish  
    why: A guess about the past, not sure: might have + past participle.
 
-20. I'm not sure how she knows. She ______ the news from her **sister**, **Lola**.  
+20. I'm not sure how she knows. She ______ the news from her **sister**, **Otabek**.  
    options: might has heard · ✔ might have heard · might hear · might had heard  
    why: A guess about the past, not sure: might have + past participle.
 
 ## build (20)
 
 1. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   Aziz is late. He ______ (miss) the **train**, **Olga**.  
+   Aziz is late. He ______ (miss) the **train**, **Sardor**.  
    key: might have missed  
    why: A guess about the past, not sure: might have + past participle.
 
 2. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   Olga didn't come to the **meeting**. She ______ (forget), **Lola**.  
+   Olga didn't come to the **meeting**. She ______ (forget), **Otabek**.  
    key: might have forgotten  
    why: A guess about the past, not sure: might have + past participle.
 
@@ -102,37 +102,37 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A guess about the past, not sure: might have + past participle.
 
 4. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   Nobody is at the **house**. They ______ (go) to the bazaar, **Aziz**.  
+   Nobody is at the **house**. They ______ (go) to the bazaar, **Dilnoza**.  
    key: might have gone  
    why: A guess about the past, not sure: might have + past participle.
 
 5. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   The **chicken** is gone. The dog ______ (eat) it, **Olga**.  
+   The **chicken** is gone. The dog ______ (eat) it, **Sardor**.  
    key: might have eaten  
    why: A guess about the past, not sure: might have + past participle.
 
 6. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   Timur can't find his **key**. He ______ (lose) it, **Timur**.  
+   Timur can't find his **key**. He ______ (lose) it, **Feruza**.  
    key: might have lost  
    why: A guess about the past, not sure: might have + past participle.
 
 7. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   My **charger** isn't here. My sister ______ (take) it, **Aziz**.  
+   My **charger** isn't here. My sister ______ (take) it, **Dilnoza**.  
    key: might have taken  
    why: A guess about the past, not sure: might have + past participle.
 
 8. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   The road was closed **last night**. There ______ (be) an accident, **Aziz**.  
+   The road was closed **last night**. There ______ (be) an accident, **Dilnoza**.  
    key: might have been  
    why: A guess about the past, not sure: might have + past participle.
 
 9. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   The **bakery** was dark. It ______ (close) early, **Olga**.  
+   The **bakery** was dark. It ______ (close) early, **Sardor**.  
    key: might have closed  
    why: A guess about the past, not sure: might have + past participle.
 
 10. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   The **TV** isn't working. Someone ______ (break) it, **Timur**.  
+   The **TV** isn't working. Someone ______ (break) it, **Feruza**.  
    key: might have broken  
    why: A guess about the past, not sure: might have + past participle.
 
@@ -142,67 +142,67 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A guess about the past, not sure: might have + past participle.
 
 12. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   He looks tired this **Monday**. He ______ (sleep) badly, **Olga**.  
+   He looks tired this **Monday**. He ______ (sleep) badly, **Sardor**.  
    key: might have slept  
    why: A guess about the past, not sure: might have + past participle.
 
 13. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   I know that man's face. I ______ (meet) him at the **party**, **Lola**.  
+   I know that man's face. I ______ (meet) him at the **party**, **Otabek**.  
    key: might have met  
    why: A guess about the past, not sure: might have + past participle.
 
 14. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   Her arm hurts. She ______ (fall) in the **yard**, **Olga**.  
+   Her arm hurts. She ______ (fall) in the **yard**, **Sardor**.  
    key: might have fallen  
    why: A guess about the past, not sure: might have + past participle.
 
 15. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   I'm not sure about the score. **Nasaf** ______ (win) the match, **Aziz**.  
+   I'm not sure about the score. **Blue Star** ______ (win) the match, **Dilnoza**.  
    key: might have won  
    why: A guess about the past, not sure: might have + past participle.
 
 16. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   She didn't answer. She ______ (not / hear) the phone at the **concert**, **Aziz**.  
+   She didn't answer. She ______ (not / hear) the phone at the **concert**, **Dilnoza**.  
    key: might not have heard  
    why: A guess about the past, not sure: might not have + past participle.
 
 17. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   He didn't say hello. He ______ (not / see) you at the **party**, **Lola**.  
+   He didn't say hello. He ______ (not / see) you at the **party**, **Otabek**.  
    key: might not have seen  
    why: A guess about the past, not sure: might not have + past participle.
 
 18. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   They didn't reply. They ______ (not / receive) my **invitation**, **Lola**.  
+   They didn't reply. They ______ (not / receive) my **invitation**, **Otabek**.  
    key: might not have received  
    why: A guess about the past, not sure: might not have + past participle.
 
 19. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   Don't be angry with him. He ______ (not / know) about the **change**, **Lola**.  
+   Don't be angry with him. He ______ (not / know) about the **change**, **Otabek**.  
    key: might not have known  
    why: A guess about the past, not sure: might not have + past participle.
 
 20. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   She did the wrong **task**. She ______ (not / understand) the teacher, **Timur**.  
+   She did the wrong **task**. She ______ (not / understand) the teacher, **Feruza**.  
    key: might not have understood  
    why: A guess about the past, not sure: might not have + past participle.
 
 ## transform (15)
 
 1. _Rewrite with might have + past participle._  
-   Perhaps he missed the **metro**, **Aziz**.  
-   → He ______ the **metro**, **Aziz**.  
+   Perhaps he missed the **metro**, **Dilnoza**.  
+   → He ______ the **metro**, **Dilnoza**.  
    key: might have missed  
    why: A guess about the past, not sure: might have + past participle.
 
 2. _Rewrite with might have + past participle._  
-   Maybe she forgot about the **lesson**, **Olga**.  
-   → She ______ about the **lesson**, **Olga**.  
+   Maybe she forgot about the **lesson**, **Sardor**.  
+   → She ______ about the **lesson**, **Sardor**.  
    key: might have forgotten  
    why: A guess about the past, not sure: might have + past participle.
 
 3. _Rewrite with might have + past participle._  
-   Perhaps they went to **Samarkand** for the weekend, **Olga**.  
-   → They ______ to **Samarkand** for the weekend, **Olga**.  
+   Perhaps they went to **Samarkand** for the weekend, **Sardor**.  
+   → They ______ to **Samarkand** for the weekend, **Sardor**.  
    key: might have gone  
    why: A guess about the past, not sure: might have + past participle.
 
@@ -213,68 +213,68 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A guess about the past, not sure: might have + past participle.
 
 5. _Rewrite with might have + past participle._  
-   Perhaps the **pharmacy** closed early, **Lola**.  
-   → The **pharmacy** ______ early, **Lola**.  
+   Perhaps the **pharmacy** closed early, **Otabek**.  
+   → The **pharmacy** ______ early, **Otabek**.  
    key: might have closed  
    why: A guess about the past, not sure: might have + past participle.
 
 6. _Correct the mistake._  
-   He might missed the **bus**, **Olga**.  
-   → He ______ the **bus**, **Olga**.  
+   He might missed the **bus**, **Sardor**.  
+   → He ______ the **bus**, **Sardor**.  
    key: might have missed  
    why: A guess about the past, not sure: might have + past participle.
 
 7. _Correct the mistake._  
-   She might has forgotten the **party**, **Olga**.  
-   → She ______ the **party**, **Olga**.  
+   She might has forgotten the **party**, **Sardor**.  
+   → She ______ the **party**, **Sardor**.  
    key: might have forgotten  
    why: A guess about the past, not sure: might have + past participle.
 
 8. _Correct the mistake._  
-   They might have went to the **bazaar**, **Lola**.  
-   → They ______ to the **bazaar**, **Lola**.  
+   They might have went to the **bazaar**, **Otabek**.  
+   → They ______ to the **bazaar**, **Otabek**.  
    key: might have gone  
    why: A guess about the past, not sure: might have + past participle.
 
 9. _Correct the mistake._  
-   I might had left my **wallet** on the bus, **Lola**.  
-   → I ______ my **wallet** on the bus, **Lola**.  
+   I might had left my **wallet** on the bus, **Otabek**.  
+   → I ______ my **wallet** on the bus, **Otabek**.  
    key: might have left  
    why: A guess about the past, not sure: might have + past participle.
 
 10. _Correct the mistake._  
-   The dog might have eat the **chicken**, **Olga**.  
-   → The dog ______ the **chicken**, **Olga**.  
+   The dog might have eat the **chicken**, **Sardor**.  
+   → The dog ______ the **chicken**, **Sardor**.  
    key: might have eaten  
    why: A guess about the past, not sure: might have + past participle.
 
 11. _Rewrite with might not have + past participle._  
-   Perhaps she didn't hear the phone at the **gym**, **Lola**.  
-   → She ______ the phone at the **gym**, **Lola**.  
+   Perhaps she didn't hear the phone at the **gym**, **Otabek**.  
+   → She ______ the phone at the **gym**, **Otabek**.  
    key: might not have heard  
    why: A guess about the past, not sure: might not have + past participle.
 
 12. _Rewrite with might not have + past participle._  
-   Maybe he didn't see you at the **match**, **Olga**.  
-   → He ______ you at the **match**, **Olga**.  
+   Maybe he didn't see you at the **match**, **Sardor**.  
+   → He ______ you at the **match**, **Sardor**.  
    key: might not have seen  
    why: A guess about the past, not sure: might not have + past participle.
 
 13. _Rewrite with might not have + past participle._  
-   Perhaps they didn't receive my **email**, **Aziz**.  
-   → They ______ my **email**, **Aziz**.  
+   Perhaps they didn't receive my **email**, **Dilnoza**.  
+   → They ______ my **email**, **Dilnoza**.  
    key: might not have received  
    why: A guess about the past, not sure: might not have + past participle.
 
 14. _Rewrite with might not have + past participle._  
-   Maybe he didn't know about the **test**, **Timur**.  
-   → He ______ about the **test**, **Timur**.  
+   Maybe he didn't know about the **test**, **Feruza**.  
+   → He ______ about the **test**, **Feruza**.  
    key: might not have known  
    why: A guess about the past, not sure: might not have + past participle.
 
 15. _Rewrite with might not have + past participle._  
-   Perhaps she didn't understand the **homework**, **Lola**.  
-   → She ______ the **homework**, **Lola**.  
+   Perhaps she didn't understand the **homework**, **Otabek**.  
+   → She ______ the **homework**, **Otabek**.  
    key: might not have understood  
    why: A guess about the past, not sure: might not have + past participle.
 

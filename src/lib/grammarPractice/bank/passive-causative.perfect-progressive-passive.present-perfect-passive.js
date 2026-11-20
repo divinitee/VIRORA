@@ -26,10 +26,10 @@ export default [
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -52,16 +52,16 @@ export default [
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "lesson"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "printer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "bedroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "newspaper"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "letter"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -329,27 +329,27 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The time of the {event} ______. It's now at seven, {name}.",
+  "prompt": "Your {thing} ______. You can pick it up now, {name}.",
   "options": [
-   "is been changed",
-   "has being changed",
-   "has been changed",
-   "has changed"
+   "is been repaired",
+   "has being repaired",
+   "has been repaired",
+   "has repaired"
   ],
   "key": 2,
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
-   "event": [
-    "match",
-    "meeting",
-    "concert",
-    "lesson"
+   "thing": [
+    "shoes",
+    "watch",
+    "phone",
+    "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -378,10 +378,10 @@ export default [
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -410,10 +410,10 @@ export default [
     "books"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "parents"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "cafés"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "workers"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "curtains"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "quiz"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "school yard"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "flood"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -682,16 +682,16 @@ export default [
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -715,10 +715,10 @@ export default [
     "wedding"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "printer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "bedroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -823,10 +823,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -850,10 +850,10 @@ export default [
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -866,21 +866,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
-  "source": "The time of the {event} ______ (change), {name}.",
-  "key": "has been changed",
+  "source": "Your {thing} ______ (check). It's fine now, {name}.",
+  "key": "has been checked",
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
-   "event": [
-    "match",
-    "meeting",
-    "concert",
-    "lesson"
+   "thing": [
+    "car",
+    "heater",
+    "laptop",
+    "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -904,10 +904,10 @@ export default [
     "books"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -931,10 +931,10 @@ export default [
     "parents"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -958,10 +958,10 @@ export default [
     "cafés"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -985,10 +985,10 @@ export default [
     "curtains"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1012,10 +1012,10 @@ export default [
     "school yard"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1039,10 +1039,10 @@ export default [
     "flood"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1069,10 +1069,10 @@ export default [
     "contract"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1099,10 +1099,10 @@ export default [
     "fridge"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1129,10 +1129,10 @@ export default [
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1159,10 +1159,10 @@ export default [
     "manager"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1189,10 +1189,10 @@ export default [
     "books"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1217,10 +1217,10 @@ export default [
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1239,16 +1239,16 @@ export default [
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1273,10 +1273,10 @@ export default [
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1301,10 +1301,10 @@ export default [
     "books"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1329,10 +1329,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1357,10 +1357,10 @@ export default [
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1385,10 +1385,10 @@ export default [
     "wedding"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1413,10 +1413,10 @@ export default [
     "parents"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1435,16 +1435,16 @@ export default [
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1469,10 +1469,10 @@ export default [
     "workers"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1500,10 +1500,10 @@ export default [
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1531,10 +1531,10 @@ export default [
     "printer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1562,10 +1562,10 @@ export default [
     "contract"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1593,10 +1593,10 @@ export default [
     "parents"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1624,10 +1624,10 @@ export default [
     "bench"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },

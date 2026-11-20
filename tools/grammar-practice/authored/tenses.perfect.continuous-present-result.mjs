@@ -22,7 +22,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "tenses", branch: "perfect", topic: "continuous-present-result", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Dilnoza", "Sardor", "Feruza", "Otabek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const NAME_F = ["Madina", "Olga", "Sevara", "Nilufar"];
 const NAME_M = ["Sardor", "Timur", "Ilya", "Jasur"];
 const WHY = (f) => `A recent activity explains how things are now, so use the present perfect continuous: ${f}.`;

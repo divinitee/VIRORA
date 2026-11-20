@@ -18,8 +18,8 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "conditionals-wishes", branch: "linkers", topic: "unless", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
-const TEAM = ["Pakhtakor", "Nasaf", "Bunyodkor", "Navbahor"];
+const NAME = ["Nodira", "Akmal", "Zarina", "Sherzod"]; // listener names: never printed in a sentence (audit 20 Nov)
+const TEAM = ["Sunrise FC", "Blue Star", "Green Valley", "Riverside"];
 const WHY = "unless = if … not, with a positive present verb after it.";
 const WHY_IF = "The condition is positive here: if.";
 const LINK = ["unless", "if", "when", "so that"];
@@ -39,7 +39,7 @@ const CHOOSE = [
   [LINK, "You'll get cold ______ you wear a {coat}, {name}.", { coat: ["coat", "jacket", "hat", "scarf"], name: NAME }],
   [LINK, "You can't borrow my {thing} ______ you promise to bring it back, {name}.", { thing: ["car", "laptop", "camera", "bike"], name: NAME }],
   [LINK, "Don't eat the {food} ______ it's fresh, {name}.", { food: ["fish", "meat", "chicken", "eggs"], name: NAME }],
-  [LINK, "You can't come into the {place} ______ you take your shoes off, {name}.", { place: ["mosque", "house", "gym", "classroom"], name: NAME }],
+  [LINK, "You can't come into the {place} ______ you take your shoes off, {name}.", { place: ["bedroom", "house", "gym", "classroom"], name: NAME }],
   [LINK, "{team} will lose ______ they play better in the second half, {name}.", { team: TEAM, name: NAME }],
   [["leave", "don't leave", "will leave", "left"], "You'll miss the {bus} unless you ______ now, {name}.", { bus: ["bus", "train", "flight", "start"], name: NAME }],
   [["come", "don't come", "will come", "came"], "I won't go to the {event} unless you ______ too, {name}.", { event: ["party", "wedding", "concert", "match"], name: NAME }],
@@ -97,7 +97,7 @@ const TRANSFORM = [
   [SENT, "Hurry up! If not, the {shop} will be closed, {name}.", "The {shop} will be closed ______ up, {name}.", "unless you hurry", { shop: ["bank", "post office", "pharmacy", "bakery"], name: NAME }],
   [SENT, "Book now. If you don't, there won't be any seats at the {event}, {name}.", "There won't be any seats at the {event} ______ now, {name}.", "unless you book", { event: ["concert", "match", "show", "festival"], name: NAME }],
   [SENT, "Say sorry. If you don't, your {who} will stay angry, {name}.", "Your {who} will stay angry ______ sorry, {name}.", "unless you say", { who: ["brother", "mother", "friend", "teacher"], name: NAME }],
-  [SENT, "Turn left at the {place}. If you don't, you'll get lost, {name}.", "You'll get lost ______ left at the {place}, {name}.", "unless you turn", { place: ["bank", "mosque", "bazaar", "school"], name: NAME }],
+  [SENT, "Turn left at the {place}. If you don't, you'll get lost, {name}.", "You'll get lost ______ left at the {place}, {name}.", "unless you turn", { place: ["bank", "park", "bazaar", "school"], name: NAME }],
 ].map(([instr, source, hint, key, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why: WHY, slots }));
 
 /* ---------------- create: 8 ---------------- */

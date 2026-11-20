@@ -26,7 +26,7 @@ export default [
     "hairpin"
    ],
    "who": [
-    "thief",
+    "locksmith",
     "neighbour",
     "plumber",
     "caretaker"
@@ -58,10 +58,10 @@ export default [
     "long knife"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "fountain pen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "big roller"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "wire"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "vacuum cleaner"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -346,10 +346,10 @@ export default [
     "pair of scissors"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -378,10 +378,10 @@ export default [
     "brush"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -393,7 +393,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The lock was forced ______ one of the thieves with a {tool}, {name}.",
+  "prompt": "The door was opened ______ the caretaker with a {tool}, {name}.",
   "options": [
    "by",
    "with",
@@ -410,10 +410,10 @@ export default [
     "metal bar"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "band"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "kids"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "mother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "reporter"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "German"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -585,7 +585,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The thief was stopped ______ a {who}, {name}.",
+  "prompt": "The lost child was found ______ a {who}, {name}.",
   "options": [
    "from",
    "of",
@@ -602,10 +602,10 @@ export default [
     "neighbour"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "father"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "hairpin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -688,10 +688,10 @@ export default [
     "long knife"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -715,10 +715,10 @@ export default [
     "piece of chalk"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "big roller"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "wire"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -823,10 +823,10 @@ export default [
     "GoPro"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -850,10 +850,10 @@ export default [
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -904,10 +904,10 @@ export default [
     "mother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -925,16 +925,16 @@ export default [
   "why": "by + the doer (who did it).",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -958,10 +958,10 @@ export default [
     "student"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -985,10 +985,10 @@ export default [
     "brother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1012,10 +1012,10 @@ export default [
     "family"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1039,10 +1039,10 @@ export default [
     "phone"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1066,10 +1066,10 @@ export default [
     "waitress"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1093,10 +1093,10 @@ export default [
     "finger"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1120,10 +1120,10 @@ export default [
     "girl"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1147,10 +1147,10 @@ export default [
     "small saw"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1202,10 +1202,10 @@ export default [
     "band"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1230,10 +1230,10 @@ export default [
     "mother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1252,16 +1252,16 @@ export default [
   "why": "by + the doer (who did it).",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1314,10 +1314,10 @@ export default [
     "phone"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1342,10 +1342,10 @@ export default [
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1370,10 +1370,10 @@ export default [
     "long knife"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1386,8 +1386,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite as one passive sentence. Show what was used.",
-  "source": "The thief forced the lock. He used a {tool}, {name}.",
-  "hint": "The lock was forced by the thief ______ a {tool}, {name}.",
+  "source": "The caretaker opened the lock. He used a {tool}, {name}.",
+  "hint": "The lock was opened by the caretaker ______ a {tool}, {name}.",
   "key": "with",
   "why": "with + the thing that was used (a tool or an object).",
   "slots": {
@@ -1398,10 +1398,10 @@ export default [
     "metal bar"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1426,10 +1426,10 @@ export default [
     "big roller"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1454,10 +1454,10 @@ export default [
     "wire"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1482,10 +1482,10 @@ export default [
     "band"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1510,10 +1510,10 @@ export default [
     "long knife"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1538,10 +1538,10 @@ export default [
     "family"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1566,10 +1566,10 @@ export default [
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1594,10 +1594,10 @@ export default [
     "brother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },

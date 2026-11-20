@@ -24,7 +24,7 @@
     "hairpin"
    ],
    "who": [
-    "thief",
+    "locksmith",
     "neighbour",
     "plumber",
     "caretaker"
@@ -56,10 +56,10 @@
     "long knife"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -88,10 +88,10 @@
     "fountain pen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -120,10 +120,10 @@
     "big roller"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -152,10 +152,10 @@
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -184,10 +184,10 @@
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -216,10 +216,10 @@
     "wire"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -312,10 +312,10 @@
     "vacuum cleaner"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -344,10 +344,10 @@
     "pair of scissors"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -376,10 +376,10 @@
     "brush"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -391,7 +391,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The lock was forced ______ one of the thieves with a {tool}, {name}.",
+  "prompt": "The door was opened ______ the caretaker with a {tool}, {name}.",
   "options": [
    "by",
    "with",
@@ -408,10 +408,10 @@
     "metal bar"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -440,10 +440,10 @@
     "band"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -472,10 +472,10 @@
     "kids"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -504,10 +504,10 @@
     "mother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -536,10 +536,10 @@
     "reporter"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -568,10 +568,10 @@
     "German"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -583,7 +583,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The thief was stopped ______ a {who}, {name}.",
+  "prompt": "The lost child was found ______ a {who}, {name}.",
   "options": [
    "from",
    "of",
@@ -600,10 +600,10 @@
     "neighbour"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -632,10 +632,10 @@
     "father"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -659,10 +659,10 @@
     "hairpin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -686,10 +686,10 @@
     "long knife"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -713,10 +713,10 @@
     "piece of chalk"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -740,10 +740,10 @@
     "big roller"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -767,10 +767,10 @@
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -794,10 +794,10 @@
     "wire"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -821,10 +821,10 @@
     "GoPro"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -848,10 +848,10 @@
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -902,10 +902,10 @@
     "mother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -923,16 +923,16 @@
   "why": "by + the doer (who did it).",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -956,10 +956,10 @@
     "student"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -983,10 +983,10 @@
     "brother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1010,10 +1010,10 @@
     "family"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1037,10 +1037,10 @@
     "phone"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1064,10 +1064,10 @@
     "waitress"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1091,10 +1091,10 @@
     "finger"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1118,10 +1118,10 @@
     "girl"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1145,10 +1145,10 @@
     "small saw"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1200,10 +1200,10 @@
     "band"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1228,10 +1228,10 @@
     "mother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1250,16 +1250,16 @@
   "why": "by + the doer (who did it).",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1312,10 +1312,10 @@
     "phone"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1340,10 +1340,10 @@
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1368,10 +1368,10 @@
     "long knife"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1384,8 +1384,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite as one passive sentence. Show what was used.",
-  "source": "The thief forced the lock. He used a {tool}, {name}.",
-  "hint": "The lock was forced by the thief ______ a {tool}, {name}.",
+  "source": "The caretaker opened the lock. He used a {tool}, {name}.",
+  "hint": "The lock was opened by the caretaker ______ a {tool}, {name}.",
   "key": "with",
   "why": "with + the thing that was used (a tool or an object).",
   "slots": {
@@ -1396,10 +1396,10 @@
     "metal bar"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1424,10 +1424,10 @@
     "big roller"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1452,10 +1452,10 @@
     "wire"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1480,10 +1480,10 @@
     "band"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1508,10 +1508,10 @@
     "long knife"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1536,10 +1536,10 @@
     "family"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1564,10 +1564,10 @@
     "stick"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1592,10 +1592,10 @@
     "brother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },

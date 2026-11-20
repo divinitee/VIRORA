@@ -18,8 +18,8 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "passive-causative", branch: "simple-passive", topic: "agent-by", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
-const TEAM = ["Pakhtakor", "Nasaf", "Bunyodkor", "Navbahor"];
+const NAME = ["Gulnora", "Jamshid", "Malika", "Ulugbek"]; // listener names: never printed in a sentence (audit 20 Nov)
+const TEAM = ["Sunrise FC", "Blue Star", "Green Valley", "Riverside"];
 const WHY_BY = "by + the doer (who did it).";
 const WHY_WITH = "with + the thing that was used (a tool or an object).";
 const OPTS = ["by", "with", "from", "of"];
@@ -27,7 +27,7 @@ const OPTS = ["by", "with", "from", "of"];
 /* ---------------- choose: 20 mcq ---------------- */
 // [key, prompt, slots]
 const CHOOSE = [
-  ["with", "The lock was opened ______ a {tool} by the {who}.", { tool: ["screwdriver", "knife", "key", "hairpin"], who: ["thief", "neighbour", "plumber", "caretaker"] }],
+  ["with", "The lock was opened ______ a {tool} by the {who}.", { tool: ["screwdriver", "knife", "key", "hairpin"], who: ["locksmith", "neighbour", "plumber", "caretaker"] }],
   ["with", "The cake was cut ______ a {tool}, {name}.", { tool: ["knife", "bread knife", "sharp knife", "long knife"], name: NAME }],
   ["with", "The letter was written ______ a {pen}, {name}.", { pen: ["pencil", "blue pen", "black pen", "fountain pen"], name: NAME }],
   ["with", "The walls were painted ______ a {tool} by my grandfather, {name}.", { tool: ["brush", "roller", "small brush", "big roller"], name: NAME }],
@@ -39,13 +39,13 @@ const CHOOSE = [
   ["with", "The floor was cleaned ______ a {tool}, {name}.", { tool: ["mop", "brush", "cloth", "vacuum cleaner"], name: NAME }],
   ["with", "The meat was cut ______ a {tool}, {name}.", { tool: ["knife", "cleaver", "blade", "pair of scissors"], name: NAME }],
   ["with", "The car was washed ______ a {tool} and soap, {name}.", { tool: ["sponge", "hose", "cloth", "brush"], name: NAME }],
-  ["by", "The lock was forced ______ one of the thieves with a {tool}, {name}.", { tool: ["screwdriver", "knife", "hammer", "metal bar"], name: NAME }],
+  ["by", "The door was opened ______ the caretaker with a {tool}, {name}.", { tool: ["screwdriver", "knife", "hammer", "metal bar"], name: NAME }],
   ["by", "This song was written ______ a famous {who}, {name}.", { who: ["singer", "poet", "composer", "band"], name: NAME }],
   ["by", "The window was broken ______ the {who} next door, {name}.", { who: ["boy", "children", "girl", "kids"], name: NAME }],
   ["by", "The plov was cooked ______ my {who}, {name}.", { who: ["grandmother", "uncle", "father", "mother"], name: NAME }],
   ["by", "The photos were taken ______ a {who} from the newspaper, {name}.", { who: ["photographer", "journalist", "student", "reporter"], name: NAME }],
   ["by", "The new bridge was built ______ a {country} company, {name}.", { country: ["Turkish", "Korean", "Chinese", "German"], name: NAME }],
-  ["by", "The thief was stopped ______ a {who}, {name}.", { who: ["shop assistant", "guard", "taxi driver", "neighbour"], name: NAME }],
+  ["by", "The lost child was found ______ a {who}, {name}.", { who: ["shop assistant", "guard", "taxi driver", "neighbour"], name: NAME }],
   ["by", "The walls were painted ______ my {who} with a big brush, {name}.", { who: ["grandfather", "uncle", "brother", "father"], name: NAME }],
 ].map(([k, prompt, slots], i) => {
   const options = OPTS.map((_, j) => OPTS[(j + i) % 4]);
@@ -90,7 +90,7 @@ const TRANSFORM = [
   [TOP, "Two young men stole the {thing}, {name}.", "The {thing} ______ two young men, {name}.", "was stolen by", { thing: ["bike", "car", "bag", "phone"], name: NAME }],
   [USED, "Someone broke the window. He used a {thing}, {name}.", "The window was broken ______ a {thing}, {name}.", "with", { thing: ["stone", "ball", "brick", "stick"], name: NAME }],
   [USED, "Grandma cut the bread. She used a {knife}, {name}.", "The bread was cut by Grandma ______ a {knife}, {name}.", "with", { knife: ["knife", "bread knife", "sharp knife", "long knife"], name: NAME }],
-  [USED, "The thief forced the lock. He used a {tool}, {name}.", "The lock was forced by the thief ______ a {tool}, {name}.", "with", { tool: ["screwdriver", "knife", "hammer", "metal bar"], name: NAME }],
+  [USED, "The caretaker opened the lock. He used a {tool}, {name}.", "The lock was opened by the caretaker ______ a {tool}, {name}.", "with", { tool: ["screwdriver", "knife", "hammer", "metal bar"], name: NAME }],
   [USED, "My dad painted the fence. He used a {tool}, {name}.", "The fence was painted by my dad ______ a {tool}, {name}.", "with", { tool: ["brush", "roller", "small brush", "big roller"], name: NAME }],
   [USED, "They tied the box. They used {rope}, {name}.", "The box was tied ______ {rope}, {name}.", "with", { rope: ["string", "rope", "ribbon", "wire"], name: NAME }],
   [FIX, "This song was written from a famous {who}, {name}.", "This song was written ______ a famous {who}, {name}.", "by", { who: ["singer", "poet", "composer", "band"], name: NAME }],

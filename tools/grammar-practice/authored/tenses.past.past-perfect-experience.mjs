@@ -20,7 +20,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "tenses", branch: "past", topic: "past-perfect-experience", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Feruza", "Otabek", "Dilnoza", "Sardor"]; // listener names: never printed in a sentence (audit 20 Nov)
 const NAME_F = ["Madina", "Olga", "Sevara", "Nilufar"];
 const NAME_M = ["Sardor", "Timur", "Ilya", "Jasur"];
 const WHY = (pp) => `After had never / had ever, use the past participle: ${pp}. It was a new experience at that moment in the past.`;
@@ -39,7 +39,7 @@ const CHOOSE = [
   ["wear", "wore", "worn", "wearing", "{name} felt strange in the {thing}. He had never ______ one before.", { name: NAME_M, thing: ["suit", "tie", "uniform", "chapan"] }],
   ["drink", "drank", "drunk", "drinking", "My grandmother didn't like the {drink}. She had never ______ it before, {name}.", { drink: ["coffee", "cola", "green smoothie", "cold tea"], name: NAME }],
   ["sing", "sang", "sung", "singing", "Our teacher was nervous. She had never ______ on a stage before, {name}.", { name: NAME, x: [] }],
-  ["take", "took", "taken", "taking", "I was excited at the {place}. I had never ______ a {trip} alone before.", { place: ["airport", "station", "bus station", "border"], trip: ["trip", "journey", "long trip", "holiday"] }],
+  ["take", "took", "taken", "taking", "I was excited at the {place}. I had never ______ a {trip} alone before.", { place: ["airport", "station", "bus station", "ferry port"], trip: ["trip", "journey", "long trip", "holiday"] }],
   ["give", "gave", "given", "giving", "{name} was very nervous. She had never ______ a {talk} before.", { name: NAME_F, talk: ["talk", "speech", "presentation", "lesson"] }],
   ["throw", "threw", "thrown", "throwing", "Our team lost because the new player had never ______ a {ball} in a real match before.", { ball: ["ball", "basketball", "handball", "volleyball"], x: [] }],
   ["go", "went", "gone", "going", "Had you ever ______ abroad before your trip to {city}, {name}?", { city: ["Istanbul", "Seoul", "Dubai", "Almaty"], name: NAME }],
@@ -95,7 +95,7 @@ const whyX = (bad, pp) => `${bad} is the past simple. After had, use the past pa
 // [instr, source, hint, key, why, slots]
 const TRANSFORM = [
   [FIRST, "Last {season} was my first time on a plane, {name}.", "Before last {season}, I ______ on a plane, {name}.", "had never flown", "", { season: ["summer", "winter", "spring", "year"], name: NAME }],
-  [FIRST, "Yesterday was {name}'s first time in a {place}.", "Before yesterday, {name} ______ in a {place}.", "had never been", "", { name: NAME, place: ["theatre", "museum", "mosque", "stadium"] }],
+  [FIRST, "Yesterday was {name}'s first time in a {place}.", "Before yesterday, {name} ______ in a {place}.", "had never been", "", { name: NAME, place: ["theatre", "museum", "zoo", "stadium"] }],
   [FIRST, "At the party, it was my first time eating {food}, {name}.", "Before the party, I ______ {food}, {name}.", "had never eaten", "", { food: ["sushi", "pizza", "Korean food", "fish soup"], name: NAME }],
   [FIRST, "Last {when} was my brother's first time driving in {city}.", "Before last {when}, my brother ______ in {city}.", "had never driven", "", { when: ["week", "month", "year", "summer"], city: ["Tashkent", "Almaty", "Moscow", "Istanbul"] }],
   [FIRST, "In {month}, it was {name}'s first time seeing snow.", "Before {month}, {name} ______ snow.", "had never seen", "", { month: ["December", "January", "February", "that winter"], name: NAME }],

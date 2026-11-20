@@ -4,100 +4,100 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. The accident ______ at six o'clock near the **school**, **Timur**.  
+1. The accident ______ at six o'clock near the **school**, **Dilnoza**.  
    options: ✔ happened · was happened · was happen · happen  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-2. The **bus** ______ ten minutes late, **Aziz**.  
+2. The **bus** ______ ten minutes late, **Feruza**.  
    options: was arrived · was arrive · arrive · ✔ arrived  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-3. Our old **cat** ______ last winter, **Timur**.  
+3. Our old **cat** ______ last winter, **Dilnoza**.  
    options: was die · die · ✔ died · was died  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-4. The vase ______ off the **table** and broke, **Lola**.  
+4. The vase ______ off the **table** and broke, **Sardor**.  
    options: fall · ✔ fell · was fell · was fall  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-5. My **notebook** ______ from my desk **last night**, **Olga**.  
+5. My **notebook** ______ from my desk **last night**, **Otabek**.  
    options: ✔ disappeared · was disappeared · was disappear · disappear  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-6. A lot of guests ______ to the **meeting**, **Timur**.  
+6. A lot of guests ______ to the **meeting**, **Dilnoza**.  
    options: was came · was come · come · ✔ came  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-7. The baby ______ for ten hours **last night**, **Olga**.  
+7. The baby ______ for ten hours **last night**, **Otabek**.  
    options: was sleep · sleep · ✔ slept · was slept  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-8. The lights ______ out during the **storm**, **Timur**.  
+8. The lights ______ out during the **storm**, **Dilnoza**.  
    options: go · ✔ went · was went · was go  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-9. We ______ at a small hotel in **Samarkand**, **Timur**.  
+9. We ______ at a small hotel in **Samarkand**, **Dilnoza**.  
    options: ✔ stayed · was stayed · was stay · stay  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-10. A rainbow ______ over the **lake** after the rain, **Aziz**.  
+10. A rainbow ______ over the **lake** after the rain, **Feruza**.  
    options: was appeared · was appear · appear · ✔ appeared  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-11. Everyone ______ at his joke at the **wedding**, **Lola**.  
+11. Everyone ______ at his joke at the **wedding**, **Sardor**.  
    options: was laugh · laugh · ✔ laughed · was laughed  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-12. We ______ for an hour at the **hospital**, **Aziz**.  
+12. We ______ for an hour at the **hospital**, **Feruza**.  
    options: wait · ✔ waited · was waited · was wait  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-13. The rain ______ at **noon**, **Lola**.  
+13. The rain ______ at **noon**, **Sardor**.  
    options: ✔ stopped · was stopped · was stop · stop  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-14. The same problem ______ again **yesterday**, **Olga**.  
+14. The same problem ______ again **yesterday**, **Otabek**.  
    options: was occurred · was occur · occur · ✔ occurred  
    why: This verb has no object, so it has no passive: use the active past simple.
 
-15. This bridge ______ in **1975**, **Timur**.  
+15. This bridge ______ in **1975**, **Dilnoza**.  
    options: was build · build · ✔ was built · built  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
-16. My **phone** ______ at the station, **Aziz**.  
+16. My **phone** ______ at the station, **Feruza**.  
    options: steal · ✔ was stolen · stole · was steal  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
-17. All the **classmates** ______ to the wedding, **Olga**.  
+17. All the **classmates** ______ to the wedding, **Otabek**.  
    options: ✔ were invited · invited · were invite · invite  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
-18. The **match** ______ because of the rain, **Timur**.  
+18. The **match** ______ because of the rain, **Dilnoza**.  
    options: cancelled · was cancel · cancel · ✔ was cancelled  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
-19. Two people ______ to hospital after the **crash**, **Aziz**.  
+19. Two people ______ to hospital after the **crash**, **Feruza**.  
    options: were take · take · ✔ were taken · took  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
-20. The lost **kitten** ______ in the park, **Olga**.  
+20. The lost **kitten** ______ in the park, **Otabek**.  
    options: find · ✔ was found · found · was find  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 ## build (20)
 
 1. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   The accident ______ (happen) on the **ring road**, **Aziz**.  
+   The accident ______ (happen) on the **ring road**, **Feruza**.  
    key: happened  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 2. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   Our **taxi** ______ (arrive) at nine, **Aziz**.  
+   Our **taxi** ______ (arrive) at nine, **Feruza**.  
    key: arrived  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 3. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   The old **vine** in our yard ______ (die) last summer, **Olga**.  
+   The old **vine** in our yard ______ (die) last summer, **Otabek**.  
    key: died  
    why: This verb has no object, so it has no passive: use the active past simple.
 
@@ -107,22 +107,22 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This verb has no object, so it has no passive: use the active past simple.
 
 5. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   The **dog** ______ (disappear) for three days, **Lola**.  
+   The **dog** ______ (disappear) for three days, **Sardor**.  
    key: disappeared  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 6. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   Twenty people ______ (come) to the **concert**, **Aziz**.  
+   Twenty people ______ (come) to the **concert**, **Feruza**.  
    key: came  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 7. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   I ______ (sleep) badly in the **hotel**, **Olga**.  
+   I ______ (sleep) badly in the **hotel**, **Otabek**.  
    key: slept  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 8. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   Prices ______ (go) up again **last month**, **Aziz**.  
+   Prices ______ (go) up again **last month**, **Feruza**.  
    key: went  
    why: This verb has no object, so it has no passive: use the active past simple.
 
@@ -132,95 +132,95 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This verb has no object, so it has no passive: use the active past simple.
 
 10. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   A strange man ______ (appear) at the **gate**, **Lola**.  
+   A strange man ______ (appear) at the **gate**, **Sardor**.  
    key: appeared  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 11. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   We ______ (wait) for two hours at the **bus stop**, **Olga**.  
+   We ______ (wait) for two hours at the **bus stop**, **Otabek**.  
    key: waited  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 12. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   The mistake ______ (occur) in the **test** again, **Olga**.  
+   The mistake ______ (occur) in the **test** again, **Otabek**.  
    key: occurred  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 13. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   It ______ (rain) all day in **Fergana**, **Olga**.  
+   It ______ (rain) all day in **Fergana**, **Otabek**.  
    key: rained  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 14. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   The music ______ (stop) at **eleven**, **Olga**.  
+   The music ______ (stop) at **eleven**, **Otabek**.  
    key: stopped  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 15. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   This **mosque** ______ (build) in **1975**.  
+   This **theatre** ______ (build) in **1975**.  
    key: was built  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 16. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   My **bag** ______ (steal) on the bus, **Olga**.  
+   My **bag** ______ (steal) on the bus, **Otabek**.  
    key: was stolen  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 17. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   All my **classmates** ______ (invite) to the party, **Lola**.  
+   All my **classmates** ______ (invite) to the party, **Sardor**.  
    key: were invited  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 18. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   The injured man ______ (take) to hospital after the **storm**, **Lola**.  
+   The injured man ______ (take) to hospital after the **storm**, **Sardor**.  
    key: was taken  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 19. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   The lost **kitten** ______ (find) in the park, **Timur**.  
+   The lost **kitten** ______ (find) in the park, **Dilnoza**.  
    key: was found  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 20. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   This **bread** ______ (make) by my grandmother, **Timur**.  
+   This **bread** ______ (make) by my grandmother, **Dilnoza**.  
    key: was made  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 ## transform (15)
 
 1. _Correct the mistake._  
-   The accident was happened at six, **Aziz**.  
-   → The accident ______ at six, **Aziz**.  
+   The accident was happened at six, **Feruza**.  
+   → The accident ______ at six, **Feruza**.  
    key: happened  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 2. _Correct the mistake._  
-   The **train** was arrived late, **Olga**.  
-   → The **train** ______ late, **Olga**.  
+   The **train** was arrived late, **Otabek**.  
+   → The **train** ______ late, **Otabek**.  
    key: arrived  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 3. _Correct the mistake._  
-   Our old **dog** was died last year, **Olga**.  
-   → Our old **dog** ______ last year, **Olga**.  
+   Our old **dog** was died last year, **Otabek**.  
+   → Our old **dog** ______ last year, **Otabek**.  
    key: died  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 4. _Correct the mistake._  
-   The vase was fallen off the **chair**, **Timur**.  
-   → The vase ______ off the **chair**, **Timur**.  
+   The vase was fallen off the **chair**, **Dilnoza**.  
+   → The vase ______ off the **chair**, **Dilnoza**.  
    key: fell  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 5. _Correct the mistake._  
-   My **phone** was disappeared from my bag, **Lola**.  
-   → My **phone** ______ from my bag, **Lola**.  
+   My **phone** was disappeared from my bag, **Sardor**.  
+   → My **phone** ______ from my bag, **Sardor**.  
    key: disappeared  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 6. _Rewrite in the passive. Start with the words given._  
-   Someone stole my **bag** at the bazaar, **Olga**.  
-   → My **bag** ______ at the bazaar, **Olga**.  
+   Someone stole my **bag** at the bazaar, **Otabek**.  
+   → My **bag** ______ at the bazaar, **Otabek**.  
    key: was stolen  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
@@ -231,44 +231,44 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 8. _Rewrite in the passive. Start with the words given._  
-   Someone found the lost **dog** in the park, **Lola**.  
-   → The lost **dog** ______ in the park, **Lola**.  
+   Someone found the lost **dog** in the park, **Sardor**.  
+   → The lost **dog** ______ in the park, **Sardor**.  
    key: was found  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 9. _Rewrite in the passive. Start with the words given._  
-   They invited all the **cousins** to the wedding, **Lola**.  
-   → All the **cousins** ______ to the wedding, **Lola**.  
+   They invited all the **cousins** to the wedding, **Sardor**.  
+   → All the **cousins** ______ to the wedding, **Sardor**.  
    key: were invited  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 10. _Rewrite in the passive. Start with the words given._  
-   Someone opened the **gate** at night, **Olga**.  
-   → The **gate** ______ at night, **Olga**.  
+   Someone opened the **gate** at night, **Otabek**.  
+   → The **gate** ______ at night, **Otabek**.  
    key: was opened  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 
 11. _Rewrite in the past simple._  
-   The **bus** arrives at nine, **Lola**.  
-   → Yesterday the **bus** ______ at nine, **Lola**.  
+   The **bus** arrives at nine, **Sardor**.  
+   → Yesterday the **bus** ______ at nine, **Sardor**.  
    key: arrived  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 12. _Rewrite in the past simple._  
-   The guests come at six, **Lola**.  
-   → On Friday the guests ______ at six, **Lola**.  
+   The guests come at six, **Sardor**.  
+   → On Friday the guests ______ at six, **Sardor**.  
    key: came  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 13. _Rewrite in the past simple._  
-   The baby sleeps well in the **car**, **Aziz**.  
-   → Last night the baby ______ well in the **car**, **Aziz**.  
+   The baby sleeps well in the **car**, **Feruza**.  
+   → Last night the baby ______ well in the **car**, **Feruza**.  
    key: slept  
    why: This verb has no object, so it has no passive: use the active past simple.
 
 14. _Rewrite in the past simple._  
-   Accidents often happen on this **road**, **Timur**.  
-   → Last week an accident ______ on this **road**, **Timur**.  
+   Accidents often happen on this **road**, **Dilnoza**.  
+   → Last week an accident ______ on this **road**, **Dilnoza**.  
    key: happened  
    why: This verb has no object, so it has no passive: use the active past simple.
 

@@ -8,19 +8,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ has been studying · has been study · have been studying · has be studying  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been studying.
 
-2. I'm out of breath because I ______ to catch the **bus**, **Aziz**.  
+2. I'm out of breath because I ______ to catch the **bus**, **Dilnoza**.  
    options: have been run · has been running · have be running · ✔ have been running  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been running.
 
-3. My **cousin**'s eyes are red. She ______ for an hour, **Timur**.  
+3. My **cousin**'s eyes are red. She ______ for an hour, **Feruza**.  
    options: have been crying · has be crying · ✔ has been crying · has been cry  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been crying.
 
-4. My hands are dirty because I ______ in the **garden**, **Lola**.  
+4. My hands are dirty because I ______ in the **garden**, **Otabek**.  
    options: have be working · ✔ have been working · have been work · has been working  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been working.
 
-5. The ground is wet, **Olga**. It ______ all **day**.  
+5. The ground is wet, **Sardor**. It ______ all **day**.  
    options: ✔ has been raining · has been rain · have been raining · has be raining  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been raining.
 
@@ -32,7 +32,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: have been cooking · has be cooking · ✔ has been cooking · has been cook  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been cooking.
 
-8. The boys are very dirty, **Aziz**. They ______ football in the **rain**.  
+8. The boys are very dirty, **Dilnoza**. They ______ football in the **rain**.  
    options: have be playing · ✔ have been playing · have been play · has been playing  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been playing.
 
@@ -48,15 +48,15 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: have been training · has be training · ✔ has been training · has been train  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been training.
 
-12. The flat looks great, **Lola**! We ______ all **weekend**.  
+12. The flat looks great, **Otabek**! We ______ all **weekend**.  
    options: have be cleaning · ✔ have been cleaning · have been clean · has been cleaning  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been cleaning.
 
-13. The roads are white, **Olga**. It ______ since **six**.  
+13. The roads are white, **Sardor**. It ______ since **six**.  
    options: ✔ has been snowing · has been snow · have been snowing · has be snowing  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been snowing.
 
-14. My feet hurt, **Lola**. I ______ at the **wedding** for three hours.  
+14. My feet hurt, **Otabek**. I ______ at the **wedding** for three hours.  
    options: have been dance · has been dancing · have be dancing · ✔ have been dancing  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been dancing.
 
@@ -64,19 +64,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: have been repairing · has be repairing · ✔ has been repairing · has been repair  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been repairing.
 
-16. Our throats hurt, **Olga**. We ______ at the **concert** all evening.  
+16. Our throats hurt, **Sardor**. We ______ at the **concert** all evening.  
    options: have be shouting · ✔ have been shouting · have been shout · has been shouting  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been shouting.
 
-17. Your face is red, **Aziz**. ______? Sit down and have some **cold water**.  
+17. Your face is red, **Dilnoza**. ______? Sit down and have some **cold water**.  
    options: ✔ Have you been running · Did you been running · Are you been running · Have you running  
    why: Question: Have + you + been + -ing.
 
-18. What's wrong, **Olga**? Your eyes are red. ______? Did something happen at **school**?  
+18. What's wrong, **Sardor**? Your eyes are red. ______? Did something happen at **school**?  
    options: Did you been crying · Are you been crying · Have you crying · ✔ Have you been crying  
    why: Question: Have + you + been + -ing.
 
-19. The children are wet, **Olga**. ______ in the **pool** again?  
+19. The children are wet, **Sardor**. ______ in the **pool** again?  
    options: Are they been playing · Have they playing · ✔ Have they been playing · Did they been playing  
    why: Question: Have + they + been + -ing.
 
@@ -92,12 +92,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A recent activity explains how things are now, so use the present perfect continuous: has been studying.
 
 2. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
-   I'm hot because I ______ (run) in the **park**, **Lola**.  
+   I'm hot because I ______ (run) in the **park**, **Otabek**.  
    key: have been running  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been running.
 
 3. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
-   Take your umbrella, **Lola**. It ______ (rain) all **morning**.  
+   Take your umbrella, **Otabek**. It ______ (rain) all **morning**.  
    key: has been raining  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been raining.
 
@@ -107,7 +107,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A recent activity explains how things are now, so use the present perfect continuous: have been working.
 
 5. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
-   The baby ______ (cry) for **twenty minutes**. Is she hungry, **Olga**?  
+   The baby ______ (cry) for **twenty minutes**. Is she hungry, **Sardor**?  
    key: has been crying  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been crying.
 
@@ -132,12 +132,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A recent activity explains how things are now, so use the present perfect continuous: has been painting.
 
 10. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
-   Our hair is wet because we ______ (swim) in the **pool**, **Timur**.  
+   Our hair is wet because we ______ (swim) in the **pool**, **Feruza**.  
    key: have been swimming  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been swimming.
 
 11. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
-   The car is white, **Olga**. It ______ (snow) since **two o'clock**.  
+   The car is white, **Sardor**. It ______ (snow) since **two o'clock**.  
    key: has been snowing  
    why: A recent activity explains how things are now, so use the present perfect continuous: has been snowing.
 
@@ -152,7 +152,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A recent activity explains how things are now, so use the present perfect continuous: has been training.
 
 14. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
-   My feet hurt, **Olga**. I ______ (dance) at the **party** since eight.  
+   My feet hurt, **Sardor**. I ______ (dance) at the **party** since eight.  
    key: have been dancing  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been dancing.
 
@@ -162,7 +162,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A recent activity explains how things are now, so use the present perfect continuous: has been fixing.
 
 16. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
-   Our voices are gone, **Aziz**. We ______ (shout) for our team all **match**.  
+   Our voices are gone, **Dilnoza**. We ______ (shout) for our team all **match**.  
    key: have been shouting  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been shouting.
 
@@ -182,15 +182,15 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A recent activity explains how things are now, so use the present perfect continuous: has been digging.
 
 20. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
-   Your eyes are red, **Lola**. You ______ (watch) **films** for too long.  
+   Your eyes are red, **Otabek**. You ______ (watch) **films** for too long.  
    key: have been watching  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been watching.
 
 ## transform (15)
 
 1. _The result is still here now. Rewrite the second sentence with the present perfect continuous._  
-   Your eyes are red, **Timur**. You cried for **half an hour**.  
-   → Your eyes are red, **Timur**. You ______ for **half an hour**.  
+   Your eyes are red, **Feruza**. You cried for **half an hour**.  
+   → Your eyes are red, **Feruza**. You ______ for **half an hour**.  
    key: have been crying  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been crying.
 
@@ -207,8 +207,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A recent activity explains how things are now, so use the present perfect continuous: have been cooking.
 
 4. _The result is still here now. Rewrite the second sentence with the present perfect continuous._  
-   I'm very tired, **Aziz**. I worked in the **garden** all day.  
-   → I'm very tired, **Aziz**. I ______ in the **garden** all day.  
+   I'm very tired, **Dilnoza**. I worked in the **garden** all day.  
+   → I'm very tired, **Dilnoza**. I ______ in the **garden** all day.  
    key: have been working  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been working.
 
@@ -219,32 +219,32 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A recent activity explains how things are now, so use the present perfect continuous: has been playing.
 
 6. _Correct the mistake._  
-   She is tired because she has been work all **night**, **Lola**.  
-   → She is tired because she ______ all **night**, **Lola**.  
+   She is tired because she has been work all **night**, **Otabek**.  
+   → She is tired because she ______ all **night**, **Otabek**.  
    key: has been working  
    why: After been, use the -ing form: has been working.
 
 7. _Correct the mistake._  
-   My **parents** is been waiting for an hour, **Olga**.  
-   → My **parents** ______ for an hour, **Olga**.  
+   My **parents** is been waiting for an hour, **Sardor**.  
+   → My **parents** ______ for an hour, **Sardor**.  
    key: have been waiting  
    why: The subject is plural, so have been + -ing: have been waiting.
 
 8. _Correct the mistake._  
-   It have been raining since **lunch**, **Olga**.  
-   → It ______ since **lunch**, **Olga**.  
+   It have been raining since **lunch**, **Sardor**.  
+   → It ______ since **lunch**, **Sardor**.  
    key: has been raining  
    why: It takes has: has been raining.
 
 9. _Correct the mistake._  
-   I has been running in the **park**, so I'm out of breath, **Lola**.  
-   → I ______ in the **park**, so I'm out of breath, **Lola**.  
+   I has been running in the **park**, so I'm out of breath, **Otabek**.  
+   → I ______ in the **park**, so I'm out of breath, **Otabek**.  
    key: have been running  
    why: I takes have: have been running.
 
 10. _Correct the mistake._  
-   **Olga** has be studying for the **driving test**.  
-   → **Olga** ______ for the **driving test**.  
+   **Sardor** has be studying for the **driving test**.  
+   → **Sardor** ______ for the **driving test**.  
    key: has been studying  
    why: Has needs been, not be: has been studying.
 
@@ -261,8 +261,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Question: Have + you + been + -ing.
 
 13. _Ask about the cause. Use the present perfect continuous._  
-   The children are wet, **Olga**. Ask if they swam in the **sea**.  
-   → ______ they ______ in the **sea**, **Olga**?  
+   The children are wet, **Sardor**. Ask if they swam in the **sea**.  
+   → ______ they ______ in the **sea**, **Sardor**?  
    key: Have + been swimming  
    why: Question: Have + they + been + -ing.
 
@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Question: Has + he + been + -ing.
 
 15. _Ask about the cause. Use the present perfect continuous._  
-   The floor is wet, **Timur**. Ask if your **brother** cleaned it.  
-   → ______ your **brother** ______ the floor, **Timur**?  
+   The floor is wet, **Feruza**. Ask if your **brother** cleaned it.  
+   → ______ your **brother** ______ the floor, **Feruza**?  
    key: Has + been cleaning  
    why: Question: Has + your … + been + -ing.
 

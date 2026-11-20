@@ -19,7 +19,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "obligation", topic: "modal-passive", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Zarina", "Sherzod", "Nodira", "Akmal"]; // listener names: never printed in a sentence (audit 20 Nov)
 const PP = { show: "shown", turn: "turned", wash: "washed", wear: "worn", check: "checked", follow: "followed", leave: "left", clean: "cleaned", complete: "completed", obey: "obeyed", respect: "respected", pay: "paid", finish: "finished", sign: "signed", keep: "kept", buy: "bought" };
 const WHY_A = "The subject does the action: must + base verb (active).";
 const WHY_P = "The subject receives the action: must be + past participle (passive).";
@@ -38,7 +38,7 @@ const CHOOSE = [
   ["turn", 0, "Students ______ their phones off in the {room}, {name}.", { room: ROOM, name: NAME }],
   ["wash", 0, "You ______ your hands before you cook {food}, {name}.", { food: ["plov", "dinner", "meat", "fish"], name: NAME }],
   ["wear", 0, "Drivers ______ their seat belts on the {road}, {name}.", { road: ROAD, name: NAME }],
-  ["check", 0, "Passengers ______ their bags at the {place}, {name}.", { place: ["airport", "station", "border", "gate"], name: NAME }],
+  ["check", 0, "Passengers ______ their bags at the {place}, {name}.", { place: ["airport", "station", "museum", "gate"], name: NAME }],
   ["follow", 0, "Children ______ the {place} rules, {name}.", { place: RULES, name: NAME }],
   ["wear", 0, "Workers ______ a helmet on the {site}, {name}.", { site: SITE, name: NAME }],
   ["leave", 0, "Guests ______ their rooms by {time}, {name}.", { time: ["noon", "eleven", "ten o'clock", "twelve"], name: NAME }],
@@ -48,10 +48,10 @@ const CHOOSE = [
   ["turn", 1, "Phones ______ off in the {room}, {name}.", { room: ROOM, name: NAME }],
   ["wash", 1, "Hands ______ before cooking {food}, {name}.", { food: ["plov", "dinner", "meat", "fish"], name: NAME }],
   ["wear", 1, "Seat belts ______ on the {road}, {name}.", { road: ROAD, name: NAME }],
-  ["check", 1, "All bags ______ at the {place}, {name}.", { place: ["airport", "station", "border", "gate"], name: NAME }],
+  ["check", 1, "All bags ______ at the {place}, {name}.", { place: ["airport", "station", "museum", "gate"], name: NAME }],
   ["follow", 1, "The {place} rules ______ by everyone, {name}.", { place: RULES, name: NAME }],
   ["wear", 1, "Helmets ______ on the {site}, {name}.", { site: SITE, name: NAME }],
-  ["clean", 1, "The rooms ______ by {time} every day, {name}.", { time: ["noon", "eleven", "ten o'clock", "twelve"], name: NAME }],
+  ["check", 1, "The rooms ______ by {time} every day, {name}.", { time: ["noon", "eleven", "ten o'clock", "twelve"], name: NAME }],
   ["complete", 1, "The {form} form ______ in black ink, {name}.", { form: FORM, name: NAME }],
   ["respect", 1, "The {who}'s decision ______ by all players, {name}.", { who: ["referee", "coach", "captain", "judge"], name: NAME }],
 ].map(([v, pas, prompt, slots], i) => {

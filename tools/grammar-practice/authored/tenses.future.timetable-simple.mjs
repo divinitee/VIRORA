@@ -23,7 +23,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "tenses", branch: "future", topic: "timetable-simple", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Nodira", "Akmal", "Zarina", "Sherzod"]; // listener names: never printed in a sentence (audit 20 Nov)
 const CITY = ["Samarkand", "Bukhara", "Khiva", "Fergana"];
 const FLY = ["Istanbul", "Moscow", "Seoul", "Dubai"];
 const V = {
@@ -40,16 +40,16 @@ const WHY_Q = (aux) => `A question about a timetable uses the present simple: ${
 const CHOOSE = [
   ["sg", "leave", "The train to {city} ______ at {time} tomorrow morning.", { city: CITY, time: ["7:15", "8:30", "6:45", "9:10"] }],
   ["sg", "start", "Hurry up, {name}! The film ______ in {mins} minutes.", { name: NAME, mins: ["ten", "fifteen", "five", "twenty"] }],
-  ["sg", "start", "Our {subj} lesson ______ at {time} on Monday.", { subj: ["English", "maths", "history", "music"], time: ["nine", "half past eight", "ten", "eleven"] }],
+  ["sg", "start", "Our {subj} lesson ______ at {time} next Monday.", { subj: ["English", "maths", "history", "music"], time: ["nine", "half past eight", "ten", "eleven"] }],
   ["sg", "open", "The {shop} ______ at {time} tomorrow, so let's go early.", { shop: ["bakery", "bank", "post office", "museum"], time: ["eight", "nine", "half past eight", "ten"] }],
   ["sg", "finish", "The concert ______ at {time} tonight, so we can be home by midnight, {name}.", { time: ["ten", "eleven", "half past ten", "ten thirty"], name: NAME }],
-  ["sg", "take", "My flight to {city} ______ off at {time} on Friday.", { city: FLY, time: ["6:20", "7:40", "noon", "midnight"] }],
+  ["sg", "take", "My flight to {city} ______ off at {time} next Friday.", { city: FLY, time: ["6:20", "7:40", "noon", "midnight"] }],
   ["sg", "begin", "Our {course} ______ next {day}.", { course: ["English course", "summer camp", "driving course", "cooking class"], day: ["Monday", "Tuesday", "week", "Saturday"] }],
   ["sg", "leave", "The last bus to the {place} ______ at {time} tonight.", { place: ["airport", "station", "village", "city centre"], time: ["11:30", "midnight", "eleven", "half past ten"] }],
-  ["sg", "end", "The {event} ______ at {time} on Saturday.", { event: ["match", "festival", "exhibition", "show"], time: ["six", "five", "four", "seven"] }],
+  ["sg", "end", "The {event} ______ at {time} next Saturday.", { event: ["match", "festival", "exhibition", "show"], time: ["six", "five", "four", "seven"] }],
   ["sg", "close", "The museum ______ on {day} next week, {name}.", { day: ["Monday", "Tuesday", "Wednesday", "Friday"], name: NAME }],
   ["pl", "run", "The buses to {place} ______ every {n} minutes tomorrow.", { place: ["the airport", "the bazaar", "the centre", "the station"], n: ["ten", "fifteen", "twenty", "thirty"] }],
-  ["pl", "close", "The shops in our {area} ______ at {time} on Sunday.", { area: ["street", "town", "village", "district"], time: ["six", "five", "four", "seven"] }],
+  ["pl", "close", "The shops in our {area} ______ at {time} next Sunday.", { area: ["street", "town", "village", "district"], time: ["six", "five", "four", "seven"] }],
   ["pl", "start", "Our {exam} ______ on {day}, so I'm studying all weekend.", { exam: ["exams", "tests", "final exams", "entrance exams"], day: ["Monday", "Tuesday", "Wednesday", "the 10th"] }],
   ["pl", "leave", "The {transport} to {city} ______ from the main station tomorrow.", { transport: ["trains", "buses", "minibuses", "coaches"], city: CITY }],
   ["pl", "start", "The school holidays ______ next {day}, {name}!", { day: ["Friday", "Monday", "week", "Saturday"], name: NAME }],
@@ -79,10 +79,10 @@ const WHY_B_AUX = (v) => `After does / do / doesn't / don't, use the base form: 
 // [key, why, source, slots]
 const BUILD = [
   ["leaves", WHY_SG("leaves"), "The {transport} to {city} ______ (leave) at {time} tomorrow.", { transport: ["train", "bus", "minibus", "coach"], city: CITY, time: ["six", "seven", "half past six", "7:20"] }],
-  ["starts", WHY_SG("starts"), "Our {subj} class ______ (start) at {time} on Monday.", { subj: ["English", "maths", "science", "art"], time: ["nine", "ten", "half past nine", "eleven"] }],
+  ["starts", WHY_SG("starts"), "Our {subj} class ______ (start) at {time} next Monday.", { subj: ["English", "maths", "science", "art"], time: ["nine", "ten", "half past nine", "eleven"] }],
   ["opens", WHY_SG("opens"), "The {shop} ______ (open) at nine tomorrow, {name}.", { shop: ["bank", "bakery", "pharmacy", "post office"], name: NAME }],
   ["finishes", WHY_SG("finishes"), "The film ______ (finish) at {time}, so we can catch the last {transport}.", { time: ["ten", "half past ten", "eleven", "ten thirty"], transport: ["bus", "metro", "minibus", "tram"] }],
-  ["lands", WHY_SG("lands"), "Our plane ______ (land) in {city} at {time} on Sunday.", { city: FLY, time: ["six", "noon", "midnight", "7:30"] }],
+  ["lands", WHY_SG("lands"), "Our plane ______ (land) in {city} at {time} next Sunday.", { city: FLY, time: ["six", "noon", "midnight", "7:30"] }],
   ["begins", WHY_SG("begins"), "The {event} ______ (begin) at {time} tomorrow evening.", { event: ["concert", "show", "match", "festival"], time: ["six", "seven", "eight", "half past seven"] }],
   ["close", WHY_PL("close"), "The shops ______ (close) early on {day}, {name}.", { day: ["Friday", "Saturday", "Sunday", "New Year's Eve"], name: NAME }],
   ["end", WHY_PL("end"), "Our holidays ______ (end) next {day}, {name}.", { day: ["Monday", "Friday", "week", "Sunday"], name: NAME }],

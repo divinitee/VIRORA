@@ -23,7 +23,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "tenses", branch: "perfect", topic: "unfinished-time", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Malika", "Ulugbek", "Gulnora", "Jamshid"]; // listener names: never printed in a sentence (audit 20 Nov)
 const NAME_F = ["Madina", "Olga", "Sevara", "Nilufar"];
 const NAME_M = ["Sardor", "Timur", "Ilya", "Jasur"];
 const PERIOD = ["today", "this week", "this month", "this year"];

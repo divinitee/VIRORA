@@ -16,7 +16,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "deduction", topic: "must-present", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Gulnora", "Jamshid", "Malika", "Ulugbek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "The speaker is sure, from the evidence: must + base verb.";
 const OPTS = ["must", "can't", "mustn't", "must to"];
 
@@ -31,14 +31,14 @@ const CHOOSE = [
   ["The {shop} is closed and all the lights are off. It ______ be a holiday today, {name}.", { shop: ["bank", "post office", "bazaar", "library"], name: NAME }],
   ["Madina is at the {place} every day. She ______ love sport, {name}.", { place: ["gym", "stadium", "pool", "sports club"], name: NAME }],
   ["There's always a long queue outside that {place}. The food ______ be good, {name}.", { place: ["café", "restaurant", "bakery", "canteen"], name: NAME }],
-  ["Timur is smiling at his phone. He ______ be talking to his {who}, {name}.", { who: ["girlfriend", "best friend", "brother", "grandmother"], name: NAME }],
+  ["Timur is smiling at his phone. He ______ be talking to his {who}, {name}.", { who: ["cousin", "best friend", "brother", "grandmother"], name: NAME }],
   ["You've just walked {dist}. Your legs ______ hurt, {name}.", { dist: ["twenty kilometres", "all day", "for six hours", "up the mountain"], name: NAME }],
   ["The baby is crying and it's {time}. She ______ be hungry, {name}.", { time: ["lunchtime", "six o'clock", "feeding time", "past noon"], name: NAME }],
   ["He lived in {country} for ten years. He ______ speak the language, {name}.", { country: ["Japan", "Turkey", "Germany", "Korea"], name: NAME }],
   ["Your phone is ringing. It ______ be your {who}, {name}. She always calls at this time.", { who: ["mother", "sister", "boss", "aunt"], name: NAME }],
   ["This {thing} is from Italy and it's two hundred years old. It ______ be expensive, {name}.", { thing: ["watch", "painting", "violin", "table"], name: NAME }],
   ["The streets are wet and people have {item}. It ______ be raining, {name}.", { item: ["umbrellas", "raincoats", "wet coats", "wet shoes"], name: NAME }],
-  ["The {team} fans are singing and dancing. Their team ______ be winning, {name}.", { team: ["Pakhtakor", "Nasaf", "Bunyodkor", "Navbahor"], name: NAME }],
+  ["The {team} fans are singing and dancing. Their team ______ be winning, {name}.", { team: ["Sunrise FC", "Blue Star", "Green Valley", "Riverside"], name: NAME }],
   ["My neighbour plays the {instr} every evening. He ______ love music, {name}.", { instr: ["piano", "guitar", "violin", "drums"], name: NAME }],
   ["There are flowers in every room of her {home}. She ______ love flowers, {name}.", { home: ["flat", "house", "office", "shop"], name: NAME }],
   ["You've been at your desk since {time}. You ______ need a break, {name}.", { time: ["eight o'clock", "early morning", "breakfast", "nine"], name: NAME }],

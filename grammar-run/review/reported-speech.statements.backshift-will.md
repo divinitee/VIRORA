@@ -12,7 +12,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: will · would to · will be · ✔ would  
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
-3. Last month the **mayor** said, 'The **metro station** will open in May.' He said the **metro station** ______ open in May.  
+3. Last year the **mayor** said, 'The **metro station** will open in May.' He said the **metro station** ______ open in May. It opened in June.  
    options: would to · will be · ✔ would · will  
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
@@ -24,7 +24,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ would · will · would to · will be  
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
-6. On Friday **Madina** said, 'It will rain in **Samarkand** at the weekend.' She said it ______ rain in **Samarkand** at the weekend.  
+6. Last month **Madina** said, 'It will rain in **Samarkand** at the weekend.' She said it ______ rain in **Samarkand** that weekend.  
    options: will · would to · will be · ✔ would  
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
@@ -97,7 +97,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
 3. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last month the **mayor** said the **park** ______ (will / open) in May.  
+   Last year the **mayor** said the **park** ______ (will / open) in May. It opened in June.  
    key: would open  
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
@@ -112,7 +112,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
 6. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   On Friday **Lola** said it ______ (will / rain) in **Samarkand** at the weekend.  
+   Last month **Lola** said it ______ (will / rain) in **Samarkand** that weekend.  
    key: would rain  
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
@@ -132,7 +132,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 
 10. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Before the match, **Aziz** said **Bunyodkor** ______ (will / win).  
+   Before the match, **Aziz** said **Green Valley** ______ (will / win).  
    key: would win  
    why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
 

@@ -4,43 +4,43 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. What would you do if you ______ the **big prize**, **Timur**?  
+1. What would you do if you ______ the **big prize**, **Feruza**?  
    options: ✔ won · win · will win · would win  
    why: Imagined situation: if + past simple, … would + base verb.
 
-2. If I ______ more free time, I would learn the **piano**, **Aziz**.  
+2. If I ______ more free time, I would learn the **piano**, **Dilnoza**.  
    options: have · will have · would have · ✔ had  
    why: Imagined situation: if + past simple, … would + base verb.
 
-3. If we ______ in **Bukhara**, we would visit the old town every day, **Timur**.  
+3. If we ______ in **Bukhara**, we would visit the old town every day, **Feruza**.  
    options: will live · would live · ✔ lived · live  
    why: Imagined situation: if + past simple, … would + base verb.
 
-4. If I ______ the answer to the **question**, I would tell you, **Lola**.  
+4. If I ______ the answer to the **question**, I would tell you, **Otabek**.  
    options: would know · ✔ knew · know · will know  
    why: Imagined situation: if + past simple, … would + base verb.
 
-5. If I ______ fly, I would go to **Turkey** every weekend, **Olga**.  
+5. If I ______ fly, I would go to **Turkey** every weekend, **Sardor**.  
    options: ✔ could · can · will can · would can  
    why: Imagined situation: if + past simple, … would + base verb.
 
-6. If you ______ **Turkish**, you would understand the film, **Lola**.  
+6. If you ______ **Turkish**, you would understand the film, **Otabek**.  
    options: speak · will speak · would speak · ✔ spoke  
    why: Imagined situation: if + past simple, … would + base verb.
 
-7. If you ______ taller, you could play basketball for the **college**, **Aziz**.  
+7. If you ______ taller, you could play basketball for the **college**, **Dilnoza**.  
    options: will be · would be · ✔ were · are  
    why: Imagined situation: if + past simple, … would + base verb.
 
-8. If we ______ a car, we would drive to the **lake** on Sundays, **Aziz**.  
+8. If we ______ a car, we would drive to the **lake** on Sundays, **Dilnoza**.  
    options: would have · ✔ had · have · will have  
    why: Imagined situation: if + past simple, … would + base verb.
 
-9. If I ______ a wallet in the **bus**, I would look for the owner, **Aziz**.  
+9. If I ______ a wallet in the **bus**, I would look for the owner, **Dilnoza**.  
    options: ✔ found · find · will find · would find  
    why: Imagined situation: if + past simple, … would + base verb.
 
-10. If I ______ my **keys**, my mum would be very angry, **Olga**.  
+10. If I ______ my **keys**, my mum would be very angry, **Sardor**.  
    options: lose · will lose · would lose · ✔ lost  
    why: Imagined situation: if + past simple, … would + base verb.
 
@@ -48,121 +48,121 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: will get · would get · ✔ got · get  
    why: Imagined situation: if + past simple, … would + base verb.
 
-12. If you ______ a famous **writer**, what would you say, **Lola**?  
+12. If you ______ a famous **writer**, what would you say, **Otabek**?  
    options: would meet · ✔ met · meet · will meet  
    why: Imagined situation: if + past simple, … would + base verb.
 
-13. If we ______ to **Samarkand** by train, it would be cheaper, **Olga**.  
+13. If we ______ to **Samarkand** by train, it would be cheaper, **Sardor**.  
    options: ✔ went · go · will go · would go  
    why: Imagined situation: if + past simple, … would + base verb.
 
-14. If he ______ harder, he would pass the **IELTS exam**, **Aziz**.  
+14. If he ______ harder, he would pass the **IELTS exam**, **Dilnoza**.  
    options: study · will study · would study · ✔ studied  
    why: Imagined situation: if + past simple, … would + base verb.
 
-15. If my **uncle** ______ less, he would be happier, **Timur**.  
+15. If my **uncle** ______ less, he would be happier, **Feruza**.  
    options: will work · would work · ✔ worked · work  
    why: Imagined situation: if + past simple, … would + base verb.
 
-16. If they ______ here, they would help us with the **party**, **Olga**.  
+16. If they ______ here, they would help us with the **party**, **Sardor**.  
    options: would be · ✔ were · are · will be  
    why: Imagined situation: if + past simple, … would + base verb.
 
-17. If I ______ a big house, I would invite all my **friends**, **Lola**.  
+17. If I ______ a big house, I would invite all my **friends**, **Otabek**.  
    options: ✔ owned · own · will own · would own  
    why: Imagined situation: if + past simple, … would + base verb.
 
-18. If you ______ less **bread**, you would feel better, **Aziz**.  
+18. If you ______ less **bread**, you would feel better, **Dilnoza**.  
    options: eat · will eat · would eat · ✔ ate  
    why: Imagined situation: if + past simple, … would + base verb.
 
-19. If I ______ to bed earlier, I would feel better in the **office**, **Olga**.  
+19. If I ______ to bed earlier, I would feel better in the **office**, **Sardor**.  
    options: will go · would go · ✔ went · go  
    why: Imagined situation: if + past simple, … would + base verb.
 
-20. If we ______ choose, we would go to **Japan** for our holiday, **Lola**.  
+20. If we ______ choose, we would go to **Japan** for our holiday, **Otabek**.  
    options: would can · ✔ could · can · will can  
    why: Imagined situation: if + past simple, … would + base verb.
 
 ## build (20)
 
 1. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If I ______ (have) more money, I would buy a **laptop**, **Olga**.  
+   If I ______ (have) more money, I would buy a **laptop**, **Sardor**.  
    key: had  
    why: Imagined situation: if + past simple, … would + base verb.
 
 2. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If we ______ (live) near the **sea**, we would swim every day, **Lola**.  
+   If we ______ (live) near the **sea**, we would swim every day, **Otabek**.  
    key: lived  
    why: Imagined situation: if + past simple, … would + base verb.
 
 3. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If I ______ (know) the way to the **museum**, I would take you, **Lola**.  
+   If I ______ (know) the way to the **museum**, I would take you, **Otabek**.  
    key: knew  
    why: Imagined situation: if + past simple, … would + base verb.
 
 4. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If our team ______ (win) the **final**, the whole city would celebrate, **Aziz**.  
+   If our team ______ (win) the **final**, the whole city would celebrate, **Dilnoza**.  
    key: won  
    why: Imagined situation: if + past simple, … would + base verb.
 
 5. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If she ______ (speak) **German**, she would get the job, **Olga**.  
+   If she ______ (speak) **German**, she would get the job, **Sardor**.  
    key: spoke  
    why: Imagined situation: if + past simple, … would + base verb.
 
 6. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If I ______ (can) cook like my **uncle**, I would open a café, **Timur**.  
+   If I ______ (can) cook like my **uncle**, I would open a café, **Feruza**.  
    key: could  
    why: Imagined situation: if + past simple, … would + base verb.
 
 7. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If we ______ (be) rich, we would travel round **the world**, **Aziz**.  
+   If we ______ (be) rich, we would travel round **the world**, **Dilnoza**.  
    key: were  
    why: Imagined situation: if + past simple, … would + base verb.
 
 8. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If he ______ (get) up earlier, he wouldn't be late for **work**, **Aziz**.  
+   If he ______ (get) up earlier, he wouldn't be late for **work**, **Dilnoza**.  
    key: got  
    why: Imagined situation: if + past simple, … would + base verb.
 
 9. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If you ______ (find) a **wallet** in the street, what would you do, **Olga**?  
+   If you ______ (find) a **wallet** in the street, what would you do, **Sardor**?  
    key: found  
    why: Imagined situation: if + past simple, … would + base verb.
 
 10. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If Timur ______ (study) more, he would get better marks in **physics**, **Timur**.  
+   If Timur ______ (study) more, he would get better marks in **physics**, **Feruza**.  
    key: studied  
    why: Imagined situation: if + past simple, … would + base verb.
 
 11. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If you ______ (eat) more **salad**, you would be healthier, **Olga**.  
+   If you ______ (eat) more **salad**, you would be healthier, **Sardor**.  
    key: ate  
    why: Imagined situation: if + past simple, … would + base verb.
 
 12. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If they ______ (go) by plane, they would arrive in **Istanbul** in two hours, **Olga**.  
+   If they ______ (go) by plane, they would arrive in **Istanbul** in two hours, **Sardor**.  
    key: went  
    why: Imagined situation: if + past simple, … would + base verb.
 
 13. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If I ______ (own) a **café**, I would sell fresh bread, **Lola**.  
+   If I ______ (own) a **café**, I would sell fresh bread, **Otabek**.  
    key: owned  
    why: Imagined situation: if + past simple, … would + base verb.
 
 14. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If I ______ (meet) a famous **footballer**, I would ask for a photo, **Olga**.  
+   If I ______ (meet) a famous **footballer**, I would ask for a photo, **Sardor**.  
    key: met  
    why: Imagined situation: if + past simple, … would + base verb.
 
 15. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If my **uncle** ______ (work) less, he would have more time for us, **Aziz**.  
+   If my **uncle** ______ (work) less, he would have more time for us, **Dilnoza**.  
    key: worked  
    why: Imagined situation: if + past simple, … would + base verb.
 
 16. _Complete both halves: the past simple in the if-part, would + the verb in the other part._  
-   If I ______ (have) more free time, I ______ (learn) the **violin**, **Aziz**.  
+   If I ______ (have) more free time, I ______ (learn) the **violin**, **Dilnoza**.  
    key: had + would learn  
    why: Imagined situation: if + past simple, … would + base verb.
 
@@ -172,37 +172,37 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Imagined situation: if + past simple, … would + base verb.
 
 18. _Complete both halves: the past simple in the if-part, would + the verb in the other part._  
-   If you ______ (be) taller, you ______ (play) for the **club**, **Lola**.  
+   If you ______ (be) taller, you ______ (play) for the **club**, **Otabek**.  
    key: were + would play  
    why: Imagined situation: if + past simple, … would + base verb.
 
 19. _Complete both halves: the past simple in the if-part, would + the verb in the other part._  
-   If she ______ (know) about the **meeting**, she ______ (come), **Lola**.  
+   If she ______ (know) about the **meeting**, she ______ (come), **Otabek**.  
    key: knew + would come  
    why: Imagined situation: if + past simple, … would + base verb.
 
 20. _Complete both halves: the past simple in the if-part, would + the verb in the other part._  
-   If I ______ (win) the **cup**, I ______ (buy) a house for my parents, **Timur**.  
+   If I ______ (win) the **cup**, I ______ (buy) a house for my parents, **Feruza**.  
    key: won + would buy  
    why: Imagined situation: if + past simple, … would + base verb.
 
 ## transform (15)
 
 1. _Imagine it is different. Complete the if-part with the past simple._  
-   I don't have a car, so I can't drive you to the **wedding**, **Timur**.  
-   → If I ______ a car, I would drive you to the **wedding**, **Timur**.  
+   I don't have a car, so I can't drive you to the **wedding**, **Feruza**.  
+   → If I ______ a car, I would drive you to the **wedding**, **Feruza**.  
    key: had  
    why: Imagined situation: if + past simple, … would + base verb.
 
 2. _Imagine it is different. Complete the if-part with the past simple._  
-   We don't live near the **sea**, so we don't go often, **Olga**.  
-   → If we ______ near the **sea**, we would go often, **Olga**.  
+   We don't live near the **sea**, so we don't go often, **Sardor**.  
+   → If we ______ near the **sea**, we would go often, **Sardor**.  
    key: lived  
    why: Imagined situation: if + past simple, … would + base verb.
 
 3. _Imagine it is different. Complete the if-part with the past simple._  
-   I don't know the answer to the **puzzle**, so I can't tell you, **Aziz**.  
-   → If I ______ the answer to the **puzzle**, I would tell you, **Aziz**.  
+   I don't know the answer to the **puzzle**, so I can't tell you, **Dilnoza**.  
+   → If I ______ the answer to the **puzzle**, I would tell you, **Dilnoza**.  
    key: knew  
    why: Imagined situation: if + past simple, … would + base verb.
 
@@ -213,68 +213,68 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Imagined situation: if + past simple, … would + base verb.
 
 5. _Imagine it is different. Complete the if-part with the past simple._  
-   He can't swim, so he never goes to the **lake**, **Olga**.  
-   → If he ______ swim, he would go to the **lake**, **Olga**.  
+   He can't swim, so he never goes to the **lake**, **Sardor**.  
+   → If he ______ swim, he would go to the **lake**, **Sardor**.  
    key: could  
    why: Imagined situation: if + past simple, … would + base verb.
 
 6. _Correct the mistake._  
-   If I would have more money, I would buy a **camera**, **Aziz**.  
-   → If I ______ more money, I would buy a **camera**, **Aziz**.  
+   If I would have more money, I would buy a **camera**, **Dilnoza**.  
+   → If I ______ more money, I would buy a **camera**, **Dilnoza**.  
    key: had  
    why: Imagined situation: if + past simple, … would + base verb.
 
 7. _Correct the mistake._  
-   If we live in **Bukhara**, we would visit the museums every week, **Timur**.  
-   → If we ______ in **Bukhara**, we would visit the museums every week, **Timur**.  
+   If we live in **Bukhara**, we would visit the museums every week, **Feruza**.  
+   → If we ______ in **Bukhara**, we would visit the museums every week, **Feruza**.  
    key: lived  
    why: Imagined situation: if + past simple, … would + base verb.
 
 8. _Correct the mistake._  
-   What would you do if you will win the **big prize**, **Aziz**?  
-   → What would you do if you ______ the **big prize**, **Aziz**?  
+   What would you do if you will win the **big prize**, **Dilnoza**?  
+   → What would you do if you ______ the **big prize**, **Dilnoza**?  
    key: won  
    why: Imagined situation: if + past simple, … would + base verb.
 
 9. _Correct the mistake._  
-   If she knows his number, she would call him from the **hotel**, **Olga**.  
-   → If she ______ his number, she would call him from the **hotel**, **Olga**.  
+   If she knows his number, she would call him from the **hotel**, **Sardor**.  
+   → If she ______ his number, she would call him from the **hotel**, **Sardor**.  
    key: knew  
    why: Imagined situation: if + past simple, … would + base verb.
 
 10. _Correct the mistake._  
-   If I can fly, I would visit **Korea** every day, **Timur**.  
-   → If I ______ fly, I would visit **Korea** every day, **Timur**.  
+   If I can fly, I would visit **Korea** every day, **Feruza**.  
+   → If I ______ fly, I would visit **Korea** every day, **Feruza**.  
    key: could  
    why: Imagined situation: if + past simple, … would + base verb.
 
 11. _Rewrite as one sentence with if + past simple._  
-   Imagine: you win the **big prize**. You buy a house, **Aziz**.  
-   → If you ______ the **big prize**, you would buy a house, **Aziz**.  
+   Imagine: you win the **big prize**. You buy a house, **Dilnoza**.  
+   → If you ______ the **big prize**, you would buy a house, **Dilnoza**.  
    key: won  
    why: Imagined situation: if + past simple, … would + base verb.
 
 12. _Rewrite as one sentence with if + past simple._  
-   Just imagine you live in **Rome**. You walk to the old town every day, **Lola**.  
-   → If you ______ in **Rome**, you would walk to the old town every day, **Lola**.  
+   Just imagine you live in **Rome**. You walk to the old town every day, **Otabek**.  
+   → If you ______ in **Rome**, you would walk to the old town every day, **Otabek**.  
    key: lived  
    why: Imagined situation: if + past simple, … would + base verb.
 
 13. _Rewrite as one sentence with if + past simple._  
-   Picture this: I meet a famous **footballer**. I ask for a photo, **Aziz**.  
-   → If I ______ a famous **footballer**, I would ask for a photo, **Aziz**.  
+   Picture this: I meet a famous **footballer**. I ask for a photo, **Dilnoza**.  
+   → If I ______ a famous **footballer**, I would ask for a photo, **Dilnoza**.  
    key: met  
    why: Imagined situation: if + past simple, … would + base verb.
 
 14. _Rewrite as one sentence with if + past simple._  
-   Let's imagine we have a big garden. We grow **tomatoes**, **Timur**.  
-   → If we ______ a big garden, we would grow **tomatoes**, **Timur**.  
+   Let's imagine we have a big garden. We grow **tomatoes**, **Feruza**.  
+   → If we ______ a big garden, we would grow **tomatoes**, **Feruza**.  
    key: had  
    why: Imagined situation: if + past simple, … would + base verb.
 
 15. _Rewrite as one sentence with if + past simple._  
-   Imagine this: you find a **ring** on the bus. You give it to the driver, **Timur**.  
-   → If you ______ a **ring** on the bus, you would give it to the driver, **Timur**.  
+   Imagine this: you find a **ring** on the bus. You give it to the driver, **Feruza**.  
+   → If you ______ a **ring** on the bus, you would give it to the driver, **Feruza**.  
    key: found  
    why: Imagined situation: if + past simple, … would + base verb.
 

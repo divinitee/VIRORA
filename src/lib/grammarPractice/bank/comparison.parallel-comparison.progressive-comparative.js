@@ -26,10 +26,10 @@ export default [
     "concert"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "river"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "Almaty"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "bazaar"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "brother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "homework"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "December"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "sport"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -346,10 +346,10 @@ export default [
     "spring"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -365,7 +365,7 @@ export default [
   "options": [
    "more angrier and angrier",
    "angrier and angrier",
-   "more and more angry",
+   "the angrier",
    "angry and angry"
   ],
   "key": 1,
@@ -378,10 +378,10 @@ export default [
     "director"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -396,7 +396,7 @@ export default [
   "prompt": "The roads in our {city} are getting ______, {name}.",
   "options": [
    "busier and busier",
-   "more and more busy",
+   "the busier",
    "busy and busy",
    "more busier and busier"
   ],
@@ -410,10 +410,10 @@ export default [
     "district"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "film"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "winner"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -493,7 +493,7 @@ export default [
   "options": [
    "more hungrier and hungrier",
    "hungrier and hungrier",
-   "more and more hungry",
+   "the hungrier",
    "hungry and hungry"
   ],
   "key": 1,
@@ -506,10 +506,10 @@ export default [
     "camp"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -524,7 +524,7 @@ export default [
   "prompt": "My {bag} got ______ as I put more books in it, {name}.",
   "options": [
    "heavier and heavier",
-   "more and more heavy",
+   "the heavier",
    "heavy and heavy",
    "more heavier and heavier"
   ],
@@ -538,10 +538,10 @@ export default [
     "suitcase"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "all day"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "drawing"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "snow"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -688,10 +688,10 @@ export default [
     "Karshi"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -715,10 +715,10 @@ export default [
     "village"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "canteen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "son"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "café"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -823,10 +823,10 @@ export default [
     "game"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -850,10 +850,10 @@ export default [
     "lake"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -895,6 +895,9 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "Our {shop} is getting ______ (busy) before Navruz, {name}.",
   "key": "busier and busier",
+  "acceptable": [
+   "more and more busy"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
   "slots": {
    "shop": [
@@ -904,10 +907,10 @@ export default [
     "market"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -931,10 +934,10 @@ export default [
     "museum"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -958,10 +961,10 @@ export default [
     "path"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -985,10 +988,10 @@ export default [
     "schools"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1012,10 +1015,10 @@ export default [
     "final"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1057,6 +1060,9 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The {who} waited in the traffic. He got ______ (angry), {name}.",
   "key": "angrier and angrier",
+  "acceptable": [
+   "more and more angry"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
   "slots": {
    "who": [
@@ -1066,10 +1072,10 @@ export default [
     "man"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1114,10 +1120,10 @@ export default [
     "knee"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1141,10 +1147,10 @@ export default [
     "city"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1190,10 +1196,10 @@ export default [
     "May"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1218,10 +1224,10 @@ export default [
     "uncle"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1246,10 +1252,10 @@ export default [
     "game"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1265,6 +1271,9 @@ export default [
   "source": "The {city} roads get a little busier every year, {name}.",
   "hint": "The {city} roads are getting ______, {name}.",
   "key": "busier and busier",
+  "acceptable": [
+   "more and more busy"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
   "slots": {
    "city": [
@@ -1274,10 +1283,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1302,10 +1311,10 @@ export default [
     "Plane tickets"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1330,10 +1339,10 @@ export default [
     "Almaty"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1358,10 +1367,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1386,10 +1395,10 @@ export default [
     "concert"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1414,10 +1423,10 @@ export default [
     "brother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1442,10 +1451,10 @@ export default [
     "song"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1470,10 +1479,10 @@ export default [
     "fields"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1489,13 +1498,16 @@ export default [
   "source": "At first my bag was heavy. Then it was heavier. At the end it was very heavy, {name}.",
   "hint": "My bag got ______, {name}.",
   "key": "heavier and heavier",
+  "acceptable": [
+   "more and more heavy"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, heavier and heavier.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1520,10 +1532,10 @@ export default [
     "series"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1548,10 +1560,10 @@ export default [
     "bus stop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1567,6 +1579,9 @@ export default [
   "source": "At first {name} was angry. Then she was angrier. In the end she shouted.",
   "hint": "{name} got ______.",
   "key": "angrier and angrier",
+  "acceptable": [
+   "more and more angry"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
   "slots": {
    "name": [

@@ -17,7 +17,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "deduction", topic: "might-present", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Feruza", "Otabek", "Dilnoza", "Sardor"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).";
 const OPTS = ["might", "must", "can't", "mustn't"];
 
@@ -69,7 +69,7 @@ const BUILD = [
   ["might be", "The {who} isn't in her office. She ______ (be) at lunch, {name}.", { who: ["director", "teacher", "manager", "doctor"], name: NAME }],
   ["might want", "Ask your {who} first. He ______ (want) to come too, {name}.", { who: ["brother", "cousin", "father", "friend"], name: NAME }],
   ["might be", "Your {thing} is very quiet. The battery ______ (be) dead, {name}.", { thing: ["phone", "radio", "speaker", "tablet"], name: NAME }],
-  ["might live", "That family from the {place} ______ (live) near us. I'm not sure, {name}.", { place: ["wedding", "party", "mosque", "bazaar"], name: NAME }],
+  ["might live", "That family from the {place} ______ (live) near us. I'm not sure, {name}.", { place: ["wedding", "party", "school", "bazaar"], name: NAME }],
   ["might be", "Timur is laughing at his {thing}. He ______ (be) watching a funny video, {name}.", { thing: ["phone", "laptop", "tablet", "TV"], name: NAME }],
 ].map(([key, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key, why: WHY, slots }));
 

@@ -18,7 +18,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "semi-modals", topic: "have-to-past", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Gulnora", "Jamshid", "Malika", "Ulugbek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "Past obligation: had to + base verb (must has no past form).";
 const WHY_NOT = "It wasn't necessary in the past: didn't have to + base verb.";
 const POS = ["had to", "must", "have to", "musted"];
@@ -34,7 +34,7 @@ const CHOOSE = [
   [POS, "At my old school, we ______ wear a {uniform}, {name}.", { uniform: ["uniform", "white shirt", "tie", "blue jacket"], name: NAME }],
   [POS, "The {shop} was closed, so she ______ come back the next day, {name}.", { shop: ["bank", "post office", "pharmacy", "bakery"], name: NAME }],
   [POS, "I lost my {thing} last week and ______ buy a new one, {name}.", { thing: ["phone", "key", "wallet", "umbrella"], name: NAME }],
-  [POS, "We ______ wait two hours at the {place} yesterday, {name}.", { place: ["airport", "hospital", "bank", "border"], name: NAME }],
+  [POS, "We ______ wait two hours at the {place} yesterday, {name}.", { place: ["airport", "hospital", "bank", "post office"], name: NAME }],
   [POS, "At sports school, my grandfather ______ run {dist} every morning, {name}.", { dist: ["five kilometres", "ten kilometres", "three miles", "for an hour"], name: NAME }],
   [POS, "Timur was ill {when}, so he ______ stay in bed, {name}.", { when: ["last week", "on Monday", "yesterday", "all weekend"], name: NAME }],
   [POS, "It was raining, so the children ______ play inside the {place}, {name}.", { place: ["school", "house", "gym", "hall"], name: NAME }],
@@ -63,7 +63,7 @@ const BUILD = [
   ["wear", 0, "At my old school, we ______ (wear) a {uniform}, {name}.", { uniform: ["uniform", "white shirt", "tie", "blue jacket"], name: NAME }],
   ["come", 0, "The {shop} was closed, so she ______ (come) back the next day, {name}.", { shop: ["bank", "post office", "pharmacy", "bakery"], name: NAME }],
   ["buy", 0, "I lost my {thing}, so I ______ (buy) a new one, {name}.", { thing: ["phone", "key", "wallet", "umbrella"], name: NAME }],
-  ["wait", 0, "We ______ (wait) two hours at the {place} yesterday, {name}.", { place: ["airport", "hospital", "bank", "border"], name: NAME }],
+  ["wait", 0, "We ______ (wait) two hours at the {place} yesterday, {name}.", { place: ["airport", "hospital", "bank", "post office"], name: NAME }],
   ["stay", 0, "Timur was ill {when}, so he ______ (stay) in bed, {name}.", { when: ["last week", "on Monday", "yesterday", "all weekend"], name: NAME }],
   ["play", 0, "It was raining, so the children ______ (play) inside the {place}, {name}.", { place: ["school", "house", "gym", "hall"], name: NAME }],
   ["leave", 0, "Olga ______ (leave) the {event} early. Her baby was ill, {name}.", { event: ["party", "wedding", "meeting", "concert"], name: NAME }],
@@ -88,7 +88,7 @@ const TRANSFORM = [
   [FIX, "When I was at school, I must wear a {uniform}, {name}.", "When I was at school, I ______ a {uniform}, {name}.", "wear", 0, { uniform: ["uniform", "white shirt", "tie", "blue jacket"], name: NAME }],
   [FIX, "The {bus} was late, so we must take a taxi, {name}.", "The {bus} was late, so we ______ a taxi, {name}.", "take", 0, { bus: ["bus", "train", "metro", "tram"], name: NAME }],
   [FIX, "She musted leave the {event} early, {name}.", "She ______ the {event} early, {name}.", "leave", 0, { event: ["party", "wedding", "meeting", "concert"], name: NAME }],
-  [NEC, "At the {place}, they made us wait for hours, {name}.", "We ______ at the {place}, {name}.", "wait", 0, { place: ["airport", "hospital", "bank", "border"], name: NAME }],
+  [NEC, "At the {place}, they made us wait for hours, {name}.", "We ______ at the {place}, {name}.", "wait", 0, { place: ["airport", "hospital", "bank", "post office"], name: NAME }],
   [NEC, "The doctor told him to stay in bed {when}, {name}.", "He ______ in bed {when}, {name}.", "stay", 0, { when: ["last week", "on Monday", "yesterday", "all weekend"], name: NAME }],
   [NEC, "I needed to call the {who}, {name}. There was no other way.", "I ______ the {who}, {name}. There was no other way.", "call", 0, { who: ["doctor", "plumber", "landlord", "teacher"], name: NAME }],
   [NEC, "There were no taxis, so walking home from the {place} was necessary for them, {name}.", "There were no taxis, so they ______ home from the {place}, {name}.", "walk", 0, { place: ["station", "bazaar", "stadium", "party"], name: NAME }],

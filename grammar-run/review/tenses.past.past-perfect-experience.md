@@ -8,7 +8,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ spoken · spoke · speak · speaking  
    why: After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.
 
-2. I was a bit scared on the plane to **Istanbul**. I had never ______ before, **Aziz**.  
+2. I was a bit scared on the plane to **Istanbul**. I had never ______ before, **Feruza**.  
    options: flew · fly · flying · ✔ flown  
    why: After had never / had ever, use the past participle: flown. It was a new experience at that moment in the past.
 
@@ -28,11 +28,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: swam · swim · swimming · ✔ swum  
    why: After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.
 
-7. My father was careful in **Istanbul** because he had never ______ there before, **Timur**.  
+7. My father was careful in **Istanbul** because he had never ______ there before, **Dilnoza**.  
    options: drive · driving · ✔ driven · drove  
    why: After had never / had ever, use the past participle: driven. It was a new experience at that moment in the past.
 
-8. I didn't know how to start. I had never ______ a **letter** in English before, **Olga**.  
+8. I didn't know how to start. I had never ______ a **letter** in English before, **Otabek**.  
    options: writing · ✔ written · wrote · write  
    why: After had never / had ever, use the past participle: written. It was a new experience at that moment in the past.
 
@@ -40,11 +40,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ worn · wore · wear · wearing  
    why: After had never / had ever, use the past participle: worn. It was a new experience at that moment in the past.
 
-10. My grandmother didn't like the **coffee**. She had never ______ it before, **Timur**.  
+10. My grandmother didn't like the **coffee**. She had never ______ it before, **Dilnoza**.  
    options: drank · drink · drinking · ✔ drunk  
    why: After had never / had ever, use the past participle: drunk. It was a new experience at that moment in the past.
 
-11. Our teacher was nervous. She had never ______ on a stage before, **Olga**.  
+11. Our teacher was nervous. She had never ______ on a stage before, **Otabek**.  
    options: sing · singing · ✔ sung · sang  
    why: After had never / had ever, use the past participle: sung. It was a new experience at that moment in the past.
 
@@ -60,19 +60,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: threw · throw · throwing · ✔ thrown  
    why: After had never / had ever, use the past participle: thrown. It was a new experience at that moment in the past.
 
-15. Had you ever ______ abroad before your trip to **Seoul**, **Lola**?  
+15. Had you ever ______ abroad before your trip to **Seoul**, **Sardor**?  
    options: go · going · ✔ gone · went  
    why: After had never / had ever, use the past participle: gone. It was a new experience at that moment in the past.
 
-16. Had your parents ever ______ a **ballet** before last night, **Olga**?  
+16. Had your parents ever ______ a **ballet** before last night, **Otabek**?  
    options: seeing · ✔ seen · saw · see  
    why: After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.
 
-17. Before this trip, had you ever ______ to **Termez**, **Timur**?  
+17. Before this trip, had you ever ______ to **Termez**, **Dilnoza**?  
    options: ✔ been · was · be · being  
    why: After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.
 
-18. It was the first time I had ______ a **finger** in my life, **Aziz**.  
+18. It was the first time I had ______ a **finger** in my life, **Feruza**.  
    options: broke · break · breaking · ✔ broken  
    why: After had never / had ever, use the past participle: broken. It was a new experience at that moment in the past.
 
@@ -80,19 +80,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: grow · growing · ✔ grown · grew  
    why: After had never / had ever, use the past participle: grown. It was a new experience at that moment in the past.
 
-20. It was the first time **Olga** had ______ a picture of a **horse**.  
+20. It was the first time **Otabek** had ______ a picture of a **horse**.  
    options: drawing · ✔ drawn · drew · draw  
    why: After had never / had ever, use the past participle: drawn. It was a new experience at that moment in the past.
 
 ## build (20)
 
 1. _Write the past participle of the verb in brackets._  
-   She was nervous because she had never ______ (speak) on the radio before, **Timur**.  
+   She was nervous because she had never ______ (speak) on the radio before, **Dilnoza**.  
    key: spoken  
    why: After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.
 
 2. _Write the past participle of the verb in brackets._  
-   We stopped the car, **Aziz**. We had never ______ (see) such a big **mountain** before.  
+   We stopped the car, **Feruza**. We had never ______ (see) such a big **mountain** before.  
    key: seen  
    why: After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.
 
@@ -102,7 +102,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After had never / had ever, use the past participle: flown. It was a new experience at that moment in the past.
 
 4. _Write the past participle of the verb in brackets._  
-   I was surprised by the taste, **Aziz**. I had never ______ (eat) **sushi** before.  
+   I was surprised by the taste, **Feruza**. I had never ______ (eat) **sushi** before.  
    key: eaten  
    why: After had never / had ever, use the past participle: eaten. It was a new experience at that moment in the past.
 
@@ -117,7 +117,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After had never / had ever, use the past participle: driven. It was a new experience at that moment in the past.
 
 7. _Write the past participle of the verb in brackets._  
-   The water was cold, and I had never ______ (swim) in a **lake** before, **Timur**.  
+   The water was cold, and I had never ______ (swim) in a **lake** before, **Dilnoza**.  
    key: swum  
    why: After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.
 
@@ -152,7 +152,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After had never / had ever, use the past participle: done. It was a new experience at that moment in the past.
 
 14. _Write the past participle of the verb in brackets._  
-   My parents had never ______ (meet) my teacher before the **open day**, **Olga**.  
+   My parents had never ______ (meet) my teacher before the **open day**, **Otabek**.  
    key: met  
    why: After had never / had ever, use the past participle: met. It was a new experience at that moment in the past.
 
@@ -167,7 +167,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After had never / had ever, use the past participle: made. It was a new experience at that moment in the past.
 
 17. _Write the past participle of the verb in brackets._  
-   Our team was so happy. We had never ______ (win) a **match** before, **Olga**.  
+   Our team was so happy. We had never ______ (win) a **match** before, **Otabek**.  
    key: won  
    why: After had never / had ever, use the past participle: won. It was a new experience at that moment in the past.
 
@@ -177,7 +177,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After had never / had ever, use the past participle: heard. It was a new experience at that moment in the past.
 
 19. _Write the past participle of the verb in brackets._  
-   **Aziz** had never ______ (read) a whole book in English before this **month**.  
+   **Feruza** had never ______ (read) a whole book in English before this **month**.  
    key: read  
    why: After had never / had ever, use the past participle: read. It was a new experience at that moment in the past.
 
@@ -189,20 +189,20 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## transform (15)
 
 1. _Rewrite the sentence with had never … before._  
-   Last **winter** was my first time on a plane, **Lola**.  
-   → Before last **winter**, I ______ on a plane, **Lola**.  
+   Last **winter** was my first time on a plane, **Sardor**.  
+   → Before last **winter**, I ______ on a plane, **Sardor**.  
    key: had never flown  
    why: It was the first time, so: had never + past participle (flown) + before.
 
 2. _Rewrite the sentence with had never … before._  
-   Yesterday was **Lola**'s first time in a **stadium**.  
-   → Before yesterday, **Lola** ______ in a **stadium**.  
+   Yesterday was **Sardor**'s first time in a **stadium**.  
+   → Before yesterday, **Sardor** ______ in a **stadium**.  
    key: had never been  
    why: It was the first time, so: had never + past participle (been) + before.
 
 3. _Rewrite the sentence with had never … before._  
-   At the party, it was my first time eating **fish soup**, **Lola**.  
-   → Before the party, I ______ **fish soup**, **Lola**.  
+   At the party, it was my first time eating **fish soup**, **Sardor**.  
+   → Before the party, I ______ **fish soup**, **Sardor**.  
    key: had never eaten  
    why: It was the first time, so: had never + past participle (eaten) + before.
 
@@ -213,8 +213,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: It was the first time, so: had never + past participle (driven) + before.
 
 5. _Rewrite the sentence with had never … before._  
-   In **February**, it was **Aziz**'s first time seeing snow.  
-   → Before **February**, **Aziz** ______ snow.  
+   In **February**, it was **Feruza**'s first time seeing snow.  
+   → Before **February**, **Feruza** ______ snow.  
    key: had never seen  
    why: It was the first time, so: had never + past participle (seen) + before.
 
@@ -225,8 +225,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The story is now in the past, so has never → had never been.
 
 7. _Put the story in the past._  
-   I'm nervous, **Olga**. I have never spoken to a big **audience**.  
-   → I was nervous, **Olga**. I ______ to a big **audience** before.  
+   I'm nervous, **Otabek**. I have never spoken to a big **audience**.  
+   → I was nervous, **Otabek**. I ______ to a big **audience** before.  
    key: had never spoken  
    why: The story is now in the past, so has never → had never spoken.
 
@@ -243,14 +243,14 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The story is now in the past, so has never → had never ridden.
 
 10. _Put the story in the past._  
-   We are surprised, **Olga**. We have never eaten such good **plov**.  
-   → We were surprised, **Olga**. We ______ such good **plov** before.  
+   We are surprised, **Otabek**. We have never eaten such good **plov**.  
+   → We were surprised, **Otabek**. We ______ such good **plov** before.  
    key: had never eaten  
    why: The story is now in the past, so has never → had never eaten.
 
 11. _Correct the mistake._  
-   She was nervous because she had never spoke on TV before, **Timur**.  
-   → She was nervous because she had never ______ on TV before, **Timur**.  
+   She was nervous because she had never spoke on TV before, **Dilnoza**.  
+   → She was nervous because she had never ______ on TV before, **Dilnoza**.  
    key: spoken  
    why: Spoke is the past simple. After had, use the past participle: spoken.
 
@@ -261,8 +261,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Swam is the past simple. After had, use the past participle: swum.
 
 13. _Correct the mistake._  
-   **Lola** had never wrote a poem before **2024**.  
-   → **Lola** had never ______ a poem before **2024**.  
+   **Sardor** had never wrote a poem before **2024**.  
+   → **Sardor** had never ______ a poem before **2024**.  
    key: written  
    why: Wrote is the past simple. After had, use the past participle: written.
 
@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Drove is the past simple. After had, use the past participle: driven.
 
 15. _Correct the mistake._  
-   We had never saw such a big **river** before, **Aziz**.  
-   → We had never ______ such a big **river** before, **Aziz**.  
+   We had never saw such a big **river** before, **Feruza**.  
+   → We had never ______ such a big **river** before, **Feruza**.  
    key: seen  
    why: Saw is the past simple. After had, use the past participle: seen.
 

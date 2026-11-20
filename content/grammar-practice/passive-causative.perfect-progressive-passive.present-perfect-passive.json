@@ -24,10 +24,10 @@
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -50,16 +50,16 @@
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -88,10 +88,10 @@
     "lesson"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -120,10 +120,10 @@
     "printer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -152,10 +152,10 @@
     "bedroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -184,10 +184,10 @@
     "newspaper"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -216,10 +216,10 @@
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -248,10 +248,10 @@
     "letter"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -280,10 +280,10 @@
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -312,10 +312,10 @@
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -327,27 +327,27 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The time of the {event} ______. It's now at seven, {name}.",
+  "prompt": "Your {thing} ______. You can pick it up now, {name}.",
   "options": [
-   "is been changed",
-   "has being changed",
-   "has been changed",
-   "has changed"
+   "is been repaired",
+   "has being repaired",
+   "has been repaired",
+   "has repaired"
   ],
   "key": 2,
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
-   "event": [
-    "match",
-    "meeting",
-    "concert",
-    "lesson"
+   "thing": [
+    "shoes",
+    "watch",
+    "phone",
+    "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -376,10 +376,10 @@
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -408,10 +408,10 @@
     "books"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -440,10 +440,10 @@
     "parents"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -472,10 +472,10 @@
     "cafés"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -504,10 +504,10 @@
     "workers"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -536,10 +536,10 @@
     "curtains"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -568,10 +568,10 @@
     "quiz"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -600,10 +600,10 @@
     "school yard"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -632,10 +632,10 @@
     "flood"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -659,10 +659,10 @@
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -680,16 +680,16 @@
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -713,10 +713,10 @@
     "wedding"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -740,10 +740,10 @@
     "printer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -767,10 +767,10 @@
     "bedroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -794,10 +794,10 @@
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -821,10 +821,10 @@
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -848,10 +848,10 @@
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -864,21 +864,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
-  "source": "The time of the {event} ______ (change), {name}.",
-  "key": "has been changed",
+  "source": "Your {thing} ______ (check). It's fine now, {name}.",
+  "key": "has been checked",
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
-   "event": [
-    "match",
-    "meeting",
-    "concert",
-    "lesson"
+   "thing": [
+    "car",
+    "heater",
+    "laptop",
+    "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -902,10 +902,10 @@
     "books"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -929,10 +929,10 @@
     "parents"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -956,10 +956,10 @@
     "cafés"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -983,10 +983,10 @@
     "curtains"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1010,10 +1010,10 @@
     "school yard"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1037,10 +1037,10 @@
     "flood"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1067,10 +1067,10 @@
     "contract"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1097,10 +1097,10 @@
     "fridge"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1127,10 +1127,10 @@
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1157,10 +1157,10 @@
     "manager"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1187,10 +1187,10 @@
     "books"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1215,10 +1215,10 @@
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1237,16 +1237,16 @@
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1271,10 +1271,10 @@
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1299,10 +1299,10 @@
     "books"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1327,10 +1327,10 @@
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1355,10 +1355,10 @@
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1383,10 +1383,10 @@
     "wedding"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1411,10 +1411,10 @@
     "parents"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1433,16 +1433,16 @@
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1467,10 +1467,10 @@
     "workers"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1498,10 +1498,10 @@
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1529,10 +1529,10 @@
     "printer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1560,10 +1560,10 @@
     "contract"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1591,10 +1591,10 @@
     "parents"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1622,10 +1622,10 @@
     "bench"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },

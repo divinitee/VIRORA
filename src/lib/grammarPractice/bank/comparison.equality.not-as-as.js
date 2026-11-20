@@ -26,10 +26,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "house"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "task"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -153,10 +153,10 @@ export default [
     "stepfather"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -185,10 +185,10 @@ export default [
     "story"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -217,10 +217,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -249,10 +249,10 @@ export default [
     "rainy days"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -281,10 +281,10 @@ export default [
     "mother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -313,10 +313,10 @@ export default [
     "club"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -345,10 +345,10 @@ export default [
     "Toronto"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -377,10 +377,10 @@ export default [
     "car seat"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -409,10 +409,10 @@ export default [
     "village"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -441,10 +441,10 @@ export default [
     "Samarkand"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -473,10 +473,10 @@ export default [
     "backpack"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -505,10 +505,10 @@ export default [
     "TV series"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -537,10 +537,10 @@ export default [
     "old bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -568,10 +568,10 @@ export default [
     "niece"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -600,10 +600,10 @@ export default [
     "kiosk"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -632,10 +632,10 @@ export default [
     "on Sunday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -662,10 +662,10 @@ export default [
     "kiosk"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -692,10 +692,10 @@ export default [
     "tablet"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -722,10 +722,10 @@ export default [
     "Andijan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -752,10 +752,10 @@ export default [
     "Kazakh"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -782,10 +782,10 @@ export default [
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -812,10 +812,10 @@ export default [
     "stepmother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -842,10 +842,10 @@ export default [
     "phone"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -872,10 +872,10 @@ export default [
     "big road"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -902,10 +902,10 @@ export default [
     "week"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -932,10 +932,10 @@ export default [
     "film"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -962,10 +962,10 @@ export default [
     "box"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -992,10 +992,10 @@ export default [
     "our district"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1052,10 +1052,10 @@ export default [
     "Navruz holiday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1081,10 +1081,10 @@ export default [
     "June"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1111,10 +1111,10 @@ export default [
     "taxi"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1141,10 +1141,10 @@ export default [
     "singing"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1165,10 +1165,10 @@ export default [
   "why": "Not as near as = less near than. The base adjective goes between as and as.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ],
    "place": [
     "school",
@@ -1201,10 +1201,10 @@ export default [
     "yard"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1231,10 +1231,10 @@ export default [
     "New Year's Day"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1262,10 +1262,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1293,10 +1293,10 @@ export default [
     "father"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1324,10 +1324,10 @@ export default [
     "comic"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1355,10 +1355,10 @@ export default [
     "Andijan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1386,10 +1386,10 @@ export default [
     "car seat"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1417,10 +1417,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1448,10 +1448,10 @@ export default [
     "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1479,10 +1479,10 @@ export default [
     "aunt"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1510,10 +1510,10 @@ export default [
     "Namangan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1541,10 +1541,10 @@ export default [
     "task"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1572,10 +1572,10 @@ export default [
     "tablet"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1603,10 +1603,10 @@ export default [
     "supermarket"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1634,10 +1634,10 @@ export default [
     "kitchen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1665,10 +1665,10 @@ export default [
     "lamp"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1696,10 +1696,10 @@ export default [
     "TV series"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },

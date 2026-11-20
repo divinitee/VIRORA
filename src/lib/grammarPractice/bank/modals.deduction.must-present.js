@@ -26,10 +26,10 @@ export default [
     "van"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "fourteen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "yesterday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "boots"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "Tajik"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "Dubai"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "library"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "sports club"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "canteen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -308,16 +308,16 @@ export default [
   "why": "The speaker is sure, from the evidence: must + base verb.",
   "slots": {
    "who": [
-    "girlfriend",
+    "cousin",
     "best friend",
     "brother",
     "grandmother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -346,10 +346,10 @@ export default [
     "up the mountain"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -378,10 +378,10 @@ export default [
     "past noon"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -410,10 +410,10 @@ export default [
     "Korea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "aunt"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "table"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "wet shoes"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -532,16 +532,16 @@ export default [
   "why": "The speaker is sure, from the evidence: must + base verb.",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "drums"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "shop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "nine"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "library"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -688,10 +688,10 @@ export default [
     "breakfast"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -715,10 +715,10 @@ export default [
     "French"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "chaikhana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "eight"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "hall"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -823,10 +823,10 @@ export default [
     "Tashkent"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -850,10 +850,10 @@ export default [
     "shoe shop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -877,10 +877,10 @@ export default [
     "desk"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -904,10 +904,10 @@ export default [
     "roads"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -931,10 +931,10 @@ export default [
     "sports club"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -958,10 +958,10 @@ export default [
     "smart watches"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -985,10 +985,10 @@ export default [
     "manager"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1012,10 +1012,10 @@ export default [
     "a month in Korea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1039,10 +1039,10 @@ export default [
     "quizzes"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1066,10 +1066,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1093,10 +1093,10 @@ export default [
     "Jizzakh"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1120,10 +1120,10 @@ export default [
     "flat"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1147,10 +1147,10 @@ export default [
     "watch"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1174,10 +1174,10 @@ export default [
     "concert"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1202,10 +1202,10 @@ export default [
     "office"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1230,10 +1230,10 @@ export default [
     "exam"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1258,10 +1258,10 @@ export default [
     "team"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1286,10 +1286,10 @@ export default [
     "bazaar"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1314,10 +1314,10 @@ export default [
     "pharmacy"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1342,10 +1342,10 @@ export default [
     "van"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1370,10 +1370,10 @@ export default [
     "fourteen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1398,10 +1398,10 @@ export default [
     "Tashkent"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1426,10 +1426,10 @@ export default [
     "boots"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1454,10 +1454,10 @@ export default [
     "yesterday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1482,10 +1482,10 @@ export default [
     "shop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1510,10 +1510,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1538,10 +1538,10 @@ export default [
     "tent"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1566,10 +1566,10 @@ export default [
     "money"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },
@@ -1594,10 +1594,10 @@ export default [
     "results"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
    ]
   }
  },

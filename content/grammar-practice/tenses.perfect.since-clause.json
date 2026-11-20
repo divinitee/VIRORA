@@ -50,10 +50,10 @@
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have known. The since clause says when it started.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -236,10 +236,10 @@
     "rabbit"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -346,10 +346,10 @@
     "Istanbul"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -372,10 +372,10 @@
   "why": "The time started in the past and goes on now, so the main clause takes the present perfect: hasn't called. The since clause says when it started.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ],
    "thing": [
     "party",
@@ -623,10 +623,10 @@
     "Namangan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -680,10 +680,10 @@
     "carpet"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -706,10 +706,10 @@
     "nephew"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -736,10 +736,10 @@
     "using the app"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -783,8 +783,8 @@
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "My {who} ______ (want) to be a doctor since she was in {class}.",
-  "key": "have wanted",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have wanted. The since clause says when it started.",
+  "key": "has wanted",
+  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has wanted. The since clause says when it started.",
   "slots": {
    "who": [
     "sister",
@@ -849,10 +849,10 @@
     "dance group"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -906,10 +906,10 @@
     "autumn"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -963,10 +963,10 @@
     "library"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1020,10 +1020,10 @@
     "going by bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1104,10 +1104,10 @@
     "Namangan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1301,10 +1301,10 @@
   "why": "Since + a past moment needs the present perfect, not the present simple: have known.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ],
    "age": [
     "children",
@@ -1335,10 +1335,10 @@
     "Bukhara"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1366,10 +1366,10 @@
     "lesson"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1416,10 +1416,10 @@
   "why": "The since clause is a finished moment, so the past simple: had.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ],
    "meal": [
     "breakfast",
@@ -1506,10 +1506,10 @@
     "in the summer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -1534,10 +1534,10 @@
     "yesterday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },

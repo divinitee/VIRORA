@@ -4,23 +4,23 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. I hope I ______ come to your wedding next **month**, **Timur**.  
+1. I hope I ______ come to your wedding next **month**, **Dilnoza**.  
    options: ✔ will be able to · will can · can be able to · will able to  
    why: can has no future form: will (won't) be able to + base verb.
 
-2. After this course, you ______ speak English with **tourists**, **Aziz**.  
+2. After this course, you ______ speak English with **tourists**, **Feruza**.  
    options: will can · can be able to · will able to · ✔ will be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
-3. When the new bridge opens, we ______ drive to **Jizzakh** in an hour, **Timur**.  
+3. When the new bridge opens, we ______ drive to **Jizzakh** in an hour, **Dilnoza**.  
    options: can be able to · will able to · ✔ will be able to · will can  
    why: can has no future form: will (won't) be able to + base verb.
 
-4. Don't worry. The doctor says you ______ walk again in **a month**, **Lola**.  
+4. Don't worry. The doctor says you ______ walk again in **a month**, **Sardor**.  
    options: will able to · ✔ will be able to · will can · can be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
-5. If you save money now, you ______ buy a **bike** next year, **Olga**.  
+5. If you save money now, you ______ buy a **bike** next year, **Otabek**.  
    options: ✔ will be able to · will can · can be able to · will able to  
    why: can has no future form: will (won't) be able to + base verb.
 
@@ -28,211 +28,211 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: won't can · can't be able to · won't able to · ✔ won't be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
-7. Sorry, I ______ come to the **match** on Saturday, **Aziz**. I'm working.  
+7. Sorry, I ______ come to the **match** on Saturday, **Feruza**. I'm working.  
    options: can't be able to · won't able to · ✔ won't be able to · won't can  
    why: can has no future form: will (won't) be able to + base verb.
 
-8. The **bazaar** is closed tomorrow, so we ______ buy bread there, **Aziz**.  
+8. The **bazaar** is closed tomorrow, so we ______ buy bread there, **Feruza**.  
    options: won't able to · ✔ won't be able to · won't can · can't be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
-9. In ten years, robots ______ cook **breakfast** for us, **Aziz**.  
+9. In ten years, robots ______ cook **breakfast** for us, **Feruza**.  
    options: ✔ will be able to · will can · can be able to · will able to  
    why: can has no future form: will (won't) be able to + base verb.
 
-10. When you're eighteen, you ______ drive a **van**, **Olga**.  
+10. When you're eighteen, you ______ drive a **van**, **Otabek**.  
    options: will can · can be able to · will able to · ✔ will be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
-11. I ______ sleep well since we moved to the new **flat**, **Aziz**.  
+11. I ______ sleep well since we moved to the new **flat**, **Feruza**.  
    options: can have · have able to · ✔ have been able to · have could  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
-12. She ______ find a job since she came to **Istanbul**, **Lola**.  
+12. She ______ find a job since she came to **Istanbul**, **Sardor**.  
    options: hasn't able to · ✔ hasn't been able to · hasn't could · can't have  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
-13. We ______ visit Grandma this **month** because of the snow, **Olga**.  
+13. We ______ visit Grandma this **month** because of the snow, **Otabek**.  
    options: ✔ haven't been able to · haven't could · can't have · haven't able to  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
-14. I ______ call you all **evening**. My phone is broken, **Aziz**.  
+14. I ______ call you all **evening**. My phone is broken, **Feruza**.  
    options: haven't could · can't have · haven't able to · ✔ haven't been able to  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
-15. Since I started the course, I ______ understand **songs** in English, **Timur**.  
+15. Since I started the course, I ______ understand **songs** in English, **Dilnoza**.  
    options: can have · have able to · ✔ have been able to · have could  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
-16. I want ______ speak **Tajik** with my grandparents, **Olga**.  
+16. I want ______ speak **Tajik** with my grandparents, **Otabek**.  
    options: be able · ✔ to be able to · to can · can  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
-17. She'd like ______ play the **piano** one day, **Lola**.  
+17. She'd like ______ play the **piano** one day, **Sardor**.  
    options: ✔ to be able to · to can · can · be able  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
-18. It's nice ______ walk to work in **May**, **Aziz**.  
+18. It's nice ______ walk to work in **May**, **Feruza**.  
    options: to can · can · be able · ✔ to be able to  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
-19. We hope ______ travel to **Italy** next year, **Olga**.  
+19. We hope ______ travel to **Italy** next year, **Otabek**.  
    options: can · be able · ✔ to be able to · to can  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
-20. You need ______ swim before you go on the **boat trip**, **Lola**.  
+20. You need ______ swim before you go on the **boat trip**, **Sardor**.  
    options: be able · ✔ to be able to · to can · can  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 ## build (20)
 
 1. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   I hope I ______ (come) next **month**, **Olga**.  
+   I hope I ______ (come) next **month**, **Otabek**.  
    key: will be able to come  
    why: can has no future form: will (won't) be able to + base verb.
 
 2. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   After this **course**, you ______ (speak) English well, **Lola**.  
+   After this **course**, you ______ (speak) English well, **Sardor**.  
    key: will be able to speak  
    why: can has no future form: will (won't) be able to + base verb.
 
 3. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   When the new **road** opens, we ______ (drive) there in an hour, **Lola**.  
+   When the new **road** opens, we ______ (drive) there in an hour, **Sardor**.  
    key: will be able to drive  
    why: can has no future form: will (won't) be able to + base verb.
 
 4. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   The doctor says you ______ (walk) again in **two weeks**, **Aziz**.  
+   The doctor says you ______ (walk) again in **two weeks**, **Feruza**.  
    key: will be able to walk  
    why: can has no future form: will (won't) be able to + base verb.
 
 5. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   If you save now, you ______ (buy) a **bike** next year, **Olga**.  
+   If you save now, you ______ (buy) a **bike** next year, **Otabek**.  
    key: will be able to buy  
    why: can has no future form: will (won't) be able to + base verb.
 
 6. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   I'm busy **next week**, so I ______ (not / help) you, **Timur**.  
+   I'm busy **next week**, so I ______ (not / help) you, **Dilnoza**.  
    key: won't be able to help  
    why: can has no future form: will (won't) be able to + base verb.
 
 7. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   Sorry, I ______ (not / come) on Saturday, **Aziz**. I'm at the **hospital**.  
+   Sorry, I ______ (not / come) on Saturday, **Feruza**. I'm at the **hospital**.  
    key: won't be able to come  
    why: can has no future form: will (won't) be able to + base verb.
 
 8. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   The **bazaar** is closed tomorrow, so we ______ (not / buy) bread, **Aziz**.  
+   The **bazaar** is closed tomorrow, so we ______ (not / buy) bread, **Feruza**.  
    key: won't be able to buy  
    why: can has no future form: will (won't) be able to + base verb.
 
 9. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   I ______ (sleep) well since we moved into the new **flat**, **Olga**.  
+   I ______ (sleep) well since we moved into the new **flat**, **Otabek**.  
    key: have been able to sleep  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 10. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   She ______ (not / find) a job since she came **home**, **Timur**.  
+   She ______ (not / find) a job since she came **home**, **Dilnoza**.  
    key: hasn't been able to find  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 11. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   We ______ (not / visit) Grandma this **year** because of the snow, **Olga**.  
+   We ______ (not / visit) Grandma this **year** because of the snow, **Otabek**.  
    key: haven't been able to visit  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 12. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   I ______ (not / call) you all **week**. My phone is broken, **Olga**.  
+   I ______ (not / call) you all **week**. My phone is broken, **Otabek**.  
    key: haven't been able to call  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 13. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   Good news! We ______ (finish) the **report** early, **Lola**.  
+   Since we got the new **printer**, we ______ (finish) work early every day, **Sardor**.  
    key: have been able to finish  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 14. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   I want ______ (speak) **Russian** with my grandparents, **Olga**.  
+   I want ______ (speak) **Russian** with my grandparents, **Otabek**.  
    key: to be able to speak  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 15. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   She'd like ______ (play) the **guitar** one day, **Aziz**.  
+   She'd like ______ (play) the **guitar** one day, **Feruza**.  
    key: to be able to play  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 16. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   We hope ______ (travel) round **Turkey** next year, **Aziz**.  
+   We hope ______ (travel) round **Turkey** next year, **Feruza**.  
    key: to be able to travel  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 17. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   You need ______ (swim) before the **sea trip**, **Lola**.  
+   You need ______ (swim) before the **sea trip**, **Sardor**.  
    key: to be able to swim  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 18. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   I might ______ (help) you **after lunch**, **Lola**.  
+   I might ______ (help) you **after lunch**, **Sardor**.  
    key: be able to help  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 19. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   We might ______ (meet) at the **bazaar** later, **Lola**.  
+   We might ______ (meet) at the **bazaar** later, **Sardor**.  
    key: be able to meet  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 20. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   Next year, Timur ______ (read) English **novels**, **Timur**.  
+   Next year, Timur ______ (read) English **novels**, **Dilnoza**.  
    key: will be able to read  
    why: can has no future form: will (won't) be able to + base verb.
 
 ## transform (15)
 
 1. _Correct the mistake._  
-   I will can come next **summer**, **Aziz**.  
-   → I ______ come next **summer**, **Aziz**.  
+   I will can come next **summer**, **Feruza**.  
+   → I ______ come next **summer**, **Feruza**.  
    key: will be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
 2. _Correct the mistake._  
-   She will can drive next **month**, **Olga**.  
-   → She ______ drive next **month**, **Olga**.  
+   She will can drive next **month**, **Otabek**.  
+   → She ______ drive next **month**, **Otabek**.  
    key: will be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
 3. _Correct the mistake._  
-   I haven't could sleep since **Monday**, **Olga**.  
-   → I ______ sleep since **Monday**, **Olga**.  
+   I haven't could sleep since **Monday**, **Otabek**.  
+   → I ______ sleep since **Monday**, **Otabek**.  
    key: haven't been able to  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 4. _Correct the mistake._  
-   I want can speak **Turkish** well, **Timur**.  
-   → I want ______ speak **Turkish** well, **Timur**.  
+   I want can speak **Turkish** well, **Dilnoza**.  
+   → I want ______ speak **Turkish** well, **Dilnoza**.  
    key: to be able to  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 5. _Correct the mistake._  
-   We might can help you **later**, **Lola**.  
-   → We might ______ help you **later**, **Lola**.  
+   We might can help you **later**, **Sardor**.  
+   → We might ______ help you **later**, **Sardor**.  
    key: be able to  
    why: can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.
 
 6. _Rewrite with will (or won't) be able to._  
-   It will be possible for us to see the **mountains** from the new flat, **Olga**.  
-   → We ______ see the **mountains** from the new flat, **Olga**.  
+   It will be possible for us to see the **mountains** from the new flat, **Otabek**.  
+   → We ______ see the **mountains** from the new flat, **Otabek**.  
    key: will be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
 7. _Rewrite with will (or won't) be able to._  
-   I'm sorry, but coming on **Sunday** won't be possible for me, **Olga**.  
-   → I'm sorry, but I ______ come on **Sunday**, **Olga**.  
+   I'm sorry, but coming on **Sunday** won't be possible for me, **Otabek**.  
+   → I'm sorry, but I ______ come on **Sunday**, **Otabek**.  
    key: won't be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
 8. _Rewrite with will (or won't) be able to._  
-   In a year, you can read English **books**. That's the plan, **Lola**.  
-   → In a year, you ______ read English **books**, **Lola**.  
+   In a year, you can read English **books**. That's the plan, **Sardor**.  
+   → In a year, you ______ read English **books**, **Sardor**.  
    key: will be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
@@ -243,14 +243,14 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: can has no future form: will (won't) be able to + base verb.
 
 10. _Rewrite with will (or won't) be able to._  
-   They can't finish the **house** today. Maybe next week, **Olga**.  
-   → They ______ finish the **house** today, **Olga**.  
+   They can't finish the **house** today. Maybe next week, **Otabek**.  
+   → They ______ finish the **house** today, **Otabek**.  
    key: won't be able to  
    why: can has no future form: will (won't) be able to + base verb.
 
 11. _Rewrite with have / has (or haven't / hasn't) been able to._  
-   Since **Monday**, sleeping well hasn't been possible for me, **Lola**.  
-   → I ______ sleep well since **Monday**, **Lola**.  
+   Since **Monday**, sleeping well hasn't been possible for me, **Sardor**.  
+   → I ______ sleep well since **Monday**, **Sardor**.  
    key: haven't been able to  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
@@ -261,20 +261,20 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 13. _Rewrite with have / has (or haven't / hasn't) been able to._  
-   This **year**, saving some money has been possible for us, **Aziz**.  
-   → This **year**, we ______ save some money, **Aziz**.  
+   This **year**, saving some money has been possible for us, **Feruza**.  
+   → This **year**, we ______ save some money, **Feruza**.  
    key: have been able to  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 14. _Rewrite with have / has (or haven't / hasn't) been able to._  
-   They wanted us at their house this **winter**, but there was never a free day, **Timur**.  
-   → They ______ visit us this **winter**, **Timur**.  
+   They wanted to visit us this **winter**, but they never had a free day, **Dilnoza**.  
+   → They ______ visit us this **winter**, **Dilnoza**.  
    key: haven't been able to  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 15. _Rewrite with have / has (or haven't / hasn't) been able to._  
-   Since the **trip**, films in English are easy for him, **Lola**.  
-   → Since the **trip**, he ______ understand films in English, **Lola**.  
+   Since the **trip**, films in English are easy for him, **Sardor**.  
+   → Since the **trip**, he ______ understand films in English, **Sardor**.  
    key: has been able to  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 

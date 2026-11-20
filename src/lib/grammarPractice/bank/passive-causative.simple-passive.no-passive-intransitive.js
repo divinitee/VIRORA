@@ -26,10 +26,10 @@ export default [
     "station"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "taxi"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "horse"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "window"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -160,10 +160,10 @@ export default [
     "this morning"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -192,10 +192,10 @@ export default [
     "meeting"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -224,10 +224,10 @@ export default [
     "at Grandma's"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -256,10 +256,10 @@ export default [
     "concert"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -288,10 +288,10 @@ export default [
     "Istanbul"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -320,10 +320,10 @@ export default [
     "village"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -352,10 +352,10 @@ export default [
     "meeting"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -384,10 +384,10 @@ export default [
     "hospital"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -416,10 +416,10 @@ export default [
     "five o'clock"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -448,10 +448,10 @@ export default [
     "this morning"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -480,10 +480,10 @@ export default [
     "2012"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -512,10 +512,10 @@ export default [
     "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -544,10 +544,10 @@ export default [
     "classmates"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -576,10 +576,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -608,10 +608,10 @@ export default [
     "storm"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -640,10 +640,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -667,10 +667,10 @@ export default [
     "bridge"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -694,10 +694,10 @@ export default [
     "taxi"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -721,10 +721,10 @@ export default [
     "vine"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -775,10 +775,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -802,10 +802,10 @@ export default [
     "meeting"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -829,10 +829,10 @@ export default [
     "car"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -856,10 +856,10 @@ export default [
     "last week"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -910,10 +910,10 @@ export default [
     "party"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -937,10 +937,10 @@ export default [
     "hospital"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -964,10 +964,10 @@ export default [
     "list"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -991,10 +991,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1018,10 +1018,10 @@ export default [
     "two"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1039,7 +1039,7 @@ export default [
   "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
   "slots": {
    "building": [
-    "mosque",
+    "theatre",
     "bridge",
     "school",
     "hotel"
@@ -1072,10 +1072,10 @@ export default [
     "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1099,10 +1099,10 @@ export default [
     "classmates"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1126,10 +1126,10 @@ export default [
     "storm"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1153,10 +1153,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1180,10 +1180,10 @@ export default [
     "soup"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1202,10 +1202,10 @@ export default [
   "why": "This verb has no object, so it has no passive: use the active past simple.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1230,10 +1230,10 @@ export default [
     "taxi"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1258,10 +1258,10 @@ export default [
     "horse"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1286,10 +1286,10 @@ export default [
     "window"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1314,10 +1314,10 @@ export default [
     "ticket"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1342,10 +1342,10 @@ export default [
     "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1364,7 +1364,7 @@ export default [
   "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
   "slots": {
    "building": [
-    "mosque",
+    "theatre",
     "bridge",
     "school",
     "hotel"
@@ -1398,10 +1398,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1426,10 +1426,10 @@ export default [
     "classmates"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1454,10 +1454,10 @@ export default [
     "safe"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1482,10 +1482,10 @@ export default [
     "taxi"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1504,10 +1504,10 @@ export default [
   "why": "This verb has no object, so it has no passive: use the active past simple.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1532,10 +1532,10 @@ export default [
     "garden"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1560,10 +1560,10 @@ export default [
     "motorway"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },

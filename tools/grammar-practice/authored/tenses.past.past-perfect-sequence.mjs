@@ -23,7 +23,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "tenses", branch: "past", topic: "past-perfect-sequence", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Gulnora", "Jamshid", "Malika", "Ulugbek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const NAME_F = ["Madina", "Olga", "Sevara", "Nilufar"];
 const NAME_M = ["Sardor", "Timur", "Ilya", "Jasur"];
 const WHY = (pp) => `This happened before the other past action, so use the past perfect: had + past participle, ${pp}.`;

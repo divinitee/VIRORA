@@ -19,7 +19,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "comparison", branch: "modified-comparison", topic: "much-comparative", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Feruza", "Otabek", "Dilnoza", "Sardor"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = (f) => `A big difference: much goes before the comparative, ${f}. Not very.`;
 // [adj, short comparative or null for "more adj"]
 const SH = { big: "bigger", cheap: "cheaper", hot: "hotter", fast: "faster", old: "older", long: "longer", cold: "colder", easy: "easier", tall: "taller", heavy: "heavier", warm: "warmer", busy: "busier", quiet: "quieter", small: "smaller", happy: "happier", safe: "safer", strong: "stronger", near: "nearer" };
