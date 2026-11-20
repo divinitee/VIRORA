@@ -139,16 +139,16 @@
 138	B	passive-causative.simple-passive.active-to-passive	A2	1	live	Simple active → passive with 'by'
 139	B	passive-causative.simple-passive.past-passive	A2	4	live	Past simple passive: was + pp | Producing was/were + pp | Past passive in a longer stem | Productive past passive
 140	B	passive-causative.simple-passive.present-passive	A2	2	live	Present simple passive: is + pp | Plural present passive: are + pp
-141	C	tenses.past.past-perfect-experience	B1	1	live	Past participle after had never ... before
-142	C	tenses.past.past-perfect-sequence	B1	3	live	Past perfect for the earlier of two past events | Producing past perfect with 'already' | 'By the time' requires past perfect for the completed earlier action
-143	C	tenses.perfect.continuous-present-result	B1	2	live	Present perfect continuous for a recent activity explaining a present state | Productive present perfect continuous linking activity to present state
-144	C	tenses.perfect.perfect-vs-past	B1	1	live	Present perfect cannot combine with a finished-time marker
-145	C	tenses.perfect.since-clause	B1	1	live	Present perfect in the main clause with a since-clause in past simple
-146	C	tenses.perfect.unfinished-time	B1	1	live	Present perfect with an unfinished time period ('this morning' while still morning)
+141	C	tenses.past.past-perfect-experience	B1	1	todo	Past participle after had never ... before
+142	C	tenses.past.past-perfect-sequence	B1	3	todo	Past perfect for the earlier of two past events | Producing past perfect with 'already' | 'By the time' requires past perfect for the completed earlier action
+143	C	tenses.perfect.continuous-present-result	B1	2	todo	Present perfect continuous for a recent activity explaining a present state | Productive present perfect continuous linking activity to present state
+144	C	tenses.perfect.perfect-vs-past	B1	1	todo	Present perfect cannot combine with a finished-time marker
+145	C	tenses.perfect.since-clause	B1	1	todo	Present perfect in the main clause with a since-clause in past simple
+146	C	tenses.perfect.unfinished-time	B1	1	todo	Present perfect with an unfinished time period ('this morning' while still morning)
 147	C	tenses.future.arrangement-continuous	B1	1	live	Present continuous for a fixed future arrangement
 148	C	tenses.future.future-continuous	B1	1	live	Future continuous for an action in progress at a future time
-149	C	tenses.future.timetable-simple	B1	1	live	Present simple for a timetabled future event
-150	C	tenses.used-to.didnt-use-to	B1	1	live	Negative: didn't use to (no -d after did)
+149	C	tenses.future.timetable-simple	B1	1	todo	Present simple for a timetabled future event
+150	C	tenses.used-to.didnt-use-to	B1	1	todo	Negative: didn't use to (no -d after did)
 151	C	tenses.used-to.used-to-state	B1	2	live	used to + base form for a discontinued past state | Productive used to for a discontinued habit or state
 152	C	nouns-articles.articles.the-second-mention	B1	1	todo	a on first mention, the on second mention
 153	C	nouns-articles.articles.zero-article-general	B1	2	todo	Zero article with plural nouns used generally | Zero article with uncountable abstract nouns used generally
@@ -186,21 +186,21 @@
 185	C	adj-adv.adverb-form.adverb-vs-adjective-sense	B1	2	todo	late (adverb of time) vs lately (recently) | hard (with effort) vs hardly (almost not) in one context
 186	C	adj-adv.intensifiers.too-enough	B1	2	todo	too + adjective vs adjective + enough | enough follows an adjective but precedes a noun
 187	C	adj-adv.order-position.adverb-of-manner-position	B1	1	todo	Manner adverb after the object, not between verb and object
-188	C	comparison.comparative.fewer-less	B1	1	live	fewer with countable plurals, less with uncountables
-189	C	comparison.equality.not-as-as	B1	2	live	not as ... as = less than | Comparative → negative equality transformation
-190	C	comparison.modified-comparison.much-comparative	B1	2	live	much + more + adjective (modifier position) | Productive intensified comparative
-191	C	comparison.modified-comparison.slightly-comparative	B1	1	live	slightly + comparative
-192	C	comparison.parallel-comparison.progressive-comparative	B1	1	live	comparative + and + comparative for gradual change
-193	C	comparison.parallel-comparison.the-more-the-more	B1	3	live	the + comparative ..., the + comparative | Productive parallel comparative | Reduced parallel comparative with ellipsis ('the sooner, the better')
-194	C	modals.obligation.modal-passive	B1	1	live	Modal + be + pp when the subject receives the action
-195	C	modals.deduction.cant-present	B1	3	live	can't (not mustn't) for a negative deduction | can't for a negative deduction in an extended context | Productive can't be for negative deduction
-196	C	modals.deduction.might-present	B1	1	live	might for an uncertain deduction
-197	C	modals.deduction.must-present	B1	2	live	must for a confident present deduction | Productive must for present deduction
-198	C	modals.semi-modals.be-able-to	B1	1	live	be able to where 'can' has no future/perfect form
-199	C	modals.semi-modals.have-to-past	B1	1	live	Past obligation uses had to (must has no past form)
-200	C	modals.past-modals.might-have	B1	1	live	might have + pp for an uncertain past possibility
-201	C	modals.past-modals.must-have	B1	3	live	must have + past participle for a confident past deduction | must have + pp from indirect evidence | must have + pp for past deduction in formal register
-202	C	modals.past-modals.should-have	B1	3	live	should have + pp for past criticism | Productive should have + pp for regret/criticism | should have + pp with a consequence clause
+188	C	comparison.comparative.fewer-less	B1	1	todo	fewer with countable plurals, less with uncountables
+189	C	comparison.equality.not-as-as	B1	2	todo	not as ... as = less than | Comparative → negative equality transformation
+190	C	comparison.modified-comparison.much-comparative	B1	2	todo	much + more + adjective (modifier position) | Productive intensified comparative
+191	C	comparison.modified-comparison.slightly-comparative	B1	1	todo	slightly + comparative
+192	C	comparison.parallel-comparison.progressive-comparative	B1	1	todo	comparative + and + comparative for gradual change
+193	C	comparison.parallel-comparison.the-more-the-more	B1	3	todo	the + comparative ..., the + comparative | Productive parallel comparative | Reduced parallel comparative with ellipsis ('the sooner, the better')
+194	C	modals.obligation.modal-passive	B1	1	todo	Modal + be + pp when the subject receives the action
+195	C	modals.deduction.cant-present	B1	3	todo	can't (not mustn't) for a negative deduction | can't for a negative deduction in an extended context | Productive can't be for negative deduction
+196	C	modals.deduction.might-present	B1	1	todo	might for an uncertain deduction
+197	C	modals.deduction.must-present	B1	2	todo	must for a confident present deduction | Productive must for present deduction
+198	C	modals.semi-modals.be-able-to	B1	1	todo	be able to where 'can' has no future/perfect form
+199	C	modals.semi-modals.have-to-past	B1	1	todo	Past obligation uses had to (must has no past form)
+200	C	modals.past-modals.might-have	B1	1	todo	might have + pp for an uncertain past possibility
+201	C	modals.past-modals.must-have	B1	3	todo	must have + past participle for a confident past deduction | must have + pp from indirect evidence | must have + pp for past deduction in formal register
+202	C	modals.past-modals.should-have	B1	3	todo	should have + pp for past criticism | Productive should have + pp for regret/criticism | should have + pp with a consequence clause
 203	C	prep-phrasal.time.by-until	B1	1	todo	by (deadline) vs until (continuing up to)
 204	C	prep-phrasal.time.during-while	B1	1	todo	during + noun vs while + clause
 205	C	prep-phrasal.movement.across-through-along	B1	1	todo	through (enclosed space) vs across (surface) vs along (line)
@@ -208,20 +208,20 @@
 207	C	prep-phrasal.dependent-prepositions.verb-preposition	B1	3	todo	depend on (verb + dependent preposition) | No preposition after 'discuss' | 'consist of' (not 'from')
 208	C	prep-phrasal.phrasal-verbs.inseparable	B1	1	todo	Inseparable phrasal verb: object cannot split it (look after)
 209	C	prep-phrasal.phrasal-verbs.pronoun-separation	B1	2	todo	Object PRONOUN must split a separable phrasal verb | Producing the split order with a pronoun object
-210	C	conditionals-wishes.second.if-i-were-you	B1	2	live	would + base in the second conditional result | Productive second conditional with 'If I were'
-211	C	conditionals-wishes.second.second-if-clause	B1	2	live	Past simple in the second-conditional if-clause | Producing both halves of a second conditional
-212	C	conditionals-wishes.linkers.unless	B1	3	live	unless = if not | if ... not → unless | Productive unless
-213	C	passive-causative.simple-passive.agent-by	B1	1	live	by introduces the agent; with introduces an instrument
-214	C	passive-causative.simple-passive.no-passive-intransitive	B1	1	live	Intransitive verbs (happen, arrive) have no passive
-215	C	passive-causative.perfect-progressive-passive.present-perfect-passive	B1	4	live	Present perfect passive with 'already' | Active present perfect → passive, agent omitted | Present perfect passive for an ongoing process in academic register | Productive present perfect passive with present relevance
-216	C	passive-causative.modal-passive.modal-be-pp	B1	2	live	Modal + be + pp | Productive modal passive
-217	C	reported-speech.statements.backshift-past	B1	1	live	Past simple → past perfect backshift
-218	C	reported-speech.statements.backshift-present	B1	2	live	Present → past backshift with pronoun shift | Productive reported statement with backshift
-219	C	reported-speech.statements.backshift-will	B1	2	live	will → would; tomorrow → the next day; you → me | Productive reported promise/prediction
-220	C	reported-speech.statements.say-tell	B1	1	live	tell requires an object; say does not
-221	C	reported-speech.questions.reported-wh-question	B1	2	live	Statement order in a reported wh-question | Producing a reported wh-question
-222	C	reported-speech.questions.reported-yes-no	B1	1	live	if/whether in a reported yes/no question
-223	C	reported-speech.commands-requests.tell-sb-to	B1	1	live	Reported command: tell + object + to-infinitive
+210	C	conditionals-wishes.second.if-i-were-you	B1	2	todo	would + base in the second conditional result | Productive second conditional with 'If I were'
+211	C	conditionals-wishes.second.second-if-clause	B1	2	todo	Past simple in the second-conditional if-clause | Producing both halves of a second conditional
+212	C	conditionals-wishes.linkers.unless	B1	3	todo	unless = if not | if ... not → unless | Productive unless
+213	C	passive-causative.simple-passive.agent-by	B1	1	todo	by introduces the agent; with introduces an instrument
+214	C	passive-causative.simple-passive.no-passive-intransitive	B1	1	todo	Intransitive verbs (happen, arrive) have no passive
+215	C	passive-causative.perfect-progressive-passive.present-perfect-passive	B1	4	todo	Present perfect passive with 'already' | Active present perfect → passive, agent omitted | Present perfect passive for an ongoing process in academic register | Productive present perfect passive with present relevance
+216	C	passive-causative.modal-passive.modal-be-pp	B1	2	todo	Modal + be + pp | Productive modal passive
+217	C	reported-speech.statements.backshift-past	B1	1	todo	Past simple → past perfect backshift
+218	C	reported-speech.statements.backshift-present	B1	2	todo	Present → past backshift with pronoun shift | Productive reported statement with backshift
+219	C	reported-speech.statements.backshift-will	B1	2	todo	will → would; tomorrow → the next day; you → me | Productive reported promise/prediction
+220	C	reported-speech.statements.say-tell	B1	1	todo	tell requires an object; say does not
+221	C	reported-speech.questions.reported-wh-question	B1	2	todo	Statement order in a reported wh-question | Producing a reported wh-question
+222	C	reported-speech.questions.reported-yes-no	B1	1	todo	if/whether in a reported yes/no question
+223	C	reported-speech.commands-requests.tell-sb-to	B1	1	todo	Reported command: tell + object + to-infinitive
 224	D	tenses.past.past-perfect-continuous	B2	3	todo	Past perfect continuous for duration before a past point | Productive past perfect continuous before a past event | Past perfect continuous with 'before + -ing' clause
 225	D	tenses.past.past-simple-vs-continuous	B2	1	todo	Sequencing: past simple event against a past continuous background (not past perfect)
 226	D	tenses.future.about-to	B2	1	todo	be about to for an imminent action
