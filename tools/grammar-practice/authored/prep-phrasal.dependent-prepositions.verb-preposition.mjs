@@ -77,7 +77,7 @@ const BUILD = [
   ["for", "My sister has applied ______ a job at the {place}, {name}.", { place: ["bank", "hospital", "airport", "museum"] }, "apply for + the job."],
   ["on", "You can rely ______ my {who}, {name}. He's never late.", { who: ["brother", "uncle", "driver", "friend"] }, "rely on + the person you trust."],
   ["from", "Many people suffer ______ colds in the {season}, {name}.", { season: ["winter", "autumn", "spring", "cold months"] }, "suffer from + the problem."],
-  ["for", "The police? No, the {who} searched ______ the lost child all night.", { who: ["neighbours", "villagers", "parents", "teachers"] }, "search for + who you want to find."],
+  ["for", "The {who} searched ______ the lost child all night.", { who: ["neighbours", "villagers", "parents", "teachers"] }, "search for + who you want to find."],
   ["at", "The {who} smiled ______ me when I came in, {name}.", { who: ["nurse", "waiter", "receptionist", "teacher"] }, "smile at + the person."],
   ["from", "Can I borrow some money ______ you, {name}? I left my {thing} at home.", { thing: ["wallet", "card", "bag", "purse"] }, "borrow + thing + from + the person."],
   ["to", "Can you explain the rule ______ me again, {name}? I didn't {verb} it.", { verb: ["get", "understand", "follow", "remember"] }, "explain + thing + to + the person."],
@@ -93,7 +93,7 @@ const BUILD = [
     else if (src.includes("fairies")) { s.who = ["little sister", "son", "daughter", "little brother"]; src = src.replace("little sister", "{who}"); }
     else if (!s.name) { s.name = i % 2 ? NAME2 : NAME; src = src.replace(/([.!?])$/, ", {name}$1"); }
   }
-  return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src.replace("The police? No, the", "The"), key, why, slots: s };
+  return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src, key, why, slots: s };
 });
 
 /* ---------------- transform: 15 rewrite ---------------- */
@@ -105,16 +105,16 @@ const TRANSFORM = [
   [FIX, "We're waiting the {bus}, {name}.", "We're waiting ______ the {bus}, {name}.", "for", { bus: ["bus", "taxi", "train", "guests"] }, "wait needs for before its object."],
   [FIX, "I agree to you about the {thing}, {name}.", "I agree ______ you about the {thing}, {name}.", "with", { thing: ["plan", "price", "hotel", "party"] }, "agree with a person."],
   [FIX, "Can you explain me the {thing}, {name}?", "Can you explain the {thing} ______ me, {name}?", "to", { thing: ["rules", "game", "answer", "map"] }, "explain something to someone, not explain me."],
-  [VERB, "Whose {thing} is this, {name}? (belong)", "Who does this {thing} belong ______, {name}?", "to", { thing: ["bag", "phone", "coat", "bike"] }, "belong to; in a question the preposition goes at the end."],
-  [VERB, "I'm phoning because I need help from the {who}, {name}. (ask)", "I'm phoning to ask the {who} ______ help, {name}.", "for", { who: ["teacher", "office", "doctor", "bank"] }, "ask someone for something."],
-  [VERB, "The {thing} has three parts, {name}. (consist)", "The {thing} consists ______ three parts, {name}.", "of", { thing: ["course", "exam", "book", "show"] }, "consist of + the parts."],
-  [VERB, "Can I trust the {who}, {name}? (rely)", "Can I rely ______ the {who}, {name}?", "on", { who: ["driver", "builders", "new boy", "plumber"] }, "rely on = trust."],
-  [VERB, "My aunt often has headaches in the {season}, {name}. (suffer)", "My aunt often suffers ______ headaches in the {season}, {name}.", "from", { season: ["summer", "heat", "spring", "winter"] }, "suffer from + the problem."],
-  [VERB, "The baby saw me and gave a big smile, {name}. It was in the {place}. (smile)", "The baby smiled ______ me, {name}. It was in the {place}.", "at", { place: ["park", "shop", "bus", "clinic"] }, "smile at + the person."],
-  [VERB, "My brother gave me some money. I'll give it back on {day}, {name}. (borrow)", "I borrowed some money ______ my brother, {name}. I'll give it back on {day}.", "from", { day: ["Monday", "Friday", "Sunday", "Thursday"] }, "borrow something from someone."],
-  [VERB, "Don't worry about the {thing}, {name}. I'll give the money. (pay)", "Don't worry, {name}. I'll pay ______ the {thing}.", "for", { thing: ["taxi", "tickets", "drinks", "food"] }, "pay for + the thing."],
-  [VERB, "Everyone thought my {thing} was funny, {name}. (laugh)", "Everyone laughed ______ my {thing}, {name}.", "at", { thing: ["hat", "photo", "joke", "dance"] }, "laugh at + the funny thing."],
-  [VERB, "My parents are thinking about the price of the {thing}, {name}. It decides everything. (depend)", "Everything depends ______ the price of the {thing}, {name}.", "on", { thing: ["flat", "car", "trip", "wedding"] }, "depend on + the thing that decides."],
+  [VERB, "(belong) Whose {thing} is this, {name}?", "Who does this {thing} belong ______, {name}?", "to", { thing: ["bag", "phone", "coat", "bike"] }, "belong to; in a question the preposition goes at the end."],
+  [VERB, "(ask) I'm phoning because I need help from the {who}, {name}.", "I'm phoning to ask the {who} ______ help, {name}.", "for", { who: ["teacher", "office", "doctor", "bank"] }, "ask someone for something."],
+  [VERB, "(consist) The {thing} has three parts, {name}.", "The {thing} consists ______ three parts, {name}.", "of", { thing: ["course", "exam", "book", "show"] }, "consist of + the parts."],
+  [VERB, "(rely) Can I trust the {who}, {name}?", "Can I rely ______ the {who}, {name}?", "on", { who: ["driver", "builders", "new boy", "plumber"] }, "rely on = trust."],
+  [VERB, "(suffer) My aunt often has headaches in the {season}, {name}.", "My aunt often suffers ______ headaches in the {season}, {name}.", "from", { season: ["summer", "heat", "spring", "winter"] }, "suffer from + the problem."],
+  [VERB, "(smile) The baby saw me and gave a big smile, {name}. It was in the {place}.", "The baby smiled ______ me, {name}. It was in the {place}.", "at", { place: ["park", "shop", "bus", "clinic"] }, "smile at + the person."],
+  [VERB, "(borrow) My brother gave me some money. I'll give it back on {day}, {name}.", "I borrowed some money ______ my brother, {name}. I'll give it back on {day}.", "from", { day: ["Monday", "Friday", "Sunday", "Thursday"] }, "borrow something from someone."],
+  [VERB, "(pay) Don't worry about the {thing}, {name}. I'll give the money.", "Don't worry, {name}. I'll pay ______ the {thing}.", "for", { thing: ["taxi", "tickets", "drinks", "food"] }, "pay for + the thing."],
+  [VERB, "(laugh) Everyone thought my {thing} was funny, {name}.", "Everyone laughed ______ my {thing}, {name}.", "at", { thing: ["hat", "photo", "joke", "dance"] }, "laugh at + the funny thing."],
+  [VERB, "(depend) My parents are thinking about the price of the {thing}, {name}. It decides everything.", "Everything depends ______ the price of the {thing}, {name}.", "on", { thing: ["flat", "car", "trip", "wedding"] }, "depend on + the thing that decides."],
 ].map(([instr, source, hint, key, slots, why], i) => {
   const s = fill(source + hint, slots, i % 2 ? NAME2 : NAME);
   return { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };

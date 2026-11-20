@@ -219,61 +219,61 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: explain something to someone, not explain me.
 
 6. _Rewrite with the verb in brackets._  
-   Whose **bag** is this, **Zarina**? (belong)  
+   (belong) Whose **bag** is this, **Zarina**?  
    → Who does this **bag** belong ______, **Zarina**?  
    key: to  
    why: belong to; in a question the preposition goes at the end.
 
 7. _Rewrite with the verb in brackets._  
-   I'm phoning because I need help from the **doctor**, **Akmal**. (ask)  
+   (ask) I'm phoning because I need help from the **doctor**, **Akmal**.  
    → I'm phoning to ask the **doctor** ______ help, **Akmal**.  
    key: for  
    why: ask someone for something.
 
 8. _Rewrite with the verb in brackets._  
-   The **course** has three parts, **Malika**. (consist)  
+   (consist) The **course** has three parts, **Malika**.  
    → The **course** consists ______ three parts, **Malika**.  
    key: of  
    why: consist of + the parts.
 
 9. _Rewrite with the verb in brackets._  
-   Can I trust the **builders**, **Ulugbek**? (rely)  
+   (rely) Can I trust the **builders**, **Ulugbek**?  
    → Can I rely ______ the **builders**, **Ulugbek**?  
    key: on  
    why: rely on = trust.
 
 10. _Rewrite with the verb in brackets._  
-   My aunt often has headaches in the **spring**, **Zarina**. (suffer)  
+   (suffer) My aunt often has headaches in the **spring**, **Zarina**.  
    → My aunt often suffers ______ headaches in the **spring**, **Zarina**.  
    key: from  
    why: suffer from + the problem.
 
 11. _Rewrite with the verb in brackets._  
-   The baby saw me and gave a big smile, **Ulugbek**. It was in the **park**. (smile)  
+   (smile) The baby saw me and gave a big smile, **Ulugbek**. It was in the **park**.  
    → The baby smiled ______ me, **Ulugbek**. It was in the **park**.  
    key: at  
    why: smile at + the person.
 
 12. _Rewrite with the verb in brackets._  
-   My brother gave me some money. I'll give it back on **Thursday**, **Zarina**. (borrow)  
+   (borrow) My brother gave me some money. I'll give it back on **Thursday**, **Zarina**.  
    → I borrowed some money ______ my brother, **Zarina**. I'll give it back on **Thursday**.  
    key: from  
    why: borrow something from someone.
 
 13. _Rewrite with the verb in brackets._  
-   Don't worry about the **taxi**, **Nodira**. I'll give the money. (pay)  
+   (pay) Don't worry about the **taxi**, **Nodira**. I'll give the money.  
    → Don't worry, **Nodira**. I'll pay ______ the **taxi**.  
    key: for  
    why: pay for + the thing.
 
 14. _Rewrite with the verb in brackets._  
-   Everyone thought my **joke** was funny, **Otabek**. (laugh)  
+   (laugh) Everyone thought my **joke** was funny, **Otabek**.  
    → Everyone laughed ______ my **joke**, **Otabek**.  
    key: at  
    why: laugh at + the funny thing.
 
 15. _Rewrite with the verb in brackets._  
-   My parents are thinking about the price of the **trip**, **Ulugbek**. It decides everything. (depend)  
+   (depend) My parents are thinking about the price of the **trip**, **Ulugbek**. It decides everything.  
    → Everything depends ______ the price of the **trip**, **Ulugbek**.  
    key: on  
    why: depend on + the thing that decides.
