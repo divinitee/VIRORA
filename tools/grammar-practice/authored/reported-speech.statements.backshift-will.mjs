@@ -103,7 +103,7 @@ const TRANSFORM = [
   [REP, "'I'll wait for you at the {place},' {f} said on Monday.", "On Monday {f} said that she ______ for me at the {place}.", "would wait", { f: F, place: ["station", "gate", "café", "bus stop"] }],
   [FIX, "Last week {m} said he will call me from the {place} the next day.", "Last week {m} said he ______ call me from the {place} the next day.", "would", { m: M, place: ["office", "station", "airport", "hotel"] }],
   [FIX, "Last month {f} said she would visit us in {city} next week.", "Last month {f} said she would visit us in {city} ______.", "the following week", { f: F, city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
-  [FIX, "On Monday {m} said he would finish the {work} tomorrow.", "On Monday {m} said he would finish the {work} ______.", "the next day", { m: M, work: ["report", "essay", "project", "painting"] }],
+  [FIX, "On Monday {m} said he would finish his {work} tomorrow.", "On Monday {m} said he would finish his {work} ______.", "the next day", { m: M, work: ["report", "essay", "project", "painting"] }],
   [FIX, "Last week {f} said she won't be late for the {event}.", "Last week {f} said she ______ be late for the {event}.", "wouldn't", { f: F, event: ["wedding", "meeting", "lesson", "match"] }],
   [FIX, "Last Friday {m} said he would phone me from {city} tonight.", "Last Friday {m} said he would phone me from {city} ______.", "that night", { m: M, city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
   [TIME, "'I'll come to the {event} tomorrow,' {m} said last week.", "Last week {m} said he ______ come to the {event} ______.", ["would", "the next day"], { m: M, event: ["party", "wedding", "match", "meeting"] }],

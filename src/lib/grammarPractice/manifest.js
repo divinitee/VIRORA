@@ -1584,6 +1584,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "reported-speech.statements.backshift-will": {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 224,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.conjunctions.and-but-or": {
   "domain": "sentence-structure",
   "branch": "conjunctions",

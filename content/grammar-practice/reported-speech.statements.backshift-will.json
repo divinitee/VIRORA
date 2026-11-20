@@ -1297,8 +1297,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake. It was said last week.",
-  "source": "On Monday {m} said he would finish the {work} tomorrow.",
-  "hint": "On Monday {m} said he would finish the {work} ______.",
+  "source": "On Monday {m} said he would finish his {work} tomorrow.",
+  "hint": "On Monday {m} said he would finish his {work} ______.",
   "key": "the next day",
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
