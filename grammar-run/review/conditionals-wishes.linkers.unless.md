@@ -5,59 +5,59 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## choose (20)
 
 1. You won't pass the **test** ______ you study more, **Timur**.  
-   options: ✔ unless · if · although · because  
+   options: ✔ unless · if · when · so that  
    why: unless = if … not, with a positive present verb after it.
 
 2. We'll miss the **bus** ______ we leave now, **Aziz**.  
-   options: if · although · because · ✔ unless  
+   options: if · when · so that · ✔ unless  
    why: unless = if … not, with a positive present verb after it.
 
 3. I can't help you ______ you tell me the **truth**, **Timur**.  
-   options: although · because · ✔ unless · if  
+   options: when · so that · ✔ unless · if  
    why: unless = if … not, with a positive present verb after it.
 
 4. Don't call me ______ it's important. I'm at the **hospital**, **Lola**.  
-   options: because · ✔ unless · if · although  
+   options: so that · ✔ unless · if · when  
    why: unless = if … not, with a positive present verb after it.
 
 5. The **tomatoes** will die ______ you water them, **Olga**.  
-   options: ✔ unless · if · although · because  
+   options: ✔ unless · if · when · so that  
    why: unless = if … not, with a positive present verb after it.
 
 6. You can't enter the **stadium** ______ you have a ticket, **Lola**.  
-   options: if · although · because · ✔ unless  
+   options: if · when · so that · ✔ unless  
    why: unless = if … not, with a positive present verb after it.
 
 7. I'll be there at six ______ the **metro** is late, **Aziz**.  
-   options: although · because · ✔ unless · if  
+   options: when · so that · ✔ unless · if  
    why: unless = if … not, with a positive present verb after it.
 
 8. She won't come to the **wedding** ______ you invite her, **Aziz**.  
-   options: because · ✔ unless · if · although  
+   options: so that · ✔ unless · if · when  
    why: unless = if … not, with a positive present verb after it.
 
 9. We'll have the picnic in the **mountains** ______ it rains, **Aziz**.  
-   options: ✔ unless · if · although · because  
+   options: ✔ unless · if · when · so that  
    why: unless = if … not, with a positive present verb after it.
 
 10. You'll get cold ______ you wear a **hat**, **Olga**.  
-   options: if · although · because · ✔ unless  
+   options: if · when · so that · ✔ unless  
    why: unless = if … not, with a positive present verb after it.
 
-11. The baby won't sleep ______ the room is **quiet**, **Aziz**.  
-   options: although · because · ✔ unless · if  
+11. You can't borrow my **car** ______ you promise to bring it back, **Aziz**.  
+   options: when · so that · ✔ unless · if  
    why: unless = if … not, with a positive present verb after it.
 
-12. I don't drink coffee ______ I'm very **busy**, **Lola**.  
-   options: because · ✔ unless · if · although  
+12. Don't eat the **eggs** ______ it's fresh, **Lola**.  
+   options: so that · ✔ unless · if · when  
    why: unless = if … not, with a positive present verb after it.
 
-13. Timur never cooks ______ his **wife** is away, **Olga**.  
-   options: ✔ unless · if · although · because  
+13. You can't come into the **mosque** ______ you take your shoes off, **Olga**.  
+   options: ✔ unless · if · when · so that  
    why: unless = if … not, with a positive present verb after it.
 
 14. **Navbahor** will lose ______ they play better in the second half, **Aziz**.  
-   options: if · although · because · ✔ unless  
+   options: if · when · so that · ✔ unless  
    why: unless = if … not, with a positive present verb after it.
 
 15. You'll miss the **train** unless you ______ now, **Timur**.  

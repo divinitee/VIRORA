@@ -6,8 +6,8 @@
 // don't", not "unless you will").
 // Triage: kept. The first conditional (if + present, will) is A2 (zero-first.*);
 // here only unless, in first-conditional and general-rule sentences.
-// Choose: 14 unless / if / although / because (the result is negative or the
-// sense needs "if not", so if is wrong); 6 the verb after unless (leave /
+// Choose: 14 unless / if / when / so that (although is never offered: "won't X
+// although Y" is often English); 6 the verb after unless (leave /
 // don't leave / will leave / left).
 // Build: "Write unless or if": 14 unless, 6 if.
 // Transform: 5 if … not → Unless … / 5 correct the mistake (unless … don't / will) /
@@ -22,7 +22,7 @@ const NAME = ["Aziz", "Olga", "Timur", "Lola"];
 const TEAM = ["Pakhtakor", "Nasaf", "Bunyodkor", "Navbahor"];
 const WHY = "unless = if … not, with a positive present verb after it.";
 const WHY_IF = "The condition is positive here: if.";
-const LINK = ["unless", "if", "although", "because"];
+const LINK = ["unless", "if", "when", "so that"];
 
 /* ---------------- choose: 20 mcq ---------------- */
 // [options, key, prompt, slots]
@@ -37,9 +37,9 @@ const CHOOSE = [
   [LINK, "She won't come to the {event} ______ you invite her, {name}.", { event: ["party", "wedding", "meeting", "dinner"], name: NAME }],
   [LINK, "We'll have the picnic in the {place} ______ it rains, {name}.", { place: ["park", "garden", "mountains", "yard"], name: NAME }],
   [LINK, "You'll get cold ______ you wear a {coat}, {name}.", { coat: ["coat", "jacket", "hat", "scarf"], name: NAME }],
-  [LINK, "The baby won't sleep ______ the room is {adj}, {name}.", { adj: ["quiet", "dark", "warm", "cool"], name: NAME }],
-  [LINK, "I don't drink coffee ______ I'm very {adj}, {name}.", { adj: ["tired", "sleepy", "cold", "busy"], name: NAME }],
-  [LINK, "Timur never cooks ______ his {who} is away, {name}.", { who: ["wife", "mother", "sister", "grandmother"], name: NAME }],
+  [LINK, "You can't borrow my {thing} ______ you promise to bring it back, {name}.", { thing: ["car", "laptop", "camera", "bike"], name: NAME }],
+  [LINK, "Don't eat the {food} ______ it's fresh, {name}.", { food: ["fish", "meat", "chicken", "eggs"], name: NAME }],
+  [LINK, "You can't come into the {place} ______ you take your shoes off, {name}.", { place: ["mosque", "house", "gym", "classroom"], name: NAME }],
   [LINK, "{team} will lose ______ they play better in the second half, {name}.", { team: TEAM, name: NAME }],
   [["leave", "don't leave", "will leave", "left"], "You'll miss the {bus} unless you ______ now, {name}.", { bus: ["bus", "train", "flight", "start"], name: NAME }],
   [["come", "don't come", "will come", "came"], "I won't go to the {event} unless you ______ too, {name}.", { event: ["party", "wedding", "concert", "match"], name: NAME }],

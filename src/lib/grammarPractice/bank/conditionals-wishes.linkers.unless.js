@@ -13,8 +13,8 @@ export default [
   "options": [
    "unless",
    "if",
-   "although",
-   "because"
+   "when",
+   "so that"
   ],
   "key": 0,
   "why": "unless = if … not, with a positive present verb after it.",
@@ -44,8 +44,8 @@ export default [
   "prompt": "We'll miss the {bus} ______ we leave now, {name}.",
   "options": [
    "if",
-   "although",
-   "because",
+   "when",
+   "so that",
    "unless"
   ],
   "key": 3,
@@ -75,8 +75,8 @@ export default [
   "format": "mcq",
   "prompt": "I can't help you ______ you tell me the {thing}, {name}.",
   "options": [
-   "although",
-   "because",
+   "when",
+   "so that",
    "unless",
    "if"
   ],
@@ -107,10 +107,10 @@ export default [
   "format": "mcq",
   "prompt": "Don't call me ______ it's important. I'm at the {place}, {name}.",
   "options": [
-   "because",
+   "so that",
    "unless",
    "if",
-   "although"
+   "when"
   ],
   "key": 1,
   "why": "unless = if … not, with a positive present verb after it.",
@@ -141,8 +141,8 @@ export default [
   "options": [
    "unless",
    "if",
-   "although",
-   "because"
+   "when",
+   "so that"
   ],
   "key": 0,
   "why": "unless = if … not, with a positive present verb after it.",
@@ -172,8 +172,8 @@ export default [
   "prompt": "You can't enter the {place} ______ you have a ticket, {name}.",
   "options": [
    "if",
-   "although",
-   "because",
+   "when",
+   "so that",
    "unless"
   ],
   "key": 3,
@@ -203,8 +203,8 @@ export default [
   "format": "mcq",
   "prompt": "I'll be there at six ______ the {bus} is late, {name}.",
   "options": [
-   "although",
-   "because",
+   "when",
+   "so that",
    "unless",
    "if"
   ],
@@ -235,10 +235,10 @@ export default [
   "format": "mcq",
   "prompt": "She won't come to the {event} ______ you invite her, {name}.",
   "options": [
-   "because",
+   "so that",
    "unless",
    "if",
-   "although"
+   "when"
   ],
   "key": 1,
   "why": "unless = if … not, with a positive present verb after it.",
@@ -269,8 +269,8 @@ export default [
   "options": [
    "unless",
    "if",
-   "although",
-   "because"
+   "when",
+   "so that"
   ],
   "key": 0,
   "why": "unless = if … not, with a positive present verb after it.",
@@ -300,8 +300,8 @@ export default [
   "prompt": "You'll get cold ______ you wear a {coat}, {name}.",
   "options": [
    "if",
-   "although",
-   "because",
+   "when",
+   "so that",
    "unless"
   ],
   "key": 3,
@@ -329,21 +329,21 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The baby won't sleep ______ the room is {adj}, {name}.",
+  "prompt": "You can't borrow my {thing} ______ you promise to bring it back, {name}.",
   "options": [
-   "although",
-   "because",
+   "when",
+   "so that",
    "unless",
    "if"
   ],
   "key": 2,
   "why": "unless = if … not, with a positive present verb after it.",
   "slots": {
-   "adj": [
-    "quiet",
-    "dark",
-    "warm",
-    "cool"
+   "thing": [
+    "car",
+    "laptop",
+    "camera",
+    "bike"
    ],
    "name": [
     "Aziz",
@@ -361,21 +361,21 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I don't drink coffee ______ I'm very {adj}, {name}.",
+  "prompt": "Don't eat the {food} ______ it's fresh, {name}.",
   "options": [
-   "because",
+   "so that",
    "unless",
    "if",
-   "although"
+   "when"
   ],
   "key": 1,
   "why": "unless = if … not, with a positive present verb after it.",
   "slots": {
-   "adj": [
-    "tired",
-    "sleepy",
-    "cold",
-    "busy"
+   "food": [
+    "fish",
+    "meat",
+    "chicken",
+    "eggs"
    ],
    "name": [
     "Aziz",
@@ -393,21 +393,21 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Timur never cooks ______ his {who} is away, {name}.",
+  "prompt": "You can't come into the {place} ______ you take your shoes off, {name}.",
   "options": [
    "unless",
    "if",
-   "although",
-   "because"
+   "when",
+   "so that"
   ],
   "key": 0,
   "why": "unless = if … not, with a positive present verb after it.",
   "slots": {
-   "who": [
-    "wife",
-    "mother",
-    "sister",
-    "grandmother"
+   "place": [
+    "mosque",
+    "house",
+    "gym",
+    "classroom"
    ],
    "name": [
     "Aziz",
@@ -428,8 +428,8 @@ export default [
   "prompt": "{team} will lose ______ they play better in the second half, {name}.",
   "options": [
    "if",
-   "although",
-   "because",
+   "when",
+   "so that",
    "unless"
   ],
   "key": 3,
