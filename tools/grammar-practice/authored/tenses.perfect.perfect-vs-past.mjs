@@ -67,7 +67,7 @@ const BUILD = [
   ["started", "p", "The {event} ______ (start) ten minutes ago, {name}. Hurry up!", { event: ["film", "match", "concert", "lesson"], name: NAME }],
   ["wrote", "p", "{name} ______ (write) this poem in {year}.", { name: NAME, year: ["2020", "2022", "2023", "2024"] }],
   ["ate", "p", "We ______ (eat) {food} at Grandma's {when}.", { food: ["plov", "manti", "lagman", "shurpa"], when: FIN }],
-  ["was", "p", "My {who} ______ (be) a teacher {when}.", { who: ["grandfather", "father", "uncle", "neighbour"], when: ["in the 1990s", "thirty years ago", "in 2005", "before I was born"] }],
+  ["was", "p", "My {who} ______ (be) a teacher {when}.", { who: ["grandfather", "father", "uncle", "neighbour"], when: ["in the 1990s", "thirty years ago", "in 2005", "in his youth"] }],
   ["passed", "p", "My sister ______ (pass) her driving test {when}, {name}.", { when: ["last month", "in June", "two weeks ago", "on Friday"], name: NAME }],
   ["got", "p", "I ______ (get) your message at {time} last night, {name}.", { time: ["ten", "eleven", "midnight", "nine"], name: NAME }],
   ["built", "p", "They ______ (build) the new {place} in our town in {year}.", { place: ["school", "bridge", "hospital", "park"], year: ["2018", "2020", "2021", "2023"] }],

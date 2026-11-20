@@ -805,7 +805,7 @@ export default [
     "in the 1990s",
     "thirty years ago",
     "in 2005",
-    "before I was born"
+    "in his youth"
    ]
   }
  },
