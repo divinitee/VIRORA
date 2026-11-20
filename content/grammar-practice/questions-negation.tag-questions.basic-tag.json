@@ -1,0 +1,1792 @@
+[
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You live near the {place}, ______, {name}?",
+  "options": [
+   "don't you",
+   "aren't you",
+   "doesn't you",
+   "isn't it"
+  ],
+  "key": 0,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "station",
+    "bazaar",
+    "park",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your sister works at the {place}, ______, {name}?",
+  "options": [
+   "isn't she",
+   "don't she",
+   "doesn't it",
+   "doesn't she"
+  ],
+  "key": 3,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "bank",
+    "hospital",
+    "hotel",
+    "airport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your cousins play {sport} on Saturdays, ______?",
+  "options": [
+   "doesn't they",
+   "didn't they",
+   "don't they",
+   "aren't they"
+  ],
+  "key": 2,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "sport": [
+    "football",
+    "chess",
+    "tennis",
+    "volleyball"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You saw the {film} last night, ______, {name}?",
+  "options": [
+   "hadn't you",
+   "didn't you",
+   "don't you",
+   "weren't you"
+  ],
+  "key": 1,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "film": [
+    "match",
+    "film",
+    "news",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} called you {when}, ______?",
+  "options": [
+   "didn't she",
+   "doesn't she",
+   "wasn't she",
+   "didn't he"
+  ],
+  "key": 0,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {place} is open {when}, ______?",
+  "options": [
+   "doesn't it",
+   "wasn't it",
+   "isn't she",
+   "isn't it"
+  ],
+  "key": 3,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "museum",
+    "bank",
+    "pharmacy",
+    "library"
+   ],
+   "when": [
+    "today",
+    "now",
+    "on Sundays",
+    "until six"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your parents were at the {event} {when}, ______?",
+  "options": [
+   "wasn't they",
+   "aren't they",
+   "weren't they",
+   "didn't they"
+  ],
+  "key": 2,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} can {skill}, ______?",
+  "options": [
+   "can't she",
+   "can't he",
+   "doesn't he",
+   "isn't he"
+  ],
+  "key": 1,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "skill": [
+    "swim",
+    "drive",
+    "cook",
+    "ski"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You'll come to the {event}, ______, {name}?",
+  "options": [
+   "won't you",
+   "don't you",
+   "will not you",
+   "aren't you"
+  ],
+  "key": 0,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We've met before at a {event}, ______, {name}?",
+  "options": [
+   "didn't we",
+   "don't we",
+   "weren't we",
+   "haven't we"
+  ],
+  "key": 3,
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} isn't coming {when}, ______?",
+  "options": [
+   "does she",
+   "is it",
+   "is she",
+   "isn't she"
+  ],
+  "key": 2,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "when": [
+    "tonight",
+    "today",
+    "tomorrow",
+    "this weekend"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You don't eat {food}, ______, {name}?",
+  "options": [
+   "does you",
+   "do you",
+   "don't you",
+   "are you"
+  ],
+  "key": 1,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "food": [
+    "meat",
+    "fish",
+    "sweets",
+    "spicy food"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your brother doesn't speak {lang}, ______?",
+  "options": [
+   "does he",
+   "doesn't he",
+   "is he",
+   "do he"
+  ],
+  "key": 0,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "Korean",
+    "Turkish",
+    "Chinese"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They didn't go to the {event} {when}, ______?",
+  "options": [
+   "didn't they",
+   "do they",
+   "were they",
+   "did they"
+  ],
+  "key": 3,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} wasn't very expensive, ______, {name}?",
+  "options": [
+   "did it",
+   "is it",
+   "was it",
+   "wasn't it"
+  ],
+  "key": 2,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "bag",
+    "phone",
+    "jacket",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You can't come {when}, ______, {name}?",
+  "options": [
+   "are you",
+   "can you",
+   "can't you",
+   "do you"
+  ],
+  "key": 1,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "tonight",
+    "on Friday",
+    "this weekend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children aren't hungry {when}, ______, {name}?",
+  "options": [
+   "are they",
+   "aren't they",
+   "do they",
+   "is it"
+  ],
+  "key": 0,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "now",
+    "yet",
+    "today",
+    "this morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The bus won't be late {when}, ______, {name}?",
+  "options": [
+   "won't it",
+   "does it",
+   "is it",
+   "will it"
+  ],
+  "key": 3,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "today",
+    "tonight",
+    "tomorrow",
+    "this time"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We haven't got any {thing}, ______, {name}?",
+  "options": [
+   "do we",
+   "are we",
+   "have we",
+   "haven't we"
+  ],
+  "key": 2,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "milk",
+    "bread",
+    "eggs",
+    "sugar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There isn't a {place} near here, ______, {name}?",
+  "options": [
+   "does there",
+   "is there",
+   "isn't there",
+   "is it"
+  ],
+  "key": 1,
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "pharmacy",
+    "bank",
+    "café",
+    "bus stop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "{name} lives near the {place}, ______?",
+  "key": "doesn't she",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "place": [
+    "station",
+    "bazaar",
+    "park",
+    "river"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "Your brother works at the {place}, ______?",
+  "key": "doesn't he",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "bank",
+    "hospital",
+    "hotel",
+    "airport"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "The shop opens at {time}, ______, {name}?",
+  "key": "doesn't it",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "time": [
+    "eight",
+    "nine",
+    "ten",
+    "seven"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "Your parents liked the {thing}, ______, {name}?",
+  "key": "didn't they",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "film",
+    "dinner",
+    "hotel",
+    "trip"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "{name} was at the {event} yesterday, ______?",
+  "key": "wasn't he",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "The {thing} is new, ______, {name}?",
+  "key": "isn't it",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bike",
+    "car",
+    "laptop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "Your cousins are from {city}, ______?",
+  "key": "aren't they",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "{name} can {skill}, ______?",
+  "key": "can't she",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "skill": [
+    "swim",
+    "drive",
+    "cook",
+    "ski"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "The train will be on time {when}, ______?",
+  "key": "won't it",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "today",
+    "tonight",
+    "tomorrow",
+    "this time"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "Your grandparents have got a {thing}, ______?",
+  "key": "haven't they",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "garden",
+    "dog",
+    "car",
+    "dacha"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "{name} isn't at home {when}, ______?",
+  "key": "is he",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "when": [
+    "now",
+    "today",
+    "tonight",
+    "this week"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "Your sister doesn't like {food}, ______?",
+  "key": "does she",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "coffee"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "The children didn't eat their {food}, ______?",
+  "key": "did they",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "food": [
+    "soup",
+    "vegetables",
+    "lunch",
+    "salad"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "The {place} wasn't open {when}, ______?",
+  "key": "was it",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "museum",
+    "bank",
+    "shop",
+    "café"
+   ],
+   "when": [
+    "yesterday",
+    "on Sunday",
+    "last night",
+    "on Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "{name} can't come to the {event}, ______?",
+  "key": "can she",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "Your friends aren't coming {when}, ______, {name}?",
+  "key": "are they",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "tonight",
+    "today",
+    "tomorrow",
+    "this weekend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "The bus doesn't stop at the {place}, ______, {name}?",
+  "key": "does it",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "museum",
+    "station",
+    "hospital"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "{name} won't forget the {thing}, ______?",
+  "key": "will he",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "tickets",
+    "keys",
+    "cake",
+    "map"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "Your uncle hasn't seen the {thing}, ______, {name}?",
+  "key": "has he",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "photos",
+    "video",
+    "letter",
+    "new house"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the question tag.",
+  "source": "The tickets weren't expensive {when}, ______, {name}?",
+  "key": "were they",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "last year",
+    "in summer",
+    "for the concert",
+    "online"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question tag.",
+  "source": "Your sister works at the {place}, isn't she, {name}?",
+  "hint": "Your sister works at the {place}, ______, {name}?",
+  "key": "doesn't she",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "bank",
+    "hospital",
+    "hotel",
+    "airport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question tag.",
+  "source": "{name} went to {city} last week, doesn't he?",
+  "hint": "{name} went to {city} last week, ______?",
+  "key": "didn't he",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question tag.",
+  "source": "The {thing} is broken, doesn't it, {name}?",
+  "hint": "The {thing} is broken, ______, {name}?",
+  "key": "isn't it",
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "printer",
+    "lift",
+    "fridge",
+    "clock"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question tag.",
+  "source": "Your parents aren't at home {when}, aren't they, {name}?",
+  "hint": "Your parents aren't at home {when}, ______, {name}?",
+  "key": "are they",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "now",
+    "today",
+    "tonight",
+    "this week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the question tag.",
+  "source": "{name} can't come {when}, can't she?",
+  "hint": "{name} can't come {when}, ______?",
+  "key": "can she",
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "when": [
+    "tomorrow",
+    "tonight",
+    "on Friday",
+    "this weekend"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement negative and change the tag.",
+  "source": "Your brother eats {food}, doesn't he, {name}?",
+  "hint": "Your brother ______ eat {food}, ______, {name}?",
+  "key": [
+   "doesn't",
+   "does he"
+  ],
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "food": [
+    "meat",
+    "fish",
+    "sweets",
+    "spicy food"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement negative and change the tag.",
+  "source": "{name} is at the {place}, isn't she?",
+  "hint": "{name} ______ at the {place}, ______?",
+  "key": [
+   "isn't",
+   "is she"
+  ],
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "place": [
+    "gym",
+    "library",
+    "bazaar",
+    "bank"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement negative and change the tag.",
+  "source": "The children liked the {thing}, didn't they, {name}?",
+  "hint": "The children ______ like the {thing}, ______, {name}?",
+  "key": [
+   "didn't",
+   "did they"
+  ],
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "film",
+    "game",
+    "food",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement negative and change the tag.",
+  "source": "Your friends will come {when}, won't they, {name}?",
+  "hint": "Your friends ______ come {when}, ______, {name}?",
+  "key": [
+   "won't",
+   "will they"
+  ],
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "tonight",
+    "tomorrow",
+    "on Saturday",
+    "this weekend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement negative and change the tag.",
+  "source": "The {place} was busy {when}, wasn't it?",
+  "hint": "The {place} ______ busy {when}, ______?",
+  "key": [
+   "wasn't",
+   "was it"
+  ],
+  "why": "Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "café",
+    "station",
+    "airport"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement positive and change the tag.",
+  "source": "Your cousin doesn't live in {city}, does she, {name}?",
+  "hint": "Your cousin ______ in {city}, ______, {name}?",
+  "key": [
+   "lives",
+   "doesn't she"
+  ],
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement positive and change the tag.",
+  "source": "{name} didn't call {when}, did he?",
+  "hint": "{name} ______ {when}, ______?",
+  "key": [
+   "called",
+   "didn't he"
+  ],
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement positive and change the tag.",
+  "source": "The bus isn't late {when}, is it, {name}?",
+  "hint": "The bus ______ late {when}, ______, {name}?",
+  "key": [
+   "is",
+   "isn't it"
+  ],
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "when": [
+    "today",
+    "again",
+    "this morning",
+    "tonight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement positive and change the tag.",
+  "source": "Your parents can't drive a {vehicle}, can they, {name}?",
+  "hint": "Your parents ______ drive a {vehicle}, ______, {name}?",
+  "key": [
+   "can",
+   "can't they"
+  ],
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "vehicle": [
+    "car",
+    "truck",
+    "bus",
+    "tractor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the statement positive and change the tag.",
+  "source": "The {thing} weren't cheap, were they, {name}?",
+  "hint": "The {thing} ______ cheap, ______, {name}?",
+  "key": [
+   "were",
+   "weren't they"
+  ],
+  "why": "Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "shoes",
+    "flowers",
+    "books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a tag to check that a friend likes football.",
+  "requiredElement": "You like football, don't you?",
+  "constraints": [
+   "exactly one sentence",
+   "positive statement",
+   "negative tag"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a tag to check that the shop isn't open today.",
+  "requiredElement": "The shop isn't open today, is it?",
+  "constraints": [
+   "exactly one sentence",
+   "negative statement",
+   "positive tag"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a tag about something a friend did yesterday.",
+  "requiredElement": "You went to …, didn't you?",
+  "constraints": [
+   "exactly one sentence",
+   "a past verb",
+   "didn't + pronoun"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a tag about what someone can do.",
+  "requiredElement": "… can …, can't she / he?",
+  "constraints": [
+   "exactly one sentence",
+   "can",
+   "can't in the tag"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a tag about the weather.",
+  "requiredElement": "It's cold today, isn't it?",
+  "constraints": [
+   "exactly one sentence",
+   "be",
+   "a matching tag"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a tag about a plan for tomorrow.",
+  "requiredElement": "We'll meet tomorrow, won't we?",
+  "constraints": [
+   "exactly one sentence",
+   "will",
+   "won't in the tag"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with a tag about something your family doesn't do.",
+  "requiredElement": "My dad doesn't …, does he?",
+  "constraints": [
+   "exactly one sentence",
+   "doesn't",
+   "does + pronoun"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences with tags: one positive statement and one negative statement.",
+  "requiredElement": "… , don't you? / … , is it?",
+  "constraints": [
+   "exactly two sentences",
+   "a negative tag after the positive",
+   "a positive tag after the negative"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You meet an old classmate. Write a short chat where you check facts about their life.",
+  "targetGrammar": "You live in …, don't you? You aren't …, are you?",
+  "lookFor": [
+   "question tags",
+   "positive and negative statements",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write what you say to a friend before a trip to check the plan.",
+  "targetGrammar": "The train leaves at …, doesn't it? We won't …, will we?",
+  "lookFor": [
+   "question tags",
+   "different auxiliaries",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short chat with a shop worker to check details about a product.",
+  "targetGrammar": "It's new, isn't it? It doesn't …, does it?",
+  "lookFor": [
+   "question tags",
+   "matching auxiliaries",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write what you say to a friend after a party to talk about it.",
+  "targetGrammar": "It was great, wasn't it? You didn't …, did you?",
+  "lookFor": [
+   "question tags",
+   "past forms",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short chat with a new neighbour.",
+  "targetGrammar": "You've just moved in, haven't you? You don't …, do you?",
+  "lookFor": [
+   "question tags",
+   "positive and negative statements",
+   "three or four sentences"
+  ]
+ }
+]

@@ -1234,6 +1234,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "questions-negation.tag-questions.basic-tag": {
+  "domain": "questions-negation",
+  "branch": "tag-questions",
+  "topic": "basic-tag",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 248,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "questions-negation.wh-questions.how-long-perfect": {
   "domain": "questions-negation",
   "branch": "wh-questions",
