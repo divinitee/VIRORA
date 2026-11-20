@@ -100,7 +100,8 @@ const BUILD = [
   ["are played", "{n} games ______ (play) every {when} at the club.", { n: ["Two", "Three", "Four", "Five"], when: ["Sunday", "week", "evening", "Saturday"] }],
   ["is closed", "The {shop} ______ (close) on {day}, {name}.", { shop: ["bank", "museum", "library", "post office"], day: DAY, name: NAME }],
   ["are painted", "The {thing} in our street ______ (paint) every {when}.", { thing: ["walls", "fences", "doors", "benches"], when: ["spring", "summer", "year", "autumn"] }],
-  ["are spoken", "Many languages ______ (speak) in {city}, {name}.", { city: BIG, name: NAME }],
+  // Audit (Claude, 20 Nov): no claims about real cities.
+  ["are spoken", "Many languages ______ (speak) at {place}, {name}.", { place: ["our school", "this market", "the airport", "the big bazaar"], name: NAME }],
 ].map(([key, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR_B, source, key, why: W.build, slots: fix(slots, source) }));
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
