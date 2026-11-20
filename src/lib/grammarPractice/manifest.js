@@ -954,6 +954,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.phrasal-verbs.pronoun-separation": {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "pronoun-separation",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.place.between": {
   "domain": "prep-phrasal",
   "branch": "place",

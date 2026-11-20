@@ -1,0 +1,322 @@
+# prep-phrasal.phrasal-verbs.pronoun-separation — review sample (B1)
+
+Each item shows one random filler combination (in bold). Mark anything a teacher wouldn't accept.
+
+## choose (20)
+
+1. The **TV** is too loud. Please ______, **Nodira**.  
+   options: ✔ turn it down · turn down it · turn down it down · turn it down it  
+   why: With a pronoun, it goes in the middle: turn it down.
+
+2. The kids finish school at six. I'll ______ in the **car**, **Ulugbek**.  
+   options: pick up them · pick up they · pick them up them · ✔ pick them up  
+   why: pick them up: the pronoun goes between pick and up.
+
+3. It's cold outside. Take your **hat** and ______, **Nodira**.  
+   options: put on it on · put it on it · ✔ put it on · put on it  
+   why: put it on: the pronoun splits the verb.
+
+4. These **shoes** look nice. Can I ______, **Feruza**?  
+   options: try them on them · ✔ try them on · try on them · try on they  
+   why: try them on: pronoun in the middle.
+
+5. I have an early **train** tomorrow. Please ______ at six, **Otabek**.  
+   options: ✔ wake me up · wake up me · wake up I · wake me up me  
+   why: wake me up: pronoun in the middle.
+
+6. Nobody is watching the **computer**. Can you ______, **Feruza**?  
+   options: turn off it · turn off it off · turn it off it · ✔ turn it off  
+   why: turn it off: pronoun in the middle.
+
+7. That's my **phone**! ______ now, **Malika**!  
+   options: Give back it back · Give it back it · ✔ Give it back · Give back it  
+   why: give it back: pronoun in the middle.
+
+8. These **apples** are old. Let's ______, **Ulugbek**.  
+   options: throw them away them · ✔ throw them away · throw away them · throw away they  
+   why: throw them away: pronoun in the middle.
+
+9. This is my new phone number. Please ______ before you forget, **Nodira**, **Nodira**.  
+   options: ✔ write it down · write down it · write down it down · write it down it  
+   why: write it down: pronoun in the middle.
+
+10. Here is the **form**. Please ______ and give it to the nurse, **Akmal**.  
+   options: fill in it · fill in it in · fill it in it · ✔ fill it in  
+   why: fill it in: pronoun in the middle.
+
+11. Your **boss** phoned while you were out. Can you ______ later, **Malika**?  
+   options: call back he · call him back him · ✔ call him back · call back him  
+   why: call him back: pronoun in the middle.
+
+12. Your toys are all over the **floor**. ______ now, please, **Feruza**.  
+   options: Put them away them · ✔ Put them away · Put away them · Put away they  
+   why: put them away: pronoun in the middle.
+
+13. Your **hat** is wet. ______ and sit by the fire, **Malika**.  
+   options: ✔ Take it off · Take off it · Take off it off · Take it off it  
+   why: take it off: pronoun in the middle.
+
+14. The **trip** is on a rainy day. Let's ______ until next week, **Feruza**.  
+   options: put off it · put off it off · put it off it · ✔ put it off  
+   why: put it off (= postpone): pronoun in the middle.
+
+15. I don't know this word. I'll ______ in the **dictionary**, **Otabek**.  
+   options: look up it up · look it up it · ✔ look it up · look up it  
+   why: look it up: pronoun in the middle.
+
+16. The **washing machine** is very noisy. Can you ______, **Akmal**?  
+   options: switch it off it · ✔ switch it off · switch off it · switch off it off  
+   why: switch it off: pronoun in the middle.
+
+17. My sister lands at nine. I'm going to ______ from the **station**, **Malika**.  
+   options: ✔ pick her up · pick up her · pick up she · pick her up her  
+   why: pick her up: pronoun in the middle.
+
+18. These **boots** are too small. I'll ______ to the shop, **Gulnora**.  
+   options: take back them · take back they · take them back them · ✔ take them back  
+   why: take them back: pronoun in the middle.
+
+19. I can't hear the **radio**. Please ______ a little, **Nodira**.  
+   options: turn up it up · turn it up it · ✔ turn it up · turn up it  
+   why: turn it up: pronoun in the middle.
+
+20. The kids are asleep in the **bedroom**. Please don't wake ______, **Ulugbek**.  
+   options: ✔ them up · up them · up they · them up them  
+   why: wake them up: the pronoun goes between wake and up.
+
+## build (20)
+
+1. _Put the two words in brackets in the gaps, in the right order._  
+   The music is too loud. Can you turn ______ ______ (down / it), **Otabek**? The **guests** are asleep.  
+   key: it + down  
+   why: turn it down: pronoun in the middle.
+
+2. _Put the two words in brackets in the gaps, in the right order._  
+   I'll pick ______ ______ (up / them) at the **station** at six, **Ulugbek**.  
+   key: them + up  
+   why: pick them up: pronoun in the middle.
+
+3. _Put the two words in brackets in the gaps, in the right order._  
+   Here's your **jacket**. Put ______ ______ (on / it), **Malika**. It's cold.  
+   key: it + on  
+   why: put it on: pronoun in the middle.
+
+4. _Put the two words in brackets in the gaps, in the right order._  
+   Do you like these **trousers**? Try ______ ______ (on / them), **Gulnora**.  
+   key: them + on  
+   why: try them on: pronoun in the middle.
+
+5. _Put the two words in brackets in the gaps, in the right order._  
+   Please wake ______ ______ (up / me) at seven, **Nodira**. I have a **flight**.  
+   key: me + up  
+   why: wake me up: pronoun in the middle.
+
+6. _Put the two words in brackets in the gaps, in the right order._  
+   The **light** is still on. Turn ______ ______ (off / it), **Feruza**.  
+   key: it + off  
+   why: turn it off: pronoun in the middle.
+
+7. _Put the two words in brackets in the gaps, in the right order._  
+   I lent him my **camera**, but he never gave ______ ______ (back / it), **Malika**.  
+   key: it + back  
+   why: gave it back: pronoun in the middle.
+
+8. _Put the two words in brackets in the gaps, in the right order._  
+   These old **toys** are broken. Throw ______ ______ (away / them), **Gulnora**.  
+   key: them + away  
+   why: throw them away: pronoun in the middle.
+
+9. _Put the two words in brackets in the gaps, in the right order._  
+   Here's the address of the **hotel**. Write ______ ______ (down / it), **Malika**.  
+   key: it + down  
+   why: write it down: pronoun in the middle.
+
+10. _Put the two words in brackets in the gaps, in the right order._  
+   The **card** is on the desk. Please fill ______ ______ (in / it), **Akmal**.  
+   key: it + in  
+   why: fill it in: pronoun in the middle.
+
+11. _Put the two words in brackets in the gaps, in the right order._  
+   Your **teacher** called. Please call ______ ______ (back / her), **Sherzod**.  
+   key: her + back  
+   why: call her back: pronoun in the middle.
+
+12. _Put the two words in brackets in the gaps, in the right order._  
+   Your clothes are on the **bed**. Put ______ ______ (away / them), **Gulnora**.  
+   key: them + away  
+   why: put them away: pronoun in the middle.
+
+13. _Put the two words in brackets in the gaps, in the right order._  
+   Your **boots** are dirty. Take ______ ______ (off / them) at the door, **Otabek**.  
+   key: them + off  
+   why: take them off: pronoun in the middle.
+
+14. _Put the two words in brackets in the gaps, in the right order._  
+   The **lesson** can't happen on Friday. We'll put ______ ______ (off / it) until Monday, **Gulnora**.  
+   key: it + off  
+   why: put it off: pronoun in the middle.
+
+15. _Put the two words in brackets in the gaps, in the right order._  
+   If you don't know the word, look ______ ______ (up / it) in the **app**, **Otabek**.  
+   key: it + up  
+   why: look it up: pronoun in the middle.
+
+16. _Put the two words in brackets in the gaps, in the right order._  
+   Grandpa will pick ______ ______ (up / us) from the **station**, **Akmal**.  
+   key: us + up  
+   why: pick us up: pronoun in the middle.
+
+17. _Put the two words in brackets in the gaps, in the right order._  
+   I love this **song**! Turn ______ ______ (up / it), **Otabek**!  
+   key: it + up  
+   why: turn it up: pronoun in the middle.
+
+18. _Put the two words in brackets in the gaps, in the right order._  
+   The **shirts** were too big, so I took ______ ______ (back / them), **Feruza**.  
+   key: them + back  
+   why: took them back: pronoun in the middle.
+
+19. _Put the two words in brackets in the gaps, in the right order._  
+   The baby is asleep. Don't wake ______ ______ (up / him), **Sherzod**! He was up all **day**.  
+   key: him + up  
+   why: wake him up: pronoun in the middle.
+
+20. _Put the two words in brackets in the gaps, in the right order._  
+   It's hot in here, but the **radio** is too loud. Switch ______ ______ (off / it), **Akmal**.  
+   key: it + off  
+   why: switch it off: pronoun in the middle.
+
+## transform (15)
+
+1. _Rewrite with the pronoun in brackets instead of the noun. One word in each gap._  
+   (it) Turn down the music, **Nodira**. The **guests** are sleeping.  
+   → Turn ______ ______, **Nodira**. The **guests** are sleeping.  
+   key: it + down  
+   why: With a pronoun: turn it down.
+
+2. _Rewrite with the pronoun in brackets instead of the noun. One word in each gap._  
+   (them) I'll pick up the children at the **school**, **Gulnora**.  
+   → I'll pick ______ ______ at the **school**, **Gulnora**.  
+   key: them + up  
+   why: With a pronoun: pick them up.
+
+3. _Rewrite with the pronoun in brackets instead of the noun. One word in each gap._  
+   (it) Put on your **hat**, **Malika**.  
+   → Put ______ ______, **Malika**.  
+   key: it + on  
+   why: With a pronoun: put it on.
+
+4. _Rewrite with the pronoun in brackets instead of the noun. One word in each gap._  
+   (her) Can you wake up your **mum** at seven, **Akmal**?  
+   → Can you wake ______ ______ at seven, **Akmal**?  
+   key: her + up  
+   why: With a pronoun: wake her up.
+
+5. _Rewrite with the pronoun in brackets instead of the noun. One word in each gap._  
+   (them) Throw away those old **boxes**, **Otabek**.  
+   → Throw ______ ______, **Otabek**.  
+   key: them + away  
+   why: With a pronoun: throw them away.
+
+6. _Correct the word order. One word in each gap._  
+   Please turn off it. The **fan** is too loud, **Ulugbek**.  
+   → Please turn ______ ______. The **fan** is too loud, **Ulugbek**.  
+   key: it + off  
+   why: turn it off, never turn off it.
+
+7. _Correct the word order. One word in each gap._  
+   I'll pick up them at the **airport**, **Nodira**.  
+   → I'll pick ______ ______ at the **airport**, **Nodira**.  
+   key: them + up  
+   why: pick them up, never pick up them.
+
+8. _Correct the word order. One word in each gap._  
+   Can I try on it? I like the **red** one, **Ulugbek**.  
+   → Can I try ______ ______? I like the **red** one, **Ulugbek**.  
+   key: it + on  
+   why: try it on, never try on it.
+
+9. _Correct the word order. One word in each gap._  
+   Write down it before you forget the **name**, **Otabek**.  
+   → Write ______ ______ before you forget the **name**, **Otabek**.  
+   key: it + down  
+   why: write it down, never write down it.
+
+10. _Correct the word order. One word in each gap._  
+   Your **boss** called. Call back him, **Akmal**.  
+   → Your **boss** called. Call ______ ______, **Akmal**.  
+   key: him + back  
+   why: call him back, never call back him.
+
+11. _Rewrite with the noun after the particle. One word in each gap._  
+   Turn the TV off, **Malika**. It's time for **dinner**.  
+   → Turn ______ ______ TV, **Malika**. It's time for **dinner**.  
+   key: off + the  
+   why: With a noun, both orders are right: turn the TV off = turn off the TV.
+
+12. _Rewrite with the noun after the particle. One word in each gap._  
+   Please fill this form in, **Feruza**. Then give it to the **manager**.  
+   → Please fill ______ ______ form, **Feruza**. Then give it to the **manager**.  
+   key: in + this  
+   why: fill this form in = fill in this form.
+
+13. _Rewrite with the noun after the particle. One word in each gap._  
+   I took my new **jacket** back to the shop, **Malika**.  
+   → I took ______ ______ new **jacket** to the shop, **Malika**.  
+   key: back + my  
+   why: took my new phone back = took back my new phone.
+
+14. _Rewrite with the noun after the particle. One word in each gap._  
+   Put your toys away, **Akmal**. Your **grandparents** are coming.  
+   → Put ______ ______ toys, **Akmal**. Your **grandparents** are coming.  
+   key: away + your  
+   why: put your toys away = put away your toys.
+
+15. _Rewrite with the noun after the particle. One word in each gap._  
+   Let's put the **party** off until next week, **Nodira**.  
+   → Let's put ______ ______ **party** until next week, **Nodira**.  
+   key: off + the  
+   why: put the meeting off = put off the meeting.
+
+## create (8)
+
+1. Write one sentence with turn it down, turn it up, turn it on or turn it off.  
+   must use: turn it off · exactly one sentence · turn + it + particle · it in the middle
+
+2. Write one sentence with pick + a pronoun + up.  
+   must use: I'll pick you up at … · exactly one sentence · pick … up · a pronoun in the middle
+
+3. Write one sentence about clothes with put … on or take … off and a pronoun.  
+   must use: put it on / take them off · exactly one sentence · a pronoun in the middle · clothes
+
+4. Write one sentence asking someone to wake you up.  
+   must use: Please wake me up at … · exactly one sentence · wake me up · a time
+
+5. Write one sentence with give it back or take it back.  
+   must use: … give it back · exactly one sentence · it in the middle · back
+
+6. Write one sentence with write it down or look it up.  
+   must use: write it down / look it up · exactly one sentence · it in the middle · a reason
+
+7. Write one sentence with call + a pronoun + back.  
+   must use: Call her back · exactly one sentence · call … back · a pronoun in the middle
+
+8. Write one sentence with a noun and the same verb: put on your coat or put your coat on.  
+   must use: put on your coat / put your coat on · exactly one sentence · a noun object · either order
+
+## express (5)
+
+1. Write three or four sentences of instructions for a younger brother or sister getting ready for school.  
+   target: put it on / pick them up · look for: a pronoun in the middle · phrasal verbs · three or four sentences
+
+2. Describe buying clothes in a shop. Write three or four sentences.  
+   target: try them on / take them back · look for: a pronoun in the middle · phrasal verbs · three or four sentences
+
+3. Write a short message to a family member about who will pick up whom and when. Write three or four sentences.  
+   target: pick him up / pick them up · look for: pick … up · a pronoun in the middle · three or four sentences
+
+4. Write three or four house rules about the TV, music and lights.  
+   target: turn it off / turn it down · look for: a pronoun in the middle · turn · three or four sentences
+
+5. Write three or four sentences about how you learn new English words.  
+   target: write them down / look them up · look for: a pronoun in the middle · phrasal verbs · three or four sentences

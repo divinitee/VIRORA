@@ -55,8 +55,7 @@ const CHOOSE = [
   ["pick", "her", "up", "My sister lands at nine. I'm going to ______ from the {place}.", { place: ["airport", "station", "bus station", "train station"] }, "pick her up: pronoun in the middle."],
   ["take", "them", "back", "These {thing} are too small. I'll ______ to the shop, {name}.", { thing: ["shoes", "trousers", "gloves", "boots"] }, "take them back: pronoun in the middle."],
   ["turn", "it", "up", "I can't hear the {thing}. Please ______ a little, {name}.", { thing: ["radio", "TV", "music", "news"] }, "turn it up: pronoun in the middle."],
-  ["wake", "us", "up", "The {noise} next door woke ______ last night. Please don't ______ again! Sorry: please don't ______.", { noise: [] }, ""],
-].filter(([, , , , , why]) => why).map(([v, pron, p, prompt, slots, why], i) => {
+].map(([v, pron, p, prompt, slots, why], i) => {
   let pr = prompt;
   const s = fill(pr, slots, i % 2 ? NAME2 : NAME);
   if (Object.keys(s).length < 2) { s.name = i % 2 ? NAME2 : NAME; pr = pr.replace(/([.!?])$/, ", {name}$1"); }
