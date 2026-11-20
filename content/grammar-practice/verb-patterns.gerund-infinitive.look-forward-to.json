@@ -1,0 +1,1702 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm looking forward to ______ you at the {event}, {name}.",
+  "options": [
+   "seeing",
+   "see",
+   "to see",
+   "saw"
+  ],
+  "key": 0,
+  "why": "look forward to + -ing: seeing, because this \"to\" is a preposition.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "match"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children are looking forward to ______ to the {place} on Saturday.",
+  "options": [
+   "go",
+   "to go",
+   "went",
+   "going"
+  ],
+  "key": 3,
+  "why": "after look forward to, use -ing: going.",
+  "slots": {
+   "place": [
+    "zoo",
+    "lake",
+    "water park",
+    "circus"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I look forward to ______ from you about the {thing}, {name}.",
+  "options": [
+   "to hear",
+   "heard",
+   "hearing",
+   "hear"
+  ],
+  "key": 2,
+  "why": "A polite email ending: look forward to hearing.",
+  "slots": {
+   "thing": [
+    "job",
+    "flat",
+    "trip",
+    "course"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We're looking forward to ______ your {who} next week, {name}.",
+  "options": [
+   "met",
+   "meeting",
+   "meet",
+   "to meet"
+  ],
+  "key": 1,
+  "why": "look forward to + -ing: meeting.",
+  "slots": {
+   "who": [
+    "parents",
+    "family",
+    "new boss",
+    "cousins"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents are looking forward to ______ {city} in May.",
+  "options": [
+   "visiting",
+   "visit",
+   "to visit",
+   "visited"
+  ],
+  "key": 0,
+  "why": "look forward to + -ing: visiting.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm really looking forward to ______ my new {job}, {name}.",
+  "options": [
+   "start",
+   "to start",
+   "started",
+   "starting"
+  ],
+  "key": 3,
+  "why": "look forward to + -ing: starting.",
+  "slots": {
+   "job": [
+    "job",
+    "course",
+    "school",
+    "classes"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone is looking forward to ______ a break after the {test}, {name}.",
+  "options": [
+   "to have",
+   "had",
+   "having",
+   "have"
+  ],
+  "key": 2,
+  "why": "look forward to + -ing: having.",
+  "slots": {
+   "test": [
+    "exams",
+    "project",
+    "busy week",
+    "match"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We look forward to ______ the {food} at the new café.",
+  "options": [
+   "tried",
+   "trying",
+   "try",
+   "to try"
+  ],
+  "key": 1,
+  "why": "look forward to + -ing: trying.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "desserts",
+    "coffee"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We look forward to ______ with you at the {place}, {name}.",
+  "options": [
+   "working",
+   "work",
+   "to work",
+   "worked"
+  ],
+  "key": 0,
+  "why": "A formal ending: look forward to working with you.",
+  "slots": {
+   "place": [
+    "office",
+    "school",
+    "hotel",
+    "clinic"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My son is looking forward to ______ in the {match} on Sunday.",
+  "options": [
+   "play",
+   "to play",
+   "played",
+   "playing"
+  ],
+  "key": 3,
+  "why": "look forward to + -ing: playing.",
+  "slots": {
+   "match": [
+    "final",
+    "big match",
+    "school match",
+    "tournament"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Are you looking forward to ______ to {country}, {name}?",
+  "options": [
+   "to travel",
+   "travelled",
+   "travelling",
+   "travel"
+  ],
+  "key": 2,
+  "why": "look forward to + -ing: travelling.",
+  "slots": {
+   "country": [
+    "Japan",
+    "Italy",
+    "Turkey",
+    "Egypt"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm looking forward to ______ the new {film} with you, {name}.",
+  "options": [
+   "watched",
+   "watching",
+   "watch",
+   "to watch"
+  ],
+  "key": 1,
+  "why": "look forward to + -ing: watching.",
+  "slots": {
+   "film": [
+    "film",
+    "series",
+    "show",
+    "cartoon"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She's looking forward to ______ her exam results on {day}.",
+  "options": [
+   "getting",
+   "get",
+   "to get",
+   "got"
+  ],
+  "key": 0,
+  "why": "look forward to + -ing: getting.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Thursday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "After this long {trip}, I'm looking forward to ______ in my own bed, {name}.",
+  "options": [
+   "sleep",
+   "to sleep",
+   "slept",
+   "sleeping"
+  ],
+  "key": 3,
+  "why": "look forward to + -ing: sleeping.",
+  "slots": {
+   "trip": [
+    "trip",
+    "flight",
+    "week",
+    "journey"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm looking forward ______ the {hol}, {name}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "for"
+  ],
+  "key": 2,
+  "why": "The phrase is always look forward to.",
+  "slots": {
+   "hol": [
+    "holidays",
+    "weekend",
+    "summer",
+    "school trip"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We look forward ______ your reply about the {thing}.",
+  "options": [
+   "at",
+   "to",
+   "for",
+   "on"
+  ],
+  "key": 1,
+  "why": "look forward to + noun: to your reply.",
+  "slots": {
+   "thing": [
+    "room",
+    "job",
+    "order",
+    "course"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little brother is looking forward ______ his birthday {event}, {name}.",
+  "options": [
+   "to",
+   "for",
+   "on",
+   "at"
+  ],
+  "key": 0,
+  "why": "look forward to + noun: to his birthday party.",
+  "slots": {
+   "event": [
+    "party",
+    "cake",
+    "presents",
+    "trip"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Are you looking forward ______ the {event} on Friday, {name}?",
+  "options": [
+   "for",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 3,
+  "why": "look forward to, not for or on.",
+  "slots": {
+   "event": [
+    "concert",
+    "wedding",
+    "match",
+    "trip"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our team is looking forward ______ the final in {city}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "for"
+  ],
+  "key": 2,
+  "why": "look forward to + noun: to the final.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I always look forward ______ {hol}, {name}.",
+  "options": [
+   "at",
+   "to",
+   "for",
+   "on"
+  ],
+  "key": 1,
+  "why": "look forward to + noun: to Navruz.",
+  "slots": {
+   "hol": [
+    "Navruz",
+    "New Year",
+    "the summer",
+    "my birthday"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "My cousins live in {city}. I'm looking forward to ______ (see) them, {name}.",
+  "key": "seeing",
+  "why": "look forward to + -ing: seeing. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Fergana",
+    "Andijan",
+    "Nukus"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "We're looking forward to ______ (go) to the {place} tomorrow.",
+  "key": "going",
+  "why": "look forward to + -ing: going. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "place": [
+    "mountains",
+    "lake",
+    "seaside",
+    "countryside"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "I look forward to ______ (hear) your news, {name}.",
+  "key": "hearing",
+  "why": "look forward to + -ing: hearing. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "Our class is looking forward to ______ (meet) the new {who}.",
+  "key": "meeting",
+  "why": "look forward to + -ing: meeting. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "who": [
+    "teacher",
+    "students",
+    "coach",
+    "director"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "My parents are looking forward to ______ (move) into the new {home}, {name}.",
+  "key": "moving",
+  "why": "look forward to + -ing: moving. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "district",
+    "village"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "Grandma is making {food} on Sunday. I'm looking forward to ______ (eat) it, {name}.",
+  "key": "eating",
+  "why": "look forward to + -ing: eating. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "samsa",
+    "soup"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "She's looking forward to ______ (learn) {lang} at university.",
+  "key": "learning",
+  "why": "look forward to + -ing: learning. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "Chinese",
+    "German",
+    "Arabic"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "The kids are looking forward to ______ (swim) in the {water}, {name}.",
+  "key": "swimming",
+  "why": "look forward to + -ing: swimming. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "water": [
+    "sea",
+    "lake",
+    "pool",
+    "river"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "This {work} is almost done. I'm looking forward to ______ (finish) it, {name}.",
+  "key": "finishing",
+  "why": "look forward to + -ing: finishing. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "work": [
+    "project",
+    "essay",
+    "course",
+    "book"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "We're looking forward to ______ (celebrate) {event} together.",
+  "key": "celebrating",
+  "why": "look forward to + -ing: celebrating. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "event": [
+    "Navruz",
+    "New Year",
+    "Mum's birthday",
+    "the wedding"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "I look forward to ______ (work) with your {team}, {name}.",
+  "key": "working",
+  "why": "look forward to + -ing: working. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "team": [
+    "team",
+    "company",
+    "school",
+    "group"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "My son is looking forward to ______ (ride) his new {bike}, {name}.",
+  "key": "riding",
+  "why": "look forward to + -ing: riding. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "bike": [
+    "bike",
+    "scooter",
+    "horse",
+    "skateboard"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "Everyone is looking forward to ______ (have) a day off on {day}.",
+  "key": "having",
+  "why": "look forward to + -ing: having. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Navruz",
+    "Independence Day"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "We're looking forward to ______ (stay) at a hotel in {city}, {name}.",
+  "key": "staying",
+  "why": "look forward to + -ing: staying. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "city": [
+    "Istanbul",
+    "Dubai",
+    "Bukhara",
+    "Khiva"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "Dad is looking forward to ______ (watch) the {match} tonight.",
+  "key": "watching",
+  "why": "look forward to + -ing: watching. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "match": [
+    "final",
+    "big match",
+    "derby",
+    "game"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "Call me later. I'm looking forward to ______ (speak) with you, {name}.",
+  "key": "speaking",
+  "why": "look forward to + -ing: speaking. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "We look forward to ______ (receive) your {doc}, {name}.",
+  "key": "receiving",
+  "why": "look forward to + -ing: receiving. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "doc": [
+    "order",
+    "letter",
+    "application",
+    "photos"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "The children are looking forward to ______ (open) their {thing}.",
+  "key": "opening",
+  "why": "look forward to + -ing: opening. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "thing": [
+    "presents",
+    "gifts",
+    "boxes",
+    "cards"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "I'm looking forward to ______ (show) you my {home}, {name}.",
+  "key": "showing",
+  "why": "look forward to + -ing: showing. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "home": [
+    "new flat",
+    "garden",
+    "town",
+    "school"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the right form of the verb in brackets.",
+  "source": "Are you looking forward to ______ (come) home after the {trip}, {name}?",
+  "key": "coming",
+  "why": "look forward to + -ing: coming. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "slots": {
+   "trip": [
+    "trip",
+    "camp",
+    "course",
+    "long holiday"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I look forward to see you in {city}, {name}.",
+  "hint": "I look forward to ______ you in {city}, {name}.",
+  "key": "seeing",
+  "why": "look forward to + -ing: seeing, not see.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We're looking forward for the {event}, {name}.",
+  "hint": "We're looking forward ______ the {event}, {name}.",
+  "key": "to",
+  "why": "The phrase is look forward to, not for.",
+  "slots": {
+   "event": [
+    "wedding",
+    "holidays",
+    "concert",
+    "match"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She's looking forward to start her new {job}.",
+  "hint": "She's looking forward to ______ her new {job}.",
+  "key": "starting",
+  "why": "look forward to + -ing: starting.",
+  "slots": {
+   "job": [
+    "job",
+    "course",
+    "school",
+    "classes"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My kids look forward to went to the {place}, {name}.",
+  "hint": "My kids look forward to ______ to the {place}, {name}.",
+  "key": "going",
+  "why": "look forward to + -ing: going.",
+  "slots": {
+   "place": [
+    "zoo",
+    "lake",
+    "water park",
+    "circus"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I'm looking forward to meet your {who}, {name}.",
+  "hint": "I'm looking forward to ______ your {who}, {name}.",
+  "key": "meeting",
+  "why": "look forward to + -ing: meeting.",
+  "slots": {
+   "who": [
+    "parents",
+    "family",
+    "sister",
+    "friends"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with looking forward to.",
+  "source": "I can't wait to see the {sight}, {name}!",
+  "hint": "I'm really looking forward to ______ the {sight}, {name}!",
+  "key": "seeing",
+  "why": "look forward to + -ing: seeing.",
+  "slots": {
+   "sight": [
+    "mountains",
+    "sea",
+    "old town",
+    "fireworks"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with looking forward to.",
+  "source": "We can't wait to try the {food} in {city}, {name}.",
+  "hint": "We're looking forward to ______ the {food} in {city}, {name}.",
+  "key": "trying",
+  "why": "look forward to + -ing: trying.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "bread",
+    "kebabs"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Khiva"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with looking forward to.",
+  "source": "My sister can't wait to have a holiday at the {place}, {name}.",
+  "hint": "My sister is really looking forward to ______ a holiday at the {place}, {name}.",
+  "key": "having",
+  "why": "look forward to + -ing: having.",
+  "slots": {
+   "place": [
+    "sea",
+    "lake",
+    "mountains",
+    "dacha"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with looking forward to.",
+  "source": "The kids can't wait to play with their new {thing}, {name}!",
+  "hint": "The kids are looking forward to ______ with their new {thing}, {name}!",
+  "key": "playing",
+  "why": "look forward to + -ing: playing.",
+  "slots": {
+   "thing": [
+    "ball",
+    "game",
+    "puppy",
+    "drone"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with looking forward to.",
+  "source": "I can't wait to sleep in the {place} tonight, {name}.",
+  "hint": "I'm really looking forward to ______ in the {place} tonight, {name}.",
+  "key": "sleeping",
+  "why": "look forward to + -ing: sleeping.",
+  "slots": {
+   "place": [
+    "tent",
+    "mountains",
+    "garden",
+    "new bed"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as a polite ending with I look forward to.",
+  "source": "I hope to hear from you soon, {name}.",
+  "hint": "I look forward to ______ from you soon, {name}.",
+  "key": "hearing",
+  "why": "Email ending: I look forward to hearing from you.",
+  "slots": {
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as a polite ending with I look forward to.",
+  "source": "I hope we meet at the {event}, {name}.",
+  "hint": "I look forward to ______ you at the {event}, {name}.",
+  "key": "meeting",
+  "why": "look forward to + -ing: meeting you.",
+  "slots": {
+   "event": [
+    "conference",
+    "meeting",
+    "party",
+    "interview"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as a polite ending with I look forward to.",
+  "source": "I hope to work with your {team}, {name}.",
+  "hint": "I look forward to ______ with your {team}, {name}.",
+  "key": "working",
+  "why": "look forward to + -ing: working.",
+  "slots": {
+   "team": [
+    "team",
+    "company",
+    "school",
+    "group"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as a polite ending with I look forward to.",
+  "source": "I hope to receive your answer about the {thing} soon.",
+  "hint": "I look forward to ______ your answer about the {thing}.",
+  "key": "receiving",
+  "why": "look forward to + -ing: receiving.",
+  "slots": {
+   "thing": [
+    "room",
+    "job",
+    "order",
+    "course"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as a polite ending with I look forward to.",
+  "source": "I hope to visit your {place} next month, {name}.",
+  "hint": "I look forward to ______ your {place} next month, {name}.",
+  "key": "visiting",
+  "why": "look forward to + -ing: visiting.",
+  "slots": {
+   "place": [
+    "school",
+    "office",
+    "factory",
+    "shop"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you are looking forward to this month.",
+  "requiredElement": "I'm looking forward to + -ing / noun",
+  "constraints": [
+   "exactly one sentence",
+   "looking forward to",
+   "-ing or a noun"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a polite last sentence for an email to a new teacher.",
+  "requiredElement": "I look forward to + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "look forward to",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a trip you are looking forward to.",
+  "requiredElement": "… looking forward to visiting / going …",
+  "constraints": [
+   "exactly one sentence",
+   "looking forward to",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question with Are you looking forward to …?",
+  "requiredElement": "Are you looking forward to …?",
+  "constraints": [
+   "exactly one question",
+   "looking forward to",
+   "a question mark"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a family member who is looking forward to something.",
+  "requiredElement": "My … is looking forward to …",
+  "constraints": [
+   "exactly one sentence",
+   "is looking forward to",
+   "-ing or a noun"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with look forward to + a noun (no verb).",
+  "requiredElement": "look forward to + noun",
+  "constraints": [
+   "exactly one sentence",
+   "look forward to",
+   "a noun"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with can't wait to and one with looking forward to.",
+  "requiredElement": "can't wait to + base / look forward to + -ing",
+  "constraints": [
+   "exactly two sentences",
+   "can't wait to + base",
+   "looking forward to + -ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you are NOT looking forward to.",
+  "requiredElement": "I'm not looking forward to …",
+  "constraints": [
+   "exactly one sentence",
+   "not looking forward to",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short email (three or four sentences) to a new pen friend. End with look forward to.",
+  "targetGrammar": "look forward to + -ing",
+  "lookFor": [
+   "look forward to",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the next holiday. What are you and your family looking forward to? Write three or four sentences.",
+  "targetGrammar": "looking forward to + -ing / noun",
+  "lookFor": [
+   "looking forward to",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about your plans for next year and what you look forward to.",
+  "targetGrammar": "look forward to",
+  "lookFor": [
+   "look forward to",
+   "-ing or a noun",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short formal email (three or four sentences) to a hotel about your booking.",
+  "targetGrammar": "formal look forward to",
+  "lookFor": [
+   "I look forward to",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about things you are and aren't looking forward to this week.",
+  "targetGrammar": "(not) looking forward to",
+  "lookFor": [
+   "looking forward to",
+   "not looking forward to",
+   "-ing"
+  ]
+ }
+]

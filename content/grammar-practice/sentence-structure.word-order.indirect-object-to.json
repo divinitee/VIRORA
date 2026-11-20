@@ -1,0 +1,1840 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} ______ again, {name}.",
+  "options": [
+   "explained the rule to us",
+   "explained us the rule",
+   "explained the rule us",
+   "explained for us the rule"
+  ],
+  "key": 0,
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "tutor",
+    "trainer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ {when}. It sounds lovely.",
+  "options": [
+   "described me the hotel",
+   "described the hotel me",
+   "described for me the hotel",
+   "described the hotel to me"
+  ],
+  "key": 3,
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you ______, {name}? I don't understand the {thing}.",
+  "options": [
+   "explain this word me",
+   "explain for me this word",
+   "explain this word to me",
+   "explain me this word"
+  ],
+  "key": 2,
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "text",
+    "story",
+    "question",
+    "song"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother ______ at the {event}, {name}.",
+  "options": [
+   "introduced for me his friend",
+   "introduced his friend to me",
+   "introduced me his friend",
+   "introduced his friend me"
+  ],
+  "key": 1,
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She ______ before the {event} ended, {name}.",
+  "options": [
+   "said goodbye to everyone",
+   "said everyone goodbye",
+   "said goodbye everyone",
+   "said for everyone goodbye"
+  ],
+  "key": 0,
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The waiter ______, {name}. It was {adj}.",
+  "options": [
+   "suggested us a dish",
+   "suggested a dish us",
+   "suggested for us a dish",
+   "suggested a dish to us"
+  ],
+  "key": 3,
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "adj": [
+    "delicious",
+    "very spicy",
+    "great",
+    "too salty"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} needed a {thing}, so I ______.",
+  "options": [
+   "lent it at him",
+   "lent at him it",
+   "lent it to him",
+   "lent to him it"
+  ],
+  "key": 2,
+  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "pen",
+    "bike",
+    "laptop",
+    "jacket"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandma wanted to see the {photo}, so I ______, {name}.",
+  "options": [
+   "showed at her them",
+   "showed them to her",
+   "showed to her them",
+   "showed them at her"
+  ],
+  "key": 1,
+  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "slots": {
+   "photo": [
+    "photos",
+    "pictures",
+    "videos",
+    "drawings"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you pass the {thing} ______ me, {name}?",
+  "options": [
+   "to",
+   "at",
+   "with",
+   "–"
+  ],
+  "key": 0,
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "salt",
+    "bread",
+    "water",
+    "sugar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I lent my {thing} ______ {name} last week.",
+  "options": [
+   "at",
+   "with",
+   "–",
+   "to"
+  ],
+  "key": 3,
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "bike",
+    "camera",
+    "laptop",
+    "tent"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She showed her {photos} ______ the whole class, {name}.",
+  "options": [
+   "with",
+   "–",
+   "to",
+   "at"
+  ],
+  "key": 2,
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "photos": [
+    "photos",
+    "drawings",
+    "stamps",
+    "medals"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please give this {thing} ______ your teacher, {name}.",
+  "options": [
+   "–",
+   "to",
+   "at",
+   "with"
+  ],
+  "key": 1,
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "letter",
+    "note",
+    "book",
+    "form"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mum handed the {thing} ______ the waiter, {name}.",
+  "options": [
+   "to",
+   "at",
+   "with",
+   "–"
+  ],
+  "key": 0,
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "money",
+    "menu",
+    "card",
+    "plates"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandpa explained the rules of {game} ______ the children, {name}.",
+  "options": [
+   "at",
+   "with",
+   "–",
+   "to"
+  ],
+  "key": 3,
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "game": [
+    "chess",
+    "backgammon",
+    "the game",
+    "football"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I bought a {thing} ______ my mum, {name}.",
+  "options": [
+   "at",
+   "–",
+   "for",
+   "to"
+  ],
+  "key": 2,
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "thing": [
+    "scarf",
+    "cake",
+    "bag",
+    "plant"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dad cooked {food} ______ all of us {when}.",
+  "options": [
+   "–",
+   "for",
+   "to",
+   "at"
+  ],
+  "key": 1,
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "dinner",
+    "breakfast"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} made a {cake} ______ her grandmother.",
+  "options": [
+   "for",
+   "to",
+   "at",
+   "–"
+  ],
+  "key": 0,
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "cake": [
+    "cake",
+    "card",
+    "scarf",
+    "pie"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you find a seat ______ my grandmother, {name}? She's {age}.",
+  "options": [
+   "to",
+   "at",
+   "–",
+   "for"
+  ],
+  "key": 3,
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "age": [
+    "eighty",
+    "ninety",
+    "very old",
+    "tired"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My aunt booked a room ______ us at the {place}, {name}.",
+  "options": [
+   "at",
+   "–",
+   "for",
+   "to"
+  ],
+  "key": 2,
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "place": [
+    "hotel",
+    "guesthouse",
+    "hostel",
+    "resort"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'll keep a seat ______ you, {name}. The {event} starts at {time}.",
+  "options": [
+   "–",
+   "for",
+   "to",
+   "at"
+  ],
+  "key": 1,
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "film",
+    "concert",
+    "match",
+    "show"
+   ],
+   "time": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Please lend your {thing} ______ me {when}, {name}.",
+  "key": "to",
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "notes",
+    "pen",
+    "umbrella",
+    "charger"
+   ],
+   "when": [
+    "today",
+    "tonight",
+    "for a day",
+    "now"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "I explained the problem ______ my {who}, {name}.",
+  "key": "to",
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "who": [
+    "boss",
+    "teacher",
+    "parents",
+    "neighbour"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "She described her new {place} ______ us, {name}.",
+  "key": "to",
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "place": [
+    "flat",
+    "school",
+    "office",
+    "village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Pass this {thing} ______ the person on your left, {name}.",
+  "key": "to",
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "paper",
+    "list",
+    "book",
+    "plate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "{name} said sorry ______ his {who}.",
+  "key": "to",
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "brother",
+    "teacher",
+    "neighbour",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Show your {thing} ______ the driver, {name}.",
+  "key": "to",
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "pass",
+    "card",
+    "passport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "I introduced my cousin ______ my friends at the {event}, {name}.",
+  "key": "to",
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "He lent his {thing} ______ me {when}.",
+  "key": "to",
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "car",
+    "bike",
+    "camera",
+    "laptop"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Pass the {thing} ______ {name}, please!",
+  "key": "to",
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "ball",
+    "salt",
+    "bread",
+    "pen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Mum handed the {thing} ______ the waiter, {name}.",
+  "key": "to",
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "money",
+    "menu",
+    "card",
+    "plates"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "I bought a {thing} ______ my little sister, {name}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "thing": [
+    "doll",
+    "book",
+    "kite",
+    "ball"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Dad cooked {food} ______ the guests {when}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "dinner",
+    "shashlik"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "{name} made a {card} ______ her teacher.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "card": [
+    "card",
+    "cake",
+    "poster",
+    "scarf"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Can you open the {thing} ______ me, {name}?",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "thing": [
+    "jar",
+    "bottle",
+    "box",
+    "tin"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "I'll carry your {thing} ______ you, {name}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "thing": [
+    "bag",
+    "suitcase",
+    "box",
+    "books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "My aunt found a good {who} ______ us, {name}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "who": [
+    "doctor",
+    "flat",
+    "tutor",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Could you hold this {thing} ______ me, {name}? My hands are full.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "thing": [
+    "bag",
+    "box",
+    "coat",
+    "umbrella"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "We booked a table ______ {n} people at the {place}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "n": [
+    "six",
+    "eight",
+    "ten",
+    "twelve"
+   ],
+   "place": [
+    "restaurant",
+    "café",
+    "hotel",
+    "chaikhana"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "Can you buy some {thing} ______ Grandma, {name}?",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "thing": [
+    "bread",
+    "milk",
+    "fruit",
+    "medicine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to or for.",
+  "source": "I'll save a seat ______ you at the {event}, {name}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "event": [
+    "concert",
+    "match",
+    "show",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with it or them and to or for.",
+  "source": "I gave my sister the {thing}, {name}.",
+  "hint": "I gave ______ ______ my sister, {name}.",
+  "key": [
+   "it",
+   "to"
+  ],
+  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "slots": {
+   "thing": [
+    "scarf",
+    "book",
+    "bag",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with it or them and to or for.",
+  "source": "Dad bought Mum the {thing}, {name}.",
+  "hint": "Dad bought ______ ______ Mum, {name}.",
+  "key": [
+   "them",
+   "for"
+  ],
+  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "slots": {
+   "thing": [
+    "flowers",
+    "tickets",
+    "shoes",
+    "earrings"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with it or them and to or for.",
+  "source": "Can you show me the {thing}, {name}?",
+  "hint": "Can you show ______ ______ me, {name}?",
+  "key": [
+   "them",
+   "to"
+  ],
+  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "slots": {
+   "thing": [
+    "photos",
+    "pictures",
+    "videos",
+    "drawings"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with it or them and to or for.",
+  "source": "{name} made her brother the {thing}.",
+  "hint": "{name} made ______ ______ her brother.",
+  "key": [
+   "it",
+   "for"
+  ],
+  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "thing": [
+    "cake",
+    "pie",
+    "card",
+    "kite"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with it or them and to or for.",
+  "source": "Please send your teacher the {thing}, {name}.",
+  "hint": "Please send ______ ______ your teacher, {name}.",
+  "key": [
+   "it",
+   "to"
+  ],
+  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "slots": {
+   "thing": [
+    "file",
+    "essay",
+    "photo",
+    "form"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Can you explain me the {thing}, {name}?",
+  "hint": "Can you explain the {thing} ______, {name}?",
+  "key": "to me",
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "thing": [
+    "rule",
+    "homework",
+    "plan",
+    "problem"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She described us her {place}, {name}.",
+  "hint": "She described her {place} ______, {name}.",
+  "key": "to us",
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "place": [
+    "new flat",
+    "school",
+    "village",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "He said me hello at the {event}, {name}.",
+  "hint": "He said hello ______ at the {event}, {name}.",
+  "key": "to me",
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Let me introduce you my {who}, {name}.",
+  "hint": "Let me introduce my {who} ______, {name}.",
+  "key": "to you",
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "who": [
+    "sister",
+    "cousin",
+    "best friend",
+    "neighbour"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The doctor suggested me a new {thing}, {name}.",
+  "hint": "The doctor suggested a new {thing} ______, {name}.",
+  "key": "to me",
+  "acceptable": [
+   "for me"
+  ],
+  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "slots": {
+   "thing": [
+    "diet",
+    "exercise plan",
+    "medicine",
+    "routine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I bought a {thing} to my mum, {name}.",
+  "hint": "I bought a {thing} ______ my mum, {name}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "thing": [
+    "scarf",
+    "cake",
+    "bag",
+    "plant"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Dad cooked {food} to us {when}.",
+  "hint": "Dad cooked {food} ______ us {when}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "dinner",
+    "breakfast"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Please give this {thing} for your teacher, {name}.",
+  "hint": "Please give this {thing} ______ your teacher, {name}.",
+  "key": "to",
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "letter",
+    "note",
+    "book",
+    "form"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She lent her {thing} for me {when}.",
+  "hint": "She lent her {thing} ______ me {when}.",
+  "key": "to",
+  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "slots": {
+   "thing": [
+    "bike",
+    "camera",
+    "dress",
+    "laptop"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Can you find a seat to my grandmother, {name}? She's {age}.",
+  "hint": "Can you find a seat ______ my grandmother, {name}? She's {age}.",
+  "key": "for",
+  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "age": [
+    "eighty",
+    "ninety",
+    "very old",
+    "tired"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence asking a teacher to explain something to you.",
+  "requiredElement": "Could you explain … to me?",
+  "constraints": [
+   "exactly one sentence",
+   "explain + thing + to me",
+   "no explain me"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a present you bought for someone.",
+  "requiredElement": "I bought … for my …",
+  "constraints": [
+   "exactly one sentence",
+   "bought + thing + for + person",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you lent to a friend. Use it.",
+  "requiredElement": "I lent it to …",
+  "constraints": [
+   "exactly one sentence",
+   "lent it to",
+   "a person"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about introducing a friend to your family.",
+  "requiredElement": "I introduced … to my …",
+  "constraints": [
+   "exactly one sentence",
+   "introduce + person + to",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food someone cooked for you.",
+  "requiredElement": "My … cooked … for me.",
+  "constraints": [
+   "exactly one sentence",
+   "cooked + food + for",
+   "a person"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence describing your town to a new friend.",
+  "requiredElement": "Let me describe my town to you: …",
+  "constraints": [
+   "exactly one sentence",
+   "describe + thing + to",
+   "a place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about photos you showed someone. Use them.",
+  "requiredElement": "I showed them to …",
+  "constraints": [
+   "exactly one sentence",
+   "showed them to",
+   "a person"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with to + person and one with for + person.",
+  "requiredElement": "I gave … to … / I made … for …",
+  "constraints": [
+   "exactly two sentences",
+   "to + person",
+   "for + person"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a family birthday: what people bought, made or gave for the birthday person.",
+  "targetGrammar": "We bought … for her. My brother gave … to her.",
+  "lookFor": [
+   "to and for",
+   "past verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a classmate asking them to explain a lesson to you.",
+  "targetGrammar": "Could you explain … to me? Can you send … to me?",
+  "lookFor": [
+   "explain … to me",
+   "to + person",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how you helped a guest who came to your town.",
+  "targetGrammar": "I showed the old town to her. I found a hotel for her.",
+  "lookFor": [
+   "to and for",
+   "past verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe things you lent or gave to friends this year.",
+  "targetGrammar": "I lent my … to … / I gave it to …",
+  "lookFor": [
+   "to + person",
+   "it or them",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a meal you cooked for your family or friends.",
+  "targetGrammar": "I cooked … for … and gave … to …",
+  "lookFor": [
+   "to and for",
+   "past verbs",
+   "three or four sentences"
+  ]
+ }
+]

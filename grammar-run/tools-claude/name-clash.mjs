@@ -1,5 +1,6 @@
 // Claude's check (wave C fixes): a slot filler that is also a person printed in the same item
-// ("Olga isn't at the lesson … She might be ill, Olga."). Prints topic | stage#n | slot=value | text.
+// ("Olga isn't at the lesson … She might be ill, Olga."), or two name slots that share a value.
+// Prints topic | stage#n | slot=value | text.
 // Run: node grammar-run/tools-claude/name-clash.mjs <topic-key> [...]
 import { readdirSync } from "node:fs";
 const keys = process.argv.slice(2).length ? process.argv.slice(2) : readdirSync("src/lib/grammarPractice/bank").map((f) => f.replace(/\.js$/, ""));
@@ -16,8 +17,8 @@ for (const k of keys) {
         if (!/^[A-Z][a-z]+$/.test(v)) continue;
         if (new RegExp(`\\b${v}\\b`).test(printed)) { n++; console.log(`${k} | ${it.stage}#${cnt[it.stage]} | ${slot}=${v} | ${text.slice(0, 110)}`); }
       }
-      // two name slots in one item that share a value
     }
+    // two name slots in one item that share a value
     const nameSlots = Object.entries(it.slots || {}).filter(([, v]) => v.every((x) => /^[A-Z][a-z]+$/.test(x)));
     for (let a = 0; a < nameSlots.length; a++) for (let b = a + 1; b < nameSlots.length; b++) {
       const both = nameSlots[a][1].filter((x) => nameSlots[b][1].includes(x));

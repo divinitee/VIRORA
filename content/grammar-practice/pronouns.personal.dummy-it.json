@@ -1,0 +1,1843 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Take a coat, {name}. ______ very cold {when}.",
+  "options": [
+   "It's",
+   "Is",
+   "There is",
+   "It has"
+  ],
+  "key": 0,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "when": [
+    "today",
+    "this morning",
+    "outside",
+    "tonight"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ raining again in {city}, {name}.",
+  "options": [
+   "Is",
+   "There is",
+   "It has",
+   "It's"
+  ],
+  "key": 3,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look outside, {name}! ______ snowing {how}.",
+  "options": [
+   "There is",
+   "It has",
+   "It's",
+   "Is"
+  ],
+  "key": 2,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "how": [
+    "again",
+    "a lot",
+    "so hard",
+    "at last"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ was very windy at the {place} {when}.",
+  "options": [
+   "Its",
+   "It",
+   "There",
+   "–"
+  ],
+  "key": 1,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "lake",
+    "beach",
+    "park",
+    "stadium"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is it hot at your grandma's house in {month}, {name}? Yes, ______ really hot.",
+  "options": [
+   "it's",
+   "is",
+   "there is",
+   "it has"
+  ],
+  "key": 0,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "month": [
+    "June",
+    "July",
+    "August",
+    "May"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ will be sunny {when}, so let's go to the {place}.",
+  "options": [
+   "There",
+   "–",
+   "This",
+   "It"
+  ],
+  "key": 3,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "on Saturday",
+    "this weekend",
+    "on Sunday"
+   ],
+   "place": [
+    "park",
+    "lake",
+    "mountains",
+    "river"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't like winter because ______ dark at {h}, {name}.",
+  "options": [
+   "there is",
+   "it has",
+   "it's",
+   "is"
+  ],
+  "key": 2,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "h": [
+    "four",
+    "five",
+    "half past four",
+    "five o'clock"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Let's go inside, {name}. ______ getting cold {where}.",
+  "options": [
+   "It has",
+   "It's",
+   "Is",
+   "There is"
+  ],
+  "key": 1,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "where": [
+    "out here",
+    "in the yard",
+    "on the balcony",
+    "in the park"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ very hot in summer here, so we sleep on the {place}, {name}.",
+  "options": [
+   "It's",
+   "Is",
+   "There is",
+   "It has"
+  ],
+  "key": 0,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "balcony",
+    "terrace",
+    "porch",
+    "roof"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What time is it, {name}? ______ half past {h}.",
+  "options": [
+   "Is",
+   "There is",
+   "They are",
+   "It's"
+  ],
+  "key": 3,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "h": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ already {h}. We should go home, {name}.",
+  "options": [
+   "There is",
+   "They are",
+   "It's",
+   "Is"
+  ],
+  "key": 2,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "h": [
+    "ten",
+    "eleven",
+    "midnight",
+    "very late"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ my birthday {when}, {name}!",
+  "options": [
+   "Has",
+   "It's",
+   "Is",
+   "There is"
+  ],
+  "key": 1,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "next week",
+    "today"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ Sunday, so the {place} is closed, {name}.",
+  "options": [
+   "It's",
+   "Is",
+   "There is",
+   "Today"
+  ],
+  "key": 0,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "bank",
+    "post office",
+    "school",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ a long way to the {place} from here, {name}.",
+  "options": [
+   "Is",
+   "It has",
+   "Has",
+   "It's"
+  ],
+  "key": 3,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "sea",
+    "mountains"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ not far to the {place}. We can walk, {name}.",
+  "options": [
+   "It has",
+   "Has",
+   "It's",
+   "Is"
+  ],
+  "key": 2,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "park",
+    "school",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ about {n} kilometres from my house to the {place}.",
+  "options": [
+   "Has",
+   "It's",
+   "Is",
+   "It has"
+  ],
+  "key": 1,
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "five",
+    "ten"
+   ],
+   "place": [
+    "school",
+    "station",
+    "bazaar",
+    "river"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ about twenty minutes to get to the {place}, {name}.",
+  "options": [
+   "It takes",
+   "Takes",
+   "Is",
+   "It has"
+  ],
+  "key": 0,
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "bazaar",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ a long time to cook {food}, {name}.",
+  "options": [
+   "Takes",
+   "Is",
+   "It has",
+   "It takes"
+  ],
+  "key": 3,
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "sumalak",
+    "halim"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How long does the trip last? ______ about an hour by {transport}, {name}.",
+  "options": [
+   "Is",
+   "It has",
+   "It takes",
+   "Takes"
+  ],
+  "key": 2,
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "car",
+    "taxi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ me ten minutes to walk to {place} every day, {name}.",
+  "options": [
+   "It has",
+   "It takes",
+   "Takes",
+   "Is"
+  ],
+  "key": 1,
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "place": [
+    "school",
+    "work",
+    "the station",
+    "the gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ is very cold {when}, {name}. Wear a hat.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "when": [
+    "today",
+    "outside",
+    "this morning",
+    "tonight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ was raining all day in {city}, so we stayed at {place}.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "place": [
+    "home",
+    "the hotel",
+    "our aunt's",
+    "the museum"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "Is ______ far to the {place}, {name}?",
+  "key": "it",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "bazaar",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ was sunny and warm at the {place} {when}.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "lake",
+    "beach",
+    "park",
+    "river"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "What time is ______ now, {name}? I left my phone at {place}.",
+  "key": "it",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "home",
+    "school",
+    "work",
+    "the café"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ takes about {n} minutes to walk to the {place}.",
+  "key": "It",
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "n": [
+    "ten",
+    "fifteen",
+    "twenty",
+    "thirty"
+   ],
+   "place": [
+    "station",
+    "bazaar",
+    "park",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ is my sister's birthday {when}, {name}.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "on Sunday",
+    "next week",
+    "today"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ is getting dark. Let's go back {where}, {name}.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "where": [
+    "home",
+    "to the car",
+    "to the hotel",
+    "inside"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ was very windy on the {place} yesterday, {name}.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "bridge",
+    "hill",
+    "beach",
+    "roof"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ is about {n} kilometres from here to the {place}.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "five",
+    "ten"
+   ],
+   "place": [
+    "airport",
+    "station",
+    "lake",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ will be hot {when}, so take some water, {name}.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "this afternoon",
+    "at the match",
+    "on the trip"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ took us {n} hours to get to {city}.",
+  "key": "It",
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ is half past {h}. The {show} starts soon.",
+  "key": "It",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "h": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ],
+   "show": [
+    "film",
+    "match",
+    "lesson",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ are two {places} on our street, {name}.",
+  "key": "There",
+  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "slots": {
+   "places": [
+    "banks",
+    "cafés",
+    "bakeries",
+    "pharmacies"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ were many people at the {event} {when}.",
+  "key": "There",
+  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ are no clouds in the sky {when}, {name}.",
+  "key": "There",
+  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "slots": {
+   "when": [
+    "today",
+    "this morning",
+    "right now",
+    "tonight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ are {n} students in my {group}.",
+  "key": "There",
+  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "slots": {
+   "n": [
+    "twelve",
+    "fifteen",
+    "twenty",
+    "thirty"
+   ],
+   "group": [
+    "class",
+    "group",
+    "English class",
+    "course"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ were some nice photos on the {thing}, {name}.",
+  "key": "There",
+  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "slots": {
+   "thing": [
+    "wall",
+    "website",
+    "desk",
+    "table"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "______ are lots of {fruit} at the bazaar {when}.",
+  "key": "There",
+  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "slots": {
+   "fruit": [
+    "melons",
+    "apples",
+    "grapes",
+    "peaches"
+   ],
+   "when": [
+    "in summer",
+    "in August",
+    "today",
+    "this week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write it or there.",
+  "source": "Are ______ any {things} left, {name}?",
+  "key": "there",
+  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "slots": {
+   "things": [
+    "eggs",
+    "tickets",
+    "apples",
+    "seats"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the missing subject.",
+  "source": "Is very cold in the {room}, {name}.",
+  "hint": "______ very cold in the {room}, {name}.",
+  "key": "It's",
+  "acceptable": [
+   "It is"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "bedroom",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the missing subject.",
+  "source": "Is raining again {when}, {name}.",
+  "hint": "______ raining again {when}, {name}.",
+  "key": "It's",
+  "acceptable": [
+   "It is"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "when": [
+    "today",
+    "this morning",
+    "this week",
+    "tonight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the missing subject.",
+  "source": "Was very hot at the {event} {when}.",
+  "hint": "______ very hot at the {event} {when}.",
+  "key": "It was",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the missing subject.",
+  "source": "Takes {n} minutes to get to the {place}.",
+  "hint": "______ {n} minutes to get to the {place}.",
+  "key": "It takes",
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "n": [
+    "ten",
+    "fifteen",
+    "twenty",
+    "forty"
+   ],
+   "place": [
+    "station",
+    "airport",
+    "bazaar",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add the missing subject.",
+  "source": "Is a long way to the {place}, {name}.",
+  "hint": "______ a long way to the {place}, {name}.",
+  "key": "It's",
+  "acceptable": [
+   "It is"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "airport",
+    "sea",
+    "mountains",
+    "village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There is very windy {when}, {name}.",
+  "hint": "______ very windy {when}, {name}.",
+  "key": "It's",
+  "acceptable": [
+   "It is"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "when": [
+    "today",
+    "outside",
+    "this morning",
+    "tonight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There was very hot in the {place} {when}.",
+  "hint": "______ very hot in the {place} {when}.",
+  "key": "It was",
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "bus",
+    "room",
+    "car",
+    "kitchen"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There is already {h}, {name}.",
+  "hint": "______ already {h}, {name}.",
+  "key": "It's",
+  "acceptable": [
+   "It is"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "h": [
+    "ten",
+    "eleven",
+    "midnight",
+    "very late"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There are five kilometres to the {place}, {name}.",
+  "hint": "______ five kilometres to the {place}, {name}.",
+  "key": "It's",
+  "acceptable": [
+   "It is"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "station",
+    "lake",
+    "bazaar",
+    "airport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There takes an hour by {transport} to get to {city}.",
+  "hint": "______ an hour by {transport} to get to {city}.",
+  "key": "It takes",
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "transport": [
+    "bus",
+    "train",
+    "car",
+    "taxi"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "It is far to the {place}, {name}.",
+  "hint": "______ ______ far to the {place}, {name}?",
+  "key": [
+   "Is",
+   "it"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "bazaar",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "It was cold in {city} {when}.",
+  "hint": "______ ______ cold in {city} {when}?",
+  "key": [
+   "Was",
+   "it"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "It takes a long time to get to the {place}, {name}.",
+  "hint": "How long ______ ______ take to get to the {place}, {name}?",
+  "key": [
+   "does",
+   "it"
+  ],
+  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "slots": {
+   "place": [
+    "airport",
+    "village",
+    "lake",
+    "mountains"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "It will rain {when}, {name}.",
+  "hint": "______ ______ rain {when}, {name}?",
+  "key": [
+   "Will",
+   "it"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "tonight",
+    "this afternoon",
+    "on Saturday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "It is {h} o'clock, {name}.",
+  "hint": "What time ______ ______, {name}?",
+  "key": [
+   "is",
+   "it"
+  ],
+  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "slots": {
+   "h": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather today.",
+  "requiredElement": "It's … today.",
+  "constraints": [
+   "exactly one sentence",
+   "It as the subject",
+   "no There is + adjective"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence saying what time it is now.",
+  "requiredElement": "It's … o'clock.",
+  "constraints": [
+   "exactly one sentence",
+   "It's + time",
+   "no They are"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how far your home is from your school or work.",
+  "requiredElement": "It's about … kilometres from my house to …",
+  "constraints": [
+   "exactly one sentence",
+   "It's + distance",
+   "from … to …"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how long your journey to school or work takes.",
+  "requiredElement": "It takes me … to get to …",
+  "constraints": [
+   "exactly one sentence",
+   "It takes + time",
+   "a present verb"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather yesterday.",
+  "requiredElement": "It was … yesterday.",
+  "constraints": [
+   "exactly one sentence",
+   "It was",
+   "a past time word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather tomorrow.",
+  "requiredElement": "It will be … tomorrow.",
+  "constraints": [
+   "exactly one sentence",
+   "It will",
+   "a future time word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question about the distance to a place.",
+  "requiredElement": "Is it far to …?",
+  "constraints": [
+   "exactly one question",
+   "Is it",
+   "a place"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with It's for weather and one with There are for things.",
+  "requiredElement": "It's sunny. There are …",
+  "constraints": [
+   "exactly two sentences",
+   "It for weather",
+   "There for things that exist"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the weather in your town in winter and in summer.",
+  "targetGrammar": "In winter it's … In summer it …",
+  "lookFor": [
+   "It as the subject",
+   "weather words",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your journey to school or work.",
+  "targetGrammar": "It's about … kilometres. It takes me … It's …",
+  "lookFor": [
+   "It's + distance",
+   "It takes + time",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a friend who is visiting tomorrow: weather, time, distance.",
+  "targetGrammar": "It will be … It takes … It's not far …",
+  "lookFor": [
+   "dummy it",
+   "future and present",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a day when the weather changed your plans.",
+  "targetGrammar": "It was raining, so … Then it got …",
+  "lookFor": [
+   "It was / It got",
+   "past verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "personal",
+  "topic": "dummy-it",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your favourite season.",
+  "targetGrammar": "It's warm … It gets dark … There are …",
+  "lookFor": [
+   "It for weather",
+   "There for things",
+   "three or four sentences"
+  ]
+ }
+]
