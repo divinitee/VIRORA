@@ -77,17 +77,16 @@ const BUILD = [
   ["across", "The {animal} swam ______ the river to the far bank, {name}.", { animal: ["dog", "horse", "duck", "boy"] }, "\"to the far bank\" = to the other side: across."],
   ["along", "There are lots of {thing} ______ the coast near {city}.", { thing: ["hotels", "beaches", "cafés", "villages"], city: ["Antalya", "Batumi", "Dubai", "Sochi"] }, "In a line following the coast: along."],
   ["through", "Come in ______ the back door. The front door is locked, {name}.", { name: NAME }, "In one side of the door: through."],
-  ["across", "We flew ______ the {water} to get to {city}, {name}.", { water: ["Caspian Sea", "Black Sea", "sea", "ocean"], city: ["Baku", "Istanbul", "Batumi", "London"] }, "From one side of the sea to the other: across."],
+  ["across", "We flew ______ the {water} to get to the island, {name}.", { water: ["sea", "ocean", "lake", "bay"] }, "From one side of the sea to the other: across."],
   ["along", "The old men sat on benches ______ the {path}, {name}.", { path: ["path", "river", "wall", "street"] }, "In a line beside the path: along."],
   ["through", "The sun shone ______ the {window} onto my desk, {name}.", { window: ["window", "curtains", "leaves", "glass roof"] }, "The light came from one side to the other: through."],
   ["across", "My sister lives ______ the street from my school, {name}. I visit her after {lesson}.", { lesson: ["lessons", "school", "football", "music club"] }, "On the other side of the street: across."],
   ["along", "We drove ______ the river for ten kilometres before we found a bridge, {name}.", { name: NAME2 }, "For ten kilometres beside the river: along."],
-  ["through", "The thief ran ______ the house", { x: [] }, ""],
   ["across", "The {kid} drew a line ______ the page from left to right, {name}.", { kid: ["boy", "teacher", "girl", "student"] }, "\"from left to right\" = from one side to the other: across."],
   ["along", "Ducks swam slowly ______ the {water}, close to the bank.", { water: ["canal", "river", "stream", "lake shore"] }, "Following the bank: along."],
   ["through", "It's quicker to go ______ the {place} than round it, {name}.", { place: ["shopping centre", "station", "building", "underpass"] }, "In one end of the building and out the other: through."],
   ["along", "We walked ______ the old city wall in {city}, {name}.", { city: ["Khiva", "Bukhara", "Istanbul", "Derbent"] }, "Following the wall: along."],
-].filter(([, , , why]) => why).map(([key, source, slots, why], i) => {
+].map(([key, source, slots, why], i) => {
   let src = source;
   const s = fill(src, slots, i % 2 ? NAME2 : NAME);
   if (Object.keys(s).length < 2) {

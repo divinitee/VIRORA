@@ -920,21 +920,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write across, through or along.",
-  "source": "We flew ______ the {water} to get to {city}, {name}.",
+  "source": "We flew ______ the {water} to get to the island, {name}.",
   "key": "across",
   "why": "From one side of the sea to the other: across.",
   "slots": {
    "water": [
-    "Caspian Sea",
-    "Black Sea",
     "sea",
-    "ocean"
-   ],
-   "city": [
-    "Baku",
-    "Istanbul",
-    "Batumi",
-    "London"
+    "ocean",
+    "lake",
+    "bay"
    ],
    "name": [
     "Malika",
