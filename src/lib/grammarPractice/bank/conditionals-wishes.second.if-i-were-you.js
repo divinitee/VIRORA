@@ -650,7 +650,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
-  "source": "If I were you, I ______ (apply) for the job at the {place}, {name}.",
+  "source": "You'd be great there. If I were you, I ______ (apply) for the job at the {place}, {name}.",
   "key": "would apply",
   "why": "Advice: If I were you, I would + base verb.",
   "slots": {
@@ -920,7 +920,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
-  "source": "If I were you, I ______ (speak) English every day with {who}, {name}.",
+  "source": "Want fast progress? If I were you, I ______ (speak) English every day with {who}, {name}.",
   "key": "would speak",
   "why": "Advice: If I were you, I would + base verb.",
   "slots": {
@@ -1028,7 +1028,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
-  "source": "If I were you, I ______ (not / drive) in this {weather}, {name}.",
+  "source": "The roads are dangerous. If I were you, I ______ (not / drive) in this {weather}, {name}.",
   "key": "wouldn't drive",
   "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
   "slots": {
@@ -1148,7 +1148,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
-  "source": "If I were you, I ______ (not / leave) your {thing} in the car, {name}.",
+  "source": "Cars get broken into here. If I were you, I ______ (not / leave) your {thing} in the car, {name}.",
   "key": "wouldn't leave",
   "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
   "slots": {

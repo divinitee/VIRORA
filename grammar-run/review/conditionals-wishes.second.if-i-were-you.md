@@ -87,7 +87,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## build (20)
 
 1. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
-   If I were you, I ______ (apply) for the job at the **hotel**, **Olga**.  
+   You'd be great there. If I were you, I ______ (apply) for the job at the **hotel**, **Olga**.  
    key: would apply  
    why: Advice: If I were you, I would + base verb.
 
@@ -137,7 +137,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Advice: If I were you, I would + base verb.
 
 11. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
-   If I were you, I ______ (speak) English every day with **your teacher**, **Olga**.  
+   Want fast progress? If I were you, I ______ (speak) English every day with **your teacher**, **Olga**.  
    key: would speak  
    why: Advice: If I were you, I would + base verb.
 
@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Advice: If I were you, I would + base verb.
 
 15. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
-   If I were you, I ______ (not / drive) in this **rain**, **Aziz**.  
+   The roads are dangerous. If I were you, I ______ (not / drive) in this **rain**, **Aziz**.  
    key: wouldn't drive  
    why: Advice not to do something: If I were you, I wouldn't + base verb.
 
@@ -177,7 +177,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Advice not to do something: If I were you, I wouldn't + base verb.
 
 19. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
-   If I were you, I ______ (not / leave) your **passport** in the car, **Lola**.  
+   Cars get broken into here. If I were you, I ______ (not / leave) your **passport** in the car, **Lola**.  
    key: wouldn't leave  
    why: Advice not to do something: If I were you, I wouldn't + base verb.
 
