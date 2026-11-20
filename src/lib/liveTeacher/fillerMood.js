@@ -42,7 +42,7 @@ const RUDE = [
   'fuck', 'fck', 'fuk', 'shit', 'bitch', 'ashole', 'bastard', 'cunt', 'dick', 'motherfucker', 'wtf', 'stfu', 'piss of',
   'shut up', 'you are stupid', 'you\'re stupid', 'you are dumb', 'you\'re dumb', 'you idiot', 'dumb bitch', 'go to hel',
   // Russian (mat + common insults), "блин" is NOT here
-  'бля', 'хуй', 'хуе', 'хуё', 'хуя', 'пизд', 'ебат', 'ебан', 'ебал', 'ёбан', 'заеб', 'заёб', 'выеб', 'уеб', 'сука', 'суки', 'сучк',
+  'бля', 'нахуй', 'нахуя', 'похуй', 'нахер', 'хуй', 'хуе', 'хуё', 'хуя', 'пизд', 'ебат', 'ебан', 'ебал', 'ёбан', 'заеб', 'заёб', 'выеб', 'уеб', 'сука', 'суки', 'сучк',
   'мудак', 'мудил', 'говн', 'дерьм', 'залуп', 'шлюх', 'пидор', 'пидар', 'заткнись', 'идиот', 'дебил', 'дура',
   // Uzbek (Latin + Cyrillic)
   'jalab', 'qanjiq', 'dalbayob', 'dolbayob', 'padarlanat', "padarla'nat", 'onangni', 'ahmoq', 'itvachcha', 'ko\'tak', 'qo\'toq', 'sikay', 'sikaman', 'sikdim',
