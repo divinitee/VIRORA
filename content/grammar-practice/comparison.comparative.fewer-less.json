@@ -1,0 +1,1803 @@
+[
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There were ______ people at the {event} than last year, {name}.",
+  "options": [
+   "fewer",
+   "less",
+   "little",
+   "lesser"
+  ],
+  "key": 0,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "event": [
+    "concert",
+    "festival",
+    "match",
+    "fair"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I spend ______ money on {thing} than my {who}.",
+  "options": [
+   "fewer",
+   "little",
+   "lesser",
+   "less"
+  ],
+  "key": 3,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "thing": [
+    "clothes",
+    "food",
+    "taxis",
+    "games"
+   ],
+   "who": [
+    "sister",
+    "brother",
+    "cousin",
+    "friends"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {place} has ______ trees than the park near the {place2}.",
+  "options": [
+   "little",
+   "lesser",
+   "fewer",
+   "less"
+  ],
+  "key": 2,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "place": [
+    "street",
+    "yard",
+    "village",
+    "school"
+   ],
+   "place2": [
+    "river",
+    "station",
+    "bazaar",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {thing} uses ______ electricity than our old one, {name}.",
+  "options": [
+   "lesser",
+   "less",
+   "fewer",
+   "little"
+  ],
+  "key": 1,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "thing": [
+    "fridge",
+    "washing machine",
+    "TV",
+    "lamp"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother made ______ mistakes in the {test} than me, {name}.",
+  "options": [
+   "fewer",
+   "less",
+   "little",
+   "lesser"
+  ],
+  "key": 0,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "dictation",
+    "quiz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have ______ homework this {period} than last {period}, {name}.",
+  "options": [
+   "fewer",
+   "little",
+   "lesser",
+   "less"
+  ],
+  "key": 3,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "period": [
+    "week",
+    "month",
+    "term"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are ______ cars on the road on {day} than on weekdays, {name}.",
+  "options": [
+   "little",
+   "lesser",
+   "fewer",
+   "less"
+  ],
+  "key": 2,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "day": [
+    "Sundays",
+    "holidays",
+    "Saturdays",
+    "Navruz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} drinks ______ {drink} than he did last year.",
+  "options": [
+   "lesser",
+   "less",
+   "fewer",
+   "little"
+  ],
+  "key": 1,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "who": [
+    "grandfather",
+    "father",
+    "uncle",
+    "brother"
+   ],
+   "drink": [
+    "coffee",
+    "tea",
+    "milk",
+    "cola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} has ______ friends in {city} than in her old town.",
+  "options": [
+   "fewer",
+   "less",
+   "little",
+   "lesser"
+  ],
+  "key": 0,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Seoul",
+    "Bukhara"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It takes ______ time by {transport} than by bus, {name}.",
+  "options": [
+   "fewer",
+   "little",
+   "lesser",
+   "less"
+  ],
+  "key": 3,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "transport": [
+    "metro",
+    "taxi",
+    "car",
+    "train"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {thing} costs more, but it has ______ problems than the cheap one, {name}.",
+  "options": [
+   "little",
+   "lesser",
+   "fewer",
+   "less"
+  ],
+  "key": 2,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "car",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There was ______ snow this {season} than last {season}.",
+  "options": [
+   "lesser",
+   "less",
+   "fewer",
+   "little"
+  ],
+  "key": 1,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "season": [
+    "winter",
+    "year",
+    "month"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We sold ______ {goods} at the bazaar today than yesterday, {name}.",
+  "options": [
+   "fewer",
+   "less",
+   "little",
+   "lesser"
+  ],
+  "key": 0,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "goods": [
+    "melons",
+    "apples",
+    "carpets",
+    "shoes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You should eat ______ sugar and more {food}, {name}.",
+  "options": [
+   "fewer",
+   "little",
+   "lesser",
+   "less"
+  ],
+  "key": 3,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "food": [
+    "fruit",
+    "vegetables",
+    "fish",
+    "salad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are ______ students in our {group} than in yours, {name}.",
+  "options": [
+   "little",
+   "lesser",
+   "fewer",
+   "less"
+  ],
+  "key": 2,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "group": [
+    "group",
+    "class",
+    "team",
+    "course"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My new job gives me ______ free time than my old {job}, {name}.",
+  "options": [
+   "lesser",
+   "less",
+   "fewer",
+   "little"
+  ],
+  "key": 1,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "job": [
+    "job",
+    "school",
+    "course",
+    "college"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our team scored ______ goals this {season} than last {season}, {name}.",
+  "options": [
+   "fewer",
+   "less",
+   "little",
+   "lesser"
+  ],
+  "key": 0,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "season": [
+    "season",
+    "year",
+    "month"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {place} is quieter, {name}: there is ______ noise than in the centre.",
+  "options": [
+   "fewer",
+   "little",
+   "lesser",
+   "less"
+  ],
+  "key": 3,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "place": [
+    "village",
+    "new district",
+    "park",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I got ______ messages {when} than {when2}, {name}.",
+  "options": [
+   "little",
+   "lesser",
+   "fewer",
+   "less"
+  ],
+  "key": 2,
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "when": [
+    "today",
+    "this week",
+    "this month"
+   ],
+   "when2": [
+    "yesterday",
+    "last week",
+    "last month"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {road} has ______ traffic than the main road, {name}.",
+  "options": [
+   "lesser",
+   "less",
+   "fewer",
+   "little"
+  ],
+  "key": 1,
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "road": [
+    "street",
+    "road",
+    "bridge",
+    "route"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "There are ______ buses to {city} on Sundays, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Nukus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "I want to spend ______ time on my phone this {period}, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "period": [
+    "week",
+    "month",
+    "year",
+    "summer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "We need ______ chairs than we have, {name}. Only {n} guests are coming.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "n": [
+    "six",
+    "eight",
+    "ten",
+    "twelve"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "Add ______ salt to the {food} next time, {name}. It's too salty.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "food": [
+    "soup",
+    "plov",
+    "salad",
+    "rice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "My {who2} works ______ hours than last year, so he can see his {who} more.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "who2": [
+    "uncle",
+    "father",
+    "brother",
+    "grandfather"
+   ],
+   "who": [
+    "children",
+    "family",
+    "parents",
+    "friends"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "Our new {home} gets ______ sun than the old one, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "classroom",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "There were ______ tourists in {city} in {month} than in May.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Shahrisabz"
+   ],
+   "month": [
+    "January",
+    "February",
+    "December",
+    "November"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "This {thing} makes ______ noise than the old one, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "thing": [
+    "fan",
+    "fridge",
+    "car",
+    "printer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "I read ______ books this {period} than last {period}, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "period": [
+    "year",
+    "month",
+    "summer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "Please use ______ water in the {room}, {name}. We pay a lot.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "room": [
+    "bathroom",
+    "kitchen",
+    "garden",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "There are ______ shops in our village than in the {place}, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "place": [
+    "town",
+    "city",
+    "centre",
+    "next village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "Walking to {place} gives me ______ stress than driving, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "place": [
+    "work",
+    "school",
+    "college",
+    "the bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "This {test} has ______ questions than the last one, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "worksheet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "We had ______ rain in {month} than in April, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "month": [
+    "May",
+    "June",
+    "July",
+    "August"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "My little {sib} eats ______ vegetables than he should, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "sib": [
+    "brother",
+    "cousin",
+    "nephew"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "I have ______ energy in the {time} than in the morning, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "time": [
+    "evening",
+    "afternoon",
+    "summer",
+    "heat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "There are ______ birds in the city than in the {place}, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "place": [
+    "mountains",
+    "village",
+    "forest",
+    "countryside"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "The new {device} needs ______ space on the desk, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "device": [
+    "printer",
+    "computer",
+    "lamp",
+    "speaker"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "{name} wants to make ______ mistakes in her {subj} essays.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "subj": [
+    "English",
+    "Russian",
+    "history",
+    "Uzbek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write fewer or less.",
+  "source": "My {who} earns ______ money than before, but he is happier at his new {job}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "who": [
+    "father",
+    "uncle",
+    "brother",
+    "grandfather"
+   ],
+   "job": [
+    "job",
+    "company",
+    "school",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two numbers. Use fewer or less … than.",
+  "source": "Last year our {group} had 30 students. This year it has {n}.",
+  "hint": "This year our {group} has ______ students than last year.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "group": [
+    "group",
+    "class",
+    "club",
+    "team"
+   ],
+   "n": [
+    "25",
+    "22",
+    "20",
+    "18"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two numbers. Use fewer or less … than.",
+  "source": "I slept eight hours on Monday and {n} hours on Tuesday, {name}.",
+  "hint": "I slept ______ on Tuesday than on Monday, {name}.",
+  "key": "fewer hours",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "n": [
+    "six",
+    "five",
+    "seven",
+    "four"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two numbers. Use fewer or less … than.",
+  "source": "The old phone cost 3 million soum. The new one costs {n} million, {name}.",
+  "hint": "The new phone costs ______ money than the old one, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "n": [
+    "2",
+    "2.5",
+    "1.5",
+    "1"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two numbers. Use fewer or less … than.",
+  "source": "We had 40 guests at my sister's wedding and {n} at mine, {name}.",
+  "hint": "We had ______ guests at my wedding than at my sister's, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "n": [
+    "30",
+    "25",
+    "35",
+    "20"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two numbers. Use fewer or less … than.",
+  "source": "Our old car used 10 litres of petrol a day. The new one uses {n}.",
+  "hint": "The new car uses ______ petrol than the old one, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "n": [
+    "6",
+    "7",
+    "5",
+    "8"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I have less friends in {city} than in my village, {name}.",
+  "hint": "I have ______ friends in {city} than in my village, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Seoul",
+    "Bukhara"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There is fewer traffic on {day} than on Monday, {name}.",
+  "hint": "There is ______ traffic on {day} than on Monday, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "holidays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We bought lesser {goods} this week than last week, {name}.",
+  "hint": "We bought ______ {goods} this week than last week, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "goods": [
+    "apples",
+    "eggs",
+    "melons",
+    "tomatoes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {who} drinks fewer coffee than before, {name}.",
+  "hint": "My {who} drinks ______ coffee than before, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "who": [
+    "father",
+    "mother",
+    "uncle",
+    "teacher"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There were less mistakes in your {test} this time, {name}.",
+  "hint": "There were ______ mistakes in your {test} this time, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "test": [
+    "test",
+    "essay",
+    "homework",
+    "dictation"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with fewer or less … than.",
+  "source": "I don't watch as many films as my {who}, {name}.",
+  "hint": "I watch ______ films than my {who}, {name}.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "parents",
+    "friends"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with fewer or less … than.",
+  "source": "Our {place} doesn't get as much rain as the mountains, {name}.",
+  "hint": "Our {place} gets ______ rain than the mountains, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "place": [
+    "town",
+    "village",
+    "city",
+    "valley"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with fewer or less … than.",
+  "source": "We don't have as much {thing} as last year, {name}.",
+  "hint": "We have ______ {thing} than last year, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "thing": [
+    "money",
+    "time",
+    "free time",
+    "work"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with fewer or less … than.",
+  "source": "This {shop} doesn't sell as many {goods} as the bazaar.",
+  "hint": "This {shop} sells ______ {goods} than the bazaar.",
+  "key": "fewer",
+  "why": "The noun is plural and you can count it, so use fewer.",
+  "slots": {
+   "shop": [
+    "shop",
+    "market",
+    "kiosk",
+    "store"
+   ],
+   "goods": [
+    "melons",
+    "spices",
+    "shoes",
+    "carpets"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with fewer or less … than.",
+  "source": "My little sister doesn't eat as much {food} as me, {name}.",
+  "hint": "My little sister eats ______ {food} than me, {name}.",
+  "key": "less",
+  "why": "The noun is uncountable (you can't count it), so use less.",
+  "slots": {
+   "food": [
+    "bread",
+    "rice",
+    "meat",
+    "fruit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing how many friends you have now and before.",
+  "requiredElement": "fewer + plural noun",
+  "constraints": [
+   "exactly one sentence",
+   "fewer … than",
+   "a plural noun"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you want to spend less time on.",
+  "requiredElement": "less + uncountable noun",
+  "constraints": [
+   "exactly one sentence",
+   "less time / money",
+   "than or a time word"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two towns or villages.",
+  "requiredElement": "fewer or less … than",
+  "constraints": [
+   "exactly one sentence",
+   "fewer or less",
+   "than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your diet: less of something.",
+  "requiredElement": "less + food noun",
+  "constraints": [
+   "exactly one sentence",
+   "less",
+   "an uncountable food word"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a test with fewer mistakes than before.",
+  "requiredElement": "fewer mistakes",
+  "constraints": [
+   "exactly one sentence",
+   "fewer",
+   "than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about traffic or noise where you live.",
+  "requiredElement": "less traffic / noise",
+  "constraints": [
+   "exactly one sentence",
+   "less",
+   "than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with fewer people and one with less money.",
+  "requiredElement": "fewer vs less",
+  "constraints": [
+   "exactly two sentences",
+   "fewer + people",
+   "less + money"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing this year and last year at your school or job.",
+  "requiredElement": "fewer / less … than last year",
+  "constraints": [
+   "exactly one sentence",
+   "fewer or less",
+   "than last year"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your life now with your life five years ago. Write three or four sentences with fewer and less.",
+  "targetGrammar": "fewer vs less",
+  "lookFor": [
+   "fewer + plural",
+   "less + uncountable",
+   "than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare a village and a city you know. Write three or four sentences.",
+  "targetGrammar": "fewer / less … than",
+  "lookFor": [
+   "fewer",
+   "less",
+   "two places"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Give a friend advice for a healthier week. Write three or four sentences.",
+  "targetGrammar": "less + uncountable",
+  "lookFor": [
+   "less sugar / time / coffee",
+   "fewer + plural",
+   "should"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare two phones, bikes or cars. Write three or four sentences.",
+  "targetGrammar": "fewer problems / less money",
+  "lookFor": [
+   "fewer",
+   "less",
+   "than"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how your street has changed. Write three or four sentences.",
+  "targetGrammar": "fewer cars / less noise",
+  "lookFor": [
+   "fewer",
+   "less",
+   "than before"
+  ]
+ }
+]

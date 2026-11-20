@@ -142,6 +142,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.comparative.fewer-less": {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 319,
+   "build": 312,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.comparative.less-comparative": {
   "domain": "comparison",
   "branch": "comparative",
