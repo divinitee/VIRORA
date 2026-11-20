@@ -103,21 +103,21 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {bus} is here. Let's ______ quickly, {name}.",
+  "prompt": "The {thing} is broken, but don't worry. We can ______, {name}.",
   "options": [
-   "get on for it",
-   "get on it",
-   "get it on",
-   "get it on it"
+   "deal with for it",
+   "deal with it",
+   "deal it with",
+   "deal it with it"
   ],
   "key": 1,
-  "why": "get on (a bus) is inseparable: get on it.",
+  "why": "deal with is inseparable: deal with it.",
   "slots": {
-   "bus": [
-    "bus",
-    "train",
-    "tram",
-    "minibus"
+   "thing": [
+    "tap",
+    "door",
+    "heater",
+    "fridge"
    ],
    "name": [
     "Zarina",
@@ -135,27 +135,27 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {bus} stopped and we ______ at the {place}.",
+  "prompt": "These are your {thing} for the exam. Let's ______ together, {name}.",
   "options": [
-   "got off it",
-   "got it off",
-   "got it off it",
-   "got off for it"
+   "go through them",
+   "go them through",
+   "go through they",
+   "go through for them"
   ],
   "key": 0,
-  "why": "get off (a bus) is inseparable: got off it.",
+  "why": "go through (= check one by one) is inseparable: go through them.",
   "slots": {
-   "bus": [
-    "bus",
-    "train",
-    "tram",
-    "minibus"
+   "thing": [
+    "notes",
+    "answers",
+    "texts",
+    "questions"
    ],
-   "place": [
-    "bazaar",
-    "station",
-    "museum",
-    "square"
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
    ]
   }
  },
@@ -828,7 +828,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two words in brackets in the gaps, in the right order.",
-  "source": "Your daughter really takes ______ ______ (her / after). She has her {who}'s eyes.",
+  "source": "Your daughter really takes ______ ______ (her / after). She has her {who}'s eyes, {name}.",
   "key": [
    "after",
    "her"
@@ -841,11 +841,11 @@
     "aunt",
     "mum"
    ],
-   "place": [
-    "today",
-    "this week",
-    "soon",
-    "right now"
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
    ]
   }
  },

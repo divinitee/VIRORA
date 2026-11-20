@@ -940,6 +940,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.phrasal-verbs.inseparable": {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.place.between": {
   "domain": "prep-phrasal",
   "branch": "place",
