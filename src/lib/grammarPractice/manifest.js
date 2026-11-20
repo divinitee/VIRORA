@@ -2172,6 +2172,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.gerund-infinitive.avoid-gerund": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 368,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.gerund-infinitive.decide-infinitive": {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",

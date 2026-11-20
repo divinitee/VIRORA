@@ -1,0 +1,1798 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Try to avoid ______ {food} late at night, {name}.",
+  "options": [
+   "eating",
+   "to eat",
+   "eat",
+   "from eating"
+  ],
+  "key": 0,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "food": [
+    "fast food",
+    "sweets",
+    "fried food",
+    "heavy food"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The doctor told my {who} to avoid ______ {drink}.",
+  "options": [
+   "to drink",
+   "drink",
+   "from drinking",
+   "drinking"
+  ],
+  "key": 3,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "who": [
+    "dad",
+    "uncle",
+    "grandpa",
+    "mum"
+   ],
+   "drink": [
+    "coffee",
+    "cola",
+    "energy drinks",
+    "sweet tea"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We always avoid ______ in the {place} {time}.",
+  "options": [
+   "drive",
+   "from driving",
+   "driving",
+   "to drive"
+  ],
+  "key": 2,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "city centre",
+    "old town",
+    "market area",
+    "busy streets"
+   ],
+   "time": [
+    "at rush hour",
+    "in the evening",
+    "on Mondays",
+    "in the rain"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{g} avoids ______ about her {topic}.",
+  "options": [
+   "from talking",
+   "talking",
+   "to talk",
+   "talk"
+  ],
+  "key": 1,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "topic": [
+    "problems",
+    "exams",
+    "job",
+    "mistakes"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I try to avoid ______ the same mistakes in my {work}, {name}.",
+  "options": [
+   "making",
+   "to make",
+   "make",
+   "from making"
+  ],
+  "key": 0,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "work": [
+    "essays",
+    "tests",
+    "homework",
+    "emails"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother avoided ______ my question {when}.",
+  "options": [
+   "to answer",
+   "answer",
+   "from answering",
+   "answering"
+  ],
+  "key": 3,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We avoid ______ to the {place} on {day} because it's too crowded.",
+  "options": [
+   "go",
+   "from going",
+   "going",
+   "to go"
+  ],
+  "key": 2,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "mall",
+    "park",
+    "beach"
+   ],
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "holidays",
+    "Fridays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Avoid ______ your phone while you {act}, {name}.",
+  "options": [
+   "from using",
+   "using",
+   "to use",
+   "use"
+  ],
+  "key": 1,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "act": [
+    "drive",
+    "eat",
+    "cross the road",
+    "study"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{g} avoided ______ her old classmate at the {place} {when}.",
+  "options": [
+   "meeting",
+   "to meet",
+   "meet",
+   "from meeting"
+  ],
+  "key": 0,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "place": [
+    "café",
+    "bazaar",
+    "station",
+    "park"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We should avoid ______ too much money on {thing}, {name}.",
+  "options": [
+   "to spend",
+   "spend",
+   "from spending",
+   "spending"
+  ],
+  "key": 3,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "thing": [
+    "clothes",
+    "games",
+    "snacks",
+    "taxis"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Avoid ______ in the sun for too long {when}, {name}.",
+  "options": [
+   "sit",
+   "from sitting",
+   "sitting",
+   "to sit"
+  ],
+  "key": 2,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "when": [
+    "in July",
+    "at midday",
+    "in summer",
+    "on hot days"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{b} avoided ______ at me during the {event}.",
+  "options": [
+   "from looking",
+   "looking",
+   "to look",
+   "look"
+  ],
+  "key": 1,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "b": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Jasur"
+   ],
+   "event": [
+    "lesson",
+    "meeting",
+    "dinner",
+    "wedding"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I left early to avoid ______ in the queue at the {place} {when}.",
+  "options": [
+   "waiting",
+   "to wait",
+   "wait",
+   "from waiting"
+  ],
+  "key": 0,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "bank",
+    "post office",
+    "airport",
+    "clinic"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Try to avoid ______ \"um\" too often in your {talk}, {name}.",
+  "options": [
+   "to say",
+   "say",
+   "from saying",
+   "saying"
+  ],
+  "key": 3,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "talk": [
+    "presentation",
+    "speech",
+    "interview",
+    "answers"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My aunt avoids ______ because she is afraid of {fear}.",
+  "options": [
+   "fly",
+   "from flying",
+   "flying",
+   "to fly"
+  ],
+  "key": 2,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "fear": [
+    "heights",
+    "planes",
+    "small spaces",
+    "storms"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I try to avoid ______ late for {event}, {name}.",
+  "options": [
+   "from being",
+   "being",
+   "to be",
+   "be"
+  ],
+  "key": 1,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "event": [
+    "lessons",
+    "work",
+    "meetings",
+    "the bus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our kids avoid ______ scary {films} before {time}.",
+  "options": [
+   "watching",
+   "to watch",
+   "watch",
+   "from watching"
+  ],
+  "key": 0,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "films": [
+    "films",
+    "videos",
+    "shows",
+    "cartoons"
+   ],
+   "time": [
+    "bed",
+    "sleep",
+    "dinner",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My dad avoids ______ on {day} because it's family time.",
+  "options": [
+   "to work",
+   "work",
+   "from working",
+   "working"
+  ],
+  "key": 3,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "Fridays",
+    "holidays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The driver couldn't avoid ______ the {thing} on the road {when}.",
+  "options": [
+   "hit",
+   "from hitting",
+   "hitting",
+   "to hit"
+  ],
+  "key": 2,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "thing": [
+    "hole",
+    "rock",
+    "box",
+    "branch"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why do you always avoid ______ me, {name}?",
+  "options": [
+   "from calling",
+   "calling",
+   "to call",
+   "call"
+  ],
+  "key": 1,
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "I always avoid ______ (eat) {food} before an {event}.",
+  "key": "eating",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "food": [
+    "heavy food",
+    "garlic",
+    "onions",
+    "beans"
+   ],
+   "event": [
+    "exam",
+    "interview",
+    "important lesson",
+    "early meeting"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "My mum avoids ______ (drive) at night in the {weather}, {name}.",
+  "key": "driving",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "weather": [
+    "rain",
+    "snow",
+    "fog",
+    "winter"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "You should avoid ______ (sit) at the computer all {span}, {name}.",
+  "key": "sitting",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "span": [
+    "day",
+    "evening",
+    "night",
+    "weekend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "{b} avoided ______ (tell) his parents about the {thing}.",
+  "key": "telling",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "b": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Jasur"
+   ],
+   "thing": [
+    "bad mark",
+    "broken window",
+    "lost phone",
+    "small accident"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "We left at {h} {when} to avoid ______ (get) stuck in traffic.",
+  "key": "getting",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "h": [
+    "six",
+    "five",
+    "seven",
+    "half past six"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "Try to avoid ______ (use) {tool} in your essays, {name}.",
+  "key": "using",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "tool": [
+    "slang",
+    "short forms",
+    "the same words",
+    "very long sentences"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "My cousin avoids ______ (answer) the phone when she is {busy}, {name}.",
+  "key": "answering",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "busy": [
+    "busy",
+    "driving",
+    "at work",
+    "tired"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "I avoid ______ (go) to the {place} on {day}.",
+  "key": "going",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "mall",
+    "gym",
+    "bank"
+   ],
+   "day": [
+    "Saturdays",
+    "Sundays",
+    "Mondays",
+    "holidays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "{g} avoided ______ (speak) to the {who} after the {event}.",
+  "key": "speaking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "who": [
+    "teacher",
+    "coach",
+    "boss",
+    "director"
+   ],
+   "event": [
+    "lesson",
+    "match",
+    "meeting",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "Avoid ______ (swim) in the {water} after a big meal, {name}.",
+  "key": "swimming",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "sea",
+    "pool"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "He always avoids ______ (pay) for {thing}, {name}.",
+  "key": "paying",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "thing": [
+    "taxis",
+    "coffee",
+    "lunch",
+    "tickets"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "Doctors tell people to avoid ______ (smoke) {where}, {name}.",
+  "key": "smoking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "where": [
+    "near children",
+    "at home",
+    "in the car",
+    "indoors"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "We avoided ______ (walk) through the {place} {when}.",
+  "key": "walking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "park",
+    "old town",
+    "forest",
+    "empty streets"
+   ],
+   "when": [
+    "last night",
+    "after dark",
+    "on Friday night",
+    "at midnight"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "I try to avoid ______ (buy) {thing} online, {name}.",
+  "key": "buying",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "thing": [
+    "shoes",
+    "clothes",
+    "food",
+    "glasses"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "My grandpa avoids ______ (take) the {transport} because it's {adj}.",
+  "key": "taking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "transport": [
+    "bus",
+    "metro",
+    "train",
+    "minibus"
+   ],
+   "adj": [
+    "crowded",
+    "slow",
+    "noisy",
+    "hot"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "Avoid ______ (wake) {who}, {name}. He's just fallen asleep.",
+  "key": "waking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "who": [
+    "Grandpa",
+    "your brother",
+    "the baby",
+    "Dad"
+   ],
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "We avoided ______ (stay) in the {place} because it was too {adj}.",
+  "key": "staying",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "hotel",
+    "flat",
+    "guesthouse",
+    "camp"
+   ],
+   "adj": [
+    "noisy",
+    "expensive",
+    "dirty",
+    "far"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "Try to avoid ______ (lose) your {thing} on the trip, {name}.",
+  "key": "losing",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "keys",
+    "passport",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "My sister avoids ______ (cook) {food} because it takes too long, {name}.",
+  "key": "cooking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "bread",
+    "soup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form.",
+  "source": "I couldn't avoid ______ (hear) their {talk} {when}.",
+  "key": "hearing",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "talk": [
+    "argument",
+    "conversation",
+    "music",
+    "phone call"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I try to avoid to eat {food} at night, {name}.",
+  "hint": "I try to avoid ______ {food} at night, {name}.",
+  "key": "eating",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "food": [
+    "sweets",
+    "fast food",
+    "bread",
+    "fried food"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My dad avoids from drinking {drink} {when}.",
+  "hint": "My dad avoids ______ {drink} {when}.",
+  "key": "drinking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "cola",
+    "sweet tea",
+    "energy drinks"
+   ],
+   "when": [
+    "at night",
+    "after six",
+    "in the evening",
+    "before bed"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We avoid go to the {place} on {day}.",
+  "hint": "We avoid ______ to the {place} on {day}.",
+  "key": "going",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "mall",
+    "park",
+    "beach"
+   ],
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "holidays",
+    "Fridays"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{b} avoided to answer my question {when}.",
+  "hint": "{b} avoided ______ my question {when}.",
+  "key": "answering",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "b": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Jasur"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{g} avoids of talking about her {topic}.",
+  "hint": "{g} avoids ______ about her {topic}.",
+  "key": "talking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "topic": [
+    "problems",
+    "exams",
+    "job",
+    "family"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I try to avoid.",
+  "source": "I don't usually eat {food} at night, {name}.",
+  "hint": "I try to avoid ______ {food} at night, {name}.",
+  "key": "eating",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "food": [
+    "sweets",
+    "fast food",
+    "cake",
+    "chips"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I try to avoid.",
+  "source": "I don't usually take taxis in {city}, {name}.",
+  "hint": "I try to avoid ______ taxis in {city}, {name}.",
+  "key": "taking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I try to avoid.",
+  "source": "I don't usually spend money on {thing}, {name}.",
+  "hint": "I try to avoid ______ money on {thing}, {name}.",
+  "key": "spending",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "thing": [
+    "clothes",
+    "games",
+    "snacks",
+    "coffee"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I try to avoid.",
+  "source": "I don't usually drive in the {place} at rush hour, {name}.",
+  "hint": "I try to avoid ______ in the {place} at rush hour, {name}.",
+  "key": "driving",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "city centre",
+    "old town",
+    "market area",
+    "busy streets"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I try to avoid.",
+  "source": "I don't usually check my phone during {event}, {name}.",
+  "hint": "I try to avoid ______ my phone during {event}, {name}.",
+  "key": "checking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "event": [
+    "lessons",
+    "dinner",
+    "meetings",
+    "films"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with You should avoid.",
+  "source": "Don't drink {drink} before bed, {name}.",
+  "hint": "You should avoid ______ {drink} before bed, {name}.",
+  "key": "drinking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "cola",
+    "strong tea",
+    "energy drinks"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with You should avoid.",
+  "source": "Don't sit in the sun at midday {when}, {name}.",
+  "hint": "You should avoid ______ in the sun at midday {when}, {name}.",
+  "key": "sitting",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "when": [
+    "in July",
+    "in summer",
+    "on hot days",
+    "in August"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with You should avoid.",
+  "source": "Don't use your phone while you {act}, {name}.",
+  "hint": "You should avoid ______ your phone while you {act}, {name}.",
+  "key": "using",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "act": [
+    "drive",
+    "eat",
+    "cross the road",
+    "study"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with You should avoid.",
+  "source": "Don't swim in the {water} after a big meal, {name}.",
+  "hint": "You should avoid ______ in the {water} after a big meal, {name}.",
+  "key": "swimming",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "sea",
+    "pool"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with You should avoid.",
+  "source": "Don't walk through the {place} after dark, {name}.",
+  "hint": "You should avoid ______ through the {place} after dark, {name}.",
+  "key": "walking",
+  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "slots": {
+   "place": [
+    "park",
+    "old town",
+    "forest",
+    "empty streets"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a food you try to avoid.",
+  "requiredElement": "I try to avoid eating …",
+  "constraints": [
+   "exactly one sentence",
+   "avoid + -ing",
+   "no avoid to"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence of advice for someone who can't sleep.",
+  "requiredElement": "You should avoid drinking …",
+  "constraints": [
+   "exactly one sentence",
+   "should avoid + -ing",
+   "a reason or time"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place you avoid going to.",
+  "requiredElement": "I avoid going to … because …",
+  "constraints": [
+   "exactly one sentence",
+   "avoid + -ing",
+   "because"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something a friend avoided doing.",
+  "requiredElement": "My friend avoided …",
+  "constraints": [
+   "exactly one sentence",
+   "avoided + -ing",
+   "a past time"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a mistake you try to avoid in English.",
+  "requiredElement": "I try to avoid making …",
+  "constraints": [
+   "exactly one sentence",
+   "avoid + -ing",
+   "about English"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence giving a safety tip.",
+  "requiredElement": "Avoid using … while …",
+  "constraints": [
+   "exactly one sentence",
+   "Avoid + -ing",
+   "while"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about why you left home early one day.",
+  "requiredElement": "I left early to avoid getting …",
+  "constraints": [
+   "exactly one sentence",
+   "to avoid + -ing",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a topic someone in your family avoids talking about.",
+  "requiredElement": "My … avoids talking about …",
+  "constraints": [
+   "exactly one sentence",
+   "avoids + -ing",
+   "no avoid from"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Give advice to a student before an important exam.",
+  "targetGrammar": "You should avoid staying up late … Avoid drinking …",
+  "lookFor": [
+   "avoid + -ing",
+   "should",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your healthy habits.",
+  "targetGrammar": "I try to avoid eating … I avoid sitting …",
+  "lookFor": [
+   "avoid + -ing",
+   "present verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a day when you avoided doing something.",
+  "targetGrammar": "I avoided … because … In the end …",
+  "lookFor": [
+   "avoided + -ing",
+   "past verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Give tips for a tourist visiting your city.",
+  "targetGrammar": "Avoid taking … Try to avoid going …",
+  "lookFor": [
+   "avoid + -ing",
+   "imperatives",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "avoid-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a person who avoids difficult conversations.",
+  "targetGrammar": "My … avoids talking about … He / She avoids answering …",
+  "lookFor": [
+   "avoids + -ing",
+   "present verbs",
+   "three or four sentences"
+  ]
+ }
+]
