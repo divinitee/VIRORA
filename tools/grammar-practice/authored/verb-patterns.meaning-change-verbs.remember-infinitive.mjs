@@ -74,7 +74,7 @@ const BUILD = [
   ["to ask", "Remember ______ (ask) the {who} about the price, {name}.", { who: ["driver", "seller", "manager", "guide"], name: NAME2 }],
   ["to book", "We must remember ______ (book) a table at the {place}, {name}.", { place: ["restaurant", "café", "chaikhana", "hotel"], name: NAME }],
   ["to give", "Please remember ______ (give) the keys back to the {who}.", { who: ["owner", "landlord", "neighbour", "caretaker"], x: [] }],
-  ["to post", "Remember ______ (post) this letter on your way {where}, {name}.", { where: ["home", "to work", "to school", "out"], name: NAME2 }],
+  ["to post", "Remember ______ (post) this letter on your way {where}, {name}.", { where: ["home", "out", "back", "home tonight"], name: NAME2 }],
 ].map(([key, source, slots]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (source.includes(`{${n}}`)) s[n] = f;
@@ -84,7 +84,7 @@ const BUILD = [
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
 const FIX = "Correct the mistake.";
 const FORGET = "Rewrite with Remember + to.";
-const IMP = "Rewrite with Remember + to.";
+const IMP = "Rewrite the advice with Remember + to.";
 const TRANSFORM = [
   [FIX, "Please remember locking the {thing} tonight, {name}.", "Please remember ______ the {thing} tonight, {name}.", "to lock", { thing: ["door", "gate", "car", "garage"], name: NAME }, "A task for tonight: remember to lock."],
   [FIX, "Remember buy some {food} on your way home, {name}.", "Remember ______ some {food} on your way home, {name}.", "to buy", { food: ["bread", "milk", "eggs", "fruit"], name: NAME2 }, "remember + to + base: don't forget \"to\"."],
@@ -96,11 +96,11 @@ const TRANSFORM = [
   [FORGET, "Don't forget: pay the {bill} this week, {name}.", "Remember ______ the {bill} this week, {name}.", "to pay", { bill: ["rent", "phone bill", "school fee", "gas bill"], name: NAME2 }, "Don't forget X = Remember to X."],
   [FORGET, "Don't forget: send me the {doc} tonight, {name}.", "Remember ______ me the {doc} tonight, {name}.", "to send", { doc: ["photos", "address", "link", "report"], name: NAME }, "Don't forget X = Remember to X."],
   [FORGET, "Don't forget: ask your {who} about Saturday, {name}.", "Remember ______ your {who} about Saturday, {name}.", "to ask", { who: ["mum", "dad", "teacher", "boss"], name: NAME2 }, "Don't forget X = Remember to X."],
-  [IMP, "It's important that you take an umbrella to the {place}, {name}.", "Remember ______ an umbrella to the {place}, {name}.", "to take", { place: ["park", "station", "match", "bazaar"], name: NAME }, "An important task: remember to take."],
-  [IMP, "It's important that you wear a helmet on your {bike}, {name}.", "Remember ______ a helmet on your {bike}, {name}.", "to wear", { bike: ["bike", "scooter", "motorbike", "horse"], name: NAME2 }, "An important task: remember to wear."],
-  [IMP, "It's important that you check the {thing} before the trip, {name}.", "Remember ______ the {thing} before the trip, {name}.", "to check", { thing: ["tyres", "tickets", "weather", "oil"], name: NAME }, "An important task: remember to check."],
+  [IMP, "Take an umbrella. It may rain at the {place}, {name}.", "Remember ______ an umbrella. It may rain at the {place}, {name}.", "to take", { place: ["park", "station", "match", "bazaar"], name: NAME }, "An important task: remember to take."],
+  [IMP, "You need a helmet on your {bike}. Wear it, {name}.", "Remember ______ a helmet on your {bike}, {name}.", "to wear", { bike: ["bike", "scooter", "motorbike", "horse"], name: NAME2 }, "An important task: remember to wear."],
+  [IMP, "Please check the {thing} before the trip. It's important, {name}.", "Remember ______ the {thing} before the trip, {name}.", "to check", { thing: ["tyres", "tickets", "weather", "oil"], name: NAME }, "An important task: remember to check."],
   [IMP, "It's important that you thank the {who}, {name}.", "Remember ______ the {who}, {name}.", "to thank", { who: ["host", "driver", "teacher", "doctor"], name: NAME2 }, "An important task: remember to thank."],
-  [IMP, "It's important that you drink water in the {place}, {name}.", "Remember ______ water in the {place}, {name}.", "to drink", { place: ["desert", "gym", "heat", "mountains"], name: NAME }, "An important task: remember to drink."],
+  [IMP, "You should drink water in the {place}, {name}.", "Remember ______ water in the {place}, {name}.", "to drink", { place: ["desert", "gym", "heat", "mountains"], name: NAME }, "An important task: remember to drink."],
 ].map(([instr, source, hint, key, slots, why]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = f;
