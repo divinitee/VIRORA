@@ -316,3 +316,23 @@ test('prompt: boundaries, soap line in the settings language, question streak nu
   assert.match(buildTurnMessage({ persona: 'vira', history, studentText: 'ok' }), /must NOT ask a question/);
   assert.doesNotMatch(buildTurnMessage({ persona: 'vira', history: history.slice(0, 2), studentText: 'ok' }), /must NOT ask/);
 });
+
+test('conduct: each persona has its own swearing ladder, strikes end the lesson at the limit', async () => {
+  const { buildBrainInstructions, buildTurnMessage, conductAfter, brainSchema } = await import('../../base44/shared/liveTeacherBrain.js');
+  assert.ok(brainSchema().required.includes('rude'));
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /I don't like your tone/);
+  assert.match(buildBrainInstructions({ persona: 'velvet' }), /go clear your head/);
+  const vi = buildBrainInstructions({ persona: 'violet' });
+  assert.match(vi, /Get out/);
+  assert.match(vi, /Back so soon/);
+  assert.doesNotMatch(vi, /sovun/);
+  assert.match(buildBrainInstructions({ persona: 'violet', ageGroup: 'kid' }), /never "get out"/);
+  assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', strikes: 1 }), /strike 2 of 3/);
+  // Violet: first curse ends it. Vira: third. Velvet: second.
+  assert.deepEqual(conductAfter('violet', 0, { rude: true, summary: 'x' }).end, true);
+  assert.equal(conductAfter('vira', 1, { rude: true }).end, false);
+  assert.equal(conductAfter('vira', 2, { rude: true }).end, true);
+  assert.equal(conductAfter('velvet', 1, { rude: true }).end, true);
+  assert.equal(conductAfter('velvet', 1, { rude: false }).strikes, 1);
+  assert.match(conductAfter('violet', 0, { rude: true }).summary, /^ENDED EARLY FOR SWEARING \(Violet/);
+});
