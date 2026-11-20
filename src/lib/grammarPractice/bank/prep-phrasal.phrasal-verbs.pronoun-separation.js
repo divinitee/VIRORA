@@ -265,7 +265,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "This is my new phone number. Please ______ before you forget, {name}, {name}.",
+  "prompt": "This is my new {thing}. Please ______ before you forget, {name}.",
   "options": [
    "write it down",
    "write down it",
@@ -275,6 +275,12 @@ export default [
   "key": 0,
   "why": "write it down: pronoun in the middle.",
   "slots": {
+   "thing": [
+    "phone number",
+    "address",
+    "email",
+    "work number"
+   ],
    "name": [
     "Malika",
     "Otabek",
@@ -419,7 +425,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {event} is on a rainy day. Let's ______ until next week, {name}.",
+  "prompt": "It will rain on the day of the {event}. Let's ______ until next week, {name}.",
   "options": [
    "put off it",
    "put off it off",
