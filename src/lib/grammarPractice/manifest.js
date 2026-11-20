@@ -842,6 +842,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.movement.across-through-along": {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "across-through-along",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 368,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.movement.arrive-at-in": {
   "domain": "prep-phrasal",
   "branch": "movement",
