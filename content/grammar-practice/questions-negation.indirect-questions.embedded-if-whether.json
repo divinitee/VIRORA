@@ -103,7 +103,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I'd like to know ______ Russian, {name}.",
+  "prompt": "I'd like to know ______ {lang}, {name}.",
   "options": [
    "if your teacher speak",
    "if your teacher speaks",
@@ -113,6 +113,12 @@
   "key": 1,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "lang": [
+    "Russian",
+    "Korean",
+    "Turkish",
+    "Chinese"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -129,7 +135,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I wonder ______ my letter, {name}.",
+  "prompt": "I wonder ______ my {thing}, {name}.",
   "options": [
    "whether she got",
    "did she get",
@@ -139,6 +145,12 @@
   "key": 0,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "thing": [
+    "letter",
+    "message",
+    "postcard",
+    "email"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -155,7 +167,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Could you ask him ______ to the {event}?",
+  "prompt": "Could you ask him ______ to the {event}, {name}?",
   "options": [
    "is he coming",
    "if is he coming",
@@ -170,6 +182,12 @@
     "wedding",
     "concert",
     "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -181,7 +199,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Do you know ______ swim, {name}?",
+  "prompt": "Do you know ______ {skill}, {name}?",
   "options": [
    "if can your brother",
    "does your brother can",
@@ -191,6 +209,12 @@
   "key": 2,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "skill": [
+    "swim",
+    "drive",
+    "ski",
+    "cook"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -239,7 +263,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Can you tell me ______ near here, {name}?",
+  "prompt": "Can you tell me ______ near the {place}, {name}?",
   "options": [
    "if there is a pharmacy",
    "is there a pharmacy",
@@ -249,6 +273,12 @@
   "key": 0,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "place": [
+    "hotel",
+    "station",
+    "school",
+    "bazaar"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -297,7 +327,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I'd like to know ______ breakfast, {name}.",
+  "prompt": "I'd like to know ______ {thing}, {name}.",
   "options": [
    "if does the price include",
    "if the price include",
@@ -307,6 +337,12 @@
   "key": 2,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "thing": [
+    "breakfast",
+    "wifi",
+    "parking",
+    "dinner"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -323,7 +359,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Ask the driver ______ at the {place}.",
+  "prompt": "Ask the driver ______ at the {place}, {name}.",
   "options": [
    "if the bus stop",
    "if the bus stops",
@@ -338,6 +374,12 @@
     "museum",
     "hospital",
     "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -381,7 +423,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Could you find out ______ married, {name}?",
+  "prompt": "Could you find out ______ free on {day}, {name}?",
   "options": [
    "is your cousin",
    "if is your cousin",
@@ -391,6 +433,12 @@
   "key": 3,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -471,7 +519,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Do you remember ______ the door, {name}?",
+  "prompt": "Do you remember ______ the {thing}, {name}?",
   "options": [
    "if you locked",
    "did you lock",
@@ -481,6 +529,12 @@
   "key": 0,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "thing": [
+    "door",
+    "car",
+    "gate",
+    "window"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -497,7 +551,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Could you tell me ______ by card, {name}?",
+  "prompt": "Could you tell me ______ by {method}, {name}?",
   "options": [
    "can I pay",
    "if can I pay",
@@ -507,6 +561,12 @@
   "key": 3,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "method": [
+    "card",
+    "phone",
+    "cash",
+    "bank transfer"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -523,7 +583,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We don't know ______ to the {event}.",
+  "prompt": "We don't know ______ to the {event}, {name}.",
   "options": [
    "whether are they coming",
    "whether they coming",
@@ -538,6 +598,12 @@
     "wedding",
     "picnic",
     "dinner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -549,7 +615,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I'm not sure ______ English, {name}.",
+  "prompt": "I'm not sure ______ {lang}, {name}.",
   "options": [
    "if your grandmother understand",
    "if your grandmother understands",
@@ -559,6 +625,12 @@
   "key": 1,
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "lang": [
+    "Russian",
+    "Korean",
+    "Turkish",
+    "Chinese"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -575,381 +647,9 @@
   "pv": "2.5",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Does the bus stop here?) Can you tell me if ______ here, {name}?",
-  "key": "the bus stops",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Is the shop open on {day}?) Do you know if ______ open on {day}?",
-  "key": "the shop is",
-  "acceptable": [
-   "the shop's"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "day": [
-    "Sundays",
-    "Mondays",
-    "holidays",
-    "Navruz"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Did Grandma call?) I wonder if ______, {name}.",
-  "key": "Grandma called",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Can your brother drive?) Do you know if ______, {name}?",
-  "key": "your brother can drive",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Are they at home {when}?) I'm not sure if ______ at home {when}.",
-  "key": "they are",
-  "acceptable": [
-   "they're"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "when": [
-    "now",
-    "today",
-    "tonight",
-    "this evening"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Does your sister like {food}?) Do you know if ______ {food}?",
-  "key": "your sister likes",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "food": [
-    "plov",
-    "fish",
-    "spicy food",
-    "ice cream"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Is it going to rain?) I wonder if ______ to rain, {name}.",
-  "key": "it is going",
-  "acceptable": [
-   "it's going"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Did you lock the door?) Can you check if ______ the door, {name}?",
-  "key": "you locked",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Will the shop be open {when}?) Do you know if ______ open {when}?",
-  "key": "the shop will be",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "when": [
-    "tomorrow",
-    "on Sunday",
-    "tonight",
-    "after six"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Does the hotel have wifi?) Could you ask if ______ wifi, {name}?",
-  "key": "the hotel has",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Has the film started?) Do you know if ______, {name}?",
-  "key": "the film has started",
-  "acceptable": [
-   "the film's started"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Is your cousin coming to the {event}?) I don't know if ______ to the {event}.",
-  "key": "your cousin is coming",
-  "acceptable": [
-   "your cousin's coming"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "event": [
-    "party",
-    "wedding",
-    "concert",
-    "picnic"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Do they sell {thing} here?) Can you ask if ______ {thing} here?",
-  "key": "they sell",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "thing": [
-    "phone cards",
-    "stamps",
-    "bread",
-    "tickets"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Did the teacher check our tests?) I wonder if ______ our tests, {name}.",
-  "key": "the teacher checked",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Can I park here?) Do you know if ______ here, {name}?",
-  "key": "I can park",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Was the exam difficult?) Can you tell me if ______ difficult, {name}?",
-  "key": "the exam was",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Are there any tickets left?) Could you check if ______ any tickets left, {name}?",
-  "key": "there are",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
-   "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Does this bus go to the {place}?) Do you know if ______ to the {place}?",
-  "key": "this bus goes",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Can you tell me if the bus ______ (stop) at the {place} every day, {name}?",
+  "key": "stops",
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
    "place": [
@@ -957,22 +657,7 @@
     "airport",
     "station",
     "museum"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Did your parents enjoy the trip?) I'd like to know if ______ the trip, {name}.",
-  "key": "your parents enjoyed",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -989,12 +674,9 @@
   "pv": "2.5",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Finish the polite question with the words from the question in brackets. Use statement order.",
-  "source": "(Is the museum free on {day}?) Do you know if ______ free on {day}?",
-  "key": "the museum is",
-  "acceptable": [
-   "the museum's"
-  ],
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Do you know if the shop ______ (be) usually open on {day}, {name}?",
+  "key": "is",
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
    "day": [
@@ -1002,6 +684,498 @@
     "Mondays",
     "holidays",
     "Fridays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "I wonder if Grandma ______ (call) {when}, {name}.",
+  "key": "called",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "this morning",
+    "last night",
+    "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Do you know if your brother still ______ (work) at the {place}, {name}?",
+  "key": "works",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "place": [
+    "bank",
+    "hotel",
+    "hospital",
+    "airport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "I'm not sure if they ______ (be) at home {when}, {name}.",
+  "key": "were",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Saturday",
+    "last weekend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Do you know if your sister usually ______ (like) {food}, {name}?",
+  "key": "likes",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "ice cream"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "I wonder if it ______ (rain) in {city} {when}.",
+  "key": "rained",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "last week",
+    "on Monday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Can you check if you ______ (lock) the {thing} this morning, {name}?",
+  "key": "locked",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "thing": [
+    "door",
+    "car",
+    "gate",
+    "window"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Do you know if the shop ______ (open) at {time} every day, {name}?",
+  "key": "opens",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "time": [
+    "eight",
+    "nine",
+    "ten",
+    "seven"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Could you ask if the hotel ______ (have) {thing}, {name}?",
+  "key": "has",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "thing": [
+    "wifi",
+    "a pool",
+    "parking",
+    "a lift"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Do you know if the {event} ______ (start) on time yesterday, {name}?",
+  "key": "started",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "event": [
+    "lesson",
+    "match",
+    "film",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "I don't know if your cousin ______ (come) to the {event} last {when}.",
+  "key": "came",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "picnic"
+   ],
+   "when": [
+    "week",
+    "Saturday",
+    "month",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Can you ask if they usually ______ (sell) {thing} here, {name}?",
+  "key": "sell",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "thing": [
+    "phone cards",
+    "stamps",
+    "bread",
+    "tickets"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "I wonder if the teacher ______ (check) our {work} last night, {name}.",
+  "key": "checked",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "work": [
+    "tests",
+    "essays",
+    "homework",
+    "stories"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Do you know if this bus ______ (go) to the {place} every hour, {name}?",
+  "key": "goes",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "airport",
+    "station",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Can you tell me if the exam ______ (be) {adj} yesterday, {name}?",
+  "key": "was",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "adj": [
+    "difficult",
+    "long",
+    "easy",
+    "fair"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "I'd like to know if your parents ______ (enjoy) the {thing} last week, {name}.",
+  "key": "enjoyed",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "thing": [
+    "trip",
+    "concert",
+    "dinner",
+    "film"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Do you know if the museum ______ (be) free on {day} every week, {name}?",
+  "key": "is",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "day": [
+    "Sundays",
+    "Mondays",
+    "holidays",
+    "Fridays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "I'm not sure if your teacher ______ (speak) {lang} at home, {name}.",
+  "key": "speaks",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "Korean",
+    "Turkish",
+    "Chinese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
+  "source": "Could you ask Grandpa if he ______ (understand) the {thing} yesterday, {name}?",
+  "key": "understood",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "thing": [
+    "film",
+    "letter",
+    "message",
+    "news"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1014,8 +1188,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make it a polite question. Use if.",
-  "source": "Is the bank open on {day}?",
-  "hint": "Do you know ______ on {day}?",
+  "source": "Is the bank open on {day}, {name}?",
+  "hint": "Do you know ______ on {day}, {name}?",
   "key": "if the bank is open",
   "acceptable": [
    "whether the bank is open"
@@ -1026,27 +1200,8 @@
     "Sundays",
     "Mondays",
     "holidays",
-    "Navruz"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Make it a polite question. Use if.",
-  "source": "Does your friend eat meat, {name}?",
-  "hint": "Do you know ______, {name}?",
-  "key": "if your friend eats meat",
-  "acceptable": [
-   "whether your friend eats meat"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
+    "Fridays"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1064,8 +1219,39 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make it a polite question. Use if.",
-  "source": "Is your sister at home {when}?",
-  "hint": "I wonder ______ {when}.",
+  "source": "Does your friend eat {food}, {name}?",
+  "hint": "Do you know ______ {food}, {name}?",
+  "key": "if your friend eats",
+  "acceptable": [
+   "whether your friend eats"
+  ],
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "food": [
+    "meat",
+    "fish",
+    "spicy food",
+    "sweets"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use if.",
+  "source": "Is your sister at home {when}, {name}?",
+  "hint": "I wonder ______ {when}, {name}.",
   "key": "if your sister is at home",
   "acceptable": [
    "whether your sister is at home"
@@ -1077,26 +1263,7 @@
     "today",
     "tonight",
     "this evening"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Make it a polite question. Use if.",
-  "source": "Do they live near here, {name}?",
-  "hint": "Can you tell me ______, {name}?",
-  "key": "if they live near here",
-  "acceptable": [
-   "whether they live near here"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1114,8 +1281,39 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make it a polite question. Use if.",
-  "source": "Does the museum close at {time}?",
-  "hint": "Could you tell me ______ at {time}?",
+  "source": "Do they live near the {place}, {name}?",
+  "hint": "Can you tell me ______ near the {place}, {name}?",
+  "key": "if they live",
+  "acceptable": [
+   "whether they live"
+  ],
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "airport",
+    "station",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use if.",
+  "source": "Does the museum close at {time}, {name}?",
+  "hint": "Could you tell me ______ at {time}, {name}?",
   "key": "if the museum closes",
   "acceptable": [
    "whether the museum closes"
@@ -1127,26 +1325,7 @@
     "six",
     "seven",
     "eight"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Make it a polite question. Use if.",
-  "source": "Did you finish the homework, {name}?",
-  "hint": "Can I ask ______, {name}?",
-  "key": "if you finished the homework",
-  "acceptable": [
-   "whether you finished the homework"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1164,14 +1343,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make it a polite question. Use if.",
-  "source": "Can we sit here, {name}?",
-  "hint": "Do you know ______, {name}?",
-  "key": "if we can sit here",
+  "source": "Did you finish the {work}, {name}?",
+  "hint": "Can I ask ______ the {work}, {name}?",
+  "key": "if you finished",
   "acceptable": [
-   "whether we can sit here"
+   "whether you finished"
   ],
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "work": [
+    "homework",
+    "essay",
+    "project",
+    "book"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1189,14 +1374,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make it a polite question. Use if.",
-  "source": "Will the bus come soon, {name}?",
-  "hint": "Do you know ______, {name}?",
-  "key": "if the bus will come soon",
+  "source": "Can we sit near the {place}, {name}?",
+  "hint": "Do you know ______ near the {place}, {name}?",
+  "key": "if we can sit",
   "acceptable": [
-   "whether the bus will come soon"
+   "whether we can sit"
   ],
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "place": [
+    "window",
+    "door",
+    "stage",
+    "screen"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1214,16 +1405,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make it a polite question. Use if.",
-  "source": "Has the lesson started, {name}?",
-  "hint": "Can you check ______, {name}?",
-  "key": "if the lesson has started",
+  "source": "Will the bus come {when}, {name}?",
+  "hint": "Do you know ______ {when}, {name}?",
+  "key": "if the bus will come",
   "acceptable": [
-   "whether the lesson has started",
-   "if the lesson's started",
-   "whether the lesson's started"
+   "whether the bus will come"
   ],
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "when": [
+    "soon",
+    "before six",
+    "on time",
+    "today"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1241,14 +1436,48 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make it a polite question. Use if.",
-  "source": "Did Grandma get our message, {name}?",
-  "hint": "I wonder ______, {name}.",
-  "key": "if Grandma got our message",
+  "source": "Has the {event} started, {name}?",
+  "hint": "Can you check if the {event} ______, {name}?",
+  "key": "has started",
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "event": [
+    "lesson",
+    "match",
+    "film",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it a polite question. Use if.",
+  "source": "Did Grandma get our {thing}, {name}?",
+  "hint": "I wonder ______ our {thing}, {name}.",
+  "key": "if Grandma got",
   "acceptable": [
-   "whether Grandma got our message"
+   "whether Grandma got"
   ],
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "thing": [
+    "message",
+    "letter",
+    "photos",
+    "postcard"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1266,14 +1495,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "Do you know is the shop open, {name}?",
-  "hint": "Do you know ______ open, {name}?",
+  "source": "Do you know is the shop open on {day}, {name}?",
+  "hint": "Do you know ______ open on {day}, {name}?",
   "key": "if the shop is",
   "acceptable": [
    "whether the shop is"
   ],
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "day": [
+    "Sundays",
+    "Mondays",
+    "holidays",
+    "Fridays"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1291,8 +1526,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "Can you tell me does this train stop in {city}?",
-  "hint": "Can you tell me ______ in {city}?",
+  "source": "Can you tell me does this train stop in {city}, {name}?",
+  "hint": "Can you tell me ______ in {city}, {name}?",
   "key": "if this train stops",
   "acceptable": [
    "whether this train stops"
@@ -1304,28 +1539,7 @@
     "Bukhara",
     "Jizzakh",
     "Navoi"
-   ]
-  }
- },
- {
-  "domain": "questions-negation",
-  "branch": "indirect-questions",
-  "topic": "embedded-if-whether",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "transform",
-  "format": "rewrite",
-  "instr": "Correct the mistake.",
-  "source": "I wonder if is she angry with me, {name}.",
-  "hint": "I wonder ______ angry with me, {name}.",
-  "key": "if she is",
-  "acceptable": [
-   "whether she is",
-   "if she's",
-   "whether she's"
-  ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1343,14 +1557,53 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "Do you know if did they win the match, {name}?",
-  "hint": "Do you know ______ the match, {name}?",
+  "source": "I wonder if is she angry with me {when}, {name}.",
+  "hint": "I wonder ______ angry with me {when}, {name}.",
+  "key": "if she is",
+  "acceptable": [
+   "whether she is",
+   "if she's",
+   "whether she's"
+  ],
+  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "slots": {
+   "when": [
+    "today",
+    "now",
+    "after the party",
+    "this week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Do you know if did they win the {match}, {name}?",
+  "hint": "Do you know ______ the {match}, {name}?",
   "key": "if they won",
   "acceptable": [
    "whether they won"
   ],
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
+   "match": [
+    "match",
+    "game",
+    "final",
+    "quiz"
+   ],
    "name": [
     "Aziz",
     "Olga",

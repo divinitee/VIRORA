@@ -1150,6 +1150,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "questions-negation.indirect-questions.embedded-if-whether": {
+  "domain": "questions-negation",
+  "branch": "indirect-questions",
+  "topic": "embedded-if-whether",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "questions-negation.negation.dont-doesnt": {
   "domain": "questions-negation",
   "branch": "negation",
