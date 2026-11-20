@@ -2354,6 +2354,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.meaning-change-verbs.stop-contrast": {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-contrast",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.meaning-change-verbs.stop-gerund": {
   "domain": "verb-patterns",
   "branch": "meaning-change-verbs",
