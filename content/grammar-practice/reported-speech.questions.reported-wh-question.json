@@ -1,0 +1,1861 @@
+[
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Where do you live in {city}?' {f} asked me. She asked me where ______ in {city}.",
+  "options": [
+   "I lived",
+   "did I live",
+   "do I live",
+   "lived I"
+  ],
+  "key": 0,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'What are you reading?' {m} asked me on the {place}. He asked me what ______.",
+  "options": [
+   "was I reading",
+   "am I reading",
+   "did I read",
+   "I was reading"
+  ],
+  "key": 3,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "bus",
+    "train",
+    "plane",
+    "bench"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Why are you late?' the {who} asked {m}. She asked him why ______ late.",
+  "options": [
+   "is he",
+   "did he be",
+   "he was",
+   "was he"
+  ],
+  "key": 2,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "manager",
+    "director"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'When does it start?' I asked about the {event}. I asked when ______, {f}.",
+  "options": [
+   "started it",
+   "it started",
+   "did it start",
+   "does it start"
+  ],
+  "key": 1,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "event": [
+    "film",
+    "match",
+    "concert",
+    "lesson"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'How old are you?' the {who} at the {place} asked me. He asked me how old ______.",
+  "options": [
+   "I was",
+   "was I",
+   "am I",
+   "did I be"
+  ],
+  "key": 0,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "man",
+    "doctor",
+    "guard",
+    "driver"
+   ],
+   "place": [
+    "gym",
+    "pool",
+    "club",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'What do you want for {event}?' {m} asked his {who}. He asked her what ______ for {event}.",
+  "options": [
+   "did she want",
+   "does she want",
+   "wanted she",
+   "she wanted"
+  ],
+  "key": 3,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "your birthday",
+    "Navruz",
+    "New Year",
+    "dinner"
+   ],
+   "who": [
+    "sister",
+    "mother",
+    "wife",
+    "daughter"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Where did you buy your {thing}?' {f} asked me. She asked me where ______ my {thing}.",
+  "options": [
+   "I did buy",
+   "had I bought",
+   "I had bought",
+   "did I buy"
+  ],
+  "key": 2,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "coat",
+    "phone",
+    "bag",
+    "shoes"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'How much does the {thing} cost?' I asked the {who}. I asked how much ______.",
+  "options": [
+   "cost it",
+   "it cost",
+   "did it cost",
+   "does it cost"
+  ],
+  "key": 1,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "thing": [
+    "melon",
+    "bag",
+    "carpet",
+    "scarf"
+   ],
+   "who": [
+    "seller",
+    "shop assistant",
+    "woman",
+    "man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Where are you going?' my {who} asked me at the {place}. She asked me where ______.",
+  "options": [
+   "I was going",
+   "was I going",
+   "am I going",
+   "did I go"
+  ],
+  "key": 0,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "mum",
+    "sister",
+    "aunt",
+    "grandma"
+   ],
+   "place": [
+    "door",
+    "gate",
+    "bus stop",
+    "corner"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'What time is it?' a {who} at the {place} asked me. He asked me what time ______.",
+  "options": [
+   "was it",
+   "is it",
+   "did it be",
+   "it was"
+  ],
+  "key": 3,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "man",
+    "tourist",
+    "boy",
+    "driver"
+   ],
+   "place": [
+    "station",
+    "bus stop",
+    "bazaar",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Why did you leave?' {f} asked {m}. She asked him why ______.",
+  "options": [
+   "he did leave",
+   "had he left",
+   "he had left",
+   "did he leave"
+  ],
+  "key": 2,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'How can I help you?' the {who} asked {m}. She asked him how ______ help him.",
+  "options": [
+   "did she can",
+   "she could",
+   "could she",
+   "can she"
+  ],
+  "key": 1,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "receptionist",
+    "nurse",
+    "assistant",
+    "waitress"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Where is it?' a tourist asked me about the {place}. He asked me where ______, {f}.",
+  "options": [
+   "it was",
+   "was it",
+   "is it",
+   "did it be"
+  ],
+  "key": 0,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "place": [
+    "museum",
+    "station",
+    "old town",
+    "bazaar"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'What did you eat at the {event}?' the doctor asked {m}. She asked him what ______ at the {event}.",
+  "options": [
+   "did he eat",
+   "he did eat",
+   "had he eaten",
+   "he had eaten"
+  ],
+  "key": 3,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "picnic",
+    "café"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'When will you come back from {city}?' my {who} asked me. She asked me when ______ back from {city}.",
+  "options": [
+   "will I come",
+   "did I come",
+   "I would come",
+   "would I come"
+  ],
+  "key": 2,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "mum",
+    "sister",
+    "aunt",
+    "grandma"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'How do you know {m}?' {f} asked me. She asked me how ______ him.",
+  "options": [
+   "knew I",
+   "I knew",
+   "did I know",
+   "do I know"
+  ],
+  "key": 1,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Which bus do you take to the {place}?' the {who} asked me. He asked me which bus ______ to the {place}.",
+  "options": [
+   "I took",
+   "did I take",
+   "do I take",
+   "took I"
+  ],
+  "key": 0,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bazaar",
+    "university"
+   ],
+   "who": [
+    "driver",
+    "guard",
+    "man",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Why is the {shop} closed?' {m} asked. He asked why ______ closed, {f}.",
+  "options": [
+   "was it",
+   "is it",
+   "did it be",
+   "it was"
+  ],
+  "key": 3,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "shop": [
+    "bank",
+    "bakery",
+    "pharmacy",
+    "post office"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Where have you been all {time}?' my {who} asked me. He asked me where ______ all {time}.",
+  "options": [
+   "have I been",
+   "did I be",
+   "I had been",
+   "had I been"
+  ],
+  "key": 2,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "time": [
+    "day",
+    "night",
+    "morning",
+    "evening"
+   ],
+   "who": [
+    "dad",
+    "brother",
+    "uncle",
+    "grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'What are you doing in {city}?' {f} asked me. She asked me what ______ in {city}.",
+  "options": [
+   "did I do",
+   "I was doing",
+   "was I doing",
+   "am I doing"
+  ],
+  "key": 1,
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Where do you live in {city}?' {f} asked me. She asked me where ______ in {city}.",
+  "key": "I lived",
+  "acceptable": [
+   "I live"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'What are you reading on the {place}?' {m} asked me. He asked me what ______ on the {place}.",
+  "key": "I was reading",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "bus",
+    "train",
+    "plane",
+    "bench"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Why are you late for the {event}?' the {who} asked {m}. She asked him why ______ late for the {event}.",
+  "key": "he was",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "event": [
+    "lesson",
+    "meeting",
+    "match",
+    "rehearsal"
+   ],
+   "who": [
+    "teacher",
+    "coach",
+    "manager",
+    "director"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'When does it start?' I asked about the {event}. I asked when ______, {f}.",
+  "key": "it started",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "event": [
+    "film",
+    "match",
+    "concert",
+    "lesson"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'How old are you?' the {who} at the {place} asked me. He asked me how old ______.",
+  "key": "I was",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "man",
+    "doctor",
+    "guard",
+    "driver"
+   ],
+   "place": [
+    "gym",
+    "pool",
+    "club",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'What do you want for {event}?' {m} asked his {who}. He asked her what ______ for {event}.",
+  "key": "she wanted",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "your birthday",
+    "Navruz",
+    "New Year",
+    "dinner"
+   ],
+   "who": [
+    "sister",
+    "mother",
+    "wife",
+    "daughter"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Where did you buy your {thing}?' {f} asked me. She asked me where ______ my {thing}.",
+  "key": "I had bought",
+  "acceptable": [
+   "I bought"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "coat",
+    "phone",
+    "bag",
+    "shoes"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'How much does the {thing} cost?' I asked the {who}. I asked how much ______.",
+  "key": "it cost",
+  "acceptable": [
+   "it costs"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "thing": [
+    "melon",
+    "bag",
+    "carpet",
+    "scarf"
+   ],
+   "who": [
+    "seller",
+    "shop assistant",
+    "woman",
+    "man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Where are you going?' my {who} asked me at the {place}. She asked me where ______.",
+  "key": "I was going",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "mum",
+    "sister",
+    "aunt",
+    "grandma"
+   ],
+   "place": [
+    "door",
+    "gate",
+    "bus stop",
+    "corner"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'What time is it?' a {who} at the {place} asked me. He asked me what time ______.",
+  "key": "it was",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "man",
+    "tourist",
+    "boy",
+    "driver"
+   ],
+   "place": [
+    "station",
+    "bus stop",
+    "bazaar",
+    "park"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Why did you leave the {event}?' {f} asked {m}. She asked him why ______ the {event}.",
+  "key": "he had left",
+  "acceptable": [
+   "he left"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "party",
+    "meeting",
+    "wedding",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'How can I help you?' the {who} asked {m}. She asked him how ______ help him.",
+  "key": "she could",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "receptionist",
+    "nurse",
+    "assistant",
+    "waitress"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Where is the {place}?' a tourist asked me. He asked me where the {place} ______, {f}.",
+  "key": "was",
+  "acceptable": [
+   "is"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "place": [
+    "museum",
+    "station",
+    "old town",
+    "bazaar"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'What did you eat at the {event}?' the doctor asked {m}. She asked him what ______ at the {event}.",
+  "key": "he had eaten",
+  "acceptable": [
+   "he ate"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "picnic",
+    "café"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'When will you come back from {city}?' my {who} asked me. She asked me when ______ back from {city}.",
+  "key": "I would come",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "mum",
+    "sister",
+    "aunt",
+    "grandma"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'How do you know {m}?' {f} asked me. She asked me how ______ him.",
+  "key": "I knew",
+  "acceptable": [
+   "I know"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Which bus do you take to the {place}?' the {who} asked me. He asked me which bus ______ to the {place}.",
+  "key": "I took",
+  "acceptable": [
+   "I take"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bazaar",
+    "university"
+   ],
+   "who": [
+    "driver",
+    "guard",
+    "man",
+    "teacher"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Why is the {shop} closed?' {m} asked. He asked why the {shop} ______ closed, {f}.",
+  "key": "was",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "shop": [
+    "bank",
+    "bakery",
+    "pharmacy",
+    "post office"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'Where have you been all {time}?' my {who} asked me. He asked me where ______ all {time}.",
+  "key": "I had been",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "time": [
+    "day",
+    "night",
+    "morning",
+    "evening"
+   ],
+   "who": [
+    "dad",
+    "brother",
+    "uncle",
+    "grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the question. Write the subject and the verb in statement order, one step into the past.",
+  "source": "'What are you doing in {city}?' {f} asked me. She asked me what ______ in {city}.",
+  "key": "I was doing",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question. Start with the words given.",
+  "source": "'Where do you work?' {f} asked me.",
+  "hint": "{f} asked me ______.",
+  "key": "where I worked",
+  "acceptable": [
+   "where I work"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question. Start with the words given.",
+  "source": "'What are you cooking?' my {who} asked me.",
+  "hint": "My {who} asked me ______.",
+  "key": "what I was cooking",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "friend",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question. Start with the words given.",
+  "source": "'Why are you so tired?' the {who} asked {m}.",
+  "hint": "The {who} asked {m} ______.",
+  "key": "why he was so tired",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "doctor",
+    "nurse"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question. Start with the words given.",
+  "source": "'When did you arrive in {city}?' {f} asked me.",
+  "hint": "{f} asked me ______ in {city}.",
+  "key": "when I had arrived",
+  "acceptable": [
+   "when I arrived"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question. Start with the words given.",
+  "source": "'How do you get to the {place}?' a tourist asked {m}.",
+  "hint": "A tourist asked {m} ______ to the {place}.",
+  "key": "how he got",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "museum",
+    "station",
+    "old town",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{f} asked me where did I live.",
+  "hint": "{f} asked me where ______.",
+  "key": "I lived",
+  "acceptable": [
+   "I live"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{m} asked me what was I doing in {city}.",
+  "hint": "{m} asked me what ______ in {city}.",
+  "key": "I was doing",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {who} asked us why were we late.",
+  "hint": "The {who} asked us why ______ late.",
+  "key": "we were",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "manager",
+    "director"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{f} asked {m} when does the {event} start.",
+  "hint": "{f} asked {m} when the {event} ______.",
+  "key": "started",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "film",
+    "match",
+    "concert",
+    "lesson"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {who} asked me where I have been.",
+  "hint": "My {who} asked me where ______.",
+  "key": "I had been",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "dad",
+    "brother",
+    "uncle",
+    "grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know.",
+  "source": "'What time does the {bus} leave?' {m} asked.",
+  "hint": "{m} wanted to know what time the {bus} ______.",
+  "key": "left",
+  "acceptable": [
+   "leaves"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "bus": [
+    "bus",
+    "train",
+    "plane",
+    "ferry"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know.",
+  "source": "'Where are you from?' the {who} asked me.",
+  "hint": "The {who} wanted to know ______.",
+  "key": "where I was from",
+  "acceptable": [
+   "where I am from"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "driver",
+    "guide",
+    "teacher",
+    "waiter"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know.",
+  "source": "'How much did you pay for the {thing}?' {f} asked me.",
+  "hint": "{f} wanted to know how much ______ for the {thing}.",
+  "key": "I had paid",
+  "acceptable": [
+   "I paid"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "car",
+    "phone",
+    "carpet",
+    "dress"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know.",
+  "source": "'Who are you waiting for?' the {who} asked {m}.",
+  "hint": "The {who} wanted to know who ______ for.",
+  "key": "he was waiting",
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "who": [
+    "guard",
+    "receptionist",
+    "teacher",
+    "manager"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know.",
+  "source": "'Why did you choose {city}?' {f} asked me.",
+  "hint": "{f} wanted to know why ______ {city}.",
+  "key": "I had chosen",
+  "acceptable": [
+   "I chose"
+  ],
+  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A new neighbour asked you: 'Where do you work?' Report the question.",
+  "requiredElement": "He / She asked me where I worked",
+  "constraints": [
+   "exactly one sentence",
+   "asked me where",
+   "statement order"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your teacher asked: 'Why are you late?' Report it.",
+  "requiredElement": "She asked me why I was late",
+  "constraints": [
+   "exactly one sentence",
+   "why + subject + verb",
+   "past"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a question a tourist asked you.",
+  "requiredElement": "… asked me how / where …",
+  "constraints": [
+   "exactly one sentence",
+   "statement order",
+   "no do / did"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write the direct question and then the reported question.",
+  "requiredElement": "direct → reported wh-question",
+  "constraints": [
+   "exactly two sentences",
+   "a question mark in the first",
+   "statement order in the second"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your mum asked: 'What are you doing?' Report it.",
+  "requiredElement": "She asked me what I was doing",
+  "constraints": [
+   "exactly one sentence",
+   "was + -ing",
+   "statement order"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a question with wanted to know.",
+  "requiredElement": "… wanted to know …",
+  "constraints": [
+   "exactly one sentence",
+   "wanted to know",
+   "wh-word + subject + verb"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend asked: 'When did you come back?' Report it.",
+  "requiredElement": "… asked me when I had come back",
+  "constraints": [
+   "exactly one sentence",
+   "had + past participle",
+   "no did"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a question someone asked you in a job interview.",
+  "requiredElement": "… asked me why / what …",
+  "constraints": [
+   "exactly one sentence",
+   "statement order",
+   "past"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You had a job interview yesterday. Report three or four questions they asked you.",
+  "targetGrammar": "reported wh-questions",
+  "lookFor": [
+   "asked me",
+   "statement order",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A tourist stopped you in the street. Report three or four of his questions.",
+  "targetGrammar": "reported wh-questions",
+  "lookFor": [
+   "asked",
+   "wanted to know",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your grandparents asked you lots of questions at dinner. Report three or four of them.",
+  "targetGrammar": "statement order + backshift",
+  "lookFor": [
+   "asked me",
+   "where / what / why",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report the questions a doctor asked you. Write three or four sentences.",
+  "targetGrammar": "reported questions",
+  "lookFor": [
+   "asked",
+   "statement order",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A new classmate asked you about your town. Report three or four questions.",
+  "targetGrammar": "reported wh-questions",
+  "lookFor": [
+   "asked me",
+   "wanted to know",
+   "three or four sentences"
+  ]
+ }
+]
