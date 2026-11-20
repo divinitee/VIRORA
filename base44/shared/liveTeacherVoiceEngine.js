@@ -17,7 +17,7 @@ import {
   getOrCreateProfile, saveProfile, loadLesson, finalize, lessonMistakes, withLabels, redact, sha256Hex,
 } from './liveTeacherEngine.js';
 import {
-  PERSONAS, cleanPersona, FILLERS, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
+  PERSONAS, cleanPersona, FILLERS, FILLER_TAG, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
   modelSupportsTags, stripAudioTags,
 } from './liveTeacherBrain.js';
 
@@ -40,7 +40,8 @@ export const PRICES = {
 export function settings(env = {}) {
   return {
     brainModel: env.LIVE_TEACHER_BRAIN_MODEL || 'gpt-5.6-terra',
-    brainReasoning: env.LIVE_TEACHER_BRAIN_REASONING === undefined ? 'low' : env.LIVE_TEACHER_BRAIN_REASONING,
+    // 'minimal' = fastest answers (the turn delay is mostly brain time). Falls back to 'low'.
+    brainReasoning: env.LIVE_TEACHER_BRAIN_REASONING === undefined ? 'minimal' : env.LIVE_TEACHER_BRAIN_REASONING,
     ttsModel: env.LIVE_TEACHER_TTS_MODEL || 'eleven_v4_turbo',
     sttModel: env.LIVE_TEACHER_STT_MODEL || 'scribe_v3',
     audioTags: env.LIVE_TEACHER_AUDIO_TAGS !== '0',
@@ -165,8 +166,14 @@ export async function think(env, { instructions, message, safetyId }, fetchImpl 
   });
   let res = await call(body);
   let data = await res.json().catch(() => null);
-  // Older/other models may not accept these optional fields: retry without them once.
-  if (res.status === 400 && /reasoning_effort|safety_identifier/i.test(String(data?.error?.message || ''))) {
+  // A model may not accept 'minimal' (or these optional fields): step down to
+  // 'low', then drop the optional fields altogether.
+  const refused = () => res.status === 400 && /reasoning|safety_identifier/i.test(String(data?.error?.message || ''));
+  if (refused() && body.reasoning_effort && body.reasoning_effort !== 'low') {
+    res = await call({ ...body, reasoning_effort: 'low' });
+    data = await res.json().catch(() => null);
+  }
+  if (refused()) {
     const { reasoning_effort, safety_identifier, ...rest } = body;
     res = await call(rest);
     data = await res.json().catch(() => null);
@@ -283,15 +290,16 @@ export async function fillerClips({ user, body = {}, env, fetchImpl = fetch }) {
   const persona = cleanPersona(body.persona);
   try {
     const voiceId = await resolveVoice(env, persona, fetchImpl);
-    const key = `${voiceId}|${settings(env).ttsModel}`;
+    const key = `${voiceId}|${settings(env).ttsModel}|v2`;
     if (fillerCache.has(key)) return reply(200, { ok: true, clips: fillerCache.get(key) });
     // Two at a time with one retry: ElevenLabs refuses too many parallel requests
     // (that silently killed every filler in the first live test, 2026-11-20).
-    const quiet = { ...env, LIVE_TEACHER_AUDIO_TAGS: '0' };
+    // One fixed mood tag per persona, so every "hmm" has the same feel as the
+    // teacher (no more sad "mhm" followed by a cheerful answer).
     const one = async (text) => {
       for (let attempt = 0; attempt < 2; attempt++) {
         try {
-          const v = await speak(quiet, { voiceId, text }, fetchImpl);
+          const v = await speak(env, { voiceId, text: `${FILLER_TAG[persona]} ${text}` }, fetchImpl);
           if (v.audio_b64) return { text, audio_b64: v.audio_b64, mime: v.mime };
         } catch (e) {
           if (attempt === 1) throw e;
@@ -333,8 +341,11 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
   const mime = String(body.mime || 'audio/wav').slice(0, 40);
   const sttSeconds = Math.max(0, Math.min(60, Number(body.duration_s) || 0));
 
+  const t0 = Date.now();
+  const timings = {};
   try {
     const heard = await transcribe(env, { bytes: b64ToBytes(b64), mime }, fetchImpl);
+    timings.ears_ms = Date.now() - t0;
     const words = heard.text.replace(/\([^)]*\)/g, '').trim();
     if (words.length < 2) {
       // Nothing usable (silence, a cough). No brain call, no voice: just listen again.
@@ -350,14 +361,18 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
       studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: s.audioTags && modelSupportsTags(s.ttsModel),
     });
     const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText: heard.text, lessonMistakes: lesson.mistakes, minutesLeft });
+    const tBrain = Date.now();
     const { out, usage } = await think(env, { instructions, message, safetyId: await sha256Hex(user.id || user.email) }, fetchImpl);
+    timings.brain_ms = Date.now() - tBrain;
 
     const ctx = { lessonId: lesson.id, mode: lesson.mode, ageGroup: lesson.age_group, now };
     const applied = applyReport(profile, lesson, out, ctx);
     if (applied.profile !== profile) await saveProfile(svc, row, applied.profile);
 
     const voiceId = await resolveVoice(env, persona, fetchImpl);
+    const tVoice = Date.now();
     const voice = await speak(env, { voiceId, text: out.reply }, fetchImpl);
+    timings.voice_ms = Date.now() - tVoice;
     const c = costOf({ sttSeconds, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: voice.chars });
     const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: voice.chars });
     const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { usage: usageTotal } };
@@ -384,6 +399,8 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
       ended: !!recap, recap,
       cost_usd: c.total, lesson_cost_usd: usageTotal.cost_usd,
       persona_name: P.name,
+      // where the waiting time goes (admins only)
+      ...(user.role === 'admin' ? { timings: { ...timings, server_ms: Date.now() - t0 } } : {}),
     });
   } catch (e) {
     return errorReply(user, e);
