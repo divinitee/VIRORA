@@ -19,7 +19,7 @@ import {
 } from './liveTeacherEngine.js';
 import {
   PERSONAS, cleanPersona, FILLERS, fillerTag, cleanMood, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
-  modelSupportsTags, stripAudioTags, splitSpeech,
+  modelSupportsTags, stripAudioTags, splitSpeech, fillerLines, cleanFillerLang, speechLang,
 } from './liveTeacherBrain.js';
 
 const reply = (status, body) => ({ status, body });
@@ -365,9 +365,10 @@ export async function fillerClips({ user, body = {}, env, fetchImpl = fetch }) {
   if (!isVoiceConfigured(env)) return reply(503, { ok: false, code: 'not_configured', error: 'Not set up.' });
   const persona = cleanPersona(body.persona);
   const mood = cleanMood(body.mood);
+  const lang = cleanFillerLang(body.lang);
   try {
     const voiceId = await resolveVoice(env, persona, fetchImpl);
-    const key = `${voiceId}|${settings(env).ttsModel}|${mood}|v3`;
+    const key = `${voiceId}|${settings(env).ttsModel}|${lang}|${mood}|v4`;
     if (fillerCache.has(key)) return reply(200, { ok: true, clips: fillerCache.get(key) });
     // Two at a time with one retry: ElevenLabs refuses too many parallel requests
     // (that silently killed every filler in the first live test, 2026-11-20).
@@ -386,7 +387,7 @@ export async function fillerClips({ user, body = {}, env, fetchImpl = fetch }) {
     };
     const clips = [];
     let lastError = '';
-    const lines = FILLERS[persona][mood];
+    const lines = fillerLines(persona, mood, lang);
     for (let i = 0; i < lines.length; i += 2) {
       const got = await Promise.allSettled(lines.slice(i, i + 2).map(one));
       for (const g of got) {
@@ -396,7 +397,7 @@ export async function fillerClips({ user, body = {}, env, fetchImpl = fetch }) {
     }
     if (clips.length === lines.length) fillerCache.set(key, clips); // cache only a full set
     if (!clips.length) throw new ServiceError('fillers_failed', `Fillers: ${lastError || 'no audio'}`);
-    return reply(200, { ok: true, mood, clips, ...(lastError && user?.role === 'admin' ? { warning: lastError } : {}) });
+    return reply(200, { ok: true, mood, lang, clips, ...(lastError && user?.role === 'admin' ? { warning: lastError } : {}) });
   } catch (e) {
     return errorReply(user, e);
   }
@@ -438,7 +439,7 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
       persona, ageGroup: lesson.age_group, uiLang: ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz',
       studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: s.audioTags && modelSupportsTags(s.ttsModel),
     });
-    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText: heard.text, lessonMistakes: lesson.mistakes, minutesLeft });
+    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText: heard.text, lessonMistakes: lesson.mistakes, minutesLeft, studentLang: speechLang(heard.language, heard.text) });
     const tBrain = Date.now();
     const { out, usage } = await think(env, { instructions, message, safetyId: await sha256Hex(user.id || user.email) }, fetchImpl);
     timings.brain_ms = Date.now() - tBrain;
@@ -520,7 +521,8 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
       persona, ageGroup: lesson.age_group, uiLang: ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz',
       studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags,
     });
-    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft });
+    const studentLang = ['uz', 'ru'].includes(body.student_lang) ? body.student_lang : speechLang('', studentText);
+    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft, studentLang });
     const [safetyId, voiceId] = await Promise.all([sha256Hex(user.id || user.email), resolveVoice(env, persona, fetchImpl)]);
     const tBrain = Date.now();
     // As soon as the brain has written the reply, its first sentence goes to the
