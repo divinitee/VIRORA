@@ -92,7 +92,7 @@ const BUILD = [
   // which (8)
   ["which", "This is the house ______ my dad built {when}, {name}.", { when: ["in 2010", "ten years ago", "with his brothers", "himself"], name: NAME }],
   ["which", "The town ______ we visited {when} was very old, {name}.", { when: ["last summer", "on Sunday", "in May", "last year"], name: NAME }],
-  ["which", "{city} is a city ______ many tourists love, {name}.", { city: CITY, name: NAME }],
+  ["which", "{city} is a city ______ my grandparents love, {name}.", { city: CITY, name: NAME }],
   ["which", "The café ______ my uncle opened {when} is very popular, {name}.", { when: ["last year", "in March", "two years ago", "in 2020"], name: NAME }],
   ["which", "The flat ______ they bought has {n} rooms, {name}.", { n: ["two", "three", "four", "five"], name: NAME }],
   ["which", "The park ______ the city built {when} is beautiful, {name}.", { when: ["last year", "near the river", "in the centre", "for children"], name: NAME }],
