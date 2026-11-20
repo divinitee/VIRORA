@@ -9,8 +9,8 @@ B1 topics are not on the learner path yet (the path is A1-A2). They appear on th
 
 ## How to work (every turn, same routine)
 1. Read grammar-run/HANDOFF.md (the full rule set), grammar-run/PATH-FILL.md (its "Lessons from the audit" and point 6 content notes) and this file. Read `tools/grammar-practice/authored/continuous-negative.mjs` once, and one recent topic such as `tools/grammar-practice/authored/pronouns.indefinite.someone-anyone.mjs`.
-2. Open grammar-run/PROGRESS-wave-c-base44.md and find the last topic with a row. Continue with the NEXT topic in the list below. Never redo a topic that has a `done` row.
-3. Write **5 to 7 topics per turn**, one at a time: triage (placement items: `grep -n 't: "<topic>"' src/lib/adaptiveGrammar/bank/*.js`) → authored file → `bash grammar-run/run_topic.sh <key>` → read the review sheet → `node grammar-run/list_multislot.mjs <key>` and read every line as its worst pairing → `node grammar-run/check_slot_agreement.mjs <key>` → dump the choose options and hunt for a second right answer → fix → one row in PROGRESS-wave-c-base44.md → checkpoint.
+2. Open grammar-run/PROGRESS-wave-c-base44.md and find the last topic with a row. Continue with the NEXT topic in the list below. Never redo a topic that has a `done` row. If an authored file exists for a topic with no row yet (a turn stopped mid-topic, e.g. C10 basic-tag and C11 although-despite on 20 Nov), finish that one first: run, audit, log.
+3. Write **3 or 4 topics per turn** (update 20 Nov: two turns ran out of room after 6 and 3 topics; stop early, the log carries on next turn), one at a time: triage (placement items: `grep -n 't: "<topic>"' src/lib/adaptiveGrammar/bank/*.js`) → authored file → `bash grammar-run/run_topic.sh <key>` → read the review sheet → `node grammar-run/list_multislot.mjs <key>` and read every line as its worst pairing → `node grammar-run/check_slot_agreement.mjs <key>` → dump the choose options and hunt for a second right answer → fix → one row in PROGRESS-wave-c-base44.md → checkpoint.
 4. End of turn: `npm run build` and `npm run lint`, then stop and report which topic comes next.
 
 Tee or Claude restarts you with: "Continue wave C: read grammar-run/WAVE-C-BASE44.md and carry on from where the log stops."
@@ -90,3 +90,5 @@ Each topic tests its OWN point. If two siblings would test the same thing, keep 
 - Never offer as "wrong" something natives say ("This poem is written by …" for authorship, "ask anyone", "I can't find someone to help"). If in doubt, change the sentence so only the key fits.
 - No army, war, police or weapons. No factual claims about real countries or cities ("many tourists love Fergana", "many languages are spoken in Namangan"). No uncountable noun after "a" ("a bread").
 - Every slot combination must make sense: run list_multislot and read every line as its worst pairing.
+- "Students in my group are friendly" / "Bread from this bakery is fresh" are fine English: a plural or uncountable noun with a phrase after it does not force "the". When "the" is the key, make it one specific group or thing (the students we met, the bread you bought this morning).
+- "Neither of them are …" is said too: when "both" is the key, add a phrase that rules out neither ("just like our mother").
