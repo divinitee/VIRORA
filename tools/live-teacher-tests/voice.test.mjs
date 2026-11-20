@@ -337,3 +337,9 @@ test('conduct: each persona has its own swearing ladder, strikes end the lesson 
   assert.equal(conductAfter('velvet', 1, { rude: false }).strikes, 1);
   assert.match(conductAfter('violet', 0, { rude: true }).summary, /^ENDED EARLY FOR SWEARING \(Violet/);
 });
+
+test('rude: swearing gets no filler (EN/RU/UZ, stretched letters), normal talk is not flagged', async () => {
+  const { isRude } = await import('../../src/lib/liveTeacher/fillerMood.js');
+  for (const x of ['Fuck you', 'Nah, bro. What the fuck is wrong with you?', 'Бляяя, давай уже', 'иди нахуй', 'сука', 'Sen jalabsan', 'dalbayob', 'fuuuuck', 'shut up']) assert.ok(isRude(x), x);
+  for (const x of ['Блин, давай что-то продуктивно', 'I like dictionaries', 'He was a good student', 'I took the bus to school', 'Assalomu alaykum', 'this is boring', 'shutter speed', 'class assessment']) assert.ok(!isRude(x), x);
+});

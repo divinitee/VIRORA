@@ -9,7 +9,7 @@ import { liveTeacherApi } from "@/lib/serverApi";
 import { copyFor } from "@/lib/liveTeacher/copy";
 import { createVoiceLoop, playAudio, blobToB64 } from "@/lib/liveTeacher/voiceLoop";
 import { transcribeDirect } from "@/lib/liveTeacher/liveStreams";
-import { fillerMood, speechLang, echoScore } from "@/lib/liveTeacher/fillerMood";
+import { fillerMood, speechLang, echoScore, isRude } from "@/lib/liveTeacher/fillerMood";
 
 // Live Teacher v2 (2026-11-20): "text brain" lessons.
 //   you talk -> ElevenLabs Scribe writes it down -> the brain (OpenAI text
@@ -193,12 +193,13 @@ export default function LiveTeacherV2() {
     fillerDoneRef.current = p.done;
   }
   const holdOnRef = useRef(false); // the "give me a second" line is playing
-  function startThinking(mood, lang = "en") {
+  function startThinking(mood, lang = "en", { quiet = false } = {}) {
     lastLangRef.current = lang;
     holdOnRef.current = false;
     fillerDoneRef.current = Promise.resolve();
     if (mood && Math.random() < 0.92) playClip(pickClip(lang, mood)); // mood null = stay quiet
     clearTimeout(holdTimerRef.current);
+    if (quiet) return; // swearing: no "mmm, good one!", no "give me a second" either
     // still no answer after ~2.5 s: one "give me a second" so it never goes quiet
     holdTimerRef.current = setTimeout(async () => {
       await fillerDoneRef.current;
@@ -285,7 +286,8 @@ export default function LiveTeacherV2() {
     // She asked the student to say a phrase and they said it: no "hmm, let me see..."
     const lastTeacher = [...historyRef.current].reverse().find((h) => h.role === "teacher")?.text || "";
     const echo = text ? echoScore(text, lastTeacher) : 0;
-    if (echo >= 0.8) startThinking("positive", spokenLang);
+    if (text && isRude(text)) startThinking(null, spokenLang, { quiet: true });
+    else if (echo >= 0.8) startThinking("positive", spokenLang);
     else if (echo >= 0.5) startThinking(null, spokenLang);
     else startThinking(text ? fillerMood(text) : "neutral", spokenLang);
     waitingRef.current = true;
