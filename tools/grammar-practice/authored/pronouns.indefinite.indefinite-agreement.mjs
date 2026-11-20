@@ -64,23 +64,24 @@ const CHOOSE = [
 });
 
 /* ---------------- build: 20 gap_fill ---------------- */
-const INSTR_B = "Write the verb in brackets in the right form.";
+// Audit (Claude, 20 Nov): with no tense cue, "liked" / "was" were right too.
+const INSTR_B = "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.";
 const BUILD = [
   ["likes", "Everyone {group} ______ (like) {sport}.", { group: GROUP, sport: ["football", "chess", "volleyball", "tennis"] }],
   ["knows", "Nobody ______ (know) where {name} is {when}.", { name: NAME, when: ["now", "today", "this morning", "tonight"] }],
-  ["is", "Everybody ______ (be) tired after the {event}, {name}.", { event: ["match", "trip", "exam", "wedding"], name: NAME }],
+  ["is", "Look at them! Everybody ______ (be) tired after the {event}, {name}.", { event: ["match", "trip", "exam", "wedding"], name: NAME }],
   ["was", "No one ______ (be) in the {place} last night, {name}.", { place: PLACE, name: NAME }],
   ["has", "Everyone {group} ______ (have) a {thing}.", { group: GROUP, thing: ["bike", "phone", "pet", "laptop"] }],
   ["wants", "Nobody ______ (want) to sit near the {place}, {name}.", { place: ["door", "window", "heater", "board"], name: NAME }],
   ["drinks", "Everybody in my family ______ (drink) tea after {meal}.", { meal: ["dinner", "lunch", "plov", "breakfast"], x: [] }],
   ["works", "Someone in our {place} ______ (work) at the {job}.", { place: ["street", "building", "family", "village"], job: ["bank", "hospital", "airport", "post office"] }],
-  ["was", "Everything ______ (be) ready for the {event} on {day}.", { event: ["party", "wedding", "test", "concert"], day: ["Friday", "Saturday", "Sunday", "Monday"] }],
+  ["was", "Everything ______ (be) ready for the {event} last {day}.", { event: ["party", "wedding", "test", "concert"], day: ["Friday", "Saturday", "Sunday", "Monday"] }],
   ["costs", "Nothing in this {place} ______ (cost) more than ten dollars, {name}.", { place: ["shop", "café", "bazaar", "market"], name: NAME }],
   ["has", "Somebody ______ (have) your {thing}, {name}. Ask the teacher.", { thing: ["bag", "book", "jacket", "phone"], name: NAME }],
   ["lives", "No one ______ (live) on the top floor of our {home}, {name}.", { home: ["building", "house", "block", "new building"], name: NAME }],
   ["is", "Everything in the {place} ______ (be) new, {name}.", { place: ["kitchen", "classroom", "flat", "shop"], name: NAME }],
   ["loves", "Everyone ______ (love) {name}'s {food}.", { name: NAME, food: ["cakes", "plov", "soup", "salads"] }],
-  ["was", "Nobody ______ (be) at the bus stop at {time}, {name}.", { time: ["six", "seven", "midnight", "five"], name: NAME }],
+  ["was", "Nobody ______ (be) at the bus stop at {time} yesterday, {name}.", { time: ["six", "seven", "midnight", "five"], name: NAME }],
   ["helps", "Someone always ______ (help) {who} with the {task}.", { who: ["Grandma", "Grandpa", "Mum", "our teacher"], task: ["shopping", "garden", "cooking", "cleaning"] }],
   ["speaks", "Everybody in our {group} ______ (speak) a little English, {name}.", { group: ["class", "family", "office", "street"], name: NAME }],
   ["watches", "No one in our {group} ______ (watch) TV in the {when}.", { group: ["family", "flat", "house", "building"], when: ["morning", "afternoon", "evening", "daytime"] }],
@@ -110,8 +111,8 @@ const TRANSFORM = [
   [NO, "The people in the {place} aren't happy, {name}.", "No one in the {place} ______ happy, {name}.", "is", "no one → is (no not).", { place: ["office", "class", "street", "village"], name: NAME }],
   [NO, "My friends weren't at home {when}, {name}.", "Nobody ______ at home {when}, {name}.", "was", "nobody → was (no not).", { when: ["yesterday", "on Sunday", "last night", "at five"], name: NAME }],
   [NO, "The children don't know the {thing}, {name}.", "No one ______ the {thing}, {name}.", "knows", "no one → knows (no don't).", { thing: ["answer", "way", "rules", "song"], name: NAME }],
-  [NO, "My classmates haven't got a {thing}, {name}.", "Nobody in my class ______ a {thing}, {name}.", "has", "nobody → has (no not).", { thing: ["car", "horse", "boat", "dog"], name: NAME }],
-].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: fix(slots, source + hint) }));
+  [NO, "My classmates haven't got a {thing}, {name}.", "Nobody in my class ______ a {thing}, {name}.", "has", "nobody → has (no not).", { thing: ["car", "horse", "boat", "dog"], name: NAME }, ["has got"]],
+].map(([instr, source, hint, key, why, slots, acceptable]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: fix(slots, source + hint), ...(acceptable ? { acceptable } : {}) }));
 
 /* ---------------- create: 8 ---------------- */
 const CREATE = [
