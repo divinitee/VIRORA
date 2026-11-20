@@ -493,6 +493,7 @@ export default function LiveTeacherV2() {
       {error ? <p className="text-sm text-rose-300">{error}</p> : null}
       {isAdmin && fillerNote ? <p className="text-xs text-amber-300">{fillerNote}</p> : null}
       {isAdmin && timing ? <p className="text-[11px] text-muted-foreground">{timing}</p> : null}
+      {isAdmin && mind ? <p className="text-[11px] text-muted-foreground">{mind}</p> : null}
       {paused && pausedReason ? (
         <p className="text-sm text-muted-foreground text-center">
           {pausedReason === "away" ? "Paused. Someone needs you? Press Resume when you're back." : pausedReason === "idle" ? "Paused because it went quiet." : "Paused."}
