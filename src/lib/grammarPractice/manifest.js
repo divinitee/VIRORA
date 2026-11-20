@@ -1150,6 +1150,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.substitution.another-other": {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "another-other",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 236,
+   "build": 272,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "pronouns.substitution.one-ones": {
   "domain": "pronouns",
   "branch": "substitution",
@@ -1158,6 +1172,34 @@ export const PRACTICE_MANIFEST = {
   "authored": 68,
   "stages": {
    "choose": 512,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.substitution.so-neither": {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 512,
+   "build": 560,
+   "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.substitution.the-other-others": {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 284,
    "build": 320,
    "transform": 240,
    "create": 8,

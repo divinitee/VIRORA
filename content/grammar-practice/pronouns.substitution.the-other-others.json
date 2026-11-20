@@ -1,0 +1,1792 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have two brothers. One lives in {city} and ______ lives in {city2}.",
+  "options": [
+   "the other",
+   "another",
+   "the others",
+   "other"
+  ],
+  "key": 0,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "city2": [
+    "Tashkent",
+    "Fergana",
+    "Nukus",
+    "Andijan"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I've got two {pets}. One is black and ______ is white, {name}.",
+  "options": [
+   "another",
+   "the others",
+   "other",
+   "the other"
+  ],
+  "key": 3,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "pets": [
+    "cats",
+    "dogs",
+    "rabbits",
+    "puppies"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are two shops on our street. One is open, but ______ one is closed, {name}.",
+  "options": [
+   "the others",
+   "other",
+   "the other",
+   "another"
+  ],
+  "key": 2,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can only find one {shoe}. Where's ______ one, {name}?",
+  "options": [
+   "other",
+   "the other",
+   "another",
+   "the others"
+  ],
+  "key": 1,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "shoe": [
+    "shoe",
+    "sock",
+    "glove",
+    "earring"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Hold the bag with one hand and open the {thing} with ______, {name}.",
+  "options": [
+   "the other",
+   "another",
+   "the others",
+   "other"
+  ],
+  "key": 0,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "thing": [
+    "door",
+    "gate",
+    "window",
+    "box"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our flat has two bedrooms. I sleep in this one, and my {who} sleeps in ______, {name}.",
+  "options": [
+   "another",
+   "the others",
+   "other",
+   "the other"
+  ],
+  "key": 3,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "cousin",
+    "grandma"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Two {who} came to the {event}. One was my cousin; I didn't know ______.",
+  "options": [
+   "the others",
+   "other",
+   "the other",
+   "another"
+  ],
+  "key": 2,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "who": [
+    "girls",
+    "boys",
+    "students",
+    "guests"
+   ],
+   "event": [
+    "party",
+    "lesson",
+    "meeting",
+    "wedding"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This road is closed. Let's cross to ______ side of the {place}, {name}.",
+  "options": [
+   "other",
+   "the other",
+   "another",
+   "the others"
+  ],
+  "key": 1,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "place": [
+    "river",
+    "bridge",
+    "square",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "One of my parents is a {job}; ______ is a {job2}.",
+  "options": [
+   "the other",
+   "another",
+   "the others",
+   "other"
+  ],
+  "key": 0,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "job": [
+    "doctor",
+    "pilot",
+    "teacher",
+    "driver"
+   ],
+   "job2": [
+    "nurse",
+    "cook",
+    "builder",
+    "farmer"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are two cafés near the {place}. One is cheap, and ______ is very expensive.",
+  "options": [
+   "another",
+   "the others",
+   "other",
+   "the other"
+  ],
+  "key": 3,
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "place": [
+    "station",
+    "school",
+    "hotel",
+    "museum"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Where are ______, {name}? Only you are at the {place}.",
+  "options": [
+   "the other",
+   "another",
+   "the others",
+   "others"
+  ],
+  "key": 2,
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "café",
+    "station",
+    "park",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There were five {fruit}. I ate one, and my brother ate ______, {name}.",
+  "options": [
+   "another",
+   "the others",
+   "others",
+   "the other"
+  ],
+  "key": 1,
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "fruit": [
+    "apples",
+    "peaches",
+    "pears",
+    "bananas"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'll go to the {place} with {name}. You can go with ______.",
+  "options": [
+   "the others",
+   "others",
+   "the other",
+   "another"
+  ],
+  "key": 0,
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "place": [
+    "café",
+    "station",
+    "park",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have six {things}. This one is new; ______ are all old, {name}.",
+  "options": [
+   "others",
+   "the other",
+   "another",
+   "the others"
+  ],
+  "key": 3,
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "things": [
+    "bags",
+    "shirts",
+    "pens",
+    "cups"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Ten students took the {test}. Three failed, but ______ passed, {name}.",
+  "options": [
+   "the other",
+   "another",
+   "the others",
+   "others"
+  ],
+  "key": 2,
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "driving test"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Let's wait for ______ before we start the {thing}, {name}.",
+  "options": [
+   "another",
+   "the others",
+   "others",
+   "the other"
+  ],
+  "key": 1,
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "thing": [
+    "game",
+    "film",
+    "lesson",
+    "meal"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Only one of my friends came on time; ______ were late for the {event}.",
+  "options": [
+   "the others",
+   "others",
+   "the other",
+   "another"
+  ],
+  "key": 0,
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "event": [
+    "party",
+    "film",
+    "match",
+    "wedding"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our team was ready, but ______ teams were late for the {match}, {name}.",
+  "options": [
+   "the others",
+   "others",
+   "another",
+   "the other"
+  ],
+  "key": 3,
+  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "slots": {
+   "match": [
+    "match",
+    "race",
+    "quiz",
+    "game"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} sits at the front of the {room}, and ______ students sit at the back.",
+  "options": [
+   "others",
+   "another",
+   "the other",
+   "the others"
+  ],
+  "key": 2,
+  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "room": [
+    "class",
+    "hall",
+    "bus",
+    "room"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Two of the {things} are broken, but ______ ones are fine, {name}.",
+  "options": [
+   "another",
+   "the other",
+   "the others",
+   "others"
+  ],
+  "key": 1,
+  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "slots": {
+   "things": [
+    "chairs",
+    "lamps",
+    "bikes",
+    "cups"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "I've got two {sib}. One is a {job}, and the ______ is a student.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "sib": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "nephews"
+   ],
+   "job": [
+    "doctor",
+    "pilot",
+    "teacher",
+    "driver"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "This {shoe} is mine. Where's the ______ one, {name}?",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "shoe": [
+    "shoe",
+    "sock",
+    "glove",
+    "boot"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "Our {place} has two gates. This one is closed, so use the ______, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "place": [
+    "school",
+    "park",
+    "college",
+    "hospital"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "There are two hotels in the {place}. One is cheap, and the ______ is very expensive, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "place": [
+    "village",
+    "old town",
+    "centre",
+    "valley"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "I use my right hand. I can't {act} with the ______, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "act": [
+    "write",
+    "draw",
+    "eat",
+    "throw"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "My grandparents have two houses: one in {city} and the ______ in the village, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "Two people called {when}. One was my aunt; I don't know who the ______ was, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "this morning",
+    "on Friday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "There are two banks here. Ours is on this side of the {place}, and the ______ is across it, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "place": [
+    "road",
+    "street",
+    "square",
+    "river"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "Close one eye and look at the {thing} with the ______, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "thing": [
+    "board",
+    "picture",
+    "letters",
+    "light"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "Two girls got off at the {stop} {when}, and the ______ passengers stayed on.",
+  "key": "other",
+  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "slots": {
+   "stop": [
+    "bazaar",
+    "station",
+    "school",
+    "park"
+   ],
+   "when": [
+    "today",
+    "this morning",
+    "at six",
+    "yesterday"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "{name} has finished the {test}, but the ______ students are still writing.",
+  "key": "other",
+  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "test": [
+    "test",
+    "exam",
+    "essay",
+    "quiz"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "This window in the {room} is open, but the ______ windows are closed, {name}.",
+  "key": "other",
+  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "bedroom",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "{name} is at the {place}. Where are the ______?",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "café",
+    "station",
+    "park",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "I've found one {thing}. Can you help me find the ______, {name}?",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "thing": [
+    "key",
+    "sock",
+    "card",
+    "piece"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "I'll take this {box}, and you can carry the ______, {name}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "chair",
+    "suitcase"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "Only one {who} came on time {when}; the ______ were late.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "who": [
+    "student",
+    "guest",
+    "player",
+    "teacher"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "Let's start the {thing}. The ______ can join us later, {name}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "thing": [
+    "game",
+    "lesson",
+    "meal",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "I like this photo of {city}, but the ______ are a bit dark, {name}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "Two of my friends live here; the ______ live in {city}, {name}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "Nukus",
+    "Andijan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write other or others.",
+  "source": "This {fruit} is ripe, but the ______ are still green, {name}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "fruit": [
+    "melon",
+    "apple",
+    "peach",
+    "tomato"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I have two sisters, {name}. One is a {job} and another is a student.",
+  "hint": "I have two sisters, {name}. One is a {job} and the ______ is a student.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "job": [
+    "doctor",
+    "pilot",
+    "teacher",
+    "driver"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Where are others? Only {name} is at the {place}.",
+  "hint": "Where are the ______? Only {name} is at the {place}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "café",
+    "station",
+    "park",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I lost one {glove}. Have you seen the another one, {name}?",
+  "hint": "I lost one {glove}. Have you seen the ______ one, {name}?",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "glove": [
+    "glove",
+    "sock",
+    "shoe",
+    "earring"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This bag on the {furn} is mine; the others bags are yours, {name}.",
+  "hint": "This bag on the {furn} is mine; the ______ bags are yours, {name}.",
+  "key": "other",
+  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "slots": {
+   "furn": [
+    "chair",
+    "table",
+    "floor",
+    "sofa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Only {name} is ready. The other are still eating {food}.",
+  "hint": "Only {name} is ready. The ______ are still eating {food}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "food": [
+    "plov",
+    "soup",
+    "breakfast",
+    "lunch"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the other.",
+  "source": "I have two {pets}. One is black and the second one is white, {name}.",
+  "hint": "I have two {pets}. One is black and the ______ is white, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "pets": [
+    "cats",
+    "dogs",
+    "rabbits",
+    "puppies"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the other.",
+  "source": "There are two doors in the {room}. Please use the second door, {name}.",
+  "hint": "There are two doors in the {room}. Please use the ______ door, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "room": [
+    "hall",
+    "kitchen",
+    "classroom",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the other.",
+  "source": "We have two cars. Dad drives one, and Mum drives the second one {when}, {name}.",
+  "hint": "We have two cars. Dad drives one, and Mum drives the ______ one {when}, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "when": [
+    "to work",
+    "on Sundays",
+    "to the bazaar",
+    "every day"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the other.",
+  "source": "He has two phones: one for work and the second for {use}, {name}.",
+  "hint": "He has two phones: one for work and the ______ for {use}, {name}.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "use": [
+    "home",
+    "family",
+    "games",
+    "travel"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the other.",
+  "source": "Two girls came to the {event}. One was {name}; the second was her friend.",
+  "hint": "Two girls came to the {event}. One was {name}; the ______ was her friend.",
+  "key": "other",
+  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "slots": {
+   "event": [
+    "party",
+    "lesson",
+    "meeting",
+    "wedding"
+   ],
+   "name": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the others.",
+  "source": "Five friends came to the {event}. {name} stayed, and the rest went home.",
+  "hint": "Five friends came to the {event}. {name} stayed, and the ______ went home.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "event": [
+    "party",
+    "concert",
+    "match",
+    "picnic"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the others.",
+  "source": "I've got one {thing}. Where are the rest, {name}?",
+  "hint": "I've got one {thing}. Where are the ______, {name}?",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "thing": [
+    "key",
+    "ticket",
+    "card",
+    "sock"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the others.",
+  "source": "Ten people came. Three ate {food}; the rest ate soup, {name}.",
+  "hint": "Ten people came. Three ate {food}; the ______ ate soup, {name}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "salad",
+    "manti"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the others.",
+  "source": "This photo of {city} is good. The rest are dark, {name}.",
+  "hint": "This photo of {city} is good. The ______ are dark, {name}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the others.",
+  "source": "Six students passed the {test}, and the rest failed, {name}.",
+  "hint": "Six students passed the {test}, and the ______ failed, {name}.",
+  "key": "others",
+  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "driving test"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two people in your family: one … and the other …",
+  "requiredElement": "One of my … and the other …",
+  "constraints": [
+   "exactly one sentence",
+   "one … the other",
+   "two people only"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a pair of things (shoes, gloves, earrings) where one is missing.",
+  "requiredElement": "I can find one …, but not the other.",
+  "constraints": [
+   "exactly one sentence",
+   "the other",
+   "a pair"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a group where one person is different from the rest.",
+  "requiredElement": "… is …, but the others …",
+  "constraints": [
+   "exactly one sentence",
+   "the others",
+   "no noun after the others"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two places you have lived or visited.",
+  "requiredElement": "One was … and the other was …",
+  "constraints": [
+   "exactly one sentence",
+   "the other",
+   "past verbs"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your class, with the other + a plural noun.",
+  "requiredElement": "I sit with …, and the other students …",
+  "constraints": [
+   "exactly one sentence",
+   "the other + plural noun",
+   "no the others + noun"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your hands or eyes.",
+  "requiredElement": "I use one hand for … and the other for …",
+  "constraints": [
+   "exactly one sentence",
+   "the other",
+   "no another"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about friends who were late.",
+  "requiredElement": "… came on time, but the others were late.",
+  "constraints": [
+   "exactly one sentence",
+   "the others",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with the other and one with the others.",
+  "requiredElement": "I have two … The other … / … the others …",
+  "constraints": [
+   "exactly two sentences",
+   "the other for one of two",
+   "the others for the rest"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe two friends who are very different.",
+  "targetGrammar": "I have two best friends. One … The other …",
+  "lookFor": [
+   "the other",
+   "present verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your family: one person, then the others.",
+  "targetGrammar": "My dad is … The others …",
+  "lookFor": [
+   "the others",
+   "the other + plural",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a team or group you were part of.",
+  "targetGrammar": "One player … The other players … The others …",
+  "lookFor": [
+   "the other + plural",
+   "the others",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe two jobs or two subjects you are choosing between.",
+  "targetGrammar": "One is … The other is … I like …",
+  "lookFor": [
+   "one … the other",
+   "comparisons",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "the-other-others",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a day when only one person in a group came on time.",
+  "targetGrammar": "Only … came. The others … The other students …",
+  "lookFor": [
+   "the others",
+   "past verbs",
+   "three or four sentences"
+  ]
+ }
+]

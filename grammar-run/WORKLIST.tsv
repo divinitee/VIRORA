@@ -167,9 +167,9 @@
 166	C	sentence-structure.relative-clauses.whose	B1	1	live	whose for possession in a relative clause
 167	C	sentence-structure.clause-linkers.purpose-so-that	B1	1	live	so that + clause for purpose (vs so + result)
 168	C	pronouns.personal.dummy-it	B1	1	live	Dummy 'it' as subject for weather/time/distance
-169	C	pronouns.substitution.another-other	B1	1	todo	another (a different single one) vs other/others
-170	C	pronouns.substitution.so-neither	B1	2	todo	Neither + auxiliary + subject agreeing with a negative | 'Nor' with inversion continuing a negative in formal register
-171	C	pronouns.substitution.the-other-others	B1	1	todo	the other (the remaining one of two) vs another/others
+169	C	pronouns.substitution.another-other	B1	1	live	another (a different single one) vs other/others
+170	C	pronouns.substitution.so-neither	B1	2	live	Neither + auxiliary + subject agreeing with a negative | 'Nor' with inversion continuing a negative in formal register
+171	C	pronouns.substitution.the-other-others	B1	1	live	the other (the remaining one of two) vs another/others
 172	C	pronouns.reflexive.no-reflexive-after-feel	B1	1	todo	Some verbs (relax, feel, concentrate) take no reflexive in English
 173	C	pronouns.reflexive.reciprocal	B1	1	todo	each other (reciprocal) vs themselves (reflexive)
 174	C	pronouns.reflexive.reflexive-object	B1	1	todo	Reflexive pronoun when subject and object are the same
