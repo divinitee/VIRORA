@@ -1241,8 +1241,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake. It was said last week.",
-  "source": "Last week {m} said he will call me the next day.",
-  "hint": "Last week {m} said he ______ call me the next day.",
+  "source": "Last week {m} said he will call me from the {place} the next day.",
+  "hint": "Last week {m} said he ______ call me from the {place} the next day.",
   "key": "would",
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
@@ -1251,6 +1251,12 @@
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "place": [
+    "office",
+    "station",
+    "airport",
+    "hotel"
    ]
   }
  },
@@ -1263,8 +1269,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake. It was said last week.",
-  "source": "Last month {f} said she would visit us next week.",
-  "hint": "Last month {f} said she would visit us ______.",
+  "source": "Last month {f} said she would visit us in {city} next week.",
+  "hint": "Last month {f} said she would visit us in {city} ______.",
   "key": "the following week",
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
@@ -1273,6 +1279,12 @@
     "Lola",
     "Madina",
     "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
    ]
   }
  },
@@ -1341,8 +1353,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake. It was said last week.",
-  "source": "Last Friday {m} said he would phone me tonight.",
-  "hint": "Last Friday {m} said he would phone me ______.",
+  "source": "Last Friday {m} said he would phone me from {city} tonight.",
+  "hint": "Last Friday {m} said he would phone me from {city} ______.",
   "key": "that night",
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
@@ -1351,6 +1363,12 @@
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
    ]
   }
  },
@@ -1363,8 +1381,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Report it. Change will and the time word.",
-  "source": "'I'll come tomorrow,' {m} said last week.",
-  "hint": "Last week {m} said he ______ come ______.",
+  "source": "'I'll come to the {event} tomorrow,' {m} said last week.",
+  "hint": "Last week {m} said he ______ come to the {event} ______.",
   "key": [
    "would",
    "the next day"
@@ -1376,6 +1394,12 @@
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "match",
+    "meeting"
    ]
   }
  },
@@ -1388,8 +1412,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Report it. Change will and the time word.",
-  "source": "'We'll visit you next week,' my {who} said last month.",
-  "hint": "Last month my {who} said they ______ visit me ______.",
+  "source": "'We'll visit you in {city} next week,' my {who} said last month.",
+  "hint": "Last month my {who} said they ______ visit me in {city} ______.",
   "key": [
    "would",
    "the following week"
@@ -1401,6 +1425,12 @@
     "friends",
     "cousins",
     "neighbours"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
    ]
   }
  },
@@ -1413,8 +1443,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Report it. Change will and the time word.",
-  "source": "'I'll phone you tonight,' {f} said on Friday.",
-  "hint": "On Friday {f} said she ______ phone me ______.",
+  "source": "'I'll phone you from the {place} tonight,' {f} said on Friday.",
+  "hint": "On Friday {f} said she ______ phone me from the {place} ______.",
   "key": [
    "would",
    "that night"
@@ -1426,6 +1456,12 @@
     "Lola",
     "Madina",
     "Sevara"
+   ],
+   "place": [
+    "office",
+    "station",
+    "airport",
+    "hotel"
    ]
   }
  },
@@ -1438,8 +1474,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Report it. Change will and the time word.",
-  "source": "'I'll pay you today,' {m} said on Monday.",
-  "hint": "On Monday {m} said he ______ pay me ______.",
+  "source": "'I'll pay you for the {thing} today,' {m} said on Monday.",
+  "hint": "On Monday {m} said he ______ pay me for the {thing} ______.",
   "key": [
    "would",
    "that day"
@@ -1451,6 +1487,12 @@
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "thing": [
+    "tickets",
+    "food",
+    "taxi",
+    "book"
    ]
   }
  },
