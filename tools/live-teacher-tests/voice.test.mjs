@@ -305,8 +305,8 @@ test('echo: repeating the asked phrase is recognised', async () => {
 
 test('prompt: boundaries, soap line in the settings language, question streak nudge', async () => {
   const { buildBrainInstructions, buildTurnMessage } = await import('../../base44/shared/liveTeacherBrain.js');
-  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'ru' }), /помой рот с мылом/);
-  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /sovun bilan yuving/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'ru' }), /А ну помой рот с мылом/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /Og'zingni sovun bilan yuv!/);
   assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'en' }), /wash your mouth out with soap/);
   assert.match(buildBrainInstructions({ persona: 'velvet' }), /future perfect continuous in the passive voice/);
   const history = [
