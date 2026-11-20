@@ -347,7 +347,9 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
   try {
     const heard = await transcribe(env, { bytes: b64ToBytes(b64), mime }, fetchImpl);
     timings.ears_ms = Date.now() - t0;
-    const words = heard.text.replace(/\([^)]*\)/g, '').trim();
+    // Scribe tags sounds as (laughter) or [mouse clicking] (sometimes in another
+    // language, e.g. "[notification की आवाज़]"): a turn that is ONLY sounds is not speech.
+    const words = heard.text.replace(/\([^)]*\)|\[[^\]]*\]/g, '').trim();
     if (words.length < 2) {
       // Nothing usable (silence, a cough). No brain call, no voice: just listen again.
       const c = costOf({ sttSeconds, brainModel: s.brainModel, ttsModel: s.ttsModel });
