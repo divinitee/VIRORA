@@ -156,6 +156,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "adj-adv.order-position.adverb-of-manner-position": {
+  "domain": "adj-adv",
+  "branch": "order-position",
+  "topic": "adverb-of-manner-position",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 284,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.comparative.double-comparative-error": {
   "domain": "comparison",
   "branch": "comparative",
