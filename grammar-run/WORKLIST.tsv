@@ -221,7 +221,7 @@
 220	C	reported-speech.statements.say-tell	B1	1	live	tell requires an object; say does not
 221	C	reported-speech.questions.reported-wh-question	B1	2	live	Statement order in a reported wh-question | Producing a reported wh-question
 222	C	reported-speech.questions.reported-yes-no	B1	1	live	if/whether in a reported yes/no question
-223	C	reported-speech.commands-requests.tell-sb-to	B1	1	todo	Reported command: tell + object + to-infinitive
+223	C	reported-speech.commands-requests.tell-sb-to	B1	1	live	Reported command: tell + object + to-infinitive
 224	D	tenses.past.past-perfect-continuous	B2	3	todo	Past perfect continuous for duration before a past point | Productive past perfect continuous before a past event | Past perfect continuous with 'before + -ing' clause
 225	D	tenses.past.past-simple-vs-continuous	B2	1	todo	Sequencing: past simple event against a past continuous background (not past perfect)
 226	D	tenses.future.about-to	B2	1	todo	be about to for an imminent action

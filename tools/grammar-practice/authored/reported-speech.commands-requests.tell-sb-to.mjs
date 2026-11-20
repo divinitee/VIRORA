@@ -104,7 +104,7 @@ const TRANSFORM = [
   [ASK, WHY_A, "'Could you open the {door}, please?' the {who} said to {m}.", "The {who} ______ the {door}.", "asked him to open", { door: ["door", "window", "gate", "jar"], who: ["old woman", "teacher", "lady", "girl"], m: M }],
   [ASK, WHY_A, "'Please speak more slowly,' the {who} said to us.", "The {who} ______ more slowly, {f}.", "asked us to speak", { who: ["tourist", "guest", "student", "old man"], f: F }],
   [ASK, WHY_A, "'Can you lend me your {thing}?' {m} said to me.", "{m} ______ him my {thing}.", "asked me to lend", { thing: ["car", "pen", "bike", "camera"], m: M }],
-  [ASK, WHY_A, "'Please call a taxi for me,' the {who} said to {f}.", "The {who} ______ a taxi for her, {m}.", "asked {f} to call", { who: ["old man", "guest", "teacher", "tourist"], f: F, m: M }],
+  [ASK, WHY_A, "'Please call a taxi for me,' the {who} said to {f}.", "The {who} ______ a taxi for him, {m}.", "asked her to call", { who: ["old man", "guest", "teacher", "waiter"], f: F, m: M }],
 ].map(([instr, why, source, hint, key, slots]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = f;

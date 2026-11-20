@@ -1556,6 +1556,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "reported-speech.commands-requests.tell-sb-to": {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 440,
+   "build": 464,
+   "transform": 336,
+   "create": 8,
+   "express": 5
+  }
+ },
  "reported-speech.questions.reported-wh-question": {
   "domain": "reported-speech",
   "branch": "questions",
