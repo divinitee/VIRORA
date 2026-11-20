@@ -636,7 +636,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ it was late, the children didn't want to sleep, {name}.",
+  "source": "______ it was {time}, the children didn't want to sleep, {name}.",
   "key": "Although",
   "acceptable": [
    "Though",
@@ -644,6 +644,12 @@
   ],
   "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
   "slots": {
+   "time": [
+    "late",
+    "midnight",
+    "very late",
+    "after ten"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -661,13 +667,19 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "We went swimming ______ the cold water, {name}.",
+  "source": "We went swimming in the {place} ______ the cold water, {name}.",
   "key": "despite",
   "acceptable": [
    "in spite of"
   ],
   "why": "A noun follows, not a clause, so use despite (no of).",
   "slots": {
+   "place": [
+    "lake",
+    "river",
+    "sea",
+    "pool"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -685,7 +697,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ the {test} was easy, many students made mistakes.",
+  "source": "______ the {test} was easy, many students made mistakes, {name}.",
   "key": "Although",
   "acceptable": [
    "Though",
@@ -698,6 +710,12 @@
     "test",
     "quiz",
     "homework"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -710,13 +728,19 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ the noise, the baby slept all night, {name}.",
+  "source": "______ the noise, the baby slept all {time}, {name}.",
   "key": "Despite",
   "acceptable": [
    "In spite of"
   ],
   "why": "A noun follows, not a clause, so use despite (no of).",
   "slots": {
+   "time": [
+    "night",
+    "afternoon",
+    "morning",
+    "evening"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -765,7 +789,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "The {place} was full ______ the high prices.",
+  "source": "The {place} was full ______ the high prices, {name}.",
   "key": "despite",
   "acceptable": [
    "in spite of"
@@ -777,6 +801,12 @@
     "café",
     "hotel",
     "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -789,7 +819,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ we were tired, we walked to the {place}.",
+  "source": "______ we were tired, we walked to the {place}, {name}.",
   "key": "Although",
   "acceptable": [
    "Though",
@@ -802,50 +832,7 @@
     "bazaar",
     "old town",
     "station"
-   ]
-  }
- },
- {
-  "domain": "sentence-structure",
-  "branch": "conjunctions",
-  "topic": "although-despite",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Write although or despite.",
-  "source": "______ being only {age}, my cousin plays the piano very well.",
-  "key": "Despite",
-  "acceptable": [
-   "In spite of"
-  ],
-  "why": "An -ing form follows, so use despite (no of).",
-  "slots": {
-   "age": [
-    "six",
-    "seven",
-    "eight",
-    "nine"
-   ]
-  }
- },
- {
-  "domain": "sentence-structure",
-  "branch": "conjunctions",
-  "topic": "although-despite",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Write although or despite.",
-  "source": "I couldn't sleep ______ I was very tired, {name}.",
-  "key": "although",
-  "acceptable": [
-   "though",
-   "even though"
-  ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -863,18 +850,24 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "{name} went out ______ his mother's warning.",
-  "key": "despite",
+  "source": "______ being only {age}, my cousin plays the {instr} very well.",
+  "key": "Despite",
   "acceptable": [
-   "in spite of"
+   "In spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "An -ing form follows, so use despite (no of).",
   "slots": {
-   "name": [
-    "Aziz",
-    "Timur",
-    "Bekzod",
-    "Rustam"
+   "age": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ],
+   "instr": [
+    "piano",
+    "guitar",
+    "violin",
+    "drums"
    ]
   }
  },
@@ -887,7 +880,68 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ the bus was late, we got to the {event} on time.",
+  "source": "I couldn't sleep ______ I was very tired {when}, {name}.",
+  "key": "although",
+  "acceptable": [
+   "though",
+   "even though"
+  ],
+  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "slots": {
+   "when": [
+    "last night",
+    "on the train",
+    "after the trip",
+    "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "although-despite",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write although or despite.",
+  "source": "{name} went out ______ his mother's warning about the {weather}.",
+  "key": "despite",
+  "acceptable": [
+   "in spite of"
+  ],
+  "why": "A noun follows, not a clause, so use despite (no of).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "weather": [
+    "rain",
+    "storm",
+    "snow",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "although-despite",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write although or despite.",
+  "source": "______ the bus was late, we got to the {event} on time, {name}.",
   "key": "Although",
   "acceptable": [
    "Though",
@@ -900,6 +954,12 @@
     "wedding",
     "concert",
     "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -912,7 +972,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ the heat, the tourists walked around the {place} all day.",
+  "source": "______ the heat, the tourists walked around the {place} all day, {name}.",
   "key": "Despite",
   "acceptable": [
    "In spite of"
@@ -924,26 +984,7 @@
     "bazaar",
     "museum",
     "park"
-   ]
-  }
- },
- {
-  "domain": "sentence-structure",
-  "branch": "conjunctions",
-  "topic": "although-despite",
-  "level": "B1",
-  "pv": "2.5",
-  "stage": "build",
-  "format": "gap_fill",
-  "instr": "Write although or despite.",
-  "source": "My brother is always hungry ______ he eats a lot, {name}.",
-  "key": "although",
-  "acceptable": [
-   "though",
-   "even though"
-  ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
-  "slots": {
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -961,7 +1002,38 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ studying every day, {name} found the exam hard.",
+  "source": "My {who} is always hungry ______ he eats a lot, {name}.",
+  "key": "although",
+  "acceptable": [
+   "though",
+   "even though"
+  ],
+  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "slots": {
+   "who": [
+    "brother",
+    "dog",
+    "son",
+    "uncle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "although-despite",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write although or despite.",
+  "source": "______ studying every day, {name} found the {test} hard.",
   "key": "Despite",
   "acceptable": [
    "In spite of"
@@ -973,6 +1045,12 @@
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "test": [
+    "exam",
+    "test",
+    "course",
+    "quiz"
    ]
   }
  },
@@ -985,7 +1063,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ the shop was closed, the owner sold us some {thing}.",
+  "source": "______ the shop was closed, the owner sold us some {thing}, {name}.",
   "key": "Although",
   "acceptable": [
    "Though",
@@ -998,6 +1076,12 @@
     "milk",
     "water",
     "fruit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1010,7 +1094,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "They stayed in the {place} ______ the storm.",
+  "source": "They stayed in the {place} ______ the {weather}.",
   "key": "despite",
   "acceptable": [
    "in spite of"
@@ -1022,6 +1106,12 @@
     "garden",
     "mountains",
     "village"
+   ],
+   "weather": [
+    "storm",
+    "rain",
+    "strong wind",
+    "cold"
    ]
   }
  },
@@ -1095,7 +1185,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "______ it was expensive, my dad bought a new {thing}.",
+  "source": "______ it was expensive, my {who} bought a new {thing}.",
   "key": "Although",
   "acceptable": [
    "Though",
@@ -1103,6 +1193,12 @@
   ],
   "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
   "slots": {
+   "who": [
+    "dad",
+    "uncle",
+    "sister",
+    "aunt"
+   ],
    "thing": [
     "phone",
     "car",
@@ -1120,13 +1216,19 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write although or despite.",
-  "source": "We had a great time ______ the bad weather, {name}.",
+  "source": "We had a great time in {city} ______ the bad weather, {name}.",
   "key": "despite",
   "acceptable": [
    "in spite of"
   ],
   "why": "A noun follows, not a clause, so use despite (no of).",
   "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1203,19 +1305,19 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with despite. Keep the meaning.",
-  "source": "Although it was cold, we swam in the {place}, {name}.",
-  "hint": "Despite ______, we swam in the {place}, {name}.",
+  "source": "Although it was cold, we swam every {time}, {name}.",
+  "hint": "Despite ______, we swam every {time}, {name}.",
   "key": "the cold",
   "acceptable": [
    "the cold weather"
   ],
   "why": "Despite + a noun or -ing form, not a whole clause.",
   "slots": {
-   "place": [
-    "lake",
-    "river",
-    "sea",
-    "pool"
+   "time": [
+    "day",
+    "morning",
+    "evening",
+    "afternoon"
    ],
    "name": [
     "Aziz",
@@ -1265,19 +1367,19 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with despite. Keep the meaning.",
-  "source": "Although the traffic was bad, we arrived at the {place} on time, {name}.",
-  "hint": "Despite ______, we arrived at the {place} on time, {name}.",
+  "source": "Although the traffic was bad, we got to {city} on time, {name}.",
+  "hint": "Despite ______, we got to {city} on time, {name}.",
   "key": "the bad traffic",
   "acceptable": [
    "the traffic"
   ],
   "why": "Despite + a noun or -ing form, not a whole clause.",
   "slots": {
-   "place": [
-    "airport",
-    "station",
-    "wedding",
-    "theatre"
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
    ],
    "name": [
     "Aziz",

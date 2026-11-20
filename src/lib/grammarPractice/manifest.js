@@ -1388,6 +1388,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.conjunctions.although-despite": {
+  "domain": "sentence-structure",
+  "branch": "conjunctions",
+  "topic": "although-despite",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.conjunctions.and-but-or": {
   "domain": "sentence-structure",
   "branch": "conjunctions",
@@ -1607,6 +1621,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 284,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.word-order.indirect-object-to": {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "indirect-object-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 368,
+   "build": 368,
    "transform": 240,
    "create": 8,
    "express": 5
