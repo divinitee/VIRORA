@@ -477,6 +477,8 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
       ended: !!recap, recap,
       cost_usd: c.total, lesson_cost_usd: usageTotal.cost_usd,
       persona_name: P.name,
+      // backup path: hand the phone a fresh ears pass so the next turn can go direct again
+      stt_token: await softToken(env, 'batch_scribe', fetchImpl), stt_model: s.sttModel,
       // where the waiting time goes (admins only)
       ...(user.role === 'admin' ? { timings: { ...timings, server_ms: Date.now() - t0 } } : {}),
     });
