@@ -261,7 +261,7 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
       model: `v2:${persona}|${s.brainModel}|${s.ttsModel}`,
       max_minutes: P.minutes, tool_calls: 0, mistakes_logged: 0, new_mistakes: 0, repeated_mistakes: 0, mastered_now: 0,
       // v2 keeps its usage/cost estimate here (no schema change needed): scores.usage
-      scores: { usage: addUsage(null, c) },
+      scores: { usage: addUsage(null, c, { ttsChars: voice.chars }) },
     });
     await saveProfile(svc, row, { ...profile, age_group: ageGroup });
     return reply(200, {
