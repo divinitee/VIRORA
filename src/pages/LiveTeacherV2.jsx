@@ -9,7 +9,7 @@ import { liveTeacherApi } from "@/lib/serverApi";
 import { copyFor } from "@/lib/liveTeacher/copy";
 import { createVoiceLoop, playAudio, blobToB64 } from "@/lib/liveTeacher/voiceLoop";
 import { transcribeDirect } from "@/lib/liveTeacher/liveStreams";
-import { fillerMood, speechLang } from "@/lib/liveTeacher/fillerMood";
+import { fillerMood, speechLang, echoScore } from "@/lib/liveTeacher/fillerMood";
 
 // Live Teacher v2 (2026-11-20): "text brain" lessons.
 //   you talk -> ElevenLabs Scribe writes it down -> the brain (OpenAI text
@@ -192,15 +192,17 @@ export default function LiveTeacherV2() {
     fillerRef.current = p;
     fillerDoneRef.current = p.done;
   }
+  const holdOnRef = useRef(false); // the "give me a second" line is playing
   function startThinking(mood, lang = "en") {
     lastLangRef.current = lang;
+    holdOnRef.current = false;
     fillerDoneRef.current = Promise.resolve();
-    if (Math.random() < 0.92) playClip(pickClip(lang, mood));
+    if (mood && Math.random() < 0.92) playClip(pickClip(lang, mood)); // mood null = stay quiet
     clearTimeout(holdTimerRef.current);
     // still no answer after ~2.5 s: one "give me a second" so it never goes quiet
     holdTimerRef.current = setTimeout(async () => {
       await fillerDoneRef.current;
-      if (waitingRef.current && phaseRef.current === "live") playClip(pickClip(lastLangRef.current, "hold"));
+      if (waitingRef.current && phaseRef.current === "live") { playClip(pickClip(lastLangRef.current, "hold")); holdOnRef.current = true; }
     }, 2600);
   }
 
@@ -213,7 +215,9 @@ export default function LiveTeacherV2() {
     const restJob = r.rest_text
       ? liveTeacherApi("v2_speak", { lesson_id: lessonRef.current?.id, text: r.rest_text }).catch((e) => { note(`voice for the rest failed: ${e.message}`); return null; })
       : null;
-    await fillerDoneRef.current; // let the "hmm" finish first
+    // the answer is here: cut a "give me a second" short; a short "hmm" may finish
+    if (holdOnRef.current) { fillerRef.current?.stop(); fillerRef.current = null; holdOnRef.current = false; fillerDoneRef.current = Promise.resolve(); }
+    await fillerDoneRef.current;
     if (cut !== cutRef.current) return "stopped";
     let why = "ended";
     let first = true;
@@ -272,13 +276,18 @@ export default function LiveTeacherV2() {
     const pass = sttRef.current;
     sttRef.current = null; // single use
     if (pass?.token) {
-      const t = await transcribeDirect({ blob, token: pass.token, model: pass.model });
+      const t = await transcribeDirect({ blob, token: pass.token, model: pass.model, timeoutMs: Math.min(15000, 4000 + (durationS || 0) * 600) });
       if (t.ok) { text = t.text; spokenLang = speechLang(t.language, t.text); } else note(`direct ears: ${t.error}, using backup`);
     }
     const earsMs = performance.now() - tEnd;
     if (text !== null && !text.replace(/\([^)]*\)|\[[^\]]*\]/g, "").trim()) { refillEars(); loopRef.current?.listen(); return; } // only sounds
 
-    startThinking(text ? fillerMood(text) : "neutral", spokenLang);
+    // She asked the student to say a phrase and they said it: no "hmm, let me see..."
+    const lastTeacher = [...historyRef.current].reverse().find((h) => h.role === "teacher")?.text || "";
+    const echo = text ? echoScore(text, lastTeacher) : 0;
+    if (echo >= 0.8) startThinking("positive", spokenLang);
+    else if (echo >= 0.5) startThinking(null, spokenLang);
+    else startThinking(text ? fillerMood(text) : "neutral", spokenLang);
     waitingRef.current = true;
     const tSent = performance.now();
     let r;

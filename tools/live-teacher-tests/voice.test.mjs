@@ -294,3 +294,25 @@ test('language: Russian/Uzbek speech is detected, mirrored in the prompt, and ge
   assert.equal(r.body.lang, 'uz');
   assert.ok(s.calls.some((c) => c.url.includes('/text-to-speech/') && JSON.parse(c.init.body).text.includes('yaxshi savol')));
 });
+
+test('echo: repeating the asked phrase is recognised', async () => {
+  const { echoScore } = await import('../../src/lib/liveTeacher/fillerMood.js');
+  const teacher = 'Nice! Say: \u201cI especially enjoy drawing cars from different perspectives.\u201d Now try that sentence once.';
+  assert.ok(echoScore('I especially enjoy drawing cars from different perspectives.', teacher) >= 0.8);
+  assert.ok(echoScore('Uh, I erase and re-sketch.', teacher) < 0.5);
+  assert.equal(echoScore('hello', 'No quotes here.'), 0);
+});
+
+test('prompt: boundaries, soap line in the settings language, question streak nudge', async () => {
+  const { buildBrainInstructions, buildTurnMessage } = await import('../../base44/shared/liveTeacherBrain.js');
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'ru' }), /помой рот с мылом/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /sovun bilan yuving/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'en' }), /wash your mouth out with soap/);
+  assert.match(buildBrainInstructions({ persona: 'velvet' }), /future perfect continuous in the passive voice/);
+  const history = [
+    { role: 'teacher', text: 'What do you draw?' }, { role: 'student', text: 'Cars.' },
+    { role: 'teacher', text: 'Nice. Now tell me one challenge you have.' }, { role: 'student', text: 'Proportions.' },
+  ];
+  assert.match(buildTurnMessage({ persona: 'vira', history, studentText: 'ok' }), /must NOT ask a question/);
+  assert.doesNotMatch(buildTurnMessage({ persona: 'vira', history: history.slice(0, 2), studentText: 'ok' }), /must NOT ask/);
+});

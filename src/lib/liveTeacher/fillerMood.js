@@ -56,3 +56,23 @@ export function speechLang(code, text) {
   const uzWords = t.toLowerCase().match(/\b(siz|sizga|menga|rahmat|nima|nimani|nega|qanday|tushun\w*|bilmad\w*|kerak|yaxshi|juda|uchun|bilan|emas|lekin|chunki|buni|qiling|ayting|iltimos|mumkinmi|bo['ʻ’]ldi|o['ʻ’]zbek\w*)\b/g) || [];
   return uzWords.length >= 2 ? 'uz' : 'en';
 }
+
+/**
+ * Did the student just repeat the phrase the teacher asked for? 0..1 overlap
+ * with the best quoted phrase in the teacher's last reply. A repeat must not
+ * get "hmm, let me see..." (she asked for exactly that).
+ */
+export function echoScore(studentText, teacherText) {
+  const words = (s) => String(s || '').toLowerCase().replace(/[’ʼ`]/g, "'").replace(/[^\p{L}\p{N}'\s]/gu, ' ').split(/\s+/).filter(Boolean);
+  const quotes = [...String(teacherText || '').matchAll(/[“"«]([^”"»]{3,200})[”"»]/g)].map((m) => m[1]);
+  const said = new Set(words(studentText).filter((w) => !['uh', 'um', 'erm', 'okay', 'so'].includes(w)));
+  if (!said.size || !quotes.length) return 0;
+  let best = 0;
+  for (const q of quotes) {
+    const target = words(q);
+    if (!target.length) continue;
+    const hit = target.filter((w) => said.has(w)).length;
+    best = Math.max(best, hit / Math.max(target.length, said.size));
+  }
+  return best;
+}
