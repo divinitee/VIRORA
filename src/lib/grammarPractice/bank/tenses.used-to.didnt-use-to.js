@@ -670,7 +670,7 @@ export default [
    "side": [
     "bread",
     "salad",
-    "lemon",
+    "tomatoes",
     "herbs"
    ]
   },
@@ -1001,7 +1001,7 @@ export default [
     "old building",
     "village",
     "new block",
-    "new street"
+    "old street"
    ],
    "day": [
     "Friday",
@@ -1570,15 +1570,16 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the first sentence with didn't use to.",
-  "source": "In my old {school}, we didn't have a {room}. We have one now.",
-  "hint": "In my old {school}, we ______ a {room}.",
+  "source": "At {school}, we didn't have a {room} then. We have one now.",
+  "hint": "At {school}, we ______ a {room}.",
   "key": "didn't use to have",
   "why": "It wasn't true then, but it is now, so didn't use to have fits better than the past simple.",
   "slots": {
    "school": [
-    "school",
-    "lyceum",
-    "college"
+    "our school",
+    "my school",
+    "our lyceum",
+    "our college"
    ],
    "room": [
     "gym",

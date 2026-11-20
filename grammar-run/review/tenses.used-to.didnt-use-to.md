@@ -142,7 +142,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to play. After did, write use with no -d.
 
 12. _Complete the sentence with didn't use to and the verb in brackets._  
-   We ______ (know) our neighbours in the **new street**, but now we visit them every **Sunday**.  
+   We ______ (know) our neighbours in the **old street**, but now we visit them every **Sunday**.  
    key: didn't use to know  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to know. After did, write use with no -d.
 
@@ -249,8 +249,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After use to, write the base form, not -ing: didn't use to live.
 
 11. _Rewrite the first sentence with didn't use to._  
-   In my old **school**, we didn't have a **gym**. We have one now.  
-   → In my old **school**, we ______ a **gym**.  
+   At **my school**, we didn't have a **gym** then. We have one now.  
+   → At **my school**, we ______ a **gym**.  
    key: didn't use to have  
    why: It wasn't true then, but it is now, so didn't use to have fits better than the past simple.
 
