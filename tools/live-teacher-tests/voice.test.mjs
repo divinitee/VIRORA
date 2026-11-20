@@ -244,7 +244,6 @@ test('filler mood: sad, question, good news, neutral (en/uz/ru)', () => {
   assert.equal(fillerMood('I passed my exam, it was amazing'), 'positive');
   assert.equal(fillerMood('I went to the market.'), 'neutral');
   assert.equal(fillerMood('I like painting.'), 'neutral'); // "pain" inside a word is not sadness
-  assert.equal(fillerMood('Not bad, I was tired'), 'neutral'.length ? fillerMood('Not bad, I was tired') : '');
 });
 
 test('cost estimate: cached tokens are cheaper', () => {
