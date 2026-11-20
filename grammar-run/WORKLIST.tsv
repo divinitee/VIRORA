@@ -162,8 +162,8 @@
 161	C	questions-negation.tag-questions.basic-tag	B1	2	live	Negative tag after a positive statement, matching auxiliary | Positive tag after a negative statement with 'be'
 162	C	sentence-structure.conjunctions.although-despite	B1	2	live	although + clause for concession | despite + noun/-ing, not + clause
 163	C	sentence-structure.word-order.indirect-object-to	B1	1	live	Direct object + to + indirect object order
-164	C	sentence-structure.relative-clauses.object-relative-omission	B1	2	todo	Object relative pronoun optional; 'where' impossible for a thing | Productive omitted object relative
-165	C	sentence-structure.relative-clauses.which-vs-what	B1	1	todo	which (relative) vs what (not a relative pronoun) after a noun
+164	C	sentence-structure.relative-clauses.object-relative-omission	B1	2	live	Object relative pronoun optional; 'where' impossible for a thing | Productive omitted object relative
+165	C	sentence-structure.relative-clauses.which-vs-what	B1	1	live	which (relative) vs what (not a relative pronoun) after a noun
 166	C	sentence-structure.relative-clauses.whose	B1	1	todo	whose for possession in a relative clause
 167	C	sentence-structure.clause-linkers.purpose-so-that	B1	1	todo	so that + clause for purpose (vs so + result)
 168	C	pronouns.personal.dummy-it	B1	1	todo	Dummy 'it' as subject for weather/time/distance

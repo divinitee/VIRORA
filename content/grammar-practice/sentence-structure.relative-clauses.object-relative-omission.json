@@ -1,0 +1,1936 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Which option is NOT possible here? The {thing} ______ I bought {when} is great, {name}.",
+  "options": [
+   "where",
+   "that",
+   "which",
+   "(nothing)"
+  ],
+  "key": 0,
+  "why": "The noun is the object of the verb, so that, which or nothing all work. Where is only for places you are in (where I live), not for a thing you bought or saw.",
+  "slots": {
+   "thing": [
+    "jacket",
+    "phone",
+    "bike",
+    "lamp"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "One option is wrong. Which one? The {film} ______ we watched last night was very long, {name}.",
+  "options": [
+   "that",
+   "which",
+   "(nothing)",
+   "what"
+  ],
+  "key": 3,
+  "why": "That, which or nothing all work after a noun. What can't follow a noun: the film what we watched is wrong.",
+  "slots": {
+   "film": [
+    "film",
+    "match",
+    "show",
+    "cartoon"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Which word can't go in the gap? The {who} ______ we met at the {event} was very kind.",
+  "options": [
+   "that",
+   "(nothing)",
+   "which",
+   "who"
+  ],
+  "key": 2,
+  "why": "For people use who or that, or leave the word out. Which is for things.",
+  "slots": {
+   "who": [
+    "woman",
+    "man",
+    "girl",
+    "boy"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Three options work. Find the one that doesn't. The {thing} ______ my grandmother gave me is very old, {name}.",
+  "options": [
+   "(nothing)",
+   "where",
+   "that",
+   "which"
+  ],
+  "key": 1,
+  "why": "The noun is the object of the verb, so that, which or nothing all work. Where is only for places you are in (where I live), not for a thing you bought or saw.",
+  "slots": {
+   "thing": [
+    "ring",
+    "clock",
+    "carpet",
+    "teapot"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Pick the option that is NOT correct. The {who} ______ I called yesterday didn't answer, {name}.",
+  "options": [
+   "which",
+   "who",
+   "that",
+   "(nothing)"
+  ],
+  "key": 0,
+  "why": "For people use who or that, or leave the word out. Which is for things.",
+  "slots": {
+   "who": [
+    "doctor",
+    "plumber",
+    "teacher",
+    "taxi driver"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Only one option is wrong. Choose it. The {food} ______ Dad cooked tonight was delicious, {name}.",
+  "options": [
+   "that",
+   "which",
+   "(nothing)",
+   "what"
+  ],
+  "key": 3,
+  "why": "That, which or nothing all work after a noun. What can't follow a noun: the film what we watched is wrong.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "fish",
+    "pasta"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Which of these can't fill the gap? The {thing} ______ you lent me is in my bag, {name}.",
+  "options": [
+   "which",
+   "(nothing)",
+   "where",
+   "that"
+  ],
+  "key": 2,
+  "why": "The noun is the object of the verb, so that, which or nothing all work. Where is only for places you are in (where I live), not for a thing you bought or saw.",
+  "slots": {
+   "thing": [
+    "book",
+    "pen",
+    "charger",
+    "umbrella"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ was too expensive, {name}.",
+  "options": [
+   "where I wanted",
+   "I wanted",
+   "I wanted it",
+   "what I wanted"
+  ],
+  "key": 1,
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "thing": [
+    "dress",
+    "phone",
+    "watch",
+    "sofa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {film} ______ was really funny, {name}.",
+  "options": [
+   "we saw",
+   "we saw it",
+   "what we saw",
+   "where we saw"
+  ],
+  "key": 0,
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "film": [
+    "film",
+    "show",
+    "cartoon",
+    "play"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} ______ yesterday is my new neighbour, {name}.",
+  "options": [
+   "you met her",
+   "what you met",
+   "which you met",
+   "you met"
+  ],
+  "key": 3,
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "who": [
+    "woman",
+    "girl",
+    "lady",
+    "student"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is this the {thing} ______, {name}?",
+  "options": [
+   "what you lost",
+   "where you lost",
+   "you lost",
+   "you lost it"
+  ],
+  "key": 2,
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "thing": [
+    "key",
+    "phone",
+    "ring",
+    "wallet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {meal} ______ in {city} was the best part of the trip.",
+  "options": [
+   "where we had",
+   "we had",
+   "we had it",
+   "what we had"
+  ],
+  "key": 1,
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "meal": [
+    "plov",
+    "dinner",
+    "food",
+    "breakfast"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I love the {gift} ______, {name}.",
+  "options": [
+   "you gave me",
+   "you gave me it",
+   "what you gave me",
+   "where you gave me"
+  ],
+  "key": 0,
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "gift": [
+    "scarf",
+    "watch",
+    "book",
+    "card"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} ______ in {city} were really friendly.",
+  "options": [
+   "we stayed with them",
+   "what we stayed with",
+   "which we stayed with",
+   "we stayed with"
+  ],
+  "key": 3,
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "who": [
+    "people",
+    "hosts",
+    "neighbours",
+    "students"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} ______ next door is a {job}, {name}.",
+  "options": [
+   "who he lives",
+   "what lives",
+   "who lives",
+   "lives"
+  ],
+  "key": 2,
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "man",
+    "old man",
+    "young man",
+    "gentleman"
+   ],
+   "job": [
+    "doctor",
+    "teacher",
+    "pilot",
+    "driver"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ on the table is mine, {name}.",
+  "options": [
+   "what is",
+   "which is",
+   "is",
+   "which it is"
+  ],
+  "key": 1,
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bag",
+    "book",
+    "cup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have an {who} ______ in {city}.",
+  "options": [
+   "who lives",
+   "lives",
+   "who she lives",
+   "what lives"
+  ],
+  "key": 0,
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "aunt",
+    "older sister",
+    "old friend",
+    "elderly aunt"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The bus ______ to the {place} leaves at {time}.",
+  "options": [
+   "goes",
+   "which it goes",
+   "what goes",
+   "which goes"
+  ],
+  "key": 3,
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bazaar",
+    "old town"
+   ],
+   "time": [
+    "seven",
+    "eight",
+    "nine",
+    "ten"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} ______ the match got a prize, {name}.",
+  "options": [
+   "who they won",
+   "what won",
+   "who won",
+   "won"
+  ],
+  "key": 2,
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "boys",
+    "girls",
+    "players",
+    "students"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ yesterday has been fixed, {name}.",
+  "options": [
+   "what broke",
+   "which broke",
+   "broke",
+   "which it broke"
+  ],
+  "key": 1,
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "lift",
+    "printer",
+    "computer",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The {who} ______ helped me {when} was very kind, {name}.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "woman",
+    "man",
+    "doctor",
+    "nurse"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "I know a {who} ______ speaks five languages, {name}.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "girl",
+    "man",
+    "teacher",
+    "student"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The children ______ won the {comp} got a medal, {name}.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "comp": [
+    "race",
+    "quiz",
+    "match",
+    "contest"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "My uncle is the man ______ fixed our {thing}, {name}.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "car",
+    "roof",
+    "TV",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "Do you know the {who} ______ lives above us, {name}?",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "woman",
+    "man",
+    "student",
+    "girl"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The {who} ______ teaches us maths is from {city}.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "teacher",
+    "woman",
+    "man",
+    "lady"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "People ______ eat a lot of {food} are often healthy, {name}.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "food": [
+    "fruit",
+    "vegetables",
+    "fish",
+    "nuts"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The {who} ______ called you {when} left a message, {name}.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "man",
+    "woman",
+    "girl",
+    "boy"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "She is the {who} ______ sings at every {event}.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "who": [
+    "girl",
+    "woman",
+    "singer",
+    "student"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The tourists ______ came to {city} {when} loved the food.",
+  "key": "who",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "when": [
+    "last year",
+    "in May",
+    "last week",
+    "in summer"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The {thing} ______ broke {when} was very old, {name}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "chair",
+    "cup",
+    "lamp",
+    "window"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "I like {kind} ______ have a happy ending, {name}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "kind": [
+    "films",
+    "books",
+    "stories",
+    "songs"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The bus ______ goes to the {place} is number {n}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bazaar",
+    "museum"
+   ],
+   "n": [
+    "five",
+    "seven",
+    "twelve",
+    "forty"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "This is the {thing} ______ costs a lot, {name}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "bike",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The {shop} ______ opened {when} sells great bread.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "shop",
+    "café",
+    "market"
+   ],
+   "when": [
+    "last week",
+    "in May",
+    "last month",
+    "on Monday"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "We stayed in a hotel ______ had a big {thing}, {name}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "pool",
+    "garden",
+    "terrace",
+    "restaurant"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The {thing} ______ is in the kitchen belongs to Grandma, {name}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "cup",
+    "teapot",
+    "basket",
+    "radio"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "I need a {thing} ______ works without the internet, {name}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "map",
+    "phone app",
+    "game",
+    "dictionary"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "The {thing} ______ fell from the tree hit our {what}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "thing": [
+    "apple",
+    "branch",
+    "ball",
+    "nut"
+   ],
+   "what": [
+    "car",
+    "roof",
+    "window",
+    "dog"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write who or which. Here the word can't be left out.",
+  "source": "Plants ______ grow {place} need a lot of water, {name}.",
+  "key": "which",
+  "acceptable": [
+   "that"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "place": [
+    "in the garden",
+    "near the window",
+    "in our yard",
+    "on the balcony"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Leave out the relative word.",
+  "source": "The {thing} that we watched was boring, {name}.",
+  "hint": "The {thing} ______ was boring, {name}.",
+  "key": "we watched",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "thing": [
+    "film",
+    "match",
+    "show",
+    "play"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Leave out the relative word.",
+  "source": "The {who} who I met at the {event} was {adj}.",
+  "hint": "The {who} ______ at the {event} was {adj}.",
+  "key": "I met",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "who": [
+    "woman",
+    "man",
+    "girl",
+    "guy"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "adj": [
+    "friendly",
+    "funny",
+    "nice",
+    "interesting"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Leave out the relative word.",
+  "source": "Is this the {thing} which you bought {when}, {name}?",
+  "hint": "Is this the {thing} ______ {when}, {name}?",
+  "key": "you bought",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "thing": [
+    "bag",
+    "lamp",
+    "jacket",
+    "rug"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Leave out the relative word.",
+  "source": "The {food} that Grandma cooks is the best, {name}.",
+  "hint": "The {food} ______ is the best, {name}.",
+  "key": "Grandma cooks",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "bread",
+    "samsa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Leave out the relative word.",
+  "source": "The people that we visited in {city} were very kind, {name}.",
+  "hint": "The people ______ in {city} were very kind, {name}.",
+  "key": "we visited",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Leave out the relative word.",
+  "source": "I bought a {thing} {when}. It was cheap.",
+  "hint": "The {thing} ______ {when} was cheap.",
+  "key": "I bought",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "thing": [
+    "jacket",
+    "lamp",
+    "bike",
+    "bag"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Leave out the relative word.",
+  "source": "You recommended a {thing}. I loved it, {name}.",
+  "hint": "I loved the {thing} ______, {name}.",
+  "key": "you recommended",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "thing": [
+    "book",
+    "film",
+    "café",
+    "song"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Leave out the relative word.",
+  "source": "We met a {who} on the train. She was from {city}.",
+  "hint": "The {who} ______ on the train was from {city}.",
+  "key": "we met",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "who": [
+    "woman",
+    "girl",
+    "lady",
+    "student"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Leave out the relative word.",
+  "source": "My friend took some {photos}. They are beautiful, {name}.",
+  "hint": "The {photos} ______ are beautiful, {name}.",
+  "key": "my friend took",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "photos": [
+    "photos",
+    "pictures",
+    "videos",
+    "selfies"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences. Leave out the relative word.",
+  "source": "Dad told a {story}. Everyone laughed at it, {name}.",
+  "hint": "Everyone laughed at the {story} ______, {name}.",
+  "key": "Dad told",
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "story": [
+    "story",
+    "joke",
+    "riddle",
+    "tale"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {thing} I bought it {when} was {adj}.",
+  "hint": "The {thing} ______ {when} was {adj}.",
+  "key": "I bought",
+  "acceptable": [
+   "that I bought",
+   "which I bought"
+  ],
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "thing": [
+    "phone",
+    "bike",
+    "jacket",
+    "lamp"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "adj": [
+    "broken",
+    "too small",
+    "expensive",
+    "great"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {who} we met him at the {event} is a doctor.",
+  "hint": "The {who} ______ at the {event} is a doctor.",
+  "key": "we met",
+  "acceptable": [
+   "who we met",
+   "that we met"
+  ],
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "who": [
+    "man",
+    "old man",
+    "young man",
+    "gentleman"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The museum what we visited in {city} was closed, {name}.",
+  "hint": "The museum ______ in {city} was closed, {name}.",
+  "key": "we visited",
+  "acceptable": [
+   "that we visited",
+   "which we visited"
+  ],
+  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The woman lives next door is a {job}, {name}.",
+  "hint": "The woman ______ next door is a {job}, {name}.",
+  "key": "who lives",
+  "acceptable": [
+   "that lives"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "job": [
+    "doctor",
+    "teacher",
+    "pilot",
+    "driver"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The train leaves at {time} is the fastest, {name}.",
+  "hint": "The train ______ at {time} is the fastest, {name}.",
+  "key": "which leaves",
+  "acceptable": [
+   "that leaves"
+  ],
+  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a film you saw. Leave out the relative word.",
+  "requiredElement": "The film I saw … was …",
+  "constraints": [
+   "exactly one sentence",
+   "noun + subject + verb, no that / which",
+   "no it in the clause"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a present someone gave you. Leave out the relative word.",
+  "requiredElement": "The … my … gave me is …",
+  "constraints": [
+   "exactly one sentence",
+   "no relative word",
+   "no it in the clause"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a person you met recently. Leave out the relative word.",
+  "requiredElement": "The … I met … was …",
+  "constraints": [
+   "exactly one sentence",
+   "no who / that",
+   "no him / her in the clause"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food someone in your family cooks.",
+  "requiredElement": "The … my mum cooks is …",
+  "constraints": [
+   "exactly one sentence",
+   "no relative word",
+   "present simple"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a neighbour, using who as the subject of the clause.",
+  "requiredElement": "The man who lives … is …",
+  "constraints": [
+   "exactly one sentence",
+   "who + verb",
+   "who can't be left out here"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place you visited. Leave out the relative word.",
+  "requiredElement": "The … we visited in … was …",
+  "constraints": [
+   "exactly one sentence",
+   "no where",
+   "no it in the clause"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you lost.",
+  "requiredElement": "The … I lost … was …",
+  "constraints": [
+   "exactly one sentence",
+   "no relative word",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one where the relative word is left out and one where it must stay.",
+  "requiredElement": "The book I read … / The girl who sits …",
+  "constraints": [
+   "exactly two sentences",
+   "one object clause with no relative word",
+   "one subject clause with who or which"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the best trip you have had: the places you saw and the food you ate.",
+  "targetGrammar": "The food we ate in … was … The people we met …",
+  "lookFor": [
+   "relative clauses with no relative word",
+   "no extra it / them",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe some presents you got for your last birthday.",
+  "targetGrammar": "The … my sister gave me is … The … I liked most …",
+  "lookFor": [
+   "relative clauses with no relative word",
+   "past verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short review of a book or film you liked.",
+  "targetGrammar": "The film I watched … The actor who plays …",
+  "lookFor": [
+   "object clauses with no relative word",
+   "one subject clause with who or which",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the people you live near.",
+  "targetGrammar": "The man who lives next door … The woman I see every morning …",
+  "lookFor": [
+   "who for subjects",
+   "no relative word for objects",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a friend about things you bought in a new shop.",
+  "targetGrammar": "The jacket I bought … The shop which opened …",
+  "lookFor": [
+   "object clauses with no relative word",
+   "which or that for subjects",
+   "three or four sentences"
+  ]
+ }
+]

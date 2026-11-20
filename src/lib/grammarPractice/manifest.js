@@ -1570,6 +1570,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "sentence-structure.relative-clauses.object-relative-omission": {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "object-relative-omission",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 416,
+   "build": 464,
+   "transform": 384,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.relative-clauses.that-which-things": {
   "domain": "sentence-structure",
   "branch": "relative-clauses",
@@ -1593,6 +1607,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "sentence-structure.relative-clauses.which-vs-what": {
+  "domain": "sentence-structure",
+  "branch": "relative-clauses",
+  "topic": "which-vs-what",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 260,
+   "build": 356,
    "transform": 240,
    "create": 8,
    "express": 5
