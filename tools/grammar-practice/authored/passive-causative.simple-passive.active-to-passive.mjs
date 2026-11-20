@@ -37,9 +37,11 @@ const WHY = "The object comes first, keep the tense (present → is / are, past 
 // [active, object (capitalised), be, participle, doer, trailing sentence, slots]
 const CH = [
   ["My grandpa built this house.", "This house", "was", "built", "my grandpa", "It's in {city}, {name}.", { city: CITY, name: NAME }],
-  ["Alisher Navoi wrote this poem.", "This poem", "was", "written", "Alisher Navoi", "We read it in {lesson}, {name}.", { lesson: ["class", "our lesson", "year seven", "school"], name: NAME }],
+  // Audit (Claude, 20 Nov): "This poem is written by Navoi" is said for authorship, so a past time word
+  // makes the present option clearly wrong.
+  ["Alisher Navoi wrote this poem more than 500 years ago.", "This poem", "was", "written", "Alisher Navoi more than 500 years ago", "We read it in {lesson}, {name}.", { lesson: ["class", "our lesson", "year seven", "school"], name: NAME }],
   ["Our teacher took these photos.", "These photos", "were", "taken", "our teacher", "They're from {city}, {name}.", { city: CITY, name: NAME }],
-  ["Mum made this cake.", "This cake", "was", "made", "Mum", "It's for {who}'s birthday, {name}.", { who: ["Dad", "Grandma", "Aziz", "Lola"], name: NAME }],
+  ["Mum made this cake.", "This cake", "was", "made", "Mum", "It's for {who}'s birthday, {name}.", { who: ["Dad", "Grandma", "Grandpa", "my sister"], name: NAME }],
   ["My uncle painted these pictures.", "These pictures", "were", "painted", "my uncle", "Look at the {thing}, {name}.", { thing: ["colours", "flowers", "mountains", "horses"], name: NAME }],
   ["A boy found my phone.", "My phone", "was", "found", "a boy", "He gave it back {when}, {name}.", { when: ["yesterday", "this morning", "at once", "after school"], name: NAME }],
   ["The neighbours planted these trees.", "These trees", "were", "planted", "the neighbours", "Now they're {adj}, {name}.", { adj: ["very tall", "green", "full of fruit", "beautiful"], name: NAME }],
@@ -70,7 +72,7 @@ const BUILD = [
   ["Mum cooks dinner.", "Dinner ______ ______ Mum. Tonight it's {food}, {name}.", ["is cooked", "by"], { food: ["plov", "soup", "manti", "lagman"], name: NAME }],
   ["My uncle built this café.", "This café ______ ______ my uncle. It's near the {place}, {name}.", ["was built", "by"], { place: ["park", "bazaar", "station", "river"], name: NAME }],
   ["Millions of people speak Russian.", "Russian ______ ______ millions of people. My {who} speaks it too.", ["is spoken", "by"], { who: ["mum", "dad", "teacher", "grandma"] }],
-  ["Lola took this photo.", "This photo ______ ______ Lola. It's from {city}, {name}.", ["was taken", "by"], { city: CITY, name: NAME }],
+  ["Madina took this photo.", "This photo ______ ______ Madina. It's from {city}, {name}.", ["was taken", "by"], { city: CITY, name: NAME }],
   ["Farmers grow these apricots.", "These apricots ______ ______ farmers in {region}, {name}.", ["are grown", "by"], { region: ["Fergana", "our village", "the south", "the valley"], name: NAME }],
   ["A famous poet wrote this song.", "This song ______ ______ a famous poet. We sing it at {event}, {name}.", ["was written", "by"], { event: ["weddings", "school", "parties", "concerts"], name: NAME }],
   ["The school cleaner cleans the classrooms.", "The classrooms ______ ______ the school cleaner. She comes at {time}, {name}.", ["are cleaned", "by"], { time: ["five", "six", "four", "seven"], name: NAME }],
