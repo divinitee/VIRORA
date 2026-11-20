@@ -44,7 +44,7 @@ const CHOOSE = [
   ["throw", "threw", "thrown", "throwing", "Our team lost because the new player had never ______ a {ball} in a real match before.", { ball: ["ball", "basketball", "handball", "volleyball"], x: [] }],
   ["go", "went", "gone", "going", "Had you ever ______ abroad before your trip to {city}, {name}?", { city: ["Istanbul", "Seoul", "Dubai", "Almaty"], name: NAME }],
   ["see", "saw", "seen", "seeing", "Had your parents ever ______ a {show} before last night, {name}?", { show: ["ballet", "play", "circus show", "live concert"], name: NAME }],
-  ["know", "knew", "known", "knowing", "Before the trip, had you ever ______ anyone from {city}, {name}?", { city: ["Khiva", "Nukus", "Termez", "Fergana"], name: NAME }],
+  ["be", "was", "been", "being", "Before this trip, had you ever ______ to {city}, {name}?", { city: ["Khiva", "Nukus", "Termez", "Fergana"], name: NAME }],
   ["break", "broke", "broken", "breaking", "It was the first time I had ______ a {bone} in my life, {name}.", { bone: ["bone", "finger", "leg", "wrist"], name: NAME }],
   ["grow", "grew", "grown", "growing", "It was the first time my mother had ______ {veg} in our garden.", { veg: ["tomatoes", "potatoes", "melons", "carrots"], x: [] }],
   ["draw", "drew", "drawn", "drawing", "It was the first time {name} had ______ a picture of a {thing}.", { name: NAME, thing: ["horse", "face", "city", "car"] }],
