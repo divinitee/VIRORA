@@ -218,7 +218,7 @@
 217	C	reported-speech.statements.backshift-past	B1	1	live	Past simple → past perfect backshift
 218	C	reported-speech.statements.backshift-present	B1	2	live	Present → past backshift with pronoun shift | Productive reported statement with backshift
 219	C	reported-speech.statements.backshift-will	B1	2	live	will → would; tomorrow → the next day; you → me | Productive reported promise/prediction
-220	C	reported-speech.statements.say-tell	B1	1	todo	tell requires an object; say does not
+220	C	reported-speech.statements.say-tell	B1	1	live	tell requires an object; say does not
 221	C	reported-speech.questions.reported-wh-question	B1	2	todo	Statement order in a reported wh-question | Producing a reported wh-question
 222	C	reported-speech.questions.reported-yes-no	B1	1	todo	if/whether in a reported yes/no question
 223	C	reported-speech.commands-requests.tell-sb-to	B1	1	todo	Reported command: tell + object + to-infinitive

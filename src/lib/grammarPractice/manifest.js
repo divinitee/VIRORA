@@ -1598,6 +1598,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "reported-speech.statements.say-tell": {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.conjunctions.and-but-or": {
   "domain": "sentence-structure",
   "branch": "conjunctions",
