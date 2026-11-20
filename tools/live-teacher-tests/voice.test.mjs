@@ -343,3 +343,17 @@ test('rude: swearing gets no filler (EN/RU/UZ, stretched letters), normal talk i
   for (const x of ['Fuck you', 'Nah, bro. What the fuck is wrong with you?', 'Бляяя, давай уже', 'иди нахуй', 'сука', 'Sen jalabsan', 'dalbayob', 'fuuuuck', 'shut up']) assert.ok(isRude(x), x);
   for (const x of ['Блин, давай что-то продуктивно', 'I like dictionaries', 'He was a good student', 'I took the bus to school', 'Assalomu alaykum', 'this is boring', 'shutter speed', 'class assessment']) assert.ok(!isRude(x), x);
 });
+
+test('casual swearing: roasted, not a strike, until it piles up', async () => {
+  const { buildBrainInstructions, conductAfter, brainSchema, CASUAL_FREE, buildTurnMessage } = await import('../../base44/shared/liveTeacherBrain.js');
+  assert.ok(brainSchema().required.includes('casual_swear'));
+  assert.match(buildBrainInstructions({ persona: 'violet', ageGroup: 'adult' }), /You degenerate/);
+  assert.match(buildBrainInstructions({ persona: 'vira' }), /so much energy/);
+  assert.match(buildBrainInstructions({ persona: 'violet', ageGroup: 'kid' }), /no roast, no "degenerate"/);
+  // Violet (1-strike) does NOT hang up on casual swearing
+  const one = conductAfter('violet', 0, { casual_swear: true }, 0);
+  assert.equal(one.end, false); assert.equal(one.casual, 1); assert.equal(one.strikes, 0);
+  // ...but the one after the free ones counts as a strike
+  assert.equal(conductAfter('violet', 0, { casual_swear: true }, CASUAL_FREE).end, true);
+  assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', casual: CASUAL_FREE }), /treat it as rude/);
+});
