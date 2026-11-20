@@ -2339,6 +2339,20 @@ export const PRACTICE_MANIFEST = {
    "create": 8,
    "express": 5
   }
+ },
+ "verb-patterns.object-infinitive.want-object-infinitive": {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 224,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
  }
 };
 

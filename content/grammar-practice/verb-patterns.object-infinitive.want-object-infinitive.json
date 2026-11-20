@@ -846,15 +846,15 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Dad doesn't want ______ (I / go) to the {event} alone, {name}.",
+  "source": "Dad doesn't want ______ (I / go) out alone at night in {city}, {name}.",
   "key": "me to go",
   "why": "want / would like + the person as an object (me, not I) + to + base: me to go.",
   "slots": {
-   "event": [
-    "concert",
-    "party",
-    "match",
-    "festival"
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Istanbul",
+    "Almaty"
    ],
    "name": [
     "Malika",
@@ -873,7 +873,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Her brothers want ______ (she / cook) {food} again.",
+  "source": "Lola's brothers want ______ (she / cook) {food} again.",
   "key": "her to cook",
   "why": "want / would like + the person as an object (her, not she) + to + base: her to cook.",
   "slots": {
@@ -1038,7 +1038,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Her parents would like ______ (she / learn) {lang}, {name}.",
+  "source": "Madina's parents would like ______ (she / learn) {lang}, {name}.",
   "key": "her to learn",
   "why": "want / would like + the person as an object (her, not she) + to + base: her to learn.",
   "slots": {
@@ -1120,16 +1120,16 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "I want that you come to the {event}, {name}.",
-  "hint": "I want ______ to the {event}, {name}.",
+  "source": "I want that you come for dinner on {day}, {name}.",
+  "hint": "I want ______ for dinner on {day}, {name}.",
   "key": "you to come",
   "why": "want + you + to + base: you to come.",
   "slots": {
-   "event": [
-    "wedding",
-    "party",
-    "match",
-    "concert"
+   "day": [
+    "Friday",
+    "Sunday",
+    "Navruz",
+    "Saturday"
    ],
    "name": [
     "Zarina",
@@ -1344,10 +1344,10 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with want / wanted + person + to.",
-  "source": "My friend said to me: 'Come to my {event}, please.'",
-  "hint": "My friend wanted ______ to his {event}, {name}.",
-  "key": "me to come",
-  "why": "My friend's wish for me: me to come.",
+  "source": "My friend said to me: 'Join us at my {event}, please.'",
+  "hint": "My friend wanted ______ him at his {event}, {name}.",
+  "key": "me to join",
+  "why": "My friend's wish for me: me to join.",
   "slots": {
    "event": [
     "party",
@@ -1484,8 +1484,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with would like + person + to.",
-  "source": "Her mum hopes she will call every {time}, {name}.",
-  "hint": "Her mum would like ______ every {time}, {name}.",
+  "source": "Sevara's mum hopes she will call every {time}, {name}.",
+  "hint": "Sevara's mum would like ______ every {time}, {name}.",
   "key": "her to call",
   "why": "would like + her + to + base: her to call.",
   "slots": {

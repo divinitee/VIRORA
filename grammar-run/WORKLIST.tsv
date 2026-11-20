@@ -176,7 +176,7 @@
 175	C	verb-patterns.gerund-infinitive.avoid-gerund	B1	1	live	avoid + -ing
 176	C	verb-patterns.gerund-infinitive.get-used-to	B1	2	live	get used to + -ing/noun (distinct from used to + base) | Productive get used to + -ing/noun
 177	C	verb-patterns.gerund-infinitive.look-forward-to	B1	1	live	look forward to + -ing ('to' is a preposition here)
-178	C	verb-patterns.object-infinitive.want-object-infinitive	B1	1	todo	want + object + to-infinitive
+178	C	verb-patterns.object-infinitive.want-object-infinitive	B1	1	live	want + object + to-infinitive
 179	C	verb-patterns.meaning-change-verbs.remember-gerund	B1	1	todo	remember + -ing for a past memory
 180	C	verb-patterns.meaning-change-verbs.remember-infinitive	B1	1	todo	remember + to-infinitive for a task to do
 181	C	verb-patterns.meaning-change-verbs.stop-contrast	B1	1	todo	Productive contrast of stop + -ing vs stop + to-infinitive
