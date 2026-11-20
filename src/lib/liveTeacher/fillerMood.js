@@ -23,9 +23,13 @@ const POSITIVE = [
   "zo'r", 'zor', 'ajoyib', 'xursand', 'baxtli', 'yutdim', "o'tdim", 'otdim', 'tug\'ilgan kun', 'tugilgan kun',
   'отлично', 'круто', 'рад', 'счастлив', 'ура', 'выиграл', 'сдал', 'классно', 'супер', 'день рождения',
 ];
-const QUESTION_START = /^(what|why|how|when|where|who|which|can|could|should|would|is|are|do|does|did|will|nima|nega|qanday|qachon|qayer|kim|nimaga|что|почему|как|когда|где|кто|зачем|можно)\b/i;
+const QUESTION_START = /^(what|why|how|when|where|who|which|can|could|should|would|is|are|do|does|did|will|nima|nega|qanday|qachon|qayer|kim|nimaga|что|почему|как|когда|где|кто|зачем|можно)(?=[\s,?!.]|$)/i;
 
-const norm = (s) => ` ${String(s || '').toLowerCase().replace(/[\[(][^\])]*[\])]/g, ' ').replace(/[’`ʻʼ]/g, "'").replace(/\s+/g, ' ').trim()} `;
+const norm = (s) => ` ${String(s || '').toLowerCase()
+  .replace(/[\[(][^\])]*[\])]/g, ' ') // (laughter), [mouse clicking]
+  .replace(/[’`ʻʼ]/g, "'")
+  .replace(/[^\p{L}\p{N}'\s]/gu, ' ') // punctuation -> space, so " ill." still matches " ill "
+  .replace(/\s+/g, ' ').trim()} `;
 const has = (text, words) => words.some((w) => text.includes(w));
 
 export function fillerMood(studentText) {
@@ -33,7 +37,7 @@ export function fillerMood(studentText) {
   if (t.trim().length < 2) return 'neutral';
   if (has(t, EMPATHY) && !/\bnot (that )?bad\b/.test(t)) return 'empathy';
   const raw = String(studentText || '').trim();
-  if (/\?\s*$/.test(raw) || QUESTION_START.test(raw) || /\bmi\?|\bmi\s*$/.test(t)) return 'question';
+  if (/\?\s*$/.test(raw) || QUESTION_START.test(raw) || / mi $/.test(t)) return 'question';
   if (has(t, POSITIVE)) return 'positive';
   return 'neutral';
 }
