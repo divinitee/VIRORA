@@ -71,7 +71,7 @@ export const blobToB64 = (blob) => new Promise((resolve, reject) => {
  * createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, onLevel })
  * onUtterance({ blob, durationS }) fires when the student finished a turn.
  */
-export function createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, onLevel, onTurnStart, onTurnChunk } = {}) {
+export function createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, onLevel, onTurnStart, onTurnChunk, onTurnDiscard } = {}) {
   let ctx = null; let stream = null; let source = null; let proc = null;
   let state = 'paused';
   let pushToTalk = false;
@@ -93,7 +93,7 @@ export function createVoiceLoop({ onUtterance, onBargeIn, onAutoPause, onState, 
     const ms = turnMs;
     const samples = concat(turn);
     turn = [];
-    if (voicedMs < MIN_TURN_MS) { set('listening'); return; }
+    if (voicedMs < MIN_TURN_MS) { onTurnDiscard?.(); set('listening'); return; }
     set('waiting');
     onUtterance?.({ blob: encodeWav(samples), durationS: Math.round((samples.length / OUT_RATE) * 10) / 10, ms });
   }
