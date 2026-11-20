@@ -219,62 +219,62 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Past obligation: had to + base verb (must has no past form).
 
 6. _Rewrite with had to._  
-   It was necessary for us to wait at the **airport**, **Olga**.  
+   At the **airport**, they made us wait for hours, **Olga**.  
    → We ______ at the **airport**, **Olga**.  
    key: had to wait  
    why: Past obligation: had to + base verb (must has no past form).
 
 7. _Rewrite with had to._  
-   It was necessary for him to stay in bed **yesterday**, **Olga**.  
+   The doctor told him to stay in bed **yesterday**, **Olga**.  
    → He ______ in bed **yesterday**, **Olga**.  
    key: had to stay  
    why: Past obligation: had to + base verb (must has no past form).
 
 8. _Rewrite with had to._  
-   It was necessary for me to call the **doctor**, **Lola**.  
-   → I ______ the **doctor**, **Lola**.  
+   I needed to call the **doctor**, **Lola**. There was no other way.  
+   → I ______ the **doctor**, **Lola**. There was no other way.  
    key: had to call  
    why: Past obligation: had to + base verb (must has no past form).
 
 9. _Rewrite with had to._  
-   It was necessary for them to walk home from the **bazaar**, **Lola**.  
-   → They ______ home from the **bazaar**, **Lola**.  
+   There were no taxis, so walking home from the **bazaar** was necessary for them, **Lola**.  
+   → There were no taxis, so they ______ home from the **bazaar**, **Lola**.  
    key: had to walk  
    why: Past obligation: had to + base verb (must has no past form).
 
 10. _Rewrite with had to._  
-   It was necessary for Olga to work on **Navruz**, **Olga**.  
-   → Olga ______ on **Navruz**, **Olga**.  
+   Her boss made Olga work on **Navruz**, **Olga**.  
+   → Her boss said Olga ______ on **Navruz**, **Olga**.  
    key: had to work  
    why: Past obligation: had to + base verb (must has no past form).
 
 11. _Rewrite with didn't have to._  
-   It wasn't necessary for me to pay at the **museum**, **Lola**.  
+   Paying at the **museum** wasn't necessary for me, **Lola**.  
    → I ______ at the **museum**, **Lola**.  
    key: didn't have to pay  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 12. _Rewrite with didn't have to._  
-   It wasn't necessary for us to take the **tram**, **Olga**.  
+   There was no need for us to take the **tram**, **Olga**.  
    → We ______ the **tram**, **Olga**.  
    key: didn't have to take  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 13. _Rewrite with didn't have to._  
-   It wasn't necessary for her to cook **last night**, **Aziz**.  
+   Cooking **last night** wasn't necessary for her, **Aziz**.  
    → She ______ **last night**, **Aziz**.  
    key: didn't have to cook  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 14. _Rewrite with didn't have to._  
-   It wasn't necessary for him to wait long at the **post office**, **Timur**.  
+   He didn't need to wait long at the **post office**, **Timur**.  
    → He ______ long at the **post office**, **Timur**.  
    key: didn't have to wait  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 15. _Rewrite with didn't have to._  
-   It wasn't necessary for them to study much for the **quiz**, **Lola**.  
-   → They ______ much for the **quiz**, **Lola**.  
+   The **quiz** was easy, so studying much wasn't necessary for them, **Lola**.  
+   → The **quiz** was easy, so they ______ much, **Lola**.  
    key: didn't have to study  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
