@@ -894,7 +894,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the preposition that goes with the verb.",
-  "source": "My sister has applied ______ a visa for {place}, {name}.",
+  "source": "My sister has applied ______ a visa to study in {place}, {name}.",
   "key": "for",
   "why": "apply for + a visa.",
   "slots": {

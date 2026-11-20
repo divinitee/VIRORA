@@ -76,7 +76,7 @@ const BUILD = [
   ["for", "The tourists asked ______ a glass of water in {city}.", { city: ["Bukhara", "Samarkand", "Khiva", "Tashkent"] }, "ask for + what you want."],
   ["of", "Our team consists ______ eleven {who} and a coach.", { who: ["players", "girls", "boys", "students"] }, "consist of + the parts."],
   ["at", "Please don't laugh ______ my {thing}, {name}. I made it myself.", { thing: ["cake", "drawing", "hat", "poem"] }, "laugh at + the thing that is funny."],
-  ["for", "My sister has applied ______ a visa for {place}, {name}.", { place: ["Korea", "Japan", "the UK", "Canada"] }, "apply for + a visa."],
+  ["for", "My sister has applied ______ a visa to study in {place}, {name}.", { place: ["Korea", "Japan", "the UK", "Canada"] }, "apply for + a visa."],
   ["on", "You can rely ______ my {who}, {name}. He's never late.", { who: ["brother", "uncle", "driver", "friend"] }, "rely on + the person you trust."],
   ["from", "Many people suffer ______ colds in the {season}, {name}.", { season: ["winter", "autumn", "spring", "cold months"] }, "suffer from + the problem."],
   ["for", "The {who} searched ______ the lost child all night.", { who: ["neighbours", "villagers", "parents", "teachers"] }, "search for + who you want to find."],

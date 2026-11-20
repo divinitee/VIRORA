@@ -666,7 +666,10 @@ export default [
     "Gulnora",
     "Ulugbek"
    ]
-  }
+  },
+  "acceptable": [
+   "upon"
+  ]
  },
  {
   "id": "gpr.prep-phrasal.dependent-prepositions.verb-preposition.build.002",
@@ -812,7 +815,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the preposition that goes with the verb.",
-  "source": "The tourists asked ______ a map of {city}, {name}.",
+  "source": "The tourists asked ______ a glass of water in {city}, {name}.",
   "key": "for",
   "why": "ask for + what you want.",
   "slots": {
@@ -893,15 +896,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the preposition that goes with the verb.",
-  "source": "My sister has applied ______ a job at the {place}, {name}.",
+  "source": "My sister has applied ______ a visa to study in {place}, {name}.",
   "key": "for",
-  "why": "apply for + the job.",
+  "why": "apply for + a visa.",
   "slots": {
    "place": [
-    "bank",
-    "hospital",
-    "airport",
-    "museum"
+    "Korea",
+    "Japan",
+    "the UK",
+    "Canada"
    ],
    "name": [
     "Sardor",
@@ -936,7 +939,10 @@ export default [
     "Gulnora",
     "Ulugbek"
    ]
-  }
+  },
+  "acceptable": [
+   "upon"
+  ]
  },
  {
   "id": "gpr.prep-phrasal.dependent-prepositions.verb-preposition.build.012",
@@ -963,7 +969,10 @@ export default [
     "Otabek",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   "with"
+  ]
  },
  {
   "id": "gpr.prep-phrasal.dependent-prepositions.verb-preposition.build.013",
@@ -1098,7 +1107,10 @@ export default [
     "Gulnora",
     "Ulugbek"
    ]
-  }
+  },
+  "acceptable": [
+   "with"
+  ]
  },
  {
   "id": "gpr.prep-phrasal.dependent-prepositions.verb-preposition.build.018",
@@ -1207,7 +1219,10 @@ export default [
     "Gulnora",
     "Ulugbek"
    ]
-  }
+  },
+  "acceptable": [
+   "upon"
+  ]
  },
  {
   "id": "gpr.prep-phrasal.dependent-prepositions.verb-preposition.transform.002",
@@ -1431,7 +1446,10 @@ export default [
     "Gulnora",
     "Ulugbek"
    ]
-  }
+  },
+  "acceptable": [
+   "upon"
+  ]
  },
  {
   "id": "gpr.prep-phrasal.dependent-prepositions.verb-preposition.transform.010",
@@ -1459,7 +1477,10 @@ export default [
     "Otabek",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   "with"
+  ]
  },
  {
   "id": "gpr.prep-phrasal.dependent-prepositions.verb-preposition.transform.011",
@@ -1599,7 +1620,10 @@ export default [
     "Gulnora",
     "Ulugbek"
    ]
-  }
+  },
+  "acceptable": [
+   "upon"
+  ]
  },
  {
   "id": "gpr.prep-phrasal.dependent-prepositions.verb-preposition.create.001",

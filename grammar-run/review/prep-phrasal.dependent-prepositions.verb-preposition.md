@@ -88,7 +88,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. _Write the preposition that goes with the verb._  
    The price of the trip depends ______ the **season**, **Akmal**.  
-   key: on  
+   key: on (also: upon)  
    why: depend on + the thing that decides.
 
 2. _Write the preposition that goes with the verb._  
@@ -117,7 +117,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: pay for + the thing you buy.
 
 7. _Write the preposition that goes with the verb._  
-   The tourists asked ______ a map of **Bukhara**, **Nodira**.  
+   The tourists asked ______ a glass of water in **Bukhara**, **Nodira**.  
    key: for  
    why: ask for + what you want.
 
@@ -132,18 +132,18 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: laugh at + the thing that is funny.
 
 10. _Write the preposition that goes with the verb._  
-   My sister has applied ______ a job at the **airport**, **Otabek**.  
+   My sister has applied ______ a visa to study in **the UK**, **Otabek**.  
    key: for  
-   why: apply for + the job.
+   why: apply for + a visa.
 
 11. _Write the preposition that goes with the verb._  
    You can rely ______ my **friend**, **Akmal**. He's never late.  
-   key: on  
+   key: on (also: upon)  
    why: rely on + the person you trust.
 
 12. _Write the preposition that goes with the verb._  
    Many people suffer ______ colds in the **autumn**, **Zarina**.  
-   key: from  
+   key: from (also: with)  
    why: suffer from + the problem.
 
 13. _Write the preposition that goes with the verb._  
@@ -168,7 +168,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. _Write the preposition that goes with the verb._  
    What happened ______ your **bike**, **Ulugbek**? It's broken!  
-   key: to  
+   key: to (also: with)  
    why: happen to + the person or thing.
 
 18. _Write the preposition that goes with the verb._  
@@ -191,7 +191,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 1. _Correct the mistake._  
    It depends of the price of the **flat**, **Nodira**.  
    → It depends ______ the price of the **flat**, **Nodira**.  
-   key: on  
+   key: on (also: upon)  
    why: depend on, not depend of.
 
 2. _Correct the mistake._  
@@ -239,13 +239,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 9. _Rewrite with the verb in brackets._  
    (rely) Can I trust the **builders**, **Ulugbek**?  
    → Can I rely ______ the **builders**, **Ulugbek**?  
-   key: on  
+   key: on (also: upon)  
    why: rely on = trust.
 
 10. _Rewrite with the verb in brackets._  
    (suffer) My aunt often has headaches in the **spring**, **Zarina**.  
    → My aunt often suffers ______ headaches in the **spring**, **Zarina**.  
-   key: from  
+   key: from (also: with)  
    why: suffer from + the problem.
 
 11. _Rewrite with the verb in brackets._  
@@ -275,7 +275,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Rewrite with the verb in brackets._  
    (depend) My parents are thinking about the price of the **trip**, **Ulugbek**. It decides everything.  
    → Everything depends ______ the price of the **trip**, **Ulugbek**.  
-   key: on  
+   key: on (also: upon)  
    why: depend on + the thing that decides.
 
 ## create (8)
