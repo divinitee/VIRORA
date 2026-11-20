@@ -196,7 +196,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 2. _Compare the two numbers. Use fewer or less … than._  
    I slept eight hours on Monday and **six** hours on Tuesday, **Jamshid**.  
-   → I slept ______ on Tuesday than on Monday, **Jamshid**.  
+   → I slept for ______ on Tuesday than on Monday, **Jamshid**.  
    key: fewer hours  
    why: The noun is plural and you can count it, so use fewer.
 

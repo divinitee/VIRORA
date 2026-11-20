@@ -1208,7 +1208,7 @@ export default [
   "format": "rewrite",
   "instr": "Compare the two numbers. Use fewer or less … than.",
   "source": "I slept eight hours on Monday and {n} hours on Tuesday, {name}.",
-  "hint": "I slept ______ on Tuesday than on Monday, {name}.",
+  "hint": "I slept for ______ on Tuesday than on Monday, {name}.",
   "key": "fewer hours",
   "why": "The noun is plural and you can count it, so use fewer.",
   "slots": {
