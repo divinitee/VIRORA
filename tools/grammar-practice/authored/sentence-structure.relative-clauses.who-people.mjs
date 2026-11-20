@@ -83,7 +83,7 @@ const BUILD = [
   ["who speaks", "We need someone ______ (speak) {lang}, {name}.", { lang: ["English", "Russian", "Turkish", "German"], name: NAME }],
   ["who teaches", "Ms Ivanova is the teacher ______ (teach) us {subj}, {name}.", { subj: ["English", "maths", "art", "biology"], name: NAME }],
   ["who sells", "The man ______ (sell) {thing} here is very kind, {name}.", { thing: ["fruit", "bread", "flowers", "shoes"], name: NAME }],
-  ["who helped", "The woman ______ (help) us {when} was a {job}.", { when: ["yesterday", "on Monday", "last week", "this morning"], job: ["nurse", "police officer", "teacher", "doctor"] }],
+  ["who helped", "The woman ______ (help) us {when} was a {job}.", { when: ["yesterday", "on Monday", "last week", "this morning"], job: ["nurse", "shop assistant", "teacher", "doctor"] }],
   ["who won", "The girl ______ (win) the {event} is only twelve, {name}.", { event: ["race", "competition", "chess game", "quiz"], name: NAME }],
   ["who called", "The man ______ (call) you {when} was from the {place}.", { when: ["this morning", "at lunch", "an hour ago", "last night"], place: ["school", "bank", "shop", "hospital"] }],
   ["who wants", "Is there anyone ______ (want) more {food}, {name}?", { food: ["plov", "tea", "cake", "soup"], name: NAME }],
@@ -115,10 +115,12 @@ const TRANSFORM = [
   [COR, "The girl who she sings in the choir is from {city}, {name}.", "The girl ______ in the choir is from {city}, {name}.", "who sings", { city: CITY, name: NAME }],
   // define a job (5)
   [DEF, "A doctor helps {who}.", "A doctor is a person ______ {who}.", "who helps", { who: ["sick people", "ill children", "people in hospital", "patients"] }],
-  [DEF, "A teacher teaches {who} at {place}.", "A teacher is a person ______ {who} at {place}.", "who teaches", { who: ["children", "students", "young people", "teenagers"], place: ["school", "a college", "a lyceum", "a language centre"] }],
+  [DEF, "A teacher teaches {who} at {place}.", "A teacher is a person ______ {who} at {place}.", "who teaches", { who: ["children", "students", "young people", "teenagers"], place: ["school", "our school", "a lyceum", "a language centre"] }],
   [DEF, "A baker makes {food} every {when}.", "A baker is a person ______ {food} every {when}.", "who makes", { food: ["bread", "cakes", "non", "samsa"], when: ["day", "morning", "night", "week"] }],
-  [DEF, "A {job} looks after {who}.", "A {job} is a person ______ {who}.", "who looks after", { job: ["nurse", "babysitter", "nanny", "carer"], who: ["sick people", "children", "old people", "babies"] }],
-  [DEF, "A {job} drives a {vehicle}.", "A {job} is a person ______ a {vehicle}.", "who drives", { job: ["bus driver", "taxi driver", "truck driver", "tram driver"], vehicle: ["bus", "taxi", "truck", "tram"] }],
+  // Audit (Claude, 20 Nov): the job and its object were in separate slots ("a nanny looks after old people",
+  // "a bus driver drives a taxi"), so the job is fixed and the slots are free.
+  [DEF, "A nurse looks after {who} in {place}.", "A nurse is a person ______ {who} in {place}.", "who looks after", { who: ["sick people", "patients", "ill children", "old people"], place: ["hospital", "a clinic", "a health centre", "the city hospital"] }],
+  [DEF, "A taxi driver drives {who} around {place}.", "A taxi driver is a person ______ {who} around {place}.", "who drives", { who: ["people", "tourists", "passengers", "families"], place: ["the city", "the town", "Tashkent", "Samarkand"] }],
 ].map(([instr, source, hint, key, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, acceptable: thatOf(key), why: W.build, slots: fix(slots, source + hint) }));
 
 /* ---------------- create: 8 ---------------- */
