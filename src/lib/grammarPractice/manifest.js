@@ -1556,6 +1556,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.future.timetable-simple": {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "timetable-simple",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 416,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.future.will-spontaneous": {
   "domain": "tenses",
   "branch": "future",
