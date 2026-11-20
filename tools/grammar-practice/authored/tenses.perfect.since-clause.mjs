@@ -39,7 +39,7 @@ const CHOOSE = [
   ["m", "has had", ["had", "has", "is having"], "My brother ______ the same {thing} since he started college.", { thing: ["phone", "bike", "bag", "laptop"], x: [] }],
   ["m", "has played", ["played", "plays", "is playing"], "{name} ______ for the city team since he was {age}, {who}.", { name: NAME_M, age: ["twelve", "thirteen", "fourteen", "fifteen"], who: ["Aziz", "Olga", "Mum", "Dad"] }],
   ["m", "have been", ["were", "are", "are being"], "My parents ______ married since they finished {school}.", { school: ["school", "college", "university", "their studies"], x: [] }],
-  ["m", "has changed", ["changed", "changes", "is changing"], "Our {place} ______ a lot since they built the new {thing}.", { place: ["town", "street", "village", "area"], thing: ["road", "metro station", "bridge", "market"] }],
+  ["m", "has changed", ["changed", "changes", "is changing"], "Our {place} ______ a lot since they built the new {thing}.", { place: ["town", "street", "village", "area"], thing: ["road", "school", "bridge", "market"] }],
   ["m", "have wanted", ["wanted", "want", "am wanting"], "I ______ a {pet} since I was a small child, {name}.", { pet: ["dog", "cat", "parrot", "rabbit"], name: NAME }],
   ["m", "has taught", ["taught", "teaches", "is teaching"], "Mr Karimov ______ at our {school} since it opened.", { school: ["school", "lyceum", "college", "language centre"], x: [] }],
   ["m", "have studied", ["studied", "study", "am studying"], "I ______ English since I moved to {city}.", { city: ["Tashkent", "Samarkand", "Bukhara", "Fergana"], x: [] }],

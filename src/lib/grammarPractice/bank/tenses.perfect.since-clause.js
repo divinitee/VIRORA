@@ -207,7 +207,7 @@ export default [
    ],
    "thing": [
     "road",
-    "metro station",
+    "school",
     "bridge",
     "market"
    ]
