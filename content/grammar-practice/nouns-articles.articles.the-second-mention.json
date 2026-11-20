@@ -1,0 +1,1825 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There was ______ tall man at the {place} this morning. The man asked me the way to the {dest}.",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "place": [
+    "bus stop",
+    "school gate",
+    "corner",
+    "metro exit"
+   ],
+   "dest": [
+    "bazaar",
+    "museum",
+    "bank",
+    "post office"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I saw a cat and a dog in the {place}. ______ dog was {doing}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 3,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "street",
+    "garden"
+   ],
+   "doing": [
+    "sleeping",
+    "barking",
+    "eating",
+    "running"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle has ______ small shop in {city}. The shop sells {goods}.",
+  "options": [
+   "an",
+   "–",
+   "a",
+   "the"
+  ],
+  "key": 2,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Namangan",
+    "Andijan",
+    "Karshi"
+   ],
+   "goods": [
+    "fruit",
+    "phones",
+    "shoes",
+    "bread"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We bought a sofa and a lamp for our new {home}. ______ sofa was {adj}.",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "key": 1,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "room",
+    "dacha"
+   ],
+   "adj": [
+    "expensive",
+    "heavy",
+    "cheap",
+    "very soft"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's ______ letter for you on the {place}, {name}. The letter is from the bank.",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "place": [
+    "table",
+    "desk",
+    "shelf",
+    "sofa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A boy and a girl from my class came to the {event}. ______ girl brought a {gift}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 3,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "event": [
+    "party",
+    "birthday party",
+    "picnic",
+    "dinner"
+   ],
+   "gift": [
+    "cake",
+    "salad",
+    "present",
+    "bag of fruit"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I have ______ new teacher this year. The teacher is from {city} and teaches {subject}.",
+  "options": [
+   "an",
+   "–",
+   "a",
+   "the"
+  ],
+  "key": 2,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "city": [
+    "Bukhara",
+    "Kazan",
+    "Samarkand",
+    "Almaty"
+   ],
+   "subject": [
+    "maths",
+    "history",
+    "biology",
+    "chemistry"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week I watched a film and read a book. ______ film was about {topic}, and I watched it with {who}.",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "key": 1,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "topic": [
+    "space",
+    "a football team",
+    "two friends",
+    "a long trip"
+   ],
+   "who": [
+    "my brother",
+    "my friends",
+    "Dad",
+    "my cousin"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ big tree in front of our {home}. The tree is older than my {who}.",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "home": [
+    "house",
+    "school",
+    "flat",
+    "college"
+   ],
+   "who": [
+    "grandfather",
+    "grandmother",
+    "father",
+    "mother"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher gave us a story and a poem {when}. ______ poem was {adj}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 3,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "when": [
+    "on Monday",
+    "yesterday",
+    "last week",
+    "this morning"
+   ],
+   "adj": [
+    "short",
+    "beautiful",
+    "hard",
+    "sad"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There was ______ bird in our {place} yesterday. The bird was {doing}.",
+  "options": [
+   "an",
+   "–",
+   "a",
+   "the"
+  ],
+  "key": 2,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "classroom",
+    "yard",
+    "garden"
+   ],
+   "doing": [
+    "singing",
+    "very loud",
+    "eating seeds",
+    "hungry"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ordered soup and a salad at the {place}. ______ salad was {adj}.",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "key": 1,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "place": [
+    "café",
+    "restaurant",
+    "canteen",
+    "choyxona"
+   ],
+   "adj": [
+    "fresh",
+    "too salty",
+    "very good",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousin has ______ cat called {cname}. The cat sleeps on the {place} all day.",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "cname": [
+    "Mosh",
+    "Tom",
+    "Laylo",
+    "Barsik"
+   ],
+   "place": [
+    "sofa",
+    "bed",
+    "chair",
+    "carpet"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is a bank and a pharmacy on our {street}. ______ pharmacy opens at {time}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 3,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "street": [
+    "street",
+    "corner",
+    "road",
+    "square"
+   ],
+   "time": [
+    "eight",
+    "nine",
+    "seven",
+    "ten"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We have ______ new student in our group, {name}. The student is from {city}.",
+  "options": [
+   "an",
+   "–",
+   "a",
+   "the"
+  ],
+  "key": 2,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "city": [
+    "Kazan",
+    "Almaty",
+    "Bishkek",
+    "Khiva"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A woman and her son got on the {vehicle}. ______ son was carrying a {thing}.",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "key": 1,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "vehicle": [
+    "bus",
+    "train",
+    "tram",
+    "metro"
+   ],
+   "thing": [
+    "big box",
+    "guitar",
+    "football",
+    "heavy bag"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There was ______ long queue at the {place} today, {name}. The queue was very slow.",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "–"
+  ],
+  "key": 0,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "place": [
+    "bank",
+    "post office",
+    "bazaar",
+    "pharmacy"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mum made plov and a cake for the {event}. ______ cake was {adj}.",
+  "options": [
+   "a",
+   "an",
+   "–",
+   "the"
+  ],
+  "key": 3,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "event": [
+    "party",
+    "guests",
+    "wedding",
+    "holiday"
+   ],
+   "adj": [
+    "sweet",
+    "delicious",
+    "huge",
+    "beautiful"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I've got ______ plan for the {when}, {name}. The plan is simple.",
+  "options": [
+   "an",
+   "–",
+   "a",
+   "the"
+  ],
+  "key": 2,
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "when": [
+    "weekend",
+    "holidays",
+    "trip",
+    "summer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We met a doctor and a teacher at the {event}. ______ doctor was very {adj}.",
+  "options": [
+   "–",
+   "the",
+   "a",
+   "an"
+  ],
+  "key": 1,
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "meeting",
+    "concert"
+   ],
+   "adj": [
+    "friendly",
+    "funny",
+    "kind",
+    "quiet"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "There is ______ new café near {place}, {name}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "place": [
+    "our school",
+    "my flat",
+    "our college",
+    "my office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "I bought a hat and a scarf for {who}. ______ scarf is {colour}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "who": [
+    "Grandma",
+    "my sister",
+    "Mum",
+    "my aunt"
+   ],
+   "colour": [
+    "red",
+    "blue",
+    "green",
+    "white"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "My brother has ______ new job in {city}, {name}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Navoi",
+    "Andijan",
+    "Karshi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "A man and his daughter were waiting for {what}. ______ daughter was {doing}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "what": [
+    "a bus",
+    "a taxi",
+    "their friend",
+    "a train"
+   ],
+   "doing": [
+    "reading",
+    "smiling",
+    "eating an apple",
+    "very tired"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "In art class {name} drew ______ picture of {thing}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "our school",
+    "two horses",
+    "some flowers",
+    "mountains"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "We have a cat and a parrot at home. ______ parrot can say \"{word}\", {name}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "word": [
+    "hello",
+    "salom",
+    "privet",
+    "thank you"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "There was ______ big box outside our door {when}, {name}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "when": [
+    "this morning",
+    "last night",
+    "on Monday",
+    "after lunch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "Our class has a new board and a new computer. ______ computer is very {adj}, {name}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "adj": [
+    "fast",
+    "quiet",
+    "useful",
+    "good"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "{name} has ______ sister and two {who}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "brothers",
+    "cats",
+    "dogs",
+    "parrots"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "I ordered a tea and a sandwich. ______ sandwich was {adj}, {name}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "adj": [
+    "cold",
+    "tasty",
+    "huge",
+    "fresh"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "There's ______ small hole in my {thing}, {name}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "thing": [
+    "shoe",
+    "jacket",
+    "bag",
+    "sock"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "A girl and a boy sang at our {event}. ______ boy was only {age}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "event": [
+    "concert",
+    "party",
+    "wedding",
+    "festival"
+   ],
+   "age": [
+    "ten",
+    "eight",
+    "twelve",
+    "nine"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "I had ______ strange dream last night, {name}. It was about {topic}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "topic": [
+    "my school",
+    "flying",
+    "my grandmother",
+    "our old house"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "There's a pen and a notebook on my {place}. ______ notebook is {owner}'s.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "place": [
+    "desk",
+    "table",
+    "shelf",
+    "chair"
+   ],
+   "owner": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "Can I ask you ______ question about the {thing}, {name}?",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "thing": [
+    "homework",
+    "test",
+    "trip",
+    "plan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "I saw a horse and a cow near our {place}. ______ cow was {doing}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "place": [
+    "village",
+    "house",
+    "farm",
+    "school"
+   ],
+   "doing": [
+    "eating grass",
+    "drinking water",
+    "lying down",
+    "sleeping"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "There's ______ man at the door, {name}. He wants to see {who}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "your dad",
+    "your mum",
+    "you",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "We stayed in a small hotel in {city}. It had a garden. ______ garden was full of {plant}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "city": [
+    "Khiva",
+    "Bukhara",
+    "Samarkand",
+    "Shakhrisabz"
+   ],
+   "plant": [
+    "roses",
+    "flowers",
+    "fruit trees",
+    "tulips"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "I've got ______ headache, {name}. Can you turn off the {thing}?",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "TV",
+    "music",
+    "radio",
+    "light"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write a or the.",
+  "source": "My friend sent me a photo and a video. ______ video was {adj}, {name}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "adj": [
+    "funny",
+    "very short",
+    "long",
+    "great"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "We met a boy and a girl at {event}. A girl was {who}'s sister.",
+  "hint": "We met a boy and a girl at {event}. ______ girl was {who}'s sister.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "event": [
+    "my cousin's wedding",
+    "our school",
+    "our picnic",
+    "a concert"
+   ],
+   "who": [
+    "my friend",
+    "Olga",
+    "Timur",
+    "our teacher"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "I bought a shirt and a belt {when}. Belt was {adj}.",
+  "hint": "I bought a shirt and a belt {when}. ______ belt was {adj}.",
+  "key": "The",
+  "why": "We already said a …, so we both know which one. Use the; English can't leave it out.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last week",
+    "on Sunday",
+    "for Navruz"
+   ],
+   "adj": [
+    "cheap",
+    "too long",
+    "black",
+    "nice"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "My aunt has a dog and a cat. A cat is {colour}, {name}.",
+  "hint": "My aunt has a dog and a cat. ______ cat is {colour}, {name}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "colour": [
+    "white",
+    "black",
+    "grey",
+    "brown"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "We watched a match and a film {when}. Film was {adj}.",
+  "hint": "We watched a match and a film {when}. ______ film was {adj}.",
+  "key": "The",
+  "why": "We already said a …, so we both know which one. Use the; English can't leave it out.",
+  "slots": {
+   "when": [
+    "on Saturday",
+    "last night",
+    "yesterday",
+    "at home"
+   ],
+   "adj": [
+    "boring",
+    "great",
+    "very long",
+    "funny"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "There's a sink and a cooker in our kitchen. A cooker is {adj}, {name}.",
+  "hint": "There's a sink and a cooker in our kitchen. ______ cooker is {adj}, {name}.",
+  "key": "The",
+  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "slots": {
+   "adj": [
+    "new",
+    "old",
+    "very small",
+    "broken"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "There is the new shop on our {street}, {name}.",
+  "hint": "There is ______ new shop on our {street}, {name}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "street": [
+    "street",
+    "corner",
+    "road",
+    "square"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "My uncle has the farm in {region}. The farm has {animal}.",
+  "hint": "My uncle has ______ farm in {region}. The farm has {animal}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "region": [
+    "the mountains",
+    "the village",
+    "Jizzakh",
+    "Surkhandarya"
+   ],
+   "animal": [
+    "cows",
+    "sheep",
+    "horses",
+    "goats"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "Last night I saw film about {topic}. The film was great, {name}.",
+  "hint": "Last night I saw ______ film about {topic}. The film was great, {name}.",
+  "key": "a",
+  "why": "First mention of one film: the listener doesn't know it yet. Use a; it can't be left out.",
+  "slots": {
+   "topic": [
+    "space",
+    "two brothers",
+    "the sea",
+    "old cars"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "There's the strange noise in our {room}, {name}.",
+  "hint": "There's ______ strange noise in our {room}, {name}.",
+  "key": "a",
+  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "yard",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake with a or the.",
+  "source": "I have got new phone. The phone is {colour}, {name}.",
+  "hint": "I have got ______ new phone. The phone is {colour}, {name}.",
+  "key": "a",
+  "why": "First mention of one phone: the listener doesn't know it yet. Use a; it can't be left out.",
+  "slots": {
+   "colour": [
+    "black",
+    "white",
+    "blue",
+    "silver"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a or the in each gap.",
+  "source": "We found ___ small kitten in the {place}. ___ kitten was {state}.",
+  "hint": "We found ______ small kitten in the {place}. ______ kitten was {state}.",
+  "key": [
+   "a",
+   "The"
+  ],
+  "why": "First mention → a; the same kitten again → the.",
+  "slots": {
+   "place": [
+    "yard",
+    "street",
+    "garden",
+    "park"
+   ],
+   "state": [
+    "hungry",
+    "cold",
+    "wet",
+    "scared"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a or the in each gap.",
+  "source": "There's ___ bakery and a bank on my street. ___ bakery opens at {time}, {name}.",
+  "hint": "There's ______ bakery and a bank on my street. ______ bakery opens at {time}, {name}.",
+  "key": [
+   "a",
+   "The"
+  ],
+  "why": "First mention → a; the same bakery again → the.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a or the in each gap.",
+  "source": "We have ___ garden behind our house. ___ garden is full of {thing} in {season}.",
+  "hint": "We have ______ garden behind our house. ______ garden is full of {thing} in {season}.",
+  "key": [
+   "a",
+   "The"
+  ],
+  "why": "First mention → a; the same garden again → the.",
+  "slots": {
+   "thing": [
+    "flowers",
+    "roses",
+    "butterflies",
+    "birds"
+   ],
+   "season": [
+    "spring",
+    "summer",
+    "May",
+    "June"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a or the in each gap.",
+  "source": "There was ___ big storm {when}, {name}. ___ storm broke our window.",
+  "hint": "There was ______ big storm {when}, {name}. ______ storm broke our window.",
+  "key": [
+   "a",
+   "The"
+  ],
+  "why": "First mention → a; the same storm again → the.",
+  "slots": {
+   "when": [
+    "last night",
+    "on Sunday",
+    "yesterday",
+    "this morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write a or the in each gap.",
+  "source": "There was ___ woman with a map at the {place}. ___ woman needed help with her {thing}.",
+  "hint": "There was ______ woman with a map at the {place}. ______ woman needed help with her {thing}.",
+  "key": [
+   "a",
+   "The"
+  ],
+  "why": "First mention → a; the same woman again → the.",
+  "slots": {
+   "place": [
+    "station",
+    "bus stop",
+    "bazaar",
+    "hotel"
+   ],
+   "thing": [
+    "bags",
+    "ticket",
+    "phone",
+    "suitcase"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about something you bought. Use a the first time and the the second time.",
+  "requiredElement": "I bought a … The … was …",
+  "constraints": [
+   "exactly two sentences",
+   "a on first mention",
+   "the on second mention"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a person you saw on the way to school or work.",
+  "requiredElement": "I saw a … The … was …",
+  "constraints": [
+   "exactly two sentences",
+   "a then the",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about an animal you know.",
+  "requiredElement": "My … has a … The … is …",
+  "constraints": [
+   "exactly two sentences",
+   "a then the",
+   "an animal word"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a film or a book you liked.",
+  "requiredElement": "I watched / read a … The … was about …",
+  "constraints": [
+   "exactly two sentences",
+   "a then the",
+   "about"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a place near your home.",
+  "requiredElement": "There is a … near my home. The … is …",
+  "constraints": [
+   "exactly two sentences",
+   "There is a …",
+   "the on second mention"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a present you got.",
+  "requiredElement": "I got a … The … is …",
+  "constraints": [
+   "exactly two sentences",
+   "a then the",
+   "an adjective"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about two things on your desk, then say something about one of them.",
+  "requiredElement": "There's a … and a … The … is …",
+  "constraints": [
+   "exactly two sentences",
+   "two things with a",
+   "one of them with the"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a meal you had in a café.",
+  "requiredElement": "I ordered a … The … was …",
+  "constraints": [
+   "exactly two sentences",
+   "a then the",
+   "a food word"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a short story about something strange you saw in your street.",
+  "targetGrammar": "a … (first time) / the … (again)",
+  "lookFor": [
+   "a on first mention",
+   "the for the same thing again",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your room: name some things in it, then say more about two of them.",
+  "targetGrammar": "There is a … The … is …",
+  "lookFor": [
+   "a for new things",
+   "the for things already named",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a visit to the bazaar: what did you buy, and what was it like?",
+  "targetGrammar": "I bought a … The … was …",
+  "lookFor": [
+   "a then the",
+   "past verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a new person in your class, group or job.",
+  "targetGrammar": "We have a new … The … is from …",
+  "lookFor": [
+   "a then the",
+   "a place word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a trip: where did you stay, and what was it like?",
+  "targetGrammar": "We stayed in a … The … had …",
+  "lookFor": [
+   "a then the",
+   "past verbs",
+   "three or four sentences"
+  ]
+ }
+]

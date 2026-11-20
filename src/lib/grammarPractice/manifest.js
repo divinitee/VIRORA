@@ -436,6 +436,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "nouns-articles.articles.the-second-mention": {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "the-second-mention",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.articles.the-shared-context": {
   "domain": "nouns-articles",
   "branch": "articles",
@@ -460,6 +474,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 212,
    "build": 212,
    "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.articles.zero-article-general": {
+  "domain": "nouns-articles",
+  "branch": "articles",
+  "topic": "zero-article-general",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 272,
+   "build": 272,
+   "transform": 204,
    "create": 8,
    "express": 5
   }
@@ -502,6 +530,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 308,
    "build": 320,
    "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "nouns-articles.plurals-agreement.each-every-singular": {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 284,
+   "build": 308,
+   "transform": 240,
    "create": 8,
    "express": 5
   }

@@ -1,0 +1,113 @@
+{
+  "description": "Live Teacher (AI English voice teacher) memory. One row per student: estimated CEFR level, the mistake tracker, pronunciation and vocabulary notes, exam results and progress snapshots. Educational data only: NO audio and NO transcripts are stored. Written only by liveTeacherApi (service role); students can read their own row. Logic: base44/shared/liveTeacherCore.js.",
+  "name": "LiveTeacherProfile",
+  "properties": {
+    "age_group": {
+      "description": "Last age group the student chose. Drives the teacher's tone (no sarcasm for kids).",
+      "enum": [
+        "kid",
+        "teen",
+        "adult"
+      ],
+      "type": "string"
+    },
+    "cefr_level": {
+      "description": "Smoothed estimate: the most common of the last 5 teacher estimates. Empty until the first lesson.",
+      "type": "string"
+    },
+    "last_focus": {
+      "description": "What the teacher wants to practise next time.",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "last_lesson_at": {
+      "type": "string"
+    },
+    "last_lesson_summary": {
+      "type": "string"
+    },
+    "lesson_count": {
+      "type": "number"
+    },
+    "level_history": {
+      "description": "Last 10 estimates: { cefr, confidence, at }.",
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "mistakes": {
+      "description": "Map key -> record. key = '<rule with dots as underscores>__<variant>' (no dots in field names). Record: rule, variant, wrong_example, correct_example, explanation_uz, total_count, status (active|mastered), correct_streak, first_seen, last_seen, last_lesson_id, last_level, relapses, mastered_at. Capped at 200.",
+      "type": "object"
+    },
+    "mode": {
+      "description": "Last mode the student used.",
+      "enum": [
+        "normal",
+        "strict",
+        "exam"
+      ],
+      "type": "string"
+    },
+    "progress": {
+      "description": "One snapshot per finished lesson: { at, cefr, active, mastered }. Last 60.",
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "pronunciation": {
+      "description": "Map word -> { word, issue, tip_uz, count, first_seen, last_seen }. Capped at 100.",
+      "type": "object"
+    },
+    "test_results": {
+      "description": "Exam-mode scores: { at, cefr, grammar, vocabulary, fluency, pronunciation }. Last 30.",
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "user_email": {
+      "type": "string"
+    },
+    "vocabulary": {
+      "description": "Map word -> { word, meaning_uz, seen, struggles, good_uses, learned, last_seen }. Capped at 300.",
+      "type": "object"
+    }
+  },
+  "required": [
+    "user_email"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {
+      "$or": [
+        {
+          "data.user_email": "{{user.email}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  },
+  "type": "object"
+}

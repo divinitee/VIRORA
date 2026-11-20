@@ -1,0 +1,1813 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every student in our {group} ______ a laptop, {name}.",
+  "options": [
+   "has",
+   "have",
+   "having",
+   "are have"
+  ],
+  "key": 0,
+  "why": "Every + a singular noun takes a singular verb: has.",
+  "slots": {
+   "group": [
+    "group",
+    "class",
+    "team",
+    "course"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each ______ has its own number in this {place}.",
+  "options": [
+   "rooms",
+   "of rooms",
+   "the rooms",
+   "room"
+  ],
+  "key": 3,
+  "why": "Each is followed by a singular noun (room), never a plural.",
+  "slots": {
+   "place": [
+    "hotel",
+    "hospital",
+    "hostel",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every child in my {place} ______ to school by bus, {name}.",
+  "options": [
+   "going",
+   "are go",
+   "goes",
+   "go"
+  ],
+  "key": 2,
+  "why": "Every + a singular noun takes a singular verb: goes.",
+  "slots": {
+   "place": [
+    "village",
+    "street",
+    "building",
+    "family"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every ______ in our class has a {thing}, {name}.",
+  "options": [
+   "the students",
+   "student",
+   "students",
+   "of students"
+  ],
+  "key": 1,
+  "why": "Every is followed by a singular noun (student), never a plural.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "tablet",
+    "dictionary"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each player on our {sport} team ______ {n} hours a week.",
+  "options": [
+   "trains",
+   "train",
+   "training",
+   "are train"
+  ],
+  "key": 0,
+  "why": "Each + a singular noun takes a singular verb: trains.",
+  "slots": {
+   "sport": [
+    "football",
+    "basketball",
+    "volleyball",
+    "handball"
+   ],
+   "n": [
+    "ten",
+    "eight",
+    "six",
+    "twelve"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each ______ gets a small present at the {event}, {name}.",
+  "options": [
+   "children",
+   "of children",
+   "the children",
+   "child"
+  ],
+  "key": 3,
+  "why": "Each is followed by a singular noun (child), never a plural.",
+  "slots": {
+   "event": [
+    "party",
+    "concert",
+    "festival",
+    "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every bus to {city} ______ from Gate {n}.",
+  "options": [
+   "leaving",
+   "are leave",
+   "leaves",
+   "leave"
+  ],
+  "key": 2,
+  "why": "Every + a singular noun takes a singular verb: leaves.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Nukus"
+   ],
+   "n": [
+    "2",
+    "3",
+    "5",
+    "7"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every ______ on this street is {colour}, {name}.",
+  "options": [
+   "the houses",
+   "house",
+   "houses",
+   "of houses"
+  ],
+  "key": 1,
+  "why": "Every is followed by a singular noun (house), never a plural.",
+  "slots": {
+   "colour": [
+    "white",
+    "blue",
+    "green",
+    "yellow"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each of the boys in my {place} ______ his own bike.",
+  "options": [
+   "has",
+   "have",
+   "having",
+   "are have"
+  ],
+  "key": 0,
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: has.",
+  "slots": {
+   "place": [
+    "street",
+    "class",
+    "family",
+    "building"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every ______ in my family can {skill}, {name}.",
+  "options": [
+   "people",
+   "of people",
+   "the people",
+   "person"
+  ],
+  "key": 3,
+  "why": "Every is followed by a singular noun (person), never a plural.",
+  "slots": {
+   "skill": [
+    "swim",
+    "cook",
+    "drive",
+    "dance"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each of my friends ______ a different {thing}, {name}.",
+  "options": [
+   "liking",
+   "are like",
+   "likes",
+   "like"
+  ],
+  "key": 2,
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: likes.",
+  "slots": {
+   "thing": [
+    "sport",
+    "singer",
+    "film",
+    "game"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each ______ in the {place} needs water every day, {name}.",
+  "options": [
+   "the plants",
+   "plant",
+   "plants",
+   "of plants"
+  ],
+  "key": 1,
+  "why": "Each is followed by a singular noun (plant), never a plural.",
+  "slots": {
+   "place": [
+    "garden",
+    "classroom",
+    "kitchen",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every shop in the {place} ______ at nine o'clock, {name}.",
+  "options": [
+   "opens",
+   "open",
+   "opening",
+   "are open"
+  ],
+  "key": 0,
+  "why": "Every + a singular noun takes a singular verb: opens.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "mall",
+    "square",
+    "old town"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every ______ at the {event} got a {thing}.",
+  "options": [
+   "guests",
+   "of guests",
+   "the guests",
+   "guest"
+  ],
+  "key": 3,
+  "why": "Every is followed by a singular noun (guest), never a plural.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "dinner"
+   ],
+   "thing": [
+    "piece of cake",
+    "small present",
+    "flower",
+    "cup of tea"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every teacher at our {school} ______ English, {name}.",
+  "options": [
+   "speaking",
+   "are speak",
+   "speaks",
+   "speak"
+  ],
+  "key": 2,
+  "why": "Every + a singular noun takes a singular verb: speaks.",
+  "slots": {
+   "school": [
+    "school",
+    "college",
+    "lyceum",
+    "language school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every ______ of the week is busy for {name}.",
+  "options": [
+   "the days",
+   "day",
+   "days",
+   "of days"
+  ],
+  "key": 1,
+  "why": "Every is followed by a singular noun (day), never a plural.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each room in the {place} ______ clean and quiet, {name}.",
+  "options": [
+   "is",
+   "are",
+   "be",
+   "being"
+  ],
+  "key": 0,
+  "why": "Each + a singular noun takes a singular verb: is.",
+  "slots": {
+   "place": [
+    "hotel",
+    "hostel",
+    "hospital",
+    "guest house"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each ______ in the {test} has four answers, {name}.",
+  "options": [
+   "questions",
+   "of questions",
+   "the questions",
+   "question"
+  ],
+  "key": 3,
+  "why": "Each is followed by a singular noun (question), never a plural.",
+  "slots": {
+   "test": [
+    "exam",
+    "quiz",
+    "test",
+    "workbook"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Each of these {things} ______ {price} soum.",
+  "options": [
+   "costing",
+   "are cost",
+   "costs",
+   "cost"
+  ],
+  "key": 2,
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: costs.",
+  "slots": {
+   "things": [
+    "bags",
+    "shirts",
+    "books",
+    "cups"
+   ],
+   "price": [
+    "fifty thousand",
+    "twenty thousand",
+    "ten thousand",
+    "thirty thousand"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Every ______ in this city has a {thing}, {name}.",
+  "options": [
+   "the parks",
+   "park",
+   "parks",
+   "of parks"
+  ],
+  "key": 1,
+  "why": "Every is followed by a singular noun (park), never a plural.",
+  "slots": {
+   "thing": [
+    "café",
+    "fountain",
+    "playground",
+    "small lake"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every student in our {group} ______ (wear) a uniform, {name}.",
+  "key": "wears",
+  "why": "Every + a singular noun takes a singular verb: wears.",
+  "slots": {
+   "group": [
+    "class",
+    "school",
+    "lyceum",
+    "college"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each of my brothers ______ (play) the {instr}, {name}.",
+  "key": "plays",
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: plays.",
+  "slots": {
+   "instr": [
+    "guitar",
+    "piano",
+    "dutar",
+    "violin"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every flat in this {building} ______ (have) a balcony, {name}.",
+  "key": "has",
+  "why": "Every + a singular noun takes a singular verb: has.",
+  "slots": {
+   "building": [
+    "building",
+    "block",
+    "tower",
+    "house"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each child ______ (get) a free book at our {place}, {name}.",
+  "key": "gets",
+  "why": "Each + a singular noun takes a singular verb: gets.",
+  "slots": {
+   "place": [
+    "school",
+    "library",
+    "club",
+    "kindergarten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every bus in our town ______ (stop) at the {place}, {name}.",
+  "key": "stops",
+  "why": "Every + a singular noun takes a singular verb: stops.",
+  "slots": {
+   "place": [
+    "market",
+    "station",
+    "bazaar",
+    "hospital"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each of the girls in my {group} ______ (want) to be a {job}.",
+  "key": "wants",
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: wants.",
+  "slots": {
+   "group": [
+    "class",
+    "family",
+    "team",
+    "street"
+   ],
+   "job": [
+    "doctor",
+    "teacher",
+    "singer",
+    "pilot"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every player ______ (need) a ball and a {thing}, {name}.",
+  "key": "needs",
+  "why": "Every + a singular noun takes a singular verb: needs.",
+  "slots": {
+   "thing": [
+    "towel",
+    "water bottle",
+    "pair of shoes",
+    "T-shirt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each room ______ (be) ready for the {who}, {name}.",
+  "key": "is",
+  "why": "Each + a singular noun takes a singular verb: is.",
+  "slots": {
+   "who": [
+    "guests",
+    "students",
+    "visitors",
+    "new family"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every family in our {place} ______ (grow) {crop} in the garden.",
+  "key": "grows",
+  "why": "Every + a singular noun takes a singular verb: grows.",
+  "slots": {
+   "place": [
+    "street",
+    "village",
+    "mahalla",
+    "area"
+   ],
+   "crop": [
+    "tomatoes",
+    "apples",
+    "grapes",
+    "melons"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each of us ______ (bring) some {food} to the picnic, {name}.",
+  "key": "brings",
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: brings.",
+  "slots": {
+   "food": [
+    "bread",
+    "fruit",
+    "salad",
+    "juice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every computer in the {room} ______ (work) well now, {name}.",
+  "key": "works",
+  "why": "Every + a singular noun takes a singular verb: works.",
+  "slots": {
+   "room": [
+    "lab",
+    "library",
+    "classroom",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each teacher ______ (give) us homework every {day}, {name}.",
+  "key": "gives",
+  "why": "Each + a singular noun takes a singular verb: gives.",
+  "slots": {
+   "day": [
+    "day",
+    "week",
+    "lesson",
+    "Monday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every shop on this street ______ (sell) {goods}, {name}.",
+  "key": "sells",
+  "why": "Every + a singular noun takes a singular verb: sells.",
+  "slots": {
+   "goods": [
+    "fruit",
+    "clothes",
+    "phones",
+    "shoes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each of the {things} ______ (cost) {price} soum.",
+  "key": "costs",
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: costs.",
+  "slots": {
+   "things": [
+    "bags",
+    "shirts",
+    "books",
+    "cups"
+   ],
+   "price": [
+    "fifty thousand",
+    "twenty thousand",
+    "ten thousand",
+    "thirty thousand"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every child in this {place} ______ (speak) two languages, {name}.",
+  "key": "speaks",
+  "why": "Every + a singular noun takes a singular verb: speaks.",
+  "slots": {
+   "place": [
+    "class",
+    "village",
+    "family",
+    "group"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each of my friends ______ (live) near the {place}, {name}.",
+  "key": "lives",
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: lives.",
+  "slots": {
+   "place": [
+    "park",
+    "bazaar",
+    "station",
+    "river"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every lesson ______ (start) at {time}, {name}.",
+  "key": "starts",
+  "why": "Every + a singular noun takes a singular verb: starts.",
+  "slots": {
+   "time": [
+    "eight",
+    "nine",
+    "half past eight",
+    "ten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each phone in this shop ______ (come) with a {thing}.",
+  "key": "comes",
+  "why": "Each + a singular noun takes a singular verb: comes.",
+  "slots": {
+   "thing": [
+    "case",
+    "charger",
+    "free bag",
+    "small gift"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Every person in the {group} ______ (pay) for the bus, {name}.",
+  "key": "pays",
+  "why": "Every + a singular noun takes a singular verb: pays.",
+  "slots": {
+   "group": [
+    "club",
+    "team",
+    "group",
+    "class"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in the present simple.",
+  "source": "Each of the boys ______ (do) his homework {when}, {name}.",
+  "key": "does",
+  "why": "Each of + a plural noun still means one by one, so the verb is singular: does.",
+  "slots": {
+   "when": [
+    "after school",
+    "in the evening",
+    "before dinner",
+    "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with every. Keep the meaning.",
+  "source": "All the students in our {group} have a phone, {name}.",
+  "hint": "Every ______ in our {group} ______ a phone, {name}.",
+  "key": [
+   "student",
+   "has"
+  ],
+  "why": "Every + singular noun + singular verb: every student has.",
+  "slots": {
+   "group": [
+    "group",
+    "class",
+    "team",
+    "course"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with every. Keep the meaning.",
+  "source": "All the rooms in this {place} are clean, {name}.",
+  "hint": "Every ______ in this {place} ______ clean, {name}.",
+  "key": [
+   "room",
+   "is"
+  ],
+  "why": "Every + singular noun + singular verb: every room is.",
+  "slots": {
+   "place": [
+    "hotel",
+    "school",
+    "hostel",
+    "hospital"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with every. Keep the meaning.",
+  "source": "All the children in my {place} go to school by bus, {name}.",
+  "hint": "Every ______ in my {place} ______ to school by bus, {name}.",
+  "key": [
+   "child",
+   "goes"
+  ],
+  "why": "Every + singular noun + singular verb: every child goes.",
+  "slots": {
+   "place": [
+    "village",
+    "street",
+    "building",
+    "family"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with every. Keep the meaning.",
+  "source": "All the shops on our street open at {time}, {name}.",
+  "hint": "Every ______ on our street ______ at {time}, {name}.",
+  "key": [
+   "shop",
+   "opens"
+  ],
+  "why": "Every + singular noun + singular verb: every shop opens.",
+  "slots": {
+   "time": [
+    "eight",
+    "nine",
+    "ten",
+    "half past nine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with every. Keep the meaning.",
+  "source": "All the players wear a {colour} shirt, {name}.",
+  "hint": "Every ______ ______ a {colour} shirt, {name}.",
+  "key": [
+   "player",
+   "wears"
+  ],
+  "why": "Every + singular noun + singular verb: every player wears.",
+  "slots": {
+   "colour": [
+    "red",
+    "blue",
+    "white",
+    "green"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Every students in my {group} likes {thing}.",
+  "hint": "Every ______ in my {group} likes {thing}.",
+  "key": "student",
+  "why": "Every is followed by a singular noun: every student.",
+  "slots": {
+   "group": [
+    "class",
+    "family",
+    "team",
+    "group"
+   ],
+   "thing": [
+    "football",
+    "music",
+    "chess",
+    "games"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Each of the boys have a {thing}, {name}.",
+  "hint": "Each of the boys ______ a {thing}, {name}.",
+  "key": "has",
+  "why": "Each of + a plural noun still takes a singular verb: has.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "ball",
+    "dog"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Every child in our {place} are very {adj}.",
+  "hint": "Every child in our {place} ______ very {adj}.",
+  "key": "is",
+  "why": "Every child is singular, so use is.",
+  "slots": {
+   "place": [
+    "class",
+    "street",
+    "family",
+    "village"
+   ],
+   "adj": [
+    "friendly",
+    "clever",
+    "funny",
+    "kind"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Each of my friends live in {city}, {name}.",
+  "hint": "Each of my friends ______ in {city}, {name}.",
+  "key": "lives",
+  "why": "Each of + a plural noun still takes a singular verb: lives.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Andijan",
+    "Termez"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Every houses on our street has a {thing}, {name}.",
+  "hint": "Every ______ on our street has a {thing}, {name}.",
+  "key": "house",
+  "why": "Every is followed by a singular noun: every house.",
+  "slots": {
+   "thing": [
+    "garden",
+    "gate",
+    "tree",
+    "balcony"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with each of the … . Keep the meaning.",
+  "source": "Every boy in my {group} has a {thing}.",
+  "hint": "Each of the ______ in my {group} ______ a {thing}.",
+  "key": [
+   "boys",
+   "has"
+  ],
+  "why": "Each of the + plural noun, but the verb stays singular: each of the boys has.",
+  "slots": {
+   "group": [
+    "class",
+    "family",
+    "team",
+    "street"
+   ],
+   "thing": [
+    "bike",
+    "phone",
+    "ball",
+    "tablet"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with each of the … . Keep the meaning.",
+  "source": "Every girl in the {team} plays {sport}.",
+  "hint": "Each of the ______ in the {team} ______ {sport}.",
+  "key": [
+   "girls",
+   "plays"
+  ],
+  "why": "Each of the + plural noun, but the verb stays singular: each of the girls plays.",
+  "slots": {
+   "team": [
+    "club",
+    "class",
+    "group",
+    "family"
+   ],
+   "sport": [
+    "volleyball",
+    "chess",
+    "tennis",
+    "basketball"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with each of the … . Keep the meaning.",
+  "source": "Every room has a {thing}, {name}.",
+  "hint": "Each of ______ a {thing}, {name}.",
+  "key": "the rooms has",
+  "why": "Each of the + plural noun, but the verb stays singular: each of the rooms has.",
+  "slots": {
+   "thing": [
+    "window",
+    "desk",
+    "bed",
+    "lamp"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with each of the … . Keep the meaning.",
+  "source": "Every child needs a {thing} for the trip, {name}.",
+  "hint": "Each of the ______ ______ a {thing} for the trip, {name}.",
+  "key": [
+   "children",
+   "needs"
+  ],
+  "why": "Each of the + plural noun, but the verb stays singular: each of the children needs.",
+  "slots": {
+   "thing": [
+    "hat",
+    "bottle of water",
+    "jacket",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with each of the … . Keep the meaning.",
+  "source": "Every teacher at our {school} knows my {who}.",
+  "hint": "Each of the ______ at our {school} ______ my {who}.",
+  "key": [
+   "teachers",
+   "knows"
+  ],
+  "why": "Each of the + plural noun, but the verb stays singular: each of the teachers knows.",
+  "slots": {
+   "school": [
+    "school",
+    "college",
+    "lyceum",
+    "club"
+   ],
+   "who": [
+    "name",
+    "brother",
+    "mother",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about every student in your class or group.",
+  "requiredElement": "Every student in my … has / likes …",
+  "constraints": [
+   "exactly one sentence",
+   "every + singular noun",
+   "a singular verb"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your family with each of.",
+  "requiredElement": "Each of my … has / lives …",
+  "constraints": [
+   "exactly one sentence",
+   "each of + plural noun",
+   "a singular verb"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the rooms in your home.",
+  "requiredElement": "Each room in my home has …",
+  "constraints": [
+   "exactly one sentence",
+   "each + singular noun",
+   "has"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a rule at your school or work.",
+  "requiredElement": "Every student / worker has to …",
+  "constraints": [
+   "exactly one sentence",
+   "every + singular noun",
+   "has to"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your friends and what they like.",
+  "requiredElement": "Each of my friends likes …",
+  "constraints": [
+   "exactly one sentence",
+   "each of + plural noun",
+   "likes"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the shops or buses in your town.",
+  "requiredElement": "Every bus / shop … opens / stops …",
+  "constraints": [
+   "exactly one sentence",
+   "every + singular noun",
+   "a present verb with -s"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a holiday when every person in your family does something.",
+  "requiredElement": "Every person in my family …",
+  "constraints": [
+   "exactly one sentence",
+   "every person",
+   "a singular verb"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with every and one with each of.",
+  "requiredElement": "Every … has … / Each of the … is …",
+  "constraints": [
+   "exactly two sentences",
+   "every + singular noun",
+   "each of + plural noun with a singular verb"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your class or group: what does every student do or have?",
+  "targetGrammar": "Every student … / Each of us …",
+  "lookFor": [
+   "every or each + singular verb",
+   "two different verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your family's morning: what does each person do?",
+  "targetGrammar": "Each person in my family … / Every morning …",
+  "lookFor": [
+   "each + singular noun",
+   "singular verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the rules of a sport or game you play.",
+  "targetGrammar": "Each player has … / Every team needs …",
+  "lookFor": [
+   "each or every",
+   "has / needs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your street or building.",
+  "targetGrammar": "Every house / flat has … / Each of the neighbours …",
+  "lookFor": [
+   "every + singular noun",
+   "each of + plural noun",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "each-every-singular",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a celebration: what does every guest get or do?",
+  "targetGrammar": "Every guest gets … / Each child …",
+  "lookFor": [
+   "every or each",
+   "singular verbs",
+   "three or four sentences"
+  ]
+ }
+]
