@@ -100,16 +100,43 @@ export async function resolveVoice(env, persona, fetchImpl = fetch) {
   const override = env[`LIVE_TEACHER_VOICE_${P.id.toUpperCase()}`];
   if (override) return override;
   if (voiceCache.has(P.id)) return voiceCache.get(P.id);
-  const res = await fetchImpl('https://api.elevenlabs.io/v2/voices?page_size=100', { headers: { 'xi-api-key': env.ELEVENLABS_API_KEY } });
-  const data = await res.json().catch(() => null);
-  if (!res.ok) throw new ServiceError('voices_unavailable', `ElevenLabs voices: ${res.status} ${redact(data?.detail?.message || data?.detail)}`);
-  const list = Array.isArray(data?.voices) ? data.voices : [];
-  const norm = (s) => String(s || '').trim().toLowerCase();
+  // Search by the persona's first word first (fast, avoids paging), then the plain list.
+  const first = P.voice.split(' ')[0];
+  const list = [];
+  for (const url of [
+    `https://api.elevenlabs.io/v2/voices?page_size=100&search=${encodeURIComponent(first)}`,
+    'https://api.elevenlabs.io/v2/voices?page_size=100&voice_type=personal',
+    'https://api.elevenlabs.io/v2/voices?page_size=100',
+  ]) {
+    const res = await fetchImpl(url, { headers: { 'xi-api-key': env.ELEVENLABS_API_KEY } });
+    const data = await res.json().catch(() => null);
+    if (!res.ok) throw new ServiceError('voices_unavailable', `ElevenLabs voices: ${res.status} ${redact(data?.detail?.message || data?.detail)}`);
+    for (const v of Array.isArray(data?.voices) ? data.voices : []) if (!list.some((x) => x.voice_id === v.voice_id)) list.push(v);
+    const hit = pickVoice(list, P);
+    if (hit) { voiceCache.set(P.id, hit.voice_id); return hit.voice_id; }
+  }
+  const seen = list.map((v) => v.name).filter(Boolean).slice(0, 12).join(', ') || 'none';
+  throw new ServiceError('voice_not_found', `No ElevenLabs voice found for "${P.voice}". Voices this key can see: ${seen}. Rename your voice to "${P.voice}" (or save it to My Voices).`, 503);
+}
+
+// Names are matched loosely: "Vira", "vira_base", "Vira - teacher" all count as Vira,
+// but anything with "nightingale" belongs to Vira Nightingale only.
+export function pickVoice(list, P) {
+  const norm = (s) => String(s || '').toLowerCase().replace(/[^a-z]+/g, ' ').trim();
   const want = norm(P.voice);
-  const hit = list.find((v) => norm(v.name) === want)
-    // "Vira" must not grab "Vira Nightingale": prefix match only when no exact name exists.
-    || list.find((v) => norm(v.name).startsWith(`${want} `) && !PERSONAS[`${P.id}_nightingale`]);
-  if (!hit) throw new ServiceError('voice_not_found', `No ElevenLabs voice named "${P.voice}". Create it in ElevenLabs Voice Design with exactly that name.`, 503);
+  const words = want.split(' ');
+  const exact = list.find((v) => norm(v.name) === want);
+  if (exact) return exact;
+  return list.find((v) => {
+    const n = norm(v.name).split(' ');
+    if (!words.every((w) => n.includes(w))) return false;
+    if (P.id === 'vira' && n.includes('nightingale')) return false;
+    return true;
+  }) || null;
+}
+
+async function unusedResolveVoiceTail(hit, P) {
+  if (!hit) return null;
   voiceCache.set(P.id, hit.voice_id);
   return hit.voice_id;
 }
