@@ -118,3 +118,20 @@ tracker -> ElevenLabs voice of the chosen persona. No tool calls to forget.
 - Cost estimate per lesson: `LiveTeacherLesson.scores.usage` (cost_usd, stt/brain/tts
   split, tokens, turns). No schema change was needed.
 - Lab for comparing ears/mouth providers: `/live-teacher-lab` (admin only).
+
+### v2 fast path (2026-11-20 evening)
+- The phone streams the student's voice to ElevenLabs **Scribe Live** while they talk
+  (single-use `realtime_scribe` pass from `v2_start` / `v2_tokens`), commits when the
+  local VAD hears the end, and sends only TEXT to `v2_turn_text`.
+- The teacher's reply is streamed straight to the phone over the ElevenLabs
+  **Text to Dialogue WebSocket** (eleven_v4_turbo, raw PCM 22.05 kHz, single-use
+  `tts_websocket` pass returned with every reply) and played as it arrives.
+- Backups (automatic): no live transcript -> upload WAV to `v2_turn`; voice stream
+  fails twice -> `v2_speak` returns an MP3. The admin sees why in a yellow note.
+- Thinking sounds: 5 moods x 5 lines per persona (`FILLERS` in liveTeacherBrain.js),
+  mood picked on the phone from the transcript (`src/lib/liveTeacher/fillerMood.js`),
+  a "hold" line after ~2.6 s, cached in localStorage (`lt-fillers:v3:<persona>`).
+- Prompt: LESSON SHAPE (warm-up, focus, practice, wrap-up), MOVES (react+share,
+  mini task, game, role-play, correct+continue, question at most every second
+  reply), topic budget of 2-3 follow-ups.
+- Hot path skips the ban lookup (checked at v2_start) and runs DB reads/writes in parallel.
