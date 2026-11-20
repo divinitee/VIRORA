@@ -76,6 +76,46 @@ export const FILLERS = {
   },
 };
 
+// Same moods in Uzbek and Russian, played when the student just spoke that
+// language (2026-11-20: an English "ahh, okay" after a Russian sentence felt off).
+// Shared by all teachers; each teacher's mood tag still sets the tone.
+export const FILLER_LANGS = ['en', 'uz', 'ru'];
+export const FILLERS_INTL = {
+  uz: {
+    neutral: ["Hmm, xo'p…", 'Aha, tushundim…', "Mhm, xo'sh…", 'Hmm, mayli…', "Xo'p, xo'p…"],
+    empathy: ['Voy, attang…', 'Eh, tushunaman…', "Voy, qiyin bo'libdi…", 'Hmm, tushunaman, tushunaman…', "Voy, xafa bo'lmang…"],
+    positive: ["Voy, zo'r-ku!", 'Ooo, ajoyib!', 'Barakalla!', 'Voy, qoyil!', "Zo'r, zo'r!"],
+    question: ['Hmm, yaxshi savol…', 'Aha, hozir tushuntiraman…', 'Hmm, keling, tushuntiray…', "Yaxshi savol, xo'sh…", 'Mhm, hozir…'],
+    hold: ['Bir soniya…', 'Hmm, bir daqiqa…', 'Hozir, hozir…', 'Bir oz kuting…', "Hmm, o'ylab ko'ray…"],
+  },
+  ru: {
+    neutral: ['Ммм, понятно…', 'Ага, так…', 'Хм, хорошо…', 'Так-так…', 'Угу, ясно…'],
+    empathy: ['Ой, как жаль…', 'Понимаю, понимаю…', 'Ох, это тяжело…', 'Ой, сочувствую…', 'Мм, понимаю…'],
+    positive: ['Ого, здорово!', 'О, отлично!', 'Класс!', 'Вау, молодец!', 'Ух ты, супер!'],
+    question: ['Хм, хороший вопрос…', 'Ага, сейчас объясню…', 'Хм, давай разберёмся…', 'Хороший вопрос, так…', 'Мм, сейчас…'],
+    hold: ['Секундочку…', 'Хм, минутку…', 'Сейчас, сейчас…', 'Одну секунду…', 'Хм, дай подумать…'],
+  },
+};
+export const cleanFillerLang = (l) => (FILLER_LANGS.includes(l) ? l : 'en');
+export const fillerLines = (persona, mood, lang = 'en') => {
+  const L = cleanFillerLang(lang);
+  return L === 'en' ? FILLERS[cleanPersona(persona)][cleanMood(mood)] : FILLERS_INTL[L][cleanMood(mood)];
+};
+
+/**
+ * Which language did the student just speak? Scribe's language code first,
+ * then the alphabet / common Uzbek words. 'en' when unsure.
+ */
+export function speechLang(code, text) {
+  const t = String(text || '');
+  const c = String(code || '').toLowerCase();
+  if (c.startsWith('ru')) return 'ru';
+  if (c.startsWith('uz')) return 'uz';
+  if ((t.match(/[Ѐ-ӿ]/g) || []).length >= 4) return /[ўқғҳ]/i.test(t) ? 'uz' : 'ru';
+  const uzWords = t.toLowerCase().match(/\b(men|man|siz|sen|rahmat|nima|nega|qanday|tushun\w*|bilmad\w*|kerak|yaxshi|juda|uchun|bilan|emas|ham|lekin|chunki|buni|bu|qiling|ayting|iltimos|o['ʻ’]zbek\w*)\b/g) || [];
+  return uzWords.length >= 2 ? 'uz' : 'en';
+}
+
 // The mood every filler is spoken in (the voice reads the tag as direction).
 const MOOD_TAG = {
   neutral: { vira: '[warmly][curious]', vira_nightingale: '[softly][curious]', velvet: '[playfully]', violet: '[calmly]' },
@@ -188,6 +228,13 @@ ${AGE_TEXT[age]}
 - ${tagLine}
 - Write English the way it should be pronounced: no abbreviations like "e.g." or "etc.".
 - If your last turn shows "(interrupted)", the student cut you off: do NOT repeat the old sentence, react to what they just said.
+
+# LANGUAGE MIRROR (follow the student's language)
+- The user message says STUDENT LANGUAGE when the student just spoke Uzbek or Russian. Then answer in THAT language: short, warm, simple, the way a local teacher would. Never lecture in English to someone who just asked for help in Uzbek or Russian.
+- Give the English for what they wanted to say (or the answer to their question), then have them practise it: Russian "Скажи по-английски: ...", Uzbek "Inglizchada ayting: ...". Put the English phrase in quotes.
+- explanation_text is in the same language the student used.
+- When they answer in English again, continue in English. Bring them back to English gently; do not stay in Uzbek/Russian for long.
+- Uzbek out loud: keep it to one or two short sentences (the Uzbek voice is weaker); put the rest in explanation_text.
 
 # LISTENING
 - What the student said comes from speech recognition and is written down word for word, mistakes included. Text in parentheses like (background noise) or (laughter) is a sound, not words.
