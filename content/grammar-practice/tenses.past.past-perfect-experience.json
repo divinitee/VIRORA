@@ -457,7 +457,7 @@
   "slots": {
    "show": [
     "ballet",
-    "opera",
+    "play",
     "circus show",
     "live concert"
    ],
@@ -523,7 +523,7 @@
     "bone",
     "finger",
     "leg",
-    "arm"
+    "wrist"
    ],
    "name": [
     "Aziz",
