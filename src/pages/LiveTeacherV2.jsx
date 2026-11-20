@@ -8,7 +8,7 @@ import { useAuth } from "@/lib/AuthContext";
 import { liveTeacherApi } from "@/lib/serverApi";
 import { copyFor } from "@/lib/liveTeacher/copy";
 import { createVoiceLoop, playAudio, blobToB64 } from "@/lib/liveTeacher/voiceLoop";
-import { createLiveEars, streamVoice } from "@/lib/liveTeacher/liveStreams";
+import { transcribeDirect } from "@/lib/liveTeacher/liveStreams";
 import { fillerMood } from "@/lib/liveTeacher/fillerMood";
 
 // Live Teacher v2 (2026-11-20): "text brain" lessons.
@@ -102,10 +102,7 @@ export default function LiveTeacherV2() {
   const levelRef = useRef(null);
   const scrollRef = useRef(null);
   const endingRef = useRef(false);
-  const earsRef = useRef(null); // live transcript (ElevenLabs Scribe Live)
-  const playCtxRef = useRef(null); // plays the streamed voice
-  const voiceInfoRef = useRef(null); // { voice_id, model }
-  const streamFailsRef = useRef(0);
+  const sttRef = useRef(null); // single-use pass for the phone -> ElevenLabs transcriber: { token, model }
   const cutRef = useRef(0); // bumps on every interruption / pause: stale audio stops itself
 
   const note = (msg) => { if (msg) setFillerNote((n) => (n.includes(msg) ? n : `${n ? `${n} · ` : ""}${msg}`)); };
@@ -132,7 +129,7 @@ export default function LiveTeacherV2() {
 
   // never leave the mic, the sockets or audio running
   useEffect(() => () => {
-    stopAllAudio(); loopRef.current?.stop(); earsRef.current?.close(); playCtxRef.current?.close?.().catch?.(() => {});
+    stopAllAudio(); loopRef.current?.stop();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function stopAllAudio() {
@@ -194,44 +191,42 @@ export default function LiveTeacherV2() {
   }
 
   // ---------------------------------------------------------- teacher voice
-  // Streamed straight from ElevenLabs to the phone; the server MP3 is the backup.
-  async function speak(text, ttsToken, onFirstSound) {
+  // The server sends the FIRST sentence already voiced (it was made while the
+  // brain was still writing); the rest is fetched at once and plays right after.
+  async function playReply(r, onFirstSound) {
     const cut = cutRef.current;
     loopRef.current?.teacherSpeaking();
-    const info = voiceInfoRef.current;
-    if (ttsToken && info && streamFailsRef.current < 2 && playCtxRef.current) {
-      const s = streamVoice({ ctx: playCtxRef.current, token: ttsToken, voiceId: info.voice_id, model: info.model, text });
-      speechRef.current = s;
-      const ok = await s.ready;
-      if (cut !== cutRef.current) { s.stop(); return "stopped"; }
-      if (ok) {
-        await fillerDoneRef.current; // let the "hmm" finish first
-        if (cut !== cutRef.current) { s.stop(); return "stopped"; }
-        s.player.release();
-        onFirstSound?.();
-        const why = await s.player.done;
-        if (speechRef.current === s) speechRef.current = null;
-        return why;
-      }
-      s.stop();
-      streamFailsRef.current += 1;
-      note(`voice stream failed (${s.error()}), using backup`);
-    }
-    try {
-      const r = await liveTeacherApi("v2_speak", { lesson_id: lessonRef.current?.id, text });
-      if (cut !== cutRef.current) return "stopped";
-      await fillerDoneRef.current;
-      if (cut !== cutRef.current) return "stopped";
-      const p = playAudio(r.audio_b64, r.audio_mime);
+    const restJob = r.rest_text
+      ? liveTeacherApi("v2_speak", { lesson_id: lessonRef.current?.id, text: r.rest_text }).catch((e) => { note(`voice for the rest failed: ${e.message}`); return null; })
+      : null;
+    await fillerDoneRef.current; // let the "hmm" finish first
+    if (cut !== cutRef.current) return "stopped";
+    let why = "ended";
+    let first = true;
+    const play = async (b64, mime) => {
+      const p = playAudio(b64, mime);
       speechRef.current = p;
-      onFirstSound?.();
-      const why = await p.done;
+      if (first) { first = false; onFirstSound?.(); }
+      const w = await p.done;
       if (speechRef.current === p) speechRef.current = null;
-      return why;
-    } catch (e) {
-      setError(e.message);
-      return "error";
+      return w;
+    };
+    if (r.audio_b64) {
+      why = await play(r.audio_b64, r.audio_mime);
+      if (why === "stopped" || cut !== cutRef.current) return "stopped";
     }
+    if (restJob) {
+      const rr = await restJob;
+      if (cut !== cutRef.current) return "stopped";
+      if (rr?.audio_b64) why = await play(rr.audio_b64, rr.audio_mime);
+    }
+    return why;
+  }
+  async function refillEars() {
+    try {
+      const t = await liveTeacherApi("v2_tokens", { lesson_id: lessonRef.current?.id, types: ["stt"] });
+      if (t?.stt_token) sttRef.current = { token: t.stt_token, model: t.stt_model };
+    } catch { /* next turn uses the backup path */ }
   }
 
   function onBargeIn() {
@@ -248,7 +243,6 @@ export default function LiveTeacherV2() {
     cutRef.current += 1;
     stopAllAudio();
     loopRef.current?.stop();
-    earsRef.current?.close();
     setRecap(r || null);
     go("recap");
   }
@@ -258,13 +252,16 @@ export default function LiveTeacherV2() {
     if (!lessonRef.current || phaseRef.current !== "live") return;
     setError("");
     const tEnd = performance.now();
-    const ears = earsRef.current;
-    // live ears: the transcript is (almost) ready the moment the student stops
-    const text = ears?.ready ? await ears.commit(2500) : null;
+    // ears: the phone sends the clip straight to ElevenLabs (accurate model, no server detour)
+    let text = null;
+    const pass = sttRef.current;
+    sttRef.current = null; // single use
+    if (pass?.token) {
+      const t = await transcribeDirect({ blob, token: pass.token, model: pass.model });
+      if (t.ok) text = t.text; else note(`direct ears: ${t.error}, using backup`);
+    }
     const earsMs = performance.now() - tEnd;
-    setPartial("");
-    if (text === null) { if (ears?.error) note(`live ears: ${ears.error}, using backup`); ears?.ensure(); }
-    if (text !== null && !text.replace(/\([^)]*\)|\[[^\]]*\]/g, "").trim()) { loopRef.current?.listen(); return; } // only sounds
+    if (text !== null && !text.replace(/\([^)]*\)|\[[^\]]*\]/g, "").trim()) { refillEars(); loopRef.current?.listen(); return; } // only sounds
 
     startThinking(text ? fillerMood(text) : "neutral");
     waitingRef.current = true;
@@ -286,6 +283,8 @@ export default function LiveTeacherV2() {
     clearTimeout(holdTimerRef.current);
     const serverMs = performance.now() - tSent;
     if (phaseRef.current !== "live") return;
+    if (r.stt_token) sttRef.current = { token: r.stt_token, model: r.stt_model };
+    else if (!sttRef.current) refillEars();
     if (r.empty) { await fillerDoneRef.current; loopRef.current?.listen(); return; }
 
     if (typeof r.lesson_cost_usd === "number") setCost(r.lesson_cost_usd);
@@ -296,20 +295,9 @@ export default function LiveTeacherV2() {
     const sec = (ms) => `${(Math.max(0, ms) / 1000).toFixed(1)}s`;
     const report = () => {
       const now = performance.now();
-      setTiming(`last turn: ears ${text !== null ? sec(earsMs) : "backup"} · server ${sec(serverMs)}${r.timings?.brain_ms ? ` (brain ${sec(r.timings.brain_ms)})` : ""} · voice start ${sec(now - tSent - serverMs)} · you stopped → she speaks ${sec(now - tEnd)}`);
+      setTiming(`last turn: ears ${text !== null ? sec(earsMs) : "backup"} · server ${sec(serverMs)}${r.timings?.reply_ms ? ` (reply written ${sec(r.timings.reply_ms)}, brain done ${sec(r.timings.brain_ms)})` : r.timings?.brain_ms ? ` (brain ${sec(r.timings.brain_ms)})` : ""} · you stopped → she speaks ${sec(now - tEnd)}`);
     };
-    let why;
-    if (r.audio_b64) { // backup turn path: the server already made the MP3
-      await fillerDoneRef.current;
-      loopRef.current?.teacherSpeaking();
-      const p = playAudio(r.audio_b64, r.audio_mime);
-      speechRef.current = p;
-      report();
-      why = await p.done;
-      if (speechRef.current === p) speechRef.current = null;
-    } else {
-      why = await speak(r.speak_text || r.reply_text, r.tts_token, report);
-    }
+    const why = await playReply(r, report);
     if (phaseRef.current !== "live") return;
     if (r.ended) { finishWithRecap({ ...r.recap, cost_usd: r.lesson_cost_usd }); return; }
     if (why === "stopped") return; // the student interrupted: the loop is already recording them
@@ -319,33 +307,16 @@ export default function LiveTeacherV2() {
 
   async function startLesson() {
     setError(""); setTranscript([]); setMistakes([]); setCost(0); setRecap(null); setPartial(""); setFillerNote(""); setTiming("");
-    historyRef.current = []; endingRef.current = false; streamFailsRef.current = 0; cutRef.current = 0;
+    historyRef.current = []; endingRef.current = false; cutRef.current = 0;
     fillersRef.current = {}; recentRef.current = {};
     go("connecting");
-    // made inside the tap, so the browser allows it to play sound
-    try {
-      const AC = window.AudioContext || window.webkitAudioContext;
-      playCtxRef.current = new AC();
-      playCtxRef.current.resume?.();
-    } catch { playCtxRef.current = null; }
-    const ears = createLiveEars({
-      getToken: async () => {
-        const t = await liveTeacherApi("v2_tokens", { lesson_id: lessonRef.current?.id, types: ["stt"] });
-        return { token: t.stt_token, model: t.stt_live_model };
-      },
-      onPartial: (t) => setPartial(t),
-      onStatus: (st, err) => { if (st === "error" && err) note(`live ears: ${err}`); },
-    });
-    earsRef.current = ears;
+    sttRef.current = null;
     const loop = createVoiceLoop({
       onUtterance: (u) => handlerRef.current?.(u),
       onBargeIn,
       onAutoPause: () => setPausedReason("idle"),
       onState: setLoopState,
       onLevel: (rms, thr) => { if (levelRef.current) levelRef.current.style.width = `${Math.min(100, (rms / (thr * 3)) * 100)}%`; },
-      onTurnStart: (pre) => { if (ears.ready) ears.send(pre); else ears.ensure(); },
-      onTurnChunk: (f) => ears.send(f),
-      onTurnDiscard: () => { if (ears.ready) ears.commit(1500).then(() => setPartial("")); },
     });
     loopRef.current = loop;
     try {
@@ -353,21 +324,18 @@ export default function LiveTeacherV2() {
       loop.setPushToTalk(noisy);
       const s = await liveTeacherApi("v2_start", { persona, age_group: age, lang });
       lessonRef.current = { id: s.lesson_id, deadline: Date.now() + (s.max_minutes || 10) * 60000 };
-      voiceInfoRef.current = s.voice || null;
-      if (s.stt_token) {
-        ears.connect(s.stt_token, s.stt_live_model).then((ok) => { if (!ok) note(`live ears could not connect (${ears.error}), using backup`); });
-      } else note("live ears pass missing, using backup");
+      if (s.stt_token) sttRef.current = { token: s.stt_token, model: s.stt_model };
+      else note("ears pass missing, using backup");
       setSecondsLeft((s.max_minutes || 10) * 60);
       setPersonaName(s.persona_name || "Vira");
       if (typeof s.cost_usd === "number") setCost(s.cost_usd);
       go("live");
       addTurn("teacher", s.reply_text, { explanation: s.explanation_text });
       // thinking sounds load once the greeting is playing (not all at once)
-      await speak(s.speak_text || s.reply_text, s.tts_token, () => { loadFillers(persona); });
+      await playReply(s, () => { loadFillers(persona); });
       if (!Object.keys(fillersRef.current).length) loadFillers(persona);
       if (phaseRef.current === "live" && loop.state === "teacher") loop.listen();
     } catch (e) {
-      ears.close();
       loop.stop();
       go("setup");
       setError(e?.name === "NotAllowedError" ? "Microphone access is blocked. Allow it in the browser and try again." : (e.message || "Could not start the lesson."));
@@ -381,7 +349,6 @@ export default function LiveTeacherV2() {
     cutRef.current += 1;
     stopAllAudio();
     loopRef.current?.stop();
-    earsRef.current?.close();
     try {
       const r = await liveTeacherApi("end", { lesson_id: lessonRef.current.id });
       finishWithRecap({ ...(r.recap || {}), cost_usd: cost });

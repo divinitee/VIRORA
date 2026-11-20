@@ -196,3 +196,28 @@ export function streamVoice({ ctx, token, voiceId, model, text, timeoutMs = 4000
     stop() { try { ws?.close(); } catch { /* ignore */ } player.stop(); },
   };
 }
+
+// ------------------------------------------------------------------ direct ears (2026-11-20 night)
+// The live (streaming) transcriber heard natural, accented speech badly in
+// the first test. This sends the finished turn straight from the phone to the
+// accurate batch transcriber (Scribe v3) with a single-use pass: same
+// accuracy as before, without the detour through our server.
+export async function transcribeDirect({ blob, token, model = 'scribe_v3', timeoutMs = 7000 }) {
+  if (!token || !blob) return { ok: false, error: 'no pass' };
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    const fd = new FormData();
+    fd.append('model_id', model);
+    fd.append('file', blob, 'turn.wav');
+    fd.append('tag_audio_events', 'true');
+    const res = await fetch(`https://api.elevenlabs.io/v1/speech-to-text?token=${encodeURIComponent(token)}`, { method: 'POST', body: fd, signal: ctrl.signal });
+    const data = await res.json().catch(() => null);
+    if (!res.ok) return { ok: false, error: `${res.status} ${data?.detail?.status || data?.detail?.message || data?.detail || ''}`.trim() };
+    return { ok: true, text: String(data?.text || '').trim(), language: data?.language_code || '' };
+  } catch (e) {
+    return { ok: false, error: e?.name === 'AbortError' ? 'timeout' : (e?.message || 'network') };
+  } finally {
+    clearTimeout(timer);
+  }
+}
