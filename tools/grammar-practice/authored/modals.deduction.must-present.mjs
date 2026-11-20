@@ -16,7 +16,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "deduction", topic: "must-present", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Gulnora", "Jamshid", "Malika", "Ulugbek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "The speaker is sure, from the evidence: must + base verb.";
 const OPTS = ["must", "can't", "mustn't", "must to"];
 

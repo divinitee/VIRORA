@@ -20,7 +20,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "passive-causative", branch: "simple-passive", topic: "no-passive-intransitive", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Feruza", "Otabek", "Dilnoza", "Sardor"]; // listener names: never printed in a sentence (audit 20 Nov)
 const PAST = { happen: "happened", arrive: "arrived", die: "died", fall: "fell", disappear: "disappeared", come: "came", sleep: "slept", go: "went", stay: "stayed", appear: "appeared", laugh: "laughed", wait: "waited", stop: "stopped", occur: "occurred", rain: "rained" };
 const PP = { build: "built", steal: "stolen", invite: "invited", cancel: "cancelled", take: "taken", find: "found", make: "made", open: "opened" };
 const WHY_I = "This verb has no object, so it has no passive: use the active past simple.";

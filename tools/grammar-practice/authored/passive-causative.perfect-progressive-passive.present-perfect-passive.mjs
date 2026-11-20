@@ -21,7 +21,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "passive-causative", branch: "perfect-progressive-passive", topic: "present-perfect-passive", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Zarina", "Sherzod", "Nodira", "Akmal"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "News or a result now, and we don't say who did it: has / have been + past participle.";
 const sg = (pp) => [`has been ${pp}`, `has ${pp}`, `is been ${pp}`, `has being ${pp}`];
 const pl = (pp) => [`have been ${pp}`, `have ${pp}`, `are been ${pp}`, `has been ${pp}`];

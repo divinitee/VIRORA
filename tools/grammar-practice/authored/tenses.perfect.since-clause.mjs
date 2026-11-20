@@ -24,7 +24,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "tenses", branch: "perfect", topic: "since-clause", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Zarina", "Sherzod", "Nodira", "Akmal"]; // listener names: never printed in a sentence (audit 20 Nov)
 const NAME_F = ["Madina", "Olga", "Sevara", "Nilufar"];
 const NAME_M = ["Sardor", "Timur", "Ilya", "Jasur"];
 const WHY_M = (pp) => `The time started in the past and goes on now, so the main clause takes the present perfect: ${pp}. The since clause says when it started.`;

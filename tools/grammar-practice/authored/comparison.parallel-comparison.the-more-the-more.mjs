@@ -16,7 +16,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "comparison", branch: "parallel-comparison", topic: "the-more-the-more", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Nodira", "Akmal", "Zarina", "Sherzod"]; // listener names: never printed in a sentence (audit 20 Nov)
 const SHE = ["Madina", "Olga", "Sevara", "Nilufar"];
 const WHY = "Two changes go together: The + comparative …, the + comparative ….";
 

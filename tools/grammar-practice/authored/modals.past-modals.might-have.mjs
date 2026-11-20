@@ -19,7 +19,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "past-modals", topic: "might-have", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Dilnoza", "Sardor", "Feruza", "Otabek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const TEAM = ["Pakhtakor", "Nasaf", "Bunyodkor", "Navbahor"];
 const PP = { miss: "missed", forget: "forgotten", leave: "left", go: "gone", eat: "eaten", win: "won", lose: "lost", study: "studied", see: "seen", take: "taken", be: "been", break: "broken", hear: "heard", drive: "driven", sleep: "slept", buy: "bought", finish: "finished", meet: "met", fall: "fallen", close: "closed", receive: "received", know: "known", understand: "understood" };
 const WHY = "A guess about the past, not sure: might have + past participle.";

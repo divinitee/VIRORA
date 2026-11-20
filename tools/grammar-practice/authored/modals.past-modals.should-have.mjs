@@ -18,7 +18,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "past-modals", topic: "should-have", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Nodira", "Akmal", "Zarina", "Sherzod"]; // listener names: never printed in a sentence (audit 20 Nov)
 const PP = { tell: "told", study: "studied", leave: "left", take: "taken", go: "gone", say: "said", eat: "eaten", watch: "watched", charge: "charged", buy: "bought", ask: "asked", wear: "worn", call: "called", play: "played", shout: "shouted", drive: "driven", train: "trained", listen: "listened" };
 const WHY = "Regret or criticism about the past: should have + past participle.";
 const WHY_NOT = "Regret about something you did: shouldn't have + past participle.";

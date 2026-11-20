@@ -17,7 +17,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "deduction", topic: "might-present", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Feruza", "Otabek", "Dilnoza", "Sardor"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).";
 const OPTS = ["might", "must", "can't", "mustn't"];
 

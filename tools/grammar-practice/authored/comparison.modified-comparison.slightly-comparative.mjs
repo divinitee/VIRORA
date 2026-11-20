@@ -19,7 +19,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "comparison", branch: "modified-comparison", topic: "slightly-comparative", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Zarina", "Sherzod", "Nodira", "Akmal"]; // listener names: never printed in a sentence (audit 20 Nov)
 const SH = { cheap: "cheaper", warm: "warmer", tall: "taller", long: "longer", old: "older", big: "bigger", fast: "faster", heavy: "heavier", cold: "colder", short: "shorter", quiet: "quieter", small: "smaller", easy: "easier", early: "earlier", late: "later" };
 const comp = (a) => SH[a] || `more ${a}`;
 const sup = (a) => SH[a] ? (a === "big" ? "biggest" : SH[a].replace(/er$/, "est")) : `most ${a}`;

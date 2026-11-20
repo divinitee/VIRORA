@@ -19,7 +19,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "conditionals-wishes", branch: "second", topic: "second-if-clause", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Dilnoza", "Sardor", "Feruza", "Otabek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const PAST = { win: "won", have: "had", live: "lived", know: "knew", can: "could", speak: "spoke", be: "were", find: "found", lose: "lost", get: "got", meet: "met", go: "went", study: "studied", work: "worked", own: "owned", eat: "ate", need: "needed" };
 const PRES = { be: "are" };
 const WHY = "Imagined situation: if + past simple, … would + base verb.";

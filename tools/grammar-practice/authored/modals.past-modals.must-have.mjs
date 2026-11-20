@@ -16,7 +16,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "past-modals", topic: "must-have", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Malika", "Ulugbek", "Gulnora", "Jamshid"]; // listener names: never printed in a sentence (audit 20 Nov)
 const PP = { rain: "rained", forget: "forgotten", leave: "left", go: "gone", eat: "eaten", win: "won", lose: "lost", study: "studied", see: "seen", take: "taken", be: "been", break: "broken", hear: "heard", drive: "driven", sleep: "slept", cost: "cost", buy: "bought", finish: "finished", get: "got", meet: "met", fall: "fallen" };
 const WHY = (v) => `Sure about the past, from what you see now: must have + past participle (must have ${PP[v]}).`;
 const opts = (v) => [`must have ${PP[v]}`, `must ${v}`, `must had ${PP[v]}`, PP[v] === v ? `must have ${v}ed` : `must have ${v}`];

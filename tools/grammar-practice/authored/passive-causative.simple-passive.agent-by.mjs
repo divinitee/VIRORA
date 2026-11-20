@@ -18,7 +18,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "passive-causative", branch: "simple-passive", topic: "agent-by", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Gulnora", "Jamshid", "Malika", "Ulugbek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const TEAM = ["Pakhtakor", "Nasaf", "Bunyodkor", "Navbahor"];
 const WHY_BY = "by + the doer (who did it).";
 const WHY_WITH = "with + the thing that was used (a tool or an object).";

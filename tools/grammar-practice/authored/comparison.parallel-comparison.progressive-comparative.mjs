@@ -19,7 +19,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "comparison", branch: "parallel-comparison", topic: "progressive-comparative", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Dilnoza", "Sardor", "Feruza", "Otabek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const ER = { hot: "hotter", cold: "colder", big: "bigger", dark: "darker", loud: "louder", long: "longer", fast: "faster", tall: "taller", warm: "warmer", busy: "busier", heavy: "heavier", easy: "easier", hungry: "hungrier", tired: null, small: "smaller", strong: "stronger", short: "shorter", quiet: "quieter", angry: "angrier", high: "higher", bad: "worse", good: "better" };
 const prog = (a) => (ER[a] ? `${ER[a]} and ${ER[a]}` : `more and more ${a}`);
 const WHY = (a) => `The change keeps growing: comparative + and + comparative, ${prog(a)}.`;

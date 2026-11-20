@@ -16,7 +16,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "deduction", topic: "cant-present", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Zarina", "Sherzod", "Nodira", "Akmal"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').";
 const OPTS = ["can't", "mustn't", "must", "might"];
 

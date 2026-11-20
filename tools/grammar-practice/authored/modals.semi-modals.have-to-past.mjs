@@ -18,7 +18,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "semi-modals", topic: "have-to-past", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Gulnora", "Jamshid", "Malika", "Ulugbek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = "Past obligation: had to + base verb (must has no past form).";
 const WHY_NOT = "It wasn't necessary in the past: didn't have to + base verb.";
 const POS = ["had to", "must", "have to", "musted"];

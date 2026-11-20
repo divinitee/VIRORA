@@ -19,7 +19,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "semi-modals", topic: "be-able-to", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Feruza", "Otabek", "Dilnoza", "Sardor"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY_F = "can has no future form: will (won't) be able to + base verb.";
 const WHY_P = "can has no present perfect form: have (haven't) been able to + base verb.";
 const WHY_I = "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.";

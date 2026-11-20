@@ -17,7 +17,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "conditionals-wishes", branch: "second", topic: "if-i-were-you", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Malika", "Ulugbek", "Gulnora", "Jamshid"]; // listener names: never printed in a sentence (audit 20 Nov)
 const PAST = { apply: "applied", see: "saw", take: "took", call: "called", buy: "bought", go: "went", ask: "asked", study: "studied", wear: "wore", save: "saved", tell: "told", book: "booked", learn: "learned", try: "tried", drive: "drove", eat: "ate", worry: "worried", spend: "spent", lend: "lent", leave: "left" };
 const WHY = "Advice: If I were you, I would + base verb.";
 const WHY_NOT = "Advice not to do something: If I were you, I wouldn't + base verb.";

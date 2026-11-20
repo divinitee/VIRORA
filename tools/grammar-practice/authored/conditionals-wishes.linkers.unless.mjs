@@ -18,7 +18,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "conditionals-wishes", branch: "linkers", topic: "unless", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Nodira", "Akmal", "Zarina", "Sherzod"]; // listener names: never printed in a sentence (audit 20 Nov)
 const TEAM = ["Pakhtakor", "Nasaf", "Bunyodkor", "Navbahor"];
 const WHY = "unless = if … not, with a positive present verb after it.";
 const WHY_IF = "The condition is positive here: if.";

@@ -23,7 +23,7 @@
 import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "tenses", branch: "future", topic: "timetable-simple", level: "B1", pv: "2.5" };
-const NAME = ["Aziz", "Olga", "Timur", "Lola"];
+const NAME = ["Nodira", "Akmal", "Zarina", "Sherzod"]; // listener names: never printed in a sentence (audit 20 Nov)
 const CITY = ["Samarkand", "Bukhara", "Khiva", "Fergana"];
 const FLY = ["Istanbul", "Moscow", "Seoul", "Dubai"];
 const V = {
