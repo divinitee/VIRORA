@@ -1,0 +1,1925 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. Come with us, {name}, and bring your {thing}.",
+  "options": [
+   "We play football in the park at the weekend",
+   "We play football at the weekend in the park",
+   "We at the weekend play football in the park",
+   "We play in the park football at the weekend"
+  ],
+  "key": 0,
+  "why": "Where comes before when: in the park (where) + at the weekend (when). The time never goes between the verb and its object.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "ball",
+    "brother",
+    "cousin",
+    "friends"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. It's quicker than {how}, {name}.",
+  "options": [
+   "I take the bus every morning to school",
+   "I every morning take the bus to school",
+   "I take to school the bus every morning",
+   "I take the bus to school every morning"
+  ],
+  "key": 3,
+  "why": "Where comes before when: to school (where) + every morning (when). The time never goes between the verb and its object.",
+  "slots": {
+   "how": [
+    "walking",
+    "cycling",
+    "riding my scooter",
+    "going on foot"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. They bring {food} from their {place}.",
+  "options": [
+   "My grandparents every summer take the train to Tashkent",
+   "My grandparents take to Tashkent the train every summer",
+   "My grandparents take the train to Tashkent every summer",
+   "My grandparents take the train every summer to Tashkent"
+  ],
+  "key": 2,
+  "why": "Where comes before when: to Tashkent (where) + every summer (when). The time never goes between the verb and its object.",
+  "slots": {
+   "food": [
+    "apricots",
+    "melons",
+    "grapes",
+    "honey"
+   ],
+   "place": [
+    "garden",
+    "village",
+    "farm",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. It's quiet there, and she can use the {thing}, {name}.",
+  "options": [
+   "Lola does in the library her homework after school",
+   "Lola does her homework in the library after school",
+   "Lola does her homework after school in the library",
+   "Lola after school does her homework in the library"
+  ],
+  "key": 1,
+  "why": "Where comes before when: in the library (where) + after school (when). The time never goes between the verb and its object.",
+  "slots": {
+   "thing": [
+    "computers",
+    "dictionaries",
+    "big tables",
+    "printer"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. He also gets {food} for {who}.",
+  "options": [
+   "My dad buys bread at the bazaar on Sundays",
+   "My dad buys bread on Sundays at the bazaar",
+   "My dad on Sundays buys bread at the bazaar",
+   "My dad buys at the bazaar bread on Sundays"
+  ],
+  "key": 0,
+  "why": "Where comes before when: at the bazaar (where) + on Sundays (when). The time never goes between the verb and its object.",
+  "slots": {
+   "food": [
+    "fruit",
+    "cheese",
+    "meat",
+    "vegetables"
+   ],
+   "who": [
+    "Grandma",
+    "the family",
+    "our neighbours",
+    "lunch"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. The librarian is {who}, {name}.",
+  "options": [
+   "We take our books on Tuesdays to the library",
+   "We on Tuesdays take our books to the library",
+   "We take to the library our books on Tuesdays",
+   "We take our books to the library on Tuesdays"
+  ],
+  "key": 3,
+  "why": "Where comes before when: to the library (where) + on Tuesdays (when). The time never goes between the verb and its object.",
+  "slots": {
+   "who": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "Mrs Karimova",
+    "Mr Lee"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. They drink {drink} and talk about {topic}.",
+  "options": [
+   "Aziz after work takes his friends to the café",
+   "Aziz takes to the café his friends after work",
+   "Aziz takes his friends to the café after work",
+   "Aziz takes his friends after work to the café"
+  ],
+  "key": 2,
+  "why": "Where comes before when: to the café (where) + after work (when). The time never goes between the verb and its object.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "juice",
+    "lemonade"
+   ],
+   "topic": [
+    "football",
+    "films",
+    "their week",
+    "work"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. She likes it with {thing}, {name}.",
+  "options": [
+   "My mum drinks in the kitchen tea every evening",
+   "My mum drinks tea in the kitchen every evening",
+   "My mum drinks tea every evening in the kitchen",
+   "My mum every evening drinks tea in the kitchen"
+  ],
+  "key": 1,
+  "why": "Where comes before when: in the kitchen (where) + every evening (when). The time never goes between the verb and its object.",
+  "slots": {
+   "thing": [
+    "lemon",
+    "honey",
+    "milk",
+    "sugar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. Their {who} makes {food} for them.",
+  "options": [
+   "The children watch cartoons at home on Saturday mornings",
+   "The children watch cartoons on Saturday mornings at home",
+   "The children on Saturday mornings watch cartoons at home",
+   "The children watch at home cartoons on Saturday mornings"
+  ],
+  "key": 0,
+  "why": "Where comes before when: at home (where) + on Saturday mornings (when). The time never goes between the verb and its object.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "aunt"
+   ],
+   "food": [
+    "pancakes",
+    "eggs",
+    "porridge",
+    "sandwiches"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. Nobody takes it, {name}. Our {who} watches it.",
+  "options": [
+   "I leave my bike every day at the gate",
+   "I every day leave my bike at the gate",
+   "I leave at the gate my bike every day",
+   "I leave my bike at the gate every day"
+  ],
+  "key": 3,
+  "why": "Where comes before when: at the gate (where) + every day (when). The time never goes between the verb and its object.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "neighbour",
+    "grandpa",
+    "dog",
+    "cousin"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. Mum cooks it in a big {pot}, {name}.",
+  "options": [
+   "We on Fridays eat plov at home",
+   "We eat at home plov on Fridays",
+   "We eat plov at home on Fridays",
+   "We eat plov on Fridays at home"
+  ],
+  "key": 2,
+  "why": "Where comes before when: at home (where) + on Fridays (when). The time never goes between the verb and its object.",
+  "slots": {
+   "pot": [
+    "pot",
+    "kazan",
+    "black pot",
+    "old pot"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. He wants to win the {event} this {when}.",
+  "options": [
+   "Timur takes to the club his chess set on Wednesdays",
+   "Timur takes his chess set to the club on Wednesdays",
+   "Timur takes his chess set on Wednesdays to the club",
+   "Timur on Wednesdays takes his chess set to the club"
+  ],
+  "key": 1,
+  "why": "Where comes before when: to the club (where) + on Wednesdays (when). The time never goes between the verb and its object.",
+  "slots": {
+   "event": [
+    "city cup",
+    "school cup",
+    "big game",
+    "final"
+   ],
+   "when": [
+    "year",
+    "spring",
+    "month",
+    "winter"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. Her teacher comes on {day}, {name}.",
+  "options": [
+   "My sister practises the piano at home every afternoon",
+   "My sister practises the piano every afternoon at home",
+   "My sister every afternoon practises the piano at home",
+   "My sister practises at home the piano every afternoon"
+  ],
+  "key": 0,
+  "why": "Where comes before when: at home (where) + every afternoon (when). The time never goes between the verb and its object.",
+  "slots": {
+   "day": [
+    "Mondays",
+    "Thursdays",
+    "Fridays",
+    "Saturdays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. We stay for {n} weeks with {who}.",
+  "options": [
+   "We drive our car every summer to Samarkand",
+   "We every summer drive our car to Samarkand",
+   "We drive to Samarkand our car every summer",
+   "We drive our car to Samarkand every summer"
+  ],
+  "key": 3,
+  "why": "Where comes before when: to Samarkand (where) + every summer (when). The time never goes between the verb and its object.",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "who": [
+    "our aunt",
+    "Grandma",
+    "our uncle",
+    "the family"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. She reads about {topic}, {name}.",
+  "options": [
+   "Olga every morning reads books on the bus",
+   "Olga reads on the bus books every morning",
+   "Olga reads books on the bus every morning",
+   "Olga reads books every morning on the bus"
+  ],
+  "key": 2,
+  "why": "Where comes before when: on the bus (where) + every morning (when). The time never goes between the verb and its object.",
+  "slots": {
+   "topic": [
+    "animals",
+    "history",
+    "space",
+    "famous people"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. Then I have {meal} with my {who}.",
+  "options": [
+   "I do in the yard my exercises at seven o'clock",
+   "I do my exercises in the yard at seven o'clock",
+   "I do my exercises at seven o'clock in the yard",
+   "I at seven o'clock do my exercises in the yard"
+  ],
+  "key": 1,
+  "why": "Where comes before when: in the yard (where) + at seven o'clock (when). The time never goes between the verb and its object.",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "tea",
+    "juice",
+    "porridge"
+   ],
+   "who": [
+    "brother",
+    "sister",
+    "mum",
+    "dad"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. The {fruit} are very sweet, {name}.",
+  "options": [
+   "They sell fresh fruit at the market every morning",
+   "They sell fresh fruit every morning at the market",
+   "They every morning sell fresh fruit at the market",
+   "They sell at the market fresh fruit every morning"
+  ],
+  "key": 0,
+  "why": "Where comes before when: at the market (where) + every morning (when). The time never goes between the verb and its object.",
+  "slots": {
+   "fruit": [
+    "apricots",
+    "grapes",
+    "melons",
+    "cherries"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. I help him with the {thing}, {name}.",
+  "options": [
+   "My brother washes the car on Sundays in the yard",
+   "My brother on Sundays washes the car in the yard",
+   "My brother washes in the yard the car on Sundays",
+   "My brother washes the car in the yard on Sundays"
+  ],
+  "key": 3,
+  "why": "Where comes before when: in the yard (where) + on Sundays (when). The time never goes between the verb and its object.",
+  "slots": {
+   "thing": [
+    "windows",
+    "wheels",
+    "water",
+    "seats"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. Today it's {food}, {name}!",
+  "options": [
+   "We at one o'clock have lunch at school",
+   "We have at school lunch at one o'clock",
+   "We have lunch at school at one o'clock",
+   "We have lunch at one o'clock at school"
+  ],
+  "key": 2,
+  "why": "Where comes before when: at school (where) + at one o'clock (when). The time never goes between the verb and its object.",
+  "slots": {
+   "food": [
+    "soup",
+    "plov",
+    "pasta",
+    "chicken"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______. The dog loves the {thing} there, {name}.",
+  "options": [
+   "Madina takes to the park her dog every evening",
+   "Madina takes her dog to the park every evening",
+   "Madina takes her dog every evening to the park",
+   "Madina every evening takes her dog to the park"
+  ],
+  "key": 1,
+  "why": "Where comes before when: to the park (where) + every evening (when). The time never goes between the verb and its object.",
+  "slots": {
+   "thing": [
+    "grass",
+    "ducks",
+    "other dogs",
+    "trees"
+   ],
+   "name": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Timur"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: at the weekend / in the park.",
+  "source": "{name} and I play {sport} ______ ______.",
+  "key": [
+   "in the park",
+   "at the weekend"
+  ],
+  "why": "Place first (in the park), then time (at the weekend).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "sport": [
+    "football",
+    "basketball",
+    "tennis",
+    "volleyball"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: every morning / to school.",
+  "source": "My {sib} walks ______ ______, {name}.",
+  "key": [
+   "to school",
+   "every morning"
+  ],
+  "why": "Place first (to school), then time (every morning).",
+  "slots": {
+   "sib": [
+    "brother",
+    "sister",
+    "cousin",
+    "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: in the evening / at home.",
+  "source": "We usually have {meal} ______ ______, {name}.",
+  "key": [
+   "at home",
+   "in the evening"
+  ],
+  "why": "Place first (at home), then time (in the evening).",
+  "slots": {
+   "meal": [
+    "dinner",
+    "tea",
+    "plov",
+    "soup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: on Saturdays / at the bazaar.",
+  "source": "My {who} buys {food} ______ ______.",
+  "key": [
+   "at the bazaar",
+   "on Saturdays"
+  ],
+  "why": "Place first (at the bazaar), then time (on Saturdays).",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "uncle"
+   ],
+   "food": [
+    "fruit",
+    "vegetables",
+    "meat",
+    "rice"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: after lessons / in the library.",
+  "source": "{name} reads {thing} ______ ______.",
+  "key": [
+   "in the library",
+   "after lessons"
+  ],
+  "why": "Place first (in the library), then time (after lessons).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "books",
+    "magazines",
+    "comics",
+    "newspapers"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: next month / to Bukhara.",
+  "source": "We are going ______ ______ by {veh}, {name}.",
+  "key": [
+   "to Bukhara",
+   "next month"
+  ],
+  "why": "Place first (to Bukhara), then time (next month).",
+  "slots": {
+   "veh": [
+    "train",
+    "bus",
+    "car",
+    "plane"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: in the kitchen / every morning.",
+  "source": "Grandma makes {food} ______ ______, {name}.",
+  "key": [
+   "in the kitchen",
+   "every morning"
+  ],
+  "why": "Place first (in the kitchen), then time (every morning).",
+  "slots": {
+   "food": [
+    "bread",
+    "tea",
+    "porridge",
+    "pancakes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: on Sunday / at the stadium.",
+  "source": "There's a {event} ______ ______, {name}.",
+  "key": [
+   "at the stadium",
+   "on Sunday"
+  ],
+  "why": "Place first (at the stadium), then time (on Sunday).",
+  "slots": {
+   "event": [
+    "football match",
+    "concert",
+    "race",
+    "festival"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: after dinner / in the yard.",
+  "source": "The {kids} play with the {pet} ______ ______.",
+  "key": [
+   "in the yard",
+   "after dinner"
+  ],
+  "why": "Place first (in the yard), then time (after dinner).",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: all day / at work.",
+  "source": "My {who} is ______ ______ today, so I cook {food}.",
+  "key": [
+   "at work",
+   "all day"
+  ],
+  "why": "Place first (at work), then time (all day).",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "aunt",
+    "uncle"
+   ],
+   "food": [
+    "dinner",
+    "soup",
+    "rice",
+    "eggs"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: at night / TV / in my room.",
+  "source": "{name}, I don't watch ______ ______ ______. My {who} doesn't like it.",
+  "key": [
+   "TV",
+   "in my room",
+   "at night"
+  ],
+  "why": "The object first (TV), then the place (in my room), then the time (at night).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: after school / in the yard / football.",
+  "source": "{name} and his {who} play ______ ______ ______.",
+  "key": [
+   "football",
+   "in the yard",
+   "after school"
+  ],
+  "why": "The object first (football), then the place (in the yard), then the time (after school).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "who": [
+    "brother",
+    "cousins",
+    "friends",
+    "dad"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: after dinner / my homework / at the table.",
+  "source": "I do ______ ______ ______ with my {who}, {name}.",
+  "key": [
+   "my homework",
+   "at the table",
+   "after dinner"
+  ],
+  "why": "The object first (my homework), then the place (at the table), then the time (after dinner).",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "mum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: to work / every day / the bus.",
+  "source": "My {who} takes ______ ______ ______, {name}.",
+  "key": [
+   "the bus",
+   "to work",
+   "every day"
+  ],
+  "why": "The object first (the bus), then the place (to work), then the time (every day).",
+  "slots": {
+   "who": [
+    "aunt",
+    "uncle",
+    "mum",
+    "dad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: every summer / our grandparents / in the village.",
+  "source": "We visit ______ ______ ______ with {who}, {name}.",
+  "key": [
+   "our grandparents",
+   "in the village",
+   "every summer"
+  ],
+  "why": "The object first (our grandparents), then the place (in the village), then the time (every summer).",
+  "slots": {
+   "who": [
+    "Mum",
+    "Dad",
+    "my cousins",
+    "our uncle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: twice a week / English / at a language school.",
+  "source": "{name} studies ______ ______ ______ because she wants to {goal}.",
+  "key": [
+   "English",
+   "at a language school",
+   "twice a week"
+  ],
+  "why": "The object first (English), then the place (at a language school), then the time (twice a week).",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "goal": [
+    "travel",
+    "work in a hotel",
+    "be a teacher",
+    "watch films in English"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: in the evening / on the balcony / tea.",
+  "source": "My {who} drink ______ ______ ______, {name}.",
+  "key": [
+   "tea",
+   "on the balcony",
+   "in the evening"
+  ],
+  "why": "The object first (tea), then the place (on the balcony), then the time (in the evening).",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "cousins"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: bread / every morning / at the bakery.",
+  "source": "We buy ______ ______ ______, {name}. It's {adj}.",
+  "key": [
+   "bread",
+   "at the bakery",
+   "every morning"
+  ],
+  "why": "The object first (bread), then the place (at the bakery), then the time (every morning).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "adj": [
+    "fresh",
+    "hot",
+    "warm",
+    "cheap"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: after lunch / the dishes / in the kitchen.",
+  "source": "My {sib} washes ______ ______ ______, {name}.",
+  "key": [
+   "the dishes",
+   "in the kitchen",
+   "after lunch"
+  ],
+  "why": "The object first (the dishes), then the place (in the kitchen), then the time (after lunch).",
+  "slots": {
+   "sib": [
+    "brother",
+    "sister",
+    "cousin",
+    "dad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put these words in the right gaps: on Sundays / photos / in the park.",
+  "source": "{name} takes ______ ______ ______ with her {dev}.",
+  "key": [
+   "photos",
+   "in the park",
+   "on Sundays"
+  ],
+  "why": "The object first (photos), then the place (in the park), then the time (on Sundays).",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "dev": [
+    "phone",
+    "camera",
+    "new camera",
+    "old camera"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "We play {sport} at the weekend in the park, {name}.",
+  "hint": "We play {sport} ______ ______, {name}.",
+  "key": [
+   "in the park",
+   "at the weekend"
+  ],
+  "why": "Where comes before when: the place first, then the time.",
+  "slots": {
+   "sport": [
+    "football",
+    "basketball",
+    "tennis",
+    "volleyball"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "My {sib} takes the bus every morning to school, {name}.",
+  "hint": "My {sib} takes the bus ______ ______, {name}.",
+  "key": [
+   "to school",
+   "every morning"
+  ],
+  "why": "Where comes before when: the place first, then the time.",
+  "slots": {
+   "sib": [
+    "brother",
+    "sister",
+    "cousin",
+    "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "We eat {food} on Fridays at home, {name}.",
+  "hint": "We eat {food} ______ ______, {name}.",
+  "key": [
+   "at home",
+   "on Fridays"
+  ],
+  "why": "Where comes before when: the place first, then the time.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "fish",
+    "pasta"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "My {who} buys {food} on Sundays at the bazaar.",
+  "hint": "My {who} buys {food} ______ ______.",
+  "key": [
+   "at the bazaar",
+   "on Sundays"
+  ],
+  "why": "Where comes before when: the place first, then the time.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "uncle"
+   ],
+   "food": [
+    "fruit",
+    "vegetables",
+    "meat",
+    "rice"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "{name} does her homework after school in the library, {who}.",
+  "hint": "{name} does her homework ______ ______, {who}.",
+  "key": [
+   "in the library",
+   "after school"
+  ],
+  "why": "Where comes before when: the place first, then the time.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "I every morning walk to school with my {who}, {name}.",
+  "hint": "I walk ______ ______ with my {who}, {name}.",
+  "key": [
+   "to school",
+   "every morning"
+  ],
+  "why": "The time never goes between the subject and the verb here: put it at the end, after the place.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "The {kids} after dinner play in the yard, {name}.",
+  "hint": "The {kids} play ______ ______, {name}.",
+  "key": [
+   "in the yard",
+   "after dinner"
+  ],
+  "why": "The time never goes between the subject and the verb here: put it at the end, after the place.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "My {who} on Saturdays meet their friends at the café, {name}.",
+  "hint": "My {who} meet their friends ______ ______, {name}.",
+  "key": [
+   "at the café",
+   "on Saturdays"
+  ],
+  "why": "The time never goes between the subject and the verb here: put it at the end, after the place.",
+  "slots": {
+   "who": [
+    "parents",
+    "brothers",
+    "cousins",
+    "sisters"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "Grandma every evening drinks {drink} in the kitchen, {name}.",
+  "hint": "Grandma drinks {drink} ______ ______, {name}.",
+  "key": [
+   "in the kitchen",
+   "every evening"
+  ],
+  "why": "The time never goes between the subject and the verb here: put it at the end, after the place.",
+  "slots": {
+   "drink": [
+    "tea",
+    "milk",
+    "green tea",
+    "warm milk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order: place, then time.",
+  "source": "We every Sunday have {meal} at home, {name}.",
+  "hint": "We have {meal} ______ ______, {name}.",
+  "key": [
+   "at home",
+   "every Sunday"
+  ],
+  "why": "The time never goes between the subject and the verb here: put it at the end, after the place.",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "pancakes",
+    "eggs",
+    "porridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add on Fridays to the sentence.",
+  "source": "We have {subj} in the big classroom, {name}.",
+  "hint": "We have {subj} ______ ______, {name}.",
+  "key": [
+   "in the big classroom",
+   "on Fridays"
+  ],
+  "why": "Put the time at the end, after the place.",
+  "slots": {
+   "subj": [
+    "maths",
+    "art",
+    "music",
+    "English"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add every summer to the sentence.",
+  "source": "My {who} grows {food} in the village.",
+  "hint": "My {who} grows {food} ______ ______.",
+  "key": [
+   "in the village",
+   "every summer"
+  ],
+  "why": "Put the time at the end, after the place.",
+  "slots": {
+   "who": [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
+   ],
+   "food": [
+    "melons",
+    "tomatoes",
+    "potatoes",
+    "onions"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add at night to the sentence.",
+  "source": "I read {thing} in my room, {name}.",
+  "hint": "I read {thing} ______ ______, {name}.",
+  "key": [
+   "in my room",
+   "at night"
+  ],
+  "why": "Put the time at the end, after the place.",
+  "slots": {
+   "thing": [
+    "books",
+    "comics",
+    "stories",
+    "magazines"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add after work to the sentence.",
+  "source": "My {who} plays {sport} at the gym.",
+  "hint": "My {who} plays {sport} ______ ______.",
+  "key": [
+   "at the gym",
+   "after work"
+  ],
+  "why": "Put the time at the end, after the place.",
+  "slots": {
+   "who": [
+    "dad",
+    "uncle",
+    "brother",
+    "cousin"
+   ],
+   "sport": [
+    "basketball",
+    "table tennis",
+    "volleyball",
+    "badminton"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Add on Sundays to the sentence.",
+  "source": "{name} takes her {pet} to the park.",
+  "hint": "{name} takes her {pet} ______ ______.",
+  "key": [
+   "to the park",
+   "on Sundays"
+  ],
+  "why": "Put the time at the end, after the place.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "pet": [
+    "dog",
+    "little brother",
+    "puppy",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where and when you do your homework.",
+  "requiredElement": "I do my homework + place + time",
+  "constraints": [
+   "exactly one sentence",
+   "a place",
+   "a time after the place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a sport you play: where and when?",
+  "requiredElement": "I play … + place + time",
+  "constraints": [
+   "exactly one sentence",
+   "a place",
+   "a time after the place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where your family eats on Fridays or at the weekend.",
+  "requiredElement": "We eat … + place + time",
+  "constraints": [
+   "exactly one sentence",
+   "a place",
+   "a time after the place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how you go to school or work, and when.",
+  "requiredElement": "I go to … + time",
+  "constraints": [
+   "exactly one sentence",
+   "to + place",
+   "a time after the place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where you meet your friends, and when.",
+  "requiredElement": "I meet my friends + place + time",
+  "constraints": [
+   "exactly one sentence",
+   "a place",
+   "a time after the place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a relative you visit: where and when?",
+  "requiredElement": "I visit … + place + time",
+  "constraints": [
+   "exactly one sentence",
+   "a place",
+   "a time after the place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about where and when you watch TV or films.",
+  "requiredElement": "I watch … + place + time",
+  "constraints": [
+   "exactly one sentence",
+   "a place",
+   "a time after the place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about your weekend. Put a place and a time in each.",
+  "requiredElement": "… + place + time",
+  "constraints": [
+   "exactly two sentences",
+   "a place in each",
+   "a time after each place"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your usual week: what do you do, where and when?",
+  "targetGrammar": "… + place + time",
+  "lookFor": [
+   "place before time",
+   "three different times",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your family's weekend: where do you go, and when?",
+  "targetGrammar": "We go to … on …",
+  "lookFor": [
+   "place before time",
+   "a family word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a new classmate about your school day: where you have lessons, lunch and sport, and when.",
+  "targetGrammar": "We have … in … at …",
+  "lookFor": [
+   "place before time",
+   "a school word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your summer holidays: where do you go, and when?",
+  "targetGrammar": "We go to … in …",
+  "lookFor": [
+   "place before time",
+   "a place name",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "word-order",
+  "topic": "place-time-order",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a friend: invite him or her to do something with you, and say where and when.",
+  "targetGrammar": "Let's meet at … at …",
+  "lookFor": [
+   "place before time",
+   "a time",
+   "three or four sentences"
+  ]
+ }
+]

@@ -1,0 +1,1798 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents live ______ a small village near {city}, {name}.",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look, {name}! There are a lot of {thing} ______ the sky tonight.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "We say in the sky and in the sea: the thing is inside that big area.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "stars",
+    "bright stars",
+    "little stars",
+    "clouds"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle works ______ {city}. He comes home on {day}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "day": [
+    "Fridays",
+    "Saturdays",
+    "Sundays",
+    "holidays"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We swim ______ the sea every {when}, {name}.",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "We say in the sky and in the sea: the thing is inside that big area.",
+  "slots": {
+   "when": [
+    "summer",
+    "morning",
+    "day",
+    "holiday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children are playing ______ the yard with the {pet}, {name}.",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are big trees ______ the forest near our {home}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "home": [
+    "village",
+    "house",
+    "dacha",
+    "town"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} lives ______ the mountains with her {who}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "who": [
+    "grandparents",
+    "family",
+    "aunt",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are a lot of {animal} ______ the field behind our house, {name}.",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "animal": [
+    "cows",
+    "sheep",
+    "horses",
+    "goats"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} lives ______ a big city, but I live in a village, {name}.",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "who": [
+    "cousin",
+    "aunt",
+    "brother",
+    "friend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It's very hot ______ the desert in {month}, {name}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "month": [
+    "July",
+    "August",
+    "June",
+    "the afternoon"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's a big park ______ the middle of our {town}, {name}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "town": [
+    "town",
+    "city",
+    "village",
+    "district"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} has a small house ______ the countryside, {name}.",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "We say in the world and in the countryside.",
+  "slots": {
+   "who": [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is there a good {place} ______ your town, {name}?",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "place": [
+    "café",
+    "library",
+    "gym",
+    "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {pet} stays ______ the yard all day, {name}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are a lot of fish ______ this {water}, {name}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "We say in the sky and in the sea: the thing is inside that big area.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "pond",
+    "sea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "How many people live ______ your {area}, {name}?",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "area": [
+    "village",
+    "town",
+    "city",
+    "building"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are many {thing} ______ the world, {name}.",
+  "options": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "key": 0,
+  "why": "We say in the world and in the countryside.",
+  "slots": {
+   "thing": [
+    "languages",
+    "countries",
+    "animals",
+    "cities"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My friend from {country} is ______ Uzbekistan this {when}.",
+  "options": [
+   "on",
+   "at",
+   "to",
+   "in"
+  ],
+  "key": 3,
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "country": [
+    "Russia",
+    "Korea",
+    "Turkey",
+    "Kazakhstan"
+   ],
+   "when": [
+    "week",
+    "month",
+    "summer",
+    "spring"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We stay ______ the mountains for a week in {month}, {name}.",
+  "options": [
+   "at",
+   "to",
+   "in",
+   "on"
+  ],
+  "key": 2,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "month": [
+    "July",
+    "August",
+    "June",
+    "the summer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are red flowers ______ the fields in {month}, {name}.",
+  "options": [
+   "to",
+   "in",
+   "on",
+   "at"
+  ],
+  "key": 1,
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "month": [
+    "April",
+    "May",
+    "March",
+    "spring"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "My aunt lives ______ {city}, {name}.",
+  "key": "in",
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There are a lot of {thing} ______ the sky tonight, {name}.",
+  "key": "in",
+  "why": "We say in the sky and in the sea: the thing is inside that big area.",
+  "slots": {
+   "thing": [
+    "stars",
+    "clouds",
+    "bright stars",
+    "little stars"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Our {pet} is ______ the yard, {name}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "My grandparents have a farm ______ a small village near {city}, {name}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "We often swim ______ the {water} near our {home}.",
+  "key": "in",
+  "why": "We say in the sky and in the sea: the thing is inside that big area.",
+  "slots": {
+   "water": [
+    "lake",
+    "river",
+    "sea",
+    "pond"
+   ],
+   "home": [
+    "house",
+    "village",
+    "town",
+    "dacha"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "{name}'s family lives ______ the mountains with two {pet}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "pet": [
+    "dogs",
+    "cats",
+    "horses",
+    "goats"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There are a lot of {animal} ______ the forest, {name}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "animal": [
+    "birds",
+    "rabbits",
+    "squirrels",
+    "deer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "My {who} works ______ a big city, {name}.",
+  "key": "in",
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "who": [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Is there a cinema ______ your {area}, {name}?",
+  "key": "in",
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "area": [
+    "village",
+    "town",
+    "city",
+    "district"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "It's very cold ______ the mountains at night, {name}. Take a {thing}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "coat",
+    "jacket",
+    "warm hat",
+    "sweater"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There are {n} people ______ our village, {name}.",
+  "key": "in",
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "n": [
+    "about 500",
+    "about 800",
+    "about a thousand",
+    "two thousand"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The cows are ______ the field behind the {place}, {name}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "place": [
+    "school",
+    "farm",
+    "house",
+    "river"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "My friend from {country} lives ______ Tashkent now, {name}.",
+  "key": "in",
+  "why": "For a town, a city or a country, use in: in Samarkand, in Uzbekistan.",
+  "slots": {
+   "country": [
+    "Russia",
+    "Korea",
+    "Turkey",
+    "Kazakhstan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There are many {thing} ______ the world, {name}.",
+  "key": "in",
+  "why": "We say in the world and in the countryside.",
+  "slots": {
+   "thing": [
+    "languages",
+    "countries",
+    "animals",
+    "cities"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "My {who} has a small house ______ the countryside, {name}.",
+  "key": "in",
+  "why": "We say in the world and in the countryside.",
+  "slots": {
+   "who": [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "Look! There's a {color} plane ______ the sky, {name}.",
+  "key": "in",
+  "why": "We say in the sky and in the sea: the thing is inside that big area.",
+  "slots": {
+   "color": [
+    "white",
+    "red",
+    "big",
+    "small"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There's a big park ______ the middle of our {town}, {name}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "town": [
+    "town",
+    "city",
+    "village",
+    "district"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "The children are playing ______ the yard with their {thing}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "thing": [
+    "ball",
+    "dog",
+    "bikes",
+    "kite"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "There are a lot of fish ______ this {water}, {name}.",
+  "key": "in",
+  "why": "We say in the sky and in the sea: the thing is inside that big area.",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "pond",
+    "sea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write in, on or at.",
+  "source": "It's very {adj} ______ the desert during the day, {name}.",
+  "key": "in",
+  "why": "For an area with edges around it (a village, the yard, the forest, the mountains), use in.",
+  "slots": {
+   "adj": [
+    "hot",
+    "dry",
+    "sunny",
+    "bright"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in and the mountains.",
+  "source": "Where does your {who} live, {name}?",
+  "hint": "He lives ______ mountains, {name}.",
+  "key": "in the",
+  "why": "The mountains are an area: in the mountains.",
+  "slots": {
+   "who": [
+    "grandpa",
+    "uncle",
+    "cousin",
+    "brother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in and the yard.",
+  "source": "Where is the {pet}, {name}?",
+  "hint": "It's ______ yard, {name}.",
+  "key": "in the",
+  "why": "The yard is an area with a fence around it: in the yard.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in and the forest.",
+  "source": "Where do the {animal} live, {name}?",
+  "hint": "They live ______ forest, {name}.",
+  "key": "in the",
+  "why": "The forest is an area: in the forest.",
+  "slots": {
+   "animal": [
+    "birds",
+    "squirrels",
+    "rabbits",
+    "deer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in and the countryside.",
+  "source": "Where does your {who} have a house, {name}?",
+  "hint": "She has a house ______ countryside, {name}.",
+  "key": "in the",
+  "why": "We say in the countryside.",
+  "slots": {
+   "who": [
+    "grandma",
+    "aunt",
+    "sister",
+    "cousin"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question. Use in and the sky.",
+  "source": "Where are the {thing}, {name}?",
+  "hint": "They're ______ sky, {name}. Look up!",
+  "key": "in the",
+  "why": "We say in the sky, not on the sky.",
+  "slots": {
+   "thing": [
+    "stars",
+    "birds",
+    "clouds",
+    "planes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My aunt lives at {city}, {name}.",
+  "hint": "My aunt lives ______ {city}, {name}.",
+  "key": "in",
+  "why": "For a city, use in: in Samarkand, not at Samarkand.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There are a lot of {thing} on the sky, {name}.",
+  "hint": "There are a lot of {thing} ______ the sky, {name}.",
+  "key": "in",
+  "why": "We say in the sky, not on the sky.",
+  "slots": {
+   "thing": [
+    "stars",
+    "clouds",
+    "birds",
+    "planes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My grandparents live at a small village near {city}, {name}.",
+  "hint": "My grandparents live ______ a small village near {city}, {name}.",
+  "key": "in",
+  "why": "For a village, use in, not at.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {pet} is playing on the yard, {name}.",
+  "hint": "The {pet} is playing ______ the yard, {name}.",
+  "key": "in",
+  "why": "The yard is an area, so use in, not on.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My friend from {country} works at Uzbekistan now, {name}.",
+  "hint": "My friend from {country} works ______ Uzbekistan now, {name}.",
+  "key": "in",
+  "why": "For a country, use in, not at.",
+  "slots": {
+   "country": [
+    "Russia",
+    "Korea",
+    "Turkey",
+    "Kazakhstan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer in a full sentence. Use in.",
+  "source": "Where does your uncle live? – {city}.",
+  "hint": "My uncle lives ______ {city}, {name}.",
+  "key": "in",
+  "why": "A city → in: in Bukhara.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer in a full sentence. Use in.",
+  "source": "Where are the {animal}? – The field.",
+  "hint": "The {animal} are ______ the field, {name}.",
+  "key": "in",
+  "why": "A field is an area: in the field.",
+  "slots": {
+   "animal": [
+    "cows",
+    "sheep",
+    "horses",
+    "goats"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer in a full sentence. Use in.",
+  "source": "Where do you swim every summer? – The {water}.",
+  "hint": "We swim ______ the {water} every summer, {name}.",
+  "key": "in",
+  "why": "We swim in the sea, in the river, in the lake.",
+  "slots": {
+   "water": [
+    "sea",
+    "river",
+    "lake",
+    "pond"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer in a full sentence. Use in.",
+  "source": "Where's the big park? – The middle of our {town}.",
+  "hint": "There's a big park ______ the middle of our {town}, {name}.",
+  "key": "in",
+  "why": "We say in the centre of a town.",
+  "slots": {
+   "town": [
+    "town",
+    "city",
+    "village",
+    "district"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer in a full sentence. Use in.",
+  "source": "Where does your cousin live? – {country}.",
+  "hint": "My cousin lives ______ {country}, {name}.",
+  "key": "in",
+  "why": "A country → in: in Korea, in Turkey.",
+  "slots": {
+   "country": [
+    "Russia",
+    "Korea",
+    "Turkey",
+    "Kazakhstan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the town or city where you live.",
+  "requiredElement": "I live in …",
+  "constraints": [
+   "exactly one sentence",
+   "in + a town or city",
+   "a place name"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a relative who lives in another town or village.",
+  "requiredElement": "My … lives in …",
+  "constraints": [
+   "exactly one sentence",
+   "in",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you can see in the sky at night.",
+  "requiredElement": "There are … in the sky.",
+  "constraints": [
+   "exactly one sentence",
+   "in the sky",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a good place in your town.",
+  "requiredElement": "There's a … in our town.",
+  "constraints": [
+   "exactly one sentence",
+   "in our town",
+   "a place word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the mountains, the countryside or the sea.",
+  "requiredElement": "… in the mountains / in the sea",
+  "constraints": [
+   "exactly one sentence",
+   "in the",
+   "a nature word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what children do in the yard of your building or house.",
+  "requiredElement": "The children … in the yard.",
+  "constraints": [
+   "exactly one sentence",
+   "in the yard",
+   "an action word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a country you want to visit and why.",
+  "requiredElement": "I want to see … in …",
+  "constraints": [
+   "exactly one sentence",
+   "in + a country",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one about your town and one about your country.",
+  "requiredElement": "… in … / … in Uzbekistan",
+  "constraints": [
+   "exactly two sentences",
+   "in twice",
+   "two place names"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your town, city or village for a visitor: what is there?",
+  "targetGrammar": "There's a … in …",
+  "lookFor": [
+   "in",
+   "two place words",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe where your family lives: your town, your relatives' towns and villages.",
+  "targetGrammar": "My … lives in …",
+  "lookFor": [
+   "in",
+   "a family word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a summer holiday in the mountains, the countryside or by the sea.",
+  "targetGrammar": "We stayed in … / We swam in …",
+  "lookFor": [
+   "in the",
+   "a nature word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe the yard of your house or building: who is there and what do they do?",
+  "targetGrammar": "The children play in the yard.",
+  "lookFor": [
+   "in the yard",
+   "people words",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "place",
+  "topic": "in-area",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write to a pen friend in another country: where do you live, and where does your family live?",
+  "targetGrammar": "I live in … My grandparents live in …",
+  "lookFor": [
+   "in",
+   "a place name",
+   "three or four sentences"
+  ]
+ }
+]

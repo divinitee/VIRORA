@@ -1,0 +1,1828 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ {name} got a {pet}?",
+  "options": [
+   "Has",
+   "Have",
+   "Is",
+   "Does"
+  ],
+  "key": 0,
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your {who} got a car, {name}?",
+  "options": [
+   "Have",
+   "Is",
+   "Does",
+   "Has"
+  ],
+  "key": 3,
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "dad",
+    "uncle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your school got a {place}, {name}?",
+  "options": [
+   "Is",
+   "Does",
+   "Has",
+   "Have"
+  ],
+  "key": 2,
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "place": [
+    "library",
+    "gym",
+    "canteen",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ he got a {thing} for the {lesson} lesson?",
+  "options": [
+   "Does",
+   "Has",
+   "Have",
+   "Is"
+  ],
+  "key": 1,
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "thing": [
+    "pen",
+    "pencil",
+    "ruler",
+    "notebook"
+   ],
+   "lesson": [
+    "English",
+    "maths",
+    "art",
+    "music"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your flat got a {thing}, {name}?",
+  "options": [
+   "Has",
+   "Have",
+   "Is",
+   "Does"
+  ],
+  "key": 0,
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "thing": [
+    "balcony",
+    "lift",
+    "garden",
+    "big kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ she got any {sib}, {name}?",
+  "options": [
+   "Have",
+   "Is",
+   "Does",
+   "Has"
+  ],
+  "key": 3,
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "sib": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "aunts"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ the {room} got a {thing}?",
+  "options": [
+   "Is",
+   "Does",
+   "Has",
+   "Have"
+  ],
+  "key": 2,
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "hotel room",
+    "bedroom"
+   ],
+   "thing": [
+    "window",
+    "TV",
+    "clock",
+    "table"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you got a {thing}, {name}?",
+  "options": [
+   "Do",
+   "Have",
+   "Has",
+   "Are"
+  ],
+  "key": 1,
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "thing": [
+    "pen",
+    "pencil",
+    "ruler",
+    "charger"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your parents got a {color} car, {name}?",
+  "options": [
+   "Have",
+   "Has",
+   "Are",
+   "Do"
+  ],
+  "key": 0,
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ they got a house in {city}, {name}?",
+  "options": [
+   "Has",
+   "Are",
+   "Do",
+   "Have"
+  ],
+  "key": 3,
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ we got any {food} at home, {who}?",
+  "options": [
+   "Are",
+   "Do",
+   "Have",
+   "Has"
+  ],
+  "key": 2,
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "food": [
+    "milk",
+    "bread",
+    "eggs",
+    "tea"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ you got any {sib}, {name}?",
+  "options": [
+   "Do",
+   "Have",
+   "Has",
+   "Are"
+  ],
+  "key": 1,
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "sib": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "aunts"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ your cousins got a {pet}, {name}?",
+  "options": [
+   "Have",
+   "Has",
+   "Are",
+   "Do"
+  ],
+  "key": 0,
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ I got {thing} on my {part}?",
+  "options": [
+   "Has",
+   "Are",
+   "Do",
+   "Have"
+  ],
+  "key": 3,
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "thing": [
+    "paint",
+    "ink",
+    "chalk",
+    "jam"
+   ],
+   "part": [
+    "face",
+    "shirt",
+    "hands",
+    "nose"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Has {name} got a {thing}? – Yes, ______.",
+  "options": [
+   "he is",
+   "he got",
+   "he has",
+   "he does"
+  ],
+  "key": 2,
+  "why": "The question is Has … got …?, so the short answer is Yes, he has. No got, no do.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "thing": [
+    "bike",
+    "phone",
+    "laptop",
+    "watch"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Have you got a {thing}, {name}? – Yes, ______.",
+  "options": [
+   "I got",
+   "I have",
+   "I do",
+   "I am"
+  ],
+  "key": 1,
+  "why": "The question is Have … got …?, so the short answer is Yes, I have. No got, no do.",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "charger",
+    "pencil"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Has your {who} got a car, {name}? – No, ______.",
+  "options": [
+   "she hasn't",
+   "she doesn't",
+   "she isn't",
+   "she hasn't got"
+  ],
+  "key": 0,
+  "why": "The question is Has … got …?, so the short answer is No, she hasn't. No got at the end.",
+  "slots": {
+   "who": [
+    "sister",
+    "mum",
+    "aunt",
+    "grandma"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Have they got a {pet}, {name}? – No, ______.",
+  "options": [
+   "they don't",
+   "they aren't",
+   "they haven't got",
+   "they haven't"
+  ],
+  "key": 3,
+  "why": "The question is Have … got …?, so the short answer is No, they haven't. No got at the end.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Has your flat got a {thing}, {name}? – Yes, ______.",
+  "options": [
+   "it is",
+   "it got",
+   "it has",
+   "it does"
+  ],
+  "key": 2,
+  "why": "The question is Has … got …?, so the short answer is Yes, it has. No got, no do.",
+  "slots": {
+   "thing": [
+    "balcony",
+    "lift",
+    "big kitchen",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Have we got any {food}, {who}? – No, ______.",
+  "options": [
+   "we haven't got",
+   "we haven't",
+   "we don't",
+   "we aren't"
+  ],
+  "key": 1,
+  "why": "The question is Have … got …?, so the short answer is No, we haven't. No got at the end.",
+  "slots": {
+   "food": [
+    "milk",
+    "bread",
+    "eggs",
+    "sugar"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ {name} got a {color} bike?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ your {who} got a job in {city}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "uncle",
+    "aunt"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ the {room} got a big window, {name}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "classroom",
+    "bedroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ she got a {pet} at home, {name}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ your teacher got a {thing}, {name}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "thing": [
+    "car",
+    "bike",
+    "dog",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ this {place} got free Wi-Fi, {name}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "place": [
+    "café",
+    "hotel",
+    "library",
+    "bus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ Grandma got any {food} for us, {name}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "food": [
+    "apples",
+    "sweets",
+    "bread",
+    "cake"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ your village got a {place}, {name}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "place": [
+    "school",
+    "hospital",
+    "shop",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ he got a {ill}, {who}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "ill": [
+    "cold",
+    "temperature",
+    "headache",
+    "cough"
+   ],
+   "who": [
+    "Doctor",
+    "Mum",
+    "Dad",
+    "Nurse"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ your phone got a good {thing}, {name}?",
+  "key": "Has",
+  "why": "With he, she, it or one person or thing, the question is Has … got …?",
+  "slots": {
+   "thing": [
+    "camera",
+    "battery",
+    "screen",
+    "case"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ you got a {thing} for me, {name}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "thing": [
+    "pen",
+    "pencil",
+    "ruler",
+    "charger"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ they got any {kids}, {name}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "kids": [
+    "children",
+    "grandchildren",
+    "pets",
+    "cousins"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ we got {thing} for the {event}, {name}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "thing": [
+    "tickets",
+    "plates",
+    "chairs",
+    "presents"
+   ],
+   "event": [
+    "concert",
+    "party",
+    "picnic",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ your grandparents got a {animal}, {name}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "animal": [
+    "cow",
+    "horse",
+    "donkey",
+    "goat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ you got time {when}, {name}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "when": [
+    "today",
+    "tomorrow",
+    "after school",
+    "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ the students got their {thing}, {who}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "thing": [
+    "books",
+    "pens",
+    "notebooks",
+    "dictionaries"
+   ],
+   "who": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "teacher",
+    "Mrs Karimova"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ your friends got a {thing} for the trip to {city}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "thing": [
+    "car",
+    "map",
+    "tent",
+    "camera"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ I got any {msg} today, {name}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "msg": [
+    "messages",
+    "letters",
+    "emails",
+    "calls"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ you got any {food} in the {place}, {name}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "food": [
+    "milk",
+    "juice",
+    "cheese",
+    "eggs"
+   ],
+   "place": [
+    "fridge",
+    "kitchen",
+    "bag",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Have or Has.",
+  "source": "______ your cousins got a flat in {city}, {name}?",
+  "key": "Have",
+  "why": "With I, you, we, they or more than one person, the question is Have … got …?",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "She has got a {color} bike, {name}.",
+  "hint": "______ a {color} bike, {name}?",
+  "key": "Has she got",
+  "why": "Put has before she, and got after she: Has she got …?",
+  "slots": {
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "They have got a {pet} called {pn}.",
+  "hint": "______ a {pet} called {pn}?",
+  "key": "Have they got",
+  "why": "Put have before they, and got after they: Have they got …?",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "pn": [
+    "Bars",
+    "Max",
+    "Luna",
+    "Snow"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "Your brother has got a {thing}, {name}.",
+  "hint": "______ a {thing}, {name}?",
+  "key": "Has your brother got",
+  "why": "Has comes first, then the person, then got: Has your brother got …?",
+  "slots": {
+   "thing": [
+    "guitar",
+    "laptop",
+    "camera",
+    "motorbike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "You have got a {thing} in your bag, {name}.",
+  "hint": "______ a {thing} in your bag, {name}?",
+  "key": "Have you got",
+  "why": "Have comes first, then you, then got: Have you got …?",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "charger",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question.",
+  "source": "The flat has got a {thing}, {name}.",
+  "hint": "______ a {thing}, {name}?",
+  "key": "Has the flat got",
+  "why": "Has comes first, then the flat, then got: Has the flat got …?",
+  "slots": {
+   "thing": [
+    "balcony",
+    "lift",
+    "garden",
+    "big kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Does she got a {pet}, {name}?",
+  "hint": "______ she got a {pet}, {name}?",
+  "key": "Has",
+  "why": "With got, the question starts with Has, not Does.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Have he got a {thing}, {name}?",
+  "hint": "______ he got a {thing}, {name}?",
+  "key": "Has",
+  "why": "He → Has he got …?, not Have.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "watch",
+    "laptop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Has they got a {color} car, {name}?",
+  "hint": "______ they got a {color} car, {name}?",
+  "key": "Have",
+  "why": "They → Have they got …?, not Has.",
+  "slots": {
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Is your sister got a {thing}, {name}?",
+  "hint": "______ your sister got a {thing}, {name}?",
+  "key": "Has",
+  "why": "The question with got starts with Has, not Is.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "car",
+    "camera"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Have got you a {thing}, {name}?",
+  "hint": "______ a {thing}, {name}?",
+  "key": "Have you got",
+  "why": "The order is Have + you + got: Have you got …?",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "pencil",
+    "charger"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "Yes, she has. She's got a {pet} called {pn}.",
+  "hint": "______ she got a pet, {name}?",
+  "key": "Has",
+  "why": "The answer is Yes, she has, so the question is Has she got …?",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "pn": [
+    "Bars",
+    "Max",
+    "Luna",
+    "Snow"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "No, they haven't. They walk to {place}.",
+  "hint": "______ they got a car, {name}?",
+  "key": "Have",
+  "why": "The answer is No, they haven't, so the question is Have they got …?",
+  "slots": {
+   "place": [
+    "work",
+    "school",
+    "the bazaar",
+    "the park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "Yes, I have. I've got two {sib}.",
+  "hint": "______ you got any brothers or sisters, {name}?",
+  "key": "Have",
+  "why": "The answer is Yes, I have, so the question is Have you got …?",
+  "slots": {
+   "sib": [
+    "brothers",
+    "sisters",
+    "little sisters",
+    "big brothers"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "Yes, it has. It's got a big {room}.",
+  "hint": "______ your flat got a big {room}, {name}?",
+  "key": "Has",
+  "why": "The answer is Yes, it has, so the question is Has your flat got …?",
+  "slots": {
+   "room": [
+    "kitchen",
+    "balcony",
+    "living room",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "No, he hasn't. His {thing} is at home.",
+  "hint": "______ he got his {thing}, {name}?",
+  "key": "Has",
+  "why": "The answer is No, he hasn't, so the question is Has he got …?",
+  "slots": {
+   "thing": [
+    "ticket",
+    "passport",
+    "phone",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a new classmate one question with Have you got … ?",
+  "requiredElement": "Have you got … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Have you got",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend one question about his or her brother or sister.",
+  "requiredElement": "Has he / she got … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Has",
+   "got"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask one question about a friend's flat or house.",
+  "requiredElement": "Has your flat / house got … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Has",
+   "a room word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You are in a shop. Ask the shop assistant one question.",
+  "requiredElement": "Have you got any … ?",
+  "constraints": [
+   "exactly one question",
+   "Have you got any",
+   "a food or thing word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend one question about pets, then write his or her short answer.",
+  "requiredElement": "Have you got … ? – Yes, I have. / No, I haven't.",
+  "constraints": [
+   "one question and one short answer",
+   "Have you got",
+   "Yes, I have or No, I haven't"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask one question about your town or village with Has … got … ?",
+  "requiredElement": "Has our town got … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Has",
+   "a place word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask your teacher one question about the lesson.",
+  "requiredElement": "Have we got … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Have we got",
+   "a school word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two questions for a new friend: one with Have you got and one with Has your … got.",
+  "requiredElement": "Have you got … ? / Has your … got … ?",
+  "constraints": [
+   "exactly two questions",
+   "Have you got once",
+   "Has your once"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You want to know a new classmate. Write three or four questions with Have you got … ? and answer one of them.",
+  "targetGrammar": "Have you got … ?",
+  "lookFor": [
+   "Have you got",
+   "a short answer",
+   "three or four questions"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend is moving to a new flat. Ask three or four questions about it.",
+  "targetGrammar": "Has it got … ?",
+  "lookFor": [
+   "Has it got / Has the flat got",
+   "a room word",
+   "three or four questions"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are going on a picnic with friends. Ask three or four questions to check what you have got.",
+  "targetGrammar": "Have we got … ? / Has … got … ?",
+  "lookFor": [
+   "Have we got",
+   "Has … got once",
+   "three or four questions"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Ask a friend about his or her family: brothers, sisters, cousins and pets.",
+  "targetGrammar": "Have you got … ? / Has he / she got … ?",
+  "lookFor": [
+   "Have you got",
+   "Has he or she got",
+   "three or four questions"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short dialogue in a shop: you ask about three things, and the assistant answers.",
+  "targetGrammar": "Have you got any … ? – Yes, we have. / No, we haven't.",
+  "lookFor": [
+   "Have you got any",
+   "a short answer",
+   "three or four lines"
+  ]
+ }
+]
