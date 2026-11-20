@@ -267,14 +267,14 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A person + who + verb: the verb agrees with the person (the man who lives, the people who live).
 
 14. _Say what the person does. Use a person who._  
-   A **nurse** looks after **old people**.  
-   → A **nurse** is a person ______ **old people**.  
+   A nurse looks after **sick people** in **a health centre**.  
+   → A nurse is a person ______ **sick people** in **a health centre**.  
    key: who looks after (also: that looks after)  
    why: A person + who + verb: the verb agrees with the person (the man who lives, the people who live).
 
 15. _Say what the person does. Use a person who._  
-   A **truck driver** drives a **truck**.  
-   → A **truck driver** is a person ______ a **truck**.  
+   A taxi driver drives **passengers** around **Tashkent**.  
+   → A taxi driver is a person ______ **passengers** around **Tashkent**.  
    key: who drives (also: that drives)  
    why: A person + who + verb: the verb agrees with the person (the man who lives, the people who live).
 

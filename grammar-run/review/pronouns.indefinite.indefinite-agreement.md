@@ -86,102 +86,102 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## build (20)
 
-1. _Write the verb in brackets in the right form._  
+1. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Everyone **at my school** ______ (like) **chess**.  
    key: likes  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-2. _Write the verb in brackets in the right form._  
+2. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Nobody ______ (know) where **Olga** is **now**.  
    key: knows  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-3. _Write the verb in brackets in the right form._  
-   Everybody ______ (be) tired after the **wedding**, **Aziz**.  
+3. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
+   Look at them! Everybody ______ (be) tired after the **wedding**, **Aziz**.  
    key: is  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-4. _Write the verb in brackets in the right form._  
+4. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    No one ______ (be) in the **hall** last night, **Olga**.  
    key: was  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-5. _Write the verb in brackets in the right form._  
+5. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Everyone **in my family** ______ (have) a **pet**.  
    key: has  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-6. _Write the verb in brackets in the right form._  
+6. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Nobody ______ (want) to sit near the **window**, **Lola**.  
    key: wants  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-7. _Write the verb in brackets in the right form._  
+7. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Everybody in my family ______ (drink) tea after **plov**.  
    key: drinks  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-8. _Write the verb in brackets in the right form._  
+8. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Someone in our **street** ______ (work) at the **bank**.  
    key: works  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-9. _Write the verb in brackets in the right form._  
-   Everything ______ (be) ready for the **wedding** on **Friday**.  
+9. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
+   Everything ______ (be) ready for the **wedding** last **Friday**.  
    key: was  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-10. _Write the verb in brackets in the right form._  
+10. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Nothing in this **shop** ______ (cost) more than ten dollars, **Olga**.  
    key: costs  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-11. _Write the verb in brackets in the right form._  
+11. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Somebody ______ (have) your **jacket**, **Timur**. Ask the teacher.  
    key: has  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-12. _Write the verb in brackets in the right form._  
+12. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    No one ______ (live) on the top floor of our **new building**, **Olga**.  
    key: lives  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-13. _Write the verb in brackets in the right form._  
+13. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Everything in the **classroom** ______ (be) new, **Olga**.  
    key: is  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-14. _Write the verb in brackets in the right form._  
+14. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Everyone ______ (love) **Olga**'s **salads**.  
    key: loves  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-15. _Write the verb in brackets in the right form._  
-   Nobody ______ (be) at the bus stop at **seven**, **Olga**.  
+15. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
+   Nobody ______ (be) at the bus stop at **seven** yesterday, **Olga**.  
    key: was  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-16. _Write the verb in brackets in the right form._  
+16. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Someone always ______ (help) **Grandpa** with the **shopping**.  
    key: helps  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-17. _Write the verb in brackets in the right form._  
+17. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Everybody in our **office** ______ (speak) a little English, **Aziz**.  
    key: speaks  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-18. _Write the verb in brackets in the right form._  
+18. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    No one in our **flat** ______ (watch) TV in the **daytime**.  
    key: watches  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-19. _Write the verb in brackets in the right form._  
+19. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Everyone **at my grandma's** ______ (go) to the **market** on Sundays.  
    key: goes  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
 
-20. _Write the verb in brackets in the right form._  
+20. _Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word._  
    Somebody ______ (be) in my **garden** this morning, **Lola**.  
    key: was  
    why: everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).
@@ -275,7 +275,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Rewrite the sentence with nobody or no one._  
    My classmates haven't got a **boat**, **Timur**.  
    → Nobody in my class ______ a **boat**, **Timur**.  
-   key: has  
+   key: has (also: has got)  
    why: nobody → has (no not).
 
 ## create (8)

@@ -935,7 +935,7 @@ export default [
    ],
    "job": [
     "nurse",
-    "police officer",
+    "shop assistant",
     "teacher",
     "doctor"
    ]
@@ -1601,7 +1601,7 @@ export default [
    ],
    "place": [
     "school",
-    "a college",
+    "our school",
     "a lyceum",
     "a language centre"
    ]
@@ -1647,25 +1647,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the person does. Use a person who.",
-  "source": "A {job} looks after {who}.",
-  "hint": "A {job} is a person ______ {who}.",
+  "source": "A nurse looks after {who} in {place}.",
+  "hint": "A nurse is a person ______ {who} in {place}.",
   "key": "who looks after",
   "acceptable": [
    "that looks after"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
-   "job": [
-    "nurse",
-    "babysitter",
-    "nanny",
-    "carer"
-   ],
    "who": [
     "sick people",
-    "children",
-    "old people",
-    "babies"
+    "patients",
+    "ill children",
+    "old people"
+   ],
+   "place": [
+    "hospital",
+    "a clinic",
+    "a health centre",
+    "the city hospital"
    ]
   }
  },
@@ -1678,25 +1678,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Say what the person does. Use a person who.",
-  "source": "A {job} drives a {vehicle}.",
-  "hint": "A {job} is a person ______ a {vehicle}.",
+  "source": "A taxi driver drives {who} around {place}.",
+  "hint": "A taxi driver is a person ______ {who} around {place}.",
   "key": "who drives",
   "acceptable": [
    "that drives"
   ],
   "why": "A person + who + verb: the verb agrees with the person (the man who lives, the people who live).",
   "slots": {
-   "job": [
-    "bus driver",
-    "taxi driver",
-    "truck driver",
-    "tram driver"
+   "who": [
+    "people",
+    "tourists",
+    "passengers",
+    "families"
    ],
-   "vehicle": [
-    "bus",
-    "taxi",
-    "truck",
-    "tram"
+   "place": [
+    "the city",
+    "the town",
+    "Tashkent",
+    "Samarkand"
    ]
   }
  },
