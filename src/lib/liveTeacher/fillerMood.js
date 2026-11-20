@@ -6,9 +6,9 @@
 
 const EMPATHY = [
   // English
-  'sad', 'tired', 'exhausted', 'sick', ' ill', 'upset', 'angry', 'bad day', 'terrible', 'awful', 'horrible', 'lonely', 'alone',
-  'died', 'dead', 'death', 'passed away', 'funeral', 'lost my', 'miss him', 'miss her', 'miss my', 'cry', 'crying', 'cried',
-  'stress', 'worried', 'worry', 'afraid', 'scared', 'hurt', 'pain', 'broke up', 'failed', 'fail', 'depress', 'hate my',
+  'sad', 'tired', 'exhausted', 'sick', ' ill ', 'upset', 'angry', 'bad day', 'terrible', 'awful', 'horrible', 'lonely', 'alone',
+  'died', ' dead ', 'death', 'passed away', 'funeral', 'lost my', 'miss him', 'miss her', 'miss my', 'cry', 'crying', 'cried',
+  'stress', 'worried', 'worry', 'afraid', 'scared', 'hurt', ' pain ', 'painful', 'broke up', 'failed', 'fail', 'depress', 'hate my',
   'nobody', 'bored', 'not good', 'not well', 'not okay', 'unhappy', 'headache', 'hospital',
   // Uzbek (Latin, with and without the ' / ʻ marks)
   'xafa', 'charcha', 'kasal', 'yomon', 'qayg', "g'amgin", 'gamgin', 'yolg', 'vafot', 'qo\'rq', 'qorq', 'siqil', 'zerik',
@@ -23,7 +23,7 @@ const POSITIVE = [
   "zo'r", 'zor', 'ajoyib', 'xursand', 'baxtli', 'yutdim', "o'tdim", 'otdim', 'tug\'ilgan kun', 'tugilgan kun',
   'отлично', 'круто', 'рад', 'счастлив', 'ура', 'выиграл', 'сдал', 'классно', 'супер', 'день рождения',
 ];
-const QUESTION_START = /^(what|why|how|when|where|who|which|can|could|should|would|is|are|do|does|did|will|teacher|nima|nega|qanday|qachon|qayer|kim|nimaga|что|почему|как|когда|где|кто|зачем|можно)\b/i;
+const QUESTION_START = /^(what|why|how|when|where|who|which|can|could|should|would|is|are|do|does|did|will|nima|nega|qanday|qachon|qayer|kim|nimaga|что|почему|как|когда|где|кто|зачем|можно)\b/i;
 
 const norm = (s) => ` ${String(s || '').toLowerCase().replace(/[\[(][^\])]*[\])]/g, ' ').replace(/[’`ʻʼ]/g, "'").replace(/\s+/g, ' ').trim()} `;
 const has = (text, words) => words.some((w) => text.includes(w));
