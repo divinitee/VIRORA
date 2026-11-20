@@ -36,7 +36,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: during · by · ✔ until · since  
    why: We stay, and leave when the rain stops: until.
 
-9. The homework must be on my desk ______ **Thursday** morning, **Nodira**.  
+9. The homework must be handed in ______ **Thursday** morning, **Nodira**.  
    options: ✔ by · until · since · during  
    why: A deadline for the teacher: by.
 
@@ -48,7 +48,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: since · during · ✔ by · until  
    why: Pay back once, not later than that: by.
 
-12. The road to **Chimgan** will be closed ______ **Tuesday**.  
+12. The road to **Chimgan** will stay closed ______ **Tuesday**.  
    options: during · by · ✔ until · since  
    why: Closed the whole time, then open again: until.
 
@@ -68,9 +68,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: during · by · ✔ until · since  
    why: You keep it the whole time, then give it back: until.
 
-17. Tickets for the **match** must be booked ______ **Tuesday**.  
+17. Make sure you've booked tickets for the **match** ______ **Tuesday**.  
    options: ✔ by · until · since · during  
-   why: booked once, before the deadline: by.
+   why: booked at some point before the deadline: by.
 
 18. The baby cried ______ **her sister** came home, **Feruza**.  
    options: ✔ until · since · during · by  
@@ -227,7 +227,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Make one sentence with until._  
    The **bank** opens at eight. It closes at ten, **Sardor**.  
    → The **bank** is open from eight ______ ten, **Sardor**.  
-   key: until (also: till)  
+   key: until (also: till, to)  
    why: from … until: open the whole time, then closed.
 
 8. _Make one sentence with until._  
@@ -273,10 +273,10 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: be open continues: until.
 
 15. _Correct the mistake._  
-   We have to book the **bus** until **Monday**, **Ulugbek**.  
-   → We have to book the **bus** ______ **Monday**, **Ulugbek**.  
+   We have to decide about the **bus** until **Monday**, **Ulugbek**.  
+   → We have to decide about the **bus** ______ **Monday**, **Ulugbek**.  
    key: by  
-   why: book = once, before a deadline: by.
+   why: decide = once, before a deadline: by.
 
 ## create (8)
 

@@ -277,7 +277,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The homework must be on my desk ______ {day} morning, {name}.",
+  "prompt": "The homework must be handed in ______ {day} morning, {name}.",
   "options": [
    "by",
    "until",
@@ -373,7 +373,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The road to {city} will be closed ______ {day}.",
+  "prompt": "The road to {city} will stay closed ______ {day}.",
   "options": [
    "during",
    "by",
@@ -545,7 +545,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Tickets for the {event} must be booked ______ {day}.",
+  "prompt": "Make sure you've booked tickets for the {event} ______ {day}.",
   "options": [
    "by",
    "until",
@@ -553,7 +553,7 @@ export default [
    "during"
   ],
   "key": 0,
-  "why": "booked once, before the deadline: by.",
+  "why": "booked at some point before the deadline: by.",
   "slots": {
    "event": [
     "concert",
@@ -1464,7 +1464,8 @@ export default [
    ]
   },
   "acceptable": [
-   "till"
+   "till",
+   "to"
   ]
  },
  {
@@ -1693,10 +1694,10 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "We have to book the {place} until {day}, {name}.",
-  "hint": "We have to book the {place} ______ {day}, {name}.",
+  "source": "We have to decide about the {place} until {day}, {name}.",
+  "hint": "We have to decide about the {place} ______ {day}, {name}.",
   "key": "by",
-  "why": "book = once, before a deadline: by.",
+  "why": "decide = once, before a deadline: by.",
   "slots": {
    "place": [
     "hall",

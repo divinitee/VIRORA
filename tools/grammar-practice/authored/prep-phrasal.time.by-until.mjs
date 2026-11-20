@@ -35,15 +35,15 @@ const CHOOSE = [
   ["until", "My little brother slept ______ {time} on Sunday, {name}.", { time: ["ten o'clock", "eleven", "noon", "half past nine"], name: NAME2 }, "Sleeping continues and then stops: until."],
   ["by", "Your passport will be ready ______ the end of {month}, {name}.", { month: ["March", "May", "the month", "next week"], name: NAME }, "be ready = the deadline for the job: by."],
   ["until", "Let's stay at the {place} ______ the rain stops, {name}.", { place: ["café", "museum", "library", "station"], name: NAME2 }, "We stay, and leave when the rain stops: until."],
-  ["by", "The homework must be on my desk ______ {day} morning.", { day: DAY, name: NAME }, "A deadline for the teacher: by."],
+  ["by", "The homework must be handed in ______ {day} morning.", { day: DAY, name: NAME }, "A deadline for the teacher: by."],
   ["until", "Grandpa worked at the {place} ______ he was sixty-five, {name}.", { place: ["factory", "hospital", "school", "bank"], name: NAME2 }, "He kept working and then stopped: until."],
   ["by", "Can you pay me back ______ the end of the {time}, {name}?", { time: ["week", "month", "holidays", "year"], name: NAME }, "Pay back once, not later than that: by."],
-  ["until", "The road to {city} will be closed ______ {day}.", { city: ["Chimgan", "Fergana", "Andijan", "Jizzakh"], day: DAY }, "Closed the whole time, then open again: until."],
+  ["until", "The road to {city} will stay closed ______ {day}.", { city: ["Chimgan", "Fergana", "Andijan", "Jizzakh"], day: DAY }, "Closed the whole time, then open again: until."],
   ["by", "If we leave now, we'll get to {city} ______ midnight, {name}.", { city: ["Samarkand", "Bukhara", "Namangan", "Karshi"], name: NAME2 }, "get to happens at one point, not later than midnight: by."],
   ["until", "We played {game} in the yard ______ it got dark, {name}.", { game: ["football", "volleyball", "chess", "basketball"], name: NAME }, "Playing continued and then stopped: until."],
   ["by", "I'll have the {thing} fixed ______ {time} tomorrow, {name}.", { thing: ["car", "phone", "laptop", "bike"], time: TIME }, "Fixed at some point before that time: by."],
   ["until", "You can borrow my {thing} ______ {day}, {name}.", { thing: ["bike", "laptop", "camera", "tent"], day: DAY }, "You keep it the whole time, then give it back: until."],
-  ["by", "Tickets for the {event} must be booked ______ {day}.", { event: ["concert", "trip", "match", "museum tour"], day: DAY }, "booked once, before the deadline: by."],
+  ["by", "Make sure you've booked tickets for the {event} ______ {day}.", { event: ["concert", "trip", "match", "museum tour"], day: DAY }, "booked at some point before the deadline: by."],
   ["until", "The baby cried ______ {who} came home, {name}.", { name: NAME2, who: ["her mum", "her dad", "grandma", "her sister"] }, "Crying continued and stopped when mum came: until."],
   ["by", "Most of the {food} was gone ______ nine o'clock, {name}.", { food: ["plov", "cake", "salad", "bread"], name: NAME }, "Gone at some point before nine: by."],
   ["until", "The {who} stayed with us ______ the end of {month}.", { who: ["guests", "cousins", "grandparents", "students"], month: ["June", "August", "the summer", "the month"] }, "They stayed and then left: until."],
@@ -112,13 +112,13 @@ const TRANSFORM = [
   [FIX, "I'll wait here by {time}, {name}.", "I'll wait here ______ {time}, {name}.", "until", { time: TIME, name: NAME2 }, "wait continues: until, not by."],
   [FIX, "The {doc} must arrive until the end of the week, {name}.", "The {doc} must arrive ______ the end of the week, {name}.", "by", { doc: ["parcel", "letter", "contract", "form"], name: NAME }, "arrive = one moment before a deadline: by."],
   [FIX, "The museum is open by six on {day}, {name}.", "The museum is open ______ six on {day}, {name}.", "until", { day: ["Mondays", "Fridays", "Sundays", "weekdays"], name: NAME2 }, "be open continues: until."],
-  [FIX, "We have to book the {place} until {day}, {name}.", "We have to book the {place} ______ {day}, {name}.", "by", { place: ["hall", "hotel", "restaurant", "bus"], day: DAY }, "book = once, before a deadline: by."],
+  [FIX, "We have to decide about the {place} until {day}, {name}.", "We have to decide about the {place} ______ {day}, {name}.", "by", { place: ["hall", "hotel", "restaurant", "bus"], day: DAY }, "decide = once, before a deadline: by."],
 ].map(([instr, source, hint, key, slots, why]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = f;
   if (source.includes("{name}") && !s.name) s.name = NAME2;
   const it = { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };
-  if (key === "until") it.acceptable = ["till"];
+  if (key === "until") it.acceptable = hint.includes("from eight") ? ["till", "to"] : ["till"];
   return it;
 });
 
