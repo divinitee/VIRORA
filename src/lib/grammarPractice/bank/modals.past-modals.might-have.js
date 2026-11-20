@@ -9,7 +9,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Aziz isn't here yet. I don't know why. He ______ the {bus}, {name}.",
+  "prompt": "Aziz didn't come to class this morning. I don't know why. He ______ the {bus}, {name}.",
   "options": [
    "might have missed",
    "might miss",
@@ -361,7 +361,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I don't know the score, but I think {team} ______ the match, {name}.",
+  "prompt": "I missed the game yesterday. I'm not sure, but {team} ______ the match, {name}.",
   "options": [
    "might has won",
    "might have won",

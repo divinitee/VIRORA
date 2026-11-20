@@ -28,7 +28,7 @@ const opts = (v) => [`might have ${PP[v]}`, `might ${v}`, `might had ${PP[v]}`, 
 
 /* ---------------- choose: 20 mcq ---------------- */
 const CHOOSE = [
-  ["miss", "Aziz isn't here yet. I don't know why. He ______ the {bus}, {name}.", { bus: ["bus", "train", "metro", "first bus"], name: NAME }],
+  ["miss", "Aziz didn't come to class this morning. I don't know why. He ______ the {bus}, {name}.", { bus: ["bus", "train", "metro", "first bus"], name: NAME }],
   ["forget", "Olga didn't call {when}. She ______, {name}. I'm not sure.", { when: ["yesterday", "last night", "on Friday", "this morning"], name: NAME }],
   ["leave", "I can't find my {thing}. I ______ it at the {place}.", { thing: ["phone", "wallet", "key", "umbrella"], place: ["café", "office", "station", "gym"] }],
   ["go", "Nobody answered at the {home}. They ______ out. I'm not sure, {name}.", { home: ["flat", "house", "office", "shop"], name: NAME }],
@@ -39,7 +39,7 @@ const CHOOSE = [
   ["be", "The road was closed {when}. There ______ an accident. I don't know, {name}.", { when: ["this morning", "last night", "yesterday", "on Sunday"], name: NAME }],
   ["close", "The {shop} was dark when we got there. It ______ early. I'm not sure, {name}.", { shop: ["bakery", "pharmacy", "post office", "bookshop"], name: NAME }],
   ["break", "The {thing} doesn't work. I don't know why. Someone ______ it, {name}.", { thing: ["printer", "lift", "TV", "lamp"], name: NAME }],
-  ["win", "I don't know the score, but I think {team} ______ the match, {name}.", { team: TEAM, name: NAME }],
+  ["win", "I missed the game yesterday. I'm not sure, but {team} ______ the match, {name}.", { team: TEAM, name: NAME }],
   ["buy", "Lola has a new {thing}. I'm not sure, but she ______ it in {city}.", { thing: ["dress", "bag", "scarf", "coat"], city: ["Tashkent", "Istanbul", "Dubai", "Moscow"] }],
   ["sleep", "He's still in bed at {time}. I don't know why. He ______ badly, {name}.", { time: ["eleven", "noon", "ten o'clock", "lunchtime"], name: NAME }],
   ["study", "I'm not sure how she passed. She ______ a lot before the {test}, {name}.", { test: ["exam", "test", "quiz", "interview"], name: NAME }],

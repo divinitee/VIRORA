@@ -4,7 +4,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. Aziz isn't here yet. I don't know why. He ______ the **train**, **Timur**.  
+1. Aziz didn't come to class this morning. I don't know why. He ______ the **train**, **Timur**.  
    options: ✔ might have missed · might miss · might had missed · might has missed  
    why: A guess about the past, not sure: might have + past participle.
 
@@ -48,7 +48,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: might had broken · might has broken · ✔ might have broken · might break  
    why: A guess about the past, not sure: might have + past participle.
 
-12. I don't know the score, but I think **Navbahor** ______ the match, **Lola**.  
+12. I missed the game yesterday. I'm not sure, but **Navbahor** ______ the match, **Lola**.  
    options: might has won · ✔ might have won · might win · might had won  
    why: A guess about the past, not sure: might have + past participle.
 
