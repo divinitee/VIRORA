@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz didn't come to class this morning. I don't know why. He ______ the {bus}, {name}.",
+  "options": [
+   "might have missed",
+   "might miss",
+   "might had missed",
+   "might has missed"
+  ],
+  "key": 0,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "first bus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Olga didn't call {when}. She ______, {name}. I'm not sure.",
+  "options": [
+   "might forget",
+   "might had forgotten",
+   "might has forgotten",
+   "might have forgotten"
+  ],
+  "key": 3,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "this morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can't find my {thing}. I ______ it at the {place}.",
+  "options": [
+   "might had left",
+   "might has left",
+   "might have left",
+   "might leave"
+  ],
+  "key": 2,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "wallet",
+    "key",
+    "umbrella"
+   ],
+   "place": [
+    "café",
+    "office",
+    "station",
+    "gym"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nobody answered at the {home}. They ______ out. I'm not sure, {name}.",
+  "options": [
+   "might has gone",
+   "might have gone",
+   "might go",
+   "might had gone"
+  ],
+  "key": 1,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "office",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {food} is gone. I'm not sure who took it. The cat ______ it, {name}.",
+  "options": [
+   "might have eaten",
+   "might eat",
+   "might had eaten",
+   "might has eaten"
+  ],
+  "key": 0,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "food": [
+    "fish",
+    "meat",
+    "cheese",
+    "chicken"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur hasn't got his {thing}. He ______ it on the bus. Nobody knows, {name}.",
+  "options": [
+   "might lose",
+   "might had lost",
+   "might has lost",
+   "might have lost"
+  ],
+  "key": 3,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "wallet",
+    "bag",
+    "key"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm not sure, but I ______ that film before, {name}. The {part} looks familiar.",
+  "options": [
+   "might had seen",
+   "might has seen",
+   "might have seen",
+   "might see"
+  ],
+  "key": 2,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "part": [
+    "beginning",
+    "ending",
+    "first scene",
+    "main actor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know where my {thing} is. My brother ______ it, {name}.",
+  "options": [
+   "might has taken",
+   "might have taken",
+   "might take",
+   "might had taken"
+  ],
+  "key": 1,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "charger",
+    "pen",
+    "coat",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The road was closed {when}. There ______ an accident. I don't know, {name}.",
+  "options": [
+   "might have been",
+   "might be",
+   "might had been",
+   "might has been"
+  ],
+  "key": 0,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "when": [
+    "this morning",
+    "last night",
+    "yesterday",
+    "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} was dark when we got there. It ______ early. I'm not sure, {name}.",
+  "options": [
+   "might close",
+   "might had closed",
+   "might has closed",
+   "might have closed"
+  ],
+  "key": 3,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "post office",
+    "bookshop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} doesn't work. I don't know why. Someone ______ it, {name}.",
+  "options": [
+   "might had broken",
+   "might has broken",
+   "might have broken",
+   "might break"
+  ],
+  "key": 2,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "printer",
+    "lift",
+    "TV",
+    "lamp"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I missed the game yesterday. I'm not sure, but {team} ______ the match, {name}.",
+  "options": [
+   "might has won",
+   "might have won",
+   "might win",
+   "might had won"
+  ],
+  "key": 1,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "team": [
+    "Pakhtakor",
+    "Nasaf",
+    "Bunyodkor",
+    "Navbahor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola has a new {thing}. I'm not sure, but she ______ it in {city}.",
+  "options": [
+   "might have bought",
+   "might buy",
+   "might had bought",
+   "might has bought"
+  ],
+  "key": 0,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "dress",
+    "bag",
+    "scarf",
+    "coat"
+   ],
+   "city": [
+    "Tashkent",
+    "Istanbul",
+    "Dubai",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He's still in bed at {time}. I don't know why. He ______ badly, {name}.",
+  "options": [
+   "might sleep",
+   "might had slept",
+   "might has slept",
+   "might have slept"
+  ],
+  "key": 3,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "time": [
+    "eleven",
+    "noon",
+    "ten o'clock",
+    "lunchtime"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm not sure how she passed. She ______ a lot before the {test}, {name}.",
+  "options": [
+   "might had studied",
+   "might has studied",
+   "might have studied",
+   "might study"
+  ],
+  "key": 2,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "quiz",
+    "interview"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm not sure where I know him from. I ______ him at the {event}, {name}.",
+  "options": [
+   "might has met",
+   "might have met",
+   "might meet",
+   "might had met"
+  ],
+  "key": 1,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "conference"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know how they got to {city}. They ______ there, {name}.",
+  "options": [
+   "might have driven",
+   "might drive",
+   "might had driven",
+   "might has driven"
+  ],
+  "key": 0,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Her knee is hurt. I'm not sure what happened. She ______ in the {place}, {name}.",
+  "options": [
+   "might fall",
+   "might had fallen",
+   "might has fallen",
+   "might have fallen"
+  ],
+  "key": 3,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "place": [
+    "park",
+    "yard",
+    "street",
+    "gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know if Timur is free. He ______ his {work} by now, {name}.",
+  "options": [
+   "might had finished",
+   "might has finished",
+   "might have finished",
+   "might finish"
+  ],
+  "key": 2,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "work": [
+    "homework",
+    "essay",
+    "project",
+    "report"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm not sure how she knows. She ______ the news from her {who}, {name}.",
+  "options": [
+   "might has heard",
+   "might have heard",
+   "might hear",
+   "might had heard"
+  ],
+  "key": 1,
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "who": [
+    "sister",
+    "mother",
+    "friend",
+    "neighbour"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "Aziz is late. He ______ (miss) the {bus}, {name}.",
+  "key": "might have missed",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "first bus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "Olga didn't come to the {event}. She ______ (forget), {name}.",
+  "key": "might have forgotten",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "event": [
+    "meeting",
+    "lesson",
+    "party",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "My {thing} isn't in my bag. I ______ (leave) it at the {place}.",
+  "key": "might have left",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "wallet",
+    "key",
+    "umbrella"
+   ],
+   "place": [
+    "café",
+    "office",
+    "station",
+    "gym"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "Nobody is at the {home}. They ______ (go) to the bazaar, {name}.",
+  "key": "might have gone",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "office",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "The {food} is gone. The dog ______ (eat) it, {name}.",
+  "key": "might have eaten",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "food": [
+    "meat",
+    "sausage",
+    "chicken",
+    "cheese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "Timur can't find his {thing}. He ______ (lose) it, {name}.",
+  "key": "might have lost",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "wallet",
+    "bag",
+    "key"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "My {thing} isn't here. My sister ______ (take) it, {name}.",
+  "key": "might have taken",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "charger",
+    "pen",
+    "coat",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "The road was closed {when}. There ______ (be) an accident, {name}.",
+  "key": "might have been",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "when": [
+    "this morning",
+    "last night",
+    "yesterday",
+    "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "The {shop} was dark. It ______ (close) early, {name}.",
+  "key": "might have closed",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "post office",
+    "bookshop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "The {thing} isn't working. Someone ______ (break) it, {name}.",
+  "key": "might have broken",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "printer",
+    "lift",
+    "TV",
+    "lamp"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "Lola has a new {thing}. She ______ (buy) it in {city}.",
+  "key": "might have bought",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "dress",
+    "bag",
+    "scarf",
+    "coat"
+   ],
+   "city": [
+    "Tashkent",
+    "Istanbul",
+    "Dubai",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "He looks tired this {time}. He ______ (sleep) badly, {name}.",
+  "key": "might have slept",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "time": [
+    "morning",
+    "Monday",
+    "afternoon",
+    "week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "I know that man's face. I ______ (meet) him at the {event}, {name}.",
+  "key": "might have met",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "conference"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "Her arm hurts. She ______ (fall) in the {place}, {name}.",
+  "key": "might have fallen",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "place": [
+    "park",
+    "yard",
+    "street",
+    "gym"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "I'm not sure about the score. {team} ______ (win) the match, {name}.",
+  "key": "might have won",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "team": [
+    "Pakhtakor",
+    "Nasaf",
+    "Bunyodkor",
+    "Navbahor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "She didn't answer. She ______ (not / hear) the phone at the {place}, {name}.",
+  "key": "might not have heard",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "place": [
+    "gym",
+    "bazaar",
+    "concert",
+    "party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "He didn't say hello. He ______ (not / see) you at the {event}, {name}.",
+  "key": "might not have seen",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "They didn't reply. They ______ (not / receive) my {msg}, {name}.",
+  "key": "might not have received",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "msg": [
+    "email",
+    "letter",
+    "message",
+    "invitation"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "Don't be angry with him. He ______ (not / know) about the {event}, {name}.",
+  "key": "might not have known",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "event": [
+    "meeting",
+    "party",
+    "test",
+    "change"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
+  "source": "She did the wrong {work}. She ______ (not / understand) the teacher, {name}.",
+  "key": "might not have understood",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "work": [
+    "homework",
+    "exercise",
+    "task",
+    "page"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might have + past participle.",
+  "source": "Perhaps he missed the {bus}, {name}.",
+  "hint": "He ______ the {bus}, {name}.",
+  "key": "might have missed",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "first bus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might have + past participle.",
+  "source": "Maybe she forgot about the {event}, {name}.",
+  "hint": "She ______ about the {event}, {name}.",
+  "key": "might have forgotten",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "event": [
+    "meeting",
+    "lesson",
+    "party",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might have + past participle.",
+  "source": "Perhaps they went to {city} for the weekend, {name}.",
+  "hint": "They ______ to {city} for the weekend, {name}.",
+  "key": "might have gone",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might have + past participle.",
+  "source": "Maybe I left my {thing} at the {place}.",
+  "hint": "I ______ my {thing} at the {place}.",
+  "key": "might have left",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "wallet",
+    "key",
+    "umbrella"
+   ],
+   "place": [
+    "café",
+    "office",
+    "station",
+    "gym"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might have + past participle.",
+  "source": "Perhaps the {shop} closed early, {name}.",
+  "hint": "The {shop} ______ early, {name}.",
+  "key": "might have closed",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "post office",
+    "bookshop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "He might missed the {bus}, {name}.",
+  "hint": "He ______ the {bus}, {name}.",
+  "key": "might have missed",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "first bus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She might has forgotten the {event}, {name}.",
+  "hint": "She ______ the {event}, {name}.",
+  "key": "might have forgotten",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "event": [
+    "meeting",
+    "lesson",
+    "party",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "They might have went to the {place}, {name}.",
+  "hint": "They ______ to the {place}, {name}.",
+  "key": "might have gone",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "park",
+    "mall",
+    "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I might had left my {thing} on the bus, {name}.",
+  "hint": "I ______ my {thing} on the bus, {name}.",
+  "key": "might have left",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "thing": [
+    "phone",
+    "wallet",
+    "key",
+    "umbrella"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The dog might have eat the {food}, {name}.",
+  "hint": "The dog ______ the {food}, {name}.",
+  "key": "might have eaten",
+  "why": "A guess about the past, not sure: might have + past participle.",
+  "slots": {
+   "food": [
+    "meat",
+    "sausage",
+    "chicken",
+    "cheese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might not have + past participle.",
+  "source": "Perhaps she didn't hear the phone at the {place}, {name}.",
+  "hint": "She ______ the phone at the {place}, {name}.",
+  "key": "might not have heard",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "place": [
+    "gym",
+    "bazaar",
+    "concert",
+    "party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might not have + past participle.",
+  "source": "Maybe he didn't see you at the {event}, {name}.",
+  "hint": "He ______ you at the {event}, {name}.",
+  "key": "might not have seen",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might not have + past participle.",
+  "source": "Perhaps they didn't receive my {msg}, {name}.",
+  "hint": "They ______ my {msg}, {name}.",
+  "key": "might not have received",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "msg": [
+    "email",
+    "letter",
+    "message",
+    "invitation"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might not have + past participle.",
+  "source": "Maybe he didn't know about the {event}, {name}.",
+  "hint": "He ______ about the {event}, {name}.",
+  "key": "might not have known",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "event": [
+    "meeting",
+    "party",
+    "test",
+    "change"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might not have + past participle.",
+  "source": "Perhaps she didn't understand the {work}, {name}.",
+  "hint": "She ______ the {work}, {name}.",
+  "key": "might not have understood",
+  "why": "A guess about the past, not sure: might not have + past participle.",
+  "slots": {
+   "work": [
+    "question",
+    "task",
+    "homework",
+    "exercise"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend is late for the meeting. Write one sentence guessing what happened. Use might have.",
+  "requiredElement": "He might have missed the bus",
+  "constraints": [
+   "exactly one sentence",
+   "might have + past participle",
+   "not sure"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You can't find your keys. Write one sentence with might have.",
+  "requiredElement": "I might have left them …",
+  "constraints": [
+   "exactly one sentence",
+   "might have + past participle",
+   "a place"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend didn't reply to your message. Write one sentence with might not have.",
+  "requiredElement": "She might not have seen it",
+  "constraints": [
+   "exactly one sentence",
+   "might not have + past participle",
+   "past"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with might have been.",
+  "requiredElement": "might have been + noun / adjective",
+  "constraints": [
+   "exactly one sentence",
+   "might have been",
+   "past"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with must have and one with might have.",
+  "requiredElement": "must have vs might have",
+  "constraints": [
+   "exactly two sentences",
+   "must have = sure",
+   "might have = not sure"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "The shop was closed yesterday. Write one sentence guessing why.",
+  "requiredElement": "It might have …",
+  "constraints": [
+   "exactly one sentence",
+   "might have",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with might have and an irregular verb (gone, lost, taken…).",
+  "requiredElement": "might have + irregular past participle",
+  "constraints": [
+   "exactly one sentence",
+   "irregular past participle",
+   "might have"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with might (now) and one with might have (past).",
+  "requiredElement": "might vs might have",
+  "constraints": [
+   "exactly two sentences",
+   "might + base verb",
+   "might have + past participle"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend didn't come to your birthday party. Write three or four sentences guessing why. Use might have and might not have.",
+  "targetGrammar": "might have / might not have",
+  "lookFor": [
+   "might have",
+   "might not have",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You find a strange box outside your door. Write three or four sentences about who might have left it.",
+  "targetGrammar": "might have + past participle",
+  "lookFor": [
+   "might have",
+   "different guesses",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your team lost a match. Write three or four sentences about what might have gone wrong.",
+  "targetGrammar": "might have for past guesses",
+  "lookFor": [
+   "might have",
+   "past participles",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a mystery from the news or a film. Write three or four sentences with might have and must have.",
+  "targetGrammar": "might have vs must have",
+  "lookFor": [
+   "might have",
+   "must have",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your phone is not where you left it. Write three or four sentences with might have.",
+  "targetGrammar": "might have + past participle",
+  "lookFor": [
+   "might have",
+   "might not have",
+   "three or four sentences"
+  ]
+ }
+]

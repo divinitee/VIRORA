@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "That ______ be Aziz at the door. He's in {country} this week, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must",
+   "might"
+  ],
+  "key": 0,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "country": [
+    "Canada",
+    "Korea",
+    "Turkey",
+    "Dubai"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ be hungry! You've just eaten two plates of {food}, {name}.",
+  "options": [
+   "mustn't",
+   "must",
+   "might",
+   "can't"
+  ],
+  "key": 3,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "food": [
+    "plov",
+    "pasta",
+    "soup",
+    "rice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She ______ be at work. Her office is closed on {day}s, {name}.",
+  "options": [
+   "must",
+   "might",
+   "can't",
+   "mustn't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Monday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This ______ be your {thing}. Yours is blue, and this one is red, {name}.",
+  "options": [
+   "might",
+   "can't",
+   "mustn't",
+   "must"
+  ],
+  "key": 1,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "thing": [
+    "bag",
+    "umbrella",
+    "pen",
+    "scarf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He ______ be twenty. His son is at {place}, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must",
+   "might"
+  ],
+  "key": 0,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "place": [
+    "university",
+    "college",
+    "medical school",
+    "law school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It ______ be cold outside. People are wearing {item}, {name}.",
+  "options": [
+   "mustn't",
+   "must",
+   "might",
+   "can't"
+  ],
+  "key": 3,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "item": [
+    "T-shirts",
+    "shorts",
+    "sandals",
+    "summer dresses"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They ______ be asleep. I can hear them {doing} in the {room}.",
+  "options": [
+   "must",
+   "might",
+   "can't",
+   "mustn't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "doing": [
+    "talking",
+    "laughing",
+    "singing",
+    "watching TV"
+   ],
+   "room": [
+    "kitchen",
+    "living room",
+    "bedroom",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} ______ be open. It's three o'clock in the morning, {name}.",
+  "options": [
+   "might",
+   "can't",
+   "mustn't",
+   "must"
+  ],
+  "key": 1,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "shop": [
+    "bank",
+    "post office",
+    "bakery",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ be tired. You slept for {n} hours, {name}!",
+  "options": [
+   "can't",
+   "mustn't",
+   "must",
+   "might"
+  ],
+  "key": 0,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "n": [
+    "twelve",
+    "ten",
+    "eleven",
+    "fourteen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "That ______ be the right bus. This one goes to the {place}, not the airport, {name}.",
+  "options": [
+   "mustn't",
+   "must",
+   "might",
+   "can't"
+  ],
+  "key": 3,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "place": [
+    "bazaar",
+    "station",
+    "stadium",
+    "university"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She ______ be Lola's sister. Lola has only {sib}, {name}.",
+  "options": [
+   "must",
+   "might",
+   "can't",
+   "mustn't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "sib": [
+    "brothers",
+    "one brother",
+    "two brothers",
+    "a brother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He ______ know about the {event}. Nobody told him, {name}.",
+  "options": [
+   "might",
+   "can't",
+   "mustn't",
+   "must"
+  ],
+  "key": 1,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "event": [
+    "party",
+    "surprise",
+    "wedding",
+    "plan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {food} ______ be fresh. It's from last {time}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must",
+   "might"
+  ],
+  "key": 0,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "food": [
+    "bread",
+    "milk",
+    "fish",
+    "cake"
+   ],
+   "time": [
+    "week",
+    "month",
+    "Monday",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ be serious, {name}! A new {thing} for five dollars?",
+  "options": [
+   "mustn't",
+   "must",
+   "might",
+   "can't"
+  ],
+  "key": 3,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "car",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur ______ be at the {place}. I've just seen him in the café, {name}.",
+  "options": [
+   "must",
+   "might",
+   "can't",
+   "mustn't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "place": [
+    "gym",
+    "library",
+    "office",
+    "stadium"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It ______ be very far. The map says {dist}, {name}.",
+  "options": [
+   "might",
+   "can't",
+   "mustn't",
+   "must"
+  ],
+  "key": 1,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "dist": [
+    "two minutes",
+    "500 metres",
+    "five minutes on foot",
+    "one stop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This ______ be the right address. There's no {thing} here, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must",
+   "might"
+  ],
+  "key": 0,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "thing": [
+    "house",
+    "hotel",
+    "shop",
+    "café"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She ______ be from {country}. She doesn't speak a word of the language, {name}.",
+  "options": [
+   "mustn't",
+   "must",
+   "might",
+   "can't"
+  ],
+  "key": 3,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "country": [
+    "Spain",
+    "France",
+    "Italy",
+    "Germany"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "That ______ be true! Our {who} is never late, {name}.",
+  "options": [
+   "must",
+   "might",
+   "can't",
+   "mustn't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "who": [
+    "teacher",
+    "boss",
+    "coach",
+    "driver"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {pet} ______ be hungry. I fed it ten minutes ago, {name}.",
+  "options": [
+   "might",
+   "can't",
+   "mustn't",
+   "must"
+  ],
+  "key": 1,
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "Aziz ______ (be) at home. He's in {city} today, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Moscow",
+    "Almaty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "You ______ (be) hungry. You've just had {food}, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "food": [
+    "lunch",
+    "two sandwiches",
+    "a big breakfast",
+    "plov"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "This ______ (be) my {thing}. Mine is black, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "thing": [
+    "bag",
+    "umbrella",
+    "phone",
+    "scarf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "The {shop} ______ (be) open. It's midnight, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "shop": [
+    "bank",
+    "post office",
+    "bakery",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "It ______ (be) winter. The trees are green and it's {temp}, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "temp": [
+    "thirty degrees",
+    "very hot",
+    "sunny",
+    "warm"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "Olga ______ (know) about the {event}. It's a secret, {name}.",
+  "key": "can't know",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "event": [
+    "party",
+    "surprise",
+    "wedding",
+    "plan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "He ______ (be) asleep. I can hear him {doing}, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "doing": [
+    "talking",
+    "singing",
+    "laughing",
+    "on the phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "That ______ (be) the right {thing}. It doesn't open the door, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "thing": [
+    "key",
+    "card",
+    "code",
+    "button"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "She ______ (be) tired. She slept until {time}, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "time": [
+    "eleven",
+    "noon",
+    "ten o'clock",
+    "lunchtime"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "Your bag ______ (be) heavy. There's only one {thing} in it, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "thing": [
+    "book",
+    "pen",
+    "scarf",
+    "apple"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "The film ______ (be) over. It started {when} ago, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "when": [
+    "ten minutes",
+    "five minutes",
+    "half an hour",
+    "fifteen minutes"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "It ______ (be) Timur on the phone. He's on the plane to {city}, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "city": [
+    "London",
+    "Seoul",
+    "Istanbul",
+    "Dubai"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "They ______ (live) here. This {place} is empty, {name}.",
+  "key": "can't live",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "place": [
+    "flat",
+    "house",
+    "room",
+    "building"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "You ______ (be) serious about the {thing}, {name}!",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "thing": [
+    "price",
+    "plan",
+    "idea",
+    "test"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "That ______ (be) Madina's {car}. She doesn't have one, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "car": [
+    "car",
+    "bike",
+    "scooter",
+    "boat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "This ______ (be) the way to the {place}. The signs say it's behind us, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "airport",
+    "stadium"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "He ______ (be) {age}. He's still at school, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "age": [
+    "thirty",
+    "forty",
+    "twenty-five",
+    "fifty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "The car ______ (need) petrol. I filled it up {when}, {name}.",
+  "key": "can't need",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "when": [
+    "this morning",
+    "yesterday",
+    "an hour ago",
+    "today"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "The {food} ______ (be) ready. We put it in the oven {when}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "food": [
+    "cake",
+    "bread",
+    "chicken",
+    "pie"
+   ],
+   "when": [
+    "five minutes ago",
+    "just now",
+    "a minute ago",
+    "two minutes ago"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
+  "source": "She ______ (be) at the {place}. It's closed today, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "place": [
+    "library",
+    "pool",
+    "gym",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't.",
+  "source": "I'm sure he isn't at home. His {car} isn't outside, {name}.",
+  "hint": "He ______ at home. His {car} isn't outside, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "car": [
+    "car",
+    "bike",
+    "scooter",
+    "van"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't.",
+  "source": "It's impossible that you are hungry, {name}. You've just had {food}.",
+  "hint": "You ______ hungry, {name}. You've just had {food}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "food": [
+    "lunch",
+    "two sandwiches",
+    "a big breakfast",
+    "plov"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't.",
+  "source": "I'm sure this isn't your {thing}, {name}.",
+  "hint": "This ______ your {thing}, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "thing": [
+    "bag",
+    "umbrella",
+    "phone",
+    "scarf"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't.",
+  "source": "I'm sure she doesn't know about the {event}, {name}.",
+  "hint": "She ______ about the {event}, {name}.",
+  "key": "can't know",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "event": [
+    "party",
+    "surprise",
+    "wedding",
+    "plan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't.",
+  "source": "I'm sure it isn't far to the {place}, {name}.",
+  "hint": "It ______ far to the {place}, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "place": [
+    "station",
+    "bazaar",
+    "park",
+    "river"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "That mustn't be John. He's in {country} this week, {name}.",
+  "hint": "That ______ John. He's in {country} this week, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "country": [
+    "Canada",
+    "Korea",
+    "Turkey",
+    "Dubai"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "You mustn't be tired. You slept for {n} hours, {name}.",
+  "hint": "You ______ tired. You slept for {n} hours, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "n": [
+    "twelve",
+    "ten",
+    "eleven",
+    "fourteen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She can't to be at work. It's {day}, {name}.",
+  "hint": "She ______ at work. It's {day}, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "day": [
+    "Sunday",
+    "a holiday",
+    "Navruz",
+    "midnight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "He can't knows the answer to the {q}, {name}.",
+  "hint": "He ______ the answer to the {q}, {name}.",
+  "key": "can't know",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "q": [
+    "question",
+    "puzzle",
+    "riddle",
+    "maths problem"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "It don't can be true. Our {who} is never late, {name}.",
+  "hint": "It ______ true. Our {who} is never late, {name}.",
+  "key": "can't be",
+  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "slots": {
+   "who": [
+    "teacher",
+    "boss",
+    "coach",
+    "driver"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't be + -ing.",
+  "source": "I'm sure she isn't sleeping. I can hear her {doing}, {name}.",
+  "hint": "She ______. I can hear her {doing}, {name}.",
+  "key": "can't be sleeping",
+  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "slots": {
+   "doing": [
+    "singing",
+    "talking",
+    "laughing",
+    "on the phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't be + -ing.",
+  "source": "I'm sure he isn't working at the {place} today. It's closed, {name}.",
+  "hint": "He ______ at the {place} today. It's closed, {name}.",
+  "key": "can't be working",
+  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "slots": {
+   "place": [
+    "bank",
+    "school",
+    "shop",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't be + -ing.",
+  "source": "I'm sure they aren't waiting for us at the {place}. Nobody is there, {name}.",
+  "hint": "They ______ for us at the {place}. Nobody is there, {name}.",
+  "key": "can't be waiting",
+  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "slots": {
+   "place": [
+    "station",
+    "gate",
+    "café",
+    "bus stop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't be + -ing.",
+  "source": "I'm sure it isn't raining in {city}. The sky is clear, {name}.",
+  "hint": "It ______ in {city}. The sky is clear, {name}.",
+  "key": "can't be raining",
+  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "slots": {
+   "city": [
+    "London",
+    "Moscow",
+    "Tashkent",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with can't be + -ing.",
+  "source": "I'm sure you aren't telling the truth about the {thing}, {name}.",
+  "hint": "You ______ the truth about the {thing}, {name}.",
+  "key": "can't be telling",
+  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "slots": {
+   "thing": [
+    "test",
+    "money",
+    "party",
+    "accident"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend says he saw your teacher in Paris today, but you saw her this morning. Write one sentence with can't.",
+  "requiredElement": "That can't be true / She can't be in Paris",
+  "constraints": [
+   "exactly one sentence",
+   "can't + base verb",
+   "present"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your brother says he's hungry, but he has just eaten. Write one sentence with can't.",
+  "requiredElement": "You can't be hungry",
+  "constraints": [
+   "exactly one sentence",
+   "can't be",
+   "present"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a shop at midnight. Use can't.",
+  "requiredElement": "It can't be open",
+  "constraints": [
+   "exactly one sentence",
+   "can't",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with can't be + -ing about someone you can hear.",
+  "requiredElement": "He can't be sleeping",
+  "constraints": [
+   "exactly one sentence",
+   "can't be + -ing",
+   "now"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Someone says a new phone costs five dollars. Write one sentence with can't.",
+  "requiredElement": "That can't be right",
+  "constraints": [
+   "exactly one sentence",
+   "can't",
+   "present"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with must and one with can't about the same person.",
+  "requiredElement": "must vs can't",
+  "constraints": [
+   "exactly two sentences",
+   "must = sure yes",
+   "can't = sure no"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: the evidence, then your deduction with can't.",
+  "requiredElement": "evidence + can't",
+  "constraints": [
+   "exactly two sentences",
+   "first: what you know",
+   "second: can't + base verb"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence that shows the difference between can't and mustn't.",
+  "requiredElement": "can't (deduction) vs mustn't (not allowed)",
+  "constraints": [
+   "one or two sentences",
+   "can't for a deduction",
+   "mustn't for a rule"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend tells you three surprising things. Write three or four sentences saying why they can't be true.",
+  "targetGrammar": "can't for negative deduction",
+  "lookFor": [
+   "can't + base verb",
+   "a reason for each",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You find a phone on a table. Write three or four sentences: whose can it be, and whose can't it be?",
+  "targetGrammar": "must / can't for deduction",
+  "lookFor": [
+   "can't",
+   "must",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a mystery: someone ate the cake. Write three or four sentences about who can't be the one.",
+  "targetGrammar": "can't be / can't have",
+  "lookFor": [
+   "can't",
+   "evidence",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a rumour at school or work. Use can't and must.",
+  "targetGrammar": "can't vs must",
+  "lookFor": [
+   "can't",
+   "must",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences using must, might and can't about the weather outside.",
+  "targetGrammar": "must / might / can't",
+  "lookFor": [
+   "must",
+   "might",
+   "can't"
+  ]
+ }
+]

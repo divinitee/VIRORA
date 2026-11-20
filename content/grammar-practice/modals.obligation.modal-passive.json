@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "All visitors ______ their ID at the {place}, {name}.",
+  "options": [
+   "must show",
+   "must be shown",
+   "must be show",
+   "must shown"
+  ],
+  "key": 0,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "entrance",
+    "gate",
+    "front desk",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Students ______ their phones off in the {room}, {name}.",
+  "options": [
+   "must be turned",
+   "must be turn",
+   "must turned",
+   "must turn"
+  ],
+  "key": 3,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "room": [
+    "exam room",
+    "library",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ your hands before you cook {food}, {name}.",
+  "options": [
+   "must be wash",
+   "must washed",
+   "must wash",
+   "must be washed"
+  ],
+  "key": 2,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "food": [
+    "plov",
+    "dinner",
+    "meat",
+    "fish"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Drivers ______ their seat belts on the {road}, {name}.",
+  "options": [
+   "must worn",
+   "must wear",
+   "must be worn",
+   "must be wear"
+  ],
+  "key": 1,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "road": [
+    "motorway",
+    "ring road",
+    "mountain road",
+    "main road"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Passengers ______ their bags at the {place}, {name}.",
+  "options": [
+   "must check",
+   "must be checked",
+   "must be check",
+   "must checked"
+  ],
+  "key": 0,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "border",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Children ______ the {place} rules, {name}.",
+  "options": [
+   "must be followed",
+   "must be follow",
+   "must followed",
+   "must follow"
+  ],
+  "key": 3,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "pool",
+    "school",
+    "park",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Workers ______ a helmet on the {site}, {name}.",
+  "options": [
+   "must be wear",
+   "must worn",
+   "must wear",
+   "must be worn"
+  ],
+  "key": 2,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "site": [
+    "building site",
+    "factory floor",
+    "roof",
+    "bridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Guests ______ their rooms by {time}, {name}.",
+  "options": [
+   "must left",
+   "must leave",
+   "must be left",
+   "must be leave"
+  ],
+  "key": 1,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "time": [
+    "noon",
+    "eleven",
+    "ten o'clock",
+    "twelve"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ the {form} form in black ink, {name}.",
+  "options": [
+   "must complete",
+   "must be completed",
+   "must be complete",
+   "must completed"
+  ],
+  "key": 0,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "form": [
+    "visa",
+    "hotel",
+    "school",
+    "bank"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Players ______ the {who}, {name}.",
+  "options": [
+   "must be obeyed",
+   "must be obey",
+   "must obeyed",
+   "must obey"
+  ],
+  "key": 3,
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "who": [
+    "referee",
+    "coach",
+    "captain",
+    "judge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your ID ______ at the {place}, {name}.",
+  "options": [
+   "must be show",
+   "must shown",
+   "must show",
+   "must be shown"
+  ],
+  "key": 3,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "place": [
+    "entrance",
+    "gate",
+    "front desk",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Phones ______ off in the {room}, {name}.",
+  "options": [
+   "must turned",
+   "must turn",
+   "must be turned",
+   "must be turn"
+  ],
+  "key": 2,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "room": [
+    "exam room",
+    "library",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Hands ______ before cooking {food}, {name}.",
+  "options": [
+   "must wash",
+   "must be washed",
+   "must be wash",
+   "must washed"
+  ],
+  "key": 1,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "food": [
+    "plov",
+    "dinner",
+    "meat",
+    "fish"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Seat belts ______ on the {road}, {name}.",
+  "options": [
+   "must be worn",
+   "must be wear",
+   "must worn",
+   "must wear"
+  ],
+  "key": 0,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "road": [
+    "motorway",
+    "ring road",
+    "mountain road",
+    "main road"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "All bags ______ at the {place}, {name}.",
+  "options": [
+   "must be check",
+   "must checked",
+   "must check",
+   "must be checked"
+  ],
+  "key": 3,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "border",
+    "gate"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {place} rules ______ by everyone, {name}.",
+  "options": [
+   "must followed",
+   "must follow",
+   "must be followed",
+   "must be follow"
+  ],
+  "key": 2,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "place": [
+    "pool",
+    "school",
+    "park",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Helmets ______ on the {site}, {name}.",
+  "options": [
+   "must wear",
+   "must be worn",
+   "must be wear",
+   "must worn"
+  ],
+  "key": 1,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "site": [
+    "building site",
+    "factory floor",
+    "roof",
+    "bridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The rooms ______ by {time} every day, {name}.",
+  "options": [
+   "must be cleaned",
+   "must be clean",
+   "must cleaned",
+   "must clean"
+  ],
+  "key": 0,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "time": [
+    "noon",
+    "eleven",
+    "ten o'clock",
+    "twelve"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {form} form ______ in black ink, {name}.",
+  "options": [
+   "must be complete",
+   "must completed",
+   "must complete",
+   "must be completed"
+  ],
+  "key": 3,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "form": [
+    "visa",
+    "hotel",
+    "school",
+    "bank"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who}'s decision ______ by all players, {name}.",
+  "options": [
+   "must respected",
+   "must respect",
+   "must be respected",
+   "must be respect"
+  ],
+  "key": 2,
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "who": [
+    "referee",
+    "coach",
+    "captain",
+    "judge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "All visitors ______ (show) their ID at the {place}, {name}.",
+  "key": "must show",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "entrance",
+    "gate",
+    "front desk",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Your ID ______ (show) at the {place}, {name}.",
+  "key": "must be shown",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "place": [
+    "entrance",
+    "gate",
+    "front desk",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Students ______ (turn) off their phones in the {room}, {name}.",
+  "key": "must turn",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "room": [
+    "exam room",
+    "library",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Phones ______ (turn) off in the {room}, {name}.",
+  "key": "must be turned",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "room": [
+    "exam room",
+    "library",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Drivers ______ (wear) seat belts on the {road}, {name}.",
+  "key": "must wear",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "road": [
+    "motorway",
+    "ring road",
+    "mountain road",
+    "main road"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Seat belts ______ (wear) on the {road}, {name}.",
+  "key": "must be worn",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "road": [
+    "motorway",
+    "ring road",
+    "mountain road",
+    "main road"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Guests ______ (leave) their keys at the {desk}, {name}.",
+  "key": "must leave",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "desk": [
+    "front desk",
+    "reception",
+    "door",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Keys ______ (leave) at the {desk}, {name}.",
+  "key": "must be left",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "desk": [
+    "front desk",
+    "reception",
+    "door",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "You ______ (pay) for the {thing} at the door, {name}.",
+  "key": "must pay",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "thing": [
+    "tickets",
+    "drinks",
+    "food",
+    "parking"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "The {thing} ______ (pay) for at the door, {name}.",
+  "key": "must be paid",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "thing": [
+    "tickets",
+    "drinks",
+    "food",
+    "parking"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Everybody ______ (follow) the {place} rules, {name}.",
+  "key": "must follow",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "pool",
+    "school",
+    "park",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "The {place} rules ______ (follow) by everybody, {name}.",
+  "key": "must be followed",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "place": [
+    "pool",
+    "school",
+    "park",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Workers ______ (wear) helmets on the {site}, {name}.",
+  "key": "must wear",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "site": [
+    "building site",
+    "factory floor",
+    "roof",
+    "bridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Homework ______ (finish) by {day}, {name}.",
+  "key": "must be finished",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "tomorrow",
+    "Wednesday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "You ______ (finish) your homework by {day}, {name}.",
+  "key": "must finish",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "tomorrow",
+    "Wednesday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "The {form} form ______ (sign) by a parent, {name}.",
+  "key": "must be signed",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "form": [
+    "school",
+    "trip",
+    "visa",
+    "medical"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "A parent ______ (sign) the {form} form, {name}.",
+  "key": "must sign",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "form": [
+    "school",
+    "trip",
+    "visa",
+    "medical"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "This {food} ______ (keep) in the fridge, {name}.",
+  "key": "must be kept",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "food": [
+    "milk",
+    "cake",
+    "fish",
+    "cheese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "You ______ (keep) the {food} in the fridge, {name}.",
+  "key": "must keep",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "food": [
+    "milk",
+    "cake",
+    "fish",
+    "cheese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
+  "source": "Dogs ______ (keep) on a lead in the {place}, {name}.",
+  "key": "must be kept",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "square",
+    "zoo"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "Visitors must show their ID at the {place}, {name}.",
+  "hint": "ID ______ at the {place}, {name}.",
+  "key": "must be shown",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "place": [
+    "entrance",
+    "gate",
+    "front desk",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "You must wash your hands before cooking {food}, {name}.",
+  "hint": "Hands ______ before cooking {food}, {name}.",
+  "key": "must be washed",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "food": [
+    "plov",
+    "dinner",
+    "meat",
+    "fish"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "People must keep dogs on a lead in the {place}, {name}.",
+  "hint": "Dogs ______ on a lead in the {place}, {name}.",
+  "key": "must be kept",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "square",
+    "zoo"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "You must turn off phones in the {room}, {name}.",
+  "hint": "Phones ______ off in the {room}, {name}.",
+  "key": "must be turned",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "room": [
+    "exam room",
+    "library",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "Someone must sign the {form} form, {name}.",
+  "hint": "The {form} form ______, {name}.",
+  "key": "must be signed",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "form": [
+    "school",
+    "trip",
+    "visa",
+    "medical"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the active. Start with the words given.",
+  "source": "Seat belts must be worn by all drivers on the {road}, {name}.",
+  "hint": "All drivers ______ seat belts on the {road}, {name}.",
+  "key": "must wear",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "road": [
+    "motorway",
+    "ring road",
+    "mountain road",
+    "main road"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the active. Start with the words given.",
+  "source": "The rules must be followed by all students at the {place}, {name}.",
+  "hint": "All students ______ the rules at the {place}, {name}.",
+  "key": "must follow",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "pool",
+    "school",
+    "park",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the active. Start with the words given.",
+  "source": "Tickets must be bought by passengers before the {trip}, {name}.",
+  "hint": "Passengers ______ tickets before the {trip}, {name}.",
+  "key": "must buy",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "trip": [
+    "journey",
+    "flight",
+    "trip",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the active. Start with the words given.",
+  "source": "The keys must be left by guests at the {desk}, {name}.",
+  "hint": "Guests ______ the keys at the {desk}, {name}.",
+  "key": "must leave",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "desk": [
+    "front desk",
+    "reception",
+    "door",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the active. Start with the words given.",
+  "source": "ID must be shown by all visitors at the {place}, {name}.",
+  "hint": "All visitors ______ ID at the {place}, {name}.",
+  "key": "must show",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "entrance",
+    "gate",
+    "front desk",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "All visitors must be show ID at the {place}, {name}.",
+  "hint": "All visitors ______ ID at the {place}, {name}.",
+  "key": "must show",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "entrance",
+    "gate",
+    "front desk",
+    "door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Seat belts must wear on the {road}, {name}.",
+  "hint": "Seat belts ______ on the {road}, {name}.",
+  "key": "must be worn",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "road": [
+    "motorway",
+    "ring road",
+    "mountain road",
+    "main road"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Phones must turned off in the {room}, {name}.",
+  "hint": "Phones ______ off in the {room}, {name}.",
+  "key": "must be turned",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "room": [
+    "exam room",
+    "library",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Students must be follow the rules at the {place}, {name}.",
+  "hint": "Students ______ the rules at the {place}, {name}.",
+  "key": "must follow",
+  "why": "The subject does the action: must + base verb (active).",
+  "slots": {
+   "place": [
+    "pool",
+    "school",
+    "park",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This {food} must keep in the fridge, {name}.",
+  "hint": "This {food} ______ in the fridge, {name}.",
+  "key": "must be kept",
+  "why": "The subject receives the action: must be + past participle (passive).",
+  "slots": {
+   "food": [
+    "milk",
+    "cake",
+    "fish",
+    "cheese"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one rule for a library with must + verb (active).",
+  "requiredElement": "People must …",
+  "constraints": [
+   "exactly one sentence",
+   "must + base verb",
+   "a person as subject"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write the same library rule in the passive.",
+  "requiredElement": "… must be + past participle",
+  "constraints": [
+   "exactly one sentence",
+   "must be + past participle",
+   "a thing as subject"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sign for a swimming pool. Use must be + past participle.",
+  "requiredElement": "Showers must be taken …",
+  "constraints": [
+   "exactly one sentence",
+   "must be + past participle",
+   "a rule"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one rule for drivers. Use must + verb.",
+  "requiredElement": "Drivers must …",
+  "constraints": [
+   "exactly one sentence",
+   "must + base verb",
+   "active"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one rule about food in a kitchen. Use must be + past participle.",
+  "requiredElement": "Food must be kept …",
+  "constraints": [
+   "exactly one sentence",
+   "must be + past participle",
+   "passive"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two rules for a school: one active and one passive.",
+  "requiredElement": "must + verb / must be + pp",
+  "constraints": [
+   "exactly two sentences",
+   "one active",
+   "one passive"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one hotel rule in the passive.",
+  "requiredElement": "Rooms must be left by …",
+  "constraints": [
+   "exactly one sentence",
+   "must be + past participle",
+   "a time"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one rule for visitors to a museum. Choose active or passive.",
+  "requiredElement": "must / must be",
+  "constraints": [
+   "exactly one sentence",
+   "must",
+   "the right form for the subject"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write the rules for your school or workplace. Write three or four sentences, some active and some passive.",
+  "targetGrammar": "must + verb / must be + pp",
+  "lookFor": [
+   "must + base verb",
+   "must be + past participle",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four rules for a hotel. Use must be + past participle in at least two.",
+  "targetGrammar": "must be + past participle",
+  "lookFor": [
+   "must be + past participle",
+   "must",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four rules for a football match, for players and for the ball and the pitch.",
+  "targetGrammar": "active and passive after must",
+  "lookFor": [
+   "players must …",
+   "the ball must be …",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four rules for a kitchen at a café.",
+  "targetGrammar": "must / must be",
+  "lookFor": [
+   "must + base verb",
+   "must be + past participle",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four rules for visitors to your city's old town.",
+  "targetGrammar": "must / must be",
+  "lookFor": [
+   "active",
+   "passive",
+   "three or four sentences"
+  ]
+ }
+]

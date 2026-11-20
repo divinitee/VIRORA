@@ -1,0 +1,1738 @@
+[
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week {m} said, 'I'll call you tomorrow.' He said he ______ call me the next day.",
+  "options": [
+   "would",
+   "will",
+   "would to",
+   "will be"
+  ],
+  "key": 0,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On Monday {f} said, 'I'll bring the {thing}.' She said she ______ bring the {thing}.",
+  "options": [
+   "will",
+   "would to",
+   "will be",
+   "would"
+  ],
+  "key": 3,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "cake",
+    "music",
+    "chairs",
+    "drinks"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last month the {who} said, 'The {place} will open in May.' He said the {place} ______ open in May.",
+  "options": [
+   "would to",
+   "will be",
+   "would",
+   "will"
+  ],
+  "key": 2,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "mayor",
+    "director",
+    "manager",
+    "builder"
+   ],
+   "place": [
+    "new school",
+    "metro station",
+    "park",
+    "hospital"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last year {m} said, 'I'll learn {lang}.' He said he ______ learn {lang}.",
+  "options": [
+   "will be",
+   "would",
+   "will",
+   "would to"
+  ],
+  "key": 1,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "lang": [
+    "Korean",
+    "English",
+    "Turkish",
+    "German"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week my {who} said, 'We'll help you move.' They said they ______ help me move.",
+  "options": [
+   "would",
+   "will",
+   "would to",
+   "will be"
+  ],
+  "key": 0,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "friends",
+    "cousins",
+    "neighbours",
+    "brothers"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On Friday {f} said, 'It will rain in {city} at the weekend.' She said it ______ rain in {city} at the weekend.",
+  "options": [
+   "will",
+   "would to",
+   "will be",
+   "would"
+  ],
+  "key": 3,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Fergana",
+    "Bukhara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last month the {who} said, 'Prices will go up.' He said prices ______ go up.",
+  "options": [
+   "would to",
+   "will be",
+   "would",
+   "will"
+  ],
+  "key": 2,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "shopkeeper",
+    "manager",
+    "minister",
+    "driver"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last winter {m} said, 'I'll fix the {thing} soon.' He said he ______ fix the {thing} soon.",
+  "options": [
+   "will be",
+   "would",
+   "will",
+   "would to"
+  ],
+  "key": 1,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "roof",
+    "car",
+    "heater",
+    "door"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week {f} said, 'I won't be late.' She said she ______ be late for the {event}.",
+  "options": [
+   "wouldn't",
+   "won't",
+   "wouldn't to",
+   "didn't"
+  ],
+  "key": 0,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "event": [
+    "wedding",
+    "meeting",
+    "lesson",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On Sunday {m} said, 'I won't tell anyone.' He said he ______ tell anyone about the {thing}.",
+  "options": [
+   "won't",
+   "wouldn't to",
+   "didn't",
+   "wouldn't"
+  ],
+  "key": 3,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "party",
+    "gift",
+    "plan",
+    "test"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last month the {who} said, 'It won't take long.' She said it ______ take long.",
+  "options": [
+   "wouldn't to",
+   "didn't",
+   "wouldn't",
+   "won't"
+  ],
+  "key": 2,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "doctor",
+    "teacher",
+    "mechanic",
+    "nurse"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last year my {who} said, 'We won't sell the {thing}.' They said they ______ sell the {thing}.",
+  "options": [
+   "didn't",
+   "wouldn't",
+   "won't",
+   "wouldn't to"
+  ],
+  "key": 1,
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "uncles"
+   ],
+   "thing": [
+    "house",
+    "car",
+    "garden",
+    "piano"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week {m} said, 'I'll come tomorrow.' He said he would come ______.",
+  "options": [
+   "the next day",
+   "tomorrow",
+   "yesterday",
+   "the day before"
+  ],
+  "key": 0,
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On Monday {f} said, 'I'll send the {doc} tomorrow.' She said she would send the {doc} ______.",
+  "options": [
+   "tomorrow",
+   "yesterday",
+   "the day before",
+   "the next day"
+  ],
+  "key": 3,
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "doc": [
+    "report",
+    "photos",
+    "email",
+    "ticket"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last month {m} said, 'I'll visit you next week.' He said he would visit me ______.",
+  "options": [
+   "last week",
+   "the week before",
+   "the following week",
+   "next week"
+  ],
+  "key": 2,
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In May the {who} said, 'The {test} will be next week.' She said the {test} would be ______.",
+  "options": [
+   "the week before",
+   "the following week",
+   "next week",
+   "last week"
+  ],
+  "key": 1,
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "who": [
+    "teacher",
+    "director",
+    "coach",
+    "manager"
+   ],
+   "test": [
+    "test",
+    "exam",
+    "match",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last Friday {f} said, 'I'll phone you tonight.' She said she would phone me ______.",
+  "options": [
+   "that night",
+   "tonight",
+   "last night",
+   "the night before"
+  ],
+  "key": 0,
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week {m} said, 'We'll watch the {film} tonight.' He said they would watch the {film} ______.",
+  "options": [
+   "tonight",
+   "last night",
+   "the night before",
+   "that night"
+  ],
+  "key": 3,
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "film": [
+    "film",
+    "match",
+    "final",
+    "show"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Last week {f} said, 'I'll finish the {work} today.' She said she would finish the {work} ______.",
+  "options": [
+   "yesterday",
+   "the day after",
+   "that day",
+   "today"
+  ],
+  "key": 2,
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "work": [
+    "report",
+    "essay",
+    "project",
+    "painting"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On Monday {m} said, 'I'll pay you today.' He said he would pay me ______.",
+  "options": [
+   "the day after",
+   "that day",
+   "today",
+   "yesterday"
+  ],
+  "key": 1,
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last week {m} said he ______ (will / call) me soon.",
+  "key": "would call",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "On Monday {f} said she ______ (will / bring) the {thing}.",
+  "key": "would bring",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "cake",
+    "music",
+    "chairs",
+    "drinks"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last month the {who} said the {place} ______ (will / open) in May.",
+  "key": "would open",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "mayor",
+    "director",
+    "manager",
+    "builder"
+   ],
+   "place": [
+    "new school",
+    "metro station",
+    "park",
+    "hospital"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last year {m} said he ______ (will / learn) {lang}.",
+  "key": "would learn",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "lang": [
+    "Korean",
+    "English",
+    "Turkish",
+    "German"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last week my {who} said they ______ (will / help) me move.",
+  "key": "would help",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "friends",
+    "cousins",
+    "neighbours",
+    "brothers"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "On Friday {f} said it ______ (will / rain) in {city} at the weekend.",
+  "key": "would rain",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Fergana",
+    "Bukhara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last month the {who} said prices ______ (will / go) up.",
+  "key": "would go",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "shopkeeper",
+    "manager",
+    "minister",
+    "driver"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last winter {m} said he ______ (will / fix) the {thing} soon.",
+  "key": "would fix",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "roof",
+    "car",
+    "heater",
+    "door"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "In June {f} said she ______ (will / meet) us at the {place}.",
+  "key": "would meet",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "place": [
+    "station",
+    "airport",
+    "café",
+    "bazaar"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Before the match, {m} said {team} ______ (will / win).",
+  "key": "would win",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "team": [
+    "Pakhtakor",
+    "Nasaf",
+    "Bunyodkor",
+    "Navbahor"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last week {f} said she ______ (won't / be) late for the {event}.",
+  "key": "wouldn't be",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "event": [
+    "wedding",
+    "meeting",
+    "lesson",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "On Sunday {m} said he ______ (won't / tell) anyone about the {thing}.",
+  "key": "wouldn't tell",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "party",
+    "gift",
+    "plan",
+    "test"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last month the {who} said it ______ (won't / take) long.",
+  "key": "wouldn't take",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "doctor",
+    "teacher",
+    "mechanic",
+    "nurse"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
+  "source": "Last year my {who} said they ______ (won't / sell) the {thing}.",
+  "key": "wouldn't sell",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "uncles"
+   ],
+   "thing": [
+    "house",
+    "car",
+    "garden",
+    "piano"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change the time word in brackets.",
+  "source": "Last week {m} said he would come ______ (tomorrow).",
+  "key": "the next day",
+  "acceptable": [
+   "the following day"
+  ],
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change the time word in brackets.",
+  "source": "On Monday {f} said she would send my {doc} ______ (tomorrow).",
+  "key": "the next day",
+  "acceptable": [
+   "the following day"
+  ],
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "doc": [
+    "report",
+    "photos",
+    "email",
+    "ticket"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change the time word in brackets.",
+  "source": "Last month {m} said he would visit me ______ (next week).",
+  "key": "the following week",
+  "acceptable": [
+   "the next week"
+  ],
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change the time word in brackets.",
+  "source": "Last Friday {f} said she would phone me ______ (tonight).",
+  "key": "that night",
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change the time word in brackets.",
+  "source": "Last week {f} said she would finish her {work} ______ (today).",
+  "key": "that day",
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "work": [
+    "report",
+    "essay",
+    "project",
+    "painting"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report it later. Change the time word in brackets.",
+  "source": "On Monday {m} said he would pay me ______ (today).",
+  "key": "that day",
+  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the promise. Change the pronoun and will.",
+  "source": "'I'll help you with the {work},' {f} said last week.",
+  "hint": "Last week {f} said that she ______ with the {work}.",
+  "key": "would help me",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "work": [
+    "move",
+    "homework",
+    "party",
+    "cooking"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the promise. Change the pronoun and will.",
+  "source": "'I'll lend you my {thing},' {m} said last month.",
+  "hint": "Last month {m} said that he ______ his {thing}.",
+  "key": "would lend me",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "car",
+    "bike",
+    "camera",
+    "laptop"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the promise. Change the pronoun and will.",
+  "source": "'We'll call you from {city},' my {who} said last week.",
+  "hint": "Last week my {who} said that they ______ from {city}.",
+  "key": "would call me",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "parents",
+    "friends",
+    "cousins",
+    "neighbours"
+   ],
+   "city": [
+    "Moscow",
+    "Istanbul",
+    "Dubai",
+    "Seoul"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the promise. Change the pronoun and will.",
+  "source": "'I won't forget your {day},' {m} said last year.",
+  "hint": "Last year {m} said that he ______ my {day}.",
+  "key": "wouldn't forget",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "day": [
+    "birthday",
+    "name",
+    "number",
+    "advice"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the promise. Change the pronoun and will.",
+  "source": "'I'll wait for you at the {place},' {f} said on Monday.",
+  "hint": "On Monday {f} said that she ______ for me at the {place}.",
+  "key": "would wait",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "place": [
+    "station",
+    "gate",
+    "café",
+    "bus stop"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. It was said last week.",
+  "source": "Last week {m} said he will call me from the {place} the next day.",
+  "hint": "Last week {m} said he ______ call me from the {place} the next day.",
+  "key": "would",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "office",
+    "station",
+    "airport",
+    "hotel"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. It was said last week.",
+  "source": "Last month {f} said she would visit us in {city} next week.",
+  "hint": "Last month {f} said she would visit us in {city} ______.",
+  "key": "the following week",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. It was said last week.",
+  "source": "On Monday {m} said he would finish his {work} tomorrow.",
+  "hint": "On Monday {m} said he would finish his {work} ______.",
+  "key": "the next day",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "work": [
+    "report",
+    "essay",
+    "project",
+    "painting"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. It was said last week.",
+  "source": "Last week {f} said she won't be late for the {event}.",
+  "hint": "Last week {f} said she ______ be late for the {event}.",
+  "key": "wouldn't",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "event": [
+    "wedding",
+    "meeting",
+    "lesson",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. It was said last week.",
+  "source": "Last Friday {m} said he would phone me from {city} tonight.",
+  "hint": "Last Friday {m} said he would phone me from {city} ______.",
+  "key": "that night",
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report it. Change will and the time word.",
+  "source": "'I'll come to the {event} tomorrow,' {m} said last week.",
+  "hint": "Last week {m} said he ______ come to the {event} ______.",
+  "key": [
+   "would",
+   "the next day"
+  ],
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "match",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report it. Change will and the time word.",
+  "source": "'We'll visit you in {city} next week,' my {who} said last month.",
+  "hint": "Last month my {who} said they ______ visit me in {city} ______.",
+  "key": [
+   "would",
+   "the following week"
+  ],
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "who": [
+    "parents",
+    "friends",
+    "cousins",
+    "neighbours"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report it. Change will and the time word.",
+  "source": "'I'll phone you from the {place} tonight,' {f} said on Friday.",
+  "hint": "On Friday {f} said she ______ phone me from the {place} ______.",
+  "key": [
+   "would",
+   "that night"
+  ],
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "place": [
+    "office",
+    "station",
+    "airport",
+    "hotel"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report it. Change will and the time word.",
+  "source": "'I'll pay you for the {thing} today,' {m} said on Monday.",
+  "hint": "On Monday {m} said he ______ pay me for the {thing} ______.",
+  "key": [
+   "would",
+   "that day"
+  ],
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "tickets",
+    "food",
+    "taxi",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report it. Change will and the time word.",
+  "source": "'The {test} will be tomorrow,' the {who} said last week.",
+  "hint": "Last week the {who} said the {test} ______ be ______.",
+  "key": [
+   "would",
+   "the next day"
+  ],
+  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "match",
+    "meeting"
+   ],
+   "who": [
+    "teacher",
+    "director",
+    "coach",
+    "manager"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Last week a friend said: 'I'll call you tomorrow.' Report it now.",
+  "requiredElement": "… said he / she would call me the next day",
+  "constraints": [
+   "exactly one sentence",
+   "would",
+   "the next day"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a promise someone made to you last month.",
+  "requiredElement": "… said … would …",
+  "constraints": [
+   "exactly one sentence",
+   "would + base verb",
+   "said"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Last week your brother said: 'I won't be late.' Report it.",
+  "requiredElement": "He said he wouldn't be late",
+  "constraints": [
+   "exactly one sentence",
+   "wouldn't",
+   "he"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a weather forecast you heard last week.",
+  "requiredElement": "They said it would rain …",
+  "constraints": [
+   "exactly one sentence",
+   "would",
+   "said"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Last month a friend said: 'I'll visit you next week.' Report it.",
+  "requiredElement": "… would visit me the following week",
+  "constraints": [
+   "exactly one sentence",
+   "would",
+   "the following week"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report something a teacher promised your class.",
+  "requiredElement": "The teacher said we would …",
+  "constraints": [
+   "exactly one sentence",
+   "would",
+   "we / us"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write the direct words with will, then report them a week later.",
+  "requiredElement": "will → would",
+  "constraints": [
+   "exactly two sentences",
+   "will in quotes",
+   "would in the report"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Last Friday someone said: 'I'll phone you tonight.' Report it.",
+  "requiredElement": "… would phone me that night",
+  "constraints": [
+   "exactly one sentence",
+   "would",
+   "that night"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend promised you three things last month but didn't do them. Write three or four sentences reporting the promises.",
+  "targetGrammar": "would / wouldn't in reported promises",
+  "lookFor": [
+   "said … would",
+   "wouldn't",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report what a politician or a director said about the future of your town. Write three or four sentences.",
+  "targetGrammar": "reported predictions",
+  "lookFor": [
+   "said … would",
+   "the following year / week",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report the plans your family made last week for the weekend. Write three or four sentences.",
+  "targetGrammar": "would + time word changes",
+  "lookFor": [
+   "would",
+   "the next day / that night",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Last year you made New Year promises. Report them in three or four sentences: I said I would …",
+  "targetGrammar": "I said I would …",
+  "lookFor": [
+   "I said",
+   "would",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report a weather forecast and what your parents said they would do. Write three or four sentences.",
+  "targetGrammar": "would in reported speech",
+  "lookFor": [
+   "said",
+   "would",
+   "three or four sentences"
+  ]
+ }
+]

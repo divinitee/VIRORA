@@ -1,0 +1,1840 @@
+[
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Oh no! My {thing} ______. I can't find it anywhere, {name}.",
+  "options": [
+   "has been stolen",
+   "has stolen",
+   "is been stolen",
+   "has being stolen"
+  ],
+  "key": 0,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "wallet",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A new {place} ______ near our house this year, {name}.",
+  "options": [
+   "has built",
+   "is been built",
+   "has being built",
+   "has been built"
+  ],
+  "key": 3,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "place": [
+    "mosque",
+    "school",
+    "hospital",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {event} ______ because of the snow, {name}.",
+  "options": [
+   "is been cancelled",
+   "has being cancelled",
+   "has been cancelled",
+   "has cancelled"
+  ],
+  "key": 2,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "concert",
+    "trip",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} ______ at last. We can use it again, {name}.",
+  "options": [
+   "has being repaired",
+   "has been repaired",
+   "has repaired",
+   "is been repaired"
+  ],
+  "key": 1,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "lift",
+    "road",
+    "bridge",
+    "printer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {room} ______ blue. Do you like it, {name}?",
+  "options": [
+   "has been painted",
+   "has painted",
+   "is been painted",
+   "has being painted"
+  ],
+  "key": 0,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "room": [
+    "room",
+    "kitchen",
+    "office",
+    "bedroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sorry, the last {thing} ______. Come back tomorrow, {name}.",
+  "options": [
+   "has sold",
+   "is been sold",
+   "has being sold",
+   "has been sold"
+  ],
+  "key": 3,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "cake",
+    "melon",
+    "newspaper"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Good news! Your {pet} ______ in the park, {name}.",
+  "options": [
+   "is been found",
+   "has being found",
+   "has been found",
+   "has found"
+  ],
+  "key": 2,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {doc} ______ to your email, {name}.",
+  "options": [
+   "has being sent",
+   "has been sent",
+   "has sent",
+   "is been sent"
+  ],
+  "key": 1,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "doc": [
+    "ticket",
+    "report",
+    "invoice",
+    "letter"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our class ______ to the {event}, {name}.",
+  "options": [
+   "has been invited",
+   "has invited",
+   "is been invited",
+   "has being invited"
+  ],
+  "key": 0,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "event": [
+    "concert",
+    "museum",
+    "wedding",
+    "festival"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {room} ______. You can go in now, {name}.",
+  "options": [
+   "has cleaned",
+   "is been cleaned",
+   "has being cleaned",
+   "has been cleaned"
+  ],
+  "key": 3,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "hall",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The time of the {event} ______. It's now at seven, {name}.",
+  "options": [
+   "is been changed",
+   "has being changed",
+   "has been changed",
+   "has changed"
+  ],
+  "key": 2,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "meeting",
+    "concert",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The window in the {room} ______ again, {name}.",
+  "options": [
+   "has being broken",
+   "has been broken",
+   "has broken",
+   "is been broken"
+  ],
+  "key": 1,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "hall",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "All the {thing} ______. There are none left, {name}.",
+  "options": [
+   "have been sold",
+   "have sold",
+   "are been sold",
+   "has been sold"
+  ],
+  "key": 0,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "cakes",
+    "melons",
+    "books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} ______ about the change, {name}.",
+  "options": [
+   "have told",
+   "are been told",
+   "has been told",
+   "have been told"
+  ],
+  "key": 3,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "who": [
+    "students",
+    "workers",
+    "guests",
+    "parents"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Two new {thing} ______ in our street this year, {name}.",
+  "options": [
+   "are been built",
+   "has been built",
+   "have been built",
+   "have built"
+  ],
+  "key": 2,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "houses",
+    "shops",
+    "schools",
+    "cafés"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The emails ______ to all the {who}, {name}.",
+  "options": [
+   "has been sent",
+   "have been sent",
+   "have sent",
+   "are been sent"
+  ],
+  "key": 1,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "who": [
+    "students",
+    "parents",
+    "guests",
+    "workers"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} ______. They're clean now, {name}.",
+  "options": [
+   "have been washed",
+   "have washed",
+   "are been washed",
+   "has been washed"
+  ],
+  "key": 0,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "shirts",
+    "clothes",
+    "dishes",
+    "curtains"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {event} results ______ online, {name}.",
+  "options": [
+   "have put",
+   "are been put",
+   "has been put",
+   "have been put"
+  ],
+  "key": 3,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "event": [
+    "exam",
+    "test",
+    "race",
+    "quiz"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Hundreds of trees ______ in the {place} this spring, {name}.",
+  "options": [
+   "are been planted",
+   "has been planted",
+   "have been planted",
+   "have planted"
+  ],
+  "key": 2,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "place": [
+    "park",
+    "city",
+    "village",
+    "school yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children ______ home because of the {weather}, {name}.",
+  "options": [
+   "has been sent",
+   "have been sent",
+   "have sent",
+   "are been sent"
+  ],
+  "key": 1,
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "weather": [
+    "snow",
+    "heat",
+    "storm",
+    "flood"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "My {thing} ______ (steal), {name}.",
+  "key": "has been stolen",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "wallet",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "A new {place} ______ (build) near us, {name}.",
+  "key": "has been built",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "place": [
+    "mosque",
+    "school",
+    "hospital",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "The {event} ______ (postpone) until May, {name}.",
+  "key": "has been postponed",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "concert",
+    "trip",
+    "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "The {thing} ______ (repair) at last, {name}.",
+  "key": "has been repaired",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "lift",
+    "road",
+    "bridge",
+    "printer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "Your {room} ______ (paint) blue, {name}.",
+  "key": "has been painted",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "room": [
+    "room",
+    "kitchen",
+    "office",
+    "bedroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "Your {pet} ______ (find), {name}!",
+  "key": "has been found",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "Our class ______ (invite) to the {event}, {name}.",
+  "key": "has been invited",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "event": [
+    "concert",
+    "museum",
+    "wedding",
+    "festival"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "The {room} ______ (clean). You can go in, {name}.",
+  "key": "has been cleaned",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "hall",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "The time of the {event} ______ (change), {name}.",
+  "key": "has been changed",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "meeting",
+    "concert",
+    "lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "All the {thing} ______ (sell), {name}.",
+  "key": "have been sold",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "cakes",
+    "melons",
+    "books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "The {who} ______ (tell) about the change, {name}.",
+  "key": "have been told",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "who": [
+    "students",
+    "workers",
+    "guests",
+    "parents"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "Two new {thing} ______ (build) in our street, {name}.",
+  "key": "have been built",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "houses",
+    "shops",
+    "schools",
+    "cafés"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "My {thing} ______ (wash). They're clean now, {name}.",
+  "key": "have been washed",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "shirts",
+    "clothes",
+    "dishes",
+    "curtains"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "Hundreds of trees ______ (plant) in the {place}, {name}.",
+  "key": "have been planted",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "place": [
+    "park",
+    "city",
+    "village",
+    "school yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
+  "source": "The children ______ (send) home because of the {weather}, {name}.",
+  "key": "have been sent",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "weather": [
+    "snow",
+    "heat",
+    "storm",
+    "flood"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has / have and been + the past participle of the verb in brackets.",
+  "source": "The {doc} ______ already ______ (send) to the manager, {name}.",
+  "key": [
+   "has",
+   "been sent"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "doc": [
+    "report",
+    "invoice",
+    "letter",
+    "contract"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has / have and been + the past participle of the verb in brackets.",
+  "source": "The {thing} ______ just ______ (deliver), {name}.",
+  "key": [
+   "has",
+   "been delivered"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "parcel",
+    "pizza",
+    "sofa",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has / have and been + the past participle of the verb in brackets.",
+  "source": "______ the {room} ______ (clean) yet, {name}?",
+  "key": [
+   "Has",
+   "been cleaned"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "hall",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has / have and been + the past participle of the verb in brackets.",
+  "source": "The new {who} ______ already ______ (choose), {name}.",
+  "key": [
+   "has",
+   "been chosen"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "who": [
+    "captain",
+    "director",
+    "teacher",
+    "manager"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with has / have and been + the past participle of the verb in brackets.",
+  "source": "All the {thing} ______ just ______ (sell), {name}.",
+  "key": [
+   "have",
+   "been sold"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "cakes",
+    "melons",
+    "books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given. Don't say who did it.",
+  "source": "Someone has stolen my {thing}, {name}.",
+  "hint": "My {thing} ______, {name}.",
+  "key": "has been stolen",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "wallet",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given. Don't say who did it.",
+  "source": "They have built a new {place} near us, {name}.",
+  "hint": "A new {place} ______ near us, {name}.",
+  "key": "has been built",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "place": [
+    "mosque",
+    "school",
+    "hospital",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given. Don't say who did it.",
+  "source": "Someone has broken the window in the {room}, {name}.",
+  "hint": "The window in the {room} ______, {name}.",
+  "key": "has been broken",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "hall",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given. Don't say who did it.",
+  "source": "They have sold all the {thing}, {name}.",
+  "hint": "All the {thing} ______, {name}.",
+  "key": "have been sold",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "cakes",
+    "melons",
+    "books"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given. Don't say who did it.",
+  "source": "Somebody has found your {pet}, {name}!",
+  "hint": "Your {pet} ______, {name}!",
+  "key": "has been found",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {thing} has stolen, {name}.",
+  "hint": "My {thing} ______, {name}.",
+  "key": "has been stolen",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "wallet",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {event} has been postpone, {name}.",
+  "hint": "The {event} ______, {name}.",
+  "key": "has been postponed",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "concert",
+    "trip",
+    "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {who} have being told about it, {name}.",
+  "hint": "The {who} ______ about it, {name}.",
+  "key": "have been told",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "who": [
+    "students",
+    "workers",
+    "guests",
+    "parents"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "A new {place} is been built near us, {name}.",
+  "hint": "A new {place} ______ near us, {name}.",
+  "key": "has been built",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "place": [
+    "mosque",
+    "school",
+    "hospital",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The letters has been sent to the {who}, {name}.",
+  "hint": "The letters ______ to the {who}, {name}.",
+  "key": "have been sent",
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "who": [
+    "students",
+    "parents",
+    "guests",
+    "workers"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Keep already / just / yet.",
+  "source": "They have already cleaned the {room}, {name}.",
+  "hint": "The {room} ______ already ______, {name}.",
+  "key": [
+   "has",
+   "been cleaned"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "classroom",
+    "hall",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Keep already / just / yet.",
+  "source": "Someone has just repaired the {thing}, {name}.",
+  "hint": "The {thing} ______ just ______, {name}.",
+  "key": [
+   "has",
+   "been repaired"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "lift",
+    "road",
+    "bridge",
+    "printer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Keep already / just / yet.",
+  "source": "Have they sent the {doc} yet, {name}?",
+  "hint": "______ the {doc} ______ yet, {name}?",
+  "key": [
+   "Has",
+   "been sent"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "doc": [
+    "report",
+    "invoice",
+    "letter",
+    "contract"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Keep already / just / yet.",
+  "source": "They have already told the {who}, {name}.",
+  "hint": "The {who} ______ already ______, {name}.",
+  "key": [
+   "have",
+   "been told"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "who": [
+    "students",
+    "workers",
+    "guests",
+    "parents"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Keep already / just / yet.",
+  "source": "Someone has just painted the {thing}. Don't touch it, {name}.",
+  "hint": "The {thing} ______ just ______. Don't touch it, {name}.",
+  "key": [
+   "has",
+   "been painted"
+  ],
+  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "slots": {
+   "thing": [
+    "door",
+    "fence",
+    "wall",
+    "bench"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence of news about your town with has been + past participle.",
+  "requiredElement": "… has been built / opened …",
+  "constraints": [
+   "exactly one sentence",
+   "has / have been + past participle",
+   "no doer"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Something of yours has gone. Write one sentence with has been stolen or has been lost.",
+  "requiredElement": "My … has been stolen",
+  "constraints": [
+   "exactly one sentence",
+   "has been + past participle",
+   "present perfect"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with already and the present perfect passive.",
+  "requiredElement": "… has already been …",
+  "constraints": [
+   "exactly one sentence",
+   "already",
+   "has / have been + past participle"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question with yet and the present perfect passive.",
+  "requiredElement": "Has … been … yet?",
+  "constraints": [
+   "exactly one question",
+   "yet",
+   "Has / Have … been"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a match or concert that has been cancelled or postponed.",
+  "requiredElement": "… has been postponed",
+  "constraints": [
+   "exactly one sentence",
+   "has been + past participle",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with have been (plural).",
+  "requiredElement": "… have been + past participle",
+  "constraints": [
+   "exactly one sentence",
+   "a plural subject",
+   "have been"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with just and the present perfect passive.",
+  "requiredElement": "… has just been …",
+  "constraints": [
+   "exactly one sentence",
+   "just",
+   "has / have been + past participle"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: active (Someone has …) and the same in the passive.",
+  "requiredElement": "active vs passive",
+  "constraints": [
+   "exactly two sentences",
+   "someone has …",
+   "has been + past participle"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short news report (three or four sentences) about changes in your town this year.",
+  "targetGrammar": "present perfect passive for news",
+  "lookFor": [
+   "has / have been + past participle",
+   "no doer",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You come back from holiday. Write three or four sentences about what has been done at home while you were away.",
+  "targetGrammar": "has / have been + past participle",
+  "lookFor": [
+   "has been",
+   "have been",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about preparations for a wedding: what has already been done and what hasn't been done yet.",
+  "targetGrammar": "already / yet with the passive",
+  "lookFor": [
+   "already",
+   "yet",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your school or office has changed. Write three or four sentences with has been / have been.",
+  "targetGrammar": "present perfect passive",
+  "lookFor": [
+   "has been",
+   "have been",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short email (three or four sentences) to a customer: their order has been sent, and some items have been changed.",
+  "targetGrammar": "present perfect passive",
+  "lookFor": [
+   "has been sent",
+   "have been",
+   "three or four sentences"
+  ]
+ }
+]

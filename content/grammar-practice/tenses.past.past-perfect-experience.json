@@ -1,0 +1,1756 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} was nervous because she had never ______ in front of so many {people} before.",
+  "options": [
+   "spoken",
+   "spoke",
+   "speak",
+   "speaking"
+  ],
+  "key": 0,
+  "why": "After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "people": [
+    "people",
+    "students",
+    "parents",
+    "guests"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I was a bit scared on the plane to {city}. I had never ______ before, {name}.",
+  "options": [
+   "flew",
+   "fly",
+   "flying",
+   "flown"
+  ],
+  "key": 3,
+  "why": "After had never / had ever, use the past participle: flown. It was a new experience at that moment in the past.",
+  "slots": {
+   "city": [
+    "Istanbul",
+    "Moscow",
+    "Seoul",
+    "Dubai"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children were so happy. They had never ______ {thing} before.",
+  "options": [
+   "see",
+   "seeing",
+   "seen",
+   "saw"
+  ],
+  "key": 2,
+  "why": "After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.",
+  "slots": {
+   "thing": [
+    "snow",
+    "the sea",
+    "a real camel",
+    "mountains"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} didn't know how to use chopsticks. He had never ______ {food} before.",
+  "options": [
+   "eating",
+   "eaten",
+   "ate",
+   "eat"
+  ],
+  "key": 1,
+  "why": "After had never / had ever, use the past participle: eaten. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Timur",
+    "Ilya",
+    "Jasur"
+   ],
+   "food": [
+    "Korean food",
+    "Chinese food",
+    "sushi",
+    "noodles"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little brother fell off the {animal} at the {place} because he had never ______ one before.",
+  "options": [
+   "ridden",
+   "rode",
+   "ride",
+   "riding"
+  ],
+  "key": 0,
+  "why": "After had never / had ever, use the past participle: ridden. It was a new experience at that moment in the past.",
+  "slots": {
+   "animal": [
+    "horse",
+    "camel",
+    "donkey",
+    "pony"
+   ],
+   "place": [
+    "farm",
+    "zoo",
+    "park",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} stayed near the beach. She had never ______ in the {water} before.",
+  "options": [
+   "swam",
+   "swim",
+   "swimming",
+   "swum"
+  ],
+  "key": 3,
+  "why": "After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "water": [
+    "sea",
+    "ocean",
+    "lake",
+    "river"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My father was careful in {city} because he had never ______ there before, {name}.",
+  "options": [
+   "drive",
+   "driving",
+   "driven",
+   "drove"
+  ],
+  "key": 2,
+  "why": "After had never / had ever, use the past participle: driven. It was a new experience at that moment in the past.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Almaty",
+    "Moscow",
+    "Istanbul"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I didn't know how to start. I had never ______ a {text} in English before, {name}.",
+  "options": [
+   "writing",
+   "written",
+   "wrote",
+   "write"
+  ],
+  "key": 1,
+  "why": "After had never / had ever, use the past participle: written. It was a new experience at that moment in the past.",
+  "slots": {
+   "text": [
+    "letter",
+    "story",
+    "report",
+    "cover letter"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} felt strange in the {thing}. He had never ______ one before.",
+  "options": [
+   "worn",
+   "wore",
+   "wear",
+   "wearing"
+  ],
+  "key": 0,
+  "why": "After had never / had ever, use the past participle: worn. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Timur",
+    "Ilya",
+    "Jasur"
+   ],
+   "thing": [
+    "suit",
+    "tie",
+    "uniform",
+    "chapan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandmother didn't like the {drink}. She had never ______ it before, {name}.",
+  "options": [
+   "drank",
+   "drink",
+   "drinking",
+   "drunk"
+  ],
+  "key": 3,
+  "why": "After had never / had ever, use the past participle: drunk. It was a new experience at that moment in the past.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "cola",
+    "green smoothie",
+    "cold tea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our teacher was nervous. She had never ______ on a stage before, {name}.",
+  "options": [
+   "sing",
+   "singing",
+   "sung",
+   "sang"
+  ],
+  "key": 2,
+  "why": "After had never / had ever, use the past participle: sung. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I was excited at the {place}. I had never ______ a {trip} alone before.",
+  "options": [
+   "taking",
+   "taken",
+   "took",
+   "take"
+  ],
+  "key": 1,
+  "why": "After had never / had ever, use the past participle: taken. It was a new experience at that moment in the past.",
+  "slots": {
+   "place": [
+    "airport",
+    "station",
+    "bus station",
+    "border"
+   ],
+   "trip": [
+    "trip",
+    "journey",
+    "long trip",
+    "holiday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} was very nervous. She had never ______ a {talk} before.",
+  "options": [
+   "given",
+   "gave",
+   "give",
+   "giving"
+  ],
+  "key": 0,
+  "why": "After had never / had ever, use the past participle: given. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "talk": [
+    "talk",
+    "speech",
+    "presentation",
+    "lesson"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our team lost because the new player had never ______ a {ball} in a real match before.",
+  "options": [
+   "threw",
+   "throw",
+   "throwing",
+   "thrown"
+  ],
+  "key": 3,
+  "why": "After had never / had ever, use the past participle: thrown. It was a new experience at that moment in the past.",
+  "slots": {
+   "ball": [
+    "ball",
+    "basketball",
+    "handball",
+    "volleyball"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Had you ever ______ abroad before your trip to {city}, {name}?",
+  "options": [
+   "go",
+   "going",
+   "gone",
+   "went"
+  ],
+  "key": 2,
+  "why": "After had never / had ever, use the past participle: gone. It was a new experience at that moment in the past.",
+  "slots": {
+   "city": [
+    "Istanbul",
+    "Seoul",
+    "Dubai",
+    "Almaty"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Had your parents ever ______ a {show} before last night, {name}?",
+  "options": [
+   "seeing",
+   "seen",
+   "saw",
+   "see"
+  ],
+  "key": 1,
+  "why": "After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.",
+  "slots": {
+   "show": [
+    "ballet",
+    "play",
+    "circus show",
+    "live concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Before this trip, had you ever ______ to {city}, {name}?",
+  "options": [
+   "been",
+   "was",
+   "be",
+   "being"
+  ],
+  "key": 0,
+  "why": "After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.",
+  "slots": {
+   "city": [
+    "Khiva",
+    "Nukus",
+    "Termez",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It was the first time I had ______ a {bone} in my life, {name}.",
+  "options": [
+   "broke",
+   "break",
+   "breaking",
+   "broken"
+  ],
+  "key": 3,
+  "why": "After had never / had ever, use the past participle: broken. It was a new experience at that moment in the past.",
+  "slots": {
+   "bone": [
+    "bone",
+    "finger",
+    "leg",
+    "wrist"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It was the first time my mother had ______ {veg} in our garden.",
+  "options": [
+   "grow",
+   "growing",
+   "grown",
+   "grew"
+  ],
+  "key": 2,
+  "why": "After had never / had ever, use the past participle: grown. It was a new experience at that moment in the past.",
+  "slots": {
+   "veg": [
+    "tomatoes",
+    "potatoes",
+    "melons",
+    "carrots"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It was the first time {name} had ______ a picture of a {thing}.",
+  "options": [
+   "drawing",
+   "drawn",
+   "drew",
+   "draw"
+  ],
+  "key": 1,
+  "why": "After had never / had ever, use the past participle: drawn. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "horse",
+    "face",
+    "city",
+    "car"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "She was nervous because she had never ______ (speak) on the radio before, {name}.",
+  "key": "spoken",
+  "why": "After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "We stopped the car, {name}. We had never ______ (see) such a big {thing} before.",
+  "key": "seen",
+  "why": "After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.",
+  "slots": {
+   "thing": [
+    "lake",
+    "mountain",
+    "field of flowers",
+    "waterfall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "{name} held my hand on the plane. He had never ______ (fly) to {city} before.",
+  "key": "flown",
+  "why": "After had never / had ever, use the past participle: flown. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Timur",
+    "Ilya",
+    "Jasur"
+   ],
+   "city": [
+    "Istanbul",
+    "Seoul",
+    "Moscow",
+    "Dubai"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "I was surprised by the taste, {name}. I had never ______ (eat) {food} before.",
+  "key": "eaten",
+  "why": "After had never / had ever, use the past participle: eaten. It was a new experience at that moment in the past.",
+  "slots": {
+   "food": [
+    "fish soup",
+    "sushi",
+    "Korean food",
+    "Indian food"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "{name} was scared because she had never ______ (ride) a {thing} before.",
+  "key": "ridden",
+  "why": "After had never / had ever, use the past participle: ridden. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "thing": [
+    "horse",
+    "camel",
+    "motorbike",
+    "bike"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "My {who} had never ______ (drive) in the {weather} before, so he went slowly.",
+  "key": "driven",
+  "why": "After had never / had ever, use the past participle: driven. It was a new experience at that moment in the past.",
+  "slots": {
+   "who": [
+    "uncle",
+    "father",
+    "grandfather",
+    "brother"
+   ],
+   "weather": [
+    "snow",
+    "rain",
+    "fog",
+    "dark"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "The water was cold, and I had never ______ (swim) in a {water} before, {name}.",
+  "key": "swum",
+  "why": "After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.",
+  "slots": {
+   "water": [
+    "lake",
+    "river",
+    "mountain lake",
+    "cold sea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "My {who} had never ______ (write) an email in English before his {job} interview.",
+  "key": "written",
+  "why": "After had never / had ever, use the past participle: written. It was a new experience at that moment in the past.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "father",
+    "uncle"
+   ],
+   "job": [
+    "first",
+    "new",
+    "bank",
+    "hotel"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "{name} looked very smart. He had never ______ (wear) a {thing} before the wedding.",
+  "key": "worn",
+  "why": "After had never / had ever, use the past participle: worn. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Timur",
+    "Ilya",
+    "Jasur"
+   ],
+   "thing": [
+    "suit",
+    "tie",
+    "white shirt",
+    "chapan"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "Our {group} had never ______ (sing) in front of the whole {school} before.",
+  "key": "sung",
+  "why": "After had never / had ever, use the past participle: sung. It was a new experience at that moment in the past.",
+  "slots": {
+   "group": [
+    "class",
+    "choir",
+    "group",
+    "team"
+   ],
+   "school": [
+    "school",
+    "lyceum",
+    "college",
+    "town"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "I had never ______ (take) the {transport} on my own before last {when}.",
+  "key": "taken",
+  "why": "After had never / had ever, use the past participle: taken. It was a new experience at that moment in the past.",
+  "slots": {
+   "transport": [
+    "metro",
+    "train",
+    "night bus",
+    "minibus"
+   ],
+   "when": [
+    "week",
+    "month",
+    "summer",
+    "Friday"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "{name} was excited. She had never ______ (be) to {city} before.",
+  "key": "been",
+  "why": "After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "city": [
+    "Khiva",
+    "Samarkand",
+    "Bukhara",
+    "Shahrisabz"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "My cousin had never ______ (do) a {sport} lesson before, so the coach helped him.",
+  "key": "done",
+  "why": "After had never / had ever, use the past participle: done. It was a new experience at that moment in the past.",
+  "slots": {
+   "sport": [
+    "judo",
+    "tennis",
+    "boxing",
+    "swimming"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "My parents had never ______ (meet) my teacher before the {event}, {name}.",
+  "key": "met",
+  "why": "After had never / had ever, use the past participle: met. It was a new experience at that moment in the past.",
+  "slots": {
+   "event": [
+    "parents' meeting",
+    "school concert",
+    "graduation",
+    "open day"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "My {who} had never ______ (drink) {drink} before, and he didn't like it.",
+  "key": "drunk",
+  "why": "After had never / had ever, use the past participle: drunk. It was a new experience at that moment in the past.",
+  "slots": {
+   "who": [
+    "grandfather",
+    "father",
+    "uncle",
+    "little brother"
+   ],
+   "drink": [
+    "coffee",
+    "cola",
+    "a milkshake",
+    "a smoothie"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "{name} was proud. She had never ______ (make) {food} on her own before.",
+  "key": "made",
+  "why": "After had never / had ever, use the past participle: made. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "food": [
+    "plov",
+    "manti",
+    "a cake",
+    "samsa"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "Our team was so happy. We had never ______ (win) a {thing} before, {name}.",
+  "key": "won",
+  "why": "After had never / had ever, use the past participle: won. It was a new experience at that moment in the past.",
+  "slots": {
+   "thing": [
+    "cup",
+    "match",
+    "prize",
+    "final"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "I had never ______ (hear) that {music} before last night.",
+  "key": "heard",
+  "why": "After had never / had ever, use the past participle: heard. It was a new experience at that moment in the past.",
+  "slots": {
+   "music": [
+    "song",
+    "singer",
+    "band",
+    "kind of music"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "{name} had never ______ (read) a whole book in English before this {time}.",
+  "key": "read",
+  "why": "After had never / had ever, use the past participle: read. It was a new experience at that moment in the past.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "time": [
+    "year",
+    "summer",
+    "month",
+    "term"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the past participle of the verb in brackets.",
+  "source": "My little sister had never ______ (try) {food} before the party.",
+  "key": "tried",
+  "why": "After had never / had ever, use the past participle: tried. It was a new experience at that moment in the past.",
+  "slots": {
+   "food": [
+    "ice cream cake",
+    "pizza",
+    "chocolate",
+    "lemon cake"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with had never … before.",
+  "source": "Last {season} was my first time on a plane, {name}.",
+  "hint": "Before last {season}, I ______ on a plane, {name}.",
+  "key": "had never flown",
+  "why": "It was the first time, so: had never + past participle (flown) + before.",
+  "slots": {
+   "season": [
+    "summer",
+    "winter",
+    "spring",
+    "year"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with had never … before.",
+  "source": "Yesterday was {name}'s first time in a {place}.",
+  "hint": "Before yesterday, {name} ______ in a {place}.",
+  "key": "had never been",
+  "why": "It was the first time, so: had never + past participle (been) + before.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "theatre",
+    "museum",
+    "mosque",
+    "stadium"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with had never … before.",
+  "source": "At the party, it was my first time eating {food}, {name}.",
+  "hint": "Before the party, I ______ {food}, {name}.",
+  "key": "had never eaten",
+  "why": "It was the first time, so: had never + past participle (eaten) + before.",
+  "slots": {
+   "food": [
+    "sushi",
+    "pizza",
+    "Korean food",
+    "fish soup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with had never … before.",
+  "source": "Last {when} was my brother's first time driving in {city}.",
+  "hint": "Before last {when}, my brother ______ in {city}.",
+  "key": "had never driven",
+  "why": "It was the first time, so: had never + past participle (driven) + before.",
+  "slots": {
+   "when": [
+    "week",
+    "month",
+    "year",
+    "summer"
+   ],
+   "city": [
+    "Tashkent",
+    "Almaty",
+    "Moscow",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with had never … before.",
+  "source": "In {month}, it was {name}'s first time seeing snow.",
+  "hint": "Before {month}, {name} ______ snow.",
+  "key": "had never seen",
+  "why": "It was the first time, so: had never + past participle (seen) + before.",
+  "slots": {
+   "month": [
+    "December",
+    "January",
+    "February",
+    "that winter"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Put the story in the past.",
+  "source": "{name} is excited. She has never been to {city}.",
+  "hint": "{name} was excited. She ______ to {city} before.",
+  "key": "had never been",
+  "why": "The story is now in the past, so has never → had never been.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "city": [
+    "Khiva",
+    "Samarkand",
+    "Bukhara",
+    "Tashkent"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Put the story in the past.",
+  "source": "I'm nervous, {name}. I have never spoken to a big {group}.",
+  "hint": "I was nervous, {name}. I ______ to a big {group} before.",
+  "key": "had never spoken",
+  "why": "The story is now in the past, so has never → had never spoken.",
+  "slots": {
+   "group": [
+    "audience",
+    "class",
+    "group",
+    "crowd"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Put the story in the past.",
+  "source": "My {who} is happy. She has never seen the {thing}.",
+  "hint": "My {who} was happy. She ______ the {thing} before.",
+  "key": "had never seen",
+  "why": "The story is now in the past, so has never → had never seen.",
+  "slots": {
+   "who": [
+    "grandmother",
+    "mother",
+    "aunt",
+    "little sister"
+   ],
+   "thing": [
+    "sea",
+    "mountains",
+    "new bridge",
+    "old city"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Put the story in the past.",
+  "source": "{name} is scared. He has never ridden a {animal}.",
+  "hint": "{name} was scared. He ______ a {animal} before.",
+  "key": "had never ridden",
+  "why": "The story is now in the past, so has never → had never ridden.",
+  "slots": {
+   "name": [
+    "Sardor",
+    "Timur",
+    "Ilya",
+    "Jasur"
+   ],
+   "animal": [
+    "horse",
+    "camel",
+    "donkey",
+    "pony"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Put the story in the past.",
+  "source": "We are surprised, {name}. We have never eaten such good {food}.",
+  "hint": "We were surprised, {name}. We ______ such good {food} before.",
+  "key": "had never eaten",
+  "why": "The story is now in the past, so has never → had never eaten.",
+  "slots": {
+   "food": [
+    "plov",
+    "bread",
+    "fruit",
+    "soup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She was nervous because she had never spoke on TV before, {name}.",
+  "hint": "She was nervous because she had never ______ on TV before, {name}.",
+  "key": "spoken",
+  "why": "Spoke is the past simple. After had, use the past participle: spoken.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I had never swam in a {water} before that {trip}.",
+  "hint": "I had never ______ in a {water} before that {trip}.",
+  "key": "swum",
+  "why": "Swam is the past simple. After had, use the past participle: swum.",
+  "slots": {
+   "water": [
+    "lake",
+    "river",
+    "pool",
+    "cold sea"
+   ],
+   "trip": [
+    "trip",
+    "summer",
+    "holiday",
+    "camp"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} had never wrote a poem before {year}.",
+  "hint": "{name} had never ______ a poem before {year}.",
+  "key": "written",
+  "why": "Wrote is the past simple. After had, use the past participle: written.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "year": [
+    "2023",
+    "2024",
+    "last year",
+    "that summer"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {who} had never drove a {car} before.",
+  "hint": "My {who} had never ______ a {car} before.",
+  "key": "driven",
+  "why": "Drove is the past simple. After had, use the past participle: driven.",
+  "slots": {
+   "who": [
+    "uncle",
+    "father",
+    "grandfather",
+    "brother"
+   ],
+   "car": [
+    "truck",
+    "bus",
+    "new car",
+    "big car"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We had never saw such a big {thing} before, {name}.",
+  "hint": "We had never ______ such a big {thing} before, {name}.",
+  "key": "seen",
+  "why": "Saw is the past simple. After had, use the past participle: seen.",
+  "slots": {
+   "thing": [
+    "city",
+    "river",
+    "market",
+    "building"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place you visited for the first time. Use had never … before.",
+  "requiredElement": "had never been … before",
+  "constraints": [
+   "exactly one sentence",
+   "had never + past participle",
+   "before"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a food you tried for the first time.",
+  "requiredElement": "had never eaten / tried",
+  "constraints": [
+   "exactly one sentence",
+   "had never",
+   "name the food"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a time you were nervous because you had never done something.",
+  "requiredElement": "because + had never",
+  "constraints": [
+   "exactly one sentence",
+   "because",
+   "had never + past participle"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question to a friend with Had you ever …?",
+  "requiredElement": "Had you ever + past participle?",
+  "constraints": [
+   "exactly one question",
+   "had ever",
+   "before + a past event"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with It was the first time I had …",
+  "requiredElement": "the first time + had + past participle",
+  "constraints": [
+   "exactly one sentence",
+   "it was the first time",
+   "had + past participle"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a family member's first plane, train or car trip.",
+  "requiredElement": "had never flown / taken / driven",
+  "constraints": [
+   "exactly one sentence",
+   "he or she",
+   "had never"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a sport or game you had never played before last year.",
+  "requiredElement": "had never played … before",
+  "constraints": [
+   "exactly one sentence",
+   "had never played",
+   "before last year"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: something you had done before school started, and something you had never done.",
+  "requiredElement": "had + participle / had never",
+  "constraints": [
+   "exactly two sentences",
+   "had once",
+   "had never once"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a first time in your life: a first flight, a first job or a first trip alone. What had you never done before? Write three or four sentences.",
+  "targetGrammar": "had never … before",
+  "lookFor": [
+   "had never + past participle",
+   "before",
+   "past simple for what happened"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a trip to a new city. What had you never seen or done before? Write three or four sentences.",
+  "targetGrammar": "had never seen / been / eaten",
+  "lookFor": [
+   "had never",
+   "at least two participles",
+   "a city name"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about the first day at a new school or job. Write three or four sentences.",
+  "targetGrammar": "had never met / worked",
+  "lookFor": [
+   "had never",
+   "was nervous / excited",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Interview a grandparent in your head: what had they never done before they were twenty? Write three or four sentences.",
+  "targetGrammar": "had never + past participle",
+  "lookFor": [
+   "he / she had never",
+   "before they were …",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a time you tried a new sport, food or hobby. Write three or four sentences.",
+  "targetGrammar": "it was the first time I had …",
+  "lookFor": [
+   "the first time + had",
+   "had never",
+   "how you felt"
+  ]
+ }
+]
