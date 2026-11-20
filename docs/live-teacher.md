@@ -95,3 +95,26 @@ OPENAI_API_KEY=sk-... node tools/live-teacher-tests/scenarios.mjs               
 - Lessons whose connection never opened stay as `started` rows (harmless; not counted).
 - No entry point on Home / bottom tab yet: only the `/live-teacher` route. Decide: Home quick action, or a tab.
 - No admin view of Live Teacher usage yet.
+
+## v2: "text brain" lessons (2026-11-20, page /live-teacher-v2)
+
+Student voice -> ElevenLabs Scribe (word-for-word transcript) -> OpenAI text model
+(the brain: reply AND mistakes in one strict-JSON answer) -> existing mistake
+tracker -> ElevenLabs voice of the chosen persona. No tool calls to forget.
+
+- Server: `base44/shared/liveTeacherVoiceEngine.js` (actions `v2_start`, `v2_turn`,
+  `v2_fillers` in `liveTeacherApi`; `end`/`profile` shared with v1).
+- Personas + prompt + JSON schema: `base44/shared/liveTeacherBrain.js`
+  (Vira 10 min, Vira Nightingale 10 min, Velvet 15 min, Violet 15 min).
+- Browser: `src/lib/liveTeacher/voiceLoop.js` (16 kHz WAV per turn, VAD with
+  0.5 s pre-roll, interruptions, push-to-talk) + `src/pages/LiveTeacherV2.jsx`.
+- Voices: an ElevenLabs voice named exactly `Vira`, `Vira Nightingale`, `Velvet`,
+  `Violet` (or env `LIVE_TEACHER_VOICE_<PERSONA>` = voice id).
+- Secrets/env: `OPENAI_API_KEY`, `ELEVENLABS_API_KEY` (TTS + STT + Voices read).
+  Optional: `LIVE_TEACHER_BRAIN_MODEL` (default gpt-5.6-terra),
+  `LIVE_TEACHER_BRAIN_REASONING` (default low), `LIVE_TEACHER_TTS_MODEL`
+  (default eleven_v4_turbo), `LIVE_TEACHER_STT_MODEL` (default scribe_v3),
+  `LIVE_TEACHER_AUDIO_TAGS=0` to switch off [warmly]-style voice tags.
+- Cost estimate per lesson: `LiveTeacherLesson.scores.usage` (cost_usd, stt/brain/tts
+  split, tokens, turns). No schema change was needed.
+- Lab for comparing ears/mouth providers: `/live-teacher-lab` (admin only).
