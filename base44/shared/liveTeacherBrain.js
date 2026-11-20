@@ -41,7 +41,7 @@ export const cleanPersona = (p) => (PERSONAS[p] ? p : 'vira');
 export const FILLERS = {
   vira: ['Mhm, okay…', 'Hmm, okay, okay…', 'Hmm, I see…', 'Right, right…', 'Mm-hmm, alright…', 'Okay, let me see…'],
   vira_nightingale: ['Mm, I see…', 'Hmm, alright…', 'Mhm, okay…', 'Hmm, let me see…', 'Alright, alright…', 'Mm-hmm, I see…'],
-  velvet: ['Ohh, really now?', 'Hmmm, okay okay…', 'Wait, wait, wait…', 'Uh-huh, go on then…', 'Mhm, interesting…', 'Okay, hold on…'],
+  velvet: ['Ohh, really now?', 'Hmmm, okay okay…', 'Wait, wait, wait…', 'Uh-huh, okay then…', 'Mhm, interesting…', 'Okay, hold on…'],
   violet: ['Hm. I see.', 'Right. Okay.', 'Mhm. Noted.', 'Okay. Let me see.', 'Hm. Alright.', 'I see. Okay.'],
 };
 
