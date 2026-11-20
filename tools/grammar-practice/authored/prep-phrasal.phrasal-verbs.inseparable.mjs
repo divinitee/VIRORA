@@ -44,13 +44,13 @@ const CHOOSE = [
   ["takes", "after", "her", "My sister really ______. They look the same as our {who}.", { who: ["mum", "grandma", "aunt", "mother"] }, "take after (= look or act like) is inseparable: takes after her."],
   ["get", "over", "it", "He had a bad cold, but he'll ______ soon, {name}. He's {state}.", { state: ["young", "strong", "resting", "taking medicine"] }, "get over (= recover from) is inseparable: get over it."],
   ["count", "on", "me", "Don't worry about the {thing}, {name}. You can ______.", { thing: ["move", "party", "food", "trip"] }, "count on (= trust) is inseparable: count on me."],
-  ["looking", "into", "it", "The {who} said the problem was strange and they are ______ now.", { who: ["bank", "school", "police", "company"] }, "look into (= study a problem) is inseparable: looking into it."],
-  ["dealt", "with", "them", "The manager got three complaints and ______ quickly, {name}.", { name: NAME }, "deal with is inseparable: dealt with them."],
+  ["looking", "into", "it", "The {who} said the problem was strange and they are ______ now.", { who: ["bank", "school", "shop", "company"] }, "look into (= study a problem) is inseparable: looking into it."],
+  ["dealt", "with", "them", "The manager got three {thing} and ______ quickly, {name}.", { thing: ["complaints", "calls", "emails", "letters"] }, "deal with is inseparable: dealt with them."],
   ["went", "through", "it", "It was a hard time for the {who}, but they ______ together.", { who: ["family", "team", "village", "class"] }, "go through (= live through) is inseparable: went through it."],
   ["look", "after", "the children", "Who will ______ when you're at the {place}, {name}?", { place: ["hospital", "wedding", "office", "airport"] }, "look after + noun: the noun goes after the particle too."],
   ["looking", "for", "him", "Have you seen my little brother? Mum is ______ in the {place}.", { place: ["yard", "park", "street", "shop"] }, "look for is inseparable: looking for him."],
   ["get", "off", "the bus", "Excuse me, where should I ______ for the {place}, {name}?", { place: ["museum", "hospital", "station", "university"] }, "get off + the bus."],
-  ["ran", "into", "them", "We ______ outside the {place}. Our old neighbours!", { place: ["cinema", "theatre", "mosque", "bank"] }, "run into is inseparable: ran into them."],
+  ["ran", "into", "them", "We ______ outside the {place}. Our old neighbours!", { place: ["cinema", "theatre", "café", "bank"] }, "run into is inseparable: ran into them."],
   ["came", "across", "them", "I ______ on the internet. They are very cheap {thing}, {name}.", { thing: ["shoes", "books", "tickets", "flights"] }, "come across is inseparable: came across them."],
   ["takes", "after", "him", "My son ______. He loves football like his {who}.", { who: ["dad", "father", "grandpa", "uncle"] }, "take after is inseparable: takes after him."],
   ["count", "on", "us", "You can always ______, {name}. We're your {who}.", { who: ["friends", "family", "neighbours", "brothers"] }, "count on is inseparable: count on us."],
@@ -64,11 +64,6 @@ const CHOOSE = [
   const options = opts.map((_, j) => opts[(j + i) % 4]);
   return { ...BASE, stage: "choose", format: "mcq", prompt: pr, options, key: options.indexOf(opts[0]), why, slots: s };
 });
-// (mosque / police values are swapped below to stay inside the content rules)
-for (const it of CHOOSE) {
-  if (it.slots.place) it.slots.place = it.slots.place.map((x) => (x === "mosque" ? "café" : x));
-  if (it.slots.who) it.slots.who = it.slots.who.map((x) => (x === "police" ? "shop" : x));
-}
 
 /* ---------------- build: 20 gap_fill, two gaps ---------------- */
 const INSTR = "Put the two words in brackets in the gaps, in the right order.";
@@ -91,7 +86,7 @@ const BUILD = [
   [["across", "them"], "These old letters are my grandpa's. I came ______ ______ (them / across) in the {place}, {name}.", { place: ["attic", "garage", "cupboard", "basement"] }, "came across them: inseparable."],
   [["after", "it"], "We have a new puppy. My son looks ______ ______ (after / it) every {time}, {name}.", { time: ["day", "morning", "evening", "weekend"] }, "looks after it: inseparable."],
   [["on", "us"], "If you need help with the {thing}, you can count ______ ______ (us / on), {name}.", { thing: ["move", "wedding", "garden", "party"] }, "count on us: inseparable."],
-  [["over", "her"], "He was very sad when his {who} left, but he got ______ ______ (her / over) in the end, {name}.", { who: ["girlfriend", "wife", "fiancée", "friend"] }, "got over her: inseparable."],
+  [["over", "it"], "He was very sad when his best friend moved to {city}, but he got ______ ______ (it / over) in the end, {name}.", { city: ["Moscow", "Seoul", "London", "Dubai"] }, "got over it: inseparable."],
   [["with", "them"], "There were problems with the {thing}, but the manager dealt ______ ______ (with / them), {name}.", { thing: ["tickets", "rooms", "orders", "bills"] }, "dealt with them: inseparable."],
 ].map(([key, source, slots, why], i) => {
   let src = source;
@@ -99,28 +94,27 @@ const BUILD = [
   if (Object.keys(s).length < 2) { s.place = ["today", "this week", "soon", "right now"]; src = src.replace("will call you back", "will call you back {place}"); }
   return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src, key, why, slots: s };
 });
-for (const it of BUILD) if (it.slots.who && it.slots.who.includes("girlfriend")) it.slots.who = ["best friend", "cousin", "teacher", "neighbour"];
 
 /* ---------------- transform: 15 rewrite, two gaps ---------------- */
-const PRON = "Rewrite. Use a pronoun (him, her, it, them) for the underlined noun. One word in each gap.";
+const PRON = "Rewrite with the pronoun in brackets instead of the noun. One word in each gap.";
 const FIX = "Correct the word order. One word in each gap.";
 const SAY = "Say it with the phrasal verb. One word in each gap.";
 const TRANSFORM = [
-  [PRON, "I ran into my old teacher at the {place}, {name}. (her)", "I ran ______ ______ at the {place}, {name}.", ["into", "her"], { place: ["bazaar", "airport", "bank", "station"] }, "ran into her: the pronoun goes after the particle."],
-  [PRON, "Who looks after your grandparents' {animal}, {name}? (it)", "Who looks ______ ______, {name}?", ["after", "it"], { animal: ["dog", "cow", "garden", "cat"] }, "looks after it: inseparable."],
-  [PRON, "We got on the last {bus} just in time, {name}. (it)", "We got ______ ______ just in time, {name}.", ["on", "it"], { bus: ["bus", "train", "tram", "minibus"] }, "got on it: inseparable."],
-  [PRON, "I came across these {thing} in a box, {name}. (them)", "I came ______ ______ in a box, {name}.", ["across", "them"], { thing: ["photos", "letters", "coins", "stamps"] }, "came across them: inseparable."],
-  [PRON, "Are you still looking for your {who}, {name}? (him)", "Are you still looking ______ ______, {name}?", ["for", "him"], { who: ["brother", "son", "dad", "uncle"] }, "looking for him: inseparable."],
+  [PRON, "(her) I ran into my old teacher at the {place}, {name}.", "I ran ______ ______ at the {place}, {name}.", ["into", "her"], { place: ["bazaar", "airport", "bank", "station"] }, "ran into her: the pronoun goes after the particle."],
+  [PRON, "(it) Who looks after your grandparents' {animal}, {name}?", "Who looks ______ ______, {name}?", ["after", "it"], { animal: ["dog", "cow", "garden", "cat"] }, "looks after it: inseparable."],
+  [PRON, "(it) We got on the last {bus} just in time, {name}.", "We got ______ ______ just in time, {name}.", ["on", "it"], { bus: ["bus", "train", "tram", "minibus"] }, "got on it: inseparable."],
+  [PRON, "(them) I came across these {thing} in a box, {name}.", "I came ______ ______ in a box, {name}.", ["across", "them"], { thing: ["photos", "letters", "coins", "stamps"] }, "came across them: inseparable."],
+  [PRON, "(him) Are you still looking for your {who}, {name}?", "Are you still looking ______ ______, {name}?", ["for", "him"], { who: ["brother", "son", "dad", "uncle"] }, "looking for him: inseparable."],
   [FIX, "Can you look her after on {day}, {name}?", "Can you look ______ ______ on {day}, {name}?", ["after", "her"], { day: ["Monday", "Friday", "Saturday", "Sunday"] }, "look after her, never look her after."],
   [FIX, "I'm looking them for. Have you seen my {thing}, {name}?", "I'm looking ______ ______. Have you seen my {thing}, {name}?", ["for", "them"], { thing: ["keys", "glasses", "socks", "gloves"] }, "looking for them, never looking them for."],
   [FIX, "I ran him into at the {place}, {name}.", "I ran ______ ______ at the {place}, {name}.", ["into", "him"], { place: ["gym", "café", "bazaar", "airport"] }, "ran into him, never ran him into."],
   [FIX, "Don't worry about the {thing}. I'll deal it with, {name}.", "Don't worry about the {thing}. I'll deal ______ ______, {name}.", ["with", "it"], { thing: ["bill", "noise", "car", "letter"] }, "deal with it, never deal it with."],
   [FIX, "My daughter takes me after. She loves {thing}, {name}.", "My daughter takes ______ ______. She loves {thing}, {name}.", ["after", "me"], { thing: ["books", "music", "cooking", "maths"] }, "takes after me, never takes me after."],
-  [SAY, "My brother is just like our dad, {name}. He's tall and {adj}. (take after)", "My brother takes ______ ______ dad, {name}. He's tall and {adj}.", ["after", "our"], { adj: ["funny", "quiet", "kind", "clever"] }, "be like = take after; the noun comes after the particle."],
-  [SAY, "I met my cousin by chance at the {place}, {name}. (run into)", "I ran ______ ______ cousin at the {place}, {name}.", ["into", "my"], { place: ["bazaar", "airport", "metro", "theatre"] }, "meet by chance = run into + the person."],
-  [SAY, "She found an old {thing} by chance in the cupboard, {name}. (come across)", "She came ______ ______ old {thing} in the cupboard, {name}.", ["across", "an"], { thing: ["album", "letter", "envelope", "atlas"] }, "find by chance = come across + the thing."],
-  [SAY, "It took my dad a month to get better after the {thing}, {name}. (get over)", "It took my dad a month to get ______ ______ {thing}, {name}.", ["over", "the"], { thing: ["flu", "operation", "accident", "cold"] }, "get better after = get over + the illness."],
-  [SAY, "Who takes care of the {animal} when you're away, {name}? (look after)", "Who looks ______ ______ {animal} when you're away, {name}?", ["after", "the"], { animal: ["dog", "cat", "garden", "flat"] }, "take care of = look after + the noun."],
+  [SAY, "(take after) My brother is just like our dad, {name}. He's tall and {adj}.", "My brother takes ______ ______ dad, {name}. He's tall and {adj}.", ["after", "our"], { adj: ["funny", "quiet", "kind", "clever"] }, "be like = take after; the noun comes after the particle."],
+  [SAY, "(run into) I met my cousin by chance at the {place}, {name}.", "I ran ______ ______ cousin at the {place}, {name}.", ["into", "my"], { place: ["bazaar", "airport", "metro", "theatre"] }, "meet by chance = run into + the person."],
+  [SAY, "(come across) She found an old {thing} by chance in the cupboard, {name}.", "She came ______ ______ old {thing} in the cupboard, {name}.", ["across", "an"], { thing: ["album", "letter", "envelope", "atlas"] }, "find by chance = come across + the thing."],
+  [SAY, "(get over) It took my dad a month to get better after the {thing}, {name}.", "It took my dad a month to get ______ ______ {thing}, {name}.", ["over", "the"], { thing: ["flu", "operation", "accident", "cold"] }, "get better after = get over + the illness."],
+  [SAY, "(look after) Who takes care of the {animal} when you're away, {name}?", "Who looks ______ ______ {animal} when you're away, {name}?", ["after", "the"], { animal: ["dog", "cat", "garden", "flat"] }, "take care of = look after + the noun."],
 ].map(([instr, source, hint, key, slots, why], i) => {
   const s = fill(source + hint, slots, i % 2 ? NAME2 : NAME);
   return { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };
