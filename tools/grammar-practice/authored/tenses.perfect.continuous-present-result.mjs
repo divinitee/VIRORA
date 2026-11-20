@@ -83,7 +83,7 @@ const BUILD = [
   ["have been playing", "The boys are hungry because they ______ (play) {sport} all {time}.", { sport: ["football", "basketball", "volleyball", "tennis"], time: ["afternoon", "morning", "day", "evening"] }],
   ["has been cooking", "{who} ______ (cook) {food} since nine, so the house smells wonderful.", { who: ["Grandma", "Mum", "My aunt", "Aunt Lola"], food: ["plov", "samsa", "manti", "soup"] }],
   ["have been waiting", "We ______ (wait) for {name} for {n}. Where is he?", { name: NAME_M, n: ["half an hour", "an hour", "forty minutes", "twenty minutes"] }],
-  ["has been painting", "My {who} has paint on his {thing}. He ______ (paint) the fence.", { who: ["uncle", "father", "brother", "grandfather"], thing: ["hands", "shirt", "shoes", "face"] }],
+  ["has been painting", "There is paint on my {who}'s {thing}. He ______ (paint) the fence.", { who: ["uncle", "father", "brother", "grandfather"], thing: ["hands", "shirt", "shoes", "face"] }],
   ["have been swimming", "Our hair is wet because we ______ (swim) in the {water}, {name}.", { water: ["sea", "lake", "pool", "river"], name: NAME }],
   ["has been snowing", "The car is white, {name}. It ______ (snow) since {time}.", { time: ["midnight", "six", "the evening", "two o'clock"], name: NAME }],
   ["have been cleaning", "I'm dirty because I ______ (clean) the {room} all {time}.", { room: ["garage", "kitchen", "yard", "basement"], time: ["morning", "afternoon", "day"] }],

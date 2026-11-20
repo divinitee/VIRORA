@@ -1682,6 +1682,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.perfect.continuous-present-result": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "continuous-present-result",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 312,
+   "build": 292,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.perfect.experience-ever": {
   "domain": "tenses",
   "branch": "perfect",

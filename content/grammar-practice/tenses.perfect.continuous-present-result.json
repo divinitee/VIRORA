@@ -862,7 +862,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
-  "source": "My {who} has paint on his {thing}. He ______ (paint) the fence.",
+  "source": "There is paint on my {who}'s {thing}. He ______ (paint) the fence.",
   "key": "has been painting",
   "why": "A recent activity explains how things are now, so use the present perfect continuous: has been painting.",
   "slots": {
