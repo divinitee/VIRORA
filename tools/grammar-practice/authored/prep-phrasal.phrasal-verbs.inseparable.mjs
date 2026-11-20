@@ -58,7 +58,7 @@ const CHOOSE = [
   let pr = prompt;
   const s = fill(pr, slots, i % 2 ? NAME2 : NAME);
   if (Object.keys(s).length < 2) { s.name = i % 2 ? NAME2 : NAME; pr = pr.replace(/([.!?])$/, ", {name}$1"); }
-  const wrongCase = SUBJ[o] ? `${v} ${p} ${SUBJ[o]}` : `${v} ${o} ${p} it`;
+  const wrongCase = o === "it" ? `${v} it ${p} it` : SUBJ[o] ? `${v} ${p} ${SUBJ[o]}` : `${v} ${o} ${p} it`;
   const opts = [`${v} ${p} ${o}`, `${v} ${o} ${p}`, wrongCase, `${v} ${p} for ${o}`];
   if (p === "for") opts[3] = `${v} ${p} to ${o}`;
   const options = opts.map((_, j) => opts[(j + i) % 4]);

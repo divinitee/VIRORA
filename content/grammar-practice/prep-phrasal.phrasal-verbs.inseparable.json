@@ -108,7 +108,7 @@
    "get on for it",
    "get on it",
    "get it on",
-   "get on it"
+   "get it on it"
   ],
   "key": 1,
   "why": "get on (a bus) is inseparable: get on it.",
@@ -139,7 +139,7 @@
   "options": [
    "got off it",
    "got it off",
-   "got off it",
+   "got it off it",
    "got off for it"
   ],
   "key": 0,
@@ -201,12 +201,12 @@
   "format": "mcq",
   "prompt": "I was cleaning the {room} and I ______ under the bed, {name}. An old photo!",
   "options": [
-   "came across it",
+   "came it across it",
    "came across for it",
    "came across it",
    "came it across"
   ],
-  "key": 0,
+  "key": 2,
   "why": "come across (= find by chance) is inseparable: came across it.",
   "slots": {
    "room": [
@@ -267,7 +267,7 @@
   "options": [
    "get over it",
    "get it over",
-   "get over it",
+   "get it over it",
    "get over for it"
   ],
   "key": 0,
@@ -329,12 +329,12 @@
   "format": "mcq",
   "prompt": "The {who} said the problem was strange and they are ______ now, {name}.",
   "options": [
-   "looking into it",
+   "looking it into it",
    "looking into for it",
    "looking into it",
    "looking it into"
   ],
-  "key": 0,
+  "key": 2,
   "why": "look into (= study a problem) is inseparable: looking into it.",
   "slots": {
    "who": [
@@ -395,7 +395,7 @@
   "options": [
    "went through it",
    "went it through",
-   "went through it",
+   "went it through it",
    "went through for it"
   ],
   "key": 0,
