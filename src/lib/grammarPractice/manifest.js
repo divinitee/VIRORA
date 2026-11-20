@@ -1626,6 +1626,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.past.past-perfect-sequence": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-sequence",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 264,
+   "build": 264,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.past.simple-finished-time": {
   "domain": "tenses",
   "branch": "past",

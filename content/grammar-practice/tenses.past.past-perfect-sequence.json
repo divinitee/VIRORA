@@ -1136,8 +1136,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences. Use the past perfect for the action that happened first.",
-  "source": "The film started. Then we arrived at the {place}.",
-  "hint": "When we arrived at the {place}, the film ______.",
+  "source": "The film started. Then we arrived at the {place}, {name}.",
+  "hint": "When we arrived at the {place}, the film ______, {name}.",
   "key": "had started",
   "why": "This happened before the other past action, so use the past perfect: had + past participle, started.",
   "slots": {
@@ -1146,6 +1146,12 @@
     "club",
     "hall",
     "theatre"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1242,8 +1248,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences. Use the past perfect for the action that happened first.",
-  "source": "The rain stopped. Then we went out to the {place}.",
-  "hint": "When we went out to the {place}, the rain ______.",
+  "source": "The rain stopped. Then we went out to the {place}, {name}.",
+  "hint": "When we went out to the {place}, the rain ______, {name}.",
   "key": "had stopped",
   "why": "This happened before the other past action, so use the past perfect: had + past participle, stopped.",
   "slots": {
@@ -1252,6 +1258,12 @@
     "yard",
     "garden",
     "street"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1417,7 +1429,9 @@
   "slots": {
    "station": [
     "station",
-    "railway station"
+    "railway station",
+    "central station",
+    "platform"
    ],
    "name": [
     "Aziz",
