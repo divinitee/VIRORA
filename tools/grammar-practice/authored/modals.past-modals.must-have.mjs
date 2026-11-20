@@ -57,7 +57,7 @@ const BUILD = [
   ["leave", "The {place} door is open. Someone ______ (leave) it open, {name}.", { place: ["office", "garage", "kitchen", "shop"], name: NAME }],
   ["go", "It's very quiet in the {home}. They ______ (go) out, {name}.", { home: ["flat", "house", "office", "yard"], name: NAME }],
   ["eat", "The {food} is gone. The dog ______ (eat) it, {name}.", { food: ["meat", "sausage", "chicken", "cheese"], name: NAME }],
-  ["win", "The {team} fans are singing. Their team ______ (win), {name}.", { team: ["Pakhtakor", "Nasaf", "Bunyodkor", "Navbahor"], name: NAME }],
+  ["win", "The {team} fans are singing. Their team ______ (win), {name}.", { team: ["Sunrise FC", "Blue Star", "Green Valley", "Riverside"], name: NAME }],
   ["lose", "I can't find my {thing}. I ______ (lose) it at the {place}.", { thing: ["phone", "wallet", "key", "ticket"], place: ["bazaar", "station", "park", "gym"] }],
   ["study", "Olga knows all the answers to the {test}. She ______ (study) a lot, {name}.", { test: ["exam", "test", "quiz", "homework"], name: NAME }],
   ["see", "He knows how the {film} ends. He ______ (see) it, {name}.", { film: ["film", "series", "show", "play"], name: NAME }],
