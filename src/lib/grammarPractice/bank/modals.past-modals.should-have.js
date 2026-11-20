@@ -585,7 +585,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "He ______ driven so fast on the {road}. The police stopped him, {name}.",
+  "prompt": "He ______ driven so fast on the {road}. He got a big fine, {name}.",
   "options": [
    "shouldn't had",
    "don't should have",

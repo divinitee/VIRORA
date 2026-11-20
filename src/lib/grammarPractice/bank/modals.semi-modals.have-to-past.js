@@ -297,7 +297,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "In the army, my grandfather ______ run {dist} every morning, {name}.",
+  "prompt": "At sports school, my grandfather ______ run {dist} every morning, {name}.",
   "options": [
    "must",
    "have to",

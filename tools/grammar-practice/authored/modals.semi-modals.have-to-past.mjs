@@ -35,7 +35,7 @@ const CHOOSE = [
   [POS, "The {shop} was closed, so she ______ come back the next day, {name}.", { shop: ["bank", "post office", "pharmacy", "bakery"], name: NAME }],
   [POS, "I lost my {thing} last week and ______ buy a new one, {name}.", { thing: ["phone", "key", "wallet", "umbrella"], name: NAME }],
   [POS, "We ______ wait two hours at the {place} yesterday, {name}.", { place: ["airport", "hospital", "bank", "border"], name: NAME }],
-  [POS, "In the army, my grandfather ______ run {dist} every morning, {name}.", { dist: ["five kilometres", "ten kilometres", "three miles", "for an hour"], name: NAME }],
+  [POS, "At sports school, my grandfather ______ run {dist} every morning, {name}.", { dist: ["five kilometres", "ten kilometres", "three miles", "for an hour"], name: NAME }],
   [POS, "Timur was ill {when}, so he ______ stay in bed, {name}.", { when: ["last week", "on Monday", "yesterday", "all weekend"], name: NAME }],
   [POS, "It was raining, so the children ______ play inside the {place}, {name}.", { place: ["school", "house", "gym", "hall"], name: NAME }],
   [POS, "The {test} was hard. I ______ read the questions twice, {name}.", { test: ["exam", "test", "quiz", "driving test"], name: NAME }],

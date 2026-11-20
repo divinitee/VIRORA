@@ -1354,7 +1354,7 @@ export default [
     "manager",
     "boss",
     "teacher",
-    "officer"
+    "director"
    ],
    "m": [
     "Aziz",

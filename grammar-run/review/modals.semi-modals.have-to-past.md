@@ -40,7 +40,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ had to · must · have to · musted  
    why: Past obligation: had to + base verb (must has no past form).
 
-10. In the army, my grandfather ______ run **three miles** every morning, **Olga**.  
+10. At sports school, my grandfather ______ run **three miles** every morning, **Olga**.  
    options: must · have to · musted · ✔ had to  
    why: Past obligation: had to + base verb (must has no past form).
 

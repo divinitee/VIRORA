@@ -89,7 +89,7 @@ const KNOW = "Report the question with wanted to know if.";
 const TRANSFORM = [
   [REP, "'Are you tired?' {m} asked me after the {event}.", "After the {event}, {m} asked me ______.", "if I was tired", [], { m: M, event: ["match", "walk", "lesson", "trip"] }],
   [REP, "'Do you live near the {place}?' {f} asked me.", "{f} asked me ______ the {place}.", "if I lived near", ["if I live near", "whether I live near"], { f: F, place: ["park", "station", "bazaar", "river"] }],
-  [REP, "'Can you drive?' the {who} asked {m}.", "The {who} asked {m} ______.", "if he could drive", [], { who: ["manager", "boss", "teacher", "officer"], m: M }],
+  [REP, "'Can you drive?' the {who} asked {m}.", "The {who} asked {m} ______.", "if he could drive", [], { who: ["manager", "boss", "teacher", "director"], m: M }],
   [REP, "'Have you been to {city}?' {f} asked us.", "{f} asked us ______ to {city}.", "if we had been", [], { f: F, city: CITY }],
   [REP, "'Will you be at home tonight?' my {who} asked me.", "My {who} asked me ______ at home that night.", "if I would be", [], { who: ["mum", "dad", "sister", "uncle"], x: [] }],
   [FIX, "{f} asked me was I hungry after the {trip}.", "{f} asked me ______ hungry after the {trip}.", "if I was", [], { f: F, trip: ["walk", "match", "flight", "lesson"] }],

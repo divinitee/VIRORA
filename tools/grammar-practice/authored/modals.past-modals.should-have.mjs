@@ -45,7 +45,7 @@ const CHOOSE = [
   [NEG, "I'm so tired. I ______ gone to bed so late {when}, {name}.", { when: ["last night", "on Sunday", "yesterday", "again"], name: NAME }],
   [NEG, "You ______ shouted at your {who}. He was only trying to help, {name}.", { who: ["brother", "son", "friend", "cousin"], name: NAME }],
   [NEG, "We ______ bought this {thing}. It broke after a week, {name}.", { thing: ["phone", "kettle", "toy", "lamp"], name: NAME }],
-  [NEG, "He ______ driven so fast on the {road}. The police stopped him, {name}.", { road: ["motorway", "mountain road", "ring road", "old bridge"], name: NAME }],
+  [NEG, "He ______ driven so fast on the {road}. He got a big fine, {name}.", { road: ["motorway", "mountain road", "ring road", "old bridge"], name: NAME }],
   [NEG, "I ______ told Timur about the {event}. Now everyone knows, {name}.", { event: ["party", "gift", "wedding", "surprise"], name: NAME }],
 ].map(([o, prompt, slots], i) => {
   const options = o.map((_, j) => o[(j + i) % 4]);

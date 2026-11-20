@@ -76,7 +76,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: shouldn't · shouldn't had · don't should have · ✔ shouldn't have  
    why: Regret about something you did: shouldn't have + past participle.
 
-19. He ______ driven so fast on the **ring road**. The police stopped him, **Olga**.  
+19. He ______ driven so fast on the **ring road**. He got a big fine, **Olga**.  
    options: shouldn't had · don't should have · ✔ shouldn't have · shouldn't  
    why: Regret about something you did: shouldn't have + past participle.
 
