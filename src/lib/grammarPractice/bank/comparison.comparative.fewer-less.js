@@ -576,7 +576,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I got ______ messages {when} than {when2}, {name}.",
+  "prompt": "I got ______ messages {when}, {name}.",
   "options": [
    "little",
    "lesser",
@@ -587,14 +587,10 @@ export default [
   "why": "The noun is plural and you can count it, so use fewer.",
   "slots": {
    "when": [
-    "today",
-    "this week",
-    "this month"
-   ],
-   "when2": [
-    "yesterday",
-    "last week",
-    "last month"
+    "today than yesterday",
+    "this week than last week",
+    "this month than last month",
+    "this year than last year"
    ],
    "name": [
     "Aziz",

@@ -76,68 +76,68 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: fewer · little · lesser · ✔ less  
    why: The noun is uncountable (you can't count it), so use less.
 
-19. I got ______ messages **today** than **last week**, **Olga**.  
+19. I got ______ messages **today than yesterday**, **Timur**.  
    options: little · lesser · ✔ fewer · less  
    why: The noun is plural and you can count it, so use fewer.
 
-20. This **street** has ______ traffic than the main road, **Lola**.  
+20. This **road** has ______ traffic than the main road, **Aziz**.  
    options: lesser · ✔ less · fewer · little  
    why: The noun is uncountable (you can't count it), so use less.
 
 ## build (20)
 
 1. _Write fewer or less._  
-   There are ______ buses to **Bukhara** on Sundays, **Olga**.  
+   There are ______ buses to **Nukus** on Sundays, **Olga**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 2. _Write fewer or less._  
-   I want to spend ______ time on my phone this **week**, **Lola**.  
+   I want to spend ______ time on my phone this **month**, **Aziz**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 3. _Write fewer or less._  
-   We need ______ chairs than we have, **Lola**. Only **six** guests are coming.  
+   We need ______ chairs than we have, **Aziz**. Only **twelve** guests are coming.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 4. _Write fewer or less._  
-   Add ______ salt to the **plov** next time, **Aziz**. It's too salty.  
+   Add ______ salt to the **rice** next time, **Olga**. It's too salty.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 5. _Write fewer or less._  
-   My **brother** works ______ hours than last year, so he can see his **family** more.  
+   My **uncle** works ______ hours than last year, so he can see his **parents** more.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 6. _Write fewer or less._  
-   Our new **office** gets ______ sun than the old one, **Timur**.  
+   Our new **house** gets ______ sun than the old one, **Lola**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 7. _Write fewer or less._  
-   There were ______ tourists in **Samarkand** in **January** than in May.  
+   There were ______ tourists in **Khiva** in **January** than in May.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 8. _Write fewer or less._  
-   This **fridge** makes ______ noise than the old one, **Aziz**.  
+   This **fan** makes ______ noise than the old one, **Olga**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 9. _Write fewer or less._  
-   I read ______ books this **year** than last **year**, **Olga**.  
+   I read ______ books this **year** than last **year**, **Aziz**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 10. _Write fewer or less._  
-   Please use ______ water in the **garden**, **Timur**. We pay a lot.  
+   Please use ______ water in the **kitchen**, **Timur**. We pay a lot.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 11. _Write fewer or less._  
-   There are ______ shops in our village than in the **next village**, **Olga**.  
+   There are ______ shops in our village than in the **centre**, **Lola**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
@@ -147,27 +147,27 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The noun is uncountable (you can't count it), so use less.
 
 13. _Write fewer or less._  
-   This **exam** has ______ questions than the last one, **Lola**.  
+   This **exam** has ______ questions than the last one, **Olga**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 14. _Write fewer or less._  
-   We had ______ rain in **June** than in April, **Olga**.  
+   We had ______ rain in **August** than in April, **Olga**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 15. _Write fewer or less._  
-   My little **brother** eats ______ vegetables than he should, **Aziz**.  
+   My little **cousin** eats ______ vegetables than he should, **Olga**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 16. _Write fewer or less._  
-   I have ______ energy in the **summer** than in the morning, **Aziz**.  
+   I have ______ energy in the **evening** than in the morning, **Timur**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 17. _Write fewer or less._  
-   There are ______ birds in the city than in the **village**, **Lola**.  
+   There are ______ birds in the city than in the **mountains**, **Olga**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
@@ -182,99 +182,99 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The noun is plural and you can count it, so use fewer.
 
 20. _Write fewer or less._  
-   My **brother** earns ______ money than before, but he is happier at his new **school**.  
+   My **grandfather** earns ______ money than before, but he is happier at his new **school**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 ## transform (15)
 
 1. _Compare the two numbers. Use fewer or less … than._  
-   Last year our **club** had 30 students. This year it has **25**.  
+   Last year our **club** had 30 students. This year it has **20**.  
    → This year our **club** has ______ students than last year.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 2. _Compare the two numbers. Use fewer or less … than._  
-   I slept eight hours on Monday and **five** hours on Tuesday, **Olga**.  
+   I slept eight hours on Monday and **six** hours on Tuesday, **Olga**.  
    → I slept ______ on Tuesday than on Monday, **Olga**.  
    key: fewer hours  
    why: The noun is plural and you can count it, so use fewer.
 
 3. _Compare the two numbers. Use fewer or less … than._  
-   The old phone cost 3 million soum. The new one costs **2** million, **Olga**.  
-   → The new phone costs ______ money than the old one, **Olga**.  
+   The old phone cost 3 million soum. The new one costs **2.5** million, **Aziz**.  
+   → The new phone costs ______ money than the old one, **Aziz**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 4. _Compare the two numbers. Use fewer or less … than._  
-   We had 40 guests at my sister's wedding and **35** at mine, **Timur**.  
+   We had 40 guests at my sister's wedding and **25** at mine, **Timur**.  
    → We had ______ guests at my wedding than at my sister's, **Timur**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 5. _Compare the two numbers. Use fewer or less … than._  
-   Our old car used 10 litres of petrol a day. The new one uses **7**.  
-   → The new car uses ______ petrol than the old one, **Lola**.  
+   Our old car used 10 litres of petrol a day. The new one uses **5**.  
+   → The new car uses ______ petrol than the old one, **Olga**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 6. _Correct the mistake._  
-   I have less friends in **Tashkent** than in my village, **Olga**.  
-   → I have ______ friends in **Tashkent** than in my village, **Olga**.  
+   I have less friends in **Bukhara** than in my village, **Aziz**.  
+   → I have ______ friends in **Bukhara** than in my village, **Aziz**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 7. _Correct the mistake._  
-   There is fewer traffic on **Friday** than on Monday, **Olga**.  
-   → There is ______ traffic on **Friday** than on Monday, **Olga**.  
+   There is fewer traffic on **Saturday** than on Monday, **Timur**.  
+   → There is ______ traffic on **Saturday** than on Monday, **Timur**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 8. _Correct the mistake._  
-   We bought lesser **apples** this week than last week, **Lola**.  
-   → We bought ______ **apples** this week than last week, **Lola**.  
+   We bought lesser **eggs** this week than last week, **Aziz**.  
+   → We bought ______ **eggs** this week than last week, **Aziz**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 9. _Correct the mistake._  
-   My **mother** drinks fewer coffee than before, **Lola**.  
-   → My **mother** drinks ______ coffee than before, **Lola**.  
+   My **teacher** drinks fewer coffee than before, **Olga**.  
+   → My **teacher** drinks ______ coffee than before, **Olga**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 10. _Correct the mistake._  
-   There were less mistakes in your **homework** this time, **Olga**.  
-   → There were ______ mistakes in your **homework** this time, **Olga**.  
+   There were less mistakes in your **dictation** this time, **Timur**.  
+   → There were ______ mistakes in your **dictation** this time, **Timur**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 11. _Rewrite the sentence with fewer or less … than._  
-   I don't watch as many films as my **brother**, **Lola**.  
-   → I watch ______ films than my **brother**, **Lola**.  
+   I don't watch as many films as my **sister**, **Aziz**.  
+   → I watch ______ films than my **sister**, **Aziz**.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 12. _Rewrite the sentence with fewer or less … than._  
-   Our **valley** doesn't get as much rain as the mountains, **Olga**.  
-   → Our **valley** gets ______ rain than the mountains, **Olga**.  
+   Our **valley** doesn't get as much rain as the mountains, **Lola**.  
+   → Our **valley** gets ______ rain than the mountains, **Lola**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 13. _Rewrite the sentence with fewer or less … than._  
-   We don't have as much **money** as last year, **Aziz**.  
-   → We have ______ **money** than last year, **Aziz**.  
+   We don't have as much **time** as last year, **Aziz**.  
+   → We have ______ **time** than last year, **Aziz**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 
 14. _Rewrite the sentence with fewer or less … than._  
-   This **kiosk** doesn't sell as many **shoes** as the bazaar.  
-   → This **kiosk** sells ______ **shoes** than the bazaar.  
+   This **shop** doesn't sell as many **shoes** as the bazaar.  
+   → This **shop** sells ______ **shoes** than the bazaar.  
    key: fewer  
    why: The noun is plural and you can count it, so use fewer.
 
 15. _Rewrite the sentence with fewer or less … than._  
-   My little sister doesn't eat as much **meat** as me, **Lola**.  
-   → My little sister eats ______ **meat** than me, **Lola**.  
+   My little sister doesn't eat as much **meat** as me, **Timur**.  
+   → My little sister eats ______ **meat** than me, **Timur**.  
    key: less  
    why: The noun is uncountable (you can't count it), so use less.
 

@@ -45,7 +45,7 @@ const CHOOSE = [
   ["less", "My new job gives me ______ free time than my old {job}, {name}.", { job: ["job", "school", "course", "college"], name: NAME }],
   ["fewer", "Our team scored ______ goals this {season} than last {season}, {name}.", { season: ["season", "year", "month"], name: NAME }],
   ["less", "The {place} is quieter, {name}: there is ______ noise than in the centre.", { place: ["village", "new district", "park", "garden"], name: NAME }],
-  ["fewer", "I got ______ messages {when} than {when2}, {name}.", { when: ["today", "this week", "this month"], when2: ["yesterday", "last week", "last month"], name: NAME }],
+  ["fewer", "I got ______ messages {when}, {name}.", { when: ["today than yesterday", "this week than last week", "this month than last month", "this year than last year"], name: NAME }],
   ["less", "This {road} has ______ traffic than the main road, {name}.", { road: ["street", "road", "bridge", "route"], name: NAME }],
 ].map(([k, prompt, slots], i) => {
   const s = {};
