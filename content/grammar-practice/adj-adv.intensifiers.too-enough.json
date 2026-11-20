@@ -1,0 +1,1843 @@
+[
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {drink} is ______ to drink. I'll wait a few minutes, {name}.",
+  "options": [
+   "too hot",
+   "hot enough",
+   "enough hot",
+   "too much hot"
+  ],
+  "key": 0,
+  "why": "You have to wait, so it is more hot than is OK: too hot.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "soup",
+    "milk"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother isn't ______ to drive yet. He's only {age}, {name}.",
+  "options": [
+   "enough old",
+   "too old",
+   "old too",
+   "old enough"
+  ],
+  "key": 3,
+  "why": "He is only fifteen: not old enough. enough goes after the adjective.",
+  "slots": {
+   "age": [
+    "fourteen",
+    "fifteen",
+    "sixteen",
+    "twelve"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {box} was ______ for me to carry, so my dad helped me, {name}.",
+  "options": [
+   "enough heavy",
+   "too much heavy",
+   "too heavy",
+   "heavy enough"
+  ],
+  "key": 2,
+  "why": "Dad had to help, so it was more than I could carry: too heavy.",
+  "slots": {
+   "box": [
+    "box",
+    "suitcase",
+    "bag",
+    "table"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is the {water} ______ to swim in, {name}? It looks cold.",
+  "options": [
+   "warm too",
+   "warm enough",
+   "enough warm",
+   "too warm"
+  ],
+  "key": 1,
+  "why": "It looks cold, so you ask if it is warm enough: enough after warm.",
+  "slots": {
+   "water": [
+    "lake",
+    "sea",
+    "river",
+    "pool"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We didn't have ______ to finish the {test}, {name}.",
+  "options": [
+   "enough time",
+   "enough of time",
+   "too time",
+   "the enough time"
+  ],
+  "key": 0,
+  "why": "enough goes before a noun: enough time.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "quiz",
+    "project"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It's ______ to go out without a coat today, {name}.",
+  "options": [
+   "cold enough",
+   "enough cold",
+   "too much cold",
+   "too cold"
+  ],
+  "key": 3,
+  "why": "You need a coat, so it is colder than is OK: too cold.",
+  "slots": {
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little sister is ______ to reach the top shelf now, {name}. She grew a lot this year.",
+  "options": [
+   "too tall",
+   "tall too",
+   "tall enough",
+   "enough tall"
+  ],
+  "key": 2,
+  "why": "She grew, so now she can reach it: tall enough.",
+  "slots": {
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Have we got ______ for {dish}, {name}?",
+  "options": [
+   "the enough eggs",
+   "enough eggs",
+   "enough of eggs",
+   "too eggs"
+  ],
+  "key": 1,
+  "why": "enough goes before the noun: enough eggs.",
+  "slots": {
+   "dish": [
+    "a cake",
+    "an omelette",
+    "pancakes",
+    "cookies"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {film} was ______ for the children, so we left early, {name}.",
+  "options": [
+   "too scary",
+   "scary enough",
+   "enough scary",
+   "too much scary"
+  ],
+  "key": 0,
+  "why": "You left early, so it was more scary than is OK: too scary.",
+  "slots": {
+   "film": [
+    "film",
+    "show",
+    "story",
+    "game"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm not ______ to win the {race}, but I'll try, {name}.",
+  "options": [
+   "enough fast",
+   "too fast",
+   "fast too",
+   "fast enough"
+  ],
+  "key": 3,
+  "why": "\"but I'll try\" = I may lose: not fast enough.",
+  "slots": {
+   "race": [
+    "race",
+    "marathon",
+    "competition",
+    "match"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {thing} is ______ for me. Have you got a bigger one, {name}?",
+  "options": [
+   "enough small",
+   "too much small",
+   "too small",
+   "small enough"
+  ],
+  "key": 2,
+  "why": "You want a bigger one: too small.",
+  "slots": {
+   "thing": [
+    "shirt",
+    "jacket",
+    "T-shirt",
+    "coat"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Did you bring ______ for the {ticket}, {name}?",
+  "options": [
+   "the enough money",
+   "enough money",
+   "enough of money",
+   "too money"
+  ],
+  "key": 1,
+  "why": "enough goes before the noun: enough money.",
+  "slots": {
+   "ticket": [
+    "bus",
+    "metro",
+    "cinema",
+    "museum"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {room} was ______ to sleep in. There was a party next door, {name}.",
+  "options": [
+   "too noisy",
+   "noisy enough",
+   "enough noisy",
+   "too much noisy"
+  ],
+  "key": 0,
+  "why": "The party stopped your sleep: too noisy.",
+  "slots": {
+   "room": [
+    "hotel room",
+    "flat",
+    "bedroom",
+    "tent"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {gap} wasn't ______ for our car, so we parked down the street, {name}.",
+  "options": [
+   "enough wide",
+   "too wide",
+   "wide too",
+   "wide enough"
+  ],
+  "key": 3,
+  "why": "You had to park somewhere else: not wide enough.",
+  "slots": {
+   "gap": [
+    "space",
+    "gate",
+    "garage",
+    "road"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There isn't ______ in the {place} for a sofa, {name}.",
+  "options": [
+   "too space",
+   "the enough space",
+   "enough space",
+   "enough of space"
+  ],
+  "key": 2,
+  "why": "enough goes before the noun: enough space.",
+  "slots": {
+   "place": [
+    "room",
+    "flat",
+    "hall",
+    "kitchen"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} spoke ______ for everyone to hear. The hall was quiet, {name}.",
+  "options": [
+   "loudly too",
+   "loudly enough",
+   "enough loudly",
+   "too loudly"
+  ],
+  "key": 1,
+  "why": "Everyone heard: loudly enough (enough after an adverb too).",
+  "slots": {
+   "who": [
+    "teacher",
+    "guide",
+    "speaker",
+    "director"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "These {shoes} are ______ to walk in. My feet hurt, {name}.",
+  "options": [
+   "too tight",
+   "tight enough",
+   "enough tight",
+   "too much tight"
+  ],
+  "key": 0,
+  "why": "Your feet hurt: too tight.",
+  "slots": {
+   "shoes": [
+    "shoes",
+    "boots",
+    "jeans",
+    "trainers"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We've got ______ for the drive to {city}. Let's go, {name}!",
+  "options": [
+   "enough of petrol",
+   "too petrol",
+   "the enough petrol",
+   "enough petrol"
+  ],
+  "key": 3,
+  "why": "enough goes before the noun: enough petrol.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Namangan",
+    "Termez"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My English isn't ______ for the {test} yet, so I study every day, {name}.",
+  "options": [
+   "too good",
+   "good too",
+   "good enough",
+   "enough good"
+  ],
+  "key": 2,
+  "why": "You still need to study: not good enough.",
+  "slots": {
+   "test": [
+    "IELTS",
+    "exam",
+    "interview",
+    "course"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "After the {event}, I was ______ to cook, so we ordered pizza, {name}.",
+  "options": [
+   "too much tired",
+   "too tired",
+   "tired enough",
+   "enough tired"
+  ],
+  "key": 1,
+  "why": "You didn't cook: too tired.",
+  "slots": {
+   "event": [
+    "match",
+    "trip",
+    "long day",
+    "move"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "The {drink} is ______ (hot) to drink. Let's wait a few minutes, {name}.",
+  "key": "too hot",
+  "why": "You have to wait: too + adjective.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "soup",
+    "milk"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "My cousin isn't ______ (old) to vote. He's only {age}, {name}.",
+  "key": "old enough",
+  "why": "He is only sixteen: not old enough (adjective + enough).",
+  "slots": {
+   "age": [
+    "sixteen",
+    "fifteen",
+    "fourteen",
+    "seventeen"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "The {box} is ______ (heavy) for one person. Can you help me, {name}?",
+  "key": "too heavy",
+  "why": "You need help: too heavy for one person.",
+  "slots": {
+   "box": [
+    "box",
+    "suitcase",
+    "sofa",
+    "table"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "It's ______ (warm) to eat outside today, so let's take the food to the {place}, {name}.",
+  "key": "warm enough",
+  "why": "We eat outside, so the weather is OK: warm enough.",
+  "slots": {
+   "place": [
+    "garden",
+    "park",
+    "river",
+    "yard"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "Hurry up! We don't have ______ (time) to stop at the {place}, {name}.",
+  "key": "enough time",
+  "why": "enough + noun: enough time.",
+  "slots": {
+   "place": [
+    "shop",
+    "café",
+    "bazaar",
+    "bank"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "This {thing} is ______ (small) for me. I need a bigger size, {name}.",
+  "key": "too small",
+  "why": "You need a bigger size: too small.",
+  "slots": {
+   "thing": [
+    "shirt",
+    "jacket",
+    "coat",
+    "dress"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "My son is ______ (tall) to go on the {ride} now. He grew a lot this year, {name}.",
+  "key": "tall enough",
+  "why": "He grew, so now he can: tall enough.",
+  "slots": {
+   "ride": [
+    "rollercoaster",
+    "big slide",
+    "Ferris wheel",
+    "water slide"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "There aren't ______ (chairs) for all the guests at the {event}, {name}.",
+  "key": "enough chairs",
+  "why": "enough + noun: enough chairs.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "meeting",
+    "concert"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "I was ______ (tired) to cook, so we ordered {food}, {name}.",
+  "key": "too tired",
+  "why": "You didn't cook: too tired.",
+  "slots": {
+   "food": [
+    "pizza",
+    "plov",
+    "burgers",
+    "lagman"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "He ran ______ (fast) to catch the {bus}. He got on just in time, {name}.",
+  "key": "fast enough",
+  "why": "He got on in time: fast enough.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "tram"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "The {thing} was ______ (expensive) for us, so we didn't buy it, {name}.",
+  "key": "too expensive",
+  "why": "You didn't buy it: too expensive.",
+  "slots": {
+   "thing": [
+    "car",
+    "sofa",
+    "phone",
+    "flat"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "Have you got ______ (money) for the {ticket} ticket, {name}?",
+  "key": "enough money",
+  "why": "enough + noun: enough money.",
+  "slots": {
+   "ticket": [
+    "bus",
+    "metro",
+    "cinema",
+    "museum"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "It's ______ (late) to call {who} now. Call tomorrow, {name}.",
+  "key": "too late",
+  "why": "Call tomorrow: too late now.",
+  "slots": {
+   "who": [
+    "grandma",
+    "the doctor",
+    "your teacher",
+    "the shop"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "Our flat isn't ______ (big) for a {thing}. We need a garden, {name}.",
+  "key": "big enough",
+  "why": "You need more room: not big enough.",
+  "slots": {
+   "thing": [
+    "dog",
+    "piano",
+    "trampoline",
+    "pool table"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "The {place} was ______ (noisy). I couldn't hear my friend, {name}.",
+  "key": "too noisy",
+  "why": "You couldn't hear: too noisy.",
+  "slots": {
+   "place": [
+    "café",
+    "bus",
+    "party",
+    "street"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "We haven't got ______ (eggs) for {dish}, {name}. Can you go to the shop?",
+  "key": "enough eggs",
+  "why": "enough + noun: enough eggs.",
+  "slots": {
+   "dish": [
+    "a cake",
+    "an omelette",
+    "pancakes",
+    "cookies"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "The {test} was ______ (difficult) for me. I didn't finish it, {name}.",
+  "key": "too difficult",
+  "why": "You didn't finish: too difficult.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "quiz",
+    "puzzle"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "Your work is ______ (good) to pass the {test}. Well done, {name}!",
+  "key": "good enough",
+  "why": "Well done = you pass: good enough.",
+  "slots": {
+   "test": [
+    "exam",
+    "course",
+    "test",
+    "interview"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "My little brother is ______ (young) to watch that {film}, {name}.",
+  "key": "too young",
+  "why": "He is little: too young.",
+  "slots": {
+   "film": [
+    "film",
+    "series",
+    "show",
+    "programme"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with too or enough and the word in brackets.",
+  "source": "Is there ______ (petrol) in the car to get to {city}, {name}?",
+  "key": "enough petrol",
+  "why": "enough + noun: enough petrol.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Namangan",
+    "Termez"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too. Write one word in each gap.",
+  "source": "The {drink} is very hot. I can't drink it, {name}.",
+  "hint": "The {drink} is ______ ______ to drink, {name}.",
+  "key": [
+   "too",
+   "hot"
+  ],
+  "why": "very hot + can't → too hot to drink.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "soup",
+    "milk"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too. Write one word in each gap.",
+  "source": "The {box} is very heavy. I can't carry it, {name}.",
+  "hint": "The {box} is ______ ______ to carry, {name}.",
+  "key": [
+   "too",
+   "heavy"
+  ],
+  "why": "very heavy + can't → too heavy to carry.",
+  "slots": {
+   "box": [
+    "box",
+    "suitcase",
+    "bag",
+    "sofa"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too. Write one word in each gap.",
+  "source": "It's very cold. We can't swim in the {water} today, {name}.",
+  "hint": "It's ______ ______ to swim in the {water} today, {name}.",
+  "key": [
+   "too",
+   "cold"
+  ],
+  "why": "very cold + can't → too cold to swim.",
+  "slots": {
+   "water": [
+    "lake",
+    "sea",
+    "river",
+    "pool"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too. Write one word in each gap.",
+  "source": "The {test} was very difficult. I couldn't finish it, {name}.",
+  "hint": "The {test} was ______ ______ to finish, {name}.",
+  "key": [
+   "too",
+   "difficult"
+  ],
+  "why": "very difficult + couldn't → too difficult to finish.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "quiz",
+    "puzzle"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too. Write one word in each gap.",
+  "source": "I was very tired. I couldn't go to the {event}, {name}.",
+  "hint": "I was ______ ______ to go to the {event}, {name}.",
+  "key": [
+   "too",
+   "tired"
+  ],
+  "why": "very tired + couldn't → too tired to go.",
+  "slots": {
+   "event": [
+    "party",
+    "concert",
+    "match",
+    "gym"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with enough. Write one word in each gap.",
+  "source": "My brother is too young to drive the {car}, {name}.",
+  "hint": "My brother isn't ______ ______ to drive the {car}, {name}.",
+  "key": [
+   "old",
+   "enough"
+  ],
+  "why": "too young = not old enough; enough after the adjective.",
+  "slots": {
+   "car": [
+    "car",
+    "bus",
+    "truck",
+    "tractor"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with enough. Write one word in each gap.",
+  "source": "The water in the {water} is too cold for swimming, {name}.",
+  "hint": "The water in the {water} isn't ______ ______ for swimming, {name}.",
+  "key": [
+   "warm",
+   "enough"
+  ],
+  "why": "too cold = not warm enough.",
+  "slots": {
+   "water": [
+    "lake",
+    "sea",
+    "river",
+    "pool"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with enough. Write one word in each gap.",
+  "source": "The {room} is too small for our family, {name}.",
+  "hint": "The {room} isn't ______ ______ for our family, {name}.",
+  "key": [
+   "big",
+   "enough"
+  ],
+  "why": "too small = not big enough.",
+  "slots": {
+   "room": [
+    "flat",
+    "car",
+    "kitchen",
+    "tent"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with enough. Write one word in each gap.",
+  "source": "I'm too short to reach the top {shelf}, {name}.",
+  "hint": "I'm not ______ ______ to reach the top {shelf}, {name}.",
+  "key": [
+   "tall",
+   "enough"
+  ],
+  "why": "too short = not tall enough.",
+  "slots": {
+   "shelf": [
+    "shelf",
+    "cupboard",
+    "window",
+    "branch"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with enough. Write one word in each gap.",
+  "source": "This {thing} is too weak for the job, {name}.",
+  "hint": "This {thing} isn't ______ ______ for the job, {name}.",
+  "key": [
+   "strong",
+   "enough"
+  ],
+  "why": "too weak = not strong enough.",
+  "slots": {
+   "thing": [
+    "rope",
+    "ladder",
+    "table",
+    "bag"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too and the opposite adjective. Write one word in each gap.",
+  "source": "Our {room} isn't big enough for a party, {name}.",
+  "hint": "Our {room} is ______ ______ for a party, {name}.",
+  "key": [
+   "too",
+   "small"
+  ],
+  "why": "not big enough = too small.",
+  "slots": {
+   "room": [
+    "flat",
+    "garden",
+    "kitchen",
+    "yard"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too and the opposite adjective. Write one word in each gap.",
+  "source": "The {drink} isn't cold enough to drink yet, {name}.",
+  "hint": "The {drink} is still ______ ______ to drink, {name}.",
+  "key": [
+   "too",
+   "warm"
+  ],
+  "why": "not cold enough = still too warm.",
+  "slots": {
+   "drink": [
+    "lemonade",
+    "juice",
+    "water",
+    "ayran"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too and the opposite adjective. Write one word in each gap.",
+  "source": "My son isn't old enough for this {thing}, {name}.",
+  "hint": "My son is ______ ______ for this {thing}, {name}.",
+  "key": [
+   "too",
+   "young"
+  ],
+  "why": "not old enough = too young.",
+  "slots": {
+   "thing": [
+    "film",
+    "game",
+    "book",
+    "ride"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too and the opposite adjective. Write one word in each gap.",
+  "source": "The {bus} wasn't fast enough. We arrived late, {name}.",
+  "hint": "The {bus} was ______ ______. We arrived late, {name}.",
+  "key": [
+   "too",
+   "slow"
+  ],
+  "why": "not fast enough = too slow.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "taxi",
+    "ferry"
+   ],
+   "name": [
+    "Zarina",
+    "Otabek",
+    "Dilnoza",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with too and the opposite adjective. Write one word in each gap.",
+  "source": "These {shoes} aren't cheap enough for me, {name}.",
+  "hint": "These {shoes} are ______ ______ for me, {name}.",
+  "key": [
+   "too",
+   "expensive"
+  ],
+  "why": "not cheap enough = too expensive.",
+  "slots": {
+   "shoes": [
+    "shoes",
+    "boots",
+    "jeans",
+    "trainers"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with too + adjective + to.",
+  "requiredElement": "too + adjective + to + verb",
+  "constraints": [
+   "exactly one sentence",
+   "too",
+   "to + verb"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with adjective + enough + to.",
+  "requiredElement": "adjective + enough + to + verb",
+  "constraints": [
+   "exactly one sentence",
+   "enough after the adjective",
+   "to + verb"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with enough + noun.",
+  "requiredElement": "enough + noun",
+  "constraints": [
+   "exactly one sentence",
+   "enough before the noun",
+   "a noun"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with not … enough.",
+  "requiredElement": "isn't + adjective + enough",
+  "constraints": [
+   "exactly one sentence",
+   "not",
+   "enough after the adjective"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with too + adjective + for + a person.",
+  "requiredElement": "too + adjective + for me / him …",
+  "constraints": [
+   "exactly one sentence",
+   "too",
+   "for + person"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about why you can't do something today. Use too.",
+  "requiredElement": "I'm too … to …",
+  "constraints": [
+   "exactly one sentence",
+   "too",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you can do now because you are old enough.",
+  "requiredElement": "I'm old enough to …",
+  "constraints": [
+   "exactly one sentence",
+   "old enough",
+   "to + verb"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with didn't have enough.",
+  "requiredElement": "didn't have enough + noun",
+  "constraints": [
+   "exactly one sentence",
+   "enough + noun",
+   "past"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your room or flat. What is too small, big enough or not big enough? Write three or four sentences.",
+  "targetGrammar": "too / enough",
+  "lookFor": [
+   "too + adjective",
+   "adjective + enough",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a time you could not do something. Why not?",
+  "targetGrammar": "too … to / not … enough",
+  "lookFor": [
+   "too",
+   "enough",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short complaint (three or four sentences) about a hotel or café.",
+  "targetGrammar": "too + adjective, not enough + noun",
+  "lookFor": [
+   "too",
+   "enough + noun",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about the weather today and what you can or can't do in it.",
+  "targetGrammar": "too cold / warm enough",
+  "lookFor": [
+   "too",
+   "enough",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "intensifiers",
+  "topic": "too-enough",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about what young people are old enough to do in your country.",
+  "targetGrammar": "old enough / too young",
+  "lookFor": [
+   "old enough",
+   "too young",
+   "three or four sentences"
+  ]
+ }
+]
