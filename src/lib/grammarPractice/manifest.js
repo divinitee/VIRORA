@@ -1556,6 +1556,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "reported-speech.questions.reported-wh-question": {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 416,
+   "build": 512,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "reported-speech.statements.backshift-past": {
   "domain": "reported-speech",
   "branch": "statements",

@@ -55,29 +55,29 @@ const CHOOSE = [
 });
 
 /* ---------------- build: 20 gap_fill ---------------- */
-const INSTR = "Report the question. Write the subject and the verb in statement order, one step into the past.";
+const INSTR = "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).";
 // [key, acceptable, source, slots]
 const BUILD = [
   ["I lived", ["I live"], "'Where do you live in {city}?' {f} asked me. She asked me where ______ in {city}.", { f: F, city: CITY }],
-  ["I was reading", [], "'What are you reading on the {place}?' {m} asked me. He asked me what ______ on the {place}.", { m: M, place: ["bus", "train", "plane", "bench"] }],
+  ["I was reading", [], "{m} asked me what ______ (I / am reading) on the {place}.", { m: M, place: ["bus", "train", "plane", "bench"] }],
   ["he was", [], "'Why are you late for the {event}?' the {who} asked {m}. She asked him why ______ late for the {event}.", { event: ["lesson", "meeting", "match", "rehearsal"], who: ["teacher", "coach", "manager", "director"], m: M }],
-  ["it started", [], "'When does it start?' I asked about the {event}. I asked when ______, {f}.", { event: ["film", "match", "concert", "lesson"], f: F }],
+  ["it started", [], "'When does the {event} start?' I asked {f}. I asked her when ______.", { event: ["film", "match", "concert", "lesson"], f: F }],
   ["I was", [], "'How old are you?' the {who} at the {place} asked me. He asked me how old ______.", { who: ["man", "doctor", "guard", "driver"], place: ["gym", "pool", "club", "museum"] }],
   ["she wanted", [], "'What do you want for {event}?' {m} asked his {who}. He asked her what ______ for {event}.", { m: M, event: ["your birthday", "Navruz", "New Year", "dinner"], who: ["sister", "mother", "wife", "daughter"] }],
   ["I had bought", ["I bought"], "'Where did you buy your {thing}?' {f} asked me. She asked me where ______ my {thing}.", { f: F, thing: ["coat", "phone", "bag", "shoes"] }],
-  ["it cost", ["it costs"], "'How much does the {thing} cost?' I asked the {who}. I asked how much ______.", { thing: ["melon", "bag", "carpet", "scarf"], who: ["seller", "shop assistant", "woman", "man"] }],
-  ["I was going", [], "'Where are you going?' my {who} asked me at the {place}. She asked me where ______.", { who: ["mum", "sister", "aunt", "grandma"], place: ["door", "gate", "bus stop", "corner"] }],
-  ["it was", [], "'What time is it?' a {who} at the {place} asked me. He asked me what time ______.", { who: ["man", "tourist", "boy", "driver"], place: ["station", "bus stop", "bazaar", "park"] }],
+  ["cost", ["costs"], "I asked the {who} how much the {thing} ______ (cost).", { thing: ["melon", "bag", "carpet", "scarf"], who: ["seller", "shop assistant", "woman", "man"] }],
+  ["I was going", [], "At the {place}, my {who} asked me where ______ (I / am going).", { who: ["mum", "sister", "aunt", "grandma"], place: ["door", "gate", "bus stop", "corner"] }],
+  ["it was", [], "A {who} at the {place} asked me what time ______ (it / is).", { who: ["man", "tourist", "boy", "driver"], place: ["station", "bus stop", "bazaar", "park"] }],
   ["he had left", ["he left"], "'Why did you leave the {event}?' {f} asked {m}. She asked him why ______ the {event}.", { f: F, m: M, event: ["party", "meeting", "wedding", "match"] }],
-  ["she could", [], "'How can I help you?' the {who} asked {m}. She asked him how ______ help him.", { who: ["receptionist", "nurse", "assistant", "waitress"], m: M }],
+  ["she could", [], "'How can I help you?' The {who} asked {m} how ______ help him.", { who: ["receptionist", "nurse", "assistant", "waitress"], m: M }],
   ["was", ["is"], "'Where is the {place}?' a tourist asked me. He asked me where the {place} ______, {f}.", { place: ["museum", "station", "old town", "bazaar"], f: F }],
   ["he had eaten", ["he ate"], "'What did you eat at the {event}?' the doctor asked {m}. She asked him what ______ at the {event}.", { event: ["wedding", "party", "picnic", "café"], m: M }],
-  ["I would come", [], "'When will you come back from {city}?' my {who} asked me. She asked me when ______ back from {city}.", { who: ["mum", "sister", "aunt", "grandma"], city: CITY }],
+  ["I would come", [], "My {who} asked me when ______ (I / will come) back from {city}.", { who: ["mum", "sister", "aunt", "grandma"], city: CITY }],
   ["I knew", ["I know"], "'How do you know {m}?' {f} asked me. She asked me how ______ him.", { m: M, f: F }],
   ["I took", ["I take"], "'Which bus do you take to the {place}?' the {who} asked me. He asked me which bus ______ to the {place}.", { place: ["airport", "station", "bazaar", "university"], who: ["driver", "guard", "man", "teacher"] }],
   ["was", [], "'Why is the {shop} closed?' {m} asked. He asked why the {shop} ______ closed, {f}.", { shop: ["bank", "bakery", "pharmacy", "post office"], m: M, f: F }],
-  ["I had been", [], "'Where have you been all {time}?' my {who} asked me. He asked me where ______ all {time}.", { time: ["day", "night", "morning", "evening"], who: ["dad", "brother", "uncle", "grandpa"] }],
-  ["I was doing", [], "'What are you doing in {city}?' {f} asked me. She asked me what ______ in {city}.", { f: F, city: CITY }],
+  ["I had been", [], "My {who} asked me where ______ (I / have been) all {time}.", { time: ["day", "night", "morning", "evening"], who: ["dad", "brother", "uncle", "grandpa"] }],
+  ["I was doing", [], "{f} asked me what ______ (I / am doing) in {city}.", { f: F, city: CITY }],
 ].map(([key, acceptable, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key, ...(acceptable.length ? { acceptable } : {}), why: WHY, slots }));
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
