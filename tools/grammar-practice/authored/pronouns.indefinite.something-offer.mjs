@@ -85,7 +85,7 @@ const BUILD = [
   ["light", "Put the two words in order: light, something.", "Would you like ______ ______ to eat before the {event}, {name}?", { event: ["match", "concert", "lesson", "exam"], name: NAME }],
   ["fresh", "Put the two words in order: fresh, something.", "Can I bring you ______ ______ from the bazaar, {who}? I'm going {when}.", { who: ADULT, when: ["now", "this morning", "after lunch", "soon"] }],
   ["easy", "Put the two words in order: easy, something.", "Do you want ______ ______ to read, {name}? This {book} is short.", { name: NAME, book: ["book", "story", "magazine", "comic"] }],
-  ["new", "Put the two words in order: new, something.", "Would you like to try ______ ______, {name}? It's a {food} from {city}.", { name: NAME, food: ["cake", "melon", "bread", "cheese"], city: ["Fergana", "Khiva", "Bukhara", "Samarkand"] }],
+  ["new", "Put the two words in order: new, something.", "Would you like to try ______ ______, {name}? It's a {food} from {city}.", { name: NAME, food: ["cake", "melon", "pie", "biscuit"], city: ["Fergana", "Khiva", "Bukhara", "Samarkand"] }],
   ["special", "Put the two words in order: special, something.", "Shall we get ______ ______ for {who}'s birthday, {name}?", { who: ["Mum", "Grandpa", "Dad", "Grandma"], name: NAME }],
   // something + to (10)
   ["to", "Put the two words in order: to, something.", "You look hungry, {name}. Would you like ______ ______ eat?", { name: NAME }],
@@ -118,14 +118,15 @@ const TRANSFORM = [
   [COR, "Can I get you something for drink with your {food}, {name}?", "Can I get you ______ drink with your {food}, {name}?", "something to", "something + to + verb, not for.", { food: ["plov", "lunch", "cake", "samsa"], name: NAME }],
   [COR, "Do you want something eat, {name}? There's {food}.", "Do you want ______ eat, {name}? There's {food}.", "something to", "something + to + verb.", { name: NAME, food: ["soup", "plov", "bread", "fruit"] }],
   [COR, "Would you like sweet something with your {drink}, {name}?", "Would you like ______ with your {drink}, {name}?", "something sweet", "The adjective comes after something.", { drink: ["tea", "coffee", "milk", "cocoa"], name: NAME }],
-  [COR, "Would you like nothing to eat, {name}? The {food} is ready.", "Would you like ______ to eat, {name}? The {food} is ready.", "something", W.a, { name: NAME, food: ["soup", "plov", "rice", "pasta"] }],
+  [COR, "Would you like nothing to eat, {name}? The {food} is ready.", "Would you like ______ to eat, {name}? The {food} is ready.", "something", W.a, { name: NAME, food: ["soup", "plov", "rice", "pasta"] }, ["anything"]],
   // request (5)
   [REQ, "I'm hungry after the {event}. Give me food, {who}.", "Can I have ______ eat, please, {who}?", "something to", "Polite request: Can I have something to + verb?", { event: EVENT, who: ADULT }],
   [REQ, "I'm thirsty after the {event}. Give me a drink, {who}.", "Can I have ______ drink, please, {who}?", "something to", "Polite request: Can I have something to + verb?", { event: EVENT, who: ADULT }],
   [REQ, "I'm bored on the {t}. Give me a book, {name}.", "Can I have ______ read, please, {name}?", "something to", "Polite request: Can I have something to + verb?", { t: ["train", "bus", "plane", "trip"], name: NAME }],
   [REQ, "It's so hot in the {place}. Give me a cold drink, {name}.", "Could I have ______ to drink, please, {name}?", "something cold", "Polite request: something + adjective.", { place: ["yard", "garden", "street", "car"], name: NAME }],
   [REQ, "I've got a {ill}. Give me a hot drink, {who}.", "Could I have ______ to drink, please, {who}?", "something hot", "Polite request: something + adjective.", { ill: ["cold", "sore throat", "cough", "runny nose"], who: ADULT }],
-].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: fix(slots, source + hint) }));
+// Audit (Claude, 20 Nov): "Would you like anything to eat?" is a right correction too.
+].map(([instr, source, hint, key, why, slots, acceptable]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: fix(slots, source + hint), ...(acceptable ? { acceptable } : {}) }));
 
 /* ---------------- create: 8 ---------------- */
 const CREATE = [
