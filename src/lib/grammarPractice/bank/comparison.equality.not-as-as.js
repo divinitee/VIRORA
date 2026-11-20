@@ -490,9 +490,9 @@ export default [
   "format": "mcq",
   "prompt": "The {film} was not as good as the book. So ______, {name}.",
   "options": [
-   "nobody liked the book",
-   "the book was better",
    "the book was worse",
+   "the book was better",
+   "the film was better",
    "they were equally good"
   ],
   "key": 1,
@@ -525,7 +525,7 @@ export default [
    "the train is faster",
    "the train is slower",
    "they are equally fast",
-   "the train is never late"
+   "both are very slow"
   ],
   "key": 0,
   "why": "Not as … as means less: the other one has more of it.",

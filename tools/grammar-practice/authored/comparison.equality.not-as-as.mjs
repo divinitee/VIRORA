@@ -48,8 +48,8 @@ const FORM = [
 // meaning items: [prompt, key, [d1, d2, d3], slots] (options carry no slot: pronouns only)
 const MEAN = [
   ["My {thing} is not as heavy as yours. So ______, {name}.", "yours is heavier", ["mine is heavier", "they weigh the same", "yours is lighter"], { thing: ["bag", "box", "suitcase", "backpack"], name: NAME }],
-  ["The {film} was not as good as the book. So ______, {name}.", "the book was better", ["the book was worse", "they were equally good", "nobody liked the book"], { film: ["film", "new film", "cartoon", "TV series"], name: NAME }],
-  ["The {transport} is not as fast as the train. So ______, {name}.", "the train is faster", ["the train is slower", "they are equally fast", "the train is never late"], { transport: ["bus", "minibus", "coach", "old bus"], name: NAME }],
+  ["The {film} was not as good as the book. So ______, {name}.", "the book was better", ["the film was better", "they were equally good", "the book was worse"], { film: ["film", "new film", "cartoon", "TV series"], name: NAME }],
+  ["The {transport} is not as fast as the train. So ______, {name}.", "the train is faster", ["the train is slower", "they are equally fast", "both are very slow"], { transport: ["bus", "minibus", "coach", "old bus"], name: NAME }],
   ["My little {sib} is not as tall as me. So ______, {name}.", "I am taller", ["she is taller", "we are the same height", "I am shorter"], { sib: ["sister", "cousin", "niece"], name: NAME }],
   ["This {shop} is not as cheap as the bazaar. So ______, {name}.", "the bazaar is cheaper", ["this place is cheaper", "they cost the same", "the bazaar is more expensive"], { shop: ["shop", "supermarket", "mall", "kiosk"], name: NAME }],
   ["Today is not as hot as {when}. So ______, {name}.", "it was hotter before", ["today is hotter", "it is equally hot", "it was colder before"], { when: ["yesterday", "last week", "on Monday", "on Sunday"], name: NAME }],

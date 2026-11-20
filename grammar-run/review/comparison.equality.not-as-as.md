@@ -65,11 +65,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Not as … as means less: the other one has more of it.
 
 16. The **cartoon** was not as good as the book. So ______, **Olga**.  
-   options: nobody liked the book · ✔ the book was better · the book was worse · they were equally good  
+   options: the book was worse · ✔ the book was better · the film was better · they were equally good  
    why: Not as … as means less: the other one has more of it.
 
 17. The **bus** is not as fast as the train. So ______, **Lola**.  
-   options: ✔ the train is faster · the train is slower · they are equally fast · the train is never late  
+   options: ✔ the train is faster · the train is slower · they are equally fast · both are very slow  
    why: Not as … as means less: the other one has more of it.
 
 18. My little **cousin** is not as tall as me. So ______, **Aziz**.  
