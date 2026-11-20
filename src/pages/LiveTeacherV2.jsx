@@ -144,7 +144,12 @@ export default function LiveTeacherV2() {
   // ---------------------------------------------------------- thinking sounds
   // Sorted by mood, saved on the phone after the first lesson (no credits, instant).
   const fillerKey = (p) => `lt-fillers:v3:${p}`;
-  async function loadFillers(p) {
+  const fillerLoadRef = useRef(null);
+  function loadFillers(p) {
+    if (!fillerLoadRef.current) fillerLoadRef.current = loadFillersNow(p).finally(() => { fillerLoadRef.current = null; });
+    return fillerLoadRef.current;
+  }
+  async function loadFillersNow(p) {
     let cache = {};
     try { cache = JSON.parse(localStorage.getItem(fillerKey(p)) || "{}") || {}; } catch { cache = {}; }
     fillersRef.current = cache;
