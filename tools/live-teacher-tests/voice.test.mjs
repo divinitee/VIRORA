@@ -305,9 +305,9 @@ test('echo: repeating the asked phrase is recognised', async () => {
 
 test('prompt: boundaries, soap line in the settings language, question streak nudge', async () => {
   const { buildBrainInstructions, buildTurnMessage } = await import('../../base44/shared/liveTeacherBrain.js');
-  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'ru' }), /А ну помой рот с мылом/);
-  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /Og'zingni sovun bilan yuv!/);
-  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'en' }), /wash your mouth out with soap/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'ru' }), /А ну помой рот с мылом.*Язык придержи/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /Og'zingni sovun bilan yuv!.*Tilingni tiy/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'en' }), /wash your mouth out with soap.*Watch your mouth/);
   assert.match(buildBrainInstructions({ persona: 'velvet' }), /future perfect continuous in the passive voice/);
   const history = [
     { role: 'teacher', text: 'What do you draw?' }, { role: 'student', text: 'Cars.' },
@@ -326,6 +326,7 @@ test('conduct: each persona has its own swearing ladder, strikes end the lesson 
   assert.match(vi, /Get out/);
   assert.match(vi, /Back so soon/);
   assert.doesNotMatch(vi, /sovun/);
+  assert.doesNotMatch(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /Siz bilan|yuving/);
   assert.match(buildBrainInstructions({ persona: 'violet', ageGroup: 'kid' }), /never "get out"/);
   assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', strikes: 1 }), /strike 2 of 3/);
   // Violet: first curse ends it. Vira: third. Velvet: second.
