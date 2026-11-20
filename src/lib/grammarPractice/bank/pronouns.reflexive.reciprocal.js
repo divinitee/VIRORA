@@ -399,7 +399,7 @@ export default [
   "options": [
    "each others",
    "themselves",
-   "their",
+   "each others'",
    "each other's"
   ],
   "key": 3,
@@ -424,7 +424,7 @@ export default [
   "prompt": "{b} and his brother know ______ secrets.",
   "options": [
    "themselves",
-   "their",
+   "each others'",
    "each other's",
    "each others"
   ],

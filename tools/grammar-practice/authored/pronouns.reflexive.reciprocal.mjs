@@ -39,7 +39,7 @@ const W_POS = "For things that belong to the other person, use each other's: The
 const W_SELF = "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.";
 const OT = ["each other", "themselves", "them", "each others"];
 const OU = ["each other", "ourselves", "us", "each others"];
-const OP = ["each other's", "each others", "themselves", "their"];
+const OP = ["each other's", "each others", "themselves", "each others'"]; // "their" removed by Claude's audit: "wear their clothes / know their secrets" is English
 const ST = ["themselves", "each other", "them", "theirselves"];
 const SU = ["ourselves", "each other", "us", "ourself"];
 

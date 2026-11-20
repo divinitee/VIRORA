@@ -57,11 +57,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
 
 14. The twins often wear ______ clothes, **Olga**.  
-   options: each others · themselves · their · ✔ each other's  
+   options: each others · themselves · each others' · ✔ each other's  
    why: For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.
 
 15. **Jasur** and his brother know ______ secrets.  
-   options: themselves · their · ✔ each other's · each others  
+   options: themselves · each others' · ✔ each other's · each others  
    why: For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.
 
 16. The boys fell off their bikes and hurt ______ **last week**.  

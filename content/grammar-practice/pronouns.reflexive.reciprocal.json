@@ -397,7 +397,7 @@
   "options": [
    "each others",
    "themselves",
-   "their",
+   "each others'",
    "each other's"
   ],
   "key": 3,
@@ -422,7 +422,7 @@
   "prompt": "{b} and his brother know ______ secrets.",
   "options": [
    "themselves",
-   "their",
+   "each others'",
    "each other's",
    "each others"
   ],
