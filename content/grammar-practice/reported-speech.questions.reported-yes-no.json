@@ -780,10 +780,10 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
-  "source": "'Have you finished the {work}?' the {who} asked us. She asked us ______ the {work}.",
-  "key": "if we had finished",
+  "source": "'Have you done the {work}?' the {who} asked us. She asked us ______ done the {work}.",
+  "key": "if we had",
   "acceptable": [
-   "whether we had finished"
+   "whether we had"
   ],
   "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
   "slots": {

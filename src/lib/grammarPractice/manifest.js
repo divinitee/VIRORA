@@ -1570,6 +1570,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "reported-speech.questions.reported-yes-no": {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 416,
+   "build": 416,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "reported-speech.statements.backshift-past": {
   "domain": "reported-speech",
   "branch": "statements",
