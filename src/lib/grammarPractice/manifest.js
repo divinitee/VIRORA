@@ -2214,6 +2214,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.gerund-infinitive.get-used-to": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "get-used-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 272,
+   "build": 224,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.gerund-infinitive.preposition-gerund": {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",

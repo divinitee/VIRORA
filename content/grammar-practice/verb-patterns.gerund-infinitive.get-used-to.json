@@ -993,9 +993,9 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with get / got / getting + used to.",
-  "source": "It takes time to ______ a new {thing}, {name}.",
+  "source": "Give it time. You'll slowly ______ a new {thing}, {name}.",
   "key": "get used to",
-  "why": "After \"to\" comes the base form: get used to.",
+  "why": "\"You'll\" + the base form: get used to.",
   "slots": {
    "thing": [
     "school",
@@ -1200,10 +1200,10 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "It took me a year to used to the {thing}, {name}.",
-  "hint": "It took me a year to ______ the {thing}, {name}.",
-  "key": "get used to",
-  "why": "After \"to\" you need get: get used to.",
+  "source": "After a year I get use to the {thing}, {name}.",
+  "hint": "After a year I ______ the {thing}, {name}.",
+  "key": "got used to",
+  "why": "A finished change in the past: got used to, with -d.",
   "slots": {
    "thing": [
     "noise",
