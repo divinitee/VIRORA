@@ -52,23 +52,23 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: another · ✔ the others · others · the other  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 
-13. I'll go to the **bazaar** with **Lola**. You can go with ______.  
+13. I kept one **card** and gave all ______ to my sister, **Lola**.  
    options: ✔ the others · others · the other · another  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 
-14. I have six **bags**. This one is new; ______ are all old, **Olga**.  
+14. I have six **bags**. This one is new, but all ______ are old, **Olga**.  
    options: others · the other · another · ✔ the others  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 
-15. Ten students took the **driving test**. Three failed, but ______ passed, **Aziz**.  
+15. Ten students took the **driving test**. Three failed, but all ______ passed, **Aziz**.  
    options: the other · another · ✔ the others · others  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 
-16. Let's wait for ______ before we start the **film**, **Timur**.  
+16. Only two of us are here. Let's wait for all ______ before we start the **film**, **Timur**.  
    options: another · ✔ the others · others · the other  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 
-17. Only one of my friends came on time; ______ were late for the **match**.  
+17. Only one of my friends came on time; all ______ were late for the **match**.  
    options: ✔ the others · others · the other · another  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 

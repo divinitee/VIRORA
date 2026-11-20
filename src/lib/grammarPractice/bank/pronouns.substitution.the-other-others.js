@@ -381,7 +381,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I'll go to the {place} with {name}. You can go with ______.",
+  "prompt": "I kept one {thing} and gave all ______ to my sister, {name}.",
   "options": [
    "the others",
    "others",
@@ -391,11 +391,11 @@ export default [
   "key": 0,
   "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
   "slots": {
-   "place": [
-    "café",
-    "station",
-    "park",
-    "bazaar"
+   "thing": [
+    "photo",
+    "book",
+    "toy",
+    "card"
    ],
    "name": [
     "Aziz",
@@ -413,7 +413,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I have six {things}. This one is new; ______ are all old, {name}.",
+  "prompt": "I have six {things}. This one is new, but all ______ are old, {name}.",
   "options": [
    "others",
    "the other",
@@ -445,7 +445,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Ten students took the {test}. Three failed, but ______ passed, {name}.",
+  "prompt": "Ten students took the {test}. Three failed, but all ______ passed, {name}.",
   "options": [
    "the other",
    "another",
@@ -477,7 +477,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Let's wait for ______ before we start the {thing}, {name}.",
+  "prompt": "Only two of us are here. Let's wait for all ______ before we start the {thing}, {name}.",
   "options": [
    "another",
    "the others",
@@ -509,7 +509,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Only one of my friends came on time; ______ were late for the {event}.",
+  "prompt": "Only one of my friends came on time; all ______ were late for the {event}.",
   "options": [
    "the others",
    "others",
