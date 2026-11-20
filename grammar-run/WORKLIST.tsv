@@ -200,7 +200,7 @@
 199	C	modals.semi-modals.have-to-past	B1	1	todo	Past obligation uses had to (must has no past form)
 200	C	modals.past-modals.might-have	B1	1	live	might have + pp for an uncertain past possibility
 201	C	modals.past-modals.must-have	B1	3	live	must have + past participle for a confident past deduction | must have + pp from indirect evidence | must have + pp for past deduction in formal register
-202	C	modals.past-modals.should-have	B1	3	todo	should have + pp for past criticism | Productive should have + pp for regret/criticism | should have + pp with a consequence clause
+202	C	modals.past-modals.should-have	B1	3	live	should have + pp for past criticism | Productive should have + pp for regret/criticism | should have + pp with a consequence clause
 203	C	prep-phrasal.time.by-until	B1	1	todo	by (deadline) vs until (continuing up to)
 204	C	prep-phrasal.time.during-while	B1	1	todo	during + noun vs while + clause
 205	C	prep-phrasal.movement.across-through-along	B1	1	todo	through (enclosed space) vs across (surface) vs along (line)
