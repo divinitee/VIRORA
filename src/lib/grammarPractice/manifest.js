@@ -1150,6 +1150,48 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "pronouns.reflexive.no-reflexive-after-feel": {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "no-reflexive-after-feel",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 464,
+   "build": 320,
+   "transform": 384,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.reflexive.reciprocal": {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reciprocal",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 236,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "pronouns.reflexive.reflexive-object": {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 320,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "pronouns.substitution.another-other": {
   "domain": "pronouns",
   "branch": "substitution",

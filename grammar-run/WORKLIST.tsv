@@ -170,9 +170,9 @@
 169	C	pronouns.substitution.another-other	B1	1	live	another (a different single one) vs other/others
 170	C	pronouns.substitution.so-neither	B1	2	live	Neither + auxiliary + subject agreeing with a negative | 'Nor' with inversion continuing a negative in formal register
 171	C	pronouns.substitution.the-other-others	B1	1	live	the other (the remaining one of two) vs another/others
-172	C	pronouns.reflexive.no-reflexive-after-feel	B1	1	todo	Some verbs (relax, feel, concentrate) take no reflexive in English
-173	C	pronouns.reflexive.reciprocal	B1	1	todo	each other (reciprocal) vs themselves (reflexive)
-174	C	pronouns.reflexive.reflexive-object	B1	1	todo	Reflexive pronoun when subject and object are the same
+172	C	pronouns.reflexive.no-reflexive-after-feel	B1	1	live	Some verbs (relax, feel, concentrate) take no reflexive in English
+173	C	pronouns.reflexive.reciprocal	B1	1	live	each other (reciprocal) vs themselves (reflexive)
+174	C	pronouns.reflexive.reflexive-object	B1	1	live	Reflexive pronoun when subject and object are the same
 175	C	verb-patterns.gerund-infinitive.avoid-gerund	B1	1	todo	avoid + -ing
 176	C	verb-patterns.gerund-infinitive.get-used-to	B1	2	todo	get used to + -ing/noun (distinct from used to + base) | Productive get used to + -ing/noun
 177	C	verb-patterns.gerund-infinitive.look-forward-to	B1	1	todo	look forward to + -ing ('to' is a preposition here)
