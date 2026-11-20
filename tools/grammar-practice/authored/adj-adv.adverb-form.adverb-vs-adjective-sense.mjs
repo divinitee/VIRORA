@@ -64,32 +64,32 @@ const CHOOSE = [
 /* ---------------- build: 20 gap_fill ---------------- */
 const INSTR = "Use the word in brackets or its -ly form.";
 const BUILD = [
-  ["lately", "late", "I've been very busy ______ (late), {name}. Sorry I didn't call.", { name: NAME, x: [] }],
-  ["late", "late", "The {who} arrived ______ (late) again this morning.", { who: ["teacher", "bus", "doctor", "plumber"], x: [] }],
-  ["lately", "late", "Has the weather in {city} been cold ______ (late), {name}?", { city: ["Tashkent", "Moscow", "Samarkand", "Almaty"], name: NAME2 }],
-  ["late", "late", "Don't stay out ______ (late) tonight, {name}. You have the {test} tomorrow.", { name: NAME, test: ["exam", "match", "interview", "trip"] }],
-  ["hardly", "hard", "I ______ (hard) know anyone at the {event}, {name}.", { event: ["party", "wedding", "conference", "new school"], name: NAME2 }],
-  ["hard", "hard", "The builders worked ______ (hard) all day on the {thing}.", { thing: ["roof", "bridge", "road", "house"], x: [] }],
-  ["hardly", "hard", "There's ______ (hard) any milk in the fridge, {name}.", { name: NAME, x: [] }],
-  ["hardly", "hard", "My little brother ______ (hard) ever eats {food}, {name}.", { food: ["vegetables", "fish", "soup", "fruit"], name: NAME2 }],
-  ["hard", "hard", "Try ______ (hard) and you will pass the {test}, {name}.", { test: ["exam", "test", "interview", "driving test"], name: NAME }],
-  ["nearly", "near", "I ______ (near) forgot your birthday, {name}!", { name: NAME2, x: [] }],
-  ["near", "near", "Our hotel was ______ (near) the {sight} in {city}.", { sight: ["old town", "beach", "station", "bazaar"], city: ["Bukhara", "Istanbul", "Khiva", "Samarkand"] }],
-  ["nearly", "near", "The {thing} costs ______ (near) a million sum, {name}.", { thing: ["bike", "phone", "carpet", "laptop"], name: NAME }],
-  ["nearly", "near", "We ______ (near) won the {match}, {name}. We lost 2–3.", { match: ["final", "match", "game", "cup"], name: NAME2 }],
-  ["near", "near", "Don't park ______ (near) the {place}, {name}.", { place: ["gate", "school", "hospital", "corner"], name: NAME }],
-  ["highly", "high", "Dr Karimova is a ______ (high) respected {job}.", { job: ["doctor", "teacher", "surgeon", "scientist"], x: [] }],
-  ["high", "high", "The kite flew ______ (high) above the {place}, {name}.", { place: ["park", "field", "beach", "roofs"], name: NAME2 }],
-  ["highly", "high", "I ______ (high) recommend this {thing}, {name}.", { thing: ["book", "film", "café", "teacher"], name: NAME }],
-  ["lately", "late", "My {who} hasn't been well ______ (late), {name}.", { who: ["grandma", "uncle", "neighbour", "cat"], name: NAME2 }],
-  ["hard", "hard", "It's snowing ______ (hard) in the {place} today, {name}.", { place: ["mountains", "north", "city", "village"], name: NAME }],
-  ["nearly", "near", "The {work} is ______ (near) ready, {name}. Give me five minutes.", { work: ["dinner", "report", "car", "cake"], name: NAME2 }],
-].map(([key, cue, source, slots]) => {
+  ["lately", "late", "I've been very busy ______ (late), {name}. Sorry I didn't call.", { name: NAME, x: [] }, `"busy … sorry I didn't call" is about the recent past`],
+  ["late", "late", "The {who} arrived ______ (late) again this morning.", { who: ["teacher", "bus", "doctor", "plumber"], x: [] }, "the teacher came after the right time"],
+  ["lately", "late", "Has the weather in {city} been cold ______ (late), {name}?", { city: ["Tashkent", "Moscow", "Samarkand", "Almaty"], name: NAME2 }, "a question about recent weather"],
+  ["late", "late", "Don't stay out ______ (late) tonight, {name}. You have the {test} tomorrow.", { name: NAME, test: ["exam", "match", "interview", "trip"] }, "staying out until a late hour"],
+  ["hardly", "hard", "I ______ (hard) know anyone at the {event}, {name}.", { event: ["party", "wedding", "conference", "new school"], name: NAME2 }, "I almost don"t know anyone there"],
+  ["hard", "hard", "The builders worked ______ (hard) all day on the {thing}.", { thing: ["roof", "bridge", "road", "house"], x: [] }, "they worked with a lot of effort"],
+  ["hardly", "hard", "There's ______ (hard) any milk in the fridge, {name}.", { name: NAME, x: [] }, "there is almost no milk"],
+  ["hardly", "hard", "My little brother ______ (hard) ever eats {food}, {name}.", { food: ["vegetables", "fish", "soup", "fruit"], name: NAME2 }, `"ever" here means almost never`],
+  ["hard", "hard", "Try ______ (hard) and you will pass the {test}, {name}.", { test: ["exam", "test", "interview", "driving test"], name: NAME }, "try with a lot of effort"],
+  ["nearly", "near", "I ______ (near) forgot your birthday, {name}!", { name: NAME2, x: [] }, "I almost forgot, but didn"t"],
+  ["near", "near", "Our hotel was ______ (near) the {sight} in {city}.", { sight: ["old town", "beach", "station", "bazaar"], city: ["Bukhara", "Istanbul", "Khiva", "Samarkand"] }, "the hotel was close to the place"],
+  ["nearly", "near", "The {thing} costs ______ (near) a million sum, {name}.", { thing: ["bike", "phone", "carpet", "laptop"], name: NAME }, "the price is almost a million"],
+  ["nearly", "near", "We ______ (near) won the {match}, {name}. We lost 2–3.", { match: ["final", "match", "game", "cup"], name: NAME2 }, "2–3 means we almost won"],
+  ["near", "near", "Don't park ______ (near) the {place}, {name}.", { place: ["gate", "school", "hospital", "corner"], name: NAME }, "don"t park close to that place"],
+  ["highly", "high", "Dr Karimova is a ______ (high) respected {job}.", { job: ["doctor", "teacher", "surgeon", "scientist"], x: [] }, "people respect the doctor very much"],
+  ["high", "high", "The kite flew ______ (high) above the {place}, {name}.", { place: ["park", "field", "beach", "roofs"], name: NAME2 }, "the kite was far up in the sky"],
+  ["highly", "high", "I ______ (high) recommend this {thing}, {name}.", { thing: ["book", "film", "café", "teacher"], name: NAME }, "I recommend it very strongly"],
+  ["lately", "late", "My {who} hasn't been well ______ (late), {name}.", { who: ["grandma", "uncle", "neighbour", "cat"], name: NAME2 }, `"hasn't been well" in the recent past`],
+  ["hard", "hard", "It's snowing ______ (hard) in the {place} today, {name}.", { place: ["mountains", "north", "city", "village"], name: NAME }, "heavy snow falls hard"],
+  ["nearly", "near", "The {work} is ______ (near) ready, {name}. Give me five minutes.", { work: ["dinner", "report", "car", "cake"], name: NAME2 }, "five more minutes means almost ready"],
+].map(([key, cue, source, slots, clue]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (source.includes(`{${n}}`)) s[n] = f;
   if (Object.keys(s).length < 2 && !source.includes("{name}")) s.name = NAME2;
   const src = s.name && !source.includes("{name}") ? source.replace(/\.$/, ", {name}.") : source;
-  return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src, key, why: `${MEAN[key]}.`, slots: s };
+  return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src, key, why: `${clue[0].toUpperCase()+clue.slice(1)}: ${MEAN[key]}.`, slots: s };
 });
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
@@ -97,21 +97,21 @@ const REC = "Rewrite with lately instead of recently.";
 const ALM = "Rewrite with nearly instead of almost.";
 const NOT = "Rewrite with hardly.";
 const TRANSFORM = [
-  [REC, "I haven't slept well recently, {name}.", "I haven't slept well ______, {name}.", "lately", { name: NAME, x: [] }, "recently = lately."],
-  [REC, "Have you been to the {place} recently, {name}?", "Have you been to the {place} ______, {name}?", "lately", { place: ["cinema", "gym", "bazaar", "theatre"], name: NAME2 }, "recently = lately."],
-  [REC, "My dad has been very busy at the {place} recently.", "My dad has been very busy at the {place} ______.", "lately", { place: ["office", "factory", "hospital", "shop"], x: [] }, "recently = lately."],
-  [REC, "It has rained a lot in {city} recently, {name}.", "It has rained a lot in {city} ______, {name}.", "lately", { city: ["Tashkent", "London", "Fergana", "Moscow"], name: NAME }, "recently = lately."],
-  [REC, "What {thing} have you watched recently, {name}?", "What {thing} have you watched ______, {name}?", "lately", { thing: ["films", "series", "matches", "shows"], name: NAME2 }, "recently = lately."],
-  [ALM, "I almost missed the {bus} this morning, {name}.", "I ______ missed the {bus} this morning, {name}.", "nearly", { bus: ["bus", "train", "metro", "lesson"], name: NAME }, "almost = nearly."],
-  [ALM, "We almost lost the {match}, {name}.", "We ______ lost the {match}, {name}.", "nearly", { match: ["final", "match", "game", "race"], name: NAME2 }, "almost = nearly."],
-  [ALM, "The {thing} is almost ready, {name}.", "The {thing} is ______ ready, {name}.", "nearly", { thing: ["dinner", "cake", "car", "report"], name: NAME }, "almost = nearly."],
-  [ALM, "My grandma is almost ninety, {name}. She still cooks {food}!", "My grandma is ______ ninety, {name}. She still cooks {food}!", "nearly", { name: NAME2, food: ["plov", "manti", "bread", "soup"] }, "almost = nearly."],
-  [ALM, "I almost fell on the ice in the {place}, {name}.", "I ______ fell on the ice in the {place}, {name}.", "nearly", { place: ["street", "yard", "park", "car park"], name: NAME }, "almost = nearly."],
-  [NOT, "I almost can't hear you. The music in the {place} is loud, {name}.", "I can ______ hear you. The music in the {place} is loud, {name}.", "hardly", { place: ["café", "club", "car", "hall"], name: NAME2 }, "almost can't = can hardly."],
-  [NOT, "There was almost no food at the {event}, {name}.", "There was ______ any food at the {event}, {name}.", "hardly", { event: ["party", "wedding", "picnic", "meeting"], name: NAME }, "almost no = hardly any."],
-  [NOT, "My uncle almost never visits {city}, {name}.", "My uncle ______ ever visits {city}, {name}.", "hardly", { city: ["Tashkent", "Samarkand", "Moscow", "Bukhara"], name: NAME2 }, "almost never = hardly ever."],
-  [NOT, "I almost didn't sleep before the {test}, {name}.", "I ______ slept before the {test}, {name}.", "hardly", { test: ["exam", "interview", "match", "flight"], name: NAME }, "almost didn't = hardly."],
-  [NOT, "Almost nobody came to the {event}, {name}.", "______ anybody came to the {event}, {name}.", "Hardly", { event: ["meeting", "concert", "lesson", "party"], name: NAME2 }, "almost nobody = hardly anybody."],
+  [REC, "I haven't slept well recently, {name}.", "I haven't slept well ______, {name}.", "lately", { name: NAME, x: [] }, "Lately means recently: same meaning, same place."],
+  [REC, "Have you been to the {place} recently, {name}?", "Have you been to the {place} ______, {name}?", "lately", { place: ["cinema", "gym", "bazaar", "theatre"], name: NAME2 }, "Lately means recently: same meaning, same place."],
+  [REC, "My dad has been very busy at the {place} recently.", "My dad has been very busy at the {place} ______.", "lately", { place: ["office", "factory", "hospital", "shop"], x: [] }, "Lately means recently: same meaning, same place."],
+  [REC, "It has rained a lot in {city} recently, {name}.", "It has rained a lot in {city} ______, {name}.", "lately", { city: ["Tashkent", "London", "Fergana", "Moscow"], name: NAME }, "Lately means recently: same meaning, same place."],
+  [REC, "What {thing} have you watched recently, {name}?", "What {thing} have you watched ______, {name}?", "lately", { thing: ["films", "series", "matches", "shows"], name: NAME2 }, "Lately means recently: same meaning, same place."],
+  [ALM, "I almost missed the {bus} this morning, {name}.", "I ______ missed the {bus} this morning, {name}.", "nearly", { bus: ["bus", "train", "metro", "lesson"], name: NAME }, "Nearly means almost: put it where almost was."],
+  [ALM, "We almost lost the {match}, {name}.", "We ______ lost the {match}, {name}.", "nearly", { match: ["final", "match", "game", "race"], name: NAME2 }, "Nearly means almost: put it where almost was."],
+  [ALM, "The {thing} is almost ready, {name}.", "The {thing} is ______ ready, {name}.", "nearly", { thing: ["dinner", "cake", "car", "report"], name: NAME }, "Nearly means almost: put it where almost was."],
+  [ALM, "My grandma is almost ninety, {name}. She still cooks {food}!", "My grandma is ______ ninety, {name}. She still cooks {food}!", "nearly", { name: NAME2, food: ["plov", "manti", "bread", "soup"] }, "Nearly means almost: put it where almost was."],
+  [ALM, "I almost fell on the ice in the {place}, {name}.", "I ______ fell on the ice in the {place}, {name}.", "nearly", { place: ["street", "yard", "park", "car park"], name: NAME }, "Nearly means almost: put it where almost was."],
+  [NOT, "I almost can't hear you. The music in the {place} is loud, {name}.", "I can ______ hear you. The music in the {place} is loud, {name}.", "hardly", { place: ["café", "club", "car", "hall"], name: NAME2 }, "almost can't hear → can hardly hear."],
+  [NOT, "There was almost no food at the {event}, {name}.", "There was ______ any food at the {event}, {name}.", "hardly", { event: ["party", "wedding", "picnic", "meeting"], name: NAME }, "almost no food → hardly any food."],
+  [NOT, "My uncle almost never visits {city}, {name}.", "My uncle ______ ever visits {city}, {name}.", "hardly", { city: ["Tashkent", "Samarkand", "Moscow", "Bukhara"], name: NAME2 }, "almost never visits → hardly ever visits."],
+  [NOT, "I almost didn't sleep before the {test}, {name}.", "I ______ slept before the {test}, {name}.", "hardly", { test: ["exam", "interview", "match", "flight"], name: NAME }, "almost didn't sleep → hardly slept."],
+  [NOT, "Almost nobody came to the {event}, {name}.", "______ anybody came to the {event}, {name}.", "Hardly", { event: ["meeting", "concert", "lesson", "party"], name: NAME2 }, "almost nobody came → hardly anybody came."],
 ].map(([instr, source, hint, key, slots, why]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = f;
