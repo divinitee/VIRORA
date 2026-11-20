@@ -385,7 +385,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We ______ missed the {bus}. We ran the last hundred metres!",
+  "prompt": "We ______ missed the {bus}. We ran the last hundred metres, {name}!",
   "options": [
    "nearly",
    "near",
@@ -400,12 +400,6 @@
     "train",
     "plane",
     "start"
-   ],
-   "name": [
-    "Sherzod",
-    "Feruza",
-    "Akmal",
-    "Dilnoza"
    ]
   }
  },

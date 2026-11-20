@@ -41,7 +41,7 @@ const CHOOSE = [
   ["hard", "My sister studies very ______ for her {test}, {name}.", { test: ["exams", "tests", "IELTS", "finals"], name: NAME }, "\"very\" + with a lot of effort"],
   ["hard", "It rained ______ all night in {city}.", { city: ["Tashkent", "Fergana", "London", "Moscow"], x: [] }, "heavy rain = rained hard"],
   ["nearly", "I ______ fell off my {bike} on the ice, {name}.", { bike: ["bike", "scooter", "horse", "skateboard"], name: NAME2 }, "almost fell, but didn't"],
-  ["nearly", "We ______ missed the {bus}. We ran the last hundred metres!", { bus: ["bus", "train", "plane", "start"], x: [] }, "almost missed it"],
+  ["nearly", "We ______ missed the {bus}. We ran the last hundred metres, {name}!", { bus: ["bus", "train", "plane", "start"], x: [] }, "almost missed it"],
   ["nearly", "I've ______ finished my {work}, {name}. Just one page left.", { work: ["essay", "homework", "report", "book"], name: NAME }, "\"Just one page left\" = almost finished"],
   ["near", "We live ______ the {place}, so we walk there every day.", { place: ["park", "school", "bazaar", "river"], x: [] }, "close to the park"],
   ["near", "Is there a pharmacy ______ here, {name}?", { name: NAME2, x: [] }, "close to this place"],
