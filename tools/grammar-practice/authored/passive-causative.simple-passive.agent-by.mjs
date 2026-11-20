@@ -96,7 +96,7 @@ const TRANSFORM = [
   [FIX, "This song was written from a famous {who}, {name}.", "This song was written ______ a famous {who}, {name}.", "by", { who: ["singer", "poet", "composer", "band"], name: NAME }],
   [FIX, "The bread was cut by a {knife}, {name}.", "The bread was cut ______ a {knife}, {name}.", "with", { knife: ["knife", "bread knife", "sharp knife", "long knife"], name: NAME }],
   [FIX, "The house was built of my {who}, {name}.", "The house was built ______ my {who}, {name}.", "by", { who: ["grandfather", "father", "uncle", "family"], name: NAME }],
-  [FIX, "The window was broken with a {thing} from the boy next door.", "The window was broken with a {thing} ______ the boy next door.", "by", { thing: ["stone", "ball", "brick", "stick"], x: [] }],
+  [FIX, "The window was broken with a {thing} from the boy next door, {name}.", "The window was broken with a {thing} ______ the boy next door, {name}.", "by", { thing: ["stone", "ball", "brick", "stick"], name: NAME }],
   [FIX, "The photo was taken from my {who} with an old camera, {name}.", "The photo was taken ______ my {who} with an old camera, {name}.", "by", { who: ["uncle", "father", "cousin", "brother"], name: NAME }],
 ].map(([instr, source, hint, key, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why: key === "with" ? WHY_WITH : WHY_BY, slots }));
 

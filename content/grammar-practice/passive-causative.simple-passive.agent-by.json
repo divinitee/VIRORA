@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The lock was opened ______ a {tool} by the {who}.",
+  "options": [
+   "by",
+   "with",
+   "from",
+   "of"
+  ],
+  "key": 1,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "screwdriver",
+    "knife",
+    "key",
+    "hairpin"
+   ],
+   "who": [
+    "thief",
+    "neighbour",
+    "plumber",
+    "caretaker"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The cake was cut ______ a {tool}, {name}.",
+  "options": [
+   "with",
+   "from",
+   "of",
+   "by"
+  ],
+  "key": 0,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "knife",
+    "bread knife",
+    "sharp knife",
+    "long knife"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The letter was written ______ a {pen}, {name}.",
+  "options": [
+   "from",
+   "of",
+   "by",
+   "with"
+  ],
+  "key": 3,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "pen": [
+    "pencil",
+    "blue pen",
+    "black pen",
+    "fountain pen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The walls were painted ______ a {tool} by my grandfather, {name}.",
+  "options": [
+   "of",
+   "by",
+   "with",
+   "from"
+  ],
+  "key": 2,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "brush",
+    "roller",
+    "small brush",
+    "big roller"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The window was broken ______ a {thing}, {name}.",
+  "options": [
+   "by",
+   "with",
+   "from",
+   "of"
+  ],
+  "key": 1,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "thing": [
+    "stone",
+    "ball",
+    "brick",
+    "stick"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The plov was eaten ______ our hands at the {event}, {name}.",
+  "options": [
+   "with",
+   "from",
+   "of",
+   "by"
+  ],
+  "key": 0,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "picnic",
+    "festival"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The box was tied ______ {rope}, {name}.",
+  "options": [
+   "from",
+   "of",
+   "by",
+   "with"
+  ],
+  "key": 3,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "rope": [
+    "string",
+    "rope",
+    "ribbon",
+    "wire"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The photo was taken ______ an old {camera} by my {who}.",
+  "options": [
+   "of",
+   "by",
+   "with",
+   "from"
+  ],
+  "key": 2,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "camera": [
+    "camera",
+    "phone",
+    "Nikon",
+    "Kodak"
+   ],
+   "who": [
+    "uncle",
+    "father",
+    "cousin",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The tree was cut down ______ a {tool} by the {who}.",
+  "options": [
+   "by",
+   "with",
+   "from",
+   "of"
+  ],
+  "key": 1,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "saw",
+    "chainsaw",
+    "big saw",
+    "small saw"
+   ],
+   "who": [
+    "farmer",
+    "gardener",
+    "workers",
+    "neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The floor was cleaned ______ a {tool}, {name}.",
+  "options": [
+   "with",
+   "from",
+   "of",
+   "by"
+  ],
+  "key": 0,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "mop",
+    "brush",
+    "cloth",
+    "vacuum cleaner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The meat was cut ______ a {tool}, {name}.",
+  "options": [
+   "from",
+   "of",
+   "by",
+   "with"
+  ],
+  "key": 3,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "knife",
+    "cleaver",
+    "blade",
+    "pair of scissors"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The car was washed ______ a {tool} and soap, {name}.",
+  "options": [
+   "of",
+   "by",
+   "with",
+   "from"
+  ],
+  "key": 2,
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "sponge",
+    "hose",
+    "cloth",
+    "brush"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The lock was forced ______ one of the thieves with a {tool}, {name}.",
+  "options": [
+   "by",
+   "with",
+   "from",
+   "of"
+  ],
+  "key": 0,
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "tool": [
+    "screwdriver",
+    "knife",
+    "hammer",
+    "metal bar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This song was written ______ a famous {who}, {name}.",
+  "options": [
+   "with",
+   "from",
+   "of",
+   "by"
+  ],
+  "key": 3,
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "singer",
+    "poet",
+    "composer",
+    "band"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The window was broken ______ the {who} next door, {name}.",
+  "options": [
+   "from",
+   "of",
+   "by",
+   "with"
+  ],
+  "key": 2,
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "boy",
+    "children",
+    "girl",
+    "kids"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The plov was cooked ______ my {who}, {name}.",
+  "options": [
+   "of",
+   "by",
+   "with",
+   "from"
+  ],
+  "key": 1,
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "grandmother",
+    "uncle",
+    "father",
+    "mother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The photos were taken ______ a {who} from the newspaper, {name}.",
+  "options": [
+   "by",
+   "with",
+   "from",
+   "of"
+  ],
+  "key": 0,
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "photographer",
+    "journalist",
+    "student",
+    "reporter"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The new bridge was built ______ a {country} company, {name}.",
+  "options": [
+   "with",
+   "from",
+   "of",
+   "by"
+  ],
+  "key": 3,
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "country": [
+    "Turkish",
+    "Korean",
+    "Chinese",
+    "German"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The thief was stopped ______ a {who}, {name}.",
+  "options": [
+   "from",
+   "of",
+   "by",
+   "with"
+  ],
+  "key": 2,
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "shop assistant",
+    "guard",
+    "taxi driver",
+    "neighbour"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The walls were painted ______ my {who} with a big brush, {name}.",
+  "options": [
+   "of",
+   "by",
+   "with",
+   "from"
+  ],
+  "key": 1,
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "grandfather",
+    "uncle",
+    "brother",
+    "father"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The door was opened ______ a {tool}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "key",
+    "card",
+    "knife",
+    "hairpin"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The bread was cut ______ a {knife}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "knife": [
+    "knife",
+    "bread knife",
+    "sharp knife",
+    "long knife"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The picture was drawn ______ a {pen}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "pen": [
+    "pencil",
+    "black pen",
+    "marker",
+    "piece of chalk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The fence was painted ______ a {tool}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "brush",
+    "roller",
+    "small brush",
+    "big roller"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The glass was broken ______ a {thing}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "thing": [
+    "stone",
+    "ball",
+    "brick",
+    "stick"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The parcel was tied ______ {rope}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "rope": [
+    "string",
+    "rope",
+    "ribbon",
+    "wire"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The video was filmed ______ a {camera}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "camera": [
+    "phone",
+    "drone",
+    "camera",
+    "GoPro"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The soup was stirred ______ a {spoon}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "spoon": [
+    "spoon",
+    "wooden spoon",
+    "ladle",
+    "stick"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The book was written ______ a young {who} from {city}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "writer",
+    "student",
+    "teacher",
+    "doctor"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The cake was made ______ my {who}, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "grandmother",
+    "aunt",
+    "sister",
+    "mother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The match was won ______ {team}, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "team": [
+    "Pakhtakor",
+    "Nasaf",
+    "Bunyodkor",
+    "Navbahor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The phone was found ______ a {who} in the park, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "boy",
+    "cleaner",
+    "woman",
+    "student"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "These photos were taken ______ my {who}, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "uncle",
+    "father",
+    "cousin",
+    "brother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The house was built ______ my {who} in 1990, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "grandfather",
+    "father",
+    "uncle",
+    "family"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The {thing} was stolen ______ two young men, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "thing": [
+    "bike",
+    "car",
+    "bag",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The tea was served ______ the {who}, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "waiter",
+    "host",
+    "owner",
+    "waitress"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The letter was opened ______ a {tool} by Olga, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "knife",
+    "pair of scissors",
+    "pen",
+    "finger"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The window was cleaned ______ the {who} with a cloth, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "cleaner",
+    "caretaker",
+    "boy",
+    "girl"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The tree was cut down ______ a {saw}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "saw": [
+    "saw",
+    "chainsaw",
+    "big saw",
+    "small saw"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write by (who did it) or with (what they used).",
+  "source": "The song was sung ______ the {who} at the {event}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "children",
+    "choir",
+    "bride",
+    "teacher"
+   ],
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "festival"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive with by. Start with the words given.",
+  "source": "A famous {who} wrote this song, {name}.",
+  "hint": "This song ______ a famous {who}, {name}.",
+  "key": "was written by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "singer",
+    "poet",
+    "composer",
+    "band"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive with by. Start with the words given.",
+  "source": "My {who} cooked the plov, {name}.",
+  "hint": "The plov ______ my {who}, {name}.",
+  "key": "was cooked by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "grandmother",
+    "uncle",
+    "father",
+    "mother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive with by. Start with the words given.",
+  "source": "{team} won the cup, {name}.",
+  "hint": "The cup ______ {team}, {name}.",
+  "key": "was won by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "team": [
+    "Pakhtakor",
+    "Nasaf",
+    "Bunyodkor",
+    "Navbahor"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive with by. Start with the words given.",
+  "source": "A {who} found my wallet in the {place}.",
+  "hint": "My wallet ______ a {who} in the {place}.",
+  "key": "was found by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "boy",
+    "cleaner",
+    "woman",
+    "student"
+   ],
+   "place": [
+    "park",
+    "bus",
+    "café",
+    "street"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive with by. Start with the words given.",
+  "source": "Two young men stole the {thing}, {name}.",
+  "hint": "The {thing} ______ two young men, {name}.",
+  "key": "was stolen by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "thing": [
+    "bike",
+    "car",
+    "bag",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one passive sentence. Show what was used.",
+  "source": "Someone broke the window. He used a {thing}, {name}.",
+  "hint": "The window was broken ______ a {thing}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "thing": [
+    "stone",
+    "ball",
+    "brick",
+    "stick"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one passive sentence. Show what was used.",
+  "source": "Grandma cut the bread. She used a {knife}, {name}.",
+  "hint": "The bread was cut by Grandma ______ a {knife}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "knife": [
+    "knife",
+    "bread knife",
+    "sharp knife",
+    "long knife"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one passive sentence. Show what was used.",
+  "source": "The thief forced the lock. He used a {tool}, {name}.",
+  "hint": "The lock was forced by the thief ______ a {tool}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "screwdriver",
+    "knife",
+    "hammer",
+    "metal bar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one passive sentence. Show what was used.",
+  "source": "My dad painted the fence. He used a {tool}, {name}.",
+  "hint": "The fence was painted by my dad ______ a {tool}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "tool": [
+    "brush",
+    "roller",
+    "small brush",
+    "big roller"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one passive sentence. Show what was used.",
+  "source": "They tied the box. They used {rope}, {name}.",
+  "hint": "The box was tied ______ {rope}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "rope": [
+    "string",
+    "rope",
+    "ribbon",
+    "wire"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This song was written from a famous {who}, {name}.",
+  "hint": "This song was written ______ a famous {who}, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "singer",
+    "poet",
+    "composer",
+    "band"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The bread was cut by a {knife}, {name}.",
+  "hint": "The bread was cut ______ a {knife}, {name}.",
+  "key": "with",
+  "why": "with + the thing that was used (a tool or an object).",
+  "slots": {
+   "knife": [
+    "knife",
+    "bread knife",
+    "sharp knife",
+    "long knife"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The house was built of my {who}, {name}.",
+  "hint": "The house was built ______ my {who}, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "grandfather",
+    "father",
+    "uncle",
+    "family"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The window was broken with a {thing} from the boy next door, {name}.",
+  "hint": "The window was broken with a {thing} ______ the boy next door, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "thing": [
+    "stone",
+    "ball",
+    "brick",
+    "stick"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The photo was taken from my {who} with an old camera, {name}.",
+  "hint": "The photo was taken ______ my {who} with an old camera, {name}.",
+  "key": "by",
+  "why": "by + the doer (who did it).",
+  "slots": {
+   "who": [
+    "uncle",
+    "father",
+    "cousin",
+    "brother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one passive sentence about a famous building and who built it.",
+  "requiredElement": "… was built by …",
+  "constraints": [
+   "exactly one sentence",
+   "passive",
+   "by + the doer"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one passive sentence about something that was cut, and what was used.",
+  "requiredElement": "… was cut with a …",
+  "constraints": [
+   "exactly one sentence",
+   "passive",
+   "with + the tool"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one passive sentence with both by and with.",
+  "requiredElement": "… by … with …",
+  "constraints": [
+   "exactly one sentence",
+   "by + the doer",
+   "with + the tool"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one passive sentence about a song or a book and who wrote it.",
+  "requiredElement": "… was written by …",
+  "constraints": [
+   "exactly one sentence",
+   "was written by",
+   "past"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one passive sentence about a meal your family made.",
+  "requiredElement": "… was cooked by …",
+  "constraints": [
+   "exactly one sentence",
+   "passive",
+   "by"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one passive sentence about a photo and what it was taken with.",
+  "requiredElement": "… was taken with …",
+  "constraints": [
+   "exactly one sentence",
+   "passive",
+   "with"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two passive sentences: one with by and one with with.",
+  "requiredElement": "by vs with",
+  "constraints": [
+   "exactly two sentences",
+   "by + person",
+   "with + thing"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one passive sentence about something that was broken.",
+  "requiredElement": "… was broken by / with …",
+  "constraints": [
+   "exactly one sentence",
+   "passive",
+   "by or with"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how your favourite dish is made. Write three or four passive sentences with by and with.",
+  "targetGrammar": "passive with by / with",
+  "lookFor": [
+   "passive",
+   "by",
+   "with"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a famous building in your country. Write three or four sentences: who built it and what with?",
+  "targetGrammar": "passive + by / with",
+  "lookFor": [
+   "was built by",
+   "with",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell the story of a small accident at home in three or four passive sentences.",
+  "targetGrammar": "passive with by and with",
+  "lookFor": [
+   "was broken / was damaged",
+   "by",
+   "with"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a piece of art or a photo you like. Write three or four sentences with by and with.",
+  "targetGrammar": "passive + agent + instrument",
+  "lookFor": [
+   "was painted / taken by",
+   "with",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four passive sentences about how a garden or field is looked after.",
+  "targetGrammar": "passive with by / with",
+  "lookFor": [
+   "passive",
+   "by",
+   "with"
+  ]
+ }
+]
