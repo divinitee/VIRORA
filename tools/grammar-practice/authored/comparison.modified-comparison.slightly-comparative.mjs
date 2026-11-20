@@ -57,7 +57,8 @@ const CHOOSE = [
   else {
     const c = comp(adj);
     opts = SH[adj] ? [c, adj, sup(adj), `more ${c}`] : [c, adj, sup(adj), `${adj}ly`.replace(/lly$/, "lly").replace(/(ent|ble|ful|ous|ult|ar)ly$/, (m) => m)];
-    if (!SH[adj]) opts = [c, adj, `most ${adj}`, `more ${adj}er`.replace("more " + adj + "er", `${adj}er`)];
+    const FOURTH = { efficient: "efficiently", comfortable: "comfortably", difficult: "more difficulter", interesting: "interested", popular: "more popularer" };
+    if (!SH[adj]) opts = [c, adj, `most ${adj}`, FOURTH[adj]];
     why = WHY_F(c);
   }
   const options = opts.map((_, j) => opts[(j + i) % 4]);

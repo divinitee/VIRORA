@@ -45,7 +45,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The numbers are close, so the difference is small: slightly + comparative, slightly earlier. Not very.
 
 11. The new **fridge** is slightly ______ than the old one, **Aziz**.  
-   options: most efficient · efficienter · ✔ more efficient · efficient  
+   options: most efficient · efficiently · ✔ more efficient · efficient  
    why: After slightly, use the comparative: more efficient.
 
 12. These **potatoes** are slightly ______ at the bazaar than in the **kiosk**.  
@@ -53,7 +53,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After slightly, use the comparative: cheaper.
 
 13. This **chair** is slightly ______ than that one, **Olga**.  
-   options: ✔ more comfortable · comfortable · most comfortable · comfortableer  
+   options: ✔ more comfortable · comfortable · most comfortable · comfortably  
    why: After slightly, use the comparative: more comfortable.
 
 14. It's slightly ______ in the **bathroom** than in the kitchen, **Aziz**.  
@@ -61,7 +61,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After slightly, use the comparative: colder.
 
 15. The second **exam** was slightly ______ than the first, **Timur**.  
-   options: most difficult · difficulter · ✔ more difficult · difficult  
+   options: most difficult · more difficulter · ✔ more difficult · difficult  
    why: After slightly, use the comparative: more difficult.
 
 16. My hair is slightly ______ than my **cousin**'s, **Olga**.  
@@ -69,7 +69,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After slightly, use the comparative: shorter.
 
 17. I think the **book** is slightly ______ than the film, **Lola**.  
-   options: ✔ more interesting · interesting · most interesting · interestinger  
+   options: ✔ more interesting · interesting · most interesting · interested  
    why: After slightly, use the comparative: more interesting.
 
 18. Our new **flat** is slightly ______ than the old one, **Aziz**.  
@@ -81,7 +81,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After slightly, use the comparative: later.
 
 20. Tea is slightly ______ than coffee in our **office**, **Lola**.  
-   options: popularer · ✔ more popular · popular · most popular  
+   options: more popularer · ✔ more popular · popular · most popular  
    why: After slightly, use the comparative: more popular.
 
 ## build (20)

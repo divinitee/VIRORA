@@ -331,7 +331,7 @@ export default [
   "prompt": "The new {thing} is slightly ______ than the old one, {name}.",
   "options": [
    "most efficient",
-   "efficienter",
+   "efficiently",
    "more efficient",
    "efficient"
   ],
@@ -397,7 +397,7 @@ export default [
    "more comfortable",
    "comfortable",
    "most comfortable",
-   "comfortableer"
+   "comfortably"
   ],
   "key": 0,
   "why": "After slightly, use the comparative: more comfortable.",
@@ -459,7 +459,7 @@ export default [
   "prompt": "The second {test} was slightly ______ than the first, {name}.",
   "options": [
    "most difficult",
-   "difficulter",
+   "more difficulter",
    "more difficult",
    "difficult"
   ],
@@ -525,7 +525,7 @@ export default [
    "more interesting",
    "interesting",
    "most interesting",
-   "interestinger"
+   "interested"
   ],
   "key": 0,
   "why": "After slightly, use the comparative: more interesting.",
@@ -618,7 +618,7 @@ export default [
   "format": "mcq",
   "prompt": "Tea is slightly ______ than coffee in our {place}, {name}.",
   "options": [
-   "popularer",
+   "more popularer",
    "more popular",
    "popular",
    "most popular"
