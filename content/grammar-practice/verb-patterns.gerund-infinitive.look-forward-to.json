@@ -65,7 +65,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I look forward to ______ from you soon, {name}.",
+  "prompt": "I look forward to ______ from you about the {thing}, {name}.",
   "options": [
    "to hear",
    "heard",
@@ -75,6 +75,12 @@
   "key": 2,
   "why": "A polite email ending: look forward to hearing.",
   "slots": {
+   "thing": [
+    "job",
+    "flat",
+    "trip",
+    "course"
+   ],
    "name": [
     "Nodira",
     "Akmal",
@@ -239,7 +245,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We look forward to ______ with you, {name}.",
+  "prompt": "We look forward to ______ with you at the {place}, {name}.",
   "options": [
    "working",
    "work",
@@ -249,6 +255,12 @@
   "key": 0,
   "why": "A formal ending: look forward to working with you.",
   "slots": {
+   "place": [
+    "office",
+    "school",
+    "hotel",
+    "clinic"
+   ],
    "name": [
     "Nodira",
     "Akmal",
@@ -413,7 +425,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I'm looking forward ______ the holidays, {name}.",
+  "prompt": "I'm looking forward ______ the {hol}, {name}.",
   "options": [
    "on",
    "at",
@@ -423,6 +435,12 @@
   "key": 2,
   "why": "The phrase is always look forward to.",
   "slots": {
+   "hol": [
+    "holidays",
+    "weekend",
+    "summer",
+    "school trip"
+   ],
    "name": [
     "Nodira",
     "Akmal",
@@ -555,7 +573,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I always look forward ______ Navruz, {name}.",
+  "prompt": "I always look forward ______ {hol}, {name}.",
   "options": [
    "at",
    "to",
@@ -565,6 +583,12 @@
   "key": 1,
   "why": "look forward to + noun: to Navruz.",
   "slots": {
+   "hol": [
+    "Navruz",
+    "New Year",
+    "the summer",
+    "my birthday"
+   ],
    "name": [
     "Gulnora",
     "Jamshid",
@@ -582,7 +606,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "I'm looking forward to ______ (see) my cousins in {city}, {name}.",
+  "source": "My cousins live in {city}. I'm looking forward to ______ (see) them, {name}.",
   "key": "seeing",
   "why": "look forward to + -ing: seeing. The \"to\" here is a preposition, so the verb cannot be the base form.",
   "slots": {
@@ -699,7 +723,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "I'm looking forward to ______ (eat) Grandma's {food} on Sunday, {name}.",
+  "source": "Grandma is making {food} on Sunday. I'm looking forward to ______ (eat) it, {name}.",
   "key": "eating",
   "why": "look forward to + -ing: eating. The \"to\" here is a preposition, so the verb cannot be the base form.",
   "slots": {
@@ -774,7 +798,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "I'm looking forward to ______ (finish) this {work}, {name}.",
+  "source": "This {work} is almost done. I'm looking forward to ______ (finish) it, {name}.",
   "key": "finishing",
   "why": "look forward to + -ing: finishing. The \"to\" here is a preposition, so the verb cannot be the base form.",
   "slots": {
@@ -945,7 +969,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "I'm looking forward to ______ (speak) with you on the phone, {name}.",
+  "source": "Call me later. I'm looking forward to ______ (speak) with you, {name}.",
   "key": "speaking",
   "why": "look forward to + -ing: speaking. The \"to\" here is a preposition, so the verb cannot be the base form.",
   "slots": {
@@ -1049,7 +1073,7 @@
     "trip",
     "camp",
     "course",
-    "army service"
+    "long holiday"
    ],
    "name": [
     "Gulnora",
@@ -1201,7 +1225,7 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite with I'm (really) looking forward to.",
+  "instr": "Rewrite with looking forward to.",
   "source": "I can't wait to see the {sight}, {name}!",
   "hint": "I'm really looking forward to ______ the {sight}, {name}!",
   "key": "seeing",
@@ -1229,9 +1253,9 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite with I'm (really) looking forward to.",
-  "source": "I can't wait to try the {food} in {city}, {name}.",
-  "hint": "I'm looking forward to ______ the {food} in {city}, {name}.",
+  "instr": "Rewrite with looking forward to.",
+  "source": "We can't wait to try the {food} in {city}, {name}.",
+  "hint": "We're looking forward to ______ the {food} in {city}, {name}.",
   "key": "trying",
   "why": "look forward to + -ing: trying.",
   "slots": {
@@ -1263,9 +1287,9 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite with I'm (really) looking forward to.",
-  "source": "I can't wait to have a holiday at the {place}, {name}.",
-  "hint": "I'm really looking forward to ______ a holiday at the {place}, {name}.",
+  "instr": "Rewrite with looking forward to.",
+  "source": "My sister can't wait to have a holiday at the {place}, {name}.",
+  "hint": "My sister is really looking forward to ______ a holiday at the {place}, {name}.",
   "key": "having",
   "why": "look forward to + -ing: having.",
   "slots": {
@@ -1291,9 +1315,9 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite with I'm (really) looking forward to.",
-  "source": "I can't wait to play with my new {thing}, {name}!",
-  "hint": "I'm looking forward to ______ with my new {thing}, {name}!",
+  "instr": "Rewrite with looking forward to.",
+  "source": "The kids can't wait to play with their new {thing}, {name}!",
+  "hint": "The kids are looking forward to ______ with their new {thing}, {name}!",
   "key": "playing",
   "why": "look forward to + -ing: playing.",
   "slots": {
@@ -1319,7 +1343,7 @@
   "pv": "2.5",
   "stage": "transform",
   "format": "rewrite",
-  "instr": "Rewrite with I'm (really) looking forward to.",
+  "instr": "Rewrite with looking forward to.",
   "source": "I can't wait to sleep in the {place} tonight, {name}.",
   "hint": "I'm really looking forward to ______ in the {place} tonight, {name}.",
   "key": "sleeping",

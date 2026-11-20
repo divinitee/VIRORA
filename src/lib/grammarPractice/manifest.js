@@ -2228,6 +2228,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.gerund-infinitive.look-forward-to": {
+  "domain": "verb-patterns",
+  "branch": "gerund-infinitive",
+  "topic": "look-forward-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 236,
+   "build": 212,
+   "transform": 252,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.gerund-infinitive.preposition-gerund": {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",
