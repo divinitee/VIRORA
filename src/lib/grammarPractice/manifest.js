@@ -2,20 +2,6 @@
 // Pool sizes per topic and stage, counting slot expansion. Lets the node map
 // render real numbers without loading a single bank.
 export const PRACTICE_MANIFEST = {
- "adj-adv.adjective-form.adjective-after-be": {
-  "domain": "adj-adv",
-  "branch": "adjective-form",
-  "topic": "adjective-after-be",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 320,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
  "adj-adv.adjective-form.adjective-before-noun": {
   "domain": "adj-adv",
   "branch": "adjective-form",
@@ -240,20 +226,6 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
- "modals.ability-permission.could-past-ability": {
-  "domain": "modals",
-  "branch": "ability-permission",
-  "topic": "could-past-ability",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 236,
-   "build": 236,
-   "transform": 288,
-   "create": 8,
-   "express": 5
-  }
- },
  "modals.advice.should": {
   "domain": "modals",
   "branch": "advice",
@@ -264,48 +236,6 @@ export const PRACTICE_MANIFEST = {
    "choose": 296,
    "build": 296,
    "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "modals.deduction.might-possibility": {
-  "domain": "modals",
-  "branch": "deduction",
-  "topic": "might-possibility",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 560,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "modals.obligation.must": {
-  "domain": "modals",
-  "branch": "obligation",
-  "topic": "must",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 296,
-   "build": 296,
-   "transform": 228,
-   "create": 8,
-   "express": 5
-  }
- },
- "modals.obligation.mustnt-vs-dont-have-to": {
-  "domain": "modals",
-  "branch": "obligation",
-  "topic": "mustnt-vs-dont-have-to",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 308,
-   "build": 308,
-   "transform": 228,
    "create": 8,
    "express": 5
   }
@@ -562,90 +492,6 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
- "passive-causative.simple-passive.active-to-passive": {
-  "domain": "passive-causative",
-  "branch": "simple-passive",
-  "topic": "active-to-passive",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 308,
-   "transform": 288,
-   "create": 8,
-   "express": 5
-  }
- },
- "passive-causative.simple-passive.past-passive": {
-  "domain": "passive-causative",
-  "branch": "simple-passive",
-  "topic": "past-passive",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 752,
-   "build": 500,
-   "transform": 228,
-   "create": 8,
-   "express": 5
-  }
- },
- "passive-causative.simple-passive.present-passive": {
-  "domain": "passive-causative",
-  "branch": "simple-passive",
-  "topic": "present-passive",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 416,
-   "build": 416,
-   "transform": 288,
-   "create": 8,
-   "express": 5
-  }
- },
- "prep-phrasal.movement.arrive-at-in": {
-  "domain": "prep-phrasal",
-  "branch": "movement",
-  "topic": "arrive-at-in",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 452,
-   "build": 560,
-   "transform": 384,
-   "create": 8,
-   "express": 5
-  }
- },
- "prep-phrasal.movement.go-home": {
-  "domain": "prep-phrasal",
-  "branch": "movement",
-  "topic": "go-home",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 308,
-   "build": 368,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "prep-phrasal.movement.to-vs-in": {
-  "domain": "prep-phrasal",
-  "branch": "movement",
-  "topic": "to-vs-in",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 560,
-   "build": 416,
-   "transform": 384,
-   "create": 8,
-   "express": 5
-  }
- },
  "prep-phrasal.phrasal-verbs.common-phrasal": {
   "domain": "prep-phrasal",
   "branch": "phrasal-verbs",
@@ -656,62 +502,6 @@ export const PRACTICE_MANIFEST = {
    "choose": 308,
    "build": 296,
    "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "prep-phrasal.place.between": {
-  "domain": "prep-phrasal",
-  "branch": "place",
-  "topic": "between",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 524,
-   "build": 440,
-   "transform": 408,
-   "create": 8,
-   "express": 5
-  }
- },
- "prep-phrasal.place.in-area": {
-  "domain": "prep-phrasal",
-  "branch": "place",
-  "topic": "in-area",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 308,
-   "build": 308,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "prep-phrasal.place.in-container": {
-  "domain": "prep-phrasal",
-  "branch": "place",
-  "topic": "in-container",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 308,
-   "transform": 288,
-   "create": 8,
-   "express": 5
-  }
- },
- "prep-phrasal.place.on-surface": {
-  "domain": "prep-phrasal",
-  "branch": "place",
-  "topic": "on-surface",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 368,
-   "build": 320,
-   "transform": 288,
    "create": 8,
    "express": 5
   }
@@ -814,62 +604,6 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
- "pronouns.indefinite.indefinite-agreement": {
-  "domain": "pronouns",
-  "branch": "indefinite",
-  "topic": "indefinite-agreement",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 308,
-   "build": 308,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "pronouns.indefinite.nothing-anything": {
-  "domain": "pronouns",
-  "branch": "indefinite",
-  "topic": "nothing-anything",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 248,
-   "build": 248,
-   "transform": 216,
-   "create": 8,
-   "express": 5
-  }
- },
- "pronouns.indefinite.someone-anyone": {
-  "domain": "pronouns",
-  "branch": "indefinite",
-  "topic": "someone-anyone",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 224,
-   "build": 236,
-   "transform": 228,
-   "create": 8,
-   "express": 5
-  }
- },
- "pronouns.indefinite.something-offer": {
-  "domain": "pronouns",
-  "branch": "indefinite",
-  "topic": "something-offer",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 224,
-   "build": 308,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
  "pronouns.personal.object-pronouns": {
   "domain": "pronouns",
   "branch": "personal",
@@ -880,20 +614,6 @@ export const PRACTICE_MANIFEST = {
    "choose": 296,
    "build": 296,
    "transform": 228,
-   "create": 8,
-   "express": 5
-  }
- },
- "pronouns.personal.subject-object-contrast": {
-  "domain": "pronouns",
-  "branch": "personal",
-  "topic": "subject-object-contrast",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 224,
-   "build": 272,
-   "transform": 240,
    "create": 8,
    "express": 5
   }
@@ -921,20 +641,6 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 308,
    "build": 352,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "pronouns.possessive.possessive-pronouns": {
-  "domain": "pronouns",
-  "branch": "possessive",
-  "topic": "possessive-pronouns",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 416,
-   "build": 368,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -1178,20 +884,6 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
- "sentence-structure.existential.there-question": {
-  "domain": "sentence-structure",
-  "branch": "existential",
-  "topic": "there-question",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 320,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
  "sentence-structure.existential.there-was-were": {
   "domain": "sentence-structure",
   "branch": "existential",
@@ -1234,20 +926,6 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
- "sentence-structure.imperatives.negative-imperative": {
-  "domain": "sentence-structure",
-  "branch": "imperatives",
-  "topic": "negative-imperative",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 320,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
  "sentence-structure.predication.be-am-is-are": {
   "domain": "sentence-structure",
   "branch": "predication",
@@ -1266,76 +944,6 @@ export const PRACTICE_MANIFEST = {
   "domain": "sentence-structure",
   "branch": "predication",
   "topic": "be-question",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 320,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "sentence-structure.relative-clauses.that-which-things": {
-  "domain": "sentence-structure",
-  "branch": "relative-clauses",
-  "topic": "that-which-things",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 296,
-   "build": 212,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "sentence-structure.relative-clauses.where-place": {
-  "domain": "sentence-structure",
-  "branch": "relative-clauses",
-  "topic": "where-place",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 320,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "sentence-structure.relative-clauses.who-people": {
-  "domain": "sentence-structure",
-  "branch": "relative-clauses",
-  "topic": "who-people",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 320,
-   "transform": 228,
-   "create": 8,
-   "express": 5
-  }
- },
- "sentence-structure.word-order.double-object": {
-  "domain": "sentence-structure",
-  "branch": "word-order",
-  "topic": "double-object",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 284,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "sentence-structure.word-order.place-time-order": {
-  "domain": "sentence-structure",
-  "branch": "word-order",
-  "topic": "place-time-order",
   "level": "A1",
   "authored": 68,
   "stages": {
@@ -1747,62 +1355,6 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
-   "transform": 216,
-   "create": 8,
-   "express": 5
-  }
- },
- "verb-patterns.have-got.have-got-negative": {
-  "domain": "verb-patterns",
-  "branch": "have-got",
-  "topic": "have-got-negative",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 368,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "verb-patterns.have-got.have-got-question": {
-  "domain": "verb-patterns",
-  "branch": "have-got",
-  "topic": "have-got-question",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 416,
-   "transform": 288,
-   "create": 8,
-   "express": 5
-  }
- },
- "verb-patterns.have-got.have-has": {
-  "domain": "verb-patterns",
-  "branch": "have-got",
-  "topic": "have-has",
-  "level": "A1",
-  "authored": 68,
-  "stages": {
-   "choose": 320,
-   "build": 320,
-   "transform": 240,
-   "create": 8,
-   "express": 5
-  }
- },
- "verb-patterns.object-infinitive.let-bare": {
-  "domain": "verb-patterns",
-  "branch": "object-infinitive",
-  "topic": "let-bare",
-  "level": "A2",
-  "authored": 68,
-  "stages": {
-   "choose": 272,
-   "build": 308,
    "transform": 216,
    "create": 8,
    "express": 5
