@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The verb after the gap needs an object (built what?), so use which or that, not where.
 
 15. _Write where or which._  
-   **Bukhara** is a city ______ many tourists love, **Aziz**.  
+   **Bukhara** is a city ______ my grandparents love, **Aziz**.  
    key: which (also: that)  
    why: The verb after the gap needs an object (built what?), so use which or that, not where.
 

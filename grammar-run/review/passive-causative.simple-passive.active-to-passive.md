@@ -8,8 +8,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ This house was built by my grandpa. · This house is built by my grandpa. · This house was built from my grandpa. · This house built by my grandpa.  
    why: The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.
 
-2. Active: Alisher Navoi wrote this poem. Passive: ______ We read it in **class**, **Aziz**.  
-   options: This poem is written by Alisher Navoi. · This poem was written from Alisher Navoi. · This poem written by Alisher Navoi. · ✔ This poem was written by Alisher Navoi.  
+2. Active: Alisher Navoi wrote this poem more than 500 years ago. Passive: ______ We read it in **class**, **Aziz**.  
+   options: This poem is written by Alisher Navoi more than 500 years ago. · This poem was written from Alisher Navoi more than 500 years ago. · This poem written by Alisher Navoi more than 500 years ago. · ✔ This poem was written by Alisher Navoi more than 500 years ago.  
    why: The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.
 
 3. Active: Our teacher took these photos. Passive: ______ They're from **Bukhara**, **Timur**.  
@@ -101,8 +101,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    key: is spoken + by  
    why: The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.
 
-4. _Make it passive: Lola took this photo._  
-   This photo ______ ______ Lola. It's from **Fergana**, **Olga**.  
+4. _Make it passive: Madina took this photo._  
+   This photo ______ ______ Madina. It's from **Fergana**, **Olga**.  
    key: was taken + by  
    why: The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.
 

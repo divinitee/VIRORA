@@ -41,12 +41,12 @@ export default [
   "level": "A2",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Active: Alisher Navoi wrote this poem. Passive: ______ We read it in {lesson}, {name}.",
+  "prompt": "Active: Alisher Navoi wrote this poem more than 500 years ago. Passive: ______ We read it in {lesson}, {name}.",
   "options": [
-   "This poem is written by Alisher Navoi.",
-   "This poem was written from Alisher Navoi.",
-   "This poem written by Alisher Navoi.",
-   "This poem was written by Alisher Navoi."
+   "This poem is written by Alisher Navoi more than 500 years ago.",
+   "This poem was written from Alisher Navoi more than 500 years ago.",
+   "This poem written by Alisher Navoi more than 500 years ago.",
+   "This poem was written by Alisher Navoi more than 500 years ago."
   ],
   "key": 3,
   "why": "The object comes first, keep the tense (present → is / are, past → was / were), add the past participle, then by + the doer.",
@@ -118,8 +118,8 @@ export default [
    "who": [
     "Dad",
     "Grandma",
-    "Aziz",
-    "Lola"
+    "Grandpa",
+    "my sister"
    ],
    "name": [
     "Aziz",
@@ -733,8 +733,8 @@ export default [
   "level": "A2",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Make it passive: Lola took this photo.",
-  "source": "This photo ______ ______ Lola. It's from {city}, {name}.",
+  "instr": "Make it passive: Madina took this photo.",
+  "source": "This photo ______ ______ Madina. It's from {city}, {name}.",
   "key": [
    "was taken",
    "by"

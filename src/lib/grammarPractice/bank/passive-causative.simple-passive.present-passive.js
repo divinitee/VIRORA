@@ -1187,15 +1187,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present passive (is / are + past participle).",
-  "source": "Many languages ______ (speak) in {city}, {name}.",
+  "source": "Many languages ______ (speak) at {place}, {name}.",
   "key": "are spoken",
   "why": "Present passive: is (one thing) or are (more than one) + past participle.",
   "slots": {
-   "city": [
-    "Tashkent",
-    "Samarkand",
-    "Namangan",
-    "Andijan"
+   "place": [
+    "our school",
+    "this market",
+    "the airport",
+    "the big bazaar"
    ],
    "name": [
     "Aziz",

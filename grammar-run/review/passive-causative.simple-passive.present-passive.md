@@ -182,7 +182,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Present passive: is (one thing) or are (more than one) + past participle.
 
 20. _Write the verb in brackets in the present passive (is / are + past participle)._  
-   Many languages ______ (speak) in **Samarkand**, **Olga**.  
+   Many languages ______ (speak) at **this market**, **Olga**.  
    key: are spoken  
    why: Present passive: is (one thing) or are (more than one) + past participle.
 

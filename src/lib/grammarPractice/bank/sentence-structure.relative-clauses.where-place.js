@@ -1034,7 +1034,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write where or which.",
-  "source": "{city} is a city ______ many tourists love, {name}.",
+  "source": "{city} is a city ______ my grandparents love, {name}.",
   "key": "which",
   "acceptable": [
    "that"
