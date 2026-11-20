@@ -211,7 +211,10 @@ export async function transcribeDirect({ blob, token, model = 'scribe_v3', timeo
     fd.append('model_id', model);
     fd.append('file', blob, 'turn.wav');
     fd.append('tag_audio_events', 'true');
-    const res = await fetch(`https://api.elevenlabs.io/v1/speech-to-text?token=${encodeURIComponent(token)}`, { method: 'POST', body: fd, signal: ctrl.signal });
+    const url = `https://api.elevenlabs.io/v1/speech-to-text?token=${encodeURIComponent(token)}`;
+    let res = await fetch(url, { method: 'POST', body: fd, signal: ctrl.signal });
+    // 20 Nov tests: "429 system_busy" from ElevenLabs. One quick retry before the slower backup path.
+    if (res.status === 429) { await new Promise((r) => setTimeout(r, 400)); res = await fetch(url, { method: 'POST', body: fd, signal: ctrl.signal }); }
     const data = await res.json().catch(() => null);
     if (!res.ok) return { ok: false, error: `${res.status} ${data?.detail?.status || data?.detail?.message || data?.detail || ''}`.trim() };
     return { ok: true, text: String(data?.text || '').trim(), language: data?.language_code || '' };

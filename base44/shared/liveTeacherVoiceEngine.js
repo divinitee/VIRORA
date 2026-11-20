@@ -257,11 +257,13 @@ export async function speak(env, { voiceId, text }, fetchImpl = fetch) {
   const s = settings(env);
   const spoken = s.audioTags && modelSupportsTags(s.ttsModel) ? text : stripAudioTags(text);
   if (!stripAudioTags(spoken)) return { audio_b64: '', chars: 0, mime: 'audio/mpeg' };
-  const res = await fetchImpl(`https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(voiceId)}?output_format=mp3_44100_64`, {
+  const call = () => fetchImpl(`https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(voiceId)}?output_format=mp3_44100_64`, {
     method: 'POST',
     headers: { 'xi-api-key': env.ELEVENLABS_API_KEY, 'Content-Type': 'application/json', Accept: 'audio/mpeg' },
     body: JSON.stringify({ text: spoken, model_id: s.ttsModel }),
   });
+  let res = await call();
+  if (res.status === 429) { await new Promise((r) => setTimeout(r, 400)); res = await call(); } // "system busy": one quick retry
   if (!res.ok) {
     const data = await res.json().catch(() => null);
     throw new ServiceError('tts_failed', `Voice: ${res.status} ${redact(data?.detail?.message || data?.detail)}`);
@@ -271,6 +273,17 @@ export async function speak(env, { voiceId, text }, fetchImpl = fetch) {
 }
 
 // ------------------------------------------------------------------ helpers
+/** Her last lines from the student's previous v2 lesson (so she doesn't reuse them today). */
+async function previousPlan(svc, email) {
+  try {
+    const rows = await svc.LiveTeacherLesson.filter({ user_email: email }, '-created_date', 3);
+    const prev = (rows || []).find((r) => r?.scores?.plan);
+    return prev?.scores?.plan || null;
+  } catch {
+    return null; // memory of old lines is nice-to-have, never a reason to fail the start
+  }
+}
+
 function errorReply(user, e) {
   const admin = user?.role === 'admin';
   const code = e?.code || 'server_error';
@@ -322,13 +335,15 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
   const s = settings(env);
   const tags = s.audioTags && modelSupportsTags(s.ttsModel);
   try {
-    const [voiceId, { row, profile }, safetyId] = await Promise.all([
+    const [voiceId, { row, profile }, safetyId, prevPlan] = await Promise.all([
       resolveVoice(env, persona, fetchImpl), getOrCreateProfile(svc, user.email), sha256Hex(user.id || user.email),
+      previousPlan(svc, user.email),
     ]);
+    const seed = seedPlan(prevPlan);
     const instructions = buildBrainInstructions({ persona, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags });
     // The brain writes the greeting while the ears pass for the phone is made.
     const [{ out, usage }, sttToken] = await Promise.all([
-      think(env, { instructions, message: buildTurnMessage({ persona, start: true }), safetyId }, fetchImpl),
+      think(env, { instructions, message: buildTurnMessage({ persona, start: true, plan: seed }), safetyId }, fetchImpl),
       softToken(env, 'batch_scribe', fetchImpl),
     ]);
     const speakText = tags ? out.reply : stripAudioTags(out.reply);
@@ -343,7 +358,7 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
       model: `v2:${persona}|${s.brainModel}|${s.ttsModel}`,
       max_minutes: P.minutes, tool_calls: 0, mistakes_logged: 0, new_mistakes: 0, repeated_mistakes: 0, mastered_now: 0,
       // v2 keeps its usage/cost estimate here (no schema change needed): scores.usage
-      scores: { usage: addUsage(null, c, { ttsChars: voice.chars }) },
+      scores: { usage: addUsage(null, c, { ttsChars: voice.chars }), plan: planAfter(seed, out) },
     });
     await saveProfile(svc, row, { ...profile, age_group: ageGroup });
     return reply(200, {
