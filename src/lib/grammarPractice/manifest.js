@@ -198,6 +198,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.equality.not-as-as": {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 312,
+   "build": 316,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.modified-comparison.much-comparative": {
   "domain": "comparison",
   "branch": "modified-comparison",

@@ -1,0 +1,1912 @@
+[
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The bus to {city} takes six hours and the train takes two. The bus is ______ the train, {name}.",
+  "options": [
+   "not as fast as",
+   "not as faster as",
+   "not as fast than",
+   "not fast as"
+  ],
+  "key": 0,
+  "why": "Not as fast as = less fast than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} cost 300,000 soum and yours cost 900,000. Mine is ______ yours, {name}.",
+  "options": [
+   "not as more expensive as",
+   "not as expensive than",
+   "not expensive as",
+   "not as expensive as"
+  ],
+  "key": 3,
+  "why": "Not as expensive as = less expensive than. The base adjective goes between as and as.",
+  "slots": {
+   "thing": [
+    "phone",
+    "watch",
+    "jacket",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {home} is ______ yours, but it's very cosy, {name}.",
+  "options": [
+   "not as big than",
+   "not big as",
+   "not as big as",
+   "not as bigger as"
+  ],
+  "key": 2,
+  "why": "Not as big as = less big than. The base adjective goes between as and as.",
+  "slots": {
+   "home": [
+    "flat",
+    "garden",
+    "kitchen",
+    "house"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The second {test} was ______ the first one. I finished early, {name}.",
+  "options": [
+   "not difficult as",
+   "not as difficult as",
+   "not as more difficult as",
+   "not as difficult than"
+  ],
+  "key": 1,
+  "why": "Not as difficult as = less difficult than. The base adjective goes between as and as.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "task"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} is 40 and my mother is 45. He's ______ my mother, {name}.",
+  "options": [
+   "not as old as",
+   "not as older as",
+   "not as old than",
+   "not old as"
+  ],
+  "key": 0,
+  "why": "Not as old as = less old than. The base adjective goes between as and as.",
+  "slots": {
+   "who": [
+    "father",
+    "uncle",
+    "stepfather"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The film was ______ the {thing}, {name}. I fell asleep.",
+  "options": [
+   "not as more interesting as",
+   "not as interesting than",
+   "not interesting as",
+   "not as interesting as"
+  ],
+  "key": 3,
+  "why": "Not as interesting as = less interesting than. The base adjective goes between as and as.",
+  "slots": {
+   "thing": [
+    "book",
+    "trailer",
+    "first film",
+    "story"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It's only 10 degrees in {city} today. It's ______ yesterday, {name}.",
+  "options": [
+   "not as warm than",
+   "not warm as",
+   "not as warm as",
+   "not as warmer as"
+  ],
+  "key": 2,
+  "why": "Not as warm as = less warm than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "On {day}, the bazaar is ______ it is on Sundays, {name}.",
+  "options": [
+   "not busy as",
+   "not as busy as",
+   "not as busier as",
+   "not as busy than"
+  ],
+  "key": 1,
+  "why": "Not as busy as = less busy than. The base adjective goes between as and as.",
+  "slots": {
+   "day": [
+    "Mondays",
+    "Tuesdays",
+    "weekday mornings",
+    "rainy days"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {sib} is 1.50 m and I'm 1.70 m. She's ______ me, {name}.",
+  "options": [
+   "not as tall as",
+   "not as taller as",
+   "not as tall than",
+   "not tall as"
+  ],
+  "key": 0,
+  "why": "Not as tall as = less tall than. The base adjective goes between as and as.",
+  "slots": {
+   "sib": [
+    "sister",
+    "cousin",
+    "friend",
+    "mother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Chess is ______ football in our {place}, {name}.",
+  "options": [
+   "not as more popular as",
+   "not as popular than",
+   "not popular as",
+   "not as popular as"
+  ],
+  "key": 3,
+  "why": "Not as popular as = less popular than. The base adjective goes between as and as.",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "village",
+    "club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My English is ______ my brother's. He lived in {city} for a year, {name}.",
+  "options": [
+   "not as good than",
+   "not good as",
+   "not as good as",
+   "not as better as"
+  ],
+  "key": 2,
+  "why": "Not as good as = less good than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "London",
+    "New York",
+    "Sydney",
+    "Toronto"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The new {seat} is ______ the old one, {name}. I don't like it.",
+  "options": [
+   "not comfortable as",
+   "not as comfortable as",
+   "not as more comfortable as",
+   "not as comfortable than"
+  ],
+  "key": 1,
+  "why": "Not as comfortable as = less comfortable than. The base adjective goes between as and as.",
+  "slots": {
+   "seat": [
+    "sofa",
+    "chair",
+    "bed",
+    "car seat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The way through the {place} is ______ the main road. It's quicker, {name}.",
+  "options": [
+   "not as long as",
+   "not as longer as",
+   "not as long than",
+   "not long as"
+  ],
+  "key": 0,
+  "why": "Not as long as = less long than. The base adjective goes between as and as.",
+  "slots": {
+   "place": [
+    "park",
+    "old town",
+    "bazaar",
+    "village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Winter in {city} is ______ winter in Moscow, {name}.",
+  "options": [
+   "not as colder as",
+   "not as cold than",
+   "not cold as",
+   "not as cold as"
+  ],
+  "key": 3,
+  "why": "Not as cold as = less cold than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Termez",
+    "Bukhara",
+    "Samarkand"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} is not as heavy as yours. So ______, {name}.",
+  "options": [
+   "they weigh the same",
+   "yours is lighter",
+   "yours is heavier",
+   "mine is heavier"
+  ],
+  "key": 2,
+  "why": "Not as … as means less: the other one has more of it.",
+  "slots": {
+   "thing": [
+    "bag",
+    "box",
+    "suitcase",
+    "backpack"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {film} was not as good as the book. So ______, {name}.",
+  "options": [
+   "nobody liked the book",
+   "the book was better",
+   "the book was worse",
+   "they were equally good"
+  ],
+  "key": 1,
+  "why": "Not as … as means less: the other one has more of it.",
+  "slots": {
+   "film": [
+    "film",
+    "new film",
+    "cartoon",
+    "TV series"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {transport} is not as fast as the train. So ______, {name}.",
+  "options": [
+   "the train is faster",
+   "the train is slower",
+   "they are equally fast",
+   "the train is never late"
+  ],
+  "key": 0,
+  "why": "Not as … as means less: the other one has more of it.",
+  "slots": {
+   "transport": [
+    "bus",
+    "minibus",
+    "coach",
+    "old bus"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little {sib} is not as tall as me. So ______, {name}.",
+  "options": [
+   "she is taller",
+   "we are the same height",
+   "I am shorter",
+   "I am taller"
+  ],
+  "key": 3,
+  "why": "Not as … as means less: the other one has more of it.",
+  "slots": {
+   "sib": [
+    "sister",
+    "cousin",
+    "niece"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {shop} is not as cheap as the bazaar. So ______, {name}.",
+  "options": [
+   "they cost the same",
+   "the bazaar is more expensive",
+   "the bazaar is cheaper",
+   "this place is cheaper"
+  ],
+  "key": 2,
+  "why": "Not as … as means less: the other one has more of it.",
+  "slots": {
+   "shop": [
+    "shop",
+    "supermarket",
+    "mall",
+    "kiosk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Today is not as hot as {when}. So ______, {name}.",
+  "options": [
+   "it was colder before",
+   "it was hotter before",
+   "today is hotter",
+   "it is equally hot"
+  ],
+  "key": 1,
+  "why": "Not as … as means less: the other one has more of it.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last week",
+    "on Monday",
+    "on Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "The {shop} is ______ (cheap) the bazaar, {name}.",
+  "key": "not as cheap as",
+  "acceptable": [
+   "not so cheap as"
+  ],
+  "why": "Not as cheap as = less cheap than. The base adjective goes between as and as.",
+  "slots": {
+   "shop": [
+    "shop",
+    "supermarket",
+    "mall",
+    "kiosk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "My old {device} is ______ (fast) my new one, {name}.",
+  "key": "not as fast as",
+  "acceptable": [
+   "not so fast as"
+  ],
+  "why": "Not as fast as = less fast than. The base adjective goes between as and as.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "computer",
+    "tablet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "Our village is ______ (big) {city}, {name}.",
+  "key": "not as big as",
+  "acceptable": [
+   "not so big as"
+  ],
+  "why": "Not as big as = less big than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Namangan",
+    "Andijan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "Russian grammar is ______ (easy) {lang} grammar for me, {name}.",
+  "key": "not as easy as",
+  "acceptable": [
+   "not so easy as"
+  ],
+  "why": "Not as easy as = less easy than. The base adjective goes between as and as.",
+  "slots": {
+   "lang": [
+    "English",
+    "Turkish",
+    "Uzbek",
+    "Kazakh"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "The {room} is ______ (warm) the kitchen in winter, {name}.",
+  "key": "not as warm as",
+  "acceptable": [
+   "not so warm as"
+  ],
+  "why": "Not as warm as = less warm than. The base adjective goes between as and as.",
+  "slots": {
+   "room": [
+    "bedroom",
+    "hall",
+    "garage",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "My {who} is ______ (old) my father, {name}.",
+  "key": "not as old as",
+  "acceptable": [
+   "not so old as"
+  ],
+  "why": "Not as old as = less old than. The base adjective goes between as and as.",
+  "slots": {
+   "who": [
+    "mother",
+    "aunt",
+    "uncle",
+    "stepmother"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "This {thing} is ______ (expensive) the one in the window, {name}.",
+  "key": "not as expensive as",
+  "acceptable": [
+   "not so expensive as"
+  ],
+  "why": "Not as expensive as = less expensive than. The base adjective goes between as and as.",
+  "slots": {
+   "thing": [
+    "dress",
+    "bag",
+    "watch",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "Our new street is ______ (quiet) the old one. There's a {place} next to it, {name}.",
+  "key": "not as quiet as",
+  "acceptable": [
+   "not so quiet as"
+  ],
+  "why": "Not as quiet as = less quiet than. The base adjective goes between as and as.",
+  "slots": {
+   "place": [
+    "school",
+    "market",
+    "bus station",
+    "big road"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "I'm ______ (strong) my brother. He goes to the gym every {day}, {name}.",
+  "key": "not as strong as",
+  "acceptable": [
+   "not so strong as"
+  ],
+  "why": "Not as strong as = less strong than. The base adjective goes between as and as.",
+  "slots": {
+   "day": [
+    "day",
+    "morning",
+    "evening",
+    "week"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "The second {part} was ______ (interesting) the first, {name}.",
+  "key": "not as interesting as",
+  "acceptable": [
+   "not so interesting as"
+  ],
+  "why": "Not as interesting as = less interesting than. The base adjective goes between as and as.",
+  "slots": {
+   "part": [
+    "half",
+    "part",
+    "lesson",
+    "film"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "My {bag} is ______ (heavy) yours. Can I carry yours, {name}?",
+  "key": "not as heavy as",
+  "acceptable": [
+   "not so heavy as"
+  ],
+  "why": "Not as heavy as = less heavy than. The base adjective goes between as and as.",
+  "slots": {
+   "bag": [
+    "bag",
+    "suitcase",
+    "backpack",
+    "box"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "Tennis is ______ (popular) football in {city}, {name}.",
+  "key": "not as popular as",
+  "acceptable": [
+   "not so popular as"
+  ],
+  "why": "Not as popular as = less popular than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "our town",
+    "our village",
+    "my school",
+    "our district"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "{name} is ______ (tall) her brother, but she plays {sport} better.",
+  "key": "not as tall as",
+  "acceptable": [
+   "not so tall as"
+  ],
+  "why": "Not as tall as = less tall than. The base adjective goes between as and as.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ],
+   "sport": [
+    "basketball",
+    "volleyball",
+    "tennis",
+    "football"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "The {holiday} is ______ (long) the summer holiday, {name}.",
+  "key": "not as long as",
+  "acceptable": [
+   "not so long as"
+  ],
+  "why": "Not as long as = less long than. The base adjective goes between as and as.",
+  "slots": {
+   "holiday": [
+    "winter holiday",
+    "spring holiday",
+    "autumn break",
+    "Navruz holiday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "This {month} is ______ (hot) last {month}, {name}.",
+  "key": "not as hot as",
+  "acceptable": [
+   "not so hot as"
+  ],
+  "why": "Not as hot as = less hot than. The base adjective goes between as and as.",
+  "slots": {
+   "month": [
+    "July",
+    "August",
+    "June"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "The {transport} is ______ (comfortable) the train, {name}.",
+  "key": "not as comfortable as",
+  "acceptable": [
+   "not so comfortable as"
+  ],
+  "why": "Not as comfortable as = less comfortable than. The base adjective goes between as and as.",
+  "slots": {
+   "transport": [
+    "bus",
+    "minibus",
+    "coach",
+    "taxi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "My {skill} is ______ (good) my sister's, {name}.",
+  "key": "not as good as",
+  "acceptable": [
+   "not so good as"
+  ],
+  "why": "Not as good as = less good than. The base adjective goes between as and as.",
+  "slots": {
+   "skill": [
+    "English",
+    "cooking",
+    "drawing",
+    "singing"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "The bus stop is ______ (near) the metro, {name}. We should take the metro to {place}.",
+  "key": "not as near as",
+  "acceptable": [
+   "not so near as"
+  ],
+  "why": "Not as near as = less near than. The base adjective goes between as and as.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "school",
+    "the bazaar",
+    "work",
+    "the station"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "Cycling in the {place} is ______ (dangerous) cycling in the city centre, {name}.",
+  "key": "not as dangerous as",
+  "acceptable": [
+   "not so dangerous as"
+  ],
+  "why": "Not as dangerous as = less dangerous than. The base adjective goes between as and as.",
+  "slots": {
+   "place": [
+    "park",
+    "village",
+    "countryside",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write not as … as with the adjective in brackets.",
+  "source": "On {day}, the roads are ______ (busy) they are on weekdays, {name}.",
+  "key": "not as busy as",
+  "acceptable": [
+   "not so busy as"
+  ],
+  "why": "Not as busy as = less busy than. The base adjective goes between as and as.",
+  "slots": {
+   "day": [
+    "Sundays",
+    "holidays",
+    "Navruz",
+    "New Year's Day"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not as … as. Keep the meaning.",
+  "source": "The bus to {city} is cheaper than the train, {name}.",
+  "hint": "The train to {city} is ______ the bus, {name}.",
+  "key": "not as cheap as",
+  "acceptable": [
+   "not so cheap as"
+  ],
+  "why": "Not as cheap as = less cheap than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not as … as. Keep the meaning.",
+  "source": "My {who} is taller than me, {name}.",
+  "hint": "I'm ______ my {who}, {name}.",
+  "key": "not as tall as",
+  "acceptable": [
+   "not so tall as"
+  ],
+  "why": "Not as tall as = less tall than. The base adjective goes between as and as.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "father"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not as … as. Keep the meaning.",
+  "source": "The {book} is more interesting than the film, {name}.",
+  "hint": "The film is ______ the {book}, {name}.",
+  "key": "not as interesting as",
+  "acceptable": [
+   "not so interesting as"
+  ],
+  "why": "Not as interesting as = less interesting than. The base adjective goes between as and as.",
+  "slots": {
+   "book": [
+    "book",
+    "novel",
+    "story",
+    "comic"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not as … as. Keep the meaning.",
+  "source": "{city} is bigger than our town, {name}.",
+  "hint": "Our town is ______ {city}, {name}.",
+  "key": "not as big as",
+  "acceptable": [
+   "not so big as"
+  ],
+  "why": "Not as big as = less big than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Namangan",
+    "Andijan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with not as … as. Keep the meaning.",
+  "source": "The new {seat} is more comfortable than the old one, {name}.",
+  "hint": "The old {seat} is ______ the new one, {name}.",
+  "key": "not as comfortable as",
+  "acceptable": [
+   "not so comfortable as"
+  ],
+  "why": "Not as comfortable as = less comfortable than. The base adjective goes between as and as.",
+  "slots": {
+   "seat": [
+    "sofa",
+    "chair",
+    "bed",
+    "car seat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two with not as … as.",
+  "source": "The train to {city} takes two hours. The bus takes five, {name}.",
+  "hint": "The bus is ______ the train, {name}.",
+  "key": "not as fast as",
+  "acceptable": [
+   "not so fast as"
+  ],
+  "why": "Not as fast as = less fast than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two with not as … as.",
+  "source": "My {thing} cost 200,000. Yours cost 600,000, {name}.",
+  "hint": "My {thing} is ______ yours, {name}.",
+  "key": "not as expensive as",
+  "acceptable": [
+   "not so expensive as"
+  ],
+  "why": "Not as expensive as = less expensive than. The base adjective goes between as and as.",
+  "slots": {
+   "thing": [
+    "phone",
+    "watch",
+    "jacket",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two with not as … as.",
+  "source": "My {who} is 70. My grandfather is 75, {name}.",
+  "hint": "My {who} is ______ my grandfather, {name}.",
+  "key": "not as old as",
+  "acceptable": [
+   "not so old as"
+  ],
+  "why": "Not as old as = less old than. The base adjective goes between as and as.",
+  "slots": {
+   "who": [
+    "grandmother",
+    "great-aunt",
+    "neighbour",
+    "aunt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two with not as … as.",
+  "source": "It's 25 degrees in {city}. It's 35 in Termez, {name}.",
+  "hint": "{city} is ______ Termez, {name}.",
+  "key": "not as hot as",
+  "acceptable": [
+   "not so hot as"
+  ],
+  "why": "Not as hot as = less hot than. The base adjective goes between as and as.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Fergana",
+    "Namangan"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Compare the two with not as … as.",
+  "source": "The first {test} was hard. The second {test} was easy, {name}.",
+  "hint": "The second {test} was ______ the first, {name}.",
+  "key": "not as difficult as",
+  "acceptable": [
+   "not so difficult as"
+  ],
+  "why": "Not as difficult as = less difficult than. The base adjective goes between as and as.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "quiz",
+    "task"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {device} is not as faster as yours, {name}.",
+  "hint": "My {device} is ______ yours, {name}.",
+  "key": "not as fast as",
+  "acceptable": [
+   "not so fast as"
+  ],
+  "why": "Not as fast as = less fast than. The base adjective goes between as and as.",
+  "slots": {
+   "device": [
+    "phone",
+    "laptop",
+    "computer",
+    "tablet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {place} is not as busy than the bazaar, {name}.",
+  "hint": "The {place} is ______ the bazaar, {name}.",
+  "key": "not as busy as",
+  "acceptable": [
+   "not so busy as"
+  ],
+  "why": "Not as busy as = less busy than. The base adjective goes between as and as.",
+  "slots": {
+   "place": [
+    "shop",
+    "mall",
+    "kiosk",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Our {home} is not big as yours, {name}.",
+  "hint": "Our {home} is ______ yours, {name}.",
+  "key": "not as big as",
+  "acceptable": [
+   "not so big as"
+  ],
+  "why": "Not as big as = less big than. The base adjective goes between as and as.",
+  "slots": {
+   "home": [
+    "flat",
+    "garden",
+    "house",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This {thing} is not as more expensive as that one, {name}.",
+  "hint": "This {thing} is ______ that one, {name}.",
+  "key": "not as expensive as",
+  "acceptable": [
+   "not so expensive as"
+  ],
+  "why": "Not as expensive as = less expensive than. The base adjective goes between as and as.",
+  "slots": {
+   "thing": [
+    "bag",
+    "dress",
+    "watch",
+    "lamp"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {film} was not so good than the book, {name}.",
+  "hint": "The {film} was ______ the book, {name}.",
+  "key": "not as good as",
+  "acceptable": [
+   "not so good as"
+  ],
+  "why": "Not as good as = less good than. The base adjective goes between as and as.",
+  "slots": {
+   "film": [
+    "film",
+    "new film",
+    "cartoon",
+    "TV series"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing your town with a big city. Use not as … as.",
+  "requiredElement": "not as big / busy as",
+  "constraints": [
+   "exactly one sentence",
+   "not as … as",
+   "two places"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two members of your family.",
+  "requiredElement": "not as tall / old as",
+  "constraints": [
+   "exactly one sentence",
+   "not as … as",
+   "two people"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing a book and its film.",
+  "requiredElement": "not as good / interesting as",
+  "constraints": [
+   "exactly one sentence",
+   "not as … as",
+   "book and film"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two ways to travel.",
+  "requiredElement": "not as fast / cheap as",
+  "constraints": [
+   "exactly one sentence",
+   "not as … as",
+   "two kinds of transport"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two seasons where you live.",
+  "requiredElement": "not as hot / cold as",
+  "constraints": [
+   "exactly one sentence",
+   "not as … as",
+   "two seasons"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence comparing two subjects at school.",
+  "requiredElement": "not as difficult / interesting as",
+  "constraints": [
+   "exactly one sentence",
+   "not as … as",
+   "two subjects"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with not as … as and a long adjective.",
+  "requiredElement": "not as expensive / comfortable as",
+  "constraints": [
+   "exactly one sentence",
+   "not as + long adjective + as",
+   "than is not used"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences that mean the same: one with -er than and one with not as … as.",
+  "requiredElement": "comparative ↔ not as … as",
+  "constraints": [
+   "exactly two sentences",
+   "-er / more … than",
+   "not as … as"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your town with Tashkent or another big city. Write three or four sentences with not as … as.",
+  "targetGrammar": "not as … as",
+  "lookFor": [
+   "not as … as",
+   "a comparative with than",
+   "two places"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare two phones, bags or bikes you know. Write three or four sentences.",
+  "targetGrammar": "not as … as",
+  "lookFor": [
+   "not as … as",
+   "at least two adjectives",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare yourself with a brother, sister or friend. Write three or four sentences.",
+  "targetGrammar": "not as tall / old as",
+  "lookFor": [
+   "not as … as",
+   "but",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare a book and a film of the same story. Write three or four sentences.",
+  "targetGrammar": "not as good as",
+  "lookFor": [
+   "not as … as",
+   "better / more interesting",
+   "your opinion"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare this year with last year at your school or job. Write three or four sentences.",
+  "targetGrammar": "not as busy / difficult as",
+  "lookFor": [
+   "not as … as",
+   "than",
+   "three or four sentences"
+  ]
+ }
+]

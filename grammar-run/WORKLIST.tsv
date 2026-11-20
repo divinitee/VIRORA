@@ -187,7 +187,7 @@
 186	C	adj-adv.intensifiers.too-enough	B1	2	todo	too + adjective vs adjective + enough | enough follows an adjective but precedes a noun
 187	C	adj-adv.order-position.adverb-of-manner-position	B1	1	todo	Manner adverb after the object, not between verb and object
 188	C	comparison.comparative.fewer-less	B1	1	live	fewer with countable plurals, less with uncountables
-189	C	comparison.equality.not-as-as	B1	2	todo	not as ... as = less than | Comparative → negative equality transformation
+189	C	comparison.equality.not-as-as	B1	2	live	not as ... as = less than | Comparative → negative equality transformation
 190	C	comparison.modified-comparison.much-comparative	B1	2	live	much + more + adjective (modifier position) | Productive intensified comparative
 191	C	comparison.modified-comparison.slightly-comparative	B1	1	live	slightly + comparative
 192	C	comparison.parallel-comparison.progressive-comparative	B1	1	todo	comparative + and + comparative for gradual change
