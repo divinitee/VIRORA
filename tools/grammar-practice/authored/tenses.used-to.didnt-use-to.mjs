@@ -72,7 +72,7 @@ const CHOOSE = [
 const INSTR = "Complete the sentence with didn't use to and the verb in brackets.";
 // No source prints to, use or didn't (the key would echo them).
 const BUILD = [
-  ["like", "As a child, I ______ (like) {food}. Now I love it with {side}.", { food: ["rice", "fish", "cheese", "soup"], side: ["bread", "salad", "lemon", "herbs"] }],
+  ["like", "As a child, I ______ (like) {food}. Now I love it with {side}.", { food: ["rice", "fish", "cheese", "soup"], side: ["bread", "salad", "tomatoes", "herbs"] }],
   ["have", "My grandparents ______ (have) a phone. They got one last {when} and now they call us every {day}.", { when: WHEN, day: ["day", "evening", "Sunday", "morning"] }],
   ["drive", "My {who} ______ (drive). He learned last {when}.", { who: ["father", "uncle", "older brother", "grandfather"], when: ["year", "summer", "spring", "autumn"] }],
   ["eat", "{name} ______ (eat) meat, but now she eats {food} every week.", { name: NAME_F, food: ["chicken", "beef", "lamb", "kebabs"] }],
@@ -83,7 +83,7 @@ const BUILD = [
   ["wear", "My little brother ______ (wear) a {thing}. Now he wears one every {day}.", { thing: ["watch", "cap", "scarf", "helmet"], day: ["day", "morning", "Sunday", "evening"] }],
   ["watch", "My parents ______ (watch) {show}. Now they never miss it on {day}.", { show: ["football", "the news", "that quiz show", "the weather forecast"], day: ["Saturdays", "Sundays", "Fridays", "weekdays"] }],
   ["play", "{name} ______ (play) chess. Her {who} taught her last {when}.", { name: NAME_F, who: ["grandfather", "uncle", "teacher", "brother"], when: WHEN }],
-  ["know", "We ______ (know) our neighbours in the {place}, but now we visit them every {day}.", { place: ["old building", "village", "new block", "new street"], day: ["Friday", "Sunday", "week", "month"] }],
+  ["know", "We ______ (know) our neighbours in the {place}, but now we visit them every {day}.", { place: ["old building", "village", "new block", "old street"], day: ["Friday", "Sunday", "week", "month"] }],
   ["work", "My {who} ______ (work) at weekends, but now she has a job in a {place} and works on Saturdays.", { who: ["mother", "aunt", "sister", "cousin"], place: ["shop", "café", "bakery", "hotel"] }],
   ["take", "I ______ (take) the {transport}, but now I'm on it every {time}.", { transport: ["bus", "metro", "tram", "minibus"], time: ["morning", "day", "evening", "weekday"] }],
   ["cook", "My father ______ (cook), but now he makes {food} on {day}.", { food: ["plov", "eggs", "soup", "pasta"], day: ["Sundays", "Fridays", "holidays", "weekends"] }],
@@ -116,7 +116,7 @@ const TRANSFORM = [
   [FIX, "We don't use to visit the {place} as children, but now we go every {day}.", "We ______ the {place} as children, but now we go every {day}.", "visit", "As children is the past, so did, not do: didn't use to visit.", { place: ["museum", "library", "zoo", "theatre"], day: ["week", "month", "Sunday", "summer"] }],
   [FIX, "My {who} didn't use cook at home, but now he cooks every {day}.", "My {who} ______ at home, but now he cooks every {day}.", "cook", "Use needs to after it: didn't use to cook.", { who: ["father", "uncle", "grandfather", "brother"], day: ["day", "weekend", "Friday", "evening"] }],
   [FIX, "They didn't use to living in {city}, but they moved there last {when}.", "They ______ in {city}, but they moved there last {when}.", "live", "After use to, write the base form, not -ing: didn't use to live.", { city: ["Tashkent", "Samarkand", "Bukhara", "Fergana"], when: WHEN }],
-  [PAST, "In my old {school}, we didn't have a {room}. We have one now.", "In my old {school}, we ______ a {room}.", "have", whyP("didn't use to have"), { school: ["school", "lyceum", "college"], room: ["gym", "library", "computer room", "canteen"] }],
+  [PAST, "At {school}, we didn't have a {room} then. We have one now.", "At {school}, we ______ a {room}.", "have", whyP("didn't use to have"), { school: ["our school", "my school", "our lyceum", "our college"], room: ["gym", "library", "computer room", "canteen"] }],
   [PAST, "My {who} didn't drive a {car} then. He drives one now.", "My {who} ______ a {car}.", "drive", whyP("didn't use to drive"), { who: ["father", "uncle", "grandfather", "neighbour"], car: ["car", "truck", "bus", "taxi"] }],
   [PAST, "{name} didn't speak much in {class} then. She talks a lot now.", "{name} ______ much in {class}.", "speak", whyP("didn't use to speak"), { name: NAME_F, class: ["class", "lessons", "English lessons", "meetings"] }],
   [PAST, "We didn't eat out on {day} then. Now we often go to a {place}.", "We ______ out on {day}.", "eat", whyP("didn't use to eat"), { day: ["Fridays", "Sundays", "weekdays", "holidays"], place: ["café", "restaurant", "kebab house", "pizza place"] }],
