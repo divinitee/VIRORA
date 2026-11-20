@@ -155,7 +155,7 @@
 154	C	nouns-articles.plurals-agreement.each-every-singular	B1	2	live	each/every + singular noun + singular verb | Productive each/every with singular agreement
 155	C	nouns-articles.plurals-agreement.there-agreement	B1	1	live	Agreement with the first noun in a list after 'there'
 156	C	nouns-articles.quantifiers.both-either-neither	B1	2	live	both (two, positive) vs neither/either/none | Productive use of both/either/neither/all/none with correct agreement
-157	C	questions-negation.wh-questions.question-preposition	B1	2	todo	Preposition stranded at the end of a wh-question | Stranded preposition in a wh-question
+157	C	questions-negation.wh-questions.question-preposition	B1	2	live	Preposition stranded at the end of a wh-question | Stranded preposition in a wh-question
 158	C	questions-negation.negation.no-vs-not	B1	1	todo	no + noun vs not + any
 159	C	questions-negation.indirect-questions.embedded-if-whether	B1	1	todo	if/whether for embedded yes/no questions with statement order
 160	C	questions-negation.indirect-questions.embedded-order	B1	2	todo	Statement order and no 'does' inside an indirect question | Productive indirect question with statement order

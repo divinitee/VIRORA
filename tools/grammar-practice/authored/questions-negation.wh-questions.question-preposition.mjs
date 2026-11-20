@@ -39,10 +39,10 @@ const FRAME = (vp) => `Question word + auxiliary + subject + verb, and the prepo
 // frame rows: ["frame", [stranded, fronted, statement, no-prep], vp, prompt, slots]
 const CHOOSE = [
   ["end", "for", ["to", "at"], "wait for", "Who are you waiting ______, {name}? — My cousin. Her train is {late}.", { name: NAME, late: ["late", "very late", "late again", "an hour late"] }],
-  ["end", "for", ["at", "to"], "look for", "What are you looking ______, {name}? — My {thing}. I can't find {it}.", { name: NAME, thing: ["phone", "passport", "wallet", "key"], it: ["it"] }],
+  ["end", "for", ["at", "to"], "look for", "What are you looking ______, {name}? — My {thing}. I can't find it.", { name: NAME, thing: ["phone", "passport", "wallet", "key"] }],
   ["end", "to", ["at", "for"], "talk to", "Who did you talk ______ at the {event}? — {name}'s mother.", { event: ["party", "wedding", "meeting", "concert"], name: NAME }],
   ["end", "about", ["of", "with"], "be about", "What is this book ______, {name}? — It's a story of {topic}.", { name: NAME, topic: ["two brothers", "a long trip", "a small village", "an old ship"] }],
-  ["end", "from", ["of", "in"], "be from", "Where is your new teacher ______, {name}? — {city}, I think.", { name: NAME, city: CITY }],
+  ["end", "from", ["of", "in"], "come from", "Where does your new teacher come ______, {name}? — {city}, I think.", { name: NAME, city: CITY }],
   ["end", "to", ["at", "for"], "belong to", "Who does this {thing} belong ______? — It's mine, {name}.", { thing: ["bag", "ball", "umbrella", "hat"], name: NAME }],
   ["end", "of", ["from", "about"], "be afraid of", "What are you afraid ______, {name}? — {thing}!", { name: NAME, thing: ["Spiders", "Snakes", "Big dogs", "The dark"] }],
   ["end", "to", ["in", "at"], "go to", "Which school did you go ______, {name}? — School number {n}.", { name: NAME, n: ["5", "12", "21", "40"] }],
@@ -76,7 +76,7 @@ const BUILD = [
   ["for", "look for", "What are you looking ______, {name}? — My glasses. I can't find them.", { name: NAME }],
   ["with", "go with", "Who did you go to the {place} ______, {name}? — My brother.", { place: ["bazaar", "cinema", "park", "museum"], name: NAME }],
   ["about", "be about", "What is the film ______, {name}? — Two {who} and a lost dog.", { name: NAME, who: ["brothers", "friends", "sisters", "boys"] }],
-  ["from", "be from", "Where is your new teacher ______, {name}? — {city}.", { name: NAME, city: CITY }],
+  ["from", "come from", "Where does your new neighbour come ______, {name}? — {city}.", { name: NAME, city: CITY }],
   ["to", "belong to", "Who does this {thing} belong ______, {name}? — My little sister.", { thing: ["bag", "ball", "phone", "hat"], name: NAME }],
   ["of", "be afraid of", "What is your brother afraid ______, {name}? — Dogs and {thing}.", { name: NAME, thing: ["spiders", "snakes", "the dark", "big waves"] }],
   ["for", "wait for", "Who are you waiting ______, {name}? — My cousin. Her bus is {late}.", { name: NAME, late: ["late", "very late", "late again", "an hour late"] }],
