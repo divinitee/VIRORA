@@ -503,15 +503,15 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Before the trip, had you ever ______ anyone from {city}, {name}?",
+  "prompt": "Before this trip, had you ever ______ to {city}, {name}?",
   "options": [
-   "known",
-   "knew",
-   "know",
-   "knowing"
+   "been",
+   "was",
+   "be",
+   "being"
   ],
   "key": 0,
-  "why": "After had never / had ever, use the past participle: known. It was a new experience at that moment in the past.",
+  "why": "After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.",
   "slots": {
    "city": [
     "Khiva",

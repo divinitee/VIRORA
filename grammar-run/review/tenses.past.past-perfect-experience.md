@@ -68,9 +68,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: seeing · ✔ seen · saw · see  
    why: After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.
 
-17. Before the trip, had you ever ______ anyone from **Termez**, **Timur**?  
-   options: ✔ known · knew · know · knowing  
-   why: After had never / had ever, use the past participle: known. It was a new experience at that moment in the past.
+17. Before this trip, had you ever ______ to **Termez**, **Timur**?  
+   options: ✔ been · was · be · being  
+   why: After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.
 
 18. It was the first time I had ______ a **finger** in my life, **Aziz**.  
    options: broke · break · breaking · ✔ broken  
