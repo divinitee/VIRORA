@@ -52,7 +52,7 @@ const CHOOSE = [
   [O2, W_TWO, "One of my parents is a {job}; ______ is a {job2}.", { job: JOB, job2: ["nurse", "cook", "builder", "farmer"] }],
   [O2, W_TWO, "There are two cafés near the {place}. One is cheap, and ______ is very expensive.", { place: ["station", "school", "hotel", "museum"] }],
   [OR, W_REST, "Where are ______, {name}? Only you are at the {place}.", { name: NAME, place: PLACE }],
-  [OR, W_REST, "There were five {fruit}. I ate one, and my brother ate ______, {name}.", { fruit: ["apples", "peaches", "pears", "bananas"], name: NAME }],
+  [OR, W_REST, "There were five {fruit}. I ate one, and my brother ate all ______, {name}.", { fruit: ["apples", "peaches", "pears", "bananas"], name: NAME }],
   [OR, W_REST, "I kept one {thing} and gave all ______ to my sister, {name}.", { thing: ["photo", "book", "toy", "card"], name: NAME }],
   [OR, W_REST, "I have six {things}. This one is new, but all ______ are old, {name}.", { things: ["bags", "shirts", "pens", "cups"], name: NAME }],
   [OR, W_REST, "Ten students took the {test}. Three failed, but all ______ passed, {name}.", { test: ["test", "exam", "quiz", "driving test"], name: NAME }],

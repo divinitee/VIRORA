@@ -74,7 +74,7 @@ const CHOOSE = [
 });
 
 /* ---------------- build: 20 gap_fill ---------------- */
-const INSTR_B = "Write the right pronoun.";
+const INSTR_B = "Write the right pronoun: myself / yourself / himself … or me / you / us … The word in brackets says who it is.";
 const BUILD = [
   ["myself", W_SELF, "I cut ______ while I was cooking {food} {when}.", { food: ["plov", "soup", "dinner", "fish"], when: PAST }],
   ["yourself", W_SELF, "Be careful, {g}! Don't burn ______ on the {pan}.", { g: GIRL, pan: PAN }],
@@ -91,11 +91,11 @@ const BUILD = [
   ["myself", W_SELF, "I sometimes talk to ______ when I'm {state}, {g}.", { state: ["nervous", "alone", "cooking", "bored"], g: GIRL }],
   ["ourselves", W_SELF, "We bought ______ new {things} for the trip to {city}.", { things: ["bags", "shoes", "hats", "jackets"], city: CITY }],
   ["yourself", W_SELF, "Help ______ to some {food}, {g}.", { food: FOOD, g: GIRL }],
-  ["me", W_OBJ, "My dad drove ______ to the {place} {when}.", { place: ["station", "airport", "hospital", "bazaar"], when: PAST }],
-  ["me", W_OBJ, "Can you show ______ the way to the {place}, {g}?", { place: ["station", "museum", "bank", "library"], g: GIRL }],
-  ["us", W_OBJ, "Our neighbours invited ______ to their {event} {when}.", { event: EVENT, when: PAST }],
-  ["you", W_OBJ, "I'll send ______ the photos {when}, {g}.", { when: ["tonight", "tomorrow", "later", "on Monday"], g: GIRL }],
-  ["me", W_OBJ, "The {who} gave ______ a good mark {when}.", { who: ["teacher", "tutor", "professor", "coach"], when: PAST }],
+  ["me", W_OBJ, "My dad drove ______ (I) to the {place} {when}.", { place: ["station", "airport", "hospital", "bazaar"], when: PAST }],
+  ["me", W_OBJ, "Can you show ______ (I) the way to the {place}, {g}?", { place: ["station", "museum", "bank", "library"], g: GIRL }],
+  ["us", W_OBJ, "Our neighbours invited ______ (we) to their {event} {when}.", { event: EVENT, when: PAST }],
+  ["you", W_OBJ, "I'll send ______ (you) the photos {when}, {g}.", { when: ["tonight", "tomorrow", "later", "on Monday"], g: GIRL }],
+  ["me", W_OBJ, "The {who} gave ______ (I) a good mark {when}.", { who: ["teacher", "tutor", "professor", "coach"], when: PAST }],
 ].map(([key, why, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR_B, source, key, why, slots: pick(source, slots) }));
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */

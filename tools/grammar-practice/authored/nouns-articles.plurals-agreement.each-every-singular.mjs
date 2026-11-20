@@ -56,7 +56,7 @@ const CHOOSE = [
   ["n", ["day", "days"], "Every ______ of the week is busy for {name}.", { name: NAME, x: [] }],
   ["v", ["is", "are", "be", "being"], "Each room in the {place} ______ clean and quiet, {name}.", { place: ["hotel", "hostel", "hospital", "guest house"], name: NAME }],
   ["n", ["question", "questions"], "Each ______ in the {test} has four answers, {name}.", { test: ["exam", "quiz", "test", "workbook"], name: NAME }],
-  ["v", ["costs", "cost", "costing", "are cost"], "Each of these {things} ______ {price} soum.", { things: ["bags", "shirts", "books", "cups"], price: ["fifty thousand", "twenty thousand", "ten thousand", "thirty thousand"] }],
+  ["v", ["costs", "cost", "costing", "are cost"], "Each of these {things} ______ {price} soum now.", { things: ["bags", "shirts", "books", "cups"], price: ["fifty thousand", "twenty thousand", "ten thousand", "thirty thousand"] }],
   ["n", ["park", "parks"], "Every ______ in this city has a {thing}, {name}.", { thing: ["café", "fountain", "playground", "small lake"], name: NAME }],
 ].map(([kind, o, prompt, slots], i) => {
   const base = kind === "v" ? o : [o[0], o[1], `of ${o[1]}`, `the ${o[1]}`];
