@@ -24,7 +24,7 @@ export const PERSONAS = {
         'Calm, soft, a little sad and upset: "You know what? I don\'t like your tone. I don\'t like your attitude." Then one gentle chance: "Let\'s try again, nicely."',
         'Calm, soft, no anger: "Since you keep cursing at me, I\'m going to end the call and we can call it a night. You can talk to me tomorrow, when you\'re finally back to your senses." END THE LESSON NOW (end_lesson=true).',
       ],
-      comeback: 'Soft, no grudge: "Hi. Feeling better today? Good. Fresh start." Then the lesson as normal.',
+      comeback: 'Soft, no grudge: "Hi. Feeling better now? Good. Fresh start." Then the lesson as normal.',
     },
   },
   vira_nightingale: {
