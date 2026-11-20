@@ -12,7 +12,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "nouns-articles", branch: "possession", topic: "possessive-s", level: "A2", pv: "2.5" };
+const BASE = { domain: "nouns-articles", branch: "possession", topic: "possessive-s", level: "A1", pv: "2.5" };
 const NAME = ["Aziz", "Olga", "Timur", "Malika"];
 const CITY = ["Samarkand", "Bukhara", "Fergana", "Termez"];
 const DAY = ["Friday", "Saturday", "Sunday", "Monday"];

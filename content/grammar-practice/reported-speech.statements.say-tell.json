@@ -1,0 +1,1804 @@
+[
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{m} ______ that the {event} had been cancelled.",
+  "options": [
+   "said",
+   "told",
+   "said me",
+   "told to"
+  ],
+  "key": 0,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "match",
+    "concert",
+    "meeting",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{f} ______ she was tired after the {trip}.",
+  "options": [
+   "told",
+   "said me",
+   "told to",
+   "said"
+  ],
+  "key": 3,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "trip": [
+    "flight",
+    "walk",
+    "match",
+    "exam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} ______ that the {shop} was closed.",
+  "options": [
+   "said me",
+   "told to",
+   "said",
+   "told"
+  ],
+  "key": 2,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "who": [
+    "man",
+    "guard",
+    "woman",
+    "driver"
+   ],
+   "shop": [
+    "bank",
+    "museum",
+    "pharmacy",
+    "post office"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ it would rain {when}.",
+  "options": [
+   "told to",
+   "said",
+   "told",
+   "said me"
+  ],
+  "key": 1,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "who": [
+    "dad",
+    "mum",
+    "uncle",
+    "grandma"
+   ],
+   "when": [
+    "that night",
+    "at the weekend",
+    "the next day",
+    "in the afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{m} ______, 'I'm hungry,' and opened the {thing}.",
+  "options": [
+   "said",
+   "told",
+   "said me",
+   "told to"
+  ],
+  "key": 0,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "fridge",
+    "bag",
+    "box",
+    "cupboard"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone ______ the {food} was delicious, {m}.",
+  "options": [
+   "told",
+   "said me",
+   "told to",
+   "said"
+  ],
+  "key": 3,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "food": [
+    "plov",
+    "cake",
+    "soup",
+    "bread"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The teacher ______ that we had a test on {day}, {f}.",
+  "options": [
+   "said me",
+   "told to",
+   "said",
+   "told"
+  ],
+  "key": 2,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Thursday"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{f} ______ hello and sat down next to me on the {place}.",
+  "options": [
+   "told to",
+   "said",
+   "told",
+   "said me"
+  ],
+  "key": 1,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "place": [
+    "bus",
+    "bench",
+    "plane",
+    "train"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What did the {who} ______ about the {thing}?",
+  "options": [
+   "say",
+   "tell",
+   "say me",
+   "tell to"
+  ],
+  "key": 0,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "who": [
+    "doctor",
+    "teacher",
+    "boss",
+    "mechanic"
+   ],
+   "thing": [
+    "test",
+    "results",
+    "car",
+    "plan"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{m} ______ goodbye and left the {place}.",
+  "options": [
+   "told",
+   "said me",
+   "told to",
+   "said"
+  ],
+  "key": 3,
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "place": [
+    "party",
+    "office",
+    "room",
+    "café"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{f} ______ me that she was moving to {city}.",
+  "options": [
+   "told to",
+   "talked",
+   "told",
+   "said"
+  ],
+  "key": 2,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Seoul",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{m} ______ us a funny story about his {who}.",
+  "options": [
+   "talked",
+   "told",
+   "said",
+   "told to"
+  ],
+  "key": 1,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "grandfather",
+    "dog",
+    "teacher",
+    "boss"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The doctor ______ my {who} that he was fine, {f}.",
+  "options": [
+   "told",
+   "said",
+   "told to",
+   "talked"
+  ],
+  "key": 0,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "dad",
+    "brother",
+    "uncle",
+    "grandpa"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ you about the {event}, {m}?",
+  "options": [
+   "said",
+   "told to",
+   "talked",
+   "told"
+  ],
+  "key": 3,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "test",
+    "trip"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{f} ______ her {who} the truth.",
+  "options": [
+   "told to",
+   "talked",
+   "told",
+   "said"
+  ],
+  "key": 2,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "who": [
+    "mother",
+    "boss",
+    "teacher",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ me a secret {when}.",
+  "options": [
+   "talked",
+   "told",
+   "said",
+   "told to"
+  ],
+  "key": 1,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "sister",
+    "friend",
+    "cousin",
+    "brother"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "at school",
+    "at the party"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} ______ the children a {story} before bed.",
+  "options": [
+   "told",
+   "said",
+   "told to",
+   "talked"
+  ],
+  "key": 0,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "teacher",
+    "grandmother",
+    "nanny",
+    "mother"
+   ],
+   "story": [
+    "story",
+    "fairy tale",
+    "joke",
+    "legend"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{m} ______ me he would be late for the {event}.",
+  "options": [
+   "said",
+   "told to",
+   "talked",
+   "told"
+  ],
+  "key": 3,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "meeting",
+    "lesson",
+    "match",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Did you ______ {who} about the party, {f}?",
+  "options": [
+   "tell to",
+   "talk",
+   "tell",
+   "say"
+  ],
+  "key": 2,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "Timur",
+    "your mum",
+    "the teacher",
+    "everyone"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ him the way to the {place}, {m}.",
+  "options": [
+   "talked",
+   "told",
+   "said",
+   "told to"
+  ],
+  "key": 1,
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "bazaar",
+    "hotel"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "{m} ______ that he was busy on {day}.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "{f} ______ the {thing} was too expensive.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "dress",
+    "phone",
+    "hotel",
+    "car"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "The {who} ______ that the {bus} was late.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "who": [
+    "driver",
+    "guard",
+    "woman",
+    "man"
+   ],
+   "bus": [
+    "train",
+    "bus",
+    "plane",
+    "ferry"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "My {who} ______ the {plan} was a good idea.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "who": [
+    "dad",
+    "mum",
+    "uncle",
+    "grandma"
+   ],
+   "plan": [
+    "trip",
+    "party",
+    "plan",
+    "game"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "Everyone ______ the {event} was great, {m}.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "event": [
+    "wedding",
+    "concert",
+    "party",
+    "match"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "{m} ______ sorry and helped me with the {thing}.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "bags",
+    "boxes",
+    "chairs",
+    "books"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "{f} ______ she liked {food}.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "food": [
+    "plov",
+    "fish",
+    "soup",
+    "cake"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "The {who} ______, 'Please sit down, {m}.'",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "who": [
+    "teacher",
+    "doctor",
+    "manager",
+    "waiter"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "What did {f} ______ about the {thing}?",
+  "key": "say",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "test",
+    "film",
+    "trip",
+    "food"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "Nobody ______ anything about the {event}, {m}.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "event": [
+    "party",
+    "test",
+    "meeting",
+    "change"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "{f} ______ me she was moving to {city}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Seoul",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "{m} ______ us about his trip to {city}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "My {who} ______ me a funny joke at the {event}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "sister",
+    "friend",
+    "cousin",
+    "brother"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "dinner",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "Who ______ you about the {event}, {m}?",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "test",
+    "trip"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "{f} ______ her {who} the truth.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "who": [
+    "mother",
+    "boss",
+    "teacher",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "The {who} ______ the class a story about the {topic}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "teacher",
+    "guide",
+    "writer",
+    "visitor"
+   ],
+   "topic": [
+    "sea",
+    "mountains",
+    "old city",
+    "desert"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "Did you ______ {who} the news, {f}?",
+  "key": "tell",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "Timur",
+    "your mum",
+    "the teacher",
+    "everyone"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "{m} ______ me he would be late for the {event}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "meeting",
+    "lesson",
+    "match",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "I ______ the {who} my name and address, {f}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "receptionist",
+    "nurse",
+    "teacher",
+    "manager"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write said or told (or say / tell).",
+  "source": "Please ______ me the time of the {event}, {m}.",
+  "key": "tell",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "event": [
+    "match",
+    "film",
+    "concert",
+    "meeting"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{f} said me that she was tired after the {trip}.",
+  "hint": "{f} ______ me that she was tired after the {trip}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "trip": [
+    "flight",
+    "walk",
+    "match",
+    "exam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{m} told that he was busy on {day}.",
+  "hint": "{m} ______ that he was busy on {day}.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {who} said us a story about the {topic}.",
+  "hint": "The {who} ______ us a story about the {topic}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "teacher",
+    "guide",
+    "writer",
+    "visitor"
+   ],
+   "topic": [
+    "sea",
+    "mountains",
+    "old city",
+    "desert"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{f} told to me the truth about the {thing}.",
+  "hint": "{f} ______ me the truth about the {thing}.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "party",
+    "money",
+    "test",
+    "accident"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {who} told it was going to rain {when}.",
+  "hint": "My {who} ______ it was going to rain {when}.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "who": [
+    "dad",
+    "mum",
+    "uncle",
+    "grandma"
+   ],
+   "when": [
+    "that night",
+    "at the weekend",
+    "the next day",
+    "in the afternoon"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with told.",
+  "source": "{m} said to me that he was hungry after the {event}.",
+  "hint": "{m} ______ that he was hungry after the {event}.",
+  "key": "told me",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "match",
+    "lesson",
+    "walk",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with told.",
+  "source": "{f} said to us that the {event} was at six.",
+  "hint": "{f} ______ that the {event} was at six.",
+  "key": "told us",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "event": [
+    "concert",
+    "meeting",
+    "match",
+    "party"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with told.",
+  "source": "The {who} said to the students that the test was easy.",
+  "hint": "The {who} ______ the students that the test was easy.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "teacher",
+    "director",
+    "tutor",
+    "assistant"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with told.",
+  "source": "{m} said to his {who} that he was sorry.",
+  "hint": "{m} ______ his {who} that he was sorry.",
+  "key": "told",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "mother",
+    "boss",
+    "teacher",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with told.",
+  "source": "My {who} said to me, 'Dinner is ready, {m}.'",
+  "hint": "My {who} ______ that dinner was ready.",
+  "key": "told me",
+  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "slots": {
+   "who": [
+    "mother",
+    "father",
+    "aunt",
+    "grandmother"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with said.",
+  "source": "{m} told me that he was tired after the {event}.",
+  "hint": "{m} ______ that he was tired after the {event}.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "match",
+    "lesson",
+    "walk",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with said.",
+  "source": "{f} told us that the {place} was closed.",
+  "hint": "{f} ______ that the {place} was closed.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "place": [
+    "bank",
+    "museum",
+    "pharmacy",
+    "post office"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with said.",
+  "source": "The {who} told me the {thing} was ready.",
+  "hint": "The {who} ______ the {thing} was ready.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "who": [
+    "waiter",
+    "mechanic",
+    "tailor",
+    "baker"
+   ],
+   "thing": [
+    "table",
+    "car",
+    "suit",
+    "bread"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with said.",
+  "source": "{m} told everyone at the {event} that he was getting married.",
+  "hint": "At the {event}, {m} ______ that he was getting married.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "party",
+    "dinner",
+    "meeting",
+    "wedding"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with said.",
+  "source": "{f} told her {who} that she was sorry.",
+  "hint": "{f} ______ that she was sorry.",
+  "key": "said",
+  "why": "No person after the verb: say (said that …, said hello).",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "who": [
+    "mother",
+    "boss",
+    "teacher",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with said that.",
+  "requiredElement": "… said that …",
+  "constraints": [
+   "exactly one sentence",
+   "said",
+   "no person after said"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with told me.",
+  "requiredElement": "… told me (that) …",
+  "constraints": [
+   "exactly one sentence",
+   "told + person",
+   "past"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a story someone told you.",
+  "requiredElement": "… told me a story about …",
+  "constraints": [
+   "exactly one sentence",
+   "told",
+   "a person after told"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about the same news: one with said, one with told.",
+  "requiredElement": "said vs told",
+  "constraints": [
+   "exactly two sentences",
+   "said that",
+   "told + person"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question with tell.",
+  "requiredElement": "Did you tell …?",
+  "constraints": [
+   "exactly one question",
+   "tell + person",
+   "a question mark"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with said hello or said goodbye.",
+  "requiredElement": "said hello / goodbye",
+  "constraints": [
+   "exactly one sentence",
+   "said",
+   "hello or goodbye"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with told the truth or told a lie.",
+  "requiredElement": "told the truth / a lie",
+  "constraints": [
+   "exactly one sentence",
+   "told",
+   "the truth / a lie"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what a doctor or teacher said.",
+  "requiredElement": "… said (that) …",
+  "constraints": [
+   "exactly one sentence",
+   "said",
+   "reported speech"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report a conversation with a friend. Write three or four sentences with said and told.",
+  "targetGrammar": "said vs told",
+  "lookFor": [
+   "said",
+   "told + person",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What did your teacher say and tell your class this week? Write three or four sentences.",
+  "targetGrammar": "say / tell in reported speech",
+  "lookFor": [
+   "said",
+   "told us",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report the news a family member told you. Write three or four sentences.",
+  "targetGrammar": "told me / said",
+  "lookFor": [
+   "told me",
+   "said",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a time someone told you a secret.",
+  "targetGrammar": "told + person",
+  "lookFor": [
+   "told",
+   "said",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A tourist asked you for help. Report what he said and what you told him. Write three or four sentences.",
+  "targetGrammar": "said / told",
+  "lookFor": [
+   "he said",
+   "I told him",
+   "three or four sentences"
+  ]
+ }
+]

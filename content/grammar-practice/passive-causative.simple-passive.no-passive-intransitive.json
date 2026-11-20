@@ -1,0 +1,1798 @@
+[
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The accident ______ at six o'clock near the {place}, {name}.",
+  "options": [
+   "happened",
+   "was happened",
+   "was happen",
+   "happen"
+  ],
+  "key": 0,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "place": [
+    "bridge",
+    "school",
+    "bazaar",
+    "station"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {bus} ______ ten minutes late, {name}.",
+  "options": [
+   "was arrived",
+   "was arrive",
+   "arrive",
+   "arrived"
+  ],
+  "key": 3,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "plane",
+    "taxi"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our old {pet} ______ last winter, {name}.",
+  "options": [
+   "was die",
+   "die",
+   "died",
+   "was died"
+  ],
+  "key": 2,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "horse"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The vase ______ off the {furn} and broke, {name}.",
+  "options": [
+   "fall",
+   "fell",
+   "was fell",
+   "was fall"
+  ],
+  "key": 1,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "furn": [
+    "table",
+    "shelf",
+    "chair",
+    "window"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} ______ from my desk {when}, {name}.",
+  "options": [
+   "disappeared",
+   "was disappeared",
+   "was disappear",
+   "disappear"
+  ],
+  "key": 0,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "thing": [
+    "pen",
+    "phone",
+    "notebook",
+    "charger"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "this morning"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A lot of guests ______ to the {event}, {name}.",
+  "options": [
+   "was came",
+   "was come",
+   "come",
+   "came"
+  ],
+  "key": 3,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The baby ______ for ten hours {when}, {name}.",
+  "options": [
+   "was sleep",
+   "sleep",
+   "slept",
+   "was slept"
+  ],
+  "key": 2,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "when": [
+    "last night",
+    "on Friday",
+    "yesterday",
+    "at Grandma's"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The lights ______ out during the {storm}, {name}.",
+  "options": [
+   "go",
+   "went",
+   "was went",
+   "was go"
+  ],
+  "key": 1,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "storm": [
+    "storm",
+    "film",
+    "match",
+    "concert"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ at a small hotel in {city}, {name}.",
+  "options": [
+   "stayed",
+   "was stayed",
+   "was stay",
+   "stay"
+  ],
+  "key": 0,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A rainbow ______ over the {place} after the rain, {name}.",
+  "options": [
+   "was appeared",
+   "was appear",
+   "appear",
+   "appeared"
+  ],
+  "key": 3,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "place": [
+    "mountains",
+    "lake",
+    "city",
+    "village"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone ______ at his joke at the {event}, {name}.",
+  "options": [
+   "was laugh",
+   "laugh",
+   "laughed",
+   "was laughed"
+  ],
+  "key": 2,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "dinner",
+    "meeting"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ for an hour at the {place}, {name}.",
+  "options": [
+   "wait",
+   "waited",
+   "was waited",
+   "was wait"
+  ],
+  "key": 1,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "place": [
+    "airport",
+    "bus stop",
+    "bank",
+    "hospital"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The rain ______ at {time}, {name}.",
+  "options": [
+   "stopped",
+   "was stopped",
+   "was stop",
+   "stop"
+  ],
+  "key": 0,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "time": [
+    "six",
+    "noon",
+    "midnight",
+    "five o'clock"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The same problem ______ again {when}, {name}.",
+  "options": [
+   "was occurred",
+   "was occur",
+   "occur",
+   "occurred"
+  ],
+  "key": 3,
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last week",
+    "on Monday",
+    "this morning"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This bridge ______ in {year}, {name}.",
+  "options": [
+   "was build",
+   "build",
+   "was built",
+   "built"
+  ],
+  "key": 2,
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "year": [
+    "1990",
+    "2005",
+    "1975",
+    "2012"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {thing} ______ at the station, {name}.",
+  "options": [
+   "steal",
+   "was stolen",
+   "stole",
+   "was steal"
+  ],
+  "key": 1,
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "thing": [
+    "bag",
+    "phone",
+    "wallet",
+    "bike"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "All the {who} ______ to the wedding, {name}.",
+  "options": [
+   "were invited",
+   "invited",
+   "were invite",
+   "invite"
+  ],
+  "key": 0,
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "who": [
+    "neighbours",
+    "cousins",
+    "teachers",
+    "classmates"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {event} ______ because of the rain, {name}.",
+  "options": [
+   "cancelled",
+   "was cancel",
+   "cancel",
+   "was cancelled"
+  ],
+  "key": 3,
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "event": [
+    "match",
+    "concert",
+    "picnic",
+    "festival"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Two people ______ to hospital after the {accident}, {name}.",
+  "options": [
+   "were take",
+   "take",
+   "were taken",
+   "took"
+  ],
+  "key": 2,
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "accident": [
+    "accident",
+    "crash",
+    "fire",
+    "storm"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The lost {pet} ______ in the park, {name}.",
+  "options": [
+   "find",
+   "was found",
+   "found",
+   "was find"
+  ],
+  "key": 1,
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "The accident ______ (happen) on the {road}, {name}.",
+  "key": "happened",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "road": [
+    "motorway",
+    "ring road",
+    "main road",
+    "bridge"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "Our {bus} ______ (arrive) at nine, {name}.",
+  "key": "arrived",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "plane",
+    "taxi"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "The old {tree} in our yard ______ (die) last summer, {name}.",
+  "key": "died",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "tree": [
+    "tree",
+    "apple tree",
+    "rose bush",
+    "vine"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "Lola ______ (fall) off her {bike} {when}.",
+  "key": "fell",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "bike": [
+    "bike",
+    "horse",
+    "chair",
+    "scooter"
+   ],
+   "when": [
+    "yesterday",
+    "last week",
+    "on Sunday",
+    "this morning"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "The {pet} ______ (disappear) for three days, {name}.",
+  "key": "disappeared",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "Twenty people ______ (come) to the {event}, {name}.",
+  "key": "came",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "meeting"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "I ______ (sleep) badly in the {place}, {name}.",
+  "key": "slept",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "place": [
+    "hotel",
+    "tent",
+    "train",
+    "car"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "Prices ______ (go) up again {when}, {name}.",
+  "key": "went",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "when": [
+    "last month",
+    "this year",
+    "in May",
+    "last week"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "They ______ (stay) with their {who} in {city}.",
+  "key": "stayed",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "who": [
+    "grandparents",
+    "cousins",
+    "aunt",
+    "friends"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "A strange man ______ (appear) at the {place}, {name}.",
+  "key": "appeared",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "place": [
+    "door",
+    "window",
+    "gate",
+    "party"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "We ______ (wait) for two hours at the {place}, {name}.",
+  "key": "waited",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "place": [
+    "airport",
+    "bus stop",
+    "bank",
+    "hospital"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "The mistake ______ (occur) in the {thing} again, {name}.",
+  "key": "occurred",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "thing": [
+    "report",
+    "test",
+    "email",
+    "list"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "It ______ (rain) all day in {city}, {name}.",
+  "key": "rained",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "city": [
+    "London",
+    "Moscow",
+    "Tashkent",
+    "Fergana"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "The music ______ (stop) at {time}, {name}.",
+  "key": "stopped",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "time": [
+    "midnight",
+    "eleven",
+    "ten o'clock",
+    "two"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "This {building} ______ (build) in {year}.",
+  "key": "was built",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "building": [
+    "theatre",
+    "bridge",
+    "school",
+    "hotel"
+   ],
+   "year": [
+    "1990",
+    "2005",
+    "1975",
+    "2012"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "My {thing} ______ (steal) on the bus, {name}.",
+  "key": "was stolen",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "thing": [
+    "bag",
+    "phone",
+    "wallet",
+    "bike"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "All my {who} ______ (invite) to the party, {name}.",
+  "key": "were invited",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "who": [
+    "neighbours",
+    "cousins",
+    "teachers",
+    "classmates"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "The injured man ______ (take) to hospital after the {accident}, {name}.",
+  "key": "was taken",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "accident": [
+    "accident",
+    "crash",
+    "fire",
+    "storm"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "The lost {pet} ______ (find) in the park, {name}.",
+  "key": "was found",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
+  "source": "This {food} ______ (make) by my grandmother, {name}.",
+  "key": "was made",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "food": [
+    "cake",
+    "plov",
+    "bread",
+    "soup"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The accident was happened at six, {name}.",
+  "hint": "The accident ______ at six, {name}.",
+  "key": "happened",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {bus} was arrived late, {name}.",
+  "hint": "The {bus} ______ late, {name}.",
+  "key": "arrived",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "plane",
+    "taxi"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Our old {pet} was died last year, {name}.",
+  "hint": "Our old {pet} ______ last year, {name}.",
+  "key": "died",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "horse"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The vase was fallen off the {furn}, {name}.",
+  "hint": "The vase ______ off the {furn}, {name}.",
+  "key": "fell",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "furn": [
+    "table",
+    "shelf",
+    "chair",
+    "window"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {thing} was disappeared from my bag, {name}.",
+  "hint": "My {thing} ______ from my bag, {name}.",
+  "key": "disappeared",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "thing": [
+    "pen",
+    "phone",
+    "key",
+    "ticket"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "Someone stole my {thing} at the bazaar, {name}.",
+  "hint": "My {thing} ______ at the bazaar, {name}.",
+  "key": "was stolen",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "thing": [
+    "bag",
+    "phone",
+    "wallet",
+    "bike"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "They built this {building} in {year}.",
+  "hint": "This {building} ______ in {year}.",
+  "key": "was built",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "building": [
+    "theatre",
+    "bridge",
+    "school",
+    "hotel"
+   ],
+   "year": [
+    "1990",
+    "2005",
+    "1975",
+    "2012"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "Someone found the lost {pet} in the park, {name}.",
+  "hint": "The lost {pet} ______ in the park, {name}.",
+  "key": "was found",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "They invited all the {who} to the wedding, {name}.",
+  "hint": "All the {who} ______ to the wedding, {name}.",
+  "key": "were invited",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "who": [
+    "neighbours",
+    "cousins",
+    "teachers",
+    "classmates"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the passive. Start with the words given.",
+  "source": "Someone opened the {thing} at night, {name}.",
+  "hint": "The {thing} ______ at night, {name}.",
+  "key": "was opened",
+  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "slots": {
+   "thing": [
+    "door",
+    "window",
+    "gate",
+    "safe"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the past simple.",
+  "source": "The {bus} arrives at nine, {name}.",
+  "hint": "Yesterday the {bus} ______ at nine, {name}.",
+  "key": "arrived",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "plane",
+    "taxi"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the past simple.",
+  "source": "The guests come at six, {name}.",
+  "hint": "On Friday the guests ______ at six, {name}.",
+  "key": "came",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the past simple.",
+  "source": "The baby sleeps well in the {room}, {name}.",
+  "hint": "Last night the baby ______ well in the {room}, {name}.",
+  "key": "slept",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "room": [
+    "bedroom",
+    "car",
+    "hotel",
+    "garden"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the past simple.",
+  "source": "Accidents often happen on this {road}, {name}.",
+  "hint": "Last week an accident ______ on this {road}, {name}.",
+  "key": "happened",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "road": [
+    "road",
+    "bridge",
+    "corner",
+    "motorway"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite in the past simple.",
+  "source": "Many tourists stay in this hotel in {city}.",
+  "hint": "Last year many tourists ______ in this hotel in {city}.",
+  "key": "stayed",
+  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ]
+  }
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about an accident you saw or heard about. Use happen.",
+  "requiredElement": "… happened …",
+  "constraints": [
+   "exactly one sentence",
+   "happened (no was)",
+   "past simple"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a late bus or plane. Use arrive.",
+  "requiredElement": "… arrived late",
+  "constraints": [
+   "exactly one sentence",
+   "arrived (no was)",
+   "past simple"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with fell or disappeared.",
+  "requiredElement": "fell / disappeared",
+  "constraints": [
+   "exactly one sentence",
+   "active past simple",
+   "no was"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one passive sentence about something that was stolen or found.",
+  "requiredElement": "was stolen / was found",
+  "constraints": [
+   "exactly one sentence",
+   "was + past participle",
+   "past"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences about a storm: one with happened, one with a passive (was damaged…).",
+  "requiredElement": "intransitive vs passive",
+  "constraints": [
+   "exactly two sentences",
+   "happened",
+   "was + past participle"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about guests who came to a party.",
+  "requiredElement": "… came to …",
+  "constraints": [
+   "exactly one sentence",
+   "came (no were)",
+   "past simple"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a building and when it was built.",
+  "requiredElement": "… was built in …",
+  "constraints": [
+   "exactly one sentence",
+   "was built",
+   "a year"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with stayed or waited.",
+  "requiredElement": "stayed / waited",
+  "constraints": [
+   "exactly one sentence",
+   "active past simple",
+   "a place"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell the story of a bad day at an airport. Write three or four sentences with arrived, waited and happened.",
+  "targetGrammar": "intransitive verbs in the active",
+  "lookFor": [
+   "arrived",
+   "waited",
+   "happened"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a storm in your town. What happened, and what was damaged? Write three or four sentences.",
+  "targetGrammar": "active intransitive + passive",
+  "lookFor": [
+   "happened / fell",
+   "was / were + past participle",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short news story (three or four sentences) about a lost dog that was found.",
+  "targetGrammar": "disappeared + was found",
+  "lookFor": [
+   "disappeared",
+   "was found",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a wedding you went to. Who came, and what was served? Write three or four sentences.",
+  "targetGrammar": "came + was served",
+  "lookFor": [
+   "came",
+   "passive",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a trip: where you stayed, when you arrived, and what happened.",
+  "targetGrammar": "stayed / arrived / happened",
+  "lookFor": [
+   "stayed",
+   "arrived",
+   "happened"
+  ]
+ }
+]

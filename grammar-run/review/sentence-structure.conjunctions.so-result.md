@@ -1,4 +1,4 @@
-# sentence-structure.conjunctions.so-result — review sample (A1)
+# sentence-structure.conjunctions.so-result — review sample (A2)
 
 Each item shows one random filler combination (in bold). Mark anything a teacher wouldn't accept.
 

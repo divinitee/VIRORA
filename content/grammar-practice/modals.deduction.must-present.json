@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The lights are on and his {car} is outside. He ______ be at home, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "must to"
+  ],
+  "key": 0,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "car": [
+    "car",
+    "bike",
+    "scooter",
+    "van"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She has worked for {n} hours today. She ______ be tired, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must to",
+   "must"
+  ],
+  "key": 3,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "n": [
+    "twelve",
+    "ten",
+    "eleven",
+    "fourteen"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You've had no food since {time}. You ______ be hungry, {name}.",
+  "options": [
+   "mustn't",
+   "must to",
+   "must",
+   "can't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "time": [
+    "breakfast",
+    "last night",
+    "seven o'clock",
+    "yesterday"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone is wearing coats and {item}. It ______ be cold outside, {name}.",
+  "options": [
+   "must to",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 1,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "item": [
+    "hats",
+    "scarves",
+    "gloves",
+    "boots"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He speaks {lang} with his grandmother every day. He ______ know the language well, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "must to"
+  ],
+  "key": 0,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "lang": [
+    "Uzbek",
+    "Russian",
+    "Kazakh",
+    "Tajik"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They have three cars and a big house in {city}. They ______ be rich, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must to",
+   "must"
+  ],
+  "key": 3,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Moscow",
+    "Dubai"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} is closed and all the lights are off. It ______ be a holiday today, {name}.",
+  "options": [
+   "mustn't",
+   "must to",
+   "must",
+   "can't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "shop": [
+    "bank",
+    "post office",
+    "bazaar",
+    "library"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Madina is at the {place} every day. She ______ love sport, {name}.",
+  "options": [
+   "must to",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 1,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "gym",
+    "stadium",
+    "pool",
+    "sports club"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's always a long queue outside that {place}. The food ______ be good, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "must to"
+  ],
+  "key": 0,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "café",
+    "restaurant",
+    "bakery",
+    "canteen"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur is smiling at his phone. He ______ be talking to his {who}, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must to",
+   "must"
+  ],
+  "key": 3,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "who": [
+    "cousin",
+    "best friend",
+    "brother",
+    "grandmother"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You've just walked {dist}. Your legs ______ hurt, {name}.",
+  "options": [
+   "mustn't",
+   "must to",
+   "must",
+   "can't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "dist": [
+    "twenty kilometres",
+    "all day",
+    "for six hours",
+    "up the mountain"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The baby is crying and it's {time}. She ______ be hungry, {name}.",
+  "options": [
+   "must to",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 1,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "time": [
+    "lunchtime",
+    "six o'clock",
+    "feeding time",
+    "past noon"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He lived in {country} for ten years. He ______ speak the language, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "must to"
+  ],
+  "key": 0,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "country": [
+    "Japan",
+    "Turkey",
+    "Germany",
+    "Korea"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your phone is ringing. It ______ be your {who}, {name}. She always calls at this time.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must to",
+   "must"
+  ],
+  "key": 3,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "who": [
+    "mother",
+    "sister",
+    "boss",
+    "aunt"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {thing} is from Italy and it's two hundred years old. It ______ be expensive, {name}.",
+  "options": [
+   "mustn't",
+   "must to",
+   "must",
+   "can't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "thing": [
+    "watch",
+    "painting",
+    "violin",
+    "table"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The streets are wet and people have {item}. It ______ be raining, {name}.",
+  "options": [
+   "must to",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 1,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "item": [
+    "umbrellas",
+    "raincoats",
+    "wet coats",
+    "wet shoes"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {team} fans are singing and dancing. Their team ______ be winning, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "must to"
+  ],
+  "key": 0,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "team": [
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My neighbour plays the {instr} every evening. He ______ love music, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "must to",
+   "must"
+  ],
+  "key": 3,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "instr": [
+    "piano",
+    "guitar",
+    "violin",
+    "drums"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are flowers in every room of her {home}. She ______ love flowers, {name}.",
+  "options": [
+   "mustn't",
+   "must to",
+   "must",
+   "can't"
+  ],
+  "key": 2,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "office",
+    "shop"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You've been at your desk since {time}. You ______ need a break, {name}.",
+  "options": [
+   "must to",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 1,
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "time": [
+    "eight o'clock",
+    "early morning",
+    "breakfast",
+    "nine"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "Aziz's car is outside the {place}. He ______ (be) inside, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "café",
+    "bank",
+    "gym",
+    "library"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "You've worked since {time}. You ______ (be) tired, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "time": [
+    "six",
+    "seven o'clock",
+    "early morning",
+    "breakfast"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "She speaks perfect {lang}. She ______ (study) a lot, {name}.",
+  "key": "must study",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "lang": [
+    "English",
+    "Korean",
+    "German",
+    "French"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "They eat at that {place} every day. The food there ______ (be) good, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "café",
+    "canteen",
+    "restaurant",
+    "chaikhana"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "He reads {n} books a month. He ______ (love) reading, {name}.",
+  "key": "must love",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "n": [
+    "five",
+    "six",
+    "ten",
+    "eight"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "Everybody in the {room} is laughing. The film ______ (be) funny, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "room": [
+    "cinema",
+    "living room",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "Lola walks through the old town of {city} every morning. She ______ (live) near there, {name}.",
+  "key": "must live",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "city": [
+    "Bukhara",
+    "Khiva",
+    "Samarkand",
+    "Tashkent"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "The {shop} is full of people. The prices ______ (be) low today, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "shop": [
+    "bazaar",
+    "supermarket",
+    "mall",
+    "shoe shop"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "Timur is yawning again at the {place}. He ______ (need) some sleep, {name}.",
+  "key": "must need",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "meeting",
+    "lesson",
+    "table",
+    "desk"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "There is snow on all the {thing}. It ______ (be) very cold outside, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "thing": [
+    "cars",
+    "roofs",
+    "trees",
+    "roads"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "Your sister trains at the {place} every morning. She ______ (be) very fit, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "gym",
+    "pool",
+    "stadium",
+    "sports club"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "He has three phones and two {thing}. He ______ (like) technology, {name}.",
+  "key": "must like",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "thing": [
+    "laptops",
+    "tablets",
+    "cameras",
+    "smart watches"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "The {who} is shouting at everyone. He ______ (be) angry, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "who": [
+    "boss",
+    "coach",
+    "driver",
+    "manager"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "You've just come back from {place}. You ______ (be) glad that you are home, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "a long trip",
+    "Moscow",
+    "the mountains",
+    "a month in Korea"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "Olga always wins at {game}. She ______ (be) very clever, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "game": [
+    "chess",
+    "cards",
+    "backgammon",
+    "quizzes"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "The {pet} is sitting by its bowl. It ______ (want) its dinner, {name}.",
+  "key": "must want",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "My uncle has a big farm near {city}. He ______ (work) very hard, {name}.",
+  "key": "must work",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "city": [
+    "Fergana",
+    "Namangan",
+    "Andijan",
+    "Jizzakh"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "The {place} is dark and nobody is answering. They ______ (be) on holiday, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "office",
+    "shop",
+    "house",
+    "flat"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "That {thing} cost five thousand dollars. It ______ (be) very good, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "thing": [
+    "camera",
+    "laptop",
+    "bike",
+    "watch"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is sure. Complete with must and the verb in brackets.",
+  "source": "Everyone at the {event} is dancing. The music ______ (be) great, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "festival",
+    "concert"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must.",
+  "source": "I'm sure he is at the {place}, {name}.",
+  "hint": "He ______ at the {place}, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "gym",
+    "bazaar",
+    "library",
+    "office"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must.",
+  "source": "I'm sure you are tired after the {trip}, {name}.",
+  "hint": "You ______ tired after the {trip}, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "trip": [
+    "flight",
+    "match",
+    "long walk",
+    "exam"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must.",
+  "source": "I'm sure she knows the answer, {name}. She's the best in the {class}.",
+  "hint": "She ______ the answer, {name}. She's the best in the {class}.",
+  "key": "must know",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "class": [
+    "class",
+    "group",
+    "school",
+    "team"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must.",
+  "source": "I'm sure they live near the {place}, {name}.",
+  "hint": "They ______ near the {place}, {name}.",
+  "key": "must live",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "place": [
+    "station",
+    "park",
+    "river",
+    "bazaar"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must.",
+  "source": "I'm sure the {shop} is closed now, {name}.",
+  "hint": "The {shop} ______ closed now, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "shop": [
+    "bank",
+    "post office",
+    "bakery",
+    "pharmacy"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "He must to be at home, {name}. His {car} is outside.",
+  "hint": "He ______ at home, {name}. His {car} is outside.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "car": [
+    "car",
+    "bike",
+    "scooter",
+    "van"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She must is tired. She worked for {n} hours, {name}.",
+  "hint": "She ______ tired. She worked for {n} hours, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "n": [
+    "twelve",
+    "ten",
+    "eleven",
+    "fourteen"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "They must knowing the way. They live in {city}, {name}.",
+  "hint": "They ______ the way. They live in {city}, {name}.",
+  "key": "must know",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "city": [
+    "Bukhara",
+    "Khiva",
+    "Samarkand",
+    "Tashkent"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "It musts be cold outside. Everyone is wearing {item}, {name}.",
+  "hint": "It ______ cold outside. Everyone is wearing {item}, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "item": [
+    "hats",
+    "scarves",
+    "gloves",
+    "boots"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "You must are hungry. You've had nothing since {time}, {name}.",
+  "hint": "You ______ hungry. You've had nothing since {time}, {name}.",
+  "key": "must be",
+  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "slots": {
+   "time": [
+    "breakfast",
+    "last night",
+    "seven o'clock",
+    "yesterday"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must be + -ing.",
+  "source": "I'm sure she is working at the {place} now, {name}.",
+  "hint": "She ______ at the {place} now, {name}.",
+  "key": "must be working",
+  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "slots": {
+   "place": [
+    "hospital",
+    "bank",
+    "school",
+    "shop"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must be + -ing.",
+  "source": "I'm sure it is raining in {city}, {name}.",
+  "hint": "It ______ in {city}, {name}.",
+  "key": "must be raining",
+  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "slots": {
+   "city": [
+    "London",
+    "Moscow",
+    "Tashkent",
+    "Fergana"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must be + -ing.",
+  "source": "I'm sure they are sleeping. The {room} is dark, {name}.",
+  "hint": "They ______. The {room} is dark, {name}.",
+  "key": "must be sleeping",
+  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "slots": {
+   "room": [
+    "flat",
+    "bedroom",
+    "house",
+    "tent"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must be + -ing.",
+  "source": "I'm sure he is joking about the {thing}, {name}.",
+  "hint": "He ______ about the {thing}, {name}.",
+  "key": "must be joking",
+  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "slots": {
+   "thing": [
+    "test",
+    "prize",
+    "wedding",
+    "money"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with must be + -ing.",
+  "source": "I'm sure you are waiting for the {bus}, {name}.",
+  "hint": "You ______ for the {bus}, {name}.",
+  "key": "must be waiting",
+  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "taxi",
+    "results"
+   ],
+   "name": [
+    "Gulnora",
+    "Jamshid",
+    "Malika",
+    "Ulugbek"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend hasn't eaten all day. Write one sentence about how he feels. Use must.",
+  "requiredElement": "must be hungry / tired",
+  "constraints": [
+   "exactly one sentence",
+   "must + base verb",
+   "present"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Look out of the window in your mind: everyone has an umbrella. Write one sentence with must.",
+  "requiredElement": "It must be raining",
+  "constraints": [
+   "exactly one sentence",
+   "must be + -ing",
+   "weather"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A neighbour has a big new car and a big house. Write one sentence with must.",
+  "requiredElement": "They must be rich",
+  "constraints": [
+   "exactly one sentence",
+   "must",
+   "present"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your classmate always gets top marks. Write one sentence with must.",
+  "requiredElement": "She must study a lot",
+  "constraints": [
+   "exactly one sentence",
+   "must + base verb",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Someone is knocking at your door at 7 a.m. Write one sentence with must.",
+  "requiredElement": "It must be …",
+  "constraints": [
+   "exactly one sentence",
+   "must be",
+   "a guess you are sure about"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a busy restaurant. Use must.",
+  "requiredElement": "The food must be good",
+  "constraints": [
+   "exactly one sentence",
+   "must + be",
+   "present"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: the evidence, then your deduction with must.",
+  "requiredElement": "evidence + must",
+  "constraints": [
+   "exactly two sentences",
+   "first: what you see",
+   "second: must + base verb"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with must be + -ing about what someone is doing now.",
+  "requiredElement": "must be + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "must be + -ing",
+   "now"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You visit a friend's flat. Describe three things you see and what they tell you. Use must.",
+  "targetGrammar": "must for present deduction",
+  "lookFor": [
+   "three deductions",
+   "must + base verb",
+   "evidence for each"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Look at a busy street in your town. Write three or four sentences about the people. Use must.",
+  "targetGrammar": "must be / must be + -ing",
+  "lookFor": [
+   "must",
+   "must be + -ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your teacher is late today. Write three or four sentences guessing why, when you are sure. Use must.",
+  "targetGrammar": "must for a confident guess",
+  "lookFor": [
+   "must",
+   "a reason",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a photo of a family at a party. What must be true? Write three or four sentences.",
+  "targetGrammar": "must + base verb",
+  "lookFor": [
+   "must",
+   "present",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A new student joins your class. Write three or four sentences about what must be true about him or her.",
+  "targetGrammar": "must for present deduction",
+  "lookFor": [
+   "must",
+   "evidence",
+   "three or four sentences"
+  ]
+ }
+]

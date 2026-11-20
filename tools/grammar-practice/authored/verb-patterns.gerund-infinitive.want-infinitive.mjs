@@ -15,7 +15,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "verb-patterns", branch: "gerund-infinitive", topic: "want-infinitive", level: "A2", pv: "2.5" };
+const BASE = { domain: "verb-patterns", branch: "gerund-infinitive", topic: "want-infinitive", level: "A1", pv: "2.5" };
 
 const TO = (v) => `After want, use to + the base verb: want to ${v}.`;
 const TO_S = (v) => `After wants, use to + the base verb: wants to ${v}. Only want takes the -s, never the second verb.`;

@@ -16,7 +16,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "sentence-structure", branch: "conjunctions", topic: "because", level: "A2", pv: "2.5" };
+const BASE = { domain: "sentence-structure", branch: "conjunctions", topic: "because", level: "A1", pv: "2.5" };
 
 const BC = "Because introduces the reason (the answer to Why?). So introduces a result, and but a contrast. Because of needs a noun, not a sentence.";
 const BOF = "Use because of + a noun (because of the rain) and because + a sentence with a verb (because it was raining).";

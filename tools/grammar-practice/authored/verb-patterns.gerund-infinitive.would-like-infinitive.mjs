@@ -18,7 +18,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "verb-patterns", branch: "gerund-infinitive", topic: "would-like-infinitive", level: "A2", pv: "2.5" };
+const BASE = { domain: "verb-patterns", branch: "gerund-infinitive", topic: "would-like-infinitive", level: "A1", pv: "2.5" };
 
 const TO = (v) => `After would like ('d like), use to + the base verb: would like to ${v}.`;
 const Q = (v) => `In a question with would you like, the verb still needs to: Would you like to ${v}?`;

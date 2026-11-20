@@ -142,6 +142,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.comparative.fewer-less": {
+  "domain": "comparison",
+  "branch": "comparative",
+  "topic": "fewer-less",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 299,
+   "build": 312,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.comparative.less-comparative": {
   "domain": "comparison",
   "branch": "comparative",
@@ -184,6 +198,76 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "comparison.equality.not-as-as": {
+  "domain": "comparison",
+  "branch": "equality",
+  "topic": "not-as-as",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 312,
+   "build": 316,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.modified-comparison.much-comparative": {
+  "domain": "comparison",
+  "branch": "modified-comparison",
+  "topic": "much-comparative",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 304,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.modified-comparison.slightly-comparative": {
+  "domain": "comparison",
+  "branch": "modified-comparison",
+  "topic": "slightly-comparative",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 316,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.parallel-comparison.progressive-comparative": {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 296,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "comparison.parallel-comparison.the-more-the-more": {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "the-more-the-more",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "comparison.superlative.est-superlative": {
   "domain": "comparison",
   "branch": "superlative",
@@ -208,6 +292,48 @@ export const PRACTICE_MANIFEST = {
    "choose": 368,
    "build": 320,
    "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "conditionals-wishes.linkers.unless": {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "conditionals-wishes.second.if-i-were-you": {
+  "domain": "conditionals-wishes",
+  "branch": "second",
+  "topic": "if-i-were-you",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "conditionals-wishes.second.second-if-clause": {
+  "domain": "conditionals-wishes",
+  "branch": "second",
+  "topic": "second-if-clause",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 308,
+   "transform": 240,
    "create": 8,
    "express": 5
   }
@@ -352,6 +478,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.deduction.cant-present": {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "cant-present",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.deduction.might-possibility": {
   "domain": "modals",
   "branch": "deduction",
@@ -361,6 +501,48 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 560,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.deduction.might-present": {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.deduction.must-present": {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "must-present",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.obligation.modal-passive": {
+  "domain": "modals",
+  "branch": "obligation",
+  "topic": "modal-passive",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -390,6 +572,76 @@ export const PRACTICE_MANIFEST = {
    "choose": 308,
    "build": 308,
    "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.past-modals.might-have": {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "might-have",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.past-modals.must-have": {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "must-have",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.past-modals.should-have": {
+  "domain": "modals",
+  "branch": "past-modals",
+  "topic": "should-have",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.semi-modals.be-able-to": {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "modals.semi-modals.have-to-past": {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "have-to-past",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
    "create": 8,
    "express": 5
   }
@@ -426,7 +678,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "nouns-articles",
   "branch": "articles",
   "topic": "a-jobs",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -566,7 +818,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "nouns-articles",
   "branch": "possession",
   "topic": "possessive-s",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -646,6 +898,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "passive-causative.modal-passive.modal-be-pp": {
+  "domain": "passive-causative",
+  "branch": "modal-passive",
+  "topic": "modal-be-pp",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "passive-causative.perfect-progressive-passive.present-perfect-passive": {
+  "domain": "passive-causative",
+  "branch": "perfect-progressive-passive",
+  "topic": "present-perfect-passive",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "passive-causative.simple-passive.active-to-passive": {
   "domain": "passive-causative",
   "branch": "simple-passive",
@@ -656,6 +936,34 @@ export const PRACTICE_MANIFEST = {
    "choose": 320,
    "build": 308,
    "transform": 288,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "passive-causative.simple-passive.agent-by": {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "agent-by",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "passive-causative.simple-passive.no-passive-intransitive": {
+  "domain": "passive-causative",
+  "branch": "simple-passive",
+  "topic": "no-passive-intransitive",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 368,
+   "build": 320,
+   "transform": 204,
    "create": 8,
    "express": 5
   }
@@ -1140,7 +1448,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "questions-negation",
   "branch": "wh-questions",
   "topic": "how-often",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -1248,6 +1556,104 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "reported-speech.commands-requests.tell-sb-to": {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 440,
+   "build": 464,
+   "transform": 336,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "reported-speech.questions.reported-wh-question": {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-wh-question",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 416,
+   "build": 512,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "reported-speech.questions.reported-yes-no": {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 416,
+   "build": 416,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "reported-speech.statements.backshift-past": {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-past",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 368,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "reported-speech.statements.backshift-present": {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-present",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "reported-speech.statements.backshift-will": {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "backshift-will",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 224,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "reported-speech.statements.say-tell": {
+  "domain": "reported-speech",
+  "branch": "statements",
+  "topic": "say-tell",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
  "sentence-structure.conjunctions.and-but-or": {
   "domain": "sentence-structure",
   "branch": "conjunctions",
@@ -1266,7 +1672,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "sentence-structure",
   "branch": "conjunctions",
   "topic": "because",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 260,
@@ -1280,7 +1686,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "sentence-structure",
   "branch": "conjunctions",
   "topic": "so-result",
-  "level": "A1",
+  "level": "A2",
   "authored": 68,
   "stages": {
    "choose": 296,
@@ -1364,7 +1770,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "sentence-structure",
   "branch": "imperatives",
   "topic": "lets",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 316,
@@ -1504,7 +1910,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "tenses",
   "branch": "future",
   "topic": "arrangement-continuous",
-  "level": "B1",
+  "level": "A2",
   "authored": 68,
   "stages": {
    "choose": 308,
@@ -1551,6 +1957,20 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 320,
    "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.future.timetable-simple": {
+  "domain": "tenses",
+  "branch": "future",
+  "topic": "timetable-simple",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 416,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -1612,6 +2032,34 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.past.past-perfect-experience": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-experience",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 272,
+   "build": 272,
+   "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.past.past-perfect-sequence": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-sequence",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 264,
+   "build": 264,
+   "transform": 216,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.past.simple-finished-time": {
   "domain": "tenses",
   "branch": "past",
@@ -1636,6 +2084,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 320,
    "build": 296,
    "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.perfect.continuous-present-result": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "continuous-present-result",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 312,
+   "build": 292,
+   "transform": 240,
    "create": 8,
    "express": 5
   }
@@ -1682,6 +2144,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.perfect.perfect-vs-past": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "perfect-vs-past",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 368,
+   "build": 412,
+   "transform": 236,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.perfect.present-result": {
   "domain": "tenses",
   "branch": "perfect",
@@ -1696,6 +2172,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.perfect.since-clause": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "since-clause",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 224,
+   "build": 312,
+   "transform": 236,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.perfect.since-duration": {
   "domain": "tenses",
   "branch": "perfect",
@@ -1706,6 +2196,20 @@ export const PRACTICE_MANIFEST = {
    "choose": 320,
    "build": 320,
    "transform": 228,
+   "create": 8,
+   "express": 5
+  }
+ },
+ "tenses.perfect.unfinished-time": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "unfinished-time",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 364,
+   "build": 208,
+   "transform": 208,
    "create": 8,
    "express": 5
   }
@@ -1742,7 +2246,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "tenses",
   "branch": "present",
   "topic": "general-truth",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -1836,6 +2340,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.used-to.didnt-use-to": {
+  "domain": "tenses",
+  "branch": "used-to",
+  "topic": "didnt-use-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 408,
+   "build": 409,
+   "transform": 248,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.used-to.used-to-state": {
   "domain": "tenses",
   "branch": "used-to",
@@ -1896,7 +2414,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",
   "topic": "want-infinitive",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -1910,7 +2428,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",
   "topic": "would-like-infinitive",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
