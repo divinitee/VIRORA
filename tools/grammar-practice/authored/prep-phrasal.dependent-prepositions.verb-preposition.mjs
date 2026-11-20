@@ -31,6 +31,8 @@ const fill = (text, slots, fallback) => {
   return s;
 };
 
+const ALT = (key, text) => key === "on" && /depend|rely/.test(text) ? ["upon"] : key === "from" && /suffer/.test(text) ? ["with"] : key === "to" && /happened/.test(text) ? ["with"] : null;
+
 /* ---------------- choose: 20 mcq ---------------- */
 // [options (key first), prompt, slots, why]
 const CHOOSE = [
@@ -71,10 +73,10 @@ const BUILD = [
   ["to", "Whose {thing} is this? Does it belong ______ you, {name}?", { thing: ["bag", "phone", "pen", "jacket"] }, "belong to + the owner."],
   ["with", "I don't agree ______ my {who} about the new rules.", { who: ["dad", "teacher", "boss", "brother"] }, "agree with + a person."],
   ["for", "My grandpa paid ______ the {thing} in cash, {name}.", { thing: ["car", "carpet", "fridge", "piano"] }, "pay for + the thing you buy."],
-  ["for", "The tourists asked ______ a map of {city}.", { city: ["Bukhara", "Samarkand", "Khiva", "Tashkent"] }, "ask for + what you want."],
+  ["for", "The tourists asked ______ a glass of water in {city}.", { city: ["Bukhara", "Samarkand", "Khiva", "Tashkent"] }, "ask for + what you want."],
   ["of", "Our team consists ______ eleven {who} and a coach.", { who: ["players", "girls", "boys", "students"] }, "consist of + the parts."],
   ["at", "Please don't laugh ______ my {thing}, {name}. I made it myself.", { thing: ["cake", "drawing", "hat", "poem"] }, "laugh at + the thing that is funny."],
-  ["for", "My sister has applied ______ a job at the {place}, {name}.", { place: ["bank", "hospital", "airport", "museum"] }, "apply for + the job."],
+  ["for", "My sister has applied ______ a visa for {place}, {name}.", { place: ["Korea", "Japan", "the UK", "Canada"] }, "apply for + a visa."],
   ["on", "You can rely ______ my {who}, {name}. He's never late.", { who: ["brother", "uncle", "driver", "friend"] }, "rely on + the person you trust."],
   ["from", "Many people suffer ______ colds in the {season}, {name}.", { season: ["winter", "autumn", "spring", "cold months"] }, "suffer from + the problem."],
   ["for", "The {who} searched ______ the lost child all night.", { who: ["neighbours", "villagers", "parents", "teachers"] }, "search for + who you want to find."],
@@ -93,7 +95,9 @@ const BUILD = [
     else if (src.includes("fairies")) { s.who = ["little sister", "son", "daughter", "little brother"]; src = src.replace("little sister", "{who}"); }
     else if (!s.name) { s.name = i % 2 ? NAME2 : NAME; src = src.replace(/([.!?])$/, ", {name}$1"); }
   }
-  return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src, key, why, slots: s };
+  const it = { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src, key, why, slots: s };
+  const alt = ALT(key, src); if (alt) it.acceptable = alt;
+  return it;
 });
 
 /* ---------------- transform: 15 rewrite ---------------- */
@@ -117,7 +121,9 @@ const TRANSFORM = [
   [VERB, "(depend) My parents are thinking about the price of the {thing}, {name}. It decides everything.", "Everything depends ______ the price of the {thing}, {name}.", "on", { thing: ["flat", "car", "trip", "wedding"] }, "depend on + the thing that decides."],
 ].map(([instr, source, hint, key, slots, why], i) => {
   const s = fill(source + hint, slots, i % 2 ? NAME2 : NAME);
-  return { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };
+  const it = { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };
+  const alt = ALT(key, hint); if (alt) it.acceptable = alt;
+  return it;
 });
 
 /* ---------------- create: 8 ---------------- */
