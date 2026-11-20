@@ -18,7 +18,7 @@ import {
   getOrCreateProfile, saveProfile, loadLesson, finalize, lessonMistakes, withLabels, redact, sha256Hex,
 } from './liveTeacherEngine.js';
 import {
-  PERSONAS, cleanPersona, conductAfter, FILLERS, fillerTag, cleanMood, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
+  PERSONAS, cleanPersona, conductAfter, planAfter, seedPlan, FILLERS, fillerTag, cleanMood, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
   modelSupportsTags, stripAudioTags, splitSpeech, fillerLines, cleanFillerLang, speechLang,
 } from './liveTeacherBrain.js';
 
@@ -454,7 +454,7 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
       persona, ageGroup: lesson.age_group, uiLang: ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz',
       studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: s.audioTags && modelSupportsTags(s.ttsModel),
     });
-    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText: heard.text, lessonMistakes: lesson.mistakes, minutesLeft, studentLang: speechLang(heard.language, heard.text), strikes: lesson.scores?.strikes, casual: lesson.scores?.casual });
+    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText: heard.text, lessonMistakes: lesson.mistakes, minutesLeft, studentLang: speechLang(heard.language, heard.text), strikes: lesson.scores?.strikes, casual: lesson.scores?.casual, plan: lesson.scores?.plan });
     const tBrain = Date.now();
     const { out, usage } = await think(env, { instructions, message, safetyId: await sha256Hex(user.id || user.email) }, fetchImpl);
     timings.brain_ms = Date.now() - tBrain;
@@ -473,7 +473,7 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
     timings.voice_ms = Date.now() - tVoice;
     const c = costOf({ sttSeconds, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: voice.chars });
     const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: voice.chars });
-    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual } };
+    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
     await svc.LiveTeacherLesson.update(lesson.id, { ...applied.counters, tool_calls: updated.tool_calls, scores: updated.scores });
 
     let recap = null;
@@ -541,7 +541,7 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
       studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags,
     });
     const studentLang = ['uz', 'ru'].includes(body.student_lang) ? body.student_lang : speechLang('', studentText);
-    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft, studentLang, strikes: lesson.scores?.strikes, casual: lesson.scores?.casual });
+    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft, studentLang, strikes: lesson.scores?.strikes, casual: lesson.scores?.casual, plan: lesson.scores?.plan });
     const [safetyId, voiceId] = await Promise.all([sha256Hex(user.id || user.email), resolveVoice(env, persona, fetchImpl)]);
     const tBrain = Date.now();
     // As soon as the brain has written the reply, its first sentence goes to the
@@ -570,7 +570,7 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
     const applied = applyReport(profile, lesson, out, ctx);
     const c = costOf({ sttSeconds, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: speakText.length });
     const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: speakText.length });
-    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual } };
+    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
     const [first] = await Promise.all([
       firstJob,
       applied.profile !== profile ? saveProfile(svc, row, applied.profile) : null,
