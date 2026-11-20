@@ -412,6 +412,12 @@
     "2018",
     "2020",
     "2021"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -783,7 +789,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
-  "source": "My {who} ______ (be) a teacher when he was {age}.",
+  "source": "My {who} ______ (be) a teacher {when}.",
   "key": "was",
   "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: was. Not the present perfect.",
   "slots": {
@@ -793,11 +799,11 @@
     "uncle",
     "neighbour"
    ],
-   "age": [
-    "young",
-    "thirty",
-    "in his twenties",
-    "younger"
+   "when": [
+    "in the 1990s",
+    "thirty years ago",
+    "in 2005",
+    "before I was born"
    ]
   }
  },
