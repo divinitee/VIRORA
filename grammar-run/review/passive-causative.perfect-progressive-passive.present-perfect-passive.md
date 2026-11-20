@@ -8,7 +8,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ has been stolen · has stolen · is been stolen · has being stolen  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
-2. A new **mosque** ______ near our house this year, **Zarina**.  
+2. A new **library** ______ near our house this year, **Zarina**.  
    options: has built · is been built · has being built · ✔ has been built  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
@@ -92,7 +92,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 2. _Complete with has been or have been + the past participle of the verb in brackets._  
-   A new **mosque** ______ (build) near us, **Akmal**.  
+   A new **library** ______ (build) near us, **Akmal**.  
    key: has been built  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 

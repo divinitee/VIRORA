@@ -308,7 +308,7 @@ export default [
   "why": "The speaker is sure, from the evidence: must + base verb.",
   "slots": {
    "who": [
-    "girlfriend",
+    "cousin",
     "best friend",
     "brother",
     "grandmother"
@@ -532,10 +532,10 @@ export default [
   "why": "The speaker is sure, from the evidence: must + base verb.",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
     "Gulnora",

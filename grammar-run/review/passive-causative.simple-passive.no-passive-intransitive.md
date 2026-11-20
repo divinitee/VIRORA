@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This verb has no object, so it has no passive: use the active past simple.
 
 15. _Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive._  
-   This **mosque** ______ (build) in **1975**.  
+   This **theatre** ______ (build) in **1975**.  
    key: was built  
    why: This verb has an object; here the subject receives the action: was / were + past participle.
 

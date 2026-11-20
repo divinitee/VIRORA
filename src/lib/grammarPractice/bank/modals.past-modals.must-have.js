@@ -790,10 +790,10 @@ export default [
   "why": "Sure about the past, from what you see now: must have + past participle (must have won).",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
     "Malika",

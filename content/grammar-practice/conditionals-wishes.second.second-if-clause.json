@@ -18,7 +18,7 @@
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
    "prize": [
-    "lottery",
+    "quiz show",
     "big prize",
     "cup",
     "competition"
@@ -1175,7 +1175,7 @@
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
    "prize": [
-    "lottery",
+    "quiz show",
     "big prize",
     "competition",
     "cup"
@@ -1399,7 +1399,7 @@
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
    "prize": [
-    "lottery",
+    "quiz show",
     "big prize",
     "cup",
     "competition"
@@ -1483,7 +1483,7 @@
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
    "prize": [
-    "lottery",
+    "quiz show",
     "big prize",
     "cup",
     "competition"

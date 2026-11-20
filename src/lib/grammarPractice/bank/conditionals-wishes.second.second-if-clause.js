@@ -20,7 +20,7 @@ export default [
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
    "prize": [
-    "lottery",
+    "quiz show",
     "big prize",
     "cup",
     "competition"
@@ -1177,7 +1177,7 @@ export default [
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
    "prize": [
-    "lottery",
+    "quiz show",
     "big prize",
     "competition",
     "cup"
@@ -1401,7 +1401,7 @@ export default [
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
    "prize": [
-    "lottery",
+    "quiz show",
     "big prize",
     "cup",
     "competition"
@@ -1485,7 +1485,7 @@ export default [
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
    "prize": [
-    "lottery",
+    "quiz show",
     "big prize",
     "cup",
     "competition"

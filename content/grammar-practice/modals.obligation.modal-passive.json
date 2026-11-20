@@ -148,7 +148,7 @@
    "place": [
     "airport",
     "station",
-    "border",
+    "museum",
     "gate"
    ],
    "name": [
@@ -468,7 +468,7 @@
    "place": [
     "airport",
     "station",
-    "border",
+    "museum",
     "gate"
    ],
    "name": [

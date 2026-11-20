@@ -68,7 +68,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: must to · ✔ must · can't · mustn't  
    why: The speaker is sure, from the evidence: must + base verb.
 
-17. The **Pakhtakor** fans are singing and dancing. Their team ______ be winning, **Ulugbek**.  
+17. The **Sunrise FC** fans are singing and dancing. Their team ______ be winning, **Ulugbek**.  
    options: ✔ must · can't · mustn't · must to  
    why: The speaker is sure, from the evidence: must + base verb.
 

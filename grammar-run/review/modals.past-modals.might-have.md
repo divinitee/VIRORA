@@ -48,7 +48,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: might had broken · might has broken · ✔ might have broken · might break  
    why: A guess about the past, not sure: might have + past participle.
 
-12. I missed the game yesterday. I'm not sure, but **Navbahor** ______ the match, **Otabek**.  
+12. I missed the game yesterday. I'm not sure, but **Riverside** ______ the match, **Otabek**.  
    options: might has won · ✔ might have won · might win · might had won  
    why: A guess about the past, not sure: might have + past participle.
 
@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A guess about the past, not sure: might have + past participle.
 
 15. _The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets._  
-   I'm not sure about the score. **Nasaf** ______ (win) the match, **Dilnoza**.  
+   I'm not sure about the score. **Blue Star** ______ (win) the match, **Dilnoza**.  
    key: might have won  
    why: A guess about the past, not sure: might have + past participle.
 

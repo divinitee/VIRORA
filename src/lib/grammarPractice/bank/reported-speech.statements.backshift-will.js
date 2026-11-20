@@ -202,7 +202,7 @@ export default [
    "who": [
     "shopkeeper",
     "manager",
-    "minister",
+    "baker",
     "driver"
    ]
   }
@@ -759,7 +759,7 @@ export default [
    "who": [
     "shopkeeper",
     "manager",
-    "minister",
+    "baker",
     "driver"
    ]
   }
@@ -838,10 +838,10 @@ export default [
     "Rustam"
    ],
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ]
   }
  },

@@ -52,7 +52,7 @@ export default [
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
@@ -682,7 +682,7 @@ export default [
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
@@ -1239,7 +1239,7 @@ export default [
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"
@@ -1435,7 +1435,7 @@ export default [
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
    "place": [
-    "mosque",
+    "library",
     "school",
     "hospital",
     "park"

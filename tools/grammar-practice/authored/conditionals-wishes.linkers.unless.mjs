@@ -97,7 +97,7 @@ const TRANSFORM = [
   [SENT, "Hurry up! If not, the {shop} will be closed, {name}.", "The {shop} will be closed ______ up, {name}.", "unless you hurry", { shop: ["bank", "post office", "pharmacy", "bakery"], name: NAME }],
   [SENT, "Book now. If you don't, there won't be any seats at the {event}, {name}.", "There won't be any seats at the {event} ______ now, {name}.", "unless you book", { event: ["concert", "match", "show", "festival"], name: NAME }],
   [SENT, "Say sorry. If you don't, your {who} will stay angry, {name}.", "Your {who} will stay angry ______ sorry, {name}.", "unless you say", { who: ["brother", "mother", "friend", "teacher"], name: NAME }],
-  [SENT, "Turn left at the {place}. If you don't, you'll get lost, {name}.", "You'll get lost ______ left at the {place}, {name}.", "unless you turn", { place: ["bank", "mosque", "bazaar", "school"], name: NAME }],
+  [SENT, "Turn left at the {place}. If you don't, you'll get lost, {name}.", "You'll get lost ______ left at the {place}, {name}.", "unless you turn", { place: ["bank", "park", "bazaar", "school"], name: NAME }],
 ].map(([instr, source, hint, key, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why: WHY, slots }));
 
 /* ---------------- create: 8 ---------------- */

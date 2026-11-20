@@ -20,7 +20,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: must worn · ✔ must wear · must be worn · must be wear  
    why: The subject does the action: must + base verb (active).
 
-5. Passengers ______ their bags at the **border**, **Sherzod**.  
+5. Passengers ______ their bags at the **museum**, **Sherzod**.  
    options: ✔ must check · must be checked · must be check · must checked  
    why: The subject does the action: must + base verb (active).
 

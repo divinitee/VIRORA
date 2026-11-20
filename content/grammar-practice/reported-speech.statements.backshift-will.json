@@ -200,7 +200,7 @@
    "who": [
     "shopkeeper",
     "manager",
-    "minister",
+    "baker",
     "driver"
    ]
   }
@@ -757,7 +757,7 @@
    "who": [
     "shopkeeper",
     "manager",
-    "minister",
+    "baker",
     "driver"
    ]
   }
@@ -836,10 +836,10 @@
     "Rustam"
    ],
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ]
   }
  },

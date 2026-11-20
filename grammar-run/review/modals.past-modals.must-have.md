@@ -112,7 +112,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Sure about the past, from what you see now: must have + past participle (must have eaten).
 
 6. _You are sure about the past. Complete with must have and the verb in brackets._  
-   The **Navbahor** fans are singing. Their team ______ (win), **Gulnora**.  
+   The **Riverside** fans are singing. Their team ______ (win), **Gulnora**.  
    key: must have won  
    why: Sure about the past, from what you see now: must have + past participle (must have won).
 

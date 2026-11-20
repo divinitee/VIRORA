@@ -372,10 +372,10 @@ export default [
   "why": "A guess about the past, not sure: might have + past participle.",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
     "Dilnoza",
@@ -1033,10 +1033,10 @@ export default [
   "why": "A guess about the past, not sure: might have + past participle.",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
     "Dilnoza",

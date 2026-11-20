@@ -52,11 +52,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: so that · ✔ unless · if · when  
    why: unless = if … not, with a positive present verb after it.
 
-13. You can't come into the **mosque** ______ you take your shoes off, **Akmal**.  
+13. You can't come into the **bedroom** ______ you take your shoes off, **Akmal**.  
    options: ✔ unless · if · when · so that  
    why: unless = if … not, with a positive present verb after it.
 
-14. **Navbahor** will lose ______ they play better in the second half, **Nodira**.  
+14. **Riverside** will lose ______ they play better in the second half, **Nodira**.  
    options: if · when · so that · ✔ unless  
    why: unless = if … not, with a positive present verb after it.
 

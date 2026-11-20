@@ -1039,7 +1039,7 @@ export default [
   "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
   "slots": {
    "building": [
-    "mosque",
+    "theatre",
     "bridge",
     "school",
     "hotel"
@@ -1364,7 +1364,7 @@ export default [
   "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
   "slots": {
    "building": [
-    "mosque",
+    "theatre",
     "bridge",
     "school",
     "hotel"

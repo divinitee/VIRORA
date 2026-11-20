@@ -52,7 +52,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: of · by · ✔ with · from  
    why: with + the thing that was used (a tool or an object).
 
-13. The lock was forced ______ one of the thieves with a **screwdriver**, **Jamshid**.  
+13. The door was opened ______ the caretaker with a **screwdriver**, **Jamshid**.  
    options: ✔ by · with · from · of  
    why: by + the doer (who did it).
 
@@ -76,7 +76,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: with · from · of · ✔ by  
    why: by + the doer (who did it).
 
-19. The thief was stopped ______ a **taxi driver**, **Jamshid**.  
+19. The lost child was found ______ a **taxi driver**, **Jamshid**.  
    options: from · of · ✔ by · with  
    why: by + the doer (who did it).
 
@@ -137,7 +137,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: by + the doer (who did it).
 
 11. _Write by (who did it) or with (what they used)._  
-   The match was won ______ **Navbahor**, **Jamshid**.  
+   The match was won ______ **Riverside**, **Jamshid**.  
    key: by  
    why: by + the doer (who did it).
 
@@ -201,8 +201,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: by + the doer (who did it).
 
 3. _Rewrite in the passive with by. Start with the words given._  
-   **Pakhtakor** won the cup, **Jamshid**.  
-   → The cup ______ **Pakhtakor**, **Jamshid**.  
+   **Sunrise FC** won the cup, **Jamshid**.  
+   → The cup ______ **Sunrise FC**, **Jamshid**.  
    key: was won by  
    why: by + the doer (who did it).
 
@@ -231,8 +231,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: with + the thing that was used (a tool or an object).
 
 8. _Rewrite as one passive sentence. Show what was used._  
-   The thief forced the lock. He used a **screwdriver**, **Ulugbek**.  
-   → The lock was forced by the thief ______ a **screwdriver**, **Ulugbek**.  
+   The caretaker opened the lock. He used a **screwdriver**, **Ulugbek**.  
+   → The lock was opened by the caretaker ______ a **screwdriver**, **Ulugbek**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 

@@ -404,7 +404,7 @@ export default [
   "why": "unless = if … not, with a positive present verb after it.",
   "slots": {
    "place": [
-    "mosque",
+    "bedroom",
     "house",
     "gym",
     "classroom"
@@ -436,10 +436,10 @@ export default [
   "why": "unless = if … not, with a positive present verb after it.",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
     "Nodira",
@@ -1589,7 +1589,7 @@ export default [
   "slots": {
    "place": [
     "bank",
-    "mosque",
+    "park",
     "bazaar",
     "school"
    ],

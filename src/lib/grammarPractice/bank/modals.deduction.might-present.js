@@ -1158,7 +1158,7 @@ export default [
    "place": [
     "wedding",
     "party",
-    "mosque",
+    "school",
     "bazaar"
    ],
    "name": [

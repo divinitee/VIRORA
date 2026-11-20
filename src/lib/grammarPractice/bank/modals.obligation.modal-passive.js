@@ -150,7 +150,7 @@ export default [
    "place": [
     "airport",
     "station",
-    "border",
+    "museum",
     "gate"
    ],
    "name": [
@@ -470,7 +470,7 @@ export default [
    "place": [
     "airport",
     "station",
-    "border",
+    "museum",
     "gate"
    ],
    "name": [

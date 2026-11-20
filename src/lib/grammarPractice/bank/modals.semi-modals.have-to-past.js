@@ -279,7 +279,7 @@ export default [
     "airport",
     "hospital",
     "bank",
-    "border"
+    "post office"
    ],
    "name": [
     "Gulnora",
@@ -874,7 +874,7 @@ export default [
     "airport",
     "hospital",
     "bank",
-    "border"
+    "post office"
    ],
    "name": [
     "Gulnora",
@@ -1357,7 +1357,7 @@ export default [
     "airport",
     "hospital",
     "bank",
-    "border"
+    "post office"
    ],
    "name": [
     "Gulnora",

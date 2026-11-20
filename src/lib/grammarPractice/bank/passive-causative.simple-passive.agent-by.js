@@ -26,7 +26,7 @@ export default [
     "hairpin"
    ],
    "who": [
-    "thief",
+    "locksmith",
     "neighbour",
     "plumber",
     "caretaker"
@@ -393,7 +393,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The lock was forced ______ one of the thieves with a {tool}, {name}.",
+  "prompt": "The door was opened ______ the caretaker with a {tool}, {name}.",
   "options": [
    "by",
    "with",
@@ -585,7 +585,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The thief was stopped ______ a {who}, {name}.",
+  "prompt": "The lost child was found ______ a {who}, {name}.",
   "options": [
    "from",
    "of",
@@ -925,10 +925,10 @@ export default [
   "why": "by + the doer (who did it).",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
     "Gulnora",
@@ -1252,10 +1252,10 @@ export default [
   "why": "by + the doer (who did it).",
   "slots": {
    "team": [
-    "Pakhtakor",
-    "Nasaf",
-    "Bunyodkor",
-    "Navbahor"
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
    ],
    "name": [
     "Gulnora",
@@ -1386,8 +1386,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite as one passive sentence. Show what was used.",
-  "source": "The thief forced the lock. He used a {tool}, {name}.",
-  "hint": "The lock was forced by the thief ______ a {tool}, {name}.",
+  "source": "The caretaker opened the lock. He used a {tool}, {name}.",
+  "hint": "The lock was opened by the caretaker ______ a {tool}, {name}.",
   "key": "with",
   "why": "with + the thing that was used (a tool or an object).",
   "slots": {
