@@ -37,11 +37,12 @@ export const cleanPersona = (p) => (PERSONAS[p] ? p : 'vira');
 
 // Played while the brain thinks. Neutral sounds only: the brain has not yet
 // decided whether the student was right.
+// Two or three words each: one-syllable lines ("Mhm.") can come back near-silent.
 export const FILLERS = {
-  vira: ['Mhm…', 'Hmm, okay…', 'Okay, okay…', 'Hmm, I see…', 'Right…', 'Mm-hmm…'],
-  vira_nightingale: ['Mm…', 'Hmm…', 'I see…', 'Mhm…', 'Alright…', 'Mm-hmm…'],
-  velvet: ['Ohh, really?', 'Hmmm…', 'Wait, wait…', 'Okay, okay…', 'Uh-huh…', 'Mhm…'],
-  violet: ['Hm.', 'Right.', 'Mhm.', 'Okay.', 'I see.', 'Noted.'],
+  vira: ['Mhm, okay…', 'Hmm, okay, okay…', 'Hmm, I see…', 'Right, right…', 'Mm-hmm, alright…', 'Okay, let me see…'],
+  vira_nightingale: ['Mm, I see…', 'Hmm, alright…', 'Mhm, okay…', 'Hmm, let me see…', 'Alright, alright…', 'Mm-hmm, I see…'],
+  velvet: ['Ohh, really now?', 'Hmmm, okay okay…', 'Wait, wait, wait…', 'Uh-huh, go on then…', 'Mhm, interesting…', 'Okay, hold on…'],
+  violet: ['Hm. I see.', 'Right. Okay.', 'Mhm. Noted.', 'Okay. Let me see.', 'Hm. Alright.', 'I see. Okay.'],
 };
 
 // ElevenLabs models that read [tags] as performance direction (v3 / v4 family).
