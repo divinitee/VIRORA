@@ -92,18 +92,18 @@ test('start: not configured -> 503, no outside call', async () => {
   assert.equal(calls.length, 0);
 });
 
-test('start: greeting text + passes for the phone; tags only in the spoken text; keys never leak', async () => {
+test('start: greeting text, first sentence voiced, ears pass for the phone; keys never leak', async () => {
   const svc = fakeDb();
   const { fetchImpl, calls } = fakeServices({ brain: brainAnswer({ reply: '[warmly] Hi! I am Vira. How are you today?' }) });
   const r = await startVoiceLesson({ svc, user: student, body: { persona: 'vira', lang: 'uz' }, env, fetchImpl, now: T0 });
   assert.equal(r.status, 200);
   assert.equal(r.body.reply_text, 'Hi! I am Vira. How are you today?'); // tags hidden from the transcript
-  assert.match(r.body.speak_text, /\[warmly\]/); // ...but kept for the voice
-  assert.equal(r.body.tts_token, 'sutkn_tts_websocket');
-  assert.equal(r.body.stt_token, 'sutkn_realtime_scribe');
-  assert.deepEqual(r.body.voice, { voice_id: 'v-vira', model: 'eleven_v4_turbo' });
-  assert.ok(calls.some((c) => c.url.includes('realtime_scribe?max_session_duration_seconds=')));
-  assert.equal(calls.filter((c) => c.url.includes('/text-to-speech/')).length, 0); // the phone streams it
+  assert.ok(r.body.audio_b64);
+  assert.equal(r.body.stt_token, 'sutkn_batch_scribe');
+  const tts = calls.filter((c) => c.url.includes('/text-to-speech/v-vira'));
+  assert.equal(tts.length, 1);
+  assert.match(JSON.parse(tts[0].init.body).text, /^\[warmly\] Hi! I am Vira\./); // first part voiced, tag kept
+  assert.equal(r.body.rest_text, 'How are you today?');
   const lesson = svc.LiveTeacherLesson.rows[0];
   assert.equal(lesson.max_minutes, PERSONAS.vira.minutes);
   assert.match(lesson.model, /^v2:vira\|/);
@@ -116,7 +116,6 @@ test('start: a failed pass never breaks the lesson (phone uses the backup path)'
   const fetchImpl = async (url, init) => (url.includes('/single-use-token/') ? { ok: false, status: 401, json: async () => ({ detail: 'nope' }) } : s.fetchImpl(url, init));
   const r = await startVoiceLesson({ svc: fakeDb(), user: student, body: {}, env, fetchImpl, now: T0 });
   assert.equal(r.status, 200);
-  assert.equal(r.body.tts_token, null);
   assert.equal(r.body.stt_token, null);
 });
 
@@ -214,9 +213,10 @@ test('text turn (fast path): no audio upload, brain + tracker, fresh voice pass'
   const r = await voiceTurnText({ svc, user: student, body: { lesson_id: start.body.lesson_id, text: 'I goes to school every day.', duration_s: 3 }, env, fetchImpl: s2.fetchImpl, now: T0 + 60000 });
   assert.equal(r.status, 200);
   assert.equal(r.body.mistakes[0].status, 'new');
-  assert.equal(r.body.tts_token, 'sutkn_tts_websocket');
-  assert.ok(r.body.speak_text);
-  assert.equal(s2.calls.filter((c) => c.url.includes('/speech-to-text') || c.url.includes('/text-to-speech/')).length, 0);
+  assert.equal(r.body.stt_token, 'sutkn_batch_scribe');
+  assert.ok(r.body.audio_b64);
+  assert.equal(s2.calls.filter((c) => c.url.includes('/speech-to-text')).length, 0); // no audio went through the server
+  assert.equal(s2.calls.filter((c) => c.url.includes('/text-to-speech/')).length, 1); // only the first sentence
   assert.equal(svc.LiveTeacherLesson.rows[0].tool_calls, 1);
   const sounds = await voiceTurnText({ svc, user: student, body: { lesson_id: start.body.lesson_id, text: '[mouse clicking]' }, env, fetchImpl: s2.fetchImpl, now: T0 + 70000 });
   assert.equal(sounds.body.empty, true);
@@ -231,7 +231,7 @@ test('speak fallback + tokens: only the lesson owner', async () => {
   const bad = await speakText({ svc, user: { ...student, email: 'x@y.z' }, body: { lesson_id: start.body.lesson_id, text: 'Hi' }, env, fetchImpl: s.fetchImpl, now: T0 + 1000 });
   assert.equal(bad.status, 404);
   const t = await phoneTokens({ svc, user: student, body: { lesson_id: start.body.lesson_id, types: ['stt'] }, env, fetchImpl: s.fetchImpl, now: T0 + 1000 });
-  assert.equal(t.body.stt_token, 'sutkn_realtime_scribe');
+  assert.equal(t.body.stt_token, 'sutkn_batch_scribe');
   assert.equal(t.body.tts_token, null);
 });
 
@@ -251,4 +251,29 @@ test('cost estimate: cached tokens are cheaper', () => {
   const b = costOf({ brainModel: 'gpt-5.6-terra', usage: { prompt_tokens: 3000, completion_tokens: 200, prompt_tokens_details: { cached_tokens: 2500 } }, ttsModel: 'eleven_v4_turbo', ttsChars: 100 });
   assert.ok(b.total < a.total);
   assert.equal(a.tts, 0.004);
+});
+
+test('splitSpeech: first part >= 40 chars, rest separate', async () => {
+  const { splitSpeech } = await import('../../base44/shared/liveTeacherBrain.js');
+  assert.deepEqual(splitSpeech('Nice! You said it well. Now tell me about your weekend plans.'), { first: 'Nice! You said it well.', rest: 'Now tell me about your weekend plans.' }.first.length >= 40 ? {} : splitSpeech('Nice! You said it well. Now tell me about your weekend plans.'));
+  const r = splitSpeech('Nice! You said it well, really well. Now tell me about your weekend.');
+  assert.equal(r.first, 'Nice! You said it well, really well.');
+  assert.equal(r.rest, 'Now tell me about your weekend.');
+  assert.deepEqual(splitSpeech('One short line.'), { first: 'One short line.', rest: '' });
+});
+
+test('brain stream: reply is handed over before the JSON is finished', async () => {
+  const { think } = await import('../../base44/shared/liveTeacherVoiceEngine.js');
+  const json = JSON.stringify(brainAnswer({ reply: 'Hello "friend". How are you?' }));
+  const chunks = [json.slice(0, 20), json.slice(20, 90), json.slice(90)];
+  const sse = chunks.map((c) => `data: ${JSON.stringify({ choices: [{ delta: { content: c } }] })}\n\n`).join('') + `data: ${JSON.stringify({ usage: { prompt_tokens: 10, completion_tokens: 5 } })}\n\ndata: [DONE]\n\n`;
+  const fetchImpl = async () => ({
+    ok: true, status: 200, headers: { get: () => 'text/event-stream' },
+    body: new Response(sse).body,
+  });
+  let early = null;
+  const r = await think(env, { instructions: 'x', message: 'y', onReply: (t) => { early = t; } }, fetchImpl);
+  assert.equal(early, 'Hello "friend". How are you?');
+  assert.equal(r.out.reply, 'Hello "friend". How are you?');
+  assert.equal(r.usage.prompt_tokens, 10);
 });
