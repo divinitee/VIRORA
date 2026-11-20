@@ -148,7 +148,7 @@
 147	C	tenses.future.arrangement-continuous	B1	1	live	Present continuous for a fixed future arrangement
 148	C	tenses.future.future-continuous	B1	1	live	Future continuous for an action in progress at a future time
 149	C	tenses.future.timetable-simple	B1	1	todo	Present simple for a timetabled future event
-150	C	tenses.used-to.didnt-use-to	B1	1	todo	Negative: didn't use to (no -d after did)
+150	C	tenses.used-to.didnt-use-to	B1	1	live	Negative: didn't use to (no -d after did)
 151	C	tenses.used-to.used-to-state	B1	2	live	used to + base form for a discontinued past state | Productive used to for a discontinued habit or state
 152	C	nouns-articles.articles.the-second-mention	B1	1	todo	a on first mention, the on second mention
 153	C	nouns-articles.articles.zero-article-general	B1	2	todo	Zero article with plural nouns used generally | Zero article with uncountable abstract nouns used generally

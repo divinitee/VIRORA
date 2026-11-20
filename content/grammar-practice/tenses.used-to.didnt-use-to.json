@@ -817,7 +817,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
-  "source": "I ______ (study) hard at {school}, but now I study every {time}.",
+  "source": "I ______ (study) hard at {school}, but now I work hard every {time}.",
   "key": "didn't use to study",
   "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to study. After did, write use with no -d.",
   "slots": {
@@ -1012,7 +1012,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
-  "source": "I ______ (take) the {transport}, but now I take it every {time}.",
+  "source": "I ______ (take) the {transport}, but now I'm on it every {time}.",
   "key": "didn't use to take",
   "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to take. After did, write use with no -d.",
   "slots": {

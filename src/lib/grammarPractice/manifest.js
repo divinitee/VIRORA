@@ -1836,6 +1836,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.used-to.didnt-use-to": {
+  "domain": "tenses",
+  "branch": "used-to",
+  "topic": "didnt-use-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 408,
+   "build": 409,
+   "transform": 244,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.used-to.used-to-state": {
   "domain": "tenses",
   "branch": "used-to",
