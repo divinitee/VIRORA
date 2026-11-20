@@ -102,20 +102,20 @@ const ANS = "Answer the question with the present perfect and so far.";
 // [instr, source, hint, key, why, slots]
 const TRANSFORM = [
   [NOW, "I read {n} books last month, {name}.", "I ______ {n} books so far this month, {name}.", "have read", WHY_P("have read"), { n: ["two", "three", "four", "five"], name: NAME }],
-  [NOW, "We had {n} tests last week.", "We ______ {n} tests so far this {period}.", "have had", WHY_P("have had"), { n: ["two", "three", "four"], period: ["week", "month", "term"] }],
+  [NOW, "We had {n} tests last week.", "We ______ {n} tests so far this {period}.", "have had", WHY_P("have had"), { n: ["two", "three", "four", "five"], period: ["week", "month", "term"] }],
   [NOW, "{name} made {n} new friends last year.", "{name} ______ {n} new friends so far this year.", "has made", WHY_P("has made"), { name: NAME, n: ["two", "three", "five", "ten"] }],
-  [NOW, "My brother won {n} prizes last season.", "My brother ______ {n} prizes so far this {period}.", "has won", WHY_P("has won"), { n: ["two", "three", "four"], period: ["season", "year", "month"] }],
+  [NOW, "My brother won {n} prizes last season.", "My brother ______ {n} prizes so far this {period}.", "has won", WHY_P("has won"), { n: ["two", "three", "four", "five"], period: ["season", "year", "month"] }],
   [NOW, "It snowed {n} times last winter, {name}.", "It ______ {n} times so far this winter, {name}.", "has snowed", WHY_P("has snowed"), { n: ["two", "three", "four", "five"], name: NAME }],
   [FIX, "So far today I drank {n} cups of tea, {name}.", "So far today I ______ {n} cups of tea, {name}.", "have drunk", "So far: the day is not finished, so the present perfect, have drunk.", { n: ["three", "four", "five", "six"], name: NAME }],
   [FIX, "Up to now, {name} visits us twice this {period}.", "Up to now, {name} ______ us twice this {period}.", "has visited", "Up to now needs the present perfect: has visited.", { name: NAME, period: ["week", "month", "year"] }],
   [FIX, "So far this {period}, we had very good weather.", "So far this {period}, we ______ very good weather.", "have had", "So far means the time is still going on: have had.", { period: ["week", "month", "spring", "summer"] }],
-  [FIX, "So far this season, our team had won every match, {name}.", "So far this season, our team ______ every match, {name}.", "has won", "Had won is for before another past time. The season is still on: has won.", { name: NAME }],
-  [FIX, "{name} doesn't call me so far today.", "{name} ______ me so far today.", "hasn't called", "So far today needs the present perfect: hasn't called.", { name: NAME }],
-  [ANS, "How many {thing} have you sent today, {name}? (three)", "I ______ three {thing} so far.", "have sent", WHY_P("have sent"), { thing: ["emails", "messages", "letters", "photos"], name: NAME }],
-  [ANS, "How many cups of {drink} has your father had today? (four)", "He ______ four cups so far.", "has had", WHY_P("has had"), { drink: ["tea", "coffee", "green tea"] }],
-  [ANS, "How many {thing} have you learned this week, {name}? (twenty)", "I ______ twenty {thing} so far.", "have learned", WHY_P("have learned"), { thing: ["new words", "verbs", "songs", "phrases"], name: NAME }],
-  [ANS, "How many times has it rained this {period}? (twice)", "It ______ twice so far.", "has rained", WHY_P("has rained"), { period: ["week", "month", "spring"] }],
-  [ANS, "How many {game} has your team played this year, {name}? (six)", "We ______ six {game} so far.", "have played", WHY_P("have played"), { game: ["matches", "games", "home matches", "finals"], name: NAME }],
+  [FIX, "So far this season, our team had won every {game}, {name}.", "So far this season, our team ______ every {game}, {name}.", "has won", "Had won is for before another past time. The season is still on: has won.", { game: ["match", "game", "home match", "away game"], name: NAME }],
+  [FIX, "{name} doesn't call me so far {period}.", "{name} ______ me so far {period}.", "hasn't called", "So far needs the present perfect: hasn't called.", { name: NAME, period: ["today", "this week", "this month", "this weekend"] }],
+  [ANS, "How many {thing} have you sent today, {name}? Three.", "I ______ three {thing} so far.", "have sent", WHY_P("have sent"), { thing: ["emails", "messages", "letters", "photos"], name: NAME }],
+  [ANS, "How many cups of {drink} has your {who} had today? Four.", "He ______ four cups so far.", "has had", WHY_P("has had"), { drink: ["tea", "coffee", "green tea"], who: ["father", "grandfather", "uncle", "brother"] }],
+  [ANS, "How many {thing} have you learned this week, {name}? Twenty.", "I ______ twenty {thing} so far.", "have learned", WHY_P("have learned"), { thing: ["new words", "verbs", "songs", "phrases"], name: NAME }],
+  [ANS, "How many times has it rained this {period}, {name}? Twice.", "It ______ twice so far, {name}.", "has rained", WHY_P("has rained"), { period: ["week", "month", "spring"], name: NAME }],
+  [ANS, "How many {game} has your team played this year, {name}? Six.", "We ______ six {game} so far.", "have played", WHY_P("have played"), { game: ["matches", "games", "home matches", "finals"], name: NAME }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));
 
 /* ---------------- create: 8 ---------------- */

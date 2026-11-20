@@ -1766,6 +1766,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.perfect.unfinished-time": {
+  "domain": "tenses",
+  "branch": "perfect",
+  "topic": "unfinished-time",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 364,
+   "build": 208,
+   "transform": 208,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.present.continuous-negative": {
   "domain": "tenses",
   "branch": "present",

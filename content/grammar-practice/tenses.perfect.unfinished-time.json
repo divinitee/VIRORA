@@ -1164,7 +1164,8 @@
    "n": [
     "two",
     "three",
-    "four"
+    "four",
+    "five"
    ],
    "period": [
     "week",
@@ -1218,7 +1219,8 @@
    "n": [
     "two",
     "three",
-    "four"
+    "four",
+    "five"
    ],
    "period": [
     "season",
@@ -1341,11 +1343,17 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "So far this season, our team had won every match, {name}.",
-  "hint": "So far this season, our team ______ every match, {name}.",
+  "source": "So far this season, our team had won every {game}, {name}.",
+  "hint": "So far this season, our team ______ every {game}, {name}.",
   "key": "has won",
   "why": "Had won is for before another past time. The season is still on: has won.",
   "slots": {
+   "game": [
+    "match",
+    "game",
+    "home match",
+    "away game"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1363,16 +1371,22 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "{name} doesn't call me so far today.",
-  "hint": "{name} ______ me so far today.",
+  "source": "{name} doesn't call me so far {period}.",
+  "hint": "{name} ______ me so far {period}.",
   "key": "hasn't called",
-  "why": "So far today needs the present perfect: hasn't called.",
+  "why": "So far needs the present perfect: hasn't called.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "period": [
+    "today",
+    "this week",
+    "this month",
+    "this weekend"
    ]
   }
  },
@@ -1385,7 +1399,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question with the present perfect and so far.",
-  "source": "How many {thing} have you sent today, {name}? (three)",
+  "source": "How many {thing} have you sent today, {name}? Three.",
   "hint": "I ______ three {thing} so far.",
   "key": "have sent",
   "why": "So far / up to now means the time is not finished yet, so use the present perfect: have sent.",
@@ -1413,7 +1427,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question with the present perfect and so far.",
-  "source": "How many cups of {drink} has your father had today? (four)",
+  "source": "How many cups of {drink} has your {who} had today? Four.",
   "hint": "He ______ four cups so far.",
   "key": "has had",
   "why": "So far / up to now means the time is not finished yet, so use the present perfect: has had.",
@@ -1422,6 +1436,12 @@
     "tea",
     "coffee",
     "green tea"
+   ],
+   "who": [
+    "father",
+    "grandfather",
+    "uncle",
+    "brother"
    ]
   }
  },
@@ -1434,7 +1454,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question with the present perfect and so far.",
-  "source": "How many {thing} have you learned this week, {name}? (twenty)",
+  "source": "How many {thing} have you learned this week, {name}? Twenty.",
   "hint": "I ______ twenty {thing} so far.",
   "key": "have learned",
   "why": "So far / up to now means the time is not finished yet, so use the present perfect: have learned.",
@@ -1462,8 +1482,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question with the present perfect and so far.",
-  "source": "How many times has it rained this {period}? (twice)",
-  "hint": "It ______ twice so far.",
+  "source": "How many times has it rained this {period}, {name}? Twice.",
+  "hint": "It ______ twice so far, {name}.",
   "key": "has rained",
   "why": "So far / up to now means the time is not finished yet, so use the present perfect: has rained.",
   "slots": {
@@ -1471,6 +1491,12 @@
     "week",
     "month",
     "spring"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
    ]
   }
  },
@@ -1483,7 +1509,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Answer the question with the present perfect and so far.",
-  "source": "How many {game} has your team played this year, {name}? (six)",
+  "source": "How many {game} has your team played this year, {name}? Six.",
   "hint": "We ______ six {game} so far.",
   "key": "have played",
   "why": "So far / up to now means the time is not finished yet, so use the present perfect: have played.",
