@@ -632,6 +632,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "nouns-articles.quantifiers.both-either-neither": {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 272,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.quantifiers.few-little": {
   "domain": "nouns-articles",
   "branch": "quantifiers",

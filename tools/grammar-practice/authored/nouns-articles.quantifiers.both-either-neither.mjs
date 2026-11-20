@@ -72,7 +72,7 @@ const CHOOSE = [
 /* ---------------- build: 20 gap_fill ---------------- */
 const INSTR_B = "Write both, either or neither.";
 const BUILD = [
-  ["Both", "bn", "______ Aziz and his sister speak {lang} well. They learned it at {place}.", { lang: ["Russian", "English", "Korean", "Turkish"], place: ["school", "home", "a course", "university"] }],
+  ["Both", "bn", "______ Aziz and his sister speak {lang} well. They learned it at {place}.", { lang: ["Russian", "English", "Korean", "Turkish"], place: ["school", "home", "a language school", "university"] }],
   ["Neither", "nn", "______ my brother nor my sister likes {food}, {name}.", { food: ["fish", "eggs", "onions", "mushrooms"], name: NAME }],
   ["either", "eo", "You can come to the {place} ______ on Monday or on Friday, {name}.", { place: ["club", "office", "lesson", "class"], name: NAME }],
   ["Both", "b", "My sisters are twins. ______ of them were born on the {day} of May, {name}.", { day: ["first", "fifth", "tenth", "twelfth"], name: NAME }],
@@ -101,22 +101,22 @@ const EIT = "Rewrite with either.";
 const TRANSFORM = [
   // both (5)
   [BOTH, "My mum likes {food}. My dad likes {food} too, {name}.", "______ my mum ______ my dad like {food}, {name}.", ["Both", "and"], WHY.bn, { food: ["plov", "fish", "green tea", "melons"], name: NAME }],
-  [BOTH, "Olga lives in {city}. Lola lives in {city} too.", "______ Olga ______ Lola live in {city}.", ["Both", "and"], WHY.bn, { city: ["Tashkent", "Bukhara", "Andijan", "Moscow"] }],
+  [BOTH, "Olga works at a {place} in {city}. Lola works at a {place} in {city} too.", "______ Olga ______ Lola work at a {place} in {city}.", ["Both", "and"], WHY.bn, { place: ["hotel", "bank", "school", "hospital"], city: ["Tashkent", "Bukhara", "Andijan", "Moscow"] }],
   [BOTH, "My brother plays {sport}. My cousin plays {sport} too, {name}.", "______ my brother ______ my cousin play {sport}, {name}.", ["Both", "and"], WHY.bn, { sport: ["football", "chess", "tennis", "volleyball"], name: NAME }],
   [BOTH, "The kitchen is {adj}. The bathroom is {adj} too, {name}.", "______ the kitchen ______ the bathroom are {adj}, {name}.", ["Both", "and"], WHY.bn, { adj: ["small", "clean", "new", "cold"], name: NAME }],
   [BOTH, "I've got two sisters. One is a {job}, and the other is a {job} too, {name}.", "I've got two sisters. ______ of them are {job}s, {name}.", "Both", WHY.b, { job: ["doctor", "teacher", "nurse", "student"], name: NAME }],
   // neither ... nor (5)
   [NEI, "My brother doesn't eat {food}. My sister doesn't eat {food} either, {name}.", "______ my brother ______ my sister eats {food}, {name}.", ["Neither", "nor"], WHY.nn, { food: ["fish", "onions", "eggs", "carrots"], name: NAME }],
-  [NEI, "Aziz wasn't at the {event}. Timur wasn't there either.", "______ Aziz ______ Timur was at the {event}.", ["Neither", "nor"], WHY.nn, { event: ["party", "meeting", "lesson", "match"] }],
-  [NEI, "The red jacket isn't cheap. The black one isn't cheap either, {name}.", "______ the red jacket ______ the black one is cheap, {name}.", ["Neither", "nor"], WHY.nn, { name: NAME }],
-  [NEI, "My phone doesn't work. My laptop doesn't work either, {name}.", "______ my phone ______ my laptop works, {name}.", ["Neither", "nor"], WHY.nn, { name: NAME }],
-  [NEI, "My dad can't come to the {event}. My mum can't come either.", "______ my dad ______ my mum can come to the {event}.", ["Neither", "nor"], WHY.nn, { event: ["concert", "meeting", "show", "match"] }],
+  [NEI, "Aziz wasn't at the {event} {when}. Timur wasn't there either.", "______ Aziz ______ Timur was at the {event} {when}.", ["Neither", "nor"], WHY.nn, { event: ["party", "meeting", "lesson", "match"], when: ["yesterday", "on Friday", "last night", "this morning"] }],
+  [NEI, "The red jacket in this {shop} isn't cheap. The black one isn't cheap either, {name}.", "______ the red jacket ______ the black one in this {shop} is cheap, {name}.", ["Neither", "nor"], WHY.nn, { shop: ["shop", "market", "mall", "store"], name: NAME }],
+  [NEI, "My sister isn't {adj}. My brother isn't {adj} either, {name}.", "______ my sister ______ my brother is {adj}, {name}.", ["Neither", "nor"], WHY.nn, { adj: ["tall", "lazy", "shy", "noisy"], name: NAME }],
+  [NEI, "My dad can't come to the {event} {when}. My mum can't come either.", "______ my dad ______ my mum can come to the {event} {when}.", ["Neither", "nor"], WHY.nn, { event: ["concert", "meeting", "show", "match"], when: ["tonight", "on Sunday", "tomorrow", "this week"] }],
   // either (5)
   [EIT, "You can go to the {place} by bus, or you can go by taxi, {name}.", "You can go to the {place} ______ by bus ______ by taxi, {name}.", ["either", "or"], WHY.eo, { place: ["station", "bazaar", "airport", "museum"], name: NAME }],
   [EIT, "We can meet at the {place} on Saturday, or we can meet there on Sunday, {name}.", "We can meet at the {place} ______ on Saturday ______ on Sunday, {name}.", ["either", "or"], WHY.eo, { place: ["park", "café", "library", "station"], name: NAME }],
   [EIT, "After {meal} you can have tea, or you can have coffee, {name}.", "After {meal} you can have ______ tea ______ coffee, {name}.", ["either", "or"], WHY.eo, { meal: ["lunch", "dinner", "class", "the lesson"], name: NAME }],
   [EIT, "I didn't see your brother at the {event}, and I didn't see your sister there, {name}.", "I didn't see ______ of them at the {event}, {name}.", "either", WHY.en, { event: ["wedding", "party", "match", "concert"], name: NAME }],
-  [EIT, "Maybe Olga will call you {when}, or maybe Lola will.", "______ Olga ______ Lola will call you {when}.", ["Either", "or"], WHY.eo, { when: ["tonight", "tomorrow", "after lunch", "later"] }],
+  [EIT, "Maybe Olga will call you {when}, {name}, or maybe Lola will.", "______ Olga ______ Lola will call you {when}, {name}.", ["Either", "or"], WHY.eo, { when: ["tonight", "tomorrow", "after lunch", "later"], name: ["Aziz", "Timur", "Bobur", "Rustam"] }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: pick(source + hint, slots) }));
 
 /* ---------------- create: 8 ---------------- */

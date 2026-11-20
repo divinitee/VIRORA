@@ -637,7 +637,7 @@
    "place": [
     "school",
     "home",
-    "a course",
+    "a language school",
     "university"
    ]
   }
@@ -1195,14 +1195,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with both.",
-  "source": "Olga lives in {city}. Lola lives in {city} too.",
-  "hint": "______ Olga ______ Lola live in {city}.",
+  "source": "Olga works at a {place} in {city}. Lola works at a {place} in {city} too.",
+  "hint": "______ Olga ______ Lola work at a {place} in {city}.",
   "key": [
    "Both",
    "and"
   ],
   "why": "both … and joins two things that are both true.",
   "slots": {
+   "place": [
+    "hotel",
+    "bank",
+    "school",
+    "hospital"
+   ],
    "city": [
     "Tashkent",
     "Bukhara",
@@ -1341,8 +1347,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with neither … nor.",
-  "source": "Aziz wasn't at the {event}. Timur wasn't there either.",
-  "hint": "______ Aziz ______ Timur was at the {event}.",
+  "source": "Aziz wasn't at the {event} {when}. Timur wasn't there either.",
+  "hint": "______ Aziz ______ Timur was at the {event} {when}.",
   "key": [
    "Neither",
    "nor"
@@ -1354,6 +1360,12 @@
     "meeting",
     "lesson",
     "match"
+   ],
+   "when": [
+    "yesterday",
+    "on Friday",
+    "last night",
+    "this morning"
    ]
   }
  },
@@ -1366,14 +1378,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with neither … nor.",
-  "source": "The red jacket isn't cheap. The black one isn't cheap either, {name}.",
-  "hint": "______ the red jacket ______ the black one is cheap, {name}.",
+  "source": "The red jacket in this {shop} isn't cheap. The black one isn't cheap either, {name}.",
+  "hint": "______ the red jacket ______ the black one in this {shop} is cheap, {name}.",
   "key": [
    "Neither",
    "nor"
   ],
   "why": "neither … nor joins two things that are both not true.",
   "slots": {
+   "shop": [
+    "shop",
+    "market",
+    "mall",
+    "store"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1391,14 +1409,20 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with neither … nor.",
-  "source": "My phone doesn't work. My laptop doesn't work either, {name}.",
-  "hint": "______ my phone ______ my laptop works, {name}.",
+  "source": "My sister isn't {adj}. My brother isn't {adj} either, {name}.",
+  "hint": "______ my sister ______ my brother is {adj}, {name}.",
   "key": [
    "Neither",
    "nor"
   ],
   "why": "neither … nor joins two things that are both not true.",
   "slots": {
+   "adj": [
+    "tall",
+    "lazy",
+    "shy",
+    "noisy"
+   ],
    "name": [
     "Aziz",
     "Olga",
@@ -1416,8 +1440,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with neither … nor.",
-  "source": "My dad can't come to the {event}. My mum can't come either.",
-  "hint": "______ my dad ______ my mum can come to the {event}.",
+  "source": "My dad can't come to the {event} {when}. My mum can't come either.",
+  "hint": "______ my dad ______ my mum can come to the {event} {when}.",
   "key": [
    "Neither",
    "nor"
@@ -1429,6 +1453,12 @@
     "meeting",
     "show",
     "match"
+   ],
+   "when": [
+    "tonight",
+    "on Sunday",
+    "tomorrow",
+    "this week"
    ]
   }
  },
@@ -1562,8 +1592,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with either.",
-  "source": "Maybe Olga will call you {when}, or maybe Lola will.",
-  "hint": "______ Olga ______ Lola will call you {when}.",
+  "source": "Maybe Olga will call you {when}, {name}, or maybe Lola will.",
+  "hint": "______ Olga ______ Lola will call you {when}, {name}.",
   "key": [
    "Either",
    "or"
@@ -1575,6 +1605,12 @@
     "tomorrow",
     "after lunch",
     "later"
+   ],
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
    ]
   }
  },
