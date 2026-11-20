@@ -365,7 +365,7 @@ export default [
   "options": [
    "more angrier and angrier",
    "angrier and angrier",
-   "more and more angry",
+   "the angrier",
    "angry and angry"
   ],
   "key": 1,
@@ -396,7 +396,7 @@ export default [
   "prompt": "The roads in our {city} are getting ______, {name}.",
   "options": [
    "busier and busier",
-   "more and more busy",
+   "the busier",
    "busy and busy",
    "more busier and busier"
   ],
@@ -493,7 +493,7 @@ export default [
   "options": [
    "more hungrier and hungrier",
    "hungrier and hungrier",
-   "more and more hungry",
+   "the hungrier",
    "hungry and hungry"
   ],
   "key": 1,
@@ -524,7 +524,7 @@ export default [
   "prompt": "My {bag} got ______ as I put more books in it, {name}.",
   "options": [
    "heavier and heavier",
-   "more and more heavy",
+   "the heavier",
    "heavy and heavy",
    "more heavier and heavier"
   ],
@@ -895,6 +895,9 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "Our {shop} is getting ______ (busy) before Navruz, {name}.",
   "key": "busier and busier",
+  "acceptable": [
+   "more and more busy"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
   "slots": {
    "shop": [
@@ -1057,6 +1060,9 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The {who} waited in the traffic. He got ______ (angry), {name}.",
   "key": "angrier and angrier",
+  "acceptable": [
+   "more and more angry"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
   "slots": {
    "who": [
@@ -1265,6 +1271,9 @@ export default [
   "source": "The {city} roads get a little busier every year, {name}.",
   "hint": "The {city} roads are getting ______, {name}.",
   "key": "busier and busier",
+  "acceptable": [
+   "more and more busy"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
   "slots": {
    "city": [
@@ -1489,6 +1498,9 @@ export default [
   "source": "At first my bag was heavy. Then it was heavier. At the end it was very heavy, {name}.",
   "hint": "My bag got ______, {name}.",
   "key": "heavier and heavier",
+  "acceptable": [
+   "more and more heavy"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, heavier and heavier.",
   "slots": {
    "name": [
@@ -1567,6 +1579,9 @@ export default [
   "source": "At first {name} was angry. Then she was angrier. In the end she shouted.",
   "hint": "{name} got ______.",
   "key": "angrier and angrier",
+  "acceptable": [
+   "more and more angry"
+  ],
   "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
   "slots": {
    "name": [

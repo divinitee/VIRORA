@@ -972,15 +972,15 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
-  "source": "Good news! We ______ (finish) the {work} early, {name}.",
+  "source": "Since we got the new {tool}, we ______ (finish) work early every day, {name}.",
   "key": "have been able to finish",
   "why": "can has no present perfect form: have (haven't) been able to + base verb.",
   "slots": {
-   "work": [
-    "project",
-    "report",
-    "house",
-    "garden"
+   "tool": [
+    "computer",
+    "printer",
+    "car",
+    "machine"
    ],
    "name": [
     "Feruza",
@@ -1552,7 +1552,7 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with have / has (or haven't / hasn't) been able to.",
-  "source": "They wanted us at their house this {time}, but there was never a free day, {name}.",
+  "source": "They wanted to visit us this {time}, but they never had a free day, {name}.",
   "hint": "They ______ visit us this {time}, {name}.",
   "key": "haven't been able to",
   "why": "can has no present perfect form: have (haven't) been able to + base verb.",

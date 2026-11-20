@@ -186,10 +186,10 @@ export default [
     "Rustam"
    ],
    "event": [
-    "your birthday",
     "Navruz",
     "New Year",
-    "dinner"
+    "dinner",
+    "the holiday"
    ],
    "who": [
     "sister",
@@ -817,10 +817,10 @@ export default [
     "Rustam"
    ],
    "event": [
-    "your birthday",
     "Navruz",
     "New Year",
-    "dinner"
+    "dinner",
+    "the holiday"
    ],
    "who": [
     "sister",

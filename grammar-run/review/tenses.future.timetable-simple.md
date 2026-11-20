@@ -12,7 +12,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: start · started · starting · ✔ starts  
    why: A future event on a timetable takes the present simple. One train, film or shop → starts.
 
-3. Our **maths** lesson ______ at **ten** on Monday.  
+3. Our **maths** lesson ______ at **ten** next Monday.  
    options: started · starting · ✔ starts · start  
    why: A future event on a timetable takes the present simple. One train, film or shop → starts.
 
@@ -24,7 +24,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ finishes · finish · finished · finishing  
    why: A future event on a timetable takes the present simple. One train, film or shop → finishes.
 
-6. My flight to **Moscow** ______ off at **midnight** on Friday.  
+6. My flight to **Moscow** ______ off at **midnight** next Friday.  
    options: take · took · taking · ✔ takes  
    why: A future event on a timetable takes the present simple. One train, film or shop → takes.
 
@@ -36,7 +36,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: leaving · ✔ leaves · leave · left  
    why: A future event on a timetable takes the present simple. One train, film or shop → leaves.
 
-9. The **exhibition** ______ at **six** on Saturday.  
+9. The **exhibition** ______ at **six** next Saturday.  
    options: ✔ ends · end · ended · ending  
    why: A future event on a timetable takes the present simple. One train, film or shop → ends.
 
@@ -48,7 +48,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ran · running · ✔ run · runs  
    why: A timetable future takes the present simple. More than one → the base form, run.
 
-12. The shops in our **district** ______ at **seven** on Sunday.  
+12. The shops in our **district** ______ at **seven** next Sunday.  
    options: closing · ✔ close · closes · closed  
    why: A timetable future takes the present simple. More than one → the base form, close.
 
@@ -92,7 +92,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A future event on a timetable takes the present simple. One train, film or shop → leaves.
 
 2. _It's on the timetable. Write the verb in brackets in the present simple._  
-   Our **art** class ______ (start) at **nine** on Monday.  
+   Our **art** class ______ (start) at **nine** next Monday.  
    key: starts  
    why: A future event on a timetable takes the present simple. One train, film or shop → starts.
 
@@ -107,7 +107,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A future event on a timetable takes the present simple. One train, film or shop → finishes.
 
 5. _It's on the timetable. Write the verb in brackets in the present simple._  
-   Our plane ______ (land) in **Moscow** at **7:30** on Sunday.  
+   Our plane ______ (land) in **Moscow** at **7:30** next Sunday.  
    key: lands  
    why: A future event on a timetable takes the present simple. One train, film or shop → lands.
 

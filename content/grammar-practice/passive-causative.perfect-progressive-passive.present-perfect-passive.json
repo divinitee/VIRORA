@@ -327,21 +327,21 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The time of the {event} ______. It's now at seven, {name}.",
+  "prompt": "Your {thing} ______. You can pick it up now, {name}.",
   "options": [
-   "is been changed",
-   "has being changed",
-   "has been changed",
-   "has changed"
+   "is been repaired",
+   "has being repaired",
+   "has been repaired",
+   "has repaired"
   ],
   "key": 2,
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
-   "event": [
-    "match",
-    "meeting",
-    "concert",
-    "lesson"
+   "thing": [
+    "shoes",
+    "watch",
+    "phone",
+    "bike"
    ],
    "name": [
     "Zarina",
@@ -864,15 +864,15 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
-  "source": "The time of the {event} ______ (change), {name}.",
-  "key": "has been changed",
+  "source": "Your {thing} ______ (check). It's fine now, {name}.",
+  "key": "has been checked",
   "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
   "slots": {
-   "event": [
-    "match",
-    "meeting",
-    "concert",
-    "lesson"
+   "thing": [
+    "car",
+    "heater",
+    "laptop",
+    "bike"
    ],
    "name": [
     "Zarina",

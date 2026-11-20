@@ -785,8 +785,8 @@ export default [
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "My {who} ______ (want) to be a doctor since she was in {class}.",
-  "key": "have wanted",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have wanted. The since clause says when it started.",
+  "key": "has wanted",
+  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has wanted. The since clause says when it started.",
   "slots": {
    "who": [
     "sister",

@@ -123,8 +123,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 8. _Write the verb in brackets in the present perfect._  
    My **niece** ______ (want) to be a doctor since she was in **primary school**.  
-   key: have wanted  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have wanted. The since clause says when it started.
+   key: has wanted  
+   why: The time started in the past and goes on now, so the main clause takes the present perfect: has wanted. The since clause says when it started.
 
 9. _Write the verb in brackets in the present perfect._  
    My **grandfather** ______ (drive) the same **white car** since I was born.  

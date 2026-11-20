@@ -147,7 +147,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 13. _can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets._  
-   Good news! We ______ (finish) the **report** early, **Sardor**.  
+   Since we got the new **printer**, we ______ (finish) work early every day, **Sardor**.  
    key: have been able to finish  
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
@@ -267,7 +267,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: can has no present perfect form: have (haven't) been able to + base verb.
 
 14. _Rewrite with have / has (or haven't / hasn't) been able to._  
-   They wanted us at their house this **winter**, but there was never a free day, **Dilnoza**.  
+   They wanted to visit us this **winter**, but they never had a free day, **Dilnoza**.  
    → They ______ visit us this **winter**, **Dilnoza**.  
    key: haven't been able to  
    why: can has no present perfect form: have (haven't) been able to + base verb.

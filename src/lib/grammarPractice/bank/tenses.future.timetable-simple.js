@@ -73,7 +73,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our {subj} lesson ______ at {time} on Monday.",
+  "prompt": "Our {subj} lesson ______ at {time} next Monday.",
   "options": [
    "started",
    "starting",
@@ -169,7 +169,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My flight to {city} ______ off at {time} on Friday.",
+  "prompt": "My flight to {city} ______ off at {time} next Friday.",
   "options": [
    "take",
    "took",
@@ -265,7 +265,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {event} ______ at {time} on Saturday.",
+  "prompt": "The {event} ______ at {time} next Saturday.",
   "options": [
    "ends",
    "end",
@@ -361,7 +361,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The shops in our {area} ______ at {time} on Sunday.",
+  "prompt": "The shops in our {area} ______ at {time} next Sunday.",
   "options": [
    "closing",
    "close",
@@ -683,7 +683,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
-  "source": "Our {subj} class ______ (start) at {time} on Monday.",
+  "source": "Our {subj} class ______ (start) at {time} next Monday.",
   "key": "starts",
   "why": "A future event on a timetable takes the present simple. One train, film or shop → starts.",
   "slots": {
@@ -764,7 +764,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
-  "source": "Our plane ______ (land) in {city} at {time} on Sunday.",
+  "source": "Our plane ______ (land) in {city} at {time} next Sunday.",
   "key": "lands",
   "why": "A future event on a timetable takes the present simple. One train, film or shop → lands.",
   "slots": {

@@ -555,10 +555,10 @@ export default [
   "format": "mcq",
   "prompt": "The rooms ______ by {time} every day, {name}.",
   "options": [
-   "must be cleaned",
-   "must be clean",
-   "must cleaned",
-   "must clean"
+   "must be checked",
+   "must be check",
+   "must checked",
+   "must check"
   ],
   "key": 0,
   "why": "The subject receives the action: must be + past participle (passive).",

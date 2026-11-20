@@ -49,11 +49,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The change keeps growing: comparative + and + comparative, longer and longer.
 
 12. The **director** waited for an answer and got ______, **Otabek**.  
-   options: more angrier and angrier · ✔ angrier and angrier · more and more angry · angry and angry  
+   options: more angrier and angrier · ✔ angrier and angrier · the angrier · angry and angry  
    why: The change keeps growing: comparative + and + comparative, angrier and angrier.
 
 13. The roads in our **town** are getting ______, **Sardor**.  
-   options: ✔ busier and busier · more and more busy · busy and busy · more busier and busier  
+   options: ✔ busier and busier · the busier · busy and busy · more busier and busier  
    why: The change keeps growing: comparative + and + comparative, busier and busier.
 
 14. The **film** got ______ after the first chapter, **Dilnoza**.  
@@ -65,11 +65,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The change keeps growing: comparative + and + comparative, faster and faster.
 
 16. Dinner at the **hotel** was late, and we got ______, **Sardor**.  
-   options: more hungrier and hungrier · ✔ hungrier and hungrier · more and more hungry · hungry and hungry  
+   options: more hungrier and hungrier · ✔ hungrier and hungrier · the hungrier · hungry and hungry  
    why: The change keeps growing: comparative + and + comparative, hungrier and hungrier.
 
 17. My **bag** got ______ as I put more books in it, **Otabek**.  
-   options: ✔ heavier and heavier · more and more heavy · heavy and heavy · more heavier and heavier  
+   options: ✔ heavier and heavier · the heavier · heavy and heavy · more heavier and heavier  
    why: The change keeps growing: comparative + and + comparative, heavier and heavier.
 
 18. My mother got ______ when my brother didn't call **that night**, **Dilnoza**.  
@@ -133,7 +133,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 10. _Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets._  
    Our **bakery** is getting ______ (busy) before Navruz, **Feruza**.  
-   key: busier and busier  
+   key: busier and busier (also: more and more busy)  
    why: The change keeps growing: comparative + and + comparative, busier and busier.
 
 11. _Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets._  
@@ -163,7 +163,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 16. _Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets._  
    The **bus driver** waited in the traffic. He got ______ (angry), **Dilnoza**.  
-   key: angrier and angrier  
+   key: angrier and angrier (also: more and more angry)  
    why: The change keeps growing: comparative + and + comparative, angrier and angrier.
 
 17. _Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets._  
@@ -209,7 +209,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Rewrite with … and … (the comparative twice)._  
    The **Tashkent** roads get a little busier every year, **Sardor**.  
    → The **Tashkent** roads are getting ______, **Sardor**.  
-   key: busier and busier  
+   key: busier and busier (also: more and more busy)  
    why: The change keeps growing: comparative + and + comparative, busier and busier.
 
 5. _Rewrite with … and … (the comparative twice)._  
@@ -257,7 +257,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 12. _The change keeps growing. Rewrite the three sentences as one._  
    At first my bag was heavy. Then it was heavier. At the end it was very heavy, **Dilnoza**.  
    → My bag got ______, **Dilnoza**.  
-   key: heavier and heavier  
+   key: heavier and heavier (also: more and more heavy)  
    why: The change keeps growing: comparative + and + comparative, heavier and heavier.
 
 13. _The change keeps growing. Rewrite the three sentences as one._  
@@ -275,7 +275,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _The change keeps growing. Rewrite the three sentences as one._  
    At first **Madina** was angry. Then she was angrier. In the end she shouted.  
    → **Madina** got ______.  
-   key: angrier and angrier  
+   key: angrier and angrier (also: more and more angry)  
    why: The change keeps growing: comparative + and + comparative, angrier and angrier.
 
 ## create (8)

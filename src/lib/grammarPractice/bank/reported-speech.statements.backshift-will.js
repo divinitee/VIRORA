@@ -67,7 +67,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last month the {who} said, 'The {place} will open in May.' He said the {place} ______ open in May.",
+  "prompt": "Last year the {who} said, 'The {place} will open in May.' He said the {place} ______ open in May. It opened in June.",
   "options": [
    "would to",
    "will be",
@@ -157,7 +157,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "On Friday {f} said, 'It will rain in {city} at the weekend.' She said it ______ rain in {city} at the weekend.",
+  "prompt": "Last month {f} said, 'It will rain in {city} at the weekend.' She said it ______ rain in {city} that weekend.",
   "options": [
    "will",
    "would to",
@@ -650,7 +650,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
-  "source": "Last month the {who} said the {place} ______ (will / open) in May.",
+  "source": "Last year the {who} said the {place} ______ (will / open) in May. It opened in June.",
   "key": "would open",
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
@@ -725,7 +725,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
-  "source": "On Friday {f} said it ______ (will / rain) in {city} at the weekend.",
+  "source": "Last month {f} said it ______ (will / rain) in {city} that weekend.",
   "key": "would rain",
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {

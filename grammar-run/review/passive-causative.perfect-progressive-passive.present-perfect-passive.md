@@ -44,8 +44,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: has cleaned · is been cleaned · has being cleaned · ✔ has been cleaned  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
-11. The time of the **match** ______. It's now at seven, **Zarina**.  
-   options: is been changed · has being changed · ✔ has been changed · has changed  
+11. Your **shoes** ______. You can pick it up now, **Zarina**.  
+   options: is been repaired · has being repaired · ✔ has been repaired · has repaired  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 12. The window in the **bathroom** ______ again, **Akmal**.  
@@ -127,8 +127,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 9. _Complete with has been or have been + the past participle of the verb in brackets._  
-   The time of the **match** ______ (change), **Sherzod**.  
-   key: has been changed  
+   Your **car** ______ (check). It's fine now, **Sherzod**.  
+   key: has been checked  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 10. _Complete with has been or have been + the past participle of the verb in brackets._  

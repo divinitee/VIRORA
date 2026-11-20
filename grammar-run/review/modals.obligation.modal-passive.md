@@ -73,7 +73,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The subject receives the action: must be + past participle (passive).
 
 18. The rooms ______ by **eleven** every day, **Zarina**.  
-   options: ✔ must be cleaned · must be clean · must cleaned · must clean  
+   options: ✔ must be checked · must be check · must checked · must check  
    why: The subject receives the action: must be + past participle (passive).
 
 19. The **school** form ______ in black ink, **Sherzod**.  

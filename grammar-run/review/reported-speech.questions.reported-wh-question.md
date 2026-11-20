@@ -24,7 +24,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ I was · was I · am I · did I be  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
-6. 'What do you want for **dinner**?' **Timur** asked his **wife**. He asked her what ______ for **dinner**.  
+6. 'What do you want for **the holiday**?' **Timur** asked his **wife**. He asked her what ______ for **the holiday**.  
    options: did she want · does she want · wanted she · ✔ she wanted  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
@@ -112,7 +112,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 6. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
-   'What do you want for **Navruz**?' **Aziz** asked his **sister**. He asked her what ______ for **Navruz**.  
+   'What do you want for **New Year**?' **Aziz** asked his **sister**. He asked her what ______ for **New Year**.  
    key: she wanted  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
