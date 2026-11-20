@@ -147,9 +147,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Keen on playing. The word keeps its preposition, and the verb after it takes -ing.
 
 13. _First gap: the preposition. Second gap: the -ing form of the verb in brackets._  
-   The **customer** complained ______ ______ (break) his phone at the shop, **Sherzod**.  
-   key: about + breaking  
-   why: Complain about + -ing. The word keeps its preposition, and the verb after it takes -ing.
+   The **customer** complained ______ ______ (pay) so much for parking, **Sherzod**.  
+   key: about + paying  
+   why: Complain about paying. The word keeps its preposition, and the verb after it takes -ing.
 
 14. _First gap: the preposition. Second gap: the -ing form of the verb in brackets._  
    Please concentrate ______ ______ (drive), **Malika**. The **mountain road** is dangerous.  

@@ -52,7 +52,7 @@ const CHOOSE = [
   ["about", "waiting", "wait", "for", "on", "The {who} complained ______ for so long.", { who: ["passengers", "patients", "customers", "guests"] }, "complain about + -ing: about waiting."],
   ["in", "eating", "eat", "on", "at", "My grandma believes ______ {food} every morning, {name}.", { food: ["porridge", "yoghurt", "a big breakfast", "fruit"] }, "believe in + -ing: in eating."],
   ["for", "making", "make", "of", "with", "Our village is famous ______ beautiful {thing}, {name}.", { thing: ["carpets", "plates", "pots", "scarves"] }, "famous for + -ing: for making."],
-  ["of", "telling", "tell", "on", "for", "Grandpa is fond ______ stories about his {time}.", { time: ["childhood", "army days", "school days", "first job"] }, "fond of + -ing: of telling."],
+  ["of", "telling", "tell", "on", "for", "Grandpa is fond ______ stories about his {time}.", { time: ["childhood", "village days", "school days", "first job"] }, "fond of + -ing: of telling."],
   ["at", "remembering", "remember", "in", "with", "I'm bad ______ {thing}, {name}. Sorry!", { thing: ["names", "birthdays", "phone numbers", "faces"] }, "bad at + -ing: at remembering."],
   ["of", "planning", "plan", "for", "on", "Who's in charge ______ the {event}?", { event: ["party", "trip", "wedding", "concert"] }, "in charge of + -ing: of planning."],
 ].map(([p, ing, base, w1, w2, prompt, slots, why], i) => {
@@ -63,8 +63,6 @@ const CHOOSE = [
   const options = o.map((_, j) => o[(j + i) % 4]);
   return { ...BASE, stage: "choose", format: "mcq", prompt: pr, options, key: options.indexOf(o[0]), why, slots: s };
 });
-// (army days is replaced below: no army topics)
-for (const it of CHOOSE) if (it.slots.time) it.slots.time = ["childhood", "village days", "school days", "first job"];
 
 /* ---------------- build: 20 gap_fill, two gaps ---------------- */
 const INSTR = "First gap: the preposition. Second gap: the -ing form of the verb in brackets.";
@@ -81,7 +79,7 @@ const BUILD = [
   [["from", "going"], "The snow stopped us ______ ______ (go) to {city}, {name}.", { city: ["Chimgan", "Samarkand", "Jizzakh", "Angren"] }, "stop someone from going."],
   [["for", "looking"], "Who is responsible ______ ______ (look) after the {animal}, {name}?", { animal: ["dog", "cat", "horses", "chickens"] }, "responsible for looking after."],
   [["on", "playing"], "My son is very keen ______ ______ (play) {game}, {name}.", { game: ["chess", "football", "tennis", "the piano"] }, "keen on playing."],
-  [["about", "breaking"], "The {who} complained ______ ______ (break) his phone at the shop.", { who: ["man", "customer", "boy", "student"] }, "complain about + -ing."],
+  [["about", "paying"], "The {who} complained ______ ______ (pay) so much for parking.", { who: ["man", "customer", "driver", "tourists"] }, "complain about paying."],
   [["on", "driving"], "Please concentrate ______ ______ (drive), {name}. The {road} is dangerous.", { road: ["road", "mountain road", "bridge", "motorway"] }, "concentrate on driving."],
   [["at", "making"], "My aunt is excellent ______ ______ (make) {food}, {name}.", { food: ["cakes", "bread", "samsa", "pancakes"] }, "excellent at making."],
   [["of", "taking"], "My cousin is fond ______ ______ (take) photos of {thing}, {name}.", { thing: ["birds", "flowers", "old buildings", "the sky"] }, "fond of taking."],

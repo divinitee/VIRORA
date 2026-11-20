@@ -1008,18 +1008,18 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "First gap: the preposition. Second gap: the -ing form of the verb in brackets.",
-  "source": "The {who} complained ______ ______ (break) his phone at the shop, {name}.",
+  "source": "The {who} complained ______ ______ (pay) so much for parking, {name}.",
   "key": [
    "about",
-   "breaking"
+   "paying"
   ],
-  "why": "Complain about + -ing. The word keeps its preposition, and the verb after it takes -ing.",
+  "why": "Complain about paying. The word keeps its preposition, and the verb after it takes -ing.",
   "slots": {
    "who": [
     "man",
     "customer",
-    "boy",
-    "student"
+    "driver",
+    "tourists"
    ],
    "name": [
     "Dilnoza",
