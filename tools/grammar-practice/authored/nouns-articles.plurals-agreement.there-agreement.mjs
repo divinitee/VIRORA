@@ -29,7 +29,7 @@ const pick = (text, slots) => {
 };
 const first = (t) => (t.match(/______ (?:\(be\) )?(.+?) and /) || [])[1];
 const WHY = (t, k) => {
-  const n = first(t);
+  const n = first(t).replace(/\{[a-z]+\}/, "things");
   return ["is", "was"].includes(k)
     ? `After there, the verb agrees with the first thing in the list: ${n}. That is one thing (or uncountable), so use ${k}.`
     : `After there, the verb agrees with the first thing in the list: ${n}. That is plural, so use ${k}.`;
@@ -66,23 +66,23 @@ const CHOOSE = [
 const P = "Write is or are.";
 const PA = "Write was or were.";
 const BUILD = [
-  ["is", P, "There ______ (be) a sofa and two armchairs in the {room}, {name}.", { room: ["living room", "hall", "flat", "office"], name: NAME }],
+  ["is", P, "In the {room} there ______ (be) a sofa and two armchairs, {name}.", { room: ["living room", "hall", "flat", "office"], name: NAME }],
   ["are", P, "There ______ (be) three bedrooms and a kitchen in our new {home}, {name}.", { home: ["flat", "house", "dacha", "place"], name: NAME }],
   ["is", P, "There ______ (be) a lot of snow and some ice on the {place} today, {name}.", { place: ["road", "street", "roof", "bridge"], name: NAME }],
   ["are", P, "There ______ (be) many cars and a bus on the {road} now, {name}.", { road: ["road", "street", "bridge", "square"], name: NAME }],
-  ["is", P, "There ______ (be) a cat and three kittens under the {place}, {name}.", { place: ["table", "car", "bed", "stairs"], name: NAME }],
-  ["are", P, "There ______ (be) two dogs and a horse on my uncle's {place}, {name}.", { place: ["farm", "land", "field", "dacha"], name: NAME }],
+  ["is", P, "Look, {name}! There ______ (be) a cat and three kittens under the {place}.", { place: ["table", "car", "bed", "stairs"], name: NAME }],
+  ["are", P, "There ______ (be) two dogs and a horse on my uncle's {place}, {name}.", { place: ["farm", "land", "field", "plot"], name: NAME }],
   ["was", PA, "There ______ (be) a cake and some sweets on the table {when}, {name}.", { when: ["last night", "yesterday", "at the party", "this morning"], name: NAME }],
   ["were", PA, "There ______ (be) twenty guests and a singer at the {event} last week, {name}.", { event: ["wedding", "party", "dinner", "concert"], name: NAME }],
   ["is", P, "There ______ (be) some juice and two sandwiches in your {bag}, {name}.", { bag: ["bag", "backpack", "lunch box", "basket"], name: NAME }],
   ["are", P, "There ______ (be) thirty students and one teacher in our {group}, {name}.", { group: ["class", "group", "course", "club"], name: NAME }],
   ["was", PA, "There ______ (be) a lot of noise and two loud cars outside {when}, {name}.", { when: ["last night", "at six", "this morning", "after dinner"], name: NAME }],
   ["were", PA, "There ______ (be) three {things} and a map on the wall of my old room, {name}.", { things: ["photos", "pictures", "posters", "clocks"], name: NAME }],
-  ["is", P, "There ______ (be) a bus stop and two shops near my {place}, {name}.", { place: ["house", "school", "flat", "college"], name: NAME }],
+  ["is", P, "Near my {place} there ______ (be) a bus stop and two shops, {name}.", { place: ["house", "school", "flat", "college"], name: NAME }],
   ["are", P, "There ______ (be) many trees and a small lake in the {place}, {name}.", { place: ["park", "garden", "village", "yard"], name: NAME }],
-  ["is", P, "There ______ (be) a teacher and five students in the {room} now, {name}.", { room: ["lab", "library", "hall", "classroom"], name: NAME }],
+  ["is", P, "Right now there ______ (be) a teacher and five students in the {room}, {name}.", { room: ["lab", "library", "hall", "classroom"], name: NAME }],
   ["are", P, "There ______ (be) some cups and a teapot on the {place}, {name}.", { place: ["table", "tray", "shelf", "desk"], name: NAME }],
-  ["was", PA, "There ______ (be) a girl and two boys at the door {when}, {name}.", { when: ["an hour ago", "this morning", "at five", "yesterday"], name: NAME }],
+  ["was", PA, "{when}, there ______ (be) a girl and two boys at the door, {name}.", { when: ["An hour ago", "This morning", "At five", "Yesterday"], name: NAME }],
   ["were", PA, "There ______ (be) lots of people and a band in the {place} {when}.", { place: ["square", "park", "street", "hall"], when: ["last night", "on Sunday", "yesterday", "at Navruz"] }],
   ["is", P, "There ______ (be) an orange and two apples for you, {name}. Take them to {place}.", { name: NAME, place: ["school", "work", "college", "the park"] }],
   ["are", P, "There ______ (be) two messages and a missed call from {who} on your phone, {name}.", { who: ["Mum", "Dad", "your teacher", "your boss"], name: NAME }],

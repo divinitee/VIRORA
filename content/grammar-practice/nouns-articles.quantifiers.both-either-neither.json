@@ -1,0 +1,1789 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mum can {skill}, and my dad can too. ______ of my parents can {skill}, {name}.",
+  "options": [
+   "both",
+   "neither",
+   "either",
+   "none"
+  ],
+  "key": 0,
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "skill": [
+    "drive",
+    "swim",
+    "cook plov",
+    "speak Russian"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz can't {skill}, and Timur can't either. ______ of them can {skill}.",
+  "options": [
+   "neither",
+   "either",
+   "none",
+   "both"
+  ],
+  "key": 0,
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "skill": [
+    "swim",
+    "ski",
+    "cook",
+    "ride a horse"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There are two buses to the {place}, the 12 and the 45. You can take ______ of them, {name}.",
+  "options": [
+   "either",
+   "none",
+   "both",
+   "neither"
+  ],
+  "key": 0,
+  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "slots": {
+   "place": [
+    "bazaar",
+    "station",
+    "university",
+    "airport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ my grandparents live in {city}, {name}. They have a house there.",
+  "options": [
+   "None",
+   "Both",
+   "Neither",
+   "Either"
+  ],
+  "key": 1,
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Termez",
+    "Nukus",
+    "Jizzakh"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I asked my two friends for help, but ______ of them had time {when}, {name}.",
+  "options": [
+   "both",
+   "neither",
+   "either",
+   "none"
+  ],
+  "key": 1,
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "on Saturday",
+    "last week",
+    "this morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't like ______ of these two {things}, {name}. Can I see another one?",
+  "options": [
+   "neither",
+   "either",
+   "none",
+   "both"
+  ],
+  "key": 1,
+  "why": "The verb is already negative, so use either: not … either = not this one and not that one.",
+  "slots": {
+   "things": [
+    "shirts",
+    "bags",
+    "phones",
+    "jackets"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Olga and Lola are best friends. ______ of them want to study {subject} in {city}.",
+  "options": [
+   "either",
+   "none",
+   "both",
+   "neither"
+  ],
+  "key": 2,
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "subject": [
+    "medicine",
+    "law",
+    "maths",
+    "art"
+   ],
+   "city": [
+    "Tashkent",
+    "Kazan",
+    "Seoul",
+    "Almaty"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ of the two {things} was cheap, so I didn't buy anything, {name}.",
+  "options": [
+   "None",
+   "Both",
+   "Neither",
+   "Either"
+  ],
+  "key": 2,
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "things": [
+    "bags",
+    "jackets",
+    "phones",
+    "watches"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We can meet on Saturday or Sunday. ______ day is fine for me, {name}.",
+  "options": [
+   "both",
+   "neither",
+   "either",
+   "none"
+  ],
+  "key": 2,
+  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I've got two sisters. ______ of them are {jobs}, {name}.",
+  "options": [
+   "neither",
+   "either",
+   "none",
+   "both"
+  ],
+  "key": 3,
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "jobs": [
+    "doctors",
+    "teachers",
+    "nurses",
+    "students"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ of my two brothers likes {food}. They never eat it, {name}.",
+  "options": [
+   "Either",
+   "None",
+   "Both",
+   "Neither"
+  ],
+  "key": 3,
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "food": [
+    "fish",
+    "onions",
+    "carrots",
+    "soup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You can use ______ computer in the {room}, {name}. They both work now.",
+  "options": [
+   "none",
+   "both",
+   "neither",
+   "either"
+  ],
+  "key": 3,
+  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "slots": {
+   "room": [
+    "lab",
+    "library",
+    "office",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ my phone and my laptop are broken, {name}. I can't {task}.",
+  "options": [
+   "Both",
+   "Neither",
+   "Either",
+   "None"
+  ],
+  "key": 0,
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "task": [
+    "do my homework",
+    "send emails",
+    "watch the lesson",
+    "read my messages"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ my mum nor my dad can come to the {event}, {name}.",
+  "options": [
+   "Neither",
+   "Either",
+   "None",
+   "Both"
+  ],
+  "key": 0,
+  "why": "neither … nor joins two things that are both not true.",
+  "slots": {
+   "event": [
+    "concert",
+    "meeting",
+    "match",
+    "show"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You can pay ______ by card or in cash at the {place}, {name}.",
+  "options": [
+   "either",
+   "none",
+   "both",
+   "neither"
+  ],
+  "key": 0,
+  "why": "either … or gives a choice between two things.",
+  "slots": {
+   "place": [
+    "shop",
+    "café",
+    "hotel",
+    "cinema"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We visited ______ Samarkand and Bukhara on our {trip}, {name}.",
+  "options": [
+   "none",
+   "both",
+   "neither",
+   "either"
+  ],
+  "key": 1,
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "trip": [
+    "trip",
+    "holiday",
+    "school trip",
+    "tour"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I called Aziz and Timur, but ______ of them answered, {name}.",
+  "options": [
+   "both",
+   "neither",
+   "either",
+   "none"
+  ],
+  "key": 1,
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "name": [
+    "Olga",
+    "Lola",
+    "Kamila",
+    "Madina"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mum and dad are doctors. ______ of them work at the same hospital, so they go to work together every {time}.",
+  "options": [
+   "neither",
+   "either",
+   "none",
+   "both"
+  ],
+  "key": 3,
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "time": [
+    "morning",
+    "day",
+    "Monday",
+    "weekday"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know ______ of the two new students in our {group}, {name}.",
+  "options": [
+   "either",
+   "none",
+   "both",
+   "neither"
+  ],
+  "key": 0,
+  "why": "The verb is already negative, so use either: not … either = not this one and not that one.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "team",
+    "course"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We had two {things} at home, but ______ of them worked, so we bought a new one, {name}.",
+  "options": [
+   "none",
+   "both",
+   "neither",
+   "either"
+  ],
+  "key": 2,
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "things": [
+    "TVs",
+    "fans",
+    "kettles",
+    "irons"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "______ Aziz and his sister speak {lang} well. They learned it at {place}.",
+  "key": "Both",
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "English",
+    "Korean",
+    "Turkish"
+   ],
+   "place": [
+    "school",
+    "home",
+    "a course",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "______ my brother nor my sister likes {food}, {name}.",
+  "key": "Neither",
+  "why": "neither … nor joins two things that are both not true.",
+  "slots": {
+   "food": [
+    "fish",
+    "eggs",
+    "onions",
+    "mushrooms"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "You can come to the {place} ______ on Monday or on Friday, {name}.",
+  "key": "either",
+  "why": "either … or gives a choice between two things.",
+  "slots": {
+   "place": [
+    "club",
+    "office",
+    "lesson",
+    "class"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "My sisters are twins. ______ of them were born on the {day} of May, {name}.",
+  "key": "Both",
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "day": [
+    "first",
+    "fifth",
+    "tenth",
+    "twelfth"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "I have two old phones, but ______ of them works now, so I use my {who}'s, {name}.",
+  "key": "neither",
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "who": [
+    "mum",
+    "brother",
+    "sister",
+    "dad"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "I don't mind: we can watch the {a} or the cartoon. ______ is fine for me, {name}.",
+  "key": "Either",
+  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "slots": {
+   "a": [
+    "match",
+    "news",
+    "film",
+    "show"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "We need ______ eggs and flour for the {food}, {name}.",
+  "key": "both",
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "food": [
+    "cake",
+    "pancakes",
+    "biscuits",
+    "pie"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "______ of the two hotels had a free room, so we slept at {place}, {name}.",
+  "key": "Neither",
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "place": [
+    "my aunt's",
+    "a friend's house",
+    "a guest house",
+    "my cousin's flat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "Take ______ the bus or a taxi to the {place}, {name}.",
+  "key": "either",
+  "why": "either … or gives a choice between two things.",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "bazaar",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "______ my mum and my grandmother make very good {food}, {name}.",
+  "key": "Both",
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "food": [
+    "plov",
+    "somsa",
+    "manti",
+    "soup"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "I tried two keys, but ______ of them opened the {door}, {name}.",
+  "key": "neither",
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "door": [
+    "door",
+    "gate",
+    "box",
+    "garage"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "There are two free seats on the {vehicle}. You can take ______ one, {name}.",
+  "key": "either",
+  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "slots": {
+   "vehicle": [
+    "bus",
+    "train",
+    "plane",
+    "tram"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "{name} is good at ______ maths and {subject}.",
+  "key": "both",
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "subject": [
+    "physics",
+    "chemistry",
+    "history",
+    "art"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "______ Timur nor Aziz was at {place} {when}.",
+  "key": "Neither",
+  "why": "neither … nor joins two things that are both not true.",
+  "slots": {
+   "place": [
+    "school",
+    "the lesson",
+    "practice",
+    "the meeting"
+   ],
+   "when": [
+    "yesterday",
+    "on Monday",
+    "this morning",
+    "today"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "I can't decide. I'll buy ______ the red bag or the {colour} one, {name}.",
+  "key": "either",
+  "why": "either … or gives a choice between two things.",
+  "slots": {
+   "colour": [
+    "black",
+    "blue",
+    "brown",
+    "white"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "We watched two films at the {event} and liked ______ of them. They were great, {name}.",
+  "key": "both",
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "event": [
+    "festival",
+    "cinema club",
+    "camp",
+    "party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "We had two plans for the weekend, but ______ worked because of the {weather}, {name}.",
+  "key": "neither",
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "weather": [
+    "rain",
+    "snow",
+    "wind",
+    "storm"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "I didn't see ______ of your brothers at the {event}, {name}.",
+  "key": "either",
+  "why": "The verb is already negative, so use either: not … either = not this one and not that one.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "match",
+    "meeting"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "______ teams played very well {when}, {name}.",
+  "key": "Both",
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Sunday",
+    "in the final"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write both, either or neither.",
+  "source": "______ answer on the {thing} is right, {name}. Try again.",
+  "key": "Neither",
+  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "slots": {
+   "thing": [
+    "board",
+    "page",
+    "screen",
+    "card"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with both.",
+  "source": "My mum likes {food}. My dad likes {food} too, {name}.",
+  "hint": "______ my mum ______ my dad like {food}, {name}.",
+  "key": [
+   "Both",
+   "and"
+  ],
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "green tea",
+    "melons"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with both.",
+  "source": "Olga lives in {city}. Lola lives in {city} too.",
+  "hint": "______ Olga ______ Lola live in {city}.",
+  "key": [
+   "Both",
+   "and"
+  ],
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Andijan",
+    "Moscow"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with both.",
+  "source": "My brother plays {sport}. My cousin plays {sport} too, {name}.",
+  "hint": "______ my brother ______ my cousin play {sport}, {name}.",
+  "key": [
+   "Both",
+   "and"
+  ],
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "sport": [
+    "football",
+    "chess",
+    "tennis",
+    "volleyball"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with both.",
+  "source": "The kitchen is {adj}. The bathroom is {adj} too, {name}.",
+  "hint": "______ the kitchen ______ the bathroom are {adj}, {name}.",
+  "key": [
+   "Both",
+   "and"
+  ],
+  "why": "both … and joins two things that are both true.",
+  "slots": {
+   "adj": [
+    "small",
+    "clean",
+    "new",
+    "cold"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with both.",
+  "source": "I've got two sisters. One is a {job}, and the other is a {job} too, {name}.",
+  "hint": "I've got two sisters. ______ of them are {job}s, {name}.",
+  "key": "Both",
+  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "slots": {
+   "job": [
+    "doctor",
+    "teacher",
+    "nurse",
+    "student"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with neither … nor.",
+  "source": "My brother doesn't eat {food}. My sister doesn't eat {food} either, {name}.",
+  "hint": "______ my brother ______ my sister eats {food}, {name}.",
+  "key": [
+   "Neither",
+   "nor"
+  ],
+  "why": "neither … nor joins two things that are both not true.",
+  "slots": {
+   "food": [
+    "fish",
+    "onions",
+    "eggs",
+    "carrots"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with neither … nor.",
+  "source": "Aziz wasn't at the {event}. Timur wasn't there either.",
+  "hint": "______ Aziz ______ Timur was at the {event}.",
+  "key": [
+   "Neither",
+   "nor"
+  ],
+  "why": "neither … nor joins two things that are both not true.",
+  "slots": {
+   "event": [
+    "party",
+    "meeting",
+    "lesson",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with neither … nor.",
+  "source": "The red jacket isn't cheap. The black one isn't cheap either, {name}.",
+  "hint": "______ the red jacket ______ the black one is cheap, {name}.",
+  "key": [
+   "Neither",
+   "nor"
+  ],
+  "why": "neither … nor joins two things that are both not true.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with neither … nor.",
+  "source": "My phone doesn't work. My laptop doesn't work either, {name}.",
+  "hint": "______ my phone ______ my laptop works, {name}.",
+  "key": [
+   "Neither",
+   "nor"
+  ],
+  "why": "neither … nor joins two things that are both not true.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with neither … nor.",
+  "source": "My dad can't come to the {event}. My mum can't come either.",
+  "hint": "______ my dad ______ my mum can come to the {event}.",
+  "key": [
+   "Neither",
+   "nor"
+  ],
+  "why": "neither … nor joins two things that are both not true.",
+  "slots": {
+   "event": [
+    "concert",
+    "meeting",
+    "show",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with either.",
+  "source": "You can go to the {place} by bus, or you can go by taxi, {name}.",
+  "hint": "You can go to the {place} ______ by bus ______ by taxi, {name}.",
+  "key": [
+   "either",
+   "or"
+  ],
+  "why": "either … or gives a choice between two things.",
+  "slots": {
+   "place": [
+    "station",
+    "bazaar",
+    "airport",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with either.",
+  "source": "We can meet at the {place} on Saturday, or we can meet there on Sunday, {name}.",
+  "hint": "We can meet at the {place} ______ on Saturday ______ on Sunday, {name}.",
+  "key": [
+   "either",
+   "or"
+  ],
+  "why": "either … or gives a choice between two things.",
+  "slots": {
+   "place": [
+    "park",
+    "café",
+    "library",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with either.",
+  "source": "After {meal} you can have tea, or you can have coffee, {name}.",
+  "hint": "After {meal} you can have ______ tea ______ coffee, {name}.",
+  "key": [
+   "either",
+   "or"
+  ],
+  "why": "either … or gives a choice between two things.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "class",
+    "the lesson"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with either.",
+  "source": "I didn't see your brother at the {event}, and I didn't see your sister there, {name}.",
+  "hint": "I didn't see ______ of them at the {event}, {name}.",
+  "key": "either",
+  "why": "The verb is already negative, so use either: not … either = not this one and not that one.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "match",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with either.",
+  "source": "Maybe Olga will call you {when}, or maybe Lola will.",
+  "hint": "______ Olga ______ Lola will call you {when}.",
+  "key": [
+   "Either",
+   "or"
+  ],
+  "why": "either … or gives a choice between two things.",
+  "slots": {
+   "when": [
+    "tonight",
+    "tomorrow",
+    "after lunch",
+    "later"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two people in your family who like the same thing.",
+  "requiredElement": "Both my … and my … like …",
+  "constraints": [
+   "exactly one sentence",
+   "both … and",
+   "a plural verb"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two friends who can't do something.",
+  "requiredElement": "Neither … nor … can …",
+  "constraints": [
+   "exactly one sentence",
+   "neither … nor",
+   "can"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence that gives a friend a choice between two places.",
+  "requiredElement": "We can go either to … or to …",
+  "constraints": [
+   "exactly one sentence",
+   "either … or",
+   "two places"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two subjects you are good at.",
+  "requiredElement": "I'm good at both … and …",
+  "constraints": [
+   "exactly one sentence",
+   "both … and",
+   "two subjects"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two foods you don't like.",
+  "requiredElement": "I don't like either … / I like neither …",
+  "constraints": [
+   "exactly one sentence",
+   "either or neither",
+   "two foods"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your parents or grandparents with both of them.",
+  "requiredElement": "Both of them …",
+  "constraints": [
+   "exactly one sentence",
+   "both of them",
+   "a plural verb"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two shops or cafés near you.",
+  "requiredElement": "Neither of them … / Both of them …",
+  "constraints": [
+   "exactly one sentence",
+   "both of or neither of",
+   "two places"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with both and one with neither.",
+  "requiredElement": "Both … / Neither …",
+  "constraints": [
+   "exactly two sentences",
+   "both once",
+   "neither once"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your two best friends: what do they both like, and what does neither of them like?",
+  "targetGrammar": "Both of them … / Neither of them …",
+  "lookFor": [
+   "both",
+   "neither",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your friend can't choose between two phones. Give advice.",
+  "targetGrammar": "Both phones are … / Either one is …",
+  "lookFor": [
+   "both or either",
+   "is / are agreement",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your parents or two relatives: what is the same about them?",
+  "targetGrammar": "Both my … and my … / Neither of them …",
+  "lookFor": [
+   "both … and",
+   "neither",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Plan a weekend with a friend: give two choices.",
+  "targetGrammar": "We can either … or … / Both are …",
+  "lookFor": [
+   "either … or",
+   "both",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "quantifiers",
+  "topic": "both-either-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe two cities or villages you know.",
+  "targetGrammar": "Both … are … / Neither of them is …",
+  "lookFor": [
+   "both",
+   "neither or either",
+   "three or four sentences"
+  ]
+ }
+]

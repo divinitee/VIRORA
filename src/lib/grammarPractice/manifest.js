@@ -576,6 +576,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "nouns-articles.plurals-agreement.there-agreement": {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 296,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "nouns-articles.plurals-agreement.y-ies-plural": {
   "domain": "nouns-articles",
   "branch": "plurals-agreement",
