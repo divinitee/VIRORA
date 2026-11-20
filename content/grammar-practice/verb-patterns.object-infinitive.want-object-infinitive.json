@@ -1,0 +1,1666 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My teacher wants ______ the {text} again, {name}.",
+  "options": [
+   "me to write",
+   "that I write",
+   "me writing",
+   "me write"
+  ],
+  "key": 0,
+  "why": "want + the person (me) + to + base: me to write.",
+  "slots": {
+   "text": [
+    "essay",
+    "letter",
+    "test",
+    "story"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandma wants ______ for dinner on {day}, {name}.",
+  "options": [
+   "that we come",
+   "us coming",
+   "us come",
+   "us to come"
+  ],
+  "key": 3,
+  "why": "Grandma wants something from us: us to come.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Friday",
+    "Navruz",
+    "Saturday"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "His parents want ______ {subject} at university.",
+  "options": [
+   "him studying",
+   "him study",
+   "him to study",
+   "that he study"
+  ],
+  "key": 2,
+  "why": "want + him + to + base: him to study (not \"that he study\").",
+  "slots": {
+   "subject": [
+    "medicine",
+    "law",
+    "economics",
+    "IT"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want ______ me with the {thing}, {name}.",
+  "options": [
+   "you help",
+   "you to help",
+   "that you help",
+   "you helping"
+  ],
+  "key": 1,
+  "why": "want + you + to + base: you to help.",
+  "slots": {
+   "thing": [
+    "bags",
+    "homework",
+    "cooking",
+    "boxes"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone at the {event} wanted ______ a song.",
+  "options": [
+   "her to sing",
+   "that she sing",
+   "her singing",
+   "her sing"
+  ],
+  "key": 0,
+  "why": "wanted + her + to + base: her to sing.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The coach wants ______ on time for the {event}, {name}.",
+  "options": [
+   "that they be",
+   "them being",
+   "them be",
+   "them to be"
+  ],
+  "key": 3,
+  "why": "want + them + to + base: them to be.",
+  "slots": {
+   "event": [
+    "training",
+    "match",
+    "trip",
+    "meeting"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mum wants ______ her when I get to {city}, {name}.",
+  "options": [
+   "me calling",
+   "me call",
+   "me to call",
+   "that I call"
+  ],
+  "key": 2,
+  "why": "want + me + to + base: me to call.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our school wants ______ a {uniform} every day.",
+  "options": [
+   "us wear",
+   "us to wear",
+   "that we wear",
+   "us wearing"
+  ],
+  "key": 1,
+  "why": "want + us + to + base: us to wear.",
+  "slots": {
+   "uniform": [
+    "uniform",
+    "white shirt",
+    "tie",
+    "blue jacket"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The doctor wants ______ in bed for {n} days.",
+  "options": [
+   "him to stay",
+   "that he stay",
+   "him staying",
+   "him stay"
+  ],
+  "key": 0,
+  "why": "want + him + to + base: him to stay.",
+  "slots": {
+   "n": [
+    "three",
+    "two",
+    "five",
+    "four"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'd like ______ my {who}, {name}.",
+  "options": [
+   "that you meet",
+   "you meeting",
+   "you meet",
+   "you to meet"
+  ],
+  "key": 3,
+  "why": "would like + you + to + base: you to meet.",
+  "slots": {
+   "who": [
+    "parents",
+    "sister",
+    "best friend",
+    "grandfather"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My dad doesn't want ______ to the {event} alone, {name}.",
+  "options": [
+   "me going",
+   "me go",
+   "me to go",
+   "that I go"
+  ],
+  "key": 2,
+  "why": "doesn't want + me + to + base: me to go.",
+  "slots": {
+   "event": [
+    "concert",
+    "party",
+    "match",
+    "festival"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Her brothers always want ______ {food} for them.",
+  "options": [
+   "her cook",
+   "her to cook",
+   "that she cook",
+   "her cooking"
+  ],
+  "key": 1,
+  "why": "want + her + to + base: her to cook.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "soup",
+    "samsa"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} wants ______ two books this month, {name}.",
+  "options": [
+   "us to read",
+   "that we read",
+   "us reading",
+   "us read"
+  ],
+  "key": 0,
+  "why": "want + us + to + base: us to read.",
+  "slots": {
+   "who": [
+    "teacher",
+    "librarian",
+    "tutor",
+    "coach"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Mum wants ______ their {room} before the guests come.",
+  "options": [
+   "that they clean",
+   "them cleaning",
+   "them clean",
+   "them to clean"
+  ],
+  "key": 3,
+  "why": "want + them + to + base: them to clean.",
+  "slots": {
+   "room": [
+    "room",
+    "toys",
+    "desks",
+    "shoes"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want ______ the truth about the {thing}, {name}.",
+  "options": [
+   "you knowing",
+   "you know",
+   "you to know",
+   "that you know"
+  ],
+  "key": 2,
+  "why": "want + you + to + base: you to know.",
+  "slots": {
+   "thing": [
+    "money",
+    "test",
+    "accident",
+    "party"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "His wife doesn't want ______ at night on the {road}.",
+  "options": [
+   "him drive",
+   "him to drive",
+   "that he drive",
+   "him driving"
+  ],
+  "key": 1,
+  "why": "doesn't want + him + to + base: him to drive.",
+  "slots": {
+   "road": [
+    "motorway",
+    "mountain road",
+    "ring road",
+    "old road"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} wanted ______ the photos by email, {name}.",
+  "options": [
+   "me to send",
+   "that I send",
+   "me sending",
+   "me send"
+  ],
+  "key": 0,
+  "why": "wanted + me + to + base: me to send.",
+  "slots": {
+   "who": [
+    "manager",
+    "teacher",
+    "client",
+    "photographer"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our cousins in {city} want ______ them in summer.",
+  "options": [
+   "that we visit",
+   "us visiting",
+   "us visit",
+   "us to visit"
+  ],
+  "key": 3,
+  "why": "want + us + to + base: us to visit.",
+  "slots": {
+   "city": [
+    "Fergana",
+    "Andijan",
+    "Nukus",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Her parents would like ______ {lang}, {name}.",
+  "options": [
+   "her learning",
+   "her learn",
+   "her to learn",
+   "that she learn"
+  ],
+  "key": 2,
+  "why": "would like + her + to + base: her to learn.",
+  "slots": {
+   "lang": [
+    "English",
+    "Korean",
+    "German",
+    "Chinese"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We'd like ______ our new {food}, {name}.",
+  "options": [
+   "you try",
+   "you to try",
+   "that you try",
+   "you trying"
+  ],
+  "key": 1,
+  "why": "would like + you + to + base: you to try.",
+  "slots": {
+   "food": [
+    "cake",
+    "soup",
+    "bread",
+    "coffee"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "My teacher wants ______ (I / write) a longer {text}, {name}.",
+  "key": "me to write",
+  "why": "want / would like + the person as an object (me, not I) + to + base: me to write.",
+  "slots": {
+   "text": [
+    "essay",
+    "story",
+    "letter",
+    "report"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "Grandma wants ______ (we / come) on {day}, {name}.",
+  "key": "us to come",
+  "why": "want / would like + the person as an object (us, not we) + to + base: us to come.",
+  "slots": {
+   "day": [
+    "Sunday",
+    "Friday",
+    "Navruz",
+    "Saturday"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "His dad wants ______ (he / study) {subject}.",
+  "key": "him to study",
+  "why": "want / would like + the person as an object (him, not he) + to + base: him to study.",
+  "slots": {
+   "subject": [
+    "medicine",
+    "law",
+    "economics",
+    "IT"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "I want ______ (you / help) with the {thing}, {name}.",
+  "key": "you to help",
+  "why": "want / would like + the person as an object (you, not you) + to + base: you to help.",
+  "slots": {
+   "thing": [
+    "bags",
+    "cooking",
+    "boxes",
+    "party"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "The guests wanted ______ (she / sing) at the {event}.",
+  "key": "her to sing",
+  "why": "want / would like + the person as an object (her, not she) + to + base: her to sing.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "dinner"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "The coach wants ______ (they / be) ready at {time}, {name}.",
+  "key": "them to be",
+  "why": "want / would like + the person as an object (them, not they) + to + base: them to be.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "eight",
+    "nine"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "Mum wants ______ (I / call) her from {city}, {name}.",
+  "key": "me to call",
+  "why": "want / would like + the person as an object (me, not I) + to + base: me to call.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "The school wants ______ (we / wear) a {uniform}.",
+  "key": "us to wear",
+  "why": "want / would like + the person as an object (us, not we) + to + base: us to wear.",
+  "slots": {
+   "uniform": [
+    "uniform",
+    "white shirt",
+    "tie",
+    "blue jacket"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "The doctor wants ______ (he / stay) at home for {n} days.",
+  "key": "him to stay",
+  "why": "want / would like + the person as an object (him, not he) + to + base: him to stay.",
+  "slots": {
+   "n": [
+    "three",
+    "two",
+    "five",
+    "four"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "I'd like ______ (you / meet) my {who}, {name}.",
+  "key": "you to meet",
+  "why": "want / would like + the person as an object (you, not you) + to + base: you to meet.",
+  "slots": {
+   "who": [
+    "parents",
+    "sister",
+    "best friend",
+    "grandfather"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "Dad doesn't want ______ (I / go) to the {event} alone, {name}.",
+  "key": "me to go",
+  "why": "want / would like + the person as an object (me, not I) + to + base: me to go.",
+  "slots": {
+   "event": [
+    "concert",
+    "party",
+    "match",
+    "festival"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "Her brothers want ______ (she / cook) {food} again.",
+  "key": "her to cook",
+  "why": "want / would like + the person as an object (her, not she) + to + base: her to cook.",
+  "slots": {
+   "food": [
+    "plov",
+    "manti",
+    "soup",
+    "samsa"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "The {who} wants ______ (we / read) a book a month, {name}.",
+  "key": "us to read",
+  "why": "want / would like + the person as an object (us, not we) + to + base: us to read.",
+  "slots": {
+   "who": [
+    "teacher",
+    "librarian",
+    "tutor",
+    "coach"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "Mum wants ______ (they / clean) the {room} now.",
+  "key": "them to clean",
+  "why": "want / would like + the person as an object (them, not they) + to + base: them to clean.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "car",
+    "living room"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "I want ______ (you / know) about the {thing}, {name}.",
+  "key": "you to know",
+  "why": "want / would like + the person as an object (you, not you) + to + base: you to know.",
+  "slots": {
+   "thing": [
+    "problem",
+    "plan",
+    "change",
+    "party"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "His wife doesn't want ______ (he / drive) on the {road} at night.",
+  "key": "him to drive",
+  "why": "want / would like + the person as an object (him, not he) + to + base: him to drive.",
+  "slots": {
+   "road": [
+    "motorway",
+    "mountain road",
+    "ring road",
+    "old road"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "The {who} wanted ______ (I / send) the photos, {name}.",
+  "key": "me to send",
+  "why": "want / would like + the person as an object (me, not I) + to + base: me to send.",
+  "slots": {
+   "who": [
+    "manager",
+    "teacher",
+    "client",
+    "photographer"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "Our cousins want ______ (we / visit) them in {city}.",
+  "key": "us to visit",
+  "why": "want / would like + the person as an object (us, not we) + to + base: us to visit.",
+  "slots": {
+   "city": [
+    "Fergana",
+    "Andijan",
+    "Nukus",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "Her parents would like ______ (she / learn) {lang}, {name}.",
+  "key": "her to learn",
+  "why": "want / would like + the person as an object (her, not she) + to + base: her to learn.",
+  "slots": {
+   "lang": [
+    "English",
+    "Korean",
+    "German",
+    "Chinese"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
+  "source": "We'd like ______ (you / try) our {food}, {name}.",
+  "key": "you to try",
+  "why": "want / would like + the person as an object (you, not you) + to + base: you to try.",
+  "slots": {
+   "food": [
+    "cake",
+    "soup",
+    "bread",
+    "coffee"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My parents want that I study {subject}, {name}.",
+  "hint": "My parents want ______ {subject}, {name}.",
+  "key": "me to study",
+  "why": "want + me + to + base, not \"want that I …\".",
+  "slots": {
+   "subject": [
+    "medicine",
+    "law",
+    "economics",
+    "IT"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I want that you come to the {event}, {name}.",
+  "hint": "I want ______ to the {event}, {name}.",
+  "key": "you to come",
+  "why": "want + you + to + base: you to come.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "match",
+    "concert"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The teacher wants us reading more books, {name}.",
+  "hint": "The teacher wants ______ more books, {name}.",
+  "key": "us to read",
+  "why": "want + us + to + base, not -ing.",
+  "slots": {
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Mum wanted me help her in the {room}.",
+  "hint": "Mum wanted ______ her in the {room}.",
+  "key": "me to help",
+  "why": "want + me + to + base: don't forget \"to\".",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "shop",
+    "yard"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Our boss wants we finish the {work} today, {name}.",
+  "hint": "Our boss wants ______ the {work} today, {name}.",
+  "key": "us to finish",
+  "why": "After want, the person is an object: us, not we.",
+  "slots": {
+   "work": [
+    "report",
+    "project",
+    "order",
+    "plan"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with want / wanted + person + to.",
+  "source": "My dad said: 'Please wash the {thing}.' He asked me.",
+  "hint": "My dad wanted ______ the {thing}.",
+  "key": "me to wash",
+  "why": "Dad's request to me: wanted me to wash.",
+  "slots": {
+   "thing": [
+    "car",
+    "dishes",
+    "windows",
+    "carpet"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with want / wanted + person + to.",
+  "source": "The coach said to the boys: 'Run {dist} every morning.'",
+  "hint": "The coach wants ______ {dist} every morning.",
+  "key": "them to run",
+  "why": "The coach's wish for the boys: them to run.",
+  "slots": {
+   "dist": [
+    "five kilometres",
+    "three kilometres",
+    "ten laps",
+    "two miles"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with want / wanted + person + to.",
+  "source": "Grandma always says to us: 'Eat more {food}!', {name}.",
+  "hint": "Grandma wants ______ more {food}, {name}.",
+  "key": "us to eat",
+  "why": "Grandma's wish for us: us to eat.",
+  "slots": {
+   "food": [
+    "fruit",
+    "vegetables",
+    "soup",
+    "bread"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with want / wanted + person + to.",
+  "source": "The teacher told {who}: 'Speak English in class.'",
+  "hint": "The teacher wants ______ English in class.",
+  "key": "her to speak",
+  "why": "The teacher's wish for her: her to speak.",
+  "slots": {
+   "who": [
+    "Lola",
+    "Madina",
+    "my sister",
+    "the new girl"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with want / wanted + person + to.",
+  "source": "My friend said to me: 'Come to my {event}, please.'",
+  "hint": "My friend wanted ______ to his {event}.",
+  "key": "me to come",
+  "why": "My friend's wish for me: me to come.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "match",
+    "birthday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to.",
+  "source": "Please give me your answer by {day}, {name}.",
+  "hint": "I'd like ______ me your answer by {day}, {name}.",
+  "key": "you to give",
+  "why": "would like + you + to + base: you to give.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "tomorrow",
+    "Wednesday"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to.",
+  "source": "My parents hope my brother becomes a {job}.",
+  "hint": "My parents would like ______ a {job}.",
+  "key": "him to become",
+  "why": "would like + him + to + base: him to become.",
+  "slots": {
+   "job": [
+    "doctor",
+    "teacher",
+    "pilot",
+    "lawyer"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to.",
+  "source": "We hope you can join us for {food}, {name}.",
+  "hint": "We'd like ______ us for {food}, {name}.",
+  "key": "you to join",
+  "why": "would like + you + to + base: you to join.",
+  "slots": {
+   "food": [
+    "dinner",
+    "lunch",
+    "plov",
+    "tea"
+   ],
+   "name": [
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to.",
+  "source": "The manager hopes the workers come early on {day}.",
+  "hint": "The manager would like ______ early on {day}.",
+  "key": "them to come",
+  "why": "would like + them + to + base: them to come.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Tuesday"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with would like + person + to.",
+  "source": "Her mum hopes she will call every {time}, {name}.",
+  "hint": "Her mum would like ______ every {time}, {name}.",
+  "key": "her to call",
+  "why": "would like + her + to + base: her to call.",
+  "slots": {
+   "time": [
+    "day",
+    "evening",
+    "weekend",
+    "Sunday"
+   ],
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Dilnoza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what your parents want you to do.",
+  "requiredElement": "My parents want me to …",
+  "constraints": [
+   "exactly one sentence",
+   "want + me + to",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what you want a friend to do.",
+  "requiredElement": "I want you / him / her to …",
+  "constraints": [
+   "exactly one sentence",
+   "want + person + to",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with would like + person + to.",
+  "requiredElement": "I'd like you to …",
+  "constraints": [
+   "exactly one sentence",
+   "would like",
+   "person + to + base"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what a teacher wants the class to do.",
+  "requiredElement": "The teacher wants us to …",
+  "constraints": [
+   "exactly one sentence",
+   "wants us to",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with doesn't want + person + to.",
+  "requiredElement": "… doesn't want me to …",
+  "constraints": [
+   "exactly one sentence",
+   "doesn't want",
+   "person + to + base"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with want to (yourself) and one with want + person + to.",
+  "requiredElement": "want to vs want someone to",
+  "constraints": [
+   "exactly two sentences",
+   "want to + base",
+   "want + person + to + base"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question: Do you want me to …?",
+  "requiredElement": "Do you want me to …?",
+  "constraints": [
+   "exactly one question",
+   "want + me + to",
+   "a question mark"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what a doctor wanted someone to do.",
+  "requiredElement": "The doctor wanted him / her to …",
+  "constraints": [
+   "exactly one sentence",
+   "wanted",
+   "person + to + base"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about what your family wants you to do in the future.",
+  "targetGrammar": "want + person + to",
+  "lookFor": [
+   "want me to",
+   "would like me to",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are a teacher. Write three or four sentences about what you want your students to do.",
+  "targetGrammar": "want + person + to",
+  "lookFor": [
+   "want you to",
+   "would like",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a party you are planning: what do you want your friends to do?",
+  "targetGrammar": "want / would like + person + to",
+  "lookFor": [
+   "want them to",
+   "would like",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about rules at home: what do your parents want and not want you to do?",
+  "targetGrammar": "(don't) want + person + to",
+  "lookFor": [
+   "want me to",
+   "don't want me to",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "object-infinitive",
+  "topic": "want-object-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message (three or four sentences) to a new classmate with Do you want me to …?",
+  "targetGrammar": "Do you want me to …?",
+  "lookFor": [
+   "want me to",
+   "a question",
+   "three or four sentences"
+  ]
+ }
+]
