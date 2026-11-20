@@ -28,6 +28,12 @@
     "Tuesday",
     "Thursday",
     "Friday"
+   ],
+   "name": [
+    "Feruza",
+    "Ulugbek",
+    "Malika",
+    "Sardor"
    ]
   }
  },
@@ -92,6 +98,12 @@
     "Tuesday",
     "Thursday",
     "Friday"
+   ],
+   "name": [
+    "Feruza",
+    "Ulugbek",
+    "Malika",
+    "Sardor"
    ]
   }
  },
@@ -476,6 +488,12 @@
     "six o'clock",
     "half past four",
     "noon"
+   ],
+   "name": [
+    "Feruza",
+    "Ulugbek",
+    "Malika",
+    "Sardor"
    ]
   }
  },
@@ -508,6 +526,12 @@
     "Tuesday",
     "Thursday",
     "Friday"
+   ],
+   "name": [
+    "Feruza",
+    "Ulugbek",
+    "Malika",
+    "Sardor"
    ]
   }
  },
@@ -551,7 +575,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The baby cried ______ her mum came home, {name}, {name}.",
+  "prompt": "The baby cried ______ {who} came home, {name}.",
   "options": [
    "until",
    "since",
@@ -566,6 +590,12 @@
     "Ulugbek",
     "Malika",
     "Sardor"
+   ],
+   "who": [
+    "her mum",
+    "her dad",
+    "grandma",
+    "her sister"
    ]
   }
  },
@@ -657,6 +687,12 @@
     "Tuesday",
     "Thursday",
     "Friday"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
    ]
   }
  },
@@ -684,6 +720,12 @@
     "six o'clock",
     "half past four",
     "noon"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
    ]
   },
   "acceptable": [
@@ -699,21 +741,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write by or until.",
-  "source": "Our flight lands at seven, so we'll be home ______ nine {day}, {name}.",
+  "source": "Our flight lands at seven, so we'll be home ______ nine with the {gift}, {name}.",
   "key": "by",
   "why": "be home at some point not later than nine: by (the landing time shows it).",
   "slots": {
+   "gift": [
+    "sweets",
+    "presents",
+    "dried fruit",
+    "photos"
+   ],
    "name": [
     "Feruza",
     "Ulugbek",
     "Malika",
     "Sardor"
-   ],
-   "day": [
-    "on Monday",
-    "on Friday",
-    "yesterday",
-    "last night"
    ]
   }
  },
@@ -1011,21 +1053,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write by or until.",
-  "source": "I studied in the library ______ it closed {day}, {name}.",
+  "source": "I studied in the {place} ______ it closed, {name}.",
   "key": "until",
   "why": "Studying continued up to closing time: until.",
   "slots": {
+   "place": [
+    "library",
+    "café",
+    "reading room",
+    "computer room"
+   ],
    "name": [
     "Akmal",
     "Nodira",
     "Sherzod",
     "Gulnora"
-   ],
-   "day": [
-    "on Monday",
-    "on Friday",
-    "yesterday",
-    "last night"
    ]
   },
   "acceptable": [
@@ -1041,21 +1083,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write by or until.",
-  "source": "The doctor said I'd feel better ______ the weekend {day}, {name}.",
+  "source": "The doctor said I'd feel better ______ the {when}, {name}.",
   "key": "by",
   "why": "feel better at a point before the weekend: by.",
   "slots": {
+   "when": [
+    "weekend",
+    "end of the week",
+    "holidays",
+    "big match"
+   ],
    "name": [
     "Feruza",
     "Ulugbek",
     "Malika",
     "Sardor"
-   ],
-   "day": [
-    "on Monday",
-    "on Friday",
-    "yesterday",
-    "last night"
    ]
   }
  },
@@ -1083,6 +1125,12 @@
     "two thousand sum an hour",
     "not allowed",
     "very expensive"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
    ]
   },
   "acceptable": [
@@ -1125,21 +1173,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write by or until.",
-  "source": "Sit here and rest ______ you feel better {day}, {name}.",
+  "source": "Sit on the {seat} and rest ______ you feel better, {name}.",
   "key": "until",
   "why": "Rest the whole time, stop when you feel better: until.",
   "slots": {
+   "seat": [
+    "sofa",
+    "bench",
+    "chair",
+    "bed"
+   ],
    "name": [
     "Feruza",
     "Ulugbek",
     "Malika",
     "Sardor"
-   ],
-   "day": [
-    "on Monday",
-    "on Friday",
-    "yesterday",
-    "last night"
    ]
   },
   "acceptable": [
@@ -1170,6 +1218,12 @@
     "dinner",
     "trip",
     "meeting"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
    ]
   }
  },
@@ -1256,6 +1310,12 @@
     "six o'clock",
     "half past four",
     "noon"
+   ],
+   "name": [
+    "Feruza",
+    "Ulugbek",
+    "Malika",
+    "Sardor"
    ]
   }
  },
@@ -1461,6 +1521,12 @@
     "2018",
     "2020",
     "2022"
+   ],
+   "name": [
+    "Feruza",
+    "Ulugbek",
+    "Malika",
+    "Sardor"
    ]
   },
   "acceptable": [
@@ -1641,6 +1707,12 @@
     "Tuesday",
     "Thursday",
     "Friday"
+   ],
+   "name": [
+    "Feruza",
+    "Ulugbek",
+    "Malika",
+    "Sardor"
    ]
   }
  },

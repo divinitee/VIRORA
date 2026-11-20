@@ -982,6 +982,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "prep-phrasal.time.by-until": {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "by-until",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 512,
+   "build": 512,
+   "transform": 384,
+   "create": 8,
+   "express": 5
+  }
+ },
  "prep-phrasal.time.in-months": {
   "domain": "prep-phrasal",
   "branch": "time",

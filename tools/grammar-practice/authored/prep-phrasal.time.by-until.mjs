@@ -44,12 +44,13 @@ const CHOOSE = [
   ["by", "I'll have the {thing} fixed ______ {time} tomorrow, {name}.", { thing: ["car", "phone", "laptop", "bike"], time: TIME }, "Fixed at some point before that time: by."],
   ["until", "You can borrow my {thing} ______ {day}, {name}.", { thing: ["bike", "laptop", "camera", "tent"], day: DAY }, "You keep it the whole time, then give it back: until."],
   ["by", "Tickets for the {event} must be booked ______ {day}.", { event: ["concert", "trip", "match", "museum tour"], day: DAY }, "booked once, before the deadline: by."],
-  ["until", "The baby cried ______ her mum came home, {name}.", { name: NAME2, who: [] }, "Crying continued and stopped when mum came: until."],
+  ["until", "The baby cried ______ {who} came home, {name}.", { name: NAME2, who: ["her mum", "her dad", "grandma", "her sister"] }, "Crying continued and stopped when mum came: until."],
   ["by", "Most of the {food} was gone ______ nine o'clock, {name}.", { food: ["plov", "cake", "salad", "bread"], name: NAME }, "Gone at some point before nine: by."],
   ["until", "The {who} stayed with us ______ the end of {month}.", { who: ["guests", "cousins", "grandparents", "students"], month: ["June", "August", "the summer", "the month"] }, "They stayed and then left: until."],
 ].map(([k, prompt, slots, why], i) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (f.length && prompt.includes(`{${n}}`)) s[n] = f;
+  if (prompt.includes("{name}") && !s.name) s.name = NAME2;
   let p = prompt;
   if (Object.keys(s).length < 2) { s.name = slots.name || NAME; p = p.replace(/([.!?])$/, ", {name}$1"); }
   const options = SET.map((_, j) => SET[(j + i) % 4]);
@@ -61,7 +62,7 @@ const INSTR = "Write by or until.";
 const BUILD = [
   ["by", "Could you finish the {work} ______ {day}, {name}?", { work: ["report", "essay", "design", "translation"], day: DAY }, "finish + a deadline: by."],
   ["until", "I'll wait for you at the {place} ______ {time}, {name}.", { place: ["gate", "station", "café", "bus stop"], time: TIME }, "I keep waiting up to that time: until."],
-  ["by", "Our flight lands at seven, so we'll be home ______ nine, {name}.", { name: NAME2, x: [] }, "be home at some point not later than nine: by (the landing time shows it)."],
+  ["by", "Our flight lands at seven, so we'll be home ______ nine with the {gift}, {name}.", { gift: ["sweets", "presents", "dried fruit", "photos"], name: NAME2 }, "be home at some point not later than nine: by (the landing time shows it)."],
   ["until", "The {shop} stays open ______ midnight in summer.", { shop: ["café", "supermarket", "pharmacy", "bakery"], name: NAME }, "stays open, then closes: until."],
   ["by", "Please return the library {thing} ______ {day}.", { thing: ["books", "DVDs", "magazines", "maps"], day: DAY }, "return once, before the deadline: by."],
   ["until", "My uncle lived in {city} ______ he got married, {name}.", { city: ["Moscow", "Tashkent", "Kazan", "Almaty"], name: NAME2 }, "He lived there, then moved: until."],
@@ -72,20 +73,20 @@ const BUILD = [
   ["by", "Everybody had left the {place} ______ ten o'clock, {name}.", { place: ["office", "stadium", "hall", "school"], name: NAME }, "left at some point before ten: by."],
   ["until", "Keep stirring the {food} ______ it gets thick, {name}.", { food: ["soup", "sauce", "porridge", "jam"], name: NAME2 }, "Keep stirring, stop when it is thick: until."],
   ["by", "The {doc} has to reach the office ______ {day}.", { doc: ["letter", "contract", "form", "parcel"], day: DAY }, "reach once, before the deadline: by."],
-  ["until", "I studied in the library ______ it closed, {name}.", { name: NAME, x: [] }, "Studying continued up to closing time: until."],
-  ["by", "The doctor said I'd feel better ______ the weekend, {name}.", { name: NAME2, x: [] }, "feel better at a point before the weekend: by."],
+  ["until", "I studied in the {place} ______ it closed, {name}.", { place: ["library", "café", "reading room", "computer room"], name: NAME }, "Studying continued up to closing time: until."],
+  ["by", "The doctor said I'd feel better ______ the {when}, {name}.", { when: ["weekend", "end of the week", "holidays", "big match"], name: NAME2 }, "feel better at a point before the weekend: by."],
   ["until", "You can park here ______ {time}, {name}. After that, it's {price}.", { time: TIME, price: ["not free", "two thousand sum an hour", "not allowed", "very expensive"] }, "Free the whole time, then it changes: until."],
   ["by", "We have to choose the {thing} for the wedding ______ next week, {name}.", { thing: ["music", "flowers", "cake", "photographer"], name: NAME }, "choose once, before the deadline: by."],
-  ["until", "Sit here and rest ______ you feel better, {name}.", { name: NAME2, x: [] }, "Rest the whole time, stop when you feel better: until."],
+  ["until", "Sit on the {seat} and rest ______ you feel better, {name}.", { seat: ["sofa", "bench", "chair", "bed"], name: NAME2 }, "Rest the whole time, stop when you feel better: until."],
   ["by", "Let me know ______ {day} if you're coming to the {event}, {name}.", { day: DAY, event: ["party", "dinner", "trip", "meeting"] }, "let me know once, before the deadline: by."],
   ["until", "The {who} talked on the phone ______ two in the morning.", { who: ["girls", "brothers", "cousins", "students"], name: NAME }, "Talking continued, then stopped: until."],
 ].map(([key, source, slots, why]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (f.length && source.includes(`{${n}}`)) s[n] = f;
+  if (source.includes("{name}") && !s.name) s.name = NAME;
   let src = source;
   if (Object.keys(s).length < 2) {
     if (!s.name) { s.name = slots.name || NAME; src = src.replace(/([.!?])$/, ", {name}$1"); }
-    else { s.day = ["on Monday", "on Friday", "yesterday", "last night"]; src = src.replace(/ ______ /, " ______ ").replace(/, \{name\}([.!?])$/, " {day}, {name}$1"); }
   }
   const it = { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src, key, why, slots: s };
   if (key === "until") it.acceptable = ["till"];
@@ -115,6 +116,7 @@ const TRANSFORM = [
 ].map(([instr, source, hint, key, slots, why]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = f;
+  if (source.includes("{name}") && !s.name) s.name = NAME2;
   const it = { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };
   if (key === "until") it.acceptable = ["till"];
   return it;
