@@ -63,7 +63,7 @@ const BUILD = [
   ["if I liked", [], "'Do you like {food}?' {f} asked me. She asked me ______ {food}.", { food: ["plov", "fish", "spicy food", "green tea"], f: F }],
   ["if he could", [], "'Can you swim?' the {who} asked {m}. The {who} asked {m} ______ swim.", { who: ["coach", "teacher", "instructor", "guard"], m: M }],
   ["if it was", [], "'Is the {shop} open?' I asked a {who}. I asked ______ open.", { shop: ["bank", "pharmacy", "bakery", "museum"], who: ["man", "woman", "guard", "boy"] }],
-  ["if we had", [], "'Have you done the {work}?' the {who} asked us. She asked us ______ done the {work}.", { work: ["test", "soup", "task", "project"], who: ["teacher", "waiter", "manager", "nurse"] }],
+  ["if we had", [], "'Have you done the {work}?' the {who} asked us. She asked us ______ done the {work}.", { work: ["test", "homework", "task", "project"], who: ["teacher", "waiter", "manager", "nurse"] }],
   ["if I had seen", ["if I saw", "whether I saw"], "'Did you see the {film}?' {m} asked me. He asked me ______ the {film}.", { film: ["film", "match", "show", "final"], m: M }],
   ["if he would", [], "'Will you come to the {event}?' {f} asked {m}. She asked him ______ come to the {event}.", { event: ["party", "wedding", "match", "concert"], f: F, m: M }],
   ["if I was", [], "'Are you from {city}?' the {who} asked me. He asked me ______ from {city}.", { city: CITY, who: ["driver", "guide", "waiter", "man"] }],

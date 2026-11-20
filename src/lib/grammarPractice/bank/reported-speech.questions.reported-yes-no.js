@@ -791,7 +791,7 @@ export default [
   "slots": {
    "work": [
     "test",
-    "soup",
+    "homework",
     "task",
     "project"
    ],
