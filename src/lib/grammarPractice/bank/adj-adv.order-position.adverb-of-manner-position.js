@@ -719,7 +719,7 @@ export default [
   "slots": {
    "who": [
     "cat",
-    "thief in the film",
+    "old man",
     "nurse",
     "boy"
    ],
@@ -890,7 +890,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The children tidied ______ ______ (the room / quickly) before the {who} came home.",
+  "source": "The children tidied ______ ______ (the room / quickly) before the {who} came home, {name}.",
   "key": [
    "the room",
    "quickly"
@@ -902,6 +902,12 @@ export default [
     "guests",
     "teacher",
     "grandparents"
+   ],
+   "name": [
+    "Gulnora",
+    "Sardor",
+    "Feruza",
+    "Akmal"
    ]
   }
  },
