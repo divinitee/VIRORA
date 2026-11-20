@@ -182,7 +182,7 @@
 181	C	verb-patterns.meaning-change-verbs.stop-contrast	B1	1	live	Productive contrast of stop + -ing vs stop + to-infinitive
 182	C	verb-patterns.meaning-change-verbs.stop-gerund	B1	1	live	stop + -ing = cease an activity
 183	C	verb-patterns.meaning-change-verbs.stop-infinitive	B1	1	live	stop + to-infinitive = purpose
-184	C	adj-adv.adjective-form.ed-vs-ing	B1	3	todo	-ing adjective describes the cause, -ed the feeling | Both -ed and -ing forms of the same participle adjective in one context | People feel -ed; things are -ing
+184	C	adj-adv.adjective-form.ed-vs-ing	B1	3	live	-ing adjective describes the cause, -ed the feeling | Both -ed and -ing forms of the same participle adjective in one context | People feel -ed; things are -ing
 185	C	adj-adv.adverb-form.adverb-vs-adjective-sense	B1	2	todo	late (adverb of time) vs lately (recently) | hard (with effort) vs hardly (almost not) in one context
 186	C	adj-adv.intensifiers.too-enough	B1	2	todo	too + adjective vs adjective + enough | enough follows an adjective but precedes a noun
 187	C	adj-adv.order-position.adverb-of-manner-position	B1	1	todo	Manner adverb after the object, not between verb and object

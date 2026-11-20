@@ -30,6 +30,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "adj-adv.adjective-form.ed-vs-ing": {
+  "domain": "adj-adv",
+  "branch": "adjective-form",
+  "topic": "ed-vs-ing",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "adj-adv.adverb-form.irregular-adverb": {
   "domain": "adj-adv",
   "branch": "adverb-form",

@@ -750,7 +750,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the -ing or -ed adjective of the word in brackets.",
-  "source": "The test results were ______ (amaze). Everyone passed the {test}!",
+  "source": "The test results were ______ (amaze). Everyone passed the {test}, {name}!",
   "key": "amazing",
   "why": "The results cause amazement: amazing.",
   "slots": {

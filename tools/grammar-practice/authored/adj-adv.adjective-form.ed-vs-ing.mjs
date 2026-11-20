@@ -72,7 +72,7 @@ const BUILD = [
   [INSTR, "excited", "The children were ______ (excite) about the trip to the {place}.", { place: ["zoo", "mountains", "lake", "water park"], x: [] }, "The children feel it (excited about …)."],
   [INSTR, "interesting", "We read an ______ (interest) article about {topic}, {name}.", { topic: ["space", "the Silk Road", "dinosaurs", "Amir Temur"], name: NAME2 }, "The article causes interest: interesting."],
   [INSTR, "tired", "I'm too ______ (tire) to cook tonight, {name}. Let's eat at the {place}.", { name: NAME, place: ["café", "chaikhana", "canteen", "restaurant"] }, "I feel it: tired."],
-  [INSTR, "amazing", "The test results were ______ (amaze). Everyone passed the {test}!", { test: ["exam", "test", "quiz", "driving test"], x: [] }, "The results cause amazement: amazing."],
+  [INSTR, "amazing", "The test results were ______ (amaze). Everyone passed the {test}, {name}!", { test: ["exam", "test", "quiz", "driving test"], name: NAME2 }, "The results cause amazement: amazing."],
   [INSTR, "worried", "Grandma is ______ (worry) about her {thing}, {name}.", { thing: ["garden", "cat", "health", "car"], name: NAME2 }, "Grandma feels it (worried about …)."],
   [INSTR, "frightening", "The {film} was so ______ (frighten) that my sister closed her eyes.", { film: ["film", "story", "cartoon", "game"], x: [] }, "The film causes fear: frightening."],
   [INSTR, "disappointed", "Our fans were ______ (disappoint) with the result of the {match}.", { match: ["match", "final", "game", "race"], x: [] }, "The fans feel it (disappointed with …)."],
