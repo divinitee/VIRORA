@@ -45,6 +45,11 @@ export const FILLERS = {
   violet: ['Hm. I see.', 'Right. Okay.', 'Mhm. Noted.', 'Okay. Let me see.', 'Hm. Alright.', 'I see. Okay.'],
 };
 
+// The mood every filler is spoken in (the voice engine reads the tag as direction).
+export const FILLER_TAG = {
+  vira: '[warmly][curious]', vira_nightingale: '[softly][curious]', velvet: '[playfully]', violet: '[calmly]',
+};
+
 // ElevenLabs models that read [tags] as performance direction (v3 / v4 family).
 const TAG_MODELS = ['eleven_v3', 'eleven_v3_conversational', 'eleven_v4', 'eleven_v4_turbo'];
 export const modelSupportsTags = (model) => TAG_MODELS.includes(model);
