@@ -425,7 +425,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {transport} to {city} ______ from Platform 2 tomorrow.",
+  "prompt": "The {transport} to {city} ______ from the main station tomorrow.",
   "options": [
    "leaves",
    "left",

@@ -56,7 +56,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ start · starts · started · starting  
    why: A timetable future takes the present simple. More than one → the base form, start.
 
-14. The **coaches** to **Samarkand** ______ from Platform 2 tomorrow.  
+14. The **coaches** to **Samarkand** ______ from the main station tomorrow.  
    options: leaves · left · leaving · ✔ leave  
    why: A timetable future takes the present simple. More than one → the base form, leave.
 
