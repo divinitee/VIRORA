@@ -147,3 +147,20 @@ tracker -> ElevenLabs voice of the chosen persona. No tool calls to forget.
   writes) and returns it inside the turn answer; the phone fetches `rest_text` via
   `v2_speak` while the first sentence plays.
 - `liveStreams.js` still holds the live-ears / streamed-voice code (unused) for later.
+
+## masterV0 Phase 1 (2026-11-20 night)
+
+Plan: claude.ai doc "masterV0: Making Vira Human". Phase 1 shipped on the branch:
+
+- `base44/shared/liveTeacherBible.js`: Vira Bible (identity, values, humour, habits with budgets, never-list),
+  mood table, If-So bank (intent -> goal -> principles, no lines to copy), the 4-question improvisation rule,
+  variation rules, drift = acknowledge then bridge. Personality log at the top of the file.
+- Brain schema: private `read` {intent, student_mood, drift, her_mood, move} is written BEFORE `reply`;
+  `lesson_focus` + `stage` after it.
+- Lesson state in `LiveTeacherLesson.scores.plan`: focus, stage, off_plan, moods (last 4), patience 0-100,
+  recent (her last 8 lines). The next lesson starts with the previous lesson's last 6 lines, so she does not
+  reuse them. Turn message shows LESSON PLAN, YOUR MOOD SO FAR, YOUR RECENT LINES; off_plan >= 2 forces a bridge.
+- Strike steps are now "gist + Tee's key phrase", built fresh each time.
+- ElevenLabs 429 "system busy": one 400 ms retry for TTS (server) and direct ears (phone) before the backup path.
+- Admins see her read + lesson state under the timing line.
+Prompt ~4.7k tokens (cached after the first turn). Next: Phase 2 regression suite.
