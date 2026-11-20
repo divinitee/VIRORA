@@ -421,7 +421,7 @@
   "options": [
    "reading",
    "read",
-   "read",
+   "reads",
    "to read"
   ],
   "key": 3,
@@ -668,7 +668,7 @@
   "why": "They stopped in order to do it: stop + to + base (to ask).",
   "slots": {
    "who": [
-    "policeman",
+    "guard",
     "taxi driver",
     "shopkeeper",
     "woman"

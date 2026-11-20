@@ -38,7 +38,7 @@ const CHOOSE = [
   [P("check", "checking", "checked"), "The driver heard a noise, so he stopped ______ the {thing}.", { thing: ["tyres", "engine", "wheels", "doors"], x: [] }, "There was a noise"],
   [P("help", "helping", "helped"), "An old man fell in the {place}, so we stopped ______ him, {name}.", { place: ["street", "bazaar", "park", "square"], name: NAME }, "Someone needed help"],
   [P("watch", "watching", "watched"), "There was a street concert in {city}, so we stopped ______ it.", { city: ["Samarkand", "Bukhara", "Tashkent", "Khiva"], x: [] }, "Something interesting was there"],
-  [P("read", "reading", "read"), "I saw a sign on the {place} door, so I stopped ______ it, {name}.", { place: ["museum", "shop", "school", "bank"], name: NAME2 }, "There was a sign"],
+  [["to read", "reading", "read", "reads"], "I saw a sign on the {place} door, so I stopped ______ it, {name}.", { place: ["museum", "shop", "school", "bank"], name: NAME2 }, "There was a sign"],
   [P("say", "saying", "said"), "I met my {who} at the bazaar and stopped ______ hello, {name}.", { who: ["aunt", "teacher", "neighbour", "cousin"], name: NAME }, "I met someone I know"],
   [P("pick", "picking", "picked"), "We saw some ripe {fruit} by the road and stopped ______ a few.", { fruit: ["apples", "apricots", "cherries", "mulberries"], x: [] }, "We saw ripe fruit"],
   [P("make", "making", "made"), "The runners stopped ______ a short break at the {place}, {name}.", { place: ["bridge", "fountain", "park", "corner"], name: NAME2 }, "They needed a break"],
@@ -59,7 +59,7 @@ const INSTR = "We stopped in order to do something. Complete with to + the verb 
 // no source prints "to"
 const BUILD = [
   ["to drink", "I was thirsty, so I stopped ______ (drink) some juice, {name}.", { name: NAME, x: [] }],
-  ["to ask", "We were lost, so we stopped ______ (ask) a {who} the way.", { who: ["policeman", "taxi driver", "shopkeeper", "woman"], x: [] }],
+  ["to ask", "We were lost, so we stopped ______ (ask) a {who} the way.", { who: ["guard", "taxi driver", "shopkeeper", "woman"], x: [] }],
   ["to take", "The sunset over the {sight} was amazing, so we stopped ______ (take) a photo.", { sight: ["mountains", "lake", "sea", "desert"], x: [] }],
   ["to rest", "We were tired, so we stopped ______ (rest) in the shade, {name}.", { name: NAME2, x: [] }],
   ["to buy", "Mum stopped ______ (buy) {food} at the bazaar on the way home.", { food: ["bread", "melons", "grapes", "meat"], x: [] }],
