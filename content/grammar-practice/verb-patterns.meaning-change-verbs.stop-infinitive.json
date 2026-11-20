@@ -1444,8 +1444,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with stopped + to.",
-  "source": "I was walking home, but I stopped and talked to my {who}, {name}.",
-  "hint": "I was walking home, but I stopped ______ to my {who}, {name}.",
+  "source": "I was walking home, but I stopped and talked with my {who}, {name}.",
+  "hint": "I was walking home, but I stopped ______ with my {who}, {name}.",
   "key": "to talk",
   "why": "stopped and talked = stopped to talk.",
   "slots": {

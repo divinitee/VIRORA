@@ -2368,6 +2368,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "verb-patterns.meaning-change-verbs.stop-infinitive": {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-infinitive",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 308,
+   "build": 284,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "verb-patterns.object-infinitive.let-bare": {
   "domain": "verb-patterns",
   "branch": "object-infinitive",
