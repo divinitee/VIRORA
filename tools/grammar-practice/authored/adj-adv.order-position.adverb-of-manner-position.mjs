@@ -57,35 +57,30 @@ const CHOOSE = [
 /* ---------------- build: 20 gap_fill, two gaps ---------------- */
 const INSTR = "Put the two parts in brackets in the gaps, in the right order.";
 const BUILD = [
-  [["the contract", "slowly"], "The manager read ______ ______ before she signed it. (slowly / the contract)", { name: NAME, x: [] }, "Object, then how: the contract slowly."],
-  [["English", "very well"], "My {who} speaks ______ ______, {name}. (very well / English)", { who: ["cousin", "teacher", "boss", "neighbour"], name: NAME2 }, "speaks + English + very well, never \"speaks very well English\"."],
-  [["the window", "quietly"], "The cat opened ______ ______ with its paw. (the window / quietly)", { name: NAME, x: [] }, "opened + the window + quietly, then with its paw."],
-  [["the guitar", "badly"], "My {who} plays ______ ______, but he loves it, {name}. (badly / the guitar)", { who: ["brother", "uncle", "dad", "neighbour"], name: NAME2 }, "plays + the guitar + badly."],
-  [["the soup", "slowly"], "Grandpa ate ______ ______ because it was hot, {name}. (the soup / slowly)", { name: NAME, x: [] }, "ate + the soup + slowly."],
-  [["the glasses", "carefully"], "Please wash ______ ______. They are my mum's best ones, {name}. (carefully / the glasses)", { name: NAME2, x: [] }, "wash + the glasses + carefully."],
-  [["Russian", "fluently"], "Our new {who} speaks ______ ______. (fluently / Russian)", { who: ["teacher", "doctor", "manager", "neighbour"], name: NAME }, "speaks + Russian + fluently."],
-  [["the baby", "gently"], "The nurse held ______ ______ in her arms, {name}. (gently / the baby)", { name: NAME2, x: [] }, "held + the baby + gently."],
-  [["the room", "quickly"], "The children tidied ______ ______ before the {who} came home. (the room / quickly)", { who: ["parents", "guests", "teacher", "grandparents"], name: NAME }, "tidied + the room + quickly."],
-  [["the plan", "clearly"], "The {who} explained ______ ______ to everyone. (clearly / the plan)", { who: ["coach", "manager", "teacher", "captain"], name: NAME2 }, "explained + the plan + clearly."],
-  [["the ball", "hard"], "Sardor's brother kicked ______ ______ and broke a window. (hard / the ball)", { name: NAME, x: [] }, "kicked + the ball + hard (hard is an adverb too)."],
-  [["the news", "calmly"], "Mum told us ______ ______, but we were shocked, {name}. (calmly / the news)", { name: NAME2, x: [] }, "told us + the news + calmly."],
-  [["the bill", "quickly"], "The {who} paid ______ ______ and left the café. (the bill / quickly)", { who: ["man", "tourists", "couple", "students"], name: NAME }, "paid + the bill + quickly."],
-  [["the cake", "beautifully"], "My {who} decorated ______ ______ for the wedding. (beautifully / the cake)", { who: ["aunt", "sister", "mum", "cousin"], name: NAME2 }, "decorated + the cake + beautifully."],
-  [["his name", "neatly"], "The {kid} wrote ______ ______ on the first page, {name}. (his name / neatly)", { kid: ["boy", "student", "little boy", "new pupil"], name: NAME }, "wrote + his name + neatly."],
-  [["the instructions", "carefully"], "Follow ______ ______, or the cake won't rise, {name}. (carefully / the instructions)", { name: NAME2, x: [] }, "follow + the instructions + carefully."],
-  [["the door", "loudly"], "Someone knocked on ______ ______ at midnight, {name}. (loudly / the door)", { name: NAME, x: [] }, "knocked on + the door + loudly."],
-  [["the money", "fairly"], "Dad shared ______ ______ between the {kids}. (the money / fairly)", { kids: ["children", "twins", "three boys", "girls"], name: NAME2 }, "shared + the money + fairly."],
-  [["the bus", "easily"], "We caught ______ ______ because it was late, {name}. (easily / the bus)", { name: NAME, x: [] }, "caught + the bus + easily."],
-  [["the poem", "perfectly"], "The {kid} said ______ ______ at the school concert. (the poem / perfectly)", { kid: ["girl", "boy", "little girl", "new student"], name: NAME2 }, "said + the poem + perfectly."],
+  [["the contract", "slowly"], "The {who} read ______ ______ (slowly / the contract) before she signed it, {name}.", { who: ["manager", "lawyer", "director", "teacher"], name: NAME }, "Object, then how: the contract slowly."],
+  [["English", "very well"], "My {who} speaks ______ ______ (very well / English), {name}.", { who: ["cousin", "teacher", "boss", "neighbour"], name: NAME2 }, "speaks + English + very well, never \"speaks very well English\"."],
+  [["the window", "quietly"], "The {who} opened ______ ______ (the window / quietly) at night, {name}.", { who: ["cat", "thief in the film", "nurse", "boy"], name: NAME }, "opened + the window + quietly."],
+  [["the guitar", "badly"], "My {who} plays ______ ______ (badly / the guitar), but he loves it, {name}.", { who: ["brother", "uncle", "dad", "neighbour"], name: NAME2 }, "plays + the guitar + badly."],
+  [["the soup", "slowly"], "{who} ate ______ ______ (the soup / slowly) because it was hot, {name}.", { who: ["Grandpa", "My son", "The baby", "Dad"], name: NAME }, "ate + the soup + slowly."],
+  [["the glasses", "carefully"], "Please wash ______ ______ (carefully / the glasses). They are my {who}'s best ones, {name}.", { who: ["mum", "grandma", "aunt", "wife"], name: NAME2 }, "wash + the glasses + carefully."],
+  [["Russian", "fluently"], "Our new {who} speaks ______ ______ (fluently / Russian), {name}.", { who: ["teacher", "doctor", "manager", "neighbour"], name: NAME }, "speaks + Russian + fluently."],
+  [["the baby", "gently"], "The {who} held ______ ______ (gently / the baby) in her arms, {name}.", { who: ["nurse", "grandmother", "young mum", "doctor"], name: NAME2 }, "held + the baby + gently, then in her arms."],
+  [["the room", "quickly"], "The children tidied ______ ______ (the room / quickly) before the {who} came home.", { who: ["parents", "guests", "teacher", "grandparents"], name: NAME }, "tidied + the room + quickly."],
+  [["the plan", "clearly"], "The {who} explained ______ ______ (clearly / the plan) to everyone, {name}.", { who: ["coach", "manager", "teacher", "captain"], name: NAME2 }, "explained + the plan + clearly."],
+  [["the ball", "hard"], "My {who} kicked ______ ______ (hard / the ball) and broke a window, {name}.", { who: ["brother", "son", "cousin", "neighbour's son"], name: NAME }, "kicked + the ball + hard (hard is an adverb too)."],
+  [["the news", "calmly"], "{who} told us ______ ______ (calmly / the news), but we were shocked, {name}.", { who: ["Mum", "The doctor", "Our teacher", "Dad"], name: NAME2 }, "told us + the news + calmly."],
+  [["the bill", "quickly"], "The {who} paid ______ ______ (the bill / quickly) and left the café, {name}.", { who: ["man", "tourists", "couple", "students"], name: NAME }, "paid + the bill + quickly."],
+  [["the cake", "beautifully"], "My {who} decorated ______ ______ (beautifully / the cake) for the wedding, {name}.", { who: ["aunt", "sister", "mum", "cousin"], name: NAME2 }, "decorated + the cake + beautifully."],
+  [["his name", "neatly"], "The {kid} wrote ______ ______ (his name / neatly) on the first page, {name}.", { kid: ["boy", "student", "little boy", "new pupil"], name: NAME }, "wrote + his name + neatly."],
+  [["the instructions", "carefully"], "Follow ______ ______ (carefully / the instructions), or the {thing} won't work, {name}.", { thing: ["printer", "game", "app", "machine"], name: NAME2 }, "follow + the instructions + carefully."],
+  [["the door", "loudly"], "Someone knocked on ______ ______ (loudly / the door) at {time}, {name}.", { time: ["midnight", "six in the morning", "dinner time", "two o'clock"], name: NAME }, "knocked on + the door + loudly."],
+  [["the money", "fairly"], "Dad shared ______ ______ (the money / fairly) between the {kids}, {name}.", { kids: ["children", "twins", "three boys", "girls"], name: NAME2 }, "shared + the money + fairly."],
+  [["the bus", "easily"], "We caught ______ ______ (easily / the bus) because it was late, {name}. We usually miss it on {day}.", { name: NAME, day: ["Mondays", "Fridays", "rainy days", "weekdays"] }, "caught + the bus + easily."],
+  [["the poem", "perfectly"], "The {kid} said ______ ______ (the poem / perfectly) at the school concert, {name}.", { kid: ["girl", "boy", "little girl", "new student"], name: NAME2 }, "said + the poem + perfectly."],
 ].map(([key, source, slots, why]) => {
   const s = {};
-  for (const [n, f] of Object.entries(slots)) if (f.length && source.includes(`{${n}}`)) s[n] = f;
-  let src = source;
-  if (Object.keys(s).length < 2) {
-    s.place = ["yesterday", "this morning", "last night", "on Sunday"];
-    src = src.replace(/ \(/, ` {place}. (`).replace(/([.!,]) \{place\}\. \(/, " {place}$1 (");
-  }
-  return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source: src, key, why, slots: s };
+  for (const [n, f] of Object.entries(slots)) if (source.includes(`{${n}}`)) s[n] = f;
+  return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key, why, slots: s };
 });
 
 /* ---------------- transform: 15 rewrite, two gaps ---------------- */
@@ -106,7 +101,7 @@ const TRANSFORM = [
   [ADV, "His Russian is fluent. He grew up in {city}, {name}.", "He speaks ______ ______. He grew up in {city}, {name}.", ["Russian", "fluently"], { city: ["Moscow", "Kazan", "Minsk", "Almaty"], name: NAME2 }, "fluent Russian → speaks Russian fluently."],
   [ADV, "Her piano playing is beautiful, {name}. She practises every {time}.", "She plays ______ ______, {name}. She practises every {time}.", ["the piano", "beautifully"], { name: NAME, time: ["day", "evening", "morning", "weekend"] }, "beautiful playing → plays the piano beautifully."],
   [ADV, "Their football was terrible in the {match}, {name}.", "They played ______ ______ in the {match}, {name}.", ["football", "terribly"], { match: ["final", "first game", "cup match", "last match"], name: NAME2 }, "terrible football → played football terribly."],
-  [ADV, "His handwriting of the address was neat, {name}. The {thing} arrived on time.", "He wrote ______ ______, {name}. The {thing} arrived on time.", ["the address", "neatly"], { name: NAME, thing: ["letter", "parcel", "card", "package"] }, "neat handwriting → wrote the address neatly."],
+  [ADV, "Her French is good, {name}. She studied in {city} for a year.", "She speaks ______ ______, {name}. She studied in {city} for a year.", ["French", "well"], { name: NAME, city: ["Paris", "Lyon", "Geneva", "Brussels"] }, "good French → speaks French well (the adverb of good is well)."],
 ].map(([instr, source, hint, key, slots, why]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (f.length && (source + hint).includes(`{${n}}`)) s[n] = f;

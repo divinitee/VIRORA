@@ -650,18 +650,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The manager read ______ ______ before she signed it {place}. (slowly / the contract)",
+  "source": "The {who} read ______ ______ (slowly / the contract) before she signed it, {name}.",
   "key": [
    "the contract",
    "slowly"
   ],
   "why": "Object, then how: the contract slowly.",
   "slots": {
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "who": [
+    "manager",
+    "lawyer",
+    "director",
+    "teacher"
+   ],
+   "name": [
+    "Gulnora",
+    "Sardor",
+    "Feruza",
+    "Akmal"
    ]
   }
  },
@@ -674,7 +680,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "My {who} speaks ______ ______, {name}. (very well / English)",
+  "source": "My {who} speaks ______ ______ (very well / English), {name}.",
   "key": [
    "English",
    "very well"
@@ -704,18 +710,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The cat opened ______ ______ with its paw {place}. (the window / quietly)",
+  "source": "The {who} opened ______ ______ (the window / quietly) at night, {name}.",
   "key": [
    "the window",
    "quietly"
   ],
-  "why": "opened + the window + quietly, then with its paw.",
+  "why": "opened + the window + quietly.",
   "slots": {
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "who": [
+    "cat",
+    "thief in the film",
+    "nurse",
+    "boy"
+   ],
+   "name": [
+    "Gulnora",
+    "Sardor",
+    "Feruza",
+    "Akmal"
    ]
   }
  },
@@ -728,7 +740,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "My {who} plays ______ ______, but he loves it, {name}. (badly / the guitar)",
+  "source": "My {who} plays ______ ______ (badly / the guitar), but he loves it, {name}.",
   "key": [
    "the guitar",
    "badly"
@@ -758,24 +770,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "Grandpa ate ______ ______ because it was hot, {name} {place}. (the soup / slowly)",
+  "source": "{who} ate ______ ______ (the soup / slowly) because it was hot, {name}.",
   "key": [
    "the soup",
    "slowly"
   ],
   "why": "ate + the soup + slowly.",
   "slots": {
+   "who": [
+    "Grandpa",
+    "My son",
+    "The baby",
+    "Dad"
+   ],
    "name": [
     "Gulnora",
     "Sardor",
     "Feruza",
     "Akmal"
-   ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
    ]
   }
  },
@@ -788,24 +800,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "Please wash ______ ______. They are my mum's best ones, {name} {place}. (carefully / the glasses)",
+  "source": "Please wash ______ ______ (carefully / the glasses). They are my {who}'s best ones, {name}.",
   "key": [
    "the glasses",
    "carefully"
   ],
   "why": "wash + the glasses + carefully.",
   "slots": {
+   "who": [
+    "mum",
+    "grandma",
+    "aunt",
+    "wife"
+   ],
    "name": [
     "Zarina",
     "Jamshid",
     "Malika",
     "Otabek"
-   ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
    ]
   }
  },
@@ -818,7 +830,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "Our new {who} speaks ______ ______ {place}. (fluently / Russian)",
+  "source": "Our new {who} speaks ______ ______ (fluently / Russian), {name}.",
   "key": [
    "Russian",
    "fluently"
@@ -831,11 +843,11 @@ export default [
     "manager",
     "neighbour"
    ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "name": [
+    "Gulnora",
+    "Sardor",
+    "Feruza",
+    "Akmal"
    ]
   }
  },
@@ -848,24 +860,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The nurse held ______ ______ in her arms, {name} {place}. (gently / the baby)",
+  "source": "The {who} held ______ ______ (gently / the baby) in her arms, {name}.",
   "key": [
    "the baby",
    "gently"
   ],
-  "why": "held + the baby + gently.",
+  "why": "held + the baby + gently, then in her arms.",
   "slots": {
+   "who": [
+    "nurse",
+    "grandmother",
+    "young mum",
+    "doctor"
+   ],
    "name": [
     "Zarina",
     "Jamshid",
     "Malika",
     "Otabek"
-   ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
    ]
   }
  },
@@ -878,7 +890,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The children tidied ______ ______ before the {who} came home {place}. (the room / quickly)",
+  "source": "The children tidied ______ ______ (the room / quickly) before the {who} came home.",
   "key": [
    "the room",
    "quickly"
@@ -890,12 +902,6 @@ export default [
     "guests",
     "teacher",
     "grandparents"
-   ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
    ]
   }
  },
@@ -908,7 +914,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The {who} explained ______ ______ to everyone {place}. (clearly / the plan)",
+  "source": "The {who} explained ______ ______ (clearly / the plan) to everyone, {name}.",
   "key": [
    "the plan",
    "clearly"
@@ -921,11 +927,11 @@ export default [
     "teacher",
     "captain"
    ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Malika",
+    "Otabek"
    ]
   }
  },
@@ -938,18 +944,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "Sardor's brother kicked ______ ______ and broke a window {place}. (hard / the ball)",
+  "source": "My {who} kicked ______ ______ (hard / the ball) and broke a window, {name}.",
   "key": [
    "the ball",
    "hard"
   ],
   "why": "kicked + the ball + hard (hard is an adverb too).",
   "slots": {
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "who": [
+    "brother",
+    "son",
+    "cousin",
+    "neighbour's son"
+   ],
+   "name": [
+    "Gulnora",
+    "Sardor",
+    "Feruza",
+    "Akmal"
    ]
   }
  },
@@ -962,24 +974,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "Mum told us ______ ______, but we were shocked, {name} {place}. (calmly / the news)",
+  "source": "{who} told us ______ ______ (calmly / the news), but we were shocked, {name}.",
   "key": [
    "the news",
    "calmly"
   ],
   "why": "told us + the news + calmly.",
   "slots": {
+   "who": [
+    "Mum",
+    "The doctor",
+    "Our teacher",
+    "Dad"
+   ],
    "name": [
     "Zarina",
     "Jamshid",
     "Malika",
     "Otabek"
-   ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
    ]
   }
  },
@@ -992,7 +1004,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The {who} paid ______ ______ and left the café {place}. (the bill / quickly)",
+  "source": "The {who} paid ______ ______ (the bill / quickly) and left the café, {name}.",
   "key": [
    "the bill",
    "quickly"
@@ -1005,11 +1017,11 @@ export default [
     "couple",
     "students"
    ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "name": [
+    "Gulnora",
+    "Sardor",
+    "Feruza",
+    "Akmal"
    ]
   }
  },
@@ -1022,7 +1034,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "My {who} decorated ______ ______ for the wedding {place}. (beautifully / the cake)",
+  "source": "My {who} decorated ______ ______ (beautifully / the cake) for the wedding, {name}.",
   "key": [
    "the cake",
    "beautifully"
@@ -1035,11 +1047,11 @@ export default [
     "mum",
     "cousin"
    ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Malika",
+    "Otabek"
    ]
   }
  },
@@ -1052,7 +1064,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The {kid} wrote ______ ______ on the first page, {name}. (his name / neatly)",
+  "source": "The {kid} wrote ______ ______ (his name / neatly) on the first page, {name}.",
   "key": [
    "his name",
    "neatly"
@@ -1082,24 +1094,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "Follow ______ ______, or the cake won't rise, {name} {place}. (carefully / the instructions)",
+  "source": "Follow ______ ______ (carefully / the instructions), or the {thing} won't work, {name}.",
   "key": [
    "the instructions",
    "carefully"
   ],
   "why": "follow + the instructions + carefully.",
   "slots": {
+   "thing": [
+    "printer",
+    "game",
+    "app",
+    "machine"
+   ],
    "name": [
     "Zarina",
     "Jamshid",
     "Malika",
     "Otabek"
-   ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
    ]
   }
  },
@@ -1112,24 +1124,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "Someone knocked on ______ ______ at midnight, {name} {place}. (loudly / the door)",
+  "source": "Someone knocked on ______ ______ (loudly / the door) at {time}, {name}.",
   "key": [
    "the door",
    "loudly"
   ],
   "why": "knocked on + the door + loudly.",
   "slots": {
+   "time": [
+    "midnight",
+    "six in the morning",
+    "dinner time",
+    "two o'clock"
+   ],
    "name": [
     "Gulnora",
     "Sardor",
     "Feruza",
     "Akmal"
-   ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
    ]
   }
  },
@@ -1142,7 +1154,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "Dad shared ______ ______ between the {kids} {place}. (the money / fairly)",
+  "source": "Dad shared ______ ______ (the money / fairly) between the {kids}, {name}.",
   "key": [
    "the money",
    "fairly"
@@ -1155,11 +1167,11 @@ export default [
     "three boys",
     "girls"
    ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Malika",
+    "Otabek"
    ]
   }
  },
@@ -1172,7 +1184,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "We caught ______ ______ because it was late, {name} {place}. (easily / the bus)",
+  "source": "We caught ______ ______ (easily / the bus) because it was late, {name}. We usually miss it on {day}.",
   "key": [
    "the bus",
    "easily"
@@ -1185,11 +1197,11 @@ export default [
     "Feruza",
     "Akmal"
    ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "day": [
+    "Mondays",
+    "Fridays",
+    "rainy days",
+    "weekdays"
    ]
   }
  },
@@ -1202,7 +1214,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Put the two parts in brackets in the gaps, in the right order.",
-  "source": "The {kid} said ______ ______ at the school concert {place}. (the poem / perfectly)",
+  "source": "The {kid} said ______ ______ (the poem / perfectly) at the school concert, {name}.",
   "key": [
    "the poem",
    "perfectly"
@@ -1215,11 +1227,11 @@ export default [
     "little girl",
     "new student"
    ],
-   "place": [
-    "yesterday",
-    "this morning",
-    "last night",
-    "on Sunday"
+   "name": [
+    "Zarina",
+    "Jamshid",
+    "Malika",
+    "Otabek"
    ]
   }
  },
@@ -1666,13 +1678,13 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with a verb and an -ly adverb. Write one part in each gap.",
-  "source": "His handwriting of the address was neat, {name}. The {thing} arrived on time.",
-  "hint": "He wrote ______ ______, {name}. The {thing} arrived on time.",
+  "source": "Her French is good, {name}. She studied in {city} for a year.",
+  "hint": "She speaks ______ ______, {name}. She studied in {city} for a year.",
   "key": [
-   "the address",
-   "neatly"
+   "French",
+   "well"
   ],
-  "why": "neat handwriting → wrote the address neatly.",
+  "why": "good French → speaks French well (the adverb of good is well).",
   "slots": {
    "name": [
     "Gulnora",
@@ -1680,11 +1692,11 @@ export default [
     "Feruza",
     "Akmal"
    ],
-   "thing": [
-    "letter",
-    "parcel",
-    "card",
-    "package"
+   "city": [
+    "Paris",
+    "Lyon",
+    "Geneva",
+    "Brussels"
    ]
   }
  },

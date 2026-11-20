@@ -87,196 +87,196 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## build (20)
 
 1. _Put the two parts in brackets in the gaps, in the right order._  
-   The manager read ______ ______ before she signed it **this morning**. (slowly / the contract)  
+   The **lawyer** read ______ ______ (slowly / the contract) before she signed it, **Sardor**.  
    key: the contract + slowly  
    why: Object, then how: the contract slowly.
 
 2. _Put the two parts in brackets in the gaps, in the right order._  
-   My **teacher** speaks ______ ______, **Zarina**. (very well / English)  
+   My **cousin** speaks ______ ______ (very well / English), **Otabek**.  
    key: English + very well  
    why: speaks + English + very well, never "speaks very well English".
 
 3. _Put the two parts in brackets in the gaps, in the right order._  
-   The cat opened ______ ______ with its paw **on Sunday**. (the window / quietly)  
+   The **cat** opened ______ ______ (the window / quietly) at night, **Akmal**.  
    key: the window + quietly  
-   why: opened + the window + quietly, then with its paw.
+   why: opened + the window + quietly.
 
 4. _Put the two parts in brackets in the gaps, in the right order._  
-   My **brother** plays ______ ______, but he loves it, **Otabek**. (badly / the guitar)  
+   My **uncle** plays ______ ______ (badly / the guitar), but he loves it, **Zarina**.  
    key: the guitar + badly  
    why: plays + the guitar + badly.
 
 5. _Put the two parts in brackets in the gaps, in the right order._  
-   Grandpa ate ______ ______ because it was hot, **Sardor** **yesterday**. (the soup / slowly)  
+   **The baby** ate ______ ______ (the soup / slowly) because it was hot, **Sardor**.  
    key: the soup + slowly  
    why: ate + the soup + slowly.
 
 6. _Put the two parts in brackets in the gaps, in the right order._  
-   Please wash ______ ______. They are my mum's best ones, **Malika** **this morning**. (carefully / the glasses)  
+   Please wash ______ ______ (carefully / the glasses). They are my **wife**'s best ones, **Malika**.  
    key: the glasses + carefully  
    why: wash + the glasses + carefully.
 
 7. _Put the two parts in brackets in the gaps, in the right order._  
-   Our new **neighbour** speaks ______ ______ **last night**. (fluently / Russian)  
+   Our new **teacher** speaks ______ ______ (fluently / Russian), **Gulnora**.  
    key: Russian + fluently  
    why: speaks + Russian + fluently.
 
 8. _Put the two parts in brackets in the gaps, in the right order._  
-   The nurse held ______ ______ in her arms, **Zarina** **yesterday**. (gently / the baby)  
+   The **grandmother** held ______ ______ (gently / the baby) in her arms, **Zarina**.  
    key: the baby + gently  
-   why: held + the baby + gently.
+   why: held + the baby + gently, then in her arms.
 
 9. _Put the two parts in brackets in the gaps, in the right order._  
-   The children tidied ______ ______ before the **guests** came home **yesterday**. (the room / quickly)  
+   The children tidied ______ ______ (the room / quickly) before the **parents** came home.  
    key: the room + quickly  
    why: tidied + the room + quickly.
 
 10. _Put the two parts in brackets in the gaps, in the right order._  
-   The **coach** explained ______ ______ to everyone **this morning**. (clearly / the plan)  
+   The **manager** explained ______ ______ (clearly / the plan) to everyone, **Malika**.  
    key: the plan + clearly  
    why: explained + the plan + clearly.
 
 11. _Put the two parts in brackets in the gaps, in the right order._  
-   Sardor's brother kicked ______ ______ and broke a window **last night**. (hard / the ball)  
+   My **cousin** kicked ______ ______ (hard / the ball) and broke a window, **Akmal**.  
    key: the ball + hard  
    why: kicked + the ball + hard (hard is an adverb too).
 
 12. _Put the two parts in brackets in the gaps, in the right order._  
-   Mum told us ______ ______, but we were shocked, **Malika** **on Sunday**. (calmly / the news)  
+   **The doctor** told us ______ ______ (calmly / the news), but we were shocked, **Jamshid**.  
    key: the news + calmly  
    why: told us + the news + calmly.
 
 13. _Put the two parts in brackets in the gaps, in the right order._  
-   The **tourists** paid ______ ______ and left the café **this morning**. (the bill / quickly)  
+   The **tourists** paid ______ ______ (the bill / quickly) and left the café, **Sardor**.  
    key: the bill + quickly  
    why: paid + the bill + quickly.
 
 14. _Put the two parts in brackets in the gaps, in the right order._  
-   My **sister** decorated ______ ______ for the wedding **this morning**. (beautifully / the cake)  
+   My **cousin** decorated ______ ______ (beautifully / the cake) for the wedding, **Jamshid**.  
    key: the cake + beautifully  
    why: decorated + the cake + beautifully.
 
 15. _Put the two parts in brackets in the gaps, in the right order._  
-   The **new pupil** wrote ______ ______ on the first page, **Sardor**. (his name / neatly)  
+   The **student** wrote ______ ______ (his name / neatly) on the first page, **Sardor**.  
    key: his name + neatly  
    why: wrote + his name + neatly.
 
 16. _Put the two parts in brackets in the gaps, in the right order._  
-   Follow ______ ______, or the cake won't rise, **Jamshid** **this morning**. (carefully / the instructions)  
+   Follow ______ ______ (carefully / the instructions), or the **printer** won't work, **Malika**.  
    key: the instructions + carefully  
    why: follow + the instructions + carefully.
 
 17. _Put the two parts in brackets in the gaps, in the right order._  
-   Someone knocked on ______ ______ at midnight, **Gulnora** **last night**. (loudly / the door)  
+   Someone knocked on ______ ______ (loudly / the door) at **midnight**, **Sardor**.  
    key: the door + loudly  
    why: knocked on + the door + loudly.
 
 18. _Put the two parts in brackets in the gaps, in the right order._  
-   Dad shared ______ ______ between the **children** **this morning**. (the money / fairly)  
+   Dad shared ______ ______ (the money / fairly) between the **girls**, **Otabek**.  
    key: the money + fairly  
    why: shared + the money + fairly.
 
 19. _Put the two parts in brackets in the gaps, in the right order._  
-   We caught ______ ______ because it was late, **Akmal** **on Sunday**. (easily / the bus)  
+   We caught ______ ______ (easily / the bus) because it was late, **Akmal**. We usually miss it on **weekdays**.  
    key: the bus + easily  
    why: caught + the bus + easily.
 
 20. _Put the two parts in brackets in the gaps, in the right order._  
-   The **new student** said ______ ______ at the school concert **on Sunday**. (the poem / perfectly)  
+   The **new student** said ______ ______ (the poem / perfectly) at the school concert, **Malika**.  
    key: the poem + perfectly  
    why: said + the poem + perfectly.
 
 ## transform (15)
 
 1. _Correct the word order. Write one part in each gap._  
-   She speaks very well English, **Akmal**. She lived in **Toronto**.  
-   → She speaks ______ ______, **Akmal**. She lived in **Toronto**.  
+   She speaks very well English, **Feruza**. She lived in **Toronto**.  
+   → She speaks ______ ______, **Feruza**. She lived in **Toronto**.  
    key: English + very well  
    why: Object, then how: English very well.
 
 2. _Correct the word order. Write one part in each gap._  
-   My **sister** drives carefully her car, **Malika**.  
-   → My **sister** drives ______ ______, **Malika**.  
+   My **mum** drives carefully her car, **Jamshid**.  
+   → My **mum** drives ______ ______, **Jamshid**.  
    key: her car + carefully  
    why: drives + her car + carefully.
 
 3. _Correct the word order. Write one part in each gap._  
-   He opened slowly the box **this morning**, **Gulnora**. There was a puppy inside!  
-   → He opened ______ ______ **this morning**, **Gulnora**. There was a puppy inside!  
+   He opened slowly the box **yesterday**, **Sardor**. There was a puppy inside!  
+   → He opened ______ ______ **yesterday**, **Sardor**. There was a puppy inside!  
    key: the box + slowly  
    why: opened + the box + slowly.
 
 4. _Correct the word order. Write one part in each gap._  
-   The **coach** explained clearly the rules, **Zarina**.  
-   → The **coach** explained ______ ______, **Zarina**.  
+   The **coach** explained clearly the rules, **Malika**.  
+   → The **coach** explained ______ ______, **Malika**.  
    key: the rules + clearly  
    why: explained + the rules + clearly.
 
 5. _Correct the word order. Write one part in each gap._  
-   Please close quietly the door. The **puppy** is asleep, **Feruza**.  
-   → Please close ______ ______. The **puppy** is asleep, **Feruza**.  
+   Please close quietly the door. The **patient** is asleep, **Sardor**.  
+   → Please close ______ ______. The **patient** is asleep, **Sardor**.  
    key: the door + quietly  
    why: close + the door + quietly.
 
 6. _Correct the word order. Write one part in each gap._  
-   My **aunt** plays beautifully the violin, **Jamshid**.  
-   → My **aunt** plays ______ ______, **Jamshid**.  
+   My **teacher** plays beautifully the violin, **Zarina**.  
+   → My **teacher** plays ______ ______, **Zarina**.  
    key: the violin + beautifully  
    why: plays + the violin + beautifully.
 
 7. _Correct the word order. Write one part in each gap._  
-   We ate quickly our lunch before the **exam**, **Gulnora**.  
-   → We ate ______ ______ before the **exam**, **Gulnora**.  
+   We ate quickly our lunch before the **match**, **Feruza**.  
+   → We ate ______ ______ before the **match**, **Feruza**.  
    key: our lunch + quickly  
    why: ate + our lunch + quickly.
 
 8. _Correct the word order. Write one part in each gap._  
-   The **girl** answered politely the question, **Malika**.  
-   → The **girl** answered ______ ______, **Malika**.  
+   The **girl** answered politely the question, **Zarina**.  
+   → The **girl** answered ______ ______, **Zarina**.  
    key: the question + politely  
    why: answered + the question + politely.
 
 9. _Correct the word order. Write one part in each gap._  
-   Grandma held gently the bird in her hands **yesterday**, **Sardor**.  
-   → Grandma held ______ ______ in her hands **yesterday**, **Sardor**.  
+   Grandma held gently the bird in her hands **this morning**, **Akmal**.  
+   → Grandma held ______ ______ in her hands **this morning**, **Akmal**.  
    key: the bird + gently  
    why: held + the bird + gently, then in her hands.
 
 10. _Correct the word order. Write one part in each gap._  
-   Read carefully the instructions for the **test**, **Jamshid**.  
-   → Read ______ ______ for the **test**, **Jamshid**.  
+   Read carefully the instructions for the **test**, **Malika**.  
+   → Read ______ ______ for the **test**, **Malika**.  
    key: the instructions + carefully  
    why: read + the instructions + carefully.
 
 11. _Rewrite with a verb and an -ly adverb. Write one part in each gap._  
-   Her English is perfect, **Akmal**. She went to school in **Toronto**.  
-   → She speaks ______ ______, **Akmal**. She went to school in **Toronto**.  
+   Her English is perfect, **Sardor**. She went to school in **London**.  
+   → She speaks ______ ______, **Sardor**. She went to school in **London**.  
    key: English + perfectly  
    why: perfect English → speaks English perfectly.
 
 12. _Rewrite with a verb and an -ly adverb. Write one part in each gap._  
-   His Russian is fluent. He grew up in **Kazan**, **Zarina**.  
-   → He speaks ______ ______. He grew up in **Kazan**, **Zarina**.  
+   His Russian is fluent. He grew up in **Almaty**, **Otabek**.  
+   → He speaks ______ ______. He grew up in **Almaty**, **Otabek**.  
    key: Russian + fluently  
    why: fluent Russian → speaks Russian fluently.
 
 13. _Rewrite with a verb and an -ly adverb. Write one part in each gap._  
-   Her piano playing is beautiful, **Akmal**. She practises every **weekend**.  
-   → She plays ______ ______, **Akmal**. She practises every **weekend**.  
+   Her piano playing is beautiful, **Sardor**. She practises every **day**.  
+   → She plays ______ ______, **Sardor**. She practises every **day**.  
    key: the piano + beautifully  
    why: beautiful playing → plays the piano beautifully.
 
 14. _Rewrite with a verb and an -ly adverb. Write one part in each gap._  
-   Their football was terrible in the **first game**, **Zarina**.  
-   → They played ______ ______ in the **first game**, **Zarina**.  
+   Their football was terrible in the **final**, **Malika**.  
+   → They played ______ ______ in the **final**, **Malika**.  
    key: football + terribly  
    why: terrible football → played football terribly.
 
 15. _Rewrite with a verb and an -ly adverb. Write one part in each gap._  
-   His handwriting of the address was neat, **Gulnora**. The **card** arrived on time.  
-   → He wrote ______ ______, **Gulnora**. The **card** arrived on time.  
-   key: the address + neatly  
-   why: neat handwriting → wrote the address neatly.
+   Her French is good, **Feruza**. She studied in **Geneva** for a year.  
+   → She speaks ______ ______, **Feruza**. She studied in **Geneva** for a year.  
+   key: French + well  
+   why: good French → speaks French well (the adverb of good is well).
 
 ## create (8)
 
