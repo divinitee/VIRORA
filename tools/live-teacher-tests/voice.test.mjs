@@ -253,9 +253,8 @@ test('cost estimate: cached tokens are cheaper', () => {
   assert.equal(a.tts, 0.004);
 });
 
-test('splitSpeech: first part >= 40 chars, rest separate', async () => {
+test('splitSpeech: first sentence (tiny ones merged), rest separate', async () => {
   const { splitSpeech } = await import('../../base44/shared/liveTeacherBrain.js');
-  assert.deepEqual(splitSpeech('Nice! You said it well. Now tell me about your weekend plans.'), { first: 'Nice! You said it well.', rest: 'Now tell me about your weekend plans.' }.first.length >= 40 ? {} : splitSpeech('Nice! You said it well. Now tell me about your weekend plans.'));
   const r = splitSpeech('Nice! You said it well, really well. Now tell me about your weekend.');
   assert.equal(r.first, 'Nice! You said it well, really well.');
   assert.equal(r.rest, 'Now tell me about your weekend.');

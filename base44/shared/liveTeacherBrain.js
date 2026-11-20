@@ -288,8 +288,8 @@ export function cleanBrainOutput(o) {
 export const personaMinutes = (persona) => PERSONAS[cleanPersona(persona)].minutes || MAX_MINUTES.normal;
 
 /**
- * Split a reply for faster speech: the server voices `first` (one sentence,
- * at least ~40 characters) inside the turn answer, the phone asks for `rest`
+ * Split a reply for faster speech: the server voices `first` (the first
+ * sentence, merged with the next if it is tiny like "Nice!") inside the turn answer, the phone asks for `rest`
  * while `first` is already playing.
  */
 export function splitSpeech(text) {
@@ -299,7 +299,7 @@ export function splitSpeech(text) {
   while (i < parts.length) {
     first = first ? `${first} ${parts[i]}` : parts[i];
     i += 1;
-    if (stripAudioTags(first).length >= 40) break;
+    if (stripAudioTags(first).length >= 12) break; // "Nice!" alone is too short to start with
   }
   return { first, rest: parts.slice(i).join(' ') };
 }
