@@ -80,7 +80,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: meanwhile · whereas · ✔ during · while  
    why: "the performance" is a noun: during.
 
-20. Somebody took my bag ______ I wasn't looking, **Zarina**. It was at the **bazaar**.  
+20. A dog ate my sandwich ______ I wasn't looking, **Zarina**. We were at the **bazaar**.  
    options: whereas · during · ✔ while · meanwhile  
    why: "I wasn't looking" is a clause: while.
 
@@ -162,7 +162,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: "the whole journey" is a noun: during.
 
 16. _Write during or while._  
-   Someone stole my bike ______ I was in the **café**, **Sherzod**.  
+   My ice cream melted ______ I was in the **café**, **Sherzod**.  
    key: while  
    why: "I was in the shop" is a clause: while.
 
@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: we were out is a clause, so not during: while.
 
 15. _Correct the mistake._  
-   Mum cooked dinner during Dad was at the **mosque**, **Zarina**.  
-   → Mum cooked dinner ______ Dad was at the **mosque**, **Zarina**.  
+   Mum cooked dinner during Dad was at the **bank**, **Zarina**.  
+   → Mum cooked dinner ______ Dad was at the **bank**, **Zarina**.  
    key: while  
    why: Dad was at the bazaar is a clause, so not during: while.
 

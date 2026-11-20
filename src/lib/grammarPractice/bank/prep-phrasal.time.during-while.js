@@ -617,7 +617,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Somebody took my bag ______ I wasn't looking, {name}. It was at the {place}.",
+  "prompt": "A dog ate my sandwich ______ I wasn't looking, {name}. We were at the {place}.",
   "options": [
    "whereas",
    "during",
@@ -1055,7 +1055,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write during or while.",
-  "source": "Someone stole my bike ______ I was in the {place}, {name}.",
+  "source": "My ice cream melted ______ I was in the {place}, {name}.",
   "key": "while",
   "why": "\"I was in the shop\" is a clause: while.",
   "slots": {
@@ -1590,7 +1590,7 @@ export default [
    "place": [
     "bazaar",
     "gym",
-    "mosque",
+    "bank",
     "office"
    ],
    "name": [

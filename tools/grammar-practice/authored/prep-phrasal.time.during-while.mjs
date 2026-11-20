@@ -49,7 +49,7 @@ const CHOOSE = [
   ["during", "The baby woke up three times ______ the {time}.", { time: ["night", "flight", "storm", "concert"] }, "\"the night\" is a noun: during."],
   ["while", "The {who} waited in the car ______ I bought the tickets, {name}.", { who: ["kids", "girls", "boys", "guests"] }, "\"I bought the tickets\" is a clause: while."],
   ["during", "Please switch off your phones ______ the {event}.", { event: ["performance", "lesson", "flight", "ceremony"] }, "\"the performance\" is a noun: during."],
-  ["while", "Somebody took my bag ______ I wasn't looking, {name}. It was at the {place}.", { place: ["bazaar", "station", "beach", "café"] }, "\"I wasn't looking\" is a clause: while."],
+  ["while", "A dog ate my sandwich ______ I wasn't looking, {name}. We were at the {place}.", { place: ["bazaar", "station", "beach", "café"] }, "\"I wasn't looking\" is a clause: while."],
 ].map(([k, prompt, slots, why], i) => {
   let p = prompt;
   const s = fill(p, slots, NAME);
@@ -76,7 +76,7 @@ const BUILD = [
   ["during", "Lots of people get colds ______ the {season}, {name}.", { season: ["winter", "autumn", "cold months", "rainy season"] }, "\"the winter\" is a noun: during."],
   ["while", "Grandma told stories ______ we ate {food}, {name}.", { food: ["plov", "dinner", "breakfast", "manti"] }, "\"we ate\" has a subject and verb: while."],
   ["during", "The {who} slept ______ the whole {time}.", { who: ["baby", "children", "dog", "passengers"], time: ["journey", "flight", "film", "concert"] }, "\"the whole journey\" is a noun: during."],
-  ["while", "Someone stole my bike ______ I was in the {place}, {name}.", { place: ["shop", "library", "café", "gym"] }, "\"I was in the shop\" is a clause: while."],
+  ["while", "My ice cream melted ______ I was in the {place}, {name}.", { place: ["shop", "library", "café", "gym"] }, "\"I was in the shop\" is a clause: while."],
   ["during", "The {who} asked a lot of questions ______ the {event}.", { who: ["students", "tourists", "parents", "journalists"], event: ["tour", "lecture", "meeting", "visit"] }, "\"the tour\" is a noun: during."],
   ["while", "Don't use your phone ______ you are driving, {name}.", { x: [] }, "\"you are driving\" is a clause: while."],
   ["during", "I read three books ______ my holiday in {city}, {name}.", { city: ["Antalya", "Dubai", "Issyk-Kul", "Batumi"] }, "\"my holiday\" is a noun: during."],
@@ -110,7 +110,7 @@ const TRANSFORM = [
   [FIX, "I fell asleep during I was reading the {thing}, {name}.", "I fell asleep ______ I was reading the {thing}, {name}.", "while", { thing: ["book", "report", "newspaper", "article"] }, "I was reading is a clause, so not during: while."],
   [FIX, "We met many people while our trip to {city}, {name}.", "We met many people ______ our trip to {city}, {name}.", "during", { city: ["Samarkand", "Khiva", "Bukhara", "Andijan"] }, "our trip is a noun, so not while: during."],
   [FIX, "The {who} called during we were out, {name}.", "The {who} called ______ we were out, {name}.", "while", { who: ["doctor", "teacher", "bank", "landlord"] }, "we were out is a clause, so not during: while."],
-  [FIX, "Mum cooked dinner during Dad was at the {place}, {name}.", "Mum cooked dinner ______ Dad was at the {place}, {name}.", "while", { place: ["bazaar", "gym", "mosque", "office"] }, "Dad was at the bazaar is a clause, so not during: while."],
+  [FIX, "Mum cooked dinner during Dad was at the {place}, {name}.", "Mum cooked dinner ______ Dad was at the {place}, {name}.", "while", { place: ["bazaar", "gym", "bank", "office"] }, "Dad was at the bazaar is a clause, so not during: while."],
 ].map(([instr, source, hint, key, slots, why], i) => {
   const s = fill(source + hint, slots, i % 2 ? NAME2 : NAME);
   return { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };
