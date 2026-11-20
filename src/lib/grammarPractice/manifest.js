@@ -562,6 +562,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "modals.semi-modals.be-able-to": {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "authored": 68,
+  "stages": {
+   "choose": 320,
+   "build": 320,
+   "transform": 240,
+   "create": 8,
+   "express": 5
+  }
+ },
  "modals.semi-modals.have-to-past": {
   "domain": "modals",
   "branch": "semi-modals",
