@@ -15,7 +15,7 @@
 const OUT_RATE = 16000;
 const PREROLL_S = 0.5;
 const START_MS = 160; // voice this long = the student started talking
-const END_SILENCE_MS = 1100; // quiet this long = the student finished (learners pause to think)
+const END_SILENCE_MS = 850; // quiet this long = the student finished (was 1100: felt slow in the first live test)
 const MIN_TURN_MS = 350;
 const MAX_TURN_S = 30;
 const BARGE_MS = 300; // the student must talk this long over the teacher to interrupt
