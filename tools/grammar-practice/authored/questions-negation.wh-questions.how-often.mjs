@@ -12,7 +12,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "questions-negation", branch: "wh-questions", topic: "how-often", level: "A2", pv: "2.5" };
+const BASE = { domain: "questions-negation", branch: "wh-questions", topic: "how-often", level: "A1", pv: "2.5" };
 const NAME = ["Aziz", "Olga", "Timur", "Malika"];
 const CITY = ["Samarkand", "Bukhara", "Fergana", "Termez"];
 const DOES = "The subject is he, she or it (one person or thing), so How often takes does.";

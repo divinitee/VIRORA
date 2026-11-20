@@ -426,7 +426,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "nouns-articles",
   "branch": "articles",
   "topic": "a-jobs",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -566,7 +566,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "nouns-articles",
   "branch": "possession",
   "topic": "possessive-s",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -1140,7 +1140,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "questions-negation",
   "branch": "wh-questions",
   "topic": "how-often",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -1266,7 +1266,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "sentence-structure",
   "branch": "conjunctions",
   "topic": "because",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 260,
@@ -1280,7 +1280,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "sentence-structure",
   "branch": "conjunctions",
   "topic": "so-result",
-  "level": "A1",
+  "level": "A2",
   "authored": 68,
   "stages": {
    "choose": 296,
@@ -1364,7 +1364,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "sentence-structure",
   "branch": "imperatives",
   "topic": "lets",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 316,
@@ -1504,7 +1504,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "tenses",
   "branch": "future",
   "topic": "arrangement-continuous",
-  "level": "B1",
+  "level": "A2",
   "authored": 68,
   "stages": {
    "choose": 308,
@@ -1742,7 +1742,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "tenses",
   "branch": "present",
   "topic": "general-truth",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -1896,7 +1896,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",
   "topic": "want-infinitive",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
@@ -1910,7 +1910,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "verb-patterns",
   "branch": "gerund-infinitive",
   "topic": "would-like-infinitive",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
