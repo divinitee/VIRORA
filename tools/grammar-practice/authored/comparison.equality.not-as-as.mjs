@@ -31,28 +31,28 @@ const form = (a) => {
 // form items: [adj, prompt, slots]
 const FORM = [
   ["fast", "The bus takes six hours and the train takes two. The bus is ______ the train, {name}.", { name: NAME, x: [] }],
-  ["expensive", "My {thing} cost 300,000 soum and yours cost 900,000. Mine is ______ yours.", { thing: ["phone", "watch", "jacket", "bike"], x: [] }],
+  ["expensive", "My {thing} cost 300,000 soum and yours cost 900,000. Mine is ______ yours, {name}.", { thing: ["phone", "watch", "jacket", "bike"], name: NAME }],
   ["big", "Our {home} is ______ yours, but it's very cosy, {name}.", { home: ["flat", "garden", "kitchen", "house"], name: NAME }],
   ["difficult", "The second {test} was ______ the first one. I finished early, {name}.", { test: ["test", "exam", "quiz", "task"], name: NAME }],
-  ["old", "My {who} is 40 and my mother is 45. He's ______ my mother.", { who: ["father", "uncle", "stepfather"], x: [] }],
+  ["old", "My {who} is 40 and my mother is 45. He's ______ my mother, {name}.", { who: ["father", "uncle", "stepfather"], name: NAME }],
   ["interesting", "The film was ______ the {thing}, {name}. I fell asleep.", { thing: ["book", "trailer", "first film", "story"], name: NAME }],
   ["warm", "It's only 10 degrees today. It's ______ yesterday, {name}.", { name: NAME, x: [] }],
-  ["busy", "The bazaar is ______ on {day} as on Sundays, {name}.".replace(" as on", " on"), { day: ["Mondays", "Tuesdays", "weekday mornings", "rainy days"], name: NAME }],
-  ["tall", "My {sib} is 1.50 m and I'm 1.70 m. She's ______ me.", { sib: ["sister", "cousin", "friend", "mother"], x: [] }],
+  ["busy", "On {day}, the bazaar is ______ it is on Sundays, {name}.", { day: ["Mondays", "Tuesdays", "weekday mornings", "rainy days"], name: NAME }],
+  ["tall", "My {sib} is 1.50 m and I'm 1.70 m. She's ______ me, {name}.", { sib: ["sister", "cousin", "friend", "mother"], name: NAME }],
   ["popular", "Chess is ______ football in our {place}, {name}.", { place: ["school", "college", "village", "club"], name: NAME }],
-  ["good", "My English is ______ my brother's. He lived in {city} for a year.", { city: ["London", "New York", "Sydney", "Toronto"], x: [] }],
+  ["good", "My English is ______ my brother's. He lived in {city} for a year, {name}.", { city: ["London", "New York", "Sydney", "Toronto"], name: NAME }],
   ["comfortable", "The new {seat} is ______ the old one, {name}. I don't like it.", { seat: ["sofa", "chair", "bed", "car seat"], name: NAME }],
   ["long", "The way through the {place} is ______ the main road. It's quicker, {name}.", { place: ["park", "old town", "bazaar", "village"], name: NAME }],
-  ["cold", "Winter in {city} is ______ winter in Moscow.", { city: ["Tashkent", "Termez", "Bukhara", "Samarkand"], x: [] }],
+  ["cold", "Winter in {city} is ______ winter in Moscow, {name}.", { city: ["Tashkent", "Termez", "Bukhara", "Samarkand"], name: NAME }],
 ];
-// meaning items: [prompt, key, [d1, d2, d3], slots]
+// meaning items: [prompt, key, [d1, d2, d3], slots] (options carry no slot: pronouns only)
 const MEAN = [
-  ["My {thing} is not as heavy as yours, {name}. So: ______", "your {thing} is heavier.", ["my {thing} is heavier.", "they are the same.", "your {thing} is lighter."], { thing: ["bag", "box", "suitcase", "backpack"], name: NAME }],
-  ["The film was not as good as the book, {name}. So: ______", "the book was better.", ["the film was better.", "they were equally good.", "the book was worse."], { name: NAME, x: [] }],
-  ["The {transport} is not as fast as the train. So: ______", "the train is faster.", ["the bus is faster.", "they are equally fast.", "the train is slower."], { transport: ["bus", "minibus", "coach"], x: [] }],
-  ["My little sister is not as tall as me, {name}. So: ______", "I am taller.", ["she is taller.", "we are the same height.", "I am shorter."], { name: NAME, x: [] }],
-  ["This {shop} is not as cheap as the bazaar. So: ______", "the bazaar is cheaper.", ["this shop is cheaper.", "they cost the same.", "the bazaar is more expensive."], { shop: ["shop", "supermarket", "mall", "kiosk"], x: [] }],
-  ["Today is not as hot as yesterday, {name}. So: ______", "yesterday was hotter.", ["today is hotter.", "they are equally hot.", "yesterday was colder."], { name: NAME, x: [] }],
+  ["My {thing} is not as heavy as yours. So ______, {name}.", "yours is heavier", ["mine is heavier", "they weigh the same", "yours is lighter"], { thing: ["bag", "box", "suitcase", "backpack"], name: NAME }],
+  ["The {film} was not as good as the book. So ______, {name}.", "the book was better", ["the book was worse", "they were equally good", "nobody liked the book"], { film: ["film", "new film", "cartoon", "TV series"], name: NAME }],
+  ["The {transport} is not as fast as the train. So ______, {name}.", "the train is faster", ["the train is slower", "they are equally fast", "the train is never late"], { transport: ["bus", "minibus", "coach", "old bus"], name: NAME }],
+  ["My little {sib} is not as tall as me. So ______, {name}.", "I am taller", ["she is taller", "we are the same height", "I am shorter"], { sib: ["sister", "cousin", "niece"], name: NAME }],
+  ["This {shop} is not as cheap as the bazaar. So ______, {name}.", "the bazaar is cheaper", ["this place is cheaper", "they cost the same", "the bazaar is more expensive"], { shop: ["shop", "supermarket", "mall", "kiosk"], name: NAME }],
+  ["Today is not as hot as {when}. So ______, {name}.", "it was hotter before", ["today is hotter", "it is equally hot", "it was colder before"], { when: ["yesterday", "last week", "on Monday", "on Sunday"], name: NAME }],
 ];
 const CHOOSE = [
   ...FORM.map(([adj, prompt, slots]) => ({ kind: "f", adj, prompt, slots })),
@@ -63,43 +63,35 @@ const CHOOSE = [
   let opts, why;
   if (it.kind === "f") { opts = form(it.adj); why = WHY(it.adj); }
   else {
-    // options may not carry slots: use fixed wording ("your bag" for the {thing} item)
-    const fill = (x) => x.replace("{thing}", "bag");
-    opts = [fill(it.key), ...it.ds.map(fill)];
+    opts = [it.key, ...it.ds];
     why = "Not as … as means less: the other one has more of it.";
   }
   const options = opts.map((_, j) => opts[(j + i) % 4]);
   return { ...BASE, stage: "choose", format: "mcq", prompt: it.prompt, options, key: options.indexOf(opts[0]), why, slots: s };
 });
-// the {thing} meaning item: keep the noun fixed so the options match it
-CHOOSE[14].prompt = "My bag is not as heavy as yours, {name}. So: ______";
-CHOOSE[14].slots = { name: NAME, who: undefined };
-delete CHOOSE[14].slots.who;
-CHOOSE[16].options = CHOOSE[16].options.map((o) => o.replace("the bus is faster.", "the other one is faster."));
-
 /* ---------------- build: 20 gap_fill ---------------- */
 const INSTR = "Write not as … as with the adjective in brackets.";
 const BUILD = [
   ["cheap", "The shop is ______ (cheap) the bazaar, {name}.", { name: NAME, x: [] }],
-  ["fast", "My old {device} is ______ (fast) my new one.", { device: ["phone", "laptop", "computer", "tablet"], x: [] }],
+  ["fast", "My old {device} is ______ (fast) my new one, {name}.", { device: ["phone", "laptop", "computer", "tablet"], name: NAME }],
   ["big", "Our village is ______ (big) {city}, {name}.", { city: ["Tashkent", "Samarkand", "Namangan", "Andijan"], name: NAME }],
-  ["easy", "Russian grammar is ______ (easy) {lang} grammar for me.", { lang: ["English", "Turkish", "Uzbek", "Kazakh"], x: [] }],
+  ["easy", "Russian grammar is ______ (easy) {lang} grammar for me, {name}.", { lang: ["English", "Turkish", "Uzbek", "Kazakh"], name: NAME }],
   ["warm", "The {room} is ______ (warm) the kitchen in winter, {name}.", { room: ["bedroom", "hall", "garage", "bathroom"], name: NAME }],
-  ["old", "My {who} is ______ (old) my father.", { who: ["mother", "aunt", "uncle", "stepmother"], x: [] }],
+  ["old", "My {who} is ______ (old) my father, {name}.", { who: ["mother", "aunt", "uncle", "stepmother"], name: NAME }],
   ["expensive", "This {thing} is ______ (expensive) the one in the window, {name}.", { thing: ["dress", "bag", "watch", "phone"], name: NAME }],
-  ["quiet", "Our new street is ______ (quiet) the old one. There's a {place} next to it.", { place: ["school", "market", "bus station", "big road"], x: [] }],
+  ["quiet", "Our new street is ______ (quiet) the old one. There's a {place} next to it, {name}.", { place: ["school", "market", "bus station", "big road"], name: NAME }],
   ["strong", "I'm ______ (strong) my brother. He goes to the gym every {day}, {name}.", { day: ["day", "morning", "evening", "week"], name: NAME }],
   ["interesting", "The second {part} was ______ (interesting) the first, {name}.", { part: ["half", "part", "lesson", "film"], name: NAME }],
   ["heavy", "My {bag} is ______ (heavy) yours. Can I carry yours, {name}?", { bag: ["bag", "suitcase", "backpack", "box"], name: NAME }],
-  ["popular", "Tennis is ______ (popular) football in {city}.", { city: ["our town", "our village", "my school", "our district"], x: [] }],
+  ["popular", "Tennis is ______ (popular) football in {city}, {name}.", { city: ["our town", "our village", "my school", "our district"], name: NAME }],
   ["tall", "{name} is ______ (tall) her brother, but she plays {sport} better.", { name: ["Madina", "Olga", "Sevara", "Nilufar"], sport: ["basketball", "volleyball", "tennis", "football"] }],
-  ["long", "The {holiday} is ______ (long) the summer holiday.", { holiday: ["winter holiday", "spring holiday", "autumn break", "Navruz holiday"], x: [] }],
+  ["long", "The {holiday} is ______ (long) the summer holiday, {name}.", { holiday: ["winter holiday", "spring holiday", "autumn break", "Navruz holiday"], name: NAME }],
   ["hot", "This {month} is ______ (hot) last {month}, {name}.", { month: ["July", "August", "June"], name: NAME }],
   ["comfortable", "The {transport} is ______ (comfortable) the train, {name}.", { transport: ["bus", "minibus", "coach", "taxi"], name: NAME }],
-  ["good", "My {skill} is ______ (good) my sister's.", { skill: ["English", "cooking", "drawing", "singing"], x: [] }],
+  ["good", "My {skill} is ______ (good) my sister's, {name}.", { skill: ["English", "cooking", "drawing", "singing"], name: NAME }],
   ["near", "The bus stop is ______ (near) the metro, {name}. We should take the metro.", { name: NAME, x: [] }],
-  ["dangerous", "Cycling in the {place} is ______ (dangerous) cycling in the city centre.", { place: ["park", "village", "countryside", "yard"], x: [] }],
-  ["busy", "The roads are ______ (busy) on {day} as on weekdays.".replace(" as on", " on"), { day: ["Sundays", "holidays", "Navruz", "New Year's Day"], x: [] }],
+  ["dangerous", "Cycling in the {place} is ______ (dangerous) cycling in the city centre, {name}.", { place: ["park", "village", "countryside", "yard"], name: NAME }],
+  ["busy", "On {day}, the roads are ______ (busy) they are on weekdays, {name}.", { day: ["Sundays", "holidays", "Navruz", "New Year's Day"], name: NAME }],
 ].map(([adj, source, slots]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (source.includes(`{${n}}`)) s[n] = f;
@@ -115,17 +107,17 @@ const TRANSFORM = [
   [COMP, "The bus is cheaper than the train, {name}.", "The train is ______ the bus, {name}.", "cheap", { name: NAME, x: [] }],
   [COMP, "My brother is taller than me.", "I'm ______ my brother.", "tall", { x: [], y: [] }],
   [COMP, "The book is more interesting than the film, {name}.", "The film is ______ the book, {name}.", "interesting", { name: NAME, x: [] }],
-  [COMP, "{city} is bigger than our town.", "Our town is ______ {city}.", "big", { city: ["Tashkent", "Samarkand", "Namangan", "Andijan"], x: [] }],
-  [COMP, "The new {seat} is more comfortable than the old one.", "The old {seat} is ______ the new one.", "comfortable", { seat: ["sofa", "chair", "bed", "car seat"], x: [] }],
+  [COMP, "{city} is bigger than our town, {name}.", "Our town is ______ {city}, {name}.", "big", { city: ["Tashkent", "Samarkand", "Namangan", "Andijan"], name: NAME }],
+  [COMP, "The new {seat} is more comfortable than the old one, {name}.", "The old {seat} is ______ the new one, {name}.", "comfortable", { seat: ["sofa", "chair", "bed", "car seat"], name: NAME }],
   [TWO, "The train takes two hours. The bus takes five, {name}.", "The bus is ______ the train, {name}.", "fast", { name: NAME, x: [] }],
-  [TWO, "My {thing} cost 200,000. Yours cost 600,000.", "My {thing} is ______ yours.", "expensive", { thing: ["phone", "watch", "jacket", "bike"], x: [] }],
+  [TWO, "My {thing} cost 200,000. Yours cost 600,000, {name}.", "My {thing} is ______ yours, {name}.", "expensive", { thing: ["phone", "watch", "jacket", "bike"], name: NAME }],
   [TWO, "My grandmother is 70. My grandfather is 75, {name}.", "My grandmother is ______ my grandfather, {name}.", "old", { name: NAME, x: [] }],
-  [TWO, "It's 25 degrees in {city}. It's 35 in Termez.", "{city} is ______ Termez.", "hot", { city: ["Tashkent", "Samarkand", "Fergana", "Namangan"], x: [] }],
+  [TWO, "It's 25 degrees in {city}. It's 35 in Termez, {name}.", "{city} is ______ Termez, {name}.", "hot", { city: ["Tashkent", "Samarkand", "Fergana", "Namangan"], name: NAME }],
   [TWO, "The first test was hard. The second test was easy, {name}.", "The second test was ______ the first, {name}.", "difficult", { name: NAME, x: [] }],
   [FIX, "My phone is not as faster as yours, {name}.", "My phone is ______ yours, {name}.", "fast", { name: NAME, x: [] }],
-  [FIX, "The {place} is not as busy than the bazaar.", "The {place} is ______ the bazaar.", "busy", { place: ["shop", "mall", "kiosk", "supermarket"], x: [] }],
+  [FIX, "The {place} is not as busy than the bazaar, {name}.", "The {place} is ______ the bazaar, {name}.", "busy", { place: ["shop", "mall", "kiosk", "supermarket"], name: NAME }],
   [FIX, "Our flat is not big as yours, {name}.", "Our flat is ______ yours, {name}.", "big", { name: NAME, x: [] }],
-  [FIX, "This {thing} is not as more expensive as that one.", "This {thing} is ______ that one.", "expensive", { thing: ["bag", "dress", "watch", "lamp"], x: [] }],
+  [FIX, "This {thing} is not as more expensive as that one, {name}.", "This {thing} is ______ that one, {name}.", "expensive", { thing: ["bag", "dress", "watch", "lamp"], name: NAME }],
   [FIX, "The film was not so good than the book, {name}.", "The film was ______ the book, {name}.", "good", { name: NAME, x: [] }],
 ].map(([instr, source, hint, adj, slots]) => {
   const s = {};
