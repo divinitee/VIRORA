@@ -19,7 +19,7 @@ import {
 } from './liveTeacherEngine.js';
 import {
   PERSONAS, cleanPersona, FILLERS, fillerTag, cleanMood, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
-  modelSupportsTags, stripAudioTags,
+  modelSupportsTags, stripAudioTags, splitSpeech,
 } from './liveTeacherBrain.js';
 
 const reply = (status, body) => ({ status, body });
@@ -326,14 +326,15 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
       resolveVoice(env, persona, fetchImpl), getOrCreateProfile(svc, user.email), sha256Hex(user.id || user.email),
     ]);
     const instructions = buildBrainInstructions({ persona, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags });
-    // The brain writes the greeting while the passes for the phone are made.
-    const [{ out, usage }, sttToken, ttsToken] = await Promise.all([
+    // The brain writes the greeting while the ears pass for the phone is made.
+    const [{ out, usage }, sttToken] = await Promise.all([
       think(env, { instructions, message: buildTurnMessage({ persona, start: true }), safetyId }, fetchImpl),
-      softToken(env, 'realtime_scribe', fetchImpl, { maxSeconds: P.minutes * 60 + 180 }),
-      softToken(env, 'tts_websocket', fetchImpl),
+      softToken(env, 'batch_scribe', fetchImpl),
     ]);
     const speakText = tags ? out.reply : stripAudioTags(out.reply);
-    // The phone streams the greeting itself; v2_speak is its fallback.
+    // First sentence voiced here (plays at once); the phone asks for the rest.
+    const parts = splitSpeech(speakText);
+    const first = await speak(env, { voiceId, text: parts.first }, fetchImpl);
     const voice = { chars: speakText.length };
     const c = costOf({ brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: voice.chars });
     const lesson = await svc.LiveTeacherLesson.create({
@@ -348,8 +349,8 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
     return reply(200, {
       ok: true, lesson_id: lesson.id, persona, persona_name: P.name, max_minutes: P.minutes,
       reply_text: stripAudioTags(out.reply), speak_text: speakText, explanation_text: out.explanation_text,
-      voice: { voice_id: voiceId, model: s.ttsModel }, stt_live_model: s.sttLiveModel,
-      tts_token: ttsToken, stt_token: sttToken,
+      audio_b64: first.audio_b64, audio_mime: first.mime, rest_text: parts.rest,
+      stt_token: sttToken, stt_model: s.sttModel,
       cost_usd: c.total, profile: publicProfileView(profile),
     });
   } catch (e) {
@@ -506,7 +507,9 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
   const s = settings(env);
   const tags = s.audioTags && modelSupportsTags(s.ttsModel);
   const sttSeconds = Math.max(0, Math.min(60, Number(body.duration_s) || 0));
-  if (onlySounds(studentText) || studentText.length < 2) return reply(200, { ok: true, empty: true });
+  if (onlySounds(studentText) || studentText.length < 2) {
+    return reply(200, { ok: true, empty: true, stt_token: await softToken(env, 'batch_scribe', fetchImpl) });
+  }
 
   const timings = {};
   try {
@@ -516,25 +519,38 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
       studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags,
     });
     const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft });
+    const [safetyId, voiceId] = await Promise.all([sha256Hex(user.id || user.email), resolveVoice(env, persona, fetchImpl)]);
     const tBrain = Date.now();
-    const safetyId = await sha256Hex(user.id || user.email);
-    // The next voice pass is made while the brain thinks: no extra wait.
-    const [{ out, usage }, ttsToken] = await Promise.all([
-      think(env, { instructions, message, safetyId }, fetchImpl),
-      softToken(env, 'tts_websocket', fetchImpl),
+    // As soon as the brain has written the reply, its first sentence goes to the
+    // voice, while the brain is still writing the mistakes part.
+    let firstJob = null;
+    let firstText = '';
+    const startFirst = (raw) => {
+      firstText = splitSpeech(tags ? raw : stripAudioTags(raw)).first;
+      firstJob = speak(env, { voiceId, text: firstText }, fetchImpl).catch((e) => ({ error: e }));
+      timings.reply_ms = Date.now() - tBrain;
+    };
+    const [{ out, usage }, sttToken] = await Promise.all([
+      think(env, { instructions, message, safetyId, onReply: startFirst }, fetchImpl),
+      softToken(env, 'batch_scribe', fetchImpl),
     ]);
     timings.brain_ms = Date.now() - tBrain;
+    const speakText = tags ? out.reply : stripAudioTags(out.reply);
+    const parts = splitSpeech(speakText);
+    if (!firstJob || firstText !== parts.first) startFirst(out.reply); // no stream (or it differed): voice it now
 
     const ctx = { lessonId: lesson.id, mode: lesson.mode, ageGroup: lesson.age_group, now };
     const applied = applyReport(profile, lesson, out, ctx);
-    const speakText = tags ? out.reply : stripAudioTags(out.reply);
-    const c = costOf({ sttSeconds, sttLive: true, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: speakText.length });
+    const c = costOf({ sttSeconds, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: speakText.length });
     const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: speakText.length });
     const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { usage: usageTotal } };
-    await Promise.all([
+    const [first] = await Promise.all([
+      firstJob,
       applied.profile !== profile ? saveProfile(svc, row, applied.profile) : null,
       svc.LiveTeacherLesson.update(lesson.id, { ...applied.counters, tool_calls: updated.tool_calls, scores: updated.scores }),
     ]);
+    if (first?.error) throw first.error;
+    timings.voice_ready_ms = Date.now() - tBrain;
 
     let recap = null;
     if (out.end_lesson) {
@@ -545,9 +561,10 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
       ok: true,
       student_text: studentText,
       addressed: out.addressed_to_teacher,
-      reply_text: stripAudioTags(out.reply), speak_text: speakText,
+      reply_text: stripAudioTags(out.reply),
       explanation_text: out.explanation_text,
-      tts_token: ttsToken,
+      audio_b64: first.audio_b64, audio_mime: first.mime, rest_text: parts.rest,
+      stt_token: sttToken, stt_model: s.sttModel,
       mistakes: withLabels(updated.mistakes),
       ended: !!recap, recap,
       cost_usd: c.total, lesson_cost_usd: usageTotal.cost_usd,
@@ -584,8 +601,8 @@ export async function phoneTokens({ svc, user, body = {}, env, fetchImpl = fetch
   const want = Array.isArray(body.types) ? body.types : [];
   const minutesLeft = Math.max(1, lesson.max_minutes - (now - Date.parse(lesson.started_at)) / 60000);
   const [stt, tts] = await Promise.all([
-    want.includes('stt') ? softToken(env, 'realtime_scribe', fetchImpl, { maxSeconds: minutesLeft * 60 + 120 }) : null,
+    want.includes('stt') ? softToken(env, 'batch_scribe', fetchImpl) : null,
     want.includes('tts') ? softToken(env, 'tts_websocket', fetchImpl) : null,
   ]);
-  return reply(200, { ok: true, stt_token: stt, tts_token: tts, stt_live_model: settings(env).sttLiveModel });
+  return reply(200, { ok: true, stt_token: stt, tts_token: tts, stt_model: settings(env).sttModel });
 }
