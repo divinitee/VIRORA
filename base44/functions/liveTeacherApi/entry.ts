@@ -4,7 +4,11 @@ import { reserveUsage, UsageLimitError } from '../../shared/usageGuard.js';
 import { aiPlanFor } from '../../shared/aiQuota.js';
 import { DAILY_SESSIONS } from '../../shared/liveTeacherCore.js';
 import { startLesson, handleTool, endLesson, getProfileView, isConfigured } from '../../shared/liveTeacherEngine.js';
-import { startVoiceLesson, voiceTurn, fillerClips, isVoiceConfigured } from '../../shared/liveTeacherVoiceEngine.js';
+import { startVoiceLesson, voiceTurn, fillerClips, isVoiceConfigured, voiceTurnText, speakText, phoneTokens } from '../../shared/liveTeacherVoiceEngine.js';
+
+// Hot-path v2 actions inside a lesson that already passed the ban check at
+// v2_start: skipping the extra lookup saves a database round trip per turn.
+const IN_LESSON = new Set(['v2_turn_text', 'v2_speak', 'v2_tokens', 'v2_fillers']);
 
 // Live Teacher (AI English voice teacher). Thin glue: login, ban check, daily
 // allowance, then the shared engine does the work.
@@ -37,10 +41,12 @@ export default async function (req: Request) {
     const base44 = createClientFromRequest(req);
     const user = await base44.auth.me();
     if (!user) return Response.json({ error: 'Unauthorized' }, { status: 401 });
-    const banned = await banGuard(base44.asServiceRole.entities, user);
-    if (banned) return banned;
-    const svc = base44.asServiceRole.entities;
     const body = await req.json().catch(() => ({}));
+    if (!IN_LESSON.has(body.action)) {
+      const banned = await banGuard(base44.asServiceRole.entities, user);
+      if (banned) return banned;
+    }
+    const svc = base44.asServiceRole.entities;
     // Only the settings this feature needs; the rest of the environment stays out of reach.
     const env: Record<string, string | undefined> = {};
     for (const k of [
@@ -48,7 +54,7 @@ export default async function (req: Request) {
       // v2
       'ELEVENLABS_API_KEY', 'LIVE_TEACHER_BRAIN_MODEL', 'LIVE_TEACHER_BRAIN_REASONING', 'LIVE_TEACHER_TTS_MODEL',
       'LIVE_TEACHER_STT_MODEL', 'LIVE_TEACHER_AUDIO_TAGS', 'LIVE_TEACHER_VOICE_VIRA', 'LIVE_TEACHER_VOICE_VIRA_NIGHTINGALE',
-      'LIVE_TEACHER_VOICE_VELVET', 'LIVE_TEACHER_VOICE_VIOLET',
+      'LIVE_TEACHER_VOICE_VELVET', 'LIVE_TEACHER_VOICE_VIOLET', 'LIVE_TEACHER_STT_LIVE_MODEL',
     ]) env[k] = Deno.env.get(k);
     const out = (r: { status: number; body: unknown }) => Response.json(r.body, { status: r.status });
 
@@ -95,6 +101,9 @@ export default async function (req: Request) {
       }
       case 'v2_turn': return out(await voiceTurn({ svc, user, body, env }));
       case 'v2_fillers': return out(await fillerClips({ user, body, env }));
+      case 'v2_turn_text': return out(await voiceTurnText({ svc, user, body, env }));
+      case 'v2_speak': return out(await speakText({ svc, user, body, env }));
+      case 'v2_tokens': return out(await phoneTokens({ svc, user, body, env }));
       case 'tool': return out(await handleTool({ svc, user, body }));
       case 'end': return out(await endLesson({ svc, user, body }));
       case 'profile': return out(await getProfileView({ svc, user }));
