@@ -391,7 +391,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "This {food} ______ be fresh. It's from last {time}, {name}.",
+  "prompt": "This {food} ______ be fresh. It's from last {time}.",
   "options": [
    "can't",
    "mustn't",
@@ -1134,7 +1134,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
-  "source": "The {food} ______ (be) ready. We put it in the oven {when}, {name}.",
+  "source": "The {food} ______ (be) ready. We put it in the oven {when}.",
   "key": "can't be",
   "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
   "slots": {
