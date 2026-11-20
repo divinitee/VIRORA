@@ -142,9 +142,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The hotel was close to the place: near = close to (a place).
 
 12. _Use the word in brackets or its -ly form._  
-   The **bike** costs ______ (near) a million sum, **Feruza**.  
+   I ______ (near) dropped the **laptop** on the stairs, **Feruza**.  
    key: nearly  
-   why: The price is almost a million: nearly = almost.
+   why: I almost dropped it, but didn't: nearly = almost.
 
 13. _Use the word in brackets or its -ly form._  
    We ______ (near) won the **game**, **Ulugbek**. We lost 2–3.  
@@ -182,9 +182,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Heavy snow falls hard: hard = with a lot of effort.
 
 20. _Use the word in brackets or its -ly form._  
-   The **report** is ______ (near) ready, **Gulnora**. Give me five minutes.  
+   I ______ (near) burnt the **cake** while I was on the phone, **Gulnora**.  
    key: nearly  
-   why: Five more minutes means almost ready: nearly = almost.
+   why: I almost burnt it, but didn't: nearly = almost.
 
 ## transform (15)
 

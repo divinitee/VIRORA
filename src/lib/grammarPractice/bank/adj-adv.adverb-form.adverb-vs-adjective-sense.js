@@ -911,15 +911,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Use the word in brackets or its -ly form.",
-  "source": "The {thing} costs ______ (near) a million sum, {name}.",
+  "source": "I ______ (near) dropped the {thing} on the stairs, {name}.",
   "key": "nearly",
-  "why": "The price is almost a million: nearly = almost.",
+  "why": "I almost dropped it, but didn't: nearly = almost.",
   "slots": {
    "thing": [
-    "bike",
-    "phone",
-    "carpet",
-    "laptop"
+    "laptop",
+    "cake",
+    "box",
+    "phone"
    ],
    "name": [
     "Sherzod",
@@ -1127,15 +1127,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Use the word in brackets or its -ly form.",
-  "source": "The {work} is ______ (near) ready, {name}. Give me five minutes.",
+  "source": "I ______ (near) burnt the {work} while I was on the phone, {name}.",
   "key": "nearly",
-  "why": "Five more minutes means almost ready: nearly = almost.",
+  "why": "I almost burnt it, but didn't: nearly = almost.",
   "slots": {
    "work": [
     "dinner",
-    "report",
-    "car",
-    "cake"
+    "cake",
+    "bread",
+    "rice"
    ],
    "name": [
     "Otabek",

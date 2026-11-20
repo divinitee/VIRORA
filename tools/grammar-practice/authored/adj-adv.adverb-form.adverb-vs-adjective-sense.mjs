@@ -75,7 +75,7 @@ const BUILD = [
   ["hard", "hard", "Try ______ (hard) and you will pass the {test}, {name}.", { test: ["exam", "test", "interview", "driving test"], name: NAME }, "try with a lot of effort"],
   ["nearly", "near", "I ______ (near) forgot your birthday, {name}!", { name: NAME2, x: [] }, "I almost forgot, but didn't"],
   ["near", "near", "Our hotel was ______ (near) the {sight} in {city}.", { sight: ["old town", "beach", "station", "bazaar"], city: ["Bukhara", "Istanbul", "Khiva", "Samarkand"] }, "the hotel was close to the place"],
-  ["nearly", "near", "The {thing} costs ______ (near) a million sum, {name}.", { thing: ["bike", "phone", "carpet", "laptop"], name: NAME }, "the price is almost a million"],
+  ["nearly", "near", "I ______ (near) dropped the {thing} on the stairs, {name}.", { thing: ["laptop", "cake", "box", "phone"], name: NAME }, "I almost dropped it, but didn't"],
   ["nearly", "near", "We ______ (near) won the {match}, {name}. We lost 2–3.", { match: ["final", "match", "game", "cup"], name: NAME2 }, "2–3 means we almost won"],
   ["near", "near", "Don't park ______ (near) the {place}, {name}.", { place: ["gate", "school", "hospital", "corner"], name: NAME }, "don't park close to that place"],
   ["highly", "high", "Dr Karimova is a ______ (high) respected {job}.", { job: ["doctor", "teacher", "surgeon", "scientist"], x: [] }, "people respect the doctor very much"],
@@ -83,7 +83,7 @@ const BUILD = [
   ["highly", "high", "I ______ (high) recommend this {thing}, {name}.", { thing: ["book", "film", "café", "teacher"], name: NAME }, "I recommend it very strongly"],
   ["lately", "late", "My {who} hasn't been well ______ (late), {name}.", { who: ["grandma", "uncle", "neighbour", "cat"], name: NAME2 }, `"hasn't been well" in the recent past`],
   ["hard", "hard", "It's snowing ______ (hard) in the {place} today, {name}.", { place: ["mountains", "north", "city", "village"], name: NAME }, "heavy snow falls hard"],
-  ["nearly", "near", "The {work} is ______ (near) ready, {name}. Give me five minutes.", { work: ["dinner", "report", "car", "cake"], name: NAME2 }, "five more minutes means almost ready"],
+  ["nearly", "near", "I ______ (near) burnt the {work} while I was on the phone, {name}.", { work: ["dinner", "cake", "bread", "rice"], name: NAME2 }, "I almost burnt it, but didn't"],
 ].map(([key, cue, source, slots, clue]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (source.includes(`{${n}}`)) s[n] = f;
