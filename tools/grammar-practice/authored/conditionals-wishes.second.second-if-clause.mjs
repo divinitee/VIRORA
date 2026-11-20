@@ -45,7 +45,7 @@ const CHOOSE = [
   ["be", "If they ______ here, they would help us with the {work}, {name}.", { work: ["move", "garden", "party", "cooking"], name: NAME }],
   ["own", "If I ______ a big house, I would invite all my {who}, {name}.", { who: ["friends", "cousins", "classmates", "neighbours"], name: NAME }],
   ["eat", "If you ______ less {food}, you would feel better, {name}.", { food: ["sugar", "bread", "fast food", "sweets"], name: NAME }],
-  ["need", "If you ever ______ help with the {work}, I would help you, {name}.", { work: ["move", "homework", "garden", "car"], name: NAME }],
+  ["go", "If I ______ to bed earlier, I would feel better in the {time}, {name}.", { time: ["morning", "lessons", "office", "mornings"], name: NAME }],
   ["can", "If we ______ choose, we would go to {country} for our holiday, {name}.", { country: ["Japan", "Italy", "Turkey", "Korea"], name: NAME }],
 ].map(([v, prompt, slots], i) => {
   const o = opts(v);

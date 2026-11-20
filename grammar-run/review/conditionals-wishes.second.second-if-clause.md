@@ -76,8 +76,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: eat · will eat · would eat · ✔ ate  
    why: Imagined situation: if + past simple, … would + base verb.
 
-19. If you ever ______ help with the **garden**, I would help you, **Olga**.  
-   options: will need · would need · ✔ needed · need  
+19. If I ______ to bed earlier, I would feel better in the **office**, **Olga**.  
+   options: will go · would go · ✔ went · go  
    why: Imagined situation: if + past simple, … would + base verb.
 
 20. If we ______ choose, we would go to **Japan** for our holiday, **Lola**.  

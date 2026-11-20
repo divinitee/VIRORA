@@ -585,21 +585,21 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "If you ever ______ help with the {work}, I would help you, {name}.",
+  "prompt": "If I ______ to bed earlier, I would feel better in the {time}, {name}.",
   "options": [
-   "will need",
-   "would need",
-   "needed",
-   "need"
+   "will go",
+   "would go",
+   "went",
+   "go"
   ],
   "key": 2,
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
-   "work": [
-    "move",
-    "homework",
-    "garden",
-    "car"
+   "time": [
+    "morning",
+    "lessons",
+    "office",
+    "mornings"
    ],
    "name": [
     "Aziz",
