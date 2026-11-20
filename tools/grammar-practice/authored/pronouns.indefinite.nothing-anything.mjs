@@ -44,7 +44,7 @@ const CHOOSE = [
   ["nothing", "I know ______ about {topic}, {name}. Can you help me?", { topic: ["cars", "computers", "football", "music"], name: NAME }],
   ["anything", "We didn't say ______ to {who} about the {thing}.", { who: ["Mum", "Dad", "Grandma", "the teacher"], thing: ["party", "present", "trip", "cake"] }],
   ["nothing", "He said ______ all evening, {name}. Is he OK?", { name: NAME }],
-  ["anything", "I can't see ______ in the {place}, {name}. It's very dark.", { place: ["garage", "room", "yard", "cupboard"], name: NAME }],
+  ["anything", "I can't read ______ in this {place}, {name}. It's very dark.", { place: ["garage", "room", "tent", "corner"], name: NAME }],
   ["nothing", "The museum is free. It costs ______, {name}.", { name: NAME }],
   ["anything", "There isn't ______ in the {box}, {name}. We need to go shopping.", { box: ["fridge", "cupboard", "kitchen", "freezer"], name: NAME }],
   ["nothing", "I did ______ at the weekend, {name}. I just stayed at home.", { name: NAME }],
@@ -54,7 +54,7 @@ const CHOOSE = [
   ["nothing", "We found ______ in the {place}. The {thing} wasn't there.", { place: ["car", "garden", "classroom", "hall"], thing: ["phone", "key", "bag", "ticket"] }],
   ["anything", "I haven't got ______ to read on the {t}, {name}.", { t: ["train", "bus", "plane", "trip"], name: NAME }],
   ["nothing", "{name} has got ______ in her {thing}. It's empty.", { name: ["Lola", "Olga", "Madina", "Kamila"], thing: ["wallet", "purse", "pocket", "bag"] }],
-  ["anything", "They didn't find ______ in the {place}, {name}.", { place: ["river", "forest", "old house", "box"], name: NAME }],
+  ["anything", "They didn't find ______ to eat in the {place}, {name}.", { place: ["forest", "old house", "garden", "cupboard"], name: NAME }],
   ["nothing", "There was ______ on TV last night, {name}, so I read a book.", { name: NAME }],
   ["anything", "Don't worry, {name}. I didn't break ______ in the {room}.", { name: NAME, room: ["kitchen", "living room", "bathroom", "bedroom"] }],
 ].map(([k, prompt, slots], i) => {
