@@ -1,0 +1,1678 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I stopped ______ at {time} because I was very tired, {name}.",
+  "options": [
+   "working",
+   "to work",
+   "work",
+   "worked"
+  ],
+  "key": 0,
+  "why": "\"Because I was tired\" = I finished work: the activity ends, so stop + -ing (working).",
+  "slots": {
+   "time": [
+    "ten",
+    "nine",
+    "midnight",
+    "eleven"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It stopped ______ at last, so we went to the {place}.",
+  "options": [
+   "to rain",
+   "rain",
+   "rained",
+   "raining"
+  ],
+  "key": 3,
+  "why": "The rain ended: the activity ends, so stop + -ing (raining).",
+  "slots": {
+   "place": [
+    "park",
+    "bazaar",
+    "beach",
+    "stadium"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please stop ______! The {show} is starting, {name}.",
+  "options": [
+   "talk",
+   "talked",
+   "talking",
+   "to talk"
+  ],
+  "key": 2,
+  "why": "Be quiet now: stop the talking: the activity ends, so stop + -ing (talking).",
+  "slots": {
+   "show": [
+    "film",
+    "concert",
+    "lesson",
+    "play"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The baby stopped ______ when her {who} came home.",
+  "options": [
+   "cried",
+   "crying",
+   "to cry",
+   "cry"
+  ],
+  "key": 1,
+  "why": "The crying ended: the activity ends, so stop + -ing (crying).",
+  "slots": {
+   "who": [
+    "mother",
+    "father",
+    "grandma",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My uncle has stopped ______ {food}. The doctor said it was bad for him.",
+  "options": [
+   "eating",
+   "to eat",
+   "eat",
+   "ate"
+  ],
+  "key": 0,
+  "why": "He doesn't eat it any more: the activity ends, so stop + -ing (eating).",
+  "slots": {
+   "food": [
+    "sugar",
+    "fried food",
+    "fast food",
+    "fatty meat"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Stop ______ games and do your {work}, {name}!",
+  "options": [
+   "to play",
+   "play",
+   "played",
+   "playing"
+  ],
+  "key": 3,
+  "why": "End the games now: the activity ends, so stop + -ing (playing).",
+  "slots": {
+   "work": [
+    "homework",
+    "chores",
+    "revision",
+    "project"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone stopped ______ when the {who} came in.",
+  "options": [
+   "laugh",
+   "laughed",
+   "laughing",
+   "to laugh"
+  ],
+  "key": 2,
+  "why": "The laughing ended: the activity ends, so stop + -ing (laughing).",
+  "slots": {
+   "who": [
+    "teacher",
+    "director",
+    "boss",
+    "coach"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I stopped ______ my old {thing} when I got a new one, {name}.",
+  "options": [
+   "used",
+   "using",
+   "to use",
+   "use"
+  ],
+  "key": 1,
+  "why": "I don't use it any more: the activity ends, so stop + -ing (using).",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "bike",
+    "camera"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When did it stop ______ in {city}, {name}?",
+  "options": [
+   "snowing",
+   "to snow",
+   "snow",
+   "snowed"
+  ],
+  "key": 0,
+  "why": "The snow ended: the activity ends, so stop + -ing (snowing).",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Tashkent",
+    "Almaty",
+    "Astana"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you stop ______ so much noise in the {room}, {name}?",
+  "options": [
+   "to make",
+   "make",
+   "made",
+   "making"
+  ],
+  "key": 3,
+  "why": "End the noise: the activity ends, so stop + -ing (making).",
+  "slots": {
+   "room": [
+    "kitchen",
+    "hall",
+    "yard",
+    "next room"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She stopped ______ {drink} after six to sleep better.",
+  "options": [
+   "drink",
+   "drank",
+   "drinking",
+   "to drink"
+  ],
+  "key": 2,
+  "why": "She doesn't drink it any more: the activity ends, so stop + -ing (drinking).",
+  "slots": {
+   "drink": [
+    "coffee",
+    "strong tea",
+    "cola",
+    "energy drinks"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We stopped ______ that {show}. It got boring, {name}.",
+  "options": [
+   "watched",
+   "watching",
+   "to watch",
+   "watch"
+  ],
+  "key": 1,
+  "why": "\"It got boring\" = we don't watch it now: the activity ends, so stop + -ing (watching).",
+  "slots": {
+   "show": [
+    "series",
+    "show",
+    "cartoon",
+    "programme"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Stop ______ about the {test}. You'll be fine, {name}.",
+  "options": [
+   "worrying",
+   "to worry",
+   "worry",
+   "worried"
+  ],
+  "key": 0,
+  "why": "End the worry now: the activity ends, so stop + -ing (worrying).",
+  "slots": {
+   "test": [
+    "exam",
+    "interview",
+    "match",
+    "results"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The tap in the {room} has stopped ______, {name}.",
+  "options": [
+   "to run",
+   "run",
+   "ran",
+   "running"
+  ],
+  "key": 3,
+  "why": "The water ended: the activity ends, so stop + -ing (running).",
+  "slots": {
+   "room": [
+    "kitchen",
+    "bathroom",
+    "garden",
+    "yard"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} stopped ______ newspapers years ago.",
+  "options": [
+   "buy",
+   "bought",
+   "buying",
+   "to buy"
+  ],
+  "key": 2,
+  "why": "They don't buy them any more: the activity ends, so stop + -ing (buying).",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "uncles"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Why did your {who} stop ______ you, {name}?",
+  "options": [
+   "called",
+   "calling",
+   "to call",
+   "call"
+  ],
+  "key": 1,
+  "why": "The calls ended: the activity ends, so stop + -ing (calling).",
+  "slots": {
+   "who": [
+    "cousin",
+    "friend",
+    "aunt",
+    "brother"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please stop ______ at your little {who}, {name}.",
+  "options": [
+   "shouting",
+   "to shout",
+   "shout",
+   "shouted"
+  ],
+  "key": 0,
+  "why": "End the shouting: the activity ends, so stop + -ing (shouting).",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "son"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {tree} stopped ______ years ago.",
+  "options": [
+   "to grow",
+   "grow",
+   "grew",
+   "growing"
+  ],
+  "key": 3,
+  "why": "It doesn't grow any more: the activity ends, so stop + -ing (growing).",
+  "slots": {
+   "tree": [
+    "apple tree",
+    "palm tree",
+    "plant",
+    "vine"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Never stop ______, {name}. Even at seventy!",
+  "options": [
+   "learn",
+   "learned",
+   "learning",
+   "to learn"
+  ],
+  "key": 2,
+  "why": "Don't ever end your learning: the activity ends, so stop + -ing (learning).",
+  "slots": {
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The phone in the {room} finally stopped ______.",
+  "options": [
+   "rang",
+   "ringing",
+   "to ring",
+   "ring"
+  ],
+  "key": 1,
+  "why": "The ringing ended: the activity ends, so stop + -ing (ringing).",
+  "slots": {
+   "room": [
+    "office",
+    "hall",
+    "kitchen",
+    "classroom"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "My dad stopped ______ (work) at the {place} last year.",
+  "key": "working",
+  "why": "The activity ends: stop + -ing (working).",
+  "slots": {
+   "place": [
+    "factory",
+    "bank",
+    "bazaar",
+    "hospital"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "Has it stopped ______ (rain) yet, {name}?",
+  "key": "raining",
+  "why": "The activity ends: stop + -ing (raining).",
+  "slots": {
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "Stop ______ (talk) and listen to the {who}, {name}!",
+  "key": "talking",
+  "why": "The activity ends: stop + -ing (talking).",
+  "slots": {
+   "who": [
+    "teacher",
+    "guide",
+    "coach",
+    "doctor"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "The little boy stopped ______ (cry) when he got his {thing}.",
+  "key": "crying",
+  "why": "The activity ends: stop + -ing (crying).",
+  "slots": {
+   "thing": [
+    "ball",
+    "ice cream",
+    "toy",
+    "sweet"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "I've stopped ______ (eat) {food} at night, {name}.",
+  "key": "eating",
+  "why": "The activity ends: stop + -ing (eating).",
+  "slots": {
+   "food": [
+    "bread",
+    "sweets",
+    "fast food",
+    "fried food"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "The children stopped ______ (play) in the {place} when it got dark.",
+  "key": "playing",
+  "why": "The activity ends: stop + -ing (playing).",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "street",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "We stopped ______ (use) plastic bags at the {shop}, {name}.",
+  "key": "using",
+  "why": "The activity ends: stop + -ing (using).",
+  "slots": {
+   "shop": [
+    "bazaar",
+    "supermarket",
+    "shop",
+    "market"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "It stopped ______ (snow) in the morning, so we went to the {place}.",
+  "key": "snowing",
+  "why": "The activity ends: stop + -ing (snowing).",
+  "slots": {
+   "place": [
+    "mountains",
+    "park",
+    "school",
+    "shops"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "Please stop ______ (make) jokes about my {thing}, {name}.",
+  "key": "making",
+  "why": "The activity ends: stop + -ing (making).",
+  "slots": {
+   "thing": [
+    "hair",
+    "accent",
+    "shoes",
+    "car"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "Grandpa stopped ______ (drink) {drink} after his heart problem.",
+  "key": "drinking",
+  "why": "The activity ends: stop + -ing (drinking).",
+  "slots": {
+   "drink": [
+    "coffee",
+    "cola",
+    "strong tea",
+    "sweet drinks"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "I stopped ______ (watch) TV in the evenings and started reading, {name}.",
+  "key": "watching",
+  "why": "The activity ends: stop + -ing (watching).",
+  "slots": {
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "Stop ______ (worry) about the {thing}, {name}. It's fine.",
+  "key": "worrying",
+  "why": "The activity ends: stop + -ing (worrying).",
+  "slots": {
+   "thing": [
+    "money",
+    "test",
+    "trip",
+    "car"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "We couldn't stop ______ (laugh) at the {show}, {name}.",
+  "key": "laughing",
+  "why": "The activity ends: stop + -ing (laughing).",
+  "slots": {
+   "show": [
+    "film",
+    "cartoon",
+    "comedy",
+    "joke"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "My sister stopped ______ (buy) clothes online after a bad {thing}.",
+  "key": "buying",
+  "why": "The activity ends: stop + -ing (buying).",
+  "slots": {
+   "thing": [
+    "order",
+    "experience",
+    "delivery",
+    "dress"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "The {who} stopped ______ (call) me after the interview, {name}.",
+  "key": "calling",
+  "why": "The activity ends: stop + -ing (calling).",
+  "slots": {
+   "who": [
+    "company",
+    "manager",
+    "agency",
+    "school"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "My little brother has stopped ______ (grow), {name}. He's still short!",
+  "key": "growing",
+  "why": "The activity ends: stop + -ing (growing).",
+  "slots": {
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "The alarm stopped ______ (ring) after {n} minutes.",
+  "key": "ringing",
+  "why": "The activity ends: stop + -ing (ringing).",
+  "slots": {
+   "n": [
+    "two",
+    "five",
+    "ten",
+    "three"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "She stopped ______ (go) to the {place} because it was too expensive.",
+  "key": "going",
+  "why": "The activity ends: stop + -ing (going).",
+  "slots": {
+   "place": [
+    "gym",
+    "pool",
+    "club",
+    "café"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "Stop ______ (complain) about the {thing}, {name}!",
+  "key": "complaining",
+  "why": "The activity ends: stop + -ing (complaining).",
+  "slots": {
+   "thing": [
+    "food",
+    "weather",
+    "traffic",
+    "homework"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The activity ends. Complete with the right form of the verb in brackets.",
+  "source": "The neighbours stopped ______ (argue) when the {who} knocked on the door, {name}.",
+  "key": "arguing",
+  "why": "The arguing ended: stop + -ing (arguing).",
+  "slots": {
+   "who": [
+    "caretaker",
+    "landlord",
+    "old man",
+    "neighbour"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "It stopped to rain, so we went out to the {place}, {name}.",
+  "hint": "It stopped ______, so we went out to the {place}, {name}.",
+  "key": "raining",
+  "why": "The rain ended: stop + -ing.",
+  "slots": {
+   "place": [
+    "park",
+    "bazaar",
+    "beach",
+    "stadium"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Please stop talk during the {show}, {name}.",
+  "hint": "Please stop ______ during the {show}, {name}.",
+  "key": "talking",
+  "why": "stop + -ing: talking.",
+  "slots": {
+   "show": [
+    "film",
+    "concert",
+    "lesson",
+    "play"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My uncle has stopped eat {food}, {name}.",
+  "hint": "My uncle has stopped ______ {food}, {name}.",
+  "key": "eating",
+  "why": "stop + -ing: eating.",
+  "slots": {
+   "food": [
+    "sugar",
+    "fried food",
+    "fast food",
+    "fatty meat"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The baby stopped cried when her {who} came.",
+  "hint": "The baby stopped ______ when her {who} came.",
+  "key": "crying",
+  "why": "stop + -ing: crying.",
+  "slots": {
+   "who": [
+    "mother",
+    "father",
+    "grandma",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I stopped to work at {time} because I was tired, {name}.",
+  "hint": "I stopped ______ at {time} because I was tired, {name}.",
+  "key": "working",
+  "why": "\"Because I was tired\" = the work ended: working.",
+  "slots": {
+   "time": [
+    "ten",
+    "nine",
+    "midnight",
+    "eleven"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with stopped + -ing.",
+  "source": "I don't drink {drink} any more, {name}.",
+  "hint": "I stopped ______ {drink}, {name}.",
+  "key": "drinking",
+  "why": "Not any more = stopped + -ing.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "cola",
+    "strong tea",
+    "energy drinks"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with stopped + -ing.",
+  "source": "My parents don't buy {thing} any more, {name}.",
+  "hint": "My parents stopped ______ {thing}, {name}.",
+  "key": "buying",
+  "why": "Not any more = stopped + -ing.",
+  "slots": {
+   "thing": [
+    "newspapers",
+    "magazines",
+    "CDs",
+    "DVDs"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with stopped + -ing.",
+  "source": "We don't watch that {show} any more, {name}.",
+  "hint": "We stopped ______ that {show}, {name}.",
+  "key": "watching",
+  "why": "Not any more = stopped + -ing.",
+  "slots": {
+   "show": [
+    "series",
+    "show",
+    "cartoon",
+    "programme"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with stopped + -ing.",
+  "source": "She doesn't go to the {place} any more, {name}.",
+  "hint": "She stopped ______ to the {place}, {name}.",
+  "key": "going",
+  "why": "Not any more = stopped + -ing.",
+  "slots": {
+   "place": [
+    "gym",
+    "pool",
+    "club",
+    "café"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with stopped + -ing.",
+  "source": "My grandpa doesn't drive in {city} any more.",
+  "hint": "My grandpa stopped ______ in {city}.",
+  "key": "driving",
+  "why": "Not any more = stopped + -ing.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Almaty",
+    "Samarkand"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Stop + -ing.",
+  "source": "Don't make so much noise in the {room}, {name}!",
+  "hint": "Stop ______ so much noise in the {room}, {name}!",
+  "key": "making",
+  "why": "Don't X = Stop X-ing.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "hall",
+    "yard",
+    "classroom"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Stop + -ing.",
+  "source": "Don't worry about the {test}, {name}!",
+  "hint": "Stop ______ about the {test}, {name}!",
+  "key": "worrying",
+  "why": "Don't X = Stop X-ing.",
+  "slots": {
+   "test": [
+    "exam",
+    "interview",
+    "match",
+    "results"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Stop + -ing.",
+  "source": "Don't shout at your {who}, {name}!",
+  "hint": "Stop ______ at your {who}, {name}!",
+  "key": "shouting",
+  "why": "Don't X = Stop X-ing.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "son"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Stop + -ing.",
+  "source": "Don't play games now. Do your {work}, {name}!",
+  "hint": "Stop ______ games now. Do your {work}, {name}!",
+  "key": "playing",
+  "why": "Don't X = Stop X-ing.",
+  "slots": {
+   "work": [
+    "homework",
+    "chores",
+    "revision",
+    "project"
+   ],
+   "name": [
+    "Jamshid",
+    "Malika",
+    "Otabek",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Stop + -ing.",
+  "source": "Don't complain about the {thing}, {name}!",
+  "hint": "Stop ______ about the {thing}, {name}!",
+  "key": "complaining",
+  "why": "Don't X = Stop X-ing.",
+  "slots": {
+   "thing": [
+    "food",
+    "weather",
+    "traffic",
+    "homework"
+   ],
+   "name": [
+    "Akmal",
+    "Nodira",
+    "Sherzod",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a habit you stopped.",
+  "requiredElement": "I stopped + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "stopped + -ing",
+   "past"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather with stopped + -ing.",
+  "requiredElement": "It stopped raining / snowing",
+  "constraints": [
+   "exactly one sentence",
+   "stopped + -ing",
+   "weather"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one request with Please stop + -ing.",
+  "requiredElement": "Please stop + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "stop + -ing",
+   "please"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something a family member has stopped doing.",
+  "requiredElement": "My … has stopped + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "has stopped + -ing",
+   "a family member"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with stop + -ing and one with stop + to.",
+  "requiredElement": "stop doing vs stop to do",
+  "constraints": [
+   "exactly two sentences",
+   "stop + -ing (end)",
+   "stop + to (purpose)"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with couldn't stop + -ing.",
+  "requiredElement": "I couldn't stop laughing …",
+  "constraints": [
+   "exactly one sentence",
+   "couldn't stop",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you want to stop doing.",
+  "requiredElement": "I want to stop + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "stop + -ing",
+   "a habit"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with Never stop + -ing.",
+  "requiredElement": "Never stop + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "never stop",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about habits you have stopped and why.",
+  "targetGrammar": "stopped + -ing",
+  "lookFor": [
+   "stopped",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your little brother is very noisy. Write three or four sentences with Stop + -ing.",
+  "targetGrammar": "Stop + -ing",
+  "lookFor": [
+   "stop",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a storm that finally ended. Write three or four sentences.",
+  "targetGrammar": "stopped raining / blowing",
+  "lookFor": [
+   "stopped",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a funny moment when you couldn't stop laughing.",
+  "targetGrammar": "couldn't stop + -ing",
+  "lookFor": [
+   "stop",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "stop-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Give a friend three or four pieces of advice for a healthier life with stop + -ing.",
+  "targetGrammar": "stop + -ing",
+  "lookFor": [
+   "stop",
+   "-ing",
+   "three or four sentences"
+  ]
+ }
+]
