@@ -48,7 +48,7 @@ const CHOOSE = [
   ["someone", "{name} wants to talk to ______ from the {office}.", { name: NAME, office: ["school office", "bank", "shop", "hotel"] }],
   ["anyone", "My grandpa never asks ______ for help, {name}.", { name: NAME, x: [] }],
   ["someone", "______ left a {thing} on the table, {name}.", { thing: ["bag", "phone", "jacket", "book"], name: NAME }],
-  ["anyone", "I can't find ______ to help me with the {task}.", { task: ["homework", "boxes", "project", "car"], x: [] }],
+  ["anyone", "Everyone is busy. There isn't ______ to help me with the {task}.", { task: ["homework", "boxes", "project", "car"], x: [] }],
   ["someone", "Look! There's ______ in the {place}, {name}.", { place: ["garden", "yard", "car", "water"], name: NAME }],
   ["anyone", "The shop was closed. We didn't meet ______ there, {name}.", { name: NAME, x: [] }],
   ["someone", "We need ______ to carry the {thing}, {name}.", { thing: ["sofa", "boxes", "table", "fridge"], name: NAME }],
@@ -71,7 +71,7 @@ const BUILD = [
   ["anyone", "I don't know ______ at this {place}, {name}.", { place: ["school", "party", "club", "office"], name: NAME }],
   ["someone", "I gave my old {thing} to ______ from our street, {name}.", { thing: ["bike", "books", "toys", "coat"], name: NAME }],
   ["anyone", "We didn't see ______ at the {place} {when}.", { place: ["park", "bus stop", "station", "beach"], when: ["this morning", "last night", "on Sunday", "at six"] }],
-  ["someone", "Please ask ______ for directions to the {place}, {name}.", { place: ["station", "museum", "hotel", "bazaar"], name: NAME }],
+  ["someone", "I asked ______ for directions to the {place}, {name}.", { place: ["station", "museum", "hotel", "bazaar"], name: NAME }],
   ["anyone", "{name} never talks to ______ on the bus.", { name: NAME, x: [] }],
   ["someone", "I think ______ is knocking, {name}.", { name: NAME, x: [] }],
   ["anyone", "There wasn't ______ in the {place} when we arrived, {name}.", { place: PLACE, name: NAME }],
@@ -97,6 +97,13 @@ const BUILD = [
 const NEG = "Make the sentence negative.";
 const COR = "Correct the mistake.";
 const POS = "Make the sentence positive.";
+const NO_ONE = {
+  "didn't see anyone": ["saw no one", "saw nobody"],
+  "didn't meet anyone": ["met no one", "met nobody"],
+  "doesn't know anyone": ["knows no one", "knows nobody"],
+  "isn't anyone": ["is no one", "is nobody"],
+  "can't hear anyone": ["can hear no one", "can hear nobody"],
+};
 const TRANSFORM = [
   // positive -> negative (5)
   [NEG, "I saw someone in the {place}, {name}.", "I ______ in the {place}, {name}.", "didn't see anyone", "didn't + see, and someone → anyone.", { place: PLACE, name: NAME }],
@@ -119,7 +126,14 @@ const TRANSFORM = [
 ].map(([instr, source, hint, key, why, slots]) => {
   const s = {};
   for (const [n, v] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = v;
-  return { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s };
+  // Audit (Claude, 20 Nov): anybody / somebody and the "saw no one" negatives
+  // are correct too, so the typed keys accept them.
+  const acc = [];
+  const body = key.replace("anyone", "anybody").replace("someone", "somebody").replace("Someone", "Somebody");
+  if (body !== key) acc.push(body);
+  for (const a of [...acc]) for (const [sh, lo] of [["didn't", "did not"], ["doesn't", "does not"], ["isn't", "is not"], ["can't", "cannot"]]) if (a.includes(sh)) acc.push(a.replace(sh, lo));
+  acc.push(...(NO_ONE[key] || []));
+  return { ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots: s, ...(acc.length ? { acceptable: acc } : {}) };
 });
 
 /* ---------------- create: 8 ---------------- */
