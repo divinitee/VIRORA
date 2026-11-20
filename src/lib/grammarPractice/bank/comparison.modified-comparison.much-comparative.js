@@ -599,7 +599,7 @@ export default [
     "Sundays",
     "Saturdays",
     "holidays",
-    "Fridays"
+    "weekends"
    ],
    "name": [
     "Aziz",
@@ -1107,7 +1107,7 @@ export default [
   "why": "A big difference: much goes before the comparative, much more important. Not very.",
   "slots": {
    "thing": [
-    "studies",
+    "education",
     "health",
     "family",
     "future"

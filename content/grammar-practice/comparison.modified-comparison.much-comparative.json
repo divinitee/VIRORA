@@ -597,7 +597,7 @@
     "Sundays",
     "Saturdays",
     "holidays",
-    "Fridays"
+    "weekends"
    ],
    "name": [
     "Aziz",
@@ -1105,7 +1105,7 @@
   "why": "A big difference: much goes before the comparative, much more important. Not very.",
   "slots": {
    "thing": [
-    "studies",
+    "education",
     "health",
     "family",
     "future"

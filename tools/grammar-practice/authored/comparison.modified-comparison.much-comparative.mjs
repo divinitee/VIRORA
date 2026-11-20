@@ -48,7 +48,7 @@ const CHOOSE = [
   ["important", "Your health is ______ than your {thing}, {name}.", { thing: ["marks", "phone", "work", "money"], name: NAME }],
   ["heavy", "This {bag} is ______ than mine. What's in it, {name}?", { bag: ["bag", "suitcase", "box", "backpack"], name: NAME }],
   ["useful", "For me, English is ______ than {subj} at work, {name}.", { subj: ["chemistry", "art", "music", "drawing"], name: NAME }],
-  ["busy", "The bazaar is ______ on {day} than on weekdays, {name}.", { day: ["Sundays", "Saturdays", "holidays", "Fridays"], name: NAME }],
+  ["busy", "The bazaar is ______ on {day} than on weekdays, {name}.", { day: ["Sundays", "Saturdays", "holidays", "weekends"], name: NAME }],
   ["careful", "My sister drives ______ than my brother. She never goes fast, {name}.", { name: NAME, x: [] }],
 ].map(([adj, prompt, slots], i) => {
   const s = {};
@@ -82,7 +82,7 @@ const BUILD = [
   ["near", "The {place} is ______ (near) than the bazaar. Let's walk, {name}.", { place: ["shop", "pharmacy", "bakery", "bus stop"], name: NAME }],
   ["useful", "A dictionary app is ______ (useful) than a paper {thing} for me, {name}.", { thing: ["dictionary", "book", "notebook", "list"], name: NAME }],
   ["heavy", "The {thing} was ______ (heavy) than we thought, {name}.", { thing: ["box", "suitcase", "table", "melon"], name: NAME }],
-  ["important", "For my parents, my {thing} is ______ (important) than football, {name}.", { thing: ["studies", "health", "family", "future"], name: NAME }],
+  ["important", "For my parents, my {thing} is ______ (important) than football, {name}.", { thing: ["education", "health", "family", "future"], name: NAME }],
   ["busy", "The roads are ______ (busy) at {time} than at noon, {name}.", { time: ["eight", "six", "rush hour", "half past five"], name: NAME }],
   ["long", "The summer holidays are ______ (long) than the {holiday}, {name}.", { holiday: ["winter holidays", "spring holidays", "autumn break", "Navruz holidays"], name: NAME }],
 ].map(([adj, source, slots]) => {
