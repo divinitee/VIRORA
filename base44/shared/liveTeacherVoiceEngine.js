@@ -433,3 +433,109 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
     return errorReply(user, e);
   }
 }
+
+// ------------------------------------------------------------------ fast path (2026-11-20 evening)
+// The phone now does the ears (live transcript) and the mouth (streamed voice)
+// itself with single-use passes. The server only gets the student's TEXT,
+// runs the brain + tracker, and answers with the teacher's TEXT and a fresh
+// voice pass. Database reads/writes run in parallel to keep the turn short.
+const onlySounds = (t) => !String(t || '').replace(/\([^)]*\)|\[[^\]]*\]/g, '').trim();
+
+export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fetch, now = Date.now() }) {
+  if (!isVoiceConfigured(env)) return reply(503, { ok: false, code: 'not_configured', error: 'Not set up.' });
+  const t0 = Date.now();
+  const studentText = clean(body.text, 1200);
+  const [{ lesson, error }, { row, profile }] = await Promise.all([
+    loadLesson(svc, user, body.lesson_id, now),
+    getOrCreateProfile(svc, user.email),
+  ]);
+  if (error) return error;
+  if ((lesson.tool_calls || 0) >= MAX_TURNS) return reply(429, { ok: false, code: 'too_many_turns', error: 'This lesson is very long. Start a new one.' });
+  const persona = cleanPersona(String(lesson.model || '').match(/^v2:([a-z_]+)/)?.[1] || body.persona);
+  const P = PERSONAS[persona];
+  const s = settings(env);
+  const tags = s.audioTags && modelSupportsTags(s.ttsModel);
+  const sttSeconds = Math.max(0, Math.min(60, Number(body.duration_s) || 0));
+  if (onlySounds(studentText) || studentText.length < 2) return reply(200, { ok: true, empty: true });
+
+  const timings = {};
+  try {
+    const minutesLeft = lesson.max_minutes - (now - Date.parse(lesson.started_at)) / 60000;
+    const instructions = buildBrainInstructions({
+      persona, ageGroup: lesson.age_group, uiLang: ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz',
+      studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags,
+    });
+    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft });
+    const tBrain = Date.now();
+    const [{ out, usage }, ttsToken, safety] = await Promise.all([
+      think(env, { instructions, message, safetyId: await sha256Hex(user.id || user.email) }, fetchImpl),
+      softToken(env, 'tts_websocket', fetchImpl),
+      Promise.resolve(null),
+    ]);
+    void safety;
+    timings.brain_ms = Date.now() - tBrain;
+
+    const ctx = { lessonId: lesson.id, mode: lesson.mode, ageGroup: lesson.age_group, now };
+    const applied = applyReport(profile, lesson, out, ctx);
+    const speakText = tags ? out.reply : stripAudioTags(out.reply);
+    const c = costOf({ sttSeconds, sttLive: true, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: speakText.length });
+    const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: speakText.length });
+    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { usage: usageTotal } };
+    await Promise.all([
+      applied.profile !== profile ? saveProfile(svc, row, applied.profile) : null,
+      svc.LiveTeacherLesson.update(lesson.id, { ...applied.counters, tool_calls: updated.tool_calls, scores: updated.scores }),
+    ]);
+
+    let recap = null;
+    if (out.end_lesson) {
+      recap = await finalize(svc, { lesson: updated, row, profile: applied.profile, summary: out.summary, strengths: out.strengths, focusNext: out.focus_next, scores: null, now });
+      recap = { ...recap, usage: usageTotal };
+    }
+    return reply(200, {
+      ok: true,
+      student_text: studentText,
+      addressed: out.addressed_to_teacher,
+      reply_text: stripAudioTags(out.reply), speak_text: speakText,
+      explanation_text: out.explanation_text,
+      tts_token: ttsToken,
+      mistakes: withLabels(updated.mistakes),
+      ended: !!recap, recap,
+      cost_usd: c.total, lesson_cost_usd: usageTotal.cost_usd,
+      persona_name: P.name,
+      ...(user.role === 'admin' ? { timings: { ...timings, server_ms: Date.now() - t0 } } : {}),
+    });
+  } catch (e) {
+    return errorReply(user, e);
+  }
+}
+
+/** Fallback voice: the server makes the MP3 when the phone cannot stream it. */
+export async function speakText({ svc, user, body = {}, env, fetchImpl = fetch, now = Date.now() }) {
+  if (!isVoiceConfigured(env)) return reply(503, { ok: false, code: 'not_configured', error: 'Not set up.' });
+  const { lesson, error } = await loadLesson(svc, user, body.lesson_id, now, { allowEnded: true });
+  if (error) return error;
+  const persona = cleanPersona(String(lesson.model || '').match(/^v2:([a-z_]+)/)?.[1]);
+  const text = clean(body.text, 600);
+  if (!text) return reply(400, { ok: false, code: 'no_text', error: 'No text.' });
+  try {
+    const voiceId = await resolveVoice(env, persona, fetchImpl);
+    const voice = await speak(env, { voiceId, text }, fetchImpl);
+    return reply(200, { ok: true, audio_b64: voice.audio_b64, audio_mime: voice.mime });
+  } catch (e) {
+    return errorReply(user, e);
+  }
+}
+
+/** Fresh passes for the phone (a dropped live-ears connection, a new voice stream). */
+export async function phoneTokens({ svc, user, body = {}, env, fetchImpl = fetch, now = Date.now() }) {
+  if (!isVoiceConfigured(env)) return reply(503, { ok: false, code: 'not_configured', error: 'Not set up.' });
+  const { lesson, error } = await loadLesson(svc, user, body.lesson_id, now);
+  if (error) return error;
+  const want = Array.isArray(body.types) ? body.types : [];
+  const minutesLeft = Math.max(1, lesson.max_minutes - (now - Date.parse(lesson.started_at)) / 60000);
+  const [stt, tts] = await Promise.all([
+    want.includes('stt') ? softToken(env, 'realtime_scribe', fetchImpl, { maxSeconds: minutesLeft * 60 + 120 }) : null,
+    want.includes('tts') ? softToken(env, 'tts_websocket', fetchImpl) : null,
+  ]);
+  return reply(200, { ok: true, stt_token: stt, tts_token: tts, stt_live_model: settings(env).sttLiveModel });
+}
