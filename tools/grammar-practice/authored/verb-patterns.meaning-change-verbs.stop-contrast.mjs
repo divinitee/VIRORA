@@ -64,7 +64,7 @@ const BUILD = [
   ["drinking", "He doesn't drink it any more", "My grandpa stopped ______ (drink) {drink} last year, {name}.", { drink: ["coffee", "cola", "strong tea", "sweet drinks"], name: NAME }],
   ["to drink", "I was thirsty", "I was thirsty, so I stopped ______ (drink) some juice at the {place}.", { place: ["kiosk", "café", "shop", "fountain"], x: [] }],
   ["snowing", "The snow ended", "Has it stopped ______ (snow) in {city} yet, {name}?", { city: ["Moscow", "Tashkent", "Almaty", "Astana"], name: NAME2 }],
-  ["to look", "We wanted a better view", "We stopped ______ (look) at the {sight} from the bridge, {name}.", { sight: ["river", "sunset", "old town", "mountains"], name: NAME }],
+  ["to look", "We wanted a better view", "The {sight} looked beautiful, so we stopped ______ (look) at it from the bridge, {name}.", { sight: ["river", "sunset", "old town", "mountains"], name: NAME }],
   ["shouting", "Be calm now", "Please stop ______ (shout) at your {who}, {name}.", { who: ["brother", "sister", "cousin", "son"], name: NAME2 }],
   ["to buy", "Mum needed bread", "Mum needed bread, so she stopped ______ (buy) some at the {place}.", { place: ["bakery", "bazaar", "kiosk", "shop"], x: [] }],
   ["watching", "The show got boring", "We stopped ______ (watch) the {show} because it got boring, {name}.", { show: ["series", "film", "show", "match"], name: NAME }],

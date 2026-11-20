@@ -102,7 +102,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The snow ended: the activity ends, so stop + -ing (snowing).
 
 4. _Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets._  
-   We stopped ______ (look) at the **sunset** from the bridge, **Ulugbek**.  
+   The **sunset** looked beautiful, so we stopped ______ (look) at it from the bridge, **Ulugbek**.  
    key: to look  
    why: We wanted a better view: they stopped in order to do it, so stop + to (to look).
 

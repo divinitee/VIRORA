@@ -731,7 +731,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets.",
-  "source": "We stopped ______ (look) at the {sight} from the bridge, {name}.",
+  "source": "The {sight} looked beautiful, so we stopped ______ (look) at it from the bridge, {name}.",
   "key": "to look",
   "why": "We wanted a better view: they stopped in order to do it, so stop + to (to look).",
   "slots": {
