@@ -68,15 +68,15 @@ const BUILD = [
   ["us to wear", "The school wants ______ (we / wear) a {uniform}.", { uniform: ["uniform", "white shirt", "tie", "blue jacket"], x: [] }],
   ["him to stay", "The doctor wants ______ (he / stay) at home for {n} days.", { n: ["three", "two", "five", "four"], x: [] }],
   ["you to meet", "I'd like ______ (you / meet) my {who}, {name}.", { who: ["parents", "sister", "best friend", "grandfather"], name: NAME2 }],
-  ["me to go", "Dad doesn't want ______ (I / go) to the {event} alone, {name}.", { event: ["concert", "party", "match", "festival"], name: NAME }],
-  ["her to cook", "Her brothers want ______ (she / cook) {food} again.", { food: ["plov", "manti", "soup", "samsa"], x: [] }],
+  ["me to go", "Dad doesn't want ______ (I / go) out alone at night in {city}, {name}.", { city: ["Tashkent", "Moscow", "Istanbul", "Almaty"], name: NAME }],
+  ["her to cook", "Lola's brothers want ______ (she / cook) {food} again.", { food: ["plov", "manti", "soup", "samsa"], x: [] }],
   ["us to read", "The {who} wants ______ (we / read) a book a month, {name}.", { who: ["teacher", "librarian", "tutor", "coach"], name: NAME2 }],
   ["them to clean", "Mum wants ______ (they / clean) the {room} now.", { room: ["kitchen", "garden", "car", "living room"], x: [] }],
   ["you to know", "I want ______ (you / know) about the {thing}, {name}.", { thing: ["problem", "plan", "change", "party"], name: NAME }],
   ["him to drive", "His wife doesn't want ______ (he / drive) on the {road} at night.", { road: ["motorway", "mountain road", "ring road", "old road"], x: [] }],
   ["me to send", "The {who} wanted ______ (I / send) the photos, {name}.", { who: ["manager", "teacher", "client", "photographer"], name: NAME2 }],
   ["us to visit", "Our cousins want ______ (we / visit) them in {city}.", { city: ["Fergana", "Andijan", "Nukus", "Termez"], x: [] }],
-  ["her to learn", "Her parents would like ______ (she / learn) {lang}, {name}.", { lang: ["English", "Korean", "German", "Chinese"], name: NAME }],
+  ["her to learn", "Madina's parents would like ______ (she / learn) {lang}, {name}.", { lang: ["English", "Korean", "German", "Chinese"], name: NAME }],
   ["you to try", "We'd like ______ (you / try) our {food}, {name}.", { food: ["cake", "soup", "bread", "coffee"], name: NAME2 }],
 ].map(([key, source, slots]) => {
   const s = {};
@@ -92,7 +92,7 @@ const REQ = "Rewrite with want / wanted + person + to.";
 const LIKE = "Rewrite with would like + person + to.";
 const TRANSFORM = [
   [FIX, "My parents want that I study {subject}, {name}.", "My parents want ______ {subject}, {name}.", "me to study", { subject: ["medicine", "law", "economics", "IT"], name: NAME }, "want + me + to + base, not \"want that I …\"."],
-  [FIX, "I want that you come to the {event}, {name}.", "I want ______ to the {event}, {name}.", "you to come", { event: ["wedding", "party", "match", "concert"], name: NAME2 }, "want + you + to + base: you to come."],
+  [FIX, "I want that you come for dinner on {day}, {name}.", "I want ______ for dinner on {day}, {name}.", "you to come", { day: ["Friday", "Sunday", "Navruz", "Saturday"], name: NAME2 }, "want + you + to + base: you to come."],
   [FIX, "The teacher wants us reading more {thing}, {name}.", "The teacher wants ______ more {thing}, {name}.", "us to read", { thing: ["books", "stories", "newspapers", "poems"], name: NAME }, "want + us + to + base, not -ing."],
   [FIX, "Mum wanted me help her in the {room}.", "Mum wanted ______ her in the {room}, {name}.", "me to help", { room: ["kitchen", "garden", "shop", "yard"], name: NAME2 }, "want + me + to + base: don't forget \"to\"."],
   [FIX, "Our boss wants we finish the {work} today, {name}.", "Our boss wants ______ the {work} today, {name}.", "us to finish", { work: ["report", "project", "order", "plan"], name: NAME2 }, "After want, the person is an object: us, not we."],
@@ -105,7 +105,7 @@ const TRANSFORM = [
   [LIKE, "My parents hope my brother becomes a {job}.", "My parents would like ______ a {job}, {name}.", "him to become", { job: ["doctor", "teacher", "pilot", "lawyer"], name: NAME2 }, "would like + him + to + base: him to become."],
   [LIKE, "We hope you can join us for {food}, {name}.", "We'd like ______ us for {food}, {name}.", "you to join", { food: ["dinner", "lunch", "plov", "tea"], name: NAME }, "would like + you + to + base: you to join."],
   [LIKE, "The manager hopes the workers come early on {day}.", "The manager would like ______ early on {day}, {name}.", "them to come", { day: ["Monday", "Friday", "Saturday", "Tuesday"], name: NAME2 }, "would like + them + to + base: them to come."],
-  [LIKE, "Her mum hopes she will call every {time}, {name}.", "Her mum would like ______ every {time}, {name}.", "her to call", { time: ["day", "evening", "weekend", "Sunday"], name: NAME2 }, "would like + her + to + base: her to call."],
+  [LIKE, "Sevara's mum hopes she will call every {time}, {name}.", "Sevara's mum would like ______ every {time}, {name}.", "her to call", { time: ["day", "evening", "weekend", "Sunday"], name: NAME2 }, "would like + her + to + base: her to call."],
 ].map(([instr, source, hint, key, slots, why]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = f;
