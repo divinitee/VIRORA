@@ -1056,7 +1056,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "Please remember ______ (give) the keys back to the {who}.",
+  "source": "Please remember ______ (give) the {who} the keys back.",
   "key": "to give",
   "why": "It is a task still to do, so remember + to + base: to give.",
   "slots": {

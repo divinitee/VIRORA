@@ -73,7 +73,7 @@ const BUILD = [
   ["to write", "I hope she remembers ______ (write) her address on the {form}.", { form: ["form", "parcel", "list", "card"], x: [] }],
   ["to ask", "Remember ______ (ask) the {who} about the price, {name}.", { who: ["driver", "seller", "manager", "guide"], name: NAME2 }],
   ["to book", "We must remember ______ (book) a table at the {place}, {name}.", { place: ["restaurant", "café", "chaikhana", "hotel"], name: NAME }],
-  ["to give", "Please remember ______ (give) the keys back to the {who}.", { who: ["owner", "landlord", "neighbour", "caretaker"], x: [] }],
+  ["to give", "Please remember ______ (give) the {who} the keys back.", { who: ["owner", "landlord", "neighbour", "caretaker"], x: [] }],
   ["to post", "Remember ______ (post) this letter on your way {where}, {name}.", { where: ["home", "out", "back", "home tonight"], name: NAME2 }],
 ].map(([key, source, slots]) => {
   const s = {};
