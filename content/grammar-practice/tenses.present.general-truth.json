@@ -648,9 +648,9 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the fact with the present simple form of the verb in brackets.",
-  "source": "The sun ______ (rise) in the east, so the {part} of our {building} gets light first.",
-  "key": "rises",
-  "why": "This is a fact that is always true, so use the present simple, not the present continuous. The sun is singular, so the verb takes -s: rises.",
+  "source": "The sun ______ (set) in the west, so the {part} of our {building} gets the evening light.",
+  "key": "sets",
+  "why": "This is a fact that is always true, so use the present simple, not the present continuous. The sun is singular, so the verb takes -s: sets.",
   "slots": {
    "part": [
     "kitchen",

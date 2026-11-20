@@ -1742,7 +1742,7 @@ export const PRACTICE_MANIFEST = {
   "domain": "tenses",
   "branch": "present",
   "topic": "general-truth",
-  "level": "A2",
+  "level": "A1",
   "authored": 68,
   "stages": {
    "choose": 320,
