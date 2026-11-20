@@ -107,7 +107,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to rest).
 
 5. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   Mum stopped ______ (buy) **meat** at the bazaar on the way home, **Jamshid**.  
+   Mum needed **meat**, so she stopped ______ (buy) some at the bazaar on the way home, **Jamshid**.  
    key: to buy  
    why: They stopped in order to do it: stop + to + base (to buy).
 
@@ -117,7 +117,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to eat).
 
 7. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   I stopped ______ (look) at the beautiful **shoes** in the shop window, **Ulugbek**.  
+   The **shoes** in the shop window were beautiful, so I stopped ______ (look) at them, **Ulugbek**.  
    key: to look  
    why: They stopped in order to do it: stop + to + base (to look).
 
@@ -127,7 +127,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to answer).
 
 9. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   He stopped ______ (tie) his shoes at the **corner**, **Jamshid**.  
+   His laces were loose, so he stopped ______ (tie) them at the **corner**, **Jamshid**.  
    key: to tie  
    why: They stopped in order to do it: stop + to + base (to tie).
 
@@ -137,22 +137,22 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to chat).
 
 11. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   The driver stopped ______ (check) the **tyres**, **Jamshid**.  
+   There was a strange noise, so the driver stopped ______ (check) the **tyres**, **Jamshid**.  
    key: to check  
    why: They stopped in order to do it: stop + to + base (to check).
 
 12. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   Everyone stopped ______ (help) the old woman with her **suitcase**, **Nodira**.  
+   An old woman dropped her **suitcase**, so everyone stopped ______ (help) her, **Nodira**.  
    key: to help  
    why: They stopped in order to do it: stop + to + base (to help).
 
 13. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   We stopped ______ (watch) the street dancers in **Bukhara**, **Jamshid**.  
+   The street dancers in **Bukhara** were great, so we stopped ______ (watch) them, **Jamshid**.  
    key: to watch  
    why: They stopped in order to do it: stop + to + base (to watch).
 
 14. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   I stopped ______ (read) the notice on the **shop** door, **Otabek**.  
+   There was a notice on the **shop** door, so I stopped ______ (read) it, **Otabek**.  
    key: to read  
    why: They stopped in order to do it: stop + to + base (to read).
 
@@ -162,7 +162,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to say).
 
 16. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   We stopped ______ (pick) some **apricots** by the road, **Jamshid**.  
+   We saw ripe **apricots** by the road and stopped ______ (pick) some, **Jamshid**.  
    key: to pick  
    why: They stopped in order to do it: stop + to + base (to pick).
 
@@ -172,17 +172,17 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to get).
 
 18. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   I stopped ______ (wait) for my little **cousin** at the corner, **Zarina**.  
+   My little **cousin** was slow, so I stopped ______ (wait) for him at the corner, **Zarina**.  
    key: to wait  
    why: They stopped in order to do it: stop + to + base (to wait).
 
 19. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   She stopped ______ (fix) her bike near the **school**, **Ulugbek**.  
+   Her bike had a flat tyre, so she stopped ______ (fix) it near the **school**, **Ulugbek**.  
    key: to fix  
    why: They stopped in order to do it: stop + to + base (to fix).
 
 20. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   The driver stopped ______ (make) a phone call outside **Karshi**, **Ulugbek**.  
+   The driver had an urgent call, so he stopped ______ (make) it outside **Karshi**, **Ulugbek**.  
    key: to make  
    why: They stopped in order to do it: stop + to + base (to make).
 

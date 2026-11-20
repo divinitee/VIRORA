@@ -740,7 +740,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "Mum stopped ______ (buy) {food} at the bazaar on the way home, {name}.",
+  "source": "Mum needed {food}, so she stopped ______ (buy) some at the bazaar on the way home, {name}.",
   "key": "to buy",
   "why": "They stopped in order to do it: stop + to + base (to buy).",
   "slots": {
@@ -794,7 +794,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "I stopped ______ (look) at the beautiful {thing} in the shop window, {name}.",
+  "source": "The {thing} in the shop window were beautiful, so I stopped ______ (look) at them, {name}.",
   "key": "to look",
   "why": "They stopped in order to do it: stop + to + base (to look).",
   "slots": {
@@ -848,7 +848,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "He stopped ______ (tie) his shoes at the {place}, {name}.",
+  "source": "His laces were loose, so he stopped ______ (tie) them at the {place}, {name}.",
   "key": "to tie",
   "why": "They stopped in order to do it: stop + to + base (to tie).",
   "slots": {
@@ -896,7 +896,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "The driver stopped ______ (check) the {thing}, {name}.",
+  "source": "There was a strange noise, so the driver stopped ______ (check) the {thing}, {name}.",
   "key": "to check",
   "why": "They stopped in order to do it: stop + to + base (to check).",
   "slots": {
@@ -923,7 +923,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "Everyone stopped ______ (help) the old woman with her {thing}, {name}.",
+  "source": "An old woman dropped her {thing}, so everyone stopped ______ (help) her, {name}.",
   "key": "to help",
   "why": "They stopped in order to do it: stop + to + base (to help).",
   "slots": {
@@ -950,7 +950,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "We stopped ______ (watch) the street dancers in {city}, {name}.",
+  "source": "The street dancers in {city} were great, so we stopped ______ (watch) them, {name}.",
   "key": "to watch",
   "why": "They stopped in order to do it: stop + to + base (to watch).",
   "slots": {
@@ -977,7 +977,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "I stopped ______ (read) the notice on the {place} door, {name}.",
+  "source": "There was a notice on the {place} door, so I stopped ______ (read) it, {name}.",
   "key": "to read",
   "why": "They stopped in order to do it: stop + to + base (to read).",
   "slots": {
@@ -1031,7 +1031,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "We stopped ______ (pick) some {fruit} by the road, {name}.",
+  "source": "We saw ripe {fruit} by the road and stopped ______ (pick) some, {name}.",
   "key": "to pick",
   "why": "They stopped in order to do it: stop + to + base (to pick).",
   "slots": {
@@ -1085,7 +1085,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "I stopped ______ (wait) for my little {who} at the corner, {name}.",
+  "source": "My little {who} was slow, so I stopped ______ (wait) for him at the corner, {name}.",
   "key": "to wait",
   "why": "They stopped in order to do it: stop + to + base (to wait).",
   "slots": {
@@ -1112,7 +1112,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "She stopped ______ (fix) her bike near the {place}, {name}.",
+  "source": "Her bike had a flat tyre, so she stopped ______ (fix) it near the {place}, {name}.",
   "key": "to fix",
   "why": "They stopped in order to do it: stop + to + base (to fix).",
   "slots": {
@@ -1139,7 +1139,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "The driver stopped ______ (make) a phone call outside {city}, {name}.",
+  "source": "The driver had an urgent call, so he stopped ______ (make) it outside {city}, {name}.",
   "key": "to make",
   "why": "They stopped in order to do it: stop + to + base (to make).",
   "slots": {
