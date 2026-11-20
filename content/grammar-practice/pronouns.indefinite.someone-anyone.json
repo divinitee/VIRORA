@@ -393,7 +393,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I can't find ______ to help me with the {task}.",
+  "prompt": "Everyone is busy. There isn't ______ to help me with the {task}.",
   "options": [
    "someone",
    "no one",
@@ -708,7 +708,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write someone or anyone.",
-  "source": "Please ask ______ for directions to the {place}, {name}.",
+  "source": "I asked ______ for directions to the {place}, {name}.",
   "key": "someone",
   "why": "A positive sentence about a person → someone.",
   "slots": {
@@ -1115,7 +1115,13 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "didn't see anybody",
+   "did not see anybody",
+   "saw no one",
+   "saw nobody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1143,7 +1149,13 @@
     "this morning",
     "last night"
    ]
-  }
+  },
+  "acceptable": [
+   "didn't meet anybody",
+   "did not meet anybody",
+   "met no one",
+   "met nobody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1171,7 +1183,13 @@
     "Moscow",
     "London"
    ]
-  }
+  },
+  "acceptable": [
+   "doesn't know anybody",
+   "does not know anybody",
+   "knows no one",
+   "knows nobody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1199,7 +1217,13 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "isn't anybody",
+   "is not anybody",
+   "is no one",
+   "is nobody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1227,7 +1251,13 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "can't hear anybody",
+   "cannot hear anybody",
+   "can hear no one",
+   "can hear nobody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1255,7 +1285,10 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "anybody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1283,7 +1316,10 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "anybody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1305,7 +1341,10 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1333,7 +1372,10 @@
     "today",
     "on Friday"
    ]
-  }
+  },
+  "acceptable": [
+   "anybody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1361,7 +1403,10 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1389,7 +1434,10 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1417,7 +1465,10 @@
     "an hour ago",
     "at six"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1445,7 +1496,10 @@
     "hospital",
     "hotel"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1473,7 +1527,10 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "domain": "pronouns",
@@ -1501,7 +1558,10 @@
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "Somebody"
+  ]
  },
  {
   "domain": "pronouns",

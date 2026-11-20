@@ -834,8 +834,8 @@ export default [
    "food": [
     "cake",
     "melon",
-    "bread",
-    "cheese"
+    "pie",
+    "biscuit"
    ],
    "city": [
     "Fergana",
@@ -1429,7 +1429,10 @@ export default [
     "rice",
     "pasta"
    ]
-  }
+  },
+  "acceptable": [
+   "anything"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.something-offer.transform.011",

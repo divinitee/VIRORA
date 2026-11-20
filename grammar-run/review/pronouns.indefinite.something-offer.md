@@ -127,7 +127,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Offers use something; an adjective or to + verb comes after it.
 
 9. _Put the two words in order: new, something._  
-   Would you like to try ______ ______, **Aziz**? It's a **cheese** from **Khiva**.  
+   Would you like to try ______ ______, **Aziz**? It's a **biscuit** from **Khiva**.  
    key: something + new  
    why: Offers use something; an adjective or to + verb comes after it.
 
@@ -245,7 +245,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 10. _Correct the mistake._  
    Would you like nothing to eat, **Olga**? The **soup** is ready.  
    → Would you like ______ to eat, **Olga**? The **soup** is ready.  
-   key: something  
+   key: something (also: anything)  
    why: In an offer (Would you like …? Can I get you …?) about a thing, use something.
 
 11. _Ask for it politely with something._  

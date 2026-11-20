@@ -395,7 +395,7 @@ export default [
   "level": "A2",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I can't find ______ to help me with the {task}.",
+  "prompt": "Everyone is busy. There isn't ______ to help me with the {task}.",
   "options": [
    "someone",
    "no one",
@@ -710,7 +710,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write someone or anyone.",
-  "source": "Please ask ______ for directions to the {place}, {name}.",
+  "source": "I asked ______ for directions to the {place}, {name}.",
   "key": "someone",
   "why": "A positive sentence about a person → someone.",
   "slots": {
@@ -1119,6 +1119,10 @@ export default [
    ]
   },
   "acceptable": [
+   "didn't see anybody",
+   "did not see anybody",
+   "saw no one",
+   "saw nobody",
    "did not see anyone"
   ]
  },
@@ -1150,6 +1154,10 @@ export default [
    ]
   },
   "acceptable": [
+   "didn't meet anybody",
+   "did not meet anybody",
+   "met no one",
+   "met nobody",
    "did not meet anyone"
   ]
  },
@@ -1181,6 +1189,10 @@ export default [
    ]
   },
   "acceptable": [
+   "doesn't know anybody",
+   "does not know anybody",
+   "knows no one",
+   "knows nobody",
    "does not know anyone"
   ]
  },
@@ -1212,6 +1224,10 @@ export default [
    ]
   },
   "acceptable": [
+   "isn't anybody",
+   "is not anybody",
+   "is no one",
+   "is nobody",
    "is not anyone"
   ]
  },
@@ -1243,6 +1259,10 @@ export default [
    ]
   },
   "acceptable": [
+   "can't hear anybody",
+   "cannot hear anybody",
+   "can hear no one",
+   "can hear nobody",
    "cannot hear anyone"
   ]
  },
@@ -1272,7 +1292,10 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "anybody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.007",
@@ -1300,7 +1323,10 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "anybody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.008",
@@ -1322,7 +1348,10 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.009",
@@ -1350,7 +1379,10 @@ export default [
     "today",
     "on Friday"
    ]
-  }
+  },
+  "acceptable": [
+   "anybody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.010",
@@ -1378,7 +1410,10 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.011",
@@ -1406,7 +1441,10 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.012",
@@ -1434,7 +1472,10 @@ export default [
     "an hour ago",
     "at six"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.013",
@@ -1462,7 +1503,10 @@ export default [
     "hospital",
     "hotel"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.014",
@@ -1490,7 +1534,10 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "somebody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.transform.015",
@@ -1518,7 +1565,10 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   "Somebody"
+  ]
  },
  {
   "id": "gpr.pronouns.indefinite.someone-anyone.create.001",

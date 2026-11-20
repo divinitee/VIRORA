@@ -56,7 +56,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ Someone · Anyone · Anything · Anywhere  
    why: A positive sentence about a person → someone.
 
-14. I can't find ______ to help me with the **homework**.  
+14. Everyone is busy. There isn't ______ to help me with the **homework**.  
    options: someone · no one · somewhere · ✔ anyone  
    why: A negative sentence (not, n't, never) about a person → anyone. Don't use no one after not.
 
@@ -107,7 +107,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A negative sentence (not, n't, never) about a person → anyone. Don't use no one after not.
 
 5. _Write someone or anyone._  
-   Please ask ______ for directions to the **museum**, **Olga**.  
+   I asked ______ for directions to the **museum**, **Olga**.  
    key: someone  
    why: A positive sentence about a person → someone.
 
@@ -191,91 +191,91 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 1. _Make the sentence negative._  
    I saw someone in the **office**, **Olga**.  
    → I ______ in the **office**, **Olga**.  
-   key: didn't see anyone  
+   key: didn't see anyone (also: didn't see anybody, did not see anybody, saw no one, saw nobody)  
    why: didn't + see, and someone → anyone.
 
 2. _Make the sentence negative._  
    We met someone at the **bazaar** **on Sunday**.  
    → We ______ at the **bazaar** **on Sunday**.  
-   key: didn't meet anyone  
+   key: didn't meet anyone (also: didn't meet anybody, did not meet anybody, met no one, met nobody)  
    why: didn't + meet, and someone → anyone.
 
 3. _Make the sentence negative._  
    **Aziz** knows someone in **Moscow**.  
    → **Aziz** ______ in **Moscow**.  
-   key: doesn't know anyone  
+   key: doesn't know anyone (also: doesn't know anybody, does not know anybody, knows no one, knows nobody)  
    why: doesn't + know, and someone → anyone.
 
 4. _Make the sentence negative._  
    There's someone in the **classroom**, **Olga**.  
    → There ______ in the **classroom**, **Olga**.  
-   key: isn't anyone  
+   key: isn't anyone (also: isn't anybody, is not anybody, is no one, is nobody)  
    why: isn't, and someone → anyone.
 
 5. _Make the sentence negative._  
    I can hear someone in the **yard**, **Lola**.  
    → I ______ in the **yard**, **Lola**.  
-   key: can't hear anyone  
+   key: can't hear anyone (also: can't hear anybody, cannot hear anybody, can hear no one, can hear nobody)  
    why: can't + hear, and someone → anyone.
 
 6. _Correct the mistake._  
    I didn't see someone at the **park**, **Lola**.  
    → I didn't see ______ at the **park**, **Lola**.  
-   key: anyone  
+   key: anyone (also: anybody)  
    why: A negative sentence (not, n't, never) about a person → anyone. Don't use no one after not.
 
 7. _Correct the mistake._  
    We don't know no one in this **building**, **Timur**.  
    → We don't know ______ in this **building**, **Timur**.  
-   key: anyone  
+   key: anyone (also: anybody)  
    why: A negative sentence (not, n't, never) about a person → anyone. Don't use no one after not.
 
 8. _Correct the mistake._  
    There's anyone at the door, **Timur**. Can you open it?  
    → There's ______ at the door, **Timur**. Can you open it?  
-   key: someone  
+   key: someone (also: somebody)  
    why: A positive sentence about a person → someone.
 
 9. _Correct the mistake._  
    **Timur** didn't call no one **yesterday**.  
    → **Timur** didn't call ______ **yesterday**.  
-   key: anyone  
+   key: anyone (also: anybody)  
    why: A negative sentence (not, n't, never) about a person → anyone. Don't use no one after not.
 
 10. _Correct the mistake._  
    I met anyone nice at the **wedding**, **Olga**.  
    → I met ______ nice at the **wedding**, **Olga**.  
-   key: someone  
+   key: someone (also: somebody)  
    why: A positive sentence about a person → someone.
 
 11. _Make the sentence positive._  
    There isn't anyone in the **classroom**, **Olga**.  
    → There's ______ in the **classroom**, **Olga**.  
-   key: someone  
+   key: someone (also: somebody)  
    why: A positive sentence about a person → someone.
 
 12. _Make the sentence positive._  
    I didn't see anyone at the **window** **an hour ago**.  
    → I saw ______ at the **window** **an hour ago**.  
-   key: someone  
+   key: someone (also: somebody)  
    why: A positive sentence about a person → someone.
 
 13. _Make the sentence positive._  
    **Olga** doesn't know anyone at the **hotel**.  
    → **Olga** knows ______ at the **hotel**.  
-   key: someone  
+   key: someone (also: somebody)  
    why: A positive sentence about a person → someone.
 
 14. _Make the sentence positive._  
    We didn't hear anyone in the **yard**, **Olga**.  
    → We heard ______ in the **yard**, **Olga**.  
-   key: someone  
+   key: someone (also: somebody)  
    why: A positive sentence about a person → someone.
 
 15. _Make the sentence positive._  
    Nobody called you **at lunch**, **Olga**.  
    → ______ called you **at lunch**, **Olga**.  
-   key: Someone  
+   key: Someone (also: Somebody)  
    why: A positive sentence about a person → someone.
 
 ## create (8)

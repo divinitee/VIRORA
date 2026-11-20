@@ -32,7 +32,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: no one · anywhere · ✔ nothing · anything  
    why: The verb is positive (is, ate, said), so use nothing for 'not one thing'.
 
-8. I can't see ______ in the **yard**, **Aziz**. It's very dark.  
+8. I can't read ______ in this **tent**, **Aziz**. It's very dark.  
    options: anywhere · ✔ anything · nothing · anyone  
    why: The verb is already negative (n't, not), so use anything. Don't use nothing after not.
 
@@ -72,7 +72,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ nothing · anything · no one · anywhere  
    why: The verb is positive (is, ate, said), so use nothing for 'not one thing'.
 
-18. They didn't find ______ in the **old house**, **Timur**.  
+18. They didn't find ______ to eat in the **garden**, **Timur**.  
    options: nothing · anyone · anywhere · ✔ anything  
    why: The verb is already negative (n't, not), so use anything. Don't use nothing after not.
 

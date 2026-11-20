@@ -832,8 +832,8 @@
    "food": [
     "cake",
     "melon",
-    "bread",
-    "cheese"
+    "pie",
+    "biscuit"
    ],
    "city": [
     "Fergana",
@@ -1427,7 +1427,10 @@
     "rice",
     "pasta"
    ]
-  }
+  },
+  "acceptable": [
+   "anything"
+  ]
  },
  {
   "domain": "pronouns",

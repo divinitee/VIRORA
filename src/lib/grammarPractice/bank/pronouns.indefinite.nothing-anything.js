@@ -221,7 +221,7 @@ export default [
   "level": "A2",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I can't see ______ in the {place}, {name}. It's very dark.",
+  "prompt": "I can't read ______ in this {place}, {name}. It's very dark.",
   "options": [
    "anywhere",
    "anything",
@@ -234,8 +234,8 @@ export default [
    "place": [
     "garage",
     "room",
-    "yard",
-    "cupboard"
+    "tent",
+    "corner"
    ],
    "name": [
     "Aziz",
@@ -523,7 +523,7 @@ export default [
   "level": "A2",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "They didn't find ______ in the {place}, {name}.",
+  "prompt": "They didn't find ______ to eat in the {place}, {name}.",
   "options": [
    "nothing",
    "anyone",
@@ -534,10 +534,10 @@ export default [
   "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
   "slots": {
    "place": [
-    "river",
     "forest",
     "old house",
-    "box"
+    "garden",
+    "cupboard"
    ],
    "name": [
     "Aziz",
