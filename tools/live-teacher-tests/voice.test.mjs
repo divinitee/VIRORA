@@ -357,3 +357,64 @@ test('casual swearing: roasted, not a strike, until it piles up', async () => {
   assert.equal(conductAfter('violet', 0, { casual_swear: true }, CASUAL_FREE).end, true);
   assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', casual: CASUAL_FREE }), /treat it as rude/);
 });
+
+test('masterV0: private read comes first, Bible + If-So bank + drift rule are in the prompt', async () => {
+  const { brainSchema, buildBrainInstructions } = await import('../../base44/shared/liveTeacherBrain.js');
+  const sc = brainSchema();
+  assert.equal(Object.keys(sc.properties)[0], 'read'); // written BEFORE the reply (streaming order)
+  assert.ok(sc.required.includes('read') && sc.required.includes('lesson_focus') && sc.required.includes('stage'));
+  const vira = buildBrainInstructions({ persona: 'vira' });
+  assert.match(vira, /WHO YOU ARE: Vira/);
+  assert.match(vira, /YOUR MOODS/);
+  assert.match(vira, /IF the student trolls with bathroom, sexual or shock topics/);
+  assert.match(vira, /ANYTHING NOT IN THE BANK/);
+  assert.match(vira, /BRIDGE/);
+  assert.match(vira, /never words to paste/);
+  assert.doesNotMatch(buildBrainInstructions({ persona: 'violet' }), /WHO YOU ARE: Vira/);
+});
+
+test('masterV0: lesson state tracks drift, mood, patience and her recent lines', async () => {
+  const { planAfter, cleanPlan, seedPlan, buildTurnMessage } = await import('../../base44/shared/liveTeacherBrain.js');
+  let p = cleanPlan(null);
+  assert.equal(p.patience, 80);
+  const out = (drift, mood, reply, extra = {}) => ({ read: { drift, her_mood: mood }, reply, lesson_focus: 'past simple', stage: 'practice', addressed_to_teacher: true, ...extra });
+  p = planAfter(p, out('tangent', 'amused', '[laughs] Okay, story time.'));
+  p = planAfter(p, out('off_lesson', 'firm', 'Nope, not that topic.'), { rude: false });
+  assert.equal(p.off_plan, 2);
+  assert.equal(p.focus, 'past simple');
+  assert.deepEqual(p.moods, ['amused', 'firm']);
+  assert.deepEqual(p.recent, ['Okay, story time.', 'Nope, not that topic.']); // tags stripped
+  const msg = buildTurnMessage({ persona: 'vira', studentText: 'so anyway', plan: p });
+  assert.match(msg, /focus: "past simple"/);
+  assert.match(msg, /MUST bridge back/);
+  assert.match(msg, /amused -> firm/);
+  assert.match(msg, /YOUR RECENT LINES[\s\S]*Nope, not that topic/);
+  const back = planAfter(p, out('on_track', 'warm', 'Clean sentence!'));
+  assert.equal(back.off_plan, 0);
+  assert.ok(planAfter(back, out('on_track', 'hurt', 'x'), { rude: true }).patience < back.patience);
+  // someone else talking doesn't move the drift counter
+  assert.equal(planAfter(p, out('off_lesson', 'warm', 'I will wait.', { addressed_to_teacher: false })).off_plan, 2);
+  // a new lesson keeps only her last lines
+  const seed = seedPlan(p);
+  assert.equal(seed.focus, ''); assert.equal(seed.off_plan, 0); assert.equal(seed.recent.length, 2);
+});
+
+test('masterV0: start remembers yesterday\'s lines, every turn saves the plan', async () => {
+  const svc = fakeDb();
+  const s1 = fakeServices({ brain: brainAnswer({ reply: 'Hi! Tea in hand, ready?' }) });
+  const a = await startVoiceLesson({ svc, user: student, body: { persona: 'vira' }, env, fetchImpl: s1.fetchImpl, now: T0 });
+  assert.equal(a.status, 200);
+  assert.deepEqual(svc.LiveTeacherLesson.rows[0].scores.plan.recent, ['Hi! Tea in hand, ready?']);
+  const s2 = fakeServices({ brain: brainAnswer({ reply: 'Story time, in the past tense.', read: { intent: 'escape_lesson', student_mood: 'playful', drift: 'tangent', her_mood: 'amused', move: 'bridge' }, lesson_focus: 'past simple', stage: 'practice' }) });
+  const t = await voiceTurnText({ svc, user: student, body: { lesson_id: a.body.lesson_id, text: 'I talked to a girl yesterday.' }, env, fetchImpl: s2.fetchImpl, now: T0 + 60000 });
+  assert.equal(t.status, 200);
+  const plan = svc.LiveTeacherLesson.rows[0].scores.plan;
+  assert.equal(plan.focus, 'past simple');
+  assert.equal(plan.off_plan, 1);
+  assert.equal(plan.recent.length, 2);
+  // next lesson: the brain is shown yesterday's lines so it doesn't reuse them
+  const s3 = fakeServices({ brain: brainAnswer({ reply: 'Welcome back!' }) });
+  await startVoiceLesson({ svc, user: student, body: { persona: 'vira' }, env, fetchImpl: s3.fetchImpl, now: T0 + 86400000 });
+  const greet = s3.calls.filter((c) => c.url.includes('/chat/completions')).pop();
+  assert.match(JSON.parse(greet.init.body).messages[1].content, /YOUR RECENT LINES[\s\S]*Story time, in the past tense/);
+});
