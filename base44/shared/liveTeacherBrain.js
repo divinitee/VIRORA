@@ -322,13 +322,17 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
       lines.push(`${who}: ${clip(t?.text, 400)}${t?.interrupted ? ' (interrupted)' : ''}`);
     }
   }
-  // Hard nudge against interrogation: count the questions she just asked in a row.
+  // Hard nudge against interrogation (first live test: "tell me one thing that
+  // helps..." again and again): count the questioning replies she just gave in a row.
+  const asks = (t) => /\?\s*["”»]?\s*$/.test(t) || /\b(tell me|describe|what do you|why do you|how do you)\b/i.test(t);
   let streak = 0;
   for (let i = turns.length - 1; i >= 0 && streak < 5; i--) {
     if (turns[i]?.role !== 'teacher') continue;
-    if (/\?\s*["”»]?\s*$/.test(String(turns[i]?.text || ''))) streak += 1; else break;
+    if (asks(String(turns[i]?.text || ''))) streak += 1; else break;
   }
-  if (!start && streak >= 2) lines.push(`', `.trim() && `Your last ${streak} replies all ended with a question. This reply must NOT end with a question: react, share something, or give a mini task or game instead.`);
+  if (!start && streak >= 2) {
+    lines.push(`Your last ${streak} replies all asked the student something. This reply must NOT ask a question or "tell me...": react, share something of your own, or start a game, role-play or a NEW topic.`);
+  }
   lines.push('');
   if (!start && LANG_NAME[studentLang]) lines.push(`STUDENT LANGUAGE: ${LANG_NAME[studentLang]} (answer in ${LANG_NAME[studentLang]}, then have them say it in English).`);
   lines.push(start ? 'LESSON START. Greet the student now.' : `STUDENT JUST SAID: "${clip(studentText, 1200)}"`);
