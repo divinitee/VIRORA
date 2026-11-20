@@ -68,6 +68,7 @@ const Coach = lazyPage(() => import('@/pages/Coach'));
 const AnimationStudio = lazyPage(() => import('@/pages/AnimationStudio'));
 const LiveTeacher = lazyPage(() => import('@/pages/LiveTeacher'));
 const LiveTeacherLab = lazyPage(() => import('@/pages/LiveTeacherLab'));
+const LiveTeacherV2 = lazyPage(() => import('@/pages/LiveTeacherV2'));
 
 
 const AuthenticatedApp = () => {
@@ -144,6 +145,7 @@ const AuthenticatedApp = () => {
         <Route path="/coach" element={<Coach />} />
         <Route path="/live-teacher" element={<LiveTeacher />} />
         <Route path="/live-teacher-lab" element={<LiveTeacherLab />} />
+        <Route path="/live-teacher-v2" element={<LiveTeacherV2 />} />
         <Route path="/my-words" element={<MyWords />} />
         <Route path="/vocab-review" element={<VocabReview />} />
         <Route path="/teach-stress-test" element={<TeachStressTest />} />
