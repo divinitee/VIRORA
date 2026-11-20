@@ -95,3 +95,5 @@ Rules: grammar-run/HANDOFF.md + grammar-run/PATH-FILL.md. One row per topic, in 
 - present-passive: "Many languages are spoken in Namangan" (claim about a real city) → at our school / the airport / …
 - active-to-passive: "This poem is written by Alisher Navoi" is said for authorship → the active and options carry "more than 500 years ago"; "It's for Aziz's birthday, Aziz" and "taken by Lola …, Lola" name repeats → who list without names, Madina.
 - that-which-things, past-passive: nothing to change.
+
+**Merged 20 Nov (batch 4):** rows P16-P59 above are folded into PROGRESS.md and merged to main (141 topics). New rows go below this line.
