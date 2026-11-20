@@ -52,10 +52,10 @@ export default [
   "why": "A future event on a timetable takes the present simple. One train, film or shop → starts.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ],
    "mins": [
     "ten",
@@ -154,10 +154,10 @@ export default [
     "ten thirty"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "Friday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "Saturday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "lesson"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "museums"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "holidays"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -721,10 +721,10 @@ export default [
     "post office"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -829,10 +829,10 @@ export default [
     "New Year's Eve"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -856,10 +856,10 @@ export default [
     "Sunday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -910,10 +910,10 @@ export default [
     "Wednesday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -937,10 +937,10 @@ export default [
     "seven"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -991,10 +991,10 @@ export default [
     "lesson"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1072,10 +1072,10 @@ export default [
     "class"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1159,10 +1159,10 @@ export default [
     "ten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1186,10 +1186,10 @@ export default [
     "three"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1214,10 +1214,10 @@ export default [
     "noon"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1270,10 +1270,10 @@ export default [
     "ten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1354,10 +1354,10 @@ export default [
     "half past seven"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1438,10 +1438,10 @@ export default [
     "Thursday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1466,10 +1466,10 @@ export default [
     "midnight"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1494,10 +1494,10 @@ export default [
     "half past seven"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1522,10 +1522,10 @@ export default [
     "Friday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },

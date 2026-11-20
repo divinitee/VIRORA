@@ -26,10 +26,10 @@ export default [
     "Dubai"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "rice"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "Monday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "scarf"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "law school"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "summer dresses"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "library"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "fourteen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "university"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -346,10 +346,10 @@ export default [
     "a brother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -378,10 +378,10 @@ export default [
     "plan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "bike"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "stadium"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "one stop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "café"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "Germany"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "driver"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "kitten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "Almaty"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -691,10 +691,10 @@ export default [
     "plov"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -721,10 +721,10 @@ export default [
     "scarf"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -751,10 +751,10 @@ export default [
     "library"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -781,10 +781,10 @@ export default [
     "warm"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -811,10 +811,10 @@ export default [
     "plan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -841,10 +841,10 @@ export default [
     "on the phone"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -871,10 +871,10 @@ export default [
     "button"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -901,10 +901,10 @@ export default [
     "lunchtime"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -931,10 +931,10 @@ export default [
     "apple"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -961,10 +961,10 @@ export default [
     "fifteen minutes"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -991,10 +991,10 @@ export default [
     "Dubai"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1021,10 +1021,10 @@ export default [
     "building"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1051,10 +1051,10 @@ export default [
     "test"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1081,10 +1081,10 @@ export default [
     "boat"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1111,10 +1111,10 @@ export default [
     "stadium"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1141,10 +1141,10 @@ export default [
     "fifty"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1171,10 +1171,10 @@ export default [
     "today"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1231,10 +1231,10 @@ export default [
     "museum"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1262,10 +1262,10 @@ export default [
     "van"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1293,10 +1293,10 @@ export default [
     "plov"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1324,10 +1324,10 @@ export default [
     "scarf"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1355,10 +1355,10 @@ export default [
     "plan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1386,10 +1386,10 @@ export default [
     "river"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1417,10 +1417,10 @@ export default [
     "Dubai"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1448,10 +1448,10 @@ export default [
     "fourteen"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1479,10 +1479,10 @@ export default [
     "midnight"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1510,10 +1510,10 @@ export default [
     "maths problem"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1541,10 +1541,10 @@ export default [
     "driver"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1572,10 +1572,10 @@ export default [
     "on the phone"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1603,10 +1603,10 @@ export default [
     "library"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1634,10 +1634,10 @@ export default [
     "bus stop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1665,10 +1665,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [
@@ -1696,10 +1696,10 @@ export default [
     "accident"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Zarina",
+    "Sherzod",
+    "Nodira",
+    "Akmal"
    ]
   },
   "acceptable": [

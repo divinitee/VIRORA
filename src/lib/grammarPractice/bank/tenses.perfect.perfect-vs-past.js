@@ -26,10 +26,10 @@ export default [
     "on Sunday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -116,10 +116,10 @@ export default [
   "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: met. Not the present perfect.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ],
    "when": [
     "last year",
@@ -186,10 +186,10 @@ export default [
     "cousin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "ten"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "cleaning"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -416,10 +416,10 @@ export default [
     "2021"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -480,10 +480,10 @@ export default [
     "five"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
   "why": "The time is not finished (since, so far, and still), so use the present perfect: have known.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ],
    "n": [
     "ten",
@@ -544,10 +544,10 @@ export default [
     "Tuesday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -576,10 +576,10 @@ export default [
     "clock"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -640,10 +640,10 @@ export default [
     "six"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
   "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: saw. Not the present perfect.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ],
    "when": [
     "yesterday",
@@ -694,10 +694,10 @@ export default [
     "autumn"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -721,10 +721,10 @@ export default [
     "lesson"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
   "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: wrote. Not the present perfect.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ],
    "year": [
     "2020",
@@ -829,10 +829,10 @@ export default [
     "on Friday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -856,10 +856,10 @@ export default [
     "nine"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1006,10 +1006,10 @@ export default [
     "twelve"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1035,10 +1035,10 @@ export default [
     "spring"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1065,10 +1065,10 @@ export default [
     "the first day of college"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1122,10 +1122,10 @@ export default [
     "laptop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1176,10 +1176,10 @@ export default [
     "children"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1234,10 +1234,10 @@ export default [
     "on Sunday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1284,10 +1284,10 @@ export default [
   "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: bought. Not the present perfect.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ],
    "thing": [
     "phone",
@@ -1349,10 +1349,10 @@ export default [
     "Tuesday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1377,10 +1377,10 @@ export default [
     "ticket"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1427,10 +1427,10 @@ export default [
   "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: finished. Not the present perfect.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ],
    "task": [
     "homework",
@@ -1461,10 +1461,10 @@ export default [
     "neighbour"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1489,10 +1489,10 @@ export default [
     "post office"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1517,10 +1517,10 @@ export default [
     "2021"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1578,10 +1578,10 @@ export default [
     "term"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1606,10 +1606,10 @@ export default [
     "cousin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1628,10 +1628,10 @@ export default [
   "why": "The time is not finished (since, so far, and still), so use the present perfect: have known.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ],
    "school": [
     "school",

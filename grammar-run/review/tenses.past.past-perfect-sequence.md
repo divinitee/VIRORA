@@ -8,7 +8,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ had gone · has gone · had went · had go  
    why: This happened before the other past action, so use the past perfect: had + past participle, gone.
 
-2. When I got home, my brothers ______ all the **plov**, **Aziz**.  
+2. When I got home, my brothers ______ all the **plov**, **Gulnora**.  
    options: has eaten · had ate · had eat · ✔ had eaten  
    why: This happened before the other past action, so use the past perfect: had + past participle, eaten.
 
@@ -28,11 +28,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: has broken · had broke · had break · ✔ had broken  
    why: This happened before the other past action, so use the past perfect: had + past participle, broken.
 
-7. By the time the teacher came back, **Olga** ______ three **emails**.  
+7. By the time the teacher came back, **Jamshid** ______ three **emails**.  
    options: had wrote · had write · ✔ had written · has written  
    why: This happened before the other past action, so use the past perfect: had + past participle, written.
 
-8. When we reached the **canteen**, someone ______ our table, **Aziz**.  
+8. When we reached the **canteen**, someone ______ our table, **Gulnora**.  
    options: had take · ✔ had taken · has taken · had took  
    why: This happened before the other past action, so use the past perfect: had + past participle, taken.
 
@@ -44,7 +44,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: has spoken · had spoke · had speak · ✔ had spoken  
    why: This happened before the other past action, so use the past perfect: had + past participle, spoken.
 
-11. When I asked for a ticket, they ______ all the **tickets** away, **Timur**.  
+11. When I asked for a ticket, they ______ all the **tickets** away, **Malika**.  
    options: had gave · had give · ✔ had given · has given  
    why: This happened before the other past action, so use the past perfect: had + past participle, given.
 
@@ -87,12 +87,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## build (20)
 
 1. _Write the verb in brackets in the past perfect (had + past participle)._  
-   By the time we got to the **post office**, it ______ (close), **Olga**.  
+   By the time we got to the **post office**, it ______ (close), **Jamshid**.  
    key: had closed  
    why: This happened before the other past action, so use the past perfect: had + past participle, closed.
 
 2. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When I arrived at the **school**, the lesson ______ (start), **Lola**.  
+   When I arrived at the **school**, the lesson ______ (start), **Ulugbek**.  
    key: had started  
    why: This happened before the other past action, so use the past perfect: had + past participle, started.
 
@@ -112,12 +112,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This happened before the other past action, so use the past perfect: had + past participle, worked.
 
 6. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When we got to the **concert hall**, someone ______ (buy) the last tickets, **Olga**.  
+   When we got to the **concert hall**, someone ______ (buy) the last tickets, **Jamshid**.  
    key: had bought  
    why: This happened before the other past action, so use the past perfect: had + past participle, bought.
 
 7. _Write the verb in brackets in the past perfect (had + past participle)._  
-   I couldn't finish my project because my **laptop** ______ (stop) working, **Timur**.  
+   I couldn't finish my project because my **laptop** ______ (stop) working, **Malika**.  
    key: had stopped  
    why: This happened before the other past action, so use the past perfect: had + past participle, stopped.
 
@@ -127,7 +127,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This happened before the other past action, so use the past perfect: had + past participle, cleaned.
 
 9. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When the teacher checked, **Lola** ______ (finish) the **essay**.  
+   When the teacher checked, **Ulugbek** ______ (finish) the **essay**.  
    key: had finished  
    why: This happened before the other past action, so use the past perfect: had + past participle, finished.
 
@@ -137,12 +137,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This happened before the other past action, so use the past perfect: had + past participle, drunk.
 
 11. _Write the verb in brackets in the past perfect (had + past participle)._  
-   I knew the way because I ______ (be) there **four** times before, **Aziz**.  
+   I knew the way because I ______ (be) there **four** times before, **Gulnora**.  
    key: had been  
    why: This happened before the other past action, so use the past perfect: had + past participle, been.
 
 12. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When we got to the **station**, the last train ______ (leave), **Olga**.  
+   When we got to the **station**, the last train ______ (leave), **Jamshid**.  
    key: had left  
    why: This happened before the other past action, so use the past perfect: had + past participle, left.
 
@@ -162,7 +162,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This happened before the other past action, so use the past perfect: had + past participle, sold.
 
 16. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When I opened the door, the cat ______ (eat) all the **meat**, **Olga**.  
+   When I opened the door, the cat ______ (eat) all the **meat**, **Jamshid**.  
    key: had eaten  
    why: This happened before the other past action, so use the past perfect: had + past participle, eaten.
 
@@ -177,26 +177,26 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This happened before the other past action, so use the past perfect: had + past participle, walked.
 
 19. _Write the verb in brackets in the past perfect (had + past participle)._  
-   I was hungry because I ______ (not eat) since **the morning**, **Aziz**.  
+   I was hungry because I ______ (not eat) since **the morning**, **Gulnora**.  
    key: hadn't eaten  
    why: Not eating came before being hungry, so use the past perfect negative: hadn't + past participle.
 
 20. _Write the verb in brackets in the past perfect (had + past participle)._  
-   The garden looked beautiful because my grandmother ______ (plant) new **flowers**, **Aziz**.  
+   The garden looked beautiful because my grandmother ______ (plant) new **flowers**, **Gulnora**.  
    key: had planted  
    why: This happened before the other past action, so use the past perfect: had + past participle, planted.
 
 ## transform (15)
 
 1. _Join the two sentences. Use the past perfect for the action that happened first._  
-   The film started. Then we arrived at the **club**, **Lola**.  
-   → When we arrived at the **club**, the film ______, **Lola**.  
+   The film started. Then we arrived at the **club**, **Ulugbek**.  
+   → When we arrived at the **club**, the film ______, **Ulugbek**.  
    key: had started  
    why: This happened before the other past action, so use the past perfect: had + past participle, started.
 
 2. _Join the two sentences. Use the past perfect for the action that happened first._  
-   The guests left. Then **Lola** came home at **nine**.  
-   → When **Lola** came home at **nine**, the guests ______.  
+   The guests left. Then **Ulugbek** came home at **nine**.  
+   → When **Ulugbek** came home at **nine**, the guests ______.  
    key: had left  
    why: This happened before the other past action, so use the past perfect: had + past participle, left.
 
@@ -213,20 +213,20 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This happened before the other past action, so use the past perfect: had + past participle, closed.
 
 5. _Join the two sentences. Use the past perfect for the action that happened first._  
-   The rain stopped. Then we went out to the **garden**, **Aziz**.  
-   → When we went out to the **garden**, the rain ______, **Aziz**.  
+   The rain stopped. Then we went out to the **garden**, **Gulnora**.  
+   → When we went out to the **garden**, the rain ______, **Gulnora**.  
    key: had stopped  
    why: This happened before the other past action, so use the past perfect: had + past participle, stopped.
 
 6. _Correct the mistake. One action happened before the other._  
-   By the time I got home, my sister ate all the **sweets**, **Olga**.  
-   → By the time I got home, my sister ______ all the **sweets**, **Olga**.  
+   By the time I got home, my sister ate all the **sweets**, **Jamshid**.  
+   → By the time I got home, my sister ______ all the **sweets**, **Jamshid**.  
    key: had eaten  
    why: By the time shows her eating came first: had eaten.
 
 7. _Correct the mistake. One action happened before the other._  
-   When we arrived, the **match** has already started, **Olga**.  
-   → When we arrived, the **match** ______ already ______, **Olga**.  
+   When we arrived, the **match** has already started, **Jamshid**.  
+   → When we arrived, the **match** ______ already ______, **Jamshid**.  
    key: had + started  
    why: The story is in the past, so had, not has: had already started.
 
@@ -243,20 +243,20 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After had, use the past participle: gone, not went.
 
 10. _Correct the mistake. One action happened before the other._  
-   I couldn't pay because I had forget my **wallet** at home, **Olga**.  
-   → I couldn't pay because I ______ my **wallet** at home, **Olga**.  
+   I couldn't pay because I had forget my **wallet** at home, **Jamshid**.  
+   → I couldn't pay because I ______ my **wallet** at home, **Jamshid**.  
    key: had forgotten  
    why: After had, use the past participle: forgotten.
 
 11. _Rewrite the sentence with already and the past perfect._  
-   The train left before we got to the **central station**, **Olga**.  
-   → When we got to the **central station**, the train ______ already ______, **Olga**.  
+   The train left before we got to the **central station**, **Jamshid**.  
+   → When we got to the **central station**, the train ______ already ______, **Jamshid**.  
    key: had + left  
    why: The first action was finished before the second: had + already + left.
 
 12. _Rewrite the sentence with already and the past perfect._  
-   The **English** lesson started before **Lola** came in.  
-   → When **Lola** came in, the **English** lesson ______ already ______.  
+   The **English** lesson started before **Ulugbek** came in.  
+   → When **Ulugbek** came in, the **English** lesson ______ already ______.  
    key: had + started  
    why: The first action was finished before the second: had + already + started.
 

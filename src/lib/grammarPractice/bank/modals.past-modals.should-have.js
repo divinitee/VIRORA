@@ -26,10 +26,10 @@ export default [
     "change"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "driving test"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "first bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "bakery"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "coach"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "cake"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "journey"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -346,10 +346,10 @@ export default [
     "London"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -378,10 +378,10 @@ export default [
     "museum"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -410,10 +410,10 @@ export default [
     "Mum"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "his best player"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "chocolate"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "again"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "cousin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "lamp"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "old bridge"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "surprise"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "driving test"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -688,10 +688,10 @@ export default [
     "first bus"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -715,10 +715,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "bakery"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "coach"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "cake"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -823,10 +823,10 @@ export default [
     "journey"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -850,10 +850,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -877,10 +877,10 @@ export default [
     "London"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -904,10 +904,10 @@ export default [
     "your aunt"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -931,10 +931,10 @@ export default [
     "scarf"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -958,10 +958,10 @@ export default [
     "players"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -985,10 +985,10 @@ export default [
     "trip"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1012,10 +1012,10 @@ export default [
     "grandmother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1039,10 +1039,10 @@ export default [
     "chocolate"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1069,10 +1069,10 @@ export default [
     "again"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1099,10 +1099,10 @@ export default [
     "cousin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1129,10 +1129,10 @@ export default [
     "lamp"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1159,10 +1159,10 @@ export default [
     "old bridge"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1189,10 +1189,10 @@ export default [
     "surprise"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1220,10 +1220,10 @@ export default [
     "change"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1248,10 +1248,10 @@ export default [
     "hotel"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1276,10 +1276,10 @@ export default [
     "driving test"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1304,10 +1304,10 @@ export default [
     "coach"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1332,10 +1332,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1360,10 +1360,10 @@ export default [
     "chocolate"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1391,10 +1391,10 @@ export default [
     "cousin"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1422,10 +1422,10 @@ export default [
     "lamp"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1453,10 +1453,10 @@ export default [
     "old bridge"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1484,10 +1484,10 @@ export default [
     "surprise"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [
@@ -1515,10 +1515,10 @@ export default [
     "change"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1543,10 +1543,10 @@ export default [
     "driving test"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1571,10 +1571,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1599,10 +1599,10 @@ export default [
     "London"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   }
  },
@@ -1627,10 +1627,10 @@ export default [
     "chocolate"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
    ]
   },
   "acceptable": [

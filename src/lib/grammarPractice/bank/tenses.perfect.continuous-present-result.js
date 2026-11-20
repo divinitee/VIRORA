@@ -58,10 +58,10 @@ export default [
     "metro"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "niece"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "field"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "afternoon"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "park"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -372,10 +372,10 @@ export default [
   "why": "A recent activity explains how things are now, so use the present perfect continuous: have been cleaning.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ],
    "time": [
     "morning",
@@ -410,10 +410,10 @@ export default [
     "early this morning"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -436,10 +436,10 @@ export default [
   "why": "A recent activity explains how things are now, so use the present perfect continuous: have been dancing.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ],
    "event": [
     "wedding",
@@ -506,10 +506,10 @@ export default [
     "final"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -532,10 +532,10 @@ export default [
   "why": "Question: Have + you + been + -ing.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ],
    "drink": [
     "water",
@@ -564,10 +564,10 @@ export default [
   "why": "Question: Have + you + been + -ing.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ],
    "place": [
     "school",
@@ -602,10 +602,10 @@ export default [
     "fountain"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -686,10 +686,10 @@ export default [
     "gym"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -713,10 +713,10 @@ export default [
     "night"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -767,10 +767,10 @@ export default [
     "ten minutes"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -902,10 +902,10 @@ export default [
     "river"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -929,10 +929,10 @@ export default [
     "two o'clock"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1009,10 +1009,10 @@ export default [
     "concert"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1063,10 +1063,10 @@ export default [
     "night"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1153,10 +1153,10 @@ export default [
   "why": "A recent activity explains how things are now, so use the present perfect continuous: have been watching.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ],
    "thing": [
     "TV",
@@ -1181,10 +1181,10 @@ export default [
   "why": "A recent activity explains how things are now, so use the present perfect continuous: have been crying.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ],
    "n": [
     "a long time",
@@ -1265,10 +1265,10 @@ export default [
   "why": "A recent activity explains how things are now, so use the present perfect continuous: have been working.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ],
    "place": [
     "shop",
@@ -1327,10 +1327,10 @@ export default [
     "week"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1355,10 +1355,10 @@ export default [
     "cousins"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1383,10 +1383,10 @@ export default [
     "Monday"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1411,10 +1411,10 @@ export default [
     "yard"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1433,10 +1433,10 @@ export default [
   "why": "Has needs been, not be: has been studying.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ],
    "test": [
     "exam",
@@ -1532,10 +1532,10 @@ export default [
     "sea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1594,10 +1594,10 @@ export default [
     "grandmother"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },

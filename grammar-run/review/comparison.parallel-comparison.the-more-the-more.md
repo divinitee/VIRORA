@@ -4,79 +4,79 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. The more you practise **the piano**, ______ you get, **Timur**.  
+1. The more you practise **the piano**, ______ you get, **Zarina**.  
    options: ✔ the better · better · the best · more better  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-2. The longer we waited at the **bus stop**, ______ we got, **Aziz**.  
+2. The longer we waited at the **bus stop**, ______ we got, **Nodira**.  
    options: angrier · the angriest · more angrier · ✔ the angrier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-3. ______ you sleep, the more tired you feel in **class**, **Timur**.  
+3. ______ you sleep, the more tired you feel in **class**, **Zarina**.  
    options: The least · The little · ✔ The less · Less  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-4. The hotter the weather in **Termez**, ______ water we drink, **Lola**.  
+4. The hotter the weather in **Termez**, ______ water we drink, **Sherzod**.  
    options: the much · ✔ the more · more · the most  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-5. ______ you read in **Korean**, the more words you learn, **Olga**.  
+5. ______ you read in **Korean**, the more words you learn, **Akmal**.  
    options: ✔ The more · More · The most · The much  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-6. The earlier we leave for the **station**, ______ we arrive, **Lola**.  
+6. The earlier we leave for the **station**, ______ we arrive, **Sherzod**.  
    options: sooner · the soonest · more sooner · ✔ the sooner  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-7. The bigger the **cake**, ______ it costs, **Aziz**.  
+7. The bigger the **cake**, ______ it costs, **Nodira**.  
    options: the most · the much · ✔ the more · more  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-8. The older my **uncle** gets, ______ he becomes, **Aziz**.  
+8. The older my **uncle** gets, ______ he becomes, **Nodira**.  
    options: more wiser · ✔ the wiser · wiser · the wisest  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-9. The faster you drive on the **ring road**, ______ it is, **Aziz**.  
+9. The faster you drive on the **ring road**, ______ it is, **Nodira**.  
    options: ✔ the more dangerous · more dangerous · the most dangerous · the dangerous  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-10. The more **dried fish** you eat, ______ you get, **Olga**.  
+10. The more **dried fish** you eat, ______ you get, **Akmal**.  
    options: thirstier · the thirstiest · more thirstier · ✔ the thirstier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-11. The more you smile, ______ people at **work** are to you, **Aziz**.  
+11. The more you smile, ______ people at **work** are to you, **Nodira**.  
    options: the nicest · more nicer · ✔ the nicer · nicer  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-12. ______ we train at the **park**, the better our team gets, **Lola**.  
+12. ______ we train at the **park**, the better our team gets, **Sherzod**.  
    options: The much · ✔ The more · More · The most  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-13. The colder it gets in **November**, ______ clothes we wear, **Olga**.  
+13. The colder it gets in **November**, ______ clothes we wear, **Akmal**.  
    options: ✔ the more · more · the most · the much  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-14. The less you spend at the **supermarket**, ______ you save, **Aziz**.  
+14. The less you spend at the **supermarket**, ______ you save, **Nodira**.  
    options: more · the most · the much · ✔ the more  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-15. The more **housework** I do, ______ I feel, **Timur**.  
+15. The more **housework** I do, ______ I feel, **Zarina**.  
    options: the most tired · the tired · ✔ the more tired · more tired  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-16. The harder you study for the **quiz**, ______ your mark will be, **Olga**.  
+16. The harder you study for the **quiz**, ______ your mark will be, **Akmal**.  
    options: more higher · ✔ the higher · higher · the highest  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-17. ______ the **film**, the more I like it, **Lola**.  
+17. ______ the **film**, the more I like it, **Sherzod**.  
    options: ✔ The scarier · Scarier · The scariest · More scarier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-18. The more people come to the **wedding**, ______ it is, **Aziz**.  
+18. The more people come to the **wedding**, ______ it is, **Nodira**.  
    options: more fun · the most fun · the fun · ✔ the more fun  
    why: Two changes go together: The + comparative …, the + comparative ….
 
-19. The faster you speak **Uzbek**, ______ it is to understand you, **Olga**.  
+19. The faster you speak **Uzbek**, ______ it is to understand you, **Akmal**.  
    options: the hardest · more harder · ✔ the harder · harder  
    why: Two changes go together: The + comparative …, the + comparative ….
 
@@ -87,97 +87,97 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## build (20)
 
 1. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (much) you practise **the piano**, ______ (good) you get, **Olga**.  
+   ______ (much) you practise **the piano**, ______ (good) you get, **Akmal**.  
    key: The more + the better  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 2. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (long) we waited at the **bus stop**, ______ (angry) we got, **Lola**.  
+   ______ (long) we waited at the **bus stop**, ______ (angry) we got, **Sherzod**.  
    key: The longer + the angrier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 3. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (little) you sleep, ______ (tired) you feel in **the morning**, **Lola**.  
+   ______ (little) you sleep, ______ (tired) you feel in **the morning**, **Sherzod**.  
    key: The less + the more tired  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 4. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (hot) the weather in **Bukhara**, ______ (much) water we drink, **Aziz**.  
+   ______ (hot) the weather in **Bukhara**, ______ (much) water we drink, **Nodira**.  
    key: The hotter + the more  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 5. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (early) we leave for the **wedding**, ______ (soon) we arrive, **Olga**.  
+   ______ (early) we leave for the **wedding**, ______ (soon) we arrive, **Akmal**.  
    key: The earlier + the sooner  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 6. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (big) the **room**, ______ (expensive) it is, **Timur**.  
+   ______ (big) the **room**, ______ (expensive) it is, **Zarina**.  
    key: The bigger + the more expensive  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 7. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (old) my **grandfather** gets, ______ (wise) he becomes, **Aziz**.  
+   ______ (old) my **grandfather** gets, ______ (wise) he becomes, **Nodira**.  
    key: The older + the wiser  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 8. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (fast) you drive on the **mountain road**, ______ (dangerous) it is, **Aziz**.  
+   ______ (fast) you drive on the **mountain road**, ______ (dangerous) it is, **Nodira**.  
    key: The faster + the more dangerous  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 9. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (much) you read in **English**, ______ (easy) it gets, **Olga**.  
+   ______ (much) you read in **English**, ______ (easy) it gets, **Akmal**.  
    key: The more + the easier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 10. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (cold) it gets in **January**, ______ (warm) the clothes we need, **Timur**.  
+   ______ (cold) it gets in **January**, ______ (warm) the clothes we need, **Zarina**.  
    key: The colder + the warmer  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 11. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (hard) you study for the **IELTS exam**, ______ (high) your mark will be, **Olga**.  
+   ______ (hard) you study for the **IELTS exam**, ______ (high) your mark will be, **Akmal**.  
    key: The harder + the higher  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 12. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (near) the **wedding** gets, ______ (nervous) I feel, **Olga**.  
+   ______ (near) the **wedding** gets, ______ (nervous) I feel, **Akmal**.  
    key: The nearer + the more nervous  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 13. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (many) people come to the **wedding**, ______ (fun) it is, **Lola**.  
+   ______ (many) people come to the **wedding**, ______ (fun) it is, **Sherzod**.  
    key: The more + the more fun  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 14. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (little) you spend at the **mall**, ______ (much) you save, **Olga**.  
+   ______ (little) you spend at the **mall**, ______ (much) you save, **Akmal**.  
    key: The less + the more  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 15. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (quick) you speak **Russian**, ______ (difficult) it is to understand you, **Aziz**.  
+   ______ (quick) you speak **Russian**, ______ (difficult) it is to understand you, **Nodira**.  
    key: The quicker + the more difficult  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 16. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (scary) the **book**, ______ (much) I like it, **Aziz**.  
+   ______ (scary) the **book**, ______ (much) I like it, **Nodira**.  
    key: The scarier + the more  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 17. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (high) we climbed up the **mountain**, ______ (cold) it got, **Lola**.  
+   ______ (high) we climbed up the **mountain**, ______ (cold) it got, **Sherzod**.  
    key: The higher + the colder  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 18. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (much) **salty cheese** you eat, ______ (thirsty) you get, **Lola**.  
+   ______ (much) **salty cheese** you eat, ______ (thirsty) you get, **Sherzod**.  
    key: The more + the thirstier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 19. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (loud) the music at the **festival**, ______ (happy) the children are, **Lola**.  
+   ______ (loud) the music at the **festival**, ______ (happy) the children are, **Sherzod**.  
    key: The louder + the happier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
@@ -189,80 +189,80 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## transform (15)
 
 1. _Rewrite with The …, the … ._  
-   If you practise **football** more, you get better, **Aziz**.  
-   → ______ you practise **football**, ______ you get, **Aziz**.  
+   If you practise **football** more, you get better, **Nodira**.  
+   → ______ you practise **football**, ______ you get, **Nodira**.  
    key: The more + the better  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 2. _Rewrite with The …, the … ._  
-   If we leave for the **station** earlier, we will arrive sooner, **Olga**.  
-   → ______ we leave for the **station**, ______ we will arrive, **Olga**.  
+   If we leave for the **station** earlier, we will arrive sooner, **Akmal**.  
+   → ______ we leave for the **station**, ______ we will arrive, **Akmal**.  
    key: The earlier + the sooner  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 3. _Rewrite with The …, the … ._  
-   If you read more in **English**, it gets easier, **Olga**.  
-   → ______ you read in **English**, ______ it gets, **Olga**.  
+   If you read more in **English**, it gets easier, **Akmal**.  
+   → ______ you read in **English**, ______ it gets, **Akmal**.  
    key: The more + the easier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 4. _Rewrite with The …, the … ._  
-   If you spend less at the **café**, you save more, **Timur**.  
-   → ______ you spend at the **café**, ______ you save, **Timur**.  
+   If you spend less at the **café**, you save more, **Zarina**.  
+   → ______ you spend at the **café**, ______ you save, **Zarina**.  
    key: The less + the more  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 5. _Rewrite with The …, the … ._  
-   If you drive faster on the **mountain road**, it is more dangerous, **Lola**.  
-   → ______ you drive on the **mountain road**, ______ it is, **Lola**.  
+   If you drive faster on the **mountain road**, it is more dangerous, **Sherzod**.  
+   → ______ you drive on the **mountain road**, ______ it is, **Sherzod**.  
    key: The faster + the more dangerous  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 6. _Correct the mistake._  
-   The more you study for the **exam**, better your mark will be, **Olga**.  
-   → ______ you study for the **exam**, ______ your mark will be, **Olga**.  
+   The more you study for the **exam**, better your mark will be, **Akmal**.  
+   → ______ you study for the **exam**, ______ your mark will be, **Akmal**.  
    key: The more + the better  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 7. _Correct the mistake._  
-   The longer we waited at the **airport**, the more angrier we got, **Olga**.  
-   → ______ we waited at the **airport**, ______ we got, **Olga**.  
+   The longer we waited at the **airport**, the more angrier we got, **Akmal**.  
+   → ______ we waited at the **airport**, ______ we got, **Akmal**.  
    key: The longer + the angrier  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 8. _Correct the mistake._  
-   More you sleep, the less tired you feel in **the morning**, **Lola**.  
-   → ______ you sleep, ______ you feel in **the morning**, **Lola**.  
+   More you sleep, the less tired you feel in **the morning**, **Sherzod**.  
+   → ______ you sleep, ______ you feel in **the morning**, **Sherzod**.  
    key: The more + the less tired  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 9. _Correct the mistake._  
-   The hotter the weather in **Bukhara**, the most water we drink, **Lola**.  
-   → ______ the weather in **Bukhara**, ______ water we drink, **Lola**.  
+   The hotter the weather in **Bukhara**, the most water we drink, **Sherzod**.  
+   → ______ the weather in **Bukhara**, ______ water we drink, **Sherzod**.  
    key: The hotter + the more  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 10. _Correct the mistake._  
-   The much people come to the **picnic**, the more fun it is, **Olga**.  
-   → ______ people come to the **picnic**, ______ it is, **Olga**.  
+   The much people come to the **picnic**, the more fun it is, **Akmal**.  
+   → ______ people come to the **picnic**, ______ it is, **Akmal**.  
    key: The more + the more fun  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 11. _Rewrite the sentence with The …, the … ._  
-   As my **grandfather** gets older, he gets wiser, **Lola**.  
-   → ______ my **grandfather** gets, ______ he gets, **Lola**.  
+   As my **grandfather** gets older, he gets wiser, **Sherzod**.  
+   → ______ my **grandfather** gets, ______ he gets, **Sherzod**.  
    key: The older + the wiser  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 12. _Rewrite the sentence with The …, the … ._  
-   As we climbed higher up the **path**, it got colder, **Olga**.  
-   → ______ we climbed up the **path**, ______ it got, **Olga**.  
+   As we climbed higher up the **path**, it got colder, **Akmal**.  
+   → ______ we climbed up the **path**, ______ it got, **Akmal**.  
    key: The higher + the colder  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 13. _Rewrite the sentence with The …, the … ._  
-   As the **exam** gets nearer, I feel more nervous, **Aziz**.  
-   → ______ the **exam** gets, ______ I feel, **Aziz**.  
+   As the **exam** gets nearer, I feel more nervous, **Nodira**.  
+   → ______ the **exam** gets, ______ I feel, **Nodira**.  
    key: The nearer + the more nervous  
    why: Two changes go together: The + comparative …, the + comparative ….
 
@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Two changes go together: The + comparative …, the + comparative ….
 
 15. _Rewrite the sentence with The …, the … ._  
-   As the music at the **picnic** gets louder, the children get happier, **Lola**.  
-   → ______ the music at the **picnic** gets, ______ the children get, **Lola**.  
+   As the music at the **picnic** gets louder, the children get happier, **Sherzod**.  
+   → ______ the music at the **picnic** gets, ______ the children get, **Sherzod**.  
    key: The louder + the happier  
    why: Two changes go together: The + comparative …, the + comparative ….
 

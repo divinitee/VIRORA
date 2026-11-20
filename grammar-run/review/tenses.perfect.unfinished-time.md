@@ -24,7 +24,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ have spent · spent · had spent · spend  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have spent.
 
-6. It ______ **four** times so far this **spring**, **Timur**.  
+6. It ______ **four** times so far this **spring**, **Gulnora**.  
    options: rained · had rained · rains · ✔ has rained  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has rained.
 
@@ -44,11 +44,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: visited · had visited · visits · ✔ has visited  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has visited.
 
-11. So far this term, our class ______ **two** essays in English, **Aziz**.  
+11. So far this term, our class ______ **two** essays in English, **Malika**.  
    options: had written · write · ✔ have written · wrote  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have written.
 
-12. Our team ______ every **away game** so far this season, **Lola**.  
+12. Our team ______ every **away game** so far this season, **Jamshid**.  
    options: wins · ✔ has won · won · had won  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has won.
 
@@ -64,7 +64,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: had sold · sells · ✔ has sold · sold  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has sold.
 
-16. So far **this week**, we ______ any free time, **Aziz**.  
+16. So far **this week**, we ______ any free time, **Malika**.  
    options: don't have · ✔ haven't had · didn't have · hadn't had  
    why: So far / up to now means the time is not finished yet, so use the present perfect: haven't had.
 
@@ -80,14 +80,14 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: had ridden · rides · ✔ has ridden · rode  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has ridden.
 
-20. Up to now, we ______ **a hundred** photos on this trip, **Aziz**.  
+20. Up to now, we ______ **a hundred** photos on this trip, **Malika**.  
    options: take · ✔ have taken · took · had taken  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have taken.
 
 ## build (20)
 
 1. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
-   So far today, I ______ (drink) **five** glasses of water, **Olga**.  
+   So far today, I ______ (drink) **five** glasses of water, **Ulugbek**.  
    key: have drunk  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have drunk.
 
@@ -117,7 +117,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: So far / up to now means the time is not finished yet, so use the present perfect: has scored.
 
 7. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
-   So far this **term**, I ______ (meet) a lot of new people, **Timur**.  
+   So far this **term**, I ______ (meet) a lot of new people, **Gulnora**.  
    key: have met  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have met.
 
@@ -132,7 +132,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: So far / up to now means the time is not finished yet, so use the present perfect: have run.
 
 10. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
-   Up to now, **Aziz** ______ (send) me **ten** messages today.  
+   Up to now, **Malika** ______ (send) me **ten** messages today.  
    key: has sent  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has sent.
 
@@ -167,12 +167,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: That part of the day is over now, so use the past simple: drank.
 
 17. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
-   We ______ (eat) **bread and honey** this morning. Now it's night, and the kitchen is closed, **Olga**.  
+   We ______ (eat) **bread and honey** this morning. Now it's night, and the kitchen is closed, **Ulugbek**.  
    key: ate  
    why: That part of the day is over now, so use the past simple: ate.
 
 18. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
-   **Olga** ______ (call) me at eight this morning. It's late afternoon now.  
+   **Ulugbek** ______ (call) me at eight this morning. It's late afternoon now.  
    key: called  
    why: That part of the day is over now, so use the past simple: called.
 
@@ -189,8 +189,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## transform (15)
 
 1. _The time is not finished yet. Rewrite the sentence with so far._  
-   I read **two** books last month, **Olga**.  
-   → I ______ **two** books so far this month, **Olga**.  
+   I read **two** books last month, **Ulugbek**.  
+   → I ______ **two** books so far this month, **Ulugbek**.  
    key: have read  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have read.
 
@@ -201,8 +201,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: So far / up to now means the time is not finished yet, so use the present perfect: have had.
 
 3. _The time is not finished yet. Rewrite the sentence with so far._  
-   **Lola** made **ten** new friends last year.  
-   → **Lola** ______ **ten** new friends so far this year.  
+   **Jamshid** made **ten** new friends last year.  
+   → **Jamshid** ______ **ten** new friends so far this year.  
    key: has made  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has made.
 
@@ -213,20 +213,20 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: So far / up to now means the time is not finished yet, so use the present perfect: has won.
 
 5. _The time is not finished yet. Rewrite the sentence with so far._  
-   It snowed **four** times last winter, **Timur**.  
-   → It ______ **four** times so far this winter, **Timur**.  
+   It snowed **four** times last winter, **Gulnora**.  
+   → It ______ **four** times so far this winter, **Gulnora**.  
    key: has snowed  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has snowed.
 
 6. _Correct the mistake._  
-   So far today I drank **three** cups of tea, **Olga**.  
-   → So far today I ______ **three** cups of tea, **Olga**.  
+   So far today I drank **three** cups of tea, **Ulugbek**.  
+   → So far today I ______ **three** cups of tea, **Ulugbek**.  
    key: have drunk  
    why: So far: the day is not finished, so the present perfect, have drunk.
 
 7. _Correct the mistake._  
-   Up to now, **Olga** visits us twice this **week**.  
-   → Up to now, **Olga** ______ us twice this **week**.  
+   Up to now, **Ulugbek** visits us twice this **week**.  
+   → Up to now, **Ulugbek** ______ us twice this **week**.  
    key: has visited  
    why: Up to now needs the present perfect: has visited.
 
@@ -237,19 +237,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: So far means the time is still going on: have had.
 
 9. _Correct the mistake._  
-   So far this season, our team had won every **home match**, **Timur**.  
-   → So far this season, our team ______ every **home match**, **Timur**.  
+   So far this season, our team had won every **home match**, **Gulnora**.  
+   → So far this season, our team ______ every **home match**, **Gulnora**.  
    key: has won  
    why: Had won is for before another past time. The season is still on: has won.
 
 10. _Correct the mistake._  
-   **Olga** doesn't call me so far **this weekend**.  
-   → **Olga** ______ me so far **this weekend**.  
+   **Ulugbek** doesn't call me so far **this weekend**.  
+   → **Ulugbek** ______ me so far **this weekend**.  
    key: hasn't called  
    why: So far needs the present perfect: hasn't called.
 
 11. _Answer the question with the present perfect and so far._  
-   How many **emails** have you sent today, **Olga**? Three.  
+   How many **emails** have you sent today, **Ulugbek**? Three.  
    → I ______ three **emails** so far.  
    key: have sent  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have sent.
@@ -261,19 +261,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: So far / up to now means the time is not finished yet, so use the present perfect: has had.
 
 13. _Answer the question with the present perfect and so far._  
-   How many **new words** have you learned this week, **Lola**? Twenty.  
+   How many **new words** have you learned this week, **Jamshid**? Twenty.  
    → I ______ twenty **new words** so far.  
    key: have learned (also: have learnt)  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have learned.
 
 14. _Answer the question with the present perfect and so far._  
-   How many times has it rained this **month**, **Lola**? Twice.  
-   → It ______ twice so far, **Lola**.  
+   How many times has it rained this **month**, **Jamshid**? Twice.  
+   → It ______ twice so far, **Jamshid**.  
    key: has rained  
    why: So far / up to now means the time is not finished yet, so use the present perfect: has rained.
 
 15. _Answer the question with the present perfect and so far._  
-   How many **home matches** has your team played this year, **Olga**? Six.  
+   How many **home matches** has your team played this year, **Ulugbek**? Six.  
    → We ______ six **home matches** so far.  
    key: have played  
    why: So far / up to now means the time is not finished yet, so use the present perfect: have played.

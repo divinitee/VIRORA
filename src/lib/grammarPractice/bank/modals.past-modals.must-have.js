@@ -26,10 +26,10 @@ export default [
     "garden"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "shop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "dacha"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "soup"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "prize"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "ticket"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "IELTS exam"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "play"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "charger"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -346,10 +346,10 @@ export default [
     "up the mountain"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -378,10 +378,10 @@ export default [
     "bathroom"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -410,10 +410,10 @@ export default [
     "new school"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "truck"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "week"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "sofa"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "curtains"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "report"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "fields"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "concert"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "ground"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -688,10 +688,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -715,10 +715,10 @@ export default [
     "shop"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "yard"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "cheese"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "Navbahor"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -850,10 +850,10 @@ export default [
     "homework"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -877,10 +877,10 @@ export default [
     "play"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -904,10 +904,10 @@ export default [
     "charger"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -931,10 +931,10 @@ export default [
     "Seoul"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -958,10 +958,10 @@ export default [
     "café"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -985,10 +985,10 @@ export default [
     "truck"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1012,10 +1012,10 @@ export default [
     "weekend"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1039,10 +1039,10 @@ export default [
     "sofa"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1066,10 +1066,10 @@ export default [
     "curtains"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1093,10 +1093,10 @@ export default [
     "report"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1120,10 +1120,10 @@ export default [
     "concert"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1147,10 +1147,10 @@ export default [
     "new school"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1174,10 +1174,10 @@ export default [
     "road"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1202,10 +1202,10 @@ export default [
     "garden"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1230,10 +1230,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1258,10 +1258,10 @@ export default [
     "meeting"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1286,10 +1286,10 @@ export default [
     "IELTS exam"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1314,10 +1314,10 @@ export default [
     "sofa"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1342,10 +1342,10 @@ export default [
     "garden"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1370,10 +1370,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1398,10 +1398,10 @@ export default [
     "dacha"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1426,10 +1426,10 @@ export default [
     "ticket"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1454,10 +1454,10 @@ export default [
     "soup"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1482,10 +1482,10 @@ export default [
     "Seoul"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1510,10 +1510,10 @@ export default [
     "exam"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1538,10 +1538,10 @@ export default [
     "interview"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1566,10 +1566,10 @@ export default [
     "festival"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1594,10 +1594,10 @@ export default [
     "village"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },

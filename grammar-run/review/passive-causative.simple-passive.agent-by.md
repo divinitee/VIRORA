@@ -8,27 +8,27 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: by · ✔ with · from · of  
    why: with + the thing that was used (a tool or an object).
 
-2. The cake was cut ______ a **knife**, **Aziz**.  
+2. The cake was cut ______ a **knife**, **Gulnora**.  
    options: ✔ with · from · of · by  
    why: with + the thing that was used (a tool or an object).
 
-3. The letter was written ______ a **blue pen**, **Timur**.  
+3. The letter was written ______ a **blue pen**, **Malika**.  
    options: from · of · by · ✔ with  
    why: with + the thing that was used (a tool or an object).
 
-4. The walls were painted ______ a **brush** by my grandfather, **Lola**.  
+4. The walls were painted ______ a **brush** by my grandfather, **Ulugbek**.  
    options: of · by · ✔ with · from  
    why: with + the thing that was used (a tool or an object).
 
-5. The window was broken ______ a **brick**, **Olga**.  
+5. The window was broken ______ a **brick**, **Jamshid**.  
    options: by · ✔ with · from · of  
    why: with + the thing that was used (a tool or an object).
 
-6. The plov was eaten ______ our hands at the **party**, **Lola**.  
+6. The plov was eaten ______ our hands at the **party**, **Ulugbek**.  
    options: ✔ with · from · of · by  
    why: with + the thing that was used (a tool or an object).
 
-7. The box was tied ______ **ribbon**, **Aziz**.  
+7. The box was tied ______ **ribbon**, **Gulnora**.  
    options: from · of · by · ✔ with  
    why: with + the thing that was used (a tool or an object).
 
@@ -40,89 +40,89 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: by · ✔ with · from · of  
    why: with + the thing that was used (a tool or an object).
 
-10. The floor was cleaned ______ a **cloth**, **Olga**.  
+10. The floor was cleaned ______ a **cloth**, **Jamshid**.  
    options: ✔ with · from · of · by  
    why: with + the thing that was used (a tool or an object).
 
-11. The meat was cut ______ a **knife**, **Aziz**.  
+11. The meat was cut ______ a **knife**, **Gulnora**.  
    options: from · of · by · ✔ with  
    why: with + the thing that was used (a tool or an object).
 
-12. The car was washed ______ a **brush** and soap, **Lola**.  
+12. The car was washed ______ a **brush** and soap, **Ulugbek**.  
    options: of · by · ✔ with · from  
    why: with + the thing that was used (a tool or an object).
 
-13. The lock was forced ______ one of the thieves with a **screwdriver**, **Olga**.  
+13. The lock was forced ______ one of the thieves with a **screwdriver**, **Jamshid**.  
    options: ✔ by · with · from · of  
    why: by + the doer (who did it).
 
-14. This song was written ______ a famous **band**, **Aziz**.  
+14. This song was written ______ a famous **band**, **Gulnora**.  
    options: with · from · of · ✔ by  
    why: by + the doer (who did it).
 
-15. The window was broken ______ the **children** next door, **Timur**.  
+15. The window was broken ______ the **children** next door, **Malika**.  
    options: from · of · ✔ by · with  
    why: by + the doer (who did it).
 
-16. The plov was cooked ______ my **father**, **Olga**.  
+16. The plov was cooked ______ my **father**, **Jamshid**.  
    options: of · ✔ by · with · from  
    why: by + the doer (who did it).
 
-17. The photos were taken ______ a **photographer** from the newspaper, **Lola**.  
+17. The photos were taken ______ a **photographer** from the newspaper, **Ulugbek**.  
    options: ✔ by · with · from · of  
    why: by + the doer (who did it).
 
-18. The new bridge was built ______ a **Korean** company, **Aziz**.  
+18. The new bridge was built ______ a **Korean** company, **Gulnora**.  
    options: with · from · of · ✔ by  
    why: by + the doer (who did it).
 
-19. The thief was stopped ______ a **taxi driver**, **Olga**.  
+19. The thief was stopped ______ a **taxi driver**, **Jamshid**.  
    options: from · of · ✔ by · with  
    why: by + the doer (who did it).
 
-20. The walls were painted ______ my **grandfather** with a big brush, **Lola**.  
+20. The walls were painted ______ my **grandfather** with a big brush, **Ulugbek**.  
    options: of · ✔ by · with · from  
    why: by + the doer (who did it).
 
 ## build (20)
 
 1. _Write by (who did it) or with (what they used)._  
-   The door was opened ______ a **card**, **Olga**.  
+   The door was opened ______ a **card**, **Jamshid**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 2. _Write by (who did it) or with (what they used)._  
-   The bread was cut ______ a **knife**, **Lola**.  
+   The bread was cut ______ a **knife**, **Ulugbek**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 3. _Write by (who did it) or with (what they used)._  
-   The picture was drawn ______ a **pencil**, **Lola**.  
+   The picture was drawn ______ a **pencil**, **Ulugbek**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 4. _Write by (who did it) or with (what they used)._  
-   The fence was painted ______ a **roller**, **Aziz**.  
+   The fence was painted ______ a **roller**, **Gulnora**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 5. _Write by (who did it) or with (what they used)._  
-   The glass was broken ______ a **brick**, **Olga**.  
+   The glass was broken ______ a **brick**, **Jamshid**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 6. _Write by (who did it) or with (what they used)._  
-   The parcel was tied ______ **wire**, **Timur**.  
+   The parcel was tied ______ **wire**, **Malika**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 7. _Write by (who did it) or with (what they used)._  
-   The video was filmed ______ a **phone**, **Aziz**.  
+   The video was filmed ______ a **phone**, **Gulnora**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 8. _Write by (who did it) or with (what they used)._  
-   The soup was stirred ______ a **wooden spoon**, **Aziz**.  
+   The soup was stirred ______ a **wooden spoon**, **Gulnora**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
@@ -132,52 +132,52 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: by + the doer (who did it).
 
 10. _Write by (who did it) or with (what they used)._  
-   The cake was made ______ my **sister**, **Timur**.  
+   The cake was made ______ my **sister**, **Malika**.  
    key: by  
    why: by + the doer (who did it).
 
 11. _Write by (who did it) or with (what they used)._  
-   The match was won ______ **Navbahor**, **Olga**.  
+   The match was won ______ **Navbahor**, **Jamshid**.  
    key: by  
    why: by + the doer (who did it).
 
 12. _Write by (who did it) or with (what they used)._  
-   The phone was found ______ a **cleaner** in the park, **Olga**.  
+   The phone was found ______ a **cleaner** in the park, **Jamshid**.  
    key: by  
    why: by + the doer (who did it).
 
 13. _Write by (who did it) or with (what they used)._  
-   These photos were taken ______ my **father**, **Lola**.  
+   These photos were taken ______ my **father**, **Ulugbek**.  
    key: by  
    why: by + the doer (who did it).
 
 14. _Write by (who did it) or with (what they used)._  
-   The house was built ______ my **father** in 1990, **Olga**.  
+   The house was built ______ my **father** in 1990, **Jamshid**.  
    key: by  
    why: by + the doer (who did it).
 
 15. _Write by (who did it) or with (what they used)._  
-   The **car** was stolen ______ two young men, **Aziz**.  
+   The **car** was stolen ______ two young men, **Gulnora**.  
    key: by  
    why: by + the doer (who did it).
 
 16. _Write by (who did it) or with (what they used)._  
-   The tea was served ______ the **owner**, **Aziz**.  
+   The tea was served ______ the **owner**, **Gulnora**.  
    key: by  
    why: by + the doer (who did it).
 
 17. _Write by (who did it) or with (what they used)._  
-   The letter was opened ______ a **pair of scissors** by Olga, **Lola**.  
+   The letter was opened ______ a **pair of scissors** by Olga, **Ulugbek**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 18. _Write by (who did it) or with (what they used)._  
-   The window was cleaned ______ the **girl** with a cloth, **Lola**.  
+   The window was cleaned ______ the **girl** with a cloth, **Ulugbek**.  
    key: by  
    why: by + the doer (who did it).
 
 19. _Write by (who did it) or with (what they used)._  
-   The tree was cut down ______ a **small saw**, **Lola**.  
+   The tree was cut down ______ a **small saw**, **Ulugbek**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
@@ -189,20 +189,20 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## transform (15)
 
 1. _Rewrite in the passive with by. Start with the words given._  
-   A famous **composer** wrote this song, **Aziz**.  
-   → This song ______ a famous **composer**, **Aziz**.  
+   A famous **composer** wrote this song, **Gulnora**.  
+   → This song ______ a famous **composer**, **Gulnora**.  
    key: was written by  
    why: by + the doer (who did it).
 
 2. _Rewrite in the passive with by. Start with the words given._  
-   My **uncle** cooked the plov, **Olga**.  
-   → The plov ______ my **uncle**, **Olga**.  
+   My **uncle** cooked the plov, **Jamshid**.  
+   → The plov ______ my **uncle**, **Jamshid**.  
    key: was cooked by  
    why: by + the doer (who did it).
 
 3. _Rewrite in the passive with by. Start with the words given._  
-   **Pakhtakor** won the cup, **Olga**.  
-   → The cup ______ **Pakhtakor**, **Olga**.  
+   **Pakhtakor** won the cup, **Jamshid**.  
+   → The cup ______ **Pakhtakor**, **Jamshid**.  
    key: was won by  
    why: by + the doer (who did it).
 
@@ -213,68 +213,68 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: by + the doer (who did it).
 
 5. _Rewrite in the passive with by. Start with the words given._  
-   Two young men stole the **car**, **Lola**.  
-   → The **car** ______ two young men, **Lola**.  
+   Two young men stole the **car**, **Ulugbek**.  
+   → The **car** ______ two young men, **Ulugbek**.  
    key: was stolen by  
    why: by + the doer (who did it).
 
 6. _Rewrite as one passive sentence. Show what was used._  
-   Someone broke the window. He used a **stone**, **Olga**.  
-   → The window was broken ______ a **stone**, **Olga**.  
+   Someone broke the window. He used a **stone**, **Jamshid**.  
+   → The window was broken ______ a **stone**, **Jamshid**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 7. _Rewrite as one passive sentence. Show what was used._  
-   Grandma cut the bread. She used a **sharp knife**, **Olga**.  
-   → The bread was cut by Grandma ______ a **sharp knife**, **Olga**.  
+   Grandma cut the bread. She used a **sharp knife**, **Jamshid**.  
+   → The bread was cut by Grandma ______ a **sharp knife**, **Jamshid**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 8. _Rewrite as one passive sentence. Show what was used._  
-   The thief forced the lock. He used a **screwdriver**, **Lola**.  
-   → The lock was forced by the thief ______ a **screwdriver**, **Lola**.  
+   The thief forced the lock. He used a **screwdriver**, **Ulugbek**.  
+   → The lock was forced by the thief ______ a **screwdriver**, **Ulugbek**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 9. _Rewrite as one passive sentence. Show what was used._  
-   My dad painted the fence. He used a **roller**, **Lola**.  
-   → The fence was painted by my dad ______ a **roller**, **Lola**.  
+   My dad painted the fence. He used a **roller**, **Ulugbek**.  
+   → The fence was painted by my dad ______ a **roller**, **Ulugbek**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 10. _Rewrite as one passive sentence. Show what was used._  
-   They tied the box. They used **ribbon**, **Olga**.  
-   → The box was tied ______ **ribbon**, **Olga**.  
+   They tied the box. They used **ribbon**, **Jamshid**.  
+   → The box was tied ______ **ribbon**, **Jamshid**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 11. _Correct the mistake._  
-   This song was written from a famous **singer**, **Lola**.  
-   → This song was written ______ a famous **singer**, **Lola**.  
+   This song was written from a famous **singer**, **Ulugbek**.  
+   → This song was written ______ a famous **singer**, **Ulugbek**.  
    key: by  
    why: by + the doer (who did it).
 
 12. _Correct the mistake._  
-   The bread was cut by a **long knife**, **Olga**.  
-   → The bread was cut ______ a **long knife**, **Olga**.  
+   The bread was cut by a **long knife**, **Jamshid**.  
+   → The bread was cut ______ a **long knife**, **Jamshid**.  
    key: with  
    why: with + the thing that was used (a tool or an object).
 
 13. _Correct the mistake._  
-   The house was built of my **grandfather**, **Aziz**.  
-   → The house was built ______ my **grandfather**, **Aziz**.  
+   The house was built of my **grandfather**, **Gulnora**.  
+   → The house was built ______ my **grandfather**, **Gulnora**.  
    key: by  
    why: by + the doer (who did it).
 
 14. _Correct the mistake._  
-   The window was broken with a **brick** from the boy next door, **Timur**.  
-   → The window was broken with a **brick** ______ the boy next door, **Timur**.  
+   The window was broken with a **brick** from the boy next door, **Malika**.  
+   → The window was broken with a **brick** ______ the boy next door, **Malika**.  
    key: by  
    why: by + the doer (who did it).
 
 15. _Correct the mistake._  
-   The photo was taken from my **cousin** with an old camera, **Lola**.  
-   → The photo was taken ______ my **cousin** with an old camera, **Lola**.  
+   The photo was taken from my **cousin** with an old camera, **Ulugbek**.  
+   → The photo was taken ______ my **cousin** with an old camera, **Ulugbek**.  
    key: by  
    why: by + the doer (who did it).
 

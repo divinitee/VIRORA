@@ -58,10 +58,10 @@ export default [
     "Dubai"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -212,10 +212,10 @@ export default [
     "Istanbul"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -244,10 +244,10 @@ export default [
     "cover letter"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -308,10 +308,10 @@ export default [
     "cold tea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -334,10 +334,10 @@ export default [
   "why": "After had never / had ever, use the past participle: sung. It was a new experience at that moment in the past.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -456,10 +456,10 @@ export default [
     "Almaty"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -488,10 +488,10 @@ export default [
     "live concert"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -520,10 +520,10 @@ export default [
     "Fergana"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -552,10 +552,10 @@ export default [
     "wrist"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -604,10 +604,10 @@ export default [
   "why": "After had never / had ever, use the past participle: drawn. It was a new experience at that moment in the past.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ],
    "thing": [
     "horse",
@@ -631,10 +631,10 @@ export default [
   "why": "After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -658,10 +658,10 @@ export default [
     "waterfall"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -712,10 +712,10 @@ export default [
     "Indian food"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -793,10 +793,10 @@ export default [
     "cold sea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -976,10 +976,10 @@ export default [
     "open day"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1057,10 +1057,10 @@ export default [
     "final"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1099,10 +1099,10 @@ export default [
   "why": "After had never / had ever, use the past participle: read. It was a new experience at that moment in the past.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ],
    "time": [
     "year",
@@ -1154,10 +1154,10 @@ export default [
     "year"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1176,10 +1176,10 @@ export default [
   "why": "It was the first time, so: had never + past participle (been) + before.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ],
    "place": [
     "theatre",
@@ -1210,10 +1210,10 @@ export default [
     "fish soup"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1266,10 +1266,10 @@ export default [
     "that winter"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1322,10 +1322,10 @@ export default [
     "crowd"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1406,10 +1406,10 @@ export default [
     "soup"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1428,10 +1428,10 @@ export default [
   "why": "Spoke is the past simple. After had, use the past participle: spoken.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },
@@ -1478,10 +1478,10 @@ export default [
   "why": "Wrote is the past simple. After had, use the past participle: written.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ],
    "year": [
     "2023",
@@ -1540,10 +1540,10 @@ export default [
     "building"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
    ]
   }
  },

@@ -4,79 +4,79 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. Yesterday I ______ stay late at work, **Timur**. My **manager** asked me.  
+1. Yesterday I ______ stay late at work, **Malika**. My **manager** asked me.  
    options: ✔ had to · must · have to · musted  
    why: Past obligation: had to + base verb (must has no past form).
 
-2. When I was a child, I ______ help my mother in the **kitchen**, **Aziz**.  
+2. When I was a child, I ______ help my mother in the **kitchen**, **Gulnora**.  
    options: must · have to · musted · ✔ had to  
    why: Past obligation: had to + base verb (must has no past form).
 
-3. The **train** was late, so we ______ take a taxi, **Timur**.  
+3. The **train** was late, so we ______ take a taxi, **Malika**.  
    options: have to · musted · ✔ had to · must  
    why: Past obligation: had to + base verb (must has no past form).
 
-4. Last **Monday**, Aziz ______ get up at five o'clock, **Lola**.  
+4. Last **Monday**, Aziz ______ get up at five o'clock, **Ulugbek**.  
    options: musted · ✔ had to · must · have to  
    why: Past obligation: had to + base verb (must has no past form).
 
-5. My car broke down **on Friday**, so I ______ walk home, **Olga**.  
+5. My car broke down **on Friday**, so I ______ walk home, **Jamshid**.  
    options: ✔ had to · must · have to · musted  
    why: Past obligation: had to + base verb (must has no past form).
 
-6. At my old school, we ______ wear a **white shirt**, **Lola**.  
+6. At my old school, we ______ wear a **white shirt**, **Ulugbek**.  
    options: must · have to · musted · ✔ had to  
    why: Past obligation: had to + base verb (must has no past form).
 
-7. The **pharmacy** was closed, so she ______ come back the next day, **Aziz**.  
+7. The **pharmacy** was closed, so she ______ come back the next day, **Gulnora**.  
    options: have to · musted · ✔ had to · must  
    why: Past obligation: had to + base verb (must has no past form).
 
-8. I lost my **key** last week and ______ buy a new one, **Aziz**.  
+8. I lost my **key** last week and ______ buy a new one, **Gulnora**.  
    options: musted · ✔ had to · must · have to  
    why: Past obligation: had to + base verb (must has no past form).
 
-9. We ______ wait two hours at the **bank** yesterday, **Aziz**.  
+9. We ______ wait two hours at the **bank** yesterday, **Gulnora**.  
    options: ✔ had to · must · have to · musted  
    why: Past obligation: had to + base verb (must has no past form).
 
-10. At sports school, my grandfather ______ run **three miles** every morning, **Olga**.  
+10. At sports school, my grandfather ______ run **three miles** every morning, **Jamshid**.  
    options: must · have to · musted · ✔ had to  
    why: Past obligation: had to + base verb (must has no past form).
 
-11. Timur was ill **last week**, so he ______ stay in bed, **Aziz**.  
+11. Timur was ill **last week**, so he ______ stay in bed, **Gulnora**.  
    options: have to · musted · ✔ had to · must  
    why: Past obligation: had to + base verb (must has no past form).
 
-12. It was raining, so the children ______ play inside the **hall**, **Lola**.  
+12. It was raining, so the children ______ play inside the **hall**, **Ulugbek**.  
    options: musted · ✔ had to · must · have to  
    why: Past obligation: had to + base verb (must has no past form).
 
-13. The **exam** was hard. I ______ read the questions twice, **Olga**.  
+13. The **exam** was hard. I ______ read the questions twice, **Jamshid**.  
    options: ✔ had to · must · have to · musted  
    why: Past obligation: had to + base verb (must has no past form).
 
-14. Olga ______ leave the **concert** early because her baby was ill, **Aziz**.  
+14. Olga ______ leave the **concert** early because her baby was ill, **Gulnora**.  
    options: must · have to · musted · ✔ had to  
    why: Past obligation: had to + base verb (must has no past form).
 
-15. Yesterday was **Navruz**, so I ______ go to work, **Timur**.  
+15. Yesterday was **Navruz**, so I ______ go to work, **Malika**.  
    options: didn't had to · don't have to · ✔ didn't have to · mustn't  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-16. The **quiz** was easy. We ______ study much, **Olga**.  
+16. The **quiz** was easy. We ______ study much, **Jamshid**.  
    options: don't have to · ✔ didn't have to · mustn't · didn't had to  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-17. My uncle drove us, so we ______ take the **bus**, **Lola**.  
+17. My uncle drove us, so we ______ take the **bus**, **Ulugbek**.  
    options: ✔ didn't have to · mustn't · didn't had to · don't have to  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-18. The **concert** was free. We ______ pay, **Aziz**.  
+18. The **concert** was free. We ______ pay, **Gulnora**.  
    options: mustn't · didn't had to · don't have to · ✔ didn't have to  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-19. She ______ cook dinner last night. We ate at the **chaikhana**, **Olga**.  
+19. She ______ cook dinner last night. We ate at the **chaikhana**, **Jamshid**.  
    options: didn't had to · don't have to · ✔ didn't have to · mustn't  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
@@ -87,97 +87,97 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## build (20)
 
 1. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   Yesterday I ______ (stay) late at work, **Olga**. My **manager** asked me.  
+   Yesterday I ______ (stay) late at work, **Jamshid**. My **manager** asked me.  
    key: had to stay  
    why: Past obligation: had to + base verb (must has no past form).
 
 2. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   As a child, I ______ (help) my mother in the **kitchen**, **Lola**.  
+   As a child, I ______ (help) my mother in the **kitchen**, **Ulugbek**.  
    key: had to help  
    why: Past obligation: had to + base verb (must has no past form).
 
 3. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   The **bus** was late, so we ______ (take) a taxi, **Lola**.  
+   The **bus** was late, so we ______ (take) a taxi, **Ulugbek**.  
    key: had to take  
    why: Past obligation: had to + base verb (must has no past form).
 
 4. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   Last **Friday**, Aziz ______ (get) up at five, **Aziz**.  
+   Last **Friday**, Aziz ______ (get) up at five, **Gulnora**.  
    key: had to get  
    why: Past obligation: had to + base verb (must has no past form).
 
 5. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   My car broke down **on Friday**, so I ______ (walk) home, **Olga**.  
+   My car broke down **on Friday**, so I ______ (walk) home, **Jamshid**.  
    key: had to walk  
    why: Past obligation: had to + base verb (must has no past form).
 
 6. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   At my old school, we ______ (wear) a **blue jacket**, **Timur**.  
+   At my old school, we ______ (wear) a **blue jacket**, **Malika**.  
    key: had to wear  
    why: Past obligation: had to + base verb (must has no past form).
 
 7. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   The **bank** was closed, so she ______ (come) back the next day, **Aziz**.  
+   The **bank** was closed, so she ______ (come) back the next day, **Gulnora**.  
    key: had to come  
    why: Past obligation: had to + base verb (must has no past form).
 
 8. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   I lost my **key**, so I ______ (buy) a new one, **Aziz**.  
+   I lost my **key**, so I ______ (buy) a new one, **Gulnora**.  
    key: had to buy  
    why: Past obligation: had to + base verb (must has no past form).
 
 9. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   We ______ (wait) two hours at the **airport** yesterday, **Olga**.  
+   We ______ (wait) two hours at the **airport** yesterday, **Jamshid**.  
    key: had to wait  
    why: Past obligation: had to + base verb (must has no past form).
 
 10. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   Timur was ill **yesterday**, so he ______ (stay) in bed, **Timur**.  
+   Timur was ill **yesterday**, so he ______ (stay) in bed, **Malika**.  
    key: had to stay  
    why: Past obligation: had to + base verb (must has no past form).
 
 11. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   It was raining, so the children ______ (play) inside the **hall**, **Olga**.  
+   It was raining, so the children ______ (play) inside the **hall**, **Jamshid**.  
    key: had to play  
    why: Past obligation: had to + base verb (must has no past form).
 
 12. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   Olga ______ (leave) the **wedding** early. Her baby was ill, **Olga**.  
+   Olga ______ (leave) the **wedding** early. Her baby was ill, **Jamshid**.  
    key: had to leave  
    why: Past obligation: had to + base verb (must has no past form).
 
 13. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   Parking at the **hospital** wasn't free. We ______ (pay) ten thousand sum, **Lola**.  
+   Parking at the **hospital** wasn't free. We ______ (pay) ten thousand sum, **Ulugbek**.  
    key: had to pay  
    why: Past obligation: had to + base verb (must has no past form).
 
 14. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   Nobody answered the door, so I ______ (call) my **landlord**, **Olga**.  
+   Nobody answered the door, so I ______ (call) my **landlord**, **Jamshid**.  
    key: had to call  
    why: Past obligation: had to + base verb (must has no past form).
 
 15. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   Yesterday was **Navruz**, so I ______ (not / work), **Aziz**.  
+   Yesterday was **Navruz**, so I ______ (not / work), **Gulnora**.  
    key: didn't have to work  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 16. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   The **quiz** was easy. We ______ (not / study) much, **Aziz**.  
+   The **quiz** was easy. We ______ (not / study) much, **Gulnora**.  
    key: didn't have to study  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 17. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   My uncle drove us, so we ______ (not / take) the **train**, **Lola**.  
+   My uncle drove us, so we ______ (not / take) the **train**, **Ulugbek**.  
    key: didn't have to take  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 18. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   The **zoo** was free. We ______ (not / pay), **Lola**.  
+   The **zoo** was free. We ______ (not / pay), **Ulugbek**.  
    key: didn't have to pay  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 19. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
-   She ______ (not / cook) last night. We ate at the **wedding**, **Lola**.  
+   She ______ (not / cook) last night. We ate at the **wedding**, **Ulugbek**.  
    key: didn't have to cook  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
@@ -189,92 +189,92 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## transform (15)
 
 1. _Correct the mistake._  
-   Yesterday I must stay late at the **hospital**, **Aziz**.  
-   → Yesterday I ______ late at the **hospital**, **Aziz**.  
+   Yesterday I must stay late at the **hospital**, **Gulnora**.  
+   → Yesterday I ______ late at the **hospital**, **Gulnora**.  
    key: had to stay  
    why: Past obligation: had to + base verb (must has no past form).
 
 2. _Correct the mistake._  
-   Last **Friday**, we must get up at five, **Olga**.  
-   → Last **Friday**, we ______ up at five, **Olga**.  
+   Last **Friday**, we must get up at five, **Jamshid**.  
+   → Last **Friday**, we ______ up at five, **Jamshid**.  
    key: had to get  
    why: Past obligation: had to + base verb (must has no past form).
 
 3. _Correct the mistake._  
-   When I was at school, I must wear a **uniform**, **Olga**.  
-   → When I was at school, I ______ a **uniform**, **Olga**.  
+   When I was at school, I must wear a **uniform**, **Jamshid**.  
+   → When I was at school, I ______ a **uniform**, **Jamshid**.  
    key: had to wear  
    why: Past obligation: had to + base verb (must has no past form).
 
 4. _Correct the mistake._  
-   The **metro** was late, so we must take a taxi, **Timur**.  
-   → The **metro** was late, so we ______ a taxi, **Timur**.  
+   The **metro** was late, so we must take a taxi, **Malika**.  
+   → The **metro** was late, so we ______ a taxi, **Malika**.  
    key: had to take  
    why: Past obligation: had to + base verb (must has no past form).
 
 5. _Correct the mistake._  
-   She musted leave the **wedding** early, **Lola**.  
-   → She ______ the **wedding** early, **Lola**.  
+   She musted leave the **wedding** early, **Ulugbek**.  
+   → She ______ the **wedding** early, **Ulugbek**.  
    key: had to leave  
    why: Past obligation: had to + base verb (must has no past form).
 
 6. _Rewrite with had to._  
-   At the **airport**, they made us wait for hours, **Olga**.  
-   → We ______ at the **airport**, **Olga**.  
+   At the **airport**, they made us wait for hours, **Jamshid**.  
+   → We ______ at the **airport**, **Jamshid**.  
    key: had to wait  
    why: Past obligation: had to + base verb (must has no past form).
 
 7. _Rewrite with had to._  
-   The doctor told him to stay in bed **yesterday**, **Olga**.  
-   → He ______ in bed **yesterday**, **Olga**.  
+   The doctor told him to stay in bed **yesterday**, **Jamshid**.  
+   → He ______ in bed **yesterday**, **Jamshid**.  
    key: had to stay  
    why: Past obligation: had to + base verb (must has no past form).
 
 8. _Rewrite with had to._  
-   I needed to call the **doctor**, **Lola**. There was no other way.  
-   → I ______ the **doctor**, **Lola**. There was no other way.  
+   I needed to call the **doctor**, **Ulugbek**. There was no other way.  
+   → I ______ the **doctor**, **Ulugbek**. There was no other way.  
    key: had to call  
    why: Past obligation: had to + base verb (must has no past form).
 
 9. _Rewrite with had to._  
-   There were no taxis, so walking home from the **bazaar** was necessary for them, **Lola**.  
-   → There were no taxis, so they ______ home from the **bazaar**, **Lola**.  
+   There were no taxis, so walking home from the **bazaar** was necessary for them, **Ulugbek**.  
+   → There were no taxis, so they ______ home from the **bazaar**, **Ulugbek**.  
    key: had to walk  
    why: Past obligation: had to + base verb (must has no past form).
 
 10. _Rewrite with had to._  
-   Her boss made Olga work on **Navruz**, **Olga**.  
-   → Her boss said Olga ______ on **Navruz**, **Olga**.  
+   Her boss made Olga work on **Navruz**, **Jamshid**.  
+   → Her boss said Olga ______ on **Navruz**, **Jamshid**.  
    key: had to work  
    why: Past obligation: had to + base verb (must has no past form).
 
 11. _Rewrite with didn't have to._  
-   Paying at the **museum** wasn't necessary for me, **Lola**.  
-   → I ______ at the **museum**, **Lola**.  
+   Paying at the **museum** wasn't necessary for me, **Ulugbek**.  
+   → I ______ at the **museum**, **Ulugbek**.  
    key: didn't have to pay  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 12. _Rewrite with didn't have to._  
-   There was no need for us to take the **tram**, **Olga**.  
-   → We ______ the **tram**, **Olga**.  
+   There was no need for us to take the **tram**, **Jamshid**.  
+   → We ______ the **tram**, **Jamshid**.  
    key: didn't have to take  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 13. _Rewrite with didn't have to._  
-   Cooking **last night** wasn't necessary for her, **Aziz**.  
-   → She ______ **last night**, **Aziz**.  
+   Cooking **last night** wasn't necessary for her, **Gulnora**.  
+   → She ______ **last night**, **Gulnora**.  
    key: didn't have to cook  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 14. _Rewrite with didn't have to._  
-   He didn't need to wait long at the **post office**, **Timur**.  
-   → He ______ long at the **post office**, **Timur**.  
+   He didn't need to wait long at the **post office**, **Malika**.  
+   → He ______ long at the **post office**, **Malika**.  
    key: didn't have to wait  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
 15. _Rewrite with didn't have to._  
-   The **quiz** was easy, so studying much wasn't necessary for them, **Lola**.  
-   → The **quiz** was easy, so they ______ much, **Lola**.  
+   The **quiz** was easy, so studying much wasn't necessary for them, **Ulugbek**.  
+   → The **quiz** was easy, so they ______ much, **Ulugbek**.  
    key: didn't have to study  
    why: It wasn't necessary in the past: didn't have to + base verb.
 

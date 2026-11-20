@@ -26,10 +26,10 @@ export default [
     "competition"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -58,10 +58,10 @@ export default [
     "dutar"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -90,10 +90,10 @@ export default [
     "Rome"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -122,10 +122,10 @@ export default [
     "maths problem"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -154,10 +154,10 @@ export default [
     "Korea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -186,10 +186,10 @@ export default [
     "Hindi"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -218,10 +218,10 @@ export default [
     "club"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -250,10 +250,10 @@ export default [
     "village"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -282,10 +282,10 @@ export default [
     "café"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -314,10 +314,10 @@ export default [
     "bag"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -378,10 +378,10 @@ export default [
     "writer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -410,10 +410,10 @@ export default [
     "Namangan"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -442,10 +442,10 @@ export default [
     "IELTS exam"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -474,10 +474,10 @@ export default [
     "grandfather"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -506,10 +506,10 @@ export default [
     "cooking"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -538,10 +538,10 @@ export default [
     "neighbours"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -570,10 +570,10 @@ export default [
     "sweets"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -602,10 +602,10 @@ export default [
     "mornings"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -634,10 +634,10 @@ export default [
     "Korea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -661,10 +661,10 @@ export default [
     "camera"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -688,10 +688,10 @@ export default [
     "pool"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -715,10 +715,10 @@ export default [
     "old town"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -742,10 +742,10 @@ export default [
     "match"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -769,10 +769,10 @@ export default [
     "Chinese"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -796,10 +796,10 @@ export default [
     "uncle"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -823,10 +823,10 @@ export default [
     "Africa"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -850,10 +850,10 @@ export default [
     "training"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -877,10 +877,10 @@ export default [
     "bag"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -904,10 +904,10 @@ export default [
     "history"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -931,10 +931,10 @@ export default [
     "salad"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -958,10 +958,10 @@ export default [
     "Almaty"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -985,10 +985,10 @@ export default [
     "market stall"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1012,10 +1012,10 @@ export default [
     "writer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1039,10 +1039,10 @@ export default [
     "grandfather"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1069,10 +1069,10 @@ export default [
     "dutar"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1123,10 +1123,10 @@ export default [
     "club"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1153,10 +1153,10 @@ export default [
     "meeting"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1183,10 +1183,10 @@ export default [
     "cup"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1211,10 +1211,10 @@ export default [
     "hospital"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1239,10 +1239,10 @@ export default [
     "pool"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1267,10 +1267,10 @@ export default [
     "maths problem"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1323,10 +1323,10 @@ export default [
     "sea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1351,10 +1351,10 @@ export default [
     "camera"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1379,10 +1379,10 @@ export default [
     "Rome"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1407,10 +1407,10 @@ export default [
     "competition"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1435,10 +1435,10 @@ export default [
     "hotel"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1463,10 +1463,10 @@ export default [
     "Korea"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1491,10 +1491,10 @@ export default [
     "competition"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1519,10 +1519,10 @@ export default [
     "Rome"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1547,10 +1547,10 @@ export default [
     "writer"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1575,10 +1575,10 @@ export default [
     "apples"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },
@@ -1603,10 +1603,10 @@ export default [
     "bag"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
    ]
   }
  },

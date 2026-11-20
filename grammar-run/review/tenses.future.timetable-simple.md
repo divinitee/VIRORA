@@ -8,7 +8,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ leaves · leave · left · leaving  
    why: A future event on a timetable takes the present simple. One train, film or shop → leaves.
 
-2. Hurry up, **Aziz**! The film ______ in **ten** minutes.  
+2. Hurry up, **Nodira**! The film ______ in **ten** minutes.  
    options: start · started · starting · ✔ starts  
    why: A future event on a timetable takes the present simple. One train, film or shop → starts.
 
@@ -20,7 +20,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: opening · ✔ opens · open · opened  
    why: A future event on a timetable takes the present simple. One train, film or shop → opens.
 
-5. The concert ______ at **half past ten** tonight, so we can be home by midnight, **Olga**.  
+5. The concert ______ at **half past ten** tonight, so we can be home by midnight, **Akmal**.  
    options: ✔ finishes · finish · finished · finishing  
    why: A future event on a timetable takes the present simple. One train, film or shop → finishes.
 
@@ -40,7 +40,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ ends · end · ended · ending  
    why: A future event on a timetable takes the present simple. One train, film or shop → ends.
 
-10. The museum ______ on **Wednesday** next week, **Olga**.  
+10. The museum ______ on **Wednesday** next week, **Akmal**.  
    options: close · closed · closing · ✔ closes  
    why: A future event on a timetable takes the present simple. One train, film or shop → closes.
 
@@ -60,7 +60,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: leaves · left · leaving · ✔ leave  
    why: A timetable future takes the present simple. More than one → the base form, leave.
 
-15. The school holidays ______ next **Monday**, **Timur**!  
+15. The school holidays ______ next **Monday**, **Zarina**!  
    options: started · starting · ✔ start · starts  
    why: A timetable future takes the present simple. More than one → the base form, start.
 
@@ -68,7 +68,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: finishing · ✔ finish · finishes · finished  
    why: A timetable future takes the present simple. More than one → the base form, finish.
 
-17. What time ______ the **film** start tomorrow, **Lola**?  
+17. What time ______ the **film** start tomorrow, **Sherzod**?  
    options: ✔ does · do · is · did  
    why: A question about a timetable uses the present simple: does + subject + base verb. Tomorrow or next shows the future, so not did.
 
@@ -76,11 +76,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: do · is · did · ✔ does  
    why: A question about a timetable uses the present simple: does + subject + base verb. Tomorrow or next shows the future, so not did.
 
-19. What time ______ the **markets** open tomorrow, **Olga**?  
+19. What time ______ the **markets** open tomorrow, **Akmal**?  
    options: are · did · ✔ do · does  
    why: A question about a timetable uses the present simple: do + subject + base verb. Tomorrow or next shows the future, so not did.
 
-20. ______ your **exams** begin tomorrow, **Lola**?  
+20. ______ your **exams** begin tomorrow, **Sherzod**?  
    options: Did · ✔ Do · Does · Are  
    why: A question about a timetable uses the present simple: do + subject + base verb. Tomorrow or next shows the future, so not did.
 
@@ -97,7 +97,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A future event on a timetable takes the present simple. One train, film or shop → starts.
 
 3. _It's on the timetable. Write the verb in brackets in the present simple._  
-   The **post office** ______ (open) at nine tomorrow, **Olga**.  
+   The **post office** ______ (open) at nine tomorrow, **Akmal**.  
    key: opens  
    why: A future event on a timetable takes the present simple. One train, film or shop → opens.
 
@@ -117,12 +117,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A future event on a timetable takes the present simple. One train, film or shop → begins.
 
 7. _It's on the timetable. Write the verb in brackets in the present simple._  
-   The shops ______ (close) early on **Friday**, **Olga**.  
+   The shops ______ (close) early on **Friday**, **Akmal**.  
    key: close  
    why: A timetable future takes the present simple. More than one → the base form, close.
 
 8. _It's on the timetable. Write the verb in brackets in the present simple._  
-   Our holidays ______ (end) next **Monday**, **Aziz**.  
+   Our holidays ______ (end) next **Monday**, **Nodira**.  
    key: end  
    why: A timetable future takes the present simple. More than one → the base form, end.
 
@@ -132,12 +132,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A timetable future takes the present simple. More than one → the base form, run.
 
 10. _It's on the timetable. Write the verb in brackets in the present simple._  
-   My English course ______ (begin) on **Tuesday**, **Lola**.  
+   My English course ______ (begin) on **Tuesday**, **Sherzod**.  
    key: begins  
    why: A future event on a timetable takes the present simple. One train, film or shop → begins.
 
 11. _It's on the timetable. Write the verb in brackets in the present simple._  
-   The museum ______ (close) at **six** today, so we have only one hour, **Olga**.  
+   The museum ______ (close) at **six** today, so we have only one hour, **Akmal**.  
    key: closes  
    why: A future event on a timetable takes the present simple. One train, film or shop → closes.
 
@@ -147,7 +147,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A timetable future takes the present simple. More than one → the base form, finish.
 
 13. _It's on the timetable. Write the verb in brackets in the present simple._  
-   What time does the **lesson** ______ (start) tomorrow, **Olga**?  
+   What time does the **lesson** ______ (start) tomorrow, **Akmal**?  
    key: start  
    why: After does / do / doesn't / don't, use the base form: start.
 
@@ -162,7 +162,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After does / do / doesn't / don't, use the base form: open.
 
 16. _It's on the timetable. Write the verb in brackets in the present simple._  
-   Does your **exam** ______ (begin) tomorrow, **Olga**?  
+   Does your **exam** ______ (begin) tomorrow, **Akmal**?  
    key: begin  
    why: After does / do / doesn't / don't, use the base form: begin.
 
@@ -177,20 +177,20 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After does / do / doesn't / don't, use the base form: open.
 
 19. _It's on the timetable. Write the verb in brackets in the present simple._  
-   The **film** doesn't ______ (end) until **half past ten** tonight, **Timur**.  
+   The **film** doesn't ______ (end) until **half past ten** tonight, **Zarina**.  
    key: end  
    why: After does / do / doesn't / don't, use the base form: end.
 
 20. _It's on the timetable. Write the verb in brackets in the present simple._  
-   Our flight doesn't ______ (leave) until **eleven**, so we can sleep longer tomorrow, **Aziz**.  
+   Our flight doesn't ______ (leave) until **eleven**, so we can sleep longer tomorrow, **Nodira**.  
    key: leave  
    why: After does / do / doesn't / don't, use the base form: leave.
 
 ## transform (15)
 
 1. _It's on the timetable. Rewrite the sentence with the present simple instead of will._  
-   The train will leave at **7:15** tomorrow, **Olga**.  
-   → The train ______ at **7:15** tomorrow, **Olga**.  
+   The train will leave at **7:15** tomorrow, **Akmal**.  
+   → The train ______ at **7:15** tomorrow, **Akmal**.  
    key: leaves  
    why: A future event on a timetable takes the present simple. One train, film or shop → leaves.
 
@@ -201,8 +201,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A future event on a timetable takes the present simple. One train, film or shop → opens.
 
 3. _It's on the timetable. Rewrite the sentence with the present simple instead of will._  
-   Our lessons will start at **nine** next week, **Timur**.  
-   → Our lessons ______ at **nine** next week, **Timur**.  
+   Our lessons will start at **nine** next week, **Zarina**.  
+   → Our lessons ______ at **nine** next week, **Zarina**.  
    key: start  
    why: A timetable future takes the present simple. More than one → the base form, start.
 
@@ -219,8 +219,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A timetable future takes the present simple. More than one → the base form, run.
 
 6. _Write the question for this answer. Use the present simple._  
-   The film starts at **nine** tonight, **Olga**.  
-   → What time ______ start tonight, **Olga**?  
+   The film starts at **nine** tonight, **Akmal**.  
+   → What time ______ start tonight, **Akmal**?  
    key: does the film  
    why: Present simple question: does + the subject, then the base verb.
 
@@ -237,26 +237,26 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Present simple question: do + the subject, then the base verb.
 
 9. _Write the question for this answer. Use the present simple._  
-   Our exams begin on **the 10th**, **Olga**.  
-   → When ______ begin, **Olga**?  
+   Our exams begin on **the 10th**, **Akmal**.  
+   → When ______ begin, **Akmal**?  
    key: do your exams  
    why: Present simple question: do + your exams + begin. Use your when you ask about the other person's exams.
 
 10. _Write the question for this answer. Use the present simple._  
-   The concert ends at **ten**, **Lola**.  
-   → What time ______ end, **Lola**?  
+   The concert ends at **ten**, **Sherzod**.  
+   → What time ______ end, **Sherzod**?  
    key: does the concert  
    why: Present simple question: does + the subject, then the base verb.
 
 11. _Correct the mistake. Use the present simple._  
-   The bus leave at **half past seven** tomorrow, **Olga**.  
-   → The bus ______ at **half past seven** tomorrow, **Olga**.  
+   The bus leave at **half past seven** tomorrow, **Akmal**.  
+   → The bus ______ at **half past seven** tomorrow, **Akmal**.  
    key: leaves  
    why: One bus → leaves, with -s.
 
 12. _Correct the mistake. Use the present simple._  
-   What time does the lesson starts on **Monday**, **Aziz**?  
-   → What time does the lesson ______ on **Monday**, **Aziz**?  
+   What time does the lesson starts on **Monday**, **Nodira**?  
+   → What time does the lesson ______ on **Monday**, **Nodira**?  
    key: start  
    why: After does, use the base form: start, not starts.
 

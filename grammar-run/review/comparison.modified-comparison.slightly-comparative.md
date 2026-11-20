@@ -4,27 +4,27 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. The **jacket** was 100,000 soum last month. Now it's 103,000. It's ______ more expensive, **Timur**.  
+1. The **jacket** was 100,000 soum last month. Now it's 103,000. It's ______ more expensive, **Nodira**.  
    options: ✔ slightly · much · far · very  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly more expensive. Not very.
 
-2. It was 20 degrees in **Tashkent** yesterday and it's 21 today. Today is ______ warmer than yesterday, **Aziz**.  
+2. It was 20 degrees in **Tashkent** yesterday and it's 21 today. Today is ______ warmer than yesterday, **Zarina**.  
    options: much · far · very · ✔ slightly  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly warmer. Not very.
 
-3. I'm 1.70 m and my **cousin** is 1.72 m. He's ______ taller than me, **Timur**.  
+3. I'm 1.70 m and my **cousin** is 1.72 m. He's ______ taller than me, **Nodira**.  
    options: far · very · ✔ slightly · much  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly taller. Not very.
 
-4. The old road to **Chirchiq** is 50 km and the new one is 52 km. The new road is ______ longer, **Lola**.  
+4. The old road to **Chirchiq** is 50 km and the new one is 52 km. The new road is ______ longer, **Akmal**.  
    options: very · ✔ slightly · much · far  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly longer. Not very.
 
-5. My **cousin** is 15 and a half, and her friend is 16. Her friend is ______ older, **Olga**.  
+5. My **cousin** is 15 and a half, and her friend is 16. Her friend is ______ older, **Sherzod**.  
    options: ✔ slightly · much · far · very  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly older. Not very.
 
-6. My **suitcase** is 7 kg and yours is 7.5 kg. Yours is ______ heavier, **Lola**.  
+6. My **suitcase** is 7 kg and yours is 7.5 kg. Yours is ______ heavier, **Akmal**.  
    options: much · far · very · ✔ slightly  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly heavier. Not very.
 
@@ -32,19 +32,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: far · very · ✔ slightly · much  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly faster. Not very.
 
-8. The **shirt** costs 49,000 at the bazaar and 50,000 in the shop. The bazaar is ______ cheaper, **Aziz**.  
+8. The **shirt** costs 49,000 at the bazaar and 50,000 in the shop. The bazaar is ______ cheaper, **Zarina**.  
    options: very · ✔ slightly · much · far  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly cheaper. Not very.
 
-9. Our **office** is 70 square metres, and yours is 72. Yours is ______ bigger, **Aziz**.  
+9. Our **office** is 70 square metres, and yours is 72. Yours is ______ bigger, **Zarina**.  
    options: ✔ slightly · much · far · very  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly bigger. Not very.
 
-10. The **tram** leaves at 8:00 and the train at 8:05. The **tram** leaves ______ earlier, **Olga**.  
+10. The **tram** leaves at 8:00 and the train at 8:05. The **tram** leaves ______ earlier, **Sherzod**.  
    options: much · far · very · ✔ slightly  
    why: The numbers are close, so the difference is small: slightly + comparative, slightly earlier. Not very.
 
-11. The new **fridge** is slightly ______ than the old one, **Aziz**.  
+11. The new **fridge** is slightly ______ than the old one, **Zarina**.  
    options: most efficient · efficiently · ✔ more efficient · efficient  
    why: After slightly, use the comparative: more efficient.
 
@@ -52,92 +52,92 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: more cheaper · ✔ cheaper · cheap · cheapest  
    why: After slightly, use the comparative: cheaper.
 
-13. This **chair** is slightly ______ than that one, **Olga**.  
+13. This **chair** is slightly ______ than that one, **Sherzod**.  
    options: ✔ more comfortable · comfortable · most comfortable · comfortably  
    why: After slightly, use the comparative: more comfortable.
 
-14. It's slightly ______ in the **bathroom** than in the kitchen, **Aziz**.  
+14. It's slightly ______ in the **bathroom** than in the kitchen, **Zarina**.  
    options: cold · coldest · more colder · ✔ colder  
    why: After slightly, use the comparative: colder.
 
-15. The second **exam** was slightly ______ than the first, **Timur**.  
+15. The second **exam** was slightly ______ than the first, **Nodira**.  
    options: most difficult · more difficulter · ✔ more difficult · difficult  
    why: After slightly, use the comparative: more difficult.
 
-16. My hair is slightly ______ than my **cousin**'s, **Olga**.  
+16. My hair is slightly ______ than my **cousin**'s, **Sherzod**.  
    options: more shorter · ✔ shorter · short · shortest  
    why: After slightly, use the comparative: shorter.
 
-17. I think the **book** is slightly ______ than the film, **Lola**.  
+17. I think the **book** is slightly ______ than the film, **Akmal**.  
    options: ✔ more interesting · interesting · most interesting · interested  
    why: After slightly, use the comparative: more interesting.
 
-18. Our new **flat** is slightly ______ than the old one, **Aziz**.  
+18. Our new **flat** is slightly ______ than the old one, **Zarina**.  
    options: quiet · quietest · more quieter · ✔ quieter  
    why: After slightly, use the comparative: quieter.
 
-19. The **film** started slightly ______ than we thought, **Olga**.  
+19. The **film** started slightly ______ than we thought, **Sherzod**.  
    options: latest · more later · ✔ later · late  
    why: After slightly, use the comparative: later.
 
-20. Tea is slightly ______ than coffee in our **office**, **Lola**.  
+20. Tea is slightly ______ than coffee in our **office**, **Akmal**.  
    options: more popularer · ✔ more popular · popular · most popular  
    why: After slightly, use the comparative: more popular.
 
 ## build (20)
 
 1. _Write the comparative of the adjective in brackets._  
-   This **jacket** is slightly ______ (cheap) online, **Olga**.  
+   This **jacket** is slightly ______ (cheap) online, **Sherzod**.  
    key: cheaper  
    why: After slightly, use the comparative: cheaper.
 
 2. _Write the comparative of the adjective in brackets._  
-   It's slightly ______ (warm) in **April** than in March, **Lola**.  
+   It's slightly ______ (warm) in **April** than in March, **Akmal**.  
    key: warmer  
    why: After slightly, use the comparative: warmer.
 
 3. _Write the comparative of the adjective in brackets._  
-   The red **bag** is slightly ______ (expensive) than the blue one, **Lola**.  
+   The red **bag** is slightly ______ (expensive) than the blue one, **Akmal**.  
    key: more expensive  
    why: After slightly, use the comparative: more expensive.
 
 4. _Write the comparative of the adjective in brackets._  
-   My **sister** is slightly ______ (tall) than me now, **Aziz**.  
+   My **sister** is slightly ______ (tall) than me now, **Zarina**.  
    key: taller  
    why: After slightly, use the comparative: taller.
 
 5. _Write the comparative of the adjective in brackets._  
-   The new **bed** is slightly ______ (comfortable) than the old one, **Olga**.  
+   The new **bed** is slightly ______ (comfortable) than the old one, **Sherzod**.  
    key: more comfortable  
    why: After slightly, use the comparative: more comfortable.
 
 6. _Write the comparative of the adjective in brackets._  
-   This **tram** leaves slightly ______ (early) than the other one, **Timur**.  
+   This **tram** leaves slightly ______ (early) than the other one, **Nodira**.  
    key: earlier  
    why: After slightly, use the comparative: earlier.
 
 7. _Write the comparative of the adjective in brackets._  
-   Today's **homework** was slightly ______ (difficult) than yesterday's, **Aziz**.  
+   Today's **homework** was slightly ______ (difficult) than yesterday's, **Zarina**.  
    key: more difficult  
    why: After slightly, use the comparative: more difficult.
 
 8. _Write the comparative of the adjective in brackets._  
-   The way through the **old town** is slightly ______ (long), but it's nicer, **Aziz**.  
+   The way through the **old town** is slightly ______ (long), but it's nicer, **Zarina**.  
    key: longer  
    why: After slightly, use the comparative: longer.
 
 9. _Write the comparative of the adjective in brackets._  
-   My **father** is slightly ______ (old) than my mother, **Olga**.  
+   My **father** is slightly ______ (old) than my mother, **Sherzod**.  
    key: older  
    why: After slightly, use the comparative: older.
 
 10. _Write the comparative of the adjective in brackets._  
-   This **bag** is slightly ______ (heavy) than I thought, **Timur**.  
+   This **bag** is slightly ______ (heavy) than I thought, **Nodira**.  
    key: heavier  
    why: After slightly, use the comparative: heavier.
 
 11. _Write the comparative of the adjective in brackets._  
-   The **street** is slightly ______ (quiet) in the evening, **Olga**.  
+   The **street** is slightly ______ (quiet) in the evening, **Sherzod**.  
    key: quieter  
    why: After slightly, use the comparative: quieter.
 
@@ -147,134 +147,134 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After slightly, use the comparative: more popular.
 
 13. _Write the comparative of the adjective in brackets._  
-   The new **road** is slightly ______ (short) than the old one, **Lola**.  
+   The new **road** is slightly ______ (short) than the old one, **Akmal**.  
    key: shorter  
    why: After slightly, use the comparative: shorter.
 
 14. _Write the comparative of the adjective in brackets._  
-   My **phone** is slightly ______ (small) than yours, **Olga**.  
+   My **phone** is slightly ______ (small) than yours, **Sherzod**.  
    key: smaller  
    why: After slightly, use the comparative: smaller.
 
 15. _Write the comparative of the adjective in brackets._  
-   The second **part** was slightly ______ (interesting) than the first, **Aziz**.  
+   The second **part** was slightly ______ (interesting) than the first, **Zarina**.  
    key: more interesting  
    why: After slightly, use the comparative: more interesting.
 
 16. _Write the comparative of the adjective in brackets._  
-   Our **meeting** starts slightly ______ (late) this week, **Aziz**.  
+   Our **meeting** starts slightly ______ (late) this week, **Zarina**.  
    key: later  
    why: After slightly, use the comparative: later.
 
 17. _Write the comparative of the adjective in brackets._  
-   This **exam** is slightly ______ (easy) than the last one, **Lola**.  
+   This **exam** is slightly ______ (easy) than the last one, **Akmal**.  
    key: easier  
    why: After slightly, use the comparative: easier.
 
 18. _Write the comparative of the adjective in brackets._  
-   The new **tablet** is slightly ______ (fast) than my old one, **Lola**.  
+   The new **tablet** is slightly ______ (fast) than my old one, **Akmal**.  
    key: faster  
    why: After slightly, use the comparative: faster.
 
 19. _Write the comparative of the adjective in brackets._  
-   Your **yard** is slightly ______ (big) than ours, **Lola**.  
+   Your **yard** is slightly ______ (big) than ours, **Akmal**.  
    key: bigger  
    why: After slightly, use the comparative: bigger.
 
 20. _Write the comparative of the adjective in brackets._  
-   The water in the **river** is slightly ______ (cold) today than yesterday, **Timur**.  
+   The water in the **river** is slightly ______ (cold) today than yesterday, **Nodira**.  
    key: colder  
    why: After slightly, use the comparative: colder.
 
 ## transform (15)
 
 1. _The numbers are close. Rewrite with slightly and a comparative._  
-   My **jacket** cost 500,000 soum. Yours cost 510,000, **Aziz**.  
-   → Your **jacket** was ______ than mine, **Aziz**.  
+   My **jacket** cost 500,000 soum. Yours cost 510,000, **Zarina**.  
+   → Your **jacket** was ______ than mine, **Zarina**.  
    key: slightly more expensive  
    why: A small difference: slightly + comparative, slightly more expensive.
 
 2. _The numbers are close. Rewrite with slightly and a comparative._  
-   I'm 1.60 m. My **cousin** is 1.62 m, **Olga**.  
-   → My **cousin** is ______ than me, **Olga**.  
+   I'm 1.60 m. My **cousin** is 1.62 m, **Sherzod**.  
+   → My **cousin** is ______ than me, **Sherzod**.  
    key: slightly taller  
    why: A small difference: slightly + comparative, slightly taller.
 
 3. _The numbers are close. Rewrite with slightly and a comparative._  
-   Today it's 15 degrees in **Tashkent**. Yesterday it was 14, **Olga**.  
-   → Today it's ______ than yesterday, **Olga**.  
+   Today it's 15 degrees in **Tashkent**. Yesterday it was 14, **Sherzod**.  
+   → Today it's ______ than yesterday, **Sherzod**.  
    key: slightly warmer  
    why: A small difference: slightly + comparative, slightly warmer.
 
 4. _The numbers are close. Rewrite with slightly and a comparative._  
-   The **car** takes 40 minutes. The train takes 38, **Timur**.  
-   → The train is ______ than the **car**, **Timur**.  
+   The **car** takes 40 minutes. The train takes 38, **Nodira**.  
+   → The train is ______ than the **car**, **Nodira**.  
    key: slightly faster  
    why: A small difference: slightly + comparative, slightly faster.
 
 5. _The numbers are close. Rewrite with slightly and a comparative._  
-   My **bag** is 10 kg. **Lola**'s **bag** is 11 kg.  
-   → **Lola**'s **bag** is ______ than mine.  
+   My **bag** is 10 kg. **Akmal**'s **bag** is 11 kg.  
+   → **Akmal**'s **bag** is ______ than mine.  
    key: slightly heavier  
    why: A small difference: slightly + comparative, slightly heavier.
 
 6. _Rewrite with slightly instead of a bit or a little._  
-   This **shirt** is a bit cheaper than that one, **Olga**.  
-   → This **shirt** is ______ than that one, **Olga**.  
+   This **shirt** is a bit cheaper than that one, **Sherzod**.  
+   → This **shirt** is ______ than that one, **Sherzod**.  
    key: slightly cheaper  
    why: A small difference: slightly + comparative, slightly cheaper.
 
 7. _Rewrite with slightly instead of a bit or a little._  
-   The second **quiz** was a little more difficult, **Olga**.  
-   → The second **quiz** was ______, **Olga**.  
+   The second **quiz** was a little more difficult, **Sherzod**.  
+   → The second **quiz** was ______, **Sherzod**.  
    key: slightly more difficult  
    why: A small difference: slightly + comparative, slightly more difficult.
 
 8. _Rewrite with slightly instead of a bit or a little._  
-   It's a bit colder in the **bedroom** than in the kitchen, **Lola**.  
-   → It's ______ in the **bedroom** than in the kitchen, **Lola**.  
+   It's a bit colder in the **bedroom** than in the kitchen, **Akmal**.  
+   → It's ______ in the **bedroom** than in the kitchen, **Akmal**.  
    key: slightly colder  
    why: A small difference: slightly + comparative, slightly colder.
 
 9. _Rewrite with slightly instead of a bit or a little._  
-   My **uncle** is a little older than my father, **Lola**.  
-   → My **uncle** is ______ than my father, **Lola**.  
+   My **uncle** is a little older than my father, **Akmal**.  
+   → My **uncle** is ______ than my father, **Akmal**.  
    key: slightly older  
    why: A small difference: slightly + comparative, slightly older.
 
 10. _Rewrite with slightly instead of a bit or a little._  
-   Our new **office** is a bit quieter, **Olga**.  
-   → Our new **office** is ______, **Olga**.  
+   Our new **office** is a bit quieter, **Sherzod**.  
+   → Our new **office** is ______, **Sherzod**.  
    key: slightly quieter  
    why: A small difference: slightly + comparative, slightly quieter.
 
 11. _Correct the mistake._  
-   This **bag** is slightly more cheaper than that one, **Lola**.  
-   → This **bag** is ______ than that one, **Lola**.  
+   This **bag** is slightly more cheaper than that one, **Akmal**.  
+   → This **bag** is ______ than that one, **Akmal**.  
    key: slightly cheaper  
    why: A small difference: slightly + comparative, slightly cheaper.
 
 12. _Correct the mistake._  
-   Today is very warmer than **on Sunday**, but only a little, **Olga**.  
-   → Today is ______ than **on Sunday**, **Olga**.  
+   Today is very warmer than **on Sunday**, but only a little, **Sherzod**.  
+   → Today is ______ than **on Sunday**, **Sherzod**.  
    key: slightly warmer  
    why: A small difference: slightly + comparative, slightly warmer.
 
 13. _Correct the mistake._  
-   The new **sofa** is slightly comfortable than the old one, **Aziz**.  
-   → The new **sofa** is ______ than the old one, **Aziz**.  
+   The new **sofa** is slightly comfortable than the old one, **Zarina**.  
+   → The new **sofa** is ______ than the old one, **Zarina**.  
    key: slightly more comfortable  
    why: A small difference: slightly + comparative, slightly more comfortable.
 
 14. _Correct the mistake._  
-   My **friend** is slightly most tall than me, **Timur**.  
-   → My **friend** is ______ than me, **Timur**.  
+   My **friend** is slightly most tall than me, **Nodira**.  
+   → My **friend** is ______ than me, **Nodira**.  
    key: slightly taller  
    why: A small difference: slightly + comparative, slightly taller.
 
 15. _Correct the mistake._  
-   The **film** started slightly lately than usual, **Lola**.  
-   → The **film** started ______ than usual, **Lola**.  
+   The **film** started slightly lately than usual, **Akmal**.  
+   → The **film** started ______ than usual, **Akmal**.  
    key: slightly later  
    why: A small difference: slightly + comparative, slightly later.
 

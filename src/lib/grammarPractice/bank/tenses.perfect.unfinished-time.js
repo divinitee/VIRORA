@@ -191,10 +191,10 @@ export default [
     "spring"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -345,10 +345,10 @@ export default [
     "five"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -377,10 +377,10 @@ export default [
     "away game"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -511,10 +511,10 @@ export default [
     "this weekend"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -627,10 +627,10 @@ export default [
     "three hundred"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -654,10 +654,10 @@ export default [
     "five"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -807,10 +807,10 @@ export default [
     "term"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -874,10 +874,10 @@ export default [
   "why": "So far / up to now means the time is not finished yet, so use the present perfect: has sent.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ],
    "n": [
     "ten",
@@ -1051,10 +1051,10 @@ export default [
     "bread and honey"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1072,10 +1072,10 @@ export default [
   "why": "That part of the day is over now, so use the past simple: called.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1148,10 +1148,10 @@ export default [
     "five"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1197,10 +1197,10 @@ export default [
   "why": "So far / up to now means the time is not finished yet, so use the present perfect: has made.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ],
    "n": [
     "two",
@@ -1258,10 +1258,10 @@ export default [
     "five"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1286,10 +1286,10 @@ export default [
     "six"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1308,10 +1308,10 @@ export default [
   "why": "Up to now needs the present perfect: has visited.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ],
    "period": [
     "week",
@@ -1363,10 +1363,10 @@ export default [
     "away game"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1385,10 +1385,10 @@ export default [
   "why": "So far needs the present perfect: hasn't called.",
   "slots": {
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ],
    "period": [
     "today",
@@ -1422,10 +1422,10 @@ export default [
     "photos"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1477,10 +1477,10 @@ export default [
     "phrases"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   },
   "acceptable": [
@@ -1507,10 +1507,10 @@ export default [
     "spring"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
@@ -1535,10 +1535,10 @@ export default [
     "finals"
    ],
    "name": [
-    "Aziz",
-    "Olga",
-    "Timur",
-    "Lola"
+    "Malika",
+    "Ulugbek",
+    "Gulnora",
+    "Jamshid"
    ]
   }
  },
