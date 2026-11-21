@@ -30,11 +30,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. The box was tied ______ **ribbon**, **Gulnora**.  
    options: from · of · by · ✔ with  
-   why: Rope is the thing used: with.
+   why: The material used to tie it: with.
 
 8. The photo was taken ______ an old **phone** by my **uncle**.  
    options: of · by · ✔ with · from  
-   why: A camera is a tool: with; my …: by.
+   why: A tool for photos: with; my … is the doer: by.
 
 9. The tree was cut down ______ a **big saw** by the **farmer**.  
    options: by · ✔ with · from · of  
@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Write by (who did it) or with (what they used)._  
    The bread was cut ______ a **knife**, **Ulugbek**.  
    key: with  
-   why: Knife-like tool → with.
+   why: A cutting tool did the work → with.
 
 3. _Write by (who did it) or with (what they used)._  
    The picture was drawn ______ a **pencil**, **Ulugbek**.  
@@ -129,7 +129,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 9. _Write by (who did it) or with (what they used)._  
    The book was written ______ a young **writer** from **Bukhara**.  
    key: by  
-   why: Writer (a person) → by.
+   why: The author is a person → by.
 
 10. _Write by (who did it) or with (what they used)._  
    The cake was made ______ my **sister**, **Malika**.  
@@ -174,7 +174,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Write by (who did it) or with (what they used)._  
    The window was cleaned ______ the **girl** with a cloth, **Ulugbek**.  
    key: by  
-   why: Cleaner (a person) → by; cloth → with.
+   why: A person cleaned it → by; the cloth → with.
 
 19. _Write by (who did it) or with (what they used)._  
    The tree was cut down ______ a **small saw**, **Ulugbek**.  

@@ -209,7 +209,7 @@ export default [
    "with"
   ],
   "key": 3,
-  "why": "Rope is the thing used: with.",
+  "why": "The material used to tie it: with.",
   "slots": {
    "rope": [
     "string",
@@ -241,7 +241,7 @@ export default [
    "from"
   ],
   "key": 2,
-  "why": "A camera is a tool: with; my …: by.",
+  "why": "A tool for photos: with; my … is the doer: by.",
   "slots": {
    "camera": [
     "camera",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The bread was cut ______ a {knife}, {name}.",
   "key": "with",
-  "why": "Knife-like tool → with.",
+  "why": "A cutting tool did the work → with.",
   "slots": {
    "knife": [
     "knife",
@@ -868,7 +868,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The book was written ______ a young {who} from {city}.",
   "key": "by",
-  "why": "Writer (a person) → by.",
+  "why": "The author is a person → by.",
   "slots": {
    "who": [
     "writer",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The window was cleaned ______ the {who} with a cloth, {name}.",
   "key": "by",
-  "why": "Cleaner (a person) → by; cloth → with.",
+  "why": "A person cleaned it → by; the cloth → with.",
   "slots": {
    "who": [
     "cleaner",

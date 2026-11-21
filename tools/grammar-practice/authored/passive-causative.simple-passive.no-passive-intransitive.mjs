@@ -133,5 +133,127 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/passive-causative.simple-passive.no-passive-intransitive.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "happen has no object, so no passive: happened.",
+   "arrive has no object: arrived.",
+   "die has no object: died.",
+   "fall has no object: fell.",
+   "disappear has no object: disappeared.",
+   "come has no object: came.",
+   "sleep has no object: slept.",
+   "go out has no object: went.",
+   "stay has no object: stayed.",
+   "appear has no object: appeared.",
+   "laugh (at) has no passive here: laughed.",
+   "wait has no object: waited.",
+   "stop by itself, no doer: stopped.",
+   "occur has no object: occurred.",
+   "Someone built it: passive was built.",
+   "Someone stole it: passive was stolen.",
+   "Someone invited them: passive were invited.",
+   "Someone cancelled it: passive was cancelled.",
+   "Someone took them: passive were taken.",
+   "Someone found it: passive was found."
+  ],
+  "build": [
+   "Active only: happen → happened.",
+   "Active only: arrive → arrived.",
+   "Active only: die → died.",
+   "Active only: fall → fell (irregular).",
+   "Active only: disappear → disappeared.",
+   "Active only: come → came (irregular).",
+   "Active only: sleep → slept (irregular).",
+   "Active only: go up → went up.",
+   "Active only: stay → stayed.",
+   "Active only: appear → appeared.",
+   "Active only: wait → waited.",
+   "Active only: occur → occurred (double r).",
+   "Weather verb, active: rain → rained.",
+   "Active only: stop → stopped (double p).",
+   "Someone built it: was built.",
+   "Someone stole it: was stolen.",
+   "Someone invited them, plural: were invited.",
+   "Someone took him: was taken.",
+   "Someone found it: was found.",
+   "My grandmother made it: was made."
+  ],
+  "transform": [
+   "No was with happen: happened.",
+   "No was with arrive: arrived.",
+   "No was with die: died.",
+   "No was with fall: fell.",
+   "No was with disappear: disappeared.",
+   "Someone stole → was stolen.",
+   "They built → was built.",
+   "Someone found → was found.",
+   "They invited → were invited.",
+   "Someone opened → was opened.",
+   "Past time (Yesterday): arrived.",
+   "Past time (On Friday): came.",
+   "Past time (Last night): slept.",
+   "Past time (Last week): happened.",
+   "Past time (Last year): stayed."
+  ]
+ },
+ "slot": [
+  [
+   "transform",
+   1,
+   "six",
+   "h",
+   [
+    "six",
+    "seven",
+    "noon",
+    "midnight"
+   ]
+  ],
+  [
+   "transform",
+   12,
+   "six",
+   "h",
+   [
+    "six",
+    "seven",
+    "noon",
+    "eight"
+   ]
+  ],
+  [
+   "transform",
+   15,
+   "hotel",
+   "stay",
+   [
+    "hotel",
+    "guesthouse",
+    "hostel",
+    "old house"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
