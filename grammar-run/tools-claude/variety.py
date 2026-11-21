@@ -3,6 +3,7 @@
 #   python3 grammar-run/tools-claude/variety.py <topic-key> <spec.json>
 # spec = {"why": {"choose": [...20], "build": [...20], "transform": [...15]},
 #         "slot": [["choose", 3, "word", "slotname", ["v1","v2","v3","v4"]], ...]}
+# A slot entry with word "" adds the values to the existing slot "slotname" instead.
 # Inserts a VARIETY block just before the topic's writeFileSync(out, ...). Whys are set by
 # position in each stage ("" keeps the old one). A slot entry replaces the whole word
 # "word" in that item's prompt / source / hint with {slotname} and adds the values.
@@ -26,6 +27,7 @@ block = (
     "  }\n"
     "  for (const [st, n, word, name, vals] of VARIETY.slot || []) {\n"
     "    const it = byStage(st)[n - 1];\n"
+    "    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }\n"
     "    const re = new RegExp(`(?<![\\\\w{])${word.replace(/[.*+?^${}()|[\\]\\\\]/g, \"\\\\$&\")}(?![\\\\w}])`, \"g\");\n"
     "    let hit = false;\n"
     "    for (const f of [\"prompt\", \"source\", \"hint\"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }\n"
