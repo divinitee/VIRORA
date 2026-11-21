@@ -149,5 +149,89 @@ for (const [st, m, acc] of AUDIT_ACC) {
   for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
 }
 const out = "content/grammar-practice/questions-negation.indirect-questions.embedded-if-whether.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Yes/no question inside: if + the bank is.",
+   "Yes/no question inside: if, no does: the train leaves.",
+   "Yes/no question inside: if + my sister is.",
+   "Yes/no inside, no does: if your teacher speaks.",
+   "Yes/no inside, no did: whether she got.",
+   "Yes/no inside: if he is coming, not is he.",
+   "Yes/no inside: if your brother can, not can your brother.",
+   "Yes/no inside, no did: if I passed.",
+   "Yes/no inside: if there is, not is there.",
+   "Yes/no inside: whether it will rain, not will it.",
+   "Yes/no inside, no does: if the price includes.",
+   "Yes/no inside, no does: if the bus stops.",
+   "Yes/no inside, no did: whether I left.",
+   "Yes/no inside: if your cousin is, not is your cousin.",
+   "Yes/no inside: if there are, not are there.",
+   "Yes/no inside: if the teacher has read, not has the teacher.",
+   "Yes/no inside, no did: if you locked.",
+   "Yes/no inside: if I can pay, not can I pay.",
+   "Yes/no inside: whether they are coming.",
+   "Yes/no inside, no does: if your grandmother understands."
+  ],
+  "build": [
+   "\"every day\", the bus: stops.",
+   "\"usually\", the shop: is.",
+   "Past (Grandma, …): called.",
+   "\"still\", your brother: works.",
+   "Past, they: were.",
+   "\"usually\", your sister: likes.",
+   "Past, it: rained.",
+   "\"this morning\" is past: locked.",
+   "\"every day\", the shop: opens.",
+   "One hotel, present: has.",
+   "\"yesterday\": started.",
+   "\"last …\": came.",
+   "\"usually\", they: sell (no -s).",
+   "\"last night\": checked.",
+   "\"every hour\", this bus: goes.",
+   "\"yesterday\", the exam: was.",
+   "\"last week\": enjoyed.",
+   "On a weekday, the museum: is.",
+   "\"at home\" (habit), your teacher: speaks.",
+   "\"yesterday\": understood."
+  ],
+  "transform": [
+   "Is the bank open? → if the bank is open.",
+   "Does your friend eat? → if your friend eats.",
+   "Is your sister at home? → if your sister is at home.",
+   "Do they live? → if they live.",
+   "Does the museum close? → if the museum closes.",
+   "Did you finish? → if you finished.",
+   "Can we sit? → if we can sit.",
+   "Will the bus come? → if the bus will come.",
+   "Has … started? → if … has started.",
+   "Did Grandma get? → if Grandma got.",
+   "Add if, then statement order: if the shop is.",
+   "Add if, drop does: if this train stops.",
+   "After if: she is, not is she.",
+   "After if: no did: they won.",
+   "After if: I can, not can I."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

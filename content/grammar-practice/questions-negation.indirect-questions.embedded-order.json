@@ -731,7 +731,7 @@
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Could you tell me where you ______ (be) {when}, {name}?",
   "key": "were",
-  "why": "Past, you: were.",
+  "why": "Past time, and the subject is you: were.",
   "slots": {
    "when": [
     "yesterday",
