@@ -113,7 +113,7 @@ export default [
    "try on they"
   ],
   "key": 1,
-  "why": "try them on: pronoun in the middle.",
+  "why": "\"these …\" → them, and them goes in the middle: try them on.",
   "slots": {
    "thing": [
     "shoes",
@@ -145,7 +145,7 @@ export default [
    "wake me up me"
   ],
   "key": 0,
-  "why": "wake me up: pronoun in the middle.",
+  "why": "Me is a pronoun, so it sits inside: wake me up.",
   "slots": {
    "event": [
     "flight",
@@ -177,7 +177,7 @@ export default [
    "turn it off"
   ],
   "key": 3,
-  "why": "turn it off: pronoun in the middle.",
+  "why": "\"the …\" → it, inside the verb: turn it off.",
   "slots": {
    "thing": [
     "TV",
@@ -241,7 +241,7 @@ export default [
    "throw away they"
   ],
   "key": 1,
-  "why": "throw them away: pronoun in the middle.",
+  "why": "\"These …\" → them, inside: throw them away.",
   "slots": {
    "food": [
     "biscuits",
@@ -273,7 +273,7 @@ export default [
    "write it down it"
   ],
   "key": 0,
-  "why": "write it down: pronoun in the middle.",
+  "why": "\"my new …\" → it, inside: write it down.",
   "slots": {
    "thing": [
     "phone number",
@@ -305,7 +305,7 @@ export default [
    "fill it in"
   ],
   "key": 3,
-  "why": "fill it in: pronoun in the middle.",
+  "why": "\"the …\" (a form) → it, inside: fill it in.",
   "slots": {
    "doc": [
     "form",
@@ -369,7 +369,7 @@ export default [
    "Put away they"
   ],
   "key": 1,
-  "why": "put them away: pronoun in the middle.",
+  "why": "\"Your toys\" → them, inside: Put them away.",
   "slots": {
    "room": [
     "floor",
@@ -465,7 +465,7 @@ export default [
    "look up it"
   ],
   "key": 2,
-  "why": "look it up: pronoun in the middle.",
+  "why": "\"this word\" → it, inside: look it up.",
   "slots": {
    "thing": [
     "dictionary",
@@ -497,7 +497,7 @@ export default [
    "switch off it off"
   ],
   "key": 1,
-  "why": "switch it off: pronoun in the middle.",
+  "why": "\"The …\" → it, inside: switch it off.",
   "slots": {
    "thing": [
     "fan",
@@ -593,7 +593,7 @@ export default [
    "turn up it"
   ],
   "key": 2,
-  "why": "turn it up: pronoun in the middle.",
+  "why": "\"the …\" → it, inside: turn it up.",
   "slots": {
    "thing": [
     "radio",
@@ -745,7 +745,7 @@ export default [
    "them",
    "on"
   ],
-  "why": "try them on: pronoun in the middle.",
+  "why": "Pronoun them before on: them, on.",
   "slots": {
    "thing": [
     "shoes",
@@ -775,7 +775,7 @@ export default [
    "me",
    "up"
   ],
-  "why": "wake me up: pronoun in the middle.",
+  "why": "Pronoun me before up: me, up.",
   "slots": {
    "event": [
     "flight",
@@ -805,7 +805,7 @@ export default [
    "it",
    "off"
   ],
-  "why": "turn it off: pronoun in the middle.",
+  "why": "Pronoun it before off: it, off.",
   "slots": {
    "thing": [
     "TV",
@@ -865,7 +865,7 @@ export default [
    "them",
    "away"
   ],
-  "why": "throw them away: pronoun in the middle.",
+  "why": "Pronoun them before away: them, away.",
   "slots": {
    "thing": [
     "toys",
@@ -895,7 +895,7 @@ export default [
    "it",
    "down"
   ],
-  "why": "write it down: pronoun in the middle.",
+  "why": "Pronoun it before down: it, down.",
   "slots": {
    "place": [
     "hotel",
@@ -925,7 +925,7 @@ export default [
    "it",
    "in"
   ],
-  "why": "fill it in: pronoun in the middle.",
+  "why": "Pronoun it before in: it, in.",
   "slots": {
    "doc": [
     "form",
@@ -985,7 +985,7 @@ export default [
    "them",
    "away"
   ],
-  "why": "put them away: pronoun in the middle.",
+  "why": "Pronoun them before away: them, away (clothes).",
   "slots": {
    "place": [
     "floor",
@@ -1075,7 +1075,7 @@ export default [
    "it",
    "up"
   ],
-  "why": "look it up: pronoun in the middle.",
+  "why": "Pronoun it before up: it, up.",
   "slots": {
    "thing": [
     "dictionary",
@@ -1135,7 +1135,7 @@ export default [
    "it",
    "up"
   ],
-  "why": "turn it up: pronoun in the middle.",
+  "why": "Pronoun it before up (louder): it, up.",
   "slots": {
    "thing": [
     "song",
@@ -1225,7 +1225,7 @@ export default [
    "it",
    "off"
   ],
-  "why": "switch it off: pronoun in the middle.",
+  "why": "Pronoun it before off (switch): it, off.",
   "slots": {
    "thing": [
     "fan",
