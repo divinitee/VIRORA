@@ -144,5 +144,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/pronouns.substitution.the-other-others.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Two brothers: one …, the second one: the other.",
+   "Two pets: one black, the last one: the other.",
+   "Two shops: one open, the second one: the other.",
+   "A pair: one found, the missing one: the other.",
+   "Two hands: one holds, the second one: the other.",
+   "Two bedrooms: this one and the second one: the other.",
+   "Two people: one cousin, the second one: the other.",
+   "A road has two sides: the opposite one: the other.",
+   "Two parents: one …, the second one: the other.",
+   "Two cafés: one cheap, the second one: the other.",
+   "\"Only you are here\": all the rest of the group: the others.",
+   "Five, I ate one: all the rest: the others.",
+   "I kept one: all the rest: the others.",
+   "Six, this one is new: all the rest: the others.",
+   "Three failed: all the rest of the ten: the others.",
+   "Two of us here: all the rest: the others.",
+   "One came on time: all the rest of my friends: the others.",
+   "Plural noun teams after it: the other, no -s.",
+   "Plural noun students after it: the other, no -s.",
+   "Plural noun ones after it: the other."
+  ],
+  "build": [
+   "Two siblings: one …, the second one: the other.",
+   "A pair of shoes: the second one: the other.",
+   "Two gates: this one closed, the second one: the other.",
+   "Two hotels: one cheap, the second one: the other.",
+   "Two hands: my right one, the second one: the other.",
+   "Two houses: one in the city, the second one: the other.",
+   "Two people: my aunt, the second one: the other.",
+   "Two banks: ours, the second one: the other.",
+   "Two eyes: one closed, the second one: the other.",
+   "Plural noun passengers after it: the other.",
+   "Plural noun students after it: the other.",
+   "Plural noun windows after it: the other.",
+   "No noun after it: the rest of the people: the others.",
+   "No noun after it: the four I haven't found: the others.",
+   "No noun after it: all the rest of the boxes: the others.",
+   "No noun after it: the rest of them: the others.",
+   "No noun after it: the people not here yet: the others.",
+   "No noun after it: the rest of the photos: the others.",
+   "No noun after it: the rest of my friends: the others.",
+   "No noun after it: the rest of the fruit: the others."
+  ],
+  "transform": [
+   "The second of two: the other, not another.",
+   "No noun after it: the others, with the.",
+   "After the: other, not another.",
+   "Before a noun: the other bags, no -s.",
+   "No noun after it: the others, with -s.",
+   "The second of two = the other.",
+   "The second of two doors = the other door.",
+   "The second of two cars = the other.",
+   "The second of two phones = the other.",
+   "The second of two girls = the other.",
+   "\"the rest went home\" = the others went home.",
+   "\"Where are the rest?\" = Where are the others?",
+   "\"the rest ate soup\" = the others ate soup.",
+   "\"The rest are dark\" = The others are dark.",
+   "\"the rest failed\" = the others failed."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);
