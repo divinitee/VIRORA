@@ -66,11 +66,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 16. There is ______ any **milk** left, **Timur**. Can you buy some?  
    options: any · no · ✔ not · none  
-   why: Before any: not any.
+   why: "any bread" after the gap: not.
 
 17. I have ______ any homework **today**, **Lola**.  
    options: no · ✔ not · none · any  
-   why: Before any: not any.
+   why: "any homework" after the gap: not.
 
 18. **Lola** is ______ at home. She's at the **bazaar**.  
    options: ✔ not · none · any · no  
@@ -82,7 +82,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 20. There were ______ any taxis at the **station**, so we **stayed**.  
    options: any · no · ✔ not · none  
-   why: Before any: not any.
+   why: "any taxis" after the gap: not.
 
 ## build (20)
 
@@ -119,67 +119,67 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Write no or not._  
    There's ______ wifi in this **room**, **Aziz**.  
    key: no  
-   why: Noun after the gap (questions): no.
+   why: Noun after the gap (wifi): no.
 
 8. _Write no or not._  
    I have ______ **problems**, **Aziz**. Everything is clear.  
    key: no  
-   why: Noun after the gap (eggs): no.
+   why: Noun after the gap (questions): no.
 
 9. _Write no or not._  
    There were ______ eggs at the **bazaar**, **Aziz**.  
    key: no  
-   why: Noun after the gap (car): no.
+   why: Noun after the gap (eggs): no.
 
 10. _Write no or not._  
    My **brother** has ______ car, so he goes by **metro**.  
    key: no  
-   why: Adjective after the gap (open): not.
+   why: Noun after the gap (car): no.
 
 11. _Write no or not._  
    The museum is ______ open on **holidays**, **Lola**.  
    key: not  
-   why: Adjective after the gap (hungry): not.
+   why: Adjective after the gap (open): not.
 
 12. _Write no or not._  
    I'm ______ hungry, **Olga**. I had a big **breakfast**.  
    key: not  
-   why: any after the gap: not any.
+   why: Adjective after the gap (hungry): not.
 
 13. _Write no or not._  
    There's ______ any **milk** left, **Olga**.  
    key: not  
-   why: any after the gap: not any.
+   why: "any juice" after the gap: not.
 
 14. _Write no or not._  
    We have ______ any lessons on **Independence Day**, **Olga**.  
    key: not  
-   why: Place after the gap (here): not.
+   why: "any lessons" after the gap: not.
 
 15. _Write no or not._  
    **Timur** is ______ here. He's at the **bank**.  
    key: not  
-   why: Adjective after the gap (cold): not.
+   why: Place word after the gap (here): not.
 
 16. _Write no or not._  
    It's ______ cold today, **Aziz**. You don't need a **scarf**.  
    key: not  
-   why: Adjective after the gap (difficult): not.
+   why: Adjective after the gap (cold): not.
 
 17. _Write no or not._  
    The test was ______ difficult, **Aziz**. I finished it in **fifteen** minutes.  
    key: not  
-   why: -ing after the gap (working): not.
+   why: Adjective after the gap (difficult): not.
 
 18. _Write no or not._  
    My **charger** is ______ working, **Lola**. Can I use yours?  
    key: not  
-   why: any after the gap: not any.
+   why: -ing after the gap (working): not.
 
 19. _Write no or not._  
    There were ______ any free seats, so we sat on the **steps**.  
    key: not  
-   why: No free seats: not any + plural noun: not.
+   why: "any free seats" after the gap: not.
 
 20. _Write no or not._  
    The **tram** is ______ late today, **Lola**. It's on time.  
@@ -246,7 +246,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I have no plans for the **holidays**, **Lola**.  
    → I do ______ have ______ plans for the **holidays**, **Lola**.  
    key: not + any  
-   why: have no = do not have any.
+   why: I have no plans = I do not have any plans.
 
 11. _Correct the mistake._  
    There is no any milk in the **kitchen**, **Olga**.  
@@ -258,7 +258,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I have not money for the **ticket**, **Lola**.  
    → I have ______ money for the **ticket**, **Lola**.  
    key: no  
-   why: Before a noun: no, not not.
+   why: Before a noun (money): no, not not.
 
 13. _Correct the mistake._  
    The shop is no open on **Navruz**, **Olga**.  
@@ -270,7 +270,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We have not time for **breakfast**, **Aziz**.  
    → We have ______ time for **breakfast**, **Aziz**.  
    key: no  
-   why: Before a noun: no, not not.
+   why: Before a noun (time): no, not not.
 
 15. _Correct the mistake._  
    My sister is no at home **this week**, **Timur**.  

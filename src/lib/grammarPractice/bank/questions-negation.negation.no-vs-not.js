@@ -497,7 +497,7 @@ export default [
    "none"
   ],
   "key": 2,
-  "why": "Before any: not any.",
+  "why": "\"any bread\" after the gap: not.",
   "slots": {
    "name": [
     "Aziz",
@@ -529,7 +529,7 @@ export default [
    "any"
   ],
   "key": 1,
-  "why": "Before any: not any.",
+  "why": "\"any homework\" after the gap: not.",
   "slots": {
    "when": [
     "today",
@@ -625,7 +625,7 @@ export default [
    "none"
   ],
   "key": 2,
-  "why": "Before any: not any.",
+  "why": "\"any taxis\" after the gap: not.",
   "slots": {
    "place": [
     "station",
@@ -808,7 +808,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There's ______ wifi in this {place}, {name}.",
   "key": "no",
-  "why": "Noun after the gap (questions): no.",
+  "why": "Noun after the gap (wifi): no.",
   "slots": {
    "place": [
     "café",
@@ -835,7 +835,7 @@ export default [
   "instr": "Write no or not.",
   "source": "I have ______ {what}, {name}. Everything is clear.",
   "key": "no",
-  "why": "Noun after the gap (eggs): no.",
+  "why": "Noun after the gap (questions): no.",
   "slots": {
    "name": [
     "Aziz",
@@ -862,7 +862,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There were ______ eggs at the {shop}, {name}.",
   "key": "no",
-  "why": "Noun after the gap (car): no.",
+  "why": "Noun after the gap (eggs): no.",
   "slots": {
    "shop": [
     "bazaar",
@@ -889,7 +889,7 @@ export default [
   "instr": "Write no or not.",
   "source": "My {rel} has ______ car, so he goes by {transport}.",
   "key": "no",
-  "why": "Adjective after the gap (open): not.",
+  "why": "Noun after the gap (car): no.",
   "slots": {
    "transport": [
     "bus",
@@ -916,7 +916,7 @@ export default [
   "instr": "Write no or not.",
   "source": "The museum is ______ open on {day}, {name}.",
   "key": "not",
-  "why": "Adjective after the gap (hungry): not.",
+  "why": "Adjective after the gap (open): not.",
   "slots": {
    "day": [
     "Mondays",
@@ -943,7 +943,7 @@ export default [
   "instr": "Write no or not.",
   "source": "I'm ______ hungry, {name}. I had a big {meal}.",
   "key": "not",
-  "why": "any after the gap: not any.",
+  "why": "Adjective after the gap (hungry): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -970,7 +970,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There's ______ any {drink} left, {name}.",
   "key": "not",
-  "why": "any after the gap: not any.",
+  "why": "\"any juice\" after the gap: not.",
   "slots": {
    "name": [
     "Aziz",
@@ -997,7 +997,7 @@ export default [
   "instr": "Write no or not.",
   "source": "We have ______ any lessons on {day}, {name}.",
   "key": "not",
-  "why": "Place after the gap (here): not.",
+  "why": "\"any lessons\" after the gap: not.",
   "slots": {
    "day": [
     "Sunday",
@@ -1024,7 +1024,7 @@ export default [
   "instr": "Write no or not.",
   "source": "{name} is ______ here. He's at the {place}.",
   "key": "not",
-  "why": "Adjective after the gap (cold): not.",
+  "why": "Place word after the gap (here): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -1051,7 +1051,7 @@ export default [
   "instr": "Write no or not.",
   "source": "It's ______ cold today, {name}. You don't need a {thing}.",
   "key": "not",
-  "why": "Adjective after the gap (difficult): not.",
+  "why": "Adjective after the gap (cold): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -1078,7 +1078,7 @@ export default [
   "instr": "Write no or not.",
   "source": "The test was ______ difficult, {name}. I finished it in {n} minutes.",
   "key": "not",
-  "why": "-ing after the gap (working): not.",
+  "why": "Adjective after the gap (difficult): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -1105,7 +1105,7 @@ export default [
   "instr": "Write no or not.",
   "source": "My {dev} is ______ working, {name}. Can I use yours?",
   "key": "not",
-  "why": "any after the gap: not any.",
+  "why": "-ing after the gap (working): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -1132,7 +1132,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There were ______ any free seats, so we sat on the {place}.",
   "key": "not",
-  "why": "No free seats: not any + plural noun: not.",
+  "why": "\"any free seats\" after the gap: not.",
   "slots": {
    "place": [
     "floor",
@@ -1448,7 +1448,7 @@ export default [
    "not",
    "any"
   ],
-  "why": "have no = do not have any.",
+  "why": "I have no plans = I do not have any plans.",
   "slots": {
    "when": [
     "weekend",
@@ -1504,7 +1504,7 @@ export default [
   "source": "I have not money for the {thing}, {name}.",
   "hint": "I have ______ money for the {thing}, {name}.",
   "key": "no",
-  "why": "Before a noun: no, not not.",
+  "why": "Before a noun (money): no, not not.",
   "slots": {
    "thing": [
     "ticket",
@@ -1560,7 +1560,7 @@ export default [
   "source": "We have not time for {meal}, {name}.",
   "hint": "We have ______ time for {meal}, {name}.",
   "key": "no",
-  "why": "Before a noun: no, not not.",
+  "why": "Before a noun (time): no, not not.",
   "slots": {
    "meal": [
     "breakfast",
