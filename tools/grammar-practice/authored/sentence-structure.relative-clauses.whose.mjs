@@ -55,7 +55,7 @@ const CHOOSE = [
   ["t", "We stayed in a hotel ______ rooms had a view of the {view}, {name}.", { view: ["river", "park", "mountains", "old town"], name: NAME }],
   ["t", "I bought a {thing} ______ battery lasts two days, {name}.", { thing: ["phone", "watch", "laptop", "tablet"], name: NAME }],
   ["t", "It's a {place} ______ name I can never remember, {name}.", { place: ["café", "village", "street", "shop"], name: NAME }],
-  ["t", "They live in a {building} in {city} ______ roof is green.", { building: ["house", "building", "cottage", "villa"], city: CITY }],
+  ["t", "In {city} they live in a {building} ______ roof is green.", { building: ["house", "building", "cottage", "villa"], city: CITY }],
   ["w", "The woman ______ lives above us is a {job}, {name}.", { job: JOB, name: NAME }],
   ["w", "I have a cousin ______ works at the {place}, {name}.", { place: ["bank", "airport", "hospital", "hotel"], name: NAME }],
   ["w", "The boy ______ won the {comp} is only ten, {name}.", { comp: ["race", "quiz", "match", "contest"], name: NAME }],
@@ -99,7 +99,7 @@ const TRANSFORM = [
   // join with whose (5)
   [JOIN, "I have a friend. His father is a {job}, {name}.", "I have a friend ______ father is a {job}, {name}.", "whose", { job: JOB, name: NAME }],
   [JOIN, "This is {name}. Her brother lives in {city}.", "This is {name}, ______ brother lives in {city}.", "whose", { name: NAMEF, city: CITY }],
-  [JOIN, "We visited a {place} in {city}. Its walls are very old.", "We visited a {place} in {city} ______ walls are very old.", "whose", { place: ["museum", "palace", "castle", "library"], city: CITY }],
+  [JOIN, "In {city} we visited a {place}. Its walls are very old.", "In {city} we visited a {place} ______ walls are very old.", "whose", { place: ["museum", "palace", "castle", "library"], city: CITY }],
   [JOIN, "I met a girl. Her parents own a {shop}, {name}.", "I met a girl ______ parents own a {shop}, {name}.", "whose", { shop: ["café", "bakery", "shop", "hotel"], name: NAME }],
   [JOIN, "That's the boy. I found his {thing} {when}.", "That's the boy ______ {thing} I found {when}.", "whose", { thing: ["phone", "wallet", "keys", "bag"], when: PAST }],
   // correct (5)
