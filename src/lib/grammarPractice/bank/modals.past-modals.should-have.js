@@ -17,7 +17,7 @@ export default [
    "should has"
   ],
   "key": 0,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "\"Why didn't you say anything?\": it was right to tell: should have.",
   "slots": {
    "problem": [
     "problem",
@@ -49,7 +49,7 @@ export default [
    "should have"
   ],
   "key": 3,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "I failed: more study was the right thing: should have.",
   "slots": {
    "test": [
     "exam",
@@ -81,7 +81,7 @@ export default [
    "should"
   ],
   "key": 2,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "We missed it: leaving earlier was right: should have.",
   "slots": {
    "bus": [
     "bus",
@@ -113,7 +113,7 @@ export default [
    "should had"
   ],
   "key": 1,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "I'm wet: taking one was the right thing: should have.",
   "slots": {
    "place": [
     "bazaar",
@@ -145,7 +145,7 @@ export default [
    "should has"
   ],
   "key": 0,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Closed now: the morning was the right time: should have.",
   "slots": {
    "shop": [
     "bank",
@@ -177,7 +177,7 @@ export default [
    "should have"
   ],
   "key": 3,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "He was rude: saying sorry was right: should have.",
   "slots": {
    "who": [
     "teacher",
@@ -209,7 +209,7 @@ export default [
    "should"
   ],
   "key": 2,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "I'm hungry: breakfast was the right thing: should have.",
   "slots": {
    "event": [
     "exam",
@@ -241,7 +241,7 @@ export default [
    "should had"
   ],
   "key": 1,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "It's burnt: watching it was right: should have.",
   "slots": {
    "food": [
     "plov",
@@ -273,7 +273,7 @@ export default [
    "should has"
   ],
   "key": 0,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "It's dead: charging it was right: should have.",
   "slots": {
    "trip": [
     "trip",
@@ -305,7 +305,7 @@ export default [
    "should have"
   ],
   "key": 3,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Sold out: buying early was right: should have.",
   "slots": {
    "event": [
     "concert",
@@ -337,7 +337,7 @@ export default [
    "should"
   ],
   "key": 2,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "She got lost: asking was right: should have.",
   "slots": {
    "city": [
     "Istanbul",
@@ -369,7 +369,7 @@ export default [
    "should had"
   ],
   "key": 1,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "My feet hurt: better shoes were right: should have.",
   "slots": {
    "event": [
     "wedding",
@@ -401,7 +401,7 @@ export default [
    "should has"
   ],
   "key": 0,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "You didn't call: calling was right: should have.",
   "slots": {
    "who": [
     "Grandma",
@@ -433,7 +433,7 @@ export default [
    "should have"
   ],
   "key": 3,
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Our team lost: that player from the start was right: should have.",
   "slots": {
    "player": [
     "Timur",
@@ -465,7 +465,7 @@ export default [
    "shouldn't"
   ],
   "key": 2,
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "I feel sick: eating so much was a mistake: shouldn't have.",
   "slots": {
    "food": [
     "cake",
@@ -497,7 +497,7 @@ export default [
    "shouldn't had"
   ],
   "key": 1,
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "So tired: going to bed late was a mistake: shouldn't have.",
   "slots": {
    "when": [
     "last night",
@@ -529,7 +529,7 @@ export default [
    "don't should have"
   ],
   "key": 0,
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "\"He was only trying to help\": shouting was wrong: shouldn't have.",
   "slots": {
    "who": [
     "brother",
@@ -561,7 +561,7 @@ export default [
    "shouldn't have"
   ],
   "key": 3,
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "It broke after a week: buying it was a mistake: shouldn't have.",
   "slots": {
    "thing": [
     "phone",
@@ -593,7 +593,7 @@ export default [
    "shouldn't"
   ],
   "key": 2,
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "\"He got a big fine\": driving fast was wrong: shouldn't have.",
   "slots": {
    "road": [
     "motorway",
@@ -625,7 +625,7 @@ export default [
    "shouldn't had"
   ],
   "key": 1,
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "\"Now everyone knows\": telling was a mistake: shouldn't have.",
   "slots": {
    "event": [
     "party",
@@ -652,7 +652,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "I failed the {test}. I ______ (study) more, {name}.",
   "key": "should have studied",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Failed, so: should have studied.",
   "slots": {
    "test": [
     "exam",
@@ -679,7 +679,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "We missed the {bus}. We ______ (leave) earlier, {name}.",
   "key": "should have left",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Missed it, so: should have left (leave → left).",
   "slots": {
    "bus": [
     "bus",
@@ -706,7 +706,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "I'm wet. I ______ (take) an umbrella to the {place}, {name}.",
   "key": "should have taken",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Wet, so: should have taken (take → taken).",
   "slots": {
    "place": [
     "bazaar",
@@ -733,7 +733,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "The {shop} is closed now. You ______ (go) in the morning, {name}.",
   "key": "should have gone",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Closed now, so: should have gone (go → gone).",
   "slots": {
    "shop": [
     "bank",
@@ -760,7 +760,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "He was rude to his {who}. He ______ (say) sorry, {name}.",
   "key": "should have said",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Rude, so: should have said (say → said).",
   "slots": {
    "who": [
     "teacher",
@@ -787,7 +787,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "The {food} is burnt. You ______ (watch) it, {name}.",
   "key": "should have watched",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Burnt, so: should have watched.",
   "slots": {
    "food": [
     "plov",
@@ -814,7 +814,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "My phone is dead. I ______ (charge) it before the {trip}, {name}.",
   "key": "should have charged",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Dead battery, so: should have charged.",
   "slots": {
    "trip": [
     "trip",
@@ -841,7 +841,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "The {event} tickets are sold out. We ______ (buy) them earlier, {name}.",
   "key": "should have bought",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Sold out, so: should have bought (buy → bought).",
   "slots": {
    "event": [
     "concert",
@@ -868,7 +868,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "She got lost in {city}. She ______ (ask) for directions, {name}.",
   "key": "should have asked",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Got lost, so: should have asked.",
   "slots": {
    "city": [
     "Istanbul",
@@ -895,7 +895,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "You forgot {who}'s birthday. You ______ (call) her, {name}.",
   "key": "should have called",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Forgot the birthday, so: should have called.",
   "slots": {
    "who": [
     "Grandma",
@@ -922,7 +922,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "I'm cold. I ______ (wear) a warmer {thing}, {name}.",
   "key": "should have worn",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Cold, so: should have worn (wear → worn).",
   "slots": {
    "thing": [
     "coat",
@@ -949,7 +949,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "The {team} lost. They ______ (train) harder, {name}.",
   "key": "should have trained",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "They lost, so: should have trained.",
   "slots": {
    "team": [
     "team",
@@ -976,7 +976,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "You didn't say a word about the {event}! You ______ (tell) me, {name}.",
   "key": "should have told",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "\"You didn't say a word\": should have told (tell → told).",
   "slots": {
    "event": [
     "party",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "I ______ (listen) to my {who}. She was right, {name}.",
   "key": "should have listened",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "\"She was right\": should have listened.",
   "slots": {
    "who": [
     "mother",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "I feel sick. I ______ (not / eat) so much {food}, {name}.",
   "key": "shouldn't have eaten",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "Sick now: shouldn't have eaten.",
   "slots": {
    "food": [
     "cake",
@@ -1060,7 +1060,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "I'm tired. I ______ (not / go) to bed so late {when}, {name}.",
   "key": "shouldn't have gone",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "Tired now: shouldn't have gone.",
   "slots": {
    "when": [
     "last night",
@@ -1090,7 +1090,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "You ______ (not / shout) at your {who}. He was only trying to help, {name}.",
   "key": "shouldn't have shouted",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "\"only trying to help\": shouldn't have shouted.",
   "slots": {
    "who": [
     "brother",
@@ -1120,7 +1120,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "We ______ (not / buy) this {thing}. It broke after a week, {name}.",
   "key": "shouldn't have bought",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "\"It broke after a week\": shouldn't have bought.",
   "slots": {
    "thing": [
     "phone",
@@ -1150,7 +1150,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "He ______ (not / drive) so fast on the {road}, {name}.",
   "key": "shouldn't have driven",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "Too fast: shouldn't have driven (drive → driven).",
   "slots": {
    "road": [
     "motorway",
@@ -1180,7 +1180,7 @@ export default [
   "instr": "Regret or criticism about the past. Complete with should have (or shouldn't have) and the verb in brackets.",
   "source": "I ______ (not / tell) Timur about the {event}. Now everyone knows, {name}.",
   "key": "shouldn't have told",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "\"Now everyone knows\": shouldn't have told.",
   "slots": {
    "event": [
     "party",
@@ -1211,7 +1211,7 @@ export default [
   "source": "Why didn't you tell me about the {problem}, {name}?",
   "hint": "You ______ me about the {problem}, {name}.",
   "key": "should have told",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Why didn't you tell me? → you should have told me.",
   "slots": {
    "problem": [
     "problem",
@@ -1239,7 +1239,7 @@ export default [
   "source": "Why didn't you call me from the {place}, {name}?",
   "hint": "You ______ me from the {place}, {name}.",
   "key": "should have called",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Why didn't you call? → you should have called.",
   "slots": {
    "place": [
     "station",
@@ -1267,7 +1267,7 @@ export default [
   "source": "It was a mistake not to study for the {test}, {name}.",
   "hint": "I ______ for the {test}, {name}.",
   "key": "should have studied",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "A mistake not to study → I should have studied.",
   "slots": {
    "test": [
     "exam",
@@ -1295,7 +1295,7 @@ export default [
   "source": "It was wrong of him not to say sorry to the {who}, {name}.",
   "hint": "He ______ sorry to the {who}, {name}.",
   "key": "should have said",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Wrong not to say sorry → he should have said.",
   "slots": {
    "who": [
     "teacher",
@@ -1323,7 +1323,7 @@ export default [
   "source": "Why didn't we leave for the {place} earlier, {name}?",
   "hint": "We ______ for the {place} earlier, {name}.",
   "key": "should have left",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "Why didn't we leave earlier? → we should have left.",
   "slots": {
    "place": [
     "airport",
@@ -1351,7 +1351,7 @@ export default [
   "source": "It was a mistake to eat so much {food}, {name}.",
   "hint": "I ______ so much {food}, {name}.",
   "key": "shouldn't have eaten",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "A mistake to eat so much → I shouldn't have eaten.",
   "slots": {
    "food": [
     "cake",
@@ -1382,7 +1382,7 @@ export default [
   "source": "Why did you shout at your {who}, {name}?",
   "hint": "You ______ at your {who}, {name}.",
   "key": "shouldn't have shouted",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "Why did you shout? → you shouldn't have shouted.",
   "slots": {
    "who": [
     "brother",
@@ -1413,7 +1413,7 @@ export default [
   "source": "It was a bad idea to buy this {thing}, {name}.",
   "hint": "We ______ this {thing}, {name}.",
   "key": "shouldn't have bought",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "A bad idea to buy it → we shouldn't have bought.",
   "slots": {
    "thing": [
     "phone",
@@ -1444,7 +1444,7 @@ export default [
   "source": "Why did he drive so fast on the {road}, {name}?",
   "hint": "He ______ so fast on the {road}, {name}.",
   "key": "shouldn't have driven",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "Why did he drive so fast? → he shouldn't have driven.",
   "slots": {
    "road": [
     "motorway",
@@ -1475,7 +1475,7 @@ export default [
   "source": "It was wrong to tell Timur about the {event}, {name}.",
   "hint": "I ______ Timur about the {event}, {name}.",
   "key": "shouldn't have told",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "Wrong to tell → I shouldn't have told.",
   "slots": {
    "event": [
     "party",
@@ -1506,7 +1506,7 @@ export default [
   "source": "You should told me about the {problem}, {name}.",
   "hint": "You ______ me about the {problem}, {name}.",
   "key": "should have told",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "have is missing: should have told.",
   "slots": {
    "problem": [
     "problem",
@@ -1534,7 +1534,7 @@ export default [
   "source": "I should have study more for the {test}, {name}.",
   "hint": "I ______ more for the {test}, {name}.",
   "key": "should have studied",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "have + past participle: studied, not study.",
   "slots": {
    "test": [
     "exam",
@@ -1562,7 +1562,7 @@ export default [
   "source": "We should had left earlier for the {place}, {name}.",
   "hint": "We ______ earlier for the {place}, {name}.",
   "key": "should have left",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "should have, not should had: should have left.",
   "slots": {
    "place": [
     "airport",
@@ -1590,7 +1590,7 @@ export default [
   "source": "She should has asked for directions in {city}, {name}.",
   "hint": "She ______ for directions in {city}, {name}.",
   "key": "should have asked",
-  "why": "Regret or criticism about the past: should have + past participle.",
+  "why": "should have, not should has: should have asked.",
   "slots": {
    "city": [
     "Istanbul",
@@ -1618,7 +1618,7 @@ export default [
   "source": "You shouldn't to have eaten so much {food}, {name}.",
   "hint": "You ______ so much {food}, {name}.",
   "key": "shouldn't have eaten",
-  "why": "Regret about something you did: shouldn't have + past participle.",
+  "why": "No to after shouldn't: shouldn't have eaten.",
   "slots": {
    "food": [
     "cake",
