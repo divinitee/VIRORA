@@ -118,5 +118,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/modals.deduction.cant-present.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"He's in … this week\": impossible he's at the door: can't.",
+   "\"You've just eaten two plates\": impossible you're hungry: can't.",
+   "\"closed on …s\": impossible she's at work: can't.",
+   "\"Yours is blue, this one is red\": impossible: can't.",
+   "\"His son is at …\": too old for twenty: can't.",
+   "\"People are wearing …\": impossible it's cold: can't.",
+   "\"I can hear them\": impossible they're asleep: can't.",
+   "\"three o'clock in the morning\": impossible it's open: can't.",
+   "\"You slept for … hours\": impossible you're tired: can't.",
+   "\"not the airport\": impossible it's the right bus: can't.",
+   "\"Lola has only …\": no sisters: can't.",
+   "\"Nobody told him\": impossible he knows: can't.",
+   "\"from last …\": impossible it's fresh: can't.",
+   "\"for five dollars?\": impossible you mean it: can't.",
+   "\"I've just seen him in the café\": can't be at the other place.",
+   "\"The map says …\": impossible it's far: can't.",
+   "\"There's no … here\": impossible it's the right address: can't.",
+   "\"doesn't speak a word\": impossible she's from there: can't.",
+   "\"never late\": impossible it's true: can't.",
+   "\"I fed it ten minutes ago\": impossible it's hungry: can't."
+  ],
+  "build": [
+   "\"He's in … today\": can't be at home.",
+   "\"You've just had …\": can't be hungry.",
+   "\"Mine is black\": can't be mine.",
+   "\"It's midnight\": can't be open.",
+   "\"The trees are green\": can't be winter.",
+   "\"It's a secret\": can't know.",
+   "\"I can hear him\": can't be asleep.",
+   "\"It doesn't open the door\": can't be the right one.",
+   "\"She slept until …\": can't be tired.",
+   "\"only one … in it\": can't be heavy.",
+   "\"It started … ago\": too soon to finish: can't be over.",
+   "\"He's on the plane\": can't be him on the phone.",
+   "\"This … is empty\": can't live here.",
+   "Surprise at a silly idea: can't be serious.",
+   "\"She doesn't have one\": can't be hers.",
+   "\"The signs say it's behind us\": can't be the way.",
+   "\"He's still at school\": can't be that old.",
+   "\"I filled it up\": can't be empty.",
+   "\"We put it in the oven …\": too soon: can't be ready.",
+   "\"It's closed today\": can't be there."
+  ],
+  "transform": [
+   "I'm sure he isn't → he can't be.",
+   "It's impossible that you are → you can't be.",
+   "I'm sure this isn't → this can't be.",
+   "I'm sure she doesn't know → she can't know.",
+   "I'm sure it isn't → it can't be.",
+   "Impossible = can't, not mustn't: can't be.",
+   "Impossible = can't, not mustn't: can't be.",
+   "can't + base verb, no to: can't be.",
+   "can't + base verb, no -s: can't know.",
+   "can't is one word, not don't can: can't be.",
+   "I'm sure she isn't sleeping now → can't be sleeping.",
+   "I'm sure he isn't working now → can't be working.",
+   "I'm sure they aren't waiting now → can't be waiting.",
+   "I'm sure it isn't raining now → can't be raining.",
+   "I'm sure you aren't telling the truth → can't be telling."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

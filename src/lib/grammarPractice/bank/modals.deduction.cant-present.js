@@ -17,7 +17,7 @@ export default [
    "might"
   ],
   "key": 0,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"He's in … this week\": impossible he's at the door: can't.",
   "slots": {
    "country": [
     "Canada",
@@ -49,7 +49,7 @@ export default [
    "can't"
   ],
   "key": 3,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"You've just eaten two plates\": impossible you're hungry: can't.",
   "slots": {
    "food": [
     "plov",
@@ -81,7 +81,7 @@ export default [
    "mustn't"
   ],
   "key": 2,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"closed on …s\": impossible she's at work: can't.",
   "slots": {
    "day": [
     "Sunday",
@@ -113,7 +113,7 @@ export default [
    "must"
   ],
   "key": 1,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"Yours is blue, this one is red\": impossible: can't.",
   "slots": {
    "thing": [
     "bag",
@@ -145,7 +145,7 @@ export default [
    "might"
   ],
   "key": 0,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"His son is at …\": too old for twenty: can't.",
   "slots": {
    "place": [
     "university",
@@ -177,7 +177,7 @@ export default [
    "can't"
   ],
   "key": 3,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"People are wearing …\": impossible it's cold: can't.",
   "slots": {
    "item": [
     "T-shirts",
@@ -209,7 +209,7 @@ export default [
    "mustn't"
   ],
   "key": 2,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"I can hear them\": impossible they're asleep: can't.",
   "slots": {
    "doing": [
     "talking",
@@ -241,7 +241,7 @@ export default [
    "must"
   ],
   "key": 1,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"three o'clock in the morning\": impossible it's open: can't.",
   "slots": {
    "shop": [
     "bank",
@@ -273,7 +273,7 @@ export default [
    "might"
   ],
   "key": 0,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"You slept for … hours\": impossible you're tired: can't.",
   "slots": {
    "n": [
     "twelve",
@@ -305,7 +305,7 @@ export default [
    "can't"
   ],
   "key": 3,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"not the airport\": impossible it's the right bus: can't.",
   "slots": {
    "place": [
     "bazaar",
@@ -337,7 +337,7 @@ export default [
    "mustn't"
   ],
   "key": 2,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"Lola has only …\": no sisters: can't.",
   "slots": {
    "sib": [
     "brothers",
@@ -369,7 +369,7 @@ export default [
    "must"
   ],
   "key": 1,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"Nobody told him\": impossible he knows: can't.",
   "slots": {
    "event": [
     "party",
@@ -401,7 +401,7 @@ export default [
    "might"
   ],
   "key": 0,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"from last …\": impossible it's fresh: can't.",
   "slots": {
    "food": [
     "bread",
@@ -433,7 +433,7 @@ export default [
    "can't"
   ],
   "key": 3,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"for five dollars?\": impossible you mean it: can't.",
   "slots": {
    "thing": [
     "phone",
@@ -465,7 +465,7 @@ export default [
    "mustn't"
   ],
   "key": 2,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"I've just seen him in the café\": can't be at the other place.",
   "slots": {
    "place": [
     "gym",
@@ -497,7 +497,7 @@ export default [
    "must"
   ],
   "key": 1,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"The map says …\": impossible it's far: can't.",
   "slots": {
    "dist": [
     "two minutes",
@@ -529,7 +529,7 @@ export default [
    "might"
   ],
   "key": 0,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"There's no … here\": impossible it's the right address: can't.",
   "slots": {
    "thing": [
     "house",
@@ -561,7 +561,7 @@ export default [
    "can't"
   ],
   "key": 3,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"doesn't speak a word\": impossible she's from there: can't.",
   "slots": {
    "country": [
     "Spain",
@@ -593,7 +593,7 @@ export default [
    "mustn't"
   ],
   "key": 2,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"never late\": impossible it's true: can't.",
   "slots": {
    "who": [
     "teacher",
@@ -625,7 +625,7 @@ export default [
    "must"
   ],
   "key": 1,
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"I fed it ten minutes ago\": impossible it's hungry: can't.",
   "slots": {
    "pet": [
     "cat",
@@ -652,7 +652,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "Aziz ______ (be) at home. He's in {city} today, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"He's in … today\": can't be at home.",
   "slots": {
    "city": [
     "Samarkand",
@@ -682,7 +682,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "You ______ (be) hungry. You've just had {food}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"You've just had …\": can't be hungry.",
   "slots": {
    "food": [
     "lunch",
@@ -712,7 +712,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "This ______ (be) my {thing}. Mine is black, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"Mine is black\": can't be mine.",
   "slots": {
    "thing": [
     "bag",
@@ -742,7 +742,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "The {shop} ______ (be) open. It's midnight, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"It's midnight\": can't be open.",
   "slots": {
    "shop": [
     "bank",
@@ -772,7 +772,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "It ______ (be) winter. The trees are green and it's {temp}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"The trees are green\": can't be winter.",
   "slots": {
    "temp": [
     "thirty degrees",
@@ -802,7 +802,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "Olga ______ (know) about the {event}. It's a secret, {name}.",
   "key": "can't know",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"It's a secret\": can't know.",
   "slots": {
    "event": [
     "party",
@@ -832,7 +832,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "He ______ (be) asleep. I can hear him {doing}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"I can hear him\": can't be asleep.",
   "slots": {
    "doing": [
     "talking",
@@ -862,7 +862,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "That ______ (be) the right {thing}. It doesn't open the door, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"It doesn't open the door\": can't be the right one.",
   "slots": {
    "thing": [
     "key",
@@ -892,7 +892,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "She ______ (be) tired. She slept until {time}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"She slept until …\": can't be tired.",
   "slots": {
    "time": [
     "eleven",
@@ -922,7 +922,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "Your bag ______ (be) heavy. There's only one {thing} in it, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"only one … in it\": can't be heavy.",
   "slots": {
    "thing": [
     "book",
@@ -952,7 +952,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "The film ______ (be) over. It started {when} ago, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"It started … ago\": too soon to finish: can't be over.",
   "slots": {
    "when": [
     "ten minutes",
@@ -982,7 +982,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "It ______ (be) Timur on the phone. He's on the plane to {city}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"He's on the plane\": can't be him on the phone.",
   "slots": {
    "city": [
     "London",
@@ -1012,7 +1012,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "They ______ (live) here. This {place} is empty, {name}.",
   "key": "can't live",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"This … is empty\": can't live here.",
   "slots": {
    "place": [
     "flat",
@@ -1042,7 +1042,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "You ______ (be) serious about the {thing}, {name}!",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "Surprise at a silly idea: can't be serious.",
   "slots": {
    "thing": [
     "price",
@@ -1072,7 +1072,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "That ______ (be) Madina's {car}. She doesn't have one, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"She doesn't have one\": can't be hers.",
   "slots": {
    "car": [
     "car",
@@ -1102,7 +1102,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "This ______ (be) the way to the {place}. The signs say it's behind us, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"The signs say it's behind us\": can't be the way.",
   "slots": {
    "place": [
     "station",
@@ -1132,7 +1132,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "He ______ (be) {age}. He's still at school, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"He's still at school\": can't be that old.",
   "slots": {
    "age": [
     "thirty",
@@ -1162,7 +1162,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "The tank ______ (be) empty. I filled it up {when}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"I filled it up\": can't be empty.",
   "slots": {
    "when": [
     "this morning",
@@ -1192,7 +1192,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "The {food} ______ (be) ready. We put it in the oven {when}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"We put it in the oven …\": too soon: can't be ready.",
   "slots": {
    "food": [
     "cake",
@@ -1222,7 +1222,7 @@ export default [
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "She ______ (be) at the {place}. It's closed today, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "\"It's closed today\": can't be there.",
   "slots": {
    "place": [
     "library",
@@ -1253,7 +1253,7 @@ export default [
   "source": "I'm sure he isn't at home. His {car} isn't outside, {name}.",
   "hint": "He ______ at home. His {car} isn't outside, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "I'm sure he isn't → he can't be.",
   "slots": {
    "car": [
     "car",
@@ -1284,7 +1284,7 @@ export default [
   "source": "It's impossible that you are hungry, {name}. You've just had {food}.",
   "hint": "You ______ hungry, {name}. You've just had {food}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "It's impossible that you are → you can't be.",
   "slots": {
    "food": [
     "lunch",
@@ -1315,7 +1315,7 @@ export default [
   "source": "I'm sure this isn't your {thing}, {name}.",
   "hint": "This ______ your {thing}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "I'm sure this isn't → this can't be.",
   "slots": {
    "thing": [
     "bag",
@@ -1346,7 +1346,7 @@ export default [
   "source": "I'm sure she doesn't know about the {event}, {name}.",
   "hint": "She ______ about the {event}, {name}.",
   "key": "can't know",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "I'm sure she doesn't know → she can't know.",
   "slots": {
    "event": [
     "party",
@@ -1377,7 +1377,7 @@ export default [
   "source": "I'm sure it isn't far to the {place}, {name}.",
   "hint": "It ______ far to the {place}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "I'm sure it isn't → it can't be.",
   "slots": {
    "place": [
     "station",
@@ -1408,7 +1408,7 @@ export default [
   "source": "That mustn't be John. He's in {country} this week, {name}.",
   "hint": "That ______ John. He's in {country} this week, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "Impossible = can't, not mustn't: can't be.",
   "slots": {
    "country": [
     "Canada",
@@ -1439,7 +1439,7 @@ export default [
   "source": "You mustn't be tired. You slept for {n} hours, {name}.",
   "hint": "You ______ tired. You slept for {n} hours, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "Impossible = can't, not mustn't: can't be.",
   "slots": {
    "n": [
     "twelve",
@@ -1470,7 +1470,7 @@ export default [
   "source": "She can't to be at work. It's {day}, {name}.",
   "hint": "She ______ at work. It's {day}, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "can't + base verb, no to: can't be.",
   "slots": {
    "day": [
     "Sunday",
@@ -1501,7 +1501,7 @@ export default [
   "source": "He can't knows the answer to the {q}, {name}.",
   "hint": "He ______ the answer to the {q}, {name}.",
   "key": "can't know",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "can't + base verb, no -s: can't know.",
   "slots": {
    "q": [
     "question",
@@ -1532,7 +1532,7 @@ export default [
   "source": "It don't can be true. Our {who} is never late, {name}.",
   "hint": "It ______ true. Our {who} is never late, {name}.",
   "key": "can't be",
-  "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
+  "why": "can't is one word, not don't can: can't be.",
   "slots": {
    "who": [
     "teacher",
@@ -1563,7 +1563,7 @@ export default [
   "source": "I'm sure she isn't sleeping. I can hear her {doing}, {name}.",
   "hint": "She ______. I can hear her {doing}, {name}.",
   "key": "can't be sleeping",
-  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "why": "I'm sure she isn't sleeping now → can't be sleeping.",
   "slots": {
    "doing": [
     "singing",
@@ -1594,7 +1594,7 @@ export default [
   "source": "I'm sure he isn't working at the {place} today. It's closed, {name}.",
   "hint": "He ______ at the {place} today. It's closed, {name}.",
   "key": "can't be working",
-  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "why": "I'm sure he isn't working now → can't be working.",
   "slots": {
    "place": [
     "bank",
@@ -1625,7 +1625,7 @@ export default [
   "source": "I'm sure they aren't waiting for us at the {place}. Nobody is there, {name}.",
   "hint": "They ______ for us at the {place}. Nobody is there, {name}.",
   "key": "can't be waiting",
-  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "why": "I'm sure they aren't waiting now → can't be waiting.",
   "slots": {
    "place": [
     "station",
@@ -1656,7 +1656,7 @@ export default [
   "source": "I'm sure it isn't raining in {city}. The sky is clear, {name}.",
   "hint": "It ______ in {city}. The sky is clear, {name}.",
   "key": "can't be raining",
-  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "why": "I'm sure it isn't raining now → can't be raining.",
   "slots": {
    "city": [
     "London",
@@ -1687,7 +1687,7 @@ export default [
   "source": "I'm sure you aren't telling the truth about the {thing}, {name}.",
   "hint": "You ______ the truth about the {thing}, {name}.",
   "key": "can't be telling",
-  "why": "The speaker is sure it is not happening now: can't be + -ing.",
+  "why": "I'm sure you aren't telling the truth → can't be telling.",
   "slots": {
    "thing": [
     "test",
