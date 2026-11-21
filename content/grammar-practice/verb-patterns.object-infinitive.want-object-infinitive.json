@@ -71,7 +71,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "His parents want ______ {subject} at university.",
+  "prompt": "His parents want ______ {subject} at {where}.",
   "options": [
    "him studying",
    "him study",
@@ -86,6 +86,12 @@
     "law",
     "economics",
     "IT"
+   ],
+   "where": [
+    "university",
+    "college",
+    "school",
+    "night school"
    ]
   }
  },
@@ -129,7 +135,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Everyone at the {event} wanted ______ a song.",
+  "prompt": "{grp} at the {event} wanted ______ a song.",
   "options": [
    "her to sing",
    "that she sing",
@@ -144,6 +150,12 @@
     "party",
     "concert",
     "dinner"
+   ],
+   "grp": [
+    "Everyone",
+    "The guests",
+    "My friends",
+    "All the children"
    ]
   }
  },
@@ -219,7 +231,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our school wants ______ a {uniform} every day.",
+  "prompt": "Our school wants ______ a {uniform} every {per}.",
   "options": [
    "us wear",
    "us to wear",
@@ -234,6 +246,12 @@
     "white shirt",
     "tie",
     "blue jacket"
+   ],
+   "per": [
+    "day",
+    "Monday",
+    "week",
+    "term"
    ]
   }
  },
@@ -245,7 +263,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The doctor wants ______ in bed for {n} days.",
+  "prompt": "The doctor wants ______ in {where} for {n} days.",
   "options": [
    "him to stay",
    "that he stay",
@@ -260,6 +278,12 @@
     "two",
     "five",
     "four"
+   ],
+   "where": [
+    "bed",
+    "hospital",
+    "his room",
+    "the clinic"
    ]
   }
  },
@@ -335,7 +359,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Her brothers always want ______ {food} for them.",
+  "prompt": "Her {rel} always want ______ {food} for them.",
   "options": [
    "her cook",
    "her to cook",
@@ -350,6 +374,12 @@
     "manti",
     "soup",
     "samsa"
+   ],
+   "rel": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "friends"
    ]
   }
  },
@@ -393,7 +423,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Mum wants ______ their {room} before the guests come.",
+  "prompt": "Mum wants ______ their {room} before the {who2} come.",
   "options": [
    "that they clean",
    "them cleaning",
@@ -408,6 +438,12 @@
     "toys",
     "desks",
     "shoes"
+   ],
+   "who2": [
+    "guests",
+    "visitors",
+    "cousins",
+    "neighbours"
    ]
   }
  },
@@ -451,7 +487,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "His wife doesn't want ______ at night on the {road}.",
+  "prompt": "His wife doesn't want ______ at {time} on the {road}.",
   "options": [
    "him drive",
    "him to drive",
@@ -466,6 +502,12 @@
     "mountain road",
     "ring road",
     "old road"
+   ],
+   "time": [
+    "night",
+    "rush hour",
+    "weekends",
+    "midnight"
    ]
   }
  },
@@ -509,7 +551,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our cousins in {city} want ______ them in summer.",
+  "prompt": "Our cousins in {city} want ______ them in {season}.",
   "options": [
    "that we visit",
    "us visiting",
@@ -524,6 +566,12 @@
     "Andijan",
     "Nukus",
     "Termez"
+   ],
+   "season": [
+    "summer",
+    "spring",
+    "winter",
+    "the holidays"
    ]
   }
  },
@@ -654,7 +702,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "His dad wants ______ (he / study) {subject}.",
+  "source": "His {rel} wants ______ (he / study) {subject}.",
   "key": "him to study",
   "why": "want / would like + the person as an object (him, not he) + to + base: him to study.",
   "slots": {
@@ -663,6 +711,12 @@
     "law",
     "economics",
     "IT"
+   ],
+   "rel": [
+    "dad",
+    "mum",
+    "uncle",
+    "grandpa"
    ]
   }
  },
@@ -702,7 +756,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "The guests wanted ______ (she / sing) at the {event}.",
+  "source": "The {grp} wanted ______ (she / sing) at the {event}.",
   "key": "her to sing",
   "why": "want / would like + the person as an object (her, not she) + to + base: her to sing.",
   "slots": {
@@ -711,6 +765,12 @@
     "party",
     "concert",
     "dinner"
+   ],
+   "grp": [
+    "guests",
+    "children",
+    "teachers",
+    "neighbours"
    ]
   }
  },
@@ -777,7 +837,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "The school wants ______ (we / wear) a {uniform}.",
+  "source": "The {org} wants ______ (we / wear) a {uniform}.",
   "key": "us to wear",
   "why": "want / would like + the person as an object (us, not we) + to + base: us to wear.",
   "slots": {
@@ -786,6 +846,12 @@
     "white shirt",
     "tie",
     "blue jacket"
+   ],
+   "org": [
+    "school",
+    "college",
+    "club",
+    "company"
    ]
   }
  },
@@ -798,7 +864,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "The doctor wants ______ (he / stay) at home for {n} days.",
+  "source": "The doctor wants ______ (he / stay) at {where} for {n} days.",
   "key": "him to stay",
   "why": "want / would like + the person as an object (him, not he) + to + base: him to stay.",
   "slots": {
@@ -807,6 +873,12 @@
     "two",
     "five",
     "four"
+   ],
+   "where": [
+    "home",
+    "his aunt's",
+    "the clinic",
+    "his grandma's"
    ]
   }
  },
@@ -873,7 +945,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Lola's brothers want ______ (she / cook) {food} again.",
+  "source": "Lola's {rel} want ______ (she / cook) {food} again.",
   "key": "her to cook",
   "why": "want / would like + the person as an object (her, not she) + to + base: her to cook.",
   "slots": {
@@ -882,6 +954,12 @@
     "manti",
     "soup",
     "samsa"
+   ],
+   "rel": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "friends"
    ]
   }
  },
@@ -921,7 +999,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Mum wants ______ (they / clean) the {room} now.",
+  "source": "Mum wants ______ (they / clean) the {room} {when}.",
   "key": "them to clean",
   "why": "want / would like + the person as an object (them, not they) + to + base: them to clean.",
   "slots": {
@@ -930,6 +1008,12 @@
     "garden",
     "car",
     "living room"
+   ],
+   "when": [
+    "now",
+    "today",
+    "tonight",
+    "this morning"
    ]
   }
  },
@@ -969,7 +1053,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "His wife doesn't want ______ (he / drive) on the {road} at night.",
+  "source": "His wife doesn't want ______ (he / drive) on the {road} at {time}.",
   "key": "him to drive",
   "why": "want / would like + the person as an object (him, not he) + to + base: him to drive.",
   "slots": {
@@ -978,6 +1062,12 @@
     "mountain road",
     "ring road",
     "old road"
+   ],
+   "time": [
+    "night",
+    "rush hour",
+    "weekends",
+    "midnight"
    ]
   }
  },
@@ -1017,7 +1107,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Our cousins want ______ (we / visit) them in {city}.",
+  "source": "Our {who2} want ______ (we / visit) them in {city}.",
   "key": "us to visit",
   "why": "want / would like + the person as an object (us, not we) + to + base: us to visit.",
   "slots": {
@@ -1026,6 +1116,12 @@
     "Andijan",
     "Nukus",
     "Termez"
+   ],
+   "who2": [
+    "cousins",
+    "friends",
+    "grandparents",
+    "neighbours"
    ]
   }
  },

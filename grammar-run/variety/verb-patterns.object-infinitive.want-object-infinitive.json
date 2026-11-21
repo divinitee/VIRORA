@@ -1,0 +1,19 @@
+{"why":{"choose":["","","","","","","","","","","","","","","","","","","",""],"build":["","","","","","","","","","","","","","","","","","","",""],"transform":["","","","","","","","","","","","","","",""]},
+"slot":[
+["choose",3,"university","where",["university","college","school","night school"]],
+["choose",5,"Everyone","grp",["Everyone","The guests","My friends","All the children"]],
+["choose",8,"day","per",["day","Monday","week","term"]],
+["choose",9,"bed","where",["bed","hospital","his room","the clinic"]],
+["choose",12,"brothers","rel",["brothers","sisters","cousins","friends"]],
+["choose",14,"guests","who2",["guests","visitors","cousins","neighbours"]],
+["choose",16,"night","time",["night","rush hour","weekends","midnight"]],
+["choose",18,"summer","season",["summer","spring","winter","the holidays"]],
+["build",3,"dad","rel",["dad","mum","uncle","grandpa"]],
+["build",5,"guests","grp",["guests","children","teachers","neighbours"]],
+["build",8,"school","org",["school","college","club","company"]],
+["build",9,"home","where",["home","his aunt's","the clinic","his grandma's"]],
+["build",12,"brothers","rel",["brothers","sisters","cousins","friends"]],
+["build",14,"now","when",["now","today","tonight","this morning"]],
+["build",16,"night","time",["night","rush hour","weekends","midnight"]],
+["build",18,"cousins","who2",["cousins","friends","grandparents","neighbours"]]
+]}
