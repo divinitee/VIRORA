@@ -2628,8 +2628,8 @@ export const PRACTICE_MANIFEST = {
   "authored": 68,
   "stages": {
    "choose": 368,
-   "build": 412,
-   "transform": 236,
+   "build": 416,
+   "transform": 240,
    "create": 8,
    "express": 5
   }

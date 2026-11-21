@@ -17,7 +17,7 @@ export default [
    "am seeing"
   ],
   "key": 0,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: saw. Not the present perfect.",
+  "why": "A finished time word at the end: past simple saw.",
   "slots": {
    "when": [
     "yesterday",
@@ -49,7 +49,7 @@ export default [
    "went"
   ],
   "key": 3,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: went. Not the present perfect.",
+  "why": "\"in\" + a year is finished time: past simple went.",
   "slots": {
    "city": [
     "Samarkand",
@@ -81,7 +81,7 @@ export default [
    "has bought"
   ],
   "key": 2,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: bought. Not the present perfect.",
+  "why": "\"three days ago\" is finished time: past simple bought.",
   "slots": {
    "who": [
     "father",
@@ -113,7 +113,7 @@ export default [
    "meet"
   ],
   "key": 1,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: met. Not the present perfect.",
+  "why": "A finished time word: past simple met.",
   "slots": {
    "name": [
     "Nodira",
@@ -145,7 +145,7 @@ export default [
    "is losing"
   ],
   "key": 0,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: lost. Not the present perfect.",
+  "why": "A finished time word: past simple lost.",
   "slots": {
    "name": [
     "Madina",
@@ -177,7 +177,7 @@ export default [
    "called"
   ],
   "key": 3,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: called. Not the present perfect.",
+  "why": "\"an hour ago\" is finished time: past simple called.",
   "slots": {
    "who": [
     "mum",
@@ -209,7 +209,7 @@ export default [
    "have learned"
   ],
   "key": 2,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: learned. Not the present perfect.",
+  "why": "\"when I was …\" is finished time: past simple learned.",
   "slots": {
    "age": [
     "six",
@@ -241,7 +241,7 @@ export default [
    "wins"
   ],
   "key": 1,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: won. Not the present perfect.",
+  "why": "\"last season\" is finished time: past simple won.",
   "slots": {
    "event": [
     "cup",
@@ -273,7 +273,7 @@ export default [
    "are finishing"
   ],
   "key": 0,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: finished. Not the present perfect.",
+  "why": "\"at six yesterday\" is finished time: past simple finished.",
   "slots": {
    "task": [
     "project",
@@ -305,7 +305,7 @@ export default [
    "visited"
   ],
   "key": 3,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: visited. Not the present perfect.",
+  "why": "A finished time word and the visit is over: visited.",
   "slots": {
    "when": [
     "last weekend",
@@ -337,7 +337,7 @@ export default [
    "has broken"
   ],
   "key": 2,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: broke. Not the present perfect.",
+  "why": "\"when he was …\" is finished time: past simple broke.",
   "slots": {
    "name": [
     "Sardor",
@@ -369,7 +369,7 @@ export default [
    "move"
   ],
   "key": 1,
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: moved. Not the present perfect.",
+  "why": "\"… years ago\" is finished time: past simple moved.",
   "slots": {
    "city": [
     "Moscow",
@@ -401,7 +401,7 @@ export default [
    "am living"
   ],
   "key": 0,
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have lived.",
+  "why": "\"since\" + a year and I still live here: have lived.",
   "slots": {
    "home": [
     "flat",
@@ -439,7 +439,7 @@ export default [
    "has worked"
   ],
   "key": 3,
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has worked.",
+  "why": "\"since she was twenty\" and still there: has worked.",
   "slots": {
    "who": [
     "mother",
@@ -471,7 +471,7 @@ export default [
    "read"
   ],
   "key": 2,
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have read.",
+  "why": "\"So far this year\" is unfinished time: have read.",
   "slots": {
    "n": [
     "two",
@@ -503,7 +503,7 @@ export default [
    "know"
   ],
   "key": 1,
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have known.",
+  "why": "\"for … years\" and still friends: have known.",
   "slots": {
    "name": [
     "Nodira",
@@ -535,7 +535,7 @@ export default [
    "is being"
   ],
   "key": 0,
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has been.",
+  "why": "\"since …\" and still ill: has been.",
   "slots": {
    "day": [
     "Monday",
@@ -567,7 +567,7 @@ export default [
    "have had"
   ],
   "key": 3,
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have had.",
+  "why": "\"since I was a baby\" and it still works: have had.",
   "slots": {
    "thing": [
     "fridge",
@@ -599,7 +599,7 @@ export default [
    "scored"
   ],
   "key": 2,
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has scored.",
+  "why": "\"Up to now … this season\" is unfinished: has scored.",
   "slots": {
    "name": [
     "Sardor",
@@ -631,7 +631,7 @@ export default [
    "study"
   ],
   "key": 1,
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have studied.",
+  "why": "\"for … years\" and still going to lessons: have studied.",
   "slots": {
    "n": [
     "three",
@@ -658,7 +658,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "I ______ (see) {name} at the bazaar {when}.",
   "key": "saw",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: saw. Not the present perfect.",
+  "why": "\"at the bazaar\" + a finished time word: saw.",
   "slots": {
    "name": [
     "Nodira",
@@ -685,7 +685,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "We ______ (go) to the mountains last {season}, {name}.",
   "key": "went",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: went. Not the present perfect.",
+  "why": "\"last season\" is finished time: went.",
   "slots": {
    "season": [
     "summer",
@@ -712,7 +712,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "The {event} ______ (start) ten minutes ago, {name}. Hurry up!",
   "key": "started",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: started. Not the present perfect.",
+  "why": "\"ten minutes ago\" is finished time: started.",
   "slots": {
    "event": [
     "film",
@@ -739,7 +739,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "{name} ______ (write) this poem in {year}.",
   "key": "wrote",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: wrote. Not the present perfect.",
+  "why": "\"in\" + a year is finished: wrote.",
   "slots": {
    "name": [
     "Nodira",
@@ -766,7 +766,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "We ______ (eat) {food} at Grandma's {when}.",
   "key": "ate",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: ate. Not the present perfect.",
+  "why": "A finished time word: ate.",
   "slots": {
    "food": [
     "plov",
@@ -793,7 +793,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "My {who} ______ (be) a teacher {when}.",
   "key": "was",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: was. Not the present perfect.",
+  "why": "A finished time word: was.",
   "slots": {
    "who": [
     "grandfather",
@@ -820,7 +820,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "My sister ______ (pass) her driving test {when}, {name}.",
   "key": "passed",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: passed. Not the present perfect.",
+  "why": "A finished time word: passed.",
   "slots": {
    "when": [
     "last month",
@@ -847,7 +847,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "I ______ (get) your message at {time} last night, {name}.",
   "key": "got",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: got. Not the present perfect.",
+  "why": "\"at … last night\" is finished time: got.",
   "slots": {
    "time": [
     "ten",
@@ -874,7 +874,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "They ______ (build) the new {place} in our town in {year}.",
   "key": "built",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: built. Not the present perfect.",
+  "why": "\"in\" + a year is finished: built.",
   "slots": {
    "place": [
     "school",
@@ -901,7 +901,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "The last bus ______ (leave) {n} ago, so we took a {transport}.",
   "key": "left",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: left. Not the present perfect.",
+  "why": "\"… ago\" is finished time: left.",
   "slots": {
    "n": [
     "an hour",
@@ -928,7 +928,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "{name} ______ (forget) his {thing} at home {when}.",
   "key": "forgot",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: forgot. Not the present perfect.",
+  "why": "A finished time word: forgot.",
   "slots": {
    "name": [
     "Sardor",
@@ -961,7 +961,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "My aunt ______ (live) in {city} since {year}.",
   "key": "has lived",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has lived.",
+  "why": "\"since\" + a year and still there: has lived.",
   "slots": {
    "city": [
     "Tashkent",
@@ -991,7 +991,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "I ______ (play) the {instr} since I was {age}, {name}.",
   "key": "have played",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have played.",
+  "why": "\"since I was …\" and still playing: have played.",
   "slots": {
    "instr": [
     "piano",
@@ -1027,12 +1027,13 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "It ______ (rain) every day so far this {period}, {name}.",
   "key": "has rained",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has rained.",
+  "why": "\"so far this …\" is unfinished time: has rained.",
   "slots": {
    "period": [
     "week",
     "month",
-    "spring"
+    "spring",
+    "season"
    ],
    "name": [
     "Nodira",
@@ -1056,7 +1057,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "We ______ (be) friends since {time}, {name}.",
   "key": "have been",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have been.",
+  "why": "\"since …\" and still friends: have been.",
   "slots": {
    "time": [
     "school",
@@ -1083,7 +1084,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "Mr Karimov ______ (teach) at our {school} since {year}.",
   "key": "has taught",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has taught.",
+  "why": "\"since\" + a year and still teaching: has taught.",
   "slots": {
    "school": [
     "school",
@@ -1113,7 +1114,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "I ______ (have) this {thing} for six years, and it still works, {name}.",
   "key": "have had",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have had.",
+  "why": "\"for six years\" and it still works: have had.",
   "slots": {
    "thing": [
     "phone",
@@ -1140,7 +1141,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "Up to now, my {who} ______ (visit) us {n} times this year.",
   "key": "has visited",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has visited.",
+  "why": "\"Up to now … this year\" is unfinished: has visited.",
   "slots": {
    "who": [
     "uncle",
@@ -1167,7 +1168,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "I ______ (know) my best friend since we were {age}, {name}.",
   "key": "have known",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have known.",
+  "why": "\"since we were …\" and still friends: have known.",
   "slots": {
    "age": [
     "five",
@@ -1194,7 +1195,7 @@ export default [
   "instr": "Present perfect or past simple? Look at the time words and write the verb in brackets.",
   "source": "{name} ______ (work) at the {place} for two years, and she likes it.",
   "key": "has worked",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has worked.",
+  "why": "\"for two years\" and she still likes it: has worked.",
   "slots": {
    "name": [
     "Madina",
@@ -1225,7 +1226,7 @@ export default [
   "source": "I have seen that film {when}, {name}.",
   "hint": "I ______ that film {when}, {name}.",
   "key": "saw",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: saw. Not the present perfect.",
+  "why": "A finished time word cannot go with have seen: saw.",
   "slots": {
    "when": [
     "yesterday",
@@ -1253,7 +1254,7 @@ export default [
   "source": "We have visited {city} in {year}.",
   "hint": "We ______ {city} in {year}.",
   "key": "visited",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: visited. Not the present perfect.",
+  "why": "\"in\" + a year needs the past simple: visited.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1281,7 +1282,7 @@ export default [
   "source": "{name} has bought a new {thing} two days ago.",
   "hint": "{name} ______ a new {thing} two days ago.",
   "key": "bought",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: bought. Not the present perfect.",
+  "why": "\"two days ago\" needs the past simple: bought.",
   "slots": {
    "name": [
     "Nodira",
@@ -1309,7 +1310,7 @@ export default [
   "source": "I live in this {home} since {year}.",
   "hint": "I ______ in this {home} since {year}.",
   "key": "have lived",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have lived.",
+  "why": "\"since\" needs the present perfect, not the present: have lived.",
   "slots": {
    "home": [
     "flat",
@@ -1340,7 +1341,7 @@ export default [
   "source": "My brother is ill since {day}, {name}.",
   "hint": "My brother ______ ill since {day}, {name}.",
   "key": "has been",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has been.",
+  "why": "\"since\" needs the present perfect, not is: has been.",
   "slots": {
    "day": [
     "Monday",
@@ -1368,7 +1369,7 @@ export default [
   "source": "I have lost my {thing}, {name}.",
   "hint": "I ______ my {thing} yesterday, {name}.",
   "key": "lost",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: lost. Not the present perfect.",
+  "why": "Adding \"yesterday\" (finished time) changes it to lost.",
   "slots": {
    "thing": [
     "keys",
@@ -1396,7 +1397,7 @@ export default [
   "source": "My parents have been to {country}.",
   "hint": "My parents ______ to {country} in {year}.",
   "key": "went",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: went. Not the present perfect.",
+  "why": "Adding \"in\" + a year changes it to went.",
   "slots": {
    "country": [
     "Turkey",
@@ -1424,7 +1425,7 @@ export default [
   "source": "{name} has finished the {task}.",
   "hint": "{name} ______ the {task} an hour ago.",
   "key": "finished",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: finished. Not the present perfect.",
+  "why": "Adding \"an hour ago\" changes it to finished.",
   "slots": {
    "name": [
     "Nodira",
@@ -1452,7 +1453,7 @@ export default [
   "source": "We have met your {who}, {name}.",
   "hint": "We ______ your {who} last week, {name}.",
   "key": "met",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: met. Not the present perfect.",
+  "why": "Adding \"last week\" changes it to met.",
   "slots": {
    "who": [
     "teacher",
@@ -1480,7 +1481,7 @@ export default [
   "source": "The {shop} has closed, {name}.",
   "hint": "The {shop} ______ at six yesterday, {name}.",
   "key": "closed",
-  "why": "The time word is finished (yesterday, last …, ago, in 2019), so use the past simple: closed. Not the present perfect.",
+  "why": "Adding \"at six yesterday\" changes it to closed.",
   "slots": {
    "shop": [
     "bakery",
@@ -1508,7 +1509,7 @@ export default [
   "source": "I lived here in {year}, {name}.",
   "hint": "I ______ here since {year}, {name}.",
   "key": "have lived",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have lived.",
+  "why": "Changing \"in\" to \"since\" + a year needs have lived.",
   "slots": {
    "year": [
     "2015",
@@ -1539,7 +1540,7 @@ export default [
   "source": "{name} worked at the {place} last year.",
   "hint": "{name} ______ at the {place} since last year, and she still likes it.",
   "key": "has worked",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has worked.",
+  "why": "\"since last year\" and still there: has worked.",
   "slots": {
    "name": [
     "Madina",
@@ -1570,12 +1571,13 @@ export default [
   "source": "We had two tests last {period}, {name}.",
   "hint": "We ______ two tests so far this {period}, {name}.",
   "key": "have had",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have had.",
+  "why": "\"so far this …\" is unfinished: have had.",
   "slots": {
    "period": [
     "week",
     "month",
-    "term"
+    "term",
+    "season"
    ],
    "name": [
     "Nodira",
@@ -1597,7 +1599,7 @@ export default [
   "source": "My {who} was in hospital on Monday, {name}.",
   "hint": "My {who} ______ in hospital since Monday, {name}.",
   "key": "has been",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: has been.",
+  "why": "\"since Monday\" and still there: has been.",
   "slots": {
    "who": [
     "uncle",
@@ -1625,7 +1627,7 @@ export default [
   "source": "I knew {name} at {school}.",
   "hint": "I ______ {name} for ten years, and we are still friends.",
   "key": "have known",
-  "why": "The time is not finished (since, so far, and still), so use the present perfect: have known.",
+  "why": "\"for ten years\" and still friends: have known.",
   "slots": {
    "name": [
     "Nodira",
