@@ -169,7 +169,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "It's ______ to go out without a coat today, {name}.",
+  "prompt": "It's ______ to go out without a {coat} today, {name}.",
   "options": [
    "cold enough",
    "enough cold",
@@ -184,6 +184,12 @@ export default [
     "Otabek",
     "Dilnoza",
     "Sherzod"
+   ],
+   "coat": [
+    "coat",
+    "jacket",
+    "hat",
+    "scarf"
    ]
   }
  },
@@ -195,7 +201,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My little sister is ______ to reach the top shelf now, {name}. She grew a lot this year.",
+  "prompt": "My little sister is ______ to reach the {high} now, {name}. She grew a lot this year.",
   "options": [
    "too tall",
    "tall too",
@@ -210,6 +216,12 @@ export default [
     "Ulugbek",
     "Nodira",
     "Jamshid"
+   ],
+   "high": [
+    "top shelf",
+    "light switch",
+    "door handle",
+    "kitchen cupboard"
    ]
   }
  },
@@ -613,7 +625,7 @@ export default [
    "enough tired"
   ],
   "key": 1,
-  "why": "You didn't cook: too tired.",
+  "why": "After the long event you couldn't cook: too tired.",
   "slots": {
    "event": [
     "match",
@@ -856,7 +868,7 @@ export default [
   "instr": "Complete with too or enough and the word in brackets.",
   "source": "I was ______ (tired) to cook, so we ordered {food}, {name}.",
   "key": "too tired",
-  "why": "You didn't cook: too tired.",
+  "why": "Too tired to cook, so you ordered food: too tired.",
   "slots": {
    "food": [
     "pizza",

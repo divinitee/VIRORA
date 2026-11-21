@@ -24,75 +24,75 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ enough time · enough of time · too time · the enough time  
    why: enough goes before a noun: enough time.
 
-6. It's ______ to go out without a coat today, **Otabek**.  
+6. It's ______ to go out without a **scarf** today, **Otabek**.  
    options: cold enough · enough cold · too much cold · ✔ too cold  
    why: You need a coat, so it is colder than is OK: too cold.
 
-7. My little sister is ______ to reach the top shelf now, **Jamshid**. She grew a lot this year.  
+7. My little sister is ______ to reach the **top shelf** now, **Nodira**. She grew a lot this year.  
    options: too tall · tall too · ✔ tall enough · enough tall  
    why: She grew, so now she can reach it: tall enough.
 
-8. Have we got ______ for **pancakes**, **Zarina**?  
+8. Have we got ______ for **an omelette**, **Zarina**?  
    options: the enough eggs · ✔ enough eggs · enough of eggs · too eggs  
    why: enough goes before the noun: enough eggs.
 
-9. The **show** was ______ for the children, so we left early, **Malika**.  
+9. The **story** was ______ for the children, so we left early, **Malika**.  
    options: ✔ too scary · enough scary · too much scary · scary too  
    why: You left early, so it was more scary than is OK: too scary.
 
-10. I'm not ______ to win the **competition**, but I'll try, **Zarina**.  
+10. I'm not ______ to win the **competition**, but I'll try, **Otabek**.  
    options: enough fast · too fast · fast too · ✔ fast enough  
    why: "but I'll try" = I may lose: not fast enough.
 
-11. This **T-shirt** is ______ for me. Have you got a bigger one, **Ulugbek**?  
+11. This **shirt** is ______ for me. Have you got a bigger one, **Malika**?  
    options: enough small · too much small · ✔ too small · small enough  
    why: You want a bigger one: too small.
 
-12. Did you bring ______ for the **bus**, **Zarina**?  
+12. Did you bring ______ for the **museum**, **Sherzod**?  
    options: the enough money · ✔ enough money · enough of money · too money  
    why: enough goes before the noun: enough money.
 
-13. The **tent** was ______ to sleep in. There was a party next door, **Jamshid**.  
+13. The **hotel room** was ______ to sleep in. There was a party next door, **Ulugbek**.  
    options: ✔ too noisy · noisy enough · enough noisy · too much noisy  
    why: The party stopped your sleep: too noisy.
 
-14. The **space** wasn't ______ for our car, so we parked down the street, **Otabek**.  
+14. The **road** wasn't ______ for our car, so we parked down the street, **Zarina**.  
    options: enough wide · too wide · wide too · ✔ wide enough  
    why: You had to park somewhere else: not wide enough.
 
-15. There isn't ______ in the **kitchen** for a sofa, **Malika**.  
+15. There isn't ______ in the **flat** for a sofa, **Nodira**.  
    options: too space · the enough space · ✔ enough space · enough of space  
    why: enough goes before the noun: enough space.
 
-16. The **guide** spoke ______ for everyone to hear. The hall was quiet, **Dilnoza**.  
+16. The **speaker** spoke ______ for everyone to hear. The hall was quiet, **Otabek**.  
    options: loudly too · ✔ loudly enough · enough loudly · too loudly  
    why: Everyone heard: loudly enough (enough after an adverb too).
 
-17. These **jeans** are ______ to walk in. My feet hurt, **Ulugbek**.  
+17. These **shoes** are ______ to walk in. My feet hurt, **Jamshid**.  
    options: ✔ too tight · tight enough · enough tight · too much tight  
    why: Your feet hurt: too tight.
 
-18. We've got ______ for the drive to **Samarkand**. Let's go, **Sherzod**!  
+18. We've got ______ for the drive to **Bukhara**. Let's go, **Zarina**!  
    options: enough of petrol · too petrol · the enough petrol · ✔ enough petrol  
    why: enough goes before the noun: enough petrol.
 
-19. My English isn't ______ for the **exam** yet, so I study every day, **Malika**.  
+19. My English isn't ______ for the **interview** yet, so I study every day, **Ulugbek**.  
    options: too good · good too · ✔ good enough · enough good  
    why: You still need to study: not good enough.
 
-20. After the **long day**, I was ______ to cook, so we ordered pizza, **Otabek**.  
+20. After the **match**, I was ______ to cook, so we ordered pizza, **Sherzod**.  
    options: too much tired · ✔ too tired · tired enough · enough tired  
-   why: You didn't cook: too tired.
+   why: After the long event you couldn't cook: too tired.
 
 ## build (20)
 
 1. _Complete with too or enough and the word in brackets._  
-   The **tea** is ______ (hot) to drink. Let's wait a few minutes, **Jamshid**.  
+   The **coffee** is ______ (hot) to drink. Let's wait a few minutes, **Ulugbek**.  
    key: too hot  
    why: You have to wait: too + adjective.
 
 2. _Complete with too or enough and the word in brackets._  
-   My cousin isn't ______ (old) to vote. He's only **fifteen**, **Otabek**.  
+   My cousin isn't ______ (old) to vote. He's only **sixteen**, **Sherzod**.  
    key: old enough  
    why: He is only sixteen: not old enough (adjective + enough).
 
@@ -102,77 +102,77 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: You need help: too heavy for one person.
 
 4. _Complete with too or enough and the word in brackets._  
-   It's ______ (warm) to eat outside today, so let's take the food to the **garden**, **Sherzod**.  
+   It's ______ (warm) to eat outside today, so let's take the food to the **park**, **Zarina**.  
    key: warm enough  
    why: We eat outside, so the weather is OK: warm enough.
 
 5. _Complete with too or enough and the word in brackets._  
-   Hurry up! We don't have ______ (time) to stop at the **café**, **Malika**.  
+   Hurry up! We don't have ______ (time) to stop at the **bazaar**, **Ulugbek**.  
    key: enough time  
    why: enough + noun: enough time.
 
 6. _Complete with too or enough and the word in brackets._  
-   This **coat** is ______ (small) for me. I need a bigger size, **Otabek**.  
+   This **dress** is ______ (small) for me. I need a bigger size, **Dilnoza**.  
    key: too small  
    why: You need a bigger size: too small.
 
 7. _Complete with too or enough and the word in brackets._  
-   My son is ______ (tall) to go on the **water slide** now. He grew a lot this year, **Nodira**.  
+   My son is ______ (tall) to go on the **rollercoaster** now. He grew a lot this year, **Malika**.  
    key: tall enough  
    why: He grew, so now he can: tall enough.
 
 8. _Complete with too or enough and the word in brackets._  
-   There aren't ______ (chairs) for all the guests at the **wedding**, **Zarina**.  
+   There aren't ______ (chairs) for all the guests at the **party**, **Zarina**.  
    key: enough chairs  
    why: enough + noun: enough chairs.
 
 9. _Complete with too or enough and the word in brackets._  
-   I was ______ (tired) to cook, so we ordered **plov**, **Malika**.  
+   I was ______ (tired) to cook, so we ordered **pizza**, **Ulugbek**.  
    key: too tired  
-   why: You didn't cook: too tired.
+   why: Too tired to cook, so you ordered food: too tired.
 
 10. _Complete with too or enough and the word in brackets._  
-   He ran ______ (fast) to catch the **bus**. He got on just in time, **Otabek**.  
+   He ran ______ (fast) to catch the **metro**. He got on just in time, **Dilnoza**.  
    key: fast enough  
    why: He got on in time: fast enough.
 
 11. _Complete with too or enough and the word in brackets._  
-   The **phone** was ______ (expensive) for us, so we didn't buy it, **Nodira**.  
+   The **flat** was ______ (expensive) for us, so we didn't buy it, **Ulugbek**.  
    key: too expensive  
    why: You didn't buy it: too expensive.
 
 12. _Complete with too or enough and the word in brackets._  
-   Have you got ______ (money) for the **museum** ticket, **Otabek**?  
+   Have you got ______ (money) for the **metro** ticket, **Otabek**?  
    key: enough money  
    why: enough + noun: enough money.
 
 13. _Complete with too or enough and the word in brackets._  
-   It's ______ (late) to call **the doctor** now. Call tomorrow, **Ulugbek**.  
+   It's ______ (late) to call **the doctor** now. Call tomorrow, **Jamshid**.  
    key: too late  
    why: Call tomorrow: too late now.
 
 14. _Complete with too or enough and the word in brackets._  
-   Our flat isn't ______ (big) for a **piano**. We need a garden, **Sherzod**.  
+   Our flat isn't ______ (big) for a **piano**. We need a garden, **Otabek**.  
    key: big enough  
    why: You need more room: not big enough.
 
 15. _Complete with too or enough and the word in brackets._  
-   The **bus** was ______ (noisy). I couldn't hear my friend, **Ulugbek**.  
+   The **bus** was ______ (noisy). I couldn't hear my friend, **Malika**.  
    key: too noisy  
    why: You couldn't hear: too noisy.
 
 16. _Complete with too or enough and the word in brackets._  
-   We haven't got ______ (eggs) for **an omelette**, **Zarina**. Can you go to the shop?  
+   We haven't got ______ (eggs) for **pancakes**, **Zarina**. Can you go to the shop?  
    key: enough eggs  
    why: enough + noun: enough eggs.
 
 17. _Complete with too or enough and the word in brackets._  
-   The **quiz** was ______ (difficult) for me. I didn't finish it, **Malika**.  
+   The **test** was ______ (difficult) for me. I didn't finish it, **Jamshid**.  
    key: too difficult  
    why: You didn't finish: too difficult.
 
 18. _Complete with too or enough and the word in brackets._  
-   Your work is ______ (good) to pass the **course**. Well done, **Sherzod**!  
+   Your work is ______ (good) to pass the **interview**. Well done, **Sherzod**!  
    key: good enough  
    why: Well done = you pass: good enough.
 
@@ -182,99 +182,99 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: He is little: too young.
 
 20. _Complete with too or enough and the word in brackets._  
-   Is there ______ (petrol) in the car to get to **Termez**, **Sherzod**?  
+   Is there ______ (petrol) in the car to get to **Namangan**, **Dilnoza**?  
    key: enough petrol  
    why: enough + noun: enough petrol.
 
 ## transform (15)
 
 1. _Rewrite with too. Write one word in each gap._  
-   The **soup** is very hot. I can't drink it, **Nodira**.  
-   → The **soup** is ______ ______ to drink, **Nodira**.  
+   The **soup** is very hot. I can't drink it, **Malika**.  
+   → The **soup** is ______ ______ to drink, **Malika**.  
    key: too + hot  
    why: very hot + can't → too hot to drink.
 
 2. _Rewrite with too. Write one word in each gap._  
-   The **bag** is very heavy. I can't carry it, **Zarina**.  
-   → The **bag** is ______ ______ to carry, **Zarina**.  
+   The **suitcase** is very heavy. I can't carry it, **Otabek**.  
+   → The **suitcase** is ______ ______ to carry, **Otabek**.  
    key: too + heavy  
    why: very heavy + can't → too heavy to carry.
 
 3. _Rewrite with too. Write one word in each gap._  
-   It's very cold. We can't swim in the **sea** today, **Ulugbek**.  
-   → It's ______ ______ to swim in the **sea** today, **Ulugbek**.  
+   It's very cold. We can't swim in the **lake** today, **Ulugbek**.  
+   → It's ______ ______ to swim in the **lake** today, **Ulugbek**.  
    key: too + cold  
    why: very cold + can't → too cold to swim.
 
 4. _Rewrite with too. Write one word in each gap._  
-   The **exam** was very difficult. I couldn't finish it, **Otabek**.  
-   → The **exam** was ______ ______ to finish, **Otabek**.  
+   The **quiz** was very difficult. I couldn't finish it, **Dilnoza**.  
+   → The **quiz** was ______ ______ to finish, **Dilnoza**.  
    key: too + difficult  
    why: very difficult + couldn't → too difficult to finish.
 
 5. _Rewrite with too. Write one word in each gap._  
-   I was very tired. I couldn't go to the **match**, **Nodira**.  
-   → I was ______ ______ to go to the **match**, **Nodira**.  
+   I was very tired. I couldn't go to the **concert**, **Jamshid**.  
+   → I was ______ ______ to go to the **concert**, **Jamshid**.  
    key: too + tired  
    why: very tired + couldn't → too tired to go.
 
 6. _Rewrite with enough. Write one word in each gap._  
-   My brother is too young to drive the **bus**, **Sherzod**.  
-   → My brother isn't ______ ______ to drive the **bus**, **Sherzod**.  
+   My brother is too young to drive the **car**, **Otabek**.  
+   → My brother isn't ______ ______ to drive the **car**, **Otabek**.  
    key: old + enough  
    why: too young = not old enough; enough after the adjective.
 
 7. _Rewrite with enough. Write one word in each gap._  
-   The water in the **lake** is too cold for swimming, **Ulugbek**.  
-   → The water in the **lake** isn't ______ ______ for swimming, **Ulugbek**.  
+   The water in the **river** is too cold for swimming, **Ulugbek**.  
+   → The water in the **river** isn't ______ ______ for swimming, **Ulugbek**.  
    key: warm + enough  
    why: too cold = not warm enough.
 
 8. _Rewrite with enough. Write one word in each gap._  
-   The **kitchen** is too small for our family, **Otabek**.  
-   → The **kitchen** isn't ______ ______ for our family, **Otabek**.  
+   The **flat** is too small for our family, **Sherzod**.  
+   → The **flat** isn't ______ ______ for our family, **Sherzod**.  
    key: big + enough  
    why: too small = not big enough.
 
 9. _Rewrite with enough. Write one word in each gap._  
-   I'm too short to reach the top **shelf**, **Jamshid**.  
-   → I'm not ______ ______ to reach the top **shelf**, **Jamshid**.  
+   I'm too short to reach the top **cupboard**, **Jamshid**.  
+   → I'm not ______ ______ to reach the top **cupboard**, **Jamshid**.  
    key: tall + enough  
    why: too short = not tall enough.
 
 10. _Rewrite with enough. Write one word in each gap._  
-   This **ladder** is too weak for the job, **Sherzod**.  
-   → This **ladder** isn't ______ ______ for the job, **Sherzod**.  
+   This **table** is too weak for the job, **Otabek**.  
+   → This **table** isn't ______ ______ for the job, **Otabek**.  
    key: strong + enough  
    why: too weak = not strong enough.
 
 11. _Rewrite with too and the opposite adjective. Write one word in each gap._  
-   Our **kitchen** isn't big enough for a party, **Ulugbek**.  
-   → Our **kitchen** is ______ ______ for a party, **Ulugbek**.  
+   Our **flat** isn't big enough for a party, **Jamshid**.  
+   → Our **flat** is ______ ______ for a party, **Jamshid**.  
    key: too + small  
    why: not big enough = too small.
 
 12. _Rewrite with too and the opposite adjective. Write one word in each gap._  
-   The **lemonade** isn't cold enough to drink yet, **Sherzod**.  
-   → The **lemonade** is still ______ ______ to drink, **Sherzod**.  
+   The **ayran** isn't cold enough to drink yet, **Otabek**.  
+   → The **ayran** is still ______ ______ to drink, **Otabek**.  
    key: too + warm  
    why: not cold enough = still too warm.
 
 13. _Rewrite with too and the opposite adjective. Write one word in each gap._  
-   My son isn't old enough for this **ride**, **Ulugbek**.  
-   → My son is ______ ______ for this **ride**, **Ulugbek**.  
+   My son isn't old enough for this **film**, **Malika**.  
+   → My son is ______ ______ for this **film**, **Malika**.  
    key: too + young  
    why: not old enough = too young.
 
 14. _Rewrite with too and the opposite adjective. Write one word in each gap._  
-   The **bus** wasn't fast enough. We arrived late, **Zarina**.  
-   → The **bus** was ______ ______. We arrived late, **Zarina**.  
+   The **taxi** wasn't fast enough. We arrived late, **Dilnoza**.  
+   → The **taxi** was ______ ______. We arrived late, **Dilnoza**.  
    key: too + slow  
    why: not fast enough = too slow.
 
 15. _Rewrite with too and the opposite adjective. Write one word in each gap._  
-   These **jeans** aren't cheap enough for me, **Nodira**.  
-   → These **jeans** are ______ ______ for me, **Nodira**.  
+   These **jeans** aren't cheap enough for me, **Jamshid**.  
+   → These **jeans** are ______ ______ for me, **Jamshid**.  
    key: too + expensive  
    why: not cheap enough = too expensive.
 

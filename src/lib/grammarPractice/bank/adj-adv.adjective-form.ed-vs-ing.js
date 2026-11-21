@@ -201,7 +201,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The storm last night was really ______, {name}.",
+  "prompt": "The {weather} last night was really ______, {name}.",
   "options": [
    "frighten",
    "fright",
@@ -216,6 +216,12 @@ export default [
     "Otabek",
     "Zarina",
     "Jamshid"
+   ],
+   "weather": [
+    "storm",
+    "thunder",
+    "wind",
+    "noise outside"
    ]
   }
  },
@@ -1024,7 +1030,7 @@ export default [
   "instr": "Complete with the -ing or -ed adjective of the word in brackets.",
   "source": "Are you ______ (interest) in {topic}, {name}?",
   "key": "interested",
-  "why": "You feel it (interested in …).",
+  "why": "Asking how you feel about a subject: interested in.",
   "slots": {
    "topic": [
     "art",
@@ -1314,7 +1320,7 @@ export default [
   "source": "Are you interesting in {topic}, {name}?",
   "hint": "Are you ______ in {topic}, {name}?",
   "key": "interested",
-  "why": "You feel it (interested in …).",
+  "why": "The person feels it, so not interesting: interested in.",
   "slots": {
    "topic": [
     "art",
