@@ -17,7 +17,7 @@ export default [
    "would win"
   ],
   "key": 0,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Imagined win, with would: if + past: won.",
   "slots": {
    "prize": [
     "quiz show",
@@ -49,7 +49,7 @@ export default [
    "had"
   ],
   "key": 3,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "I don't have the time now: if + past: had.",
   "slots": {
    "instr": [
     "piano",
@@ -81,7 +81,7 @@ export default [
    "live"
   ],
   "key": 2,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "We don't live there: if + past: lived.",
   "slots": {
    "city": [
     "Samarkand",
@@ -113,7 +113,7 @@ export default [
    "will know"
   ],
   "key": 1,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "I don't know it: if + past: knew.",
   "slots": {
    "q": [
     "question",
@@ -145,7 +145,7 @@ export default [
    "would can"
   ],
   "key": 0,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Nobody can fly: if + past of can: could.",
   "slots": {
    "country": [
     "Japan",
@@ -177,7 +177,7 @@ export default [
    "spoke"
   ],
   "key": 3,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "You don't speak it: if + past: spoke.",
   "slots": {
    "lang": [
     "Korean",
@@ -209,7 +209,7 @@ export default [
    "are"
   ],
   "key": 2,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "You aren't tall enough: if + were.",
   "slots": {
    "team": [
     "school",
@@ -241,7 +241,7 @@ export default [
    "will have"
   ],
   "key": 1,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "We don't have a car: if + past: had.",
   "slots": {
    "place": [
     "mountains",
@@ -273,7 +273,7 @@ export default [
    "would find"
   ],
   "key": 0,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "An imagined find: if + past: found.",
   "slots": {
    "place": [
     "street",
@@ -305,7 +305,7 @@ export default [
    "lost"
   ],
   "key": 3,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "An imagined loss: if + past: lost.",
   "slots": {
    "thing": [
     "passport",
@@ -337,7 +337,7 @@ export default [
    "get"
   ],
   "key": 2,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Not real yet: if + past: got.",
   "slots": {
    "place": [
     "bank",
@@ -369,7 +369,7 @@ export default [
    "will meet"
   ],
   "key": 1,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "An imagined meeting: if + past: met.",
   "slots": {
    "who": [
     "singer",
@@ -401,7 +401,7 @@ export default [
    "would go"
   ],
   "key": 0,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "We aren't going that way now: if + past: went.",
   "slots": {
    "city": [
     "Samarkand",
@@ -433,7 +433,7 @@ export default [
    "studied"
   ],
   "key": 3,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "He doesn't study enough: if + past: studied.",
   "slots": {
    "test": [
     "exam",
@@ -465,7 +465,7 @@ export default [
    "work"
   ],
   "key": 2,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "He works a lot now: if + past: worked.",
   "slots": {
    "who": [
     "dad",
@@ -497,7 +497,7 @@ export default [
    "will be"
   ],
   "key": 1,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "They aren't here: if + were.",
   "slots": {
    "work": [
     "move",
@@ -529,7 +529,7 @@ export default [
    "would own"
   ],
   "key": 0,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "I don't own one: if + past: owned.",
   "slots": {
    "who": [
     "friends",
@@ -561,7 +561,7 @@ export default [
    "ate"
   ],
   "key": 3,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "You eat a lot now: if + past: ate.",
   "slots": {
    "food": [
     "sugar",
@@ -593,7 +593,7 @@ export default [
    "go"
   ],
   "key": 2,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "I go to bed late now: if + past: went.",
   "slots": {
    "time": [
     "morning",
@@ -625,7 +625,7 @@ export default [
    "will can"
   ],
   "key": 1,
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "We can't choose now: if + past of can: could.",
   "slots": {
    "country": [
     "Japan",
@@ -652,7 +652,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If I ______ (have) more money, I would buy a {thing}, {name}.",
   "key": "had",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Not real now: have → had.",
   "slots": {
    "thing": [
     "car",
@@ -679,7 +679,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If we ______ (live) near the {place}, we would swim every day, {name}.",
   "key": "lived",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "We don't live there: live → lived.",
   "slots": {
    "place": [
     "sea",
@@ -706,7 +706,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If I ______ (know) the way to the {place}, I would take you, {name}.",
   "key": "knew",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "I don't know the way: know → knew.",
   "slots": {
    "place": [
     "museum",
@@ -733,7 +733,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If our team ______ (win) the {cup}, the whole city would celebrate, {name}.",
   "key": "won",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "An imagined win: win → won.",
   "slots": {
    "cup": [
     "cup",
@@ -760,7 +760,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If she ______ (speak) {lang}, she would get the job, {name}.",
   "key": "spoke",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "She doesn't speak it: speak → spoke.",
   "slots": {
    "lang": [
     "English",
@@ -787,7 +787,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If I ______ (can) cook like my {who}, I would open a café, {name}.",
   "key": "could",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "I can't cook like that: can → could.",
   "slots": {
    "who": [
     "grandmother",
@@ -814,7 +814,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If we ______ (be) rich, we would travel round {place}, {name}.",
   "key": "were",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "We aren't rich: be → were.",
   "slots": {
    "place": [
     "the world",
@@ -841,7 +841,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If he ______ (get) up earlier, he wouldn't be late for {event}, {name}.",
   "key": "got",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "He gets up late: get → got.",
   "slots": {
    "event": [
     "school",
@@ -868,7 +868,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If you ______ (find) a {thing} in the street, what would you do, {name}?",
   "key": "found",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "An imagined find: find → found.",
   "slots": {
    "thing": [
     "wallet",
@@ -895,7 +895,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If Timur ______ (study) more, he would get better marks in {subject}, {name}.",
   "key": "studied",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "He doesn't study enough: study → studied.",
   "slots": {
    "subject": [
     "maths",
@@ -922,7 +922,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If you ______ (eat) more {food}, you would be healthier, {name}.",
   "key": "ate",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "You don't eat enough: eat → ate.",
   "slots": {
    "food": [
     "fruit",
@@ -949,7 +949,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If they ______ (go) by plane, they would arrive at the {event} much faster, {name}.",
   "key": "went",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "They don't go by plane: go → went.",
   "slots": {
    "event": [
     "wedding",
@@ -976,7 +976,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If I ______ (own) a {shop}, I would sell fresh bread, {name}.",
   "key": "owned",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "I don't own one: own → owned.",
   "slots": {
    "shop": [
     "bakery",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If I ______ (meet) a famous {who}, I would ask for a photo, {name}.",
   "key": "met",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "An imagined meeting: meet → met.",
   "slots": {
    "who": [
     "singer",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
   "source": "If my {who} ______ (work) less, he would have more time for us, {name}.",
   "key": "worked",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "He works a lot: work → worked.",
   "slots": {
    "who": [
     "dad",
@@ -1060,7 +1060,7 @@ export default [
    "had",
    "would learn"
   ],
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "if + past, then would + verb: had, would learn.",
   "slots": {
    "instr": [
     "piano",
@@ -1090,7 +1090,7 @@ export default [
    "lived",
    "would visit"
   ],
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "if + past, then would + verb: lived, would visit.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1114,7 +1114,7 @@ export default [
    "were",
    "would play"
   ],
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "if + were, then would + verb: were, would play.",
   "slots": {
    "team": [
     "school team",
@@ -1144,7 +1144,7 @@ export default [
    "knew",
    "would come"
   ],
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "if + past, then would + verb: knew, would come.",
   "slots": {
    "event": [
     "party",
@@ -1174,7 +1174,7 @@ export default [
    "won",
    "would buy"
   ],
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "if + past, then would + verb: won, would buy.",
   "slots": {
    "prize": [
     "quiz show",
@@ -1202,7 +1202,7 @@ export default [
   "source": "I don't have a car, so I can't drive you to the {place}, {name}.",
   "hint": "If I ______ a car, I would drive you to the {place}, {name}.",
   "key": "had",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "don't have → If I had.",
   "slots": {
    "place": [
     "airport",
@@ -1230,7 +1230,7 @@ export default [
   "source": "We don't live near the {place}, so we don't go often, {name}.",
   "hint": "If we ______ near the {place}, we would go often, {name}.",
   "key": "lived",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "don't live → If we lived.",
   "slots": {
    "place": [
     "sea",
@@ -1258,7 +1258,7 @@ export default [
   "source": "I don't know the answer to the {q}, so I can't tell you, {name}.",
   "hint": "If I ______ the answer to the {q}, I would tell you, {name}.",
   "key": "knew",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "don't know → If I knew.",
   "slots": {
    "q": [
     "question",
@@ -1286,7 +1286,7 @@ export default [
   "source": "She doesn't speak {lang}, so she can't work {job}.",
   "hint": "If she ______ {lang}, she could work {job}.",
   "key": "spoke",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "doesn't speak → If she spoke.",
   "slots": {
    "lang": [
     "Korean",
@@ -1314,7 +1314,7 @@ export default [
   "source": "He can't swim, so he never goes to the {place}, {name}.",
   "hint": "If he ______ swim, he would go to the {place}, {name}.",
   "key": "could",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "can't swim → If he could.",
   "slots": {
    "place": [
     "pool",
@@ -1342,7 +1342,7 @@ export default [
   "source": "If I would have more money, I would buy a {thing}, {name}.",
   "hint": "If I ______ more money, I would buy a {thing}, {name}.",
   "key": "had",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "No would after if: If I had.",
   "slots": {
    "thing": [
     "car",
@@ -1370,7 +1370,7 @@ export default [
   "source": "If we live in {city}, we would visit the museums every week, {name}.",
   "hint": "If we ______ in {city}, we would visit the museums every week, {name}.",
   "key": "lived",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Unreal, so past after if: If we lived.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1398,7 +1398,7 @@ export default [
   "source": "What would you do if you will win the {prize}, {name}?",
   "hint": "What would you do if you ______ the {prize}, {name}?",
   "key": "won",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "No will after if: if you won.",
   "slots": {
    "prize": [
     "quiz show",
@@ -1426,7 +1426,7 @@ export default [
   "source": "If she knows his number, she would call him from the {place}, {name}.",
   "hint": "If she ______ his number, she would call him from the {place}, {name}.",
   "key": "knew",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Unreal, so past after if: If she knew.",
   "slots": {
    "place": [
     "office",
@@ -1454,7 +1454,7 @@ export default [
   "source": "If I can fly, I would visit {country} every day, {name}.",
   "hint": "If I ______ fly, I would visit {country} every day, {name}.",
   "key": "could",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Unreal, so past of can: If I could.",
   "slots": {
    "country": [
     "Japan",
@@ -1482,7 +1482,7 @@ export default [
   "source": "Imagine: you win the {prize}. You buy a house, {name}.",
   "hint": "If you ______ the {prize}, you would buy a house, {name}.",
   "key": "won",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Imagine + win → If you won.",
   "slots": {
    "prize": [
     "quiz show",
@@ -1510,7 +1510,7 @@ export default [
   "source": "Just imagine you live in {city}. You walk to the old town every day, {name}.",
   "hint": "If you ______ in {city}, you would walk to the old town every day, {name}.",
   "key": "lived",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Imagine + live → If you lived.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1538,7 +1538,7 @@ export default [
   "source": "Picture this: I meet a famous {who}. I ask for a photo, {name}.",
   "hint": "If I ______ a famous {who}, I would ask for a photo, {name}.",
   "key": "met",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Picture + meet → If I met.",
   "slots": {
    "who": [
     "singer",
@@ -1566,7 +1566,7 @@ export default [
   "source": "Let's imagine we have a big garden. We grow {food}, {name}.",
   "hint": "If we ______ a big garden, we would grow {food}, {name}.",
   "key": "had",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Imagine + have → If we had.",
   "slots": {
    "food": [
     "tomatoes",
@@ -1594,7 +1594,7 @@ export default [
   "source": "Imagine this: you find a {thing} on the bus. You give it to the driver, {name}.",
   "hint": "If you ______ a {thing} on the bus, you would give it to the driver, {name}.",
   "key": "found",
-  "why": "Imagined situation: if + past simple, … would + base verb.",
+  "why": "Imagine + find → If you found.",
   "slots": {
    "thing": [
     "wallet",
