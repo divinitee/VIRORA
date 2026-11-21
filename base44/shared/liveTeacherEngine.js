@@ -185,7 +185,9 @@ export async function finalize(svc, { lesson, row, profile, summary, strengths, 
   await svc.LiveTeacherLesson.update(lesson.id, {
     status: 'ended', ended_at: new Date(now).toISOString(), duration_s: durationS,
     summary: recap.summary, strengths: recap.strengths, focus_next: recap.focus_next,
-    level_at_end: recap.cefr_level, scores: recap.scores || undefined,
+    level_at_end: recap.cefr_level,
+    // only when there are exam scores: v2 keeps usage / plan / strikes in scores and must not lose them
+    ...(recap.scores ? { scores: recap.scores } : {}),
   });
   return recap;
 }
