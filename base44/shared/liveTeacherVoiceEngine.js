@@ -500,7 +500,8 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
       // backup path: hand the phone a fresh ears pass so the next turn can go direct again
       stt_token: await softToken(env, 'batch_scribe', fetchImpl), stt_model: s.sttModel,
       // where the waiting time goes (admins only)
-      ...(user.role === 'admin' ? { timings: { ...timings, server_ms: Date.now() - t0 } } : {}),
+      // admins see her private read (why she did what she did) + the lesson state
+      ...(user.role === 'admin' ? { timings: { ...timings, server_ms: Date.now() - t0 }, read: out.read, plan: updated.scores?.plan } : {}),
     });
   } catch (e) {
     return errorReply(user, e);
@@ -596,7 +597,8 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
       ended: !!recap, recap,
       cost_usd: c.total, lesson_cost_usd: usageTotal.cost_usd,
       persona_name: P.name,
-      ...(user.role === 'admin' ? { timings: { ...timings, server_ms: Date.now() - t0 } } : {}),
+      // admins see her private read (why she did what she did) + the lesson state
+      ...(user.role === 'admin' ? { timings: { ...timings, server_ms: Date.now() - t0 }, read: out.read, plan: updated.scores?.plan } : {}),
     });
   } catch (e) {
     return errorReply(user, e);

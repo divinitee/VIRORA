@@ -418,3 +418,16 @@ test('masterV0: start remembers yesterday\'s lines, every turn saves the plan', 
   const greet = s3.calls.filter((c) => c.url.includes('/chat/completions')).pop();
   assert.match(JSON.parse(greet.init.body).messages[1].content, /YOUR RECENT LINES[\s\S]*Story time, in the past tense/);
 });
+
+test('masterV0: admins get her read + lesson state back, students do not', async () => {
+  const svc = fakeDb();
+  const s1 = fakeServices();
+  const a = await startVoiceLesson({ svc, user: student, body: { persona: 'vira' }, env, fetchImpl: s1.fetchImpl, now: T0 });
+  const s2 = fakeServices({ brain: brainAnswer({ read: { intent: 'learn', student_mood: 'calm', drift: 'on_track', her_mood: 'warm', move: 'praise' }, lesson_focus: 'present perfect', stage: 'practice' }) });
+  const st = await voiceTurnText({ svc, user: student, body: { lesson_id: a.body.lesson_id, text: 'I have been working.' }, env, fetchImpl: s2.fetchImpl, now: T0 + 60000 });
+  assert.equal(st.body.read, undefined);
+  const admin = { ...student, role: 'admin' };
+  const ad = await voiceTurnText({ svc, user: admin, body: { lesson_id: a.body.lesson_id, text: 'I have been working.' }, env, fetchImpl: s2.fetchImpl, now: T0 + 70000 });
+  assert.equal(ad.body.read.move, 'praise');
+  assert.equal(ad.body.plan.focus, 'present perfect');
+});

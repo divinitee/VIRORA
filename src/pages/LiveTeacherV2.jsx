@@ -318,7 +318,7 @@ export default function LiveTeacherV2() {
     addTurn("student", r.student_text, { away: r.addressed === false });
     addTurn("teacher", r.reply_text, { explanation: r.explanation_text });
     if (Array.isArray(r.mistakes)) setMistakes(r.mistakes);
-    if (r.read) setMind(`read: ${[r.read.intent, r.read.student_mood, r.read.drift, r.read.her_mood, r.read.move].filter(Boolean).join(" · ")}`);
+    if (r.read) setMind(`her read: ${[r.read.intent, r.read.student_mood, r.read.drift, `she feels ${r.read.her_mood}`, r.read.move].filter(Boolean).join(" · ")}${r.plan ? ` | focus: ${r.plan.focus || "-"} · ${r.plan.stage} · off-plan ${r.plan.off_plan} · patience ${r.plan.patience}` : ""}`);
 
     const sec = (ms) => `${(Math.max(0, ms) / 1000).toFixed(1)}s`;
     const report = () => {
