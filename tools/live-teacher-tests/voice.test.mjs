@@ -324,7 +324,7 @@ test('conduct: each persona has its own swearing ladder, strikes end the lesson 
   assert.match(buildBrainInstructions({ persona: 'velvet' }), /go clear your head/);
   const vi = buildBrainInstructions({ persona: 'violet' });
   assert.match(vi, /Get out/);
-  assert.match(vi, /Back so soon/);
+  assert.match(vi, /Back so soon? Back to your senses?/);
   assert.doesNotMatch(vi, /sovun/);
   assert.doesNotMatch(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /Siz bilan|yuving/);
   assert.match(buildBrainInstructions({ persona: 'violet', ageGroup: 'kid' }), /never "get out"/);
@@ -465,4 +465,13 @@ test('masterV0 (shop test): deal made once, mood carries into the task, sexual r
   assert.match(brainSchema().properties.rude.description, /sexual remarks/);
   assert.ok(isRude('I need this in order to penetrate you'));
   assert.ok(!isRude('Could you help me find the headphones section?'));
+});
+
+test('comeback after a conduct ending: ONLY the check-in question, in the settings language, then stop', async () => {
+  const { buildBrainInstructions } = await import('../../base44/shared/liveTeacherBrain.js');
+  const vira = buildBrainInstructions({ persona: 'vira', uiLang: 'en' });
+  assert.match(vira, /WHOLE first reply is ONLY the comeback check-in, then STOP/);
+  assert.match(vira, /Feeling better now\?/);
+  assert.match(buildBrainInstructions({ persona: 'violet', uiLang: 'uz' }), /O'zingga keldingmi\?/);
+  assert.match(buildBrainInstructions({ persona: 'violet', uiLang: 'ru' }), /В себя пришёл\?/);
 });
