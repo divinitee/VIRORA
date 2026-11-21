@@ -195,5 +195,23 @@ export function playAudio(b64, mime = 'audio/mpeg') {
   audio.onended = () => end('ended');
   audio.onerror = () => end('error');
   audio.play().catch(() => end('blocked'));
-  return { done, stop() { audio.pause(); end('stopped'); } };
+  return {
+    done,
+    stop() { audio.pause(); end('stopped'); },
+    /** Seconds left in the clip (Infinity while unknown). */
+    remaining() { return Number.isFinite(audio.duration) ? Math.max(0, audio.duration - audio.currentTime) : Infinity; },
+    /** Fade out over `ms`, then stop: no hard cut mid-word. */
+    fadeOut(ms = 220) {
+      const start = audio.volume, t0 = performance.now();
+      return new Promise((resolve) => {
+        const step = () => {
+          const k = Math.min(1, (performance.now() - t0) / ms);
+          audio.volume = Math.max(0, start * (1 - k));
+          if (k < 1 && !audio.paused) requestAnimationFrame(step);
+          else { audio.pause(); end('faded'); resolve(); }
+        };
+        requestAnimationFrame(step);
+      });
+    },
+  };
 }

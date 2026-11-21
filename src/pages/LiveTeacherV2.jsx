@@ -205,7 +205,7 @@ export default function LiveTeacherV2() {
     holdTimerRef.current = setTimeout(async () => {
       await fillerDoneRef.current;
       if (waitingRef.current && phaseRef.current === "live") { playClip(pickClip(lastLangRef.current, "hold")); holdOnRef.current = true; }
-    }, 2600);
+    }, 3400); // replies now land in ~3.5 s; at 2.6 s this line collided with them almost every time
   }
 
   // ---------------------------------------------------------- teacher voice
@@ -218,7 +218,13 @@ export default function LiveTeacherV2() {
       ? liveTeacherApi("v2_speak", { lesson_id: lessonRef.current?.id, text: r.rest_text }).catch((e) => { note(`voice for the rest failed: ${e.message}`); return null; })
       : null;
     // the answer is here: cut a "give me a second" short; a short "hmm" may finish
-    if (holdOnRef.current) { fillerRef.current?.stop(); fillerRef.current = null; holdOnRef.current = false; fillerDoneRef.current = Promise.resolve(); }
+    // the answer is ready while "give me a second" is still talking: let it finish if it is
+    // almost done, otherwise fade it out (no hard cut mid-word), then a short breath
+    if (holdOnRef.current && fillerRef.current) {
+      const f = fillerRef.current;
+      holdOnRef.current = false;
+      if (f.remaining?.() > 0.6) { await f.fadeOut?.(220); fillerRef.current = null; fillerDoneRef.current = new Promise((r) => setTimeout(r, 150)); }
+    }
     await fillerDoneRef.current;
     if (cut !== cutRef.current) return "stopped";
     let why = "ended";
