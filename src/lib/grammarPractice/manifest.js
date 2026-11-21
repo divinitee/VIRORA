@@ -1971,7 +1971,7 @@ export const PRACTICE_MANIFEST = {
   "stages": {
    "choose": 416,
    "build": 512,
-   "transform": 216,
+   "transform": 228,
    "create": 8,
    "express": 5
   }

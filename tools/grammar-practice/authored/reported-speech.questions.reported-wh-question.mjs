@@ -138,5 +138,103 @@ for (const it of items) {
   if (extra.length) it.acceptable = [...(it.acceptable || []), ...extra];
 }
 const out = "content/grammar-practice/reported-speech.questions.reported-wh-question.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "'Where do you live?' → where + I lived, no do.",
+   "'What are you reading?' → what + I was reading.",
+   "'Why are you late?' → why + he was.",
+   "'When does it start?' → when + it started.",
+   "'How old are you?' → how old + I was.",
+   "'What do you want?' → what + she wanted.",
+   "'Where did you buy?' → where + I had bought.",
+   "'How much does it cost?' → how much + it cost.",
+   "'Where are you going?' → where + I was going.",
+   "'What time is it?' → what time + it was.",
+   "'Why did you leave?' → why + he had left.",
+   "'How can I help?' → how + she could.",
+   "'Where is it?' → where + it was.",
+   "'What did you eat?' → what + he had eaten.",
+   "'When will you come?' → when + I would come.",
+   "'How do you know him?' → how + I knew.",
+   "'Which bus do you take?' → which bus + I took.",
+   "'Why is the … closed?' → why + it was.",
+   "'Where have you been?' → where + I had been.",
+   "'What are you doing?' → what + I was doing."
+  ],
+  "build": [
+   "do you live → I lived (statement order, past).",
+   "I am reading → I was reading.",
+   "are you → he was (statement order).",
+   "does … start → it started.",
+   "are you → I was.",
+   "do you want → she wanted.",
+   "did you buy → I had bought.",
+   "cost after the subject, past: cost (same form).",
+   "I am going → I was going.",
+   "it is → it was.",
+   "did you leave → he had left.",
+   "can I → she could.",
+   "is the … → the … was.",
+   "did you eat → he had eaten.",
+   "I will come → I would come.",
+   "do you know → I knew.",
+   "do you take → I took.",
+   "is the … closed → the … was closed.",
+   "I have been → I had been.",
+   "I am doing → I was doing."
+  ],
+  "transform": [
+   "Where do you work? → where I worked.",
+   "What are you cooking? → what I was cooking.",
+   "Why are you so tired? → why he was so tired.",
+   "When did you arrive? → when I had arrived.",
+   "How do you get? → how he got.",
+   "No did in a report: where I lived.",
+   "Subject first: what I was doing.",
+   "Subject first: why we were.",
+   "No does in a report: the … started.",
+   "Past report: have been → had been.",
+   "What time does … leave? → the … left.",
+   "Where are you from? → where I was from.",
+   "How much did you pay? → I had paid.",
+   "Who are you waiting for? → he was waiting.",
+   "Why did you choose? → I had chosen."
+  ]
+ },
+ "slot": [
+  [
+   "transform",
+   8,
+   "late",
+   "adj",
+   [
+    "late",
+    "so quiet",
+    "tired",
+    "angry"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

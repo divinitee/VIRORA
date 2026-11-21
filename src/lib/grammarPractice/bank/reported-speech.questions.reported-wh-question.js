@@ -17,7 +17,7 @@ export default [
    "lived I"
   ],
   "key": 0,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Where do you live?' → where + I lived, no do.",
   "slots": {
    "f": [
     "Olga",
@@ -49,7 +49,7 @@ export default [
    "I was reading"
   ],
   "key": 3,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'What are you reading?' → what + I was reading.",
   "slots": {
    "m": [
     "Aziz",
@@ -81,7 +81,7 @@ export default [
    "was he"
   ],
   "key": 2,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Why are you late?' → why + he was.",
   "slots": {
    "who": [
     "teacher",
@@ -113,7 +113,7 @@ export default [
    "does it start"
   ],
   "key": 1,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'When does it start?' → when + it started.",
   "slots": {
    "event": [
     "film",
@@ -145,7 +145,7 @@ export default [
    "did I be"
   ],
   "key": 0,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'How old are you?' → how old + I was.",
   "slots": {
    "who": [
     "man",
@@ -177,7 +177,7 @@ export default [
    "she wanted"
   ],
   "key": 3,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'What do you want?' → what + she wanted.",
   "slots": {
    "m": [
     "Aziz",
@@ -215,7 +215,7 @@ export default [
    "did I buy"
   ],
   "key": 2,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Where did you buy?' → where + I had bought.",
   "slots": {
    "f": [
     "Olga",
@@ -247,7 +247,7 @@ export default [
    "does it cost"
   ],
   "key": 1,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'How much does it cost?' → how much + it cost.",
   "slots": {
    "thing": [
     "melon",
@@ -279,7 +279,7 @@ export default [
    "did I go"
   ],
   "key": 0,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Where are you going?' → where + I was going.",
   "slots": {
    "who": [
     "mum",
@@ -311,7 +311,7 @@ export default [
    "it was"
   ],
   "key": 3,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'What time is it?' → what time + it was.",
   "slots": {
    "who": [
     "man",
@@ -343,7 +343,7 @@ export default [
    "did he leave"
   ],
   "key": 2,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Why did you leave?' → why + he had left.",
   "slots": {
    "f": [
     "Olga",
@@ -375,7 +375,7 @@ export default [
    "can she"
   ],
   "key": 1,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'How can I help?' → how + she could.",
   "slots": {
    "who": [
     "receptionist",
@@ -407,7 +407,7 @@ export default [
    "did it be"
   ],
   "key": 0,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Where is it?' → where + it was.",
   "slots": {
    "place": [
     "museum",
@@ -439,7 +439,7 @@ export default [
    "he had eaten"
   ],
   "key": 3,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'What did you eat?' → what + he had eaten.",
   "slots": {
    "event": [
     "wedding",
@@ -471,7 +471,7 @@ export default [
    "would I come"
   ],
   "key": 2,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'When will you come?' → when + I would come.",
   "slots": {
    "who": [
     "mum",
@@ -503,7 +503,7 @@ export default [
    "do I know"
   ],
   "key": 1,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'How do you know him?' → how + I knew.",
   "slots": {
    "m": [
     "Aziz",
@@ -535,7 +535,7 @@ export default [
    "took I"
   ],
   "key": 0,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Which bus do you take?' → which bus + I took.",
   "slots": {
    "place": [
     "airport",
@@ -567,7 +567,7 @@ export default [
    "it was"
   ],
   "key": 3,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Why is the … closed?' → why + it was.",
   "slots": {
    "shop": [
     "bank",
@@ -605,7 +605,7 @@ export default [
    "had I been"
   ],
   "key": 2,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'Where have you been?' → where + I had been.",
   "slots": {
    "time": [
     "day",
@@ -637,7 +637,7 @@ export default [
    "am I doing"
   ],
   "key": 1,
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "'What are you doing?' → what + I was doing.",
   "slots": {
    "f": [
     "Olga",
@@ -667,7 +667,7 @@ export default [
   "acceptable": [
    "I live"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "do you live → I lived (statement order, past).",
   "slots": {
    "f": [
     "Olga",
@@ -694,7 +694,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "{m} asked me what ______ (I / am reading) on the {place}.",
   "key": "I was reading",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "I am reading → I was reading.",
   "slots": {
    "m": [
     "Aziz",
@@ -721,7 +721,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "'Why are you late for the {event}?' the {who} asked {m}. She asked him why ______ late for the {event}.",
   "key": "he was",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "are you → he was (statement order).",
   "slots": {
    "event": [
     "lesson",
@@ -754,7 +754,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "'When does the {event} start?' I asked {f}. I asked her when ______.",
   "key": "it started",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "does … start → it started.",
   "slots": {
    "event": [
     "film",
@@ -781,7 +781,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "'How old are you?' the {who} at the {place} asked me. He asked me how old ______.",
   "key": "I was",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "are you → I was.",
   "slots": {
    "who": [
     "man",
@@ -808,7 +808,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "'What do you want for {event}?' {m} asked his {who}. He asked her what ______ for {event}.",
   "key": "she wanted",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "do you want → she wanted.",
   "slots": {
    "m": [
     "Aziz",
@@ -845,7 +845,7 @@ export default [
    "I bought",
    "I'd bought"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "did you buy → I had bought.",
   "slots": {
    "f": [
     "Olga",
@@ -875,7 +875,7 @@ export default [
   "acceptable": [
    "costs"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "cost after the subject, past: cost (same form).",
   "slots": {
    "thing": [
     "melon",
@@ -902,7 +902,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "At the {place}, my {who} asked me where ______ (I / am going).",
   "key": "I was going",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "I am going → I was going.",
   "slots": {
    "who": [
     "mum",
@@ -929,7 +929,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "A {who} at the {place} asked me what time ______ (it / is).",
   "key": "it was",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "it is → it was.",
   "slots": {
    "who": [
     "man",
@@ -960,7 +960,7 @@ export default [
    "he left",
    "he'd left"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "did you leave → he had left.",
   "slots": {
    "f": [
     "Olga",
@@ -993,7 +993,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "'How can I help you?' The {who} asked {m} how ______ help him.",
   "key": "she could",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "can I → she could.",
   "slots": {
    "who": [
     "receptionist",
@@ -1023,7 +1023,7 @@ export default [
   "acceptable": [
    "is"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "is the … → the … was.",
   "slots": {
    "place": [
     "museum",
@@ -1054,7 +1054,7 @@ export default [
    "he ate",
    "he'd eaten"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "did you eat → he had eaten.",
   "slots": {
    "event": [
     "wedding",
@@ -1081,7 +1081,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "My {who} asked me when ______ (I / will come) back from {city}.",
   "key": "I would come",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "I will come → I would come.",
   "slots": {
    "who": [
     "mum",
@@ -1114,7 +1114,7 @@ export default [
   "acceptable": [
    "I know"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "do you know → I knew.",
   "slots": {
    "m": [
     "Aziz",
@@ -1144,7 +1144,7 @@ export default [
   "acceptable": [
    "I take"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "do you take → I took.",
   "slots": {
    "place": [
     "airport",
@@ -1171,7 +1171,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "'Why is the {shop} closed?' {m} asked. He asked why the {shop} ______ closed, {f}.",
   "key": "was",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "is the … closed → the … was closed.",
   "slots": {
    "shop": [
     "bank",
@@ -1204,7 +1204,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "My {who} asked me where ______ (I / have been) all {time}.",
   "key": "I had been",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "I have been → I had been.",
   "slots": {
    "time": [
     "day",
@@ -1234,7 +1234,7 @@ export default [
   "instr": "Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question).",
   "source": "{f} asked me what ______ (I / am doing) in {city}.",
   "key": "I was doing",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "I am doing → I was doing.",
   "slots": {
    "f": [
     "Olga",
@@ -1265,7 +1265,7 @@ export default [
   "acceptable": [
    "where I work"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "Where do you work? → where I worked.",
   "slots": {
    "f": [
     "Olga",
@@ -1287,7 +1287,7 @@ export default [
   "source": "'What are you cooking?' my {who} asked me.",
   "hint": "My {who} asked me ______.",
   "key": "what I was cooking",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "What are you cooking? → what I was cooking.",
   "slots": {
    "who": [
     "sister",
@@ -1309,7 +1309,7 @@ export default [
   "source": "'Why are you so tired?' the {who} asked {m}.",
   "hint": "The {who} asked {m} ______.",
   "key": "why he was so tired",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "Why are you so tired? → why he was so tired.",
   "slots": {
    "who": [
     "teacher",
@@ -1341,7 +1341,7 @@ export default [
    "when I arrived",
    "when I'd arrived"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "When did you arrive? → when I had arrived.",
   "slots": {
    "f": [
     "Olga",
@@ -1372,7 +1372,7 @@ export default [
   "acceptable": [
    "how to get"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "How do you get? → how he got.",
   "slots": {
    "m": [
     "Aziz",
@@ -1403,7 +1403,7 @@ export default [
   "acceptable": [
    "I live"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "No did in a report: where I lived.",
   "slots": {
    "f": [
     "Olga",
@@ -1425,7 +1425,7 @@ export default [
   "source": "{m} asked me what was I doing in {city}.",
   "hint": "{m} asked me what ______ in {city}.",
   "key": "I was doing",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "Subject first: what I was doing.",
   "slots": {
    "m": [
     "Aziz",
@@ -1450,16 +1450,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The {who} asked us why were we late.",
-  "hint": "The {who} asked us why ______ late.",
+  "source": "The {who} asked us why were we {adj}.",
+  "hint": "The {who} asked us why ______ {adj}.",
   "key": "we were",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "Subject first: why we were.",
   "slots": {
    "who": [
     "teacher",
     "coach",
     "manager",
     "director"
+   ],
+   "adj": [
+    "late",
+    "so quiet",
+    "tired",
+    "angry"
    ]
   }
  },
@@ -1475,7 +1481,7 @@ export default [
   "source": "{f} asked {m} when does the {event} start.",
   "hint": "{f} asked {m} when the {event} ______.",
   "key": "started",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "No does in a report: the … started.",
   "slots": {
    "f": [
     "Olga",
@@ -1509,7 +1515,7 @@ export default [
   "source": "My {who} asked me where I have been.",
   "hint": "My {who} asked me where ______.",
   "key": "I had been",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "Past report: have been → had been.",
   "slots": {
    "who": [
     "dad",
@@ -1537,7 +1543,7 @@ export default [
   "acceptable": [
    "leaves"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "What time does … leave? → the … left.",
   "slots": {
    "m": [
     "Aziz",
@@ -1568,7 +1574,7 @@ export default [
   "acceptable": [
    "where I am from"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "Where are you from? → where I was from.",
   "slots": {
    "who": [
     "driver",
@@ -1594,7 +1600,7 @@ export default [
    "I paid",
    "I'd paid"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "How much did you pay? → I had paid.",
   "slots": {
    "f": [
     "Olga",
@@ -1622,7 +1628,7 @@ export default [
   "source": "'Who are you waiting for?' the {who} asked {m}.",
   "hint": "The {who} wanted to know who ______ for.",
   "key": "he was waiting",
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "Who are you waiting for? → he was waiting.",
   "slots": {
    "who": [
     "guard",
@@ -1654,7 +1660,7 @@ export default [
    "I chose",
    "I'd chosen"
   ],
-  "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
+  "why": "Why did you choose? → I had chosen.",
   "slots": {
    "f": [
     "Olga",
