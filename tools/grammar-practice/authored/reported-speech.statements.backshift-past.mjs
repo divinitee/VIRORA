@@ -128,5 +128,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/reported-speech.statements.backshift-past.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "'I saw' moves back a step: saw → had seen.",
+   "'We went' moves back a step: had gone.",
+   "'I ate' moves back a step: had eaten.",
+   "'I took' moves back a step: had taken.",
+   "'I wrote' moves back a step: had written.",
+   "'I forgot' moves back a step: had forgotten.",
+   "'I broke' moves back a step: had broken.",
+   "'I gave' moves back a step: had given.",
+   "'I did' moves back a step: had done.",
+   "'I spoke' moves back a step: had spoken.",
+   "'I fell off' moves back a step: had fallen.",
+   "'We drove' moves back a step: had driven.",
+   "'Someone took' moves back a step: had taken.",
+   "'I swam' moves back a step: had swum.",
+   "'We chose' moves back a step: had chosen.",
+   "'I wore' moves back a step: had worn.",
+   "'I knew' moves back a step: had known.",
+   "'I've lost' (present perfect) moves back: had lost.",
+   "'I've never been' moves back: have → had.",
+   "'I've already done' moves back: have → had."
+  ],
+  "build": [
+   "began moves back: had + begun.",
+   "flew moves back: had + flown.",
+   "rode moves back: had + ridden.",
+   "sang moves back: had + sung.",
+   "drew moves back: had + drawn.",
+   "hid moves back: had + hidden.",
+   "threw moves back: had + thrown.",
+   "saw moves back: had + seen.",
+   "went moves back: had + gone.",
+   "ate moves back: had + eaten.",
+   "took a lot of photos: had + taken.",
+   "wrote moves back: had + written.",
+   "forgot moves back: had + forgotten.",
+   "broke moves back: had + broken.",
+   "gave away moves back: had + given.",
+   "spoke moves back: had + spoken.",
+   "fell asleep moves back: had + fallen.",
+   "drove all night: had + driven.",
+   "Somebody took it: had + taken.",
+   "wore moves back: had + worn."
+  ],
+  "transform": [
+   "I went → he had gone.",
+   "I saw → she had seen.",
+   "We ate → they had eaten.",
+   "I forgot → he had forgotten.",
+   "I broke → she had broken.",
+   "Past report: has seen → had seen.",
+   "had + past participle: gone, not went.",
+   "had + past participle: taken, not took.",
+   "Past report: have driven → had driven.",
+   "had + past participle: written, not wrote.",
+   "I've finished → she had finished.",
+   "I've lost → he had lost.",
+   "We've never been → had never been.",
+   "I've already eaten → had already eaten.",
+   "I've just bought → had just bought."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
