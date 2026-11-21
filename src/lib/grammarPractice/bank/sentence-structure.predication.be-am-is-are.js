@@ -1175,7 +1175,7 @@ export default [
    ],
    "name": [
     "Aziz",
-    "Olga",
+    "Dilnoza",
     "Timur",
     "Malika"
    ]
@@ -1342,7 +1342,7 @@ export default [
     "rice"
    ],
    "name": [
-    "Aziz",
+    "Dilnoza",
     "Olga",
     "Timur",
     "Malika"
@@ -1511,9 +1511,9 @@ export default [
    ],
    "name": [
     "Aziz",
-    "Olga",
+    "Dilnoza",
     "Timur",
-    "Malika"
+    "Sardor"
    ]
   }
  },
@@ -1568,7 +1568,7 @@ export default [
    "name": [
     "Aziz",
     "Olga",
-    "Timur",
+    "Dilnoza",
     "Malika"
    ]
   }

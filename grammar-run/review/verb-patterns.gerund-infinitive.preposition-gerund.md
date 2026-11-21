@@ -207,8 +207,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After a preposition (before) the verb takes -ing: before eating.
 
 4. _Join the ideas into one sentence. Use an -ing form after the preposition._  
-   **Madina** swims very well, **Aziz**.  
-   → **Madina** is good at ______, **Aziz**.  
+   **Madina** swims very well, **Dilnoza**.  
+   → **Madina** is good at ______, **Dilnoza**.  
    key: swimming  
    why: After a preposition (at) the verb takes -ing: at swimming.
 

@@ -1454,7 +1454,7 @@ export default [
     "class project"
    ],
    "name": [
-    "Aziz",
+    "Dilnoza",
     "Olga",
     "Timur",
     "Malika"
