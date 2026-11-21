@@ -815,7 +815,9 @@
   "acceptable": [
    "whether I had seen",
    "if I saw",
-   "whether I saw"
+   "whether I saw",
+   "if I'd seen",
+   "whether I'd seen"
   ],
   "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
   "slots": {
@@ -1093,7 +1095,9 @@
   "acceptable": [
    "whether I had locked",
    "if I locked",
-   "whether I locked"
+   "whether I locked",
+   "if I'd locked",
+   "whether I'd locked"
   ],
   "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
   "slots": {
@@ -1375,7 +1379,9 @@
   "hint": "{f} asked us ______ to {city}.",
   "key": "if we had been",
   "acceptable": [
-   "whether we had been"
+   "whether we had been",
+   "if we'd been",
+   "whether we'd been"
   ],
   "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
   "slots": {
@@ -1406,7 +1412,9 @@
   "hint": "My {who} asked me ______ at home that night.",
   "key": "if I would be",
   "acceptable": [
-   "whether I would be"
+   "whether I would be",
+   "if I'd be",
+   "whether I'd be"
   ],
   "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
   "slots": {
@@ -1646,7 +1654,9 @@
   "acceptable": [
    "whether I had paid",
    "if I paid",
-   "whether I paid"
+   "whether I paid",
+   "if I'd paid",
+   "whether I'd paid"
   ],
   "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
   "slots": {
