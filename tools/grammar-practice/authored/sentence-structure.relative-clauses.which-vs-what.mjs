@@ -163,10 +163,10 @@ const VARIETY = {
    "After a comma, about the whole idea: which.",
    "After a comma, about the rain all …: which.",
    "After a comma, about him cooking: which.",
-   "No noun before it: what = the thing that.",
+   "Nothing before the gap but hear: what = the words that.",
    "No noun before it: what = the things that.",
    "No noun before it: What = the thing that.",
-   "No noun before it: what = the thing that.",
+   "\"not … I ordered\", no noun: what = the thing that.",
    "After exactly, no noun: what.",
    "After believe, no noun: what.",
    "After understand, no noun: what.",
@@ -190,14 +190,14 @@ const VARIETY = {
    "No noun before it: what he said.",
    "No noun before it: what you bought.",
    "At the start, no noun: What you need.",
-   "No noun before it: what happened.",
+   "\"We can't change …\", no noun after it: what happened.",
    "No noun before it: what you were looking for.",
    "No noun before it: what I can."
   ],
   "transform": [
    "After a noun, never what: which.",
    "After a noun (the …): which, not what.",
-   "After a noun (the …): which, not what.",
+   "\"the … I told you about\" has a noun first: which.",
    "After a comma about the whole idea: which, not what.",
    "After a comma about the snow: which, not what.",
    "No noun: what, not that.",
@@ -209,7 +209,93 @@ const VARIETY = {
    "the thing that → what.",
    "The things that → What (with was).",
    "the things that → what.",
-   "The thing that → What."
+   "The thing that I like → What I like."
+  ],
+  "slot": [
+   [
+    "choose",
+    13,
+    "teacher",
+    "who",
+    [
+     "teacher",
+     "doctor",
+     "driver",
+     "guide"
+    ]
+   ],
+   [
+    "choose",
+    15,
+    "now",
+    "when",
+    [
+     "now",
+     "today",
+     "this week",
+     "tonight"
+    ]
+   ],
+   [
+    "choose",
+    18,
+    "believe",
+    "v",
+    [
+     "believe",
+     "forget",
+     "understand",
+     "explain"
+    ]
+   ],
+   [
+    "choose",
+    20,
+    "ate",
+    "verb",
+    [
+     "ate",
+     "saw",
+     "bought",
+     "heard"
+    ]
+   ],
+   [
+    "build",
+    9,
+    "sad",
+    "feel",
+    [
+     "sad",
+     "angry",
+     "upset",
+     "unhappy"
+    ]
+   ],
+   [
+    "build",
+    12,
+    "kind",
+    "adj",
+    [
+     "kind",
+     "nice",
+     "good",
+     "sweet"
+    ]
+   ],
+   [
+    "build",
+    14,
+    "food",
+    "what",
+    [
+     "food",
+     "people",
+     "weather",
+     "music"
+    ]
+   ]
   ]
  }
 };
