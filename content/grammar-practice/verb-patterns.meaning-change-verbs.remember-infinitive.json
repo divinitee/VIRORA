@@ -7,7 +7,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Please remember ______ the door when you leave, {name}.",
+  "prompt": "Please remember ______ the {thing} when you leave, {name}.",
   "options": [
    "to lock",
    "locking",
@@ -22,6 +22,12 @@
     "Dilnoza",
     "Ulugbek",
     "Malika"
+   ],
+   "thing": [
+    "door",
+    "gate",
+    "window",
+    "garage"
    ]
   }
  },
@@ -129,7 +135,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Will you remember ______ the {pet} while I'm away?",
+  "prompt": "Will you remember ______ the {pet} while I'm {absent}?",
   "options": [
    "to feed",
    "feeding",
@@ -144,6 +150,12 @@
     "dog",
     "fish",
     "parrot"
+   ],
+   "absent": [
+    "away",
+    "on holiday",
+    "at work",
+    "on my trip"
    ]
   }
  },
@@ -187,7 +199,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Always remember ______ off the {thing} before you go to bed.",
+  "prompt": "Always remember ______ off the {thing} before you go to {go}.",
   "options": [
    "turn",
    "turned",
@@ -202,6 +214,12 @@
     "lights",
     "heater",
     "TV"
+   ],
+   "go": [
+    "bed",
+    "sleep",
+    "work",
+    "school"
    ]
   }
  },
@@ -341,7 +359,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Please remember ______ your answers before you finish the {test}.",
+  "prompt": "Please remember ______ your {what} before you finish the {test}.",
   "options": [
    "checked",
    "to check",
@@ -356,6 +374,12 @@
     "test",
     "quiz",
     "form"
+   ],
+   "what": [
+    "answers",
+    "spelling",
+    "names",
+    "work"
    ]
   }
  },
@@ -399,7 +423,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Remember ______ the windows if it starts to rain, {name}.",
+  "prompt": "Remember ______ the {what} if it starts to rain, {name}.",
   "options": [
    "closing",
    "close",
@@ -414,6 +438,12 @@
     "Dilnoza",
     "Ulugbek",
     "Malika"
+   ],
+   "what": [
+    "windows",
+    "door",
+    "car windows",
+    "balcony door"
    ]
   }
  },
@@ -425,7 +455,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I always remember ______ my {thing} at night.",
+  "prompt": "I always remember ______ my {thing} at {when}.",
   "options": [
    "charge",
    "charged",
@@ -440,6 +470,12 @@
     "laptop",
     "watch",
     "tablet"
+   ],
+   "when": [
+    "night",
+    "bedtime",
+    "the weekend",
+    "home"
    ]
   }
  },
@@ -573,7 +609,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Please remember ______ this letter to your {who}.",
+  "prompt": "Please remember ______ this {item} to your {who}.",
   "options": [
    "gave",
    "to give",
@@ -588,6 +624,12 @@
     "teacher",
     "boss",
     "neighbour"
+   ],
+   "item": [
+    "letter",
+    "parcel",
+    "book",
+    "key"
    ]
   }
  },
@@ -654,7 +696,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "I must remember ______ (call) the {who} on Monday.",
+  "source": "I must remember ______ (call) the {who} on {day}.",
   "key": "to call",
   "why": "It is a task still to do, so remember + to + base: to call.",
   "slots": {
@@ -663,6 +705,12 @@
     "bank",
     "school",
     "plumber"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Sunday"
    ]
   }
  },
@@ -810,7 +858,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "You must remember ______ (pay) for the {thing} online.",
+  "source": "You must remember ______ (pay) for the {thing} {how}.",
   "key": "to pay",
   "why": "It is a task still to do, so remember + to + base: to pay.",
   "slots": {
@@ -819,6 +867,12 @@
     "course",
     "hotel",
     "parking"
+   ],
+   "how": [
+    "online",
+    "today",
+    "by Friday",
+    "at the desk"
    ]
   }
  },
@@ -858,7 +912,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "Please remember ______ (check) the {thing} before the trip.",
+  "source": "Please remember ______ (check) the {thing} before the {trip}.",
   "key": "to check",
   "why": "It is a task still to do, so remember + to + base: to check.",
   "slots": {
@@ -867,6 +921,12 @@
     "tickets",
     "weather",
     "oil"
+   ],
+   "trip": [
+    "trip",
+    "flight",
+    "drive",
+    "journey"
    ]
   }
  },
@@ -933,7 +993,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "Always remember ______ (drink) water during the {sport}.",
+  "source": "Always remember ______ (drink) {drink} during the {sport}.",
   "key": "to drink",
   "why": "It is a task still to do, so remember + to + base: to drink.",
   "slots": {
@@ -942,6 +1002,12 @@
     "training",
     "race",
     "game"
+   ],
+   "drink": [
+    "water",
+    "juice",
+    "tea",
+    "something"
    ]
   }
  },
@@ -981,7 +1047,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "I hope she remembers ______ (write) her address on the {form}.",
+  "source": "I hope she remembers ______ (write) her {what} on the {form}.",
   "key": "to write",
   "why": "It is a task still to do, so remember + to + base: to write.",
   "slots": {
@@ -990,6 +1056,12 @@
     "parcel",
     "list",
     "card"
+   ],
+   "what": [
+    "address",
+    "name",
+    "phone number",
+    "email"
    ]
   }
  },
@@ -1056,7 +1128,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "Please remember ______ (give) the {who} the keys back.",
+  "source": "Please remember ______ (give) the {who} the {what} back.",
   "key": "to give",
   "why": "It is a task still to do, so remember + to + base: to give.",
   "slots": {
@@ -1065,6 +1137,12 @@
     "landlord",
     "neighbour",
     "caretaker"
+   ],
+   "what": [
+    "keys",
+    "books",
+    "money",
+    "bike"
    ]
   }
  },
@@ -1247,7 +1325,7 @@
   "source": "Don't forget: bring your {thing} tomorrow, {name}.",
   "hint": "Remember ______ your {thing} tomorrow, {name}.",
   "key": "to bring",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: bring\" = Remember to bring.",
   "slots": {
    "thing": [
     "passport",
@@ -1275,7 +1353,7 @@
   "source": "Don't forget: water the {plant} on Sunday, {name}.",
   "hint": "Remember ______ the {plant} on Sunday, {name}.",
   "key": "to water",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: water\" = Remember to water.",
   "slots": {
    "plant": [
     "flowers",
@@ -1303,7 +1381,7 @@
   "source": "Don't forget: pay the {bill} this week, {name}.",
   "hint": "Remember ______ the {bill} this week, {name}.",
   "key": "to pay",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: pay\" = Remember to pay.",
   "slots": {
    "bill": [
     "rent",
@@ -1331,7 +1409,7 @@
   "source": "Don't forget: send me the {doc} tonight, {name}.",
   "hint": "Remember ______ me the {doc} tonight, {name}.",
   "key": "to send",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: send\" = Remember to send.",
   "slots": {
    "doc": [
     "photos",
@@ -1359,7 +1437,7 @@
   "source": "Don't forget: ask your {who} about Saturday, {name}.",
   "hint": "Remember ______ your {who} about Saturday, {name}.",
   "key": "to ask",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: ask\" = Remember to ask.",
   "slots": {
    "who": [
     "mum",
