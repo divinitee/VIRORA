@@ -69,7 +69,6 @@ const BUILD = [
   ["drinking", "Grandpa stopped ______ (drink) {drink} after his heart problem.", { drink: ["coffee", "cola", "strong tea", "sweet drinks"], x: [] }],
   ["watching", "I stopped ______ (watch) {show} in the evenings and started reading, {name}.", { show: ["TV", "the news", "cartoons", "football"], name: NAME2 }],
   ["worrying", "Stop ______ (worry) about the {thing}, {name}. It's fine.", { thing: ["money", "test", "trip", "car"], name: NAME }],
-  ["shouting", "The {who} stopped ______ (shout) when the police— no, when the manager came.", { who: ["x"], x: [] }],
   ["laughing", "We couldn't stop ______ (laugh) at the {show}, {name}.", { show: ["film", "cartoon", "comedy", "joke"], name: NAME2 }],
   ["buying", "My sister stopped ______ (buy) clothes online after a bad {thing}.", { thing: ["order", "experience", "delivery", "dress"], x: [] }],
   ["calling", "The {who} stopped ______ (call) me after the interview, {name}.", { who: ["company", "manager", "agency", "school"], name: NAME }],
@@ -77,7 +76,7 @@ const BUILD = [
   ["ringing", "The alarm stopped ______ (ring) after {n} minutes.", { n: ["two", "five", "ten", "three"], x: [] }],
   ["going", "She stopped ______ (go) to the {place} because it was too expensive.", { place: ["gym", "pool", "club", "café"], x: [] }],
   ["complaining", "Stop ______ (complain) about the {thing}, {name}!", { thing: ["food", "weather", "traffic", "homework"], name: NAME }],
-].filter(([k]) => k !== "shouting").map(([key, source, slots]) => {
+].map(([key, source, slots]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (source.includes(`{${n}}`)) s[n] = f;
   return { ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key, why: `The activity ends: stop + -ing (${key}).`, slots: s };
