@@ -158,7 +158,7 @@ const VARIETY = {
    "\"It started … ago\": too soon to finish: can't be over.",
    "\"He's on the plane\": can't be him on the phone.",
    "\"This … is empty\": can't live here.",
-   "Surprise at a silly idea: can't be serious.",
+   "Surprise at a silly …: can't be serious.",
    "\"She doesn't have one\": can't be hers.",
    "\"The signs say it's behind us\": can't be the way.",
    "\"He's still at school\": can't be that old.",

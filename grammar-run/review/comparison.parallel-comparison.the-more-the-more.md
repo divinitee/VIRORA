@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. ______ the **film**, the more I like it, **Sherzod**.  
    options: ✔ The scarier · Scarier · The scariest · More scarier  
-   why: Scarier film, more liking: scary → The scarier.
+   why: Scarier …, more liking: scary → The scarier.
 
 18. The more people come to the **wedding**, ______ it is, **Nodira**.  
    options: more fun · the most fun · the fun · ✔ the more fun  

@@ -50,7 +50,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 12. There was ______ **sunshine** this **autumn** than last **autumn**.  
    options: lesser · ✔ less · fewer · little  
-   why: snow is uncountable: less snow.
+   why: That weather word is uncountable: less, not fewer.
 
 13. We sold ______ **melons** at the bazaar today than yesterday, **Jamshid**.  
    options: ✔ fewer · less · little · lesser  

@@ -6,7 +6,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. The **lesson** was so ______ that half the class fell asleep, **Malika**.  
    options: ✔ boring · bored · bore · boredom  
-   why: The lesson causes the feeling: boring.
+   why: The … causes the feeling: boring.
 
 2. I'm really ______ about my trip to **Istanbul**, **Feruza**.  
    options: exciting · excite · excitement · ✔ excited  
@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. The **storm** last night was really ______, **Zarina**.  
    options: frighten · fright · ✔ frightening · frightened  
-   why: The storm causes fear: frightening.
+   why: The … causes fear: frightening.
 
 8. We were ______ with the hotel in **Antalya**. The room was dirty, **Feruza**.  
    options: disappointment · ✔ disappointed · disappointing · disappoint  
@@ -89,7 +89,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 1. _Complete with the -ing or -ed adjective of the word in brackets._  
    Nobody laughed. The **film** was really ______ (bore), **Akmal**.  
    key: boring  
-   why: The show causes the feeling: boring.
+   why: The … causes the feeling: boring.
 
 2. _Complete with the -ing or -ed adjective of the word in brackets._  
    The children were ______ (excite) about the trip to the **zoo**, **Jamshid**.  
@@ -119,7 +119,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Complete with the -ing or -ed adjective of the word in brackets._  
    The **film** was so ______ (frighten) that my sister closed her eyes, **Nodira**.  
    key: frightening  
-   why: The film causes fear: frightening.
+   why: The … causes fear: frightening.
 
 8. _Complete with the -ing or -ed adjective of the word in brackets._  
    Our fans were ______ (disappoint) with the result of the **final**, **Nodira**.  
@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Complete with the -ing or -ed adjective of the word in brackets._  
    My little brother's **whistling** is so ______ (annoy), **Jamshid**.  
    key: annoying  
-   why: The singing causes the feeling: annoying.
+   why: The … causes the feeling: annoying.
 
 14. _Complete with the -ing or -ed adjective of the word in brackets._  
    We were ______ (shock) when we saw the **broken window**, **Otabek**.  
@@ -164,12 +164,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 16. _Complete both gaps: how the person feels (-ed) and what causes it (-ing)._  
    I was really ______ (amaze) by the end — it was the most ______ (amaze) **story** I've seen this year, **Nodira**.  
    key: amazed + amazing  
-   why: Feeling → amazed; the film causes it → amazing.
+   why: Feeling → amazed; the … causes it → amazing.
 
 17. _Complete both gaps: how the person feels (-ed) and what causes it (-ing)._  
    The students were ______ (bore) because the **lesson** was so ______ (bore), **Jamshid**.  
    key: bored + boring  
-   why: Feeling → bored; the lesson causes it → boring.
+   why: Feeling → bored; the … causes it → boring.
 
 18. _Complete both gaps: how the person feels (-ed) and what causes it (-ing)._  
    We were ______ (tire) after the trip — the drive to **Almaty** was very ______ (tire), **Jamshid**.  
@@ -179,7 +179,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 19. _Complete both gaps: how the person feels (-ed) and what causes it (-ing)._  
    The fans were ______ (excite) because the **game** was really ______ (excite), **Jamshid**.  
    key: excited + exciting  
-   why: Feeling → excited; the match causes it → exciting.
+   why: Feeling → excited; the … causes it → exciting.
 
 20. _Complete both gaps: how the person feels (-ed) and what causes it (-ing)._  
    I was ______ (confuse) because the instructions for the **form** were ______ (confuse), **Zarina**.  
@@ -198,7 +198,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    The **lecture** was so bored that I fell asleep, **Otabek**.  
    → The **lecture** was so ______ that I fell asleep, **Otabek**.  
    key: boring  
-   why: The film causes the feeling: boring.
+   why: The … causes the feeling: boring.
 
 3. _Correct the mistake._  
    My mum was worrying about the **exam**, **Akmal**.  

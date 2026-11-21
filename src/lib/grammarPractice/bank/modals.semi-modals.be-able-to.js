@@ -1531,7 +1531,7 @@ export default [
   "source": "She came to {city} in May. She still has no {thing}.",
   "hint": "She ______ find a {thing} in {city}.",
   "key": "hasn't been able to",
-  "why": "Since May, no job up to now: hasn't been able to.",
+  "why": "Since May, no … up to now: hasn't been able to.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1621,7 +1621,7 @@ export default [
   "source": "Since the {course}, films in English are easy for him, {name}.",
   "hint": "Since the {course}, he ______ understand films in English, {name}.",
   "key": "has been able to",
-  "why": "Since the course, it's easy now: has been able to.",
+  "why": "Since the …, it's easy now: has been able to.",
   "slots": {
    "course": [
     "course",

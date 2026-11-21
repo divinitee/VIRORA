@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. I'll be there at six ______ the **metro** is late, **Nodira**.  
    options: when · so that · ✔ unless · if  
-   why: I'll be there if the bus isn't late: unless.
+   why: I'll be there if the … isn't late: unless.
 
 8. She won't come to the **wedding** ______ you invite her, **Nodira**.  
    options: so that · ✔ unless · if · when  

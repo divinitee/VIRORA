@@ -177,7 +177,7 @@ export default [
    "must have won"
   ],
   "key": 3,
-  "why": "Smiling with a prize: I'm sure he won: must have won.",
+  "why": "Smiling with a …: I'm sure he won: must have won.",
   "slots": {
    "prize": [
     "cup",

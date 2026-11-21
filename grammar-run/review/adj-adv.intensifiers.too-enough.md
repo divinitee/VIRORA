@@ -10,7 +10,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 2. My brother isn't ______ to drive yet. He's only **fourteen**, **Zarina**.  
    options: enough old · too old · old too · ✔ old enough  
-   why: He is only fifteen: not old enough. enough goes after the adjective.
+   why: He is only …: not old enough. enough goes after the adjective.
 
 3. The **suitcase** was ______ for me to carry, so my dad helped me, **Nodira**.  
    options: enough heavy · too much heavy · ✔ too heavy · heavy enough  
@@ -26,7 +26,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 6. It's ______ to go out without a **scarf** today, **Otabek**.  
    options: cold enough · enough cold · too much cold · ✔ too cold  
-   why: You need a coat, so it is colder than is OK: too cold.
+   why: You need a …, so it is colder than is OK: too cold.
 
 7. My little sister is ______ to reach the **top shelf** now, **Nodira**. She grew a lot this year.  
    options: too tall · tall too · ✔ tall enough · enough tall  
@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Complete with too or enough and the word in brackets._  
    My cousin isn't ______ (old) to vote. He's only **sixteen**, **Sherzod**.  
    key: old enough  
-   why: He is only sixteen: not old enough (adjective + enough).
+   why: He is only …: not old enough (adjective + enough).
 
 3. _Complete with too or enough and the word in brackets._  
    The **box** is ______ (heavy) for one person. Can you help me, **Jamshid**?  

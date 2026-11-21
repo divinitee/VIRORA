@@ -529,7 +529,7 @@ export default [
    "More scarier"
   ],
   "key": 0,
-  "why": "Scarier film, more liking: scary → The scarier.",
+  "why": "Scarier …, more liking: scary → The scarier.",
   "slots": {
    "film": [
     "film",

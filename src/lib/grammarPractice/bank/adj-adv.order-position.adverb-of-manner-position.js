@@ -49,7 +49,7 @@ export default [
    "the front door gently"
   ],
   "key": 3,
-  "why": "No noise for the baby: closed + the front door + gently.",
+  "why": "No noise for the …: closed + the front door + gently.",
   "slots": {
    "baby": [
     "baby",
@@ -273,7 +273,7 @@ export default [
    "the heavy slowly bags"
   ],
   "key": 0,
-  "why": "carried + the heavy bags + slowly, then where (up the stairs).",
+  "why": "carried + the heavy bags + slowly, then where (up the …).",
   "slots": {
    "stairs": [
     "stairs",

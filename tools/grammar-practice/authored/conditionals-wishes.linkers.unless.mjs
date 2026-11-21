@@ -145,7 +145,7 @@ const VARIETY = {
    "Don't call if it isn't important: unless.",
    "They will die if you don't water them: unless.",
    "You can't enter if you don't have a ticket: unless.",
-   "I'll be there if the bus isn't late: unless.",
+   "I'll be there if the … isn't late: unless.",
    "She won't come if you don't invite her: unless.",
    "The picnic is on if it doesn't rain: unless.",
    "You'll get cold if you don't wear one: unless.",

@@ -1171,7 +1171,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "{name} trains {often}, so she is getting ______ (strong).",
   "key": "stronger and stronger",
-  "why": "\"trains every day\": stronger and stronger.",
+  "why": "\"trains …\": stronger and stronger.",
   "slots": {
    "name": [
     "Madina",

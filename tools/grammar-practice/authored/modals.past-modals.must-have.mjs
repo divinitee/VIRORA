@@ -130,7 +130,7 @@ const VARIETY = {
    "Open now: someone did it earlier: must have left.",
    "Lights off now: I'm sure they went: must have gone.",
    "Nothing left: I'm sure they ate it: must have eaten.",
-   "Smiling with a prize: I'm sure he won: must have won.",
+   "Smiling with a …: I'm sure he won: must have won.",
    "She can't find it: I'm sure it was the bus: must have lost.",
    "100%: I'm sure she worked hard: must have studied.",
    "He knows the end: I'm sure he saw it: must have seen.",

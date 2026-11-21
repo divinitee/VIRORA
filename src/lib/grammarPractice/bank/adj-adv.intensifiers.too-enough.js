@@ -49,7 +49,7 @@ export default [
    "old enough"
   ],
   "key": 3,
-  "why": "He is only fifteen: not old enough. enough goes after the adjective.",
+  "why": "He is only …: not old enough. enough goes after the adjective.",
   "slots": {
    "age": [
     "fourteen",
@@ -177,7 +177,7 @@ export default [
    "too cold"
   ],
   "key": 3,
-  "why": "You need a coat, so it is colder than is OK: too cold.",
+  "why": "You need a …, so it is colder than is OK: too cold.",
   "slots": {
    "name": [
     "Zarina",
@@ -679,7 +679,7 @@ export default [
   "instr": "Complete with too or enough and the word in brackets.",
   "source": "My cousin isn't ______ (old) to vote. He's only {age}, {name}.",
   "key": "old enough",
-  "why": "He is only sixteen: not old enough (adjective + enough).",
+  "why": "He is only …: not old enough (adjective + enough).",
   "slots": {
    "age": [
     "sixteen",

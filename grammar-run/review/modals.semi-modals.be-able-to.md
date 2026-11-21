@@ -258,7 +258,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    She came to **Istanbul** in May. She still has no **flat**.  
    → She ______ find a **flat** in **Istanbul**.  
    key: hasn't been able to  
-   why: Since May, no job up to now: hasn't been able to.
+   why: Since May, no … up to now: hasn't been able to.
 
 13. _Rewrite with have / has (or haven't / hasn't) been able to._  
    This **year**, saving some money has been possible for us, **Feruza**.  
@@ -276,7 +276,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Since the **trip**, films in English are easy for him, **Sardor**.  
    → Since the **trip**, he ______ understand films in English, **Sardor**.  
    key: has been able to  
-   why: Since the course, it's easy now: has been able to.
+   why: Since the …, it's easy now: has been able to.
 
 ## create (8)
 

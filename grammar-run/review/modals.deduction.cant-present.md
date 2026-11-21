@@ -154,7 +154,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 14. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
    You ______ (be) serious about the **plan**, **Sherzod**!  
    key: can't be  
-   why: Surprise at a silly idea: can't be serious.
+   why: Surprise at a silly …: can't be serious.
 
 15. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
    That ______ (be) Madina's **bike**. She doesn't have one, **Zarina**.  

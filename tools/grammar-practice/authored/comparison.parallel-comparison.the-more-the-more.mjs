@@ -158,7 +158,7 @@ const VARIETY = {
    "Spend less, save more: the more.",
    "More work, more tiredness: the more tired.",
    "Harder study, a higher mark: the higher.",
-   "Scarier film, more liking: scary → The scarier.",
+   "Scarier …, more liking: scary → The scarier.",
    "More people, more fun: the more fun.",
    "Faster speech, harder to follow: the harder.",
    "Cheaper price, more buyers: the more."

@@ -26,7 +26,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 6. Timur is smiling and holding a **medal**. He ______ the match, **Jamshid**.  
    options: must win · must had won · must have win · ✔ must have won  
-   why: Smiling with a prize: I'm sure he won: must have won.
+   why: Smiling with a …: I'm sure he won: must have won.
 
 7. Lola can't find her **key**. She ______ it on the bus, **Malika**.  
    options: must had lost · must have lose · ✔ must have lost · must lose  

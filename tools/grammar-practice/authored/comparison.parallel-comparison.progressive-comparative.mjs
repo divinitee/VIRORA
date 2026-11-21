@@ -184,7 +184,7 @@ const VARIETY = {
    "good → better: better and better.",
    "bad → worse: worse and worse.",
    "quiet takes -er: quieter and quieter.",
-   "\"trains every day\": stronger and stronger."
+   "\"trains …\": stronger and stronger."
   ],
   "transform": [
    "\"a bit hotter every day\" = hotter and hotter.",

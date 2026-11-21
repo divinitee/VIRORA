@@ -1001,7 +1001,7 @@
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
   "source": "You ______ (be) serious about the {thing}, {name}!",
   "key": "can't be",
-  "why": "Surprise at a silly idea: can't be serious.",
+  "why": "Surprise at a silly …: can't be serious.",
   "slots": {
    "thing": [
     "price",

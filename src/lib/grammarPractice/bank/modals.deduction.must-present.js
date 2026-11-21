@@ -17,7 +17,7 @@ export default [
    "must to"
   ],
   "key": 0,
-  "why": "Lights on and the car outside: strong evidence, so must.",
+  "why": "Lights on and the … outside: strong evidence, so must.",
   "slots": {
    "car": [
     "car",
@@ -497,7 +497,7 @@ export default [
    "mustn't"
   ],
   "key": 1,
-  "why": "Wet streets and umbrellas: I'm sure: must be raining.",
+  "why": "Wet streets and …: I'm sure: must be raining.",
   "slots": {
    "item": [
     "umbrellas",

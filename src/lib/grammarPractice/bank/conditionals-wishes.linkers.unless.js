@@ -209,7 +209,7 @@ export default [
    "if"
   ],
   "key": 2,
-  "why": "I'll be there if the bus isn't late: unless.",
+  "why": "I'll be there if the … isn't late: unless.",
   "slots": {
    "bus": [
     "bus",

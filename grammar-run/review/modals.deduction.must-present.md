@@ -6,7 +6,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. The lights are on and his **bike** is outside. He ______ be at home, **Malika**.  
    options: ✔ must · can't · mustn't · must to  
-   why: Lights on and the car outside: strong evidence, so must.
+   why: Lights on and the … outside: strong evidence, so must.
 
 2. She has worked for **twelve** hours today. She ______ be tired, **Gulnora**.  
    options: can't · mustn't · must to · ✔ must  
@@ -66,7 +66,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 16. The streets are wet and people have **wet coats**. It ______ be raining, **Jamshid**.  
    options: must to · ✔ must · can't · mustn't  
-   why: Wet streets and umbrellas: I'm sure: must be raining.
+   why: Wet streets and …: I'm sure: must be raining.
 
 17. The **Sunrise FC** fans are singing and dancing. Their team ______ be winning, **Ulugbek**.  
    options: ✔ must · can't · mustn't · must to  

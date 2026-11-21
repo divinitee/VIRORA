@@ -124,7 +124,7 @@ const out = "content/grammar-practice/modals.deduction.must-present.json";
 const VARIETY = {
  "why": {
   "choose": [
-   "Lights on and the car outside: strong evidence, so must.",
+   "Lights on and the … outside: strong evidence, so must.",
    "So many hours of work: I'm sure she's tired: must.",
    "No food since then: I'm sure you're hungry: must.",
    "Everyone in coats: strong evidence about the weather: must.",
@@ -139,7 +139,7 @@ const VARIETY = {
    "Ten years there: I'm sure he speaks it: must.",
    "\"She always calls at this time\": I'm sure: must.",
    "Old and from Italy: I'm sure it's expensive: must.",
-   "Wet streets and umbrellas: I'm sure: must be raining.",
+   "Wet streets and …: I'm sure: must be raining.",
    "Singing and dancing fans: I'm sure: must be winning.",
    "He plays every evening: I'm sure: must love.",
    "Flowers in every room: I'm sure: must love.",

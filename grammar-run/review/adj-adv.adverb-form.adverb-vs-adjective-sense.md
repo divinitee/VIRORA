@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. We live ______ the **school**, so we walk there every day, **Akmal**.  
    options: nearness · neared · ✔ near · nearly  
-   why: close to the park: near = close to (a place).
+   why: close to the …: near = close to (a place).
 
 16. Is there a **bank** ______ here, **Ulugbek**?  
    options: neared · ✔ near · nearly · nearness  
@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Use the word in brackets or its -ly form._  
    The **teacher** arrived ______ (late) again this morning, **Gulnora**.  
    key: late  
-   why: The teacher came after the right time: late = not on time / at a late hour.
+   why: The … came after the right time: late = not on time / at a late hour.
 
 3. _Use the word in brackets or its -ly form._  
    Has the weather in **Tashkent** been cold ______ (late), **Gulnora**?  
@@ -119,7 +119,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Use the word in brackets or its -ly form._  
    There's ______ (hard) any **milk** in the fridge, **Sherzod**.  
    key: hardly  
-   why: There is almost no milk: hardly = almost not.
+   why: There is almost no …: hardly = almost not.
 
 8. _Use the word in brackets or its -ly form._  
    My little brother ______ (hard) ever eats **fish**, **Otabek**.  
@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Use the word in brackets or its -ly form._  
    Dr Karimova is a ______ (high) respected **teacher**, **Otabek**.  
    key: highly  
-   why: People respect the doctor very much: highly = very / very well.
+   why: People respect the … very much: highly = very / very well.
 
 16. _Use the word in brackets or its -ly form._  
    The kite flew ______ (high) above the **beach**, **Otabek**.  
@@ -192,7 +192,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I haven't **slept well** recently, **Akmal**.  
    → I haven't **slept well** ______, **Akmal**.  
    key: lately  
-   why: "recently" with the present perfect = lately: haven't slept well lately.
+   why: "recently" with the present perfect = lately: haven't … lately.
 
 2. _Rewrite with lately instead of recently._  
    Have you been to the **gym** recently, **Zarina**?  

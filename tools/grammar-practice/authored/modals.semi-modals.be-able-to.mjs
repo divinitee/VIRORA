@@ -190,10 +190,10 @@ const VARIETY = {
    "will be possible → will be able to.",
    "\"Maybe next week\": not today: won't be able to.",
    "hasn't been possible → haven't been able to.",
-   "Since May, no job up to now: hasn't been able to.",
+   "Since May, no … up to now: hasn't been able to.",
    "has been possible → have been able to.",
    "They wanted to but never could: haven't been able to.",
-   "Since the course, it's easy now: has been able to."
+   "Since the …, it's easy now: has been able to."
   ]
  }
 };

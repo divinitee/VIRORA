@@ -465,7 +465,7 @@ export default [
    "nearly"
   ],
   "key": 2,
-  "why": "close to the park: near = close to (a place).",
+  "why": "close to the …: near = close to (a place).",
   "slots": {
    "place": [
     "park",
@@ -679,7 +679,7 @@ export default [
   "instr": "Use the word in brackets or its -ly form.",
   "source": "The {who} arrived ______ (late) again this morning, {name}.",
   "key": "late",
-  "why": "The teacher came after the right time: late = not on time / at a late hour.",
+  "why": "The … came after the right time: late = not on time / at a late hour.",
   "slots": {
    "who": [
     "teacher",
@@ -814,7 +814,7 @@ export default [
   "instr": "Use the word in brackets or its -ly form.",
   "source": "There's ______ (hard) any {food} in the fridge, {name}.",
   "key": "hardly",
-  "why": "There is almost no milk: hardly = almost not.",
+  "why": "There is almost no …: hardly = almost not.",
   "slots": {
    "name": [
     "Sherzod",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Use the word in brackets or its -ly form.",
   "source": "Dr Karimova is a ______ (high) respected {job}, {name}.",
   "key": "highly",
-  "why": "People respect the doctor very much: highly = very / very well.",
+  "why": "People respect the … very much: highly = very / very well.",
   "slots": {
    "job": [
     "doctor",
@@ -1193,7 +1193,7 @@ export default [
   "source": "I haven't {done} recently, {name}.",
   "hint": "I haven't {done} ______, {name}.",
   "key": "lately",
-  "why": "\"recently\" with the present perfect = lately: haven't slept well lately.",
+  "why": "\"recently\" with the present perfect = lately: haven't … lately.",
   "slots": {
    "name": [
     "Sherzod",

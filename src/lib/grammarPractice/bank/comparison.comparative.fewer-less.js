@@ -369,7 +369,7 @@ export default [
    "little"
   ],
   "key": 1,
-  "why": "snow is uncountable: less snow.",
+  "why": "That weather word is uncountable: less, not fewer.",
   "slots": {
    "season": [
     "winter",

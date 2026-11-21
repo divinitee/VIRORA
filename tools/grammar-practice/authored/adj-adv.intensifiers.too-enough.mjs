@@ -143,11 +143,11 @@ const VARIETY = {
  "why": {
   "choose": [
    "",
+   "He is only …: not old enough. enough goes after the adjective.",
    "",
    "",
    "",
-   "",
-   "",
+   "You need a …, so it is colder than is OK: too cold.",
    "",
    "",
    "",
@@ -165,7 +165,7 @@ const VARIETY = {
   ],
   "build": [
    "",
-   "",
+   "He is only …: not old enough (adjective + enough).",
    "",
    "",
    "",

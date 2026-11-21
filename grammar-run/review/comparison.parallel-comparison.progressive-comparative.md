@@ -184,7 +184,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 20. _Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets._  
    **Sevara** trains **every morning**, so she is getting ______ (strong).  
    key: stronger and stronger  
-   why: "trains every day": stronger and stronger.
+   why: "trains …": stronger and stronger.
 
 ## transform (15)
 

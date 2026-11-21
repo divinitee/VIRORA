@@ -151,7 +151,7 @@ const VARIETY = {
    "friends can be counted: fewer friends.",
    "time is uncountable: less time.",
    "problems can be counted: fewer problems.",
-   "snow is uncountable: less snow.",
+   "That weather word is uncountable: less, not fewer.",
    "The goods are plural, so: fewer.",
    "sugar is uncountable: less sugar.",
    "students can be counted: fewer students.",

@@ -17,7 +17,7 @@ export default [
    "boredom"
   ],
   "key": 0,
-  "why": "The lesson causes the feeling: boring.",
+  "why": "The … causes the feeling: boring.",
   "slots": {
    "thing": [
     "lecture",
@@ -209,7 +209,7 @@ export default [
    "frightened"
   ],
   "key": 2,
-  "why": "The storm causes fear: frightening.",
+  "why": "The … causes fear: frightening.",
   "slots": {
    "name": [
     "Nodira",
@@ -652,7 +652,7 @@ export default [
   "instr": "Complete with the -ing or -ed adjective of the word in brackets.",
   "source": "Nobody laughed. The {show} was really ______ (bore), {name}.",
   "key": "boring",
-  "why": "The show causes the feeling: boring.",
+  "why": "The … causes the feeling: boring.",
   "slots": {
    "show": [
     "show",
@@ -814,7 +814,7 @@ export default [
   "instr": "Complete with the -ing or -ed adjective of the word in brackets.",
   "source": "The {film} was so ______ (frighten) that my sister closed her eyes, {name}.",
   "key": "frightening",
-  "why": "The film causes fear: frightening.",
+  "why": "The … causes fear: frightening.",
   "slots": {
    "film": [
     "film",
@@ -976,7 +976,7 @@ export default [
   "instr": "Complete with the -ing or -ed adjective of the word in brackets.",
   "source": "My little brother's {habit} is so ______ (annoy), {name}.",
   "key": "annoying",
-  "why": "The singing causes the feeling: annoying.",
+  "why": "The … causes the feeling: annoying.",
   "slots": {
    "habit": [
     "singing",
@@ -1060,7 +1060,7 @@ export default [
    "amazed",
    "amazing"
   ],
-  "why": "Feeling → amazed; the film causes it → amazing.",
+  "why": "Feeling → amazed; the … causes it → amazing.",
   "slots": {
    "film": [
     "film",
@@ -1090,7 +1090,7 @@ export default [
    "bored",
    "boring"
   ],
-  "why": "Feeling → bored; the lesson causes it → boring.",
+  "why": "Feeling → bored; the … causes it → boring.",
   "slots": {
    "thing": [
     "lecture",
@@ -1150,7 +1150,7 @@ export default [
    "excited",
    "exciting"
   ],
-  "why": "Feeling → excited; the match causes it → exciting.",
+  "why": "Feeling → excited; the … causes it → exciting.",
   "slots": {
    "match": [
     "match",
@@ -1236,7 +1236,7 @@ export default [
   "source": "The {thing} was so bored that I fell asleep, {name}.",
   "hint": "The {thing} was so ______ that I fell asleep, {name}.",
   "key": "boring",
-  "why": "The film causes the feeling: boring.",
+  "why": "The … causes the feeling: boring.",
   "slots": {
    "thing": [
     "film",
