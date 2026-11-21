@@ -497,7 +497,7 @@ test('quick return after a conduct ending: she notices it was minutes, recap rec
   const svc = fakeDb();
   const s1 = fakeServices();
   const a = await startVoiceLesson({ svc, user: student, body: { persona: 'vira' }, env, fetchImpl: s1.fetchImpl, now: T0 });
-  const rude = fakeServices({ brain: brainAnswer({ rude: true, end_lesson: true, summary: 'Ended.' }) });
+  const rude = fakeServices({ brain: brainAnswer({ rude: true, summary: 'Ended.' }) }); // the server ends it at strike 3
   let t;
   for (let i = 0; i < 3; i++) t = await voiceTurnText({ svc, user: student, body: { lesson_id: a.body.lesson_id, text: 'rude words here' }, env, fetchImpl: rude.fetchImpl, now: T0 + 60000 * (i + 1) });
   assert.equal(t.body.ended, true);
