@@ -527,7 +527,7 @@
    "being"
   ],
   "key": 0,
-  "why": "\"to {city}\" after ever: been (had you ever been to).",
+  "why": "\"to\" + a place after ever needs been: had you ever been to.",
   "slots": {
    "city": [
     "Khiva",
@@ -972,7 +972,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the past participle of the verb in brackets.",
-  "source": "My {who} had never ______ (do) a {sport} lesson before, so the coach helped him.",
+  "source": "My cousin had never ______ (do) a {sport} {kind} before, so the coach helped him.",
   "key": "done",
   "why": "\"so the coach helped him\": do → done.",
   "slots": {
@@ -982,11 +982,11 @@
     "chess",
     "swimming"
    ],
-   "who": [
-    "cousin",
-    "brother",
-    "nephew",
-    "friend"
+   "kind": [
+    "lesson",
+    "class",
+    "training session",
+    "match"
    ]
   }
  },

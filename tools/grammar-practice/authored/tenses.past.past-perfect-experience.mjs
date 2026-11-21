@@ -170,7 +170,7 @@ const VARIETY = {
    "No real-match experience: throw → thrown (not threw).",
    "Had you ever …? + go → gone.",
    "Had … ever …? + see → seen (not saw).",
-   "\"to {city}\" after ever: been (had you ever been to).",
+   "\"to\" + a place after ever needs been: had you ever been to.",
    "\"the first time … had\" + break → broken.",
    "\"the first time … had\" + grow → grown (not grew).",
    "\"the first time … had\" + draw → drawn (not drew)."
@@ -278,18 +278,6 @@ const VARIETY = {
   ],
   [
    "build",
-   13,
-   "cousin",
-   "who",
-   [
-    "cousin",
-    "brother",
-    "nephew",
-    "friend"
-   ]
-  ],
-  [
-   "build",
    18,
    "last night",
    "when",
@@ -322,6 +310,18 @@ const VARIETY = {
     "the radio",
     "stage",
     "the news"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "lesson",
+   "kind",
+   [
+    "lesson",
+    "class",
+    "training session",
+    "match"
    ]
   ]
  ]
