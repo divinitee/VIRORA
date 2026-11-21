@@ -129,5 +129,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/reported-speech.statements.say-tell.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "No listener after the gap, just that: said.",
+   "No listener after the gap: said she was tired.",
+   "No listener, just that: said.",
+   "No listener, just it would rain: said.",
+   "Before the exact words 'I'm hungry': said.",
+   "No listener after the gap: said the … was.",
+   "No listener, just that: said.",
+   "Fixed phrase say hello: said hello.",
+   "After did, base form, no listener: say.",
+   "Fixed phrase say goodbye: said goodbye.",
+   "A listener (me) after the gap: told me.",
+   "tell a story: told us a story.",
+   "A listener (my …) after the gap: told.",
+   "A listener (you) after the gap: told you.",
+   "Fixed phrase tell the truth: told.",
+   "tell a secret, with a listener (me): told.",
+   "tell a story, with a listener (the children): told.",
+   "A listener (me) after the gap: told me.",
+   "After did, base form, a listener follows: tell.",
+   "tell someone the way: told him the way."
+  ],
+  "build": [
+   "No person after the gap, just that: said.",
+   "No person after the gap: said the … was.",
+   "No person, just that: said.",
+   "No person after the gap: said the … was.",
+   "No person after the gap: everyone said.",
+   "Fixed phrase say sorry: said.",
+   "No person after the gap: said she liked.",
+   "Before exact words in quotes: said.",
+   "After did, base form, no person: say.",
+   "say anything, no person: said.",
+   "A person (me) after the gap: told.",
+   "tell someone about something: told us about.",
+   "tell a joke, with a person (me): told.",
+   "A person (you) after the gap: told.",
+   "Fixed phrase tell the truth: told.",
+   "tell a story to the class: told.",
+   "After did, base form, a person follows: tell.",
+   "A person (me) after the gap: told.",
+   "tell someone your name: told.",
+   "Please + base form, a person follows: tell."
+  ],
+  "transform": [
+   "say has no listener after it: told me.",
+   "tell needs a listener: said that.",
+   "A story with us: told us a story.",
+   "tell + person, no to: told me.",
+   "No listener after the gap: said.",
+   "said to me = told me.",
+   "said to us = told us.",
+   "said to the students = told the students.",
+   "said to his … = told his ….",
+   "said to me = told me.",
+   "Remove the listener: said.",
+   "Remove us: said.",
+   "Remove me: said.",
+   "No listener now: said.",
+   "Remove her …: said."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
