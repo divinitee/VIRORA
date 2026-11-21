@@ -1269,7 +1269,7 @@
   "source": "{b} taught hisself to {skill}.",
   "hint": "{b} taught ______ to {skill}.",
   "key": "himself",
-  "why": "himself, never hisself.",
+  "why": "The word is himself, never hisself.",
   "slots": {
    "b": [
     "Aziz",
@@ -1297,7 +1297,7 @@
   "source": "The kids made theirselves some {food} {when}.",
   "hint": "The kids made ______ some {food} {when}.",
   "key": "themselves",
-  "why": "themselves, never theirselves.",
+  "why": "The word is themselves, never theirselves.",
   "slots": {
    "food": [
     "sandwiches",
