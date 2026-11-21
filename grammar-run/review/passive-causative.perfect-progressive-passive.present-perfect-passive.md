@@ -109,7 +109,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 5. _Complete with has been or have been + the past participle of the verb in brackets._  
    Your **office** ______ (paint) blue, **Sherzod**.  
    key: has been painted  
-   why: paint, one room: has been painted.
+   why: paint → painted, one thing: has been painted.
 
 6. _Complete with has been or have been + the past participle of the verb in brackets._  
    Your **kitten** ______ (find), **Nodira**!  

@@ -161,7 +161,7 @@ const VARIETY = {
    "build → built: has been built.",
    "\"until May\": has been postponed.",
    "\"at last\": has been repaired.",
-   "paint, one room: has been painted.",
+   "paint → painted, one thing: has been painted.",
    "find → found: has been found.",
    "Our class (one group): has been invited.",
    "\"You can go in\": has been cleaned.",

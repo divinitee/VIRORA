@@ -760,7 +760,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "Your {room} ______ (paint) blue, {name}.",
   "key": "has been painted",
-  "why": "paint, one room: has been painted.",
+  "why": "paint → painted, one thing: has been painted.",
   "slots": {
    "room": [
     "room",
