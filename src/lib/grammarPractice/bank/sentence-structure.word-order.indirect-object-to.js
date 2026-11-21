@@ -529,7 +529,7 @@ export default [
    "–"
   ],
   "key": 0,
-  "why": "A cake made to please her: make … for.",
+  "why": "Something baked to please her: make … for.",
   "slots": {
    "name": [
     "Olga",
@@ -853,7 +853,7 @@ export default [
   "instr": "Write to or for.",
   "source": "He lent his {thing} ______ me {when}.",
   "key": "to",
-  "why": "lend, the thing goes to me: to.",
+  "why": "He gave it to me for a while: lent … to.",
   "slots": {
    "thing": [
     "car",

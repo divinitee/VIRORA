@@ -161,7 +161,7 @@ const VARIETY = {
    "explain the thing to the people: to.",
    "A present that helps her: buy … for.",
    "Cooking that helps us: cook … for.",
-   "A cake made to please her: make … for.",
+   "Something baked to please her: make … for.",
    "Finding something to help her: find … for.",
    "Booking to help us: book … for.",
    "Keeping it to help you: keep … for."
@@ -174,7 +174,7 @@ const VARIETY = {
    "say sorry to someone: to.",
    "show, the thing goes to the driver: to.",
    "introduce someone to someone: to.",
-   "lend, the thing goes to me: to.",
+   "He gave it to me for a while: lent … to.",
    "pass, the thing goes to …: to.",
    "hand, the thing goes to the waiter: to.",
    "buy, as a present that helps her: for.",

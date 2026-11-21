@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. **Olga** made a **pie** ______ her grandmother.  
    options: ✔ for · to · at · –  
-   why: A cake made to please her: make … for.
+   why: Something baked to please her: make … for.
 
 18. Can you find a seat ______ my grandmother, **Olga**? She's **eighty**.  
    options: to · at · – · ✔ for  
@@ -124,7 +124,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 8. _Write to or for._  
    He lent his **car** ______ me **last night**.  
    key: to  
-   why: lend, the thing goes to me: to.
+   why: He gave it to me for a while: lent … to.
 
 9. _Write to or for._  
    Pass the **bread** ______ **Timur**, please!  
