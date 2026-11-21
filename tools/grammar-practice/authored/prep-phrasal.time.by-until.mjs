@@ -195,10 +195,10 @@ const VARIETY = {
   ],
   "transform": [
    "",
+   "not later than a time → by + that time.",
    "",
    "",
-   "",
-   "",
+   "not later than a date → by + the date.",
    "",
    "",
    "",

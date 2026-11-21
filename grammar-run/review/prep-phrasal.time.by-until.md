@@ -198,7 +198,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    The **job** must be finished not later than **six o'clock**, **Malika**.  
    → The **job** must be finished ______ **six o'clock**, **Malika**.  
    key: by  
-   why: not later than = by.
+   why: not later than a time → by + that time.
 
 3. _Rewrite with by._  
    Be at the **station** at seven or a bit earlier, **Feruza**.  
@@ -216,7 +216,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Pay the bill not later than the 10th of **October**, **Malika**.  
    → Pay the bill ______ the 10th of **October**, **Malika**.  
    key: by  
-   why: not later than = by.
+   why: not later than a date → by + the date.
 
 6. _Make one sentence with until._  
    We started waiting at two. We stopped waiting at **six o'clock**, **Akmal**.  

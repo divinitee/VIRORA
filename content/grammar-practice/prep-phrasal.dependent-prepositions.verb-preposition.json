@@ -842,7 +842,7 @@
   "instr": "Write the preposition that goes with the verb.",
   "source": "Our team consists ______ eleven {who} and a coach, {name}.",
   "key": "of",
-  "why": "Eleven players and a coach make the team: consists of.",
+  "why": "Eleven … and a coach make the team: consists of.",
   "slots": {
    "who": [
     "players",

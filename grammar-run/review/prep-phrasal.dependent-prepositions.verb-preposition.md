@@ -124,7 +124,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 8. _Write the preposition that goes with the verb._  
    Our team consists ______ eleven **girls** and a coach, **Sardor**.  
    key: of  
-   why: Eleven players and a coach make the team: consists of.
+   why: Eleven … and a coach make the team: consists of.
 
 9. _Write the preposition that goes with the verb._  
    Please don't laugh ______ my **cake**, **Akmal**. I made it myself.  

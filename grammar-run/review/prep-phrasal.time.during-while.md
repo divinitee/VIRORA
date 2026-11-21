@@ -6,7 +6,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. My phone rang twice ______ the **lesson**, **Jamshid**.  
    options: ✔ during · while · meanwhile · whereas  
-   why: "the …" is a noun: during.
+   why: Only a noun phrase after the gap (the …): during.
 
 2. Someone called ______ I was in the **shower**, **Otabek**.  
    options: ✔ while · meanwhile · whereas · during  
@@ -14,7 +14,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 3. Grandpa fell asleep ______ the **match**, **Jamshid**.  
    options: meanwhile · whereas · ✔ during · while  
-   why: "the …" is a noun: during.
+   why: "the …" with no verb after it: during.
 
 4. The **guests** arrived ______ we were having dinner, **Zarina**.  
    options: whereas · during · ✔ while · meanwhile  
@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. Nobody may use a phone ______ the **interview**, **Otabek**.  
    options: meanwhile · whereas · ✔ during · while  
-   why: "the …" is a noun: during.
+   why: Through the whole … (a noun): during.
 
 8. Please don't talk ______ the **director** is speaking, **Otabek**.  
    options: whereas · during · ✔ while · meanwhile  
@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. Two players got hurt ______ the **game**, **Jamshid**.  
    options: meanwhile · whereas · ✔ during · while  
-   why: "the …" is a noun: during.
+   why: At some point in the … (a noun): during.
 
 16. I burnt my hand ______ I was making **pancakes**, **Dilnoza**.  
    options: whereas · during · ✔ while · meanwhile  
@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. The baby woke up three times ______ the **night**, **Zarina**.  
    options: ✔ during · while · meanwhile · whereas  
-   why: "the …" is a noun: during.
+   why: Across the whole … (a noun): during.
 
 18. The **girls** waited in the car ______ I bought the tickets, **Otabek**.  
    options: ✔ while · meanwhile · whereas · during  
@@ -78,7 +78,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 19. Please switch off your phones ______ the **flight**, **Dilnoza**.  
    options: meanwhile · whereas · ✔ during · while  
-   why: "the …" is a noun: during.
+   why: For the whole … (a noun, no verb): during.
 
 20. A dog ate my sandwich ______ I wasn't looking, **Zarina**. We were at the **bazaar**.  
    options: whereas · during · ✔ while · meanwhile  
@@ -99,7 +99,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 3. _Write during or while._  
    There was a power cut ______ the **storm**, **Zarina**.  
    key: during  
-   why: "the …" is a noun: during.
+   why: A noun (the …), no subject or verb: during.
 
 4. _Write during or while._  
    The phone rang ______ I was **in the bath**, **Sherzod**.  
@@ -119,7 +119,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Write during or while._  
    Please don't eat ______ the **lesson**, **Otabek**.  
    key: during  
-   why: "the …" is a noun: during.
+   why: In the lesson time (a noun): during.
 
 8. _Write during or while._  
    We met some tourists ______ we were walking round **Samarkand**, **Sherzod**.  
@@ -139,7 +139,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 11. _Write during or while._  
    We stayed inside ______ the **snowstorm**, **Dilnoza**.  
    key: during  
-   why: "the …" is a noun: during.
+   why: Bad weather is a noun here: during.
 
 12. _Write during or while._  
    Can you hold my **coffee** ______ I tie my shoes, **Gulnora**?  
@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Write during or while._  
    Lots of people get colds ______ the **autumn**, **Zarina**.  
    key: during  
-   why: "the …" is a noun: during.
+   why: A season is a noun: during.
 
 14. _Write during or while._  
    Grandma told stories ______ we ate **dinner**, **Gulnora**.  
@@ -169,7 +169,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 17. _Write during or while._  
    The **tourists** asked a lot of questions ______ the **visit**.  
    key: during  
-   why: "the …" is a noun: during.
+   why: In the … (a noun after the gap): during.
 
 18. _Write during or while._  
    Don't use your phone ______ you are driving **in the rain**, **Feruza**.  
@@ -192,13 +192,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    My phone rang when we were having the **interview**, **Otabek**.  
    → My phone rang ______ the **interview**, **Otabek**.  
    key: during  
-   why: the … is a noun: during.
+   why: when we were having the … → during the ….
 
 2. _Rewrite with during._  
    Dad fell asleep when we were watching the **match**, **Gulnora**.  
    → Dad fell asleep ______ the **match**, **Gulnora**.  
    key: during  
-   why: the … is a noun: during.
+   why: when we were watching the … → during the ….
 
 3. _Rewrite with during._  
    It rained when we were on our trip to **Khiva**, **Dilnoza**.  
@@ -210,7 +210,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Two windows broke when the **match** was happening, **Akmal**.  
    → Two windows broke ______ the **match**, **Akmal**.  
    key: during  
-   why: the … is a noun: during.
+   why: when the … was happening → during the ….
 
 5. _Rewrite with during._  
    I lost my **pen** when we were on the flight, **Zarina**.  

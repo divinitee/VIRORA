@@ -183,7 +183,7 @@ const VARIETY = {
    "Not the same opinion as my …: agree with.",
    "\"in cash\" for the thing bought: paid for.",
    "",
-   "Eleven players and a coach make the team: consists of.",
+   "Eleven … and a coach make the team: consists of.",
    "\"I made it myself\": please don't laugh at.",
    "",
    "\"He's never late\": you can rely on.",
