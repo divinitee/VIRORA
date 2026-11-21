@@ -77,7 +77,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The subject receives the action: must be + past participle (passive).
 
 19. The **school** form ______ in black ink, **Sherzod**.  
-   options: must be complete · must completed · must complete · ✔ must be completed  
+   options: must be sign · must signed · must sign · ✔ must be signed  
    why: The subject receives the action: must be + past participle (passive).
 
 20. The **referee**'s decision ______ by all players, **Akmal**.  

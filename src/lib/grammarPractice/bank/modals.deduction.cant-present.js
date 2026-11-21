@@ -343,7 +343,7 @@ export default [
     "brothers",
     "one brother",
     "two brothers",
-    "a brother"
+    "three brothers"
    ],
    "name": [
     "Zarina",
@@ -1160,8 +1160,8 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "The speaker is sure it is NOT true. Complete with can't and the verb in brackets.",
-  "source": "The car ______ (need) petrol. I filled it up {when}, {name}.",
-  "key": "can't need",
+  "source": "The tank ______ (be) empty. I filled it up {when}, {name}.",
+  "key": "can't be",
   "why": "The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').",
   "slots": {
    "when": [
@@ -1178,7 +1178,7 @@ export default [
    ]
   },
   "acceptable": [
-   "cannot need"
+   "cannot be"
   ]
  },
  {

@@ -587,10 +587,10 @@ export default [
   "format": "mcq",
   "prompt": "The {form} form ______ in black ink, {name}.",
   "options": [
-   "must be complete",
-   "must completed",
-   "must complete",
-   "must be completed"
+   "must be sign",
+   "must signed",
+   "must sign",
+   "must be signed"
   ],
   "key": 3,
   "why": "The subject receives the action: must be + past participle (passive).",

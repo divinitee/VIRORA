@@ -86,102 +86,102 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## build (20)
 
-1. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+1. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    Yesterday I ______ (stay) late at work, **Jamshid**. My **manager** asked me.  
    key: had to stay  
    why: Past obligation: had to + base verb (must has no past form).
 
-2. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+2. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    As a child, I ______ (help) my mother in the **kitchen**, **Ulugbek**.  
    key: had to help  
    why: Past obligation: had to + base verb (must has no past form).
 
-3. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+3. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    The **bus** was late, so we ______ (take) a taxi, **Ulugbek**.  
    key: had to take  
    why: Past obligation: had to + base verb (must has no past form).
 
-4. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+4. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    Last **Friday**, Aziz ______ (get) up at five, **Gulnora**.  
    key: had to get  
    why: Past obligation: had to + base verb (must has no past form).
 
-5. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+5. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    My car broke down **on Friday**, so I ______ (walk) home, **Jamshid**.  
    key: had to walk  
    why: Past obligation: had to + base verb (must has no past form).
 
-6. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+6. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    At my old school, we ______ (wear) a **blue jacket**, **Malika**.  
    key: had to wear  
    why: Past obligation: had to + base verb (must has no past form).
 
-7. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+7. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    The **bank** was closed, so she ______ (come) back the next day, **Gulnora**.  
    key: had to come  
    why: Past obligation: had to + base verb (must has no past form).
 
-8. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+8. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    I lost my **key**, so I ______ (buy) a new one, **Gulnora**.  
    key: had to buy  
    why: Past obligation: had to + base verb (must has no past form).
 
-9. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+9. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    We ______ (wait) two hours at the **airport** yesterday, **Jamshid**.  
    key: had to wait  
    why: Past obligation: had to + base verb (must has no past form).
 
-10. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+10. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    Timur was ill **yesterday**, so he ______ (stay) in bed, **Malika**.  
    key: had to stay  
    why: Past obligation: had to + base verb (must has no past form).
 
-11. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+11. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    It was raining, so the children ______ (play) inside the **hall**, **Jamshid**.  
    key: had to play  
    why: Past obligation: had to + base verb (must has no past form).
 
-12. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+12. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    Olga ______ (leave) the **wedding** early. Her baby was ill, **Jamshid**.  
    key: had to leave  
    why: Past obligation: had to + base verb (must has no past form).
 
-13. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+13. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    Parking at the **hospital** wasn't free. We ______ (pay) ten thousand sum, **Ulugbek**.  
    key: had to pay  
    why: Past obligation: had to + base verb (must has no past form).
 
-14. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+14. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    Nobody answered the door, so I ______ (call) my **landlord**, **Jamshid**.  
    key: had to call  
    why: Past obligation: had to + base verb (must has no past form).
 
-15. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+15. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    Yesterday was **Navruz**, so I ______ (not / work), **Gulnora**.  
    key: didn't have to work  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-16. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+16. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    The **quiz** was easy. We ______ (not / study) much, **Gulnora**.  
    key: didn't have to study  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-17. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+17. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    My uncle drove us, so we ______ (not / take) the **train**, **Ulugbek**.  
    key: didn't have to take  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-18. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+18. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    The **zoo** was free. We ______ (not / pay), **Ulugbek**.  
    key: didn't have to pay  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-19. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+19. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    She ______ (not / cook) last night. We ate at the **wedding**, **Ulugbek**.  
    key: didn't have to cook  
    why: It wasn't necessary in the past: didn't have to + base verb.
 
-20. _It is the past. Complete with had (or didn't have) and the verb in brackets._  
+20. _It is the past. Complete with had to (or didn't have to) and the verb in brackets._  
    I ______ (not / wait) long at the **post office** **on Friday**.  
    key: didn't have to wait  
    why: It wasn't necessary in the past: didn't have to + base verb.

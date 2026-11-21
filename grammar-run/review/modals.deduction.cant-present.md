@@ -172,8 +172,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 18. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  
-   The car ______ (need) petrol. I filled it up **today**, **Akmal**.  
-   key: can't need  
+   The tank ______ (be) empty. I filled it up **today**, **Akmal**.  
+   key: can't be  
    why: The speaker is sure it is NOT true: can't + base verb (mustn't means 'not allowed').
 
 19. _The speaker is sure it is NOT true. Complete with can't and the verb in brackets._  

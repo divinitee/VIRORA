@@ -20,7 +20,7 @@ import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "obligation", topic: "modal-passive", level: "B1", pv: "2.5" };
 const NAME = ["Zarina", "Sherzod", "Nodira", "Akmal"]; // listener names: never printed in a sentence (audit 20 Nov)
-const PP = { sign: "signed", show: "shown", turn: "turned", wash: "washed", wear: "worn", check: "checked", follow: "followed", leave: "left", clean: "cleaned", complete: "completed", obey: "obeyed", respect: "respected", pay: "paid", finish: "finished", sign: "signed", keep: "kept", buy: "bought" };
+const PP = { show: "shown", turn: "turned", wash: "washed", wear: "worn", check: "checked", follow: "followed", leave: "left", clean: "cleaned", complete: "completed", obey: "obeyed", respect: "respected", pay: "paid", finish: "finished", sign: "signed", keep: "kept", buy: "bought" };
 const WHY_A = "The subject does the action: must + base verb (active).";
 const WHY_P = "The subject receives the action: must be + past participle (passive).";
 const shapes = (v) => [`must ${v}`, `must be ${PP[v]}`, `must be ${v}`, `must ${PP[v]}`];

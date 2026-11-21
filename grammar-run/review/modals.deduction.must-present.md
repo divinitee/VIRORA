@@ -97,8 +97,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The speaker is sure, from the evidence: must + base verb.
 
 3. _The speaker is sure. Complete with must and the verb in brackets._  
-   She speaks perfect **English**. She ______ (study) a lot, **Ulugbek**.  
-   key: must study  
+   She speaks perfect **English**. She ______ (be) very good at languages, **Ulugbek**.  
+   key: must be  
    why: The speaker is sure, from the evidence: must + base verb.
 
 4. _The speaker is sure. Complete with must and the verb in brackets._  
