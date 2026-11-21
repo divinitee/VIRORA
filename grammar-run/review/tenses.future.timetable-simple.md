@@ -239,7 +239,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 9. _Write the question for this answer. Use the present simple._  
    Our exams begin on **the 10th**, **Akmal**.  
    → When ______ begin, **Akmal**?  
-   key: do your exams  
+   key: do your exams (also: do the exams)  
    why: Present simple question: do + your exams + begin. Use your when you ask about the other person's exams.
 
 10. _Write the question for this answer. Use the present simple._  

@@ -161,7 +161,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "{name} stayed near the beach. She had never ______ in the {water} before.",
+  "prompt": "{name} stayed near the shore because she had never ______ in the {water} before.",
   "options": [
    "swam",
    "swim",
@@ -949,7 +949,7 @@
    "sport": [
     "judo",
     "tennis",
-    "boxing",
+    "chess",
     "swimming"
    ]
   }
@@ -1157,7 +1157,10 @@
     "Dilnoza",
     "Sardor"
    ]
-  }
+  },
+  "acceptable": [
+   "had never been"
+  ]
  },
  {
   "domain": "tenses",
@@ -1213,7 +1216,10 @@
     "Dilnoza",
     "Sardor"
    ]
-  }
+  },
+  "acceptable": [
+   "had never tried"
+  ]
  },
  {
   "domain": "tenses",

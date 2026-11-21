@@ -44,9 +44,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: studied · study · am studying · ✔ have studied  
    why: The time started in the past and goes on now, so the main clause takes the present perfect: have studied. The since clause says when it started.
 
-11. My grandmother ______ much better since she started **doing yoga**.  
-   options: feels · is feeling · ✔ has felt · felt  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has felt. The since clause says when it started.
+11. My grandmother ______ five kilos since she started **doing yoga**.  
+   options: loses · is losing · ✔ has lost · lost  
+   why: The time started in the past and goes on now, so the main clause takes the present perfect: has lost. The since clause says when it started.
 
 12. I ______ my cousins since they moved to **Moscow**, **Nodira**.  
    options: am not seeing · ✔ haven't seen · didn't see · don't see  
@@ -245,7 +245,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 10. _Correct the mistake._  
    I haven't eaten since I have had **lunch**, **Nodira**.  
    → I haven't eaten since I ______ **lunch**, **Nodira**.  
-   key: had  
+   key: had (also: ate)  
    why: The since clause is a finished moment, so the past simple: had.
 
 11. _Finish the since clause with the verb in the past simple._  

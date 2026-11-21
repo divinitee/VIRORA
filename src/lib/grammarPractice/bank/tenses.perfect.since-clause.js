@@ -305,15 +305,15 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My grandmother ______ much better since she started {thing}.",
+  "prompt": "My grandmother ______ five kilos since she started {thing}.",
   "options": [
-   "feels",
-   "is feeling",
-   "has felt",
-   "felt"
+   "loses",
+   "is losing",
+   "has lost",
+   "lost"
   ],
   "key": 2,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has felt. The since clause says when it started.",
+  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has lost. The since clause says when it started.",
   "slots": {
    "thing": [
     "walking every day",
@@ -1433,9 +1433,12 @@ export default [
     "breakfast",
     "lunch",
     "that sandwich",
-    "my morning tea"
+    "a snack"
    ]
-  }
+  },
+  "acceptable": [
+   "ate"
+  ]
  },
  {
   "id": "gpr.tenses.perfect.since-clause.transform.011",

@@ -1443,7 +1443,10 @@
     "uncle",
     "brother"
    ]
-  }
+  },
+  "acceptable": [
+   "has drunk"
+  ]
  },
  {
   "domain": "tenses",

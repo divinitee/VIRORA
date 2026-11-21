@@ -24,7 +24,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ ridden · rode · ride · riding  
    why: After had never / had ever, use the past participle: ridden. It was a new experience at that moment in the past.
 
-6. **Olga** stayed near the beach. She had never ______ in the **ocean** before.  
+6. **Olga** stayed near the shore because she had never ______ in the **ocean** before.  
    options: swam · swim · swimming · ✔ swum  
    why: After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.
 
@@ -147,7 +147,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.
 
 13. _Write the past participle of the verb in brackets._  
-   My cousin had never ______ (do) a **boxing** lesson before, so the coach helped him.  
+   My cousin had never ______ (do) a **chess** lesson before, so the coach helped him.  
    key: done  
    why: After had never / had ever, use the past participle: done. It was a new experience at that moment in the past.
 
@@ -191,7 +191,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 1. _Rewrite the sentence with had never … before._  
    Last **winter** was my first time on a plane, **Sardor**.  
    → Before last **winter**, I ______ on a plane, **Sardor**.  
-   key: had never flown  
+   key: had never flown (also: had never been)  
    why: It was the first time, so: had never + past participle (flown) + before.
 
 2. _Rewrite the sentence with had never … before._  
@@ -203,7 +203,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 3. _Rewrite the sentence with had never … before._  
    At the party, it was my first time eating **fish soup**, **Sardor**.  
    → Before the party, I ______ **fish soup**, **Sardor**.  
-   key: had never eaten  
+   key: had never eaten (also: had never tried)  
    why: It was the first time, so: had never + past participle (eaten) + before.
 
 4. _Rewrite the sentence with had never … before._  

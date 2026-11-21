@@ -1443,7 +1443,10 @@ export default [
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   "do the exams"
+  ]
  },
  {
   "id": "gpr.tenses.future.timetable-simple.transform.010",

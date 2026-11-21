@@ -1441,7 +1441,10 @@
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   "do the exams"
+  ]
  },
  {
   "domain": "tenses",
