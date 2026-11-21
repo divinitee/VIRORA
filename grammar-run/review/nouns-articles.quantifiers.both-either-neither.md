@@ -12,7 +12,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ neither · either · none · both  
    why: It is true for not one of the two: neither already means not this one and not that one.
 
-3. There are two buses to the **bazaar**, the 12 and the 45. You can take ______ of them, **Olga**.  
+3. There are two buses to the **bazaar**, the 12 and the 45. You can take ______ of them, but not both, **Olga**.  
    options: ✔ either · none · both · neither  
    why: Any one of the two is OK, so use either (with a singular noun).
 

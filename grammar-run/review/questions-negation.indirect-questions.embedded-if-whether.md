@@ -127,7 +127,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
 9. _Write the verb in brackets after if. Use statement order: no do / does / did._  
-   Please ask if the shop ______ (open) at **eight** every day, **Olga**?  
+   Please ask if the shop ______ (open) at **eight** every day, **Olga**.  
    key: opens  
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
@@ -172,7 +172,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
 18. _Write the verb in brackets after if. Use statement order: no do / does / did._  
-   I'd like to know if the museum ______ (be) free on **Fridays** every week, **Lola**?  
+   I'd like to know if the museum ______ (be) free on **Fridays**, **Lola**.  
    key: is  
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
@@ -221,7 +221,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 6. _Make it a polite question. Use if._  
    Did you finish the **homework**, **Olga**?  
    → Can I ask ______ the **homework**, **Olga**?  
-   key: if you finished (also: whether you finished)  
+   key: if you finished (also: whether you finished, if you have finished, if you've finished, whether you have finished, whether you've finished)  
    why: A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.
 
 7. _Make it a polite question. Use if._  

@@ -866,7 +866,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
-  "source": "Please ask if the shop ______ (open) at {time} every day, {name}?",
+  "source": "Please ask if the shop ______ (open) at {time} every day, {name}.",
   "key": "opens",
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
@@ -1109,7 +1109,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
-  "source": "I'd like to know if the museum ______ (be) free on {day} every week, {name}?",
+  "source": "I'd like to know if the museum ______ (be) free on {day}, {name}.",
   "key": "is",
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {
@@ -1349,7 +1349,11 @@ export default [
   "hint": "Can I ask ______ the {work}, {name}?",
   "key": "if you finished",
   "acceptable": [
-   "whether you finished"
+   "whether you finished",
+   "if you have finished",
+   "if you've finished",
+   "whether you have finished",
+   "whether you've finished"
   ],
   "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
   "slots": {

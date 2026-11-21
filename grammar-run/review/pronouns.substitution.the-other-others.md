@@ -152,12 +152,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 
 14. _Write other or others._  
-   I've found one **sock**. Can you help me find the ______, **Olga**?  
+   I've found one of my five **cards**. Can you help me find the ______, **Olga**?  
    key: others  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 
 15. _Write other or others._  
-   I'll take this **suitcase**, and you can carry the ______, **Olga**.  
+   I'll take this **suitcase**, and you can carry all the ______, **Olga**.  
    key: others  
    why: It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.
 

@@ -267,7 +267,7 @@ export default [
    "are have"
   ],
   "key": 0,
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: has.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: has.",
   "slots": {
    "place": [
     "street",
@@ -325,7 +325,7 @@ export default [
    "like"
   ],
   "key": 2,
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: likes.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: likes.",
   "slots": {
    "thing": [
     "sport",
@@ -575,7 +575,7 @@ export default [
    "cost"
   ],
   "key": 2,
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: costs.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: costs.",
   "slots": {
    "things": [
     "bags",
@@ -661,7 +661,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Each of my brothers ______ (play) the {instr}, {name}.",
   "key": "plays",
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: plays.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: plays.",
   "slots": {
    "instr": [
     "guitar",
@@ -769,7 +769,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Each of the girls in my {group} ______ (want) to be a {job}.",
   "key": "wants",
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: wants.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: wants.",
   "slots": {
    "group": [
     "class",
@@ -877,7 +877,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Each of us ______ (bring) some {food} to the picnic, {name}.",
   "key": "brings",
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: brings.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: brings.",
   "slots": {
    "food": [
     "bread",
@@ -985,7 +985,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Each of the {things} ______ (cost) {price} soum.",
   "key": "costs",
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: costs.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: costs.",
   "slots": {
    "things": [
     "bags",
@@ -1039,7 +1039,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Each of my friends ______ (live) near the {place}, {name}.",
   "key": "lives",
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: lives.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: lives.",
   "slots": {
    "place": [
     "park",
@@ -1141,7 +1141,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Each of the boys ______ (do) his homework {when}, {name}.",
   "key": "does",
-  "why": "Each of + a plural noun still means one by one, so the verb is singular: does.",
+  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: does.",
   "slots": {
    "when": [
     "after school",

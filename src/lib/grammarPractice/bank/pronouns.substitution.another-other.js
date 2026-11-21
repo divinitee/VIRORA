@@ -478,7 +478,7 @@ export default [
    "sport": [
     "football",
     "tennis",
-    "boxing",
+    "basketball",
     "volleyball"
    ]
   }

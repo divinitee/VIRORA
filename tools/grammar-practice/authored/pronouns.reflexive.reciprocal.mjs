@@ -47,7 +47,7 @@ const SU = ["ourselves", "our", "us", "ourself"];
 const CHOOSE = [
   [OT, W_EO, "{b} helps {g} with maths, and {g} helps him with English. They help ______.", { b: BOY, g: GIRL }],
   [OT, W_EO, "The two sisters live in {city} and {town}. They phone ______ every {day}.", { city: ["Tashkent", "Andijan", "Nukus", "Jizzakh"], town: CITY, day: ["day", "evening", "Sunday", "week"] }],
-  [OT, W_EO, "{b} and {g} met at university and have helped ______ ever since, {when}.", { b: BOY, g: GIRL, when: ["two years later", "last summer", "in 2020", "a year later"] }],
+  [OT, W_EO, "{b} and {g} met at university and have helped ______ with {what} ever since.", { b: BOY, g: GIRL, what: ["homework", "work", "exams", "everything"] }],
   [OU, W_EO, "My best friend and I tell ______ everything, {g}.", { g: GIRL }],
   [OT, W_EO, "When {b} and his cousin meet, they always hug ______.", { b: BOY }],
   [OT, W_EO, "The two teams shook hands with ______ after the {match}.", { match: ["match", "game", "final", "race"] }],
