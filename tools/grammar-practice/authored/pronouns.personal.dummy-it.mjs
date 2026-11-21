@@ -142,5 +142,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/pronouns.personal.dummy-it.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Weather (cold) needs a subject: It's.",
+   "Weather (raining) needs a subject: It's.",
+   "Weather (snowing) needs a subject: It's.",
+   "Weather in the past: It was windy.",
+   "Weather in the answer: Yes, it's hot.",
+   "Weather in the future: It will be sunny.",
+   "Light and dark need a subject: it's dark.",
+   "A change in the weather: It's getting cold.",
+   "Weather (hot) needs a subject: It's.",
+   "Telling the time: It's half past.",
+   "Telling the time: It's already ….",
+   "Dates and days: It's my birthday.",
+   "Days of the week: It's Sunday.",
+   "Distance: It's a long way.",
+   "Distance: It's not far.",
+   "Distance in kilometres: It's about ….",
+   "Time a trip needs: It takes.",
+   "Time a job needs: It takes.",
+   "How long a trip lasts: It takes.",
+   "Time for me to walk: It takes me."
+  ],
+  "build": [
+   "Weather needs a subject: It is cold.",
+   "Weather in the past: It was raining.",
+   "A question about distance: Is it far?",
+   "Past weather: It was sunny.",
+   "A question about the time: What time is it?",
+   "Time needed: It takes.",
+   "A date: It is my sister's birthday.",
+   "Light changing: It is getting dark.",
+   "Past weather: It was windy.",
+   "Distance: It is about … kilometres.",
+   "Future weather: It will be hot.",
+   "Past time needed: It took us.",
+   "Telling the time: It is half past.",
+   "Two things exist on our street: There are.",
+   "Many people were present: There were.",
+   "Saying what is (not) in the sky: There are no clouds.",
+   "Saying how many students: There are.",
+   "Some photos were on it: There were.",
+   "Lots of fruit at the bazaar: There are.",
+   "Asking if any are left: Are there any?"
+  ],
+  "transform": [
+   "English needs a subject: It's very cold.",
+   "Weather needs a subject: It's raining.",
+   "Past, with a subject: It was very hot.",
+   "Time needed, with a subject: It takes.",
+   "Distance needs a subject: It's a long way.",
+   "Weather uses it, not there: It's windy.",
+   "Weather uses it, not there: It was hot.",
+   "Time uses it, not there: It's already ….",
+   "Distance uses it, not there: It's five kilometres.",
+   "Time needed uses it, not there: It takes.",
+   "Question: be before it: Is it far?",
+   "Past question: Was it cold?",
+   "Question with takes: How long does it take?",
+   "Future question: Will it rain?",
+   "Time question: What time is it?"
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

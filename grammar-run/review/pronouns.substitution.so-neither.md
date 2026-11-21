@@ -228,13 +228,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    **Olga** says: 'I'll be late **again**.'  
    → **Olga** says: 'I'll be late **again**.' '______.'  
    key: So will I  
-   why: "I'll be": copy will: So will I.
+   why: Agree with "I'll be late": will, then I: So will I.
 
 8. _Agree. Use So._  
    **Aziz** says: 'I'm going to **Samarkand** next week.'  
    → **Aziz** says: 'I'm going to **Samarkand** next week.' '______.'  
    key: So am I  
-   why: "I'm going": copy am: So am I.
+   why: Agree with a plan in the present continuous: So am I.
 
 9. _Agree. Use So._  
    **Timur** says: 'My sister works in a **hospital**.' Agree about my brother.  
@@ -246,7 +246,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    **Lola** says: 'I've got two **cousins**.'  
    → **Lola** says: 'I've got two **cousins**.' '______.'  
    key: So have I  
-   why: "I've got": copy have: So have I.
+   why: Agree with "I've got two": have, then I: So have I.
 
 11. _Agree. Use Neither._  
    **Lola** says: 'I don't like **plov**.'  

@@ -1443,7 +1443,7 @@ export default [
   "source": "{spk} says: 'I'll be late {when}.'",
   "hint": "{spk} says: 'I'll be late {when}.' '______.'",
   "key": "So will I",
-  "why": "\"I'll be\": copy will: So will I.",
+  "why": "Agree with \"I'll be late\": will, then I: So will I.",
   "slots": {
    "when": [
     "tomorrow",
@@ -1471,7 +1471,7 @@ export default [
   "source": "{spk} says: 'I'm going to {city} next week.'",
   "hint": "{spk} says: 'I'm going to {city} next week.' '______.'",
   "key": "So am I",
-  "why": "\"I'm going\": copy am: So am I.",
+  "why": "Agree with a plan in the present continuous: So am I.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1527,7 +1527,7 @@ export default [
   "source": "{spk} says: 'I've got two {sib}.'",
   "hint": "{spk} says: 'I've got two {sib}.' '______.'",
   "key": "So have I",
-  "why": "\"I've got\": copy have: So have I.",
+  "why": "Agree with \"I've got two\": have, then I: So have I.",
   "slots": {
    "sib": [
     "sisters",
