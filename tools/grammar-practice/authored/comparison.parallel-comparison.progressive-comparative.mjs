@@ -138,5 +138,139 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/comparison.parallel-comparison.progressive-comparative.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"As the … got closer\": the feeling grew: more and more nervous.",
+   "Day after day in that month: hotter and hotter.",
+   "The walk went on, the light went: darker and darker.",
+   "\"every year\" a step up: more and more expensive.",
+   "\"so we left\": the music kept rising: louder and louder.",
+   "\"After five hours\": more and more tired.",
+   "\"every week\" a bit more: bigger and bigger.",
+   "\"as we went on\": more and more difficult.",
+   "Night after night: colder and colder.",
+   "A growing trend: more and more popular.",
+   "Day after day: longer and longer.",
+   "Waiting made it grow: angry → angrier and angrier.",
+   "busy ends in -y: busier and busier.",
+   "\"after the first chapter\": more and more interesting.",
+   "\"at the end of the race\": faster and faster.",
+   "Waiting for dinner: hungry → hungrier and hungrier.",
+   "\"as I put more books in it\": heavier and heavier.",
+   "No call, the worry grew: more and more worried.",
+   "good → better, again and again: better and better.",
+   "\"so we stayed inside\": stronger and stronger."
+  ],
+  "build": [
+   "nervous is long: more and more nervous.",
+   "hot doubles the t: hotter and hotter.",
+   "\"As the sun went down\": colder and colder.",
+   "expensive is long: more and more expensive.",
+   "\"every year\": taller and taller.",
+   "\"all night\": louder and louder.",
+   "difficult is long: more and more difficult.",
+   "\"It was going to rain\": darker and darker.",
+   "popular is long: more and more popular.",
+   "busy ends in -y: busier and busier.",
+   "long is short: longer and longer.",
+   "tired: more and more tired.",
+   "big doubles the g: bigger and bigger.",
+   "\"in the second half\": more and more interesting.",
+   "warm is short: warmer and warmer.",
+   "angry ends in -y: angrier and angrier.",
+   "good → better: better and better.",
+   "bad → worse: worse and worse.",
+   "quiet takes -er: quieter and quieter.",
+   "\"trains every day\": stronger and stronger."
+  ],
+  "transform": [
+   "\"a bit hotter every day\" = hotter and hotter.",
+   "\"a little weaker every year\" = weaker and weaker.",
+   "\"a bit harder each time\" = harder and harder.",
+   "\"a little busier every year\" = busier and busier.",
+   "\"a bit more expensive every year\" = more and more expensive.",
+   "cold is short: colder and colder, not more and more cold.",
+   "Repeat the -er form: louder and louder.",
+   "Repeat more, not the adjective: more and more nervous.",
+   "Not more + -er: bigger and bigger.",
+   "more, not most: more and more popular.",
+   "dark → darker → very dark: darker and darker.",
+   "heavy → heavier → very heavy: heavier and heavier.",
+   "interesting → more interesting: more and more interesting.",
+   "long → longer → very long: longer and longer.",
+   "angry → angrier → shouting: angrier and angrier."
+  ]
+ },
+ "slot": [
+  [
+   "build",
+   17,
+   "plov",
+   "dish",
+   [
+    "plov",
+    "soup",
+    "bread",
+    "cake"
+   ]
+  ],
+  [
+   "build",
+   20,
+   "every day",
+   "often",
+   [
+    "every day",
+    "five times a week",
+    "every morning",
+    "after school"
+   ]
+  ],
+  [
+   "transform",
+   12,
+   "bag",
+   "bag",
+   [
+    "bag",
+    "box",
+    "suitcase",
+    "basket"
+   ]
+  ],
+  [
+   "transform",
+   15,
+   "shouted",
+   "end",
+   [
+    "shouted",
+    "left the room",
+    "cried",
+    "slammed the door"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
