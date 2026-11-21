@@ -138,5 +138,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/pronouns.reflexive.no-reflexive-after-feel.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Saying how you are now: feel, no myself.",
+   "\"You look …\": asking about now: feel.",
+   "\"After the …\": past: felt, no myself.",
+   "Past (\"so she stayed\"): felt.",
+   "\"always\": habit: feel, no myself.",
+   "Asking how someone is: feel.",
+   "\"Sit down and …\": relax, no yourself.",
+   "\"On … we\": past: relaxed, no ourselves.",
+   "\"this noisy …\": can't + relax.",
+   "\"when the TV is on\": can't + concentrate, no myself.",
+   "Asking someone to focus: concentrate on.",
+   "Past (\"did well\"): concentrated.",
+   "\"Let's\": meet, no ourselves.",
+   "\"first … at a …\": past: met.",
+   "Timetable: starts, no itself.",
+   "Timetable: opens, no itself.",
+   "Past: finished, no itself.",
+   "\"Suddenly … came in\": past: opened.",
+   "Past: came back, no myself.",
+   "\"leaves in five minutes\": we must hurry."
+  ],
+  "build": [
+   "Grandma now: feels, no herself.",
+   "\"After the long …\": felt.",
+   "\"yesterday\": felt.",
+   "\"always\" + my cousin: feels.",
+   "\"Every … evening\" + my dad: relaxes.",
+   "Past (\"all day\"): relaxed.",
+   "Habit + my mum: relaxes.",
+   "Habit + my brother: concentrates.",
+   "Past: concentrated, no myself.",
+   "\"first\": past: met.",
+   "\"every …\" + our group: meets.",
+   "\"every …\" + the show: starts.",
+   "\"so we waited\": past: started.",
+   "Past: opened, no itself.",
+   "\"Suddenly\": past: opened.",
+   "\"last night\": finished.",
+   "\"every day\" + the lesson: finishes.",
+   "\"on Sundays\" + the shop: closes.",
+   "Past: returned, no himself.",
+   "\"because we were late\": hurried."
+  ],
+  "transform": [
+   "feel needs no myself: I feel tired.",
+   "feel needs no yourself: Do you feel better?",
+   "relax needs no ourselves: We relaxed.",
+   "concentrate needs no myself: concentrate on.",
+   "meet needs no ourselves: Let's meet.",
+   "start needs no itself: starts.",
+   "open needs no itself: opens.",
+   "finish needs no itself: finished.",
+   "return needs no himself: returned.",
+   "hurry needs no yourself: Hurry!",
+   "Now in the past: feel → felt.",
+   "\"last Sunday\": relax → relaxed.",
+   "\"yesterday\": start → started.",
+   "Past time: meet → met.",
+   "Past time: concentrate → concentrated."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);
