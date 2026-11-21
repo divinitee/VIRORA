@@ -146,5 +146,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/sentence-structure.relative-clauses.which-vs-what.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "The noun comes first (the …): which.",
+   "After a noun (the …): which.",
+   "After a noun: the … which Grandma gave.",
+   "After a noun: the … which my mum makes.",
+   "After a noun (a …): which.",
+   "After a noun (The bus): which.",
+   "After a noun: the … which you lent.",
+   "After a noun: the … which opened.",
+   "After a noun: the … which you wanted.",
+   "After a comma, about the whole idea: which.",
+   "After a comma, about the rain all …: which.",
+   "After a comma, about him cooking: which.",
+   "No noun before it: what = the thing that.",
+   "No noun before it: what = the things that.",
+   "No noun before it: What = the thing that.",
+   "No noun before it: what = the thing that.",
+   "After exactly, no noun: what.",
+   "After believe, no noun: what.",
+   "After understand, no noun: what.",
+   "No noun before it: What = the food that."
+  ],
+  "build": [
+   "A noun comes first (the …): which.",
+   "A noun comes first (the …): which, then you sent.",
+   "A noun comes first: the … which stopped.",
+   "A noun comes first (a hotel): which.",
+   "A noun comes first: the … which was.",
+   "A noun comes first: the … which we saw.",
+   "A noun comes first: the … which you bought.",
+   "A noun comes first (songs): which.",
+   "After a comma, about forgetting my birthday: which.",
+   "After a comma, about the late train: which.",
+   "After a comma, about our win: which.",
+   "After a comma, about her help: which.",
+   "No noun before it: what happened.",
+   "At the start, no noun: What I like.",
+   "No noun before it: what he said.",
+   "No noun before it: what you bought.",
+   "At the start, no noun: What you need.",
+   "No noun before it: what happened.",
+   "No noun before it: what you were looking for.",
+   "No noun before it: what I can."
+  ],
+  "transform": [
+   "After a noun, never what: which.",
+   "After a noun (the …): which, not what.",
+   "After a noun (the …): which, not what.",
+   "After a comma about the whole idea: which, not what.",
+   "After a comma about the snow: which, not what.",
+   "No noun: what, not that.",
+   "At the start, no noun: What, not Which.",
+   "No noun after for: what, not that.",
+   "No noun after exactly: what, not which.",
+   "No noun after Tell me: what, not which.",
+   "The thing that → What.",
+   "the thing that → what.",
+   "The things that → What (with was).",
+   "the things that → what.",
+   "The thing that → What."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

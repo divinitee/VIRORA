@@ -17,7 +17,7 @@ export default [
    "where"
   ],
   "key": 0,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "The noun comes first (the …): which.",
   "slots": {
    "thing": [
     "file",
@@ -49,7 +49,7 @@ export default [
    "which"
   ],
   "key": 3,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun (the …): which.",
   "slots": {
    "thing": [
     "phone",
@@ -81,7 +81,7 @@ export default [
    "what"
   ],
   "key": 2,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun: the … which Grandma gave.",
   "slots": {
    "thing": [
     "ring",
@@ -113,7 +113,7 @@ export default [
    "who"
   ],
   "key": 1,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun: the … which my mum makes.",
   "slots": {
    "food": [
     "soup",
@@ -145,7 +145,7 @@ export default [
    "where"
   ],
   "key": 0,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun (a …): which.",
   "slots": {
    "film": [
     "film",
@@ -177,7 +177,7 @@ export default [
    "which"
   ],
   "key": 3,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun (The bus): which.",
   "slots": {
    "city": [
     "Samarkand",
@@ -209,7 +209,7 @@ export default [
    "what"
   ],
   "key": 2,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun: the … which you lent.",
   "slots": {
    "thing": [
     "pen",
@@ -241,7 +241,7 @@ export default [
    "who"
   ],
   "key": 1,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun: the … which opened.",
   "slots": {
    "shop": [
     "shop",
@@ -273,7 +273,7 @@ export default [
    "where"
   ],
   "key": 0,
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun: the … which you wanted.",
   "slots": {
    "thing": [
     "bag",
@@ -305,7 +305,7 @@ export default [
    "which"
   ],
   "key": 3,
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma, about the whole idea: which.",
   "slots": {
    "name": [
     "Aziz",
@@ -337,7 +337,7 @@ export default [
    "what"
   ],
   "key": 2,
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma, about the rain all …: which.",
   "slots": {
    "time": [
     "day",
@@ -369,7 +369,7 @@ export default [
    "who"
   ],
   "key": 1,
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma, about him cooking: which.",
   "slots": {
    "when": [
     "yesterday",
@@ -395,7 +395,7 @@ export default [
    "who"
   ],
   "key": 0,
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what = the thing that.",
   "slots": {
    "name": [
     "Aziz",
@@ -421,7 +421,7 @@ export default [
    "what"
   ],
   "key": 3,
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what = the things that.",
   "slots": {
    "when": [
     "yesterday",
@@ -453,7 +453,7 @@ export default [
    "Which"
   ],
   "key": 2,
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: What = the thing that.",
   "slots": {
    "rest": [
     "holiday",
@@ -479,7 +479,7 @@ export default [
    "that"
   ],
   "key": 1,
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what = the thing that.",
   "slots": {
    "name": [
     "Aziz",
@@ -511,7 +511,7 @@ export default [
    "who"
   ],
   "key": 0,
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "After exactly, no noun: what.",
   "slots": {
    "thing": [
     "phone",
@@ -543,7 +543,7 @@ export default [
    "what"
   ],
   "key": 3,
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "After believe, no noun: what.",
   "slots": {
    "event": [
     "party",
@@ -569,7 +569,7 @@ export default [
    "which"
   ],
   "key": 2,
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "After understand, no noun: what.",
   "slots": {
    "lang": [
     "Russian",
@@ -601,7 +601,7 @@ export default [
    "That"
   ],
   "key": 1,
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: What = the food that.",
   "slots": {
    "city": [
     "Samarkand",
@@ -625,7 +625,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "A noun comes first (the …): which.",
   "slots": {
    "thing": [
     "scarf",
@@ -655,7 +655,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "A noun comes first (the …): which, then you sent.",
   "slots": {
    "thing": [
     "email",
@@ -685,7 +685,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "A noun comes first: the … which stopped.",
   "slots": {
    "thing": [
     "printer",
@@ -721,7 +721,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "A noun comes first (a hotel): which.",
   "slots": {
    "thing": [
     "pool",
@@ -751,7 +751,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "A noun comes first: the … which was.",
   "slots": {
    "thing": [
     "cake",
@@ -781,7 +781,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "A noun comes first: the … which we saw.",
   "slots": {
    "film": [
     "film",
@@ -811,7 +811,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "A noun comes first: the … which you bought.",
   "slots": {
    "thing": [
     "drill",
@@ -847,7 +847,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "A noun comes first (songs): which.",
   "slots": {
    "feel": [
     "dance",
@@ -874,7 +874,7 @@ export default [
   "instr": "Write which or what.",
   "source": "{name} forgot my birthday, ______ made me sad.",
   "key": "which",
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma, about forgetting my birthday: which.",
   "slots": {
    "name": [
     "Aziz",
@@ -895,7 +895,7 @@ export default [
   "instr": "Write which or what.",
   "source": "The train was late {when}, ______ was a problem for everyone, {name}.",
   "key": "which",
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma, about the late train: which.",
   "slots": {
    "when": [
     "again",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write which or what.",
   "source": "We won the {game}, ______ nobody expected, {name}.",
   "key": "which",
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma, about our win: which.",
   "slots": {
    "game": [
     "match",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write which or what.",
   "source": "She helped me with my {work}, ______ was very kind of her.",
   "key": "which",
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma, about her help: which.",
   "slots": {
    "work": [
     "homework",
@@ -970,7 +970,7 @@ export default [
   "instr": "Write which or what.",
   "source": "Tell me ______ happened at the {event}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what happened.",
   "slots": {
    "event": [
     "party",
@@ -997,7 +997,7 @@ export default [
   "instr": "Write which or what.",
   "source": "______ I like most about {city} is the food.",
   "key": "What",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "At the start, no noun: What I like.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1018,7 +1018,7 @@ export default [
   "instr": "Write which or what.",
   "source": "I don't remember ______ he said {when}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what he said.",
   "slots": {
    "when": [
     "yesterday",
@@ -1045,7 +1045,7 @@ export default [
   "instr": "Write which or what.",
   "source": "Please show me ______ you bought at the {place}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what you bought.",
   "slots": {
    "place": [
     "bazaar",
@@ -1072,7 +1072,7 @@ export default [
   "instr": "Write which or what.",
   "source": "______ you need is a good {thing}, {name}.",
   "key": "What",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "At the start, no noun: What you need.",
   "slots": {
    "thing": [
     "sleep",
@@ -1099,7 +1099,7 @@ export default [
   "instr": "Write which or what.",
   "source": "We can't change ______ happened {when}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what happened.",
   "slots": {
    "when": [
     "yesterday",
@@ -1126,7 +1126,7 @@ export default [
   "instr": "Write which or what.",
   "source": "Is this ______ you were looking for, {name}?",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what you were looking for.",
   "slots": {
    "name": [
     "Aziz",
@@ -1147,7 +1147,7 @@ export default [
   "instr": "Write which or what.",
   "source": "I'll do ______ I can to help you with the {work}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun before it: what I can.",
   "slots": {
    "work": [
     "move",
@@ -1172,7 +1172,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun, never what: which.",
   "slots": {
    "thing": [
     "link",
@@ -1203,7 +1203,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun (the …): which, not what.",
   "slots": {
    "food": [
     "plov",
@@ -1234,7 +1234,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "A noun comes just before the gap, so use which (or that). What can't follow a noun.",
+  "why": "After a noun (the …): which, not what.",
   "slots": {
    "thing": [
     "book",
@@ -1262,7 +1262,7 @@ export default [
   "source": "{name} lost his {thing}, what was a big problem.",
   "hint": "{name} lost his {thing}, ______ was a big problem.",
   "key": "which",
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma about the whole idea: which, not what.",
   "slots": {
    "name": [
     "Aziz",
@@ -1290,7 +1290,7 @@ export default [
   "source": "It snowed all {time}, what was beautiful, {name}.",
   "hint": "It snowed all {time}, ______ was beautiful, {name}.",
   "key": "which",
-  "why": "After a comma, which can talk about the whole idea before it. What can't do this.",
+  "why": "After a comma about the snow: which, not what.",
   "slots": {
    "time": [
     "night",
@@ -1318,7 +1318,7 @@ export default [
   "source": "I don't understand that you said {when}, {name}.",
   "hint": "I don't understand ______ you said {when}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun: what, not that.",
   "slots": {
    "when": [
     "just now",
@@ -1346,7 +1346,7 @@ export default [
   "source": "Which I need is a new {thing}, {name}.",
   "hint": "______ I need is a new {thing}, {name}.",
   "key": "What",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "At the start, no noun: What, not Which.",
   "slots": {
    "thing": [
     "phone",
@@ -1374,7 +1374,7 @@ export default [
   "source": "Thank you for that you did {when}, {name}.",
   "hint": "Thank you for ______ you did {when}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun after for: what, not that.",
   "slots": {
    "when": [
     "yesterday",
@@ -1402,7 +1402,7 @@ export default [
   "source": "That's exactly which I wanted for my {day}, {name}!",
   "hint": "That's exactly ______ I wanted for my {day}, {name}!",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun after exactly: what, not which.",
   "slots": {
    "day": [
     "birthday",
@@ -1430,7 +1430,7 @@ export default [
   "source": "Tell me which happened in {city}, {name}.",
   "hint": "Tell me ______ happened in {city}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "No noun after Tell me: what, not which.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1458,7 +1458,7 @@ export default [
   "source": "The thing that I need is a long {rest}, {name}.",
   "hint": "______ I need is a long {rest}, {name}.",
   "key": "What",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "The thing that → What.",
   "slots": {
    "rest": [
     "holiday",
@@ -1486,7 +1486,7 @@ export default [
   "source": "I didn't hear the thing that you said {when}, {name}.",
   "hint": "I didn't hear ______ you said {when}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "the thing that → what.",
   "slots": {
    "when": [
     "just now",
@@ -1514,7 +1514,7 @@ export default [
   "source": "The things that we saw in {city} were amazing, {name}.",
   "hint": "______ we saw in {city} was amazing, {name}.",
   "key": "What",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "The things that → What (with was).",
   "slots": {
    "city": [
     "Samarkand",
@@ -1542,7 +1542,7 @@ export default [
   "source": "Show me the things that you bought at the {place}, {name}.",
   "hint": "Show me ______ you bought at the {place}, {name}.",
   "key": "what",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "the things that → what.",
   "slots": {
    "place": [
     "bazaar",
@@ -1570,7 +1570,7 @@ export default [
   "source": "The thing that I like about my {place} is the view, {name}.",
   "hint": "______ I like about my {place} is the view, {name}.",
   "key": "What",
-  "why": "There is no noun before the gap: what means 'the thing that'. Which and that need a noun before them.",
+  "why": "The thing that → What.",
   "slots": {
    "place": [
     "flat",

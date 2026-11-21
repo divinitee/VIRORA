@@ -10,7 +10,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 2. One option is wrong. Which one? The **film** ______ we watched last night was very long, **Olga**.  
    options: that · which · (nothing) · ✔ what  
-   why: A film we watched: that, which or nothing work; never what after a noun.
+   why: Something we watched: that, which or nothing; never what after a noun.
 
 3. Which word can't go in the gap? The **girl** ______ we met at the **party** was very kind.  
    options: that · (nothing) · ✔ which · who  
@@ -144,7 +144,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 12. _Write who or which. Here the word can't be left out._  
    I like **books** ______ have a happy ending, **Olga**.  
    key: which (also: that)  
-   why: Stories that have an ending: subject, so which.
+   why: A kind of thing that has an ending: subject, so which.
 
 13. _Write who or which. Here the word can't be left out._  
    The bus ______ goes to the **airport** is number **twelve**.  
@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Write who or which. Here the word can't be left out._  
    The **market** ______ opened **on Monday** sells great bread.  
    key: which (also: that)  
-   why: A shop that opened: subject, so which.
+   why: A place that opened: subject, so which.
 
 16. _Write who or which. Here the word can't be left out._  
    We stayed in a hotel ______ had a big **restaurant**, **Lola**.  

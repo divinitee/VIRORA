@@ -153,7 +153,7 @@ const VARIETY = {
  "why": {
   "choose": [
    "A thing I bought: that, which or nothing work; where is for places.",
-   "A film we watched: that, which or nothing work; never what after a noun.",
+   "Something we watched: that, which or nothing; never what after a noun.",
    "A person we met: who, that or nothing work; which is for things.",
    "Something Grandma gave me: that, which or nothing; where is for places.",
    "A person I called: who, that or nothing; which is for things.",
@@ -185,10 +185,10 @@ const VARIETY = {
    "A person who sings: subject, so who.",
    "Tourists who came: subject, so who.",
    "A thing that broke: subject, so which.",
-   "Stories that have an ending: subject, so which.",
+   "A kind of thing that has an ending: subject, so which.",
    "A bus that goes: subject, so which.",
    "A thing that costs: subject, so which.",
-   "A shop that opened: subject, so which.",
+   "A place that opened: subject, so which.",
    "A hotel that had something: subject, so which.",
    "A thing that is in the kitchen: which.",
    "A thing that works: subject, so which.",
