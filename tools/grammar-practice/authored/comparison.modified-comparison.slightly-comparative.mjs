@@ -144,5 +144,100 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/comparison.modified-comparison.slightly-comparative.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "100,000 against 103,000 is a tiny change: slightly.",
+   "20 against 21 degrees: a small difference: slightly.",
+   "1.70 against 1.72 m: slightly taller.",
+   "50 against 52 km: slightly longer.",
+   "Half a year is a small gap: slightly older.",
+   "7 against 7.5 kg: slightly heavier.",
+   "13.1 against 13.3 seconds: slightly faster.",
+   "49,000 against 50,000: slightly cheaper.",
+   "70 against 72 square metres: slightly bigger.",
+   "Five minutes is a small gap: slightly earlier.",
+   "efficient is long: slightly more efficient.",
+   "cheap is short: slightly cheaper.",
+   "comfortable is long: slightly more comfortable.",
+   "cold is short: slightly colder.",
+   "difficult is long: slightly more difficult.",
+   "short is short: slightly shorter.",
+   "interesting is long: slightly more interesting.",
+   "quiet takes -er: slightly quieter.",
+   "late → later, a small gap: slightly later.",
+   "popular is long: slightly more popular."
+  ],
+  "build": [
+   "cheap → cheaper (short adjective).",
+   "warm → warmer (short adjective).",
+   "expensive is long: more expensive.",
+   "tall → taller (short adjective).",
+   "comfortable is long: more comfortable.",
+   "early ends in -y: earlier.",
+   "difficult is long: more difficult.",
+   "\"but it's nicer\": long → longer.",
+   "old → older (short adjective).",
+   "heavy ends in -y: heavier.",
+   "quiet takes -er: quieter.",
+   "popular is long: more popular.",
+   "short → shorter (short adjective).",
+   "small → smaller (short adjective).",
+   "interesting is long: more interesting.",
+   "late ends in -e: later.",
+   "easy ends in -y: easier.",
+   "fast → faster (short adjective).",
+   "big doubles the g: bigger.",
+   "cold → colder (short adjective)."
+  ],
+  "transform": [
+   "500,000 against 510,000: slightly more expensive.",
+   "1.60 against 1.62 m: slightly taller.",
+   "14 against 15 degrees: slightly warmer.",
+   "40 against 38 minutes: slightly faster.",
+   "10 against 11 kg: slightly heavier.",
+   "a bit = slightly: slightly cheaper.",
+   "a little = slightly: slightly more difficult.",
+   "a bit = slightly: slightly colder.",
+   "a little = slightly: slightly older.",
+   "a bit = slightly: slightly quieter.",
+   "Not more + -er: slightly cheaper.",
+   "\"only a little\" means slightly, not very: slightly warmer.",
+   "comfortable needs more: slightly more comfortable.",
+   "Not most tall: slightly taller.",
+   "late → later, not lately: slightly later."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   5,
+   "",
+   "who",
+   [
+    "cousin"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
