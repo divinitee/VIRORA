@@ -117,7 +117,7 @@
    "said them to turn"
   ],
   "key": 1,
-  "why": "An order to the students: told them + to turn.",
+  "why": "An order to a group (them): told them + to turn.",
   "slots": {
    "who": [
     "teacher",
@@ -755,7 +755,7 @@
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} told the students ______ (turn) off their phones, {f}.",
   "key": "to turn",
-  "why": "told the students + to + verb: to turn.",
+  "why": "told the group + to + verb: to turn.",
   "slots": {
    "who": [
     "teacher",

@@ -18,7 +18,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 4. 'Turn off your phones,' the **coach** said to the **players**. The **coach** ______ off their phones.  
    options: told to them turning · ✔ told them to turn · told them turn · said them to turn  
-   why: An order to the students: told them + to turn.
+   why: An order to a group (them): told them + to turn.
 
 5. 'Call me after the **meeting**,' **Lola** said to **Rustam**. **Lola** ______ her after the **meeting**.  
    options: ✔ told him to call · told him call · said him to call · told to him calling  
@@ -104,7 +104,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Report the command or request. Write to (or not to) + the verb in brackets._  
    The **coach** told the students ______ (turn) off their phones, **Madina**.  
    key: to turn  
-   why: told the students + to + verb: to turn.
+   why: told the group + to + verb: to turn.
 
 5. _Report the command or request. Write to (or not to) + the verb in brackets._  
    **Olga** told **Aziz** ______ (call) her after the **meeting**.  
