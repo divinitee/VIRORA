@@ -15,7 +15,7 @@
    "mustn't"
   ],
   "key": 0,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure why\": only a possible reason: might.",
   "slots": {
    "place": [
     "office",
@@ -47,7 +47,7 @@
    "might"
   ],
   "key": 3,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"or at home\": two possibilities: might.",
   "slots": {
    "place": [
     "gym",
@@ -79,7 +79,7 @@
    "must"
   ],
   "key": 2,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure, but\": a possibility: might.",
   "slots": {
    "shop": [
     "bakery",
@@ -111,7 +111,7 @@
    "can't"
   ],
   "key": 1,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"or a …\": he could be one of two things: might.",
   "slots": {
    "who": [
     "parent",
@@ -143,7 +143,7 @@
    "mustn't"
   ],
   "key": 0,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I don't know why\": one possible reason: might.",
   "slots": {
    "class": [
     "lesson",
@@ -175,7 +175,7 @@
    "might"
   ],
   "key": 3,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure\": it could be his brother's: might.",
   "slots": {
    "thing": [
     "bike",
@@ -207,7 +207,7 @@
    "must"
   ],
   "key": 2,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"but I'm not sure\": a guess, not certain: might.",
   "slots": {
    "room": [
     "room",
@@ -239,7 +239,7 @@
    "can't"
   ],
   "key": 1,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"or in the kitchen\": two possible places: might.",
   "slots": {
    "thing": [
     "key",
@@ -271,7 +271,7 @@
    "mustn't"
   ],
   "key": 0,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"Nobody knows why\": a possible reason: might.",
   "slots": {
    "event": [
     "lesson",
@@ -303,7 +303,7 @@
    "might"
   ],
   "key": 3,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure\": the cat is one possibility: might.",
   "slots": {
    "room": [
     "kitchen",
@@ -335,7 +335,7 @@
    "must"
   ],
   "key": 2,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure, but\": she possibly knows: might.",
   "slots": {
    "q": [
     "question",
@@ -367,7 +367,7 @@
    "can't"
   ],
   "key": 1,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I can't see the number\": only possible: might.",
   "slots": {
    "car": [
     "white car",
@@ -399,7 +399,7 @@
    "mustn't"
   ],
   "key": 0,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure who\": a possibility: might.",
   "slots": {
    "who": [
     "aunt",
@@ -431,7 +431,7 @@
    "might"
   ],
   "key": 3,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"Nobody knows where\": one possible place: might.",
   "slots": {
    "pet": [
     "cat",
@@ -463,7 +463,7 @@
    "must"
   ],
   "key": 2,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I don't know\": a student is one possibility: might.",
   "slots": {
    "place": [
     "front desk",
@@ -495,7 +495,7 @@
    "can't"
   ],
   "key": 1,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I don't know why\": traffic is a possible reason: might.",
   "slots": {
    "bus": [
     "bus",
@@ -527,7 +527,7 @@
    "mustn't"
   ],
   "key": 0,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure why\": a possible reason: might.",
   "slots": {
    "food": [
     "soup",
@@ -559,7 +559,7 @@
    "might"
   ],
   "key": 3,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I don't know why\": a possible reason: might be watching.",
   "slots": {
    "video": [
     "video",
@@ -591,7 +591,7 @@
    "must"
   ],
   "key": 2,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Not sure where it is: maybe she has it: might.",
   "slots": {
    "book": [
     "dictionary",
@@ -623,7 +623,7 @@
    "can't"
   ],
   "key": 1,
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure\": lunch is one possibility: might.",
   "slots": {
    "who": [
     "director",
@@ -650,7 +650,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "I don't know where Aziz is. He ______ (be) at the {place}, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I don't know where\": a possibility: might be.",
   "slots": {
    "place": [
     "gym",
@@ -677,7 +677,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "The {shop} looks dark. It ______ (be) closed today, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"looks dark\": possibly closed: might be.",
   "slots": {
    "shop": [
     "bakery",
@@ -704,7 +704,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Ask Olga about the {q}. She ______ (know) the answer, {name}.",
   "key": "might know",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "She possibly knows: might know.",
   "slots": {
    "q": [
     "question",
@@ -731,7 +731,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "I'm not sure who that is at the {place}. It ______ (be) our new neighbour, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure who\": might be.",
   "slots": {
    "place": [
     "door",
@@ -758,7 +758,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Your {plant} looks dry. It ______ (need) more water, {name}.",
   "key": "might need",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"looks dry\": possibly needs water: might need.",
   "slots": {
    "plant": [
     "plant",
@@ -785,7 +785,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "I can't find my {book}. My brother ______ (have) it, {name}.",
   "key": "might have",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I can't find\": maybe he has it: might have.",
   "slots": {
    "book": [
     "dictionary",
@@ -812,7 +812,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "The {bus} is late. There ______ (be) a lot of traffic, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "A possible reason for the delay: might be.",
   "slots": {
    "bus": [
     "bus",
@@ -839,7 +839,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Buy her a {gift}. I'm not sure, but she ______ (like) it, {name}.",
   "key": "might like",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure, but\": might like.",
   "slots": {
    "gift": [
     "book",
@@ -866,7 +866,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Lola isn't at the {event}. She ______ (be) ill, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Possibly ill: might be.",
   "slots": {
    "event": [
     "lesson",
@@ -893,7 +893,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "That noise in the {room} ______ (be) the cat, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "The cat is one possibility: might be.",
   "slots": {
    "room": [
     "kitchen",
@@ -920,7 +920,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Call before you go to the {shop}. It ______ (not / be) open today, {name}.",
   "key": "might not be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"Call before you go\": possibly not open: might not be.",
   "slots": {
    "shop": [
     "bank",
@@ -947,7 +947,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Don't ask Timur about the {topic}. He ______ (not / know), {name}.",
   "key": "might not know",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"Don't ask\": possibly he doesn't know: might not know.",
   "slots": {
    "topic": [
     "test",
@@ -974,7 +974,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Take some food to the {place}. There ______ (not / be) a café there, {name}.",
   "key": "might not be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"Take some food\": possibly no café: might not be.",
   "slots": {
    "place": [
     "mountains",
@@ -1001,7 +1001,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Bring your own {thing}. The hotel ______ (not / have) one, {name}.",
   "key": "might not have",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"Bring your own\": possibly they don't have one: might not have.",
   "slots": {
    "thing": [
     "towel",
@@ -1028,7 +1028,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Don't wait for Madina at the {place}. She ______ (not / be) free today, {name}.",
   "key": "might not be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"Don't wait\": possibly not free: might not be.",
   "slots": {
    "place": [
     "station",
@@ -1055,7 +1055,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "The {who} isn't in her office. She ______ (be) at lunch, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Lunch is one possibility: might be.",
   "slots": {
    "who": [
     "director",
@@ -1082,7 +1082,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Ask your {who} first. He ______ (want) to come too, {name}.",
   "key": "might want",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"Ask … first\": possibly he wants to come: might want.",
   "slots": {
    "who": [
     "brother",
@@ -1109,7 +1109,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Your {thing} is very quiet. The battery ______ (be) dead, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"very quiet\": possibly a dead battery: might be.",
   "slots": {
    "thing": [
     "phone",
@@ -1136,7 +1136,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "That family from the {place} ______ (live) near us. I'm not sure, {name}.",
   "key": "might live",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "\"I'm not sure\": might live.",
   "slots": {
    "place": [
     "wedding",
@@ -1163,7 +1163,7 @@
   "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
   "source": "Timur is laughing at his {thing}. He ______ (be) watching a funny video, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "A possible reason for the laughing: might be watching.",
   "slots": {
    "thing": [
     "phone",
@@ -1191,7 +1191,7 @@
   "source": "Perhaps she is busy at the {place}, {name}.",
   "hint": "She ______ busy at the {place}, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Perhaps she is → she might be.",
   "slots": {
    "place": [
     "office",
@@ -1219,7 +1219,7 @@
   "source": "Maybe he knows the way to the {place}, {name}.",
   "hint": "He ______ the way to the {place}, {name}.",
   "key": "might know",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Maybe he knows → he might know.",
   "slots": {
    "place": [
     "station",
@@ -1247,7 +1247,7 @@
   "source": "Perhaps the {shop} is closed, {name}.",
   "hint": "The {shop} ______ closed, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Perhaps it is → it might be.",
   "slots": {
    "shop": [
     "bakery",
@@ -1275,7 +1275,7 @@
   "source": "Maybe your {thing} is in the car, {name}.",
   "hint": "Your {thing} ______ in the car, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Maybe it is → it might be.",
   "slots": {
    "thing": [
     "phone",
@@ -1303,7 +1303,7 @@
   "source": "Perhaps it isn't true, {name}. Ask the {who}.",
   "hint": "It ______ true, {name}. Ask the {who}.",
   "key": "might not be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Perhaps it isn't → it might not be.",
   "slots": {
    "who": [
     "teacher",
@@ -1331,7 +1331,7 @@
   "source": "She might to be at the {place}, {name}.",
   "hint": "She ______ at the {place}, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "might + base verb, no to: might be.",
   "slots": {
    "place": [
     "gym",
@@ -1359,7 +1359,7 @@
   "source": "He might is ill. He isn't at the {event}, {name}.",
   "hint": "He ______ ill. He isn't at the {event}, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "might + base verb, not is: might be.",
   "slots": {
    "event": [
     "lesson",
@@ -1387,7 +1387,7 @@
   "source": "It mights be the cat in the {room}, {name}.",
   "hint": "It ______ the cat in the {room}, {name}.",
   "key": "might be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "might never takes -s: might be.",
   "slots": {
    "room": [
     "kitchen",
@@ -1415,7 +1415,7 @@
   "source": "They might knowing the answer to the {q}, {name}.",
   "hint": "They ______ the answer to the {q}, {name}.",
   "key": "might know",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "might + base verb, not -ing: might know.",
   "slots": {
    "q": [
     "question",
@@ -1443,7 +1443,7 @@
   "source": "She doesn't might be at home. Her {car} isn't outside, {name}.",
   "hint": "She ______ at home. Her {car} isn't outside, {name}.",
   "key": "might not be",
-  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "why": "Negative: might not, never doesn't might.",
   "slots": {
    "car": [
     "car",
@@ -1471,7 +1471,7 @@
   "source": "Perhaps he is sleeping. The {room} is quiet, {name}.",
   "hint": "He ______. The {room} is quiet, {name}.",
   "key": "might be sleeping",
-  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "why": "Perhaps he is sleeping now → might be sleeping.",
   "slots": {
    "room": [
     "flat",
@@ -1499,7 +1499,7 @@
   "source": "Maybe she is working late at the {place}, {name}.",
   "hint": "She ______ late at the {place}, {name}.",
   "key": "might be working",
-  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "why": "Maybe she is working now → might be working.",
   "slots": {
    "place": [
     "hospital",
@@ -1527,7 +1527,7 @@
   "source": "Perhaps they are waiting for us at the {place}, {name}.",
   "hint": "They ______ for us at the {place}, {name}.",
   "key": "might be waiting",
-  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "why": "Perhaps they are waiting now → might be waiting.",
   "slots": {
    "place": [
     "station",
@@ -1555,7 +1555,7 @@
   "source": "Maybe it is raining in {city} now, {name}.",
   "hint": "It ______ in {city} now, {name}.",
   "key": "might be raining",
-  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "why": "Maybe it is raining now → might be raining.",
   "slots": {
    "city": [
     "London",
@@ -1583,7 +1583,7 @@
   "source": "Perhaps he is driving to {city}, so he can't answer, {name}.",
   "hint": "He ______ to {city}, so he can't answer, {name}.",
   "key": "might be driving",
-  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "why": "Perhaps he is driving now → might be driving.",
   "slots": {
    "city": [
     "Samarkand",
