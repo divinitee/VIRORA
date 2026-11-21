@@ -324,7 +324,8 @@ test('conduct: each persona has its own swearing ladder, strikes end the lesson 
   assert.match(buildBrainInstructions({ persona: 'velvet' }), /go clear your head/);
   const vi = buildBrainInstructions({ persona: 'violet' });
   assert.match(vi, /Get out/);
-  assert.match(vi, /Back so soon\? Back to your senses\?/);
+  assert.match(buildBrainInstructions({ persona: 'violet', uiLang: 'en' }), /Back so soon\? Back to your senses\?/);
+  assert.match(vi, /Another curse word\? The F word\?/);
   assert.doesNotMatch(vi, /sovun/);
   assert.doesNotMatch(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /Siz bilan|yuving/);
   assert.match(buildBrainInstructions({ persona: 'violet', ageGroup: 'kid' }), /never "get out"/);
