@@ -6,185 +6,185 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. That job at the **hotel** is perfect for you. If I were you, I ______ for it, **Gulnora**.  
    options: ✔ would apply · will apply · apply · applied  
-   why: Advice: If I were you, I would + base verb.
+   why: "perfect for you": advice to try: would apply.
 
 2. Your **tooth** still hurts? I ______ a doctor if I were you, **Malika**.  
    options: will see · see · saw · ✔ would see  
-   why: Advice: If I were you, I would + base verb.
+   why: "still hurts": advice: would see a doctor.
 
 3. The bus is very slow. If I were you, I ______ a taxi to the **station**, **Gulnora**.  
    options: take · took · ✔ would take · will take  
-   why: Advice: If I were you, I would + base verb.
+   why: "The bus is very slow": advice: would take a taxi.
 
 4. I ______ her today if I were you, **Jamshid**. She's waiting for your **answer**.  
    options: called · ✔ would call · will call · call  
-   why: Advice: If I were you, I would + base verb.
+   why: "She's waiting": advice: would call.
 
 5. Both are nice, but if I were you, I ______ the **red** one, **Ulugbek**.  
    options: ✔ would buy · will buy · buy · bought  
-   why: Advice: If I were you, I would + base verb.
+   why: "Both are nice": my choice for you: would buy.
 
 6. You have the **test** tomorrow. If I were you, I ______ to bed early, **Jamshid**.  
    options: will go · go · went · ✔ would go  
-   why: Advice: If I were you, I would + base verb.
+   why: "the … tomorrow": advice: would go to bed early.
 
 7. I ______ the teacher if I were you, **Malika**. She knows a lot about **music**.  
    options: ask · asked · ✔ would ask · will ask  
-   why: Advice: If I were you, I would + base verb.
+   why: "She knows a lot": advice: would ask.
 
 8. You love helping people. If I were you, I ______ **law** at university, **Malika**.  
    options: studied · ✔ would study · will study · study  
-   why: Advice: If I were you, I would + base verb.
+   why: "You love helping people": advice: would study.
 
 9. It's cold outside. I ______ a **hat** if I were you, **Malika**.  
    options: ✔ would wear · will wear · wear · wore  
-   why: Advice: If I were you, I would + base verb.
+   why: "It's cold outside": advice: would wear.
 
 10. Don't spend it all. If I were you, I ______ the money for a **trip**, **Ulugbek**.  
    options: will save · save · saved · ✔ would save  
-   why: Advice: If I were you, I would + base verb.
+   why: "Don't spend it all": advice: would save.
 
 11. I ______ your **parents** the truth if I were you, **Malika**.  
    options: tell · told · ✔ would tell · will tell  
-   why: Advice: If I were you, I would + base verb.
+   why: Honest advice: would tell the truth.
 
 12. Tickets sell fast. If I were you, I ______ them for the **festival** now, **Jamshid**.  
    options: booked · ✔ would book · will book · book  
-   why: Advice: If I were you, I would + base verb.
+   why: "Tickets sell fast": advice: would book.
 
 13. You're going to **Korea** in May? If I were you, I ______ some of the language, **Ulugbek**.  
    options: ✔ would learn · will learn · learn · learned  
-   why: Advice: If I were you, I would + base verb.
+   why: "going to … in May": advice: would learn.
 
 14. Their **lagman** is famous. If I were you, I ______ it, **Malika**.  
    options: will try · try · tried · ✔ would try  
-   why: Advice: If I were you, I would + base verb.
+   why: "is famous": advice: would try it.
 
 15. Look at this **rain**! If I were you, I ______ today, **Gulnora**.  
    options: don't drive · didn't drive · ✔ wouldn't drive · won't drive  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: Bad weather: advice not to: wouldn't drive.
 
 16. I ______ that **meat** if I were you, **Ulugbek**. It's very old.  
    options: didn't eat · ✔ wouldn't eat · won't eat · don't eat  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "It's very old": advice not to: wouldn't eat.
 
 17. You studied a lot. If I were you, I ______ about the **exam**, **Jamshid**.  
    options: ✔ wouldn't worry · won't worry · don't worry · didn't worry  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "You studied a lot": no need: wouldn't worry.
 
 18. Prices there are crazy. If I were you, I ______ much at the **mall**, **Malika**.  
    options: won't spend · don't spend · didn't spend · ✔ wouldn't spend  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "Prices there are crazy": advice not to: wouldn't spend.
 
 19. I ______ him your **camera** if I were you, **Ulugbek**. He never gives things back.  
    options: don't lend · didn't lend · ✔ wouldn't lend · won't lend  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "never gives things back": advice not to: wouldn't lend.
 
 20. It's very hot today. If I were you, I ______ the **chocolate** in the car, **Jamshid**.  
    options: didn't leave · ✔ wouldn't leave · won't leave · don't leave  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "very hot today": advice not to: wouldn't leave.
 
 ## build (20)
 
 1. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    You'd be great there. If I were you, I ______ (apply) for the job at the **hotel**, **Ulugbek**.  
    key: would apply  
-   why: Advice: If I were you, I would + base verb.
+   why: "You'd be great there": would apply.
 
 2. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    Your **tooth** hurts? If I were you, I ______ (see) a doctor, **Jamshid**.  
    key: would see  
-   why: Advice: If I were you, I would + base verb.
+   why: "Your … hurts?": advice: would see.
 
 3. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    I ______ (take) a taxi to the **airport** if I were you, **Jamshid**.  
    key: would take  
-   why: Advice: If I were you, I would + base verb.
+   why: Advice about the trip: would take.
 
 4. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    It's your **grandmother**'s birthday. If I were you, I ______ (call) her tonight, **Malika**.  
    key: would call  
-   why: Advice: If I were you, I would + base verb.
+   why: "It's your …'s birthday": would call.
 
 5. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    Both are nice. If I were you, I ______ (buy) the **red** one, **Ulugbek**.  
    key: would buy  
-   why: Advice: If I were you, I would + base verb.
+   why: "Both are nice": would buy.
 
 6. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    I ______ (go) to bed early if I were you. The **match** is tomorrow, **Gulnora**.  
    key: would go  
-   why: Advice: If I were you, I would + base verb.
+   why: "is tomorrow": would go.
 
 7. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    You look lost. If I were you, I ______ (ask) the **teacher** for help, **Malika**.  
    key: would ask  
-   why: Advice: If I were you, I would + base verb.
+   why: "You look lost": would ask.
 
 8. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    It's freezing. If I were you, I ______ (wear) a warm **jacket**, **Malika**.  
    key: would wear  
-   why: Advice: If I were you, I would + base verb.
+   why: "It's freezing": would wear.
 
 9. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    I ______ (tell) your **parents** the truth if I were you, **Ulugbek**.  
    key: would tell  
-   why: Advice: If I were you, I would + base verb.
+   why: Honest advice: would tell.
 
 10. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    Hotels fill up fast. If I were you, I ______ (book) the hotel in **Khiva** now, **Gulnora**.  
    key: would book  
-   why: Advice: If I were you, I would + base verb.
+   why: "fill up fast": would book.
 
 11. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    Want fast progress? If I were you, I ______ (speak) English every day with **your teacher**, **Ulugbek**.  
    key: would speak  
-   why: Advice: If I were you, I would + base verb.
+   why: "fast progress": would speak.
 
 12. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    The new café is good. If I were you, I ______ (try) the **samsa**, **Ulugbek**.  
    key: would try  
-   why: Advice: If I were you, I would + base verb.
+   why: "The new café is good": would try.
 
 13. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    You never use it. If I were you, I ______ (sell) the old **bike**, **Jamshid**.  
    key: would sell  
-   why: Advice: If I were you, I would + base verb.
+   why: "You never use it": would sell.
 
 14. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    Spring is the best time. If I were you, I ______ (visit) **Bukhara** in April, **Ulugbek**.  
    key: would visit  
-   why: Advice: If I were you, I would + base verb.
+   why: "the best time": would visit.
 
 15. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    The roads are dangerous. If I were you, I ______ (not / drive) in this **rain**, **Malika**.  
    key: wouldn't drive  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "The roads are dangerous": wouldn't drive.
 
 16. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    I ______ (not / eat) that **meat** if I were you, **Malika**. It smells bad.  
    key: wouldn't eat  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "It smells bad": wouldn't eat.
 
 17. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    You're ready. If I were you, I ______ (not / worry) about the **test**, **Jamshid**.  
    key: wouldn't worry  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "You're ready": wouldn't worry.
 
 18. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    I ______ (not / lend) him your **bike** if I were you, **Jamshid**.  
    key: wouldn't lend  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: Advice not to lend: wouldn't lend.
 
 19. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    The sun is very strong. If I were you, I ______ (not / leave) your **medicine** in the car, **Jamshid**.  
    key: wouldn't leave  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "The sun is very strong": wouldn't leave.
 
 20. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
    That shop is expensive. If I were you, I ______ (not / buy) a **TV** there, **Gulnora**.  
    key: wouldn't buy  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: "That shop is expensive": wouldn't buy.
 
 ## transform (15)
 
@@ -192,91 +192,91 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    You should see a doctor about your **knee**, **Malika**.  
    → If I were you, I ______ a doctor about my **knee**, **Malika**.  
    key: would see  
-   why: Advice: If I were you, I would + base verb.
+   why: You should see → I would see.
 
 2. _Rewrite the advice with If I were you._  
    You should take the **metro**, **Ulugbek**. It's faster.  
    → If I were you, I ______ the **metro**, **Ulugbek**. It's faster.  
    key: would take  
-   why: Advice: If I were you, I would + base verb.
+   why: You should take → I would take.
 
 3. _Rewrite the advice with If I were you._  
    Why don't you call your **mother**, **Ulugbek**?  
    → If I were you, I ______ my **mother**, **Ulugbek**.  
    key: would call  
-   why: Advice: If I were you, I would + base verb.
+   why: Why don't you call → I would call.
 
 4. _Rewrite the advice with If I were you._  
    You shouldn't spend so much on **coffee**, **Gulnora**.  
    → If I were you, I ______ so much on **coffee**, **Gulnora**.  
    key: wouldn't spend  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: You shouldn't spend → I wouldn't spend.
 
 5. _Rewrite the advice with If I were you._  
    My advice: don't tell **your boss** about the **trip**.  
    → If I were you, I ______ **your boss** about the **trip**.  
    key: wouldn't tell  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: don't tell → I wouldn't tell.
 
 6. _Correct the mistake._  
    I will apply for the job at the **bank** if I were you, **Ulugbek**.  
    → I ______ for the job at the **bank** if I were you, **Ulugbek**.  
    key: would apply  
-   why: Advice: If I were you, I would + base verb.
+   why: With If I were you: would, not will.
 
 7. _Correct the mistake._  
    If I were you, I would to call the **landlord**, **Ulugbek**.  
    → If I were you, I ______ the **landlord**, **Ulugbek**.  
    key: would call  
-   why: Advice: If I were you, I would + base verb.
+   why: would + base verb, no to: would call.
 
 8. _Correct the mistake._  
    Honestly, I would went to the **dentist** if I were you, **Jamshid**.  
    → Honestly, I ______ to the **dentist** if I were you, **Jamshid**.  
    key: would go  
-   why: Advice: If I were you, I would + base verb.
+   why: would + base verb: go, not went.
 
 9. _Correct the mistake._  
    That **cheese** is old. If I were you, I don't eat it, **Jamshid**.  
    → That **cheese** is old. If I were you, I ______ it, **Jamshid**.  
    key: wouldn't eat  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: Advice not to: wouldn't eat, not don't eat.
 
 10. _Correct the mistake._  
    Both are good, but I would bought the **red** one if I were you, **Ulugbek**.  
    → Both are good, but I ______ the **red** one if I were you, **Ulugbek**.  
    key: would buy  
-   why: Advice: If I were you, I would + base verb.
+   why: would + base verb: buy, not bought.
 
 11. _Rewrite with If I were you, I would (or wouldn't) …._  
    I think it's a good idea to rest at home today, **Jamshid**. You look **tired**.  
    → If I were you, I ______ at home today, **Jamshid**. You look **tired**.  
    key: would rest  
-   why: Advice: If I were you, I would + base verb.
+   why: A good idea to rest → I would rest.
 
 12. _Rewrite with If I were you, I would (or wouldn't) …._  
    Going out in the **storm** is a bad idea, **Ulugbek**.  
    → If I were you, I ______ out in the **storm**, **Ulugbek**.  
    key: wouldn't go  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: A bad idea to go out → I wouldn't go.
 
 13. _Rewrite with If I were you, I would (or wouldn't) …._  
    Asking your **teacher** is the best idea, **Malika**.  
    → If I were you, I ______ my **teacher**, **Malika**.  
    key: would ask  
-   why: Advice: If I were you, I would + base verb.
+   why: The best idea to ask → I would ask.
 
 14. _Rewrite with If I were you, I would (or wouldn't) …._  
    Before the trip, learning some **Arabic** is a good idea, **Gulnora**.  
    → If I were you, I ______ some **Arabic** before the trip, **Gulnora**.  
    key: would learn  
-   why: Advice: If I were you, I would + base verb.
+   why: A good idea to learn → I would learn.
 
 15. _Rewrite with If I were you, I would (or wouldn't) …._  
    Taking the night train to **Nukus** is a bad idea, **Jamshid**.  
    → If I were you, I ______ the night train to **Nukus**, **Jamshid**.  
    key: wouldn't take  
-   why: Advice not to do something: If I were you, I wouldn't + base verb.
+   why: A bad idea to take → I wouldn't take.
 
 ## create (8)
 

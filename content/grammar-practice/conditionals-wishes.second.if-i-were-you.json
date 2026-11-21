@@ -677,7 +677,7 @@
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "Your {part} hurts? If I were you, I ______ (see) a doctor, {name}.",
   "key": "would see",
-  "why": "\"hurts\": would see.",
+  "why": "\"Your … hurts?\": advice: would see.",
   "slots": {
    "part": [
     "tooth",
@@ -731,7 +731,7 @@
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "It's your {who}'s birthday. If I were you, I ______ (call) her tonight, {name}.",
   "key": "would call",
-  "why": "\"birthday\": would call.",
+  "why": "\"It's your …'s birthday\": would call.",
   "slots": {
    "who": [
     "mother",
@@ -1028,7 +1028,7 @@
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "The roads are dangerous. If I were you, I ______ (not / drive) in this {weather}, {name}.",
   "key": "wouldn't drive",
-  "why": "\"dangerous\": wouldn't drive.",
+  "why": "\"The roads are dangerous\": wouldn't drive.",
   "slots": {
    "weather": [
     "snow",
@@ -1163,7 +1163,7 @@
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "That shop is expensive. If I were you, I ______ (not / buy) a {thing} there, {name}.",
   "key": "wouldn't buy",
-  "why": "\"expensive\": wouldn't buy.",
+  "why": "\"That shop is expensive\": wouldn't buy.",
   "slots": {
    "thing": [
     "phone",
@@ -1471,7 +1471,7 @@
   "source": "I think it's a good idea to rest at home today, {name}. You look {adj}.",
   "hint": "If I were you, I ______ at home today, {name}. You look {adj}.",
   "key": "would rest",
-  "why": "A good idea to rest → I would stay.",
+  "why": "A good idea to rest → I would rest.",
   "slots": {
    "adj": [
     "tired",

@@ -152,9 +152,9 @@ const VARIETY = {
   ],
   "build": [
    "\"You'd be great there\": would apply.",
-   "\"hurts\": would see.",
+   "\"Your … hurts?\": advice: would see.",
    "Advice about the trip: would take.",
-   "\"birthday\": would call.",
+   "\"It's your …'s birthday\": would call.",
    "\"Both are nice\": would buy.",
    "\"is tomorrow\": would go.",
    "\"You look lost\": would ask.",
@@ -165,12 +165,12 @@ const VARIETY = {
    "\"The new café is good\": would try.",
    "\"You never use it\": would sell.",
    "\"the best time\": would visit.",
-   "\"dangerous\": wouldn't drive.",
+   "\"The roads are dangerous\": wouldn't drive.",
    "\"It smells bad\": wouldn't eat.",
    "\"You're ready\": wouldn't worry.",
    "Advice not to lend: wouldn't lend.",
    "\"The sun is very strong\": wouldn't leave.",
-   "\"expensive\": wouldn't buy."
+   "\"That shop is expensive\": wouldn't buy."
   ],
   "transform": [
    "You should see → I would see.",
@@ -183,7 +183,7 @@ const VARIETY = {
    "would + base verb: go, not went.",
    "Advice not to: wouldn't eat, not don't eat.",
    "would + base verb: buy, not bought.",
-   "A good idea to rest → I would stay.",
+   "A good idea to rest → I would rest.",
    "A bad idea to go out → I wouldn't go.",
    "The best idea to ask → I would ask.",
    "A good idea to learn → I would learn.",

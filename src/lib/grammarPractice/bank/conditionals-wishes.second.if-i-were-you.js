@@ -17,7 +17,7 @@ export default [
    "applied"
   ],
   "key": 0,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"perfect for you\": advice to try: would apply.",
   "slots": {
    "place": [
     "bank",
@@ -49,7 +49,7 @@ export default [
    "would see"
   ],
   "key": 3,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"still hurts\": advice: would see a doctor.",
   "slots": {
    "part": [
     "tooth",
@@ -81,7 +81,7 @@ export default [
    "will take"
   ],
   "key": 2,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"The bus is very slow\": advice: would take a taxi.",
   "slots": {
    "place": [
     "airport",
@@ -113,7 +113,7 @@ export default [
    "call"
   ],
   "key": 1,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"She's waiting\": advice: would call.",
   "slots": {
    "thing": [
     "answer",
@@ -145,7 +145,7 @@ export default [
    "bought"
   ],
   "key": 0,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"Both are nice\": my choice for you: would buy.",
   "slots": {
    "color": [
     "blue",
@@ -177,7 +177,7 @@ export default [
    "would go"
   ],
   "key": 3,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"the … tomorrow\": advice: would go to bed early.",
   "slots": {
    "test": [
     "exam",
@@ -209,7 +209,7 @@ export default [
    "will ask"
   ],
   "key": 2,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"She knows a lot\": advice: would ask.",
   "slots": {
    "topic": [
     "history",
@@ -241,7 +241,7 @@ export default [
    "study"
   ],
   "key": 1,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"You love helping people\": advice: would study.",
   "slots": {
    "subject": [
     "medicine",
@@ -273,7 +273,7 @@ export default [
    "wore"
   ],
   "key": 0,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"It's cold outside\": advice: would wear.",
   "slots": {
    "coat": [
     "coat",
@@ -305,7 +305,7 @@ export default [
    "would save"
   ],
   "key": 3,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"Don't spend it all\": advice: would save.",
   "slots": {
    "thing": [
     "car",
@@ -337,7 +337,7 @@ export default [
    "will tell"
   ],
   "key": 2,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "Honest advice: would tell the truth.",
   "slots": {
    "who": [
     "parents",
@@ -369,7 +369,7 @@ export default [
    "book"
   ],
   "key": 1,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"Tickets sell fast\": advice: would book.",
   "slots": {
    "event": [
     "concert",
@@ -401,7 +401,7 @@ export default [
    "learned"
   ],
   "key": 0,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"going to … in May\": advice: would learn.",
   "slots": {
    "country": [
     "Korea",
@@ -433,7 +433,7 @@ export default [
    "would try"
   ],
   "key": 3,
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"is famous\": advice: would try it.",
   "slots": {
    "food": [
     "plov",
@@ -465,7 +465,7 @@ export default [
    "won't drive"
   ],
   "key": 2,
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "Bad weather: advice not to: wouldn't drive.",
   "slots": {
    "weather": [
     "snow",
@@ -497,7 +497,7 @@ export default [
    "don't eat"
   ],
   "key": 1,
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"It's very old\": advice not to: wouldn't eat.",
   "slots": {
    "food": [
     "fish",
@@ -529,7 +529,7 @@ export default [
    "didn't worry"
   ],
   "key": 0,
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"You studied a lot\": no need: wouldn't worry.",
   "slots": {
    "test": [
     "exam",
@@ -561,7 +561,7 @@ export default [
    "wouldn't spend"
   ],
   "key": 3,
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"Prices there are crazy\": advice not to: wouldn't spend.",
   "slots": {
    "place": [
     "airport",
@@ -593,7 +593,7 @@ export default [
    "won't lend"
   ],
   "key": 2,
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"never gives things back\": advice not to: wouldn't lend.",
   "slots": {
    "thing": [
     "car",
@@ -625,7 +625,7 @@ export default [
    "don't leave"
   ],
   "key": 1,
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"very hot today\": advice not to: wouldn't leave.",
   "slots": {
    "thing": [
     "chocolate",
@@ -652,7 +652,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "You'd be great there. If I were you, I ______ (apply) for the job at the {place}, {name}.",
   "key": "would apply",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"You'd be great there\": would apply.",
   "slots": {
    "place": [
     "bank",
@@ -679,7 +679,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "Your {part} hurts? If I were you, I ______ (see) a doctor, {name}.",
   "key": "would see",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"Your … hurts?\": advice: would see.",
   "slots": {
    "part": [
     "tooth",
@@ -706,7 +706,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "I ______ (take) a taxi to the {place} if I were you, {name}.",
   "key": "would take",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "Advice about the trip: would take.",
   "slots": {
    "place": [
     "airport",
@@ -733,7 +733,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "It's your {who}'s birthday. If I were you, I ______ (call) her tonight, {name}.",
   "key": "would call",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"It's your …'s birthday\": would call.",
   "slots": {
    "who": [
     "mother",
@@ -760,7 +760,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "Both are nice. If I were you, I ______ (buy) the {color} one, {name}.",
   "key": "would buy",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"Both are nice\": would buy.",
   "slots": {
    "color": [
     "blue",
@@ -787,7 +787,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "I ______ (go) to bed early if I were you. The {test} is tomorrow, {name}.",
   "key": "would go",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"is tomorrow\": would go.",
   "slots": {
    "test": [
     "exam",
@@ -814,7 +814,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "You look lost. If I were you, I ______ (ask) the {who} for help, {name}.",
   "key": "would ask",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"You look lost\": would ask.",
   "slots": {
    "who": [
     "teacher",
@@ -841,7 +841,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "It's freezing. If I were you, I ______ (wear) a warm {coat}, {name}.",
   "key": "would wear",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"It's freezing\": would wear.",
   "slots": {
    "coat": [
     "coat",
@@ -868,7 +868,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "I ______ (tell) your {who} the truth if I were you, {name}.",
   "key": "would tell",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "Honest advice: would tell.",
   "slots": {
    "who": [
     "parents",
@@ -895,7 +895,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "Hotels fill up fast. If I were you, I ______ (book) the hotel in {city} now, {name}.",
   "key": "would book",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"fill up fast\": would book.",
   "slots": {
    "city": [
     "Samarkand",
@@ -922,7 +922,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "Want fast progress? If I were you, I ______ (speak) English every day with {who}, {name}.",
   "key": "would speak",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"fast progress\": would speak.",
   "slots": {
    "who": [
     "tourists",
@@ -949,7 +949,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "The new café is good. If I were you, I ______ (try) the {food}, {name}.",
   "key": "would try",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"The new café is good\": would try.",
   "slots": {
    "food": [
     "plov",
@@ -976,7 +976,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "You never use it. If I were you, I ______ (sell) the old {thing}, {name}.",
   "key": "would sell",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"You never use it\": would sell.",
   "slots": {
    "thing": [
     "car",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "Spring is the best time. If I were you, I ______ (visit) {city} in April, {name}.",
   "key": "would visit",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "\"the best time\": would visit.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "The roads are dangerous. If I were you, I ______ (not / drive) in this {weather}, {name}.",
   "key": "wouldn't drive",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"The roads are dangerous\": wouldn't drive.",
   "slots": {
    "weather": [
     "snow",
@@ -1060,7 +1060,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "I ______ (not / eat) that {food} if I were you, {name}. It smells bad.",
   "key": "wouldn't eat",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"It smells bad\": wouldn't eat.",
   "slots": {
    "food": [
     "fish",
@@ -1090,7 +1090,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "You're ready. If I were you, I ______ (not / worry) about the {test}, {name}.",
   "key": "wouldn't worry",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"You're ready\": wouldn't worry.",
   "slots": {
    "test": [
     "exam",
@@ -1120,7 +1120,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "I ______ (not / lend) him your {thing} if I were you, {name}.",
   "key": "wouldn't lend",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "Advice not to lend: wouldn't lend.",
   "slots": {
    "thing": [
     "car",
@@ -1150,7 +1150,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "The sun is very strong. If I were you, I ______ (not / leave) your {thing} in the car, {name}.",
   "key": "wouldn't leave",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"The sun is very strong\": wouldn't leave.",
   "slots": {
    "thing": [
     "chocolate",
@@ -1180,7 +1180,7 @@ export default [
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
   "source": "That shop is expensive. If I were you, I ______ (not / buy) a {thing} there, {name}.",
   "key": "wouldn't buy",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "\"That shop is expensive\": wouldn't buy.",
   "slots": {
    "thing": [
     "phone",
@@ -1211,7 +1211,7 @@ export default [
   "source": "You should see a doctor about your {part}, {name}.",
   "hint": "If I were you, I ______ a doctor about my {part}, {name}.",
   "key": "would see",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "You should see → I would see.",
   "slots": {
    "part": [
     "tooth",
@@ -1239,7 +1239,7 @@ export default [
   "source": "You should take the {bus}, {name}. It's faster.",
   "hint": "If I were you, I ______ the {bus}, {name}. It's faster.",
   "key": "would take",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "You should take → I would take.",
   "slots": {
    "bus": [
     "train",
@@ -1267,7 +1267,7 @@ export default [
   "source": "Why don't you call your {who}, {name}?",
   "hint": "If I were you, I ______ my {who}, {name}.",
   "key": "would call",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "Why don't you call → I would call.",
   "slots": {
    "who": [
     "mother",
@@ -1295,7 +1295,7 @@ export default [
   "source": "You shouldn't spend so much on {thing}, {name}.",
   "hint": "If I were you, I ______ so much on {thing}, {name}.",
   "key": "wouldn't spend",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "You shouldn't spend → I wouldn't spend.",
   "slots": {
    "thing": [
     "clothes",
@@ -1326,7 +1326,7 @@ export default [
   "source": "My advice: don't tell {who} about the {event}.",
   "hint": "If I were you, I ______ {who} about the {event}.",
   "key": "wouldn't tell",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "don't tell → I wouldn't tell.",
   "slots": {
    "who": [
     "Timur",
@@ -1357,7 +1357,7 @@ export default [
   "source": "I will apply for the job at the {place} if I were you, {name}.",
   "hint": "I ______ for the job at the {place} if I were you, {name}.",
   "key": "would apply",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "With If I were you: would, not will.",
   "slots": {
    "place": [
     "bank",
@@ -1385,7 +1385,7 @@ export default [
   "source": "If I were you, I would to call the {who}, {name}.",
   "hint": "If I were you, I ______ the {who}, {name}.",
   "key": "would call",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "would + base verb, no to: would call.",
   "slots": {
    "who": [
     "doctor",
@@ -1413,7 +1413,7 @@ export default [
   "source": "Honestly, I would went to the {place} if I were you, {name}.",
   "hint": "Honestly, I ______ to the {place} if I were you, {name}.",
   "key": "would go",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "would + base verb: go, not went.",
   "slots": {
    "place": [
     "dentist",
@@ -1441,7 +1441,7 @@ export default [
   "source": "That {food} is old. If I were you, I don't eat it, {name}.",
   "hint": "That {food} is old. If I were you, I ______ it, {name}.",
   "key": "wouldn't eat",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "Advice not to: wouldn't eat, not don't eat.",
   "slots": {
    "food": [
     "fish",
@@ -1472,7 +1472,7 @@ export default [
   "source": "Both are good, but I would bought the {color} one if I were you, {name}.",
   "hint": "Both are good, but I ______ the {color} one if I were you, {name}.",
   "key": "would buy",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "would + base verb: buy, not bought.",
   "slots": {
    "color": [
     "blue",
@@ -1500,7 +1500,7 @@ export default [
   "source": "I think it's a good idea to rest at home today, {name}. You look {adj}.",
   "hint": "If I were you, I ______ at home today, {name}. You look {adj}.",
   "key": "would rest",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "A good idea to rest → I would rest.",
   "slots": {
    "adj": [
     "tired",
@@ -1528,7 +1528,7 @@ export default [
   "source": "Going out in the {weather} is a bad idea, {name}.",
   "hint": "If I were you, I ______ out in the {weather}, {name}.",
   "key": "wouldn't go",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "A bad idea to go out → I wouldn't go.",
   "slots": {
    "weather": [
     "snow",
@@ -1559,7 +1559,7 @@ export default [
   "source": "Asking your {who} is the best idea, {name}.",
   "hint": "If I were you, I ______ my {who}, {name}.",
   "key": "would ask",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "The best idea to ask → I would ask.",
   "slots": {
    "who": [
     "teacher",
@@ -1587,7 +1587,7 @@ export default [
   "source": "Before the trip, learning some {lang} is a good idea, {name}.",
   "hint": "If I were you, I ______ some {lang} before the trip, {name}.",
   "key": "would learn",
-  "why": "Advice: If I were you, I would + base verb.",
+  "why": "A good idea to learn → I would learn.",
   "slots": {
    "lang": [
     "Korean",
@@ -1615,7 +1615,7 @@ export default [
   "source": "Taking the night train to {city} is a bad idea, {name}.",
   "hint": "If I were you, I ______ the night train to {city}, {name}.",
   "key": "wouldn't take",
-  "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
+  "why": "A bad idea to take → I wouldn't take.",
   "slots": {
    "city": [
     "Moscow",
