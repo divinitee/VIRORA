@@ -204,7 +204,7 @@ const VARIETY = {
    "\"hands are black\" now: has been fixing.",
    "\"voices are gone … all …\": have been shouting.",
    "\"eyes are tired … for hours\": has been reading.",
-   "\"tired because … all day\": have been walking.",
+   "\"… because … all day\": have been walking.",
    "\"tired … since lunch\": has been digging.",
    "\"eyes are red … too long\": have been watching."
   ],

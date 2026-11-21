@@ -18,7 +18,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 4. I met my old **teacher** in the street and stopped ______ to her, **Nodira**.  
    options: talked · ✔ to talk · talking · talk  
-   why: I met an old friend: they stopped in order to do it, so stop + to (to talk).
+   why: I met an old …: they stopped in order to do it, so stop + to (to talk).
 
 5. When it stopped ______, we went to the **beach**, **Gulnora**.  
    options: ✔ raining · to rain · rain · rained  
@@ -119,7 +119,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets._  
    We stopped ______ (watch) the **series** because it got boring, **Ulugbek**.  
    key: watching  
-   why: The show got boring: the activity ends, so stop + -ing (watching).
+   why: The … got boring: the activity ends, so stop + -ing (watching).
 
 8. _Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets._  
    The street dancers in **Istanbul** were great, so we stopped ______ (watch) them, **Sherzod**.  

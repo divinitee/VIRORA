@@ -229,7 +229,7 @@ export default [
    "live"
   ],
   "key": 1,
-  "why": "The old flat is in the past, so this is a memory of the past: remember + -ing (living).",
+  "why": "The old … is in the past, so this is a memory of the past: remember + -ing (living).",
   "slots": {
    "home": [
     "flat",
@@ -595,7 +595,7 @@ export default [
    "win"
   ],
   "key": 1,
-  "why": "\"In 1998\" is the past, so this is a memory of the past: remember + -ing (winning).",
+  "why": "\"In …\" is the past, so this is a memory of the past: remember + -ing (winning).",
   "slots": {
    "cup": [
     "cup",

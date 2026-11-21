@@ -49,7 +49,7 @@ export default [
    "didn't use to drink"
   ],
   "key": 3,
-  "why": "\"now she has a cup\" means coffee is new for her: didn't use to drink.",
+  "why": "\"now she has a cup\" means … is new for her: didn't use to drink.",
   "slots": {
    "time": [
     "morning",

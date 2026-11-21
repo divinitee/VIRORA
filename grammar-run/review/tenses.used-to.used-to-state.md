@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. I ______ **garlic**, but now I **love** it.  
    options: ✔ used to hate · use to hate · was used to hate · used to hating  
-   why: "but now I love it" means the hating is over: used to hate.
+   why: "but now I … it" means the hating is over: used to hate.
 
 8. This **village** ______ very quiet, but now there are new **shops** everywhere.  
    options: ✔ used to be · used to was · is used to be · use to be  
@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. I ______ afraid of **the dark**, but I am not afraid **these days**.  
    options: ✔ used to be · use to be · was used to be · used to being  
-   why: "I am not afraid" any more, so the fear is past: used to be.
+   why: Not afraid now, so the fear is past: used to be.
 
 16. **Rustam** ______ **tennis** every day, but now he only plays at weekends.  
    options: ✔ used to play · used to played · is used to play · use to play  
@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Complete the sentence with used to and the verb in brackets._  
    My uncle ______ (have) a small **shop** in the **old town**, but he sold it last year.  
    key: used to have  
-   why: "he sold it last year": the shop was his, not now: used to have.
+   why: "he sold it last year": the … was his, not now: used to have.
 
 3. _Complete the sentence with used to and the verb in brackets._  
    This **street** ______ (be) very quiet. Now there are new **houses** everywhere.  
@@ -240,7 +240,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    At **my old school**, we usually wore a **blue jacket**.  
    → At **my old school**, we ______ a **blue jacket**.  
    key: used to wear  
-   why: "usually wore" at school is a past habit → used to wear.
+   why: "usually wore" at … is a past habit → used to wear.
 
 10. _Rewrite the sentence with used to instead of often, always or usually._  
    My **uncle** often told us stories in the **evenings**.  

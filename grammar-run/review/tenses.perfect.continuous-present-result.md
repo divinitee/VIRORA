@@ -174,7 +174,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
    We are **worn out** because we ______ (walk) around the **mountains** all day.  
    key: have been walking  
-   why: "tired because … all day": have been walking.
+   why: "… because … all day": have been walking.
 
 19. _Write the verb in brackets in the present perfect continuous (has / have been + -ing)._  
    My **neighbour** is tired. He ______ (dig) in the **orchard** since lunch.  

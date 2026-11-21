@@ -50,7 +50,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 12. Our team ______ every **away game** so far this season, **Malika**.  
    options: wins · ✔ has won · won · had won  
-   why: "so far this season": every game up to now: has won.
+   why: "so far this season": every … up to now: has won.
 
 13. Up to now, my sisters ______ **three** cakes for the **school fair**.  
    options: ✔ have made · made · had made · make  
@@ -129,7 +129,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 9. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
    So far today, I ______ (run) **ten** kilometres, and the **fun run** isn't over.  
    key: have run  
-   why: "the race isn't over": have run.
+   why: "the … isn't over": have run.
 
 10. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
    Up to now, **Jamshid** ______ (send) me **twenty** messages today.  
@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
    I ______ (not have) **a coffee** yet, and it's already **eleven**.  
    key: haven't had  
-   why: "yet" and "already": the morning isn't over for breakfast: haven't had.
+   why: "yet" and "already": the morning isn't over for …: haven't had.
 
 14. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
    So far today, **Timur** ______ (not call) me. Is he **OK**?  
@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
    I ______ (see) **Sevara** this morning. Now it's **evening** and I haven't seen her again.  
    key: saw  
-   why: "this morning" is over ("Now it's evening"): past simple saw.
+   why: "this morning" is over ("Now it's …"): past simple saw.
 
 16. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
    I ______ (drink) a lot of coffee this morning. Now it's **five** and I'm tired.  
@@ -198,7 +198,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We had **three** tests last week.  
    → We ______ **three** tests so far this **week**.  
    key: have had  
-   why: "last week" → "so far this …": have had.
+   why: "last …" → "so far this …": have had.
 
 3. _The time is not finished yet. Rewrite the sentence with so far._  
    **Ulugbek** made **five** new friends last year.  
@@ -210,7 +210,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    My brother won **four** prizes last season.  
    → My brother ______ **four** prizes so far this **season**.  
    key: has won  
-   why: "last season" → "so far this …": has won.
+   why: "last …" → "so far this …": has won.
 
 5. _The time is not finished yet. Rewrite the sentence with so far._  
    It snowed **five** times last winter, **Malika**.  

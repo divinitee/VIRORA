@@ -10,7 +10,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 2. My mother ______ **coffee**, but now she has a cup every **morning**.  
    options: didn't used to drink · doesn't use to drink · didn't use to drinking · ✔ didn't use to drink  
-   why: "now she has a cup" means coffee is new for her: didn't use to drink.
+   why: "now she has a cup" means … is new for her: didn't use to drink.
 
 3. We ______ a **computer** at home. We bought one last **spring**.  
    options: weren't used to have · didn't use have · ✔ didn't use to have · didn't used to have  

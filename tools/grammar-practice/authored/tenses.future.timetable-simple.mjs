@@ -173,14 +173,14 @@ const VARIETY = {
    "The museum's timetable next week: closes.",
    "Plural \"buses\" on a timetable: run, no -s.",
    "Plural \"shops\" with fixed hours: close.",
-   "Plural \"exams\" on a fixed date: start.",
+   "Plural \"…\" on a fixed date: start.",
    "Plural transport times tomorrow: leave.",
    "Plural \"holidays\" on the school calendar: start.",
    "Plural \"Lessons\" on tomorrow's timetable: finish.",
    "Question about a fixed time, singular event: does.",
    "Question about \"the next\" one on the timetable: does.",
    "Question about shop hours, plural: do.",
-   "Yes/no question, plural exams: Do … begin."
+   "Yes/no question, plural …: Do … begin."
   ],
   "build": [
    "Timetable for tomorrow, singular: leaves.",

@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "We are {feel} because we ______ (walk) around the {place} all day.",
   "key": "have been walking",
-  "why": "\"tired because … all day\": have been walking.",
+  "why": "\"… because … all day\": have been walking.",
   "slots": {
    "place": [
     "old city",

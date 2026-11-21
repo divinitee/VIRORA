@@ -158,7 +158,7 @@ const VARIETY = {
  "why": {
   "choose": [
    "\"but now I eat it\" means the old dislike is over: didn't use to like.",
-   "\"now she has a cup\" means coffee is new for her: didn't use to drink.",
+   "\"now she has a cup\" means … is new for her: didn't use to drink.",
    "\"We bought one last …\": before that, no: didn't use to have.",
    "\"now he speaks it at work\" is new: didn't use to speak.",
    "\"Now it's my favourite\" was not true before: didn't use to enjoy.",

@@ -209,7 +209,7 @@ export default [
    "used to hating"
   ],
   "key": 0,
-  "why": "\"but now I love it\" means the hating is over: used to hate.",
+  "why": "\"but now I … it\" means the hating is over: used to hate.",
   "slots": {
    "food": [
     "fish",
@@ -465,7 +465,7 @@ export default [
    "used to being"
   ],
   "key": 0,
-  "why": "\"I am not afraid\" any more, so the fear is past: used to be.",
+  "why": "Not afraid now, so the fear is past: used to be.",
   "slots": {
    "thing": [
     "dogs",
@@ -679,7 +679,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "My uncle ______ (have) a small {shop} in the {where}, but he sold it last year.",
   "key": "used to have",
-  "why": "\"he sold it last year\": the shop was his, not now: used to have.",
+  "why": "\"he sold it last year\": the … was his, not now: used to have.",
   "slots": {
    "shop": [
     "shop",
@@ -1417,7 +1417,7 @@ export default [
   "source": "At {school}, we usually wore a {uniform}.",
   "hint": "At {school}, we ______ a {uniform}.",
   "key": "used to wear",
-  "why": "\"usually wore\" at school is a past habit → used to wear.",
+  "why": "\"usually wore\" at … is a past habit → used to wear.",
   "slots": {
    "school": [
     "school",

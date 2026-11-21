@@ -241,7 +241,7 @@ export default [
    "wins"
   ],
   "key": 1,
-  "why": "\"last season\" is finished time: past simple won.",
+  "why": "\"last …\" is finished time: past simple won.",
   "slots": {
    "event": [
     "cup",

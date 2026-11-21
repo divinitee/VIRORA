@@ -54,7 +54,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 13. Our **exams** ______ on **Tuesday**, so I'm studying all weekend.  
    options: ✔ start · starts · started · starting  
-   why: Plural "exams" on a fixed date: start.
+   why: Plural "…" on a fixed date: start.
 
 14. The **coaches** to **Samarkand** ______ from the main station tomorrow.  
    options: leaves · left · leaving · ✔ leave  
@@ -82,7 +82,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 20. ______ your **exams** begin tomorrow, **Sherzod**?  
    options: Did · ✔ Do · Does · Are  
-   why: Yes/no question, plural exams: Do … begin.
+   why: Yes/no question, plural …: Do … begin.
 
 ## build (20)
 

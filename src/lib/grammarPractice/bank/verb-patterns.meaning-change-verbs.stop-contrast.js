@@ -113,7 +113,7 @@ export default [
    "talk"
   ],
   "key": 1,
-  "why": "I met an old friend: they stopped in order to do it, so stop + to (to talk).",
+  "why": "I met an old …: they stopped in order to do it, so stop + to (to talk).",
   "slots": {
    "who": [
     "teacher",
@@ -814,7 +814,7 @@ export default [
   "instr": "Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets.",
   "source": "We stopped ______ (watch) the {show} because it got boring, {name}.",
   "key": "watching",
-  "why": "The show got boring: the activity ends, so stop + -ing (watching).",
+  "why": "The … got boring: the activity ends, so stop + -ing (watching).",
   "slots": {
    "show": [
     "series",

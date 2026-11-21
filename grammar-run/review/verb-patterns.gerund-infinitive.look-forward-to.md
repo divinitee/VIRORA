@@ -26,7 +26,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 6. I'm really looking forward to ______ my new **course**, **Otabek**.  
    options: start · to start · started · ✔ starting  
-   why: to + -ing: starting my new job.
+   why: to + -ing: starting my new ….
 
 7. Everyone is looking forward to ______ a break after the **busy week**, **Gulnora**.  
    options: to have · had · ✔ having · have  
@@ -50,7 +50,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 12. I'm looking forward to ______ the new **cartoon** with you, **Otabek**.  
    options: watched · ✔ watching · watch · to watch  
-   why: to + -ing: watching the film.
+   why: to + -ing: watching the ….
 
 13. She's looking forward to ______ her **test results** on **Monday**.  
    options: ✔ getting · get · to get · got  
@@ -66,11 +66,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 16. We look forward ______ your **answer** about the **order**.  
    options: at · ✔ to · for · on  
-   why: look forward to + a noun: to your reply.
+   why: look forward to + a noun: to your ….
 
 17. My little brother is looking forward ______ his birthday **party**, **Sherzod**.  
    options: ✔ to · for · on · at  
-   why: look forward to + a noun: to his birthday party.
+   why: look forward to + a noun: to his birthday ….
 
 18. Are you looking forward ______ the **wedding** on Friday, **Nodira**?  
    options: for · on · at · ✔ to  
@@ -99,7 +99,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 3. _Complete with the right form of the verb in brackets._  
    I look forward to ______ (hear) your **story**, **Nodira**.  
    key: hearing  
-   why: to + -ing: hearing your news.
+   why: to + -ing: hearing your ….
 
 4. _Complete with the right form of the verb in brackets._  
    Our **class** is looking forward to ______ (meet) the new **students**.  

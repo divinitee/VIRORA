@@ -337,7 +337,7 @@ export default [
    "sang"
   ],
   "key": 2,
-  "why": "Nervous on a stage: sing → sung (not sang).",
+  "why": "Nervous on a …: sing → sung (not sang).",
   "slots": {
    "name": [
     "Feruza",
@@ -401,7 +401,7 @@ export default [
    "giving"
   ],
   "key": 0,
-  "why": "Nervous about a first talk: give → given (not gave).",
+  "why": "Nervous about a first …: give → given (not gave).",
   "slots": {
    "name": [
     "Madina",
@@ -895,7 +895,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "Our {group} had never ______ (sing) in front of the whole {school} before.",
   "key": "sung",
-  "why": "In front of the whole school: sing → sung.",
+  "why": "In front of the whole …: sing → sung.",
   "slots": {
    "group": [
     "class",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "I had never ______ (hear) that {music} before {when}.",
   "key": "heard",
-  "why": "\"before last night\": hear → heard.",
+  "why": "\"before …\": hear → heard.",
   "slots": {
    "music": [
     "song",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "My little sister had never ______ (try) {food} before the {event}.",
   "key": "tried",
-  "why": "\"before the party\": try → tried.",
+  "why": "\"before the …\": try → tried.",
   "slots": {
    "food": [
     "ice cream cake",

@@ -273,7 +273,7 @@ export default [
    "had fall"
   ],
   "key": 0,
-  "why": "The snow fell first, then the white roads: had fallen.",
+  "why": "The snow fell first, then the white …: had fallen.",
   "slots": {
    "time": [
     "night",
@@ -369,7 +369,7 @@ export default [
    "had woke"
   ],
   "key": 1,
-  "why": "\"already\": I woke before the alarm: had woken.",
+  "why": "\"already\": I woke before the …: had woken.",
   "slots": {
    "alarm": [
     "alarm",
@@ -401,7 +401,7 @@ export default [
    "had do"
   ],
   "key": 0,
-  "why": "She could go out because the work was done first: had done.",
+  "why": "She could go out because the … was done first: had done.",
   "slots": {
    "name": [
     "Madina",
@@ -593,7 +593,7 @@ export default [
    "has rung"
   ],
   "key": 2,
-  "why": "\"I was late\": the bell rang before I came: had rung.",
+  "why": "\"I was late\": the … rang before I came: had rung.",
   "slots": {
    "school": [
     "school",
@@ -732,7 +732,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "By the time the {who} arrived, we ______ (prepare) {food}.",
   "key": "had prepared",
-  "why": "\"By the time the guests arrived\": food was ready: had prepared.",
+  "why": "\"By the time the … arrived\": food was ready: had prepared.",
   "slots": {
    "food": [
     "plov",
@@ -867,7 +867,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "When the teacher checked, {name} ______ (finish) the {test}.",
   "key": "had finished",
-  "why": "\"When the teacher checked\": the test was finished: had finished.",
+  "why": "\"When the teacher checked\": the … was finished: had finished.",
   "slots": {
    "name": [
     "Gulnora",
@@ -1574,7 +1574,7 @@ export default [
    "had",
    "gone"
   ],
-  "why": "The guests went first: had … gone, with already in the middle.",
+  "why": "The … went first: had … gone, with already in the middle.",
   "slots": {
    "who": [
     "my uncle",

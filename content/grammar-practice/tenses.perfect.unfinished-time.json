@@ -373,7 +373,7 @@
    "had won"
   ],
   "key": 1,
-  "why": "\"so far this season\": every game up to now: has won.",
+  "why": "\"so far this season\": every … up to now: has won.",
   "slots": {
    "game": [
     "match",
@@ -876,7 +876,7 @@
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "So far today, I ______ (run) {n} kilometres, and the {event} isn't over.",
   "key": "have run",
-  "why": "\"the race isn't over\": have run.",
+  "why": "\"the … isn't over\": have run.",
   "slots": {
    "n": [
     "five",
@@ -984,7 +984,7 @@
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "I ______ (not have) {meal} yet, and it's already {time}.",
   "key": "haven't had",
-  "why": "\"yet\" and \"already\": the morning isn't over for breakfast: haven't had.",
+  "why": "\"yet\" and \"already\": the morning isn't over for …: haven't had.",
   "slots": {
    "time": [
     "ten",
@@ -1038,7 +1038,7 @@
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "I ______ (see) {name} this morning. Now it's {later} and I haven't seen her again.",
   "key": "saw",
-  "why": "\"this morning\" is over (\"Now it's evening\"): past simple saw.",
+  "why": "\"this morning\" is over (\"Now it's …\"): past simple saw.",
   "slots": {
    "name": [
     "Madina",
@@ -1223,7 +1223,7 @@
   "source": "We had {n} tests last week.",
   "hint": "We ______ {n} tests so far this {period}.",
   "key": "have had",
-  "why": "\"last week\" → \"so far this …\": have had.",
+  "why": "\"last …\" → \"so far this …\": have had.",
   "slots": {
    "n": [
     "two",
@@ -1279,7 +1279,7 @@
   "source": "My brother won {n} prizes last season.",
   "hint": "My brother ______ {n} prizes so far this {period}.",
   "key": "has won",
-  "why": "\"last season\" → \"so far this …\": has won.",
+  "why": "\"last …\" → \"so far this …\": has won.",
   "slots": {
    "n": [
     "two",

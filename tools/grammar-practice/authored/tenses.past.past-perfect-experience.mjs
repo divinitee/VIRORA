@@ -164,9 +164,9 @@ const VARIETY = {
    "\"I didn't know how to start\": write → written.",
    "\"felt strange\" in new clothes: wear → worn.",
    "She didn't like a new drink: drink → drunk (not drank).",
-   "Nervous on a stage: sing → sung (not sang).",
+   "Nervous on a …: sing → sung (not sang).",
    "Excited to go alone: take → taken (not took).",
-   "Nervous about a first talk: give → given (not gave).",
+   "Nervous about a first …: give → given (not gave).",
    "No real-match experience: throw → thrown (not threw).",
    "Had you ever …? + go → gone.",
    "Had … ever …? + see → seen (not saw).",
@@ -185,7 +185,7 @@ const VARIETY = {
    "\"cold water\" was new: swim → swum.",
    "Before his interview: write → written.",
    "Smart clothes for the first time: wear → worn.",
-   "In front of the whole school: sing → sung.",
+   "In front of the whole …: sing → sung.",
    "\"on my own before last …\": take → taken.",
    "Excited about a new city: had never been to.",
    "\"so the coach helped him\": do → done.",
@@ -193,9 +193,9 @@ const VARIETY = {
    "\"he didn't like it\": drink → drunk.",
    "\"proud … on her own\": make → made.",
    "\"so happy\": a first win → won.",
-   "\"before last night\": hear → heard.",
+   "\"before …\": hear → heard.",
    "\"a whole book … before this …\": read → read (same spelling).",
-   "\"before the party\": try → tried."
+   "\"before the …\": try → tried."
   ],
   "transform": [
    "\"my first time on a plane\" → had never flown before then.",

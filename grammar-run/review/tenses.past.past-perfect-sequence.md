@@ -38,7 +38,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 9. The **roads** were white because a lot of snow ______ in the **evening**.  
    options: ✔ had fallen · has fallen · had fell · had fall  
-   why: The snow fell first, then the white roads: had fallen.
+   why: The snow fell first, then the white …: had fallen.
 
 10. By the time the **final** started, the **captain** ______ to every player.  
    options: has spoken · had spoke · had speak · ✔ had spoken  
@@ -50,11 +50,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 12. When the **alarm clock** rang at **half past six**, I ______ up already.  
    options: had wake · ✔ had woken · has woken · had woke  
-   why: "already": I woke before the alarm: had woken.
+   why: "already": I woke before the …: had woken.
 
 13. **Madina** could go out because she ______ all her **chores**.  
    options: ✔ had done · has done · had did · had do  
-   why: She could go out because the work was done first: had done.
+   why: She could go out because the … was done first: had done.
 
 14. By the time the lifeguard arrived, **Jasur** ______ back to the **beach**.  
    options: has swum · had swam · had swim · ✔ had swum  
@@ -78,7 +78,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 19. I was late: when I got to **the lyceum**, the **bell** ______.  
    options: had rang · had ring · ✔ had rung · has rung  
-   why: "I was late": the bell rang before I came: had rung.
+   why: "I was late": the … rang before I came: had rung.
 
 20. By the time we got to the **hall**, the **singers** ______ three songs.  
    options: had sing · ✔ had sung · has sung · had sang  
@@ -104,7 +104,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Write the verb in brackets in the past perfect (had + past participle)._  
    By the time the **guests** arrived, we ______ (prepare) **a big dinner**.  
    key: had prepared  
-   why: "By the time the guests arrived": food was ready: had prepared.
+   why: "By the time the … arrived": food was ready: had prepared.
 
 5. _Write the verb in brackets in the past perfect (had + past participle)._  
    **Sevara** was tired because she ______ (work) all **night**.  
@@ -129,7 +129,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 9. _Write the verb in brackets in the past perfect (had + past participle)._  
    When the teacher checked, **Gulnora** ______ (finish) the **exercise**.  
    key: had finished  
-   why: "When the teacher checked": the test was finished: had finished.
+   why: "When the teacher checked": the … was finished: had finished.
 
 10. _Write the verb in brackets in the past perfect (had + past participle)._  
    The **carton** was empty because my brother ______ (drink) all the **water**.  
@@ -270,7 +270,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    The **neighbours** went home before **my aunt** arrived.  
    → When **my aunt** arrived, the **neighbours** ______ already ______ home.  
    key: had + gone  
-   why: The guests went first: had … gone, with already in the middle.
+   why: The … went first: had … gone, with already in the middle.
 
 15. _Rewrite the sentence with already and the past perfect._  
    **Ilya** sold his old **laptop** before he bought a new one.  

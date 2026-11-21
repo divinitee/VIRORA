@@ -177,7 +177,7 @@ export default [
    "starting"
   ],
   "key": 3,
-  "why": "to + -ing: starting my new job.",
+  "why": "to + -ing: starting my new ….",
   "slots": {
    "job": [
     "job",
@@ -369,7 +369,7 @@ export default [
    "to watch"
   ],
   "key": 1,
-  "why": "to + -ing: watching the film.",
+  "why": "to + -ing: watching the ….",
   "slots": {
    "film": [
     "film",
@@ -497,7 +497,7 @@ export default [
    "on"
   ],
   "key": 1,
-  "why": "look forward to + a noun: to your reply.",
+  "why": "look forward to + a noun: to your ….",
   "slots": {
    "thing": [
     "room",
@@ -529,7 +529,7 @@ export default [
    "at"
   ],
   "key": 0,
-  "why": "look forward to + a noun: to his birthday party.",
+  "why": "look forward to + a noun: to his birthday ….",
   "slots": {
    "event": [
     "party",
@@ -706,7 +706,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "I look forward to ______ (hear) your {what}, {name}.",
   "key": "hearing",
-  "why": "to + -ing: hearing your news.",
+  "why": "to + -ing: hearing your ….",
   "slots": {
    "name": [
     "Nodira",

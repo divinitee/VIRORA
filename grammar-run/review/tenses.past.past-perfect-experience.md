@@ -46,7 +46,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 11. Our teacher was nervous. She had never ______ on a **stage** before, **Feruza**.  
    options: sing · singing · ✔ sung · sang  
-   why: Nervous on a stage: sing → sung (not sang).
+   why: Nervous on a …: sing → sung (not sang).
 
 12. I was excited at the **ferry port**. I had never ______ a **holiday** alone before.  
    options: taking · ✔ taken · took · take  
@@ -54,7 +54,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 13. **Madina** was very nervous. She had never ______ a **speech** before.  
    options: ✔ given · gave · give · giving  
-   why: Nervous about a first talk: give → given (not gave).
+   why: Nervous about a first …: give → given (not gave).
 
 14. Our **team** lost because the new player had never ______ a **volleyball** in a real match before.  
    options: threw · throw · throwing · ✔ thrown  
@@ -134,7 +134,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 10. _Write the past participle of the verb in brackets._  
    Our **group** had never ______ (sing) in front of the whole **college** before.  
    key: sung  
-   why: In front of the whole school: sing → sung.
+   why: In front of the whole …: sing → sung.
 
 11. _Write the past participle of the verb in brackets._  
    I had never ______ (take) the **minibus** on my own before last **month**.  
@@ -174,7 +174,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Write the past participle of the verb in brackets._  
    I had never ______ (hear) that **kind of music** before **the concert**.  
    key: heard  
-   why: "before last night": hear → heard.
+   why: "before …": hear → heard.
 
 19. _Write the past participle of the verb in brackets._  
    **Sardor** had never ______ (read) a whole book in English before this **term**.  
@@ -184,7 +184,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 20. _Write the past participle of the verb in brackets._  
    My little sister had never ______ (try) **chocolate** before the **picnic**.  
    key: tried  
-   why: "before the party": try → tried.
+   why: "before the …": try → tried.
 
 ## transform (15)
 

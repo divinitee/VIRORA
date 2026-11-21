@@ -401,7 +401,7 @@ export default [
    "starting"
   ],
   "key": 0,
-  "why": "Plural \"exams\" on a fixed date: start.",
+  "why": "Plural \"…\" on a fixed date: start.",
   "slots": {
    "exam": [
     "exams",
@@ -625,7 +625,7 @@ export default [
    "Are"
   ],
   "key": 1,
-  "why": "Yes/no question, plural exams: Do … begin.",
+  "why": "Yes/no question, plural …: Do … begin.",
   "slots": {
    "exam": [
     "exams",

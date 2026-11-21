@@ -34,7 +34,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 8. Do you remember ______ in the old **building** on **Navoi** Street, **Sherzod**?  
    options: lived · ✔ living · to live · live  
-   why: The old flat is in the past, so this is a memory of the past: remember + -ing (living).
+   why: The old … is in the past, so this is a memory of the past: remember + -ing (living).
 
 9. I remember ______ my **gloves** on the bus last winter, **Zarina**.  
    options: ✔ losing · to lose · lose · lost  
@@ -82,7 +82,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 20. Our coach remembers ______ the **championship** in **2005**.  
    options: won · ✔ winning · to win · win  
-   why: "In 1998" is the past, so this is a memory of the past: remember + -ing (winning).
+   why: "In …" is the past, so this is a memory of the past: remember + -ing (winning).
 
 ## build (20)
 

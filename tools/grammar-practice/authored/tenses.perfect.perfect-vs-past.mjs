@@ -154,7 +154,7 @@ const VARIETY = {
    "A finished time word: past simple lost.",
    "\"an hour ago\" is finished time: past simple called.",
    "\"when I was …\" is finished time: past simple learned.",
-   "\"last season\" is finished time: past simple won.",
+   "\"last …\" is finished time: past simple won.",
    "\"at six yesterday\" is finished time: past simple finished.",
    "A finished time word and the visit is over: visited.",
    "\"when he was …\" is finished time: past simple broke.",

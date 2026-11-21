@@ -42,7 +42,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 10. I saw my old **teacher** in the street and stopped ______ to her, **Nodira**.  
    options: talking · talk · talked · ✔ to talk  
-   why: I saw an old friend, so we stopped in order to do it: stop + to + base (to talk).
+   why: I saw an old …, so we stopped in order to do it: stop + to + base (to talk).
 
 11. The driver heard a noise, so he stopped ______ the **engine**, **Malika**.  
    options: check · checked · ✔ to check · checking  

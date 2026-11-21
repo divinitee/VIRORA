@@ -34,7 +34,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 8. Our team ______ the **final** last **year**.  
    options: is winning · ✔ won · has won · wins  
-   why: "last season" is finished time: past simple won.
+   why: "last …" is finished time: past simple won.
 
 9. We ______ the **test** at six yesterday, **Nodira**.  
    options: ✔ finished · have finished · finish · are finishing  
