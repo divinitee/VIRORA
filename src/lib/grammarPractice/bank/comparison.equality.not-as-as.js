@@ -1080,7 +1080,8 @@ export default [
    "month": [
     "July",
     "August",
-    "June"
+    "June",
+    "May"
    ],
    "name": [
     "Malika",

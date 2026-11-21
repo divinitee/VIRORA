@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Shorter: not as long as.
 
 15. _Write not as … as with the adjective in brackets._  
-   This **July** is ______ (hot) last **July**, **Malika**.  
+   This **August** is ______ (hot) last **August**, **Malika**.  
    key: not as hot as (also: not so hot as)  
    why: Cooler: not as hot as.
 
