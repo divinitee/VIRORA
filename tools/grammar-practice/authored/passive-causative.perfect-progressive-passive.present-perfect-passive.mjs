@@ -130,5 +130,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/passive-causative.perfect-progressive-passive.present-perfect-passive.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"I can't find it\": a result now, done by someone: has been stolen.",
+   "\"this year\", up to now, one … : has been built.",
+   "Result now, one …: has been cancelled.",
+   "\"We can use it again\": result now: has been repaired.",
+   "\"Do you like it?\": result now: has been painted.",
+   "\"Come back tomorrow\": none left now: has been sold.",
+   "\"Good news!\": result now, one pet: has been found.",
+   "It is in your inbox now: has been sent.",
+   "Our class is one group: has been invited.",
+   "\"You can go in now\": has been cleaned.",
+   "\"You can pick it up now\": has been repaired.",
+   "\"again\", broken now: has been broken.",
+   "Plural, \"none left\": have been sold.",
+   "Plural people: have been told.",
+   "Plural \"Two new …\": have been built.",
+   "Plural \"The emails\": have been sent.",
+   "\"They're clean now\": plural: have been washed.",
+   "Plural \"results\": have been put.",
+   "Plural \"trees\": have been planted.",
+   "Plural \"The children\": have been sent."
+  ],
+  "build": [
+   "steal → stolen: has been stolen.",
+   "build → built: has been built.",
+   "\"until May\": has been postponed.",
+   "\"at last\": has been repaired.",
+   "paint, one room: has been painted.",
+   "find → found: has been found.",
+   "Our class (one group): has been invited.",
+   "\"You can go in\": has been cleaned.",
+   "\"It's fine now\": has been checked.",
+   "sell → sold, plural: have been sold.",
+   "tell → told, plural: have been told.",
+   "build → built, plural: have been built.",
+   "\"They're clean now\": have been washed.",
+   "trees are plural: have been planted.",
+   "send → sent, plural: have been sent.",
+   "already goes between has and been sent.",
+   "just goes between has and been delivered.",
+   "Question: Has … been cleaned?",
+   "choose → chosen: has … been chosen.",
+   "just between have and been sold."
+  ],
+  "transform": [
+   "Someone has stolen → has been stolen.",
+   "They have built → has been built.",
+   "Someone has broken → has been broken.",
+   "They have sold (plural) → have been sold.",
+   "Somebody has found → has been found.",
+   "been is missing: has been stolen.",
+   "Past participle: postponed, not postpone.",
+   "have + been, not being: have been told.",
+   "Present perfect: has been, not is been.",
+   "Plural letters: have been, not has.",
+   "have already cleaned → has already been cleaned.",
+   "has just repaired → has just been repaired.",
+   "Have they sent? → Has … been sent?",
+   "have already told → have already been told.",
+   "has just painted → has just been painted."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
