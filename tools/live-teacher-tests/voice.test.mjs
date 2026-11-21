@@ -386,7 +386,7 @@ test('masterV0: lesson state tracks drift, mood, patience and her recent lines',
   assert.deepEqual(p.recent, ['Okay, story time.', 'Nope, not that topic.']); // tags stripped
   const msg = buildTurnMessage({ persona: 'vira', studentText: 'so anyway', plan: p });
   assert.match(msg, /focus: "past simple"/);
-  assert.match(msg, /MUST bridge back/);
+  assert.match(msg, /MUST BRIDGE/);
   assert.match(msg, /amused -> firm/);
   assert.match(msg, /YOUR RECENT LINES[\s\S]*Nope, not that topic/);
   const back = planAfter(p, out('on_track', 'warm', 'Clean sentence!'));
@@ -430,4 +430,22 @@ test('masterV0: admins get her read + lesson state back, students do not', async
   const ad = await voiceTurnText({ svc, user: admin, body: { lesson_id: a.body.lesson_id, text: 'I have been working.' }, env, fetchImpl: s2.fetchImpl, now: T0 + 70000 });
   assert.equal(ad.body.read.move, 'praise');
   assert.equal(ad.body.plan.focus, 'present perfect');
+});
+
+test('masterV0 (bar test): off-plan ladder escalates, live-drama + leaving rows, test counter', async () => {
+  const { buildTurnMessage, buildBrainInstructions, planAfter, cleanPlan } = await import('../../base44/shared/liveTeacherBrain.js');
+  const msg = (n, tests = 0) => buildTurnMessage({ persona: 'vira', studentText: 'x', plan: { focus: 'past simple', off_plan: n, tests } });
+  assert.match(msg(2), /OFF-PLAN 2: this reply MUST BRIDGE/);
+  assert.match(msg(3), /OFF-PLAN 3: DROP the story/);
+  assert.match(msg(5), /OFF-PLAN 4\+: name what is going on and make a DEAL/);
+  assert.doesNotMatch(msg(1), /OFF-PLAN/);
+  assert.match(msg(0, 2), /testing you or spinning stories 2 times/);
+  const p = buildBrainInstructions({ persona: 'vira' });
+  assert.match(p, /during OUR lesson\? suspicious/);
+  assert.match(p, /never say "good luck, tell me when you are back"/);
+  assert.match(p, /NOT a bridge/);
+  let pl = cleanPlan(null);
+  pl = planAfter(pl, { read: { intent: 'test_me', drift: 'off_lesson', her_mood: 'amused' }, reply: 'a' });
+  pl = planAfter(pl, { read: { intent: 'escape_lesson', drift: 'off_lesson', her_mood: 'firm' }, reply: 'b' });
+  assert.equal(pl.tests, 2);
 });

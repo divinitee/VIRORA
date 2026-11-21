@@ -419,7 +419,15 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
   const lines = [];
   const pl = cleanPlan(plan);
   if (!start) {
-    lines.push(`LESSON PLAN: focus: ${pl.focus ? `"${pl.focus}"` : 'not chosen yet (choose one now in lesson_focus)'} | stage: ${pl.stage} | off the plan for ${pl.off_plan} turn(s).${pl.off_plan >= 2 ? ' This reply MUST bridge back to the focus, using their topic if you can.' : ''}`);
+    const ladder = pl.off_plan >= 4
+      ? ' OFF-PLAN 4+: name what is going on and make a DEAL (a few focus sentences first, then their story). No advice about their story.'
+      : pl.off_plan === 3
+        ? ' OFF-PLAN 3: DROP the story now and give a focus task unrelated to it. Do not ask about the story.'
+        : pl.off_plan === 2
+          ? ' OFF-PLAN 2: this reply MUST BRIDGE: a task that practises the focus NOW (their topic may be the material). "Good luck" or "tell me later" is NOT a bridge.'
+          : '';
+    lines.push(`LESSON PLAN: focus: ${pl.focus ? `"${pl.focus}"` : 'not chosen yet (choose one now in lesson_focus)'} | stage: ${pl.stage} | off the plan for ${pl.off_plan} turn(s).${ladder}`);
+    if (pl.tests >= 2) lines.push(`They have been testing you or spinning stories ${pl.tests} times this lesson: you have noticed, say so lightly, and do not take the bait.`);
     if (pl.moods.length) lines.push(`YOUR MOOD SO FAR: ${pl.moods.join(' -> ')} | patience ${pl.patience}/100.`);
   }
   if (pl.recent.length) {
@@ -510,6 +518,7 @@ export function cleanPlan(p) {
     moods: arr(x.moods).filter((m) => MOODS.includes(m)).slice(-4),
     patience: x.patience === undefined || x.patience === null || !Number.isFinite(pat) ? 80 : Math.max(0, Math.min(100, pat)),
     recent: arr(x.recent).map((r) => clip(r, 200)).filter(Boolean).slice(-8),
+    tests: Math.max(0, Math.min(50, Number(x.tests) || 0)),
   };
 }
 export function planAfter(plan, out, { rude = false, casual = false } = {}) {
@@ -526,6 +535,7 @@ export function planAfter(plan, out, { rude = false, casual = false } = {}) {
     moods: [...p.moods, out?.read?.her_mood || 'warm'],
     patience,
     recent: spoken ? [...p.recent, spoken] : p.recent,
+    tests: p.tests + (['test_me', 'escape_lesson'].includes(out?.read?.intent) ? 1 : 0),
   });
 }
 /** A new lesson starts with yesterday's last lines only (no focus/mood carry-over). */
