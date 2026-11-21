@@ -145,5 +145,199 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/pronouns.reflexive.reflexive-object.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "You might cut you: the same person, so yourself.",
+   "I taught me: the same person, so myself.",
+   "I hurt me: the same person, so myself.",
+   "Help yourself = take what you want: yourself.",
+   "enjoy needs an object: you enjoy yourself.",
+   "I introduce me: the same person, so myself.",
+   "We enjoyed us: the same people, so ourselves.",
+   "He made a cup for him: the same person, so himself.",
+   "She bought it for her: the same person, so herself.",
+   "The machine turns the machine off: itself.",
+   "The children dress the children: themselves.",
+   "Look after you: the same person, so yourself.",
+   "I talk to me: the same person, so myself.",
+   "We built it for us: the same people, so ourselves.",
+   "You blame you: the same person, so yourself.",
+   "Mum looked at a different person: me.",
+   "You help a different person: me.",
+   "The teacher asked a different person: me.",
+   "Our … invited different people: us.",
+   "I call a different person: you."
+  ],
+  "build": [
+   "I cut me: same person: myself.",
+   "Don't burn you: same person: yourself.",
+   "We introduced us: same people: ourselves.",
+   "I made it for me: same person: myself.",
+   "You hurt you: same person: yourself.",
+   "Grandpa taught Grandpa: himself.",
+   "I looked at me: same person: myself.",
+   "Enjoy needs an object: yourself.",
+   "We enjoyed us: same people: ourselves.",
+   "The door locks the door: itself.",
+   "I'm angry with me: same person: myself.",
+   "Take care of you: same person: yourself.",
+   "I talk to me: same person: myself.",
+   "We bought them for us: same people: ourselves.",
+   "Help yourself = take some: yourself.",
+   "Dad drove a different person: I → me.",
+   "You show a different person: I → me.",
+   "The neighbours invited other people: we → us.",
+   "I send to a different person: you stays you.",
+   "The … gave to a different person: I → me."
+  ],
+  "transform": [
+   "Same person as I: myself, not me.",
+   "Same person as you: yourself, not you.",
+   "Same people as we: ourselves, not us.",
+   "himself, never hisself.",
+   "themselves, never theirselves.",
+   "Mum helped someone else: me, not myself.",
+   "You call someone else: me, not myself.",
+   "Our … invited other people: us, not ourselves.",
+   "I text someone else: you, not yourself.",
+   "The … gave to someone else: me, not myself.",
+   "New subject I: myself.",
+   "New subject we: ourselves.",
+   "New subject I: myself.",
+   "New subject he: himself.",
+   "New subject she: herself."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   9,
+   "sister",
+   "sis",
+   [
+    "sister",
+    "aunt",
+    "cousin",
+    "mother"
+   ]
+  ],
+  [
+   "choose",
+   10,
+   "ten",
+   "n",
+   [
+    "ten",
+    "five",
+    "twenty",
+    "thirty"
+   ]
+  ],
+  [
+   "choose",
+   11,
+   "children",
+   "kids",
+   [
+    "children",
+    "twins",
+    "girls",
+    "boys"
+   ]
+  ],
+  [
+   "choose",
+   14,
+   "garden",
+   "yard",
+   [
+    "garden",
+    "yard",
+    "backyard",
+    "courtyard"
+   ]
+  ],
+  [
+   "choose",
+   16,
+   "smiled",
+   "act",
+   [
+    "smiled",
+    "laughed",
+    "waved",
+    "nodded"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "difficult",
+   "adj",
+   [
+    "difficult",
+    "strange",
+    "funny",
+    "long"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "tomorrow",
+   "when",
+   [
+    "tomorrow",
+    "tonight",
+    "later",
+    "on Monday"
+   ]
+  ],
+  [
+   "transform",
+   14,
+   "brother",
+   "bro",
+   [
+    "brother",
+    "uncle",
+    "cousin",
+    "dad"
+   ]
+  ],
+  [
+   "transform",
+   15,
+   "sister",
+   "sis",
+   [
+    "sister",
+    "aunt",
+    "cousin",
+    "mother"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);
