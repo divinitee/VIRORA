@@ -136,5 +136,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/sentence-structure.clause-linkers.purpose-so-that.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "A clause follows (I wouldn't be late): so that.",
+   "A new subject follows (the … can understand): so that.",
+   "A new subject follows (we could see): so that.",
+   "A clause with can follows (I can buy): so that.",
+   "A clause with could follows (we could get): so that.",
+   "A new subject follows (the … doesn't get wet): so that.",
+   "A clause with can follows (she can pass): so that.",
+   "A new subject follows (you can read it): so that.",
+   "A clause with wouldn't follows: so that.",
+   "A new subject follows (it stays fresh): so that.",
+   "A clause with wouldn't follows (we wouldn't wake): so that.",
+   "A clause with can follows (I can watch): so that.",
+   "A clause with can follows (he can read): so that.",
+   "A clause with can follows (I can hear): so that.",
+   "Only a verb follows (buy): to.",
+   "Only a verb follows (ask): to.",
+   "Only a verb follows (have): to.",
+   "Only a verb follows (save): to.",
+   "Only a verb follows (let): to.",
+   "Only a verb follows (visit): to."
+  ],
+  "build": [
+   "A clause follows (I don't forget it): so that.",
+   "A clause follows (you don't get cold): so that.",
+   "A clause follows (we wouldn't miss): so that.",
+   "A clause follows (we could use it): so that.",
+   "A clause follows (you don't get wet): so that.",
+   "A clause follows (I can get up): so that.",
+   "A clause follows (she can win): so that.",
+   "A clause follows (we arrive): so that.",
+   "A clause follows (we wouldn't eat it): so that.",
+   "A clause follows (I wouldn't lose): so that.",
+   "A clause follows (the people … can hear): so that.",
+   "A clause follows (the … can come in): so that.",
+   "Just a verb follows (buy): to.",
+   "Just a verb follows (wish): to.",
+   "Just a verb follows (plan): to.",
+   "Just a verb follows (buy a …): to.",
+   "Just a verb follows (learn): to.",
+   "Just a verb follows (book): to.",
+   "Just a verb follows (walk): to.",
+   "Just a verb follows (let in): to."
+  ],
+  "transform": [
+   "didn't want to forget → so that I wouldn't forget.",
+   "wanted everyone to have → so that everyone would have.",
+   "Then … can understand → so that.",
+   "wanted a good seat → so that we could get.",
+   "Then you won't get lost → so that.",
+   "Purpose + verb: to buy, not for buy.",
+   "Purpose + verb: to see, not for to see.",
+   "in order to needs a verb, not a clause: so that.",
+   "for can't start a clause: so that.",
+   "because of needs a noun, not a clause: so that.",
+   "to pass → so that I can pass.",
+   "Past: to buy → so that she could buy.",
+   "Past: to see → so that we could see.",
+   "Present: to talk → so that he can talk.",
+   "Past: to remember → so that I could remember."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);
