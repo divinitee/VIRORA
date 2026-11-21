@@ -217,7 +217,6 @@ export default function LiveTeacherV2() {
     const restJob = r.rest_text
       ? liveTeacherApi("v2_speak", { lesson_id: lessonRef.current?.id, text: r.rest_text }).catch((e) => { note(`voice for the rest failed: ${e.message}`); return null; })
       : null;
-    // the answer is here: cut a "give me a second" short; a short "hmm" may finish
     // the answer is ready while "give me a second" is still talking: let it finish if it is
     // almost done, otherwise fade it out (no hard cut mid-word), then a short breath
     if (holdOnRef.current && fillerRef.current) {
