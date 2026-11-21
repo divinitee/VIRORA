@@ -252,7 +252,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    You can look after yourself in **Bukhara**, **Olga**.  
    → I can look after ______ in **Bukhara**, **Olga**.  
    key: myself  
-   why: New subject I: myself.
+   why: New subject I, looking after me: myself.
 
 12. _Start the sentence with We._  
    I enjoyed myself at the **festival**, **Kamila**.  
@@ -264,7 +264,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We introduced ourselves to the new **teacher**, **Olga**.  
    → I introduced ______ to the new **teacher**, **Olga**.  
    key: myself  
-   why: New subject I: myself.
+   why: New subject I, introducing me: myself.
 
 14. _Start the sentence with My brother._  
    I taught myself to **swim**.  

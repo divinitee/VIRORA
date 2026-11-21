@@ -204,9 +204,9 @@ const VARIETY = {
    "Our … invited other people: us, not ourselves.",
    "I text someone else: you, not yourself.",
    "The … gave to someone else: me, not myself.",
-   "New subject I: myself.",
+   "New subject I, looking after me: myself.",
    "New subject we: ourselves.",
-   "New subject I: myself.",
+   "New subject I, introducing me: myself.",
    "New subject he: himself.",
    "New subject she: herself."
   ]

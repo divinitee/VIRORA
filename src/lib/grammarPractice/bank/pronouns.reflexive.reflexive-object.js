@@ -1467,7 +1467,7 @@ export default [
   "source": "You can look after yourself in {city}, {g}.",
   "hint": "I can look after ______ in {city}, {g}.",
   "key": "myself",
-  "why": "New subject I: myself.",
+  "why": "New subject I, looking after me: myself.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1523,7 +1523,7 @@ export default [
   "source": "We introduced ourselves to the new {who}, {g}.",
   "hint": "I introduced ______ to the new {who}, {g}.",
   "key": "myself",
-  "why": "New subject I: myself.",
+  "why": "New subject I, introducing me: myself.",
   "slots": {
    "who": [
     "neighbours",

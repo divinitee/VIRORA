@@ -731,7 +731,7 @@
   "acceptable": [
    "was feeling"
   ],
-  "why": "\"yesterday\": felt.",
+  "why": "\"yesterday\" is past time: felt.",
   "slots": {
    "who": [
     "sister",
@@ -923,7 +923,7 @@
   "instr": "Write the verb in the right form.",
   "source": "We first ______ (meet) at a {event} in {city}.",
   "key": "met",
-  "why": "\"first\": past: met.",
+  "why": "\"first\" points to the past: met.",
   "slots": {
    "event": [
     "wedding",
@@ -1058,7 +1058,7 @@
   "instr": "Write the verb in the right form.",
   "source": "Suddenly the {room} door ______ (open) and {who} came in.",
   "key": "opened",
-  "why": "\"Suddenly\": past: opened.",
+  "why": "\"Suddenly … came in\" is past: opened.",
   "slots": {
    "room": [
     "kitchen",
@@ -1085,7 +1085,7 @@
   "instr": "Write the verb in the right form.",
   "source": "The {thing} ______ (finish) late last night, {name}.",
   "key": "finished",
-  "why": "\"last night\": finished.",
+  "why": "\"last night\" is past time: finished.",
   "slots": {
    "thing": [
     "party",

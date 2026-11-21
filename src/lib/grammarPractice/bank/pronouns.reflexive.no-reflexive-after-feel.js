@@ -17,7 +17,7 @@ export default [
    "myself feel"
   ],
   "key": 0,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Saying how you are now: feel, no myself.",
   "slots": {
    "name": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "feel"
   ],
   "key": 3,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"You look …\": asking about now: feel.",
   "slots": {
    "name": [
     "Aziz",
@@ -81,7 +81,7 @@ export default [
    "felt myself"
   ],
   "key": 2,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"After the …\": past: felt, no myself.",
   "slots": {
    "thing": [
     "match",
@@ -113,7 +113,7 @@ export default [
    "felt her"
   ],
   "key": 1,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Past (\"so she stayed\"): felt.",
   "slots": {
    "when": [
     "yesterday",
@@ -145,7 +145,7 @@ export default [
    "am feel"
   ],
   "key": 0,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"always\": habit: feel, no myself.",
   "slots": {
    "thing": [
     "exam",
@@ -177,7 +177,7 @@ export default [
    "feel"
   ],
   "key": 3,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Asking how someone is: feel.",
   "slots": {
    "when": [
     "today",
@@ -209,7 +209,7 @@ export default [
    "relax yourself"
   ],
   "key": 2,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"Sit down and …\": relax, no yourself.",
   "slots": {
    "name": [
     "Aziz",
@@ -241,7 +241,7 @@ export default [
    "relaxed us"
   ],
   "key": 1,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"On … we\": past: relaxed, no ourselves.",
   "slots": {
    "day": [
     "Sunday",
@@ -273,7 +273,7 @@ export default [
    "myself relax"
   ],
   "key": 0,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"this noisy …\": can't + relax.",
   "slots": {
    "place": [
     "room",
@@ -305,7 +305,7 @@ export default [
    "concentrate"
   ],
   "key": 3,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"when the TV is on\": can't + concentrate, no myself.",
   "slots": {
    "work": [
     "homework",
@@ -337,7 +337,7 @@ export default [
    "concentrate yourself"
   ],
   "key": 2,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Asking someone to focus: concentrate on.",
   "slots": {
    "task": [
     "test",
@@ -369,7 +369,7 @@ export default [
    "concentrated me"
   ],
   "key": 1,
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Past (\"did well\"): concentrated.",
   "slots": {
    "test": [
     "exam",
@@ -401,7 +401,7 @@ export default [
    "ourselves meet"
   ],
   "key": 0,
-  "why": "meet needs no reflexive: We met at the café. (встретиться has -ся, English meet has nothing.)",
+  "why": "\"Let's\": meet, no ourselves.",
   "slots": {
    "place": [
     "café",
@@ -433,7 +433,7 @@ export default [
    "met"
   ],
   "key": 3,
-  "why": "meet needs no reflexive: We met at the café. (встретиться has -ся, English meet has nothing.)",
+  "why": "\"first … at a …\": past: met.",
   "slots": {
    "name": [
     "Aziz",
@@ -471,7 +471,7 @@ export default [
    "starts itself"
   ],
   "key": 2,
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "Timetable: starts, no itself.",
   "slots": {
    "show": [
     "film",
@@ -503,7 +503,7 @@ export default [
    "opens it"
   ],
   "key": 1,
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "Timetable: opens, no itself.",
   "slots": {
    "place": [
     "bank",
@@ -535,7 +535,7 @@ export default [
    "itself finished"
   ],
   "key": 0,
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "Past: finished, no itself.",
   "slots": {
    "thing": [
     "lesson",
@@ -573,7 +573,7 @@ export default [
    "opened"
   ],
   "key": 3,
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "\"Suddenly … came in\": past: opened.",
   "slots": {
    "room": [
     "kitchen",
@@ -605,7 +605,7 @@ export default [
    "came myself back"
   ],
   "key": 2,
-  "why": "come back, return and hurry take no reflexive in English: I came back from Bukhara. Hurry up!",
+  "why": "Past: came back, no myself.",
   "slots": {
    "city": [
     "Samarkand",
@@ -643,7 +643,7 @@ export default [
    "hurry us"
   ],
   "key": 1,
-  "why": "come back, return and hurry take no reflexive in English: I came back from Bukhara. Hurry up!",
+  "why": "\"leaves in five minutes\": we must hurry.",
   "slots": {
    "name": [
     "Aziz",
@@ -673,7 +673,7 @@ export default [
   "acceptable": [
    "is feeling"
   ],
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Grandma now: feels, no herself.",
   "slots": {
    "thing": [
     "soup",
@@ -703,7 +703,7 @@ export default [
   "acceptable": [
    "were feeling"
   ],
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"After the long …\": felt.",
   "slots": {
    "trip": [
     "trip",
@@ -733,7 +733,7 @@ export default [
   "acceptable": [
    "was feeling"
   ],
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"yesterday\" is past time: felt.",
   "slots": {
    "who": [
     "sister",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "My cousin always ______ (feel) nervous before an {thing}, {name}.",
   "key": "feels",
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"always\" + my cousin: feels.",
   "slots": {
    "thing": [
     "exam",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "Every {day} evening my dad ______ (relax) in the {place}.",
   "key": "relaxes",
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"Every … evening\" + my dad: relaxes.",
   "slots": {
    "day": [
     "Friday",
@@ -817,7 +817,7 @@ export default [
   "acceptable": [
    "were relaxing"
   ],
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Past (\"all day\"): relaxed.",
   "slots": {
    "when": [
     "yesterday",
@@ -844,7 +844,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "After {time}, my mum ______ (relax) with a cup of {drink}.",
   "key": "relaxes",
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Habit + my mum: relaxes.",
   "slots": {
    "time": [
     "work",
@@ -871,7 +871,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "My brother ______ (concentrate) better in the {time}, {name}.",
   "key": "concentrates",
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Habit + my brother: concentrates.",
   "slots": {
    "time": [
     "morning",
@@ -898,7 +898,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "In the {test} {when}, I ______ (concentrate) and got a good mark.",
   "key": "concentrated",
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Past: concentrated, no myself.",
   "slots": {
    "test": [
     "exam",
@@ -925,7 +925,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "We first ______ (meet) at a {event} in {city}.",
   "key": "met",
-  "why": "meet needs no reflexive: We met at the café. (встретиться has -ся, English meet has nothing.)",
+  "why": "\"first\" points to the past: met.",
   "slots": {
    "event": [
     "wedding",
@@ -952,7 +952,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "Our group ______ (meet) at the {place} every {day}.",
   "key": "meets",
-  "why": "meet needs no reflexive: We met at the café. (встретиться has -ся, English meet has nothing.)",
+  "why": "\"every …\" + our group: meets.",
   "slots": {
    "place": [
     "café",
@@ -979,7 +979,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "The {show} ______ (start) at seven every {day}.",
   "key": "starts",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "\"every …\" + the show: starts.",
   "slots": {
    "show": [
     "film",
@@ -1006,7 +1006,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "The {event} ______ (start) late {when}, so we waited.",
   "key": "started",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "\"so we waited\": past: started.",
   "slots": {
    "event": [
     "concert",
@@ -1033,7 +1033,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "The {place} ______ (open) at nine {when}.",
   "key": "opened",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "Past: opened, no itself.",
   "slots": {
    "place": [
     "bank",
@@ -1060,7 +1060,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "Suddenly the {room} door ______ (open) and {who} came in.",
   "key": "opened",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "\"Suddenly … came in\" is past: opened.",
   "slots": {
    "room": [
     "kitchen",
@@ -1087,7 +1087,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "The {thing} ______ (finish) late last night, {name}.",
   "key": "finished",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "\"last night\" is past time: finished.",
   "slots": {
    "thing": [
     "party",
@@ -1114,7 +1114,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "The lesson ______ (finish) at {h} every day, {name}.",
   "key": "finishes",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "\"every day\" + the lesson: finishes.",
   "slots": {
    "h": [
     "two",
@@ -1141,7 +1141,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "The {shop} ______ (close) at {h} on Sundays.",
   "key": "closes",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "\"on Sundays\" + the shop: closes.",
   "slots": {
    "shop": [
     "shop",
@@ -1171,7 +1171,7 @@ export default [
   "acceptable": [
    "came back"
   ],
-  "why": "come back, return and hurry take no reflexive in English: I came back from Bukhara. Hurry up!",
+  "why": "Past: returned, no himself.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1198,7 +1198,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "We ______ (hurry) to the {place} because we were late {when}.",
   "key": "hurried",
-  "why": "come back, return and hurry take no reflexive in English: I came back from Bukhara. Hurry up!",
+  "why": "\"because we were late\": hurried.",
   "slots": {
    "place": [
     "station",
@@ -1230,7 +1230,7 @@ export default [
    "am feeling",
    "felt"
   ],
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "feel needs no myself: I feel tired.",
   "slots": {
    "trip": [
     "trip",
@@ -1258,7 +1258,7 @@ export default [
   "source": "Do you feel yourself better {when}, {name}?",
   "hint": "Do you ______ better {when}, {name}?",
   "key": "feel",
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "feel needs no yourself: Do you feel better?",
   "slots": {
    "when": [
     "today",
@@ -1289,7 +1289,7 @@ export default [
   "acceptable": [
    "were relaxing"
   ],
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "relax needs no ourselves: We relaxed.",
   "slots": {
    "place": [
     "lake",
@@ -1317,7 +1317,7 @@ export default [
   "source": "I can't concentrate myself on the {task}, {name}.",
   "hint": "I can't ______ on the {task}, {name}.",
   "key": "concentrate",
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "concentrate needs no myself: concentrate on.",
   "slots": {
    "task": [
     "test",
@@ -1345,7 +1345,7 @@ export default [
   "source": "Let's meet ourselves at the {place} at {h}.",
   "hint": "Let's ______ at the {place} at {h}.",
   "key": "meet",
-  "why": "meet needs no reflexive: We met at the café. (встретиться has -ся, English meet has nothing.)",
+  "why": "meet needs no ourselves: Let's meet.",
   "slots": {
    "place": [
     "café",
@@ -1373,7 +1373,7 @@ export default [
   "source": "The {show} starts itself at {h}, {name}.",
   "hint": "The {show} ______ at {h}, {name}.",
   "key": "starts",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "start needs no itself: starts.",
   "slots": {
    "show": [
     "film",
@@ -1407,7 +1407,7 @@ export default [
   "source": "The {place} opens itself at nine every {day}.",
   "hint": "The {place} ______ at nine every {day}.",
   "key": "opens",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "open needs no itself: opens.",
   "slots": {
    "place": [
     "bank",
@@ -1435,7 +1435,7 @@ export default [
   "source": "The {event} finished itself very late {when}.",
   "hint": "The {event} ______ very late {when}.",
   "key": "finished",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "finish needs no itself: finished.",
   "slots": {
    "event": [
     "party",
@@ -1466,7 +1466,7 @@ export default [
   "acceptable": [
    "came back"
   ],
-  "why": "come back, return and hurry take no reflexive in English: I came back from Bukhara. Hurry up!",
+  "why": "return needs no himself: returned.",
   "slots": {
    "who": [
     "dad",
@@ -1497,7 +1497,7 @@ export default [
   "acceptable": [
    "Hurry up"
   ],
-  "why": "come back, return and hurry take no reflexive in English: I came back from Bukhara. Hurry up!",
+  "why": "hurry needs no yourself: Hurry!",
   "slots": {
    "name": [
     "Aziz",
@@ -1528,7 +1528,7 @@ export default [
   "acceptable": [
    "was feeling"
   ],
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Now in the past: feel → felt.",
   "slots": {
    "thing": [
     "match",
@@ -1559,7 +1559,7 @@ export default [
   "acceptable": [
    "were relaxing"
   ],
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "\"last Sunday\": relax → relaxed.",
   "slots": {
    "place": [
     "lake",
@@ -1587,7 +1587,7 @@ export default [
   "source": "The {show} starts at seven, {name}.",
   "hint": "The {show} ______ at seven yesterday, {name}.",
   "key": "started",
-  "why": "When a thing starts, opens, finishes or closes by itself, English uses the verb alone: The film starts at seven. Never starts itself.",
+  "why": "\"yesterday\": start → started.",
   "slots": {
    "show": [
     "film",
@@ -1615,7 +1615,7 @@ export default [
   "source": "We meet at the {place}, {name}.",
   "hint": "We ______ at the {place} {when}, {name}.",
   "key": "met",
-  "why": "meet needs no reflexive: We met at the café. (встретиться has -ся, English meet has nothing.)",
+  "why": "Past time: meet → met.",
   "slots": {
    "place": [
     "café",
@@ -1649,7 +1649,7 @@ export default [
   "source": "I concentrate well in the {test}, {name}.",
   "hint": "I ______ well in the {test} {when}, {name}.",
   "key": "concentrated",
-  "why": "In English, feel, relax and concentrate take no myself / yourself: I feel tired, Relax!, I can't concentrate. (Russian says чувствую себя, but English does not.)",
+  "why": "Past time: concentrate → concentrated.",
   "slots": {
    "test": [
     "exam",
