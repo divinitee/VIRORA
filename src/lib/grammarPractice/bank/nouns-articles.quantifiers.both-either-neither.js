@@ -17,7 +17,7 @@ export default [
    "none"
   ],
   "key": 0,
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "Mum can and Dad can: the two together: both.",
   "slots": {
    "skill": [
     "drive",
@@ -49,7 +49,7 @@ export default [
    "both"
   ],
   "key": 0,
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "Aziz can't and Timur can't: not one of the two: neither.",
   "slots": {
    "skill": [
     "swim",
@@ -75,7 +75,7 @@ export default [
    "neither"
   ],
   "key": 0,
-  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "why": "\"but not both\": one of the two, any one: either.",
   "slots": {
    "place": [
     "bazaar",
@@ -107,7 +107,7 @@ export default [
    "Either"
   ],
   "key": 1,
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "\"They have a house there\": the two together: Both.",
   "slots": {
    "city": [
     "Samarkand",
@@ -139,7 +139,7 @@ export default [
    "none"
   ],
   "key": 1,
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "No friend had time: not one of the two: neither.",
   "slots": {
    "when": [
     "yesterday",
@@ -171,7 +171,7 @@ export default [
    "both"
   ],
   "key": 1,
-  "why": "The verb is already negative, so use either: not … either = not this one and not that one.",
+  "why": "don't + like: after a negative verb use either.",
   "slots": {
    "things": [
     "shirts",
@@ -203,7 +203,7 @@ export default [
    "neither"
   ],
   "key": 2,
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "Best friends who share a plan: the two together: both.",
   "slots": {
    "subject": [
     "medicine",
@@ -235,7 +235,7 @@ export default [
    "Either"
   ],
   "key": 2,
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "Nothing was cheap, so not one of the two: Neither.",
   "slots": {
    "things": [
     "bags",
@@ -267,7 +267,7 @@ export default [
    "none"
   ],
   "key": 2,
-  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "why": "Saturday or Sunday, any one is fine: either.",
   "slots": {
    "name": [
     "Aziz",
@@ -293,7 +293,7 @@ export default [
    "both"
   ],
   "key": 3,
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "\"just like our mother\": the two sisters together: both.",
   "slots": {
    "jobs": [
     "doctors",
@@ -325,7 +325,7 @@ export default [
    "Neither"
   ],
   "key": 3,
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "\"They never eat it\": not one of the two: Neither.",
   "slots": {
    "food": [
     "fish",
@@ -357,7 +357,7 @@ export default [
    "either"
   ],
   "key": 3,
-  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "why": "\"They both work\": you can use any one: either.",
   "slots": {
    "room": [
     "lab",
@@ -389,7 +389,7 @@ export default [
    "None"
   ],
   "key": 0,
-  "why": "both … and joins two things that are both true.",
+  "why": "Phone and laptop, the two together: Both … and.",
   "slots": {
    "name": [
     "Aziz",
@@ -421,7 +421,7 @@ export default [
    "Both"
   ],
   "key": 0,
-  "why": "neither … nor joins two things that are both not true.",
+  "why": "Not Mum and not Dad: Neither … nor.",
   "slots": {
    "event": [
     "concert",
@@ -453,7 +453,7 @@ export default [
    "neither"
   ],
   "key": 0,
-  "why": "either … or gives a choice between two things.",
+  "why": "Card or cash, one of the two: either … or.",
   "slots": {
    "place": [
     "shop",
@@ -485,7 +485,7 @@ export default [
    "either"
   ],
   "key": 1,
-  "why": "both … and joins two things that are both true.",
+  "why": "Two cities, we visited the two: both … and.",
   "slots": {
    "trip": [
     "trip",
@@ -517,7 +517,7 @@ export default [
    "none"
   ],
   "key": 1,
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "No one answered: not one of the two: neither.",
   "slots": {
    "name": [
     "Olga",
@@ -543,7 +543,7 @@ export default [
    "both"
   ],
   "key": 3,
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "\"go to work together\": the two together: both.",
   "slots": {
    "time": [
     "morning",
@@ -569,7 +569,7 @@ export default [
    "neither"
   ],
   "key": 0,
-  "why": "The verb is already negative, so use either: not … either = not this one and not that one.",
+  "why": "don't + know: after a negative verb use either.",
   "slots": {
    "group": [
     "class",
@@ -601,7 +601,7 @@ export default [
    "either"
   ],
   "key": 2,
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "\"we bought a new one\": not one worked: neither.",
   "slots": {
    "things": [
     "TVs",
@@ -628,7 +628,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "______ Aziz and his sister speak {lang} well. They learned it at {place}.",
   "key": "Both",
-  "why": "both … and joins two things that are both true.",
+  "why": "Aziz and his sister together: Both … and.",
   "slots": {
    "lang": [
     "Russian",
@@ -655,7 +655,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "______ my brother nor my sister likes {food}, {name}.",
   "key": "Neither",
-  "why": "neither … nor joins two things that are both not true.",
+  "why": "Not my brother and not my sister: Neither … nor.",
   "slots": {
    "food": [
     "fish",
@@ -682,7 +682,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "You can come to the {place} ______ on Monday or on Friday, {name}.",
   "key": "either",
-  "why": "either … or gives a choice between two things.",
+  "why": "Monday or Friday, one of the two: either … or.",
   "slots": {
    "place": [
     "club",
@@ -709,7 +709,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "My sisters are twins. ______ of them were born on the {day} of May, {name}.",
   "key": "Both",
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "Twins, the two together: Both.",
   "slots": {
    "day": [
     "first",
@@ -736,7 +736,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "I have two old phones, but ______ of them works now, so I use my {who}'s, {name}.",
   "key": "neither",
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "\"so I use my …'s\": not one works: neither.",
   "slots": {
    "who": [
     "mum",
@@ -763,7 +763,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "I don't mind: we can watch the {a} or the cartoon. ______ is fine for me, {name}.",
   "key": "Either",
-  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "why": "\"I don't mind\": any one of the two: Either.",
   "slots": {
    "a": [
     "match",
@@ -790,7 +790,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "We need ______ eggs and flour for the {food}, {name}.",
   "key": "both",
-  "why": "both … and joins two things that are both true.",
+  "why": "Eggs and flour, the two together: both … and.",
   "slots": {
    "food": [
     "cake",
@@ -817,7 +817,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "______ of the two hotels had a free room, so we slept at {place}, {name}.",
   "key": "Neither",
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "\"we slept at …\": not one hotel was free: Neither.",
   "slots": {
    "place": [
     "my aunt's",
@@ -844,7 +844,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "Take ______ the bus or a taxi to the {place}, {name}.",
   "key": "either",
-  "why": "either … or gives a choice between two things.",
+  "why": "Bus or taxi, one of the two: either … or.",
   "slots": {
    "place": [
     "station",
@@ -871,7 +871,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "______ my mum and my grandmother make very good {food}, {name}.",
   "key": "Both",
-  "why": "both … and joins two things that are both true.",
+  "why": "Mum and grandmother together: Both … and.",
   "slots": {
    "food": [
     "plov",
@@ -898,7 +898,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "I tried two keys, but ______ of them opened the {door}, {name}.",
   "key": "neither",
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "No key opened it: neither.",
   "slots": {
    "door": [
     "door",
@@ -925,7 +925,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "There are two free seats on the {vehicle}. You can take ______ one, {name}.",
   "key": "either",
-  "why": "Any one of the two is OK, so use either (with a singular noun).",
+  "why": "Two free seats, take any one: either.",
   "slots": {
    "vehicle": [
     "bus",
@@ -952,7 +952,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "{name} is good at ______ maths and {subject}.",
   "key": "both",
-  "why": "both … and joins two things that are both true.",
+  "why": "Maths and another subject together: both … and.",
   "slots": {
    "name": [
     "Aziz",
@@ -979,7 +979,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "______ Timur nor Aziz was at {place} {when}.",
   "key": "Neither",
-  "why": "neither … nor joins two things that are both not true.",
+  "why": "Not Timur and not Aziz: Neither … nor.",
   "slots": {
    "place": [
     "school",
@@ -1006,7 +1006,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "I can't decide. I'll buy ______ the red bag or the {colour} one, {name}.",
   "key": "either",
-  "why": "either … or gives a choice between two things.",
+  "why": "\"I can't decide\": one or the other: either … or.",
   "slots": {
    "colour": [
     "black",
@@ -1033,7 +1033,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "We watched two films at the {event} and liked ______ of them. They were great, {name}.",
   "key": "both",
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "\"They were great\": the two films: both.",
   "slots": {
    "event": [
     "festival",
@@ -1060,7 +1060,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "We had two plans for the weekend, but ______ worked because of the {weather}, {name}.",
   "key": "neither",
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "No plan worked: neither.",
   "slots": {
    "weather": [
     "rain",
@@ -1087,7 +1087,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "I didn't see ______ of your brothers at the {event}, {name}.",
   "key": "either",
-  "why": "The verb is already negative, so use either: not … either = not this one and not that one.",
+  "why": "didn't + see: after a negative verb use either.",
   "slots": {
    "event": [
     "wedding",
@@ -1114,7 +1114,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "______ teams played very well {when}, {name}.",
   "key": "Both",
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "The two teams together: Both.",
   "slots": {
    "when": [
     "yesterday",
@@ -1141,7 +1141,7 @@ export default [
   "instr": "Write both, either or neither.",
   "source": "______ answer on the {thing} is right, {name}. Try again.",
   "key": "Neither",
-  "why": "It is true for not one of the two: neither already means not this one and not that one.",
+  "why": "\"Try again\": no answer is right: Neither.",
   "slots": {
    "thing": [
     "board",
@@ -1172,7 +1172,7 @@ export default [
    "Both",
    "and"
   ],
-  "why": "both … and joins two things that are both true.",
+  "why": "Mum and Dad, too: Both … and.",
   "slots": {
    "food": [
     "plov",
@@ -1203,7 +1203,7 @@ export default [
    "Both",
    "and"
   ],
-  "why": "both … and joins two things that are both true.",
+  "why": "Olga and Lola, too: Both … and.",
   "slots": {
    "place": [
     "hotel",
@@ -1234,7 +1234,7 @@ export default [
    "Both",
    "and"
   ],
-  "why": "both … and joins two things that are both true.",
+  "why": "Brother and cousin, too: Both … and.",
   "slots": {
    "sport": [
     "football",
@@ -1265,7 +1265,7 @@ export default [
    "Both",
    "and"
   ],
-  "why": "both … and joins two things that are both true.",
+  "why": "Kitchen and bathroom, too: Both … and.",
   "slots": {
    "adj": [
     "small",
@@ -1293,7 +1293,7 @@ export default [
   "source": "I've got two sisters. One is a {job}, and the other is a {job} too, {name}.",
   "hint": "I've got two sisters. ______ of them are {job}s, {name}.",
   "key": "Both",
-  "why": "It is true for the two of them, so use both (with a plural verb).",
+  "why": "One and the other, too: both of them.",
   "slots": {
    "job": [
     "doctor",
@@ -1324,7 +1324,7 @@ export default [
    "Neither",
    "nor"
   ],
-  "why": "neither … nor joins two things that are both not true.",
+  "why": "doesn't … either → Neither … nor.",
   "slots": {
    "food": [
     "fish",
@@ -1355,7 +1355,7 @@ export default [
    "Neither",
    "nor"
   ],
-  "why": "neither … nor joins two things that are both not true.",
+  "why": "wasn't … either → Neither … nor.",
   "slots": {
    "event": [
     "party",
@@ -1386,7 +1386,7 @@ export default [
    "Neither",
    "nor"
   ],
-  "why": "neither … nor joins two things that are both not true.",
+  "why": "isn't … either → Neither … nor.",
   "slots": {
    "shop": [
     "shop",
@@ -1417,7 +1417,7 @@ export default [
    "Neither",
    "nor"
   ],
-  "why": "neither … nor joins two things that are both not true.",
+  "why": "isn't … either → Neither … nor.",
   "slots": {
    "adj": [
     "tall",
@@ -1448,7 +1448,7 @@ export default [
    "Neither",
    "nor"
   ],
-  "why": "neither … nor joins two things that are both not true.",
+  "why": "can't … either → Neither … nor.",
   "slots": {
    "event": [
     "concert",
@@ -1479,7 +1479,7 @@ export default [
    "either",
    "or"
   ],
-  "why": "either … or gives a choice between two things.",
+  "why": "by bus, or by taxi → either … or.",
   "slots": {
    "place": [
     "station",
@@ -1510,7 +1510,7 @@ export default [
    "either",
    "or"
   ],
-  "why": "either … or gives a choice between two things.",
+  "why": "Saturday, or Sunday → either … or.",
   "slots": {
    "place": [
     "park",
@@ -1541,7 +1541,7 @@ export default [
    "either",
    "or"
   ],
-  "why": "either … or gives a choice between two things.",
+  "why": "tea, or coffee → either … or.",
   "slots": {
    "meal": [
     "lunch",
@@ -1569,7 +1569,7 @@ export default [
   "source": "I didn't see your brother at the {event}, and I didn't see your sister there, {name}.",
   "hint": "I didn't see ______ of them at the {event}, {name}.",
   "key": "either",
-  "why": "The verb is already negative, so use either: not … either = not this one and not that one.",
+  "why": "didn't see … and didn't see → either of them.",
   "slots": {
    "event": [
     "wedding",
@@ -1600,7 +1600,7 @@ export default [
    "Either",
    "or"
   ],
-  "why": "either … or gives a choice between two things.",
+  "why": "Maybe Olga or maybe Lola → Either … or.",
   "slots": {
    "when": [
     "tonight",
