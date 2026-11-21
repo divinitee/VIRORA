@@ -151,7 +151,7 @@ const VARIETY = {
   "choose": [
    "\"This one is dirty\": one more of the same kind: another.",
    "\"still hungry\": one more: another.",
-   "Two more days: another + a number.",
+   "A number + days after the gap: another + number.",
    "\"I don't like this\": a different one: another.",
    "Offering one more drink: another.",
    "He missed one, so he waited for one more: another.",
@@ -166,7 +166,7 @@ const VARIETY = {
    "Plural noun ways after the gap: other.",
    "No noun after it: the rest of my friends: others.",
    "\"Be kind to …\": people in general, no noun: others.",
-   "No noun after it: the rest of the guests: others.",
+   "No noun after it: the rest of the …: others.",
    "No noun after it: other books: others.",
    "Some speak one language; the rest, no noun: others."
   ],
@@ -174,7 +174,7 @@ const VARIETY = {
    "\"This one doesn't work\": one more: another.",
    "\"I'm busy on …\": a different day: another.",
    "One more film, singular: another.",
-   "One more bus, singular: another.",
+   "One more …, singular: another.",
    "One more drink, singular: another.",
    "One more exam, singular: another.",
    "One more chance, singular: another.",

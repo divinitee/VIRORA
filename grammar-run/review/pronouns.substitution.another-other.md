@@ -14,7 +14,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 3. We'll stay in **Bukhara** for ______ **four** days.  
    options: others · an other · ✔ another · other  
-   why: Two more days: another + a number.
+   why: A number + days after the gap: another + number.
 
 4. I don't like this **jacket**. Can you show me ______, **Lola**?  
    options: the another · ✔ another · other · an other  
@@ -74,7 +74,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 18. Some **guests** are always early for the **wedding**, and ______ are always late.  
    options: other · another · the another · ✔ others  
-   why: No noun after it: the rest of the guests: others.
+   why: No noun after it: the rest of the …: others.
 
 19. I've read this book. Do you have any ______ by the same **poet**, **Olga**?  
    options: another · the another · ✔ others · other  
@@ -104,7 +104,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Write another, other or others._  
    There's ______ **minibus** in ten minutes, **Olga**.  
    key: another  
-   why: One more bus, singular: another.
+   why: One more …, singular: another.
 
 5. _Write another, other or others._  
    I'd like ______ **cup of tea**, please, **Timur**.  

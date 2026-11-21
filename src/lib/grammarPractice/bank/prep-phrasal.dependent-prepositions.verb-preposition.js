@@ -49,7 +49,7 @@ export default [
    "discuss"
   ],
   "key": 3,
-  "why": "discuss takes its object straight away: discuss the timetable, no preposition.",
+  "why": "discuss takes its object straight away: discuss the …, no preposition.",
   "slots": {
    "thing": [
     "timetable",
@@ -337,7 +337,7 @@ export default [
    "reached at"
   ],
   "key": 2,
-  "why": "reach takes its object straight away: reached Samarkand.",
+  "why": "reach takes its object straight away: reached ….",
   "slots": {
    "city": [
     "Samarkand",
@@ -433,7 +433,7 @@ export default [
    "contact"
   ],
   "key": 3,
-  "why": "contact takes its object straight away: contact the teacher.",
+  "why": "contact takes its object straight away: contact the ….",
   "slots": {
    "who": [
     "teacher",
@@ -529,7 +529,7 @@ export default [
    "borrowed by"
   ],
   "key": 0,
-  "why": "borrow takes the thing straight away: borrowed his bag.",
+  "why": "borrow takes the thing straight away: borrowed his ….",
   "slots": {
    "thing": [
     "bag",

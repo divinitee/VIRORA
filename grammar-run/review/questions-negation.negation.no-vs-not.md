@@ -66,7 +66,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 16. There is ______ any **milk** left, **Timur**. Can you buy some?  
    options: any · no · ✔ not · none  
-   why: "any bread" after the gap: not.
+   why: "any …" after the gap: not.
 
 17. I have ______ any homework **today**, **Lola**.  
    options: no · ✔ not · none · any  
@@ -124,7 +124,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 8. _Write no or not._  
    I have ______ **problems**, **Aziz**. Everything is clear.  
    key: no  
-   why: Noun after the gap (questions): no.
+   why: Noun after the gap (…): no.
 
 9. _Write no or not._  
    There were ______ eggs at the **bazaar**, **Aziz**.  
@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Write no or not._  
    There's ______ any **milk** left, **Olga**.  
    key: not  
-   why: "any juice" after the gap: not.
+   why: "any …" after the gap: not.
 
 14. _Write no or not._  
    We have ______ any lessons on **Independence Day**, **Olga**.  

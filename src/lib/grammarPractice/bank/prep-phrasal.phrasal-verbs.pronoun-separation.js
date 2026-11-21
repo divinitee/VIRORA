@@ -1628,7 +1628,7 @@ export default [
    "back",
    "my"
   ],
-  "why": "took my new phone back = took back my new phone.",
+  "why": "took my new … back = took back my new ….",
   "slots": {
    "thing": [
     "phone",
@@ -1690,7 +1690,7 @@ export default [
    "off",
    "the"
   ],
-  "why": "put the meeting off = put off the meeting.",
+  "why": "put the … off = put off the ….",
   "slots": {
    "event": [
     "meeting",

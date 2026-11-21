@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. My uncle drove us, so we ______ take the **bus**, **Ulugbek**.  
    options: ✔ didn't have to · mustn't · didn't had to · don't have to  
-   why: "My uncle drove us": no need for the bus: didn't have to.
+   why: "My uncle drove us": no need for the …: didn't have to.
 
 18. The **concert** was free. We ______ pay, **Gulnora**.  
    options: mustn't · didn't had to · don't have to · ✔ didn't have to  

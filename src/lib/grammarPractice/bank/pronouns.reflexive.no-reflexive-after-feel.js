@@ -979,7 +979,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "The {show} ______ (start) at seven every {day}.",
   "key": "starts",
-  "why": "\"every …\" + the show: starts.",
+  "why": "\"every …\" + the …: starts.",
   "slots": {
    "show": [
     "film",
@@ -1141,7 +1141,7 @@ export default [
   "instr": "Write the verb in the right form.",
   "source": "The {shop} ______ (close) at {h} on Sundays.",
   "key": "closes",
-  "why": "\"on Sundays\" + the shop: closes.",
+  "why": "\"on Sundays\" + the …: closes.",
   "slots": {
    "shop": [
     "shop",

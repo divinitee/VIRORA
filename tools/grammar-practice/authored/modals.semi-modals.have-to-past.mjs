@@ -144,7 +144,7 @@ const VARIETY = {
    "\"because her baby was ill\": necessary: had to leave.",
    "A holiday: work was not necessary: didn't have to.",
    "\"was easy\": study was not necessary: didn't have to.",
-   "\"My uncle drove us\": no need for the bus: didn't have to.",
+   "\"My uncle drove us\": no need for the …: didn't have to.",
    "\"was free\": no need to pay: didn't have to.",
    "\"We ate at the …\": no need to cook: didn't have to.",
    "No long wait was needed: didn't have to."

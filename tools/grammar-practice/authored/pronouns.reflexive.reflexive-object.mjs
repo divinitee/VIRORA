@@ -160,7 +160,7 @@ const VARIETY = {
    "He made a cup for him: the same person, so himself.",
    "She bought it for her: the same person, so herself.",
    "The machine turns the machine off: itself.",
-   "The children dress the children: themselves.",
+   "The … dress the …: themselves.",
    "Look after you: the same person, so yourself.",
    "I talk to me: the same person, so myself.",
    "We built it for us: the same people, so ourselves.",

@@ -978,7 +978,7 @@
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At {late}, the {who} ______ (sleep), so please come in quietly.",
   "key": "will be sleeping",
-  "why": "\"At midnight\" + \"come in quietly\": will be sleeping.",
+  "why": "\"At …\" + \"come in quietly\": will be sleeping.",
   "slots": {
    "who": [
     "children",
@@ -1058,7 +1058,7 @@
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "In {wait}, we ______ (drive) through the {place}, so we can't use our phones.",
   "key": "will be driving",
-  "why": "\"In an hour\" + \"we can't use our phones\": will be driving.",
+  "why": "\"In …\" + \"we can't use our phones\": will be driving.",
   "slots": {
    "place": [
     "mountains",
@@ -1112,7 +1112,7 @@
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At this time next {when}, I ______ (lie) on the {spot}.",
   "key": "will be lying",
-  "why": "\"At this time next …\": on the beach then: will be lying (lie → lying).",
+  "why": "\"At this time next …\": on the … then: will be lying (lie → lying).",
   "slots": {
    "when": [
     "week",

@@ -323,7 +323,7 @@ export default [
    "each other"
   ],
   "key": 3,
-  "why": "I know my neighbour and my neighbour knows me: each other.",
+  "why": "I know my … and my … knows me: each other.",
   "slots": {
    "n": [
     "ten",
@@ -451,7 +451,7 @@ export default [
    "each other's"
   ],
   "key": 3,
-  "why": "Clothes that belong to the other twin: each other's.",
+  "why": "… that belong to the other twin: each other's.",
   "slots": {
    "g": [
     "Olga",
@@ -483,7 +483,7 @@ export default [
    "each others"
   ],
   "key": 2,
-  "why": "Secrets that belong to the other: each other's.",
+  "why": "… that belong to the other: each other's.",
   "slots": {
    "b": [
     "Aziz",
@@ -925,7 +925,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "I see my cousin and my cousin sees me: each other.",
+  "why": "I see my … and my … sees me: each other.",
   "slots": {
    "event": [
     "wedding",
@@ -979,7 +979,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "Each team thanked the other: each other.",
+  "why": "Each team … the other: each other.",
   "slots": {
    "match": [
     "match",
@@ -1039,7 +1039,7 @@ export default [
   "acceptable": [
    "one another's"
   ],
-  "why": "Books that belong to the other: each other's.",
+  "why": "… that belong to the other: each other's.",
   "slots": {
    "g": [
     "Olga",
@@ -1069,7 +1069,7 @@ export default [
   "acceptable": [
    "one another's"
   ],
-  "why": "Homework that belongs to the other: each other's.",
+  "why": "… that belongs to the other: each other's.",
   "slots": {
    "b": [
     "Aziz",
@@ -1177,7 +1177,7 @@ export default [
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
   "source": "Behave ______ at the {event}, {kids}!",
   "key": "yourselves",
-  "why": "Talking to boys, plural you: yourselves.",
+  "why": "Talking to …, plural you: yourselves.",
   "slots": {
    "event": [
     "party",
@@ -1625,7 +1625,7 @@ export default [
   "source": "Behave yourself, {kids}! We are at the {place}.",
   "hint": "Behave ______, {kids}! We are at the {place}.",
   "key": "yourselves",
-  "why": "Talking to many children: yourselves, not yourself.",
+  "why": "Talking to many …: yourselves, not yourself.",
   "slots": {
    "place": [
     "museum",

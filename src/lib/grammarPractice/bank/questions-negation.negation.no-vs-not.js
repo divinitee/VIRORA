@@ -497,7 +497,7 @@ export default [
    "none"
   ],
   "key": 2,
-  "why": "\"any bread\" after the gap: not.",
+  "why": "\"any …\" after the gap: not.",
   "slots": {
    "name": [
     "Aziz",
@@ -835,7 +835,7 @@ export default [
   "instr": "Write no or not.",
   "source": "I have ______ {what}, {name}. Everything is clear.",
   "key": "no",
-  "why": "Noun after the gap (questions): no.",
+  "why": "Noun after the gap (…): no.",
   "slots": {
    "name": [
     "Aziz",
@@ -970,7 +970,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There's ______ any {drink} left, {name}.",
   "key": "not",
-  "why": "\"any juice\" after the gap: not.",
+  "why": "\"any …\" after the gap: not.",
   "slots": {
    "name": [
     "Aziz",

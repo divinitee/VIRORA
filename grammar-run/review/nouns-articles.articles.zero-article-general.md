@@ -144,7 +144,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 12. _Write the noun in brackets in the plural. Add the only if the sentence is about specific ones._  
    ______ (book) on my **desk** are all from **my aunt**.  
    key: The books  
-   why: Only the books on my shelf: The books.
+   why: Only the books on my …: The books.
 
 13. _Write the noun in brackets in the plural. Add the only if the sentence is about specific ones._  
    ______ (student) in our group are from **four** different cities, **Timur**.  

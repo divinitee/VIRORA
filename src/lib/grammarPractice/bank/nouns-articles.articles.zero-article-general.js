@@ -907,7 +907,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (book) on my {furniture} are all from {who}.",
   "key": "The books",
-  "why": "Only the books on my shelf: The books.",
+  "why": "Only the books on my …: The books.",
   "slots": {
    "furniture": [
     "desk",

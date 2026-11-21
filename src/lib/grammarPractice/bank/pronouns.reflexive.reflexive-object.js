@@ -337,7 +337,7 @@ export default [
    "theirselves"
   ],
   "key": 2,
-  "why": "The children dress the children: themselves.",
+  "why": "The … dress the …: themselves.",
   "slots": {
    "age": [
     "five",

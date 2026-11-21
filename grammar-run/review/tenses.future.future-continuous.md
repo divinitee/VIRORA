@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Complete the sentence with will be and the -ing form of the verb in brackets._  
    At **eleven**, the **neighbours** ______ (sleep), so please come in quietly.  
    key: will be sleeping  
-   why: "At midnight" + "come in quietly": will be sleeping.
+   why: "At …" + "come in quietly": will be sleeping.
 
 14. _Complete the sentence with will be and the -ing form of the verb in brackets._  
    At nine tomorrow morning, our **group** ______ (visit) the **factory**.  
@@ -164,7 +164,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 16. _Complete the sentence with will be and the -ing form of the verb in brackets._  
    In **two hours**, we ______ (drive) through the **mountains**, so we can't use our phones.  
    key: will be driving  
-   why: "In an hour" + "we can't use our phones": will be driving.
+   why: "In …" + "we can't use our phones": will be driving.
 
 17. _Complete the sentence with will be and the -ing form of the verb in brackets._  
    At five o'clock, **Shahzoda** ______ (play) the piano at the **festival**.  
@@ -174,7 +174,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Complete the sentence with will be and the -ing form of the verb in brackets._  
    At this time next **summer**, I ______ (lie) on the **deck of the boat**.  
    key: will be lying  
-   why: "At this time next …": on the beach then: will be lying (lie → lying).
+   why: "At this time next …": on the … then: will be lying (lie → lying).
 
 19. _Complete the sentence with will be and the -ing form of the verb in brackets._  
    Tomorrow at **half past five**, my **brother** ______ (drive) us to the airport.  

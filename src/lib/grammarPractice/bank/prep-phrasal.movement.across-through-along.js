@@ -145,7 +145,7 @@ export default [
    "between"
   ],
   "key": 1,
-  "why": "Trees all around you: through the forest.",
+  "why": "… all around you: through the forest.",
   "slots": {
    "tree": [
     "trees",
@@ -209,7 +209,7 @@ export default [
    "through"
   ],
   "key": 3,
-  "why": "In one side of the door and out the other: through.",
+  "why": "In one side of the … and out the other: through.",
   "slots": {
    "door": [
     "door",
@@ -465,7 +465,7 @@ export default [
    "through"
   ],
   "key": 0,
-  "why": "For two hours beside the sea = following the beach: along.",
+  "why": "For two hours beside the … = following the beach: along.",
   "slots": {
    "thing": [
     "sea",
@@ -593,7 +593,7 @@ export default [
    "through"
   ],
   "key": 0,
-  "why": "In a line beside the road: along.",
+  "why": "In a line beside the …: along.",
   "slots": {
    "road": [
     "canal",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "We flew ______ the {water} to get to the island, {name}.",
   "key": "across",
-  "why": "From one side of the sea to the other: across.",
+  "why": "From one side of the … to the other: across.",
   "slots": {
    "water": [
     "sea",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "The old men sat on benches ______ the {path}, {name}.",
   "key": "along",
-  "why": "In a line beside the path: along.",
+  "why": "In a line beside the …: along.",
   "slots": {
    "path": [
     "path",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "We drove ______ the river for {dist} before we found a bridge, {name}.",
   "key": "along",
-  "why": "For ten kilometres beside the river: along.",
+  "why": "For … beside the river: along.",
   "slots": {
    "name": [
     "Nodira",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "It's quicker to go ______ the {place} than round it, {name}.",
   "key": "through",
-  "why": "In one end of the building and out the other: through.",
+  "why": "In one end of the … and out the other: through.",
   "slots": {
    "place": [
     "shopping centre",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "The cat jumped in ______ the kitchen {window} and ate the fish, {name}.",
   "key": "through",
-  "why": "In one side of the window: through.",
+  "why": "In one side of the …: through.",
   "slots": {
    "window": [
     "window",

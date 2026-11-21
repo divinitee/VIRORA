@@ -264,7 +264,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I took my new **phone** back to the shop, **Malika**.  
    → I took ______ ______ new **phone** to the shop, **Malika**.  
    key: back + my  
-   why: took my new phone back = took back my new phone.
+   why: took my new … back = took back my new ….
 
 14. _Rewrite with the noun after the particle. One word in each gap._  
    Put your toys away, **Akmal**. Your **friends** are coming.  
@@ -276,7 +276,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Let's put the **party** off until next week, **Sherzod**.  
    → Let's put ______ ______ **party** until next week, **Sherzod**.  
    key: off + the  
-   why: put the meeting off = put off the meeting.
+   why: put the … off = put off the ….
 
 ## create (8)
 

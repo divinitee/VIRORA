@@ -42,7 +42,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 10. My **best friend** and I have known ______ for **ten** years.  
    options: ourselves · us · each others · ✔ each other  
-   why: I know my neighbour and my neighbour knows me: each other.
+   why: I know my … and my … knows me: each other.
 
 11. The two **girls** in the **shop** were shouting at ______.  
    options: them · each others · ✔ each other · themselves  
@@ -58,11 +58,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 14. The twins often wear ______ **hats**, **Madina**.  
    options: each others · themselves · each others' · ✔ each other's  
-   why: Clothes that belong to the other twin: each other's.
+   why: … that belong to the other twin: each other's.
 
 15. **Timur** and his brother know ______ **secrets**.  
    options: themselves · each others' · ✔ each other's · each others  
-   why: Secrets that belong to the other: each other's.
+   why: … that belong to the other: each other's.
 
 16. The boys fell off their **scooters** and hurt ______ **last week**.  
    options: theirselves · ✔ themselves · each other · them  
@@ -129,7 +129,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 9. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    My **uncle** and I see ______ at every **birthday**.  
    key: each other (also: one another)  
-   why: I see my cousin and my cousin sees me: each other.
+   why: I see my … and my … sees me: each other.
 
 10. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    Our two **neighbours** don't like ______, so they never visit.  
@@ -139,7 +139,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 11. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    The two teams **greeted** ______ after the **game**.  
    key: each other (also: one another)  
-   why: Each team thanked the other: each other.
+   why: Each team … the other: each other.
 
 12. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    **Timur** and **Lola** stood and smiled at ______.  
@@ -149,12 +149,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    We often borrow ______ **books**, **Lola**.  
    key: each other's (also: one another's)  
-   why: Books that belong to the other: each other's.
+   why: … that belong to the other: each other's.
 
 14. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    **Bobur** and his friend always copy ______ **homework**.  
    key: each other's (also: one another's)  
-   why: Homework that belongs to the other: each other's.
+   why: … that belongs to the other: each other's.
 
 15. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    The two **players** fell on the **stairs** and hurt ______.  
@@ -174,7 +174,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    Behave ______ at the **museum**, **children**!  
    key: yourselves  
-   why: Talking to boys, plural you: yourselves.
+   why: Talking to …, plural you: yourselves.
 
 19. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    Did you two burn ______ on the **oven**? Show me your hands.  
@@ -264,7 +264,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Behave yourself, **girls**! We are at the **hospital**.  
    → Behave ______, **girls**! We are at the **hospital**.  
    key: yourselves  
-   why: Talking to many children: yourselves, not yourself.
+   why: Talking to many …: yourselves, not yourself.
 
 14. _Correct the mistake._  
    The **girls** burned each other on the hot **pan**.  

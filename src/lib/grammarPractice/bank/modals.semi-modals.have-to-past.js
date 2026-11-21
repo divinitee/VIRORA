@@ -529,7 +529,7 @@ export default [
    "don't have to"
   ],
   "key": 0,
-  "why": "\"My uncle drove us\": no need for the bus: didn't have to.",
+  "why": "\"My uncle drove us\": no need for the …: didn't have to.",
   "slots": {
    "bus": [
     "bus",

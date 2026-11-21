@@ -17,7 +17,7 @@ export default [
    "whereas"
   ],
   "key": 0,
-  "why": "\"the meeting\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "event": [
     "meeting",
@@ -49,7 +49,7 @@ export default [
    "during"
   ],
   "key": 0,
-  "why": "\"I was in the shower\" has a subject and verb: while.",
+  "why": "\"I was in the …\" has a subject and verb: while.",
   "slots": {
    "room": [
     "shower",
@@ -81,7 +81,7 @@ export default [
    "while"
   ],
   "key": 2,
-  "why": "\"the film\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "film": [
     "film",
@@ -209,7 +209,7 @@ export default [
    "while"
   ],
   "key": 2,
-  "why": "\"the exam\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "test": [
     "exam",
@@ -241,7 +241,7 @@ export default [
    "meanwhile"
   ],
   "key": 2,
-  "why": "\"the teacher is speaking\" is a clause: while.",
+  "why": "\"the … is speaking\" is a clause: while.",
   "slots": {
    "who": [
     "teacher",
@@ -369,7 +369,7 @@ export default [
    "meanwhile"
   ],
   "key": 2,
-  "why": "\"Mum was cooking\" has a subject and verb: while.",
+  "why": "\"Mum was …\" has a subject and verb: while.",
   "slots": {
    "job": [
     "cooking",
@@ -401,7 +401,7 @@ export default [
    "whereas"
   ],
   "key": 0,
-  "why": "\"the summer camp\" is a noun: during.",
+  "why": "\"the summer …\" is a noun: during.",
   "slots": {
    "camp": [
     "camp",
@@ -433,7 +433,7 @@ export default [
    "during"
   ],
   "key": 0,
-  "why": "\"we are in Antalya\" is a clause: while.",
+  "why": "\"we are in …\" is a clause: while.",
   "slots": {
    "city": [
     "Antalya",
@@ -465,7 +465,7 @@ export default [
    "while"
   ],
   "key": 2,
-  "why": "\"the match\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "match": [
     "match",
@@ -529,7 +529,7 @@ export default [
    "whereas"
   ],
   "key": 0,
-  "why": "\"the night\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "time": [
     "night",
@@ -593,7 +593,7 @@ export default [
    "while"
   ],
   "key": 2,
-  "why": "\"the performance\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "event": [
     "performance",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write during or while.",
   "source": "There was a power cut ______ the {storm}, {name}.",
   "key": "during",
-  "why": "\"the storm\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "storm": [
     "storm",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write during or while.",
   "source": "The phone rang ______ I was {job}, {name}.",
   "key": "while",
-  "why": "\"I was asleep\" is a clause: while.",
+  "why": "\"I was …\" is a clause: while.",
   "slots": {
    "job": [
     "asleep",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write during or while.",
   "source": "Wait in the hall ______ the {who} gets your papers ready, {name}.",
   "key": "while",
-  "why": "\"the secretary gets\" is a clause: while.",
+  "why": "\"the … gets\" is a clause: while.",
   "slots": {
    "who": [
     "secretary",
@@ -814,7 +814,7 @@ export default [
   "instr": "Write during or while.",
   "source": "Please don't eat ______ the {lesson}, {name}.",
   "key": "during",
-  "why": "\"the lesson\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "lesson": [
     "lesson",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write during or while.",
   "source": "We stayed inside ______ the {weather}, {name}.",
   "key": "during",
-  "why": "\"the storm\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "weather": [
     "storm",
@@ -976,7 +976,7 @@ export default [
   "instr": "Write during or while.",
   "source": "Lots of people get colds ______ the {season}, {name}.",
   "key": "during",
-  "why": "\"the winter\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "season": [
     "winter",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write during or while.",
   "source": "The {who} slept ______ the whole {time}.",
   "key": "during",
-  "why": "\"the whole journey\" is a noun: during.",
+  "why": "\"the whole …\" is a noun: during.",
   "slots": {
    "who": [
     "baby",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "Write during or while.",
   "source": "My ice cream melted ______ I was in the {place}, {name}.",
   "key": "while",
-  "why": "\"I was in the shop\" is a clause: while.",
+  "why": "\"I was in the …\" is a clause: while.",
   "slots": {
    "place": [
     "shop",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "Write during or while.",
   "source": "The {who} asked a lot of questions ______ the {event}.",
   "key": "during",
-  "why": "\"the tour\" is a noun: during.",
+  "why": "\"the …\" is a noun: during.",
   "slots": {
    "who": [
     "students",
@@ -1193,7 +1193,7 @@ export default [
   "source": "My phone rang when we were having the {event}, {name}.",
   "hint": "My phone rang ______ the {event}, {name}.",
   "key": "during",
-  "why": "the meeting is a noun: during.",
+  "why": "the … is a noun: during.",
   "slots": {
    "event": [
     "meeting",
@@ -1221,7 +1221,7 @@ export default [
   "source": "Dad fell asleep when we were watching the {show}, {name}.",
   "hint": "Dad fell asleep ______ the {show}, {name}.",
   "key": "during",
-  "why": "the film is a noun: during.",
+  "why": "the … is a noun: during.",
   "slots": {
    "show": [
     "film",
@@ -1277,7 +1277,7 @@ export default [
   "source": "Two windows broke when the {storm} was happening, {name}.",
   "hint": "Two windows broke ______ the {storm}, {name}.",
   "key": "during",
-  "why": "the storm is a noun: during.",
+  "why": "the … is a noun: during.",
   "slots": {
    "storm": [
     "storm",
@@ -1473,7 +1473,7 @@ export default [
   "source": "Please be quiet while the {event}, {name}.",
   "hint": "Please be quiet ______ the {event}, {name}.",
   "key": "during",
-  "why": "the concert is a noun, so not while: during.",
+  "why": "the … is a noun, so not while: during.",
   "slots": {
    "event": [
     "concert",
@@ -1585,7 +1585,7 @@ export default [
   "source": "Mum cooked dinner during Dad was at the {place}, {name}.",
   "hint": "Mum cooked dinner ______ Dad was at the {place}, {name}.",
   "key": "while",
-  "why": "Dad was at the bazaar is a clause, so not during: while.",
+  "why": "Dad was at the … is a clause, so not during: while.",
   "slots": {
    "place": [
     "bazaar",

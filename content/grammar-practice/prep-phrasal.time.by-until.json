@@ -1085,7 +1085,7 @@
   "instr": "Write by or until.",
   "source": "The doctor said I'd feel better ______ the {when}, {name}.",
   "key": "by",
-  "why": "feel better at a point before the weekend: by.",
+  "why": "feel better at a point before the …: by.",
   "slots": {
    "when": [
     "weekend",

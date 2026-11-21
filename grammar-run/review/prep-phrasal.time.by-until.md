@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Write by or until._  
    The doctor said I'd feel better ______ the **big match**, **Sardor**.  
    key: by  
-   why: feel better at a point before the weekend: by.
+   why: feel better at a point before the …: by.
 
 16. _Write by or until._  
    You can park here ______ **noon**, **Sherzod**. After that, it's **very expensive**.  

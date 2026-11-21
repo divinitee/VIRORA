@@ -187,7 +187,7 @@ const VARIETY = {
    "All babies: y → ies, no article: Babies.",
    "All doctors: plural, no article: Doctors.",
    "Only the horses on the farm: The horses.",
-   "Only the books on my shelf: The books.",
+   "Only the books on my …: The books.",
    "Only the students in our group: The students.",
    "The keys to one thing: the keys.",
    "The shoes you bought: The shoes.",

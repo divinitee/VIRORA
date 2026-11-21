@@ -144,7 +144,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 12. _Write the verb in the right form._  
    The **cartoon** ______ (start) at seven every **Tuesday**.  
    key: starts  
-   why: "every …" + the show: starts.
+   why: "every …" + the …: starts.
 
 13. _Write the verb in the right form._  
    The **match** ______ (start) late **last night**, so we waited.  
@@ -174,7 +174,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Write the verb in the right form._  
    The **café** ______ (close) at **five** on Sundays.  
    key: closes  
-   why: "on Sundays" + the shop: closes.
+   why: "on Sundays" + the …: closes.
 
 19. _Write the verb in the right form._  
    My dad ______ (return) from **Khiva** **on Friday**.  

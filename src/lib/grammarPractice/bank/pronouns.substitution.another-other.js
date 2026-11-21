@@ -81,7 +81,7 @@ export default [
    "other"
   ],
   "key": 2,
-  "why": "Two more days: another + a number.",
+  "why": "A number + days after the gap: another + number.",
   "slots": {
    "city": [
     "Samarkand",
@@ -561,7 +561,7 @@ export default [
    "others"
   ],
   "key": 3,
-  "why": "No noun after it: the rest of the guests: others.",
+  "why": "No noun after it: the rest of the …: others.",
   "slots": {
    "event": [
     "party",
@@ -727,7 +727,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "There's ______ {bus} in ten minutes, {name}.",
   "key": "another",
-  "why": "One more bus, singular: another.",
+  "why": "One more …, singular: another.",
   "slots": {
    "bus": [
     "bus",

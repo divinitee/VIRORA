@@ -10,7 +10,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 2. We need to ______ the new **timetable** at the meeting, **Sardor**.  
    options: discuss about · discuss on · discuss of · ✔ discuss  
-   why: discuss takes its object straight away: discuss the timetable, no preposition.
+   why: discuss takes its object straight away: discuss the …, no preposition.
 
 3. My grandpa is ______ the old **music** on the radio, **Gulnora**.  
    options: listening on · listening of · ✔ listening to · listening  
@@ -46,7 +46,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 11. We finally ______ **Samarkand** at midnight, **Nodira**.  
    options: reached in · reached on · ✔ reached · reached at  
-   why: reach takes its object straight away: reached Samarkand.
+   why: reach takes its object straight away: reached ….
 
 12. The test ______ three parts: **two essays and an interview**, **Malika**.  
    options: consists · ✔ consists of · consists from · consists with  
@@ -58,7 +58,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 14. Please ______ the **hotel** if you have any questions, **Sardor**.  
    options: contact with · contact to · contact at · ✔ contact  
-   why: contact takes its object straight away: contact the teacher.
+   why: contact takes its object straight away: contact the ….
 
 15. You can always ______ your **best friend**, **Gulnora**.  
    options: rely to · rely · ✔ rely on · rely of  
@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. I ______ my brother's **bag** for the trip, **Ulugbek**.  
    options: ✔ borrowed · borrowed with · borrowed to · borrowed by  
-   why: borrow takes the thing straight away: borrowed his bag.
+   why: borrow takes the thing straight away: borrowed his ….
 
 18. The baby ______ me and I **smiled back**, **Sardor**.  
    options: smiled · smiled to · smiled of · ✔ smiled at  
