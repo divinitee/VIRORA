@@ -20,7 +20,7 @@ import { writeFileSync } from "node:fs";
 
 const BASE = { domain: "modals", branch: "obligation", topic: "modal-passive", level: "B1", pv: "2.5" };
 const NAME = ["Zarina", "Sherzod", "Nodira", "Akmal"]; // listener names: never printed in a sentence (audit 20 Nov)
-const PP = { show: "shown", turn: "turned", wash: "washed", wear: "worn", check: "checked", follow: "followed", leave: "left", clean: "cleaned", complete: "completed", obey: "obeyed", respect: "respected", pay: "paid", finish: "finished", sign: "signed", keep: "kept", buy: "bought" };
+const PP = { sign: "signed", show: "shown", turn: "turned", wash: "washed", wear: "worn", check: "checked", follow: "followed", leave: "left", clean: "cleaned", complete: "completed", obey: "obeyed", respect: "respected", pay: "paid", finish: "finished", sign: "signed", keep: "kept", buy: "bought" };
 const WHY_A = "The subject does the action: must + base verb (active).";
 const WHY_P = "The subject receives the action: must be + past participle (passive).";
 const shapes = (v) => [`must ${v}`, `must be ${PP[v]}`, `must be ${v}`, `must ${PP[v]}`];
@@ -52,7 +52,7 @@ const CHOOSE = [
   ["follow", 1, "The {place} rules ______ by everyone, {name}.", { place: RULES, name: NAME }],
   ["wear", 1, "Helmets ______ on the {site}, {name}.", { site: SITE, name: NAME }],
   ["check", 1, "The rooms ______ by {time} every day, {name}.", { time: ["noon", "eleven", "ten o'clock", "twelve"], name: NAME }],
-  ["complete", 1, "The {form} form ______ in black ink, {name}.", { form: FORM, name: NAME }],
+  ["sign", 1, "The {form} form ______ in black ink, {name}.", { form: FORM, name: NAME }],
   ["respect", 1, "The {who}'s decision ______ by all players, {name}.", { who: ["referee", "coach", "captain", "judge"], name: NAME }],
 ].map(([v, pas, prompt, slots], i) => {
   const o = shapes(v);

@@ -52,7 +52,7 @@ const INSTR = "The speaker is sure. Complete with must and the verb in brackets.
 const BUILD = [
   ["be", "Aziz's car is outside the {place}. He ______ (be) inside, {name}.", { place: ["café", "bank", "gym", "library"], name: NAME }],
   ["be", "You've worked since {time}. You ______ (be) tired, {name}.", { time: ["six", "seven o'clock", "early morning", "breakfast"], name: NAME }],
-  ["study", "She speaks perfect {lang}. She ______ (study) a lot, {name}.", { lang: ["English", "Korean", "German", "French"], name: NAME }],
+  ["be", "She speaks perfect {lang}. She ______ (be) very good at languages, {name}.", { lang: ["English", "Korean", "German", "French"], name: NAME }],
   ["be", "They eat at that {place} every day. The food there ______ (be) good, {name}.", { place: ["café", "canteen", "restaurant", "chaikhana"], name: NAME }],
   ["love", "He reads {n} books a month. He ______ (love) reading, {name}.", { n: ["five", "six", "ten", "eight"], name: NAME }],
   ["be", "Everybody in the {room} is laughing. The film ______ (be) funny, {name}.", { room: ["cinema", "living room", "classroom", "hall"], name: NAME }],

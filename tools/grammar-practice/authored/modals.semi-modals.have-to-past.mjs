@@ -52,7 +52,7 @@ const CHOOSE = [
 });
 
 /* ---------------- build: 20 gap_fill ---------------- */
-const INSTR = "It is the past. Complete with had (or didn't have) and the verb in brackets.";
+const INSTR = "It is the past. Complete with had to (or didn't have to) and the verb in brackets.";
 // no source prints "to" or "had"
 const BUILD = [
   ["stay", 0, "Yesterday I ______ (stay) late at work, {name}. My {who} asked me.", { who: ["boss", "manager", "director", "team leader"], name: NAME }],
