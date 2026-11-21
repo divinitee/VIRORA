@@ -476,3 +476,13 @@ test('comeback after a conduct ending: ONLY the check-in question, in the settin
   assert.match(buildBrainInstructions({ persona: 'violet', uiLang: 'uz' }), /O'zingga keldingmi\?/);
   assert.match(buildBrainInstructions({ persona: 'violet', uiLang: 'ru' }), /В себя пришёл\?/);
 });
+
+test('voice direction carries into the second half of a split reply', async () => {
+  const { splitSpeech, buildBrainInstructions } = await import('../../base44/shared/liveTeacherBrain.js');
+  const r = splitSpeech('[quietly] You keep speaking to me this way, so I am ending the lesson now. Come back tomorrow when you are ready.');
+  assert.match(r.first, /^\[quietly\]/);
+  assert.equal(r.rest, '[quietly] Come back tomorrow when you are ready.');
+  assert.equal(splitSpeech('[firmly] No. [warmly] Okay, try again. Good.').rest.startsWith('['), true);
+  assert.equal(splitSpeech('Plain first sentence here. Plain rest.').rest, 'Plain rest.');
+  assert.match(buildBrainInstructions({ persona: 'vira' }), /never bright or sunny/);
+});

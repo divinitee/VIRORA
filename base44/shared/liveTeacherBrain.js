@@ -570,5 +570,11 @@ export function splitSpeech(text) {
     i += 1;
     if (stripAudioTags(first).length >= 12) break; // "Nice!" alone is too short to start with
   }
-  return { first, rest: parts.slice(i).join(' ') };
+  let rest = parts.slice(i).join(' ');
+  // 21 Nov: the rest is voiced in a SEPARATE request, so a [quietly] in the first
+  // sentence didn't reach it and "Come back tomorrow" came out bright and sunny.
+  // Carry her last voice direction into the rest unless it sets its own.
+  const tagsInFirst = first.match(/\[[^\]\n]{1,30}\]/g) || [];
+  if (rest && tagsInFirst.length && !/^\s*\[/.test(rest)) rest = `${tagsInFirst.slice(-2).join('')} ${rest}`;
+  return { first, rest };
 }
