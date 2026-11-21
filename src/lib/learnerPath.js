@@ -14,7 +14,8 @@
 // A lesson names the grammar topics it teaches (LESSON_STOPS[].grammar); when the
 // lesson is done the app sends the student to practise exactly those ("once done
 // -> grammar" on the whiteboard). The grammar stops follow the Foundational
-// course order (src/lib/grammarCourse.js), which is unchanged.
+// course order (src/lib/grammarCourse.js), which is unchanged, then the B1 units
+// (src/lib/grammarCourseB1.js, 21 Nov 2026) through PATH_UNITS.
 //
 // Display + navigation only. Nothing here is stored: the state is derived from
 // the student's own GrammarAttempt rows and StudentProgress row. It does not
@@ -23,7 +24,7 @@
 // Pure: no React, no API client, relative imports only, so node can test it
 // (tools/grammar-practice/path-tests.mjs).
 
-import { UNITS, topicLabel, unitById } from "./grammarCourse.js";
+import { PATH_UNITS, topicLabel, unitById } from "./grammarCourse.js";
 import { FREE_LESSON_ID } from "./freeLesson.js";
 
 // A grammar stop is PASSED when one round has at least 8 graded answers and at
@@ -81,7 +82,7 @@ export function buildPath({ available = new Set(), passed = new Set(), lessonsDo
   LESSON_STOPS.forEach((l, i) => {
     stops.push({ id: `lesson:${l.lessonId}`, kind: "lesson", lessonId: l.lessonId, unitId: null, counts: true, done: lessonsDone > i });
   });
-  for (const u of UNITS) {
+  for (const u of PATH_UNITS) {
     for (const t of u.topics) {
       const playable = available.has(t.key);
       stops.push({
@@ -103,7 +104,7 @@ export function pathState(input = {}) {
     const inUnit = counted.filter((s) => s.unitId === next.unitId);
     unit = {
       id: next.unitId,
-      index: UNITS.findIndex((u) => u.id === next.unitId),
+      index: PATH_UNITS.findIndex((u) => u.id === next.unitId),
       total: inUnit.length,
       done: inUnit.filter((s) => s.done).length,
     };

@@ -14,6 +14,8 @@
 // optional: true = A2+ preview (passive voice). Never counts toward unit
 // completion, A2 exit, or Path recommendations.
 
+import { UNITS_B1, TOPIC_LABELS_B1 } from "./grammarCourseB1.js";
+
 export const COURSE_TIER = "foundational";
 
 export const UNITS = [
@@ -392,12 +394,18 @@ export const TOPIC_LABELS = {
 
 export const COURSE_TOPIC_KEYS = UNITS.flatMap((u) => u.topics.map((t) => t.key));
 
-const UNIT_BY_KEY = Object.fromEntries(UNITS.flatMap((u) => u.topics.map((t) => [t.key, u.id])));
+// The learner path walks the Foundational units, then the B1 units
+// (src/lib/grammarCourseB1.js, 21 Nov 2026). UNITS / COURSE_TOPIC_KEYS above stay
+// the Foundational course only (course-tests.mjs checks them).
+export const PATH_UNITS = [...UNITS, ...UNITS_B1];
+const ALL_LABELS = { ...TOPIC_LABELS, ...TOPIC_LABELS_B1 };
+
+const UNIT_BY_KEY = Object.fromEntries(PATH_UNITS.flatMap((u) => u.topics.map((t) => [t.key, u.id])));
 export const unitForTopic = (key) => UNIT_BY_KEY[key] || null;
-export const unitById = (id) => UNITS.find((u) => u.id === id) || null;
+export const unitById = (id) => PATH_UNITS.find((u) => u.id === id) || null;
 
 /** Label for a topic in the learner's language, falling back to English, then the key. */
 export function topicLabel(key, lang = "en") {
-  const l = TOPIC_LABELS[key];
+  const l = ALL_LABELS[key];
   return (l && (l[lang] || l.en)) || key;
 }

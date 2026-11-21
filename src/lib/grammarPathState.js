@@ -6,7 +6,7 @@
 // server-side topic mastery lands, swap topicStatuses() for its output and the
 // UI keeps working. Thresholds are provisional (GPT/Claude audit, Oct 2026):
 // one placement item or one good round never makes a topic Secure.
-import { UNITS } from "@/lib/grammarCourse";
+import { PATH_UNITS } from "@/lib/grammarCourse";
 
 export const STATUS = { NEW: "new", PRACTISING: "practising", REVIEW: "review", SECURE: "secure" };
 
@@ -45,7 +45,7 @@ const statusOf = (statuses, key) => statuses[key] || STATUS.NEW;
  * nothing is locked.
  */
 export function nextTopic(statuses, available) {
-  for (const u of UNITS) {
+  for (const u of PATH_UNITS) {
     for (const t of u.topics) {
       if (t.optional || !available.has(t.key)) continue;
       if (statusOf(statuses, t.key) !== STATUS.SECURE) return { unitId: u.id, key: t.key };
