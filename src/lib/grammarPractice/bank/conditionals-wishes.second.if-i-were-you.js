@@ -617,7 +617,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "This street isn't safe. If I were you, I ______ the {thing} in the car, {name}.",
+  "prompt": "It's very hot today. If I were you, I ______ the {thing} in the car, {name}.",
   "options": [
    "didn't leave",
    "wouldn't leave",
@@ -628,10 +628,10 @@ export default [
   "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
   "slots": {
    "thing": [
-    "bag",
+    "chocolate",
     "laptop",
     "phone",
-    "passport"
+    "medicine"
    ],
    "name": [
     "Malika",
@@ -731,7 +731,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
-  "source": "It's her birthday. If I were you, I ______ (call) your {who} tonight, {name}.",
+  "source": "It's your {who}'s birthday. If I were you, I ______ (call) her tonight, {name}.",
   "key": "would call",
   "why": "Advice: If I were you, I would + base verb.",
   "slots": {
@@ -1148,15 +1148,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Give advice. Complete with would (or wouldn't) and the verb in brackets.",
-  "source": "Cars get broken into here. If I were you, I ______ (not / leave) your {thing} in the car, {name}.",
+  "source": "The sun is very strong. If I were you, I ______ (not / leave) your {thing} in the car, {name}.",
   "key": "wouldn't leave",
   "why": "Advice not to do something: If I were you, I wouldn't + base verb.",
   "slots": {
    "thing": [
-    "bag",
+    "chocolate",
     "laptop",
     "phone",
-    "passport"
+    "medicine"
    ],
    "name": [
     "Malika",

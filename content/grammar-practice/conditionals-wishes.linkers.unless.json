@@ -1485,7 +1485,12 @@
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   "unless you wear",
+   "unless you bring",
+   "unless you have"
+  ]
  },
  {
   "domain": "conditionals-wishes",
@@ -1513,7 +1518,10 @@
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   "unless we hurry"
+  ]
  },
  {
   "domain": "conditionals-wishes",
@@ -1541,7 +1549,10 @@
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   "unless we book"
+  ]
  },
  {
   "domain": "conditionals-wishes",

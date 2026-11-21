@@ -1487,7 +1487,12 @@ export default [
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   "unless you wear",
+   "unless you bring",
+   "unless you have"
+  ]
  },
  {
   "id": "gpr.conditionals-wishes.linkers.unless.transform.012",
@@ -1515,7 +1520,10 @@ export default [
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   "unless we hurry"
+  ]
  },
  {
   "id": "gpr.conditionals-wishes.linkers.unless.transform.013",
@@ -1543,7 +1551,10 @@ export default [
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   "unless we book"
+  ]
  },
  {
   "id": "gpr.conditionals-wishes.linkers.unless.transform.014",

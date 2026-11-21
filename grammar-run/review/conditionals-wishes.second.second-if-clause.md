@@ -142,7 +142,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Imagined situation: if + past simple, … would + base verb.
 
 12. _Imagine. Complete the if-part with the past simple of the verb in brackets._  
-   If they ______ (go) by plane, they would arrive in **Istanbul** in two hours, **Sardor**.  
+   If they ______ (go) by plane, they would arrive at the **conference** much faster, **Sardor**.  
    key: went  
    why: Imagined situation: if + past simple, … would + base verb.
 
@@ -207,8 +207,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Imagined situation: if + past simple, … would + base verb.
 
 4. _Imagine it is different. Complete the if-part with the past simple._  
-   She doesn't speak **German**, so she can't work in **Istanbul**.  
-   → If she ______ **German**, she could work in **Istanbul**.  
+   She doesn't speak **German**, so she can't work **for that company**.  
+   → If she ______ **German**, she could work **for that company**.  
    key: spoke  
    why: Imagined situation: if + past simple, … would + base verb.
 
