@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. 'Close the **door**,' the **director** said to us. The **director** ______ the **door**.  
    options: ✔ told us to close · told us close · said us to close · told to us closing  
-   why: A reported command: told + person + to + base verb.
+   why: An order to us: told us + to close.
 
 2. 'Sit down on the **chair**,' the **doctor** said to me. The **doctor** ______ down on the **chair**.  
    options: told me sit · said me to sit · told to me sitting · ✔ told me to sit  
-   why: A reported command: told + person + to + base verb.
+   why: An order to me: told me + to sit.
 
 3. 'Wait for me at the **gate**,' **Bekzod** said to his **sister**. **Bekzod** ______ for him at the **gate**.  
    options: said her to wait · told to her waiting · ✔ told her to wait · told her wait  
-   why: A reported command: told + person + to + base verb.
+   why: An order to his …: told her + to wait.
 
-4. 'Turn off your phones,' the **coach** said to the students. The **coach** ______ off their phones.  
+4. 'Turn off your phones,' the **coach** said to the **players**. The **coach** ______ off their phones.  
    options: told to them turning · ✔ told them to turn · told them turn · said them to turn  
-   why: A reported command: told + person + to + base verb.
+   why: An order to the students: told them + to turn.
 
-5. 'Call me after the **lesson**,' **Lola** said to **Timur**. **Lola** ______ her after the **lesson**.  
+5. 'Call me after the **meeting**,' **Lola** said to **Rustam**. **Lola** ______ her after the **meeting**.  
    options: ✔ told him to call · told him call · said him to call · told to him calling  
-   why: A reported command: told + person + to + base verb.
+   why: An order to him: told him + to call.
 
-6. 'Bring your **IDs**,' the **coach** said to us. The **coach** ______ our **IDs**.  
+6. 'Bring your **tickets**,' the **guide** said to us. The **guide** ______ our **tickets**.  
    options: told us bring · said us to bring · told to us bringing · ✔ told us to bring  
-   why: A reported command: told + person + to + base verb.
+   why: An order to us: told us + to bring.
 
-7. 'Eat your **soup**,' my **grandma** said to me. My **grandma** ______ my **soup**.  
+7. 'Eat your **plov**,' my **mum** said to me. My **mum** ______ my **plov**.  
    options: said me to eat · told to me eating · ✔ told me to eat · told me eat  
-   why: A reported command: told + person + to + base verb.
+   why: An order to me: told me + to eat.
 
-8. 'Wear a **coat**,' my **dad** said to my brother. My **dad** ______ a **coat**.  
+8. 'Wear a **scarf**,' my **mum** said to my brother. My **mum** ______ a **scarf**.  
    options: told to him wearing · ✔ told him to wear · told him wear · said him to wear  
-   why: A reported command: told + person + to + base verb.
+   why: An order to my brother: told him + to wear.
 
-9. 'Study for the **exam**,' the teacher said to **Madina**. The teacher ______ for the **exam**.  
+9. 'Study for the **quiz**,' the teacher said to **Lola**. The teacher ______ for the **quiz**.  
    options: ✔ told her to study · told her study · said her to study · told to her studying  
-   why: A reported command: told + person + to + base verb.
+   why: An order to her: told her + to study.
 
-10. 'Clean your **shoes**,' **Aziz**'s mother said to him. His mother ______ his **shoes**.  
+10. 'Clean your **room**,' **Aziz**'s mother said to him. His mother ______ his **room**.  
    options: told him clean · said him to clean · told to him cleaning · ✔ told him to clean  
-   why: A reported command: told + person + to + base verb.
+   why: An order to him: told him + to clean.
 
-11. 'Write your name on the **form**,' the **receptionist** said to me. The **receptionist** ______ my name on the **form**.  
+11. 'Write your name on the **paper**,' the **receptionist** said to me. The **receptionist** ______ my name on the **paper**.  
    options: said me to write · told to me writing · ✔ told me to write · told me write  
-   why: A reported command: told + person + to + base verb.
+   why: An order to me: told me + to write.
 
-12. 'Take the **minibus** from the **station**,' the man said to us. The man ______ the **minibus** from the **station**.  
+12. 'Take the **bus** from the **bazaar**,' the man said to us. The man ______ the **bus** from the **bazaar**.  
    options: told to us taking · ✔ told us to take · told us take · said us to take  
-   why: A reported command: told + person + to + base verb.
+   why: Directions to us: told us + to take.
 
-13. 'Don't be late for the **match**,' the **manager** said to us. The **manager** ______ late for the **match**.  
+13. 'Don't be late for the **meeting**,' the **teacher** said to us. The **teacher** ______ late for the **meeting**.  
    options: ✔ told us not to be · told us don't be · said us not to be · told us not be  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't be → not to be.
 
-14. 'Don't touch the **cake**,' **Lola** said to the children. **Lola** ______ the **cake**.  
+14. 'Don't touch the **oven**,' **Madina** said to the children. **Madina** ______ the **oven**.  
    options: told them don't touch · said them not to touch · told them not touch · ✔ told them not to touch  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't touch → not to touch.
 
-15. 'Don't worry about the **interview**,' my **friend** said to me. My **friend** ______ about the **interview**.  
+15. 'Don't worry about the **interview**,' my **teacher** said to me. My **teacher** ______ about the **interview**.  
    options: said me not to worry · told me not worry · ✔ told me not to worry · told me don't worry  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't worry → not to worry.
 
-16. 'Don't open the **window**,' **Aziz** said to his sister. **Aziz** ______ the **window**.  
+16. 'Don't open the **door**,' **Rustam** said to his sister. **Rustam** ______ the **door**.  
    options: told her not open · ✔ told her not to open · told her don't open · said her not to open  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't open → not to open.
 
-17. 'Please help me with the **boxes**,' **Lola** said to me. **Lola** ______ her with the **boxes**.  
+17. 'Please help me with the **homework**,' **Olga** said to me. **Olga** ______ her with the **homework**.  
    options: ✔ asked me to help · asked me help · asked to me help · said me to help  
-   why: A reported request: asked + person + to + base verb.
+   why: 'Please help me' is a request: asked me to help.
 
-18. 'Could you open the **door**, please?' the **lady** said to **Timur**. The **lady** ______ the **door**.  
+18. 'Could you open the **gate**, please?' the **teacher** said to **Aziz**. The **teacher** ______ the **gate**.  
    options: asked him open · asked to him open · said him to open · ✔ asked him to open  
-   why: A reported request: asked + person + to + base verb.
+   why: 'Could you…, please?' is a request: asked him to open.
 
-19. 'Please speak more slowly,' the **tourist** said to us. The **tourist** ______ more slowly.  
+19. 'Please speak more **quietly**,' the **old man** said to us. The **old man** ______ more **quietly**.  
    options: asked to us speak · said us to speak · ✔ asked us to speak · asked us speak  
-   why: A reported request: asked + person + to + base verb.
+   why: 'Please speak…' is a request: asked us to speak.
 
-20. 'Can you lend me your **camera**?' **Timur** said to me. **Timur** ______ him my **camera**.  
+20. 'Can you lend me your **pen**?' **Aziz** said to me. **Aziz** ______ him my **pen**.  
    options: said me to lend · ✔ asked me to lend · asked me lend · asked to me lend  
-   why: A reported request: asked + person + to + base verb.
+   why: 'Can you lend me…?' is a request: asked me to lend.
 
 ## build (20)
 
 1. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The **coach** told us ______ (close) the **window**.  
+   The **guide** told us ______ (close) the **window**.  
    key: to close  
-   why: A reported command: told + person + to + base verb.
+   why: told us + to + verb: to close.
 
 2. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The **manager** told me ______ (sit) down on the **chair**.  
+   The **manager** told me ______ (sit) down on the **bench**.  
    key: to sit  
-   why: A reported command: told + person + to + base verb.
+   why: told me + to + verb: to sit.
 
 3. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   **Rustam** told his **wife** ______ (wait) for him at the **station**.  
+   **Aziz** told his **daughter** ______ (wait) for him at the **gate**.  
    key: to wait  
-   why: A reported command: told + person + to + base verb.
+   why: told his … + to + verb: to wait.
 
 4. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The **guide** told the students ______ (turn) off their phones, **Lola**.  
+   The **coach** told the students ______ (turn) off their phones, **Madina**.  
    key: to turn  
-   why: A reported command: told + person + to + base verb.
+   why: told the students + to + verb: to turn.
 
 5. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   **Sevara** told **Bekzod** ______ (call) her after the **match**.  
+   **Olga** told **Aziz** ______ (call) her after the **meeting**.  
    key: to call  
-   why: A reported command: told + person + to + base verb.
+   why: told … + to + verb: to call.
 
 6. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The **guide** told us ______ (bring) our **books**.  
+   The **guide** told us ______ (bring) our **passports**.  
    key: to bring  
-   why: A reported command: told + person + to + base verb.
+   why: told us + to + verb: to bring.
 
 7. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   My **mum** told me ______ (eat) my **soup**.  
+   My **grandma** told me ______ (eat) my **breakfast**.  
    key: to eat  
-   why: A reported command: told + person + to + base verb.
+   why: told me + to + verb: to eat.
 
 8. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   My **grandma** told my brother ______ (wear) a **scarf**.  
+   My **dad** told my brother ______ (wear) a **jacket**.  
    key: to wear  
-   why: A reported command: told + person + to + base verb.
+   why: told my brother + to + verb: to wear.
 
 9. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The teacher told **Madina** ______ (study) for the **final exam**.  
+   The teacher told **Lola** ______ (study) for the **test**.  
    key: to study  
-   why: A reported command: told + person + to + base verb.
+   why: told … + to + verb: to study.
 
 10. _Report the command or request. Write to (or not to) + the verb in brackets._  
    **Timur**'s mother told him ______ (clean) his **shoes**.  
    key: to clean  
-   why: A reported command: told + person + to + base verb.
+   why: told him + to + verb: to clean.
 
 11. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The **nurse** told me ______ (write) my name on the **list**.  
+   The **receptionist** told me ______ (write) my name on the **list**.  
    key: to write  
-   why: A reported command: told + person + to + base verb.
+   why: told me + to + verb: to write.
 
 12. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The man told us ______ (take) the **minibus** from the **bazaar**.  
+   The man told us ______ (take) the **train** from the **bazaar**.  
    key: to take  
-   why: A reported command: told + person + to + base verb.
+   why: told us + to + verb: to take.
 
 13. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The **coach** told us ______ (not / be) late for the **match**.  
+   The **teacher** told us ______ (not / be) late for the **trip**.  
    key: not to be  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: A negative order: not before to: not to be.
 
 14. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   **Olga** told the children ______ (not / touch) the **paint**.  
+   **Olga** told the children ______ (not / touch) the **oven**.  
    key: not to touch  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: A negative order: not before to: not to touch.
 
 15. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   My **mum** told me ______ (not / worry) about the **test**.  
+   My **dad** told me ______ (not / worry) about the **match**.  
    key: not to worry  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: A negative order: not before to: not to worry.
 
 16. _Report the command or request. Write to (or not to) + the verb in brackets._  
    **Rustam** told his sister ______ (not / open) the **fridge**.  
    key: not to open  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: A negative order: not before to: not to open.
 
 17. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   **Sevara** asked me ______ (help) her with the **boxes**.  
+   **Sevara** asked me ______ (help) her with the **cooking**.  
    key: to help  
-   why: A reported request: asked + person + to + base verb.
+   why: asked me + to + verb: to help.
 
 18. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The **girl** asked **Bekzod** ______ (open) the **gate**.  
+   The **lady** asked **Bekzod** ______ (open) the **door**.  
    key: to open  
-   why: A reported request: asked + person + to + base verb.
+   why: asked … + to + verb: to open.
 
 19. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   The **student** asked us ______ (speak) more slowly, **Olga**.  
+   The **guest** asked us ______ (speak) more slowly, **Lola**.  
    key: to speak  
-   why: A reported request: asked + person + to + base verb.
+   why: asked us + to + verb: to speak.
 
 20. _Report the command or request. Write to (or not to) + the verb in brackets._  
-   **Timur** asked me ______ (lend) him my **pen**.  
+   **Aziz** asked me ______ (lend) him my **pen**.  
    key: to lend  
-   why: A reported request: asked + person + to + base verb.
+   why: asked me + to + verb: to lend.
 
 ## transform (15)
 
 1. _Report the command with told + person + to._  
-   'Close the **window**,' the **coach** said to us.  
-   → The **coach** ______ the **window**.  
+   'Close the **books**,' the **director** said to us.  
+   → The **director** ______ the **books**.  
    key: told us to close  
-   why: A reported command: told + person + to + base verb.
+   why: Close the … → told us to close.
 
 2. _Report the command with told + person + to._  
-   'Sit down on the **sofa**,' the **nurse** said to me.  
-   → The **nurse** ______ down on the **sofa**.  
+   'Sit down on the **bench**,' the **manager** said to me.  
+   → The **manager** ______ down on the **bench**.  
    key: told me to sit  
-   why: A reported command: told + person + to + base verb.
+   why: Sit down → told me to sit.
 
 3. _Report the command with told + person + to._  
-   'Bring your **books**,' the **manager** said to us.  
-   → The **manager** ______ our **books**.  
+   'Bring your **passports**,' the **teacher** said to us.  
+   → The **teacher** ______ our **passports**.  
    key: told us to bring  
-   why: A reported command: told + person + to + base verb.
+   why: Bring your … → told us to bring.
 
 4. _Report the command with told + person + to._  
-   'Study for the **exam**,' the teacher said to **Lola**.  
-   → The teacher ______ for the **exam**.  
+   'Study for the **quiz**,' the teacher said to **Lola**.  
+   → The teacher ______ for the **quiz**.  
    key: told her to study  
-   why: A reported command: told + person + to + base verb.
+   why: Study → told her to study.
 
 5. _Report the command with told + person + to._  
-   'Clean your **bike**,' **Timur**'s mother said to him.  
-   → His mother ______ his **bike**.  
+   'Clean your **room**,' **Rustam**'s mother said to him.  
+   → His mother ______ his **room**.  
    key: told him to clean  
-   why: A reported command: told + person + to + base verb.
+   why: Clean your … → told him to clean.
 
 6. _Report the command with told + person + not to._  
-   'Don't be late for the **lesson**,' the **manager** said to us.  
-   → The **manager** ______ late for the **lesson**.  
+   'Don't be late for the **match**,' the **manager** said to us.  
+   → The **manager** ______ late for the **match**.  
    key: told us not to be  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't be late → told us not to be.
 
 7. _Report the command with told + person + not to._  
-   'Don't touch the **oven**,' **Sevara** said to the children.  
-   → **Sevara** ______ the **oven**.  
+   'Don't touch the **paint**,' **Lola** said to the children.  
+   → **Lola** ______ the **paint**.  
    key: told them not to touch  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't touch → told them not to touch.
 
 8. _Report the command with told + person + not to._  
-   'Don't worry about the **interview**,' my **teacher** said to me.  
-   → My **teacher** ______ about the **interview**.  
+   'Don't worry about the **exam**,' my **dad** said to me.  
+   → My **dad** ______ about the **exam**.  
    key: told me not to worry  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't worry → told me not to worry.
 
 9. _Report the command with told + person + not to._  
-   'Don't open the **door**,' **Rustam** said to his sister.  
-   → **Rustam** ______ the **door**.  
+   'Don't open the **fridge**,' **Timur** said to his sister.  
+   → **Timur** ______ the **fridge**.  
    key: told her not to open  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't open → told her not to open.
 
 10. _Report the command with told + person + not to._  
-   'Don't eat all the **fruit**,' **Lola** said to her brother.  
-   → **Lola** ______ all the **fruit**.  
+   'Don't eat all the **cake**,' **Olga** said to her brother.  
+   → **Olga** ______ all the **cake**.  
    key: told him not to eat  
-   why: A reported 'Don't …': told + person + not to + base verb.
+   why: Don't eat → told him not to eat.
 
 11. _Report the request with asked + person + to._  
-   'Please help me with the **bags**,' **Olga** said to me.  
-   → **Olga** ______ her with the **bags**.  
+   'Please help me with the **cooking**,' **Madina** said to me.  
+   → **Madina** ______ her with the **cooking**.  
    key: asked me to help  
-   why: A reported request: asked + person + to + base verb.
+   why: Please help → asked me to help.
 
 12. _Report the request with asked + person + to._  
-   'Could you open the **gate**, please?' the **lady** said to **Bekzod**.  
-   → The **lady** ______ the **gate**.  
+   'Could you open the **gate**, please?' the **girl** said to **Aziz**.  
+   → The **girl** ______ the **gate**.  
    key: asked him to open  
-   why: A reported request: asked + person + to + base verb.
+   why: Could you open → asked him to open.
 
 13. _Report the request with asked + person + to._  
    'Please speak more slowly,' the **old man** said to us.  
    → The **old man** ______ more slowly, **Olga**.  
    key: asked us to speak  
-   why: A reported request: asked + person + to + base verb.
+   why: Please speak → asked us to speak.
 
 14. _Report the request with asked + person + to._  
-   'Can you lend me your **camera**?' **Aziz** said to me.  
-   → **Aziz** ______ him my **camera**.  
+   'Can you lend me your **car**?' **Aziz** said to me.  
+   → **Aziz** ______ him my **car**.  
    key: asked me to lend  
-   why: A reported request: asked + person + to + base verb.
+   why: Can you lend → asked me to lend.
 
 15. _Report the request with asked + person + to._  
-   'Please call a taxi for me,' the **old man** said to **Olga**.  
-   → The **old man** ______ a taxi for him, **Aziz**.  
+   'Please call a taxi for me,' the **old man** said to **Madina**.  
+   → The **old man** ______ a taxi for him, **Rustam**.  
    key: asked her to call  
-   why: A reported request: asked + person + to + base verb.
+   why: Please call → asked her to call.
 
 ## create (8)
 

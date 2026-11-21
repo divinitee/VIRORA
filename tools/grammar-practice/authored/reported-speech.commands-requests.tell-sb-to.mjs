@@ -134,5 +134,115 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/reported-speech.commands-requests.tell-sb-to.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "An order to us: told us + to close.",
+   "An order to me: told me + to sit.",
+   "An order to his …: told her + to wait.",
+   "An order to the students: told them + to turn.",
+   "An order to him: told him + to call.",
+   "An order to us: told us + to bring.",
+   "An order to me: told me + to eat.",
+   "An order to my brother: told him + to wear.",
+   "An order to her: told her + to study.",
+   "An order to him: told him + to clean.",
+   "An order to me: told me + to write.",
+   "Directions to us: told us + to take.",
+   "Don't be → not to be.",
+   "Don't touch → not to touch.",
+   "Don't worry → not to worry.",
+   "Don't open → not to open.",
+   "'Please help me' is a request: asked me to help.",
+   "'Could you…, please?' is a request: asked him to open.",
+   "'Please speak…' is a request: asked us to speak.",
+   "'Can you lend me…?' is a request: asked me to lend."
+  ],
+  "build": [
+   "told us + to + verb: to close.",
+   "told me + to + verb: to sit.",
+   "told his … + to + verb: to wait.",
+   "told the students + to + verb: to turn.",
+   "told … + to + verb: to call.",
+   "told us + to + verb: to bring.",
+   "told me + to + verb: to eat.",
+   "told my brother + to + verb: to wear.",
+   "told … + to + verb: to study.",
+   "told him + to + verb: to clean.",
+   "told me + to + verb: to write.",
+   "told us + to + verb: to take.",
+   "A negative order: not before to: not to be.",
+   "A negative order: not before to: not to touch.",
+   "A negative order: not before to: not to worry.",
+   "A negative order: not before to: not to open.",
+   "asked me + to + verb: to help.",
+   "asked … + to + verb: to open.",
+   "asked us + to + verb: to speak.",
+   "asked me + to + verb: to lend."
+  ],
+  "transform": [
+   "Close the … → told us to close.",
+   "Sit down → told me to sit.",
+   "Bring your … → told us to bring.",
+   "Study → told her to study.",
+   "Clean your … → told him to clean.",
+   "Don't be late → told us not to be.",
+   "Don't touch → told them not to touch.",
+   "Don't worry → told me not to worry.",
+   "Don't open → told her not to open.",
+   "Don't eat → told him not to eat.",
+   "Please help → asked me to help.",
+   "Could you open → asked him to open.",
+   "Please speak → asked us to speak.",
+   "Can you lend → asked me to lend.",
+   "Please call → asked her to call."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   4,
+   "students",
+   "grp",
+   [
+    "students",
+    "children",
+    "players",
+    "guests"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "slowly",
+   "adv",
+   [
+    "slowly",
+    "quietly",
+    "clearly",
+    "loudly"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
