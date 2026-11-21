@@ -17,7 +17,7 @@ export default [
    "will relaxing"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be relaxing.",
+  "why": "\"At this time …\" + \"don't call us\": in the middle of it then: will be relaxing.",
   "slots": {
    "when": [
     "next week",
@@ -49,7 +49,7 @@ export default [
    "will be take"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be taking.",
+  "why": "\"Don't call me at …\": busy at that moment: will be taking.",
   "slots": {
    "time": [
     "nine",
@@ -81,7 +81,7 @@ export default [
    "will having"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be having.",
+  "why": "\"At … tonight\" + \"come later\": will be having.",
   "slots": {
    "time": [
     "eight",
@@ -113,7 +113,7 @@ export default [
    "will sitting"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be sitting.",
+  "why": "\"At … tomorrow\" + \"I can't answer\": will be sitting.",
   "slots": {
    "time": [
     "ten",
@@ -124,7 +124,8 @@ export default [
    "room": [
     "exam hall",
     "sports hall",
-    "school hall"
+    "school hall",
+    "office"
    ]
   }
  },
@@ -144,7 +145,7 @@ export default [
    "will be clean"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cleaning.",
+  "why": "\"Don't visit us\" then: busy in the middle of it: will be cleaning.",
   "slots": {
    "day": [
     "Saturday",
@@ -176,7 +177,7 @@ export default [
    "will be fly"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be flying.",
+  "why": "\"At midnight on …\": in the air at that time: will be flying.",
   "slots": {
    "day": [
     "Friday",
@@ -208,7 +209,7 @@ export default [
    "will playing"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be playing.",
+  "why": "\"Tomorrow at …\" + \"it will be noisy\": will be playing.",
   "slots": {
    "time": [
     "four",
@@ -240,7 +241,7 @@ export default [
    "will doing"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be doing.",
+  "why": "\"Please don't come at …\": busy then: will be doing.",
   "slots": {
    "time": [
     "six",
@@ -272,7 +273,7 @@ export default [
    "will be run"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be running.",
+  "why": "\"At this time on …\" + \"he can't help\": will be running.",
   "slots": {
    "day": [
     "Sunday",
@@ -309,7 +310,7 @@ export default [
    "will driving"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
+  "why": "\"In … hours\" + \"no internet\": on the road then: will be driving.",
   "slots": {
    "n": [
     "two",
@@ -340,7 +341,7 @@ export default [
    "will be work"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be working.",
+  "why": "\"At … tomorrow\" + \"let's not phone her\": will be working.",
   "slots": {
    "time": [
     "nine",
@@ -372,7 +373,7 @@ export default [
    "will cooking"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cooking.",
+  "why": "\"When the guests arrive\": already in the middle of it: will be cooking.",
   "slots": {
    "time": [
     "seven",
@@ -404,7 +405,7 @@ export default [
    "will be walk"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be walking.",
+  "why": "\"This time tomorrow\": in the middle of a walk: will be walking.",
   "slots": {
    "city": [
     "Bukhara",
@@ -428,7 +429,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Don't phone {name} at eight. She ______ her baby to bed then.",
+  "prompt": "Don't phone {name} at {time}. She ______ her baby to bed then.",
   "options": [
    "will be putting",
    "will put",
@@ -436,13 +437,19 @@ export default [
    "will be put"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be putting.",
+  "why": "\"Don't phone … at …\": busy then: will be putting.",
   "slots": {
    "name": [
     "Dilnoza",
     "Olga",
     "Malika",
     "Nodira"
+   ],
+   "time": [
+    "eight",
+    "half past seven",
+    "nine",
+    "seven"
    ]
   }
  },
@@ -462,7 +469,7 @@ export default [
    "will be fish"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be fishing.",
+  "why": "\"At ten o'clock on …\": in the middle of fishing: will be fishing.",
   "slots": {
    "day": [
     "Saturday",
@@ -494,7 +501,7 @@ export default [
    "will studying"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be studying.",
+  "why": "\"At this time next …\": a long activity then: will be studying.",
   "slots": {
    "when": [
     "year",
@@ -526,7 +533,7 @@ export default [
    "will writing"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be writing.",
+  "why": "\"Tomorrow at …\" + \"the school will be quiet\": will be writing.",
   "slots": {
    "time": [
     "noon",
@@ -550,7 +557,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "At seven tomorrow morning, I ______ to work, so call me after {time}.",
+  "prompt": "At {early} tomorrow morning, I ______ to work, so call me after {time}.",
   "options": [
    "will be driving",
    "will drive",
@@ -558,13 +565,19 @@ export default [
    "will be drive"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
+  "why": "\"At … tomorrow morning\" + \"call me after\": will be driving.",
   "slots": {
    "time": [
     "nine",
     "half past eight",
     "ten",
     "eight"
+   ],
+   "early": [
+    "seven",
+    "eight",
+    "half past seven",
+    "six"
    ]
   }
  },
@@ -576,7 +589,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "At this time on Sunday, we ______ my cousin's wedding in {city}.",
+  "prompt": "At this time on {day}, we ______ my cousin's wedding in {city}.",
   "options": [
    "will be celebrating",
    "will celebrate",
@@ -584,13 +597,19 @@ export default [
    "will celebrating"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be celebrating.",
+  "why": "\"At this time on …\": in the middle of the party: will be celebrating.",
   "slots": {
    "city": [
     "Tashkent",
     "Fergana",
     "Namangan",
     "Andijan"
+   ],
+   "day": [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Thursday"
    ]
   }
  },
@@ -602,7 +621,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Don't come at nine tonight. My {who} and I ______ a film.",
+  "prompt": "Don't come at {late} tonight. My {who} and I ______ a film.",
   "options": [
    "will be watching",
    "will watch",
@@ -610,13 +629,19 @@ export default [
    "will be watch"
   ],
   "key": 0,
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be watching.",
+  "why": "\"Don't come at …\": busy then: will be watching.",
   "slots": {
    "who": [
     "sister",
     "brother",
     "father",
     "friends"
+   ],
+   "late": [
+    "nine",
+    "eight",
+    "ten",
+    "half past nine"
    ]
   }
  },
@@ -631,7 +656,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At this time {when}, I ______ (fly) to {city}.",
   "key": "will be flying",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be flying.",
+  "why": "\"At this time …\": in the air then: will be flying.",
   "slots": {
    "when": [
     "tomorrow",
@@ -658,7 +683,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "Don't call me at {time} tonight. I ______ (study) for my {exam}.",
   "key": "will be studying",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be studying.",
+  "why": "\"Don't call me at …\": will be studying.",
   "slots": {
    "time": [
     "eight",
@@ -685,7 +710,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At {time} on Saturday, my parents ______ (work) in the {place}.",
   "key": "will be working",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be working.",
+  "why": "\"At … on Saturday\": in the middle of work: will be working.",
   "slots": {
    "time": [
     "ten",
@@ -712,7 +737,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "This time next {when}, we ______ (sit) on a train to {city}.",
   "key": "will be sitting",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be sitting.",
+  "why": "\"This time next …\": on the train then: will be sitting.",
   "slots": {
    "when": [
     "week",
@@ -739,7 +764,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At noon tomorrow, {name} ______ (give) a talk at the {place}.",
   "key": "will be giving",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be giving.",
+  "why": "\"At noon tomorrow\": in the middle of a talk: will be giving.",
   "slots": {
    "name": [
     "Kamola",
@@ -766,7 +791,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "Please come after eight. At seven, I ______ (cook) {food} for the {who}.",
   "key": "will be cooking",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cooking.",
+  "why": "\"come after eight. At seven\": will be cooking.",
   "slots": {
    "food": [
     "plov",
@@ -793,7 +818,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At this time on {day}, the {team} ______ (play) in the final.",
   "key": "will be playing",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be playing.",
+  "why": "\"At this time on …\": in the final then: will be playing.",
   "slots": {
    "day": [
     "Sunday",
@@ -818,15 +843,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "At ten tomorrow, my {who} ______ (take) his driving test, so he can't help you.",
+  "source": "At {time} tomorrow, my {who} ______ (take) his driving test, so he can't help you.",
   "key": "will be taking",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be taking.",
+  "why": "\"At ten tomorrow\" + \"he can't help\": will be taking.",
   "slots": {
    "who": [
     "brother",
     "cousin",
     "uncle",
     "neighbour"
+   ],
+   "time": [
+    "ten",
+    "nine",
+    "eleven",
+    "noon"
    ]
   }
  },
@@ -841,7 +872,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "Don't visit on Sunday morning. My {who} ______ (clean) the {room} then.",
   "key": "will be cleaning",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be cleaning.",
+  "why": "\"Don't visit\" then: will be cleaning.",
   "slots": {
    "who": [
     "mother",
@@ -868,7 +899,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At {time} tonight, we ______ (watch) the football match at {whose} house.",
   "key": "will be watching",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be watching.",
+  "why": "\"At … tonight\": in the middle of the match: will be watching.",
   "slots": {
    "time": [
     "nine",
@@ -895,7 +926,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At this time next month, my {who} ______ (study) in {city}.",
   "key": "will be studying",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be studying.",
+  "why": "\"At this time next month\": will be studying.",
   "slots": {
    "who": [
     "sister",
@@ -922,7 +953,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At {time} tomorrow, I ______ (wait) for you outside the {place}.",
   "key": "will be waiting",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be waiting.",
+  "why": "\"At … tomorrow … outside\": will be waiting.",
   "slots": {
    "time": [
     "six",
@@ -947,15 +978,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "At midnight, the {who} ______ (sleep), so please come in quietly.",
+  "source": "At {late}, the {who} ______ (sleep), so please come in quietly.",
   "key": "will be sleeping",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be sleeping.",
+  "why": "\"At midnight\" + \"come in quietly\": will be sleeping.",
   "slots": {
    "who": [
     "children",
     "baby",
     "grandparents",
     "neighbours"
+   ],
+   "late": [
+    "midnight",
+    "eleven",
+    "one in the morning",
+    "half past eleven"
    ]
   }
  },
@@ -970,7 +1007,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At nine tomorrow morning, our {group} ______ (visit) the {place}.",
   "key": "will be visiting",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be visiting.",
+  "why": "\"At nine tomorrow morning\": in the middle of a visit: will be visiting.",
   "slots": {
    "group": [
     "class",
@@ -997,7 +1034,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At this time on {day}, my grandfather ______ (drink) tea in the teahouse with his {who}.",
   "key": "will be drinking",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be drinking.",
+  "why": "\"At this time on …\" in the teahouse: will be drinking.",
   "slots": {
    "day": [
     "Friday",
@@ -1021,15 +1058,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "In an hour, we ______ (drive) through the {place}, so we can't use our phones.",
+  "source": "In {wait}, we ______ (drive) through the {place}, so we can't use our phones.",
   "key": "will be driving",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
+  "why": "\"In an hour\" + \"we can't use our phones\": will be driving.",
   "slots": {
    "place": [
     "mountains",
     "desert",
     "Kamchik Pass",
     "valley"
+   ],
+   "wait": [
+    "an hour",
+    "two hours",
+    "half an hour",
+    "twenty minutes"
    ]
   }
  },
@@ -1044,7 +1087,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At five o'clock, {name} ______ (play) the piano at the {event}.",
   "key": "will be playing",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be playing.",
+  "why": "\"At five o'clock\": in the middle of playing: will be playing.",
   "slots": {
    "name": [
     "Malika",
@@ -1069,15 +1112,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
-  "source": "At this time next {when}, I ______ (lie) on the beach.",
+  "source": "At this time next {when}, I ______ (lie) on the {spot}.",
   "key": "will be lying",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be lying.",
+  "why": "\"At this time next …\": on the beach then: will be lying (lie → lying).",
   "slots": {
    "when": [
     "week",
     "month",
     "Sunday",
     "summer"
+   ],
+   "spot": [
+    "beach",
+    "sand",
+    "grass",
+    "deck of the boat"
    ]
   }
  },
@@ -1092,7 +1141,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "Tomorrow at {time}, my {who} ______ (drive) us to the airport.",
   "key": "will be driving",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be driving.",
+  "why": "\"Tomorrow at …\": on the way to the airport: will be driving.",
   "slots": {
    "time": [
     "five",
@@ -1119,7 +1168,7 @@ export default [
   "instr": "Complete the sentence with will be and the -ing form of the verb in brackets.",
   "source": "At {time} tomorrow, the workers ______ (build) the new {thing} in our street.",
   "key": "will be building",
-  "why": "The action will be in progress at that moment in the future, so use will be + -ing: will be building.",
+  "why": "\"At … tomorrow\": in the middle of the work: will be building.",
   "slots": {
    "time": [
     "seven",
@@ -1147,7 +1196,7 @@ export default [
   "source": "I am working in the {place} now.",
   "hint": "At this time {when}, I ______ in the {place}.",
   "key": "will be working",
-  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be working.",
+  "why": "Now → at this time later: will be working.",
   "slots": {
    "place": [
     "office",
@@ -1175,7 +1224,7 @@ export default [
   "source": "My {who} is cooking {food} now.",
   "hint": "At this time tomorrow, my {who} ______ {food}.",
   "key": "will be cooking",
-  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be cooking.",
+  "why": "Now → at this time tomorrow: will be cooking.",
   "slots": {
    "who": [
     "mother",
@@ -1203,7 +1252,7 @@ export default [
   "source": "We are sitting in the {place} now.",
   "hint": "At this time {when}, we ______ in the {place}.",
   "key": "will be sitting",
-  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be sitting.",
+  "why": "Now → at this time later: will be sitting.",
   "slots": {
    "place": [
     "park",
@@ -1231,7 +1280,7 @@ export default [
   "source": "{name} is playing {game} with his friends now.",
   "hint": "At this time on Saturday, {name} ______ {game} with his friends.",
   "key": "will be playing",
-  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be playing.",
+  "why": "Now → at this time on Saturday: will be playing.",
   "slots": {
    "name": [
     "Bekzod",
@@ -1259,7 +1308,7 @@ export default [
   "source": "The children are swimming in the {place} now.",
   "hint": "At this time {when}, the children ______ in the {place}.",
   "key": "will be swimming",
-  "why": "Now → present continuous; the same kind of moment in the future → will be + -ing: will be swimming.",
+  "why": "Now → at this time later: will be swimming.",
   "slots": {
    "place": [
     "river",
@@ -1287,7 +1336,7 @@ export default [
   "source": "Our {subject} lesson goes from ten until twelve on {day}.",
   "hint": "At eleven on {day}, we ______ (have) our {subject} lesson.",
   "key": "will be having",
-  "why": "That time is in the middle of the action, so it will be in progress: will be having.",
+  "why": "Eleven is inside ten–twelve: will be having.",
   "slots": {
    "subject": [
     "English",
@@ -1315,7 +1364,7 @@ export default [
   "source": "My {who} drives to {city} from eight until twelve on Saturday.",
   "hint": "At ten on Saturday, my {who} ______ (drive) to {city}.",
   "key": "will be driving",
-  "why": "That time is in the middle of the action, so it will be in progress: will be driving.",
+  "why": "Ten is inside eight–twelve: will be driving.",
   "slots": {
    "who": [
     "father",
@@ -1343,7 +1392,7 @@ export default [
   "source": "The match goes from seven until nine tonight at the {place}.",
   "hint": "At eight tonight, the {who} ______ (play) football at the {place}.",
   "key": "will be playing",
-  "why": "That time is in the middle of the action, so it will be in progress: will be playing.",
+  "why": "Eight is inside seven–nine: will be playing.",
   "slots": {
    "who": [
     "boys",
@@ -1371,7 +1420,7 @@ export default [
   "source": "My {who} sleeps from eleven until seven.",
   "hint": "At {time} in the morning, my {who} ______ (sleep).",
   "key": "will be sleeping",
-  "why": "That time is in the middle of the action, so it will be in progress: will be sleeping.",
+  "why": "That time is inside eleven–seven: will be sleeping.",
   "slots": {
    "who": [
     "sister",
@@ -1399,7 +1448,7 @@ export default [
   "source": "The wedding party goes from six until midnight on {day}.",
   "hint": "At nine on {day}, the {who} ______ (dance).",
   "key": "will be dancing",
-  "why": "That time is in the middle of the action, so it will be in progress: will be dancing.",
+  "why": "Nine is inside six–midnight: will be dancing.",
   "slots": {
    "day": [
     "Saturday",
@@ -1427,7 +1476,7 @@ export default [
   "source": "At this time {when}, I will be work in the {place}.",
   "hint": "At this time {when}, I ______ in the {place}.",
   "key": "will be working",
-  "why": "Will be work is wrong. The future continuous needs will + be + -ing: will be working.",
+  "why": "will be + -ing: working, not work.",
   "slots": {
    "place": [
     "shop",
@@ -1455,7 +1504,7 @@ export default [
   "source": "At {time} tonight, we will watching the {match}.",
   "hint": "At {time} tonight, we ______ the {match}.",
   "key": "will be watching",
-  "why": "Will watching is wrong. The future continuous needs will + be + -ing: will be watching.",
+  "why": "will be + -ing: be is missing: will be watching.",
   "slots": {
    "time": [
     "nine",
@@ -1483,7 +1532,7 @@ export default [
   "source": "Don't call at {time}. {name} be studying for the test.",
   "hint": "Don't call at {time}. {name} ______ for the test.",
   "key": "will be studying",
-  "why": "Be studying (no will) is wrong. The future continuous needs will + be + -ing: will be studying.",
+  "why": "will is missing: will be studying.",
   "slots": {
    "time": [
     "seven",
@@ -1511,7 +1560,7 @@ export default [
   "source": "At this time on {day}, the children will be swim in the {place}.",
   "hint": "At this time on {day}, the children ______ in the {place}.",
   "key": "will be swimming",
-  "why": "Will be swim is wrong. The future continuous needs will + be + -ing: will be swimming.",
+  "why": "will be + -ing: swimming, not swim.",
   "slots": {
    "day": [
     "Sunday",
@@ -1539,7 +1588,7 @@ export default [
   "source": "At noon tomorrow, my {who} will be play the piano at the {event}.",
   "hint": "At noon tomorrow, my {who} ______ the piano at the {event}.",
   "key": "will be playing",
-  "why": "Will be play is wrong. The future continuous needs will + be + -ing: will be playing.",
+  "why": "will be + -ing: playing, not play.",
   "slots": {
    "who": [
     "sister",

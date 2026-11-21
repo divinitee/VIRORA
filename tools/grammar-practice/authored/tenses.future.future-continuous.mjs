@@ -184,5 +184,223 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/tenses.future.future-continuous.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"At this time …\" + \"don't call us\": in the middle of it then: will be relaxing.",
+   "\"Don't call me at …\": busy at that moment: will be taking.",
+   "\"At … tonight\" + \"come later\": will be having.",
+   "\"At … tomorrow\" + \"I can't answer\": will be sitting.",
+   "\"Don't visit us\" then: busy in the middle of it: will be cleaning.",
+   "\"At midnight on …\": in the air at that time: will be flying.",
+   "\"Tomorrow at …\" + \"it will be noisy\": will be playing.",
+   "\"Please don't come at …\": busy then: will be doing.",
+   "\"At this time on …\" + \"he can't help\": will be running.",
+   "\"In … hours\" + \"no internet\": on the road then: will be driving.",
+   "\"At … tomorrow\" + \"let's not phone her\": will be working.",
+   "\"When the guests arrive\": already in the middle of it: will be cooking.",
+   "\"This time tomorrow\": in the middle of a walk: will be walking.",
+   "\"Don't phone … at …\": busy then: will be putting.",
+   "\"At ten o'clock on …\": in the middle of fishing: will be fishing.",
+   "\"At this time next …\": a long activity then: will be studying.",
+   "\"Tomorrow at …\" + \"the school will be quiet\": will be writing.",
+   "\"At … tomorrow morning\" + \"call me after\": will be driving.",
+   "\"At this time on …\": in the middle of the party: will be celebrating.",
+   "\"Don't come at …\": busy then: will be watching."
+  ],
+  "build": [
+   "\"At this time …\": in the air then: will be flying.",
+   "\"Don't call me at …\": will be studying.",
+   "\"At … on Saturday\": in the middle of work: will be working.",
+   "\"This time next …\": on the train then: will be sitting.",
+   "\"At noon tomorrow\": in the middle of a talk: will be giving.",
+   "\"come after eight. At seven\": will be cooking.",
+   "\"At this time on …\": in the final then: will be playing.",
+   "\"At ten tomorrow\" + \"he can't help\": will be taking.",
+   "\"Don't visit\" then: will be cleaning.",
+   "\"At … tonight\": in the middle of the match: will be watching.",
+   "\"At this time next month\": will be studying.",
+   "\"At … tomorrow … outside\": will be waiting.",
+   "\"At midnight\" + \"come in quietly\": will be sleeping.",
+   "\"At nine tomorrow morning\": in the middle of a visit: will be visiting.",
+   "\"At this time on …\" in the teahouse: will be drinking.",
+   "\"In an hour\" + \"we can't use our phones\": will be driving.",
+   "\"At five o'clock\": in the middle of playing: will be playing.",
+   "\"At this time next …\": on the beach then: will be lying (lie → lying).",
+   "\"Tomorrow at …\": on the way to the airport: will be driving.",
+   "\"At … tomorrow\": in the middle of the work: will be building."
+  ],
+  "transform": [
+   "Now → at this time later: will be working.",
+   "Now → at this time tomorrow: will be cooking.",
+   "Now → at this time later: will be sitting.",
+   "Now → at this time on Saturday: will be playing.",
+   "Now → at this time later: will be swimming.",
+   "Eleven is inside ten–twelve: will be having.",
+   "Ten is inside eight–twelve: will be driving.",
+   "Eight is inside seven–nine: will be playing.",
+   "That time is inside eleven–seven: will be sleeping.",
+   "Nine is inside six–midnight: will be dancing.",
+   "will be + -ing: working, not work.",
+   "will be + -ing: be is missing: will be watching.",
+   "will is missing: will be studying.",
+   "will be + -ing: swimming, not swim.",
+   "will be + -ing: playing, not play."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   14,
+   "eight",
+   "time",
+   [
+    "eight",
+    "half past seven",
+    "nine",
+    "seven"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "seven",
+   "early",
+   [
+    "seven",
+    "eight",
+    "half past seven",
+    "six"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "Sunday",
+   "day",
+   [
+    "Sunday",
+    "Saturday",
+    "Friday",
+    "Thursday"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "nine",
+   "late",
+   [
+    "nine",
+    "eight",
+    "ten",
+    "half past nine"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "ten",
+   "time",
+   [
+    "ten",
+    "nine",
+    "eleven",
+    "noon"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "midnight",
+   "late",
+   [
+    "midnight",
+    "eleven",
+    "one in the morning",
+    "half past eleven"
+   ]
+  ],
+  [
+   "build",
+   16,
+   "an hour",
+   "wait",
+   [
+    "an hour",
+    "two hours",
+    "half an hour",
+    "twenty minutes"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "beach",
+   "spot",
+   [
+    "beach",
+    "sand",
+    "grass",
+    "deck of the boat"
+   ]
+  ],
+  [
+   "choose",
+   4,
+   "",
+   "room",
+   [
+    "office"
+   ]
+  ],
+  [
+   "choose",
+   9,
+   "",
+   "race",
+   [
+    "marathon"
+   ]
+  ],
+  [
+   "choose",
+   10,
+   "",
+   "n",
+   [
+    "four"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "",
+   "who",
+   [
+    "neighbours"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
