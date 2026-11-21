@@ -17,7 +17,7 @@ export default [
    "must been signed"
   ],
   "key": 0,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "A rule, someone signs it: must be signed.",
   "slots": {
    "form": [
     "school",
@@ -49,7 +49,7 @@ export default [
    "can be recycled"
   ],
   "key": 3,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"don't throw them away\": possible: can be recycled.",
   "slots": {
    "thing": [
     "bottles",
@@ -81,7 +81,7 @@ export default [
    "should kept"
   ],
   "key": 2,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Advice, someone keeps it: should be kept.",
   "slots": {
    "med": [
     "medicine",
@@ -113,7 +113,7 @@ export default [
    "will be finish"
   ],
   "key": 1,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"next year\": future passive: will be finished.",
   "slots": {
    "place": [
     "bridge",
@@ -145,7 +145,7 @@ export default [
    "might been cancelled"
   ],
   "key": 0,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"if it rains\": maybe: might be cancelled.",
   "slots": {
    "event": [
     "match",
@@ -177,7 +177,7 @@ export default [
    "can't be fixed"
   ],
   "key": 3,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"I need a new one\": impossible: can't be fixed.",
   "slots": {
    "thing": [
     "phone",
@@ -209,7 +209,7 @@ export default [
    "should washed"
   ],
   "key": 2,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Advice before eating: should be washed.",
   "slots": {
    "fruit": [
     "Apples",
@@ -241,7 +241,7 @@ export default [
    "has to be pay"
   ],
   "key": 1,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"by the first of the month\": necessary: has to be paid.",
   "slots": {
    "bill": [
     "rent",
@@ -273,7 +273,7 @@ export default [
    "will been sent"
   ],
   "key": 0,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"tomorrow\": future passive: will be sent.",
   "slots": {
    "thing": [
     "ticket",
@@ -305,7 +305,7 @@ export default [
    "can be seen"
   ],
   "key": 3,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Possible to see from the window: can be seen.",
   "slots": {
    "room": [
     "kitchen",
@@ -337,7 +337,7 @@ export default [
    "won't allowed"
   ],
   "key": 2,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "A future rule, negative: won't be allowed.",
   "slots": {
    "room": [
     "exam room",
@@ -369,7 +369,7 @@ export default [
    "should be turn off"
   ],
   "key": 1,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Advice when you leave: should be turned off.",
   "slots": {
    "room": [
     "kitchen",
@@ -401,7 +401,7 @@ export default [
    "might been delayed"
   ],
   "key": 0,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"because of the snow\": maybe: might be delayed.",
   "slots": {
    "city": [
     "Moscow",
@@ -433,7 +433,7 @@ export default [
    "can be bought"
   ],
   "key": 3,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Possible in two ways: can be bought.",
   "slots": {
    "place": [
     "station",
@@ -465,7 +465,7 @@ export default [
    "will held"
   ],
   "key": 2,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Future plan: will be held.",
   "slots": {
    "event": [
     "meeting",
@@ -497,7 +497,7 @@ export default [
    "shouldn't be leave"
   ],
   "key": 1,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Advice not to: shouldn't be left.",
   "slots": {
    "place": [
     "stairs",
@@ -529,7 +529,7 @@ export default [
    "has to been repaired"
   ],
   "key": 0,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"before winter\": necessary: has to be repaired.",
   "slots": {
    "thing": [
     "roof",
@@ -561,7 +561,7 @@ export default [
    "can't be opened"
   ],
   "key": 3,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"without a key\": impossible: can't be opened.",
   "slots": {
    "thing": [
     "door",
@@ -593,7 +593,7 @@ export default [
    "will announced"
   ],
   "key": 2,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "On a future day: will be announced.",
   "slots": {
    "day": [
     "Monday",
@@ -625,7 +625,7 @@ export default [
    "might be sell"
   ],
   "key": 1,
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "\"next month\": maybe: might be sold.",
   "slots": {
    "thing": [
     "car",
@@ -652,7 +652,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "{food} ______ (should / keep) in the fridge, {name}.",
   "key": "should be kept",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "should + be + kept (keep → kept).",
   "slots": {
    "food": [
     "Milk",
@@ -679,7 +679,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "Old {thing} ______ (can / recycle), {name}.",
   "key": "can be recycled",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "can + be + recycled.",
   "slots": {
    "thing": [
     "newspapers",
@@ -706,7 +706,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The new {place} ______ (will / finish) in May, {name}.",
   "key": "will be finished",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "will + be + finished.",
   "slots": {
    "place": [
     "bridge",
@@ -733,7 +733,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The {event} ______ (might / postpone), {name}.",
   "key": "might be postponed",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "might + be + postponed.",
   "slots": {
    "event": [
     "match",
@@ -760,7 +760,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "Your {thing} ______ (can't / fix), {name}. Sorry.",
   "key": "can't be fixed",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "can't + be + fixed, \"Sorry\".",
   "slots": {
    "thing": [
     "phone",
@@ -790,7 +790,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "This {form} form ______ (must / sign) by a parent, {name}.",
   "key": "must be signed",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "must + be + signed by a parent.",
   "slots": {
    "form": [
     "school",
@@ -817,7 +817,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "Your {thing} ______ (will / send) tomorrow, {name}.",
   "key": "will be sent",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "will + be + sent (send → sent).",
   "slots": {
    "thing": [
     "ticket",
@@ -844,7 +844,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The {sight} ______ (can / see) from the hill, {name}.",
   "key": "can be seen",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "can + be + seen (see → seen).",
   "slots": {
    "sight": [
     "old town",
@@ -871,7 +871,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "Dogs ______ (won't / allow) in the {place}, {name}.",
   "key": "won't be allowed",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "won't + be + allowed.",
   "slots": {
    "place": [
     "café",
@@ -901,7 +901,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "Phones ______ (should / turn off) in the {room}, {name}.",
   "key": "should be turned off",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "should + be + turned off.",
   "slots": {
    "room": [
     "exam room",
@@ -928,7 +928,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "Trains to {city} ______ (might / delay) today, {name}.",
   "key": "might be delayed",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "might + be + delayed.",
   "slots": {
    "city": [
     "Samarkand",
@@ -955,7 +955,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "Tickets ______ (can / buy) at the {place}, {name}.",
   "key": "can be bought",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "can + be + bought (buy → bought).",
   "slots": {
    "place": [
     "station",
@@ -982,7 +982,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The {event} ______ (will / hold) in the park, {name}.",
   "key": "will be held",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "will + be + held (hold → held).",
   "slots": {
    "event": [
     "concert",
@@ -1009,7 +1009,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "Children ______ (shouldn't / leave) alone at the {place}, {name}.",
   "key": "shouldn't be left",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "shouldn't + be + left (leave → left).",
   "slots": {
    "place": [
     "pool",
@@ -1039,7 +1039,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The {thing} ______ (can't / open) without a code, {name}.",
   "key": "can't be opened",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "can't + be + opened without a code.",
   "slots": {
    "thing": [
     "door",
@@ -1069,7 +1069,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The results ______ (will / announce) on {day}, {name}.",
   "key": "will be announced",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "will + be + announced.",
   "slots": {
    "day": [
     "Monday",
@@ -1096,7 +1096,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The old {thing} ______ (might / sell) soon, {name}.",
   "key": "might be sold",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "might + be + sold (sell → sold).",
   "slots": {
    "thing": [
     "car",
@@ -1123,7 +1123,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The {room} ______ (should / clean) every day, {name}.",
   "key": "should be cleaned",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "should + be + cleaned every day.",
   "slots": {
    "room": [
     "kitchen",
@@ -1150,7 +1150,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "This {thing} ______ (can't / use) after {month}.",
   "key": "can't be used",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "can't + be + used (no longer possible).",
   "slots": {
    "thing": [
     "ticket",
@@ -1180,7 +1180,7 @@ export default [
   "instr": "Complete with the passive: the modal in brackets + be + the past participle of the verb.",
   "source": "The {bill} ______ (must / pay) today, {name}.",
   "key": "must be paid",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "must + be + paid (pay → paid).",
   "slots": {
    "bill": [
     "rent",
@@ -1208,7 +1208,7 @@ export default [
   "source": "You can recycle these {thing}, {name}.",
   "hint": "These {thing} ______, {name}.",
   "key": "can be recycled",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "You can recycle → can be recycled.",
   "slots": {
    "thing": [
     "bottles",
@@ -1236,7 +1236,7 @@ export default [
   "source": "They will finish the new {place} next year, {name}.",
   "hint": "The new {place} ______ next year, {name}.",
   "key": "will be finished",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "They will finish → will be finished.",
   "slots": {
    "place": [
     "bridge",
@@ -1264,7 +1264,7 @@ export default [
   "source": "You should keep this {med} in a cool place, {name}.",
   "hint": "This {med} ______ in a cool place, {name}.",
   "key": "should be kept",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "You should keep → should be kept.",
   "slots": {
    "med": [
     "medicine",
@@ -1292,7 +1292,7 @@ export default [
   "source": "They might postpone the {event}, {name}.",
   "hint": "The {event} ______, {name}.",
   "key": "might be postponed",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "They might postpone → might be postponed.",
   "slots": {
    "event": [
     "match",
@@ -1320,7 +1320,7 @@ export default [
   "source": "Nobody can fix my old {thing}, {name}.",
   "hint": "My old {thing} ______, {name}.",
   "key": "can't be fixed",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Nobody can fix → can't be fixed.",
   "slots": {
    "thing": [
     "phone",
@@ -1351,7 +1351,7 @@ export default [
   "source": "Plastic {thing} can recycled, {name}.",
   "hint": "Plastic {thing} ______, {name}.",
   "key": "can be recycled",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "be is missing: can be recycled.",
   "slots": {
    "thing": [
     "bottles",
@@ -1379,7 +1379,7 @@ export default [
   "source": "The {event} will be hold in the hall, {name}.",
   "hint": "The {event} ______ in the hall, {name}.",
   "key": "will be held",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Past participle: held, not hold.",
   "slots": {
    "event": [
     "meeting",
@@ -1407,7 +1407,7 @@ export default [
   "source": "This {thing} can't been opened without a key, {name}.",
   "hint": "This {thing} ______ without a key, {name}.",
   "key": "can't be opened",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "After can't use be, not been.",
   "slots": {
    "thing": [
     "door",
@@ -1438,7 +1438,7 @@ export default [
   "source": "{fruit} should washed before you eat them, {name}.",
   "hint": "{fruit} ______ before you eat them, {name}.",
   "key": "should be washed",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "be is missing: should be washed.",
   "slots": {
    "fruit": [
     "Apples",
@@ -1466,7 +1466,7 @@ export default [
   "source": "The {bill} must be pay today, {name}.",
   "hint": "The {bill} ______ today, {name}.",
   "key": "must be paid",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Past participle: paid, not pay.",
   "slots": {
    "bill": [
     "rent",
@@ -1494,7 +1494,7 @@ export default [
   "source": "It's possible to see the {sight} from here, {name}.",
   "hint": "The {sight} ______ from here, {name}.",
   "key": "can be seen",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "It's possible → can be seen.",
   "slots": {
    "sight": [
     "old town",
@@ -1522,7 +1522,7 @@ export default [
   "source": "It's a good idea to water the {plant} every day, {name}.",
   "hint": "The {plant} ______ every day, {name}.",
   "key": "should be watered",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "It's a good idea → should be watered.",
   "slots": {
    "plant": [
     "flowers",
@@ -1550,7 +1550,7 @@ export default [
   "source": "They are going to announce the winners on {day}, {name}.",
   "hint": "The winners ______ on {day}, {name}.",
   "key": "will be announced",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "They are going to announce → will be announced.",
   "slots": {
    "day": [
     "Monday",
@@ -1578,7 +1578,7 @@ export default [
   "source": "Maybe they will sell our old {thing}, {name}.",
   "hint": "Our old {thing} ______, {name}.",
   "key": "might be sold",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "Maybe they will sell → might be sold.",
   "slots": {
    "thing": [
     "car",
@@ -1606,7 +1606,7 @@ export default [
   "source": "It's not possible to use this {thing} after {month}.",
   "hint": "This {thing} ______ after {month}.",
   "key": "can't be used",
-  "why": "Passive with a modal: modal + be + past participle.",
+  "why": "It's not possible → can't be used.",
   "slots": {
    "thing": [
     "ticket",
