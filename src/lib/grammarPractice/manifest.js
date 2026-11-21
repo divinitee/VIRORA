@@ -276,7 +276,7 @@ export const PRACTICE_MANIFEST = {
   "authored": 68,
   "stages": {
    "choose": 320,
-   "build": 304,
+   "build": 316,
    "transform": 240,
    "create": 8,
    "express": 5
