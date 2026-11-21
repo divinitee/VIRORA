@@ -199,5 +199,228 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/tenses.used-to.used-to-state.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"but now I live in …\" says the old home is in the past: used to live.",
+   "\"he doesn't have one now\" ends an old possession: used to have.",
+   "\"but now she talks to everyone\" ends an old state: used to be shy.",
+   "The cinema was there before and \"now it is\" something else: used to be.",
+   "\"but now he …\" changes his old way to work: used to go.",
+   "\"Now we have a house\" ends the flat years: used to live.",
+   "\"but now I love it\" means the hating is over: used to hate.",
+   "\"now there are new …\" ends the quiet years: used to be.",
+   "\"but now it is short\" ends the long hair: used to have.",
+   "\"before she moved here\" puts that job in the past: used to work.",
+   "\"when I was …\" plus \"now I watch\" marks an old habit: used to watch.",
+   "\"they cut them down\" means the trees are gone: there used to be.",
+   "\"but now he plays for a city club\" ends the school team: used to play.",
+   "\"now … she buys it\" ends her old cooking habit: used to make.",
+   "\"I am not afraid\" any more, so the fear is past: used to be.",
+   "\"now he only plays at weekends\" ends the every-day habit: used to play.",
+   "\"when they lived near us\" is a past habit: used to visit.",
+   "\"but now it is old\" ends the fast years: used to be.",
+   "\"but now it is …\" says the school is gone: used to be.",
+   "\"but now I go to bed at …\" ends the old bedtime: used to go."
+  ],
+  "build": [
+   "\"When I was a child\" and \"Now my home is\": used to live.",
+   "\"he sold it last year\": the shop was his, not now: used to have.",
+   "\"Now there are new …\" ends the quiet past: used to be.",
+   "\"she doesn't any more\" ends an old liking: used to like.",
+   "\"now we are too busy\" ends the camping habit: used to go.",
+   "\"he stopped after his …\" ends the playing: used to play.",
+   "\"Now she stays at home\" ends the old job: used to work.",
+   "\"now it is gone\" ends what was there: there used to be.",
+   "\"now I am …\" changes an old eating habit: used to eat.",
+   "\"now many new people live here\" ends the old situation: used to know.",
+   "\"now every … has ten\" ends the one-computer days: used to have.",
+   "\"now my … drives me\" ends the walking habit: used to walk.",
+   "\"but now he loves them\" ends the fear: used to be.",
+   "\"they moved here last year\": that home is past: used to live.",
+   "\"now he doesn't need them\" ends the glasses: used to wear.",
+   "\"Now he has only …\" ends the coffee habit: used to drink.",
+   "\"every day when I was …\" is a past habit: used to ride.",
+   "\"fifty years ago\" against today: used to be.",
+   "\"As a baby\" against \"Now she runs\": used to sleep.",
+   "\"it closed in the …\" ends the cinema visits: used to watch."
+  ],
+  "transform": [
+   "\"I don't live there now\": a past home → used to live.",
+   "\"He doesn't have it now\": a past possession → used to have.",
+   "\"It isn't … now\": a past state → used to be.",
+   "\"She doesn't like it now\": a past liking → used to like.",
+   "\"It is not there now\": something that was there → there used to be.",
+   "\"often\" in the past is a habit → used to play.",
+   "\"always went\" every summer is a past habit → used to go.",
+   "\"always made\" in the past is a habit → used to make.",
+   "\"usually wore\" at school is a past habit → used to wear.",
+   "\"often told\" in the past is a habit → used to tell.",
+   "Not \"use to\": after I, the form is used to → used to have.",
+   "No was before it: \"was used to live\" is wrong → used to live.",
+   "After used to comes the base verb, not -ing → used to play.",
+   "After used to comes the base verb, not took → used to take.",
+   "\"There use to be\" is missing -d → there used to be."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   7,
+   "love",
+   "verb",
+   [
+    "love",
+    "like",
+    "enjoy",
+    "eat"
+   ]
+  ],
+  [
+   "choose",
+   15,
+   "now",
+   "when",
+   [
+    "now",
+    "any more",
+    "these days",
+    "at all now"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "nine",
+   "early",
+   [
+    "seven",
+    "eight",
+    "half past eight",
+    "nine"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "careful",
+   "care",
+   [
+    "careful",
+    "more careful",
+    "much healthier",
+    "careful about it"
+   ]
+  ],
+  [
+   "build",
+   10,
+   "neighbours",
+   "who",
+   [
+    "neighbours",
+    "grandparents",
+    "old neighbours",
+    "parents"
+   ]
+  ],
+  [
+   "transform",
+   3,
+   "factory",
+   "old",
+   [
+    "factory",
+    "school",
+    "shop",
+    "bank"
+   ]
+  ],
+  [
+   "choose",
+   4,
+   "",
+   "street",
+   [
+    "lane",
+    "avenue"
+   ]
+  ],
+  [
+   "transform",
+   15,
+   "",
+   "street",
+   [
+    "lane",
+    "avenue"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "",
+   "adj",
+   [
+    "broken"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "",
+   "sib",
+   [
+    "little brother"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "",
+   "adj",
+   [
+    "cheaper"
+   ]
+  ],
+  [
+   "build",
+   19,
+   "",
+   "sib",
+   [
+    "niece"
+   ]
+  ],
+  [
+   "transform",
+   1,
+   "",
+   "home",
+   [
+    "cottage"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

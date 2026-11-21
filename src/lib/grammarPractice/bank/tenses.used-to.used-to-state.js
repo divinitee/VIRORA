@@ -17,7 +17,7 @@ export default [
    "used to living"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to live. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now I live in …\" says the old home is in the past: used to live.",
   "slots": {
    "place": [
     "sea",
@@ -49,7 +49,7 @@ export default [
    "use to have"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to have. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"he doesn't have one now\" ends an old possession: used to have.",
   "slots": {
    "thing": [
     "garden",
@@ -81,7 +81,7 @@ export default [
    "used to being"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now she talks to everyone\" ends an old state: used to be shy.",
   "slots": {
    "name": [
     "Madina",
@@ -113,11 +113,13 @@ export default [
    "used to being"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "The cinema was there before and \"now it is\" something else: used to be.",
   "slots": {
    "street": [
     "street",
-    "road"
+    "road",
+    "lane",
+    "avenue"
    ],
    "thing": [
     "supermarket",
@@ -143,7 +145,7 @@ export default [
    "use to go"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to go. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now he …\" changes his old way to work: used to go.",
   "slots": {
    "transport": [
     "bus",
@@ -175,7 +177,7 @@ export default [
    "use to live"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to live. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"Now we have a house\" ends the flat years: used to live.",
   "slots": {
    "city": [
     "Tashkent",
@@ -199,7 +201,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I ______ {food}, but now I love it.",
+  "prompt": "I ______ {food}, but now I {verb} it.",
   "options": [
    "used to hate",
    "use to hate",
@@ -207,13 +209,19 @@ export default [
    "used to hating"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to hate. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now I love it\" means the hating is over: used to hate.",
   "slots": {
    "food": [
     "fish",
     "spinach",
     "garlic",
     "milk"
+   ],
+   "verb": [
+    "love",
+    "like",
+    "enjoy",
+    "eat"
    ]
   }
  },
@@ -233,7 +241,7 @@ export default [
    "use to be"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now there are new …\" ends the quiet years: used to be.",
   "slots": {
    "place": [
     "street",
@@ -265,7 +273,7 @@ export default [
    "used to having"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to have. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now it is short\" ends the long hair: used to have.",
   "slots": {
    "who": [
     "sister",
@@ -297,7 +305,7 @@ export default [
    "use to work"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to work. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"before she moved here\" puts that job in the past: used to work.",
   "slots": {
    "teacher": [
     "English teacher",
@@ -329,7 +337,7 @@ export default [
    "used to watching"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to watch. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"when I was …\" plus \"now I watch\" marks an old habit: used to watch.",
   "slots": {
    "age": [
     "six",
@@ -361,7 +369,7 @@ export default [
    "use to be"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"they cut them down\" means the trees are gone: there used to be.",
   "slots": {
    "place": [
     "yard",
@@ -393,7 +401,7 @@ export default [
    "used to playing"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to play. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now he plays for a city club\" ends the school team: used to play.",
   "slots": {
    "name": [
     "Sardor",
@@ -425,7 +433,7 @@ export default [
    "use to make"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to make. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now … she buys it\" ends her old cooking habit: used to make.",
   "slots": {
    "food": [
     "bread",
@@ -449,7 +457,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I ______ afraid of {thing}, but I am not afraid now.",
+  "prompt": "I ______ afraid of {thing}, but I am not afraid {when}.",
   "options": [
    "used to be",
    "use to be",
@@ -457,13 +465,19 @@ export default [
    "used to being"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"I am not afraid\" any more, so the fear is past: used to be.",
   "slots": {
    "thing": [
     "dogs",
     "the dark",
     "water",
     "spiders"
+   ],
+   "when": [
+    "now",
+    "any more",
+    "these days",
+    "at all now"
    ]
   }
  },
@@ -483,7 +497,7 @@ export default [
    "use to play"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to play. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now he only plays at weekends\" ends the every-day habit: used to play.",
   "slots": {
    "name": [
     "Bekzod",
@@ -515,7 +529,7 @@ export default [
    "used to visiting"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to visit. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"when they lived near us\" is a past habit: used to visit.",
   "slots": {
    "who": [
     "grandparents",
@@ -547,7 +561,7 @@ export default [
    "use to be"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now it is old\" ends the fast years: used to be.",
   "slots": {
    "device": [
     "phone",
@@ -558,7 +572,8 @@ export default [
    "adj": [
     "slow",
     "very slow",
-    "too slow"
+    "too slow",
+    "broken"
    ]
   }
  },
@@ -578,7 +593,7 @@ export default [
    "used to being"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now it is …\" says the school is gone: used to be.",
   "slots": {
    "bld": [
     "building",
@@ -602,7 +617,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I ______ to bed at nine, but now I go to bed at {time}.",
+  "prompt": "I ______ to bed at {early}, but now I go to bed at {time}.",
   "options": [
    "used to go",
    "used to went",
@@ -610,13 +625,19 @@ export default [
    "use to go"
   ],
   "key": 0,
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to go. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now I go to bed at …\" ends the old bedtime: used to go.",
   "slots": {
    "time": [
     "eleven",
     "midnight",
     "half past ten",
     "twelve"
+   ],
+   "early": [
+    "seven",
+    "eight",
+    "half past eight",
+    "nine"
    ]
   }
  },
@@ -631,7 +652,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "When I was a child, I ______ (live) in a village near {city}. Now my home is in the {area}.",
   "key": "used to live",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to live. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"When I was a child\" and \"Now my home is\": used to live.",
   "slots": {
    "city": [
     "Samarkand",
@@ -658,7 +679,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "My uncle ______ (have) a small {shop} in the {where}, but he sold it last year.",
   "key": "used to have",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to have. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"he sold it last year\": the shop was his, not now: used to have.",
   "slots": {
    "shop": [
     "shop",
@@ -685,7 +706,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "This {place} ______ (be) very quiet. Now there are new {thing} everywhere.",
   "key": "used to be",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"Now there are new …\" ends the quiet past: used to be.",
   "slots": {
    "place": [
     "street",
@@ -712,7 +733,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "{name} ______ (like) {thing}, but she doesn't any more.",
   "key": "used to like",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to like. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"she doesn't any more\" ends an old liking: used to like.",
   "slots": {
    "name": [
     "Gulnora",
@@ -739,7 +760,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "We ______ (go) camping in the {place} every {season}, but now we are too busy.",
   "key": "used to go",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to go. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now we are too busy\" ends the camping habit: used to go.",
   "slots": {
    "place": [
     "mountains",
@@ -766,7 +787,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "My father ______ (play) {sport} for a city team, but he stopped after his {thing}.",
   "key": "used to play",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to play. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"he stopped after his …\" ends the playing: used to play.",
   "slots": {
    "sport": [
     "football",
@@ -793,7 +814,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "My mother ______ (work) at a {place}. Now she stays at home with my little {sib}.",
   "key": "used to work",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to work. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"Now she stays at home\" ends the old job: used to work.",
   "slots": {
    "place": [
     "bank",
@@ -820,7 +841,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "There ______ (be) a big {thing} in the middle of our {place}, but now it is gone.",
   "key": "used to be",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now it is gone\" ends what was there: there used to be.",
   "slots": {
    "thing": [
     "tree",
@@ -845,15 +866,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with used to and the verb in brackets.",
-  "source": "I ______ (eat) a lot of {food}, but now I am careful.",
+  "source": "I ______ (eat) a lot of {food}, but now I am {care}.",
   "key": "used to eat",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to eat. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now I am …\" changes an old eating habit: used to eat.",
   "slots": {
    "food": [
     "sweets",
     "chips",
     "fast food",
     "sugar"
+   ],
+   "care": [
+    "careful",
+    "more careful",
+    "much healthier",
+    "careful about it"
    ]
   }
  },
@@ -866,15 +893,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete the sentence with used to and the verb in brackets.",
-  "source": "Our neighbours ______ (know) everyone in our {place}, but now many new people live here.",
+  "source": "Our {who} ______ (know) everyone in our {place}, but now many new people live here.",
   "key": "used to know",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to know. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now many new people live here\" ends the old situation: used to know.",
   "slots": {
    "place": [
     "street",
     "building",
     "village",
     "area"
+   ],
+   "who": [
+    "neighbours",
+    "grandparents",
+    "old neighbours",
+    "parents"
    ]
   }
  },
@@ -889,7 +922,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "Our {school} ______ (have) only one computer, but now every {room} has ten.",
   "key": "used to have",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to have. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now every … has ten\" ends the one-computer days: used to have.",
   "slots": {
    "school": [
     "school",
@@ -916,7 +949,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "I ______ (walk) home after {thing}, but now my {who} drives me.",
   "key": "used to walk",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to walk. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now my … drives me\" ends the walking habit: used to walk.",
   "slots": {
    "thing": [
     "school",
@@ -943,12 +976,13 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "My little {sib} ______ (be) afraid of {thing}, but now he loves them.",
   "key": "used to be",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"but now he loves them\" ends the fear: used to be.",
   "slots": {
    "sib": [
     "brother",
     "cousin",
-    "nephew"
+    "nephew",
+    "little brother"
    ],
    "thing": [
     "dogs",
@@ -969,7 +1003,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "My {who} ______ (live) in {city}, but they moved here last year.",
   "key": "used to live",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to live. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"they moved here last year\": that home is past: used to live.",
   "slots": {
    "who": [
     "cousins",
@@ -996,7 +1030,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "{name} ______ (wear) glasses for {task}, but now he doesn't need them.",
   "key": "used to wear",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to wear. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"now he doesn't need them\" ends the glasses: used to wear.",
   "slots": {
    "name": [
     "Sherzod",
@@ -1023,7 +1057,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "My {who} ______ (drink) a lot of coffee. Now he has only {drink}.",
   "key": "used to drink",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to drink. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"Now he has only …\" ends the coffee habit: used to drink.",
   "slots": {
    "who": [
     "grandfather",
@@ -1050,7 +1084,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "I ______ (ride) my bike in the {place} every day when I was {age}.",
   "key": "used to ride",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to ride. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"every day when I was …\" is a past habit: used to ride.",
   "slots": {
    "place": [
     "yard",
@@ -1077,7 +1111,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "{city} ______ (be) much {adj} fifty years ago.",
   "key": "used to be",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"fifty years ago\" against today: used to be.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1088,7 +1122,8 @@ export default [
    "adj": [
     "smaller",
     "quieter",
-    "greener"
+    "greener",
+    "cheaper"
    ]
   }
  },
@@ -1103,12 +1138,13 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "As a baby, my {sib} ______ (sleep) all day. Now she runs around until {time}.",
   "key": "used to sleep",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to sleep. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"As a baby\" against \"Now she runs\": used to sleep.",
   "slots": {
    "sib": [
     "sister",
     "cousin",
-    "little sister"
+    "little sister",
+    "niece"
    ],
    "time": [
     "ten",
@@ -1129,7 +1165,7 @@ export default [
   "instr": "Complete the sentence with used to and the verb in brackets.",
   "source": "We ______ (watch) films at the old cinema in {city}, but it closed in the {when}.",
   "key": "used to watch",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to watch. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"it closed in the …\" ends the cinema visits: used to watch.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1157,12 +1193,13 @@ export default [
   "source": "I lived in a small {home} in {city} as a child. I don't live there now.",
   "hint": "As a child, I ______ in a small {home} in {city}.",
   "key": "used to live",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to live. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"I don't live there now\": a past home → used to live.",
   "slots": {
    "home": [
     "flat",
     "house",
-    "village house"
+    "village house",
+    "cottage"
    ],
    "city": [
     "Samarkand",
@@ -1184,7 +1221,7 @@ export default [
   "source": "Ten years ago, my {who} had a {car}. He doesn't have it now.",
   "hint": "Ten years ago, my {who} ______ a {car}.",
   "key": "used to have",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to have. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"He doesn't have it now\": a past possession → used to have.",
   "slots": {
    "who": [
     "father",
@@ -1209,16 +1246,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the two sentences as one, with used to.",
-  "source": "This {place} was a factory. It isn't a factory now.",
-  "hint": "This {place} ______ a factory.",
+  "source": "This {place} was a {old}. It isn't a {old} now.",
+  "hint": "This {place} ______ a {old}.",
   "key": "used to be",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"It isn't … now\": a past state → used to be.",
   "slots": {
    "place": [
     "building",
     "old building",
     "big building",
     "shopping centre"
+   ],
+   "old": [
+    "factory",
+    "school",
+    "shop",
+    "bank"
    ]
   }
  },
@@ -1234,7 +1277,7 @@ export default [
   "source": "When she was young, {name} liked {thing}. She doesn't like it now.",
   "hint": "When she was young, {name} ______ {thing}.",
   "key": "used to like",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to like. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"She doesn't like it now\": a past liking → used to like.",
   "slots": {
    "name": [
     "Dilnoza",
@@ -1262,7 +1305,7 @@ export default [
   "source": "There was a big {thing} near our {home}. It is not there now.",
   "hint": "There ______ a big {thing} near our {home}.",
   "key": "used to be",
-  "why": "This was true in the past but is not true now, so use used to + the base form: used to be. Not use to, no -ing or past form after it, and no be before it.",
+  "why": "\"It is not there now\": something that was there → there used to be.",
   "slots": {
    "thing": [
     "tree",
@@ -1290,7 +1333,7 @@ export default [
   "source": "When I was little, I often played {game} in the {place}.",
   "hint": "When I was little, I ______ {game} in the {place}.",
   "key": "used to play",
-  "why": "A past habit that has stopped: used to + the base form, used to play. Used already says it happened often.",
+  "why": "\"often\" in the past is a habit → used to play.",
   "slots": {
    "game": [
     "football",
@@ -1318,7 +1361,7 @@ export default [
   "source": "Every summer, my {who} always went camping in the {place}.",
   "hint": "Every summer, my {who} ______ camping in the {place}.",
   "key": "used to go",
-  "why": "A past habit that has stopped: used to + the base form, used to go. Used already says it happened often.",
+  "why": "\"always went\" every summer is a past habit → used to go.",
   "slots": {
    "who": [
     "family",
@@ -1346,7 +1389,7 @@ export default [
   "source": "In the past, my mother always made {food} on {day}.",
   "hint": "In the past, my mother ______ {food} on {day}.",
   "key": "used to make",
-  "why": "A past habit that has stopped: used to + the base form, used to make. Used already says it happened often.",
+  "why": "\"always made\" in the past is a habit → used to make.",
   "slots": {
    "food": [
     "plov",
@@ -1374,7 +1417,7 @@ export default [
   "source": "At {school}, we usually wore a {uniform}.",
   "hint": "At {school}, we ______ a {uniform}.",
   "key": "used to wear",
-  "why": "A past habit that has stopped: used to + the base form, used to wear. Used already says it happened often.",
+  "why": "\"usually wore\" at school is a past habit → used to wear.",
   "slots": {
    "school": [
     "school",
@@ -1402,7 +1445,7 @@ export default [
   "source": "My {who} often told us stories in the {time}.",
   "hint": "My {who} ______ us stories in the {time}.",
   "key": "used to tell",
-  "why": "A past habit that has stopped: used to + the base form, used to tell. Used already says it happened often.",
+  "why": "\"often told\" in the past is a habit → used to tell.",
   "slots": {
    "who": [
     "grandfather",
@@ -1430,7 +1473,7 @@ export default [
   "source": "When I was {age}, I use to have {hair} hair.",
   "hint": "When I was {age}, I ______ {hair} hair.",
   "key": "used to have",
-  "why": "Use to is wrong. After used, write to + the base form: used to have.",
+  "why": "Not \"use to\": after I, the form is used to → used to have.",
   "slots": {
    "age": [
     "ten",
@@ -1458,7 +1501,7 @@ export default [
   "source": "She was used to live in {city} with her {who}.",
   "hint": "She ______ in {city} with her {who}.",
   "key": "used to live",
-  "why": "Was used to live is wrong. After used, write to + the base form: used to live.",
+  "why": "No was before it: \"was used to live\" is wrong → used to live.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1486,7 +1529,7 @@ export default [
   "source": "We used to playing {game} after school with our {who}.",
   "hint": "We ______ {game} after school with our {who}.",
   "key": "used to play",
-  "why": "Used to playing is wrong. After used, write to + the base form: used to play.",
+  "why": "After used to comes the base verb, not -ing → used to play.",
   "slots": {
    "game": [
     "football",
@@ -1514,7 +1557,7 @@ export default [
   "source": "My brother used to took the {transport} {when}.",
   "hint": "My brother ______ the {transport} {when}.",
   "key": "used to take",
-  "why": "Used to took is wrong. After used, write to + the base form: used to take.",
+  "why": "After used to comes the base verb, not took → used to take.",
   "slots": {
    "transport": [
     "bus",
@@ -1542,7 +1585,7 @@ export default [
   "source": "There use to be a {place} on our {street}.",
   "hint": "There ______ a {place} on our {street}.",
   "key": "used to be",
-  "why": "Use to is wrong. After used, write to + the base form: used to be.",
+  "why": "\"There use to be\" is missing -d → there used to be.",
   "slots": {
    "place": [
     "cinema",
@@ -1552,7 +1595,9 @@ export default [
    ],
    "street": [
     "street",
-    "road"
+    "road",
+    "lane",
+    "avenue"
    ]
   }
  },
