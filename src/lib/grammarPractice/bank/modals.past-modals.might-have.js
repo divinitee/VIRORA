@@ -17,7 +17,7 @@ export default [
    "might has missed"
   ],
   "key": 0,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I don't know why\": one possible reason in the past: might have missed.",
   "slots": {
    "bus": [
     "bus",
@@ -49,7 +49,7 @@ export default [
    "might have forgotten"
   ],
   "key": 3,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I'm not sure\": possibly she forgot: might have forgotten.",
   "slots": {
    "when": [
     "yesterday",
@@ -81,7 +81,7 @@ export default [
    "might leave"
   ],
   "key": 2,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Can't find it: possibly I left it there: might have left.",
   "slots": {
    "thing": [
     "phone",
@@ -113,7 +113,7 @@ export default [
    "might had gone"
   ],
   "key": 1,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I'm not sure\": possibly they went out: might have gone.",
   "slots": {
    "home": [
     "flat",
@@ -145,7 +145,7 @@ export default [
    "might has eaten"
   ],
   "key": 0,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"not sure who took it\": the cat is one possibility: might have eaten.",
   "slots": {
    "food": [
     "fish",
@@ -177,7 +177,7 @@ export default [
    "might have lost"
   ],
   "key": 3,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"Nobody knows\": possibly he lost it: might have lost.",
   "slots": {
    "thing": [
     "phone",
@@ -209,7 +209,7 @@ export default [
    "might see"
   ],
   "key": 2,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"looks familiar\": possibly seen before: might have seen.",
   "slots": {
    "part": [
     "beginning",
@@ -241,7 +241,7 @@ export default [
    "might had taken"
   ],
   "key": 1,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I don't know where\": possibly my brother took it: might have taken.",
   "slots": {
    "thing": [
     "charger",
@@ -273,7 +273,7 @@ export default [
    "might has been"
   ],
   "key": 0,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I don't know\": an accident is one possible reason: might have been.",
   "slots": {
    "when": [
     "this morning",
@@ -305,7 +305,7 @@ export default [
    "might have closed"
   ],
   "key": 3,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I'm not sure\": possibly it closed early: might have closed.",
   "slots": {
    "shop": [
     "bakery",
@@ -337,7 +337,7 @@ export default [
    "might break"
   ],
   "key": 2,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I don't know why\": possibly someone broke it: might have broken.",
   "slots": {
    "thing": [
     "printer",
@@ -369,7 +369,7 @@ export default [
    "might had won"
   ],
   "key": 1,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I missed the game\": I'm not sure of the result: might have won.",
   "slots": {
    "team": [
     "Sunrise FC",
@@ -401,7 +401,7 @@ export default [
    "might has bought"
   ],
   "key": 0,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I'm not sure\": possibly she bought it there: might have bought.",
   "slots": {
    "thing": [
     "dress",
@@ -433,7 +433,7 @@ export default [
    "might have slept"
   ],
   "key": 3,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I don't know why\": possibly bad sleep: might have slept.",
   "slots": {
    "time": [
     "eleven",
@@ -465,7 +465,7 @@ export default [
    "might study"
   ],
   "key": 2,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I'm not sure how\": possibly a lot of study: might have studied.",
   "slots": {
    "test": [
     "exam",
@@ -497,7 +497,7 @@ export default [
    "might had met"
   ],
   "key": 1,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I'm not sure where\": possibly we met there: might have met.",
   "slots": {
    "event": [
     "wedding",
@@ -529,7 +529,7 @@ export default [
    "might has driven"
   ],
   "key": 0,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I don't know how\": driving is one possibility: might have driven.",
   "slots": {
    "city": [
     "Samarkand",
@@ -561,7 +561,7 @@ export default [
    "might have fallen"
   ],
   "key": 3,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"not sure what happened\": possibly a fall: might have fallen.",
   "slots": {
    "place": [
     "park",
@@ -593,7 +593,7 @@ export default [
    "might finish"
   ],
   "key": 2,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I don't know if\": possibly he's done: might have finished.",
   "slots": {
    "work": [
     "homework",
@@ -625,7 +625,7 @@ export default [
    "might had heard"
   ],
   "key": 1,
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "\"I'm not sure how she knows\": possibly from them: might have heard.",
   "slots": {
    "who": [
     "sister",
@@ -652,7 +652,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "Aziz is late. He ______ (miss) the {bus}, {name}.",
   "key": "might have missed",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "He's late: possibly he missed it: might have missed.",
   "slots": {
    "bus": [
     "bus",
@@ -679,7 +679,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "Olga didn't come to the {event}. She ______ (forget), {name}.",
   "key": "might have forgotten",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "She didn't come: possibly she forgot: forget → forgotten.",
   "slots": {
    "event": [
     "meeting",
@@ -706,7 +706,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "My {thing} isn't in my bag. I ______ (leave) it at the {place}.",
   "key": "might have left",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Not in my bag: possibly I left it: leave → left.",
   "slots": {
    "thing": [
     "phone",
@@ -733,7 +733,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "Nobody is at the {home}. They ______ (go) to the bazaar, {name}.",
   "key": "might have gone",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Nobody is there: possibly they went: go → gone.",
   "slots": {
    "home": [
     "flat",
@@ -760,7 +760,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "The {food} is gone. The dog ______ (eat) it, {name}.",
   "key": "might have eaten",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "It's gone: possibly the dog: eat → eaten.",
   "slots": {
    "food": [
     "meat",
@@ -787,7 +787,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "Timur can't find his {thing}. He ______ (lose) it, {name}.",
   "key": "might have lost",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "He can't find it: possibly lost: lose → lost.",
   "slots": {
    "thing": [
     "phone",
@@ -814,7 +814,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "My {thing} isn't here. My sister ______ (take) it, {name}.",
   "key": "might have taken",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Not here: possibly my sister took it: take → taken.",
   "slots": {
    "thing": [
     "charger",
@@ -841,7 +841,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "The road was closed {when}. There ______ (be) an accident, {name}.",
   "key": "might have been",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "A closed road: possibly an accident: be → been.",
   "slots": {
    "when": [
     "this morning",
@@ -868,7 +868,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "The {shop} was dark. It ______ (close) early, {name}.",
   "key": "might have closed",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Dark: possibly it closed early: might have closed.",
   "slots": {
    "shop": [
     "bakery",
@@ -895,7 +895,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "The {thing} isn't working. Someone ______ (break) it, {name}.",
   "key": "might have broken",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Not working: possibly broken: break → broken.",
   "slots": {
    "thing": [
     "printer",
@@ -922,7 +922,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "Lola has a new {thing}. She ______ (buy) it in {city}.",
   "key": "might have bought",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "New: possibly bought in that city: buy → bought.",
   "slots": {
    "thing": [
     "dress",
@@ -949,7 +949,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "He looks tired this {time}. He ______ (sleep) badly, {name}.",
   "key": "might have slept",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Looks tired: possibly bad sleep: sleep → slept.",
   "slots": {
    "time": [
     "morning",
@@ -976,7 +976,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "I know that man's face. I ______ (meet) him at the {event}, {name}.",
   "key": "might have met",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "I know his face: possibly we met: meet → met.",
   "slots": {
    "event": [
     "wedding",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "Her arm hurts. She ______ (fall) in the {place}, {name}.",
   "key": "might have fallen",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Her arm hurts: possibly a fall: fall → fallen.",
   "slots": {
    "place": [
     "park",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "I'm not sure about the score. {team} ______ (win) the match, {name}.",
   "key": "might have won",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Not sure about the score: possibly they won: win → won.",
   "slots": {
    "team": [
     "Sunrise FC",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "She didn't answer. She ______ (not / hear) the phone at the {place}, {name}.",
   "key": "might not have heard",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "She didn't answer: possibly she didn't hear: might not have heard.",
   "slots": {
    "place": [
     "gym",
@@ -1087,7 +1087,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "He didn't say hello. He ______ (not / see) you at the {event}, {name}.",
   "key": "might not have seen",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "He didn't say hello: possibly he didn't see you: might not have seen.",
   "slots": {
    "event": [
     "wedding",
@@ -1117,7 +1117,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "They didn't reply. They ______ (not / receive) my {msg}, {name}.",
   "key": "might not have received",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "No reply: possibly it didn't arrive: might not have received.",
   "slots": {
    "msg": [
     "email",
@@ -1147,7 +1147,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "Don't be angry with him. He ______ (not / know) about the {event}, {name}.",
   "key": "might not have known",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "\"Don't be angry\": possibly he didn't know: might not have known.",
   "slots": {
    "event": [
     "meeting",
@@ -1177,7 +1177,7 @@ export default [
   "instr": "The speaker is not sure about the past. Complete with might have (or might not have) and the verb in brackets.",
   "source": "She did the wrong {work}. She ______ (not / understand) the teacher, {name}.",
   "key": "might not have understood",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "The wrong work: possibly she didn't understand: might not have understood.",
   "slots": {
    "work": [
     "homework",
@@ -1208,7 +1208,7 @@ export default [
   "source": "Perhaps he missed the {bus}, {name}.",
   "hint": "He ______ the {bus}, {name}.",
   "key": "might have missed",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Perhaps he missed → he might have missed.",
   "slots": {
    "bus": [
     "bus",
@@ -1236,7 +1236,7 @@ export default [
   "source": "Maybe she forgot about the {event}, {name}.",
   "hint": "She ______ about the {event}, {name}.",
   "key": "might have forgotten",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Maybe she forgot → she might have forgotten.",
   "slots": {
    "event": [
     "meeting",
@@ -1264,7 +1264,7 @@ export default [
   "source": "Perhaps they went to {city} for the weekend, {name}.",
   "hint": "They ______ to {city} for the weekend, {name}.",
   "key": "might have gone",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Perhaps they went → they might have gone.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1292,7 +1292,7 @@ export default [
   "source": "Maybe I left my {thing} at the {place}.",
   "hint": "I ______ my {thing} at the {place}.",
   "key": "might have left",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Maybe I left → I might have left.",
   "slots": {
    "thing": [
     "phone",
@@ -1320,7 +1320,7 @@ export default [
   "source": "Perhaps the {shop} closed early, {name}.",
   "hint": "The {shop} ______ early, {name}.",
   "key": "might have closed",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "Perhaps it closed → it might have closed.",
   "slots": {
    "shop": [
     "bakery",
@@ -1348,7 +1348,7 @@ export default [
   "source": "He might missed the {bus}, {name}.",
   "hint": "He ______ the {bus}, {name}.",
   "key": "might have missed",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "have is missing: might have missed.",
   "slots": {
    "bus": [
     "bus",
@@ -1376,7 +1376,7 @@ export default [
   "source": "She might has forgotten the {event}, {name}.",
   "hint": "She ______ the {event}, {name}.",
   "key": "might have forgotten",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "might have, not might has: might have forgotten.",
   "slots": {
    "event": [
     "meeting",
@@ -1404,7 +1404,7 @@ export default [
   "source": "They might have went to the {place}, {name}.",
   "hint": "They ______ to the {place}, {name}.",
   "key": "might have gone",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "have + past participle: gone, not went.",
   "slots": {
    "place": [
     "bazaar",
@@ -1432,7 +1432,7 @@ export default [
   "source": "I might had left my {thing} on the bus, {name}.",
   "hint": "I ______ my {thing} on the bus, {name}.",
   "key": "might have left",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "might have, not might had: might have left.",
   "slots": {
    "thing": [
     "phone",
@@ -1460,7 +1460,7 @@ export default [
   "source": "The dog might have eat the {food}, {name}.",
   "hint": "The dog ______ the {food}, {name}.",
   "key": "might have eaten",
-  "why": "A guess about the past, not sure: might have + past participle.",
+  "why": "have + past participle: eaten, not eat.",
   "slots": {
    "food": [
     "meat",
@@ -1488,7 +1488,7 @@ export default [
   "source": "Perhaps she didn't hear the phone at the {place}, {name}.",
   "hint": "She ______ the phone at the {place}, {name}.",
   "key": "might not have heard",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "Perhaps she didn't hear → might not have heard.",
   "slots": {
    "place": [
     "gym",
@@ -1519,7 +1519,7 @@ export default [
   "source": "Maybe he didn't see you at the {event}, {name}.",
   "hint": "He ______ you at the {event}, {name}.",
   "key": "might not have seen",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "Maybe he didn't see → might not have seen.",
   "slots": {
    "event": [
     "wedding",
@@ -1550,7 +1550,7 @@ export default [
   "source": "Perhaps they didn't receive my {msg}, {name}.",
   "hint": "They ______ my {msg}, {name}.",
   "key": "might not have received",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "Perhaps they didn't receive → might not have received.",
   "slots": {
    "msg": [
     "email",
@@ -1581,7 +1581,7 @@ export default [
   "source": "Maybe he didn't know about the {event}, {name}.",
   "hint": "He ______ about the {event}, {name}.",
   "key": "might not have known",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "Maybe he didn't know → might not have known.",
   "slots": {
    "event": [
     "meeting",
@@ -1612,7 +1612,7 @@ export default [
   "source": "Perhaps she didn't understand the {work}, {name}.",
   "hint": "She ______ the {work}, {name}.",
   "key": "might not have understood",
-  "why": "A guess about the past, not sure: might not have + past participle.",
+  "why": "Perhaps she didn't understand → might not have understood.",
   "slots": {
    "work": [
     "question",
