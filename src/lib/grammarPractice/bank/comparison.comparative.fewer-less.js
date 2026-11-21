@@ -17,7 +17,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "people is plural and countable: fewer people.",
   "slots": {
    "event": [
     "concert",
@@ -49,7 +49,7 @@ export default [
    "less"
   ],
   "key": 3,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "money is uncountable: less money.",
   "slots": {
    "thing": [
     "clothes",
@@ -81,7 +81,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "trees can be counted: fewer trees.",
   "slots": {
    "place": [
     "street",
@@ -113,7 +113,7 @@ export default [
    "little"
   ],
   "key": 1,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "electricity can't be counted: less electricity.",
   "slots": {
    "thing": [
     "fridge",
@@ -145,7 +145,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "mistakes can be counted: fewer mistakes.",
   "slots": {
    "test": [
     "test",
@@ -177,12 +177,13 @@ export default [
    "less"
   ],
   "key": 3,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "homework is uncountable: less homework.",
   "slots": {
    "period": [
     "week",
     "month",
-    "term"
+    "term",
+    "year"
    ],
    "name": [
     "Gulnora",
@@ -208,7 +209,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "cars can be counted: fewer cars.",
   "slots": {
    "day": [
     "Sundays",
@@ -240,7 +241,7 @@ export default [
    "little"
   ],
   "key": 1,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "The drink is uncountable here: less.",
   "slots": {
    "who": [
     "grandfather",
@@ -272,7 +273,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "friends can be counted: fewer friends.",
   "slots": {
    "name": [
     "Madina",
@@ -304,7 +305,7 @@ export default [
    "less"
   ],
   "key": 3,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "time is uncountable: less time.",
   "slots": {
    "transport": [
     "metro",
@@ -336,7 +337,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "problems can be counted: fewer problems.",
   "slots": {
    "thing": [
     "phone",
@@ -360,7 +361,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "There was ______ snow this {season} than last {season}.",
+  "prompt": "There was ______ {weather} this {season} than last {season}.",
   "options": [
    "lesser",
    "less",
@@ -368,12 +369,19 @@ export default [
    "little"
   ],
   "key": 1,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "snow is uncountable: less snow.",
   "slots": {
    "season": [
     "winter",
     "year",
-    "month"
+    "month",
+    "autumn"
+   ],
+   "weather": [
+    "snow",
+    "rain",
+    "wind",
+    "sunshine"
    ]
   }
  },
@@ -393,7 +401,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "The goods are plural, so: fewer.",
   "slots": {
    "goods": [
     "melons",
@@ -425,7 +433,7 @@ export default [
    "less"
   ],
   "key": 3,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "sugar is uncountable: less sugar.",
   "slots": {
    "food": [
     "fruit",
@@ -457,7 +465,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "students can be counted: fewer students.",
   "slots": {
    "group": [
     "group",
@@ -489,7 +497,7 @@ export default [
    "little"
   ],
   "key": 1,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "free time is uncountable: less free time.",
   "slots": {
    "job": [
     "job",
@@ -521,12 +529,13 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "goals can be counted: fewer goals.",
   "slots": {
    "season": [
     "season",
     "year",
-    "month"
+    "month",
+    "autumn"
    ],
    "name": [
     "Gulnora",
@@ -552,7 +561,7 @@ export default [
    "less"
   ],
   "key": 3,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "noise is uncountable: less noise.",
   "slots": {
    "place": [
     "village",
@@ -584,7 +593,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "messages can be counted: fewer messages.",
   "slots": {
    "when": [
     "today than yesterday",
@@ -616,7 +625,7 @@ export default [
    "little"
   ],
   "key": 1,
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "traffic is uncountable: less traffic.",
   "slots": {
    "road": [
     "street",
@@ -643,7 +652,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "There are ______ buses to {city} on Sundays, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "buses can be counted: fewer.",
   "slots": {
    "city": [
     "Samarkand",
@@ -670,7 +679,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "I want to spend ______ time on my phone this {period}, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "time is uncountable: less.",
   "slots": {
    "period": [
     "week",
@@ -697,7 +706,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "We need ______ chairs than we have, {name}. Only {n} guests are coming.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "chairs can be counted: fewer.",
   "slots": {
    "n": [
     "six",
@@ -724,7 +733,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "Add ______ salt to the {food} next time, {name}. It's too salty.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "salt is uncountable: less.",
   "slots": {
    "food": [
     "soup",
@@ -751,7 +760,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "My {who2} works ______ hours than last year, so he can see his {who} more.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "hours can be counted: fewer.",
   "slots": {
    "who2": [
     "uncle",
@@ -778,7 +787,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "Our new {home} gets ______ sun than the old one, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "sun (sunlight) is uncountable: less.",
   "slots": {
    "home": [
     "flat",
@@ -805,7 +814,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "There were ______ tourists in {city} in {month} than in May.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "tourists can be counted: fewer.",
   "slots": {
    "city": [
     "Samarkand",
@@ -832,7 +841,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "This {thing} makes ______ noise than the old one, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "noise is uncountable: less.",
   "slots": {
    "thing": [
     "fan",
@@ -859,7 +868,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "I read ______ books this {period} than last {period}, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "books can be counted: fewer.",
   "slots": {
    "period": [
     "year",
@@ -885,7 +894,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "Please use ______ water in the {room}, {name}. We pay a lot.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "water is uncountable: less.",
   "slots": {
    "room": [
     "bathroom",
@@ -912,7 +921,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "There are ______ shops in our village than in the {place}, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "shops can be counted: fewer.",
   "slots": {
    "place": [
     "town",
@@ -939,7 +948,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "Walking to {place} gives me ______ stress than driving, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "stress is uncountable: less.",
   "slots": {
    "place": [
     "work",
@@ -966,7 +975,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "This {test} has ______ questions than the last one, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "questions can be counted: fewer.",
   "slots": {
    "test": [
     "test",
@@ -993,7 +1002,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "We had ______ rain in {month} than in April, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "rain is uncountable: less.",
   "slots": {
    "month": [
     "May",
@@ -1020,7 +1029,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "My little {sib} eats ______ vegetables than he should, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "vegetables can be counted: fewer.",
   "slots": {
    "sib": [
     "brother",
@@ -1046,7 +1055,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "I have ______ energy in the {time} than in the morning, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "energy is uncountable: less.",
   "slots": {
    "time": [
     "evening",
@@ -1073,7 +1082,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "There are ______ birds in the city than in the {place}, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "birds can be counted: fewer.",
   "slots": {
    "place": [
     "mountains",
@@ -1100,7 +1109,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "The new {device} needs ______ space on the desk, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "space is uncountable: less.",
   "slots": {
    "device": [
     "printer",
@@ -1127,7 +1136,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "{name} wants to make ______ mistakes in her {subj} essays.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "mistakes can be counted: fewer.",
   "slots": {
    "name": [
     "Madina",
@@ -1154,7 +1163,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "My {who} earns ______ money than before, but he is happier at his new {job}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "money is uncountable: less.",
   "slots": {
    "who": [
     "father",
@@ -1182,7 +1191,7 @@ export default [
   "source": "Last year our {group} had 30 students. This year it has {n}.",
   "hint": "This year our {group} has ______ students than last year.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "30 students to fewer: students are countable.",
   "slots": {
    "group": [
     "group",
@@ -1210,7 +1219,7 @@ export default [
   "source": "I slept eight hours on Monday and {n} hours on Tuesday, {name}.",
   "hint": "I slept for ______ on Tuesday than on Monday, {name}.",
   "key": "fewer hours",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "Hours can be counted: fewer hours.",
   "slots": {
    "n": [
     "six",
@@ -1238,7 +1247,7 @@ export default [
   "source": "The old phone cost 3 million soum. The new one costs {n} million, {name}.",
   "hint": "The new phone costs ______ money than the old one, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "money can't be counted: less.",
   "slots": {
    "n": [
     "2",
@@ -1266,7 +1275,7 @@ export default [
   "source": "We had 40 guests at my sister's wedding and {n} at mine, {name}.",
   "hint": "We had ______ guests at my wedding than at my sister's, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "guests can be counted: fewer.",
   "slots": {
    "n": [
     "30",
@@ -1294,7 +1303,7 @@ export default [
   "source": "Our old car used 10 litres of petrol a day. The new one uses {n}.",
   "hint": "The new car uses ______ petrol than the old one, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "petrol can't be counted: less.",
   "slots": {
    "n": [
     "6",
@@ -1322,7 +1331,7 @@ export default [
   "source": "I have less friends in {city} than in my village, {name}.",
   "hint": "I have ______ friends in {city} than in my village, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "friends are countable, so not less: fewer.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1350,7 +1359,7 @@ export default [
   "source": "There is fewer traffic on {day} than on Monday, {name}.",
   "hint": "There is ______ traffic on {day} than on Monday, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "traffic is uncountable, so not fewer: less.",
   "slots": {
    "day": [
     "Sunday",
@@ -1378,7 +1387,7 @@ export default [
   "source": "We bought lesser {goods} this week than last week, {name}.",
   "hint": "We bought ______ {goods} this week than last week, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "Not lesser: goods are countable: fewer.",
   "slots": {
    "goods": [
     "apples",
@@ -1406,7 +1415,7 @@ export default [
   "source": "My {who} drinks fewer coffee than before, {name}.",
   "hint": "My {who} drinks ______ coffee than before, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "coffee is uncountable, so not fewer: less.",
   "slots": {
    "who": [
     "father",
@@ -1434,7 +1443,7 @@ export default [
   "source": "There were less mistakes in your {test} this time, {name}.",
   "hint": "There were ______ mistakes in your {test} this time, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "mistakes are countable, so not less: fewer.",
   "slots": {
    "test": [
     "test",
@@ -1462,7 +1471,7 @@ export default [
   "source": "I don't watch as many films as my {who}, {name}.",
   "hint": "I watch ______ films than my {who}, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "not as many + plural = fewer.",
   "slots": {
    "who": [
     "brother",
@@ -1490,7 +1499,7 @@ export default [
   "source": "Our {place} doesn't get as much rain as the mountains, {name}.",
   "hint": "Our {place} gets ______ rain than the mountains, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "not as much + uncountable = less.",
   "slots": {
    "place": [
     "town",
@@ -1518,7 +1527,7 @@ export default [
   "source": "We don't have as much {thing} as last year, {name}.",
   "hint": "We have ______ {thing} than last year, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "not as much = less.",
   "slots": {
    "thing": [
     "money",
@@ -1546,7 +1555,7 @@ export default [
   "source": "This {shop} doesn't sell as many {goods} as the bazaar.",
   "hint": "This {shop} sells ______ {goods} than the bazaar.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
+  "why": "not as many + plural = fewer.",
   "slots": {
    "shop": [
     "shop",
@@ -1574,7 +1583,7 @@ export default [
   "source": "My little sister doesn't eat as much {food} as me, {name}.",
   "hint": "My little sister eats ______ {food} than me, {name}.",
   "key": "less",
-  "why": "The noun is uncountable (you can't count it), so use less.",
+  "why": "not as much = less.",
   "slots": {
    "food": [
     "bread",
