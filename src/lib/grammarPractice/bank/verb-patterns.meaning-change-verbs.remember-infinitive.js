@@ -145,7 +145,7 @@ export default [
    "fed"
   ],
   "key": 0,
-  "why": "\"While I'm away\" is the future: a task still to do, so remember + to + base (to feed).",
+  "why": "\"While I'm …\" is later: a task still to do: remember + to feed.",
   "slots": {
    "pet": [
     "cat",
@@ -209,7 +209,7 @@ export default [
    "turning"
   ],
   "key": 2,
-  "why": "\"Always … before you go to bed\": a task still to do, so remember + to + base (to turn).",
+  "why": "\"Always … before you go to …\": a task each time: remember + to turn.",
   "slots": {
    "thing": [
     "gas",
@@ -465,7 +465,7 @@ export default [
    "charging"
   ],
   "key": 2,
-  "why": "\"Always\" = a habit, a task each night: a task still to do, so remember + to + base (to charge).",
+  "why": "\"Always\" = a habit, a task each time: remember + to charge.",
   "slots": {
    "thing": [
     "phone",

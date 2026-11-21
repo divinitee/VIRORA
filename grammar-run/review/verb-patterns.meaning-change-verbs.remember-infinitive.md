@@ -22,7 +22,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 5. Will you remember ______ the **fish** while I'm **on holiday**?  
    options: ✔ to feed · feeding · feed · fed  
-   why: "While I'm away" is the future: a task still to do, so remember + to + base (to feed).
+   why: "While I'm …" is later: a task still to do: remember + to feed.
 
 6. Please remember ______ the **tomatoes** every morning, **Malika**.  
    options: watering · water · watered · ✔ to water  
@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. Always remember ______ off the **heater** before you go to **bed**.  
    options: turn · turned · ✔ to turn · turning  
-   why: "Always … before you go to bed": a task still to do, so remember + to + base (to turn).
+   why: "Always … before you go to …": a task each time: remember + to turn.
 
 8. I'll remember ______ you the photos from **Bukhara**, **Sardor**.  
    options: sent · ✔ to send · sending · send  
@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. I always remember ______ my **laptop** at **the weekend**.  
    options: charge · charged · ✔ to charge · charging  
-   why: "Always" = a habit, a task each night: a task still to do, so remember + to + base (to charge).
+   why: "Always" = a habit, a task each time: remember + to charge.
 
 16. Remember ______ a lot of water in the **gym**, **Zarina**.  
    options: drank · ✔ to drink · drinking · drink  

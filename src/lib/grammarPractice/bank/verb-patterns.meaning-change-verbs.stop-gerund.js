@@ -99,7 +99,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The baby stopped ______ when her {who} came home.",
+  "prompt": "The {kid} stopped ______ when her {who} came home.",
   "options": [
    "cried",
    "crying",
@@ -114,6 +114,12 @@ export default [
     "father",
     "grandma",
     "sister"
+   ],
+   "kid": [
+    "baby",
+    "little girl",
+    "toddler",
+    "girl"
    ]
   }
  },
@@ -125,7 +131,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My uncle has stopped ______ {food}. The doctor said it was bad for him.",
+  "prompt": "My {rel} has stopped ______ {food}. The doctor said it was bad for him.",
   "options": [
    "eating",
    "to eat",
@@ -140,6 +146,12 @@ export default [
     "fried food",
     "fast food",
     "fatty meat"
+   ],
+   "rel": [
+    "uncle",
+    "grandpa",
+    "dad",
+    "brother"
    ]
   }
  },
@@ -183,7 +195,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Everyone stopped ______ when the {who} came in.",
+  "prompt": "{grp} stopped ______ when the {who} came in.",
   "options": [
    "laugh",
    "laughed",
@@ -198,6 +210,12 @@ export default [
     "director",
     "boss",
     "coach"
+   ],
+   "grp": [
+    "Everyone",
+    "The children",
+    "The students",
+    "We all"
    ]
   }
  },
@@ -305,7 +323,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "She stopped ______ {drink} after six to sleep better.",
+  "prompt": "She stopped ______ {drink} after {h} to sleep better.",
   "options": [
    "drink",
    "drank",
@@ -320,6 +338,12 @@ export default [
     "strong tea",
     "cola",
     "energy drinks"
+   ],
+   "h": [
+    "six",
+    "five",
+    "seven",
+    "eight"
    ]
   }
  },
@@ -427,7 +451,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My {who} stopped ______ newspapers years ago.",
+  "prompt": "My {who} stopped ______ {what} years ago.",
   "options": [
    "buy",
    "bought",
@@ -442,6 +466,12 @@ export default [
     "grandparents",
     "neighbours",
     "uncles"
+   ],
+   "what": [
+    "newspapers",
+    "magazines",
+    "CDs",
+    "DVDs"
    ]
   }
  },
@@ -517,7 +547,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "This {tree} stopped ______ years ago.",
+  "prompt": "This {tree} stopped ______ {ago} ago.",
   "options": [
    "to grow",
    "grow",
@@ -532,6 +562,12 @@ export default [
     "palm tree",
     "plant",
     "vine"
+   ],
+   "ago": [
+    "years",
+    "months",
+    "two years",
+    "a long time"
    ]
   }
  },
@@ -543,7 +579,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Never stop ______, {name}. Even at seventy!",
+  "prompt": "Never stop ______, {name}. Even at {age}!",
   "options": [
    "learn",
    "learned",
@@ -558,6 +594,12 @@ export default [
     "Malika",
     "Otabek",
     "Dilnoza"
+   ],
+   "age": [
+    "seventy",
+    "eighty",
+    "sixty",
+    "ninety"
    ]
   }
  },
@@ -569,7 +611,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The phone in the {room} finally stopped ______.",
+  "prompt": "The phone in the {room} {adv} stopped ______.",
   "options": [
    "rang",
    "ringing",
@@ -584,6 +626,12 @@ export default [
     "hall",
     "kitchen",
     "classroom"
+   ],
+   "adv": [
+    "finally",
+    "suddenly",
+    "just",
+    "soon"
    ]
   }
  },
@@ -596,7 +644,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "My dad stopped ______ (work) at the {place} last year.",
+  "source": "My {rel} stopped ______ (work) at the {place} last year.",
   "key": "working",
   "why": "The activity ends: stop + -ing (working).",
   "slots": {
@@ -605,6 +653,12 @@ export default [
     "bank",
     "bazaar",
     "hospital"
+   ],
+   "rel": [
+    "dad",
+    "mum",
+    "uncle",
+    "aunt"
    ]
   }
  },
@@ -719,7 +773,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "The children stopped ______ (play) in the {place} when it got dark.",
+  "source": "The {kids} stopped ______ (play) in the {place} when it got dark.",
   "key": "playing",
   "why": "The activity ends: stop + -ing (playing).",
   "slots": {
@@ -728,6 +782,12 @@ export default [
     "park",
     "street",
     "garden"
+   ],
+   "kids": [
+    "children",
+    "kids",
+    "boys",
+    "girls"
    ]
   }
  },
@@ -767,7 +827,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "It stopped ______ (snow) in the morning, so we went to the {place}.",
+  "source": "It stopped ______ (snow) in the {time}, so we went to the {place}.",
   "key": "snowing",
   "why": "The activity ends: stop + -ing (snowing).",
   "slots": {
@@ -776,6 +836,12 @@ export default [
     "park",
     "school",
     "shops"
+   ],
+   "time": [
+    "morning",
+    "afternoon",
+    "night",
+    "evening"
    ]
   }
  },
@@ -917,7 +983,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "My sister stopped ______ (buy) clothes online after a bad {thing}.",
+  "source": "My {rel} stopped ______ (buy) clothes online after a bad {thing}.",
   "key": "buying",
   "why": "The activity ends: stop + -ing (buying).",
   "slots": {
@@ -926,6 +992,12 @@ export default [
     "experience",
     "delivery",
     "dress"
+   ],
+   "rel": [
+    "sister",
+    "aunt",
+    "mum",
+    "cousin"
    ]
   }
  },
@@ -992,7 +1064,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "The alarm stopped ______ (ring) after {n} minutes.",
+  "source": "The {dev} stopped ______ (ring) after {n} minutes.",
   "key": "ringing",
   "why": "The activity ends: stop + -ing (ringing).",
   "slots": {
@@ -1001,6 +1073,12 @@ export default [
     "five",
     "ten",
     "three"
+   ],
+   "dev": [
+    "alarm",
+    "phone",
+    "bell",
+    "doorbell"
    ]
   }
  },
@@ -1013,7 +1091,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "The activity ends. Complete with the right form of the verb in brackets.",
-  "source": "She stopped ______ (go) to the {place} because it was too expensive.",
+  "source": "She stopped ______ (go) to the {place} because it was too {adj}.",
   "key": "going",
   "why": "The activity ends: stop + -ing (going).",
   "slots": {
@@ -1022,6 +1100,12 @@ export default [
     "pool",
     "club",
     "café"
+   ],
+   "adj": [
+    "expensive",
+    "far",
+    "crowded",
+    "noisy"
    ]
   }
  },
@@ -1172,8 +1256,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The baby stopped cried when her {who} came.",
-  "hint": "The baby stopped ______ when her {who} came.",
+  "source": "The {kid} stopped cried when her {who} came.",
+  "hint": "The {kid} stopped ______ when her {who} came.",
   "key": "crying",
   "why": "stop + -ing: crying.",
   "slots": {
@@ -1182,6 +1266,12 @@ export default [
     "father",
     "grandma",
     "sister"
+   ],
+   "kid": [
+    "baby",
+    "little girl",
+    "toddler",
+    "girl"
    ]
   }
  },
@@ -1225,7 +1315,7 @@ export default [
   "source": "I don't drink {drink} any more, {name}.",
   "hint": "I stopped ______ {drink}, {name}.",
   "key": "drinking",
-  "why": "Not any more = stopped + -ing.",
+  "why": "don't drink … any more → stopped drinking.",
   "slots": {
    "drink": [
     "coffee",
@@ -1253,7 +1343,7 @@ export default [
   "source": "My parents don't buy {thing} any more, {name}.",
   "hint": "My parents stopped ______ {thing}, {name}.",
   "key": "buying",
-  "why": "Not any more = stopped + -ing.",
+  "why": "don't buy … any more → stopped buying.",
   "slots": {
    "thing": [
     "newspapers",
@@ -1281,7 +1371,7 @@ export default [
   "source": "We don't watch that {show} any more, {name}.",
   "hint": "We stopped ______ that {show}, {name}.",
   "key": "watching",
-  "why": "Not any more = stopped + -ing.",
+  "why": "don't watch … any more → stopped watching.",
   "slots": {
    "show": [
     "series",
@@ -1309,7 +1399,7 @@ export default [
   "source": "She doesn't go to the {place} any more, {name}.",
   "hint": "She stopped ______ to the {place}, {name}.",
   "key": "going",
-  "why": "Not any more = stopped + -ing.",
+  "why": "doesn't go … any more → stopped going.",
   "slots": {
    "place": [
     "gym",
@@ -1334,16 +1424,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with stopped + -ing.",
-  "source": "My grandpa doesn't drive in {city} any more.",
-  "hint": "My grandpa stopped ______ in {city}.",
+  "source": "My {rel} doesn't drive in {city} any more.",
+  "hint": "My {rel} stopped ______ in {city}.",
   "key": "driving",
-  "why": "Not any more = stopped + -ing.",
+  "why": "doesn't drive … any more → stopped driving.",
   "slots": {
    "city": [
     "Tashkent",
     "Moscow",
     "Almaty",
     "Samarkand"
+   ],
+   "rel": [
+    "grandpa",
+    "grandma",
+    "dad",
+    "uncle"
    ]
   }
  },
@@ -1359,7 +1455,7 @@ export default [
   "source": "Don't make so much noise in the {room}, {name}!",
   "hint": "Stop ______ so much noise in the {room}, {name}!",
   "key": "making",
-  "why": "Don't X = Stop X-ing.",
+  "why": "Don't make → Stop making.",
   "slots": {
    "room": [
     "kitchen",
@@ -1387,7 +1483,7 @@ export default [
   "source": "Don't worry about the {test}, {name}!",
   "hint": "Stop ______ about the {test}, {name}!",
   "key": "worrying",
-  "why": "Don't X = Stop X-ing.",
+  "why": "Don't worry → Stop worrying.",
   "slots": {
    "test": [
     "exam",
@@ -1415,7 +1511,7 @@ export default [
   "source": "Don't shout at your {who}, {name}!",
   "hint": "Stop ______ at your {who}, {name}!",
   "key": "shouting",
-  "why": "Don't X = Stop X-ing.",
+  "why": "Don't shout → Stop shouting.",
   "slots": {
    "who": [
     "brother",
@@ -1443,7 +1539,7 @@ export default [
   "source": "Don't play games now. Do your {work}, {name}!",
   "hint": "Stop ______ games now. Do your {work}, {name}!",
   "key": "playing",
-  "why": "Don't X = Stop X-ing.",
+  "why": "Don't play → Stop playing.",
   "slots": {
    "work": [
     "homework",
@@ -1471,7 +1567,7 @@ export default [
   "source": "Don't complain about the {thing}, {name}!",
   "hint": "Stop ______ about the {thing}, {name}!",
   "key": "complaining",
-  "why": "Don't X = Stop X-ing.",
+  "why": "Don't complain → Stop complaining.",
   "slots": {
    "thing": [
     "food",
