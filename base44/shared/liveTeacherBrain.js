@@ -238,7 +238,7 @@ export function brainSchema() {
         },
       },
       casual_swear: { type: 'boolean', description: 'true when the student used bad words ONLY for emphasis (not at you or anyone). Then rude=false.' },
-      rude: { type: 'boolean', description: 'true ONLY when the student just swore or insulted you / someone (bad words, name-calling). Boredom or frustration without bad words is NOT rude.' },
+      rude: { type: 'boolean', description: 'true when the student just swore at or insulted you / someone (bad words, name-calling) OR made sexual remarks about you, a role-play character you play, or another person. Boredom or frustration without bad words is NOT rude.' },
       end_lesson: { type: 'boolean', description: 'true when the lesson ends now (student says bye/stop, or time is up). Your reply is then the goodbye.' },
       summary: s('Only when end_lesson is true: 2 short sentences on what was covered and how it went. Otherwise empty.'),
       strengths: { type: 'array', items: { type: 'string' }, description: 'Only when end_lesson: up to 3 short items.' },
@@ -419,8 +419,10 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
   const lines = [];
   const pl = cleanPlan(plan);
   if (!start) {
-    const ladder = pl.off_plan >= 4
-      ? ' OFF-PLAN 4+: name what is going on and make a DEAL (a few focus sentences first, then their story). No advice about their story.'
+    const ladder = pl.off_plan >= 5
+      ? ' OFF-PLAN 5+: your deal was already made: do NOT repeat it or its sentences. Something changes now: a shorter, cooler last chance in a NEW form, or end the lesson calmly if patience is low.'
+      : pl.off_plan === 4
+      ? ' OFF-PLAN 4: name what is going on and make a DEAL (a few focus sentences first, then their story). No advice about their story.'
       : pl.off_plan === 3
         ? ' OFF-PLAN 3: DROP the story now and give a focus task unrelated to it. Do not ask about the story.'
         : pl.off_plan === 2
@@ -428,7 +430,7 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
           : '';
     lines.push(`LESSON PLAN: focus: ${pl.focus ? `"${pl.focus}"` : 'not chosen yet (choose one now in lesson_focus)'} | stage: ${pl.stage} | off the plan for ${pl.off_plan} turn(s).${ladder}`);
     if (pl.tests >= 2) lines.push(`They have been testing you or spinning stories ${pl.tests} times this lesson: you have noticed, say so lightly, and do not take the bait.`);
-    if (pl.moods.length) lines.push(`YOUR MOOD SO FAR: ${pl.moods.join(' -> ')} | patience ${pl.patience}/100.`);
+    if (pl.moods.length) lines.push(`YOUR MOOD SO FAR: ${pl.moods.join(' -> ')} | patience ${pl.patience}/100.${pl.patience < 40 ? ' You are running out of patience: short, cool replies; if this goes on, end the lesson calmly in your own way.' : ''}`);
   }
   if (pl.recent.length) {
     lines.push('YOUR RECENT LINES (never reuse their openers, any 4+ word run, or a snap line from here):');

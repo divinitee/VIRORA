@@ -40,6 +40,7 @@ const has = (text, words) => words.some((w) => text.includes(w));
 const RUDE = [
   // English
   'fuck', 'fck', 'fuk', 'shit', 'bitch', 'ashole', 'bastard', 'cunt', 'dick', 'motherfucker', 'wtf', 'stfu', 'piss of',
+  'penetrat', 'pussy', 'boobs', 'nudes', 'blowjob', 'horny', 'cum ', 'my dick', 'your ass',
   'shut up', 'you are stupid', 'you\'re stupid', 'you are dumb', 'you\'re dumb', 'you idiot', 'dumb bitch', 'go to hel',
   // Russian (mat + common insults), "блин" is NOT here
   'бля', 'нахуй', 'нахуя', 'похуй', 'нахер', 'хуй', 'хуе', 'хуё', 'хуя', 'пизд', 'ебат', 'ебан', 'ебал', 'ёбан', 'заеб', 'заёб', 'выеб', 'уеб', 'сука', 'суки', 'сучк',

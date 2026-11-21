@@ -449,3 +449,20 @@ test('masterV0 (bar test): off-plan ladder escalates, live-drama + leaving rows,
   pl = planAfter(pl, { read: { intent: 'escape_lesson', drift: 'off_lesson', her_mood: 'firm' }, reply: 'b' });
   assert.equal(pl.tests, 2);
 });
+
+test('masterV0 (shop test): deal made once, mood carries into the task, sexual remarks at her = strike', async () => {
+  const { buildTurnMessage, buildBrainInstructions, brainSchema } = await import('../../base44/shared/liveTeacherBrain.js');
+  const { isRude } = await import('../../src/lib/liveTeacher/fillerMood.js');
+  const msg = (n, patience = 70) => buildTurnMessage({ persona: 'vira', studentText: 'x', plan: { focus: 'polite requests', off_plan: n, moods: ['firm'], patience } });
+  assert.match(msg(4), /OFF-PLAN 4: name what is going on and make a DEAL/);
+  assert.match(msg(6), /OFF-PLAN 5\+: your deal was already made: do NOT repeat it/);
+  assert.match(msg(6, 30), /running out of patience/);
+  assert.doesNotMatch(msg(6, 70), /running out of patience/);
+  const p = buildBrainInstructions({ persona: 'vira' });
+  assert.match(p, /shapes the TASK/);
+  assert.match(p, /sexual remarks about YOU or a role-play character/);
+  assert.match(p, /Never give the same task or the same example sentences two turns in a row/);
+  assert.match(brainSchema().properties.rude.description, /sexual remarks/);
+  assert.ok(isRude('I need this in order to penetrate you'));
+  assert.ok(!isRude('Could you help me find the headphones section?'));
+});
