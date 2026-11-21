@@ -34,7 +34,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 8. My **phone** rang, so I stopped ______ it, **Otabek**.  
    options: answered · ✔ to answer · answering · answer  
-   why: The phone rang, so we stopped in order to do it: stop + to + base (to answer).
+   why: Something rang, so I stopped in order to answer it: stop + to + base.
 
 9. His shoelace was loose, so he stopped ______ it in the **corridor**, **Malika**.  
    options: ✔ to tie · tying · tie · tied  

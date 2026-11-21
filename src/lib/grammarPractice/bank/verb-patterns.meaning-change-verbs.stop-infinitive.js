@@ -241,7 +241,7 @@ export default [
    "answer"
   ],
   "key": 1,
-  "why": "The phone rang, so we stopped in order to do it: stop + to + base (to answer).",
+  "why": "Something rang, so I stopped in order to answer it: stop + to + base.",
   "slots": {
    "name": [
     "Zarina",

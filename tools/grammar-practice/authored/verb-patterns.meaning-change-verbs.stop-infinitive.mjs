@@ -147,7 +147,7 @@ const VARIETY = {
    "",
    "",
    "",
-   "",
+   "Something rang, so I stopped in order to answer it: stop + to + base.",
    "",
    "I saw an old …, so we stopped in order to do it: stop + to + base (to talk).",
    "",
