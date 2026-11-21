@@ -387,7 +387,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I didn't hear ______ the teacher said, {name}.",
+  "prompt": "I didn't hear ______ the {who} said, {name}.",
   "options": [
    "what",
    "which",
@@ -395,13 +395,19 @@ export default [
    "who"
   ],
   "key": 0,
-  "why": "No noun before it: what = the thing that.",
+  "why": "Nothing before the gap but hear: what = the words that.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "who": [
+    "teacher",
+    "doctor",
+    "driver",
+    "guide"
    ]
   }
  },
@@ -445,7 +451,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "______ I need now is a long {rest}.",
+  "prompt": "______ I need {when} is a long {rest}.",
   "options": [
    "That",
    "Who",
@@ -460,6 +466,12 @@ export default [
     "sleep",
     "walk",
     "break"
+   ],
+   "when": [
+    "now",
+    "today",
+    "this week",
+    "tonight"
    ]
   }
  },
@@ -479,7 +491,7 @@ export default [
    "that"
   ],
   "key": 1,
-  "why": "No noun before it: what = the thing that.",
+  "why": "\"not … I ordered\", no noun: what = the thing that.",
   "slots": {
    "name": [
     "Aziz",
@@ -535,7 +547,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I can't believe ______ he did at the {event}.",
+  "prompt": "I can't {v} ______ he did at the {event}.",
   "options": [
    "which",
    "that",
@@ -550,6 +562,12 @@ export default [
     "wedding",
     "match",
     "meeting"
+   ],
+   "v": [
+    "believe",
+    "forget",
+    "understand",
+    "explain"
    ]
   }
  },
@@ -593,7 +611,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "______ we ate in {city} was amazing.",
+  "prompt": "______ we {verb} in {city} was amazing.",
   "options": [
    "Who",
    "What",
@@ -608,6 +626,12 @@ export default [
     "Bukhara",
     "Khiva",
     "Termez"
+   ],
+   "verb": [
+    "ate",
+    "saw",
+    "bought",
+    "heard"
    ]
   }
  },
@@ -872,7 +896,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write which or what.",
-  "source": "{name} forgot my birthday, ______ made me sad.",
+  "source": "{name} forgot my birthday, ______ made me {feel}.",
   "key": "which",
   "why": "After a comma, about forgetting my birthday: which.",
   "slots": {
@@ -881,6 +905,12 @@ export default [
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "feel": [
+    "sad",
+    "angry",
+    "upset",
+    "unhappy"
    ]
   }
  },
@@ -947,7 +977,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write which or what.",
-  "source": "She helped me with my {work}, ______ was very kind of her.",
+  "source": "She helped me with my {work}, ______ was very {adj} of her.",
   "key": "which",
   "why": "After a comma, about her help: which.",
   "slots": {
@@ -956,6 +986,12 @@ export default [
     "essay",
     "project",
     "move"
+   ],
+   "adj": [
+    "kind",
+    "nice",
+    "good",
+    "sweet"
    ]
   }
  },
@@ -995,7 +1031,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write which or what.",
-  "source": "______ I like most about {city} is the food.",
+  "source": "______ I like most about {city} is the {what}.",
   "key": "What",
   "why": "At the start, no noun: What I like.",
   "slots": {
@@ -1004,6 +1040,12 @@ export default [
     "Bukhara",
     "Khiva",
     "Termez"
+   ],
+   "what": [
+    "food",
+    "people",
+    "weather",
+    "music"
    ]
   }
  },
@@ -1099,7 +1141,7 @@ export default [
   "instr": "Write which or what.",
   "source": "We can't change ______ happened {when}, {name}.",
   "key": "what",
-  "why": "No noun before it: what happened.",
+  "why": "\"We can't change …\", no noun after it: what happened.",
   "slots": {
    "when": [
     "yesterday",
@@ -1234,7 +1276,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "After a noun (the …): which, not what.",
+  "why": "\"the … I told you about\" has a noun first: which.",
   "slots": {
    "thing": [
     "book",
@@ -1570,7 +1612,7 @@ export default [
   "source": "The thing that I like about my {place} is the view, {name}.",
   "hint": "______ I like about my {place} is the view, {name}.",
   "key": "What",
-  "why": "The thing that → What.",
+  "why": "The thing that I like → What I like.",
   "slots": {
    "place": [
     "flat",

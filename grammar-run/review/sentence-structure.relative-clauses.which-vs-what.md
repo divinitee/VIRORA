@@ -52,42 +52,42 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: where · ✔ which · what · who  
    why: After a comma, about him cooking: which.
 
-13. I didn't hear ______ the teacher said, **Lola**.  
+13. I didn't hear ______ the **teacher** said, **Lola**.  
    options: ✔ what · which · that · who  
-   why: No noun before it: what = the thing that.
+   why: Nothing before the gap but hear: what = the words that.
 
-14. Thank you for ______ you did for us **yesterday**, **Olga**.  
+14. Thank you for ______ you did for us **last night**, **Lola**.  
    options: which · that · who · ✔ what  
    why: No noun before it: what = the things that.
 
-15. ______ I need now is a long **break**.  
+15. ______ I need **today** is a long **holiday**.  
    options: That · Who · ✔ What · Which  
    why: No noun before it: What = the thing that.
 
-16. That's not ______ I ordered, **Aziz**. I asked for **soup**.  
+16. That's not ______ I ordered, **Timur**. I asked for **a salad**.  
    options: who · ✔ what · which · that  
-   why: No noun before it: what = the thing that.
+   why: "not … I ordered", no noun: what = the thing that.
 
-17. This **dress** is exactly ______ I wanted, **Timur**!  
+17. This **bike** is exactly ______ I wanted, **Aziz**!  
    options: ✔ what · which · that · who  
    why: After exactly, no noun: what.
 
-18. I can't believe ______ he did at the **wedding**.  
+18. I can't **forget** ______ he did at the **meeting**.  
    options: which · that · who · ✔ what  
    why: After believe, no noun: what.
 
-19. Did you understand ______ she said in **Russian**, **Lola**?  
+19. Did you understand ______ she said in **Russian**, **Timur**?  
    options: that · who · ✔ what · which  
    why: After understand, no noun: what.
 
-20. ______ we ate in **Bukhara** was amazing.  
+20. ______ we **ate** in **Bukhara** was amazing.  
    options: Who · ✔ What · Which · That  
    why: No noun before it: What = the food that.
 
 ## build (20)
 
 1. _Write which or what._  
-   The **scarf** ______ you gave me is lovely, **Timur**.  
+   The **plant** ______ you gave me is lovely, **Olga**.  
    key: which (also: that)  
    why: A noun comes first (the …): which.
 
@@ -97,186 +97,186 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A noun comes first (the …): which, then you sent.
 
 3. _Write which or what._  
-   The **phone** ______ stopped working **last night** was new, **Olga**.  
+   The **phone** ______ stopped working **yesterday** was new, **Lola**.  
    key: which (also: that)  
    why: A noun comes first: the … which stopped.
 
 4. _Write which or what._  
-   We stayed in a hotel ______ had a big **pool**, **Lola**.  
+   We stayed in a hotel ______ had a big **garden**, **Aziz**.  
    key: which (also: that)  
    why: A noun comes first (a hotel): which.
 
 5. _Write which or what._  
-   Where is the **cake** ______ was on the table, **Lola**?  
+   Where is the **money** ______ was on the table, **Olga**?  
    key: which (also: that)  
    why: A noun comes first: the … which was.
 
 6. _Write which or what._  
-   The **play** ______ we saw in **Samarkand** was boring.  
+   The **concert** ______ we saw in **Khiva** was boring.  
    key: which (also: that)  
    why: A noun comes first: the … which we saw.
 
 7. _Write which or what._  
-   Can I borrow the **ladder** ______ you bought **last night**, **Lola**?  
+   Can I borrow the **drill** ______ you bought **yesterday**, **Olga**?  
    key: which (also: that)  
    why: A noun comes first: the … which you bought.
 
 8. _Write which or what._  
-   I like songs ______ make me **happy**, **Aziz**.  
+   I like songs ______ make me **dance**, **Aziz**.  
    key: which (also: that)  
    why: A noun comes first (songs): which.
 
 9. _Write which or what._  
-   **Aziz** forgot my birthday, ______ made me sad.  
+   **Timur** forgot my birthday, ______ made me **upset**.  
    key: which  
    why: After a comma, about forgetting my birthday: which.
 
 10. _Write which or what._  
-   The train was late **today**, ______ was a problem for everyone, **Aziz**.  
+   The train was late **this morning**, ______ was a problem for everyone, **Lola**.  
    key: which  
    why: After a comma, about the late train: which.
 
 11. _Write which or what._  
-   We won the **match**, ______ nobody expected, **Olga**.  
+   We won the **final**, ______ nobody expected, **Olga**.  
    key: which  
    why: After a comma, about our win: which.
 
 12. _Write which or what._  
-   She helped me with my **project**, ______ was very kind of her.  
+   She helped me with my **essay**, ______ was very **nice** of her.  
    key: which  
    why: After a comma, about her help: which.
 
 13. _Write which or what._  
-   Tell me ______ happened at the **match**, **Lola**.  
+   Tell me ______ happened at the **meeting**, **Olga**.  
    key: what  
    why: No noun before it: what happened.
 
 14. _Write which or what._  
-   ______ I like most about **Bukhara** is the food.  
+   ______ I like most about **Bukhara** is the **people**.  
    key: What  
    why: At the start, no noun: What I like.
 
 15. _Write which or what._  
-   I don't remember ______ he said **last night**, **Olga**.  
+   I don't remember ______ he said **yesterday**, **Timur**.  
    key: what  
    why: No noun before it: what he said.
 
 16. _Write which or what._  
-   Please show me ______ you bought at the **mall**, **Lola**.  
+   Please show me ______ you bought at the **bazaar**, **Olga**.  
    key: what  
    why: No noun before it: what you bought.
 
 17. _Write which or what._  
-   ______ you need is a good **breakfast**, **Olga**.  
+   ______ you need is a good **map**, **Lola**.  
    key: What  
    why: At the start, no noun: What you need.
 
 18. _Write which or what._  
-   We can't change ______ happened **last night**, **Aziz**.  
+   We can't change ______ happened **last week**, **Lola**.  
    key: what  
-   why: No noun before it: what happened.
+   why: "We can't change …", no noun after it: what happened.
 
 19. _Write which or what._  
-   Is this ______ you were looking for, **Timur**?  
+   Is this ______ you were looking for, **Lola**?  
    key: what  
    why: No noun before it: what you were looking for.
 
 20. _Write which or what._  
-   I'll do ______ I can to help you with the **move**.  
+   I'll do ______ I can to help you with the **project**.  
    key: what  
    why: No noun before it: what I can.
 
 ## transform (15)
 
 1. _Correct the mistake._  
-   The **file** what you sent me is broken, **Lola**.  
-   → The **file** ______ you sent me is broken, **Lola**.  
+   The **parcel** what you sent me is broken, **Timur**.  
+   → The **parcel** ______ you sent me is broken, **Timur**.  
    key: which (also: that)  
    why: After a noun, never what: which.
 
 2. _Correct the mistake._  
-   I liked the **samsa** what your mum cooked **last week**.  
-   → I liked the **samsa** ______ your mum cooked **last week**.  
+   I liked the **plov** what your mum cooked **last night**.  
+   → I liked the **plov** ______ your mum cooked **last night**.  
    key: which (also: that)  
    why: After a noun (the …): which, not what.
 
 3. _Correct the mistake._  
-   This is the **game** what I told you about, **Lola**.  
-   → This is the **game** ______ I told you about, **Lola**.  
+   This is the **café** what I told you about, **Aziz**.  
+   → This is the **café** ______ I told you about, **Aziz**.  
    key: which (also: that)  
-   why: After a noun (the …): which, not what.
+   why: "the … I told you about" has a noun first: which.
 
 4. _Correct the mistake._  
-   **Bekzod** lost his **wallet**, what was a big problem.  
-   → **Bekzod** lost his **wallet**, ______ was a big problem.  
+   **Timur** lost his **wallet**, what was a big problem.  
+   → **Timur** lost his **wallet**, ______ was a big problem.  
    key: which  
    why: After a comma about the whole idea: which, not what.
 
 5. _Correct the mistake._  
-   It snowed all **morning**, what was beautiful, **Aziz**.  
-   → It snowed all **morning**, ______ was beautiful, **Aziz**.  
+   It snowed all **morning**, what was beautiful, **Olga**.  
+   → It snowed all **morning**, ______ was beautiful, **Olga**.  
    key: which  
    why: After a comma about the snow: which, not what.
 
 6. _Correct the mistake._  
-   I don't understand that you said **in class**, **Olga**.  
-   → I don't understand ______ you said **in class**, **Olga**.  
+   I don't understand that you said **at lunch**, **Aziz**.  
+   → I don't understand ______ you said **at lunch**, **Aziz**.  
    key: what  
    why: No noun: what, not that.
 
 7. _Correct the mistake._  
-   Which I need is a new **phone**, **Olga**.  
-   → ______ I need is a new **phone**, **Olga**.  
+   Which I need is a new **laptop**, **Timur**.  
+   → ______ I need is a new **laptop**, **Timur**.  
    key: What  
    why: At the start, no noun: What, not Which.
 
 8. _Correct the mistake._  
-   Thank you for that you did **on Friday**, **Timur**.  
-   → Thank you for ______ you did **on Friday**, **Timur**.  
+   Thank you for that you did **last night**, **Aziz**.  
+   → Thank you for ______ you did **last night**, **Aziz**.  
    key: what  
    why: No noun after for: what, not that.
 
 9. _Correct the mistake._  
-   That's exactly which I wanted for my **trip**, **Lola**!  
-   → That's exactly ______ I wanted for my **trip**, **Lola**!  
+   That's exactly which I wanted for my **kitchen**, **Olga**!  
+   → That's exactly ______ I wanted for my **kitchen**, **Olga**!  
    key: what  
    why: No noun after exactly: what, not which.
 
 10. _Correct the mistake._  
-   Tell me which happened in **Samarkand**, **Olga**.  
-   → Tell me ______ happened in **Samarkand**, **Olga**.  
+   Tell me which happened in **Termez**, **Timur**.  
+   → Tell me ______ happened in **Termez**, **Timur**.  
    key: what  
    why: No noun after Tell me: what, not which.
 
 11. _Rewrite with what._  
-   The thing that I need is a long **walk**, **Olga**.  
-   → ______ I need is a long **walk**, **Olga**.  
+   The thing that I need is a long **sleep**, **Aziz**.  
+   → ______ I need is a long **sleep**, **Aziz**.  
    key: What  
    why: The thing that → What.
 
 12. _Rewrite with what._  
-   I didn't hear the thing that you said **just now**, **Lola**.  
-   → I didn't hear ______ you said **just now**, **Lola**.  
+   I didn't hear the thing that you said **at lunch**, **Lola**.  
+   → I didn't hear ______ you said **at lunch**, **Lola**.  
    key: what  
    why: the thing that → what.
 
 13. _Rewrite with what._  
-   The things that we saw in **Bukhara** were amazing, **Lola**.  
-   → ______ we saw in **Bukhara** was amazing, **Lola**.  
+   The things that we saw in **Bukhara** were amazing, **Aziz**.  
+   → ______ we saw in **Bukhara** was amazing, **Aziz**.  
    key: What  
    why: The things that → What (with was).
 
 14. _Rewrite with what._  
-   Show me the things that you bought at the **market**, **Olga**.  
-   → Show me ______ you bought at the **market**, **Olga**.  
+   Show me the things that you bought at the **bazaar**, **Timur**.  
+   → Show me ______ you bought at the **bazaar**, **Timur**.  
    key: what  
    why: the things that → what.
 
 15. _Rewrite with what._  
-   The thing that I like about my **flat** is the view, **Lola**.  
-   → ______ I like about my **flat** is the view, **Lola**.  
+   The thing that I like about my **room** is the view, **Timur**.  
+   → ______ I like about my **room** is the view, **Timur**.  
    key: What  
-   why: The thing that → What.
+   why: The thing that I like → What I like.
 
 ## create (8)
 

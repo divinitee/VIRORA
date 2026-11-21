@@ -210,94 +210,94 @@ const VARIETY = {
    "The things that → What (with was).",
    "the things that → what.",
    "The thing that I like → What I like."
-  ],
-  "slot": [
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   13,
+   "teacher",
+   "who",
    [
-    "choose",
-    13,
     "teacher",
-    "who",
-    [
-     "teacher",
-     "doctor",
-     "driver",
-     "guide"
-    ]
-   ],
+    "doctor",
+    "driver",
+    "guide"
+   ]
+  ],
+  [
+   "choose",
+   15,
+   "now",
+   "when",
    [
-    "choose",
-    15,
     "now",
-    "when",
-    [
-     "now",
-     "today",
-     "this week",
-     "tonight"
-    ]
-   ],
+    "today",
+    "this week",
+    "tonight"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "believe",
+   "v",
    [
-    "choose",
-    18,
     "believe",
-    "v",
-    [
-     "believe",
-     "forget",
-     "understand",
-     "explain"
-    ]
-   ],
+    "forget",
+    "understand",
+    "explain"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "ate",
+   "verb",
    [
-    "choose",
-    20,
     "ate",
-    "verb",
-    [
-     "ate",
-     "saw",
-     "bought",
-     "heard"
-    ]
-   ],
+    "saw",
+    "bought",
+    "heard"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "sad",
+   "feel",
    [
-    "build",
-    9,
     "sad",
-    "feel",
-    [
-     "sad",
-     "angry",
-     "upset",
-     "unhappy"
-    ]
-   ],
+    "angry",
+    "upset",
+    "unhappy"
+   ]
+  ],
+  [
+   "build",
+   12,
+   "kind",
+   "adj",
    [
-    "build",
-    12,
     "kind",
-    "adj",
-    [
-     "kind",
-     "nice",
-     "good",
-     "sweet"
-    ]
-   ],
+    "nice",
+    "good",
+    "sweet"
+   ]
+  ],
+  [
+   "build",
+   14,
+   "food",
+   "what",
    [
-    "build",
-    14,
     "food",
-    "what",
-    [
-     "food",
-     "people",
-     "weather",
-     "music"
-    ]
+    "people",
+    "weather",
+    "music"
    ]
   ]
- }
+ ]
 };
 {
   const byStage = (st) => items.filter((it) => it.stage === st);
