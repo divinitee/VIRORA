@@ -200,7 +200,57 @@ const VARIETY = {
    "",
    ""
   ]
- }
+ },
+ "slot": [
+  [
+   "choose",
+   8,
+   "phone",
+   "dev",
+   [
+    "phone",
+    "doorbell",
+    "mobile",
+    "work phone"
+   ]
+  ],
+  [
+   "build",
+   1,
+   "juice",
+   "drink",
+   [
+    "juice",
+    "water",
+    "tea",
+    "lemonade"
+   ]
+  ],
+  [
+   "build",
+   4,
+   "shade",
+   "where",
+   [
+    "shade",
+    "park",
+    "café",
+    "garden"
+   ]
+  ],
+  [
+   "build",
+   10,
+   "friend",
+   "who",
+   [
+    "friend",
+    "classmate",
+    "neighbour",
+    "teacher"
+   ]
+  ]
+ ]
 };
 {
   const byStage = (st) => items.filter((it) => it.stage === st);

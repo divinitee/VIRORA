@@ -167,7 +167,7 @@ const VARIETY = {
   ],
   "build": [
    "",
-   "",
+   "\"so I stopped\" + a purpose (to get juice): to drink.",
    "",
    "",
    "",
@@ -188,11 +188,11 @@ const VARIETY = {
    ""
   ],
   "transform": [
-   "",
-   "",
-   "",
-   "",
-   "",
+   "No longer a habit: doesn't … any more → stopped drinking.",
+   "No longer a habit: don't … any more → stopped going.",
+   "No longer a habit: doesn't … any more → stopped playing.",
+   "No longer a habit: don't … any more → stopped buying.",
+   "No longer a habit: don't … any more → stopped using.",
    "",
    "",
    "",
