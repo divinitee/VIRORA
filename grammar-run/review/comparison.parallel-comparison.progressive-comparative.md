@@ -134,7 +134,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 10. _Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets._  
    Our **bakery** is getting ______ (busy) before Navruz, **Feruza**.  
    key: busier and busier (also: more and more busy)  
-   why: busy ends in -y: busier and busier.
+   why: busy → busier (y → ier), said twice: busier and busier.
 
 11. _Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets._  
    The queue at the **museum** got ______ (long), **Sardor**.  

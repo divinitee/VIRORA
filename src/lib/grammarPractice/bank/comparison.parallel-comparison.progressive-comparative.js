@@ -898,7 +898,7 @@ export default [
   "acceptable": [
    "more and more busy"
   ],
-  "why": "busy ends in -y: busier and busier.",
+  "why": "busy → busier (y → ier), said twice: busier and busier.",
   "slots": {
    "shop": [
     "shop",

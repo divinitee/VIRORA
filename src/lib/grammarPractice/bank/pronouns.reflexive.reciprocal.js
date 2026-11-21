@@ -1039,7 +1039,7 @@ export default [
   "acceptable": [
    "one another's"
   ],
-  "why": "… that belong to the other: each other's.",
+  "why": "Belonging to the other person: each other's.",
   "slots": {
    "g": [
     "Olga",

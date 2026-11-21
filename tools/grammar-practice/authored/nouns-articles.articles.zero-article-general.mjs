@@ -204,7 +204,7 @@ const VARIETY = {
    "Air and children in general: no the.",
    "Sport and health in general: no the.",
    "Only the apples from our garden: The apples.",
-   "Only the students in our group: The students.",
+   "Not all students, just our group: The students.",
    "Only the buses in our town: The buses.",
    "Only the children in my street: The children.",
    "Only the flowers on my desk: The flowers.",

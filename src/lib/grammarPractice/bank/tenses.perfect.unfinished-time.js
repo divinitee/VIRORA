@@ -691,7 +691,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "It ______ (rain) {often} so far this {period}.",
   "key": "has rained",
-  "why": "\"so far this …\" is unfinished time: has rained.",
+  "why": "The period isn't over (so far this …): has rained.",
   "slots": {
    "period": [
     "week",
@@ -783,7 +783,8 @@ export default [
    "period": [
     "today",
     "this week",
-    "this weekend"
+    "this weekend",
+    "this month"
    ]
   }
  },
@@ -863,7 +864,8 @@ export default [
    "period": [
     "week",
     "month",
-    "year"
+    "year",
+    "summer"
    ]
   }
  },
@@ -1298,7 +1300,8 @@ export default [
    "period": [
     "season",
     "year",
-    "month"
+    "month",
+    "summer"
    ]
   }
  },
@@ -1381,7 +1384,8 @@ export default [
    "period": [
     "week",
     "month",
-    "year"
+    "year",
+    "summer"
    ]
   }
  },

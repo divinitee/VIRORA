@@ -228,7 +228,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Students work hard **every day**.  
    → ______ in our group work hard **every day**.  
    key: The students  
-   why: Only the students in our group: The students.
+   why: Not all students, just our group: The students.
 
 8. _Make it about the specific ones in the new sentence._  
    Buses are often late **in winter**, **Olga**.  

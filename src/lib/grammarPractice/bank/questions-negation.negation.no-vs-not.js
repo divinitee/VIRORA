@@ -970,7 +970,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There's ______ any {drink} left, {name}.",
   "key": "not",
-  "why": "\"any …\" after the gap: not.",
+  "why": "any + a drink after the gap: not, never no any.",
   "slots": {
    "name": [
     "Aziz",

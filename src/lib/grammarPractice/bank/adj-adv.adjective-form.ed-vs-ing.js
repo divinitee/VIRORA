@@ -652,7 +652,7 @@ export default [
   "instr": "Complete with the -ing or -ed adjective of the word in brackets.",
   "source": "Nobody laughed. The {show} was really ______ (bore), {name}.",
   "key": "boring",
-  "why": "The … causes the feeling: boring.",
+  "why": "Describing the thing that gives the feeling: boring.",
   "slots": {
    "show": [
     "show",
@@ -814,7 +814,7 @@ export default [
   "instr": "Complete with the -ing or -ed adjective of the word in brackets.",
   "source": "The {film} was so ______ (frighten) that my sister closed her eyes, {name}.",
   "key": "frightening",
-  "why": "The … causes fear: frightening.",
+  "why": "Describing the thing that scares people: frightening.",
   "slots": {
    "film": [
     "film",
@@ -1236,7 +1236,7 @@ export default [
   "source": "The {thing} was so bored that I fell asleep, {name}.",
   "hint": "The {thing} was so ______ that I fell asleep, {name}.",
   "key": "boring",
-  "why": "The … causes the feeling: boring.",
+  "why": "It describes the cause, not the person: boring.",
   "slots": {
    "thing": [
     "film",

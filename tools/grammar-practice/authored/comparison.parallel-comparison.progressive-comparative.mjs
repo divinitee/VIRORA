@@ -174,7 +174,7 @@ const VARIETY = {
    "difficult is long: more and more difficult.",
    "\"It was going to rain\": darker and darker.",
    "popular is long: more and more popular.",
-   "busy ends in -y: busier and busier.",
+   "busy → busier (y → ier), said twice: busier and busier.",
    "long is short: longer and longer.",
    "tired: more and more tired.",
    "big doubles the g: bigger and bigger.",

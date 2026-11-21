@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    We often borrow ______ **books**, **Lola**.  
    key: each other's (also: one another's)  
-   why: … that belong to the other: each other's.
+   why: Belonging to the other person: each other's.
 
 14. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    **Bobur** and his friend always copy ______ **homework**.  

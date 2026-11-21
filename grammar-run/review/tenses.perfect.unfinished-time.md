@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
    It ______ (rain) **every morning** so far this **week**.  
    key: has rained  
-   why: "so far this …" is unfinished time: has rained.
+   why: The period isn't over (so far this …): has rained.
 
 3. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
    We ______ (spend) **a hundred** dollars on food so far this **week**.  
@@ -107,7 +107,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: "so far today": she is still writing: has written.
 
 5. _Is the time finished or not? Write the verb in brackets in the present perfect or the past simple._  
-   Up to now, I ______ (watch) **six** episodes of the series **this week**.  
+   Up to now, I ______ (watch) **six** episodes of the series **this weekend**.  
    key: have watched  
    why: "Up to now": still watching: have watched.
 
@@ -208,7 +208,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 4. _The time is not finished yet. Rewrite the sentence with so far._  
    My brother won **four** prizes last season.  
-   → My brother ______ **four** prizes so far this **season**.  
+   → My brother ______ **four** prizes so far this **year**.  
    key: has won  
    why: "last …" → "so far this …": has won.
 

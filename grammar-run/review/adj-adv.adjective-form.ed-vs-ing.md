@@ -89,7 +89,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 1. _Complete with the -ing or -ed adjective of the word in brackets._  
    Nobody laughed. The **film** was really ______ (bore), **Akmal**.  
    key: boring  
-   why: The … causes the feeling: boring.
+   why: Describing the thing that gives the feeling: boring.
 
 2. _Complete with the -ing or -ed adjective of the word in brackets._  
    The children were ______ (excite) about the trip to the **zoo**, **Jamshid**.  
@@ -119,7 +119,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Complete with the -ing or -ed adjective of the word in brackets._  
    The **film** was so ______ (frighten) that my sister closed her eyes, **Nodira**.  
    key: frightening  
-   why: The … causes fear: frightening.
+   why: Describing the thing that scares people: frightening.
 
 8. _Complete with the -ing or -ed adjective of the word in brackets._  
    Our fans were ______ (disappoint) with the result of the **final**, **Nodira**.  
@@ -198,7 +198,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    The **lecture** was so bored that I fell asleep, **Otabek**.  
    → The **lecture** was so ______ that I fell asleep, **Otabek**.  
    key: boring  
-   why: The … causes the feeling: boring.
+   why: It describes the cause, not the person: boring.
 
 3. _Correct the mistake._  
    My mum was worrying about the **exam**, **Akmal**.  

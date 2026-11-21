@@ -197,8 +197,8 @@ const VARIETY = {
    "not as many + plural = fewer.",
    "not as much + uncountable = less.",
    "not as much = less.",
-   "not as many + plural = fewer.",
-   "not as much = less."
+   "not as many + a plural noun → fewer.",
+   "not as much + an uncountable noun → less."
   ]
  },
  "slot": [
@@ -257,6 +257,24 @@ const VARIETY = {
    "sib",
    [
     "nephew"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "",
+   "period",
+   [
+    "spring"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "",
+   "sib",
+   [
+    "son"
    ]
   ]
  ]

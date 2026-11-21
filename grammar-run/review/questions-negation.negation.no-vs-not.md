@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Write no or not._  
    There's ______ any **milk** left, **Olga**.  
    key: not  
-   why: "any …" after the gap: not.
+   why: any + a drink after the gap: not, never no any.
 
 14. _Write no or not._  
    We have ______ any lessons on **Independence Day**, **Olga**.  

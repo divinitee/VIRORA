@@ -172,7 +172,7 @@ const VARIETY = {
    "Noun after the gap (car): no.",
    "Adjective after the gap (open): not.",
    "Adjective after the gap (hungry): not.",
-   "\"any …\" after the gap: not.",
+   "any + a drink after the gap: not, never no any.",
    "\"any lessons\" after the gap: not.",
    "Place word after the gap (here): not.",
    "Adjective after the gap (cold): not.",

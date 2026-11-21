@@ -182,7 +182,7 @@ const VARIETY = {
    "Neither likes the other: each other.",
    "Each team … the other: each other.",
    "Each one smiled at the other: each other.",
-   "… that belong to the other: each other's.",
+   "Belonging to the other person: each other's.",
    "… that belongs to the other: each other's.",
    "They fell and each one got hurt: themselves.",
    "Each child cut his or her own hand: themselves.",

@@ -178,7 +178,7 @@ const VARIETY = {
   ],
   "build": [
    "\"So far today\": the day isn't over: have drunk.",
-   "\"so far this …\" is unfinished time: has rained.",
+   "The period isn't over (so far this …): has rained.",
    "\"so far this …\": have spent.",
    "\"so far today\": she is still writing: has written.",
    "\"Up to now\": still watching: have watched.",
@@ -437,6 +437,42 @@ const VARIETY = {
    "drink",
    [
     "black tea"
+   ]
+  ],
+  [
+   "build",
+   5,
+   "",
+   "period",
+   [
+    "this month"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "",
+   "period",
+   [
+    "summer"
+   ]
+  ],
+  [
+   "transform",
+   4,
+   "",
+   "period",
+   [
+    "summer"
+   ]
+  ],
+  [
+   "transform",
+   7,
+   "",
+   "period",
+   [
+    "summer"
    ]
   ]
  ]

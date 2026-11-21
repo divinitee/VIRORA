@@ -228,7 +228,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    You mustn't be tired. You slept for **eleven** hours, **Sherzod**.  
    → You ______ tired. You slept for **eleven** hours, **Sherzod**.  
    key: can't be  
-   why: Impossible = can't, not mustn't: can't be.
+   why: For something impossible use can't, never mustn't: can't be.
 
 8. _Correct the mistake._  
    She can't to be at work. It's **Sunday**, **Akmal**.  

@@ -172,13 +172,13 @@ const VARIETY = {
    ""
   ],
   "build": [
-   "The … causes the feeling: boring.",
+   "Describing the thing that gives the feeling: boring.",
    "",
    "",
    "",
    "",
    "",
-   "The … causes fear: frightening.",
+   "Describing the thing that scares people: frightening.",
    "",
    "",
    "",
@@ -195,7 +195,7 @@ const VARIETY = {
   ],
   "transform": [
    "",
-   "The … causes the feeling: boring.",
+   "It describes the cause, not the person: boring.",
    "",
    "",
    "The person feels it, so not interesting: interested in.",

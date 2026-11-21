@@ -1322,7 +1322,7 @@ export default [
   "source": "Students work hard {when}.",
   "hint": "______ in our group work hard {when}.",
   "key": "The students",
-  "why": "Only the students in our group: The students.",
+  "why": "Not all students, just our group: The students.",
   "slots": {
    "when": [
     "before exams",

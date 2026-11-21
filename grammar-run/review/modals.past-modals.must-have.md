@@ -264,7 +264,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I'm sure the **exam** was difficult, **Malika**.  
    → The **exam** ______ difficult, **Malika**.  
    key: must have been  
-   why: I'm sure … was → must have been.
+   why: I'm sure the … was → it must have been.
 
 14. _Rewrite with must have been._  
    I'm sure they were happy at the **concert**, **Gulnora**.  

@@ -173,7 +173,7 @@ const VARIETY = {
    "I'm sure she doesn't know → she can't know.",
    "I'm sure it isn't → it can't be.",
    "Impossible = can't, not mustn't: can't be.",
-   "Impossible = can't, not mustn't: can't be.",
+   "For something impossible use can't, never mustn't: can't be.",
    "can't + base verb, no to: can't be.",
    "can't + base verb, no -s: can't know.",
    "can't is one word, not don't can: can't be.",

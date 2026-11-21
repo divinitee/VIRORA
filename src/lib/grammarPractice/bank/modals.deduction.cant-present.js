@@ -1439,7 +1439,7 @@ export default [
   "source": "You mustn't be tired. You slept for {n} hours, {name}.",
   "hint": "You ______ tired. You slept for {n} hours, {name}.",
   "key": "can't be",
-  "why": "Impossible = can't, not mustn't: can't be.",
+  "why": "For something impossible use can't, never mustn't: can't be.",
   "slots": {
    "n": [
     "twelve",

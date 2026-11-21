@@ -1527,7 +1527,7 @@
   "source": "I'm sure the {test} was difficult, {name}.",
   "hint": "The {test} ______ difficult, {name}.",
   "key": "must have been",
-  "why": "I'm sure … was → must have been.",
+  "why": "I'm sure the … was → it must have been.",
   "slots": {
    "test": [
     "exam",

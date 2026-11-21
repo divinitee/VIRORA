@@ -181,7 +181,7 @@ const VARIETY = {
    "have + past participle: eaten, not eat.",
    "I'm sure … was → must have been.",
    "I'm sure you were → you must have been.",
-   "I'm sure … was → must have been.",
+   "I'm sure the … was → it must have been.",
    "I'm sure they were → they must have been.",
    "I'm sure it was → it must have been."
   ]

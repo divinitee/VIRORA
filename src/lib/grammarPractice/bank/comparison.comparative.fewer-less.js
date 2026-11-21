@@ -873,7 +873,8 @@ export default [
    "period": [
     "year",
     "month",
-    "summer"
+    "summer",
+    "spring"
    ],
    "name": [
     "Gulnora",
@@ -1034,7 +1035,8 @@ export default [
    "sib": [
     "brother",
     "cousin",
-    "nephew"
+    "nephew",
+    "son"
    ],
    "name": [
     "Gulnora",
@@ -1555,7 +1557,7 @@ export default [
   "source": "This {shop} doesn't sell as many {goods} as the bazaar.",
   "hint": "This {shop} sells ______ {goods} than the bazaar.",
   "key": "fewer",
-  "why": "not as many + plural = fewer.",
+  "why": "not as many + a plural noun → fewer.",
   "slots": {
    "shop": [
     "shop",
@@ -1583,7 +1585,7 @@ export default [
   "source": "My little sister doesn't eat as much {food} as me, {name}.",
   "hint": "My little sister eats ______ {food} than me, {name}.",
   "key": "less",
-  "why": "not as much = less.",
+  "why": "not as much + an uncountable noun → less.",
   "slots": {
    "food": [
     "bread",

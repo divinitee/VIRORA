@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: rain is uncountable: less.
 
 15. _Write fewer or less._  
-   My little **brother** eats ______ vegetables than he should, **Gulnora**.  
+   My little **cousin** eats ______ vegetables than he should, **Gulnora**.  
    key: fewer  
    why: vegetables can be counted: fewer.
 
@@ -270,13 +270,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    This **kiosk** doesn't sell as many **shoes** as the bazaar.  
    → This **kiosk** sells ______ **shoes** than the bazaar.  
    key: fewer  
-   why: not as many + plural = fewer.
+   why: not as many + a plural noun → fewer.
 
 15. _Rewrite the sentence with fewer or less … than._  
    My little sister doesn't eat as much **meat** as me, **Ulugbek**.  
    → My little sister eats ______ **meat** than me, **Ulugbek**.  
    key: less  
-   why: not as much = less.
+   why: not as much + an uncountable noun → less.
 
 ## create (8)
 
