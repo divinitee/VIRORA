@@ -17,7 +17,7 @@ export default [
    "send"
   ],
   "key": 0,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have sent.",
+  "why": "\"So far\" + this period is not over: have sent.",
   "slots": {
    "period": [
     "today",
@@ -49,7 +49,7 @@ export default [
    "has drunk"
   ],
   "key": 3,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has drunk.",
+  "why": "\"So far today\": the day goes on: has drunk.",
   "slots": {
    "n": [
     "three",
@@ -81,7 +81,7 @@ export default [
    "read"
   ],
   "key": 2,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have read.",
+  "why": "\"So far\" means up to now: have read.",
   "slots": {
    "period": [
     "this week",
@@ -113,7 +113,7 @@ export default [
    "had scored"
   ],
   "key": 1,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has scored.",
+  "why": "\"so far this season\": the season goes on: has scored.",
   "slots": {
    "name": [
     "Sardor",
@@ -145,7 +145,7 @@ export default [
    "spend"
   ],
   "key": 0,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have spent.",
+  "why": "\"so far\" + this period: have spent.",
   "slots": {
    "thing": [
     "food",
@@ -177,7 +177,7 @@ export default [
    "has rained"
   ],
   "key": 3,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has rained.",
+  "why": "\"so far this …\" is unfinished time: has rained.",
   "slots": {
    "n": [
     "three",
@@ -188,7 +188,8 @@ export default [
    "period": [
     "week",
     "month",
-    "spring"
+    "spring",
+    "year"
    ],
    "name": [
     "Malika",
@@ -214,7 +215,7 @@ export default [
    "saw"
   ],
   "key": 2,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have seen.",
+  "why": "\"So far\": the period isn't over: have seen.",
   "slots": {
    "period": [
     "this month",
@@ -246,7 +247,7 @@ export default [
    "had called"
   ],
   "key": 1,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has called.",
+  "why": "\"Up to now … today\": has called.",
   "slots": {
    "name": [
     "Madina",
@@ -270,7 +271,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "So far today, I ______ only {food}, so I'm very hungry.",
+  "prompt": "So far today, I ______ only {food}, so I'm {feel}.",
   "options": [
    "have eaten",
    "ate",
@@ -278,13 +279,19 @@ export default [
    "eat"
   ],
   "key": 0,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have eaten.",
+  "why": "\"So far today\" + I'm hungry now: have eaten.",
   "slots": {
    "food": [
     "an apple",
     "a banana",
     "some bread",
     "a biscuit"
+   ],
+   "feel": [
+    "very hungry",
+    "still hungry",
+    "so hungry",
+    "really hungry"
    ]
   }
  },
@@ -304,7 +311,7 @@ export default [
    "has visited"
   ],
   "key": 3,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has visited.",
+  "why": "\"So far this …\": she may visit again: has visited.",
   "slots": {
    "period": [
     "week",
@@ -336,7 +343,7 @@ export default [
    "wrote"
   ],
   "key": 2,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have written.",
+  "why": "\"So far this term\": the term goes on: have written.",
   "slots": {
    "n": [
     "two",
@@ -368,7 +375,7 @@ export default [
    "had won"
   ],
   "key": 1,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has won.",
+  "why": "\"so far this season\": every game up to now: has won.",
   "slots": {
    "game": [
     "match",
@@ -400,7 +407,7 @@ export default [
    "make"
   ],
   "key": 0,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have made.",
+  "why": "\"Up to now\": more cakes may come: have made.",
   "slots": {
    "n": [
     "two",
@@ -432,7 +439,7 @@ export default [
    "have learned"
   ],
   "key": 3,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have learned.",
+  "why": "\"So far\": still learning: have learned.",
   "slots": {
    "period": [
     "today",
@@ -464,7 +471,7 @@ export default [
    "sold"
   ],
   "key": 2,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has sold.",
+  "why": "\"So far\": the shop is still selling: has sold.",
   "slots": {
    "period": [
     "today",
@@ -502,7 +509,7 @@ export default [
    "hadn't had"
   ],
   "key": 1,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: haven't had.",
+  "why": "\"So far … any\": none up to now: haven't had.",
   "slots": {
    "period": [
     "today",
@@ -534,7 +541,7 @@ export default [
    "isn't"
   ],
   "key": 0,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: hasn't been.",
+  "why": "\"Up to now … once\": hasn't been late.",
   "slots": {
    "name": [
     "Sardor",
@@ -558,7 +565,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "So far today, I ______ {name} at school. Is she ill?",
+  "prompt": "So far today, I ______ {name} at {place}. Is she ill?",
   "options": [
    "didn't see",
    "hadn't seen",
@@ -566,13 +573,19 @@ export default [
    "haven't seen"
   ],
   "key": 3,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: haven't seen.",
+  "why": "\"So far today … Is she ill?\": haven't seen.",
   "slots": {
    "name": [
     "Madina",
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "place": [
+    "school",
+    "the gym",
+    "the library",
+    "work"
    ]
   }
  },
@@ -584,7 +597,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "So far this {period}, my brother ______ his bike to work every day.",
+  "prompt": "So far this {period}, my brother ______ his {vehicle} to work every day.",
   "options": [
    "had ridden",
    "rides",
@@ -592,13 +605,19 @@ export default [
    "rode"
   ],
   "key": 2,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has ridden.",
+  "why": "\"So far this …\" every day up to now: has ridden.",
   "slots": {
    "period": [
     "week",
     "month",
     "spring",
     "summer"
+   ],
+   "vehicle": [
+    "bike",
+    "scooter",
+    "motorbike",
+    "electric bike"
    ]
   }
  },
@@ -618,7 +637,7 @@ export default [
    "had taken"
   ],
   "key": 1,
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have taken.",
+  "why": "\"Up to now … on this trip\": the trip goes on: have taken.",
   "slots": {
    "n": [
     "two hundred",
@@ -645,7 +664,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "So far today, I ______ (drink) {n} glasses of water, {name}.",
   "key": "have drunk",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have drunk.",
+  "why": "\"So far today\": the day isn't over: have drunk.",
   "slots": {
    "n": [
     "two",
@@ -670,14 +689,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
-  "source": "It ______ (rain) every day so far this {period}.",
+  "source": "It ______ (rain) {often} so far this {period}.",
   "key": "has rained",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has rained.",
+  "why": "\"so far this …\" is unfinished time: has rained.",
   "slots": {
    "period": [
     "week",
     "month",
-    "spring"
+    "spring",
+    "year"
+   ],
+   "often": [
+    "every day",
+    "every afternoon",
+    "most days",
+    "every morning"
    ]
   }
  },
@@ -692,7 +718,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "We ______ (spend) {n} dollars on food so far this {period}.",
   "key": "have spent",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have spent.",
+  "why": "\"so far this …\": have spent.",
   "slots": {
    "n": [
     "fifty",
@@ -703,7 +729,8 @@ export default [
    "period": [
     "week",
     "month",
-    "trip"
+    "trip",
+    "year"
    ]
   }
  },
@@ -718,7 +745,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "{name} ______ (write) {n} pages of her essay so far today.",
   "key": "has written",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has written.",
+  "why": "\"so far today\": she is still writing: has written.",
   "slots": {
    "name": [
     "Madina",
@@ -745,7 +772,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "Up to now, I ______ (watch) {n} episodes of the series {period}.",
   "key": "have watched",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have watched.",
+  "why": "\"Up to now\": still watching: have watched.",
   "slots": {
    "n": [
     "three",
@@ -771,7 +798,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "So far this season, our {player} ______ (score) {n} goals.",
   "key": "has scored",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has scored.",
+  "why": "\"So far this season\": more goals may come: has scored.",
   "slots": {
    "player": [
     "captain",
@@ -798,7 +825,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "So far this {period}, I ______ (meet) a lot of new people, {name}.",
   "key": "have met",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have met.",
+  "why": "\"So far this …\": have met.",
   "slots": {
    "period": [
     "week",
@@ -825,12 +852,13 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "My mother ______ (cook) plov {n} times so far this {period}.",
   "key": "has cooked",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has cooked.",
+  "why": "\"so far this …\": she may cook it again: has cooked.",
   "slots": {
    "n": [
     "two",
     "three",
-    "four"
+    "four",
+    "five"
    ],
    "period": [
     "week",
@@ -848,15 +876,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
-  "source": "So far today, I ______ (run) {n} kilometres, and the race isn't over.",
+  "source": "So far today, I ______ (run) {n} kilometres, and the {event} isn't over.",
   "key": "have run",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have run.",
+  "why": "\"the race isn't over\": have run.",
   "slots": {
    "n": [
     "five",
     "seven",
     "ten",
     "twelve"
+   ],
+   "event": [
+    "race",
+    "marathon",
+    "fun run",
+    "training"
    ]
   }
  },
@@ -871,7 +905,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "Up to now, {name} ______ (send) me {n} messages today.",
   "key": "has sent",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has sent.",
+  "why": "\"Up to now … today\": has sent.",
   "slots": {
    "name": [
     "Malika",
@@ -898,7 +932,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "We ______ (visit) {n} museums so far on this trip to {city}.",
   "key": "have visited",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have visited.",
+  "why": "\"so far on this trip\": still travelling: have visited.",
   "slots": {
    "n": [
     "two",
@@ -925,7 +959,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "So far this {period}, the weather ______ (be) very {adj}.",
   "key": "has been",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has been.",
+  "why": "\"So far this …\": has been.",
   "slots": {
    "period": [
     "week",
@@ -950,15 +984,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
-  "source": "I ______ (not have) breakfast yet, and it's already {time}.",
+  "source": "I ______ (not have) {meal} yet, and it's already {time}.",
   "key": "haven't had",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: haven't had.",
+  "why": "\"yet\" and \"already\": the morning isn't over for breakfast: haven't had.",
   "slots": {
    "time": [
     "ten",
     "eleven",
     "half past ten",
     "noon"
+   ],
+   "meal": [
+    "breakfast",
+    "a coffee",
+    "a snack",
+    "a proper meal"
    ]
   },
   "acceptable": [
@@ -974,15 +1014,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
-  "source": "So far today, {name} ______ (not call) me. Is he OK?",
+  "source": "So far today, {name} ______ (not call) me. Is he {state}?",
   "key": "hasn't called",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: hasn't called.",
+  "why": "\"So far today … Is he OK?\": hasn't called.",
   "slots": {
    "name": [
     "Sardor",
     "Timur",
     "Ilya",
     "Jasur"
+   ],
+   "state": [
+    "OK",
+    "ill",
+    "busy",
+    "angry with me"
    ]
   },
   "acceptable": [
@@ -998,15 +1044,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
-  "source": "I ______ (see) {name} this morning. Now it's evening and I haven't seen her again.",
+  "source": "I ______ (see) {name} this morning. Now it's {later} and I haven't seen her again.",
   "key": "saw",
-  "why": "That part of the day is over now, so use the past simple: saw.",
+  "why": "\"this morning\" is over (\"Now it's evening\"): past simple saw.",
   "slots": {
    "name": [
     "Madina",
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "later": [
+    "evening",
+    "night",
+    "late afternoon",
+    "nine o'clock"
    ]
   }
  },
@@ -1021,7 +1073,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "I ______ (drink) a lot of coffee this morning. Now it's {time} and I'm tired.",
   "key": "drank",
-  "why": "That part of the day is over now, so use the past simple: drank.",
+  "why": "\"this morning\" is over (\"Now it's …\"): past simple drank.",
   "slots": {
    "time": [
     "four",
@@ -1042,7 +1094,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "We ______ (eat) {food} this morning. Now it's night, and the kitchen is closed, {name}.",
   "key": "ate",
-  "why": "That part of the day is over now, so use the past simple: ate.",
+  "why": "\"this morning\" is over (\"Now it's night\"): past simple ate.",
   "slots": {
    "food": [
     "eggs",
@@ -1067,15 +1119,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
-  "source": "{name} ______ (call) me at eight this morning. It's late afternoon now.",
+  "source": "{name} ______ (call) me at {early} this morning. It's late afternoon now.",
   "key": "called",
-  "why": "That part of the day is over now, so use the past simple: called.",
+  "why": "\"this morning\" is over (\"It's late afternoon now\"): called.",
   "slots": {
    "name": [
     "Malika",
     "Ulugbek",
     "Gulnora",
     "Jamshid"
+   ],
+   "early": [
+    "eight",
+    "seven",
+    "half past seven",
+    "nine"
    ]
   }
  },
@@ -1090,7 +1148,7 @@ export default [
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
   "source": "Our {subj} lesson ______ (finish) at noon today. Now it's {time}.",
   "key": "finished",
-  "why": "That part of the day is over now, so use the past simple: finished.",
+  "why": "\"at noon today\" and now it's later: past simple finished.",
   "slots": {
    "subj": [
     "English",
@@ -1115,15 +1173,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Is the time finished or not? Write the verb in brackets in the present perfect or the past simple.",
-  "source": "My father ______ (go) to the {place} this morning. It's evening now and he's at home.",
+  "source": "My {who} ______ (go) to the {place} this morning. It's evening now and he's at home.",
   "key": "went",
-  "why": "That part of the day is over now, so use the past simple: went.",
+  "why": "\"this morning\" is over (\"It's evening now\"): went.",
   "slots": {
    "place": [
     "bank",
     "bazaar",
     "post office",
     "doctor"
+   ],
+   "who": [
+    "father",
+    "uncle",
+    "grandfather",
+    "brother"
    ]
   }
  },
@@ -1139,7 +1203,7 @@ export default [
   "source": "I read {n} books last month, {name}.",
   "hint": "I ______ {n} books so far this month, {name}.",
   "key": "have read",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have read.",
+  "why": "\"last month\" → \"so far this month\": have read.",
   "slots": {
    "n": [
     "two",
@@ -1167,7 +1231,7 @@ export default [
   "source": "We had {n} tests last week.",
   "hint": "We ______ {n} tests so far this {period}.",
   "key": "have had",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have had.",
+  "why": "\"last week\" → \"so far this …\": have had.",
   "slots": {
    "n": [
     "two",
@@ -1178,7 +1242,8 @@ export default [
    "period": [
     "week",
     "month",
-    "term"
+    "term",
+    "year"
    ]
   }
  },
@@ -1194,7 +1259,7 @@ export default [
   "source": "{name} made {n} new friends last year.",
   "hint": "{name} ______ {n} new friends so far this year.",
   "key": "has made",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has made.",
+  "why": "\"last year\" → \"so far this year\": has made.",
   "slots": {
    "name": [
     "Malika",
@@ -1222,7 +1287,7 @@ export default [
   "source": "My brother won {n} prizes last season.",
   "hint": "My brother ______ {n} prizes so far this {period}.",
   "key": "has won",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has won.",
+  "why": "\"last season\" → \"so far this …\": has won.",
   "slots": {
    "n": [
     "two",
@@ -1249,7 +1314,7 @@ export default [
   "source": "It snowed {n} times last winter, {name}.",
   "hint": "It ______ {n} times so far this winter, {name}.",
   "key": "has snowed",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has snowed.",
+  "why": "\"last winter\" → \"so far this winter\": has snowed.",
   "slots": {
    "n": [
     "two",
@@ -1277,7 +1342,7 @@ export default [
   "source": "So far today I drank {n} cups of tea, {name}.",
   "hint": "So far today I ______ {n} cups of tea, {name}.",
   "key": "have drunk",
-  "why": "So far: the day is not finished, so the present perfect, have drunk.",
+  "why": "\"So far today\" needs the present perfect, not drank: have drunk.",
   "slots": {
    "n": [
     "three",
@@ -1305,7 +1370,7 @@ export default [
   "source": "Up to now, {name} visits us twice this {period}.",
   "hint": "Up to now, {name} ______ us twice this {period}.",
   "key": "has visited",
-  "why": "Up to now needs the present perfect: has visited.",
+  "why": "\"Up to now\" needs the present perfect, not visits: has visited.",
   "slots": {
    "name": [
     "Malika",
@@ -1329,16 +1394,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "So far this {period}, we had very good weather.",
-  "hint": "So far this {period}, we ______ very good weather.",
+  "source": "So far this {period}, we had very {adj} weather.",
+  "hint": "So far this {period}, we ______ very {adj} weather.",
   "key": "have had",
-  "why": "So far means the time is still going on: have had.",
+  "why": "\"So far this …\" needs have had, not had.",
   "slots": {
    "period": [
     "week",
     "month",
     "spring",
     "summer"
+   ],
+   "adj": [
+    "good",
+    "sunny",
+    "cold",
+    "rainy"
    ]
   }
  },
@@ -1354,7 +1425,7 @@ export default [
   "source": "So far this season, our team had won every {game}, {name}.",
   "hint": "So far this season, our team ______ every {game}, {name}.",
   "key": "has won",
-  "why": "Had won is for before another past time. The season is still on: has won.",
+  "why": "\"So far this season\" needs has won, not had won.",
   "slots": {
    "game": [
     "match",
@@ -1382,7 +1453,7 @@ export default [
   "source": "{name} doesn't call me so far {period}.",
   "hint": "{name} ______ me so far {period}.",
   "key": "hasn't called",
-  "why": "So far needs the present perfect: hasn't called.",
+  "why": "\"so far\" + negative: hasn't called, not doesn't call.",
   "slots": {
    "name": [
     "Malika",
@@ -1413,7 +1484,7 @@ export default [
   "source": "How many {thing} have you sent today, {name}? Three.",
   "hint": "I ______ three {thing} so far.",
   "key": "have sent",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have sent.",
+  "why": "Answer with \"so far\": the day goes on: have sent.",
   "slots": {
    "thing": [
     "emails",
@@ -1441,12 +1512,13 @@ export default [
   "source": "How many cups of {drink} has your {who} had today? Four.",
   "hint": "He ______ four cups so far.",
   "key": "has had",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has had.",
+  "why": "Answer with \"so far\": the day goes on: has had.",
   "slots": {
    "drink": [
     "tea",
     "coffee",
-    "green tea"
+    "green tea",
+    "black tea"
    ],
    "who": [
     "father",
@@ -1471,7 +1543,7 @@ export default [
   "source": "How many {thing} have you learned this week, {name}? Twenty.",
   "hint": "I ______ twenty {thing} so far.",
   "key": "have learned",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have learned.",
+  "why": "Answer with \"so far\": the week goes on: have learned.",
   "slots": {
    "thing": [
     "new words",
@@ -1502,12 +1574,13 @@ export default [
   "source": "How many times has it rained this {period}, {name}? Twice.",
   "hint": "It ______ twice so far, {name}.",
   "key": "has rained",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: has rained.",
+  "why": "Answer with \"so far\": it may rain again: has rained.",
   "slots": {
    "period": [
     "week",
     "month",
-    "spring"
+    "spring",
+    "year"
    ],
    "name": [
     "Malika",
@@ -1529,7 +1602,7 @@ export default [
   "source": "How many {game} has your team played this year, {name}? Six.",
   "hint": "We ______ six {game} so far.",
   "key": "have played",
-  "why": "So far / up to now means the time is not finished yet, so use the present perfect: have played.",
+  "why": "Answer with \"so far\": the year goes on: have played.",
   "slots": {
    "game": [
     "matches",
