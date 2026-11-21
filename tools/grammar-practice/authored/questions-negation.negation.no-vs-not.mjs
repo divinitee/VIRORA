@@ -133,5 +133,293 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/questions-negation.negation.no-vs-not.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Before a noun (milk), with a positive verb: no.",
+   "Before a noun (idea): no.",
+   "Before a noun (lessons): no.",
+   "Before a noun (seats): no.",
+   "Before a noun (time): no.",
+   "Before a noun (hot water): no.",
+   "Before a noun (internet): no.",
+   "Before a noun (shops): no.",
+   "Before a noun (money): no.",
+   "Before a noun (windows): no.",
+   "Before a noun (sugar): no.",
+   "Before an adjective (hot): not.",
+   "Before an -ing verb (working): not.",
+   "Before an adjective (very tall): not.",
+   "Before an adjective (ready): not.",
+   "Before any: not any.",
+   "Before any: not any.",
+   "Before a place (at home): not.",
+   "Before an adjective (far): not.",
+   "Before any: not any."
+  ],
+  "build": [
+   "Noun after the gap (cheese): no.",
+   "Noun after the gap (brothers): no.",
+   "Noun after the gap (rain): no.",
+   "Noun after the gap (buses): no.",
+   "Noun after the gap (free time): no.",
+   "Noun after the gap (cinema): no.",
+   "Noun after the gap (questions): no.",
+   "Noun after the gap (eggs): no.",
+   "Noun after the gap (car): no.",
+   "Adjective after the gap (open): not.",
+   "Adjective after the gap (hungry): not.",
+   "any after the gap: not any.",
+   "any after the gap: not any.",
+   "Place after the gap (here): not.",
+   "Adjective after the gap (cold): not.",
+   "Adjective after the gap (difficult): not.",
+   "-ing after the gap (working): not.",
+   "any after the gap: not any.",
+   "No free seats: not any + plural noun: not.",
+   "Adjective after the gap (late): not."
+  ],
+  "transform": [
+   "isn't any = is no.",
+   "don't have any = have no.",
+   "haven't got any = have got no.",
+   "aren't any = are no.",
+   "doesn't have any = has no.",
+   "is no = is not any.",
+   "have no = do not have any.",
+   "were no = were not any.",
+   "has no = does not have any.",
+   "have no = do not have any.",
+   "Never no any: not any.",
+   "Before a noun: no, not not.",
+   "Before an adjective: not, not no.",
+   "Before a noun: no, not not.",
+   "Before a place: not, not no."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   4,
+   "stood",
+   "act",
+   [
+    "stood",
+    "waited",
+    "walked",
+    "got off"
+   ]
+  ],
+  [
+   "choose",
+   7,
+   "grandparents",
+   "who",
+   [
+    "grandparents",
+    "neighbours",
+    "aunt and uncle",
+    "cousins"
+   ]
+  ],
+  [
+   "choose",
+   10,
+   "dark",
+   "adj",
+   [
+    "dark",
+    "stuffy",
+    "gloomy",
+    "warm"
+   ]
+  ],
+  [
+   "choose",
+   13,
+   "today",
+   "when",
+   [
+    "today",
+    "tonight",
+    "this morning",
+    "this afternoon"
+   ]
+  ],
+  [
+   "choose",
+   14,
+   "brother",
+   "rel",
+   [
+    "brother",
+    "cousin",
+    "uncle",
+    "dad"
+   ]
+  ],
+  [
+   "choose",
+   16,
+   "bread",
+   "food",
+   [
+    "bread",
+    "milk",
+    "rice",
+    "butter"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "station",
+   "place",
+   [
+    "station",
+    "bazaar",
+    "park",
+    "library"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "walked",
+   "act",
+   [
+    "walked",
+    "took the bus",
+    "waited",
+    "stayed"
+   ]
+  ],
+  [
+   "build",
+   2,
+   "",
+   "sib",
+   [
+    "cats",
+    "dogs"
+   ]
+  ],
+  [
+   "build",
+   6,
+   "village",
+   "place",
+   [
+    "village",
+    "town",
+    "street",
+    "area"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "questions",
+   "what",
+   [
+    "questions",
+    "problems",
+    "doubts",
+    "worries"
+   ]
+  ],
+  [
+   "build",
+   10,
+   "uncle",
+   "rel",
+   [
+    "uncle",
+    "grandpa",
+    "brother",
+    "dad"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "juice",
+   "drink",
+   [
+    "juice",
+    "milk",
+    "tea",
+    "water"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "phone",
+   "dev",
+   [
+    "phone",
+    "laptop",
+    "pen",
+    "charger"
+   ]
+  ],
+  [
+   "build",
+   20,
+   "bus",
+   "veh",
+   [
+    "bus",
+    "train",
+    "ferry",
+    "tram"
+   ]
+  ],
+  [
+   "transform",
+   4,
+   "shops",
+   "what",
+   [
+    "shops",
+    "cafés",
+    "banks",
+    "parks"
+   ]
+  ],
+  [
+   "transform",
+   8,
+   "taxis",
+   "what",
+   [
+    "taxis",
+    "buses",
+    "trains",
+    "cars"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);
