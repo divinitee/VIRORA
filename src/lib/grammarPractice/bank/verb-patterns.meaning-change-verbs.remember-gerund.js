@@ -145,7 +145,7 @@ export default [
    "cried"
   ],
   "key": 0,
-  "why": "Her first day was in the past, so this is a memory of the past: remember + -ing (crying).",
+  "why": "Her first … there is in the past: a memory: remember + -ing (crying).",
   "slots": {
    "place": [
     "school",

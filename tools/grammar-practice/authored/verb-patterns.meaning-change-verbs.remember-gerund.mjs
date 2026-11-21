@@ -139,7 +139,7 @@ const VARIETY = {
    "",
    "",
    "",
-   "",
+   "Her first … there is in the past: a memory: remember + -ing (crying).",
    "",
    "",
    "The old … is in the past, so this is a memory of the past: remember + -ing (living).",

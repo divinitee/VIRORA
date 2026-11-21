@@ -183,7 +183,7 @@ const VARIETY = {
    "",
    "",
    "",
-   ""
+   "\"After … weeks\" in the past: got used to."
   ],
   "transform": [
    "",

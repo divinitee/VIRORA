@@ -1159,7 +1159,7 @@ export default [
   "instr": "Complete with get / got / getting + used to.",
   "source": "After {n} weeks in {country}, we ______ the time difference.",
   "key": "got used to",
-  "why": "\"After two weeks\" in the past: got used to.",
+  "why": "\"After … weeks\" in the past: got used to.",
   "slots": {
    "country": [
     "Japan",

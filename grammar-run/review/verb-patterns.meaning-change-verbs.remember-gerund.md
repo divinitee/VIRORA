@@ -22,7 +22,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 5. She remembers ______ on her first **morning** at **camp**.  
    options: ✔ crying · to cry · cry · cried  
-   why: Her first day was in the past, so this is a memory of the past: remember + -ing (crying).
+   why: Her first … there is in the past: a memory: remember + -ing (crying).
 
 6. I remember ______ the best **samsa** of my life in **Tashkent**, **Zarina**.  
    options: to eat · eat · ate · ✔ eating  
