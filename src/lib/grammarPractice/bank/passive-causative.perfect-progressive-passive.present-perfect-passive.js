@@ -171,7 +171,7 @@ export default [
   "format": "mcq",
   "prompt": "Sorry, the last {thing} ______. Come back tomorrow, {name}.",
   "options": [
-   "has sold",
+   "have been sold",
    "is been sold",
    "has being sold",
    "has been sold"
@@ -365,7 +365,7 @@ export default [
   "options": [
    "has being broken",
    "has been broken",
-   "has broken",
+   "have been broken",
    "is been broken"
   ],
   "key": 1,
@@ -396,7 +396,7 @@ export default [
   "prompt": "All the {thing} ______. There are none left, {name}.",
   "options": [
    "have been sold",
-   "have sold",
+   "have being sold",
    "are been sold",
    "has been sold"
   ],

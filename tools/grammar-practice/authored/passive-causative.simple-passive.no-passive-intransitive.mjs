@@ -98,7 +98,7 @@ const TRANSFORM = [
   [TOP, "They built this {building} in {year}.", "This {building} ______ in {year}.", "was built", WHY_T, { building: ["theatre", "bridge", "school", "hotel"], year: ["1990", "2005", "1975", "2012"] }],
   [TOP, "Someone found the lost {pet} in the park, {name}.", "The lost {pet} ______ in the park, {name}.", "was found", WHY_T, { pet: ["dog", "cat", "puppy", "kitten"], name: NAME }],
   [TOP, "They invited all the {who} to the wedding, {name}.", "All the {who} ______ to the wedding, {name}.", "were invited", WHY_T, { who: ["neighbours", "cousins", "teachers", "classmates"], name: NAME }],
-  [TOP, "Someone opened the {thing} at night, {name}.", "The {thing} ______ at night, {name}.", "was opened", WHY_T, { thing: ["door", "window", "gate", "safe"], name: NAME }],
+  [TOP, "Someone opened the {thing} at night, {name}.", "The {thing} ______ at night, {name}.", "was opened", WHY_T, { thing: ["door", "window", "gate", "shop"], name: NAME }],
   [PST, "The {bus} arrives at nine, {name}.", "Yesterday the {bus} ______ at nine, {name}.", "arrived", WHY_I, { bus: ["bus", "train", "plane", "taxi"], name: NAME }],
   [PST, "The guests come at six, {name}.", "On Friday the guests ______ at six, {name}.", "came", WHY_I, { name: NAME, x: [] }],
   [PST, "The baby sleeps well in the {room}, {name}.", "Last night the baby ______ well in the {room}, {name}.", "slept", WHY_I, { room: ["bedroom", "car", "hotel", "garden"], name: NAME }],

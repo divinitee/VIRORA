@@ -25,6 +25,10 @@ const NAME = ["Zarina", "Sherzod", "Nodira", "Akmal"]; // listener names: never 
 const WHY = "News or a result now, and we don't say who did it: has / have been + past participle.";
 const sg = (pp) => [`has been ${pp}`, `has ${pp}`, `is been ${pp}`, `has being ${pp}`];
 const pl = (pp) => [`have been ${pp}`, `have ${pp}`, `are been ${pp}`, `has been ${pp}`];
+// Audit 21 Nov: break and sell also work without an object ("The window has broken", "The tickets have sold"),
+// so for those verbs the "has / have + pp" distractor is swapped for a wrong -ing form.
+const sgX = (pp) => [`has been ${pp}`, `have been ${pp}`, `is been ${pp}`, `has being ${pp}`];
+const plX = (pp) => [`have been ${pp}`, `have being ${pp}`, `are been ${pp}`, `has been ${pp}`];
 
 /* ---------------- choose: 20 mcq ---------------- */
 const CHOOSE = [
@@ -33,14 +37,14 @@ const CHOOSE = [
   [sg("cancelled"), "The {event} ______ because of the snow, {name}.", { event: ["match", "concert", "trip", "lesson"], name: NAME }],
   [sg("repaired"), "The {thing} ______ at last. We can use it again, {name}.", { thing: ["lift", "road", "bridge", "printer"], name: NAME }],
   [sg("painted"), "Your {room} ______ blue. Do you like it, {name}?", { room: ["room", "kitchen", "office", "bedroom"], name: NAME }],
-  [sg("sold"), "Sorry, the last {thing} ______. Come back tomorrow, {name}.", { thing: ["ticket", "cake", "melon", "newspaper"], name: NAME }],
+  [sgX("sold"), "Sorry, the last {thing} ______. Come back tomorrow, {name}.", { thing: ["ticket", "cake", "melon", "newspaper"], name: NAME }],
   [sg("found"), "Good news! Your {pet} ______ in the park, {name}.", { pet: ["dog", "cat", "puppy", "kitten"], name: NAME }],
   [sg("sent"), "The {doc} ______ to your email, {name}.", { doc: ["ticket", "report", "invoice", "letter"], name: NAME }],
   [sg("invited"), "Our class ______ to the {event}, {name}.", { event: ["concert", "museum", "wedding", "festival"], name: NAME }],
   [sg("cleaned"), "The {room} ______. You can go in now, {name}.", { room: ["kitchen", "classroom", "hall", "bathroom"], name: NAME }],
   [sg("repaired"), "Your {thing} ______. You can pick it up now, {name}.", { thing: ["shoes", "watch", "phone", "bike"], name: NAME }],
-  [sg("broken"), "The window in the {room} ______ again, {name}.", { room: ["kitchen", "classroom", "hall", "bathroom"], name: NAME }],
-  [pl("sold"), "All the {thing} ______. There are none left, {name}.", { thing: ["tickets", "cakes", "melons", "books"], name: NAME }],
+  [sgX("broken"), "The window in the {room} ______ again, {name}.", { room: ["kitchen", "classroom", "hall", "bathroom"], name: NAME }],
+  [plX("sold"), "All the {thing} ______. There are none left, {name}.", { thing: ["tickets", "cakes", "melons", "books"], name: NAME }],
   [pl("told"), "The {who} ______ about the change, {name}.", { who: ["students", "workers", "guests", "parents"], name: NAME }],
   [pl("built"), "Two new {thing} ______ in our street this year, {name}.", { thing: ["houses", "shops", "schools", "cafés"], name: NAME }],
   [pl("sent"), "The emails ______ to all the {who}, {name}.", { who: ["students", "parents", "guests", "workers"], name: NAME }],

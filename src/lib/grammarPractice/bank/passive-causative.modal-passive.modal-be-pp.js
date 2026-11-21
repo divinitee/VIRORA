@@ -86,7 +86,7 @@ export default [
    "med": [
     "medicine",
     "cleaning spray",
-    "knife",
+    "pair of scissors",
     "glue"
    ],
    "name": [

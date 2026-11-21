@@ -25,7 +25,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 6. Sorry, the last **cake** ______. Come back tomorrow, **Akmal**.  
-   options: has sold · is been sold · has being sold · ✔ has been sold  
+   options: have been sold · is been sold · has being sold · ✔ has been sold  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 7. Good news! Your **puppy** ______ in the park, **Zarina**.  
@@ -49,11 +49,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 12. The window in the **bathroom** ______ again, **Akmal**.  
-   options: has being broken · ✔ has been broken · has broken · is been broken  
+   options: has being broken · ✔ has been broken · have been broken · is been broken  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 13. All the **tickets** ______. There are none left, **Sherzod**.  
-   options: ✔ have been sold · have sold · are been sold · has been sold  
+   options: ✔ have been sold · have being sold · are been sold · has been sold  
    why: News or a result now, and we don't say who did it: has / have been + past participle.
 
 14. The **parents** ______ about the change, **Zarina**.  
