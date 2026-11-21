@@ -130,6 +130,14 @@ const EXPRESS = [
 ].map(([prompt, targetGrammar, lookFor]) => ({ ...BASE, stage: "express", format: "free_response", prompt, targetGrammar, lookFor }));
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
+// Audit 21 Nov: accept 'd contractions (he'd left, I'd come, if I'd seen); grading does not expand 'd.
+const CONTR = (t) => t.replace(/\b(I|he|she|we|they|you) (had|would) (?=\w)/gi, (_, p) => `${p}'d `);
+for (const it of items) {
+  if (typeof it.key !== "string") continue;
+  const all = [it.key, ...(it.acceptable || [])];
+  const extra = [...new Set(all.map(CONTR))].filter((x) => !all.includes(x));
+  if (extra.length) it.acceptable = [...(it.acceptable || []), ...extra];
+}
 const out = "content/grammar-practice/reported-speech.questions.reported-yes-no.json";
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
