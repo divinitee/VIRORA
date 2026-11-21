@@ -141,5 +141,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/nouns-articles.articles.the-second-mention.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "First mention of the man: a. Then \"The man\".",
+   "The dog was already mentioned: the.",
+   "First mention of the shop: a. Then \"The shop\".",
+   "The sofa was already mentioned: the.",
+   "First mention of the letter: a. Then \"The letter\".",
+   "The girl was already mentioned: the.",
+   "First mention of the teacher: a. Then \"The teacher\".",
+   "The film was already mentioned: the.",
+   "First mention of the tree: a. Then \"The tree\".",
+   "The poem was already mentioned: the.",
+   "First mention of the bird: a. Then \"The bird\".",
+   "The salad was already mentioned: the.",
+   "First mention of the cat: a. Then \"The cat\".",
+   "The pharmacy was already mentioned: the.",
+   "First mention of the student: a. Then \"The student\".",
+   "Her son was already mentioned: the.",
+   "First mention of the queue: a. Then \"The queue\".",
+   "The cake was already mentioned: the.",
+   "First mention of the plan: a. Then \"The plan\".",
+   "The doctor was already mentioned: the."
+  ],
+  "build": [
+   "A new café, first mention: a.",
+   "The scarf was already mentioned: The.",
+   "A new job, first mention: a.",
+   "His daughter was already mentioned: The.",
+   "One picture, first mention: a.",
+   "The parrot was already mentioned: The.",
+   "A big box, first mention: a.",
+   "The computer was already mentioned: The.",
+   "One sister, first mention: a.",
+   "The sandwich was already mentioned: The.",
+   "A small hole, first mention: a.",
+   "The boy was already mentioned: The.",
+   "A strange dream, first mention: a.",
+   "The notebook was already mentioned: The.",
+   "One question, first mention: a.",
+   "The cow was already mentioned: The.",
+   "A man, not known yet: a.",
+   "\"It had a garden\", then the same garden: The.",
+   "A headache, first mention: a.",
+   "The video was already mentioned: The."
+  ],
+  "transform": [
+   "The girl was mentioned before: The, not A.",
+   "Singular noun needs an article: The belt.",
+   "The cat was mentioned before: The, not A.",
+   "Singular noun needs an article: The film.",
+   "The cooker was mentioned before: The, not A.",
+   "New shop, first mention: a, not the.",
+   "New farm, first mention: a, not the.",
+   "Singular noun, first mention: a film.",
+   "New noise, first mention: a, not the.",
+   "Singular noun, first mention: a new phone.",
+   "First a kitten, then the kitten.",
+   "First a bakery, then the bakery.",
+   "First a garden, then the garden.",
+   "First a storm, then the storm.",
+   "First a woman, then the woman."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);
