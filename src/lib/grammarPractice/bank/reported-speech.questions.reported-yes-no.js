@@ -17,7 +17,7 @@ export default [
    "if was I"
   ],
   "key": 0,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Are you…?' → if + I was (statement order).",
   "slots": {
    "trip": [
     "walk",
@@ -49,7 +49,7 @@ export default [
    "if I liked"
   ],
   "key": 3,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Do you like…?' → if + I liked, no do.",
   "slots": {
    "food": [
     "plov",
@@ -81,7 +81,7 @@ export default [
    "could he"
   ],
   "key": 2,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Can you…?' → if + he could.",
   "slots": {
    "who": [
     "coach",
@@ -113,7 +113,7 @@ export default [
    "that it was"
   ],
   "key": 1,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Is the … open?' → if + it was.",
   "slots": {
    "shop": [
     "bank",
@@ -145,7 +145,7 @@ export default [
    "if did we finish"
   ],
   "key": 0,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Have you finished…?' → if + we had finished.",
   "slots": {
    "work": [
     "test",
@@ -177,7 +177,7 @@ export default [
    "if I had seen"
   ],
   "key": 3,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Did you see…?' → if + I had seen.",
   "slots": {
    "film": [
     "film",
@@ -209,7 +209,7 @@ export default [
    "would he"
   ],
   "key": 2,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Will you come…?' → if + he would.",
   "slots": {
    "event": [
     "party",
@@ -247,7 +247,7 @@ export default [
    "that I was"
   ],
   "key": 1,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Are you from…?' → if + I was.",
   "slots": {
    "city": [
     "Samarkand",
@@ -279,7 +279,7 @@ export default [
    "if did I need"
   ],
   "key": 0,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Do you need…?' → if + I needed.",
   "slots": {
    "thing": [
     "bags",
@@ -311,7 +311,7 @@ export default [
    "if it was"
   ],
   "key": 3,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Is it far…?' → if + it was.",
   "slots": {
    "place": [
     "station",
@@ -343,7 +343,7 @@ export default [
    "did they speak"
   ],
   "key": 2,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Do your parents speak…?' → if + they spoke.",
   "slots": {
    "lang": [
     "Russian",
@@ -375,7 +375,7 @@ export default [
    "that she was"
   ],
   "key": 1,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Are you married?' → if + she was.",
   "slots": {
    "who": [
     "man",
@@ -407,7 +407,7 @@ export default [
    "if could he"
   ],
   "key": 0,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Can I sit…?' → if + he could.",
   "slots": {
    "who": [
     "man",
@@ -439,7 +439,7 @@ export default [
    "if she was"
   ],
   "key": 3,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Is your … at home?' → if + she was.",
   "slots": {
    "who": [
     "sister",
@@ -471,7 +471,7 @@ export default [
    "had I locked"
   ],
   "key": 2,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Did you lock…?' → if + I had locked.",
   "slots": {
    "door": [
     "door",
@@ -503,7 +503,7 @@ export default [
    "that we wanted"
   ],
   "key": 1,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Do you want…?' → if + we wanted.",
   "slots": {
    "food": [
     "tea",
@@ -535,7 +535,7 @@ export default [
    "if were they"
   ],
   "key": 0,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Are your cousins coming?' → if + they were.",
   "slots": {
    "event": [
     "wedding",
@@ -567,7 +567,7 @@ export default [
    "if it had"
   ],
   "key": 3,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Has the … left?' → if + it had.",
   "slots": {
    "bus": [
     "bus",
@@ -605,7 +605,7 @@ export default [
    "would it"
   ],
   "key": 2,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Will it rain…?' → if + it would.",
   "slots": {
    "city": [
     "Samarkand",
@@ -637,7 +637,7 @@ export default [
    "that I could"
   ],
   "key": 1,
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "'Can you help me?' → if + I could.",
   "slots": {
    "thing": [
     "bags",
@@ -667,7 +667,7 @@ export default [
   "acceptable": [
    "whether I was"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question are → if, then subject I + was.",
   "slots": {
    "trip": [
     "walk",
@@ -697,7 +697,7 @@ export default [
   "acceptable": [
    "whether I liked"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question do → if, then I + liked (past).",
   "slots": {
    "food": [
     "plov",
@@ -727,7 +727,7 @@ export default [
   "acceptable": [
    "whether he could"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question can → if, then he + could.",
   "slots": {
    "who": [
     "coach",
@@ -757,7 +757,7 @@ export default [
   "acceptable": [
    "whether it was"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question is → if, then it + was.",
   "slots": {
    "shop": [
     "bank",
@@ -787,7 +787,7 @@ export default [
   "acceptable": [
    "whether we had"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question have done → if, then we + had.",
   "slots": {
    "work": [
     "test",
@@ -821,7 +821,7 @@ export default [
    "if I'd seen",
    "whether I'd seen"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question did see → if, then I + had seen.",
   "slots": {
    "film": [
     "film",
@@ -851,7 +851,7 @@ export default [
   "acceptable": [
    "whether he would"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question will → if, then he + would.",
   "slots": {
    "event": [
     "party",
@@ -887,7 +887,7 @@ export default [
   "acceptable": [
    "whether I was"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question are from → if, then I + was.",
   "slots": {
    "city": [
     "Samarkand",
@@ -917,7 +917,7 @@ export default [
   "acceptable": [
    "whether I needed"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question do need → if, then I + needed.",
   "slots": {
    "thing": [
     "bags",
@@ -947,7 +947,7 @@ export default [
   "acceptable": [
    "whether it was"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question is far → if, then it + was.",
   "slots": {
    "place": [
     "station",
@@ -977,7 +977,7 @@ export default [
   "acceptable": [
    "whether they spoke"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question do speak → if, then they + spoke.",
   "slots": {
    "lang": [
     "Russian",
@@ -1007,7 +1007,7 @@ export default [
   "acceptable": [
    "whether she was"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question are (to her) → if, then she + was.",
   "slots": {
    "who": [
     "man",
@@ -1037,7 +1037,7 @@ export default [
   "acceptable": [
    "whether he could"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question can I → if, then he + could.",
   "slots": {
    "who": [
     "man",
@@ -1067,7 +1067,7 @@ export default [
   "acceptable": [
    "whether she was"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question is (your …) → if, then she + was.",
   "slots": {
    "who": [
     "sister",
@@ -1101,7 +1101,7 @@ export default [
    "if I'd locked",
    "whether I'd locked"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question did lock → if, then I + had locked.",
   "slots": {
    "door": [
     "door",
@@ -1131,7 +1131,7 @@ export default [
   "acceptable": [
    "whether we wanted"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question do want → if, then we + wanted.",
   "slots": {
    "food": [
     "tea",
@@ -1161,7 +1161,7 @@ export default [
   "acceptable": [
    "whether they were"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question are coming → if, then they + were.",
   "slots": {
    "event": [
     "wedding",
@@ -1191,7 +1191,7 @@ export default [
   "acceptable": [
    "whether it had"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question has left → if, then it + had.",
   "slots": {
    "bus": [
     "bus",
@@ -1227,7 +1227,7 @@ export default [
   "acceptable": [
    "whether he could"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question can you fix → if, then he + could.",
   "slots": {
    "thing": [
     "car",
@@ -1257,7 +1257,7 @@ export default [
   "acceptable": [
    "whether I could"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Question can you help → if, then I + could.",
   "slots": {
    "thing": [
     "bags",
@@ -1288,7 +1288,7 @@ export default [
   "acceptable": [
    "whether I was tired"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Are you tired? → if I was tired.",
   "slots": {
    "m": [
     "Aziz",
@@ -1321,7 +1321,7 @@ export default [
    "if I live near",
    "whether I live near"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Do you live? → if I lived.",
   "slots": {
    "f": [
     "Olga",
@@ -1352,7 +1352,7 @@ export default [
   "acceptable": [
    "whether he could drive"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Can you drive? → if he could drive.",
   "slots": {
    "who": [
     "manager",
@@ -1385,7 +1385,7 @@ export default [
    "if we'd been",
    "whether we'd been"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Have you been? → if we had been.",
   "slots": {
    "f": [
     "Olga",
@@ -1418,7 +1418,7 @@ export default [
    "if I'd be",
    "whether I'd be"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Will you be? → if I would be.",
   "slots": {
    "who": [
     "mum",
@@ -1443,7 +1443,7 @@ export default [
   "acceptable": [
    "whether I was"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Add if and use statement order: if I was.",
   "slots": {
    "f": [
     "Olga",
@@ -1474,7 +1474,7 @@ export default [
   "acceptable": [
    "whether I liked"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "A yes/no question needs if, not that.",
   "slots": {
    "m": [
     "Aziz",
@@ -1499,19 +1499,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The {who} asked us if had we finished.",
-  "hint": "The {who} asked us ______ finished.",
+  "source": "The {who} asked us if had we {verb}.",
+  "hint": "The {who} asked us ______ {verb}.",
   "key": "if we had",
   "acceptable": [
    "whether we had"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "After if, subject first: if we had.",
   "slots": {
    "who": [
     "teacher",
     "waiter",
     "manager",
     "nurse"
+   ],
+   "verb": [
+    "finished",
+    "eaten",
+    "started",
+    "left"
    ]
   }
  },
@@ -1530,7 +1536,7 @@ export default [
   "acceptable": [
    "whether he wanted"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "After if, no did: if he wanted.",
   "slots": {
    "f": [
     "Olga",
@@ -1561,19 +1567,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "I asked the {who} could he help me.",
-  "hint": "I asked the {who} ______ help me.",
+  "source": "I asked the {who} could he {verb} me.",
+  "hint": "I asked the {who} ______ {verb} me.",
   "key": "if he could",
   "acceptable": [
    "whether he could"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Add if; subject before could.",
   "slots": {
    "who": [
     "mechanic",
     "neighbour",
     "driver",
     "man"
+   ],
+   "verb": [
+    "help",
+    "call",
+    "meet",
+    "drive"
    ]
   }
  },
@@ -1594,7 +1606,7 @@ export default [
    "if it is",
    "whether it is"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "wanted to know + if: if it was.",
   "slots": {
    "f": [
     "Olga",
@@ -1625,7 +1637,7 @@ export default [
   "acceptable": [
    "whether he had"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Do you have? → if he had.",
   "slots": {
    "who": [
     "manager",
@@ -1660,7 +1672,7 @@ export default [
    "if I'd paid",
    "whether I'd paid"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Did you pay? → if I had paid.",
   "slots": {
    "f": [
     "Olga",
@@ -1685,19 +1697,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Report the question with wanted to know if.",
-  "source": "'Are the {who} ready?' the driver asked.",
-  "hint": "The driver wanted to know ______ ready.",
+  "source": "'Are the {who} ready?' the {boss} asked.",
+  "hint": "The {boss} wanted to know ______ ready.",
   "key": "if they were",
   "acceptable": [
    "whether they were"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Are they ready? → if they were.",
   "slots": {
    "who": [
     "children",
     "guests",
     "players",
     "tourists"
+   ],
+   "boss": [
+    "driver",
+    "guide",
+    "teacher",
+    "coach"
    ]
   }
  },
@@ -1718,7 +1736,7 @@ export default [
    "if we could",
    "whether we could"
   ],
-  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "why": "Can we park? → if they could.",
   "slots": {
    "m": [
     "Aziz",
