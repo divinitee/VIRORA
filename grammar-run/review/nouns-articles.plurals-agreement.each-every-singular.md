@@ -6,7 +6,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. Every student in our **class** ______ a laptop, **Timur**.  
    options: ✔ has · have · having · are have  
-   why: Every + a singular noun takes a singular verb: has.
+   why: Every student = each one: singular verb: has.
 
 2. Each ______ has its own number in this **hotel**.  
    options: rooms · of rooms · the rooms · ✔ room  
@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. Every teacher at our **language school** ______ English, **Aziz**.  
    options: speaking · are speak · ✔ speaks · speak  
-   why: Every + a singular noun takes a singular verb: speaks.
+   why: Every teacher = each one: singular verb: speaks.
 
 16. Every ______ of the week is busy for **Olga**.  
    options: the days · ✔ day · days · of days  
@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. Each room in the **hospital** ______ clean and quiet, **Timur**.  
    options: ✔ is · are · be · being  
-   why: Each + a singular noun takes a singular verb: is.
+   why: Each room = one by one: singular verb: is.
 
 18. Each ______ in the **quiz** has four answers, **Aziz**.  
    options: questions · of questions · the questions · ✔ question  
@@ -78,7 +78,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 19. Each of these **cups** ______ **twenty thousand** soum now.  
    options: costing · are cost · ✔ costs · cost  
-   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: costs.
+   why: Each of these = one by one: singular verb: costs.
 
 20. Every ______ in this city has a **café**, **Timur**.  
    options: the parks · ✔ park · parks · of parks  
@@ -99,7 +99,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 3. _Write the verb in the present simple._  
    Every flat in this **block** ______ (have) a balcony, **Aziz**.  
    key: has  
-   why: Every + a singular noun takes a singular verb: has.
+   why: Every flat = each one: have → has.
 
 4. _Write the verb in the present simple._  
    Each child ______ (get) a free book at our **kindergarten**, **Aziz**.  
@@ -124,7 +124,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 8. _Write the verb in the present simple._  
    Each room ______ (be) ready for the **visitors**, **Aziz**.  
    key: is  
-   why: Each + a singular noun takes a singular verb: is.
+   why: Each room = one by one: be → is.
 
 9. _Write the verb in the present simple._  
    Every family in our **street** ______ (grow) **apples** in the garden.  
@@ -154,12 +154,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 14. _Write the verb in the present simple._  
    Each of the **shirts** ______ (cost) **twenty thousand** soum.  
    key: costs  
-   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: costs.
+   why: Each of the … = one by one: cost → costs.
 
 15. _Write the verb in the present simple._  
    Every child in this **group** ______ (speak) two languages, **Olga**.  
    key: speaks  
-   why: Every + a singular noun takes a singular verb: speaks.
+   why: Every child = each one: speak → speaks.
 
 16. _Write the verb in the present simple._  
    Each of my friends ______ (live) near the **bazaar**, **Olga**.  

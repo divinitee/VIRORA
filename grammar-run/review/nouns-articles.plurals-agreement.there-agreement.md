@@ -34,7 +34,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 8. There ______ many people and a **cat** at the bus stop, **Aziz**.  
    options: have · is · ✔ are · has  
-   why: After there, the verb agrees with the first thing in the list: many people. That is plural, so use are.
+   why: First item "many people" is plural: are.
 
 9. There ______ a lot of homework and two **English** tests this week.  
    options: ✔ is · are · has · have  
@@ -114,12 +114,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 6. _Write is or are._  
    There ______ (be) two dogs and a horse on my uncle's **field**, **Olga**.  
    key: are  
-   why: After there, the verb agrees with the first thing in the list: two dogs. That is plural, so use are.
+   why: First item "two dogs" is plural: are.
 
 7. _Write was or were._  
    There ______ (be) a cake and some sweets on the table **this morning**, **Timur**.  
    key: was  
-   why: After there, the verb agrees with the first thing in the list: a cake. That is one thing (or uncountable), so use was.
+   why: First item "a cake" is one, and the time is past: was.
 
 8. _Write was or were._  
    There ______ (be) twenty guests and a singer at the **wedding** last week, **Aziz**.  
@@ -228,13 +228,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    There is two dogs and a cat in our **yard**, **Olga**.  
    → There ______ two dogs and a cat in our **yard**, **Olga**.  
    key: are  
-   why: After there, the verb agrees with the first thing in the list: two dogs. That is plural, so use are.
+   why: "two dogs" comes first and is plural: are, not is.
 
 8. _Correct the mistake._  
    There is many people and a car outside the **shop**, **Olga**.  
    → There ______ many people and a car outside the **shop**, **Olga**.  
    key: are  
-   why: After there, the verb agrees with the first thing in the list: many people. That is plural, so use are.
+   why: "many people" comes first and is plural: are, not is.
 
 9. _Correct the mistake._  
    There are some milk and two eggs in the **fridge**, **Lola**.  
@@ -252,7 +252,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    There is a cake and two pies on the table **this evening**, **Olga**.  
    → There ______ a cake and two pies on the table last night, **Olga**.  
    key: was  
-   why: After there, the verb agrees with the first thing in the list: a cake. That is one thing (or uncountable), so use was.
+   why: Past time, first item "a cake" is one: was.
 
 12. _Make it past._  
    There are many cars and a bus on the road **now**, **Lola**.  

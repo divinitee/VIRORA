@@ -17,7 +17,7 @@ export default [
    "are have"
   ],
   "key": 0,
-  "why": "Every + a singular noun takes a singular verb: has.",
+  "why": "Every student = each one: singular verb: has.",
   "slots": {
    "group": [
     "group",
@@ -453,7 +453,7 @@ export default [
    "speak"
   ],
   "key": 2,
-  "why": "Every + a singular noun takes a singular verb: speaks.",
+  "why": "Every teacher = each one: singular verb: speaks.",
   "slots": {
    "school": [
     "school",
@@ -511,7 +511,7 @@ export default [
    "being"
   ],
   "key": 0,
-  "why": "Each + a singular noun takes a singular verb: is.",
+  "why": "Each room = one by one: singular verb: is.",
   "slots": {
    "place": [
     "hotel",
@@ -575,7 +575,7 @@ export default [
    "cost"
   ],
   "key": 2,
-  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: costs.",
+  "why": "Each of these = one by one: singular verb: costs.",
   "slots": {
    "things": [
     "bags",
@@ -688,7 +688,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Every flat in this {building} ______ (have) a balcony, {name}.",
   "key": "has",
-  "why": "Every + a singular noun takes a singular verb: has.",
+  "why": "Every flat = each one: have → has.",
   "slots": {
    "building": [
     "building",
@@ -823,7 +823,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Each room ______ (be) ready for the {who}, {name}.",
   "key": "is",
-  "why": "Each + a singular noun takes a singular verb: is.",
+  "why": "Each room = one by one: be → is.",
   "slots": {
    "who": [
     "guests",
@@ -985,7 +985,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Each of the {things} ______ (cost) {price} soum.",
   "key": "costs",
-  "why": "Each of + a plural noun still means one by one, so in careful English the verb is singular: costs.",
+  "why": "Each of the … = one by one: cost → costs.",
   "slots": {
    "things": [
     "bags",
@@ -1012,7 +1012,7 @@ export default [
   "instr": "Write the verb in the present simple.",
   "source": "Every child in this {place} ______ (speak) two languages, {name}.",
   "key": "speaks",
-  "why": "Every + a singular noun takes a singular verb: speaks.",
+  "why": "Every child = each one: speak → speaks.",
   "slots": {
    "place": [
     "class",
