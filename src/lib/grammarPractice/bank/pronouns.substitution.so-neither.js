@@ -17,7 +17,7 @@ export default [
    "So I live"
   ],
   "key": 0,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I live\": present simple, positive: So do I.",
   "slots": {
    "city": [
     "Samarkand",
@@ -49,7 +49,7 @@ export default [
    "So am I"
   ],
   "key": 3,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'm tired\": be, positive: So am I.",
   "slots": {
    "thing": [
     "trip",
@@ -81,7 +81,7 @@ export default [
    "So do I"
   ],
   "key": 2,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I can\": copy can: So can I.",
   "slots": {
    "skill": [
     "swim",
@@ -113,7 +113,7 @@ export default [
    "So do I"
   ],
   "key": 1,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I went\": past simple, positive: So did I.",
   "slots": {
    "event": [
     "party",
@@ -151,7 +151,7 @@ export default [
    "Neither have I"
   ],
   "key": 0,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I've been\": copy have: So have I.",
   "slots": {
    "city": [
     "Samarkand",
@@ -183,7 +183,7 @@ export default [
    "So will I"
   ],
   "key": 3,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'll be\": copy will: So will I.",
   "slots": {
    "place": [
     "library",
@@ -215,7 +215,7 @@ export default [
    "So did I"
   ],
   "key": 2,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I was late\": copy was: So was I.",
   "slots": {
    "thing": [
     "lesson",
@@ -253,7 +253,7 @@ export default [
    "Neither do I"
   ],
   "key": 1,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I love\": present simple, positive: So do I.",
   "slots": {
    "food": [
     "plov",
@@ -285,7 +285,7 @@ export default [
    "So I'm"
   ],
   "key": 0,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'm learning\": copy am: So am I.",
   "slots": {
    "lang": [
     "Korean",
@@ -317,7 +317,7 @@ export default [
    "So does"
   ],
   "key": 3,
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"My cousin speaks\": he/she, present simple: So does.",
   "slots": {
    "lang": [
     "Korean",
@@ -349,7 +349,7 @@ export default [
    "So do I"
   ],
   "key": 2,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I don't like\": negative, copy do: Neither do I.",
   "slots": {
    "food": [
     "plov",
@@ -381,7 +381,7 @@ export default [
    "So am I"
   ],
   "key": 1,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I'm not ready\": negative be: Neither am I.",
   "slots": {
    "test": [
     "test",
@@ -413,7 +413,7 @@ export default [
    "Neither I can"
   ],
   "key": 0,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I can't\": negative, copy can: Neither can I.",
   "slots": {
    "skill": [
     "swim",
@@ -445,7 +445,7 @@ export default [
    "Neither did I"
   ],
   "key": 3,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I didn't sleep\": negative past: Neither did I.",
   "slots": {
    "when": [
     "yesterday",
@@ -477,7 +477,7 @@ export default [
    "Neither did I"
   ],
   "key": 2,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I haven't seen\": negative, copy have: Neither have I.",
   "slots": {
    "film": [
     "film",
@@ -509,7 +509,7 @@ export default [
    "So will I"
   ],
   "key": 1,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I won't be\": negative, copy will: Neither will I.",
   "slots": {
    "event": [
     "party",
@@ -547,7 +547,7 @@ export default [
    "Neither I was"
   ],
   "key": 0,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I wasn't\": negative, copy was: Neither was I.",
   "slots": {
    "when": [
     "yesterday",
@@ -579,7 +579,7 @@ export default [
    "Neither do I"
   ],
   "key": 3,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I don't drink\": negative, copy do: Neither do I.",
   "slots": {
    "drink": [
     "coffee",
@@ -611,7 +611,7 @@ export default [
    "Neither do"
   ],
   "key": 2,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"My … doesn't eat\": he/she, negative: Neither does.",
   "slots": {
    "who": [
     "sister",
@@ -649,7 +649,7 @@ export default [
    "So were"
   ],
   "key": 1,
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"We weren't\": negative, copy were: Neither were.",
   "slots": {
    "when": [
     "yesterday",
@@ -676,7 +676,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I live near the {place}.' 'So ______ I.'",
   "key": "do",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I live\" has no helper verb: So do I.",
   "slots": {
    "place": [
     "park",
@@ -703,7 +703,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I'm hungry after the {thing}.' 'So ______ I.'",
   "key": "am",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'm hungry\": copy am: So am I.",
   "slots": {
    "thing": [
     "trip",
@@ -730,7 +730,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I enjoyed the {event} {when}.' 'So ______ I.'",
   "key": "did",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I enjoyed\": past simple: So did I.",
   "slots": {
    "event": [
     "party",
@@ -763,7 +763,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I've finished my {work}.' 'So ______ I.'",
   "key": "have",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I've finished\": copy have: So have I.",
   "slots": {
    "work": [
     "homework",
@@ -790,7 +790,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I'll take the bus to {city}.' 'So ______ I.'",
   "key": "will",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'll take\": copy will: So will I.",
   "slots": {
    "city": [
     "Samarkand",
@@ -817,7 +817,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'My brother likes {food}.' 'So ______ my sister.'",
   "key": "does",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"My brother likes\": he/she form: So does my sister.",
   "slots": {
    "food": [
     "plov",
@@ -844,7 +844,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I love {sport}.' 'So ______ I.'",
   "key": "do",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I love\" has no helper verb: So do I.",
   "slots": {
    "sport": [
     "football",
@@ -871,7 +871,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I'm going to {city} in {month}.' 'So ______ I.'",
   "key": "am",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'm going\": copy am: So am I.",
   "slots": {
    "city": [
     "Samarkand",
@@ -904,7 +904,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I saw your {who} at the bazaar {when}.' 'So ______ I.'",
   "key": "did",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I saw\": past simple: So did I.",
   "slots": {
    "who": [
     "mum",
@@ -937,7 +937,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I've got a cold {when}.' 'So ______ I.'",
   "key": "have",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I've got\": copy have: So have I.",
   "slots": {
    "when": [
     "again",
@@ -964,7 +964,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I don't like {food}.' 'Neither ______ I.'",
   "key": "do",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I don't like\": copy do: Neither do I.",
   "slots": {
    "food": [
     "plov",
@@ -991,7 +991,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I'm not hungry {when}.' 'Neither ______ I.'",
   "key": "am",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I'm not hungry\": copy am: Neither am I.",
   "slots": {
    "when": [
     "now",
@@ -1018,7 +1018,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I can't {skill}.' 'Neither ______ I.'",
   "key": "can",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I can't\": copy can: Neither can I.",
   "slots": {
    "skill": [
     "swim",
@@ -1045,7 +1045,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I didn't go to the {event} {when}.' 'Neither ______ I.'",
   "key": "did",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I didn't go\": copy did: Neither did I.",
   "slots": {
    "event": [
     "party",
@@ -1078,7 +1078,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I haven't been to {city}.' 'Neither ______ I.'",
   "key": "have",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I haven't been\": copy have: Neither have I.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1105,7 +1105,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I won't be late {when}.' 'Neither ______ I.'",
   "key": "will",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I won't be\": copy will: Neither will I.",
   "slots": {
    "when": [
     "tomorrow",
@@ -1132,7 +1132,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I wasn't at the {place} {when}.' 'Neither ______ I.'",
   "key": "was",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I wasn't\": copy was: Neither was I.",
   "slots": {
    "place": [
     "lesson",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'My mum doesn't drink {drink}.' 'Neither ______ my dad.'",
   "key": "does",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"My mum doesn't\": he/she form: Neither does my dad.",
   "slots": {
    "drink": [
     "coffee",
@@ -1192,7 +1192,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'I don't understand this {thing}.' 'Neither ______ I.'",
   "key": "do",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I don't understand\": copy do: Neither do I.",
   "slots": {
    "thing": [
     "rule",
@@ -1219,7 +1219,7 @@ export default [
   "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
   "source": "{spk} says: 'We weren't ready for the {test}.' 'Neither ______ we.'",
   "key": "were",
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"We weren't\": copy were: Neither were we.",
   "slots": {
    "test": [
     "test",
@@ -1251,7 +1251,7 @@ export default [
    "Me too",
    "I do too"
   ],
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I like\": present simple, so do, not am.",
   "slots": {
    "food": [
     "plov",
@@ -1283,7 +1283,7 @@ export default [
    "Me too",
    "I am too"
   ],
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'm cold\": be, so am, not do.",
   "slots": {
    "where": [
     "in here",
@@ -1316,7 +1316,7 @@ export default [
    "Me neither",
    "I can't either"
   ],
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "Word order after Neither: verb, then I.",
   "slots": {
    "skill": [
     "swim",
@@ -1349,7 +1349,7 @@ export default [
    "Me neither",
    "I didn't either"
   ],
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "Neither + did + I, not I didn't neither.",
   "slots": {
    "film": [
     "film",
@@ -1381,7 +1381,7 @@ export default [
    "Me too",
    "I have too"
   ],
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I've lost\": copy have, not did.",
   "slots": {
    "thing": [
     "keys",
@@ -1409,7 +1409,7 @@ export default [
   "source": "{spk} says: 'I went to the {event} {when}.'",
   "hint": "{spk} says: 'I went to the {event} {when}.' '______.'",
   "key": "So did I",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I went\": past simple: So did I.",
   "slots": {
    "event": [
     "party",
@@ -1443,7 +1443,7 @@ export default [
   "source": "{spk} says: 'I'll be late {when}.'",
   "hint": "{spk} says: 'I'll be late {when}.' '______.'",
   "key": "So will I",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'll be\": copy will: So will I.",
   "slots": {
    "when": [
     "tomorrow",
@@ -1471,7 +1471,7 @@ export default [
   "source": "{spk} says: 'I'm going to {city} next week.'",
   "hint": "{spk} says: 'I'm going to {city} next week.' '______.'",
   "key": "So am I",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I'm going\": copy am: So am I.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1499,7 +1499,7 @@ export default [
   "source": "{spk} says: 'My sister works in a {place}.' Agree about my brother.",
   "hint": "{spk} says: 'My sister works in a {place}.' '______ my brother.'",
   "key": "So does",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"My sister works\": he/she form: So does.",
   "slots": {
    "place": [
     "bank",
@@ -1527,7 +1527,7 @@ export default [
   "source": "{spk} says: 'I've got two {sib}.'",
   "hint": "{spk} says: 'I've got two {sib}.' '______.'",
   "key": "So have I",
-  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "why": "\"I've got\": copy have: So have I.",
   "slots": {
    "sib": [
     "sisters",
@@ -1558,7 +1558,7 @@ export default [
   "acceptable": [
    "Nor do I"
   ],
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I don't like\": Neither do I.",
   "slots": {
    "food": [
     "plov",
@@ -1589,7 +1589,7 @@ export default [
   "acceptable": [
    "Nor was I"
   ],
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I wasn't\": Neither was I.",
   "slots": {
    "event": [
     "party",
@@ -1620,7 +1620,7 @@ export default [
   "acceptable": [
    "Nor have I"
   ],
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I haven't finished\": Neither have I.",
   "slots": {
    "work": [
     "homework",
@@ -1651,7 +1651,7 @@ export default [
   "acceptable": [
    "Nor can"
   ],
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"My dad can't\": Neither can.",
   "slots": {
    "skill": [
     "swim",
@@ -1682,7 +1682,7 @@ export default [
   "acceptable": [
    "Nor will I"
   ],
-  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "why": "\"I won't be\": Neither will I.",
   "slots": {
    "when": [
     "tonight",
