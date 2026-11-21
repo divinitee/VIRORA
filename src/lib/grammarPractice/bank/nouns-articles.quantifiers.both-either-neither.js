@@ -1417,7 +1417,7 @@ export default [
    "Neither",
    "nor"
   ],
-  "why": "isn't … either → Neither … nor.",
+  "why": "Not my sister and not my brother: Neither … nor.",
   "slots": {
    "adj": [
     "tall",

@@ -174,12 +174,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Write the verb in brackets in the past simple._  
    **Nilufar** has played the **dutar** since she ______ (be) six.  
    key: was  
-   why: The since clause is a past state: was.
+   why: since + a past state (was …): was.
 
 19. _Write the verb in brackets in the past simple._  
    We haven't seen our old neighbours since we ______ (move) to **Namangan**, **Nodira**.  
    key: moved  
-   why: The since clause is one finished moment: moved.
+   why: since + one finished moment (moving day): moved.
 
 20. _Write the verb in brackets in the past simple._  
    My **brother** has been much calmer since he ______ (get) his new **garden**.  

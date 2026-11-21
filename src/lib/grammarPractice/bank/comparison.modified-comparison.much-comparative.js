@@ -846,7 +846,8 @@ export default [
    "part": [
     "half",
     "part",
-    "hour"
+    "hour",
+    "episode"
    ],
    "name": [
     "Feruza",

@@ -240,7 +240,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    My sister isn't **shy**. My brother isn't **shy** either, **Olga**.  
    → ______ my sister ______ my brother is **shy**, **Olga**.  
    key: Neither + nor  
-   why: isn't … either → Neither … nor.
+   why: Not my sister and not my brother: Neither … nor.
 
 10. _Join the two sentences with neither … nor._  
    My dad can't come to the **concert** **this week**. My mum can't come either.  

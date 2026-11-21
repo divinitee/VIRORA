@@ -382,6 +382,33 @@ const VARIETY = {
    [
     "neighbours"
    ]
+  ],
+  [
+   "choose",
+   9,
+   "",
+   "race",
+   [
+    "fun run"
+   ]
+  ],
+  [
+   "choose",
+   10,
+   "",
+   "n",
+   [
+    "five"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "",
+   "who",
+   [
+    "cousins"
+   ]
   ]
  ]
 };

@@ -36,7 +36,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ will be doing · will do · will be do · will doing  
    why: "Please don't come at …": busy then: will be doing.
 
-9. At this time on **Friday**, **Timur** ______ in the **school race**, so he can't help you.  
+9. At this time on **Friday**, **Timur** ______ in the **city race**, so he can't help you.  
    options: ✔ will be running · will run · runs · will be run  
    why: "At this time on …" + "he can't help": will be running.
 

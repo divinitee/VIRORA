@@ -288,7 +288,8 @@
    "race": [
     "marathon",
     "school race",
-    "city race"
+    "city race",
+    "fun run"
    ]
   }
  },
@@ -313,7 +314,8 @@
    "n": [
     "two",
     "three",
-    "four"
+    "four",
+    "five"
    ],
    "place": [
     "mountains",
@@ -1043,7 +1045,8 @@
    "who": [
     "friends",
     "neighbours",
-    "brothers"
+    "brothers",
+    "cousins"
    ]
   }
  },

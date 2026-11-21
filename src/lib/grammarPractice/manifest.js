@@ -261,7 +261,7 @@ export const PRACTICE_MANIFEST = {
   "level": "B1",
   "authored": 68,
   "stages": {
-   "choose": 316,
+   "choose": 320,
    "build": 316,
    "transform": 240,
    "create": 8,
@@ -276,7 +276,7 @@ export const PRACTICE_MANIFEST = {
   "authored": 68,
   "stages": {
    "choose": 320,
-   "build": 316,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -289,7 +289,7 @@ export const PRACTICE_MANIFEST = {
   "level": "B1",
   "authored": 68,
   "stages": {
-   "choose": 316,
+   "choose": 320,
    "build": 320,
    "transform": 240,
    "create": 8,
@@ -2403,8 +2403,8 @@ export const PRACTICE_MANIFEST = {
   "level": "B1",
   "authored": 68,
   "stages": {
-   "choose": 348,
-   "build": 316,
+   "choose": 368,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5
@@ -2529,7 +2529,7 @@ export const PRACTICE_MANIFEST = {
   "level": "B1",
   "authored": 68,
   "stages": {
-   "choose": 316,
+   "choose": 320,
    "build": 320,
    "transform": 240,
    "create": 8,
@@ -2656,8 +2656,8 @@ export const PRACTICE_MANIFEST = {
   "authored": 68,
   "stages": {
    "choose": 368,
-   "build": 312,
-   "transform": 236,
+   "build": 320,
+   "transform": 240,
    "create": 8,
    "express": 5
   }

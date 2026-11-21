@@ -20,7 +20,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: very · ✔ slightly · much · far  
    why: 50 against 52 km: slightly longer.
 
-5. My **cousin** is 15 and a half, and her friend is 16. Her friend is ______ older, **Sherzod**.  
+5. My **niece** is 15 and a half, and her friend is 16. Her friend is ______ older, **Sherzod**.  
    options: ✔ slightly · much · far · very  
    why: Half a year is a small gap: slightly older.
 

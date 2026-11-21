@@ -150,7 +150,8 @@ export default [
    "who": [
     "sister",
     "cousin",
-    "niece"
+    "niece",
+    "daughter"
    ],
    "name": [
     "Zarina",

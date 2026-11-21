@@ -150,7 +150,8 @@ export default [
    "who": [
     "father",
     "uncle",
-    "stepfather"
+    "stepfather",
+    "dad"
    ],
    "name": [
     "Malika",

@@ -354,6 +354,15 @@ const VARIETY = {
     "train station",
     "bus station"
    ]
+  ],
+  [
+   "choose",
+   19,
+   "",
+   "bell",
+   [
+    "last bell"
+   ]
   ]
  ]
 };

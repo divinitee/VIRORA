@@ -76,7 +76,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: has chosen · had chose · had choose · ✔ had chosen  
    why: "already" when we got there: had chosen.
 
-19. I was late: when I got to **the lyceum**, the **bell** ______.  
+19. I was late: when I got to **the lyceum**, the **first bell** ______.  
    options: had rang · had ring · ✔ had rung · has rung  
    why: "I was late": the … rang before I came: had rung.
 

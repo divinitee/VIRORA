@@ -193,8 +193,8 @@ const VARIETY = {
    "\"since my father broke …\" up to now: has helped.",
    "\"since I started …\" up to now: have saved.",
    "The since clause is one finished moment: finished.",
-   "The since clause is a past state: was.",
-   "The since clause is one finished moment: moved.",
+   "since + a past state (was …): was.",
+   "since + one finished moment (moving day): moved.",
    "The since clause is one finished moment: got."
   ],
   "transform": [
@@ -385,6 +385,33 @@ const VARIETY = {
    "home",
    [
     "building"
+   ]
+  ],
+  [
+   "build",
+   5,
+   "",
+   "sib",
+   [
+    "son"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "",
+   "who",
+   [
+    "dad"
+   ]
+  ],
+  [
+   "transform",
+   2,
+   "",
+   "home",
+   [
+    "apartment"
    ]
   ]
  ]

@@ -114,7 +114,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 6. _Complete the sentence with the present continuous of the verb in brackets._  
    I ______ (play) tennis with my **friend** this **Saturday**. We booked the court.  
    key: am playing  
-   why: "We booked the court": am playing.
+   why: The court is booked, so it's fixed: am playing.
 
 7. _Complete the sentence with the present continuous of the verb in brackets._  
    Our **cousins** ______ (come) for dinner **tonight**. My mother invited them this morning.  

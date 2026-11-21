@@ -219,6 +219,15 @@ const VARIETY = {
    [
     "cousin"
    ]
+  ],
+  [
+   "choose",
+   5,
+   "",
+   "who",
+   [
+    "daughter"
+   ]
   ]
  ]
 };

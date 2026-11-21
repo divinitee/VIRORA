@@ -777,7 +777,8 @@ export default [
    "sib": [
     "brother",
     "cousin",
-    "nephew"
+    "nephew",
+    "son"
    ],
    "name": [
     "Zarina",
@@ -890,7 +891,8 @@ export default [
    "who": [
     "father",
     "uncle",
-    "grandfather"
+    "grandfather",
+    "dad"
    ],
    "car": [
     "car",
@@ -1148,7 +1150,7 @@ export default [
   "instr": "Write the verb in brackets in the past simple.",
   "source": "{name} has played the {instr} since she ______ (be) six.",
   "key": "was",
-  "why": "The since clause is a past state: was.",
+  "why": "since + a past state (was …): was.",
   "slots": {
    "name": [
     "Madina",
@@ -1175,7 +1177,7 @@ export default [
   "instr": "Write the verb in brackets in the past simple.",
   "source": "We haven't seen our old neighbours since we ______ (move) to {city}, {name}.",
   "key": "moved",
-  "why": "The since clause is one finished moment: moved.",
+  "why": "since + one finished moment (moving day): moved.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1266,7 +1268,8 @@ export default [
    "home": [
     "flat",
     "house",
-    "building"
+    "building",
+    "apartment"
    ],
    "age": [
     "six",

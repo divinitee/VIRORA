@@ -20,7 +20,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: not difficult as · ✔ not as difficult as · not as more difficult as · not as difficult than  
    why: "I finished early": easier, so not as difficult as.
 
-5. My **uncle** is 40 and my mother is 45. He's ______ my mother, **Ulugbek**.  
+5. My **stepfather** is 40 and my mother is 45. He's ______ my mother, **Ulugbek**.  
    options: ✔ not as old as · not as older as · not as old than · not old as  
    why: 40 against 45: not as old as.
 

@@ -200,7 +200,7 @@ const VARIETY = {
    "doesn't … either → Neither … nor.",
    "wasn't … either → Neither … nor.",
    "isn't … either → Neither … nor.",
-   "isn't … either → Neither … nor.",
+   "Not my sister and not my brother: Neither … nor.",
    "can't … either → Neither … nor.",
    "by bus, or by taxi → either … or.",
    "Saturday, or Sunday → either … or.",

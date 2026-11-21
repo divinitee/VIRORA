@@ -787,7 +787,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "I ______ (play) tennis with my {who} this {when}. We booked the court.",
   "key": "am playing",
-  "why": "\"We booked the court\": am playing.",
+  "why": "The court is booked, so it's fixed: am playing.",
   "slots": {
    "who": [
     "brother",

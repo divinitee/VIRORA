@@ -229,6 +229,15 @@ const VARIETY = {
    [
     "hour"
    ]
+  ],
+  [
+   "build",
+   8,
+   "",
+   "part",
+   [
+    "episode"
+   ]
   ]
  ]
 };

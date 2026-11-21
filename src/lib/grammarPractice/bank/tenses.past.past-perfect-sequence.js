@@ -604,7 +604,8 @@ export default [
    "bell": [
     "bell",
     "first bell",
-    "school bell"
+    "school bell",
+    "last bell"
    ]
   }
  },

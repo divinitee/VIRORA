@@ -290,7 +290,8 @@ export default [
    "race": [
     "marathon",
     "school race",
-    "city race"
+    "city race",
+    "fun run"
    ]
   }
  },
@@ -315,7 +316,8 @@ export default [
    "n": [
     "two",
     "three",
-    "four"
+    "four",
+    "five"
    ],
    "place": [
     "mountains",
@@ -1045,7 +1047,8 @@ export default [
    "who": [
     "friends",
     "neighbours",
-    "brothers"
+    "brothers",
+    "cousins"
    ]
   }
  },

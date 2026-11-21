@@ -226,7 +226,7 @@ const VARIETY = {
    "\"Dad bought the train tickets\": are visiting.",
    "\"She made an appointment\": is seeing.",
    "\"They invited all their friends\": are having.",
-   "\"We booked the court\": am playing.",
+   "The court is booked, so it's fixed: am playing.",
    "\"My mother invited them\": are coming.",
    "\"We agreed on it yesterday\": is taking.",
    "\"We booked a table\": am having lunch.",
