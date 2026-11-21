@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. **Olga** ______ at the **school** since she finished university.  
    options: ✔ has worked · worked · works · is working  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has worked. The since clause says when it started.
+   why: "since she finished university" up to now: has worked.
 
-2. I ______ **Zarina** since we were at primary school.  
+2. I ______ **Zarina** since we were at **primary school**.  
    options: knew · know · am knowing · ✔ have known  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have known. The since clause says when it started.
+   why: "since we were …" and we still know each other: have known.
 
-3. We ______ in this **flat** since I was **six**.  
+3. We ______ in this **house** since I was **seven**.  
    options: live · are living · ✔ have lived · lived  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have lived. The since clause says when it started.
+   why: "since I was …" and we still live here: have lived.
 
-4. My brother ______ the same **bag** since he started college.  
+4. My brother ______ the same **phone** since he started **work**.  
    options: is having · ✔ has had · had · has  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has had. The since clause says when it started.
+   why: "since he started …" and he still has it: has had.
 
-5. **Sardor** ______ for the city team since he was **fifteen**, **Mum**.  
+5. **Ilya** ______ for the city team since he was **thirteen**, **Olga**.  
    options: ✔ has played · played · plays · is playing  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has played. The since clause says when it started.
+   why: "since he was …" and he still plays: has played.
 
-6. My parents ______ married since they finished **college**.  
+6. My **aunt and uncle** ______ married since they finished **their studies**.  
    options: were · are · are being · ✔ have been  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have been. The since clause says when it started.
+   why: "since they finished …": still married now: have been.
 
-7. Our **street** ______ a lot since they built the new **market**.  
+7. Our **town** ______ a lot since they built the new **school**.  
    options: changes · is changing · ✔ has changed · changed  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has changed. The since clause says when it started.
+   why: "since they built …": the change goes up to now: has changed.
 
-8. I ______ a **parrot** since I was a small child, **Zarina**.  
+8. I ______ a **dog** since I was a small child, **Nodira**.  
    options: am wanting · ✔ have wanted · wanted · want  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have wanted. The since clause says when it started.
+   why: "since I was a small child": still wanting it: have wanted.
 
-9. Mr Karimov ______ at our **lyceum** since it opened.  
+9. **Mrs Rahimova** ______ at our **school** since it opened.  
    options: ✔ has taught · taught · teaches · is teaching  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has taught. The since clause says when it started.
+   why: "since it opened": still teaching there: has taught.
 
-10. I ______ English since I moved to **Tashkent**.  
+10. I ______ **English** since I moved to **Samarkand**.  
    options: studied · study · am studying · ✔ have studied  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have studied. The since clause says when it started.
+   why: "since I moved": still studying: have studied.
 
-11. My grandmother ______ five kilos since she started **doing yoga**.  
+11. My **neighbour** ______ five kilos since she started **walking every day**.  
    options: loses · is losing · ✔ has lost · lost  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has lost. The since clause says when it started.
+   why: "since she started …": a result up to now: has lost.
 
-12. I ______ my cousins since they moved to **Moscow**, **Nodira**.  
+12. I ______ my cousins since they moved to **Istanbul**, **Zarina**.  
    options: am not seeing · ✔ haven't seen · didn't see · don't see  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: haven't seen. The since clause says when it started.
+   why: "since they moved": no meeting up to now: haven't seen.
 
-13. **Sherzod** ______ me since we had that argument about the **party**.  
+13. **Sherzod** ______ me since we had that argument about the **football match**.  
    options: ✔ hasn't called · didn't call · doesn't call · isn't calling  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: hasn't called. The since clause says when it started.
+   why: "since we had that argument": no call up to now: hasn't called.
 
-14. I ______ this **bike** every day since my uncle gave it to me.  
+14. I ______ this **bike** every day since my **grandfather** gave it to me.  
    options: used · use · am using · ✔ have used  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have used. The since clause says when it started.
+   why: "every day since … gave it to me": have used.
 
-15. We have had a garden since we ______ to the **suburbs**.  
+15. We have had a **big kitchen** since we ______ to the **country**.  
    options: are moving · will move · ✔ moved · move  
-   why: The since clause names a finished moment in the past, so it takes the past simple: moved.
+   why: The since clause is one finished moment: moved.
 
-16. **Nilufar** has loved music since she ______ a little girl.  
+16. **Olga** has loved **music** since she ______ a little girl.  
    options: will be · ✔ was · is · has  
-   why: The since clause names a finished moment in the past, so it takes the past simple: was.
+   why: The since clause is a past state: was.
 
-17. We have become good friends since we ______ **college** together.  
+17. We have become **close friends** since we ______ **English lessons** together.  
    options: ✔ started · start · are starting · will start  
-   why: The since clause names a finished moment in the past, so it takes the past simple: started.
+   why: The since clause is a finished start: started.
 
-18. My cousin and I have known each other since we ______ **four**.  
+18. My **neighbour** and I have known each other since we ______ **three**.  
    options: are · have · will be · ✔ were  
-   why: The since clause names a finished moment in the past, so it takes the past simple: were.
+   why: The since clause is a past state: were.
 
-19. **Jasur** hasn't been back to **Khiva** since he ______ ten years ago.  
+19. **Timur** hasn't been back to **Khiva** since he ______ ten years ago.  
    options: are leaving · will leave · ✔ left · leave  
-   why: The since clause names a finished moment in the past, so it takes the past simple: left.
+   why: "ten years ago" is a finished moment: left.
 
-20. We have saved a lot of money since we ______ the **small car**.  
+20. We have saved a lot of **time** since we ______ the **bus pass**.  
    options: will buy · ✔ bought · buy · are buying  
-   why: The since clause names a finished moment in the past, so it takes the past simple: bought.
+   why: The since clause is one finished moment: bought.
 
 ## build (20)
 
 1. _Write the verb in brackets in the present perfect._  
-   My aunt ______ (work) at the **post office** since she finished **her course**.  
+   My aunt ______ (work) at the **pharmacy** since she finished **school**.  
    key: has worked (also: has been working)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has worked. The since clause says when it started.
+   why: "since she finished …" and still there: has worked.
 
 2. _Write the verb in brackets in the present perfect._  
-   My grandparents ______ (live) in **Bukhara** since they got married, **Zarina**.  
+   My grandparents ______ (live) in **Namangan** since they got married, **Zarina**.  
    key: have lived (also: have been living)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have lived. The since clause says when it started.
+   why: "since they got married" and still there: have lived.
 
 3. _Write the verb in brackets in the present perfect._  
    **Nilufar** ______ (know) how to swim since she was **five**.  
    key: has known  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has known. The since clause says when it started.
+   why: "since she was …" up to now: has known.
 
 4. _Write the verb in brackets in the present perfect._  
    We ______ (have) this **sofa** since we moved here, **Nodira**.  
    key: have had  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have had. The since clause says when it started.
+   why: "since we moved here" and we still have it: have had.
 
 5. _Write the verb in brackets in the present perfect._  
-   My little **brother** ______ (grow) a lot since you last saw him, **Zarina**.  
+   My little **cousin** ______ (grow) a lot since you last saw him, **Akmal**.  
    key: has grown (also: has been growing)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has grown. The since clause says when it started.
+   why: "since you last saw him" up to now: has grown.
 
 6. _Write the verb in brackets in the present perfect._  
-   I ______ (learn) many new words since I started **using the app**, **Sherzod**.  
+   I ______ (learn) many new words since I started **this course**, **Zarina**.  
    key: have learned (also: have been learning)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have learned. The since clause says when it started.
+   why: "since I started …" up to now: have learned.
 
 7. _Write the verb in brackets in the present perfect._  
-   Our **area** ______ (become) much quieter since they closed the **old market**.  
+   Our **street** ______ (become) much quieter since they closed the **car park**.  
    key: has become  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has become. The since clause says when it started.
+   why: "since they closed …" up to now: has become.
 
 8. _Write the verb in brackets in the present perfect._  
-   My **niece** ______ (want) to be a doctor since she was in **primary school**.  
+   My **sister** ______ (want) to be a doctor since she was in **primary school**.  
    key: has wanted  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has wanted. The since clause says when it started.
+   why: "since she was in …" and still wants it: has wanted.
 
 9. _Write the verb in brackets in the present perfect._  
-   My **grandfather** ______ (drive) the same **white car** since I was born.  
+   My **uncle** ______ (drive) the same **old car** since I was born.  
    key: has driven (also: has been driving)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has driven. The since clause says when it started.
+   why: "since I was born" and still driving it: has driven.
 
 10. _Write the verb in brackets in the present perfect._  
-   We ______ (make) a lot of friends since we joined the **chess club**, **Nodira**.  
+   We ______ (make) a lot of friends since we joined the **choir**, **Akmal**.  
    key: have made (also: have been making)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have made. The since clause says when it started.
+   why: "since we joined …" up to now: have made.
 
 11. _Write the verb in brackets in the present perfect._  
-   **Timur** ______ (be) very happy since he got his new **phone**.  
+   **Timur** ______ (be) very happy since he got his new **bike**.  
    key: has been  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has been. The since clause says when it started.
+   why: "since he got …" and still happy: has been.
 
 12. _Write the verb in brackets in the present perfect._  
-   I ______ (read) five books since the **spring** holidays started, **Zarina**.  
+   I ______ (read) five books since the **winter** holidays started, **Sherzod**.  
    key: have read (also: have been reading)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have read. The since clause says when it started.
+   why: "since … started" up to now: have read.
 
 13. _Write the verb in brackets in the present perfect._  
-   My **cousin** ______ (not eat) meat since he watched a film about **animals**.  
+   My **friend** ______ (not eat) meat since he watched a film about **animals**.  
    key: hasn't eaten  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: hasn't eaten. The since clause says when it started.
+   why: "since he watched …": no meat up to now: hasn't eaten.
 
 14. _Write the verb in brackets in the present perfect._  
-   We ______ (not be) to the **pool** since it closed for repairs, **Zarina**.  
+   We ______ (not be) to the **museum** since it closed for repairs, **Sherzod**.  
    key: haven't been  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: haven't been. The since clause says when it started.
+   why: "since it closed": no visit up to now: haven't been.
 
 15. _Write the verb in brackets in the present perfect._  
-   Our **uncle** ______ (help) us a lot since my father broke his **wrist**.  
+   Our **neighbour** ______ (help) us a lot since my father broke his **wrist**.  
    key: has helped (also: has been helping)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has helped. The since clause says when it started.
+   why: "since my father broke …" up to now: has helped.
 
 16. _Write the verb in brackets in the present perfect._  
-   I ______ (save) a lot of money since I started **riding my bike** to school, **Akmal**.  
+   I ______ (save) a lot of money since I started **walking** to school, **Sherzod**.  
    key: have saved (also: have been saving)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have saved. The since clause says when it started.
+   why: "since I started …" up to now: have saved.
 
 17. _Write the verb in brackets in the past simple._  
-   My **uncle** has worked at the **airport** since he ______ (finish) college.  
+   My **father** has worked at the **hospital** since he ______ (finish) college.  
    key: finished  
-   why: The since clause names a finished moment in the past, so it takes the past simple: finished.
+   why: The since clause is one finished moment: finished.
 
 18. _Write the verb in brackets in the past simple._  
-   **Olga** has played the **violin** since she ______ (be) six.  
+   **Nilufar** has played the **dutar** since she ______ (be) six.  
    key: was  
-   why: The since clause names a finished moment in the past, so it takes the past simple: was.
+   why: The since clause is a past state: was.
 
 19. _Write the verb in brackets in the past simple._  
-   We haven't seen our old neighbours since we ______ (move) to **Namangan**, **Sherzod**.  
+   We haven't seen our old neighbours since we ______ (move) to **Namangan**, **Nodira**.  
    key: moved  
-   why: The since clause names a finished moment in the past, so it takes the past simple: moved.
+   why: The since clause is one finished moment: moved.
 
 20. _Write the verb in brackets in the past simple._  
-   My **uncle** has been much calmer since he ______ (get) his new **car**.  
+   My **brother** has been much calmer since he ______ (get) his new **garden**.  
    key: got  
-   why: The since clause names a finished moment in the past, so it takes the past simple: got.
+   why: The since clause is one finished moment: got.
 
 ## transform (15)
 
 1. _Join the two sentences with since. Use the present perfect._  
-   **Madina** started working at the **hotel** after college. She still works there.  
-   → **Madina** ______ at the **hotel** since she finished college.  
+   **Madina** started working at the **café** after college. She still works there.  
+   → **Madina** ______ at the **café** since she finished college.  
    key: has worked (also: has been working)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has worked. The since clause says when it started.
+   why: "She still works there" → since + start: has worked.
 
 2. _Join the two sentences with since. Use the present perfect._  
-   We moved into this **flat** when I was **eight**. We still live here.  
-   → We ______ in this **flat** since I was **eight**.  
+   We moved into this **house** when I was **six**. We still live here.  
+   → We ______ in this **house** since I was **six**.  
    key: have lived (also: have been living)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have lived. The since clause says when it started.
+   why: "We still live here" → have lived since.
 
 3. _Join the two sentences with since. Use the present perfect._  
-   I met **Nilufar** when we started **primary school**. I still know her.  
-   → I ______ **Nilufar** since we started **primary school**.  
+   I met **Olga** when we started **kindergarten**. I still know her.  
+   → I ______ **Olga** since we started **kindergarten**.  
    key: have known  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: have known. The since clause says when it started.
+   why: "I still know her" → have known since.
 
 4. _Join the two sentences with since. Use the present perfect._  
-   My brother got a **tortoise** when he was **eight**. He still has it.  
-   → My brother ______ a **tortoise** since he was **eight**.  
+   My brother got a **parrot** when he was **ten**. He still has it.  
+   → My brother ______ a **parrot** since he was **ten**.  
    key: has had  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has had. The since clause says when it started.
+   why: "He still has it" → has had since.
 
 5. _Join the two sentences with since. Use the present perfect._  
-   My **cousin** began to teach **English** when he left university. He still teaches it.  
-   → My **cousin** ______ **English** since he left university.  
+   My **cousin** began to teach **maths** when he left university. He still teaches it.  
+   → My **cousin** ______ **maths** since he left university.  
    key: has taught (also: has been teaching)  
-   why: The time started in the past and goes on now, so the main clause takes the present perfect: has taught. The since clause says when it started.
+   why: "He still teaches it" → has taught since.
 
 6. _Correct the mistake._  
-   I know **Nodira** since we were **six**.  
-   → I ______ **Nodira** since we were **six**.  
+   I know **Sherzod** since we were **six**.  
+   → I ______ **Sherzod** since we were **six**.  
    key: have known  
-   why: Since + a past moment needs the present perfect, not the present simple: have known.
+   why: "since" needs the present perfect in the main part: have known.
 
 7. _Correct the mistake._  
-   My sister lived in **Moscow** since she got married, **Sherzod**.  
-   → My sister ______ in **Moscow** since she got married, **Sherzod**.  
+   My sister lived in **Tashkent** since she got married, **Zarina**.  
+   → My sister ______ in **Tashkent** since she got married, **Zarina**.  
    key: has lived (also: has been living)  
-   why: She still lives there, so not the past simple: has lived.
+   why: "since" needs has lived, not lived.
 
 8. _Correct the mistake._  
-   We are here since the **concert** started, **Zarina**.  
-   → We ______ here since the **concert** started, **Zarina**.  
+   We are here since the **lesson** started, **Sherzod**.  
+   → We ______ here since the **lesson** started, **Sherzod**.  
    key: have been  
-   why: With since, use the present perfect of be: have been.
+   why: "since" needs have been, not are.
 
 9. _Correct the mistake._  
-   **Timur** has played **tennis** since he has been five.  
-   → **Timur** has played **tennis** since he ______ five.  
+   **Jasur** has played **tennis** since he has been five.  
+   → **Jasur** has played **tennis** since he ______ five.  
    key: was  
-   why: The since clause is a finished moment, so the past simple: was.
+   why: The since clause takes the past simple: was, not has been.
 
 10. _Correct the mistake._  
-   I haven't eaten since I have had **lunch**, **Nodira**.  
-   → I haven't eaten since I ______ **lunch**, **Nodira**.  
+   I haven't eaten since I have had **breakfast**, **Sherzod**.  
+   → I haven't eaten since I ______ **breakfast**, **Sherzod**.  
    key: had (also: ate)  
-   why: The since clause is a finished moment, so the past simple: had.
+   why: The since clause takes the past simple: had, not have had.
 
 11. _Finish the since clause with the verb in the past simple._  
-   My parents got married in **2010**. They have lived in **Samarkand** since then.  
-   → My parents have lived in **Samarkand** since they ______ married.  
+   My parents got married in **2010**. They have lived in **Termez** since then.  
+   → My parents have lived in **Termez** since they ______ married.  
    key: got  
-   why: The since clause names a finished moment in the past, so it takes the past simple: got.
+   why: The start moment goes after since in the past simple: got.
 
 12. _Finish the since clause with the verb in the past simple._  
-   **Timur** started school in **2019**. He has worn glasses since then.  
+   **Timur** started school in **2015**. He has worn glasses since then.  
    → **Timur** has worn glasses since he ______ school.  
    key: started  
-   why: The since clause names a finished moment in the past, so it takes the past simple: started.
+   why: The start moment in the past simple: started.
 
 13. _Finish the since clause with the verb in the past simple._  
-   We sold our old car **in 2022**. We haven't had a car since then, **Zarina**.  
-   → We haven't had a car since we ______ the old one, **Zarina**.  
+   We sold our old car **last year**. We haven't had a car since then, **Nodira**.  
+   → We haven't had a car since we ______ the old one, **Nodira**.  
    key: sold  
-   why: The since clause names a finished moment in the past, so it takes the past simple: sold.
+   why: The start moment in the past simple: sold.
 
 14. _Finish the since clause with the verb in the past simple._  
-   I saw the doctor **yesterday**. I have felt better since then, **Sherzod**.  
-   → I have felt better since I ______ the doctor, **Sherzod**.  
+   I saw the doctor **on Friday**. I have felt better since then, **Nodira**.  
+   → I have felt better since I ______ the doctor, **Nodira**.  
    key: saw  
-   why: The since clause names a finished moment in the past, so it takes the past simple: saw.
+   why: The start moment in the past simple: saw.
 
 15. _Finish the since clause with the verb in the past simple._  
-   **Nilufar** came back from the trip **at the weekend**. She has been tired since then.  
+   **Nilufar** came back from the trip **on Sunday**. She has been tired since then.  
    → **Nilufar** has been tired since she ______ back from the trip.  
    key: came  
-   why: The since clause names a finished moment in the past, so it takes the past simple: came.
+   why: The start moment in the past simple: came.
 
 ## create (8)
 

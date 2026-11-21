@@ -149,5 +149,262 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/tenses.perfect.since-clause.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"since she finished university\" up to now: has worked.",
+   "\"since we were …\" and we still know each other: have known.",
+   "\"since I was …\" and we still live here: have lived.",
+   "\"since he started …\" and he still has it: has had.",
+   "\"since he was …\" and he still plays: has played.",
+   "\"since they finished …\": still married now: have been.",
+   "\"since they built …\": the change goes up to now: has changed.",
+   "\"since I was a small child\": still wanting it: have wanted.",
+   "\"since it opened\": still teaching there: has taught.",
+   "\"since I moved\": still studying: have studied.",
+   "\"since she started …\": a result up to now: has lost.",
+   "\"since they moved\": no meeting up to now: haven't seen.",
+   "\"since we had that argument\": no call up to now: hasn't called.",
+   "\"every day since … gave it to me\": have used.",
+   "The since clause is one finished moment: moved.",
+   "The since clause is a past state: was.",
+   "The since clause is a finished start: started.",
+   "The since clause is a past state: were.",
+   "\"ten years ago\" is a finished moment: left.",
+   "The since clause is one finished moment: bought."
+  ],
+  "build": [
+   "\"since she finished …\" and still there: has worked.",
+   "\"since they got married\" and still there: have lived.",
+   "\"since she was …\" up to now: has known.",
+   "\"since we moved here\" and we still have it: have had.",
+   "\"since you last saw him\" up to now: has grown.",
+   "\"since I started …\" up to now: have learned.",
+   "\"since they closed …\" up to now: has become.",
+   "\"since she was in …\" and still wants it: has wanted.",
+   "\"since I was born\" and still driving it: has driven.",
+   "\"since we joined …\" up to now: have made.",
+   "\"since he got …\" and still happy: has been.",
+   "\"since … started\" up to now: have read.",
+   "\"since he watched …\": no meat up to now: hasn't eaten.",
+   "\"since it closed\": no visit up to now: haven't been.",
+   "\"since my father broke …\" up to now: has helped.",
+   "\"since I started …\" up to now: have saved.",
+   "The since clause is one finished moment: finished.",
+   "The since clause is a past state: was.",
+   "The since clause is one finished moment: moved.",
+   "The since clause is one finished moment: got."
+  ],
+  "transform": [
+   "\"She still works there\" → since + start: has worked.",
+   "\"We still live here\" → have lived since.",
+   "\"I still know her\" → have known since.",
+   "\"He still has it\" → has had since.",
+   "\"He still teaches it\" → has taught since.",
+   "\"since\" needs the present perfect in the main part: have known.",
+   "\"since\" needs has lived, not lived.",
+   "\"since\" needs have been, not are.",
+   "The since clause takes the past simple: was, not has been.",
+   "The since clause takes the past simple: had, not have had.",
+   "The start moment goes after since in the past simple: got.",
+   "The start moment in the past simple: started.",
+   "The start moment in the past simple: sold.",
+   "The start moment in the past simple: saw.",
+   "The start moment in the past simple: came."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   2,
+   "primary school",
+   "stage",
+   [
+    "primary school",
+    "in the same class",
+    "neighbours",
+    "five years old"
+   ]
+  ],
+  [
+   "choose",
+   4,
+   "college",
+   "start",
+   [
+    "college",
+    "his new job",
+    "university",
+    "work"
+   ]
+  ],
+  [
+   "choose",
+   6,
+   "parents",
+   "who",
+   [
+    "parents",
+    "grandparents",
+    "aunt and uncle",
+    "neighbours"
+   ]
+  ],
+  [
+   "choose",
+   9,
+   "Mr Karimov",
+   "teacher",
+   [
+    "Mr Karimov",
+    "Ms Alieva",
+    "Mrs Rahimova",
+    "Mr Usmonov"
+   ]
+  ],
+  [
+   "choose",
+   10,
+   "English",
+   "lang",
+   [
+    "English",
+    "Russian",
+    "Korean",
+    "Turkish"
+   ]
+  ],
+  [
+   "choose",
+   11,
+   "grandmother",
+   "who",
+   [
+    "grandmother",
+    "aunt",
+    "mother",
+    "neighbour"
+   ]
+  ],
+  [
+   "choose",
+   14,
+   "uncle",
+   "who",
+   [
+    "uncle",
+    "grandfather",
+    "aunt",
+    "cousin"
+   ]
+  ],
+  [
+   "choose",
+   15,
+   "garden",
+   "have",
+   [
+    "garden",
+    "dog",
+    "big kitchen",
+    "balcony"
+   ]
+  ],
+  [
+   "choose",
+   16,
+   "music",
+   "love",
+   [
+    "music",
+    "dancing",
+    "books",
+    "animals"
+   ]
+  ],
+  [
+   "choose",
+   17,
+   "good friends",
+   "rel",
+   [
+    "good friends",
+    "close friends",
+    "a good team",
+    "best friends"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "cousin",
+   "who",
+   [
+    "cousin",
+    "brother",
+    "neighbour",
+    "best friend"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "money",
+   "saved",
+   [
+    "money",
+    "time",
+    "petrol money",
+    "bus money"
+   ]
+  ],
+  [
+   "build",
+   5,
+   "",
+   "sib",
+   [
+    "nephew"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "",
+   "who",
+   [
+    "uncle"
+   ]
+  ],
+  [
+   "transform",
+   2,
+   "",
+   "home",
+   [
+    "building"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

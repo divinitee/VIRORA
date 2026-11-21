@@ -17,7 +17,7 @@ export default [
    "is working"
   ],
   "key": 0,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has worked. The since clause says when it started.",
+  "why": "\"since she finished university\" up to now: has worked.",
   "slots": {
    "name": [
     "Madina",
@@ -41,7 +41,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I ______ {name} since we were at primary school.",
+  "prompt": "I ______ {name} since we were at {stage}.",
   "options": [
    "knew",
    "know",
@@ -49,13 +49,19 @@ export default [
    "have known"
   ],
   "key": 3,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have known. The since clause says when it started.",
+  "why": "\"since we were …\" and we still know each other: have known.",
   "slots": {
    "name": [
     "Zarina",
     "Sherzod",
     "Nodira",
     "Akmal"
+   ],
+   "stage": [
+    "primary school",
+    "in the same class",
+    "neighbours",
+    "five years old"
    ]
   }
  },
@@ -75,7 +81,7 @@ export default [
    "lived"
   ],
   "key": 2,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have lived. The since clause says when it started.",
+  "why": "\"since I was …\" and we still live here: have lived.",
   "slots": {
    "home": [
     "flat",
@@ -99,7 +105,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My brother ______ the same {thing} since he started college.",
+  "prompt": "My brother ______ the same {thing} since he started {start}.",
   "options": [
    "is having",
    "has had",
@@ -107,13 +113,19 @@ export default [
    "has"
   ],
   "key": 1,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has had. The since clause says when it started.",
+  "why": "\"since he started …\" and he still has it: has had.",
   "slots": {
    "thing": [
     "phone",
     "bike",
     "bag",
     "laptop"
+   ],
+   "start": [
+    "college",
+    "his new job",
+    "university",
+    "work"
    ]
   }
  },
@@ -133,7 +145,7 @@ export default [
    "is playing"
   ],
   "key": 0,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has played. The since clause says when it started.",
+  "why": "\"since he was …\" and he still plays: has played.",
   "slots": {
    "name": [
     "Sardor",
@@ -163,7 +175,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My parents ______ married since they finished {school}.",
+  "prompt": "My {who} ______ married since they finished {school}.",
   "options": [
    "were",
    "are",
@@ -171,13 +183,19 @@ export default [
    "have been"
   ],
   "key": 3,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have been. The since clause says when it started.",
+  "why": "\"since they finished …\": still married now: have been.",
   "slots": {
    "school": [
     "school",
     "college",
     "university",
     "their studies"
+   ],
+   "who": [
+    "parents",
+    "grandparents",
+    "aunt and uncle",
+    "neighbours"
    ]
   }
  },
@@ -197,7 +215,7 @@ export default [
    "changed"
   ],
   "key": 2,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has changed. The since clause says when it started.",
+  "why": "\"since they built …\": the change goes up to now: has changed.",
   "slots": {
    "place": [
     "town",
@@ -229,7 +247,7 @@ export default [
    "want"
   ],
   "key": 1,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have wanted. The since clause says when it started.",
+  "why": "\"since I was a small child\": still wanting it: have wanted.",
   "slots": {
    "pet": [
     "dog",
@@ -253,7 +271,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Mr Karimov ______ at our {school} since it opened.",
+  "prompt": "{teacher} ______ at our {school} since it opened.",
   "options": [
    "has taught",
    "taught",
@@ -261,13 +279,19 @@ export default [
    "is teaching"
   ],
   "key": 0,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has taught. The since clause says when it started.",
+  "why": "\"since it opened\": still teaching there: has taught.",
   "slots": {
    "school": [
     "school",
     "lyceum",
     "college",
     "language centre"
+   ],
+   "teacher": [
+    "Mr Karimov",
+    "Ms Alieva",
+    "Mrs Rahimova",
+    "Mr Usmonov"
    ]
   }
  },
@@ -279,7 +303,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I ______ English since I moved to {city}.",
+  "prompt": "I ______ {lang} since I moved to {city}.",
   "options": [
    "studied",
    "study",
@@ -287,13 +311,19 @@ export default [
    "have studied"
   ],
   "key": 3,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have studied. The since clause says when it started.",
+  "why": "\"since I moved\": still studying: have studied.",
   "slots": {
    "city": [
     "Tashkent",
     "Samarkand",
     "Bukhara",
     "Fergana"
+   ],
+   "lang": [
+    "English",
+    "Russian",
+    "Korean",
+    "Turkish"
    ]
   }
  },
@@ -305,7 +335,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My grandmother ______ five kilos since she started {thing}.",
+  "prompt": "My {who} ______ five kilos since she started {thing}.",
   "options": [
    "loses",
    "is losing",
@@ -313,13 +343,19 @@ export default [
    "lost"
   ],
   "key": 2,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has lost. The since clause says when it started.",
+  "why": "\"since she started …\": a result up to now: has lost.",
   "slots": {
    "thing": [
     "walking every day",
     "swimming",
     "doing yoga",
     "eating more fruit"
+   ],
+   "who": [
+    "grandmother",
+    "aunt",
+    "mother",
+    "neighbour"
    ]
   }
  },
@@ -339,7 +375,7 @@ export default [
    "don't see"
   ],
   "key": 1,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: haven't seen. The since clause says when it started.",
+  "why": "\"since they moved\": no meeting up to now: haven't seen.",
   "slots": {
    "city": [
     "Moscow",
@@ -371,7 +407,7 @@ export default [
    "isn't calling"
   ],
   "key": 0,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: hasn't called. The since clause says when it started.",
+  "why": "\"since we had that argument\": no call up to now: hasn't called.",
   "slots": {
    "name": [
     "Zarina",
@@ -395,7 +431,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I ______ this {thing} every day since my uncle gave it to me.",
+  "prompt": "I ______ this {thing} every day since my {who} gave it to me.",
   "options": [
    "used",
    "use",
@@ -403,13 +439,19 @@ export default [
    "have used"
   ],
   "key": 3,
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have used. The since clause says when it started.",
+  "why": "\"every day since … gave it to me\": have used.",
   "slots": {
    "thing": [
     "bike",
     "watch",
     "laptop",
     "camera"
+   ],
+   "who": [
+    "uncle",
+    "grandfather",
+    "aunt",
+    "cousin"
    ]
   }
  },
@@ -421,7 +463,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We have had a garden since we ______ to the {place}.",
+  "prompt": "We have had a {have} since we ______ to the {place}.",
   "options": [
    "are moving",
    "will move",
@@ -429,13 +471,19 @@ export default [
    "move"
   ],
   "key": 2,
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: moved.",
+  "why": "The since clause is one finished moment: moved.",
   "slots": {
    "place": [
     "new house",
     "village",
     "country",
     "suburbs"
+   ],
+   "have": [
+    "garden",
+    "dog",
+    "big kitchen",
+    "balcony"
    ]
   }
  },
@@ -447,7 +495,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "{name} has loved music since she ______ a little girl.",
+  "prompt": "{name} has loved {love} since she ______ a little girl.",
   "options": [
    "will be",
    "was",
@@ -455,13 +503,19 @@ export default [
    "has"
   ],
   "key": 1,
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: was.",
+  "why": "The since clause is a past state: was.",
   "slots": {
    "name": [
     "Madina",
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "love": [
+    "music",
+    "dancing",
+    "books",
+    "animals"
    ]
   }
  },
@@ -473,7 +527,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We have become good friends since we ______ {thing} together.",
+  "prompt": "We have become {rel} since we ______ {thing} together.",
   "options": [
    "started",
    "start",
@@ -481,13 +535,19 @@ export default [
    "will start"
   ],
   "key": 0,
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: started.",
+  "why": "The since clause is a finished start: started.",
   "slots": {
    "thing": [
     "college",
     "work",
     "training",
     "English lessons"
+   ],
+   "rel": [
+    "good friends",
+    "close friends",
+    "a good team",
+    "best friends"
    ]
   }
  },
@@ -499,7 +559,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My cousin and I have known each other since we ______ {age}.",
+  "prompt": "My {who} and I have known each other since we ______ {age}.",
   "options": [
    "are",
    "have",
@@ -507,13 +567,19 @@ export default [
    "were"
   ],
   "key": 3,
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: were.",
+  "why": "The since clause is a past state: were.",
   "slots": {
    "age": [
     "three",
     "four",
     "babies",
     "in kindergarten"
+   ],
+   "who": [
+    "cousin",
+    "brother",
+    "neighbour",
+    "best friend"
    ]
   }
  },
@@ -533,7 +599,7 @@ export default [
    "leave"
   ],
   "key": 2,
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: left.",
+  "why": "\"ten years ago\" is a finished moment: left.",
   "slots": {
    "name": [
     "Sardor",
@@ -557,7 +623,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We have saved a lot of money since we ______ the {car}.",
+  "prompt": "We have saved a lot of {saved} since we ______ the {car}.",
   "options": [
    "will buy",
    "bought",
@@ -565,13 +631,19 @@ export default [
    "are buying"
   ],
   "key": 1,
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: bought.",
+  "why": "The since clause is one finished moment: bought.",
   "slots": {
    "car": [
     "electric car",
     "small car",
     "new bike",
     "bus pass"
+   ],
+   "saved": [
+    "money",
+    "time",
+    "petrol money",
+    "bus money"
    ]
   }
  },
@@ -586,7 +658,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "My aunt ______ (work) at the {place} since she finished {school}.",
   "key": "has worked",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has worked. The since clause says when it started.",
+  "why": "\"since she finished …\" and still there: has worked.",
   "slots": {
    "place": [
     "bakery",
@@ -616,7 +688,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "My grandparents ______ (live) in {city} since they got married, {name}.",
   "key": "have lived",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have lived. The since clause says when it started.",
+  "why": "\"since they got married\" and still there: have lived.",
   "slots": {
    "city": [
     "Samarkand",
@@ -646,7 +718,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "{name} ______ (know) how to swim since she was {age}.",
   "key": "has known",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has known. The since clause says when it started.",
+  "why": "\"since she was …\" up to now: has known.",
   "slots": {
    "name": [
     "Madina",
@@ -673,7 +745,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "We ______ (have) this {thing} since we moved here, {name}.",
   "key": "have had",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have had. The since clause says when it started.",
+  "why": "\"since we moved here\" and we still have it: have had.",
   "slots": {
    "thing": [
     "sofa",
@@ -700,7 +772,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "My little {sib} ______ (grow) a lot since you last saw him, {name}.",
   "key": "has grown",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has grown. The since clause says when it started.",
+  "why": "\"since you last saw him\" up to now: has grown.",
   "slots": {
    "sib": [
     "brother",
@@ -729,7 +801,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "I ______ (learn) many new words since I started {thing}, {name}.",
   "key": "have learned",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have learned. The since clause says when it started.",
+  "why": "\"since I started …\" up to now: have learned.",
   "slots": {
    "thing": [
     "reading English books",
@@ -759,7 +831,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "Our {area} ______ (become) much quieter since they closed the {place}.",
   "key": "has become",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has become. The since clause says when it started.",
+  "why": "\"since they closed …\" up to now: has become.",
   "slots": {
    "area": [
     "street",
@@ -786,7 +858,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "My {who} ______ (want) to be a doctor since she was in {class}.",
   "key": "has wanted",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has wanted. The since clause says when it started.",
+  "why": "\"since she was in …\" and still wants it: has wanted.",
   "slots": {
    "who": [
     "sister",
@@ -813,7 +885,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "My {who} ______ (drive) the same {car} since I was born.",
   "key": "has driven",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has driven. The since clause says when it started.",
+  "why": "\"since I was born\" and still driving it: has driven.",
   "slots": {
    "who": [
     "father",
@@ -842,7 +914,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "We ______ (make) a lot of friends since we joined the {club}, {name}.",
   "key": "have made",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have made. The since clause says when it started.",
+  "why": "\"since we joined …\" up to now: have made.",
   "slots": {
    "club": [
     "chess club",
@@ -872,7 +944,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "{name} ______ (be) very happy since he got his new {job}.",
   "key": "has been",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has been. The since clause says when it started.",
+  "why": "\"since he got …\" and still happy: has been.",
   "slots": {
    "name": [
     "Sardor",
@@ -899,7 +971,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "I ______ (read) five books since the {season} holidays started, {name}.",
   "key": "have read",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have read. The since clause says when it started.",
+  "why": "\"since … started\" up to now: have read.",
   "slots": {
    "season": [
     "summer",
@@ -929,7 +1001,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "My {who} ______ (not eat) meat since he watched a film about {thing}.",
   "key": "hasn't eaten",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: hasn't eaten. The since clause says when it started.",
+  "why": "\"since he watched …\": no meat up to now: hasn't eaten.",
   "slots": {
    "who": [
     "cousin",
@@ -959,7 +1031,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "We ______ (not be) to the {place} since it closed for repairs, {name}.",
   "key": "haven't been",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: haven't been. The since clause says when it started.",
+  "why": "\"since it closed\": no visit up to now: haven't been.",
   "slots": {
    "place": [
     "pool",
@@ -989,7 +1061,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "Our {who} ______ (help) us a lot since my father broke his {part}.",
   "key": "has helped",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has helped. The since clause says when it started.",
+  "why": "\"since my father broke …\" up to now: has helped.",
   "slots": {
    "who": [
     "neighbour",
@@ -1019,7 +1091,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect.",
   "source": "I ______ (save) a lot of money since I started {thing} to school, {name}.",
   "key": "have saved",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have saved. The since clause says when it started.",
+  "why": "\"since I started …\" up to now: have saved.",
   "slots": {
    "thing": [
     "walking",
@@ -1049,7 +1121,7 @@ export default [
   "instr": "Write the verb in brackets in the past simple.",
   "source": "My {who} has worked at the {place} since he ______ (finish) college.",
   "key": "finished",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: finished.",
+  "why": "The since clause is one finished moment: finished.",
   "slots": {
    "who": [
     "brother",
@@ -1076,7 +1148,7 @@ export default [
   "instr": "Write the verb in brackets in the past simple.",
   "source": "{name} has played the {instr} since she ______ (be) six.",
   "key": "was",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: was.",
+  "why": "The since clause is a past state: was.",
   "slots": {
    "name": [
     "Madina",
@@ -1103,7 +1175,7 @@ export default [
   "instr": "Write the verb in brackets in the past simple.",
   "source": "We haven't seen our old neighbours since we ______ (move) to {city}, {name}.",
   "key": "moved",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: moved.",
+  "why": "The since clause is one finished moment: moved.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1130,7 +1202,7 @@ export default [
   "instr": "Write the verb in brackets in the past simple.",
   "source": "My {who} has been much calmer since he ______ (get) his new {job}.",
   "key": "got",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: got.",
+  "why": "The since clause is one finished moment: got.",
   "slots": {
    "who": [
     "father",
@@ -1158,7 +1230,7 @@ export default [
   "source": "{name} started working at the {place} after college. She still works there.",
   "hint": "{name} ______ at the {place} since she finished college.",
   "key": "has worked",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has worked. The since clause says when it started.",
+  "why": "\"She still works there\" → since + start: has worked.",
   "slots": {
    "name": [
     "Madina",
@@ -1189,7 +1261,7 @@ export default [
   "source": "We moved into this {home} when I was {age}. We still live here.",
   "hint": "We ______ in this {home} since I was {age}.",
   "key": "have lived",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have lived. The since clause says when it started.",
+  "why": "\"We still live here\" → have lived since.",
   "slots": {
    "home": [
     "flat",
@@ -1219,7 +1291,7 @@ export default [
   "source": "I met {name} when we started {school}. I still know her.",
   "hint": "I ______ {name} since we started {school}.",
   "key": "have known",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: have known. The since clause says when it started.",
+  "why": "\"I still know her\" → have known since.",
   "slots": {
    "name": [
     "Madina",
@@ -1247,7 +1319,7 @@ export default [
   "source": "My brother got a {pet} when he was {age}. He still has it.",
   "hint": "My brother ______ a {pet} since he was {age}.",
   "key": "has had",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has had. The since clause says when it started.",
+  "why": "\"He still has it\" → has had since.",
   "slots": {
    "pet": [
     "dog",
@@ -1275,7 +1347,7 @@ export default [
   "source": "My {who} began to teach {subj} when he left university. He still teaches it.",
   "hint": "My {who} ______ {subj} since he left university.",
   "key": "has taught",
-  "why": "The time started in the past and goes on now, so the main clause takes the present perfect: has taught. The since clause says when it started.",
+  "why": "\"He still teaches it\" → has taught since.",
   "slots": {
    "who": [
     "uncle",
@@ -1306,7 +1378,7 @@ export default [
   "source": "I know {name} since we were {age}.",
   "hint": "I ______ {name} since we were {age}.",
   "key": "have known",
-  "why": "Since + a past moment needs the present perfect, not the present simple: have known.",
+  "why": "\"since\" needs the present perfect in the main part: have known.",
   "slots": {
    "name": [
     "Zarina",
@@ -1334,7 +1406,7 @@ export default [
   "source": "My sister lived in {city} since she got married, {name}.",
   "hint": "My sister ______ in {city} since she got married, {name}.",
   "key": "has lived",
-  "why": "She still lives there, so not the past simple: has lived.",
+  "why": "\"since\" needs has lived, not lived.",
   "slots": {
    "city": [
     "Moscow",
@@ -1365,7 +1437,7 @@ export default [
   "source": "We are here since the {event} started, {name}.",
   "hint": "We ______ here since the {event} started, {name}.",
   "key": "have been",
-  "why": "With since, use the present perfect of be: have been.",
+  "why": "\"since\" needs have been, not are.",
   "slots": {
    "event": [
     "film",
@@ -1393,7 +1465,7 @@ export default [
   "source": "{name} has played {game} since he has been five.",
   "hint": "{name} has played {game} since he ______ five.",
   "key": "was",
-  "why": "The since clause is a finished moment, so the past simple: was.",
+  "why": "The since clause takes the past simple: was, not has been.",
   "slots": {
    "name": [
     "Sardor",
@@ -1421,7 +1493,7 @@ export default [
   "source": "I haven't eaten since I have had {meal}, {name}.",
   "hint": "I haven't eaten since I ______ {meal}, {name}.",
   "key": "had",
-  "why": "The since clause is a finished moment, so the past simple: had.",
+  "why": "The since clause takes the past simple: had, not have had.",
   "slots": {
    "name": [
     "Zarina",
@@ -1452,7 +1524,7 @@ export default [
   "source": "My parents got married in {time}. They have lived in {city} since then.",
   "hint": "My parents have lived in {city} since they ______ married.",
   "key": "got",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: got.",
+  "why": "The start moment goes after since in the past simple: got.",
   "slots": {
    "time": [
     "1998",
@@ -1480,7 +1552,7 @@ export default [
   "source": "{name} started school in {time}. He has worn glasses since then.",
   "hint": "{name} has worn glasses since he ______ school.",
   "key": "started",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: started.",
+  "why": "The start moment in the past simple: started.",
   "slots": {
    "name": [
     "Sardor",
@@ -1508,7 +1580,7 @@ export default [
   "source": "We sold our old car {time}. We haven't had a car since then, {name}.",
   "hint": "We haven't had a car since we ______ the old one, {name}.",
   "key": "sold",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: sold.",
+  "why": "The start moment in the past simple: sold.",
   "slots": {
    "time": [
     "last year",
@@ -1536,7 +1608,7 @@ export default [
   "source": "I saw the doctor {time}. I have felt better since then, {name}.",
   "hint": "I have felt better since I ______ the doctor, {name}.",
   "key": "saw",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: saw.",
+  "why": "The start moment in the past simple: saw.",
   "slots": {
    "time": [
     "on Monday",
@@ -1564,7 +1636,7 @@ export default [
   "source": "{name} came back from the trip {time}. She has been tired since then.",
   "hint": "{name} has been tired since she ______ back from the trip.",
   "key": "came",
-  "why": "The since clause names a finished moment in the past, so it takes the past simple: came.",
+  "why": "The start moment in the past simple: came.",
   "slots": {
    "name": [
     "Madina",
