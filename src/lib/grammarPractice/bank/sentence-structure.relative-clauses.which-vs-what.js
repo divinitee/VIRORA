@@ -555,7 +555,7 @@ export default [
    "what"
   ],
   "key": 3,
-  "why": "After believe, no noun: what.",
+  "why": "\"I can't … \" + no noun after it: what he did.",
   "slots": {
    "event": [
     "party",

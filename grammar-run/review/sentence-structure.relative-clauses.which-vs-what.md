@@ -74,7 +74,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 18. I can't **forget** ______ he did at the **meeting**.  
    options: which · that · who · ✔ what  
-   why: After believe, no noun: what.
+   why: "I can't … " + no noun after it: what he did.
 
 19. Did you understand ______ she said in **Russian**, **Timur**?  
    options: that · who · ✔ what · which  

@@ -17,7 +17,7 @@ export default [
    "which"
   ],
   "key": 0,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her brother → the girl whose brother.",
   "slots": {
    "sport": [
     "football",
@@ -49,7 +49,7 @@ export default [
    "whose"
   ],
   "key": 3,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "His or her mother → a friend whose mother.",
   "slots": {
    "job": [
     "doctor",
@@ -81,7 +81,7 @@ export default [
    "who"
   ],
   "key": 2,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "His bike → the boy whose bike.",
   "slots": {
    "when": [
     "yesterday",
@@ -113,7 +113,7 @@ export default [
    "who's"
   ],
   "key": 1,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her son → a woman whose son.",
   "slots": {
    "subj": [
     "maths",
@@ -145,7 +145,7 @@ export default [
    "which"
   ],
   "key": 0,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "His car → the man whose car.",
   "slots": {
    "place": [
     "bank",
@@ -177,7 +177,7 @@ export default [
    "whose"
   ],
   "key": 3,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The student's essay → whose essay.",
   "slots": {
    "prize": [
     "prize",
@@ -209,7 +209,7 @@ export default [
    "who"
   ],
   "key": 2,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "My neighbour's dog → whose dog.",
   "slots": {
    "time": [
     "night",
@@ -241,7 +241,7 @@ export default [
    "who's"
   ],
   "key": 1,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her parents → a girl whose parents.",
   "slots": {
    "shop": [
     "café",
@@ -273,7 +273,7 @@ export default [
    "which"
   ],
   "key": 0,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The teacher's lessons → whose lessons.",
   "slots": {
    "when": [
     "next month",
@@ -305,7 +305,7 @@ export default [
    "whose"
   ],
   "key": 3,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The son's name → a son whose name.",
   "slots": {
    "son": [
     "Aziz",
@@ -331,7 +331,7 @@ export default [
    "who"
   ],
   "key": 2,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Their brother → anyone whose brother.",
   "slots": {
    "thing": [
     "car",
@@ -363,7 +363,7 @@ export default [
    "who's"
   ],
   "key": 1,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The family's house → whose house.",
   "slots": {
    "city": [
     "Samarkand",
@@ -395,7 +395,7 @@ export default [
    "who's"
   ],
   "key": 0,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The hotel's rooms → a hotel whose rooms.",
   "slots": {
    "view": [
     "river",
@@ -427,7 +427,7 @@ export default [
    "whose"
   ],
   "key": 3,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Its battery → a … whose battery.",
   "slots": {
    "thing": [
     "phone",
@@ -459,7 +459,7 @@ export default [
    "which"
   ],
   "key": 2,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Its name → a … whose name.",
   "slots": {
    "place": [
     "café",
@@ -491,7 +491,7 @@ export default [
    "what"
   ],
   "key": 1,
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Its roof → a … whose roof.",
   "slots": {
    "building": [
     "house",
@@ -523,7 +523,7 @@ export default [
    "what"
   ],
   "key": 0,
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "She lives there (no noun after the gap): who.",
   "slots": {
    "job": [
     "doctor",
@@ -555,7 +555,7 @@ export default [
    "who"
   ],
   "key": 3,
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "He or she works (verb after the gap): who.",
   "slots": {
    "place": [
     "bank",
@@ -587,7 +587,7 @@ export default [
    "whose"
   ],
   "key": 2,
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "He won (verb after the gap): who.",
   "slots": {
    "comp": [
     "race",
@@ -619,7 +619,7 @@ export default [
    "which"
   ],
   "key": 1,
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "They visited (verb after the gap): who.",
   "slots": {
    "place": [
     "school",
@@ -646,7 +646,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "I have a classmate ______ sister is a famous {job}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her or his sister → whose sister.",
   "slots": {
    "job": [
     "singer",
@@ -673,7 +673,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "The man ______ bag I found {when} said thank you {times}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "His bag, I found it → whose bag.",
   "slots": {
    "when": [
     "yesterday",
@@ -700,7 +700,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "That's the girl ______ dog follows her to {place}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her dog → whose dog.",
   "slots": {
    "place": [
     "school",
@@ -727,7 +727,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "We need a {who} ______ English is very good, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Their English → whose English.",
   "slots": {
    "who": [
     "teacher",
@@ -754,7 +754,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "My aunt, ______ husband is from {city}, cooks great {food}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her husband → whose husband.",
   "slots": {
    "city": [
     "Samarkand",
@@ -781,7 +781,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "Is this the student ______ notes you borrowed {when}, {name}?",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The student's notes → whose notes.",
   "slots": {
    "when": [
     "yesterday",
@@ -808,7 +808,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "The boy ______ father owns the {shop} is my friend, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "His father → whose father.",
   "slots": {
    "shop": [
     "café",
@@ -835,7 +835,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "I met a woman ______ children study at my {school}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her children → whose children.",
   "slots": {
    "school": [
     "school",
@@ -862,7 +862,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "A writer ______ books I love is coming to {city} {when}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The writer's books → whose books.",
   "slots": {
    "city": [
     "Samarkand",
@@ -889,7 +889,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "We bought a {thing} ______ door doesn't close, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Its door → whose door.",
   "slots": {
    "thing": [
     "fridge",
@@ -916,7 +916,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "I live in a street ______ name is very long, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The street's name → whose name.",
   "slots": {
    "name": [
     "Aziz",
@@ -937,7 +937,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "It's a {place} ______ windows face the {view}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Its windows → whose windows.",
   "slots": {
    "place": [
     "flat",
@@ -964,7 +964,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "They have a {pet} ______ name is {pname}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Its name → whose name.",
   "slots": {
    "pet": [
     "cat",
@@ -991,7 +991,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "The company ______ office is next to ours is looking for new workers, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The company's office → whose office.",
   "slots": {
    "name": [
     "Aziz",
@@ -1015,7 +1015,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "Verb sits after the gap, person: who.",
   "slots": {
    "lang": [
     "Russian",
@@ -1045,7 +1045,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "Verb can repair after the gap: who.",
   "slots": {
    "thing": [
     "clocks",
@@ -1075,7 +1075,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "Verb came after the gap: who.",
   "slots": {
    "event": [
     "party",
@@ -1105,7 +1105,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "Verb works after the gap: who.",
   "slots": {
    "place": [
     "bakery",
@@ -1135,7 +1135,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "Verb broke after the gap: who.",
   "slots": {
    "thing": [
     "window",
@@ -1165,7 +1165,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.",
+  "why": "Verb helped after the gap: who.",
   "slots": {
    "when": [
     "yesterday",
@@ -1193,7 +1193,7 @@ export default [
   "source": "I have a friend. His father is a {job}, {name}.",
   "hint": "I have a friend ______ father is a {job}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "His father → whose father.",
   "slots": {
    "job": [
     "doctor",
@@ -1221,7 +1221,7 @@ export default [
   "source": "This is {name}. Her brother lives in {city}.",
   "hint": "This is {name}, ______ brother lives in {city}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her brother → , whose brother.",
   "slots": {
    "name": [
     "Olga",
@@ -1249,7 +1249,7 @@ export default [
   "source": "In {city} we visited a {place}. Its walls are very old.",
   "hint": "In {city} we visited a {place} ______ walls are very old.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Its walls → whose walls (things too).",
   "slots": {
    "place": [
     "museum",
@@ -1277,7 +1277,7 @@ export default [
   "source": "I met a girl. Her parents own a {shop}, {name}.",
   "hint": "I met a girl ______ parents own a {shop}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "Her parents → whose parents.",
   "slots": {
    "shop": [
     "café",
@@ -1305,7 +1305,7 @@ export default [
   "source": "That's the boy. I found his {thing} {when}.",
   "hint": "That's the boy ______ {thing} I found {when}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "His …, I found it → whose ….",
   "slots": {
    "thing": [
     "phone",
@@ -1333,7 +1333,7 @@ export default [
   "source": "The man who his car is red lives near the {place}, {name}.",
   "hint": "The man ______ car is red lives near the {place}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "who his → whose.",
   "slots": {
    "place": [
     "bank",
@@ -1361,7 +1361,7 @@ export default [
   "source": "I have a friend who's sister is a {job}, {name}.",
   "hint": "I have a friend ______ sister is a {job}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "who's = who is; belonging needs whose.",
   "slots": {
    "job": [
     "doctor",
@@ -1389,7 +1389,7 @@ export default [
   "source": "We stayed in a hotel which rooms were {adj}, {name}.",
   "hint": "We stayed in a hotel ______ rooms were {adj}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "For belonging use whose, not which.",
   "slots": {
    "adj": [
     "huge",
@@ -1417,7 +1417,7 @@ export default [
   "source": "The girl who her bike broke {when} is sad, {name}.",
   "hint": "The girl ______ bike broke {when} is sad, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "who her → whose.",
   "slots": {
    "when": [
     "yesterday",
@@ -1445,7 +1445,7 @@ export default [
   "source": "My neighbour, who's dog is very big, is a {job}, {name}.",
   "hint": "My neighbour, ______ dog is very big, is a {job}, {name}.",
   "key": "whose",
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "who's = who is; belonging needs whose.",
   "slots": {
    "job": [
     "doctor",
@@ -1476,7 +1476,7 @@ export default [
    "whose",
    "sister"
   ],
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "'s sister → whose sister.",
   "slots": {
    "name": [
     "Aziz",
@@ -1507,7 +1507,7 @@ export default [
    "whose",
    "dog"
   ],
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The girl's dog → whose dog.",
   "slots": {
    "name": [
     "Aziz",
@@ -1538,7 +1538,7 @@ export default [
    "whose",
    "son"
   ],
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The man's son → whose son.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1569,7 +1569,7 @@ export default [
    "whose",
    "owner"
   ],
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "The café's owner → whose owner.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1600,7 +1600,7 @@ export default [
    "whose",
    "husband"
   ],
-  "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
+  "why": "My cousin's husband → whose husband.",
   "slots": {
    "job": [
     "doctor",

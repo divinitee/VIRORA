@@ -168,7 +168,7 @@ const VARIETY = {
    "No noun before it: What = the thing that.",
    "\"not … I ordered\", no noun: what = the thing that.",
    "After exactly, no noun: what.",
-   "After believe, no noun: what.",
+   "\"I can't … \" + no noun after it: what he did.",
    "After understand, no noun: what.",
    "No noun before it: What = the food that."
   ],
