@@ -1070,9 +1070,9 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete both parts with the + comparative. Use the words in brackets.",
-  "source": "______ (quick) you speak {lang}, ______ (difficult) it is to understand you, {name}.",
+  "source": "______ (fast) you speak {lang}, ______ (difficult) it is to understand you, {name}.",
   "key": [
-   "The quicker",
+   "The faster",
    "the more difficult"
   ],
   "why": "Two changes go together: The + comparative …, the + comparative ….",
@@ -1622,19 +1622,19 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with The …, the … .",
-  "source": "As the {event} gets nearer, I feel more nervous, {name}.",
-  "hint": "______ the {event} gets, ______ I feel, {name}.",
+  "source": "As it gets later at the {event}, I feel more tired, {name}.",
+  "hint": "______ it gets at the {event}, ______ I feel, {name}.",
   "key": [
-   "The nearer",
-   "the more nervous"
+   "The later",
+   "the more tired"
   ],
   "why": "Two changes go together: The + comparative …, the + comparative ….",
   "slots": {
    "event": [
-    "exam",
+    "party",
     "wedding",
-    "match",
-    "interview"
+    "concert",
+    "meeting"
    ],
    "name": [
     "Nodira",
