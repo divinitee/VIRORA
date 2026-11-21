@@ -17,7 +17,7 @@ export default [
    "will able to"
   ],
   "key": 0,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"I hope\" + next time: future ability: will be able to.",
   "slots": {
    "time": [
     "year",
@@ -49,7 +49,7 @@ export default [
    "will be able to"
   ],
   "key": 3,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"After this course\": a future ability: will be able to.",
   "slots": {
    "who": [
     "tourists",
@@ -81,7 +81,7 @@ export default [
    "will can"
   ],
   "key": 2,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"When the new bridge opens\": future possibility: will be able to.",
   "slots": {
    "city": [
     "Samarkand",
@@ -113,7 +113,7 @@ export default [
    "can be able to"
   ],
   "key": 1,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"The doctor says … in …\": future ability: will be able to.",
   "slots": {
    "when": [
     "a month",
@@ -145,7 +145,7 @@ export default [
    "will able to"
   ],
   "key": 0,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"If you save money now\": a future result: will be able to.",
   "slots": {
    "thing": [
     "car",
@@ -177,7 +177,7 @@ export default [
    "won't be able to"
   ],
   "key": 3,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"I'm busy\": future, negative: won't be able to.",
   "slots": {
    "when": [
     "tomorrow",
@@ -209,7 +209,7 @@ export default [
    "won't can"
   ],
   "key": 2,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"I'm working\": I can't then: won't be able to.",
   "slots": {
    "event": [
     "party",
@@ -241,7 +241,7 @@ export default [
    "can't be able to"
   ],
   "key": 1,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"closed tomorrow\": future, negative: won't be able to.",
   "slots": {
    "shop": [
     "bakery",
@@ -273,7 +273,7 @@ export default [
    "will able to"
   ],
   "key": 0,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"In ten years\": future ability: will be able to.",
   "slots": {
    "food": [
     "plov",
@@ -305,7 +305,7 @@ export default [
    "will be able to"
   ],
   "key": 3,
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"When you're eighteen\": future ability: will be able to.",
   "slots": {
    "car": [
     "car",
@@ -337,7 +337,7 @@ export default [
    "have could"
   ],
   "key": 2,
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"since we moved\": ability up to now: have been able to.",
   "slots": {
    "home": [
     "flat",
@@ -369,7 +369,7 @@ export default [
    "can't have"
   ],
   "key": 1,
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"since she came\": no success up to now: hasn't been able to.",
   "slots": {
    "city": [
     "Tashkent",
@@ -401,7 +401,7 @@ export default [
    "haven't able to"
   ],
   "key": 0,
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"because of the snow\" this period: haven't been able to.",
   "slots": {
    "time": [
     "month",
@@ -433,7 +433,7 @@ export default [
    "haven't been able to"
   ],
   "key": 3,
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"My phone is broken\" all this time: haven't been able to.",
   "slots": {
    "time": [
     "day",
@@ -465,7 +465,7 @@ export default [
    "have could"
   ],
   "key": 2,
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"Since I started\": ability up to now: have been able to.",
   "slots": {
    "thing": [
     "films",
@@ -497,7 +497,7 @@ export default [
    "can"
   ],
   "key": 1,
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After want, can needs to be: to be able to.",
   "slots": {
    "lang": [
     "Uzbek",
@@ -529,7 +529,7 @@ export default [
    "be able"
   ],
   "key": 0,
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After would like: to be able to.",
   "slots": {
    "instr": [
     "piano",
@@ -561,7 +561,7 @@ export default [
    "to be able to"
   ],
   "key": 3,
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After It's nice: to be able to.",
   "slots": {
    "month": [
     "spring",
@@ -593,7 +593,7 @@ export default [
    "to can"
   ],
   "key": 2,
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After hope: to be able to.",
   "slots": {
    "country": [
     "Japan",
@@ -625,7 +625,7 @@ export default [
    "can"
   ],
   "key": 1,
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After need: to be able to.",
   "slots": {
    "trip": [
     "boat trip",
@@ -652,7 +652,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "I hope I ______ (come) next {time}, {name}.",
   "key": "will be able to come",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"I hope … next\": will be able to come.",
   "slots": {
    "time": [
     "year",
@@ -679,7 +679,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "After this {course}, you ______ (speak) English well, {name}.",
   "key": "will be able to speak",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"After this …\": will be able to speak.",
   "slots": {
    "course": [
     "course",
@@ -706,7 +706,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "When the new {road} opens, we ______ (drive) there in an hour, {name}.",
   "key": "will be able to drive",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"When the new … opens\": will be able to drive.",
   "slots": {
    "road": [
     "road",
@@ -733,7 +733,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "The doctor says you ______ (walk) again in {when}, {name}.",
   "key": "will be able to walk",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"The doctor says … again\": will be able to walk.",
   "slots": {
    "when": [
     "a month",
@@ -760,7 +760,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "If you save now, you ______ (buy) a {thing} next year, {name}.",
   "key": "will be able to buy",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"If you save now\": will be able to buy.",
   "slots": {
    "thing": [
     "car",
@@ -787,7 +787,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "I'm busy {when}, so I ______ (not / help) you, {name}.",
   "key": "won't be able to help",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"I'm busy\": won't be able to help.",
   "slots": {
    "when": [
     "tomorrow",
@@ -817,7 +817,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "Sorry, I ______ (not / come) on Saturday, {name}. I'm at the {place}.",
   "key": "won't be able to come",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"I'm at the …\" on Saturday: won't be able to come.",
   "slots": {
    "place": [
     "hospital",
@@ -847,7 +847,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "The {shop} is closed tomorrow, so we ______ (not / buy) bread, {name}.",
   "key": "won't be able to buy",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"closed tomorrow\": won't be able to buy.",
   "slots": {
    "shop": [
     "bakery",
@@ -877,7 +877,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "I ______ (sleep) well since we moved into the new {home}, {name}.",
   "key": "have been able to sleep",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"since we moved\": have been able to sleep.",
   "slots": {
    "home": [
     "flat",
@@ -904,7 +904,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "She ______ (not / find) a job since she came {where}, {name}.",
   "key": "hasn't been able to find",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"since she came\": hasn't been able to find.",
   "slots": {
    "where": [
     "here",
@@ -934,7 +934,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "We ______ (not / visit) Grandma this {time} because of the snow, {name}.",
   "key": "haven't been able to visit",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"because of the snow\": haven't been able to visit.",
   "slots": {
    "time": [
     "month",
@@ -964,7 +964,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "I ______ (not / call) you all {time}. My phone is broken, {name}.",
   "key": "haven't been able to call",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"My phone is broken\": haven't been able to call.",
   "slots": {
    "time": [
     "day",
@@ -994,7 +994,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "Since we got the new {tool}, we ______ (finish) work early every day, {name}.",
   "key": "have been able to finish",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "\"Since we got the new …\": every day up to now: have been able to finish.",
   "slots": {
    "tool": [
     "computer",
@@ -1021,7 +1021,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "I want ______ (speak) {lang} with my grandparents, {name}.",
   "key": "to be able to speak",
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After want: to be able to speak.",
   "slots": {
    "lang": [
     "Uzbek",
@@ -1048,7 +1048,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "She'd like ______ (play) the {instr} one day, {name}.",
   "key": "to be able to play",
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After would like: to be able to play.",
   "slots": {
    "instr": [
     "piano",
@@ -1075,7 +1075,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "We hope ______ (travel) round {place} next year, {name}.",
   "key": "to be able to travel",
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After hope: to be able to travel.",
   "slots": {
    "place": [
     "Europe",
@@ -1102,7 +1102,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "You need ______ (swim) before the {trip}, {name}.",
   "key": "to be able to swim",
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After need: to be able to swim.",
   "slots": {
    "trip": [
     "boat trip",
@@ -1129,7 +1129,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "I might ______ (help) you {when}, {name}.",
   "key": "be able to help",
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After might, no will: be able to help.",
   "slots": {
    "when": [
     "tomorrow",
@@ -1156,7 +1156,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "We might ______ (meet) at the {place} later, {name}.",
   "key": "be able to meet",
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After might, no will: be able to meet.",
   "slots": {
    "place": [
     "café",
@@ -1183,7 +1183,7 @@ export default [
   "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
   "source": "Next year, Timur ______ (read) English {thing}, {name}.",
   "key": "will be able to read",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"Next year\": will be able to read.",
   "slots": {
    "thing": [
     "books",
@@ -1211,7 +1211,7 @@ export default [
   "source": "I will can come next {time}, {name}.",
   "hint": "I ______ come next {time}, {name}.",
   "key": "will be able to",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "Two modals can't go together: will can → will be able to.",
   "slots": {
    "time": [
     "year",
@@ -1239,7 +1239,7 @@ export default [
   "source": "She will can drive next {time}, {name}.",
   "hint": "She ______ drive next {time}, {name}.",
   "key": "will be able to",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "will can is wrong: will be able to.",
   "slots": {
    "time": [
     "year",
@@ -1267,7 +1267,7 @@ export default [
   "source": "I haven't could sleep since {when}, {name}.",
   "hint": "I ______ sleep since {when}, {name}.",
   "key": "haven't been able to",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "No haven't could: haven't been able to.",
   "slots": {
    "when": [
     "Monday",
@@ -1298,7 +1298,7 @@ export default [
   "source": "I want can speak {lang} well, {name}.",
   "hint": "I want ______ speak {lang} well, {name}.",
   "key": "to be able to",
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After want: to be able to, not can.",
   "slots": {
    "lang": [
     "English",
@@ -1326,7 +1326,7 @@ export default [
   "source": "We might can help you {when}, {name}.",
   "hint": "We might ______ help you {when}, {name}.",
   "key": "be able to",
-  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "why": "After might: be able to, not can.",
   "slots": {
    "when": [
     "tomorrow",
@@ -1354,7 +1354,7 @@ export default [
   "source": "It will be possible for us to see the {view} from the new flat, {name}.",
   "hint": "We ______ see the {view} from the new flat, {name}.",
   "key": "will be able to",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "It will be possible → will be able to.",
   "slots": {
    "view": [
     "mountains",
@@ -1382,7 +1382,7 @@ export default [
   "source": "I'm sorry, but coming on {day} won't be possible for me, {name}.",
   "hint": "I'm sorry, but I ______ come on {day}, {name}.",
   "key": "won't be able to",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "won't be possible → won't be able to.",
   "slots": {
    "day": [
     "Friday",
@@ -1413,7 +1413,7 @@ export default [
   "source": "In a year, you can read English {thing}. That's the plan, {name}.",
   "hint": "In a year, you ______ read English {thing}, {name}.",
   "key": "will be able to",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "In a year (future): will be able to.",
   "slots": {
    "thing": [
     "books",
@@ -1441,7 +1441,7 @@ export default [
   "source": "After the operation, walking in the {place} will be possible for {who}.",
   "hint": "After the operation, {who} ______ walk in the {place}.",
   "key": "will be able to",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "will be possible → will be able to.",
   "slots": {
    "place": [
     "park",
@@ -1469,7 +1469,7 @@ export default [
   "source": "They can't finish the {work} today. Maybe next week, {name}.",
   "hint": "They ______ finish the {work} today, {name}.",
   "key": "won't be able to",
-  "why": "can has no future form: will (won't) be able to + base verb.",
+  "why": "\"Maybe next week\": not today: won't be able to.",
   "slots": {
    "work": [
     "project",
@@ -1500,7 +1500,7 @@ export default [
   "source": "Since {when}, sleeping well hasn't been possible for me, {name}.",
   "hint": "I ______ sleep well since {when}, {name}.",
   "key": "haven't been able to",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "hasn't been possible → haven't been able to.",
   "slots": {
    "when": [
     "Monday",
@@ -1531,7 +1531,7 @@ export default [
   "source": "She came to {city} in May. She still has no {thing}.",
   "hint": "She ______ find a {thing} in {city}.",
   "key": "hasn't been able to",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "Since May, no job up to now: hasn't been able to.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1562,7 +1562,7 @@ export default [
   "source": "This {time}, saving some money has been possible for us, {name}.",
   "hint": "This {time}, we ______ save some money, {name}.",
   "key": "have been able to",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "has been possible → have been able to.",
   "slots": {
    "time": [
     "year",
@@ -1590,7 +1590,7 @@ export default [
   "source": "They wanted to visit us this {time}, but they never had a free day, {name}.",
   "hint": "They ______ visit us this {time}, {name}.",
   "key": "haven't been able to",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "They wanted to but never could: haven't been able to.",
   "slots": {
    "time": [
     "month",
@@ -1621,7 +1621,7 @@ export default [
   "source": "Since the {course}, films in English are easy for him, {name}.",
   "hint": "Since the {course}, he ______ understand films in English, {name}.",
   "key": "has been able to",
-  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "why": "Since the course, it's easy now: has been able to.",
   "slots": {
    "course": [
     "course",
