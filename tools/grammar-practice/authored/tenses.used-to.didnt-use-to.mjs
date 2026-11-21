@@ -61,9 +61,11 @@ const CHOOSE = [
 ].map(([set, subj, v, ing, prompt, slots], i) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if (prompt.includes(`{${n}}`)) s[n] = f;
+  // Audit 21 Nov: "didn't used to" is accepted by some dictionaries, so it is a wrong option in 4 items only.
+  const second = i < 4 ? `didn't used to ${v}` : set === "A" ? `${DO[subj]} use to ${v}` : `${BE[subj]} used to ${v}`;
   const opts = set === "A"
-    ? [`didn't use to ${v}`, `didn't used to ${v}`, `${BE[subj]} used to ${v}`, `didn't use ${v}`]
-    : [`didn't use to ${v}`, `didn't used to ${v}`, `${DO[subj]} use to ${v}`, `didn't use to ${ing}`];
+    ? [`didn't use to ${v}`, second, `${BE[subj]} used to ${v}`, `didn't use ${v}`]
+    : [`didn't use to ${v}`, second, `${DO[subj]} use to ${v}`, `didn't use to ${ing}`];
   const options = opts.map((_, j) => opts[(j + i) % 4]);
   return { ...BASE, stage: "choose", format: "mcq", prompt, options, key: options.indexOf(`didn't use to ${v}`), why: why(`didn't use to ${v}`), slots: s };
 });

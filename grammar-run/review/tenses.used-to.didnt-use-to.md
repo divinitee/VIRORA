@@ -21,67 +21,67 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to speak. After did, write use with no -d.
 
 5. I ______ **physics** at school. Now it's my favourite subject, **Timur**.  
-   options: ✔ didn't use to enjoy · didn't used to enjoy · wasn't used to enjoy · didn't use enjoy  
+   options: ✔ didn't use to enjoy · don't use to enjoy · wasn't used to enjoy · didn't use enjoy  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to enjoy. After did, write use with no -d.
 
 6. My cousins ______ near us. They moved here from **Termez** last **summer**.  
-   options: didn't used to live · don't use to live · didn't use to living · ✔ didn't use to live  
+   options: weren't used to live · don't use to live · didn't use to living · ✔ didn't use to live  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to live. After did, write use with no -d.
 
 7. My **brother** ______ glasses, but now he needs them for **the computer**.  
-   options: wasn't used to wear · didn't use wear · ✔ didn't use to wear · didn't used to wear  
+   options: wasn't used to wear · didn't use wear · ✔ didn't use to wear · doesn't use to wear  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to wear. After did, write use with no -d.
 
 8. I ______ breakfast, but now I have **eggs** every **day**.  
-   options: didn't use to eating · ✔ didn't use to eat · didn't used to eat · don't use to eat  
+   options: didn't use to eating · ✔ didn't use to eat · wasn't used to eat · don't use to eat  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to eat. After did, write use with no -d.
 
 9. My sister ______ up early, but now she gets up at **six** for **training**.  
-   options: ✔ didn't use to get · didn't used to get · wasn't used to get · didn't use get  
+   options: ✔ didn't use to get · doesn't use to get · wasn't used to get · didn't use get  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to get. After did, write use with no -d.
 
 10. We ______ **to the mountains** on holiday, but now we go there every **spring**.  
-   options: didn't used to go · don't use to go · didn't use to going · ✔ didn't use to go  
+   options: weren't used to go · don't use to go · didn't use to going · ✔ didn't use to go  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to go. After did, write use with no -d.
 
 11. **Anton** ______ **chess**. He started last **year** and now he loves it.  
-   options: wasn't used to play · didn't use play · ✔ didn't use to play · didn't used to play  
+   options: wasn't used to play · didn't use play · ✔ didn't use to play · doesn't use to play  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to play. After did, write use with no -d.
 
 12. I ______ how to **ride a bike**, but my **older brother** taught me.  
-   options: didn't use to knowing · ✔ didn't use to know · didn't used to know · don't use to know  
+   options: didn't use to knowing · ✔ didn't use to know · wasn't used to know · don't use to know  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to know. After did, write use with no -d.
 
 13. My parents ______ **football**, but now they watch it every **weekend**.  
-   options: ✔ didn't use to watch · didn't used to watch · weren't used to watch · didn't use watch  
+   options: ✔ didn't use to watch · don't use to watch · weren't used to watch · didn't use watch  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to watch. After did, write use with no -d.
 
 14. **Nilufar** ______ to school, but now she walks there every **morning** with **her sister**.  
-   options: didn't used to walk · doesn't use to walk · didn't use to walking · ✔ didn't use to walk  
+   options: wasn't used to walk · doesn't use to walk · didn't use to walking · ✔ didn't use to walk  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to walk. After did, write use with no -d.
 
 15. We ______ a **storeroom** in our old **place**, but our new home has two.  
-   options: weren't used to have · didn't use have · ✔ didn't use to have · didn't used to have  
+   options: weren't used to have · didn't use have · ✔ didn't use to have · don't use to have  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to have. After did, write use with no -d.
 
 16. My little brother ______ **dogs**, but now he plays with them all **day**.  
-   options: didn't use to liking · ✔ didn't use to like · didn't used to like · doesn't use to like  
+   options: didn't use to liking · ✔ didn't use to like · wasn't used to like · doesn't use to like  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to like. After did, write use with no -d.
 
 17. I ______ good at **singing**, but I practised a lot last **summer**.  
-   options: ✔ didn't use to be · didn't used to be · wasn't used to be · didn't use be  
+   options: ✔ didn't use to be · don't use to be · wasn't used to be · didn't use be  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to be. After did, write use with no -d.
 
 18. My **aunt** ______ **lagman**, but now she makes it every **Sunday**.  
-   options: didn't used to cook · doesn't use to cook · didn't use to cooking · ✔ didn't use to cook  
+   options: wasn't used to cook · doesn't use to cook · didn't use to cooking · ✔ didn't use to cook  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to cook. After did, write use with no -d.
 
 19. My **brothers** ______ much, but now they talk on the phone every **weekend**.  
-   options: weren't used to talk · didn't use talk · ✔ didn't use to talk · didn't used to talk  
+   options: weren't used to talk · didn't use talk · ✔ didn't use to talk · don't use to talk  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to talk. After did, write use with no -d.
 
 20. I ______ books, but now I read one every **week** on the **metro**.  
-   options: didn't use to reading · ✔ didn't use to read · didn't used to read · don't use to read  
+   options: didn't use to reading · ✔ didn't use to read · wasn't used to read · don't use to read  
    why: It was not true in the past, but it is now: didn't use to + the base form, didn't use to read. After did, write use with no -d.
 
 ## build (20)
