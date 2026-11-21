@@ -437,7 +437,7 @@ test('masterV0 (bar test): off-plan ladder escalates, live-drama + leaving rows,
   const msg = (n, tests = 0) => buildTurnMessage({ persona: 'vira', studentText: 'x', plan: { focus: 'past simple', off_plan: n, tests } });
   assert.match(msg(2), /OFF-PLAN 2: this reply MUST BRIDGE/);
   assert.match(msg(3), /OFF-PLAN 3: DROP the story/);
-  assert.match(msg(5), /OFF-PLAN 4\+: name what is going on and make a DEAL/);
+  assert.match(msg(5), /OFF-PLAN 5\+: your deal was already made/);
   assert.doesNotMatch(msg(1), /OFF-PLAN/);
   assert.match(msg(0, 2), /testing you or spinning stories 2 times/);
   const p = buildBrainInstructions({ persona: 'vira' });
