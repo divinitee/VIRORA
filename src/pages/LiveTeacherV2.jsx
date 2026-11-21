@@ -402,7 +402,18 @@ export default function LiveTeacherV2() {
           <Button variant="ghost" size="icon" onClick={() => navigate(-1)}><ArrowLeft className="h-5 w-5" /></Button>
           <h1 className="text-xl font-bold">Lesson with {personaName}</h1>
         </div>
-        {recap?.summary ? <p className="text-sm">{recap.summary}</p> : null}
+        {recap?.conduct && (recap.conduct.strikes > 0 || recap.conduct.casual > 0) ? (
+          <div className="rounded-xl border border-red-500/40 bg-red-500/10 p-3 text-sm">
+            <p className="font-semibold text-red-300">{{ uz: "Xulq", ru: "Поведение" }[lang] || "Behaviour"}</p>
+            <p className="text-red-200/90">
+              {recap.conduct.ended_early
+                ? ({ uz: "Dars muddatidan oldin tugadi: o'qituvchiga qo'pol yoki hurmatsiz gaplar.", ru: "Урок закончился раньше: грубые или неуважительные слова в адрес учителя." }[lang] || "The lesson ended early: rude or disrespectful language towards the teacher.")
+                : ({ uz: "Darsda qo'pol so'zlar ishlatildi.", ru: "На уроке были грубые слова." }[lang] || "Rude language was used in this lesson.")}
+              {` (${recap.conduct.strikes} ${{ uz: "ogohlantirish", ru: "предупр." }[lang] || "strike(s)"}${recap.conduct.casual ? `, ${recap.conduct.casual} ${{ uz: "so'kinish", ru: "мат" }[lang] || "casual swear(s)"}` : ""})`}
+            </p>
+          </div>
+        ) : null}
+        {recap?.summary ? <p className="text-sm">{String(recap.summary).replace(/^ENDED EARLY FOR SWEARING \([^)]*\)\.\s*/, "")}</p> : null}
         {recap?.strengths?.length ? <p className="text-sm text-emerald-300">✓ {recap.strengths.join(" · ")}</p> : null}
         {recap?.focus_next?.length ? <p className="text-sm text-muted-foreground">Next time: {recap.focus_next.join(" · ")}</p> : null}
         <RecapMistakes mistakes={recap?.mistakes || mistakes} c={c} lang={lang} navigate={navigate} />

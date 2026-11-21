@@ -486,3 +486,25 @@ test('voice direction carries into the second half of a split reply', async () =
   assert.equal(splitSpeech('Plain first sentence here. Plain rest.').rest, 'Plain rest.');
   assert.match(buildBrainInstructions({ persona: 'vira' }), /never bright or sunny/);
 });
+
+test('quick return after a conduct ending: she notices it was minutes, recap records the behaviour', async () => {
+  const { buildTurnMessage, buildBrainInstructions } = await import('../../base44/shared/liveTeacherBrain.js');
+  assert.match(buildTurnMessage({ persona: 'violet', start: true, comebackMinutes: 3 }), /3 minute\(s\) ago[\s\S]*QUICK-RETURN/);
+  assert.doesNotMatch(buildTurnMessage({ persona: 'violet', start: true, comebackMinutes: 600 }), /QUICK-RETURN/);
+  assert.match(buildBrainInstructions({ persona: 'violet', uiLang: 'en' }), /I know people change\. But in a few minutes\? Convince me/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz' }), /Ertaga degandim-ku/);
+  // end-to-end: Violet ends on the first curse, the recap carries the behaviour, a quick return is noticed
+  const svc = fakeDb();
+  const s1 = fakeServices();
+  const a = await startVoiceLesson({ svc, user: student, body: { persona: 'vira' }, env, fetchImpl: s1.fetchImpl, now: T0 });
+  const rude = fakeServices({ brain: brainAnswer({ rude: true, end_lesson: true, summary: 'Ended.' }) });
+  let t;
+  for (let i = 0; i < 3; i++) t = await voiceTurnText({ svc, user: student, body: { lesson_id: a.body.lesson_id, text: 'rude words here' }, env, fetchImpl: rude.fetchImpl, now: T0 + 60000 * (i + 1) });
+  assert.equal(t.body.ended, true);
+  assert.equal(t.body.recap.conduct.ended_early, true);
+  assert.equal(svc.LiveTeacherLesson.rows[0].scores.conduct_end, true);
+  const s3 = fakeServices({ brain: brainAnswer({ reply: 'Back already?' }) });
+  await startVoiceLesson({ svc, user: student, body: { persona: 'vira' }, env, fetchImpl: s3.fetchImpl, now: T0 + 5 * 60000 });
+  const greet = s3.calls.filter((c) => c.url.includes('/chat/completions')).pop();
+  assert.match(JSON.parse(greet.init.body).messages[1].content, /QUICK-RETURN/);
+});

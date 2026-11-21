@@ -273,14 +273,13 @@ export async function speak(env, { voiceId, text }, fetchImpl = fetch) {
 }
 
 // ------------------------------------------------------------------ helpers
-/** Her last lines from the student's previous v2 lesson (so she doesn't reuse them today). */
-async function previousPlan(svc, email) {
+/** The student's previous v2 lesson: her last lines (so she doesn't reuse them) and how it ended. */
+async function previousLesson(svc, email) {
   try {
     const rows = await svc.LiveTeacherLesson.filter({ user_email: email }, '-created_date', 3);
-    const prev = (rows || []).find((r) => r?.scores?.plan);
-    return prev?.scores?.plan || null;
+    return (rows || []).find((r) => r?.scores?.plan) || null;
   } catch {
-    return null; // memory of old lines is nice-to-have, never a reason to fail the start
+    return null; // nice-to-have, never a reason to fail the start
   }
 }
 
@@ -335,15 +334,19 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
   const s = settings(env);
   const tags = s.audioTags && modelSupportsTags(s.ttsModel);
   try {
-    const [voiceId, { row, profile }, safetyId, prevPlan] = await Promise.all([
+    const [voiceId, { row, profile }, safetyId, prev] = await Promise.all([
       resolveVoice(env, persona, fetchImpl), getOrCreateProfile(svc, user.email), sha256Hex(user.id || user.email),
-      previousPlan(svc, user.email),
+      previousLesson(svc, user.email),
     ]);
-    const seed = seedPlan(prevPlan);
+    // Did the last lesson end because of their behaviour, and how long ago? (21 Nov: Tee came back
+    // minutes after "come back tomorrow"; she should notice, and be a little guarded.)
+    const endedAt = Date.parse(prev?.ended_at || prev?.updated_date || '');
+    const comebackMinutes = prev?.scores?.conduct_end && Number.isFinite(endedAt) ? Math.max(0, (now - endedAt) / 60000) : null;
+    const seed = seedPlan(prev?.scores?.plan, { patience: comebackMinutes !== null && comebackMinutes <= 60 ? 50 : undefined });
     const instructions = buildBrainInstructions({ persona, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags });
     // The brain writes the greeting while the ears pass for the phone is made.
     const [{ out, usage }, sttToken] = await Promise.all([
-      think(env, { instructions, message: buildTurnMessage({ persona, start: true, plan: seed }), safetyId }, fetchImpl),
+      think(env, { instructions, message: buildTurnMessage({ persona, start: true, plan: seed, comebackMinutes }), safetyId }, fetchImpl),
       softToken(env, 'batch_scribe', fetchImpl),
     ]);
     const speakText = tags ? out.reply : stripAudioTags(out.reply);
@@ -473,14 +476,14 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
     timings.voice_ms = Date.now() - tVoice;
     const c = costOf({ sttSeconds, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: voice.chars });
     const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: voice.chars });
-    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
+    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, conduct_end: conduct.end || !!lesson.scores?.conduct_end, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
     await svc.LiveTeacherLesson.update(lesson.id, { ...applied.counters, tool_calls: updated.tool_calls, scores: updated.scores });
 
     let recap = null;
     if (out.end_lesson) {
       const { row: row2, profile: p2 } = await getOrCreateProfile(svc, user.email);
       recap = await finalize(svc, { lesson: updated, row: row2, profile: p2, summary: out.summary, strengths: out.strengths, focusNext: out.focus_next, scores: null, now });
-      recap = { ...recap, usage: usageTotal };
+      recap = { ...recap, usage: usageTotal, conduct: { strikes: conduct.strikes, casual: conduct.casual, ended_early: conduct.end } };
     }
     console.log('live teacher v2 turn', JSON.stringify({ lesson: lesson.id, persona, cost: c.total, lesson_cost: usageTotal.cost_usd, addressed: out.addressed_to_teacher, mistakes: out.mistakes.length }));
 
@@ -571,7 +574,7 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
     const applied = applyReport(profile, lesson, out, ctx);
     const c = costOf({ sttSeconds, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: speakText.length });
     const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: speakText.length });
-    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
+    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, conduct_end: conduct.end || !!lesson.scores?.conduct_end, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
     const [first] = await Promise.all([
       firstJob,
       applied.profile !== profile ? saveProfile(svc, row, applied.profile) : null,
@@ -583,7 +586,7 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
     let recap = null;
     if (out.end_lesson) {
       recap = await finalize(svc, { lesson: updated, row, profile: applied.profile, summary: out.summary, strengths: out.strengths, focusNext: out.focus_next, scores: null, now });
-      recap = { ...recap, usage: usageTotal };
+      recap = { ...recap, usage: usageTotal, conduct: { strikes: conduct.strikes, casual: conduct.casual, ended_early: conduct.end } };
     }
     return reply(200, {
       ok: true,
