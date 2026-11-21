@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. The teacher ______ that we had a test on **Tuesday**, **Olga**.  
    options: said me · told to · ✔ said · told  
-   why: No listener, just that: said.
+   why: "The teacher … that": no listener named: said.
 
 8. **Lola** ______ hello and sat down next to me on the **bus**.  
    options: told to · ✔ said · told · said me  
@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. **Lola** ______ her **teacher** the truth.  
    options: told to · talked · ✔ told · said  
-   why: Fixed phrase tell the truth: told.
+   why: She told her … the truth: tell + person + the truth.
 
 16. My **cousin** ______ me a secret **last night**.  
    options: talked · ✔ told · said · told to  
@@ -74,7 +74,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 18. **Timur** ______ me he would be late for the **meeting**.  
    options: said · told to · talked · ✔ told  
-   why: A listener (me) after the gap: told me.
+   why: "… me he would be late": a listener: told.
 
 19. Did you ______ **the teacher** about the party, **Lola**?  
    options: tell to · talk · ✔ tell · say  
@@ -104,7 +104,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Write said or told (or say / tell)._  
    My **mum** ______ the **trip** was a good idea.  
    key: said  
-   why: No person after the gap: said the … was.
+   why: "My … … the plan was": no person after: said.
 
 5. _Write said or told (or say / tell)._  
    Everyone ______ the **party** was great, **Timur**.  
@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Write said or told (or say / tell)._  
    **Lola** ______ her **mother** the truth.  
    key: told  
-   why: Fixed phrase tell the truth: told.
+   why: Telling a person the truth: told her … the truth.
 
 16. _Write said or told (or say / tell)._  
    The **writer** ______ the class a story about the **sea**.  
@@ -174,7 +174,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Write said or told (or say / tell)._  
    **Rustam** ______ me he would be late for the **dinner**.  
    key: told  
-   why: A person (me) after the gap: told.
+   why: "… me he would be late": listener me: told.
 
 19. _Write said or told (or say / tell)._  
    I ______ the **manager** my name and address, **Sevara**.  
@@ -222,7 +222,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    **Aziz** said to me that he was hungry after the **lesson**.  
    → **Aziz** ______ that he was hungry after the **lesson**.  
    key: told me  
-   why: said to me = told me.
+   why: He said it to me: so told me, no to.
 
 7. _Rewrite with told._  
    **Madina** said to us that the **meeting** was at six.  
@@ -246,7 +246,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    My **grandmother** said to me, 'Dinner is ready, **Bekzod**.'  
    → My **grandmother** ______ that dinner was ready.  
    key: told me  
-   why: said to me = told me.
+   why: 'Dinner is ready' was said to me: told me.
 
 11. _Rewrite with said._  
    **Timur** told me that he was tired after the **match**.  

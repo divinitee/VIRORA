@@ -209,7 +209,7 @@ export default [
    "told"
   ],
   "key": 2,
-  "why": "No listener, just that: said.",
+  "why": "\"The teacher … that\": no listener named: said.",
   "slots": {
    "day": [
     "Monday",
@@ -465,7 +465,7 @@ export default [
    "said"
   ],
   "key": 2,
-  "why": "Fixed phrase tell the truth: told.",
+  "why": "She told her … the truth: tell + person + the truth.",
   "slots": {
    "f": [
     "Olga",
@@ -561,7 +561,7 @@ export default [
    "told"
   ],
   "key": 3,
-  "why": "A listener (me) after the gap: told me.",
+  "why": "\"… me he would be late\": a listener: told.",
   "slots": {
    "m": [
     "Aziz",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "My {who} ______ the {plan} was a good idea.",
   "key": "said",
-  "why": "No person after the gap: said the … was.",
+  "why": "\"My … … the plan was\": no person after: said.",
   "slots": {
    "who": [
     "dad",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{f} ______ her {who} the truth.",
   "key": "told",
-  "why": "Fixed phrase tell the truth: told.",
+  "why": "Telling a person the truth: told her … the truth.",
   "slots": {
    "f": [
     "Olga",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{m} ______ me he would be late for the {event}.",
   "key": "told",
-  "why": "A person (me) after the gap: told.",
+  "why": "\"… me he would be late\": listener me: told.",
   "slots": {
    "m": [
     "Aziz",
@@ -1333,7 +1333,7 @@ export default [
   "source": "{m} said to me that he was hungry after the {event}.",
   "hint": "{m} ______ that he was hungry after the {event}.",
   "key": "told me",
-  "why": "said to me = told me.",
+  "why": "He said it to me: so told me, no to.",
   "slots": {
    "m": [
     "Aziz",
@@ -1439,7 +1439,7 @@ export default [
   "source": "My {who} said to me, 'Dinner is ready, {m}.'",
   "hint": "My {who} ______ that dinner was ready.",
   "key": "told me",
-  "why": "said to me = told me.",
+  "why": "'Dinner is ready' was said to me: told me.",
   "slots": {
    "who": [
     "mother",

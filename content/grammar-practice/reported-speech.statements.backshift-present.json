@@ -812,7 +812,7 @@
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last week {m} said he ______ (have) a {ill}.",
   "key": "had",
-  "why": "have → had (he).",
+  "why": "have → had, as he reported it.",
   "slots": {
    "m": [
     "Aziz",
@@ -839,7 +839,7 @@
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "On Monday {f} said she ______ (have) a lot of {work}.",
   "key": "had",
-  "why": "have → had (she).",
+  "why": "have → had, as she reported it.",
   "slots": {
    "f": [
     "Olga",
@@ -866,7 +866,7 @@
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "At the café yesterday, {m} said he ______ (want) some {food}.",
   "key": "wanted",
-  "why": "want → wanted.",
+  "why": "want moves back a step: wanted.",
   "slots": {
    "m": [
     "Aziz",
@@ -893,7 +893,7 @@
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Yesterday {f} said she ______ (need) my {thing}.",
   "key": "needed",
-  "why": "need → needed.",
+  "why": "need moves back a step: needed.",
   "slots": {
    "f": [
     "Olga",
@@ -920,7 +920,7 @@
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last Friday {m} said he ______ (can't) come to the {event}.",
   "key": "couldn't",
-  "why": "can't → couldn't.",
+  "why": "can't moves back a step: couldn't.",
   "slots": {
    "m": [
     "Aziz",
@@ -947,7 +947,7 @@
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "On Sunday {f} said she ______ (can) help me with the {work}.",
   "key": "could",
-  "why": "can → could.",
+  "why": "can moves back a step: could.",
   "slots": {
    "f": [
     "Olga",
@@ -1191,7 +1191,7 @@
   "source": "'I'm {adj},' {m} said yesterday.",
   "hint": "Yesterday {m} said that ______ {adj}.",
   "key": "he was",
-  "why": "I'm → he was.",
+  "why": "I'm → he was, one step back.",
   "slots": {
    "m": [
     "Aziz",
@@ -1219,7 +1219,7 @@
   "source": "'We're at the {place},' my {who} said last week.",
   "hint": "Last week my {who} said that ______ at the {place}.",
   "key": "they were",
-  "why": "We're → they were.",
+  "why": "We're → they were, one step back.",
   "slots": {
    "who": [
     "friends",
@@ -1275,7 +1275,7 @@
   "source": "'I have a {ill},' {m} said last week.",
   "hint": "Last week {m} said that ______ a {ill}.",
   "key": "he had",
-  "why": "I have → he had.",
+  "why": "I have → he had, one step back.",
   "slots": {
    "m": [
     "Aziz",
@@ -1303,7 +1303,7 @@
   "source": "'I can't come to the {event},' {f} said on Friday.",
   "hint": "On Friday {f} said that ______ come to the {event}.",
   "key": "she couldn't",
-  "why": "I can't → she couldn't.",
+  "why": "I can't → she couldn't, one step back.",
   "slots": {
    "f": [
     "Olga",
