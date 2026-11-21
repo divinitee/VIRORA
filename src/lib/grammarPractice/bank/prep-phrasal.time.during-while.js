@@ -814,7 +814,7 @@ export default [
   "instr": "Write during or while.",
   "source": "Please don't eat ______ the {lesson}, {name}.",
   "key": "during",
-  "why": "In the lesson time (a noun): during.",
+  "why": "Within that class time (a noun): during.",
   "slots": {
    "lesson": [
     "lesson",

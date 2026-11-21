@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Write across, through or along._  
    The children ran ______ the road to the **shop** on the other side, **Otabek**.  
    key: across  
-   why: "on the other side": across.
+   why: They crossed the road to the far side: across.
 
 3. _Write across, through or along._  
    We walked ______ the canal for an hour, **Ulugbek**. The **trees** were beautiful.  
@@ -144,7 +144,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 12. _Write across, through or along._  
    The old men sat on benches ______ the **river**, **Sardor**.  
    key: along  
-   why: In a line beside the …: along.
+   why: Benches in a line next to the …: along.
 
 13. _Write across, through or along._  
    The sun shone ______ the **curtains** onto my desk, **Ulugbek**.  
@@ -192,31 +192,31 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We swam from one side of the **canal** to the other, **Malika**.  
    → We swam ______ the **canal**, **Malika**.  
    key: across  
-   why: from one side to the other = across.
+   why: Swimming to the far side of the … = across.
 
 2. _Rewrite with across._  
    The dog ran from one side of the road to the other, **Sardor**. A **bus** had to stop.  
    → The dog ran ______ the road, **Sardor**. A **bus** had to stop.  
    key: across  
-   why: from one side to the other = across.
+   why: Running to the far side of the road = across.
 
 3. _Rewrite with across._  
    We sailed from one side of the lake to the other in an hour, **Jamshid**. The **wind** was perfect.  
    → We sailed ______ the lake in an hour, **Jamshid**. The **wind** was perfect.  
    key: across  
-   why: from one side to the other = across.
+   why: Sailing to the far side of the lake = across.
 
 4. _Rewrite with across._  
    The kids ran from one side of the street to the other side, **Dilnoza**. The **park** was there.  
    → The kids ran ______ the street, **Dilnoza**. The **park** was there.  
    key: across  
-   why: from one side to the other = across.
+   why: Running to the far side of the street = across.
 
 5. _Rewrite with across._  
    The birds fly from one side of the sea to the other every **spring**, **Ulugbek**.  
    → The birds fly ______ the sea every **spring**, **Ulugbek**.  
    key: across  
-   why: from one side to the other = across.
+   why: Flying to the far side of the sea = across.
 
 6. _Rewrite with through._  
    The train went into the tunnel and came out at the other end, **Sardor**. It was in the **mountains**.  
@@ -228,13 +228,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We went into the forest and came out on the other side, **Jamshid**. It took **all day**.  
    → We went ______ the forest, **Jamshid**. It took **all day**.  
    key: through  
-   why: in one side and out the other = through.
+   why: Into the forest and out the other side = through.
 
 8. _Rewrite with through._  
    The ball went in one side of the window and out the other, **Otabek**. It was a **football** ball.  
    → The ball went ______ the window, **Otabek**. It was a **football** ball.  
    key: through  
-   why: in one side and out the other = through.
+   why: In one side of the window and out = through.
 
 9. _Rewrite with through._  
    We entered the crowd and came out at the front, **Ulugbek**. We saw the **band**.  
@@ -246,7 +246,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    The light goes in one side of the glass and out the other, **Sardor**. The **room** is bright.  
    → The light goes ______ the glass, **Sardor**. The **room** is bright.  
    key: through  
-   why: in one side and out the other = through.
+   why: Light passing in and out of the glass = through.
 
 11. _Rewrite with along._  
    We walked beside the river the whole way to the **bridge**, **Ulugbek**.  

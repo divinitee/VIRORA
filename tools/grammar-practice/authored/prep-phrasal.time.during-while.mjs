@@ -172,7 +172,7 @@ const VARIETY = {
    "\"I was …\" is a clause: while.",
    "",
    "\"the … gets\" is a clause: while.",
-   "In the lesson time (a noun): during.",
+   "Within that class time (a noun): during.",
    "",
    "",
    "",

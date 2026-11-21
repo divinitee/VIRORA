@@ -179,7 +179,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 19. _Put the two words in brackets in the gaps, in the right order._  
    He was very sad when his best friend moved to **Dubai**, but he got ______ ______ (it / over) in the end, **Jamshid**.  
    key: over + it  
-   why: got over it: inseparable.
+   why: get over stays together; it goes after: over it.
 
 20. _Put the two words in brackets in the gaps, in the right order._  
    There were problems with the **orders**, but the manager dealt ______ ______ (with / them), **Gulnora**.  
@@ -198,7 +198,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    (it) Who looks after your grandparents' **cow**, **Akmal**?  
    → Who looks ______ ______, **Akmal**?  
    key: after + it  
-   why: looks after it: inseparable.
+   why: look after stays together: after it, never look it after.
 
 3. _Rewrite with the pronoun in brackets instead of the noun. One word in each gap._  
    (it) We got on the last **bus** just in time, **Sardor**.  
@@ -210,7 +210,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    (them) I came across these **coins** in a box, **Gulnora**.  
    → I came ______ ______ in a box, **Gulnora**.  
    key: across + them  
-   why: came across them: inseparable.
+   why: come across stays together: across them, never came them across.
 
 5. _Rewrite with the pronoun in brackets instead of the noun. One word in each gap._  
    (him) Are you still looking for your **son**, **Jamshid**?  

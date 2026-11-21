@@ -119,7 +119,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Write during or while._  
    Please don't eat ______ the **lesson**, **Otabek**.  
    key: during  
-   why: In the lesson time (a noun): during.
+   why: Within that class time (a noun): during.
 
 8. _Write during or while._  
    We met some tourists ______ we were walking round **Samarkand**, **Sherzod**.  
